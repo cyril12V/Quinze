@@ -1,0 +1,50 @@
+name: Installer sur mon iPhone
+on:
+  workflow_dispatch:
+  push:
+    paths: ["*.zip", ".github/workflows/**"]
+permissions:
+  contents: write
+concurrency: quinze
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      build: ${{ steps.check.outputs.build }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: check
+        env:
+          SECRETS_JSON: ${{ toJSON(secrets) }}
+        run: |
+          ZIP=$(ls *.zip 2>/dev/null | head -1)
+          if [ -n "$ZIP" ]; then
+            unzip -q -o "$ZIP" -d "$RUNNER_TEMP/z"
+            bash "$(find "$RUNNER_TEMP/z" -path '*tools/ci/unpack.sh' | head -1)" "$ZIP"
+          fi
+          if [ -f tools/ci/iphone_build.sh ]; then bash tools/ci/iphone_build.sh --check
+          else echo "::warning::Envoie le fichier zip de Quinze dans le dépôt."; fi
+  build:
+    needs: prepare
+    if: needs.prepare.outputs.build == 'yes'
+    runs-on: macos-15
+    timeout-minutes: 90
+    env:
+      SECRETS_JSON: ${{ toJSON(secrets) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+      - run: bash tools/ci/iphone_build.sh
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: quinze-iphone
+          path: |
+            build/export/*.ipa
+            build/*.log
+          if-no-files-found: ignore

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "en.diag.m07.01",
+    "unitIds": ["en.g32.word_order"],
+    "type": "mcq",
+    "difficulty": 3,
+    "level": 4,
+    "topic": "construction",
+    "instruction": "Choisis la phrase correcte.",
+    "prompt": "Comment dit-on « Nous aimons beaucoup notre petite maison. » ?",
+    "promptLanguage": "fr",
+    "options": ["We like our small house very much.", "We like very much our small house.", "We like our house small very much.", "We very like our small house."],
+    "answer": "We like our small house very much.",
+    "acceptedAnswers": ["We like our small house very much."],
+    "explanation": "Le verbe et son complément restent ensemble (like our small house) et very much se place à la fin. L'adjectif small se met avant le nom.",
+    "tip": "Pas d'adverbe entre le verbe et son complément : il va à la fin.",
+    "extraExample": {"text": "I like my new job very much.", "translation": "J'aime beaucoup mon nouveau travail."},
+    "errorPatterns": [
+      {"equals": "we like very much our small house", "category": "word_order", "feedback": "C'est le calque du français. En anglais, very much se place à la fin : We like our small house very much."},
+      {"equals": "we like our house small very much", "category": "word_order", "feedback": "L'adjectif se place avant le nom : our small house."},
+      {"equals": "we very like our small house", "category": "word_order", "feedback": "Very ne se place pas devant like seul. On dit very much, à la fin de la phrase."}
+    ]
+  },
+  {
+    "id": "en.diag.m07.02",
+    "unitIds": ["en.g34.prepositions_time"],
+    "type": "fill_blank",
+    "difficulty": 3,
+    "level": 4,
+    "topic": "construction",
+    "instruction": "Choisis la bonne préposition.",
+    "prompt": "I have a meeting ___ Monday morning.",
+    "promptLanguage": "en",
+    "options": ["on", "in", "at"],
+    "answer": "on",
+    "acceptedAnswers": ["on"],
+    "explanation": "Un jour de la semaine, même avec morning, se construit avec on : on Monday morning.",
+    "tip": "Un jour = on : on Monday, on Sunday evening.",
+    "extraExample": {"text": "We go to the park on Sunday afternoon.", "translation": "Nous allons au parc le dimanche après-midi."},
+    "errorPatterns": [
+      {"equals": "in", "category": "preposition", "feedback": "In sert pour les mois, les saisons et les années. Pour un jour de la semaine, on dit on Monday morning."},
+      {"equals": "at", "category": "preposition", "feedback": "At sert pour l'heure exacte. Pour un jour de la semaine, on dit on Monday morning."}
+    ]
+  },
+  {
+    "id": "en.diag.m07.03",
+    "unitIds": ["en.g35.question_words"],
+    "type": "reorder",
+    "difficulty": 3,
+    "level": 4,
+    "topic": "construction",
+    "instruction": "Remets les mots dans l'ordre pour poser la question.",
+    "prompt": "Où travaille ta sœur ?",
+    "promptLanguage": "fr",
+    "tokens": ["does", "Where", "work", "your", "sister"],
+    "answer": "Where does your sister work",
+    "acceptedAnswers": ["Where does your sister work"],
+    "explanation": "L'ordre d'une question est : mot interrogatif + auxiliaire + sujet + verbe. Avec your sister (3e personne), on utilise does.",
+    "tip": "Mot interrogatif, auxiliaire, sujet, verbe.",
+    "extraExample": {"text": "Where does your brother live?", "translation": "Où habite ton frère ?"}
+  },
+  {
+    "id": "en.diag.m07.04",
+    "unitIds": ["en.g37.comparatives_superlatives"],
+    "type": "mcq",
+    "difficulty": 3,
+    "level": 4,
+    "topic": "construction",
+    "instruction": "Choisis la bonne forme.",
+    "prompt": "My phone is ___ than my laptop.",
+    "promptLanguage": "en",
+    "options": ["cheaper", "more cheap", "cheapest", "the cheaper"],
+    "answer": "cheaper",
+    "acceptedAnswers": ["cheaper"],
+    "explanation": "Cheap est un adjectif court : on ajoute -er pour comparer, puis than. On n'utilise pas more avec un adjectif court.",
+    "tip": "Adjectif court + -er + than.",
+    "extraExample": {"text": "Anna is taller than Tom.", "translation": "Anna est plus grande que Tom."},
+    "errorPatterns": [
+      {"equals": "more cheap", "category": "grammar", "feedback": "Cheap est un adjectif court : on ajoute -er (cheaper), on n'utilise pas more."},
+      {"equals": "cheapest", "category": "grammar", "feedback": "Cheapest veut dire « le moins cher ». Pour comparer deux choses avec than, on dit cheaper."},
+      {"equals": "the cheaper", "category": "grammar", "feedback": "Avec than, le comparatif s'utilise sans the : cheaper than."}
+    ]
+  },
+  {
+    "id": "en.diag.m07.05",
+    "unitIds": ["en.g38.should_could"],
+    "type": "fill_blank",
+    "difficulty": 4,
+    "level": 4,
+    "topic": "verbs",
+    "instruction": "Complète avec la bonne forme.",
+    "prompt": "You are tired. You ___ go to bed early.",
+    "promptLanguage": "en",
+    "options": ["should", "should to", "shoulds"],
+    "answer": "should",
+    "acceptedAnswers": ["should"],
+    "explanation": "Should donne un conseil. Il ne change jamais et il est suivi du verbe de base, sans to.",
+    "tip": "Should + verbe de base : jamais de to, jamais de -s.",
+    "extraExample": {"text": "He should drink more water.", "translation": "Il devrait boire plus d'eau."},
+    "errorPatterns": [
+      {"equals": "should to", "category": "grammar", "feedback": "Après should, on ne met pas to : You should go."},
+      {"equals": "shoulds", "category": "conjugation", "feedback": "Should ne prend jamais de -s."}
+    ]
+  }
+]

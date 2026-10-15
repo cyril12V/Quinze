@@ -1,0 +1,15 @@
+// Réglages communs à tous les schémas.
+// Les valeurs ci-dessous sont des valeurs par défaut ; Config/Secrets.xcconfig (non versionné,
+// modèle : Secrets.example.xcconfig) les remplace car il est inclus en dernier.
+// Dans un .xcconfig, « // » démarre un commentaire : une URL s'écrit https:/$()/exemple.supabase.co
+
+BUNDLE_ID_PREFIX = fr.elmdigitalagency
+DEVELOPMENT_TEAM =
+// Vides = « mode local » : pas de compte, pas de synchronisation, tout reste sur l'iPhone.
+SUPABASE_URL =
+SUPABASE_ANON_KEY =
+
+MARKETING_VERSION = 1.0.0
+CURRENT_PROJECT_VERSION = 1
+
+#include? "Secrets.xcconfig"

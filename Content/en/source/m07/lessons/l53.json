@@ -1,0 +1,205 @@
+{
+  "lessonId": "en.l53",
+  "exercises": [
+    {
+      "id": "en.l53.e01",
+      "unitIds": ["en.g38.should_could", "en.v.rest"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Tu devrais te reposer. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["You should rest.", "You should to rest.", "You should rests.", "You shoulds rest."],
+      "answer": "You should rest.",
+      "acceptedAnswers": ["You should rest."],
+      "hint": "Après should, le verbe reste tout seul.",
+      "explanation": "Should sert à donner un conseil (« tu devrais »). Il est suivi du verbe de base, sans to et sans -s : You should rest.",
+      "tip": "Should + verbe de base : jamais de to, jamais de -s.",
+      "extraExample": {"text": "You should sleep.", "translation": "Tu devrais dormir."},
+      "errorPatterns": [
+        {"equals": "you should to rest", "category": "grammar", "feedback": "Après should, on ne met pas to : You should rest."},
+        {"equals": "you should rests", "category": "conjugation", "feedback": "Après should, le verbe reste à la forme de base : rest, sans -s."},
+        {"equals": "you shoulds rest", "category": "conjugation", "feedback": "Should ne prend jamais de -s, même avec he, she ou it."}
+      ]
+    },
+    {
+      "id": "en.l53.e02",
+      "unitIds": ["en.g38.should_could", "en.v.ill", "en.v.medicine", "en.v.advice", "en.v.rest", "en.v.exercise"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot anglais à sa traduction.",
+      "prompt": "Les mots de la santé : ill, medicine, advice, rest, exercise",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "ill", "right": "malade"},
+        {"left": "medicine", "right": "un médicament"},
+        {"left": "advice", "right": "un conseil, des conseils"},
+        {"left": "rest", "right": "se reposer"},
+        {"left": "exercise", "right": "faire de l'exercice"}
+      ],
+      "answer": "ill = malade ; medicine = un médicament ; advice = un conseil, des conseils ; rest = se reposer ; exercise = faire de l'exercice",
+      "acceptedAnswers": [],
+      "explanation": "Ces mots servent souvent à donner un conseil avec should : You should rest, You should take your medicine. Advice est un mot indénombrable : on ne dit pas an advice ni advices.",
+      "tip": "Advice ne prend ni a, ni an, ni -s : some advice."
+    },
+    {
+      "id": "en.l53.e03",
+      "unitIds": ["en.g38.should_could"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "She is tired, so she ___ go to bed early.",
+      "promptLanguage": "en",
+      "options": ["should", "should to", "shoulds", "is should"],
+      "answer": "should",
+      "acceptedAnswers": ["should"],
+      "hint": "Should se place juste après le sujet, sans rien ajouter.",
+      "explanation": "Should est un verbe qui ne change jamais. On le place après le sujet, puis on met le verbe de base : she should go.",
+      "tip": "She should go, he should go : should ne change jamais.",
+      "extraExample": {"text": "He should eat breakfast.", "translation": "Il devrait prendre son petit-déjeuner."},
+      "errorPatterns": [
+        {"equals": "should to", "category": "grammar", "feedback": "Après should, on ne met pas to : she should go."},
+        {"equals": "shoulds", "category": "conjugation", "feedback": "Should ne prend jamais de -s, même avec she."},
+        {"equals": "is should", "category": "grammar", "feedback": "Should se suffit à lui-même : on n'ajoute pas be. On dit she should go."}
+      ]
+    },
+    {
+      "id": "en.l53.e04",
+      "unitIds": ["en.g38.should_could", "en.v.medicine"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le mot qui correspond à la traduction.",
+      "prompt": "You are ill. You should take your ___. (médicament)",
+      "promptLanguage": "en",
+      "options": ["medicine", "advice", "doctor"],
+      "answer": "medicine",
+      "acceptedAnswers": ["medicine"],
+      "hint": "On le prend quand on est malade.",
+      "explanation": "Medicine veut dire « médicament ». Le conseil est donné avec should : you should take your medicine.",
+      "tip": "Médicament = medicine. Médecin = doctor.",
+      "extraExample": {"text": "My mother should take her medicine.", "translation": "Ma mère devrait prendre son médicament."},
+      "errorPatterns": [
+        {"equals": "doctor", "category": "word_confusion", "feedback": "Doctor veut dire « médecin ». Le médicament se dit medicine."},
+        {"equals": "advice", "category": "vocabulary", "feedback": "Advice veut dire « conseil ». Le médicament se dit medicine."}
+      ]
+    },
+    {
+      "id": "en.l53.e05",
+      "unitIds": ["en.g38.should_could"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le mot qui correspond à la traduction.",
+      "prompt": "We ___ go to the beach tomorrow. (on pourrait)",
+      "promptLanguage": "en",
+      "options": ["could", "should", "must"],
+      "answer": "could",
+      "acceptedAnswers": ["could"],
+      "hint": "Il s'agit d'une possibilité, pas d'un devoir.",
+      "explanation": "Could exprime une possibilité ou une idée : « on pourrait ». Should donnerait un conseil (« on devrait ») et must une obligation.",
+      "tip": "Could = on pourrait (une idée). Should = on devrait (un conseil).",
+      "extraExample": {"text": "We could watch TV tonight.", "translation": "On pourrait regarder la télé ce soir."},
+      "errorPatterns": [
+        {"equals": "should", "category": "word_confusion", "feedback": "Should veut dire « devrait » (un conseil). Pour une possibilité, « on pourrait », on dit could."},
+        {"equals": "must", "category": "word_confusion", "feedback": "Must veut dire « doit » (obligation). Pour une possibilité, « on pourrait », on dit could."},
+        {"equals": "can", "category": "word_confusion", "feedback": "Can veut dire « peut ». Pour proposer une idée, « on pourrait », on dit could."}
+      ]
+    },
+    {
+      "id": "en.l53.e06",
+      "unitIds": ["en.g38.should_could", "en.v.exercise"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Tu devrais faire de l'exercice tous les jours.",
+      "promptLanguage": "fr",
+      "tokens": ["every", "You", "exercise", "day", "should"],
+      "answer": "You should exercise every day",
+      "acceptedAnswers": ["You should exercise every day", "Every day you should exercise"],
+      "hint": "Commence par You should, puis le verbe.",
+      "explanation": "Après should, on met le verbe de base : exercise. Every day peut se placer à la fin ou au début de la phrase.",
+      "tip": "Exercise est lui-même un verbe : You should exercise, sans rien ajouter.",
+      "extraExample": {"text": "He should exercise on Sunday.", "translation": "Il devrait faire de l'exercice dimanche."}
+    },
+    {
+      "id": "en.l53.e07",
+      "unitIds": ["en.g38.should_could", "en.v.ill", "en.v.rest"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Elle est malade, elle devrait se reposer.",
+      "promptLanguage": "fr",
+      "answer": "She is ill, so she should rest.",
+      "acceptedAnswers": ["She is ill, so she should rest.", "She is ill, she should rest.", "She is ill and she should rest."],
+      "hint": "Devrait se dit should, suivi du verbe de base.",
+      "explanation": "Ill veut dire « malade ». Should donne le conseil et reste identique avec she. Rest veut dire ici « se reposer », sans pronom.",
+      "tip": "Se reposer = rest, tout simplement. Pas de pronom réfléchi.",
+      "extraExample": {"text": "My father is ill, so he should stay at home.", "translation": "Mon père est malade, donc il devrait rester à la maison."},
+      "errorPatterns": [
+        {"contains": "should to", "category": "grammar", "feedback": "Après should, on ne met pas to : she should rest."},
+        {"contains": "shoulds", "category": "conjugation", "feedback": "Should ne prend jamais de -s, même avec she."},
+        {"contains": "rest herself", "category": "vocabulary", "feedback": "En anglais, « se reposer » se dit rest, sans herself."}
+      ]
+    },
+    {
+      "id": "en.l53.e08",
+      "unitIds": ["en.g38.should_could", "en.v.advice"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mon docteur me donne un conseil.",
+      "promptLanguage": "fr",
+      "answer": "My doctor gives me some advice.",
+      "acceptedAnswers": ["My doctor gives me some advice.", "My doctor gives me advice.", "My doctor gives me a piece of advice.", "My doctor is giving me some advice.", "My doctor is giving me advice.", "My doctor is giving me a piece of advice."],
+      "hint": "Advice est indénombrable : on utilise some, pas a ni an.",
+      "explanation": "Advice est un mot indénombrable : il n'a pas de pluriel et on ne dit pas an advice. Pour « un conseil », on dit some advice ou a piece of advice.",
+      "tip": "Un conseil = some advice ou a piece of advice, jamais an advice.",
+      "extraExample": {"text": "I need some advice.", "translation": "J'ai besoin d'un conseil."},
+      "errorPatterns": [
+        {"contains": "an advice", "category": "grammar", "feedback": "Advice est indénombrable : pas de an. On dit some advice ou a piece of advice."},
+        {"contains": "advices", "category": "grammar", "feedback": "Advice n'a pas de pluriel. On dit some advice."},
+        {"contains": "give me", "category": "conjugation", "feedback": "Avec my doctor (3e personne), le verbe prend un -s : gives."}
+      ]
+    },
+    {
+      "id": "en.l53.e09",
+      "unitIds": ["en.g38.should_could"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous pourrions manger à la maison ce soir.",
+      "promptLanguage": "fr",
+      "answer": "We could eat at home tonight.",
+      "acceptedAnswers": ["We could eat at home tonight.", "We could eat home tonight.", "We could eat at home this evening.", "We could eat home this evening.", "We could have dinner at home tonight.", "We could have dinner home tonight.", "We could have dinner at home this evening.", "We could have dinner home this evening."],
+      "hint": "Pourrions se dit could, suivi du verbe de base.",
+      "explanation": "Could exprime une possibilité, une idée : « nous pourrions ». Il est suivi du verbe de base, sans to : we could eat.",
+      "tip": "Could + verbe de base, comme can : we could eat, he could come.",
+      "extraExample": {"text": "He could come on Sunday.", "translation": "Il pourrait venir dimanche."},
+      "errorPatterns": [
+        {"contains": "could to", "category": "grammar", "feedback": "Après could, on ne met pas to : we could eat."},
+        {"contains": "could eating", "category": "grammar", "feedback": "Après could, le verbe reste à la forme de base : we could eat."},
+        {"contains": "could eats", "category": "conjugation", "feedback": "Après could, le verbe reste à la forme de base : eat, sans -s."}
+      ]
+    },
+    {
+      "id": "en.l53.e10",
+      "unitIds": ["en.g38.should_could", "en.v.ill"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris une phrase en anglais.",
+      "prompt": "Ton ami est malade. Donne-lui un conseil avec should.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["should"]], "minWords": 3},
+      "answer": "You should rest.",
+      "acceptedAnswers": ["You should rest.", "You should take your medicine.", "You should go to the doctor.", "You should drink water and sleep."],
+      "hint": "Commence par You should ...",
+      "explanation": "Pour donner un conseil à un ami, on utilise You should + verbe de base : You should rest, You should take your medicine.",
+      "tip": "You should + verbe : jamais de to après should.",
+      "extraExample": {"text": "You should go to bed early.", "translation": "Tu devrais te coucher tôt."},
+      "errorPatterns": [
+        {"contains": "should to", "category": "grammar", "feedback": "Après should, on ne met pas to : You should rest."},
+        {"contains": "shoulds", "category": "conjugation", "feedback": "Should ne prend jamais de -s."},
+        {"contains": "you should rests", "category": "conjugation", "feedback": "Après should, le verbe reste à la forme de base : rest."}
+      ]
+    }
+  ]
+}

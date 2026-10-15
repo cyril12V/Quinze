@@ -1,0 +1,204 @@
+{
+  "lessonId": "en.l54",
+  "exercises": [
+    {
+      "id": "en.l54.e01",
+      "unitIds": ["en.g38.should_could"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Pourriez-vous m'aider, s'il vous plaît ? » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["Could you help me, please?", "Could you to help me, please?", "Could you helping me, please?", "You could help me, please?"],
+      "answer": "Could you help me, please?",
+      "acceptedAnswers": ["Could you help me, please?"],
+      "hint": "Could se place avant you, et le verbe reste à la forme de base.",
+      "explanation": "Pour demander poliment, on utilise Could you + verbe de base ? On place could avant le sujet you, et on ne met ni to ni -ing devant help.",
+      "tip": "Could you + verbe de base : la demande polie à retenir.",
+      "extraExample": {"text": "Could you open the window, please?", "translation": "Pourriez-vous ouvrir la fenêtre, s'il vous plaît ?"},
+      "errorPatterns": [
+        {"equals": "could you to help me please", "category": "grammar", "feedback": "Après could, on ne met pas to : Could you help me?"},
+        {"equals": "could you helping me please", "category": "grammar", "feedback": "Après could, le verbe reste à la forme de base : help, sans -ing."},
+        {"equals": "you could help me please", "category": "word_order", "feedback": "Pour poser la question, on place could avant you : Could you help me?"}
+      ]
+    },
+    {
+      "id": "en.l54.e02",
+      "unitIds": ["en.g38.should_could", "en.v.would_like", "en.v.glass", "en.v.cup", "en.v.dessert", "en.v.salad"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Au restaurant : I'd like, glass, cup, dessert, salad",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "I'd like", "right": "je voudrais"},
+        {"left": "a glass of water", "right": "un verre d'eau"},
+        {"left": "a cup of coffee", "right": "une tasse de café"},
+        {"left": "a dessert", "right": "un dessert"},
+        {"left": "a salad", "right": "une salade"}
+      ],
+      "answer": "I'd like = je voudrais ; a glass of water = un verre d'eau ; a cup of coffee = une tasse de café ; a dessert = un dessert ; a salad = une salade",
+      "acceptedAnswers": [],
+      "explanation": "I'd like est la forme courte de I would like : c'est une façon polie de demander quelque chose. On dit a glass of ou a cup of pour « un verre de » ou « une tasse de ».",
+      "tip": "I'd like = I would like : plus poli que I want."
+    },
+    {
+      "id": "en.l54.e03",
+      "unitIds": ["en.g38.should_could", "en.v.would_like", "en.v.cup"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Voulez-vous une tasse de café ? » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["Would you like a cup of coffee?", "Do you like a cup of coffee?", "Would you to like a cup of coffee?", "Could you like a cup of coffee?"],
+      "answer": "Would you like a cup of coffee?",
+      "acceptedAnswers": ["Would you like a cup of coffee?"],
+      "hint": "Pour proposer poliment, on commence par would.",
+      "explanation": "Would you like...? sert à proposer quelque chose poliment. Do you like...? demande ce que la personne aime en général, ce n'est pas une proposition.",
+      "tip": "Proposer quelque chose : Would you like ... ?",
+      "extraExample": {"text": "Would you like some water?", "translation": "Voulez-vous de l'eau ?"},
+      "errorPatterns": [
+        {"equals": "do you like a cup of coffee", "category": "word_confusion", "feedback": "Do you like...? demande si on aime en général. Pour proposer, on dit Would you like...?"},
+        {"equals": "would you to like a cup of coffee", "category": "grammar", "feedback": "Après would, on ne met pas to : Would you like a cup of coffee?"},
+        {"equals": "could you like a cup of coffee", "category": "word_confusion", "feedback": "Could you sert à demander un service. Pour proposer quelque chose, on dit Would you like...?"}
+      ]
+    },
+    {
+      "id": "en.l54.e04",
+      "unitIds": ["en.g38.should_could", "en.v.would_like", "en.v.glass"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le mot qui correspond à la traduction.",
+      "prompt": "I'd ___ a glass of water, please. (je voudrais)",
+      "promptLanguage": "en",
+      "options": ["like", "want", "likes"],
+      "answer": "like",
+      "acceptedAnswers": ["like"],
+      "hint": "I'd est la forme courte de I would.",
+      "explanation": "I'd like est la forme courte de I would like. Cette expression est polie et veut dire « je voudrais ». On ne dit pas I'd want.",
+      "tip": "I'd like : jamais I'd want, jamais I'd likes.",
+      "extraExample": {"text": "I'd like a salad, please.", "translation": "Je voudrais une salade, s'il vous plaît."},
+      "errorPatterns": [
+        {"equals": "want", "category": "grammar", "feedback": "I'd est I would : il se combine avec like, pas avec want. On dit I'd like."},
+        {"equals": "likes", "category": "conjugation", "feedback": "Après would, le verbe reste à la forme de base : I'd like, sans -s."}
+      ]
+    },
+    {
+      "id": "en.l54.e05",
+      "unitIds": ["en.g38.should_could"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le mot qui correspond à la traduction.",
+      "prompt": "Could you ___ the window, please? (ouvrir)",
+      "promptLanguage": "en",
+      "options": ["open", "to open", "opens"],
+      "answer": "open",
+      "acceptedAnswers": ["open"],
+      "hint": "Après could you, le verbe est tout seul.",
+      "explanation": "Après could you, on met le verbe de base : open. On n'ajoute ni to ni -s.",
+      "tip": "Could you + verbe de base, sans to.",
+      "extraExample": {"text": "Could you close the door, please?", "translation": "Pourriez-vous fermer la porte, s'il vous plaît ?"},
+      "errorPatterns": [
+        {"equals": "to open", "category": "grammar", "feedback": "Après could, on ne met pas to : Could you open the window?"},
+        {"equals": "opens", "category": "conjugation", "feedback": "Après could, le verbe reste à la forme de base : open, sans -s."}
+      ]
+    },
+    {
+      "id": "en.l54.e06",
+      "unitIds": ["en.g38.should_could", "en.v.salad", "en.v.dessert", "en.v.would_like"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Je voudrais une salade et un dessert, s'il vous plaît.",
+      "promptLanguage": "fr",
+      "tokens": ["please", "I", "like", "salad", "a", "would", "and", "dessert", "a"],
+      "answer": "I would like a salad and a dessert please",
+      "acceptedAnswers": ["I would like a salad and a dessert please", "I would like a dessert and a salad please"],
+      "hint": "I would like se dit pour « je voudrais ». Please vient à la fin.",
+      "explanation": "I would like (ou I'd like) veut dire « je voudrais » : c'est une demande polie. Ensuite viennent les deux choses demandées, puis please.",
+      "tip": "I would like + ce que tu veux + please.",
+      "extraExample": {"text": "I would like a cup of coffee and a cake, please.", "translation": "Je voudrais une tasse de café et un gâteau, s'il vous plaît."}
+    },
+    {
+      "id": "en.l54.e07",
+      "unitIds": ["en.g38.should_could", "en.v.glass"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Pourriez-vous m'apporter un verre d'eau, s'il vous plaît ?",
+      "promptLanguage": "fr",
+      "answer": "Could you bring me a glass of water, please?",
+      "acceptedAnswers": ["Could you bring me a glass of water, please?", "Could you please bring me a glass of water?", "Would you bring me a glass of water, please?", "Would you please bring me a glass of water?", "Can you bring me a glass of water, please?", "Can you please bring me a glass of water?", "Could you give me a glass of water, please?", "Could you please give me a glass of water?", "Would you give me a glass of water, please?", "Would you please give me a glass of water?", "Can you give me a glass of water, please?", "Can you please give me a glass of water?", "Could you get me a glass of water, please?", "Could you please get me a glass of water?", "Would you get me a glass of water, please?", "Would you please get me a glass of water?", "Can you get me a glass of water, please?", "Can you please get me a glass of water?"],
+      "hint": "Pourriez-vous se dit could you, suivi du verbe de base.",
+      "explanation": "Could you + verbe de base est la façon polie de demander un service. Un verre d'eau se dit a glass of water.",
+      "tip": "Could you + verbe + please : une demande polie.",
+      "extraExample": {"text": "Could you bring me the menu, please?", "translation": "Pourriez-vous m'apporter le menu, s'il vous plaît ?"},
+      "errorPatterns": [
+        {"contains": "could you to", "category": "grammar", "feedback": "Après could you, on ne met pas to : Could you bring me ...?"},
+        {"contains": "could you brings", "category": "conjugation", "feedback": "Après could, le verbe reste à la forme de base : bring, sans -s."},
+        {"contains": "water glass", "category": "word_order", "feedback": "« Un verre d'eau » se dit a glass of water."}
+      ]
+    },
+    {
+      "id": "en.l54.e08",
+      "unitIds": ["en.g38.should_could", "en.v.would_like", "en.v.dessert"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je voudrais un dessert, s'il vous plaît.",
+      "promptLanguage": "fr",
+      "answer": "I'd like a dessert, please.",
+      "acceptedAnswers": ["I'd like a dessert, please.", "I would like a dessert, please.", "I'd like to have a dessert, please.", "Could I have a dessert, please?", "Can I have a dessert, please?", "May I have a dessert, please?"],
+      "hint": "Utilise une forme polie de want.",
+      "explanation": "Pour demander poliment, on dit I'd like (I would like), qui veut dire « je voudrais ». I want est trop direct pour parler à un serveur.",
+      "tip": "Poli : I'd like. Trop direct : I want.",
+      "extraExample": {"text": "I'd like a cup of coffee, please.", "translation": "Je voudrais une tasse de café, s'il vous plaît."},
+      "errorPatterns": [
+        {"contains": "i want", "category": "word_confusion", "feedback": "I want veut dire « je veux » et sonne trop direct. Pour « je voudrais », dis I'd like."},
+        {"contains": "i like a", "category": "word_confusion", "feedback": "I like veut dire « j'aime ». Pour « je voudrais », il faut I'd like (I would like)."},
+        {"contains": "would to like", "category": "grammar", "feedback": "Après would, on ne met pas to : I would like a dessert."}
+      ]
+    },
+    {
+      "id": "en.l54.e09",
+      "unitIds": ["en.g38.should_could", "en.v.salad", "en.v.dessert"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Voulez-vous une salade ou un dessert ?",
+      "promptLanguage": "fr",
+      "answer": "Would you like a salad or a dessert?",
+      "acceptedAnswers": ["Would you like a salad or a dessert?", "Would you like a salad or dessert?", "Would you like salad or dessert?"],
+      "hint": "Pour proposer poliment, on commence par would you like.",
+      "explanation": "Would you like...? est la façon polie de proposer quelque chose. Or relie les deux choix : un salad ou un dessert.",
+      "tip": "Would you like ... ? pour proposer, or pour le choix.",
+      "extraExample": {"text": "Would you like milk or water?", "translation": "Voulez-vous du lait ou de l'eau ?"},
+      "errorPatterns": [
+        {"contains": "do you like", "category": "word_confusion", "feedback": "Do you like...? demande si on aime en général. Pour proposer, on dit Would you like...?"},
+        {"contains": "would you to like", "category": "grammar", "feedback": "Après would, on ne met pas to : Would you like a salad?"},
+        {"contains": "salad and", "category": "vocabulary", "feedback": "And veut dire « et ». Pour proposer un choix entre deux plats, on dit or."}
+      ]
+    },
+    {
+      "id": "en.l54.e10",
+      "unitIds": ["en.g38.should_could", "en.v.would_like", "en.v.cup"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris une phrase en anglais.",
+      "prompt": "Tu es au restaurant. Demande poliment quelque chose à boire (une tasse de café, un verre d'eau...).",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["would like", "i'd like", "could you", "could i"]], "minWords": 4},
+      "answer": "I'd like a cup of coffee, please.",
+      "acceptedAnswers": ["I'd like a cup of coffee, please.", "I would like a glass of water, please.", "Could I have a cup of coffee, please?", "Could you bring me a glass of water, please?"],
+      "hint": "Commence par I'd like ... ou Could I have ...",
+      "explanation": "Pour demander poliment, utilise I'd like + ce que tu veux, ou Could you / Could I + verbe de base. Termine par please.",
+      "tip": "I'd like ... please ou Could you ... please : deux formules polies.",
+      "extraExample": {"text": "Could I have a glass of milk, please?", "translation": "Pourrais-je avoir un verre de lait, s'il vous plaît ?"},
+      "errorPatterns": [
+        {"contains": "i want", "category": "word_confusion", "feedback": "I want est trop direct. Pour demander poliment, dis I'd like."},
+        {"contains": "could you to", "category": "grammar", "feedback": "Après could you, on ne met pas to : Could you bring me a cup of coffee?"},
+        {"contains": "would to like", "category": "grammar", "feedback": "Après would, on ne met pas to : I would like a cup of coffee."}
+      ]
+    }
+  ]
+}

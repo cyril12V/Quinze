@@ -1,0 +1,104 @@
+[
+  {
+    "id": "en.diag.m03.01",
+    "unitIds": ["en.g14.present_simple_third_person"],
+    "type": "mcq",
+    "difficulty": 2,
+    "level": 2,
+    "topic": "present",
+    "instruction": "Choisis la bonne forme du verbe.",
+    "prompt": "My son ___ milk every morning.",
+    "promptLanguage": "en",
+    "options": ["drinks", "drink", "drinking"],
+    "answer": "drinks",
+    "acceptedAnswers": ["drinks"],
+    "explanation": "My son = he. Au présent simple, le verbe prend -s avec he, she, it : my son drinks.",
+    "tip": "He, she, it : le verbe prend -s.",
+    "extraExample": {"text": "Anna plays with her dog.", "translation": "Anna joue avec son chien."},
+    "errorPatterns": [
+      {"equals": "drink", "category": "conjugation", "feedback": "My son = he : le verbe prend -s au présent simple. On dit my son drinks."},
+      {"equals": "drinking", "category": "grammar", "feedback": "Le verbe en -ing a besoin de be (is drinking). Pour une habitude (every morning), on utilise le présent simple : drinks."}
+    ]
+  },
+  {
+    "id": "en.diag.m03.02",
+    "unitIds": ["en.g15.present_simple_negative"],
+    "type": "fill_blank",
+    "difficulty": 2,
+    "level": 2,
+    "topic": "verbs",
+    "instruction": "Complète la phrase.",
+    "prompt": "My dog ___ eat fish.",
+    "promptLanguage": "en",
+    "options": ["doesn't", "don't", "isn't"],
+    "answer": "doesn't",
+    "acceptedAnswers": ["doesn't"],
+    "explanation": "My dog = it. Avec he, she, it, la négation du présent simple se fait avec doesn't + verbe de base.",
+    "tip": "I, you, we, they : don't. He, she, it : doesn't.",
+    "extraExample": {"text": "She doesn't drink coffee.", "translation": "Elle ne boit pas de café."},
+    "errorPatterns": [
+      {"equals": "don't", "category": "conjugation", "feedback": "Don't s'emploie avec I, you, we, they. Avec my dog (= it), on dit doesn't."},
+      {"equals": "isn't", "category": "grammar", "feedback": "Isn't s'emploie avec be ou avec un verbe en -ing. Avec le verbe eat, on utilise doesn't."}
+    ]
+  },
+  {
+    "id": "en.diag.m03.03",
+    "unitIds": ["en.g16.present_simple_questions"],
+    "type": "mcq",
+    "difficulty": 2,
+    "level": 2,
+    "topic": "construction",
+    "instruction": "Choisis la question correcte.",
+    "prompt": "Comment dit-on « Est-ce que ton frère joue de la musique ? »",
+    "promptLanguage": "fr",
+    "options": ["Does your brother play music?", "Do your brother play music?", "Does your brother plays music?", "Is your brother play music?"],
+    "answer": "Does your brother play music?",
+    "acceptedAnswers": ["Does your brother play music?"],
+    "explanation": "Ton frère = he, donc la question commence par Does. Après Does, le verbe reste à sa forme de base : play, sans -s.",
+    "tip": "Does + sujet + verbe de base : le -s est déjà dans Does.",
+    "extraExample": {"text": "Does she work in London?", "translation": "Est-ce qu'elle travaille à Londres ?"},
+    "errorPatterns": [
+      {"equals": "Do your brother play music?", "category": "conjugation", "feedback": "Your brother = he : la question commence par Does, pas par Do."},
+      {"equals": "Does your brother plays music?", "category": "conjugation", "feedback": "Après Does, le verbe reste à sa forme de base : play."},
+      {"equals": "Is your brother play music?", "category": "grammar", "feedback": "Is s'emploie avec to be. Avec play, on pose la question avec Does."}
+    ]
+  },
+  {
+    "id": "en.diag.m03.04",
+    "unitIds": ["en.g17.frequency_adverbs"],
+    "type": "reorder",
+    "difficulty": 2,
+    "level": 2,
+    "topic": "construction",
+    "instruction": "Remets les mots dans l'ordre pour traduire.",
+    "prompt": "Ma sœur est toujours en retard.",
+    "promptLanguage": "fr",
+    "tokens": ["late", "always", "My", "is", "sister"],
+    "answer": "My sister is always late",
+    "acceptedAnswers": ["My sister is always late"],
+    "explanation": "Avec le verbe be, l'adverbe de fréquence se place après be : my sister is always late.",
+    "tip": "Après be, avant les autres verbes.",
+    "extraExample": {"text": "My parents are never late.", "translation": "Mes parents ne sont jamais en retard."}
+  },
+  {
+    "id": "en.diag.m03.05",
+    "unitIds": ["en.g18.present_continuous", "en.g19.simple_vs_continuous"],
+    "type": "mcq",
+    "difficulty": 3,
+    "level": 2,
+    "topic": "present",
+    "instruction": "Choisis la bonne forme.",
+    "prompt": "Lucy and Ben ___ TV now.",
+    "promptLanguage": "en",
+    "options": ["are watching", "watch", "watches"],
+    "answer": "are watching",
+    "acceptedAnswers": ["are watching"],
+    "explanation": "Now indique que l'action se passe en ce moment : on utilise le présent continu, be + verbe en -ing. Lucy and Ben = they, donc are watching.",
+    "tip": "Maintenant, en ce moment : be + -ing.",
+    "extraExample": {"text": "My sister is talking on the phone now.", "translation": "Ma sœur parle au téléphone maintenant."},
+    "errorPatterns": [
+      {"equals": "watch", "category": "verb_tense", "feedback": "Watch décrit une habitude. Avec now, on veut dire « en ce moment » : are watching."},
+      {"equals": "watches", "category": "verb_tense", "feedback": "Avec now, on utilise le présent continu : are watching. De plus, Lucy and Ben = they, donc pas de -s."}
+    ]
+  }
+]

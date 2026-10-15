@@ -1,0 +1,207 @@
+{
+  "lessonId": "en.l01",
+  "exercises": [
+    {
+      "id": "en.l01.e01",
+      "unitIds": ["en.g01.subject_pronouns"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le bon pronom.",
+      "prompt": "Comment dit-on « elle » en anglais, pour parler d'une femme ?",
+      "promptLanguage": "fr",
+      "options": ["she", "he", "it", "we"],
+      "answer": "she",
+      "acceptedAnswers": ["she"],
+      "hint": "C'est le pronom de he, avec une lettre en plus devant.",
+      "explanation": "She veut dire « elle » quand on parle d'une femme ou d'une fille. He, c'est « il » pour un homme.",
+      "tip": "Retiens la paire : he = il (un homme), she = elle (une femme).",
+      "extraExample": {"text": "Anna? She is in London.", "translation": "Anna ? Elle est à Londres."},
+      "errorPatterns": [
+        {"equals": "he", "category": "vocabulary", "feedback": "He veut dire « il », pour un homme. Pour une femme, on dit she."},
+        {"equals": "it", "category": "word_confusion", "feedback": "It s'utilise pour une chose ou un animal. Pour une femme, on dit she."},
+        {"equals": "we", "category": "vocabulary", "feedback": "We veut dire « nous ». Pour « elle », on dit she."}
+      ]
+    },
+    {
+      "id": "en.l01.e02",
+      "unitIds": ["en.g01.subject_pronouns"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le bon pronom.",
+      "prompt": "Quel pronom anglais utilises-tu pour parler d'une chose, comme un livre ou une table ?",
+      "promptLanguage": "fr",
+      "options": ["it", "he", "she", "they"],
+      "answer": "it",
+      "acceptedAnswers": ["it"],
+      "hint": "En anglais, une chose n'est ni masculine ni féminine.",
+      "explanation": "En anglais, les choses n'ont pas de genre : un livre ou une table, c'est toujours it. He et she sont réservés aux personnes.",
+      "tip": "Une chose ou un animal → it, même si le mot est masculin ou féminin en français.",
+      "extraExample": {"text": "The hotel? It is in Paris.", "translation": "L'hôtel ? Il est à Paris."},
+      "errorPatterns": [
+        {"equals": "he", "category": "grammar", "feedback": "He veut dire « il » pour un homme. Pour une chose, même masculine en français (le livre), on dit it."},
+        {"equals": "she", "category": "grammar", "feedback": "She veut dire « elle » pour une femme. Pour une chose, même féminine en français (la table), on dit it."},
+        {"equals": "they", "category": "grammar", "feedback": "They s'utilise pour plusieurs personnes ou choses. Pour une seule chose, on dit it."}
+      ]
+    },
+    {
+      "id": "en.l01.e03",
+      "unitIds": ["en.g01.subject_pronouns"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque pronom anglais à sa traduction.",
+      "prompt": "Les pronoms sujets : I, you, he, we, they",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "I", "right": "je"},
+        {"left": "you", "right": "tu / vous"},
+        {"left": "he", "right": "il (un homme)"},
+        {"left": "we", "right": "nous"},
+        {"left": "they", "right": "ils / elles"}
+      ],
+      "answer": "I = je ; you = tu / vous ; he = il (un homme) ; we = nous ; they = ils / elles",
+      "acceptedAnswers": [],
+      "explanation": "You sert à la fois pour « tu » et pour « vous ». They remplace « ils » comme « elles » : au pluriel, l'anglais ne distingue pas le masculin du féminin.",
+      "tip": "Un seul mot pour tu et vous (you), un seul mot pour ils et elles (they).",
+      "extraExample": {"text": "Lucy and Emma? They are in Paris.", "translation": "Lucy et Emma ? Elles sont à Paris."}
+    },
+    {
+      "id": "en.l01.e04",
+      "unitIds": ["en.g01.subject_pronouns", "en.v.thank_you"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon pronom. « ___ are welcome » est une formule toute faite qui veut dire « de rien » : tu étudieras are à la leçon 3.",
+      "context": "Anna: Thank you, Tom!",
+      "prompt": "Tom: ___ are welcome!",
+      "promptLanguage": "en",
+      "options": ["You", "I", "He", "She"],
+      "answer": "You",
+      "acceptedAnswers": ["You"],
+      "hint": "Tom répond à Anna : il lui parle directement.",
+      "explanation": "Pour répondre à « Thank you » (merci), on dit You are welcome (de rien). Tom parle à Anna, donc il utilise you (tu).",
+      "tip": "Thank you → You are welcome : on répond toujours avec you.",
+      "extraExample": {"text": "Thank you, Ben! — You are welcome, Emma.", "translation": "Merci, Ben ! — De rien, Emma."},
+      "errorPatterns": [
+        {"equals": "i", "category": "grammar", "feedback": "I veut dire « je ». La formule pour dire « de rien » est You are welcome."},
+        {"equals": "he", "category": "grammar", "feedback": "He veut dire « il ». Tom parle directement à Anna : on dit You are welcome."},
+        {"equals": "she", "category": "grammar", "feedback": "She veut dire « elle ». Tom ne parle pas d'Anna, il lui parle : You are welcome."}
+      ]
+    },
+    {
+      "id": "en.l01.e05",
+      "unitIds": ["en.g01.subject_pronouns"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon pronom. « are in London » veut dire « sont à Londres » : retiens-le comme une formule toute faite pour l'instant.",
+      "prompt": "Anna and I? ___ are in London.",
+      "promptLanguage": "en",
+      "options": ["We", "They", "I", "She"],
+      "answer": "We",
+      "acceptedAnswers": ["We"],
+      "hint": "Anna and I = Anna et moi. Combien de personnes, et en fais-tu partie ?",
+      "explanation": "Anna and I veut dire « Anna et moi » : c'est un groupe dont tu fais partie. En anglais, on le remplace par we (nous).",
+      "tip": "Si tu fais partie du groupe → we ; si tu n'en fais pas partie → they.",
+      "extraExample": {"text": "Tom and I? We are in Paris.", "translation": "Tom et moi ? Nous sommes à Paris."},
+      "errorPatterns": [
+        {"equals": "they", "category": "grammar", "feedback": "They veut dire « ils / elles », sans toi. Ici, tu fais partie du groupe (Anna and I) : on dit we."},
+        {"equals": "i", "category": "grammar", "feedback": "I veut dire « je » : une seule personne. Anna et toi, cela fait deux personnes : we."},
+        {"equals": "she", "category": "grammar", "feedback": "She ne remplace qu'Anna. Anna et toi ensemble, c'est we (nous)."}
+      ]
+    },
+    {
+      "id": "en.l01.e06",
+      "unitIds": ["en.g01.subject_pronouns", "en.v.sorry"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire la phrase. I am = je suis (formule toute faite pour l'instant).",
+      "prompt": "Je suis désolé.",
+      "promptLanguage": "fr",
+      "tokens": ["sorry", "am", "I"],
+      "answer": "I am sorry.",
+      "acceptedAnswers": ["I am sorry."],
+      "hint": "La phrase commence par le pronom « je ».",
+      "explanation": "En anglais, la phrase commence par le sujet (I = je), puis le verbe (am = suis), puis sorry (désolé). I garde toujours sa majuscule.",
+      "tip": "Ordre de base : sujet + verbe + le reste.",
+      "extraExample": {"text": "I am sorry, Ben.", "translation": "Je suis désolée, Ben."}
+    },
+    {
+      "id": "en.l01.e07",
+      "unitIds": ["en.g01.subject_pronouns", "en.v.hello"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais. Indice : « je suis » = I am.",
+      "prompt": "Bonjour, je suis Emma.",
+      "promptLanguage": "fr",
+      "answer": "Hello, I am Emma.",
+      "acceptedAnswers": ["Hello, I am Emma.", "Hi, I am Emma.", "Good morning, I am Emma.", "Good afternoon, I am Emma."],
+      "hint": "Commence par le mot pour « bonjour », puis I am.",
+      "explanation": "Bonjour se dit hello (ou hi, plus familier). Pour se présenter, on dit I am + prénom : I = je, am = suis.",
+      "tip": "Pour te présenter : Hello, I am + ton prénom (à l'oral : I'm).",
+      "extraExample": {"text": "Hello, I am Sam.", "translation": "Bonjour, je suis Sam."},
+      "errorPatterns": [
+        {"equals": "hello i emma", "category": "grammar", "feedback": "Il manque am : en anglais, « je suis » se dit I am. Hello, I am Emma."},
+        {"contains": "me am", "category": "grammar", "feedback": "Me ne peut pas être sujet : pour « je », on dit I. Hello, I am Emma."},
+        {"contains": "i is", "category": "conjugation", "feedback": "Avec I, on dit toujours am : I am Emma."}
+      ]
+    },
+    {
+      "id": "en.l01.e08",
+      "unitIds": ["en.v.thank_you", "en.v.goodbye"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Merci et au revoir, Tom !",
+      "promptLanguage": "fr",
+      "answer": "Thank you and goodbye, Tom!",
+      "acceptedAnswers": ["Thank you and goodbye, Tom!", "Thanks and goodbye, Tom!", "Thank you and bye, Tom!", "Thanks and bye, Tom!"],
+      "hint": "Merci = deux mots en anglais ; « et » = and.",
+      "explanation": "Merci se dit thank you (ou thanks, plus familier) et au revoir se dit goodbye (ou bye, plus familier). « Et » se dit and.",
+      "tip": "Thank you s'écrit en deux mots ; goodbye s'écrit en un seul mot.",
+      "extraExample": {"text": "Thank you, Anna! Goodbye!", "translation": "Merci, Anna ! Au revoir !"},
+      "errorPatterns": [
+        {"contains": "thank and", "category": "vocabulary", "feedback": "Merci se dit thank you (ou thanks) : n'oublie pas you après thank."},
+        {"contains": "thanks you", "category": "spelling", "feedback": "On dit thank you ou thanks, mais jamais thanks you."},
+        {"contains": "hello", "category": "word_confusion", "feedback": "Hello veut dire « bonjour ». Pour « au revoir », on dit goodbye."}
+      ]
+    },
+    {
+      "id": "en.l01.e09",
+      "unitIds": ["en.g01.subject_pronouns"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris le mot anglais, sans aide.",
+      "prompt": "Comment dit-on « elles » en anglais ? (par exemple pour parler d'Anna et Lucy)",
+      "promptLanguage": "fr",
+      "answer": "they",
+      "acceptedAnswers": ["they"],
+      "hint": "C'est le même mot que pour « ils ».",
+      "explanation": "Elles se dit they, exactement comme « ils ». Au pluriel, l'anglais n'a qu'un seul pronom, pour les hommes comme pour les femmes.",
+      "tip": "Ils ou elles → they, toujours.",
+      "extraExample": {"text": "Emma and Lucy? They are in Paris.", "translation": "Emma et Lucy ? Elles sont à Paris."},
+      "errorPatterns": [
+        {"equals": "she", "category": "grammar", "feedback": "She veut dire « elle », pour une seule femme. Pour plusieurs personnes, on dit they."},
+        {"equals": "shes", "category": "grammar", "feedback": "On n'ajoute pas de -s à un pronom. Pour « elles », on dit they."},
+        {"equals": "we", "category": "vocabulary", "feedback": "We veut dire « nous ». Pour « elles », on dit they."}
+      ]
+    },
+    {
+      "id": "en.l01.e10",
+      "unitIds": ["en.v.please"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris le mot anglais, sans aide.",
+      "prompt": "Comment dit-on « s'il vous plaît » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "please",
+      "acceptedAnswers": ["please"],
+      "hint": "Un seul mot, qui commence par p.",
+      "explanation": "« S'il te plaît » et « s'il vous plaît » se disent tous les deux please, en un seul mot. On le place souvent à la fin de la demande.",
+      "tip": "Tu ou vous, c'est toujours please.",
+      "extraExample": {"text": "Anna, please!", "translation": "Anna, s'il te plaît !"},
+      "errorPatterns": [
+        {"equals": "thank you", "category": "word_confusion", "feedback": "Thank you veut dire « merci ». Pour « s'il vous plaît », on dit please."},
+        {"equals": "sorry", "category": "word_confusion", "feedback": "Sorry veut dire « désolé ». Pour « s'il vous plaît », on dit please."},
+        {"equals": "you are welcome", "category": "word_confusion", "feedback": "You are welcome veut dire « de rien » (réponse à un merci). Pour « s'il vous plaît », on dit please."}
+      ]
+    }
+  ]
+}

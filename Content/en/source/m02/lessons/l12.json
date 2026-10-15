@@ -1,0 +1,206 @@
+{
+  "lessonId": "en.l12",
+  "exercises": [
+    {
+      "id": "en.l12.e01",
+      "unitIds": ["en.g10.want_need_to", "en.v.want", "en.v.go"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le mot qui manque.",
+      "prompt": "I want ___ go home.",
+      "promptLanguage": "en",
+      "options": ["to", "that", "for", "of"],
+      "answer": "to",
+      "acceptedAnswers": ["to"],
+      "hint": "Il faut un petit mot entre want et le verbe go.",
+      "explanation": "Quand want est suivi d'un verbe, on met to entre les deux : want to + verbe. On dit donc I want to go home.",
+      "tip": "Want + verbe ? Ajoute to : want to go.",
+      "extraExample": {"text": "We want to take the car.", "translation": "Nous voulons prendre la voiture."},
+      "errorPatterns": [
+        {"equals": "that", "category": "grammar", "feedback": "En anglais, on ne dit pas « want that » avant un verbe. On dit want to + verbe : I want to go."},
+        {"equals": "for", "category": "preposition", "feedback": "For ne s'emploie pas entre want et un verbe. Il faut to : I want to go."},
+        {"equals": "of", "category": "preposition", "feedback": "Of ne s'emploie pas entre want et un verbe. Il faut to : I want to go."}
+      ]
+    },
+    {
+      "id": "en.l12.e02",
+      "unitIds": ["en.g10.want_need_to", "en.v.need", "en.v.take"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « Nous avons besoin de prendre la voiture » ?",
+      "promptLanguage": "fr",
+      "options": ["We need to take the car.", "We need take the car.", "We needs to take the car.", "We need to taking the car."],
+      "answer": "We need to take the car.",
+      "acceptedAnswers": ["We need to take the car."],
+      "hint": "Need + to + verbe de base, sans -s ni -ing.",
+      "explanation": "Après need, on met to, puis le verbe à sa forme de base : need to take. Avec we, need ne prend pas de -s.",
+      "tip": "Need + to + verbe de base : rien d'autre à ajouter.",
+      "extraExample": {"text": "You need to go home.", "translation": "Tu as besoin de rentrer à la maison."},
+      "errorPatterns": [
+        {"equals": "we need take the car.", "category": "grammar", "feedback": "Il manque to entre need et le verbe : need to take."},
+        {"equals": "we needs to take the car.", "category": "conjugation", "feedback": "Avec we, need ne prend pas de -s : we need."},
+        {"equals": "we need to taking the car.", "category": "grammar", "feedback": "Après to, le verbe reste à sa forme de base, sans -ing : to take."}
+      ]
+    },
+    {
+      "id": "en.l12.e03",
+      "unitIds": ["en.g10.want_need_to", "en.v.get", "en.v.know", "en.v.think", "en.v.want", "en.v.need"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les nouveaux verbes : I want, I need, I know, I think, I get",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "I want", "right": "je veux"},
+        {"left": "I need", "right": "j'ai besoin de"},
+        {"left": "I know", "right": "je sais / je connais"},
+        {"left": "I think", "right": "je pense / je crois"},
+        {"left": "I get", "right": "je reçois / j'obtiens"}
+      ],
+      "answer": "I want = je veux ; I need = j'ai besoin de ; I know = je sais / je connais ; I think = je pense / je crois ; I get = je reçois / j'obtiens",
+      "acceptedAnswers": [],
+      "explanation": "Want = vouloir, need = avoir besoin de, know = savoir ou connaître, think = penser ou croire, get = recevoir ou obtenir. Avec I, ces verbes ne changent pas.",
+      "tip": "Know sert pour savoir et pour connaître : I know the answer, I know Tom.",
+      "extraExample": {"text": "I know Tom and I think he is tired.", "translation": "Je connais Tom et je pense qu'il est fatigué."}
+    },
+    {
+      "id": "en.l12.e04",
+      "unitIds": ["en.g10.want_need_to", "en.v.need", "en.v.homework"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "You ___ to do your homework. (avoir besoin de)",
+      "promptLanguage": "en",
+      "options": ["need", "know", "think", "needs"],
+      "answer": "need",
+      "acceptedAnswers": ["need"],
+      "hint": "Le verbe qui veut dire « avoir besoin de ».",
+      "explanation": "« Avoir besoin de » se dit need. Il est suivi de to + verbe de base : need to do. Avec you, need ne prend pas de -s.",
+      "tip": "Need to + verbe : j'ai besoin de faire quelque chose.",
+      "extraExample": {"text": "We need to make dinner.", "translation": "Nous avons besoin de préparer le dîner."},
+      "errorPatterns": [
+        {"equals": "needs", "category": "conjugation", "feedback": "Avec you, le verbe ne prend pas de -s : you need."},
+        {"equals": "know", "category": "vocabulary", "feedback": "Know veut dire « savoir, connaître ». Pour « avoir besoin de », on dit need."},
+        {"equals": "think", "category": "vocabulary", "feedback": "Think veut dire « penser ». Pour « avoir besoin de », on dit need."}
+      ]
+    },
+    {
+      "id": "en.l12.e05",
+      "unitIds": ["en.g10.want_need_to", "en.v.get", "en.v.phone"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "I ___ a phone from my parents. (recevoir)",
+      "promptLanguage": "en",
+      "options": ["get", "know", "think", "want"],
+      "answer": "get",
+      "acceptedAnswers": ["get", "receive"],
+      "hint": "Le verbe qui veut dire « recevoir, obtenir ».",
+      "explanation": "Get veut dire « recevoir » ou « obtenir » : I get a phone = je reçois un téléphone. Avec I, le verbe ne change pas.",
+      "tip": "Get = recevoir, obtenir. C'est l'un des verbes les plus utilisés en anglais.",
+      "extraExample": {"text": "We get a key from the teacher.", "translation": "Nous recevons une clé du professeur."},
+      "errorPatterns": [
+        {"equals": "know", "category": "vocabulary", "feedback": "Know veut dire « savoir, connaître ». Pour « recevoir », on dit get."},
+        {"equals": "think", "category": "vocabulary", "feedback": "Think veut dire « penser ». Pour « recevoir », on dit get."},
+        {"equals": "want", "category": "vocabulary", "feedback": "Want veut dire « vouloir ». Pour « recevoir », on dit get."}
+      ]
+    },
+    {
+      "id": "en.l12.e06",
+      "unitIds": ["en.g10.want_need_to", "en.v.need", "en.v.homework"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Ils ont besoin de faire leurs devoirs.",
+      "promptLanguage": "fr",
+      "tokens": ["need", "They", "do", "to", "their", "homework"],
+      "answer": "They need to do their homework",
+      "acceptedAnswers": ["They need to do their homework"],
+      "hint": "Sujet, need, to, puis le verbe do.",
+      "explanation": "L'ordre est : sujet + need + to + verbe de base + complément. On obtient They need to do their homework.",
+      "tip": "Need to + verbe : to reste collé au verbe.",
+      "extraExample": {"text": "I need to do my homework.", "translation": "J'ai besoin de faire mes devoirs."}
+    },
+    {
+      "id": "en.l12.e07",
+      "unitIds": ["en.g10.want_need_to", "en.v.think"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je pense que tu as raison.",
+      "promptLanguage": "fr",
+      "answer": "I think you are right.",
+      "acceptedAnswers": ["I think you are right.", "I think that you are right.", "I think you are correct.", "I think that you are correct."],
+      "hint": "« Avoir raison » se dit be right en anglais.",
+      "explanation": "Penser se dit think, et il est suivi directement de la phrase : I think you are right. « Avoir raison » se traduit par être right : you are right.",
+      "tip": "Avoir raison = be right. Avec I, think ne change pas.",
+      "extraExample": {"text": "We think they are tired.", "translation": "Nous pensons qu'ils sont fatigués."},
+      "errorPatterns": [
+        {"contains": "have right", "category": "grammar", "feedback": "« Avoir raison » ne se dit pas avec have en anglais. On dit you are right (être right)."},
+        {"contains": "i thinks", "category": "conjugation", "feedback": "Avec I, le verbe ne prend pas de -s : I think."},
+        {"contains": "you right", "category": "grammar", "feedback": "Il manque le verbe être : you are right."}
+      ]
+    },
+    {
+      "id": "en.l12.e08",
+      "unitIds": ["en.g10.want_need_to", "en.v.want", "en.v.go", "en.v.home"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous voulons rentrer à la maison.",
+      "promptLanguage": "fr",
+      "answer": "We want to go home.",
+      "acceptedAnswers": ["We want to go home.", "We want to get home.", "We want to go back home."],
+      "hint": "Vouloir + verbe : n'oublie pas to.",
+      "explanation": "Vouloir se dit want, suivi de to + verbe de base : want to go. Rentrer à la maison se dit go home, sans to devant home.",
+      "tip": "Want to go home : un seul to, entre want et go.",
+      "extraExample": {"text": "They want to go to school.", "translation": "Ils veulent aller à l'école."},
+      "errorPatterns": [
+        {"contains": "want go", "category": "grammar", "feedback": "Il manque to entre want et le verbe : want to go."},
+        {"contains": "go to home", "category": "preposition", "feedback": "Devant home, on n'ajoute pas to : go home."},
+        {"contains": "want that", "category": "grammar", "feedback": "On ne dit pas « want that » avant un verbe. On dit want to + verbe."}
+      ]
+    },
+    {
+      "id": "en.l12.e09",
+      "unitIds": ["en.g10.want_need_to", "en.v.want", "en.v.make", "en.v.coffee"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Je veux faire du café » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I want to make coffee.",
+      "acceptedAnswers": ["I want to make coffee.", "I want to make some coffee.", "I want to make a coffee."],
+      "hint": "Vouloir + faire : want to + le verbe pour préparer.",
+      "explanation": "Vouloir se dit want, suivi de to + verbe de base. Préparer du café se dit make coffee, donc I want to make coffee.",
+      "tip": "Want to + verbe de base. Et le café, on le prépare : make coffee.",
+      "extraExample": {"text": "We want to make dinner.", "translation": "Nous voulons préparer le dîner."},
+      "errorPatterns": [
+        {"contains": "want make", "category": "grammar", "feedback": "Il manque to entre want et make : I want to make."},
+        {"contains": "want to do coffee", "category": "word_confusion", "feedback": "On prépare le café : on dit make coffee, pas do coffee."},
+        {"contains": "i wants", "category": "conjugation", "feedback": "Avec I, le verbe ne prend pas de -s : I want."}
+      ]
+    },
+    {
+      "id": "en.l12.e10",
+      "unitIds": ["en.g10.want_need_to", "en.v.know", "en.v.brother"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Tu connais mon frère » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "You know my brother.",
+      "acceptedAnswers": ["You know my brother."],
+      "hint": "Connaître une personne se dit know, comme savoir.",
+      "explanation": "Know veut dire « savoir » et aussi « connaître » : you know my brother. Avec you, le verbe ne change pas, et il n'y a pas de to devant un nom.",
+      "tip": "Connaître quelqu'un, c'est know : I know Tom.",
+      "extraExample": {"text": "We know your sister.", "translation": "Nous connaissons ta sœur."},
+      "errorPatterns": [
+        {"contains": "you knows", "category": "conjugation", "feedback": "Avec you, le verbe ne prend pas de -s : you know."},
+        {"contains": "know to", "category": "grammar", "feedback": "To s'utilise devant un verbe, pas devant un nom. Ici, on dit you know my brother."},
+        {"contains": "you are know", "category": "grammar", "feedback": "Pas besoin du verbe être ici : on dit simplement you know."}
+      ]
+    }
+  ]
+}

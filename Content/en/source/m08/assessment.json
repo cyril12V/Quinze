@@ -1,0 +1,104 @@
+[
+  {
+    "id": "en.assess.m08.01",
+    "unitIds": ["en.g39.present_perfect_intro"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Je n'ai jamais mangé de sushis.",
+    "promptLanguage": "fr",
+    "answer": "I have never eaten sushi.",
+    "acceptedAnswers": ["I have never eaten sushi.", "I haven't eaten sushi.", "I have never tried sushi.", "I have never had sushi.", "I haven't had sushi."],
+    "hint": "Jamais + expérience de vie : have never + participe passé.",
+    "explanation": "On parle d'une expérience de vie, sans date : present perfect. Never se place entre have et le participe passé de eat : eaten.",
+    "tip": "Eat – ate – eaten : après have, on utilise eaten.",
+    "extraExample": {"text": "Ben has never eaten cake for breakfast.", "translation": "Ben n'a jamais mangé de gâteau au petit déjeuner."},
+    "errorPatterns": [
+      {"contains": "never ate", "category": "conjugation", "feedback": "Ate est le past simple. Après have, il faut le participe passé : eaten."},
+      {"contains": "never eat sushi", "category": "conjugation", "feedback": "Après have, il faut le participe passé : eaten, pas eat."},
+      {"contains": "never eated", "category": "spelling", "feedback": "Eat est irrégulier : on n'ajoute pas -ed. Le participe passé est eaten."}
+    ]
+  },
+  {
+    "id": "en.assess.m08.02",
+    "unitIds": ["en.g41.tense_contrast"],
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Complète avec la bonne forme du verbe entre parenthèses.",
+    "prompt": "Ben ___ me a long message yesterday. (send)",
+    "promptLanguage": "en",
+    "answer": "sent",
+    "acceptedAnswers": ["sent"],
+    "hint": "Yesterday est un moment précis du passé.",
+    "explanation": "Yesterday donne un moment précis dans le passé : on utilise le past simple. Send est irrégulier : sent.",
+    "tip": "Yesterday = past simple ; send – sent – sent.",
+    "extraExample": {"text": "Lucy sent a photo to her mother last week.", "translation": "Lucy a envoyé une photo à sa mère la semaine dernière."},
+    "errorPatterns": [
+      {"equals": "send", "category": "verb_tense", "feedback": "Send est la forme de base. Avec yesterday, il faut le past simple : sent."},
+      {"equals": "sended", "category": "conjugation", "feedback": "Send est irrégulier : le past simple est sent, pas sended."},
+      {"equals": "has sent", "category": "verb_tense", "feedback": "Avec yesterday, on n'utilise pas le present perfect. Le past simple suffit : sent."}
+    ]
+  },
+  {
+    "id": "en.assess.m08.03",
+    "unitIds": ["en.g39.present_perfect_intro"],
+    "type": "free_answer",
+    "difficulty": 4,
+    "instruction": "Écris la phrase en anglais.",
+    "prompt": "Comment dit-on « Je viens d'arriver » en anglais ?",
+    "promptLanguage": "fr",
+    "answer": "I have just arrived.",
+    "acceptedAnswers": ["I have just arrived.", "I just arrived."],
+    "hint": "« Venir de » = have + just + participe passé.",
+    "explanation": "Pour « venir de », on utilise have just + participe passé : arrived. Just se place entre have et le participe passé.",
+    "tip": "Je viens de… = I have just + participe passé.",
+    "extraExample": {"text": "My brother has just left.", "translation": "Mon frère vient de partir."},
+    "errorPatterns": [
+      {"contains": "i come to", "category": "vocabulary", "feedback": "« Je viens de » ne se traduit pas avec come. On dit I have just + participe passé."},
+      {"contains": "just arrive at", "category": "conjugation", "feedback": "Après have just, il faut le participe passé : arrived."},
+      {"contains": "arrived just", "category": "word_order", "feedback": "Just se place entre have et le participe passé : have just arrived."}
+    ]
+  },
+  {
+    "id": "en.assess.m08.04",
+    "unitIds": ["en.g39.present_perfect_intro", "en.g41.tense_contrast"],
+    "type": "mcq",
+    "difficulty": 4,
+    "instruction": "Lis le texte, puis choisis la bonne réponse.",
+    "context": "Anna is at the airport. She has just bought a ticket, but she hasn't found her passport yet. Her flight leaves in one hour.",
+    "prompt": "What hasn't Anna found?",
+    "promptLanguage": "en",
+    "options": ["Her passport.", "Her ticket.", "Her flight.", "Her bag."],
+    "answer": "Her passport.",
+    "acceptedAnswers": ["Her passport."],
+    "hint": "Cherche hasn't found dans le texte.",
+    "explanation": "Le texte dit « she hasn't found her passport yet » : elle n'a pas encore trouvé son passeport. Son billet, lui, est déjà acheté (has just bought a ticket).",
+    "tip": "Not … yet = pas encore ; just = venir de.",
+    "extraExample": {"text": "Tom hasn't called the dentist yet.", "translation": "Tom n'a pas encore appelé le dentiste."},
+    "errorPatterns": [
+      {"equals": "her ticket", "category": "instruction", "feedback": "Anna a just bought a ticket : son billet est acheté. C'est le passeport qu'elle n'a pas encore trouvé."},
+      {"equals": "her flight", "category": "instruction", "feedback": "Le texte dit seulement que son vol part dans une heure. Ce qu'elle n'a pas trouvé, c'est son passeport."},
+      {"equals": "her bag", "category": "instruction", "feedback": "Le texte ne parle pas de son sac. Elle n'a pas encore trouvé son passeport."}
+    ]
+  },
+  {
+    "id": "en.assess.m08.05",
+    "unitIds": ["en.g40.short_answers", "en.g39.present_perfect_intro"],
+    "type": "free_answer",
+    "difficulty": 4,
+    "instruction": "Réponds par une réponse courte en anglais.",
+    "prompt": "Réponds « non, pas encore » à la question : « Have you finished your homework yet? »",
+    "promptLanguage": "fr",
+    "answer": "No, I haven't.",
+    "acceptedAnswers": ["No, I haven't.", "No, I have not.", "No, not yet.", "Not yet.", "No, I haven't finished yet.", "No, I haven't finished it yet.", "No, I haven't finished my homework yet."],
+    "hint": "La question commence par Have : reprends have.",
+    "explanation": "La question est au present perfect (Have you…?) : la réponse courte reprend have. Réponse négative : No, I haven't. On peut aussi dire Not yet.",
+    "tip": "Have you…? → Yes, I have. / No, I haven't.",
+    "extraExample": {"text": "Has Tom called you yet? — No, he hasn't.", "translation": "Tom t'a-t-il déjà appelé ? — Non, pas encore."},
+    "errorPatterns": [
+      {"contains": "no i don't", "category": "grammar", "feedback": "La question commence par Have, pas par Do : on répond No, I haven't."},
+      {"contains": "no i didn't", "category": "grammar", "feedback": "La question commence par Have, pas par Did : on répond No, I haven't."},
+      {"contains": "no i'm not", "category": "grammar", "feedback": "La question commence par Have, pas par Are : on répond No, I haven't."}
+    ]
+  }
+]

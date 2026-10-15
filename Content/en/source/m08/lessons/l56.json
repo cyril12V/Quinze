@@ -1,0 +1,206 @@
+{
+  "lessonId": "en.l56",
+  "exercises": [
+    {
+      "id": "en.l56.e01",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.just", "en.v.email"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Dans « I have just sent the email », que veut dire just ?",
+      "promptLanguage": "fr",
+      "options": ["je viens de", "déjà", "pas encore", "jamais"],
+      "answer": "je viens de",
+      "acceptedAnswers": ["je viens de"],
+      "hint": "I have just sent = l'e-mail est parti il y a quelques secondes.",
+      "explanation": "Avec le present perfect, just veut dire « à l'instant » : I have just sent the email = je viens d'envoyer l'e-mail. Il se place entre have et le participe passé.",
+      "tip": "Have / has + just + participe passé = « venir de ».",
+      "extraExample": {"text": "Anna has just called me.", "translation": "Anna vient de m'appeler."},
+      "errorPatterns": [
+        {"equals": "déjà", "category": "word_confusion", "feedback": "« Déjà » se dit already. Just veut dire « à l'instant » : je viens de."},
+        {"equals": "pas encore", "category": "word_confusion", "feedback": "« Pas encore » se dit not … yet. Ici, la phrase est affirmative : just = je viens de."},
+        {"equals": "jamais", "category": "word_confusion", "feedback": "« Jamais » se dit never. Just veut dire « à l'instant » : je viens de."}
+      ]
+    },
+    {
+      "id": "en.l56.e02",
+      "unitIds": ["en.g39.present_perfect_intro"],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Quelle phrase est correcte ?",
+      "prompt": "Comment dit-on « J'ai vu Anna hier » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I saw Anna yesterday.", "I have seen Anna yesterday.", "I have saw Anna yesterday.", "I seen Anna yesterday."],
+      "answer": "I saw Anna yesterday.",
+      "acceptedAnswers": ["I saw Anna yesterday."],
+      "hint": "Hier est un moment précis du passé.",
+      "explanation": "Yesterday donne un moment précis dans le passé : on utilise le past simple (saw). Le present perfect ne s'emploie pas avec yesterday, last year ou ago.",
+      "tip": "Si tu donnes une date ou un moment précis, utilise le past simple.",
+      "extraExample": {"text": "We visited the museum last year.", "translation": "Nous avons visité le musée l'année dernière."},
+      "errorPatterns": [
+        {"equals": "i have seen anna yesterday", "category": "verb_tense", "feedback": "Avec yesterday, le present perfect est impossible en anglais, même si le français dit « j'ai vu ». Utilise le past simple : I saw."},
+        {"equals": "i have saw anna yesterday", "category": "conjugation", "feedback": "Deux erreurs : avec yesterday, on utilise le past simple (I saw), sans have ; et saw n'est pas un participe passé."},
+        {"equals": "i seen anna yesterday", "category": "conjugation", "feedback": "Seen est un participe passé : il s'emploie après have. Au past simple, on dit I saw."}
+      ]
+    },
+    {
+      "id": "en.l56.e03",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.already", "en.v.yet", "en.v.just"],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "Just, already et yet avec le present perfect",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "I have just finished.", "right": "Je viens de finir."},
+        {"left": "I have already finished.", "right": "J'ai déjà fini."},
+        {"left": "I haven't finished yet.", "right": "Je n'ai pas encore fini."},
+        {"left": "Have you finished yet?", "right": "As-tu déjà fini ?"}
+      ],
+      "answer": "I have just finished. = Je viens de finir. ; I have already finished. = J'ai déjà fini. ; I haven't finished yet. = Je n'ai pas encore fini. ; Have you finished yet? = As-tu déjà fini ?",
+      "acceptedAnswers": [],
+      "explanation": "Just se place avant le participe passé : « je viens de ». Already veut dire « déjà » dans une phrase affirmative. Yet se met à la fin : il veut dire « pas encore » dans une négation et « déjà ? » dans une question.",
+      "tip": "Just = je viens de ; already = déjà ; not … yet = pas encore.",
+      "extraExample": {"text": "Tom has already eaten.", "translation": "Tom a déjà mangé."}
+    },
+    {
+      "id": "en.l56.e04",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.just", "en.v.email"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le mot qui correspond à la traduction entre parenthèses.",
+      "prompt": "Tom has ___ sent the email. (Tom vient d'envoyer l'e-mail.)",
+      "promptLanguage": "en",
+      "options": ["just", "already", "yet", "ever"],
+      "answer": "just",
+      "acceptedAnswers": ["just"],
+      "hint": "« Venir de » se dit avec le mot just.",
+      "explanation": "Pour dire qu'une action vient de se terminer, on utilise have / has just + participe passé. Just se place entre has et sent.",
+      "tip": "« Venir de » = have / has just + participe passé.",
+      "extraExample": {"text": "They have just arrived at the hotel.", "translation": "Ils viennent d'arriver à l'hôtel."},
+      "errorPatterns": [
+        {"equals": "already", "category": "word_confusion", "feedback": "Already veut dire « déjà ». Pour « vient de », on dit just."},
+        {"equals": "yet", "category": "word_confusion", "feedback": "Yet s'emploie à la fin d'une question ou d'une négation (pas encore). Pour « vient de », on dit just."},
+        {"equals": "ever", "category": "word_confusion", "feedback": "Ever s'emploie dans les questions d'expérience (Have you ever…?). Pour « vient de », on dit just."}
+      ]
+    },
+    {
+      "id": "en.l56.e05",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.yet", "en.v.report"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec le mot qui correspond à la traduction entre parenthèses.",
+      "prompt": "I haven't written the report ___. (Je n'ai pas encore écrit le rapport.)",
+      "promptLanguage": "en",
+      "options": ["yet", "already", "just", "ever"],
+      "answer": "yet",
+      "acceptedAnswers": ["yet"],
+      "hint": "« Pas encore » se dit not … + un mot placé à la fin de la phrase.",
+      "explanation": "Pour dire « pas encore », on utilise une phrase négative avec yet à la fin : I haven't written the report yet. Already s'emploie plutôt dans les phrases affirmatives.",
+      "tip": "Pas encore = not … yet, à la fin de la phrase.",
+      "extraExample": {"text": "She hasn't called me yet.", "translation": "Elle ne m'a pas encore appelé."},
+      "errorPatterns": [
+        {"equals": "already", "category": "word_confusion", "feedback": "Already (déjà) s'emploie dans une phrase affirmative. Dans une négation, « pas encore » se dit yet."},
+        {"equals": "just", "category": "word_confusion", "feedback": "Just veut dire « venir de ». « Pas encore » se dit yet."},
+        {"equals": "ever", "category": "word_confusion", "feedback": "Ever s'emploie dans les questions d'expérience. « Pas encore » se dit yet."}
+      ]
+    },
+    {
+      "id": "en.l56.e06",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.already", "en.v.email"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Elle a déjà envoyé l'e-mail.",
+      "promptLanguage": "fr",
+      "answer": "She has already sent the email.",
+      "acceptedAnswers": ["She has already sent the email.", "She has sent the email already.", "She has already sent the e-mail.", "She has sent the e-mail already.", "She already sent the email.", "She sent the email already."],
+      "hint": "Already se place entre has et le participe passé de send.",
+      "explanation": "Pour dire que quelque chose est déjà fait, on utilise has + already + participe passé : sent. Already peut aussi se mettre à la fin de la phrase. En anglais américain, on entend aussi le past simple (She already sent…), mais en anglais britannique on utilise le present perfect.",
+      "tip": "Already se place entre have / has et le participe passé.",
+      "extraExample": {"text": "I have already eaten lunch.", "translation": "J'ai déjà mangé le déjeuner."},
+      "errorPatterns": [
+        {"contains": "has already send", "category": "conjugation", "feedback": "Après has, il faut le participe passé : sent (send – sent – sent)."},
+        {"contains": "have already sent", "category": "grammar", "feedback": "Avec she (elle), on utilise has, pas have."},
+        {"contains": "already sended", "category": "conjugation", "feedback": "Send est irrégulier : le participe passé est sent, pas sended."}
+      ]
+    },
+    {
+      "id": "en.l56.e07",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.just", "en.v.email"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Anna vient d'envoyer un e-mail à Tom.",
+      "promptLanguage": "fr",
+      "tokens": ["Tom", "has", "an", "Anna", "sent", "email", "to", "just"],
+      "answer": "Anna has just sent an email to Tom",
+      "acceptedAnswers": ["Anna has just sent an email to Tom"],
+      "hint": "Just se place entre has et le participe passé.",
+      "explanation": "On commence par le sujet Anna, puis has just + participe passé sent. Just reste collé à has, avant le participe passé. An se place devant email (son de voyelle).",
+      "tip": "Sujet + has / have + just + participe passé.",
+      "extraExample": {"text": "Tom has just left the office.", "translation": "Tom vient de quitter le bureau."}
+    },
+    {
+      "id": "en.l56.e08",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.yet", "en.v.report"],
+      "type": "translation",
+      "difficulty": 4,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je n'ai pas encore lu le rapport.",
+      "promptLanguage": "fr",
+      "answer": "I haven't read the report yet.",
+      "acceptedAnswers": ["I haven't read the report yet.", "I haven't yet read the report.", "I didn't read the report yet."],
+      "hint": "Utilise une phrase négative avec le mot yet.",
+      "explanation": "« Pas encore » se traduit par une négation avec yet : I haven't read the report yet. Le participe passé de read s'écrit comme l'infinitif (read), mais il se prononce « red ».",
+      "tip": "Pas encore = haven't / hasn't + participe passé + yet.",
+      "extraExample": {"text": "We haven't seen the new film yet.", "translation": "Nous n'avons pas encore vu le nouveau film."},
+      "errorPatterns": [
+        {"contains": "report already", "category": "word_confusion", "feedback": "Already (déjà) s'emploie dans une phrase affirmative. Pour « pas encore », on dit yet."},
+        {"contains": "don't have read", "category": "grammar", "feedback": "Pour le present perfect négatif, on dit haven't + participe passé, pas don't have."},
+        {"contains": "readed", "category": "spelling", "feedback": "Read est irrégulier : le participe passé s'écrit read (et se prononce « red »), pas readed."}
+      ]
+    },
+    {
+      "id": "en.l56.e09",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.just", "en.v.report"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Je viens de finir mon rapport » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I have just finished my report.",
+      "acceptedAnswers": ["I have just finished my report.", "I just finished my report.", "I have just completed my report.", "I have just written my report."],
+      "hint": "« Venir de » = have + just + participe passé.",
+      "explanation": "Pour « venir de », on utilise have just + participe passé : finished. On ne traduit pas « venir de » mot à mot avec come.",
+      "tip": "Je viens de… = I have just + participe passé.",
+      "extraExample": {"text": "She has just finished her homework.", "translation": "Elle vient de finir ses devoirs."},
+      "errorPatterns": [
+        {"contains": "i come to", "category": "vocabulary", "feedback": "« Je viens de » ne se traduit pas avec come. On dit I have just + participe passé."},
+        {"contains": "just finish my", "category": "conjugation", "feedback": "Après have just, il faut le participe passé : finished."},
+        {"contains": "finished just", "category": "word_order", "feedback": "Just se place entre have et le participe passé : have just finished."}
+      ]
+    },
+    {
+      "id": "en.l56.e10",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.already", "en.v.just"],
+      "type": "free_answer",
+      "difficulty": 5,
+      "instruction": "Écris une phrase en anglais avec just ou already et un participe passé.",
+      "prompt": "Dis ce que tu viens de faire, ou ce que tu as déjà fait aujourd'hui.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["just", "already"], ["have", "has", "'ve"]], "minWords": 4},
+      "answer": "I have already eaten breakfast.",
+      "acceptedAnswers": ["I have already eaten breakfast.", "I have just finished my homework.", "Anna has just sent an email.", "We have already cleaned the kitchen."],
+      "hint": "Forme : sujet + have / has + just (ou already) + participe passé.",
+      "explanation": "Pour parler de ce qui vient d'arriver ou de ce qui est déjà fait, on utilise have / has + just ou already + participe passé. Ne donne pas de moment précis comme yesterday.",
+      "tip": "Just ou already se place entre have / has et le participe passé.",
+      "extraExample": {"text": "Tom has already read the report.", "translation": "Tom a déjà lu le rapport."},
+      "errorPatterns": [
+        {"contains": "already went", "category": "conjugation", "feedback": "Went est le past simple. Avec have / has, il faut le participe passé : gone ou been."},
+        {"contains": "just went", "category": "conjugation", "feedback": "Went est le past simple. Avec have / has just, il faut le participe passé : gone ou been."},
+        {"contains": "yesterday", "category": "verb_tense", "feedback": "Yesterday est un moment précis : on n'utilise pas le present perfect avec lui. Ici, écris sans date ce que tu viens de faire ou as déjà fait."}
+      ]
+    }
+  ]
+}

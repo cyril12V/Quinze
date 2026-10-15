@@ -1,0 +1,211 @@
+{
+  "lessonId": "en.l08",
+  "exercises": [
+    {
+      "id": "en.l08.e01",
+      "unitIds": ["en.g07.plural_nouns", "en.v.book"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « des livres » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["books", "book", "a books", "bookes"],
+      "answer": "books",
+      "acceptedAnswers": ["books"],
+      "hint": "Il s'agit de plusieurs livres.",
+      "explanation": "Pour faire le pluriel d'un nom, on ajoute en général -s : book devient books. Devant un pluriel, on n'utilise pas a : « des livres » se dit simplement books.",
+      "tip": "Plusieurs = -s à la fin du nom, et pas de a.",
+      "extraExample": {"text": "I have books.", "translation": "J'ai des livres."},
+      "errorPatterns": [
+        {"equals": "book", "category": "grammar", "feedback": "Book est au singulier (un livre). Pour plusieurs livres, on ajoute -s : books."},
+        {"equals": "a books", "category": "grammar", "feedback": "A veut dire « un » : on ne le met pas devant un pluriel. On dit books."},
+        {"equals": "bookes", "category": "spelling", "feedback": "On ajoute -es seulement après s, x, ch ou sh. Après k, on ajoute juste -s : books."}
+      ]
+    },
+    {
+      "id": "en.l08.e02",
+      "unitIds": ["en.g07.plural_nouns", "en.v.child", "en.g02.articles"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « les enfants » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["the children", "the childs", "the childrens", "the child"],
+      "answer": "the children",
+      "acceptedAnswers": ["the children"],
+      "hint": "Child a un pluriel irrégulier : il ne prend pas simplement -s.",
+      "explanation": "Child a un pluriel irrégulier : children. On ne dit pas « childs ». Children est déjà un pluriel : on n'y ajoute pas de s.",
+      "tip": "À retenir par cœur : one child, children.",
+      "extraExample": {"text": "The children are happy.", "translation": "Les enfants sont heureux."},
+      "errorPatterns": [
+        {"equals": "the childs", "category": "spelling", "feedback": "Child est un pluriel irrégulier : on ne dit pas « childs », mais children."},
+        {"equals": "the childrens", "category": "spelling", "feedback": "Children est déjà au pluriel : pas de s à la fin."},
+        {"equals": "the child", "category": "grammar", "feedback": "Child est au singulier (l'enfant). Pour « les enfants », on dit the children."}
+      ]
+    },
+    {
+      "id": "en.l08.e03",
+      "unitIds": ["en.g07.plural_nouns", "en.v.key", "en.v.bag", "en.v.school", "en.v.people"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque pluriel anglais à sa traduction.",
+      "prompt": "Les pluriels : keys, bags, schools, children, people",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "keys", "right": "des clés"},
+        {"left": "bags", "right": "des sacs"},
+        {"left": "schools", "right": "des écoles"},
+        {"left": "children", "right": "des enfants"},
+        {"left": "people", "right": "des gens, des personnes"}
+      ],
+      "answer": "keys = des clés ; bags = des sacs ; schools = des écoles ; children = des enfants ; people = des gens, des personnes",
+      "acceptedAnswers": [],
+      "explanation": "Keys, bags et schools suivent la règle : on ajoute -s. Children est un pluriel irrégulier. People est le pluriel de person : c'est déjà un pluriel, donc on dit people are.",
+      "tip": "People est un pluriel : on dit people are, jamais « people is ».",
+      "extraExample": {"text": "The people are ready.", "translation": "Les gens sont prêts."}
+    },
+    {
+      "id": "en.l08.e04",
+      "unitIds": ["en.g07.plural_nouns", "en.v.bag", "en.v.home"],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "The ___ are at home. (Les sacs sont à la maison.)",
+      "promptLanguage": "en",
+      "options": ["bags", "bag", "bages"],
+      "answer": "bags",
+      "acceptedAnswers": ["bags"],
+      "hint": "Il y a plusieurs sacs, et le verbe est are.",
+      "explanation": "Il y a plusieurs sacs : on ajoute -s à bag, ce qui donne bags. Le verbe are est aussi un signe de pluriel.",
+      "tip": "Are indique un pluriel : le nom prend aussi un -s.",
+      "extraExample": {"text": "The keys are at home.", "translation": "Les clés sont à la maison."},
+      "errorPatterns": [
+        {"equals": "bag", "category": "grammar", "feedback": "Bag est au singulier. Pour plusieurs sacs, on ajoute -s : the bags are."},
+        {"equals": "bages", "category": "spelling", "feedback": "Le pluriel de bag est bags : on ajoute seulement -s."}
+      ]
+    },
+    {
+      "id": "en.l08.e05",
+      "unitIds": ["en.g07.plural_nouns", "en.v.woman", "en.v.happy"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le pluriel qui convient.",
+      "prompt": "The ___ are happy. (Les femmes sont heureuses.)",
+      "promptLanguage": "en",
+      "options": ["women", "woman", "womans"],
+      "answer": "women",
+      "acceptedAnswers": ["women"],
+      "hint": "Le pluriel de woman est irrégulier.",
+      "explanation": "Woman a un pluriel irrégulier : women. On ne dit pas « womans ». Le verbe are annonce aussi un pluriel.",
+      "tip": "Man devient men, woman devient women.",
+      "extraExample": {"text": "The wives are tired.", "translation": "Les épouses sont fatiguées."},
+      "errorPatterns": [
+        {"equals": "woman", "category": "grammar", "feedback": "Woman est au singulier. Pour « les femmes », on dit women."},
+        {"equals": "womans", "category": "spelling", "feedback": "Woman est un pluriel irrégulier : on ne dit pas « womans », mais women."}
+      ]
+    },
+    {
+      "id": "en.l08.e06",
+      "unitIds": ["en.g07.plural_nouns", "en.v.book", "en.v.school"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former une phrase.",
+      "prompt": "Les livres sont à l'école.",
+      "promptLanguage": "fr",
+      "tokens": ["school", "The", "at", "are", "books"],
+      "answer": "The books are at school",
+      "acceptedAnswers": ["The books are at school"],
+      "hint": "L'ordre est sujet, are, puis at school.",
+      "explanation": "Le sujet est au pluriel (books), donc le verbe est are. À l'école se dit at school, comme at home : sans article.",
+      "tip": "Sujet pluriel = are. À l'école = at school.",
+      "extraExample": {"text": "The children are at school.", "translation": "Les enfants sont à l'école."}
+    },
+    {
+      "id": "en.l08.e07",
+      "unitIds": ["en.g07.plural_nouns", "en.v.key", "en.v.bag", "en.g05.have_has"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "Tom a des clés et un sac.",
+      "promptLanguage": "fr",
+      "answer": "Tom has keys and a bag",
+      "acceptedAnswers": ["Tom has keys and a bag", "Tom has some keys and a bag"],
+      "hint": "Des clés est au pluriel. Un sac est au singulier.",
+      "explanation": "Des clés se dit keys : on ajoute -s à key (après une voyelle + y, on ne change pas le y) et on n'ajoute pas a. Un sac se dit a bag, au singulier. Tom, c'est he : has.",
+      "tip": "Pluriel : nom + s, sans a. Singulier : a + nom.",
+      "extraExample": {"text": "Anna has books and a phone.", "translation": "Anna a des livres et un téléphone."},
+      "errorPatterns": [
+        {"contains": "a keys", "category": "grammar", "feedback": "A ne se met pas devant un pluriel. Des clés se dit simplement keys."},
+        {"contains": "keies", "category": "spelling", "feedback": "Key fait keys : après une voyelle + y, on ajoute seulement -s."},
+        {"contains": "tom have", "category": "conjugation", "feedback": "Avec Tom (he), have devient has : Tom has keys."}
+      ]
+    },
+    {
+      "id": "en.l08.e08",
+      "unitIds": ["en.g07.plural_nouns", "en.v.school", "en.v.woman", "en.v.child"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "Les femmes et les enfants sont à l'école.",
+      "promptLanguage": "fr",
+      "answer": "The women and the children are at school",
+      "acceptedAnswers": [
+        "The women and the children are at school",
+        "The women and children are at school",
+        "The women and the children are at the school",
+        "The women and children are at the school",
+        "The women and the kids are at school",
+        "The women and kids are at school"
+      ],
+      "hint": "Deux pluriels irréguliers : woman et child.",
+      "explanation": "Les femmes se dit the women et les enfants se dit the children : ce sont deux pluriels irréguliers. Le sujet est au pluriel : le verbe est are. À l'école se dit at school.",
+      "tip": "Woman → women, child → children : à connaître par cœur.",
+      "extraExample": {"text": "The men and the women are at home.", "translation": "Les hommes et les femmes sont à la maison."},
+      "errorPatterns": [
+        {"contains": "womans", "category": "spelling", "feedback": "Le pluriel de woman est women, pas « womans »."},
+        {"contains": "childs", "category": "spelling", "feedback": "Le pluriel de child est children, pas « childs »."},
+        {"contains": "childrens", "category": "spelling", "feedback": "Children est déjà un pluriel : pas de s à la fin."}
+      ]
+    },
+    {
+      "id": "en.l08.e09",
+      "unitIds": ["en.g07.plural_nouns", "en.v.man"],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris le pluriel en anglais.",
+      "prompt": "Comment dit-on « des hommes » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "men",
+      "acceptedAnswers": ["men", "some men"],
+      "hint": "C'est un pluriel irrégulier : la voyelle change.",
+      "explanation": "Man a un pluriel irrégulier : men. On change le a en e, sans ajouter de s.",
+      "tip": "One man, two men : le a devient e.",
+      "extraExample": {"text": "The men are ready.", "translation": "Les hommes sont prêts."},
+      "errorPatterns": [
+        {"equals": "mans", "category": "spelling", "feedback": "Man est un pluriel irrégulier : on ne dit pas « mans », mais men."},
+        {"equals": "mens", "category": "spelling", "feedback": "Men est déjà un pluriel : pas de s à la fin."},
+        {"equals": "man", "category": "grammar", "feedback": "Man est au singulier. Pour « des hommes », on dit men."}
+      ]
+    },
+    {
+      "id": "en.l08.e10",
+      "unitIds": ["en.g07.plural_nouns", "en.v.people", "en.v.tired", "en.g03.be_affirmative"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Les gens sont fatigués » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "The people are tired",
+      "acceptedAnswers": ["The people are tired", "People are tired"],
+      "hint": "People est déjà un pluriel : quel verbe ?",
+      "explanation": "« Les gens » se dit people, un pluriel (c'est le pluriel de person). Le verbe est donc are : the people are tired.",
+      "tip": "People are : toujours are, jamais « people is ».",
+      "extraExample": {"text": "People are happy.", "translation": "Les gens sont heureux."},
+      "errorPatterns": [
+        {"contains": "people is", "category": "conjugation", "feedback": "People est un pluriel : on dit people are, pas people is."},
+        {"contains": "peoples", "category": "spelling", "feedback": "People est déjà un pluriel : pas de s (peoples veut dire « les peuples »)."},
+        {"contains": "persons", "category": "word_confusion", "feedback": "Pour « les gens », on utilise people, pas persons."}
+      ]
+    }
+  ]
+}

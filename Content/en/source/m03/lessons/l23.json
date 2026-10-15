@@ -1,0 +1,211 @@
+{
+  "lessonId": "en.l23",
+  "exercises": [
+    {
+      "id": "en.l23.e01",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.take_a_shower"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « Elle prend toujours une douche le matin » ?",
+      "promptLanguage": "fr",
+      "options": ["She always takes a shower in the morning.", "She takes always a shower in the morning.", "She always take a shower in the morning."],
+      "answer": "She always takes a shower in the morning.",
+      "acceptedAnswers": ["She always takes a shower in the morning."],
+      "hint": "Où se place always ? Et que devient take avec she ?",
+      "explanation": "L'adverbe always se place avant le verbe : she always takes. Le verbe garde son -s à la 3e personne (she takes). Pour une douche, on dit take a shower.",
+      "tip": "Adverbe avant le verbe, et n'oublie pas le -s de she.",
+      "extraExample": {"text": "He always has a shower in the evening.", "translation": "Il prend toujours une douche le soir."},
+      "errorPatterns": [
+        {"equals": "She takes always a shower in the morning.", "category": "word_order", "feedback": "L'adverbe se place avant le verbe : she always takes."},
+        {"equals": "She always take a shower in the morning.", "category": "conjugation", "feedback": "She demande un -s sur le verbe, même après always : she always takes."}
+      ]
+    },
+    {
+      "id": "en.l23.e02",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.have_breakfast"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme du verbe.",
+      "prompt": "Anna never ___ breakfast at home.",
+      "promptLanguage": "en",
+      "options": ["has", "have", "haves"],
+      "answer": "has",
+      "acceptedAnswers": ["has"],
+      "hint": "Anna = she. Have change de forme.",
+      "explanation": "Never se place avant le verbe, et le verbe garde sa forme de 3e personne. Avec she, have devient has : Anna never has breakfast.",
+      "tip": "Après never aussi : he / she / it → has.",
+      "extraExample": {"text": "My brother often has breakfast at school.", "translation": "Mon frère prend souvent son petit-déjeuner à l'école."},
+      "errorPatterns": [
+        {"equals": "have", "category": "conjugation", "feedback": "Anna = she : have devient has, même après never."},
+        {"equals": "haves", "category": "spelling", "feedback": "La forme de have à la 3e personne est has, pas haves."}
+      ]
+    },
+    {
+      "id": "en.l23.e03",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.wake_up", "en.v.get_up", "en.v.go_to_bed", "en.v.take_a_shower", "en.v.have_breakfast"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression à sa traduction.",
+      "prompt": "Les expressions de la routine",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "wake up", "right": "se réveiller"},
+        {"left": "get up", "right": "se lever"},
+        {"left": "go to bed", "right": "aller se coucher"},
+        {"left": "take a shower", "right": "prendre une douche"},
+        {"left": "have breakfast", "right": "prendre le petit-déjeuner"}
+      ],
+      "answer": "wake up = se réveiller ; get up = se lever ; go to bed = aller se coucher ; take a shower = prendre une douche ; have breakfast = prendre le petit-déjeuner",
+      "acceptedAnswers": [],
+      "explanation": "En anglais, on n'utilise pas de verbe pronominal : on dit get up (et non « get up myself »). Wake up, c'est ouvrir les yeux ; get up, c'est sortir du lit.",
+      "tip": "Wake up = se réveiller, get up = se lever : deux moments différents.",
+      "extraExample": {"text": "I wake up at six and I get up at seven.", "translation": "Je me réveille à six heures et je me lève à sept heures."}
+    },
+    {
+      "id": "en.l23.e04",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.wake_up", "en.v.get_up"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "I usually ___ up at six, but I get up at seven.",
+      "promptLanguage": "en",
+      "options": ["wake", "get", "go"],
+      "answer": "wake",
+      "acceptedAnswers": ["wake"],
+      "hint": "On se réveille d'abord, on se lève ensuite.",
+      "explanation": "Le sens de la phrase est « je me réveille à six heures, mais je me lève à sept heures ». Se réveiller se dit wake up ; se lever se dit get up. Usually se place avant le verbe.",
+      "tip": "Wake up avant get up : on ouvre les yeux, puis on se lève.",
+      "extraExample": {"text": "She wakes up at six but she gets up at seven.", "translation": "Elle se réveille à six heures mais elle se lève à sept heures."},
+      "errorPatterns": [
+        {"equals": "get", "category": "word_confusion", "feedback": "Get up veut dire « se lever ». Ici, on se réveille à six heures et on se lève à sept : wake up."},
+        {"equals": "go", "category": "vocabulary", "feedback": "Go up ne veut pas dire « se réveiller ». Le verbe attendu est wake : wake up."}
+      ]
+    },
+    {
+      "id": "en.l23.e05",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.take_a_shower"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "Tom often ___ a shower before breakfast.",
+      "promptLanguage": "en",
+      "options": ["takes", "makes", "does"],
+      "answer": "takes",
+      "acceptedAnswers": ["takes", "has"],
+      "hint": "Une douche, on la « prend » en anglais.",
+      "explanation": "Pour une douche, on ne « fait » pas : on prend. L'expression est take a shower, qui devient takes avec Tom (= he). Often se place avant le verbe.",
+      "tip": "Une douche ne se fait pas : take a shower.",
+      "extraExample": {"text": "We take a shower at the gym.", "translation": "Nous prenons une douche à la salle de sport."},
+      "errorPatterns": [
+        {"equals": "makes", "category": "word_confusion", "feedback": "En anglais, on ne « fait » pas une douche avec make : on dit take a shower."},
+        {"equals": "does", "category": "word_confusion", "feedback": "Do ne s'utilise pas pour une douche : on dit take a shower."}
+      ]
+    },
+    {
+      "id": "en.l23.e06",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.go_to_bed"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Ma sœur ne se couche jamais tôt.",
+      "promptLanguage": "fr",
+      "tokens": ["early", "My", "bed", "goes", "sister", "never", "to"],
+      "answer": "My sister never goes to bed early",
+      "acceptedAnswers": ["My sister never goes to bed early"],
+      "hint": "Never se place avant le verbe goes.",
+      "explanation": "Never se place avant le verbe : my sister never goes. Never est déjà négatif : pas de doesn't. L'expression est go to bed, et early se met à la fin.",
+      "tip": "Never remplace doesn't : le verbe garde son -s.",
+      "extraExample": {"text": "Tom rarely goes to bed late.", "translation": "Tom se couche rarement tard."}
+    },
+    {
+      "id": "en.l23.e07",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.get_up"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je me lève toujours à sept heures.",
+      "promptLanguage": "fr",
+      "answer": "I always get up at seven.",
+      "acceptedAnswers": ["I always get up at seven.", "I always get up at seven o'clock."],
+      "hint": "Always se place avant le verbe. Se lever : get up.",
+      "explanation": "Always se place avant le verbe : I always get up. Il n'y a pas de verbe pronominal en anglais : on dit get up, sans « myself ».",
+      "tip": "Je me lève = I get up. Pas de « me » en anglais.",
+      "extraExample": {"text": "She always gets up early.", "translation": "Elle se lève toujours tôt."},
+      "errorPatterns": [
+        {"contains": "i get up always", "category": "word_order", "feedback": "L'adverbe se place avant le verbe : I always get up."},
+        {"contains": "always wake up", "category": "word_confusion", "feedback": "Wake up veut dire « se réveiller ». Pour « se lever », on dit get up."}
+      ]
+    },
+    {
+      "id": "en.l23.e08",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.take_a_shower", "en.v.have_breakfast"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Ma mère prend toujours une douche avant le petit-déjeuner.",
+      "promptLanguage": "fr",
+      "answer": "My mother always takes a shower before breakfast.",
+      "acceptedAnswers": [
+        "My mother always takes a shower before breakfast.",
+        "My mother always has a shower before breakfast.",
+        "My mother always showers before breakfast.",
+        "My mum always takes a shower before breakfast.",
+        "My mum always has a shower before breakfast.",
+        "My mum always showers before breakfast.",
+        "My mom always takes a shower before breakfast.",
+        "My mom always has a shower before breakfast.",
+        "My mom always showers before breakfast."
+      ],
+      "hint": "Always avant le verbe. Une douche : take (ou have) a shower.",
+      "explanation": "Always se place avant le verbe : my mother always takes. Le verbe prend -s avec my mother (= she). En anglais britannique, on peut aussi dire have a shower.",
+      "tip": "Always + verbe avec -s : she always takes.",
+      "extraExample": {"text": "My brother always has a shower after the gym.", "translation": "Mon frère prend toujours une douche après la salle de sport."},
+      "errorPatterns": [
+        {"contains": "takes always", "category": "word_order", "feedback": "L'adverbe se place avant le verbe : always takes."},
+        {"contains": "always take a", "category": "conjugation", "feedback": "My mother = she : le verbe garde son -s après always (takes)."},
+        {"contains": "makes a shower", "category": "word_confusion", "feedback": "On ne « fait » pas une douche avec make : on dit take a shower."}
+      ]
+    },
+    {
+      "id": "en.l23.e09",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.go_to_bed"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Il ne se couche jamais tard » ?",
+      "promptLanguage": "fr",
+      "answer": "He never goes to bed late.",
+      "acceptedAnswers": ["He never goes to bed late."],
+      "hint": "Never est déjà négatif.",
+      "explanation": "Never veut dire « jamais » : il suffit pour exprimer la négation, sans doesn't. Il se place avant le verbe, qui garde son -s : he never goes to bed late.",
+      "tip": "Never + verbe : jamais de doesn't avec never.",
+      "extraExample": {"text": "She never goes to bed early.", "translation": "Elle ne se couche jamais tôt."},
+      "errorPatterns": [
+        {"contains": "doesn't never", "category": "grammar", "feedback": "Never est déjà négatif : on dit he never goes, sans doesn't."},
+        {"contains": "goes never", "category": "word_order", "feedback": "L'adverbe se place avant le verbe : he never goes."},
+        {"equals": "he never go to bed late", "category": "conjugation", "feedback": "He demande un -s sur le verbe : he never goes."}
+      ]
+    },
+    {
+      "id": "en.l23.e10",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.wake_up", "en.v.get_up", "en.v.go_to_bed", "en.v.take_a_shower", "en.v.have_breakfast"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris une phrase sur ta routine, avec un adverbe de fréquence et une de ces expressions : wake up, get up, go to bed, take a shower ou have breakfast.",
+      "prompt": "Que fais-tu d'habitude le matin ou le soir ?",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["always", "usually", "often", "sometimes", "rarely", "never"], ["up", "bed", "shower", "breakfast"]], "minWords": 4},
+      "answer": "I usually take a shower before breakfast.",
+      "acceptedAnswers": ["I usually take a shower before breakfast.", "I always get up at seven.", "I never go to bed early.", "I sometimes have breakfast at school."],
+      "hint": "Adverbe avant le verbe, après be.",
+      "explanation": "Pour parler de ta routine, utilise le présent simple et place l'adverbe de fréquence avant le verbe : I usually get up at seven. Avec he ou she, n'oublie pas le -s.",
+      "tip": "Routine = présent simple + adverbe avant le verbe.",
+      "extraExample": {"text": "I always have breakfast at home.", "translation": "Je prends toujours mon petit-déjeuner à la maison."},
+      "errorPatterns": [
+        {"contains": "get up always", "category": "word_order", "feedback": "L'adverbe se place avant le verbe : I always get up."},
+        {"contains": "don't never", "category": "grammar", "feedback": "Never est déjà négatif : on dit I never…, sans don't."}
+      ]
+    }
+  ]
+}

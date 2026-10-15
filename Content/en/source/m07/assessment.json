@@ -1,0 +1,102 @@
+[
+  {
+    "id": "en.assess.m07.01",
+    "unitIds": ["en.g32.word_order"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Mon père aime beaucoup son nouveau téléphone.",
+    "promptLanguage": "fr",
+    "answer": "My father likes his new phone very much.",
+    "acceptedAnswers": ["My father likes his new phone very much.", "My father likes his new phone a lot.", "My father very much likes his new phone.", "My father loves his new phone.", "My dad likes his new phone very much.", "My dad likes his new phone a lot.", "My dad loves his new phone."],
+    "hint": "Garde « likes his new phone » ensemble.",
+    "explanation": "Le verbe et son complément restent ensemble : likes his new phone. Very much se place à la fin, et l'adjectif new se place avant phone. Avec my father, le verbe prend un -s.",
+    "tip": "Beaucoup se place à la fin : ... very much.",
+    "extraExample": {"text": "My mother likes her old car very much.", "translation": "Ma mère aime beaucoup sa vieille voiture."},
+    "errorPatterns": [
+      {"contains": "likes very much", "category": "word_order", "feedback": "Very much ne se place pas entre le verbe et son complément. Mets-le à la fin : likes his new phone very much."},
+      {"contains": "phone new", "category": "word_order", "feedback": "L'adjectif se place avant le nom : his new phone."},
+      {"contains": "father like ", "category": "conjugation", "feedback": "Avec my father (3e personne), le verbe prend un -s : likes."}
+    ]
+  },
+  {
+    "id": "en.assess.m07.02",
+    "unitIds": ["en.g33.prepositions_place", "en.g34.prepositions_time"],
+    "type": "mcq",
+    "difficulty": 3,
+    "instruction": "Choisis la bonne traduction.",
+    "prompt": "Comment dit-on « Mes parents sont à la maison le dimanche. » en anglais ?",
+    "promptLanguage": "fr",
+    "options": ["My parents are at home on Sunday.", "My parents are in home on Sunday.", "My parents are at home in Sunday.", "My parents are at home at Sunday."],
+    "answer": "My parents are at home on Sunday.",
+    "acceptedAnswers": ["My parents are at home on Sunday."],
+    "explanation": "« À la maison » est l'expression fixe at home. Pour un jour de la semaine, on utilise on : on Sunday.",
+    "tip": "At home, on Sunday, in January : trois prépositions différentes.",
+    "extraExample": {"text": "My brother is at school on Monday.", "translation": "Mon frère est à l'école le lundi."},
+    "errorPatterns": [
+      {"equals": "my parents are in home on sunday", "category": "preposition", "feedback": "« À la maison » se dit at home, pas in home."},
+      {"equals": "my parents are at home in sunday", "category": "preposition", "feedback": "Pour un jour de la semaine, on dit on Sunday, pas in."},
+      {"equals": "my parents are at home at sunday", "category": "preposition", "feedback": "At sert pour l'heure exacte. Pour un jour de la semaine, on dit on Sunday."}
+    ]
+  },
+  {
+    "id": "en.assess.m07.03",
+    "unitIds": ["en.g35.question_words"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Pourquoi est-elle fatiguée ?",
+    "promptLanguage": "fr",
+    "answer": "Why is she tired?",
+    "acceptedAnswers": ["Why is she tired?"],
+    "hint": "Avec le verbe be, on inverse be et le sujet.",
+    "explanation": "Avec be, la question se construit sans do : mot interrogatif + be + sujet. On dit Why is she tired ?",
+    "tip": "Avec be, pas de do : Why is she ... ?",
+    "extraExample": {"text": "Why is your brother late?", "translation": "Pourquoi ton frère est-il en retard ?"},
+    "errorPatterns": [
+      {"contains": "why she is", "category": "word_order", "feedback": "Il faut inverser le verbe et le sujet : Why is she tired?"},
+      {"contains": "why does she", "category": "grammar", "feedback": "Avec be, on n'utilise pas does : Why is she tired?"},
+      {"contains": "why she tired", "category": "grammar", "feedback": "Il manque le verbe be : Why is she tired?"}
+    ]
+  },
+  {
+    "id": "en.assess.m07.04",
+    "unitIds": ["en.g37.comparatives_superlatives"],
+    "type": "translation",
+    "difficulty": 4,
+    "instruction": "Traduis en anglais.",
+    "prompt": "C'est le plus grand parc de la ville.",
+    "promptLanguage": "fr",
+    "answer": "It is the biggest park in the city.",
+    "acceptedAnswers": ["It is the biggest park in the city.", "It is the largest park in the city.", "This is the biggest park in the city.", "That is the biggest park in the city.", "This is the largest park in the city.", "That is the largest park in the city."],
+    "hint": "Big double son g. Après un superlatif, « de la ville » se dit in the city.",
+    "explanation": "Big est un adjectif court : on double le g et on ajoute -est avec the : the biggest. Après un superlatif, on dit in the city (et non of the city).",
+    "tip": "Superlatif court : the + -est. Et on dit in the city.",
+    "extraExample": {"text": "It is the oldest building in the street.", "translation": "C'est le plus vieux bâtiment de la rue."},
+    "errorPatterns": [
+      {"contains": "most big", "category": "grammar", "feedback": "Big est un adjectif court : on ajoute -est (biggest), on n'utilise pas most."},
+      {"contains": "bigest", "category": "spelling", "feedback": "Avec big, on double le g avant -est : biggest."},
+      {"contains": "of the city", "category": "preposition", "feedback": "Après un superlatif, « de la ville » se dit in the city."}
+    ]
+  },
+  {
+    "id": "en.assess.m07.05",
+    "unitIds": ["en.g38.should_could"],
+    "type": "free_answer",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Tu devrais appeler le docteur.",
+    "promptLanguage": "fr",
+    "answer": "You should call the doctor.",
+    "acceptedAnswers": ["You should call the doctor.", "You should call a doctor.", "You should phone the doctor.", "You should phone a doctor."],
+    "hint": "Devrais se dit should, suivi du verbe de base.",
+    "explanation": "Should donne un conseil. Il est suivi du verbe de base, sans to : You should call the doctor.",
+    "tip": "Should + verbe de base : jamais de to.",
+    "extraExample": {"text": "You should open the window.", "translation": "Tu devrais ouvrir la fenêtre."},
+    "errorPatterns": [
+      {"contains": "should to", "category": "grammar", "feedback": "Après should, on ne met pas to : You should call the doctor."},
+      {"contains": "should calls", "category": "conjugation", "feedback": "Après should, le verbe reste à la forme de base : call, sans -s."},
+      {"contains": "call to", "category": "grammar", "feedback": "En anglais, on dit call the doctor, sans to."}
+    ]
+  }
+]

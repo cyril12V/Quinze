@@ -1,0 +1,206 @@
+{
+  "lessonId": "en.l37",
+  "exercises": [
+    {
+      "id": "en.l37.e01",
+      "unitIds": ["en.g25.going_to", "en.v.learn"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "I ___ learn French.",
+      "promptLanguage": "en",
+      "options": ["am going to", "going to", "am going", "will going to"],
+      "answer": "am going to",
+      "acceptedAnswers": ["am going to"],
+      "hint": "Pour un projet, il faut be, puis going to, puis le verbe.",
+      "explanation": "Pour parler d'un projet, on utilise be + going to + verbe de base. Avec I, be devient am : I am going to learn French.",
+      "tip": "Going to ne va jamais seul : il lui faut am, is ou are devant.",
+      "extraExample": {"text": "I'm going to learn to drive.", "translation": "Je vais apprendre à conduire."},
+      "errorPatterns": [
+        {"equals": "going to", "category": "grammar", "feedback": "Il manque be devant going to. Avec I, on dit am going to : I am going to learn."},
+        {"equals": "am going", "category": "grammar", "feedback": "Il manque to après going. La structure est be + going to + verbe : I am going to learn."},
+        {"equals": "will going to", "category": "grammar", "feedback": "On choisit will ou going to, jamais les deux ensemble. Avec going to, il faut be : I am going to learn."}
+      ]
+    },
+    {
+      "id": "en.l37.e02",
+      "unitIds": ["en.g25.going_to", "en.v.move"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Anna ___ move to London next week.",
+      "promptLanguage": "en",
+      "options": ["is going to", "are going to", "am going to", "going to"],
+      "answer": "is going to",
+      "acceptedAnswers": ["is going to"],
+      "hint": "Anna se remplace par she : quelle forme de be va avec she ?",
+      "explanation": "Avec Anna (she), be devient is : Anna is going to move. Going to et le verbe de base, eux, ne changent pas.",
+      "tip": "Seul be change : I am, he / she / it is, you / we / they are.",
+      "extraExample": {"text": "Tom is going to learn English.", "translation": "Tom va apprendre l'anglais."},
+      "errorPatterns": [
+        {"equals": "are going to", "category": "conjugation", "feedback": "Are va avec you, we et they. Avec Anna (she), on dit is."},
+        {"equals": "am going to", "category": "conjugation", "feedback": "Am s'emploie seulement avec I. Avec Anna (she), on dit is."},
+        {"equals": "going to", "category": "grammar", "feedback": "Il manque be devant going to : Anna is going to move."}
+      ]
+    },
+    {
+      "id": "en.l37.e03",
+      "unitIds": ["en.g25.going_to", "en.v.plan", "en.v.move", "en.v.learn", "en.v.save", "en.v.change"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque verbe anglais à sa traduction.",
+      "prompt": "Les verbes des projets : plan, move, learn, save, change",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "plan", "right": "prévoir"},
+        {"left": "move", "right": "déménager"},
+        {"left": "learn", "right": "apprendre"},
+        {"left": "save", "right": "économiser"},
+        {"left": "change", "right": "changer"}
+      ],
+      "answer": "plan = prévoir ; move = déménager ; learn = apprendre ; save = économiser ; change = changer",
+      "acceptedAnswers": [],
+      "explanation": "Ces verbes servent à parler de projets. Après going to, ils restent à la forme de base : going to move, going to learn, going to save.",
+      "tip": "Après going to, le verbe ne change jamais.",
+      "extraExample": {"text": "We plan to move soon.", "translation": "Nous prévoyons de déménager bientôt."}
+    },
+    {
+      "id": "en.l37.e04",
+      "unitIds": ["en.g25.going_to", "en.v.learn"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la question avec le bon mot.",
+      "prompt": "___ you going to learn to drive?",
+      "promptLanguage": "en",
+      "options": ["Are", "Do", "Is", "Will"],
+      "answer": "Are",
+      "acceptedAnswers": ["Are"],
+      "hint": "Pour la question, on met be avant le sujet. Quelle forme de be va avec you ?",
+      "explanation": "Pour poser une question avec going to, on place be avant le sujet : Are you going to… ? Avec you, be s'écrit are.",
+      "tip": "Question : Am / Are / Is + sujet + going to + verbe de base.",
+      "extraExample": {"text": "Is Tom going to move?", "translation": "Est-ce que Tom va déménager ?"},
+      "errorPatterns": [
+        {"equals": "do", "category": "grammar", "feedback": "Avec going to, la question se fait avec be, pas avec do : Are you going to… ?"},
+        {"equals": "is", "category": "conjugation", "feedback": "Is va avec he, she et it. Avec you, be devient are."},
+        {"equals": "will", "category": "grammar", "feedback": "Will ne se combine pas avec going to. Pour la question, on met be avant you : Are you going to… ?"}
+      ]
+    },
+    {
+      "id": "en.l37.e05",
+      "unitIds": ["en.g25.going_to", "en.v.save"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec la bonne forme du verbe.",
+      "prompt": "I'm going to ___ money for my holiday.",
+      "promptLanguage": "en",
+      "options": ["save", "saved", "saving", "saves"],
+      "answer": "save",
+      "acceptedAnswers": ["save"],
+      "hint": "Après going to, le verbe est tel qu'on le trouve dans le dictionnaire.",
+      "explanation": "Après going to, le verbe reste à la forme de base : going to save. On n'ajoute ni -ed, ni -ing, ni -s.",
+      "tip": "Going to + verbe de base : le verbe ne prend ni -s, ni -ed, ni -ing.",
+      "extraExample": {"text": "Tom is going to save his homework on the laptop.", "translation": "Tom va sauvegarder ses devoirs sur l'ordinateur portable."},
+      "errorPatterns": [
+        {"equals": "saved", "category": "verb_tense", "feedback": "Saved est le passé. Après going to, le verbe reste à la forme de base : going to save."},
+        {"equals": "saving", "category": "grammar", "feedback": "Après going to, pas de -ing : le verbe reste à la forme de base, going to save."},
+        {"equals": "saves", "category": "conjugation", "feedback": "Après going to, le verbe ne prend pas de -s, même avec he ou she. On dit going to save."}
+      ]
+    },
+    {
+      "id": "en.l37.e06",
+      "unitIds": ["en.g25.going_to", "en.v.change", "en.v.plan"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Nous n'allons pas changer le plan.",
+      "promptLanguage": "fr",
+      "tokens": ["plan", "We", "going", "the", "aren't", "to", "change"],
+      "answer": "We aren't going to change the plan",
+      "acceptedAnswers": ["We aren't going to change the plan"],
+      "hint": "La négation se place juste après be : aren't.",
+      "explanation": "Pour la négation, on ajoute not après be : We aren't (are not) going to change. Le verbe change reste à la forme de base.",
+      "tip": "Négation : be + not + going to + verbe de base.",
+      "extraExample": {"text": "She isn't going to move.", "translation": "Elle ne va pas déménager."}
+    },
+    {
+      "id": "en.l37.e07",
+      "unitIds": ["en.g25.going_to", "en.v.move"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous allons déménager la semaine prochaine.",
+      "promptLanguage": "fr",
+      "answer": "We are going to move next week",
+      "acceptedAnswers": ["We are going to move next week", "Next week we are going to move", "We are going to move house next week", "We will move next week", "We will move house next week", "Next week we will move", "We are moving next week", "We are moving house next week"],
+      "hint": "Déménager se dit move. Un projet se dit avec be + going to.",
+      "explanation": "Pour un projet, on utilise be + going to + verbe de base : We are going to move. Avec we, be devient are.",
+      "tip": "We are going to + verbe : seul be s'accorde, le verbe reste à la forme de base.",
+      "extraExample": {"text": "They're going to move to Paris.", "translation": "Ils vont déménager à Paris."},
+      "errorPatterns": [
+        {"contains": "we going to", "category": "grammar", "feedback": "Il manque are devant going to : We are going to move."},
+        {"contains": "going to moved", "category": "verb_tense", "feedback": "Après going to, le verbe reste à la forme de base : going to move."},
+        {"contains": "going to moving", "category": "grammar", "feedback": "Après going to, pas de -ing : le verbe reste à la forme de base, going to move."}
+      ]
+    },
+    {
+      "id": "en.l37.e08",
+      "unitIds": ["en.g25.going_to", "en.v.learn"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Elle va apprendre le français.",
+      "promptLanguage": "fr",
+      "answer": "She is going to learn French",
+      "acceptedAnswers": ["She is going to learn French", "She will learn French", "She is going to study French", "She will study French"],
+      "hint": "Avec she, be devient is. Le nom de la langue prend une majuscule en anglais.",
+      "explanation": "Pour un projet, on utilise be + going to + verbe de base : She is going to learn. Avec she, be devient is, et learn ne prend pas de -s.",
+      "tip": "She is going to + verbe de base : le -s n'est jamais sur le verbe.",
+      "extraExample": {"text": "My son is going to learn to swim.", "translation": "Mon fils va apprendre à nager."},
+      "errorPatterns": [
+        {"contains": "she going to", "category": "grammar", "feedback": "Il manque is devant going to : She is going to learn French."},
+        {"contains": "going to learns", "category": "conjugation", "feedback": "Après going to, le verbe ne prend pas de -s : going to learn."},
+        {"contains": "going to learned", "category": "verb_tense", "feedback": "Après going to, le verbe reste à la forme de base, pas au passé : going to learn."}
+      ]
+    },
+    {
+      "id": "en.l37.e09",
+      "unitIds": ["en.g25.going_to", "en.v.save"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Ils vont économiser de l'argent pour leurs vacances. » ?",
+      "promptLanguage": "fr",
+      "answer": "They are going to save money for their holiday",
+      "acceptedAnswers": ["They are going to save money for their holiday", "They are going to save money for their holidays", "They are going to save money for their vacation", "They will save money for their holiday", "They will save money for their holidays", "They will save money for their vacation", "They are going to save money for the holidays", "They are going to save money for the holiday"],
+      "hint": "Avec they, be devient are. « Économiser de l'argent » = save money.",
+      "explanation": "On utilise be + going to + verbe de base : They are going to save. Avec they, be devient are, et save reste à la forme de base.",
+      "tip": "They are going to + verbe de base : pas de -s, pas de -ing.",
+      "extraExample": {"text": "We're going to save money for a new car.", "translation": "Nous allons économiser de l'argent pour une nouvelle voiture."},
+      "errorPatterns": [
+        {"contains": "they going to", "category": "grammar", "feedback": "Il manque are devant going to : They are going to save."},
+        {"contains": "going to saved", "category": "verb_tense", "feedback": "Après going to, le verbe reste à la forme de base : going to save."},
+        {"contains": "going to saving", "category": "grammar", "feedback": "Après going to, pas de -ing : le verbe reste à la forme de base, going to save."}
+      ]
+    },
+    {
+      "id": "en.l37.e10",
+      "unitIds": ["en.g25.going_to", "en.v.plan"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris une phrase en anglais avec going to pour parler d'un projet que tu as.",
+      "prompt": "Quel est ton projet ? Écris une phrase.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["going to"]], "minWords": 5},
+      "answer": "I'm going to learn to swim.",
+      "acceptedAnswers": ["I'm going to learn to swim.", "We're going to move next week.", "I'm going to save money for a holiday.", "My sister is going to learn English."],
+      "hint": "Commence par I'm going to, puis choisis un verbe de base (learn, move, save, change…).",
+      "explanation": "Un projet se dit avec be + going to + verbe de base. Par exemple : I'm going to learn to swim. N'oublie pas be devant going to.",
+      "tip": "I'm / you're / he's… going to + verbe de base : be ne s'oublie jamais.",
+      "extraExample": {"text": "Anna is going to change her name.", "translation": "Anna va changer de nom."},
+      "errorPatterns": [
+        {"contains": "going to went", "category": "verb_tense", "feedback": "Après going to, le verbe reste à la forme de base, jamais au passé : going to go."},
+        {"contains": "i going to", "category": "grammar", "feedback": "Il manque be : I am going to… ou I'm going to…"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+[
+  {
+    "id": "en.g28.there_is_are",
+    "rule": {
+      "summary": "Pour dire qu'une chose existe ou se trouve quelque part (« il y a »), on dit there is devant un seul élément et there are devant plusieurs.",
+      "explanation": "« Il y a » se dit there is devant un seul élément (There is a sofa) et there are devant plusieurs (There are two chairs). Le verbe est toujours be, jamais have, et il s'accorde avec ce qui suit there. Pour nier, on dit there isn't ou there aren't. Pour poser une question, on inverse : Is there a garden ? Are there two chairs ? On répond Yes, there is. / No, there isn't. À l'oral, there is se contracte en there's.",
+      "pattern": "There is / There are + nom + lieu",
+      "examples": [
+        {
+          "text": "There is a sofa in the living room.",
+          "translation": "Il y a un canapé dans le salon."
+        },
+        {
+          "text": "There are two chairs in the kitchen.",
+          "translation": "Il y a deux chaises dans la cuisine."
+        },
+        {
+          "text": "There isn't a garden.",
+          "translation": "Il n'y a pas de jardin."
+        },
+        {
+          "text": "Is there a lamp in the bedroom? Yes, there is.",
+          "translation": "Y a-t-il une lampe dans la chambre ? Oui, il y en a une."
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "There have a garden.",
+          "right": "There is a garden.",
+          "why": "« Il y a » ne se traduit pas par have. Avec there, on utilise toujours is ou are."
+        },
+        {
+          "wrong": "There is two chairs.",
+          "right": "There are two chairs.",
+          "why": "Deux chaises, c'est pluriel : on utilise there are, pas there is."
+        },
+        {
+          "wrong": "It's a table in the kitchen.",
+          "right": "There is a table in the kitchen.",
+          "why": "Pour dire « il y a », on commence par there is. It's veut dire « c'est »."
+        }
+      ],
+      "tip": "« Il y a » = there is (un seul) ou there are (plusieurs) : jamais have."
+    }
+  },
+  {
+    "id": "en.g29.some_any",
+    "rule": {
+      "summary": "Some s'utilise dans les phrases affirmatives et dans les demandes polies ; any s'utilise dans les phrases négatives et dans les questions.",
+      "explanation": "Some veut dire « du, de la, des, quelques » : une quantité qu'on ne précise pas. Dans une phrase affirmative, on dit some : There is some bread. Dans une négation ou une question simple, on dit any : There isn't any bread (« pas de pain »), Do you have any water ? Mais dans une demande ou une offre polie, on garde some : Can I have some water, please ? Some et any s'emploient avec les pluriels et les noms qu'on ne compte pas (water, bread), sans article.",
+      "pattern": "Affirmatif : some + nom  |  Négatif / question : any + nom  |  Demande polie : Can I have some + nom ?",
+      "examples": [
+        {
+          "text": "We have some bread.",
+          "translation": "Nous avons du pain."
+        },
+        {
+          "text": "There isn't any milk in the fridge.",
+          "translation": "Il n'y a pas de lait dans le frigo."
+        },
+        {
+          "text": "Do you have any water?",
+          "translation": "Avez-vous de l'eau ?"
+        },
+        {
+          "text": "Can I have some coffee, please?",
+          "translation": "Puis-je avoir du café, s'il vous plaît ?"
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "I have any water.",
+          "right": "I have some water.",
+          "why": "Any ne s'utilise pas dans une phrase affirmative : on dit some."
+        },
+        {
+          "wrong": "I don't have some bread.",
+          "right": "I don't have any bread.",
+          "why": "Dans une phrase négative, on utilise any, pas some."
+        },
+        {
+          "wrong": "Can I have any water, please?",
+          "right": "Can I have some water, please?",
+          "why": "Quand on demande poliment quelque chose, on garde some, même dans une question."
+        }
+      ],
+      "tip": "Some = oui (et demandes polies) ; any = non ou question."
+    }
+  },
+  {
+    "id": "en.g30.how_much_many",
+    "rule": {
+      "summary": "How many se place devant un nom qu'on peut compter (au pluriel) ; how much devant un nom qu'on ne compte pas, et pour demander un prix.",
+      "explanation": "Pour demander « combien de », on se demande d'abord si on peut compter. Si oui, on dit how many + pluriel : How many tickets do you need ? Si non (money, bread, luggage), on dit how much + nom sans -s : How much money do you have ? Pour demander un prix, on dit How much is it ? (un objet) ou How much are they ? (plusieurs), et on répond It's ten pounds. Luggage n'a jamais de pluriel : jamais « luggages ». Dans une phrase affirmative, on préfère a lot of (beaucoup de), qui va avec les deux : a lot of money, a lot of tickets.",
+      "pattern": "How many + nom pluriel ?  |  How much + nom non comptable ?  |  How much is / are + sujet ?",
+      "examples": [
+        {
+          "text": "How many tickets do you need?",
+          "translation": "De combien de billets as-tu besoin ?"
+        },
+        {
+          "text": "How much money do you have?",
+          "translation": "Combien d'argent as-tu ?"
+        },
+        {
+          "text": "How much is the bread? It's two pounds.",
+          "translation": "Combien coûte le pain ? Il coûte deux livres."
+        },
+        {
+          "text": "We have a lot of luggage.",
+          "translation": "Nous avons beaucoup de bagages."
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "How many money do you have?",
+          "right": "How much money do you have?",
+          "why": "Money ne se compte pas (on ne dit pas « un money, deux moneys ») : on utilise how much."
+        },
+        {
+          "wrong": "How much tickets do you need?",
+          "right": "How many tickets do you need?",
+          "why": "Les billets se comptent : on utilise how many devant un pluriel."
+        },
+        {
+          "wrong": "I have two luggages.",
+          "right": "I have two bags. / I have a lot of luggage.",
+          "why": "Luggage ne se compte pas et n'a jamais de -s. Pour compter, on dit two bags."
+        }
+      ],
+      "tip": "On peut compter ? How many + pluriel. On ne peut pas ? How much."
+    }
+  },
+  {
+    "id": "en.g31.time_and_dates",
+    "rule": {
+      "summary": "Pour dire l'heure, on utilise It's + l'heure : It's seven o'clock, half past six, quarter past seven, quarter to eight.",
+      "explanation": "On demande What time is it ? et on répond It's + l'heure. Heure pile : It's seven o'clock (o'clock ne s'utilise que pour les heures pleines). Après l'heure, on dit past : ten past six, quarter past six (6 h 15), half past six (6 h 30, jamais « six and half »). Avant l'heure, on dit to : twenty to seven (6 h 40), quarter to seven (6 h 45). Pour dire à quelle heure, on utilise at (at seven o'clock), et in pour « dans combien de temps » (in twenty minutes) ; hour désigne une durée (an hour), pas l'heure : pas de « at 7 hours ». Les grands nombres : twenty (20), a hundred (100).",
+      "pattern": "It's + nombre + o'clock  |  It's + minutes + past / to + heure  |  at + heure",
+      "examples": [
+        {
+          "text": "It's seven o'clock.",
+          "translation": "Il est sept heures."
+        },
+        {
+          "text": "It's half past six.",
+          "translation": "Il est six heures et demie."
+        },
+        {
+          "text": "It's quarter past eight.",
+          "translation": "Il est huit heures et quart."
+        },
+        {
+          "text": "The meeting is at quarter to nine.",
+          "translation": "La réunion est à neuf heures moins le quart."
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "It's six and half.",
+          "right": "It's half past six.",
+          "why": "« Et demie » se dit half past devant l'heure : half past six. On n'utilise pas and."
+        },
+        {
+          "wrong": "I get up at 7 hours.",
+          "right": "I get up at seven o'clock.",
+          "why": "Pour l'heure, on n'utilise pas hours (qui veut dire « durée »). On dit at seven o'clock, ou simplement at seven."
+        },
+        {
+          "wrong": "It's seven hours.",
+          "right": "It's seven o'clock.",
+          "why": "Pour dire l'heure qu'il est, on dit o'clock après un nombre : It's seven o'clock."
+        }
+      ],
+      "tip": "Demie = half past + heure ; moins le quart = quarter to + heure suivante."
+    }
+  }
+]

@@ -1,0 +1,448 @@
+{
+  "lessonId": "en.l15",
+  "exercises": [
+    {
+      "id": "en.l15.e01",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.careful"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "You ___ be careful.",
+      "promptLanguage": "en",
+      "options": [
+        "must",
+        "musts",
+        "must to",
+        "mustn't"
+      ],
+      "answer": "must",
+      "acceptedAnswers": [
+        "must"
+      ],
+      "hint": "Must ne change jamais et se place juste avant le verbe.",
+      "explanation": "Must veut dire « il faut, tu dois ». Il est suivi directement du verbe de base : you must be careful. Il ne prend ni -s, ni to.",
+      "tip": "Must + verbe de base : pas de to, pas de -s.",
+      "extraExample": {
+        "text": "We must be careful.",
+        "translation": "Nous devons faire attention."
+      },
+      "errorPatterns": [
+        {
+          "equals": "musts",
+          "category": "conjugation",
+          "feedback": "Must ne prend jamais de -s : you must be careful."
+        },
+        {
+          "equals": "must to",
+          "category": "grammar",
+          "feedback": "Après must, on n'ajoute pas to : you must be careful."
+        },
+        {
+          "equals": "mustn't",
+          "category": "grammar",
+          "feedback": "Mustn't veut dire « il ne faut pas ». Ici, on veut dire « tu dois être prudent » : must."
+        }
+      ]
+    },
+    {
+      "id": "en.l15.e02",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.open",
+        "en.v.door"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "You mustn't open the door.",
+      "promptLanguage": "en",
+      "options": [
+        "Tu ne dois pas ouvrir la porte.",
+        "Tu peux ouvrir la porte.",
+        "Tu dois ouvrir la porte.",
+        "Tu n'as pas besoin d'ouvrir la porte."
+      ],
+      "answer": "Tu ne dois pas ouvrir la porte.",
+      "acceptedAnswers": [
+        "Tu ne dois pas ouvrir la porte."
+      ],
+      "hint": "Mustn't, c'est une interdiction.",
+      "explanation": "Mustn't veut dire « il ne faut pas » : c'est une interdiction. You mustn't open the door = tu ne dois pas ouvrir la porte, c'est interdit.",
+      "tip": "Mustn't = c'est interdit, pas seulement « ce n'est pas utile ».",
+      "extraExample": {
+        "text": "You mustn't close the window.",
+        "translation": "Tu ne dois pas fermer la fenêtre."
+      },
+      "errorPatterns": [
+        {
+          "equals": "tu peux ouvrir la porte.",
+          "category": "grammar",
+          "feedback": "« Tu peux » se dit you can. Mustn't exprime le contraire : une interdiction."
+        },
+        {
+          "equals": "tu dois ouvrir la porte.",
+          "category": "grammar",
+          "feedback": "« Tu dois » se dit you must. Ici, mustn't indique une interdiction : tu ne dois pas."
+        },
+        {
+          "equals": "tu n'as pas besoin d'ouvrir la porte.",
+          "category": "grammar",
+          "feedback": "Mustn't est plus fort que « ce n'est pas nécessaire » : c'est interdit. Tu ne dois pas ouvrir la porte."
+        }
+      ]
+    },
+    {
+      "id": "en.l15.e03",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.stop",
+        "en.v.wait",
+        "en.v.open",
+        "en.v.close",
+        "en.v.careful"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "Les obligations : stop, wait, open, close, be careful",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "You must stop.",
+          "right": "Tu dois t'arrêter."
+        },
+        {
+          "left": "We must wait.",
+          "right": "Nous devons attendre."
+        },
+        {
+          "left": "You must open the window.",
+          "right": "Tu dois ouvrir la fenêtre."
+        },
+        {
+          "left": "You must close the door.",
+          "right": "Tu dois fermer la porte."
+        },
+        {
+          "left": "You must be careful.",
+          "right": "Tu dois faire attention."
+        }
+      ],
+      "answer": "You must stop. = Tu dois t'arrêter. ; We must wait. = Nous devons attendre. ; You must open the window. = Tu dois ouvrir la fenêtre. ; You must close the door. = Tu dois fermer la porte. ; You must be careful. = Tu dois faire attention.",
+      "acceptedAnswers": [],
+      "explanation": "Must + verbe de base exprime une obligation. Stop = s'arrêter, wait = attendre, open = ouvrir, close = fermer, careful = prudent. « Faire attention » se dit be careful.",
+      "tip": "Open (ouvrir) et close (fermer) sont des contraires : ne les mélange pas.",
+      "extraExample": {
+        "text": "We must stop and wait.",
+        "translation": "Nous devons nous arrêter et attendre."
+      }
+    },
+    {
+      "id": "en.l15.e04",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.open",
+        "en.v.window"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme.",
+      "prompt": "It is cold. You ___ open the window. (il ne faut pas)",
+      "promptLanguage": "en",
+      "options": [
+        "mustn't",
+        "must",
+        "musts",
+        "mustn't to"
+      ],
+      "answer": "mustn't",
+      "acceptedAnswers": [
+        "mustn't",
+        "must not"
+      ],
+      "hint": "La phrase exprime une interdiction.",
+      "explanation": "Pour dire « il ne faut pas », on utilise mustn't + verbe de base : you mustn't open the window. On n'ajoute pas to.",
+      "tip": "Mustn't = must + not : la négation est collée à must.",
+      "extraExample": {
+        "text": "You mustn't close the door.",
+        "translation": "Tu ne dois pas fermer la porte."
+      },
+      "errorPatterns": [
+        {
+          "equals": "must",
+          "category": "grammar",
+          "feedback": "Must dit « il faut ». La phrase dit « il ne faut pas » : on utilise mustn't."
+        },
+        {
+          "equals": "musts",
+          "category": "conjugation",
+          "feedback": "Must ne prend jamais de -s. Ici, on veut la négation : mustn't."
+        },
+        {
+          "equals": "mustn't to",
+          "category": "grammar",
+          "feedback": "Après mustn't, on n'ajoute pas to : you mustn't open the window."
+        }
+      ]
+    },
+    {
+      "id": "en.l15.e05",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.wait"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme.",
+      "prompt": "We ___ wait for Anna. (nous devons)",
+      "promptLanguage": "en",
+      "options": [
+        "must",
+        "mustn't",
+        "musts",
+        "must to"
+      ],
+      "answer": "must",
+      "acceptedAnswers": [
+        "must"
+      ],
+      "hint": "La phrase exprime une obligation.",
+      "explanation": "Pour dire qu'il faut faire quelque chose, on utilise must + verbe de base : we must wait. Must ne prend ni -s, ni to.",
+      "tip": "Obligation : must. Interdiction : mustn't.",
+      "extraExample": {
+        "text": "I must wait for my father.",
+        "translation": "Je dois attendre mon père."
+      },
+      "errorPatterns": [
+        {
+          "equals": "mustn't",
+          "category": "grammar",
+          "feedback": "Mustn't dit « il ne faut pas ». Ici, c'est une obligation : we must wait."
+        },
+        {
+          "equals": "musts",
+          "category": "conjugation",
+          "feedback": "Must ne prend jamais de -s : we must wait."
+        },
+        {
+          "equals": "must to",
+          "category": "grammar",
+          "feedback": "Après must, on n'ajoute pas to : we must wait."
+        }
+      ]
+    },
+    {
+      "id": "en.l15.e06",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.close",
+        "en.v.window",
+        "en.v.door"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Anna doit fermer la fenêtre et la porte.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "window",
+        "Anna",
+        "the",
+        "close",
+        "and",
+        "must",
+        "door",
+        "the"
+      ],
+      "answer": "Anna must close the window and the door",
+      "acceptedAnswers": [
+        "Anna must close the window and the door",
+        "Anna must close the door and the window"
+      ],
+      "hint": "Sujet, must, verbe de base, puis les deux compléments.",
+      "explanation": "Must se place entre le sujet et le verbe de base : Anna must close. Même avec Anna, must ne prend pas de -s.",
+      "tip": "Sujet + must + verbe de base : même avec un prénom.",
+      "extraExample": {
+        "text": "Tom must open the window.",
+        "translation": "Tom doit ouvrir la fenêtre."
+      }
+    },
+    {
+      "id": "en.l15.e07",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.stop"
+      ],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Tu dois t'arrêter.",
+      "promptLanguage": "fr",
+      "answer": "You must stop.",
+      "acceptedAnswers": [
+        "You must stop.",
+        "You have to stop.",
+        "You need to stop.",
+        "You must stop here."
+      ],
+      "hint": "Obligation = must + verbe de base.",
+      "explanation": "Pour exprimer une obligation, on utilise must + verbe de base : you must stop. Pas de to entre must et stop.",
+      "tip": "Tu dois = you must. Le verbe suit directement.",
+      "extraExample": {
+        "text": "We must stop.",
+        "translation": "Nous devons nous arrêter."
+      },
+      "errorPatterns": [
+        {
+          "contains": "must to",
+          "category": "grammar",
+          "feedback": "Après must, on n'ajoute pas to : you must stop."
+        },
+        {
+          "contains": "you musts",
+          "category": "conjugation",
+          "feedback": "Must ne prend jamais de -s : you must stop."
+        },
+        {
+          "contains": "must stopping",
+          "category": "grammar",
+          "feedback": "Après must, le verbe reste à sa forme de base, sans -ing : must stop."
+        }
+      ]
+    },
+    {
+      "id": "en.l15.e08",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.open",
+        "en.v.door"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Tu ne dois pas ouvrir la porte.",
+      "promptLanguage": "fr",
+      "answer": "You mustn't open the door.",
+      "acceptedAnswers": [
+        "You mustn't open the door.",
+        "You can't open the door.",
+        "You aren't allowed to open the door.",
+        "You are not allowed to open the door."
+      ],
+      "hint": "Interdiction = mustn't + verbe de base.",
+      "explanation": "Pour exprimer une interdiction, on utilise mustn't + verbe de base : you mustn't open the door. Pas de to après mustn't.",
+      "tip": "Mustn't + verbe de base = c'est interdit.",
+      "extraExample": {
+        "text": "We mustn't open the window.",
+        "translation": "Nous ne devons pas ouvrir la fenêtre."
+      },
+      "errorPatterns": [
+        {
+          "contains": "mustn't to",
+          "category": "grammar",
+          "feedback": "Après mustn't, on n'ajoute pas to : you mustn't open."
+        },
+        {
+          "contains": "must open not",
+          "category": "word_order",
+          "feedback": "La négation se place sur must : mustn't (ou must not), puis le verbe."
+        },
+        {
+          "contains": "not must",
+          "category": "word_order",
+          "feedback": "On ne met pas not avant must. On dit mustn't ou must not."
+        }
+      ]
+    },
+    {
+      "id": "en.l15.e09",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.careful"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Nous devons être prudents » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "We must be careful.",
+      "acceptedAnswers": [
+        "We must be careful.",
+        "We have to be careful.",
+        "We need to be careful."
+      ],
+      "hint": "Être prudent : le verbe être suit must.",
+      "explanation": "Pour exprimer une obligation, on utilise must + verbe de base. Ici, le verbe de base est be : we must be careful. Careful ne change pas.",
+      "tip": "Must be + adjectif : le verbe être garde sa forme de base be.",
+      "extraExample": {
+        "text": "You must be careful.",
+        "translation": "Tu dois faire attention."
+      },
+      "errorPatterns": [
+        {
+          "equals": "we must careful",
+          "category": "grammar",
+          "feedback": "Il manque be : après must, le verbe être se dit be. We must be careful."
+        },
+        {
+          "contains": "must are",
+          "category": "grammar",
+          "feedback": "Après must, le verbe être se dit be, pas are : we must be careful."
+        },
+        {
+          "contains": "carefull",
+          "category": "spelling",
+          "feedback": "Careful s'écrit avec un seul l à la fin."
+        }
+      ]
+    },
+    {
+      "id": "en.l15.e10",
+      "unitIds": [
+        "en.g12.must",
+        "en.v.drive"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Tom est fatigué. Comment dit-on « Il ne doit pas conduire » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "He mustn't drive.",
+      "acceptedAnswers": [
+        "He mustn't drive.",
+        "Tom mustn't drive.",
+        "He isn't allowed to drive.",
+        "He is not allowed to drive.",
+        "Tom isn't allowed to drive.",
+        "Tom is not allowed to drive."
+      ],
+      "hint": "Même avec he, mustn't ne change pas.",
+      "explanation": "Mustn't exprime une interdiction et ne change jamais, même avec he. Le verbe qui suit reste à sa forme de base : he mustn't drive.",
+      "tip": "Must et mustn't : jamais de -s, même avec he ou she.",
+      "extraExample": {
+        "text": "She mustn't swim.",
+        "translation": "Elle ne doit pas nager."
+      },
+      "errorPatterns": [
+        {
+          "contains": "mustn't drives",
+          "category": "conjugation",
+          "feedback": "Après mustn't, le verbe reste à sa forme de base : he mustn't drive."
+        },
+        {
+          "contains": "mustn't to",
+          "category": "grammar",
+          "feedback": "Après mustn't, on n'ajoute pas to : he mustn't drive."
+        },
+        {
+          "contains": "he musts",
+          "category": "conjugation",
+          "feedback": "Must ne prend jamais de -s, même avec he : he mustn't drive."
+        }
+      ]
+    }
+  ]
+}

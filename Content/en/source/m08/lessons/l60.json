@@ -1,0 +1,477 @@
+{
+  "lessonId": "en.l60",
+  "exercises": [
+    {
+      "id": "en.l60.e01",
+      "unitIds": [
+        "en.g41.tense_contrast"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Lis le texte, puis choisis la bonne réponse.",
+      "context": "Tom is in London for a week. He is staying in a small hotel near the station. Yesterday he visited a museum, and today he is walking in the park. Tomorrow he is going to meet his friend Anna.",
+      "prompt": "What is Tom doing today?",
+      "promptLanguage": "en",
+      "options": [
+        "He is walking in the park.",
+        "He visited a museum.",
+        "He is going to meet Anna.",
+        "He is staying at home."
+      ],
+      "answer": "He is walking in the park.",
+      "acceptedAnswers": [
+        "He is walking in the park."
+      ],
+      "hint": "Cherche le mot today dans le texte.",
+      "explanation": "Le texte dit « today he is walking in the park » : le présent continu (is walking) montre ce qu'il fait aujourd'hui. Yesterday et tomorrow parlent d'un autre jour.",
+      "tip": "Repère le temps du verbe : is walking = maintenant, visited = hier, is going to = demain.",
+      "extraExample": {
+        "text": "At the moment, Anna is reading a report.",
+        "translation": "En ce moment, Anna lit un rapport."
+      },
+      "errorPatterns": [
+        {
+          "equals": "he visited a museum",
+          "category": "verb_tense",
+          "feedback": "Visited est un passé : c'est ce que Tom a fait yesterday, pas today."
+        },
+        {
+          "equals": "he is going to meet anna",
+          "category": "verb_tense",
+          "feedback": "Is going to parle du futur : c'est prévu pour tomorrow, pas pour today."
+        },
+        {
+          "equals": "he is staying at home",
+          "category": "instruction",
+          "feedback": "Relis le texte : Tom n'est pas à la maison, il marche dans le parc aujourd'hui."
+        }
+      ]
+    },
+    {
+      "id": "en.l60.e02",
+      "unitIds": [
+        "en.g41.tense_contrast",
+        "en.v.believe"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Lis le texte, puis choisis la phrase vraie.",
+      "context": "Anna has never been abroad. Her brother Ben has lived in three countries. Last year he visited her in London. Now Anna believes that living abroad is a great experience.",
+      "prompt": "Which sentence about Ben is true?",
+      "promptLanguage": "en",
+      "options": [
+        "He has lived in three countries.",
+        "He has never been abroad.",
+        "He visited Anna last week.",
+        "He is Anna's father."
+      ],
+      "answer": "He has lived in three countries.",
+      "acceptedAnswers": [
+        "He has lived in three countries."
+      ],
+      "hint": "Fais attention aux marqueurs de temps : never, last year…",
+      "explanation": "Le texte dit « Ben has lived in three countries » : present perfect, une expérience de vie. Il a rendu visite à Anna last year (past simple), pas last week.",
+      "tip": "Present perfect = expérience sans date ; past simple + last year = moment précis.",
+      "extraExample": {
+        "text": "My sister has visited many museums.",
+        "translation": "Ma sœur a visité beaucoup de musées."
+      },
+      "errorPatterns": [
+        {
+          "equals": "he has never been abroad",
+          "category": "instruction",
+          "feedback": "Never been abroad concerne Anna, pas Ben. Ben has lived in three countries."
+        },
+        {
+          "equals": "he visited anna last week",
+          "category": "instruction",
+          "feedback": "Le texte dit last year, pas last week."
+        },
+        {
+          "equals": "he is anna's father",
+          "category": "vocabulary",
+          "feedback": "Ben est le frère d'Anna (her brother), pas son père."
+        }
+      ]
+    },
+    {
+      "id": "en.l60.e03",
+      "unitIds": [
+        "en.g41.tense_contrast",
+        "en.v.describe",
+        "en.v.explain",
+        "en.v.believe",
+        "en.v.agree",
+        "en.v.opinion"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque mot anglais à sa traduction.",
+      "prompt": "Les mots pour exprimer son avis",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "describe",
+          "right": "décrire"
+        },
+        {
+          "left": "explain",
+          "right": "expliquer"
+        },
+        {
+          "left": "believe",
+          "right": "croire"
+        },
+        {
+          "left": "agree",
+          "right": "être d'accord"
+        },
+        {
+          "left": "opinion",
+          "right": "avis"
+        }
+      ],
+      "answer": "describe = décrire ; explain = expliquer ; believe = croire ; agree = être d'accord ; opinion = avis",
+      "acceptedAnswers": [],
+      "explanation": "Describe, explain, believe et agree sont des verbes : on dit I agree (pas I am agree). Opinion est un nom : in my opinion = à mon avis.",
+      "tip": "En anglais, agree est déjà un verbe : I agree, jamais I am agree.",
+      "extraExample": {
+        "text": "In my opinion, this film is great.",
+        "translation": "À mon avis, ce film est super."
+      }
+    },
+    {
+      "id": "en.l60.e04",
+      "unitIds": [
+        "en.g41.tense_contrast",
+        "en.v.describe"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec la bonne forme du verbe entre parenthèses.",
+      "prompt": "Yesterday, Tom ___ his new apartment to me. (describe)",
+      "promptLanguage": "en",
+      "options": [
+        "described",
+        "describes",
+        "describing",
+        "describe"
+      ],
+      "answer": "described",
+      "acceptedAnswers": [
+        "described"
+      ],
+      "hint": "Yesterday est un moment précis du passé.",
+      "explanation": "Yesterday est un moment précis : on utilise le past simple. Describe est régulier et finit par -e : on ajoute seulement -d, d'où described.",
+      "tip": "Yesterday + verbe régulier : base + -ed (juste -d si le verbe finit par e).",
+      "extraExample": {
+        "text": "Tom closed the window yesterday.",
+        "translation": "Tom a fermé la fenêtre hier."
+      },
+      "errorPatterns": [
+        {
+          "equals": "describes",
+          "category": "verb_tense",
+          "feedback": "Describes est le présent (3e personne). Yesterday demande le passé : described."
+        },
+        {
+          "equals": "describing",
+          "category": "verb_tense",
+          "feedback": "Describing est la forme en -ing. Avec yesterday, il faut le past simple : described."
+        },
+        {
+          "equals": "describe",
+          "category": "verb_tense",
+          "feedback": "Describe est la forme de base. Avec yesterday, il faut le past simple : described."
+        }
+      ]
+    },
+    {
+      "id": "en.l60.e05",
+      "unitIds": [
+        "en.g41.tense_contrast",
+        "en.v.explain"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne forme du verbe explain.",
+      "prompt": "Right now, the teacher ___ the rule. (explain)",
+      "promptLanguage": "en",
+      "options": [
+        "is explaining",
+        "explains",
+        "explained",
+        "has explained"
+      ],
+      "answer": "is explaining",
+      "acceptedAnswers": [
+        "is explaining"
+      ],
+      "hint": "Right now indique une action en cours.",
+      "explanation": "Right now indique une action qui se passe maintenant : on utilise le présent continu, is + explaining.",
+      "tip": "Right now, now, at the moment : be + verbe en -ing.",
+      "extraExample": {
+        "text": "Look! Tom is carrying a big bag.",
+        "translation": "Regarde ! Tom porte un gros sac."
+      },
+      "errorPatterns": [
+        {
+          "equals": "explains",
+          "category": "verb_tense",
+          "feedback": "Le présent simple décrit une habitude. Right now parle d'une action en cours : is explaining."
+        },
+        {
+          "equals": "explained",
+          "category": "verb_tense",
+          "feedback": "Explained est un passé. Right now parle d'une action en cours : is explaining."
+        },
+        {
+          "equals": "has explained",
+          "category": "verb_tense",
+          "feedback": "Le present perfect ne convient pas à une action en cours. Utilise le présent continu : is explaining."
+        }
+      ]
+    },
+    {
+      "id": "en.l60.e06",
+      "unitIds": [
+        "en.g41.tense_contrast",
+        "en.v.believe"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Lis le texte, puis traduis en anglais. « aimer » = like.",
+      "context": "Anna has a new job in Paris. She starts next week. She doesn't know many people there, but she is very happy.",
+      "prompt": "Je crois qu'Anna va aimer son nouveau travail.",
+      "promptLanguage": "fr",
+      "answer": "I believe Anna will like her new job.",
+      "acceptedAnswers": [
+        "I believe Anna will like her new job.",
+        "I believe that Anna will like her new job.",
+        "I believe Anna is going to like her new job.",
+        "I believe that Anna is going to like her new job.",
+        "I think Anna will like her new job.",
+        "I think that Anna will like her new job.",
+        "I think Anna is going to like her new job.",
+        "I think that Anna is going to like her new job."
+      ],
+      "hint": "« Je crois que » se dit I believe (ou I think). Le futur : will ou going to.",
+      "explanation": "Je crois se dit I believe (ou I think) : believe est un verbe, donc pas de be. Le travail n'a pas encore commencé : on utilise le futur, will like ou is going to like.",
+      "tip": "I believe / I think + sujet + will + verbe de base.",
+      "extraExample": {
+        "text": "I believe Tom will win the game.",
+        "translation": "Je crois que Tom va gagner le match."
+      },
+      "errorPatterns": [
+        {
+          "contains": "i'm believe",
+          "category": "grammar",
+          "feedback": "Believe est un verbe : on ne l'emploie pas avec be. Dis I believe."
+        },
+        {
+          "contains": "will likes",
+          "category": "conjugation",
+          "feedback": "Après will, le verbe reste à la forme de base : will like, sans -s."
+        },
+        {
+          "contains": "will to",
+          "category": "grammar",
+          "feedback": "Après will, on ne met pas to : will like."
+        }
+      ]
+    },
+    {
+      "id": "en.l60.e07",
+      "unitIds": [
+        "en.g41.tense_contrast",
+        "en.v.explain"
+      ],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Hier, le professeur nous a expliqué la règle.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "the",
+        "explained",
+        "Yesterday",
+        "rule",
+        "teacher",
+        "us",
+        "the",
+        "to"
+      ],
+      "answer": "Yesterday the teacher explained the rule to us",
+      "acceptedAnswers": [
+        "Yesterday the teacher explained the rule to us",
+        "The teacher explained the rule to us yesterday"
+      ],
+      "hint": "Hier = yesterday, donc past simple : explained.",
+      "explanation": "Yesterday est un moment précis : past simple (explained). On dit explain something to someone : explained the rule to us. Yesterday peut se placer au début ou à la fin.",
+      "tip": "Explain + quelque chose + to + quelqu'un.",
+      "extraExample": {
+        "text": "Anna explained the problem to her boss.",
+        "translation": "Anna a expliqué le problème à son patron."
+      }
+    },
+    {
+      "id": "en.l60.e08",
+      "unitIds": [
+        "en.g41.tense_contrast",
+        "en.v.agree",
+        "en.v.opinion"
+      ],
+      "type": "translation",
+      "difficulty": 4,
+      "instruction": "Lis le texte, puis traduis la phrase en français.",
+      "context": "Tom and Anna saw a film last night. Tom loved it, but Anna thought it was too long. They have different opinions about the film.",
+      "prompt": "Anna didn't agree with Tom.",
+      "promptLanguage": "en",
+      "answer": "Anna n'était pas d'accord avec Tom.",
+      "acceptedAnswers": [
+        "Anna n'était pas d'accord avec Tom.",
+        "Anna n'etait pas d'accord avec Tom.",
+        "Anna n'a pas été d'accord avec Tom.",
+        "Anna n'était pas du même avis que Tom.",
+        "Anna n'était pas de l'avis de Tom."
+      ],
+      "hint": "Didn't est un passé négatif.",
+      "explanation": "Didn't agree est au past simple négatif : « n'était pas d'accord ». Le texte parle d'une soirée passée (last night), donc la phrase est au passé.",
+      "tip": "Didn't + verbe de base = passé négatif.",
+      "extraExample": {
+        "text": "Sam didn't agree with the teacher.",
+        "translation": "Sam n'était pas d'accord avec le professeur."
+      },
+      "errorPatterns": [
+        {
+          "contains": "était d'accord",
+          "category": "grammar",
+          "feedback": "Attention à la négation : didn't agree veut dire « n'était pas d'accord »."
+        },
+        {
+          "contains": "n'est pas d'accord",
+          "category": "verb_tense",
+          "feedback": "Didn't agree est au passé : « n'était pas d'accord »."
+        },
+        {
+          "contains": "est d'accord",
+          "category": "grammar",
+          "feedback": "Attention à la négation : didn't agree veut dire « n'était pas d'accord »."
+        }
+      ]
+    },
+    {
+      "id": "en.l60.e09",
+      "unitIds": [
+        "en.v.agree",
+        "en.g41.tense_contrast"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Je suis d'accord » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I agree.",
+      "acceptedAnswers": [
+        "I agree.",
+        "I agree with you.",
+        "I agree with that.",
+        "I totally agree.",
+        "I completely agree.",
+        "I do agree.",
+        "Agreed."
+      ],
+      "hint": "Agree est déjà un verbe : pas besoin de be.",
+      "explanation": "En anglais, agree est un verbe : « je suis d'accord » se dit I agree. On ne dit pas I am agree, car agree n'est pas un adjectif.",
+      "tip": "« Être d'accord » = agree, sans be : I agree.",
+      "extraExample": {
+        "text": "Tom doesn't agree with Anna.",
+        "translation": "Tom n'est pas d'accord avec Anna."
+      },
+      "errorPatterns": [
+        {
+          "contains": "i'm agree",
+          "category": "grammar",
+          "feedback": "Agree est un verbe : on ne dit pas I am agree. Dis simplement I agree."
+        },
+        {
+          "contains": "i am agree",
+          "category": "grammar",
+          "feedback": "Agree est un verbe : on ne dit pas I am agree. Dis simplement I agree."
+        },
+        {
+          "contains": "i agreed",
+          "category": "verb_tense",
+          "feedback": "Agreed est un passé. Pour dire « je suis d'accord » maintenant, on utilise le présent : I agree."
+        }
+      ]
+    },
+    {
+      "id": "en.l60.e10",
+      "unitIds": [
+        "en.g41.tense_contrast",
+        "en.g39.present_perfect_intro",
+        "en.v.describe"
+      ],
+      "type": "free_answer",
+      "difficulty": 5,
+      "instruction": "Lis le texte, puis écris en anglais.",
+      "context": "Lucy lives in Paris and works in a museum. Last weekend, she visited her brother in London. She has never been to Spain, but she is going to travel there next summer.",
+      "prompt": "Écris trois phrases sur toi, comme Lucy : ce que tu as fait hier ou le week-end dernier, un endroit où tu es déjà allé (ou jamais allé), et ce que tu vas faire bientôt.",
+      "promptLanguage": "fr",
+      "requirements": {
+        "mustInclude": [
+          [
+            "yesterday",
+            "last",
+            "ago"
+          ],
+          [
+            "have",
+            "has",
+            "'ve"
+          ],
+          [
+            "going to",
+            "will",
+            "'ll",
+            "next",
+            "tomorrow",
+            "soon"
+          ]
+        ],
+        "minWords": 12
+      },
+      "answer": "Last weekend I visited my parents. I have never been abroad. Next year I am going to travel to Spain.",
+      "acceptedAnswers": [
+        "Last weekend I visited my parents. I have never been abroad. Next year I am going to travel to Spain.",
+        "Yesterday I watched a film. I have been to London twice. Tomorrow I will call my brother.",
+        "Two days ago I met a friend. I have never been to a museum in Paris. Next week I am going to visit the park."
+      ],
+      "hint": "Passé daté : past simple. Expérience : have / has + participe passé. Futur : will ou going to.",
+      "explanation": "Chaque phrase demande son temps : un moment précis du passé (last weekend, yesterday) = past simple ; une expérience sans date = present perfect ; un projet = going to ou will.",
+      "tip": "Marqueur de temps d'abord, temps ensuite : last weekend → past simple, never → have + participe, next year → going to.",
+      "extraExample": {
+        "text": "Last Friday I cooked dinner. I have never been to Spain. Next month I'm going to learn French.",
+        "translation": "Vendredi dernier j'ai préparé le dîner. Je ne suis jamais allé en Espagne. Le mois prochain, je vais apprendre le français."
+      },
+      "errorPatterns": [
+        {
+          "contains": "have went",
+          "category": "conjugation",
+          "feedback": "Went est le past simple. Après have, il faut le participe passé : gone ou been."
+        },
+        {
+          "contains": "have visited last",
+          "category": "verb_tense",
+          "feedback": "Avec un moment précis (last weekend, last year), on utilise le past simple : I visited, sans have."
+        },
+        {
+          "contains": "will to",
+          "category": "grammar",
+          "feedback": "Après will, on ne met pas to : will call, will go."
+        }
+      ]
+    }
+  ]
+}

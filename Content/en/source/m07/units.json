@@ -1,0 +1,142 @@
+[
+  {
+    "id": "en.g32.word_order",
+    "rule": {
+      "summary": "En anglais, l'ordre des mots est presque toujours le même : sujet + verbe + complément, avec l'adjectif avant le nom.",
+      "explanation": "Une phrase anglaise suit l'ordre sujet + verbe + complément (I like English). On ne glisse jamais un adverbe entre le verbe et son complément : on le met à la fin (I like English very much). L'adjectif se place avant le nom (a big apartment) et il ne change jamais : pas de -s au pluriel (two big apartments), pas de féminin. Les adverbes de fréquence (always, never) se placent avant le verbe, mais après be. Les mots de temps comme today, tomorrow ou yesterday se mettent au début ou à la fin de la phrase.",
+      "pattern": "Sujet + verbe + complément (+ lieu + temps) ; adjectif + nom",
+      "examples": [
+        {"text": "We have a big apartment.", "translation": "Nous avons un grand appartement."},
+        {"text": "I like English very much.", "translation": "J'aime beaucoup l'anglais."},
+        {"text": "Tom never drinks coffee.", "translation": "Tom ne boit jamais de café."},
+        {"text": "Tomorrow we visit a new school.", "translation": "Demain, nous visitons une nouvelle école."}
+      ],
+      "commonErrors": [
+        {"wrong": "I like very much English.", "right": "I like English very much.", "why": "En français, on dit « j'aime beaucoup l'anglais », mais en anglais l'adverbe ne s'intercale pas entre le verbe et son complément : il passe à la fin."},
+        {"wrong": "She has a house big.", "right": "She has a big house.", "why": "L'adjectif se place avant le nom, pas après."},
+        {"wrong": "They have two bigs apartments.", "right": "They have two big apartments.", "why": "L'adjectif est invariable : il ne prend ni -s ni féminin."}
+      ],
+      "tip": "Verbe et complément restent collés : on met l'adjectif devant le nom, et l'adverbe tout à la fin."
+    }
+  },
+  {
+    "id": "en.g33.prepositions_place",
+    "rule": {
+      "summary": "In, on et at servent à dire où se trouve quelque chose ; under, next to, between, behind et in front of précisent sa position.",
+      "explanation": "Avec in, on voit un espace fermé ou une zone : in the kitchen, in London, in the park. Avec on, on voit une surface ou un étage : on the table, on the floor, on the second floor. Avec at, on voit un point précis ou un lieu où l'on fait son activité : at the door, at home, at school. Pour la position exacte, on utilise under (sous), next to (à côté de), between … and … (entre), behind (derrière) et in front of (devant). Attention : « devant » se dit in front of, avec of.",
+      "pattern": "Sujet + be + préposition + the + lieu",
+      "examples": [
+        {"text": "The keys are on the table.", "translation": "Les clés sont sur la table."},
+        {"text": "My brother lives in London.", "translation": "Mon frère habite à Londres."},
+        {"text": "Anna is at the door.", "translation": "Anna est à la porte."},
+        {"text": "The dog is between Anna and Tom.", "translation": "Le chien est entre Anna et Tom."}
+      ],
+      "commonErrors": [
+        {"wrong": "The book is in the table.", "right": "The book is on the table.", "why": "Le livre est posé sur une surface : on utilise on, pas in."},
+        {"wrong": "I am in home.", "right": "I am at home.", "why": "« À la maison » est une expression fixe : at home."},
+        {"wrong": "The car is in front the house.", "right": "The car is in front of the house.", "why": "« Devant » se dit in front of : il ne faut pas oublier of."}
+      ],
+      "tip": "In = dedans, on = dessus, at = à un endroit précis."
+    }
+  },
+  {
+    "id": "en.g34.prepositions_time",
+    "rule": {
+      "summary": "On dit at avec l'heure, on avec les jours et les dates, in avec les mois, les saisons, les années et les moments de la journée.",
+      "explanation": "At sert pour l'heure exacte : at 8 o'clock, at noon, et pour at night et at the weekend. On sert pour un jour ou une date : on Monday, on Sunday morning, on 5 January. In sert pour les périodes plus longues : in January, in summer, in 2030, in the morning, in the evening. Les jours et les mois prennent toujours une majuscule en anglais (Monday, January), mais pas les saisons (summer, winter). Avec today, tomorrow, yesterday, next week et last year, on n'utilise aucune préposition. Before, after et during veulent dire « avant », « après » et « pendant ».",
+      "pattern": "at + heure ; on + jour / date ; in + mois / saison / année / moment de la journée",
+      "examples": [
+        {"text": "The meeting is at 3 o'clock.", "translation": "La réunion est à 15 heures."},
+        {"text": "I stay at home on Sunday.", "translation": "Je reste à la maison le dimanche."},
+        {"text": "It snows in January.", "translation": "Il neige en janvier."},
+        {"text": "I always read after dinner.", "translation": "Je lis toujours après le dîner."}
+      ],
+      "commonErrors": [
+        {"wrong": "I work in Monday.", "right": "I work on Monday.", "why": "Pour un jour de la semaine, on utilise on."},
+        {"wrong": "I get up at the morning.", "right": "I get up in the morning.", "why": "Le matin se dit in the morning ; at ne s'emploie que pour l'heure exacte ou at night."},
+        {"wrong": "We go to the beach on summer.", "right": "We go to the beach in summer.", "why": "Une saison, un mois ou une année demande in, pas on."}
+      ],
+      "tip": "Du plus précis au plus large : at 8 o'clock, on Monday, in January."
+    }
+  },
+  {
+    "id": "en.g35.question_words",
+    "rule": {
+      "summary": "Pour poser une question précise, on place le mot interrogatif au début, puis l'auxiliaire, puis le sujet.",
+      "explanation": "Les mots interrogatifs sont what (quoi, quel), where (où), when (quand), who (qui), why (pourquoi), how (comment) et which (lequel, quel parmi un choix). L'ordre est toujours : mot interrogatif + auxiliaire (do, does, did, is, are, can…) + sujet + verbe. On dit Where do you live? et non Where you live?. Pour l'âge, on dit How old are you? (pas « quel âge as-tu »), et pour l'heure What time is it?. Quand who est le sujet de la question, il n'y a pas d'auxiliaire : Who lives here? On répond à why avec because.",
+      "pattern": "Mot interrogatif + auxiliaire + sujet + verbe ?",
+      "examples": [
+        {"text": "Where do you live?", "translation": "Où habites-tu ?"},
+        {"text": "What time does the meeting start?", "translation": "À quelle heure commence la réunion ?"},
+        {"text": "How old is your daughter?", "translation": "Quel âge a ta fille ?"},
+        {"text": "Why are you late?", "translation": "Pourquoi es-tu en retard ?"}
+      ],
+      "commonErrors": [
+        {"wrong": "Where you live?", "right": "Where do you live?", "why": "Il faut l'auxiliaire do entre le mot interrogatif et le sujet."},
+        {"wrong": "What age have you?", "right": "How old are you?", "why": "En anglais, on demande l'âge avec how old + be, pas avec have."},
+        {"wrong": "Why do you are late?", "right": "Why are you late?", "why": "Avec le verbe be, on inverse be et le sujet, sans do."}
+      ],
+      "tip": "Mot interrogatif, auxiliaire, sujet : dans cet ordre, toujours."
+    }
+  },
+  {
+    "id": "en.g36.connectors",
+    "rule": {
+      "summary": "And, but, or, because, so et then relient deux idées : ajout, contraste, choix, cause, conséquence, suite.",
+      "explanation": "And ajoute une idée (et), but marque une opposition (mais) et or propose un choix (ou). Because donne la cause (parce que) et répond à why ; so donne la conséquence (donc, alors). Then veut dire « puis, ensuite » : il montre l'ordre des actions. Après because, il faut une phrase complète avec un sujet et un verbe : because it rains. Ne confonds pas because et so : la cause se place après because, la conséquence après so.",
+      "pattern": "Phrase 1 + and / but / or / so + phrase 2 ; phrase + because + sujet + verbe",
+      "examples": [
+        {"text": "It is hot, so I drink water.", "translation": "Il fait chaud, donc je bois de l'eau."},
+        {"text": "I like summer, but I don't like the sun.", "translation": "J'aime l'été, mais je n'aime pas le soleil."},
+        {"text": "We stay at home because it snows.", "translation": "Nous restons à la maison parce qu'il neige."},
+        {"text": "First I eat breakfast, then I go to work.", "translation": "D'abord je prends mon petit-déjeuner, puis je vais travailler."}
+      ],
+      "commonErrors": [
+        {"wrong": "It is hot, because I drink water.", "right": "It is hot, so I drink water.", "why": "Ici, boire de l'eau est la conséquence de la chaleur : on utilise so. Because introduit la cause."},
+        {"wrong": "I stay at home because the rain.", "right": "I stay at home because it rains.", "why": "Après because, il faut un sujet et un verbe, pas seulement un nom."},
+        {"wrong": "I eat dinner, than I watch TV.", "right": "I eat dinner, then I watch TV.", "why": "« Puis » s'écrit then. Than sert aux comparaisons (taller than)."}
+      ],
+      "tip": "Because donne la raison, so donne le résultat."
+    }
+  },
+  {
+    "id": "en.g37.comparatives_superlatives",
+    "rule": {
+      "summary": "Pour comparer, on ajoute -er (ou more) à l'adjectif, puis than ; pour le plus haut degré, on utilise the + -est (ou the most).",
+      "explanation": "Avec un adjectif court, on ajoute -er pour comparer et the + -est pour le superlatif : fast, faster, the fastest. Si l'adjectif finit par une consonne après une seule voyelle, on double la consonne (big, bigger, the biggest). Si l'adjectif finit par -y, le y devient i (easy, easier, the easiest). Avec un adjectif long, on met more ou the most devant : more beautiful, the most beautiful. Good et bad sont irréguliers : better, the best, worse, the worst. Après un comparatif, on utilise than (plus … que).",
+      "pattern": "adjectif court + -er + than ; the + adjectif court + -est ; more / the most + adjectif long",
+      "examples": [
+        {"text": "My brother is taller than my father.", "translation": "Mon frère est plus grand que mon père."},
+        {"text": "My new book is easier than my old book.", "translation": "Mon nouveau livre est plus facile que mon vieux livre."},
+        {"text": "London is the biggest city in the country.", "translation": "Londres est la plus grande ville du pays."},
+        {"text": "The hotel is more expensive than the apartment.", "translation": "L'hôtel est plus cher que l'appartement."}
+      ],
+      "commonErrors": [
+        {"wrong": "My car is more big than your car.", "right": "My car is bigger than your car.", "why": "Big est un adjectif court : on ajoute -er (avec un g doublé), pas more."},
+        {"wrong": "He is the most good student.", "right": "He is the best student.", "why": "Good est irrégulier : better, the best."},
+        {"wrong": "Anna is taller that Tom.", "right": "Anna is taller than Tom.", "why": "« Que » dans une comparaison se dit than, pas that."}
+      ],
+      "tip": "Court : -er / -est. Long : more / most. Après le comparatif : than."
+    }
+  },
+  {
+    "id": "en.g38.should_could",
+    "rule": {
+      "summary": "Should donne un conseil, could exprime une possibilité ou une demande polie ; would like sert à demander ou à proposer poliment.",
+      "explanation": "Should veut dire « devrait » : You should rest. Could veut dire « pourrait » : We could go to the park, ou sert à demander poliment : Could you help me, please? Comme can, ces deux verbes sont suivis du verbe de base, sans to et sans -s : She should rest, He could come. Pour la forme négative, on dit shouldn't, et pour la question, on inverse : Should I call the doctor? Pour demander poliment, on dit aussi I'd like… (je voudrais) et Would you like… ? (voulez-vous… ?), plus polis que I want et Do you want…?",
+      "pattern": "Sujet + should / could + verbe de base ; Could you + verbe ? ; I'd like / Would you like ...",
+      "examples": [
+        {"text": "You should rest.", "translation": "Tu devrais te reposer."},
+        {"text": "We could eat at home tonight.", "translation": "On pourrait manger à la maison ce soir."},
+        {"text": "Could you open the window, please?", "translation": "Pourriez-vous ouvrir la fenêtre, s'il vous plaît ?"},
+        {"text": "Would you like a coffee?", "translation": "Voulez-vous un café ?"}
+      ],
+      "commonErrors": [
+        {"wrong": "I should to go.", "right": "I should go.", "why": "Après should (comme après can), on met le verbe de base, sans to."},
+        {"wrong": "Could you to help me?", "right": "Could you help me?", "why": "Même règle : could est suivi du verbe de base, sans to."},
+        {"wrong": "She shoulds rest.", "right": "She should rest.", "why": "Should ne prend jamais de -s, même avec she, he ou it."}
+      ],
+      "tip": "Should et could sont suivis du verbe tout nu : jamais de to, jamais de -s."
+    }
+  }
+]

@@ -1,0 +1,2499 @@
+{
+ "formatVersion": 1,
+ "contentVersion": "fixture-1",
+ "language": {
+  "code": "en",
+  "name": "English",
+  "nativeName": "English",
+  "writingDirection": "ltr",
+  "ttsLocale": "en-GB"
+ },
+ "modules": [
+  {
+   "id": 1,
+   "title": "Module 1",
+   "description": "Bases"
+  },
+  {
+   "id": 2,
+   "title": "Module 2",
+   "description": "Passé"
+  }
+ ],
+ "units": [
+  {
+   "id": "en.g01.be",
+   "kind": "grammar",
+   "category": "grammar",
+   "title": "Le verbe être",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "rule": {
+    "summary": "Le verbe être",
+    "explanation": "Règle de Le verbe être",
+    "examples": [
+     {
+      "text": "I am here.",
+      "translation": "Je suis ici."
+     }
+    ],
+    "commonErrors": []
+   },
+   "functionWords": []
+  },
+  {
+   "id": "en.g02.present_simple",
+   "kind": "grammar",
+   "category": "grammar",
+   "title": "Le présent simple",
+   "difficulty": 1,
+   "prerequisites": [
+    "en.g01.be"
+   ],
+   "module": 1,
+   "rule": {
+    "summary": "Le présent simple",
+    "explanation": "Règle de Le présent simple",
+    "examples": [
+     {
+      "text": "I am here.",
+      "translation": "Je suis ici."
+     }
+    ],
+    "commonErrors": []
+   },
+   "functionWords": []
+  },
+  {
+   "id": "en.g03.past_simple",
+   "kind": "grammar",
+   "category": "grammar",
+   "title": "Le prétérit",
+   "difficulty": 1,
+   "prerequisites": [
+    "en.g02.present_simple"
+   ],
+   "module": 2,
+   "rule": {
+    "summary": "Le prétérit",
+    "explanation": "Règle de Le prétérit",
+    "examples": [
+     {
+      "text": "I am here.",
+      "translation": "Je suis ici."
+     }
+    ],
+    "commonErrors": []
+   },
+   "functionWords": []
+  },
+  {
+   "id": "en.v.teacher",
+   "kind": "vocabulary",
+   "category": "vocabulary",
+   "title": "teacher",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "professeur",
+   "partOfSpeech": "noun",
+   "lessonId": "en.l01",
+   "dictionaryItemId": "en.d.teacher"
+  },
+  {
+   "id": "en.v.student",
+   "kind": "vocabulary",
+   "category": "vocabulary",
+   "title": "student",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "étudiant",
+   "partOfSpeech": "noun",
+   "lessonId": "en.l01",
+   "dictionaryItemId": "en.d.student"
+  },
+  {
+   "id": "en.v.happy",
+   "kind": "vocabulary",
+   "category": "vocabulary",
+   "title": "happy",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "heureux",
+   "partOfSpeech": "adjective",
+   "lessonId": "en.l01",
+   "dictionaryItemId": "en.d.happy"
+  },
+  {
+   "id": "en.v.tired",
+   "kind": "vocabulary",
+   "category": "vocabulary",
+   "title": "tired",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "fatigué",
+   "partOfSpeech": "adjective",
+   "lessonId": "en.l01",
+   "dictionaryItemId": "en.d.tired"
+  },
+  {
+   "id": "en.v.doctor",
+   "kind": "vocabulary",
+   "category": "vocabulary",
+   "title": "doctor",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "médecin",
+   "partOfSpeech": "noun",
+   "lessonId": "en.l01",
+   "dictionaryItemId": "en.d.doctor"
+  },
+  {
+   "id": "en.v.go",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "go",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "aller",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l02",
+   "dictionaryItemId": "en.d.go"
+  },
+  {
+   "id": "en.v.eat",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "eat",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "manger",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l02",
+   "dictionaryItemId": "en.d.eat"
+  },
+  {
+   "id": "en.v.work",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "work",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "travailler",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l02",
+   "dictionaryItemId": "en.d.work"
+  },
+  {
+   "id": "en.v.live",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "live",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "habiter",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l02",
+   "dictionaryItemId": "en.d.live"
+  },
+  {
+   "id": "en.v.like",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "like",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 1,
+   "translation": "aimer",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l02",
+   "dictionaryItemId": "en.d.like"
+  },
+  {
+   "id": "en.v.receive",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "receive",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 2,
+   "translation": "recevoir",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l03",
+   "dictionaryItemId": "en.d.receive"
+  },
+  {
+   "id": "en.v.visit",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "visit",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 2,
+   "translation": "visiter",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l03",
+   "dictionaryItemId": "en.d.visit"
+  },
+  {
+   "id": "en.v.play",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "play",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 2,
+   "translation": "jouer",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l03",
+   "dictionaryItemId": "en.d.play"
+  },
+  {
+   "id": "en.v.watch",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "watch",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 2,
+   "translation": "regarder",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l03",
+   "dictionaryItemId": "en.d.watch"
+  },
+  {
+   "id": "en.v.want",
+   "kind": "vocabulary",
+   "category": "verbs",
+   "title": "want",
+   "difficulty": 1,
+   "prerequisites": [],
+   "module": 2,
+   "translation": "vouloir",
+   "partOfSpeech": "verb",
+   "lessonId": "en.l03",
+   "dictionaryItemId": "en.d.want"
+  }
+ ],
+ "lessons": [
+  {
+   "id": "en.l01",
+   "module": 1,
+   "sequence": 1,
+   "title": "Leçon 1",
+   "description": "Fixture lesson",
+   "difficulty": 1,
+   "grammarUnitId": "en.g01.be",
+   "introducesGrammar": true,
+   "introduces": [
+    "en.g01.be",
+    "en.v.teacher",
+    "en.v.student",
+    "en.v.happy",
+    "en.v.tired",
+    "en.v.doctor"
+   ],
+   "reviews": []
+  },
+  {
+   "id": "en.l02",
+   "module": 1,
+   "sequence": 2,
+   "title": "Leçon 2",
+   "description": "Fixture lesson",
+   "difficulty": 2,
+   "grammarUnitId": "en.g02.present_simple",
+   "introducesGrammar": true,
+   "introduces": [
+    "en.g02.present_simple",
+    "en.v.go",
+    "en.v.eat",
+    "en.v.work",
+    "en.v.live",
+    "en.v.like"
+   ],
+   "reviews": []
+  },
+  {
+   "id": "en.l03",
+   "module": 2,
+   "sequence": 3,
+   "title": "Leçon 3",
+   "description": "Fixture lesson",
+   "difficulty": 3,
+   "grammarUnitId": "en.g03.past_simple",
+   "introducesGrammar": true,
+   "introduces": [
+    "en.g03.past_simple",
+    "en.v.receive",
+    "en.v.visit",
+    "en.v.play",
+    "en.v.watch",
+    "en.v.want"
+   ],
+   "reviews": []
+  }
+ ],
+ "exercises": [
+  {
+   "id": "en.l01.e01",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g01.be",
+    "en.v.student"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Comment dit-on « Je suis étudiant » ?",
+   "promptLanguage": "fr",
+   "answer": "I am a student",
+   "acceptedAnswers": [
+    "I am a student"
+   ],
+   "explanation": "La bonne réponse est « I am a student ».",
+   "lessonId": "en.l01",
+   "options": [
+    "I am a student",
+    "I is a student",
+    "I are a student"
+   ],
+   "hint": "Avec I, on utilise am.",
+   "errorPatterns": [
+    {
+     "equals": "I is a student",
+     "category": "conjugation",
+     "feedback": "Avec I, le verbe être se dit am : I am."
+    },
+    {
+     "equals": "I are a student",
+     "category": "conjugation",
+     "feedback": "Are va avec you, we, they."
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e02",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g01.be"
+   ],
+   "type": "match",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Les pronoms : I, you, he, she, we",
+   "promptLanguage": "fr",
+   "answer": "I = je ; you = tu / vous ; he = il ; she = elle ; we = nous",
+   "acceptedAnswers": [],
+   "explanation": "La bonne réponse est « I = je ; you = tu / vous ; he = il ; she = elle ; we = nous ».",
+   "lessonId": "en.l01",
+   "pairs": [
+    {
+     "left": "I",
+     "right": "je"
+    },
+    {
+     "left": "you",
+     "right": "tu / vous"
+    },
+    {
+     "left": "he",
+     "right": "il"
+    },
+    {
+     "left": "she",
+     "right": "elle"
+    },
+    {
+     "left": "we",
+     "right": "nous"
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e03",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g01.be",
+    "en.v.teacher"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "She ___ a teacher.",
+   "promptLanguage": "en",
+   "answer": "is",
+   "acceptedAnswers": [
+    "is"
+   ],
+   "explanation": "La bonne réponse est « is ».",
+   "lessonId": "en.l01",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "hint": "She : une seule personne.",
+   "errorPatterns": [
+    {
+     "equals": "are",
+     "category": "conjugation",
+     "feedback": "Are va avec you, we et they."
+    },
+    {
+     "equals": "am",
+     "category": "conjugation",
+     "feedback": "Am ne va qu'avec I."
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e04",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g01.be",
+    "en.v.teacher"
+   ],
+   "type": "reorder",
+   "skill": "recall",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Il est professeur.",
+   "promptLanguage": "fr",
+   "answer": "He is a teacher.",
+   "acceptedAnswers": [
+    "He is a teacher."
+   ],
+   "explanation": "La bonne réponse est « He is a teacher. ».",
+   "lessonId": "en.l01",
+   "tokens": [
+    "teacher",
+    "a",
+    "is",
+    "He"
+   ],
+   "hint": "Commence par le sujet.",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e05",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g01.be",
+    "en.v.tired"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Elle n'est pas fatiguée.",
+   "promptLanguage": "fr",
+   "answer": "She isn't tired.",
+   "acceptedAnswers": [
+    "She isn't tired.",
+    "She is not tired.",
+    "She's not tired."
+   ],
+   "explanation": "La bonne réponse est « She isn't tired. ».",
+   "lessonId": "en.l01",
+   "errorPatterns": [
+    {
+     "equals": "she aren't tired",
+     "category": "conjugation",
+     "feedback": "Avec she, on utilise isn't, pas aren't."
+    },
+    {
+     "contains": "she not tired",
+     "category": "grammar",
+     "feedback": "Il manque le verbe être : she is not tired."
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e06",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g01.be",
+    "en.v.happy"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Nous sommes heureux.",
+   "promptLanguage": "fr",
+   "answer": "We are happy.",
+   "acceptedAnswers": [
+    "We are happy.",
+    "We're happy."
+   ],
+   "explanation": "La bonne réponse est « We are happy. ».",
+   "lessonId": "en.l01",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e07",
+   "pool": "lesson",
+   "unitIds": [
+    "en.v.doctor"
+   ],
+   "type": "free_answer",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Écris le mot anglais.",
+   "prompt": "Comment dit-on « médecin » ?",
+   "promptLanguage": "fr",
+   "answer": "doctor",
+   "acceptedAnswers": [
+    "doctor"
+   ],
+   "explanation": "La bonne réponse est « doctor ».",
+   "lessonId": "en.l01",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e08",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g01.be",
+    "en.v.teacher",
+    "en.v.student",
+    "en.v.doctor"
+   ],
+   "type": "free_answer",
+   "skill": "production",
+   "difficulty": 4,
+   "instruction": "Réponds.",
+   "prompt": "Dis ton métier ou celui d'un proche, avec le verbe être.",
+   "promptLanguage": "fr",
+   "answer": "I am a teacher.",
+   "acceptedAnswers": [
+    "I am a teacher.",
+    "He is a doctor.",
+    "She is a student."
+   ],
+   "explanation": "La bonne réponse est « I am a teacher. ».",
+   "lessonId": "en.l01",
+   "requirements": {
+    "mustInclude": [
+     [
+      "teacher",
+      "student",
+      "doctor"
+     ]
+    ],
+    "minWords": 3
+   },
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e09",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g01.be"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "They ___ students.",
+   "promptLanguage": "en",
+   "answer": "are",
+   "acceptedAnswers": [
+    "are"
+   ],
+   "explanation": "La bonne réponse est « are ».",
+   "lessonId": "en.l01",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "is",
+     "category": "conjugation",
+     "feedback": "Is va avec he, she, it."
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e10",
+   "pool": "lesson",
+   "unitIds": [
+    "en.v.tired"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Que veut dire « tired » ?",
+   "promptLanguage": "en",
+   "answer": "fatigué",
+   "acceptedAnswers": [
+    "fatigué"
+   ],
+   "explanation": "La bonne réponse est « fatigué ».",
+   "lessonId": "en.l01",
+   "options": [
+    "fatigué",
+    "heureux",
+    "médecin"
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l01.e11",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g01.be",
+    "en.v.tired"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "I am tired.",
+   "promptLanguage": "en",
+   "answer": "Je suis fatigué.",
+   "acceptedAnswers": [
+    "Je suis fatigué.",
+    "Je suis fatiguée."
+   ],
+   "explanation": "La bonne réponse est « Je suis fatigué. ».",
+   "lessonId": "en.l01",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e01",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.go"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "He ___ to school.",
+   "promptLanguage": "en",
+   "answer": "goes",
+   "acceptedAnswers": [
+    "goes"
+   ],
+   "explanation": "La bonne réponse est « goes ».",
+   "lessonId": "en.l02",
+   "options": [
+    "goes",
+    "go",
+    "going"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "go",
+     "category": "conjugation",
+     "feedback": "Avec he, she, it, le verbe prend un -s : goes."
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e02",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.eat"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "She ___ breakfast at seven.",
+   "promptLanguage": "en",
+   "answer": "eats",
+   "acceptedAnswers": [
+    "eats"
+   ],
+   "explanation": "La bonne réponse est « eats ».",
+   "lessonId": "en.l02",
+   "options": [
+    "eats",
+    "eat",
+    "eating"
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e03",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.work"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Il ne travaille pas.",
+   "promptLanguage": "fr",
+   "answer": "He doesn't work.",
+   "acceptedAnswers": [
+    "He doesn't work.",
+    "He does not work."
+   ],
+   "explanation": "La bonne réponse est « He doesn't work. ».",
+   "lessonId": "en.l02",
+   "errorPatterns": [
+    {
+     "equals": "he doesn't works",
+     "category": "conjugation",
+     "feedback": "Après doesn't, le verbe reste à la base : work."
+    },
+    {
+     "contains": "he don't",
+     "category": "grammar",
+     "feedback": "Avec he, on utilise doesn't, pas don't."
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e04",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.live"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Elle habite à Paris.",
+   "promptLanguage": "fr",
+   "answer": "She lives in Paris.",
+   "acceptedAnswers": [
+    "She lives in Paris."
+   ],
+   "explanation": "La bonne réponse est « She lives in Paris. ».",
+   "lessonId": "en.l02",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e05",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.like"
+   ],
+   "type": "reorder",
+   "skill": "recall",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "J'aime les pommes.",
+   "promptLanguage": "fr",
+   "answer": "I like apples.",
+   "acceptedAnswers": [
+    "I like apples."
+   ],
+   "explanation": "La bonne réponse est « I like apples. ».",
+   "lessonId": "en.l02",
+   "tokens": [
+    "like",
+    "apples",
+    "I"
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e06",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple"
+   ],
+   "type": "match",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Les verbes",
+   "promptLanguage": "fr",
+   "answer": "go = aller ; eat = manger ; work = travailler ; live = habiter ; like = aimer",
+   "acceptedAnswers": [],
+   "explanation": "La bonne réponse est « go = aller ; eat = manger ; work = travailler ; live = habiter ; like = aimer ».",
+   "lessonId": "en.l02",
+   "pairs": [
+    {
+     "left": "go",
+     "right": "aller"
+    },
+    {
+     "left": "eat",
+     "right": "manger"
+    },
+    {
+     "left": "work",
+     "right": "travailler"
+    },
+    {
+     "left": "live",
+     "right": "habiter"
+    },
+    {
+     "left": "like",
+     "right": "aimer"
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e07",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.go"
+   ],
+   "type": "free_answer",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Écris « il va » en anglais.",
+   "promptLanguage": "fr",
+   "answer": "he goes",
+   "acceptedAnswers": [
+    "he goes",
+    "he is going"
+   ],
+   "explanation": "La bonne réponse est « he goes ».",
+   "lessonId": "en.l02",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e08",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.work",
+    "en.v.live",
+    "en.v.eat"
+   ],
+   "type": "free_answer",
+   "skill": "production",
+   "difficulty": 4,
+   "instruction": "Réponds.",
+   "prompt": "Écris une phrase sur quelqu'un avec un verbe au présent.",
+   "promptLanguage": "fr",
+   "answer": "My brother works in Paris.",
+   "acceptedAnswers": [
+    "My brother works in Paris.",
+    "She lives in Lyon."
+   ],
+   "explanation": "La bonne réponse est « My brother works in Paris. ».",
+   "lessonId": "en.l02",
+   "requirements": {
+    "mustInclude": [
+     [
+      "goes",
+      "eats",
+      "works",
+      "lives",
+      "likes"
+     ]
+    ],
+    "mustNotInclude": [
+     "don't"
+    ],
+    "minWords": 3
+   },
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e09",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.like"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Which sentence is correct?",
+   "promptLanguage": "en",
+   "answer": "She doesn't like tea.",
+   "acceptedAnswers": [
+    "She doesn't like tea."
+   ],
+   "explanation": "La bonne réponse est « She doesn't like tea. ».",
+   "lessonId": "en.l02",
+   "options": [
+    "She doesn't like tea.",
+    "She don't like tea."
+   ],
+   "errorPatterns": [
+    {
+     "equals": "She don't like tea.",
+     "category": "grammar",
+     "feedback": "Avec she, on dit doesn't."
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l02.e10",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.eat"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Nous mangeons à midi.",
+   "promptLanguage": "fr",
+   "answer": "We eat at noon.",
+   "acceptedAnswers": [
+    "We eat at noon.",
+    "We eat at twelve."
+   ],
+   "explanation": "La bonne réponse est « We eat at noon. ».",
+   "lessonId": "en.l02",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e01",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.receive"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Yesterday I ___ a letter.",
+   "promptLanguage": "en",
+   "answer": "received",
+   "acceptedAnswers": [
+    "received"
+   ],
+   "explanation": "La bonne réponse est « received ».",
+   "lessonId": "en.l03",
+   "options": [
+    "received",
+    "receive",
+    "receiving"
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e02",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.go"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "She ___ to London last year.",
+   "promptLanguage": "en",
+   "answer": "went",
+   "acceptedAnswers": [
+    "went"
+   ],
+   "explanation": "La bonne réponse est « went ».",
+   "lessonId": "en.l03",
+   "options": [
+    "went",
+    "goes",
+    "go"
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e03",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.receive"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "J'ai reçu un message.",
+   "promptLanguage": "fr",
+   "answer": "I received a message.",
+   "acceptedAnswers": [
+    "I received a message.",
+    "I got a message."
+   ],
+   "explanation": "La bonne réponse est « I received a message. ».",
+   "lessonId": "en.l03",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e04",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.watch"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Nous avons regardé un film.",
+   "promptLanguage": "fr",
+   "answer": "We watched a film.",
+   "acceptedAnswers": [
+    "We watched a film.",
+    "We watched a movie."
+   ],
+   "explanation": "La bonne réponse est « We watched a film. ».",
+   "lessonId": "en.l03",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e05",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.visit"
+   ],
+   "type": "reorder",
+   "skill": "recall",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Nous avons visité Paris hier.",
+   "promptLanguage": "fr",
+   "answer": "We visited Paris yesterday.",
+   "acceptedAnswers": [
+    "We visited Paris yesterday.",
+    "Yesterday we visited Paris."
+   ],
+   "explanation": "La bonne réponse est « We visited Paris yesterday. ».",
+   "lessonId": "en.l03",
+   "tokens": [
+    "yesterday",
+    "visited",
+    "We",
+    "Paris"
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e06",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple"
+   ],
+   "type": "match",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Les verbes",
+   "promptLanguage": "fr",
+   "answer": "receive = recevoir ; visit = visiter ; play = jouer ; watch = regarder ; want = vouloir",
+   "acceptedAnswers": [],
+   "explanation": "La bonne réponse est « receive = recevoir ; visit = visiter ; play = jouer ; watch = regarder ; want = vouloir ».",
+   "lessonId": "en.l03",
+   "pairs": [
+    {
+     "left": "receive",
+     "right": "recevoir"
+    },
+    {
+     "left": "visit",
+     "right": "visiter"
+    },
+    {
+     "left": "play",
+     "right": "jouer"
+    },
+    {
+     "left": "watch",
+     "right": "regarder"
+    },
+    {
+     "left": "want",
+     "right": "vouloir"
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e07",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.go"
+   ],
+   "type": "free_answer",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Quel est le passé de « go » ?",
+   "promptLanguage": "fr",
+   "answer": "went",
+   "acceptedAnswers": [
+    "went"
+   ],
+   "explanation": "La bonne réponse est « went ».",
+   "lessonId": "en.l03",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e08",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.visit",
+    "en.v.play",
+    "en.v.watch"
+   ],
+   "type": "free_answer",
+   "skill": "production",
+   "difficulty": 4,
+   "instruction": "Réponds.",
+   "prompt": "Écris une phrase au passé.",
+   "promptLanguage": "fr",
+   "answer": "I visited my aunt.",
+   "acceptedAnswers": [
+    "I visited my aunt.",
+    "We played football."
+   ],
+   "explanation": "La bonne réponse est « I visited my aunt. ».",
+   "lessonId": "en.l03",
+   "requirements": {
+    "mustInclude": [
+     [
+      "went",
+      "visited",
+      "played",
+      "watched",
+      "received",
+      "wanted"
+     ]
+    ],
+    "minWords": 3
+   },
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e09",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.watch"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Did you ___ the film?",
+   "promptLanguage": "en",
+   "answer": "watch",
+   "acceptedAnswers": [
+    "watch"
+   ],
+   "explanation": "La bonne réponse est « watch ».",
+   "lessonId": "en.l03",
+   "options": [
+    "watch",
+    "watched",
+    "watching"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "watched",
+     "category": "verb_tense",
+     "feedback": "Après did, le verbe reste à la base."
+    }
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.l03.e10",
+   "pool": "lesson",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.play"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Elle n'a pas joué hier.",
+   "promptLanguage": "fr",
+   "answer": "She didn't play yesterday.",
+   "acceptedAnswers": [
+    "She didn't play yesterday.",
+    "She did not play yesterday."
+   ],
+   "explanation": "La bonne réponse est « She didn't play yesterday. ».",
+   "lessonId": "en.l03",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  }
+ ],
+ "diagnostic": [
+  {
+   "id": "en.diag.01",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g01.be"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "I ___ happy.",
+   "promptLanguage": "en",
+   "answer": "am",
+   "acceptedAnswers": [
+    "am"
+   ],
+   "explanation": "La bonne réponse est « am ».",
+   "options": [
+    "am",
+    "is",
+    "are"
+   ],
+   "level": 0,
+   "topic": "construction",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.02",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.v.doctor"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Que veut dire « doctor » ?",
+   "promptLanguage": "en",
+   "answer": "médecin",
+   "acceptedAnswers": [
+    "médecin"
+   ],
+   "explanation": "La bonne réponse est « médecin ».",
+   "options": [
+    "médecin",
+    "professeur",
+    "étudiant"
+   ],
+   "level": 0,
+   "topic": "vocabulary",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.03",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g01.be"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "They ___ students.",
+   "promptLanguage": "en",
+   "answer": "are",
+   "acceptedAnswers": [
+    "are"
+   ],
+   "explanation": "La bonne réponse est « are ».",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "level": 0,
+   "topic": "construction",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.04",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.v.teacher"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Comment dit-on « professeur » ?",
+   "promptLanguage": "fr",
+   "answer": "teacher",
+   "acceptedAnswers": [
+    "teacher"
+   ],
+   "explanation": "La bonne réponse est « teacher ».",
+   "options": [
+    "teacher",
+    "student",
+    "doctor"
+   ],
+   "level": 0,
+   "topic": "vocabulary",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.05",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g02.present_simple"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "He ___ to school.",
+   "promptLanguage": "en",
+   "answer": "goes",
+   "acceptedAnswers": [
+    "goes"
+   ],
+   "explanation": "La bonne réponse est « goes ».",
+   "options": [
+    "goes",
+    "go",
+    "going"
+   ],
+   "level": 1,
+   "topic": "verbs",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.06",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g01.be"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "She ___ tired.",
+   "promptLanguage": "en",
+   "answer": "is",
+   "acceptedAnswers": [
+    "is"
+   ],
+   "explanation": "La bonne réponse est « is ».",
+   "options": [
+    "is",
+    "are",
+    "am"
+   ],
+   "level": 1,
+   "topic": "construction",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.07",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.v.eat"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Que veut dire « eat » ?",
+   "promptLanguage": "en",
+   "answer": "manger",
+   "acceptedAnswers": [
+    "manger"
+   ],
+   "explanation": "La bonne réponse est « manger ».",
+   "options": [
+    "manger",
+    "aller",
+    "jouer"
+   ],
+   "level": 1,
+   "topic": "vocabulary",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.08",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g02.present_simple"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "We ___ apples.",
+   "promptLanguage": "en",
+   "answer": "like",
+   "acceptedAnswers": [
+    "like"
+   ],
+   "explanation": "La bonne réponse est « like ».",
+   "options": [
+    "like",
+    "likes",
+    "liking"
+   ],
+   "level": 1,
+   "topic": "verbs",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.09",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g02.present_simple"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "She ___ in Paris.",
+   "promptLanguage": "en",
+   "answer": "lives",
+   "acceptedAnswers": [
+    "lives"
+   ],
+   "explanation": "La bonne réponse est « lives ».",
+   "options": [
+    "lives",
+    "live",
+    "living"
+   ],
+   "level": 2,
+   "topic": "present",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.10",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g02.present_simple"
+   ],
+   "type": "reorder",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "J'aime les pommes.",
+   "promptLanguage": "fr",
+   "answer": "I like apples.",
+   "acceptedAnswers": [
+    "I like apples."
+   ],
+   "explanation": "La bonne réponse est « I like apples. ».",
+   "tokens": [
+    "apples",
+    "like",
+    "I"
+   ],
+   "level": 2,
+   "topic": "construction",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.11",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g02.present_simple"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Which is correct?",
+   "promptLanguage": "en",
+   "answer": "He doesn't work.",
+   "acceptedAnswers": [
+    "He doesn't work."
+   ],
+   "explanation": "La bonne réponse est « He doesn't work. ».",
+   "options": [
+    "He doesn't work.",
+    "He don't work.",
+    "He doesn't works."
+   ],
+   "level": 2,
+   "topic": "verbs",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.12",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g02.present_simple"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "They ___ at noon.",
+   "promptLanguage": "en",
+   "answer": "eat",
+   "acceptedAnswers": [
+    "eat"
+   ],
+   "explanation": "La bonne réponse est « eat ».",
+   "options": [
+    "eat",
+    "eats",
+    "eating"
+   ],
+   "level": 2,
+   "topic": "present",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.13",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g03.past_simple"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Yesterday she ___ a letter.",
+   "promptLanguage": "en",
+   "answer": "received",
+   "acceptedAnswers": [
+    "received"
+   ],
+   "explanation": "La bonne réponse est « received ».",
+   "options": [
+    "received",
+    "receive",
+    "receiving"
+   ],
+   "level": 3,
+   "topic": "past",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.14",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g03.past_simple"
+   ],
+   "type": "reorder",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Nous avons visité Paris hier.",
+   "promptLanguage": "fr",
+   "answer": "We visited Paris yesterday.",
+   "acceptedAnswers": [
+    "We visited Paris yesterday."
+   ],
+   "explanation": "La bonne réponse est « We visited Paris yesterday. ».",
+   "tokens": [
+    "Paris",
+    "We",
+    "yesterday",
+    "visited"
+   ],
+   "level": 3,
+   "topic": "construction",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.15",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g03.past_simple"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "She ___ to London last year.",
+   "promptLanguage": "en",
+   "answer": "went",
+   "acceptedAnswers": [
+    "went"
+   ],
+   "explanation": "La bonne réponse est « went ».",
+   "options": [
+    "went",
+    "goes",
+    "go"
+   ],
+   "level": 3,
+   "topic": "verbs",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.16",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g03.past_simple"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Did you ___ the film?",
+   "promptLanguage": "en",
+   "answer": "watch",
+   "acceptedAnswers": [
+    "watch"
+   ],
+   "explanation": "La bonne réponse est « watch ».",
+   "options": [
+    "watch",
+    "watched",
+    "watching"
+   ],
+   "level": 3,
+   "topic": "past",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.17",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g03.past_simple"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "I ___ not play yesterday.",
+   "promptLanguage": "en",
+   "answer": "did",
+   "acceptedAnswers": [
+    "did"
+   ],
+   "explanation": "La bonne réponse est « did ».",
+   "options": [
+    "did",
+    "do",
+    "does"
+   ],
+   "level": 4,
+   "topic": "past",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.18",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g03.past_simple"
+   ],
+   "type": "reorder",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Elle n'a pas joué hier.",
+   "promptLanguage": "fr",
+   "answer": "She didn't play yesterday.",
+   "acceptedAnswers": [
+    "She didn't play yesterday."
+   ],
+   "explanation": "La bonne réponse est « She didn't play yesterday. ».",
+   "tokens": [
+    "play",
+    "didn't",
+    "She",
+    "yesterday"
+   ],
+   "level": 4,
+   "topic": "construction",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.19",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g03.past_simple"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "He ___ a film last night.",
+   "promptLanguage": "en",
+   "answer": "watched",
+   "acceptedAnswers": [
+    "watched"
+   ],
+   "explanation": "La bonne réponse est « watched ».",
+   "options": [
+    "watched",
+    "watch",
+    "watches"
+   ],
+   "level": 4,
+   "topic": "verbs",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.diag.20",
+   "pool": "diagnostic",
+   "unitIds": [
+    "en.g03.past_simple"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "We ___ Paris last summer.",
+   "promptLanguage": "en",
+   "answer": "visited",
+   "acceptedAnswers": [
+    "visited"
+   ],
+   "explanation": "La bonne réponse est « visited ».",
+   "options": [
+    "visited",
+    "visit",
+    "visits"
+   ],
+   "level": 4,
+   "topic": "past",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  }
+ ],
+ "assessment": [
+  {
+   "id": "en.assess.01",
+   "pool": "assessment",
+   "unitIds": [
+    "en.g01.be",
+    "en.v.tired"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Il est fatigué.",
+   "promptLanguage": "fr",
+   "answer": "He is tired.",
+   "acceptedAnswers": [
+    "He is tired.",
+    "He's tired."
+   ],
+   "explanation": "La bonne réponse est « He is tired. ».",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.assess.02",
+   "pool": "assessment",
+   "unitIds": [
+    "en.g01.be"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "You ___ happy.",
+   "promptLanguage": "en",
+   "answer": "are",
+   "acceptedAnswers": [
+    "are"
+   ],
+   "explanation": "La bonne réponse est « are ».",
+   "options": [
+    "are",
+    "is",
+    "am"
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.assess.03",
+   "pool": "assessment",
+   "unitIds": [
+    "en.g01.be",
+    "en.v.doctor"
+   ],
+   "type": "free_answer",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Comment dit-on « Je suis médecin » ?",
+   "promptLanguage": "fr",
+   "answer": "I am a doctor",
+   "acceptedAnswers": [
+    "I am a doctor",
+    "I'm a doctor"
+   ],
+   "explanation": "La bonne réponse est « I am a doctor ».",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.assess.04",
+   "pool": "assessment",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.go"
+   ],
+   "type": "mcq",
+   "skill": "recognition",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "She ___ to work.",
+   "promptLanguage": "en",
+   "answer": "goes",
+   "acceptedAnswers": [
+    "goes"
+   ],
+   "explanation": "La bonne réponse est « goes ».",
+   "options": [
+    "goes",
+    "go",
+    "going"
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.assess.05",
+   "pool": "assessment",
+   "unitIds": [
+    "en.g02.present_simple",
+    "en.v.live"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Ils habitent à Lyon.",
+   "promptLanguage": "fr",
+   "answer": "They live in Lyon.",
+   "acceptedAnswers": [
+    "They live in Lyon."
+   ],
+   "explanation": "La bonne réponse est « They live in Lyon. ».",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.assess.06",
+   "pool": "assessment",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.receive"
+   ],
+   "type": "translation",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Il a reçu un cadeau.",
+   "promptLanguage": "fr",
+   "answer": "He received a present.",
+   "acceptedAnswers": [
+    "He received a present.",
+    "He received a gift."
+   ],
+   "explanation": "La bonne réponse est « He received a present. ».",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.assess.07",
+   "pool": "assessment",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.play"
+   ],
+   "type": "fill_blank",
+   "skill": "recall",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "They ___ football yesterday.",
+   "promptLanguage": "en",
+   "answer": "played",
+   "acceptedAnswers": [
+    "played"
+   ],
+   "explanation": "La bonne réponse est « played ».",
+   "options": [
+    "played",
+    "play",
+    "plays"
+   ],
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  },
+  {
+   "id": "en.assess.08",
+   "pool": "assessment",
+   "unitIds": [
+    "en.g03.past_simple",
+    "en.v.want"
+   ],
+   "type": "free_answer",
+   "skill": "production",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Comment dit-on « Je voulais un café » ?",
+   "promptLanguage": "fr",
+   "answer": "I wanted a coffee",
+   "acceptedAnswers": [
+    "I wanted a coffee"
+   ],
+   "explanation": "La bonne réponse est « I wanted a coffee ».",
+   "extraExample": {
+    "text": "Example.",
+    "translation": "Exemple."
+   }
+  }
+ ],
+ "dictionary": [
+  {
+   "id": "en.d.be",
+   "word": "be",
+   "translation": "être",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot be.",
+   "examples": [
+    {
+     "text": "I am happy.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "is",
+    "past": "was/were",
+    "pastParticiple": "been",
+    "ing": "being"
+   }
+  },
+  {
+   "id": "en.d.go",
+   "word": "go",
+   "translation": "aller",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot go.",
+   "examples": [
+    {
+     "text": "I go to school.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "goes",
+    "past": "went",
+    "pastParticiple": "gone",
+    "ing": "going"
+   },
+   "unitId": "en.v.go"
+  },
+  {
+   "id": "en.d.eat",
+   "word": "eat",
+   "translation": "manger",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot eat.",
+   "examples": [
+    {
+     "text": "I use eat.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "eats",
+    "past": "ate",
+    "pastParticiple": "eaten",
+    "ing": "eating"
+   },
+   "unitId": "en.v.eat"
+  },
+  {
+   "id": "en.d.work",
+   "word": "work",
+   "translation": "travailler",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot work.",
+   "examples": [
+    {
+     "text": "I use work.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "works",
+    "past": "worked",
+    "pastParticiple": "worked",
+    "ing": "working"
+   },
+   "otherTranslations": [
+    "fonctionner"
+   ],
+   "unitId": "en.v.work"
+  },
+  {
+   "id": "en.d.live",
+   "word": "live",
+   "translation": "habiter",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot live.",
+   "examples": [
+    {
+     "text": "I use live.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "lives",
+    "past": "lived",
+    "pastParticiple": "lived",
+    "ing": "living"
+   },
+   "unitId": "en.v.live"
+  },
+  {
+   "id": "en.d.like",
+   "word": "like",
+   "translation": "aimer",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot like.",
+   "examples": [
+    {
+     "text": "I use like.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "likes",
+    "past": "liked",
+    "pastParticiple": "liked",
+    "ing": "liking"
+   },
+   "unitId": "en.v.like"
+  },
+  {
+   "id": "en.d.receive",
+   "word": "receive",
+   "translation": "recevoir",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot receive.",
+   "examples": [
+    {
+     "text": "I use receive.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "receives",
+    "past": "received",
+    "pastParticiple": "received",
+    "ing": "receiving"
+   },
+   "unitId": "en.v.receive"
+  },
+  {
+   "id": "en.d.visit",
+   "word": "visit",
+   "translation": "visiter",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot visit.",
+   "examples": [
+    {
+     "text": "I use visit.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "visits",
+    "past": "visited",
+    "pastParticiple": "visited",
+    "ing": "visiting"
+   },
+   "unitId": "en.v.visit"
+  },
+  {
+   "id": "en.d.play",
+   "word": "play",
+   "translation": "jouer",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot play.",
+   "examples": [
+    {
+     "text": "I use play.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "plays",
+    "past": "played",
+    "pastParticiple": "played",
+    "ing": "playing"
+   },
+   "unitId": "en.v.play"
+  },
+  {
+   "id": "en.d.watch",
+   "word": "watch",
+   "translation": "regarder",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot watch.",
+   "examples": [
+    {
+     "text": "I use watch.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "watches",
+    "past": "watched",
+    "pastParticiple": "watched",
+    "ing": "watching"
+   },
+   "unitId": "en.v.watch"
+  },
+  {
+   "id": "en.d.want",
+   "word": "want",
+   "translation": "vouloir",
+   "partOfSpeech": "verb",
+   "explanation": "Le mot want.",
+   "examples": [
+    {
+     "text": "I use want.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "thirdPerson": "wants",
+    "past": "wanted",
+    "pastParticiple": "wanted",
+    "ing": "wanting"
+   },
+   "unitId": "en.v.want"
+  },
+  {
+   "id": "en.d.teacher",
+   "word": "teacher",
+   "translation": "professeur",
+   "partOfSpeech": "noun",
+   "explanation": "Le mot teacher.",
+   "examples": [
+    {
+     "text": "I use teacher.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "plural": "teachers"
+   },
+   "unitId": "en.v.teacher"
+  },
+  {
+   "id": "en.d.student",
+   "word": "student",
+   "translation": "étudiant",
+   "partOfSpeech": "noun",
+   "explanation": "Le mot student.",
+   "examples": [
+    {
+     "text": "I use student.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "plural": "students"
+   },
+   "unitId": "en.v.student"
+  },
+  {
+   "id": "en.d.doctor",
+   "word": "doctor",
+   "translation": "médecin",
+   "partOfSpeech": "noun",
+   "explanation": "Le mot doctor.",
+   "examples": [
+    {
+     "text": "I use doctor.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "plural": "doctors"
+   },
+   "unitId": "en.v.doctor"
+  },
+  {
+   "id": "en.d.happy",
+   "word": "happy",
+   "translation": "heureux",
+   "partOfSpeech": "adjective",
+   "explanation": "Le mot happy.",
+   "examples": [
+    {
+     "text": "I use happy.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "comparative": "happier",
+    "superlative": "happiest"
+   },
+   "unitId": "en.v.happy"
+  },
+  {
+   "id": "en.d.tired",
+   "word": "tired",
+   "translation": "fatigué",
+   "partOfSpeech": "adjective",
+   "explanation": "Le mot tired.",
+   "examples": [
+    {
+     "text": "I use tired.",
+     "translation": "J'utilise."
+    }
+   ],
+   "unitId": "en.v.tired"
+  },
+  {
+   "id": "en.d.child",
+   "word": "child",
+   "translation": "enfant",
+   "partOfSpeech": "noun",
+   "explanation": "Le mot child.",
+   "examples": [
+    {
+     "text": "I use child.",
+     "translation": "J'utilise."
+    }
+   ],
+   "forms": {
+    "plural": "children"
+   }
+  },
+  {
+   "id": "en.d.doesnt",
+   "word": "doesn't",
+   "translation": "ne … pas (il / elle)",
+   "partOfSpeech": "auxiliary",
+   "explanation": "Le mot doesn't.",
+   "examples": [
+    {
+     "text": "He doesn't work.",
+     "translation": "J'utilise."
+    }
+   ]
+  },
+  {
+   "id": "en.d.cant",
+   "word": "can't",
+   "translation": "ne peut pas",
+   "partOfSpeech": "modal",
+   "explanation": "Le mot can't.",
+   "examples": [
+    {
+     "text": "I use can't.",
+     "translation": "J'utilise."
+    }
+   ]
+  },
+  {
+   "id": "en.d.thank_you",
+   "word": "thank you",
+   "translation": "merci",
+   "partOfSpeech": "expression",
+   "explanation": "Le mot thank you.",
+   "examples": [
+    {
+     "text": "I use thank you.",
+     "translation": "J'utilise."
+    }
+   ]
+  }
+ ]
+}

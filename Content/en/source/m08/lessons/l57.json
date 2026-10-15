@@ -1,0 +1,207 @@
+{
+  "lessonId": "en.l57",
+  "exercises": [
+    {
+      "id": "en.l57.e01",
+      "unitIds": ["en.g40.short_answers", "en.v.how_are_you"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Hi Anna! How are you? — ___",
+      "promptLanguage": "en",
+      "options": ["I'm fine, thanks.", "Yes, I am.", "Yes, I do.", "No, I don't."],
+      "answer": "I'm fine, thanks.",
+      "acceptedAnswers": ["I'm fine, thanks."],
+      "hint": "How are you? n'est pas une question à laquelle on répond par oui ou non.",
+      "explanation": "How are you? veut dire « comment ça va ? » : on répond avec une phrase (I'm fine, thanks). On ne répond pas Yes ou No, car ce n'est pas une question fermée.",
+      "tip": "How are you? → I'm fine, thanks. Les réponses Yes / No sont pour les questions fermées.",
+      "extraExample": {"text": "How are you today? — I'm tired, but I'm fine.", "translation": "Comment vas-tu aujourd'hui ? — Je suis fatigué, mais ça va."},
+      "errorPatterns": [
+        {"equals": "yes i am", "category": "grammar", "feedback": "How are you? n'attend pas oui ou non : elle demande comment tu vas. Réponds par I'm fine, thanks."},
+        {"equals": "yes i do", "category": "grammar", "feedback": "Yes, I do répond à une question avec do (Do you…?). How are you? demande comment tu vas : I'm fine, thanks."},
+        {"equals": "no i don't", "category": "grammar", "feedback": "How are you? n'attend pas oui ou non. Réponds par I'm fine, thanks (ou I'm tired, I'm busy…)."}
+      ]
+    },
+    {
+      "id": "en.l57.e02",
+      "unitIds": ["en.g40.short_answers"],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réaction.",
+      "prompt": "I don't like cold coffee. — ___",
+      "promptLanguage": "en",
+      "options": ["Me neither.", "Me too.", "So do I.", "Me not."],
+      "answer": "Me neither.",
+      "acceptedAnswers": ["Me neither."],
+      "hint": "Tu veux dire « moi non plus » : la phrase de départ est négative.",
+      "explanation": "Après une phrase négative, « moi non plus » se dit Me neither. Me too veut dire « moi aussi » et répond à une phrase affirmative.",
+      "tip": "Phrase affirmative → Me too ; phrase négative → Me neither.",
+      "extraExample": {"text": "I can't swim. — Me neither.", "translation": "Je ne sais pas nager. — Moi non plus."},
+      "errorPatterns": [
+        {"equals": "me too", "category": "grammar", "feedback": "Me too veut dire « moi aussi » et répond à une phrase affirmative. Après I don't, « moi non plus » se dit Me neither."},
+        {"equals": "so do i", "category": "grammar", "feedback": "So do I veut dire « moi aussi » et répond à une phrase affirmative. Après une phrase négative, on dit Me neither."},
+        {"equals": "me not", "category": "grammar", "feedback": "On ne dit pas Me not. « Moi non plus » se dit Me neither."}
+      ]
+    },
+    {
+      "id": "en.l57.e03",
+      "unitIds": ["en.g40.short_answers", "en.v.nice_to_meet_you", "en.v.how_are_you", "en.v.excuse_me", "en.v.of_course", "en.v.no_problem"],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les formules de politesse à connaître",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "Nice to meet you.", "right": "Enchanté."},
+        {"left": "How are you?", "right": "Comment ça va ?"},
+        {"left": "Excuse me.", "right": "Excusez-moi."},
+        {"left": "Of course.", "right": "Bien sûr."},
+        {"left": "No problem.", "right": "Pas de problème."}
+      ],
+      "answer": "Nice to meet you. = Enchanté. ; How are you? = Comment ça va ? ; Excuse me. = Excusez-moi. ; Of course. = Bien sûr. ; No problem. = Pas de problème.",
+      "acceptedAnswers": [],
+      "explanation": "Ce sont des formules toutes faites : on les apprend telles quelles. Nice to meet you se dit à une première rencontre ; excuse me, pour attirer l'attention ou passer poliment.",
+      "tip": "Ces formules ne se traduisent pas mot à mot : apprends-les comme un bloc.",
+      "extraExample": {"text": "Can you help me? — Of course.", "translation": "Peux-tu m'aider ? — Bien sûr."}
+    },
+    {
+      "id": "en.l57.e04",
+      "unitIds": ["en.g40.short_answers", "en.v.nice_to_meet_you"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la réponse.",
+      "prompt": "Nice to meet you, Tom. — Nice to meet you, ___.",
+      "promptLanguage": "en",
+      "options": ["too", "either", "neither", "yet"],
+      "answer": "too",
+      "acceptedAnswers": ["too"],
+      "hint": "La phrase est affirmative : « aussi ».",
+      "explanation": "Too veut dire « aussi » et se place à la fin d'une phrase affirmative : Nice to meet you, too = enchanté aussi.",
+      "tip": "Phrase affirmative → too (aussi) ; phrase négative → either (non plus).",
+      "extraExample": {"text": "I'm hungry. — I'm hungry too.", "translation": "J'ai faim. — Moi aussi, j'ai faim."},
+      "errorPatterns": [
+        {"equals": "either", "category": "word_confusion", "feedback": "Either veut dire « non plus » et s'emploie dans une phrase négative. Ici, la phrase est affirmative : on dit too."},
+        {"equals": "neither", "category": "word_confusion", "feedback": "Neither s'emploie dans Me neither (« moi non plus »), pas à la fin d'une phrase affirmative. Ici : too."},
+        {"equals": "yet", "category": "word_confusion", "feedback": "Yet veut dire « déjà ? » ou « pas encore ». Pour « aussi », on dit too."}
+      ]
+    },
+    {
+      "id": "en.l57.e05",
+      "unitIds": ["en.g40.short_answers"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète la réponse courte.",
+      "prompt": "Did you call Anna yesterday? — No, I ___.",
+      "promptLanguage": "en",
+      "options": ["didn't", "don't", "haven't", "wasn't"],
+      "answer": "didn't",
+      "acceptedAnswers": ["didn't"],
+      "hint": "La question commence par Did.",
+      "explanation": "Dans une réponse courte, on reprend l'auxiliaire de la question. La question commence par Did : on répond No, I didn't.",
+      "tip": "Did → I did / I didn't ; Do → I do / I don't ; Is → it is / it isn't.",
+      "extraExample": {"text": "Did Tom win the game? — Yes, he did.", "translation": "Tom a-t-il gagné le match ? — Oui."},
+      "errorPatterns": [
+        {"equals": "don't", "category": "verb_tense", "feedback": "Don't reprend une question avec do (présent). La question est au passé (Did) : on répond didn't."},
+        {"equals": "haven't", "category": "grammar", "feedback": "Haven't répond à une question avec have. Ici, la question commence par Did : on répond didn't."},
+        {"equals": "wasn't", "category": "grammar", "feedback": "Wasn't est le passé de be. La question commence par Did : on répond didn't."}
+      ]
+    },
+    {
+      "id": "en.l57.e06",
+      "unitIds": ["en.g40.short_answers", "en.v.excuse_me"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Excusez-moi, où est la gare ?",
+      "promptLanguage": "fr",
+      "answer": "Excuse me, where is the station?",
+      "acceptedAnswers": ["Excuse me, where is the station?", "Excuse me, where is the train station?", "Excuse me, where is the railway station?", "Sorry, where is the station?", "Sorry, where is the train station?"],
+      "hint": "Pour attirer l'attention de quelqu'un, on commence par excuse me.",
+      "explanation": "Excuse me sert à attirer l'attention de quelqu'un ou à lui parler poliment. Ensuite, la question suit : where is the station ? (avec the devant station).",
+      "tip": "Excuse me pour attirer l'attention ; sorry pour s'excuser d'une erreur.",
+      "extraExample": {"text": "Excuse me, is this seat free?", "translation": "Excusez-moi, cette place est-elle libre ?"},
+      "errorPatterns": [
+        {"contains": "where are", "category": "grammar", "feedback": "Station est au singulier : on dit where is the station ?"},
+        {"contains": "where is station", "category": "grammar", "feedback": "Il manque l'article : where is the station ?"},
+        {"contains": "where station", "category": "word_order", "feedback": "Une question avec where garde is : where is the station ?"}
+      ]
+    },
+    {
+      "id": "en.l57.e07",
+      "unitIds": ["en.g40.short_answers"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Je n'aime pas le poisson, et mon frère non plus.",
+      "promptLanguage": "fr",
+      "tokens": ["fish", "I", "my", "and", "brother", "doesn't", "like", "either", "don't"],
+      "answer": "I don't like fish and my brother doesn't either",
+      "acceptedAnswers": ["I don't like fish and my brother doesn't either", "My brother doesn't like fish and I don't either"],
+      "hint": "« Non plus » se dit either, tout à la fin.",
+      "explanation": "Either veut dire « non plus » et se place à la fin d'une phrase négative. Chaque partie garde sa propre négation : I don't … and my brother doesn't either.",
+      "tip": "Négation + either à la fin = « non plus ».",
+      "extraExample": {"text": "Anna doesn't eat meat, and I don't either.", "translation": "Anna ne mange pas de viande, et moi non plus."}
+    },
+    {
+      "id": "en.l57.e08",
+      "unitIds": ["en.g40.short_answers", "en.g39.present_perfect_intro", "en.v.abroad"],
+      "type": "translation",
+      "difficulty": 4,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je n'ai jamais été à l'étranger, et Anna non plus.",
+      "promptLanguage": "fr",
+      "answer": "I have never been abroad, and Anna hasn't either.",
+      "acceptedAnswers": ["I have never been abroad, and Anna hasn't either.", "I have never been abroad, and neither has Anna.", "I have never been abroad, and nor has Anna.", "I have never been abroad, and Anna hasn't been either.", "I have never been abroad, and Anna has never been abroad either.", "I haven't been abroad, and Anna hasn't either.", "I have never gone abroad, and Anna hasn't either."],
+      "hint": "Pour « non plus », reprends have / has avec n't, puis ajoute either.",
+      "explanation": "Pour dire « non plus » après une phrase au present perfect, on reprend l'auxiliaire : Anna hasn't either. On peut aussi dire neither has Anna.",
+      "tip": "Une seule négation : hasn't either ou neither has, jamais hasn't neither.",
+      "extraExample": {"text": "Tom hasn't seen this film, and I haven't either.", "translation": "Tom n'a pas vu ce film, et moi non plus."},
+      "errorPatterns": [
+        {"contains": "hasn't neither", "category": "grammar", "feedback": "Ne mets pas deux négations. Dis Anna hasn't either, ou neither has Anna."},
+        {"contains": "hasn't too", "category": "word_confusion", "feedback": "Too veut dire « aussi ». Dans une phrase négative, « non plus » se dit either."},
+        {"contains": "anna too", "category": "word_confusion", "feedback": "Too veut dire « aussi ». Après une phrase négative, « non plus » se dit either : Anna hasn't either."}
+      ]
+    },
+    {
+      "id": "en.l57.e09",
+      "unitIds": ["en.g40.short_answers", "en.v.of_course", "en.v.no_problem"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Bien sûr, pas de problème » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Of course, no problem.",
+      "acceptedAnswers": ["Of course, no problem.", "Yes, of course, no problem.", "Of course, it's no problem.", "Of course, that's no problem.", "Sure, no problem.", "Certainly, no problem.", "Of course, no worries.", "Yes, of course. No problem."],
+      "hint": "Ce sont deux formules à apprendre par cœur.",
+      "explanation": "Bien sûr se dit of course, et pas de problème se dit no problem. Ce sont des formules toutes faites qu'on utilise pour répondre à une demande.",
+      "tip": "Of course = bien sûr ; no problem = pas de problème.",
+      "extraExample": {"text": "Can you wait a moment? — Of course, no problem.", "translation": "Peux-tu attendre un instant ? — Bien sûr, pas de problème."},
+      "errorPatterns": [
+        {"contains": "of course not", "category": "word_confusion", "feedback": "Of course not veut dire « bien sûr que non ! » : le contraire de ce que tu veux dire. Pour « bien sûr », dis of course."},
+        {"contains": "no problems", "category": "grammar", "feedback": "On dit no problem au singulier."},
+        {"contains": "not problem", "category": "grammar", "feedback": "« Pas de problème » se dit no problem (ou not a problem)."}
+      ]
+    },
+    {
+      "id": "en.l57.e10",
+      "unitIds": ["en.g40.short_answers"],
+      "type": "free_answer",
+      "difficulty": 5,
+      "instruction": "Réponds par une réponse courte, puis ajoute une phrase.",
+      "prompt": "On te demande : « Do you watch films in English? »",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["yes", "no"], ["do", "don't"]], "minWords": 4},
+      "answer": "Yes, I do. I watch a film every weekend.",
+      "acceptedAnswers": ["Yes, I do. I watch a film every weekend.", "Yes, I do. I love English films.", "No, I don't. I watch films in French.", "No, I don't. I like music."],
+      "hint": "Commence par Yes, I … ou No, I … avec le même auxiliaire que la question.",
+      "explanation": "La question commence par Do : la réponse courte reprend do. Dis Yes, I do ou No, I don't, puis ajoute une phrase pour donner plus de détails.",
+      "tip": "Do you…? → Yes, I do / No, I don't, et une phrase en plus pour continuer la conversation.",
+      "extraExample": {"text": "Do you like coffee? — Yes, I do. I drink it every morning.", "translation": "Tu aimes le café ? — Oui. J'en bois tous les matins."},
+      "errorPatterns": [
+        {"contains": "yes i am", "category": "grammar", "feedback": "La question commence par Do, pas par Are : la réponse courte est Yes, I do."},
+        {"contains": "no i'm not", "category": "grammar", "feedback": "La question commence par Do, pas par Are : la réponse courte est No, I don't."},
+        {"contains": "yes i watch", "category": "instruction", "feedback": "Ta phrase est correcte, mais la consigne demande d'abord une réponse courte avec do : Yes, I do."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "id": "en.diag.m02.01",
+    "unitIds": ["en.g08.verbs_base_form", "en.v.live"],
+    "type": "mcq",
+    "difficulty": 1,
+    "instruction": "Choisis la bonne forme.",
+    "prompt": "Tom and I ___ in London.",
+    "promptLanguage": "en",
+    "options": ["live", "lives", "are live", "living"],
+    "answer": "live",
+    "acceptedAnswers": ["live"],
+    "explanation": "Tom and I, c'est « nous » : le verbe garde sa forme de base, sans -s. On dit donc live.",
+    "tip": "Avec I, you, we, they : le verbe ne change pas.",
+    "extraExample": {"text": "My sister and I live in Paris.", "translation": "Ma sœur et moi habitons à Paris."},
+    "errorPatterns": [
+      {"equals": "lives", "category": "conjugation", "feedback": "Tom and I, c'est comme we : le verbe ne prend pas de -s."},
+      {"equals": "are live", "category": "grammar", "feedback": "Are est le verbe être : on ne le met pas devant un autre verbe."},
+      {"equals": "living", "category": "grammar", "feedback": "Pour dire où on habite, on utilise la forme de base : we live."}
+    ],
+    "level": 1,
+    "topic": "verbs"
+  },
+  {
+    "id": "en.diag.m02.02",
+    "unitIds": ["en.g09.do_vs_make", "en.v.make", "en.v.dinner"],
+    "type": "mcq",
+    "difficulty": 2,
+    "instruction": "Choisis le bon verbe.",
+    "prompt": "My mother and I ___ dinner at home.",
+    "promptLanguage": "en",
+    "options": ["make", "do", "makes", "does"],
+    "answer": "make",
+    "acceptedAnswers": ["make"],
+    "explanation": "On prépare le dîner : on crée un repas, donc make dinner. My mother and I, c'est « nous » : pas de -s.",
+    "tip": "Un repas qu'on prépare : make dinner, jamais do dinner.",
+    "extraExample": {"text": "We make coffee for our friends.", "translation": "Nous faisons du café pour nos amis."},
+    "errorPatterns": [
+      {"equals": "do", "category": "word_confusion", "feedback": "Do sert aux tâches (do homework). Pour préparer un repas, on dit make dinner."},
+      {"equals": "makes", "category": "conjugation", "feedback": "My mother and I, c'est comme we : le verbe ne prend pas de -s."},
+      {"equals": "does", "category": "word_confusion", "feedback": "Pour préparer un repas, on dit make dinner, et le verbe ne prend pas de -s ici."}
+    ],
+    "level": 1,
+    "topic": "verbs"
+  },
+  {
+    "id": "en.diag.m02.03",
+    "unitIds": ["en.g10.want_need_to", "en.v.need"],
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Complète avec le mot qui manque.",
+    "prompt": "I need ___ do my homework.",
+    "promptLanguage": "en",
+    "options": ["to", "that", "for", "of"],
+    "answer": "to",
+    "acceptedAnswers": ["to"],
+    "explanation": "Quand need est suivi d'un verbe, on ajoute to : need to + verbe de base.",
+    "tip": "Want / need + to + verbe.",
+    "extraExample": {"text": "We want to eat dinner at home.", "translation": "Nous voulons dîner à la maison."},
+    "errorPatterns": [
+      {"equals": "that", "category": "grammar", "feedback": "On ne dit pas « need that » avant un verbe. On dit need to + verbe."},
+      {"equals": "for", "category": "preposition", "feedback": "For ne s'emploie pas entre need et un verbe. Il faut to."},
+      {"equals": "of", "category": "preposition", "feedback": "Of ne s'emploie pas entre need et un verbe. Il faut to."}
+    ],
+    "level": 1,
+    "topic": "verbs"
+  },
+  {
+    "id": "en.diag.m02.04",
+    "unitIds": ["en.g11.can", "en.v.drive"],
+    "type": "mcq",
+    "difficulty": 2,
+    "instruction": "Choisis la phrase correcte.",
+    "prompt": "Comment dit-on « Je ne sais pas conduire » en anglais ?",
+    "promptLanguage": "fr",
+    "options": ["I can't drive.", "I can drive not.", "I can't to drive.", "I am can't drive."],
+    "answer": "I can't drive.",
+    "acceptedAnswers": ["I can't drive."],
+    "explanation": "Pour dire qu'on ne sait pas faire quelque chose, on utilise can't + verbe de base. On n'ajoute pas to, et la négation se place sur can.",
+    "tip": "Can't + verbe de base, sans to.",
+    "extraExample": {"text": "My brother can't swim.", "translation": "Mon frère ne sait pas nager."},
+    "errorPatterns": [
+      {"equals": "i can drive not.", "category": "word_order", "feedback": "La négation se place sur can : can't, puis le verbe."},
+      {"equals": "i can't to drive.", "category": "grammar", "feedback": "Après can't, on n'ajoute pas to."},
+      {"equals": "i am can't drive.", "category": "grammar", "feedback": "Can't est déjà le verbe : on n'ajoute pas am."}
+    ],
+    "level": 1,
+    "topic": "verbs"
+  },
+  {
+    "id": "en.diag.m02.05",
+    "unitIds": ["en.g13.imperative", "en.v.take"],
+    "type": "reorder",
+    "difficulty": 2,
+    "instruction": "Remets les mots dans l'ordre pour traduire.",
+    "prompt": "Ne prends pas mon téléphone !",
+    "promptLanguage": "fr",
+    "tokens": ["phone", "Don't", "my", "take"],
+    "answer": "Don't take my phone",
+    "acceptedAnswers": ["Don't take my phone"],
+    "explanation": "Pour interdire, on met Don't devant le verbe de base : Don't take. Il n'y a pas de sujet dans un ordre.",
+    "tip": "Un ordre négatif : Don't + verbe de base.",
+    "extraExample": {"text": "Don't give the key to Tom.", "translation": "Ne donne pas la clé à Tom."},
+    "level": 1,
+    "topic": "construction"
+  }
+]

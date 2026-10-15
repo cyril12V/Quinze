@@ -1,0 +1,128 @@
+# Configuration Supabase CLI — projet « Quinze » (backend de l'app iOS d'apprentissage de l'anglais).
+# Référence : https://supabase.com/docs/guides/local-development/cli/config
+# Ce fichier pilote l'environnement local (`supabase start`) ; pour le projet hébergé,
+# le même fichier s'applique avec `supabase config push` (voir docs/06-deploiement-backend.md).
+
+project_id = "quinze"
+
+[api]
+enabled = true
+port = 54321
+# `private` (fonctions-triggers, utilitaires) n'est volontairement PAS exposé.
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+shadow_port = 54320
+major_version = 17
+
+[db.pooler]
+enabled = false
+
+[db.migrations]
+enabled = true
+
+[db.seed]
+enabled = true
+# Contenu pédagogique (généré) puis vérification. Voir supabase/seed/seed.sql.
+sql_paths = ["./seed/content_en.sql", "./seed/seed.sql"]
+
+[realtime]
+enabled = false
+
+[studio]
+enabled = true
+port = 54323
+api_url = "http://127.0.0.1"
+
+# Boîte mail locale : les e-mails de confirmation / réinitialisation arrivent ici.
+[inbucket]
+enabled = true
+port = 54324
+
+[storage]
+enabled = true
+file_size_limit = "50MiB"
+
+# Bucket des bundles de contenu : lecture publique, écriture service role uniquement.
+[storage.buckets.content]
+public = true
+file_size_limit = "20MiB"
+allowed_mime_types = ["application/json"]
+
+[auth]
+enabled = true
+# Liens des e-mails (confirmation, réinitialisation) : schéma d'URL de l'app iOS.
+site_url = "quinze://auth-callback"
+additional_redirect_urls = ["quinze://auth-callback", "quinze://reset-password"]
+jwt_expiry = 3600
+enable_refresh_token_rotation = true
+refresh_token_reuse_interval = 10
+enable_signup = true
+enable_anonymous_sign_ins = false
+enable_manual_linking = false
+minimum_password_length = 8
+password_requirements = "letters_digits"
+
+[auth.rate_limit]
+email_sent = 4
+sign_in_sign_ups = 30
+token_refresh = 150
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = true
+# Inscription par e-mail : confirmation obligatoire avant la première connexion.
+enable_confirmations = true
+secure_password_change = true
+max_frequency = "60s"
+otp_length = 6
+otp_expiry = 3600
+
+[auth.email.template.confirmation]
+subject = "Confirme ton adresse e-mail — Quinze"
+content_path = "./templates/confirmation.html"
+
+[auth.email.template.recovery]
+subject = "Réinitialise ton mot de passe — Quinze"
+content_path = "./templates/recovery.html"
+
+[auth.email.template.email_change]
+subject = "Confirme ta nouvelle adresse e-mail — Quinze"
+content_path = "./templates/email_change.html"
+
+[auth.email.template.reauthentication]
+subject = "Ton code de confirmation — Quinze"
+content_path = "./templates/reauthentication.html"
+
+# Sign in with Apple — PLACEHOLDER (désactivé tant que les identifiants Apple ne sont pas créés).
+# Pour l'app iOS native (signInWithIdToken), client_id = identifiant du bundle de l'app
+# (et, si l'on ajoute le web, l'identifiant de service) ; le secret n'est requis que pour le
+# flux OAuth web. Voir docs/06-deploiement-backend.md § Sign in with Apple.
+[auth.external.apple]
+enabled = false
+client_id = "env(SUPABASE_AUTH_EXTERNAL_APPLE_CLIENT_ID)"
+secret = "env(SUPABASE_AUTH_EXTERNAL_APPLE_SECRET)"
+redirect_uri = ""
+url = ""
+skip_nonce_check = false
+
+[edge_runtime]
+enabled = true
+policy = "per_worker"
+
+# L'authentification est vérifiée DANS la fonction (supabase-js auth.getUser avec le jeton
+# de l'appelant) : la vérification du JWT par la passerelle est donc désactivée (elle gêne
+# aussi les clés de signature asymétriques et la requête CORS OPTIONS sans jeton).
+[functions.ai]
+enabled = true
+verify_jwt = false
+
+[functions.account]
+enabled = true
+verify_jwt = false
+
+[analytics]
+enabled = false

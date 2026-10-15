@@ -1,0 +1,222 @@
+{
+  "lessonId": "en.l41",
+  "exercises": [
+    {
+      "id": "en.l41.e01",
+      "unitIds": ["en.g28.there_is_are", "en.v.garden"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Il y a un jardin. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["There is a garden.", "There have a garden.", "It is a garden.", "There are a garden."],
+      "answer": "There is a garden.",
+      "acceptedAnswers": ["There is a garden."],
+      "hint": "« Il y a » + un seul élément : there + is.",
+      "explanation": "« Il y a » se dit there is devant un seul élément. Ici il y a un seul jardin, donc There is a garden.",
+      "tip": "« Il y a » = there is (un seul) ; on n'utilise jamais have.",
+      "extraExample": {"text": "There is a phone in my bag.", "translation": "Il y a un téléphone dans mon sac."},
+      "errorPatterns": [
+        {"equals": "there have a garden", "category": "grammar", "feedback": "En anglais, « il y a » ne se dit pas avec have. On utilise there is (un seul) ou there are (plusieurs)."},
+        {"equals": "it is a garden", "category": "grammar", "feedback": "It is a garden veut dire « c'est un jardin ». Pour « il y a », on commence par there is."},
+        {"equals": "there are a garden", "category": "grammar", "feedback": "There are s'utilise avec plusieurs éléments. Pour un seul jardin, on dit there is."}
+      ]
+    },
+    {
+      "id": "en.l41.e02",
+      "unitIds": ["en.g28.there_is_are", "en.v.bedroom"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "There ___ two bedrooms in the house.",
+      "promptLanguage": "en",
+      "options": ["are", "is", "have", "has"],
+      "answer": "are",
+      "acceptedAnswers": ["are"],
+      "hint": "Deux chambres : un seul élément ou plusieurs ?",
+      "explanation": "Two bedrooms est un pluriel : on dit there are. Le verbe s'accorde avec ce qui vient après there (two bedrooms), pas avec there lui-même.",
+      "tip": "Regarde ce qui suit there : un seul → is, plusieurs → are.",
+      "extraExample": {"text": "There are three bathrooms in this hotel.", "translation": "Il y a trois salles de bain dans cet hôtel."},
+      "errorPatterns": [
+        {"equals": "is", "category": "grammar", "feedback": "There is s'utilise devant un seul élément. Ici, two bedrooms est un pluriel : there are."},
+        {"equals": "have", "category": "grammar", "feedback": "Pour dire « il y a », on n'utilise pas have. On dit there is ou there are."},
+        {"equals": "has", "category": "grammar", "feedback": "Pour dire « il y a », on n'utilise pas has. Avec un pluriel, on dit there are."}
+      ]
+    },
+    {
+      "id": "en.l41.e03",
+      "unitIds": ["en.g28.there_is_are", "en.v.kitchen", "en.v.bedroom", "en.v.bathroom", "en.v.living_room", "en.v.garden"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque pièce à sa traduction.",
+      "prompt": "Les pièces de la maison",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "kitchen", "right": "cuisine"},
+        {"left": "bedroom", "right": "chambre"},
+        {"left": "bathroom", "right": "salle de bain"},
+        {"left": "living room", "right": "salon"},
+        {"left": "garden", "right": "jardin"}
+      ],
+      "answer": "kitchen = cuisine ; bedroom = chambre ; bathroom = salle de bain ; living room = salon ; garden = jardin",
+      "acceptedAnswers": [],
+      "explanation": "On cuisine dans la kitchen, on dort dans la bedroom, on se lave dans la bathroom et on se détend dans la living room. Le garden est à l'extérieur de la maison. Bathroom = bath (bain) + room (pièce).",
+      "tip": "Bed + room = chambre (la pièce du lit) ; bath + room = salle de bain.",
+      "extraExample": {"text": "There is a garden near the house.", "translation": "Il y a un jardin près de la maison."}
+    },
+    {
+      "id": "en.l41.e04",
+      "unitIds": ["en.g28.there_is_are", "en.v.garden"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec is, are ou have.",
+      "prompt": "There ___ a dog in the garden.",
+      "promptLanguage": "en",
+      "options": ["is", "are", "have"],
+      "answer": "is",
+      "acceptedAnswers": ["is"],
+      "hint": "Combien de chiens ? Regarde l'article a.",
+      "explanation": "A dog est un seul chien : on utilise there is. On ne dit jamais « there have » pour « il y a ».",
+      "tip": "A devant le nom ? There is. Un nombre ou -s ? There are.",
+      "extraExample": {"text": "There is a book in the bedroom.", "translation": "Il y a un livre dans la chambre."},
+      "errorPatterns": [
+        {"equals": "are", "category": "grammar", "feedback": "There are s'utilise avec plusieurs éléments. A dog est un seul chien : there is."},
+        {"equals": "have", "category": "grammar", "feedback": "« Il y a » ne se traduit pas par have. On dit there is (un seul) ou there are (plusieurs)."}
+      ]
+    },
+    {
+      "id": "en.l41.e05",
+      "unitIds": ["en.g28.there_is_are", "en.g04.be_negative_questions"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la forme négative.",
+      "prompt": "There ___ a garden at the hotel, but there is a beach.",
+      "promptLanguage": "en",
+      "options": ["isn't", "aren't", "haven't"],
+      "answer": "isn't",
+      "acceptedAnswers": ["isn't", "is not"],
+      "hint": "« But » annonce un contraste : il n'y a pas de jardin.",
+      "explanation": "Pour dire « il n'y a pas », on ajoute not après is : there isn't. Ici, a garden est un seul élément, donc isn't (et non aren't).",
+      "tip": "Négation : there isn't (un seul) / there aren't (plusieurs).",
+      "extraExample": {"text": "There isn't a bathroom in the house.", "translation": "Il n'y a pas de salle de bain dans la maison."},
+      "errorPatterns": [
+        {"equals": "aren't", "category": "grammar", "feedback": "There aren't s'utilise avec plusieurs éléments. A garden est un seul élément : there isn't."},
+        {"equals": "are not", "category": "grammar", "feedback": "There are not s'utilise avec plusieurs éléments. A garden est un seul élément : there is not."},
+        {"equals": "haven't", "category": "grammar", "feedback": "There haven't n'existe pas. Pour « il n'y a pas », on dit there isn't ou there aren't."}
+      ]
+    },
+    {
+      "id": "en.l41.e06",
+      "unitIds": ["en.g28.there_is_are", "en.v.bathroom"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former la question.",
+      "prompt": "Y a-t-il une salle de bain dans la maison ?",
+      "promptLanguage": "fr",
+      "tokens": ["there", "the", "Is", "bathroom", "a", "house", "in"],
+      "answer": "Is there a bathroom in the house",
+      "acceptedAnswers": ["Is there a bathroom in the house"],
+      "hint": "Pour poser la question, is passe avant there.",
+      "explanation": "Pour poser une question avec there is, on inverse : Is there… ? au lieu de There is… Le lieu (in the house) vient en dernier.",
+      "tip": "Question : Is there… ? / Are there… ? (le verbe passe devant there).",
+      "extraExample": {"text": "Is there a kitchen in the apartment?", "translation": "Y a-t-il une cuisine dans l'appartement ?"}
+    },
+    {
+      "id": "en.l41.e07",
+      "unitIds": ["en.g28.there_is_are", "en.v.kitchen", "en.v.living_room"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais. « il y a » = there is.",
+      "prompt": "Il y a une cuisine et un salon.",
+      "promptLanguage": "fr",
+      "answer": "There is a kitchen and a living room.",
+      "acceptedAnswers": [
+        "There is a kitchen and a living room.",
+        "There's a kitchen and a living room.",
+        "There is a kitchen and living room.",
+        "There is a kitchen and a lounge.",
+        "There is a kitchen and a sitting room."
+      ],
+      "hint": "Salon = living room (deux mots). N'oublie pas a devant chaque nom.",
+      "explanation": "« Il y a » se traduit there is devant un élément. On répète a devant chaque nom : a kitchen and a living room. And veut dire « et ».",
+      "tip": "Pense « there is » dès que tu vois « il y a ».",
+      "extraExample": {"text": "There is a bedroom and a bathroom.", "translation": "Il y a une chambre et une salle de bain."},
+      "errorPatterns": [
+        {"contains": "there have", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec have. Écris there is."},
+        {"contains": "it is a kitchen", "category": "grammar", "feedback": "It is veut dire « c'est ». Pour « il y a », on dit there is."},
+        {"contains": "there are a", "category": "grammar", "feedback": "There are s'utilise avec un pluriel. Pour un seul élément (a kitchen), on dit there is."}
+      ]
+    },
+    {
+      "id": "en.l41.e08",
+      "unitIds": ["en.g28.there_is_are", "en.v.bathroom"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. Pense à la négation de there is.",
+      "prompt": "Il n'y a pas de salle de bain dans la maison.",
+      "promptLanguage": "fr",
+      "answer": "There isn't a bathroom in the house.",
+      "acceptedAnswers": [
+        "There isn't a bathroom in the house.",
+        "There is not a bathroom in the house.",
+        "There's not a bathroom in the house.",
+        "There isn't any bathroom in the house.",
+        "There is no bathroom in the house.",
+        "There's no bathroom in the house."
+      ],
+      "hint": "Négation : there + is + not.",
+      "explanation": "« Il n'y a pas de » se dit there isn't (there is not) devant un seul élément. On garde a devant bathroom : There isn't a bathroom.",
+      "tip": "Pour nier there is, on ajoute n't : there isn't.",
+      "extraExample": {"text": "There isn't a key in the bag.", "translation": "Il n'y a pas de clé dans le sac."},
+      "errorPatterns": [
+        {"contains": "there have", "category": "grammar", "feedback": "« Il n'y a pas » ne se dit pas avec have. Écris there isn't."},
+        {"contains": "there aren't a", "category": "grammar", "feedback": "There aren't s'utilise avec un pluriel. Une seule salle de bain : there isn't."},
+        {"equals": "isn't a bathroom in the house", "category": "grammar", "feedback": "Il manque there au début : there isn't a bathroom in the house."}
+      ]
+    },
+    {
+      "id": "en.l41.e09",
+      "unitIds": ["en.g28.there_is_are", "en.v.garden"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment dit-on « Y a-t-il un jardin ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Is there a garden?",
+      "acceptedAnswers": ["Is there a garden?", "Is there a garden here?"],
+      "hint": "Le verbe is passe devant there.",
+      "explanation": "Pour poser la question, on place is avant there : Is there a garden ? Il y a un seul jardin, donc is (et non are).",
+      "tip": "There is → Is there ? On inverse, comme avec to be.",
+      "extraExample": {"text": "Is there a hotel in the city?", "translation": "Y a-t-il un hôtel dans la ville ?"},
+      "errorPatterns": [
+        {"equals": "there is a garden", "category": "word_order", "feedback": "Pour poser une question, inverse : is passe devant there. Écris Is there a garden ?"},
+        {"equals": "have a garden", "category": "grammar", "feedback": "« Y a-t-il » ne se dit pas avec have. Écris Is there a garden ?"},
+        {"equals": "are there a garden", "category": "grammar", "feedback": "Are there s'utilise avec un pluriel. Un seul jardin : Is there a garden ?"}
+      ]
+    },
+    {
+      "id": "en.l41.e10",
+      "unitIds": ["en.g28.there_is_are", "en.v.bedroom"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Il y a trois chambres dans la maison. » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "There are three bedrooms in the house.",
+      "acceptedAnswers": [
+        "There are three bedrooms in the house.",
+        "There are three bedrooms in this house.",
+        "There are 3 bedrooms in the house."
+      ],
+      "hint": "Trois chambres : un seul élément ou plusieurs ? Pense au -s de bedrooms.",
+      "explanation": "Three bedrooms est un pluriel : on dit there are, et bedroom prend un -s. There are three bedrooms in the house.",
+      "tip": "Avec un nombre supérieur à un : there are + nom au pluriel.",
+      "extraExample": {"text": "There are two dogs in the garden.", "translation": "Il y a deux chiens dans le jardin."},
+      "errorPatterns": [
+        {"contains": "there is three", "category": "grammar", "feedback": "Trois chambres, c'est un pluriel : on dit there are three bedrooms."},
+        {"contains": "there have", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec have. Écris there are devant un pluriel."},
+        {"contains": "three bedroom in", "category": "grammar", "feedback": "Après un nombre supérieur à un, le nom prend un -s : three bedrooms."}
+      ]
+    }
+  ]
+}

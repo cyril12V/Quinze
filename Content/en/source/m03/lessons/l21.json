@@ -1,0 +1,216 @@
+{
+  "lessonId": "en.l21",
+  "exercises": [
+    {
+      "id": "en.l21.e01",
+      "unitIds": ["en.g16.present_simple_questions", "en.v.breakfast"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le bon mot pour poser la question.",
+      "prompt": "___ your sister eat breakfast at home?",
+      "promptLanguage": "en",
+      "options": ["Does", "Do", "Is"],
+      "answer": "Does",
+      "acceptedAnswers": ["Does"],
+      "hint": "Your sister = she.",
+      "explanation": "Your sister se remplace par she. Au présent simple, une question avec he, she, it commence par Does. Le verbe eat reste ensuite à la forme de base.",
+      "tip": "Do avec I, you, we, they. Does avec he, she, it.",
+      "extraExample": {"text": "Does your brother eat breakfast?", "translation": "Est-ce que ton frère prend un petit-déjeuner ?"},
+      "errorPatterns": [
+        {"equals": "Do", "category": "conjugation", "feedback": "Your sister = she : on commence la question par Does. Do est pour I, you, we, they."},
+        {"equals": "Is", "category": "grammar", "feedback": "Is s'emploie avec to be (Is she tired ?). Avec un verbe d'action comme eat, on pose la question avec Do ou Does."}
+      ]
+    },
+    {
+      "id": "en.l21.e02",
+      "unitIds": ["en.g16.present_simple_questions", "en.v.night"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la question correcte.",
+      "prompt": "Comment dit-on « Est-ce que ton frère travaille la nuit ? »",
+      "promptLanguage": "fr",
+      "options": ["Does your brother work at night?", "Does your brother works at night?", "Do your brother work at night?", "Is your brother work at night?"],
+      "answer": "Does your brother work at night?",
+      "acceptedAnswers": ["Does your brother work at night?"],
+      "hint": "Does + sujet + verbe de base.",
+      "explanation": "Ton frère = he, donc la question commence par Does. Après Does, le verbe reste à sa forme de base : work, sans -s. On dit at night pour « la nuit ».",
+      "tip": "Does + sujet + verbe de base : le -s est déjà dans Does.",
+      "extraExample": {"text": "Does your mother work in the morning?", "translation": "Est-ce que ta mère travaille le matin ?"},
+      "errorPatterns": [
+        {"equals": "Does your brother works at night?", "category": "conjugation", "feedback": "Après Does, le verbe reste à sa forme de base : le -s est déjà dans Does. On dit Does he work."},
+        {"equals": "Do your brother work at night?", "category": "conjugation", "feedback": "Your brother = he : on commence par Does, pas par Do."},
+        {"equals": "Is your brother work at night?", "category": "grammar", "feedback": "Is s'emploie avec to be. Avec le verbe work, on pose la question avec Does."}
+      ]
+    },
+    {
+      "id": "en.l21.e03",
+      "unitIds": ["en.g16.present_simple_questions", "en.v.breakfast", "en.v.lunch", "en.v.morning", "en.v.evening", "en.v.night"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les repas et les moments de la journée",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "breakfast", "right": "le petit-déjeuner"},
+        {"left": "lunch", "right": "le déjeuner"},
+        {"left": "in the morning", "right": "le matin"},
+        {"left": "in the evening", "right": "le soir"},
+        {"left": "at night", "right": "la nuit"}
+      ],
+      "answer": "breakfast = le petit-déjeuner ; lunch = le déjeuner ; in the morning = le matin ; in the evening = le soir ; at night = la nuit",
+      "acceptedAnswers": [],
+      "explanation": "Breakfast et lunch s'emploient sans article quand on parle des repas en général. Pour les moments de la journée, on dit in the morning, in the evening mais at night.",
+      "tip": "In the morning, in the evening, mais at night.",
+      "extraExample": {"text": "Do you eat lunch at school?", "translation": "Est-ce que tu déjeunes à l'école ?"}
+    },
+    {
+      "id": "en.l21.e04",
+      "unitIds": ["en.g16.present_simple_questions", "en.v.evening"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le verbe cook.",
+      "prompt": "Does your mother ___ dinner in the evening?",
+      "promptLanguage": "en",
+      "options": ["cook", "cooks", "to cook"],
+      "answer": "cook",
+      "acceptedAnswers": ["cook"],
+      "hint": "Où est déjà le -s dans cette question ?",
+      "explanation": "Après Does, le verbe reste à sa forme de base : cook. Le -s de la 3e personne est déjà dans Does, on ne le met pas deux fois.",
+      "tip": "Does porte le -s, le verbe reste tout simple.",
+      "extraExample": {"text": "Does Tom play with his dog in the evening?", "translation": "Est-ce que Tom joue avec son chien le soir ?"},
+      "errorPatterns": [
+        {"equals": "cooks", "category": "conjugation", "feedback": "Après Does, le verbe reste à sa forme de base : le -s est déjà dans Does. On dit Does she cook."},
+        {"equals": "to cook", "category": "grammar", "feedback": "Après Do ou Does, on met directement le verbe de base, sans to."}
+      ]
+    },
+    {
+      "id": "en.l21.e05",
+      "unitIds": ["en.g16.present_simple_questions", "en.v.lunch"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la réponse courte.",
+      "prompt": "Do you eat lunch at school? No, I ___.",
+      "promptLanguage": "en",
+      "options": ["don't", "doesn't", "am not"],
+      "answer": "don't",
+      "acceptedAnswers": ["don't"],
+      "hint": "On reprend l'auxiliaire de la question.",
+      "explanation": "Pour répondre à une question avec Do, on reprend do ou don't dans la réponse courte : No, I don't. On ne répète pas le verbe eat.",
+      "tip": "Question avec Do → réponse avec do / don't.",
+      "extraExample": {"text": "Does Tom drink milk? No, he doesn't.", "translation": "Est-ce que Tom boit du lait ? Non."},
+      "errorPatterns": [
+        {"equals": "doesn't", "category": "conjugation", "feedback": "Avec I, on reprend don't. Doesn't est pour he, she, it."},
+        {"equals": "am not", "category": "grammar", "feedback": "On répond avec le même auxiliaire que la question : question en Do → réponse en do / don't, pas avec be."}
+      ]
+    },
+    {
+      "id": "en.l21.e06",
+      "unitIds": ["en.g16.present_simple_questions", "en.v.morning"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Est-ce qu'elle boit du café le matin ?",
+      "promptLanguage": "fr",
+      "tokens": ["coffee", "Does", "morning", "she", "in", "drink", "the"],
+      "answer": "Does she drink coffee in the morning",
+      "acceptedAnswers": ["Does she drink coffee in the morning"],
+      "hint": "La question commence par Does.",
+      "explanation": "L'ordre d'une question au présent simple est Does + sujet + verbe de base + le reste. Drink reste sans -s car Does porte déjà le -s.",
+      "tip": "Does + sujet + verbe de base : toujours dans cet ordre.",
+      "extraExample": {"text": "Does he eat breakfast in the morning?", "translation": "Est-ce qu'il prend un petit-déjeuner le matin ?"}
+    },
+    {
+      "id": "en.l21.e07",
+      "unitIds": ["en.g16.present_simple_questions", "en.v.breakfast"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Est-ce que tu manges le petit-déjeuner à la maison ?",
+      "promptLanguage": "fr",
+      "answer": "Do you eat breakfast at home?",
+      "acceptedAnswers": [
+        "Do you eat breakfast at home?",
+        "Do you have breakfast at home?",
+        "Do you eat your breakfast at home?",
+        "Do you have your breakfast at home?",
+        "Are you eating breakfast at home?",
+        "Are you having breakfast at home?"
+      ],
+      "hint": "Pas de « est-ce que » en anglais : on commence par Do.",
+      "explanation": "Avec you, la question commence par Do. Le verbe reste à sa forme de base. Breakfast s'emploie sans article : Do you eat breakfast ?",
+      "tip": "« Est-ce que tu… ? » se traduit par Do you… ?",
+      "extraExample": {"text": "Do you eat lunch at home?", "translation": "Est-ce que tu déjeunes à la maison ?"},
+      "errorPatterns": [
+        {"equals": "you eat breakfast at home", "category": "grammar", "feedback": "Pour poser une question au présent simple, il faut commencer par Do : Do you eat breakfast ?"},
+        {"contains": "are you eat breakfast", "category": "grammar", "feedback": "Are s'emploie avec to be ou avec un verbe en -ing. Avec eat, on commence par Do : Do you eat…"},
+        {"contains": "do you eats", "category": "conjugation", "feedback": "Après Do, le verbe reste à sa forme de base : Do you eat."}
+      ]
+    },
+    {
+      "id": "en.l21.e08",
+      "unitIds": ["en.g16.present_simple_questions", "en.v.lunch"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Est-ce que ta sœur déjeune à l'école ?",
+      "promptLanguage": "fr",
+      "answer": "Does your sister eat lunch at school?",
+      "acceptedAnswers": [
+        "Does your sister eat lunch at school?",
+        "Does your sister have lunch at school?",
+        "Does your sister eat her lunch at school?",
+        "Does your sister have her lunch at school?",
+        "Is your sister eating lunch at school?",
+        "Is your sister having lunch at school?"
+      ],
+      "hint": "Ta sœur = she.",
+      "explanation": "Ta sœur (your sister) = she, donc la question commence par Does. Le verbe eat reste à sa forme de base. On peut aussi dire have lunch.",
+      "tip": "Ta sœur, ton frère, Anna : Does + verbe de base.",
+      "extraExample": {"text": "Does your brother eat lunch at the office?", "translation": "Est-ce que ton frère déjeune au bureau ?"},
+      "errorPatterns": [
+        {"contains": "do your sister", "category": "conjugation", "feedback": "Your sister = she : la question commence par Does, pas par Do."},
+        {"contains": "does your sister eats", "category": "conjugation", "feedback": "Après Does, le verbe reste à sa forme de base : le -s est déjà dans Does."}
+      ]
+    },
+    {
+      "id": "en.l21.e09",
+      "unitIds": ["en.g16.present_simple_questions"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Réponds « oui » avec une réponse courte (Yes, …).",
+      "prompt": "Do you watch TV in the evening?",
+      "promptLanguage": "en",
+      "answer": "Yes, I do.",
+      "acceptedAnswers": ["Yes, I do."],
+      "hint": "On reprend l'auxiliaire de la question.",
+      "explanation": "Pour une réponse courte, on reprend l'auxiliaire de la question : la question commence par Do, on répond Yes, I do. On ne répète pas le verbe watch.",
+      "tip": "Question en Do → Yes, I do. / No, I don't.",
+      "extraExample": {"text": "Does she cook? Yes, she does.", "translation": "Est-ce qu'elle cuisine ? Oui."},
+      "errorPatterns": [
+        {"equals": "yes i am", "category": "grammar", "feedback": "La question commence par Do, donc on répond avec do : Yes, I do."},
+        {"equals": "yes i watch", "category": "instruction", "feedback": "La consigne demande une réponse courte : on reprend do au lieu du verbe. Yes, I do."},
+        {"equals": "yes i does", "category": "conjugation", "feedback": "Avec I, on utilise do : Yes, I do. Does est pour he, she, it."}
+      ]
+    },
+    {
+      "id": "en.l21.e10",
+      "unitIds": ["en.g16.present_simple_questions", "en.v.breakfast", "en.v.lunch", "en.v.morning", "en.v.evening", "en.v.night"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris une question avec Do ou Does pour interroger quelqu'un sur sa routine. Utilise breakfast, lunch, morning, evening ou night.",
+      "prompt": "Pose une question à un ami ou à un membre de ta famille.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["do", "does"], ["breakfast", "lunch", "morning", "evening", "night"]], "minWords": 4},
+      "answer": "Do you eat breakfast in the morning?",
+      "acceptedAnswers": ["Do you eat breakfast in the morning?", "Does your mother cook dinner in the evening?", "Do your parents eat lunch at home?", "Does Tom work at night?"],
+      "hint": "Do avec you, we, they. Does avec he, she, it. Puis le verbe de base.",
+      "explanation": "Une question au présent simple commence par Do ou Does, suivi du sujet et du verbe de base. Le verbe ne prend jamais de -s après Does.",
+      "tip": "Relis : Does + sujet + verbe sans -s.",
+      "extraExample": {"text": "Do your friends eat lunch at school?", "translation": "Est-ce que tes amis déjeunent à l'école ?"},
+      "errorPatterns": [
+        {"contains": "does they", "category": "conjugation", "feedback": "Avec they, la question commence par Do : Do they…"},
+        {"contains": "do she", "category": "conjugation", "feedback": "Avec she, la question commence par Does : Does she…"}
+      ]
+    }
+  ]
+}

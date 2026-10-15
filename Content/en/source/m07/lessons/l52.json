@@ -1,0 +1,203 @@
+{
+  "lessonId": "en.l52",
+  "exercises": [
+    {
+      "id": "en.l52.e01",
+      "unitIds": ["en.g37.comparatives_superlatives", "en.v.tall"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Tom est plus grand qu'Anna. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["Tom is taller than Anna.", "Tom is more tall than Anna.", "Tom is taller that Anna.", "Tom is tallest than Anna."],
+      "answer": "Tom is taller than Anna.",
+      "acceptedAnswers": ["Tom is taller than Anna."],
+      "hint": "Tall est un adjectif court : on ajoute -er. Et « que » se dit than.",
+      "explanation": "Avec un adjectif court comme tall, on ajoute -er : taller. Pour comparer, on utilise than (« que »). Tom is taller than Anna.",
+      "tip": "Adjectif court + -er + than : taller than.",
+      "extraExample": {"text": "My father is older than my mother.", "translation": "Mon père est plus âgé que ma mère."},
+      "errorPatterns": [
+        {"equals": "tom is more tall than anna", "category": "grammar", "feedback": "Tall est un adjectif court : on ajoute -er (taller), on n'utilise pas more."},
+        {"equals": "tom is taller that anna", "category": "spelling", "feedback": "« Que » dans une comparaison se dit than, pas that."},
+        {"equals": "tom is tallest than anna", "category": "grammar", "feedback": "Tallest veut dire « le plus grand ». Pour comparer deux personnes avec than, on dit taller."}
+      ]
+    },
+    {
+      "id": "en.l52.e02",
+      "unitIds": ["en.g37.comparatives_superlatives", "en.v.fast", "en.v.slow", "en.v.tall", "en.v.short", "en.v.easy"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque comparatif à sa traduction.",
+      "prompt": "Les comparatifs : faster, slower, taller, shorter, easier",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "faster", "right": "plus rapide"},
+        {"left": "slower", "right": "plus lent"},
+        {"left": "taller", "right": "plus grand (taille)"},
+        {"left": "shorter", "right": "plus court, plus petit (taille)"},
+        {"left": "easier", "right": "plus facile"}
+      ],
+      "answer": "faster = plus rapide ; slower = plus lent ; taller = plus grand (taille) ; shorter = plus court, plus petit (taille) ; easier = plus facile",
+      "acceptedAnswers": [],
+      "explanation": "Pour fast, slow, tall et short, on ajoute simplement -er. Pour easy, le y devient i : easier.",
+      "tip": "Mot court + -er. Mot en -y : y devient i (easy, easier)."
+    },
+    {
+      "id": "en.l52.e03",
+      "unitIds": ["en.g37.comparatives_superlatives", "en.v.easy"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « le plus facile » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["the easiest", "the most easy", "the easyest", "the easier"],
+      "answer": "the easiest",
+      "acceptedAnswers": ["the easiest"],
+      "hint": "Quand l'adjectif finit par -y, le y devient i.",
+      "explanation": "Easy est un adjectif court qui finit par -y : le y devient i, puis on ajoute -est. Le superlatif se forme avec the : the easiest.",
+      "tip": "Easy, easier, the easiest : le y devient i.",
+      "extraExample": {"text": "This is the easiest book.", "translation": "C'est le livre le plus facile."},
+      "errorPatterns": [
+        {"equals": "the most easy", "category": "grammar", "feedback": "Easy est un adjectif court : on ne met pas most. Le y devient i, et on ajoute -est : the easiest."},
+        {"equals": "the easyest", "category": "spelling", "feedback": "Le y de easy devient i : easiest."},
+        {"equals": "the easier", "category": "grammar", "feedback": "Easier est le comparatif (plus facile). Pour « le plus facile », on dit the easiest."}
+      ]
+    },
+    {
+      "id": "en.l52.e04",
+      "unitIds": ["en.g37.comparatives_superlatives", "en.v.fast"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme de fast.",
+      "prompt": "My new car is ___ than my old car. (plus rapide)",
+      "promptLanguage": "en",
+      "options": ["faster", "more fast", "fastest"],
+      "answer": "faster",
+      "acceptedAnswers": ["faster"],
+      "hint": "Fast est un adjectif court.",
+      "explanation": "Avec un adjectif court, on ajoute -er pour comparer : fast, faster. Than introduit le deuxième terme de la comparaison.",
+      "tip": "Une seule syllabe ? On ajoute -er.",
+      "extraExample": {"text": "Anna is faster than Tom.", "translation": "Anna est plus rapide que Tom."},
+      "errorPatterns": [
+        {"equals": "more fast", "category": "grammar", "feedback": "Fast est un adjectif court : on ajoute -er, on n'utilise pas more. On dit faster."},
+        {"equals": "fastest", "category": "grammar", "feedback": "Fastest veut dire « le plus rapide ». Avec than, on utilise le comparatif : faster."}
+      ]
+    },
+    {
+      "id": "en.l52.e05",
+      "unitIds": ["en.g37.comparatives_superlatives", "en.v.tall"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme de tall.",
+      "prompt": "Tom is the ___ in the family. (le plus grand)",
+      "promptLanguage": "en",
+      "options": ["tallest", "taller", "most tall"],
+      "answer": "tallest",
+      "acceptedAnswers": ["tallest"],
+      "hint": "Après the, on utilise le superlatif.",
+      "explanation": "Pour dire « le plus grand », on utilise the + -est : the tallest. Taller sert à comparer deux personnes avec than.",
+      "tip": "the + adjectif court + -est : the tallest, the oldest.",
+      "extraExample": {"text": "Anna is the oldest in the family.", "translation": "Anna est la plus âgée de la famille."},
+      "errorPatterns": [
+        {"equals": "taller", "category": "grammar", "feedback": "Taller veut dire « plus grand » et s'utilise avec than. Après the, il faut le superlatif : the tallest."},
+        {"equals": "most tall", "category": "grammar", "feedback": "Tall est un adjectif court : on ajoute -est (tallest), on n'utilise pas most."}
+      ]
+    },
+    {
+      "id": "en.l52.e06",
+      "unitIds": ["en.g37.comparatives_superlatives", "en.v.beautiful"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "C'est la plus belle ville du pays.",
+      "promptLanguage": "fr",
+      "tokens": ["city", "the", "country", "It", "beautiful", "in", "most", "is", "the"],
+      "answer": "It is the most beautiful city in the country",
+      "acceptedAnswers": ["It is the most beautiful city in the country"],
+      "hint": "Beautiful est un mot long : on utilise the most devant.",
+      "explanation": "Beautiful est un adjectif long, donc on utilise the most : the most beautiful. Pour dire « du pays », on dit in the country, avec in.",
+      "tip": "Mot long : the most + adjectif. Et on dit in the country, pas of.",
+      "extraExample": {"text": "It is the most expensive hotel in the city.", "translation": "C'est l'hôtel le plus cher de la ville."}
+    },
+    {
+      "id": "en.l52.e07",
+      "unitIds": ["en.g37.comparatives_superlatives", "en.v.slow"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mon frère est plus lent que moi.",
+      "promptLanguage": "fr",
+      "answer": "My brother is slower than me.",
+      "acceptedAnswers": ["My brother is slower than me.", "My brother is slower than I am.", "My brother is slower than I."],
+      "hint": "Slow est un adjectif court. « Que » se dit than.",
+      "explanation": "Slow est un adjectif court : on ajoute -er, ce qui donne slower. On compare avec than : slower than me.",
+      "tip": "Plus lent que : slower than. Pas de more devant un adjectif court.",
+      "extraExample": {"text": "My sister is shorter than my brother.", "translation": "Ma sœur est plus petite que mon frère."},
+      "errorPatterns": [
+        {"contains": "more slow", "category": "grammar", "feedback": "Slow est un adjectif court : on ajoute -er (slower), on n'utilise pas more."},
+        {"contains": "slower that", "category": "spelling", "feedback": "« Que » dans une comparaison se dit than, pas that."},
+        {"contains": "slower of", "category": "grammar", "feedback": "Après un comparatif, on utilise than : slower than me."}
+      ]
+    },
+    {
+      "id": "en.l52.e08",
+      "unitIds": ["en.g37.comparatives_superlatives", "en.v.big"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "L'appartement est plus grand et plus cher que la maison.",
+      "promptLanguage": "fr",
+      "answer": "The apartment is bigger and more expensive than the house.",
+      "acceptedAnswers": ["The apartment is bigger and more expensive than the house.", "The apartment is larger and more expensive than the house.", "The flat is bigger and more expensive than the house.", "The flat is larger and more expensive than the house."],
+      "hint": "Big est court (double le g). Expensive est long : more.",
+      "explanation": "Big est un adjectif court qui finit par une consonne après une voyelle : on double le g, bigger. Expensive est long : more expensive. Than se place à la fin.",
+      "tip": "Big devient bigger (g doublé). Mot long : more + adjectif.",
+      "extraExample": {"text": "The hotel is smaller and cheaper than the apartment.", "translation": "L'hôtel est plus petit et moins cher que l'appartement."},
+      "errorPatterns": [
+        {"contains": "more big", "category": "grammar", "feedback": "Big est un adjectif court : on double le g et on ajoute -er. On dit bigger."},
+        {"contains": "biger", "category": "spelling", "feedback": "Avec big, on double le g avant -er : bigger."},
+        {"contains": "bigger that", "category": "spelling", "feedback": "« Que » dans une comparaison se dit than, pas that."}
+      ]
+    },
+    {
+      "id": "en.l52.e09",
+      "unitIds": ["en.g37.comparatives_superlatives"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Anna est la meilleure étudiante.",
+      "promptLanguage": "fr",
+      "answer": "Anna is the best student.",
+      "acceptedAnswers": ["Anna is the best student."],
+      "hint": "Good est irrégulier : good, better, ...",
+      "explanation": "Good est irrégulier : son superlatif est the best. On ne dit pas the most good ni the goodest.",
+      "tip": "good, better, the best : à apprendre par cœur.",
+      "extraExample": {"text": "Tom is the best cook.", "translation": "Tom est le meilleur cuisinier."},
+      "errorPatterns": [
+        {"contains": "most good", "category": "grammar", "feedback": "Good est irrégulier : « le meilleur » se dit the best."},
+        {"contains": "goodest", "category": "grammar", "feedback": "Good est irrégulier : « le meilleur » se dit the best."},
+        {"contains": "the better", "category": "grammar", "feedback": "Better veut dire « meilleur que » et s'utilise avec than. Pour « la meilleure », on dit the best."}
+      ]
+    },
+    {
+      "id": "en.l52.e10",
+      "unitIds": ["en.g37.comparatives_superlatives"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Le temps est pire aujourd'hui qu'hier.",
+      "promptLanguage": "fr",
+      "answer": "The weather is worse today than yesterday.",
+      "acceptedAnswers": ["The weather is worse today than yesterday.", "The weather is worse today than it was yesterday.", "Today the weather is worse than yesterday.", "Today the weather is worse than it was yesterday."],
+      "hint": "Bad est irrégulier : bad, worse, ...",
+      "explanation": "Bad est irrégulier : son comparatif est worse. On compare avec than : worse today than yesterday.",
+      "tip": "bad, worse, the worst : on ne dit pas more bad.",
+      "extraExample": {"text": "The weather is worse in winter than in summer.", "translation": "Le temps est pire en hiver qu'en été."},
+      "errorPatterns": [
+        {"contains": "more bad", "category": "grammar", "feedback": "Bad est irrégulier : « pire » se dit worse."},
+        {"contains": "badder", "category": "grammar", "feedback": "Bad est irrégulier : « pire » se dit worse."},
+        {"contains": "worse that", "category": "spelling", "feedback": "« Que » dans une comparaison se dit than, pas that."}
+      ]
+    }
+  ]
+}

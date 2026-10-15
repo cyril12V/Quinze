@@ -1,0 +1,142 @@
+[
+  {
+    "id": "en.g01.subject_pronouns",
+    "rule": {
+      "summary": "Les pronoms sujets (I, you, he, she, it, we, they) remplacent la personne ou la chose dont on parle, au début de la phrase.",
+      "explanation": "L'anglais a sept pronoms sujets : I (je), you (tu ou vous), he (il, pour un homme ou un garçon), she (elle, pour une femme ou une fille), it (il ou elle pour une chose ou un animal), we (nous), they (ils ou elles). I s'écrit toujours avec une majuscule, même au milieu d'une phrase. You sert à la fois pour « tu » et pour « vous », pour une ou plusieurs personnes. En anglais, les choses n'ont pas de genre : le livre ou la table, c'est toujours it. They remplace « ils » comme « elles ».",
+      "pattern": "Pronom sujet + verbe : I am…, she is…, they are…",
+      "examples": [
+        {"text": "Hello! I am Emma.", "translation": "Bonjour ! Je suis Emma."},
+        {"text": "Thank you! — You are welcome.", "translation": "Merci ! — De rien."},
+        {"text": "The hotel? It is in Paris.", "translation": "L'hôtel ? Il est à Paris."},
+        {"text": "Lucy and Anna? They are in London.", "translation": "Lucy et Anna ? Elles sont à Londres."}
+      ],
+      "commonErrors": [
+        {"wrong": "Hello! i am Tom.", "right": "Hello! I am Tom.", "why": "I (je) s'écrit toujours avec une majuscule."},
+        {"wrong": "The hotel? He is in Paris.", "right": "The hotel? It is in Paris.", "why": "Une chose n'a pas de genre en anglais : on utilise it, même si le mot est masculin ou féminin en français."},
+        {"wrong": "Anna and Lucy? She is in London.", "right": "Anna and Lucy? They are in London.", "why": "Pour plusieurs personnes, même toutes féminines, on utilise they."}
+      ],
+      "tip": "Un homme → he, une femme → she, une chose ou un animal → it, plusieurs → they."
+    }
+  },
+  {
+    "id": "en.g02.articles",
+    "rule": {
+      "summary": "A et an veulent dire « un / une » ; the veut dire « le, la, l', les ».",
+      "explanation": "A ou an se met devant un nom singulier quand on parle d'une personne ou d'une chose parmi d'autres : a man (un homme). On choisit selon le son qui suit, pas selon la lettre : an devant un son de voyelle (an idea, an hour, car le h de hour ne se prononce pas), a devant un son de consonne (a man, a university, car on prononce « you-niversity »). The sert pour une personne ou une chose précise, au singulier comme au pluriel, et ne change jamais : the man, the woman, the children. Pour parler de quelque chose en général, on ne met pas d'article : Life is beautiful (la vie est belle). Devant un métier, l'anglais garde a ou an : She is a teacher (elle est professeure).",
+      "pattern": "a + son de consonne · an + son de voyelle · the + nom précis",
+      "examples": [
+        {"text": "a man and a woman", "translation": "un homme et une femme"},
+        {"text": "an idea, an hour", "translation": "une idée, une heure"},
+        {"text": "the woman and the child", "translation": "la femme et l'enfant"},
+        {"text": "a university", "translation": "une université"}
+      ],
+      "commonErrors": [
+        {"wrong": "an university", "right": "a university", "why": "University commence par le son « you » : c'est un son de consonne, donc a."},
+        {"wrong": "a hour", "right": "an hour", "why": "Le h de hour ne se prononce pas : le mot commence par un son de voyelle, donc an."},
+        {"wrong": "The life is beautiful.", "right": "Life is beautiful.", "why": "Pour parler d'une chose en général, l'anglais ne met pas the."}
+      ],
+      "tip": "Écoute le premier son du mot, pas sa première lettre : an hour, mais a university."
+    }
+  },
+  {
+    "id": "en.g03.be_affirmative",
+    "rule": {
+      "summary": "Le verbe to be (être) au présent : I am, you are, he / she / it is, we are, they are.",
+      "explanation": "To be veut dire « être ». Au présent, il a trois formes : am avec I ; is avec he, she, it ou un nom singulier (Anna is…) ; are avec you, we, they ou un sujet pluriel (Tom and Anna are…). À l'oral et dans les messages, on contracte souvent : I'm, you're, he's, she's, it's, we're, they're. Devant un métier, on garde a ou an : He is a teacher. Attention : l'anglais utilise be là où le français dit parfois « avoir » : I am 20 (j'ai 20 ans), I am hungry (j'ai faim).",
+      "pattern": "I am · he / she / it is · you / we / they are + adjectif ou nom",
+      "examples": [
+        {"text": "I am tired.", "translation": "Je suis fatigué."},
+        {"text": "She is a teacher.", "translation": "Elle est professeure."},
+        {"text": "We are ready.", "translation": "Nous sommes prêts."},
+        {"text": "Tom and Anna are happy.", "translation": "Tom et Anna sont heureux."}
+      ],
+      "commonErrors": [
+        {"wrong": "She are happy.", "right": "She is happy.", "why": "Avec he, she ou it, la forme de be est is."},
+        {"wrong": "He is teacher.", "right": "He is a teacher.", "why": "Devant un métier au singulier, l'anglais garde l'article a ou an."},
+        {"wrong": "I am agree.", "right": "I agree.", "why": "Agree est déjà un verbe (« être d'accord ») : on n'ajoute pas am. Am se met devant un adjectif ou un nom : I am happy."}
+      ],
+      "tip": "I → am ; he, she, it → is ; tout le reste → are."
+    }
+  },
+  {
+    "id": "en.g04.be_negative_questions",
+    "rule": {
+      "summary": "Négation : on ajoute not après am, is, are. Question : on place am, is ou are avant le sujet.",
+      "explanation": "Pour dire non, on met not juste après le verbe : I am not tired. On contracte souvent : I'm not, isn't (is not), aren't (are not) ; am not ne se contracte jamais en « amn't ». Pour poser une question, on inverse le sujet et le verbe : You are ready → Are you ready? Il n'y a pas d'équivalent de « est-ce que » : l'inversion suffit. On répond souvent en version courte : Yes, I am. / No, I'm not. Dans une réponse courte positive, on ne contracte pas : Yes, I am (et non Yes, I'm).",
+      "pattern": "Sujet + am / is / are + not · Am / Is / Are + sujet + … ?",
+      "examples": [
+        {"text": "I am not late.", "translation": "Je ne suis pas en retard."},
+        {"text": "She isn't busy.", "translation": "Elle n'est pas occupée."},
+        {"text": "Are you hungry? — Yes, I am.", "translation": "Tu as faim ? — Oui."},
+        {"text": "Is Tom right? — No, he isn't.", "translation": "Est-ce que Tom a raison ? — Non."}
+      ],
+      "commonErrors": [
+        {"wrong": "I not am busy.", "right": "I am not busy.", "why": "Not se place après am, is ou are."},
+        {"wrong": "You are ready?", "right": "Are you ready?", "why": "Dans une question, are passe avant le sujet."},
+        {"wrong": "I amn't late.", "right": "I'm not late.", "why": "Am not ne se contracte pas en amn't : on dit I'm not."}
+      ],
+      "tip": "Négation : not juste après le verbe. Question : le verbe passe devant le sujet."
+    }
+  },
+  {
+    "id": "en.g05.have_has",
+    "rule": {
+      "summary": "To have (avoir) : have avec I, you, we, they ; has avec he, she, it.",
+      "explanation": "Have sert à dire ce qu'on possède : I have a car (j'ai une voiture). Avec he, she, it ou un nom singulier (Anna, the dog…), on utilise has : She has a dog. En anglais britannique, on dit aussi souvent have got / has got, avec le même sens : I've got a phone. Attention : pour l'âge, la faim, le froid ou « avoir raison », l'anglais utilise be et non have : I am 20 (j'ai 20 ans), I am hungry (j'ai faim), You are right (tu as raison).",
+      "pattern": "I / you / we / they + have · he / she / it + has",
+      "examples": [
+        {"text": "I have a phone.", "translation": "J'ai un téléphone."},
+        {"text": "Anna has a dog.", "translation": "Anna a un chien."},
+        {"text": "We have a house in London.", "translation": "Nous avons une maison à Londres."},
+        {"text": "She is 20.", "translation": "Elle a 20 ans."}
+      ],
+      "commonErrors": [
+        {"wrong": "She have a car.", "right": "She has a car.", "why": "Avec he, she ou it, have devient has."},
+        {"wrong": "I have 20 years.", "right": "I am 20.", "why": "En anglais, l'âge se dit avec be : I am 20 (ou I am 20 years old)."},
+        {"wrong": "I have hungry.", "right": "I am hungry.", "why": "Hungry est un adjectif (« affamé ») : on l'utilise avec be, pas avec have."}
+      ],
+      "tip": "He, she, it → has. Pour l'âge, la faim ou le froid → be, jamais have."
+    }
+  },
+  {
+    "id": "en.g06.possessive_adjectives",
+    "rule": {
+      "summary": "Les adjectifs possessifs (my, your, his, her, its, our, their) se placent devant le nom pour dire à qui il appartient.",
+      "explanation": "My = mon, ma, mes ; your = ton, ta, tes, votre, vos ; his = son, sa, ses (à lui) ; her = son, sa, ses (à elle) ; its = son, sa, ses (à une chose ou un animal) ; our = notre, nos ; their = leur, leurs. Le possessif ne change jamais : même mot devant un nom masculin, féminin, singulier ou pluriel (my son, my daughter, my parents). Le piège : his ou her dépend du possesseur, pas du nom qui suit. La femme de Tom → his wife ; le mari d'Anna → her husband. Its s'écrit sans apostrophe : it's veut dire it is.",
+      "pattern": "my / your / his / her / its / our / their + nom",
+      "examples": [
+        {"text": "My son is a student.", "translation": "Mon fils est étudiant."},
+        {"text": "Tom and his wife are in Paris.", "translation": "Tom et sa femme sont à Paris."},
+        {"text": "Anna and her husband have a dog.", "translation": "Anna et son mari ont un chien."},
+        {"text": "Our parents are at home.", "translation": "Nos parents sont à la maison."}
+      ],
+      "commonErrors": [
+        {"wrong": "Anna and his husband", "right": "Anna and her husband", "why": "Le mari est celui d'Anna, une femme : on dit her, même si husband est masculin."},
+        {"wrong": "The hotel is in London. It's name is The Rose.", "right": "The hotel is in London. Its name is The Rose.", "why": "Its (son, sa) s'écrit sans apostrophe ; it's veut dire it is."},
+        {"wrong": "mys parents", "right": "my parents", "why": "Le possessif ne prend jamais de -s, même devant un nom pluriel."}
+      ],
+      "tip": "Pour choisir entre his et her, demande-toi « à qui ? » : à un homme → his, à une femme → her."
+    }
+  },
+  {
+    "id": "en.g07.plural_nouns",
+    "rule": {
+      "summary": "Pour mettre un nom au pluriel, on ajoute en général -s ; quelques noms très courants sont irréguliers.",
+      "explanation": "La plupart des noms prennent -s : a book → books, a key → keys. Après s, ss, sh, ch ou x, on ajoute -es : a bus → buses, a box → boxes. Après une consonne + y, le y devient -ies : a family → families (mais key → keys, car il y a une voyelle avant le y). Quelques noms très fréquents sont irréguliers : man → men, woman → women, child → children, person → people. People est déjà un pluriel : People are… Enfin, l'adjectif ne prend jamais de -s : happy children.",
+      "pattern": "nom + -s / -es / -ies · irréguliers : men, women, children, people",
+      "examples": [
+        {"text": "two books and three bags", "translation": "deux livres et trois sacs"},
+        {"text": "The children are at school.", "translation": "Les enfants sont à l'école."},
+        {"text": "The women are ready.", "translation": "Les femmes sont prêtes."},
+        {"text": "In London, people are busy.", "translation": "À Londres, les gens sont occupés."}
+      ],
+      "commonErrors": [
+        {"wrong": "two childrens", "right": "two children", "why": "Children est déjà le pluriel de child : on n'ajoute pas de -s."},
+        {"wrong": "The people is happy.", "right": "The people are happy.", "why": "People est un pluriel (les gens) : le verbe est are."},
+        {"wrong": "a books", "right": "books", "why": "A et an ne s'utilisent qu'avec un nom singulier."}
+      ],
+      "tip": "Retiens les quatre pluriels irréguliers du quotidien : men, women, children, people."
+    }
+  }
+]

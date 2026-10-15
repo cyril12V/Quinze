@@ -1,0 +1,207 @@
+{
+  "lessonId": "en.l58",
+  "exercises": [
+    {
+      "id": "en.l58.e01",
+      "unitIds": ["en.g40.short_answers", "en.v.i_dont_know"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la réponse qui convient.",
+      "prompt": "Where is Tom? — ___",
+      "promptLanguage": "en",
+      "options": ["I don't know.", "Never mind.", "Good luck.", "See you later."],
+      "answer": "I don't know.",
+      "acceptedAnswers": ["I don't know."],
+      "hint": "Tu n'as pas l'information.",
+      "explanation": "Quand on ne connaît pas la réponse, on dit I don't know. Les trois autres expressions ne répondent pas à la question « Où est Tom ? ».",
+      "tip": "Tu n'as pas l'information ? Réponds simplement I don't know.",
+      "extraExample": {"text": "What time is it? — I don't know.", "translation": "Quelle heure est-il ? — Je ne sais pas."},
+      "errorPatterns": [
+        {"equals": "never mind", "category": "vocabulary", "feedback": "Never mind veut dire « ce n'est pas grave ». Pour « je ne sais pas », on dit I don't know."},
+        {"equals": "good luck", "category": "vocabulary", "feedback": "Good luck veut dire « bonne chance ». Pour « je ne sais pas », on dit I don't know."},
+        {"equals": "see you later", "category": "vocabulary", "feedback": "See you later veut dire « à plus tard ». Pour « je ne sais pas », on dit I don't know."}
+      ]
+    },
+    {
+      "id": "en.l58.e02",
+      "unitIds": ["en.g40.short_answers", "en.v.never_mind"],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la réponse qui convient.",
+      "prompt": "Sorry, I forgot your book. — ___",
+      "promptLanguage": "en",
+      "options": ["Never mind.", "Good luck.", "Me neither.", "Nice to meet you."],
+      "answer": "Never mind.",
+      "acceptedAnswers": ["Never mind."],
+      "hint": "Tu veux dire que ce n'est pas important.",
+      "explanation": "Quelqu'un s'excuse d'un petit oubli : on peut répondre Never mind, c'est-à-dire « ce n'est pas grave ».",
+      "tip": "Never mind = ce n'est pas grave, laisse tomber.",
+      "extraExample": {"text": "I'm late, sorry! — Never mind.", "translation": "Je suis en retard, désolé ! — Ce n'est pas grave."},
+      "errorPatterns": [
+        {"equals": "good luck", "category": "vocabulary", "feedback": "Good luck se dit avant un examen ou une épreuve. Pour dire « ce n'est pas grave », on dit never mind."},
+        {"equals": "me neither", "category": "vocabulary", "feedback": "Me neither veut dire « moi non plus » et répond à une phrase négative. Ici : never mind."},
+        {"equals": "nice to meet you", "category": "vocabulary", "feedback": "Nice to meet you se dit à une première rencontre. Pour « ce n'est pas grave », on dit never mind."}
+      ]
+    },
+    {
+      "id": "en.l58.e03",
+      "unitIds": ["en.g40.short_answers", "en.v.i_understand", "en.v.i_dont_know", "en.v.never_mind", "en.v.see_you_later", "en.v.good_luck"],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les expressions du quotidien",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "I understand.", "right": "Je comprends."},
+        {"left": "I don't know.", "right": "Je ne sais pas."},
+        {"left": "Never mind.", "right": "Ce n'est pas grave."},
+        {"left": "See you later.", "right": "À plus tard."},
+        {"left": "Good luck!", "right": "Bonne chance !"}
+      ],
+      "answer": "I understand. = Je comprends. ; I don't know. = Je ne sais pas. ; Never mind. = Ce n'est pas grave. ; See you later. = À plus tard. ; Good luck! = Bonne chance !",
+      "acceptedAnswers": [],
+      "explanation": "Ces expressions sont des réponses très courtes qu'on utilise tout le temps à l'oral. On les apprend en bloc, sans les traduire mot à mot.",
+      "tip": "Apprends ces expressions comme des blocs : elles servent à réagir vite.",
+      "extraExample": {"text": "See you later, Tom. Good luck!", "translation": "À plus tard, Tom. Bonne chance !"}
+    },
+    {
+      "id": "en.l58.e04",
+      "unitIds": ["en.g40.short_answers", "en.v.good_luck"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète l'expression.",
+      "prompt": "You have an exam today? Good ___!",
+      "promptLanguage": "en",
+      "options": ["luck", "lucky", "lucks", "good"],
+      "answer": "luck",
+      "acceptedAnswers": ["luck"],
+      "hint": "« Bonne chance » : good + un nom.",
+      "explanation": "On dit good luck, avec le nom luck. Lucky est un adjectif (chanceux) et ne convient pas ici.",
+      "tip": "Good luck : un adjectif (good) + un nom (luck).",
+      "extraExample": {"text": "Good luck with your new job!", "translation": "Bonne chance pour ton nouveau travail !"},
+      "errorPatterns": [
+        {"equals": "lucky", "category": "word_confusion", "feedback": "Lucky veut dire « chanceux ». Pour souhaiter bonne chance, on dit good luck."},
+        {"equals": "lucks", "category": "grammar", "feedback": "Luck est un nom qu'on n'accorde pas ici : good luck, sans -s."},
+        {"equals": "good", "category": "grammar", "feedback": "Good est déjà dans la phrase. Il manque le nom : good luck."}
+      ]
+    },
+    {
+      "id": "en.l58.e05",
+      "unitIds": ["en.g40.short_answers", "en.v.i_understand"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète la réponse courte.",
+      "prompt": "Do you understand the rule? — Yes, I ___.",
+      "promptLanguage": "en",
+      "options": ["do", "am", "can", "have"],
+      "answer": "do",
+      "acceptedAnswers": ["do"],
+      "hint": "La question commence par Do.",
+      "explanation": "La question commence par Do : la réponse courte reprend do. On dit Yes, I do.",
+      "tip": "On répète l'auxiliaire de la question : Do you…? → Yes, I do.",
+      "extraExample": {"text": "Do you speak French? — Yes, I do.", "translation": "Parles-tu français ? — Oui."},
+      "errorPatterns": [
+        {"equals": "am", "category": "grammar", "feedback": "Am répond à une question avec be (Are you…?). Ici, la question commence par Do : Yes, I do."},
+        {"equals": "can", "category": "grammar", "feedback": "Can répond à une question avec can. La question commence par Do : Yes, I do."},
+        {"equals": "have", "category": "grammar", "feedback": "Have répond à une question avec have. La question commence par Do : Yes, I do."}
+      ]
+    },
+    {
+      "id": "en.l58.e06",
+      "unitIds": ["en.g40.short_answers", "en.v.i_understand"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Désolé, je ne comprends pas la question.",
+      "promptLanguage": "fr",
+      "answer": "Sorry, I don't understand the question.",
+      "acceptedAnswers": ["Sorry, I don't understand the question.", "I'm sorry, I don't understand the question.", "I don't understand the question, sorry.", "I don't understand the question. Sorry.", "I don't understand the question, I'm sorry."],
+      "hint": "Understand est un verbe : la négation se fait avec don't.",
+      "explanation": "Pour nier un verbe au présent simple, on utilise I don't + verbe de base : I don't understand. Le verbe understand ne s'emploie pas avec be.",
+      "tip": "Je ne comprends pas = I don't understand (jamais I am not understand).",
+      "extraExample": {"text": "I don't understand this word.", "translation": "Je ne comprends pas ce mot."},
+      "errorPatterns": [
+        {"contains": "i'm not understand", "category": "grammar", "feedback": "Understand est un verbe : on ne l'emploie pas avec be. Dis I don't understand."},
+        {"contains": "i not understand", "category": "grammar", "feedback": "La négation se fait avec don't : I don't understand."},
+        {"contains": "don't understands", "category": "conjugation", "feedback": "Après don't, le verbe reste à la forme de base : I don't understand, sans -s."}
+      ]
+    },
+    {
+      "id": "en.l58.e07",
+      "unitIds": ["en.g40.short_answers"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "J'aime le café, et mon frère aussi.",
+      "promptLanguage": "fr",
+      "tokens": ["coffee", "I", "my", "and", "brother", "does", "like", "too"],
+      "answer": "I like coffee and my brother does too",
+      "acceptedAnswers": ["I like coffee and my brother does too"],
+      "hint": "« Aussi » se dit too, à la fin, après l'auxiliaire.",
+      "explanation": "Pour dire « et lui aussi », on reprend l'auxiliaire du premier verbe sans répéter le verbe : my brother does too (does, car brother = he). Too se place à la fin.",
+      "tip": "Même auxiliaire + too à la fin : I do too, she does too, we are too.",
+      "extraExample": {"text": "I work in London and my sister does too.", "translation": "Je travaille à Londres et ma sœur aussi."}
+    },
+    {
+      "id": "en.l58.e08",
+      "unitIds": ["en.g40.short_answers", "en.v.see_you_later", "en.v.good_luck"],
+      "type": "translation",
+      "difficulty": 4,
+      "instruction": "Traduis en anglais.",
+      "prompt": "À plus tard, Anna. Bonne chance pour ton nouveau travail !",
+      "promptLanguage": "fr",
+      "answer": "See you later, Anna. Good luck with your new job!",
+      "acceptedAnswers": ["See you later, Anna. Good luck with your new job!", "See you later, Anna. Good luck in your new job!", "See you later, Anna. Good luck for your new job!", "See you later, Anna. Good luck at your new job!", "Good luck with your new job, Anna. See you later!", "Anna, see you later. Good luck with your new job!"],
+      "hint": "Deux expressions toutes faites : see you later et good luck.",
+      "explanation": "« À plus tard » se dit see you later et « bonne chance » se dit good luck. Pour « bonne chance pour ton travail », on dit good luck with your job.",
+      "tip": "Good luck with + ce qu'on souhaite réussir.",
+      "extraExample": {"text": "Good luck with your exam!", "translation": "Bonne chance pour ton examen !"},
+      "errorPatterns": [
+        {"contains": "good lucky", "category": "word_confusion", "feedback": "Lucky veut dire « chanceux ». Pour souhaiter bonne chance, on dit good luck."},
+        {"contains": "good chance", "category": "word_confusion", "feedback": "Good chance veut dire « une bonne probabilité ». Pour « bonne chance », on dit good luck."},
+        {"contains": "see you after", "category": "vocabulary", "feedback": "« À plus tard » se dit see you later."}
+      ]
+    },
+    {
+      "id": "en.l58.e09",
+      "unitIds": ["en.v.i_understand", "en.g40.short_answers"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris la réponse en anglais.",
+      "prompt": "Comment dit-on : « J'ai compris » ?",
+      "promptLanguage": "fr",
+      "answer": "I understand.",
+      "acceptedAnswers": ["I understand.", "I've understood.", "I understood.", "I get it.", "I got it.", "Got it.", "I've got it.", "I see.", "Understood.", "I understand now.", "Now I understand.", "Okay, I understand.", "OK, I understand.", "Now I get it.", "Now I see.", "Oh, I see.", "Ah, I see.", "Oh, I get it.", "OK, got it.", "Okay, got it.", "Okay, I get it.", "OK, I see.", "I have understood now.", "I do understand."],
+      "hint": "En anglais, on pense au résultat : tu comprends maintenant.",
+      "explanation": "En français, on dit « j'ai compris » au passé, mais l'anglais dit très souvent I understand, au présent : ce qui compte, c'est que tu comprends maintenant. I see, I get it et Got it sont aussi très courants à l'oral.",
+      "tip": "« J'ai compris » = I understand (présent), pas I have understand.",
+      "extraExample": {"text": "Ah, I see. Thank you for explaining.", "translation": "Ah, j'ai compris. Merci pour l'explication."},
+      "errorPatterns": [
+        {"contains": "have understand", "category": "conjugation", "feedback": "Avec have, il faut le participe passé (understood), pas la forme de base. Le plus naturel est simplement I understand."},
+        {"contains": "understanded", "category": "conjugation", "feedback": "Understand est irrégulier : understand – understood – understood. Le plus naturel ici est I understand."},
+        {"contains": "i am understand", "category": "grammar", "feedback": "Understand est un verbe : on ne l'emploie pas avec be. Dis I understand."}
+      ]
+    },
+    {
+      "id": "en.l58.e10",
+      "unitIds": ["en.g40.short_answers", "en.v.never_mind"],
+      "type": "free_answer",
+      "difficulty": 5,
+      "instruction": "Réponds en anglais : une réaction courte, puis never mind.",
+      "prompt": "Tom dit : « I don't know the answer. » Réponds-lui que toi non plus, puis ajoute never mind.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["me neither", "neither do i", "don't either", "do not either", "me either"], ["never mind"]], "minWords": 3},
+      "answer": "Me neither. Never mind.",
+      "acceptedAnswers": ["Me neither. Never mind.", "Me neither, never mind.", "I don't either. Never mind.", "Neither do I. Never mind.", "Never mind, me neither."],
+      "hint": "Tom dit une phrase négative : pense à either ou neither.",
+      "explanation": "Tom dit une phrase négative : pour « moi non plus », on dit Me neither (ou I don't either, Neither do I). Never mind veut dire « ce n'est pas grave ».",
+      "tip": "Phrase négative → Me neither ; Me too est réservé aux phrases affirmatives.",
+      "extraExample": {"text": "I can't find my keys. — Me neither. Never mind.", "translation": "Je ne trouve pas mes clés. — Moi non plus. Ce n'est pas grave."},
+      "errorPatterns": [
+        {"contains": "me too", "category": "grammar", "feedback": "Me too veut dire « moi aussi » et répond à une phrase affirmative. Tom dit une phrase négative : Me neither."},
+        {"contains": "don't neither", "category": "grammar", "feedback": "Ne mets pas deux négations. Dis I don't either ou Me neither."},
+        {"contains": "me not", "category": "grammar", "feedback": "On ne dit pas Me not. « Moi non plus » se dit Me neither."}
+      ]
+    }
+  ]
+}

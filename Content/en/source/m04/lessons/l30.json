@@ -1,0 +1,205 @@
+{
+  "lessonId": "en.l30",
+  "exercises": [
+    {
+      "id": "en.l30.e01",
+      "unitIds": ["en.g22.irregular_verbs"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le passé du verbe.",
+      "prompt": "What is the past tense of go?",
+      "promptLanguage": "en",
+      "options": ["Goed", "Went", "Gone"],
+      "answer": "Went",
+      "acceptedAnswers": ["Went"],
+      "hint": "Go est un verbe irrégulier : il ne prend pas -ed.",
+      "explanation": "Go est un verbe irrégulier : son passé ne se forme pas avec -ed, il a une forme à lui, went. Gone existe aussi, mais c'est le participe passé, utilisé dans d'autres temps que tu verras plus tard.",
+      "tip": "Go → went : apprends-le dans une mini-phrase, I went home.",
+      "extraExample": {"text": "She went to bed at ten.", "translation": "Elle est allée se coucher à dix heures."},
+      "errorPatterns": [
+        {"equals": "goed", "category": "conjugation", "feedback": "Goed n'existe pas : go est irrégulier, on ne lui ajoute pas -ed. Son passé est went."},
+        {"equals": "gone", "category": "conjugation", "feedback": "Gone est le participe passé de go, pas le passé simple. Pour raconter hier, on dit went."}
+      ]
+    },
+    {
+      "id": "en.l30.e02",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.see"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Last week, I ___ Tom at the gym.",
+      "promptLanguage": "en",
+      "options": ["saw", "seen", "see"],
+      "answer": "saw",
+      "acceptedAnswers": ["saw"],
+      "hint": "Last week : le passé simple de see.",
+      "explanation": "See est un verbe irrégulier : son passé est saw (/sɔː/). Seen est le participe passé, utilisé dans d'autres temps, et see est la forme de base du présent.",
+      "tip": "See → saw : « I saw Tom » = j'ai vu Tom.",
+      "extraExample": {"text": "We saw Anna at school yesterday.", "translation": "Nous avons vu Anna à l'école hier."},
+      "errorPatterns": [
+        {"equals": "seen", "category": "conjugation", "feedback": "Seen est le participe passé de see. Pour raconter au passé simple, on dit saw."},
+        {"equals": "see", "category": "verb_tense", "feedback": "See est la forme de base, pour le présent. Avec last week, on utilise le passé : saw."}
+      ]
+    },
+    {
+      "id": "en.l30.e03",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.see", "en.v.say", "en.v.tell", "en.v.find", "en.v.put"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque verbe au passé à sa traduction.",
+      "prompt": "Cinq verbes irréguliers au passé",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "saw", "right": "a vu"},
+        {"left": "said", "right": "a dit"},
+        {"left": "told", "right": "a raconté / a dit à quelqu'un"},
+        {"left": "found", "right": "a trouvé"},
+        {"left": "put", "right": "a mis"}
+      ],
+      "answer": "saw = a vu ; said = a dit ; told = a raconté / a dit à quelqu'un ; found = a trouvé ; put = a mis",
+      "acceptedAnswers": [],
+      "explanation": "Ces verbes sont irréguliers : leur passé ne se termine pas par -ed, il faut l'apprendre par cœur. Put ne change pas (put → put). Said se prononce /sed/, comme « sèd ».",
+      "tip": "Un verbe irrégulier, une forme à apprendre : retiens-la dans une mini-phrase.",
+      "extraExample": {"text": "She put the key in the door.", "translation": "Elle a mis la clé dans la porte."}
+    },
+    {
+      "id": "en.l30.e04",
+      "unitIds": ["en.g22.irregular_verbs"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le passé de go.",
+      "prompt": "Yesterday, I ___ to school.",
+      "promptLanguage": "en",
+      "options": ["went", "go", "goed", "gone"],
+      "answer": "went",
+      "acceptedAnswers": ["went"],
+      "hint": "Yesterday = hier : cherche le passé irrégulier de go.",
+      "explanation": "Yesterday place l'action dans le passé : on utilise le passé de go, qui est went. Went est la même forme pour tous les sujets : I went, she went, they went.",
+      "tip": "Yesterday + go ? Non : yesterday + went.",
+      "extraExample": {"text": "Anna went to the gym two days ago.", "translation": "Anna est allée à la salle de sport il y a deux jours."},
+      "errorPatterns": [
+        {"equals": "go", "category": "verb_tense", "feedback": "Go est le présent. Yesterday parle du passé : I went."},
+        {"equals": "goed", "category": "conjugation", "feedback": "Go est irrégulier : on n'ajoute pas -ed. Son passé est went."},
+        {"equals": "gone", "category": "conjugation", "feedback": "Gone est le participe passé. Pour le passé simple, on dit went."}
+      ]
+    },
+    {
+      "id": "en.l30.e05",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.put"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le passé du verbe entre parenthèses.",
+      "prompt": "Yesterday, she ___ her keys in her bag. (put)",
+      "promptLanguage": "en",
+      "options": ["put", "putted", "puts"],
+      "answer": "put",
+      "acceptedAnswers": ["put"],
+      "hint": "Ce verbe irrégulier est très particulier : regarde bien les options.",
+      "explanation": "Put est un verbe irrégulier un peu spécial : il a la même forme au présent et au passé (put → put). Ici, yesterday montre que l'action est passée. Il n'y a pas de -s avec she au passé.",
+      "tip": "Put → put : la forme ne change pas, c'est yesterday qui indique le passé.",
+      "extraExample": {"text": "Tom put his phone in his bag last night.", "translation": "Tom a mis son téléphone dans son sac hier soir."},
+      "errorPatterns": [
+        {"equals": "putted", "category": "conjugation", "feedback": "Put est irrégulier : on n'ajoute pas -ed. Son passé est put, sans changement."},
+        {"equals": "puts", "category": "verb_tense", "feedback": "Le -s est réservé au présent. Au passé, même avec she, on dit put."}
+      ]
+    },
+    {
+      "id": "en.l30.e06",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.take"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Tom a pris son sac et il est rentré à la maison.",
+      "promptLanguage": "fr",
+      "tokens": ["home", "Tom", "bag", "and", "his", "went", "took"],
+      "answer": "Tom took his bag and went home",
+      "acceptedAnswers": ["Tom took his bag and went home"],
+      "hint": "Deux verbes irréguliers reliés par and : took, puis went.",
+      "explanation": "Took est le passé irrégulier de take, et went est celui de go. Quand deux actions se suivent, on garde chaque verbe au passé et on les relie par and. Home se place directement après went, sans to.",
+      "tip": "Go home : pas de to devant home (went home).",
+      "extraExample": {"text": "Anna took her phone and came home.", "translation": "Anna a pris son téléphone et elle est rentrée."}
+    },
+    {
+      "id": "en.l30.e07",
+      "unitIds": ["en.g22.irregular_verbs"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je suis allé au travail.",
+      "promptLanguage": "fr",
+      "answer": "I went to work",
+      "acceptedAnswers": ["I went to work"],
+      "hint": "Le passé composé français devient le passé simple anglais : quel est le passé de go ?",
+      "explanation": "« Je suis allé » se traduit par I went : on utilise le passé simple de go, sans verbe être comme en français. Après went, on met to + le lieu : went to work.",
+      "tip": "Pas d'auxiliaire : « je suis allé » = I went.",
+      "extraExample": {"text": "She went to work by car.", "translation": "Elle est allée au travail en voiture."},
+      "errorPatterns": [
+        {"contains": "goed", "category": "conjugation", "feedback": "Go est irrégulier : son passé est went, sans -ed."},
+        {"contains": "gone", "category": "conjugation", "feedback": "Gone est le participe passé. Pour « je suis allé », on dit I went."},
+        {"contains": "was go", "category": "grammar", "feedback": "On n'ajoute pas was devant go : went exprime déjà le passé."},
+        {"equals": "i go to work", "category": "verb_tense", "feedback": "I go est le présent. Pour « je suis allé », on utilise le passé : I went."}
+      ]
+    },
+    {
+      "id": "en.l30.e08",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.find"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mon père a trouvé mes clés hier.",
+      "promptLanguage": "fr",
+      "answer": "My father found my keys yesterday",
+      "acceptedAnswers": ["My father found my keys yesterday", "Yesterday my father found my keys", "My dad found my keys yesterday", "Yesterday my dad found my keys"],
+      "hint": "Find est irrégulier. Son passé se prononce /faʊnd/.",
+      "explanation": "Find est un verbe irrégulier : son passé est found (/faʊnd/), sans -ed. Cette forme est la même pour tous les sujets.",
+      "tip": "Find → found : trouvé. Attention, founded vient d'un autre verbe (fonder).",
+      "extraExample": {"text": "Anna found her bag in the car.", "translation": "Anna a trouvé son sac dans la voiture."},
+      "errorPatterns": [
+        {"contains": "finded", "category": "conjugation", "feedback": "Find est irrégulier : on n'ajoute pas -ed. Son passé est found."},
+        {"contains": "founded", "category": "word_confusion", "feedback": "Founded est le passé de found (fonder). Le passé de find (trouver) est simplement found."},
+        {"contains": "father find", "category": "verb_tense", "feedback": "Find est le présent. Hier, l'action est terminée : found."}
+      ]
+    },
+    {
+      "id": "en.l30.e09",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.tell", "en.v.say"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Il m'a dit son nom » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "He told me his name",
+      "acceptedAnswers": ["He told me his name", "He said his name to me"],
+      "hint": "Pour « dire à quelqu'un », on utilise un verbe qui se construit directement avec la personne.",
+      "explanation": "Tell veut dire « dire à quelqu'un » et se construit directement avec la personne : told me. Son passé est irrégulier (told, pas telled). Say se construit avec to : said his name to me, jamais said me.",
+      "tip": "Tell + personne (told me) ; say + chose (said hello).",
+      "extraExample": {"text": "Anna told Tom her name.", "translation": "Anna a dit son nom à Tom."},
+      "errorPatterns": [
+        {"contains": "said me", "category": "word_confusion", "feedback": "Après said, on ne met pas directement la personne. Dis told me, ou said … to me."},
+        {"contains": "telled", "category": "conjugation", "feedback": "Tell est irrégulier : on n'ajoute pas -ed. Son passé est told."},
+        {"contains": "he tell me", "category": "verb_tense", "feedback": "Tell est le présent. Pour une action finie, on dit told."}
+      ]
+    },
+    {
+      "id": "en.l30.e10",
+      "unitIds": ["en.g22.irregular_verbs"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris une phrase en anglais.",
+      "prompt": "Écris une phrase au passé avec go.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["went"]], "minWords": 3},
+      "hint": "Utilise le passé irrégulier de go et un repère de temps comme yesterday ou last week.",
+      "answer": "I went to school yesterday",
+      "acceptedAnswers": ["I went to school yesterday", "Yesterday I went to the gym", "We went home late last night", "She went to work two days ago"],
+      "explanation": "Au passé, go devient went, pour toutes les personnes. Avec un repère de temps (yesterday, last week, two days ago), ta phrase est claire et naturelle.",
+      "tip": "Went + un repère de temps : c'est un passé réussi.",
+      "extraExample": {"text": "They went to London last week.", "translation": "Ils sont allés à Londres la semaine dernière."},
+      "errorPatterns": [
+        {"contains": "goed", "category": "conjugation", "feedback": "Go est irrégulier : son passé est went, sans -ed."},
+        {"contains": "gone", "category": "conjugation", "feedback": "Gone est le participe passé. Pour le passé simple, on utilise went."},
+        {"contains": "was go", "category": "grammar", "feedback": "On n'ajoute pas was devant go : went exprime déjà le passé."}
+      ]
+    }
+  ]
+}

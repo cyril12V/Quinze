@@ -1,0 +1,105 @@
+[
+  {
+    "id": "en.assess.m05.01",
+    "unitIds": ["en.g24.will_future"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Anna ne viendra pas à la fête demain.",
+    "promptLanguage": "fr",
+    "answer": "Anna won't come to the party tomorrow",
+    "acceptedAnswers": ["Anna won't come to the party tomorrow", "Anna will not come to the party tomorrow", "Tomorrow Anna won't come to the party", "Anna won't be at the party tomorrow", "Anna will not be at the party tomorrow", "Anna isn't going to come to the party tomorrow", "Anna is not going to come to the party tomorrow", "Anna isn't coming to the party tomorrow", "Anna is not coming to the party tomorrow"],
+    "hint": "Pour dire qu'elle ne viendra pas, utilise la forme négative de will.",
+    "explanation": "Pour dire que quelque chose n'arrivera pas, on utilise won't (will not) + verbe de base : Anna won't come. Après won't, le verbe ne prend ni -s ni to.",
+    "tip": "Won't + verbe de base : l'apostrophe est obligatoire.",
+    "extraExample": {"text": "Tom won't forget your birthday.", "translation": "Tom n'oubliera pas ton anniversaire."},
+    "errorPatterns": [
+      {"contains": "wont", "category": "spelling", "feedback": "N'oublie pas l'apostrophe : won't (will not)."},
+      {"contains": "does not come", "category": "verb_tense", "feedback": "Doesn't est un présent simple. Pour dire ce qui n'arrivera pas demain, on utilise won't : Anna won't come."},
+      {"contains": "will not to", "category": "grammar", "feedback": "Après won't (will not), on ne met pas to : Anna won't come."}
+    ]
+  },
+  {
+    "id": "en.assess.m05.02",
+    "unitIds": ["en.g25.going_to"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Mes parents vont acheter une voiture.",
+    "promptLanguage": "fr",
+    "answer": "My parents are going to buy a car",
+    "acceptedAnswers": ["My parents are going to buy a car", "My parents will buy a car"],
+    "hint": "My parents se remplace par they : quelle forme de be ?",
+    "explanation": "Pour un projet, on utilise be + going to + verbe de base : are going to buy. Avec my parents (they), be devient are, et buy reste à la forme de base.",
+    "tip": "They are going to + verbe de base : seul be s'accorde.",
+    "extraExample": {"text": "My sister is going to buy a house.", "translation": "Ma sœur va acheter une maison."},
+    "errorPatterns": [
+      {"contains": "parents is", "category": "conjugation", "feedback": "Parents est au pluriel : on dit my parents are."},
+      {"contains": "parents going to", "category": "grammar", "feedback": "Il manque are devant going to : My parents are going to buy a car."},
+      {"contains": "going to bought", "category": "verb_tense", "feedback": "Après going to, le verbe reste à la forme de base, jamais au passé : going to buy."}
+    ]
+  },
+  {
+    "id": "en.assess.m05.03",
+    "unitIds": ["en.g26.will_vs_going_to", "en.g25.going_to"],
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Complète avec will ou be going to, à la bonne forme.",
+    "context": "There is a cake on the table. The dog is looking at it.",
+    "prompt": "Oh no! The dog ___ eat the cake!",
+    "promptLanguage": "en",
+    "answer": "is going to",
+    "acceptedAnswers": ["is going to", "'s going to"],
+    "hint": "Tu vois quelque chose en ce moment, et cela te montre ce qui va arriver.",
+    "explanation": "Tu vois le chien regarder le gâteau : un signe visible annonce ce qui va arriver. Pour une prédiction fondée sur ce qu'on voit, on utilise be going to : The dog is going to eat the cake.",
+    "tip": "Un signe visible maintenant : be going to.",
+    "extraExample": {"text": "Look at those dark clouds! It's going to rain.", "translation": "Regarde ces nuages sombres ! Il va pleuvoir."},
+    "errorPatterns": [
+      {"equals": "will", "category": "grammar", "feedback": "Tu vois le chien regarder le gâteau : c'est un signe visible. Pour une prédiction avec un signe, on utilise be going to."},
+      {"equals": "is going", "category": "grammar", "feedback": "Il manque to après going : is going to eat."},
+      {"equals": "going to", "category": "grammar", "feedback": "Il manque is devant going to : The dog is going to eat the cake."}
+    ]
+  },
+  {
+    "id": "en.assess.m05.04",
+    "unitIds": ["en.g27.present_continuous_future", "en.v.doctor"],
+    "type": "free_answer",
+    "difficulty": 3,
+    "instruction": "Écris en anglais.",
+    "prompt": "Comment dit-on « Mon frère voit le médecin la semaine prochaine. » ?",
+    "promptLanguage": "fr",
+    "answer": "My brother is seeing the doctor next week",
+    "acceptedAnswers": ["My brother is seeing the doctor next week", "Next week my brother is seeing the doctor", "My brother is meeting the doctor next week", "My brother is going to see the doctor next week", "My brother will see the doctor next week", "My brother is going to the doctor next week", "My brother is going to the doctor's next week", "My brother has an appointment with the doctor next week"],
+    "hint": "Un rendez-vous fixé se dit avec be + un verbe en -ing. Avec my brother (he), be devient is.",
+    "explanation": "Pour un rendez-vous déjà fixé, on utilise le présent continu avec un moment du futur : My brother is seeing the doctor next week. Next week se dit sans the ni préposition.",
+    "tip": "Rendez-vous fixé : be + -ing + next week / tomorrow.",
+    "extraExample": {"text": "Anna is meeting the dentist at ten.", "translation": "Anna retrouve le dentiste à dix heures."},
+    "errorPatterns": [
+      {"contains": "brother sees", "category": "verb_tense", "feedback": "Pour un rendez-vous personnel déjà fixé, on utilise le présent continu : My brother is seeing the doctor."},
+      {"contains": "brother seeing", "category": "grammar", "feedback": "Il manque is devant seeing : My brother is seeing the doctor."},
+      {"contains": "the next week", "category": "grammar", "feedback": "Dans « la semaine prochaine », on ne met pas the : next week."}
+    ]
+  },
+  {
+    "id": "en.assess.m05.05",
+    "unitIds": ["en.g24.will_future", "en.v.lend", "en.v.borrow"],
+    "type": "mcq",
+    "difficulty": 3,
+    "instruction": "Choisis la bonne forme.",
+    "context": "Anna doesn't have a car tomorrow. Tom has an idea.",
+    "prompt": "Tom: « No problem. I ___ you mine. »",
+    "promptLanguage": "en",
+    "options": ["will lend", "will borrow", "will to lend", "lend"],
+    "answer": "will lend",
+    "acceptedAnswers": ["will lend"],
+    "hint": "La voiture est à Tom : que fait-il pour Anna ? Il décide à l'instant.",
+    "explanation": "Tom propose sa voiture sur le moment : une proposition se dit avec will. Il donne la voiture pour un temps : il la lend (prête). Borrow serait pour celui qui la prend.",
+    "tip": "Proposition sur le moment : will + verbe de base. Je donne pour un temps : lend.",
+    "extraExample": {"text": "Don't worry, I'll lend you my bag.", "translation": "Ne t'inquiète pas, je te prêterai mon sac."},
+    "errorPatterns": [
+      {"equals": "will borrow", "category": "word_confusion", "feedback": "Borrow veut dire « emprunter ». C'est Tom qui possède la voiture : il la prête, donc lend."},
+      {"equals": "will to lend", "category": "grammar", "feedback": "Après will, on ne met pas to : will lend."},
+      {"equals": "lend", "category": "verb_tense", "feedback": "Le présent simple ne convient pas pour une proposition sur le futur : on dit will lend."}
+    ]
+  }
+]

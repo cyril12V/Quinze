@@ -1,0 +1,207 @@
+{
+  "lessonId": "en.l55",
+  "exercises": [
+    {
+      "id": "en.l55.e01",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.film", "en.v.ever"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne question.",
+      "prompt": "Comment demander « As-tu déjà vu ce film ? » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["Have you ever seen this film?", "Have you ever saw this film?", "Did you ever seen this film?", "Have you ever see this film?"],
+      "answer": "Have you ever seen this film?",
+      "acceptedAnswers": ["Have you ever seen this film?"],
+      "hint": "Pour demander une expérience de vie, on utilise have + participe passé.",
+      "explanation": "Pour demander si quelqu'un a déjà vécu quelque chose, on dit Have you ever + participe passé. Le participe passé de see est seen : saw est le past simple.",
+      "tip": "Have you ever + participe passé : « As-tu déjà… ? »",
+      "extraExample": {"text": "Have you ever eaten fish for breakfast?", "translation": "As-tu déjà mangé du poisson au petit déjeuner ?"},
+      "errorPatterns": [
+        {"equals": "have you ever saw this film", "category": "conjugation", "feedback": "Saw est le past simple. Après have, il faut le participe passé : seen."},
+        {"equals": "did you ever seen this film", "category": "grammar", "feedback": "Did se construit avec la forme de base, pas avec seen. Pour une expérience de vie, on dit Have you ever seen… ?"},
+        {"equals": "have you ever see this film", "category": "conjugation", "feedback": "Après have, le verbe ne reste pas à la forme de base : il faut le participe passé seen."}
+      ]
+    },
+    {
+      "id": "en.l55.e02",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.try"],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque participe passé à sa traduction.",
+      "prompt": "Les participes passés à utiliser après have / has",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "seen", "right": "vu"},
+        {"left": "eaten", "right": "mangé"},
+        {"left": "done", "right": "fait"},
+        {"left": "tried", "right": "essayé / goûté"},
+        {"left": "gone", "right": "parti"}
+      ],
+      "answer": "seen = vu ; eaten = mangé ; done = fait ; tried = essayé / goûté ; gone = parti",
+      "acceptedAnswers": [],
+      "explanation": "Ces cinq mots sont des participes passés : on les utilise après have / has. Seen, eaten, done et gone sont irréguliers (à apprendre) ; tried est régulier (try devient tried).",
+      "tip": "Avec have / has, on utilise le participe passé : have seen, has eaten, have done.",
+      "extraExample": {"text": "I have done my homework.", "translation": "J'ai fait mes devoirs."}
+    },
+    {
+      "id": "en.l55.e03",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.abroad"],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le mot qui convient.",
+      "prompt": "Where is Tom? — He has ___ abroad. He is in Spain now.",
+      "promptLanguage": "en",
+      "options": ["gone", "been", "went", "go"],
+      "answer": "gone",
+      "acceptedAnswers": ["gone"],
+      "hint": "Tom est parti et il n'est pas encore revenu.",
+      "explanation": "Tom est parti à l'étranger et il y est encore : on dit has gone. Been signifie qu'on y est allé et qu'on en est revenu.",
+      "tip": "Gone = parti (et toujours là-bas) ; been = allé et revenu.",
+      "extraExample": {"text": "My parents have gone to London.", "translation": "Mes parents sont partis à Londres."},
+      "errorPatterns": [
+        {"equals": "been", "category": "word_confusion", "feedback": "Has been abroad voudrait dire qu'il est revenu. Tom est encore en Espagne : on dit has gone."},
+        {"equals": "went", "category": "conjugation", "feedback": "Went est le past simple. Après has, il faut le participe passé : gone."},
+        {"equals": "go", "category": "conjugation", "feedback": "Après has, le verbe ne reste pas à la forme de base : il faut le participe passé gone."}
+      ]
+    },
+    {
+      "id": "en.l55.e04",
+      "unitIds": ["en.g39.present_perfect_intro"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le participe passé du verbe entre parenthèses.",
+      "prompt": "She has never ___ fish. (eat)",
+      "promptLanguage": "en",
+      "options": ["eaten", "ate", "eat", "eated"],
+      "answer": "eaten",
+      "acceptedAnswers": ["eaten"],
+      "hint": "Eat est irrégulier : eat – ate – eaten.",
+      "explanation": "Après has never, on utilise le participe passé. Celui de eat est eaten : eat – ate – eaten.",
+      "tip": "Eat, eaten : comme seen, taken, given, le participe passé finit souvent en -en.",
+      "extraExample": {"text": "Tom has never eaten meat.", "translation": "Tom n'a jamais mangé de viande."},
+      "errorPatterns": [
+        {"equals": "ate", "category": "conjugation", "feedback": "Ate est le past simple. Après has, il faut le participe passé : eaten."},
+        {"equals": "eat", "category": "conjugation", "feedback": "Après has, le verbe ne reste pas à la forme de base : il faut le participe passé eaten."},
+        {"equals": "eated", "category": "spelling", "feedback": "Eat est irrégulier : on n'ajoute pas -ed. Le participe passé est eaten."}
+      ]
+    },
+    {
+      "id": "en.l55.e05",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.museum"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète la phrase.",
+      "prompt": "I'm home! I have ___ to the museum with Anna.",
+      "promptLanguage": "en",
+      "options": ["been", "gone", "went", "go"],
+      "answer": "been",
+      "acceptedAnswers": ["been"],
+      "hint": "Je suis rentré à la maison : je suis allé au musée et je suis revenu.",
+      "explanation": "Je suis déjà à la maison : je suis allé au musée et j'en suis revenu. On dit donc have been to. Gone voudrait dire que je suis encore là-bas.",
+      "tip": "Been to = je suis allé là-bas et je suis de retour.",
+      "extraExample": {"text": "Have you been to the new shop?", "translation": "Es-tu allé au nouveau magasin ?"},
+      "errorPatterns": [
+        {"equals": "gone", "category": "word_confusion", "feedback": "Have gone voudrait dire que tu es encore au musée. Tu es à la maison : on dit have been."},
+        {"equals": "went", "category": "conjugation", "feedback": "Went est le past simple. Après have, il faut le participe passé : been."},
+        {"equals": "go", "category": "conjugation", "feedback": "Après have, il faut un participe passé, pas la forme de base."}
+      ]
+    },
+    {
+      "id": "en.l55.e06",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.abroad", "en.v.ever"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Est-ce que Tom a déjà voyagé à l'étranger ?",
+      "promptLanguage": "fr",
+      "answer": "Has Tom ever travelled abroad?",
+      "acceptedAnswers": ["Has Tom ever travelled abroad?", "Has Tom ever traveled abroad?", "Has Tom ever been abroad?", "Has Tom ever gone abroad?", "Has Tom travelled abroad before?", "Has Tom traveled abroad before?", "Has Tom been abroad before?", "Has Tom ever been to another country?", "Has Tom already travelled abroad?", "Has Tom already traveled abroad?", "Has Tom already been abroad?"],
+      "hint": "Pour parler d'une expérience de vie, utilise Has + sujet + ever + participe passé.",
+      "explanation": "On demande une expérience de vie, sans date : present perfect. Avec Tom (il), on utilise has, et ever se place entre Tom et le participe passé : Has Tom ever travelled abroad ?",
+      "tip": "Question d'expérience : Have / Has + sujet + ever + participe passé.",
+      "extraExample": {"text": "Has Anna ever lived abroad?", "translation": "Anna a-t-elle déjà vécu à l'étranger ?"},
+      "errorPatterns": [
+        {"contains": "have tom", "category": "grammar", "feedback": "Avec Tom (il), on utilise has, pas have."},
+        {"contains": "did tom ever", "category": "verb_tense", "feedback": "Pour une expérience de vie jusqu'à maintenant, on utilise Has Tom ever + participe passé. Did Tom ever… parle plutôt d'une période du passé qui est terminée."},
+        {"contains": "travel abroad", "category": "conjugation", "feedback": "Après has, il faut le participe passé : travelled (ou traveled), pas la forme de base."}
+      ]
+    },
+    {
+      "id": "en.l55.e07",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.museum", "en.v.ever"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "As-tu déjà été dans un musée à Londres ?",
+      "promptLanguage": "fr",
+      "tokens": ["museum", "Have", "London", "been", "a", "you", "in", "ever", "to"],
+      "answer": "Have you ever been to a museum in London",
+      "acceptedAnswers": ["Have you ever been to a museum in London"],
+      "hint": "La question commence par Have, puis le sujet, puis ever.",
+      "explanation": "Une question au present perfect s'ouvre sur Have + sujet. Ever se place juste avant le participe passé been, puis to a museum in London.",
+      "tip": "Ordre d'une question d'expérience : Have + sujet + ever + participe passé.",
+      "extraExample": {"text": "Have you ever been to a beach in winter?", "translation": "As-tu déjà été à la plage en hiver ?"}
+    },
+    {
+      "id": "en.l55.e08",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.try"],
+      "type": "translation",
+      "difficulty": 4,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Anna n'a jamais goûté le gâteau de Tom.",
+      "promptLanguage": "fr",
+      "answer": "Anna has never tried Tom's cake.",
+      "acceptedAnswers": ["Anna has never tried Tom's cake.", "Anna has never tasted Tom's cake.", "Anna has never eaten Tom's cake.", "Anna has never tried the cake of Tom.", "Anna hasn't tried Tom's cake."],
+      "hint": "Never se place entre has et le participe passé.",
+      "explanation": "Pour dire « jamais » avec le present perfect, on met never entre has et le participe passé. Le participe passé de try est tried (régulier).",
+      "tip": "Has + never + participe passé : on n'ajoute pas de seconde négation.",
+      "extraExample": {"text": "I have never tried French cheese.", "translation": "Je n'ai jamais goûté de fromage français."},
+      "errorPatterns": [
+        {"contains": "never try tom's", "category": "conjugation", "feedback": "Après has, il faut le participe passé : tried, pas try."},
+        {"contains": "never tryed", "category": "spelling", "feedback": "Try devient tried (le y se change en ied) : tried."},
+        {"contains": "hasn't never", "category": "grammar", "feedback": "En anglais, on ne met pas deux négations. Avec never, la phrase reste affirmative : has never tried."}
+      ]
+    },
+    {
+      "id": "en.l55.e09",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.film"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Je n'ai jamais vu ce film » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I have never seen this film.",
+      "acceptedAnswers": ["I have never seen this film.", "I have never seen that film.", "I have never seen this movie.", "I have never seen that movie.", "I haven't seen this film.", "I haven't seen that film.", "I haven't ever seen this film.", "I have never watched this film.", "I have never watched that film."],
+      "hint": "Never se place entre have et le participe passé.",
+      "explanation": "Pour dire qu'on n'a jamais vécu quelque chose, on utilise have never + participe passé. Le participe passé de see est seen, pas saw.",
+      "tip": "Jamais + expérience = have never + participe passé.",
+      "extraExample": {"text": "She has never seen the sea.", "translation": "Elle n'a jamais vu la mer."},
+      "errorPatterns": [
+        {"contains": "never saw", "category": "conjugation", "feedback": "Saw est le past simple. Pour une expérience de vie, il faut le participe passé : have never seen."},
+        {"contains": "never see this", "category": "conjugation", "feedback": "Après have, il faut le participe passé : seen, pas see."},
+        {"contains": "i have ever seen", "category": "word_confusion", "feedback": "Ever s'emploie dans les questions. Pour dire « jamais » dans une phrase affirmative, on utilise never."}
+      ]
+    },
+    {
+      "id": "en.l55.e10",
+      "unitIds": ["en.g39.present_perfect_intro", "en.v.abroad", "en.v.try"],
+      "type": "free_answer",
+      "difficulty": 5,
+      "instruction": "Écris une phrase en anglais, au present perfect, avec never.",
+      "prompt": "Dis une chose que tu n'as jamais faite (par exemple : un endroit où tu n'es jamais allé, un plat que tu n'as jamais goûté).",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["never"], ["have", "has", "'ve"]], "minWords": 4},
+      "answer": "I have never been abroad.",
+      "acceptedAnswers": ["I have never been abroad.", "I have never tried sushi.", "My brother has never seen a film in English.", "We have never been to a museum in Paris."],
+      "hint": "Forme : sujet + have / has + never + participe passé.",
+      "explanation": "Pour parler d'une chose que tu n'as jamais faite, utilise have / has + never + participe passé. Le participe passé doit être le bon : been, tried, eaten, seen…",
+      "tip": "Never se place entre have / has et le participe passé.",
+      "extraExample": {"text": "Tom has never driven a car.", "translation": "Tom n'a jamais conduit de voiture."},
+      "errorPatterns": [
+        {"contains": "never went", "category": "conjugation", "feedback": "Went est le past simple. Pour le present perfect, il faut le participe passé : never been ou never gone."},
+        {"contains": "have went", "category": "conjugation", "feedback": "Went est le past simple. Après have, il faut le participe passé : gone ou been."},
+        {"contains": "never saw", "category": "conjugation", "feedback": "Saw est le past simple. Après have / has, il faut le participe passé : seen."}
+      ]
+    }
+  ]
+}

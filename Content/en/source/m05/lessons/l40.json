@@ -1,0 +1,207 @@
+{
+  "lessonId": "en.l40",
+  "exercises": [
+    {
+      "id": "en.l40.e01",
+      "unitIds": ["en.g27.present_continuous_future", "en.v.dentist"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "I ___ the dentist tomorrow.",
+      "promptLanguage": "en",
+      "options": ["am seeing", "see", "seeing", "am see"],
+      "answer": "am seeing",
+      "acceptedAnswers": ["am seeing"],
+      "hint": "Le rendez-vous est déjà fixé : be, puis le verbe avec -ing.",
+      "explanation": "Pour un rendez-vous déjà fixé, on utilise le présent continu avec un moment du futur : I am seeing the dentist tomorrow. Le présent simple ne convient pas pour un rendez-vous personnel.",
+      "tip": "Rendez-vous fixé : be + verbe en -ing + tomorrow.",
+      "extraExample": {"text": "Anna is seeing the doctor tonight.", "translation": "Anna voit le médecin ce soir."},
+      "errorPatterns": [
+        {"equals": "see", "category": "verb_tense", "feedback": "Pour un rendez-vous personnel déjà fixé, on n'utilise pas le présent simple : on dit I am seeing."},
+        {"equals": "seeing", "category": "grammar", "feedback": "Il manque be devant seeing : I am seeing the dentist tomorrow."},
+        {"equals": "am see", "category": "grammar", "feedback": "Après am, le verbe prend -ing : I am seeing."}
+      ]
+    },
+    {
+      "id": "en.l40.e02",
+      "unitIds": ["en.g27.present_continuous_future", "en.g24.will_future"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Il pleuvra demain. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["It will rain tomorrow.", "It's raining tomorrow.", "It rains tomorrow.", "It is rain tomorrow."],
+      "answer": "It will rain tomorrow.",
+      "acceptedAnswers": ["It will rain tomorrow."],
+      "hint": "Personne n'a organisé la pluie : c'est une prédiction, pas un rendez-vous.",
+      "explanation": "Le présent continu sert à parler d'un projet organisé. La pluie est une simple prédiction : on utilise will (ou going to) : It will rain tomorrow.",
+      "tip": "Présent continu = rendez-vous ou projet organisé. Prédiction = will ou going to.",
+      "extraExample": {"text": "It will be cold tonight.", "translation": "Il fera froid cette nuit."},
+      "errorPatterns": [
+        {"equals": "it is raining tomorrow", "category": "verb_tense", "feedback": "Le présent continu parle d'un projet organisé. Pour la météo de demain, c'est une prédiction : It will rain tomorrow."},
+        {"equals": "it rains tomorrow", "category": "verb_tense", "feedback": "Le présent simple ne convient pas pour une prédiction. Utilise will : It will rain tomorrow."},
+        {"equals": "it is rain tomorrow", "category": "grammar", "feedback": "Is ne s'emploie pas avec le verbe de base rain. Pour une prédiction, on dit It will rain."}
+      ]
+    },
+    {
+      "id": "en.l40.e03",
+      "unitIds": ["en.g27.present_continuous_future", "en.v.appointment", "en.v.meeting", "en.v.dentist", "en.v.doctor", "en.v.flight"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les mots de l'agenda : an appointment, a meeting, a dentist, a doctor, a flight",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "an appointment", "right": "un rendez-vous (médical, administratif)"},
+        {"left": "a meeting", "right": "une réunion"},
+        {"left": "a dentist", "right": "un dentiste"},
+        {"left": "a doctor", "right": "un médecin"},
+        {"left": "a flight", "right": "un vol"}
+      ],
+      "answer": "an appointment = un rendez-vous (médical, administratif) ; a meeting = une réunion ; a dentist = un dentiste ; a doctor = un médecin ; a flight = un vol",
+      "acceptedAnswers": [],
+      "explanation": "Appointment est un rendez-vous chez un professionnel (médecin, dentiste). Meeting est une réunion, souvent au travail. On dit an appointment avec an, car appointment commence par un son de voyelle.",
+      "tip": "Rendez-vous chez le médecin : appointment. Réunion de travail : meeting.",
+      "extraExample": {"text": "I have an appointment at ten.", "translation": "J'ai un rendez-vous à dix heures."}
+    },
+    {
+      "id": "en.l40.e04",
+      "unitIds": ["en.g27.present_continuous_future", "en.v.meeting"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le verbe « retrouver » (meet) à la bonne forme.",
+      "context": "Anna and her colleagues have a meeting at the office tomorrow.",
+      "prompt": "Anna is ___ her colleagues at the office tomorrow.",
+      "promptLanguage": "en",
+      "options": ["meeting", "meet", "meets", "met"],
+      "answer": "meeting",
+      "acceptedAnswers": ["meeting"],
+      "hint": "Après is, le verbe prend une terminaison particulière.",
+      "explanation": "Le présent continu se forme avec be + verbe en -ing : Anna is meeting. Avec un moment du futur (tomorrow), il parle d'un projet déjà fixé.",
+      "tip": "Be + -ing + moment du futur : le projet est déjà organisé.",
+      "extraExample": {"text": "We're meeting Tom at six.", "translation": "Nous retrouvons Tom à six heures."},
+      "errorPatterns": [
+        {"equals": "meet", "category": "grammar", "feedback": "Après is, le verbe prend -ing : is meeting."},
+        {"equals": "meets", "category": "conjugation", "feedback": "Après is, on n'ajoute pas -s : le verbe prend -ing, is meeting."},
+        {"equals": "met", "category": "verb_tense", "feedback": "Met est le passé. Pour un projet fixé, on utilise be + -ing : is meeting."}
+      ]
+    },
+    {
+      "id": "en.l40.e05",
+      "unitIds": ["en.g27.present_continuous_future", "en.v.appointment", "en.v.dentist"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "Tom ___ working tomorrow. He has an appointment with the dentist.",
+      "promptLanguage": "en",
+      "options": ["isn't", "doesn't", "won't", "not"],
+      "answer": "isn't",
+      "acceptedAnswers": ["isn't", "is not"],
+      "hint": "Le verbe working a une terminaison -ing : quel auxiliaire l'accompagne, avec la négation ?",
+      "explanation": "Le présent continu se nie avec be + not : Tom isn't working tomorrow. On n'emploie ni doesn't ni won't devant un verbe en -ing.",
+      "tip": "Négation du présent continu : isn't / aren't / I'm not + -ing.",
+      "extraExample": {"text": "We aren't having lunch with Tom today.", "translation": "Nous ne déjeunons pas avec Tom aujourd'hui."},
+      "errorPatterns": [
+        {"equals": "does not", "category": "grammar", "feedback": "Doesn't est suivi du verbe de base, pas du -ing. Avec working, il faut be + not : isn't working."},
+        {"equals": "will not", "category": "grammar", "feedback": "Won't est suivi du verbe de base, pas du -ing. Avec working, il faut isn't : Tom isn't working."},
+        {"equals": "not", "category": "grammar", "feedback": "Not seul ne suffit pas : il faut be + not, donc isn't."}
+      ]
+    },
+    {
+      "id": "en.l40.e06",
+      "unitIds": ["en.g27.present_continuous_future", "en.v.doctor"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Tom voit le médecin demain matin.",
+      "promptLanguage": "fr",
+      "tokens": ["doctor", "Tom", "morning", "the", "seeing", "is", "tomorrow"],
+      "answer": "Tom is seeing the doctor tomorrow morning",
+      "acceptedAnswers": ["Tom is seeing the doctor tomorrow morning", "Tomorrow morning Tom is seeing the doctor"],
+      "hint": "Be se place juste après le sujet, suivi du verbe en -ing.",
+      "explanation": "On utilise be + verbe en -ing pour un rendez-vous fixé : Tom is seeing the doctor. Le moment (tomorrow morning) se place à la fin ou au début.",
+      "tip": "Sujet + be + -ing + complément + moment du futur.",
+      "extraExample": {"text": "I'm meeting my colleagues at six.", "translation": "Je retrouve mes collègues à six heures."}
+    },
+    {
+      "id": "en.l40.e07",
+      "unitIds": ["en.g27.present_continuous_future", "en.v.dentist"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je vois le dentiste demain.",
+      "promptLanguage": "fr",
+      "answer": "I am seeing the dentist tomorrow",
+      "acceptedAnswers": ["I am seeing the dentist tomorrow", "Tomorrow I am seeing the dentist", "I am meeting the dentist tomorrow", "I am going to see the dentist tomorrow", "I am going to the dentist tomorrow", "I am going to the dentist's tomorrow", "I will see the dentist tomorrow", "I have an appointment with the dentist tomorrow", "I have a dentist appointment tomorrow"],
+      "hint": "Un rendez-vous déjà fixé se dit avec be + un verbe en -ing.",
+      "explanation": "Pour un rendez-vous fixé, on utilise be + verbe en -ing avec un moment du futur : I am seeing the dentist tomorrow. On peut aussi dire I am meeting the dentist.",
+      "tip": "Rendez-vous fixé = be + -ing + tomorrow, pas de présent simple.",
+      "extraExample": {"text": "I'm seeing the doctor at nine.", "translation": "Je vois le médecin à neuf heures."},
+      "errorPatterns": [
+        {"contains": "i see the dentist", "category": "verb_tense", "feedback": "Pour un rendez-vous fixé, on n'utilise pas le présent simple : I am seeing the dentist tomorrow."},
+        {"contains": "am see", "category": "grammar", "feedback": "Après am, le verbe prend -ing : I am seeing."},
+        {"contains": "i seeing", "category": "grammar", "feedback": "Il manque am devant seeing : I am seeing the dentist."}
+      ]
+    },
+    {
+      "id": "en.l40.e08",
+      "unitIds": ["en.g27.present_continuous_future"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Qu'est-ce que tu fais demain soir ?",
+      "promptLanguage": "fr",
+      "answer": "What are you doing tomorrow evening",
+      "acceptedAnswers": ["What are you doing tomorrow evening", "What are you doing tomorrow night", "What are you going to do tomorrow evening", "What are you going to do tomorrow night", "What will you do tomorrow evening", "What will you do tomorrow night"],
+      "hint": "Pour demander ce que quelqu'un a prévu, on utilise be + -ing : quelle forme de be avec you ?",
+      "explanation": "Pour demander les projets de quelqu'un, on utilise le présent continu avec un moment du futur : What are you doing tomorrow evening ? On place are avant you.",
+      "tip": "What are you doing + moment du futur ? : la question classique sur l'agenda.",
+      "extraExample": {"text": "What is Anna doing tonight?", "translation": "Qu'est-ce qu'Anna fait ce soir ?"},
+      "errorPatterns": [
+        {"contains": "do you doing", "category": "grammar", "feedback": "Le présent continu se fait avec be, pas avec do : What are you doing ?"},
+        {"contains": "are you do", "category": "grammar", "feedback": "Après are you, le verbe prend -ing : What are you doing ?"},
+        {"contains": "what you doing", "category": "word_order", "feedback": "Il manque are : What are you doing tomorrow evening ?"}
+      ]
+    },
+    {
+      "id": "en.l40.e09",
+      "unitIds": ["en.g27.present_continuous_future", "en.v.flight"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Mes parents prennent un vol pour Paris demain. » ?",
+      "promptLanguage": "fr",
+      "answer": "My parents are taking a flight to Paris tomorrow",
+      "acceptedAnswers": ["My parents are taking a flight to Paris tomorrow", "Tomorrow my parents are taking a flight to Paris", "My parents are flying to Paris tomorrow", "My parents are going to Paris tomorrow", "My parents have a flight to Paris tomorrow", "My parents are going to take a flight to Paris tomorrow", "My parents will take a flight to Paris tomorrow"],
+      "hint": "My parents se remplace par they : quelle forme de be, suivie d'un verbe en -ing ?",
+      "explanation": "Un voyage déjà organisé se dit avec be + verbe en -ing : My parents are taking a flight. Avec my parents (they), be devient are. Pour Paris, on dit to Paris.",
+      "tip": "Voyage organisé = be + -ing + moment du futur.",
+      "extraExample": {"text": "Anna is taking a flight to London tonight.", "translation": "Anna prend un vol pour Londres ce soir."},
+      "errorPatterns": [
+        {"contains": "parents is", "category": "conjugation", "feedback": "Parents est au pluriel : on dit my parents are."},
+        {"contains": "parents taking", "category": "grammar", "feedback": "Il manque are devant taking : My parents are taking a flight."},
+        {"contains": "flight in paris", "category": "preposition", "feedback": "Pour aller vers une ville, on dit to : a flight to Paris."}
+      ]
+    },
+    {
+      "id": "en.l40.e10",
+      "unitIds": ["en.g27.present_continuous_future", "en.v.meeting", "en.v.appointment"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris une phrase en anglais avec le présent continu (be + -ing) et tomorrow, tonight ou next week.",
+      "prompt": "Que fais-tu demain ? Un rendez-vous, une réunion, un vol… Écris une phrase.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["tomorrow", "tonight", "next week", "next weekend"]], "minWords": 5},
+      "answer": "I'm seeing the dentist tomorrow morning.",
+      "acceptedAnswers": ["I'm seeing the dentist tomorrow morning.", "We're having a meeting tomorrow.", "Anna is seeing the doctor tonight.", "I'm meeting my colleagues next week."],
+      "hint": "Commence par I'm + verbe en -ing (seeing, meeting, having…), puis ajoute ton moment du futur.",
+      "explanation": "Pour un rendez-vous ou une réunion déjà fixés, on utilise be + verbe en -ing avec un moment du futur. Par exemple : I'm seeing the dentist tomorrow morning.",
+      "tip": "Be + -ing + tomorrow : ton agenda se dit au présent continu.",
+      "extraExample": {"text": "We're having a meeting next week.", "translation": "Nous avons une réunion la semaine prochaine."},
+      "errorPatterns": [
+        {"contains": "am meet", "category": "grammar", "feedback": "Après am, le verbe prend -ing : I am meeting."},
+        {"contains": "am see", "category": "grammar", "feedback": "Après am, le verbe prend -ing : I am seeing."}
+      ]
+    }
+  ]
+}

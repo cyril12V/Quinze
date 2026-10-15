@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l50",
+  "exercises": [
+    {
+      "id": "en.l50.e01",
+      "unitIds": ["en.g35.question_words"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Où habites-tu ? » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["Where do you live?", "Where you live?", "Where live you?", "Where does you live?"],
+      "answer": "Where do you live?",
+      "acceptedAnswers": ["Where do you live?"],
+      "hint": "Il faut un auxiliaire entre where et you.",
+      "explanation": "Une question avec where suit l'ordre : where + do + sujet + verbe. Avec you, on utilise do, pas does.",
+      "tip": "Mot interrogatif + do / does + sujet + verbe.",
+      "extraExample": {"text": "Where do they work?", "translation": "Où travaillent-ils ?"},
+      "errorPatterns": [
+        {"equals": "where you live", "category": "word_order", "feedback": "En anglais, il faut l'auxiliaire do : Where do you live?"},
+        {"equals": "where live you", "category": "word_order", "feedback": "L'inversion verbe-sujet n'existe pas ainsi en anglais. On dit Where do you live?"},
+        {"equals": "where does you live", "category": "grammar", "feedback": "Does s'utilise avec he, she, it. Avec you, on dit do : Where do you live?"}
+      ]
+    },
+    {
+      "id": "en.l50.e02",
+      "unitIds": ["en.g35.question_words"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot interrogatif à sa traduction.",
+      "prompt": "Les mots interrogatifs : what, where, when, who, why",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "what", "right": "quoi / que / quel"},
+        {"left": "where", "right": "où"},
+        {"left": "when", "right": "quand"},
+        {"left": "who", "right": "qui"},
+        {"left": "why", "right": "pourquoi"}
+      ],
+      "answer": "what = quoi / que / quel ; where = où ; when = quand ; who = qui ; why = pourquoi",
+      "acceptedAnswers": [],
+      "explanation": "Ces cinq mots commencent presque tous par wh-. Ils se placent au début de la question. Why pose la question « pourquoi », et on répond avec because.",
+      "tip": "Where = où (lieu), when = quand (moment), who = qui (personne), why = pourquoi (raison)."
+    },
+    {
+      "id": "en.l50.e03",
+      "unitIds": ["en.g35.question_words", "en.v.place"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis le bon mot interrogatif.",
+      "prompt": "___ place do you like, the park or the beach?",
+      "promptLanguage": "en",
+      "options": ["Which", "Who", "Why"],
+      "answer": "Which",
+      "acceptedAnswers": ["Which"],
+      "hint": "Il faut choisir entre deux possibilités.",
+      "explanation": "Which veut dire « lequel, laquelle ». On l'utilise quand on choisit entre quelques possibilités connues, ici le parc ou la plage. Place veut dire « endroit, lieu ».",
+      "tip": "Choix entre quelques options : which. Question ouverte : what.",
+      "extraExample": {"text": "Which book do you want, the old book or the new book?", "translation": "Quel livre veux-tu, le vieux livre ou le nouveau ?"},
+      "errorPatterns": [
+        {"equals": "who", "category": "word_confusion", "feedback": "Who veut dire « qui » et ne s'emploie que pour une personne. Ici, on choisit entre deux lieux : which."},
+        {"equals": "why", "category": "word_confusion", "feedback": "Why veut dire « pourquoi ». Pour choisir entre deux possibilités, on dit which."}
+      ]
+    },
+    {
+      "id": "en.l50.e04",
+      "unitIds": ["en.g35.question_words", "en.v.time"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la question pour demander l'heure.",
+      "prompt": "What ___ is it? It is ten o'clock.",
+      "promptLanguage": "en",
+      "options": ["time", "hour", "age"],
+      "answer": "time",
+      "acceptedAnswers": ["time"],
+      "hint": "Time veut dire « heure » ou « temps ».",
+      "explanation": "Pour demander l'heure, on dit What time is it? Time veut dire ici « heure ». On ne dit pas what hour.",
+      "tip": "Quelle heure est-il ? What time is it ?",
+      "extraExample": {"text": "What time do you get up?", "translation": "À quelle heure te lèves-tu ?"},
+      "errorPatterns": [
+        {"equals": "hour", "category": "word_confusion", "feedback": "Hour désigne une durée de 60 minutes. Pour demander l'heure, on dit what time."},
+        {"equals": "age", "category": "vocabulary", "feedback": "Age veut dire « âge ». Pour l'heure, on dit what time is it?"}
+      ]
+    },
+    {
+      "id": "en.l50.e05",
+      "unitIds": ["en.g35.question_words", "en.v.address"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot interrogatif.",
+      "prompt": "___ is your address? (Quelle est ton adresse ?)",
+      "promptLanguage": "en",
+      "options": ["What", "Where", "Who"],
+      "answer": "What",
+      "acceptedAnswers": ["What"],
+      "hint": "On demande quelle chose, pas un lieu ni une personne.",
+      "explanation": "On utilise what pour demander une information sur une chose : What is your address? Where veut dire « où » et who veut dire « qui ».",
+      "tip": "Quelle est ton adresse, ton nom, ton âge ? What is your ... ?",
+      "extraExample": {"text": "What is your name?", "translation": "Comment t'appelles-tu ?"},
+      "errorPatterns": [
+        {"equals": "where", "category": "word_confusion", "feedback": "Where veut dire « où ». Pour « quelle est ton adresse ? », on dit What is your address?"},
+        {"equals": "who", "category": "word_confusion", "feedback": "Who veut dire « qui » et concerne une personne. Pour une adresse, on dit what."}
+      ]
+    },
+    {
+      "id": "en.l50.e06",
+      "unitIds": ["en.g35.question_words", "en.v.time"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "À quelle heure commence la réunion ?",
+      "promptLanguage": "fr",
+      "tokens": ["does", "What", "start", "the", "time", "meeting"],
+      "answer": "What time does the meeting start",
+      "acceptedAnswers": ["What time does the meeting start"],
+      "hint": "Commence par what time, puis l'auxiliaire, puis le sujet.",
+      "explanation": "L'ordre est : what time + does + sujet + verbe. Meeting est au singulier, donc on utilise does, et le verbe start reste à la forme de base.",
+      "tip": "What time + auxiliaire + sujet + verbe de base.",
+      "extraExample": {"text": "What time does the shop open?", "translation": "À quelle heure ouvre le magasin ?"}
+    },
+    {
+      "id": "en.l50.e07",
+      "unitIds": ["en.g35.question_words"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Pourquoi es-tu en retard ?",
+      "promptLanguage": "fr",
+      "answer": "Why are you late?",
+      "acceptedAnswers": ["Why are you late?"],
+      "hint": "Avec be, on inverse le verbe et le sujet.",
+      "explanation": "Avec le verbe be, on inverse be et le sujet, sans auxiliaire : Why are you late? On ne dit pas why do you are.",
+      "tip": "Avec be, pas de do : Why are you ... ?",
+      "extraExample": {"text": "Why is Tom tired?", "translation": "Pourquoi Tom est-il fatigué ?"},
+      "errorPatterns": [
+        {"contains": "why you are", "category": "word_order", "feedback": "Il faut inverser : Why are you late?"},
+        {"contains": "why do you are", "category": "grammar", "feedback": "Avec be, on n'utilise pas do. On inverse simplement : Why are you late?"},
+        {"contains": "why you late", "category": "grammar", "feedback": "Il manque le verbe be : Why are you late?"}
+      ]
+    },
+    {
+      "id": "en.l50.e08",
+      "unitIds": ["en.g35.question_words", "en.v.age"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Quel âge a ton frère ?",
+      "promptLanguage": "fr",
+      "answer": "How old is your brother?",
+      "acceptedAnswers": ["How old is your brother?", "What is your brother's age?", "What age is your brother?"],
+      "hint": "En anglais, on ne « possède » pas un âge : on utilise be.",
+      "explanation": "Pour demander l'âge, on dit How old + be + sujet : How old is your brother? Le mot age existe, mais on dit plus naturellement how old.",
+      "tip": "Âge ? How old + be, jamais have.",
+      "extraExample": {"text": "How old are your parents?", "translation": "Quel âge ont tes parents ?"},
+      "errorPatterns": [
+        {"contains": "what age has", "category": "grammar", "feedback": "En anglais, on ne dit pas « quel âge a-t-il » avec have. On dit How old is your brother?"},
+        {"contains": "how old has", "category": "grammar", "feedback": "Avec how old, on utilise be : How old is your brother?"},
+        {"contains": "how old does", "category": "grammar", "feedback": "Avec how old, on utilise be, pas do : How old is your brother?"}
+      ]
+    },
+    {
+      "id": "en.l50.e09",
+      "unitIds": ["en.g35.question_words"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Quand est-ce que tu finis le travail ?",
+      "promptLanguage": "fr",
+      "answer": "When do you finish work?",
+      "acceptedAnswers": ["When do you finish work?", "When do you finish your work?", "When do you stop work?"],
+      "hint": "Commence par when, puis do.",
+      "explanation": "When veut dire « quand ». L'ordre est : when + do + sujet + verbe. Après do, le verbe finish reste à la forme de base.",
+      "tip": "Quand ? When + do + sujet + verbe.",
+      "extraExample": {"text": "When does your sister arrive?", "translation": "Quand ta sœur arrive-t-elle ?"},
+      "errorPatterns": [
+        {"contains": "when you finish", "category": "word_order", "feedback": "Il faut l'auxiliaire do : When do you finish work?"},
+        {"contains": "when do you finishes", "category": "conjugation", "feedback": "Après do, le verbe reste à la forme de base : finish."},
+        {"contains": "when finish", "category": "word_order", "feedback": "Il faut un auxiliaire et un sujet : When do you finish work?"}
+      ]
+    },
+    {
+      "id": "en.l50.e10",
+      "unitIds": ["en.g35.question_words", "en.v.reason"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Quelle est la raison ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "What is the reason?",
+      "acceptedAnswers": ["What is the reason?", "What is the reason for that?"],
+      "hint": "On commence par what, et il faut le verbe be.",
+      "explanation": "On demande une information avec what. Reason veut dire « raison ». Avec be, l'ordre est : what + is + sujet : What is the reason?",
+      "tip": "What is + nom : What is the reason? What is your name?",
+      "extraExample": {"text": "What is the reason for the problem?", "translation": "Quelle est la raison du problème ?"},
+      "errorPatterns": [
+        {"equals": "what the reason", "category": "grammar", "feedback": "Il manque le verbe be : What is the reason?"},
+        {"equals": "which is the reason", "category": "word_confusion", "feedback": "Which sert à choisir parmi quelques possibilités. Ici, la question est ouverte : What is the reason?"},
+        {"equals": "why is the reason", "category": "word_confusion", "feedback": "Why veut dire « pourquoi ». Pour « quelle est la raison », on dit What is the reason?"}
+      ]
+    }
+  ]
+}

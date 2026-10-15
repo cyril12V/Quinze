@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l51",
+  "exercises": [
+    {
+      "id": "en.l51.e01",
+      "unitIds": ["en.g36.connectors", "en.v.hot"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Il fait chaud, donc je bois de l'eau. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["It is hot, so I drink water.", "It is hot, because I drink water.", "It is hot, but I drink water.", "It is hot, or I drink water."],
+      "answer": "It is hot, so I drink water.",
+      "acceptedAnswers": ["It is hot, so I drink water."],
+      "hint": "Boire de l'eau est la conséquence de la chaleur.",
+      "explanation": "« Donc » se dit so : il introduit la conséquence. La chaleur est la cause, et boire de l'eau est le résultat.",
+      "tip": "So = donc : il vient après la cause et annonce le résultat.",
+      "extraExample": {"text": "I am tired, so I go to bed.", "translation": "Je suis fatigué, donc je vais me coucher."},
+      "errorPatterns": [
+        {"equals": "it is hot because i drink water", "category": "grammar", "feedback": "Because introduit la cause. Ici, boire de l'eau est la conséquence de la chaleur : on utilise so."},
+        {"equals": "it is hot but i drink water", "category": "grammar", "feedback": "But marque une opposition. Ici, c'est une conséquence : so."},
+        {"equals": "it is hot or i drink water", "category": "grammar", "feedback": "Or veut dire « ou » et propose un choix. Pour « donc », on dit so."}
+      ]
+    },
+    {
+      "id": "en.l51.e02",
+      "unitIds": ["en.g36.connectors"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque connecteur à sa traduction.",
+      "prompt": "Les connecteurs : and, but, or, because, so",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "and", "right": "et"},
+        {"left": "but", "right": "mais"},
+        {"left": "or", "right": "ou"},
+        {"left": "because", "right": "parce que"},
+        {"left": "so", "right": "donc, alors"}
+      ],
+      "answer": "and = et ; but = mais ; or = ou ; because = parce que ; so = donc, alors",
+      "acceptedAnswers": [],
+      "explanation": "And ajoute, but oppose, or propose un choix, because donne la raison et so donne le résultat. Ces mots relient deux phrases ou deux idées.",
+      "tip": "Because = la cause, so = la conséquence."
+    },
+    {
+      "id": "en.l51.e03",
+      "unitIds": ["en.g36.connectors", "en.v.snow"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Je reste à la maison parce qu'il neige. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I stay at home because it snows.", "I stay at home because the snow.", "I stay at home so it snows.", "I stay at home but it snows."],
+      "answer": "I stay at home because it snows.",
+      "acceptedAnswers": ["I stay at home because it snows."],
+      "hint": "Après because, il faut un sujet et un verbe.",
+      "explanation": "Because veut dire « parce que » et il est suivi d'une phrase complète : sujet + verbe (it snows). Snow est ici un verbe : it snows veut dire « il neige ».",
+      "tip": "Because + sujet + verbe : because it snows, because I am tired.",
+      "extraExample": {"text": "We stay in because it rains.", "translation": "Nous restons à l'intérieur parce qu'il pleut."},
+      "errorPatterns": [
+        {"equals": "i stay at home because the snow", "category": "grammar", "feedback": "Après because, il faut un sujet et un verbe : because it snows."},
+        {"equals": "i stay at home so it snows", "category": "grammar", "feedback": "So annonce un résultat. Ici, la neige est la cause : because it snows."},
+        {"equals": "i stay at home but it snows", "category": "grammar", "feedback": "But marque une opposition. Ici, la neige est la raison de rester : because."}
+      ]
+    },
+    {
+      "id": "en.l51.e04",
+      "unitIds": ["en.g36.connectors", "en.v.sun"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le connecteur qui correspond à la traduction.",
+      "prompt": "I like summer, ___ I don't like the sun. (mais)",
+      "promptLanguage": "en",
+      "options": ["but", "so", "because"],
+      "answer": "but",
+      "acceptedAnswers": ["but"],
+      "hint": "Les deux idées s'opposent.",
+      "explanation": "But veut dire « mais » : il relie deux idées qui s'opposent. J'aime l'été, mais je n'aime pas le soleil.",
+      "tip": "Deux idées opposées ? But.",
+      "extraExample": {"text": "The apartment is small, but it is beautiful.", "translation": "L'appartement est petit, mais il est beau."},
+      "errorPatterns": [
+        {"equals": "so", "category": "grammar", "feedback": "So donne une conséquence. Ici, les deux idées s'opposent : on utilise but."},
+        {"equals": "because", "category": "grammar", "feedback": "Because donne une cause. Ici, les deux idées s'opposent : on utilise but."}
+      ]
+    },
+    {
+      "id": "en.l51.e05",
+      "unitIds": ["en.g36.connectors"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le mot qui correspond à la traduction.",
+      "prompt": "First I eat breakfast, ___ I go to work. (puis)",
+      "promptLanguage": "en",
+      "options": ["then", "than", "because"],
+      "answer": "then",
+      "acceptedAnswers": ["then", "and then"],
+      "hint": "Il montre l'ordre des actions. Attention à l'orthographe : then, pas than.",
+      "explanation": "Then veut dire « puis, ensuite » : il montre qu'une action vient après une autre. Than s'écrit presque pareil mais sert aux comparaisons (taller than).",
+      "tip": "Then (avec e) = puis ; than (avec a) = que, dans une comparaison.",
+      "extraExample": {"text": "I finish my homework, then I watch TV.", "translation": "Je finis mes devoirs, puis je regarde la télé."},
+      "errorPatterns": [
+        {"equals": "than", "category": "spelling", "feedback": "Than sert aux comparaisons (taller than). Pour « puis », on écrit then."},
+        {"equals": "because", "category": "grammar", "feedback": "Because veut dire « parce que ». Pour « puis, ensuite », on dit then."}
+      ]
+    },
+    {
+      "id": "en.l51.e06",
+      "unitIds": ["en.g36.connectors", "en.v.warm"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Il fait doux aujourd'hui, donc nous allons à la plage.",
+      "promptLanguage": "fr",
+      "tokens": ["beach", "we", "It", "so", "warm", "go", "today", "is", "the", "to"],
+      "answer": "It is warm today so we go to the beach",
+      "acceptedAnswers": ["It is warm today so we go to the beach", "Today it is warm so we go to the beach", "It is warm so we go to the beach today", "It is warm so today we go to the beach"],
+      "hint": "So sépare la cause (il fait doux) du résultat (nous allons à la plage).",
+      "explanation": "So relie la cause et le résultat : It is warm today (cause), so we go to the beach (résultat). Warm veut dire « doux, agréablement chaud ». Today peut se placer au début ou à la fin.",
+      "tip": "Cause d'abord, puis so, puis résultat.",
+      "extraExample": {"text": "It is hot, so we swim.", "translation": "Il fait chaud, donc nous nageons."}
+    },
+    {
+      "id": "en.l51.e07",
+      "unitIds": ["en.g36.connectors", "en.v.wind"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Il y a du vent, donc je ferme la fenêtre.",
+      "promptLanguage": "fr",
+      "answer": "There is wind, so I close the window.",
+      "acceptedAnswers": ["There is wind, so I close the window.", "There is a lot of wind, so I close the window.", "It is windy, so I close the window.", "There is wind, so I am closing the window.", "It is windy, so I am closing the window."],
+      "hint": "Donc se dit so. Wind veut dire « vent ».",
+      "explanation": "Le vent est la cause et fermer la fenêtre est la conséquence : on utilise so. Wind est un nom, il faut donc there is wind (ou it is windy).",
+      "tip": "Donc = so, et on met so entre la cause et la conséquence.",
+      "extraExample": {"text": "There is snow, so we stay at home.", "translation": "Il y a de la neige, donc nous restons à la maison."},
+      "errorPatterns": [
+        {"contains": "because i close", "category": "grammar", "feedback": "Because introduit la cause. Ici, fermer la fenêtre est la conséquence du vent : on utilise so."},
+        {"contains": "the wind is", "category": "grammar", "feedback": "Pour dire « il y a du vent », on dit there is wind (ou it is windy)."}
+      ]
+    },
+    {
+      "id": "en.l51.e08",
+      "unitIds": ["en.g36.connectors", "en.v.snow"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "J'aime l'hiver, mais je n'aime pas la neige.",
+      "promptLanguage": "fr",
+      "answer": "I like winter, but I don't like snow.",
+      "acceptedAnswers": ["I like winter, but I don't like snow.", "I like winter, but I don't like the snow.", "I like the winter, but I don't like snow.", "I like the winter, but I don't like the snow.", "I love winter, but I don't like snow.", "I love winter, but I don't like the snow.", "I love the winter, but I don't like snow.", "I love the winter, but I don't like the snow."],
+      "hint": "Mais se dit but. Pour la négation, utilise don't.",
+      "explanation": "But relie deux idées opposées. La négation se fait avec don't + like. En anglais, on dit souvent winter et snow sans the quand on parle en général.",
+      "tip": "But oppose deux idées : I like ..., but I don't like ...",
+      "extraExample": {"text": "I like summer, but I don't like the sun.", "translation": "J'aime l'été, mais je n'aime pas le soleil."},
+      "errorPatterns": [
+        {"contains": "because i don't", "category": "grammar", "feedback": "Because veut dire « parce que ». Pour « mais », on dit but."},
+        {"contains": "i not like", "category": "grammar", "feedback": "La négation se fait avec don't : I don't like snow."},
+        {"contains": "i no like", "category": "grammar", "feedback": "En anglais, on ne dit pas « no like ». On dit I don't like."}
+      ]
+    },
+    {
+      "id": "en.l51.e09",
+      "unitIds": ["en.g36.connectors", "en.v.hot"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous allons à la plage parce qu'il fait chaud.",
+      "promptLanguage": "fr",
+      "answer": "We go to the beach because it is hot.",
+      "acceptedAnswers": ["We go to the beach because it is hot.", "We are going to the beach because it is hot.", "We go to the beach because it is warm.", "We are going to the beach because it is warm."],
+      "hint": "Après because, mets un sujet et un verbe : it is hot.",
+      "explanation": "Because donne la cause : il fait chaud est la raison d'aller à la plage. Après because, il faut un sujet et un verbe : it is hot.",
+      "tip": "Because est toujours suivi d'un sujet et d'un verbe : because it is hot.",
+      "extraExample": {"text": "We stay at home because it is cold.", "translation": "Nous restons à la maison parce qu'il fait froid."},
+      "errorPatterns": [
+        {"contains": "because of", "category": "grammar", "feedback": "Ici, because est suivi d'une phrase complète : because it is hot."},
+        {"contains": "because hot", "category": "grammar", "feedback": "Il manque un sujet et un verbe après because : because it is hot."},
+        {"contains": "so it is hot", "category": "grammar", "feedback": "So annonce un résultat. Ici, il fait chaud est la cause : because it is hot."}
+      ]
+    },
+    {
+      "id": "en.l51.e10",
+      "unitIds": ["en.g36.connectors"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris une phrase en anglais.",
+      "prompt": "Dis quelle saison tu aimes et pourquoi, avec because.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["because"]], "minWords": 5},
+      "answer": "I like summer because it is warm.",
+      "acceptedAnswers": ["I like summer because it is warm.", "I like winter because it snows.", "I like summer because I go to the beach.", "I like winter because I stay at home."],
+      "hint": "Commence par I like ... because ...",
+      "explanation": "Because donne la raison : I like summer because it is warm. Après because, on écrit une phrase complète avec un sujet et un verbe.",
+      "tip": "I like + saison + because + sujet + verbe.",
+      "extraExample": {"text": "I like Sunday because I don't work.", "translation": "J'aime le dimanche parce que je ne travaille pas."},
+      "errorPatterns": [
+        {"contains": "because of", "category": "grammar", "feedback": "Ici, because est suivi d'une phrase complète avec sujet et verbe : because it is warm."},
+        {"contains": "because so", "category": "grammar", "feedback": "Because et so ne s'utilisent pas ensemble. Choisis because pour la raison."}
+      ]
+    }
+  ]
+}

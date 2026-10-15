@@ -1,0 +1,118 @@
+[
+  {
+    "id": "en.diag.m08.01",
+    "unitIds": ["en.g39.present_perfect_intro"],
+    "type": "fill_blank",
+    "difficulty": 3,
+    "level": 4,
+    "topic": "verbs",
+    "instruction": "Complète la question.",
+    "prompt": "Have you ever ___ to Japan?",
+    "promptLanguage": "en",
+    "options": ["been", "went", "be", "was"],
+    "answer": "been",
+    "acceptedAnswers": ["been"],
+    "hint": "Après have, il faut un participe passé.",
+    "explanation": "Pour demander une expérience de vie, on dit Have you ever + participe passé. Le participe passé qui convient ici est been (have been to). Went est le past simple.",
+    "tip": "Have you ever been to… ? : « Es-tu déjà allé à… ? »",
+    "extraExample": {"text": "Has Anna ever been to Paris?", "translation": "Anna est-elle déjà allée à Paris ?"},
+    "errorPatterns": [
+      {"equals": "went", "category": "conjugation", "feedback": "Went est le past simple. Après have, il faut le participe passé : been."},
+      {"equals": "be", "category": "conjugation", "feedback": "Après have, le verbe ne reste pas à la forme de base : il faut le participe passé been."},
+      {"equals": "was", "category": "conjugation", "feedback": "Was est le past simple de be. Après have, il faut le participe passé : been."}
+    ]
+  },
+  {
+    "id": "en.diag.m08.02",
+    "unitIds": ["en.g41.tense_contrast"],
+    "type": "mcq",
+    "difficulty": 3,
+    "level": 4,
+    "topic": "past",
+    "instruction": "Choisis la bonne forme.",
+    "prompt": "Tom ___ his keys last night.",
+    "promptLanguage": "en",
+    "options": ["lost", "has lost", "is losing", "loses"],
+    "answer": "lost",
+    "acceptedAnswers": ["lost"],
+    "hint": "Last night est un moment précis du passé.",
+    "explanation": "Last night donne un moment précis dans le passé : on utilise le past simple. Lose est irrégulier : lost.",
+    "tip": "Moment précis du passé (last night, yesterday, ago) = past simple.",
+    "extraExample": {"text": "Anna called me two hours ago.", "translation": "Anna m'a appelé il y a deux heures."},
+    "errorPatterns": [
+      {"equals": "has lost", "category": "verb_tense", "feedback": "Avec un moment précis comme last night, on n'utilise pas le present perfect. Dis lost."},
+      {"equals": "is losing", "category": "verb_tense", "feedback": "Is losing est le présent continu. Last night est passé : lost."},
+      {"equals": "loses", "category": "verb_tense", "feedback": "Loses est le présent. Last night demande le passé : lost."}
+    ]
+  },
+  {
+    "id": "en.diag.m08.03",
+    "unitIds": ["en.g41.tense_contrast"],
+    "type": "mcq",
+    "difficulty": 3,
+    "level": 4,
+    "topic": "present",
+    "instruction": "Choisis la bonne forme.",
+    "prompt": "I usually drink coffee, but today I ___ tea.",
+    "promptLanguage": "en",
+    "options": ["am drinking", "drink", "drank", "have drunk"],
+    "answer": "am drinking",
+    "acceptedAnswers": ["am drinking"],
+    "hint": "Today parle de ce qui se passe aujourd'hui, en ce moment.",
+    "explanation": "Usually indique une habitude (présent simple), mais today indique une action temporaire, en cours : on utilise le présent continu, am drinking.",
+    "tip": "Habitude = présent simple ; aujourd'hui, en ce moment = présent continu.",
+    "extraExample": {"text": "Sam usually walks to work, but today he's driving.", "translation": "Sam va d'habitude au travail à pied, mais aujourd'hui il conduit."},
+    "errorPatterns": [
+      {"equals": "drink", "category": "verb_tense", "feedback": "Le présent simple décrit l'habitude (usually). Today parle d'une situation du moment : am drinking."},
+      {"equals": "drank", "category": "verb_tense", "feedback": "Drank est un passé. Today parle du moment présent : am drinking."},
+      {"equals": "have drunk", "category": "verb_tense", "feedback": "Le present perfect ne convient pas ici. Today indique une action en cours : am drinking."}
+    ]
+  },
+  {
+    "id": "en.diag.m08.04",
+    "unitIds": ["en.g40.short_answers"],
+    "type": "fill_blank",
+    "difficulty": 3,
+    "level": 4,
+    "topic": "construction",
+    "instruction": "Complète la réaction.",
+    "prompt": "Anna can't swim. — I can't ___.",
+    "promptLanguage": "en",
+    "options": ["either", "too", "neither", "also"],
+    "answer": "either",
+    "acceptedAnswers": ["either"],
+    "hint": "« Moi non plus » : la phrase est négative.",
+    "explanation": "Pour dire « moi non plus » après une phrase négative, on dit I can't either (ou Me neither). Too veut dire « aussi » et sert dans les phrases affirmatives.",
+    "tip": "Négation + either à la fin = « non plus ».",
+    "extraExample": {"text": "Tom doesn't like tea. — I don't either.", "translation": "Tom n'aime pas le thé. — Moi non plus."},
+    "errorPatterns": [
+      {"equals": "too", "category": "word_confusion", "feedback": "Too veut dire « aussi » et s'emploie dans une phrase affirmative. Après une négation, on dit either."},
+      {"equals": "neither", "category": "grammar", "feedback": "Neither contient déjà la négation : on dirait I can't either, ou Me neither, mais pas I can't neither."},
+      {"equals": "also", "category": "word_confusion", "feedback": "Also veut dire « aussi », dans une phrase affirmative. Après une négation, « non plus » se dit either."}
+    ]
+  },
+  {
+    "id": "en.diag.m08.05",
+    "unitIds": ["en.g39.present_perfect_intro", "en.g41.tense_contrast"],
+    "type": "mcq",
+    "difficulty": 4,
+    "level": 4,
+    "topic": "comprehension",
+    "instruction": "Lis le texte, puis choisis la bonne réponse.",
+    "context": "Sam has just sent an email to his boss. He hasn't finished the report yet.",
+    "prompt": "What has Sam already done?",
+    "promptLanguage": "en",
+    "options": ["He has sent an email.", "He has finished the report.", "He is going to send an email.", "He sent a report yesterday."],
+    "answer": "He has sent an email.",
+    "acceptedAnswers": ["He has sent an email."],
+    "hint": "Hasn't finished yet = pas encore fini.",
+    "explanation": "Le texte dit que Sam a just sent an email : c'est fait. Le rapport n'est pas encore fini (hasn't finished yet).",
+    "tip": "Just et already disent « c'est fait » ; not … yet dit « pas encore ».",
+    "extraExample": {"text": "Anna has already called Tom, but she hasn't called Sam yet.", "translation": "Anna a déjà appelé Tom, mais elle n'a pas encore appelé Sam."},
+    "errorPatterns": [
+      {"equals": "he has finished the report", "category": "instruction", "feedback": "Le texte dit hasn't finished the report yet : le rapport n'est pas encore fini."},
+      {"equals": "he is going to send an email", "category": "verb_tense", "feedback": "Is going to parle du futur. Le texte dit has just sent : l'e-mail est déjà parti."},
+      {"equals": "he sent a report yesterday", "category": "instruction", "feedback": "Le texte ne parle pas d'hier. Il dit que Sam a just sent an email."}
+    ]
+  }
+]

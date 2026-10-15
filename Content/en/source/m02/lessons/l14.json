@@ -1,0 +1,206 @@
+{
+  "lessonId": "en.l14",
+  "exercises": [
+    {
+      "id": "en.l14.e01",
+      "unitIds": ["en.g11.can", "en.v.help"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « Peux-tu m'aider ? » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["Can you help me?", "Can you to help me?", "Can you help I?", "Can help you me?"],
+      "answer": "Can you help me?",
+      "acceptedAnswers": ["Can you help me?"],
+      "hint": "Pour une demande, on met can avant you, puis le verbe de base.",
+      "explanation": "Pour demander un service, on utilise Can you + verbe de base ? On n'ajoute pas to. Après help, on dit me (« moi ») et non I.",
+      "tip": "Demander un service : Can you + verbe de base ?",
+      "extraExample": {"text": "Can you give me the key?", "translation": "Peux-tu me donner la clé ?"},
+      "errorPatterns": [
+        {"equals": "can you to help me?", "category": "grammar", "feedback": "Après can you, on n'ajoute pas to : Can you help me?"},
+        {"equals": "can you help i?", "category": "grammar", "feedback": "Après le verbe, « moi » se dit me, pas I : Can you help me?"},
+        {"equals": "can help you me?", "category": "word_order", "feedback": "Dans une question, can est suivi du sujet : Can you help me?"}
+      ]
+    },
+    {
+      "id": "en.l14.e02",
+      "unitIds": ["en.g11.can", "en.v.give", "en.v.key"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Tom: Can you give me the key? — Anna: Yes, ___.",
+      "promptLanguage": "en",
+      "options": ["I can", "you can", "I cans", "can you"],
+      "answer": "I can",
+      "acceptedAnswers": ["I can"],
+      "hint": "Anna répond pour elle-même : qui peut donner la clé ?",
+      "explanation": "Tom demande « Can you… ? » : il parle à Anna. Anna répond donc avec I : Yes, I can. Can ne change pas et ne prend pas de -s.",
+      "tip": "On répond à Can you… ? avec Yes, I can. ou No, I can't.",
+      "extraExample": {"text": "Can you help me? — Yes, I can.", "translation": "Peux-tu m'aider ? — Oui, je peux."},
+      "errorPatterns": [
+        {"equals": "you can", "category": "grammar", "feedback": "Tom demande à Anna : « Peux-tu ? ». Anna répond pour elle-même, avec I : Yes, I can."},
+        {"equals": "i cans", "category": "conjugation", "feedback": "Can ne prend jamais de -s : Yes, I can."},
+        {"equals": "can you", "category": "grammar", "feedback": "Can you est la question. La réponse est Yes, I can."}
+      ]
+    },
+    {
+      "id": "en.l14.e03",
+      "unitIds": ["en.g11.can", "en.v.help", "en.v.read", "en.v.write", "en.v.door", "en.v.window"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Demandes et mots utiles : help me, read, write your name, the door, the window",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "Can you help me?", "right": "Peux-tu m'aider ?"},
+        {"left": "Can you read it?", "right": "Peux-tu le lire ?"},
+        {"left": "Can you write your name?", "right": "Peux-tu écrire ton nom ?"},
+        {"left": "the door", "right": "la porte"},
+        {"left": "the window", "right": "la fenêtre"}
+      ],
+      "answer": "Can you help me? = Peux-tu m'aider ? ; Can you read it? = Peux-tu le lire ? ; Can you write your name? = Peux-tu écrire ton nom ? ; the door = la porte ; the window = la fenêtre",
+      "acceptedAnswers": [],
+      "explanation": "Can you + verbe de base ? sert à demander un service. Help = aider, read = lire, write = écrire, door = porte, window = fenêtre.",
+      "tip": "Door (porte) et window (fenêtre) ne changent pas selon le genre : the door, the window.",
+      "extraExample": {"text": "Can you read the name on the door?", "translation": "Peux-tu lire le nom sur la porte ?"}
+    },
+    {
+      "id": "en.l14.e04",
+      "unitIds": ["en.g11.can", "en.v.help", "en.v.window"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la demande.",
+      "prompt": "Can you ___ me with the window?",
+      "promptLanguage": "en",
+      "options": ["help", "helps", "to help", "helping"],
+      "answer": "help",
+      "acceptedAnswers": ["help"],
+      "hint": "Après can you, on met le verbe de base.",
+      "explanation": "Après Can you, le verbe reste à sa forme de base : help. On n'ajoute ni -s, ni to, ni -ing.",
+      "tip": "Can you + verbe de base ? Rien d'autre à ajouter.",
+      "extraExample": {"text": "Can you help me with the door?", "translation": "Peux-tu m'aider avec la porte ?"},
+      "errorPatterns": [
+        {"equals": "helps", "category": "conjugation", "feedback": "Après can, le verbe ne prend jamais de -s : Can you help me?"},
+        {"equals": "to help", "category": "grammar", "feedback": "Après can, on n'ajoute pas to : Can you help me?"},
+        {"equals": "helping", "category": "grammar", "feedback": "Après can, le verbe reste à sa forme de base, sans -ing : help."}
+      ]
+    },
+    {
+      "id": "en.l14.e05",
+      "unitIds": ["en.g11.can", "en.v.read", "en.v.book"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "Can you ___ the book? (lire)",
+      "promptLanguage": "en",
+      "options": ["read", "write", "help", "reads"],
+      "answer": "read",
+      "acceptedAnswers": ["read"],
+      "hint": "Le verbe qui veut dire « lire ».",
+      "explanation": "« Lire » se dit read. Après Can you, le verbe reste à sa forme de base : Can you read the book?",
+      "tip": "Read = lire, write = écrire : ne les mélange pas.",
+      "extraExample": {"text": "I can read French.", "translation": "Je sais lire le français."},
+      "errorPatterns": [
+        {"equals": "write", "category": "vocabulary", "feedback": "Write veut dire « écrire ». Pour « lire », on dit read."},
+        {"equals": "help", "category": "vocabulary", "feedback": "Help veut dire « aider ». Pour « lire », on dit read."},
+        {"equals": "reads", "category": "conjugation", "feedback": "Après can, le verbe ne prend jamais de -s : Can you read?"}
+      ]
+    },
+    {
+      "id": "en.l14.e06",
+      "unitIds": ["en.g11.can", "en.v.read", "en.v.door"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Peux-tu lire le nom sur la porte ?",
+      "promptLanguage": "fr",
+      "tokens": ["door", "Can", "read", "you", "the", "name", "on", "the"],
+      "answer": "Can you read the name on the door",
+      "acceptedAnswers": ["Can you read the name on the door"],
+      "hint": "Une question avec can commence par Can.",
+      "explanation": "Dans une demande, can se place avant le sujet : Can you. Puis le verbe de base read, puis le complément the name on the door.",
+      "tip": "Can + sujet + verbe + complément.",
+      "extraExample": {"text": "Can you write the name on the window?", "translation": "Peux-tu écrire le nom sur la fenêtre ?"}
+    },
+    {
+      "id": "en.l14.e07",
+      "unitIds": ["en.g11.can", "en.v.write", "en.v.name"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Peux-tu écrire ton nom ?",
+      "promptLanguage": "fr",
+      "answer": "Can you write your name?",
+      "acceptedAnswers": ["Can you write your name?", "Could you write your name?", "Can you write your name, please?", "Could you write your name, please?", "Can you please write your name?", "Could you please write your name?", "Please can you write your name?", "Please could you write your name?"],
+      "hint": "Peux-tu = Can you.",
+      "explanation": "Pour demander à quelqu'un de faire quelque chose, on utilise Can you + verbe de base ? : Can you write your name? Ton nom se dit your name.",
+      "tip": "Peux-tu… ? se dit Can you… ? Le verbe suit directement.",
+      "extraExample": {"text": "Can you read your name?", "translation": "Peux-tu lire ton nom ?"},
+      "errorPatterns": [
+        {"contains": "can you to", "category": "grammar", "feedback": "Après can you, on n'ajoute pas to : Can you write your name?"},
+        {"contains": "you can write", "category": "word_order", "feedback": "Pour poser une question, on met can avant le sujet : Can you write your name?"},
+        {"contains": "can you writes", "category": "conjugation", "feedback": "Après can, le verbe ne prend jamais de -s : Can you write?"}
+      ]
+    },
+    {
+      "id": "en.l14.e08",
+      "unitIds": ["en.g11.can", "en.v.take", "en.v.bag"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Puis-je prendre ton sac ?",
+      "promptLanguage": "fr",
+      "answer": "Can I take your bag?",
+      "acceptedAnswers": ["Can I take your bag?", "May I take your bag?", "Could I take your bag?", "Can I take your bag, please?", "Could I take your bag, please?", "May I take your bag, please?"],
+      "hint": "Pour demander la permission avec I : Can I… ?",
+      "explanation": "Pour demander la permission, on utilise Can I + verbe de base ? Can se place avant I, et le verbe reste à sa forme de base : Can I take your bag?",
+      "tip": "Can I… ? sert à demander la permission : Puis-je… ?",
+      "extraExample": {"text": "Can I go home?", "translation": "Puis-je rentrer à la maison ?"},
+      "errorPatterns": [
+        {"contains": "can i to", "category": "grammar", "feedback": "Après can I, on n'ajoute pas to : Can I take your bag?"},
+        {"contains": "i can take", "category": "word_order", "feedback": "Pour poser une question, on met can avant le sujet : Can I take your bag?"},
+        {"contains": "can i takes", "category": "conjugation", "feedback": "Après can, le verbe ne prend jamais de -s : Can I take?"}
+      ]
+    },
+    {
+      "id": "en.l14.e09",
+      "unitIds": ["en.g11.can", "en.v.go", "en.v.home"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Anna donne la permission à Tom. Comment dit-on « Oui, tu peux rentrer à la maison » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Yes, you can go home.",
+      "acceptedAnswers": ["Yes, you can go home.", "You can go home.", "Yes you can go home.", "Yes, you may go home.", "You may go home."],
+      "hint": "Pour donner la permission, on dit you can + verbe.",
+      "explanation": "Pour donner la permission, on utilise you can + verbe de base. Rentrer à la maison se dit go home, sans to devant home.",
+      "tip": "You can + verbe = tu peux, tu as le droit de.",
+      "extraExample": {"text": "Yes, you can take my phone.", "translation": "Oui, tu peux prendre mon téléphone."},
+      "errorPatterns": [
+        {"contains": "can to go", "category": "grammar", "feedback": "Après can, on n'ajoute pas to : you can go home."},
+        {"contains": "go to home", "category": "preposition", "feedback": "Devant home, on n'ajoute pas to : go home."},
+        {"contains": "you cans", "category": "conjugation", "feedback": "Can ne prend jamais de -s : you can go."}
+      ]
+    },
+    {
+      "id": "en.l14.e10",
+      "unitIds": ["en.g11.can", "en.v.read", "en.v.name"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Je ne peux pas lire ton nom » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I can't read your name.",
+      "acceptedAnswers": ["I can't read your name."],
+      "hint": "Can't + verbe de base.",
+      "explanation": "Pour dire qu'on ne peut pas faire quelque chose, on utilise can't + verbe de base : I can't read. Ton nom se dit your name.",
+      "tip": "Can't + verbe de base, sans to et sans -s.",
+      "extraExample": {"text": "We can't read the name on the window.", "translation": "Nous ne pouvons pas lire le nom sur la fenêtre."},
+      "errorPatterns": [
+        {"contains": "can't to", "category": "grammar", "feedback": "Après can't, on n'ajoute pas to : I can't read."},
+        {"contains": "can read not", "category": "word_order", "feedback": "La négation se place sur can : I can't read."},
+        {"contains": "can't reads", "category": "conjugation", "feedback": "Après can't, le verbe reste à sa forme de base : I can't read."}
+      ]
+    }
+  ]
+}

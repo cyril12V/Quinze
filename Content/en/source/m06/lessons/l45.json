@@ -1,0 +1,225 @@
+{
+  "lessonId": "en.l45",
+  "exercises": [
+    {
+      "id": "en.l45.e01",
+      "unitIds": ["en.g30.how_much_many", "en.v.luggage"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « J'ai beaucoup de bagages. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I have a lot of luggage.", "I have a lot of luggages.", "I have a lot luggage.", "I have many luggages."],
+      "answer": "I have a lot of luggage.",
+      "acceptedAnswers": ["I have a lot of luggage."],
+      "hint": "En français, « bagages » est pluriel. En anglais, luggage ne l'est jamais.",
+      "explanation": "Luggage est un nom qu'on ne compte pas : il n'a jamais de -s, même si on pense à plusieurs sacs. Dans une phrase affirmative, « beaucoup de » se dit a lot of.",
+      "tip": "Luggage ne prend jamais de -s : pas de « luggages ».",
+      "extraExample": {"text": "He has a lot of luggage for the trip.", "translation": "Il a beaucoup de bagages pour le voyage."},
+      "errorPatterns": [
+        {"equals": "i have a lot of luggages", "category": "grammar", "feedback": "Luggage ne prend jamais de -s : c'est un nom qu'on ne compte pas. On dit a lot of luggage."},
+        {"equals": "i have a lot luggage", "category": "grammar", "feedback": "Il manque of : on dit a lot of luggage."},
+        {"equals": "i have many luggages", "category": "grammar", "feedback": "Luggage n'a pas de pluriel (pas de -s). Et dans une phrase affirmative, on préfère a lot of : a lot of luggage."}
+      ]
+    },
+    {
+      "id": "en.l45.e02",
+      "unitIds": ["en.g29.some_any", "en.v.ticket", "en.v.station"],
+      "type": "mcq",
+      "difficulty": 2,
+      "context": "Anna is at the station. She speaks to a woman.",
+      "instruction": "Choisis le bon mot.",
+      "prompt": "Can I have ___ tickets for tomorrow, please?",
+      "promptLanguage": "en",
+      "options": ["some", "any", "a"],
+      "answer": "some",
+      "acceptedAnswers": ["some"],
+      "hint": "Anna fait une demande polie.",
+      "explanation": "Dans une demande polie (Can I have… ?), on garde some, même dans une question. Tickets est au pluriel, donc pas de a.",
+      "tip": "Demande polie : some. Négation ou question simple : any.",
+      "extraExample": {"text": "Can I have some water, please?", "translation": "Puis-je avoir de l'eau, s'il vous plaît ?"},
+      "errorPatterns": [
+        {"equals": "any", "category": "grammar", "feedback": "Any s'utilise dans les négations et les questions simples. Anna demande poliment quelque chose : on dit some."},
+        {"equals": "a", "category": "grammar", "feedback": "A s'utilise avec un seul billet. Tickets est un pluriel : some tickets."}
+      ]
+    },
+    {
+      "id": "en.l45.e03",
+      "unitIds": ["en.g30.how_much_many", "en.v.ticket", "en.v.station", "en.v.airport", "en.v.passport", "en.v.luggage"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot du voyage à sa traduction.",
+      "prompt": "Transport et voyage",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "ticket", "right": "le billet"},
+        {"left": "station", "right": "la gare"},
+        {"left": "airport", "right": "l'aéroport"},
+        {"left": "passport", "right": "le passeport"},
+        {"left": "luggage", "right": "les bagages"}
+      ],
+      "answer": "ticket = le billet ; station = la gare ; airport = l'aéroport ; passport = le passeport ; luggage = les bagages",
+      "acceptedAnswers": [],
+      "explanation": "Ticket est le billet (de train, d'avion…), station la gare et airport l'aéroport. Luggage veut dire « les bagages » mais reste singulier en anglais : jamais de -s.",
+      "tip": "En français « les bagages » est pluriel ; en anglais luggage ne l'est jamais.",
+      "extraExample": {"text": "I have my passport and my ticket.", "translation": "J'ai mon passeport et mon billet."}
+    },
+    {
+      "id": "en.l45.e04",
+      "unitIds": ["en.g30.how_much_many", "en.v.ticket"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "How ___ tickets do you need?",
+      "promptLanguage": "en",
+      "options": ["many", "much", "of"],
+      "answer": "many",
+      "acceptedAnswers": ["many"],
+      "hint": "Tickets est au pluriel : on peut compter les billets.",
+      "explanation": "Les billets se comptent (one ticket, two tickets) : on utilise how many + pluriel. How much est réservé aux noms qu'on ne compte pas.",
+      "tip": "Un -s à la fin du nom ? How many.",
+      "extraExample": {"text": "How many bags do you have?", "translation": "Combien de sacs as-tu ?"},
+      "errorPatterns": [
+        {"equals": "much", "category": "grammar", "feedback": "How much s'utilise avec un nom qu'on ne compte pas (money, luggage). Tickets se compte : how many."},
+        {"equals": "of", "category": "grammar", "feedback": "« Combien de » se dit how many ou how much, sans of : How many tickets ?"}
+      ]
+    },
+    {
+      "id": "en.l45.e05",
+      "unitIds": ["en.g30.how_much_many", "en.g28.there_is_are", "en.v.luggage", "en.v.airport"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec is, are ou have.",
+      "prompt": "There ___ a lot of luggage at the airport.",
+      "promptLanguage": "en",
+      "options": ["is", "are", "have"],
+      "answer": "is",
+      "acceptedAnswers": ["is"],
+      "hint": "Luggage a-t-il un pluriel ?",
+      "explanation": "Luggage ne se compte pas et n'a pas de pluriel : le verbe reste au singulier. On dit donc there is a lot of luggage, même s'il y a beaucoup de sacs.",
+      "tip": "Nom qu'on ne compte pas (luggage, money, bread) : there is.",
+      "extraExample": {"text": "There is a lot of food on the table.", "translation": "Il y a beaucoup de nourriture sur la table."},
+      "errorPatterns": [
+        {"equals": "are", "category": "grammar", "feedback": "Luggage n'a pas de pluriel : on ne dit pas « luggages ». Avec un nom qu'on ne compte pas, on utilise there is."},
+        {"equals": "have", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec have. Ici, on dit there is."}
+      ]
+    },
+    {
+      "id": "en.l45.e06",
+      "unitIds": ["en.g29.some_any", "en.g28.there_is_are", "en.v.passport"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Il n'y a pas de passeports sur la table.",
+      "promptLanguage": "fr",
+      "tokens": ["any", "There", "passports", "table", "aren't", "on", "the"],
+      "answer": "There aren't any passports on the table",
+      "acceptedAnswers": ["There aren't any passports on the table"],
+      "hint": "There aren't + any + nom au pluriel.",
+      "explanation": "Pour dire « il n'y a pas de » devant un pluriel, on dit there aren't any + nom. Any remplace some dans une phrase négative.",
+      "tip": "Négation + pluriel : there aren't any + nom en -s.",
+      "extraExample": {"text": "There aren't any hotels in this city.", "translation": "Il n'y a pas d'hôtels dans cette ville."}
+    },
+    {
+      "id": "en.l45.e07",
+      "unitIds": ["en.g30.how_much_many", "en.v.ticket", "en.v.airport", "en.v.price"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Combien coûte le billet pour l'aéroport ?",
+      "promptLanguage": "fr",
+      "answer": "How much is the ticket to the airport?",
+      "acceptedAnswers": [
+        "How much is the ticket to the airport?",
+        "How much is the ticket for the airport?",
+        "How much is the airport ticket?",
+        "How much does the ticket to the airport cost?"
+      ],
+      "hint": "Pour demander un prix : How much is… ?",
+      "explanation": "Pour demander le prix d'un objet, on dit How much is… ? Un seul billet, donc is. « Pour l'aéroport » se dit to the airport.",
+      "tip": "Le prix : How much is… ? Compter des objets : How many… ?",
+      "extraExample": {"text": "How much is the ticket to Paris?", "translation": "Combien coûte le billet pour Paris ?"},
+      "errorPatterns": [
+        {"contains": "how many", "category": "grammar", "feedback": "How many sert à compter des objets. Pour demander un prix, on dit how much."},
+        {"contains": "how much are the ticket", "category": "grammar", "feedback": "Un seul billet : on dit is, pas are. How much is the ticket ?"},
+        {"equals": "how much the ticket to the airport", "category": "grammar", "feedback": "Il manque le verbe is : How much is the ticket to the airport ?"}
+      ]
+    },
+    {
+      "id": "en.l45.e08",
+      "unitIds": ["en.g29.some_any", "en.v.luggage"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais, avec any.",
+      "prompt": "Je n'ai pas de bagages.",
+      "promptLanguage": "fr",
+      "answer": "I don't have any luggage.",
+      "acceptedAnswers": [
+        "I don't have any luggage.",
+        "I do not have any luggage.",
+        "I haven't got any luggage.",
+        "I have no luggage."
+      ],
+      "hint": "Négation : don't have + any + luggage (sans -s).",
+      "explanation": "Dans une phrase négative, « de, des » se dit any : I don't have any luggage. Luggage ne prend jamais de -s.",
+      "tip": "Négation + nom non compté : not + any + luggage / money / bread.",
+      "extraExample": {"text": "I don't have any money.", "translation": "Je n'ai pas d'argent."},
+      "errorPatterns": [
+        {"contains": "luggages", "category": "grammar", "feedback": "Luggage ne prend jamais de -s. Écris any luggage."},
+        {"contains": "some luggage", "category": "grammar", "feedback": "Dans une phrase négative, on utilise any, pas some : I don't have any luggage."},
+        {"equals": "i don't have luggage", "category": "instruction", "feedback": "Ta phrase est correcte, mais la consigne demande d'utiliser any : I don't have any luggage."}
+      ]
+    },
+    {
+      "id": "en.l45.e09",
+      "unitIds": ["en.g30.how_much_many", "en.v.luggage"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "context": "At the airport, a man asks Anna a question about her bags.",
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment demande-t-il « Combien de bagages as-tu ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "How much luggage do you have?",
+      "acceptedAnswers": [
+        "How much luggage do you have?",
+        "How much luggage have you got?",
+        "How many bags do you have?",
+        "How many bags have you got?"
+      ],
+      "hint": "Luggage ne se compte pas.",
+      "explanation": "Luggage est un nom qu'on ne compte pas : on dit how much luggage, sans -s. Si tu veux compter, tu peux parler de bags : How many bags ?",
+      "tip": "How much luggage… ? : jamais « how many luggages ».",
+      "extraExample": {"text": "How much money do you have?", "translation": "Combien d'argent as-tu ?"},
+      "errorPatterns": [
+        {"contains": "luggages", "category": "grammar", "feedback": "Luggage ne prend jamais de -s. Écris how much luggage."},
+        {"equals": "how many luggage do you have", "category": "grammar", "feedback": "How many s'utilise avec un pluriel qu'on compte. Luggage ne se compte pas : how much luggage."},
+        {"contains": "how much bags", "category": "grammar", "feedback": "Les sacs se comptent : how many bags. Avec luggage, on dit how much luggage."}
+      ]
+    },
+    {
+      "id": "en.l45.e10",
+      "unitIds": ["en.g28.there_is_are", "en.v.station"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment dit-on « Y a-t-il une gare près de l'hôtel ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Is there a station near the hotel?",
+      "acceptedAnswers": [
+        "Is there a station near the hotel?",
+        "Is there a station close to the hotel?",
+        "Is there a station near our hotel?",
+        "Is there a station near my hotel?"
+      ],
+      "hint": "Pour poser la question, is passe devant there.",
+      "explanation": "Pour poser la question avec there is, on inverse : Is there a station… ? « Près de » se dit near. Une seule gare, donc is.",
+      "tip": "There is → Is there ? : le verbe passe devant there.",
+      "extraExample": {"text": "Is there a shop near the airport?", "translation": "Y a-t-il un magasin près de l'aéroport ?"},
+      "errorPatterns": [
+        {"equals": "there is a station near the hotel", "category": "word_order", "feedback": "Pour poser une question, inverse : is passe devant there. Is there a station near the hotel ?"},
+        {"contains": "have a station", "category": "grammar", "feedback": "« Y a-t-il » ne se dit pas avec have. Écris Is there a station… ?"},
+        {"contains": "are there a", "category": "grammar", "feedback": "Are there s'utilise avec un pluriel. Une seule gare : Is there a station… ?"}
+      ]
+    }
+  ]
+}

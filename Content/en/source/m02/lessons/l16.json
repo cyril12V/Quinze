@@ -1,0 +1,430 @@
+{
+  "lessonId": "en.l16",
+  "exercises": [
+    {
+      "id": "en.l16.e01",
+      "unitIds": [
+        "en.g13.imperative",
+        "en.v.stand_up"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Lève-toi ! » en anglais ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Stand up!",
+        "Stands up!",
+        "To stand up!",
+        "You are stand up!"
+      ],
+      "answer": "Stand up!",
+      "acceptedAnswers": [
+        "Stand up!"
+      ],
+      "hint": "Un ordre = le verbe de base, tout seul.",
+      "explanation": "Pour donner un ordre, on utilise le verbe de base, sans sujet : Stand up! On n'ajoute ni -s, ni to, ni le verbe être.",
+      "tip": "Un ordre en anglais = le verbe tout seul.",
+      "extraExample": {
+        "text": "Sit down!",
+        "translation": "Assieds-toi !"
+      },
+      "errorPatterns": [
+        {
+          "equals": "stands up!",
+          "category": "conjugation",
+          "feedback": "Pour un ordre, le verbe reste à sa forme de base, sans -s : Stand up!"
+        },
+        {
+          "equals": "to stand up!",
+          "category": "grammar",
+          "feedback": "Dans un ordre, on n'ajoute pas to : on dit simplement Stand up!"
+        },
+        {
+          "equals": "you are stand up!",
+          "category": "grammar",
+          "feedback": "Un ordre n'a pas de sujet ni de verbe être : on dit simplement Stand up!"
+        }
+      ]
+    },
+    {
+      "id": "en.l16.e02",
+      "unitIds": [
+        "en.g13.imperative"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le mot qui manque pour dire « Ne sois pas en retard ! »",
+      "prompt": "___ be late!",
+      "promptLanguage": "en",
+      "options": [
+        "Don't",
+        "Not",
+        "No",
+        "Isn't"
+      ],
+      "answer": "Don't",
+      "acceptedAnswers": [
+        "Don't"
+      ],
+      "hint": "Pour interdire, on met un petit mot devant le verbe de base.",
+      "explanation": "Pour dire à quelqu'un de ne pas faire quelque chose, on met Don't devant le verbe de base : Don't be late! Be est la forme de base du verbe être.",
+      "tip": "Ordre négatif : Don't + verbe de base.",
+      "extraExample": {
+        "text": "Don't stop!",
+        "translation": "Ne t'arrête pas !"
+      },
+      "errorPatterns": [
+        {
+          "equals": "not",
+          "category": "grammar",
+          "feedback": "On ne met pas not seul devant le verbe dans un ordre. On dit Don't + verbe : Don't be late!"
+        },
+        {
+          "equals": "no",
+          "category": "grammar",
+          "feedback": "No veut dire « non » ou « aucun ». Pour interdire, on dit Don't + verbe."
+        },
+        {
+          "equals": "isn't",
+          "category": "grammar",
+          "feedback": "Isn't ne convient pas devant be. Pour un ordre négatif, on dit toujours Don't + verbe."
+        }
+      ]
+    },
+    {
+      "id": "en.l16.e03",
+      "unitIds": [
+        "en.g13.imperative",
+        "en.v.come",
+        "en.v.look",
+        "en.v.listen",
+        "en.v.sit_down",
+        "en.v.stand_up"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque ordre anglais à sa traduction.",
+      "prompt": "Les consignes : come, look, listen, sit down, stand up",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Come with me!",
+          "right": "Viens avec moi !"
+        },
+        {
+          "left": "Look at the book!",
+          "right": "Regarde le livre !"
+        },
+        {
+          "left": "Listen, please.",
+          "right": "Écoute, s'il te plaît."
+        },
+        {
+          "left": "Sit down!",
+          "right": "Assieds-toi !"
+        },
+        {
+          "left": "Stand up!",
+          "right": "Lève-toi !"
+        }
+      ],
+      "answer": "Come with me! = Viens avec moi ! ; Look at the book! = Regarde le livre ! ; Listen, please. = Écoute, s'il te plaît. ; Sit down! = Assieds-toi ! ; Stand up! = Lève-toi !",
+      "acceptedAnswers": [],
+      "explanation": "L'impératif est le verbe de base tout seul. Sit down et stand up sont deux verbes à particule : ils se disent toujours avec down et up. Look est suivi de at devant ce qu'on regarde.",
+      "tip": "Look at = regarder quelque chose. Sit down, stand up : les deux mots vont ensemble.",
+      "extraExample": {
+        "text": "Come and look at the window!",
+        "translation": "Viens regarder la fenêtre !"
+      }
+    },
+    {
+      "id": "en.l16.e04",
+      "unitIds": [
+        "en.g13.imperative",
+        "en.v.open",
+        "en.v.door"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme.",
+      "prompt": "Don't ___ the door! (ouvrir)",
+      "promptLanguage": "en",
+      "options": [
+        "open",
+        "opens",
+        "to open",
+        "opening"
+      ],
+      "answer": "open",
+      "acceptedAnswers": [
+        "open"
+      ],
+      "hint": "Après Don't, le verbe est à sa forme de base.",
+      "explanation": "Après Don't, on met le verbe de base : Don't open the door! On n'ajoute ni -s, ni to, ni -ing.",
+      "tip": "Don't + verbe de base : rien d'autre à ajouter.",
+      "extraExample": {
+        "text": "Don't close the window!",
+        "translation": "Ne ferme pas la fenêtre !"
+      },
+      "errorPatterns": [
+        {
+          "equals": "opens",
+          "category": "conjugation",
+          "feedback": "Après Don't, le verbe ne prend pas de -s : Don't open."
+        },
+        {
+          "equals": "to open",
+          "category": "grammar",
+          "feedback": "Après Don't, on n'ajoute pas to : Don't open the door!"
+        },
+        {
+          "equals": "opening",
+          "category": "grammar",
+          "feedback": "Après Don't, le verbe reste à sa forme de base, sans -ing : Don't open."
+        }
+      ]
+    },
+    {
+      "id": "en.l16.e05",
+      "unitIds": [
+        "en.g13.imperative",
+        "en.v.go",
+        "en.v.home"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "___ go home! (allons)",
+      "promptLanguage": "en",
+      "options": [
+        "Let's",
+        "Lets",
+        "Let",
+        "We"
+      ],
+      "answer": "Let's",
+      "acceptedAnswers": [
+        "Let's",
+        "Let us"
+      ],
+      "hint": "Pour proposer quelque chose à plusieurs.",
+      "explanation": "Pour proposer de faire quelque chose ensemble, on dit Let's + verbe de base : Let's go home! Let's est la contraction de let us.",
+      "tip": "Let's + verbe de base = « allons-y, faisons… ».",
+      "extraExample": {
+        "text": "Let's wait.",
+        "translation": "Attendons."
+      },
+      "errorPatterns": [
+        {
+          "equals": "lets",
+          "category": "spelling",
+          "feedback": "Il faut l'apostrophe : Let's est la contraction de let us."
+        },
+        {
+          "equals": "let",
+          "category": "grammar",
+          "feedback": "Pour proposer quelque chose à plusieurs, on dit Let's (let us), avec 's."
+        },
+        {
+          "equals": "we",
+          "category": "grammar",
+          "feedback": "Pour dire « allons-y », on utilise Let's + verbe, pas we."
+        }
+      ]
+    },
+    {
+      "id": "en.l16.e06",
+      "unitIds": [
+        "en.g13.imperative",
+        "en.v.listen",
+        "en.v.teacher"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Écoute le professeur, s'il te plaît.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "the",
+        "Please",
+        "teacher",
+        "to",
+        "listen"
+      ],
+      "answer": "Please listen to the teacher",
+      "acceptedAnswers": [
+        "Please listen to the teacher",
+        "Listen to the teacher please"
+      ],
+      "hint": "Écouter quelqu'un se dit listen to.",
+      "explanation": "Un ordre commence par le verbe de base. Écouter quelqu'un se dit listen to. Please peut se placer au début ou à la fin.",
+      "tip": "Listen to + quelqu'un : en anglais, il faut to.",
+      "extraExample": {
+        "text": "Listen to your mother.",
+        "translation": "Écoute ta mère."
+      }
+    },
+    {
+      "id": "en.l16.e07",
+      "unitIds": [
+        "en.g13.imperative"
+      ],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Ne sois pas en retard !",
+      "promptLanguage": "fr",
+      "answer": "Don't be late!",
+      "acceptedAnswers": [
+        "Don't be late!",
+        "Do not be late!"
+      ],
+      "hint": "Ordre négatif : Don't + verbe de base.",
+      "explanation": "Pour dire « ne… pas » dans un ordre, on utilise Don't + verbe de base. Le verbe de base d'être est be : Don't be late!",
+      "tip": "Don't be + adjectif : le verbe être devient be.",
+      "extraExample": {
+        "text": "Don't be tired!",
+        "translation": "Ne sois pas fatigué !"
+      },
+      "errorPatterns": [
+        {
+          "category": "grammar",
+          "feedback": "Dans un ordre négatif, on met Don't devant le verbe : Don't be late!",
+          "equals": "not be late"
+        },
+        {
+          "contains": "don't late",
+          "category": "grammar",
+          "feedback": "Il manque le verbe be : Don't be late!"
+        },
+        {
+          "contains": "don't to be",
+          "category": "grammar",
+          "feedback": "Après Don't, on n'ajoute pas to : Don't be late!"
+        }
+      ]
+    },
+    {
+      "id": "en.l16.e08",
+      "unitIds": [
+        "en.g13.imperative",
+        "en.v.sit_down",
+        "en.v.listen"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Assieds-toi et écoute, s'il te plaît.",
+      "promptLanguage": "fr",
+      "answer": "Sit down and listen, please.",
+      "acceptedAnswers": [
+        "Sit down and listen, please.",
+        "Please sit down and listen.",
+        "Sit down and listen.",
+        "Please, sit down and listen.",
+        "You sit down and listen."
+      ],
+      "hint": "Deux ordres reliés par and.",
+      "explanation": "Chaque ordre est le verbe de base tout seul : sit down, puis listen. On les relie avec and, et please rend la phrase polie.",
+      "tip": "Deux ordres de suite : sit down and listen, sans sujet.",
+      "extraExample": {
+        "text": "Stand up and come with me, please.",
+        "translation": "Lève-toi et viens avec moi, s'il te plaît."
+      },
+      "errorPatterns": [
+        {
+          "contains": "to sit",
+          "category": "grammar",
+          "feedback": "Dans un ordre, on n'ajoute pas to : Sit down and listen."
+        },
+        {
+          "contains": "sit and",
+          "category": "vocabulary",
+          "feedback": "S'asseoir se dit sit down, avec down : Sit down and listen."
+        }
+      ]
+    },
+    {
+      "id": "en.l16.e09",
+      "unitIds": [
+        "en.g13.imperative",
+        "en.v.come"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Viens avec moi ! » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Come with me!",
+      "acceptedAnswers": [
+        "Come with me!",
+        "Come with me, please!",
+        "Please come with me!",
+        "Please, come with me!",
+        "You come with me!"
+      ],
+      "hint": "Un ordre = le verbe de base. « Avec » se dit with.",
+      "explanation": "Pour donner un ordre, on utilise le verbe de base, sans sujet : Come! Avec moi se dit with me.",
+      "tip": "Pas de you devant un ordre : Come with me!",
+      "extraExample": {
+        "text": "Come home!",
+        "translation": "Rentre à la maison !"
+      },
+      "errorPatterns": [
+        {
+          "contains": "come with i",
+          "category": "grammar",
+          "feedback": "Après with, « moi » se dit me, pas I : Come with me!"
+        },
+        {
+          "contains": "comes",
+          "category": "conjugation",
+          "feedback": "Pour un ordre, le verbe reste à sa forme de base, sans -s : Come!"
+        }
+      ]
+    },
+    {
+      "id": "en.l16.e10",
+      "unitIds": [
+        "en.g13.imperative",
+        "en.v.look",
+        "en.v.phone"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Ne regardez pas le téléphone ! » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Don't look at the phone!",
+      "acceptedAnswers": [
+        "Don't look at the phone!",
+        "Don't look at your phone!"
+      ],
+      "hint": "Ordre négatif + look at.",
+      "explanation": "Pour interdire, on met Don't devant le verbe de base : Don't look. Regarder quelque chose se dit look at : look at the phone.",
+      "tip": "Don't look at… : regarder quelque chose = look at.",
+      "extraExample": {
+        "text": "Don't look at the dog!",
+        "translation": "Ne regarde pas le chien !"
+      },
+      "errorPatterns": [
+        {
+          "contains": "don't look the",
+          "category": "preposition",
+          "feedback": "Regarder quelque chose se dit look at : Don't look at the phone!"
+        },
+        {
+          "contains": "not look",
+          "category": "grammar",
+          "feedback": "Dans un ordre négatif, on met Don't devant le verbe : Don't look at the phone!"
+        },
+        {
+          "contains": "don't to look",
+          "category": "grammar",
+          "feedback": "Après Don't, on n'ajoute pas to : Don't look at the phone!"
+        }
+      ]
+    }
+  ]
+}

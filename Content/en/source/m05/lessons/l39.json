@@ -1,0 +1,210 @@
+{
+  "lessonId": "en.l39",
+  "exercises": [
+    {
+      "id": "en.l39.e01",
+      "unitIds": ["en.g26.will_vs_going_to", "en.g25.going_to"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "context": "Yesterday, Tom decided: he doesn't like his job. He wants a new one.",
+      "prompt": "Tom ___ look for a new job.",
+      "promptLanguage": "en",
+      "options": ["is going to", "will", "are going to", "is going"],
+      "answer": "is going to",
+      "acceptedAnswers": ["is going to"],
+      "hint": "Tom a décidé hier : le projet existe déjà avant qu'il en parle.",
+      "explanation": "Tom a déjà décidé hier : c'est un projet prévu avant qu'on en parle. Pour un projet déjà décidé, on utilise be going to : Tom is going to look for a new job.",
+      "tip": "Décision déjà prise avant de parler : going to.",
+      "extraExample": {"text": "Last week, Anna decided to move. She's going to live in London.", "translation": "La semaine dernière, Anna a décidé de déménager. Elle va habiter à Londres."},
+      "errorPatterns": [
+        {"equals": "will", "category": "grammar", "feedback": "Will sert à une décision prise à l'instant. Ici, Tom a déjà décidé hier : le projet est prévu, donc be going to."},
+        {"equals": "are going to", "category": "conjugation", "feedback": "Avec Tom (he), be devient is : Tom is going to look for…"},
+        {"equals": "is going", "category": "grammar", "feedback": "Il manque to après going : be + going to + verbe de base."}
+      ]
+    },
+    {
+      "id": "en.l39.e02",
+      "unitIds": ["en.g26.will_vs_going_to", "en.g24.will_future", "en.v.idea", "en.v.problem"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme.",
+      "context": "Tom has a problem: he needs to call his mother, but his phone is at home. Anna has an idea.",
+      "prompt": "Anna: « Wait! I ___ lend you my phone. »",
+      "promptLanguage": "en",
+      "options": ["will", "am going to", "wills", "going to"],
+      "answer": "will",
+      "acceptedAnswers": ["will"],
+      "hint": "Anna n'avait rien prévu : elle réagit au problème de Tom, à l'instant.",
+      "explanation": "Anna décide à l'instant, quand elle comprend le problème de Tom : c'est une décision spontanée et une proposition. On utilise will : I will lend you my phone.",
+      "tip": "Décision sur le moment, proposition ou promesse : will.",
+      "extraExample": {"text": "You're tired? I'll make you a coffee.", "translation": "Tu es fatigué ? Je te prépare un café."},
+      "errorPatterns": [
+        {"equals": "am going to", "category": "grammar", "feedback": "Anna n'avait rien prévu : elle décide maintenant pour aider Tom. Pour une décision à l'instant ou une proposition, on utilise will."},
+        {"equals": "wills", "category": "conjugation", "feedback": "Will ne prend jamais de -s : I will, he will, they will."},
+        {"equals": "going to", "category": "grammar", "feedback": "Going to a besoin de be (I am going to), et ici c'est une décision à l'instant : will."}
+      ]
+    },
+    {
+      "id": "en.l39.e03",
+      "unitIds": ["en.g26.will_vs_going_to", "en.v.probably", "en.v.hope", "en.v.guess", "en.v.idea", "en.v.problem"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot anglais à sa traduction.",
+      "prompt": "Les mots pour parler de l'avenir : probably, hope, guess, idea, problem",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "probably", "right": "probablement"},
+        {"left": "hope", "right": "espérer"},
+        {"left": "guess", "right": "deviner, supposer"},
+        {"left": "an idea", "right": "une idée"},
+        {"left": "a problem", "right": "un problème"}
+      ],
+      "answer": "probably = probablement ; hope = espérer ; guess = deviner, supposer ; an idea = une idée ; a problem = un problème",
+      "acceptedAnswers": [],
+      "explanation": "Probably, I hope et I guess annoncent une supposition sur le futur : on les utilise souvent avec will. Idea commence par un son de voyelle : an idea.",
+      "tip": "I hope, I guess, probably : une supposition, donc souvent will.",
+      "extraExample": {"text": "I guess Anna will like the idea.", "translation": "Je suppose que l'idée plaira à Anna."}
+    },
+    {
+      "id": "en.l39.e04",
+      "unitIds": ["en.g26.will_vs_going_to", "en.g25.going_to"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme du futur.",
+      "context": "The sky is very dark. Anna looks out of the window.",
+      "prompt": "Look at the sky! It ___ rain.",
+      "promptLanguage": "en",
+      "options": ["is going to", "will", "are going to", "going to"],
+      "answer": "is going to",
+      "acceptedAnswers": ["is going to", "'s going to"],
+      "hint": "Anna voit quelque chose en ce moment, et cela lui montre ce qui va arriver.",
+      "explanation": "Anna voit un signe maintenant (le ciel est très sombre) : la pluie va arriver. Pour une prédiction fondée sur ce qu'on voit, on utilise be going to : It is going to rain.",
+      "tip": "Je vois un signe maintenant : going to.",
+      "extraExample": {"text": "Look at the time! We're going to be late.", "translation": "Regarde l'heure ! Nous allons être en retard."},
+      "errorPatterns": [
+        {"equals": "will", "category": "grammar", "feedback": "Anna voit le ciel sombre en ce moment : c'est un signe visible. Pour une prédiction avec un signe, on utilise be going to."},
+        {"equals": "are going to", "category": "conjugation", "feedback": "Avec it, be devient is : It is going to rain."},
+        {"equals": "going to", "category": "grammar", "feedback": "Il manque is devant going to : It is going to rain."}
+      ]
+    },
+    {
+      "id": "en.l39.e05",
+      "unitIds": ["en.g26.will_vs_going_to", "en.v.probably"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "Tom ___ probably be late.",
+      "promptLanguage": "en",
+      "options": ["will", "is", "does", "going to"],
+      "answer": "will",
+      "acceptedAnswers": ["will", "'ll", "is going to", "'s going to"],
+      "hint": "Probably exprime une supposition sur le futur. Il se place juste avant be.",
+      "explanation": "Probably annonce une supposition, pas un projet : on utilise will. Probably se place entre will et le verbe : Tom will probably be late.",
+      "tip": "Probably, I think, I hope, I guess : on utilise surtout will.",
+      "extraExample": {"text": "Anna will probably call you tonight.", "translation": "Anna t'appellera probablement ce soir."},
+      "errorPatterns": [
+        {"equals": "is", "category": "grammar", "feedback": "Is ne peut pas être suivi de probably be late pour parler du futur. Une supposition sur le futur se fait avec will."},
+        {"equals": "does", "category": "grammar", "feedback": "Does sert au présent simple (does not…). Pour une supposition sur le futur, on utilise will."},
+        {"equals": "going to", "category": "grammar", "feedback": "Going to a besoin de be (is going to). Pour une supposition avec probably, on utilise plutôt will."}
+      ]
+    },
+    {
+      "id": "en.l39.e06",
+      "unitIds": ["en.g26.will_vs_going_to", "en.v.hope"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "J'espère que tu aimeras le cadeau.",
+      "promptLanguage": "fr",
+      "tokens": ["hope", "I", "the", "you", "like", "present", "will"],
+      "answer": "I hope you will like the present",
+      "acceptedAnswers": ["I hope you will like the present"],
+      "hint": "I hope ouvre la phrase. Will se place juste après you.",
+      "explanation": "On espère quelque chose qui n'est pas encore sûr : après I hope, on utilise will + verbe de base. I hope you will like the present veut dire « j'espère que tu aimeras le cadeau ».",
+      "tip": "I hope + sujet + will + verbe de base.",
+      "extraExample": {"text": "I hope Anna will come to the party.", "translation": "J'espère qu'Anna viendra à la fête."}
+    },
+    {
+      "id": "en.l39.e07",
+      "unitIds": ["en.g26.will_vs_going_to", "en.v.idea"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "C'est une bonne idée, je viendrai avec toi.",
+      "promptLanguage": "fr",
+      "answer": "That's a good idea, I will come with you",
+      "acceptedAnswers": ["That's a good idea, I will come with you", "That is a good idea, I will come with you", "It's a good idea, I will come with you", "Good idea, I will come with you", "That's a good idea, I am going to come with you", "That's a good idea, I am coming with you", "That's a good idea, I will go with you"],
+      "hint": "Tu décides à l'instant, en réponse à une idée : quel mot du futur ?",
+      "explanation": "Tu décides sur le moment, juste après avoir entendu l'idée : c'est une décision spontanée, donc will + verbe de base : I will come.",
+      "tip": "Réaction immédiate à une idée ou à un problème : I'll + verbe de base.",
+      "extraExample": {"text": "Good idea! I'll bring the cake.", "translation": "Bonne idée ! J'apporterai le gâteau."},
+      "errorPatterns": [
+        {"contains": "will to come", "category": "grammar", "feedback": "Après will, on ne met pas to : I will come."},
+        {"contains": "an good idea", "category": "grammar", "feedback": "Devant good, qui commence par une consonne, on dit a : a good idea."},
+        {"contains": "idea i come", "category": "verb_tense", "feedback": "Pour une décision à l'instant, le présent simple ne convient pas : I will come with you."}
+      ]
+    },
+    {
+      "id": "en.l39.e08",
+      "unitIds": ["en.g26.will_vs_going_to", "en.v.guess"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je suppose qu'il sera en retard.",
+      "promptLanguage": "fr",
+      "answer": "I guess he will be late",
+      "acceptedAnswers": ["I guess he will be late", "I guess that he will be late", "I guess he is going to be late", "I suppose he will be late", "I think he will be late", "I think he is going to be late"],
+      "hint": "« Je suppose que » se dit I guess. Pour le futur de être, on dit will be.",
+      "explanation": "I guess annonce une supposition : on utilise will + be. He will be late veut dire « il sera en retard ». Après will, be reste à la forme de base.",
+      "tip": "I guess / I think + sujet + will + verbe de base.",
+      "extraExample": {"text": "I guess Tom will be home soon.", "translation": "Je suppose que Tom sera bientôt à la maison."},
+      "errorPatterns": [
+        {"contains": "will to be", "category": "grammar", "feedback": "Après will, on ne met pas to : he will be late."},
+        {"contains": "wills be", "category": "conjugation", "feedback": "Will ne prend jamais de -s : he will be late."},
+        {"contains": "will is", "category": "grammar", "feedback": "Après will, on met be (forme de base), pas is : he will be late."}
+      ]
+    },
+    {
+      "id": "en.l39.e09",
+      "unitIds": ["en.g26.will_vs_going_to", "en.g25.going_to"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "context": "Look at Tom! He is very tired.",
+      "prompt": "Comment dit-on « Il va dormir. » ?",
+      "promptLanguage": "fr",
+      "answer": "He is going to sleep",
+      "acceptedAnswers": ["He is going to sleep", "He is going to go to sleep", "He is going to go to bed", "He is going to have a sleep"],
+      "hint": "On voit que Tom est très fatigué : un signe visible annonce ce qui va arriver.",
+      "explanation": "On voit un signe maintenant (Tom est très fatigué) : on prédit ce qui va arriver avec be going to. Avec he, be devient is : He is going to sleep.",
+      "tip": "Je vois un signe maintenant : be + going to + verbe de base.",
+      "extraExample": {"text": "Look! The dog is going to run.", "translation": "Regarde ! Le chien va courir."},
+      "errorPatterns": [
+        {"equals": "he will sleep", "category": "grammar", "feedback": "Tu vois que Tom est très fatigué : c'est un signe visible. Pour une prédiction avec un signe, on utilise be going to : He is going to sleep."},
+        {"contains": "he going to", "category": "grammar", "feedback": "Il manque is devant going to : He is going to sleep."},
+        {"contains": "going to sleeps", "category": "conjugation", "feedback": "Après going to, le verbe reste à la forme de base : going to sleep."}
+      ]
+    },
+    {
+      "id": "en.l39.e10",
+      "unitIds": ["en.g26.will_vs_going_to", "en.g24.will_future", "en.g25.going_to"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris deux phrases en anglais : un projet déjà décidé avec going to, puis une promesse ou une proposition avec will.",
+      "prompt": "Écris ton projet, puis une promesse.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["going to"], ["will", "'ll", "won't"]], "minWords": 8},
+      "answer": "I'm going to learn French. I will help you tomorrow.",
+      "acceptedAnswers": ["I'm going to learn French. I will help you tomorrow.", "We're going to move next week. I promise I will call you.", "Anna is going to change her job. I won't forget your birthday."],
+      "hint": "Première phrase : I'm going to + verbe (ton projet). Deuxième phrase : I will + verbe (ta promesse).",
+      "explanation": "Un projet déjà décidé se dit avec be going to + verbe de base. Une promesse ou une proposition faite maintenant se dit avec will + verbe de base. Par exemple : I'm going to learn French. I will help you tomorrow.",
+      "tip": "Projet déjà décidé : going to. Promesse ou proposition : will.",
+      "extraExample": {"text": "I'm going to visit my mother. I'll call you later.", "translation": "Je vais rendre visite à ma mère. Je t'appellerai plus tard."},
+      "errorPatterns": [
+        {"contains": "will going to", "category": "grammar", "feedback": "On choisit will ou going to, jamais les deux ensemble dans la même phrase."},
+        {"contains": "will to", "category": "grammar", "feedback": "Après will, on ne met pas to : le verbe de base suit directement."}
+      ]
+    }
+  ]
+}

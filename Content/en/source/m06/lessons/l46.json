@@ -1,0 +1,224 @@
+{
+  "lessonId": "en.l46",
+  "exercises": [
+    {
+      "id": "en.l46.e01",
+      "unitIds": ["en.g31.time_and_dates"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Il est sept heures. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["It's seven o'clock.", "It's seven hours.", "It's seven clock.", "It's at seven."],
+      "answer": "It's seven o'clock.",
+      "acceptedAnswers": ["It's seven o'clock."],
+      "hint": "Pour une heure pile, il faut un mot après le nombre.",
+      "explanation": "Pour dire l'heure pile, on dit It's + nombre + o'clock : It's seven o'clock. Hour (hours) désigne une durée (une heure de temps), pas l'heure qu'il est.",
+      "tip": "L'heure pile : nombre + o'clock, jamais « hours ».",
+      "extraExample": {"text": "It's nine o'clock.", "translation": "Il est neuf heures."},
+      "errorPatterns": [
+        {"contains": "seven hours", "category": "word_confusion", "feedback": "Hours veut dire « durée » (an hour = 60 minutes). Pour l'heure qu'il est, on dit seven o'clock."},
+        {"contains": "seven clock", "category": "spelling", "feedback": "Il manque le o' : on écrit o'clock. It's seven o'clock."},
+        {"contains": "at seven", "category": "grammar", "feedback": "On utilise at pour dire « à quelle heure » (at seven). Pour dire l'heure qu'il est, on dit It's seven o'clock."}
+      ]
+    },
+    {
+      "id": "en.l46.e02",
+      "unitIds": ["en.g31.time_and_dates", "en.v.half"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Il est six heures et demie. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["It's half past six.", "It's six and half.", "It's half to six.", "It's six half."],
+      "answer": "It's half past six.",
+      "acceptedAnswers": ["It's half past six."],
+      "hint": "En anglais, on dit « demie passée » devant l'heure.",
+      "explanation": "« Et demie » se dit half past devant l'heure : half past six (6 h 30). On place half past avant le nombre, et on n'utilise pas and.",
+      "tip": "« Six heures et demie » = half past six : la demi-heure vient avant l'heure.",
+      "extraExample": {"text": "It's half past ten.", "translation": "Il est dix heures et demie."},
+      "errorPatterns": [
+        {"contains": "six and half", "category": "word_order", "feedback": "En anglais, on ne dit pas « six and half ». La demie se place avant l'heure : half past six."},
+        {"contains": "half to six", "category": "grammar", "feedback": "To veut dire « moins » (quarter to six = 5 h 45). Pour 6 h 30, on dit half past six."},
+        {"contains": "six half", "category": "word_order", "feedback": "La demie se place avant l'heure et s'accompagne de past : half past six."}
+      ]
+    },
+    {
+      "id": "en.l46.e03",
+      "unitIds": ["en.v.twenty", "en.v.hundred", "en.v.hour", "en.v.minute", "en.v.half", "en.g31.time_and_dates"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot à sa traduction.",
+      "prompt": "L'heure et les nombres",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "twenty", "right": "vingt"},
+        {"left": "hundred", "right": "cent"},
+        {"left": "hour", "right": "l'heure (durée)"},
+        {"left": "minute", "right": "la minute"},
+        {"left": "half", "right": "la moitié, demi"}
+      ],
+      "answer": "twenty = vingt ; hundred = cent ; hour = l'heure (durée) ; minute = la minute ; half = la moitié, demi",
+      "acceptedAnswers": [],
+      "explanation": "Twenty (20) et hundred (100) sont des nombres. Hour est une durée (an hour = 60 minutes) : pour l'heure qu'il est, on dit o'clock. Half veut dire « la moitié, demi ».",
+      "tip": "Hour = une durée ; o'clock = l'heure sur l'horloge.",
+      "extraExample": {"text": "It's half past seven.", "translation": "Il est sept heures et demie."}
+    },
+    {
+      "id": "en.l46.e04",
+      "unitIds": ["en.g31.time_and_dates"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète pour dire l'heure indiquée.",
+      "prompt": "It's quarter ___ eight. (7:45)",
+      "promptLanguage": "en",
+      "options": ["to", "past", "at"],
+      "answer": "to",
+      "acceptedAnswers": ["to"],
+      "hint": "7 h 45, c'est huit heures moins le quart.",
+      "explanation": "Avant l'heure suivante, on dit to : quarter to eight (huit heures moins le quart = 7 h 45). Past sert après l'heure : quarter past eight = 8 h 15.",
+      "tip": "to = « moins » (avant l'heure suivante) ; past = « et » (après l'heure).",
+      "extraExample": {"text": "It's quarter to ten.", "translation": "Il est dix heures moins le quart."},
+      "errorPatterns": [
+        {"equals": "past", "category": "grammar", "feedback": "Quarter past eight veut dire 8 h 15. Pour 7 h 45 (huit heures moins le quart), on dit quarter to eight."},
+        {"equals": "at", "category": "grammar", "feedback": "At ne s'utilise pas ici. Pour donner l'heure, on dit past (après) ou to (avant) : quarter to eight."}
+      ]
+    },
+    {
+      "id": "en.l46.e05",
+      "unitIds": ["en.v.hundred"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "context": "Tom is in a shop. He looks at a laptop.",
+      "instruction": "Complète avec le nombre 100.",
+      "prompt": "The laptop is a ___ pounds.",
+      "promptLanguage": "en",
+      "options": ["hundred", "twenty", "ten"],
+      "answer": "hundred",
+      "acceptedAnswers": ["hundred"],
+      "hint": "Cent = 100.",
+      "explanation": "Cent se dit hundred. On dit a hundred ou one hundred, et hundred ne prend pas de -s après a ou un nombre : a hundred pounds.",
+      "tip": "100 = a hundred (ou one hundred) ; 20 = twenty.",
+      "extraExample": {"text": "There are a hundred books in the shop.", "translation": "Il y a cent livres dans le magasin."},
+      "errorPatterns": [
+        {"equals": "twenty", "category": "vocabulary", "feedback": "Twenty veut dire 20. Pour 100, on dit a hundred."},
+        {"equals": "ten", "category": "vocabulary", "feedback": "Ten veut dire 10. Pour 100, on dit a hundred."}
+      ]
+    },
+    {
+      "id": "en.l46.e06",
+      "unitIds": ["en.g31.time_and_dates"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Le vol est à six heures et demie.",
+      "promptLanguage": "fr",
+      "tokens": ["half", "The", "at", "is", "six", "flight", "past"],
+      "answer": "The flight is at half past six",
+      "acceptedAnswers": ["The flight is at half past six"],
+      "hint": "At + la demie + past + l'heure.",
+      "explanation": "Pour dire à quelle heure, on utilise at, puis l'heure : at half past six. La demie (half past) se place avant le nombre.",
+      "tip": "À quelle heure ? at + heure : at half past six.",
+      "extraExample": {"text": "The meeting is at half past nine.", "translation": "La réunion est à neuf heures et demie."}
+    },
+    {
+      "id": "en.l46.e07",
+      "unitIds": ["en.g31.time_and_dates"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Il est huit heures et quart.",
+      "promptLanguage": "fr",
+      "answer": "It's quarter past eight.",
+      "acceptedAnswers": [
+        "It's quarter past eight.",
+        "It's a quarter past eight.",
+        "It's eight fifteen."
+      ],
+      "hint": "« Et quart » se dit quarter past.",
+      "explanation": "« Et quart » se dit quarter past + l'heure : It's quarter past eight (8 h 15). Past veut dire « après » l'heure pile.",
+      "tip": "Heure + et quart = quarter past + heure.",
+      "extraExample": {"text": "It's quarter past nine.", "translation": "Il est neuf heures et quart."},
+      "errorPatterns": [
+        {"contains": "eight and quarter", "category": "word_order", "feedback": "En anglais, on ne dit pas « eight and quarter ». Le quart se place avant l'heure : quarter past eight."},
+        {"contains": "quarter to eight", "category": "grammar", "feedback": "Quarter to eight veut dire 7 h 45. Pour 8 h 15, on dit quarter past eight."},
+        {"contains": "eight hours", "category": "word_confusion", "feedback": "Hours désigne une durée. Pour dire l'heure, on dit quarter past eight ou eight o'clock."}
+      ]
+    },
+    {
+      "id": "en.l46.e08",
+      "unitIds": ["en.g31.time_and_dates"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je me lève à sept heures.",
+      "promptLanguage": "fr",
+      "answer": "I get up at seven o'clock.",
+      "acceptedAnswers": [
+        "I get up at seven o'clock.",
+        "I get up at seven."
+      ],
+      "hint": "Pour dire « à sept heures », pense à at et à o'clock.",
+      "explanation": "Pour dire à quelle heure on fait quelque chose, on utilise at + l'heure : at seven o'clock (ou simplement at seven). On ne dit pas « at 7 hours » : hours désigne une durée.",
+      "tip": "« À sept heures » = at seven o'clock, jamais « at 7 hours ».",
+      "extraExample": {"text": "We have dinner at eight o'clock.", "translation": "Nous dînons à huit heures."},
+      "errorPatterns": [
+        {"contains": "seven hours", "category": "word_confusion", "feedback": "Hours veut dire « durée ». Pour l'heure, on dit at seven o'clock (ou at seven)."},
+        {"contains": "7 hours", "category": "word_confusion", "feedback": "Hours veut dire « durée ». Pour l'heure, on dit at seven o'clock (ou at seven)."},
+        {"contains": "at seven clock", "category": "spelling", "feedback": "Il manque le o' : on écrit o'clock."}
+      ]
+    },
+    {
+      "id": "en.l46.e09",
+      "unitIds": ["en.v.twenty", "en.v.minute", "en.g31.time_and_dates"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Le vol part dans vingt minutes. » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "The flight leaves in twenty minutes.",
+      "acceptedAnswers": [
+        "The flight leaves in twenty minutes.",
+        "The flight is in twenty minutes.",
+        "The plane leaves in twenty minutes.",
+        "The flight leaves in 20 minutes."
+      ],
+      "hint": "« Dans » + une durée se dit in. Minute prend un -s après vingt.",
+      "explanation": "« Dans vingt minutes » se dit in twenty minutes : on utilise in pour une durée à venir. Après un nombre supérieur à un, minute prend un -s : twenty minutes.",
+      "tip": "À quelle heure ? at + heure. Dans combien de temps ? in + durée.",
+      "extraExample": {"text": "I arrive in ten minutes.", "translation": "J'arrive dans dix minutes."},
+      "errorPatterns": [
+        {"contains": "at twenty minutes", "category": "preposition", "feedback": "At sert pour une heure précise (at seven). Pour « dans vingt minutes », on dit in twenty minutes."},
+        {"contains": "twenty minute ", "category": "grammar", "feedback": "Après un nombre supérieur à un, minute prend un -s : twenty minutes."},
+        {"contains": "twenty hours", "category": "vocabulary", "feedback": "Hours veut dire « heures » (durée). Vingt minutes se dit twenty minutes."}
+      ]
+    },
+    {
+      "id": "en.l46.e10",
+      "unitIds": ["en.v.half", "en.v.hour", "en.g31.time_and_dates"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris l'expression en anglais.",
+      "prompt": "Comment dit-on « une demi-heure » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "half an hour",
+      "acceptedAnswers": [
+        "half an hour",
+        "a half hour",
+        "a half-hour",
+        "half hour",
+        "thirty minutes",
+        "30 minutes"
+      ],
+      "hint": "Fais attention à l'article devant hour : le h est muet.",
+      "explanation": "« Une demi-heure » se dit half an hour. On dit an hour (et non a hour) car le h de hour est muet : on entend un son de voyelle.",
+      "tip": "Half an hour : hour commence par un son de voyelle, donc an.",
+      "extraExample": {"text": "The flight is in half an hour.", "translation": "Le vol est dans une demi-heure."},
+      "errorPatterns": [
+        {"contains": "half a hour", "category": "grammar", "feedback": "Le h de hour est muet : on dit an hour, donc half an hour."},
+        {"contains": "an half hour", "category": "word_order", "feedback": "On dit half an hour (half avant an) ou a half hour, mais pas an half hour."},
+        {"contains": "hours", "category": "grammar", "feedback": "Une demi-heure, c'est une seule heure partagée en deux : half an hour, sans -s."}
+      ]
+    }
+  ]
+}

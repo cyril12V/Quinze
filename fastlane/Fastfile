@@ -1,0 +1,43 @@
+# Utilisé par .github/workflows/testflight.yml : l'archive et l'export sont faits par xcodebuild,
+# fastlane ne fait que l'envoi vers TestFlight avec la clé d'API App Store Connect.
+default_platform(:ios)
+
+# Clé d'API App Store Connect : fichier écrit par le workflow (ASC_KEY_PATH), sinon secret en base64.
+def asc_api_key
+  path = ENV["ASC_KEY_PATH"].to_s
+  if !path.empty? && File.exist?(path)
+    app_store_connect_api_key(key_id: ENV.fetch("ASC_KEY_ID"), issuer_id: ENV.fetch("ASC_ISSUER_ID"),
+                              key_filepath: path, in_house: false)
+  else
+    app_store_connect_api_key(key_id: ENV.fetch("ASC_KEY_ID"), issuer_id: ENV.fetch("ASC_ISSUER_ID"),
+                              key_content: ENV.fetch("ASC_KEY_P8"), is_key_content_base64: true, in_house: false)
+  end
+end
+
+platform :ios do
+  desc "Enregistre l'iPhone (secret IPHONE_UDID) dans le compte développeur, pour les versions de développement"
+  lane :register_iphone do
+    udid = ENV["IPHONE_UDID"].to_s.strip
+    UI.user_error!("Secret IPHONE_UDID manquant") if udid.empty?
+    api_key = asc_api_key
+    # Sans effet si l'appareil est déjà enregistré.
+    register_device(name: ENV["IPHONE_NAME"].to_s.empty? ? "Mon iPhone" : ENV["IPHONE_NAME"],
+                    udid: udid, api_key: api_key)
+  end
+
+  desc "Envoie l'IPA exporté (build/export/Quinze.ipa) sur TestFlight"
+  lane :beta do |options|
+    ipa = options[:ipa] || File.expand_path("../build/export/Quinze.ipa", __dir__)
+    UI.user_error!("IPA introuvable : #{ipa}") unless File.exist?(ipa)
+
+    api_key = asc_api_key
+
+    upload_to_testflight(
+      api_key: api_key,
+      ipa: ipa,
+      skip_waiting_for_build_processing: true,
+      skip_submission: true,
+      distribute_external: false
+    )
+  end
+end

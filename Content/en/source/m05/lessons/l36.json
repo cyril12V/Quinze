@@ -1,0 +1,460 @@
+{
+  "lessonId": "en.l36",
+  "exercises": [
+    {
+      "id": "en.l36.e01",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.borrow",
+        "en.v.lend"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le bon verbe.",
+      "prompt": "Tom, can I ___ your phone, please? I need to call my mother.",
+      "promptLanguage": "en",
+      "options": [
+        "borrow",
+        "lend",
+        "send"
+      ],
+      "answer": "borrow",
+      "acceptedAnswers": [
+        "borrow"
+      ],
+      "hint": "À qui appartient le téléphone ? Tu veux le prendre pour un moment.",
+      "explanation": "Le téléphone est à Tom, et tu veux l'utiliser un moment : tu l'empruntes, donc borrow. C'est Tom qui le prêtera (lend).",
+      "tip": "Je prends pour un temps : borrow. Je donne pour un temps : lend.",
+      "extraExample": {
+        "text": "Can I borrow your book, please?",
+        "translation": "Je peux t'emprunter ton livre, s'il te plaît ?"
+      },
+      "errorPatterns": [
+        {
+          "equals": "lend",
+          "category": "word_confusion",
+          "feedback": "Lend veut dire « prêter » : c'est celui qui possède l'objet qui lend. Toi, tu empruntes : borrow."
+        },
+        {
+          "equals": "send",
+          "category": "word_confusion",
+          "feedback": "Send veut dire « envoyer ». Pour prendre le téléphone de Tom un moment, on dit borrow."
+        }
+      ]
+    },
+    {
+      "id": "en.l36.e02",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.promise",
+        "en.v.bring"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne phrase.",
+      "prompt": "Comment dit-on « Je te promets que j'apporterai le gâteau. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": [
+        "I promise I will bring the cake.",
+        "I promise I bring the cake.",
+        "I promise I will to bring the cake.",
+        "I promise I will brings the cake."
+      ],
+      "answer": "I promise I will bring the cake.",
+      "acceptedAnswers": [
+        "I promise I will bring the cake."
+      ],
+      "hint": "Une promesse parle du futur : quel mot du futur faut-il avant bring ?",
+      "explanation": "On fait une promesse sur le futur avec will + verbe de base : I will bring. Le présent simple ne convient pas, et après will il n'y a ni to ni -s.",
+      "tip": "Je promets + I will + verbe de base.",
+      "extraExample": {
+        "text": "I promise I will call you tonight.",
+        "translation": "Je te promets que je t'appellerai ce soir."
+      },
+      "errorPatterns": [
+        {
+          "equals": "i promise i bring the cake",
+          "category": "verb_tense",
+          "feedback": "Le présent simple ne convient pas pour une promesse. Il faut will : I promise I will bring the cake."
+        },
+        {
+          "equals": "i promise i will to bring the cake",
+          "category": "grammar",
+          "feedback": "Après will, on ne met pas to : I will bring."
+        },
+        {
+          "equals": "i promise i will brings the cake",
+          "category": "conjugation",
+          "feedback": "Après will, le verbe reste à la forme de base : pas de -s."
+        }
+      ]
+    },
+    {
+      "id": "en.l36.e03",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.promise",
+        "en.v.bring",
+        "en.v.send",
+        "en.v.lend",
+        "en.v.borrow"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque verbe anglais à sa traduction.",
+      "prompt": "Les verbes des promesses et des services : promise, bring, send, lend, borrow",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "promise",
+          "right": "promettre"
+        },
+        {
+          "left": "bring",
+          "right": "apporter"
+        },
+        {
+          "left": "send",
+          "right": "envoyer"
+        },
+        {
+          "left": "lend",
+          "right": "prêter"
+        },
+        {
+          "left": "borrow",
+          "right": "emprunter"
+        }
+      ],
+      "answer": "promise = promettre ; bring = apporter ; send = envoyer ; lend = prêter ; borrow = emprunter",
+      "acceptedAnswers": [],
+      "explanation": "Lend et borrow sont opposés : celui qui donne un objet pour un temps le lend, celui qui le reçoit le borrows. Après will, tous ces verbes restent à la forme de base.",
+      "tip": "Je prête : lend. J'emprunte : borrow.",
+      "extraExample": {
+        "text": "I'll lend you my bag.",
+        "translation": "Je te prêterai mon sac."
+      }
+    },
+    {
+      "id": "en.l36.e04",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.send",
+        "en.v.promise"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme du verbe.",
+      "prompt": "I promise I will ___ you a message tonight.",
+      "promptLanguage": "en",
+      "options": [
+        "send",
+        "sent",
+        "sends",
+        "sending"
+      ],
+      "answer": "send",
+      "acceptedAnswers": [
+        "send"
+      ],
+      "hint": "Après will, le verbe se trouve tel qu'il est dans le dictionnaire.",
+      "explanation": "Après will, on met le verbe à la forme de base : will send. Sent est le passé de send : il ne s'emploie pas après will.",
+      "tip": "Après will : forme de base, même pour un verbe irrégulier comme send.",
+      "extraExample": {
+        "text": "I will send you the photos tomorrow.",
+        "translation": "Je t'enverrai les photos demain."
+      },
+      "errorPatterns": [
+        {
+          "equals": "sent",
+          "category": "verb_tense",
+          "feedback": "Sent est le passé de send. Pour le futur, après will, on garde la forme de base : will send."
+        },
+        {
+          "equals": "sends",
+          "category": "conjugation",
+          "feedback": "Après will, le verbe ne prend pas de -s : will send."
+        },
+        {
+          "equals": "sending",
+          "category": "grammar",
+          "feedback": "Après will, pas de -ing : le verbe reste à la forme de base, will send."
+        }
+      ]
+    },
+    {
+      "id": "en.l36.e05",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.lend",
+        "en.v.borrow"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "Will you ___ me your laptop tonight, please?",
+      "promptLanguage": "en",
+      "options": [
+        "lend",
+        "borrow",
+        "lent",
+        "lends"
+      ],
+      "answer": "lend",
+      "acceptedAnswers": [
+        "lend"
+      ],
+      "hint": "C'est ton ami qui possède l'ordinateur : que doit-il faire pour toi ?",
+      "explanation": "Tu demandes à ton ami de te donner son ordinateur pour un temps : il te le prête, donc lend. Après Will you, le verbe est à la forme de base.",
+      "tip": "Will you lend me… ? = Tu me prêteras… ? Borrow, c'est toi qui prends.",
+      "extraExample": {
+        "text": "Will you lend me ten pounds?",
+        "translation": "Tu me prêteras dix livres ?"
+      },
+      "errorPatterns": [
+        {
+          "equals": "borrow",
+          "category": "word_confusion",
+          "feedback": "Borrow veut dire « emprunter » : c'est toi qui prends. Ici, tu demandes à ton ami de te prêter son ordinateur : lend."
+        },
+        {
+          "equals": "lent",
+          "category": "verb_tense",
+          "feedback": "Lent est le passé de lend. Après Will you, le verbe reste à la forme de base : Will you lend… ?"
+        },
+        {
+          "equals": "lends",
+          "category": "conjugation",
+          "feedback": "Après Will you, pas de -s : le verbe reste à la forme de base, lend."
+        }
+      ]
+    },
+    {
+      "id": "en.l36.e06",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.bring"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Je t'apporterai un café.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "coffee",
+        "I",
+        "bring",
+        "a",
+        "you",
+        "will"
+      ],
+      "answer": "I will bring you a coffee",
+      "acceptedAnswers": [
+        "I will bring you a coffee"
+      ],
+      "hint": "Will se place juste après le sujet. You se place directement après bring.",
+      "explanation": "Will + verbe de base sert aussi à proposer son aide : I will bring you a coffee. Après bring, le pronom you vient tout de suite, sans to.",
+      "tip": "Pour proposer ton aide, dis I'll + verbe de base.",
+      "extraExample": {
+        "text": "I'll carry your bag.",
+        "translation": "Je porterai ton sac."
+      },
+      "context": "Anna is tired. Tom wants to help her."
+    },
+    {
+      "id": "en.l36.e07",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.send"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. « message » = message.",
+      "prompt": "Je t'enverrai un message ce soir.",
+      "promptLanguage": "fr",
+      "answer": "I will send you a message tonight",
+      "acceptedAnswers": [
+        "I will send you a message tonight",
+        "I will send you a message this evening",
+        "Tonight I will send you a message",
+        "I will send a message to you tonight",
+        "I will send a message to you this evening",
+        "I am going to send you a message tonight",
+        "I am going to send you a message this evening",
+        "I will message you tonight",
+        "I will text you tonight"
+      ],
+      "hint": "« Ce soir » se dit tonight. Le futur se fait avec will.",
+      "explanation": "Pour annoncer ce qu'on fera, on utilise will + verbe de base : I will send. Après send, on met directement you (send you a message), sans to.",
+      "tip": "Send you a message : pas de to quand le pronom suit directement send.",
+      "extraExample": {
+        "text": "I'll send you a photo tomorrow.",
+        "translation": "Je t'enverrai une photo demain."
+      },
+      "errorPatterns": [
+        {
+          "contains": "will sent",
+          "category": "verb_tense",
+          "feedback": "Après will, on garde la forme de base : will send, pas sent."
+        },
+        {
+          "contains": "will to send",
+          "category": "grammar",
+          "feedback": "Après will, on ne met pas to : I will send."
+        },
+        {
+          "contains": "send to you a",
+          "category": "word_order",
+          "feedback": "Quand you suit directement send, on n'ajoute pas to : send you a message."
+        },
+        {
+          "contains": "i send you",
+          "category": "verb_tense",
+          "feedback": "Le présent simple ne convient pas pour annoncer ce que tu feras. Utilise will : I will send you a message."
+        }
+      ]
+    },
+    {
+      "id": "en.l36.e08",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.promise"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je te promets que je t'aiderai.",
+      "promptLanguage": "fr",
+      "answer": "I promise I will help you",
+      "acceptedAnswers": [
+        "I promise I will help you",
+        "I promise that I will help you",
+        "I promise you I will help you",
+        "I promise you that I will help you",
+        "I promise to help you",
+        "I will help you, I promise",
+        "I will help you I promise"
+      ],
+      "hint": "Qui aidera ? C'est « je » : I promise I…",
+      "explanation": "Après I promise, on annonce ce qu'on fera avec will + verbe de base : I promise I will help you. On peut aussi dire I promise to help you.",
+      "tip": "I promise (that) I will + verbe de base.",
+      "extraExample": {
+        "text": "I promise I will call you tonight.",
+        "translation": "Je te promets que je t'appellerai ce soir."
+      },
+      "errorPatterns": [
+        {
+          "contains": "promise i help",
+          "category": "verb_tense",
+          "feedback": "Pour une promesse, on utilise will : I promise I will help you."
+        },
+        {
+          "contains": "will to help",
+          "category": "grammar",
+          "feedback": "Après will, on ne met pas to : I will help you."
+        },
+        {
+          "contains": "promise you will help",
+          "category": "grammar",
+          "feedback": "I promise you will help veut dire « je te promets que tu aideras ». Pour dire que c'est moi qui aiderai : I promise I will help you."
+        }
+      ]
+    },
+    {
+      "id": "en.l36.e09",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.lend"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Tu me prêteras ton livre ? » ?",
+      "promptLanguage": "fr",
+      "answer": "Will you lend me your book",
+      "acceptedAnswers": [
+        "Will you lend me your book",
+        "Will you lend your book to me",
+        "Can you lend me your book",
+        "Could you lend me your book",
+        "Would you lend me your book",
+        "Are you going to lend me your book"
+      ],
+      "hint": "C'est l'autre personne qui te prête le livre : quel verbe est-ce ?",
+      "explanation": "La personne qui donne l'objet pour un temps lend. Pour la question au futur, on met will avant you : Will you lend me… ? Le verbe reste à la forme de base.",
+      "tip": "Tu me prêtes : you lend me. Je t'emprunte : I borrow from you.",
+      "extraExample": {
+        "text": "Will you lend me your bag?",
+        "translation": "Tu me prêteras ton sac ?"
+      },
+      "errorPatterns": [
+        {
+          "contains": "borrow me",
+          "category": "word_confusion",
+          "feedback": "Borrow veut dire « emprunter » et ne se construit pas avec me. Pour que l'autre te donne son livre un temps, il te le prête : lend me."
+        },
+        {
+          "contains": "you borrow",
+          "category": "word_confusion",
+          "feedback": "C'est ton ami qui possède le livre : lui, il te le prête (lend). Toi, tu l'empruntes (borrow)."
+        },
+        {
+          "contains": "will you lent",
+          "category": "verb_tense",
+          "feedback": "Après Will you, le verbe reste à la forme de base : Will you lend… ?"
+        }
+      ]
+    },
+    {
+      "id": "en.l36.e10",
+      "unitIds": [
+        "en.g24.will_future",
+        "en.v.promise"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Fais une promesse à un ami : écris une phrase avec I promise et will (ou won't).",
+      "prompt": "Écris une promesse en anglais.",
+      "promptLanguage": "fr",
+      "requirements": {
+        "mustInclude": [
+          [
+            "promise"
+          ],
+          [
+            "will",
+            "'ll",
+            "won't"
+          ]
+        ],
+        "minWords": 5
+      },
+      "answer": "I promise I will bring your book tomorrow.",
+      "acceptedAnswers": [
+        "I promise I will bring your book tomorrow.",
+        "I promise I will send you a message tonight.",
+        "I promise I won't forget your birthday.",
+        "I promise I will help you tomorrow."
+      ],
+      "hint": "Commence par I promise I will, puis ajoute un verbe de base et un complément.",
+      "explanation": "Une promesse se fait avec I promise + will (ou won't) + verbe de base : I promise I will help you. Le verbe après will reste à la forme de base.",
+      "tip": "I promise I will… pour s'engager, I promise I won't… pour s'interdire quelque chose.",
+      "extraExample": {
+        "text": "I promise I won't be late.",
+        "translation": "Je promets que je ne serai pas en retard."
+      },
+      "errorPatterns": [
+        {
+          "contains": "will to",
+          "category": "grammar",
+          "feedback": "Après will, on ne met pas to : le verbe de base suit directement."
+        },
+        {
+          "contains": "wills",
+          "category": "conjugation",
+          "feedback": "Will ne prend jamais de -s : I will, he will, they will."
+        }
+      ]
+    }
+  ]
+}

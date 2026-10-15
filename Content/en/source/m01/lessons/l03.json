@@ -1,0 +1,203 @@
+{
+  "lessonId": "en.l03",
+  "exercises": [
+    {
+      "id": "en.l03.e01",
+      "unitIds": ["en.g03.be_affirmative", "en.v.tired", "en.g01.subject_pronouns"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Je suis fatigué » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I am tired", "I is tired", "I are tired", "I tired"],
+      "answer": "I am tired",
+      "acceptedAnswers": ["I am tired"],
+      "hint": "Avec I, le verbe être se dit am.",
+      "explanation": "« Je suis » se dit I am. En anglais, on ne peut pas supprimer le verbe : on écrit toujours I am tired, jamais I tired.",
+      "tip": "I va toujours avec am : I am.",
+      "extraExample": {"text": "I am ready.", "translation": "Je suis prêt."},
+      "errorPatterns": [
+        {"equals": "i is tired", "category": "conjugation", "feedback": "Is va avec he, she et it. Avec I, on dit am : I am tired."},
+        {"equals": "i are tired", "category": "conjugation", "feedback": "Are va avec you, we et they. Avec I, on dit am : I am tired."},
+        {"equals": "i tired", "category": "grammar", "feedback": "Il manque le verbe être. En anglais, la phrase a toujours un verbe : I am tired."}
+      ]
+    },
+    {
+      "id": "en.l03.e02",
+      "unitIds": ["en.g03.be_affirmative", "en.v.happy", "en.g01.subject_pronouns"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme du verbe être.",
+      "prompt": "Tom and Anna ___ happy.",
+      "promptLanguage": "en",
+      "options": ["are", "is", "am"],
+      "answer": "are",
+      "acceptedAnswers": ["are"],
+      "hint": "Tom and Anna, c'est deux personnes : tu peux les remplacer par un seul pronom.",
+      "explanation": "Tom and Anna, c'est « ils » : they. Avec they, le verbe être se dit are : Tom and Anna are happy.",
+      "tip": "Deux personnes ou plus (Tom and Anna) = they = are.",
+      "extraExample": {"text": "The man and the woman are ready.", "translation": "L'homme et la femme sont prêts."},
+      "errorPatterns": [
+        {"equals": "is", "category": "conjugation", "feedback": "Is s'emploie pour une seule personne (he, she). Tom and Anna font deux personnes : they are."},
+        {"equals": "am", "category": "conjugation", "feedback": "Am s'emploie seulement avec I. Pour Tom and Anna (they), on dit are."}
+      ]
+    },
+    {
+      "id": "en.l03.e03",
+      "unitIds": ["en.g03.be_affirmative", "en.v.happy", "en.v.tired", "en.v.ready", "en.v.student", "en.v.teacher"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "To be et les nouveaux mots : happy, tired, ready, student, teacher",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "I am happy", "right": "je suis content"},
+        {"left": "you are tired", "right": "tu es fatigué"},
+        {"left": "he is a student", "right": "il est étudiant"},
+        {"left": "she is a teacher", "right": "elle est professeur"},
+        {"left": "we are ready", "right": "nous sommes prêts"}
+      ],
+      "answer": "I am happy = je suis content ; you are tired = tu es fatigué ; he is a student = il est étudiant ; she is a teacher = elle est professeur ; we are ready = nous sommes prêts",
+      "acceptedAnswers": [],
+      "explanation": "Chaque pronom a sa forme de to be : I am, you are, he / she is, we are. Avec un métier ou un statut (student, teacher), l'anglais ajoute a : he is a student.",
+      "tip": "En français on dit « il est étudiant » ; en anglais, he is a student.",
+      "extraExample": {"text": "She is happy.", "translation": "Elle est heureuse."}
+    },
+    {
+      "id": "en.l03.e04",
+      "unitIds": ["en.g03.be_affirmative", "en.v.ready", "en.g01.subject_pronouns"],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète avec la bonne forme du verbe être.",
+      "prompt": "You ___ ready.",
+      "promptLanguage": "en",
+      "options": ["are", "is", "am"],
+      "answer": "are",
+      "acceptedAnswers": ["are"],
+      "hint": "Le pronom est you.",
+      "explanation": "Avec you, le verbe être se dit are : you are ready. You veut dire « tu » comme « vous », et la forme est toujours are.",
+      "tip": "You = are, que ce soit « tu » ou « vous ».",
+      "extraExample": {"text": "You are a friend and a teacher.", "translation": "Tu es un ami et un professeur."},
+      "errorPatterns": [
+        {"equals": "is", "category": "conjugation", "feedback": "Is va avec he, she ou it. Avec you, on dit are : you are ready."},
+        {"equals": "am", "category": "conjugation", "feedback": "Am va uniquement avec I. Avec you, on dit are : you are ready."}
+      ]
+    },
+    {
+      "id": "en.l03.e05",
+      "unitIds": ["en.g03.be_affirmative", "en.v.teacher", "en.g01.subject_pronouns"],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète avec la bonne forme du verbe être.",
+      "prompt": "She ___ a teacher.",
+      "promptLanguage": "en",
+      "options": ["is", "are", "am"],
+      "answer": "is",
+      "acceptedAnswers": ["is"],
+      "hint": "Le pronom est she : une seule personne.",
+      "explanation": "Avec he, she et it, le verbe être se dit is : she is a teacher.",
+      "tip": "He, she, it : on pense à is.",
+      "extraExample": {"text": "He is a teacher.", "translation": "Il est professeur."},
+      "errorPatterns": [
+        {"equals": "are", "category": "conjugation", "feedback": "Are va avec you, we et they. Avec she, on dit is : she is a teacher."},
+        {"equals": "am", "category": "conjugation", "feedback": "Am va uniquement avec I. Avec she, on dit is : she is a teacher."}
+      ]
+    },
+    {
+      "id": "en.l03.e06",
+      "unitIds": ["en.g03.be_affirmative", "en.v.teacher", "en.v.woman"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former une phrase.",
+      "prompt": "La femme est professeur.",
+      "promptLanguage": "fr",
+      "tokens": ["teacher", "The", "a", "is", "woman"],
+      "answer": "The woman is a teacher",
+      "acceptedAnswers": ["The woman is a teacher"],
+      "hint": "L'ordre est : sujet, verbe être, puis a + métier.",
+      "explanation": "On met d'abord le sujet (The woman), puis le verbe is, puis a teacher. Avec un métier, l'anglais garde l'article a.",
+      "tip": "Sujet + verbe être + a + métier.",
+      "extraExample": {"text": "The man is a student.", "translation": "L'homme est étudiant."}
+    },
+    {
+      "id": "en.l03.e07",
+      "unitIds": ["en.g03.be_affirmative", "en.v.student", "en.g02.articles"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je suis étudiant.",
+      "promptLanguage": "fr",
+      "answer": "I am a student",
+      "acceptedAnswers": ["I am a student", "I am a pupil"],
+      "hint": "N'oublie pas l'article a devant le mot student.",
+      "explanation": "« Je suis » se dit I am. Contrairement au français, l'anglais ajoute a devant un métier ou un statut : I am a student.",
+      "tip": "Français : « je suis étudiant ». Anglais : I am a student, avec a.",
+      "extraExample": {"text": "I am a teacher.", "translation": "Je suis professeur."},
+      "errorPatterns": [
+        {"contains": "am student", "category": "grammar", "feedback": "Il manque l'article. Devant un métier ou un statut, l'anglais met a : I am a student."},
+        {"contains": "i is", "category": "conjugation", "feedback": "Avec I, le verbe être se dit am : I am a student."},
+        {"contains": "i are", "category": "conjugation", "feedback": "Avec I, le verbe être se dit am : I am a student."}
+      ]
+    },
+    {
+      "id": "en.l03.e08",
+      "unitIds": ["en.g03.be_affirmative", "en.v.teacher", "en.v.student", "en.g01.subject_pronouns"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "Elle est professeur et il est étudiant.",
+      "promptLanguage": "fr",
+      "answer": "She is a teacher and he is a student",
+      "acceptedAnswers": ["She is a teacher and he is a student", "She is a teacher and he is a pupil"],
+      "hint": "Il y a deux verbes être : un avec she, un avec he.",
+      "explanation": "Elle = she et il = he : les deux prennent is. On répète le verbe pour chaque personne et on garde a devant teacher et student.",
+      "tip": "Une personne (he, she) : is. Et on n'oublie pas a devant le métier.",
+      "extraExample": {"text": "He is a teacher and she is a friend.", "translation": "Il est professeur et elle est une amie."},
+      "errorPatterns": [
+        {"contains": "is teacher", "category": "grammar", "feedback": "Il manque l'article. Devant un métier, l'anglais met a : she is a teacher."},
+        {"contains": "is student", "category": "grammar", "feedback": "Il manque l'article. Devant un statut, l'anglais met a : he is a student."},
+        {"contains": "she are", "category": "conjugation", "feedback": "Are va avec you, we et they. Avec she, on dit is."}
+      ]
+    },
+    {
+      "id": "en.l03.e09",
+      "unitIds": ["en.g03.be_affirmative", "en.v.happy", "en.g01.subject_pronouns"],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Ils sont heureux » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "They are happy",
+      "acceptedAnswers": ["They are happy"],
+      "hint": "Ils se dit they : le verbe être est are.",
+      "explanation": "Ils (ou elles) se dit they. Avec they, le verbe être se dit are : they are happy.",
+      "tip": "Plusieurs personnes : they are.",
+      "extraExample": {"text": "We are happy.", "translation": "Nous sommes heureux."},
+      "errorPatterns": [
+        {"equals": "they is happy", "category": "conjugation", "feedback": "Is s'emploie pour une seule personne. Avec they, on dit are : they are happy."},
+        {"equals": "they happy", "category": "grammar", "feedback": "Il manque le verbe être. En anglais, on dit they are happy."},
+        {"contains": "there are", "category": "word_confusion", "feedback": "There et they ne sont pas le même mot. « Ils » se dit they."}
+      ]
+    },
+    {
+      "id": "en.l03.e10",
+      "unitIds": ["en.g03.be_affirmative", "en.v.teacher", "en.g02.articles"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais. Tu parles à une seule personne.",
+      "prompt": "Comment dit-on « Tu es professeur » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "You are a teacher",
+      "acceptedAnswers": ["You are a teacher"],
+      "hint": "Ne confonds pas le verbe avec am. Et n'oublie pas a.",
+      "explanation": "« Tu » se dit you et le verbe est are : you are. Devant un métier, l'anglais ajoute a : you are a teacher.",
+      "tip": "You are + a + métier.",
+      "extraExample": {"text": "You are a student.", "translation": "Tu es étudiant."},
+      "errorPatterns": [
+        {"contains": "are teacher", "category": "grammar", "feedback": "Il manque l'article. Devant un métier, l'anglais met a : you are a teacher."},
+        {"contains": "you is", "category": "conjugation", "feedback": "Avec you, le verbe être se dit are, pas is."},
+        {"contains": "you am", "category": "conjugation", "feedback": "Am va uniquement avec I. Avec you, on dit are."}
+      ]
+    }
+  ]
+}

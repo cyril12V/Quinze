@@ -1,0 +1,215 @@
+{
+  "lessonId": "en.l19",
+  "exercises": [
+    {
+      "id": "en.l19.e01",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.study"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme du verbe.",
+      "prompt": "Lucy ___ French at school.",
+      "promptLanguage": "en",
+      "options": ["studies", "study", "studys", "studyes"],
+      "answer": "studies",
+      "acceptedAnswers": ["studies"],
+      "hint": "Study se termine par une consonne + y.",
+      "explanation": "Lucy = she, donc le verbe prend une terminaison. Study se termine par consonne + y : on change le y en i et on ajoute -es. On obtient studies.",
+      "tip": "Consonne + y : y → i, puis -es (study → studies).",
+      "extraExample": {"text": "My brother studies English.", "translation": "Mon frère étudie l'anglais."},
+      "errorPatterns": [
+        {"equals": "study", "category": "conjugation", "feedback": "Lucy = she : le verbe doit prendre une terminaison. Study devient studies."},
+        {"equals": "studys", "category": "spelling", "feedback": "Après une consonne + y, on change le y en i : studies, pas studys."},
+        {"equals": "studyes", "category": "spelling", "feedback": "Il faut changer le y en i avant -es : studies, pas studyes."}
+      ]
+    },
+    {
+      "id": "en.l19.e02",
+      "unitIds": ["en.g14.present_simple_third_person"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme du verbe.",
+      "prompt": "Tom ___ to school by car.",
+      "promptLanguage": "en",
+      "options": ["goes", "go", "gos"],
+      "answer": "goes",
+      "acceptedAnswers": ["goes"],
+      "hint": "Go est un verbe qui prend -es.",
+      "explanation": "Tom = he : le verbe prend une terminaison. Les verbes comme go, do et watch prennent -es et non -s : he goes.",
+      "tip": "Go → goes, do → does : on ajoute -es.",
+      "extraExample": {"text": "My sister goes to London by car.", "translation": "Ma sœur va à Londres en voiture."},
+      "errorPatterns": [
+        {"equals": "go", "category": "conjugation", "feedback": "Tom = he : le verbe doit prendre une terminaison. Go devient goes."},
+        {"equals": "gos", "category": "spelling", "feedback": "Go prend -es, pas seulement -s : goes."}
+      ]
+    },
+    {
+      "id": "en.l19.e03",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.fix", "en.v.carry", "en.v.teach", "en.v.study", "en.v.finish"],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "Les nouveaux verbes à la 3e personne",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "he fixes", "right": "il répare"},
+        {"left": "she carries", "right": "elle porte"},
+        {"left": "he teaches", "right": "il enseigne"},
+        {"left": "she studies", "right": "elle étudie"},
+        {"left": "he finishes", "right": "il finit"}
+      ],
+      "answer": "he fixes = il répare ; she carries = elle porte ; he teaches = il enseigne ; she studies = elle étudie ; he finishes = il finit",
+      "acceptedAnswers": [],
+      "explanation": "Les verbes qui finissent par -x, -ch ou -sh prennent -es (fixes, teaches, finishes). Les verbes en consonne + y changent y en i et prennent -es (carries, studies).",
+      "tip": "-x, -ch, -sh → -es. Consonne + y → -ies.",
+      "extraExample": {"text": "She watches TV and he fixes the car.", "translation": "Elle regarde la télé et il répare la voiture."}
+    },
+    {
+      "id": "en.l19.e04",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.teach"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme du verbe teach.",
+      "prompt": "My mother ___ English at a school in London.",
+      "promptLanguage": "en",
+      "options": ["teaches", "teachs", "teach"],
+      "answer": "teaches",
+      "acceptedAnswers": ["teaches"],
+      "hint": "Teach se termine par -ch.",
+      "explanation": "My mother = she. Teach se termine par -ch : on ajoute -es, pas seulement -s. On obtient teaches, qui se prononce avec un son « iz » à la fin.",
+      "tip": "-ch → -es : teach → teaches, watch → watches.",
+      "extraExample": {"text": "My sister watches TV after school.", "translation": "Ma sœur regarde la télé après l'école."},
+      "errorPatterns": [
+        {"equals": "teachs", "category": "spelling", "feedback": "Après -ch, on ajoute -es : teaches. Teachs serait impossible à prononcer."},
+        {"equals": "teach", "category": "conjugation", "feedback": "My mother = she : le verbe doit prendre une terminaison. Teach devient teaches."}
+      ]
+    },
+    {
+      "id": "en.l19.e05",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.finish"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme du verbe finish.",
+      "prompt": "Tom ___ his homework after dinner.",
+      "promptLanguage": "en",
+      "options": ["finishes", "finishs", "finish"],
+      "answer": "finishes",
+      "acceptedAnswers": ["finishes"],
+      "hint": "Finish se termine par -sh.",
+      "explanation": "Tom = he. Finish se termine par -sh : on ajoute -es. On obtient finishes.",
+      "tip": "-sh → -es : finish → finishes, wash → washes.",
+      "extraExample": {"text": "Anna finishes work at six.", "translation": "Anna finit le travail à six heures."},
+      "errorPatterns": [
+        {"equals": "finishs", "category": "spelling", "feedback": "Après -sh, on ajoute -es : finishes."},
+        {"equals": "finish", "category": "conjugation", "feedback": "Tom = he : le verbe prend une terminaison. Finish devient finishes."}
+      ]
+    },
+    {
+      "id": "en.l19.e06",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.carry"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Anna porte son sac à l'école.",
+      "promptLanguage": "fr",
+      "tokens": ["bag", "to", "school", "Anna", "her", "carries"],
+      "answer": "Anna carries her bag to school",
+      "acceptedAnswers": ["Anna carries her bag to school"],
+      "hint": "Commence par le sujet : Anna.",
+      "explanation": "Anna = she, donc le verbe prend une terminaison. Carry se termine par consonne + y : carries. Her est l'adjectif possessif qui correspond à Anna.",
+      "tip": "Carry → carries, study → studies : y devient i.",
+      "extraExample": {"text": "My father carries the bags to the car.", "translation": "Mon père porte les sacs jusqu'à la voiture."}
+    },
+    {
+      "id": "en.l19.e07",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.fix"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mon père répare la voiture.",
+      "promptLanguage": "fr",
+      "answer": "My father fixes the car.",
+      "acceptedAnswers": [
+        "My father fixes the car.",
+        "My dad fixes the car.",
+        "My father repairs the car.",
+        "My dad repairs the car.",
+        "My father is fixing the car.",
+        "My dad is fixing the car.",
+        "My father is repairing the car.",
+        "My dad is repairing the car."
+      ],
+      "hint": "Fix se termine par -x.",
+      "explanation": "My father = he. Fix se termine par -x : on ajoute -es, ce qui donne fixes. « La voiture » se dit the car.",
+      "tip": "-x → -es : fix → fixes, mix → mixes.",
+      "extraExample": {"text": "My brother fixes his phone.", "translation": "Mon frère répare son téléphone."},
+      "errorPatterns": [
+        {"contains": "fix the car", "category": "conjugation", "feedback": "Avec my father (= he), le verbe prend une terminaison : fixes."},
+        {"contains": "fixs", "category": "spelling", "feedback": "Après -x, on ajoute -es : fixes."}
+      ]
+    },
+    {
+      "id": "en.l19.e08",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.study"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Il fait ses devoirs et elle étudie l'anglais.",
+      "promptLanguage": "fr",
+      "answer": "He does his homework and she studies English.",
+      "acceptedAnswers": [
+        "He does his homework and she studies English.",
+        "He is doing his homework and she studies English.",
+        "He does his homework and she is studying English.",
+        "He is doing his homework and she is studying English."
+      ],
+      "hint": "On fait ses devoirs se dit avec do. Do prend -es avec he.",
+      "explanation": "Avec he, do devient does : he does his homework. Study devient studies avec she (consonne + y). Pour « faire ses devoirs », on utilise do et non make.",
+      "tip": "Les devoirs, ça se « fait » avec do : do homework.",
+      "extraExample": {"text": "He does his homework at home.", "translation": "Il fait ses devoirs à la maison."},
+      "errorPatterns": [
+        {"contains": "he do his homework", "category": "conjugation", "feedback": "Avec he, do devient does : he does his homework."},
+        {"contains": "he makes his homework", "category": "word_confusion", "feedback": "Pour les devoirs, on utilise do et non make : he does his homework."},
+        {"contains": "she studys", "category": "spelling", "feedback": "Study devient studies : on change le y en i avant -es."}
+      ]
+    },
+    {
+      "id": "en.l19.e09",
+      "unitIds": ["en.g14.present_simple_third_person"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Elle a deux frères et une sœur » ?",
+      "promptLanguage": "fr",
+      "answer": "She has two brothers and a sister.",
+      "acceptedAnswers": ["She has two brothers and a sister.", "She has got two brothers and a sister."],
+      "hint": "Have change de forme avec she.",
+      "explanation": "Avec he, she, it, have devient has : she has. C'est une forme irrégulière (pas « haves »). Brothers est au pluriel après two.",
+      "tip": "Have → has avec he, she, it.",
+      "extraExample": {"text": "My father has a car and a house.", "translation": "Mon père a une voiture et une maison."},
+      "errorPatterns": [
+        {"contains": "she have two", "category": "conjugation", "feedback": "Avec she, have devient has : she has two brothers."},
+        {"contains": "she haves", "category": "spelling", "feedback": "La forme de have avec he, she, it est has, pas haves."}
+      ]
+    },
+    {
+      "id": "en.l19.e10",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.study", "en.v.finish", "en.v.teach", "en.v.carry", "en.v.fix"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris une phrase sur une personne que tu connais, avec un de ces verbes : study, finish, teach, carry ou fix. Fais attention à la terminaison !",
+      "prompt": "Que fait cette personne ? Écris une phrase.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["studies", "finishes", "teaches", "carries", "fixes"]], "minWords": 3},
+      "answer": "My father fixes cars.",
+      "acceptedAnswers": ["My father fixes cars.", "Anna studies English.", "My mother teaches French at a school.", "Tom finishes work at six."],
+      "hint": "Choisis un sujet au singulier, puis demande-toi : -s, -es ou -ies ?",
+      "explanation": "Avec he, she ou un sujet au singulier, le verbe prend -es s'il finit par -x, -ch ou -sh (fixes, teaches, finishes), et -ies après une consonne + y (studies, carries).",
+      "tip": "Avant d'écrire, regarde la fin du verbe : -x, -ch, -sh ou consonne + y ?",
+      "extraExample": {"text": "Lucy carries her books to school.", "translation": "Lucy porte ses livres à l'école."},
+      "errorPatterns": [
+        {"contains": "she studys", "category": "spelling", "feedback": "Study devient studies : on change le y en i avant -es."},
+        {"contains": "he teachs", "category": "spelling", "feedback": "Après -ch, on ajoute -es : teaches."}
+      ]
+    }
+  ]
+}

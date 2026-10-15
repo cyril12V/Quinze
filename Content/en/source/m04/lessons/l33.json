@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l33",
+  "exercises": [
+    {
+      "id": "en.l33.e01",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.invite", "en.v.party"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme du verbe.",
+      "prompt": "Did you ___ Tom to the party?",
+      "promptLanguage": "en",
+      "options": ["invite", "invited", "invites"],
+      "answer": "invite",
+      "acceptedAnswers": ["invite"],
+      "hint": "Did porte déjà le passé.",
+      "explanation": "Après did, le verbe reste à la forme de base : invite. Le passé est déjà dans did, donc on n'ajoute ni -ed ni -s.",
+      "tip": "Did + verbe de base : Did you invite…?",
+      "extraExample": {"text": "Did Anna invite her parents?", "translation": "Est-ce qu'Anna a invité ses parents ?"},
+      "errorPatterns": [
+        {"equals": "invited", "category": "conjugation", "feedback": "Le passé est déjà porté par did : après did, le verbe reste à la base, invite."},
+        {"equals": "invites", "category": "conjugation", "feedback": "Après did, il n'y a pas de -s : le verbe reste à la forme de base, invite."}
+      ]
+    },
+    {
+      "id": "en.l33.e02",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.g20.was_were", "en.v.party"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis le bon mot.",
+      "prompt": "___ you at Anna's party last night?",
+      "promptLanguage": "en",
+      "options": ["Were", "Did", "Was"],
+      "answer": "Were",
+      "acceptedAnswers": ["Were"],
+      "hint": "Il s'agit de dire où tu étais.",
+      "explanation": "Pour demander où quelqu'un était, on utilise to be : au passé, were avec you. Did s'utilise devant un verbe d'action (Did you go…?), pas devant to be.",
+      "tip": "Être quelque part → was / were ; faire une action → did.",
+      "extraExample": {"text": "Was your brother at home last night?", "translation": "Ton frère était-il à la maison hier soir ?"},
+      "errorPatterns": [
+        {"equals": "did", "category": "grammar", "feedback": "Did s'utilise avec un verbe d'action. Pour « être à un endroit », on garde to be : Were you…?"},
+        {"equals": "was", "category": "conjugation", "feedback": "Was s'utilise avec I, he, she et it. Avec you, le passé de to be est were."}
+      ]
+    },
+    {
+      "id": "en.l33.e03",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.party", "en.v.birthday", "en.v.present", "en.v.cake", "en.v.invite"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot anglais à sa traduction.",
+      "prompt": "Le vocabulaire de la fête",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "party", "right": "fête"},
+        {"left": "birthday", "right": "anniversaire"},
+        {"left": "present", "right": "cadeau"},
+        {"left": "cake", "right": "gâteau"},
+        {"left": "invite", "right": "inviter"}
+      ],
+      "answer": "party = fête ; birthday = anniversaire ; present = cadeau ; cake = gâteau ; invite = inviter",
+      "acceptedAnswers": [],
+      "explanation": "Birthday est l'anniversaire de naissance : Happy birthday ! Present veut dire « cadeau » dans ce sens, pas « présent » comme dans le temps. Invite est le verbe : au passé, il devient invited.",
+      "tip": "Un cadeau = a present ; l'anniversaire de naissance = birthday.",
+      "extraExample": {"text": "a birthday cake", "translation": "un gâteau d'anniversaire"}
+    },
+    {
+      "id": "en.l33.e04",
+      "unitIds": ["en.g21.past_simple_regular", "en.g23.past_simple_negative_questions", "en.v.invite"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le passé du verbe entre parenthèses.",
+      "prompt": "Lucy ___ me to her birthday party last week. (invite)",
+      "promptLanguage": "en",
+      "options": ["invited", "invite", "invites"],
+      "answer": "invited",
+      "acceptedAnswers": ["invited"],
+      "hint": "Last week : l'action est terminée.",
+      "explanation": "Ici, il n'y a pas de did : le verbe est au passé simple. Invite finit déjà par un e, donc on ajoute seulement -d : invited, avec une syllabe en plus (/ɪnˈvaɪtɪd/) car le verbe se termine par t.",
+      "tip": "Question ou négation → did + base. Phrase simple au passé → verbe + -ed.",
+      "extraExample": {"text": "Tom invited his friends to dinner.", "translation": "Tom a invité ses amis à dîner."},
+      "errorPatterns": [
+        {"equals": "invite", "category": "verb_tense", "feedback": "Invite est le présent. Avec last week, la phrase est au passé : invited."},
+        {"equals": "invites", "category": "verb_tense", "feedback": "Le -s est réservé au présent. Au passé, tous les sujets prennent -ed : invited."}
+      ]
+    },
+    {
+      "id": "en.l33.e05",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.cake"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le verbe entre parenthèses, à la bonne forme.",
+      "prompt": "Tom didn't ___ the cake. He wasn't hungry. (eat)",
+      "promptLanguage": "en",
+      "options": ["eat", "ate", "eaten"],
+      "answer": "eat",
+      "acceptedAnswers": ["eat"],
+      "hint": "Didn't porte déjà le passé.",
+      "explanation": "Après didn't, le verbe reste à la forme de base : eat, et non ate. Dans la phrase suivante, wasn't est le passé de to be : to be n'a pas besoin de did.",
+      "tip": "didn't + base ; mais to be fait wasn't / weren't tout seul.",
+      "extraExample": {"text": "Anna didn't eat fish last night.", "translation": "Anna n'a pas mangé de poisson hier soir."},
+      "errorPatterns": [
+        {"equals": "ate", "category": "conjugation", "feedback": "Le passé est déjà porté par didn't : le verbe garde sa forme de base, eat."},
+        {"equals": "eaten", "category": "conjugation", "feedback": "Eaten est un participe passé. Après didn't, on utilise la forme de base : eat."}
+      ]
+    },
+    {
+      "id": "en.l33.e06",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.present"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour poser la question.",
+      "prompt": "Est-ce que tu as acheté un cadeau pour Anna ?",
+      "promptLanguage": "fr",
+      "tokens": ["present", "Did", "for", "you", "a", "Anna", "buy"],
+      "answer": "Did you buy a present for Anna",
+      "acceptedAnswers": ["Did you buy a present for Anna"],
+      "hint": "La question commence par did. Le verbe suit le sujet, à la forme de base.",
+      "explanation": "Question au passé : Did + sujet + verbe de base. Buy reste à la forme de base (pas bought), car did porte déjà le passé. For Anna veut dire « pour Anna ».",
+      "tip": "Did + you + base : Did you buy…?",
+      "extraExample": {"text": "Did Tom buy a cake?", "translation": "Est-ce que Tom a acheté un gâteau ?"}
+    },
+    {
+      "id": "en.l33.e07",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.birthday", "en.v.forget"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Il a oublié mon anniversaire.",
+      "promptLanguage": "fr",
+      "answer": "He forgot my birthday",
+      "acceptedAnswers": ["He forgot my birthday"],
+      "hint": "Forget est irrégulier. Pas d'auxiliaire en anglais.",
+      "explanation": "« A oublié » se traduit par forgot, le passé irrégulier de forget, sans auxiliaire. Dans une phrase simple au passé, pas de did : did ne sert que pour les questions et les négations.",
+      "tip": "Phrase simple au passé : pas de did, juste le verbe au passé.",
+      "extraExample": {"text": "I forgot Anna's present at home.", "translation": "J'ai oublié le cadeau d'Anna à la maison."},
+      "errorPatterns": [
+        {"contains": "forgetted", "category": "conjugation", "feedback": "Forget est irrégulier : on n'ajoute pas -ed. Son passé est forgot."},
+        {"contains": "he forget my", "category": "verb_tense", "feedback": "Forget est le présent. Pour une action finie, on dit forgot."},
+        {"contains": "did forgot", "category": "grammar", "feedback": "Did n'est pas utilisé dans une phrase simple : dis directement He forgot."}
+      ]
+    },
+    {
+      "id": "en.l33.e08",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.invite", "en.v.party"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Est-ce que tu as invité Anna à la fête ?",
+      "promptLanguage": "fr",
+      "answer": "Did you invite Anna to the party",
+      "acceptedAnswers": ["Did you invite Anna to the party", "Did you invite Anna to your party"],
+      "hint": "Did + sujet + verbe de base. Quelle préposition après invite ?",
+      "explanation": "Pour une question au passé, on utilise did + sujet + verbe de base : Did you invite…? Invite reste à la base. On invite quelqu'un to (à) un événement : to the party.",
+      "tip": "Invite quelqu'un to + événement : to the party, to dinner.",
+      "extraExample": {"text": "Did Tom invite you to dinner?", "translation": "Est-ce que Tom t'a invité à dîner ?"},
+      "errorPatterns": [
+        {"contains": "did you invited", "category": "conjugation", "feedback": "Après did, le verbe reste à la forme de base : Did you invite…?"},
+        {"equals": "you invited anna to the party", "category": "word_order", "feedback": "Pour poser la question, on commence par did : Did you invite Anna to the party ?"},
+        {"contains": "anna at the party", "category": "preposition", "feedback": "Après invite quelqu'un, on utilise to : invite Anna to the party."}
+      ]
+    },
+    {
+      "id": "en.l33.e09",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.party"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment dit-on « Qu'est-ce que tu as mangé à la fête ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "What did you eat at the party",
+      "acceptedAnswers": ["What did you eat at the party", "What did you have at the party"],
+      "hint": "What + did + sujet + verbe de base.",
+      "explanation": "Avec un mot interrogatif, l'ordre est What + did + sujet + verbe de base. Eat reste à la base (pas ate), car did porte déjà le passé.",
+      "tip": "What did you + verbe de base ? : did marque le passé.",
+      "extraExample": {"text": "What did Anna buy for the party?", "translation": "Qu'est-ce qu'Anna a acheté pour la fête ?"},
+      "errorPatterns": [
+        {"contains": "did you ate", "category": "conjugation", "feedback": "Après did, le verbe reste à la forme de base : What did you eat ?"},
+        {"contains": "what you ate", "category": "word_order", "feedback": "Une question au passé a besoin de did avant le sujet : What did you eat ?"},
+        {"contains": "did you eaten", "category": "conjugation", "feedback": "Eaten est un participe passé. Après did, on utilise la forme de base : eat."}
+      ]
+    },
+    {
+      "id": "en.l33.e10",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.cake"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Nous avons mangé du gâteau et nous avons chanté » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "We ate cake and sang",
+      "acceptedAnswers": ["We ate cake and sang", "We ate cake and we sang", "We ate some cake and sang", "We ate some cake and we sang", "We had cake and sang", "We had cake and we sang", "We had some cake and sang", "We had some cake and we sang"],
+      "hint": "Deux verbes irréguliers : eat et sing.",
+      "explanation": "Eat et sing sont irréguliers : eat → ate, sing → sang. Phrase simple au passé : pas de did. Cake sans article veut dire « du gâteau ». Quand le sujet est le même, on peut ne pas le répéter après and.",
+      "tip": "sing → sang, drink → drank, swim → swam : le i devient a.",
+      "extraExample": {"text": "They danced and sang all night.", "translation": "Ils ont dansé et chanté toute la nuit."},
+      "errorPatterns": [
+        {"contains": "singed", "category": "conjugation", "feedback": "Sing est irrégulier : on n'ajoute pas -ed. Son passé est sang."},
+        {"contains": "sung", "category": "conjugation", "feedback": "Sung est le participe passé de sing. Pour le passé simple, on dit sang."},
+        {"contains": "eated", "category": "conjugation", "feedback": "Eat est irrégulier : on n'ajoute pas -ed. Son passé est ate."}
+      ]
+    }
+  ]
+}

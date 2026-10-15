@@ -1,0 +1,207 @@
+{
+  "lessonId": "en.l35",
+  "exercises": [
+    {
+      "id": "en.l35.e01",
+      "unitIds": ["en.g24.will_future", "en.v.later"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Anna ___ you later.",
+      "promptLanguage": "en",
+      "options": ["will call", "wills call", "will to call", "will calls"],
+      "answer": "will call",
+      "acceptedAnswers": ["will call"],
+      "hint": "Will est suivi directement du verbe, tel qu'on le trouve dans le dictionnaire.",
+      "explanation": "Pour parler du futur, on met will avant le verbe de base : will call. Will ne prend jamais de -s, même avec Anna (she), et il n'est pas suivi de to.",
+      "tip": "Will + verbe de base, toujours : pas de -s, pas de to.",
+      "extraExample": {"text": "Tom will help you later.", "translation": "Tom t'aidera plus tard."},
+      "errorPatterns": [
+        {"equals": "wills call", "category": "conjugation", "feedback": "Will ne prend jamais de -s, même avec he, she ou un prénom. On dit Anna will call."},
+        {"equals": "will to call", "category": "grammar", "feedback": "Après will, on ne met pas to : le verbe suit directement, will call."},
+        {"equals": "will calls", "category": "conjugation", "feedback": "Après will, le verbe reste à sa forme de base : pas de -s. On dit will call."}
+      ]
+    },
+    {
+      "id": "en.l35.e02",
+      "unitIds": ["en.g24.will_future", "en.v.tomorrow"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne question.",
+      "prompt": "Comment dit-on « Tu viendras demain ? » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["Will you come tomorrow?", "Do you will come tomorrow?", "Will you to come tomorrow?", "Are you will come tomorrow?"],
+      "answer": "Will you come tomorrow?",
+      "acceptedAnswers": ["Will you come tomorrow?"],
+      "hint": "Pour poser la question, will passe avant le sujet. Il n'y a pas de do.",
+      "explanation": "Avec will, on fait la question en mettant will avant le sujet : Will you come…? On n'ajoute ni do ni are, et le verbe reste à la forme de base, sans to.",
+      "tip": "Question au futur : Will + sujet + verbe de base.",
+      "extraExample": {"text": "Will Anna call you later?", "translation": "Est-ce qu'Anna t'appellera plus tard ?"},
+      "errorPatterns": [
+        {"equals": "do you will come tomorrow", "category": "grammar", "feedback": "Will remplace déjà do : on ne les met pas ensemble. On dit Will you come tomorrow ?"},
+        {"equals": "will you to come tomorrow", "category": "grammar", "feedback": "Après le sujet, le verbe est à la forme de base, sans to : Will you come ?"},
+        {"equals": "are you will come tomorrow", "category": "grammar", "feedback": "Are n'a rien à faire avec will. Pour la question, on met will avant le sujet : Will you come ?"}
+      ]
+    },
+    {
+      "id": "en.l35.e03",
+      "unitIds": ["en.g24.will_future", "en.v.tomorrow", "en.v.next", "en.v.soon", "en.v.later", "en.v.maybe"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les mots du futur : tomorrow, next week, soon, later, maybe",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "tomorrow", "right": "demain"},
+        {"left": "next week", "right": "la semaine prochaine"},
+        {"left": "soon", "right": "bientôt"},
+        {"left": "later", "right": "plus tard"},
+        {"left": "maybe", "right": "peut-être"}
+      ],
+      "answer": "tomorrow = demain ; next week = la semaine prochaine ; soon = bientôt ; later = plus tard ; maybe = peut-être",
+      "acceptedAnswers": [],
+      "explanation": "Ces mots situent une action dans le futur. Next veut dire « prochain » et s'emploie sans the : next week. Maybe exprime le doute : ce n'est pas sûr.",
+      "tip": "Next + période, sans the : next week, next weekend.",
+      "extraExample": {"text": "I'll see you tomorrow.", "translation": "Je te verrai demain."}
+    },
+    {
+      "id": "en.l35.e04",
+      "unitIds": ["en.g24.will_future"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "Don't worry. Tom ___ be late.",
+      "promptLanguage": "en",
+      "options": ["won't", "doesn't", "isn't", "not"],
+      "answer": "won't",
+      "acceptedAnswers": ["won't", "will not"],
+      "hint": "Ce petit mot exprime à la fois le futur et la négation.",
+      "explanation": "Won't est la forme courte de will not. Tom won't be late veut dire « Tom ne sera pas en retard » : on rassure quelqu'un sur le futur.",
+      "tip": "Won't = will not : on le met avant le verbe de base.",
+      "extraExample": {"text": "We won't forget your birthday.", "translation": "Nous n'oublierons pas ton anniversaire."},
+      "errorPatterns": [
+        {"equals": "does not", "category": "grammar", "feedback": "Doesn't sert au présent simple, et on ne l'emploie pas devant be. Pour le futur négatif, on dit won't."},
+        {"equals": "is not", "category": "grammar", "feedback": "Isn't ne peut pas être suivi de be. Pour dire « ne sera pas », on utilise won't be."},
+        {"equals": "not", "category": "grammar", "feedback": "Not seul ne suffit pas : il faut will not, ou plus simplement won't."}
+      ]
+    },
+    {
+      "id": "en.l35.e05",
+      "unitIds": ["en.g24.will_future", "en.v.maybe", "en.v.later"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot pour parler du futur.",
+      "prompt": "Maybe it ___ rain later.",
+      "promptLanguage": "en",
+      "options": ["will", "wills", "to", "is"],
+      "answer": "will",
+      "acceptedAnswers": ["will", "'ll"],
+      "hint": "On ne sait pas encore s'il va pleuvoir : on fait une prédiction.",
+      "explanation": "Pour une prédiction sur le futur, on utilise will + verbe de base : it will rain. Maybe montre seulement qu'on n'est pas sûr.",
+      "tip": "Une prédiction se fait avec will + verbe de base.",
+      "extraExample": {"text": "Maybe Sam will come to the party.", "translation": "Peut-être que Sam viendra à la fête."},
+      "errorPatterns": [
+        {"equals": "wills", "category": "conjugation", "feedback": "Will ne prend jamais de -s, même avec it. On dit it will rain."},
+        {"equals": "to", "category": "grammar", "feedback": "To ne marque pas le futur ici. Il faut l'auxiliaire will devant rain."},
+        {"equals": "is", "category": "verb_tense", "feedback": "It is rain n'existe pas : is n'est pas suivi du verbe de base. Pour le futur, on met will."}
+      ]
+    },
+    {
+      "id": "en.l35.e06",
+      "unitIds": ["en.g24.will_future", "en.v.tomorrow"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Nous ne partirons pas demain matin.",
+      "promptLanguage": "fr",
+      "tokens": ["tomorrow", "We", "leave", "morning", "won't"],
+      "answer": "We won't leave tomorrow morning",
+      "acceptedAnswers": ["We won't leave tomorrow morning", "Tomorrow morning we won't leave"],
+      "hint": "Won't se place juste après le sujet, avant le verbe.",
+      "explanation": "On met won't entre le sujet et le verbe de base : We won't leave. Le moment (tomorrow morning) se place à la fin, ou au début de la phrase.",
+      "tip": "Sujet + won't + verbe de base : le verbe ne change jamais.",
+      "extraExample": {"text": "They won't arrive tonight.", "translation": "Ils n'arriveront pas ce soir."}
+    },
+    {
+      "id": "en.l35.e07",
+      "unitIds": ["en.g24.will_future", "en.v.tomorrow"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Il pleuvra demain.",
+      "promptLanguage": "fr",
+      "answer": "It will rain tomorrow",
+      "acceptedAnswers": ["It will rain tomorrow", "Tomorrow it will rain", "It will be rainy tomorrow", "It is going to rain tomorrow", "Tomorrow it is going to rain"],
+      "hint": "C'est une prédiction : quel mot du futur place-t-on avant rain ?",
+      "explanation": "Pour une prédiction, on met will avant le verbe de base : It will rain tomorrow. Le verbe rain ne prend pas de -s après will.",
+      "tip": "Prédiction sur demain : will + verbe de base.",
+      "extraExample": {"text": "It will be cold tonight.", "translation": "Il fera froid cette nuit."},
+      "errorPatterns": [
+        {"contains": "will rains", "category": "conjugation", "feedback": "Après will, le verbe reste à sa forme de base : will rain, sans -s."},
+        {"contains": "will to rain", "category": "grammar", "feedback": "Après will, on ne met pas to : it will rain."},
+        {"contains": "is raining tomorrow", "category": "verb_tense", "feedback": "It's raining parle du moment présent. Pour une prédiction sur demain, on dit It will rain tomorrow."},
+        {"contains": "rains tomorrow", "category": "verb_tense", "feedback": "Le présent simple ne convient pas pour une prédiction. Utilise will : It will rain tomorrow."}
+      ]
+    },
+    {
+      "id": "en.l35.e08",
+      "unitIds": ["en.g24.will_future", "en.v.later"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je t'appellerai plus tard.",
+      "promptLanguage": "fr",
+      "answer": "I will call you later",
+      "acceptedAnswers": ["I will call you later", "I will phone you later", "I will call you back later", "Later I will call you", "I am going to call you later", "I am going to phone you later"],
+      "hint": "Le futur se fait avec will. Le complément « te » se dit you.",
+      "explanation": "Pour une décision ou une promesse sur le futur, on utilise will + verbe de base : I will call you later. À l'oral, on dit surtout I'll call you later.",
+      "tip": "Je + futur = I will (ou I'll) + verbe de base.",
+      "extraExample": {"text": "I'll send you a message later.", "translation": "Je t'enverrai un message plus tard."},
+      "errorPatterns": [
+        {"contains": "will to call", "category": "grammar", "feedback": "Après will, on ne met pas to : I will call."},
+        {"contains": "will calling", "category": "grammar", "feedback": "Après will, le verbe est à la forme de base, sans -ing : I will call."},
+        {"contains": "i call you", "category": "verb_tense", "feedback": "Le présent simple ne convient pas pour annoncer ce que tu feras. Utilise will : I will call you later."}
+      ]
+    },
+    {
+      "id": "en.l35.e09",
+      "unitIds": ["en.g24.will_future", "en.v.next"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Nous partirons la semaine prochaine. » ?",
+      "promptLanguage": "fr",
+      "answer": "We will leave next week",
+      "acceptedAnswers": ["We will leave next week", "We will go next week", "We will go away next week", "Next week we will leave", "We are going to leave next week", "We are going to go next week", "We are leaving next week"],
+      "hint": "« La semaine prochaine » se dit next week, sans the ni préposition.",
+      "explanation": "Pour annoncer ce qu'on fera plus tard, on utilise will + verbe de base : We will leave. Next week se place à la fin et ne prend ni the ni préposition.",
+      "tip": "Next week, sans the et sans in : on dit next week, pas in the next week.",
+      "extraExample": {"text": "Anna will visit us next week.", "translation": "Anna nous rendra visite la semaine prochaine."},
+      "errorPatterns": [
+        {"contains": "the next week", "category": "grammar", "feedback": "Dans « la semaine prochaine », on ne met pas the en anglais : next week."},
+        {"contains": "will to leave", "category": "grammar", "feedback": "Après will, on ne met pas to : we will leave."},
+        {"contains": "we leave next week", "category": "verb_tense", "feedback": "Le présent simple ne suffit pas pour annoncer ce que tu feras. Utilise will : We will leave next week."}
+      ]
+    },
+    {
+      "id": "en.l35.e10",
+      "unitIds": ["en.g24.will_future", "en.v.tomorrow"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris une phrase en anglais avec will et tomorrow, pour dire ce que tu feras demain.",
+      "prompt": "Que feras-tu demain ? Écris une phrase.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["will", "'ll", "won't"], ["tomorrow"]], "minWords": 4},
+      "answer": "Tomorrow I will visit my friend.",
+      "acceptedAnswers": ["Tomorrow I will visit my friend.", "I will cook dinner tomorrow.", "I won't work tomorrow.", "Tomorrow I will stay at home."],
+      "hint": "Commence par I will, puis choisis un verbe de base que tu connais (visit, work, cook, stay…).",
+      "explanation": "Une phrase correcte contient will (ou won't) suivi d'un verbe de base, et le mot tomorrow. Par exemple : Tomorrow I will visit my friend.",
+      "tip": "Je + will + verbe + tomorrow : tu peux mettre tomorrow au début ou à la fin.",
+      "extraExample": {"text": "I'll cook dinner tomorrow.", "translation": "Je préparerai le dîner demain."},
+      "errorPatterns": [
+        {"contains": "will to", "category": "grammar", "feedback": "Après will, on ne met pas to : le verbe de base suit directement."},
+        {"contains": "wills", "category": "conjugation", "feedback": "Will ne prend jamais de -s : I will, he will, they will."}
+      ]
+    }
+  ]
+}

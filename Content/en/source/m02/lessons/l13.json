@@ -1,0 +1,205 @@
+{
+  "lessonId": "en.l13",
+  "exercises": [
+    {
+      "id": "en.l13.e01",
+      "unitIds": ["en.g11.can", "en.v.swim"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "She ___ swim.",
+      "promptLanguage": "en",
+      "options": ["can", "cans", "can to", "is can"],
+      "answer": "can",
+      "acceptedAnswers": ["can"],
+      "hint": "Can ne change jamais et se place juste avant le verbe.",
+      "explanation": "Can est un verbe à part : il ne change jamais, même avec she, et il est suivi directement du verbe de base. On dit donc she can swim.",
+      "tip": "Can ne prend jamais de -s et n'est jamais suivi de to.",
+      "extraExample": {"text": "My brother can swim.", "translation": "Mon frère sait nager."},
+      "errorPatterns": [
+        {"equals": "cans", "category": "conjugation", "feedback": "Can ne prend jamais de -s, même avec she : she can swim."},
+        {"equals": "can to", "category": "grammar", "feedback": "Après can, on n'ajoute pas to : she can swim."},
+        {"equals": "is can", "category": "grammar", "feedback": "Can est déjà le verbe : on n'ajoute pas is. On dit she can swim."}
+      ]
+    },
+    {
+      "id": "en.l13.e02",
+      "unitIds": ["en.g11.can", "en.v.drive"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « Je sais conduire » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I can drive.", "I can to drive.", "I know drive.", "I am drive."],
+      "answer": "I can drive.",
+      "acceptedAnswers": ["I can drive."],
+      "hint": "En anglais, « savoir faire quelque chose » se dit avec can.",
+      "explanation": "Pour dire qu'on sait faire quelque chose, on utilise can + verbe de base : I can drive. Know ne s'emploie pas ainsi devant un verbe.",
+      "tip": "Savoir + verbe = can + verbe. Pas de to après can.",
+      "extraExample": {"text": "You can drive.", "translation": "Tu sais conduire."},
+      "errorPatterns": [
+        {"equals": "i can to drive.", "category": "grammar", "feedback": "Après can, on n'ajoute pas to : I can drive."},
+        {"equals": "i know drive.", "category": "vocabulary", "feedback": "En français, on dit « je sais conduire », mais en anglais on ne traduit pas ce « savoir » par know : on utilise can. I can drive."},
+        {"equals": "i am drive.", "category": "grammar", "feedback": "Am est le verbe être : on ne le met pas devant un autre verbe. On dit I can drive."}
+      ]
+    },
+    {
+      "id": "en.l13.e03",
+      "unitIds": ["en.g11.can", "en.v.swim", "en.v.drive", "en.v.speak", "en.v.english", "en.v.french"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "Ce que je sais faire : swim, drive, speak English, speak French",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "I can swim.", "right": "Je sais nager."},
+        {"left": "She can drive.", "right": "Elle sait conduire."},
+        {"left": "We can speak English.", "right": "Nous savons parler anglais."},
+        {"left": "They can speak French.", "right": "Ils savent parler français."},
+        {"left": "I can't swim.", "right": "Je ne sais pas nager."}
+      ],
+      "answer": "I can swim. = Je sais nager. ; She can drive. = Elle sait conduire. ; We can speak English. = Nous savons parler anglais. ; They can speak French. = Ils savent parler français. ; I can't swim. = Je ne sais pas nager.",
+      "acceptedAnswers": [],
+      "explanation": "Can + verbe de base dit ce qu'on sait faire. Can't dit qu'on ne sait pas. Les noms de langues, English et French, prennent une majuscule en anglais.",
+      "tip": "English et French s'écrivent toujours avec une majuscule.",
+      "extraExample": {"text": "Anna can swim and drive.", "translation": "Anna sait nager et conduire."}
+    },
+    {
+      "id": "en.l13.e04",
+      "unitIds": ["en.g11.can", "en.v.speak", "en.v.french"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme.",
+      "prompt": "Tom ___ speak French. (il sait)",
+      "promptLanguage": "en",
+      "options": ["can", "cans", "can't", "can to"],
+      "answer": "can",
+      "acceptedAnswers": ["can"],
+      "hint": "La phrase est affirmative : Tom sait parler français.",
+      "explanation": "Pour dire qu'on sait faire quelque chose, on utilise can + verbe de base. Can ne prend pas de -s, même avec Tom : Tom can speak French.",
+      "tip": "Même avec un prénom, can reste can.",
+      "extraExample": {"text": "My sister can speak English.", "translation": "Ma sœur sait parler anglais."},
+      "errorPatterns": [
+        {"equals": "cans", "category": "conjugation", "feedback": "Can ne prend jamais de -s : Tom can speak."},
+        {"equals": "can't", "category": "grammar", "feedback": "Can't veut dire « ne pas pouvoir, ne pas savoir ». La phrase est affirmative : on dit can."},
+        {"equals": "can to", "category": "grammar", "feedback": "Après can, on n'ajoute pas to : Tom can speak."}
+      ]
+    },
+    {
+      "id": "en.l13.e05",
+      "unitIds": ["en.g11.can", "en.v.swim"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme.",
+      "prompt": "We ___ swim. (nous ne savons pas)",
+      "promptLanguage": "en",
+      "options": ["can't", "can", "cans", "to"],
+      "answer": "can't",
+      "acceptedAnswers": ["can't", "cannot", "can not"],
+      "hint": "La phrase est négative.",
+      "explanation": "Pour dire qu'on ne peut pas ou qu'on ne sait pas faire quelque chose, on utilise can't (ou cannot) + verbe de base : we can't swim.",
+      "tip": "Can't = can + not : la négation est collée à can.",
+      "extraExample": {"text": "They can't drive.", "translation": "Ils ne savent pas conduire."},
+      "errorPatterns": [
+        {"equals": "can", "category": "grammar", "feedback": "Can est affirmatif. La phrase dit « nous ne savons pas » : on utilise can't."},
+        {"equals": "cans", "category": "conjugation", "feedback": "Can ne prend jamais de -s. Ici, on veut la négation : can't."}
+      ]
+    },
+    {
+      "id": "en.l13.e06",
+      "unitIds": ["en.g11.can", "en.v.speak", "en.v.english", "en.v.french"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Anna sait parler anglais et français.",
+      "promptLanguage": "fr",
+      "tokens": ["English", "Anna", "speak", "and", "can", "French"],
+      "answer": "Anna can speak English and French",
+      "acceptedAnswers": ["Anna can speak English and French", "Anna can speak French and English"],
+      "hint": "Sujet, can, verbe de base, puis les deux langues.",
+      "explanation": "L'ordre est : sujet + can + verbe de base + complément. Anna can speak, puis English and French.",
+      "tip": "Sujet + can + verbe : can se place toujours juste avant le verbe.",
+      "extraExample": {"text": "Tom can speak French and English.", "translation": "Tom sait parler français et anglais."}
+    },
+    {
+      "id": "en.l13.e07",
+      "unitIds": ["en.g11.can", "en.v.drive", "en.v.mother"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Ma mère sait conduire.",
+      "promptLanguage": "fr",
+      "answer": "My mother can drive.",
+      "acceptedAnswers": ["My mother can drive.", "My mum can drive.", "My mom can drive.", "My mother can drive a car.", "My mum can drive a car.", "My mom can drive a car."],
+      "hint": "Savoir faire quelque chose = can. Can ne change pas avec my mother.",
+      "explanation": "Pour dire qu'on sait faire quelque chose, on utilise can + verbe de base. Can ne change pas avec my mother : my mother can drive.",
+      "tip": "She, he, my mother : can reste can, et le verbe suivant aussi.",
+      "extraExample": {"text": "My father can drive.", "translation": "Mon père sait conduire."},
+      "errorPatterns": [
+        {"contains": "mother cans", "category": "conjugation", "feedback": "Can ne prend jamais de -s : my mother can drive."},
+        {"contains": "can to drive", "category": "grammar", "feedback": "Après can, on n'ajoute pas to : can drive."},
+        {"contains": "can drives", "category": "conjugation", "feedback": "Après can, le verbe reste à sa forme de base : can drive, sans -s."}
+      ]
+    },
+    {
+      "id": "en.l13.e08",
+      "unitIds": ["en.g11.can", "en.v.swim"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Ils ne savent pas nager.",
+      "promptLanguage": "fr",
+      "answer": "They can't swim.",
+      "acceptedAnswers": ["They can't swim."],
+      "hint": "La négation de can est can't.",
+      "explanation": "Pour dire qu'on ne sait pas faire quelque chose, on utilise can't + verbe de base : they can't swim. On n'ajoute ni to ni -s.",
+      "tip": "Can't + verbe de base : they can't swim.",
+      "extraExample": {"text": "We can't drive.", "translation": "Nous ne savons pas conduire."},
+      "errorPatterns": [
+        {"contains": "can swim not", "category": "word_order", "feedback": "La négation se place sur can : can't (ou cannot), puis le verbe. On dit they can't swim."},
+        {"contains": "can't to", "category": "grammar", "feedback": "Après can't, on n'ajoute pas to : they can't swim."},
+        {"contains": "they are can", "category": "grammar", "feedback": "Can est déjà le verbe : on n'ajoute pas are. On dit they can't swim."}
+      ]
+    },
+    {
+      "id": "en.l13.e09",
+      "unitIds": ["en.g11.can", "en.v.speak", "en.v.english"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Tu sais parler anglais ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Can you speak English?",
+      "acceptedAnswers": ["Can you speak English?", "Do you speak English?"],
+      "hint": "Pour une question avec can, on met can avant le sujet.",
+      "explanation": "Pour poser une question avec can, on place can avant le sujet : Can you speak English? Il n'y a pas de to ni de -s.",
+      "tip": "Question avec can : Can + sujet + verbe.",
+      "extraExample": {"text": "Can you swim?", "translation": "Est-ce que tu sais nager ?"},
+      "errorPatterns": [
+        {"contains": "you can speak", "category": "word_order", "feedback": "Pour une question, on met can avant le sujet : Can you speak English?"},
+        {"contains": "can you to", "category": "grammar", "feedback": "Après can you, on n'ajoute pas to : Can you speak English?"},
+        {"contains": "do you can", "category": "grammar", "feedback": "Avec can, on ne met pas do : on place simplement can avant le sujet. Can you speak English?"}
+      ]
+    },
+    {
+      "id": "en.l13.e10",
+      "unitIds": ["en.g11.can", "en.v.drive"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Elle ne sait pas conduire » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "She can't drive.",
+      "acceptedAnswers": ["She can't drive."],
+      "hint": "Can ne prend pas de -s, et sa négation est can't.",
+      "explanation": "Pour dire qu'on ne sait pas faire quelque chose, on utilise can't + verbe de base. Can't ne change pas avec she : she can't drive.",
+      "tip": "She can't drive : pas de -s sur can, pas de -s sur le verbe.",
+      "extraExample": {"text": "He can't swim.", "translation": "Il ne sait pas nager."},
+      "errorPatterns": [
+        {"contains": "cans", "category": "conjugation", "feedback": "Can ne prend jamais de -s, même avec she : she can't drive."},
+        {"contains": "can't drives", "category": "conjugation", "feedback": "Après can't, le verbe reste à sa forme de base : can't drive, sans -s."},
+        {"contains": "can't to", "category": "grammar", "feedback": "Après can't, on n'ajoute pas to : she can't drive."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "lessonId": "en.l26",
+  "exercises": [
+    {
+      "id": "en.l26.e01",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.colleague"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "My colleague ___ coffee every morning.",
+      "promptLanguage": "en",
+      "options": [
+        "drinks",
+        "is drinking",
+        "drink"
+      ],
+      "answer": "drinks",
+      "acceptedAnswers": [
+        "drinks"
+      ],
+      "hint": "Every morning indique une habitude.",
+      "explanation": "Every morning indique une habitude : on utilise le présent simple. My colleague = he, donc le verbe prend -s : drinks.",
+      "tip": "Tous les jours, souvent, toujours : présent simple.",
+      "extraExample": {
+        "text": "My sister plays music every evening.",
+        "translation": "Ma sœur joue de la musique tous les soirs."
+      },
+      "errorPatterns": [
+        {
+          "equals": "is drinking",
+          "category": "verb_tense",
+          "feedback": "Every morning indique une habitude, pas une action en cours : on utilise le présent simple, drinks."
+        },
+        {
+          "equals": "drink",
+          "category": "conjugation",
+          "feedback": "My colleague = he : le verbe prend -s au présent simple. On dit drinks."
+        }
+      ]
+    },
+    {
+      "id": "en.l26.e02",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.at_the_moment",
+        "en.v.colleague"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "At the moment, my colleague ___ on the phone.",
+      "promptLanguage": "en",
+      "options": [
+        "is talking",
+        "talks",
+        "talk"
+      ],
+      "answer": "is talking",
+      "acceptedAnswers": [
+        "is talking"
+      ],
+      "hint": "At the moment veut dire « en ce moment ».",
+      "explanation": "At the moment veut dire « en ce moment » : l'action est en cours. On utilise le présent continu, be + verbe en -ing : is talking.",
+      "tip": "At the moment, now : be + -ing.",
+      "extraExample": {
+        "text": "At the moment, my brother is sleeping.",
+        "translation": "En ce moment, mon frère dort."
+      },
+      "errorPatterns": [
+        {
+          "equals": "talks",
+          "category": "verb_tense",
+          "feedback": "Talks décrit une habitude. Avec at the moment, l'action est en cours : is talking."
+        },
+        {
+          "equals": "talk",
+          "category": "verb_tense",
+          "feedback": "Avec at the moment, on utilise le présent continu : my colleague is talking."
+        }
+      ]
+    },
+    {
+      "id": "en.l26.e03",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.today",
+        "en.v.tonight",
+        "en.v.at_the_moment",
+        "en.v.office",
+        "en.v.colleague"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot anglais à sa traduction.",
+      "prompt": "Les mots du temps et du travail",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "today",
+          "right": "aujourd'hui"
+        },
+        {
+          "left": "tonight",
+          "right": "ce soir"
+        },
+        {
+          "left": "at the moment",
+          "right": "en ce moment"
+        },
+        {
+          "left": "office",
+          "right": "le bureau"
+        },
+        {
+          "left": "colleague",
+          "right": "un collègue / une collègue"
+        }
+      ],
+      "answer": "today = aujourd'hui ; tonight = ce soir ; at the moment = en ce moment ; office = le bureau ; colleague = un collègue / une collègue",
+      "acceptedAnswers": [],
+      "explanation": "Today, tonight et at the moment vont souvent avec le présent continu : ils parlent de ce qui se passe maintenant ou d'un projet précis. Colleague s'emploie pour un collègue comme pour une collègue.",
+      "tip": "Today, tonight, at the moment : pense au présent continu.",
+      "extraExample": {
+        "text": "I'm working at the office today.",
+        "translation": "Je travaille au bureau aujourd'hui."
+      }
+    },
+    {
+      "id": "en.l26.e04",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.office"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le verbe like, à la forme qui convient.",
+      "prompt": "I ___ my office.",
+      "promptLanguage": "en",
+      "options": [
+        "like",
+        "am liking",
+        "likes"
+      ],
+      "answer": "like",
+      "acceptedAnswers": [
+        "like"
+      ],
+      "hint": "Like exprime un goût, pas une action.",
+      "explanation": "Like est un verbe d'état : il exprime un goût ou un sentiment, pas une action. Les verbes d'état (like, love, know, want, need) ne s'utilisent presque jamais au présent continu.",
+      "tip": "J'aime, je sais, je veux : toujours au présent simple.",
+      "extraExample": {
+        "text": "I love my school.",
+        "translation": "J'adore mon école."
+      },
+      "errorPatterns": [
+        {
+          "equals": "am liking",
+          "category": "verb_tense",
+          "feedback": "Like est un verbe d'état : on ne dit pas I'm liking. On dit simplement I like."
+        },
+        {
+          "equals": "likes",
+          "category": "conjugation",
+          "feedback": "Avec I, le verbe ne prend pas de -s : I like."
+        }
+      ]
+    },
+    {
+      "id": "en.l26.e05",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.at_the_moment",
+        "en.v.office"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec la bonne forme du verbe work.",
+      "prompt": "Anna usually works at the office, but at the moment she ___ at home.",
+      "promptLanguage": "en",
+      "options": [
+        "is working",
+        "works",
+        "working"
+      ],
+      "answer": "is working",
+      "acceptedAnswers": [
+        "is working"
+      ],
+      "hint": "Usually = habitude. At the moment = maintenant.",
+      "explanation": "La phrase oppose une habitude (usually works) et ce qui se passe en ce moment. At the moment demande le présent continu : she is working at home.",
+      "tip": "Habitude = présent simple. Maintenant = présent continu.",
+      "extraExample": {
+        "text": "Anna usually cooks dinner, but tonight her brother is cooking.",
+        "translation": "D'habitude, Anna prépare le dîner, mais ce soir son frère cuisine."
+      },
+      "errorPatterns": [
+        {
+          "equals": "works",
+          "category": "verb_tense",
+          "feedback": "At the moment parle de maintenant : on utilise le présent continu, she is working."
+        },
+        {
+          "equals": "working",
+          "category": "grammar",
+          "feedback": "Il manque is : le verbe en -ing a besoin de be. She is working."
+        }
+      ]
+    },
+    {
+      "id": "en.l26.e06",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.office",
+        "en.v.colleague"
+      ],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Mon collègue travaille au bureau tous les jours.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "office",
+        "colleague",
+        "every",
+        "My",
+        "works",
+        "the",
+        "at",
+        "day"
+      ],
+      "answer": "My colleague works at the office every day",
+      "acceptedAnswers": [
+        "My colleague works at the office every day",
+        "Every day my colleague works at the office"
+      ],
+      "hint": "Tous les jours = habitude : présent simple.",
+      "explanation": "Every day indique une habitude : présent simple. My colleague = he, donc works avec un -s. Every day se place à la fin de la phrase (ou au début).",
+      "tip": "Every day → présent simple, pas de -ing.",
+      "extraExample": {
+        "text": "My sister goes to the gym every day.",
+        "translation": "Ma sœur va à la salle de sport tous les jours."
+      }
+    },
+    {
+      "id": "en.l26.e07",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.colleague"
+      ],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Est-ce que tu connais mon collègue ?",
+      "promptLanguage": "fr",
+      "answer": "Do you know my colleague?",
+      "acceptedAnswers": [
+        "Do you know my colleague?",
+        "Do you know my coworker?",
+        "Do you know my co-worker?"
+      ],
+      "hint": "Know est un verbe d'état.",
+      "explanation": "Know est un verbe d'état : il ne s'utilise presque jamais au présent continu. On pose donc la question au présent simple avec Do you… ?",
+      "tip": "Je sais, je connais, je veux : pas de -ing.",
+      "extraExample": {
+        "text": "I know her name.",
+        "translation": "Je connais son nom."
+      },
+      "errorPatterns": [
+        {
+          "contains": "are you knowing",
+          "category": "verb_tense",
+          "feedback": "Know est un verbe d'état : on ne l'utilise pas au présent continu. Do you know… ?"
+        },
+        {
+          "contains": "do you knows",
+          "category": "conjugation",
+          "feedback": "Après Do, le verbe reste à sa forme de base : Do you know."
+        }
+      ]
+    },
+    {
+      "id": "en.l26.e08",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.today",
+        "en.v.office",
+        "en.v.colleague"
+      ],
+      "type": "translation",
+      "difficulty": 4,
+      "instruction": "Traduis en anglais.",
+      "prompt": "D'habitude, mon collègue travaille au bureau, mais aujourd'hui il travaille à la maison.",
+      "promptLanguage": "fr",
+      "answer": "My colleague usually works at the office, but today he is working at home.",
+      "acceptedAnswers": [
+        "My colleague usually works at the office, but today he is working at home.",
+        "My colleague usually works at the office, but he is working at home today.",
+        "My colleague usually works at the office, but today he is working from home.",
+        "My colleague usually works at the office, but he is working from home today.",
+        "My colleague usually works in the office, but today he is working at home.",
+        "My colleague usually works in the office, but he is working at home today.",
+        "My colleague usually works in the office, but today he is working from home.",
+        "My colleague usually works in the office, but he is working from home today.",
+        "My colleague normally works at the office, but today he is working at home.",
+        "My colleague normally works at the office, but he is working at home today.",
+        "My colleague normally works at the office, but today he is working from home.",
+        "My colleague normally works at the office, but he is working from home today.",
+        "My colleague normally works in the office, but today he is working at home.",
+        "My colleague normally works in the office, but he is working at home today.",
+        "My colleague normally works in the office, but today he is working from home.",
+        "My colleague normally works in the office, but he is working from home today.",
+        "Usually my colleague works at the office, but today he is working at home.",
+        "Usually my colleague works at the office, but he is working at home today.",
+        "Usually my colleague works at the office, but today he is working from home.",
+        "Usually my colleague works at the office, but he is working from home today.",
+        "Usually my colleague works in the office, but today he is working at home.",
+        "Usually my colleague works in the office, but he is working at home today.",
+        "Usually my colleague works in the office, but today he is working from home.",
+        "Usually my colleague works in the office, but he is working from home today.",
+        "Normally my colleague works at the office, but today he is working at home.",
+        "Normally my colleague works at the office, but he is working at home today.",
+        "Normally my colleague works at the office, but today he is working from home.",
+        "Normally my colleague works at the office, but he is working from home today.",
+        "Normally my colleague works in the office, but today he is working at home.",
+        "Normally my colleague works in the office, but he is working at home today.",
+        "Normally my colleague works in the office, but today he is working from home.",
+        "Normally my colleague works in the office, but he is working from home today."
+      ],
+      "hint": "D'habitude → présent simple. Aujourd'hui → présent continu.",
+      "explanation": "D'habitude indique une habitude : présent simple (he usually works). Aujourd'hui, c'est une situation du jour : présent continu (he is working).",
+      "tip": "Habitude → simple ; aujourd'hui, en ce moment → continu.",
+      "extraExample": {
+        "text": "I usually eat lunch at home, but today I am eating at school.",
+        "translation": "D'habitude, je déjeune à la maison, mais aujourd'hui je mange à l'école."
+      },
+      "errorPatterns": [
+        {
+          "contains": "today he works",
+          "category": "verb_tense",
+          "feedback": "Aujourd'hui, c'est une situation du moment, différente de l'habitude : on utilise le présent continu, today he is working."
+        },
+        {
+          "contains": "usually working",
+          "category": "verb_tense",
+          "feedback": "Usually indique une habitude : présent simple, he usually works."
+        },
+        {
+          "contains": "usually is working",
+          "category": "verb_tense",
+          "feedback": "Usually indique une habitude : présent simple, he usually works."
+        }
+      ]
+    },
+    {
+      "id": "en.l26.e09",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.tonight"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment dit-on « Qu'est-ce que tu fais ce soir ? »",
+      "promptLanguage": "fr",
+      "answer": "What are you doing tonight?",
+      "acceptedAnswers": [
+        "What are you doing tonight?",
+        "Tonight, what are you doing?",
+        "What are you going to do tonight?"
+      ],
+      "hint": "Pour un projet de ce soir, on utilise be + -ing.",
+      "explanation": "Pour demander ce que quelqu'un a prévu de faire ce soir, on utilise le présent continu : What are you doing tonight ? Tonight veut dire « ce soir ».",
+      "tip": "Projet de ce soir : What are you doing tonight ?",
+      "extraExample": {
+        "text": "I'm cooking dinner for my friends tonight.",
+        "translation": "Je prépare le dîner pour mes amis ce soir."
+      },
+      "errorPatterns": [
+        {
+          "equals": "what do you do tonight",
+          "category": "verb_tense",
+          "feedback": "Pour un projet de ce soir, on utilise le présent continu : What are you doing tonight ?"
+        },
+        {
+          "contains": "what you doing",
+          "category": "grammar",
+          "feedback": "Il manque are : What are you doing tonight ?"
+        },
+        {
+          "contains": "you do tonight",
+          "category": "grammar",
+          "feedback": "Avec are, le verbe prend -ing : What are you doing tonight ?"
+        }
+      ]
+    },
+    {
+      "id": "en.l26.e10",
+      "unitIds": [
+        "en.g19.simple_vs_continuous",
+        "en.v.today",
+        "en.v.tonight",
+        "en.v.at_the_moment",
+        "en.v.office",
+        "en.v.colleague"
+      ],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris une phrase sur ce que tu fais ou ce que quelqu'un fait. Utilise at the moment, today ou tonight.",
+      "prompt": "Que se passe-t-il pour toi ou pour un collègue aujourd'hui, ce soir ou en ce moment ?",
+      "promptLanguage": "fr",
+      "requirements": {
+        "mustInclude": [
+          [
+            "moment",
+            "today",
+            "tonight"
+          ]
+        ],
+        "minWords": 4
+      },
+      "answer": "I am working at the office at the moment.",
+      "acceptedAnswers": [
+        "I am working at the office at the moment.",
+        "Tonight I am cooking dinner for my friends.",
+        "Today I am using my laptop at home.",
+        "My colleague is talking on the phone at the moment."
+      ],
+      "hint": "Today, tonight, at the moment : be + verbe en -ing.",
+      "explanation": "Avec at the moment, today ou tonight, on utilise le présent continu : I am working, she is cooking. Pour une habitude, on utiliserait le présent simple avec every day ou usually.",
+      "tip": "Les verbes comme like, know, want restent au présent simple, même avec now.",
+      "extraExample": {
+        "text": "At the moment, I am using my laptop at the office.",
+        "translation": "En ce moment, j'utilise mon ordinateur portable au bureau."
+      },
+      "errorPatterns": [
+        {
+          "contains": "am liking",
+          "category": "verb_tense",
+          "feedback": "Like est un verbe d'état : on ne dit pas I'm liking. On dit I like."
+        },
+        {
+          "contains": "am knowing",
+          "category": "verb_tense",
+          "feedback": "Know est un verbe d'état : on ne dit pas I'm knowing. On dit I know."
+        },
+        {
+          "contains": "am wanting",
+          "category": "verb_tense",
+          "feedback": "Want est un verbe d'état : on ne dit pas I'm wanting. On dit I want."
+        }
+      ]
+    }
+  ]
+}

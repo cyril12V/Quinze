@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l48",
+  "exercises": [
+    {
+      "id": "en.l48.e01",
+      "unitIds": ["en.g33.prepositions_place"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Les clés sont sur la table. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["The keys are on the table.", "The keys are in the table.", "The keys are under the table."],
+      "answer": "The keys are on the table.",
+      "acceptedAnswers": ["The keys are on the table."],
+      "hint": "Les clés sont posées sur une surface.",
+      "explanation": "« Sur » une surface se dit on : on the table. In veut dire « dans » (à l'intérieur) et under veut dire « sous ».",
+      "tip": "Sur une surface plate : on. À l'intérieur : in.",
+      "extraExample": {"text": "The book is on the sofa.", "translation": "Le livre est sur le canapé."},
+      "errorPatterns": [
+        {"equals": "the keys are in the table", "category": "preposition", "feedback": "In veut dire « à l'intérieur de ». Les clés sont sur la surface de la table : on the table."},
+        {"equals": "the keys are under the table", "category": "vocabulary", "feedback": "Under veut dire « sous ». Pour « sur », on dit on."}
+      ]
+    },
+    {
+      "id": "en.l48.e02",
+      "unitIds": ["en.g33.prepositions_place"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque préposition anglaise à sa traduction.",
+      "prompt": "Où est le chien ? Les prépositions de position.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "in front of", "right": "devant"},
+        {"left": "behind", "right": "derrière"},
+        {"left": "next to", "right": "à côté de"},
+        {"left": "between", "right": "entre"},
+        {"left": "under", "right": "sous"}
+      ],
+      "answer": "in front of = devant ; behind = derrière ; next to = à côté de ; between = entre ; under = sous",
+      "acceptedAnswers": [],
+      "explanation": "Ces cinq mots disent la position exacte d'une chose. Devant se dit in front of, en trois mots, avec of à la fin.",
+      "tip": "Behind et in front of sont contraires : derrière et devant."
+    },
+    {
+      "id": "en.l48.e03",
+      "unitIds": ["en.g33.prepositions_place", "en.v.floor"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne préposition.",
+      "prompt": "The bedroom is ___ the second floor.",
+      "promptLanguage": "en",
+      "options": ["on", "in", "at"],
+      "answer": "on",
+      "acceptedAnswers": ["on"],
+      "hint": "Un étage est comme une surface sur laquelle on se trouve.",
+      "explanation": "Pour un étage, on utilise on : on the second floor. Floor veut dire « étage » ou « sol ».",
+      "tip": "Les étages se comptent avec on : on the first floor, on the third floor.",
+      "extraExample": {"text": "The kitchen is on the first floor.", "translation": "La cuisine est au premier étage."},
+      "errorPatterns": [
+        {"equals": "in", "category": "preposition", "feedback": "Avec un étage, on dit on, pas in : on the second floor."},
+        {"equals": "at", "category": "preposition", "feedback": "At s'utilise pour un point précis (at the door). Pour un étage, on dit on the second floor."}
+      ]
+    },
+    {
+      "id": "en.l48.e04",
+      "unitIds": ["en.g33.prepositions_place", "en.v.park"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la préposition qui correspond à la traduction.",
+      "prompt": "The park is ___ the school and the station. (entre l'école et la gare)",
+      "promptLanguage": "en",
+      "options": ["between", "behind", "under", "in"],
+      "answer": "between",
+      "acceptedAnswers": ["between"],
+      "hint": "Il y a deux lieux, un de chaque côté.",
+      "explanation": "Between veut dire « entre ». On l'utilise avec deux éléments reliés par and : between the school and the station.",
+      "tip": "Between prend toujours deux éléments : between A and B.",
+      "extraExample": {"text": "The shop is between the hotel and the park.", "translation": "Le magasin est entre l'hôtel et le parc."},
+      "errorPatterns": [
+        {"equals": "behind", "category": "vocabulary", "feedback": "Behind veut dire « derrière ». Pour « entre », on dit between."},
+        {"equals": "in", "category": "preposition", "feedback": "In veut dire « dans ». Pour « entre deux lieux », on dit between."}
+      ]
+    },
+    {
+      "id": "en.l48.e05",
+      "unitIds": ["en.g33.prepositions_place", "en.v.building"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec l'expression qui correspond à la traduction.",
+      "prompt": "There is a car ___ the building. (devant l'immeuble)",
+      "promptLanguage": "en",
+      "options": ["in front of", "in front", "front of"],
+      "answer": "in front of",
+      "acceptedAnswers": ["in front of"],
+      "hint": "Cette expression s'écrit en trois mots.",
+      "explanation": "« Devant » se dit in front of. Il faut les trois mots, et of reste avant the building.",
+      "tip": "In front of : n'oublie jamais of. In front the building est faux.",
+      "extraExample": {"text": "The dog is in front of the door.", "translation": "Le chien est devant la porte."},
+      "errorPatterns": [
+        {"equals": "in front", "category": "preposition", "feedback": "Il manque of. On dit in front of the building."},
+        {"equals": "front of", "category": "preposition", "feedback": "Il manque in au début : in front of the building."}
+      ]
+    },
+    {
+      "id": "en.l48.e06",
+      "unitIds": ["en.g33.prepositions_place", "en.v.street", "en.v.corner"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Il y a un parc au coin de la rue.",
+      "promptLanguage": "fr",
+      "tokens": ["corner", "the", "a", "There", "is", "park", "of", "street", "at", "the"],
+      "answer": "There is a park at the corner of the street",
+      "acceptedAnswers": ["There is a park at the corner of the street", "At the corner of the street there is a park"],
+      "hint": "Commence par There is. Le coin se dit the corner of the street.",
+      "explanation": "There is a park dit qu'il y a un parc. At the corner of the street donne son emplacement : at pour un point précis, of the street pour « de la rue ».",
+      "tip": "Au coin de la rue : at the corner of the street.",
+      "extraExample": {"text": "There is a shop at the corner of the street.", "translation": "Il y a un magasin au coin de la rue."}
+    },
+    {
+      "id": "en.l48.e07",
+      "unitIds": ["en.g33.prepositions_place", "en.v.building"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mon appartement est dans un grand bâtiment.",
+      "promptLanguage": "fr",
+      "answer": "My apartment is in a big building.",
+      "acceptedAnswers": ["My apartment is in a big building.", "My apartment is in a large building.", "My flat is in a big building.", "My flat is in a large building.", "My apartment is inside a big building.", "My apartment is in a big apartment building."],
+      "hint": "Dans un bâtiment, c'est à l'intérieur.",
+      "explanation": "Un bâtiment est un espace fermé : on dit in a building. L'adjectif big se place avant building.",
+      "tip": "À l'intérieur d'un lieu fermé (bâtiment, ville, pièce), on utilise in.",
+      "extraExample": {"text": "My office is in a new building.", "translation": "Mon bureau est dans un nouvel immeuble."},
+      "errorPatterns": [
+        {"contains": "on a big building", "category": "preposition", "feedback": "Ton appartement est à l'intérieur du bâtiment : in a big building, pas on."},
+        {"contains": "at a big building", "category": "preposition", "feedback": "At s'utilise pour un point précis. À l'intérieur d'un bâtiment, on dit in."},
+        {"contains": "building big", "category": "word_order", "feedback": "L'adjectif se place avant le nom : a big building."}
+      ]
+    },
+    {
+      "id": "en.l48.e08",
+      "unitIds": ["en.g33.prepositions_place", "en.v.park"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "La gare est à côté du parc.",
+      "promptLanguage": "fr",
+      "answer": "The station is next to the park.",
+      "acceptedAnswers": ["The station is next to the park.", "The station is beside the park.", "The station is near the park.", "The station is by the park."],
+      "hint": "« À côté de » se dit en deux mots : next ... .",
+      "explanation": "À côté de se dit next to. En anglais, il n'y a pas d'équivalent de « du » : on garde the park.",
+      "tip": "À côté de ? Next to, avec to à la fin.",
+      "extraExample": {"text": "The shop is next to the station.", "translation": "Le magasin est à côté de la gare."},
+      "errorPatterns": [
+        {"contains": "next the", "category": "preposition", "feedback": "Il manque to : next to the park."},
+        {"contains": "next of", "category": "preposition", "feedback": "À côté de se dit next to, pas next of."},
+        {"contains": "in front of", "category": "vocabulary", "feedback": "In front of veut dire « devant ». Pour « à côté de », on dit next to."}
+      ]
+    },
+    {
+      "id": "en.l48.e09",
+      "unitIds": ["en.g33.prepositions_place", "en.v.floor"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Il habite au troisième étage.",
+      "promptLanguage": "fr",
+      "answer": "He lives on the third floor.",
+      "acceptedAnswers": ["He lives on the third floor.", "He lives on the 3rd floor.", "He is living on the third floor.", "He is living on the 3rd floor."],
+      "hint": "Pour un étage, on utilise la même préposition que pour une surface.",
+      "explanation": "Un étage se dit avec on : on the third floor. Avec he, le verbe live prend un -s.",
+      "tip": "Étage = on the ... floor. Ville = in. Maison ou travail = at.",
+      "extraExample": {"text": "My parents live on the second floor.", "translation": "Mes parents habitent au deuxième étage."},
+      "errorPatterns": [
+        {"contains": "in the third floor", "category": "preposition", "feedback": "Pour un étage, on dit on, pas in : on the third floor."},
+        {"contains": "at the third floor", "category": "preposition", "feedback": "Pour un étage, on dit on, pas at : on the third floor."},
+        {"contains": "he live on", "category": "conjugation", "feedback": "Avec he, le verbe prend un -s : he lives."}
+      ]
+    },
+    {
+      "id": "en.l48.e10",
+      "unitIds": ["en.g33.prepositions_place"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris une phrase en anglais.",
+      "prompt": "Dis où est ton téléphone ou ton sac dans ta maison, avec une préposition de lieu (in, on, under, next to, behind...).",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["in", "on", "at", "under", "next to", "between", "behind", "in front of"]], "minWords": 4},
+      "answer": "My phone is on the sofa.",
+      "acceptedAnswers": ["My phone is on the sofa.", "My bag is under the table.", "My phone is next to the lamp.", "My bag is in the bedroom.", "My keys are behind the door."],
+      "hint": "Commence par My phone is ... ou My bag is ...",
+      "explanation": "Pour situer un objet, on utilise be + préposition + lieu : My phone is on the sofa. Choisis in pour l'intérieur, on pour une surface, under pour dessous.",
+      "tip": "Sujet + is / are + préposition + the + lieu.",
+      "extraExample": {"text": "The lamp is next to the chair.", "translation": "La lampe est à côté de la chaise."},
+      "errorPatterns": [
+        {"contains": "in the table", "category": "preposition", "feedback": "Pour un objet posé sur la table, on dit on the table."},
+        {"contains": "in front the", "category": "preposition", "feedback": "Devant se dit in front of : n'oublie pas of."},
+        {"contains": "in home", "category": "preposition", "feedback": "À la maison se dit at home."}
+      ]
+    }
+  ]
+}

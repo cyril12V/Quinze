@@ -1,0 +1,225 @@
+{
+  "lessonId": "en.l44",
+  "exercises": [
+    {
+      "id": "en.l44.e01",
+      "unitIds": ["en.g30.how_much_many"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne expression.",
+      "prompt": "___ milk do we need?",
+      "promptLanguage": "en",
+      "options": ["How much", "How many", "How"],
+      "answer": "How much",
+      "acceptedAnswers": ["How much"],
+      "hint": "Peut-on compter le lait : un lait, deux laits ?",
+      "explanation": "Milk ne se compte pas (on ne dit pas « two milks »). Devant un nom qu'on ne compte pas, on utilise how much : How much milk do we need ?",
+      "tip": "On ne peut pas compter ? How much.",
+      "extraExample": {"text": "How much water do you drink?", "translation": "Combien d'eau bois-tu ?"},
+      "errorPatterns": [
+        {"equals": "how many", "category": "grammar", "feedback": "How many s'utilise avec un pluriel qu'on peut compter (how many bags). Milk ne se compte pas : how much."},
+        {"equals": "how", "category": "grammar", "feedback": "How tout seul ne demande pas la quantité. Pour « combien de lait », on dit how much milk."}
+      ]
+    },
+    {
+      "id": "en.l44.e02",
+      "unitIds": ["en.g30.how_much_many", "en.v.shop", "en.v.price"],
+      "type": "mcq",
+      "difficulty": 2,
+      "context": "You are in a shop. You want to know the price of a book.",
+      "instruction": "Choisis la bonne question.",
+      "prompt": "Que dis-tu au vendeur ?",
+      "promptLanguage": "fr",
+      "options": ["How much is the book?", "How many is the book?", "How much are the book?", "How price is the book?"],
+      "answer": "How much is the book?",
+      "acceptedAnswers": ["How much is the book?"],
+      "hint": "Pour demander un prix, on commence par how much + is.",
+      "explanation": "Pour demander le prix, on dit How much is… ? avec un objet (the book), et How much are… ? avec plusieurs objets. Ici, un seul livre : How much is the book ?",
+      "tip": "Le prix : How much is it ? (un objet) / How much are they ? (plusieurs).",
+      "extraExample": {"text": "How much are the books? They're ten pounds.", "translation": "Combien coûtent les livres ? Ils coûtent dix livres."},
+      "errorPatterns": [
+        {"equals": "how many is the book", "category": "grammar", "feedback": "How many sert à compter des objets. Pour demander un prix, on dit how much."},
+        {"equals": "how much are the book", "category": "grammar", "feedback": "Un seul livre : on dit is, pas are. How much is the book ?"},
+        {"equals": "how price is the book", "category": "grammar", "feedback": "En anglais, on ne dit pas « how price ». Pour demander le prix, on dit How much is… ?"}
+      ]
+    },
+    {
+      "id": "en.l44.e03",
+      "unitIds": ["en.v.price", "en.v.cheap", "en.v.expensive", "en.v.shop", "en.v.money", "en.g30.how_much_many"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot à sa traduction.",
+      "prompt": "Les achats",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "price", "right": "le prix"},
+        {"left": "cheap", "right": "bon marché"},
+        {"left": "expensive", "right": "cher"},
+        {"left": "shop", "right": "le magasin"},
+        {"left": "money", "right": "l'argent"}
+      ],
+      "answer": "price = le prix ; cheap = bon marché ; expensive = cher ; shop = le magasin ; money = l'argent",
+      "acceptedAnswers": [],
+      "explanation": "Cheap veut dire « pas cher, bon marché » et expensive veut dire « cher » : ce sont des contraires. Money (l'argent) ne se compte pas et n'a jamais de -s.",
+      "tip": "Expensive = cher (beaucoup d'argent) ; cheap = pas cher.",
+      "extraExample": {"text": "The shop is cheap.", "translation": "Le magasin est bon marché."}
+    },
+    {
+      "id": "en.l44.e04",
+      "unitIds": ["en.g30.how_much_many"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "How ___ books do you want?",
+      "promptLanguage": "en",
+      "options": ["many", "much", "of"],
+      "answer": "many",
+      "acceptedAnswers": ["many"],
+      "hint": "Books est au pluriel : on peut les compter.",
+      "explanation": "Books se compte (one book, two books) : on utilise how many + pluriel. How much est réservé aux noms qu'on ne compte pas.",
+      "tip": "On peut compter ? How many + nom au pluriel.",
+      "extraExample": {"text": "How many cakes do you want?", "translation": "Combien de gâteaux veux-tu ?"},
+      "errorPatterns": [
+        {"equals": "much", "category": "grammar", "feedback": "How much s'utilise avec un nom qu'on ne compte pas (money, milk). Books se compte : how many."},
+        {"equals": "of", "category": "grammar", "feedback": "« Combien de » se dit how many ou how much, sans of : How many books ?"}
+      ]
+    },
+    {
+      "id": "en.l44.e05",
+      "unitIds": ["en.g30.how_much_many", "en.v.price", "en.v.cheap", "en.v.expensive"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "context": "The shop is expensive, but the bag is cheap. The price is five pounds.",
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "How ___ is the bag? It's five pounds.",
+      "promptLanguage": "en",
+      "options": ["much", "many", "a lot of"],
+      "answer": "much",
+      "acceptedAnswers": ["much"],
+      "hint": "Tu demandes un prix.",
+      "explanation": "Pour demander un prix, on dit How much is… ? On répond It's five pounds. How many sert seulement à compter des objets.",
+      "tip": "Un prix se demande avec How much is… ?",
+      "extraExample": {"text": "How much is the coffee? It's two pounds.", "translation": "Combien coûte le café ? Il coûte deux livres."},
+      "errorPatterns": [
+        {"equals": "many", "category": "grammar", "feedback": "How many sert à compter des objets (how many bags). Pour un prix, on dit how much."},
+        {"equals": "a lot of", "category": "grammar", "feedback": "A lot of veut dire « beaucoup de » et ne se met pas ici. Pour demander un prix : How much is… ?"}
+      ]
+    },
+    {
+      "id": "en.l44.e06",
+      "unitIds": ["en.g30.how_much_many", "en.v.money"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former la question.",
+      "prompt": "Combien d'argent as-tu ?",
+      "promptLanguage": "fr",
+      "tokens": ["do", "money", "How", "have", "you", "much"],
+      "answer": "How much money do you have",
+      "acceptedAnswers": ["How much money do you have"],
+      "hint": "How much + nom, puis do you have.",
+      "explanation": "Money ne se compte pas : on dit how much money. Après how much + nom, la question se construit comme d'habitude : do you have ?",
+      "tip": "How much / how many + nom + do you have ?",
+      "extraExample": {"text": "How much bread do we need?", "translation": "De combien de pain avons-nous besoin ?"}
+    },
+    {
+      "id": "en.l44.e07",
+      "unitIds": ["en.g30.how_much_many", "en.v.shop"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Combien de sacs as-tu ?",
+      "promptLanguage": "fr",
+      "answer": "How many bags do you have?",
+      "acceptedAnswers": [
+        "How many bags do you have?",
+        "How many bags have you got?"
+      ],
+      "hint": "Un sac, deux sacs : on peut compter.",
+      "explanation": "Les sacs se comptent (one bag, two bags) : on utilise how many + pluriel. Le nom prend un -s : how many bags.",
+      "tip": "Après how many, le nom est toujours au pluriel.",
+      "extraExample": {"text": "How many books do you have?", "translation": "Combien de livres as-tu ?"},
+      "errorPatterns": [
+        {"contains": "how much bags", "category": "grammar", "feedback": "Les sacs se comptent : on utilise how many bags, pas how much."},
+        {"contains": "how many bag do", "category": "grammar", "feedback": "Après how many, le nom est au pluriel : how many bags."},
+        {"contains": "how many of bags", "category": "grammar", "feedback": "« Combien de » ne se traduit pas avec of : how many bags."}
+      ]
+    },
+    {
+      "id": "en.l44.e08",
+      "unitIds": ["en.g30.how_much_many", "en.g28.there_is_are", "en.v.shop"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. « beaucoup de » = a lot of.",
+      "prompt": "Il y a beaucoup de magasins dans cette ville.",
+      "promptLanguage": "fr",
+      "answer": "There are a lot of shops in this city.",
+      "acceptedAnswers": [
+        "There are a lot of shops in this city.",
+        "There are lots of shops in this city.",
+        "There are many shops in this city.",
+        "There are plenty of shops in this city.",
+        "There are a lot of shops in the city.",
+        "There are lots of shops in the city.",
+        "There are many shops in the city."
+      ],
+      "hint": "Magasins est au pluriel : there are.",
+      "explanation": "Dans une phrase affirmative, on préfère a lot of à many : There are a lot of shops. Shops est un pluriel, donc there are et non there is.",
+      "tip": "Beaucoup de, dans une phrase affirmative : a lot of (n'oublie pas of).",
+      "extraExample": {"text": "There are a lot of books in my bedroom.", "translation": "Il y a beaucoup de livres dans ma chambre."},
+      "errorPatterns": [
+        {"contains": "there is a lot of shops", "category": "grammar", "feedback": "Shops est un pluriel : on dit there are a lot of shops."},
+        {"contains": "much shops", "category": "grammar", "feedback": "Les magasins se comptent : on dit many shops ou a lot of shops, jamais much shops."},
+        {"contains": "a lot shops", "category": "grammar", "feedback": "Il manque of : a lot of shops."}
+      ]
+    },
+    {
+      "id": "en.l44.e09",
+      "unitIds": ["en.g30.how_much_many", "en.v.price"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "context": "Anna is in a shop. She wants to know the price of the laptop.",
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment demande-t-elle le prix de l'ordinateur portable ?",
+      "promptLanguage": "fr",
+      "answer": "How much is the laptop?",
+      "acceptedAnswers": [
+        "How much is the laptop?",
+        "How much is this laptop?",
+        "How much is that laptop?",
+        "How much does the laptop cost?",
+        "How much does this laptop cost?"
+      ],
+      "hint": "Pour demander un prix : How + much + is…",
+      "explanation": "Pour demander le prix d'un objet, on dit How much is… ? Un seul ordinateur, donc is. On pourrait aussi dire How much does it cost ?",
+      "tip": "Le prix d'un objet : How much is…  ? (jamais how many).",
+      "extraExample": {"text": "How much is the phone?", "translation": "Combien coûte le téléphone ?"},
+      "errorPatterns": [
+        {"contains": "how many", "category": "grammar", "feedback": "How many sert à compter des objets. Pour demander un prix, on dit how much."},
+        {"contains": "how much are the laptop", "category": "grammar", "feedback": "Un seul ordinateur : on dit is, pas are. How much is the laptop ?"},
+        {"equals": "how much the laptop", "category": "grammar", "feedback": "Il manque le verbe is : How much is the laptop ?"}
+      ]
+    },
+    {
+      "id": "en.l44.e10",
+      "unitIds": ["en.v.expensive", "en.v.cheap", "en.g30.how_much_many"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « L'ordinateur est cher, mais le livre est bon marché. » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "The laptop is expensive, but the book is cheap.",
+      "acceptedAnswers": [
+        "The laptop is expensive, but the book is cheap.",
+        "The laptop is expensive but the book is cheap."
+      ],
+      "hint": "Il te faut deux adjectifs contraires, après is.",
+      "explanation": "Expensive veut dire « cher » et cheap veut dire « bon marché ». Les deux sont des adjectifs : ils se placent après is et ne prennent pas de -s.",
+      "tip": "Expensive = cher ; cheap = pas cher : ne les inverse pas.",
+      "extraExample": {"text": "The coffee is cheap, but the cake is expensive.", "translation": "Le café est bon marché, mais le gâteau est cher."},
+      "errorPatterns": [
+        {"contains": "laptop is cheap", "category": "vocabulary", "feedback": "Cheap veut dire « bon marché ». L'ordinateur est cher : the laptop is expensive."},
+        {"contains": "book is expensive", "category": "vocabulary", "feedback": "Expensive veut dire « cher ». Le livre est bon marché : the book is cheap."}
+      ]
+    }
+  ]
+}

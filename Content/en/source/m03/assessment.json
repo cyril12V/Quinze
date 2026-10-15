@@ -1,0 +1,116 @@
+[
+  {
+    "id": "en.assess.m03.01",
+    "unitIds": ["en.g14.present_simple_third_person", "en.g17.frequency_adverbs"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Ma sœur a un ordinateur portable et elle étudie souvent à la maison.",
+    "promptLanguage": "fr",
+    "answer": "My sister has a laptop and she often studies at home.",
+    "acceptedAnswers": [
+      "My sister has a laptop and she often studies at home.",
+      "My sister has a laptop and often studies at home.",
+      "My sister has a laptop. She often studies at home."
+    ],
+    "hint": "Have devient has avec she. Study devient studies. Often se place avant le verbe.",
+    "explanation": "My sister = she : have devient has et study devient studies (consonne + y). L'adverbe often se place avant le verbe : she often studies.",
+    "tip": "She : has, studies. Et l'adverbe avant le verbe.",
+    "extraExample": {"text": "My brother often cooks dinner at home.", "translation": "Mon frère prépare souvent le dîner à la maison."},
+    "errorPatterns": [
+      {"contains": "sister have a", "category": "conjugation", "feedback": "Avec my sister (= she), have devient has : my sister has a laptop."},
+      {"contains": "studys", "category": "spelling", "feedback": "Study devient studies : on change le y en i avant -es."},
+      {"contains": "studies often", "category": "word_order", "feedback": "L'adverbe de fréquence se place avant le verbe : she often studies."}
+    ]
+  },
+  {
+    "id": "en.assess.m03.02",
+    "unitIds": ["en.g15.present_simple_negative"],
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Complète avec don't ou doesn't.",
+    "prompt": "My parents ___ drink coffee in the evening.",
+    "promptLanguage": "en",
+    "answer": "don't",
+    "acceptedAnswers": ["don't"],
+    "hint": "My parents = they.",
+    "explanation": "My parents = they : plusieurs personnes. Avec they, la négation du présent simple se fait avec don't, suivi du verbe de base.",
+    "tip": "Pluriel (they) : don't. Singulier (he, she, it) : doesn't.",
+    "extraExample": {"text": "My brother doesn't eat breakfast.", "translation": "Mon frère ne prend pas de petit-déjeuner."},
+    "errorPatterns": [
+      {"equals": "doesn't", "category": "conjugation", "feedback": "My parents = they (pluriel) : on utilise don't. Doesn't est pour he, she, it."},
+      {"equals": "isn't", "category": "grammar", "feedback": "Isn't s'emploie avec be ou avec un verbe en -ing. Avec drink au présent simple, on utilise don't."}
+    ]
+  },
+  {
+    "id": "en.assess.m03.03",
+    "unitIds": ["en.g16.present_simple_questions"],
+    "type": "free_answer",
+    "difficulty": 3,
+    "instruction": "Réponds « non » avec une réponse courte (No, …).",
+    "prompt": "Does Anna play music?",
+    "promptLanguage": "en",
+    "answer": "No, she doesn't.",
+    "acceptedAnswers": ["No, she doesn't."],
+    "hint": "On reprend l'auxiliaire de la question. Anna = she.",
+    "explanation": "La question commence par Does : on répond avec doesn't. Anna se remplace par she : No, she doesn't. On ne répète pas le verbe play.",
+    "tip": "Question en Does → Yes, she does. / No, she doesn't.",
+    "extraExample": {"text": "Do your parents cook? Yes, they do.", "translation": "Tes parents cuisinent-ils ? Oui."},
+    "errorPatterns": [
+      {"equals": "no she don't", "category": "conjugation", "feedback": "Avec she, on utilise doesn't : No, she doesn't."},
+      {"equals": "no she isn't", "category": "grammar", "feedback": "La question commence par Does : on répond avec does / doesn't, pas avec be."},
+      {"equals": "no she doesn't play", "category": "instruction", "feedback": "La consigne demande une réponse courte : on s'arrête à doesn't. No, she doesn't."}
+    ]
+  },
+  {
+    "id": "en.assess.m03.04",
+    "unitIds": ["en.g19.simple_vs_continuous"],
+    "type": "mcq",
+    "difficulty": 3,
+    "instruction": "Choisis la phrase correcte.",
+    "prompt": "Quelle phrase est correcte pour parler d'un besoin ?",
+    "promptLanguage": "fr",
+    "options": ["My brother needs a laptop for school.", "My brother is needing a laptop for school.", "My brother need a laptop for school."],
+    "answer": "My brother needs a laptop for school.",
+    "acceptedAnswers": ["My brother needs a laptop for school."],
+    "hint": "Need exprime un besoin, pas une action.",
+    "explanation": "Need est un verbe d'état : il ne s'utilise presque jamais au présent continu. On le garde au présent simple, avec -s à la 3e personne : my brother needs.",
+    "tip": "Need, want, like, know : jamais de -ing.",
+    "extraExample": {"text": "She wants a coffee.", "translation": "Elle veut un café."},
+    "errorPatterns": [
+      {"equals": "My brother is needing a laptop for school.", "category": "verb_tense", "feedback": "Need est un verbe d'état : on ne dit pas is needing. On dit needs."},
+      {"equals": "My brother need a laptop for school.", "category": "conjugation", "feedback": "My brother = he : le verbe prend -s au présent simple. On dit needs."}
+    ]
+  },
+  {
+    "id": "en.assess.m03.05",
+    "unitIds": ["en.g18.present_continuous"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Il n'écoute pas de musique maintenant : il appelle sa mère.",
+    "promptLanguage": "fr",
+    "answer": "He isn't listening to music now. He is calling his mother.",
+    "acceptedAnswers": [
+      "He isn't listening to music now. He is calling his mother.",
+      "He isn't listening to music now, but he is calling his mother.",
+      "He isn't listening to music now and he is calling his mother.",
+      "He isn't listening to music right now. He is calling his mother.",
+      "He isn't listening to music at the moment. He is calling his mother.",
+      "Now he isn't listening to music. He is calling his mother.",
+      "He isn't listening to music. He is calling his mother now.",
+      "He isn't listening to music. He is calling his mum now.",
+      "He isn't listening to music now. He is calling his mum.",
+      "He isn't listening to music now. He is calling his mom."
+    ],
+    "hint": "Maintenant : présent continu pour les deux verbes.",
+    "explanation": "Maintenant indique des actions en cours : présent continu. La négation se fait avec be + not (isn't listening), et l'action positive avec is calling. On dit listen to music.",
+    "tip": "Négation : isn't + -ing. Affirmation : is + -ing.",
+    "extraExample": {"text": "They aren't singing now. They are dancing.", "translation": "Ils ne chantent pas maintenant. Ils dansent."},
+    "errorPatterns": [
+      {"contains": "doesn't listen", "category": "verb_tense", "feedback": "Avec maintenant, la négation se fait avec isn't + -ing : he isn't listening."},
+      {"contains": "listening music", "category": "preposition", "feedback": "Listen se construit avec to : listening to music."},
+      {"contains": "he calling", "category": "grammar", "feedback": "Il manque is : he is calling."}
+    ]
+  }
+]

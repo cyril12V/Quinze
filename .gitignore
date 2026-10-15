@@ -1,0 +1,38 @@
+.DS_Store
+*.swp
+
+# Xcode / XcodeGen (le projet est généré, jamais versionné)
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+build/
+Config/Generated/
+
+# Secrets et signature
+Config/Secrets.xcconfig
+*.p8
+*.p12
+*.mobileprovision
+*.cer
+
+# Livrables de build
+*.ipa
+*.xcarchive
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved.bak
+
+# fastlane / Ruby
+fastlane/report.xml
+fastlane/test_output/
+fastlane/README.md
+vendor/bundle/
+.bundle/
+
+# Python (outils)
+__pycache__/
+*.pyc

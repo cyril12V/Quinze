@@ -1,0 +1,227 @@
+{
+  "lessonId": "en.l42",
+  "exercises": [
+    {
+      "id": "en.l42.e01",
+      "unitIds": ["en.g28.there_is_are", "en.v.chair", "en.v.kitchen"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Il y a quatre chaises dans la cuisine.",
+      "promptLanguage": "fr",
+      "options": ["There are four chairs in the kitchen.", "There is four chairs in the kitchen.", "There have four chairs in the kitchen.", "Are four chairs in the kitchen."],
+      "answer": "There are four chairs in the kitchen.",
+      "acceptedAnswers": ["There are four chairs in the kitchen."],
+      "hint": "Quatre chaises : un seul élément ou plusieurs ?",
+      "explanation": "Quatre chaises, c'est un pluriel : on dit there are. Le verbe s'accorde avec four chairs, et chair prend un -s.",
+      "tip": "Un nombre supérieur à un ? There are, jamais there is.",
+      "extraExample": {"text": "There are five books on the table.", "translation": "Il y a cinq livres sur la table."},
+      "errorPatterns": [
+        {"equals": "there is four chairs in the kitchen", "category": "grammar", "feedback": "There is s'utilise avec un seul élément. Avec four chairs, on dit there are."},
+        {"equals": "there have four chairs in the kitchen", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec have. On utilise there is ou there are."},
+        {"equals": "are four chairs in the kitchen", "category": "grammar", "feedback": "Il manque there au début de la phrase : there are four chairs."}
+      ]
+    },
+    {
+      "id": "en.l42.e02",
+      "unitIds": ["en.g28.there_is_are", "en.v.fridge"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse courte.",
+      "prompt": "Is there a fridge in the kitchen? Yes, ___.",
+      "promptLanguage": "en",
+      "options": ["there is", "it is", "there are", "I have"],
+      "answer": "there is",
+      "acceptedAnswers": ["there is"],
+      "hint": "La réponse courte reprend there et le verbe de la question.",
+      "explanation": "Dans une réponse courte, on reprend le verbe de la question : Is there… ? donne Yes, there is. Un seul frigo, donc is et non are.",
+      "tip": "Is there… ? → Yes, there is. / No, there isn't.",
+      "extraExample": {"text": "Is there a garden at the hotel? Yes, there is.", "translation": "Y a-t-il un jardin à l'hôtel ? Oui, il y en a un."},
+      "errorPatterns": [
+        {"equals": "it is", "category": "grammar", "feedback": "It is veut dire « c'est ». Pour répondre à Is there… ?, on reprend there : Yes, there is."},
+        {"equals": "there are", "category": "grammar", "feedback": "There are s'utilise avec plusieurs éléments. La question parle d'un seul frigo : Yes, there is."},
+        {"equals": "i have", "category": "grammar", "feedback": "Pour répondre à Is there… ?, on n'utilise pas have. On dit Yes, there is."}
+      ]
+    },
+    {
+      "id": "en.l42.e03",
+      "unitIds": ["en.g28.there_is_are", "en.v.table", "en.v.chair", "en.v.sofa", "en.v.fridge", "en.v.lamp"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque objet à sa traduction.",
+      "prompt": "Les objets de la maison",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "table", "right": "table"},
+        {"left": "chair", "right": "chaise"},
+        {"left": "sofa", "right": "canapé"},
+        {"left": "fridge", "right": "frigo"},
+        {"left": "lamp", "right": "lampe"}
+      ],
+      "answer": "table = table ; chair = chaise ; sofa = canapé ; fridge = frigo ; lamp = lampe",
+      "acceptedAnswers": [],
+      "explanation": "Table s'écrit comme en français mais se prononce « téïbeul ». Fridge est la forme courte de refrigerator (réfrigérateur). A sofa est un canapé et a chair est une chaise.",
+      "tip": "Fridge, c'est le « frigo » : un mot court que tout le monde utilise.",
+      "extraExample": {"text": "There is a lamp on the table.", "translation": "Il y a une lampe sur la table."}
+    },
+    {
+      "id": "en.l42.e04",
+      "unitIds": ["en.g28.there_is_are", "en.v.lamp", "en.v.bedroom"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec is, are ou has.",
+      "prompt": "There ___ two lamps in the bedroom.",
+      "promptLanguage": "en",
+      "options": ["is", "are", "has"],
+      "answer": "are",
+      "acceptedAnswers": ["are"],
+      "hint": "Two lamps : regarde le nombre et le -s.",
+      "explanation": "Two lamps est un pluriel : on dit there are. On n'utilise jamais has ou have pour dire « il y a ».",
+      "tip": "Nombre + nom en -s : there are.",
+      "extraExample": {"text": "There are three phones on the table.", "translation": "Il y a trois téléphones sur la table."},
+      "errorPatterns": [
+        {"equals": "is", "category": "grammar", "feedback": "There is s'utilise avec un seul élément. Ici two lamps est un pluriel : there are."},
+        {"equals": "has", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec has. On dit there is ou there are."}
+      ]
+    },
+    {
+      "id": "en.l42.e05",
+      "unitIds": ["en.g28.there_is_are", "en.g04.be_negative_questions", "en.v.chair"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la forme négative.",
+      "prompt": "There ___ four chairs in the kitchen, but there are two.",
+      "promptLanguage": "en",
+      "options": ["isn't", "aren't", "haven't"],
+      "answer": "aren't",
+      "acceptedAnswers": ["aren't", "are not"],
+      "hint": "Il y a deux chaises, pas quatre : la première partie est négative.",
+      "explanation": "Pour nier there are, on ajoute not : there aren't. On utilise aren't parce que four chairs est un pluriel.",
+      "tip": "Négation : there isn't (un seul) / there aren't (plusieurs).",
+      "extraExample": {"text": "There aren't five books in the bag, but there are three.", "translation": "Il n'y a pas cinq livres dans le sac, mais il y en a trois."},
+      "errorPatterns": [
+        {"equals": "isn't", "category": "grammar", "feedback": "There isn't s'utilise avec un seul élément. Four chairs est un pluriel : there aren't."},
+        {"equals": "is not", "category": "grammar", "feedback": "There is not s'utilise avec un seul élément. Four chairs est un pluriel : there are not."},
+        {"equals": "haven't", "category": "grammar", "feedback": "There haven't n'existe pas. Pour « il n'y a pas » avec un pluriel, on dit there aren't."}
+      ]
+    },
+    {
+      "id": "en.l42.e06",
+      "unitIds": ["en.g28.there_is_are", "en.v.chair", "en.v.kitchen"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former la question.",
+      "prompt": "Y a-t-il quatre chaises dans la cuisine ?",
+      "promptLanguage": "fr",
+      "tokens": ["chairs", "Are", "in", "four", "the", "there", "kitchen"],
+      "answer": "Are there four chairs in the kitchen",
+      "acceptedAnswers": ["Are there four chairs in the kitchen"],
+      "hint": "Avec un pluriel, la question commence par are.",
+      "explanation": "Pour poser la question avec there are, on inverse : Are there… ? Les chaises sont plusieurs (four chairs), donc on utilise are et non is.",
+      "tip": "Plusieurs éléments ? Are there… ? Un seul ? Is there… ?",
+      "extraExample": {"text": "Are there two bathrooms in the apartment?", "translation": "Y a-t-il deux salles de bain dans l'appartement ?"}
+    },
+    {
+      "id": "en.l42.e07",
+      "unitIds": ["en.g28.there_is_are", "en.v.lamp", "en.v.table"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais. « il y a » = there is.",
+      "prompt": "Il y a une lampe sur la table.",
+      "promptLanguage": "fr",
+      "answer": "There is a lamp on the table.",
+      "acceptedAnswers": [
+        "There is a lamp on the table.",
+        "There's a lamp on the table."
+      ],
+      "hint": "« Sur » se dit on.",
+      "explanation": "« Il y a » se traduit there is devant un seul élément : there is a lamp. « Sur la table » se dit on the table.",
+      "tip": "Pour dire où se trouve une chose : there is + nom + on / in + lieu.",
+      "extraExample": {"text": "There is a key on the table.", "translation": "Il y a une clé sur la table."},
+      "errorPatterns": [
+        {"contains": "there have", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec have. Écris there is."},
+        {"contains": "there are a", "category": "grammar", "feedback": "There are s'utilise avec un pluriel. Une seule lampe : there is a lamp."},
+        {"contains": "in the table", "category": "preposition", "feedback": "Pour une chose posée sur la table, on dit on the table, pas in the table."}
+      ]
+    },
+    {
+      "id": "en.l42.e08",
+      "unitIds": ["en.g28.there_is_are", "en.v.lamp", "en.v.sofa", "en.v.living_room"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Il y a deux lampes et un canapé dans le salon.",
+      "promptLanguage": "fr",
+      "answer": "There are two lamps and a sofa in the living room.",
+      "acceptedAnswers": [
+        "There are two lamps and a sofa in the living room.",
+        "There is a sofa and two lamps in the living room.",
+        "There's a sofa and two lamps in the living room.",
+        "There are two lamps and a couch in the living room.",
+        "There is a couch and two lamps in the living room.",
+        "There are two lamps and a sofa in the lounge."
+      ],
+      "hint": "Commence par there are si tu cites d'abord les deux lampes.",
+      "explanation": "Avec plusieurs éléments, on utilise there are. Two lamps est un pluriel : lamps prend un -s. On ne dit jamais there is devant two lamps.",
+      "tip": "Le verbe suit le premier nom : there are two lamps…, there is a sofa and…",
+      "extraExample": {"text": "There are two dogs and a child in the garden.", "translation": "Il y a deux chiens et un enfant dans le jardin."},
+      "errorPatterns": [
+        {"contains": "there is two", "category": "grammar", "feedback": "Two lamps est un pluriel : on dit there are two lamps."},
+        {"contains": "there have", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec have. Écris there are ou there is."},
+        {"contains": "two lamp and", "category": "grammar", "feedback": "Après un nombre supérieur à un, le nom prend un -s : two lamps."}
+      ]
+    },
+    {
+      "id": "en.l42.e09",
+      "unitIds": ["en.g28.there_is_are", "en.v.sofa", "en.v.kitchen"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Il n'y a pas de canapé dans la cuisine. » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "There isn't a sofa in the kitchen.",
+      "acceptedAnswers": [
+        "There isn't a sofa in the kitchen.",
+        "There is not a sofa in the kitchen.",
+        "There's not a sofa in the kitchen.",
+        "There isn't a couch in the kitchen.",
+        "There is no sofa in the kitchen.",
+        "There's no sofa in the kitchen.",
+        "There is no couch in the kitchen."
+      ],
+      "hint": "Négation de there is : there isn't.",
+      "explanation": "« Il n'y a pas de » se dit there isn't devant un seul élément. On garde a devant sofa : There isn't a sofa in the kitchen.",
+      "tip": "Nie there is avec n't : there isn't.",
+      "extraExample": {"text": "There isn't a phone in the bag.", "translation": "Il n'y a pas de téléphone dans le sac."},
+      "errorPatterns": [
+        {"contains": "there have", "category": "grammar", "feedback": "« Il n'y a pas » ne se dit pas avec have. Écris there isn't."},
+        {"contains": "there aren't a", "category": "grammar", "feedback": "There aren't s'utilise avec un pluriel. Un seul canapé : there isn't."},
+        {"equals": "isn't a sofa in the kitchen", "category": "grammar", "feedback": "Il manque there au début : there isn't a sofa in the kitchen."}
+      ]
+    },
+    {
+      "id": "en.l42.e10",
+      "unitIds": ["en.g28.there_is_are", "en.v.sofa", "en.v.living_room"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Il y a deux canapés dans le salon. » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "There are two sofas in the living room.",
+      "acceptedAnswers": [
+        "There are two sofas in the living room.",
+        "There are two couches in the living room.",
+        "There are two sofas in the lounge."
+      ],
+      "hint": "Deux canapés : pense au pluriel de sofa.",
+      "explanation": "Two sofas est un pluriel : on dit there are, et sofa prend un -s. There are two sofas in the living room.",
+      "tip": "Nombre supérieur à un : there are + nom au pluriel.",
+      "extraExample": {"text": "There are two cars in the garden.", "translation": "Il y a deux voitures dans le jardin."},
+      "errorPatterns": [
+        {"contains": "there is two", "category": "grammar", "feedback": "Two sofas est un pluriel : on dit there are two sofas."},
+        {"contains": "there have", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec have. Écris there are devant un pluriel."},
+        {"contains": "two sofa in", "category": "grammar", "feedback": "Après un nombre supérieur à un, le nom prend un -s : two sofas."}
+      ]
+    }
+  ]
+}

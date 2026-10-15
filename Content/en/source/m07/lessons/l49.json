@@ -1,0 +1,201 @@
+{
+  "lessonId": "en.l49",
+  "exercises": [
+    {
+      "id": "en.l49.e01",
+      "unitIds": ["en.g34.prepositions_time", "en.v.monday"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne préposition.",
+      "prompt": "She has a meeting ___ Monday.",
+      "promptLanguage": "en",
+      "options": ["on", "in", "at"],
+      "answer": "on",
+      "acceptedAnswers": ["on"],
+      "hint": "Monday est un jour de la semaine.",
+      "explanation": "Avec un jour de la semaine, on utilise on : on Monday. Monday prend aussi une majuscule en anglais.",
+      "tip": "Un jour = on. Le lundi, c'est on Monday.",
+      "extraExample": {"text": "We have a party on Sunday.", "translation": "Nous avons une fête dimanche."},
+      "errorPatterns": [
+        {"equals": "in", "category": "preposition", "feedback": "In sert pour les mois, les saisons et les années. Pour un jour de la semaine, on dit on Monday."},
+        {"equals": "at", "category": "preposition", "feedback": "At sert pour l'heure exacte (at 8 o'clock). Pour un jour de la semaine, on dit on Monday."}
+      ]
+    },
+    {
+      "id": "en.l49.e02",
+      "unitIds": ["en.g34.prepositions_time", "en.v.sunday", "en.v.january", "en.v.winter"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les prépositions de temps : at, on, in",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "at 7 o'clock", "right": "à 7 heures"},
+        {"left": "on Sunday", "right": "le dimanche"},
+        {"left": "in January", "right": "en janvier"},
+        {"left": "in winter", "right": "en hiver"},
+        {"left": "in the morning", "right": "le matin"}
+      ],
+      "answer": "at 7 o'clock = à 7 heures ; on Sunday = le dimanche ; in January = en janvier ; in winter = en hiver ; in the morning = le matin",
+      "acceptedAnswers": [],
+      "explanation": "At va avec l'heure, on avec un jour, in avec un mois, une saison ou un moment de la journée. En français, « le dimanche » et « le matin » se disent sans préposition, mais en anglais il en faut une.",
+      "tip": "At 7 o'clock, on Sunday, in January : de plus précis à plus large."
+    },
+    {
+      "id": "en.l49.e03",
+      "unitIds": ["en.g34.prepositions_time", "en.v.summer"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne préposition.",
+      "prompt": "We go to the beach ___ summer.",
+      "promptLanguage": "en",
+      "options": ["in", "on", "at"],
+      "answer": "in",
+      "acceptedAnswers": ["in"],
+      "hint": "Une saison dure plusieurs mois.",
+      "explanation": "Pour une saison, un mois ou une année, on utilise in : in summer. On peut aussi dire in the summer.",
+      "tip": "Saison, mois, année : in. Les saisons s'écrivent sans majuscule.",
+      "extraExample": {"text": "I like the beach in winter.", "translation": "J'aime la plage en hiver."},
+      "errorPatterns": [
+        {"equals": "on", "category": "preposition", "feedback": "On sert pour un jour (on Monday) ou une date. Pour une saison, on dit in summer."},
+        {"equals": "at", "category": "preposition", "feedback": "At sert pour l'heure exacte (at 8 o'clock). Pour une saison, on dit in summer."}
+      ]
+    },
+    {
+      "id": "en.l49.e04",
+      "unitIds": ["en.g34.prepositions_time"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la préposition qui convient.",
+      "prompt": "I never drink coffee ___ night.",
+      "promptLanguage": "en",
+      "options": ["at", "in", "on"],
+      "answer": "at",
+      "acceptedAnswers": ["at"],
+      "hint": "C'est une expression fixe, sans article.",
+      "explanation": "La nuit se dit at night, sans the. C'est une exception : le matin, l'après-midi et le soir se disent avec in, mais la nuit se dit avec at.",
+      "tip": "In the morning, in the evening, mais at night.",
+      "extraExample": {"text": "My dog sleeps at night.", "translation": "Mon chien dort la nuit."},
+      "errorPatterns": [
+        {"equals": "in", "category": "preposition", "feedback": "On dit in the morning et in the evening, mais pour la nuit c'est une exception : at night."},
+        {"equals": "on", "category": "preposition", "feedback": "On sert pour un jour ou une date. La nuit se dit at night."}
+      ]
+    },
+    {
+      "id": "en.l49.e05",
+      "unitIds": ["en.g34.prepositions_time"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le mot qui correspond à la traduction.",
+      "prompt": "I always read ___ dinner. (après le dîner)",
+      "promptLanguage": "en",
+      "options": ["after", "before", "during"],
+      "answer": "after",
+      "acceptedAnswers": ["after"],
+      "hint": "Le contraire de before.",
+      "explanation": "After veut dire « après ». Before veut dire « avant » et during veut dire « pendant ». Aucun des trois ne demande de petit mot en plus : after dinner.",
+      "tip": "Before = avant, after = après, during = pendant.",
+      "extraExample": {"text": "I watch TV before dinner.", "translation": "Je regarde la télé avant le dîner."},
+      "errorPatterns": [
+        {"equals": "before", "category": "vocabulary", "feedback": "Before veut dire « avant ». Pour « après », on dit after."},
+        {"equals": "during", "category": "vocabulary", "feedback": "During veut dire « pendant ». Pour « après », on dit after."}
+      ]
+    },
+    {
+      "id": "en.l49.e06",
+      "unitIds": ["en.g34.prepositions_time", "en.v.monday"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Je travaille au bureau le lundi matin.",
+      "promptLanguage": "fr",
+      "tokens": ["morning", "I", "on", "the", "Monday", "work", "at", "office"],
+      "answer": "I work at the office on Monday morning",
+      "acceptedAnswers": ["I work at the office on Monday morning", "On Monday morning I work at the office", "I work on Monday morning at the office"],
+      "hint": "Le lundi matin se dit on Monday morning.",
+      "explanation": "Un jour de la semaine, même suivi du matin, se construit avec on : on Monday morning. At the office dit où tu travailles.",
+      "tip": "Jour + moment de la journée : on Monday morning, on Sunday evening.",
+      "extraExample": {"text": "I go to the gym on Sunday morning.", "translation": "Je vais à la salle de sport le dimanche matin."}
+    },
+    {
+      "id": "en.l49.e07",
+      "unitIds": ["en.g34.prepositions_time", "en.v.january"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mon anniversaire est en janvier.",
+      "promptLanguage": "fr",
+      "answer": "My birthday is in January.",
+      "acceptedAnswers": ["My birthday is in January."],
+      "hint": "Janvier est un mois. N'oublie pas la majuscule.",
+      "explanation": "Pour un mois, on utilise in : in January. Les mois prennent toujours une majuscule en anglais.",
+      "tip": "Un mois = in, avec une majuscule : in January.",
+      "extraExample": {"text": "The shop is closed in January.", "translation": "Le magasin est fermé en janvier."},
+      "errorPatterns": [
+        {"contains": "on january", "category": "preposition", "feedback": "On s'utilise pour une date précise (on 5 January). Pour un mois seul, on dit in January."},
+        {"contains": "at january", "category": "preposition", "feedback": "At sert pour l'heure exacte. Pour un mois, on dit in January."},
+        {"contains": "birthday are", "category": "conjugation", "feedback": "Birthday est au singulier : my birthday is."}
+      ]
+    },
+    {
+      "id": "en.l49.e08",
+      "unitIds": ["en.g34.prepositions_time", "en.v.sunday"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Le dimanche, je reste à la maison.",
+      "promptLanguage": "fr",
+      "answer": "On Sunday I stay at home.",
+      "acceptedAnswers": ["On Sunday I stay at home.", "On Sundays I stay at home.", "I stay at home on Sunday.", "I stay at home on Sundays.", "On Sunday I stay home.", "On Sundays I stay home.", "I stay home on Sunday.", "I stay home on Sundays."],
+      "hint": "En français, il n'y a pas de préposition devant dimanche. En anglais, si.",
+      "explanation": "Le dimanche se dit on Sunday (ou on Sundays pour une habitude). Rester à la maison se dit stay at home.",
+      "tip": "Même sans préposition en français, on ajoute on devant un jour : on Sunday.",
+      "extraExample": {"text": "On Monday I work at the office.", "translation": "Le lundi, je travaille au bureau."},
+      "errorPatterns": [
+        {"contains": "in sunday", "category": "preposition", "feedback": "Pour un jour de la semaine, on dit on Sunday, pas in."},
+        {"contains": "at sunday", "category": "preposition", "feedback": "At sert pour l'heure exacte. Pour un jour de la semaine, on dit on Sunday."},
+        {"contains": "in home", "category": "preposition", "feedback": "À la maison se dit at home."}
+      ]
+    },
+    {
+      "id": "en.l49.e09",
+      "unitIds": ["en.g34.prepositions_time", "en.v.winter"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Il fait froid en hiver.",
+      "promptLanguage": "fr",
+      "answer": "It is cold in winter.",
+      "acceptedAnswers": ["It is cold in winter.", "It is cold in the winter.", "It is cold during winter.", "It is cold during the winter."],
+      "hint": "Pour parler de la météo, on commence par it is.",
+      "explanation": "Il fait froid se dit it is cold. Pour une saison, on utilise in : in winter. Winter s'écrit sans majuscule.",
+      "tip": "Météo : it is + adjectif. Saison : in + nom de la saison.",
+      "extraExample": {"text": "Anna travels in summer.", "translation": "Anna voyage en été."},
+      "errorPatterns": [
+        {"contains": "on winter", "category": "preposition", "feedback": "On sert pour un jour ou une date. Pour une saison, on dit in winter."},
+        {"contains": "at winter", "category": "preposition", "feedback": "At sert pour l'heure exacte. Pour une saison, on dit in winter."},
+        {"contains": "has cold", "category": "grammar", "feedback": "On ne dit pas « il a froid » pour la météo : it is cold."}
+      ]
+    },
+    {
+      "id": "en.l49.e10",
+      "unitIds": ["en.g34.prepositions_time", "en.v.monday"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris une phrase en anglais.",
+      "prompt": "Dis ce que tu fais le lundi, avec on Monday.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["monday", "mondays"], ["on"]], "minWords": 4},
+      "answer": "On Monday I go to work.",
+      "acceptedAnswers": ["On Monday I go to work.", "I work at the office on Monday.", "I go to the gym on Monday.", "On Mondays I study English."],
+      "hint": "Tu peux commencer par On Monday I ...",
+      "explanation": "Un jour de la semaine demande on : on Monday. Ensuite, la phrase suit l'ordre habituel sujet + verbe + complément.",
+      "tip": "On Monday au début ou à la fin de la phrase : les deux sont possibles.",
+      "extraExample": {"text": "I play music on Sunday.", "translation": "Je joue de la musique le dimanche."},
+      "errorPatterns": [
+        {"contains": "in monday", "category": "preposition", "feedback": "Pour un jour de la semaine, on dit on Monday, pas in."},
+        {"contains": "at monday", "category": "preposition", "feedback": "At sert pour l'heure exacte. Pour un jour de la semaine, on dit on Monday."}
+      ]
+    }
+  ]
+}

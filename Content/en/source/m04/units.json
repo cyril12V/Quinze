@@ -1,0 +1,82 @@
+[
+  {
+    "id": "en.g20.was_were",
+    "rule": {
+      "summary": "Au passé, to be devient was (avec I, he, she, it) ou were (avec you, we, they).",
+      "explanation": "Was et were sont le passé de am, is et are : ils servent à dire où on était, comment on était ou ce qu'on était (I was tired = j'étais fatigué). On utilise was avec I, he, she, it, et were avec you, we, they, y compris quand you désigne une seule personne. Pour la négation, on ajoute not : wasn't, weren't. Pour poser une question, on place was ou were avant le sujet (Were you at home?), et on répond brièvement : Yes, I was. / No, I wasn't. Pour la naissance, l'anglais utilise aussi ce passé : I was born in Paris (je suis né à Paris).",
+      "pattern": "I / he / she / it + was ; you / we / they + were — négation : wasn't / weren't — question : Was / Were + sujet… ?",
+      "examples": [
+        {"text": "I was at home yesterday.", "translation": "J'étais à la maison hier."},
+        {"text": "We weren't tired last night.", "translation": "Nous n'étions pas fatigués hier soir."},
+        {"text": "Were you at school two days ago? — No, I wasn't.", "translation": "Tu étais à l'école il y a deux jours ? — Non."},
+        {"text": "My sister was born in London.", "translation": "Ma sœur est née à Londres."}
+      ],
+      "commonErrors": [
+        {"wrong": "You was late yesterday.", "right": "You were late yesterday.", "why": "Avec you, c'est toujours were, même quand on parle à une seule personne."},
+        {"wrong": "I am born in Paris.", "right": "I was born in Paris.", "why": "« Être né » se dit to be born, et la naissance est passée : I was born."},
+        {"wrong": "I was in London before two days.", "right": "I was in London two days ago.", "why": "« Il y a » + durée se traduit par la durée suivie de ago : two days ago."}
+      ],
+      "tip": "Was pour I, he, she, it ; were pour you, we, they. Et « il y a deux jours » = two days ago, avec ago après la durée."
+    }
+  },
+  {
+    "id": "en.g21.past_simple_regular",
+    "rule": {
+      "summary": "Pour une action terminée dans le passé, un verbe régulier prend -ed, à toutes les personnes : I walked, she walked.",
+      "explanation": "On utilise le passé simple (past simple) pour une action terminée à un moment passé : yesterday, last week, two days ago. Pour un verbe régulier, on ajoute -ed à la forme de base, et c'est la même forme à toutes les personnes (pas de -s avec he ou she). Orthographe : verbe terminé par -e → on ajoute seulement -d (live → lived) ; consonne + y → -ied (study → studied) ; verbe court terminé par consonne-voyelle-consonne → on double la dernière consonne (stop → stopped), et travel devient travelled en anglais britannique (traveled en américain). Prononciation : -ed se dit /t/ après un son « sourd » comme p, k, s, f, ch ou sh (walked), /d/ après les autres sons (played, cleaned), et /ɪd/, avec une syllabe en plus, seulement après t ou d (visited, decided). En français, ce passé se traduit en général par le passé composé : I walked = j'ai marché.",
+      "pattern": "Sujet + verbe + -ed (même forme à toutes les personnes)",
+      "examples": [
+        {"text": "I walked to the office yesterday.", "translation": "Je suis allé au bureau à pied hier."},
+        {"text": "She visited her parents last week.", "translation": "Elle a rendu visite à ses parents la semaine dernière."},
+        {"text": "We stayed at home two days ago.", "translation": "Nous sommes restés à la maison il y a deux jours."},
+        {"text": "They travelled to London by train.", "translation": "Ils sont allés à Londres en train."}
+      ],
+      "commonErrors": [
+        {"wrong": "Yesterday I walk to school.", "right": "Yesterday I walked to school.", "why": "Avec yesterday, l'action est terminée : le verbe prend -ed."},
+        {"wrong": "I was walked to school.", "right": "I walked to school.", "why": "Pas de was devant un verbe d'action : walked suffit à exprimer le passé."},
+        {"wrong": "She studyed English.", "right": "She studied English.", "why": "Après une consonne, le y devient i avant -ed : studied."}
+      ],
+      "tip": "Yesterday, last…, ago → verbe en -ed, sans was et sans -s."
+    }
+  },
+  {
+    "id": "en.g22.irregular_verbs",
+    "rule": {
+      "summary": "Beaucoup de verbes très courants ont un passé irrégulier, à apprendre par cœur : go → went, see → saw, buy → bought.",
+      "explanation": "Les verbes irréguliers ne prennent pas -ed au passé : ils ont une forme à eux (go → went, have → had, do → did, make → made, take → took, give → gave, get → got, come → came). Comme pour les verbes réguliers, cette forme est la même à toutes les personnes : I went, she went. Ne confonds pas ce passé avec le participe passé (gone, seen, taken), qui sert à d'autres temps que tu verras plus tard. Quelques verbes ne changent pas : put → put ; read garde la même orthographe mais se prononce /red/ au passé. Le meilleur moyen de les retenir est de les apprendre dans une mini-phrase (I went home).",
+      "pattern": "Sujet + passé irrégulier (go → went, see → saw, say → said, buy → bought…)",
+      "examples": [
+        {"text": "I went to work yesterday.", "translation": "Je suis allé au travail hier."},
+        {"text": "She saw Tom at the gym last week.", "translation": "Elle a vu Tom à la salle de sport la semaine dernière."},
+        {"text": "We had lunch with Anna two days ago.", "translation": "Nous avons déjeuné avec Anna il y a deux jours."},
+        {"text": "He put his keys in his bag.", "translation": "Il a mis ses clés dans son sac."}
+      ],
+      "commonErrors": [
+        {"wrong": "I goed to school.", "right": "I went to school.", "why": "Go est irrégulier : son passé est went, sans -ed."},
+        {"wrong": "She gone home.", "right": "She went home.", "why": "Gone est le participe passé ; pour raconter au passé simple, on utilise went."},
+        {"wrong": "I was go to the park.", "right": "I went to the park.", "why": "On n'ajoute pas was : went exprime déjà le passé."}
+      ],
+      "tip": "Apprends chaque verbe irrégulier dans une mini-phrase au passé : go → I went home."
+    }
+  },
+  {
+    "id": "en.g23.past_simple_negative_questions",
+    "rule": {
+      "summary": "Au passé simple, la négation et les questions se font avec did / didn't + verbe à la forme de base.",
+      "explanation": "Au passé, did remplace do et does, à toutes les personnes. Négation : sujet + didn't (did not) + verbe de base : I didn't go. Question : Did + sujet + verbe de base : Did you go? Avec un mot interrogatif, celui-ci se place devant did : Where did you go? What did you do? Le passé est déjà porté par did, donc le verbe qui suit reste à la base (go, see, like), jamais went ni une forme en -ed. Réponses courtes : Yes, I did. / No, I didn't.",
+      "pattern": "Sujet + didn't + verbe de base — (Where / What…) + did + sujet + verbe de base ?",
+      "examples": [
+        {"text": "I didn't go to the beach yesterday.", "translation": "Je ne suis pas allé à la plage hier."},
+        {"text": "Did you like the hotel? — Yes, I did.", "translation": "Tu as aimé l'hôtel ? — Oui."},
+        {"text": "Where did you go on holiday?", "translation": "Où es-tu allé en vacances ?"},
+        {"text": "She didn't buy a present.", "translation": "Elle n'a pas acheté de cadeau."}
+      ],
+      "commonErrors": [
+        {"wrong": "Did you went to the beach?", "right": "Did you go to the beach?", "why": "Après did, le verbe reste à la base : le passé est déjà dans did."},
+        {"wrong": "I didn't saw the film.", "right": "I didn't see the film.", "why": "Didn't + verbe de base : see, pas saw."},
+        {"wrong": "Where you went?", "right": "Where did you go?", "why": "Une question au passé a besoin de did avant le sujet, puis du verbe à la base."}
+      ],
+      "tip": "Did porte le passé : le verbe qui suit reste à la base (did + go, didn't + see)."
+    }
+  }
+]

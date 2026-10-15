@@ -1,0 +1,219 @@
+{
+  "lessonId": "en.l25",
+  "exercises": [
+    {
+      "id": "en.l25.e01",
+      "unitIds": ["en.g18.present_continuous", "en.v.use", "en.v.laptop"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "My brother ___ using his laptop now.",
+      "promptLanguage": "en",
+      "options": ["isn't", "doesn't", "aren't"],
+      "answer": "isn't",
+      "acceptedAnswers": ["isn't"],
+      "hint": "Le verbe est en -ing : on utilise be.",
+      "explanation": "Au présent continu, on fait la négation avec be + not : he isn't (is not) using. On n'utilise pas doesn't, qui sert au présent simple. My brother = he, donc is.",
+      "tip": "Présent continu : isn't, aren't, I'm not + -ing. Pas de don't.",
+      "extraExample": {"text": "My sister isn't wearing a coat.", "translation": "Ma sœur ne porte pas de manteau."},
+      "errorPatterns": [
+        {"equals": "doesn't", "category": "verb_tense", "feedback": "Doesn't est pour le présent simple (he doesn't use). Quand le verbe est en -ing, on nie avec be : he isn't using."},
+        {"equals": "aren't", "category": "conjugation", "feedback": "Aren't s'emploie avec you, we, they. Avec my brother (= he), on dit isn't."}
+      ]
+    },
+    {
+      "id": "en.l25.e02",
+      "unitIds": ["en.g18.present_continuous", "en.v.sing"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la question correcte.",
+      "prompt": "Comment dit-on « Est-ce qu'elle chante en ce moment ? »",
+      "promptLanguage": "fr",
+      "options": ["Is she singing now?", "Are she singing now?", "Does she singing now?", "Is she sing now?"],
+      "answer": "Is she singing now?",
+      "acceptedAnswers": ["Is she singing now?"],
+      "hint": "On place be avant le sujet.",
+      "explanation": "Pour poser une question au présent continu, on place be avant le sujet : Is she singing ? Le verbe reste en -ing. On n'utilise pas do / does.",
+      "tip": "Question : be + sujet + verbe-ing (Is she…? Are you…?).",
+      "extraExample": {"text": "Is he talking on the phone?", "translation": "Est-ce qu'il parle au téléphone ?"},
+      "errorPatterns": [
+        {"equals": "Are she singing now?", "category": "conjugation", "feedback": "She va avec is : Is she singing ? Are est pour you, we, they."},
+        {"equals": "Does she singing now?", "category": "verb_tense", "feedback": "Does est pour le présent simple. Avec un verbe en -ing, on utilise be : Is she singing ?"},
+        {"equals": "Is she sing now?", "category": "grammar", "feedback": "Après is, le verbe prend -ing : Is she singing ?"}
+      ]
+    },
+    {
+      "id": "en.l25.e03",
+      "unitIds": ["en.g18.present_continuous", "en.v.call", "en.v.use", "en.v.sing", "en.v.dance", "en.v.laptop"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot anglais à sa traduction.",
+      "prompt": "Les nouveaux mots de la leçon",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "call", "right": "appeler"},
+        {"left": "use", "right": "utiliser"},
+        {"left": "sing", "right": "chanter"},
+        {"left": "dance", "right": "danser"},
+        {"left": "laptop", "right": "un ordinateur portable"}
+      ],
+      "answer": "call = appeler ; use = utiliser ; sing = chanter ; dance = danser ; laptop = un ordinateur portable",
+      "acceptedAnswers": [],
+      "explanation": "Use et dance se terminent par un -e : on l'enlève avant -ing (using, dancing). Call et sing prennent simplement -ing (calling, singing).",
+      "tip": "Verbe en -e : on enlève le e (use → using, dance → dancing).",
+      "extraExample": {"text": "Are you using your laptop?", "translation": "Est-ce que tu utilises ton ordinateur portable ?"}
+    },
+    {
+      "id": "en.l25.e04",
+      "unitIds": ["en.g18.present_continuous", "en.v.use"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme du verbe use.",
+      "prompt": "My sister is ___ her laptop now.",
+      "promptLanguage": "en",
+      "options": ["using", "useing", "uses"],
+      "answer": "using",
+      "acceptedAnswers": ["using"],
+      "hint": "Use se termine par -e.",
+      "explanation": "Après is, le verbe prend -ing. Use se termine par un -e : on l'enlève avant d'ajouter -ing. On écrit using.",
+      "tip": "On enlève le e final avant -ing : use → using, make → making.",
+      "extraExample": {"text": "He is dancing in the house.", "translation": "Il danse dans la maison."},
+      "errorPatterns": [
+        {"equals": "useing", "category": "spelling", "feedback": "Use se termine par -e : on l'enlève avant -ing. On écrit using."},
+        {"equals": "uses", "category": "grammar", "feedback": "Après is, le verbe prend -ing, pas -s : is using."}
+      ]
+    },
+    {
+      "id": "en.l25.e05",
+      "unitIds": ["en.g18.present_continuous", "en.v.dance"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la réponse courte.",
+      "prompt": "Is Anna dancing? No, she ___.",
+      "promptLanguage": "en",
+      "options": ["isn't", "doesn't", "aren't"],
+      "answer": "isn't",
+      "acceptedAnswers": ["isn't"],
+      "hint": "On reprend le verbe be de la question.",
+      "explanation": "Pour répondre à une question avec Is, on reprend is : No, she isn't. On ne répète pas le verbe dancing.",
+      "tip": "Question en Is / Are → réponse en is / isn't, are / aren't.",
+      "extraExample": {"text": "Is Tom calling his mother? Yes, he is.", "translation": "Est-ce que Tom appelle sa mère ? Oui."},
+      "errorPatterns": [
+        {"equals": "doesn't", "category": "verb_tense", "feedback": "La question commence par Is : on répond avec is / isn't, pas avec does."},
+        {"equals": "aren't", "category": "conjugation", "feedback": "Aren't est pour you, we, they. Avec she, on dit isn't."}
+      ]
+    },
+    {
+      "id": "en.l25.e06",
+      "unitIds": ["en.g18.present_continuous", "en.v.call"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Est-ce que tu appelles ta mère maintenant ?",
+      "promptLanguage": "fr",
+      "tokens": ["calling", "Are", "you", "now", "mother", "your"],
+      "answer": "Are you calling your mother now",
+      "acceptedAnswers": ["Are you calling your mother now"],
+      "hint": "La question commence par Are.",
+      "explanation": "Pour une question au présent continu, on place be avant le sujet : Are you… ? Puis le verbe en -ing (calling), puis le reste de la phrase.",
+      "tip": "You are devient Are you : on inverse be et le sujet.",
+      "extraExample": {"text": "Is your brother using his laptop?", "translation": "Est-ce que ton frère utilise son ordinateur portable ?"}
+    },
+    {
+      "id": "en.l25.e07",
+      "unitIds": ["en.g18.present_continuous", "en.v.use", "en.v.laptop"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Tom n'utilise pas son ordinateur portable en ce moment.",
+      "promptLanguage": "fr",
+      "answer": "Tom isn't using his laptop at the moment.",
+      "acceptedAnswers": [
+        "Tom isn't using his laptop at the moment.",
+        "Tom isn't using his laptop now.",
+        "Tom isn't using his laptop right now.",
+        "At the moment Tom isn't using his laptop.",
+        "Right now Tom isn't using his laptop.",
+        "Now Tom isn't using his laptop."
+      ],
+      "hint": "Pour nier un verbe en -ing, on utilise be + not.",
+      "explanation": "En ce moment : présent continu. La négation se fait avec be + not (is not = isn't), puis le verbe en -ing : Tom isn't using. Use perd son -e : using.",
+      "tip": "Be + not + verbe-ing : isn't using, aren't talking.",
+      "extraExample": {"text": "We aren't talking now.", "translation": "Nous ne parlons pas maintenant."},
+      "errorPatterns": [
+        {"contains": "tom doesn't use", "category": "verb_tense", "feedback": "Pour une action en cours, la négation se fait avec isn't + -ing : Tom isn't using."},
+        {"contains": "tom not using", "category": "grammar", "feedback": "Il manque is : Tom is not (isn't) using."},
+        {"contains": "isn't use his", "category": "grammar", "feedback": "Après isn't, le verbe prend -ing : isn't using."}
+      ]
+    },
+    {
+      "id": "en.l25.e08",
+      "unitIds": ["en.g18.present_continuous", "en.v.sing", "en.v.dance"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Est-ce que ta sœur danse et chante maintenant ?",
+      "promptLanguage": "fr",
+      "answer": "Is your sister dancing and singing now?",
+      "acceptedAnswers": [
+        "Is your sister dancing and singing now?",
+        "Is your sister singing and dancing now?",
+        "Is your sister dancing and singing right now?",
+        "Is your sister singing and dancing right now?",
+        "Is your sister dancing and singing at the moment?",
+        "Is your sister singing and dancing at the moment?",
+        "Is your sister dancing and singing?",
+        "Is your sister singing and dancing?"
+      ],
+      "hint": "Is + sujet + verbe en -ing. Dance perd son -e.",
+      "explanation": "Pour une question au présent continu : Is + sujet + verbe en -ing. Dance se termine par -e, qu'on enlève : dancing. Sing prend simplement -ing : singing.",
+      "tip": "Question : Is your sister + verbe-ing ?",
+      "extraExample": {"text": "Are your parents singing?", "translation": "Est-ce que tes parents chantent ?"},
+      "errorPatterns": [
+        {"contains": "does your sister", "category": "verb_tense", "feedback": "Pour une action en cours, on pose la question avec be : Is your sister…"},
+        {"contains": "danceing", "category": "spelling", "feedback": "Dance se termine par -e : on l'enlève avant -ing. On écrit dancing."},
+        {"contains": "are your sister", "category": "conjugation", "feedback": "Your sister = she : on utilise Is, pas Are."}
+      ]
+    },
+    {
+      "id": "en.l25.e09",
+      "unitIds": ["en.g18.present_continuous", "en.v.dance"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Réponds « oui » avec une réponse courte (Yes, …).",
+      "prompt": "Are your friends dancing now?",
+      "promptLanguage": "en",
+      "answer": "Yes, they are.",
+      "acceptedAnswers": ["Yes, they are."],
+      "hint": "On reprend le verbe be de la question.",
+      "explanation": "La question commence par Are : on répond avec are. À la fin d'une réponse courte positive, on ne contracte pas : Yes, they are (et non Yes, they're).",
+      "tip": "Question en Are → Yes, they are. / No, they aren't.",
+      "extraExample": {"text": "Is Tom laughing? No, he isn't.", "translation": "Est-ce que Tom rit ? Non."},
+      "errorPatterns": [
+        {"equals": "yes they do", "category": "verb_tense", "feedback": "La question commence par Are : on répond avec are, pas avec do. Yes, they are."},
+        {"equals": "yes they dancing", "category": "grammar", "feedback": "Dans une réponse courte, on reprend seulement are : Yes, they are."},
+        {"equals": "yes they dance", "category": "instruction", "feedback": "La consigne demande une réponse courte : on reprend are. Yes, they are."}
+      ]
+    },
+    {
+      "id": "en.l25.e10",
+      "unitIds": ["en.g18.present_continuous", "en.v.call", "en.v.use", "en.v.sing", "en.v.dance", "en.v.laptop"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Pose une question au présent continu avec un de ces verbes : call, use, sing ou dance.",
+      "prompt": "Que demandes-tu à un ami qui est avec toi en ce moment ?",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["calling", "using", "singing", "dancing"], ["am", "is", "are"]], "minWords": 3},
+      "answer": "Are you using your laptop now?",
+      "acceptedAnswers": ["Are you using your laptop now?", "Is Anna singing now?", "Is your brother calling his friend?", "Are they dancing?"],
+      "hint": "Be + sujet + verbe en -ing ?",
+      "explanation": "Pour poser une question au présent continu, on place be (am, is, are) avant le sujet, puis le verbe en -ing : Are you using…? Is she singing…?",
+      "tip": "Question : on inverse be et le sujet, le verbe reste en -ing.",
+      "extraExample": {"text": "Is it raining in Paris now?", "translation": "Est-ce qu'il pleut à Paris maintenant ?"},
+      "errorPatterns": [
+        {"contains": "do you using", "category": "verb_tense", "feedback": "On ne mélange pas do et -ing : avec un verbe en -ing, la question commence par be. Are you using…?"},
+        {"contains": "is they", "category": "conjugation", "feedback": "Avec they, on utilise are : Are they…?"}
+      ]
+    }
+  ]
+}

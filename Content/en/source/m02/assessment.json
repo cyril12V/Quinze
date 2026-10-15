@@ -1,0 +1,101 @@
+[
+  {
+    "id": "en.assess.m02.01",
+    "unitIds": ["en.g08.verbs_base_form", "en.v.live", "en.v.work"],
+    "type": "translation",
+    "difficulty": 2,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Ils habitent à Paris et travaillent à Londres.",
+    "promptLanguage": "fr",
+    "answer": "They live in Paris and work in London.",
+    "acceptedAnswers": ["They live in Paris and work in London.", "They live in Paris and they work in London.", "They are living in Paris and working in London.", "They are living in Paris and they are working in London."],
+    "hint": "Avec they, les verbes gardent leur forme de base.",
+    "explanation": "Avec they, le verbe reste à sa forme de base : they live, they work. Devant le nom d'une ville, « à » se dit in.",
+    "tip": "I, you, we, they : jamais de -s sur le verbe.",
+    "extraExample": {"text": "We live in London and we work in Paris.", "translation": "Nous habitons à Londres et nous travaillons à Paris."},
+    "errorPatterns": [
+      {"contains": "they lives", "category": "conjugation", "feedback": "Avec they, le verbe ne prend pas de -s : they live."},
+      {"contains": "they works", "category": "conjugation", "feedback": "Avec they, le verbe ne prend pas de -s : they work."},
+      {"contains": "they are live", "category": "grammar", "feedback": "Pas de verbe être devant un autre verbe : they live."}
+    ]
+  },
+  {
+    "id": "en.assess.m02.02",
+    "unitIds": ["en.g09.do_vs_make", "en.v.do", "en.v.homework"],
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Complète avec le bon verbe : do ou make.",
+    "prompt": "My brother and I ___ our homework at home. (faire)",
+    "promptLanguage": "en",
+    "answer": "do",
+    "acceptedAnswers": ["do"],
+    "hint": "Les devoirs sont une tâche à accomplir.",
+    "explanation": "Les devoirs sont une tâche à accomplir : on dit do homework. My brother and I, c'est « nous » : le verbe ne prend pas de -s.",
+    "tip": "Do homework, make dinner : apprends les groupes de mots.",
+    "extraExample": {"text": "You do your homework and I make coffee.", "translation": "Tu fais tes devoirs et je fais du café."},
+    "errorPatterns": [
+      {"equals": "make", "category": "word_confusion", "feedback": "Make sert à créer ou fabriquer. Les devoirs sont une tâche : on dit do homework."},
+      {"equals": "does", "category": "conjugation", "feedback": "My brother and I, c'est comme we : le verbe ne prend pas de -s."}
+    ]
+  },
+  {
+    "id": "en.assess.m02.03",
+    "unitIds": ["en.g10.want_need_to", "en.v.need", "en.v.help"],
+    "type": "free_answer",
+    "difficulty": 3,
+    "instruction": "Écris en anglais.",
+    "prompt": "Comment dit-on « Nous avons besoin d'aider notre mère » en anglais ?",
+    "promptLanguage": "fr",
+    "answer": "We need to help our mother.",
+    "acceptedAnswers": ["We need to help our mother.", "We need to help our mum.", "We need to help our mom."],
+    "hint": "Avoir besoin de + verbe : need to + verbe de base.",
+    "explanation": "Avoir besoin de se dit need, suivi de to + verbe de base : need to help. Notre mère se dit our mother.",
+    "tip": "Need + to + verbe de base.",
+    "extraExample": {"text": "I need to wait for my father.", "translation": "J'ai besoin d'attendre mon père."},
+    "errorPatterns": [
+      {"contains": "need help", "category": "grammar", "feedback": "Pour « avoir besoin d'aider », il faut to + verbe : need to help."},
+      {"contains": "need that", "category": "grammar", "feedback": "On ne dit pas « need that » avant un verbe. On dit need to + verbe."},
+      {"contains": "we needs", "category": "conjugation", "feedback": "Avec we, le verbe ne prend pas de -s : we need."}
+    ]
+  },
+  {
+    "id": "en.assess.m02.04",
+    "unitIds": ["en.g11.can", "en.v.open", "en.v.door"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Peux-tu ouvrir la porte, s'il te plaît ?",
+    "promptLanguage": "fr",
+    "answer": "Can you open the door, please?",
+    "acceptedAnswers": ["Can you open the door, please?", "Can you please open the door?", "Could you open the door, please?", "Could you please open the door?", "Please can you open the door?", "Please could you open the door?"],
+    "hint": "Pour une demande : Can + you + verbe de base.",
+    "explanation": "Pour demander un service, on utilise Can you + verbe de base ? Can se place avant le sujet, sans to. Please rend la demande plus polie.",
+    "tip": "Peux-tu… ? = Can you… ? + verbe de base.",
+    "extraExample": {"text": "Can you wait for me, please?", "translation": "Peux-tu m'attendre, s'il te plaît ?"},
+    "errorPatterns": [
+      {"contains": "can you to", "category": "grammar", "feedback": "Après can you, on n'ajoute pas to : Can you open the door?"},
+      {"contains": "you can open", "category": "word_order", "feedback": "Pour poser une question, on met can avant le sujet : Can you open the door?"},
+      {"contains": "can you opens", "category": "conjugation", "feedback": "Après can, le verbe ne prend jamais de -s : Can you open?"}
+    ]
+  },
+  {
+    "id": "en.assess.m02.05",
+    "unitIds": ["en.g12.must", "en.v.careful"],
+    "type": "free_answer",
+    "difficulty": 3,
+    "instruction": "Écris en anglais.",
+    "prompt": "Comment dit-on « Nous ne devons pas être en retard » en anglais ?",
+    "promptLanguage": "fr",
+    "answer": "We mustn't be late.",
+    "acceptedAnswers": ["We mustn't be late.", "We must not be late."],
+    "hint": "Interdiction : mustn't + verbe de base. Le verbe être devient be.",
+    "explanation": "Pour dire « il ne faut pas », on utilise mustn't + verbe de base. Le verbe de base d'être est be : we mustn't be late.",
+    "tip": "Mustn't + be + adjectif : pas de to, pas de -s.",
+    "extraExample": {"text": "You mustn't wait for me.", "translation": "Tu ne dois pas m'attendre."},
+    "errorPatterns": [
+      {"contains": "mustn't to", "category": "grammar", "feedback": "Après mustn't, on n'ajoute pas to : we mustn't be late."},
+      {"contains": "mustn't are", "category": "grammar", "feedback": "Après mustn't, le verbe être se dit be, pas are : we mustn't be late."},
+      {"contains": "don't must", "category": "grammar", "feedback": "Avec must, la négation est mustn't (ou must not) : we mustn't be late."}
+    ]
+  }
+]

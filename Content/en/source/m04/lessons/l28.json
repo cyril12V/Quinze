@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l28",
+  "exercises": [
+    {
+      "id": "en.l28.e01",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.walk"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "My sister ___ to school yesterday.",
+      "promptLanguage": "en",
+      "options": ["walked", "walk", "was walk"],
+      "answer": "walked",
+      "acceptedAnswers": ["walked"],
+      "hint": "Yesterday : l'action est terminée.",
+      "explanation": "Yesterday (hier) indique une action terminée : on utilise le passé simple. Pour un verbe régulier, on ajoute -ed à la forme de base : walk → walked, avec toutes les personnes.",
+      "tip": "Yesterday, last… ou ago → verbe + -ed, sans was et sans -s.",
+      "extraExample": {"text": "Tom walked to the gym yesterday morning.", "translation": "Tom est allé à pied à la salle de sport hier matin."},
+      "errorPatterns": [
+        {"equals": "walk", "category": "verb_tense", "feedback": "Walk est la forme de base, utilisée au présent. Avec yesterday, il faut -ed : walked."},
+        {"equals": "was walk", "category": "grammar", "feedback": "On n'ajoute pas was devant un verbe d'action : walked exprime déjà le passé."}
+      ]
+    },
+    {
+      "id": "en.l28.e02",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.visit"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Anna ___ her parents last week.",
+      "promptLanguage": "en",
+      "options": ["visited", "visit", "visits"],
+      "answer": "visited",
+      "acceptedAnswers": ["visited"],
+      "hint": "Last week : c'est le passé.",
+      "explanation": "Last week (la semaine dernière) place l'action dans le passé. Le verbe régulier visit prend -ed : visited. Il n'y a pas de -s avec she, car le -s est réservé au présent.",
+      "tip": "Au passé, plus de -s avec he / she / it : on ajoute seulement -ed.",
+      "extraExample": {"text": "Lucy visited her brother last weekend.", "translation": "Lucy a rendu visite à son frère le week-end dernier."},
+      "errorPatterns": [
+        {"equals": "visits", "category": "verb_tense", "feedback": "Visits est le présent (avec -s). La phrase parle de la semaine dernière : visited."},
+        {"equals": "visit", "category": "verb_tense", "feedback": "Visit est la forme de base du présent. Pour le passé, on ajoute -ed : visited."}
+      ]
+    },
+    {
+      "id": "en.l28.e03",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.walk", "en.v.visit", "en.v.stay", "en.v.start", "en.v.travel"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque verbe au passé à sa traduction.",
+      "prompt": "Cinq verbes réguliers au passé",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "walked", "right": "a marché"},
+        {"left": "visited", "right": "a visité / a rendu visite"},
+        {"left": "stayed", "right": "est resté / a séjourné"},
+        {"left": "started", "right": "a commencé"},
+        {"left": "travelled", "right": "a voyagé"}
+      ],
+      "answer": "walked = a marché ; visited = a visité / a rendu visite ; stayed = est resté / a séjourné ; started = a commencé ; travelled = a voyagé",
+      "acceptedAnswers": [],
+      "explanation": "Ces cinq verbes sont réguliers : on ajoute -ed. Le -ed ne se prononce pas toujours pareil : walked /wɔːkt/ (le d sonne comme un t), stayed /steɪd/ et visited /ˈvɪzɪtɪd/ (avec une syllabe en plus).",
+      "tip": "En anglais, le passé simple se traduit souvent par le passé composé français : walked = a marché.",
+      "extraExample": {"text": "They stayed in Paris.", "translation": "Ils sont restés à Paris."}
+    },
+    {
+      "id": "en.l28.e04",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.stay"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le passé du verbe entre parenthèses.",
+      "prompt": "We ___ at my sister's house for two days. (stay)",
+      "promptLanguage": "en",
+      "options": ["stayed", "stay", "stays"],
+      "answer": "stayed",
+      "acceptedAnswers": ["stayed"],
+      "hint": "Le verbe est régulier : ajoute -ed.",
+      "explanation": "Stay est un verbe régulier : on ajoute -ed, ce qui donne stayed. Le y reste un y, car il est précédé d'une voyelle (a) : on ne le change en i qu'après une consonne (study → studied).",
+      "tip": "Voyelle + y : on garde le y (stayed). Consonne + y : y devient i (studied).",
+      "extraExample": {"text": "He stayed at home last night.", "translation": "Il est resté à la maison hier soir."},
+      "errorPatterns": [
+        {"equals": "stay", "category": "verb_tense", "feedback": "Stay est la forme du présent. L'action est terminée : il faut -ed, stayed."},
+        {"equals": "staied", "category": "spelling", "feedback": "Après une voyelle, le y ne change pas : stay → stayed (et non staied)."},
+        {"equals": "stayd", "category": "spelling", "feedback": "Le passé régulier s'écrit avec -ed, pas seulement -d : stayed."}
+      ]
+    },
+    {
+      "id": "en.l28.e05",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.start"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le passé du verbe entre parenthèses.",
+      "prompt": "Tom ___ work early yesterday. (start)",
+      "promptLanguage": "en",
+      "options": ["started", "start", "starts"],
+      "answer": "started",
+      "acceptedAnswers": ["started"],
+      "hint": "Yesterday : l'action est terminée.",
+      "explanation": "Start est régulier : on ajoute -ed. Comme start se termine par un t, on entend une syllabe de plus : started se dit /ˈstɑːtɪd/. Avec yesterday, c'est le passé simple.",
+      "tip": "Même forme à toutes les personnes : I started, he started, they started.",
+      "extraExample": {"text": "The film started late.", "translation": "Le film a commencé tard."},
+      "errorPatterns": [
+        {"equals": "start", "category": "verb_tense", "feedback": "Start est la forme du présent. Avec yesterday, on ajoute -ed : started."},
+        {"equals": "starts", "category": "verb_tense", "feedback": "Le -s est réservé au présent. Au passé, tous les sujets prennent -ed : started."}
+      ]
+    },
+    {
+      "id": "en.l28.e06",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.visit"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Anna a rendu visite à sa sœur la semaine dernière.",
+      "promptLanguage": "fr",
+      "tokens": ["her", "Anna", "week", "sister", "visited", "last"],
+      "answer": "Anna visited her sister last week",
+      "acceptedAnswers": ["Anna visited her sister last week", "Last week Anna visited her sister"],
+      "hint": "Sujet + verbe au passé + complément. Last se place devant week.",
+      "explanation": "L'ordre de base est sujet + verbe + complément : Anna visited her sister. Le repère de temps last week se place à la fin, ou au début de la phrase.",
+      "tip": "Last se place devant le nom : last week, pas week last.",
+      "extraExample": {"text": "My friend visited me last week.", "translation": "Mon ami m'a rendu visite la semaine dernière."}
+    },
+    {
+      "id": "en.l28.e07",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.walk", "en.v.yesterday"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Hier, j'ai marché jusqu'au bureau.",
+      "promptLanguage": "fr",
+      "answer": "I walked to the office yesterday",
+      "acceptedAnswers": ["I walked to the office yesterday", "Yesterday I walked to the office", "I walked to my office yesterday", "Yesterday I walked to my office", "I walked to work yesterday", "Yesterday I walked to work"],
+      "hint": "Le passé composé français se traduit par le passé simple anglais.",
+      "explanation": "« J'ai marché » se traduit par I walked : walk + -ed. On n'utilise pas have comme en français. Yesterday peut se placer au début ou à la fin.",
+      "tip": "Pas d'auxiliaire : « j'ai marché » = I walked.",
+      "extraExample": {"text": "She walked home after work.", "translation": "Elle est rentrée à pied après le travail."},
+      "errorPatterns": [
+        {"contains": "i walk to", "category": "verb_tense", "feedback": "Walk est le présent. Hier, l'action est terminée : I walked."},
+        {"contains": "i have walked", "category": "verb_tense", "feedback": "L'anglais n'utilise pas have ici. Pour une action finie dans le passé, on dit simplement I walked."},
+        {"contains": "was walked", "category": "grammar", "feedback": "Pas de was devant un verbe d'action : I walked."}
+      ]
+    },
+    {
+      "id": "en.l28.e08",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.travel", "en.v.ago"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mes parents ont voyagé à Londres il y a deux jours.",
+      "promptLanguage": "fr",
+      "answer": "My parents travelled to London two days ago",
+      "acceptedAnswers": ["My parents travelled to London two days ago", "My parents traveled to London two days ago", "Two days ago my parents travelled to London", "Two days ago my parents traveled to London"],
+      "hint": "« Il y a deux jours » : la durée d'abord, puis ago.",
+      "explanation": "Travel est régulier : travel → travelled. En anglais britannique, on double le l ; en américain, on écrit traveled. « Il y a deux jours » se dit two days ago.",
+      "tip": "Travel double son l en anglais britannique : travelled (traveled en américain).",
+      "extraExample": {"text": "We travelled to Paris three days ago.", "translation": "Nous avons voyagé jusqu'à Paris il y a trois jours."},
+      "errorPatterns": [
+        {"contains": "parents travel to", "category": "verb_tense", "feedback": "Travel est le présent. L'action est passée : il faut -ed, travelled."},
+        {"contains": "before two days", "category": "word_confusion", "feedback": "« Il y a » se dit ago, placé après la durée : two days ago."},
+        {"contains": "two days before", "category": "word_confusion", "feedback": "Before ne veut pas dire « il y a ». On dit two days ago."}
+      ]
+    },
+    {
+      "id": "en.l28.e09",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.stay", "en.v.yesterday"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Nous sommes restés à la maison hier » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "We stayed at home yesterday",
+      "acceptedAnswers": ["We stayed at home yesterday", "We stayed home yesterday", "Yesterday we stayed at home", "Yesterday we stayed home"],
+      "hint": "Stay est un verbe régulier : stay + -ed.",
+      "explanation": "« Sommes restés » est un passé composé français : en anglais, on utilise le passé simple, stayed. Le verbe a la même forme avec we, I, he ou they.",
+      "tip": "« Nous sommes restés » = We stayed : pas de verbe être devant.",
+      "extraExample": {"text": "I stayed in bed all morning.", "translation": "Je suis resté au lit toute la matinée."},
+      "errorPatterns": [
+        {"contains": "we stay at", "category": "verb_tense", "feedback": "Stay est le présent. Hier, l'action est finie : stayed."},
+        {"contains": "we were stayed", "category": "grammar", "feedback": "Pas de were devant un verbe d'action : We stayed."},
+        {"contains": "we are stayed", "category": "grammar", "feedback": "Le passé simple se fait sans verbe être : We stayed."}
+      ]
+    },
+    {
+      "id": "en.l28.e10",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.start"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Hier, ma journée a commencé tôt » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "My day started early yesterday",
+      "acceptedAnswers": ["My day started early yesterday", "Yesterday my day started early", "My day began early yesterday", "Yesterday my day began early"],
+      "hint": "Le verbe est start. Early veut dire « tôt ».",
+      "explanation": "Avec yesterday, on utilise le passé simple : start → started. Le sujet my day se comporte comme it : le verbe ne change pas, et il n'y a pas de -s.",
+      "tip": "Au passé, le verbe ne change jamais selon le sujet : my day started, we started.",
+      "extraExample": {"text": "School started at eight.", "translation": "Les cours ont commencé à huit heures."},
+      "errorPatterns": [
+        {"contains": "day start early", "category": "verb_tense", "feedback": "Start est le présent. Hier, l'action est finie : started."},
+        {"contains": "day was start", "category": "grammar", "feedback": "On n'ajoute pas was devant un verbe d'action : My day started."}
+      ]
+    }
+  ]
+}

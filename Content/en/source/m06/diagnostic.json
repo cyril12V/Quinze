@@ -1,0 +1,110 @@
+[
+  {
+    "id": "en.diag.m06.01",
+    "unitIds": ["en.g28.there_is_are"],
+    "type": "mcq",
+    "difficulty": 1,
+    "level": 1,
+    "topic": "construction",
+    "instruction": "Choisis la bonne forme.",
+    "prompt": "There ___ three bedrooms in our apartment.",
+    "promptLanguage": "en",
+    "options": ["are", "is", "have", "has"],
+    "answer": "are",
+    "acceptedAnswers": ["are"],
+    "hint": "Trois chambres : un seul élément ou plusieurs ?",
+    "explanation": "Three bedrooms est un pluriel : on dit there are. « Il y a » ne se traduit jamais avec have.",
+    "tip": "« Il y a » : there is (un seul) ou there are (plusieurs).",
+    "extraExample": {"text": "There are two windows in the bathroom.", "translation": "Il y a deux fenêtres dans la salle de bain."},
+    "errorPatterns": [
+      {"equals": "is", "category": "grammar", "feedback": "There is s'utilise avec un seul élément. Three bedrooms est un pluriel : there are."},
+      {"equals": "have", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec have. On utilise there is ou there are."},
+      {"equals": "has", "category": "grammar", "feedback": "« Il y a » ne se dit pas avec has. Devant un pluriel, on dit there are."}
+    ]
+  },
+  {
+    "id": "en.diag.m06.02",
+    "unitIds": ["en.g29.some_any"],
+    "type": "fill_blank",
+    "difficulty": 1,
+    "level": 1,
+    "topic": "construction",
+    "instruction": "Complète avec some, any ou a.",
+    "prompt": "I don't have ___ money.",
+    "promptLanguage": "en",
+    "options": ["any", "some", "a"],
+    "answer": "any",
+    "acceptedAnswers": ["any"],
+    "hint": "La phrase est négative.",
+    "explanation": "Dans une phrase négative, on utilise any : I don't have any money. Money ne se compte pas, donc pas de a.",
+    "tip": "Négation : any ; phrase affirmative : some.",
+    "extraExample": {"text": "We don't have any bread.", "translation": "Nous n'avons pas de pain."},
+    "errorPatterns": [
+      {"equals": "some", "category": "grammar", "feedback": "Some ne s'utilise pas dans une phrase négative. Après don't, on dit any."},
+      {"equals": "a", "category": "grammar", "feedback": "Money ne se compte pas : on ne dit pas « a money ». On dit any money."}
+    ]
+  },
+  {
+    "id": "en.diag.m06.03",
+    "unitIds": ["en.g30.how_much_many"],
+    "type": "mcq",
+    "difficulty": 1,
+    "level": 1,
+    "topic": "construction",
+    "instruction": "Choisis la bonne expression.",
+    "prompt": "___ people are there at the party?",
+    "promptLanguage": "en",
+    "options": ["How many", "How much", "How long"],
+    "answer": "How many",
+    "acceptedAnswers": ["How many"],
+    "hint": "On peut compter les personnes.",
+    "explanation": "People se compte et est un pluriel : on utilise how many. How much sert pour les noms qu'on ne compte pas ou pour un prix.",
+    "tip": "On peut compter ? How many. On ne peut pas ? How much.",
+    "extraExample": {"text": "How many friends do you have?", "translation": "Combien d'amis as-tu ?"},
+    "errorPatterns": [
+      {"equals": "how much", "category": "grammar", "feedback": "How much s'utilise avec un nom qu'on ne compte pas (money, bread). People se compte : how many."},
+      {"equals": "how long", "category": "grammar", "feedback": "How long demande une durée ou une longueur. Pour « combien de personnes », on dit how many people."}
+    ]
+  },
+  {
+    "id": "en.diag.m06.04",
+    "unitIds": ["en.g31.time_and_dates"],
+    "type": "mcq",
+    "difficulty": 1,
+    "level": 1,
+    "topic": "vocabulary",
+    "instruction": "Choisis la bonne traduction.",
+    "prompt": "Comment dit-on « Il est cinq heures et demie. » en anglais ?",
+    "promptLanguage": "fr",
+    "options": ["It's half past five.", "It's five and half.", "It's half to five.", "It's five hours half."],
+    "answer": "It's half past five.",
+    "acceptedAnswers": ["It's half past five."],
+    "hint": "En anglais, la demie se place avant l'heure.",
+    "explanation": "« Et demie » se dit half past devant l'heure : half past five (5 h 30). On n'utilise pas and.",
+    "tip": "Cinq heures et demie = half past five.",
+    "extraExample": {"text": "It's half past eight.", "translation": "Il est huit heures et demie."},
+    "errorPatterns": [
+      {"contains": "five and half", "category": "word_order", "feedback": "On ne dit pas « five and half ». La demie se place avant l'heure : half past five."},
+      {"contains": "half to five", "category": "grammar", "feedback": "To veut dire « moins » (quarter to five = 4 h 45). Pour 5 h 30, on dit half past five."},
+      {"contains": "five hours half", "category": "word_confusion", "feedback": "Hours veut dire « durée ». Pour dire l'heure, on dit half past five."}
+    ]
+  },
+  {
+    "id": "en.diag.m06.05",
+    "unitIds": ["en.g29.some_any"],
+    "type": "reorder",
+    "difficulty": 2,
+    "level": 1,
+    "topic": "construction",
+    "instruction": "Remets les mots dans l'ordre pour former la demande polie.",
+    "prompt": "Puis-je avoir du café, s'il vous plaît ?",
+    "promptLanguage": "fr",
+    "tokens": ["coffee", "Can", "some", "I", "please", "have"],
+    "answer": "Can I have some coffee please",
+    "acceptedAnswers": ["Can I have some coffee please", "Please can I have some coffee"],
+    "hint": "La phrase commence par Can I have.",
+    "explanation": "Pour demander poliment, on dit Can I have some… please ? On garde some dans une demande polie, même si c'est une question.",
+    "tip": "Can I have some… , please ? : la formule du restaurant.",
+    "extraExample": {"text": "Can I have some milk, please?", "translation": "Puis-je avoir du lait, s'il vous plaît ?"}
+  }
+]

@@ -1,0 +1,208 @@
+{
+  "lessonId": "en.l09",
+  "exercises": [
+    {
+      "id": "en.l09.e01",
+      "unitIds": ["en.g07.plural_nouns", "en.v.three", "en.v.book"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « trois livres » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["three books", "three book", "three bookes"],
+      "answer": "three books",
+      "acceptedAnswers": ["three books"],
+      "hint": "Après trois, le nom est au pluriel.",
+      "explanation": "Après un nombre plus grand que one, le nom est au pluriel : three books. On ajoute -s à book, et on n'utilise pas a.",
+      "tip": "Plus d'un = nom au pluriel : three books, two keys.",
+      "extraExample": {"text": "two bags", "translation": "deux sacs"},
+      "errorPatterns": [
+        {"equals": "three book", "category": "grammar", "feedback": "Après three, le nom prend un -s : three books."},
+        {"equals": "three bookes", "category": "spelling", "feedback": "On ajoute -es seulement après s, x, ch ou sh. Après k, on ajoute juste -s : books."}
+      ]
+    },
+    {
+      "id": "en.l09.e02",
+      "unitIds": ["en.g03.be_affirmative", "en.v.ten", "en.g05.have_has"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « J'ai dix ans » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I am ten", "I have ten", "I has ten", "I ten"],
+      "answer": "I am ten",
+      "acceptedAnswers": ["I am ten"],
+      "hint": "En anglais, on dit son âge avec le verbe être.",
+      "explanation": "Pour donner son âge, l'anglais utilise le verbe être : I am ten (littéralement « je suis dix »). On peut aussi dire I am ten years old, mais years old n'est pas obligatoire.",
+      "tip": "L'âge se dit avec be : I am ten, jamais « I have ten ».",
+      "extraExample": {"text": "He is five.", "translation": "Il a cinq ans."},
+      "errorPatterns": [
+        {"equals": "i have ten", "category": "verb_tense", "feedback": "Pour l'âge, l'anglais utilise le verbe être et non « avoir » : I am ten."},
+        {"equals": "i has ten", "category": "verb_tense", "feedback": "Pour l'âge, on utilise le verbe être : I am ten. Et has ne va qu'avec he, she, it."},
+        {"equals": "i ten", "category": "grammar", "feedback": "Il manque le verbe être : I am ten."}
+      ]
+    },
+    {
+      "id": "en.l09.e03",
+      "unitIds": ["en.g07.plural_nouns", "en.v.one", "en.v.two", "en.v.three", "en.v.four", "en.v.five"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les nombres de 1 à 5 avec des noms : one, two, three, four, five",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "one dog", "right": "un chien"},
+        {"left": "two keys", "right": "deux clés"},
+        {"left": "three bags", "right": "trois sacs"},
+        {"left": "four children", "right": "quatre enfants"},
+        {"left": "five books", "right": "cinq livres"}
+      ],
+      "answer": "one dog = un chien ; two keys = deux clés ; three bags = trois sacs ; four children = quatre enfants ; five books = cinq livres",
+      "acceptedAnswers": [],
+      "explanation": "Avec one, le nom reste au singulier : one dog. À partir de two, le nom est au pluriel : two keys, four children (pluriel irrégulier).",
+      "tip": "One + singulier ; two et plus + pluriel.",
+      "extraExample": {"text": "one friend and two friends", "translation": "un ami et deux amis"}
+    },
+    {
+      "id": "en.l09.e04",
+      "unitIds": ["en.g06.possessive_adjectives", "en.v.son", "en.v.six"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le possessif qui convient.",
+      "prompt": "Anna has a son. ___ son is six. (Son fils a six ans.)",
+      "promptLanguage": "en",
+      "options": ["Her", "His", "Its"],
+      "answer": "Her",
+      "acceptedAnswers": ["Her"],
+      "hint": "Qui possède le fils ? Anna : une femme.",
+      "explanation": "Le possessif dépend de celui qui possède. Anna est une femme, donc her son. His serait pour un homme, its pour un animal ou une chose.",
+      "tip": "Possesseur féminin : her. Possesseur masculin : his.",
+      "extraExample": {"text": "Tom has a daughter. His daughter is seven.", "translation": "Tom a une fille. Sa fille a sept ans."},
+      "errorPatterns": [
+        {"equals": "his", "category": "grammar", "feedback": "His est pour un possesseur masculin. Anna est une femme : her son."},
+        {"equals": "its", "category": "grammar", "feedback": "Its est pour un animal ou une chose. Pour Anna, on dit her."}
+      ]
+    },
+    {
+      "id": "en.l09.e05",
+      "unitIds": ["en.g07.plural_nouns", "en.v.eight", "en.v.key", "en.g05.have_has"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "I have eight ___. (J'ai huit clés.)",
+      "promptLanguage": "en",
+      "options": ["keys", "key", "keies"],
+      "answer": "keys",
+      "acceptedAnswers": ["keys"],
+      "hint": "Il y a huit clés : le nom est au pluriel.",
+      "explanation": "Après eight, le nom est au pluriel : on ajoute -s à key, ce qui donne keys. Après une voyelle + y, le y ne change pas.",
+      "tip": "Key fait keys : on ajoute simplement -s.",
+      "extraExample": {"text": "We have eight books.", "translation": "Nous avons huit livres."},
+      "errorPatterns": [
+        {"equals": "key", "category": "grammar", "feedback": "Après eight, le nom est au pluriel : on ajoute -s, keys."},
+        {"equals": "keies", "category": "spelling", "feedback": "Key fait keys : après une voyelle + y, on ajoute seulement -s."}
+      ]
+    },
+    {
+      "id": "en.l09.e06",
+      "unitIds": ["en.g07.plural_nouns", "en.v.six", "en.v.people", "en.v.home"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former une phrase.",
+      "prompt": "Six personnes sont à la maison.",
+      "promptLanguage": "fr",
+      "tokens": ["home", "Six", "at", "are", "people"],
+      "answer": "Six people are at home",
+      "acceptedAnswers": ["Six people are at home"],
+      "hint": "Le nombre vient en premier, puis people, puis are.",
+      "explanation": "Six people : people est déjà un pluriel, donc pas de s, et le verbe est are. À la maison se dit at home.",
+      "tip": "Nombre + people + are : six people are.",
+      "extraExample": {"text": "Four people are at school.", "translation": "Quatre personnes sont à l'école."}
+    },
+    {
+      "id": "en.l09.e07",
+      "unitIds": ["en.g07.plural_nouns", "en.v.ten", "en.v.child", "en.v.school"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Dix enfants sont à l'école.",
+      "promptLanguage": "fr",
+      "answer": "Ten children are at school",
+      "acceptedAnswers": ["Ten children are at school", "Ten children are at the school", "Ten kids are at school", "Ten kids are at the school"],
+      "hint": "Le pluriel de child est irrégulier.",
+      "explanation": "Après ten, le nom est au pluriel. Child a un pluriel irrégulier : children. Le sujet est au pluriel : le verbe est are. À l'école se dit at school.",
+      "tip": "Child → children : jamais « childs ».",
+      "extraExample": {"text": "Nine children are at home.", "translation": "Neuf enfants sont à la maison."},
+      "errorPatterns": [
+        {"contains": "ten childs", "category": "spelling", "feedback": "Le pluriel de child est children, pas « childs »."},
+        {"contains": "ten childrens", "category": "spelling", "feedback": "Children est déjà un pluriel : pas de s à la fin."},
+        {"contains": "children is", "category": "conjugation", "feedback": "Children est un pluriel : le verbe est are, pas is."}
+      ]
+    },
+    {
+      "id": "en.l09.e08",
+      "unitIds": ["en.g06.possessive_adjectives", "en.g03.be_affirmative", "en.v.six", "en.v.nine", "en.v.daughter"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "Mon fils a six ans et ma fille a neuf ans.",
+      "promptLanguage": "fr",
+      "answer": "My son is six and my daughter is nine",
+      "acceptedAnswers": [
+        "My son is six and my daughter is nine",
+        "My son is six years old and my daughter is nine years old",
+        "My son is six years old and my daughter is nine",
+        "My son is six and my daughter is nine years old"
+      ],
+      "hint": "L'âge se dit avec le verbe être.",
+      "explanation": "Mon et ma se disent my. L'âge s'exprime avec le verbe être : my son is six, my daughter is nine. On n'utilise pas have pour l'âge.",
+      "tip": "Âge = be : my son is six. Jamais « has six ».",
+      "extraExample": {"text": "My friend is ten.", "translation": "Mon ami a dix ans."},
+      "errorPatterns": [
+        {"contains": "son has", "category": "verb_tense", "feedback": "Pour l'âge, l'anglais utilise le verbe être : my son is six."},
+        {"contains": "daughter has", "category": "verb_tense", "feedback": "Pour l'âge, l'anglais utilise le verbe être : my daughter is nine."},
+        {"contains": "the my", "category": "grammar", "feedback": "On n'utilise pas the avec un possessif : my son, my daughter."}
+      ]
+    },
+    {
+      "id": "en.l09.e09",
+      "unitIds": ["en.g07.plural_nouns", "en.v.seven", "en.v.bag"],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris l'expression en anglais.",
+      "prompt": "Comment dit-on « sept sacs » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "seven bags",
+      "acceptedAnswers": ["seven bags"],
+      "hint": "Sept se dit avec un v. N'oublie pas le pluriel.",
+      "explanation": "Sept se dit seven. Après le nombre, le nom est au pluriel : seven bags.",
+      "tip": "Seven (sept) s'écrit avec un v.",
+      "extraExample": {"text": "seven keys", "translation": "sept clés"},
+      "errorPatterns": [
+        {"equals": "seven bag", "category": "grammar", "feedback": "Après seven, le nom est au pluriel : seven bags."},
+        {"contains": "sept", "category": "vocabulary", "feedback": "En anglais, « sept » se dit seven."},
+        {"contains": "seven a", "category": "grammar", "feedback": "On n'utilise pas a devant un pluriel : seven bags."}
+      ]
+    },
+    {
+      "id": "en.l09.e10",
+      "unitIds": ["en.g07.plural_nouns", "en.g05.have_has", "en.v.two", "en.v.dog", "en.v.house"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Nous avons deux chiens et une maison » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "We have two dogs and a house",
+      "acceptedAnswers": ["We have two dogs and a house", "We have two dogs and a home"],
+      "hint": "Pour posséder, on utilise have. Deux chiens est au pluriel, une maison au singulier.",
+      "explanation": "Nous avons = we have. Deux chiens est au pluriel : two dogs. Une maison est au singulier : a house, avec a.",
+      "tip": "Plusieurs = nom + s ; un seul = a + nom.",
+      "extraExample": {"text": "They have three cars and a dog.", "translation": "Ils ont trois voitures et un chien."},
+      "errorPatterns": [
+        {"contains": "two dog and", "category": "grammar", "feedback": "Après two, le nom est au pluriel : two dogs."},
+        {"contains": "we has", "category": "conjugation", "feedback": "Has s'utilise seulement avec he, she et it. Avec we, on dit have."},
+        {"contains": "we are", "category": "verb_tense", "feedback": "Pour posséder, on utilise have et non être : we have two dogs."}
+      ]
+    }
+  ]
+}

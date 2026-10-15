@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l34",
+  "exercises": [
+    {
+      "id": "en.l34.e01",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.feel", "en.v.party"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme du verbe.",
+      "prompt": "Did you ___ tired after the party?",
+      "promptLanguage": "en",
+      "options": ["feel", "felt", "feeled"],
+      "answer": "feel",
+      "acceptedAnswers": ["feel"],
+      "hint": "Did porte déjà le passé.",
+      "explanation": "Après did, le verbe reste à la forme de base : feel, même s'il est irrégulier (felt). Le passé est déjà dans did.",
+      "tip": "Did + base, même pour un verbe irrégulier : Did you feel…? et non Did you felt…?",
+      "extraExample": {"text": "Did Tom feel cold at the beach?", "translation": "Est-ce que Tom a eu froid à la plage ?"},
+      "errorPatterns": [
+        {"equals": "felt", "category": "conjugation", "feedback": "Le passé est déjà porté par did : le verbe garde sa forme de base, feel."},
+        {"equals": "feeled", "category": "conjugation", "feedback": "Feel est irrégulier, et après did on utilise de toute façon la base : feel."}
+      ]
+    },
+    {
+      "id": "en.l34.e02",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.lose"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme du verbe.",
+      "prompt": "Tom ___ his bag at the gym yesterday.",
+      "promptLanguage": "en",
+      "options": ["lost", "losed", "lose"],
+      "answer": "lost",
+      "acceptedAnswers": ["lost"],
+      "hint": "Lose est un verbe irrégulier.",
+      "explanation": "Lose est irrégulier : son passé est lost (/lɒst/), sans -ed. Dans une phrase simple au passé, il n'y a pas de did : on met directement le verbe au passé.",
+      "tip": "Lose → lost : « perdre » au passé.",
+      "extraExample": {"text": "Sam lost his phone at the party.", "translation": "Sam a perdu son téléphone à la fête."},
+      "errorPatterns": [
+        {"equals": "losed", "category": "conjugation", "feedback": "Lose est irrégulier : on n'ajoute pas -ed. Son passé est lost."},
+        {"equals": "lose", "category": "verb_tense", "feedback": "Lose est le présent. Avec yesterday, on utilise le passé : lost."}
+      ]
+    },
+    {
+      "id": "en.l34.e03",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.story", "en.v.happen", "en.v.lose", "en.v.win", "en.v.feel"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "Raconter une histoire au passé",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "Did you win?", "right": "Tu as gagné ?"},
+        {"left": "I didn't lose it", "right": "Je ne l'ai pas perdu"},
+        {"left": "What happened?", "right": "Qu'est-ce qui s'est passé ?"},
+        {"left": "He felt happy", "right": "Il s'est senti heureux"},
+        {"left": "a story", "right": "une histoire"}
+      ],
+      "answer": "Did you win? = Tu as gagné ? ; I didn't lose it = Je ne l'ai pas perdu ; What happened? = Qu'est-ce qui s'est passé ? ; He felt happy = Il s'est senti heureux ; a story = une histoire",
+      "acceptedAnswers": [],
+      "explanation": "Après did ou didn't, le verbe reste à la base (win, lose). Sans did, on utilise le passé : felt est le passé irrégulier de feel, et happened est le passé régulier de happen. Attention : won se prononce /wʌn/, comme one.",
+      "tip": "Avec did / didn't : la base. Sans did : le verbe au passé.",
+      "extraExample": {"text": "Tom won a present.", "translation": "Tom a gagné un cadeau."}
+    },
+    {
+      "id": "en.l34.e04",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.win"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le verbe entre parenthèses, à la bonne forme.",
+      "prompt": "Anna didn't ___ a present at the party. (win)",
+      "promptLanguage": "en",
+      "options": ["win", "won", "winned"],
+      "answer": "win",
+      "acceptedAnswers": ["win"],
+      "hint": "Didn't porte déjà le passé.",
+      "explanation": "Après didn't, le verbe reste à la forme de base : win, et non won. Le passé est déjà dans didn't.",
+      "tip": "didn't + base : même pour un verbe irrégulier comme win.",
+      "extraExample": {"text": "Sam didn't win the cake.", "translation": "Sam n'a pas gagné le gâteau."},
+      "errorPatterns": [
+        {"equals": "won", "category": "conjugation", "feedback": "Le passé est déjà porté par didn't : le verbe garde sa forme de base, win."},
+        {"equals": "winned", "category": "conjugation", "feedback": "Win est irrégulier, et après didn't on utilise de toute façon la base : win."}
+      ]
+    },
+    {
+      "id": "en.l34.e05",
+      "unitIds": ["en.g20.was_were", "en.g23.past_simple_negative_questions"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Anna ___ at the party last night, but her brother wasn't.",
+      "promptLanguage": "en",
+      "options": ["was", "were", "did"],
+      "answer": "was",
+      "acceptedAnswers": ["was"],
+      "hint": "Anna = she. Il s'agit d'être quelque part.",
+      "explanation": "Anna correspond à she : avec she, le passé de to be est was. Le verbe to be n'utilise pas did : il fait seul was / were et wasn't / weren't.",
+      "tip": "Être → was / were (pas de did) ; les autres verbes → did.",
+      "extraExample": {"text": "We were at the beach, but Tom wasn't.", "translation": "Nous étions à la plage, mais Tom n'y était pas."},
+      "errorPatterns": [
+        {"equals": "were", "category": "conjugation", "feedback": "Were s'utilise avec you, we et they. Anna = she : on dit was."},
+        {"equals": "did", "category": "grammar", "feedback": "Did s'utilise avec un verbe d'action. Pour dire où quelqu'un était, on utilise was."}
+      ]
+    },
+    {
+      "id": "en.l34.e06",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.story", "en.v.tell"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour poser la question.",
+      "prompt": "Est-ce que Tom t'a raconté l'histoire ?",
+      "promptLanguage": "fr",
+      "tokens": ["story", "Did", "you", "the", "tell", "Tom"],
+      "answer": "Did Tom tell you the story",
+      "acceptedAnswers": ["Did Tom tell you the story"],
+      "hint": "Did + sujet + verbe de base, puis la personne, puis ce qu'on raconte.",
+      "explanation": "Question au passé : Did + sujet + verbe de base. Tell reste à la base (pas told), car did porte déjà le passé. Après tell, on met la personne (you), puis la chose racontée (the story).",
+      "tip": "Did + sujet + base : Did Tom tell…?",
+      "extraExample": {"text": "Did your mother tell you a story?", "translation": "Ta mère t'a-t-elle raconté une histoire ?"}
+    },
+    {
+      "id": "en.l34.e07",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.party", "en.v.birthday"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Hier soir, nous sommes allés à la fête d'anniversaire de Tom.",
+      "promptLanguage": "fr",
+      "answer": "Last night we went to Tom's birthday party",
+      "acceptedAnswers": ["Last night we went to Tom's birthday party", "We went to Tom's birthday party last night", "Yesterday evening we went to Tom's birthday party", "We went to Tom's birthday party yesterday evening"],
+      "hint": "Phrase simple au passé : pas de did. Quel est le passé de go ?",
+      "explanation": "« Sommes allés » se traduit par went, le passé irrégulier de go. Dans une phrase simple affirmative, on n'utilise pas did. Pour « la fête de Tom », on met le possesseur d'abord : Tom's birthday party.",
+      "tip": "Phrase simple au passé : le verbe au passé, sans did.",
+      "extraExample": {"text": "We went to Anna's party last week.", "translation": "Nous sommes allés à la fête d'Anna la semaine dernière."},
+      "errorPatterns": [
+        {"contains": "goed", "category": "conjugation", "feedback": "Go est irrégulier : son passé est went, sans -ed."},
+        {"contains": "we go to", "category": "verb_tense", "feedback": "Go est le présent. Hier soir, l'action est terminée : we went."},
+        {"contains": "we did go", "category": "grammar", "feedback": "Did n'est pas utilisé dans une phrase simple : dis directement we went."}
+      ]
+    },
+    {
+      "id": "en.l34.e08",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.find"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Tom n'a pas trouvé ses clés hier.",
+      "promptLanguage": "fr",
+      "answer": "Tom didn't find his keys yesterday",
+      "acceptedAnswers": ["Tom didn't find his keys yesterday", "Yesterday Tom didn't find his keys"],
+      "hint": "Didn't + verbe de base.",
+      "explanation": "La négation au passé se fait avec didn't + verbe de base : Tom didn't find. Le passé est déjà dans didn't, donc on n'écrit pas found.",
+      "tip": "didn't + base : find reste find.",
+      "extraExample": {"text": "Anna didn't forget the present.", "translation": "Anna n'a pas oublié le cadeau."},
+      "errorPatterns": [
+        {"contains": "didn't found", "category": "conjugation", "feedback": "Après didn't, le verbe reste à la forme de base : didn't find."},
+        {"contains": "didn't finded", "category": "conjugation", "feedback": "Après didn't, on n'ajoute pas -ed : didn't find."},
+        {"contains": "tom not found", "category": "grammar", "feedback": "En anglais, on ne met pas not directement après le sujet : on utilise didn't + verbe de base."}
+      ]
+    },
+    {
+      "id": "en.l34.e09",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.happen"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment dit-on « Qu'est-ce qui s'est passé hier ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "What happened yesterday",
+      "acceptedAnswers": ["What happened yesterday"],
+      "hint": "Happen est un verbe régulier. Ici, what est le sujet de la question.",
+      "explanation": "Happen est régulier : happened. Dans What happened ?, le mot what est lui-même le sujet (c'est ce qui se passe) : on n'utilise pas did. On utilise did quand le sujet vient après, comme dans What did you do ?",
+      "tip": "What happened ? : pas de did quand what est le sujet.",
+      "extraExample": {"text": "What happened at the party?", "translation": "Qu'est-ce qui s'est passé à la fête ?"},
+      "errorPatterns": [
+        {"contains": "what did happen", "category": "grammar", "feedback": "On dit simplement What happened ? : what est le sujet, donc pas de did."},
+        {"equals": "what happen yesterday", "category": "verb_tense", "feedback": "Happen est la forme de base. Hier, l'action est terminée : What happened ?"},
+        {"contains": "was happened", "category": "grammar", "feedback": "Pas de was devant happened : le verbe happened exprime déjà le passé."}
+      ]
+    },
+    {
+      "id": "en.l34.e10",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.lose"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment dit-on « Où as-tu perdu tes clés ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Where did you lose your keys",
+      "acceptedAnswers": ["Where did you lose your keys"],
+      "hint": "Where + did + sujet + verbe de base.",
+      "explanation": "Avec where, l'ordre est Where + did + sujet + verbe de base. Lose reste à la base (pas lost), car le passé est déjà porté par did.",
+      "tip": "Did porte le passé : lose reste lose.",
+      "extraExample": {"text": "Where did Tom find his bag?", "translation": "Où Tom a-t-il trouvé son sac ?"},
+      "errorPatterns": [
+        {"contains": "did you lost", "category": "conjugation", "feedback": "Après did, le verbe reste à la forme de base : Where did you lose…?"},
+        {"contains": "where you lost", "category": "word_order", "feedback": "Une question au passé a besoin de did avant le sujet : Where did you lose…?"},
+        {"contains": "loose", "category": "spelling", "feedback": "Loose veut dire « lâche ». « Perdre » s'écrit lose, avec un seul o."}
+      ]
+    }
+  ]
+}

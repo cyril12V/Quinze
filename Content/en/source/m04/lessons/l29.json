@@ -1,0 +1,201 @@
+{
+  "lessonId": "en.l29",
+  "exercises": [
+    {
+      "id": "en.l29.e01",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.arrive"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Anna ___ home late yesterday.",
+      "promptLanguage": "en",
+      "options": ["arrived", "arriveed", "arrive"],
+      "answer": "arrived",
+      "acceptedAnswers": ["arrived"],
+      "hint": "Arrive se termine déjà par la lettre e.",
+      "explanation": "Arrive se termine déjà par un e : on ajoute seulement -d, ce qui donne arrived (/əˈraɪvd/). Avec yesterday, l'action est terminée, donc on utilise le passé simple.",
+      "tip": "Verbe qui finit par -e : on ajoute seulement -d (love → loved).",
+      "extraExample": {"text": "Tom loved the music.", "translation": "Tom a adoré la musique."},
+      "errorPatterns": [
+        {"equals": "arriveed", "category": "spelling", "feedback": "Arrive finit déjà par un e : on ajoute seulement -d, pas -ed. On écrit arrived."},
+        {"equals": "arrive", "category": "verb_tense", "feedback": "Arrive est la forme de base. Yesterday parle d'une action finie : arrived."}
+      ]
+    },
+    {
+      "id": "en.l29.e02",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.decide"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne prononciation.",
+      "prompt": "Comment se prononce la fin de decided ?",
+      "promptLanguage": "fr",
+      "options": ["comme un t", "comme un d", "comme « id », avec une syllabe en plus"],
+      "answer": "comme « id », avec une syllabe en plus",
+      "acceptedAnswers": ["comme « id », avec une syllabe en plus"],
+      "hint": "Decide se termine déjà par le son d.",
+      "explanation": "Quand le verbe se termine par le son t ou d (decide, start, wait…), on ajoute une syllabe : -ed se dit /ɪd/. On entend decided /dɪˈsaɪdɪd/, car deux d de suite seraient impossibles à prononcer.",
+      "tip": "Verbe en t ou d : syllabe en plus, /ɪd/. Sinon, une seule syllabe : /t/ ou /d/.",
+      "extraExample": {"text": "We waited at the door.", "translation": "Nous avons attendu à la porte."},
+      "errorPatterns": [
+        {"equals": "comme un t", "category": "spelling", "feedback": "Le son /t/ s'entend après p, k, s, f, ch ou sh (asked, walked). Après un d, on ajoute la syllabe /ɪd/."},
+        {"equals": "comme un d", "category": "spelling", "feedback": "Le son /d/ s'entend après la plupart des autres sons (cleaned). Après un d ou un t, on ajoute la syllabe /ɪd/."}
+      ]
+    },
+    {
+      "id": "en.l29.e03",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.arrive", "en.v.decide", "en.v.ask", "en.v.answer", "en.v.clean"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque verbe au passé à sa traduction.",
+      "prompt": "Cinq verbes réguliers au passé et leur prononciation",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "arrived", "right": "est arrivé"},
+        {"left": "decided", "right": "a décidé"},
+        {"left": "asked", "right": "a demandé"},
+        {"left": "answered", "right": "a répondu"},
+        {"left": "cleaned", "right": "a nettoyé"}
+      ],
+      "answer": "arrived = est arrivé ; decided = a décidé ; asked = a demandé ; answered = a répondu ; cleaned = a nettoyé",
+      "acceptedAnswers": [],
+      "explanation": "Ces verbes sont réguliers, mais le -ed se prononce de trois façons : /t/ dans asked /ɑːskt/, /d/ dans arrived /əˈraɪvd/, cleaned /kliːnd/ et answered /ˈɑːnsəd/, et /ɪd/ dans decided /dɪˈsaɪdɪd/. Le w de answer ne se prononce pas.",
+      "tip": "-ed : /t/ après p, k, s, f, ch, sh ; /ɪd/ après t ou d ; /d/ dans les autres cas.",
+      "extraExample": {"text": "Sam asked me for a coffee.", "translation": "Sam m'a demandé un café."}
+    },
+    {
+      "id": "en.l29.e04",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.clean"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le passé du verbe entre parenthèses.",
+      "prompt": "Last weekend, Sam ___ the windows. (clean)",
+      "promptLanguage": "en",
+      "options": ["cleaned", "clean", "cleans"],
+      "answer": "cleaned",
+      "acceptedAnswers": ["cleaned"],
+      "hint": "Last weekend : l'action est terminée.",
+      "explanation": "Last weekend place l'action dans le passé : clean + -ed = cleaned, qui se prononce /kliːnd/ (le -ed sonne comme un d). On ne double pas le n, car clean contient deux voyelles (ea).",
+      "tip": "On double la consonne seulement dans un verbe court à une seule voyelle : stop → stopped.",
+      "extraExample": {"text": "Anna cleaned the house yesterday.", "translation": "Anna a nettoyé la maison hier."},
+      "errorPatterns": [
+        {"equals": "clean", "category": "verb_tense", "feedback": "Clean est la forme du présent. Avec last weekend, on ajoute -ed : cleaned."},
+        {"equals": "cleans", "category": "verb_tense", "feedback": "Le -s est réservé au présent. Au passé, tous les sujets prennent -ed : cleaned."},
+        {"equals": "cleanned", "category": "spelling", "feedback": "Clean a deux voyelles (ea) : on ne double pas le n. On écrit cleaned."}
+      ]
+    },
+    {
+      "id": "en.l29.e05",
+      "unitIds": ["en.g21.past_simple_regular"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le passé du verbe entre parenthèses.",
+      "prompt": "Anna ___ French last night. (study)",
+      "promptLanguage": "en",
+      "options": ["studied", "studyed", "studdied"],
+      "answer": "studied",
+      "acceptedAnswers": ["studied"],
+      "hint": "Study finit par une consonne + y.",
+      "explanation": "Quand un verbe se termine par une consonne + y, le y devient i avant -ed : study → studied. Avec une voyelle + y (stay), on garde le y : stayed.",
+      "tip": "Consonne + y → -ied : study → studied, carry → carried.",
+      "extraExample": {"text": "He carried the bag to the car.", "translation": "Il a porté le sac jusqu'à la voiture."},
+      "errorPatterns": [
+        {"equals": "studyed", "category": "spelling", "feedback": "Après une consonne (d), le y se change en i : study → studied."},
+        {"equals": "studdied", "category": "spelling", "feedback": "On ne double pas le d ici : le y devient simplement i. On écrit studied."}
+      ]
+    },
+    {
+      "id": "en.l29.e06",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.ask"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Il a demandé de l'aide à son professeur hier.",
+      "promptLanguage": "fr",
+      "tokens": ["his", "help", "He", "teacher", "yesterday", "for", "asked"],
+      "answer": "He asked his teacher for help yesterday",
+      "acceptedAnswers": ["He asked his teacher for help yesterday", "Yesterday he asked his teacher for help"],
+      "hint": "Ask quelqu'un for + ce qu'on demande.",
+      "explanation": "Asked est le passé régulier de ask : on l'entend /ɑːskt/ (le -ed sonne comme un t). L'ordre est sujet + verbe + personne + for + chose demandée : asked his teacher for help.",
+      "tip": "Demander de l'aide à quelqu'un = ask someone for help.",
+      "extraExample": {"text": "She asked her mother for the key.", "translation": "Elle a demandé la clé à sa mère."}
+    },
+    {
+      "id": "en.l29.e07",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.decide", "en.v.stay"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous avons décidé de rester à la maison.",
+      "promptLanguage": "fr",
+      "answer": "We decided to stay at home",
+      "acceptedAnswers": ["We decided to stay at home", "We decided to stay home"],
+      "hint": "Decide finit déjà par un e. Après decided, on met to + verbe.",
+      "explanation": "« Avons décidé » se dit decided : decide finit par un e, on ajoute seulement -d. Après decided, le verbe suivant est précédé de to : decided to stay, comme want to ou need to.",
+      "tip": "decide + to + verbe : on garde toujours to.",
+      "extraExample": {"text": "Anna decided to call her mother.", "translation": "Anna a décidé d'appeler sa mère."},
+      "errorPatterns": [
+        {"contains": "we decide to", "category": "verb_tense", "feedback": "Decide est le présent. L'action est faite : on écrit decided."},
+        {"contains": "decided stay", "category": "grammar", "feedback": "Après decided, il faut to devant le verbe : decided to stay."},
+        {"contains": "we have decided", "category": "verb_tense", "feedback": "L'anglais n'utilise pas have ici. Pour « nous avons décidé », on dit simplement we decided."}
+      ]
+    },
+    {
+      "id": "en.l29.e08",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.arrive"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mon frère est arrivé au bureau à huit heures.",
+      "promptLanguage": "fr",
+      "answer": "My brother arrived at the office at eight",
+      "acceptedAnswers": ["My brother arrived at the office at eight", "My brother arrived at the office at eight o'clock", "My brother arrived at work at eight", "My brother arrived at work at eight o'clock"],
+      "hint": "« Est arrivé » se dit arrived. Quelle préposition après arrive pour un lieu précis ?",
+      "explanation": "« Est arrivé » se traduit par arrived : arrive + -d. Après arrive, on dit at pour un lieu précis (at the office) et in pour une ville ou un pays (in London).",
+      "tip": "Arrive at + lieu précis ; arrive in + ville ou pays. Jamais arrive to.",
+      "extraExample": {"text": "We arrived in Paris at night.", "translation": "Nous sommes arrivés à Paris la nuit."},
+      "errorPatterns": [
+        {"contains": "arrived to", "category": "preposition", "feedback": "Après arrive, on n'utilise pas to : on dit arrived at the office."},
+        {"contains": "brother arrive at", "category": "verb_tense", "feedback": "Arrive est le présent. Pour « est arrivé », on ajoute -d : arrived."},
+        {"contains": "arrived in the office", "category": "preposition", "feedback": "Pour un lieu précis comme un bureau, on dit at : arrived at the office."}
+      ]
+    },
+    {
+      "id": "en.l29.e09",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.answer"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Elle a répondu au téléphone » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "She answered the phone",
+      "acceptedAnswers": ["She answered the phone", "She answered her phone", "She answered the call"],
+      "hint": "Answer est un verbe régulier. Après answer, pas de préposition.",
+      "explanation": "Answer est régulier : answered se prononce /ˈɑːnsəd/ (le w ne s'entend pas). On dit answer the phone, sans to : le verbe est directement suivi de ce à quoi on répond.",
+      "tip": "Answer the phone : pas de to entre les deux.",
+      "extraExample": {"text": "I answered the phone in the car.", "translation": "J'ai répondu au téléphone dans la voiture."},
+      "errorPatterns": [
+        {"contains": "answer the phone", "category": "verb_tense", "feedback": "Answer est la forme du présent. L'action est terminée : answered."},
+        {"contains": "answered to", "category": "preposition", "feedback": "Ici, answer se construit sans to : answered the phone."}
+      ]
+    },
+    {
+      "id": "en.l29.e10",
+      "unitIds": ["en.g21.past_simple_regular", "en.v.stop"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais avec le verbe stop.",
+      "prompt": "Comment dit-on « Tom a arrêté la musique » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Tom stopped the music",
+      "acceptedAnswers": ["Tom stopped the music"],
+      "hint": "Stop est un verbe court : pense à doubler la dernière lettre.",
+      "explanation": "Stop est un verbe court qui finit par consonne-voyelle-consonne (s-t-o-p) : on double la dernière lettre avant -ed. Cela donne stopped, qui se prononce /stɒpt/ (le -ed sonne comme un t).",
+      "tip": "Verbe court en consonne-voyelle-consonne : on double la consonne (stop → stopped).",
+      "extraExample": {"text": "The rain stopped at night.", "translation": "La pluie s'est arrêtée dans la nuit."},
+      "errorPatterns": [
+        {"contains": "stoped", "category": "spelling", "feedback": "Stop est un verbe court : on double le p. On écrit stopped, avec deux p."},
+        {"contains": "tom stop the", "category": "verb_tense", "feedback": "Stop est la forme du présent. L'action est terminée : stopped."}
+      ]
+    }
+  ]
+}

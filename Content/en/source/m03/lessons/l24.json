@@ -1,0 +1,236 @@
+{
+  "lessonId": "en.l24",
+  "exercises": [
+    {
+      "id": "en.l24.e01",
+      "unitIds": ["en.g18.present_continuous", "en.v.rain", "en.v.now"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "It ___ in London now.",
+      "promptLanguage": "en",
+      "options": ["is raining", "rains", "raining"],
+      "answer": "is raining",
+      "acceptedAnswers": ["is raining"],
+      "hint": "Now veut dire « maintenant ».",
+      "explanation": "Now indique que l'action se passe en ce moment. On utilise le présent continu : am / is / are + verbe en -ing. It is raining veut dire « il pleut (en ce moment) ».",
+      "tip": "En ce moment : be + verbe en -ing.",
+      "extraExample": {"text": "My brother is sleeping now.", "translation": "Mon frère dort en ce moment."},
+      "errorPatterns": [
+        {"equals": "rains", "category": "verb_tense", "feedback": "Rains parle d'un fait général ou d'une habitude. Avec now, on veut dire « en ce moment » : it is raining."},
+        {"equals": "raining", "category": "grammar", "feedback": "Le verbe en -ing ne s'utilise jamais seul : il faut is devant. On dit it is raining."}
+      ]
+    },
+    {
+      "id": "en.l24.e02",
+      "unitIds": ["en.g18.present_continuous"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne orthographe.",
+      "prompt": "Lucy and Ben are ___ now.",
+      "promptLanguage": "en",
+      "options": ["swimming", "swiming", "swimeing"],
+      "answer": "swimming",
+      "acceptedAnswers": ["swimming"],
+      "hint": "Swim est un verbe court : une voyelle suivie d'une seule consonne.",
+      "explanation": "Après are, le verbe prend -ing. Swim est un verbe court qui se termine par une voyelle + une consonne : on double la consonne finale avant -ing. On écrit swimming.",
+      "tip": "Verbe court (voyelle + consonne) : on double la consonne (swim → swimming, sit → sitting).",
+      "extraExample": {"text": "The man is sitting in the car.", "translation": "L'homme est assis dans la voiture."},
+      "errorPatterns": [
+        {"equals": "swiming", "category": "spelling", "feedback": "Swim est un verbe court : on double le m avant -ing. On écrit swimming."},
+        {"equals": "swimeing", "category": "spelling", "feedback": "Swim ne se termine pas par un -e. On double la consonne m : swimming."}
+      ]
+    },
+    {
+      "id": "en.l24.e03",
+      "unitIds": ["en.g18.present_continuous", "en.v.now", "en.v.rain", "en.v.wear", "en.v.talk", "en.v.laugh"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "Ce qui se passe maintenant",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "now", "right": "maintenant"},
+        {"left": "it is raining", "right": "il pleut"},
+        {"left": "she is wearing", "right": "elle porte"},
+        {"left": "they are talking", "right": "ils parlent"},
+        {"left": "he is laughing", "right": "il rit"}
+      ],
+      "answer": "now = maintenant ; it is raining = il pleut ; she is wearing = elle porte ; they are talking = ils parlent ; he is laughing = il rit",
+      "acceptedAnswers": [],
+      "explanation": "Le présent continu se forme avec am / is / are + le verbe en -ing. Il décrit ce qui se passe maintenant. Wear s'utilise pour les vêtements.",
+      "tip": "Maintenant = be + -ing : is raining, are talking.",
+      "extraExample": {"text": "I am wearing a hat now.", "translation": "Je porte un chapeau maintenant."}
+    },
+    {
+      "id": "en.l24.e04",
+      "unitIds": ["en.g18.present_continuous", "en.v.talk"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme du verbe.",
+      "prompt": "My friends are ___ on the phone.",
+      "promptLanguage": "en",
+      "options": ["talking", "talk", "talks"],
+      "answer": "talking",
+      "acceptedAnswers": ["talking", "speaking"],
+      "hint": "Après are, le verbe prend -ing.",
+      "explanation": "Le présent continu se forme avec be + verbe en -ing. Ici, are est déjà là : le verbe talk prend -ing et devient talking.",
+      "tip": "Are / is / am + verbe-ing.",
+      "extraExample": {"text": "Anna is talking to her mother.", "translation": "Anna parle à sa mère."},
+      "errorPatterns": [
+        {"equals": "talk", "category": "grammar", "feedback": "Après are, le verbe prend -ing : are talking."},
+        {"equals": "talks", "category": "grammar", "feedback": "Après are, on n'ajoute pas -s mais -ing : are talking."}
+      ]
+    },
+    {
+      "id": "en.l24.e05",
+      "unitIds": ["en.g18.present_continuous", "en.v.laugh"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec am, is ou are.",
+      "prompt": "Look! The children ___ laughing.",
+      "promptLanguage": "en",
+      "options": ["are", "is", "am"],
+      "answer": "are",
+      "acceptedAnswers": ["are"],
+      "hint": "The children = they.",
+      "explanation": "The children est un sujet pluriel (they), donc on utilise are : the children are laughing. Le choix de am / is / are dépend du sujet.",
+      "tip": "I am, he / she / it is, we / you / they are.",
+      "extraExample": {"text": "My parents are laughing.", "translation": "Mes parents rient."},
+      "errorPatterns": [
+        {"equals": "is", "category": "grammar", "feedback": "The children est pluriel (= they) : on utilise are, pas is."},
+        {"equals": "am", "category": "grammar", "feedback": "Am s'utilise seulement avec I. Avec the children, on dit are."}
+      ]
+    },
+    {
+      "id": "en.l24.e06",
+      "unitIds": ["en.g18.present_continuous", "en.v.wear", "en.v.now"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Ma sœur porte un manteau maintenant.",
+      "promptLanguage": "fr",
+      "tokens": ["wearing", "coat", "My", "now", "a", "is", "sister"],
+      "answer": "My sister is wearing a coat now",
+      "acceptedAnswers": ["My sister is wearing a coat now", "Now my sister is wearing a coat"],
+      "hint": "Sujet + is + verbe en -ing.",
+      "explanation": "Le présent continu se construit avec sujet + is + verbe en -ing. Now se place souvent à la fin de la phrase (ou au début).",
+      "tip": "Sujet, be, verbe-ing, puis le reste.",
+      "extraExample": {"text": "Tom is wearing a hat now.", "translation": "Tom porte un chapeau maintenant."}
+    },
+    {
+      "id": "en.l24.e07",
+      "unitIds": ["en.g18.present_continuous", "en.v.talk", "en.v.now"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Ma sœur parle au téléphone maintenant.",
+      "promptLanguage": "fr",
+      "answer": "My sister is talking on the phone now.",
+      "acceptedAnswers": [
+        "My sister is talking on the phone now.",
+        "My sister is talking on the phone right now.",
+        "My sister is talking on the phone at the moment.",
+        "Now my sister is talking on the phone.",
+        "Right now my sister is talking on the phone.",
+        "At the moment my sister is talking on the phone.",
+        "My sister is speaking on the phone now.",
+        "My sister is speaking on the phone right now.",
+        "My sister is speaking on the phone at the moment.",
+        "Now my sister is speaking on the phone.",
+        "Right now my sister is speaking on the phone.",
+        "At the moment my sister is speaking on the phone.",
+        "My sister is on the phone now.",
+        "My sister is on the phone right now.",
+        "My sister is on the phone at the moment."
+      ],
+      "hint": "Maintenant → be + verbe en -ing.",
+      "explanation": "Maintenant indique une action en cours : on utilise le présent continu, is talking. On dit talk on the phone (et non in the phone).",
+      "tip": "Au téléphone = on the phone.",
+      "extraExample": {"text": "My father is talking to his friend.", "translation": "Mon père parle à son ami."},
+      "errorPatterns": [
+        {"contains": "sister talks", "category": "verb_tense", "feedback": "Avec maintenant, on utilise le présent continu : my sister is talking."},
+        {"contains": "sister talking", "category": "grammar", "feedback": "Il manque is : le verbe en -ing a besoin de be. My sister is talking."},
+        {"contains": "in the phone", "category": "preposition", "feedback": "Au téléphone se dit on the phone."}
+      ]
+    },
+    {
+      "id": "en.l24.e08",
+      "unitIds": ["en.g18.present_continuous", "en.v.rain", "en.v.laugh"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Il pleut et les enfants rient maintenant.",
+      "promptLanguage": "fr",
+      "answer": "It is raining and the children are laughing now.",
+      "acceptedAnswers": [
+        "It is raining and the children are laughing now.",
+        "It is raining and the children are laughing.",
+        "It is raining and the kids are laughing now.",
+        "It is raining and the kids are laughing.",
+        "Now it is raining and the children are laughing.",
+        "Now it is raining and the kids are laughing.",
+        "It is raining now and the children are laughing.",
+        "It is raining now and the kids are laughing."
+      ],
+      "hint": "Deux sujets, deux fois be : it is… the children are…",
+      "explanation": "Les deux actions se passent maintenant : présent continu. Chaque sujet a son be : it is raining, the children are laughing.",
+      "tip": "Un sujet, un be : it is, the children are.",
+      "extraExample": {"text": "My brother is sleeping and my sister is cooking.", "translation": "Mon frère dort et ma sœur cuisine."},
+      "errorPatterns": [
+        {"contains": "children laughing", "category": "grammar", "feedback": "Il manque are : the children are laughing."},
+        {"contains": "it rains", "category": "verb_tense", "feedback": "Pour dire « il pleut maintenant », on utilise le présent continu : it is raining."},
+        {"contains": "children laugh", "category": "verb_tense", "feedback": "Avec maintenant, on utilise be + -ing : the children are laughing."}
+      ]
+    },
+    {
+      "id": "en.l24.e09",
+      "unitIds": ["en.g18.present_continuous", "en.v.now"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Je fais du café maintenant » ?",
+      "promptLanguage": "fr",
+      "answer": "I am making coffee now.",
+      "acceptedAnswers": [
+        "I am making coffee now.",
+        "I am making some coffee now.",
+        "I am making coffee right now.",
+        "I am making some coffee right now.",
+        "I am making a coffee now.",
+        "I am making a coffee right now.",
+        "Now I am making coffee.",
+        "Right now I am making coffee."
+      ],
+      "hint": "Du café, on le « fait » avec make. Make perd son e devant -ing.",
+      "explanation": "Maintenant → présent continu : I am making coffee. Pour le café, on utilise make (pas do). Make perd son -e avant -ing : making.",
+      "tip": "Verbe en -e : on enlève le e avant -ing (make → making).",
+      "extraExample": {"text": "She is taking a shower now.", "translation": "Elle prend une douche maintenant."},
+      "errorPatterns": [
+        {"contains": "makeing", "category": "spelling", "feedback": "Make se termine par -e : on l'enlève avant -ing. On écrit making."},
+        {"contains": "doing coffee", "category": "word_confusion", "feedback": "On ne « fait » pas du café avec do : on dit make coffee."},
+        {"equals": "i make coffee now", "category": "verb_tense", "feedback": "Avec now, on utilise le présent continu : I am making coffee now."}
+      ]
+    },
+    {
+      "id": "en.l24.e10",
+      "unitIds": ["en.g18.present_continuous", "en.v.rain", "en.v.wear", "en.v.talk", "en.v.laugh", "en.v.now"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris une phrase au présent continu avec un de ces verbes : rain, wear, talk ou laugh.",
+      "prompt": "Que se passe-t-il autour de toi en ce moment ?",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["raining", "wearing", "talking", "laughing"]], "minWords": 3},
+      "answer": "It is raining now.",
+      "acceptedAnswers": ["It is raining now.", "My brother is talking on the phone.", "I am wearing a coat.", "The children are laughing."],
+      "hint": "Sujet + am / is / are + verbe en -ing.",
+      "explanation": "Pour dire ce qui se passe maintenant, on utilise le présent continu : am / is / are + verbe en -ing (is raining, are talking, am wearing, is laughing).",
+      "tip": "N'oublie jamais be avant le verbe en -ing.",
+      "extraExample": {"text": "Anna is laughing and Tom is talking.", "translation": "Anna rit et Tom parle."},
+      "errorPatterns": [
+        {"contains": "it raining", "category": "grammar", "feedback": "Il manque is : it is raining."},
+        {"contains": "they talking", "category": "grammar", "feedback": "Il manque are : they are talking."}
+      ]
+    }
+  ]
+}

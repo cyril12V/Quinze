@@ -1,0 +1,206 @@
+{
+  "lessonId": "en.l17",
+  "exercises": [
+    {
+      "id": "en.l17.e01",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.live"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "We ___ in Paris.",
+      "promptLanguage": "en",
+      "options": ["live", "lives", "are live", "living"],
+      "answer": "live",
+      "acceptedAnswers": ["live"],
+      "hint": "Avec we, le verbe garde sa forme de base.",
+      "explanation": "Avec we, on utilise le verbe à sa forme de base : we live. On n'ajoute ni -s, ni are, ni -ing.",
+      "tip": "I, you, we, they + verbe tel quel : we live, they live.",
+      "extraExample": {"text": "They live in London.", "translation": "Ils habitent à Londres."},
+      "errorPatterns": [
+        {"equals": "lives", "category": "conjugation", "feedback": "Avec we, le verbe ne prend pas de -s : we live."},
+        {"equals": "are live", "category": "grammar", "feedback": "Are est le verbe être : on ne le met pas devant un autre verbe. On dit we live."},
+        {"equals": "living", "category": "grammar", "feedback": "Pour dire où on habite en général, on utilise la forme de base : we live."}
+      ]
+    },
+    {
+      "id": "en.l17.e02",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.like", "en.v.coffee"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « J'aime le café » (le café en général) en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I like coffee.", "I like the coffee.", "I like to coffee.", "I am like coffee."],
+      "answer": "I like coffee.",
+      "acceptedAnswers": ["I like coffee."],
+      "hint": "Pour parler d'une chose en général, on n'ajoute pas the.",
+      "explanation": "Pour parler du café en général, on n'utilise pas d'article : I like coffee. I like the coffee parlerait d'un café précis.",
+      "tip": "En général, pas d'article en anglais : I like coffee, I like dogs.",
+      "extraExample": {"text": "We like dogs.", "translation": "Nous aimons les chiens."},
+      "errorPatterns": [
+        {"equals": "i like the coffee.", "category": "grammar", "feedback": "The désigne un café précis. Pour parler du café en général, on dit I like coffee, sans article."},
+        {"equals": "i like to coffee.", "category": "grammar", "feedback": "To s'utilise devant un verbe, pas devant un nom : I like coffee."},
+        {"equals": "i am like coffee.", "category": "grammar", "feedback": "Am est le verbe être : on ne le met pas devant like. On dit I like coffee."}
+      ]
+    },
+    {
+      "id": "en.l17.e03",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.work", "en.v.live", "en.v.like", "en.v.love", "en.v.eat"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "Les verbes de tous les jours : work, live, like, love, eat",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "I work in London.", "right": "Je travaille à Londres."},
+        {"left": "We live in Paris.", "right": "Nous habitons à Paris."},
+        {"left": "I like coffee.", "right": "J'aime bien le café."},
+        {"left": "I love my family.", "right": "J'adore ma famille."},
+        {"left": "They eat at home.", "right": "Ils mangent à la maison."}
+      ],
+      "answer": "I work in London. = Je travaille à Londres. ; We live in Paris. = Nous habitons à Paris. ; I like coffee. = J'aime bien le café. ; I love my family. = J'adore ma famille. ; They eat at home. = Ils mangent à la maison.",
+      "acceptedAnswers": [],
+      "explanation": "Avec I, we et they, le verbe reste à sa forme de base. Like veut dire « aimer bien » et love « aimer beaucoup, adorer » : love est plus fort que like.",
+      "tip": "Like = aimer bien. Love = adorer. Love est plus fort.",
+      "extraExample": {"text": "You like London and you love Paris.", "translation": "Tu aimes bien Londres et tu adores Paris."}
+    },
+    {
+      "id": "en.l17.e04",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.work", "en.v.school"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "I ___ in a school. (travailler)",
+      "promptLanguage": "en",
+      "options": ["work", "works", "live", "eat"],
+      "answer": "work",
+      "acceptedAnswers": ["work"],
+      "hint": "Le verbe qui veut dire « travailler ».",
+      "explanation": "« Travailler » se dit work. Avec I, le verbe reste à sa forme de base : I work.",
+      "tip": "Work = travailler. Avec I : work, sans -s.",
+      "extraExample": {"text": "They work with children.", "translation": "Ils travaillent avec des enfants."},
+      "errorPatterns": [
+        {"equals": "works", "category": "conjugation", "feedback": "Avec I, le verbe ne prend pas de -s : I work."},
+        {"equals": "live", "category": "vocabulary", "feedback": "Live veut dire « habiter ». Pour « travailler », on dit work."},
+        {"equals": "eat", "category": "vocabulary", "feedback": "Eat veut dire « manger ». Pour « travailler », on dit work."}
+      ]
+    },
+    {
+      "id": "en.l17.e05",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.eat", "en.v.dinner"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "We ___ dinner with our friends. (manger)",
+      "promptLanguage": "en",
+      "options": ["eat", "eats", "make", "like"],
+      "answer": "eat",
+      "acceptedAnswers": ["eat"],
+      "hint": "Le verbe qui veut dire « manger ».",
+      "explanation": "« Manger » se dit eat. Avec we, le verbe reste à sa forme de base : we eat. Eat dinner veut dire « dîner, manger le dîner ».",
+      "tip": "Eat = manger. Avec we : eat, sans -s.",
+      "extraExample": {"text": "I eat at home.", "translation": "Je mange à la maison."},
+      "errorPatterns": [
+        {"equals": "eats", "category": "conjugation", "feedback": "Avec we, le verbe ne prend pas de -s : we eat."},
+        {"equals": "make", "category": "vocabulary", "feedback": "Make veut dire « préparer, fabriquer ». Pour « manger », on dit eat."},
+        {"equals": "like", "category": "vocabulary", "feedback": "Like veut dire « aimer bien ». Pour « manger », on dit eat."}
+      ]
+    },
+    {
+      "id": "en.l17.e06",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.like", "en.v.love"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "J'aime bien Londres et j'adore Paris.",
+      "promptLanguage": "fr",
+      "tokens": ["London", "I", "like", "and", "love", "I", "Paris"],
+      "answer": "I like London and I love Paris",
+      "acceptedAnswers": ["I like London and I love Paris"],
+      "hint": "Like pour « aimer bien », love pour « adorer ».",
+      "explanation": "On répète le sujet I devant chaque verbe : I like London and I love Paris. Like exprime « aimer bien » et love « adorer ».",
+      "tip": "Like = aimer bien, love = adorer (plus fort).",
+      "extraExample": {"text": "We like coffee and we love dinner with friends.", "translation": "Nous aimons bien le café et nous adorons dîner avec des amis."}
+    },
+    {
+      "id": "en.l17.e07",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.work", "en.v.live"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je travaille à Londres.",
+      "promptLanguage": "fr",
+      "answer": "I work in London.",
+      "acceptedAnswers": ["I work in London.", "I am working in London."],
+      "hint": "Travailler = work. « À » devant une ville se dit in.",
+      "explanation": "« Travailler » se dit work. Avec I, le verbe reste à sa forme de base. Devant le nom d'une ville, « à » se dit in : in London.",
+      "tip": "Devant une ville : in London, in Paris.",
+      "extraExample": {"text": "You work in Paris.", "translation": "Tu travailles à Paris."},
+      "errorPatterns": [
+        {"contains": "i works", "category": "conjugation", "feedback": "Avec I, le verbe ne prend pas de -s : I work."},
+        {"contains": "i am work", "category": "grammar", "feedback": "Am est le verbe être : on ne le met pas devant un autre verbe. On dit I work."},
+        {"contains": "work to london", "category": "preposition", "feedback": "Pour dire où on travaille, on utilise in : I work in London."}
+      ]
+    },
+    {
+      "id": "en.l17.e08",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.eat", "en.v.hungry", "en.g10.want_need_to"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "J'ai faim et je veux manger.",
+      "promptLanguage": "fr",
+      "answer": "I am hungry and I want to eat.",
+      "acceptedAnswers": ["I am hungry and I want to eat.", "I am hungry and want to eat."],
+      "hint": "En anglais, on ne dit pas « avoir faim » avec have.",
+      "explanation": "« Avoir faim » se dit be hungry : I am hungry. Ensuite, want est suivi de to + verbe de base : I want to eat.",
+      "tip": "Avoir faim = be hungry. Jamais « have hungry ».",
+      "extraExample": {"text": "We are tired and we want to go home.", "translation": "Nous sommes fatigués et nous voulons rentrer à la maison."},
+      "errorPatterns": [
+        {"contains": "have hungry", "category": "grammar", "feedback": "En anglais, on utilise être, pas avoir : I am hungry."},
+        {"contains": "want eat", "category": "grammar", "feedback": "Il manque to entre want et eat : I want to eat."},
+        {"contains": "have hunger", "category": "grammar", "feedback": "Pour « avoir faim », on dit be hungry : I am hungry."}
+      ]
+    },
+    {
+      "id": "en.l17.e09",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.live", "en.v.parents"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Ils habitent avec leurs parents » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "They live with their parents.",
+      "acceptedAnswers": ["They live with their parents.", "They are living with their parents."],
+      "hint": "Habiter = live. Avec = with. Leurs = their.",
+      "explanation": "« Habiter » se dit live. Avec they, le verbe reste à sa forme de base : they live. Leurs parents se dit their parents.",
+      "tip": "Avec they : live, sans -s. Et leurs = their.",
+      "extraExample": {"text": "I live with my sister.", "translation": "J'habite avec ma sœur."},
+      "errorPatterns": [
+        {"contains": "they lives", "category": "conjugation", "feedback": "Avec they, le verbe ne prend pas de -s : they live."},
+        {"contains": "they are live", "category": "grammar", "feedback": "Are est le verbe être : on ne le met pas devant un autre verbe. On dit they live."},
+        {"contains": "with they", "category": "grammar", "feedback": "« Leurs parents » se dit their parents (adjectif possessif), pas they."}
+      ]
+    },
+    {
+      "id": "en.l17.e10",
+      "unitIds": ["en.g08.verbs_base_form", "en.v.love", "en.v.family"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « J'adore ma famille » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I love my family.",
+      "acceptedAnswers": ["I love my family.", "I adore my family."],
+      "hint": "Adorer = love, plus fort que like.",
+      "explanation": "« Adorer » se dit love. Avec I, le verbe reste à sa forme de base : I love. Ma famille se dit my family.",
+      "tip": "Love = adorer, aimer beaucoup. Avec I : love, sans -s.",
+      "extraExample": {"text": "We love our dog.", "translation": "Nous adorons notre chien."},
+      "errorPatterns": [
+        {"contains": "i loves", "category": "conjugation", "feedback": "Avec I, le verbe ne prend pas de -s : I love."},
+        {"contains": "i like my", "category": "vocabulary", "feedback": "Like veut dire « aimer bien ». Pour « adorer », on dit love."},
+        {"contains": "the family", "category": "grammar", "feedback": "« Ma famille » se dit my family : on utilise l'adjectif possessif my, pas the."}
+      ]
+    }
+  ]
+}

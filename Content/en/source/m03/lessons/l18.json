@@ -1,0 +1,213 @@
+{
+  "lessonId": "en.l18",
+  "exercises": [
+    {
+      "id": "en.l18.e01",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.sleep"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme du verbe.",
+      "prompt": "My dog ___ in the house.",
+      "promptLanguage": "en",
+      "options": ["sleeps", "sleep", "sleepes"],
+      "answer": "sleeps",
+      "acceptedAnswers": ["sleeps"],
+      "hint": "My dog = it : un seul animal.",
+      "explanation": "My dog est un sujet au singulier : on peut le remplacer par it. Avec he, she, it (ou un nom singulier), le verbe prend -s : the dog sleeps.",
+      "tip": "He, she, it, my dog : le verbe prend -s.",
+      "extraExample": {"text": "My brother sleeps in the car.", "translation": "Mon frère dort dans la voiture."},
+      "errorPatterns": [
+        {"equals": "sleep", "category": "conjugation", "feedback": "My dog est un sujet singulier (= it) : le verbe doit prendre -s. On dit my dog sleeps."},
+        {"equals": "sleepes", "category": "spelling", "feedback": "Sleep se termine par -p : on ajoute simplement -s. Le -es est réservé à d'autres verbes (watch, fix…)."}
+      ]
+    },
+    {
+      "id": "en.l18.e02",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.watch"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme du verbe.",
+      "prompt": "My parents ___ TV after dinner.",
+      "promptLanguage": "en",
+      "options": ["watch", "watches", "watchs"],
+      "answer": "watch",
+      "acceptedAnswers": ["watch"],
+      "hint": "My parents = they : plusieurs personnes.",
+      "explanation": "My parents veut dire « ils » (they) : plusieurs personnes. Avec they, le verbe garde sa forme de base, sans -s : they watch. Le -s de parents est le -s du pluriel du nom, pas celui du verbe.",
+      "tip": "Le -s du verbe, c'est pour un seul sujet (he, she, it). Pour plusieurs personnes : pas de -s.",
+      "extraExample": {"text": "My friends drink coffee.", "translation": "Mes amis boivent du café."},
+      "errorPatterns": [
+        {"equals": "watches", "category": "conjugation", "feedback": "My parents = they : le sujet est pluriel, donc le verbe n'a pas de -s. Le -s du verbe, c'est seulement avec he, she, it."},
+        {"equals": "watchs", "category": "spelling", "feedback": "Ici le sujet est pluriel (they) : pas de -s, on écrit watch. (Avec he ou she, ce serait watches, pas watchs.)"}
+      ]
+    },
+    {
+      "id": "en.l18.e03",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.drink", "en.v.play", "en.v.sleep", "en.v.cook", "en.v.watch"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "Les nouveaux verbes avec leur sujet",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "he drinks", "right": "il boit"},
+        {"left": "she plays", "right": "elle joue"},
+        {"left": "my dog sleeps", "right": "mon chien dort"},
+        {"left": "my mother cooks", "right": "ma mère cuisine"},
+        {"left": "they watch", "right": "ils regardent"}
+      ],
+      "answer": "he drinks = il boit ; she plays = elle joue ; my dog sleeps = mon chien dort ; my mother cooks = ma mère cuisine ; they watch = ils regardent",
+      "acceptedAnswers": [],
+      "explanation": "Avec un sujet singulier (he, she, my dog, my mother), le verbe prend -s. Avec they, il reste à sa forme de base : they watch.",
+      "tip": "Un seul sujet : -s. Plusieurs sujets (they) : pas de -s.",
+      "extraExample": {"text": "He plays and she cooks.", "translation": "Il joue et elle cuisine."}
+    },
+    {
+      "id": "en.l18.e04",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.play"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme du verbe play.",
+      "prompt": "My son ___ with his friends after school.",
+      "promptLanguage": "en",
+      "options": ["play", "plays", "playes"],
+      "answer": "plays",
+      "acceptedAnswers": ["plays"],
+      "hint": "My son = he.",
+      "explanation": "My son se remplace par he : un seul garçon. Au présent simple, le verbe prend -s avec he, she, it : plays. Après une voyelle + y, on ajoute simplement -s.",
+      "tip": "He, she, it + verbe + s : he plays, she plays, it plays.",
+      "extraExample": {"text": "She plays with her dog.", "translation": "Elle joue avec son chien."},
+      "errorPatterns": [
+        {"equals": "play", "category": "conjugation", "feedback": "My son = he : un seul sujet, donc le verbe prend -s. On dit my son plays."},
+        {"equals": "playes", "category": "spelling", "feedback": "Après voyelle + y (play), on ajoute seulement -s : plays, pas playes."}
+      ]
+    },
+    {
+      "id": "en.l18.e05",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.cook"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme du verbe cook.",
+      "prompt": "Anna and I ___ dinner for our friends.",
+      "promptLanguage": "en",
+      "options": ["cook", "cooks", "to cook"],
+      "answer": "cook",
+      "acceptedAnswers": ["cook"],
+      "hint": "Anna and I = we (nous).",
+      "explanation": "Anna and I veut dire « nous » (we). Avec we, le verbe garde sa forme de base : we cook. Le -s n'apparaît qu'avec he, she, it.",
+      "tip": "Anna and I = we : pas de -s.",
+      "extraExample": {"text": "My brother and I play with the dog.", "translation": "Mon frère et moi, nous jouons avec le chien."},
+      "errorPatterns": [
+        {"equals": "cooks", "category": "conjugation", "feedback": "Anna and I = we (nous), plusieurs personnes : pas de -s. On dit Anna and I cook."},
+        {"equals": "to cook", "category": "grammar", "feedback": "Après le sujet, on met directement le verbe conjugué, sans to : we cook."}
+      ]
+    },
+    {
+      "id": "en.l18.e06",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.drink"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Mon père boit du café à la maison.",
+      "promptLanguage": "fr",
+      "tokens": ["home", "drinks", "at", "My", "coffee", "father"],
+      "answer": "My father drinks coffee at home",
+      "acceptedAnswers": ["My father drinks coffee at home", "At home my father drinks coffee"],
+      "hint": "Commence par le sujet : My father.",
+      "explanation": "L'ordre habituel est sujet + verbe + complément. My father = he, donc le verbe prend -s : drinks. On termine par le lieu : at home.",
+      "tip": "Sujet, verbe avec -s, puis le reste de la phrase.",
+      "extraExample": {"text": "My mother cooks dinner at home.", "translation": "Ma mère prépare le dîner à la maison."}
+    },
+    {
+      "id": "en.l18.e07",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.cook"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Ma sœur cuisine pour la famille.",
+      "promptLanguage": "fr",
+      "answer": "My sister cooks for the family.",
+      "acceptedAnswers": [
+        "My sister cooks for the family.",
+        "My sister cooks for her family.",
+        "My sister cooks for my family.",
+        "My sister cooks for our family.",
+        "My sister is cooking for the family.",
+        "My sister is cooking for her family.",
+        "My sister is cooking for my family.",
+        "My sister is cooking for our family."
+      ],
+      "hint": "Ma sœur = she : le verbe prend -s.",
+      "explanation": "My sister se remplace par she, donc le verbe cook prend -s : cooks. « Pour la famille » se dit for the family.",
+      "tip": "Ma sœur, mon père, Tom : un seul sujet, un -s sur le verbe.",
+      "extraExample": {"text": "My father cooks for his friends.", "translation": "Mon père cuisine pour ses amis."},
+      "errorPatterns": [
+        {"contains": "sister cook for", "category": "conjugation", "feedback": "My sister = she : le verbe doit prendre -s. On dit my sister cooks."},
+        {"contains": "sister make for", "category": "word_confusion", "feedback": "Pour « cuisiner », on utilise cook. En plus, avec my sister (= she), le verbe prend -s : cooks."}
+      ]
+    },
+    {
+      "id": "en.l18.e08",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.drink", "en.v.sleep"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mes parents boivent du café et mon fils dort.",
+      "promptLanguage": "fr",
+      "answer": "My parents drink coffee and my son sleeps.",
+      "acceptedAnswers": [
+        "My parents drink coffee and my son sleeps.",
+        "My parents drink coffee and my son is sleeping.",
+        "My parents are drinking coffee and my son sleeps.",
+        "My parents are drinking coffee and my son is sleeping."
+      ],
+      "hint": "Un sujet pluriel (they) et un sujet singulier (he).",
+      "explanation": "My parents = they : pas de -s sur drink. My son = he : -s sur sleep. C'est le sujet qui décide, pas le nom : parents finit par -s mais le verbe n'en prend pas.",
+      "tip": "Compte les personnes : une seule → -s sur le verbe, plusieurs → rien.",
+      "extraExample": {"text": "My friends play and my sister cooks.", "translation": "Mes amis jouent et ma sœur cuisine."},
+      "errorPatterns": [
+        {"contains": "parents drinks coffee", "category": "conjugation", "feedback": "My parents = they (plusieurs personnes) : pas de -s sur le verbe. On dit my parents drink."},
+        {"equals": "my parents drink coffee and my son sleep", "category": "conjugation", "feedback": "My son = he : un seul garçon, donc sleep prend -s. On dit my son sleeps."}
+      ]
+    },
+    {
+      "id": "en.l18.e09",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.cook"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Mon mari cuisine » ?",
+      "promptLanguage": "fr",
+      "answer": "My husband cooks.",
+      "acceptedAnswers": ["My husband cooks.", "My husband is cooking."],
+      "hint": "Mon mari = he : le verbe prend un -s.",
+      "explanation": "My husband se remplace par he, donc le verbe cook prend -s : my husband cooks. Cook n'a pas besoin de complément pour dire qu'on cuisine.",
+      "tip": "Mon mari, ma femme, Tom : -s sur le verbe.",
+      "extraExample": {"text": "My wife plays with the dog.", "translation": "Ma femme joue avec le chien."},
+      "errorPatterns": [
+        {"equals": "my husband cook", "category": "conjugation", "feedback": "My husband = he : un seul sujet, donc le verbe prend -s. On dit my husband cooks."},
+        {"equals": "my husband cookes", "category": "spelling", "feedback": "Cook se termine par -k : on ajoute simplement -s (cooks)."}
+      ]
+    },
+    {
+      "id": "en.l18.e10",
+      "unitIds": ["en.g14.present_simple_third_person", "en.v.drink", "en.v.play", "en.v.watch", "en.v.sleep", "en.v.cook"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris une phrase sur une personne de ta famille ou un ami, avec un de ces verbes : drink, play, watch, sleep ou cook. Pense au -s !",
+      "prompt": "Que fait une personne que tu connais ? Écris une phrase.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["drinks", "plays", "watches", "sleeps", "cooks"]], "minWords": 3},
+      "answer": "My brother plays with his friends.",
+      "acceptedAnswers": ["My brother plays with his friends.", "My mother cooks dinner for the family.", "Anna drinks coffee at home.", "My dog sleeps in the house."],
+      "hint": "Choisis un sujet au singulier (he, she, my mother, Tom) et ajoute -s au verbe.",
+      "explanation": "Avec un sujet au singulier (he, she, my brother, Anna), le verbe au présent simple prend -s : plays, cooks, drinks, sleeps, watches.",
+      "tip": "Relis ton verbe : si ton sujet est « il » ou « elle », il lui faut un -s.",
+      "extraExample": {"text": "Lucy watches TV with her mother.", "translation": "Lucy regarde la télé avec sa mère."},
+      "errorPatterns": [
+        {"contains": "he play with", "category": "conjugation", "feedback": "Avec he, le verbe prend -s : he plays with…"},
+        {"contains": "she cook dinner", "category": "conjugation", "feedback": "Avec she, le verbe prend -s : she cooks dinner."}
+      ]
+    }
+  ]
+}

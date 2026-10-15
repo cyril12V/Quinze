@@ -1,0 +1,210 @@
+{
+  "lessonId": "en.l20",
+  "exercises": [
+    {
+      "id": "en.l20.e01",
+      "unitIds": ["en.g15.present_simple_negative", "en.v.milk"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "My brother ___ drink milk.",
+      "promptLanguage": "en",
+      "options": ["doesn't", "don't", "not"],
+      "answer": "doesn't",
+      "acceptedAnswers": ["doesn't"],
+      "hint": "My brother = he.",
+      "explanation": "My brother se remplace par he. Avec he, she, it, la négation du présent simple se fait avec doesn't + le verbe de base : he doesn't drink.",
+      "tip": "I, you, we, they : don't. He, she, it : doesn't.",
+      "extraExample": {"text": "I don't drink milk.", "translation": "Je ne bois pas de lait."},
+      "errorPatterns": [
+        {"equals": "don't", "category": "conjugation", "feedback": "Don't s'utilise avec I, you, we, they. Avec my brother (= he), on dit doesn't."},
+        {"equals": "not", "category": "grammar", "feedback": "On ne peut pas mettre not seul devant un verbe d'action comme drink : il faut doesn't ou don't."}
+      ]
+    },
+    {
+      "id": "en.l20.e02",
+      "unitIds": ["en.g15.present_simple_negative", "en.v.meat"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « Tom ne mange pas de viande » ?",
+      "promptLanguage": "fr",
+      "options": ["Tom doesn't eat meat.", "Tom doesn't eats meat.", "Tom don't eat meat.", "Tom not eat meat."],
+      "answer": "Tom doesn't eat meat.",
+      "acceptedAnswers": ["Tom doesn't eat meat."],
+      "hint": "Doesn't + verbe de base.",
+      "explanation": "Avec Tom (= he), on utilise doesn't. Après doesn't, le verbe reste à sa forme de base : eat, sans -s. Meat s'emploie sans article quand on parle de la viande en général.",
+      "tip": "Doesn't + verbe tout simple : he doesn't eat.",
+      "extraExample": {"text": "My sister doesn't eat fish.", "translation": "Ma sœur ne mange pas de poisson."},
+      "errorPatterns": [
+        {"equals": "Tom doesn't eats meat.", "category": "conjugation", "feedback": "Après doesn't, le verbe reste à sa forme de base : le -s est déjà dans does. On dit doesn't eat."},
+        {"equals": "Tom don't eat meat.", "category": "conjugation", "feedback": "Avec Tom (= he), on utilise doesn't et non don't."},
+        {"equals": "Tom not eat meat.", "category": "grammar", "feedback": "Il faut doesn't devant le verbe : not seul ne suffit pas au présent simple."}
+      ]
+    },
+    {
+      "id": "en.l20.e03",
+      "unitIds": ["en.g15.present_simple_negative", "en.v.food", "en.v.meat", "en.v.fish", "en.v.milk", "en.v.water"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot anglais à sa traduction.",
+      "prompt": "Les mots de la nourriture et des boissons",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "food", "right": "la nourriture"},
+        {"left": "meat", "right": "la viande"},
+        {"left": "fish", "right": "le poisson"},
+        {"left": "milk", "right": "le lait"},
+        {"left": "water", "right": "l'eau"}
+      ],
+      "answer": "food = la nourriture ; meat = la viande ; fish = le poisson ; milk = le lait ; water = l'eau",
+      "acceptedAnswers": [],
+      "explanation": "Ces cinq mots sont des noms. Quand on parle de nourriture ou de boisson en général, on les utilise sans article : I don't eat meat (et non « the meat »).",
+      "tip": "En anglais, pas d'article pour parler en général : I like fish.",
+      "extraExample": {"text": "We don't drink milk at school.", "translation": "Nous ne buvons pas de lait à l'école."}
+    },
+    {
+      "id": "en.l20.e04",
+      "unitIds": ["en.g15.present_simple_negative"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le verbe go (aller) à la bonne forme.",
+      "prompt": "She doesn't ___ to school.",
+      "promptLanguage": "en",
+      "options": ["go", "goes", "to go"],
+      "answer": "go",
+      "acceptedAnswers": ["go"],
+      "hint": "Où est déjà le -s dans cette phrase ?",
+      "explanation": "Après doesn't, le verbe reste à sa forme de base. On utilise donc go et non goes.",
+      "tip": "Le -s est déjà présent dans does : on ne l'ajoute pas une seconde fois au verbe principal.",
+      "extraExample": {"text": "He doesn't work today.", "translation": "Il ne travaille pas aujourd'hui."},
+      "errorPatterns": [
+        {"equals": "goes", "category": "conjugation", "feedback": "Après doesn't, le verbe reste à sa forme de base : le -s est déjà dans does."},
+        {"equals": "to go", "category": "grammar", "feedback": "Après doesn't, on met directement le verbe de base, sans to."}
+      ]
+    },
+    {
+      "id": "en.l20.e05",
+      "unitIds": ["en.g15.present_simple_negative", "en.v.food"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec don't ou doesn't.",
+      "prompt": "My parents ___ like the food in London.",
+      "promptLanguage": "en",
+      "options": ["don't", "doesn't", "aren't"],
+      "answer": "don't",
+      "acceptedAnswers": ["don't"],
+      "hint": "My parents = they : plusieurs personnes.",
+      "explanation": "My parents veut dire « ils » (they). Avec they, la négation se fait avec don't. Le verbe like reste à sa forme de base.",
+      "tip": "Un sujet pluriel (my parents, my friends) → don't.",
+      "extraExample": {"text": "My friends don't eat meat.", "translation": "Mes amis ne mangent pas de viande."},
+      "errorPatterns": [
+        {"equals": "doesn't", "category": "conjugation", "feedback": "My parents = they (pluriel) : on utilise don't. Doesn't est réservé à he, she, it."},
+        {"equals": "aren't", "category": "grammar", "feedback": "Aren't s'emploie avec be (they aren't tired). Avec un verbe d'action comme like, on utilise don't."}
+      ]
+    },
+    {
+      "id": "en.l20.e06",
+      "unitIds": ["en.g15.present_simple_negative", "en.v.meat", "en.v.fish"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Mon fils ne mange ni viande ni poisson.",
+      "promptLanguage": "fr",
+      "tokens": ["son", "My", "eat", "or", "doesn't", "meat", "fish"],
+      "answer": "My son doesn't eat meat or fish",
+      "acceptedAnswers": ["My son doesn't eat meat or fish", "My son doesn't eat fish or meat"],
+      "hint": "Le sujet, puis doesn't, puis le verbe de base.",
+      "explanation": "My son = he, donc on utilise doesn't suivi du verbe de base eat. En anglais, après une négation, on relie les deux choses avec or (« ou ») : meat or fish.",
+      "tip": "Sujet + doesn't + verbe de base + complément.",
+      "extraExample": {"text": "My daughter doesn't drink milk or water.", "translation": "Ma fille ne boit ni lait ni eau."}
+    },
+    {
+      "id": "en.l20.e07",
+      "unitIds": ["en.g15.present_simple_negative", "en.v.meat"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je ne mange pas de viande.",
+      "promptLanguage": "fr",
+      "answer": "I don't eat meat.",
+      "acceptedAnswers": [
+        "I don't eat meat.",
+        "I don't eat any meat.",
+        "I'm not eating meat.",
+        "I'm not eating any meat."
+      ],
+      "hint": "Il n'y a pas de « ne… pas » collé au verbe en anglais.",
+      "explanation": "Avec I, la négation se fait avec don't + verbe de base : I don't eat. « De la viande » se dit simplement meat, sans article.",
+      "tip": "I don't + verbe : c'est don't qui porte la négation.",
+      "extraExample": {"text": "We don't eat fish.", "translation": "Nous ne mangeons pas de poisson."},
+      "errorPatterns": [
+        {"contains": "i not eat", "category": "grammar", "feedback": "Au présent simple, on ne met pas not seul : il faut I don't eat."},
+        {"contains": "i no eat", "category": "grammar", "feedback": "En anglais, on dit I don't eat. No ne se place pas devant le verbe."},
+        {"contains": "eat the meat", "category": "grammar", "feedback": "Pour parler de la viande en général, on n'utilise pas the : I don't eat meat."}
+      ]
+    },
+    {
+      "id": "en.l20.e08",
+      "unitIds": ["en.g15.present_simple_negative", "en.v.milk", "en.v.fish"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Elle ne boit pas de lait et il ne mange pas de poisson.",
+      "promptLanguage": "fr",
+      "answer": "She doesn't drink milk and he doesn't eat fish.",
+      "acceptedAnswers": [
+        "She doesn't drink milk and he doesn't eat fish.",
+        "She isn't drinking milk and he isn't eating fish."
+      ],
+      "hint": "Deux sujets au singulier : deux fois doesn't.",
+      "explanation": "Elle (she) et il (he) demandent doesn't. Après doesn't, les verbes drink et eat restent à la forme de base, sans -s.",
+      "tip": "Une négation, un doesn't : répète-le pour chaque verbe.",
+      "extraExample": {"text": "She doesn't eat meat and he doesn't drink milk.", "translation": "Elle ne mange pas de viande et il ne boit pas de lait."},
+      "errorPatterns": [
+        {"contains": "she don't drink", "category": "conjugation", "feedback": "Avec she, on utilise doesn't et non don't."},
+        {"contains": "doesn't drinks", "category": "conjugation", "feedback": "Après doesn't, le verbe reste à sa forme de base : le -s est déjà dans does."},
+        {"contains": "doesn't eats", "category": "conjugation", "feedback": "Après doesn't, le verbe reste à sa forme de base : he doesn't eat."}
+      ]
+    },
+    {
+      "id": "en.l20.e09",
+      "unitIds": ["en.g15.present_simple_negative", "en.v.water"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Ma fille ne boit pas d'eau » ?",
+      "promptLanguage": "fr",
+      "answer": "My daughter doesn't drink water.",
+      "acceptedAnswers": ["My daughter doesn't drink water.", "My daughter isn't drinking water."],
+      "hint": "Ma fille = she.",
+      "explanation": "My daughter = she, donc la négation se fait avec doesn't. Le verbe drink reste à sa forme de base. On dit water sans article.",
+      "tip": "Ma fille, mon fils, Anna : doesn't + verbe de base.",
+      "extraExample": {"text": "My son doesn't drink water.", "translation": "Mon fils ne boit pas d'eau."},
+      "errorPatterns": [
+        {"equals": "my daughter don't drink water", "category": "conjugation", "feedback": "My daughter = she : il faut doesn't, pas don't."},
+        {"equals": "my daughter doesn't drinks water", "category": "conjugation", "feedback": "Après doesn't, le verbe reste à sa forme de base : drink, sans -s."}
+      ]
+    },
+    {
+      "id": "en.l20.e10",
+      "unitIds": ["en.g15.present_simple_negative", "en.v.food", "en.v.meat", "en.v.fish", "en.v.milk", "en.v.water"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris une phrase négative sur ce que toi ou une personne que tu connais ne mange pas ou ne boit pas. Utilise don't ou doesn't.",
+      "prompt": "Qu'est-ce que tu ne manges pas, ou qu'une personne de ta famille ne boit pas ?",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["don't", "doesn't", "do not", "does not"]], "minWords": 4},
+      "answer": "I don't eat meat.",
+      "acceptedAnswers": ["I don't eat meat.", "I don't drink milk.", "My brother doesn't eat fish.", "My mother doesn't drink water."],
+      "hint": "I, we, they → don't ; he, she → doesn't. Puis le verbe de base.",
+      "explanation": "On utilise don't avec I, you, we, they et doesn't avec he, she, it. Après les deux, le verbe reste à sa forme de base : I don't eat, she doesn't eat.",
+      "tip": "Avant de valider, vérifie : doesn't + verbe sans -s.",
+      "extraExample": {"text": "My son doesn't like fish.", "translation": "Mon fils n'aime pas le poisson."},
+      "errorPatterns": [
+        {"contains": "i doesn't", "category": "conjugation", "feedback": "Avec I, on utilise don't : I don't…"},
+        {"contains": "she don't", "category": "conjugation", "feedback": "Avec she, on utilise doesn't : she doesn't…"}
+      ]
+    }
+  ]
+}

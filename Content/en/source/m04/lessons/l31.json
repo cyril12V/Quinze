@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l31",
+  "exercises": [
+    {
+      "id": "en.l31.e01",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.buy"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Anna ___ a book for her brother yesterday.",
+      "promptLanguage": "en",
+      "options": ["bought", "buyed", "buy"],
+      "answer": "bought",
+      "acceptedAnswers": ["bought"],
+      "hint": "Buy est un verbe irrégulier : il ne prend pas -ed.",
+      "explanation": "Buy est irrégulier : son passé est bought (/bɔːt/), et non buyed. Cette forme est la même pour tous les sujets : I bought, she bought.",
+      "tip": "Buy → bought : on n'ajoute jamais -ed à un verbe irrégulier.",
+      "extraExample": {"text": "My father bought a car two days ago.", "translation": "Mon père a acheté une voiture il y a deux jours."},
+      "errorPatterns": [
+        {"equals": "buyed", "category": "conjugation", "feedback": "Buy est irrégulier : on n'ajoute pas -ed. Son passé est bought."},
+        {"equals": "buy", "category": "verb_tense", "feedback": "Buy est la forme de base, pour le présent. Avec yesterday, on dit bought."}
+      ]
+    },
+    {
+      "id": "en.l31.e02",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.forget"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Yesterday morning, Tom ___ his keys at home.",
+      "promptLanguage": "en",
+      "options": ["forgot", "forgotten", "forgetted"],
+      "answer": "forgot",
+      "acceptedAnswers": ["forgot"],
+      "hint": "Forget est irrégulier, comme get → got.",
+      "explanation": "Forget est irrégulier : son passé est forgot (/fəˈɡɒt/). Forgotten est le participe passé, utilisé dans d'autres temps, et forgetted n'existe pas.",
+      "tip": "Forget → forgot, comme get → got : le e devient o.",
+      "extraExample": {"text": "I forgot my homework yesterday.", "translation": "J'ai oublié mes devoirs hier."},
+      "errorPatterns": [
+        {"equals": "forgotten", "category": "conjugation", "feedback": "Forgotten est le participe passé. Pour raconter au passé simple, on dit forgot."},
+        {"equals": "forgetted", "category": "conjugation", "feedback": "Forget est irrégulier : on n'ajoute pas -ed. Son passé est forgot."}
+      ]
+    },
+    {
+      "id": "en.l31.e03",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.buy", "en.v.leave", "en.v.meet", "en.v.forget", "en.v.begin"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque verbe au passé à sa traduction.",
+      "prompt": "Cinq autres verbes irréguliers au passé",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "bought", "right": "a acheté"},
+        {"left": "left", "right": "est parti / a quitté"},
+        {"left": "met", "right": "a rencontré / a retrouvé"},
+        {"left": "forgot", "right": "a oublié"},
+        {"left": "began", "right": "a commencé"}
+      ],
+      "answer": "bought = a acheté ; left = est parti / a quitté ; met = a rencontré / a retrouvé ; forgot = a oublié ; began = a commencé",
+      "acceptedAnswers": [],
+      "explanation": "Ces verbes sont irréguliers : leur passé s'apprend par cœur. Ils se prononcent bought /bɔːt/, left /left/, met /met/, forgot /fəˈɡɒt/ et began /bɪˈɡæn/, avec la même forme pour tous les sujets.",
+      "tip": "Beaucoup de passés irréguliers se ressemblent : buy → bought, think → thought.",
+      "extraExample": {"text": "Sam came home late and slept all morning.", "translation": "Sam est rentré tard et a dormi toute la matinée."}
+    },
+    {
+      "id": "en.l31.e04",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.meet"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le passé du verbe entre parenthèses.",
+      "prompt": "I ___ my teacher in London last week. (meet)",
+      "promptLanguage": "en",
+      "options": ["met", "meeted", "meet"],
+      "answer": "met",
+      "acceptedAnswers": ["met"],
+      "hint": "Le passé de meet est plus court que meet.",
+      "explanation": "Meet est irrégulier : meet → met (/met/). Last week place l'action dans le passé. Met est la même forme pour tous les sujets.",
+      "tip": "Meet → met : il suffit d'enlever un e.",
+      "extraExample": {"text": "We met Anna at the door.", "translation": "Nous avons retrouvé Anna à la porte."},
+      "errorPatterns": [
+        {"equals": "meeted", "category": "conjugation", "feedback": "Meet est irrégulier : on n'ajoute pas -ed. Son passé est met."},
+        {"equals": "meet", "category": "verb_tense", "feedback": "Meet est le présent. Avec last week, on utilise le passé : met."}
+      ]
+    },
+    {
+      "id": "en.l31.e05",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.leave"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le passé du verbe entre parenthèses.",
+      "prompt": "My mother ___ the house at eight yesterday. (leave)",
+      "promptLanguage": "en",
+      "options": ["left", "leaved", "leave"],
+      "answer": "left",
+      "acceptedAnswers": ["left"],
+      "hint": "Leave est irrégulier.",
+      "explanation": "Leave est irrégulier : leave → left (/left/). Leave the house veut dire « quitter la maison ». Avec yesterday, l'action est terminée, donc on utilise le passé.",
+      "tip": "Leave → left : « partir » et « quitter » au passé.",
+      "extraExample": {"text": "He left home at six.", "translation": "Il est parti de la maison à six heures."},
+      "errorPatterns": [
+        {"equals": "leaved", "category": "conjugation", "feedback": "Leave est irrégulier : on n'ajoute pas -ed. Son passé est left."},
+        {"equals": "leave", "category": "verb_tense", "feedback": "Leave est la forme du présent. Avec yesterday, on dit left."}
+      ]
+    },
+    {
+      "id": "en.l31.e06",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.eat", "en.v.drink"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Nous avons mangé du poisson et bu de l'eau.",
+      "promptLanguage": "fr",
+      "tokens": ["fish", "We", "water", "ate", "and", "drank"],
+      "answer": "We ate fish and drank water",
+      "acceptedAnswers": ["We ate fish and drank water"],
+      "hint": "Deux verbes irréguliers, un pour manger, un pour boire.",
+      "explanation": "Ate est le passé de eat, et drank est le passé de drink : deux verbes irréguliers. Quand le sujet est le même, on ne le répète pas après and : We ate fish and drank water.",
+      "tip": "Eat → ate ; drink → drank : on retient chacun avec sa mini-phrase.",
+      "extraExample": {"text": "I ate lunch and drank water.", "translation": "J'ai déjeuné et bu de l'eau."}
+    },
+    {
+      "id": "en.l31.e07",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.buy", "en.v.yesterday"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "J'ai acheté du lait hier.",
+      "promptLanguage": "fr",
+      "answer": "I bought milk yesterday",
+      "acceptedAnswers": ["I bought milk yesterday", "I bought some milk yesterday", "Yesterday I bought milk", "Yesterday I bought some milk"],
+      "hint": "« J'ai acheté » : le passé composé devient le passé simple.",
+      "explanation": "« J'ai acheté » se traduit par I bought, sans auxiliaire. Buy est irrégulier : son passé est bought. Milk ne se compte pas : on dit simplement milk ou some milk, sans a.",
+      "tip": "Pas d'auxiliaire : « j'ai acheté » = I bought.",
+      "extraExample": {"text": "She bought fish for dinner.", "translation": "Elle a acheté du poisson pour le dîner."},
+      "errorPatterns": [
+        {"contains": "buyed", "category": "conjugation", "feedback": "Buy est irrégulier : on n'ajoute pas -ed. Son passé est bought."},
+        {"contains": "i buy", "category": "verb_tense", "feedback": "Buy est le présent. Hier, l'action est terminée : I bought."},
+        {"contains": "i have bought", "category": "verb_tense", "feedback": "L'anglais n'utilise pas have ici. Pour une action finie hier, on dit simplement I bought."}
+      ]
+    },
+    {
+      "id": "en.l31.e08",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.meet"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Elle a rencontré son mari au bureau.",
+      "promptLanguage": "fr",
+      "answer": "She met her husband at the office",
+      "acceptedAnswers": ["She met her husband at the office", "She met her husband at work"],
+      "hint": "Meet est irrégulier. Son passé est plus court que meet.",
+      "explanation": "« A rencontré » se traduit par met, le passé irrégulier de meet. Meet se construit directement avec la personne, sans préposition : met her husband. Her veut dire « son, sa » quand le possesseur est une femme.",
+      "tip": "Meet + personne : pas de préposition (met her husband).",
+      "extraExample": {"text": "Tom met his wife at school.", "translation": "Tom a rencontré sa femme à l'école."},
+      "errorPatterns": [
+        {"contains": "meeted", "category": "conjugation", "feedback": "Meet est irrégulier : on n'ajoute pas -ed. Son passé est met."},
+        {"contains": "she meet", "category": "verb_tense", "feedback": "Meet est le présent. Pour une action finie, on dit met."},
+        {"contains": "met to", "category": "preposition", "feedback": "Après meet, on ne met pas to : on dit met her husband."}
+      ]
+    },
+    {
+      "id": "en.l31.e09",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.begin"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais avec le verbe begin.",
+      "prompt": "Comment dit-on « Nous avons commencé à neuf heures » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "We began at nine",
+      "acceptedAnswers": ["We began at nine", "We began at nine o'clock"],
+      "hint": "Begin est irrégulier, comme drink → drank et swim → swam.",
+      "explanation": "Begin est irrégulier : begin → began (/bɪˈɡæn/). Begin veut dire comme start « commencer », mais began est irrégulier alors que started est régulier. Began est la même forme pour tous les sujets.",
+      "tip": "Begin → began, comme drink → drank et swim → swam : le i devient a.",
+      "extraExample": {"text": "Anna began work at seven.", "translation": "Anna a commencé à travailler à sept heures."},
+      "errorPatterns": [
+        {"contains": "begined", "category": "conjugation", "feedback": "Begin est irrégulier : on n'ajoute pas -ed. Son passé est began."},
+        {"contains": "begun", "category": "conjugation", "feedback": "Begun est le participe passé de begin. Pour le passé simple, on dit began."},
+        {"contains": "we begin at", "category": "verb_tense", "feedback": "Begin est le présent. Pour une action finie, on dit began."}
+      ]
+    },
+    {
+      "id": "en.l31.e10",
+      "unitIds": ["en.g22.irregular_verbs", "en.v.give"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Tom a donné un café à Anna » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Tom gave Anna a coffee",
+      "acceptedAnswers": ["Tom gave Anna a coffee", "Tom gave a coffee to Anna", "Tom gave Anna some coffee", "Tom gave some coffee to Anna"],
+      "hint": "Give est irrégulier : le i devient a.",
+      "explanation": "Give est irrégulier : give → gave (/geɪv/). Après gave, on met la personne puis la chose (gave Anna a coffee), ou la chose puis to et la personne (gave a coffee to Anna).",
+      "tip": "gave + personne + chose, ou gave + chose + to + personne.",
+      "extraExample": {"text": "My mother gave me the key.", "translation": "Ma mère m'a donné la clé."},
+      "errorPatterns": [
+        {"contains": "gived", "category": "conjugation", "feedback": "Give est irrégulier : on n'ajoute pas -ed. Son passé est gave."},
+        {"contains": "given", "category": "conjugation", "feedback": "Given est le participe passé de give. Pour le passé simple, on dit gave."},
+        {"contains": "tom give", "category": "verb_tense", "feedback": "Give est le présent. Pour une action finie, on dit gave."}
+      ]
+    }
+  ]
+}

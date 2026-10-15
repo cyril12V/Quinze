@@ -1,0 +1,203 @@
+{
+  "lessonId": "en.l06",
+  "exercises": [
+    {
+      "id": "en.l06.e01",
+      "unitIds": ["en.g05.have_has", "en.v.car", "en.g01.subject_pronouns"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « J'ai une voiture » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I have a car", "I has a car", "I am have a car", "I a car"],
+      "answer": "I have a car",
+      "acceptedAnswers": ["I have a car"],
+      "hint": "Pour posséder quelque chose, on utilise le verbe have.",
+      "explanation": "Avoir (posséder) se dit have. Avec I, you, we et they, on utilise have : I have a car.",
+      "tip": "I, you, we, they : have.",
+      "extraExample": {"text": "You have a phone.", "translation": "Tu as un téléphone."},
+      "errorPatterns": [
+        {"equals": "i has a car", "category": "conjugation", "feedback": "Has s'utilise seulement avec he, she et it. Avec I, on dit have : I have a car."},
+        {"equals": "i am have a car", "category": "grammar", "feedback": "Am et have sont deux verbes différents : on n'en met qu'un. Pour posséder, c'est have : I have a car."},
+        {"equals": "i a car", "category": "grammar", "feedback": "Il manque le verbe. Pour posséder, on dit I have a car."}
+      ]
+    },
+    {
+      "id": "en.l06.e02",
+      "unitIds": ["en.g05.have_has", "en.v.dog", "en.g01.subject_pronouns"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "She ___ a dog.",
+      "promptLanguage": "en",
+      "options": ["has", "have", "is"],
+      "answer": "has",
+      "acceptedAnswers": ["has"],
+      "hint": "She fait partie de he, she, it.",
+      "explanation": "Avec he, she et it, have devient has : she has a dog. Is veut dire « est » et ne sert pas à dire qu'on possède quelque chose.",
+      "tip": "He, she, it : has.",
+      "extraExample": {"text": "He has a car.", "translation": "Il a une voiture."},
+      "errorPatterns": [
+        {"equals": "have", "category": "conjugation", "feedback": "Avec he, she et it, have devient has : she has a dog."},
+        {"equals": "is", "category": "grammar", "feedback": "Is veut dire « est ». Pour posséder un chien, on utilise has : she has a dog."}
+      ]
+    },
+    {
+      "id": "en.l06.e03",
+      "unitIds": ["en.g05.have_has", "en.v.car", "en.v.house", "en.v.home", "en.v.dog", "en.v.phone"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les nouveaux mots : car, house, home, dog, phone",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "a car", "right": "une voiture"},
+        {"left": "a house", "right": "une maison (le bâtiment)"},
+        {"left": "at home", "right": "à la maison"},
+        {"left": "a dog", "right": "un chien"},
+        {"left": "a phone", "right": "un téléphone"}
+      ],
+      "answer": "a car = une voiture ; a house = une maison (le bâtiment) ; at home = à la maison ; a dog = un chien ; a phone = un téléphone",
+      "acceptedAnswers": [],
+      "explanation": "House est le bâtiment, la maison qu'on voit dans la rue. Home est l'endroit où on habite, « chez soi » : on dit at home, sans the.",
+      "tip": "House = le bâtiment ; home = chez soi. On dit at home, jamais « at the home ».",
+      "extraExample": {"text": "The house is cold.", "translation": "La maison est froide."}
+    },
+    {
+      "id": "en.l06.e04",
+      "unitIds": ["en.g05.have_has", "en.v.phone"],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète avec have, has ou am.",
+      "prompt": "I ___ a phone.",
+      "promptLanguage": "en",
+      "options": ["have", "has", "am"],
+      "answer": "have",
+      "acceptedAnswers": ["have"],
+      "hint": "Le pronom est I.",
+      "explanation": "Avec I, le verbe avoir se dit have : I have a phone. Has est réservé à he, she et it.",
+      "tip": "I have, you have, we have, they have.",
+      "extraExample": {"text": "We have a car.", "translation": "Nous avons une voiture."},
+      "errorPatterns": [
+        {"equals": "has", "category": "conjugation", "feedback": "Has s'utilise seulement avec he, she et it. Avec I, on dit have."},
+        {"equals": "am", "category": "grammar", "feedback": "Am veut dire « suis ». Pour posséder un téléphone, on dit I have a phone."}
+      ]
+    },
+    {
+      "id": "en.l06.e05",
+      "unitIds": ["en.g05.have_has", "en.v.car", "en.v.house"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec have, has ou is.",
+      "prompt": "Tom ___ a car and a house.",
+      "promptLanguage": "en",
+      "options": ["has", "have", "is"],
+      "answer": "has",
+      "acceptedAnswers": ["has"],
+      "hint": "Tom peut être remplacé par he.",
+      "explanation": "Tom, c'est « il » : he. Avec he, le verbe avoir se dit has : Tom has a car and a house.",
+      "tip": "Un prénom seul (Tom, Anna) : has.",
+      "extraExample": {"text": "Anna has a dog and a phone.", "translation": "Anna a un chien et un téléphone."},
+      "errorPatterns": [
+        {"equals": "have", "category": "conjugation", "feedback": "Tom est une seule personne (he) : have devient has. On dit Tom has a car."},
+        {"equals": "is", "category": "grammar", "feedback": "Is veut dire « est ». Pour posséder une voiture et une maison, on utilise has."}
+      ]
+    },
+    {
+      "id": "en.l06.e06",
+      "unitIds": ["en.g05.have_has", "en.v.car", "en.v.house", "en.v.man"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former une phrase.",
+      "prompt": "L'homme a une voiture et une maison.",
+      "promptLanguage": "fr",
+      "tokens": ["house", "The", "man", "a", "has", "and", "a", "car"],
+      "answer": "The man has a car and a house",
+      "acceptedAnswers": ["The man has a car and a house", "The man has a house and a car"],
+      "hint": "Sujet, puis has, puis les deux noms reliés par and.",
+      "explanation": "L'ordre est sujet + has + a + nom. The man est une seule personne (he) : on dit has. Les deux noms sont reliés par and et prennent chacun a.",
+      "tip": "Sujet + has + a + nom + and + a + nom.",
+      "extraExample": {"text": "The woman has a dog and a phone.", "translation": "La femme a un chien et un téléphone."}
+    },
+    {
+      "id": "en.l06.e07",
+      "unitIds": ["en.g05.have_has", "en.v.house"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous avons une maison.",
+      "promptLanguage": "fr",
+      "answer": "We have a house",
+      "acceptedAnswers": ["We have a house", "We have a home"],
+      "hint": "Nous se dit we. Quel verbe pour posséder ?",
+      "explanation": "Nous = we. Avec we, le verbe avoir se dit have : we have a house. Le mot house désigne le bâtiment.",
+      "tip": "We have : jamais « we has ».",
+      "extraExample": {"text": "They have a house and a dog.", "translation": "Ils ont une maison et un chien."},
+      "errorPatterns": [
+        {"contains": "we has", "category": "conjugation", "feedback": "Has s'utilise seulement avec he, she et it. Avec we, on dit have : we have a house."},
+        {"contains": "we are", "category": "grammar", "feedback": "Are veut dire « sommes ». Pour posséder, on utilise have : we have a house."},
+        {"equals": "we have house", "category": "grammar", "feedback": "Il manque l'article : we have a house."}
+      ]
+    },
+    {
+      "id": "en.l06.e08",
+      "unitIds": ["en.g05.have_has", "en.g03.be_affirmative", "en.v.home", "en.v.dog"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "Il est à la maison et il a un chien.",
+      "promptLanguage": "fr",
+      "answer": "He is at home and he has a dog",
+      "acceptedAnswers": ["He is at home and he has a dog", "He is at home and has a dog", "He is home and he has a dog", "He is home and has a dog"],
+      "hint": "Deux verbes différents : être pour le lieu, avoir pour le chien.",
+      "explanation": "Il est à la maison = he is at home (verbe être). Il a un chien = he has a dog (verbe avoir, forme has avec he). À la maison se dit at home, sans article.",
+      "tip": "Être pour où on est, avoir pour ce qu'on possède.",
+      "extraExample": {"text": "She is at home and she has a phone.", "translation": "Elle est à la maison et elle a un téléphone."},
+      "errorPatterns": [
+        {"contains": "he have", "category": "conjugation", "feedback": "Avec he, have devient has : he has a dog."},
+        {"contains": "at the home", "category": "grammar", "feedback": "À la maison se dit at home, sans the."},
+        {"contains": "in home", "category": "preposition", "feedback": "À la maison se dit at home, pas in home."}
+      ]
+    },
+    {
+      "id": "en.l06.e09",
+      "unitIds": ["en.g05.have_has", "en.v.phone", "en.g01.subject_pronouns"],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Elle a un téléphone » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "She has a phone",
+      "acceptedAnswers": ["She has a phone"],
+      "hint": "Elle se dit she : quelle forme de have ?",
+      "explanation": "Elle = she. Avec she, have devient has : she has a phone.",
+      "tip": "She has, he has, it has.",
+      "extraExample": {"text": "He has a phone.", "translation": "Il a un téléphone."},
+      "errorPatterns": [
+        {"equals": "she have a phone", "category": "conjugation", "feedback": "Avec she, have devient has : she has a phone."},
+        {"equals": "she haves a phone", "category": "spelling", "feedback": "Le verbe have est irrégulier : he, she et it font has, pas « haves »."},
+        {"equals": "she has phone", "category": "grammar", "feedback": "Il manque l'article : she has a phone."}
+      ]
+    },
+    {
+      "id": "en.l06.e10",
+      "unitIds": ["en.g05.have_has", "en.g04.be_negative_questions", "en.v.hungry"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Elle a faim » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "She is hungry",
+      "acceptedAnswers": ["She is hungry"],
+      "hint": "Attention : faim se dit avec le verbe être, pas avec have.",
+      "explanation": "Pour la faim, l'anglais utilise le verbe être : she is hungry. Le verbe have sert à dire qu'on possède quelque chose (a car, a dog), pas à dire ce qu'on ressent.",
+      "tip": "Faim, froid, raison : be (is, am, are). Voiture, chien, téléphone : have.",
+      "extraExample": {"text": "I am cold.", "translation": "J'ai froid."},
+      "errorPatterns": [
+        {"contains": "she has", "category": "verb_tense", "feedback": "On ne dit pas « she has hungry ». Pour la faim, l'anglais utilise le verbe être : she is hungry."},
+        {"contains": "she have", "category": "verb_tense", "feedback": "Pour la faim, l'anglais utilise le verbe être : she is hungry."},
+        {"contains": "she are", "category": "conjugation", "feedback": "Are va avec you, we et they. Avec she, on dit is : she is hungry."}
+      ]
+    }
+  ]
+}

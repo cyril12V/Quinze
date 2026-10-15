@@ -1,0 +1,443 @@
+{
+  "lessonId": "en.l10",
+  "exercises": [
+    {
+      "id": "en.l10.e01",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.go"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « Je rentre à la maison » en anglais ?",
+      "promptLanguage": "fr",
+      "options": [
+        "I go home.",
+        "I goes home.",
+        "I am go home.",
+        "I go to home."
+      ],
+      "answer": "I go home.",
+      "acceptedAnswers": [
+        "I go home."
+      ],
+      "hint": "Avec I, le verbe garde sa forme de base, et on n'ajoute rien devant home.",
+      "explanation": "Avec I, on utilise le verbe à sa forme de base : I go. On n'ajoute ni -s, ni am. Et devant home, on ne met pas to : go home.",
+      "tip": "I + verbe tel quel. Et go home, sans to.",
+      "extraExample": {
+        "text": "We go home.",
+        "translation": "Nous rentrons à la maison."
+      },
+      "errorPatterns": [
+        {
+          "equals": "I goes home.",
+          "category": "conjugation",
+          "feedback": "Avec I, le verbe ne prend pas de -s : on dit I go. Le -s viendra plus tard, avec d'autres sujets."
+        },
+        {
+          "equals": "I am go home.",
+          "category": "grammar",
+          "feedback": "Am est le verbe être : on ne le met pas devant un autre verbe. On dit simplement I go home."
+        },
+        {
+          "equals": "I go to home.",
+          "category": "preposition",
+          "feedback": "Devant home, on n'ajoute pas to. On dit go home."
+        }
+      ]
+    },
+    {
+      "id": "en.l10.e02",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.do"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le bon sens.",
+      "prompt": "Dans « I do it », que veut dire do ?",
+      "promptLanguage": "fr",
+      "options": [
+        "faire",
+        "aller",
+        "donner",
+        "prendre"
+      ],
+      "answer": "faire",
+      "acceptedAnswers": [
+        "faire"
+      ],
+      "hint": "I do it se traduit par « Je le fais ».",
+      "explanation": "Do veut dire « faire » une action ou une tâche : I do it = je le fais. Go veut dire « aller », give « donner » et take « prendre ».",
+      "tip": "Do = faire une action. Il ne change pas avec I, you, we, they.",
+      "extraExample": {
+        "text": "You do it for your family.",
+        "translation": "Tu le fais pour ta famille."
+      },
+      "errorPatterns": [
+        {
+          "equals": "aller",
+          "category": "vocabulary",
+          "feedback": "« Aller » se dit go. Do veut dire « faire »."
+        },
+        {
+          "equals": "donner",
+          "category": "vocabulary",
+          "feedback": "« Donner » se dit give. Do veut dire « faire »."
+        },
+        {
+          "equals": "prendre",
+          "category": "vocabulary",
+          "feedback": "« Prendre » se dit take. Do veut dire « faire »."
+        }
+      ]
+    },
+    {
+      "id": "en.l10.e03",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.go",
+        "en.v.do",
+        "en.v.make",
+        "en.v.take",
+        "en.v.give"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les verbes essentiels : go home, do it, make cars, take the key, give a book",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "go home",
+          "right": "rentrer à la maison"
+        },
+        {
+          "left": "do it",
+          "right": "le faire"
+        },
+        {
+          "left": "make cars",
+          "right": "fabriquer des voitures"
+        },
+        {
+          "left": "take the key",
+          "right": "prendre la clé"
+        },
+        {
+          "left": "give a book",
+          "right": "donner un livre"
+        }
+      ],
+      "answer": "go home = rentrer à la maison ; do it = le faire ; make cars = fabriquer des voitures ; take the key = prendre la clé ; give a book = donner un livre",
+      "acceptedAnswers": [],
+      "explanation": "Go = aller, do = faire (une action), make = fabriquer ou créer, take = prendre, give = donner. On dit go home sans to.",
+      "tip": "Go = aller, take = prendre, give = donner : ce sont trois verbes à retenir avec leur objet.",
+      "extraExample": {
+        "text": "I take the bag and I give the key.",
+        "translation": "Je prends le sac et je donne la clé."
+      }
+    },
+    {
+      "id": "en.l10.e04",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.take",
+        "en.v.car"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase avec le bon verbe.",
+      "prompt": "We ___ the car. (prendre)",
+      "promptLanguage": "en",
+      "options": [
+        "take",
+        "takes",
+        "give",
+        "make"
+      ],
+      "answer": "take",
+      "acceptedAnswers": [
+        "take"
+      ],
+      "hint": "Le verbe qui veut dire « prendre ».",
+      "explanation": "« Prendre » se dit take. Avec we, le verbe reste à sa forme de base : we take.",
+      "tip": "Avec we : take, sans -s.",
+      "extraExample": {
+        "text": "I take my bag.",
+        "translation": "Je prends mon sac."
+      },
+      "errorPatterns": [
+        {
+          "equals": "takes",
+          "category": "conjugation",
+          "feedback": "Avec we, le verbe ne prend pas de -s : we take."
+        },
+        {
+          "equals": "give",
+          "category": "vocabulary",
+          "feedback": "Give veut dire « donner ». Pour « prendre », on dit take."
+        },
+        {
+          "equals": "make",
+          "category": "vocabulary",
+          "feedback": "Make veut dire « fabriquer, créer ». Pour « prendre », on dit take."
+        }
+      ]
+    },
+    {
+      "id": "en.l10.e05",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.give",
+        "en.v.book"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase avec le bon verbe.",
+      "prompt": "They ___ a book to Tom. (donner)",
+      "promptLanguage": "en",
+      "options": [
+        "give",
+        "gives",
+        "take",
+        "go"
+      ],
+      "answer": "give",
+      "acceptedAnswers": [
+        "give"
+      ],
+      "hint": "Le verbe qui veut dire « donner ».",
+      "explanation": "« Donner » se dit give. Avec they, le verbe reste à sa forme de base : they give.",
+      "tip": "Avec they : give, sans -s.",
+      "extraExample": {
+        "text": "You give your phone to your mother.",
+        "translation": "Tu donnes ton téléphone à ta mère."
+      },
+      "errorPatterns": [
+        {
+          "equals": "gives",
+          "category": "conjugation",
+          "feedback": "Avec they, le verbe ne prend pas de -s : they give."
+        },
+        {
+          "equals": "take",
+          "category": "vocabulary",
+          "feedback": "Take veut dire « prendre ». Pour « donner », on dit give."
+        },
+        {
+          "equals": "go",
+          "category": "vocabulary",
+          "feedback": "Go veut dire « aller ». Pour « donner », on dit give."
+        }
+      ]
+    },
+    {
+      "id": "en.l10.e06",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.do",
+        "en.v.family"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Nous le faisons pour notre famille.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "family",
+        "We",
+        "it",
+        "for",
+        "do",
+        "our"
+      ],
+      "answer": "We do it for our family",
+      "acceptedAnswers": [
+        "We do it for our family"
+      ],
+      "hint": "Sujet, verbe, puis ce qu'on fait, puis pour qui.",
+      "explanation": "L'ordre est : sujet + verbe + complément. We do it, puis for our family. Avec we, do ne change pas.",
+      "tip": "Sujet + verbe + complément : we do it.",
+      "extraExample": {
+        "text": "They do it for their mother.",
+        "translation": "Ils le font pour leur mère."
+      }
+    },
+    {
+      "id": "en.l10.e07",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.take",
+        "en.v.car"
+      ],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Vous prenez la voiture.",
+      "promptLanguage": "fr",
+      "answer": "You take the car.",
+      "acceptedAnswers": [
+        "You take the car.",
+        "You are taking the car."
+      ],
+      "hint": "Vous = you. Le verbe ne change pas.",
+      "explanation": "Vous se traduit you, et « prendre » se dit take. Avec you, le verbe reste à sa forme de base : you take.",
+      "tip": "Tu et vous se disent tous les deux you, avec le même verbe.",
+      "extraExample": {
+        "text": "You take the key.",
+        "translation": "Tu prends la clé."
+      },
+      "errorPatterns": [
+        {
+          "contains": "you takes",
+          "category": "conjugation",
+          "feedback": "Avec you, le verbe ne prend pas de -s : you take."
+        },
+        {
+          "contains": "you are take",
+          "category": "grammar",
+          "feedback": "Pas besoin du verbe être ici : on dit simplement you take."
+        },
+        {
+          "contains": "you give",
+          "category": "vocabulary",
+          "feedback": "Give veut dire « donner ». Pour « prendre », on dit take."
+        }
+      ]
+    },
+    {
+      "id": "en.l10.e08",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.give",
+        "en.v.key"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Ils donnent la clé à Anna.",
+      "promptLanguage": "fr",
+      "answer": "They give the key to Anna.",
+      "acceptedAnswers": [
+        "They give the key to Anna.",
+        "They give Anna the key.",
+        "They are giving the key to Anna.",
+        "They are giving Anna the key."
+      ],
+      "hint": "Ils = they. Donner = give.",
+      "explanation": "Ils se traduit they, et « donner » se dit give. Avec they, le verbe ne change pas : they give. On peut dire the key to Anna ou Anna the key.",
+      "tip": "They give : pas de -s, comme avec I, you, we.",
+      "extraExample": {
+        "text": "We give a book to Tom.",
+        "translation": "Nous donnons un livre à Tom."
+      },
+      "errorPatterns": [
+        {
+          "contains": "they gives",
+          "category": "conjugation",
+          "feedback": "Avec they, le verbe ne prend pas de -s : they give."
+        },
+        {
+          "contains": "they take",
+          "category": "vocabulary",
+          "feedback": "Take veut dire « prendre ». Pour « donner », on dit give."
+        },
+        {
+          "contains": "they are give",
+          "category": "grammar",
+          "feedback": "Pas besoin du verbe être ici : on dit simplement they give."
+        }
+      ]
+    },
+    {
+      "id": "en.l10.e09",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.go",
+        "en.v.school"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Tu vas à l'école » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "You go to school.",
+      "acceptedAnswers": [
+        "You go to school.",
+        "You go to the school.",
+        "You are going to school.",
+        "You are going to the school."
+      ],
+      "hint": "Tu = you. Aller = go.",
+      "explanation": "Tu se traduit you, et « aller » se dit go. Avec you, le verbe reste à sa forme de base : you go. À l'école se dit to school, sans article.",
+      "tip": "I, you, we, they : go ne change jamais.",
+      "extraExample": {
+        "text": "They go to school.",
+        "translation": "Ils vont à l'école."
+      },
+      "errorPatterns": [
+        {
+          "contains": "you goes",
+          "category": "conjugation",
+          "feedback": "Avec you, le verbe ne prend pas de -s : you go."
+        },
+        {
+          "contains": "you are go",
+          "category": "grammar",
+          "feedback": "Pas besoin du verbe être ici : on dit simplement you go."
+        },
+        {
+          "contains": "you make",
+          "category": "vocabulary",
+          "feedback": "Make veut dire « fabriquer ». Pour « aller », on dit go."
+        }
+      ]
+    },
+    {
+      "id": "en.l10.e10",
+      "unitIds": [
+        "en.g08.verbs_base_form",
+        "en.v.make",
+        "en.v.bag"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Je fabrique un sac pour ma sœur » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I make a bag for my sister.",
+      "acceptedAnswers": [
+        "I make a bag for my sister.",
+        "I make my sister a bag.",
+        "I am making a bag for my sister.",
+        "I am making my sister a bag."
+      ],
+      "hint": "Fabriquer = make. Pour = for.",
+      "explanation": "« Fabriquer » se dit make. Avec I, le verbe reste à sa forme de base : I make. Pour ma sœur se dit for my sister.",
+      "tip": "Make = fabriquer, créer. Avec I : make, sans rien ajouter.",
+      "extraExample": {
+        "text": "We make a house for the dog.",
+        "translation": "Nous fabriquons une niche pour le chien."
+      },
+      "errorPatterns": [
+        {
+          "contains": "i makes",
+          "category": "conjugation",
+          "feedback": "Avec I, le verbe ne prend pas de -s : I make."
+        },
+        {
+          "contains": "i am make",
+          "category": "grammar",
+          "feedback": "Am est le verbe être : on ne le met pas devant un autre verbe. On dit I make."
+        },
+        {
+          "contains": "i do a bag",
+          "category": "word_confusion",
+          "feedback": "Pour fabriquer quelque chose, on dit make. Do s'utilise pour une tâche ou une activité."
+        }
+      ]
+    }
+  ]
+}

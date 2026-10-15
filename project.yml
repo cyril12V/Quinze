@@ -1,0 +1,251 @@
+# Projet Xcode généré par XcodeGen : `xcodegen generate` (aucun .xcodeproj n'est versionné).
+# Les Info.plist et les fichiers d'entitlements sont générés dans Config/Generated/ (ignoré par git).
+name: Quinze
+
+options:
+  bundleIdPrefix: fr.elmdigitalagency
+  deploymentTarget:
+    iOS: "17.0"
+  developmentLanguage: fr
+  createIntermediateGroups: true
+  generateEmptyDirectories: false
+
+configFiles:
+  Debug: Config/Base.xcconfig
+  Release: Config/Base.xcconfig
+
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    SWIFT_STRICT_CONCURRENCY: complete
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    TARGETED_DEVICE_FAMILY: "1"
+    CODE_SIGN_STYLE: Automatic
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+
+packages:
+  LearningCore:
+    path: Packages/LearningCore
+  Supabase:
+    url: https://github.com/supabase/supabase-swift
+    from: 2.5.0
+
+schemes:
+  Quinze:
+    build:
+      targets:
+        Quinze: all
+        QuinzeTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - QuinzeTests
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+
+targets:
+  # ---------------------------------------------------------------- Application
+  Quinze:
+    type: application
+    platform: iOS
+    sources:
+      - path: App/Sources
+      - path: Shared
+      - path: App/Resources
+        excludes:
+          - Content
+          - Content/**
+      # Le contenu pédagogique est embarqué en dossier « Content/ » (référence de dossier) :
+      # ContentService le lit via Bundle.main.url(forResource: "en", withExtension: "json", subdirectory: "Content").
+      - path: App/Resources/Content
+        type: folder
+    dependencies:
+      - target: QuinzeMonitor
+      - target: QuinzeShieldConfiguration
+      - target: QuinzeShieldAction
+      - package: LearningCore
+        product: LearningCore
+      - package: LearningCore
+        product: LearningPrimitives
+      - package: Supabase
+        product: Supabase
+      - sdk: FamilyControls.framework
+      - sdk: ManagedSettings.framework
+      - sdk: DeviceActivity.framework
+    info:
+      path: Config/Generated/Quinze-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleLocalizations: [fr, en]
+        CFBundleDisplayName: Quinze
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSRequiresIPhoneOS: true
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UIAppFonts:
+          - PlusJakartaSans-Regular.ttf
+          - PlusJakartaSans-Medium.ttf
+          - PlusJakartaSans-SemiBold.ttf
+          - PlusJakartaSans-Bold.ttf
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        ITSAppUsesNonExemptEncryption: false
+        SUPABASE_URL: $(SUPABASE_URL)
+        SUPABASE_ANON_KEY: $(SUPABASE_ANON_KEY)
+        AppGroupIdentifier: group.$(BUNDLE_ID_PREFIX).quinze
+        CFBundleURLTypes:
+          - CFBundleURLName: $(PRODUCT_BUNDLE_IDENTIFIER)
+            CFBundleURLSchemes:
+              - quinze
+    entitlements:
+      path: Config/Generated/Quinze.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.$(BUNDLE_ID_PREFIX).quinze
+        com.apple.developer.applesignin:
+          - Default
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).quinze
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+
+  # ---------------------------------------------------------------- Extensions Screen Time
+  QuinzeMonitor:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Extensions/DeviceActivityMonitor
+      - path: Shared
+    dependencies:
+      - package: LearningCore
+        product: LearningPrimitives
+      - sdk: FamilyControls.framework
+      - sdk: ManagedSettings.framework
+      - sdk: DeviceActivity.framework
+    info:
+      path: Config/Generated/QuinzeMonitor-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleDisplayName: Quinze Monitor
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        AppGroupIdentifier: group.$(BUNDLE_ID_PREFIX).quinze
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.deviceactivity.monitor-extension
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).QuinzeMonitor
+    entitlements:
+      path: Config/Generated/QuinzeMonitor.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.$(BUNDLE_ID_PREFIX).quinze
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).quinze.monitor
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        LD_RUNPATH_SEARCHPATHS: $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
+
+  QuinzeShieldConfiguration:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Extensions/ShieldConfiguration
+      - path: Shared
+    dependencies:
+      - package: LearningCore
+        product: LearningPrimitives
+      - sdk: FamilyControls.framework
+      - sdk: ManagedSettings.framework
+      - sdk: ManagedSettingsUI.framework
+    info:
+      path: Config/Generated/QuinzeShieldConfiguration-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleDisplayName: Quinze Écran de restriction
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        AppGroupIdentifier: group.$(BUNDLE_ID_PREFIX).quinze
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.ManagedSettingsUI.shield-configuration-service
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShieldConfigurationExtension
+    entitlements:
+      path: Config/Generated/QuinzeShieldConfiguration.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.$(BUNDLE_ID_PREFIX).quinze
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).quinze.shieldconfig
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        LD_RUNPATH_SEARCHPATHS: $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
+
+  QuinzeShieldAction:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Extensions/ShieldAction
+      - path: Shared
+    dependencies:
+      - package: LearningCore
+        product: LearningPrimitives
+      - sdk: FamilyControls.framework
+      - sdk: ManagedSettings.framework
+      - sdk: UserNotifications.framework
+    info:
+      path: Config/Generated/QuinzeShieldAction-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleDisplayName: Quinze Action de restriction
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        AppGroupIdentifier: group.$(BUNDLE_ID_PREFIX).quinze
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.ManagedSettings.shield-action-service
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShieldActionExtension
+    entitlements:
+      path: Config/Generated/QuinzeShieldAction.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.$(BUNDLE_ID_PREFIX).quinze
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).quinze.shieldaction
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        LD_RUNPATH_SEARCHPATHS: $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
+
+  # ---------------------------------------------------------------- Tests
+  QuinzeTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: App/Tests
+    dependencies:
+      - target: Quinze
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).quinze.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Quinze.app/Quinze
+        BUNDLE_LOADER: $(TEST_HOST)

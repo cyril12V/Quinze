@@ -1,0 +1,248 @@
+{
+  "lessonId": "en.l43",
+  "exercises": [
+    {
+      "id": "en.l43.e01",
+      "unitIds": ["en.g29.some_any", "en.v.bread"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le bon mot.",
+      "prompt": "Can I have ___ bread, please?",
+      "promptLanguage": "en",
+      "options": ["some", "any", "a"],
+      "answer": "some",
+      "acceptedAnswers": ["some"],
+      "hint": "Tu demandes poliment quelque chose.",
+      "explanation": "Quand on demande ou qu'on offre quelque chose poliment, on utilise some, même dans une question : Can I have some bread ? Bread ne se compte pas, donc pas de a.",
+      "tip": "Demande polie (Can I have… ?) : some, pas any.",
+      "extraExample": {"text": "Can I have some milk, please?", "translation": "Puis-je avoir du lait, s'il vous plaît ?"},
+      "errorPatterns": [
+        {"equals": "any", "category": "grammar", "feedback": "Any s'utilise dans les négations et les questions simples. Dans une demande polie comme Can I have… ?, on dit some."},
+        {"equals": "a", "category": "grammar", "feedback": "Bread est un nom qu'on ne compte pas : on ne dit pas « a bread ». Pour « du pain », on dit some bread."}
+      ]
+    },
+    {
+      "id": "en.l43.e02",
+      "unitIds": ["en.g29.some_any", "en.g28.there_is_are"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis le bon mot.",
+      "prompt": "There isn't ___ milk in the fridge.",
+      "promptLanguage": "en",
+      "options": ["any", "some", "a"],
+      "answer": "any",
+      "acceptedAnswers": ["any"],
+      "hint": "La phrase est négative.",
+      "explanation": "Dans une phrase négative, on utilise any : There isn't any milk veut dire « il n'y a pas de lait ». Some est réservé aux phrases affirmatives.",
+      "tip": "Négation (isn't, don't…) : any.",
+      "extraExample": {"text": "We don't have any meat today.", "translation": "Nous n'avons pas de viande aujourd'hui."},
+      "errorPatterns": [
+        {"equals": "some", "category": "grammar", "feedback": "Some ne s'utilise pas dans une phrase négative. Après isn't, on dit any."},
+        {"equals": "a", "category": "grammar", "feedback": "Milk ne se compte pas : on ne dit pas « a milk ». Pour « pas de lait », on dit isn't any milk."}
+      ]
+    },
+    {
+      "id": "en.l43.e03",
+      "unitIds": ["en.g29.some_any", "en.v.menu", "en.v.bill", "en.v.waiter", "en.v.bread", "en.v.order"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot du restaurant à sa traduction.",
+      "prompt": "Au restaurant",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "menu", "right": "la carte"},
+        {"left": "bill", "right": "l'addition"},
+        {"left": "waiter", "right": "le serveur"},
+        {"left": "bread", "right": "le pain"},
+        {"left": "order", "right": "commander"}
+      ],
+      "answer": "menu = la carte ; bill = l'addition ; waiter = le serveur ; bread = le pain ; order = commander",
+      "acceptedAnswers": [],
+      "explanation": "Au restaurant, le menu est la carte (le choix de plats). Le waiter apporte les plats et la bill est l'addition. Attention : order est ici un verbe, « commander ».",
+      "tip": "Bill = l'addition : au restaurant, on la demande à la fin du repas.",
+      "extraExample": {"text": "The waiter has the menu.", "translation": "Le serveur a la carte."}
+    },
+    {
+      "id": "en.l43.e04",
+      "unitIds": ["en.g29.some_any", "en.g28.there_is_are"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec some, any ou a.",
+      "prompt": "Look! There is ___ meat in the fridge.",
+      "promptLanguage": "en",
+      "options": ["some", "any", "a"],
+      "answer": "some",
+      "acceptedAnswers": ["some"],
+      "hint": "La phrase est affirmative.",
+      "explanation": "Dans une phrase affirmative, on utilise some pour « du, de la, des » : There is some meat. Meat ne se compte pas, donc pas de a.",
+      "tip": "Phrase affirmative avec « du / de la / des » : some.",
+      "extraExample": {"text": "There is some fish in the kitchen.", "translation": "Il y a du poisson dans la cuisine."},
+      "errorPatterns": [
+        {"equals": "any", "category": "grammar", "feedback": "Any s'utilise dans les négations et les questions. Ta phrase est affirmative : on dit some."},
+        {"equals": "a", "category": "grammar", "feedback": "Meat ne se compte pas : on ne dit pas « a meat ». Pour « de la viande », on dit some meat."}
+      ]
+    },
+    {
+      "id": "en.l43.e05",
+      "unitIds": ["en.g29.some_any", "en.v.waiter", "en.v.bread"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "context": "Anna is at a restaurant. She speaks to the waiter.",
+      "instruction": "Complète : c'est une vraie question, Anna ne sait pas s'il y en a.",
+      "prompt": "Do you have ___ bread today?",
+      "promptLanguage": "en",
+      "options": ["any", "some", "a"],
+      "answer": "any",
+      "acceptedAnswers": ["any"],
+      "hint": "C'est une question simple, pas une demande polie.",
+      "explanation": "Dans une question simple (on veut savoir s'il y en a), on utilise any : Do you have any bread ? Some sert plutôt aux demandes et aux offres polies.",
+      "tip": "Question simple pour savoir s'il y en a : any.",
+      "extraExample": {"text": "Is there any coffee in the kitchen?", "translation": "Y a-t-il du café dans la cuisine ?"},
+      "errorPatterns": [
+        {"equals": "some", "category": "grammar", "feedback": "Anna veut savoir si le serveur a du pain : c'est une question simple, donc any. Some s'emploie dans les demandes polies comme Can I have some… ?"},
+        {"equals": "a", "category": "grammar", "feedback": "Bread ne se compte pas : on ne dit pas « a bread ». Pour « du pain » dans une question, on dit any bread."}
+      ]
+    },
+    {
+      "id": "en.l43.e06",
+      "unitIds": ["en.g29.some_any"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former la demande polie.",
+      "prompt": "Puis-je avoir de l'eau, s'il vous plaît ?",
+      "promptLanguage": "fr",
+      "tokens": ["water", "Can", "some", "I", "please", "have"],
+      "answer": "Can I have some water please",
+      "acceptedAnswers": ["Can I have some water please", "Please can I have some water"],
+      "hint": "La phrase commence par Can I have. Please se place à la fin.",
+      "explanation": "Pour demander poliment, on dit Can I have some… please ? On garde some dans une demande polie, même si c'est une question.",
+      "tip": "Can I have some… , please ? : la formule du restaurant.",
+      "extraExample": {"text": "Can I have some coffee, please?", "translation": "Puis-je avoir du café, s'il vous plaît ?"}
+    },
+    {
+      "id": "en.l43.e07",
+      "unitIds": ["en.g29.some_any", "en.v.menu", "en.v.bread"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais. « s'il vous plaît » = please.",
+      "prompt": "Je peux avoir du pain et la carte, s'il vous plaît ?",
+      "promptLanguage": "fr",
+      "answer": "Can I have some bread and the menu, please?",
+      "acceptedAnswers": [
+        "Can I have some bread and the menu, please?",
+        "Can I have the menu and some bread, please?",
+        "Please can I have some bread and the menu?",
+        "Please can I have the menu and some bread?",
+        "Could I have some bread and the menu, please?",
+        "Could I have the menu and some bread, please?",
+        "May I have some bread and the menu, please?",
+        "May I have the menu and some bread, please?",
+        "Can I get some bread and the menu, please?",
+        "Can I have some bread and a menu, please?",
+        "Can I have a menu and some bread, please?"
+      ],
+      "hint": "Dans une demande polie, on dit some, pas any.",
+      "explanation": "Pour demander poliment, on dit Can I have some… ? : some bread. Le menu est précis (la carte du restaurant), donc the menu. Please termine la phrase.",
+      "tip": "Demande polie : Can I have some… , please ?",
+      "extraExample": {"text": "Can I have some water and a menu, please?", "translation": "Puis-je avoir de l'eau et une carte, s'il vous plaît ?"},
+      "errorPatterns": [
+        {"contains": "any bread", "category": "grammar", "feedback": "Dans une demande polie, on garde some, même dans une question : Can I have some bread ?"},
+        {"contains": "a bread", "category": "grammar", "feedback": "Bread ne se compte pas : on ne dit pas « a bread ». Pour « du pain », on dit some bread."},
+        {"contains": "have bread", "category": "grammar", "feedback": "Il manque some pour « du pain » dans une demande polie : Can I have some bread ?"}
+      ]
+    },
+    {
+      "id": "en.l43.e08",
+      "unitIds": ["en.g29.some_any", "en.v.waiter"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais, avec any.",
+      "prompt": "Le serveur n'a pas de poisson aujourd'hui.",
+      "promptLanguage": "fr",
+      "answer": "The waiter doesn't have any fish today.",
+      "acceptedAnswers": [
+        "The waiter doesn't have any fish today.",
+        "The waiter does not have any fish today.",
+        "The waiter hasn't got any fish today.",
+        "Today the waiter doesn't have any fish.",
+        "The waiter doesn't have any fish."
+      ],
+      "hint": "Phrase négative : doesn't have + any.",
+      "explanation": "Dans une phrase négative, « de, du » se dit any : doesn't have any fish. Avec un sujet à la 3e personne (the waiter), on utilise doesn't et have reste à la forme de base.",
+      "tip": "Négation + « pas de… » : not + any.",
+      "extraExample": {"text": "We don't have any milk today.", "translation": "Nous n'avons pas de lait aujourd'hui."},
+      "errorPatterns": [
+        {"contains": "some fish", "category": "grammar", "feedback": "Dans une phrase négative, on utilise any, pas some : doesn't have any fish."},
+        {"contains": "doesn't has", "category": "conjugation", "feedback": "Après doesn't, le verbe reste à la forme de base : doesn't have, pas doesn't has."},
+        {"equals": "the waiter doesn't have fish today", "category": "instruction", "feedback": "Ta phrase est correcte, mais la consigne demande d'utiliser any : The waiter doesn't have any fish today."}
+      ]
+    },
+    {
+      "id": "en.l43.e09",
+      "unitIds": ["en.g29.some_any", "en.v.bill"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "context": "Tom and Anna finish their dinner. They want to leave.",
+      "instruction": "Écris la demande polie en anglais.",
+      "prompt": "Comment demander poliment l'addition au serveur ?",
+      "promptLanguage": "fr",
+      "answer": "Can I have the bill, please?",
+      "acceptedAnswers": [
+        "Can I have the bill, please?",
+        "Can we have the bill, please?",
+        "Could I have the bill, please?",
+        "Could we have the bill, please?",
+        "Please can I have the bill?",
+        "Please can we have the bill?",
+        "The bill, please.",
+        "Can I get the bill, please?",
+        "Can we get the bill, please?",
+        "Can I have the check, please?",
+        "Can we have the check, please?",
+        "Excuse me, can I have the bill, please?",
+        "Excuse me, can we have the bill, please?",
+        "May I have the bill, please?",
+        "May we have the bill, please?",
+        "I would like the bill, please.",
+        "Could I get the bill, please?"
+      ],
+      "hint": "Commence par Can I have et termine par please.",
+      "explanation": "Pour demander l'addition, on dit Can I have the bill, please ? The bill est précis (l'addition de ce repas). N'oublie pas please pour rester poli. (Aux États-Unis : the check.)",
+      "tip": "Pour demander poliment : Can I have… , please ?",
+      "extraExample": {"text": "Can we have the menu, please?", "translation": "Pouvons-nous avoir la carte, s'il vous plaît ?"},
+      "errorPatterns": [
+        {"contains": "i want the bill", "category": "grammar", "feedback": "I want est trop direct pour demander l'addition. Dis plutôt Can I have the bill, please ?"},
+        {"contains": "a bill", "category": "grammar", "feedback": "On demande l'addition du repas, donc the bill (la), pas a bill."}
+      ]
+    },
+    {
+      "id": "en.l43.e10",
+      "unitIds": ["en.g29.some_any", "en.v.order"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Je veux commander du poisson et du pain. » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I want to order some fish and some bread.",
+      "acceptedAnswers": [
+        "I want to order some fish and some bread.",
+        "I want to order some fish and bread.",
+        "I want to order fish and bread.",
+        "I want to order some bread and some fish.",
+        "I want to order some bread and fish.",
+        "I want to order bread and fish.",
+        "I would like to order some fish and some bread.",
+        "I would like to order some fish and bread."
+      ],
+      "hint": "Want + to + verbe. Commander = order.",
+      "explanation": "Dans une phrase affirmative, « du poisson » se dit some fish, et « du pain » some bread. Commander se dit order, après want to.",
+      "tip": "Affirmatif : I want to order some… (jamais any).",
+      "extraExample": {"text": "We want to order some coffee and some cake.", "translation": "Nous voulons commander du café et du gâteau."},
+      "errorPatterns": [
+        {"contains": "any fish", "category": "grammar", "feedback": "Any ne s'utilise pas dans une phrase affirmative. On dit some fish."},
+        {"contains": "i want to order a bread", "category": "grammar", "feedback": "Bread ne se compte pas : on ne dit pas « a bread ». On dit some bread."},
+        {"contains": "i want some", "category": "vocabulary", "feedback": "Il manque le verbe commander : to order. I want to order some fish…"}
+      ]
+    }
+  ]
+}

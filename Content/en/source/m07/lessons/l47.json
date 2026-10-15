@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l47",
+  "exercises": [
+    {
+      "id": "en.l47.e01",
+      "unitIds": ["en.g32.word_order", "en.v.small"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « un petit chien » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["a small dog", "a dog small", "a smalls dog", "an small dog"],
+      "answer": "a small dog",
+      "acceptedAnswers": ["a small dog"],
+      "hint": "En anglais, l'adjectif se place avant le nom.",
+      "explanation": "L'adjectif se met devant le nom : small dog. Il ne change pas et on choisit l'article d'après le premier mot qui suit : small commence par une consonne, donc a.",
+      "tip": "L'adjectif passe devant le nom, comme dans « a small dog » : on lit d'abord la qualité, puis la chose.",
+      "extraExample": {"text": "a small house", "translation": "une petite maison"},
+      "errorPatterns": [
+        {"equals": "a dog small", "category": "word_order", "feedback": "En français l'adjectif suit souvent le nom, mais en anglais il se place avant : a small dog."},
+        {"equals": "a smalls dog", "category": "grammar", "feedback": "L'adjectif anglais ne prend jamais de -s. On dit a small dog."},
+        {"equals": "an small dog", "category": "grammar", "feedback": "An s'utilise devant un son de voyelle. Small commence par le son « s » : a small dog."}
+      ]
+    },
+    {
+      "id": "en.l47.e02",
+      "unitIds": ["en.g32.word_order", "en.v.big", "en.v.small", "en.v.new", "en.v.old", "en.v.beautiful"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les adjectifs devant le nom : big, small, new, old, beautiful",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "a big house", "right": "une grande maison"},
+        {"left": "a small car", "right": "une petite voiture"},
+        {"left": "a new phone", "right": "un téléphone neuf"},
+        {"left": "an old book", "right": "un vieux livre"},
+        {"left": "a beautiful city", "right": "une belle ville"}
+      ],
+      "answer": "a big house = une grande maison ; a small car = une petite voiture ; a new phone = un téléphone neuf ; an old book = un vieux livre ; a beautiful city = une belle ville",
+      "acceptedAnswers": [],
+      "explanation": "En anglais, l'adjectif vient avant le nom et ne change pas, qu'il soit masculin ou féminin. On dit an old book car old commence par un son de voyelle.",
+      "tip": "Big, small, new, old, beautiful : un seul mot pour le masculin et le féminin."
+    },
+    {
+      "id": "en.l47.e03",
+      "unitIds": ["en.g32.word_order"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « J'aime beaucoup l'anglais. » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I like English very much.", "I like very much English.", "I very like English.", "I like English very."],
+      "answer": "I like English very much.",
+      "acceptedAnswers": ["I like English very much."],
+      "hint": "Le verbe et son complément (like English) restent ensemble.",
+      "explanation": "En anglais, on ne met pas l'adverbe entre le verbe et son complément. On garde I like English ensemble et on ajoute very much à la fin.",
+      "tip": "Verbe + complément d'abord, very much ensuite : I like English very much.",
+      "extraExample": {"text": "We love our new house very much.", "translation": "Nous aimons beaucoup notre nouvelle maison."},
+      "errorPatterns": [
+        {"equals": "i like very much english", "category": "word_order", "feedback": "C'est le calque du français. En anglais, very much va à la fin : I like English very much."},
+        {"equals": "i very like english", "category": "word_order", "feedback": "Very ne se place pas devant like seul. Pour « beaucoup », on dit very much à la fin de la phrase."},
+        {"equals": "i like english very", "category": "grammar", "feedback": "Very doit être suivi d'un adjectif ou de much. Il faut dire very much."}
+      ]
+    },
+    {
+      "id": "en.l47.e04",
+      "unitIds": ["en.g32.word_order", "en.v.new"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec l'adjectif qui correspond à la traduction.",
+      "prompt": "Anna has a ___ car. (une voiture neuve)",
+      "promptLanguage": "en",
+      "options": ["new", "old", "small", "beautiful"],
+      "answer": "new",
+      "acceptedAnswers": ["new"],
+      "hint": "Le contraire de old.",
+      "explanation": "New veut dire « neuf, nouveau ». L'adjectif se place entre l'article et le nom : a new car.",
+      "tip": "Article + adjectif + nom : a new car.",
+      "extraExample": {"text": "Tom has a new phone.", "translation": "Tom a un téléphone neuf."},
+      "errorPatterns": [
+        {"equals": "old", "category": "vocabulary", "feedback": "Old veut dire « vieux ». Pour « neuve », on dit new."},
+        {"equals": "small", "category": "vocabulary", "feedback": "Small veut dire « petit ». Pour « neuve », on dit new."}
+      ]
+    },
+    {
+      "id": "en.l47.e05",
+      "unitIds": ["en.g32.word_order"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète pour dire que Tom n'est jamais en retard.",
+      "prompt": "Tom ___ late.",
+      "promptLanguage": "en",
+      "options": ["is never", "never is", "is not never"],
+      "answer": "is never",
+      "acceptedAnswers": ["is never"],
+      "hint": "Avec le verbe be, l'adverbe de fréquence se place après.",
+      "explanation": "L'adverbe de fréquence se place après be : Tom is never late. Never est déjà négatif : on n'ajoute pas not.",
+      "tip": "Après be, l'adverbe : is never, is always. Avec les autres verbes, il se place avant : never eats.",
+      "extraExample": {"text": "My sister is always happy.", "translation": "Ma sœur est toujours contente."},
+      "errorPatterns": [
+        {"equals": "never is", "category": "word_order", "feedback": "Avec be, l'adverbe de fréquence se met après le verbe : is never."},
+        {"equals": "is not never", "category": "grammar", "feedback": "Never est déjà négatif : on ne met pas not en plus. On dit is never."}
+      ]
+    },
+    {
+      "id": "en.l47.e06",
+      "unitIds": ["en.g32.word_order", "en.v.new"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "J'aime beaucoup ma nouvelle maison.",
+      "promptLanguage": "fr",
+      "tokens": ["house", "very", "I", "my", "much", "new", "like"],
+      "answer": "I like my new house very much",
+      "acceptedAnswers": ["I like my new house very much", "I very much like my new house"],
+      "hint": "Commence par le sujet et le verbe, termine par very much.",
+      "explanation": "L'ordre normal est sujet + verbe + complément : I like my new house. Ensuite on ajoute very much à la fin. L'adjectif new se place devant house.",
+      "tip": "Sujet, verbe, complément, puis l'adverbe à la fin.",
+      "extraExample": {"text": "She likes her small apartment very much.", "translation": "Elle aime beaucoup son petit appartement."}
+    },
+    {
+      "id": "en.l47.e07",
+      "unitIds": ["en.g32.word_order", "en.v.big"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous avons un grand appartement.",
+      "promptLanguage": "fr",
+      "answer": "We have a big apartment.",
+      "acceptedAnswers": ["We have a big apartment.", "We have a large apartment.", "We have got a big apartment.", "We have got a large apartment.", "We have a big flat.", "We have a large flat.", "We have got a big flat.", "We have got a large flat."],
+      "hint": "Grand se place avant appartement.",
+      "explanation": "En anglais, l'adjectif big se place devant le nom : a big apartment. L'article a est correct car big commence par une consonne.",
+      "tip": "Grand appartement ? Big d'abord, apartment ensuite.",
+      "extraExample": {"text": "They have a big garden.", "translation": "Ils ont un grand jardin."},
+      "errorPatterns": [
+        {"contains": "apartment big", "category": "word_order", "feedback": "L'adjectif se place avant le nom : a big apartment."},
+        {"contains": "bigs", "category": "grammar", "feedback": "L'adjectif anglais ne prend jamais de -s : big."},
+        {"contains": "an big", "category": "grammar", "feedback": "Big commence par un son de consonne : on dit a big apartment."}
+      ]
+    },
+    {
+      "id": "en.l47.e08",
+      "unitIds": ["en.g32.word_order", "en.v.old"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous aimons beaucoup notre vieille maison.",
+      "promptLanguage": "fr",
+      "answer": "We like our old house very much.",
+      "acceptedAnswers": ["We like our old house very much.", "We like our old house a lot.", "We very much like our old house.", "We love our old house.", "We love our old house a lot.", "We love our old house very much.", "We really like our old house."],
+      "hint": "Garde « like our old house » ensemble.",
+      "explanation": "Le verbe like et son complément our old house restent ensemble, et very much vient à la fin. L'adjectif old se place avant house et ne change pas au féminin.",
+      "tip": "Beaucoup se met à la fin : ... very much.",
+      "extraExample": {"text": "I like my new job very much.", "translation": "J'aime beaucoup mon nouveau travail."},
+      "errorPatterns": [
+        {"contains": "like very much", "category": "word_order", "feedback": "Very much ne se place pas entre le verbe et son complément. Mets-le à la fin : We like our old house very much."},
+        {"contains": "house old", "category": "word_order", "feedback": "L'adjectif se place avant le nom : our old house."},
+        {"contains": "olds", "category": "grammar", "feedback": "L'adjectif ne prend jamais de -s ni de féminin : our old house."}
+      ]
+    },
+    {
+      "id": "en.l47.e09",
+      "unitIds": ["en.g32.word_order", "en.v.old"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais, avec l'article qui convient.",
+      "prompt": "Comment dit-on « un vieux livre » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "an old book",
+      "acceptedAnswers": ["an old book"],
+      "hint": "Old commence par un son de voyelle.",
+      "explanation": "L'adjectif old se place devant book. Comme old commence par un son de voyelle, l'article est an : an old book.",
+      "tip": "L'article s'accorde avec le mot qui le suit, donc avec l'adjectif : an old book, a good book.",
+      "extraExample": {"text": "an old house", "translation": "une vieille maison"},
+      "errorPatterns": [
+        {"equals": "a old book", "category": "grammar", "feedback": "Old commence par un son de voyelle : on dit an old book."},
+        {"equals": "a book old", "category": "word_order", "feedback": "L'adjectif se place avant le nom : an old book."},
+        {"equals": "an olds book", "category": "grammar", "feedback": "L'adjectif ne prend jamais de -s : an old book."}
+      ]
+    },
+    {
+      "id": "en.l47.e10",
+      "unitIds": ["en.g32.word_order", "en.v.beautiful"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Elle habite dans une belle ville.",
+      "promptLanguage": "fr",
+      "answer": "She lives in a beautiful city.",
+      "acceptedAnswers": ["She lives in a beautiful city.", "She is living in a beautiful city.", "She lives in a lovely city.", "She is living in a lovely city.", "She lives in a beautiful town.", "She lives in a lovely town."],
+      "hint": "Beautiful se place entre a et city.",
+      "explanation": "Beautiful reste devant le nom et ne change pas : a beautiful city. Avec she, le verbe prend un -s : lives.",
+      "tip": "Beautiful est le même pour une belle ville ou un bel homme : adjectif devant le nom.",
+      "extraExample": {"text": "He has a beautiful house.", "translation": "Il a une belle maison."},
+      "errorPatterns": [
+        {"contains": "city beautiful", "category": "word_order", "feedback": "L'adjectif se place avant le nom : a beautiful city."},
+        {"contains": "she live in", "category": "conjugation", "feedback": "Avec she, le verbe prend un -s : she lives."}
+      ]
+    }
+  ]
+}

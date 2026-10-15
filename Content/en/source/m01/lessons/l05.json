@@ -1,0 +1,203 @@
+{
+  "lessonId": "en.l05",
+  "exercises": [
+    {
+      "id": "en.l05.e01",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.busy", "en.g03.be_affirmative"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Je ne suis pas occupé » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["I am not busy", "I not am busy", "I am no busy", "I not busy"],
+      "answer": "I am not busy",
+      "acceptedAnswers": ["I am not busy"],
+      "hint": "Le mot not se place juste après le verbe être.",
+      "explanation": "Pour nier avec to be, on ajoute not après le verbe : I am not busy. Not se place toujours après am, is ou are.",
+      "tip": "Verbe être + not : am not, is not, are not.",
+      "extraExample": {"text": "He is not tired.", "translation": "Il n'est pas fatigué."},
+      "errorPatterns": [
+        {"equals": "i not am busy", "category": "word_order", "feedback": "Not se place après le verbe être, pas avant : I am not busy."},
+        {"equals": "i am no busy", "category": "grammar", "feedback": "No n'est pas le mot de la négation avec le verbe être. On utilise not : I am not busy."},
+        {"equals": "i not busy", "category": "grammar", "feedback": "Il manque le verbe être. En anglais : I am not busy."}
+      ]
+    },
+    {
+      "id": "en.l05.e02",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.hungry", "en.g03.be_affirmative"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Tu as faim ? » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["Are you hungry?", "Is you hungry?", "Am you hungry?", "Are hungry you?"],
+      "answer": "Are you hungry?",
+      "acceptedAnswers": ["Are you hungry?"],
+      "hint": "En anglais, on ne « a » pas faim : on est hungry.",
+      "explanation": "En anglais, on utilise le verbe être pour la faim : you are hungry (« tu es affamé »). Pour poser la question, on met are avant you : Are you hungry?",
+      "tip": "Question avec to be : verbe être + sujet + le reste.",
+      "extraExample": {"text": "Is she cold?", "translation": "A-t-elle froid ?"},
+      "errorPatterns": [
+        {"equals": "is you hungry", "category": "conjugation", "feedback": "Is va avec he, she et it. Avec you, on dit are : Are you hungry?"},
+        {"equals": "am you hungry", "category": "conjugation", "feedback": "Am va uniquement avec I. Avec you, on dit are : Are you hungry?"},
+        {"equals": "are hungry you", "category": "word_order", "feedback": "L'ordre est verbe être, puis sujet, puis hungry : Are you hungry?"}
+      ]
+    },
+    {
+      "id": "en.l05.e03",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.late", "en.v.busy", "en.v.hungry", "en.v.cold", "en.v.right"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque phrase anglaise à sa traduction.",
+      "prompt": "Les nouveaux mots avec to be : late, busy, hungry, cold, right",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "I am late", "right": "je suis en retard"},
+        {"left": "you are busy", "right": "tu es occupé"},
+        {"left": "he is hungry", "right": "il a faim"},
+        {"left": "it is cold", "right": "il fait froid"},
+        {"left": "she is right", "right": "elle a raison"}
+      ],
+      "answer": "I am late = je suis en retard ; you are busy = tu es occupé ; he is hungry = il a faim ; it is cold = il fait froid ; she is right = elle a raison",
+      "acceptedAnswers": [],
+      "explanation": "Attention : en français on « a » faim, froid ou raison, mais en anglais on utilise le verbe être : he is hungry, I am cold, she is right.",
+      "tip": "Faim, froid, raison : en anglais, ce sont des états avec be, pas avec avoir.",
+      "extraExample": {"text": "We are cold.", "translation": "Nous avons froid."}
+    },
+    {
+      "id": "en.l05.e04",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.late"],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète avec la forme négative qui convient.",
+      "prompt": "She ___ late. (Elle n'est pas en retard.)",
+      "promptLanguage": "en",
+      "options": ["isn't", "aren't", "am not"],
+      "answer": "isn't",
+      "acceptedAnswers": ["isn't", "is not"],
+      "hint": "She se rapproche de is.",
+      "explanation": "Avec she, le verbe être se dit is. Pour nier, on ajoute not : is not, qui s'abrège en isn't. Donc she isn't late.",
+      "tip": "Isn't = is not : he, she, it.",
+      "extraExample": {"text": "He isn't ready.", "translation": "Il n'est pas prêt."},
+      "errorPatterns": [
+        {"equals": "aren't", "category": "conjugation", "feedback": "Aren't va avec you, we et they. Avec she, on dit isn't."},
+        {"equals": "am not", "category": "conjugation", "feedback": "Am not va uniquement avec I. Avec she, on dit isn't : she isn't late."}
+      ]
+    },
+    {
+      "id": "en.l05.e05",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.cold"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la forme négative qui convient.",
+      "prompt": "We ___ cold. (Nous n'avons pas froid.)",
+      "promptLanguage": "en",
+      "options": ["aren't", "isn't", "not"],
+      "answer": "aren't",
+      "acceptedAnswers": ["aren't", "are not"],
+      "hint": "Avec we, le verbe être se dit are.",
+      "explanation": "Avec we, le verbe être se dit are. On ajoute not : are not, qui s'abrège en aren't. En anglais, on est cold : we aren't cold.",
+      "tip": "Aren't = are not : you, we, they.",
+      "extraExample": {"text": "They aren't hungry.", "translation": "Ils n'ont pas faim."},
+      "errorPatterns": [
+        {"equals": "isn't", "category": "conjugation", "feedback": "Isn't va avec he, she et it. Avec we, on dit aren't."},
+        {"equals": "not", "category": "grammar", "feedback": "Not seul ne suffit pas : il faut le verbe être. On dit are not ou aren't : we aren't cold."}
+      ]
+    },
+    {
+      "id": "en.l05.e06",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.late", "en.v.teacher"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former une question.",
+      "prompt": "Le professeur est-il en retard ?",
+      "promptLanguage": "fr",
+      "tokens": ["late", "teacher", "the", "Is"],
+      "answer": "Is the teacher late",
+      "acceptedAnswers": ["Is the teacher late"],
+      "hint": "Une question commence par le verbe être.",
+      "explanation": "Pour poser une question avec to be, on place le verbe avant le sujet : Is the teacher late? Dans une phrase affirmative, l'ordre est inversé : The teacher is late.",
+      "tip": "Question : verbe être d'abord (Is, Are, Am), puis le sujet.",
+      "extraExample": {"text": "Are you ready?", "translation": "Es-tu prêt ?"}
+    },
+    {
+      "id": "en.l05.e07",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.right", "en.g03.be_affirmative"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais. Tu parles à une seule personne.",
+      "prompt": "Tu as raison.",
+      "promptLanguage": "fr",
+      "answer": "You are right",
+      "acceptedAnswers": ["You are right", "You are correct"],
+      "hint": "En anglais, on est right : on utilise le verbe être.",
+      "explanation": "Pour dire qu'on a raison, l'anglais utilise le verbe être : you are right. On ne traduit pas « avoir » par have ici.",
+      "tip": "Avoir raison = to be right.",
+      "extraExample": {"text": "I am right.", "translation": "J'ai raison."},
+      "errorPatterns": [
+        {"contains": "you have", "category": "verb_tense", "feedback": "Pour avoir raison, on utilise le verbe être et non « avoir » : you are right."},
+        {"contains": "you is", "category": "conjugation", "feedback": "Avec you, le verbe être se dit are : you are right."}
+      ]
+    },
+    {
+      "id": "en.l05.e08",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.tired", "en.v.hungry", "en.g03.be_affirmative"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "Il n'est pas fatigué et il a faim.",
+      "promptLanguage": "fr",
+      "answer": "He is not tired and he is hungry",
+      "acceptedAnswers": ["He is not tired and he is hungry", "He is not tired and is hungry"],
+      "hint": "Il a faim se dit avec le verbe être.",
+      "explanation": "Il n'est pas fatigué = he is not tired (ou he isn't tired). Il a faim = he is hungry : en anglais, on est hungry. Pas de have ici.",
+      "tip": "Faim = hungry avec be : he is hungry.",
+      "extraExample": {"text": "She is not cold and she is happy.", "translation": "Elle n'a pas froid et elle est contente."},
+      "errorPatterns": [
+        {"contains": "he has", "category": "verb_tense", "feedback": "Pour la faim, l'anglais utilise le verbe être : he is hungry."},
+        {"contains": "he have", "category": "verb_tense", "feedback": "Pour la faim, l'anglais utilise le verbe être : he is hungry."},
+        {"contains": "he not is", "category": "word_order", "feedback": "Not se place après le verbe être : he is not tired."}
+      ]
+    },
+    {
+      "id": "en.l05.e09",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.late", "en.g03.be_affirmative"],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment dit-on « Est-ce que tu es en retard ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Are you late",
+      "acceptedAnswers": ["Are you late"],
+      "hint": "Place le verbe être avant le sujet.",
+      "explanation": "Pour poser la question, on place le verbe être avant le sujet : Are you late? En français, « est-ce que » sert à poser la question ; en anglais, on inverse.",
+      "tip": "Pas de « est-ce que » en anglais : on inverse le verbe et le sujet.",
+      "extraExample": {"text": "Is he busy?", "translation": "Est-ce qu'il est occupé ?"},
+      "errorPatterns": [
+        {"equals": "you are late", "category": "word_order", "feedback": "C'est l'ordre d'une phrase affirmative. Pour une question, mets are d'abord : Are you late?"},
+        {"equals": "is you late", "category": "conjugation", "feedback": "Is va avec he, she et it. Avec you, on dit are : Are you late?"},
+        {"equals": "are you be late", "category": "grammar", "feedback": "N'ajoute pas be : are est déjà le verbe. On dit Are you late?"}
+      ]
+    },
+    {
+      "id": "en.l05.e10",
+      "unitIds": ["en.g04.be_negative_questions", "en.v.cold", "en.g03.be_affirmative"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Non, je n'ai pas froid » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "No, I am not cold",
+      "acceptedAnswers": ["No, I am not cold", "I am not cold", "No I am not cold"],
+      "hint": "Froid se dit avec le verbe être : I am...",
+      "explanation": "Avoir froid se dit be cold en anglais : I am cold. Pour nier, on ajoute not après am : I am not cold. En anglais standard, « amn't » n'existe pas : on dit I am not ou I'm not.",
+      "tip": "Avec I : I am not ou I'm not, jamais « I isn't ».",
+      "extraExample": {"text": "No, I'm not hungry.", "translation": "Non, je n'ai pas faim."},
+      "errorPatterns": [
+        {"contains": "i have", "category": "verb_tense", "feedback": "Pour le froid, l'anglais utilise le verbe être : I am cold, et non « avoir »."},
+        {"contains": "i am no cold", "category": "grammar", "feedback": "Pour nier avec le verbe être, on utilise not : I am not cold."},
+        {"contains": "i not am", "category": "word_order", "feedback": "Not se place après le verbe être : I am not cold."}
+      ]
+    }
+  ]
+}

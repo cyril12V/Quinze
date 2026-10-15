@@ -1,0 +1,220 @@
+{
+  "lessonId": "en.l22",
+  "exercises": [
+    {
+      "id": "en.l22.e01",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.gym"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « Je vais toujours à la salle de sport le matin » ?",
+      "promptLanguage": "fr",
+      "options": ["I always go to the gym in the morning.", "I go always to the gym in the morning.", "I go to always the gym in the morning."],
+      "answer": "I always go to the gym in the morning.",
+      "acceptedAnswers": ["I always go to the gym in the morning."],
+      "hint": "Où se place always par rapport au verbe go ?",
+      "explanation": "Avec un verbe ordinaire, l'adverbe de fréquence se place avant le verbe : I always go. En français, toujours se met après le verbe (« je vais toujours »), mais pas en anglais.",
+      "tip": "Avant le verbe : I always go, she often eats.",
+      "extraExample": {"text": "My sister always goes to the gym.", "translation": "Ma sœur va toujours à la salle de sport."},
+      "errorPatterns": [
+        {"equals": "I go always to the gym in the morning.", "category": "word_order", "feedback": "L'adverbe de fréquence se place avant le verbe, pas après : I always go."},
+        {"equals": "I go to always the gym in the morning.", "category": "word_order", "feedback": "Always ne se place jamais au milieu d'un groupe comme to the gym. Mets-le avant le verbe : I always go."}
+      ]
+    },
+    {
+      "id": "en.l22.e02",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.weekend"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Quelle phrase est correcte ?",
+      "promptLanguage": "fr",
+      "options": ["Tom is always happy at the weekend.", "Tom always is happy at the weekend.", "Tom is happy always at the weekend."],
+      "answer": "Tom is always happy at the weekend.",
+      "acceptedAnswers": ["Tom is always happy at the weekend."],
+      "hint": "Avec le verbe be, l'adverbe se place après be.",
+      "explanation": "Avec le verbe be (am, is, are), l'adverbe de fréquence se place après be : Tom is always happy. Avec un autre verbe, il se place avant.",
+      "tip": "Après be, avant les autres verbes.",
+      "extraExample": {"text": "My parents are never late.", "translation": "Mes parents ne sont jamais en retard."},
+      "errorPatterns": [
+        {"equals": "Tom always is happy at the weekend.", "category": "word_order", "feedback": "Avec be, l'adverbe se place après be : Tom is always happy."},
+        {"equals": "Tom is happy always at the weekend.", "category": "word_order", "feedback": "Always se place juste après is, avant happy : Tom is always happy."}
+      ]
+    },
+    {
+      "id": "en.l22.e03",
+      "unitIds": ["en.g17.frequency_adverbs"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque adverbe à sa traduction.",
+      "prompt": "Les adverbes de fréquence",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "always", "right": "toujours"},
+        {"left": "usually", "right": "d'habitude"},
+        {"left": "often", "right": "souvent"},
+        {"left": "rarely", "right": "rarement"},
+        {"left": "never", "right": "jamais"}
+      ],
+      "answer": "always = toujours ; usually = d'habitude ; often = souvent ; rarely = rarement ; never = jamais",
+      "acceptedAnswers": [],
+      "explanation": "Ces adverbes vont de 100 % (always) à 0 % (never) : always, usually, often, sometimes (parfois), rarely, never. Never a déjà un sens négatif.",
+      "tip": "Retiens l'échelle : always, usually, often, sometimes, rarely, never.",
+      "extraExample": {"text": "I never drink coffee at night.", "translation": "Je ne bois jamais de café la nuit."}
+    },
+    {
+      "id": "en.l22.e04",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.music"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec l'adverbe qui correspond à la traduction entre parenthèses.",
+      "prompt": "My brother ___ listens to music. (parfois)",
+      "promptLanguage": "en",
+      "options": ["sometimes", "always", "never"],
+      "answer": "sometimes",
+      "acceptedAnswers": ["sometimes"],
+      "hint": "Parfois = ni toujours ni jamais.",
+      "explanation": "Sometimes veut dire « parfois ». Il se place avant le verbe listens. Le verbe garde son -s car my brother = he.",
+      "tip": "Sometimes = parfois (pas « sometime »).",
+      "extraExample": {"text": "She sometimes plays music in the evening.", "translation": "Elle joue parfois de la musique le soir."},
+      "errorPatterns": [
+        {"equals": "always", "category": "vocabulary", "feedback": "Always veut dire « toujours ». Pour « parfois », on dit sometimes."},
+        {"equals": "never", "category": "vocabulary", "feedback": "Never veut dire « jamais ». Pour « parfois », on dit sometimes."}
+      ]
+    },
+    {
+      "id": "en.l22.e05",
+      "unitIds": ["en.g17.frequency_adverbs"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne expression (le verbe be et l'adverbe).",
+      "prompt": "Anna ___ late for school. (jamais)",
+      "promptLanguage": "en",
+      "options": ["is never", "never is", "never"],
+      "answer": "is never",
+      "acceptedAnswers": ["is never"],
+      "hint": "Avec be, l'adverbe se place après le verbe.",
+      "explanation": "Avec be, l'adverbe se place après le verbe : Anna is never late. Il faut aussi le verbe is : never seul ne suffit pas.",
+      "tip": "Be d'abord, l'adverbe ensuite : is never, are always.",
+      "extraExample": {"text": "My father is often busy.", "translation": "Mon père est souvent occupé."},
+      "errorPatterns": [
+        {"equals": "never is", "category": "word_order", "feedback": "Avec be, l'adverbe se place après be : is never."},
+        {"equals": "never", "category": "grammar", "feedback": "Il manque le verbe be : Anna is never late."}
+      ]
+    },
+    {
+      "id": "en.l22.e06",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.early", "en.v.gym"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Anna va d'habitude à la salle de sport tôt.",
+      "promptLanguage": "fr",
+      "tokens": ["early", "Anna", "gym", "usually", "the", "goes", "to"],
+      "answer": "Anna usually goes to the gym early",
+      "acceptedAnswers": ["Anna usually goes to the gym early", "Usually Anna goes to the gym early"],
+      "hint": "Usually se place avant le verbe goes.",
+      "explanation": "L'adverbe usually se place avant le verbe : Anna usually goes. Early, qui veut dire « tôt », se place à la fin de la phrase.",
+      "tip": "Adverbe de fréquence avant le verbe, early à la fin.",
+      "extraExample": {"text": "My father usually goes to work early.", "translation": "Mon père va d'habitude au travail tôt."}
+    },
+    {
+      "id": "en.l22.e07",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.day"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Mon père ne regarde jamais la télé pendant la journée.",
+      "promptLanguage": "fr",
+      "answer": "My father never watches TV during the day.",
+      "acceptedAnswers": [
+        "My father never watches TV during the day.",
+        "My dad never watches TV during the day.",
+        "My father never watches TV in the day.",
+        "My father never watches television during the day.",
+        "My father never watches TV in the daytime.",
+        "My father never watches TV during the daytime.",
+        "My dad never watches television during the day.",
+        "My father doesn't ever watch TV during the day.",
+        "During the day my father never watches TV."
+      ],
+      "hint": "Never est déjà négatif : pas besoin de doesn't.",
+      "explanation": "Never veut dire « jamais » et se place avant le verbe : my father never watches. Never est déjà négatif : on ne dit pas doesn't never. Le -s reste sur le verbe (he watches).",
+      "tip": "Never remplace doesn't : le verbe garde son -s.",
+      "extraExample": {"text": "My sister never eats meat.", "translation": "Ma sœur ne mange jamais de viande."},
+      "errorPatterns": [
+        {"contains": "doesn't never", "category": "grammar", "feedback": "Never est déjà négatif : on ne l'utilise pas avec doesn't. On dit my father never watches."},
+        {"contains": "watches never", "category": "word_order", "feedback": "L'adverbe se place avant le verbe : never watches."},
+        {"contains": "never watch tv", "category": "conjugation", "feedback": "My father = he : le verbe garde son -s après never. On dit never watches."}
+      ]
+    },
+    {
+      "id": "en.l22.e08",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.weekend", "en.v.music"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous écoutons souvent de la musique le week-end.",
+      "promptLanguage": "fr",
+      "answer": "We often listen to music at the weekend.",
+      "acceptedAnswers": [
+        "We often listen to music at the weekend.",
+        "We often listen to music on the weekend.",
+        "We often listen to music at weekends.",
+        "We often listen to music on weekends.",
+        "At the weekend we often listen to music.",
+        "On the weekend we often listen to music.",
+        "At weekends we often listen to music.",
+        "On weekends we often listen to music."
+      ],
+      "hint": "Often se place avant le verbe listen. Écouter se dit listen to.",
+      "explanation": "Often se place avant le verbe : we often listen. Après listen, on met to : listen to music. Au week-end se dit at the weekend (anglais britannique) ou on the weekend (américain).",
+      "tip": "Listen to + musique ; often avant le verbe.",
+      "extraExample": {"text": "They often play music at the weekend.", "translation": "Ils jouent souvent de la musique le week-end."},
+      "errorPatterns": [
+        {"contains": "listen often", "category": "word_order", "feedback": "L'adverbe se place avant le verbe : we often listen."},
+        {"contains": "listen music", "category": "preposition", "feedback": "Listen se construit avec to : listen to music."}
+      ]
+    },
+    {
+      "id": "en.l22.e09",
+      "unitIds": ["en.g17.frequency_adverbs"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Nous sommes souvent fatigués le soir » ?",
+      "promptLanguage": "fr",
+      "answer": "We are often tired in the evening.",
+      "acceptedAnswers": ["We are often tired in the evening.", "In the evening we are often tired.", "We are often tired in the evenings.", "In the evenings we are often tired."],
+      "hint": "Le verbe est be : l'adverbe vient après.",
+      "explanation": "Avec le verbe be (are), l'adverbe se place après : we are often tired. Le soir se dit in the evening.",
+      "tip": "After be : we are often, she is never.",
+      "extraExample": {"text": "They are always tired in the morning.", "translation": "Ils sont toujours fatigués le matin."},
+      "errorPatterns": [
+        {"contains": "we often are", "category": "word_order", "feedback": "Avec be, l'adverbe se place après be : we are often tired."},
+        {"contains": "tired often", "category": "word_order", "feedback": "Place l'adverbe juste après be, avant tired : we are often tired."}
+      ]
+    },
+    {
+      "id": "en.l22.e10",
+      "unitIds": ["en.g17.frequency_adverbs", "en.v.day", "en.v.weekend", "en.v.early", "en.v.music", "en.v.gym"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris une phrase sur tes habitudes avec un adverbe de fréquence : always, usually, often, sometimes, rarely ou never.",
+      "prompt": "Que fais-tu souvent, parfois ou jamais ? Écris une phrase.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["always", "usually", "often", "sometimes", "rarely", "never"]], "minWords": 4},
+      "answer": "I usually go to the gym in the morning.",
+      "acceptedAnswers": ["I usually go to the gym in the morning.", "I never listen to music at night.", "I am often tired in the evening.", "My mother rarely goes to the gym."],
+      "hint": "Avant le verbe, après be.",
+      "explanation": "L'adverbe de fréquence se place avant le verbe (I usually go) mais après be (I am often tired). Never et rarely sont déjà négatifs : pas de don't avec eux.",
+      "tip": "Relis : avant le verbe, ou après be.",
+      "extraExample": {"text": "I rarely drink milk in the evening.", "translation": "Je bois rarement du lait le soir."},
+      "errorPatterns": [
+        {"contains": "always am", "category": "word_order", "feedback": "Avec be, l'adverbe se place après be : I am always…"},
+        {"contains": "don't never", "category": "grammar", "feedback": "Never est déjà négatif : on dit I never… et non I don't never…"},
+        {"contains": "doesn't never", "category": "grammar", "feedback": "Never est déjà négatif : on dit she never… et non she doesn't never…"}
+      ]
+    }
+  ]
+}

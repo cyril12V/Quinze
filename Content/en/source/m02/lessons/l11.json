@@ -1,0 +1,203 @@
+{
+  "lessonId": "en.l11",
+  "exercises": [
+    {
+      "id": "en.l11.e01",
+      "unitIds": ["en.g09.do_vs_make", "en.v.homework", "en.v.do"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le bon verbe.",
+      "prompt": "I ___ my homework.",
+      "promptLanguage": "en",
+      "options": ["do", "make", "does", "makes"],
+      "answer": "do",
+      "acceptedAnswers": ["do"],
+      "hint": "Les devoirs sont une tâche à accomplir.",
+      "explanation": "Les devoirs sont une tâche à accomplir : on dit do homework. On n'ajoute pas de -s avec I.",
+      "tip": "Les devoirs, ça se fait : do homework, jamais make homework.",
+      "extraExample": {"text": "We do our homework at school.", "translation": "Nous faisons nos devoirs à l'école."},
+      "errorPatterns": [
+        {"equals": "make", "category": "word_confusion", "feedback": "Make sert à créer ou fabriquer quelque chose. Les devoirs sont une tâche : on dit do homework."},
+        {"equals": "does", "category": "conjugation", "feedback": "Avec I, le verbe garde sa forme de base : I do, sans -s."},
+        {"equals": "makes", "category": "word_confusion", "feedback": "Make ne convient pas ici, et le -s n'existe pas avec I. Les devoirs, ça se fait : I do my homework."}
+      ]
+    },
+    {
+      "id": "en.l11.e02",
+      "unitIds": ["en.g09.do_vs_make", "en.v.decision", "en.v.make"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la phrase correcte.",
+      "prompt": "Comment dit-on « Tu prends une décision » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["You make a decision.", "You do a decision.", "You makes a decision."],
+      "answer": "You make a decision.",
+      "acceptedAnswers": ["You make a decision."],
+      "hint": "Une décision, ça se « fabrique » : c'est une expression avec make.",
+      "explanation": "« Prendre une décision » se dit make a decision. C'est une expression à apprendre par cœur. Avec you, make ne prend pas de -s.",
+      "tip": "Make a decision, make a mistake : des expressions à retenir telles quelles.",
+      "extraExample": {"text": "We make a decision.", "translation": "Nous prenons une décision."},
+      "errorPatterns": [
+        {"equals": "you do a decision.", "category": "word_confusion", "feedback": "Do ne s'emploie pas avec decision. L'expression est make a decision."},
+        {"equals": "you makes a decision.", "category": "conjugation", "feedback": "Avec you, le verbe ne prend pas de -s : you make."}
+      ]
+    },
+    {
+      "id": "en.l11.e03",
+      "unitIds": ["en.g09.do_vs_make", "en.v.homework", "en.v.mistake", "en.v.dinner", "en.v.decision", "en.v.coffee"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Do ou make : do homework, make a mistake, make dinner, make a decision, make coffee",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "do homework", "right": "faire ses devoirs"},
+        {"left": "make a mistake", "right": "faire une erreur"},
+        {"left": "make dinner", "right": "préparer le dîner"},
+        {"left": "make a decision", "right": "prendre une décision"},
+        {"left": "make coffee", "right": "faire du café"}
+      ],
+      "answer": "do homework = faire ses devoirs ; make a mistake = faire une erreur ; make dinner = préparer le dîner ; make a decision = prendre une décision ; make coffee = faire du café",
+      "acceptedAnswers": [],
+      "explanation": "Do s'emploie pour les devoirs, une tâche. Make s'emploie pour créer ou préparer quelque chose (dinner, coffee) et dans les expressions make a mistake et make a decision.",
+      "tip": "Un seul do à retenir pour l'instant : do homework. Le reste de la liste est en make.",
+      "extraExample": {"text": "I make coffee and I do my homework.", "translation": "Je fais du café et je fais mes devoirs."}
+    },
+    {
+      "id": "en.l11.e04",
+      "unitIds": ["en.g09.do_vs_make", "en.v.mistake", "en.v.make"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "Sorry, I ___ a mistake.",
+      "promptLanguage": "en",
+      "options": ["make", "do", "take", "give"],
+      "answer": "make",
+      "acceptedAnswers": ["make"],
+      "hint": "« Faire une erreur » est une expression toute faite.",
+      "explanation": "« Faire une erreur » se dit make a mistake : c'est une expression à apprendre par cœur. Avec I, make ne prend pas de -s.",
+      "tip": "Une erreur, ça se « fabrique » : make a mistake.",
+      "extraExample": {"text": "You make a mistake.", "translation": "Tu fais une erreur."},
+      "errorPatterns": [
+        {"equals": "do", "category": "word_confusion", "feedback": "Le français dit « faire une erreur », mais l'anglais dit make a mistake. Do ne s'emploie pas avec mistake."},
+        {"equals": "makes", "category": "conjugation", "feedback": "Avec I, le verbe ne prend pas de -s : I make."}
+      ]
+    },
+    {
+      "id": "en.l11.e05",
+      "unitIds": ["en.g09.do_vs_make", "en.v.dinner", "en.v.family"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon verbe.",
+      "prompt": "My mother and father ___ dinner for the family.",
+      "promptLanguage": "en",
+      "options": ["make", "do", "go", "makes"],
+      "answer": "make",
+      "acceptedAnswers": ["make"],
+      "hint": "Préparer un repas, c'est créer quelque chose.",
+      "explanation": "On prépare le dîner : on crée un repas, donc make dinner. Ma mère et mon père, c'est « ils » : le verbe ne prend pas de -s.",
+      "tip": "Un repas ou une boisson qu'on prépare : make dinner, make coffee.",
+      "extraExample": {"text": "We make dinner at home.", "translation": "Nous préparons le dîner à la maison."},
+      "errorPatterns": [
+        {"equals": "do", "category": "word_confusion", "feedback": "On prépare le dîner : on dit make dinner, pas do dinner."},
+        {"equals": "makes", "category": "conjugation", "feedback": "Ma mère et mon père, c'est comme they : le verbe ne prend pas de -s."}
+      ]
+    },
+    {
+      "id": "en.l11.e06",
+      "unitIds": ["en.g09.do_vs_make", "en.v.decision"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Tom et Anna prennent une décision.",
+      "promptLanguage": "fr",
+      "tokens": ["decision", "Tom", "make", "and", "Anna", "a"],
+      "answer": "Tom and Anna make a decision",
+      "acceptedAnswers": ["Tom and Anna make a decision", "Anna and Tom make a decision"],
+      "hint": "Sujet (Tom et Anna), puis make, puis a decision.",
+      "explanation": "Tom and Anna, c'est « ils » : make reste à sa forme de base. L'expression complète est make a decision.",
+      "tip": "Deux personnes, c'est « ils » : pas de -s sur le verbe.",
+      "extraExample": {"text": "My brother and sister make a mistake.", "translation": "Mon frère et ma sœur font une erreur."}
+    },
+    {
+      "id": "en.l11.e07",
+      "unitIds": ["en.g09.do_vs_make", "en.v.homework", "en.v.do"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Je fais mes devoirs.",
+      "promptLanguage": "fr",
+      "answer": "I do my homework.",
+      "acceptedAnswers": ["I do my homework.", "I am doing my homework."],
+      "hint": "Les devoirs sont une tâche à accomplir.",
+      "explanation": "Les devoirs sont une tâche à accomplir : on dit do homework. Mes devoirs se traduit par my homework : homework ne prend pas de -s.",
+      "tip": "Do my homework : on « fait » une tâche avec do.",
+      "extraExample": {"text": "They do their homework.", "translation": "Ils font leurs devoirs."},
+      "errorPatterns": [
+        {"contains": "make my homework", "category": "word_confusion", "feedback": "Make sert à créer quelque chose. Les devoirs sont une tâche : on dit do my homework."},
+        {"contains": "homeworks", "category": "spelling", "feedback": "Homework ne prend pas de -s : on dit my homework, même pour plusieurs devoirs."},
+        {"contains": "i does", "category": "conjugation", "feedback": "Avec I, le verbe ne prend pas de -s : I do."}
+      ]
+    },
+    {
+      "id": "en.l11.e08",
+      "unitIds": ["en.g09.do_vs_make", "en.v.dinner", "en.v.friend"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous préparons le dîner pour nos amis.",
+      "promptLanguage": "fr",
+      "answer": "We make dinner for our friends.",
+      "acceptedAnswers": ["We make dinner for our friends.", "We make the dinner for our friends.", "We make a dinner for our friends.", "We are making dinner for our friends.", "We are making the dinner for our friends.", "We prepare dinner for our friends.", "We prepare the dinner for our friends.", "We are preparing dinner for our friends.", "We cook dinner for our friends.", "We cook the dinner for our friends.", "We are cooking dinner for our friends."],
+      "hint": "Préparer un repas se dit avec make.",
+      "explanation": "On prépare le dîner : on dit make dinner. Nos amis se traduit our friends, avec un -s au pluriel du nom, mais pas sur le verbe.",
+      "tip": "Make dinner pour préparer le repas du soir.",
+      "extraExample": {"text": "You make coffee for your friends.", "translation": "Tu fais du café pour tes amis."},
+      "errorPatterns": [
+        {"contains": "do dinner", "category": "word_confusion", "feedback": "On prépare le dîner : on dit make dinner, pas do dinner."},
+        {"contains": "we makes", "category": "conjugation", "feedback": "Avec we, le verbe ne prend pas de -s : we make."},
+        {"contains": "we take dinner", "category": "vocabulary", "feedback": "Take veut dire « prendre ». Pour préparer le dîner, on dit make dinner."}
+      ]
+    },
+    {
+      "id": "en.l11.e09",
+      "unitIds": ["en.g09.do_vs_make", "en.v.mistake", "en.v.make"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Je fais une erreur » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I make a mistake.",
+      "acceptedAnswers": ["I make a mistake.", "I am making a mistake."],
+      "hint": "Une expression avec make.",
+      "explanation": "« Faire une erreur » se dit make a mistake. C'est une expression à apprendre par cœur : on n'utilise pas do ici.",
+      "tip": "Erreur = mistake, et le verbe est make.",
+      "extraExample": {"text": "They make a mistake.", "translation": "Ils font une erreur."},
+      "errorPatterns": [
+        {"contains": "do a mistake", "category": "word_confusion", "feedback": "Le français dit « faire une erreur », mais l'anglais dit make a mistake."},
+        {"contains": "i makes", "category": "conjugation", "feedback": "Avec I, le verbe ne prend pas de -s : I make."},
+        {"equals": "i make mistake", "category": "grammar", "feedback": "Il manque l'article : « une erreur » se dit a mistake."}
+      ]
+    },
+    {
+      "id": "en.l11.e10",
+      "unitIds": ["en.g09.do_vs_make", "en.v.coffee", "en.v.wife"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Je fais du café pour ma femme » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I make coffee for my wife.",
+      "acceptedAnswers": ["I make coffee for my wife.", "I make some coffee for my wife.", "I make a coffee for my wife.", "I make my wife coffee.", "I make my wife a coffee.", "I am making coffee for my wife.", "I am making some coffee for my wife.", "I am making a coffee for my wife."],
+      "hint": "On prépare une boisson : quel verbe utilises-tu ?",
+      "explanation": "Préparer du café, c'est créer une boisson : on dit make coffee. Pour ma femme se dit for my wife.",
+      "tip": "Café, dîner : on les prépare, donc make coffee, make dinner.",
+      "extraExample": {"text": "We make coffee for our parents.", "translation": "Nous faisons du café pour nos parents."},
+      "errorPatterns": [
+        {"contains": "do coffee", "category": "word_confusion", "feedback": "On prépare le café : on dit make coffee, pas do coffee."},
+        {"contains": "i makes", "category": "conjugation", "feedback": "Avec I, le verbe ne prend pas de -s : I make."},
+        {"contains": "cafe", "category": "vocabulary", "feedback": "En anglais, « café » (la boisson) se dit coffee."}
+      ]
+    }
+  ]
+}

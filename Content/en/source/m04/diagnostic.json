@@ -1,0 +1,103 @@
+[
+  {
+    "id": "en.diag.m04.01",
+    "unitIds": ["en.g20.was_were"],
+    "type": "mcq",
+    "difficulty": 2,
+    "level": 3,
+    "topic": "past",
+    "instruction": "Choisis la bonne forme.",
+    "prompt": "My parents ___ in Paris two days ago.",
+    "promptLanguage": "en",
+    "options": ["were", "was", "are"],
+    "answer": "were",
+    "acceptedAnswers": ["were"],
+    "explanation": "My parents correspond à they. Avec they, le passé de to be est were. Two days ago place la phrase dans le passé.",
+    "tip": "Passé de to be : was avec I, he, she, it ; were avec you, we, they.",
+    "extraExample": {"text": "We were at the beach yesterday.", "translation": "Nous étions à la plage hier."},
+    "errorPatterns": [
+      {"equals": "was", "category": "conjugation", "feedback": "Was s'utilise avec I, he, she et it. My parents = they : on dit were."},
+      {"equals": "are", "category": "verb_tense", "feedback": "Are est le présent. Two days ago parle du passé : were."}
+    ]
+  },
+  {
+    "id": "en.diag.m04.02",
+    "unitIds": ["en.g21.past_simple_regular"],
+    "type": "fill_blank",
+    "difficulty": 2,
+    "level": 3,
+    "topic": "past",
+    "instruction": "Complète avec le passé du verbe entre parenthèses.",
+    "prompt": "My friend ___ me last night. (call)",
+    "promptLanguage": "en",
+    "options": ["called", "call", "calls"],
+    "answer": "called",
+    "acceptedAnswers": ["called"],
+    "explanation": "Last night place l'action dans le passé. Call est un verbe régulier : on ajoute -ed, ce qui donne called, avec toutes les personnes.",
+    "tip": "Verbe régulier au passé : verbe + -ed, sans -s.",
+    "extraExample": {"text": "Anna cleaned the door yesterday.", "translation": "Anna a nettoyé la porte hier."},
+    "errorPatterns": [
+      {"equals": "call", "category": "verb_tense", "feedback": "Call est la forme de base, pour le présent. Avec last night, on ajoute -ed : called."},
+      {"equals": "calls", "category": "verb_tense", "feedback": "Le -s est réservé au présent. Au passé, on ajoute -ed : called."}
+    ]
+  },
+  {
+    "id": "en.diag.m04.03",
+    "unitIds": ["en.g22.irregular_verbs"],
+    "type": "fill_blank",
+    "difficulty": 3,
+    "level": 3,
+    "topic": "verbs",
+    "instruction": "Complète avec le passé du verbe entre parenthèses.",
+    "prompt": "Yesterday, we ___ lunch at home. (have)",
+    "promptLanguage": "en",
+    "options": ["had", "have", "haved"],
+    "answer": "had",
+    "acceptedAnswers": ["had"],
+    "explanation": "Have est un verbe irrégulier : son passé est had, et non haved. Yesterday indique le passé.",
+    "tip": "Verbe irrégulier : pas de -ed, une forme à apprendre (have → had).",
+    "extraExample": {"text": "She had breakfast at seven.", "translation": "Elle a pris son petit-déjeuner à sept heures."},
+    "errorPatterns": [
+      {"equals": "have", "category": "verb_tense", "feedback": "Have est le présent. Avec yesterday, on utilise le passé : had."},
+      {"equals": "haved", "category": "conjugation", "feedback": "Have est irrégulier : on n'ajoute pas -ed. Son passé est had."}
+    ]
+  },
+  {
+    "id": "en.diag.m04.04",
+    "unitIds": ["en.g23.past_simple_negative_questions"],
+    "type": "reorder",
+    "difficulty": 3,
+    "level": 3,
+    "topic": "construction",
+    "instruction": "Remets les mots dans l'ordre pour poser la question.",
+    "prompt": "Où es-tu allé hier ?",
+    "promptLanguage": "fr",
+    "tokens": ["yesterday", "Where", "go", "you", "did"],
+    "answer": "Where did you go yesterday",
+    "acceptedAnswers": ["Where did you go yesterday"],
+    "explanation": "Avec un mot interrogatif, l'ordre est Where + did + sujet + verbe de base. Go reste à la base, car did porte déjà le passé.",
+    "tip": "Question au passé : mot interrogatif + did + sujet + base.",
+    "extraExample": {"text": "What did you eat at lunch?", "translation": "Qu'est-ce que tu as mangé au déjeuner ?"}
+  },
+  {
+    "id": "en.diag.m04.05",
+    "unitIds": ["en.g23.past_simple_negative_questions"],
+    "type": "mcq",
+    "difficulty": 3,
+    "level": 3,
+    "topic": "past",
+    "instruction": "Choisis la phrase correcte.",
+    "prompt": "Quelle phrase est correcte ?",
+    "promptLanguage": "fr",
+    "options": ["I didn't see Tom.", "I didn't saw Tom.", "I not saw Tom."],
+    "answer": "I didn't see Tom.",
+    "acceptedAnswers": ["I didn't see Tom."],
+    "explanation": "La négation au passé se fait avec didn't + verbe de base : I didn't see. Le passé est déjà dans didn't, donc on n'écrit pas saw.",
+    "tip": "didn't + verbe de base, jamais le passé.",
+    "extraExample": {"text": "She didn't buy a present.", "translation": "Elle n'a pas acheté de cadeau."},
+    "errorPatterns": [
+      {"equals": "i didn't saw tom", "category": "conjugation", "feedback": "Après didn't, le verbe reste à la forme de base : didn't see."},
+      {"equals": "i not saw tom", "category": "grammar", "feedback": "En anglais, on ne met pas not directement après le sujet : on utilise didn't + verbe de base."}
+    ]
+  }
+]

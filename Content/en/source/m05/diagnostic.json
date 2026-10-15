@@ -1,0 +1,108 @@
+[
+  {
+    "id": "en.diag.m05.01",
+    "unitIds": ["en.g24.will_future"],
+    "type": "mcq",
+    "difficulty": 2,
+    "instruction": "Choisis la bonne forme.",
+    "prompt": "Tomorrow, my sister ___ me at the office.",
+    "promptLanguage": "en",
+    "options": ["will visit", "wills visit", "will to visit", "will visits"],
+    "answer": "will visit",
+    "acceptedAnswers": ["will visit"],
+    "explanation": "Pour parler du futur, on met will avant le verbe de base : will visit. Will ne prend jamais de -s et n'est pas suivi de to.",
+    "tip": "Will + verbe de base : pas de -s, pas de to.",
+    "extraExample": {"text": "Anna will call you later.", "translation": "Anna t'appellera plus tard."},
+    "errorPatterns": [
+      {"equals": "wills visit", "category": "conjugation", "feedback": "Will ne prend jamais de -s, même avec my sister (she). On dit will visit."},
+      {"equals": "will to visit", "category": "grammar", "feedback": "Après will, on ne met pas to : will visit."},
+      {"equals": "will visits", "category": "conjugation", "feedback": "Après will, le verbe reste à la forme de base : pas de -s."}
+    ],
+    "level": 3,
+    "topic": "future"
+  },
+  {
+    "id": "en.diag.m05.02",
+    "unitIds": ["en.g25.going_to"],
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Complète avec la bonne forme de be.",
+    "prompt": "Tom ___ going to change his phone.",
+    "promptLanguage": "en",
+    "options": ["is", "are", "am"],
+    "answer": "is",
+    "acceptedAnswers": ["is", "'s"],
+    "explanation": "Going to s'utilise avec be, qui change selon le sujet. Avec Tom (he), be devient is : Tom is going to change his phone.",
+    "tip": "I am, he / she / it is, you / we / they are + going to.",
+    "extraExample": {"text": "We are going to move next week.", "translation": "Nous allons déménager la semaine prochaine."},
+    "errorPatterns": [
+      {"equals": "are", "category": "conjugation", "feedback": "Are va avec you, we et they. Avec Tom (he), on dit is."},
+      {"equals": "am", "category": "conjugation", "feedback": "Am va uniquement avec I. Avec Tom (he), on dit is."}
+    ],
+    "level": 3,
+    "topic": "future"
+  },
+  {
+    "id": "en.diag.m05.03",
+    "unitIds": ["en.g26.will_vs_going_to", "en.g25.going_to"],
+    "type": "mcq",
+    "difficulty": 3,
+    "instruction": "Choisis la bonne forme.",
+    "context": "Yesterday, Sam decided to study French.",
+    "prompt": "He ___ start next week.",
+    "promptLanguage": "en",
+    "options": ["is going to", "will", "are going to", "is going"],
+    "answer": "is going to",
+    "acceptedAnswers": ["is going to"],
+    "explanation": "Sam a décidé hier : c'est un projet déjà décidé avant qu'on en parle. On utilise be going to : He is going to start next week.",
+    "tip": "Décision déjà prise : going to. Décision sur le moment : will.",
+    "extraExample": {"text": "I'm going to visit my mother this weekend.", "translation": "Je vais rendre visite à ma mère ce week-end."},
+    "errorPatterns": [
+      {"equals": "will", "category": "grammar", "feedback": "Will sert à une décision prise à l'instant. Sam a déjà décidé hier : on utilise be going to."},
+      {"equals": "are going to", "category": "conjugation", "feedback": "Avec he, be devient is : He is going to start."},
+      {"equals": "is going", "category": "grammar", "feedback": "Il manque to après going : be + going to + verbe de base."}
+    ],
+    "level": 3,
+    "topic": "future"
+  },
+  {
+    "id": "en.diag.m05.04",
+    "unitIds": ["en.g27.present_continuous_future"],
+    "type": "mcq",
+    "difficulty": 3,
+    "instruction": "Choisis la bonne forme.",
+    "prompt": "Anna ___ the doctor tonight at seven.",
+    "promptLanguage": "en",
+    "options": ["is seeing", "am seeing", "seeing", "is see"],
+    "answer": "is seeing",
+    "acceptedAnswers": ["is seeing"],
+    "explanation": "Pour un rendez-vous déjà fixé, on utilise le présent continu avec un moment du futur (tonight) : be + verbe en -ing. Avec Anna (she), be devient is.",
+    "tip": "Rendez-vous fixé : be + -ing + moment du futur.",
+    "extraExample": {"text": "We are meeting our colleagues tomorrow.", "translation": "Nous retrouvons nos collègues demain."},
+    "errorPatterns": [
+      {"equals": "am seeing", "category": "conjugation", "feedback": "Am va uniquement avec I. Avec Anna (she), on dit is seeing."},
+      {"equals": "seeing", "category": "grammar", "feedback": "Il manque be devant seeing : Anna is seeing the doctor."},
+      {"equals": "is see", "category": "grammar", "feedback": "Après is, le verbe prend -ing : is seeing."}
+    ],
+    "level": 3,
+    "topic": "future"
+  },
+  {
+    "id": "en.diag.m05.05",
+    "unitIds": ["en.g25.going_to"],
+    "type": "reorder",
+    "difficulty": 3,
+    "instruction": "Remets les mots dans l'ordre pour traduire.",
+    "prompt": "Qu'est-ce que tu vas faire demain ?",
+    "promptLanguage": "fr",
+    "tokens": ["do", "What", "going", "you", "tomorrow", "to", "are"],
+    "answer": "What are you going to do tomorrow",
+    "acceptedAnswers": ["What are you going to do tomorrow"],
+    "hint": "Le mot interrogatif ouvre la question, puis be passe avant le sujet.",
+    "explanation": "Dans une question avec going to, on met le mot interrogatif, puis be avant le sujet : What are you going to do ? Tomorrow se place à la fin.",
+    "tip": "Question : mot interrogatif + be + sujet + going to + verbe de base.",
+    "extraExample": {"text": "Where are you going to live?", "translation": "Où vas-tu habiter ?"},
+    "level": 3,
+    "topic": "construction"
+  }
+]

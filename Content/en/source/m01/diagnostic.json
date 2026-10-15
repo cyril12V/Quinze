@@ -1,0 +1,103 @@
+[
+  {
+    "id": "en.diag.m01.01",
+    "unitIds": ["en.g01.subject_pronouns"],
+    "type": "mcq",
+    "difficulty": 1,
+    "instruction": "Choisis le bon pronom.",
+    "prompt": "Tom is a man. ___ is a teacher.",
+    "promptLanguage": "en",
+    "options": ["He", "She", "It"],
+    "answer": "He",
+    "acceptedAnswers": ["He"],
+    "explanation": "Tom est un homme : on le remplace par he. She est pour une femme et it pour une chose ou un animal.",
+    "tip": "Homme : he. Femme : she. Chose ou animal : it.",
+    "extraExample": {"text": "Anna is a woman. She is a student.", "translation": "Anna est une femme. Elle est étudiante."},
+    "errorPatterns": [
+      {"equals": "she", "category": "grammar", "feedback": "She remplace une femme. Tom est un homme : he."},
+      {"equals": "it", "category": "grammar", "feedback": "It remplace une chose ou un animal, pas une personne. Pour Tom, on dit he."}
+    ],
+    "level": 0,
+    "topic": "pronouns"
+  },
+  {
+    "id": "en.diag.m01.02",
+    "unitIds": ["en.g03.be_affirmative"],
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Complète avec la bonne forme du verbe être.",
+    "prompt": "They ___ at home.",
+    "promptLanguage": "en",
+    "options": ["are", "is", "am"],
+    "answer": "are",
+    "acceptedAnswers": ["are"],
+    "explanation": "Avec they (ils, elles), le verbe être se dit are : they are at home.",
+    "tip": "You, we, they : are.",
+    "extraExample": {"text": "We are happy.", "translation": "Nous sommes heureux."},
+    "errorPatterns": [
+      {"equals": "is", "category": "conjugation", "feedback": "Is va avec he, she et it. Avec they, on dit are."},
+      {"equals": "am", "category": "conjugation", "feedback": "Am va uniquement avec I. Avec they, on dit are."}
+    ],
+    "level": 0,
+    "topic": "verbs"
+  },
+  {
+    "id": "en.diag.m01.03",
+    "unitIds": ["en.g02.articles"],
+    "type": "mcq",
+    "difficulty": 2,
+    "instruction": "Choisis la bonne traduction.",
+    "prompt": "Comment dit-on « une heure » en anglais ?",
+    "promptLanguage": "fr",
+    "options": ["an hour", "a hour", "the hour"],
+    "answer": "an hour",
+    "acceptedAnswers": ["an hour"],
+    "explanation": "Le h de hour ne se prononce pas : le mot commence par un son de voyelle. Devant un son de voyelle, « un, une » se dit an : an hour.",
+    "tip": "On choisit a ou an selon le son, pas selon la lettre.",
+    "extraExample": {"text": "an idea", "translation": "une idée"},
+    "errorPatterns": [
+      {"equals": "a hour", "category": "grammar", "feedback": "Le h de hour est muet : on entend un son de voyelle. On dit an hour."},
+      {"equals": "the hour", "category": "grammar", "feedback": "The veut dire « l', le, la ». Pour « une heure », on dit an hour."}
+    ],
+    "level": 0,
+    "topic": "construction"
+  },
+  {
+    "id": "en.diag.m01.04",
+    "unitIds": ["en.g05.have_has"],
+    "type": "fill_blank",
+    "difficulty": 1,
+    "instruction": "Complète la phrase.",
+    "prompt": "Anna ___ a dog.",
+    "promptLanguage": "en",
+    "options": ["has", "have", "is"],
+    "answer": "has",
+    "acceptedAnswers": ["has"],
+    "explanation": "Anna, c'est « elle » : she. Avec he, she et it, have devient has : Anna has a dog.",
+    "tip": "He, she, it : has.",
+    "extraExample": {"text": "Tom has a car.", "translation": "Tom a une voiture."},
+    "errorPatterns": [
+      {"equals": "have", "category": "conjugation", "feedback": "Anna est une seule personne (she) : have devient has."},
+      {"equals": "is", "category": "grammar", "feedback": "Is veut dire « est ». Pour posséder un chien, on utilise has."}
+    ],
+    "level": 0,
+    "topic": "verbs"
+  },
+  {
+    "id": "en.diag.m01.05",
+    "unitIds": ["en.g04.be_negative_questions", "en.g06.possessive_adjectives", "en.g07.plural_nouns"],
+    "type": "reorder",
+    "difficulty": 2,
+    "instruction": "Remets les mots dans l'ordre pour former une phrase.",
+    "prompt": "Mes sœurs ne sont pas en retard.",
+    "promptLanguage": "fr",
+    "tokens": ["late", "My", "sisters", "not", "are"],
+    "answer": "My sisters are not late",
+    "acceptedAnswers": ["My sisters are not late"],
+    "explanation": "Le possessif My se place devant le nom pluriel sisters. Le verbe are est suivi de not pour la négation, puis de late.",
+    "tip": "Sujet + are + not + adjectif.",
+    "extraExample": {"text": "Our friends are not ready.", "translation": "Nos amis ne sont pas prêts."},
+    "level": 0,
+    "topic": "construction"
+  }
+]

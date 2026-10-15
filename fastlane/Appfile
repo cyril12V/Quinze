@@ -1,0 +1,4 @@
+# Identifiant de l'app principale : <BUNDLE_ID_PREFIX>.quinze (le préfixe vient du secret GitHub).
+prefix = ENV["BUNDLE_ID_PREFIX"].to_s.empty? ? "fr.elmdigitalagency" : ENV["BUNDLE_ID_PREFIX"]
+app_identifier("#{prefix}.quinze")
+team_id(ENV["DEVELOPMENT_TEAM"]) unless ENV["DEVELOPMENT_TEAM"].to_s.empty?

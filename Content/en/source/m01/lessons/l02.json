@@ -1,0 +1,203 @@
+{
+  "lessonId": "en.l02",
+  "exercises": [
+    {
+      "id": "en.l02.e01",
+      "unitIds": ["en.g02.articles", "en.v.man"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « un homme » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["a man", "an man", "the man", "man"],
+      "answer": "a man",
+      "acceptedAnswers": ["a man"],
+      "hint": "Man commence par le son « m » : une consonne.",
+      "explanation": "« Un » se dit a devant un mot qui commence par un son de consonne. Man commence par le son « m », donc a man.",
+      "tip": "Un / une → a (ou an devant un son de voyelle) ; le / la → the.",
+      "extraExample": {"text": "a woman and a child", "translation": "une femme et un enfant"},
+      "errorPatterns": [
+        {"equals": "an man", "category": "grammar", "feedback": "An s'utilise seulement devant un son de voyelle (an idea). Man commence par une consonne : a man."},
+        {"equals": "the man", "category": "grammar", "feedback": "The veut dire « le, la ». Pour « un homme », on dit a man."},
+        {"equals": "man", "category": "grammar", "feedback": "Il manque l'article : « un homme » se dit a man."}
+      ]
+    },
+    {
+      "id": "en.l02.e02",
+      "unitIds": ["en.g02.articles"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « une université » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["a university", "an university", "the university"],
+      "answer": "a university",
+      "acceptedAnswers": ["a university"],
+      "hint": "Prononce le mot à voix haute : university commence par le son « you ».",
+      "explanation": "On choisit a ou an selon le premier son, pas selon la lettre. University se prononce « you-niversity » : il commence par un son de consonne, donc a university.",
+      "tip": "Écoute le premier son : « you » est un son de consonne, donc a.",
+      "extraExample": {"text": "a uniform", "translation": "un uniforme"},
+      "errorPatterns": [
+        {"equals": "an university", "category": "grammar", "feedback": "U s'écrit comme une voyelle, mais ici on entend « you » : c'est un son de consonne. On dit a university."},
+        {"equals": "the university", "category": "grammar", "feedback": "The veut dire « l', le, la ». Pour « une université », on dit a university."}
+      ]
+    },
+    {
+      "id": "en.l02.e03",
+      "unitIds": ["en.g02.articles", "en.v.woman", "en.v.child", "en.v.friend", "en.v.name"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les articles avec les nouveaux mots : a woman, a child, a friend, the name, an hour",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "a woman", "right": "une femme"},
+        {"left": "a child", "right": "un enfant"},
+        {"left": "a friend", "right": "un ami / une amie"},
+        {"left": "the name", "right": "le nom"},
+        {"left": "an hour", "right": "une heure"}
+      ],
+      "answer": "a woman = une femme ; a child = un enfant ; a friend = un ami / une amie ; the name = le nom ; an hour = une heure",
+      "acceptedAnswers": [],
+      "explanation": "A et an veulent dire « un, une » ; the veut dire « le, la ». Friend s'utilise pour un ami comme pour une amie. On dit an hour car le h de hour ne se prononce pas.",
+      "tip": "L'article anglais ne change pas selon le genre : a friend = un ami ou une amie.",
+      "extraExample": {"text": "a man and the child", "translation": "un homme et l'enfant"}
+    },
+    {
+      "id": "en.l02.e04",
+      "unitIds": ["en.g02.articles"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec l'article qui correspond à la traduction entre parenthèses.",
+      "prompt": "___ hour (une heure)",
+      "promptLanguage": "en",
+      "options": ["a", "an", "the"],
+      "answer": "an",
+      "acceptedAnswers": ["an"],
+      "hint": "Le h de hour ne se prononce pas.",
+      "explanation": "Le h de hour est muet : on entend « aour », un son de voyelle. Devant un son de voyelle, « une » se dit an : an hour.",
+      "tip": "Devant un h muet (hour), on dit an ; devant un h prononcé (hotel), on dit a.",
+      "extraExample": {"text": "an idea", "translation": "une idée"},
+      "errorPatterns": [
+        {"equals": "a", "category": "grammar", "feedback": "Hour s'écrit avec un h, mais il ne se prononce pas : le mot commence par un son de voyelle. On dit an hour."},
+        {"equals": "the", "category": "grammar", "feedback": "The veut dire « l', le, la ». Pour « une heure », on dit an hour."}
+      ]
+    },
+    {
+      "id": "en.l02.e05",
+      "unitIds": ["en.g02.articles", "en.v.name"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec l'article qui correspond à la traduction entre parenthèses.",
+      "prompt": "___ name (le nom)",
+      "promptLanguage": "en",
+      "options": ["a", "an", "the"],
+      "answer": "the",
+      "acceptedAnswers": ["the"],
+      "hint": "Ici, on traduit « le », pas « un ».",
+      "explanation": "Le, la, l' et les se disent tous the en anglais. The ne change jamais, quel que soit le genre ou le nombre : the name, the woman, the children.",
+      "tip": "Un seul mot pour le, la, l' et les : the.",
+      "extraExample": {"text": "the man and the woman", "translation": "l'homme et la femme"},
+      "errorPatterns": [
+        {"equals": "a", "category": "grammar", "feedback": "A veut dire « un, une ». Pour « le nom », on dit the name."},
+        {"equals": "an", "category": "grammar", "feedback": "An veut dire « un, une » devant un son de voyelle. Pour « le », on dit the."}
+      ]
+    },
+    {
+      "id": "en.l02.e06",
+      "unitIds": ["en.g02.articles", "en.v.child"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "un enfant et un animal",
+      "promptLanguage": "fr",
+      "tokens": ["animal", "a", "and", "child", "an"],
+      "answer": "a child and an animal",
+      "acceptedAnswers": ["a child and an animal", "an animal and a child"],
+      "hint": "Place an devant le mot qui commence par une voyelle.",
+      "explanation": "Child commence par un son de consonne : a child. Animal commence par un son de voyelle : an animal. And veut dire « et ».",
+      "tip": "Regarde le mot qui suit l'article : son de voyelle → an, son de consonne → a.",
+      "extraExample": {"text": "a man and an idea", "translation": "un homme et une idée"}
+    },
+    {
+      "id": "en.l02.e07",
+      "unitIds": ["en.g02.articles", "en.v.man", "en.v.woman"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "un homme et une femme",
+      "promptLanguage": "fr",
+      "answer": "a man and a woman",
+      "acceptedAnswers": ["a man and a woman", "a man and woman", "one man and one woman"],
+      "hint": "Man et woman commencent tous les deux par un son de consonne.",
+      "explanation": "Un et une se disent tous les deux a devant un son de consonne : a man, a woman. L'article anglais ne change pas selon le genre.",
+      "tip": "Pas de masculin ni de féminin pour a : a man, a woman.",
+      "extraExample": {"text": "a friend and a child", "translation": "une amie et un enfant"},
+      "errorPatterns": [
+        {"contains": "an man", "category": "grammar", "feedback": "Man commence par un son de consonne : on dit a man, pas an man."},
+        {"contains": "an woman", "category": "grammar", "feedback": "Woman commence par le son « w », une consonne : on dit a woman."},
+        {"equals": "the man and the woman", "category": "grammar", "feedback": "The veut dire « l', le, la ». Pour « un homme et une femme », on dit a man and a woman."}
+      ]
+    },
+    {
+      "id": "en.l02.e08",
+      "unitIds": ["en.g02.articles", "en.v.woman", "en.v.child"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "la femme et l'enfant",
+      "promptLanguage": "fr",
+      "answer": "the woman and the child",
+      "acceptedAnswers": ["the woman and the child", "the woman and child", "the woman and the kid"],
+      "hint": "La et l' se traduisent par le même mot.",
+      "explanation": "La, le et l' se disent tous the : the woman, the child. On utilise the parce qu'on parle d'une femme et d'un enfant précis.",
+      "tip": "L' devant une voyelle en français ? En anglais, c'est toujours the.",
+      "extraExample": {"text": "the man and the friend", "translation": "l'homme et l'ami"},
+      "errorPatterns": [
+        {"equals": "a woman and a child", "category": "grammar", "feedback": "A veut dire « un, une ». Pour « la femme et l'enfant », on dit the woman and the child."},
+        {"contains": "the women", "category": "spelling", "feedback": "Women est le pluriel (les femmes). Pour « la femme », on écrit the woman, avec un a."},
+        {"contains": "l child", "category": "grammar", "feedback": "L'anglais n'a pas d'article l'. Pour « l'enfant », on dit the child."}
+      ]
+    },
+    {
+      "id": "en.l02.e09",
+      "unitIds": ["en.g02.articles"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais, avec a ou an.",
+      "prompt": "Comment dit-on « une idée » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "an idea",
+      "acceptedAnswers": ["an idea"],
+      "hint": "Idée se dit idea : il commence par une voyelle.",
+      "explanation": "Idea commence par un son de voyelle (« aï »). Devant un son de voyelle, « un, une » se dit an : an idea.",
+      "tip": "An évite de buter entre deux voyelles : an idea se dit plus facilement que « a idea ».",
+      "extraExample": {"text": "an animal", "translation": "un animal"},
+      "errorPatterns": [
+        {"equals": "a idea", "category": "grammar", "feedback": "Idea commence par un son de voyelle : on dit an idea, pas a idea."},
+        {"equals": "one idea", "category": "instruction", "feedback": "One veut dire « un seul » (le chiffre 1). La consigne demande l'article : an idea."},
+        {"contains": "idee", "category": "vocabulary", "feedback": "En anglais, « idée » s'écrit idea : an idea."}
+      ]
+    },
+    {
+      "id": "en.l02.e10",
+      "unitIds": ["en.g02.articles", "en.v.friend"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais, avec l'article qui convient (a, an ou the).",
+      "prompt": "Comment dit-on « une amie » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "a friend",
+      "acceptedAnswers": ["a friend", "a female friend"],
+      "hint": "Le mot anglais est le même pour un ami et une amie.",
+      "explanation": "Friend veut dire « ami » ou « amie » : il ne change pas selon le genre. Il commence par un son de consonne, donc a friend.",
+      "tip": "Un ami ou une amie : c'est toujours a friend.",
+      "extraExample": {"text": "Anna and a friend", "translation": "Anna et une amie"},
+      "errorPatterns": [
+        {"equals": "an friend", "category": "grammar", "feedback": "Friend commence par un son de consonne : on dit a friend."},
+        {"equals": "a girlfriend", "category": "word_confusion", "feedback": "Girlfriend veut dire « petite amie » (en couple). Pour « une amie », on dit simplement a friend."},
+        {"equals": "one friend", "category": "instruction", "feedback": "One veut dire « un seul ». La consigne demande l'article : a friend."}
+      ]
+    }
+  ]
+}

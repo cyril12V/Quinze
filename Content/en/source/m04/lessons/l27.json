@@ -1,0 +1,201 @@
+{
+  "lessonId": "en.l27",
+  "exercises": [
+    {
+      "id": "en.l27.e01",
+      "unitIds": ["en.g20.was_were", "en.v.yesterday"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Yesterday, I ___ tired.",
+      "promptLanguage": "en",
+      "options": ["was", "were", "am"],
+      "answer": "was",
+      "acceptedAnswers": ["was"],
+      "hint": "Yesterday veut dire « hier » : la phrase parle du passé.",
+      "explanation": "Yesterday (hier) place la phrase dans le passé : on n'utilise plus am, mais was. Avec I, he, she et it, le passé de to be est was.",
+      "tip": "Hier = passé : am et is deviennent was, are devient were.",
+      "extraExample": {"text": "She was busy yesterday.", "translation": "Elle était occupée hier."},
+      "errorPatterns": [
+        {"equals": "were", "category": "conjugation", "feedback": "Were s'utilise avec you, we et they. Avec I, le passé de to be est was : I was."},
+        {"equals": "am", "category": "verb_tense", "feedback": "Am est le présent. Yesterday parle du passé : on dit I was."}
+      ]
+    },
+    {
+      "id": "en.l27.e02",
+      "unitIds": ["en.g20.was_were", "en.v.last", "en.v.week"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Anna and Tom ___ in London last week.",
+      "promptLanguage": "en",
+      "options": ["were", "was", "are"],
+      "answer": "were",
+      "acceptedAnswers": ["were"],
+      "hint": "Anna and Tom, c'est « eux » : they.",
+      "explanation": "Anna and Tom correspond à they (eux). Avec they, we et you, le passé de to be est were. Last week (la semaine dernière) confirme que c'est le passé.",
+      "tip": "Plusieurs personnes (we, you, they) → were.",
+      "extraExample": {"text": "My parents were at the office last week.", "translation": "Mes parents étaient au bureau la semaine dernière."},
+      "errorPatterns": [
+        {"equals": "was", "category": "conjugation", "feedback": "Was s'utilise avec I, he, she et it. Anna and Tom = they : on dit were."},
+        {"equals": "are", "category": "verb_tense", "feedback": "Are est le présent. Last week parle du passé : on dit were."}
+      ]
+    },
+    {
+      "id": "en.l27.e03",
+      "unitIds": ["en.g20.was_were", "en.v.yesterday", "en.v.last", "en.v.ago", "en.v.week", "en.v.born"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les repères de temps du passé",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "yesterday", "right": "hier"},
+        {"left": "last week", "right": "la semaine dernière"},
+        {"left": "two days ago", "right": "il y a deux jours"},
+        {"left": "last night", "right": "hier soir"},
+        {"left": "I was born in Paris", "right": "je suis né à Paris"}
+      ],
+      "answer": "yesterday = hier ; last week = la semaine dernière ; two days ago = il y a deux jours ; last night = hier soir ; I was born in Paris = je suis né à Paris",
+      "acceptedAnswers": [],
+      "explanation": "Ces repères placent l'action dans le passé. Last se place avant le nom (last week), alors que ago se place après la durée (two days ago). Pour la naissance, l'anglais dit I was born : on utilise was.",
+      "tip": "Last avant le nom, ago après la durée.",
+      "extraExample": {"text": "three weeks ago", "translation": "il y a trois semaines"}
+    },
+    {
+      "id": "en.l27.e04",
+      "unitIds": ["en.g20.was_were", "en.v.ago"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "My brother was at the office two days ___.",
+      "promptLanguage": "en",
+      "options": ["ago", "before", "last"],
+      "answer": "ago",
+      "acceptedAnswers": ["ago"],
+      "hint": "« Il y a deux jours » : le mot se place après la durée.",
+      "explanation": "Pour dire « il y a » devant une durée, l'anglais place ago après la durée : two days ago. On ne dit pas « before two days ».",
+      "tip": "« Il y a deux jours » = two days ago : la durée d'abord, ago ensuite.",
+      "extraExample": {"text": "Anna was in Paris three days ago.", "translation": "Anna était à Paris il y a trois jours."},
+      "errorPatterns": [
+        {"equals": "before", "category": "word_confusion", "feedback": "Before ne veut pas dire « il y a ». On écrit la durée puis ago : two days ago."},
+        {"equals": "last", "category": "word_confusion", "feedback": "Last se place devant un nom (last week). Après une durée, « il y a » se dit ago."}
+      ]
+    },
+    {
+      "id": "en.l27.e05",
+      "unitIds": ["en.g20.was_were"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la forme négative.",
+      "prompt": "Anna ___ at school yesterday. She was at home.",
+      "promptLanguage": "en",
+      "options": ["wasn't", "weren't", "isn't"],
+      "answer": "wasn't",
+      "acceptedAnswers": ["wasn't"],
+      "hint": "Elle était à la maison : elle n'était pas à l'école.",
+      "explanation": "Anna correspond à she, donc on utilise was. Pour dire « n'était pas », on ajoute not : was not, qu'on contracte en wasn't.",
+      "tip": "was + not = wasn't ; were + not = weren't.",
+      "extraExample": {"text": "Tom wasn't hungry at lunch.", "translation": "Tom n'avait pas faim au déjeuner."},
+      "errorPatterns": [
+        {"equals": "weren't", "category": "conjugation", "feedback": "Weren't s'utilise avec you, we et they. Anna = she : on dit wasn't."},
+        {"equals": "isn't", "category": "verb_tense", "feedback": "Isn't est le présent. Yesterday parle du passé : wasn't."}
+      ]
+    },
+    {
+      "id": "en.l27.e06",
+      "unitIds": ["en.g20.was_were", "en.v.yesterday"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour poser la question.",
+      "prompt": "Tu étais à la maison hier ?",
+      "promptLanguage": "fr",
+      "tokens": ["you", "yesterday", "Were", "home", "at"],
+      "answer": "Were you at home yesterday",
+      "acceptedAnswers": ["Were you at home yesterday"],
+      "hint": "Une question commence par was ou were.",
+      "explanation": "Pour poser une question avec to be, on place was ou were avant le sujet : Were you…? Il n'y a pas besoin de do. Avec you, on utilise were.",
+      "tip": "Question : Was ou Were passe devant le sujet.",
+      "extraExample": {"text": "Was she tired last night?", "translation": "Était-elle fatiguée hier soir ?"}
+    },
+    {
+      "id": "en.l27.e07",
+      "unitIds": ["en.g20.was_were", "en.v.yesterday"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Elle était fatiguée hier.",
+      "promptLanguage": "fr",
+      "answer": "She was tired yesterday",
+      "acceptedAnswers": ["She was tired yesterday", "Yesterday she was tired"],
+      "hint": "Elle = she. Quel est le passé de is ?",
+      "explanation": "Le passé de is est was. Avec she, on dit was : She was tired. Yesterday peut se placer à la fin ou au début de la phrase.",
+      "tip": "She, he, it, I → was.",
+      "extraExample": {"text": "He was late yesterday.", "translation": "Il était en retard hier."},
+      "errorPatterns": [
+        {"contains": "she were", "category": "conjugation", "feedback": "Were ne s'utilise qu'avec you, we et they. Avec she, on dit was."},
+        {"contains": "she is tired", "category": "verb_tense", "feedback": "Is est le présent. Pour « était », on utilise was."},
+        {"contains": "she has tired", "category": "grammar", "feedback": "Pour dire « elle était fatiguée », on utilise to be : she was tired, pas have."}
+      ]
+    },
+    {
+      "id": "en.l27.e08",
+      "unitIds": ["en.g20.was_were", "en.v.last", "en.v.week"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous n'étions pas à la maison la semaine dernière.",
+      "promptLanguage": "fr",
+      "answer": "We weren't at home last week",
+      "acceptedAnswers": ["We weren't at home last week", "We weren't home last week", "Last week we weren't at home", "Last week we weren't home"],
+      "hint": "Nous = we. Le passé négatif de are est weren't.",
+      "explanation": "Avec we, le passé de to be est were. Pour la négation, on ajoute not : weren't. Last week se place avant ou après le reste de la phrase.",
+      "tip": "Nous / vous / ils + négation au passé : weren't.",
+      "extraExample": {"text": "They weren't at school yesterday.", "translation": "Ils n'étaient pas à l'école hier."},
+      "errorPatterns": [
+        {"contains": "we wasn't", "category": "conjugation", "feedback": "Wasn't s'utilise avec I, he, she et it. Avec we, on dit weren't."},
+        {"contains": "we aren't", "category": "verb_tense", "feedback": "Aren't est le présent. La phrase parle de la semaine dernière : weren't."}
+      ]
+    },
+    {
+      "id": "en.l27.e09",
+      "unitIds": ["en.g20.was_were", "en.v.yesterday"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment dit-on « Où étais-tu hier ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Where were you yesterday",
+      "acceptedAnswers": ["Where were you yesterday"],
+      "hint": "Le mot interrogatif vient en premier, puis were, puis you.",
+      "explanation": "On place le mot interrogatif where en premier, puis were (le passé de are avec you), puis le sujet : Where were you yesterday ? Avec you, c'est toujours were.",
+      "tip": "Question avec where : Where + was / were + sujet.",
+      "extraExample": {"text": "Where was Tom last night?", "translation": "Où était Tom hier soir ?"},
+      "errorPatterns": [
+        {"contains": "where was you", "category": "conjugation", "feedback": "Avec you, le passé est toujours were : Where were you ?"},
+        {"contains": "where are you", "category": "verb_tense", "feedback": "Are est le présent. Pour « hier », on utilise were."},
+        {"equals": "where you were yesterday", "category": "word_order", "feedback": "Dans une question, were se place avant le sujet : Where were you yesterday ?"}
+      ]
+    },
+    {
+      "id": "en.l27.e10",
+      "unitIds": ["en.g20.was_were", "en.v.born"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Je suis né à Paris » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I was born in Paris",
+      "acceptedAnswers": ["I was born in Paris"],
+      "hint": "En anglais, la naissance se dit au passé avec to be.",
+      "explanation": "« Être né » se dit to be born, et la naissance appartient au passé : I was born. On utilise la préposition in devant une ville : in Paris.",
+      "tip": "Je suis né(e) = I was born : jamais I am born.",
+      "extraExample": {"text": "My father was born in London.", "translation": "Mon père est né à Londres."},
+      "errorPatterns": [
+        {"contains": "i am born", "category": "verb_tense", "feedback": "La naissance est passée : on dit I was born, pas I am born."},
+        {"equals": "i born in paris", "category": "grammar", "feedback": "Il manque was : I was born in Paris."},
+        {"contains": "born at", "category": "preposition", "feedback": "Devant une ville, on utilise in : born in Paris."}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+[
+  {
+    "id": "en.assess.m04.01",
+    "unitIds": ["en.g20.was_were", "en.v.last"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Mes parents n'étaient pas à la maison hier soir.",
+    "promptLanguage": "fr",
+    "answer": "My parents weren't at home last night",
+    "acceptedAnswers": [
+      "My parents weren't at home last night",
+      "My parents weren't home last night",
+      "Last night my parents weren't at home",
+      "Last night my parents weren't home",
+      "My parents weren't at home yesterday evening",
+      "My parents weren't home yesterday evening",
+      "Yesterday evening my parents weren't at home",
+      "Yesterday evening my parents weren't home"
+    ],
+    "hint": "My parents = they. Quel est le passé négatif de are ?",
+    "explanation": "My parents correspond à they : avec they, le passé de to be est were, et la négation est weren't. « Hier soir » se dit last night ou yesterday evening.",
+    "tip": "They, we, you → weren't ; I, he, she, it → wasn't.",
+    "extraExample": {"text": "The windows weren't open last night.", "translation": "Les fenêtres n'étaient pas ouvertes hier soir."},
+    "errorPatterns": [
+      {"contains": "parents wasn't", "category": "conjugation", "feedback": "Wasn't s'utilise avec I, he, she et it. Avec my parents (they), on dit weren't."},
+      {"contains": "parents aren't", "category": "verb_tense", "feedback": "Aren't est le présent. Hier soir, c'est le passé : weren't."},
+      {"contains": "yesterday night", "category": "vocabulary", "feedback": "« Hier soir » se dit last night ou yesterday evening, pas yesterday night."}
+    ]
+  },
+  {
+    "id": "en.assess.m04.02",
+    "unitIds": ["en.g21.past_simple_regular"],
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Complète avec le passé du verbe entre parenthèses.",
+    "prompt": "Tom ___ for two hours yesterday. (study)",
+    "promptLanguage": "en",
+    "answer": "studied",
+    "acceptedAnswers": ["studied"],
+    "hint": "Study finit par une consonne + y.",
+    "explanation": "Study finit par une consonne + y : le y devient i avant -ed. On écrit donc studied. C'est la même forme avec toutes les personnes.",
+    "tip": "Consonne + y → -ied : study → studied, carry → carried.",
+    "extraExample": {"text": "She carried two bags to the office.", "translation": "Elle a porté deux sacs jusqu'au bureau."},
+    "errorPatterns": [
+      {"equals": "studyed", "category": "spelling", "feedback": "Après une consonne (d), le y se change en i : study → studied."},
+      {"equals": "studdied", "category": "spelling", "feedback": "On ne double pas le d : le y devient simplement i. On écrit studied."},
+      {"equals": "study", "category": "verb_tense", "feedback": "Study est le présent. Yesterday parle du passé : studied."}
+    ]
+  },
+  {
+    "id": "en.assess.m04.03",
+    "unitIds": ["en.g22.irregular_verbs"],
+    "type": "fill_blank",
+    "difficulty": 3,
+    "instruction": "Complète avec le passé du verbe entre parenthèses.",
+    "prompt": "Anna ___ to my birthday party with her husband last night. (come)",
+    "promptLanguage": "en",
+    "answer": "came",
+    "acceptedAnswers": ["came"],
+    "hint": "Come est un verbe irrégulier : il ne prend pas -ed.",
+    "explanation": "Come est irrégulier : son passé est came (/keɪm/). Dans une phrase simple au passé, on n'utilise pas did : on met directement le verbe au passé.",
+    "tip": "Come → came : le o devient a.",
+    "extraExample": {"text": "Tom came home late last night.", "translation": "Tom est rentré tard hier soir."},
+    "errorPatterns": [
+      {"equals": "come", "category": "verb_tense", "feedback": "Come est le présent. Avec last night, on utilise le passé : came."},
+      {"equals": "comed", "category": "conjugation", "feedback": "Come est irrégulier : on n'ajoute pas -ed. Son passé est came."},
+      {"equals": "was come", "category": "grammar", "feedback": "On n'ajoute pas was devant un verbe d'action : came exprime déjà le passé."}
+    ]
+  },
+  {
+    "id": "en.assess.m04.04",
+    "unitIds": ["en.g23.past_simple_negative_questions", "en.v.say", "en.v.tell"],
+    "type": "free_answer",
+    "difficulty": 4,
+    "instruction": "Écris la question en anglais.",
+    "prompt": "Comment dit-on « Qu'est-ce que Tom a dit à Anna ? » en anglais ?",
+    "promptLanguage": "fr",
+    "answer": "What did Tom say to Anna",
+    "acceptedAnswers": ["What did Tom say to Anna", "What did Tom tell Anna"],
+    "hint": "What + did + sujet + verbe de base.",
+    "explanation": "Question au passé : What + did + sujet + verbe de base. Say reste à la base (pas said), car did porte déjà le passé. Say se construit avec to (say to Anna), alors que tell se construit directement avec la personne (tell Anna).",
+    "tip": "say to quelqu'un ; tell quelqu'un.",
+    "extraExample": {"text": "What did Anna tell you?", "translation": "Qu'est-ce qu'Anna t'a dit ?"},
+    "errorPatterns": [
+      {"contains": "did tom said", "category": "conjugation", "feedback": "Après did, le verbe reste à la forme de base : What did Tom say ?"},
+      {"contains": "what tom", "category": "word_order", "feedback": "Une question au passé a besoin de did avant le sujet : What did Tom say ?"},
+      {"contains": "say anna", "category": "word_confusion", "feedback": "Say se construit avec to : say to Anna. Pour mettre la personne directement, utilise tell : tell Anna."}
+    ]
+  },
+  {
+    "id": "en.assess.m04.05",
+    "unitIds": ["en.g23.past_simple_negative_questions", "en.v.forget", "en.v.present"],
+    "type": "translation",
+    "difficulty": 4,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Je n'ai pas oublié ton cadeau.",
+    "promptLanguage": "fr",
+    "answer": "I didn't forget your present",
+    "acceptedAnswers": ["I didn't forget your present", "I didn't forget your gift"],
+    "hint": "Didn't + verbe de base.",
+    "explanation": "Négation au passé : didn't + verbe de base. Forget reste à la base (pas forgot), car le passé est déjà dans didn't. « Ton cadeau » se dit your present.",
+    "tip": "didn't + base : forget, jamais forgot.",
+    "extraExample": {"text": "She didn't lose her key.", "translation": "Elle n'a pas perdu sa clé."},
+    "errorPatterns": [
+      {"contains": "didn't forgot", "category": "conjugation", "feedback": "Après didn't, le verbe reste à la forme de base : didn't forget."},
+      {"contains": "i not forgot", "category": "grammar", "feedback": "En anglais, on ne met pas not directement après le sujet : on utilise didn't + verbe de base."},
+      {"contains": "i don't forget", "category": "verb_tense", "feedback": "Don't est le présent. Pour le passé, on utilise didn't."}
+    ]
+  }
+]

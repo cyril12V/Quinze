@@ -1,0 +1,220 @@
+[
+  {
+    "id": "en.assess.m06.01",
+    "unitIds": [
+      "en.g28.there_is_are",
+      "en.v.sofa"
+    ],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Il y a un téléphone et deux clés sur le canapé.",
+    "promptLanguage": "fr",
+    "answer": "There is a phone and two keys on the sofa.",
+    "acceptedAnswers": [
+      "There is a phone and two keys on the sofa.",
+      "There's a phone and two keys on the sofa.",
+      "There are two keys and a phone on the sofa.",
+      "There is a phone and two keys on the couch.",
+      "There are two keys and a phone on the couch."
+    ],
+    "hint": "Commence par there is si tu cites d'abord un seul objet.",
+    "explanation": "« Il y a » se dit there is ou there are : le verbe s'accorde avec le premier élément cité. Après two, le nom prend un -s : two keys.",
+    "tip": "Un seul élément en premier : there is ; plusieurs : there are.",
+    "extraExample": {
+      "text": "There are three books and a lamp on the table.",
+      "translation": "Il y a trois livres et une lampe sur la table."
+    },
+    "errorPatterns": [
+      {
+        "contains": "there have",
+        "category": "grammar",
+        "feedback": "« Il y a » ne se dit pas avec have. Écris there is ou there are."
+      },
+      {
+        "contains": "there is two",
+        "category": "grammar",
+        "feedback": "Two keys est un pluriel : on dit there are two keys. Si tu cites d'abord le téléphone, tu peux dire there is a phone and two keys."
+      },
+      {
+        "contains": "two key on",
+        "category": "grammar",
+        "feedback": "Après un nombre supérieur à un, le nom prend un -s : two keys."
+      }
+    ]
+  },
+  {
+    "id": "en.assess.m06.02",
+    "unitIds": [
+      "en.g29.some_any",
+      "en.v.ticket"
+    ],
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Complète avec le bon mot (some ou any).",
+    "prompt": "We don't have ___ tickets for tomorrow.",
+    "promptLanguage": "en",
+    "answer": "any",
+    "acceptedAnswers": [
+      "any"
+    ],
+    "hint": "La phrase est négative.",
+    "explanation": "Dans une phrase négative, on utilise any : We don't have any tickets. Some est réservé aux phrases affirmatives et aux demandes polies.",
+    "tip": "Négation (don't, isn't…) : any.",
+    "extraExample": {
+      "text": "I don't have any questions.",
+      "translation": "Je n'ai pas de questions."
+    },
+    "errorPatterns": [
+      {
+        "equals": "some",
+        "category": "grammar",
+        "feedback": "Some ne s'utilise pas dans une phrase négative. Après don't have, on dit any."
+      },
+      {
+        "equals": "a",
+        "category": "grammar",
+        "feedback": "Tickets est un pluriel : on ne met pas a. On dit any tickets."
+      },
+      {
+        "equals": "many",
+        "category": "grammar",
+        "feedback": "Many s'utilise dans les questions avec how. Pour « pas de billets », on dit don't have any tickets."
+      }
+    ]
+  },
+  {
+    "id": "en.assess.m06.03",
+    "unitIds": [
+      "en.g30.how_much_many",
+      "en.v.price",
+      "en.v.ticket"
+    ],
+    "type": "free_answer",
+    "difficulty": 3,
+    "context": "Tom is at the station. He wants to know the price of the tickets.",
+    "instruction": "Écris la question en anglais.",
+    "prompt": "Comment demande-t-il « Combien coûtent les billets ? » en anglais ?",
+    "promptLanguage": "fr",
+    "answer": "How much are the tickets?",
+    "acceptedAnswers": [
+      "How much are the tickets?",
+      "How much are tickets?",
+      "How much do the tickets cost?",
+      "How much are these tickets?"
+    ],
+    "hint": "Pour un prix, on commence par how much. Tickets est un pluriel.",
+    "explanation": "Pour demander un prix, on dit How much… ?. Avec plusieurs billets, le verbe est are : How much are the tickets ? (How much is… avec un seul billet).",
+    "tip": "Un prix : How much is it ? (un) / How much are they ? (plusieurs).",
+    "extraExample": {
+      "text": "How much are the bags?",
+      "translation": "Combien coûtent les sacs ?"
+    },
+    "errorPatterns": [
+      {
+        "contains": "how many",
+        "category": "grammar",
+        "feedback": "How many sert à compter des objets. Pour demander un prix, on dit how much."
+      },
+      {
+        "contains": "how much is the tickets",
+        "category": "grammar",
+        "feedback": "Tickets est un pluriel : on dit are. How much are the tickets ?"
+      },
+      {
+        "contains": "how much tickets",
+        "category": "grammar",
+        "feedback": "Pour demander le prix, il faut un verbe : How much are the tickets ?"
+      }
+    ]
+  },
+  {
+    "id": "en.assess.m06.04",
+    "unitIds": [
+      "en.g31.time_and_dates",
+      "en.v.shop"
+    ],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Le magasin ouvre à huit heures et quart.",
+    "promptLanguage": "fr",
+    "answer": "The shop opens at quarter past eight.",
+    "acceptedAnswers": [
+      "The shop opens at quarter past eight.",
+      "The shop opens at a quarter past eight.",
+      "The shop opens at eight fifteen.",
+      "The shop is open at quarter past eight."
+    ],
+    "hint": "À quelle heure ? at + heure. « Et quart » se dit quarter past.",
+    "explanation": "Pour dire à quelle heure, on utilise at, puis quarter past eight (8 h 15). On ne dit pas « at eight hours and quarter ».",
+    "tip": "at + quarter past + heure : at quarter past eight.",
+    "extraExample": {
+      "text": "The party is at half past nine.",
+      "translation": "La fête est à neuf heures et demie."
+    },
+    "errorPatterns": [
+      {
+        "contains": "eight and quarter",
+        "category": "word_order",
+        "feedback": "On ne dit pas « eight and quarter ». Le quart se place avant l'heure : quarter past eight."
+      },
+      {
+        "contains": "eight hours",
+        "category": "word_confusion",
+        "feedback": "Hours désigne une durée. Pour l'heure, on dit at quarter past eight."
+      },
+      {
+        "contains": "quarter to eight",
+        "category": "grammar",
+        "feedback": "Quarter to eight veut dire 7 h 45. Pour 8 h 15, on dit quarter past eight."
+      }
+    ]
+  },
+  {
+    "id": "en.assess.m06.05",
+    "unitIds": [
+      "en.g30.how_much_many",
+      "en.v.money"
+    ],
+    "type": "mcq",
+    "difficulty": 2,
+    "instruction": "Choisis la phrase correcte.",
+    "prompt": "Comment dit-on « Nous n'avons pas beaucoup d'argent. » en anglais ?",
+    "promptLanguage": "fr",
+    "options": [
+      "We don't have much money.",
+      "We don't have many money.",
+      "We don't have much moneys.",
+      "We doesn't have much money."
+    ],
+    "answer": "We don't have much money.",
+    "acceptedAnswers": [
+      "We don't have much money."
+    ],
+    "hint": "Peut-on compter l'argent : un money, deux moneys ?",
+    "explanation": "Money ne se compte pas et ne prend jamais de -s : on utilise much (et non many) dans une phrase négative. Avec we, on dit don't, pas doesn't.",
+    "tip": "Money, luggage, bread : much (jamais many) et jamais de -s.",
+    "extraExample": {
+      "text": "I don't have much food at home.",
+      "translation": "Je n'ai pas beaucoup de nourriture à la maison."
+    },
+    "errorPatterns": [
+      {
+        "contains": "many money",
+        "category": "grammar",
+        "feedback": "Many s'utilise avec un pluriel qu'on peut compter. Money ne se compte pas : much money."
+      },
+      {
+        "contains": "moneys",
+        "category": "grammar",
+        "feedback": "Money ne prend jamais de -s : c'est un nom qu'on ne compte pas. On dit much money."
+      },
+      {
+        "contains": "we doesn't",
+        "category": "conjugation",
+        "feedback": "Avec we, on utilise don't, pas doesn't : we don't have."
+      }
+    ]
+  }
+]

@@ -1,0 +1,206 @@
+{
+  "lessonId": "en.l38",
+  "exercises": [
+    {
+      "id": "en.l38.e01",
+      "unitIds": ["en.g25.going_to", "en.v.year", "en.v.next"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « l'année prochaine » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["next year", "year next", "next years", "the next years"],
+      "answer": "next year",
+      "acceptedAnswers": ["next year"],
+      "hint": "Next se place avant le nom, sans the, et year reste au singulier.",
+      "explanation": "Pour parler de l'année qui vient, on dit next year : next devant le nom, sans the, et year au singulier. On l'emploie souvent avec going to pour un projet.",
+      "tip": "Next + nom, sans the : next year, next week.",
+      "extraExample": {"text": "Next year, Anna is going to learn French.", "translation": "L'année prochaine, Anna va apprendre le français."},
+      "errorPatterns": [
+        {"equals": "year next", "category": "word_order", "feedback": "En anglais, next se place avant le nom : next year."},
+        {"equals": "next years", "category": "grammar", "feedback": "On parle d'une seule année : year reste au singulier. On dit next year."},
+        {"equals": "the next years", "category": "grammar", "feedback": "Pas de the dans « l'année prochaine », et year reste au singulier : next year."}
+      ]
+    },
+    {
+      "id": "en.l38.e02",
+      "unitIds": ["en.g25.going_to", "en.v.country", "en.v.move"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Anna ___ going to move to another country.",
+      "promptLanguage": "en",
+      "options": ["isn't", "doesn't", "don't", "not"],
+      "answer": "isn't",
+      "acceptedAnswers": ["isn't", "is not"],
+      "hint": "Going to se construit avec be : la négation se place après be.",
+      "explanation": "Avec going to, on fait la négation avec be + not : Anna isn't going to move. On n'emploie pas do ni doesn't, car be est déjà là.",
+      "tip": "Négation avec going to : isn't, aren't ou I'm not, jamais don't.",
+      "extraExample": {"text": "They aren't going to change their plan.", "translation": "Ils ne vont pas changer leur projet."},
+      "errorPatterns": [
+        {"equals": "does not", "category": "grammar", "feedback": "Going to se construit avec be, pas avec do. La négation est isn't : Anna isn't going to move."},
+        {"equals": "do not", "category": "grammar", "feedback": "Don't va avec I, you, we, they, et surtout pas avec going to, qui demande be. Avec Anna, on dit isn't."},
+        {"equals": "not", "category": "grammar", "feedback": "Not seul ne suffit pas : il faut be + not, donc isn't ou is not."}
+      ]
+    },
+    {
+      "id": "en.l38.e03",
+      "unitIds": ["en.g25.going_to", "en.v.year", "en.v.job", "en.v.apartment", "en.v.city", "en.v.country"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les mots des projets de vie : a year, a job, an apartment, a city, a country",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "a year", "right": "une année"},
+        {"left": "a job", "right": "un emploi"},
+        {"left": "an apartment", "right": "un appartement"},
+        {"left": "a city", "right": "une ville"},
+        {"left": "a country", "right": "un pays"}
+      ],
+      "answer": "a year = une année ; a job = un emploi ; an apartment = un appartement ; a city = une ville ; a country = un pays",
+      "acceptedAnswers": [],
+      "explanation": "Ces mots servent à parler de projets de vie. On dit an apartment, avec an, car apartment commence par un son de voyelle.",
+      "tip": "Devant un son de voyelle, on dit an : an apartment.",
+      "extraExample": {"text": "We're going to buy an apartment.", "translation": "Nous allons acheter un appartement."}
+    },
+    {
+      "id": "en.l38.e04",
+      "unitIds": ["en.g25.going_to", "en.v.country"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "Anna is going ___ live in another country.",
+      "promptLanguage": "en",
+      "options": ["to", "for", "at", "in"],
+      "answer": "to",
+      "acceptedAnswers": ["to"],
+      "hint": "Pour un projet, going est toujours suivi du même petit mot, puis du verbe.",
+      "explanation": "La structure d'un projet est be + going to + verbe de base. Le petit mot to fait partie de going to : Anna is going to live.",
+      "tip": "Going to : les deux mots vont ensemble, puis le verbe de base.",
+      "extraExample": {"text": "My brother is going to work in another country.", "translation": "Mon frère va travailler dans un autre pays."},
+      "errorPatterns": [
+        {"equals": "for", "category": "grammar", "feedback": "For ne convient pas ici. Pour un projet, on dit going to + verbe : going to live."},
+        {"equals": "at", "category": "grammar", "feedback": "At ne se met pas entre going et le verbe. La structure est going to + verbe de base."},
+        {"equals": "in", "category": "grammar", "feedback": "In ne se met pas entre going et le verbe. La structure est going to + verbe de base."}
+      ]
+    },
+    {
+      "id": "en.l38.e05",
+      "unitIds": ["en.g25.going_to", "en.v.city"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "My parents ___ going to move to another city.",
+      "promptLanguage": "en",
+      "options": ["are", "is", "am", "will"],
+      "answer": "are",
+      "acceptedAnswers": ["are", "'re"],
+      "hint": "My parents se remplace par they : quelle forme de be va avec they ?",
+      "explanation": "My parents = they, donc be devient are : My parents are going to move. Will ne s'emploie jamais avec going to.",
+      "tip": "Un sujet pluriel (my parents, the children) se comporte comme they : are.",
+      "extraExample": {"text": "My sisters are going to live in a big city.", "translation": "Mes sœurs vont vivre dans une grande ville."},
+      "errorPatterns": [
+        {"equals": "is", "category": "conjugation", "feedback": "Parents est au pluriel : on dit are, comme avec they."},
+        {"equals": "am", "category": "conjugation", "feedback": "Am s'emploie seulement avec I. Avec my parents (they), on dit are."},
+        {"equals": "will", "category": "grammar", "feedback": "Will et going to ne s'emploient pas ensemble. Avec going to, il faut be : are going to."}
+      ]
+    },
+    {
+      "id": "en.l38.e06",
+      "unitIds": ["en.g25.going_to", "en.v.year"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Où vas-tu habiter l'année prochaine ?",
+      "promptLanguage": "fr",
+      "tokens": ["year", "live", "you", "Where", "to", "going", "next", "are"],
+      "answer": "Where are you going to live next year",
+      "acceptedAnswers": ["Where are you going to live next year"],
+      "hint": "Le mot interrogatif ouvre la phrase, puis be passe avant le sujet.",
+      "explanation": "Dans une question avec going to, on met le mot interrogatif, puis be avant le sujet : Where are you going to live ? Next year se place à la fin.",
+      "tip": "Question : mot interrogatif + be + sujet + going to + verbe de base.",
+      "extraExample": {"text": "What are you going to learn next year?", "translation": "Qu'est-ce que tu vas apprendre l'année prochaine ?"}
+    },
+    {
+      "id": "en.l38.e07",
+      "unitIds": ["en.g25.going_to", "en.v.job", "en.v.change", "en.v.year"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Elle va changer de travail l'année prochaine.",
+      "promptLanguage": "fr",
+      "answer": "She is going to change her job next year",
+      "acceptedAnswers": ["She is going to change her job next year", "She is going to change jobs next year", "Next year she is going to change her job", "Next year she is going to change jobs", "She will change her job next year", "She will change jobs next year", "Next year she will change her job", "She is changing her job next year", "She is changing jobs next year"],
+      "hint": "En anglais, on change son job : pas de « de ». Avec she, be devient is.",
+      "explanation": "Pour un projet, on utilise be + going to + verbe de base : She is going to change. Après change, on met directement her job, sans préposition.",
+      "tip": "Changer de travail : change her job (pas « change of »).",
+      "extraExample": {"text": "Tom is going to change his phone next week.", "translation": "Tom va changer de téléphone la semaine prochaine."},
+      "errorPatterns": [
+        {"contains": "she going to", "category": "grammar", "feedback": "Il manque is devant going to : She is going to change her job."},
+        {"contains": "change of", "category": "preposition", "feedback": "En anglais, on ne met pas « de » après change : change her job."},
+        {"contains": "the next year", "category": "grammar", "feedback": "Dans « l'année prochaine », on ne met pas the : next year."}
+      ]
+    },
+    {
+      "id": "en.l38.e08",
+      "unitIds": ["en.g25.going_to", "en.v.country"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous allons habiter dans un autre pays.",
+      "promptLanguage": "fr",
+      "answer": "We are going to live in another country",
+      "acceptedAnswers": ["We are going to live in another country", "We are going to live in a different country", "We will live in another country", "We will live in a different country"],
+      "hint": "« Un autre » se dit another, en un seul mot, et il remplace a.",
+      "explanation": "On utilise be + going to + verbe de base : We are going to live. Another veut dire « un autre » et s'écrit en un seul mot, sans a devant.",
+      "tip": "Another = an + other, en un seul mot : another country.",
+      "extraExample": {"text": "They're going to live in another city.", "translation": "Ils vont vivre dans une autre ville."},
+      "errorPatterns": [
+        {"contains": "we going to", "category": "grammar", "feedback": "Il manque are devant going to : We are going to live."},
+        {"contains": "an other", "category": "spelling", "feedback": "« Un autre » s'écrit en un seul mot : another."},
+        {"contains": "in other country", "category": "grammar", "feedback": "Il faut un article : another country (« un autre pays »)."}
+      ]
+    },
+    {
+      "id": "en.l38.e09",
+      "unitIds": ["en.g25.going_to", "en.v.apartment"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris en anglais.",
+      "prompt": "Comment dit-on « Ils ne vont pas acheter d'appartement. » ?",
+      "promptLanguage": "fr",
+      "answer": "They aren't going to buy an apartment",
+      "acceptedAnswers": ["They aren't going to buy an apartment", "They are not going to buy an apartment", "They aren't going to buy a flat", "They are not going to buy a flat", "They won't buy an apartment", "They will not buy an apartment", "They won't buy a flat", "They will not buy a flat"],
+      "hint": "Avec going to, la négation se place après be. Apartment commence par une voyelle.",
+      "explanation": "Pour la négation, on met not après be : They aren't going to buy. Devant apartment, qui commence par un son de voyelle, on dit an.",
+      "tip": "Négation : be + not + going to + verbe de base.",
+      "extraExample": {"text": "Tom isn't going to buy a car.", "translation": "Tom ne va pas acheter de voiture."},
+      "errorPatterns": [
+        {"contains": "do not going", "category": "grammar", "feedback": "Avec going to, la négation se fait avec be + not, pas avec do : They aren't going to buy."},
+        {"contains": "a apartment", "category": "grammar", "feedback": "Apartment commence par un son de voyelle : on dit an apartment."},
+        {"contains": "they not going", "category": "grammar", "feedback": "Il manque be : They are not (aren't) going to buy an apartment."}
+      ]
+    },
+    {
+      "id": "en.l38.e10",
+      "unitIds": ["en.g25.going_to", "en.v.job", "en.v.city"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris une phrase en anglais avec going to et l'un de ces mots : year, job, apartment, city ou country.",
+      "prompt": "Parle d'un de tes projets de vie.",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["going to"], ["year", "years", "job", "jobs", "apartment", "apartments", "city", "cities", "country", "countries"]], "minWords": 6},
+      "answer": "I'm going to change my job next year.",
+      "acceptedAnswers": ["I'm going to change my job next year.", "We're going to live in another country.", "Anna is going to buy an apartment in London.", "Tom is going to move to a new city."],
+      "hint": "Commence par I'm going to, puis un verbe de base (change, move, buy, live…) et un des cinq mots.",
+      "explanation": "Un projet se dit avec be + going to + verbe de base, et la phrase doit contenir un des mots demandés. Par exemple : I'm going to change my job next year.",
+      "tip": "I'm / he's / we're going to + verbe de base + ton projet.",
+      "extraExample": {"text": "My sister is going to move to a big city.", "translation": "Ma sœur va déménager dans une grande ville."},
+      "errorPatterns": [
+        {"contains": "going to went", "category": "verb_tense", "feedback": "Après going to, le verbe reste à la forme de base, jamais au passé : going to go."},
+        {"contains": "i going to", "category": "grammar", "feedback": "Il manque be : I am going to… ou I'm going to…"}
+      ]
+    }
+  ]
+}

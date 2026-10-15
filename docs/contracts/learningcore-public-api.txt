@@ -1,0 +1,557 @@
+# LearningCore / LearningPrimitives — public declarations (generated: grep of 'public')
+## ./LearningCore/API/EngineAPI.swift
+9:public final class ContentIndex: Sendable {
+10:    public let bundle: ContentBundle
+11:    public let unitsById: [String: LearningUnit]
+12:    public let lessonsById: [String: Lesson]
+14:    public let lessonsInOrder: [Lesson]
+16:    public let exercisesById: [String: Exercise]
+18:    public let lessonExercisesByUnit: [String: [Exercise]]
+19:    public let dictionaryById: [String: DictionaryItem]
+21:    public let dictionaryByForm: [String: DictionaryItem]
+25:    public init(bundle: ContentBundle) {
+39:public struct LearningEngine: Sendable {
+40:    public let index: ContentIndex
+41:    public let configuration: EngineConfiguration
+44:    public init(bundle: ContentBundle, configuration: EngineConfiguration = .default) {
+48:    public init(index: ContentIndex, configuration: EngineConfiguration = .default) {
+56:    public var language: LanguageInfo { index.bundle.language }
+57:    public func unit(_ id: String) -> LearningUnit? { index.unitsById[id] }
+58:    public func lesson(_ id: String) -> Lesson? { index.lessonsById[id] }
+59:    public func exercise(_ id: String) -> Exercise? { index.exercisesById[id] }
+65:    public func nextLesson(for learner: LearnerSnapshot, now: Date) -> Lesson? {
+70:    public func planSession(type: SessionType, slot: SessionSlot?, day: LocalDay,
+76:    public func planFocusedPractice(unitId: String, day: LocalDay, learner: LearnerSnapshot,
+82:    public func isAssessmentDue(learner: LearnerSnapshot, now: Date) -> Bool {
+87:    public func planAssessment(day: LocalDay, learner: LearnerSnapshot, now: Date, seed: UInt64) -> SessionPlan {
+92:    public func dueReviews(learner: LearnerSnapshot, now: Date) -> [MemoryState] {
+97:    public func similarExercise(to exerciseId: String, learner: LearnerSnapshot,
+104:    public func evaluate(_ exercise: Exercise, submission: AnswerSubmission) -> Evaluation {
+113:    public func apply(_ attempt: AttemptRecord, to learner: inout LearnerSnapshot, now: Date) -> [MemoryState] {
+119:    public func resolvePendingAttempt(id: UUID, result: AttemptResult, errorCategory: ErrorCategory?,
+127:    public func mastery(of unitId: String, learner: LearnerSnapshot, now: Date) -> MasteryReport {
+131:    public func progress(learner: LearnerSnapshot, now: Date) -> ProgressReport {
+136:    public static func streak(completedDays: Set<LocalDay>, today: LocalDay, calendar: Calendar = .current) -> Int {
+148:    public func makeDiagnostic(selfAssessed: SelfAssessedLevel, seed: UInt64) -> DiagnosticSession {
+154:    public func applyPlacement(_ result: DiagnosticResult, to learner: inout LearnerSnapshot, now: Date) -> [MemoryState] {
+161:    public func lookup(_ word: String) -> DictionaryItem? {
+166:    public func searchDictionary(_ query: String, limit: Int = 30) -> [DictionaryItem] {
+173:    public func trackWord(dictionaryItemId: String, learner: inout LearnerSnapshot, now: Date) -> MemoryState? {
+182:public struct SessionRunner: Codable, Hashable, Sendable {
+183:    public private(set) var plan: SessionPlan
+185:    public private(set) var items: [SessionItem]
+186:    public private(set) var position: Int
+187:    public private(set) var attempts: [AttemptRecord]
+188:    public private(set) var lastEvaluation: Evaluation?
+190:    public private(set) var awaitingAdvance: Bool
+191:    public private(set) var remediationCount: Int
+192:    public private(set) var startedAt: Date
+194:    public init(plan: SessionPlan, startedAt: Date) {
+205:    public var currentItem: SessionItem? { position < items.count ? items[position] : nil }
+206:    public var isComplete: Bool { position >= items.count }
+207:    public var completedCount: Int { min(position, items.count) }
+208:    public var totalCount: Int { items.count }
+211:    public mutating func submit(_ submission: AnswerSubmission, hintUsed: Bool, duration: TimeInterval,
+240:    public mutating func overrideLastEvaluation(_ evaluation: Evaluation) -> AttemptRecord? {
+249:    public mutating func advance(engine: LearningEngine, learner: LearnerSnapshot) {
+275:    public func summary(engine: LearningEngine, now: Date) -> SessionSummary {
+281:public struct DiagnosticSession: Codable, Hashable, Sendable {
+282:    public private(set) var currentLevel: Int
+283:    public private(set) var answers: [DiagnosticAnswer]
+284:    public private(set) var askedIds: [String]
+285:    public let maxQuestions: Int
+287:    public let minQuestions: Int
+288:    public let seed: UInt64
+290:    public private(set) var bankExhausted: Bool
+293:    public var answeredCount: Int { answers.count }
+294:    public var isFinished: Bool {
+299:    public init(startLevel: Int, maxQuestions: Int, minQuestions: Int, seed: UInt64) {
+311:    public mutating func nextExercise(engine: LearningEngine) -> Exercise? {
+340:    public mutating func record(exerciseId: String, evaluation: Evaluation, engine: LearningEngine) {
+359:    public func result(engine: LearningEngine) -> DiagnosticResult {
+## ./LearningCore/Content/ContentIndex.swift
+4:struct FormEntry: Sendable, Hashable {
+10:struct DictionarySearchRow: Sendable {
+17:struct ContentIndexTables: Sendable {
+## ./LearningCore/Content/ContentModels.swift
+7:public enum WritingDirection: String, Codable, Sendable {
+8:    case ltr, rtl
+11:public struct LanguageInfo: Codable, Hashable, Sendable {
+12:    public let code: String
+13:    public let name: String
+14:    public let nativeName: String
+15:    public let writingDirection: WritingDirection
+17:    public let ttsLocale: String
+20:public struct ModuleInfo: Codable, Hashable, Sendable, Identifiable {
+21:    public let id: Int
+22:    public let title: String
+23:    public let description: String
+26:public enum UnitKind: String, Codable, Sendable {
+27:    case grammar, vocabulary
+31:public enum ProgressCategory: String, Codable, CaseIterable, Sendable {
+32:    case vocabulary
+33:    case verbs
+34:    case grammar
+35:    case sentenceBuilding = "sentence_building"
+37:    public var displayName: String {
+48:public struct Example: Codable, Hashable, Sendable {
+49:    public let text: String
+50:    public let translation: String
+52:    public init(text: String, translation: String) {
+58:public struct CommonError: Codable, Hashable, Sendable {
+59:    public let wrong: String
+60:    public let right: String
+61:    public let why: String
+64:public struct GrammarRule: Codable, Hashable, Sendable {
+65:    public let summary: String
+66:    public let explanation: String
+67:    public let pattern: String?
+68:    public let examples: [Example]
+69:    public let commonErrors: [CommonError]
+70:    public let tip: String?
+74:public struct LearningUnit: Codable, Hashable, Sendable, Identifiable {
+75:    public let id: String
+76:    public let kind: UnitKind
+77:    public let category: ProgressCategory
+79:    public let title: String
+80:    public let difficulty: Int
+81:    public let prerequisites: [String]
+82:    public let module: Int
+84:    public let rule: GrammarRule?
+85:    public let functionWords: [String]?
+87:    public let translation: String?
+88:    public let partOfSpeech: String?
+89:    public let lessonId: String?
+90:    public let dictionaryItemId: String?
+91:    public let deprecated: Bool?
+94:public struct Lesson: Codable, Hashable, Sendable, Identifiable {
+95:    public let id: String
+96:    public let module: Int
+97:    public let sequence: Int
+98:    public let title: String
+99:    public let description: String
+100:    public let difficulty: Int
+102:    public let grammarUnitId: String
+103:    public let introducesGrammar: Bool
+105:    public let introduces: [String]
+107:    public let reviews: [String]
+110:public enum ExerciseType: String, Codable, CaseIterable, Sendable {
+111:    case mcq
+112:    case fillBlank = "fill_blank"
+113:    case translation
+114:    case reorder
+115:    case match
+116:    case freeAnswer = "free_answer"
+118:    public var displayName: String {
+130:    public var defaultSkill: ExerciseSkill {
+140:public enum ExerciseSkill: String, Codable, Sendable, Comparable {
+141:    case recognition, recall, production
+151:    public static func < (lhs: ExerciseSkill, rhs: ExerciseSkill) -> Bool { lhs.rank < rhs.rank }
+155:public enum ErrorCategory: String, Codable, CaseIterable, Sendable {
+156:    case vocabulary
+157:    case grammar
+158:    case conjugation
+159:    case verbTense = "verb_tense"
+160:    case wordOrder = "word_order"
+161:    case spelling
+162:    case preposition
+163:    case wordConfusion = "word_confusion"
+164:    case instruction
+166:    public var displayName: String {
+181:public struct MatchPair: Codable, Hashable, Sendable {
+182:    public let left: String
+183:    public let right: String
+185:    public init(left: String, right: String) {
+192:public struct ErrorPattern: Codable, Hashable, Sendable {
+194:    public let equals: String?
+196:    public let contains: String?
+197:    public let category: ErrorCategory
+198:    public let feedback: String
+202:public struct AnswerRequirements: Codable, Hashable, Sendable {
+204:    public let mustInclude: [[String]]?
+205:    public let mustNotInclude: [String]?
+206:    public let minWords: Int?
+209:public enum ExercisePool: String, Codable, Sendable {
+210:    case lesson, diagnostic, assessment
+213:public struct Exercise: Codable, Hashable, Sendable, Identifiable {
+214:    public let id: String
+215:    public let pool: ExercisePool
+216:    public let lessonId: String?
+218:    public let unitIds: [String]
+219:    public let type: ExerciseType
+220:    public let skill: ExerciseSkill
+221:    public let difficulty: Int
+222:    public let instruction: String
+223:    public let prompt: String
+225:    public let promptLanguage: String
+226:    public let context: String?
+227:    public let options: [String]?
+228:    public let answer: String
+229:    public let acceptedAnswers: [String]
+230:    public let tokens: [String]?
+231:    public let pairs: [MatchPair]?
+232:    public let requirements: AnswerRequirements?
+233:    public let hint: String?
+234:    public let explanation: String
+235:    public let tip: String?
+236:    public let extraExample: Example?
+237:    public let errorPatterns: [ErrorPattern]?
+239:    public let level: Int?
+240:    public let topic: String?
+241:    public let deprecated: Bool?
+243:    public var primaryUnitId: String { unitIds.first ?? "" }
+246:    public func answerLanguage(studied: String) -> String {
+256:public struct Confusion: Codable, Hashable, Sendable {
+257:    public let word: String
+258:    public let note: String
+261:public struct DictionaryItem: Codable, Hashable, Sendable, Identifiable {
+262:    public let id: String
+263:    public let word: String
+264:    public let translation: String
+265:    public let otherTranslations: [String]?
+266:    public let partOfSpeech: String
+267:    public let ipa: String?
+268:    public let explanation: String
+269:    public let examples: [Example]
+270:    public let confusions: [Confusion]?
+272:    public let forms: [String: String]?
+274:    public let unitId: String?
+278:public struct ContentBundle: Codable, Sendable {
+279:    public let formatVersion: Int
+280:    public let contentVersion: String
+281:    public let language: LanguageInfo
+282:    public let modules: [ModuleInfo]
+283:    public let units: [LearningUnit]
+284:    public let lessons: [Lesson]
+286:    public let exercises: [Exercise]
+287:    public let diagnostic: [Exercise]
+288:    public let assessment: [Exercise]
+289:    public let dictionary: [DictionaryItem]
+291:    public static func decode(from data: Data) throws -> ContentBundle {
+## ./LearningCore/Diagnostic/Diagnostic.swift
+4:enum DiagnosticSupport {
+26:extension LearningEngine {
+## ./LearningCore/Dictionary/DictionaryLookup.swift
+4:extension LearningEngine {
+## ./LearningCore/Evaluation/AnswerEvaluator.swift
+4:struct AnswerEvaluator: Sendable {
+102:            case 1:
+105:            case 2:
+## ./LearningCore/Evaluation/Normalizer.swift
+8:public enum TextNormalizer {
+12:    public static func tokens(_ text: String) -> [String] {
+18:            case "\u{2019}", "\u{2018}", "\u{201B}", "\u{00B4}", "`", "\u{02BC}":
+20:            case "\u{201C}", "\u{201D}", "\u{201E}", "\u{00AB}", "\u{00BB}", "\"":
+22:            case ",", ";", ":", "(", ")", "[", "]", "{", "}", "\u{2013}", "\u{2014}", "\u{2015}":
+36:    public static func normalize(_ text: String) -> String {
+55:    public static func foldAccents(_ text: String) -> String {
+67:    public static func canonicalVariants(_ text: String, english: Bool = true, lenient: Bool = false) -> [[String]] {
+88:    public static func canonicalForm(_ text: String, english: Bool = true) -> String {
+93:    public static func canonicalStrings(_ text: String, english: Bool = true, lenient: Bool = false) -> [String] {
+## ./LearningCore/Evaluation/WordClassifier.swift
+4:enum ClosedWordSets {
+62:struct WordClassifier: Sendable {
+## ./LearningCore/Learner/LearnerModels.swift
+7:public enum ReviewGrade: Int, Codable, Sendable, Comparable {
+8:    case again = 1, hard = 2, good = 3, easy = 4
+9:    public static func < (lhs: ReviewGrade, rhs: ReviewGrade) -> Bool { lhs.rawValue < rhs.rawValue }
+12:public enum MemorySource: String, Codable, Sendable {
+14:    case lesson
+16:    case diagnostic
+18:    case dictionary
+22:public struct MemoryState: Codable, Hashable, Sendable, Identifiable {
+23:    public var id: String { unitId }
+24:    public let unitId: String
+26:    public var stability: Double
+28:    public var difficulty: Double
+29:    public var reviewCount: Int
+30:    public var lapseCount: Int
+31:    public var successCount: Int
+32:    public var failureCount: Int
+33:    public var noHintSuccessCount: Int
+35:    public var delayedSuccessCount: Int
+37:    public var productionSuccessCount: Int
+38:    public var successfulExerciseTypes: Set<ExerciseType>
+40:    public var recentResults: [Bool]
+41:    public var source: MemorySource
+42:    public var firstSeenAt: Date
+43:    public var lastReviewAt: Date?
+44:    public var nextReviewAt: Date
+45:    public var updatedAt: Date
+47:    public init(unitId: String, stability: Double, difficulty: Double, source: MemorySource,
+73:public enum AttemptResult: String, Codable, Sendable {
+74:    case correct
+76:    case correctWithTypo = "correct_typo"
+77:    case partial
+78:    case incorrect
+80:    case pending
+82:    public var countsAsSuccess: Bool { self == .correct || self == .correctWithTypo }
+86:public enum PresentationMode: String, Codable, Sendable {
+88:    case choices
+90:    case typed
+92:    case tokens
+94:    case pairs
+98:public enum AnswerSubmission: Codable, Hashable, Sendable {
+99:    case text(String)
+100:    case choice(String)
+101:    case ordering([String])
+102:    case matches([MatchPair])
+105:    public var displayText: String {
+115:public struct TokenDiff: Codable, Hashable, Sendable {
+116:    public enum Status: String, Codable, Sendable {
+117:        case same, wrong, missing, extra, typo
+120:    public let text: String
+122:    public let expected: String?
+123:    public let status: Status
+125:    public init(text: String, expected: String?, status: Status) {
+133:public struct Evaluation: Codable, Hashable, Sendable {
+134:    public var result: AttemptResult
+136:    public var expectedAnswer: String
+137:    public var userAnswer: String
+138:    public var errorCategory: ErrorCategory?
+140:    public var feedback: String?
+142:    public var typoNote: String?
+143:    public var diff: [TokenDiff]
+145:    public var wrongPairs: [MatchPair]
+148:    public var needsAIReview: Bool
+150:    public var gradedBy: Grader
+152:    public enum Grader: String, Codable, Sendable { case deterministic, ai, localFallback }
+154:    public var isCorrect: Bool { result.countsAsSuccess }
+156:    public init(result: AttemptResult, expectedAnswer: String, userAnswer: String,
+174:public struct AttemptRecord: Codable, Hashable, Sendable, Identifiable {
+175:    public let id: UUID
+176:    public let exerciseId: String
+177:    public let sessionId: UUID?
+178:    public let unitIds: [String]
+179:    public let exerciseType: ExerciseType
+180:    public let presentation: PresentationMode
+181:    public let submittedAnswer: String
+182:    public var result: AttemptResult
+183:    public var errorCategory: ErrorCategory?
+184:    public let hintUsed: Bool
+185:    public let isRemediation: Bool
+186:    public let durationSeconds: Double
+187:    public let answeredAt: Date
+189:    public init(id: UUID = UUID(), exerciseId: String, sessionId: UUID?, unitIds: [String],
+210:public struct LearnerSnapshot: Codable, Hashable, Sendable {
+211:    public var memoryStates: [String: MemoryState]
+213:    public var recentAttempts: [AttemptRecord]
+214:    public var completedLessonIds: Set<String>
+216:    public var placedLessonIds: Set<String>
+218:    public var estimatedLevel: Int?
+219:    public var lastAssessmentAt: Date?
+220:    public var startedAt: Date?
+222:    public init(memoryStates: [String: MemoryState] = [:], recentAttempts: [AttemptRecord] = [],
+234:    public static let empty = LearnerSnapshot()
+238:public enum ItemRole: String, Codable, Sendable {
+239:    case newMaterial
+240:    case oldReview
+241:    case recentReview
+242:    case practice
+243:    case activeRecall
+244:    case remediation
+245:    case assessment
+248:public struct SessionItem: Codable, Hashable, Sendable, Identifiable {
+249:    public enum Kind: Codable, Hashable, Sendable {
+251:        case ruleCard(unitId: String)
+253:        case wordCard(unitId: String)
+254:        case exercise(exerciseId: String)
+257:    public let id: UUID
+258:    public let kind: Kind
+259:    public let role: ItemRole
+260:    public let presentation: PresentationMode
+261:    public let hintAllowed: Bool
+263:    public init(id: UUID = UUID(), kind: Kind, role: ItemRole, presentation: PresentationMode, hintAllowed: Bool) {
+271:    public var exerciseId: String? {
+277:public struct SessionPlan: Codable, Hashable, Sendable, Identifiable {
+278:    public let id: UUID
+279:    public let type: SessionType
+280:    public let slot: SessionSlot?
+281:    public let day: LocalDay
+283:    public let lessonId: String?
+284:    public let newUnitIds: [String]
+285:    public let items: [SessionItem]
+286:    public let estimatedSeconds: Int
+287:    public let createdAt: Date
+289:    public init(id: UUID = UUID(), type: SessionType, slot: SessionSlot?, day: LocalDay, lessonId: String?,
+303:public struct ImportantError: Codable, Hashable, Sendable {
+304:    public let exerciseId: String
+305:    public let unitId: String
+306:    public let prompt: String
+307:    public let expected: String
+308:    public let given: String
+309:    public let category: ErrorCategory?
+313:public struct SessionSummary: Codable, Hashable, Sendable {
+314:    public let sessionId: UUID
+315:    public let type: SessionType
+316:    public let slot: SessionSlot?
+317:    public let lessonId: String?
+318:    public let unitIdsWorked: [String]
+319:    public let newUnitIds: [String]
+320:    public let reviewCount: Int
+321:    public let attemptCount: Int
+322:    public let correctCount: Int
+323:    public let importantErrors: [ImportantError]
+324:    public let durationSeconds: Double
+326:    public let score: Double?
+329:public enum MasteryLevel: String, Codable, Sendable, Comparable {
+330:    case notStarted, learning, fragile, mastered
+341:    public static func < (lhs: MasteryLevel, rhs: MasteryLevel) -> Bool { lhs.rank < rhs.rank }
+343:    public var displayName: String {
+353:public struct MasteryReport: Codable, Hashable, Sendable {
+354:    public let unitId: String
+356:    public let score: Double
+357:    public let level: MasteryLevel
+359:    public let retrievability: Double
+360:    public let nextReviewAt: Date?
+363:public struct CategoryProgress: Codable, Hashable, Sendable {
+364:    public let category: ProgressCategory
+365:    public let unitsTotal: Int
+366:    public let unitsStudied: Int
+367:    public let unitsMastered: Int
+369:    public let averageMastery: Double
+372:public struct ErrorCategoryStat: Codable, Hashable, Sendable {
+373:    public let category: ErrorCategory
+374:    public let errorCount: Int
+376:    public let rate: Double
+380:public struct ProgressReport: Codable, Hashable, Sendable {
+381:    public let wordsStudied: Int
+382:    public let wordsMastered: Int
+383:    public let rulesStudied: Int
+384:    public let rulesMastered: Int
+385:    public let attemptCount: Int
+387:    public let successRate: Double
+389:    public let reviewsDone: Int
+390:    public let dueReviewCount: Int
+391:    public let lessonsCompleted: Int
+392:    public let lessonsTotal: Int
+393:    public let categories: [CategoryProgress]
+395:    public let weakErrorCategories: [ErrorCategoryStat]
+399:public enum SelfAssessedLevel: Int, Codable, CaseIterable, Sendable {
+400:    case beginner = 0
+401:    case someBasics = 1
+402:    case understandsSentences = 2
+403:    case intermediate = 3
+405:    public var displayName: String {
+415:public struct DiagnosticAnswer: Codable, Hashable, Sendable {
+416:    public let exerciseId: String
+417:    public let level: Int
+418:    public let topic: String
+419:    public let correct: Bool
+423:public struct DiagnosticResult: Codable, Hashable, Sendable {
+425:    public let estimatedLevel: Int
+427:    public let levelLabel: String
+428:    public let startLessonId: String
+429:    public let placedLessonIds: [String]
+431:    public let knownUnitIds: [String]
+432:    public let answers: [DiagnosticAnswer]
+434:    public let topicScores: [String: Double]
+438:public struct EngineConfiguration: Codable, Hashable, Sendable {
+440:    public var fsrsWeights: [Double]
+442:    public var desiredRetention: Double
+443:    public var maximumIntervalDays: Double
+444:    public var minInteractions: Int
+445:    public var maxInteractions: Int
+446:    public var targetSessionSeconds: Int
+448:    public var estimatedSeconds: [String: Int]
+450:    public var overdueThresholdToPauseNewMaterial: Int
+451:    public var maxRemediationsPerSession: Int
+453:    public var prerequisiteMasteryThreshold: Double
+455:    public var prerequisiteBypassDays: Int
+456:    public var masteredThreshold: Double
+457:    public var fragileThreshold: Double
+458:    public var delayedSuccessHours: Double
+459:    public var recentResultsLimit: Int
+460:    public var attemptHistoryLimit: Int
+461:    public var assessmentIntervalDays: Int
+462:    public var assessmentQuestionCount: Int
+463:    public var diagnosticMinQuestions: Int
+464:    public var diagnosticMaxQuestions: Int
+466:    public init(fsrsWeights: [Double], desiredRetention: Double, maximumIntervalDays: Double,
+496:    public static let `default` = EngineConfiguration(
+## ./LearningCore/Mastery/MasteryCalculator.swift
+4:struct MasteryCalculator: Sendable {
+51:struct ErrorStats {
+99:public struct ModuleProgress: Codable, Hashable, Sendable, Identifiable {
+100:    public var id: Int { module }
+101:    public let module: Int
+102:    public let unitsTotal: Int
+103:    public let unitsStudied: Int
+104:    public let unitsMastered: Int
+106:    public let fraction: Double
+109:extension LearningEngine {
+167:    public func moduleProgress(learner: LearnerSnapshot, now: Date) -> [ModuleProgress] {
+189:    public func overallProgress(learner: LearnerSnapshot, now: Date) -> Double {
+## ./LearningCore/Planning/LessonSelector.swift
+4:struct LessonSelector {
+## ./LearningCore/Planning/SessionPlanner.swift
+4:struct SessionPlanner {
+532:extension LearningEngine {
+647:    public func registerCompletion(of plan: SessionPlan, to learner: inout LearnerSnapshot, now: Date) {
+## ./LearningCore/Scheduling/FSRS.swift
+4:struct FSRS: Sendable {
+## ./LearningCore/Scheduling/MemoryUpdater.swift
+5:struct MemoryUpdater: Sendable {
+## ./LearningCore/Session/SessionRunner.swift
+3:extension SessionRunner {
+## ./LearningCore/Support/SplitMix64.swift
+5:struct SplitMix64: RandomNumberGenerator, Sendable {
+55:enum EngineTuning {
+## ./LearningPrimitives/Primitives.swift
+8:public enum SessionSlot: String, Codable, CaseIterable, Sendable, Comparable, Identifiable {
+9:    case morning, afternoon, evening
+11:    public var id: String { rawValue }
+13:    public var index: Int {
+22:    public var defaultSessionType: SessionType {
+30:    public var displayName: String {
+38:    public static func < (lhs: SessionSlot, rhs: SessionSlot) -> Bool { lhs.index < rhs.index }
+41:public enum SessionType: String, Codable, CaseIterable, Sendable {
+42:    case learning, application, consolidation, diagnostic, assessment, extra
+44:    public var displayName: String {
+57:public struct TimeOfDay: Codable, Hashable, Sendable, Comparable, CustomStringConvertible {
+58:    public let hour: Int
+59:    public let minute: Int
+61:    public init(hour: Int, minute: Int) {
+67:    public init?(string: String) {
+74:    public init(minutesSinceMidnight: Int) {
+79:    public var minutesSinceMidnight: Int { hour * 60 + minute }
+82:    public func adding(minutes: Int) -> TimeOfDay {
+86:    public var dateComponents: DateComponents { DateComponents(hour: hour, minute: minute) }
+89:    public var description: String { String(format: "%02d:%02d", hour, minute) }
+91:    public static func < (lhs: TimeOfDay, rhs: TimeOfDay) -> Bool {
+97:public struct LocalDay: Codable, Hashable, Sendable, Comparable, CustomStringConvertible {
+98:    public let year: Int
+99:    public let month: Int
+100:    public let day: Int
+102:    public init(year: Int, month: Int, day: Int) {
+108:    public init(date: Date, calendar: Calendar = .current) {
+114:    public init?(isoString: String) {
+122:    public var isoString: String { String(format: "%04d-%02d-%02d", year, month, day) }
+123:    public var description: String { isoString }
+126:    public func startDate(calendar: Calendar = .current) -> Date {
+131:    public func date(at time: TimeOfDay, calendar: Calendar = .current) -> Date? {
+135:    public func adding(days: Int, calendar: Calendar = .current) -> LocalDay {
+141:    public func days(until other: LocalDay, calendar: Calendar = .current) -> Int {
+145:    public static func < (lhs: LocalDay, rhs: LocalDay) -> Bool {
+151:public struct DailySchedule: Codable, Hashable, Sendable {
+152:    public var morning: TimeOfDay
+153:    public var afternoon: TimeOfDay
+154:    public var evening: TimeOfDay
+156:    public var timeZoneIdentifier: String
+157:    public var enabled: Bool
+160:    public var safetyWindowMinutes: Int
+162:    public var earlyStartMinutes: Int
+164:    public init(morning: TimeOfDay, afternoon: TimeOfDay, evening: TimeOfDay,
+176:    public static let `default` = DailySchedule(
+181:    public static let minimumSafetyWindowMinutes = 15
+182:    public static let maximumSafetyWindowMinutes = 240
+183:    public static let minimumGapBetweenSlotsMinutes = 30
+185:    public func time(for slot: SessionSlot) -> TimeOfDay {
+193:    public mutating func setTime(_ time: TimeOfDay, for slot: SessionSlot) {
+203:    public func restrictionWindow(for slot: SessionSlot) -> (start: TimeOfDay, end: TimeOfDay) {
+209:    public enum Issue: Equatable, Sendable {
+210:        case slotsNotInOrder
+211:        case slotsTooClose(SessionSlot, SessionSlot)
+212:        case windowTooShort(SessionSlot)
+213:        case safetyWindowOutOfRange
+217:    public func validate() -> [Issue] {

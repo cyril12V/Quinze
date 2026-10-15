@@ -1,0 +1,207 @@
+{
+  "lessonId": "en.l59",
+  "exercises": [
+    {
+      "id": "en.l59.e01",
+      "unitIds": ["en.g41.tense_contrast"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis le bon temps.",
+      "prompt": "Anna ___ to work every day.",
+      "promptLanguage": "en",
+      "options": ["walks", "is walking", "walked", "has walked"],
+      "answer": "walks",
+      "acceptedAnswers": ["walks"],
+      "hint": "Every day indique une habitude.",
+      "explanation": "Every day indique une habitude : on utilise le présent simple. Avec Anna (she), on ajoute un -s : walks.",
+      "tip": "Habitude (every day, always, usually) = présent simple.",
+      "extraExample": {"text": "Tom drinks coffee every morning.", "translation": "Tom boit du café tous les matins."},
+      "errorPatterns": [
+        {"equals": "is walking", "category": "verb_tense", "feedback": "Le présent continu parle d'une action en cours (now, at the moment). Every day indique une habitude : présent simple."},
+        {"equals": "walked", "category": "verb_tense", "feedback": "Walked est un passé : il faudrait un marqueur comme yesterday. Every day indique une habitude : walks."},
+        {"equals": "has walked", "category": "verb_tense", "feedback": "Le present perfect ne sert pas à décrire une habitude. Every day indique une habitude : présent simple, walks."}
+      ]
+    },
+    {
+      "id": "en.l59.e02",
+      "unitIds": ["en.g41.tense_contrast", "en.v.memory"],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon temps.",
+      "prompt": "Last summer, we ___ many happy memories in Paris.",
+      "promptLanguage": "en",
+      "options": ["made", "have made", "are making", "make"],
+      "answer": "made",
+      "acceptedAnswers": ["made"],
+      "hint": "Last summer est un moment précis dans le passé.",
+      "explanation": "Last summer donne un moment précis dans le passé : on utilise le past simple. Make est irrégulier : le past simple est made.",
+      "tip": "Last summer, yesterday, ago : past simple.",
+      "extraExample": {"text": "Tom lost his key two days ago.", "translation": "Tom a perdu sa clé il y a deux jours."},
+      "errorPatterns": [
+        {"equals": "have made", "category": "verb_tense", "feedback": "Avec un moment précis comme last summer, on n'utilise pas le present perfect. Utilise le past simple : made."},
+        {"equals": "are making", "category": "verb_tense", "feedback": "Are making est le présent continu (action en cours). Last summer est passé : made."},
+        {"equals": "make", "category": "verb_tense", "feedback": "Make est au présent. Last summer demande le passé : made."}
+      ]
+    },
+    {
+      "id": "en.l59.e03",
+      "unitIds": ["en.g41.tense_contrast"],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque marqueur de temps au temps qu'il demande.",
+      "prompt": "Quel temps choisir selon le marqueur ?",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "every day", "right": "présent simple"},
+        {"left": "at the moment", "right": "présent continu"},
+        {"left": "yesterday", "right": "past simple"},
+        {"left": "ever / never", "right": "present perfect"},
+        {"left": "next week", "right": "futur (will / going to)"}
+      ],
+      "answer": "every day = présent simple ; at the moment = présent continu ; yesterday = past simple ; ever / never = present perfect ; next week = futur (will / going to)",
+      "acceptedAnswers": [],
+      "explanation": "Le petit mot de temps te guide : every day = habitude, at the moment = action en cours, yesterday = moment précis du passé, ever / never = expérience, next week = futur.",
+      "tip": "Cherche d'abord le marqueur de temps : il te dit quel temps utiliser.",
+      "extraExample": {"text": "I'm studying English at the moment.", "translation": "J'étudie l'anglais en ce moment."}
+    },
+    {
+      "id": "en.l59.e04",
+      "unitIds": ["en.g41.tense_contrast", "en.v.chance"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec le futur.",
+      "prompt": "I have a chance to travel next year, so I ___ visit Spain.",
+      "promptLanguage": "en",
+      "options": ["will", "did", "have", "am"],
+      "answer": "will",
+      "acceptedAnswers": ["will", "'ll", "am going to"],
+      "hint": "Next year parle du futur.",
+      "explanation": "Next year parle du futur : on utilise will + verbe de base (ou am going to + verbe de base). Did, have et am tout seuls ne forment pas un futur.",
+      "tip": "Futur (next year, tomorrow, soon) = will ou going to + verbe de base.",
+      "extraExample": {"text": "Tomorrow, I will call the dentist.", "translation": "Demain, j'appellerai le dentiste."},
+      "errorPatterns": [
+        {"equals": "did", "category": "verb_tense", "feedback": "Did est un passé. Next year parle du futur : will visit."},
+        {"equals": "have", "category": "verb_tense", "feedback": "Have visit n'existe pas ici. Pour le futur, on dit will visit ou am going to visit."},
+        {"equals": "am", "category": "verb_tense", "feedback": "Am visit est incorrect. Pour le futur, on dit will visit ou am going to visit."}
+      ]
+    },
+    {
+      "id": "en.l59.e05",
+      "unitIds": ["en.g41.tense_contrast", "en.v.life"],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec la bonne forme du verbe entre parenthèses.",
+      "prompt": "In his life, Tom has ___ in three different countries. (live)",
+      "promptLanguage": "en",
+      "options": ["lived", "live", "lives", "living"],
+      "answer": "lived",
+      "acceptedAnswers": ["lived"],
+      "hint": "Has est suivi du participe passé.",
+      "explanation": "On parle de toute la vie de Tom (in his life), sans date précise : present perfect. Après has, il faut le participe passé : lived.",
+      "tip": "In my life, ever, never : have / has + participe passé.",
+      "extraExample": {"text": "She has never been ill in her life.", "translation": "Elle n'a jamais été malade de sa vie."},
+      "errorPatterns": [
+        {"equals": "live", "category": "conjugation", "feedback": "Après has, le verbe ne reste pas à la forme de base : il faut le participe passé lived."},
+        {"equals": "lives", "category": "conjugation", "feedback": "Lives est le présent (3e personne). Après has, il faut le participe passé : lived."},
+        {"equals": "living", "category": "conjugation", "feedback": "Après has, on n'utilise pas -ing mais le participe passé : lived."}
+      ]
+    },
+    {
+      "id": "en.l59.e06",
+      "unitIds": ["en.g41.tense_contrast", "en.v.moment"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Elle regarde un film en ce moment.",
+      "promptLanguage": "fr",
+      "answer": "She is watching a film at the moment.",
+      "acceptedAnswers": ["She is watching a film at the moment.", "She is watching a movie at the moment.", "At the moment, she is watching a film.", "At the moment, she is watching a movie.", "She is watching a film right now.", "She is watching a movie right now.", "She is watching a film now.", "She is watching a movie now."],
+      "hint": "En ce moment = une action qui se passe maintenant.",
+      "explanation": "En ce moment indique une action en cours : on utilise le présent continu, is + verbe en -ing. At the moment est le marqueur qui le confirme.",
+      "tip": "At the moment, now, right now : be + verbe en -ing.",
+      "extraExample": {"text": "I'm cooking dinner at the moment.", "translation": "Je prépare le dîner en ce moment."},
+      "errorPatterns": [
+        {"contains": "she watches", "category": "verb_tense", "feedback": "Le présent simple décrit une habitude. En ce moment = action en cours : she is watching."},
+        {"contains": "she watching", "category": "grammar", "feedback": "Il manque is avant watching : she is watching."},
+        {"contains": "has watched", "category": "verb_tense", "feedback": "Le present perfect ne convient pas pour une action en cours. Utilise le présent continu : is watching."}
+      ]
+    },
+    {
+      "id": "en.l59.e07",
+      "unitIds": ["en.g41.tense_contrast", "en.v.moment"],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre pour traduire.",
+      "prompt": "Elle n'a jamais oublié ce moment.",
+      "promptLanguage": "fr",
+      "tokens": ["moment", "She", "has", "never", "forgotten", "that"],
+      "answer": "She has never forgotten that moment",
+      "acceptedAnswers": ["She has never forgotten that moment"],
+      "hint": "Never se place entre has et le participe passé.",
+      "explanation": "Never + aucune date précise : present perfect. On place never entre has et le participe passé forgotten (forget – forgot – forgotten).",
+      "tip": "Jamais = have / has + never + participe passé.",
+      "extraExample": {"text": "Tom has never lost his passport.", "translation": "Tom n'a jamais perdu son passeport."}
+    },
+    {
+      "id": "en.l59.e08",
+      "unitIds": ["en.g41.tense_contrast", "en.v.experience"],
+      "type": "translation",
+      "difficulty": 4,
+      "instruction": "Traduis en anglais. « super » = great.",
+      "prompt": "Elle a vécu une super expérience l'année dernière.",
+      "promptLanguage": "fr",
+      "answer": "She had a great experience last year.",
+      "acceptedAnswers": ["She had a great experience last year.", "She had a wonderful experience last year.", "She had an amazing experience last year.", "She had a fantastic experience last year.", "She had a good experience last year.", "She had a nice experience last year.", "Last year, she had a great experience.", "Last year, she had a wonderful experience.", "Last year, she had an amazing experience.", "Last year, she had a fantastic experience.", "Last year, she had a good experience.", "Last year, she had a nice experience."],
+      "hint": "Last year est un moment précis ; en anglais, on « a » une expérience.",
+      "explanation": "L'année dernière donne un moment précis dans le passé : past simple. En anglais, on dit have an experience (had au passé), et pas live an experience.",
+      "tip": "Avec last year, yesterday ou ago : past simple, jamais le present perfect.",
+      "extraExample": {"text": "We had a good time last weekend.", "translation": "Nous avons passé un bon moment le week-end dernier."},
+      "errorPatterns": [
+        {"contains": "has had", "category": "verb_tense", "feedback": "Last year est un moment précis : on utilise le past simple (had), pas le present perfect."},
+        {"contains": "lived a", "category": "word_confusion", "feedback": "En anglais, on ne « vit » pas une expérience : on a une expérience. Dis she had a great experience."},
+        {"contains": "she have", "category": "grammar", "feedback": "Avec she, on dit has (présent) ou had (passé). Ici, last year demande had."}
+      ]
+    },
+    {
+      "id": "en.l59.e09",
+      "unitIds": ["en.g41.tense_contrast", "en.g39.present_perfect_intro", "en.v.chance"],
+      "type": "free_answer",
+      "difficulty": 4,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment demander « As-tu déjà eu l'occasion de visiter Londres ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Have you ever had the chance to visit London?",
+      "acceptedAnswers": ["Have you ever had the chance to visit London?", "Have you ever had a chance to visit London?", "Have you ever had the chance to go to London?", "Have you ever had a chance to go to London?", "Have you ever had the opportunity to visit London?", "Have you already had the chance to visit London?", "Have you already had a chance to visit London?", "Have you had the chance to visit London yet?", "Have you had a chance to visit London yet?", "Have you had the chance to visit London before?", "Have you had a chance to visit London before?"],
+      "hint": "Une expérience de vie : Have you ever + participe passé de have.",
+      "explanation": "On parle d'une expérience sans date précise : present perfect, Have you ever had…? En anglais, « une occasion » se dit a chance (ou an opportunity).",
+      "tip": "« Occasion » (de faire quelque chose) se dit chance en anglais.",
+      "extraExample": {"text": "Have you ever had the chance to speak English abroad?", "translation": "As-tu déjà eu l'occasion de parler anglais à l'étranger ?"},
+      "errorPatterns": [
+        {"contains": "did you ever", "category": "verb_tense", "feedback": "Pour une expérience de vie jusqu'à maintenant, on utilise Have you ever + participe passé : Have you ever had…? Did you ever… parle plutôt d'une période du passé terminée."},
+        {"contains": "ever have", "category": "conjugation", "feedback": "Après Have you ever, il faut le participe passé : had, pas have."},
+        {"contains": "the occasion", "category": "word_confusion", "feedback": "En anglais, une occasion de faire quelque chose se dit chance ou opportunity, pas occasion."}
+      ]
+    },
+    {
+      "id": "en.l59.e10",
+      "unitIds": ["en.g41.tense_contrast", "en.g39.present_perfect_intro"],
+      "type": "free_answer",
+      "difficulty": 5,
+      "instruction": "Écris deux phrases en anglais.",
+      "prompt": "Une phrase avec ever ou never (une expérience de vie), et une phrase avec yesterday, last ou ago (un moment précis du passé).",
+      "promptLanguage": "fr",
+      "requirements": {"mustInclude": [["ever", "never"], ["yesterday", "last", "ago"]], "minWords": 8},
+      "answer": "I have never been abroad. I visited London last year.",
+      "acceptedAnswers": ["I have never been abroad. I visited London last year.", "Anna has never lived abroad. She moved to Paris two years ago.", "Have you ever seen this film? I saw it yesterday."],
+      "hint": "Ever / never : have + participe passé. Yesterday / last / ago : past simple.",
+      "explanation": "Ever et never demandent le present perfect (have / has + participe passé). Yesterday, last et ago donnent un moment précis : on utilise le past simple.",
+      "tip": "Expérience sans date : have + participe passé. Moment précis : past simple.",
+      "extraExample": {"text": "I have never eaten fish. I tried it yesterday.", "translation": "Je n'ai jamais mangé de poisson. Je l'ai goûté hier."},
+      "errorPatterns": [
+        {"contains": "have visited last", "category": "verb_tense", "feedback": "Avec last year (moment précis), on utilise le past simple : I visited, sans have."},
+        {"contains": "have seen yesterday", "category": "verb_tense", "feedback": "Avec yesterday, on utilise le past simple : I saw, sans have."},
+        {"contains": "have went", "category": "conjugation", "feedback": "Went est le past simple. Après have, il faut le participe passé : gone ou been."}
+      ]
+    }
+  ]
+}

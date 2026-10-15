@@ -1,0 +1,122 @@
+[
+  {
+    "id": "en.g14.present_simple_third_person",
+    "rule": {
+      "summary": "Au présent simple, on ajoute -s au verbe avec he, she, it et avec un sujet singulier (Tom, my mother).",
+      "explanation": "Avec I, you, we et they, le verbe garde sa forme de base : I work, they work. Avec he, she, it, ou avec un prénom ou un nom au singulier, on ajoute -s : he works, Tom works, my mother works. Le présent simple sert à parler de ce qu'on fait d'habitude et de ce qui est vrai en général. Certains verbes prennent -es (watch → watches, finish → finishes, fix → fixes, go → goes, do → does), ceux en consonne + y changent en -ies (study → studies), et have devient has.",
+      "pattern": "He / She / It + verbe + -s (-es / -ies) ; have → has",
+      "examples": [
+        {"text": "Tom works in London.", "translation": "Tom travaille à Londres."},
+        {"text": "My sister speaks French.", "translation": "Ma sœur parle français."},
+        {"text": "She watches a film every night.", "translation": "Elle regarde un film chaque soir."},
+        {"text": "He has a dog and a cat.", "translation": "Il a un chien et un chat."}
+      ],
+      "commonErrors": [
+        {"wrong": "He work in London.", "right": "He works in London.", "why": "Avec he, she, it, le verbe prend -s. En français, « il travaille » ne montre pas de différence à l'oral, mais en anglais le -s est obligatoire."},
+        {"wrong": "She have a dog.", "right": "She has a dog.", "why": "Have est irrégulier : à la 3e personne du singulier, il devient has (pas « haves »)."},
+        {"wrong": "He studys English.", "right": "He studies English.", "why": "Quand un verbe se termine par une consonne + y, on change le y en i et on ajoute -es : study → studies."}
+      ],
+      "tip": "I, you, we, they : rien à ajouter. He, she, it : pense -s !"
+    }
+  },
+  {
+    "id": "en.g15.present_simple_negative",
+    "rule": {
+      "summary": "Pour dire qu'on ne fait pas quelque chose au présent simple, on utilise don't ou doesn't + le verbe de base.",
+      "explanation": "On emploie don't (do not) avec I, you, we, they et doesn't (does not) avec he, she, it. Après don't ou doesn't, le verbe reste toujours à sa forme de base, sans -s : le -s est déjà dans does. Cette négation fonctionne avec tous les verbes, sauf be, qui fait sa négation tout seul (I'm not, she isn't).",
+      "pattern": "Sujet + don't / doesn't + verbe de base",
+      "examples": [
+        {"text": "I don't eat meat.", "translation": "Je ne mange pas de viande."},
+        {"text": "She doesn't drink coffee.", "translation": "Elle ne boit pas de café."},
+        {"text": "My parents don't live in London.", "translation": "Mes parents n'habitent pas à Londres."},
+        {"text": "He doesn't work today.", "translation": "Il ne travaille pas aujourd'hui."}
+      ],
+      "commonErrors": [
+        {"wrong": "She don't like fish.", "right": "She doesn't like fish.", "why": "Avec he, she, it, on utilise doesn't, pas don't."},
+        {"wrong": "He doesn't eats meat.", "right": "He doesn't eat meat.", "why": "Après doesn't, le verbe reste à sa forme de base : le -s est déjà dans does."},
+        {"wrong": "I no drink milk.", "right": "I don't drink milk.", "why": "L'anglais n'a pas de « ne… pas » collé au verbe : il faut don't ou doesn't devant le verbe de base."}
+      ],
+      "tip": "Doesn't porte déjà le -s : le verbe qui suit reste tout simple."
+    }
+  },
+  {
+    "id": "en.g16.present_simple_questions",
+    "rule": {
+      "summary": "Au présent simple, on pose une question en commençant par Do ou Does + sujet + verbe de base.",
+      "explanation": "On utilise Do avec I, you, we, they et Does avec he, she, it. Le verbe qui suit reste à sa forme de base, sans -s : le -s est déjà dans Does. Pour répondre brièvement, on reprend do ou does : Yes, I do. / No, she doesn't. On ne répète pas le verbe principal. Pour les questions avec be (Are you tired ?), on ne met pas do.",
+      "pattern": "Do / Does + sujet + verbe de base ?   Yes, + sujet + do / does.   No, + sujet + don't / doesn't.",
+      "examples": [
+        {"text": "Do you speak French?", "translation": "Est-ce que tu parles français ?"},
+        {"text": "Does she work in London?", "translation": "Est-ce qu'elle travaille à Londres ?"},
+        {"text": "Yes, I do.", "translation": "Oui. (Oui, je parle français.)"},
+        {"text": "No, he doesn't.", "translation": "Non. (Non, il ne travaille pas ici.)"}
+      ],
+      "commonErrors": [
+        {"wrong": "Does she works here?", "right": "Does she work here?", "why": "Après Does, le verbe reste à sa forme de base : le -s est déjà dans Does."},
+        {"wrong": "Do she like coffee?", "right": "Does she like coffee?", "why": "Avec he, she, it, la question commence par Does, pas Do."},
+        {"wrong": "Yes, she likes.", "right": "Yes, she does.", "why": "Pour une réponse courte, on reprend l'auxiliaire do / does, pas le verbe principal."}
+      ],
+      "tip": "Question ou négation : Does / doesn't prend le -s, le verbe n'en a plus besoin."
+    }
+  },
+  {
+    "id": "en.g17.frequency_adverbs",
+    "rule": {
+      "summary": "Les adverbes de fréquence (always, usually, often, sometimes, rarely, never) se placent avant le verbe, mais après to be.",
+      "explanation": "Ils disent à quelle fréquence on fait quelque chose, de 100 % (always) à 0 % (never) : always, usually, often, sometimes, rarely, never. Avec un verbe ordinaire, l'adverbe se place avant le verbe : I always drink water. Avec to be, il se place après : She is never late. Never est déjà négatif : on n'ajoute pas don't ou doesn't. Sometimes peut aussi commencer la phrase : Sometimes I work at home.",
+      "pattern": "Sujet + adverbe + verbe     /     Sujet + be + adverbe",
+      "examples": [
+        {"text": "I always drink water in the morning.", "translation": "Je bois toujours de l'eau le matin."},
+        {"text": "She is often tired in the evening.", "translation": "Elle est souvent fatiguée le soir."},
+        {"text": "We rarely eat meat.", "translation": "Nous mangeons rarement de la viande."},
+        {"text": "Tom never watches TV.", "translation": "Tom ne regarde jamais la télé."}
+      ],
+      "commonErrors": [
+        {"wrong": "I eat always breakfast.", "right": "I always eat breakfast.", "why": "L'adverbe de fréquence se place avant le verbe, pas après, contrairement au français « je mange toujours »."},
+        {"wrong": "He always is late.", "right": "He is always late.", "why": "Avec to be, l'adverbe se place après be."},
+        {"wrong": "She doesn't never cook.", "right": "She never cooks.", "why": "Never a déjà un sens négatif : on n'ajoute pas doesn't. Le -s reste sur le verbe."}
+      ],
+      "tip": "Avant le verbe, après be : always, usually, often, rarely, never."
+    }
+  },
+  {
+    "id": "en.g18.present_continuous",
+    "rule": {
+      "summary": "Le présent continu (be + verbe en -ing) décrit ce qui se passe en ce moment même.",
+      "explanation": "On utilise am / is / are + le verbe en -ing : I am working, she is cooking, they are playing. Pour la négation, on ajoute not après be : I'm not working, he isn't sleeping, we aren't talking. Pour la question, on met be avant le sujet : Is she working ? Are you listening ? Réponse courte : Yes, she is. / No, I'm not. Côté orthographe : on enlève le -e final (make → making), on double la consonne finale d'un verbe court (run → running, sit → sitting) et ie devient y (lie → lying).",
+      "pattern": "Sujet + am / is / are (+ not) + verbe-ing     /     Am / Is / Are + sujet + verbe-ing ?",
+      "examples": [
+        {"text": "It is raining now.", "translation": "Il pleut en ce moment."},
+        {"text": "They are not talking.", "translation": "Ils ne parlent pas."},
+        {"text": "Is he running?", "translation": "Est-ce qu'il court ?"},
+        {"text": "I'm making coffee.", "translation": "Je prépare du café."}
+      ],
+      "commonErrors": [
+        {"wrong": "She working now.", "right": "She is working now.", "why": "Le verbe en -ing ne s'utilise jamais seul : il faut am, is ou are devant."},
+        {"wrong": "He is runing.", "right": "He is running.", "why": "Run est un verbe court qui finit par une seule consonne : on la double avant -ing (running, sitting)."},
+        {"wrong": "I am makeing dinner.", "right": "I am making dinner.", "why": "On enlève le -e final avant d'ajouter -ing : make → making."}
+      ],
+      "tip": "En ce moment = be + -ing. Pas de be, pas de présent continu."
+    }
+  },
+  {
+    "id": "en.g19.simple_vs_continuous",
+    "rule": {
+      "summary": "Le présent simple parle des habitudes et des faits ; le présent continu parle de ce qui se passe en ce moment.",
+      "explanation": "Utilise le présent simple pour ce qu'on fait régulièrement ou toujours (I work every day, she often cooks). Utilise le présent continu pour ce qui se passe maintenant ou en ce moment (I'm working now, she is cooking at the moment). Les mots comme every day, always, usually vont avec le présent simple ; now, at the moment, today avec le présent continu. Les verbes d'état comme like, love, know, want, need ne s'emploient presque jamais au continu : on dit I like music, jamais I'm liking music. Avec today ou tonight, le présent continu parle de ce qu'on fait aujourd'hui ou de ce qu'on a prévu pour ce soir.",
+      "pattern": "Habitude : Sujet + verbe (+ -s)     /     En ce moment : Sujet + be + verbe-ing",
+      "examples": [
+        {"text": "He works in an office every day.", "translation": "Il travaille dans un bureau tous les jours."},
+        {"text": "He is working at home today.", "translation": "Il travaille à la maison aujourd'hui."},
+        {"text": "I know her name.", "translation": "Je connais son nom."},
+        {"text": "They are talking at the moment.", "translation": "Ils parlent en ce moment."}
+      ],
+      "commonErrors": [
+        {"wrong": "I am working every day.", "right": "I work every day.", "why": "Every day indique une habitude : on utilise le présent simple, pas le présent continu."},
+        {"wrong": "I'm liking this music.", "right": "I like this music.", "why": "Like est un verbe d'état (un goût, un sentiment) : on ne l'emploie presque jamais au présent continu."},
+        {"wrong": "Tom cooks now.", "right": "Tom is cooking now.", "why": "Now indique ce qui se passe en ce moment : il faut le présent continu."}
+      ],
+      "tip": "Tous les jours = présent simple. En ce moment = présent continu. J'aime, je sais, je veux = toujours simple."
+    }
+  }
+]

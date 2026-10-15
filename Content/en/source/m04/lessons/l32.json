@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l32",
+  "exercises": [
+    {
+      "id": "en.l32.e01",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.beach"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le bon mot.",
+      "prompt": "___ you go to the beach yesterday?",
+      "promptLanguage": "en",
+      "options": ["Did", "Do", "Were"],
+      "answer": "Did",
+      "acceptedAnswers": ["Did"],
+      "hint": "Yesterday : la question est au passé.",
+      "explanation": "Pour poser une question au passé avec un verbe d'action comme go, on commence par did : Did you go…? Do est le présent, et were s'utilise seulement avec to be (Were you at home ?).",
+      "tip": "Question au passé : Did + sujet + verbe de base.",
+      "extraExample": {"text": "Did Anna call you last night?", "translation": "Est-ce qu'Anna t'a appelé hier soir ?"},
+      "errorPatterns": [
+        {"equals": "do", "category": "verb_tense", "feedback": "Do est le présent. Yesterday parle du passé : on commence la question par did."},
+        {"equals": "were", "category": "grammar", "feedback": "Were s'utilise avec to be (Were you tired ?). Avec un verbe d'action comme go, on utilise did."}
+      ]
+    },
+    {
+      "id": "en.l32.e02",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.trip"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne forme du verbe.",
+      "prompt": "Did you ___ a good trip?",
+      "promptLanguage": "en",
+      "options": ["have", "had", "has"],
+      "answer": "have",
+      "acceptedAnswers": ["have"],
+      "hint": "Did porte déjà le passé.",
+      "explanation": "Après did, le verbe reste à la forme de base : have, et non had. Le passé est déjà dans did. Trip veut dire « voyage » ou « excursion ».",
+      "tip": "Did porte le passé : le verbe qui suit reste à la base.",
+      "extraExample": {"text": "Did you take the key?", "translation": "Est-ce que tu as pris la clé ?"},
+      "errorPatterns": [
+        {"equals": "had", "category": "conjugation", "feedback": "Le passé est déjà porté par did : après did, on garde la base have, pas had."},
+        {"equals": "has", "category": "conjugation", "feedback": "Après did, il n'y a pas de -s : Did you have…? Le verbe reste à la forme de base."}
+      ]
+    },
+    {
+      "id": "en.l32.e03",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.holiday", "en.v.beach", "en.v.hotel", "en.v.trip", "en.v.weather"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque mot anglais à sa traduction.",
+      "prompt": "Le vocabulaire des vacances",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "holiday", "right": "vacances"},
+        {"left": "beach", "right": "plage"},
+        {"left": "hotel", "right": "hôtel"},
+        {"left": "trip", "right": "voyage / excursion"},
+        {"left": "weather", "right": "le temps (la météo)"}
+      ],
+      "answer": "holiday = vacances ; beach = plage ; hotel = hôtel ; trip = voyage / excursion ; weather = le temps (la météo)",
+      "acceptedAnswers": [],
+      "explanation": "Holiday veut dire « vacances » : on dit on holiday (en vacances) en anglais britannique, et vacation en américain. Weather est le temps qu'il fait, alors que time est le temps qui passe. Le h de hotel se prononce.",
+      "tip": "Le temps qu'il fait = weather ; le temps qui passe = time.",
+      "extraExample": {"text": "The weather was cold at the beach.", "translation": "Il faisait froid à la plage."}
+    },
+    {
+      "id": "en.l32.e04",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.holiday"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la réponse courte.",
+      "prompt": "Did Anna go on holiday last week? — No, she ___.",
+      "promptLanguage": "en",
+      "options": ["didn't", "wasn't", "doesn't"],
+      "answer": "didn't",
+      "acceptedAnswers": ["didn't"],
+      "hint": "La question commence par did : la réponse reprend ce mot.",
+      "explanation": "Pour répondre à une question en did, on reprend did dans une réponse courte : Yes, she did. / No, she didn't. On ne répète pas le verbe go.",
+      "tip": "Did you…? → Yes, I did. / No, I didn't.",
+      "extraExample": {"text": "Did you call Tom? — Yes, I did.", "translation": "Tu as appelé Tom ? — Oui."},
+      "errorPatterns": [
+        {"equals": "wasn't", "category": "grammar", "feedback": "Wasn't est le passé de to be. La question commence par did : on répond avec didn't."},
+        {"equals": "doesn't", "category": "verb_tense", "feedback": "Doesn't est le présent. La question est au passé : on répond avec didn't."}
+      ]
+    },
+    {
+      "id": "en.l32.e05",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.hotel"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le verbe entre parenthèses, à la bonne forme.",
+      "prompt": "I didn't ___ my keys at the hotel. (find)",
+      "promptLanguage": "en",
+      "options": ["find", "found", "finded"],
+      "answer": "find",
+      "acceptedAnswers": ["find"],
+      "hint": "Didn't porte déjà le passé.",
+      "explanation": "Après didn't, le verbe reste à la forme de base : find, et non found. Le passé est déjà dans didn't, comme il est dans did.",
+      "tip": "didn't + verbe de base : le passé du verbe ne sert plus.",
+      "extraExample": {"text": "We didn't see Anna at the beach.", "translation": "Nous n'avons pas vu Anna à la plage."},
+      "errorPatterns": [
+        {"equals": "found", "category": "conjugation", "feedback": "Le passé est déjà porté par didn't : le verbe garde sa forme de base, find."},
+        {"equals": "finded", "category": "conjugation", "feedback": "Après didn't, on n'ajoute pas -ed : le verbe reste find."}
+      ]
+    },
+    {
+      "id": "en.l32.e06",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.trip"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour poser la question.",
+      "prompt": "Qu'est-ce que tu as fait pendant ton voyage ?",
+      "promptLanguage": "fr",
+      "tokens": ["What", "you", "did", "do", "on", "your", "trip"],
+      "answer": "What did you do on your trip",
+      "acceptedAnswers": ["What did you do on your trip"],
+      "hint": "Mot interrogatif + did + sujet + verbe de base.",
+      "explanation": "Avec un mot interrogatif, l'ordre est What + did + sujet + verbe de base. Le premier did est l'auxiliaire du passé, et do est le verbe « faire ».",
+      "tip": "What did you do ? : did marque le passé, do veut dire « faire ».",
+      "extraExample": {"text": "Where did you stay last week?", "translation": "Où as-tu séjourné la semaine dernière ?"}
+    },
+    {
+      "id": "en.l32.e07",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.beach"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Est-ce que tu as aimé la plage ?",
+      "promptLanguage": "fr",
+      "answer": "Did you like the beach",
+      "acceptedAnswers": ["Did you like the beach", "Did you enjoy the beach"],
+      "hint": "Une question au passé commence par did.",
+      "explanation": "Pour poser la question « est-ce que tu as aimé… ? » au passé, on utilise did + sujet + verbe de base : Did you like…? Like ne prend pas -ed, car did porte déjà le passé.",
+      "tip": "« Est-ce que tu as… ? » = Did you + verbe de base ?",
+      "extraExample": {"text": "Did Tom like the hotel?", "translation": "Est-ce que Tom a aimé l'hôtel ?"},
+      "errorPatterns": [
+        {"contains": "did you liked", "category": "conjugation", "feedback": "Après did, le verbe reste à la forme de base : Did you like…?"},
+        {"equals": "you liked the beach", "category": "word_order", "feedback": "Pour poser une question au passé, on commence par did : Did you like the beach ?"},
+        {"contains": "do you like", "category": "verb_tense", "feedback": "Do est le présent. Pour une question sur le passé, on utilise did."}
+      ]
+    },
+    {
+      "id": "en.l32.e08",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.weather"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais.",
+      "prompt": "Nous n'avons pas aimé la météo.",
+      "promptLanguage": "fr",
+      "answer": "We didn't like the weather",
+      "acceptedAnswers": ["We didn't like the weather", "We didn't enjoy the weather"],
+      "hint": "Didn't + verbe de base. Le temps qu'il fait se dit weather.",
+      "explanation": "Pour dire « nous n'avons pas aimé » au passé, on utilise didn't + verbe de base : We didn't like. Like ne prend pas -ed après didn't. Weather est le temps qu'il fait.",
+      "tip": "didn't + base : We didn't like, jamais We didn't liked.",
+      "extraExample": {"text": "Anna didn't like the rain.", "translation": "Anna n'a pas aimé la pluie."},
+      "errorPatterns": [
+        {"contains": "didn't liked", "category": "conjugation", "feedback": "Après didn't, le verbe reste à la forme de base : didn't like."},
+        {"contains": "the time", "category": "word_confusion", "feedback": "Time est le temps qui passe ou l'heure. Le temps qu'il fait se dit weather."},
+        {"contains": "we don't like", "category": "verb_tense", "feedback": "Don't est le présent. Pour le passé, on utilise didn't."}
+      ]
+    },
+    {
+      "id": "en.l32.e09",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.holiday"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la question en anglais.",
+      "prompt": "Comment dit-on « Où es-tu allé en vacances ? » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "Where did you go on holiday",
+      "acceptedAnswers": ["Where did you go on holiday", "Where did you go on your holiday", "Where did you go for your holiday", "Where did you go for your holidays", "Where did you go on vacation", "Where did you go on your vacation", "Where did you go for your vacation"],
+      "hint": "Where + did + sujet + verbe de base. Quel est le verbe de base de « aller » ?",
+      "explanation": "Avec where, l'ordre est Where + did + sujet + verbe de base. Go reste à la base (pas went), car le passé est déjà dans did. « En vacances » se dit on holiday.",
+      "tip": "Where did you go ? : did porte le passé, go reste go.",
+      "extraExample": {"text": "Where did Anna stay in London?", "translation": "Où Anna a-t-elle séjourné à Londres ?"},
+      "errorPatterns": [
+        {"contains": "did you went", "category": "conjugation", "feedback": "Après did, le verbe reste à la forme de base : Where did you go ?"},
+        {"contains": "where you went", "category": "word_order", "feedback": "Une question au passé a besoin de did avant le sujet : Where did you go ?"},
+        {"contains": "in holiday", "category": "preposition", "feedback": "« En vacances » se dit on holiday, pas in holiday."}
+      ]
+    },
+    {
+      "id": "en.l32.e10",
+      "unitIds": ["en.g23.past_simple_negative_questions", "en.v.hotel"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Il n'a pas dormi à l'hôtel » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "He didn't sleep at the hotel",
+      "acceptedAnswers": ["He didn't sleep at the hotel", "He didn't sleep in the hotel"],
+      "hint": "Didn't + verbe de base. Le passé de sleep n'est pas utilisé ici.",
+      "explanation": "Pour la négation au passé, on utilise didn't + verbe de base : He didn't sleep. Le passé est déjà dans didn't, donc on n'écrit pas slept. Il n'y a pas de -s avec he.",
+      "tip": "didn't + verbe de base, à toutes les personnes.",
+      "extraExample": {"text": "She didn't go to work yesterday.", "translation": "Elle n'est pas allée au travail hier."},
+      "errorPatterns": [
+        {"contains": "didn't slept", "category": "conjugation", "feedback": "Après didn't, le verbe reste à la forme de base : didn't sleep."},
+        {"contains": "doesn't sleep", "category": "verb_tense", "feedback": "Doesn't est le présent. Pour une action passée, on utilise didn't."},
+        {"contains": "he not sleep", "category": "grammar", "feedback": "En anglais, on ne met pas not directement après le sujet : on utilise didn't + verbe de base."}
+      ]
+    }
+  ]
+}

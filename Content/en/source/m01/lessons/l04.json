@@ -1,0 +1,202 @@
+{
+  "lessonId": "en.l04",
+  "exercises": [
+    {
+      "id": "en.l04.e01",
+      "unitIds": ["en.g03.be_affirmative", "en.v.brother", "en.v.friend"],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne forme du verbe être.",
+      "prompt": "Tom ___ a brother and a friend.",
+      "promptLanguage": "en",
+      "options": ["is", "are", "am"],
+      "answer": "is",
+      "acceptedAnswers": ["is"],
+      "hint": "Tom, c'est une seule personne : tu peux le remplacer par he.",
+      "explanation": "Tom, c'est « il » : he. Avec he, she et it, le verbe être se dit is : Tom is a brother and a friend.",
+      "tip": "Un prénom = une personne = is.",
+      "extraExample": {"text": "Anna is a sister and a student.", "translation": "Anna est sœur et étudiante."},
+      "errorPatterns": [
+        {"equals": "are", "category": "conjugation", "feedback": "Are va avec you, we et they. Tom est une seule personne (he) : on dit is."},
+        {"equals": "am", "category": "conjugation", "feedback": "Am va uniquement avec I. Pour Tom (he), on dit is."}
+      ]
+    },
+    {
+      "id": "en.l04.e02",
+      "unitIds": ["en.g03.be_affirmative", "en.v.family", "en.g01.subject_pronouns"],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne traduction.",
+      "prompt": "Comment dit-on « Nous sommes une famille » en anglais ?",
+      "promptLanguage": "fr",
+      "options": ["We are a family", "We is a family", "We am a family", "We a family"],
+      "answer": "We are a family",
+      "acceptedAnswers": ["We are a family"],
+      "hint": "Avec we, le verbe être se dit are.",
+      "explanation": "« Nous » se dit we et le verbe être est are : we are. Devant family, on garde a : we are a family.",
+      "tip": "We, you, they : toujours are.",
+      "extraExample": {"text": "They are a family.", "translation": "Ils sont une famille."},
+      "errorPatterns": [
+        {"equals": "we is a family", "category": "conjugation", "feedback": "Is va avec he, she et it. Avec we, on dit are : we are a family."},
+        {"equals": "we am a family", "category": "conjugation", "feedback": "Am va uniquement avec I. Avec we, on dit are : we are a family."},
+        {"equals": "we a family", "category": "grammar", "feedback": "Il manque le verbe être. En anglais, on dit we are a family."}
+      ]
+    },
+    {
+      "id": "en.l04.e03",
+      "unitIds": ["en.g03.be_affirmative", "en.v.mother", "en.v.father", "en.v.brother", "en.v.sister", "en.v.family"],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque expression anglaise à sa traduction.",
+      "prompt": "Les mots de la famille : mother, father, brother, sister, family",
+      "promptLanguage": "fr",
+      "pairs": [
+        {"left": "a mother", "right": "une mère"},
+        {"left": "a father", "right": "un père"},
+        {"left": "a brother", "right": "un frère"},
+        {"left": "a sister", "right": "une sœur"},
+        {"left": "a family", "right": "une famille"}
+      ],
+      "answer": "a mother = une mère ; a father = un père ; a brother = un frère ; a sister = une sœur ; a family = une famille",
+      "acceptedAnswers": [],
+      "explanation": "Mother, father, brother, sister et family sont des noms : ils s'utilisent avec a ou the, comme man ou woman. Attention à la prononciation de mother, father et brother : le th se prononce « d » doux.",
+      "tip": "Un mot de famille se met avec a ou the : a mother, the father.",
+      "extraExample": {"text": "He is a father.", "translation": "Il est père."}
+    },
+    {
+      "id": "en.l04.e04",
+      "unitIds": ["en.g03.be_affirmative", "en.v.father", "en.g02.articles"],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète avec le bon mot de la famille.",
+      "prompt": "Sam is a ___. (Sam est père.)",
+      "promptLanguage": "en",
+      "options": ["father", "mother", "sister"],
+      "answer": "father",
+      "acceptedAnswers": ["father"],
+      "hint": "Père se dit father, avec th.",
+      "explanation": "Père se dit father. Mother veut dire « mère » et sister « sœur » : ces mots ne vont pas avec Sam, qui est un homme.",
+      "tip": "F comme father (père), M comme mother (mère).",
+      "extraExample": {"text": "Ben is a father and a teacher.", "translation": "Ben est père et professeur."},
+      "errorPatterns": [
+        {"equals": "mother", "category": "vocabulary", "feedback": "Mother veut dire « mère ». Pour « père », on dit father."},
+        {"equals": "sister", "category": "vocabulary", "feedback": "Sister veut dire « sœur ». Pour « père », on dit father."}
+      ]
+    },
+    {
+      "id": "en.l04.e05",
+      "unitIds": ["en.g03.be_affirmative", "en.v.mother", "en.v.father", "en.v.happy"],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne forme du verbe être.",
+      "prompt": "The mother and the father ___ happy.",
+      "promptLanguage": "en",
+      "options": ["are", "is", "am"],
+      "answer": "are",
+      "acceptedAnswers": ["are"],
+      "hint": "The mother and the father, c'est deux personnes : they.",
+      "explanation": "La mère et le père, c'est « ils » : they. Avec they, le verbe être se dit are : the mother and the father are happy.",
+      "tip": "Deux sujets reliés par and = they = are.",
+      "extraExample": {"text": "The teacher and the student are ready.", "translation": "Le professeur et l'étudiant sont prêts."},
+      "errorPatterns": [
+        {"equals": "is", "category": "conjugation", "feedback": "Is s'emploie pour une seule personne. Ici il y a deux personnes (la mère et le père) : on dit are."},
+        {"equals": "am", "category": "conjugation", "feedback": "Am va uniquement avec I. Pour deux personnes (they), on dit are."}
+      ]
+    },
+    {
+      "id": "en.l04.e06",
+      "unitIds": ["en.g03.be_affirmative", "en.v.sister", "en.v.friend"],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former une phrase.",
+      "prompt": "Anna est une sœur et une amie.",
+      "promptLanguage": "fr",
+      "tokens": ["friend", "a", "Anna", "sister", "and", "is", "a"],
+      "answer": "Anna is a sister and a friend",
+      "acceptedAnswers": ["Anna is a sister and a friend", "Anna is a friend and a sister"],
+      "hint": "Commence par le sujet, puis le verbe être.",
+      "explanation": "On met le sujet (Anna), puis is, puis les deux noms reliés par and. Chaque nom garde son article a.",
+      "tip": "Sujet + is + a + nom + and + a + nom.",
+      "extraExample": {"text": "Tom is a brother and a friend.", "translation": "Tom est un frère et un ami."}
+    },
+    {
+      "id": "en.l04.e07",
+      "unitIds": ["en.g03.be_affirmative", "en.v.mother", "en.v.teacher", "en.g02.articles"],
+      "type": "translation",
+      "difficulty": 2,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "Elle est mère et professeur.",
+      "promptLanguage": "fr",
+      "answer": "She is a mother and a teacher",
+      "acceptedAnswers": ["She is a mother and a teacher", "She is a mother and teacher", "She is a mum and a teacher", "She is a mom and a teacher"],
+      "hint": "Elle se dit she. N'oublie pas a devant chaque nom.",
+      "explanation": "Elle = she, donc le verbe est is. En français on dit « mère et professeur » sans article ; en anglais, on met a devant chaque nom : a mother and a teacher.",
+      "tip": "Un métier ou un rôle (mother, teacher) : a devant le nom.",
+      "extraExample": {"text": "He is a father and a student.", "translation": "Il est père et étudiant."},
+      "errorPatterns": [
+        {"contains": "is mother", "category": "grammar", "feedback": "Il manque l'article. Devant un rôle comme mother, l'anglais met a : she is a mother."},
+        {"contains": "she are", "category": "conjugation", "feedback": "Are va avec you, we et they. Avec she, on dit is."},
+        {"contains": "she am", "category": "conjugation", "feedback": "Am va uniquement avec I. Avec she, on dit is."}
+      ]
+    },
+    {
+      "id": "en.l04.e08",
+      "unitIds": ["en.g03.be_affirmative", "en.v.father", "en.v.mother", "en.v.tired", "en.v.happy"],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Traduis en anglais. « et » = and.",
+      "prompt": "Le père est fatigué et la mère est heureuse.",
+      "promptLanguage": "fr",
+      "answer": "The father is tired and the mother is happy",
+      "acceptedAnswers": ["The father is tired and the mother is happy"],
+      "hint": "Le et la se traduisent par le même mot. Il y a deux verbes être.",
+      "explanation": "Le père et la mère sont chacun une seule personne (he, she) : le verbe est is les deux fois. Le et la se disent tous les deux the.",
+      "tip": "Le, la, l', les : toujours the. Une personne : is.",
+      "extraExample": {"text": "The teacher is ready and the student is tired.", "translation": "Le professeur est prêt et l'étudiant est fatigué."},
+      "errorPatterns": [
+        {"contains": "father are", "category": "conjugation", "feedback": "Le père est une seule personne : on dit is, pas are."},
+        {"contains": "mother are", "category": "conjugation", "feedback": "La mère est une seule personne : on dit is, pas are."}
+      ]
+    },
+    {
+      "id": "en.l04.e09",
+      "unitIds": ["en.g03.be_affirmative", "en.v.family", "en.v.happy"],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Nous sommes une famille heureuse » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "We are a happy family",
+      "acceptedAnswers": ["We are a happy family"],
+      "hint": "En anglais, l'adjectif se place avant le nom.",
+      "explanation": "« Nous sommes » se dit we are. L'adjectif happy se place avant le nom : a happy family, et non « a family happy ».",
+      "tip": "En anglais, l'adjectif vient devant le nom : a happy family.",
+      "extraExample": {"text": "She is a happy mother.", "translation": "C'est une mère heureuse."},
+      "errorPatterns": [
+        {"contains": "family happy", "category": "word_order", "feedback": "En anglais, l'adjectif se place avant le nom : a happy family."},
+        {"contains": "we is", "category": "conjugation", "feedback": "Avec we, le verbe être se dit are : we are a happy family."},
+        {"equals": "we are happy family", "category": "grammar", "feedback": "Il manque l'article : we are a happy family."}
+      ]
+    },
+    {
+      "id": "en.l04.e10",
+      "unitIds": ["en.g03.be_affirmative", "en.v.sister", "en.v.friend", "en.g01.subject_pronouns"],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la phrase en anglais.",
+      "prompt": "Comment dit-on « Je suis une sœur et une amie » en anglais ?",
+      "promptLanguage": "fr",
+      "answer": "I am a sister and a friend",
+      "acceptedAnswers": ["I am a sister and a friend", "I am a friend and a sister", "I am a sister and friend"],
+      "hint": "Je suis = I am. Ajoute a devant chaque nom.",
+      "explanation": "« Je suis » se dit I am. Sister et friend sont deux noms : chacun prend a. L'article ne change pas selon le genre.",
+      "tip": "I am + a + nom.",
+      "extraExample": {"text": "I am a mother and a teacher.", "translation": "Je suis mère et professeur."},
+      "errorPatterns": [
+        {"contains": "i is", "category": "conjugation", "feedback": "Is va avec he, she et it. Avec I, on dit am."},
+        {"contains": "i are", "category": "conjugation", "feedback": "Are va avec you, we et they. Avec I, on dit am."},
+        {"contains": "am sister", "category": "grammar", "feedback": "Il manque l'article. Devant un nom de famille, l'anglais met a : I am a sister."}
+      ]
+    }
+  ]
+}

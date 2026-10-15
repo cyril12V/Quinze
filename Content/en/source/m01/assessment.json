@@ -1,0 +1,98 @@
+[
+  {
+    "id": "en.assess.m01.01",
+    "unitIds": ["en.g03.be_affirmative", "en.g02.articles", "en.g06.possessive_adjectives"],
+    "type": "translation",
+    "difficulty": 2,
+    "instruction": "Traduis en anglais.",
+    "prompt": "Ma mère est professeur.",
+    "promptLanguage": "fr",
+    "answer": "My mother is a teacher",
+    "acceptedAnswers": ["My mother is a teacher", "My mum is a teacher", "My mom is a teacher"],
+    "explanation": "Ma se dit my. Mother est une seule personne : le verbe est is. Devant un métier, l'anglais met a : a teacher.",
+    "tip": "Possessif + nom + is + a + métier.",
+    "extraExample": {"text": "Her father is a student.", "translation": "Son père est étudiant."},
+    "errorPatterns": [
+      {"contains": "is teacher", "category": "grammar", "feedback": "Il manque l'article. Devant un métier, l'anglais met a : a teacher."},
+      {"contains": "the my", "category": "grammar", "feedback": "On n'utilise pas the avec un possessif : my mother."},
+      {"contains": "mother are", "category": "conjugation", "feedback": "Mother est une seule personne : is, pas are."}
+    ]
+  },
+  {
+    "id": "en.assess.m01.02",
+    "unitIds": ["en.g06.possessive_adjectives", "en.v.wife"],
+    "type": "fill_blank",
+    "difficulty": 2,
+    "instruction": "Complète avec le bon possessif.",
+    "prompt": "Tom has a wife. ___ wife is a student.",
+    "promptLanguage": "en",
+    "answer": "His",
+    "acceptedAnswers": ["His"],
+    "explanation": "Le possessif dépend de celui qui possède. Tom est un homme, donc his wife.",
+    "tip": "Possesseur masculin : his. Possesseur féminin : her.",
+    "extraExample": {"text": "Anna has a brother. Her brother is a teacher.", "translation": "Anna a un frère. Son frère est professeur."},
+    "errorPatterns": [
+      {"equals": "her", "category": "grammar", "feedback": "Her est pour une femme qui possède. Tom est un homme : his wife."},
+      {"equals": "its", "category": "grammar", "feedback": "Its est pour un animal ou une chose. Pour Tom, on dit his."},
+      {"equals": "their", "category": "grammar", "feedback": "Their est pour plusieurs personnes. Tom est seul : his wife."}
+    ]
+  },
+  {
+    "id": "en.assess.m01.03",
+    "unitIds": ["en.g03.be_affirmative", "en.v.cold"],
+    "type": "free_answer",
+    "difficulty": 3,
+    "instruction": "Écris la phrase en anglais.",
+    "prompt": "Comment dit-on « Elle a froid » en anglais ?",
+    "promptLanguage": "fr",
+    "answer": "She is cold",
+    "acceptedAnswers": ["She is cold"],
+    "explanation": "Pour le froid, l'anglais utilise le verbe être : she is cold. On ne traduit pas « avoir » par have ici.",
+    "tip": "Froid, faim, âge : be (is, am, are), pas have.",
+    "extraExample": {"text": "We are cold.", "translation": "Nous avons froid."},
+    "errorPatterns": [
+      {"contains": "she has", "category": "verb_tense", "feedback": "Pour le froid, l'anglais utilise le verbe être : she is cold."},
+      {"contains": "she have", "category": "verb_tense", "feedback": "Pour le froid, l'anglais utilise le verbe être : she is cold."},
+      {"contains": "she are", "category": "conjugation", "feedback": "Are va avec you, we et they. Avec she, on dit is."}
+    ]
+  },
+  {
+    "id": "en.assess.m01.04",
+    "unitIds": ["en.g07.plural_nouns", "en.g05.have_has", "en.v.four", "en.v.two"],
+    "type": "translation",
+    "difficulty": 3,
+    "instruction": "Traduis en anglais. « et » = and.",
+    "prompt": "Ils ont quatre clés et deux sacs.",
+    "promptLanguage": "fr",
+    "answer": "They have four keys and two bags",
+    "acceptedAnswers": ["They have four keys and two bags"],
+    "explanation": "Ils = they, donc le verbe est have. Après un nombre plus grand que one, le nom est au pluriel : four keys, two bags.",
+    "tip": "Nombre plus grand que un = nom + s.",
+    "extraExample": {"text": "We have three dogs and five books.", "translation": "Nous avons trois chiens et cinq livres."},
+    "errorPatterns": [
+      {"contains": "they has", "category": "conjugation", "feedback": "Has s'utilise seulement avec he, she et it. Avec they, on dit have."},
+      {"contains": "four key and", "category": "grammar", "feedback": "Après four, le nom est au pluriel : four keys."},
+      {"contains": "two bag", "category": "grammar", "feedback": "Après two, le nom est au pluriel : two bags."}
+    ]
+  },
+  {
+    "id": "en.assess.m01.05",
+    "unitIds": ["en.g07.plural_nouns", "en.v.man", "en.v.eight"],
+    "type": "mcq",
+    "difficulty": 2,
+    "instruction": "Choisis la phrase correcte.",
+    "prompt": "« Huit hommes sont à la maison. »",
+    "promptLanguage": "fr",
+    "options": ["Eight men are at home", "Eight mans are at home", "Eight man are at home", "Eight men is at home"],
+    "answer": "Eight men are at home",
+    "acceptedAnswers": ["Eight men are at home"],
+    "explanation": "Man a un pluriel irrégulier : men. Le sujet est au pluriel, donc le verbe est are.",
+    "tip": "Man → men. Sujet pluriel : are.",
+    "extraExample": {"text": "Nine women are at school.", "translation": "Neuf femmes sont à l'école."},
+    "errorPatterns": [
+      {"equals": "eight mans are at home", "category": "spelling", "feedback": "Le pluriel de man est men, pas « mans »."},
+      {"equals": "eight man are at home", "category": "grammar", "feedback": "Après eight, le nom est au pluriel : men."},
+      {"equals": "eight men is at home", "category": "conjugation", "feedback": "Men est un pluriel : le verbe est are, pas is."}
+    ]
+  }
+]

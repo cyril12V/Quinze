@@ -1,0 +1,1101 @@
+{
+ "lessonId": "en.l72",
+ "exercises": [
+  {
+   "id": "en.l72.e01",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.fail"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "If I had studied harder, I ___ the exam.",
+   "promptLanguage": "en",
+   "options": [
+    "wouldn't have failed",
+    "wouldn't fail",
+    "wouldn't failed",
+    "hadn't failed"
+   ],
+   "answer": "wouldn't have failed",
+   "acceptedAnswers": [
+    "wouldn't have failed"
+   ],
+   "hint": "J'ai raté l'examen : on parle du passé.",
+   "explanation": "Troisième conditionnel : if + had + participe passé (had studied), puis would have + participe passé dans le résultat : wouldn't have failed (« je n'aurais pas raté »).",
+   "tip": "Un participe passé dans chaque moitié : had studied… wouldn't have failed.",
+   "extraExample": {
+    "text": "If we had booked earlier, we would have found a cheaper hotel.",
+    "translation": "Si nous avions réservé plus tôt, nous aurions trouvé un hôtel moins cher."
+   },
+   "errorPatterns": [
+    {
+     "equals": "wouldn't fail",
+     "category": "verb_tense",
+     "feedback": "Wouldn't fail parle du présent ou du futur (deuxième conditionnel). Pour refaire le passé : would have + participe passé."
+    },
+    {
+     "equals": "wouldn't failed",
+     "category": "grammar",
+     "feedback": "Il manque have : wouldn't have failed."
+    },
+    {
+     "equals": "hadn't failed",
+     "category": "verb_tense",
+     "feedback": "Had + participe passé va dans la partie avec if. Le résultat prend would have + participe passé."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e02",
+   "unitIds": [
+    "en.v.risk",
+    "en.v.prevent",
+    "en.v.damage",
+    "en.v.warn",
+    "en.v.avoid"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque expression anglaise à sa traduction.",
+   "prompt": "Prévenir et éviter les problèmes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "take a risk",
+     "right": "prendre un risque"
+    },
+    {
+     "left": "prevent an accident",
+     "right": "empêcher un accident"
+    },
+    {
+     "left": "serious damage",
+     "right": "de graves dégâts"
+    },
+    {
+     "left": "warn someone",
+     "right": "prévenir quelqu'un"
+    },
+    {
+     "left": "avoid a problem",
+     "right": "éviter un problème"
+    }
+   ],
+   "answer": "take a risk = prendre un risque ; prevent an accident = empêcher un accident ; serious damage = de graves dégâts ; warn someone = prévenir quelqu'un ; avoid a problem = éviter un problème",
+   "acceptedAnswers": [
+    "take a risk = prendre un risque ; prevent an accident = empêcher un accident ; serious damage = de graves dégâts ; warn someone = prévenir quelqu'un ; avoid a problem = éviter un problème"
+   ],
+   "explanation": "Damage est indénombrable : serious damage (damages désigne des dommages-intérêts). Warn se construit avec la personne : warn someone. Avoid est suivi d'un nom ou d'un verbe en -ing : avoid driving.",
+   "tip": "On avoid (évite) soi-même un problème, on prevent (empêche) qu'il arrive.",
+   "extraExample": {
+    "text": "Regular checks can prevent many problems.",
+    "translation": "Des contrôles réguliers peuvent empêcher beaucoup de problèmes."
+   }
+  },
+  {
+   "id": "en.l72.e03",
+   "unitIds": [
+    "en.g53.third_conditional"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la phrase correcte.",
+   "prompt": "Quelle phrase est correcte pour dire : « Si j'avais su, je ne serais pas venu » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "If I had known, I wouldn't have come.",
+    "If I would have known, I wouldn't have come.",
+    "If I knew, I wouldn't come."
+   ],
+   "answer": "If I had known, I wouldn't have come.",
+   "acceptedAnswers": [
+    "If I had known, I wouldn't have come."
+   ],
+   "hint": "Pense au plus-que-parfait : « si j'avais su ».",
+   "explanation": "« Si j'avais su » = if I had known (had + participe passé). « Je ne serais pas venu » = I wouldn't have come (would have + participe passé). Jamais would juste après if.",
+   "tip": "Jamais « if I would have » : would n'apparaît que dans le résultat.",
+   "extraExample": {
+    "text": "If you had told me, I would have helped you.",
+    "translation": "Si tu me l'avais dit, je t'aurais aidé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "If I would have known, I wouldn't have come.",
+     "category": "verb_tense",
+     "feedback": "C'est la faute classique des francophones : on ne dit pas « si j'aurais su ». Après if : had + participe passé, if I had known."
+    },
+    {
+     "equals": "If I knew, I wouldn't come.",
+     "category": "verb_tense",
+     "feedback": "If I knew… wouldn't come parle du présent ou du futur (deuxième conditionnel). Pour le passé : had known / wouldn't have come."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e04",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.avoid"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "If we had left earlier, we would have ___ the traffic.",
+   "promptLanguage": "en",
+   "options": [
+    "avoided",
+    "avoid",
+    "avoiding",
+    "had avoided"
+   ],
+   "answer": "avoided",
+   "acceptedAnswers": [
+    "avoided"
+   ],
+   "hint": "Would have + … : quelle forme du verbe ?",
+   "explanation": "Après would have, on met un participe passé : avoided (régulier : avoid + ed). Had avoided est réservé à la partie avec if.",
+   "tip": "Would have + participe passé : le résultat du troisième conditionnel.",
+   "extraExample": {
+    "text": "If I had saved more, I would have bought the car.",
+    "translation": "Si j'avais plus économisé, j'aurais acheté la voiture."
+   },
+   "errorPatterns": [
+    {
+     "equals": "avoid",
+     "category": "grammar",
+     "feedback": "Après would have, il faut un participe passé : avoided."
+    },
+    {
+     "equals": "avoiding",
+     "category": "grammar",
+     "feedback": "Un verbe en -ing ne peut pas suivre would have : il faut le participe passé, avoided."
+    },
+    {
+     "equals": "had avoided",
+     "category": "verb_tense",
+     "feedback": "Had avoided va dans la partie avec if. Après would have : avoided."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e05",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.warn"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "If she ___ warned me, I would have stayed at home.",
+   "promptLanguage": "en",
+   "options": [
+    "had",
+    "would have",
+    "has",
+    "did"
+   ],
+   "answer": "had",
+   "acceptedAnswers": [
+    "had"
+   ],
+   "hint": "Après if : had + participe passé.",
+   "explanation": "Après if, on met had + participe passé (had warned), jamais would have. Elle ne m'a pas prévenu, donc je suis sorti : on refait le passé.",
+   "tip": "If + had + participe passé ; would have seulement dans le résultat.",
+   "extraExample": {
+    "text": "If you had called me, I would have picked you up.",
+    "translation": "Si tu m'avais appelé, je serais venu te chercher."
+   },
+   "errorPatterns": [
+    {
+     "equals": "would have",
+     "category": "verb_tense",
+     "feedback": "Piège : if she would have warned est incorrect. Après if, on met had + participe passé."
+    },
+    {
+     "equals": "has",
+     "category": "verb_tense",
+     "feedback": "Has warned est un present perfect, qui parle du présent. Pour refaire le passé : had warned."
+    },
+    {
+     "equals": "did",
+     "category": "grammar",
+     "feedback": "Did warned n'existe pas (après did, la base). Le troisième conditionnel demande had warned."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e06",
+   "unitIds": [
+    "en.v.succeed",
+    "en.v.fail",
+    "en.v.consequence",
+    "en.v.mistake"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque expression anglaise à sa traduction.",
+   "prompt": "Réussites et échecs",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "succeed in business",
+     "right": "réussir en affaires"
+    },
+    {
+     "left": "fail an exam",
+     "right": "rater un examen"
+    },
+    {
+     "left": "face the consequences",
+     "right": "affronter les conséquences"
+    },
+    {
+     "left": "make a mistake",
+     "right": "faire une erreur"
+    }
+   ],
+   "answer": "succeed in business = réussir en affaires ; fail an exam = rater un examen ; face the consequences = affronter les conséquences ; make a mistake = faire une erreur",
+   "acceptedAnswers": [
+    "succeed in business = réussir en affaires ; fail an exam = rater un examen ; face the consequences = affronter les conséquences ; make a mistake = faire une erreur"
+   ],
+   "explanation": "Succeed in + nom ou verbe en -ing (succeed in finding a job). Fail an exam = rater un examen. Consequence s'écrit presque comme en français (sans accent) et se prononce /ˈkɒnsɪkwəns/.",
+   "tip": "Make a mistake, jamais do a mistake.",
+   "extraExample": {
+    "text": "She failed her driving test twice, but she finally succeeded.",
+    "translation": "Elle a raté son permis deux fois, mais elle a fini par réussir."
+   }
+  },
+  {
+   "id": "en.l72.e07",
+   "unitIds": [
+    "en.g23.past_simple_negative_questions",
+    "en.v.warn"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Pourquoi ne m'as-tu pas prévenu ?",
+   "promptLanguage": "fr",
+   "tokens": [
+    "me",
+    "Why",
+    "you",
+    "didn't",
+    "warn"
+   ],
+   "answer": "Why didn't you warn me",
+   "acceptedAnswers": [
+    "Why didn't you warn me"
+   ],
+   "hint": "Question au passé avec didn't.",
+   "explanation": "Au passé simple, la question négative se forme avec why + didn't + sujet + verbe de base : Why didn't you warn me ? Le verbe reste à la base (warn, pas warned).",
+   "tip": "Why didn't you + base ? = Pourquoi n'as-tu pas… ? (souvent un reproche)",
+   "extraExample": {
+    "text": "Why didn't you call me yesterday?",
+    "translation": "Pourquoi ne m'as-tu pas appelé hier ?"
+   }
+  },
+  {
+   "id": "en.l72.e08",
+   "unitIds": [
+    "en.g52.second_conditional",
+    "en.g53.third_conditional"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle phrase parle du présent (et non du passé) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "If I had more time, I would help you.",
+    "If I had had more time, I would have helped you.",
+    "If I had known, I would have helped you."
+   ],
+   "answer": "If I had more time, I would help you.",
+   "acceptedAnswers": [
+    "If I had more time, I would help you."
+   ],
+   "hint": "Cherche la phrase sans have + participe passé après would.",
+   "explanation": "If I had more time, I would help = deuxième conditionnel : une situation présente imaginaire (prétérit + would). Avec had had / had known + would have, on parle du passé (troisième conditionnel).",
+   "tip": "Prétérit + would = présent ; had + participe passé + would have = passé.",
+   "extraExample": {
+    "text": "If I lived in Paris, I would see you every week.",
+    "translation": "Si j'habitais à Paris, je te verrais toutes les semaines."
+   },
+   "errorPatterns": [
+    {
+     "equals": "If I had had more time, I would have helped you.",
+     "category": "verb_tense",
+     "feedback": "Had had + would have helped : troisième conditionnel, il parle d'un moment passé (hier, la semaine dernière…)."
+    },
+    {
+     "equals": "If I had known, I would have helped you.",
+     "category": "verb_tense",
+     "feedback": "Had known + would have helped parle aussi du passé : je ne savais pas, donc je n'ai pas aidé."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e09",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.succeed"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "If they had worked together, they might have ___.",
+   "promptLanguage": "en",
+   "options": [
+    "succeeded",
+    "succeed",
+    "succeeding",
+    "success"
+   ],
+   "answer": "succeeded",
+   "acceptedAnswers": [
+    "succeeded"
+   ],
+   "hint": "Might have + participe passé : « ils auraient peut-être réussi ».",
+   "explanation": "Might have + participe passé exprime une possibilité dans le passé (« auraient peut-être réussi »). Succeed est régulier : succeeded. Le nom, lui, est success.",
+   "tip": "Succeed (verbe) et success (nom) : deux c dans les deux mots.",
+   "extraExample": {
+    "text": "If he had trained harder, he might have won the race.",
+    "translation": "S'il s'était entraîné plus dur, il aurait peut-être gagné la course."
+   },
+   "errorPatterns": [
+    {
+     "equals": "succeed",
+     "category": "grammar",
+     "feedback": "Après might have, il faut un participe passé : succeeded."
+    },
+    {
+     "equals": "succeeding",
+     "category": "grammar",
+     "feedback": "Un verbe en -ing ne peut pas suivre might have : il faut le participe passé, succeeded."
+    },
+    {
+     "equals": "success",
+     "category": "word_confusion",
+     "feedback": "Success est le nom (le succès). Le verbe « réussir » est succeed, au participe succeeded."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e10",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.damage"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "If we hadn't left the window open, the rain wouldn't have ___ the sofa.",
+   "promptLanguage": "en",
+   "options": [
+    "damaged",
+    "damage",
+    "damaging",
+    "damages"
+   ],
+   "answer": "damaged",
+   "acceptedAnswers": [
+    "damaged"
+   ],
+   "hint": "Wouldn't have + participe passé.",
+   "explanation": "Wouldn't have + participe passé : damaged (damage est régulier, on ajoute -d). La condition est au past perfect négatif : hadn't left.",
+   "tip": "Hadn't + participe passé pour la condition ; wouldn't have + participe passé pour le résultat.",
+   "extraExample": {
+    "text": "If you hadn't shouted, the baby wouldn't have woken up.",
+    "translation": "Si tu n'avais pas crié, le bébé ne se serait pas réveillé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "damage",
+     "category": "grammar",
+     "feedback": "Après wouldn't have, il faut un participe passé : damaged."
+    },
+    {
+     "equals": "damaging",
+     "category": "grammar",
+     "feedback": "Un verbe en -ing ne peut pas suivre have ici : il faut le participe passé, damaged."
+    },
+    {
+     "equals": "damages",
+     "category": "grammar",
+     "feedback": "Damages est un présent à la 3e personne (ou un nom pluriel). Après have, il faut damaged."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e11",
+   "unitIds": [
+    "en.g22.irregular_verbs",
+    "en.g53.third_conditional"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "If I had ___ your message, I would have replied.",
+   "promptLanguage": "en",
+   "options": [
+    "seen",
+    "saw",
+    "see",
+    "seeing"
+   ],
+   "answer": "seen",
+   "acceptedAnswers": [
+    "seen"
+   ],
+   "hint": "Après had, on utilise le participe passé de see.",
+   "explanation": "Après had, il faut un participe passé : seen (see – saw – seen). Saw est le prétérit : il ne s'emploie pas après had.",
+   "tip": "Apprends les trois formes : see – saw – seen, go – went – gone, take – took – taken.",
+   "extraExample": {
+    "text": "If she had gone to the meeting, she would have met the new manager.",
+    "translation": "Si elle était allée à la réunion, elle aurait rencontré le nouveau directeur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "saw",
+     "category": "conjugation",
+     "feedback": "Saw est le prétérit de see. Après had, il faut le participe passé : seen."
+    },
+    {
+     "equals": "see",
+     "category": "conjugation",
+     "feedback": "Après had, on utilise le participe passé, pas la base : seen."
+    },
+    {
+     "equals": "seeing",
+     "category": "grammar",
+     "feedback": "Un verbe en -ing ne peut pas suivre had ici : il faut le participe passé, seen."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e12",
+   "unitIds": [
+    "en.g39.present_perfect_intro",
+    "en.v.fail"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "___ you ever failed a driving test?",
+   "promptLanguage": "en",
+   "options": [
+    "Have",
+    "Did",
+    "Do",
+    "Are"
+   ],
+   "answer": "Have",
+   "acceptedAnswers": [
+    "Have"
+   ],
+   "hint": "Expérience de vie : ever + participe passé.",
+   "explanation": "Pour parler d'une expérience de vie, sans date précise, on utilise le present perfect : Have you ever failed…? Failed est le participe passé de fail.",
+   "tip": "Have you ever + participe passé ? = As-tu déjà… ?",
+   "extraExample": {
+    "text": "Have you ever lost your passport abroad?",
+    "translation": "As-tu déjà perdu ton passeport à l'étranger ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Did",
+     "category": "verb_tense",
+     "feedback": "Did est suivi de la base (Did you ever fail…?). Avec failed, il faut have : Have you ever failed…?"
+    },
+    {
+     "equals": "Do",
+     "category": "verb_tense",
+     "feedback": "Do est suivi de la base. Pour une expérience de vie avec failed : Have you ever failed…?"
+    },
+    {
+     "equals": "Are",
+     "category": "grammar",
+     "feedback": "Are s'emploie avec un adjectif ou un -ing. Pour une expérience, on dit Have you ever failed…?"
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e13",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.avoid",
+    "en.v.warn"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Si tu m'avais prévenu, j'aurais évité cette erreur.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "warned",
+    "this",
+    "If",
+    "you",
+    "mistake",
+    "avoided",
+    "had",
+    "me",
+    "I",
+    "would",
+    "have"
+   ],
+   "answer": "If you had warned me I would have avoided this mistake",
+   "acceptedAnswers": [
+    "If you had warned me I would have avoided this mistake",
+    "I would have avoided this mistake if you had warned me"
+   ],
+   "hint": "Commence par If you had.",
+   "explanation": "Condition : if + had + participe passé (had warned). Résultat : would have + participe passé (would have avoided). Un participe passé dans chaque moitié.",
+   "tip": "« Si tu avais… j'aurais… » = If you had… I would have…",
+   "extraExample": {
+    "text": "If he had asked me, I would have said yes.",
+    "translation": "S'il me l'avait demandé, j'aurais dit oui."
+   }
+  },
+  {
+   "id": "en.l72.e14",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.risk"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Il n'aurait pas pris ce risque s'il avait su.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "risk",
+    "He",
+    "taken",
+    "if",
+    "that",
+    "had",
+    "wouldn't",
+    "he",
+    "known",
+    "have"
+   ],
+   "answer": "He wouldn't have taken that risk if he had known",
+   "acceptedAnswers": [
+    "He wouldn't have taken that risk if he had known",
+    "If he had known he wouldn't have taken that risk"
+   ],
+   "hint": "Take – took – taken.",
+   "explanation": "Résultat : wouldn't have + participe passé irrégulier (taken). Condition : had + participe passé (had known). On dit take a risk (prendre un risque).",
+   "tip": "Take a risk = prendre un risque (jamais make a risk).",
+   "extraExample": {
+    "text": "Driving at night in the snow is a big risk.",
+    "translation": "Conduire de nuit dans la neige est un gros risque."
+   }
+  },
+  {
+   "id": "en.l72.e15",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.fail"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Si nous nous étions mieux préparés, le projet n'aurait pas échoué.",
+   "promptLanguage": "fr",
+   "answer": "If we had prepared better, the project wouldn't have failed.",
+   "acceptedAnswers": [
+    "If we had prepared better, the project wouldn't have failed.",
+    "If we had prepared more carefully, the project wouldn't have failed.",
+    "If we had prepared properly, the project wouldn't have failed.",
+    "If we had been better prepared, the project wouldn't have failed.",
+    "The project wouldn't have failed if we had prepared better.",
+    "The project wouldn't have failed if we had prepared more carefully.",
+    "The project wouldn't have failed if we had prepared properly.",
+    "The project wouldn't have failed if we had been better prepared."
+   ],
+   "hint": "Un participe passé dans chaque moitié.",
+   "explanation": "Troisième conditionnel : if + had + participe passé (had prepared), puis would have + participe passé (wouldn't have failed). « Se préparer » se dit prepare, sans pronom.",
+   "tip": "Prepare se construit sans pronom ici : we had prepared.",
+   "extraExample": {
+    "text": "If I had taken that call, I would have heard the news first.",
+    "translation": "Si j'avais pris cet appel, j'aurais appris la nouvelle en premier."
+   },
+   "errorPatterns": [
+    {
+     "contains": "if we would have",
+     "category": "verb_tense",
+     "feedback": "Jamais would après if : if we had prepared."
+    },
+    {
+     "contains": "have fail",
+     "category": "grammar",
+     "feedback": "Après have, il faut le participe passé : wouldn't have failed."
+    },
+    {
+     "contains": "had prepare",
+     "category": "grammar",
+     "feedback": "Après had, il faut le participe passé : had prepared."
+    },
+    {
+     "contains": "prepared ourselves",
+     "category": "grammar",
+     "feedback": "En anglais, on ne met pas de pronom ici : we had prepared."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e16",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.warn",
+    "en.v.prevent"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Si quelqu'un nous avait prévenus, nous aurions pu empêcher ce problème.",
+   "promptLanguage": "fr",
+   "answer": "If someone had warned us, we could have prevented this problem.",
+   "acceptedAnswers": [
+    "If someone had warned us, we could have prevented this problem.",
+    "If someone had warned us, we could have prevented that problem.",
+    "If someone had warned us, we could have prevented the problem.",
+    "If someone had warned us, we could have avoided this problem.",
+    "If someone had warned us, we could have avoided that problem.",
+    "If someone had warned us, we could have avoided the problem.",
+    "If someone had warned us, we would have been able to prevent this problem.",
+    "If someone had warned us, we would have been able to prevent that problem.",
+    "If someone had warned us, we would have been able to prevent the problem.",
+    "If someone had warned us, we would have been able to avoid this problem.",
+    "If someone had warned us, we would have been able to avoid that problem.",
+    "If someone had warned us, we would have been able to avoid the problem.",
+    "If somebody had warned us, we could have prevented this problem.",
+    "If somebody had warned us, we could have prevented that problem.",
+    "If somebody had warned us, we could have prevented the problem.",
+    "If somebody had warned us, we could have avoided this problem.",
+    "If somebody had warned us, we could have avoided that problem.",
+    "If somebody had warned us, we could have avoided the problem.",
+    "If somebody had warned us, we would have been able to prevent this problem.",
+    "If somebody had warned us, we would have been able to prevent that problem.",
+    "If somebody had warned us, we would have been able to prevent the problem.",
+    "If somebody had warned us, we would have been able to avoid this problem.",
+    "If somebody had warned us, we would have been able to avoid that problem.",
+    "If somebody had warned us, we would have been able to avoid the problem.",
+    "We could have prevented this problem if someone had warned us.",
+    "We could have prevented this problem if somebody had warned us.",
+    "We could have prevented that problem if someone had warned us.",
+    "We could have prevented that problem if somebody had warned us.",
+    "We could have prevented the problem if someone had warned us.",
+    "We could have prevented the problem if somebody had warned us.",
+    "We could have avoided this problem if someone had warned us.",
+    "We could have avoided this problem if somebody had warned us.",
+    "We could have avoided that problem if someone had warned us.",
+    "We could have avoided that problem if somebody had warned us.",
+    "We could have avoided the problem if someone had warned us.",
+    "We could have avoided the problem if somebody had warned us.",
+    "We would have been able to prevent this problem if someone had warned us.",
+    "We would have been able to prevent this problem if somebody had warned us.",
+    "We would have been able to prevent that problem if someone had warned us.",
+    "We would have been able to prevent that problem if somebody had warned us.",
+    "We would have been able to prevent the problem if someone had warned us.",
+    "We would have been able to prevent the problem if somebody had warned us.",
+    "We would have been able to avoid this problem if someone had warned us.",
+    "We would have been able to avoid this problem if somebody had warned us.",
+    "We would have been able to avoid that problem if someone had warned us.",
+    "We would have been able to avoid that problem if somebody had warned us.",
+    "We would have been able to avoid the problem if someone had warned us.",
+    "We would have been able to avoid the problem if somebody had warned us."
+   ],
+   "hint": "« Nous aurions pu » = could have + participe passé.",
+   "explanation": "Condition : if + had + participe passé (had warned). « Aurions pu » se dit could have + participe passé (could have prevented). Avec un pronom, warn us : la personne suit directement le verbe.",
+   "tip": "Could have + participe passé = aurais / aurions pu.",
+   "extraExample": {
+    "text": "We could have saved a lot of money if we had compared prices.",
+    "translation": "Nous aurions pu économiser beaucoup d'argent si nous avions comparé les prix."
+   },
+   "errorPatterns": [
+    {
+     "contains": "could prevented",
+     "category": "grammar",
+     "feedback": "Could est suivi de have + participe passé : could have prevented."
+    },
+    {
+     "contains": "have prevent",
+     "category": "grammar",
+     "feedback": "Après have, il faut le participe passé : could have prevented."
+    },
+    {
+     "contains": "if someone would have",
+     "category": "verb_tense",
+     "feedback": "Jamais would après if : if someone had warned us."
+    },
+    {
+     "contains": "warned to us",
+     "category": "grammar",
+     "feedback": "Warn se construit directement avec la personne : warned us."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e17",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.consequence",
+    "en.v.avoid"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "If he had listened to the doctor, he might have avoided serious consequences.",
+   "promptLanguage": "en",
+   "answer": "S'il avait écouté le médecin, il aurait peut-être évité de graves conséquences.",
+   "acceptedAnswers": [
+    "S'il avait écouté le médecin, il aurait peut-être évité de graves conséquences.",
+    "S'il avait écouté le médecin, il aurait peut-être évité de sérieuses conséquences.",
+    "S'il avait écouté le médecin, il aurait peut-être évité des conséquences graves.",
+    "S'il avait écouté le médecin, il aurait peut-être évité des conséquences sérieuses.",
+    "S'il avait écouté le médecin, il aurait peut-être pu éviter de graves conséquences.",
+    "S'il avait écouté le médecin, il aurait peut-être pu éviter de sérieuses conséquences.",
+    "S'il avait écouté le médecin, il aurait peut-être pu éviter des conséquences graves.",
+    "S'il avait écouté le médecin, il aurait peut-être pu éviter des conséquences sérieuses.",
+    "S'il avait écouté le médecin, il aurait pu éviter de graves conséquences.",
+    "S'il avait écouté le médecin, il aurait pu éviter de sérieuses conséquences.",
+    "S'il avait écouté le médecin, il aurait pu éviter des conséquences graves.",
+    "S'il avait écouté le médecin, il aurait pu éviter des conséquences sérieuses.",
+    "S'il avait écouté le docteur, il aurait peut-être évité de graves conséquences.",
+    "S'il avait écouté le docteur, il aurait peut-être évité de sérieuses conséquences.",
+    "S'il avait écouté le docteur, il aurait peut-être évité des conséquences graves.",
+    "S'il avait écouté le docteur, il aurait peut-être évité des conséquences sérieuses.",
+    "S'il avait écouté le docteur, il aurait peut-être pu éviter de graves conséquences.",
+    "S'il avait écouté le docteur, il aurait peut-être pu éviter de sérieuses conséquences.",
+    "S'il avait écouté le docteur, il aurait peut-être pu éviter des conséquences graves.",
+    "S'il avait écouté le docteur, il aurait peut-être pu éviter des conséquences sérieuses.",
+    "S'il avait écouté le docteur, il aurait pu éviter de graves conséquences.",
+    "S'il avait écouté le docteur, il aurait pu éviter de sérieuses conséquences.",
+    "S'il avait écouté le docteur, il aurait pu éviter des conséquences graves.",
+    "S'il avait écouté le docteur, il aurait pu éviter des conséquences sérieuses.",
+    "Il aurait peut-être évité de graves conséquences s'il avait écouté le médecin.",
+    "Il aurait peut-être évité de graves conséquences s'il avait écouté le docteur.",
+    "Il aurait peut-être évité de sérieuses conséquences s'il avait écouté le médecin.",
+    "Il aurait peut-être évité de sérieuses conséquences s'il avait écouté le docteur.",
+    "Il aurait peut-être évité des conséquences graves s'il avait écouté le médecin.",
+    "Il aurait peut-être évité des conséquences graves s'il avait écouté le docteur.",
+    "Il aurait peut-être évité des conséquences sérieuses s'il avait écouté le médecin.",
+    "Il aurait peut-être évité des conséquences sérieuses s'il avait écouté le docteur.",
+    "Il aurait peut-être pu éviter de graves conséquences s'il avait écouté le médecin.",
+    "Il aurait peut-être pu éviter de graves conséquences s'il avait écouté le docteur.",
+    "Il aurait peut-être pu éviter de sérieuses conséquences s'il avait écouté le médecin.",
+    "Il aurait peut-être pu éviter de sérieuses conséquences s'il avait écouté le docteur.",
+    "Il aurait peut-être pu éviter des conséquences graves s'il avait écouté le médecin.",
+    "Il aurait peut-être pu éviter des conséquences graves s'il avait écouté le docteur.",
+    "Il aurait peut-être pu éviter des conséquences sérieuses s'il avait écouté le médecin.",
+    "Il aurait peut-être pu éviter des conséquences sérieuses s'il avait écouté le docteur.",
+    "Il aurait pu éviter de graves conséquences s'il avait écouté le médecin.",
+    "Il aurait pu éviter de graves conséquences s'il avait écouté le docteur.",
+    "Il aurait pu éviter de sérieuses conséquences s'il avait écouté le médecin.",
+    "Il aurait pu éviter de sérieuses conséquences s'il avait écouté le docteur.",
+    "Il aurait pu éviter des conséquences graves s'il avait écouté le médecin.",
+    "Il aurait pu éviter des conséquences graves s'il avait écouté le docteur.",
+    "Il aurait pu éviter des conséquences sérieuses s'il avait écouté le médecin.",
+    "Il aurait pu éviter des conséquences sérieuses s'il avait écouté le docteur."
+   ],
+   "explanation": "If he had listened… he might have avoided : troisième conditionnel avec might have (« aurait peut-être »). En français aussi : « si » + plus-que-parfait (avait écouté), puis conditionnel passé (aurait évité).",
+   "tip": "Might have = « aurait peut-être » ; could have = « aurait pu » ; would have = « aurait ».",
+   "extraExample": {
+    "text": "If you had been honest, there would have been no consequences.",
+    "translation": "Si tu avais été honnête, il n'y aurait pas eu de conséquences."
+   },
+   "errorPatterns": [
+    {
+     "contains": "aurait écouté",
+     "category": "verb_tense",
+     "feedback": "Après « si », on n'emploie pas le conditionnel en français non plus : « s'il avait écouté »."
+    },
+    {
+     "contains": "si il",
+     "category": "spelling",
+     "feedback": "Devant « il », « si » s'élide : s'il avait écouté."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e18",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.succeed",
+    "en.v.fail",
+    "en.v.advice"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Si tu avais écouté mes conseils, tu aurais réussi.",
+   "promptLanguage": "fr",
+   "answer": "If you had listened to my advice, you would have succeeded.",
+   "acceptedAnswers": [
+    "If you had listened to my advice, you would have succeeded.",
+    "If you had listened to my advice, you would have been successful.",
+    "If you had listened to my advice, you would have made it.",
+    "If you had listened to me, you would have succeeded.",
+    "If you had listened to me, you would have been successful.",
+    "If you had listened to me, you would have made it.",
+    "You would have succeeded if you had listened to my advice.",
+    "You would have succeeded if you had listened to me.",
+    "You would have been successful if you had listened to my advice.",
+    "You would have been successful if you had listened to me.",
+    "You would have made it if you had listened to my advice.",
+    "You would have made it if you had listened to me."
+   ],
+   "hint": "Listen se construit avec to ; advice est indénombrable.",
+   "explanation": "If + had listened (participe passé), puis would have succeeded dans le résultat. Listen est toujours suivi de to avant l'objet. Advice est indénombrable : my advice, jamais my advices.",
+   "tip": "Listen to (écouter) ; advice sans -s.",
+   "extraExample": {
+    "text": "If you had listened to the weather forecast, you would have taken an umbrella.",
+    "translation": "Si tu avais écouté la météo, tu aurais pris un parapluie."
+   },
+   "errorPatterns": [
+    {
+     "contains": "my advices",
+     "category": "grammar",
+     "feedback": "Advice est indénombrable : my advice, jamais advices."
+    },
+    {
+     "contains": "listened my",
+     "category": "preposition",
+     "feedback": "Listen se construit avec to : listened to my advice."
+    },
+    {
+     "contains": "if you would have",
+     "category": "verb_tense",
+     "feedback": "Jamais would après if : if you had listened."
+    },
+    {
+     "contains": "have succeed",
+     "category": "grammar",
+     "feedback": "Après have, il faut le participe passé : would have succeeded."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e19",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.miss"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on : « Si j'avais pris un taxi, je n'aurais pas raté mon vol » ?",
+   "promptLanguage": "fr",
+   "answer": "If I had taken a taxi, I wouldn't have missed my flight.",
+   "acceptedAnswers": [
+    "If I had taken a taxi, I wouldn't have missed my flight.",
+    "If I had taken a taxi, I wouldn't have missed my plane.",
+    "If I had taken a taxi, I wouldn't have missed the flight.",
+    "If I had taken a taxi, I wouldn't have missed the plane.",
+    "If I had got a taxi, I wouldn't have missed my flight.",
+    "If I had got a taxi, I wouldn't have missed my plane.",
+    "If I had got a taxi, I wouldn't have missed the flight.",
+    "If I had got a taxi, I wouldn't have missed the plane.",
+    "If I had caught a taxi, I wouldn't have missed my flight.",
+    "If I had caught a taxi, I wouldn't have missed my plane.",
+    "If I had caught a taxi, I wouldn't have missed the flight.",
+    "If I had caught a taxi, I wouldn't have missed the plane.",
+    "I wouldn't have missed my flight if I had taken a taxi.",
+    "I wouldn't have missed my flight if I had got a taxi.",
+    "I wouldn't have missed my flight if I had caught a taxi.",
+    "I wouldn't have missed my plane if I had taken a taxi.",
+    "I wouldn't have missed my plane if I had got a taxi.",
+    "I wouldn't have missed my plane if I had caught a taxi.",
+    "I wouldn't have missed the flight if I had taken a taxi.",
+    "I wouldn't have missed the flight if I had got a taxi.",
+    "I wouldn't have missed the flight if I had caught a taxi.",
+    "I wouldn't have missed the plane if I had taken a taxi.",
+    "I wouldn't have missed the plane if I had got a taxi.",
+    "I wouldn't have missed the plane if I had caught a taxi."
+   ],
+   "hint": "Take – took – taken.",
+   "explanation": "Condition : if + had + participe passé (had taken) ; résultat : wouldn't have + participe passé (missed). Take a taxi = prendre un taxi ; miss a flight = rater un vol.",
+   "tip": "Take – took – taken ; miss est régulier : missed.",
+   "extraExample": {
+    "text": "If we had taken the earlier train, we wouldn't have missed the meeting.",
+    "translation": "Si nous avions pris le train précédent, nous n'aurions pas raté la réunion."
+   },
+   "errorPatterns": [
+    {
+     "contains": "had took",
+     "category": "conjugation",
+     "feedback": "Took est le prétérit. Après had, il faut le participe passé : taken."
+    },
+    {
+     "contains": "if i would have",
+     "category": "verb_tense",
+     "feedback": "Jamais would après if : if I had taken."
+    },
+    {
+     "contains": "have miss ",
+     "category": "grammar",
+     "feedback": "Après wouldn't have, il faut le participe passé : missed."
+    },
+    {
+     "contains": "lost my flight",
+     "category": "vocabulary",
+     "feedback": "« Rater un vol » se dit miss a flight, pas lose."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e20",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.avoid"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on : « Nous aurions pu éviter tous ces problèmes si nous avions écouté Tom » ?",
+   "promptLanguage": "fr",
+   "answer": "We could have avoided all these problems if we had listened to Tom.",
+   "acceptedAnswers": [
+    "We could have avoided all these problems if we had listened to Tom.",
+    "We could have avoided all those problems if we had listened to Tom.",
+    "We could have avoided all of these problems if we had listened to Tom.",
+    "We could have avoided all the problems if we had listened to Tom.",
+    "We could have avoided these problems if we had listened to Tom.",
+    "We would have avoided all these problems if we had listened to Tom.",
+    "We would have avoided all those problems if we had listened to Tom.",
+    "We would have avoided all of these problems if we had listened to Tom.",
+    "We would have avoided all the problems if we had listened to Tom.",
+    "We would have avoided these problems if we had listened to Tom.",
+    "If we had listened to Tom, we could have avoided all these problems.",
+    "If we had listened to Tom, we could have avoided all those problems.",
+    "If we had listened to Tom, we could have avoided all of these problems.",
+    "If we had listened to Tom, we could have avoided all the problems.",
+    "If we had listened to Tom, we could have avoided these problems.",
+    "If we had listened to Tom, we would have avoided all these problems.",
+    "If we had listened to Tom, we would have avoided all those problems.",
+    "If we had listened to Tom, we would have avoided all of these problems.",
+    "If we had listened to Tom, we would have avoided all the problems.",
+    "If we had listened to Tom, we would have avoided these problems."
+   ],
+   "hint": "« Aurions pu » = could have.",
+   "explanation": "« Aurions pu » = could have + participe passé (could have avoided). Condition : if we had listened (to Tom). Attention : could of est une faute, on écrit could have (could've).",
+   "tip": "Could have, would have, might have : jamais « of ».",
+   "extraExample": {
+    "text": "You could have told me earlier!",
+    "translation": "Tu aurais pu me le dire plus tôt !"
+   },
+   "errorPatterns": [
+    {
+     "contains": "could avoided",
+     "category": "grammar",
+     "feedback": "Could est suivi de have + participe passé : could have avoided."
+    },
+    {
+     "contains": "could of",
+     "category": "spelling",
+     "feedback": "Could of est une faute d'écriture (could've se prononce comme could of) : on écrit could have."
+    },
+    {
+     "contains": "listened tom",
+     "category": "preposition",
+     "feedback": "Listen se construit avec to : listened to Tom."
+    },
+    {
+     "contains": "if we would have",
+     "category": "verb_tense",
+     "feedback": "Jamais would après if : if we had listened."
+    }
+   ]
+  },
+  {
+   "id": "en.l72.e21",
+   "unitIds": [
+    "en.g53.third_conditional",
+    "en.v.risk",
+    "en.v.prevent",
+    "en.v.damage",
+    "en.v.warn",
+    "en.v.avoid",
+    "en.v.succeed",
+    "en.v.fail",
+    "en.v.consequence"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase au troisième conditionnel (if + had + participe passé, would have + participe passé) avec un de ces mots : risk, prevent, damage, warn, avoid, succeed, fail, consequence.",
+   "prompt": "Pense à un regret ou à un reproche : qu'est-ce qui aurait pu être différent ?",
+   "promptLanguage": "fr",
+   "answer": "If I had warned him, he would have avoided the accident.",
+   "acceptedAnswers": [
+    "If I had warned him, he would have avoided the accident.",
+    "If she had studied more, she wouldn't have failed the exam.",
+    "If we had listened to the doctor, we could have avoided the consequences.",
+    "If I had taken that risk, I might have succeeded."
+   ],
+   "requirements": {
+    "mustInclude": [
+     [
+      "if"
+     ],
+     [
+      "had"
+     ],
+     [
+      "would have",
+      "would not have",
+      "could have",
+      "could not have",
+      "might have",
+      "might not have"
+     ],
+     [
+      "risk",
+      "prevent",
+      "prevented",
+      "damage",
+      "damaged",
+      "warn",
+      "warned",
+      "avoid",
+      "avoided",
+      "succeed",
+      "succeeded",
+      "fail",
+      "failed",
+      "consequence",
+      "consequences"
+     ]
+    ],
+    "minWords": 8
+   },
+   "explanation": "Troisième conditionnel : if + had + participe passé, puis would / could / might have + participe passé. Un participe passé dans chaque moitié, et pas de would après if.",
+   "tip": "Vérifie : had + participe d'un côté, would have + participe de l'autre.",
+   "extraExample": {
+    "text": "If I had left earlier, I would have caught the train.",
+    "translation": "Si j'étais parti plus tôt, j'aurais eu le train."
+   },
+   "errorPatterns": [
+    {
+     "contains": "if i would have",
+     "category": "verb_tense",
+     "feedback": "Jamais would have après if : if I had + participe passé."
+    },
+    {
+     "contains": "would have went",
+     "category": "conjugation",
+     "feedback": "Après would have, il faut le participe passé : gone, pas went."
+    },
+    {
+     "contains": "would have took",
+     "category": "conjugation",
+     "feedback": "Après would have, il faut le participe passé : taken, pas took."
+    }
+   ]
+  }
+ ]
+}

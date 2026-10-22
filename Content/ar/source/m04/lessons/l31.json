@@ -1,0 +1,867 @@
+{
+ "lessonId": "ar.l31",
+ "exercises": [
+  {
+   "id": "ar.l31.e01",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.ya_rabb_irham"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis vite : quelle lecture est la bonne ?",
+   "prompt": "يَا رَبُّ ارْحَمْ",
+   "promptLanguage": "ar",
+   "options": [
+    "yâ rabbu r-7am",
+    "yâ rabbu ârham",
+    "yâ rabbi r-7am",
+    "ya rabbu r-7am"
+   ],
+   "answer": "yâ rabbu r-7am",
+   "acceptedAnswers": [
+    "yâ rabbu r-7am"
+   ],
+   "explanation": "يَا = yâ (le ا est long). رَبُّ garde sa damma finale (rabbu) puisque le mot suivant l'enchaîne. Dans ارْحَمْ, le ا tombe après la damma : on dit r-7am. Le ح sans point est le 7 de la gorge.",
+   "tip": "Après يَا, le nom finit par une damma : yâ rabbu.",
+   "extraExample": {
+    "text": "يَا رَبُّ",
+    "translation": "ô Seigneur",
+    "transliteration": "yâ rabb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "yâ rabbu ârham",
+     "category": "spelling",
+     "feedback": "Le ا de ارْحَمْ n'est pas un â long : il est muet quand il suit رَبُّ. On enchaîne r-7am."
+    },
+    {
+     "equals": "yâ rabbi r-7am",
+     "category": "grammar",
+     "feedback": "Après يَا, le nom prend une damma (rabbu), pas une kasra."
+    },
+    {
+     "equals": "ya rabbu r-7am",
+     "category": "spelling",
+     "feedback": "Le ا de يَا est long : yâ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e02",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.amin"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis vite : quelle lecture est la bonne ?",
+   "prompt": "آمِين",
+   "promptLanguage": "ar",
+   "options": [
+    "âmîn",
+    "amîn",
+    "âmin",
+    "âmn"
+   ],
+   "answer": "âmîn",
+   "acceptedAnswers": [
+    "âmîn"
+   ],
+   "explanation": "آ est un alif madda (hamza + â long, leçon 14). Puis م, et ـِين : la kasra suivie de ي donne un î long. On lit â-mîn, le mot qui clôt chaque prière.",
+   "tip": "آ = â ; ـِين = îne.",
+   "extraExample": {
+    "text": "آمِين يَا رَبُّ",
+    "translation": "Amen, Seigneur.",
+    "transliteration": "âmîn yâ rabb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "amîn",
+     "category": "spelling",
+     "feedback": "Le آ (alif madda) donne un â long : âmîn."
+    },
+    {
+     "equals": "âmin",
+     "category": "spelling",
+     "feedback": "Le ي après la kasra est long : mîn."
+    },
+    {
+     "equals": "âmn",
+     "category": "spelling",
+     "feedback": "Il y a une voyelle entre le m et le n : mîn."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e03",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.ya_rabb_irham",
+    "ar.v.amin",
+    "ar.v.al_madjd_lak",
+    "ar.v.as_salam_lil_kull",
+    "ar.v.wa_li_ruhika"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque formule à sa traduction.",
+   "prompt": "Les réponses de la liturgie",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "يَا رَبُّ ارْحَمْ",
+     "right": "Seigneur, aie pitié"
+    },
+    {
+     "left": "آمِين",
+     "right": "amen"
+    },
+    {
+     "left": "الْمَجْدُ لَكَ يَا رَبُّ",
+     "right": "Gloire à toi, Seigneur"
+    },
+    {
+     "left": "السَّلَامُ لِلْكُلِّ",
+     "right": "La paix soit à tous"
+    },
+    {
+     "left": "وَلِرُوحِكَ أَيْضًا",
+     "right": "Et à ton esprit aussi"
+    }
+   ],
+   "answer": "يَا رَبُّ ارْحَمْ = Seigneur, aie pitié ; آمِين = amen ; الْمَجْدُ لَكَ يَا رَبُّ = Gloire à toi, Seigneur ; السَّلَامُ لِلْكُلِّ = La paix soit à tous ; وَلِرُوحِكَ أَيْضًا = Et à ton esprit aussi",
+   "acceptedAnswers": [],
+   "explanation": "Le prêtre dit السَّلَامُ لِلْكُلِّ et le peuple répond وَلِرُوحِكَ أَيْضًا. يَا رَبُّ ارْحَمْ est la supplication, آمِين clôt la prière et الْمَجْدُ لَكَ يَا رَبُّ est une louange."
+  },
+  {
+   "id": "ar.l31.e04",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.al_madjd_lak"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne traduction.",
+   "prompt": "Que veut dire لَكَ dans الْمَجْدُ لَكَ يَا رَبُّ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "à toi",
+    "à nous",
+    "à lui",
+    "à moi"
+   ],
+   "answer": "à toi",
+   "acceptedAnswers": [
+    "à toi"
+   ],
+   "explanation": "لَكَ = لِ (à) + ـكَ (toi). Le suffixe ـكَ se colle au mot et veut dire « toi, ton ». ـنَا serait « nous », ـهُ « lui ».",
+   "tip": "ـكَ = toi, ton.",
+   "extraExample": {
+    "text": "لَكَ الْمَجْدُ",
+    "translation": "À toi la gloire.",
+    "transliteration": "laka l-madjd"
+   },
+   "errorPatterns": [
+    {
+     "equals": "à nous",
+     "category": "grammar",
+     "feedback": "« À nous » s'écrit لَنَا, avec le suffixe ـنَا. Ici, c'est ـكَ."
+    },
+    {
+     "equals": "à lui",
+     "category": "grammar",
+     "feedback": "« À lui » s'écrit لَهُ, avec le suffixe ـهُ. Ici, c'est ـكَ."
+    },
+    {
+     "equals": "à moi",
+     "category": "grammar",
+     "feedback": "« À moi » s'écrit لِي. Ici, le suffixe est ـكَ : à toi."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e05",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.ya_rabb_irham"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Observe l'enchaînement.",
+   "prompt": "Dans يَا رَبُّ ارْحَمْ, que devient le ا de ارْحَمْ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il tombe : rabbu r-7am",
+    "Il s'allonge : rabbu ârham",
+    "Il devient ع : rabbu 3arham",
+    "Il se lit y : rabbu yarham"
+   ],
+   "answer": "Il tombe : rabbu r-7am",
+   "acceptedAnswers": [
+    "Il tombe : rabbu r-7am"
+   ],
+   "explanation": "Ce ا ne sert qu'à commencer le mot. Quand le mot précédent finit par une voyelle (la damma de رَبُّ), il disparaît et on enchaîne r-7am. Si tu fais un petit silence entre les deux mots, comme à l'église, tu entends « irham » : c'est la même formule en deux temps.",
+   "tip": "Un ا de liaison se tait après une voyelle.",
+   "extraExample": {
+    "text": "بِاسْمِ الرَّبِّ",
+    "translation": "au nom du Seigneur",
+    "transliteration": "bismi r-rabb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il s'allonge : rabbu ârham",
+     "category": "spelling",
+     "feedback": "Un ا long porte une marque de voyelle (آ) ou se voit entre deux consonnes ; ici, c'est un ا de liaison qui tombe."
+    },
+    {
+     "equals": "Il devient ع : rabbu 3arham",
+     "category": "spelling",
+     "feedback": "ع est une autre lettre ; ici le ا tombe tout simplement."
+    },
+    {
+     "equals": "Il se lit y : rabbu yarham",
+     "category": "spelling",
+     "feedback": "Le y est la lettre ي. Le ا de ارْحَمْ ne se lit pas y."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e06",
+   "unitIds": [
+    "ar.g25.al_solaire_lunaire",
+    "ar.v.as_salam_lil_kull"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis vite : quelle lecture est la bonne ?",
+   "prompt": "السَّلَامُ لِلْكُلِّ",
+   "promptLanguage": "ar",
+   "options": [
+    "as-salâmu li-l-kull",
+    "al-salâmu li-l-kull",
+    "as-salâmu li-kull",
+    "as-salamu li-l-kull"
+   ],
+   "answer": "as-salâmu li-l-kull",
+   "acceptedAnswers": [
+    "as-salâmu li-l-kull"
+   ],
+   "explanation": "ال devant س (lettre solaire) : le l tombe et le s est doublé, as-salâm. Dans لِلْكُلِّ, ل + الْكُلّ font deux l de suite (li-l-kull) et la chadda double le k.",
+   "tip": "ال + س = as-.",
+   "extraExample": {
+    "text": "السَّلَامُ عَلَيْكُمْ",
+    "translation": "La paix sur vous.",
+    "transliteration": "as-salâmu 3alaykum"
+   },
+   "errorPatterns": [
+    {
+     "equals": "al-salâmu li-l-kull",
+     "category": "grammar",
+     "feedback": "س est une lettre solaire : le l de ال ne se dit pas, as-salâm."
+    },
+    {
+     "equals": "as-salâmu li-kull",
+     "category": "spelling",
+     "feedback": "Il y a deux ل de suite dans لِلْكُلِّ : li-l-kull."
+    },
+    {
+     "equals": "as-salamu li-l-kull",
+     "category": "spelling",
+     "feedback": "Le ا après le ل est long : salâm."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e07",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.wa_li_ruhika",
+    "ar.v.as_salam_lil_kull"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la réponse du peuple.",
+   "prompt": "Le prêtre dit : السَّلَامُ لِلْكُلِّ. Que répond le peuple ?",
+   "promptLanguage": "fr",
+   "options": [
+    "وَلِرُوحِكَ أَيْضًا",
+    "الْمَجْدُ لَكَ يَا رَبُّ",
+    "يَا رَبُّ ارْحَمْ",
+    "هَلِّلُويَا"
+   ],
+   "answer": "وَلِرُوحِكَ أَيْضًا",
+   "acceptedAnswers": [
+    "وَلِرُوحِكَ أَيْضًا"
+   ],
+   "explanation": "Au salut du prêtre, le peuple répond وَلِرُوحِكَ أَيْضًا : « et à ton esprit aussi », c'est-à-dire que la paix soit aussi sur lui.",
+   "tip": "Salut du prêtre, vœu en retour.",
+   "extraExample": {
+    "text": "وَلَكَ أَيْضًا",
+    "translation": "Et à toi aussi.",
+    "transliteration": "wa-laka ayDan"
+   },
+   "errorPatterns": [
+    {
+     "equals": "الْمَجْدُ لَكَ يَا رَبُّ",
+     "category": "vocabulary",
+     "feedback": "C'est une louange adressée au Seigneur, pas la réponse au salut du prêtre."
+    },
+    {
+     "equals": "يَا رَبُّ ارْحَمْ",
+     "category": "vocabulary",
+     "feedback": "C'est la réponse à l'appel du diacre صَلُّوا, pas au salut du prêtre."
+    },
+    {
+     "equals": "هَلِّلُويَا",
+     "category": "vocabulary",
+     "feedback": "L'alléluia est un cri de joie, pas la réponse au salut du prêtre."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e08",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.wa_li_ruhika"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis vite : quelle lecture est la bonne ?",
+   "prompt": "وَلِرُوحِكَ أَيْضًا",
+   "promptLanguage": "ar",
+   "options": [
+    "wa-li-rû7ika ayDan",
+    "wa-li-ru7ika ayDan",
+    "wa-la-rû7ika ayDan",
+    "wa-li-rû7i ayDan"
+   ],
+   "answer": "wa-li-rû7ika ayDan",
+   "acceptedAnswers": [
+    "wa-li-rû7ika ayDan"
+   ],
+   "explanation": "وَ = wa (et) ; لِ = li (à) ; رُوحِ = rû7i (esprit : ر damma, و long, ح = 7) ; ـكَ = ka (ton) ; أَيْضًا = ayDan (ay est une diphtongue, ض = D emphatique, le tanwîn en fatha s'entend -an).",
+   "tip": "wa + li + rû7 + ika + ayDan.",
+   "extraExample": {
+    "text": "وَلِلْكَنِيسَةِ أَيْضًا",
+    "translation": "Et à l'église aussi.",
+    "transliteration": "wa-li-l-kanîsati ayDan"
+   },
+   "errorPatterns": [
+    {
+     "equals": "wa-li-ru7ika ayDan",
+     "category": "spelling",
+     "feedback": "Il y a un و après le ر : rû7 avec un û long."
+    },
+    {
+     "equals": "wa-la-rû7ika ayDan",
+     "category": "spelling",
+     "feedback": "Sous le ل il y a une kasra : li (« à »)."
+    },
+    {
+     "equals": "wa-li-rû7i ayDan",
+     "category": "grammar",
+     "feedback": "Le suffixe ـكَ (ton) se lit aussi : rû7ika."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e09",
+   "unitIds": [
+    "ar.g30.chadda_hamza",
+    "ar.v.quddus"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis vite : quelle lecture est la bonne ?",
+   "prompt": "قُدُّوس",
+   "promptLanguage": "ar",
+   "options": [
+    "quddûs",
+    "qudûs",
+    "qaddûs",
+    "quddus"
+   ],
+   "answer": "quddûs",
+   "acceptedAnswers": [
+    "quddûs"
+   ],
+   "explanation": "قُ = qu ; دُّ = le د avec chadda et damma, donc ddu ; و = û long ; س. La chadda double le d : qud-dûs, comme qid-dîs dans la leçon 30.",
+   "tip": "Chadda sur le د : deux d.",
+   "extraExample": {
+    "text": "اللّٰهُ قُدُّوسٌ",
+    "translation": "Dieu est saint.",
+    "transliteration": "Allâhu quddûs"
+   },
+   "errorPatterns": [
+    {
+     "equals": "qudûs",
+     "category": "spelling",
+     "feedback": "La chadda sur le د double la lettre : qud-dûs."
+    },
+    {
+     "equals": "qaddûs",
+     "category": "spelling",
+     "feedback": "Le ق porte une damma : qu."
+    },
+    {
+     "equals": "quddus",
+     "category": "spelling",
+     "feedback": "Le و est long : dûs."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e10",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.sallu"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis vite : quelle lecture est la bonne ?",
+   "prompt": "صَلُّوا",
+   "promptLanguage": "ar",
+   "options": [
+    "Sallû",
+    "Sallûa",
+    "Sallâ",
+    "Sillû"
+   ],
+   "answer": "Sallû",
+   "acceptedAnswers": [
+    "Sallû"
+   ],
+   "explanation": "ص = S (emphatique) avec une fatha ; لُّ = ل avec chadda et damma, donc llu ; وا : le و est long (û) et le ا qui le suit est muet. On lit Sal-lû.",
+   "tip": "وا à la fin d'un verbe : le ا se tait.",
+   "extraExample": {
+    "text": "صَلُّوا فِي الْكَنِيسَةِ",
+    "translation": "Priez dans l'église !",
+    "transliteration": "Sallû fî l-kanîsa"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sallûa",
+     "category": "grammar",
+     "feedback": "Le ا écrit après و à la fin du verbe est muet : Sallû."
+    },
+    {
+     "equals": "Sallâ",
+     "category": "spelling",
+     "feedback": "Le ل porte une chadda avec une damma, puis un و long : llû."
+    },
+    {
+     "equals": "Sillû",
+     "category": "spelling",
+     "feedback": "Sous le ص il y a une fatha : Sa."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e11",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.sallu",
+    "ar.v.quddus",
+    "ar.v.halleluia",
+    "ar.v.ajbiyya",
+    "ar.v.abana"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa traduction.",
+   "prompt": "Les mots de la prière",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "صَلُّوا",
+     "right": "priez !"
+    },
+    {
+     "left": "قُدُّوس",
+     "right": "saint (dit de Dieu)"
+    },
+    {
+     "left": "هَلِّلُويَا",
+     "right": "alléluia"
+    },
+    {
+     "left": "الْأَجْبِيَّة",
+     "right": "l'Agpeya, le livre des heures"
+    },
+    {
+     "left": "أَبَانَا",
+     "right": "notre Père"
+    }
+   ],
+   "answer": "صَلُّوا = priez ! ; قُدُّوس = saint (dit de Dieu) ; هَلِّلُويَا = alléluia ; الْأَجْبِيَّة = l'Agpeya, le livre des heures ; أَبَانَا = notre Père",
+   "acceptedAnswers": [],
+   "explanation": "صَلُّوا est l'appel du diacre ; قُدُّوس est le « Saint » ; هَلِّلُويَا est le cri de joie ; الْأَجْبِيَّة est le livre des sept prières ; أَبَانَا ouvre le Notre Père."
+  },
+  {
+   "id": "ar.l31.e12",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.amin",
+    "ar.v.quddus",
+    "ar.v.sallu",
+    "ar.v.halleluia",
+    "ar.v.ajbiyya"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à sa lecture.",
+   "prompt": "Lecture éclair : cinq mots de la prière",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "آمِين",
+     "right": "âmîn"
+    },
+    {
+     "left": "قُدُّوس",
+     "right": "quddûs"
+    },
+    {
+     "left": "صَلُّوا",
+     "right": "Sallû"
+    },
+    {
+     "left": "هَلِّلُويَا",
+     "right": "hallilûyâ"
+    },
+    {
+     "left": "الْأَجْبِيَّة",
+     "right": "al-adjbiyya"
+    }
+   ],
+   "answer": "آمِين = âmîn ; قُدُّوس = quddûs ; صَلُّوا = Sallû ; هَلِّلُويَا = hallilûyâ ; الْأَجْبِيَّة = al-adjbiyya",
+   "acceptedAnswers": [],
+   "explanation": "Les chaddas doublent le d de quddûs, le l de Sallû et de hallilûyâ, le y de adjbiyya ; le ا de صَلُّوا ne se prononce pas."
+  },
+  {
+   "id": "ar.l31.e13",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.abana"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète : « Notre Père qui es aux cieux. »",
+   "prompt": "أَبَا___ الَّذِي فِي السَّمَاوَاتِ",
+   "promptLanguage": "ar",
+   "options": [
+    "هُ",
+    "كَ",
+    "نَا"
+   ],
+   "answer": "نَا",
+   "acceptedAnswers": [
+    "نَا"
+   ],
+   "explanation": "« Notre » se dit ـنَا : أَبَا + نَا = أَبَانَا. ـكَ donnerait « ton père » (أَبَاكَ) et ـهُ « son père » (أَبَاهُ).",
+   "tip": "نَا = notre, nous.",
+   "extraExample": {
+    "text": "رَبُّنَا",
+    "translation": "notre Seigneur",
+    "transliteration": "rabbunâ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "كَ",
+     "category": "grammar",
+     "feedback": "ـكَ veut dire « ton » : on dirait « ton père ». Ici, c'est « notre »."
+    },
+    {
+     "equals": "هُ",
+     "category": "grammar",
+     "feedback": "ـهُ veut dire « son » : on dirait « son père ». Ici, c'est « notre »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e14",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.wa_li_ruhika"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la réponse : « Et à ton esprit aussi. »",
+   "prompt": "وَلِرُوحِ___ أَيْضًا",
+   "promptLanguage": "ar",
+   "options": [
+    "نَا",
+    "هُ",
+    "كَ"
+   ],
+   "answer": "كَ",
+   "acceptedAnswers": [
+    "كَ"
+   ],
+   "explanation": "« Ton » se dit ـكَ : رُوحِ + كَ = رُوحِكَ. ـنَا donnerait « notre esprit » et ـهُ « son esprit ».",
+   "tip": "ـكَ = ton, toi.",
+   "extraExample": {
+    "text": "رُوحُنَا",
+    "translation": "notre esprit",
+    "transliteration": "rû7unâ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "نَا",
+     "category": "grammar",
+     "feedback": "ـنَا veut dire « notre ». Le peuple s'adresse au prêtre : ton esprit."
+    },
+    {
+     "equals": "هُ",
+     "category": "grammar",
+     "feedback": "ـهُ veut dire « son ». Le peuple s'adresse au prêtre : ton esprit."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e15",
+   "unitIds": [
+    "ar.v.bismi",
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.amin"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la fin du signe de la croix : « Au nom du Père, du Fils et du Saint-Esprit. Amen. »",
+   "prompt": "بِاسْمِ الْآبِ وَالاِبْنِ وَالرُّوحِ الْقُدُسِ. ___",
+   "promptLanguage": "ar",
+   "options": [
+    "هَلِّلُويَا",
+    "آمِين",
+    "يَا رَبُّ"
+   ],
+   "answer": "آمِين",
+   "acceptedAnswers": [
+    "آمِين"
+   ],
+   "explanation": "La formule se ferme par آمِين. Rappelle-toi que dans بِاسْمِ le ا s'écrit mais ne se dit pas (bismi) : c'est le même ا muet que dans ارْحَمْ.",
+   "tip": "Prière finie : آمِين.",
+   "extraExample": {
+    "text": "بِاسْمِ الرَّبِّ. آمِين",
+    "translation": "Au nom du Seigneur. Amen.",
+    "transliteration": "bismi r-rabb. âmîn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "هَلِّلُويَا",
+     "category": "vocabulary",
+     "feedback": "L'alléluia est une louange joyeuse, pas la fin du signe de la croix."
+    },
+    {
+     "equals": "يَا رَبُّ",
+     "category": "vocabulary",
+     "feedback": "يَا رَبُّ appelle le Seigneur ; la formule se ferme par آمِين."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e16",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.ya_rabb_irham"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre : « Seigneur, aie pitié. »",
+   "prompt": "Remets dans l'ordre : aie pitié / ô / Seigneur",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ارْحَمْ",
+    "يَا",
+    "رَبُّ"
+   ],
+   "answer": "يَا رَبُّ ارْحَمْ",
+   "acceptedAnswers": [
+    "يَا رَبُّ ارْحَمْ"
+   ],
+   "explanation": "On appelle d'abord (يَا رَبُّ), puis on demande (ارْحَمْ).",
+   "tip": "Appeler, puis demander.",
+   "extraExample": {
+    "text": "يَا رَبُّ",
+    "translation": "ô Seigneur",
+    "transliteration": "yâ rabb"
+   }
+  },
+  {
+   "id": "ar.l31.e17",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.abana"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre : « Notre Père qui es aux cieux. »",
+   "prompt": "Remets dans l'ordre : dans / Notre Père / les cieux / qui",
+   "promptLanguage": "fr",
+   "tokens": [
+    "فِي",
+    "أَبَانَا",
+    "السَّمَاوَاتِ",
+    "الَّذِي"
+   ],
+   "answer": "أَبَانَا الَّذِي فِي السَّمَاوَاتِ",
+   "acceptedAnswers": [
+    "أَبَانَا الَّذِي فِي السَّمَاوَاتِ"
+   ],
+   "explanation": "Le nom أَبَانَا vient d'abord, puis الَّذِي (qui) introduit ce qui le décrit : فِي السَّمَاوَاتِ, « dans les cieux ».",
+   "tip": "Nom d'abord, puis « qui … ».",
+   "extraExample": {
+    "text": "رَبُّنَا فِي السَّمَاءِ",
+    "translation": "Notre Seigneur est au ciel.",
+    "transliteration": "rabbunâ fî s-samâ'"
+   }
+  },
+  {
+   "id": "ar.l31.e18",
+   "unitIds": [
+    "ar.v.alladhi",
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.chammas"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "الشَّمَّاسُ هُوَ الَّذِي فِي الْهَيْكَلِ",
+   "promptLanguage": "ar",
+   "answer": "Le diacre est celui qui est dans le sanctuaire.",
+   "acceptedAnswers": [
+    "Le diacre est celui qui est dans le sanctuaire.",
+    "Le diacre est celui qui est dans le chœur.",
+    "Le diacre, c'est celui qui est dans le sanctuaire.",
+    "Le diacre est celui qui est au sanctuaire.",
+    "Le diacre est celui qui se trouve dans le sanctuaire."
+   ],
+   "explanation": "الَّذِي = « celui qui » (leçon 23) ; هُوَ = il est ; فِي الْهَيْكَلِ = dans le sanctuaire. Le verbe « être » ne s'écrit pas.",
+   "tip": "هُوَ الَّذِي = c'est celui qui.",
+   "extraExample": {
+    "text": "الْكَاهِنُ هُوَ الَّذِي فِي الْكَنِيسَةِ",
+    "translation": "Le prêtre est celui qui est dans l'église.",
+    "transliteration": "al-kâhinu huwa lladhî fî l-kanîsa"
+   },
+   "errorPatterns": [
+    {
+     "contains": "prêtre",
+     "category": "vocabulary",
+     "feedback": "Le prêtre se dit كَاهِن. Ici, le mot est الشَّمَّاس : le diacre."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e19",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.al_madjd_lak"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "الْمَجْدُ لَكَ يَا رَبُّ",
+   "promptLanguage": "ar",
+   "answer": "Gloire à toi, Seigneur.",
+   "acceptedAnswers": [
+    "Gloire à toi, Seigneur.",
+    "Gloire à toi, ô Seigneur.",
+    "Gloire à toi, Seigneur !",
+    "La gloire est à toi, Seigneur."
+   ],
+   "explanation": "الْمَجْدُ = la gloire ; لَكَ = à toi ; يَا رَبُّ = ô Seigneur. Il n'y a pas de verbe.",
+   "tip": "لَكَ = à toi.",
+   "extraExample": {
+    "text": "الْمَجْدُ لِلّٰهِ",
+    "translation": "Gloire à Dieu.",
+    "transliteration": "al-madjdu li-llâh"
+   },
+   "errorPatterns": [
+    {
+     "contains": "nous",
+     "category": "grammar",
+     "feedback": "« À nous » s'écrit لَنَا. Ici, le suffixe est ـكَ : à toi."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e20",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.halleluia"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ce mot en lettres latines.",
+   "prompt": "هَلِّلُويَا",
+   "promptLanguage": "ar",
+   "answer": "hallilûyâ",
+   "acceptedAnswers": [
+    "hallilûyâ",
+    "halliluya",
+    "halliluuyaa",
+    "hallelûyâ",
+    "halleluya",
+    "halleluuyaa"
+   ],
+   "hint": "hal + li + lû + yâ.",
+   "explanation": "La chadda double le ل : hal-li-lû-yâ. ـُو est un û long, puis يَا : yâ.",
+   "tip": "Quatre syllabes : hal · li · lû · yâ.",
+   "extraExample": {
+    "text": "هَلِّلُويَا لِلرَّبِّ",
+    "translation": "Alléluia au Seigneur.",
+    "transliteration": "hallilûyâ li-r-rabb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "halilûyâ",
+     "category": "spelling",
+     "feedback": "Le ل porte une chadda : deux l (hal-li-lû-yâ)."
+    },
+    {
+     "equals": "hallilûya",
+     "category": "spelling",
+     "feedback": "Le ا final est long : yâ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e21",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.v.ajbiyya"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la traduction en français.",
+   "prompt": "الْأَجْبِيَّة",
+   "promptLanguage": "ar",
+   "answer": "l'Agpeya",
+   "acceptedAnswers": [
+    "l'Agpeya",
+    "Agpeya",
+    "l'Agbeya",
+    "Agbeya",
+    "le livre des heures",
+    "livre des heures",
+    "le livre des sept prières",
+    "les sept prières"
+   ],
+   "explanation": "الْأَجْبِيَّة (écrit aussi Agbeya) est le livre des heures des Coptes, avec les sept prières du jour et de la nuit. On l'appelle aussi كِتَاب السَّبْع صَلَوَات, « le livre des sept prières ».",
+   "tip": "Agpeya = le livre des heures.",
+   "extraExample": {
+    "text": "الْأَجْبِيَّةُ فِي الْبَيْتِ",
+    "translation": "L'Agpeya est dans la maison.",
+    "transliteration": "al-adjbiyyatu fî l-bayt"
+   },
+   "errorPatterns": [
+    {
+     "contains": "bible",
+     "category": "vocabulary",
+     "feedback": "La Bible se dit الْكِتَاب الْمُقَدَّس. L'Agpeya est le livre des heures."
+    }
+   ]
+  }
+ ]
+}

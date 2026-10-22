@@ -1,0 +1,762 @@
+{
+ "lessonId": "cg.l01",
+ "exercises": [
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.pharaon",
+    "cg.v.democratie",
+    "cg.v.ecriture"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les héritages de l'Antiquité",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Mésopotamie",
+     "right": "l'invention de l'écriture"
+    },
+    {
+     "left": "Égypte",
+     "right": "les pharaons et les pyramides"
+    },
+    {
+     "left": "Grèce (Athènes)",
+     "right": "la démocratie et la philosophie"
+    },
+    {
+     "left": "Rome",
+     "right": "la République puis l'Empire"
+    }
+   ],
+   "answer": "Mésopotamie = l'invention de l'écriture ; Égypte = les pharaons et les pyramides ; Grèce (Athènes) = la démocratie et la philosophie ; Rome = la République puis l'Empire",
+   "acceptedAnswers": [],
+   "explanation": "Chaque civilisation laisse un héritage : l'écriture naît en Mésopotamie, les pharaons et les pyramides en Égypte, la démocratie à Athènes, et Rome organise un immense empire autour de la Méditerranée.",
+   "tip": "Égypte, Grèce, Rome : retiens-les dans l'ordre où elles dominent la Méditerranée.",
+   "extraExample": {
+    "text": "Les Romains empruntent beaucoup aux Grecs, des dieux à l'architecture.",
+    "translation": "Jupiter est le Zeus romain, et Minerve l'Athéna romaine."
+   },
+   "id": "cg.l01.e01"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.pharaon"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment s'appelle le roi de l'Égypte ancienne, considéré comme un dieu vivant ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le pharaon",
+    "Le sultan",
+    "Le consul",
+    "Le tyran"
+   ],
+   "answer": "Le pharaon",
+   "acceptedAnswers": [
+    "Le pharaon"
+   ],
+   "explanation": "Le pharaon gouverne l'Égypte et fait le lien entre les dieux et les hommes. Le consul est un magistrat de la République romaine, le tyran un dirigeant grec qui a pris le pouvoir par la force.",
+   "tip": "Pharaon = Égypte ; consul = Rome ; tyran = cités grecques.",
+   "extraExample": {
+    "text": "Toutânkhamon, pharaon mort adolescent, est célèbre pour sa tombe intacte, découverte en 1922 par Howard Carter.",
+    "translation": "Son masque d'or est l'un des objets les plus connus du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le consul",
+     "category": "word_confusion",
+     "feedback": "Le consul est un magistrat de la République romaine, pas un roi égyptien."
+    },
+    {
+     "equals": "Le sultan",
+     "category": "word_confusion",
+     "feedback": "Le sultan règne sur des pays musulmans, bien après l'Antiquité."
+    }
+   ],
+   "id": "cg.l01.e02"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.democratie"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que signifie le mot « démocratie » en grec ancien ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le pouvoir du peuple",
+    "Le pouvoir d'un seul",
+    "Le pouvoir des riches",
+    "Le pouvoir des dieux"
+   ],
+   "answer": "Le pouvoir du peuple",
+   "acceptedAnswers": [
+    "Le pouvoir du peuple"
+   ],
+   "explanation": "Démocratie vient de demos (le peuple) et kratos (le pouvoir). Le pouvoir d'un seul s'appelle la monarchie.",
+   "tip": "Démo-cratie : le peuple (demos) qui commande (kratos).",
+   "extraExample": {
+    "text": "Le mot « démographie » contient aussi demos : c'est l'étude des populations.",
+    "translation": "Un même mot grec, deux mots français."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le pouvoir d'un seul",
+     "category": "word_confusion",
+     "feedback": "Le pouvoir d'un seul, c'est la monarchie (ou la tyrannie)."
+    },
+    {
+     "equals": "Le pouvoir des dieux",
+     "category": "word_confusion",
+     "feedback": "Le pouvoir des dieux, c'est la théocratie, bien différente de la démocratie."
+    }
+   ],
+   "id": "cg.l01.e03"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.democratie"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quelle cité est née la démocratie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Athènes",
+    "Sparte",
+    "Rome"
+   ],
+   "answer": "Athènes",
+   "acceptedAnswers": [
+    "Athènes"
+   ],
+   "explanation": "C'est à Athènes, vers 508 av. J.-C., que Clisthène organise le pouvoir des citoyens. Sparte, au contraire, est dirigée par deux rois et une élite de guerriers.",
+   "tip": "Athènes = démocratie ; Sparte = guerriers ; Rome = République puis Empire.",
+   "extraExample": {
+    "text": "Le Parthénon, temple d'Athéna sur l'Acropole, est bâti au Ve siècle av. J.-C. sous Périclès.",
+    "translation": "Il symbolise l'apogée d'Athènes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sparte",
+     "category": "word_confusion",
+     "feedback": "Sparte était une cité de guerriers dirigée par deux rois, pas une démocratie."
+    },
+    {
+     "equals": "Rome",
+     "category": "word_confusion",
+     "feedback": "Rome est italienne : elle a d'abord été une monarchie, puis une république, puis un empire."
+    }
+   ],
+   "id": "cg.l01.e04"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.champollion",
+    "cg.v.hieroglyphes"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui a déchiffré les hiéroglyphes ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Jean-François Champollion",
+    "Auguste Mariette",
+    "Vivant Denon",
+    "Gaspard Monge"
+   ],
+   "answer": "Jean-François Champollion",
+   "acceptedAnswers": [
+    "Jean-François Champollion"
+   ],
+   "explanation": "Champollion a comparé les trois écritures de la pierre de Rosette (hiéroglyphes, démotique, grec) et annoncé sa découverte en 1822. Denon et Monge ont participé à l'expédition d'Égypte de Bonaparte ; Mariette est un égyptologue plus tardif.",
+   "tip": "Rosette + Champollion = les hiéroglyphes enfin lus.",
+   "extraExample": {
+    "text": "La pierre de Rosette est découverte en 1799 par des soldats de Bonaparte, puis conservée au British Museum.",
+    "translation": "Elle est devenue le symbole du déchiffrement des écritures anciennes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Vivant Denon",
+     "category": "word_confusion",
+     "feedback": "Denon a rapporté des dessins d'Égypte, mais n'a pas déchiffré les hiéroglyphes."
+    },
+    {
+     "equals": "Gaspard Monge",
+     "category": "word_confusion",
+     "feedback": "Monge, mathématicien, a suivi l'expédition de Bonaparte sans déchiffrer l'écriture."
+    }
+   ],
+   "id": "cg.l01.e05"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.auguste"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Sous quel régime Rome est-elle gouvernée de 509 à 27 av. J.-C. (dates traditionnelles) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La République",
+    "La démocratie directe",
+    "La monarchie absolue",
+    "La théocratie"
+   ],
+   "answer": "La République",
+   "acceptedAnswers": [
+    "La République"
+   ],
+   "explanation": "Après avoir chassé son dernier roi, Rome devient une république : des magistrats élus pour un an (les consuls) gouvernent avec le Sénat. L'Empire commence avec Auguste, en 27 av. J.-C.",
+   "tip": "République = 509 à 27 av. J.-C. ; Empire = à partir d'Auguste.",
+   "extraExample": {
+    "text": "Le mot « république » vient du latin res publica, la « chose publique ».",
+    "translation": "C'est un régime où le pouvoir est partagé entre des magistrats élus."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La monarchie absolue",
+     "category": "word_confusion",
+     "feedback": "Rome a eu des rois au début, mais elle les chasse en 509 av. J.-C."
+    }
+   ],
+   "id": "cg.l01.e06"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.alexandre_le_grand"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel roi de Macédoine, élève d'Aristote, conquiert l'empire perse et atteint l'Inde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Alexandre le Grand",
+    "Périclès",
+    "Léonidas",
+    "Philippe II"
+   ],
+   "answer": "Alexandre le Grand",
+   "acceptedAnswers": [
+    "Alexandre le Grand"
+   ],
+   "explanation": "Alexandre devient roi à 20 ans et conquiert l'empire perse en une dizaine d'années. Périclès dirigeait Athènes, Léonidas est le roi spartiate des Thermopyles et Philippe II est son père.",
+   "tip": "Alexandre = l'élève d'Aristote devenu conquérant à 20 ans.",
+   "extraExample": {
+    "text": "À sa mort à Babylone, en 323 av. J.-C., ses généraux se partagent son empire.",
+    "translation": "Sa conquête répand la culture grecque jusqu'en Asie centrale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Philippe II",
+     "category": "word_confusion",
+     "feedback": "Philippe II, son père, a unifié la Grèce sous la Macédoine mais n'a pas conquis la Perse."
+    },
+    {
+     "equals": "Périclès",
+     "category": "word_confusion",
+     "feedback": "Périclès dirige Athènes au Ve siècle av. J.-C., un siècle avant Alexandre."
+    }
+   ],
+   "id": "cg.l01.e07"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.auguste",
+    "cg.v.jules_cesar"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui est le premier empereur romain ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Auguste",
+    "Jules César",
+    "Néron",
+    "Constantin"
+   ],
+   "answer": "Auguste",
+   "acceptedAnswers": [
+    "Auguste"
+   ],
+   "explanation": "Jules César, dictateur, a été assassiné avant la naissance de l'Empire. C'est son fils adoptif Octave qui devient Auguste en 27 av. J.-C.",
+   "tip": "Juillet = Jules César ; août = Auguste.",
+   "extraExample": {
+    "text": "Auguste règne de 27 av. J.-C. à 14 apr. J.-C. et ouvre la « paix romaine ».",
+    "translation": "Pendant deux siècles, la Méditerranée connaît une paix relative."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Jules César",
+     "category": "word_confusion",
+     "feedback": "César n'a jamais été empereur : il est assassiné en 44 av. J.-C., avant la naissance de l'Empire."
+    },
+    {
+     "equals": "Constantin",
+     "category": "word_confusion",
+     "feedback": "Constantin règne au IVe siècle ; il autorise le christianisme en 313."
+    }
+   ],
+   "id": "cg.l01.e08"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.vercingetorix",
+    "cg.v.jules_cesar"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel événement met fin à la guerre des Gaules, en 52 av. J.-C. ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La défaite de Vercingétorix à Alésia",
+    "La victoire des Gaulois à Gergovie",
+    "Le passage du Rubicon",
+    "L'assassinat de César"
+   ],
+   "answer": "La défaite de Vercingétorix à Alésia",
+   "acceptedAnswers": [
+    "La défaite de Vercingétorix à Alésia"
+   ],
+   "explanation": "Assiégé dans Alésia, Vercingétorix se rend à César : la Gaule passe sous domination romaine. Gergovie est une victoire gauloise remportée un peu avant ; le Rubicon (49) et l'assassinat de César (44) sont postérieurs.",
+   "tip": "Gergovie = victoire gauloise ; Alésia = défaite et fin de la guerre.",
+   "extraExample": {
+    "text": "Après Alésia, la Gaule reste romaine pendant plus de cinq siècles.",
+    "translation": "Les Gaulois adoptent progressivement le latin."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La victoire des Gaulois à Gergovie",
+     "category": "word_confusion",
+     "feedback": "Gergovie est une victoire de Vercingétorix, mais c'est sa défaite à Alésia qui met fin à la guerre."
+    },
+    {
+     "equals": "Le passage du Rubicon",
+     "category": "word_confusion",
+     "feedback": "Le Rubicon, franchi en 49 av. J.-C., déclenche la guerre civile romaine, après la conquête de la Gaule."
+    },
+    {
+     "equals": "L'assassinat de César",
+     "category": "word_confusion",
+     "feedback": "César est assassiné en 44 av. J.-C., huit ans après Alésia."
+    }
+   ],
+   "id": "cg.l01.e09"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.democratie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le mot « démocratie » vient du grec demos, le peuple, et ___, le pouvoir.",
+   "promptLanguage": "fr",
+   "options": [
+    "kratos",
+    "polis",
+    "logos",
+    "oikos"
+   ],
+   "answer": "kratos",
+   "acceptedAnswers": [
+    "kratos"
+   ],
+   "explanation": "On retrouve kratos dans aristocratie (pouvoir des meilleurs) ou autocratie (pouvoir d'un seul). Polis signifie « cité » et logos « parole, raison ».",
+   "tip": "-cratie = pouvoir : démo-cratie, aristo-cratie, auto-cratie.",
+   "extraExample": {
+    "text": "Aristocratie signifie « pouvoir des meilleurs » : le suffixe est le même.",
+    "translation": "Un mot grec peut ouvrir toute une famille de mots français."
+   },
+   "errorPatterns": [
+    {
+     "equals": "polis",
+     "category": "word_confusion",
+     "feedback": "Polis signifie « cité » (comme dans politique), pas « pouvoir »."
+    }
+   ],
+   "id": "cg.l01.e10"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.jules_cesar",
+    "cg.v.vercingetorix"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Jules César conquiert la ___ entre 58 et 51 av. J.-C.",
+   "promptLanguage": "fr",
+   "options": [
+    "Gaule",
+    "Germanie",
+    "Hispanie",
+    "Égypte"
+   ],
+   "answer": "Gaule",
+   "acceptedAnswers": [
+    "Gaule",
+    "la Gaule"
+   ],
+   "explanation": "La guerre des Gaules dure huit ans, de 58 à 51 av. J.-C. César la raconte dans un livre célèbre.",
+   "tip": "Gaule = guerre des Gaules = 58 à 51 av. J.-C.",
+   "extraExample": {
+    "text": "Les Gaulois vivaient dans l'actuelle France, mais aussi en Belgique et dans le nord de l'Italie.",
+    "translation": "La Gaule est plus vaste que la France actuelle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Égypte",
+     "category": "word_confusion",
+     "feedback": "César est allé en Égypte en 48-47 av. J.-C., où il rencontre Cléopâtre, mais ce n'est pas la guerre des Gaules."
+    }
+   ],
+   "id": "cg.l01.e11"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.champollion",
+    "cg.v.hieroglyphes"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Champollion déchiffre les hiéroglyphes en ___ grâce à la pierre de Rosette.",
+   "promptLanguage": "fr",
+   "options": [
+    "1799",
+    "1822",
+    "1830",
+    "1848"
+   ],
+   "answer": "1822",
+   "acceptedAnswers": [
+    "1822"
+   ],
+   "explanation": "Champollion annonce son déchiffrement en 1822. La pierre de Rosette, elle, a été découverte plus tôt, en 1799.",
+   "tip": "Rosette découverte en 1799, hiéroglyphes lus en 1822.",
+   "extraExample": {
+    "text": "Champollion meurt en 1832, seulement dix ans après sa grande découverte.",
+    "translation": "Il n'a pas eu le temps de finir sa grammaire égyptienne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1799",
+     "category": "word_confusion",
+     "feedback": "1799 est l'année où l'on découvre la pierre de Rosette, pas celle du déchiffrement."
+    }
+   ],
+   "id": "cg.l01.e12"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.chute_empire_romain"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 476, l'Empire romain d'___ disparaît : c'est la fin de l'Antiquité.",
+   "promptLanguage": "fr",
+   "options": [
+    "Occident",
+    "Orient",
+    "Égypte",
+    "Gaule"
+   ],
+   "answer": "Occident",
+   "acceptedAnswers": [
+    "Occident",
+    "d'Occident",
+    "l'Occident"
+   ],
+   "explanation": "L'Empire d'Occident, avec Rome et la Gaule, s'effondre en 476. L'Empire d'Orient, centré sur Constantinople, survit jusqu'en 1453.",
+   "tip": "476 : l'Occident tombe, l'Orient survit.",
+   "extraExample": {
+    "text": "Constantinople, fondée par Constantin en 330, est l'ancienne Byzance et l'actuelle Istanbul.",
+    "translation": "L'Empire d'Orient s'appelle aussi l'Empire byzantin."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Orient",
+     "category": "word_confusion",
+     "feedback": "C'est l'Empire d'Orient qui survit encore près de mille ans, jusqu'en 1453."
+    }
+   ],
+   "id": "cg.l01.e13"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.jules_cesar",
+    "cg.v.vercingetorix",
+    "cg.v.alexandre_le_grand",
+    "cg.v.auguste",
+    "cg.v.champollion"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui a fait quoi ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Jules César",
+     "right": "conquiert la Gaule"
+    },
+    {
+     "left": "Vercingétorix",
+     "right": "est vaincu à Alésia"
+    },
+    {
+     "left": "Alexandre le Grand",
+     "right": "conquiert l'empire perse"
+    },
+    {
+     "left": "Auguste",
+     "right": "premier empereur romain"
+    },
+    {
+     "left": "Champollion",
+     "right": "déchiffre les hiéroglyphes"
+    }
+   ],
+   "answer": "Jules César = conquiert la Gaule ; Vercingétorix = est vaincu à Alésia ; Alexandre le Grand = conquiert l'empire perse ; Auguste = premier empereur romain ; Champollion = déchiffre les hiéroglyphes",
+   "acceptedAnswers": [],
+   "explanation": "Cinq personnages, cinq repères : César et la Gaule, Vercingétorix et Alésia, Alexandre et la Perse, Auguste et l'Empire, Champollion et l'Égypte.",
+   "tip": "Associe chaque nom à un lieu ou un peuple : Gaule, Alésia, Perse, Empire, Égypte.",
+   "extraExample": {
+    "text": "César et Alexandre sont séparés par près de trois siècles.",
+    "translation": "Alexandre meurt en 323 av. J.-C. et César en 44 av. J.-C."
+   },
+   "id": "cg.l01.e14"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.chute_empire_romain"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la fin de l'Antiquité.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "romain",
+    "476",
+    "d'Occident",
+    "disparaît",
+    "L'Empire",
+    "en"
+   ],
+   "answer": "L'Empire romain d'Occident disparaît en 476",
+   "acceptedAnswers": [
+    "L'Empire romain d'Occident disparaît en 476",
+    "En 476 l'Empire romain d'Occident disparaît"
+   ],
+   "explanation": "476 est la date conventionnelle de la fin de l'Antiquité.",
+   "tip": "Qui (l'Empire romain d'Occident), quoi (disparaît), quand (476).",
+   "extraExample": {
+    "text": "En 476, le chef germanique Odoacre dépose le dernier empereur d'Occident.",
+    "translation": "Il gouverne ensuite l'Italie comme roi."
+   },
+   "id": "cg.l01.e15"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.champollion",
+    "cg.v.hieroglyphes"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'Égypte retrouve sa voix.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "les",
+    "Champollion",
+    "en",
+    "1822",
+    "déchiffre",
+    "hiéroglyphes"
+   ],
+   "answer": "Champollion déchiffre les hiéroglyphes en 1822",
+   "acceptedAnswers": [
+    "Champollion déchiffre les hiéroglyphes en 1822",
+    "En 1822 Champollion déchiffre les hiéroglyphes"
+   ],
+   "explanation": "Le déchiffrement des hiéroglyphes par Champollion date de 1822.",
+   "tip": "Un nom, un exploit, une date : Champollion, hiéroglyphes, 1822.",
+   "extraExample": {
+    "text": "La pierre de Rosette est aujourd'hui exposée au British Museum, à Londres.",
+    "translation": "Elle y est depuis 1802."
+   },
+   "id": "cg.l01.e16"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.ecriture"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la période qui précède l'invention de l'écriture ?",
+   "promptLanguage": "fr",
+   "answer": "La Préhistoire",
+   "acceptedAnswers": [
+    "La Préhistoire",
+    "Préhistoire"
+   ],
+   "explanation": "La Préhistoire va des premiers humains à l'invention de l'écriture. Avec l'écriture commence l'Histoire, et l'Antiquité en est la première période.",
+   "tip": "Pas d'écriture, pas d'Histoire : avant, c'est la Préhistoire.",
+   "extraExample": {
+    "text": "Les peintures de la grotte de Lascaux, en Dordogne, datent de la Préhistoire.",
+    "translation": "Elles ont plus de 15 000 ans."
+   },
+   "hint": "Le mot contient « histoire » et « avant ».",
+   "errorPatterns": [
+    {
+     "equals": "antiquité",
+     "category": "word_confusion",
+     "feedback": "L'Antiquité commence justement avec l'écriture ; avant, c'est la Préhistoire."
+    },
+    {
+     "equals": "l'antiquité",
+     "category": "word_confusion",
+     "feedback": "L'Antiquité commence justement avec l'écriture ; avant, c'est la Préhistoire."
+    }
+   ],
+   "id": "cg.l01.e17"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.vercingetorix"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel chef gaulois s'est rendu à Jules César après le siège d'Alésia, en 52 av. J.-C. ?",
+   "promptLanguage": "fr",
+   "answer": "Vercingétorix",
+   "acceptedAnswers": [
+    "Vercingétorix",
+    "Vercingetorix"
+   ],
+   "explanation": "Vercingétorix, chef des Arvernes, avait réuni les Gaulois contre Rome. Vaincu, il est emmené à Rome et exécuté six ans plus tard.",
+   "tip": "Gergovie = sa victoire, Alésia = sa défaite.",
+   "extraExample": {
+    "text": "Vercingétorix est exécuté à Rome en 46 av. J.-C., après avoir défilé dans le triomphe de César.",
+    "translation": "Il est resté un symbole de la résistance gauloise."
+   },
+   "hint": "Chef des Arvernes, il a gagné à Gergovie.",
+   "errorPatterns": [
+    {
+     "equals": "astérix",
+     "category": "word_confusion",
+     "feedback": "Astérix est un héros de bande dessinée ; le vrai chef gaulois d'Alésia est Vercingétorix."
+    }
+   ],
+   "id": "cg.l01.e18"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.jules_cesar"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel général romain, conquérant de la Gaule, est assassiné aux ides de mars 44 av. J.-C. ?",
+   "promptLanguage": "fr",
+   "answer": "Jules César",
+   "acceptedAnswers": [
+    "Jules César",
+    "César",
+    "Caius Julius Caesar",
+    "Julius Caesar",
+    "Caius Julius César"
+   ],
+   "explanation": "Poignardé par des sénateurs qui redoutaient qu'il devienne roi, César meurt le 15 mars 44 av. J.-C. Sa mort déclenche de nouvelles guerres civiles, dont sort Auguste.",
+   "tip": "Les ides de mars, c'est le 15 mars : la date de la mort de César.",
+   "extraExample": {
+    "text": "« Et tu, Brute ? » est la réplique que Shakespeare prête à César mourant dans sa pièce de 1599.",
+    "translation": "Historiquement, on ne sait pas ce qu'il a vraiment dit."
+   },
+   "errorPatterns": [
+    {
+     "equals": "auguste",
+     "category": "word_confusion",
+     "feedback": "Auguste est le fils adoptif de César : il lui succède mais n'est pas assassiné en 44."
+    },
+    {
+     "equals": "brutus",
+     "category": "word_confusion",
+     "feedback": "Brutus est l'un des conjurés qui assassinent César, pas la victime."
+    }
+   ],
+   "id": "cg.l01.e19"
+  },
+  {
+   "unitIds": [
+    "cg.g01.antiquite",
+    "cg.v.chute_empire_romain"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "En quelle année tombe l'Empire romain d'Occident ?",
+   "promptLanguage": "fr",
+   "answer": "476",
+   "acceptedAnswers": [
+    "476",
+    "en 476"
+   ],
+   "explanation": "En 476, Odoacre dépose Romulus Augustule, dernier empereur d'Occident. Cette date, par convention, ouvre le Moyen Âge.",
+   "tip": "Retiens 4-7-6 : quatre cent soixante-seize, le début du Moyen Âge.",
+   "extraExample": {
+    "text": "1453, la chute de Constantinople, est la fin de l'Empire d'Orient.",
+    "translation": "Près de mille ans séparent les deux dates."
+   },
+   "hint": "Cinquième siècle de notre ère.",
+   "errorPatterns": [
+    {
+     "equals": "395",
+     "category": "word_confusion",
+     "feedback": "395 est l'année du partage définitif de l'Empire entre Orient et Occident, pas de sa chute."
+    },
+    {
+     "equals": "410",
+     "category": "word_confusion",
+     "feedback": "410 est le sac de Rome par les Wisigoths d'Alaric, pas la chute de l'Empire."
+    }
+   ],
+   "id": "cg.l01.e20"
+  }
+ ]
+}

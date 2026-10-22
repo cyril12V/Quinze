@@ -1,0 +1,893 @@
+{
+ "lessonId": "cg.l33",
+ "exercises": [
+  {
+   "id": "cg.l33.e01",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.renaissance_artistique"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel pays naît la Renaissance artistique, au XVe siècle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Espagne",
+    "Les Pays-Bas",
+    "L'Italie",
+    "La France"
+   ],
+   "answer": "L'Italie",
+   "acceptedAnswers": [
+    "L'Italie"
+   ],
+   "explanation": "La Renaissance naît à Florence, en Toscane, au XVe siècle, grâce à des mécènes comme les Médicis. Elle gagne ensuite la France, notamment sous François Ier, puis le reste de l'Europe.",
+   "tip": "Renaissance = renaître de l'Antiquité, et l'Italie est le pays de Rome : c'est là que tout commence.",
+   "extraExample": {
+    "text": "François Ier invite Léonard de Vinci en France en 1516.",
+    "translation": "La Renaissance voyage d'Italie vers la France avec les artistes eux-mêmes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La France",
+     "category": "word_confusion",
+     "feedback": "La Renaissance arrive en France au XVIe siècle, avec François Ier, mais elle naît en Italie."
+    },
+    {
+     "equals": "Les Pays-Bas",
+     "category": "word_confusion",
+     "feedback": "Les Pays-Bas connaissent leur âge d'or au XVIIe siècle, avec Rembrandt et Vermeer."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e02",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.la_joconde",
+    "cg.v.leonard_de_vinci"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel tableau de Léonard de Vinci est exposé au musée du Louvre, à Paris ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Joconde",
+    "La Naissance de Vénus",
+    "La Cène",
+    "La Liberté guidant le peuple"
+   ],
+   "answer": "La Joconde",
+   "acceptedAnswers": [
+    "La Joconde"
+   ],
+   "explanation": "La Joconde, commencée vers 1503, est l'une des stars du Louvre. La Cène, autre chef-d'œuvre de Léonard, est une fresque peinte sur un mur de Milan : elle ne peut pas voyager.",
+   "tip": "Léonard = La Joconde (Paris) et La Cène (Milan).",
+   "extraExample": {
+    "text": "En 1911, La Joconde est volée au Louvre, puis retrouvée en Italie en 1913.",
+    "translation": "Ce vol l'a rendue célèbre dans le monde entier."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Cène",
+     "category": "word_confusion",
+     "feedback": "La Cène est bien de Léonard, mais c'est une fresque qui se trouve à Milan."
+    },
+    {
+     "equals": "La Naissance de Vénus",
+     "category": "word_confusion",
+     "feedback": "Ce tableau est de Botticelli et se trouve à Florence, à la galerie des Offices."
+    },
+    {
+     "equals": "La Liberté guidant le peuple",
+     "category": "word_confusion",
+     "feedback": "Elle est de Delacroix (1830) : elle est aussi au Louvre, mais ce n'est pas un Léonard."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e03",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.leonard_de_vinci",
+    "cg.v.michel_ange"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les grands artistes de la Renaissance italienne et leur œuvre-phare",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Léonard de Vinci",
+     "right": "La Cène"
+    },
+    {
+     "left": "Michel-Ange",
+     "right": "le plafond de la chapelle Sixtine"
+    },
+    {
+     "left": "Raphaël",
+     "right": "L'École d'Athènes"
+    },
+    {
+     "left": "Botticelli",
+     "right": "La Naissance de Vénus"
+    }
+   ],
+   "answer": "Léonard de Vinci = La Cène ; Michel-Ange = le plafond de la chapelle Sixtine ; Raphaël = L'École d'Athènes ; Botticelli = La Naissance de Vénus",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre artistes travaillent en Italie entre 1480 et 1520 environ. L'École d'Athènes de Raphaël et le plafond de Michel-Ange sont deux grands décors du Vatican.",
+   "tip": "Un artiste, une œuvre-phare : Léonard → La Cène, Michel-Ange → Sixtine, Raphaël → École d'Athènes, Botticelli → Vénus.",
+   "extraExample": {
+    "text": "Le Vatican conserve à la fois la chapelle Sixtine de Michel-Ange et les « Chambres » décorées par Raphaël.",
+    "translation": "Les deux artistes y ont travaillé à la même époque, pour le même pape, Jules II."
+   }
+  },
+  {
+   "id": "cg.l33.e04",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.perspective"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle technique de la Renaissance donne l'illusion de la profondeur grâce à des lignes qui convergent vers un point de fuite ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le sfumato",
+    "la fresque",
+    "le clair-obscur",
+    "la perspective"
+   ],
+   "answer": "la perspective",
+   "acceptedAnswers": [
+    "la perspective"
+   ],
+   "explanation": "La perspective linéaire, mise au point à Florence au début du XVe siècle, reproduit sur une surface plane la façon dont l'œil voit : plus un objet est loin, plus il est petit, et les parallèles se rejoignent à l'horizon.",
+   "tip": "Un point de fuite, c'est comme les rails d'un chemin de fer qui se rejoignent au loin.",
+   "extraExample": {
+    "text": "Dans L'École d'Athènes de Raphaël, les lignes du sol convergent vers le centre du tableau.",
+    "translation": "C'est un modèle de perspective à point de fuite unique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le sfumato",
+     "category": "word_confusion",
+     "feedback": "Le sfumato adoucit les contours (Léonard de Vinci) ; il ne construit pas la profondeur géométrique."
+    },
+    {
+     "equals": "le clair-obscur",
+     "category": "word_confusion",
+     "feedback": "Le clair-obscur joue sur l'ombre et la lumière (Caravage), pas sur les lignes de fuite."
+    },
+    {
+     "equals": "la fresque",
+     "category": "word_confusion",
+     "feedback": "La fresque est un procédé : peindre sur un mur d'enduit frais. Ce n'est pas une technique de profondeur."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e05",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.michel_ange"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui a peint le plafond de la chapelle Sixtine, au Vatican, entre 1508 et 1512 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Michel-Ange",
+    "Léonard de Vinci",
+    "Botticelli",
+    "Raphaël"
+   ],
+   "answer": "Michel-Ange",
+   "acceptedAnswers": [
+    "Michel-Ange"
+   ],
+   "explanation": "Le pape Jules II commande ce plafond à Michel-Ange, qui se disait sculpteur plus que peintre. Il y représente des scènes de la Genèse, dont La Création d'Adam.",
+   "tip": "Sixtine : Michel-Ange au plafond, d'autres peintres (dont Botticelli) sur les murs.",
+   "extraExample": {
+    "text": "Michel-Ange peint ensuite Le Jugement dernier sur le mur du fond de la chapelle, entre 1536 et 1541.",
+    "translation": "Le même artiste a donc décoré deux fois la chapelle, à près de trente ans d'écart."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Raphaël",
+     "category": "word_confusion",
+     "feedback": "Raphaël travaille au Vatican à la même époque, mais dans les « Chambres » du palais, pas à la chapelle Sixtine."
+    },
+    {
+     "equals": "Botticelli",
+     "category": "word_confusion",
+     "feedback": "Botticelli a peint des fresques sur les murs de la chapelle vers 1481-1482 ; le plafond, lui, est de Michel-Ange."
+    },
+    {
+     "equals": "Léonard de Vinci",
+     "category": "word_confusion",
+     "feedback": "Léonard de Vinci n'a pas travaillé à la chapelle Sixtine."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e06",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.clair_obscur",
+    "cg.v.baroque"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que désigne le clair-obscur, signature du Caravage et de Rembrandt ?",
+   "promptLanguage": "fr",
+   "options": [
+    "une peinture réalisée en plein air",
+    "un fort contraste entre ombre et lumière",
+    "un passage très doux, sans contour net",
+    "un tableau peint seulement en noir et blanc"
+   ],
+   "answer": "un fort contraste entre ombre et lumière",
+   "acceptedAnswers": [
+    "un fort contraste entre ombre et lumière"
+   ],
+   "explanation": "Dans un tableau en clair-obscur, une lumière vive fait surgir les personnages d'un fond sombre, comme un projecteur au théâtre. Cela donne du relief et du drame à la scène.",
+   "tip": "Clair-obscur = projecteur dans le noir ; sfumato = fumée douce.",
+   "extraExample": {
+    "text": "Dans La Vocation de saint Matthieu (vers 1600), un rayon de lumière désigne Matthieu parmi les personnages.",
+    "translation": "La lumière est ici un personnage à part entière de l'histoire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "un passage très doux, sans contour net",
+     "category": "word_confusion",
+     "feedback": "C'est le sfumato de Léonard de Vinci, presque l'inverse du contraste franc du clair-obscur."
+    },
+    {
+     "equals": "une peinture réalisée en plein air",
+     "category": "word_confusion",
+     "feedback": "Peindre en plein air est la marque des impressionnistes, plus de deux siècles plus tard."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e07",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.renaissance_artistique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Au XVe siècle, la famille de banquiers des ___ finance de nombreux artistes à Florence.",
+   "promptLanguage": "fr",
+   "options": [
+    "Borgia",
+    "Médicis",
+    "Habsbourg",
+    "Bourbons"
+   ],
+   "answer": "Médicis",
+   "acceptedAnswers": [
+    "Médicis"
+   ],
+   "explanation": "Les Médicis dirigent Florence et se comportent en mécènes : ils font travailler Botticelli, Donatello et le jeune Michel-Ange.",
+   "tip": "Un mécène finance les artistes ; celui de Florence, c'est la famille des Médicis.",
+   "extraExample": {
+    "text": "Laurent de Médicis, dit « le Magnifique », dirige Florence de 1469 à 1492.",
+    "translation": "C'est lui qui accueille le jeune Michel-Ange dans son palais."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Habsbourg",
+     "category": "word_confusion",
+     "feedback": "Les Habsbourg sont une dynastie d'Europe centrale (Autriche, puis Espagne), pas des banquiers florentins."
+    },
+    {
+     "equals": "Borgia",
+     "category": "word_confusion",
+     "feedback": "Les Borgia sont une famille liée à la papauté (Alexandre VI), à Rome."
+    },
+    {
+     "equals": "Bourbons",
+     "category": "word_confusion",
+     "feedback": "Les Bourbons sont une dynastie royale française, qui règne à partir de 1589."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e08",
+   "unitIds": [
+    "cg.v.amsterdam",
+    "cg.g33.mouvements_peinture",
+    "cg.v.clair_obscur"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Dans quelle capitale européenne est conservée La Ronde de nuit de Rembrandt, au Rijksmuseum ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Bruxelles",
+    "Amsterdam",
+    "Berne",
+    "Vienne"
+   ],
+   "answer": "Amsterdam",
+   "acceptedAnswers": [
+    "Amsterdam"
+   ],
+   "explanation": "Le Rijksmuseum, musée national des Pays-Bas, est à Amsterdam, où Rembrandt s'installe vers 1631. La Ronde de nuit (1642) est son tableau le plus célèbre.",
+   "tip": "Rembrandt, Vermeer, Van Gogh : trois géants à voir dans les musées d'Amsterdam.",
+   "extraExample": {
+    "text": "Le Rijksmuseum possède aussi La Laitière de Vermeer.",
+    "translation": "Amsterdam est la ville des grands peintres du Siècle d'or néerlandais."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Bruxelles",
+     "category": "word_confusion",
+     "feedback": "Bruxelles est la capitale de la Belgique : La Ronde de nuit est un tableau néerlandais, conservé aux Pays-Bas."
+    },
+    {
+     "equals": "Vienne",
+     "category": "word_confusion",
+     "feedback": "Vienne est la capitale de l'Autriche, ville de Klimt et de Mozart, pas de Rembrandt."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e09",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.la_joconde",
+    "cg.v.leonard_de_vinci"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : La Joconde.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "est",
+    "Vinci",
+    "au",
+    "de",
+    "La",
+    "de",
+    "Louvre",
+    "Léonard",
+    "exposée",
+    "Joconde"
+   ],
+   "answer": "La Joconde de Léonard de Vinci est exposée au Louvre",
+   "acceptedAnswers": [
+    "La Joconde de Léonard de Vinci est exposée au Louvre"
+   ],
+   "hint": "Commence par le titre du tableau.",
+   "explanation": "Le repère : La Joconde, Léonard de Vinci, Louvre. Le tableau est exposé à Paris.",
+   "tip": "Qui (Léonard), quoi (La Joconde), où (le Louvre).",
+   "extraExample": {
+    "text": "La Cène est peinte sur un mur du couvent Santa Maria delle Grazie, à Milan.",
+    "translation": "Les deux chefs-d'œuvre de Léonard se trouvent dans deux pays différents."
+   }
+  },
+  {
+   "id": "cg.l33.e10",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.romantisme"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le tableau « ___ » de Delacroix, peint en 1830, célèbre la révolution de Juillet.",
+   "promptLanguage": "fr",
+   "options": [
+    "La Ronde de nuit",
+    "Le Radeau de La Méduse",
+    "La Liberté guidant le peuple",
+    "Les Demoiselles d'Avignon"
+   ],
+   "answer": "La Liberté guidant le peuple",
+   "acceptedAnswers": [
+    "La Liberté guidant le peuple",
+    "Liberté guidant le peuple"
+   ],
+   "explanation": "La Liberté guidant le peuple montre une femme qui brandit le drapeau tricolore au-dessus des barricades de Paris, pendant les Trois Glorieuses de juillet 1830. Le tableau est exposé au Louvre.",
+   "tip": "Delacroix = le drapeau tricolore sur les barricades.",
+   "extraExample": {
+    "text": "Le Radeau de La Méduse, de Géricault, montre au contraire des naufragés à la dérive.",
+    "translation": "Ces deux tableaux sont des chefs-d'œuvre du romantisme français."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Radeau de La Méduse",
+     "category": "word_confusion",
+     "feedback": "Le Radeau de La Méduse est de Géricault (1819), pas de Delacroix."
+    },
+    {
+     "equals": "La Ronde de nuit",
+     "category": "word_confusion",
+     "feedback": "La Ronde de nuit est de Rembrandt (1642), un tableau baroque du Siècle d'or néerlandais."
+    },
+    {
+     "equals": "Les Demoiselles d'Avignon",
+     "category": "word_confusion",
+     "feedback": "Les Demoiselles d'Avignon sont de Picasso (1907), un siècle après le romantisme."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e11",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.claude_monet",
+    "cg.v.impressionnisme"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel tableau de Claude Monet a donné son nom à l'impressionnisme ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Nymphéas",
+    "Impression, soleil levant",
+    "Les Coquelicots",
+    "La Cathédrale de Rouen"
+   ],
+   "answer": "Impression, soleil levant",
+   "acceptedAnswers": [
+    "Impression, soleil levant"
+   ],
+   "explanation": "Monet peint Impression, soleil levant en 1872 : le port du Havre dans la brume du matin. Exposé en 1874, il inspire au critique Louis Leroy un article moqueur sur les « impressionnistes », mot que le groupe adopte ensuite.",
+   "tip": "Le nom du mouvement est le titre d'un tableau : Impression, soleil levant.",
+   "extraExample": {
+    "text": "Le tableau est aujourd'hui conservé au musée Marmottan Monet, à Paris.",
+    "translation": "On peut donc voir à Paris l'œuvre qui a donné son nom au mouvement."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les Nymphéas",
+     "category": "word_confusion",
+     "feedback": "Les Nymphéas sont une série bien plus tardive de Monet (à partir de la fin des années 1890)."
+    },
+    {
+     "equals": "La Cathédrale de Rouen",
+     "category": "word_confusion",
+     "feedback": "La Cathédrale de Rouen est une série peinte dans les années 1890, après la naissance du mouvement."
+    },
+    {
+     "equals": "Les Coquelicots",
+     "category": "word_confusion",
+     "feedback": "Les Coquelicots (1873) sont bien de Monet, mais ce n'est pas ce tableau qui a donné son nom au groupe."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e12",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.impressionnisme"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les impressionnistes organisent leur première exposition collective à Paris en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1789",
+    "1830",
+    "1874",
+    "1905"
+   ],
+   "answer": "1874",
+   "acceptedAnswers": [
+    "1874"
+   ],
+   "explanation": "Refusés par le Salon officiel, passage obligé pour réussir à l'époque, une trentaine d'artistes exposent par leurs propres moyens en avril 1874, dans l'ancien atelier du photographe Nadar.",
+   "tip": "1874 : l'année où les « refusés » deviennent un mouvement.",
+   "extraExample": {
+    "text": "Le groupe organise huit expositions entre 1874 et 1886.",
+    "translation": "Le mouvement existe donc comme groupe pendant un peu plus de dix ans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1830",
+     "category": "word_confusion",
+     "feedback": "1830, c'est le romantisme de Delacroix (La Liberté guidant le peuple)."
+    },
+    {
+     "equals": "1905",
+     "category": "word_confusion",
+     "feedback": "1905 est l'année du fauvisme (Matisse, Derain), une autre révolution de la peinture."
+    },
+    {
+     "equals": "1789",
+     "category": "word_confusion",
+     "feedback": "1789 est le début de la Révolution française, bien avant l'impressionnisme."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e13",
+   "unitIds": [
+    "cg.v.squelette",
+    "cg.g33.mouvements_peinture",
+    "cg.v.leonard_de_vinci"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — L'Homme de Vitruve de Léonard étudie les proportions du corps humain. Un adulte compte ___ os.",
+   "promptLanguage": "fr",
+   "options": [
+    "106",
+    "206",
+    "306",
+    "406"
+   ],
+   "answer": "206",
+   "acceptedAnswers": [
+    "206"
+   ],
+   "explanation": "Un adulte a 206 os ; un nouveau-né en a davantage, car certains se soudent en grandissant. Léonard a disséqué des corps pour dessiner l'anatomie avec précision.",
+   "tip": "206 os : le chiffre à retenir de la leçon sur le corps humain.",
+   "extraExample": {
+    "text": "Les carnets de Léonard contiennent de nombreux dessins anatomiques du cœur, des muscles et du fœtus.",
+    "translation": "Il est l'un des pionniers de l'illustration scientifique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "306",
+     "category": "word_confusion",
+     "feedback": "Un nouveau-né a environ 300 os, mais un adulte en a 206 : certains os se soudent avec l'âge."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e14",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.romantisme"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel peintre romantique expose en 1819 Le Radeau de La Méduse, inspiré d'un naufrage récent ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Delacroix",
+    "Ingres",
+    "Géricault",
+    "Courbet"
+   ],
+   "answer": "Géricault",
+   "acceptedAnswers": [
+    "Géricault"
+   ],
+   "explanation": "La frégate La Méduse s'échoue en 1816 au large de l'Afrique de l'Ouest ; des naufragés dérivent treize jours sur un radeau. Géricault transforme ce scandale d'actualité en un immense tableau.",
+   "tip": "Géricault = radeau (1819) ; Delacroix = barricades (1830).",
+   "extraExample": {
+    "text": "Pour préparer son tableau, Géricault a rencontré des survivants et étudié des cadavres.",
+    "translation": "Il voulait un réalisme saisissant, très éloigné de l'idéal classique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Delacroix",
+     "category": "word_confusion",
+     "feedback": "Delacroix est l'autre grand romantique français, mais son tableau célèbre est La Liberté guidant le peuple (1830)."
+    },
+    {
+     "equals": "Courbet",
+     "category": "word_confusion",
+     "feedback": "Courbet est le chef de file du réalisme, vers 1850."
+    },
+    {
+     "equals": "Ingres",
+     "category": "word_confusion",
+     "feedback": "Ingres défend l'idéal classique : c'est le grand rival des romantiques."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e15",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.baroque",
+    "cg.v.romantisme",
+    "cg.v.impressionnisme"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Peintres et mouvements",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Le Caravage",
+     "right": "le baroque"
+    },
+    {
+     "left": "Delacroix",
+     "right": "le romantisme"
+    },
+    {
+     "left": "Monet",
+     "right": "l'impressionnisme"
+    },
+    {
+     "left": "Raphaël",
+     "right": "la Renaissance"
+    }
+   ],
+   "answer": "Le Caravage = le baroque ; Delacroix = le romantisme ; Monet = l'impressionnisme ; Raphaël = la Renaissance",
+   "acceptedAnswers": [],
+   "explanation": "Du XVIe au XIXe siècle, chaque époque a son style : la Renaissance (Raphaël), le baroque (Caravage, vers 1600), le romantisme (Delacroix, vers 1830) et l'impressionnisme (Monet, à partir de 1874).",
+   "tip": "Mets-les dans l'ordre du temps : Renaissance, baroque, romantisme, impressionnisme.",
+   "extraExample": {
+    "text": "Rembrandt et Rubens appartiennent aussi à la peinture baroque du XVIIe siècle.",
+    "translation": "Ils sont les contemporains du Caravage, quelques décennies plus tard."
+   }
+  },
+  {
+   "id": "cg.l33.e16",
+   "unitIds": [
+    "cg.v.nicolas_copernic",
+    "cg.g33.mouvements_peinture",
+    "cg.v.renaissance_artistique"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel astronome de la Renaissance publie en 1543 une théorie plaçant le Soleil, et non la Terre, au centre du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Charles Darwin",
+    "Galilée",
+    "Nicolas Copernic",
+    "Isaac Newton"
+   ],
+   "answer": "Nicolas Copernic",
+   "acceptedAnswers": [
+    "Nicolas Copernic"
+   ],
+   "explanation": "Nicolas Copernic publie De revolutionibus en 1543, l'année de sa mort. Galilée défendra cette idée avec sa lunette au début du XVIIe siècle.",
+   "tip": "La Renaissance change aussi le ciel : Copernic (1543), puis Galilée (1610).",
+   "extraExample": {
+    "text": "1543 est aussi l'année du traité d'anatomie de Vésale, De humani corporis fabrica.",
+    "translation": "La même année paraissent deux livres qui bouleversent la vision du ciel et du corps."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Galilée",
+     "category": "word_confusion",
+     "feedback": "Galilée (1564-1642) vient après : en 1610, sa lunette confirme l'idée de Copernic."
+    },
+    {
+     "equals": "Isaac Newton",
+     "category": "word_confusion",
+     "feedback": "Newton publie sa loi de la gravitation en 1687, près d'un siècle et demi plus tard."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e17",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.claude_monet"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel peintre français, installé à Giverny, a peint la série des Nymphéas ?",
+   "promptLanguage": "fr",
+   "answer": "Claude Monet",
+   "acceptedAnswers": [
+    "Claude Monet",
+    "Monet",
+    "Oscar-Claude Monet"
+   ],
+   "explanation": "Monet s'installe à Giverny en 1883 et y crée un jardin d'eau, qui lui inspire les Nymphéas pendant près de trente ans, jusqu'à sa mort en 1926.",
+   "tip": "Giverny = Monet ; son jardin se visite encore aujourd'hui.",
+   "extraExample": {
+    "text": "Les grands panneaux des Nymphéas sont exposés au musée de l'Orangerie, à Paris.",
+    "translation": "Monet les a offerts à l'État français."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Renoir",
+     "category": "word_confusion",
+     "feedback": "Renoir est aussi impressionniste (Le Bal du moulin de la Galette), mais il n'a pas peint les Nymphéas."
+    },
+    {
+     "equals": "Manet",
+     "category": "word_confusion",
+     "feedback": "Manet est un précurseur des impressionnistes (Olympia, 1865), pas l'auteur des Nymphéas."
+    },
+    {
+     "equals": "Édouard Manet",
+     "category": "word_confusion",
+     "feedback": "Manet est un précurseur des impressionnistes (Olympia, 1865), pas l'auteur des Nymphéas."
+    },
+    {
+     "equals": "Auguste Renoir",
+     "category": "word_confusion",
+     "feedback": "Renoir est aussi impressionniste (Le Bal du moulin de la Galette), mais il n'a pas peint les Nymphéas."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e18",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.baroque"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le style du XVIIe siècle, né à Rome, qui aime le mouvement, l'émotion et les contrastes, avec le Caravage et Rubens ?",
+   "promptLanguage": "fr",
+   "answer": "le baroque",
+   "acceptedAnswers": [
+    "le baroque",
+    "baroque",
+    "l'art baroque",
+    "art baroque",
+    "style baroque"
+   ],
+   "explanation": "Le baroque naît à Rome vers 1600 et domine le XVIIe siècle. Il veut impressionner : lignes courbes, mouvement, mises en scène théâtrales et lumière dramatique.",
+   "tip": "Baroque = théâtre : tout bouge, tout est dramatique.",
+   "extraExample": {
+    "text": "En musique aussi, on parle de période baroque pour Vivaldi, Bach et Haendel.",
+    "translation": "Le mot désigne donc un style qui dépasse la peinture."
+   },
+   "errorPatterns": [
+    {
+     "equals": "classicisme",
+     "category": "word_confusion",
+     "feedback": "Le classicisme recherche l'ordre et la mesure : c'est presque l'opposé du baroque."
+    },
+    {
+     "equals": "le classicisme",
+     "category": "word_confusion",
+     "feedback": "Le classicisme recherche l'ordre et la mesure : c'est presque l'opposé du baroque."
+    },
+    {
+     "equals": "la Renaissance",
+     "category": "word_confusion",
+     "feedback": "La Renaissance précède le baroque (XVe-XVIe siècles) ; le baroque domine le XVIIe siècle."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e19",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.impressionnisme"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'impressionnisme.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "la",
+    "fois",
+    "en",
+    "exposent",
+    "1874",
+    "Les",
+    "Paris",
+    "pour",
+    "à",
+    "impressionnistes",
+    "première"
+   ],
+   "answer": "Les impressionnistes exposent pour la première fois à Paris en 1874",
+   "acceptedAnswers": [
+    "Les impressionnistes exposent pour la première fois à Paris en 1874",
+    "En 1874 les impressionnistes exposent pour la première fois à Paris"
+   ],
+   "hint": "La date peut être au début ou à la fin.",
+   "explanation": "Le repère : 1874, première exposition des impressionnistes, à Paris, chez Nadar.",
+   "tip": "Qui (les impressionnistes), quoi (exposent), où (Paris), quand (1874).",
+   "extraExample": {
+    "text": "Le critique Louis Leroy se moque de cette exposition dans le journal Le Charivari.",
+    "translation": "Son article donne au mouvement le nom qu'il garde aujourd'hui."
+   }
+  },
+  {
+   "id": "cg.l33.e20",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.michel_ange"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel artiste italien a sculpté le David (1501-1504) et peint le plafond de la chapelle Sixtine ?",
+   "promptLanguage": "fr",
+   "answer": "Michel-Ange",
+   "acceptedAnswers": [
+    "Michel-Ange",
+    "Michelange",
+    "Michel Ange",
+    "Michelangelo",
+    "Michelangelo Buonarroti"
+   ],
+   "explanation": "Michel-Ange sculpte le David de Florence, une statue de marbre haute d'environ 5 mètres, puis peint la Sixtine à Rome pour le pape Jules II : sculpteur, peintre et architecte à la fois.",
+   "tip": "Un seul artiste pour deux chefs-d'œuvre : le David (marbre) et la Sixtine (fresques).",
+   "extraExample": {
+    "text": "Le David de Michel-Ange est exposé à la Galerie de l'Académie de Florence.",
+    "translation": "Une copie est placée sur la place de la Seigneurie, à l'endroit où se dressait l'original."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Léonard de Vinci",
+     "category": "word_confusion",
+     "feedback": "Léonard de Vinci est le peintre de La Joconde et de La Cène ; le David de marbre est de Michel-Ange."
+    },
+    {
+     "equals": "Léonard",
+     "category": "word_confusion",
+     "feedback": "Léonard de Vinci est le peintre de La Joconde et de La Cène ; le David de marbre est de Michel-Ange."
+    },
+    {
+     "equals": "Donatello",
+     "category": "word_confusion",
+     "feedback": "Donatello a bien sculpté un David, en bronze, au XVe siècle ; celui de 1501-1504, en marbre, est de Michel-Ange."
+    }
+   ]
+  },
+  {
+   "id": "cg.l33.e21",
+   "unitIds": [
+    "cg.g33.mouvements_peinture",
+    "cg.v.leonard_de_vinci",
+    "cg.v.la_joconde"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel mot désigne la technique de Léonard de Vinci qui adoucit les contours, comme dans le sourire de La Joconde ?",
+   "promptLanguage": "fr",
+   "answer": "le sfumato",
+   "acceptedAnswers": [
+    "le sfumato",
+    "sfumato",
+    "un sfumato"
+   ],
+   "explanation": "Le sfumato (de l'italien fumo, « fumée ») est un modelé tout en douceur, sans contour dur. Il donne au sourire de La Joconde son aspect insaisissable.",
+   "tip": "Sfumato = comme dans la fumée : les limites se fondent.",
+   "extraExample": {
+    "text": "Léonard étalait de très fines couches de peinture transparente pour obtenir ce fondu.",
+    "translation": "Cela demandait une grande patience : il travaillait sur certains tableaux pendant des années."
+   },
+   "errorPatterns": [
+    {
+     "equals": "clair-obscur",
+     "category": "word_confusion",
+     "feedback": "Le clair-obscur est un contraste franc entre ombre et lumière (Caravage) ; le sfumato est un fondu doux."
+    },
+    {
+     "equals": "le clair-obscur",
+     "category": "word_confusion",
+     "feedback": "Le clair-obscur est un contraste franc entre ombre et lumière (Caravage) ; le sfumato est un fondu doux."
+    },
+    {
+     "equals": "perspective",
+     "category": "word_confusion",
+     "feedback": "La perspective crée la profondeur ; le sfumato adoucit les contours."
+    }
+   ]
+  }
+ ]
+}

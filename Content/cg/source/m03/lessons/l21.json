@@ -1,0 +1,972 @@
+{
+ "lessonId": "cg.l21",
+ "exercises": [
+  {
+   "id": "cg.l21.e01",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.systeme_solaire"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de planètes compte le système solaire ?",
+   "promptLanguage": "fr",
+   "options": [
+    "8",
+    "7",
+    "9",
+    "10"
+   ],
+   "answer": "8",
+   "acceptedAnswers": [
+    "8"
+   ],
+   "explanation": "Le système solaire compte huit planètes : Mercure, Vénus, la Terre, Mars, Jupiter, Saturne, Uranus et Neptune. Depuis 2006, Pluton n'est plus une planète mais une planète naine.",
+   "tip": "Huit planètes depuis 2006 : Pluton a été « rétrogradée ».",
+   "extraExample": {
+    "text": "Les quatre premières planètes (Mercure, Vénus, la Terre, Mars) sont rocheuses.",
+    "translation": "Jupiter, Saturne, Uranus et Neptune sont des planètes géantes, gazeuses ou glacées."
+   },
+   "errorPatterns": [
+    {
+     "equals": "9",
+     "category": "word_confusion",
+     "feedback": "Neuf planètes, c'était avant 2006 : Pluton a alors été reclassée parmi les planètes naines."
+    },
+    {
+     "equals": "7",
+     "category": "word_confusion",
+     "feedback": "Il y en a une de plus : huit en tout, de Mercure à Neptune."
+    },
+    {
+     "equals": "10",
+     "category": "word_confusion",
+     "feedback": "Il n'y en a pas autant : huit planètes seulement, de Mercure à Neptune."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e02",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.systeme_solaire"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les planètes et leur particularité",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Mercure",
+     "right": "la plus proche du Soleil"
+    },
+    {
+     "left": "Vénus",
+     "right": "la plus chaude de toutes"
+    },
+    {
+     "left": "Mars",
+     "right": "la planète rouge"
+    },
+    {
+     "left": "Jupiter",
+     "right": "la plus grande planète"
+    },
+    {
+     "left": "Saturne",
+     "right": "célèbre pour ses anneaux"
+    }
+   ],
+   "answer": "Mercure = la plus proche du Soleil ; Vénus = la plus chaude de toutes ; Mars = la planète rouge ; Jupiter = la plus grande planète ; Saturne = célèbre pour ses anneaux",
+   "acceptedAnswers": [],
+   "explanation": "Mercure est la plus proche du Soleil, mais Vénus est la plus chaude : son atmosphère épaisse de CO₂ crée un effet de serre extrême (environ 460 °C). Mars est rouge à cause de l'oxyde de fer de son sol, Jupiter est la plus grande des planètes (on pourrait y faire entrer plus de 1 000 Terres) et Saturne la plus célèbre pour ses anneaux.",
+   "tip": "Mars = rouille, Vénus = four, Jupiter = géante, Saturne = anneaux.",
+   "extraExample": {
+    "text": "Neptune est la planète la plus éloignée du Soleil.",
+    "translation": "Elle met environ 165 ans pour en faire le tour."
+   }
+  },
+  {
+   "id": "cg.l21.e03",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.spoutnik_1"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pays lance le premier satellite artificiel, Spoutnik 1, le 4 octobre 1957 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'URSS",
+    "Les États-Unis",
+    "La France",
+    "La Chine"
+   ],
+   "answer": "L'URSS",
+   "acceptedAnswers": [
+    "L'URSS"
+   ],
+   "explanation": "En pleine guerre froide, l'URSS (Union soviétique) met Spoutnik 1 en orbite le 4 octobre 1957. Les Américains, surpris, ne lancent leur premier satellite, Explorer 1, qu'en janvier 1958.",
+   "tip": "URSS, 1957, « bip-bip » : Spoutnik prend les États-Unis de court.",
+   "extraExample": {
+    "text": "Le premier satellite américain, Explorer 1, est lancé le 31 janvier 1958.",
+    "translation": "Il découvre les ceintures de radiations qui entourent la Terre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les États-Unis",
+     "category": "word_confusion",
+     "feedback": "Les États-Unis ont réagi : leur premier satellite, Explorer 1, n'est lancé qu'en janvier 1958."
+    },
+    {
+     "equals": "La France",
+     "category": "word_confusion",
+     "feedback": "La France devient la troisième puissance spatiale en 1965 avec le satellite Astérix, bien après 1957."
+    },
+    {
+     "equals": "La Chine",
+     "category": "word_confusion",
+     "feedback": "Le premier satellite chinois date de 1970."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e04",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.youri_gagarine"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui devient, le 12 avril 1961, le premier homme dans l'espace ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Youri Gagarine",
+    "Neil Armstrong",
+    "Alan Shepard",
+    "Alexeï Leonov"
+   ],
+   "answer": "Youri Gagarine",
+   "acceptedAnswers": [
+    "Youri Gagarine"
+   ],
+   "explanation": "Le cosmonaute soviétique Youri Gagarine fait un tour de la Terre à bord de Vostok 1, en environ 1 h 48. Il devance de quelques semaines le premier Américain dans l'espace.",
+   "tip": "1961 = Gagarine, 1969 = Armstrong : la Lune vient huit ans plus tard.",
+   "extraExample": {
+    "text": "En 1963, Valentina Terechkova devient la première femme dans l'espace.",
+    "translation": "L'URSS mène la course à l'espace jusqu'au milieu des années 1960."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Neil Armstrong",
+     "category": "word_confusion",
+     "feedback": "Neil Armstrong est le premier homme sur la Lune, en 1969, huit ans plus tard."
+    },
+    {
+     "equals": "Alan Shepard",
+     "category": "word_confusion",
+     "feedback": "Alan Shepard est le premier Américain dans l'espace (mai 1961), pour un vol d'une quinzaine de minutes, après Gagarine."
+    },
+    {
+     "equals": "Alexeï Leonov",
+     "category": "word_confusion",
+     "feedback": "Alexeï Leonov réalise la première sortie dans l'espace, en 1965."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e05",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.nicolas_copernic"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel astronome polonais replace le Soleil au centre du système, dans un livre publié en 1543 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Nicolas Copernic",
+    "Ptolémée",
+    "Galilée",
+    "Isaac Newton"
+   ],
+   "answer": "Nicolas Copernic",
+   "acceptedAnswers": [
+    "Nicolas Copernic"
+   ],
+   "explanation": "Nicolas Copernic propose que la Terre et les planètes tournent autour du Soleil (héliocentrisme), contre le modèle de Ptolémée qui plaçait la Terre immobile au centre. Son livre paraît en 1543, l'année de sa mort.",
+   "tip": "Copernic = Soleil au centre : c'est la « révolution copernicienne ».",
+   "extraExample": {
+    "text": "On parle de « révolution copernicienne » pour désigner un changement radical de point de vue.",
+    "translation": "L'expression vient du bouleversement causé par son modèle du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Ptolémée",
+     "category": "word_confusion",
+     "feedback": "Ptolémée (IIe siècle) défendait l'inverse : la Terre immobile au centre (géocentrisme)."
+    },
+    {
+     "equals": "Galilée",
+     "category": "word_confusion",
+     "feedback": "Galilée a défendu les idées de Copernic avec sa lunette au début du XVIIe siècle, mais elles ne sont pas de lui."
+    },
+    {
+     "equals": "Isaac Newton",
+     "category": "word_confusion",
+     "feedback": "Newton explique le mouvement des planètes par la gravitation en 1687, bien après Copernic."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e06",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.annee_lumiere"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Une année-lumière est une unité de…",
+   "promptLanguage": "fr",
+   "options": [
+    "distance",
+    "temps",
+    "vitesse",
+    "masse"
+   ],
+   "answer": "distance",
+   "acceptedAnswers": [
+    "distance"
+   ],
+   "explanation": "L'année-lumière est la distance que parcourt la lumière en un an, soit environ 9 500 milliards de kilomètres. Malgré le mot « année », ce n'est pas une durée.",
+   "tip": "Année-lumière = un trajet, pas une durée.",
+   "extraExample": {
+    "text": "La galaxie d'Andromède est à environ 2,5 millions d'années-lumière.",
+    "translation": "La lumière que nous en recevons est partie il y a 2,5 millions d'années."
+   },
+   "errorPatterns": [
+    {
+     "equals": "temps",
+     "category": "word_confusion",
+     "feedback": "C'est l'erreur classique : le mot « année » trompe. L'année-lumière mesure une distance, celle que la lumière parcourt en un an."
+    },
+    {
+     "equals": "vitesse",
+     "category": "word_confusion",
+     "feedback": "La vitesse de la lumière (environ 300 000 km/s) est une autre notion ; l'année-lumière est la distance qu'elle parcourt en un an."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e07",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.systeme_solaire",
+    "cg.v.voie_lactee",
+    "cg.v.etoile",
+    "cg.v.annee_lumiere",
+    "cg.v.big_bang"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots de l'espace et leur définition",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "le système solaire",
+     "right": "le Soleil et tout ce qui tourne autour de lui"
+    },
+    {
+     "left": "la Voie lactée",
+     "right": "notre galaxie, avec des centaines de milliards d'étoiles"
+    },
+    {
+     "left": "une étoile",
+     "right": "boule de gaz qui produit sa propre lumière"
+    },
+    {
+     "left": "l'année-lumière",
+     "right": "distance parcourue par la lumière en un an"
+    },
+    {
+     "left": "le Big Bang",
+     "right": "naissance de l'Univers, il y a environ 13,8 milliards d'années"
+    }
+   ],
+   "answer": "le système solaire = le Soleil et tout ce qui tourne autour de lui ; la Voie lactée = notre galaxie, avec des centaines de milliards d'étoiles ; une étoile = boule de gaz qui produit sa propre lumière ; l'année-lumière = distance parcourue par la lumière en un an ; le Big Bang = naissance de l'Univers, il y a environ 13,8 milliards d'années",
+   "acceptedAnswers": [],
+   "explanation": "Le Soleil est une étoile parmi des centaines de milliards dans la Voie lactée, notre galaxie. L'Univers compte lui-même des milliards de galaxies, et il est né du Big Bang il y a environ 13,8 milliards d'années.",
+   "tip": "Les poupées russes de l'espace : planète → système solaire → galaxie → Univers.",
+   "extraExample": {
+    "text": "La Voie lactée est une galaxie spirale ; le système solaire se trouve dans l'un de ses bras.",
+    "translation": "Au centre de notre galaxie se trouve un trou noir supermassif, Sagittarius A*."
+   }
+  },
+  {
+   "id": "cg.l21.e08",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.nicolas_copernic",
+    "cg.v.spoutnik_1",
+    "cg.v.youri_gagarine",
+    "cg.v.apollo_11"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les grandes dates de l'espace",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1543",
+     "right": "Copernic place le Soleil au centre"
+    },
+    {
+     "left": "1957",
+     "right": "Spoutnik 1, premier satellite artificiel"
+    },
+    {
+     "left": "1961",
+     "right": "Gagarine, premier homme dans l'espace"
+    },
+    {
+     "left": "1963",
+     "right": "Terechkova, première femme dans l'espace"
+    },
+    {
+     "left": "1969",
+     "right": "Apollo 11 : premiers pas sur la Lune"
+    }
+   ],
+   "answer": "1543 = Copernic place le Soleil au centre ; 1957 = Spoutnik 1, premier satellite artificiel ; 1961 = Gagarine, premier homme dans l'espace ; 1963 = Terechkova, première femme dans l'espace ; 1969 = Apollo 11 : premiers pas sur la Lune",
+   "acceptedAnswers": [],
+   "explanation": "Après Copernic (1543), tout s'accélère au XXe siècle : l'URSS prend d'abord de l'avance (satellite en 1957, homme en 1961, femme en 1963), puis les États-Unis posent le pied sur la Lune en 1969.",
+   "tip": "L'URSS est première trois fois (1957, 1961, 1963) ; les États-Unis gagnent la Lune en 1969.",
+   "extraExample": {
+    "text": "Douze astronautes, tous américains, ont marché sur la Lune entre 1969 et 1972.",
+    "translation": "Depuis Apollo 17 (décembre 1972), personne n'y est retourné."
+   }
+  },
+  {
+   "id": "cg.l21.e09",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.gravitation"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quelle force maintient la Lune en orbite autour de la Terre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la gravitation",
+    "le magnétisme terrestre",
+    "le vent solaire"
+   ],
+   "answer": "la gravitation",
+   "acceptedAnswers": [
+    "la gravitation"
+   ],
+   "explanation": "La gravitation attire toutes les masses les unes vers les autres. Celle de la Terre retient la Lune, qui reste en orbite au lieu de s'éloigner en ligne droite.",
+   "tip": "La même force fait tomber la pomme et tourner la Lune : la gravitation.",
+   "extraExample": {
+    "text": "Newton montre en 1687 que la force qui fait tomber les objets sur Terre est la même que celle qui retient la Lune.",
+    "translation": "C'est pour cela qu'on parle de gravitation universelle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le magnétisme terrestre",
+     "category": "word_confusion",
+     "feedback": "Le magnétisme agit sur certains métaux et sur les boussoles ; ce n'est pas lui qui retient la Lune. C'est la gravitation."
+    },
+    {
+     "equals": "le vent solaire",
+     "category": "word_confusion",
+     "feedback": "Le vent solaire est un flux de particules venu du Soleil ; il ne retient pas la Lune, c'est la gravitation qui le fait."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e10",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.apollo_11"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En juillet 1969, la mission américaine ___ pose les premiers hommes sur la Lune.",
+   "promptLanguage": "fr",
+   "options": [
+    "Apollo 11",
+    "Apollo 13",
+    "Vostok 1",
+    "Spoutnik 1"
+   ],
+   "answer": "Apollo 11",
+   "acceptedAnswers": [
+    "Apollo 11",
+    "Apollo XI"
+   ],
+   "explanation": "Apollo 11 est lancée le 16 juillet 1969 ; le module lunaire Eagle se pose le 20 juillet dans la mer de la Tranquillité. Armstrong et Aldrin descendent, Collins reste en orbite.",
+   "tip": "Apollo 11 : la mission du « petit pas ». Apollo 13 est celle de l'explosion à bord, en 1970.",
+   "extraExample": {
+    "text": "Apollo 13, en avril 1970, devait se poser sur la Lune mais doit faire demi-tour après l'explosion d'un réservoir d'oxygène.",
+    "translation": "L'équipage revient sain et sauf sur Terre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Apollo 13",
+     "category": "word_confusion",
+     "feedback": "Apollo 13 (1970) devait se poser sur la Lune mais a dû faire demi-tour après une explosion à bord."
+    },
+    {
+     "equals": "Vostok 1",
+     "category": "word_confusion",
+     "feedback": "Vostok 1 est le vaisseau de Gagarine, en 1961, autour de la Terre."
+    },
+    {
+     "equals": "Spoutnik 1",
+     "category": "word_confusion",
+     "feedback": "Spoutnik 1 est un satellite sans équipage, lancé en 1957."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e11",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.big_bang"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que décrit le Big Bang ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'expansion de l'Univers à partir d'un état très chaud et très dense",
+    "Une explosion en un point d'un espace déjà vide",
+    "La mort d'une étoile géante, une supernova"
+   ],
+   "answer": "L'expansion de l'Univers à partir d'un état très chaud et très dense",
+   "acceptedAnswers": [
+    "L'expansion de l'Univers à partir d'un état très chaud et très dense"
+   ],
+   "explanation": "Le Big Bang n'est pas une explosion dans l'espace : c'est l'espace lui-même qui se dilate depuis un état très chaud et très dense, il y a environ 13,8 milliards d'années.",
+   "tip": "Pas une explosion « dans » l'espace, mais l'expansion « de » l'espace.",
+   "extraExample": {
+    "text": "Dès 1927, le prêtre et physicien belge Georges Lemaître propose que l'Univers est en expansion.",
+    "translation": "L'astronome américain Edwin Hubble le confirme avec ses observations en 1929."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Une explosion en un point d'un espace déjà vide",
+     "category": "word_confusion",
+     "feedback": "C'est l'idée reçue : le Big Bang ne s'est pas produit en un point de l'espace ; c'est l'espace lui-même qui s'est dilaté."
+    },
+    {
+     "equals": "La mort d'une étoile géante, une supernova",
+     "category": "word_confusion",
+     "feedback": "Une supernova est la mort d'une étoile massive, un phénomène bien plus tardif et local."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e12",
+   "unitIds": [
+    "cg.g21.espace"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi fait-il plus chaud en été qu'en hiver dans l'hémisphère Nord ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Parce que l'axe de la Terre est incliné : le Soleil monte plus haut dans le ciel et les jours sont plus longs",
+    "Parce que la Terre est plus proche du Soleil en été",
+    "Parce que le Soleil rayonne davantage en été"
+   ],
+   "answer": "Parce que l'axe de la Terre est incliné : le Soleil monte plus haut dans le ciel et les jours sont plus longs",
+   "acceptedAnswers": [
+    "Parce que l'axe de la Terre est incliné : le Soleil monte plus haut dans le ciel et les jours sont plus longs"
+   ],
+   "explanation": "Les saisons viennent de l'inclinaison de l'axe de la Terre (environ 23°), pas de la distance au Soleil. En été, l'hémisphère Nord est penché vers le Soleil : ses rayons arrivent plus directement et les jours sont plus longs.",
+   "tip": "Saisons = inclinaison, pas distance.",
+   "extraExample": {
+    "text": "La Terre est au plus près du Soleil début janvier, en plein hiver dans l'hémisphère Nord.",
+    "translation": "À ce moment-là, c'est l'été en Australie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Parce que la Terre est plus proche du Soleil en été",
+     "category": "word_confusion",
+     "feedback": "C'est l'erreur la plus courante : la Terre est au contraire au plus près du Soleil début janvier, en plein hiver au Nord."
+    },
+    {
+     "equals": "Parce que le Soleil rayonne davantage en été",
+     "category": "word_confusion",
+     "feedback": "Le Soleil rayonne de façon quasi constante toute l'année ; c'est l'inclinaison de la Terre qui change l'éclairement."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e13",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.big_bang"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Big Bang a eu lieu il y a environ ___ milliards d'années.",
+   "promptLanguage": "fr",
+   "options": [
+    "4,6",
+    "13,8",
+    "50",
+    "100"
+   ],
+   "answer": "13,8",
+   "acceptedAnswers": [
+    "13,8",
+    "13.8"
+   ],
+   "explanation": "Les mesures actuelles donnent à l'Univers un âge d'environ 13,8 milliards d'années. Le système solaire, lui, est bien plus jeune : environ 4,6 milliards d'années.",
+   "tip": "Univers : 13,8 milliards d'années ; Soleil et Terre : environ 4,6.",
+   "extraExample": {
+    "text": "La Terre est âgée d'environ 4,5 milliards d'années.",
+    "translation": "Elle se forme avec le reste du système solaire, quand l'Univers a déjà plus de 9 milliards d'années."
+   },
+   "errorPatterns": [
+    {
+     "equals": "4,6",
+     "category": "word_confusion",
+     "feedback": "4,6 milliards d'années, c'est l'âge du système solaire, pas celui de l'Univers."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e14",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.annee_lumiere",
+    "cg.v.etoile"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'étoile la plus proche du Soleil, Proxima du Centaure, est à environ ___ années-lumière.",
+   "promptLanguage": "fr",
+   "options": [
+    "0,4",
+    "4,2",
+    "42",
+    "420"
+   ],
+   "answer": "4,2",
+   "acceptedAnswers": [
+    "4,2",
+    "4.2"
+   ],
+   "explanation": "Proxima du Centaure est à environ 4,2 années-lumière : sa lumière met plus de quatre ans à nous parvenir. En kilomètres, cela fait environ 40 000 milliards, une distance immense à l'échelle humaine.",
+   "tip": "Même la plus proche des étoiles est à plus de 4 ans de lumière.",
+   "extraExample": {
+    "text": "Le Soleil est à environ 150 millions de kilomètres de la Terre.",
+    "translation": "Sa lumière met environ 8 minutes pour nous parvenir."
+   },
+   "errorPatterns": [
+    {
+     "equals": "0,4",
+     "category": "word_confusion",
+     "feedback": "Ce serait bien trop proche : Proxima est à plus de 4 années-lumière."
+    },
+    {
+     "equals": "42",
+     "category": "word_confusion",
+     "feedback": "Beaucoup trop : 42 années-lumière, c'est dix fois plus ; Proxima est à environ 4,2."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e15",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.neil_armstrong",
+    "cg.v.apollo_11"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Neil Armstrong est le premier homme à marcher sur la Lune ; le deuxième est Buzz ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Aldrin",
+    "Collins",
+    "Lovell",
+    "Cernan"
+   ],
+   "answer": "Aldrin",
+   "acceptedAnswers": [
+    "Aldrin",
+    "Buzz Aldrin"
+   ],
+   "explanation": "Buzz Aldrin rejoint Armstrong sur le sol lunaire une vingtaine de minutes plus tard. Michael Collins, le troisième membre d'Apollo 11, reste en orbite autour de la Lune dans le module de commande.",
+   "tip": "Armstrong et Aldrin marchent, Collins garde le vaisseau.",
+   "extraExample": {
+    "text": "En posant le pied sur la Lune, Armstrong dit : « C'est un petit pas pour l'homme, mais un bond de géant pour l'humanité. »",
+    "translation": "C'est l'une des phrases les plus célèbres du XXe siècle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Collins",
+     "category": "word_confusion",
+     "feedback": "Collins est le troisième astronaute d'Apollo 11, mais il reste en orbite autour de la Lune."
+    },
+    {
+     "equals": "Cernan",
+     "category": "word_confusion",
+     "feedback": "Eugene Cernan est le dernier homme à avoir marché sur la Lune, avec Apollo 17 en 1972."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e16",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.galilee",
+    "cg.v.nicolas_copernic"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — En 1610, Galilée découvre avec sa lunette que Jupiter a des lunes. Pourquoi cela soutient-il l'idée de Copernic ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Des astres tournent autour de Jupiter : tout ne tourne donc pas autour de la Terre",
+    "Les lunes de Jupiter prouvent que le Soleil est immobile",
+    "Les lunes de Jupiter sont plus grosses que la Terre"
+   ],
+   "answer": "Des astres tournent autour de Jupiter : tout ne tourne donc pas autour de la Terre",
+   "acceptedAnswers": [
+    "Des astres tournent autour de Jupiter : tout ne tourne donc pas autour de la Terre"
+   ],
+   "explanation": "Le modèle de Ptolémée voulait que tous les astres tournent autour de la Terre. Voir des lunes tourner autour de Jupiter montre qu'il existe d'autres centres de mouvement, ce qui affaiblit ce modèle.",
+   "tip": "Galilée + lunette = preuves en faveur de Copernic.",
+   "extraExample": {
+    "text": "Galilée observe aussi les phases de Vénus, plus faciles à expliquer si Vénus tourne autour du Soleil.",
+    "translation": "Il est condamné par l'Inquisition en 1633 pour avoir défendu cette idée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les lunes de Jupiter prouvent que le Soleil est immobile",
+     "category": "word_confusion",
+     "feedback": "Les lunes de Jupiter ne disent rien sur l'immobilité du Soleil ; elles montrent seulement que tout ne tourne pas autour de la Terre."
+    },
+    {
+     "equals": "Les lunes de Jupiter sont plus grosses que la Terre",
+     "category": "word_confusion",
+     "feedback": "Même la plus grosse des lunes de Jupiter, Ganymède, est plus petite que la Terre, et la taille n'est pas l'argument."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e17",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.squelette"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Les astronautes de la Station spatiale internationale font environ deux heures d'exercice par jour pour protéger leurs os et leurs muscles. Combien d'os compte le squelette d'un adulte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "206",
+    "150",
+    "250",
+    "300"
+   ],
+   "answer": "206",
+   "acceptedAnswers": [
+    "206"
+   ],
+   "explanation": "Le squelette d'un adulte compte 206 os (un bébé en a environ 300 à la naissance, dont beaucoup se soudent ensuite). En apesanteur, les os et les muscles ne portent plus le poids du corps et s'affaiblissent : d'où le sport quotidien à bord.",
+   "tip": "206 os chez l'adulte : à retenir, comme les 46 chromosomes.",
+   "extraExample": {
+    "text": "Le plus petit os du corps humain est l'étrier, dans l'oreille.",
+    "translation": "Il mesure environ 3 millimètres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "300",
+     "category": "word_confusion",
+     "feedback": "Environ 300, c'est le nombre d'os d'un bébé à la naissance ; beaucoup se soudent ensuite, d'où 206 chez l'adulte."
+    },
+    {
+     "equals": "150",
+     "category": "word_confusion",
+     "feedback": "C'est trop peu : l'adulte a 206 os."
+    },
+    {
+     "equals": "250",
+     "category": "word_confusion",
+     "feedback": "C'est trop : l'adulte a 206 os."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e18",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.youri_gagarine"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le premier homme dans l'espace.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "devient",
+    "1961",
+    "Gagarine",
+    "premier",
+    "dans",
+    "le",
+    "l'espace",
+    "en",
+    "homme"
+   ],
+   "answer": "Gagarine devient le premier homme dans l'espace en 1961",
+   "acceptedAnswers": [
+    "Gagarine devient le premier homme dans l'espace en 1961",
+    "En 1961 Gagarine devient le premier homme dans l'espace"
+   ],
+   "hint": "Commence par le nom du cosmonaute.",
+   "explanation": "Le 12 avril 1961, le cosmonaute soviétique Youri Gagarine boucle un tour de la Terre à bord de Vostok 1 : il est le premier être humain dans l'espace.",
+   "tip": "Qui (Gagarine), quoi (premier homme dans l'espace), quand (1961).",
+   "extraExample": {
+    "text": "Le vol de Gagarine dure environ 1 h 48.",
+    "translation": "Il ne fait qu'une seule fois le tour de la Terre."
+   }
+  },
+  {
+   "id": "cg.l21.e19",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.neil_armstrong",
+    "cg.v.apollo_11"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : les premiers pas sur la Lune.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "la",
+    "Armstrong",
+    "juillet",
+    "Neil",
+    "sur",
+    "1969",
+    "Lune",
+    "marche",
+    "en"
+   ],
+   "answer": "Neil Armstrong marche sur la Lune en juillet 1969",
+   "acceptedAnswers": [
+    "Neil Armstrong marche sur la Lune en juillet 1969",
+    "En juillet 1969 Neil Armstrong marche sur la Lune"
+   ],
+   "hint": "Commence par le nom de l'astronaute.",
+   "explanation": "Le 20 juillet 1969, Neil Armstrong descend du module Eagle et devient le premier homme à marcher sur la Lune, devant, selon les estimations, environ 600 millions de téléspectateurs.",
+   "tip": "Qui (Armstrong), quoi (marche sur la Lune), quand (juillet 1969, mission Apollo 11).",
+   "extraExample": {
+    "text": "En France, les premiers pas ont lieu dans la nuit du 20 au 21 juillet.",
+    "translation": "Le décalage horaire explique cette différence."
+   }
+  },
+  {
+   "id": "cg.l21.e20",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.spoutnik_1"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le nom du premier satellite artificiel de la Terre, lancé par l'URSS en 1957 ?",
+   "promptLanguage": "fr",
+   "answer": "Spoutnik 1",
+   "acceptedAnswers": [
+    "Spoutnik 1",
+    "Spoutnik",
+    "Sputnik",
+    "Sputnik 1",
+    "Spoutnik-1"
+   ],
+   "explanation": "Spoutnik 1, petite sphère de 58 cm munie d'antennes, émet un « bip-bip » capté dans le monde entier. Son lancement, le 4 octobre 1957, ouvre l'ère spatiale.",
+   "tip": "En russe, spoutnik signifie « compagnon de route » : le premier compagnon artificiel de la Terre.",
+   "extraExample": {
+    "text": "Un mois plus tard, Spoutnik 2 emporte la chienne Laïka.",
+    "translation": "C'est le premier animal mis en orbite autour de la Terre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Apollo 11",
+     "category": "word_confusion",
+     "feedback": "Apollo 11 est la mission de 1969 vers la Lune, douze ans après."
+    },
+    {
+     "equals": "Vostok 1",
+     "category": "word_confusion",
+     "feedback": "Vostok 1 est le vaisseau de Gagarine en 1961, avec un homme à bord ; le premier satellite, en 1957, est Spoutnik 1."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e21",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.neil_armstrong"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel astronaute américain est le premier homme à avoir marché sur la Lune, en 1969 ?",
+   "promptLanguage": "fr",
+   "answer": "Neil Armstrong",
+   "acceptedAnswers": [
+    "Neil Armstrong",
+    "Armstrong",
+    "Neil Alden Armstrong"
+   ],
+   "explanation": "Neil Armstrong (1930-2012), commandant de la mission Apollo 11, est le premier humain à poser le pied sur la Lune, dans la mer de la Tranquillité.",
+   "tip": "Armstrong : le « petit pas » de 1969.",
+   "extraExample": {
+    "text": "En 1966, Armstrong commande Gemini 8, qui réalise le premier amarrage entre deux engins dans l'espace.",
+    "translation": "Il a donc une grande expérience du vol spatial avant Apollo 11."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Buzz Aldrin",
+     "category": "word_confusion",
+     "feedback": "Buzz Aldrin est le deuxième homme sur la Lune, une vingtaine de minutes après Armstrong."
+    },
+    {
+     "equals": "Aldrin",
+     "category": "word_confusion",
+     "feedback": "Buzz Aldrin est le deuxième homme sur la Lune, une vingtaine de minutes après Armstrong."
+    },
+    {
+     "equals": "Youri Gagarine",
+     "category": "word_confusion",
+     "feedback": "Gagarine est le premier homme dans l'espace (1961), pas sur la Lune."
+    },
+    {
+     "equals": "Gagarine",
+     "category": "word_confusion",
+     "feedback": "Gagarine est le premier homme dans l'espace (1961), pas sur la Lune."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e22",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.systeme_solaire"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel astre, longtemps considéré comme la neuvième planète, a été reclassé « planète naine » en 2006 ?",
+   "promptLanguage": "fr",
+   "answer": "Pluton",
+   "acceptedAnswers": [
+    "Pluton"
+   ],
+   "explanation": "En 2006, l'Union astronomique internationale redéfinit ce qu'est une planète : il faut notamment avoir « nettoyé » son orbite des autres objets. Pluton, qui partage la sienne avec de nombreux objets glacés, devient une planète naine.",
+   "tip": "Depuis 2006 : huit planètes, et Pluton est une planète naine.",
+   "extraExample": {
+    "text": "Pluton a été découverte en 1930 par l'Américain Clyde Tombaugh.",
+    "translation": "Elle a été survolée pour la première fois par la sonde New Horizons en 2015."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Cérès",
+     "category": "word_confusion",
+     "feedback": "Cérès est aussi une planète naine (dans la ceinture d'astéroïdes), mais ce n'est pas elle que l'on comptait comme neuvième planète."
+    },
+    {
+     "equals": "Éris",
+     "category": "word_confusion",
+     "feedback": "Éris est une planète naine découverte en 2005, qui a précipité la redéfinition de 2006 ; la neuvième planète, c'était Pluton."
+    }
+   ]
+  },
+  {
+   "id": "cg.l21.e23",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.numero_atomique"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Dans le Soleil, la fusion nucléaire transforme l'hydrogène (numéro atomique 1) en un autre élément, de numéro atomique 2. Lequel ?",
+   "promptLanguage": "fr",
+   "answer": "l'hélium",
+   "acceptedAnswers": [
+    "l'hélium",
+    "hélium",
+    "l'helium",
+    "helium",
+    "He"
+   ],
+   "explanation": "Au cœur du Soleil, des noyaux d'hydrogène (1 proton) fusionnent pour former de l'hélium (2 protons) et libèrent de l'énergie, qui devient lumière et chaleur. C'est cette réaction qui fait briller les étoiles.",
+   "tip": "Numéro 1 : hydrogène ; numéro 2 : hélium.",
+   "extraExample": {
+    "text": "L'hélium a été repéré dans le spectre du Soleil en 1868, avant d'être trouvé sur Terre.",
+    "translation": "Son nom vient du grec « hélios », le soleil."
+   },
+   "errorPatterns": [
+    {
+     "equals": "hydrogène",
+     "category": "word_confusion",
+     "feedback": "L'hydrogène (numéro 1) est le combustible ; le produit de la fusion a deux protons : c'est l'hélium."
+    },
+    {
+     "equals": "l'hydrogène",
+     "category": "word_confusion",
+     "feedback": "L'hydrogène (numéro 1) est le combustible ; le produit de la fusion a deux protons : c'est l'hélium."
+    },
+    {
+     "equals": "oxygène",
+     "category": "word_confusion",
+     "feedback": "L'oxygène a pour numéro atomique 8 ; avec 2 protons, c'est l'hélium."
+    },
+    {
+     "equals": "l'oxygène",
+     "category": "word_confusion",
+     "feedback": "L'oxygène a pour numéro atomique 8 ; avec 2 protons, c'est l'hélium."
+    },
+    {
+     "equals": "carbone",
+     "category": "word_confusion",
+     "feedback": "Le carbone a pour numéro atomique 6 ; avec 2 protons, c'est l'hélium."
+    },
+    {
+     "equals": "le carbone",
+     "category": "word_confusion",
+     "feedback": "Le carbone a pour numéro atomique 6 ; avec 2 protons, c'est l'hélium."
+    }
+   ]
+  }
+ ]
+}

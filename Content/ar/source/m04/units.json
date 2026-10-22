@@ -1,0 +1,50 @@
+[
+ {
+  "id": "ar.g25.al_solaire_lunaire",
+  "rule": {
+   "summary": "Devant un mot, l'article ال se lit de deux façons : le l se prononce (lettre lunaire : الْمَسِيح = al-masî7) ou il disparaît en doublant la lettre suivante (lettre solaire : الرَّبّ = ar-rabb).",
+   "explanation": "Tu connais la règle de la leçon 15 ; ici tu l'appliques aux mots de la foi. Un seul signe suffit : si la lettre après ال porte une chadda (ـّ), le ل ne se dit pas et cette lettre est doublée : الرَّبّ = ar-rabb, الثَّالُوث = ath-thâlûth, الرُّوح = ar-rû7. Même اللّٰه suit la règle : le ل est solaire, d'où Allâh avec un l doublé, et non « al-lâh ». Si le ل porte un soukoun (ـْ), il se prononce : الْمَسِيح = al-masî7, الْآب = al-âb, الْقُدُس = al-qudus. Au milieu d'une phrase, le a de al- tombe après une voyelle : بِاسْمِ الْآبِ = bismi l-âbi. Dans بِاسْمِ aussi, le ا de اسْم ne se prononce pas.",
+   "pattern": "ال + chadda sur la lettre suivante = solaire (ar-rabb) · ال + soukoun sur le ل = lunaire (al-masî7)",
+   "examples": [
+    {
+     "text": "الرَّبّ",
+     "translation": "le Seigneur : ر solaire, donc ar-rabb",
+     "transliteration": "ar-rabb"
+    },
+    {
+     "text": "الْمَسِيح",
+     "translation": "le Christ : م lunaire, donc al-masî7",
+     "transliteration": "al-masî7"
+    },
+    {
+     "text": "الرُّوح الْقُدُس",
+     "translation": "le Saint-Esprit : un mot solaire, un mot lunaire",
+     "transliteration": "ar-rû7 al-qudus"
+    },
+    {
+     "text": "بِاسْمِ الْآبِ وَالاِبْنِ",
+     "translation": "au nom du Père et du Fils : le a de al- tombe",
+     "transliteration": "bismi l-âbi wa-l-ibn"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "الثَّالُوث lu « al-thâlûth »",
+     "right": "ath-thâlûth",
+     "why": "ث est une lettre solaire : le l ne se dit pas et le th est doublé."
+    },
+    {
+     "wrong": "الْمَسِيح lu « am-masî7 »",
+     "right": "al-masî7",
+     "why": "م est lunaire : le ل porte un soukoun et se prononce."
+    },
+    {
+     "wrong": "اللّٰه lu « al-lâh »",
+     "right": "Allâh",
+     "why": "Le ل d'Allah est solaire : la chadda double le second l. Le petit trait vertical est un alif qui se lit â."
+    }
+   ],
+   "tip": "Cherche la chadda juste après ال : si elle est là, ne dis pas le l."
+  }
+ }
+]

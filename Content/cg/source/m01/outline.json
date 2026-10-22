@@ -1,0 +1,175 @@
+{
+ "module": {
+  "id": 1,
+  "title": "Les grands repères de l'histoire",
+  "description": "De l'Antiquité à la construction européenne : les dates, les personnages, les causes et les conséquences que tout adulte cultivé doit savoir situer."
+ },
+ "grammarUnits": [
+  {
+   "id": "cg.g01.antiquite",
+   "title": "L'Antiquité : Égypte, Grèce et Rome",
+   "difficulty": 1,
+   "prerequisites": [],
+   "category": "knowledge",
+   "functionWords": []
+  },
+  {
+   "id": "cg.g02.moyen_age",
+   "title": "Le Moyen Âge",
+   "difficulty": 1,
+   "prerequisites": [
+    "cg.g01.antiquite"
+   ],
+   "category": "knowledge",
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "cg.l01",
+   "sequence": 1,
+   "title": "L'Antiquité : Égypte, Grèce et Rome",
+   "description": "Placer les grandes civilisations antiques : les pharaons, la démocratie athénienne, Alexandre le Grand, Rome de César à la chute de 476.",
+   "difficulty": 1,
+   "grammarUnitId": "cg.g01.antiquite",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'écriture",
+     "slug": "ecriture",
+     "translation": "invention qui marque la fin de la Préhistoire",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "pharaon",
+     "slug": "pharaon",
+     "translation": "roi de l'Égypte ancienne, considéré comme un dieu vivant",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les hiéroglyphes",
+     "slug": "hieroglyphes",
+     "translation": "écriture sacrée de l'Égypte ancienne, faite de dessins",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Jean-François Champollion",
+     "slug": "champollion",
+     "translation": "égyptologue français qui a déchiffré les hiéroglyphes en 1822",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la démocratie",
+     "slug": "democratie",
+     "translation": "gouvernement par le peuple, inventé à Athènes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Alexandre le Grand",
+     "slug": "alexandre_le_grand",
+     "translation": "roi de Macédoine qui conquiert l'empire perse (336-323 av. J.-C.)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Jules César",
+     "slug": "jules_cesar",
+     "translation": "général romain, conquérant de la Gaule, assassiné en 44 av. J.-C.",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Vercingétorix",
+     "slug": "vercingetorix",
+     "translation": "chef gaulois vaincu par César à Alésia en 52 av. J.-C.",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Auguste",
+     "slug": "auguste",
+     "translation": "premier empereur romain, à partir de 27 av. J.-C.",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la chute de l'Empire romain d'Occident",
+     "slug": "chute_empire_romain",
+     "translation": "476 : le dernier empereur d'Occident est déposé",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "cg.l02",
+   "sequence": 2,
+   "title": "Le Moyen Âge : de Clovis à Jeanne d'Arc",
+   "description": "Retenir les rois, les institutions et les grandes crises du Moyen Âge, du baptême de Clovis vers 496 à la fin de la guerre de Cent Ans en 1453.",
+   "difficulty": 1,
+   "grammarUnitId": "cg.g02.moyen_age",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g01.antiquite"
+   ],
+   "vocabulary": [
+    {
+     "word": "Clovis",
+     "slug": "clovis",
+     "translation": "roi des Francs, baptisé vers 496",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Charlemagne",
+     "slug": "charlemagne",
+     "translation": "roi des Francs, empereur d'Occident en 800",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Hugues Capet",
+     "slug": "hugues_capet",
+     "translation": "roi élu en 987, fondateur de la dynastie capétienne",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la féodalité",
+     "slug": "feodalite",
+     "translation": "système où un seigneur protège des vassaux qui lui jurent fidélité",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la croisade",
+     "slug": "croisade",
+     "translation": "expédition militaire chrétienne pour reprendre Jérusalem",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Guillaume le Conquérant",
+     "slug": "guillaume_le_conquerant",
+     "translation": "duc de Normandie, roi d'Angleterre après Hastings (1066)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la cathédrale gothique",
+     "slug": "cathedrale_gothique",
+     "translation": "grande église aux voûtes d'ogives et aux vitraux (XIIe-XVe siècle)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la peste noire",
+     "slug": "peste_noire",
+     "translation": "épidémie de peste qui ravage l'Europe de 1347 à 1352",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la guerre de Cent Ans",
+     "slug": "guerre_de_cent_ans",
+     "translation": "conflit entre la France et l'Angleterre (1337-1453)",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Jeanne d'Arc",
+     "slug": "jeanne_d_arc",
+     "translation": "jeune Lorraine qui délivre Orléans en 1429, brûlée à Rouen en 1431",
+     "partOfSpeech": "person"
+    }
+   ]
+  }
+ ]
+}

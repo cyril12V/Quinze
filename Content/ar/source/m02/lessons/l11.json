@@ -1,0 +1,850 @@
+{
+ "lessonId": "ar.l11",
+ "exercises": [
+  {
+   "id": "ar.l11.e01",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.madd"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit بَا ?",
+   "promptLanguage": "fr",
+   "options": [
+    "bâ",
+    "ba",
+    "bi",
+    "bû"
+   ],
+   "answer": "bâ",
+   "acceptedAnswers": [
+    "bâ"
+   ],
+   "hint": "Regarde la lettre qui suit la fatha.",
+   "explanation": "La fatha sur le ب donne a, et le ا qui la suit allonge ce son : c'est le madd (مَدّ). On tient le a deux fois plus longtemps : bâ.",
+   "tip": "Fatha + ا = â : le a s'étire.",
+   "extraExample": {
+    "text": "بَاب",
+    "translation": "porte",
+    "transliteration": "bâb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ba",
+     "category": "word_confusion",
+     "feedback": "Sans le ا, la voyelle resterait brève : بَ = ba. Ici le ا allonge le son : bâ."
+    },
+    {
+     "equals": "bi",
+     "category": "word_confusion",
+     "feedback": "bi demande une kasra (trait sous la lettre). Ici c'est une fatha suivie de ا : bâ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e02",
+   "unitIds": [
+    "ar.g11.long_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit بِي ?",
+   "promptLanguage": "fr",
+   "options": [
+    "bî",
+    "bi",
+    "bay",
+    "bû"
+   ],
+   "answer": "bî",
+   "acceptedAnswers": [
+    "bî"
+   ],
+   "explanation": "La kasra est suivie d'un ي sans signe : le i s'allonge, on lit bî. Ici le ي n'est pas une consonne, c'est le prolongement de la kasra.",
+   "tip": "Kasra + ي = î.",
+   "extraExample": {
+    "text": "فِي",
+    "translation": "dans, en",
+    "transliteration": "fî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "bi",
+     "category": "word_confusion",
+     "feedback": "Sans le ي, la voyelle serait brève : بِ = bi. Avec le ي, elle est longue : bî."
+    },
+    {
+     "equals": "bay",
+     "category": "word_confusion",
+     "feedback": "Pour la diphtongue ay, le ي porterait un sukun après une fatha (بَيْ). Ici : kasra + ي sans signe = î."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e03",
+   "unitIds": [
+    "ar.g11.long_vowels"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque groupe de signes à sa lecture.",
+   "prompt": "Voyelles longues et diphtongues",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ـَا",
+     "right": "â"
+    },
+    {
+     "left": "ـِي",
+     "right": "î"
+    },
+    {
+     "left": "ـُو",
+     "right": "û"
+    },
+    {
+     "left": "ـَيْ",
+     "right": "ay"
+    },
+    {
+     "left": "ـَوْ",
+     "right": "aw"
+    }
+   ],
+   "answer": "ـَا = â ; ـِي = î ; ـُو = û ; ـَيْ = ay ; ـَوْ = aw",
+   "acceptedAnswers": [],
+   "explanation": "Fatha + ا = â, kasra + ي = î, damma + و = û : ce sont les voyelles longues. Quand le ي ou le و porte un sukun après une fatha, on entend une diphtongue : ay, aw.",
+   "tip": "Lettre nue après sa voyelle = voyelle longue ; lettre avec sukun = ay ou aw."
+  },
+  {
+   "id": "ar.l11.e04",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.sadiq"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit صَدِيق (ami) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Sadîq",
+    "Sadiq",
+    "Sadâq",
+    "Sadûq"
+   ],
+   "answer": "Sadîq",
+   "acceptedAnswers": [
+    "Sadîq"
+   ],
+   "explanation": "Fatha sur le ص (Sa), kasra sous le د suivie d'un ي : le i est long, dîq. Le ق final n'a pas de signe : Sa-dîq.",
+   "tip": "Kasra + ي : on tient le i.",
+   "extraExample": {
+    "text": "جَمِيل",
+    "translation": "beau",
+    "transliteration": "djamîl"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sadiq",
+     "category": "word_confusion",
+     "feedback": "Le ي après la kasra allonge le i : Sadîq, pas Sadiq."
+    },
+    {
+     "equals": "Sadâq",
+     "category": "word_confusion",
+     "feedback": "Sous le د, c'est une kasra (trait sous la lettre) : di, pas da."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e05",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.djar"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit جَار (voisin) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "djâr",
+    "djar",
+    "djîr",
+    "djûr"
+   ],
+   "answer": "djâr",
+   "acceptedAnswers": [
+    "djâr"
+   ],
+   "explanation": "La fatha sur le ج est suivie d'un ا : le a est long. Le ر final n'a pas de signe : on lit djâr, avec un â tenu.",
+   "tip": "Un ا juste après une fatha = a long.",
+   "extraExample": {
+    "text": "دَار",
+    "translation": "maison",
+    "transliteration": "dâr"
+   },
+   "errorPatterns": [
+    {
+     "equals": "djar",
+     "category": "word_confusion",
+     "feedback": "Le ا allonge la fatha : djâr. Sans lui, on lirait djar."
+    },
+    {
+     "equals": "djîr",
+     "category": "word_confusion",
+     "feedback": "Un î long s'écrit avec une kasra et un ي. Ici c'est une fatha et un ا : â."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e06",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.ayn_oeil"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit عَيْن (œil) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "3ayn",
+    "3în",
+    "3ân",
+    "3awn"
+   ],
+   "answer": "3ayn",
+   "acceptedAnswers": [
+    "3ayn"
+   ],
+   "explanation": "Le ي porte un sukun après une fatha : ce n'est pas un î long mais une diphtongue, ay. On lit 3ayn (comme dans « ail »).",
+   "tip": "Fatha + ي avec sukun = ay.",
+   "extraExample": {
+    "text": "بَيْت",
+    "translation": "maison",
+    "transliteration": "bayt"
+   },
+   "errorPatterns": [
+    {
+     "equals": "3în",
+     "category": "word_confusion",
+     "feedback": "Un î long s'écrirait kasra + ي sans signe (ـِي). Ici le ي porte un sukun après une fatha : ay."
+    },
+    {
+     "equals": "3awn",
+     "category": "spelling",
+     "feedback": "La lettre est un ي, pas un و : on entend ay et non aw."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e07",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.zawdj"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit زَوْج (mari) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "zawdj",
+    "zûdj",
+    "zâdj",
+    "zawadj"
+   ],
+   "answer": "zawdj",
+   "acceptedAnswers": [
+    "zawdj"
+   ],
+   "explanation": "Le و porte un sukun après une fatha : c'est la diphtongue aw. Puis le ج : zawdj. Un û long s'écrirait damma + و sans signe.",
+   "tip": "Fatha + و avec sukun = aw.",
+   "extraExample": {
+    "text": "يَوْم",
+    "translation": "jour",
+    "transliteration": "yawm"
+   },
+   "errorPatterns": [
+    {
+     "equals": "zûdj",
+     "category": "word_confusion",
+     "feedback": "Pour un û long, il faudrait une damma sur le ز. Ici c'est une fatha et un sukun sur le و : aw."
+    },
+    {
+     "equals": "zawadj",
+     "category": "spelling",
+     "feedback": "Le و porte un sukun : on n'ajoute aucune voyelle après lui."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e08",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.adjuz"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit عَجُوز (personne âgée) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "3adjûz",
+    "3adjuz",
+    "3adjîz",
+    "3adjâz"
+   ],
+   "answer": "3adjûz",
+   "acceptedAnswers": [
+    "3adjûz"
+   ],
+   "explanation": "Damma sur le ج, suivie d'un و sans signe : le u est long, û. Le ز final n'a pas de signe : 3a-djûz.",
+   "tip": "Damma + و : le « ou » s'étire.",
+   "extraExample": {
+    "text": "نُور",
+    "translation": "lumière",
+    "transliteration": "nûr"
+   },
+   "errorPatterns": [
+    {
+     "equals": "3adjuz",
+     "category": "word_confusion",
+     "feedback": "Le و après la damma allonge le son : 3adjûz."
+    },
+    {
+     "equals": "3adjîz",
+     "category": "word_confusion",
+     "feedback": "Après la damma, c'est un و (û) et non un ي (î)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e09",
+   "unitIds": [
+    "ar.v.yad",
+    "ar.g11.long_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel mot le ي est-il une voyelle longue î ?",
+   "promptLanguage": "fr",
+   "options": [
+    "صَدِيق",
+    "عَيْن",
+    "يَد"
+   ],
+   "answer": "صَدِيق",
+   "acceptedAnswers": [
+    "صَدِيق"
+   ],
+   "explanation": "Dans صَدِيق, le ي suit une kasra : c'est un î long. Dans عَيْن, il porte un sukun après une fatha : diphtongue ay. Dans يَد, il porte une fatha : c'est la consonne y.",
+   "tip": "Le ي peut être une voyelle (î), une diphtongue (ay) ou une consonne (y).",
+   "extraExample": {
+    "text": "يَمِين",
+    "translation": "droite",
+    "transliteration": "yamîn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "عَيْن",
+     "category": "word_confusion",
+     "feedback": "Dans عَيْن, le ي porte un sukun : diphtongue ay, pas î."
+    },
+    {
+     "equals": "يَد",
+     "category": "word_confusion",
+     "feedback": "Dans يَد, le ي porte une fatha : c'est la consonne y, il ne prolonge aucune voyelle."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e10",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.radjul",
+    "ar.v.katif",
+    "ar.v.unuq",
+    "ar.v.dhira"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Révision : choisis la bonne réponse.",
+   "prompt": "Lequel de ces mots contient une voyelle longue ?",
+   "promptLanguage": "fr",
+   "options": [
+    "رَجُل",
+    "كَتِف",
+    "عُنُق",
+    "ذِرَاع"
+   ],
+   "answer": "ذِرَاع",
+   "acceptedAnswers": [
+    "ذِرَاع"
+   ],
+   "explanation": "Dans ذِرَاع, la fatha du ر est suivie d'un ا : â long. رَجُل (ra-djul), كَتِف (ka-tif) et عُنُق (3u-nuq) n'ont que des voyelles brèves.",
+   "tip": "Cherche un ا, un و ou un ي sans signe juste après une voyelle.",
+   "extraExample": {
+    "text": "كِتَاب",
+    "translation": "livre",
+    "transliteration": "kitâb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "رَجُل",
+     "category": "word_confusion",
+     "feedback": "رَجُل n'a que des voyelles brèves : fatha sur le ر, damma sur le ج. Aucun ا, و ou ي ne les prolonge."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e11",
+   "unitIds": [
+    "ar.v.kitab",
+    "ar.g11.long_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots se lit « kitâb » (livre) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "كِتَاب",
+    "كُتُب",
+    "كَتَبَ",
+    "كَاتِب"
+   ],
+   "answer": "كِتَاب",
+   "acceptedAnswers": [
+    "كِتَاب"
+   ],
+   "explanation": "كِتَاب = ki-tâb : kasra sous le ك, puis un ا après la fatha du ت. كُتُب se lit kutub (des livres), كَتَبَ kataba (il a écrit) et كَاتِب kâtib (écrivain).",
+   "tip": "Mêmes consonnes ك ت ب, mais les voyelles et le ا changent tout.",
+   "extraExample": {
+    "text": "مَكْتَب",
+    "translation": "bureau",
+    "transliteration": "maktab"
+   },
+   "errorPatterns": [
+    {
+     "equals": "كُتُب",
+     "category": "word_confusion",
+     "feedback": "كُتُب se lit kutub (« des livres ») : deux dammas et aucun ا."
+    },
+    {
+     "equals": "كَتَبَ",
+     "category": "word_confusion",
+     "feedback": "كَتَبَ se lit kataba (« il a écrit ») : trois fathas et pas de ا."
+    },
+    {
+     "equals": "كَاتِب",
+     "category": "word_confusion",
+     "feedback": "كَاتِب se lit kâtib (« écrivain ») : le ا est juste après le ك, pas après le ت."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e12",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.khal",
+    "ar.v.lisan",
+    "ar.v.dhira",
+    "ar.v.adjuz",
+    "ar.v.sadiq"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa lecture.",
+   "prompt": "Lis chaque mot en tenant les voyelles longues.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "خَال",
+     "right": "khâl"
+    },
+    {
+     "left": "لِسَان",
+     "right": "lisân"
+    },
+    {
+     "left": "ذِرَاع",
+     "right": "dhirâ3"
+    },
+    {
+     "left": "عَجُوز",
+     "right": "3adjûz"
+    },
+    {
+     "left": "صَدِيق",
+     "right": "Sadîq"
+    }
+   ],
+   "answer": "خَال = khâl ; لِسَان = lisân ; ذِرَاع = dhirâ3 ; عَجُوز = 3adjûz ; صَدِيق = Sadîq",
+   "acceptedAnswers": [],
+   "explanation": "Dans chaque mot, un ا, un و ou un ي prolonge la voyelle d'avant : khâl, lisân, dhirâ3, 3adjûz, Sadîq.",
+   "tip": "Marque un temps d'arrêt sur la voyelle longue : elle dure le double d'une brève."
+  },
+  {
+   "id": "ar.l11.e13",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.sadiq",
+    "ar.v.djar",
+    "ar.v.zawdj",
+    "ar.v.lisan",
+    "ar.v.dhira"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa traduction.",
+   "prompt": "Amis, voisins, langue et bras",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "صَدِيق",
+     "right": "l'ami"
+    },
+    {
+     "left": "جَار",
+     "right": "le voisin"
+    },
+    {
+     "left": "زَوْج",
+     "right": "le mari"
+    },
+    {
+     "left": "لِسَان",
+     "right": "la langue"
+    },
+    {
+     "left": "ذِرَاع",
+     "right": "le bras"
+    }
+   ],
+   "answer": "صَدِيق = l'ami ; جَار = le voisin ; زَوْج = le mari ; لِسَان = la langue ; ذِرَاع = le bras",
+   "acceptedAnswers": [],
+   "explanation": "صَدِيق (Sadîq) = l'ami, جَار (djâr) = le voisin, زَوْج (zawdj) = le mari, لِسَان (lisân) = la langue, ذِرَاع (dhirâ3) = le bras.",
+   "tip": "Lis le mot à voix haute avant de chercher son sens."
+  },
+  {
+   "id": "ar.l11.e14",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.lisan"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne lettre.",
+   "prompt": "Dans لِسَان (lisân), le â long s'écrit avec la lettre ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "ا",
+    "و",
+    "ي"
+   ],
+   "answer": "ا",
+   "acceptedAnswers": [
+    "ا"
+   ],
+   "explanation": "Le س porte une fatha, suivie d'un ا : sâ. Le و prolonge une damma et le ي une kasra.",
+   "tip": "Fatha → ا, damma → و, kasra → ي.",
+   "extraExample": {
+    "text": "سَلَام",
+    "translation": "paix",
+    "transliteration": "salâm"
+   },
+   "errorPatterns": [
+    {
+     "equals": "و",
+     "category": "word_confusion",
+     "feedback": "Le و prolonge une damma (û). Ici la voyelle du س est une fatha."
+    },
+    {
+     "equals": "ي",
+     "category": "word_confusion",
+     "feedback": "Le ي prolonge une kasra (î). Ici la voyelle du س est une fatha."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e15",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.ayn_oeil"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne lecture.",
+   "prompt": "Dans عَيْن, le ي porte un sukun : on lit la diphtongue « ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "ay",
+    "î",
+    "aw",
+    "ây"
+   ],
+   "answer": "ay",
+   "acceptedAnswers": [
+    "ay"
+   ],
+   "explanation": "Fatha + ي avec sukun donne ay (comme dans « ail »). Le î long, lui, s'écrit avec une kasra et un ي sans signe.",
+   "tip": "Sukun sur le ي ou le و : on entend y ou w, pas une voyelle longue.",
+   "extraExample": {
+    "text": "لَيْل",
+    "translation": "nuit",
+    "transliteration": "layl"
+   },
+   "errorPatterns": [
+    {
+     "equals": "î",
+     "category": "word_confusion",
+     "feedback": "Le î long s'écrit kasra + ي sans signe. Ici le ي porte un sukun après une fatha : ay."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e16",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.zawdj"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Révision : complète avec le nom du signe.",
+   "prompt": "Dans زَوْج, le و porte un ___ : c'est pour cela qu'on lit aw et non û.",
+   "promptLanguage": "fr",
+   "options": [
+    "sukun",
+    "damma",
+    "fatha",
+    "shadda"
+   ],
+   "answer": "sukun",
+   "acceptedAnswers": [
+    "sukun"
+   ],
+   "explanation": "Un sukun sur le و (ou le ي) après une fatha forme une diphtongue. Sans sukun et après une damma, on aurait un û long.",
+   "tip": "Voyelle longue = lettre nue ; diphtongue = lettre avec sukun.",
+   "extraExample": {
+    "text": "يَوْم",
+    "translation": "jour",
+    "transliteration": "yawm"
+   },
+   "errorPatterns": [
+    {
+     "equals": "damma",
+     "category": "word_confusion",
+     "feedback": "Une damma sur le و ferait lire wu. Ici, le petit rond est un sukun : il n'y a pas de voyelle après le w."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e17",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.dhira"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Touche les syllabes dans l'ordre de lecture (la première d'abord).",
+   "prompt": "Écris « dhirâ3 » (bras).",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ع",
+    "رَا",
+    "ذِ"
+   ],
+   "answer": "ذِ رَا ع",
+   "acceptedAnswers": [
+    "ذِ رَا ع"
+   ],
+   "explanation": "Dhi-râ3 : ذ avec kasra, puis ر avec fatha et ا (â long), puis le ع final sans signe.",
+   "tip": "Le ا ne se lit pas seul : il allonge la syllabe رَا.",
+   "extraExample": {
+    "text": "ذِرَاعِي",
+    "translation": "mon bras",
+    "transliteration": "dhirâ3î"
+   }
+  },
+  {
+   "id": "ar.l11.e18",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.sadiq"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Touche les syllabes dans l'ordre de lecture (la première d'abord).",
+   "prompt": "Écris « Sadîq » (ami).",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ق",
+    "دِي",
+    "صَ"
+   ],
+   "answer": "صَ دِي ق",
+   "acceptedAnswers": [
+    "صَ دِي ق"
+   ],
+   "explanation": "Sa-dîq : ص avec fatha, puis د avec kasra et ي (î long), puis le ق final.",
+   "tip": "Kasra + ي forment ensemble la syllabe longue دِي.",
+   "extraExample": {
+    "text": "صَدِيقِي",
+    "translation": "mon ami",
+    "transliteration": "Sadîqî"
+   }
+  },
+  {
+   "id": "ar.l11.e19",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.khal"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "خَال",
+   "promptLanguage": "ar",
+   "answer": "oncle",
+   "acceptedAnswers": [
+    "oncle",
+    "l'oncle",
+    "un oncle",
+    "oncle maternel",
+    "l'oncle maternel",
+    "un oncle maternel",
+    "oncle (frère de la mère)"
+   ],
+   "explanation": "خَال (khâl) est le frère de la mère, l'oncle maternel. Le frère du père a un autre mot.",
+   "tip": "Khâl : l'oncle maternel, avec un â long.",
+   "extraExample": {
+    "text": "خَالِي",
+    "translation": "mon oncle",
+    "transliteration": "khâlî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "oncle paternel",
+     "category": "vocabulary",
+     "feedback": "L'oncle paternel n'est pas خَال : khâl est le frère de ta mère."
+    },
+    {
+     "equals": "tante",
+     "category": "vocabulary",
+     "feedback": "Une tante maternelle s'écrit خَالَة (khâla). خَال est un homme : l'oncle."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e20",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.djar"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "جَار",
+   "promptLanguage": "ar",
+   "answer": "voisin",
+   "acceptedAnswers": [
+    "voisin",
+    "le voisin",
+    "un voisin"
+   ],
+   "explanation": "جَار (djâr) veut dire « le voisin ».",
+   "tip": "Djâr, le voisin : le â long est au milieu.",
+   "extraExample": {
+    "text": "جَارُنَا",
+    "translation": "notre voisin",
+    "transliteration": "djârunâ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ami",
+     "category": "vocabulary",
+     "feedback": "L'ami, c'est صَدِيق (Sadîq). جَار (djâr), c'est le voisin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e21",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.lisan"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit لِسَان (langue) ?",
+   "promptLanguage": "fr",
+   "answer": "lisân",
+   "acceptedAnswers": [
+    "lisân",
+    "lisan",
+    "lisaan"
+   ],
+   "hint": "Deux syllabes : li-sân.",
+   "explanation": "Kasra sous le ل (li), fatha sur le س suivie de ا (sâ, long), puis ن final : li-sân.",
+   "tip": "Fatha + ا = â : le a de la dernière syllabe est long.",
+   "extraExample": {
+    "text": "لِسَانِي",
+    "translation": "ma langue",
+    "transliteration": "lisânî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "lisin",
+     "category": "word_confusion",
+     "feedback": "Il n'y a pas de ي : la voyelle longue est â (ا après la fatha), pas î."
+    },
+    {
+     "equals": "lasan",
+     "category": "word_confusion",
+     "feedback": "Sous le ل, c'est une kasra (trait sous la lettre) : li, pas la."
+    }
+   ]
+  },
+  {
+   "id": "ar.l11.e22",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.dhira"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit ذِرَاع (bras) ?",
+   "promptLanguage": "fr",
+   "answer": "dhirâ3",
+   "acceptedAnswers": [
+    "dhirâ3",
+    "dhira3",
+    "dhiraa3"
+   ],
+   "hint": "Le ذ se note dh.",
+   "explanation": "Kasra sous le ذ (dhi), fatha sur le ر suivie de ا (râ, long), puis ع final : dhi-râ3.",
+   "tip": "Le ذ se note dh, le ع se note 3 : dhirâ3.",
+   "extraExample": {
+    "text": "ذِرَاعَانِ",
+    "translation": "deux bras",
+    "transliteration": "dhirâ3âni"
+   },
+   "errorPatterns": [
+    {
+     "equals": "dharâ3",
+     "category": "word_confusion",
+     "feedback": "Sous le ذ, c'est une kasra (trait sous la lettre) : dhi, pas dha."
+    }
+   ]
+  }
+ ]
+}

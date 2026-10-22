@@ -1,0 +1,777 @@
+{
+ "lessonId": "cg.l11",
+ "exercises": [
+  {
+   "id": "cg.l11.e01",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.rabat",
+    "cg.v.abuja",
+    "cg.v.le_caire",
+    "cg.v.ankara",
+    "cg.v.abou_dhabi"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque pays à sa capitale.",
+   "prompt": "Capitales d'Afrique et du Moyen-Orient",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Maroc",
+     "right": "Rabat"
+    },
+    {
+     "left": "Nigeria",
+     "right": "Abuja"
+    },
+    {
+     "left": "Égypte",
+     "right": "Le Caire"
+    },
+    {
+     "left": "Turquie",
+     "right": "Ankara"
+    },
+    {
+     "left": "Émirats arabes unis",
+     "right": "Abou Dhabi"
+    }
+   ],
+   "answer": "Maroc = Rabat ; Nigeria = Abuja ; Égypte = Le Caire ; Turquie = Ankara ; Émirats arabes unis = Abou Dhabi",
+   "acceptedAnswers": [],
+   "explanation": "Dans la plupart de ces pays, la ville la plus connue n'est pas la capitale : Casablanca, Lagos, Istanbul et Dubaï sont plus célèbres que Rabat, Abuja, Ankara et Abou Dhabi.",
+   "tip": "Retiens le quatuor Rabat, Abuja, Ankara, Abou Dhabi.",
+   "extraExample": {
+    "text": "Le Caire est à la fois la capitale et la plus grande ville d'Égypte.",
+    "translation": "Ici, pas de piège : aucune ville rivale n'est plus célèbre."
+   }
+  },
+  {
+   "id": "cg.l11.e02",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.nil"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel grand fleuve traverse le Soudan et l'Égypte avant de se jeter dans la Méditerranée ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Nil",
+    "Le Congo",
+    "Le Niger",
+    "Le Zambèze"
+   ],
+   "answer": "Le Nil",
+   "acceptedAnswers": [
+    "Le Nil"
+   ],
+   "explanation": "Le Nil traverse le Soudan et l'Égypte, puis forme un grand delta sur la Méditerranée. Les autres fleuves coulent vers l'Atlantique (Congo, Niger) ou vers l'océan Indien (Zambèze).",
+   "tip": "Nil = nord-est de l'Afrique et Méditerranée ; Congo et Niger = Atlantique.",
+   "extraExample": {
+    "text": "Les Égyptiens de l'Antiquité vivaient au rythme des crues du Nil.",
+    "translation": "Sans lui, la vallée égyptienne serait un désert."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Congo",
+     "category": "word_confusion",
+     "feedback": "Le Congo coule en Afrique centrale et se jette dans l'Atlantique."
+    },
+    {
+     "equals": "Le Niger",
+     "category": "word_confusion",
+     "feedback": "Le Niger arrose l'Afrique de l'Ouest (Mali, Niger, Nigeria) et se jette dans le golfe de Guinée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e03",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.sahara"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus grand désert chaud du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Sahara",
+    "Le Gobi",
+    "Le Kalahari",
+    "Le désert d'Arabie"
+   ],
+   "answer": "Le Sahara",
+   "acceptedAnswers": [
+    "Le Sahara"
+   ],
+   "explanation": "Le Sahara couvre plus de 9 millions de km², presque toute l'Afrique du Nord. Le Gobi est un désert d'Asie aux hivers glacials, et le Kalahari, en Afrique australe, est bien plus petit.",
+   "tip": "Désert chaud : Sahara. Tous déserts confondus : l'Antarctique.",
+   "extraExample": {
+    "text": "Le Sahara est à peu près aussi vaste que les États-Unis.",
+    "translation": "Il est pourtant moins vaste que le désert de l'Antarctique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Gobi",
+     "category": "word_confusion",
+     "feedback": "Le Gobi s'étend en Mongolie et en Chine : c'est un désert froid en hiver."
+    },
+    {
+     "equals": "Le Kalahari",
+     "category": "word_confusion",
+     "feedback": "Le Kalahari, en Afrique australe, est beaucoup plus petit que le Sahara."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e04",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.rabat"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale du Maroc ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Rabat",
+    "Casablanca",
+    "Marrakech",
+    "Fès"
+   ],
+   "answer": "Rabat",
+   "acceptedAnswers": [
+    "Rabat"
+   ],
+   "explanation": "Rabat, sur la côte atlantique, abrite le Parlement et le gouvernement du Maroc. Casablanca est la plus grande ville et le grand port, Marrakech la ville touristique.",
+   "tip": "Maroc → Rabat, pas Casablanca.",
+   "extraExample": {
+    "text": "Fès est l'une des plus anciennes villes impériales du Maroc.",
+    "translation": "Elle a été capitale du royaume au Moyen Âge."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Casablanca",
+     "category": "word_confusion",
+     "feedback": "Casablanca est la plus grande ville et le premier port du Maroc, mais pas sa capitale."
+    },
+    {
+     "equals": "Marrakech",
+     "category": "word_confusion",
+     "feedback": "Marrakech est la grande ville touristique du Sud marocain, pas la capitale actuelle."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e05",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.ankara"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale de la Turquie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Ankara",
+    "Istanbul",
+    "Izmir",
+    "Antalya"
+   ],
+   "answer": "Ankara",
+   "acceptedAnswers": [
+    "Ankara"
+   ],
+   "explanation": "Ankara est la capitale depuis la proclamation de la République, en 1923. Istanbul, ancienne Constantinople et capitale de l'Empire ottoman, reste la plus grande ville.",
+   "tip": "Turquie → Ankara ; Istanbul = la grande ville.",
+   "extraExample": {
+    "text": "Atatürk a choisi Ankara, au cœur de l'Anatolie, pour la nouvelle République.",
+    "translation": "Il rompait ainsi avec l'ancien pouvoir impérial d'Istanbul."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Istanbul",
+     "category": "word_confusion",
+     "feedback": "Istanbul fut la capitale de l'Empire ottoman, mais depuis 1923 la capitale turque est Ankara."
+    },
+    {
+     "equals": "Izmir",
+     "category": "word_confusion",
+     "feedback": "Izmir est un grand port sur la mer Égée, pas la capitale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e06",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.abuja"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale du Nigeria, pays le plus peuplé d'Afrique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Abuja",
+    "Lagos",
+    "Kano",
+    "Accra"
+   ],
+   "answer": "Abuja",
+   "acceptedAnswers": [
+    "Abuja"
+   ],
+   "explanation": "Abuja est la capitale du Nigeria depuis 1991, choisie parce qu'elle est plus centrale. Lagos, l'ancienne capitale, reste la plus grande ville et le centre économique.",
+   "tip": "Nigeria → Abuja (capitale récente) ; Lagos = ville économique.",
+   "extraExample": {
+    "text": "Abuja a été planifiée dans les années 1970, au centre du pays.",
+    "translation": "On voulait une capitale plus neutre que Lagos, sur la côte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Lagos",
+     "category": "word_confusion",
+     "feedback": "Lagos est la plus grande ville et l'ancienne capitale ; le gouvernement est à Abuja depuis 1991."
+    },
+    {
+     "equals": "Accra",
+     "category": "word_confusion",
+     "feedback": "Accra est la capitale du Ghana, pas du Nigeria."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e07",
+   "unitIds": [
+    "cg.v.ocean_indien",
+    "cg.g11.afrique_moyen_orient"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel océan baigne la côte est de l'Afrique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'océan Indien",
+    "L'océan Atlantique",
+    "L'océan Pacifique",
+    "L'océan Arctique"
+   ],
+   "answer": "L'océan Indien",
+   "acceptedAnswers": [
+    "L'océan Indien"
+   ],
+   "explanation": "La côte orientale de l'Afrique (Somalie, Kenya, Tanzanie, Mozambique) donne sur l'océan Indien. L'Atlantique borde la côte ouest du continent.",
+   "tip": "Est de l'Afrique = océan Indien ; ouest = océan Atlantique.",
+   "extraExample": {
+    "text": "Madagascar, grande île au large du Mozambique, se trouve dans l'océan Indien.",
+    "translation": "Elle est séparée du continent par le canal du Mozambique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'océan Atlantique",
+     "category": "word_confusion",
+     "feedback": "L'Atlantique borde la côte ouest de l'Afrique, de la Mauritanie à l'Afrique du Sud."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e08",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.nil",
+    "cg.v.sahara",
+    "cg.v.kilimandjaro",
+    "cg.v.canal_de_suez"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque repère à sa description.",
+   "prompt": "Repères naturels d'Afrique",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Nil",
+     "right": "fleuve qui forme un delta sur la Méditerranée"
+    },
+    {
+     "left": "Sahara",
+     "right": "plus grand désert chaud du monde"
+    },
+    {
+     "left": "Kilimandjaro",
+     "right": "plus haut sommet d'Afrique, en Tanzanie"
+    },
+    {
+     "left": "Canal de Suez",
+     "right": "relie la Méditerranée à la mer Rouge"
+    }
+   ],
+   "answer": "Nil = fleuve qui forme un delta sur la Méditerranée ; Sahara = plus grand désert chaud du monde ; Kilimandjaro = plus haut sommet d'Afrique, en Tanzanie ; Canal de Suez = relie la Méditerranée à la mer Rouge",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre repères se placent facilement : le Nil et le canal de Suez en Égypte, le Sahara dans tout le nord du continent, le Kilimandjaro en Afrique de l'Est.",
+   "tip": "Un repère, un fait : fleuve, désert, sommet, canal.",
+   "extraExample": {
+    "text": "Le sommet du Kilimandjaro est encore couvert de glaciers.",
+    "translation": "Ces glaciers fondent rapidement sous l'effet du réchauffement."
+   }
+  },
+  {
+   "id": "cg.l11.e09",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.canal_de_suez"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le canal de Suez, inauguré en ___, relie la Méditerranée à la mer Rouge.",
+   "promptLanguage": "fr",
+   "options": [
+    "1869",
+    "1914",
+    "1789",
+    "1956"
+   ],
+   "answer": "1869",
+   "acceptedAnswers": [
+    "1869"
+   ],
+   "explanation": "Le canal de Suez est inauguré en 1869, après dix ans de travaux dirigés par Ferdinand de Lesseps. Il raccourcit fortement la route maritime entre l'Europe et l'Asie.",
+   "tip": "1869 : Suez ; 1914 : Panama.",
+   "extraExample": {
+    "text": "Sans le canal de Suez, un navire allant de Marseille à Bombay devrait contourner toute l'Afrique.",
+    "translation": "Le détour par le cap de Bonne-Espérance allonge le trajet de plusieurs milliers de kilomètres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1914",
+     "category": "word_confusion",
+     "feedback": "1914 est l'année d'ouverture du canal de Panama, pas de Suez."
+    },
+    {
+     "equals": "1956",
+     "category": "word_confusion",
+     "feedback": "En 1956, l'Égypte nationalise le canal (crise de Suez) : il était déjà ouvert depuis 1869."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e10",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La capitale de l'Arabie saoudite est ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Riyad",
+    "Djeddah",
+    "La Mecque",
+    "Médine"
+   ],
+   "answer": "Riyad",
+   "acceptedAnswers": [
+    "Riyad",
+    "Riyadh",
+    "Ryad"
+   ],
+   "explanation": "Riyad, au centre du pays, est la capitale de l'Arabie saoudite. Djeddah est un grand port sur la mer Rouge, La Mecque et Médine sont des villes saintes de l'islam.",
+   "tip": "Riyad : la capitale, au cœur du désert d'Arabie.",
+   "extraExample": {
+    "text": "Le Qatar, voisin de l'Arabie saoudite, a pour capitale Doha.",
+    "translation": "Ne confonds pas Riyad, Doha et Abou Dhabi, trois capitales de la péninsule Arabique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Djeddah",
+     "category": "word_confusion",
+     "feedback": "Djeddah est le grand port de l'Arabie saoudite sur la mer Rouge, pas sa capitale."
+    },
+    {
+     "equals": "La Mecque",
+     "category": "word_confusion",
+     "feedback": "La Mecque est la ville sainte de l'islam, pas la capitale politique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e11",
+   "unitIds": [
+    "cg.g09.continents_oceans"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel détroit d'à peine 14 km sépare l'Europe de l'Afrique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le détroit de Gibraltar",
+    "Le Bosphore",
+    "Le détroit de Messine",
+    "Le détroit de Béring"
+   ],
+   "answer": "Le détroit de Gibraltar",
+   "acceptedAnswers": [
+    "Le détroit de Gibraltar"
+   ],
+   "explanation": "Le détroit de Gibraltar sépare l'Espagne du Maroc et relie la Méditerranée à l'océan Atlantique. Le Bosphore, à Istanbul, sépare l'Europe de l'Asie.",
+   "tip": "Gibraltar : Europe ↔ Afrique ; Bosphore : Europe ↔ Asie.",
+   "extraExample": {
+    "text": "Le détroit de Béring sépare l'Asie de l'Amérique du Nord.",
+    "translation": "Il relie le Pacifique à l'océan Arctique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Bosphore",
+     "category": "word_confusion",
+     "feedback": "Le Bosphore passe à Istanbul et sépare l'Europe de l'Asie, pas de l'Afrique."
+    },
+    {
+     "equals": "Le détroit de Messine",
+     "category": "word_confusion",
+     "feedback": "Le détroit de Messine sépare la Sicile de l'Italie continentale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e12",
+   "unitIds": [
+    "cg.v.berne",
+    "cg.g10.europe_capitales"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Zurich est la plus grande ville de Suisse, mais la capitale est ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Berne",
+    "Genève",
+    "Lausanne",
+    "Bâle"
+   ],
+   "answer": "Berne",
+   "acceptedAnswers": [
+    "Berne"
+   ],
+   "explanation": "Berne, la « ville fédérale », est le siège du gouvernement et du Parlement suisses. Zurich est le centre financier du pays et Genève accueille de nombreuses organisations internationales.",
+   "tip": "Suisse → Berne, jamais Zurich ni Genève.",
+   "extraExample": {
+    "text": "La vieille ville de Berne est classée au patrimoine mondial de l'UNESCO.",
+    "translation": "Elle est construite dans une boucle de l'Aar."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Genève",
+     "category": "word_confusion",
+     "feedback": "Genève est célèbre pour l'ONU et la Croix-Rouge, mais le gouvernement siège à Berne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e13",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.nil"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Une phrase-repère sur le Nil.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "jette",
+    "la",
+    "Le",
+    "se",
+    "Méditerranée",
+    "Nil",
+    "dans"
+   ],
+   "answer": "Le Nil se jette dans la Méditerranée",
+   "acceptedAnswers": [
+    "Le Nil se jette dans la Méditerranée"
+   ],
+   "explanation": "Le Nil coule du sud vers le nord et forme un vaste delta quand il arrive sur la Méditerranée.",
+   "tip": "Fleuve + se jette dans + mer : c'est l'embouchure.",
+   "extraExample": {
+    "text": "La Seine se jette dans la Manche.",
+    "translation": "Le verbe « se jeter dans » désigne l'embouchure d'un fleuve."
+   }
+  },
+  {
+   "id": "cg.l11.e14",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.pretoria"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ville sud-africaine est la capitale administrative, où siège le gouvernement ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Pretoria",
+    "Le Cap",
+    "Johannesburg",
+    "Durban"
+   ],
+   "answer": "Pretoria",
+   "acceptedAnswers": [
+    "Pretoria"
+   ],
+   "explanation": "L'Afrique du Sud a trois capitales : Pretoria (l'exécutif, donc le gouvernement), Le Cap (le Parlement) et Bloemfontein (la justice). Johannesburg, la plus grande ville, n'en fait pas partie.",
+   "tip": "Trois pouvoirs, trois capitales : Pretoria gouverne, Le Cap légifère, Bloemfontein juge.",
+   "extraExample": {
+    "text": "Le pouvoir judiciaire siège à Bloemfontein, au centre du pays.",
+    "translation": "C'est la troisième capitale sud-africaine, la plus discrète."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Cap",
+     "category": "word_confusion",
+     "feedback": "Le Cap est la capitale législative : c'est là que siège le Parlement."
+    },
+    {
+     "equals": "Johannesburg",
+     "category": "word_confusion",
+     "feedback": "Johannesburg est la plus grande ville du pays, mais ce n'est aucune des trois capitales."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e15",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale officielle de la Côte d'Ivoire, située à l'intérieur des terres ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Yamoussoukro",
+    "Abidjan",
+    "Bouaké",
+    "San-Pédro"
+   ],
+   "answer": "Yamoussoukro",
+   "acceptedAnswers": [
+    "Yamoussoukro"
+   ],
+   "explanation": "Yamoussoukro, ville natale du président Félix Houphouët-Boigny, est la capitale politique officielle depuis 1983. Abidjan, grand port, reste la capitale économique et la plus grande ville.",
+   "tip": "Côte d'Ivoire : Yamoussoukro (officielle), Abidjan (économique).",
+   "extraExample": {
+    "text": "La basilique Notre-Dame de la Paix de Yamoussoukro est l'une des plus grandes églises du monde.",
+    "translation": "Elle a été consacrée en 1990 et s'inspire de Saint-Pierre de Rome."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Abidjan",
+     "category": "word_confusion",
+     "feedback": "Abidjan est la capitale économique et la plus grande ville, mais la capitale officielle est Yamoussoukro."
+    },
+    {
+     "equals": "Bouaké",
+     "category": "word_confusion",
+     "feedback": "Bouaké est la deuxième ville du pays, au centre, mais pas la capitale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e16",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.pretoria"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "La capitale législative de l'Afrique du Sud, où siège le Parlement, est ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Cap",
+    "Pretoria",
+    "Durban",
+    "Bloemfontein"
+   ],
+   "answer": "Le Cap",
+   "acceptedAnswers": [
+    "Le Cap",
+    "Cape Town",
+    "Cap"
+   ],
+   "explanation": "Le Parlement sud-africain siège au Cap, tout au sud du pays, au pied de la montagne de la Table. Pretoria héberge le gouvernement et Bloemfontein la justice.",
+   "tip": "Le Cap = le Parlement ; Pretoria = le gouvernement.",
+   "extraExample": {
+    "text": "Nelson Mandela a été emprisonné sur Robben Island, face au Cap.",
+    "translation": "Il est devenu président en 1994, après la fin de l'apartheid."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Pretoria",
+     "category": "word_confusion",
+     "feedback": "Pretoria est la capitale exécutive, siège du gouvernement ; le Parlement est au Cap."
+    },
+    {
+     "equals": "Bloemfontein",
+     "category": "word_confusion",
+     "feedback": "Bloemfontein est la capitale judiciaire, pas celle du Parlement."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e17",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque pays à sa capitale.",
+   "prompt": "Capitales du Moyen-Orient",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Iran",
+     "right": "Téhéran"
+    },
+    {
+     "left": "Irak",
+     "right": "Bagdad"
+    },
+    {
+     "left": "Syrie",
+     "right": "Damas"
+    },
+    {
+     "left": "Jordanie",
+     "right": "Amman"
+    },
+    {
+     "left": "Liban",
+     "right": "Beyrouth"
+    }
+   ],
+   "answer": "Iran = Téhéran ; Irak = Bagdad ; Syrie = Damas ; Jordanie = Amman ; Liban = Beyrouth",
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq capitales sont à retenir : Téhéran (Iran), Bagdad (Irak, sur le Tigre), Damas (Syrie), Amman (Jordanie) et Beyrouth (Liban, sur la Méditerranée).",
+   "tip": "Bagdad est sur le Tigre, Beyrouth sur la Méditerranée : un détail de carte aide la mémoire.",
+   "extraExample": {
+    "text": "L'Iran n'est pas un pays arabe : on y parle persan.",
+    "translation": "Le Moyen-Orient et le monde arabe ne se recouvrent donc pas exactement."
+   }
+  },
+  {
+   "id": "cg.l11.e18",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.le_caire"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la capitale de l'Égypte ?",
+   "promptLanguage": "fr",
+   "answer": "Le Caire",
+   "acceptedAnswers": [
+    "Le Caire",
+    "Caire",
+    "Cairo"
+   ],
+   "explanation": "Le Caire, sur le Nil, est la capitale de l'Égypte et l'une des plus grandes villes d'Afrique. Alexandrie, grand port de la Méditerranée, est la deuxième ville du pays.",
+   "tip": "Égypte → Le Caire, au bord du Nil.",
+   "extraExample": {
+    "text": "Les pyramides de Gizeh se trouvent à la périphérie du Caire.",
+    "translation": "Elles ont été bâties vers 2 500 avant J.-C."
+   },
+   "hint": "Elle est au bord du Nil, au sud du delta.",
+   "errorPatterns": [
+    {
+     "equals": "alexandrie",
+     "category": "word_confusion",
+     "feedback": "Alexandrie est un grand port de la Méditerranée, mais la capitale est Le Caire."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e19",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.abou_dhabi"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la capitale des Émirats arabes unis ?",
+   "promptLanguage": "fr",
+   "answer": "Abou Dhabi",
+   "acceptedAnswers": [
+    "Abou Dhabi",
+    "Abu Dhabi",
+    "Abou Dabi",
+    "Abu Dabi",
+    "Abou-Dhabi"
+   ],
+   "explanation": "Abou Dhabi est la capitale fédérale des Émirats arabes unis et le plus vaste des sept émirats. Dubaï est la ville la plus peuplée et la plus célèbre.",
+   "tip": "Émirats arabes unis → Abou Dhabi, pas Dubaï.",
+   "extraExample": {
+    "text": "Les Émirats arabes unis ont été fondés en 1971 et réunissent sept émirats.",
+    "translation": "Dubaï, Charjah et Abou Dhabi sont les plus connus."
+   },
+   "hint": "Ce n'est pas la ville la plus connue, Dubaï.",
+   "errorPatterns": [
+    {
+     "equals": "dubaï",
+     "category": "word_confusion",
+     "feedback": "Dubaï est la ville la plus célèbre, mais la capitale fédérale est Abou Dhabi."
+    },
+    {
+     "equals": "dubai",
+     "category": "word_confusion",
+     "feedback": "Dubaï est la ville la plus célèbre, mais la capitale fédérale est Abou Dhabi."
+    }
+   ]
+  },
+  {
+   "id": "cg.l11.e20",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.kilimandjaro"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans quel pays d'Afrique de l'Est se trouve le Kilimandjaro, plus haut sommet du continent ?",
+   "promptLanguage": "fr",
+   "answer": "Tanzanie",
+   "acceptedAnswers": [
+    "Tanzanie",
+    "La Tanzanie",
+    "en Tanzanie"
+   ],
+   "explanation": "Le Kilimandjaro (5 895 m) se trouve en Tanzanie, près de la frontière avec le Kenya. C'est un massif volcanique isolé qui domine la savane.",
+   "tip": "Kilimandjaro = Tanzanie, même si on le voit bien depuis le Kenya.",
+   "extraExample": {
+    "text": "Le mont Kenya, deuxième sommet d'Afrique, se trouve au Kenya.",
+    "translation": "Il culmine à environ 5 200 m."
+   },
+   "errorPatterns": [
+    {
+     "equals": "kenya",
+     "category": "word_confusion",
+     "feedback": "Le Kilimandjaro se voit depuis le Kenya, mais il se dresse du côté tanzanien de la frontière."
+    }
+   ]
+  }
+ ]
+}

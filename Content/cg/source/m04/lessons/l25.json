@@ -1,0 +1,850 @@
+{
+ "lessonId": "cg.l25",
+ "exercises": [
+  {
+   "id": "cg.l25.e01",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.cinquieme_republique"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En quelle année la Constitution de la Ve République est-elle adoptée ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1946",
+    "1958",
+    "1962",
+    "1974"
+   ],
+   "answer": "1958",
+   "acceptedAnswers": [
+    "1958"
+   ],
+   "explanation": "La Constitution de la Ve République est approuvée par référendum le 28 septembre 1958, puis promulguée le 4 octobre. Elle remplace celle de la IVe République (1946), jugée trop instable.",
+   "tip": "1958 : naissance de la Ve République, voulue par de Gaulle.",
+   "extraExample": {
+    "text": "La Constitution de 1958 a été révisée plusieurs fois, par exemple en 2008.",
+    "translation": "C'est pourtant le même texte de base, d'où le nom de Ve République."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1946",
+     "category": "word_confusion",
+     "feedback": "1946 est la date de la Constitution de la IVe République, remplacée en 1958."
+    },
+    {
+     "equals": "1962",
+     "category": "word_confusion",
+     "feedback": "En 1962, un référendum modifie la Constitution pour faire élire le président au suffrage universel direct : le texte date déjà de 1958."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e02",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.quinquennat",
+    "cg.v.president_de_la_republique"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la durée du mandat du président de la République aujourd'hui ?",
+   "promptLanguage": "fr",
+   "options": [
+    "4 ans",
+    "5 ans",
+    "6 ans",
+    "7 ans"
+   ],
+   "answer": "5 ans",
+   "acceptedAnswers": [
+    "5 ans"
+   ],
+   "explanation": "Le quinquennat, adopté par référendum en 2000, s'applique depuis l'élection de 2002. Avant, le mandat présidentiel durait sept ans : c'était le septennat.",
+   "tip": "Quinquennat : « quinque » veut dire cinq en latin.",
+   "extraExample": {
+    "text": "Un mandat de député dure aussi cinq ans.",
+    "translation": "Depuis 2002, le président et les députés ont des mandats de même durée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "7 ans",
+     "category": "word_confusion",
+     "feedback": "C'était la durée du septennat, remplacé par le quinquennat à partir de 2002."
+    },
+    {
+     "equals": "6 ans",
+     "category": "word_confusion",
+     "feedback": "Six ans est la durée du mandat d'un sénateur, pas celle du président."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e03",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.president_de_la_republique",
+    "cg.v.premier_ministre",
+    "cg.v.assemblee_nationale",
+    "cg.v.senat",
+    "cg.v.conseil_constitutionnel"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui fait quoi dans les institutions ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Le président de la République",
+     "right": "nomme le Premier ministre"
+    },
+    {
+     "left": "Le Premier ministre",
+     "right": "dirige l'action du gouvernement"
+    },
+    {
+     "left": "L'Assemblée nationale",
+     "right": "peut renverser le gouvernement par une motion de censure"
+    },
+    {
+     "left": "Le Sénat",
+     "right": "représente les collectivités territoriales"
+    },
+    {
+     "left": "Le Conseil constitutionnel",
+     "right": "vérifie que les lois respectent la Constitution"
+    }
+   ],
+   "answer": "Le président de la République = nomme le Premier ministre ; Le Premier ministre = dirige l'action du gouvernement ; L'Assemblée nationale = peut renverser le gouvernement par une motion de censure ; Le Sénat = représente les collectivités territoriales ; Le Conseil constitutionnel = vérifie que les lois respectent la Constitution",
+   "acceptedAnswers": [],
+   "explanation": "Chaque institution a son rôle : le président nomme le Premier ministre ; celui-ci dirige le gouvernement ; l'Assemblée le contrôle ; le Sénat représente les communes, les départements et les régions ; le Conseil constitutionnel contrôle les lois.",
+   "tip": "Un verbe par institution : nommer, diriger, renverser, représenter, vérifier.",
+   "extraExample": {
+    "text": "Quand une loi est votée, le président la promulgue.",
+    "translation": "Promulguer, c'est la rendre officielle et applicable."
+   }
+  },
+  {
+   "id": "cg.l25.e04",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.assemblee_nationale",
+    "cg.v.senat"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de députés siègent à l'Assemblée nationale ?",
+   "promptLanguage": "fr",
+   "options": [
+    "348",
+    "577",
+    "650",
+    "750"
+   ],
+   "answer": "577",
+   "acceptedAnswers": [
+    "577"
+   ],
+   "explanation": "L'Assemblée nationale compte 577 députés, élus chacun dans une circonscription. Le Sénat, lui, compte 348 sénateurs depuis 2023.",
+   "tip": "577 députés, 348 sénateurs : le plus grand nombre est pour l'Assemblée.",
+   "extraExample": {
+    "text": "Le Parlement européen compte plus de 700 eurodéputés.",
+    "translation": "C'est une autre institution, élue dans toute l'Union européenne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "348",
+     "category": "word_confusion",
+     "feedback": "348 est le nombre de sénateurs, pas de députés."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e05",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.senat"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment sont élus les sénateurs ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Par des grands électeurs, au suffrage indirect",
+    "Par tous les citoyens, au suffrage universel direct",
+    "Ils sont nommés par le président de la République",
+    "Ils sont tirés au sort parmi les citoyens"
+   ],
+   "answer": "Par des grands électeurs, au suffrage indirect",
+   "acceptedAnswers": [
+    "Par des grands électeurs, au suffrage indirect"
+   ],
+   "explanation": "Les sénateurs sont élus par des grands électeurs : parlementaires, conseillers régionaux et départementaux, et surtout délégués des conseils municipaux. Les députés, eux, sont élus directement par les citoyens.",
+   "tip": "Sénat = élu par des élus (suffrage indirect).",
+   "extraExample": {
+    "text": "Un sénateur est élu pour six ans, avec un renouvellement par moitié tous les trois ans.",
+    "translation": "Le Sénat ne peut pas être dissous, contrairement à l'Assemblée nationale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Par tous les citoyens, au suffrage universel direct",
+     "category": "word_confusion",
+     "feedback": "C'est le mode d'élection des députés ; les sénateurs sont choisis par des élus."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e06",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.president_de_la_republique",
+    "cg.v.assemblee_nationale"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui peut dissoudre l'Assemblée nationale pour provoquer de nouvelles élections législatives ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le président de la République",
+    "Le Premier ministre",
+    "Le Sénat",
+    "Le Conseil constitutionnel"
+   ],
+   "answer": "Le président de la République",
+   "acceptedAnswers": [
+    "Le président de la République"
+   ],
+   "explanation": "L'article 12 de la Constitution donne ce pouvoir au président, après consultation du Premier ministre et des présidents des deux assemblées. Il ne peut pas dissoudre le Sénat.",
+   "tip": "Dissoudre, c'est renvoyer les députés devant les électeurs.",
+   "extraExample": {
+    "text": "En 1997, Jacques Chirac dissout l'Assemblée nationale ; les élections qui suivent donnent la majorité à ses adversaires et ouvrent une cohabitation.",
+    "translation": "La dissolution est un pari risqué."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Premier ministre",
+     "category": "word_confusion",
+     "feedback": "Le Premier ministre peut engager la responsabilité de son gouvernement, mais seul le président peut dissoudre l'Assemblée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e07",
+   "unitIds": [
+    "cg.v.ocean_indien",
+    "cg.g25.institutions_francaises"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "La Réunion et Mayotte, départements français d'outre-mer, sont situées dans quel océan ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Océan Indien",
+    "Océan Atlantique",
+    "Océan Pacifique",
+    "Océan Arctique"
+   ],
+   "answer": "Océan Indien",
+   "acceptedAnswers": [
+    "Océan Indien"
+   ],
+   "explanation": "La Réunion et Mayotte sont dans l'océan Indien. Avec la Guadeloupe, la Martinique et la Guyane, ce sont des départements et régions d'outre-mer : des parties à part entière de la République.",
+   "tip": "L'outre-mer étend la France dans plusieurs océans.",
+   "extraExample": {
+    "text": "La Guadeloupe et la Martinique sont dans les Caraïbes, au bord de l'océan Atlantique.",
+    "translation": "Grâce à l'outre-mer, la France possède l'une des plus grandes zones maritimes du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Océan Atlantique",
+     "category": "word_confusion",
+     "feedback": "L'Atlantique abrite la Guadeloupe et la Martinique, mais La Réunion et Mayotte sont à l'est de l'Afrique, dans l'océan Indien."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e08",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.president_de_la_republique",
+    "cg.v.premier_ministre",
+    "cg.v.assemblee_nationale",
+    "cg.v.senat",
+    "cg.v.conseil_constitutionnel"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Où siège chaque pouvoir à Paris ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Palais de l'Élysée",
+     "right": "président de la République"
+    },
+    {
+     "left": "Hôtel de Matignon",
+     "right": "Premier ministre"
+    },
+    {
+     "left": "Palais-Bourbon",
+     "right": "Assemblée nationale"
+    },
+    {
+     "left": "Palais du Luxembourg",
+     "right": "Sénat"
+    },
+    {
+     "left": "Palais-Royal",
+     "right": "Conseil constitutionnel"
+    }
+   ],
+   "answer": "Palais de l'Élysée = président de la République ; Hôtel de Matignon = Premier ministre ; Palais-Bourbon = Assemblée nationale ; Palais du Luxembourg = Sénat ; Palais-Royal = Conseil constitutionnel",
+   "acceptedAnswers": [],
+   "explanation": "Chaque institution est associée à un lieu parisien : l'Élysée pour le président, Matignon pour le Premier ministre, le Palais-Bourbon pour l'Assemblée, le Luxembourg pour le Sénat et le Palais-Royal pour le Conseil constitutionnel.",
+   "tip": "On dit souvent « l'Élysée » ou « Matignon » pour parler de ceux qui y travaillent.",
+   "extraExample": {
+    "text": "Quand on lit « Matignon a annoncé… », il s'agit du Premier ministre et de son équipe.",
+    "translation": "C'est une figure de style : le lieu désigne l'institution."
+   }
+  },
+  {
+   "id": "cg.l25.e09",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.president_de_la_republique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Depuis le référendum de 1962, le président de la République est élu au suffrage universel ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "direct",
+    "indirect",
+    "restreint",
+    "censitaire"
+   ],
+   "answer": "direct",
+   "acceptedAnswers": [
+    "direct"
+   ],
+   "explanation": "Le référendum du 28 octobre 1962, voulu par de Gaulle, fait élire le président directement par les citoyens. La première élection de ce type a lieu en décembre 1965.",
+   "tip": "Le président est élu directement, le sénateur indirectement.",
+   "extraExample": {
+    "text": "En 1965, de Gaulle est mis en ballottage au premier tour, puis réélu au second face à François Mitterrand.",
+    "translation": "Cette élection montre l'importance du second tour."
+   },
+   "errorPatterns": [
+    {
+     "equals": "indirect",
+     "category": "word_confusion",
+     "feedback": "Le suffrage indirect est celui du Sénat. Depuis 1962, les citoyens votent directement pour le président."
+    },
+    {
+     "equals": "censitaire",
+     "category": "word_confusion",
+     "feedback": "Le suffrage censitaire, réservé aux plus riches, a disparu en France en 1848."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e10",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.senat",
+    "cg.v.assemblee_nationale"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Parlement français est composé de deux chambres : l'Assemblée nationale et le ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Sénat",
+    "Conseil d'État",
+    "Conseil constitutionnel",
+    "Congrès"
+   ],
+   "answer": "Sénat",
+   "acceptedAnswers": [
+    "Sénat",
+    "le Sénat",
+    "Senat",
+    "le Senat"
+   ],
+   "explanation": "Le Parlement est composé de deux chambres, qui votent ensemble la loi. Le Congrès, lui, est la réunion exceptionnelle des deux chambres à Versailles, par exemple pour réviser la Constitution.",
+   "tip": "Deux chambres : on parle de bicamérisme.",
+   "extraExample": {
+    "text": "Au Royaume-Uni, le Parlement a aussi deux chambres : la Chambre des communes et la Chambre des lords.",
+    "translation": "Aux États-Unis, le Congrès comprend la Chambre des représentants et le Sénat."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Congrès",
+     "category": "word_confusion",
+     "feedback": "Le Congrès est la réunion exceptionnelle des deux chambres à Versailles, pas une chambre à part entière."
+    },
+    {
+     "equals": "Conseil constitutionnel",
+     "category": "word_confusion",
+     "feedback": "Le Conseil constitutionnel contrôle les lois ; il ne fait pas partie du Parlement."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e11",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.separation_des_pouvoirs"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Selon le principe de la séparation des ___, le pouvoir exécutif, le pouvoir législatif et le pouvoir judiciaire sont distincts.",
+   "promptLanguage": "fr",
+   "options": [
+    "pouvoirs",
+    "Églises",
+    "partis",
+    "régimes"
+   ],
+   "answer": "pouvoirs",
+   "acceptedAnswers": [
+    "pouvoirs"
+   ],
+   "explanation": "La séparation des pouvoirs répartit l'autorité pour éviter les abus : le Parlement fait la loi, le gouvernement l'applique et les juges tranchent les litiges.",
+   "tip": "L'exécutif applique, le législatif vote, le judiciaire juge.",
+   "extraExample": {
+    "text": "La séparation des Églises et de l'État, votée en 1905, est un autre principe : la laïcité.",
+    "translation": "Ne confonds pas ces deux « séparations »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Églises",
+     "category": "word_confusion",
+     "feedback": "La séparation des Églises et de l'État (loi de 1905) concerne la laïcité, pas l'organisation des pouvoirs."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e12",
+   "unitIds": [
+    "cg.v.equateur",
+    "cg.g21.espace"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "La Guyane, département français d'outre-mer, accueille le port spatial de Kourou. Pourquoi ce lieu est-il bien placé pour lancer des fusées ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il est proche de l'équateur, où la rotation de la Terre donne un surcroît de vitesse",
+    "Il est proche du pôle Nord, où l'air est plus froid",
+    "Il est au milieu de l'océan Atlantique, loin de toute côte",
+    "Il est en altitude, au sommet d'une haute montagne"
+   ],
+   "answer": "Il est proche de l'équateur, où la rotation de la Terre donne un surcroît de vitesse",
+   "acceptedAnswers": [
+    "Il est proche de l'équateur, où la rotation de la Terre donne un surcroît de vitesse"
+   ],
+   "explanation": "Kourou se trouve à environ 5° de latitude nord. Près de l'équateur, la rotation de la Terre ajoute de la vitesse aux fusées lancées vers l'est, et l'océan à l'est permet des lancements sans danger pour la population.",
+   "tip": "Près de l'équateur, la Terre tourne vite : c'est de la vitesse gratuite.",
+   "extraExample": {
+    "text": "Ariane 1 décolle de Kourou pour la première fois le 24 décembre 1979.",
+    "translation": "Depuis, Kourou est le port spatial de l'Europe."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il est proche du pôle Nord, où l'air est plus froid",
+     "category": "word_confusion",
+     "feedback": "Près des pôles, la rotation de la Terre n'apporte presque aucune vitesse : le gain est maximal à l'équateur."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e13",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.conseil_constitutionnel"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le rôle du Conseil constitutionnel ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Vérifier que les lois respectent la Constitution",
+    "Juger les procès entre particuliers",
+    "Contrôler les comptes de l'État",
+    "Choisir les ministres du gouvernement"
+   ],
+   "answer": "Vérifier que les lois respectent la Constitution",
+   "acceptedAnswers": [
+    "Vérifier que les lois respectent la Constitution"
+   ],
+   "explanation": "Le Conseil constitutionnel, créé en 1958, peut censurer une loi contraire à la Constitution. Il veille aussi à la régularité de l'élection présidentielle et des référendums nationaux.",
+   "tip": "Constitutionnel : « est-ce conforme à la Constitution ? »",
+   "extraExample": {
+    "text": "Depuis 2010, un justiciable peut soulever une question prioritaire de constitutionnalité (QPC) pendant un procès.",
+    "translation": "Le Conseil examine alors si la loi appliquée respecte les droits garantis par la Constitution."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Juger les procès entre particuliers",
+     "category": "word_confusion",
+     "feedback": "Ce sont les tribunaux judiciaires et administratifs qui jugent les litiges ; le Conseil constitutionnel contrôle les lois."
+    },
+    {
+     "equals": "Contrôler les comptes de l'État",
+     "category": "word_confusion",
+     "feedback": "Les comptes publics sont contrôlés par la Cour des comptes."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e14",
+   "unitIds": [
+    "cg.v.ocean_pacifique",
+    "cg.g25.institutions_francaises"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "La Polynésie française, collectivité d'outre-mer de la France, se trouve dans l'océan ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Pacifique",
+    "Indien",
+    "Atlantique",
+    "Arctique"
+   ],
+   "answer": "Pacifique",
+   "acceptedAnswers": [
+    "Pacifique"
+   ],
+   "explanation": "La Polynésie française (Tahiti, Bora-Bora…) est un archipel du Pacifique sud, à plus de 15 000 km de Paris. Son statut de collectivité d'outre-mer lui donne une autonomie plus large que celle d'un département.",
+   "tip": "Tahiti, Bora-Bora : Pacifique.",
+   "extraExample": {
+    "text": "La Nouvelle-Calédonie, dont la capitale est Nouméa, est elle aussi dans le Pacifique.",
+    "translation": "Elle a un statut particulier au sein de la République."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Indien",
+     "category": "word_confusion",
+     "feedback": "Les territoires français de l'océan Indien sont La Réunion, Mayotte et d'autres îles ; Tahiti est dans le Pacifique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e15",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.motion_de_censure"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que se passe-t-il quand l'Assemblée nationale adopte une motion de censure ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le gouvernement doit démissionner",
+    "Le président de la République est destitué",
+    "L'Assemblée nationale est dissoute",
+    "La dernière loi votée est annulée"
+   ],
+   "answer": "Le gouvernement doit démissionner",
+   "acceptedAnswers": [
+    "Le gouvernement doit démissionner"
+   ],
+   "explanation": "Une motion de censure adoptée oblige le Premier ministre à remettre au président la démission du gouvernement. C'est l'arme de l'Assemblée contre l'exécutif.",
+   "tip": "Censure adoptée = le gouvernement tombe.",
+   "extraExample": {
+    "text": "En 1962, le gouvernement de Georges Pompidou est renversé par une motion de censure.",
+    "translation": "Le président de Gaulle répond en dissolvant l'Assemblée nationale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le président de la République est destitué",
+     "category": "word_confusion",
+     "feedback": "La destitution du président est une procédure distincte et exceptionnelle (article 68), qui ne passe pas par la motion de censure."
+    },
+    {
+     "equals": "L'Assemblée nationale est dissoute",
+     "category": "word_confusion",
+     "feedback": "La dissolution est un pouvoir du président, pas la conséquence automatique d'une censure."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e16",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.motion_de_censure",
+    "cg.v.assemblee_nationale"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pour être adoptée, une motion de censure doit réunir au moins ___ voix sur 577 députés.",
+   "promptLanguage": "fr",
+   "options": [
+    "289",
+    "231",
+    "385",
+    "300"
+   ],
+   "answer": "289",
+   "acceptedAnswers": [
+    "289"
+   ],
+   "explanation": "Il faut la majorité absolue des membres de l'Assemblée, c'est-à-dire plus de la moitié des 577 députés : 289. Seuls les votes pour sont comptés, donc les abstentions et les absences jouent en faveur du gouvernement.",
+   "tip": "Majorité absolue de 577 : 289.",
+   "extraExample": {
+    "text": "Pour dissoudre l'Assemblée, en revanche, la décision du président suffit.",
+    "translation": "Censure d'un côté, dissolution de l'autre : les deux pouvoirs se répondent."
+   },
+   "errorPatterns": [
+    {
+     "equals": "231",
+     "category": "word_confusion",
+     "feedback": "231 correspond à environ 40 % des députés : ce n'est pas la majorité absolue."
+    },
+    {
+     "equals": "385",
+     "category": "word_confusion",
+     "feedback": "385 correspond aux deux tiers des députés : ce seuil n'est pas celui de la censure."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e17",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.cohabitation"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'appelle-t-on la « cohabitation » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le président et la majorité de l'Assemblée nationale sont de camps politiques opposés",
+    "Le gouvernement associe des ministres de plusieurs partis alliés",
+    "Le Sénat et l'Assemblée nationale sont de camps politiques opposés",
+    "Le président gouverne seul, sans Premier ministre"
+   ],
+   "answer": "Le président et la majorité de l'Assemblée nationale sont de camps politiques opposés",
+   "acceptedAnswers": [
+    "Le président et la majorité de l'Assemblée nationale sont de camps politiques opposés"
+   ],
+   "explanation": "En cohabitation, le président doit nommer un Premier ministre issu de la majorité de l'Assemblée, qui est dans le camp opposé au sien. La France l'a connue en 1986, en 1993 et en 1997.",
+   "tip": "Cohabitation : deux camps opposés au sommet de l'exécutif.",
+   "extraExample": {
+    "text": "Depuis le quinquennat et l'inversion du calendrier électoral, la cohabitation est devenue beaucoup plus rare.",
+    "translation": "Les électeurs donnent en général une majorité au président tout juste élu."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le gouvernement associe des ministres de plusieurs partis alliés",
+     "category": "word_confusion",
+     "feedback": "C'est une coalition, fréquente dans d'autres pays ; la cohabitation oppose le président à la majorité de l'Assemblée."
+    },
+    {
+     "equals": "Le Sénat et l'Assemblée nationale sont de camps politiques opposés",
+     "category": "word_confusion",
+     "feedback": "Les deux chambres peuvent avoir des majorités différentes sans cohabitation : celle-ci concerne le président et l'Assemblée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e18",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.premier_ministre"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le gouvernement.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "dirige",
+    "du",
+    "Le",
+    "ministre",
+    "gouvernement",
+    "Premier",
+    "l'action"
+   ],
+   "answer": "Le Premier ministre dirige l'action du gouvernement",
+   "acceptedAnswers": [
+    "Le Premier ministre dirige l'action du gouvernement"
+   ],
+   "hint": "Commence par la fonction.",
+   "explanation": "L'article 21 de la Constitution confie au Premier ministre la direction de l'action du gouvernement. Le président, lui, est le chef de l'État.",
+   "tip": "Président = chef de l'État ; Premier ministre = chef du gouvernement.",
+   "extraExample": {
+    "text": "Le gouvernement « détermine et conduit la politique de la Nation » (article 20).",
+    "translation": "C'est la formule officielle pour décrire son rôle."
+   }
+  },
+  {
+   "id": "cg.l25.e19",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.assemblee_nationale"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la chambre du Parlement qui compte 577 députés ?",
+   "promptLanguage": "fr",
+   "answer": "L'Assemblée nationale",
+   "acceptedAnswers": [
+    "L'Assemblée nationale",
+    "Assemblée nationale",
+    "L'Assemblee nationale",
+    "Assemblee nationale"
+   ],
+   "explanation": "Les 577 députés siègent à l'Assemblée nationale, au Palais-Bourbon. L'autre chambre est le Sénat, avec 348 sénateurs.",
+   "tip": "577 : c'est l'Assemblée nationale.",
+   "extraExample": {
+    "text": "Il y a un seul député par circonscription, élu pour cinq ans au scrutin majoritaire à deux tours.",
+    "translation": "Les Français établis hors de France élisent aussi leurs députés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sénat",
+     "category": "word_confusion",
+     "feedback": "Le Sénat compte 348 sénateurs. Les 577 députés siègent à l'Assemblée nationale."
+    },
+    {
+     "equals": "Le Sénat",
+     "category": "word_confusion",
+     "feedback": "Le Sénat compte 348 sénateurs. Les 577 députés siègent à l'Assemblée nationale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e20",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.cohabitation",
+    "cg.v.president_de_la_republique",
+    "cg.v.premier_ministre"
+   ],
+   "type": "match",
+   "difficulty": 4,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les trois cohabitations de la Ve République",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1986-1988",
+     "right": "Mitterrand (président) et Chirac (Premier ministre)"
+    },
+    {
+     "left": "1993-1995",
+     "right": "Mitterrand (président) et Balladur (Premier ministre)"
+    },
+    {
+     "left": "1997-2002",
+     "right": "Chirac (président) et Jospin (Premier ministre)"
+    }
+   ],
+   "answer": "1986-1988 = Mitterrand (président) et Chirac (Premier ministre) ; 1993-1995 = Mitterrand (président) et Balladur (Premier ministre) ; 1997-2002 = Chirac (président) et Jospin (Premier ministre)",
+   "acceptedAnswers": [],
+   "explanation": "Il y a eu trois cohabitations : deux sous François Mitterrand et une sous Jacques Chirac. La dernière, de 1997 à 2002, est la plus longue ; elle précède le passage au quinquennat.",
+   "tip": "Deux cohabitations avec Mitterrand, une avec Chirac.",
+   "extraExample": {
+    "text": "Depuis l'instauration du quinquennat, la cohabitation est devenue beaucoup plus rare.",
+    "translation": "Le calendrier électoral favorise une majorité alignée sur le président."
+   }
+  },
+  {
+   "id": "cg.l25.e21",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.separation_des_pouvoirs"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel philosophe des Lumières a théorisé la séparation des pouvoirs dans De l'esprit des lois (1748) ?",
+   "promptLanguage": "fr",
+   "answer": "Montesquieu",
+   "acceptedAnswers": [
+    "Montesquieu",
+    "Charles de Montesquieu",
+    "Charles de Secondat"
+   ],
+   "explanation": "Montesquieu (1689-1755) écrit dans De l'esprit des lois : « il faut que, par la disposition des choses, le pouvoir arrête le pouvoir ». Il en tire la distinction entre pouvoirs législatif, exécutif et judiciaire.",
+   "tip": "Montesquieu : trois pouvoirs, 1748.",
+   "extraExample": {
+    "text": "Aux États-Unis, la Constitution de 1787 s'inspire de cette idée d'équilibre entre les pouvoirs.",
+    "translation": "Les rédacteurs américains citent Montesquieu."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Rousseau",
+     "category": "word_confusion",
+     "feedback": "Rousseau est l'auteur du Contrat social (1762), sur la souveraineté du peuple."
+    },
+    {
+     "equals": "Voltaire",
+     "category": "word_confusion",
+     "feedback": "Voltaire est surtout connu pour son combat pour la tolérance, pas pour la théorie des trois pouvoirs."
+    }
+   ]
+  },
+  {
+   "id": "cg.l25.e22",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.cinquieme_republique"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel général, premier président de la Ve République, a inspiré la Constitution de 1958 ?",
+   "promptLanguage": "fr",
+   "answer": "Charles de Gaulle",
+   "acceptedAnswers": [
+    "Charles de Gaulle",
+    "de Gaulle",
+    "le général de Gaulle",
+    "général de Gaulle",
+    "le general de Gaulle",
+    "general de Gaulle"
+   ],
+   "explanation": "Charles de Gaulle, revenu au pouvoir en 1958 pendant la crise algérienne, fait rédiger une nouvelle Constitution par une équipe conduite par Michel Debré. Il est président de janvier 1959 à avril 1969.",
+   "tip": "De Gaulle : l'appel du 18 juin 1940, puis la Ve République en 1958.",
+   "extraExample": {
+    "text": "Il démissionne en 1969 après l'échec d'un référendum sur la régionalisation et le Sénat.",
+    "translation": "Il meurt en 1970 à Colombey-les-Deux-Églises."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Georges Pompidou",
+     "category": "word_confusion",
+     "feedback": "Georges Pompidou lui succède comme président en 1969 ; il avait été son Premier ministre de 1962 à 1968."
+    },
+    {
+     "equals": "Michel Debré",
+     "category": "word_confusion",
+     "feedback": "Michel Debré a rédigé la Constitution et a été le premier Premier ministre, mais le premier président est de Gaulle."
+    }
+   ]
+  }
+ ]
+}

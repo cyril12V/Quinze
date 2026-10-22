@@ -1,0 +1,849 @@
+{
+ "lessonId": "cg.l26",
+ "exercises": [
+  {
+   "id": "cg.l26.e01",
+   "unitIds": [
+    "cg.v.bruxelles",
+    "cg.g26.union_europeenne",
+    "cg.v.commission_europeenne"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ville belge accueille la Commission européenne et le Conseil de l'Union européenne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Bruxelles",
+    "Strasbourg",
+    "Luxembourg",
+    "Amsterdam"
+   ],
+   "answer": "Bruxelles",
+   "acceptedAnswers": [
+    "Bruxelles"
+   ],
+   "explanation": "Bruxelles, capitale de la Belgique, accueille la Commission européenne, le Conseil de l'UE et le Conseil européen. On l'appelle parfois la « capitale de l'Europe », même si l'Union n'a pas de capitale officielle.",
+   "tip": "Commission et Conseils : Bruxelles ; Parlement : Strasbourg et Bruxelles.",
+   "extraExample": {
+    "text": "Les sessions plénières du Parlement européen ont lieu à Strasbourg.",
+    "translation": "L'Union européenne a donc plusieurs sièges répartis entre plusieurs villes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Strasbourg",
+     "category": "word_confusion",
+     "feedback": "Strasbourg accueille les sessions plénières du Parlement européen, mais pas la Commission."
+    },
+    {
+     "equals": "Amsterdam",
+     "category": "word_confusion",
+     "feedback": "Amsterdam est la capitale des Pays-Bas ; aucune grande institution européenne n'y siège."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e02",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.brexit"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien d'États membres compte l'Union européenne depuis le départ du Royaume-Uni en 2020 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "25",
+    "27",
+    "28",
+    "30"
+   ],
+   "answer": "27",
+   "acceptedAnswers": [
+    "27"
+   ],
+   "explanation": "Le Royaume-Uni est parti le 31 janvier 2020 : l'Union est passée de 28 à 27 États membres.",
+   "tip": "28 moins 1 : 27.",
+   "extraExample": {
+    "text": "La Croatie est entrée dans l'Union en 2013.",
+    "translation": "Plusieurs autres pays ont le statut de candidat."
+   },
+   "errorPatterns": [
+    {
+     "equals": "28",
+     "category": "word_confusion",
+     "feedback": "28 est le nombre d'États entre 2013 et 2020, avant le Brexit."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e03",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.commission_europeenne",
+    "cg.v.parlement_europeen",
+    "cg.v.conseil_europeen",
+    "cg.v.euro"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les institutions européennes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "La Commission européenne",
+     "right": "propose les lois et veille à leur application"
+    },
+    {
+     "left": "Le Parlement européen",
+     "right": "élu par les citoyens, il vote les lois avec le Conseil de l'UE"
+    },
+    {
+     "left": "Le Conseil européen",
+     "right": "réunit les chefs d'État ou de gouvernement"
+    },
+    {
+     "left": "La Cour de justice de l'UE",
+     "right": "veille au respect du droit européen"
+    },
+    {
+     "left": "La Banque centrale européenne",
+     "right": "gère l'euro et fixe ses taux d'intérêt"
+    }
+   ],
+   "answer": "La Commission européenne = propose les lois et veille à leur application ; Le Parlement européen = élu par les citoyens, il vote les lois avec le Conseil de l'UE ; Le Conseil européen = réunit les chefs d'État ou de gouvernement ; La Cour de justice de l'UE = veille au respect du droit européen ; La Banque centrale européenne = gère l'euro et fixe ses taux d'intérêt",
+   "acceptedAnswers": [],
+   "explanation": "Chaque institution a sa mission : la Commission propose, le Parlement et le Conseil de l'UE votent, le Conseil européen donne les grandes orientations, la Cour juge et la BCE gère la monnaie.",
+   "tip": "Une mission par institution : proposer, voter, orienter, juger, gérer l'euro.",
+   "extraExample": {
+    "text": "Un règlement européen s'applique directement dans tous les pays ; une directive doit être transposée dans chaque droit national.",
+    "translation": "Le RGPD, sur les données personnelles, est un règlement : il s'applique depuis mai 2018."
+   }
+  },
+  {
+   "id": "cg.l26.e04",
+   "unitIds": [
+    "cg.v.varsovie",
+    "cg.v.bratislava",
+    "cg.v.ljubljana",
+    "cg.g26.union_europeenne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Varsovie, Bratislava et Ljubljana sont les capitales de trois pays entrés dans l'Union européenne la même année. Laquelle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1995",
+    "2004",
+    "2007",
+    "2013"
+   ],
+   "answer": "2004",
+   "acceptedAnswers": [
+    "2004"
+   ],
+   "explanation": "Le 1er mai 2004, dix pays rejoignent l'UE : la Pologne, la Hongrie, la Tchéquie, la Slovaquie, la Slovénie, les trois pays baltes, Malte et Chypre. C'est le plus grand élargissement de son histoire.",
+   "tip": "2004 : l'Europe de l'Est entre dans l'Union.",
+   "extraExample": {
+    "text": "La Bulgarie et la Roumanie suivent en 2007, la Croatie en 2013.",
+    "translation": "Ces élargissements ont fait passer l'Union de 15 à 28 membres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "2007",
+     "category": "word_confusion",
+     "feedback": "En 2007, ce sont la Bulgarie et la Roumanie qui entrent dans l'Union."
+    },
+    {
+     "equals": "1995",
+     "category": "word_confusion",
+     "feedback": "En 1995, ce sont l'Autriche, la Finlande et la Suède qui entrent dans l'Union."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e05",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.traite_de_rome"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel traité, signé en 1957, crée la Communauté économique européenne, le « marché commun » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le traité de Rome",
+    "Le traité de Paris",
+    "Le traité de Maastricht",
+    "Le traité de Lisbonne"
+   ],
+   "answer": "Le traité de Rome",
+   "acceptedAnswers": [
+    "Le traité de Rome"
+   ],
+   "explanation": "Signé le 25 mars 1957 par les six pays de la CECA, le traité de Rome crée la CEE (le marché commun) et l'Euratom. Il entre en vigueur le 1er janvier 1958.",
+   "tip": "Rome 1957 : marché commun.",
+   "extraExample": {
+    "text": "Le 25 mars est fêté comme l'anniversaire des traités de Rome.",
+    "translation": "En 2017, l'Union a célébré leurs 60 ans à Rome."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le traité de Paris",
+     "category": "word_confusion",
+     "feedback": "Le traité de Paris (1951) crée la CECA, la communauté du charbon et de l'acier."
+    },
+    {
+     "equals": "Le traité de Maastricht",
+     "category": "word_confusion",
+     "feedback": "Maastricht (1992) crée l'Union européenne et prépare l'euro."
+    },
+    {
+     "equals": "Le traité de Lisbonne",
+     "category": "word_confusion",
+     "feedback": "Lisbonne (signé en 2007, en vigueur en 2009) réforme les institutions de l'Union."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e06",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.traite_de_maastricht"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que le traité de Maastricht (1992) met en place ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Union européenne, avec la perspective de l'euro",
+    "La Communauté du charbon et de l'acier",
+    "Le marché commun entre six pays",
+    "L'espace Schengen"
+   ],
+   "answer": "L'Union européenne, avec la perspective de l'euro",
+   "acceptedAnswers": [
+    "L'Union européenne, avec la perspective de l'euro"
+   ],
+   "explanation": "Le traité de Maastricht entre en vigueur le 1er novembre 1993. Il crée l'Union européenne et la citoyenneté européenne, et prépare la monnaie unique avec des critères sur le déficit et la dette.",
+   "tip": "Maastricht : la naissance de l'Union et la route vers l'euro.",
+   "extraExample": {
+    "text": "Les critères de Maastricht fixent le déficit public à 3 % du PIB au maximum et la dette à 60 %.",
+    "translation": "Ces chiffres sont encore cités dans les débats budgétaires."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Communauté du charbon et de l'acier",
+     "category": "word_confusion",
+     "feedback": "La CECA date de 1951 (traité de Paris)."
+    },
+    {
+     "equals": "Le marché commun entre six pays",
+     "category": "word_confusion",
+     "feedback": "Le marché commun (CEE) date de 1957 (traité de Rome)."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e07",
+   "unitIds": [
+    "cg.v.berne",
+    "cg.g26.union_europeenne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Laquelle de ces capitales est celle d'un pays qui n'est pas membre de l'Union européenne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Berne",
+    "Vienne",
+    "Bratislava",
+    "Amsterdam"
+   ],
+   "answer": "Berne",
+   "acceptedAnswers": [
+    "Berne"
+   ],
+   "explanation": "La Suisse, dont Berne est la ville fédérale, n'est pas membre de l'UE. Elle a des accords étroits avec l'Union et fait partie de l'espace Schengen. L'Autriche (Vienne), la Slovaquie (Bratislava) et les Pays-Bas (Amsterdam) sont membres.",
+   "tip": "Suisse : Schengen oui, UE non.",
+   "extraExample": {
+    "text": "L'Islande (Reykjavik) et la Norvège ne sont pas non plus dans l'UE.",
+    "translation": "Elles font pourtant partie de l'espace Schengen."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Vienne",
+     "category": "word_confusion",
+     "feedback": "L'Autriche est membre de l'Union européenne depuis 1995."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e08",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.ceca",
+    "cg.v.traite_de_rome",
+    "cg.v.traite_de_maastricht",
+    "cg.v.euro",
+    "cg.v.brexit"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les grandes étapes de la construction européenne",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1951",
+     "right": "traité de Paris : la CECA réunit six pays"
+    },
+    {
+     "left": "1957",
+     "right": "traité de Rome : naissance du marché commun"
+    },
+    {
+     "left": "1992",
+     "right": "signature du traité de Maastricht, qui crée l'Union européenne"
+    },
+    {
+     "left": "2002",
+     "right": "billets et pièces en euros"
+    },
+    {
+     "left": "2020",
+     "right": "départ du Royaume-Uni (Brexit)"
+    }
+   ],
+   "answer": "1951 = traité de Paris : la CECA réunit six pays ; 1957 = traité de Rome : naissance du marché commun ; 1992 = signature du traité de Maastricht, qui crée l'Union européenne ; 2002 = billets et pièces en euros ; 2020 = départ du Royaume-Uni (Brexit)",
+   "acceptedAnswers": [],
+   "explanation": "Cinq dates à connaître : 1951 (CECA), 1957 (marché commun), 1992 (Union européenne), 2002 (euro dans les poches) et 2020 (Brexit).",
+   "tip": "Une date, un mot : charbon, marché, Union, euro, départ.",
+   "extraExample": {
+    "text": "En 1999, l'euro existe déjà, mais seulement pour les banques et les paiements électroniques.",
+    "translation": "Les pièces et les billets arrivent en 2002."
+   }
+  },
+  {
+   "id": "cg.l26.e09",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.robert_schuman",
+    "cg.v.ceca"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le 9 mai 1950, ___, ministre français des Affaires étrangères, propose de mettre en commun le charbon et l'acier de la France et de l'Allemagne.",
+   "promptLanguage": "fr",
+   "options": [
+    "Robert Schuman",
+    "Jean Monnet",
+    "Aristide Briand",
+    "Charles de Gaulle"
+   ],
+   "answer": "Robert Schuman",
+   "acceptedAnswers": [
+    "Robert Schuman",
+    "Schuman"
+   ],
+   "explanation": "Dans la déclaration Schuman, le ministre propose une autorité commune pour le charbon et l'acier. L'idée vient en grande partie de Jean Monnet, mais c'est Schuman, alors ministre, qui la présente.",
+   "tip": "Schuman présente, Monnet inspire.",
+   "extraExample": {
+    "text": "Le 9 mai est devenu la Journée de l'Europe.",
+    "translation": "Chaque année, elle rappelle cette déclaration de 1950."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Jean Monnet",
+     "category": "word_confusion",
+     "feedback": "Jean Monnet a inspiré le plan, mais il n'était pas ministre : c'est Robert Schuman qui l'a présenté."
+    },
+    {
+     "equals": "Aristide Briand",
+     "category": "word_confusion",
+     "feedback": "Aristide Briand avait proposé une « union européenne » dès 1929, mais le plan de 1950 est celui de Schuman."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e10",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.ceca"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 1951, six pays créent la CECA : la France, l'Allemagne de l'Ouest, l'Italie, la Belgique, les Pays-Bas et le ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Luxembourg",
+    "Danemark",
+    "Royaume-Uni",
+    "Autriche"
+   ],
+   "answer": "Luxembourg",
+   "acceptedAnswers": [
+    "Luxembourg"
+   ],
+   "explanation": "Les « Six » sont les pays fondateurs : la France, l'Allemagne de l'Ouest, l'Italie et les trois pays du Benelux (Belgique, Pays-Bas, Luxembourg). Le Royaume-Uni et le Danemark ne rejoignent la Communauté qu'en 1973.",
+   "tip": "Les Six : France, Allemagne, Italie et le Benelux.",
+   "extraExample": {
+    "text": "Le Benelux est l'union douanière de la Belgique, des Pays-Bas et du Luxembourg.",
+    "translation": "Elle existait avant même la CECA."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Royaume-Uni",
+     "category": "word_confusion",
+     "feedback": "Le Royaume-Uni n'a rejoint la Communauté européenne qu'en 1973."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e11",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.euro"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les pièces et les billets en ___ circulent depuis le 1er janvier 2002.",
+   "promptLanguage": "fr",
+   "options": [
+    "euro",
+    "écu",
+    "franc",
+    "dollar"
+   ],
+   "answer": "euro",
+   "acceptedAnswers": [
+    "euro",
+    "l'euro",
+    "euros"
+   ],
+   "explanation": "L'euro existe depuis 1999 comme monnaie de compte ; en 2002, ses pièces et ses billets remplacent les monnaies nationales (franc, mark, lire, peseta…).",
+   "tip": "1999 : euro virtuel ; 2002 : euro dans les poches.",
+   "extraExample": {
+    "text": "En France, le franc a cessé d'avoir cours légal le 17 février 2002.",
+    "translation": "Pendant deux mois, francs et euros ont circulé ensemble."
+   },
+   "errorPatterns": [
+    {
+     "equals": "franc",
+     "category": "word_confusion",
+     "feedback": "Le franc a disparu en 2002, remplacé par l'euro."
+    },
+    {
+     "equals": "écu",
+     "category": "word_confusion",
+     "feedback": "L'écu était une unité de compte européenne avant 1999 ; il n'a jamais circulé comme monnaie courante."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e12",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.espace_schengen"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le village luxembourgeois de ___ a donné son nom aux accords de 1985 sur la libre circulation des personnes.",
+   "promptLanguage": "fr",
+   "options": [
+    "Schengen",
+    "Maastricht",
+    "Strasbourg",
+    "Bruxelles"
+   ],
+   "answer": "Schengen",
+   "acceptedAnswers": [
+    "Schengen"
+   ],
+   "explanation": "Les accords ont été signés le 14 juin 1985 sur un bateau, à Schengen, au bord de la Moselle, là où se touchent le Luxembourg, la France et l'Allemagne.",
+   "tip": "Schengen : le village où les frontières se sont ouvertes.",
+   "extraExample": {
+    "text": "La convention d'application est signée en 1990 et les contrôles disparaissent à partir de 1995.",
+    "translation": "Le 26 mars 1995 est la date d'entrée en application."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Maastricht",
+     "category": "word_confusion",
+     "feedback": "Maastricht est une ville des Pays-Bas qui a donné son nom au traité de 1992 sur l'Union européenne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e13",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.espace_schengen"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que permet l'espace Schengen ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Franchir sans contrôle d'identité les frontières intérieures entre pays membres",
+    "Payer partout avec la même monnaie",
+    "Voter aux élections nationales de n'importe quel pays membre",
+    "Travailler dans le monde entier sans autorisation"
+   ],
+   "answer": "Franchir sans contrôle d'identité les frontières intérieures entre pays membres",
+   "acceptedAnswers": [
+    "Franchir sans contrôle d'identité les frontières intérieures entre pays membres"
+   ],
+   "explanation": "L'espace Schengen supprime les contrôles aux frontières entre les pays membres. Il ne concerne ni la monnaie (c'est la zone euro) ni le droit de vote aux élections nationales.",
+   "tip": "Schengen : frontières ouvertes ; euro : monnaie commune.",
+   "extraExample": {
+    "text": "Un pays peut rétablir temporairement des contrôles pour des raisons de sécurité.",
+    "translation": "La libre circulation a des exceptions prévues par les règles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Payer partout avec la même monnaie",
+     "category": "word_confusion",
+     "feedback": "C'est la zone euro. La Suède et la Pologne sont dans Schengen sans avoir l'euro."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e14",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.commission_europeenne"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle institution européenne propose les textes de loi, puis veille à leur application ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Commission européenne",
+    "Le Parlement européen",
+    "Le Conseil européen",
+    "La Cour de justice de l'Union européenne"
+   ],
+   "answer": "La Commission européenne",
+   "acceptedAnswers": [
+    "La Commission européenne"
+   ],
+   "explanation": "La Commission a, le plus souvent, l'initiative des textes. Le Parlement européen et le Conseil de l'UE les adoptent ensuite. C'est pourquoi on l'appelle la « gardienne des traités ».",
+   "tip": "La Commission propose ; le Parlement et le Conseil de l'UE votent.",
+   "extraExample": {
+    "text": "Un règlement européen s'applique directement dans tous les pays ; une directive doit être transposée dans chaque droit national.",
+    "translation": "Le RGPD, sur les données personnelles, est un règlement : il s'applique depuis mai 2018."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Parlement européen",
+     "category": "word_confusion",
+     "feedback": "Le Parlement vote les lois avec le Conseil de l'UE, mais c'est la Commission qui les propose, sauf exceptions."
+    },
+    {
+     "equals": "Le Conseil européen",
+     "category": "word_confusion",
+     "feedback": "Le Conseil européen fixe les orientations politiques mais ne propose pas les lois."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e15",
+   "unitIds": [
+    "cg.v.assemblee_nationale",
+    "cg.v.parlement_europeen",
+    "cg.g26.union_europeenne"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comme les députés de l'Assemblée nationale, les eurodéputés sont élus directement par les citoyens. Depuis quelle année ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1957",
+    "1979",
+    "1993",
+    "2002"
+   ],
+   "answer": "1979",
+   "acceptedAnswers": [
+    "1979"
+   ],
+   "explanation": "Les premières élections du Parlement européen au suffrage universel direct ont lieu en juin 1979. Avant, ses membres étaient désignés par les parlements nationaux.",
+   "tip": "1979 : les citoyens votent pour l'Europe.",
+   "extraExample": {
+    "text": "Les élections européennes ont lieu tous les cinq ans.",
+    "translation": "En France, elles se déroulent à la proportionnelle, dans une circonscription nationale unique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1957",
+     "category": "word_confusion",
+     "feedback": "1957 est l'année du traité de Rome ; à cette date, le Parlement européen n'est pas encore élu par les citoyens."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e16",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.conseil_europeen"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle organisation, distincte de l'Union européenne, siège à Strasbourg et abrite la Cour européenne des droits de l'homme ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Conseil de l'Europe",
+    "Le Conseil européen",
+    "La Commission européenne",
+    "La Banque centrale européenne"
+   ],
+   "answer": "Le Conseil de l'Europe",
+   "acceptedAnswers": [
+    "Le Conseil de l'Europe"
+   ],
+   "explanation": "Le Conseil de l'Europe, créé en 1949, rassemble plus de 40 États, dont la Suisse et le Royaume-Uni, pour défendre les droits de l'homme et la démocratie. Il n'appartient pas à l'UE, contrairement au Conseil européen.",
+   "tip": "Conseil de l'Europe : Strasbourg et droits de l'homme ; Conseil européen : les chefs de l'UE.",
+   "extraExample": {
+    "text": "La Cour européenne des droits de l'homme peut condamner un État pour violation de la Convention européenne des droits de l'homme (1950).",
+    "translation": "Les citoyens de tous les États membres du Conseil de l'Europe peuvent la saisir."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Conseil européen",
+     "category": "word_confusion",
+     "feedback": "Le Conseil européen réunit les chefs d'État ou de gouvernement de l'UE, le plus souvent à Bruxelles ; ce n'est pas le Conseil de l'Europe."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e17",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.traite_de_rome"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le marché commun.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Le",
+    "économique",
+    "en",
+    "la",
+    "Communauté",
+    "1957",
+    "de",
+    "européenne",
+    "traité",
+    "Rome",
+    "crée"
+   ],
+   "answer": "Le traité de Rome crée la Communauté économique européenne en 1957",
+   "acceptedAnswers": [
+    "Le traité de Rome crée la Communauté économique européenne en 1957",
+    "En 1957 le traité de Rome crée la Communauté économique européenne"
+   ],
+   "hint": "Commence par le traité.",
+   "explanation": "Le traité de Rome, signé en 1957, crée la CEE : un marché commun où les marchandises circulent sans droits de douane entre les six pays.",
+   "tip": "Rome, 1957 : le marché commun.",
+   "extraExample": {
+    "text": "L'expression « marché commun » est restée dans le langage courant pour parler de l'Europe économique.",
+    "translation": "Elle a été remplacée par « marché unique » en 1993."
+   }
+  },
+  {
+   "id": "cg.l26.e18",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.brexit"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel mot désigne la sortie du Royaume-Uni de l'Union européenne ?",
+   "promptLanguage": "fr",
+   "answer": "Brexit",
+   "acceptedAnswers": [
+    "Brexit",
+    "le Brexit"
+   ],
+   "explanation": "Brexit vient de « British » et « exit ». Le référendum du 23 juin 2016 donne 51,9 % pour partir ; la sortie est effective le 31 janvier 2020.",
+   "tip": "Brexit : Britain + exit.",
+   "extraExample": {
+    "text": "Le Royaume-Uni avait rejoint la Communauté européenne en 1973.",
+    "translation": "Il en aura été membre pendant 47 ans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Grexit",
+     "category": "word_confusion",
+     "feedback": "Grexit désigne une sortie de la Grèce de la zone euro, qui n'a pas eu lieu."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e19",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.conseil_europeen"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle institution, qui réunit les chefs d'État ou de gouvernement des pays de l'UE, fixe les grandes orientations politiques de l'Union ?",
+   "promptLanguage": "fr",
+   "answer": "Le Conseil européen",
+   "acceptedAnswers": [
+    "Le Conseil européen",
+    "Conseil européen",
+    "Le Conseil europeen",
+    "Conseil europeen"
+   ],
+   "explanation": "Le Conseil européen se réunit plusieurs fois par an, le plus souvent à Bruxelles. Il ne vote pas les lois : c'est le Conseil de l'UE (les ministres) qui le fait, avec le Parlement.",
+   "tip": "Chefs d'État : Conseil européen ; ministres : Conseil de l'UE.",
+   "extraExample": {
+    "text": "Depuis le traité de Lisbonne (2009), le Conseil européen a un président à temps plein, élu pour deux ans et demi.",
+    "translation": "Ce poste donne de la continuité à ses travaux."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Conseil de l'Europe",
+     "category": "word_confusion",
+     "feedback": "Le Conseil de l'Europe est une autre organisation, qui siège à Strasbourg et n'appartient pas à l'UE."
+    },
+    {
+     "equals": "Commission européenne",
+     "category": "word_confusion",
+     "feedback": "La Commission propose les lois mais ne réunit pas les chefs d'État."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e20",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.brexit"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le Brexit.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "européenne",
+    "janvier",
+    "quitte",
+    "le",
+    "Royaume-Uni",
+    "2020",
+    "l'Union",
+    "Le",
+    "31"
+   ],
+   "answer": "Le Royaume-Uni quitte l'Union européenne le 31 janvier 2020",
+   "acceptedAnswers": [
+    "Le Royaume-Uni quitte l'Union européenne le 31 janvier 2020",
+    "Le 31 janvier 2020 le Royaume-Uni quitte l'Union européenne"
+   ],
+   "hint": "Commence par le pays.",
+   "explanation": "Après le référendum de 2016, le Royaume-Uni quitte officiellement l'Union européenne le 31 janvier 2020 : c'est le Brexit.",
+   "tip": "Référendum en 2016, départ en 2020.",
+   "extraExample": {
+    "text": "Une période de transition s'est achevée le 31 décembre 2020.",
+    "translation": "Un accord de commerce et de coopération s'applique ensuite."
+   }
+  },
+  {
+   "id": "cg.l26.e21",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.euro"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans quelle ville allemande se trouve le siège de la Banque centrale européenne ?",
+   "promptLanguage": "fr",
+   "answer": "Francfort",
+   "acceptedAnswers": [
+    "Francfort",
+    "Francfort-sur-le-Main",
+    "Francfort sur le Main",
+    "Frankfurt"
+   ],
+   "explanation": "La BCE siège à Francfort-sur-le-Main depuis 1998. Elle définit la politique monétaire de la zone euro, notamment les taux d'intérêt, et veille à la stabilité des prix.",
+   "tip": "Euro : Francfort ; Cour de justice : Luxembourg.",
+   "extraExample": {
+    "text": "Francfort est aussi la grande place financière de l'Allemagne.",
+    "translation": "Sa Bourse est l'une des plus importantes d'Europe."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Bruxelles",
+     "category": "word_confusion",
+     "feedback": "Bruxelles accueille la Commission et les Conseils, mais la Banque centrale européenne est à Francfort."
+    },
+    {
+     "equals": "Berlin",
+     "category": "word_confusion",
+     "feedback": "Berlin est la capitale de l'Allemagne, mais la BCE siège à Francfort, grande place financière."
+    }
+   ]
+  },
+  {
+   "id": "cg.l26.e22",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.espace_schengen",
+    "cg.v.euro"
+   ],
+   "type": "match",
+   "difficulty": 4,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Euro, Schengen, Union : où se situe chaque pays ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Allemagne",
+     "right": "dans l'UE, dans l'euro et dans Schengen"
+    },
+    {
+     "left": "Irlande",
+     "right": "dans l'UE et dans l'euro, mais pas dans Schengen"
+    },
+    {
+     "left": "Suède",
+     "right": "dans l'UE et dans Schengen, mais pas dans l'euro"
+    },
+    {
+     "left": "Suisse",
+     "right": "dans Schengen, mais ni dans l'UE ni dans l'euro"
+    }
+   ],
+   "answer": "Allemagne = dans l'UE, dans l'euro et dans Schengen ; Irlande = dans l'UE et dans l'euro, mais pas dans Schengen ; Suède = dans l'UE et dans Schengen, mais pas dans l'euro ; Suisse = dans Schengen, mais ni dans l'UE ni dans l'euro",
+   "acceptedAnswers": [],
+   "explanation": "Les trois cercles ne se recouvrent pas : l'Irlande a gardé ses contrôles aux frontières, la Suède a gardé sa couronne et la Suisse est liée à l'UE par des accords sans en être membre.",
+   "tip": "UE, euro, Schengen : trois cercles qui se chevauchent.",
+   "extraExample": {
+    "text": "La Pologne et la Hongrie sont aussi dans l'UE et dans Schengen, avec leur propre monnaie.",
+    "translation": "Le Danemark a obtenu un régime particulier pour l'euro."
+   }
+  }
+ ]
+}

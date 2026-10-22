@@ -1,0 +1,846 @@
+{
+ "lessonId": "ar.l20",
+ "exercises": [
+  {
+   "id": "ar.l20.e01",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.matam"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis vite : quel mot est écrit ?",
+   "prompt": "مَطْعَم",
+   "promptLanguage": "ar",
+   "options": [
+    "maT3am",
+    "maTa3am",
+    "maT3im",
+    "maT3um"
+   ],
+   "answer": "maT3am",
+   "acceptedAnswers": [
+    "maT3am"
+   ],
+   "explanation": "مَ = ma, طْ = T (le soukoun supprime la voyelle), عَ = 3a, م = m : maT-3am, « le restaurant ». Aucune lettre ne coupe : un seul bloc de 4 lettres.",
+   "tip": "Cherche le soukoun d'abord : il te dit où la première syllabe se ferme (maT).",
+   "extraExample": {
+    "text": "هُوَ فِي الْمَطْعَمِ",
+    "translation": "Il est au restaurant.",
+    "transliteration": "huwa fî l-maT3am"
+   },
+   "errorPatterns": [
+    {
+     "equals": "maTa3am",
+     "category": "spelling",
+     "feedback": "Le soukoun (ـْ) sur ط supprime la voyelle : maT-3am, pas ma-Ta-3am."
+    },
+    {
+     "equals": "maT3im",
+     "category": "spelling",
+     "feedback": "Sur ع il y a une fatha (a), pas une kasra : 3am."
+    },
+    {
+     "equals": "maT3um",
+     "category": "spelling",
+     "feedback": "Sur ع il y a une fatha (a), pas une damma : 3am."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e02",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.sayyara"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Compte les blocs.",
+   "prompt": "En combien de blocs s'écrit سَيَّارَة ?",
+   "promptLanguage": "fr",
+   "options": [
+    "2",
+    "3",
+    "5"
+   ],
+   "answer": "3",
+   "acceptedAnswers": [
+    "3"
+   ],
+   "explanation": "سَيَّارَة a 5 lettres mais seulement 3 blocs : سيا | ر | ة. Seuls le ا et le ر coupent le mot.",
+   "tip": "Compte les coupures, pas les lettres.",
+   "extraExample": {
+    "text": "هٰذِهِ سَيَّارَةٌ جَدِيدَةٌ",
+    "translation": "C'est une voiture neuve.",
+    "transliteration": "hâdhihi sayyâratun djadîda"
+   },
+   "errorPatterns": [
+    {
+     "equals": "5",
+     "category": "spelling",
+     "feedback": "5 est le nombre de lettres. Les blocs se comptent aux coupures : après le ا et après le ر."
+    },
+    {
+     "equals": "2",
+     "category": "spelling",
+     "feedback": "Il y a deux coupures (après ا, après ر), donc trois blocs."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e03",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.mustachfa",
+    "ar.v.matam",
+    "ar.v.sayyara",
+    "ar.v.burtuqal",
+    "ar.v.tuffaha"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à sa lecture.",
+   "prompt": "Cinq mots longs, cinq lectures",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "مُسْتَشْفَى",
+     "right": "mustachfâ"
+    },
+    {
+     "left": "مَطْعَم",
+     "right": "maT3am"
+    },
+    {
+     "left": "سَيَّارَة",
+     "right": "sayyâra"
+    },
+    {
+     "left": "بُرْتُقَال",
+     "right": "burtuqâl"
+    },
+    {
+     "left": "تُفَّاحَة",
+     "right": "tuffâ7a"
+    }
+   ],
+   "answer": "مُسْتَشْفَى = mustachfâ ; مَطْعَم = maT3am ; سَيَّارَة = sayyâra ; بُرْتُقَال = burtuqâl ; تُفَّاحَة = tuffâ7a",
+   "acceptedAnswers": [],
+   "explanation": "Découpe en syllabes pour lire sans épeler : mus-tach-fâ, maT-3am, say-yâ-ra, bur-tu-qâl, tuf-fâ-7a. Les voyelles longues (ا, ى) et les chaddas guident ton œil."
+  },
+  {
+   "id": "ar.l20.e04",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.tuffaha"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis vite : quel mot est écrit ?",
+   "prompt": "تُفَّاحَة",
+   "promptLanguage": "ar",
+   "options": [
+    "tuffâ7a",
+    "tufa7a",
+    "tafâ7a",
+    "tuffâkha"
+   ],
+   "answer": "tuffâ7a",
+   "acceptedAnswers": [
+    "tuffâ7a"
+   ],
+   "explanation": "تُ = tu, فَّا = ffâ (la chadda double le f, le ا allonge le a), حَة = 7a : tuf-fâ-7a, « la pomme ». Deux blocs : تفا | حة.",
+   "tip": "Chadda = deux consonnes : tuf-fâ, jamais tu-fâ.",
+   "extraExample": {
+    "text": "أَكَلَ تُفَّاحَةً",
+    "translation": "Il a mangé une pomme.",
+    "transliteration": "'akala tuffâ7a"
+   },
+   "errorPatterns": [
+    {
+     "equals": "tufa7a",
+     "category": "spelling",
+     "feedback": "La chadda sur ف double la lettre (ff) et le ا allonge le a : tuf-fâ-7a."
+    },
+    {
+     "equals": "tuffâkha",
+     "category": "spelling",
+     "feedback": "ح n'a aucun point : 7, pas kh."
+    },
+    {
+     "equals": "tafâ7a",
+     "category": "spelling",
+     "feedback": "La première lettre porte une damma (u), pas une fatha."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e05",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.matam",
+    "ar.v.madrasa",
+    "ar.v.maktab"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Repère le morceau qui revient.",
+   "prompt": "Quel début est commun à مَطْعَم, مَدْرَسَة et مَكْتَب ?",
+   "promptLanguage": "fr",
+   "options": [
+    "مَـ",
+    "مُسْتَـ",
+    "مِنْ",
+    "وَ"
+   ],
+   "answer": "مَـ",
+   "acceptedAnswers": [
+    "مَـ"
+   ],
+   "explanation": "Ces trois mots commencent par مَـ, qui indique souvent un lieu : où l'on mange (مَطْعَم), où l'on étudie (مَدْرَسَة), où l'on écrit (مَكْتَب).",
+   "tip": "مَـ au début d'un mot = souvent un lieu.",
+   "extraExample": {
+    "text": "مَطَار",
+    "translation": "l'aéroport : مَـ + la racine « voler »",
+    "transliteration": "maTâr"
+   },
+   "errorPatterns": [
+    {
+     "equals": "مُسْتَـ",
+     "category": "word_confusion",
+     "feedback": "مُسْتَـ est le début de مُسْتَشْفَى (l'hôpital), pas de ces trois mots."
+    },
+    {
+     "equals": "وَ",
+     "category": "word_confusion",
+     "feedback": "وَ veut dire « et » : c'est un petit mot, pas le début de ces trois noms."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e06",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.sabah",
+    "ar.v.masa",
+    "ar.v.ala",
+    "ar.v.kabir",
+    "ar.v.burtuqal"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Lis chaque mot et retrouve son sens",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "صَبَاح",
+     "right": "le matin"
+    },
+    {
+     "left": "مَسَاء",
+     "right": "le soir"
+    },
+    {
+     "left": "عَلَى",
+     "right": "sur"
+    },
+    {
+     "left": "كَبِير",
+     "right": "grand"
+    },
+    {
+     "left": "بُرْتُقَال",
+     "right": "l'orange"
+    }
+   ],
+   "answer": "صَبَاح = le matin ; مَسَاء = le soir ; عَلَى = sur ; كَبِير = grand ; بُرْتُقَال = l'orange",
+   "acceptedAnswers": [],
+   "explanation": "صَبَاح (Sa-bâ7) et مَسَاء (ma-sâ') ont une voyelle longue au milieu ; عَلَى se lit 3alâ (le ى final = â) ; كَبِير : ka-bîr (kasra + ي = î)."
+  },
+  {
+   "id": "ar.l20.e07",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.sayyara"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Reconnais la finale.",
+   "prompt": "Que veut dire سَيَّارَات ?",
+   "promptLanguage": "fr",
+   "options": [
+    "des voitures",
+    "la voiture",
+    "des pommes",
+    "des aéroports"
+   ],
+   "answer": "des voitures",
+   "acceptedAnswers": [
+    "des voitures"
+   ],
+   "explanation": "ـَات à la fin d'un mot marque le pluriel : سَيَّارَة (une voiture) devient سَيَّارَات (des voitures).",
+   "tip": "ـَة = un seul ; ـَات = plusieurs.",
+   "extraExample": {
+    "text": "مُسْتَشْفَيَات",
+    "translation": "des hôpitaux",
+    "transliteration": "mustachfayât"
+   },
+   "errorPatterns": [
+    {
+     "equals": "la voiture",
+     "category": "grammar",
+     "feedback": "Il y a ـَات à la fin, pas ـَة : c'est le pluriel."
+    },
+    {
+     "equals": "des aéroports",
+     "category": "word_confusion",
+     "feedback": "« Des aéroports » se dit مَطَارَات. Ici le mot commence par سَيَّ, comme سَيَّارَة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e08",
+   "unitIds": [
+    "ar.v.matar",
+    "ar.g20.long_words_blocks",
+    "ar.v.matar_aeroport",
+    "ar.v.matam",
+    "ar.v.madrasa"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Trouve l'intrus.",
+   "prompt": "Trois de ces mots sont des lieux. Lequel n'en est pas un ?",
+   "promptLanguage": "fr",
+   "options": [
+    "مَطْعَم",
+    "مَطَار",
+    "مَدْرَسَة",
+    "مَطَر"
+   ],
+   "answer": "مَطَر",
+   "acceptedAnswers": [
+    "مَطَر"
+   ],
+   "explanation": "مَطْعَم (restaurant), مَطَار (aéroport) et مَدْرَسَة (école) sont des lieux. مَطَر (la pluie) commence aussi par مَـ, mais ce م fait partie de sa racine (م ط ر) : ce n'est pas le préfixe « lieu ».",
+   "tip": "Un seul ا de différence change tout : مَطَر (pluie) ≠ مَطَار (aéroport).",
+   "extraExample": {
+    "text": "الْمَطَرُ بَارِدٌ",
+    "translation": "La pluie est froide.",
+    "transliteration": "al-maTaru bârid"
+   },
+   "errorPatterns": [
+    {
+     "equals": "مَطَار",
+     "category": "word_confusion",
+     "feedback": "مَطَار est l'aéroport, un lieu (avec un ا long). L'intrus est la pluie."
+    },
+    {
+     "equals": "مَطْعَم",
+     "category": "word_confusion",
+     "feedback": "مَطْعَم est le restaurant, un lieu."
+    },
+    {
+     "equals": "مَدْرَسَة",
+     "category": "word_confusion",
+     "feedback": "مَدْرَسَة est l'école, un lieu."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e09",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.mustachfa"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis vite : quel mot est écrit ?",
+   "prompt": "مُسْتَشْفَى",
+   "promptLanguage": "ar",
+   "options": [
+    "mustachfâ",
+    "mustachifâ",
+    "mustachfa",
+    "mustakhfâ"
+   ],
+   "answer": "mustachfâ",
+   "acceptedAnswers": [
+    "mustachfâ"
+   ],
+   "explanation": "مُسْ = mus, تَشْ = tach, فَى = fâ : mus-tach-fâ. Le soukoun sur س et sur ش empêche d'ajouter une voyelle ; le ى final se lit â.",
+   "tip": "Deux soukouns, trois syllabes : mus-tach-fâ.",
+   "extraExample": {
+    "text": "الْمُسْتَشْفَى فِي الْمَدِينَةِ",
+    "translation": "L'hôpital est en ville.",
+    "transliteration": "al-mustachfâ fî l-madîna"
+   },
+   "errorPatterns": [
+    {
+     "equals": "mustachifâ",
+     "category": "spelling",
+     "feedback": "Le soukoun sur ش supprime la voyelle : tach-fâ, pas ta-chi-fâ."
+    },
+    {
+     "equals": "mustachfa",
+     "category": "spelling",
+     "feedback": "Le ى final sans points se lit â (long), comme un ا : fâ."
+    },
+    {
+     "equals": "mustakhfâ",
+     "category": "spelling",
+     "feedback": "ش a trois points : ch, pas kh."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e10",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.sayyara",
+    "ar.v.burtuqal",
+    "ar.v.mustachfa",
+    "ar.v.tuffaha",
+    "ar.v.matam"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son découpage en blocs.",
+   "prompt": "Découpe chaque mot long en blocs",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "سَيَّارَة",
+     "right": "سيا | ر | ة"
+    },
+    {
+     "left": "بُرْتُقَال",
+     "right": "بر | تقا | ل"
+    },
+    {
+     "left": "مُسْتَشْفَى",
+     "right": "مستشفى"
+    },
+    {
+     "left": "تُفَّاحَة",
+     "right": "تفا | حة"
+    },
+    {
+     "left": "مَطْعَم",
+     "right": "مطعم"
+    }
+   ],
+   "answer": "سَيَّارَة = سيا | ر | ة ; بُرْتُقَال = بر | تقا | ل ; مُسْتَشْفَى = مستشفى ; تُفَّاحَة = تفا | حة ; مَطْعَم = مطعم",
+   "acceptedAnswers": [],
+   "explanation": "Un seul bloc quand aucune lettre ne coupe (مستشفى, مطعم). Sinon on coupe après chaque ا, د, ذ, ر, ز, و : سيا | ر | ة, بر | تقا | ل, تفا | حة."
+  },
+  {
+   "id": "ar.l20.e11",
+   "unitIds": [
+    "ar.g17.open_closed_syllables",
+    "ar.v.burtuqal",
+    "ar.g20.long_words_blocks"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Compte avec les voyelles.",
+   "prompt": "Combien de syllabes dans بُرْتُقَال ?",
+   "promptLanguage": "fr",
+   "options": [
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": "3",
+   "acceptedAnswers": [
+    "3"
+   ],
+   "explanation": "Révision : بُرْ (fermée, soukoun sur ر) + تُ (ouverte) + قَال (qâl, voyelle longue puis ل) = bur-tu-qâl. Une voyelle longue ne fait qu'une syllabe.",
+   "tip": "Une voyelle (brève ou longue) = une syllabe.",
+   "extraExample": {
+    "text": "مَدْرَسَة",
+    "translation": "l'école : 3 syllabes, mad-ra-sa",
+    "transliteration": "madrasa"
+   },
+   "errorPatterns": [
+    {
+     "equals": "4",
+     "category": "spelling",
+     "feedback": "Une voyelle longue (ا) ne fait qu'une syllabe : qâl, pas qa-al."
+    },
+    {
+     "equals": "2",
+     "category": "spelling",
+     "feedback": "Il y a trois voyelles : u, u, â. Donc trois syllabes."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e12",
+   "unitIds": [
+    "ar.g19.non_connecting_letters",
+    "ar.v.mustachfa",
+    "ar.g20.long_words_blocks"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Compte les blocs.",
+   "prompt": "En combien de blocs s'écrit مُسْتَشْفَى ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1",
+    "2",
+    "3",
+    "6"
+   ],
+   "answer": "1",
+   "acceptedAnswers": [
+    "1"
+   ],
+   "explanation": "Révision des coupures : aucune des lettres م س ت ش ف ne coupe le mot. Le ى final s'arrête là : il reste un seul bloc de 6 lettres.",
+   "tip": "Pas de ا د ذ ر ز و au milieu du mot = un seul bloc.",
+   "extraExample": {
+    "text": "مَطْعَم",
+    "translation": "le restaurant : un seul bloc aussi",
+    "transliteration": "maT3am"
+   },
+   "errorPatterns": [
+    {
+     "equals": "6",
+     "category": "spelling",
+     "feedback": "6 est le nombre de lettres. Les blocs se comptent aux coupures : ici il n'y en a aucune."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e13",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.burtuqal"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la lecture de بُرْتُقَال (l'orange).",
+   "prompt": "bur - tu - ___",
+   "promptLanguage": "fr",
+   "options": [
+    "qâl",
+    "qal",
+    "kâl"
+   ],
+   "answer": "qâl",
+   "acceptedAnswers": [
+    "qâl"
+   ],
+   "explanation": "La dernière syllabe est قَال : qâl, avec un a long (fatha + ا). ق a deux points au-dessus (q), ك est une autre lettre (k).",
+   "tip": "Fatha + ا = a long : prolonge le son.",
+   "extraExample": {
+    "text": "بُرْتُقَالَةٌ",
+    "translation": "une orange (une seule)",
+    "transliteration": "burtuqâla"
+   },
+   "errorPatterns": [
+    {
+     "equals": "qal",
+     "category": "spelling",
+     "feedback": "Le ا allonge le a : qâl, pas qal."
+    },
+    {
+     "equals": "kâl",
+     "category": "spelling",
+     "feedback": "La lettre est ق (deux points dessus) : q, pas k."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e14",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.ala"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète : « Le livre est sur le bureau. »",
+   "prompt": "الْكِتَابُ ___ الْمَكْتَبِ",
+   "promptLanguage": "ar",
+   "options": [
+    "عَلَى",
+    "إِلَى",
+    "مِنْ"
+   ],
+   "answer": "عَلَى",
+   "acceptedAnswers": [
+    "عَلَى"
+   ],
+   "explanation": "« Sur » = عَلَى (3alâ). Il ressemble à إِلَى (vers) car les deux finissent par ى (qui se lit â), mais il commence par ع, pas par إ.",
+   "tip": "عَلَى = sur (3alâ) ; إِلَى = vers ('ilâ).",
+   "extraExample": {
+    "text": "الشَّايُ عَلَى الْمَكْتَبِ",
+    "translation": "Le thé est sur le bureau.",
+    "transliteration": "ach-châyu 3alâ l-maktab"
+   },
+   "errorPatterns": [
+    {
+     "equals": "إِلَى",
+     "category": "word_confusion",
+     "feedback": "إِلَى veut dire « vers » et commence par un alif. « Sur » commence par ع : عَلَى."
+    },
+    {
+     "equals": "مِنْ",
+     "category": "word_confusion",
+     "feedback": "مِنْ veut dire « de, depuis »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e15",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.kabir",
+    "ar.v.sayyara"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète : « La voiture est grande. »",
+   "prompt": "السَّيَّارَةُ ___",
+   "promptLanguage": "ar",
+   "options": [
+    "كَبِيرَةٌ",
+    "كَبِيرٌ",
+    "بَارِدَةٌ"
+   ],
+   "answer": "كَبِيرَةٌ",
+   "acceptedAnswers": [
+    "كَبِيرَةٌ"
+   ],
+   "explanation": "سَيَّارَة est féminin (finale ـة) : l'adjectif prend lui aussi ـة, كَبِيرَةٌ (ka-bîra). كَبِيرٌ est la forme masculine.",
+   "tip": "Nom en ـة, adjectif en ـة.",
+   "extraExample": {
+    "text": "الْمَطَارُ كَبِيرٌ",
+    "translation": "L'aéroport est grand.",
+    "transliteration": "al-maTâru kabîr"
+   },
+   "errorPatterns": [
+    {
+     "equals": "كَبِيرٌ",
+     "category": "grammar",
+     "feedback": "Le nom est féminin (ـة) : l'adjectif doit avoir ـة aussi."
+    },
+    {
+     "equals": "بَارِدَةٌ",
+     "category": "word_confusion",
+     "feedback": "بَارِدَةٌ veut dire « froide ». Ici on veut dire « grande »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e16",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.mustachfa"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les syllabes dans l'ordre pour lire « l'hôpital ».",
+   "prompt": "Reconstitue le mot « l'hôpital » à partir de ses syllabes",
+   "promptLanguage": "fr",
+   "tokens": [
+    "فَى",
+    "مُسْ",
+    "تَشْ"
+   ],
+   "answer": "مُسْ تَشْ فَى",
+   "acceptedAnswers": [
+    "مُسْ تَشْ فَى"
+   ],
+   "explanation": "On assemble de droite à gauche : مُسْ (mus) + تَشْ (tach) + فَى (fâ). Les deux premières syllabes sont fermées par un soukoun.",
+   "tip": "Le soukoun ferme la syllabe : repère مُسْ et تَشْ.",
+   "extraExample": {
+    "text": "بُرْتُقَال",
+    "translation": "l'orange : بُرْ + تُ + قَال",
+    "transliteration": "burtuqâl"
+   }
+  },
+  {
+   "id": "ar.l20.e17",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.tuffaha",
+    "ar.v.sabah",
+    "ar.v.akala"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre : « Il a mangé une pomme le matin. »",
+   "prompt": "Remets dans l'ordre : il a mangé / une pomme / le matin",
+   "promptLanguage": "fr",
+   "tokens": [
+    "فِي",
+    "تُفَّاحَةً",
+    "الصَّبَاحِ",
+    "أَكَلَ"
+   ],
+   "answer": "أَكَلَ تُفَّاحَةً فِي الصَّبَاحِ",
+   "acceptedAnswers": [
+    "أَكَلَ تُفَّاحَةً فِي الصَّبَاحِ"
+   ],
+   "explanation": "Le verbe d'abord (أَكَلَ), puis ce qu'il a mangé (تُفَّاحَةً, avec tanwin -an), puis le moment avec فِي et l'article : الصَّبَاحِ.",
+   "tip": "Verbe, objet, moment.",
+   "extraExample": {
+    "text": "شَرِبَ الْقَهْوَةَ فِي الصَّبَاحِ",
+    "translation": "Il a bu le café le matin.",
+    "transliteration": "chariba l-qahwata fî S-Sabâ7"
+   }
+  },
+  {
+   "id": "ar.l20.e18",
+   "unitIds": [
+    "ar.v.chari",
+    "ar.g20.long_words_blocks",
+    "ar.v.sayyara",
+    "ar.v.fi"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "السَّيَّارَةُ فِي الشَّارِعِ",
+   "promptLanguage": "ar",
+   "answer": "La voiture est dans la rue.",
+   "acceptedAnswers": [
+    "La voiture est dans la rue.",
+    "La voiture se trouve dans la rue.",
+    "La voiture est dans la rue"
+   ],
+   "explanation": "السَّيَّارَةُ = la voiture ; فِي = dans ; الشَّارِعِ = la rue. Au présent, le verbe « être » ne s'écrit pas.",
+   "tip": "Au présent : nom + فِي + lieu, sans verbe « être ».",
+   "extraExample": {
+    "text": "الْمَطْعَمُ فِي الشَّارِعِ",
+    "translation": "Le restaurant est dans la rue.",
+    "transliteration": "al-maT3amu fî ch-châri3"
+   },
+   "errorPatterns": [
+    {
+     "contains": "sur",
+     "category": "preposition",
+     "feedback": "فِي veut dire « dans » ; « sur » se dit عَلَى."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e19",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.mustachfa",
+    "ar.v.masa",
+    "ar.v.dhahaba"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en français.",
+   "prompt": "ذَهَبَ إِلَى الْمُسْتَشْفَى فِي الْمَسَاءِ",
+   "promptLanguage": "ar",
+   "answer": "Il est allé à l'hôpital le soir.",
+   "acceptedAnswers": [
+    "Il est allé à l'hôpital le soir.",
+    "Il est allé à l'hôpital dans la soirée.",
+    "Il est allé à l'hôpital en soirée.",
+    "Il est allé à l'hôpital au soir."
+   ],
+   "explanation": "ذَهَبَ إِلَى = il est allé à ; الْمُسْتَشْفَى = l'hôpital ; فِي الْمَسَاءِ = le soir (mot à mot : dans le soir).",
+   "tip": "Repère d'abord les petits mots (إِلَى, فِي) : ils découpent la phrase.",
+   "extraExample": {
+    "text": "جَلَسَ فِي الْمُسْتَشْفَى فِي الصَّبَاحِ",
+    "translation": "Il s'est assis à l'hôpital le matin.",
+    "transliteration": "djalasa fî l-mustachfâ fî S-Sabâ7"
+   },
+   "errorPatterns": [
+    {
+     "contains": "matin",
+     "category": "vocabulary",
+     "feedback": "الصَّبَاح = le matin ; الْمَسَاء = le soir."
+    },
+    {
+     "contains": "restaurant",
+     "category": "vocabulary",
+     "feedback": "مَطْعَم = restaurant ; l'hôpital se dit مُسْتَشْفَى."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e20",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.matar_aeroport"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture de ce mot en lettres latines.",
+   "prompt": "Comment se lit مَطَار ?",
+   "promptLanguage": "fr",
+   "answer": "maTâr",
+   "acceptedAnswers": [
+    "maTâr",
+    "maTaar"
+   ],
+   "hint": "Il y a un ا après ط.",
+   "explanation": "مَ = ma, طَا = Tâ (fatha + ا = a long), ر = r : ma-Târ, « l'aéroport ». Sans le ا, مَطَر se lit ma-Tar et veut dire « la pluie ».",
+   "tip": "Un ا de plus = une voyelle longue de plus : écris â, ou aa.",
+   "extraExample": {
+    "text": "هٰذَا مَطَارٌ كَبِيرٌ",
+    "translation": "C'est un grand aéroport.",
+    "transliteration": "hâdhâ maTârun kabîr"
+   },
+   "errorPatterns": [
+    {
+     "equals": "matar",
+     "category": "word_confusion",
+     "feedback": "matar (sans voyelle longue), c'est مَطَر, la pluie. Ici il y a un ا : maTâr, l'aéroport."
+    },
+    {
+     "equals": "maTar",
+     "category": "word_confusion",
+     "feedback": "maTar (sans voyelle longue), c'est مَطَر, la pluie. Ici il y a un ا : maTâr, l'aéroport."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e21",
+   "unitIds": [
+    "ar.g20.long_words_blocks",
+    "ar.v.sayyara"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture de ce mot en lettres latines.",
+   "prompt": "Comment se lit سَيَّارَة ?",
+   "promptLanguage": "fr",
+   "answer": "sayyâra",
+   "acceptedAnswers": [
+    "sayyâra",
+    "sayyaara",
+    "sayyara"
+   ],
+   "hint": "La chadda double le y.",
+   "explanation": "سَ = sa, يَّا = yyâ (la chadda double le y, le ا allonge le a), رَة = ra : say-yâ-ra, « la voiture ».",
+   "tip": "Chadda = lettre doublée : écris yy.",
+   "extraExample": {
+    "text": "سَيَّارَةٌ كَبِيرَةٌ",
+    "translation": "une grande voiture",
+    "transliteration": "sayyâratun kabîra"
+   },
+   "errorPatterns": [
+    {
+     "equals": "sayara",
+     "category": "spelling",
+     "feedback": "La chadda double le y et le ا allonge le a : say-yâ-ra."
+    },
+    {
+     "equals": "sayyar",
+     "category": "spelling",
+     "feedback": "Le mot finit par ـَة : il y a un a final, say-yâ-ra."
+    }
+   ]
+  }
+ ]
+}

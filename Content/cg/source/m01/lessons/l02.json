@@ -1,0 +1,804 @@
+{
+ "lessonId": "cg.l02",
+ "exercises": [
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.clovis",
+    "cg.v.charlemagne",
+    "cg.v.hugues_capet",
+    "cg.v.guillaume_le_conquerant",
+    "cg.v.jeanne_d_arc"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Cinq figures du Moyen Âge",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Clovis",
+     "right": "roi des Francs, baptisé vers 496"
+    },
+    {
+     "left": "Charlemagne",
+     "right": "empereur couronné à Noël 800"
+    },
+    {
+     "left": "Hugues Capet",
+     "right": "premier roi capétien, en 987"
+    },
+    {
+     "left": "Guillaume le Conquérant",
+     "right": "vainqueur à Hastings en 1066"
+    },
+    {
+     "left": "Jeanne d'Arc",
+     "right": "délivre Orléans en 1429"
+    }
+   ],
+   "answer": "Clovis = roi des Francs, baptisé vers 496 ; Charlemagne = empereur couronné à Noël 800 ; Hugues Capet = premier roi capétien, en 987 ; Guillaume le Conquérant = vainqueur à Hastings en 1066 ; Jeanne d'Arc = délivre Orléans en 1429",
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq personnages jalonnent le Moyen Âge, du Ve au XVe siècle : de Clovis à Jeanne d'Arc, il s'écoule près de mille ans.",
+   "tip": "Récite la chaîne : Clovis, Charlemagne, Capet, Guillaume, Jeanne.",
+   "extraExample": {
+    "text": "Entre le baptême de Clovis et Jeanne d'Arc, il s'écoule près de mille ans.",
+    "translation": "Le Moyen Âge est une très longue période."
+   },
+   "id": "cg.l02.e01"
+  },
+  {
+   "unitIds": [
+    "cg.v.chute_empire_romain",
+    "cg.g02.moyen_age"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel événement de 476 marque le début du Moyen Âge ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La chute de l'Empire romain d'Occident",
+    "Le couronnement de Charlemagne",
+    "La conquête de la Gaule par César",
+    "La mort d'Alexandre le Grand"
+   ],
+   "answer": "La chute de l'Empire romain d'Occident",
+   "acceptedAnswers": [
+    "La chute de l'Empire romain d'Occident"
+   ],
+   "explanation": "En 476, Odoacre dépose le dernier empereur romain d'Occident : par convention, c'est la fin de l'Antiquité et le début du Moyen Âge.",
+   "tip": "Moyen Âge = « l'âge du milieu », entre l'Antiquité et les Temps modernes.",
+   "extraExample": {
+    "text": "L'expression « Moyen Âge » est forgée après coup, par les humanistes de la Renaissance.",
+    "translation": "Pour eux, c'était l'âge « du milieu » entre deux brillantes époques."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le couronnement de Charlemagne",
+     "category": "word_confusion",
+     "feedback": "Charlemagne est couronné en 800, plus de trois siècles après 476."
+    },
+    {
+     "equals": "La conquête de la Gaule par César",
+     "category": "word_confusion",
+     "feedback": "La conquête de la Gaule date de 58-51 av. J.-C., en pleine Antiquité."
+    }
+   ],
+   "id": "cg.l02.e02"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.clovis"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel roi des Francs, baptisé à Reims vers 496, est à l'origine du royaume des Francs ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Clovis",
+    "Charlemagne",
+    "Hugues Capet",
+    "Dagobert"
+   ],
+   "answer": "Clovis",
+   "acceptedAnswers": [
+    "Clovis"
+   ],
+   "explanation": "Clovis unifie la Gaule du Nord et se convertit au christianisme catholique, ce qui lui assure le soutien de l'Église. Le mot « France » vient des Francs.",
+   "tip": "Clovis = les Francs, le baptême (496) et l'origine du mot « France ».",
+   "extraExample": {
+    "text": "Clovis fait de Paris sa capitale vers 508.",
+    "translation": "Paris est un centre du pouvoir dès cette époque."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Charlemagne",
+     "category": "word_confusion",
+     "feedback": "Charlemagne vit environ trois siècles plus tard et devient empereur en 800."
+    },
+    {
+     "equals": "Dagobert",
+     "category": "word_confusion",
+     "feedback": "Dagobert est un roi mérovingien du VIIe siècle, surtout connu par la chanson, bien après Clovis."
+    }
+   ],
+   "id": "cg.l02.e03"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.charlemagne"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel souverain est couronné empereur à Rome, à Noël de l'an 800 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Charlemagne",
+    "Charles Martel",
+    "Clovis",
+    "Pépin le Bref"
+   ],
+   "answer": "Charlemagne",
+   "acceptedAnswers": [
+    "Charlemagne"
+   ],
+   "explanation": "Le pape Léon III couronne Charlemagne empereur : il règne sur un immense empire qui couvre une grande partie de l'Europe occidentale.",
+   "tip": "Charlemagne = Noël 800 = empereur d'Occident.",
+   "extraExample": {
+    "text": "Charlemagne meurt en 814 à Aix-la-Chapelle, sa capitale.",
+    "translation": "Aix-la-Chapelle est aujourd'hui en Allemagne : l'empire chevauchait la France et l'Allemagne actuelles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Charles Martel",
+     "category": "word_confusion",
+     "feedback": "Charles Martel est son grand-père, vainqueur des armées arabes à Poitiers en 732."
+    },
+    {
+     "equals": "Pépin le Bref",
+     "category": "word_confusion",
+     "feedback": "Pépin le Bref est son père, premier roi de la dynastie carolingienne."
+    }
+   ],
+   "id": "cg.l02.e04"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.feodalite"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans la société féodale, qu'est-ce qu'un vassal ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un homme qui promet fidélité à un seigneur et reçoit de lui un fief",
+    "Un paysan attaché à la terre, qui ne peut pas la quitter",
+    "Un moine qui vit dans un monastère",
+    "Un marchand qui vit dans une ville"
+   ],
+   "answer": "Un homme qui promet fidélité à un seigneur et reçoit de lui un fief",
+   "acceptedAnswers": [
+    "Un homme qui promet fidélité à un seigneur et reçoit de lui un fief"
+   ],
+   "explanation": "Le vassal prête serment de fidélité (l'hommage), doit une aide militaire à son seigneur et reçoit en échange un fief et sa protection. Le paysan attaché à la terre est un serf.",
+   "tip": "Vassal = noble qui jure fidélité ; serf = paysan lié à la terre.",
+   "extraExample": {
+    "text": "Le roi est lui-même le suzerain de grands seigneurs, ses vassaux.",
+    "translation": "Au début du Moyen Âge, certains seigneurs sont pourtant plus puissants que le roi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un paysan attaché à la terre, qui ne peut pas la quitter",
+     "category": "word_confusion",
+     "feedback": "C'est la définition du serf : le vassal, lui, est un homme libre, le plus souvent noble."
+    }
+   ],
+   "id": "cg.l02.e05"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.charlemagne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que décide le traité de Verdun, en 843 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le partage de l'empire de Charlemagne entre ses trois petits-fils",
+    "La fin de la guerre de Cent Ans",
+    "L'élection de Hugues Capet comme roi",
+    "Le départ de la première croisade"
+   ],
+   "answer": "Le partage de l'empire de Charlemagne entre ses trois petits-fils",
+   "acceptedAnswers": [
+    "Le partage de l'empire de Charlemagne entre ses trois petits-fils"
+   ],
+   "explanation": "Après la mort de Louis le Pieux, fils de Charlemagne, ses trois fils se disputent l'héritage. Le traité de Verdun partage l'empire : l'ouest (futur royaume de France), l'est (futur royaume de Germanie) et un territoire central.",
+   "tip": "843 : l'ouest devient la France, l'est devient l'Allemagne.",
+   "extraExample": {
+    "text": "Le royaume de l'Ouest devient peu à peu le royaume de France.",
+    "translation": "Hugues Capet en est élu roi en 987."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'élection de Hugues Capet comme roi",
+     "category": "word_confusion",
+     "feedback": "Hugues Capet est élu en 987, un siècle et demi plus tard."
+    },
+    {
+     "equals": "La fin de la guerre de Cent Ans",
+     "category": "word_confusion",
+     "feedback": "La guerre de Cent Ans s'achève en 1453, bien après."
+    }
+   ],
+   "id": "cg.l02.e06"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.guillaume_le_conquerant"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle bataille de 1066 permet à Guillaume, duc de Normandie, de devenir roi d'Angleterre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Hastings",
+    "Crécy",
+    "Azincourt",
+    "Bouvines"
+   ],
+   "answer": "Hastings",
+   "acceptedAnswers": [
+    "Hastings"
+   ],
+   "explanation": "À Hastings, Guillaume bat le roi anglo-saxon Harold, qui est tué, et il est couronné roi à Noël 1066. Crécy (1346) et Azincourt (1415) sont des batailles de la guerre de Cent Ans ; Bouvines (1214) est une victoire de Philippe Auguste.",
+   "tip": "Hastings 1066 : la tapisserie de Bayeux raconte cette bataille.",
+   "extraExample": {
+    "text": "La tapisserie de Bayeux, longue de près de 70 mètres, raconte la conquête de l'Angleterre.",
+    "translation": "C'est un document exceptionnel du XIe siècle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Crécy",
+     "category": "word_confusion",
+     "feedback": "Crécy (1346) est une défaite française au début de la guerre de Cent Ans."
+    },
+    {
+     "equals": "Azincourt",
+     "category": "word_confusion",
+     "feedback": "Azincourt (1415) est une autre défaite française, trois siècles et demi plus tard."
+    },
+    {
+     "equals": "Bouvines",
+     "category": "word_confusion",
+     "feedback": "Bouvines (1214) est une victoire de Philippe Auguste contre les Anglais et leurs alliés."
+    }
+   ],
+   "id": "cg.l02.e07"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.peste_noire"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle part de la population européenne la peste noire a-t-elle emportée, selon les estimations des historiens ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Entre un quart et la moitié",
+    "Environ 1 %",
+    "Environ 5 %",
+    "Plus de 90 %"
+   ],
+   "answer": "Entre un quart et la moitié",
+   "acceptedAnswers": [
+    "Entre un quart et la moitié"
+   ],
+   "explanation": "Arrivée par les ports en 1347, la peste noire tue des millions de personnes jusqu'en 1352 : entre un quart et la moitié des Européens, selon les régions et les estimations.",
+   "tip": "1347-1352 : cinq ans suffisent pour décimer l'Europe.",
+   "extraExample": {
+    "text": "La maladie, due à une bactérie transmise par les puces, entre en Europe par les ports en 1347.",
+    "translation": "Le commerce maritime a servi de voie d'entrée à l'épidémie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Environ 5 %",
+     "category": "word_confusion",
+     "feedback": "Ce serait bien trop peu : l'épidémie vide des villages entiers."
+    },
+    {
+     "equals": "Plus de 90 %",
+     "category": "word_confusion",
+     "feedback": "Les pertes sont énormes, mais la majorité de la population survit."
+    }
+   ],
+   "id": "cg.l02.e08"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.cathedrale_gothique"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qui caractérise une cathédrale gothique, comme Notre-Dame de Paris ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Des croisées d'ogives, des arcs-boutants et de grands vitraux",
+    "Des arcs en plein cintre et des murs épais",
+    "Des colonnes et un fronton comme dans les temples grecs",
+    "Un grand dôme et des minarets"
+   ],
+   "answer": "Des croisées d'ogives, des arcs-boutants et de grands vitraux",
+   "acceptedAnswers": [
+    "Des croisées d'ogives, des arcs-boutants et de grands vitraux"
+   ],
+   "explanation": "L'art gothique naît en Île-de-France au XIIe siècle : l'ogive et les arcs-boutants permettent de bâtir plus haut et d'ouvrir de grandes fenêtres. Les arcs en plein cintre et les murs épais sont ceux de l'art roman.",
+   "tip": "Gothique = haut et lumineux ; roman = bas et massif.",
+   "extraExample": {
+    "text": "Notre-Dame de Paris, commencée en 1163, a subi un grave incendie en 2019 et a rouvert en décembre 2024.",
+    "translation": "Sa flèche et sa charpente ont été reconstruites."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Des arcs en plein cintre et des murs épais",
+     "category": "word_confusion",
+     "feedback": "Ce sont les caractéristiques de l'art roman, plus ancien (XIe siècle)."
+    },
+    {
+     "equals": "Des colonnes et un fronton comme dans les temples grecs",
+     "category": "word_confusion",
+     "feedback": "C'est le style antique, que la Renaissance reprendra."
+    }
+   ],
+   "id": "cg.l02.e09"
+  },
+  {
+   "unitIds": [
+    "cg.v.chute_empire_romain",
+    "cg.g02.moyen_age"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel empire, héritier de Rome, survit à 476 et dure jusqu'à la prise de Constantinople en 1453 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Empire romain d'Orient (byzantin)",
+    "L'Empire carolingien",
+    "L'Empire perse",
+    "L'Empire ottoman"
+   ],
+   "answer": "L'Empire romain d'Orient (byzantin)",
+   "acceptedAnswers": [
+    "L'Empire romain d'Orient (byzantin)"
+   ],
+   "explanation": "Seule la partie occidentale de l'Empire disparaît en 476. L'Orient, avec Constantinople pour capitale, dure encore près de mille ans, jusqu'à sa conquête par les Ottomans en 1453.",
+   "tip": "1453 : Constantinople tombe, et la guerre de Cent Ans s'achève la même année.",
+   "extraExample": {
+    "text": "Constantinople est aujourd'hui Istanbul, en Turquie.",
+    "translation": "La ville a porté trois noms : Byzance, Constantinople, Istanbul."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Empire carolingien",
+     "category": "word_confusion",
+     "feedback": "L'empire de Charlemagne naît en 800 et est partagé en 843."
+    },
+    {
+     "equals": "L'Empire ottoman",
+     "category": "word_confusion",
+     "feedback": "Les Ottomans sont justement ceux qui prennent Constantinople en 1453 et détruisent l'Empire d'Orient."
+    }
+   ],
+   "id": "cg.l02.e10"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.hugues_capet"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En ___, Hugues Capet est élu roi : sa dynastie, les Capétiens, règne ensuite pendant des siècles.",
+   "promptLanguage": "fr",
+   "options": [
+    "843",
+    "987",
+    "1066",
+    "1214"
+   ],
+   "answer": "987",
+   "acceptedAnswers": [
+    "987"
+   ],
+   "explanation": "Les derniers Carolingiens s'éteignent et les grands seigneurs élisent Hugues Capet en 987. Ses descendants gardent la couronne de génération en génération, ce qui stabilise le royaume.",
+   "tip": "9-8-7 : les chiffres descendent, comme la couronne qui passe de père en fils.",
+   "extraExample": {
+    "text": "Louis XIV et Louis XVI sont eux aussi des descendants de Hugues Capet.",
+    "translation": "Plus de huit siècles séparent Hugues Capet de Louis XVI."
+   },
+   "errorPatterns": [
+    {
+     "equals": "843",
+     "category": "word_confusion",
+     "feedback": "843 est le traité de Verdun, qui partage l'empire de Charlemagne."
+    },
+    {
+     "equals": "1066",
+     "category": "word_confusion",
+     "feedback": "1066 est la bataille d'Hastings, en Angleterre."
+    }
+   ],
+   "id": "cg.l02.e11"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.croisade"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 1095, le pape Urbain II appelle à la première ___ pour délivrer Jérusalem.",
+   "promptLanguage": "fr",
+   "options": [
+    "croisade",
+    "Réforme",
+    "Inquisition",
+    "Renaissance"
+   ],
+   "answer": "croisade",
+   "acceptedAnswers": [
+    "croisade",
+    "la croisade"
+   ],
+   "explanation": "Une croisade est une expédition militaire lancée par l'Église pour reprendre les Lieux saints. La première s'achève par la prise de Jérusalem en 1099.",
+   "tip": "Croisade = croix : les croisés portaient une croix sur leurs vêtements.",
+   "extraExample": {
+    "text": "Saint Louis part deux fois en croisade et meurt à Tunis en 1270.",
+    "translation": "Les croisades s'étendent sur près de deux siècles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Réforme",
+     "category": "word_confusion",
+     "feedback": "La Réforme protestante est du XVIe siècle (Luther, 1517), bien plus tard."
+    }
+   ],
+   "id": "cg.l02.e12"
+  },
+  {
+   "unitIds": [
+    "cg.v.auguste",
+    "cg.v.jules_cesar"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Le mois d'août porte le nom de l'empereur romain ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Auguste",
+    "Jules César",
+    "Néron",
+    "Trajan"
+   ],
+   "answer": "Auguste",
+   "acceptedAnswers": [
+    "Auguste"
+   ],
+   "explanation": "Auguste, premier empereur romain, a donné son nom au mois d'août. Jules César a donné le sien à juillet, mais il n'a jamais été empereur.",
+   "tip": "Juillet = Jules, août = Auguste.",
+   "extraExample": {
+    "text": "Les Romains comptaient les années à partir de la fondation de Rome, en 753 av. J.-C.",
+    "translation": "Notre calendrier descend en grande partie de celui de César."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Jules César",
+     "category": "word_confusion",
+     "feedback": "César a donné son nom à juillet, mais il n'a jamais été empereur."
+    }
+   ],
+   "id": "cg.l02.e13"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.guerre_de_cent_ans"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "La « guerre de Cent Ans » (1337-1453) a en réalité duré ___ ans.",
+   "promptLanguage": "fr",
+   "options": [
+    "100",
+    "116",
+    "126",
+    "150"
+   ],
+   "answer": "116",
+   "acceptedAnswers": [
+    "116",
+    "116 ans",
+    "cent seize"
+   ],
+   "explanation": "1453 - 1337 = 116 ans. Le nom « Cent Ans » est une approximation ; en réalité, ce sont plusieurs périodes de combats séparées par des trêves.",
+   "tip": "Cent Ans : 100 pour faire simple, 116 en vrai.",
+   "extraExample": {
+    "text": "Elle éclate en 1337, quand le roi d'Angleterre Édouard III revendique la couronne de France.",
+    "translation": "Au départ, c'est donc une querelle de succession."
+   },
+   "errorPatterns": [
+    {
+     "equals": "100",
+     "category": "word_confusion",
+     "feedback": "Le nom est un chiffre rond : en calculant 1453 - 1337, on trouve 116 ans."
+    }
+   ],
+   "id": "cg.l02.e14"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.clovis",
+    "cg.v.charlemagne",
+    "cg.v.hugues_capet",
+    "cg.v.guillaume_le_conquerant",
+    "cg.v.croisade"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates du haut Moyen Âge",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "vers 496",
+     "right": "baptême de Clovis"
+    },
+    {
+     "left": "800",
+     "right": "couronnement de Charlemagne"
+    },
+    {
+     "left": "987",
+     "right": "Hugues Capet devient roi"
+    },
+    {
+     "left": "1066",
+     "right": "bataille d'Hastings"
+    },
+    {
+     "left": "1095",
+     "right": "appel à la première croisade"
+    }
+   ],
+   "answer": "vers 496 = baptême de Clovis ; 800 = couronnement de Charlemagne ; 987 = Hugues Capet devient roi ; 1066 = bataille d'Hastings ; 1095 = appel à la première croisade",
+   "acceptedAnswers": [],
+   "explanation": "Cinq dates à connaître pour passer de Clovis à la première croisade : 496, 800, 987, 1066 et 1095.",
+   "tip": "Apprends ces cinq dates en chaîne, de Clovis à la croisade.",
+   "extraExample": {
+    "text": "Entre 987 et 1095, il ne s'écoule qu'un siècle.",
+    "translation": "C'est l'époque où la France féodale s'organise."
+   },
+   "id": "cg.l02.e15"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.peste_noire"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la grande épidémie.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "noire",
+    "l'Europe",
+    "partir",
+    "à",
+    "de",
+    "1347",
+    "frappe",
+    "La",
+    "peste"
+   ],
+   "answer": "La peste noire frappe l'Europe à partir de 1347",
+   "acceptedAnswers": [
+    "La peste noire frappe l'Europe à partir de 1347",
+    "À partir de 1347 la peste noire frappe l'Europe"
+   ],
+   "explanation": "La peste noire arrive par les ports en 1347 et dure jusqu'en 1352.",
+   "tip": "Quoi (la peste noire), où (l'Europe), quand (1347).",
+   "extraExample": {
+    "text": "La peste noire est la plus grande catastrophe démographique du Moyen Âge.",
+    "translation": "Il faut plus d'un siècle à la population européenne pour retrouver son niveau d'avant."
+   },
+   "id": "cg.l02.e16"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.charlemagne"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'empereur des Francs.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Rome",
+    "800",
+    "est",
+    "en",
+    "Charlemagne",
+    "couronné",
+    "à",
+    "empereur"
+   ],
+   "answer": "Charlemagne est couronné empereur à Rome en 800",
+   "acceptedAnswers": [
+    "Charlemagne est couronné empereur à Rome en 800",
+    "En 800 Charlemagne est couronné empereur à Rome"
+   ],
+   "explanation": "Le couronnement de Charlemagne a lieu à Rome, à Noël de l'an 800, des mains du pape.",
+   "tip": "Qui (Charlemagne), quoi (couronné empereur), où (Rome), quand (800).",
+   "extraExample": {
+    "text": "Le jour de Noël de l'an 800, le pape Léon III pose la couronne sur sa tête.",
+    "translation": "L'Église et l'empereur s'allient."
+   },
+   "id": "cg.l02.e17"
+  },
+  {
+   "unitIds": [
+    "cg.v.democratie",
+    "cg.g02.moyen_age"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Comment s'appelle le régime inventé à Athènes, où le peuple détient le pouvoir ?",
+   "promptLanguage": "fr",
+   "answer": "La démocratie",
+   "acceptedAnswers": [
+    "La démocratie",
+    "démocratie",
+    "democratie"
+   ],
+   "explanation": "Inventée à Athènes à la fin du VIe siècle av. J.-C., la démocratie donne le pouvoir aux citoyens. Au Moyen Âge, au contraire, le pouvoir est aux mains des rois, des seigneurs et de l'Église.",
+   "tip": "Démo-cratie : le peuple (demos) commande (kratos).",
+   "extraExample": {
+    "text": "Au Moyen Âge, les décisions appartiennent surtout aux rois, aux seigneurs et à l'Église.",
+    "translation": "Il faudra attendre bien plus tard pour voir revenir le vote des citoyens."
+   },
+   "errorPatterns": [
+    {
+     "equals": "monarchie",
+     "category": "word_confusion",
+     "feedback": "La monarchie est le pouvoir d'un roi, régime dominant au Moyen Âge, pas celui d'Athènes."
+    },
+    {
+     "equals": "république",
+     "category": "word_confusion",
+     "feedback": "La république est un régime romain ; à Athènes, on parle de démocratie."
+    }
+   ],
+   "id": "cg.l02.e18"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.feodalite"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le système où un seigneur donne un fief à un vassal en échange de sa fidélité ?",
+   "promptLanguage": "fr",
+   "answer": "La féodalité",
+   "acceptedAnswers": [
+    "La féodalité",
+    "féodalité",
+    "feodalite",
+    "système féodal",
+    "le système féodal",
+    "régime féodal",
+    "le régime féodal"
+   ],
+   "explanation": "La féodalité repose sur des liens personnels : le seigneur donne un fief et sa protection, le vassal promet fidélité et aide militaire. Le mot vient de feodum, le fief.",
+   "tip": "Féodalité vient de « fief » : pense à un domaine confié contre fidélité.",
+   "extraExample": {
+    "text": "Le château fort est le symbole de la société féodale.",
+    "translation": "Il abrite le seigneur, sa famille et ses soldats."
+   },
+   "hint": "Le mot vient de « fief ».",
+   "errorPatterns": [
+    {
+     "equals": "esclavage",
+     "category": "word_confusion",
+     "feedback": "Le vassal n'est pas un esclave : c'est un homme libre qui jure fidélité."
+    }
+   ],
+   "id": "cg.l02.e19"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.jeanne_d_arc"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle jeune fille de Domrémy, brûlée à Rouen en 1431, avait délivré Orléans en 1429 ?",
+   "promptLanguage": "fr",
+   "answer": "Jeanne d'Arc",
+   "acceptedAnswers": [
+    "Jeanne d'Arc",
+    "Jeanne darc",
+    "la Pucelle d'Orléans",
+    "Jeanne"
+   ],
+   "explanation": "Jeanne d'Arc convainc Charles VII, délivre Orléans le 8 mai 1429 et le fait sacrer à Reims. Capturée, elle est jugée par un tribunal d'Église favorable aux Anglais et brûlée vive à Rouen le 30 mai 1431.",
+   "tip": "Orléans (délivrée), Reims (sacre), Rouen (bûcher) : trois villes, trois étapes.",
+   "extraExample": {
+    "text": "Jeanne d'Arc est réhabilitée par un nouveau procès en 1456 et canonisée en 1920.",
+    "translation": "Elle est depuis une figure nationale."
+   },
+   "hint": "On l'appelle aussi « la Pucelle d'Orléans ».",
+   "id": "cg.l02.e20"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.v.guillaume_le_conquerant"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel duc de Normandie devient roi d'Angleterre après la bataille d'Hastings, en 1066 ?",
+   "promptLanguage": "fr",
+   "answer": "Guillaume le Conquérant",
+   "acceptedAnswers": [
+    "Guillaume le Conquérant",
+    "Guillaume",
+    "Guillaume le Bâtard",
+    "Guillaume de Normandie",
+    "William the Conqueror"
+   ],
+   "explanation": "Guillaume, duc de Normandie, bat le roi Harold à Hastings et devient roi d'Angleterre. Son surnom, « le Conquérant », rappelle cette victoire.",
+   "tip": "Son surnom dit ce qu'il a fait : il a conquis l'Angleterre.",
+   "extraExample": {
+    "text": "Beaucoup de mots anglais viennent du français de cette époque : beef (bœuf), mutton (mouton).",
+    "translation": "La conquête normande a profondément marqué la langue anglaise."
+   },
+   "hint": "Son surnom dit ce qu'il a fait.",
+   "errorPatterns": [
+    {
+     "equals": "harold",
+     "category": "word_confusion",
+     "feedback": "Harold II est le roi d'Angleterre vaincu et tué à Hastings."
+    }
+   ],
+   "id": "cg.l02.e21"
+  }
+ ]
+}

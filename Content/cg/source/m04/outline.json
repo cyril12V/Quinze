@@ -1,0 +1,179 @@
+{
+ "module": {
+  "id": 4,
+  "title": "Économie, politique et monde",
+  "description": "Les institutions françaises et européennes, les organisations internationales, les notions d'économie, l'entreprise et la finance, la mondialisation, les grandes idées politiques et les enjeux du monde actuel."
+ },
+ "grammarUnits": [
+  {
+   "id": "cg.g25.institutions_francaises",
+   "category": "knowledge",
+   "title": "Les institutions de la Ve République",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g26.union_europeenne",
+   "category": "knowledge",
+   "title": "L'Union européenne",
+   "difficulty": 2,
+   "prerequisites": [
+    "cg.g25.institutions_francaises"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "cg.l25",
+   "sequence": 25,
+   "title": "Les institutions françaises : la Ve République",
+   "description": "La Constitution de 1958, le président, le Premier ministre, le Parlement, le Conseil constitutionnel et la séparation des pouvoirs.",
+   "difficulty": 2,
+   "grammarUnitId": "cg.g25.institutions_francaises",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g09.continents_oceans",
+    "cg.g21.espace"
+   ],
+   "vocabulary": [
+    {
+     "word": "la Ve République",
+     "slug": "cinquieme_republique",
+     "translation": "régime en vigueur en France depuis la Constitution de 1958",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le président de la République",
+     "slug": "president_de_la_republique",
+     "translation": "chef de l'État, élu pour cinq ans au suffrage universel direct",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Premier ministre",
+     "slug": "premier_ministre",
+     "translation": "chef du gouvernement, nommé par le président de la République",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'Assemblée nationale",
+     "slug": "assemblee_nationale",
+     "translation": "chambre du Parlement composée de 577 députés élus pour cinq ans",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le Sénat",
+     "slug": "senat",
+     "translation": "chambre du Parlement élue au suffrage indirect pour six ans",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le Conseil constitutionnel",
+     "slug": "conseil_constitutionnel",
+     "translation": "institution qui vérifie que les lois respectent la Constitution",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "la motion de censure",
+     "slug": "motion_de_censure",
+     "translation": "vote par lequel l'Assemblée nationale peut renverser le gouvernement",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la cohabitation",
+     "slug": "cohabitation",
+     "translation": "situation où le président et la majorité de l'Assemblée sont de camps opposés",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le quinquennat",
+     "slug": "quinquennat",
+     "translation": "mandat présidentiel de cinq ans, en vigueur depuis 2002",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la séparation des pouvoirs",
+     "slug": "separation_des_pouvoirs",
+     "translation": "principe qui répartit le pouvoir entre l'exécutif, le législatif et le judiciaire",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "cg.l26",
+   "sequence": 26,
+   "title": "L'Union européenne : de la CECA à l'euro",
+   "description": "La construction européenne depuis 1950 : traités, élargissements, institutions, euro, espace Schengen et Brexit.",
+   "difficulty": 2,
+   "grammarUnitId": "cg.g26.union_europeenne",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g25.institutions_francaises",
+    "cg.g10.europe_capitales"
+   ],
+   "vocabulary": [
+    {
+     "word": "Robert Schuman",
+     "slug": "robert_schuman",
+     "translation": "ministre français dont la déclaration du 9 mai 1950 lance la construction européenne",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la CECA",
+     "slug": "ceca",
+     "translation": "Communauté européenne du charbon et de l'acier, créée en 1951 par six pays",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le traité de Rome",
+     "slug": "traite_de_rome",
+     "translation": "traité signé le 25 mars 1957 qui crée la Communauté économique européenne",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le traité de Maastricht",
+     "slug": "traite_de_maastricht",
+     "translation": "traité signé en 1992 qui crée l'Union européenne et prépare l'euro",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'espace Schengen",
+     "slug": "espace_schengen",
+     "translation": "zone de circulation sans contrôle aux frontières intérieures",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "l'euro",
+     "slug": "euro",
+     "translation": "monnaie unique de la zone euro, en pièces et en billets depuis 2002",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la Commission européenne",
+     "slug": "commission_europeenne",
+     "translation": "institution qui propose les lois européennes et veille à leur application",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le Parlement européen",
+     "slug": "parlement_europeen",
+     "translation": "assemblée élue par les citoyens de l'Union, qui vote les lois avec le Conseil",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le Conseil européen",
+     "slug": "conseil_europeen",
+     "translation": "réunion des chefs d'État ou de gouvernement de l'UE, qui fixe les grandes orientations",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le Brexit",
+     "slug": "brexit",
+     "translation": "sortie du Royaume-Uni de l'Union européenne, effective le 31 janvier 2020",
+     "partOfSpeech": "event"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,180 @@
+{
+ "module": {
+  "id": 5,
+  "title": "Arts, littérature et philosophie",
+  "description": "Peinture, architecture, littérature, philosophie, musique et cinéma : les grands mouvements, les grands noms et les œuvres à connaître."
+ },
+ "grammarUnits": [
+  {
+   "id": "cg.g33.mouvements_peinture",
+   "category": "knowledge",
+   "title": "Les grands mouvements de la peinture (Renaissance → impressionnisme)",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g34.art_moderne_contemporain",
+   "category": "knowledge",
+   "title": "L'art moderne et contemporain",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g33.mouvements_peinture"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "cg.l33",
+   "sequence": 33,
+   "title": "Peinture : de la Renaissance à l'impressionnisme",
+   "description": "Les grands mouvements de la peinture européenne, de Léonard de Vinci à Monet : perspective, clair-obscur, romantisme, impressionnisme.",
+   "difficulty": 2,
+   "grammarUnitId": "cg.g33.mouvements_peinture",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g10.europe_capitales",
+    "cg.g17.corps_humain",
+    "cg.g21.espace"
+   ],
+   "vocabulary": [
+    {
+     "word": "la Renaissance (art)",
+     "slug": "renaissance_artistique",
+     "translation": "renouveau des arts né en Italie au XVe siècle, inspiré de l'Antiquité",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la perspective",
+     "slug": "perspective",
+     "translation": "technique qui donne l'illusion de la profondeur sur une surface plane",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Léonard de Vinci",
+     "slug": "leonard_de_vinci",
+     "translation": "peintre, inventeur et savant italien de la Renaissance (1452-1519)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "La Joconde",
+     "slug": "la_joconde",
+     "translation": "portrait peint par Léonard de Vinci, exposé au Louvre",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Michel-Ange",
+     "slug": "michel_ange",
+     "translation": "sculpteur, peintre et architecte italien de la Renaissance (1475-1564)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le baroque",
+     "slug": "baroque",
+     "translation": "style du XVIIe siècle qui aime le mouvement, l'émotion et les contrastes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le clair-obscur",
+     "slug": "clair_obscur",
+     "translation": "fort contraste entre des zones très éclairées et des zones plongées dans l'ombre",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le romantisme",
+     "slug": "romantisme",
+     "translation": "mouvement du début du XIXe siècle qui exalte les émotions, la nature et la liberté",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'impressionnisme",
+     "slug": "impressionnisme",
+     "translation": "mouvement né vers 1870 qui cherche à saisir la lumière et l'instant",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Claude Monet",
+     "slug": "claude_monet",
+     "translation": "peintre impressionniste français (1840-1926)",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "cg.l34",
+   "sequence": 34,
+   "title": "Art moderne et contemporain : de Van Gogh à Warhol",
+   "description": "Postimpressionnisme, fauvisme, cubisme, abstraction, ready-made, surréalisme et pop art : les ruptures qui ont changé l'art au XXe siècle.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g34.art_moderne_contemporain",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g33.mouvements_peinture",
+    "cg.g10.europe_capitales"
+   ],
+   "vocabulary": [
+    {
+     "word": "Vincent van Gogh",
+     "slug": "vincent_van_gogh",
+     "translation": "peintre néerlandais postimpressionniste (1853-1890)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le fauvisme",
+     "slug": "fauvisme",
+     "translation": "mouvement de 1905 qui utilise des couleurs pures, vives et non réalistes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Pablo Picasso",
+     "slug": "pablo_picasso",
+     "translation": "peintre et sculpteur espagnol, cofondateur du cubisme (1881-1973)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le cubisme",
+     "slug": "cubisme",
+     "translation": "mouvement lancé vers 1907-1908 qui montre un objet sous plusieurs angles à la fois",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Guernica",
+     "slug": "guernica",
+     "translation": "tableau de Picasso (1937) qui dénonce un bombardement",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "l'art abstrait",
+     "slug": "art_abstrait",
+     "translation": "art qui ne représente pas la réalité visible, seulement formes, lignes et couleurs",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le surréalisme",
+     "slug": "surrealisme",
+     "translation": "mouvement lancé en 1924 qui explore le rêve et l'inconscient",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Marcel Duchamp",
+     "slug": "marcel_duchamp",
+     "translation": "artiste français qui invente le ready-made avec Fontaine (1917)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le pop art",
+     "slug": "pop_art",
+     "translation": "mouvement des années 1950-1960 qui puise dans la publicité, la BD et la consommation",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Andy Warhol",
+     "slug": "andy_warhol",
+     "translation": "artiste américain, figure du pop art (1928-1987)",
+     "partOfSpeech": "person"
+    }
+   ]
+  }
+ ]
+}

@@ -1,6 +1,6 @@
-# Quinze — apprendre l'anglais 15 minutes par jour
+# Quinze — anglais, arabe et culture G, un peu chaque jour
 
-Application iPhone d'apprentissage des langues : trois sessions de cinq minutes par jour, un moteur pédagogique à répétition espacée, un professeur IA et, à chaque horaire de leçon, la restriction des applications distrayantes jusqu'à ce que la leçon soit faite.
+Application iPhone d'apprentissage : trois créneaux par jour où s'enchaînent anglais, arabe et culture G (5 minutes chacun par défaut), un moteur pédagogique à répétition espacée, un professeur IA et, à chaque horaire de leçon, la restriction des applications distrayantes jusqu'à ce que la leçon soit faite. Le fonctionnement de la version 2 est décrit dans [docs/13-trois-matieres.md](docs/13-trois-matieres.md).
 
 > **Design** : direction artistique « éditoriale pastel » (Plus Jakarta Sans, cards pastel, boutons noirs en pilule), décrite dans [docs/design/direction-artistique.md](docs/design/direction-artistique.md). Les photos de personnes détourées sont à déposer dans `App/Resources/Assets.xcassets` sous les noms listés dans ce document ; d'ici là, un visuel abstrait les remplace.
 >
@@ -11,7 +11,7 @@ Application iPhone d'apprentissage des langues : trois sessions de cinq minutes 
 | Dossier | Contenu | État |
 |---|---|---|
 | `Packages/LearningCore/` | Moteur pédagogique en Swift pur : correction, FSRS, maîtrise, planification des sessions, diagnostic, dictionnaire | Compilé et testé : 78 tests sous Linux, Swift 6.0.3 |
-| `Content/` | Programme et corpus anglais : 60 leçons, 600 exercices, 397 fiches, diagnostic, évaluations, plus les outils de validation | Validé par script et par le moteur |
+| `Content/` | Programmes et corpus des trois matières (`en`, `ar`, `cg`), plus les outils de validation | Validé par script |
 | `App/` | App iOS SwiftUI : onboarding, comptes, leçons, correction, professeur IA, dictionnaire, progrès, réglages, synchronisation | Compile pour iOS avec Xcode 26.3 (workflow `compile.yml`) |
 | `Shared/`, `Extensions/` | Restrictions Screen Time : état partagé, moniteur DeviceActivity, écran de blocage, actions du bouclier | Idem ; **à valider sur iPhone** |
 | `supabase/` | Base de données (7 migrations, RLS), RPC de synchronisation, Edge Functions `ai` (Claude) et `account` | 180 assertions SQL et 46 tests TypeScript passent |
@@ -73,6 +73,7 @@ xcodegen generate && open Quinze.xcodeproj
 | [10-dependances-et-couts](docs/10-dependances-et-couts.md) | Services externes, dépendances, coûts récurrents |
 | [11-limites-connues](docs/11-limites-connues.md) | Ce qui n'est pas garanti, ce qui reste à faire |
 | [12-installer-sur-mon-iphone](docs/12-installer-sur-mon-iphone.md) | Usage perso : compiler et installer sur ton iPhone, sans Mac |
+| [13-trois-matieres](docs/13-trois-matieres.md) | Version 2 : anglais, arabe, culture G, réglages, voix, clé Claude |
 | [design/direction-artistique](docs/design/direction-artistique.md) | Direction artistique : jetons, composants, règles par écran, photos à fournir |
 | [reports/rapport-de-tests](docs/reports/rapport-de-tests.md) | Tests exécutés, résultats, tests restant à faire sur iPhone |
 | [tests/screen-time-test-plan](docs/tests/screen-time-test-plan.md) | Plan de test Screen Time sur appareil |

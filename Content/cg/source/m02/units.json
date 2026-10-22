@@ -130,5 +130,93 @@
    ],
    "tip": "Retiens trois capitales « décalées » : Ankara (pas Istanbul), Abou Dhabi (pas Dubaï), Abuja (pas Lagos)."
   }
+ },
+ {
+  "id": "cg.g12.asie_oceanie",
+  "rule": {
+   "summary": "L'Asie est le plus grand et le plus peuplé des continents, avec les plus hauts reliefs du monde ; l'Océanie, le plus petit, est un monde d'îles dominé par l'Australie.",
+   "explanation": "L'Asie rassemble près de 60 % de l'humanité et les plus hauts reliefs de la Terre : l'Himalaya, dont l'Everest (environ 8 850 m), à la frontière du Népal et de la Chine, est le sommet le plus haut. Ses grands fleuves, comme le Yang-Tsé-Kiang (le plus long d'Asie), le fleuve Jaune, le Gange ou le Mékong, nourrissent des centaines de millions de personnes. Comme en Afrique, plusieurs capitales piègent : Islamabad pour le Pakistan (pas Karachi), Hanoï pour le Vietnam (pas Hô Chi Minh-Ville), Naypyidaw pour la Birmanie (pas Rangoun). En Océanie, la capitale de l'Australie est Canberra, un compromis entre Sydney et Melbourne, et celle de la Nouvelle-Zélande est Wellington, pas Auckland. Au large de l'Australie, la Grande Barrière de corail est le plus grand récif corallien du monde.",
+   "pattern": "Australie → Canberra ; Nouvelle-Zélande → Wellington ; Pakistan → Islamabad ; Vietnam → Hanoï ; Birmanie → Naypyidaw ; Everest = toit du monde",
+   "examples": [
+    {
+     "text": "L'Everest culmine à environ 8 850 m, à la frontière entre le Népal et la Chine (Tibet).",
+     "translation": "C'est le point le plus haut de la Terre au-dessus du niveau de la mer."
+    },
+    {
+     "text": "Canberra a été fondée au début du XXe siècle comme compromis entre Sydney et Melbourne.",
+     "translation": "Aucune des deux rivales n'a voulu céder son rang : on a bâti une capitale neuve entre elles."
+    },
+    {
+     "text": "La Grande Barrière de corail s'étend sur environ 2 300 km au large de l'Australie.",
+     "translation": "C'est le plus grand récif corallien du monde, classé à l'UNESCO depuis 1981."
+    },
+    {
+     "text": "Le Japon est un archipel de plus de 6 800 îles, dont quatre principales : Hokkaïdo, Honshū, Shikoku et Kyūshū.",
+     "translation": "Tokyo se trouve sur Honshū, la plus grande."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La capitale de l'Australie est Sydney.",
+     "right": "La capitale de l'Australie est Canberra.",
+     "why": "Sydney est la ville la plus célèbre (son opéra, sa baie), mais le Parlement siège à Canberra, ville créée pour départager Sydney et Melbourne."
+    },
+    {
+     "wrong": "La capitale du Pakistan est Karachi.",
+     "right": "La capitale du Pakistan est Islamabad.",
+     "why": "Karachi est la plus grande ville et le grand port ; Islamabad a été bâtie à partir des années 1960 pour devenir la capitale."
+    },
+    {
+     "wrong": "La capitale du Vietnam est Hô Chi Minh-Ville (Saïgon).",
+     "right": "La capitale du Vietnam est Hanoï.",
+     "why": "Hô Chi Minh-Ville, l'ancienne Saïgon, est la plus grande ville et le centre économique ; la capitale, Hanoï, se trouve au nord."
+    }
+   ],
+   "tip": "Canberra, Wellington, Islamabad, Hanoï, Naypyidaw : à chaque fois, la capitale n'est pas la grande ville que tout le monde cite."
+  }
+ },
+ {
+  "id": "cg.g13.ameriques",
+  "rule": {
+   "summary": "Les Amériques s'étendent de l'Arctique à la Terre de Feu : les Andes, l'Amazone et les Grands Lacs les structurent, et leurs capitales ne sont souvent pas les plus grandes villes.",
+   "explanation": "Les Amériques sont bordées par le Pacifique à l'ouest et l'Atlantique à l'est. Une longue chaîne de montagnes les traverse à l'ouest : les Rocheuses au nord et les Andes au sud, longues d'environ 7 000 km, avec l'Aconcagua (environ 6 960 m, en Argentine) pour sommet le plus haut. L'Amazone, au débit le plus puissant du monde, coule à travers le Pérou, la Colombie et surtout le Brésil jusqu'à l'Atlantique, et les Grands Lacs forment cinq immenses lacs entre le Canada et les États-Unis. Les capitales piègent : Ottawa (et non Toronto), Washington D.C. (et non New York), Brasilia (et non Rio ni São Paulo), et la Bolivie partage ses pouvoirs entre La Paz (le gouvernement) et Sucre (la capitale constitutionnelle). Le canal de Panama, ouvert en 1914, relie l'Atlantique au Pacifique ; le Groenland, plus grande île du monde, est nord-américain mais dépend du Danemark.",
+   "pattern": "Canada → Ottawa ; États-Unis → Washington D.C. ; Brésil → Brasilia ; Bolivie → La Paz (gouvernement) et Sucre (capitale constitutionnelle) ; Argentine → Aconcagua",
+   "examples": [
+    {
+     "text": "Brasilia, inaugurée en 1960, a été construite de toutes pièces au centre du Brésil.",
+     "translation": "Elle a remplacé Rio de Janeiro pour développer l'intérieur du pays."
+    },
+    {
+     "text": "Le canal de Panama, ouvert en 1914, relie l'Atlantique au Pacifique.",
+     "translation": "Les navires évitent ainsi le long détour par le cap Horn, au sud de l'Amérique du Sud."
+    },
+    {
+     "text": "L'Aconcagua, en Argentine, culmine à environ 6 960 m.",
+     "translation": "C'est le plus haut sommet des Amériques et de tous les continents hors d'Asie."
+    },
+    {
+     "text": "Le Groenland, plus grande île du monde, est un territoire autonome du Danemark.",
+     "translation": "Géographiquement, il fait partie de l'Amérique du Nord."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La capitale du Canada est Toronto (ou Montréal).",
+     "right": "La capitale du Canada est Ottawa.",
+     "why": "Toronto est la plus grande ville et Montréal la deuxième ; Ottawa a été choisie au XIXe siècle à la frontière des deux grandes provinces, l'Ontario et le Québec."
+    },
+    {
+     "wrong": "La capitale du Brésil est Rio de Janeiro.",
+     "right": "La capitale du Brésil est Brasilia, depuis 1960.",
+     "why": "Rio de Janeiro est la ville la plus célèbre et l'ancienne capitale (jusqu'en 1960) ; São Paulo est la plus grande ville du pays."
+    },
+    {
+     "wrong": "Washington D.C. est dans l'État de Washington.",
+     "right": "Washington D.C. est un district fédéral de la côte Est ; l'État de Washington est à l'autre bout du pays, sur le Pacifique.",
+     "why": "L'État de Washington et la capitale fédérale portent le même nom en l'honneur du premier président, mais ce sont deux lieux distincts, séparés par plus de 3 500 km."
+    }
+   ],
+   "tip": "Ottawa (Canada), Washington D.C. (États-Unis), Brasilia (Brésil) : ni Toronto, ni New York, ni Rio ou São Paulo."
+  }
  }
 ]

@@ -1,0 +1,965 @@
+{
+ "lessonId": "cg.l35",
+ "exercises": [
+  {
+   "id": "cg.l35.e01",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.parthenon"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quelle ville se trouve le Parthénon, temple de la déesse Athéna ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Rome",
+    "Le Caire",
+    "Athènes",
+    "Istanbul"
+   ],
+   "answer": "Athènes",
+   "acceptedAnswers": [
+    "Athènes"
+   ],
+   "explanation": "Le Parthénon domine Athènes du haut de l'Acropole. Il a été construit entre 447 et 432 av. J.-C., au temps de Périclès, en l'honneur d'Athéna.",
+   "tip": "Athéna et Athènes : la déesse a donné son nom à la ville.",
+   "extraExample": {
+    "text": "L'Acropole d'Athènes est inscrite au patrimoine mondial de l'UNESCO depuis 1987.",
+    "translation": "Elle reste le monument le plus visité de Grèce."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Rome",
+     "category": "word_confusion",
+     "feedback": "À Rome se trouvent le Colisée et le Panthéon, qui sont des monuments romains, pas grecs."
+    },
+    {
+     "equals": "Istanbul",
+     "category": "word_confusion",
+     "feedback": "Istanbul abrite Sainte-Sophie, une ancienne basilique byzantine."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e02",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.pyramide_de_kheops"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pharaon a fait construire la Grande Pyramide de Gizeh, vers 2560 av. J.-C. ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Toutânkhamon",
+    "Ramsès II",
+    "Cléopâtre",
+    "Khéops"
+   ],
+   "answer": "Khéops",
+   "acceptedAnswers": [
+    "Khéops"
+   ],
+   "explanation": "La Grande Pyramide est le tombeau de Khéops, pharaon de la IVe dynastie. Elle est la seule des Sept Merveilles du monde antique encore debout.",
+   "tip": "La plus grande pyramide, c'est Khéops : un nom, une pyramide.",
+   "extraExample": {
+    "text": "À côté, les pyramides de Khéphren et de Mykérinos sont un peu plus petites.",
+    "translation": "Khéphren était le fils de Khéops, et Mykérinos son petit-fils."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Ramsès II",
+     "category": "word_confusion",
+     "feedback": "Ramsès II règne vers 1279-1213 av. J.-C., plus de mille ans après Khéops, et il n'a pas bâti de pyramide."
+    },
+    {
+     "equals": "Toutânkhamon",
+     "category": "word_confusion",
+     "feedback": "Toutânkhamon (XIVe siècle av. J.-C.) est enterré dans la Vallée des Rois, dans une tombe creusée dans la roche."
+    },
+    {
+     "equals": "Cléopâtre",
+     "category": "word_confusion",
+     "feedback": "Cléopâtre VII vit au Ier siècle av. J.-C., environ 2 500 ans après Khéops."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e03",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.colisee",
+    "cg.v.tour_eiffel",
+    "cg.v.sagrada_familia",
+    "cg.v.taj_mahal",
+    "cg.v.statue_de_la_liberte"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Monuments célèbres et villes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "le Colisée",
+     "right": "Rome"
+    },
+    {
+     "left": "la tour Eiffel",
+     "right": "Paris"
+    },
+    {
+     "left": "la Sagrada Família",
+     "right": "Barcelone"
+    },
+    {
+     "left": "le Taj Mahal",
+     "right": "Agra"
+    },
+    {
+     "left": "la statue de la Liberté",
+     "right": "New York"
+    }
+   ],
+   "answer": "le Colisée = Rome ; la tour Eiffel = Paris ; la Sagrada Família = Barcelone ; le Taj Mahal = Agra ; la statue de la Liberté = New York",
+   "acceptedAnswers": [],
+   "explanation": "Chacun de ces monuments est le symbole de sa ville : Rome (Colisée), Paris (tour Eiffel), Barcelone (Sagrada Família de Gaudí), Agra (Taj Mahal, en Inde) et New York (statue de la Liberté).",
+   "tip": "Un monument, une ville : associe-les en pensant à une photo de chaque endroit.",
+   "extraExample": {
+    "text": "Agra n'est pas la capitale de l'Inde : la capitale est New Delhi.",
+    "translation": "Le Taj Mahal se trouve à plus de 200 kilomètres de New Delhi."
+   }
+  },
+  {
+   "id": "cg.l35.e04",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.colisee"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pour quels spectacles le Colisée de Rome était-il surtout célèbre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "des courses de chars",
+    "des tournois de chevaliers",
+    "des combats de gladiateurs",
+    "des représentations d'opéra"
+   ],
+   "answer": "des combats de gladiateurs",
+   "acceptedAnswers": [
+    "des combats de gladiateurs"
+   ],
+   "explanation": "Inauguré en l'an 80, le Colisée accueillait des combats de gladiateurs, des chasses d'animaux sauvages et d'autres spectacles offerts au peuple romain.",
+   "tip": "Colisée = gladiateurs.",
+   "extraExample": {
+    "text": "Les gladiateurs venaient souvent de captifs de guerre ou d'esclaves.",
+    "translation": "Certains devenaient de véritables vedettes, comme les sportifs d'aujourd'hui."
+   },
+   "errorPatterns": [
+    {
+     "equals": "des courses de chars",
+     "category": "word_confusion",
+     "feedback": "Les courses de chars se déroulaient au Circus Maximus, un autre grand monument de Rome."
+    },
+    {
+     "equals": "des tournois de chevaliers",
+     "category": "word_confusion",
+     "feedback": "Les tournois sont une invention du Moyen Âge, bien après la Rome antique."
+    },
+    {
+     "equals": "des représentations d'opéra",
+     "category": "word_confusion",
+     "feedback": "L'opéra naît en Italie vers 1600, plus de 1 500 ans après le Colisée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e05",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.art_roman"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle caractéristique reconnaît-on dans une église romane ?",
+   "promptLanguage": "fr",
+   "options": [
+    "une façade de verre et d'acier",
+    "des murs épais, de petites fenêtres et des voûtes arrondies",
+    "une grande coupole de béton et des colonnes doriques",
+    "des arcs-boutants et d'immenses vitraux"
+   ],
+   "answer": "des murs épais, de petites fenêtres et des voûtes arrondies",
+   "acceptedAnswers": [
+    "des murs épais, de petites fenêtres et des voûtes arrondies"
+   ],
+   "explanation": "Les voûtes en plein cintre sont lourdes : elles exigent des murs très épais, donc de petites fenêtres. L'intérieur des églises romanes est sombre, solide et massif.",
+   "tip": "Roman = rond et massif ; gothique = pointu et lumineux.",
+   "extraExample": {
+    "text": "Dans l'église romane Sainte-Foy de Conques, les murs épais soutiennent une voûte en berceau.",
+    "translation": "Cette forme est typique du roman."
+   },
+   "errorPatterns": [
+    {
+     "equals": "des arcs-boutants et d'immenses vitraux",
+     "category": "word_confusion",
+     "feedback": "C'est le gothique, qui apparaît à partir de 1140 environ."
+    },
+    {
+     "equals": "une grande coupole de béton et des colonnes doriques",
+     "category": "word_confusion",
+     "feedback": "C'est un mélange de Rome (béton, coupole) et de Grèce (colonnes doriques), pas du roman."
+    },
+    {
+     "equals": "une façade de verre et d'acier",
+     "category": "word_confusion",
+     "feedback": "C'est de l'architecture moderne, XIXe-XXe siècles."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e06",
+   "unitIds": [
+    "cg.v.continent",
+    "cg.g35.architecture_monuments",
+    "cg.v.pyramide_de_kheops"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Sur quel continent, au bord du Nil, se dressent les pyramides de Gizeh ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Océanie",
+    "L'Europe",
+    "L'Afrique",
+    "L'Asie"
+   ],
+   "answer": "L'Afrique",
+   "acceptedAnswers": [
+    "L'Afrique"
+   ],
+   "explanation": "Les pyramides de Gizeh se trouvent en Égypte, dans le nord-est du continent africain, près du Caire et du Nil.",
+   "tip": "Nil + Égypte = Afrique.",
+   "extraExample": {
+    "text": "Le Nil, long d'environ 6 650 kilomètres, est l'un des plus longs fleuves du monde.",
+    "translation": "Il traverse l'Égypte du sud au nord jusqu'à la Méditerranée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Asie",
+     "category": "word_confusion",
+     "feedback": "L'Égypte touche l'Asie par la péninsule du Sinaï, mais Gizeh est bien en Afrique."
+    },
+    {
+     "equals": "L'Europe",
+     "category": "word_confusion",
+     "feedback": "La Méditerranée sépare l'Égypte de l'Europe."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e07",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.parthenon"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Parthénon est un temple dédié à la déesse ___, protectrice d'Athènes.",
+   "promptLanguage": "fr",
+   "options": [
+    "Artémis",
+    "Athéna",
+    "Héra",
+    "Aphrodite"
+   ],
+   "answer": "Athéna",
+   "acceptedAnswers": [
+    "Athéna"
+   ],
+   "explanation": "Athéna, déesse de la sagesse et de la guerre, protège Athènes. Dans le Parthénon se dressait une immense statue d'elle, œuvre de Phidias.",
+   "tip": "Parthénon vient du grec parthenos, « vierge » : l'un des surnoms d'Athéna.",
+   "extraExample": {
+    "text": "Selon la légende, Athéna a offert l'olivier aux Athéniens et a obtenu ainsi le nom de la ville.",
+    "translation": "L'olivier est resté un symbole de l'Attique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Aphrodite",
+     "category": "word_confusion",
+     "feedback": "Aphrodite est la déesse de l'amour ; Athéna est la protectrice d'Athènes."
+    },
+    {
+     "equals": "Héra",
+     "category": "word_confusion",
+     "feedback": "Héra est l'épouse de Zeus, protectrice du mariage ; elle a son principal temple à Samos et à Argos."
+    },
+    {
+     "equals": "Artémis",
+     "category": "word_confusion",
+     "feedback": "Artémis est la déesse de la chasse ; son grand temple est à Éphèse."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e08",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.cathedrale_gothique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En architecture gothique, l'arc brisé, pointu, qui remplace l'arc arrondi roman s'appelle l'___.",
+   "promptLanguage": "fr",
+   "options": [
+    "rosace",
+    "arcade",
+    "ogive",
+    "architrave"
+   ],
+   "answer": "ogive",
+   "acceptedAnswers": [
+    "ogive",
+    "l'ogive"
+   ],
+   "explanation": "L'arc brisé, ou ogive, est la signature du gothique. Plus pointu, il permet de monter les voûtes plus haut et de mieux répartir le poids.",
+   "tip": "Ogive = pointe : l'arc gothique ressemble à une pointe de lance.",
+   "extraExample": {
+    "text": "L'ogive est aussi un mot militaire : la partie pointue d'un missile s'appelle une ogive.",
+    "translation": "Le même mot désigne donc deux formes pointues très différentes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "rosace",
+     "category": "word_confusion",
+     "feedback": "La rosace est un grand vitrail rond, comme celui de la façade de Notre-Dame, mais ce n'est pas l'arc pointu."
+    },
+    {
+     "equals": "arcade",
+     "category": "word_confusion",
+     "feedback": "Une arcade est une succession d'arcs ; ce n'est pas l'arc pointu du gothique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e09",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.notre_dame_de_paris"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La construction de Notre-Dame de Paris commence en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1163",
+    "1348",
+    "1530",
+    "1789"
+   ],
+   "answer": "1163",
+   "acceptedAnswers": [
+    "1163"
+   ],
+   "explanation": "La construction commence en 1163 sur l'île de la Cité, sous l'évêque Maurice de Sully, et dure près de deux siècles. C'est l'une des premières grandes cathédrales gothiques.",
+   "tip": "1163 : début du chantier de Notre-Dame, au XIIe siècle.",
+   "extraExample": {
+    "text": "Le chantier de la cathédrale de Chartres démarre peu après, en 1194, après un grand incendie.",
+    "translation": "Les cathédrales gothiques se multiplient en France aux XIIe et XIIIe siècles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1789",
+     "category": "word_confusion",
+     "feedback": "1789 est la Révolution française : Notre-Dame est alors pillée et transformée en « temple de la Raison » en 1793."
+    },
+    {
+     "equals": "1530",
+     "category": "word_confusion",
+     "feedback": "1530 est en pleine Renaissance, plus de trois siècles après le début du chantier."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e10",
+   "unitIds": [
+    "cg.v.perspective",
+    "cg.g35.architecture_monuments",
+    "cg.v.renaissance_artistique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel architecte de la Renaissance, inventeur de la perspective, a construit la coupole de la cathédrale de Florence ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Brunelleschi",
+    "Michel-Ange",
+    "Léonard de Vinci",
+    "Raphaël"
+   ],
+   "answer": "Brunelleschi",
+   "acceptedAnswers": [
+    "Brunelleschi"
+   ],
+   "explanation": "Filippo Brunelleschi construit entre 1420 et 1436 l'immense coupole de Santa Maria del Fiore, à Florence, une prouesse technique réalisée sans grande charpente de soutien. Il est aussi l'un des inventeurs de la perspective linéaire.",
+   "tip": "Brunelleschi = la coupole de Florence ET la perspective.",
+   "extraExample": {
+    "text": "Michel-Ange s'inspirera de la coupole de Florence pour celle de Saint-Pierre de Rome.",
+    "translation": "Elle est restée un modèle pour tous les architectes de la Renaissance."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Michel-Ange",
+     "category": "word_confusion",
+     "feedback": "Michel-Ange dessine la coupole de Saint-Pierre de Rome, un siècle plus tard."
+    },
+    {
+     "equals": "Léonard de Vinci",
+     "category": "word_confusion",
+     "feedback": "Léonard est peintre, ingénieur et inventeur, mais il n'a pas bâti la coupole de Florence."
+    },
+    {
+     "equals": "Raphaël",
+     "category": "word_confusion",
+     "feedback": "Raphaël a été architecte de Saint-Pierre de Rome, mais la coupole de Florence est de Brunelleschi."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e11",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.tour_eiffel"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pour quel événement la tour Eiffel a-t-elle été construite ?",
+   "promptLanguage": "fr",
+   "options": [
+    "les Jeux olympiques de 1900",
+    "l'Exposition universelle de 1889",
+    "le couronnement de Napoléon III",
+    "l'ouverture du métro de Paris"
+   ],
+   "answer": "l'Exposition universelle de 1889",
+   "acceptedAnswers": [
+    "l'Exposition universelle de 1889"
+   ],
+   "explanation": "L'Exposition universelle de 1889 célèbre le centenaire de la Révolution française. La tour d'Eiffel, qui en est l'entrée monumentale, devait être démontée au bout de vingt ans.",
+   "tip": "1789 → 1889 : cent ans après la Révolution, la tour.",
+   "extraExample": {
+    "text": "L'Exposition universelle de 1900, à Paris aussi, a vu l'ouverture de la première ligne du métro.",
+    "translation": "Paris a organisé plusieurs expositions universelles entre 1855 et 1937."
+   },
+   "errorPatterns": [
+    {
+     "equals": "les Jeux olympiques de 1900",
+     "category": "word_confusion",
+     "feedback": "Les Jeux de 1900, à Paris, ont lieu pendant une autre exposition universelle, onze ans après l'inauguration de la tour."
+    },
+    {
+     "equals": "le couronnement de Napoléon III",
+     "category": "word_confusion",
+     "feedback": "Napoléon III devient empereur en 1852 ; le Second Empire s'achève en 1870, bien avant la tour."
+    },
+    {
+     "equals": "l'ouverture du métro de Paris",
+     "category": "word_confusion",
+     "feedback": "Le métro ouvre en 1900, onze ans après la tour."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e12",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.sagrada_familia"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel architecte catalan a consacré la fin de sa vie à la Sagrada Família, à Barcelone ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Antoni Gaudí",
+    "Filippo Brunelleschi",
+    "Gustave Eiffel",
+    "Le Corbusier"
+   ],
+   "answer": "Antoni Gaudí",
+   "acceptedAnswers": [
+    "Antoni Gaudí"
+   ],
+   "explanation": "Gaudí prend la direction du chantier en 1883 et y travaille jusqu'à sa mort accidentelle, en 1926. Il invente des formes courbes inspirées de la nature.",
+   "tip": "Gaudí = Barcelone = formes de la nature.",
+   "extraExample": {
+    "text": "Le parc Güell et la Casa Batlló, à Barcelone, sont aussi de Gaudí.",
+    "translation": "Plusieurs œuvres de Gaudí sont inscrites au patrimoine mondial de l'UNESCO."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Corbusier",
+     "category": "word_confusion",
+     "feedback": "Le Corbusier est un architecte moderne de béton, né en Suisse : il n'a pas travaillé à la Sagrada Família."
+    },
+    {
+     "equals": "Gustave Eiffel",
+     "category": "word_confusion",
+     "feedback": "Eiffel est un ingénieur français du fer (tour Eiffel)."
+    },
+    {
+     "equals": "Filippo Brunelleschi",
+     "category": "word_confusion",
+     "feedback": "Brunelleschi est un architecte florentin du XVe siècle."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e13",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.taj_mahal"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Taj Mahal est un mausolée construit par l'empereur Shah Jahan pour son épouse ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Shéhérazade",
+    "Mumtaz Mahal",
+    "Nur Jahan",
+    "Anarkali"
+   ],
+   "answer": "Mumtaz Mahal",
+   "acceptedAnswers": [
+    "Mumtaz Mahal"
+   ],
+   "explanation": "Shah Jahan, empereur moghol de l'Inde, perd sa femme préférée, Mumtaz Mahal, en 1631. Il fait élever pour elle ce mausolée de marbre blanc à Agra, dont les travaux durent une vingtaine d'années.",
+   "tip": "Taj Mahal = « couronne du palais » ; Mumtaz Mahal = « la préférée du palais ».",
+   "extraExample": {
+    "text": "Shah Jahan est enterré dans le mausolée, à côté de son épouse.",
+    "translation": "Le monument est donc à la fois un tombeau d'amour et celui d'un empereur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Nur Jahan",
+     "category": "word_confusion",
+     "feedback": "Nur Jahan est l'épouse de Jahangir, le père de Shah Jahan."
+    },
+    {
+     "equals": "Shéhérazade",
+     "category": "word_confusion",
+     "feedback": "Shéhérazade est la conteuse des Mille et Une Nuits : un personnage de fiction."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e14",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.statue_de_la_liberte",
+    "cg.v.tour_eiffel"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "La statue de la Liberté, œuvre du sculpteur français Bartholdi, a été offerte par la France aux ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Royaume-Uni",
+    "Canada",
+    "Brésil",
+    "États-Unis"
+   ],
+   "answer": "États-Unis",
+   "acceptedAnswers": [
+    "États-Unis",
+    "aux Etats-Unis",
+    "États-Unis d'Amérique",
+    "USA"
+   ],
+   "explanation": "Inaugurée en 1886 à l'entrée du port de New York, la statue est un cadeau de la France aux États-Unis, en souvenir de leur alliance pendant la guerre d'Indépendance. Gustave Eiffel, le futur constructeur de la tour, en a conçu la structure interne.",
+   "tip": "Statue de la Liberté = cadeau de la France, structure d'Eiffel.",
+   "extraExample": {
+    "text": "La statue est en cuivre : elle était brun-rouge à l'origine et est devenue verte en s'oxydant à l'air.",
+    "translation": "Cette couleur vert-de-gris est un effet du temps, pas un choix de l'artiste."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Canada",
+     "category": "word_confusion",
+     "feedback": "Le Canada n'a pas reçu la statue : elle se dresse à New York, aux États-Unis."
+    },
+    {
+     "equals": "Royaume-Uni",
+     "category": "word_confusion",
+     "feedback": "Le Royaume-Uni n'est pas le destinataire : la statue est un cadeau pour les États-Unis, avec lesquels la France s'est alliée en 1778."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e15",
+   "unitIds": [
+    "cg.v.art_abstrait",
+    "cg.g35.architecture_monuments"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Le peintre abstrait Kandinsky a enseigné au Bauhaus. Qu'est-ce que le Bauhaus, fondé en 1919 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "un musée de Berlin",
+    "une école allemande d'art, d'architecture et de design",
+    "un mouvement de peinture surréaliste",
+    "un style gothique allemand"
+   ],
+   "answer": "une école allemande d'art, d'architecture et de design",
+   "acceptedAnswers": [
+    "une école allemande d'art, d'architecture et de design"
+   ],
+   "explanation": "Le Bauhaus, fondé en 1919 à Weimar par l'architecte Walter Gropius, rassemble artistes et artisans. Il défend des formes simples et fonctionnelles et influence tout le design du XXe siècle.",
+   "tip": "Bauhaus = formes simples, utiles, industrielles.",
+   "extraExample": {
+    "text": "Les chaises en tubes d'acier de Marcel Breuer sont nées au Bauhaus.",
+    "translation": "Le design moderne y trouve une partie de ses racines."
+   },
+   "errorPatterns": [
+    {
+     "equals": "un mouvement de peinture surréaliste",
+     "category": "word_confusion",
+     "feedback": "Le surréalisme est lancé par André Breton en 1924, à Paris ; le Bauhaus est une école allemande."
+    },
+    {
+     "equals": "un style gothique allemand",
+     "category": "word_confusion",
+     "feedback": "Le Bauhaus est une école du XXe siècle, bien loin du gothique médiéval."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e16",
+   "unitIds": [
+    "cg.v.romantisme",
+    "cg.g35.architecture_monuments",
+    "cg.v.cathedrale_gothique"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel mouvement du début du XIXe siècle, celui de Delacroix et de Victor Hugo, redonne le goût du Moyen Âge et des cathédrales gothiques ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le cubisme",
+    "le pop art",
+    "le romantisme",
+    "le baroque"
+   ],
+   "answer": "le romantisme",
+   "acceptedAnswers": [
+    "le romantisme"
+   ],
+   "explanation": "Les romantiques admirent le Moyen Âge, ses légendes et ses cathédrales. Le roman de Hugo, Notre-Dame de Paris (1831), s'inscrit dans ce goût et pousse à restaurer l'édifice.",
+   "tip": "Romantisme = goût du passé médiéval, de l'émotion et du mystère.",
+   "extraExample": {
+    "text": "En littérature anglaise, Walter Scott lance le roman historique médiéval, avec Ivanhoé (1819).",
+    "translation": "Le romantisme européen aime les histoires du Moyen Âge."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le baroque",
+     "category": "word_confusion",
+     "feedback": "Le baroque est un style du XVIIe siècle, qui aime les formes courbes et les mises en scène."
+    },
+    {
+     "equals": "le cubisme",
+     "category": "word_confusion",
+     "feedback": "Le cubisme naît vers 1907-1908, un siècle plus tard."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e17",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.art_roman",
+    "cg.v.cathedrale_gothique",
+    "cg.v.parthenon",
+    "cg.v.le_corbusier"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Styles d'architecture et caractéristiques",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "l'art roman",
+     "right": "voûtes arrondies et murs épais"
+    },
+    {
+     "left": "l'art gothique",
+     "right": "ogives, arcs-boutants et vitraux"
+    },
+    {
+     "left": "le temple grec",
+     "right": "colonnes doriques, ioniques ou corinthiennes"
+    },
+    {
+     "left": "Le Corbusier",
+     "right": "béton, pilotis et lignes pures"
+    }
+   ],
+   "answer": "l'art roman = voûtes arrondies et murs épais ; l'art gothique = ogives, arcs-boutants et vitraux ; le temple grec = colonnes doriques, ioniques ou corinthiennes ; Le Corbusier = béton, pilotis et lignes pures",
+   "acceptedAnswers": [],
+   "explanation": "Chaque époque a sa signature : voûtes arrondies et murs épais (roman), arcs pointus et vitraux (gothique), colonnes (temple grec), béton et pilotis (Le Corbusier).",
+   "tip": "Roman = rond ; gothique = pointu ; grec = colonnes ; moderne = béton.",
+   "extraExample": {
+    "text": "Les trois ordres grecs sont le dorique (simple), l'ionique (volutes) et le corinthien (feuilles d'acanthe).",
+    "translation": "On les reconnaît à la forme du chapiteau, en haut des colonnes."
+   }
+  },
+  {
+   "id": "cg.l35.e18",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.notre_dame_de_paris",
+    "cg.v.cathedrale_gothique"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : Notre-Dame.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "gothique",
+    "Notre-Dame",
+    "de",
+    "est",
+    "une",
+    "1163",
+    "commencée",
+    "cathédrale",
+    "Paris",
+    "en"
+   ],
+   "answer": "Notre-Dame de Paris est une cathédrale gothique commencée en 1163",
+   "acceptedAnswers": [
+    "Notre-Dame de Paris est une cathédrale gothique commencée en 1163"
+   ],
+   "hint": "Commence par le nom de la cathédrale.",
+   "explanation": "Le repère : Notre-Dame, cathédrale gothique, commencée en 1163 sur l'île de la Cité.",
+   "tip": "Quoi (Notre-Dame), style (gothique), quand (1163).",
+   "extraExample": {
+    "text": "Notre-Dame est située sur l'île de la Cité, au milieu de la Seine.",
+    "translation": "C'est aussi le centre historique de Paris."
+   }
+  },
+  {
+   "id": "cg.l35.e19",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.notre_dame_de_paris"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "En quelle année un grand incendie a-t-il ravagé Notre-Dame de Paris, avant sa réouverture en décembre 2024 ?",
+   "promptLanguage": "fr",
+   "answer": "2019",
+   "acceptedAnswers": [
+    "2019",
+    "en 2019",
+    "avril 2019",
+    "le 15 avril 2019"
+   ],
+   "explanation": "Le 15 avril 2019, un incendie détruit la flèche et la charpente de la cathédrale. Les murs et les tours tiennent bon, et un chantier de restauration de cinq ans permet la réouverture.",
+   "tip": "15 avril 2019 : retiens le jour et l'année.",
+   "extraExample": {
+    "text": "Après l'incendie, la flèche est reconstruite à l'identique de celle de Viollet-le-Duc.",
+    "translation": "La flèche d'origine, médiévale, avait été démontée au XVIIIe siècle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "2024",
+     "category": "word_confusion",
+     "feedback": "2024 est l'année de la réouverture, pas de l'incendie : il a eu lieu cinq ans plus tôt."
+    },
+    {
+     "equals": "1163",
+     "category": "word_confusion",
+     "feedback": "1163 est le début de la construction de la cathédrale, pas l'année de l'incendie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e20",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.tour_eiffel"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel ingénieur français a donné son nom à la tour de fer construite pour l'Exposition universelle de 1889 ?",
+   "promptLanguage": "fr",
+   "answer": "Gustave Eiffel",
+   "acceptedAnswers": [
+    "Gustave Eiffel",
+    "Eiffel",
+    "Alexandre Gustave Eiffel"
+   ],
+   "explanation": "L'entreprise de Gustave Eiffel construit la tour en un peu plus de deux ans (1887-1889). Les ingénieurs Maurice Koechlin et Émile Nouguier ont conçu le projet initial dans son bureau d'études.",
+   "tip": "La tour porte le nom du patron de l'entreprise qui l'a bâtie.",
+   "extraExample": {
+    "text": "Eiffel a aussi construit le viaduc de Garabit, dans le Cantal, en 1884.",
+    "translation": "Il était spécialiste des grands ponts et viaducs métalliques."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Haussmann",
+     "category": "word_confusion",
+     "feedback": "Haussmann a transformé Paris sous Napoléon III (grandes avenues), mais n'a pas bâti la tour."
+    },
+    {
+     "equals": "Le Corbusier",
+     "category": "word_confusion",
+     "feedback": "Le Corbusier est un architecte du XXe siècle, bien après la tour."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e21",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.tour_eiffel"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la tour Eiffel.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "l'Exposition",
+    "pour",
+    "La",
+    "tour",
+    "de",
+    "1889",
+    "construite",
+    "Eiffel",
+    "universelle",
+    "est"
+   ],
+   "answer": "La tour Eiffel est construite pour l'Exposition universelle de 1889",
+   "acceptedAnswers": [
+    "La tour Eiffel est construite pour l'Exposition universelle de 1889",
+    "Pour l'Exposition universelle de 1889 la tour Eiffel est construite"
+   ],
+   "hint": "La date finit la phrase.",
+   "explanation": "Le repère : la tour Eiffel, 1889, l'Exposition universelle, cent ans après la Révolution.",
+   "tip": "Quoi (la tour), pourquoi (l'Exposition universelle), quand (1889).",
+   "extraExample": {
+    "text": "La première exposition universelle a lieu à Londres en 1851, au Crystal Palace.",
+    "translation": "Ces expositions montrent au monde entier les prouesses techniques du moment."
+   }
+  },
+  {
+   "id": "cg.l35.e22",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.cathedrale_gothique"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le style médiéval, né près de Paris vers 1140, qui utilise l'arc brisé, les arcs-boutants et de grands vitraux ?",
+   "promptLanguage": "fr",
+   "answer": "le gothique",
+   "acceptedAnswers": [
+    "le gothique",
+    "gothique",
+    "l'art gothique",
+    "art gothique",
+    "style gothique"
+   ],
+   "explanation": "Le gothique naît à l'abbaye de Saint-Denis, sous l'abbé Suger, vers 1140. Il remplace peu à peu le roman et culmine avec les grandes cathédrales de Chartres, Reims, Amiens et Notre-Dame.",
+   "tip": "Gothique = pointu, haut et lumineux.",
+   "extraExample": {
+    "text": "Le gothique dure plus de trois siècles, jusqu'à la Renaissance.",
+    "translation": "Il s'étend à toute l'Europe, de l'Angleterre à l'Allemagne et à l'Espagne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le roman",
+     "category": "word_confusion",
+     "feedback": "Le roman est le style précédent : voûtes arrondies et murs épais. Le gothique est son successeur."
+    },
+    {
+     "equals": "roman",
+     "category": "word_confusion",
+     "feedback": "Le roman est le style précédent : voûtes arrondies et murs épais. Le gothique est son successeur."
+    },
+    {
+     "equals": "l'art roman",
+     "category": "word_confusion",
+     "feedback": "Le roman est le style précédent : voûtes arrondies et murs épais. Le gothique est son successeur."
+    }
+   ]
+  },
+  {
+   "id": "cg.l35.e23",
+   "unitIds": [
+    "cg.g35.architecture_monuments",
+    "cg.v.le_corbusier"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel architecte suisse, naturalisé français, a construit la villa Savoye à Poissy et la Cité radieuse de Marseille ?",
+   "promptLanguage": "fr",
+   "answer": "Le Corbusier",
+   "acceptedAnswers": [
+    "Le Corbusier",
+    "Corbusier",
+    "Charles-Édouard Jeanneret",
+    "Charles-Edouard Jeanneret"
+   ],
+   "explanation": "Le Corbusier est le grand théoricien de l'architecture moderne. La villa Savoye (1931) et la Cité radieuse (1952) appliquent ses idées : béton, pilotis, toit-terrasse, plan libre.",
+   "tip": "Le Corbusier = béton + pilotis.",
+   "extraExample": {
+    "text": "Dix-sept de ses réalisations, dans sept pays, sont inscrites au patrimoine mondial de l'UNESCO depuis 2016.",
+    "translation": "Il a marqué l'architecture sur plusieurs continents, de la France à l'Inde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Gaudí",
+     "category": "word_confusion",
+     "feedback": "Gaudí est un architecte catalan du style courbe et organique, mort en 1926."
+    },
+    {
+     "equals": "Antoni Gaudí",
+     "category": "word_confusion",
+     "feedback": "Gaudí est un architecte catalan du style courbe et organique, mort en 1926."
+    },
+    {
+     "equals": "Gustave Eiffel",
+     "category": "word_confusion",
+     "feedback": "Eiffel est un ingénieur du fer du XIXe siècle."
+    }
+   ]
+  }
+ ]
+}

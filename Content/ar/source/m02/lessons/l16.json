@@ -1,0 +1,809 @@
+{
+ "lessonId": "ar.l16",
+ "exercises": [
+  {
+   "id": "ar.l16.e01",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.g11.long_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelles lettres t'aident le plus à lire un mot sans voyelles ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ا و ي (les voyelles longues)",
+    "les points des lettres",
+    "les lettres finales",
+    "la première lettre"
+   ],
+   "answer": "ا و ي (les voyelles longues)",
+   "acceptedAnswers": [
+    "ا و ي (les voyelles longues)"
+   ],
+   "explanation": "Les voyelles brèves ne sont pas écrites, mais les voyelles longues le sont : ا, و et ي restent visibles et servent de points d'appui. Dans كتاب, le ا te dit : voyelle longue au milieu, donc kitâb.",
+   "tip": "Cherche d'abord les ا و ي.",
+   "extraExample": {
+    "text": "كتاب",
+    "translation": "livre (vocalisé : كِتَاب)",
+    "transliteration": "kitâb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "les points des lettres",
+     "category": "word_confusion",
+     "feedback": "Les points distinguent les lettres entre elles (ب ت ث), mais ils ne donnent aucune voyelle."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e02",
+   "unitIds": [
+    "ar.g16.reading_unvowelled"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "Dans un texte sans voyelles, les voyelles ___ ne sont pas écrites.",
+   "promptLanguage": "fr",
+   "options": [
+    "brèves",
+    "longues",
+    "doublées"
+   ],
+   "answer": "brèves",
+   "acceptedAnswers": [
+    "brèves"
+   ],
+   "explanation": "Les voyelles brèves (fatha, kasra, damma) disparaissent. Les voyelles longues, elles, restent écrites avec ا و ي.",
+   "tip": "Brèves absentes, longues présentes.",
+   "extraExample": {
+    "text": "صديق",
+    "translation": "ami (vocalisé : صَدِيق)",
+    "transliteration": "Sadîq"
+   },
+   "errorPatterns": [
+    {
+     "equals": "longues",
+     "category": "word_confusion",
+     "feedback": "Au contraire : ا و ي restent écrits, ce sont les voyelles brèves qui manquent."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e03",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.ism"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit اسم (nom, prénom) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ism",
+    "asm",
+    "isim",
+    "âsm"
+   ],
+   "answer": "ism",
+   "acceptedAnswers": [
+    "ism"
+   ],
+   "explanation": "La forme vocalisée est اِسْم : kasra sur le ا, sukun sur le س. On lit ism. C'est un mot très courant, à reconnaître comme une image.",
+   "tip": "Mot courant = image : اسم → ism.",
+   "extraExample": {
+    "text": "اسمي",
+    "translation": "mon nom (vocalisé : اِسْمِي)",
+    "transliteration": "ismî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "asm",
+     "category": "word_confusion",
+     "feedback": "Dans اِسْم, le ا porte une kasra : i. On lit ism."
+    },
+    {
+     "equals": "isim",
+     "category": "spelling",
+     "feedback": "Il n'y a pas de voyelle entre le س et le م : ism."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e04",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.zamil"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit زميل (collègue) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "zamîl",
+    "zamil",
+    "zumîl",
+    "zamâl"
+   ],
+   "answer": "zamîl",
+   "acceptedAnswers": [
+    "zamîl"
+   ],
+   "explanation": "Le ي au milieu du mot est une voyelle longue visible : zamîl. Les voyelles brèves (deux fathas) se devinent, comme dans صديق et طبيب.",
+   "tip": "Un ي entre deux consonnes, après une kasra : î.",
+   "extraExample": {
+    "text": "زميلة",
+    "translation": "collègue (femme) (vocalisé : زَمِيلَة)",
+    "transliteration": "zamîla"
+   },
+   "errorPatterns": [
+    {
+     "equals": "zamil",
+     "category": "word_confusion",
+     "feedback": "Le ي visible est une voyelle longue : zamîl, avec un î tenu."
+    },
+    {
+     "equals": "zamâl",
+     "category": "word_confusion",
+     "feedback": "La lettre longue est un ي, pas un ا : î et non â."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e05",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.fatat"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que signale le ة à la fin de فتاة (jeune fille) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "un mot féminin",
+    "un mot pluriel",
+    "un verbe",
+    "un mot masculin"
+   ],
+   "answer": "un mot féminin",
+   "acceptedAnswers": [
+    "un mot féminin"
+   ],
+   "explanation": "Le ة final est très souvent la marque du féminin : فتاة (la jeune fille), طالبة (l'étudiante), زوجة (l'épouse).",
+   "tip": "ة final = féminin (en général).",
+   "extraExample": {
+    "text": "طالبة",
+    "translation": "étudiante (vocalisé : طَالِبَة)",
+    "transliteration": "Tâliba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "un mot masculin",
+     "category": "grammar",
+     "feedback": "Au contraire : le ة final marque en général le féminin."
+    },
+    {
+     "equals": "un mot pluriel",
+     "category": "grammar",
+     "feedback": "Le pluriel s'écrit avec d'autres terminaisons, comme ـات ou ـون. Le ة final indique le féminin singulier."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e06",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.walad",
+    "ar.v.bint",
+    "ar.v.kitab",
+    "ar.v.ayn_oeil",
+    "ar.v.qalb"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot sans voyelles à sa forme vocalisée.",
+   "prompt": "Du mot nu au mot vocalisé",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ولد",
+     "right": "وَلَد"
+    },
+    {
+     "left": "بنت",
+     "right": "بِنْت"
+    },
+    {
+     "left": "كتاب",
+     "right": "كِتَاب"
+    },
+    {
+     "left": "عين",
+     "right": "عَيْن"
+    },
+    {
+     "left": "قلب",
+     "right": "قَلْب"
+    }
+   ],
+   "answer": "ولد = وَلَد ; بنت = بِنْت ; كتاب = كِتَاب ; عين = عَيْن ; قلب = قَلْب",
+   "acceptedAnswers": [],
+   "explanation": "Dans chaque paire, ce sont les mêmes lettres : on ajoute seulement les signes (harakat). Les ا و ي restent visibles dans les deux écritures.",
+   "tip": "Compare les squelettes lettre par lettre."
+  },
+  {
+   "id": "ar.l16.e07",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.hafid",
+    "ar.v.zamil",
+    "ar.v.fatat",
+    "ar.v.insan",
+    "ar.v.azm"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa lecture.",
+   "prompt": "Cinq mots sans voyelles",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "حفيد",
+     "right": "7afîd"
+    },
+    {
+     "left": "زميل",
+     "right": "zamîl"
+    },
+    {
+     "left": "فتاة",
+     "right": "fatâ"
+    },
+    {
+     "left": "إنسان",
+     "right": "insân"
+    },
+    {
+     "left": "عظم",
+     "right": "3aZm"
+    }
+   ],
+   "answer": "حفيد = 7afîd ; زميل = zamîl ; فتاة = fatâ ; إنسان = insân ; عظم = 3aZm",
+   "acceptedAnswers": [],
+   "explanation": "Les ا و ي visibles te guident : حفيد (7afîd), زميل (zamîl), فتاة (fatâ), إنسان (insân). Pour عظم (3aZm), aucune lettre longue ne t'aide : il faut connaître le mot.",
+   "tip": "Un mot connu se lit comme une image."
+  },
+  {
+   "id": "ar.l16.e08",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.chabb",
+    "ar.v.rukba",
+    "ar.v.ism",
+    "ar.v.azm",
+    "ar.v.fatat"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à sa traduction.",
+   "prompt": "Lire et comprendre sans voyelles",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "شاب",
+     "right": "le jeune homme"
+    },
+    {
+     "left": "ركبة",
+     "right": "le genou"
+    },
+    {
+     "left": "اسم",
+     "right": "le nom"
+    },
+    {
+     "left": "عظم",
+     "right": "l'os"
+    },
+    {
+     "left": "فتاة",
+     "right": "la jeune fille"
+    }
+   ],
+   "answer": "شاب = le jeune homme ; ركبة = le genou ; اسم = le nom ; عظم = l'os ; فتاة = la jeune fille",
+   "acceptedAnswers": [],
+   "explanation": "شاب (châbb) = le jeune homme, ركبة (rukba) = le genou, اسم (ism) = le nom, عظم (3aZm) = l'os, فتاة (fatâ) = la jeune fille.",
+   "tip": "Le ة de ركبة et فتاة signale deux mots féminins."
+  },
+  {
+   "id": "ar.l16.e09",
+   "unitIds": [
+    "ar.g15.article_sun_moon",
+    "ar.g16.reading_unvowelled"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Révision : choisis la bonne lecture.",
+   "prompt": "Comment se lit الشمس (sans voyelles) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ach-chams",
+    "al-chams",
+    "ach-chimas"
+   ],
+   "answer": "ach-chams",
+   "acceptedAnswers": [
+    "ach-chams"
+   ],
+   "explanation": "ش est une lettre solaire : même sans signes, on sait que le ل de ال se tait et que le ش est doublé. On lit ach-chams.",
+   "tip": "Repère ال, puis regarde si la lettre suivante est solaire.",
+   "extraExample": {
+    "text": "القمر",
+    "translation": "la lune (vocalisé : الْقَمَر)",
+    "transliteration": "al-qamar"
+   },
+   "errorPatterns": [
+    {
+     "equals": "al-chams",
+     "category": "word_confusion",
+     "feedback": "ش est solaire : le ل ne se prononce pas, même quand les signes ne sont pas écrits."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e10",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.zawdj"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Révision : choisis la bonne lecture.",
+   "prompt": "Comment se lit زوج (mari) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "zawdj",
+    "zûdj",
+    "zâdj",
+    "zawadj"
+   ],
+   "answer": "zawdj",
+   "acceptedAnswers": [
+    "zawdj"
+   ],
+   "explanation": "Le و peut être un û long ou la diphtongue aw : sans signes, il faut connaître le mot. زوج se lit zawdj, comme dans زوجة (zawdja).",
+   "tip": "و et ي entre deux consonnes : mémorise le mot.",
+   "extraExample": {
+    "text": "عين",
+    "translation": "œil (vocalisé : عَيْن)",
+    "transliteration": "3ayn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "zûdj",
+     "category": "word_confusion",
+     "feedback": "Le و n'est pas toujours un û : ici c'est la diphtongue aw, zawdj, comme dans زوجة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e11",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.tabib"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Révision : choisis la bonne réponse.",
+   "prompt": "Dans « رأيت طبيبا » (j'ai vu un médecin), à quoi sert le ا final ?",
+   "promptLanguage": "fr",
+   "options": [
+    "c'est l'alif muet du tanwin -an : Tabîban",
+    "il allonge la voyelle : Tabîbâ",
+    "il marque le féminin",
+    "il marque l'article"
+   ],
+   "answer": "c'est l'alif muet du tanwin -an : Tabîban",
+   "acceptedAnswers": [
+    "c'est l'alif muet du tanwin -an : Tabîban"
+   ],
+   "explanation": "Le signe du tanwin disparaît dans un texte sans voyelles, mais l'alif qui le porte reste écrit. On lit ra'aytu Tabîban : le ا final est muet.",
+   "tip": "Un ا final après un nom indéfini : souvent le tanwin -an.",
+   "extraExample": {
+    "text": "رأيت ولدا",
+    "translation": "j'ai vu un garçon (vocalisé : رَأَيْتُ وَلَدًا)",
+    "transliteration": "ra'aytu waladan"
+   },
+   "errorPatterns": [
+    {
+     "equals": "il allonge la voyelle : Tabîbâ",
+     "category": "word_confusion",
+     "feedback": "Le ا après le tanwin -an est muet : on lit Tabîban, pas Tabîbâ."
+    },
+    {
+     "equals": "il marque le féminin",
+     "category": "grammar",
+     "feedback": "Le féminin se marque avec un ة. طبيب reste masculin."
+    },
+    {
+     "equals": "il marque l'article",
+     "category": "grammar",
+     "feedback": "L'article, c'est ال au début du mot. Ici le ا final est l'alif du tanwin -an."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e12",
+   "unitIds": [
+    "ar.g16.reading_unvowelled"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Dans la phrase « كتب الولد الدرس » (le garçon a écrit la leçon), comment se lit كتب ?",
+   "promptLanguage": "fr",
+   "options": [
+    "kataba",
+    "kutiba",
+    "kutub"
+   ],
+   "answer": "kataba",
+   "acceptedAnswers": [
+    "kataba"
+   ],
+   "explanation": "Sans voyelles, كتب peut être kataba (il a écrit), kutiba (il a été écrit) ou kutub (des livres). Ici le verbe est suivi de « le garçon » et « la leçon » : c'est « il a écrit ».",
+   "tip": "Quand plusieurs lectures sont possibles, la phrase choisit.",
+   "extraExample": {
+    "text": "كتب الدرس",
+    "translation": "il a écrit la leçon (vocalisé : كَتَبَ الدَّرْسَ)",
+    "transliteration": "kataba d-darsa"
+   },
+   "errorPatterns": [
+    {
+     "equals": "kutiba",
+     "category": "grammar",
+     "feedback": "« Kutiba » (il a été écrit) se dirait sans « le garçon » qui fait l'action : on dirait « la leçon a été écrite »."
+    },
+    {
+     "equals": "kutub",
+     "category": "grammar",
+     "feedback": "« Kutub » est un nom (des livres) : ici, c'est un verbe, le garçon écrit la leçon."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e13",
+   "unitIds": [
+    "ar.g16.reading_unvowelled"
+   ],
+   "type": "mcq",
+   "difficulty": 4,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Dans « هذه كتب » (ce sont des livres), comment se lit كتب ?",
+   "promptLanguage": "fr",
+   "options": [
+    "kutub",
+    "kataba",
+    "kutiba",
+    "kitâb"
+   ],
+   "answer": "kutub",
+   "acceptedAnswers": [
+    "kutub"
+   ],
+   "explanation": "Après « هذه » (ceci), on attend un nom : كتب est le pluriel de كتاب, kutub (des livres).",
+   "tip": "Un nom après « voici », un verbe après un sujet.",
+   "extraExample": {
+    "text": "كتب جديدة",
+    "translation": "des livres neufs (vocalisé : كُتُبٌ جَدِيدَةٌ)",
+    "transliteration": "kutubun djadîdatun"
+   },
+   "errorPatterns": [
+    {
+     "equals": "kataba",
+     "category": "grammar",
+     "feedback": "Après « ceci », on attend un nom, pas un verbe : kutub, des livres."
+    },
+    {
+     "equals": "kitâb",
+     "category": "word_confusion",
+     "feedback": "Il n'y a pas de ا dans كتب : ce n'est pas kitâb (un livre) mais kutub (des livres)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e14",
+   "unitIds": [
+    "ar.g16.reading_unvowelled"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "Quand un mot sans voyelles a plusieurs lectures possibles, c'est la ___ qui choisit.",
+   "promptLanguage": "fr",
+   "options": [
+    "phrase",
+    "dernière lettre",
+    "première lettre"
+   ],
+   "answer": "phrase",
+   "acceptedAnswers": [
+    "phrase"
+   ],
+   "explanation": "Un même squelette peut se lire de plusieurs façons (كتب : kataba, kutiba, kutub). Le sens de la phrase décide.",
+   "tip": "Le contexte est ton meilleur indice.",
+   "extraExample": {
+    "text": "علم",
+    "translation": "science, savoir (vocalisé : عِلْم)",
+    "transliteration": "3ilm"
+   },
+   "errorPatterns": [
+    {
+     "equals": "dernière lettre",
+     "category": "word_confusion",
+     "feedback": "La dernière lettre ne suffit pas à choisir : c'est le sens de la phrase qui tranche."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e15",
+   "unitIds": [
+    "ar.g15.article_sun_moon",
+    "ar.g16.reading_unvowelled"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Révision : complète avec le bon mot.",
+   "prompt": "Au début d'un mot sans voyelles, ال signale l'___ défini (le, la, les).",
+   "promptLanguage": "fr",
+   "options": [
+    "article",
+    "adjectif",
+    "verbe"
+   ],
+   "answer": "article",
+   "acceptedAnswers": [
+    "article"
+   ],
+   "explanation": "ال est toujours l'article défini. Dans الولد on lit al-walad ; dans الشمس, le ل se tait et on lit ach-chams.",
+   "tip": "ال au début = le, la, les.",
+   "extraExample": {
+    "text": "الولد",
+    "translation": "le garçon (vocalisé : الْوَلَد)",
+    "transliteration": "al-walad"
+   },
+   "errorPatterns": [
+    {
+     "equals": "verbe",
+     "category": "grammar",
+     "feedback": "ال n'est pas un verbe : c'est l'article défini."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e16",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.chabb"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la bonne lecture.",
+   "prompt": "Sans voyelles, شاب (jeune homme) s'écrit sans shadda : on le lit « ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "châbb",
+    "châb",
+    "chibb",
+    "chabab"
+   ],
+   "answer": "châbb",
+   "acceptedAnswers": [
+    "châbb"
+   ],
+   "explanation": "La shadda n'est pas écrite non plus dans un texte sans signes : il faut connaître le mot. شاب se lit châbb (شَابّ), avec le b doublé.",
+   "tip": "Les mots courants se mémorisent avec leur shadda.",
+   "extraExample": {
+    "text": "جد",
+    "translation": "grand-père (vocalisé : جَدّ)",
+    "transliteration": "djadd"
+   },
+   "errorPatterns": [
+    {
+     "equals": "châb",
+     "category": "spelling",
+     "feedback": "La shadda manque à l'écrit, mais le b est bien doublé : châbb."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e17",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.walad"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre de lecture (le premier d'abord).",
+   "prompt": "Remets dans l'ordre : ceci (c'est) / un garçon / petit",
+   "promptLanguage": "fr",
+   "tokens": [
+    "صغير",
+    "هذا",
+    "ولد"
+   ],
+   "answer": "هذا ولد صغير",
+   "acceptedAnswers": [
+    "هذا ولد صغير"
+   ],
+   "explanation": "Hâdhâ walad Saghîr : « c'est un petit garçon ». هذا ouvre la phrase, puis le nom, puis l'adjectif.",
+   "tip": "Repère le ا de هذا et le ي de صغير : ils te donnent des voyelles longues.",
+   "extraExample": {
+    "text": "هذا كتاب",
+    "translation": "c'est un livre (vocalisé : هٰذَا كِتَابٌ)",
+    "transliteration": "hâdhâ kitâbun"
+   }
+  },
+  {
+   "id": "ar.l16.e18",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.zamil"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre de lecture (le premier d'abord).",
+   "prompt": "Remets dans l'ordre : il (est) / mon collègue / au travail",
+   "promptLanguage": "fr",
+   "tokens": [
+    "في",
+    "زميلي",
+    "العمل",
+    "هو"
+   ],
+   "answer": "هو زميلي في العمل",
+   "acceptedAnswers": [
+    "هو زميلي في العمل"
+   ],
+   "explanation": "Huwa zamîlî fî l-3amali : « c'est mon collègue de travail ».",
+   "tip": "Pronom, nom, préposition, lieu.",
+   "extraExample": {
+    "text": "هي زميلتي",
+    "translation": "c'est ma collègue (vocalisé : هِيَ زَمِيلَتِي)",
+    "transliteration": "hiya zamîlatî"
+   }
+  },
+  {
+   "id": "ar.l16.e19",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.rukba"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "ركبة",
+   "promptLanguage": "ar",
+   "answer": "genou",
+   "acceptedAnswers": [
+    "genou",
+    "le genou",
+    "un genou"
+   ],
+   "explanation": "ركبة (rukba) : le genou. Le ة final est un indice : c'est un mot féminin. Vocalisé : رُكْبَة.",
+   "tip": "Rukba : le genou.",
+   "extraExample": {
+    "text": "ركبتي",
+    "translation": "mon genou (vocalisé : رُكْبَتِي)",
+    "transliteration": "rukbatî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "jambe",
+     "category": "vocabulary",
+     "feedback": "La jambe, c'est رِجْل (ridjl) ou سَاق (sâq). ركبة (rukba), c'est le genou."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e20",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.azm"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "عظم",
+   "promptLanguage": "ar",
+   "answer": "os",
+   "acceptedAnswers": [
+    "os",
+    "l'os",
+    "un os"
+   ],
+   "explanation": "عظم (3aZm) : l'os. Sans voyelles, aucune lettre longue ne t'aide : ce mot se mémorise. Vocalisé : عَظْم.",
+   "tip": "3aZm : l'os (avec un ظ).",
+   "extraExample": {
+    "text": "عظام",
+    "translation": "os (pluriel) (vocalisé : عِظَام)",
+    "transliteration": "3iZâm"
+   }
+  },
+  {
+   "id": "ar.l16.e21",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.insan"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit إنسان (être humain) ?",
+   "promptLanguage": "fr",
+   "answer": "insân",
+   "acceptedAnswers": [
+    "insân",
+    "insan",
+    "insaan"
+   ],
+   "explanation": "Le ا avant le ن final est une voyelle longue : in-sân. Le premier ا porte une hamza avec kasra (إِ) : i. Vocalisé : إِنْسَان.",
+   "tip": "Le ا visible = un â long : in-sân.",
+   "extraExample": {
+    "text": "الإنسان",
+    "translation": "l'être humain (vocalisé : الْإِنْسَان)",
+    "transliteration": "al-insân"
+   },
+   "errorPatterns": [
+    {
+     "equals": "insin",
+     "category": "word_confusion",
+     "feedback": "Le ا avant le ن final est un â long (sân), pas un î."
+    },
+    {
+     "equals": "ansân",
+     "category": "word_confusion",
+     "feedback": "La hamza est sous le ا : c'est une kasra, i. Vocalisé : إِنْسَان."
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e22",
+   "unitIds": [
+    "ar.g16.reading_unvowelled",
+    "ar.v.hafid"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit حفيد (petit-fils) ?",
+   "promptLanguage": "fr",
+   "answer": "7afîd",
+   "acceptedAnswers": [
+    "7afîd",
+    "7afid",
+    "7afiid"
+   ],
+   "hint": "Le ح se note 7.",
+   "explanation": "Le ي visible est une voyelle longue : 7a-fîd. Le ح se note 7. Vocalisé : حَفِيد.",
+   "tip": "Le ح se note 7, le ي visible = î.",
+   "extraExample": {
+    "text": "أحفاد",
+    "translation": "petits-enfants (vocalisé : أَحْفَاد)",
+    "transliteration": "a7fâd"
+   },
+   "errorPatterns": [
+    {
+     "equals": "7afayd",
+     "category": "word_confusion",
+     "feedback": "Ici le ي est une voyelle longue (î), pas la diphtongue ay : 7afîd."
+    }
+   ]
+  }
+ ]
+}

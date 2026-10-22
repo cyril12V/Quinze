@@ -1,0 +1,815 @@
+{
+ "lessonId": "cg.l12",
+ "exercises": [
+  {
+   "id": "cg.l12.e01",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.canberra",
+    "cg.v.wellington",
+    "cg.v.islamabad",
+    "cg.v.hanoi",
+    "cg.v.naypyidaw"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque pays à sa capitale.",
+   "prompt": "Capitales d'Asie et d'Océanie : les pièges",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Australie",
+     "right": "Canberra"
+    },
+    {
+     "left": "Nouvelle-Zélande",
+     "right": "Wellington"
+    },
+    {
+     "left": "Pakistan",
+     "right": "Islamabad"
+    },
+    {
+     "left": "Vietnam",
+     "right": "Hanoï"
+    },
+    {
+     "left": "Birmanie (Myanmar)",
+     "right": "Naypyidaw"
+    }
+   ],
+   "answer": "Australie = Canberra ; Nouvelle-Zélande = Wellington ; Pakistan = Islamabad ; Vietnam = Hanoï ; Birmanie (Myanmar) = Naypyidaw",
+   "acceptedAnswers": [],
+   "explanation": "Dans ces pays, la capitale n'est pas la ville la plus connue : Sydney, Auckland, Karachi, Hô Chi Minh-Ville ou Rangoun font plus parler d'elles que Canberra, Wellington, Islamabad, Hanoï ou Naypyidaw.",
+   "tip": "Associe le pays à sa capitale, pas à sa ville la plus célèbre.",
+   "extraExample": {
+    "text": "Pékin, Tokyo et Séoul sont à la fois capitales et villes majeures de leur pays.",
+    "translation": "Pas de piège de ce côté-là."
+   }
+  },
+  {
+   "id": "cg.l12.e02",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.everest",
+    "cg.v.himalaya"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus haut sommet du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Everest",
+    "Le K2",
+    "Le Kangchenjunga",
+    "Le Mont Blanc"
+   ],
+   "answer": "L'Everest",
+   "acceptedAnswers": [
+    "L'Everest"
+   ],
+   "explanation": "L'Everest culmine à environ 8 850 m, dans l'Himalaya, à la frontière du Népal et de la Chine (Tibet). Le K2, deuxième sommet du monde, est un peu plus bas (8 611 m).",
+   "tip": "Everest = n° 1 ; K2 = n° 2.",
+   "extraExample": {
+    "text": "Le Mont Blanc, point culminant des Alpes, ne dépasse pas 4 810 m.",
+    "translation": "Il est presque deux fois moins haut que l'Everest."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le K2",
+     "category": "word_confusion",
+     "feedback": "Le K2, entre le Pakistan et la Chine, est le deuxième sommet du monde (8 611 m)."
+    },
+    {
+     "equals": "Le Kangchenjunga",
+     "category": "word_confusion",
+     "feedback": "Le Kangchenjunga (8 586 m), entre le Népal et l'Inde, est le troisième sommet du monde."
+    },
+    {
+     "equals": "Le Mont Blanc",
+     "category": "word_confusion",
+     "feedback": "Le Mont Blanc (environ 4 800 m) est le plus haut sommet des Alpes, loin de l'Everest."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e03",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.canberra"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale de l'Australie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Canberra",
+    "Sydney",
+    "Melbourne",
+    "Perth"
+   ],
+   "answer": "Canberra",
+   "acceptedAnswers": [
+    "Canberra"
+   ],
+   "explanation": "Canberra a été fondée au début du XXe siècle comme compromis entre Sydney et Melbourne, deux villes rivales. Le Parlement fédéral y siège depuis 1927.",
+   "tip": "Australie → Canberra, pas Sydney.",
+   "extraExample": {
+    "text": "L'opéra de Sydney, inauguré en 1973, est l'un des monuments les plus célèbres du pays.",
+    "translation": "Mais Sydney n'est pas la capitale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sydney",
+     "category": "word_confusion",
+     "feedback": "Sydney est célèbre pour son opéra et sa baie, mais ce n'est pas la capitale."
+    },
+    {
+     "equals": "Melbourne",
+     "category": "word_confusion",
+     "feedback": "Melbourne a abrité le gouvernement fédéral de 1901 à 1927, en attendant que Canberra soit prête."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e04",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.yang_tse_kiang"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus long fleuve d'Asie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Yang-Tsé-Kiang (fleuve Bleu)",
+    "Le fleuve Jaune",
+    "Le Gange",
+    "Le Mékong"
+   ],
+   "answer": "Le Yang-Tsé-Kiang (fleuve Bleu)",
+   "acceptedAnswers": [
+    "Le Yang-Tsé-Kiang (fleuve Bleu)"
+   ],
+   "explanation": "Le Yang-Tsé-Kiang mesure environ 6 300 km et traverse toute la Chine d'ouest en est, jusqu'à Shanghai. C'est le plus long fleuve d'Asie.",
+   "tip": "Yang-Tsé-Kiang = Chine, 6 300 km ; Gange = Inde ; Mékong = Asie du Sud-Est.",
+   "extraExample": {
+    "text": "Le barrage des Trois-Gorges, sur le Yang-Tsé-Kiang, est l'une des plus grandes centrales hydroélectriques du monde.",
+    "translation": "Sa construction a obligé à déplacer plus d'un million d'habitants."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le fleuve Jaune",
+     "category": "word_confusion",
+     "feedback": "Le fleuve Jaune est le deuxième grand fleuve de Chine (environ 5 500 km) : le Yang-Tsé-Kiang est plus long."
+    },
+    {
+     "equals": "Le Gange",
+     "category": "word_confusion",
+     "feedback": "Le Gange, fleuve sacré de l'Inde, mesure environ 2 500 km."
+    },
+    {
+     "equals": "Le Mékong",
+     "category": "word_confusion",
+     "feedback": "Le Mékong traverse l'Asie du Sud-Est ; il est plus court que le Yang-Tsé-Kiang."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e05",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.hanoi"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Hanoï est la capitale de quel pays d'Asie du Sud-Est ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Vietnam",
+    "La Thaïlande",
+    "Le Cambodge",
+    "Le Laos"
+   ],
+   "answer": "Le Vietnam",
+   "acceptedAnswers": [
+    "Le Vietnam"
+   ],
+   "explanation": "Hanoï, dans le nord du pays, est la capitale du Vietnam. La plus grande ville du pays est Hô Chi Minh-Ville, l'ancienne Saïgon, au sud.",
+   "tip": "Vietnam → Hanoï ; Thaïlande → Bangkok ; Cambodge → Phnom Penh ; Laos → Vientiane.",
+   "extraExample": {
+    "text": "Hanoï était déjà la capitale du Nord-Vietnam depuis 1954.",
+    "translation": "Elle est devenue celle du pays réunifié en 1976."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Thaïlande",
+     "category": "word_confusion",
+     "feedback": "La capitale de la Thaïlande est Bangkok."
+    },
+    {
+     "equals": "Le Cambodge",
+     "category": "word_confusion",
+     "feedback": "La capitale du Cambodge est Phnom Penh."
+    },
+    {
+     "equals": "Le Laos",
+     "category": "word_confusion",
+     "feedback": "La capitale du Laos est Vientiane."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e06",
+   "unitIds": [
+    "cg.v.ocean_pacifique",
+    "cg.g12.asie_oceanie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'océan ___ borde l'Asie à l'est.",
+   "promptLanguage": "fr",
+   "options": [
+    "Pacifique",
+    "Atlantique",
+    "Indien",
+    "Arctique"
+   ],
+   "answer": "Pacifique",
+   "acceptedAnswers": [
+    "Pacifique"
+   ],
+   "explanation": "À l'est de l'Asie s'étend le Pacifique, le plus grand océan du monde. L'océan Indien borde l'Asie au sud et l'Arctique au nord.",
+   "tip": "Est de l'Asie = Pacifique ; sud = Indien ; nord = Arctique.",
+   "extraExample": {
+    "text": "Le Japon et les Philippines sont des archipels bordés par le Pacifique.",
+    "translation": "Magellan l'a baptisé « Pacifique » en 1520, après l'avoir traversé par temps calme."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Indien",
+     "category": "word_confusion",
+     "feedback": "L'océan Indien borde l'Asie au sud, de l'Inde à l'Indonésie."
+    },
+    {
+     "equals": "Arctique",
+     "category": "word_confusion",
+     "feedback": "L'Arctique borde le nord de l'Asie, le long des côtes de la Sibérie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e07",
+   "unitIds": [
+    "cg.v.canal_de_suez",
+    "cg.g11.afrique_moyen_orient"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel canal égyptien marque la limite conventionnelle entre l'Afrique et l'Asie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le canal de Suez",
+    "Le canal de Panama",
+    "Le canal de Kiel",
+    "Le canal du Midi"
+   ],
+   "answer": "Le canal de Suez",
+   "acceptedAnswers": [
+    "Le canal de Suez"
+   ],
+   "explanation": "Le canal de Suez sépare l'Afrique de la péninsule du Sinaï, qui appartient à l'Asie : il sert donc de limite conventionnelle entre les deux continents. Il relie aussi la Méditerranée à la mer Rouge.",
+   "tip": "Suez : Afrique / Asie ; Gibraltar : Europe / Afrique.",
+   "extraExample": {
+    "text": "Le Sinaï est une péninsule en forme de triangle, entre la mer Rouge et la Méditerranée.",
+    "translation": "Elle fait le lien terrestre entre l'Afrique et l'Asie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le canal de Panama",
+     "category": "word_confusion",
+     "feedback": "Le canal de Panama est en Amérique centrale et relie l'Atlantique au Pacifique."
+    },
+    {
+     "equals": "Le canal de Kiel",
+     "category": "word_confusion",
+     "feedback": "Le canal de Kiel, en Allemagne, relie la mer du Nord à la mer Baltique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e08",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.everest",
+    "cg.v.himalaya",
+    "cg.v.yang_tse_kiang",
+    "cg.v.grande_barriere_de_corail"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque repère à sa description.",
+   "prompt": "Reliefs et records d'Asie et d'Océanie",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Everest",
+     "right": "plus haut sommet du monde"
+    },
+    {
+     "left": "Himalaya",
+     "right": "chaîne de montagnes au nord de l'Inde et du Népal"
+    },
+    {
+     "left": "Yang-Tsé-Kiang",
+     "right": "plus long fleuve d'Asie"
+    },
+    {
+     "left": "Grande Barrière de corail",
+     "right": "plus grand récif corallien du monde"
+    }
+   ],
+   "answer": "Everest = plus haut sommet du monde ; Himalaya = chaîne de montagnes au nord de l'Inde et du Népal ; Yang-Tsé-Kiang = plus long fleuve d'Asie ; Grande Barrière de corail = plus grand récif corallien du monde",
+   "acceptedAnswers": [],
+   "explanation": "L'Himalaya porte l'Everest ; le Yang-Tsé-Kiang traverse la Chine ; la Grande Barrière de corail longe le nord-est de l'Australie.",
+   "tip": "Un repère, un record : sommet, chaîne, fleuve, récif.",
+   "extraExample": {
+    "text": "Le mot « Himalaya » vient du sanskrit : hima (neige) et alaya (demeure).",
+    "translation": "Il signifie donc « demeure des neiges »."
+   }
+  },
+  {
+   "id": "cg.l12.e09",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.islamabad"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Karachi est la plus grande ville du Pakistan, mais la capitale est ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Islamabad",
+    "Lahore",
+    "Rawalpindi",
+    "New Delhi"
+   ],
+   "answer": "Islamabad",
+   "acceptedAnswers": [
+    "Islamabad"
+   ],
+   "explanation": "Islamabad a été construite à partir des années 1960 pour devenir la capitale du Pakistan, loin de la grande ville portuaire de Karachi.",
+   "tip": "Pakistan → Islamabad, pas Karachi.",
+   "extraExample": {
+    "text": "New Delhi est la capitale de l'Inde, pays voisin du Pakistan.",
+    "translation": "Les deux États sont nés de la partition de l'Inde britannique, en 1947."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Lahore",
+     "category": "word_confusion",
+     "feedback": "Lahore est la deuxième ville du pays, au Pendjab, mais pas la capitale."
+    },
+    {
+     "equals": "Rawalpindi",
+     "category": "word_confusion",
+     "feedback": "Rawalpindi est la ville voisine d'Islamabad, qui a servi de capitale provisoire."
+    },
+    {
+     "equals": "New Delhi",
+     "category": "word_confusion",
+     "feedback": "New Delhi est la capitale de l'Inde, pas du Pakistan."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e10",
+   "unitIds": [
+    "cg.v.ankara",
+    "cg.g11.afrique_moyen_orient"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Sur quels deux continents la Turquie est-elle à cheval ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Europe et l'Asie",
+    "L'Europe et l'Afrique",
+    "L'Asie et l'Afrique",
+    "L'Asie et l'Océanie"
+   ],
+   "answer": "L'Europe et l'Asie",
+   "acceptedAnswers": [
+    "L'Europe et l'Asie"
+   ],
+   "explanation": "La plus grande partie de la Turquie (l'Anatolie, où se trouve Ankara) est en Asie, mais une petite partie du territoire, autour d'Istanbul, est en Europe. Le Bosphore sépare les deux.",
+   "tip": "Turquie = Anatolie (Asie) + un petit morceau d'Europe.",
+   "extraExample": {
+    "text": "La Russie est aussi à cheval sur l'Europe et l'Asie, de part et d'autre de l'Oural.",
+    "translation": "Elle s'étend sur onze fuseaux horaires."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Europe et l'Afrique",
+     "category": "word_confusion",
+     "feedback": "Aucune partie de la Turquie n'est en Afrique : elle touche seulement l'Europe et l'Asie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e11",
+   "unitIds": [
+    "cg.g12.asie_oceanie"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Lequel de ces pays n'est PAS situé en Océanie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Philippines",
+    "Les Fidji",
+    "La Papouasie-Nouvelle-Guinée",
+    "La Nouvelle-Zélande"
+   ],
+   "answer": "Les Philippines",
+   "acceptedAnswers": [
+    "Les Philippines"
+   ],
+   "explanation": "Les Philippines sont un archipel d'Asie du Sud-Est. Les Fidji, la Papouasie-Nouvelle-Guinée et la Nouvelle-Zélande appartiennent à l'Océanie.",
+   "tip": "Océanie = Australie, Nouvelle-Zélande et îles du Pacifique sud.",
+   "extraExample": {
+    "text": "La Polynésie française, avec Tahiti, fait partie de l'Océanie.",
+    "translation": "C'est un territoire français du Pacifique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les Fidji",
+     "category": "word_confusion",
+     "feedback": "Les Fidji sont un archipel du Pacifique Sud : ils font partie de l'Océanie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e12",
+   "unitIds": [
+    "cg.g12.asie_oceanie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Japon compte quatre grandes îles : Hokkaïdo, Honshū, Shikoku et ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Kyūshū",
+    "Okinawa",
+    "Taïwan",
+    "Sakhaline"
+   ],
+   "answer": "Kyūshū",
+   "acceptedAnswers": [
+    "Kyūshū",
+    "Kyushu",
+    "Kyûshû",
+    "Kiushu"
+   ],
+   "explanation": "Kyūshū est la plus méridionale des quatre grandes îles du Japon. Okinawa, plus au sud, appartient à l'archipel des Ryūkyū ; Taïwan est une île distincte et Sakhaline est russe.",
+   "tip": "Du nord au sud : Hokkaïdo, Honshū, Shikoku, Kyūshū.",
+   "extraExample": {
+    "text": "Tokyo et le mont Fuji se trouvent sur Honshū, la plus grande île.",
+    "translation": "Le Fuji culmine à 3 776 m."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Okinawa",
+     "category": "word_confusion",
+     "feedback": "Okinawa fait partie de l'archipel des Ryūkyū, au sud des quatre grandes îles."
+    },
+    {
+     "equals": "Taïwan",
+     "category": "word_confusion",
+     "feedback": "Taïwan est une île distincte, au sud-ouest du Japon."
+    },
+    {
+     "equals": "Sakhaline",
+     "category": "word_confusion",
+     "feedback": "Sakhaline est une île russe, au nord du Japon."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e13",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.hanoi"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Hô Chi Minh-Ville, la plus grande ville du Vietnam, s'appelait autrefois ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Saïgon",
+    "Hanoï",
+    "Hué",
+    "Haïphong"
+   ],
+   "answer": "Saïgon",
+   "acceptedAnswers": [
+    "Saïgon",
+    "Saigon"
+   ],
+   "explanation": "Hô Chi Minh-Ville s'appelait Saïgon : elle a été rebaptisée en 1976, après la réunification du pays, en l'honneur du dirigeant Hô Chi Minh. La capitale reste Hanoï.",
+   "tip": "Saïgon (ancien nom) = Hô Chi Minh-Ville ; la capitale est Hanoï.",
+   "extraExample": {
+    "text": "Saïgon était la capitale du Sud-Vietnam jusqu'en 1975.",
+    "translation": "Elle est tombée le 30 avril 1975, à la fin de la guerre du Vietnam."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Hanoï",
+     "category": "word_confusion",
+     "feedback": "Hanoï est la capitale, au nord ; Hô Chi Minh-Ville est la grande ville du sud."
+    },
+    {
+     "equals": "Hué",
+     "category": "word_confusion",
+     "feedback": "Hué fut la capitale impériale du Vietnam au XIXe siècle, plus au centre du pays."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e14",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.everest"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Une phrase-repère sur l'Everest.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "haut",
+    "L'Everest",
+    "sommet",
+    "le",
+    "du",
+    "est",
+    "plus",
+    "monde"
+   ],
+   "answer": "L'Everest est le plus haut sommet du monde",
+   "acceptedAnswers": [
+    "L'Everest est le plus haut sommet du monde",
+    "Le plus haut sommet du monde est l'Everest"
+   ],
+   "explanation": "L'Everest, dans l'Himalaya, est le sommet le plus élevé de la Terre au-dessus du niveau de la mer.",
+   "tip": "« Le plus haut… du monde » : la formule du record.",
+   "extraExample": {
+    "text": "Le K2 est le deuxième sommet du monde.",
+    "translation": "Il se dresse entre le Pakistan et la Chine."
+   }
+  },
+  {
+   "id": "cg.l12.e15",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.naypyidaw"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale de la Birmanie (Myanmar) depuis 2006 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Naypyidaw",
+    "Rangoun",
+    "Mandalay",
+    "Bangkok"
+   ],
+   "answer": "Naypyidaw",
+   "acceptedAnswers": [
+    "Naypyidaw"
+   ],
+   "explanation": "Le gouvernement a quitté Rangoun (Yangon) en 2005-2006 pour Naypyidaw, une ville construite en plein centre du pays. Rangoun reste la plus grande ville.",
+   "tip": "Birmanie : Naypyidaw (capitale), Rangoun (grande ville).",
+   "extraExample": {
+    "text": "Rangoun s'appelle aussi Yangon, depuis 1989.",
+    "translation": "Le changement de nom date de l'année où la Birmanie est devenue Myanmar pour les autorités."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Rangoun",
+     "category": "word_confusion",
+     "feedback": "Rangoun (Yangon) est la plus grande ville et l'ancienne capitale, mais le gouvernement siège à Naypyidaw."
+    },
+    {
+     "equals": "Mandalay",
+     "category": "word_confusion",
+     "feedback": "Mandalay est la deuxième ville du pays, au centre, mais pas la capitale."
+    },
+    {
+     "equals": "Bangkok",
+     "category": "word_confusion",
+     "feedback": "Bangkok est la capitale de la Thaïlande, pays voisin."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e16",
+   "unitIds": [
+    "cg.g12.asie_oceanie"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque pays à sa capitale.",
+   "prompt": "Capitales d'Asie",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Chine",
+     "right": "Pékin"
+    },
+    {
+     "left": "Japon",
+     "right": "Tokyo"
+    },
+    {
+     "left": "Corée du Sud",
+     "right": "Séoul"
+    },
+    {
+     "left": "Inde",
+     "right": "New Delhi"
+    },
+    {
+     "left": "Thaïlande",
+     "right": "Bangkok"
+    }
+   ],
+   "answer": "Chine = Pékin ; Japon = Tokyo ; Corée du Sud = Séoul ; Inde = New Delhi ; Thaïlande = Bangkok",
+   "acceptedAnswers": [],
+   "explanation": "Voici les capitales de cinq grands pays d'Asie. New Delhi, quartier du gouvernement construit par les Britanniques, fait partie de l'agglomération de Delhi.",
+   "tip": "Chine → Pékin, Japon → Tokyo, Corée du Sud → Séoul.",
+   "extraExample": {
+    "text": "Pyongyang est la capitale de la Corée du Nord.",
+    "translation": "La péninsule coréenne est divisée depuis 1945."
+   }
+  },
+  {
+   "id": "cg.l12.e17",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.wellington"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la capitale de la Nouvelle-Zélande ?",
+   "promptLanguage": "fr",
+   "answer": "Wellington",
+   "acceptedAnswers": [
+    "Wellington",
+    "La ville de Wellington"
+   ],
+   "explanation": "Wellington, au sud de l'île du Nord, est la capitale de la Nouvelle-Zélande depuis 1865. Auckland, la plus grande ville du pays, n'est pas la capitale.",
+   "tip": "Nouvelle-Zélande → Wellington, pas Auckland.",
+   "extraExample": {
+    "text": "Wellington est la capitale d'État la plus méridionale du monde.",
+    "translation": "Elle se trouve à environ 41° de latitude sud."
+   },
+   "errorPatterns": [
+    {
+     "equals": "auckland",
+     "category": "word_confusion",
+     "feedback": "Auckland est la plus grande ville de Nouvelle-Zélande, mais la capitale est Wellington."
+    },
+    {
+     "equals": "christchurch",
+     "category": "word_confusion",
+     "feedback": "Christchurch est la plus grande ville de l'île du Sud, pas la capitale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e18",
+   "unitIds": [
+    "cg.g12.asie_oceanie"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la capitale de l'Inde ?",
+   "promptLanguage": "fr",
+   "answer": "New Delhi",
+   "acceptedAnswers": [
+    "New Delhi",
+    "Delhi",
+    "La Nouvelle-Delhi",
+    "Nouvelle Delhi",
+    "New-Delhi"
+   ],
+   "explanation": "New Delhi, quartier gouvernemental bâti par les Britanniques, est la capitale de l'Inde ; elle fait partie de l'agglomération de Delhi. Mumbai est la capitale financière.",
+   "tip": "Inde → New Delhi (pas Mumbai, pas Calcutta).",
+   "extraExample": {
+    "text": "Avant 1911, la capitale de l'Inde britannique était Calcutta.",
+    "translation": "Les Britanniques l'ont déplacée à Delhi, où ils ont bâti New Delhi, inaugurée en 1931."
+   },
+   "errorPatterns": [
+    {
+     "equals": "mumbai",
+     "category": "word_confusion",
+     "feedback": "Mumbai est la capitale financière et la ville de Bollywood, mais la capitale du pays est New Delhi."
+    },
+    {
+     "equals": "bombay",
+     "category": "word_confusion",
+     "feedback": "Bombay (aujourd'hui Mumbai) est la capitale financière, pas la capitale de l'Inde."
+    },
+    {
+     "equals": "calcutta",
+     "category": "word_confusion",
+     "feedback": "Calcutta fut la capitale de l'Inde britannique jusqu'en 1911, puis la capitale est passée à Delhi."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e19",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.himalaya",
+    "cg.v.everest"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la chaîne de montagnes qui abrite l'Everest ?",
+   "promptLanguage": "fr",
+   "answer": "L'Himalaya",
+   "acceptedAnswers": [
+    "L'Himalaya",
+    "Himalaya",
+    "La chaîne de l'Himalaya",
+    "Les Himalayas"
+   ],
+   "explanation": "L'Everest se dresse dans l'Himalaya, la plus haute chaîne de montagnes du monde, entre le plateau tibétain et la plaine indienne.",
+   "tip": "Himalaya : « demeure des neiges », au nord de l'Inde et du Népal.",
+   "extraExample": {
+    "text": "Le K2, deuxième sommet du monde, appartient à la chaîne voisine du Karakoram.",
+    "translation": "Les deux chaînes se touchent au nord du Pakistan et de l'Inde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "alpes",
+     "category": "word_confusion",
+     "feedback": "Les Alpes culminent au Mont Blanc (environ 4 800 m), bien plus bas que l'Everest."
+    },
+    {
+     "equals": "andes",
+     "category": "word_confusion",
+     "feedback": "Les Andes sont en Amérique du Sud ; l'Everest est en Asie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l12.e20",
+   "unitIds": [
+    "cg.g12.asie_oceanie",
+    "cg.v.grande_barriere_de_corail"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Au large de quel pays se trouve la Grande Barrière de corail, le plus grand récif corallien du monde ?",
+   "promptLanguage": "fr",
+   "answer": "Australie",
+   "acceptedAnswers": [
+    "Australie",
+    "L'Australie",
+    "en Australie"
+   ],
+   "explanation": "La Grande Barrière de corail longe sur environ 2 300 km la côte nord-est de l'Australie, dans l'État du Queensland. Elle est classée au patrimoine mondial de l'UNESCO depuis 1981.",
+   "tip": "Grande Barrière de corail = Australie, côte nord-est.",
+   "extraExample": {
+    "text": "Le récif abrite des milliers d'espèces de poissons et de coraux.",
+    "translation": "Il subit pourtant le blanchissement des coraux, lié au réchauffement des océans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "indonésie",
+     "category": "word_confusion",
+     "feedback": "L'Indonésie possède d'autres beaux récifs, mais la Grande Barrière est australienne."
+    }
+   ]
+  }
+ ]
+}

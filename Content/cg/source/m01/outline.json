@@ -22,6 +22,66 @@
    ],
    "category": "knowledge",
    "functionWords": []
+  },
+  {
+   "id": "cg.g03.renaissance_decouvertes",
+   "title": "La Renaissance et les grandes découvertes",
+   "difficulty": 2,
+   "prerequisites": [
+    "cg.g02.moyen_age"
+   ],
+   "category": "knowledge",
+   "functionWords": []
+  },
+  {
+   "id": "cg.g04.revolution_francaise",
+   "title": "La Révolution française",
+   "difficulty": 2,
+   "prerequisites": [
+    "cg.g03.renaissance_decouvertes"
+   ],
+   "category": "knowledge",
+   "functionWords": []
+  },
+  {
+   "id": "cg.g05.napoleon_xixe_siecle",
+   "title": "Napoléon et le XIXe siècle",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g04.revolution_francaise"
+   ],
+   "category": "knowledge",
+   "functionWords": []
+  },
+  {
+   "id": "cg.g06.premiere_guerre_mondiale",
+   "title": "La Première Guerre mondiale",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g05.napoleon_xixe_siecle"
+   ],
+   "category": "knowledge",
+   "functionWords": []
+  },
+  {
+   "id": "cg.g07.seconde_guerre_mondiale",
+   "title": "La Seconde Guerre mondiale",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g06.premiere_guerre_mondiale"
+   ],
+   "category": "knowledge",
+   "functionWords": []
+  },
+  {
+   "id": "cg.g08.guerre_froide_decolonisation_europe",
+   "title": "Guerre froide, décolonisation et construction européenne",
+   "difficulty": 4,
+   "prerequisites": [
+    "cg.g07.seconde_guerre_mondiale"
+   ],
+   "category": "knowledge",
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -168,6 +228,456 @@
      "slug": "jeanne_d_arc",
      "translation": "jeune Lorraine qui délivre Orléans en 1429, brûlée à Rouen en 1431",
      "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "cg.l03",
+   "sequence": 3,
+   "title": "Renaissance et grandes découvertes",
+   "description": "Comprendre comment l'imprimerie, l'humanisme, les voyages vers l'Amérique et l'Inde et la Réforme transforment l'Europe entre 1450 et 1600.",
+   "difficulty": 2,
+   "grammarUnitId": "cg.g03.renaissance_decouvertes",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g02.moyen_age",
+    "cg.g01.antiquite"
+   ],
+   "vocabulary": [
+    {
+     "word": "Johannes Gutenberg",
+     "slug": "gutenberg",
+     "translation": "inventeur allemand de l'imprimerie à caractères mobiles (vers 1450)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'humanisme",
+     "slug": "humanisme",
+     "translation": "mouvement de la Renaissance qui place l'être humain et l'étude des textes anciens au centre",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Christophe Colomb",
+     "slug": "christophe_colomb",
+     "translation": "navigateur génois qui atteint l'Amérique en 1492",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Vasco de Gama",
+     "slug": "vasco_de_gama",
+     "translation": "navigateur portugais qui ouvre la route maritime des Indes (1498)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Magellan",
+     "slug": "magellan",
+     "translation": "navigateur portugais dont l'expédition fait le premier tour du monde (1519-1522)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les conquistadors",
+     "slug": "conquistadors",
+     "translation": "conquérants espagnols de l'Amérique au XVIe siècle",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la Réforme protestante",
+     "slug": "reforme_protestante",
+     "translation": "mouvement religieux né en 1517 avec Martin Luther",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "François Ier",
+     "slug": "francois_ier",
+     "translation": "roi de France (1515-1547), protecteur des arts, vainqueur à Marignan",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'édit de Nantes",
+     "slug": "edit_de_nantes",
+     "translation": "édit de 1598 qui accorde aux protestants une liberté de culte limitée",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la traite atlantique",
+     "slug": "traite_atlantique",
+     "translation": "déportation d'Africains réduits en esclavage vers les Amériques (XVIe-XIXe siècle)",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "cg.l04",
+   "sequence": 4,
+   "title": "La Révolution française : de la Bastille à la Terreur",
+   "description": "Comprendre pourquoi et comment la monarchie tombe entre 1789 et 1799 : la Bastille, les droits de l'homme, la République, la Terreur.",
+   "difficulty": 2,
+   "grammarUnitId": "cg.g04.revolution_francaise",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.g02.moyen_age"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'Ancien Régime",
+     "slug": "ancien_regime",
+     "translation": "société d'ordres et monarchie absolue avant 1789",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le tiers état",
+     "slug": "tiers_etat",
+     "translation": "ordre qui regroupe tous les Français ni nobles ni religieux",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la prise de la Bastille",
+     "slug": "prise_de_la_bastille",
+     "translation": "14 juillet 1789 : le peuple de Paris s'empare de la forteresse royale",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la Déclaration des droits de l'homme et du citoyen",
+     "slug": "declaration_des_droits_de_l_homme",
+     "translation": "texte du 26 août 1789 qui proclame la liberté et l'égalité en droits",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Louis XVI",
+     "slug": "louis_xvi",
+     "translation": "roi de France guillotiné en 1793",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Olympe de Gouges",
+     "slug": "olympe_de_gouges",
+     "translation": "femme de lettres qui réclame l'égalité des droits pour les femmes",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la Première République",
+     "slug": "premiere_republique",
+     "translation": "régime proclamé en septembre 1792, après la chute de la monarchie",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la Terreur",
+     "slug": "la_terreur",
+     "translation": "période de répression de 1793-1794",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Robespierre",
+     "slug": "robespierre",
+     "translation": "chef des jacobins et du Comité de salut public",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la guillotine",
+     "slug": "guillotine",
+     "translation": "machine à décapiter adoptée en 1792",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "cg.l05",
+   "sequence": 5,
+   "title": "Napoléon et le XIXe siècle : Empire, industrie, République",
+   "description": "Suivre l'ascension et la chute de Napoléon, puis les grands changements du XIXe siècle : révolution industrielle, régimes successifs, abolition de l'esclavage, école de la République.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g05.napoleon_xixe_siecle",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g04.revolution_francaise",
+    "cg.g03.renaissance_decouvertes"
+   ],
+   "vocabulary": [
+    {
+     "word": "Napoléon Bonaparte",
+     "slug": "napoleon_bonaparte",
+     "translation": "général devenu Premier consul puis empereur des Français",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le Code civil",
+     "slug": "code_civil",
+     "translation": "ensemble des lois civiles promulgué en 1804",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Austerlitz",
+     "slug": "austerlitz",
+     "translation": "victoire de Napoléon sur les Russes et les Autrichiens, le 2 décembre 1805",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Waterloo",
+     "slug": "waterloo",
+     "translation": "défaite finale de Napoléon, le 18 juin 1815",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la révolution industrielle",
+     "slug": "revolution_industrielle",
+     "translation": "passage à la production en usine avec des machines, né en Angleterre",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la machine à vapeur",
+     "slug": "machine_a_vapeur",
+     "translation": "machine qui transforme la chaleur en mouvement, moteur de l'industrie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'abolition de l'esclavage",
+     "slug": "abolition_de_l_esclavage",
+     "translation": "décret du 27 avril 1848 qui supprime définitivement l'esclavage en France",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Napoléon III",
+     "slug": "napoleon_iii",
+     "translation": "neveu de Napoléon Ier, empereur de 1852 à 1870",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la Troisième République",
+     "slug": "troisieme_republique",
+     "translation": "régime politique français de 1870 à 1940",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Jules Ferry",
+     "slug": "jules_ferry",
+     "translation": "ministre qui rend l'école gratuite, laïque et obligatoire (1881-1882)",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "cg.l06",
+   "sequence": 6,
+   "title": "La Première Guerre mondiale : 1914-1918",
+   "description": "Comprendre les causes, la vie dans les tranchées, les grandes batailles et les conséquences de la Grande Guerre.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g06.premiere_guerre_mondiale",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.g04.revolution_francaise"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'attentat de Sarajevo",
+     "slug": "attentat_de_sarajevo",
+     "translation": "assassinat de l'archiduc François-Ferdinand, le 28 juin 1914",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la Triple-Entente",
+     "slug": "triple_entente",
+     "translation": "alliance de la France, du Royaume-Uni et de la Russie",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le poilu",
+     "slug": "poilu",
+     "translation": "surnom du soldat français de 1914-1918",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la guerre de tranchées",
+     "slug": "guerre_de_tranchees",
+     "translation": "guerre d'immobilité sur un front de tranchées",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la bataille de la Marne",
+     "slug": "bataille_de_la_marne",
+     "translation": "victoire franco-britannique de septembre 1914",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la bataille de Verdun",
+     "slug": "bataille_de_verdun",
+     "translation": "bataille la plus longue de la guerre, en 1916",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'armistice du 11 novembre 1918",
+     "slug": "armistice_de_1918",
+     "translation": "cessez-le-feu signé à Rethondes",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le traité de Versailles",
+     "slug": "traite_de_versailles",
+     "translation": "traité de paix signé avec l'Allemagne le 28 juin 1919",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Georges Clemenceau",
+     "slug": "georges_clemenceau",
+     "translation": "chef du gouvernement français de 1917 à 1920, « Père la Victoire »",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la Société des Nations",
+     "slug": "societe_des_nations",
+     "translation": "organisation créée en 1919 pour préserver la paix",
+     "partOfSpeech": "organization"
+    }
+   ]
+  },
+  {
+   "id": "cg.l07",
+   "sequence": 7,
+   "title": "La Seconde Guerre mondiale : 1939-1945",
+   "description": "Du nazisme à la libération : causes, défaite de 1940, Vichy et Résistance, Shoah, victoire des Alliés et fin de la guerre.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g07.seconde_guerre_mondiale",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.g05.napoleon_xixe_siecle"
+   ],
+   "vocabulary": [
+    {
+     "word": "Adolf Hitler",
+     "slug": "adolf_hitler",
+     "translation": "chef du régime nazi, chancelier d'Allemagne de 1933 à 1945",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les accords de Munich",
+     "slug": "accords_de_munich",
+     "translation": "accords de septembre 1938 qui cèdent les Sudètes à Hitler",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Winston Churchill",
+     "slug": "winston_churchill",
+     "translation": "Premier ministre britannique de 1940 à 1945",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Charles de Gaulle",
+     "slug": "charles_de_gaulle",
+     "translation": "général qui lance l'appel du 18 juin 1940 et incarne la France libre",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le régime de Vichy",
+     "slug": "regime_de_vichy",
+     "translation": "régime du maréchal Pétain, collaborateur, de 1940 à 1944",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Jean Moulin",
+     "slug": "jean_moulin",
+     "translation": "héros de la Résistance, unificateur des mouvements en 1943",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la Shoah",
+     "slug": "shoah",
+     "translation": "génocide des Juifs d'Europe par les nazis, environ six millions de victimes",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Pearl Harbor",
+     "slug": "pearl_harbor",
+     "translation": "attaque japonaise du 7 décembre 1941 contre les États-Unis",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le débarquement de Normandie",
+     "slug": "debarquement_de_normandie",
+     "translation": "opération alliée du 6 juin 1944",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Hiroshima",
+     "slug": "hiroshima",
+     "translation": "première ville détruite par une bombe atomique, le 6 août 1945",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "cg.l08",
+   "sequence": 8,
+   "title": "Guerre froide, décolonisation et construction européenne",
+   "description": "Comprendre le monde d'après 1945 : deux blocs rivaux, fin des empires coloniaux et unification de l'Europe jusqu'à nos jours.",
+   "difficulty": 4,
+   "grammarUnitId": "cg.g08.guerre_froide_decolonisation_europe",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.g06.premiere_guerre_mondiale"
+   ],
+   "vocabulary": [
+    {
+     "word": "la guerre froide",
+     "slug": "guerre_froide",
+     "translation": "rivalité entre États-Unis et URSS sans affrontement direct (1947-1991)",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le plan Marshall",
+     "slug": "plan_marshall",
+     "translation": "aide économique américaine à l'Europe, à partir de 1947",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le mur de Berlin",
+     "slug": "mur_de_berlin",
+     "translation": "mur qui divise Berlin de 1961 à 1989",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "la crise des missiles de Cuba",
+     "slug": "crise_de_cuba",
+     "translation": "tension de 1962 entre les États-Unis et l'URSS",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Mikhaïl Gorbatchev",
+     "slug": "mikhail_gorbatchev",
+     "translation": "dernier dirigeant de l'URSS, des réformes à la fin de la guerre froide",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la décolonisation",
+     "slug": "decolonisation",
+     "translation": "accès à l'indépendance des colonies après 1945",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Gandhi",
+     "slug": "mahatma_gandhi",
+     "translation": "leader de la non-violence, figure de l'indépendance de l'Inde (1947)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Diên Biên Phu",
+     "slug": "dien_bien_phu",
+     "translation": "défaite française de 1954 en Indochine",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la guerre d'Algérie",
+     "slug": "guerre_d_algerie",
+     "translation": "conflit de 1954 à 1962 qui mène à l'indépendance de l'Algérie",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la construction européenne",
+     "slug": "construction_europeenne",
+     "translation": "unification progressive de l'Europe depuis 1950",
+     "partOfSpeech": "concept"
     }
    ]
   }

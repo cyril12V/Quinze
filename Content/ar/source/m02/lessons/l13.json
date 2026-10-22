@@ -1,0 +1,839 @@
+{
+ "lessonId": "ar.l13",
+ "exercises": [
+  {
+   "id": "ar.l13.e01",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.talib"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit طَالِبٌ (un étudiant) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tâlibun",
+    "Tâlibu",
+    "Tâlib",
+    "Tâlibûn"
+   ],
+   "answer": "Tâlibun",
+   "acceptedAnswers": [
+    "Tâlibun"
+   ],
+   "hint": "Regarde le signe sur la dernière lettre : est-il simple ou doublé ?",
+   "explanation": "Le signe doublé ـٌ à la fin du mot est un tanwin : une damma écrite en double, qui ajoute un son n. On lit Tâlib-un.",
+   "tip": "Signe doublé = voyelle + n.",
+   "extraExample": {
+    "text": "رَجُلٌ",
+    "translation": "un homme",
+    "transliteration": "radjulun"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Tâlibu",
+     "category": "word_confusion",
+     "feedback": "Le signe est doublé (ـٌ) : c'est un tanwin, qui ajoute un n. Une simple damma donnerait Tâlibu."
+    },
+    {
+     "equals": "Tâlibûn",
+     "category": "word_confusion",
+     "feedback": "Un û long demanderait un و. Ici, le tanwin ajoute seulement un n : Tâlibun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e02",
+   "unitIds": [
+    "ar.g13.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit طَبِيبًا (un médecin, complément) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tabîban",
+    "Tabîbanâ",
+    "Tabîbân",
+    "Tabîbana"
+   ],
+   "answer": "Tabîban",
+   "acceptedAnswers": [
+    "Tabîban"
+   ],
+   "explanation": "Le tanwin ـً (fatha doublée) se lit -an. Le ا qui le suit est un alif muet : il sert seulement de support et ne se prononce pas.",
+   "tip": "Tanwin -an : le ا final se tait.",
+   "extraExample": {
+    "text": "وَلَدًا",
+    "translation": "un garçon",
+    "transliteration": "waladan"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Tabîbân",
+     "category": "word_confusion",
+     "feedback": "L'alif après le tanwin est muet, il ne forme pas un â long : Tabîban."
+    },
+    {
+     "equals": "Tabîbanâ",
+     "category": "word_confusion",
+     "feedback": "Le ا final ne se prononce pas : on s'arrête sur le n, Tabîban."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e03",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.taliba"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit طَالِبَةٌ (une étudiante) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tâlibatun",
+    "Tâlibun",
+    "Tâlibatân",
+    "Tâlibatu"
+   ],
+   "answer": "Tâlibatun",
+   "acceptedAnswers": [
+    "Tâlibatun"
+   ],
+   "explanation": "Avec le ة, le tanwin fait entendre un t : Tâliba-t-un. Le ة ne se lit t que lorsqu'une voyelle ou un tanwin le suit.",
+   "tip": "ة + tanwin = -atun.",
+   "extraExample": {
+    "text": "مُعَلِّمَةٌ",
+    "translation": "une enseignante",
+    "transliteration": "mu3allimatun"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Tâlibun",
+     "category": "word_confusion",
+     "feedback": "Il y a un ة avant le tanwin : on entend le t. Tâlibun serait طَالِبٌ (un étudiant)."
+    },
+    {
+     "equals": "Tâlibatu",
+     "category": "word_confusion",
+     "feedback": "Le signe est doublé (ـٌ) : le tanwin ajoute un n, Tâlibatun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e04",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.tanwin"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque signe à sa lecture.",
+   "prompt": "Les trois tanwins",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ـٌ",
+     "right": "-un"
+    },
+    {
+     "left": "ـٍ",
+     "right": "-in"
+    },
+    {
+     "left": "ـً",
+     "right": "-an"
+    }
+   ],
+   "answer": "ـٌ = -un ; ـٍ = -in ; ـً = -an",
+   "acceptedAnswers": [],
+   "explanation": "Damma doublée = -un, kasra doublée = -in, fatha doublée = -an. Le son n s'ajoute toujours à la fin du mot.",
+   "tip": "Même voyelle qu'avant, en double, avec un n."
+  },
+  {
+   "id": "ar.l13.e05",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.zawdja"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit زَوْجَةً (une épouse, complément) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "zawdjatan",
+    "zawdjatân",
+    "zawdjan",
+    "zawdjatun"
+   ],
+   "answer": "zawdjatan",
+   "acceptedAnswers": [
+    "zawdjatan"
+   ],
+   "explanation": "Après un ة, le tanwin -an s'écrit sans alif : zawdja-t-an. Le t apparaît parce qu'un tanwin suit le ة.",
+   "tip": "ة + ـً : pas d'alif, on lit -atan.",
+   "extraExample": {
+    "text": "طَالِبَةً",
+    "translation": "une étudiante",
+    "transliteration": "Tâlibatan"
+   },
+   "errorPatterns": [
+    {
+     "equals": "zawdjatân",
+     "category": "word_confusion",
+     "feedback": "Il n'y a pas d'alif après un ة : le tanwin se lit simplement -an."
+    },
+    {
+     "equals": "zawdjatun",
+     "category": "word_confusion",
+     "feedback": "Le tanwin est ـً (fatha doublée) : -an, et non -un."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e06",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.taliba"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel cas n'écrit-on pas d'alif avec le tanwin -an ?",
+   "promptLanguage": "fr",
+   "options": [
+    "après un ة (طَالِبَةً)",
+    "après un ب (طَبِيبًا)",
+    "après un د (وَلَدًا)",
+    "après un ر (رَجُلًا)"
+   ],
+   "answer": "après un ة (طَالِبَةً)",
+   "acceptedAnswers": [
+    "après un ة (طَالِبَةً)"
+   ],
+   "explanation": "L'alif de soutien se met après presque toutes les lettres, mais pas après le ة : on écrit طَالِبَةً (Tâlibatan), sans alif.",
+   "tip": "ة et alif de soutien ne vont pas ensemble.",
+   "extraExample": {
+    "text": "زَوْجَةً",
+    "translation": "une épouse",
+    "transliteration": "zawdjatan"
+   },
+   "errorPatterns": [
+    {
+     "equals": "après un ب (طَبِيبًا)",
+     "category": "grammar",
+     "feedback": "Après le ب, on écrit bien un alif de soutien : طَبِيبًا. L'exception, c'est le ة."
+    },
+    {
+     "equals": "après un د (وَلَدًا)",
+     "category": "grammar",
+     "feedback": "Après le د, on écrit bien un alif de soutien : وَلَدًا. L'exception, c'est le ة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e07",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.sadr"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit صَدْرٌ (une poitrine) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Sadrun",
+    "Sadru",
+    "Sadarun",
+    "Sadrûn"
+   ],
+   "answer": "Sadrun",
+   "acceptedAnswers": [
+    "Sadrun"
+   ],
+   "explanation": "Fatha sur le ص (Sa), sukun sur le د, puis le ر avec tanwin -un : Sadr-un.",
+   "tip": "Sukun d'abord, tanwin à la fin : Sadr + un.",
+   "extraExample": {
+    "text": "ظَهْرٌ",
+    "translation": "un dos",
+    "transliteration": "Zahrun"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sadarun",
+     "category": "spelling",
+     "feedback": "Le د porte un sukun : pas de voyelle après lui. On lit Sadr-un."
+    },
+    {
+     "equals": "Sadru",
+     "category": "word_confusion",
+     "feedback": "Le signe est doublé (ـٌ) : le tanwin ajoute un n, Sadrun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e08",
+   "unitIds": [
+    "ar.g13.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots se lit « Tabîbin » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "طَبِيبٍ",
+    "طَبِيبٌ",
+    "طَبِيبًا",
+    "طَبِيبُ"
+   ],
+   "answer": "طَبِيبٍ",
+   "acceptedAnswers": [
+    "طَبِيبٍ"
+   ],
+   "explanation": "La kasra doublée sous le ب donne -in : Tabîbin. طَبِيبٌ = Tabîbun, طَبِيبًا = Tabîban, et طَبِيبُ (simple damma) = Tabîbu, sans n.",
+   "tip": "Kasra doublée : le signe est sous la lettre.",
+   "extraExample": {
+    "text": "مَعَ طَبِيبٍ",
+    "translation": "avec un médecin",
+    "transliteration": "ma3a Tabîbin"
+   },
+   "errorPatterns": [
+    {
+     "equals": "طَبِيبٌ",
+     "category": "word_confusion",
+     "feedback": "طَبِيبٌ (damma doublée au-dessus) se lit Tabîbun."
+    },
+    {
+     "equals": "طَبِيبًا",
+     "category": "word_confusion",
+     "feedback": "طَبِيبًا (fatha doublée + alif) se lit Tabîban."
+    },
+    {
+     "equals": "طَبِيبُ",
+     "category": "word_confusion",
+     "feedback": "طَبِيبُ (simple damma) se lit Tabîbu, sans n : ce n'est pas un tanwin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e09",
+   "unitIds": [
+    "ar.g13.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Un nom précédé de ال (comme الطَّالِبُ, « l'étudiant ») garde-t-il le tanwin ?",
+   "promptLanguage": "fr",
+   "options": [
+    "non : avec ال, la voyelle finale est simple",
+    "oui : le tanwin s'ajoute à ال",
+    "oui, mais seulement le tanwin -an",
+    "oui, mais seulement avec un ة"
+   ],
+   "answer": "non : avec ال, la voyelle finale est simple",
+   "acceptedAnswers": [
+    "non : avec ال, la voyelle finale est simple"
+   ],
+   "explanation": "ال rend le nom défini (« le, la »), alors que le tanwin marque un nom indéfini (« un, une ») : les deux ne vont jamais ensemble. On écrit الطَّالِبُ (aT-Tâlibu), avec une damma simple.",
+   "tip": "ال ou tanwin, jamais les deux.",
+   "extraExample": {
+    "text": "الْكِتَابُ",
+    "translation": "le livre",
+    "transliteration": "al-kitâbu"
+   },
+   "errorPatterns": [
+    {
+     "equals": "oui : le tanwin s'ajoute à ال",
+     "category": "grammar",
+     "feedback": "Le tanwin marque l'indéfini (« un »), ال le défini (« le ») : ils s'excluent."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e10",
+   "unitIds": [
+    "ar.v.kitab",
+    "ar.g13.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Révision : choisis la bonne lecture.",
+   "prompt": "Comment se lit كِتَابٌ (un livre) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "kitâbun",
+    "kitâbu",
+    "kitabun",
+    "kitâb"
+   ],
+   "answer": "kitâbun",
+   "acceptedAnswers": [
+    "kitâbun"
+   ],
+   "explanation": "Kasra sous le ك (ki), fatha et ا sur le ت (tâ, long), puis le ب avec tanwin -un : ki-tâb-un.",
+   "tip": "Voyelle longue avant, tanwin après : kitâb + un.",
+   "extraExample": {
+    "text": "كِتَابًا",
+    "translation": "un livre",
+    "transliteration": "kitâban"
+   },
+   "errorPatterns": [
+    {
+     "equals": "kitâbu",
+     "category": "word_confusion",
+     "feedback": "Le signe est doublé (ـٌ) : il faut ajouter le n, kitâbun."
+    },
+    {
+     "equals": "kitabun",
+     "category": "word_confusion",
+     "feedback": "Le ا après le ت allonge le a : tâ, et non ta."
+    },
+    {
+     "equals": "kitâb",
+     "category": "word_confusion",
+     "feedback": "Le tanwin ajoute un n final : kitâbun, et pas seulement kitâb."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e11",
+   "unitIds": [
+    "ar.g12.shadda",
+    "ar.v.djadda"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Révision : choisis la bonne lecture.",
+   "prompt": "Comment se lit جَدَّةٌ (une grand-mère) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "djaddatun",
+    "djadatun",
+    "djaddatân",
+    "djaddatu"
+   ],
+   "answer": "djaddatun",
+   "acceptedAnswers": [
+    "djaddatun"
+   ],
+   "explanation": "La shadda double le د (djad-da), puis le ة et le tanwin -un font entendre -tun : djaddatun.",
+   "tip": "Shadda pour doubler, ة + tanwin pour -atun.",
+   "extraExample": {
+    "text": "عَمَّةٌ",
+    "translation": "une tante",
+    "transliteration": "3ammatun"
+   },
+   "errorPatterns": [
+    {
+     "equals": "djadatun",
+     "category": "word_confusion",
+     "feedback": "Le د porte une shadda : djaddatun, avec deux d."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e12",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.talib",
+    "ar.v.taliba",
+    "ar.v.tabib",
+    "ar.v.zawdja",
+    "ar.v.zawdj"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa traduction.",
+   "prompt": "Étudiants, médecins et couples",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "طَالِب",
+     "right": "l'étudiant"
+    },
+    {
+     "left": "طَالِبَة",
+     "right": "l'étudiante"
+    },
+    {
+     "left": "طَبِيب",
+     "right": "le médecin"
+    },
+    {
+     "left": "زَوْجَة",
+     "right": "l'épouse"
+    },
+    {
+     "left": "زَوْج",
+     "right": "le mari"
+    }
+   ],
+   "answer": "طَالِب = l'étudiant ; طَالِبَة = l'étudiante ; طَبِيب = le médecin ; زَوْجَة = l'épouse ; زَوْج = le mari",
+   "acceptedAnswers": [],
+   "explanation": "طَالِب (Tâlib) = l'étudiant, طَالِبَة (Tâliba) = l'étudiante, طَبِيب (Tabîb) = le médecin, زَوْجَة (zawdja) = l'épouse, زَوْج (zawdj) = le mari.",
+   "tip": "Le ة final fait souvent le féminin : طَالِب / طَالِبَة, زَوْج / زَوْجَة."
+  },
+  {
+   "id": "ar.l13.e13",
+   "unitIds": [
+    "ar.v.dhira",
+    "ar.g13.tanwin",
+    "ar.v.sadr",
+    "ar.v.zahr",
+    "ar.v.djabin",
+    "ar.v.qalb"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à sa traduction.",
+   "prompt": "Du front au dos",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "جَبِين",
+     "right": "le front"
+    },
+    {
+     "left": "صَدْر",
+     "right": "la poitrine"
+    },
+    {
+     "left": "ظَهْر",
+     "right": "le dos"
+    },
+    {
+     "left": "قَلْب",
+     "right": "le cœur"
+    },
+    {
+     "left": "ذِرَاع",
+     "right": "le bras"
+    }
+   ],
+   "answer": "جَبِين = le front ; صَدْر = la poitrine ; ظَهْر = le dos ; قَلْب = le cœur ; ذِرَاع = le bras",
+   "acceptedAnswers": [],
+   "explanation": "جَبِين (djabîn) = le front, صَدْر (Sadr) = la poitrine, ظَهْر (Zahr) = le dos, قَلْب (qalb) = le cœur, ذِرَاع (dhirâ3) = le bras.",
+   "tip": "Du haut vers le bas : le front, la poitrine, le dos."
+  },
+  {
+   "id": "ar.l13.e14",
+   "unitIds": [
+    "ar.v.kasra",
+    "ar.g13.tanwin"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le nom du signe.",
+   "prompt": "Le tanwin ـٍ est une ___ doublée : il fait entendre -in.",
+   "promptLanguage": "fr",
+   "options": [
+    "kasra",
+    "fatha",
+    "damma",
+    "shadda"
+   ],
+   "answer": "kasra",
+   "acceptedAnswers": [
+    "kasra"
+   ],
+   "explanation": "Le tanwin ـٍ est une kasra écrite en double sous la lettre : il fait entendre -in. Même logique : damma doublée = -un, fatha doublée = -an.",
+   "tip": "Le tanwin garde la voyelle du signe simple, mais en double.",
+   "extraExample": {
+    "text": "فِي بَيْتٍ",
+    "translation": "dans une maison",
+    "transliteration": "fî baytin"
+   },
+   "errorPatterns": [
+    {
+     "equals": "damma",
+     "category": "word_confusion",
+     "feedback": "La damma doublée (ـٌ) fait entendre -un. Ici le signe est sous la lettre : c'est une kasra."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e15",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.taliba"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne lettre.",
+   "prompt": "طَالِبَةٌ se lit Tâlibatun : devant le tanwin, le ة fait entendre un ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "t",
+    "d",
+    "h",
+    "k"
+   ],
+   "answer": "t",
+   "acceptedAnswers": [
+    "t"
+   ],
+   "explanation": "Le ة se lit t quand une voyelle ou un tanwin le suit. À la fin d'un mot isolé, il se tait.",
+   "tip": "ة + voyelle ou tanwin = t.",
+   "extraExample": {
+    "text": "زَوْجَةٌ",
+    "translation": "une épouse",
+    "transliteration": "zawdjatun"
+   }
+  },
+  {
+   "id": "ar.l13.e16",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.tabib"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le nom du signe.",
+   "prompt": "Pour écrire « Tabîbun » (un médecin), la dernière lettre porte une ___ doublée.",
+   "promptLanguage": "fr",
+   "options": [
+    "damma",
+    "fatha",
+    "kasra",
+    "sukun"
+   ],
+   "answer": "damma",
+   "acceptedAnswers": [
+    "damma"
+   ],
+   "explanation": "Tabîbun se termine par -un : une damma écrite en double (ـٌ) sur le ب final, طَبِيبٌ.",
+   "tip": "-un : damma doublée ; -in : kasra doublée ; -an : fatha doublée.",
+   "extraExample": {
+    "text": "طَبِيبٌ",
+    "translation": "un médecin",
+    "transliteration": "Tabîbun"
+   },
+   "errorPatterns": [
+    {
+     "equals": "fatha",
+     "category": "word_confusion",
+     "feedback": "La fatha doublée (ـً) fait entendre -an : Tabîban."
+    },
+    {
+     "equals": "kasra",
+     "category": "word_confusion",
+     "feedback": "La kasra doublée (ـٍ) fait entendre -in : Tabîbin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e17",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.talib"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Touche les syllabes dans l'ordre de lecture (la première d'abord).",
+   "prompt": "Écris « Tâlibun » (un étudiant).",
+   "promptLanguage": "fr",
+   "tokens": [
+    "بٌ",
+    "طَا",
+    "لِ"
+   ],
+   "answer": "طَا لِ بٌ",
+   "acceptedAnswers": [
+    "طَا لِ بٌ"
+   ],
+   "explanation": "Tâ-li-bun : ط avec fatha et ا (tâ, long), ل avec kasra, puis ب avec le tanwin (-bun).",
+   "tip": "Le tanwin se met sur la dernière lettre.",
+   "extraExample": {
+    "text": "طُلَّابٌ",
+    "translation": "des étudiants",
+    "transliteration": "Tullâbun"
+   }
+  },
+  {
+   "id": "ar.l13.e18",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.tabib"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre de lecture (le premier d'abord).",
+   "prompt": "Remets dans l'ordre : je suis allé / chez / un médecin",
+   "promptLanguage": "fr",
+   "tokens": [
+    "طَبِيبٍ",
+    "ذَهَبْتُ",
+    "إِلَى"
+   ],
+   "answer": "ذَهَبْتُ إِلَى طَبِيبٍ",
+   "acceptedAnswers": [
+    "ذَهَبْتُ إِلَى طَبِيبٍ"
+   ],
+   "explanation": "Dhahabtu ilâ Tabîbin : après la préposition إِلَى, le nom indéfini prend le tanwin -in.",
+   "tip": "Verbe, préposition, puis le nom avec son tanwin.",
+   "extraExample": {
+    "text": "جَلَسْتُ مَعَ طَالِبٍ",
+    "translation": "je me suis assis avec un étudiant",
+    "transliteration": "djalastu ma3a Tâlibin"
+   }
+  },
+  {
+   "id": "ar.l13.e19",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.tabib"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "طَبِيب",
+   "promptLanguage": "ar",
+   "answer": "médecin",
+   "acceptedAnswers": [
+    "médecin",
+    "le médecin",
+    "un médecin",
+    "docteur",
+    "le docteur",
+    "un docteur"
+   ],
+   "explanation": "طَبِيب (Tabîb) : le médecin. Le ي après la kasra est long : Ta-bîb.",
+   "tip": "Tabîb : le ي après la kasra allonge le i.",
+   "extraExample": {
+    "text": "طَبِيبَة",
+    "translation": "femme médecin",
+    "transliteration": "Tabîba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "étudiant",
+     "category": "vocabulary",
+     "feedback": "L'étudiant, c'est طَالِب (Tâlib). طَبِيب (Tabîb), c'est le médecin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e20",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.zawdja"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "زَوْجَة",
+   "promptLanguage": "ar",
+   "answer": "épouse",
+   "acceptedAnswers": [
+    "épouse",
+    "l'épouse",
+    "une épouse",
+    "femme",
+    "la femme",
+    "ma femme",
+    "sa femme"
+   ],
+   "explanation": "زَوْجَة (zawdja) : l'épouse. Le ة final marque le féminin de زَوْج (le mari).",
+   "tip": "Zawdj, le mari ; zawdja, l'épouse.",
+   "extraExample": {
+    "text": "زَوْجَتِي",
+    "translation": "ma femme",
+    "transliteration": "zawdjatî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "mari",
+     "category": "vocabulary",
+     "feedback": "Le mari, c'est زَوْج (zawdj), sans ة. زَوْجَة (zawdja) est l'épouse."
+    },
+    {
+     "equals": "le mari",
+     "category": "vocabulary",
+     "feedback": "Le mari, c'est زَوْج (zawdj), sans ة. زَوْجَة (zawdja) est l'épouse."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e21",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.talib"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit طَالِبًا (un étudiant, complément) ?",
+   "promptLanguage": "fr",
+   "answer": "Tâliban",
+   "acceptedAnswers": [
+    "Tâliban",
+    "Taliban",
+    "Taaliban"
+   ],
+   "hint": "Le ط se note T majuscule.",
+   "explanation": "Fatha et ا sur le ط (Tâ, long), kasra sous le ل, puis le ب avec tanwin -an : Tâli-ban. Le ا final est muet.",
+   "tip": "Tanwin -an : on entend an, pas â.",
+   "extraExample": {
+    "text": "رَأَيْتُ طَالِبًا",
+    "translation": "j'ai vu un étudiant",
+    "transliteration": "ra'aytu Tâliban"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Tâlibân",
+     "category": "word_confusion",
+     "feedback": "L'alif final est muet : on entend -an, pas un â long."
+    },
+    {
+     "equals": "Tâlibanâ",
+     "category": "word_confusion",
+     "feedback": "Le ا final ne se prononce pas : Tâliban."
+    }
+   ]
+  },
+  {
+   "id": "ar.l13.e22",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.zahr"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit ظَهْرٌ (un dos) ?",
+   "promptLanguage": "fr",
+   "answer": "Zahrun",
+   "acceptedAnswers": [
+    "Zahrun"
+   ],
+   "hint": "Le ظ se note Z majuscule.",
+   "explanation": "Fatha sur le ظ (Za), sukun sur le ه, puis le ر avec tanwin -un : Zahr-un.",
+   "tip": "Le ظ se note Z majuscule ; le tanwin ajoute un n.",
+   "extraExample": {
+    "text": "ظَهْرًا",
+    "translation": "un dos",
+    "transliteration": "Zahran"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Zahr",
+     "category": "spelling",
+     "feedback": "Le tanwin ajoute -un à la fin du mot : Zahrun."
+    },
+    {
+     "equals": "Zahru",
+     "category": "word_confusion",
+     "feedback": "Le signe est doublé (ـٌ) : le tanwin ajoute un n, Zahrun."
+    }
+   ]
+  }
+ ]
+}

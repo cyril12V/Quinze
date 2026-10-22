@@ -756,25 +756,28 @@
    "type": "free_answer",
    "difficulty": 3,
    "instruction": "Écris ce groupe de mots en lettres latines.",
-   "prompt": "الرُّوح الْقُدُس",
+   "prompt": "الرُّوحُ الْقُدُسُ",
    "promptLanguage": "ar",
-   "answer": "ar-rû7 al-qudus",
+   "answer": "ar-rû7u l-qudus",
    "acceptedAnswers": [
+    "ar-rû7u l-qudus",
+    "arrû7u lqudus",
+    "ar rû7u l qudus",
+    "ar-ru7u l-qudus",
+    "arru7u lqudus",
+    "ar ru7u l qudus",
+    "ar-ruu7u l-qudus",
+    "arruu7u lqudus",
+    "ar ruu7u l qudus",
     "ar-rû7 al-qudus",
-    "arrû7 alqudus",
-    "ar rû7 al qudus",
-    "ar-ru7 al-qudus",
-    "arru7 alqudus",
-    "ar ru7 al qudus",
-    "ar-ruu7 al-qudus",
-    "arruu7 alqudus",
-    "ar ruu7 al qudus",
+    "ar-rû7u al-qudus",
+    "ar-rû7 l-qudus",
     "ar-ruh al-qudus",
-    "ar-rûh al-qudus",
-    "ar ruh al qudus"
+    "ar-ruhu l-qudus",
+    "ar-rûhu l-qudus"
    ],
    "hint": "Le ح sans point se note 7.",
-   "explanation": "الرُّوح : ر solaire, donc ar-rû7 (û long). الْقُدُس : ق lunaire, donc al-qudus.",
+   "explanation": "الرُّوحُ : ر solaire, donc ar-rû7u (û long). الْقُدُسُ : ق lunaire, donc al-qudus ; après la damma, le a de al- tombe : l-qudus.",
    "tip": "Un mot solaire, un mot lunaire : deux articles, deux règles.",
    "extraExample": {
     "text": "بِاسْمِ الرُّوحِ الْقُدُسِ",
@@ -783,14 +786,14 @@
    },
    "errorPatterns": [
     {
-     "equals": "al-rû7 al-qudus",
+     "equals": "al-rû7u l-qudus",
      "category": "grammar",
-     "feedback": "ر est solaire : on dit ar-rû7."
+     "feedback": "ر est solaire : on dit ar-rû7u, sans le l."
     },
     {
-     "equals": "ar-rû7 aq-qudus",
+     "equals": "ar-rû7u q-qudus",
      "category": "grammar",
-     "feedback": "ق est lunaire : on dit al-qudus."
+     "feedback": "ق est lunaire : le l de l-qudus se dit."
     }
    ]
   },

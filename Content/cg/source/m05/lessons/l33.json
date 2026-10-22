@@ -10,34 +10,39 @@
    "type": "mcq",
    "difficulty": 1,
    "instruction": "Choisis la bonne réponse.",
-   "prompt": "Dans quel pays naît la Renaissance artistique, au XVe siècle ?",
+   "prompt": "Que « renaît » à la Renaissance, dans le domaine des arts ?",
    "promptLanguage": "fr",
    "options": [
-    "L'Espagne",
-    "Les Pays-Bas",
-    "L'Italie",
-    "La France"
+    "la peinture byzantine",
+    "l'idéal de l'Antiquité grecque et romaine",
+    "les traditions celtes",
+    "l'art roman du XIe siècle"
    ],
-   "answer": "L'Italie",
+   "answer": "l'idéal de l'Antiquité grecque et romaine",
    "acceptedAnswers": [
-    "L'Italie"
+    "l'idéal de l'Antiquité grecque et romaine"
    ],
-   "explanation": "La Renaissance naît à Florence, en Toscane, au XVe siècle, grâce à des mécènes comme les Médicis. Elle gagne ensuite la France, notamment sous François Ier, puis le reste de l'Europe.",
-   "tip": "Renaissance = renaître de l'Antiquité, et l'Italie est le pays de Rome : c'est là que tout commence.",
+   "explanation": "Les artistes du XVe siècle redécouvrent les statues, les temples et les textes de l'Antiquité. Ils reprennent ses proportions harmonieuses et s'intéressent de nouveau à l'être humain et à la nature.",
+   "tip": "Renaissance = naître de nouveau : l'Antiquité est le modèle.",
    "extraExample": {
-    "text": "François Ier invite Léonard de Vinci en France en 1516.",
-    "translation": "La Renaissance voyage d'Italie vers la France avec les artistes eux-mêmes."
+    "text": "Michel-Ange étudie des statues antiques découvertes à Rome pour sculpter ses figures.",
+    "translation": "Les fouilles de Rome nourrissent directement l'art de la Renaissance."
    },
    "errorPatterns": [
     {
-     "equals": "La France",
+     "equals": "l'art roman du XIe siècle",
      "category": "word_confusion",
-     "feedback": "La Renaissance arrive en France au XVIe siècle, avec François Ier, mais elle naît en Italie."
+     "feedback": "L'art roman est médiéval : les artistes de la Renaissance s'en détournent pour revenir à l'Antiquité."
     },
     {
-     "equals": "Les Pays-Bas",
+     "equals": "la peinture byzantine",
      "category": "word_confusion",
-     "feedback": "Les Pays-Bas connaissent leur âge d'or au XVIIe siècle, avec Rembrandt et Vermeer."
+     "feedback": "La peinture byzantine, aux figures raides et aux fonds dorés, est justement ce que la Renaissance dépasse en cherchant le réalisme."
+    },
+    {
+     "equals": "les traditions celtes",
+     "category": "word_confusion",
+     "feedback": "Les Celtes n'ont pas laissé de modèle pour les artistes de la Renaissance : c'est Rome et la Grèce qui les inspirent."
     }
    ]
   },
@@ -221,7 +226,8 @@
    "unitIds": [
     "cg.g33.mouvements_peinture",
     "cg.v.clair_obscur",
-    "cg.v.baroque"
+    "cg.v.baroque",
+    "cg.v.rembrandt"
    ],
    "type": "mcq",
    "difficulty": 2,
@@ -306,19 +312,19 @@
    "id": "cg.l33.e08",
    "unitIds": [
     "cg.v.amsterdam",
-    "cg.g33.mouvements_peinture",
-    "cg.v.clair_obscur"
+    "cg.v.rembrandt",
+    "cg.g33.mouvements_peinture"
    ],
    "type": "mcq",
    "difficulty": 2,
    "instruction": "Choisis la bonne réponse.",
-   "prompt": "Révision — Dans quelle capitale européenne est conservée La Ronde de nuit de Rembrandt, au Rijksmuseum ?",
+   "prompt": "Révision — Dans quelle capitale européenne Rembrandt a-t-il fait carrière, et où est conservée La Ronde de nuit, au Rijksmuseum ?",
    "promptLanguage": "fr",
    "options": [
+    "Vienne",
     "Bruxelles",
-    "Amsterdam",
     "Berne",
-    "Vienne"
+    "Amsterdam"
    ],
    "answer": "Amsterdam",
    "acceptedAnswers": [

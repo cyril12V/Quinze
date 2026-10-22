@@ -1,0 +1,814 @@
+{
+ "lessonId": "cg.l03",
+ "exercises": [
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.gutenberg",
+    "cg.v.christophe_colomb",
+    "cg.v.vasco_de_gama",
+    "cg.v.magellan"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui a fait quoi ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Gutenberg",
+     "right": "l'imprimerie à caractères mobiles"
+    },
+    {
+     "left": "Christophe Colomb",
+     "right": "la traversée de l'Atlantique en 1492"
+    },
+    {
+     "left": "Vasco de Gama",
+     "right": "la route maritime des Indes en 1498"
+    },
+    {
+     "left": "Magellan",
+     "right": "le premier tour du monde"
+    },
+    {
+     "left": "Léonard de Vinci",
+     "right": "La Joconde"
+    }
+   ],
+   "answer": "Gutenberg = l'imprimerie à caractères mobiles ; Christophe Colomb = la traversée de l'Atlantique en 1492 ; Vasco de Gama = la route maritime des Indes en 1498 ; Magellan = le premier tour du monde ; Léonard de Vinci = La Joconde",
+   "acceptedAnswers": [],
+   "explanation": "Cinq noms de la Renaissance et des grandes découvertes : Gutenberg et l'imprimerie, Colomb et l'Amérique, Vasco de Gama et les Indes, Magellan et le tour du monde, Léonard et La Joconde.",
+   "tip": "Colomb vers l'ouest, Gama vers l'est, Magellan tout autour.",
+   "extraExample": {
+    "text": "Gutenberg et Colomb sont presque contemporains : quarante ans séparent l'imprimerie de la traversée.",
+    "translation": "Les deux changent la façon dont l'Europe voit le monde."
+   },
+   "id": "cg.l03.e01"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.humanisme"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel pays la Renaissance commence-t-elle, au XVe siècle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Italie",
+    "La France",
+    "L'Angleterre",
+    "L'Espagne"
+   ],
+   "answer": "L'Italie",
+   "acceptedAnswers": [
+    "L'Italie"
+   ],
+   "explanation": "La Renaissance naît dans les riches cités italiennes, surtout Florence, où des familles de banquiers comme les Médicis financent les artistes et les savants. Elle atteint la France au XVIe siècle.",
+   "tip": "Renaissance : l'Italie d'abord (Florence), la France ensuite.",
+   "extraExample": {
+    "text": "Les Médicis, banquiers florentins, financent des artistes comme Botticelli et Michel-Ange.",
+    "translation": "Ce mécénat est un moteur de la Renaissance."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La France",
+     "category": "word_confusion",
+     "feedback": "La Renaissance n'arrive en France qu'au XVIe siècle, notamment sous François Ier."
+    }
+   ],
+   "id": "cg.l03.e02"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.gutenberg"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle invention de Gutenberg, vers 1450, permet de fabriquer des livres en grand nombre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'imprimerie à caractères mobiles",
+    "Le papier",
+    "La boussole",
+    "La poudre à canon"
+   ],
+   "answer": "L'imprimerie à caractères mobiles",
+   "acceptedAnswers": [
+    "L'imprimerie à caractères mobiles"
+   ],
+   "explanation": "Gutenberg combine une presse et des caractères métalliques mobiles : on peut imprimer rapidement des centaines d'exemplaires identiques. Le papier, la boussole et la poudre viennent de Chine.",
+   "tip": "Gutenberg = Mayence, vers 1450, la Bible imprimée.",
+   "extraExample": {
+    "text": "La Bible de Gutenberg est imprimée à Mayence vers 1455.",
+    "translation": "C'est le premier grand livre imprimé en Europe avec des caractères mobiles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le papier",
+     "category": "word_confusion",
+     "feedback": "Le papier est inventé en Chine et connu en Europe dès le Moyen Âge : Gutenberg l'utilise sans l'avoir inventé."
+    },
+    {
+     "equals": "La boussole",
+     "category": "word_confusion",
+     "feedback": "La boussole vient de Chine et sert aux navigateurs ; elle n'a rien à voir avec les livres."
+    },
+    {
+     "equals": "La poudre à canon",
+     "category": "word_confusion",
+     "feedback": "La poudre vient de Chine : elle sert à la guerre, pas à imprimer."
+    }
+   ],
+   "id": "cg.l03.e03"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.christophe_colomb"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En 1492, Christophe Colomb traverse l'Atlantique vers l'ouest. Où pense-t-il arriver ?",
+   "promptLanguage": "fr",
+   "options": [
+    "En Asie, aux Indes",
+    "Dans un nouveau continent",
+    "En Afrique, par une route plus courte"
+   ],
+   "answer": "En Asie, aux Indes",
+   "acceptedAnswers": [
+    "En Asie, aux Indes"
+   ],
+   "explanation": "Colomb veut atteindre l'Asie en naviguant vers l'ouest. Il sous-estime la taille de la Terre et débarque aux Bahamas le 12 octobre 1492, persuadé d'être en Asie : d'où le nom d'« Indiens » donné aux peuples d'Amérique.",
+   "tip": "Colomb cherchait les Indes et a trouvé l'Amérique.",
+   "extraExample": {
+    "text": "Colomb part d'Espagne avec trois navires : la Santa María, la Pinta et la Niña.",
+    "translation": "Il est financé par les rois d'Espagne, Isabelle et Ferdinand."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dans un nouveau continent",
+     "category": "word_confusion",
+     "feedback": "Il ne le sait pas : il meurt en 1506 en croyant toujours avoir atteint l'Asie."
+    }
+   ],
+   "id": "cg.l03.e04"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel artiste de la Renaissance a peint La Joconde et est mort à Amboise en 1519, invité par François Ier ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Léonard de Vinci",
+    "Michel-Ange",
+    "Raphaël",
+    "Botticelli"
+   ],
+   "answer": "Léonard de Vinci",
+   "acceptedAnswers": [
+    "Léonard de Vinci"
+   ],
+   "explanation": "Léonard de Vinci (1452-1519), à la fois peintre, ingénieur et savant, passe ses dernières années en France. La Joconde est aujourd'hui au Louvre.",
+   "tip": "Léonard = Joconde + Louvre + François Ier.",
+   "extraExample": {
+    "text": "La Joconde appartenait à la collection des rois de France avant d'entrer au Louvre.",
+    "translation": "Léonard avait emporté le tableau avec lui en France."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Michel-Ange",
+     "category": "word_confusion",
+     "feedback": "Michel-Ange est connu pour le plafond de la chapelle Sixtine (1508-1512) et la sculpture du David."
+    },
+    {
+     "equals": "Raphaël",
+     "category": "word_confusion",
+     "feedback": "Raphaël est mort à Rome en 1520 ; il est célèbre pour ses Madones et L'École d'Athènes."
+    }
+   ],
+   "id": "cg.l03.e05"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.vasco_de_gama"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle route maritime Vasco de Gama ouvre-t-il en 1498 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La route des Indes, en contournant l'Afrique",
+    "La route des Indes, en traversant l'Atlantique vers l'ouest",
+    "Le passage vers le Pacifique, par le sud de l'Amérique",
+    "La route du Japon, par l'Arctique"
+   ],
+   "answer": "La route des Indes, en contournant l'Afrique",
+   "acceptedAnswers": [
+    "La route des Indes, en contournant l'Afrique"
+   ],
+   "explanation": "Parti du Portugal en 1497, Vasco de Gama double le cap de Bonne-Espérance et arrive à Calicut, en Inde, en 1498. Le Portugal contrôle alors par la mer le commerce des épices.",
+   "tip": "Colomb a pris l'ouest et trouvé l'Amérique ; Gama a contourné l'Afrique et trouvé l'Inde.",
+   "extraExample": {
+    "text": "Le cap de Bonne-Espérance avait été franchi dès 1488 par Bartolomeu Dias.",
+    "translation": "Vasco de Gama poursuit la route jusqu'en Inde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La route des Indes, en traversant l'Atlantique vers l'ouest",
+     "category": "word_confusion",
+     "feedback": "C'est le projet de Colomb en 1492, qui l'a mené en Amérique, pas en Inde."
+    },
+    {
+     "equals": "Le passage vers le Pacifique, par le sud de l'Amérique",
+     "category": "word_confusion",
+     "feedback": "C'est la route de Magellan, en 1520."
+    }
+   ],
+   "id": "cg.l03.e06"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.reforme_protestante"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que dénonce Martin Luther dans ses 95 thèses, en 1517 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La vente des indulgences par l'Église",
+    "Le pouvoir absolu du roi de France",
+    "La traite des esclaves africains",
+    "L'invention de l'imprimerie"
+   ],
+   "answer": "La vente des indulgences par l'Église",
+   "acceptedAnswers": [
+    "La vente des indulgences par l'Église"
+   ],
+   "explanation": "Les indulgences promettaient le pardon de péchés contre de l'argent. Luther affirme que le salut vient de la foi et que la Bible est l'autorité suprême. Grâce à l'imprimerie, ses textes circulent très vite et le protestantisme naît.",
+   "tip": "1517 : Luther contre les indulgences, le protestantisme naît.",
+   "extraExample": {
+    "text": "Luther traduit le Nouveau Testament en allemand en 1522.",
+    "translation": "Cette traduction contribue à diffuser l'allemand écrit."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le pouvoir absolu du roi de France",
+     "category": "word_confusion",
+     "feedback": "Luther est un moine allemand qui s'en prend à l'Église romaine, pas à un roi."
+    }
+   ],
+   "id": "cg.l03.e07"
+  },
+  {
+   "unitIds": [
+    "cg.v.cathedrale_gothique",
+    "cg.g03.renaissance_decouvertes"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Avant la Renaissance, quel style d'architecture domine les grandes cathédrales, avec ses ogives et ses vitraux ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le gothique",
+    "Le roman",
+    "Le baroque",
+    "Le classique"
+   ],
+   "answer": "Le gothique",
+   "acceptedAnswers": [
+    "Le gothique"
+   ],
+   "explanation": "Le style gothique (XIIe-XVe siècle) cherche la hauteur et la lumière. La Renaissance revient aux formes de l'Antiquité : colonnes, frontons, coupoles.",
+   "tip": "Gothique = on pointe vers le ciel ; Renaissance = retour à l'Antiquité.",
+   "extraExample": {
+    "text": "Le château de Chambord mêle un plan médiéval et un décor Renaissance.",
+    "translation": "La Renaissance française est un mélange d'influences."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le roman",
+     "category": "word_confusion",
+     "feedback": "Le roman est plus ancien (XIe siècle) : murs épais, arcs en plein cintre, petites fenêtres."
+    },
+    {
+     "equals": "Le baroque",
+     "category": "word_confusion",
+     "feedback": "Le baroque est postérieur : il se développe au XVIIe siècle."
+    }
+   ],
+   "id": "cg.l03.e08"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.traite_atlantique"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que le « commerce triangulaire » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un circuit de navires entre l'Europe, l'Afrique et les Amériques, fondé sur la traite des esclaves",
+    "Le commerce des épices entre l'Inde, l'Égypte et Venise",
+    "Un accord commercial entre trois villes de la Hanse",
+    "Le commerce de la soie entre la Chine, la Perse et Byzance"
+   ],
+   "answer": "Un circuit de navires entre l'Europe, l'Afrique et les Amériques, fondé sur la traite des esclaves",
+   "acceptedAnswers": [
+    "Un circuit de navires entre l'Europe, l'Afrique et les Amériques, fondé sur la traite des esclaves"
+   ],
+   "explanation": "Les navires partent d'Europe avec des marchandises, les échangent en Afrique contre des captifs, déportent ceux-ci vers les Amériques, puis rapportent le sucre, le café et le coton.",
+   "tip": "Triangle : Europe → Afrique → Amériques → Europe.",
+   "extraExample": {
+    "text": "Nantes, Bordeaux, La Rochelle et Le Havre sont de grands ports négriers français.",
+    "translation": "Nantes est le premier d'entre eux."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le commerce des épices entre l'Inde, l'Égypte et Venise",
+     "category": "word_confusion",
+     "feedback": "C'est une route commerciale du Moyen Âge, qui n'a rien de triangulaire."
+    },
+    {
+     "equals": "Le commerce de la soie entre la Chine, la Perse et Byzance",
+     "category": "word_confusion",
+     "feedback": "Il s'agit de la route de la soie, une route terrestre d'Asie."
+    }
+   ],
+   "id": "cg.l03.e09"
+  },
+  {
+   "unitIds": [
+    "cg.v.hugues_capet",
+    "cg.v.francois_ier",
+    "cg.g03.renaissance_decouvertes"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — François Ier, comme tous les rois de France, descend en ligne masculine d'un roi élu en 987. Lequel ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Hugues Capet",
+    "Clovis",
+    "Charlemagne",
+    "Louis XIV"
+   ],
+   "answer": "Hugues Capet",
+   "acceptedAnswers": [
+    "Hugues Capet"
+   ],
+   "explanation": "Hugues Capet, élu en 987, est l'ancêtre commun des rois de France jusqu'à Louis XVI. François Ier appartient à la branche des Valois.",
+   "tip": "Capet est l'ancêtre commun : 987, le début d'une très longue lignée.",
+   "extraExample": {
+    "text": "Hugues Capet est élu en 987 ; François Ier devient roi en 1515, plus de cinq siècles plus tard.",
+    "translation": "La dynastie dure très longtemps."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Clovis",
+     "category": "word_confusion",
+     "feedback": "Clovis est le roi des Francs vers 500, bien avant les Capétiens."
+    },
+    {
+     "equals": "Louis XIV",
+     "category": "word_confusion",
+     "feedback": "Louis XIV est un descendant, pas un ancêtre : il naît en 1638, près d'un siècle après la mort de François Ier."
+    }
+   ],
+   "id": "cg.l03.e10"
+  },
+  {
+   "unitIds": [
+    "cg.v.guerre_de_cent_ans",
+    "cg.g03.renaissance_decouvertes"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — En 1453, Constantinople tombe aux mains des ___, ce qui met fin à l'Empire romain d'Orient.",
+   "promptLanguage": "fr",
+   "options": [
+    "Ottomans",
+    "Mongols",
+    "Arabes",
+    "Perses"
+   ],
+   "answer": "Ottomans",
+   "acceptedAnswers": [
+    "Ottomans",
+    "les Ottomans",
+    "Turcs ottomans",
+    "Turcs"
+   ],
+   "explanation": "Le sultan ottoman Mehmed II prend Constantinople le 29 mai 1453. La même année s'achève la guerre de Cent Ans en France.",
+   "tip": "1453 : fin de la guerre de Cent Ans et chute de Constantinople.",
+   "extraExample": {
+    "text": "Selon les historiens, les Temps modernes commencent en 1453 ou en 1492.",
+    "translation": "Ces deux dates servent de repère pour la fin du Moyen Âge."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Arabes",
+     "category": "word_confusion",
+     "feedback": "Ce sont les Turcs ottomans, pas les Arabes, qui prennent Constantinople."
+    },
+    {
+     "equals": "Mongols",
+     "category": "word_confusion",
+     "feedback": "Les Mongols ont dominé l'Asie au XIIIe siècle ; Constantinople est prise par les Ottomans."
+    }
+   ],
+   "id": "cg.l03.e11"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.francois_ier"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 1515, François Ier remporte la bataille de ___, en Italie.",
+   "promptLanguage": "fr",
+   "options": [
+    "Marignan",
+    "Pavie",
+    "Azincourt",
+    "Bouvines"
+   ],
+   "answer": "Marignan",
+   "acceptedAnswers": [
+    "Marignan"
+   ],
+   "explanation": "Marignan (1515) est la première grande victoire du jeune roi. À Pavie, en 1525, il sera au contraire vaincu et fait prisonnier par Charles Quint.",
+   "tip": "1515 Marignan : la date classique des quiz d'histoire.",
+   "extraExample": {
+    "text": "À Pavie, en 1525, François Ier est vaincu par les troupes de Charles Quint.",
+    "translation": "On lui attribue la phrase : « Tout est perdu fors l'honneur. »"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Pavie",
+     "category": "word_confusion",
+     "feedback": "Pavie (1525) est une défaite : François Ier y est fait prisonnier."
+    },
+    {
+     "equals": "Azincourt",
+     "category": "word_confusion",
+     "feedback": "Azincourt (1415) est une défaite française de la guerre de Cent Ans."
+    }
+   ],
+   "id": "cg.l03.e12"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.conquistadors"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les ___, comme Cortés et Pizarro, renversent les empires aztèque et inca au XVIe siècle.",
+   "promptLanguage": "fr",
+   "options": [
+    "conquistadors",
+    "croisés",
+    "corsaires",
+    "missionnaires"
+   ],
+   "answer": "conquistadors",
+   "acceptedAnswers": [
+    "conquistadors",
+    "les conquistadors",
+    "conquistadores"
+   ],
+   "explanation": "Conquistador veut dire « conquérant » en espagnol. Cortés prend Tenochtitlan en 1521 et Pizarro capture l'empereur inca Atahualpa en 1532.",
+   "tip": "Cortés = Aztèques (Mexique) ; Pizarro = Incas (Pérou).",
+   "extraExample": {
+    "text": "Mexico est bâtie sur les ruines de Tenochtitlan, la capitale aztèque.",
+    "translation": "Les Espagnols y ont détruit les temples pour y bâtir leurs églises."
+   },
+   "errorPatterns": [
+    {
+     "equals": "croisés",
+     "category": "word_confusion",
+     "feedback": "Les croisés sont des chrétiens partis vers Jérusalem au Moyen Âge."
+    }
+   ],
+   "id": "cg.l03.e13"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.magellan"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'expédition de ___ (1519-1522) accomplit le premier tour du monde.",
+   "promptLanguage": "fr",
+   "options": [
+    "Magellan",
+    "Colomb",
+    "Vasco de Gama",
+    "Cortés"
+   ],
+   "answer": "Magellan",
+   "acceptedAnswers": [
+    "Magellan",
+    "Fernand de Magellan",
+    "Ferdinand Magellan"
+   ],
+   "explanation": "Magellan est tué aux Philippines en 1521. C'est Juan Sebastián Elcano qui ramène en Espagne le dernier navire, la Victoria, en 1522 : le premier tour du monde est accompli.",
+   "tip": "Magellan = tour du monde ; Colomb = Amérique ; Gama = Inde.",
+   "extraExample": {
+    "text": "Magellan donne son nom au détroit qui relie l'Atlantique et le Pacifique, au sud de l'Amérique.",
+    "translation": "Il a aussi baptisé le « Pacifique »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Colomb",
+     "category": "word_confusion",
+     "feedback": "Colomb a traversé l'Atlantique en 1492, mais n'a pas fait le tour du monde."
+    },
+    {
+     "equals": "Vasco de Gama",
+     "category": "word_confusion",
+     "feedback": "Vasco de Gama a rejoint l'Inde en 1498 en contournant l'Afrique."
+    }
+   ],
+   "id": "cg.l03.e14"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.gutenberg",
+    "cg.v.christophe_colomb",
+    "cg.v.vasco_de_gama",
+    "cg.v.reforme_protestante",
+    "cg.v.francois_ier"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates de la Renaissance",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "vers 1450",
+     "right": "l'imprimerie de Gutenberg"
+    },
+    {
+     "left": "1492",
+     "right": "Colomb aux Bahamas"
+    },
+    {
+     "left": "1498",
+     "right": "Vasco de Gama en Inde"
+    },
+    {
+     "left": "1515",
+     "right": "victoire de Marignan"
+    },
+    {
+     "left": "1517",
+     "right": "les 95 thèses de Luther"
+    }
+   ],
+   "answer": "vers 1450 = l'imprimerie de Gutenberg ; 1492 = Colomb aux Bahamas ; 1498 = Vasco de Gama en Inde ; 1515 = victoire de Marignan ; 1517 = les 95 thèses de Luther",
+   "acceptedAnswers": [],
+   "explanation": "Cinq dates à connaître : vers 1450 (imprimerie), 1492 (Colomb), 1498 (Vasco de Gama), 1515 (Marignan) et 1517 (Luther).",
+   "tip": "Entre 1492 et 1517, il ne s'écoule que 25 ans.",
+   "extraExample": {
+    "text": "En moins de 70 ans, de 1450 à 1517, l'imprimerie, le Nouveau Monde et la Réforme changent l'Europe.",
+    "translation": "Les historiens parlent d'un tournant des Temps modernes."
+   },
+   "id": "cg.l03.e15"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.christophe_colomb"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la traversée de l'Atlantique.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "l'Amérique",
+    "atteint",
+    "Colomb",
+    "1492",
+    "Christophe",
+    "en"
+   ],
+   "answer": "Christophe Colomb atteint l'Amérique en 1492",
+   "acceptedAnswers": [
+    "Christophe Colomb atteint l'Amérique en 1492",
+    "En 1492 Christophe Colomb atteint l'Amérique"
+   ],
+   "explanation": "Colomb débarque aux Bahamas le 12 octobre 1492.",
+   "tip": "Qui (Colomb), quoi (atteint l'Amérique), quand (1492).",
+   "extraExample": {
+    "text": "1492 est aussi l'année où les rois d'Espagne achèvent la reconquête de Grenade.",
+    "translation": "L'Espagne devient une grande puissance."
+   },
+   "id": "cg.l03.e16"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.reforme_protestante"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la Réforme.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ses",
+    "Martin",
+    "1517",
+    "95",
+    "publie",
+    "thèses",
+    "Luther",
+    "en"
+   ],
+   "answer": "Martin Luther publie ses 95 thèses en 1517",
+   "acceptedAnswers": [
+    "Martin Luther publie ses 95 thèses en 1517",
+    "En 1517 Martin Luther publie ses 95 thèses"
+   ],
+   "explanation": "Les 95 thèses de 1517 contre les indulgences marquent le début de la Réforme protestante.",
+   "tip": "1517 : Luther, 95 thèses, la Réforme.",
+   "extraExample": {
+    "text": "Luther est excommunié par le pape en 1521.",
+    "translation": "Il continue pourtant à diffuser ses idées."
+   },
+   "id": "cg.l03.e17"
+  },
+  {
+   "unitIds": [
+    "cg.g02.moyen_age",
+    "cg.g03.renaissance_decouvertes"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Comment appelle-t-on la période qui va de 476 à la fin du XVe siècle, que les humanistes jugeaient « obscure » ?",
+   "promptLanguage": "fr",
+   "answer": "Le Moyen Âge",
+   "acceptedAnswers": [
+    "Le Moyen Âge",
+    "Moyen Âge",
+    "Moyen Age",
+    "le Moyen Age",
+    "moyen-âge"
+   ],
+   "explanation": "Les humanistes veulent se rattacher à l'Antiquité : ils jugent obscure la période intermédiaire et l'appellent « Moyen Âge », l'âge du milieu. Cette image est largement injuste.",
+   "tip": "Moyen Âge : l'âge « du milieu » entre deux époques brillantes, vu par les humanistes.",
+   "extraExample": {
+    "text": "Le mot « gothique » était lui aussi péjoratif : il signifiait « barbare » pour les artistes de la Renaissance.",
+    "translation": "Il s'est imposé ensuite pour désigner un style d'art."
+   },
+   "errorPatterns": [
+    {
+     "equals": "antiquité",
+     "category": "word_confusion",
+     "feedback": "L'Antiquité précède 476 ; le Moyen Âge est la période suivante."
+    },
+    {
+     "equals": "renaissance",
+     "category": "word_confusion",
+     "feedback": "La Renaissance est justement la période qui suit le Moyen Âge."
+    }
+   ],
+   "id": "cg.l03.e18"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.humanisme"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le mouvement de la Renaissance qui place l'être humain et l'étude des textes anciens au cœur du savoir ?",
+   "promptLanguage": "fr",
+   "answer": "L'humanisme",
+   "acceptedAnswers": [
+    "L'humanisme",
+    "humanisme"
+   ],
+   "explanation": "Les humanistes, comme Érasme et Rabelais, étudient les textes grecs et latins, défendent l'éducation et la liberté de penser. L'imprimerie leur permet de diffuser leurs idées.",
+   "tip": "Humanisme = l'être humain (humanus) au centre.",
+   "extraExample": {
+    "text": "Érasme publie l'Éloge de la folie en 1511.",
+    "translation": "Il critique avec humour les travers de la société."
+   },
+   "hint": "Le mot contient « humain ».",
+   "errorPatterns": [
+    {
+     "equals": "protestantisme",
+     "category": "word_confusion",
+     "feedback": "Le protestantisme est un mouvement religieux, né en 1517 avec Luther."
+    },
+    {
+     "equals": "réforme",
+     "category": "word_confusion",
+     "feedback": "La Réforme est un mouvement religieux ; ici, il s'agit d'un mouvement intellectuel."
+    }
+   ],
+   "id": "cg.l03.e19"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.francois_ier"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle ordonnance de 1539, signée par François Ier, impose le français à la place du latin dans les actes de justice ?",
+   "promptLanguage": "fr",
+   "answer": "L'ordonnance de Villers-Cotterêts",
+   "acceptedAnswers": [
+    "L'ordonnance de Villers-Cotterêts",
+    "Villers-Cotterêts",
+    "ordonnance de Villers-Cotterêts",
+    "Villers Cotterêts",
+    "Villers-Cotterets",
+    "ordonnance de Villers Cotterets"
+   ],
+   "explanation": "En 1539, l'ordonnance de Villers-Cotterêts décide que les actes officiels seront rédigés en français. Elle impose aussi la tenue de registres de baptême, ancêtres de l'état civil.",
+   "tip": "1539 : le français devient la langue de l'État.",
+   "extraExample": {
+    "text": "Une Cité internationale de la langue française a été inaugurée en 2023 dans le château de Villers-Cotterêts.",
+    "translation": "Le lieu rappelle le rôle de l'ordonnance dans l'histoire du français."
+   },
+   "hint": "Elle porte le nom d'une ville de l'Aisne.",
+   "errorPatterns": [
+    {
+     "equals": "édit de nantes",
+     "category": "word_confusion",
+     "feedback": "L'édit de Nantes (1598) concerne la liberté de culte des protestants, pas la langue."
+    }
+   ],
+   "id": "cg.l03.e20"
+  },
+  {
+   "unitIds": [
+    "cg.g03.renaissance_decouvertes",
+    "cg.v.edit_de_nantes",
+    "cg.v.reforme_protestante"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel édit, signé par Henri IV en 1598, accorde aux protestants une liberté de culte limitée et met fin aux guerres de religion ?",
+   "promptLanguage": "fr",
+   "answer": "L'édit de Nantes",
+   "acceptedAnswers": [
+    "L'édit de Nantes",
+    "édit de Nantes",
+    "edit de nantes",
+    "l'edit de Nantes"
+   ],
+   "explanation": "Henri IV, protestant converti au catholicisme, met fin à des décennies de guerres de religion en autorisant le culte protestant sous conditions. Louis XIV révoquera l'édit en 1685.",
+   "tip": "Nantes 1598 : l'édit de tolérance ; 1685 : sa révocation par Louis XIV.",
+   "extraExample": {
+    "text": "La Saint-Barthélemy, en août 1572, avait fait des milliers de morts protestants à Paris.",
+    "translation": "C'est l'un des épisodes les plus sanglants des guerres de religion."
+   },
+   "hint": "Il porte le nom d'une ville de Loire-Atlantique.",
+   "errorPatterns": [
+    {
+     "equals": "édit de fontainebleau",
+     "category": "word_confusion",
+     "feedback": "L'édit de Fontainebleau (1685) est au contraire la révocation de l'édit de Nantes par Louis XIV."
+    }
+   ],
+   "id": "cg.l03.e21"
+  }
+ ]
+}

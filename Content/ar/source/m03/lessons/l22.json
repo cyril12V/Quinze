@@ -1,0 +1,838 @@
+{
+ "lessonId": "ar.l22",
+ "exercises": [
+  {
+   "id": "ar.l22.e01",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.hadha"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis vite : quel mot est écrit ?",
+   "prompt": "هٰذَا",
+   "promptLanguage": "ar",
+   "options": [
+    "hâdhâ",
+    "hadhâ",
+    "hâdhî",
+    "hudhâ"
+   ],
+   "answer": "hâdhâ",
+   "acceptedAnswers": [
+    "hâdhâ"
+   ],
+   "explanation": "Le petit trait vertical sur ه est un alif : il allonge le a (hâ). Puis ذَا = dhâ (fatha + ا) : hâ-dhâ, « ceci ».",
+   "tip": "Petit alif vertical = a long, même si le grand ا n'est pas écrit.",
+   "extraExample": {
+    "text": "هٰذَا كِتَابٌ",
+    "translation": "C'est un livre.",
+    "transliteration": "hâdhâ kitâb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "hadhâ",
+     "category": "spelling",
+     "feedback": "Le petit alif sur le ه allonge aussi le premier a : hâ-dhâ."
+    },
+    {
+     "equals": "hâdhî",
+     "category": "spelling",
+     "feedback": "Le ا final suit une fatha : â, pas î."
+    },
+    {
+     "equals": "hudhâ",
+     "category": "spelling",
+     "feedback": "Sur le ه il n'y a pas de damma : le premier a est long, hâ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e02",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.hiya"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Que veut dire ce mot ?",
+   "prompt": "هِيَ",
+   "promptLanguage": "ar",
+   "options": [
+    "elle",
+    "il",
+    "je",
+    "ici"
+   ],
+   "answer": "elle",
+   "acceptedAnswers": [
+    "elle"
+   ],
+   "explanation": "هِيَ (hiya) = elle. Il s'oppose à هُوَ (huwa) = il : la kasra sous ه et le ي final disent « elle », la damma et le و disent « il ».",
+   "tip": "Kasra + ي = elle ; damma + و = il.",
+   "extraExample": {
+    "text": "هِيَ فِي الْمَدْرَسَةِ",
+    "translation": "Elle est à l'école.",
+    "transliteration": "hiya fî l-madrasa"
+   },
+   "errorPatterns": [
+    {
+     "equals": "il",
+     "category": "word_confusion",
+     "feedback": "« Il » se dit هُوَ, avec une damma sur ه et un و."
+    },
+    {
+     "equals": "ici",
+     "category": "word_confusion",
+     "feedback": "« Ici » se dit هُنَا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e03",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.ana",
+    "ar.v.anta",
+    "ar.v.huwa",
+    "ar.v.hiya",
+    "ar.v.huna"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Cinq petits mots à connaître par cœur",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "أَنَا",
+     "right": "je, moi"
+    },
+    {
+     "left": "أَنْتَ",
+     "right": "tu, toi (masculin)"
+    },
+    {
+     "left": "هُوَ",
+     "right": "il, lui"
+    },
+    {
+     "left": "هِيَ",
+     "right": "elle"
+    },
+    {
+     "left": "هُنَا",
+     "right": "ici"
+    }
+   ],
+   "answer": "أَنَا = je, moi ; أَنْتَ = tu, toi (masculin) ; هُوَ = il, lui ; هِيَ = elle ; هُنَا = ici",
+   "acceptedAnswers": [],
+   "explanation": "أَنَا (je) et أَنْتَ (tu) commencent par أ ; هُوَ (il), هِيَ (elle) et هُنَا (ici) commencent par ه. Regarde la voyelle sur le ه et la fin du mot pour les distinguer."
+  },
+  {
+   "id": "ar.l22.e04",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.la"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Que veut dire ce mot ?",
+   "prompt": "لَا",
+   "promptLanguage": "ar",
+   "options": [
+    "non",
+    "oui",
+    "ici",
+    "avec"
+   ],
+   "answer": "non",
+   "acceptedAnswers": [
+    "non"
+   ],
+   "explanation": "لَا (lâ) = non, et aussi « ne… pas ». Le ل et le ا s'écrivent collés en un seul signe. « Oui » se dit نَعَمْ (na-3am).",
+   "tip": "لَا = non ; نَعَمْ = oui.",
+   "extraExample": {
+    "text": "لَا، أَنَا فِي الْبَيْتِ",
+    "translation": "Non, je suis à la maison.",
+    "transliteration": "lâ, 'anâ fî l-bayt"
+   },
+   "errorPatterns": [
+    {
+     "equals": "oui",
+     "category": "word_confusion",
+     "feedback": "« Oui » se dit نَعَمْ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e05",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.huna",
+    "ar.v.huwa",
+    "ar.v.hiya"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Retrouve le mot qui correspond à la lecture.",
+   "prompt": "Quel mot se lit hunâ (ici) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "هُنَا",
+    "هُوَ",
+    "هِيَ",
+    "هٰذَا"
+   ],
+   "answer": "هُنَا",
+   "acceptedAnswers": [
+    "هُنَا"
+   ],
+   "explanation": "هُنَا = hu-nâ : ه avec damma, ن, puis ا qui allonge. Après le ه, regarde la lettre suivante : ن → hunâ, و → huwa, ي → hiya.",
+   "tip": "Les trois mots en ه se lisent par leur 2e lettre : ن, و ou ي.",
+   "extraExample": {
+    "text": "الْمَطْعَمُ هُنَا",
+    "translation": "Le restaurant est ici.",
+    "transliteration": "al-maT3amu hunâ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "هُوَ",
+     "category": "spelling",
+     "feedback": "هُوَ se lit huwa : sa deuxième lettre est و, pas ن."
+    },
+    {
+     "equals": "هِيَ",
+     "category": "spelling",
+     "feedback": "هِيَ se lit hiya : kasra sous ه et ي à la fin."
+    },
+    {
+     "equals": "هٰذَا",
+     "category": "spelling",
+     "feedback": "هٰذَا se lit hâdhâ : il a un ذ et un petit alif sur le ه."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e06",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.hadha"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le signe.",
+   "prompt": "Dans هٰذَا, que représente le petit trait vertical au-dessus du ه ?",
+   "promptLanguage": "fr",
+   "options": [
+    "un petit alif : le ه se lit hâ",
+    "une fatha : le ه se lit ha",
+    "un soukoun",
+    "une chadda"
+   ],
+   "answer": "un petit alif : le ه se lit hâ",
+   "acceptedAnswers": [
+    "un petit alif : le ه se lit hâ"
+   ],
+   "explanation": "C'est un alif en miniature : il allonge la voyelle, donc le ه se lit hâ. Dans quelques mots très fréquents comme هٰذَا, on ne l'écrit pas en grand.",
+   "tip": "Trait vertical = alif ; trait penché = fatha.",
+   "extraExample": {
+    "text": "ذٰلِكَ",
+    "translation": "cela (là-bas)",
+    "transliteration": "dhâlika"
+   },
+   "errorPatterns": [
+    {
+     "equals": "une fatha : le ه se lit ha",
+     "category": "spelling",
+     "feedback": "La fatha est un petit trait penché ; ici le trait est vertical : c'est un alif miniature."
+    },
+    {
+     "equals": "un soukoun",
+     "category": "spelling",
+     "feedback": "Le soukoun est un petit rond (ـْ), pas un trait vertical."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e07",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.hadha",
+    "ar.v.hadhihi",
+    "ar.v.maa_avec",
+    "ar.v.naam",
+    "ar.v.anta"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa lecture.",
+   "prompt": "Lis les petits mots d'un coup",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "هٰذَا",
+     "right": "hâdhâ"
+    },
+    {
+     "left": "هٰذِهِ",
+     "right": "hâdhihi"
+    },
+    {
+     "left": "مَعَ",
+     "right": "ma3a"
+    },
+    {
+     "left": "نَعَمْ",
+     "right": "na3am"
+    },
+    {
+     "left": "أَنْتَ",
+     "right": "'anta"
+    }
+   ],
+   "answer": "هٰذَا = hâdhâ ; هٰذِهِ = hâdhihi ; مَعَ = ma3a ; نَعَمْ = na3am ; أَنْتَ = 'anta",
+   "acceptedAnswers": [],
+   "explanation": "هٰذَا / هٰذِهِ portent un petit alif sur le ه ; مَعَ et نَعَمْ contiennent ع (3) ; نَعَمْ finit par un soukoun sur م ; أَنْتَ a un soukoun sur ن."
+  },
+  {
+   "id": "ar.l22.e08",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.hiya",
+    "ar.v.huwa",
+    "ar.v.ana",
+    "ar.v.anta"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne phrase.",
+   "prompt": "Quelle phrase veut dire « Elle est ici » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "هِيَ هُنَا",
+    "هُوَ هُنَا",
+    "أَنَا هُنَا",
+    "أَنْتَ هُنَا"
+   ],
+   "answer": "هِيَ هُنَا",
+   "acceptedAnswers": [
+    "هِيَ هُنَا"
+   ],
+   "explanation": "Il n'y a pas de verbe « être » : هِيَ هُنَا = « elle (est) ici ». Seul le premier mot change : هِيَ elle, هُوَ il, أَنَا je, أَنْتَ tu.",
+   "tip": "Repère d'abord le sujet : le verbe « être » n'est pas écrit.",
+   "extraExample": {
+    "text": "هُوَ هُنَا",
+    "translation": "Il est ici.",
+    "transliteration": "huwa hunâ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "هُوَ هُنَا",
+     "category": "word_confusion",
+     "feedback": "هُوَ = il. Pour « elle », il faut هِيَ."
+    },
+    {
+     "equals": "أَنَا هُنَا",
+     "category": "word_confusion",
+     "feedback": "أَنَا = je."
+    },
+    {
+     "equals": "أَنْتَ هُنَا",
+     "category": "word_confusion",
+     "feedback": "أَنْتَ = tu."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e09",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.anta"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis vite : quel mot est écrit ?",
+   "prompt": "أَنْتَ",
+   "promptLanguage": "ar",
+   "options": [
+    "'anta",
+    "'anâ",
+    "'anti",
+    "'antu"
+   ],
+   "answer": "'anta",
+   "acceptedAnswers": [
+    "'anta"
+   ],
+   "explanation": "أَ = 'a, نْ = n (soukoun), تَ = ta : 'an-ta, « tu » (à un homme). Avec une kasra sous ت, on lirait 'anti, « tu » à une femme.",
+   "tip": "Fatha sur ت = on parle à un homme ; kasra = à une femme.",
+   "extraExample": {
+    "text": "أَنْتَ فِي الْبَيْتِ",
+    "translation": "Tu es à la maison.",
+    "transliteration": "'anta fî l-bayt"
+   },
+   "errorPatterns": [
+    {
+     "equals": "'anâ",
+     "category": "spelling",
+     "feedback": "أَنَا (je) finit par ا ; ici le mot finit par ت."
+    },
+    {
+     "equals": "'anti",
+     "category": "spelling",
+     "feedback": "La voyelle sur ت est une fatha (a) : 'anta."
+    },
+    {
+     "equals": "'antu",
+     "category": "spelling",
+     "feedback": "Sur ت il y a une fatha, pas une damma."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e10",
+   "unitIds": [
+    "ar.g19.non_connecting_letters",
+    "ar.v.hadha",
+    "ar.g22.frequent_words"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Compte les blocs.",
+   "prompt": "En combien de blocs s'écrit هٰذَا ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1",
+    "2",
+    "3"
+   ],
+   "answer": "2",
+   "acceptedAnswers": [
+    "2"
+   ],
+   "explanation": "Révision des coupures : ه s'attache à ذ, mais ذ ne s'attache pas à la lettre suivante : هذ | ا. Deux blocs, un seul mot.",
+   "tip": "ذ coupe : cherche toujours ا د ذ ر ز و.",
+   "extraExample": {
+    "text": "هٰذِهِ",
+    "translation": "ceci (féminin) : هذ | ه",
+    "transliteration": "hâdhihi"
+   },
+   "errorPatterns": [
+    {
+     "equals": "1",
+     "category": "spelling",
+     "feedback": "ذ ne s'attache pas à gauche : le ا qui suit est détaché."
+    },
+    {
+     "equals": "3",
+     "category": "spelling",
+     "feedback": "ه et ذ sont attachés ; il n'y a qu'une coupure, après ذ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e11",
+   "unitIds": [
+    "ar.v.fi",
+    "ar.v.min",
+    "ar.v.ala",
+    "ar.v.ila",
+    "ar.v.maa_avec",
+    "ar.g22.frequent_words"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque petit mot à son sens.",
+   "prompt": "Les cinq petits mots de lieu et d'accompagnement",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "فِي",
+     "right": "dans, à, en"
+    },
+    {
+     "left": "مِنْ",
+     "right": "de, depuis"
+    },
+    {
+     "left": "عَلَى",
+     "right": "sur"
+    },
+    {
+     "left": "إِلَى",
+     "right": "vers, à"
+    },
+    {
+     "left": "مَعَ",
+     "right": "avec"
+    }
+   ],
+   "answer": "فِي = dans, à, en ; مِنْ = de, depuis ; عَلَى = sur ; إِلَى = vers, à ; مَعَ = avec",
+   "acceptedAnswers": [],
+   "explanation": "فِي et مِنْ sont courts ; عَلَى et إِلَى finissent par ى (qui se lit â) mais commencent par ع et إ ; مَعَ commence par م et finit par ع."
+  },
+  {
+   "id": "ar.l22.e12",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.hadhihi",
+    "ar.v.madrasa"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète : « C'est une école. »",
+   "prompt": "___ مَدْرَسَةٌ",
+   "promptLanguage": "ar",
+   "options": [
+    "هٰذِهِ",
+    "هٰذَا",
+    "هُوَ"
+   ],
+   "answer": "هٰذِهِ",
+   "acceptedAnswers": [
+    "هٰذِهِ"
+   ],
+   "explanation": "مَدْرَسَة est féminin (finale ـة) : on emploie هٰذِهِ. هٰذَا s'utilise devant un nom masculin.",
+   "tip": "Nom en ـة → هٰذِهِ.",
+   "extraExample": {
+    "text": "هٰذِهِ سَيَّارَةٌ",
+    "translation": "C'est une voiture.",
+    "transliteration": "hâdhihi sayyâra"
+   },
+   "errorPatterns": [
+    {
+     "equals": "هٰذَا",
+     "category": "grammar",
+     "feedback": "هٰذَا est masculin ; مَدْرَسَة est féminin (ـة)."
+    },
+    {
+     "equals": "هُوَ",
+     "category": "word_confusion",
+     "feedback": "هُوَ veut dire « il » ; pour montrer une chose, on emploie هٰذَا / هٰذِهِ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e13",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.hadha",
+    "ar.v.kitab"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète : « C'est un livre. »",
+   "prompt": "___ كِتَابٌ",
+   "promptLanguage": "ar",
+   "options": [
+    "هٰذَا",
+    "هٰذِهِ",
+    "هِيَ"
+   ],
+   "answer": "هٰذَا",
+   "acceptedAnswers": [
+    "هٰذَا"
+   ],
+   "explanation": "كِتَاب est masculin (pas de ـة) : on emploie هٰذَا.",
+   "tip": "Nom sans ـة → هٰذَا (le plus souvent).",
+   "extraExample": {
+    "text": "هٰذَا مَطْعَمٌ",
+    "translation": "C'est un restaurant.",
+    "transliteration": "hâdhâ maT3am"
+   },
+   "errorPatterns": [
+    {
+     "equals": "هٰذِهِ",
+     "category": "grammar",
+     "feedback": "هٰذِهِ est féminin ; كِتَاب est masculin."
+    },
+    {
+     "equals": "هِيَ",
+     "category": "word_confusion",
+     "feedback": "هِيَ veut dire « elle »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e14",
+   "unitIds": [
+    "ar.g17.open_closed_syllables",
+    "ar.v.hadhihi",
+    "ar.g22.frequent_words"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Compte avec les voyelles.",
+   "prompt": "Combien de syllabes dans هٰذِهِ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": "3",
+   "acceptedAnswers": [
+    "3"
+   ],
+   "explanation": "Révision : hâ + dhi + hi. Chaque syllabe est ouverte et finit par une voyelle : le petit alif, la kasra sous ذ, la kasra sous ه final.",
+   "tip": "Une voyelle = une syllabe.",
+   "extraExample": {
+    "text": "هٰذَا",
+    "translation": "ceci (masculin) : 2 syllabes, hâ-dhâ",
+    "transliteration": "hâdhâ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "2",
+     "category": "spelling",
+     "feedback": "Compte les voyelles : â, i, i. Il y en a trois, donc trois syllabes."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e15",
+   "unitIds": [
+    "ar.v.kataba",
+    "ar.g22.frequent_words",
+    "ar.v.huwa",
+    "ar.v.kitab"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète : « Lui, il a écrit le livre. »",
+   "prompt": "___ كَتَبَ الْكِتَابَ",
+   "promptLanguage": "ar",
+   "options": [
+    "هُوَ",
+    "هِيَ",
+    "أَنَا"
+   ],
+   "answer": "هُوَ",
+   "acceptedAnswers": [
+    "هُوَ"
+   ],
+   "explanation": "Révision : كَتَبَ (il a écrit) est à la forme « il » : le pronom est هُوَ. هِيَ voudrait dire « elle ».",
+   "tip": "Verbe de base en CaCaCa = « il » ; le pronom est هُوَ.",
+   "extraExample": {
+    "text": "هُوَ فِي الْمَدْرَسَةِ",
+    "translation": "Il est à l'école.",
+    "transliteration": "huwa fî l-madrasa"
+   },
+   "errorPatterns": [
+    {
+     "equals": "هِيَ",
+     "category": "word_confusion",
+     "feedback": "هِيَ = elle. Le verbe كَتَبَ est à la forme « il »."
+    },
+    {
+     "equals": "أَنَا",
+     "category": "word_confusion",
+     "feedback": "أَنَا = je. Avec « je », le verbe aurait une autre terminaison."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e16",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.naam",
+    "ar.v.ana"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre : « Oui, je suis à l'école. »",
+   "prompt": "Remets dans l'ordre : oui / je suis / à l'école",
+   "promptLanguage": "fr",
+   "tokens": [
+    "الْمَدْرَسَةِ",
+    "نَعَمْ",
+    "فِي",
+    "أَنَا"
+   ],
+   "answer": "نَعَمْ أَنَا فِي الْمَدْرَسَةِ",
+   "acceptedAnswers": [
+    "نَعَمْ أَنَا فِي الْمَدْرَسَةِ"
+   ],
+   "explanation": "Le mot de réponse نَعَمْ vient en premier, puis le sujet أَنَا, puis le lieu فِي الْمَدْرَسَةِ. Pas de verbe « être » à écrire.",
+   "tip": "Oui, sujet, lieu.",
+   "extraExample": {
+    "text": "نَعَمْ هُوَ فِي الْمَطْعَمِ",
+    "translation": "Oui, il est au restaurant.",
+    "transliteration": "na3am huwa fî l-maT3am"
+   }
+  },
+  {
+   "id": "ar.l22.e17",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.maa_avec",
+    "ar.v.ana",
+    "ar.v.radjul"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre : « Je suis avec l'homme au restaurant. »",
+   "prompt": "Remets dans l'ordre : je / avec l'homme / au restaurant",
+   "promptLanguage": "fr",
+   "tokens": [
+    "فِي",
+    "الْمَطْعَمِ",
+    "أَنَا",
+    "مَعَ",
+    "الرَّجُلِ"
+   ],
+   "answer": "أَنَا مَعَ الرَّجُلِ فِي الْمَطْعَمِ",
+   "acceptedAnswers": [
+    "أَنَا مَعَ الرَّجُلِ فِي الْمَطْعَمِ",
+    "أَنَا فِي الْمَطْعَمِ مَعَ الرَّجُلِ"
+   ],
+   "explanation": "Sujet (أَنَا), puis مَعَ + le nom (الرَّجُلِ, finale en kasra), puis فِي + le lieu. Les deux compléments peuvent aussi s'échanger.",
+   "tip": "Sujet, puis les compléments introduits par مَعَ et فِي.",
+   "extraExample": {
+    "text": "أَنَا مَعَ سَامِي",
+    "translation": "Je suis avec Sami.",
+    "transliteration": "'anâ ma3a sâmî"
+   }
+  },
+  {
+   "id": "ar.l22.e18",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.naam",
+    "ar.v.ana",
+    "ar.v.huna"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "نَعَمْ، أَنَا هُنَا",
+   "promptLanguage": "ar",
+   "answer": "Oui, je suis ici.",
+   "acceptedAnswers": [
+    "Oui, je suis ici.",
+    "Oui, moi, je suis ici.",
+    "Oui, je suis là."
+   ],
+   "explanation": "نَعَمْ = oui ; أَنَا = je ; هُنَا = ici. Au présent, le verbe « être » n'est pas écrit.",
+   "tip": "Trois petits mots, une phrase : oui, je, ici.",
+   "extraExample": {
+    "text": "لَا، هُوَ هُنَا",
+    "translation": "Non, il est ici.",
+    "transliteration": "lâ, huwa hunâ"
+   },
+   "errorPatterns": [
+    {
+     "contains": "non",
+     "category": "word_confusion",
+     "feedback": "نَعَمْ veut dire « oui » ; « non » se dit لَا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e19",
+   "unitIds": [
+    "ar.v.madrasa",
+    "ar.g22.frequent_words",
+    "ar.v.la",
+    "ar.v.hiya",
+    "ar.v.fi"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "لَا، هِيَ فِي الْمَدْرَسَةِ",
+   "promptLanguage": "ar",
+   "answer": "Non, elle est à l'école.",
+   "acceptedAnswers": [
+    "Non, elle est à l'école.",
+    "Non, elle est dans l'école."
+   ],
+   "explanation": "لَا = non ; هِيَ = elle ; فِي الْمَدْرَسَةِ = à l'école (mot à mot : dans l'école).",
+   "tip": "لَا (non) ouvre la phrase ; le reste se lit mot à mot.",
+   "extraExample": {
+    "text": "لَا، هُوَ فِي الْمَطْعَمِ",
+    "translation": "Non, il est au restaurant.",
+    "transliteration": "lâ, huwa fî l-maT3am"
+   },
+   "errorPatterns": [
+    {
+     "contains": "il est",
+     "category": "word_confusion",
+     "feedback": "هِيَ = elle (kasra sous ه, ي final). « Il » se dit هُوَ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e20",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.naam"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture de ce mot en lettres latines.",
+   "prompt": "Comment se lit نَعَمْ ?",
+   "promptLanguage": "fr",
+   "answer": "na3am",
+   "acceptedAnswers": [
+    "na3am",
+    "naam",
+    "na'am"
+   ],
+   "hint": "ع se transcrit 3.",
+   "explanation": "نَ = na, عَ = 3a, مْ = m (soukoun) : na-3am, « oui ». Deux syllabes : une ouverte, une fermée.",
+   "tip": "ع se note 3 : na3am.",
+   "extraExample": {
+    "text": "نَعَمْ، هُوَ هُنَا",
+    "translation": "Oui, il est ici.",
+    "transliteration": "na3am, huwa hunâ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "nam",
+     "category": "spelling",
+     "feedback": "Il manque le ع, qui se note 3 : na-3am, deux syllabes."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e21",
+   "unitIds": [
+    "ar.g22.frequent_words",
+    "ar.v.hadha"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture de ce mot en lettres latines.",
+   "prompt": "Comment se lit هٰذَا ?",
+   "promptLanguage": "fr",
+   "answer": "hâdhâ",
+   "acceptedAnswers": [
+    "hâdhâ",
+    "haadhaa",
+    "hadha"
+   ],
+   "hint": "ذ se transcrit dh.",
+   "explanation": "Le petit alif sur ه donne hâ, puis ذَا = dhâ : hâ-dhâ, « ceci ». On le note aussi hadha en transcription simplifiée.",
+   "tip": "Petit alif sur ه = hâ ; ذ = dh.",
+   "extraExample": {
+    "text": "هٰذَا مَطْعَمٌ جَدِيدٌ",
+    "translation": "C'est un nouveau restaurant.",
+    "transliteration": "hâdhâ maT3amun djadîd"
+   },
+   "errorPatterns": [
+    {
+     "equals": "hadhi",
+     "category": "spelling",
+     "feedback": "Le dernier signe est un ا précédé d'une fatha : dhâ, pas dhi."
+    },
+    {
+     "equals": "hazza",
+     "category": "spelling",
+     "feedback": "ذ a un point et se lit dh ; ce n'est pas ز."
+    }
+   ]
+  }
+ ]
+}

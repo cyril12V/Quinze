@@ -46,5 +46,53 @@
    ],
    "tip": "Cherche la chadda juste après ال : si elle est là, ne dis pas le l."
   }
+ },
+ {
+  "id": "ar.g26.ta_marbuta_diphtongues",
+  "rule": {
+   "summary": "Le ة (deux points sur un rond) termine surtout des noms féminins : il se lit a à la fin d'un mot (كَنِيسَة = kanîsa) et at quand un autre mot suit. Après une fatha, ي ou و avec soukoun donnent les diphtongues ay et aw (هَيْكَل = haykal).",
+   "explanation": "Le ة (tâ' marbûta) n'existe qu'en fin de mot, jamais au début ni au milieu. Tu le reconnais aux deux points posés sur le rond, alors que le ه final n'en a pas. Mot seul, on lit un simple a : كَنِيسَة = kanîsa, أَيْقُونَة = ayqûna. Quand un autre mot le suit dans un groupe (كَنِيسَةُ الرَّبِّ), le t apparaît : kanîsatu r-rabb. Deuxième piège : ي ou و avec un soukoun juste après une fatha ne sont pas des voyelles longues mais des diphtongues. ـَيْ se lit ay (a-i enchaînés, comme dans « paye ») et ـَوْ se lit aw (a-ou enchaînés, comme dans « miaou »). Comparaison : هَيْكَل = haykal (ay), mais صَلِيب = Salîb (kasra + ي = î long) ; مَوْعِظَة = maw3iZa (aw), mais بَخُور = bakhûr (damma + و = û long).",
+   "pattern": "ة final = a (at devant un mot) · ـَيْ = ay · ـَوْ = aw · ـِي = î · ـُو = û",
+   "examples": [
+    {
+     "text": "كَنِيسَة",
+     "translation": "l'église : le ة final se lit a",
+     "transliteration": "kanîsa"
+    },
+    {
+     "text": "هَيْكَل",
+     "translation": "le sanctuaire : ـَيْ = ay",
+     "transliteration": "haykal"
+    },
+    {
+     "text": "مَوْعِظَة",
+     "translation": "le sermon : ـَوْ = aw et ة final = a",
+     "transliteration": "maw3iZa"
+    },
+    {
+     "text": "كَنِيسَةُ الرَّبِّ",
+     "translation": "l'église du Seigneur : devant un mot, ة se lit at",
+     "transliteration": "kanîsatu r-rabb"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "هَيْكَل lu « hîkal »",
+     "right": "haykal",
+     "why": "Le ي porte un soukoun après une fatha : c'est la diphtongue ay, pas un î long (qui demanderait une kasra)."
+    },
+    {
+     "wrong": "كَنِيسَة lu « kanîsat » en fin de phrase",
+     "right": "kanîsa",
+     "why": "Seul ou en fin de phrase, ة se lit a. Le t n'apparaît que si un autre mot suit."
+    },
+    {
+     "wrong": "مَوْعِظَة lu « mû3iZa »",
+     "right": "maw3iZa",
+     "why": "و avec soukoun après une fatha = diphtongue aw. Le û long suppose une damma avant le و (comme dans بَخُور)."
+    }
+   ],
+   "tip": "Regarde la voyelle avant ي / و : fatha + soukoun = ay / aw ; kasra ou damma sans soukoun = î / û."
+  }
  }
 ]

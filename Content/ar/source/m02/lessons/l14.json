@@ -1,0 +1,847 @@
+{
+ "lessonId": "ar.l14",
+ "exercises": [
+  {
+   "id": "ar.l14.e01",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.ab"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit أَب (père) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ab",
+    "ba",
+    "âb",
+    "3ab"
+   ],
+   "answer": "ab",
+   "acceptedAnswers": [
+    "ab"
+   ],
+   "explanation": "Le petit ء au-dessus du ا est la hamza : un léger coup de glotte, suivi de la voyelle (ici une fatha : a). En début de mot, on entend surtout la voyelle : ab.",
+   "tip": "Hamza + fatha sur le ا = a.",
+   "extraExample": {
+    "text": "أَخ",
+    "translation": "frère",
+    "transliteration": "akh"
+   },
+   "errorPatterns": [
+    {
+     "equals": "âb",
+     "category": "word_confusion",
+     "feedback": "Il n'y a ni madda ni deuxième ا : la voyelle est brève, ab."
+    },
+    {
+     "equals": "3ab",
+     "category": "word_confusion",
+     "feedback": "Le أ n'est pas un ع : son petit ء est une hamza (coup de glotte), pas la lettre ع."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e02",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.umm"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit أُمّ (mère) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "umm",
+    "um",
+    "amm",
+    "imm"
+   ],
+   "answer": "umm",
+   "acceptedAnswers": [
+    "umm"
+   ],
+   "explanation": "Hamza et damma sur le ا : u. Puis le م porte une shadda : il est doublé. On lit umm.",
+   "tip": "Hamza + damma sur le ا = u.",
+   "extraExample": {
+    "text": "أُمِّي",
+    "translation": "ma mère",
+    "transliteration": "ummî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "um",
+     "category": "word_confusion",
+     "feedback": "Le م porte une shadda : il est doublé, umm."
+    },
+    {
+     "equals": "amm",
+     "category": "word_confusion",
+     "feedback": "Le signe sur le ا est une damma (u), pas une fatha."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e03",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.madda"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit آ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "â (a long)",
+    "a (a bref)",
+    "i",
+    "û"
+   ],
+   "answer": "â (a long)",
+   "acceptedAnswers": [
+    "â (a long)"
+   ],
+   "explanation": "Le signe ondulé posé sur le ا s'appelle la madda (مَدَّة). آ remplace deux lettres : une hamza avec fatha suivie d'un ا, soit أَا. On entend donc un â long.",
+   "tip": "آ = â long, comme au début de آمِين (âmîn).",
+   "extraExample": {
+    "text": "آمِين",
+    "translation": "amen",
+    "transliteration": "âmîn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "a (a bref)",
+     "category": "word_confusion",
+     "feedback": "La madda allonge le son : آ = â, deux fois plus long qu'un a bref."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e04",
+   "unitIds": [
+    "ar.g14.hamza_madda"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque signe à sa lecture.",
+   "prompt": "Le ا avec hamza ou madda",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "أَ",
+     "right": "a"
+    },
+    {
+     "left": "أُ",
+     "right": "u"
+    },
+    {
+     "left": "إِ",
+     "right": "i"
+    },
+    {
+     "left": "آ",
+     "right": "â"
+    }
+   ],
+   "answer": "أَ = a ; أُ = u ; إِ = i ; آ = â",
+   "acceptedAnswers": [],
+   "explanation": "Hamza au-dessus du ا + fatha = a, hamza au-dessus + damma = u. Hamza sous le ا + kasra = i. La madda آ donne â long.",
+   "tip": "Hamza en haut : a ou u ; hamza en bas : i."
+  },
+  {
+   "id": "ar.l14.e05",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.ras"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit رَأْس (tête) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ra's",
+    "râs",
+    "rass",
+    "ra'as"
+   ],
+   "answer": "ra's",
+   "acceptedAnswers": [
+    "ra's"
+   ],
+   "explanation": "Le أ porte un sukun : c'est une hamza sans voyelle, un coup de glotte qui ferme la syllabe ra'. Puis le س : ra's.",
+   "tip": "Hamza + sukun = coup de glotte net, sans voyelle.",
+   "extraExample": {
+    "text": "بِئْر",
+    "translation": "puits",
+    "transliteration": "bi'r"
+   },
+   "errorPatterns": [
+    {
+     "equals": "râs",
+     "category": "word_confusion",
+     "feedback": "Il n'y a pas de ا long : le أ est une hamza avec sukun, on marque un petit arrêt, ra's."
+    },
+    {
+     "equals": "rass",
+     "category": "spelling",
+     "feedback": "La lettre أ est une hamza (coup de glotte), pas un س doublé."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e06",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.nisa"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit نِسَاء (femmes) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "nisâ'",
+    "nisâ",
+    "nisây",
+    "nisâ'a"
+   ],
+   "answer": "nisâ'",
+   "acceptedAnswers": [
+    "nisâ'"
+   ],
+   "explanation": "La fatha sur le س est suivie d'un ا : sâ long. Le ء final est une hamza seule, un petit coup de glotte : nisâ'.",
+   "tip": "Le ء final se marque par un petit arrêt.",
+   "extraExample": {
+    "text": "مَاء",
+    "translation": "eau",
+    "transliteration": "mâ'"
+   },
+   "errorPatterns": [
+    {
+     "equals": "nisâ",
+     "category": "word_confusion",
+     "feedback": "Le ء final est une vraie consonne, une hamza : il faut marquer le petit coup de glotte, nisâ'."
+    },
+    {
+     "equals": "nisây",
+     "category": "spelling",
+     "feedback": "Le ء n'est pas un ي : c'est une hamza."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e07",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.imraa"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit اِمْرَأَة (femme) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "imra'a",
+    "imrâ'a",
+    "imra'",
+    "amra'a"
+   ],
+   "answer": "imra'a",
+   "acceptedAnswers": [
+    "imra'a"
+   ],
+   "explanation": "Le ا initial porte une kasra : i. Puis م (sukun), ر (fatha) et un أ avec fatha : hamza + a. Le ة final se tait : im-ra-'a.",
+   "tip": "Hamza au milieu + fatha = 'a : coup de glotte, puis a.",
+   "extraExample": {
+    "text": "مَسْأَلَة",
+    "translation": "question, problème",
+    "transliteration": "mas'ala"
+   },
+   "errorPatterns": [
+    {
+     "equals": "imrâ'a",
+     "category": "word_confusion",
+     "feedback": "Le أ porte une fatha brève : 'a. Il n'y a pas de ا long entre le ر et la hamza."
+    },
+    {
+     "equals": "imra'",
+     "category": "spelling",
+     "feedback": "Le أ porte une fatha : on prononce 'a, pas seulement un coup de glotte."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e08",
+   "unitIds": [
+    "ar.g14.hamza_madda"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne écriture.",
+   "prompt": "Quelle écriture est la bonne pour « su'âl » (question) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "سُؤَال",
+    "سُأَال",
+    "سُئَال",
+    "سُوَال"
+   ],
+   "answer": "سُؤَال",
+   "acceptedAnswers": [
+    "سُؤَال"
+   ],
+   "explanation": "Le س porte une damma et la hamza une fatha : la voyelle la plus forte est la damma, donc la hamza s'écrit sur un و (ؤ). On lit su'âl.",
+   "tip": "Support de la hamza : kasra (ي) avant damma (و) avant fatha (ا).",
+   "extraExample": {
+    "text": "مَسْؤُول",
+    "translation": "responsable",
+    "transliteration": "mas'ûl"
+   },
+   "errorPatterns": [
+    {
+     "equals": "سُأَال",
+     "category": "grammar",
+     "feedback": "Avec une damma juste avant, le support est un و (ؤ), pas un ا."
+    },
+    {
+     "equals": "سُئَال",
+     "category": "grammar",
+     "feedback": "Le support ئ (ي) est réservé à la kasra, la voyelle la plus forte. Ici c'est la damma : ؤ."
+    },
+    {
+     "equals": "سُوَال",
+     "category": "spelling",
+     "feedback": "Un simple و se lirait suwâl. Il faut la hamza sur le و : ؤ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e09",
+   "unitIds": [
+    "ar.g11.long_vowels",
+    "ar.v.nisa"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Révision : choisis la bonne réponse.",
+   "prompt": "Dans نِسَاء, quelle lettre allonge la voyelle du س ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ا",
+    "ء",
+    "ن",
+    "و"
+   ],
+   "answer": "ا",
+   "acceptedAnswers": [
+    "ا"
+   ],
+   "explanation": "Le ا qui suit la fatha du س la rend longue (â). Le ء final n'allonge rien : c'est une hamza, un coup de glotte.",
+   "tip": "Le ا allonge, le ء coupe.",
+   "extraExample": {
+    "text": "سَمَاء",
+    "translation": "ciel",
+    "transliteration": "samâ'"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ء",
+     "category": "word_confusion",
+     "feedback": "Le ء final est une hamza : une petite coupure, pas un allongement."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e10",
+   "unitIds": [
+    "ar.v.amm",
+    "ar.v.khal",
+    "ar.v.djadd",
+    "ar.v.akh"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Révision : choisis le bon mot.",
+   "prompt": "Parmi ces mots de la famille, lequel désigne l'oncle paternel ?",
+   "promptLanguage": "fr",
+   "options": [
+    "عَمّ",
+    "خَال",
+    "جَدّ",
+    "أَخ"
+   ],
+   "answer": "عَمّ",
+   "acceptedAnswers": [
+    "عَمّ"
+   ],
+   "explanation": "عَمّ (3amm) est le frère du père. خَال (khâl) est le frère de la mère, جَدّ (djadd) le grand-père et أَخ (akh) le frère.",
+   "tip": "3amm : côté du père ; khâl : côté de la mère.",
+   "extraExample": {
+    "text": "عَمِّي",
+    "translation": "mon oncle",
+    "transliteration": "3ammî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "خَال",
+     "category": "vocabulary",
+     "feedback": "خَال (khâl) est l'oncle maternel, le frère de la mère."
+    },
+    {
+     "equals": "أَخ",
+     "category": "vocabulary",
+     "feedback": "أَخ (akh) est le frère, pas l'oncle."
+    },
+    {
+     "equals": "جَدّ",
+     "category": "vocabulary",
+     "feedback": "جَدّ (djadd) est le grand-père."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e11",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.ab",
+    "ar.v.umm",
+    "ar.v.akh",
+    "ar.v.ukht",
+    "ar.v.aila"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa traduction.",
+   "prompt": "Père, mère, frère, sœur et famille",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "أَب",
+     "right": "le père"
+    },
+    {
+     "left": "أُمّ",
+     "right": "la mère"
+    },
+    {
+     "left": "أَخ",
+     "right": "le frère"
+    },
+    {
+     "left": "أُخْت",
+     "right": "la sœur"
+    },
+    {
+     "left": "عَائِلَة",
+     "right": "la famille"
+    }
+   ],
+   "answer": "أَب = le père ; أُمّ = la mère ; أَخ = le frère ; أُخْت = la sœur ; عَائِلَة = la famille",
+   "acceptedAnswers": [],
+   "explanation": "أَب (ab) = le père, أُمّ (umm) = la mère, أَخ (akh) = le frère, أُخْت (ukht) = la sœur, عَائِلَة (3â'ila) = la famille.",
+   "tip": "Ab et akh se ressemblent : regarde la deuxième lettre (ب ou خ)."
+  },
+  {
+   "id": "ar.l14.e12",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.aila",
+    "ar.v.ras",
+    "ar.v.nisa"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à sa lecture.",
+   "prompt": "La hamza sur tous ses supports",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "سُؤَال",
+     "right": "su'âl"
+    },
+    {
+     "left": "عَائِلَة",
+     "right": "3â'ila"
+    },
+    {
+     "left": "رَأْس",
+     "right": "ra's"
+    },
+    {
+     "left": "نِسَاء",
+     "right": "nisâ'"
+    },
+    {
+     "left": "قُرْآن",
+     "right": "qur'ân"
+    }
+   ],
+   "answer": "سُؤَال = su'âl ; عَائِلَة = 3â'ila ; رَأْس = ra's ; نِسَاء = nisâ' ; قُرْآن = qur'ân",
+   "acceptedAnswers": [],
+   "explanation": "ؤ (hamza sur و) dans su'âl, ئ (hamza sur ي) dans 3â'ila, أ (hamza sur ا) dans ra's, ء (hamza seule) dans nisâ', et la madda آ dans qur'ân.",
+   "tip": "Le support se tait : lis seulement la hamza et sa voyelle."
+  },
+  {
+   "id": "ar.l14.e13",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.madda"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le nom du signe.",
+   "prompt": "Le signe ondulé posé sur un ا (آ) s'appelle la ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "madda",
+    "shadda",
+    "sukun",
+    "hamza"
+   ],
+   "answer": "madda",
+   "acceptedAnswers": [
+    "madda"
+   ],
+   "explanation": "La madda (مَدَّة) est le signe ondulé posé sur le ا : آ = hamza + â long.",
+   "tip": "Madda = allongement.",
+   "extraExample": {
+    "text": "آخِر",
+    "translation": "dernier",
+    "transliteration": "âkhir"
+   },
+   "errorPatterns": [
+    {
+     "equals": "hamza",
+     "category": "word_confusion",
+     "feedback": "La hamza est le petit ء. Le signe ondulé sur le ا est la madda."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e14",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.ukht"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le nom du signe.",
+   "prompt": "Pour écrire « ukht » (sœur), on met sur le ا une hamza avec une ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "damma",
+    "fatha",
+    "kasra"
+   ],
+   "answer": "damma",
+   "acceptedAnswers": [
+    "damma"
+   ],
+   "explanation": "Ukht commence par u : hamza + damma sur le ا, أُخْت. Le خ porte un sukun.",
+   "tip": "u = damma, a = fatha, i = kasra.",
+   "extraExample": {
+    "text": "أُسْرَة",
+    "translation": "famille",
+    "transliteration": "usra"
+   },
+   "errorPatterns": [
+    {
+     "equals": "fatha",
+     "category": "word_confusion",
+     "feedback": "Avec une fatha, on lirait akht. Ukht commence par u : damma."
+    },
+    {
+     "equals": "kasra",
+     "category": "word_confusion",
+     "feedback": "Avec une kasra, la hamza passerait sous le ا (إِ) et on lirait ikht."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e15",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.aila"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le bon support.",
+   "prompt": "Dans عَائِلَة, la hamza est posée sur un support en forme de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "ي sans points (ئ)",
+    "و (ؤ)",
+    "ا (أ)"
+   ],
+   "answer": "ي sans points (ئ)",
+   "acceptedAnswers": [
+    "ي sans points (ئ)"
+   ],
+   "explanation": "La hamza porte une kasra, la voyelle la plus forte : son support est un ي sans points, ئ. On lit 3â'ila.",
+   "tip": "Hamza + kasra = support ي, sans points.",
+   "extraExample": {
+    "text": "رَئِيس",
+    "translation": "président",
+    "transliteration": "ra'îs"
+   },
+   "errorPatterns": [
+    {
+     "equals": "و (ؤ)",
+     "category": "grammar",
+     "feedback": "Le و sert de support à une hamza avec damma. Ici la hamza a une kasra : ئ."
+    },
+    {
+     "equals": "ا (أ)",
+     "category": "grammar",
+     "feedback": "Le ا sert de support à une hamza avec fatha. Ici la hamza a une kasra : ئ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e16",
+   "unitIds": [
+    "ar.g12.shadda",
+    "ar.v.umm"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Révision : complète avec le nom du signe.",
+   "prompt": "Dans أُمّ (umm), le م porte une ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "shadda",
+    "sukun",
+    "damma",
+    "fatha"
+   ],
+   "answer": "shadda",
+   "acceptedAnswers": [
+    "shadda"
+   ],
+   "explanation": "Le petit w au-dessus du م est une shadda : le م est doublé, umm.",
+   "tip": "Petit w = lettre doublée.",
+   "extraExample": {
+    "text": "أُمَّة",
+    "translation": "nation",
+    "transliteration": "umma"
+   },
+   "errorPatterns": [
+    {
+     "equals": "sukun",
+     "category": "word_confusion",
+     "feedback": "Le sukun est un petit rond. Ici, c'est un petit w : une shadda."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e17",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.madda"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Touche les morceaux dans l'ordre de lecture (le premier d'abord).",
+   "prompt": "Écris « âbâ' » (pères) en le découpant.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ء",
+    "بَا",
+    "آ"
+   ],
+   "answer": "آ بَا ء",
+   "acceptedAnswers": [
+    "آ بَا ء"
+   ],
+   "explanation": "Â-bâ' : la madda آ (â long), puis بَا (bâ, long), puis la hamza finale ء.",
+   "tip": "La madda ouvre le mot et compte pour un â long.",
+   "extraExample": {
+    "text": "آخِر",
+    "translation": "dernier",
+    "transliteration": "âkhir"
+   }
+  },
+  {
+   "id": "ar.l14.e18",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.ukht"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Touche les morceaux dans l'ordre de lecture (le premier d'abord).",
+   "prompt": "Écris « ukht » (sœur).",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ت",
+    "خْ",
+    "أُ"
+   ],
+   "answer": "أُ خْ ت",
+   "acceptedAnswers": [
+    "أُ خْ ت"
+   ],
+   "explanation": "U-kht : أُ (hamza + damma), خْ (le خ avec sukun), puis ت.",
+   "tip": "Un mot ne commence jamais par un sukun : la hamza porte la voyelle d'attaque.",
+   "extraExample": {
+    "text": "أُخْتَانِ",
+    "translation": "deux sœurs",
+    "transliteration": "ukhtâni"
+   }
+  },
+  {
+   "id": "ar.l14.e19",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.ab"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "أَب",
+   "promptLanguage": "ar",
+   "answer": "père",
+   "acceptedAnswers": [
+    "père",
+    "le père",
+    "un père",
+    "papa"
+   ],
+   "explanation": "أَب (ab) : le père. Ne le confonds pas avec أَخ (akh), le frère.",
+   "tip": "Ab = père (comme « baba »), akh = frère.",
+   "extraExample": {
+    "text": "أَبِي",
+    "translation": "mon père",
+    "transliteration": "abî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "frère",
+     "category": "vocabulary",
+     "feedback": "Le frère, c'est أَخ (akh). أَب (ab), c'est le père."
+    },
+    {
+     "equals": "le frère",
+     "category": "vocabulary",
+     "feedback": "Le frère, c'est أَخ (akh). أَب (ab), c'est le père."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e20",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.ukht"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "أُخْت",
+   "promptLanguage": "ar",
+   "answer": "sœur",
+   "acceptedAnswers": [
+    "sœur",
+    "la sœur",
+    "une sœur",
+    "soeur",
+    "la soeur",
+    "une soeur"
+   ],
+   "explanation": "أُخْت (ukht) : la sœur, le féminin de أَخ (akh).",
+   "tip": "Akh, frère ; ukht, sœur.",
+   "extraExample": {
+    "text": "أُخْتِي",
+    "translation": "ma sœur",
+    "transliteration": "ukhtî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "frère",
+     "category": "vocabulary",
+     "feedback": "Le frère, c'est أَخ (akh), sans ت. أُخْت (ukht) est la sœur."
+    },
+    {
+     "equals": "mère",
+     "category": "vocabulary",
+     "feedback": "La mère, c'est أُمّ (umm). أُخْت (ukht), c'est la sœur."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e21",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.udhun"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit أُذُن (oreille) ?",
+   "promptLanguage": "fr",
+   "answer": "udhun",
+   "acceptedAnswers": [
+    "udhun",
+    "oudhoun"
+   ],
+   "hint": "Le ذ se note dh.",
+   "explanation": "Hamza et damma sur le ا : u. Puis ذ avec damma (dhu) et ن final : u-dhun.",
+   "tip": "Deux dammas, donc deux u : u-dhun.",
+   "extraExample": {
+    "text": "أُذُنَانِ",
+    "translation": "deux oreilles",
+    "transliteration": "udhunâni"
+   },
+   "errorPatterns": [
+    {
+     "equals": "adhun",
+     "category": "word_confusion",
+     "feedback": "Le premier signe est une damma (u), pas une fatha."
+    },
+    {
+     "equals": "udhn",
+     "category": "spelling",
+     "feedback": "Le ذ porte une damma : il faut un u entre le dh et le n."
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e22",
+   "unitIds": [
+    "ar.g14.hamza_madda",
+    "ar.v.aila"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit عَائِلَة (famille) ?",
+   "promptLanguage": "fr",
+   "answer": "3â'ila",
+   "acceptedAnswers": [
+    "3â'ila",
+    "3a'ila",
+    "3aila",
+    "3aa'ila"
+   ],
+   "hint": "La hamza se note '.",
+   "explanation": "Fatha et ا sur le ع (3â, long), puis la hamza sur ئ avec une kasra ('i), ل avec fatha, et ة final muet : 3â-'i-la.",
+   "tip": "Entre 3â et ila, marque la hamza par un léger arrêt.",
+   "extraExample": {
+    "text": "عَائِلَتِي",
+    "translation": "ma famille",
+    "transliteration": "3â'ilatî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "3ayila",
+     "category": "spelling",
+     "feedback": "Le ئ n'est pas un ي : c'est une hamza sur son support, un coup de glotte (') et non un y."
+    }
+   ]
+  }
+ ]
+}

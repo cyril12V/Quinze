@@ -46,5 +46,101 @@
    ],
    "tip": "Ne regarde pas le corps de la lettre, compte les points : 1 dessous (ب), 2 dessus (ت), 3 dessus (ث)."
   }
+ },
+ {
+  "id": "ar.g02.nun_ya_five_teeth",
+  "rule": {
+   "summary": "ب ت ث ن ي forment la famille des « dents » : au début et au milieu, elles ont exactement le même corps. Seuls les points changent : ب 1 dessous, ت 2 dessus, ث 3 dessus, ن 1 dessus, ي 2 dessous.",
+   "explanation": "Au début (بـ تـ ثـ نـ يـ) et au milieu (ـبـ ـتـ ـثـ ـنـ ـيـ), ces cinq lettres sont une petite dent identique : impossible de les reconnaître autrement que par leurs points. Pose-toi toujours deux questions dans cet ordre : combien de points ? au-dessus ou en dessous ? À la fin et isolées, ب ت ث ن sont une cuvette (ـب ـت ـث ـن) et ي se termine par une longue queue qui revient vers la gauche (ـي, ي). ن se prononce n comme dans « nuit » ; ي est le y de « yaourt » ou un î long, comme dans تِين.",
+   "pattern": "ب : 1 point dessous · ت : 2 dessus · ث : 3 dessus · ن : 1 dessus · ي : 2 dessous",
+   "examples": [
+    {
+     "text": "تِين",
+     "translation": "les figues",
+     "transliteration": "tîn"
+    },
+    {
+     "text": "بَنَات",
+     "translation": "les filles",
+     "transliteration": "banât"
+    },
+    {
+     "text": "نَبَات",
+     "translation": "la plante",
+     "transliteration": "nabât"
+    },
+    {
+     "text": "بَيْنَ",
+     "translation": "entre",
+     "transliteration": "bayna"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "نَبَات lu « babât »",
+     "right": "نَبَات = nabât",
+     "why": "Le point de la première lettre est au-dessus de la dent : c'est ن (n). ب a son point en dessous."
+    },
+    {
+     "wrong": "بَيْنَ lu « batna »",
+     "right": "بَيْنَ = bayna",
+     "why": "La deuxième lettre a deux points en dessous : c'est ي (y). ت aussi a deux points, mais au-dessus."
+    },
+    {
+     "wrong": "تِين lu « yîn »",
+     "right": "تِين = tîn",
+     "why": "Les deux points de la première lettre sont au-dessus : c'est ت (t). Pour ي, ils seraient en dessous."
+    }
+   ],
+   "tip": "Deux questions, toujours dans cet ordre : combien de points ? au-dessus ou en dessous ?"
+  }
+ },
+ {
+  "id": "ar.g03.djim_ha_kha",
+  "rule": {
+   "summary": "ج ح خ ont la même silhouette en crochet. Seul le point change : ج a un point dans la courbe (dessous), ح n'en a aucun, خ a un point au-dessus.",
+   "explanation": "Ces trois lettres se ressemblent comme des sœurs. Au début et au milieu (جـ حـ خـ, ـجـ ـحـ ـخـ), elles se réduisent à une petite tête ; isolées ou à la fin (ج ح خ, ـج ـح ـخ), le crochet est complet, avec une courbe qui s'enroule sous la ligne. Dans tous les cas, regarde le point : sous la tête = ج (dj, comme dans « jazz » ; en Égypte on dit g), aucun point = ح (un h soufflé du fond de la gorge, noté 7), point au-dessus = خ (kh, comme le j espagnol de « jota » ou le ch allemand de « Bach »). Rappelle-toi aussi que ces lettres s'attachent des deux côtés, mais qu'après un ا la lettre repart seule : dans تَاج, le ج est isolé.",
+   "pattern": "ج : 1 point dans la courbe · ح : aucun point · خ : 1 point au-dessus",
+   "examples": [
+    {
+     "text": "حَبِيب",
+     "translation": "le chéri",
+     "transliteration": "7abîb"
+    },
+    {
+     "text": "تَاج",
+     "translation": "la couronne",
+     "transliteration": "tâdj"
+    },
+    {
+     "text": "خَاتَم",
+     "translation": "la bague",
+     "transliteration": "khâtam"
+    },
+    {
+     "text": "جَزَر",
+     "translation": "les carottes",
+     "transliteration": "djazar"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "تَحْتَ lu « takhta »",
+     "right": "تَحْتَ = ta7ta",
+     "why": "La lettre du milieu n'a aucun point : c'est ح (h soufflé, noté 7). Avec un point dessus, ce serait خ."
+    },
+    {
+     "wrong": "جَزَر lu « 7azar »",
+     "right": "جَزَر = djazar",
+     "why": "Il y a un point à l'intérieur de la courbe, sous la tête : c'est ج. Sans point, ce serait ح."
+    },
+    {
+     "wrong": "خَاتَم lu « djâtam »",
+     "right": "خَاتَم = khâtam",
+     "why": "Le point est au-dessus : c'est خ (kh). ج a son point en dessous, dans la courbe."
+    }
+   ],
+   "tip": "Même crochet, trois cas : point dedans = dj, rien = 7, point dessus = kh."
+  }
  }
 ]

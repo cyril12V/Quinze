@@ -1,0 +1,833 @@
+{
+ "lessonId": "cg.l27",
+ "exercises": [
+  {
+   "id": "cg.l27.e01",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.onu"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En quelle année est créée l'Organisation des Nations unies (ONU) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1919",
+    "1945",
+    "1957",
+    "1989"
+   ],
+   "answer": "1945",
+   "acceptedAnswers": [
+    "1945"
+   ],
+   "explanation": "La Charte des Nations unies, signée à San Francisco le 26 juin 1945, entre en vigueur le 24 octobre 1945. L'ONU remplace la Société des Nations (1919), qui n'avait pas empêché la guerre.",
+   "tip": "1945 : fin de la guerre, naissance de l'ONU.",
+   "extraExample": {
+    "text": "Le 24 octobre est la Journée des Nations unies.",
+    "translation": "À l'origine, l'ONU comptait 51 États membres ; elle en compte 193 aujourd'hui."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1919",
+     "category": "word_confusion",
+     "feedback": "1919 est l'année de la création de la Société des Nations, ancêtre de l'ONU."
+    },
+    {
+     "equals": "1957",
+     "category": "word_confusion",
+     "feedback": "1957 est l'année du traité de Rome, qui crée le marché commun européen."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e02",
+   "unitIds": [
+    "cg.v.ocean_atlantique",
+    "cg.g27.organisations_internationales",
+    "cg.v.otan"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Le nom de l'OTAN fait référence à un océan qui sépare l'Amérique du Nord de l'Europe. Lequel ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Océan Atlantique",
+    "Océan Pacifique",
+    "Océan Indien",
+    "Océan Arctique"
+   ],
+   "answer": "Océan Atlantique",
+   "acceptedAnswers": [
+    "Océan Atlantique"
+   ],
+   "explanation": "OTAN signifie « Organisation du traité de l'Atlantique Nord » : l'alliance réunit des pays des deux rives de l'Atlantique Nord, en Amérique du Nord (États-Unis, Canada) et en Europe.",
+   "tip": "OTAN : Atlantique Nord.",
+   "extraExample": {
+    "text": "L'océan Atlantique sépare l'Europe et l'Afrique des Amériques.",
+    "translation": "C'est le deuxième plus grand océan du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Océan Pacifique",
+     "category": "word_confusion",
+     "feedback": "Le Pacifique borde l'Asie et les Amériques ; l'alliance de 1949 relie l'Amérique du Nord et l'Europe à travers l'Atlantique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e03",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.onu",
+    "cg.v.otan",
+    "cg.v.fmi",
+    "cg.v.omc",
+    "cg.v.oms"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui fait quoi dans le monde ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ONU",
+     "right": "maintenir la paix et la sécurité internationales"
+    },
+    {
+     "left": "OTAN",
+     "right": "défendre ses membres en cas d'attaque"
+    },
+    {
+     "left": "FMI",
+     "right": "aider les États en difficulté financière"
+    },
+    {
+     "left": "OMC",
+     "right": "fixer les règles du commerce entre pays"
+    },
+    {
+     "left": "OMS",
+     "right": "coordonner la santé dans le monde"
+    }
+   ],
+   "answer": "ONU = maintenir la paix et la sécurité internationales ; OTAN = défendre ses membres en cas d'attaque ; FMI = aider les États en difficulté financière ; OMC = fixer les règles du commerce entre pays ; OMS = coordonner la santé dans le monde",
+   "acceptedAnswers": [],
+   "explanation": "Chaque organisation a un domaine : l'ONU pour la paix, l'OTAN pour la défense militaire, le FMI pour les finances des États, l'OMC pour le commerce et l'OMS pour la santé.",
+   "tip": "Un sigle, un domaine : paix, défense, finances, commerce, santé.",
+   "extraExample": {
+    "text": "L'UNESCO s'occupe d'éducation, de science et de culture.",
+    "translation": "Elle est la gardienne du patrimoine mondial."
+   }
+  },
+  {
+   "id": "cg.l27.e04",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.conseil_de_securite"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Lequel de ces pays n'est pas membre permanent du Conseil de sécurité de l'ONU ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Allemagne",
+    "France",
+    "Royaume-Uni",
+    "Chine"
+   ],
+   "answer": "Allemagne",
+   "acceptedAnswers": [
+    "Allemagne"
+   ],
+   "explanation": "Les cinq membres permanents sont les États-Unis, la Russie, la Chine, la France et le Royaume-Uni. L'Allemagne et le Japon sont souvent cités dans les projets de réforme, mais n'ont pas de siège permanent.",
+   "tip": "Cinq permanents : États-Unis, Russie, Chine, France, Royaume-Uni.",
+   "extraExample": {
+    "text": "Les dix autres membres du Conseil sont élus pour deux ans par l'Assemblée générale.",
+    "translation": "Les sièges non permanents tournent entre les régions du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "France",
+     "category": "word_confusion",
+     "feedback": "La France est l'un des cinq membres permanents, avec les États-Unis, la Russie, la Chine et le Royaume-Uni."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e05",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.otan"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que prévoit l'article 5 du traité de l'Atlantique Nord ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une attaque contre un membre est considérée comme une attaque contre tous",
+    "Tous les membres adoptent la même monnaie",
+    "Les armées des membres passent sous le commandement de l'ONU",
+    "Les membres s'interdisent d'utiliser des armes nucléaires"
+   ],
+   "answer": "Une attaque contre un membre est considérée comme une attaque contre tous",
+   "acceptedAnswers": [
+    "Une attaque contre un membre est considérée comme une attaque contre tous"
+   ],
+   "explanation": "L'article 5 est la clause de défense collective de l'OTAN. Il n'a été invoqué qu'une seule fois, après les attentats du 11 septembre 2001 aux États-Unis.",
+   "tip": "Article 5 : un pour tous, tous pour un.",
+   "extraExample": {
+    "text": "La France a quitté le commandement militaire intégré de l'OTAN en 1966 et l'a réintégré en 2009.",
+    "translation": "Elle est pourtant restée membre de l'alliance tout du long."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les armées des membres passent sous le commandement de l'ONU",
+     "category": "word_confusion",
+     "feedback": "L'OTAN est une alliance indépendante de l'ONU, avec ses propres structures militaires."
+    },
+    {
+     "equals": "Tous les membres adoptent la même monnaie",
+     "category": "word_confusion",
+     "feedback": "Une alliance militaire n'a pas de monnaie commune : c'est le cas de la zone euro, un autre ensemble de pays."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e06",
+   "unitIds": [
+    "cg.v.giec",
+    "cg.g27.organisations_internationales",
+    "cg.v.onu"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Le GIEC, qui évalue l'état des connaissances sur le climat, a été créé en 1988 sous l'égide de quelle organisation ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'ONU (par l'OMM et le PNUE)",
+    "L'OMC",
+    "Le FMI",
+    "L'OTAN"
+   ],
+   "answer": "L'ONU (par l'OMM et le PNUE)",
+   "acceptedAnswers": [
+    "L'ONU (par l'OMM et le PNUE)"
+   ],
+   "explanation": "Le GIEC est créé en 1988 par l'Organisation météorologique mondiale et le Programme des Nations unies pour l'environnement, deux organismes de l'ONU. Il produit des rapports d'experts, sans décider des politiques.",
+   "tip": "GIEC = experts du climat, sous l'égide de l'ONU.",
+   "extraExample": {
+    "text": "L'accord de Paris (2015) a été adopté dans le cadre de la convention des Nations unies sur les changements climatiques.",
+    "translation": "Les COP sont les conférences annuelles des pays qui ont signé cette convention."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'OMC",
+     "category": "word_confusion",
+     "feedback": "L'OMC s'occupe du commerce ; le GIEC est un groupe d'experts rattaché à l'ONU."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e07",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.onu"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'ONU est créée en 1945 pour remplacer la ___, fondée en 1919 et qui n'avait pas empêché la Seconde Guerre mondiale.",
+   "promptLanguage": "fr",
+   "options": [
+    "Société des Nations",
+    "Sainte-Alliance",
+    "Ligue arabe",
+    "Croix-Rouge"
+   ],
+   "answer": "Société des Nations",
+   "acceptedAnswers": [
+    "Société des Nations",
+    "SDN",
+    "la Société des Nations",
+    "Societe des Nations",
+    "la Societe des Nations"
+   ],
+   "explanation": "La SDN, née du traité de Versailles et installée à Genève, échoue à empêcher les agressions des années 1930. Les États-Unis n'en ont jamais fait partie.",
+   "tip": "SDN (1919), puis ONU (1945).",
+   "extraExample": {
+    "text": "Le président américain Woodrow Wilson avait proposé l'idée de la SDN en 1918.",
+    "translation": "Pourtant, le Sénat américain a refusé de ratifier le traité de Versailles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sainte-Alliance",
+     "category": "word_confusion",
+     "feedback": "La Sainte-Alliance (1815) réunissait des monarchies européennes après Napoléon ; elle n'a rien à voir avec l'ONU."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e08",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.unesco"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Mont-Saint-Michel et le château de Versailles figurent sur la liste du patrimoine mondial de l'___.",
+   "promptLanguage": "fr",
+   "options": [
+    "UNESCO",
+    "OMS",
+    "OMC",
+    "OTAN"
+   ],
+   "answer": "UNESCO",
+   "acceptedAnswers": [
+    "UNESCO"
+   ],
+   "explanation": "L'UNESCO, agence de l'ONU pour l'éducation, la science et la culture, dresse la liste du patrimoine mondial. Elle siège à Paris. Les sites classés restent sous la souveraineté de leur pays.",
+   "tip": "UNESCO : Éducation, Science, Culture.",
+   "extraExample": {
+    "text": "Les pyramides de Gizeh et le Machu Picchu figurent aussi sur la liste.",
+    "translation": "La convention du patrimoine mondial date de 1972."
+   },
+   "errorPatterns": [
+    {
+     "equals": "OMS",
+     "category": "word_confusion",
+     "feedback": "L'OMS s'occupe de la santé, pas du patrimoine culturel."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e09",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.onu"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans quelle ville américaine se trouve le siège de l'ONU ?",
+   "promptLanguage": "fr",
+   "answer": "New York",
+   "acceptedAnswers": [
+    "New York",
+    "New-York",
+    "New York City",
+    "NYC"
+   ],
+   "explanation": "Le siège de l'ONU est à New York, au bord de l'East River, sur un terrain offert par la famille Rockefeller. Des bureaux importants sont à Genève, à Vienne et à Nairobi.",
+   "tip": "ONU : New York ; FMI : Washington.",
+   "extraExample": {
+    "text": "Le siège n'est pas à Washington, qui accueille le FMI et la Banque mondiale.",
+    "translation": "L'ONU est installée dans ses bâtiments new-yorkais depuis 1952."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Washington",
+     "category": "word_confusion",
+     "feedback": "Washington accueille le FMI et la Banque mondiale, pas le siège de l'ONU."
+    },
+    {
+     "equals": "Genève",
+     "category": "word_confusion",
+     "feedback": "Genève abrite un office important de l'ONU, mais le siège est à New York."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e10",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.fmi",
+    "cg.v.omc",
+    "cg.v.unesco",
+    "cg.v.otan",
+    "cg.v.bruxelles"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Où siège chaque organisation ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "FMI",
+     "right": "Washington"
+    },
+    {
+     "left": "OMC",
+     "right": "Genève"
+    },
+    {
+     "left": "UNESCO",
+     "right": "Paris"
+    },
+    {
+     "left": "OTAN",
+     "right": "Bruxelles"
+    }
+   ],
+   "answer": "FMI = Washington ; OMC = Genève ; UNESCO = Paris ; OTAN = Bruxelles",
+   "acceptedAnswers": [],
+   "explanation": "Le FMI (comme la Banque mondiale) siège à Washington, l'OMC à Genève (comme l'OMS), l'UNESCO à Paris et l'OTAN à Bruxelles.",
+   "tip": "Washington : l'argent ; Genève : commerce et santé ; Paris : culture ; Bruxelles : défense.",
+   "extraExample": {
+    "text": "Genève abrite aussi l'OMS, le Comité international de la Croix-Rouge et un office de l'ONU.",
+    "translation": "C'est l'une des capitales de la diplomatie mondiale."
+   }
+  },
+  {
+   "id": "cg.l27.e11",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.fmi",
+    "cg.v.banque_mondiale"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le FMI et la Banque mondiale sont conçus en juillet 1944 lors de la conférence de ___, aux États-Unis.",
+   "promptLanguage": "fr",
+   "options": [
+    "Bretton Woods",
+    "Yalta",
+    "Potsdam",
+    "San Francisco"
+   ],
+   "answer": "Bretton Woods",
+   "acceptedAnswers": [
+    "Bretton Woods",
+    "Bretton-Woods"
+   ],
+   "explanation": "À Bretton Woods (New Hampshire), 44 pays préparent l'économie d'après-guerre : des monnaies stables autour du dollar, un FMI pour les surveiller et une banque pour reconstruire.",
+   "tip": "Bretton Woods : FMI et Banque mondiale ; San Francisco : ONU.",
+   "extraExample": {
+    "text": "Yalta (février 1945) et Potsdam (été 1945) sont des conférences entre vainqueurs sur l'avenir de l'Europe.",
+    "translation": "San Francisco (juin 1945) est la conférence où est signée la Charte de l'ONU."
+   },
+   "errorPatterns": [
+    {
+     "equals": "San Francisco",
+     "category": "word_confusion",
+     "feedback": "San Francisco est la ville de la conférence qui a signé la Charte de l'ONU, en 1945."
+    },
+    {
+     "equals": "Yalta",
+     "category": "word_confusion",
+     "feedback": "Yalta (février 1945) réunit Roosevelt, Churchill et Staline sur l'organisation de l'après-guerre en Europe."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e12",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.omc"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Signé en 1947, le GATT est un accord pour réduire les droits de ___ entre les pays.",
+   "promptLanguage": "fr",
+   "options": [
+    "douane",
+    "succession",
+    "timbre",
+    "scolarité"
+   ],
+   "answer": "douane",
+   "acceptedAnswers": [
+    "douane",
+    "douanes"
+   ],
+   "explanation": "Le GATT (accord général sur les tarifs douaniers et le commerce) fait baisser les droits de douane lors de cycles de négociations. Il devient l'OMC en 1995.",
+   "tip": "GATT, puis OMC : le commerce sans barrières.",
+   "extraExample": {
+    "text": "La Chine rejoint l'OMC en 2001.",
+    "translation": "L'organisation compte aujourd'hui plus de 160 membres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "timbre",
+     "category": "word_confusion",
+     "feedback": "Les droits de timbre sont un impôt sur certains actes ; le GATT concerne les taxes sur les produits importés : les droits de douane."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e13",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.droit_de_veto",
+    "cg.v.conseil_de_securite"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Neuf pays votent pour un projet de résolution du Conseil de sécurité, mais l'un des cinq membres permanents vote contre. Que se passe-t-il ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le projet est rejeté à cause du veto",
+    "Le projet est adopté, car neuf voix suffisent",
+    "Le projet est renvoyé à l'Assemblée générale, qui tranche",
+    "Le membre permanent est exclu du Conseil"
+   ],
+   "answer": "Le projet est rejeté à cause du veto",
+   "acceptedAnswers": [
+    "Le projet est rejeté à cause du veto"
+   ],
+   "explanation": "Pour être adoptée, une résolution doit recueillir au moins 9 voix sur 15 et aucun vote contre d'un membre permanent. Un seul veto suffit donc à la bloquer. Une abstention n'empêche pas l'adoption.",
+   "tip": "9 voix et aucun veto.",
+   "extraExample": {
+    "text": "Le droit de veto existe depuis la création de l'ONU, en 1945.",
+    "translation": "Il est parfois critiqué, parfois défendu : il oblige les grandes puissances à s'entendre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le projet est adopté, car neuf voix suffisent",
+     "category": "word_confusion",
+     "feedback": "Neuf voix sont nécessaires, mais pas suffisantes : le vote contre d'un membre permanent bloque le texte."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e14",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.fmi",
+    "cg.v.banque_mondiale"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que fait le FMI en priorité ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il aide les États en difficulté financière et surveille le système monétaire",
+    "Il finance des écoles et des routes dans les pays pauvres",
+    "Il règle les différends commerciaux entre pays",
+    "Il fixe le prix du pétrole"
+   ],
+   "answer": "Il aide les États en difficulté financière et surveille le système monétaire",
+   "acceptedAnswers": [
+    "Il aide les États en difficulté financière et surveille le système monétaire"
+   ],
+   "explanation": "Le Fonds monétaire international prête de l'argent aux pays qui ne parviennent plus à payer leurs dettes ou leurs importations, souvent en échange de réformes. Il surveille aussi les politiques économiques et les monnaies.",
+   "tip": "FMI = pompiers financiers des États.",
+   "extraExample": {
+    "text": "Les prêts du FMI sont souvent assortis de conditions, qui sont parfois critiquées.",
+    "translation": "Ses défenseurs estiment qu'elles évitent de nouvelles crises."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il finance des écoles et des routes dans les pays pauvres",
+     "category": "word_confusion",
+     "feedback": "Financer des projets de développement est le rôle de la Banque mondiale."
+    },
+    {
+     "equals": "Il règle les différends commerciaux entre pays",
+     "category": "word_confusion",
+     "feedback": "Les différends commerciaux relèvent de l'OMC."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e15",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.oms"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle organisation, installée à Genève, a déclaré la variole éradiquée en 1980 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'OMS",
+    "L'OMC",
+    "L'UNESCO",
+    "Le FMI"
+   ],
+   "answer": "L'OMS",
+   "acceptedAnswers": [
+    "L'OMS"
+   ],
+   "explanation": "L'Organisation mondiale de la santé, agence de l'ONU, déclare la variole éradiquée en 1980 après une campagne mondiale de vaccination. C'est la seule maladie humaine éradiquée à ce jour.",
+   "tip": "OMS = santé ; OMC = commerce.",
+   "extraExample": {
+    "text": "L'OMS déclare la pandémie de Covid-19 le 11 mars 2020.",
+    "translation": "Elle émet des recommandations, mais ne peut pas contraindre les États."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'OMC",
+     "category": "word_confusion",
+     "feedback": "L'OMC siège aussi à Genève, mais elle s'occupe du commerce, pas de la santé."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e16",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.onu"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle juridiction, basée à La Haye, juge des individus accusés de génocide, de crimes contre l'humanité ou de crimes de guerre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Cour pénale internationale",
+    "La Cour internationale de justice",
+    "La Cour de justice de l'Union européenne",
+    "Le Conseil de sécurité"
+   ],
+   "answer": "La Cour pénale internationale",
+   "acceptedAnswers": [
+    "La Cour pénale internationale"
+   ],
+   "explanation": "La Cour pénale internationale (CPI), créée par le statut de Rome de 1998 et active depuis 2002, juge des personnes. La Cour internationale de justice (CIJ), organe de l'ONU, règle les différends entre États.",
+   "tip": "CIJ = États ; CPI = personnes.",
+   "extraExample": {
+    "text": "La CIJ tranche par exemple des différends de frontières entre États.",
+    "translation": "Ses arrêts s'imposent aux États qui acceptent sa compétence."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Cour internationale de justice",
+     "category": "word_confusion",
+     "feedback": "La CIJ juge les différends entre États, pas les individus."
+    },
+    {
+     "equals": "La Cour de justice de l'Union européenne",
+     "category": "word_confusion",
+     "feedback": "Elle siège à Luxembourg et veille au respect du droit de l'UE."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e17",
+   "unitIds": [
+    "cg.g26.union_europeenne",
+    "cg.v.otan"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Lequel de ces pays est membre de l'OTAN sans être membre de l'Union européenne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Canada",
+    "Irlande",
+    "Autriche",
+    "Malte"
+   ],
+   "answer": "Canada",
+   "acceptedAnswers": [
+    "Canada"
+   ],
+   "explanation": "Le Canada, comme les États-Unis, est dans l'OTAN mais pas dans l'UE. L'Irlande, l'Autriche et Malte sont dans l'UE mais pas dans l'OTAN : les deux ensembles ne se recouvrent pas.",
+   "tip": "OTAN : alliance militaire ; UE : union politique et économique.",
+   "extraExample": {
+    "text": "Le Royaume-Uni et la Turquie sont aussi dans l'OTAN sans être dans l'UE.",
+    "translation": "La Suède et la Finlande sont aujourd'hui dans les deux, après leur entrée dans l'OTAN en 2024 et 2023."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Irlande",
+     "category": "word_confusion",
+     "feedback": "L'Irlande est membre de l'UE mais pas de l'OTAN : elle est militairement neutre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e18",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.onu",
+    "cg.v.otan",
+    "cg.v.oms",
+    "cg.v.omc",
+    "cg.v.fmi"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates de l'après-guerre",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1944",
+     "right": "conférence de Bretton Woods"
+    },
+    {
+     "left": "1945",
+     "right": "naissance de l'ONU"
+    },
+    {
+     "left": "1948",
+     "right": "création de l'OMS"
+    },
+    {
+     "left": "1949",
+     "right": "naissance de l'OTAN"
+    },
+    {
+     "left": "1995",
+     "right": "début de l'OMC"
+    }
+   ],
+   "answer": "1944 = conférence de Bretton Woods ; 1945 = naissance de l'ONU ; 1948 = création de l'OMS ; 1949 = naissance de l'OTAN ; 1995 = début de l'OMC",
+   "acceptedAnswers": [],
+   "explanation": "En quelques années, l'après-guerre voit naître un système d'institutions : Bretton Woods (1944), l'ONU (1945), l'OMS (1948), l'OTAN (1949). L'OMC, elle, n'apparaît qu'en 1995.",
+   "tip": "44 les monnaies, 45 la paix, 48 la santé, 49 la défense, 95 le commerce.",
+   "extraExample": {
+    "text": "Les statuts du FMI et de la Banque mondiale entrent en vigueur fin 1945.",
+    "translation": "Ils commencent à fonctionner en 1946 et 1947."
+   }
+  },
+  {
+   "id": "cg.l27.e19",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.otan"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'OTAN.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "à",
+    "est",
+    "en",
+    "L'OTAN",
+    "créée",
+    "1949",
+    "Washington"
+   ],
+   "answer": "L'OTAN est créée à Washington en 1949",
+   "acceptedAnswers": [
+    "L'OTAN est créée à Washington en 1949",
+    "En 1949 l'OTAN est créée à Washington"
+   ],
+   "hint": "Commence par le nom de l'organisation.",
+   "explanation": "Le traité de l'Atlantique Nord est signé à Washington le 4 avril 1949 par douze pays, dont la France, les États-Unis et le Canada.",
+   "tip": "Washington 1949 : traité de l'Atlantique Nord.",
+   "extraExample": {
+    "text": "Le siège de l'OTAN est aujourd'hui à Bruxelles.",
+    "translation": "Ne confonds pas le lieu de signature (Washington) et le siège actuel."
+   }
+  },
+  {
+   "id": "cg.l27.e20",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.onu"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel texte, adopté à Paris le 10 décembre 1948 par l'Assemblée générale de l'ONU, proclame les droits de tous les êtres humains ?",
+   "promptLanguage": "fr",
+   "answer": "La Déclaration universelle des droits de l'homme",
+   "acceptedAnswers": [
+    "La Déclaration universelle des droits de l'homme",
+    "Déclaration universelle des droits de l'homme",
+    "DUDH",
+    "Déclaration universelle des droits humains",
+    "La Declaration universelle des droits de l'homme",
+    "Declaration universelle des droits de l'homme",
+    "Declaration universelle des droits humains"
+   ],
+   "explanation": "Rédigée avec notamment le Français René Cassin, sous la présidence d'Eleanor Roosevelt à la commission, la Déclaration est adoptée au palais de Chaillot. Ce n'est pas un traité, mais elle a inspiré de nombreux textes.",
+   "tip": "10 décembre 1948 : Paris, ONU, droits de l'homme.",
+   "extraExample": {
+    "text": "La Déclaration de 1948 est souvent rapprochée de celle de 1789.",
+    "translation": "Elle affirme que tous les êtres humains naissent libres et égaux en dignité et en droits."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Déclaration des droits de l'homme et du citoyen",
+     "category": "word_confusion",
+     "feedback": "La Déclaration des droits de l'homme et du citoyen date de 1789, pendant la Révolution française. Le texte de 1948 est celui de l'ONU."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e21",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.g20"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le forum qui réunit les 19 plus grandes économies, plus l'Union européenne et l'Union africaine ?",
+   "promptLanguage": "fr",
+   "answer": "G20",
+   "acceptedAnswers": [
+    "G20",
+    "le G20",
+    "G 20",
+    "Groupe des vingt"
+   ],
+   "explanation": "Le G20 est créé en 1999 et réunit, depuis 2008, les chefs d'État et de gouvernement. Il représente environ 85 % de la richesse mondiale. Il discute et coordonne, mais ne prend pas de décisions contraignantes.",
+   "tip": "G7 : sept pays riches ; G20 : riches et émergents.",
+   "extraExample": {
+    "text": "Le G7 réunit les États-Unis, le Canada, le Japon, le Royaume-Uni, la France, l'Allemagne et l'Italie.",
+    "translation": "La Russie a été écartée du G8 en 2014, qui est redevenu le G7."
+   },
+   "errorPatterns": [
+    {
+     "equals": "G7",
+     "category": "word_confusion",
+     "feedback": "Le G7 ne compte que sept pays riches. Le G20 inclut aussi des pays émergents comme l'Inde ou le Brésil."
+    }
+   ]
+  },
+  {
+   "id": "cg.l27.e22",
+   "unitIds": [
+    "cg.g27.organisations_internationales",
+    "cg.v.omc"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle organisation, installée à Genève, a succédé au GATT en 1995 et règle les différends commerciaux entre pays ?",
+   "promptLanguage": "fr",
+   "answer": "OMC",
+   "acceptedAnswers": [
+    "OMC",
+    "l'OMC",
+    "Organisation mondiale du commerce"
+   ],
+   "explanation": "L'OMC, créée le 1er janvier 1995, définit les règles du commerce entre ses plus de 160 membres. Un pays peut porter plainte contre un autre devant son organe de règlement des différends.",
+   "tip": "OMC = commerce ; OMS = santé : deux organisations à Genève.",
+   "extraExample": {
+    "text": "L'OMC fonctionne par consensus : chaque membre dispose d'une voix.",
+    "translation": "C'est ce qui rend certaines négociations très longues."
+   },
+   "errorPatterns": [
+    {
+     "equals": "OMS",
+     "category": "word_confusion",
+     "feedback": "L'OMS est l'Organisation mondiale de la santé, une autre institution genevoise. Le commerce relève de l'OMC."
+    }
+   ]
+  }
+ ]
+}

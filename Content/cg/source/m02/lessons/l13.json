@@ -1,0 +1,808 @@
+{
+ "lessonId": "cg.l13",
+ "exercises": [
+  {
+   "id": "cg.l13.e01",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.ottawa",
+    "cg.v.washington_dc",
+    "cg.v.brasilia"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque pays à sa capitale.",
+   "prompt": "Capitales des Amériques",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Canada",
+     "right": "Ottawa"
+    },
+    {
+     "left": "États-Unis",
+     "right": "Washington D.C."
+    },
+    {
+     "left": "Brésil",
+     "right": "Brasilia"
+    },
+    {
+     "left": "Argentine",
+     "right": "Buenos Aires"
+    },
+    {
+     "left": "Chili",
+     "right": "Santiago"
+    }
+   ],
+   "answer": "Canada = Ottawa ; États-Unis = Washington D.C. ; Brésil = Brasilia ; Argentine = Buenos Aires ; Chili = Santiago",
+   "acceptedAnswers": [],
+   "explanation": "Au Canada, aux États-Unis et au Brésil, la capitale n'est pas la plus grande ville : Toronto, New York et São Paulo sont plus peuplées qu'Ottawa, Washington D.C. et Brasilia.",
+   "tip": "Trois capitales piégeuses à retenir : Ottawa, Washington D.C., Brasilia.",
+   "extraExample": {
+    "text": "Buenos Aires est à la fois la capitale et la plus grande ville de l'Argentine.",
+    "translation": "Santiago l'est aussi pour le Chili : pas de piège de ce côté-là."
+   }
+  },
+  {
+   "id": "cg.l13.e02",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.washington_dc"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale des États-Unis ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Washington D.C.",
+    "New York",
+    "Los Angeles",
+    "Chicago"
+   ],
+   "answer": "Washington D.C.",
+   "acceptedAnswers": [
+    "Washington D.C."
+   ],
+   "explanation": "Washington D.C. est la capitale fédérale des États-Unis : elle abrite le Congrès, la Maison-Blanche et la Cour suprême. New York est la plus grande ville, mais pas la capitale.",
+   "tip": "États-Unis → Washington D.C., pas New York.",
+   "extraExample": {
+    "text": "Washington D.C. n'appartient à aucun des 50 États : c'est un district fédéral.",
+    "translation": "Le « D.C. » signifie District of Columbia."
+   },
+   "errorPatterns": [
+    {
+     "equals": "New York",
+     "category": "word_confusion",
+     "feedback": "New York est la plus grande ville et le siège de l'ONU, mais la capitale fédérale est Washington D.C."
+    },
+    {
+     "equals": "Los Angeles",
+     "category": "word_confusion",
+     "feedback": "Los Angeles est la grande ville du Pacifique, célèbre pour Hollywood, mais pas la capitale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e03",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.amazone"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel fleuve a le plus grand débit du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Amazone",
+    "Le Nil",
+    "Le Mississippi",
+    "Le Yang-Tsé-Kiang"
+   ],
+   "answer": "L'Amazone",
+   "acceptedAnswers": [
+    "L'Amazone"
+   ],
+   "explanation": "L'Amazone apporte à l'Atlantique environ un cinquième de toute l'eau douce que les fleuves déversent dans les océans, loin devant tous les autres. Le Nil est aussi très long, mais son débit est bien plus faible.",
+   "tip": "Débit = quantité d'eau : l'Amazone est n° 1 ; pour la longueur, il se dispute le titre avec le Nil.",
+   "extraExample": {
+    "text": "L'Amazone est si large à son embouchure qu'on n'y voit plus l'autre rive.",
+    "translation": "Son estuaire dépasse 200 km de large."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Nil",
+     "category": "word_confusion",
+     "feedback": "Le Nil est l'un des fleuves les plus longs, mais son débit est bien plus faible que celui de l'Amazone."
+    },
+    {
+     "equals": "Le Mississippi",
+     "category": "word_confusion",
+     "feedback": "Le Mississippi est le grand fleuve des États-Unis, mais son débit est bien inférieur à celui de l'Amazone."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e04",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.andes"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la plus longue chaîne de montagnes continentale du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Andes",
+    "L'Himalaya",
+    "Les Rocheuses",
+    "Les Alpes"
+   ],
+   "answer": "Les Andes",
+   "acceptedAnswers": [
+    "Les Andes"
+   ],
+   "explanation": "Les Andes s'étirent sur environ 7 000 km le long de la côte pacifique de l'Amérique du Sud. L'Himalaya est plus haut, mais bien plus court (environ 2 400 km).",
+   "tip": "Himalaya = la plus haute ; Andes = la plus longue.",
+   "extraExample": {
+    "text": "Les Andes traversent sept pays, du Venezuela à l'Argentine et au Chili.",
+    "translation": "Les Rocheuses, en Amérique du Nord, forment un autre grand axe montagneux."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Himalaya",
+     "category": "word_confusion",
+     "feedback": "L'Himalaya est la chaîne la plus haute du monde, mais pas la plus longue."
+    },
+    {
+     "equals": "Les Rocheuses",
+     "category": "word_confusion",
+     "feedback": "Les Rocheuses (environ 4 800 km) sont plus courtes que les Andes."
+    },
+    {
+     "equals": "Les Alpes",
+     "category": "word_confusion",
+     "feedback": "Les Alpes ne mesurent qu'environ 1 200 km."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e05",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.brasilia"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ville a été construite de toutes pièces et inaugurée en 1960 pour devenir la capitale du Brésil ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Brasilia",
+    "Rio de Janeiro",
+    "São Paulo",
+    "Salvador"
+   ],
+   "answer": "Brasilia",
+   "acceptedAnswers": [
+    "Brasilia"
+   ],
+   "explanation": "Brasilia a été édifiée au centre du pays pour développer l'intérieur et remplacer Rio de Janeiro, capitale jusqu'en 1960.",
+   "tip": "Brésil → Brasilia ; Rio = ancienne capitale ; São Paulo = plus grande ville.",
+   "extraExample": {
+    "text": "Les bâtiments de Brasilia ont été dessinés par l'architecte Oscar Niemeyer.",
+    "translation": "Son plan d'urbanisme, qui évoque un avion, est l'œuvre de Lúcio Costa."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Rio de Janeiro",
+     "category": "word_confusion",
+     "feedback": "Rio de Janeiro fut la capitale du Brésil jusqu'en 1960, puis Brasilia a pris le relais."
+    },
+    {
+     "equals": "São Paulo",
+     "category": "word_confusion",
+     "feedback": "São Paulo est la plus grande ville du pays, mais n'est pas la capitale."
+    },
+    {
+     "equals": "Salvador",
+     "category": "word_confusion",
+     "feedback": "Salvador fut la première capitale du Brésil colonial, jusqu'en 1763."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e06",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.canal_de_panama"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quels deux océans le canal de Panama relie-t-il ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Atlantique et le Pacifique",
+    "L'Atlantique et l'océan Indien",
+    "Le Pacifique et l'océan Indien",
+    "L'Atlantique et l'Arctique"
+   ],
+   "answer": "L'Atlantique et le Pacifique",
+   "acceptedAnswers": [
+    "L'Atlantique et le Pacifique"
+   ],
+   "explanation": "Le canal traverse l'isthme de Panama, la mince bande de terre qui relie l'Amérique du Nord à l'Amérique du Sud : il met l'Atlantique en communication avec le Pacifique.",
+   "tip": "Panama : Atlantique ↔ Pacifique ; Suez : Méditerranée ↔ mer Rouge.",
+   "extraExample": {
+    "text": "Avant 1914, il fallait contourner l'Amérique du Sud par le cap Horn.",
+    "translation": "Ce détour pouvait durer plusieurs semaines."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Atlantique et l'océan Indien",
+     "category": "word_confusion",
+     "feedback": "C'est plutôt le canal de Suez qui ouvre vers l'océan Indien, via la mer Rouge."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e07",
+   "unitIds": [
+    "cg.g13.ameriques"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Parmi ces pays d'Amérique du Sud, lequel parle principalement portugais ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Brésil",
+    "L'Argentine",
+    "Le Pérou",
+    "Le Chili"
+   ],
+   "answer": "Le Brésil",
+   "acceptedAnswers": [
+    "Le Brésil"
+   ],
+   "explanation": "Le Brésil parle portugais, héritage de la colonisation portugaise. La plupart des autres pays du continent, comme l'Argentine, le Pérou et le Chili, parlent espagnol.",
+   "tip": "Brésil = portugais ; la plupart de ses voisins = espagnol.",
+   "extraExample": {
+    "text": "Le Brésil réunit près de la moitié de la population sud-américaine.",
+    "translation": "Il occupe aussi près de la moitié de la superficie du continent."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Argentine",
+     "category": "word_confusion",
+     "feedback": "L'Argentine, voisine du Brésil, parle espagnol."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e08",
+   "unitIds": [
+    "cg.v.ocean_pacifique",
+    "cg.g13.ameriques"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les Amériques sont bordées à l'ouest par l'océan ___ et à l'est par l'océan Atlantique.",
+   "promptLanguage": "fr",
+   "options": [
+    "Pacifique",
+    "Indien",
+    "Arctique",
+    "Austral"
+   ],
+   "answer": "Pacifique",
+   "acceptedAnswers": [
+    "Pacifique"
+   ],
+   "explanation": "Le Pacifique borde toute la côte ouest des Amériques, de l'Alaska à la Terre de Feu. L'Atlantique les sépare de l'Europe et de l'Afrique.",
+   "tip": "Amériques : Pacifique à l'ouest, Atlantique à l'est.",
+   "extraExample": {
+    "text": "Les Andes se dressent tout près de la côte pacifique de l'Amérique du Sud.",
+    "translation": "Les fleuves de la côte ouest y sont donc courts et ceux de l'est très longs."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Indien",
+     "category": "word_confusion",
+     "feedback": "L'océan Indien est de l'autre côté du globe, entre l'Afrique, l'Asie et l'Australie."
+    },
+    {
+     "equals": "Arctique",
+     "category": "word_confusion",
+     "feedback": "L'Arctique borde seulement le nord du Canada et de l'Alaska."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e09",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.amazone",
+    "cg.v.andes",
+    "cg.v.aconcagua",
+    "cg.v.grands_lacs",
+    "cg.v.canal_de_panama"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque repère à sa description.",
+   "prompt": "Repères naturels des Amériques",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Amazone",
+     "right": "plus grand débit du monde"
+    },
+    {
+     "left": "Andes",
+     "right": "plus longue chaîne de montagnes continentale"
+    },
+    {
+     "left": "Aconcagua",
+     "right": "plus haut sommet des Amériques"
+    },
+    {
+     "left": "Grands Lacs",
+     "right": "cinq lacs entre le Canada et les États-Unis"
+    },
+    {
+     "left": "Canal de Panama",
+     "right": "relie l'Atlantique au Pacifique"
+    }
+   ],
+   "answer": "Amazone = plus grand débit du monde ; Andes = plus longue chaîne de montagnes continentale ; Aconcagua = plus haut sommet des Amériques ; Grands Lacs = cinq lacs entre le Canada et les États-Unis ; Canal de Panama = relie l'Atlantique au Pacifique",
+   "acceptedAnswers": [],
+   "explanation": "Ces repères balisent les Amériques : l'Amazone et les Andes en Amérique du Sud, les Grands Lacs au nord, le canal de Panama au centre.",
+   "tip": "Un fleuve, une chaîne, un sommet, des lacs, un canal.",
+   "extraExample": {
+    "text": "Les chutes du Niagara se trouvent entre le lac Érié et le lac Ontario.",
+    "translation": "Elles se trouvent sur la frontière entre le Canada et les États-Unis."
+   }
+  },
+  {
+   "id": "cg.l13.e10",
+   "unitIds": [
+    "cg.v.everest",
+    "cg.g13.ameriques"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le plus haut sommet du monde est ___ ; l'Aconcagua n'est que le plus haut des Amériques.",
+   "promptLanguage": "fr",
+   "options": [
+    "l'Everest",
+    "le K2",
+    "le Kilimandjaro",
+    "le Denali"
+   ],
+   "answer": "l'Everest",
+   "acceptedAnswers": [
+    "l'Everest",
+    "Everest"
+   ],
+   "explanation": "L'Everest (environ 8 850 m) domine tous les autres sommets de la Terre. L'Aconcagua (environ 6 960 m) est le plus haut hors d'Asie.",
+   "tip": "Au monde : Everest ; hors d'Asie : Aconcagua.",
+   "extraExample": {
+    "text": "Le Kilimandjaro (5 895 m) est le plus haut sommet d'Afrique.",
+    "translation": "Le Denali (environ 6 190 m) est le plus haut d'Amérique du Nord."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le K2",
+     "category": "word_confusion",
+     "feedback": "Le K2 est le deuxième sommet du monde (8 611 m)."
+    },
+    {
+     "equals": "le Kilimandjaro",
+     "category": "word_confusion",
+     "feedback": "Le Kilimandjaro est le plus haut sommet d'Afrique (5 895 m), loin de l'Everest."
+    },
+    {
+     "equals": "le Denali",
+     "category": "word_confusion",
+     "feedback": "Le Denali, en Alaska, est le plus haut sommet d'Amérique du Nord, mais pas du monde."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e11",
+   "unitIds": [
+    "cg.v.ocean_atlantique",
+    "cg.v.amazone"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel océan l'Amazone se jette-t-elle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'océan Atlantique",
+    "L'océan Pacifique",
+    "L'océan Indien",
+    "L'océan Arctique"
+   ],
+   "answer": "L'océan Atlantique",
+   "acceptedAnswers": [
+    "L'océan Atlantique"
+   ],
+   "explanation": "L'Amazone naît dans les Andes, tout près du Pacifique, mais elle coule vers l'est à travers le Brésil et se jette dans l'Atlantique.",
+   "tip": "Les fleuves nés des Andes coulent presque tous vers l'Atlantique.",
+   "extraExample": {
+    "text": "Le Congo, en Afrique, se jette aussi dans l'Atlantique.",
+    "translation": "Il est le fleuve au plus fort débit d'Afrique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'océan Pacifique",
+     "category": "word_confusion",
+     "feedback": "L'Amazone naît à moins de 200 km du Pacifique, mais elle traverse tout le continent vers l'est."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e12",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.canal_de_panama"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Une phrase-repère sur le canal de Panama.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "relie",
+    "Le",
+    "au",
+    "l'Atlantique",
+    "canal",
+    "Pacifique",
+    "de",
+    "Panama"
+   ],
+   "answer": "Le canal de Panama relie l'Atlantique au Pacifique",
+   "acceptedAnswers": [
+    "Le canal de Panama relie l'Atlantique au Pacifique"
+   ],
+   "explanation": "Le canal de Panama traverse l'isthme et permet aux navires de passer d'un océan à l'autre sans contourner l'Amérique du Sud.",
+   "tip": "Canal + relie + A au B.",
+   "extraExample": {
+    "text": "Le canal de Suez relie la Méditerranée à la mer Rouge.",
+    "translation": "Même structure de phrase, autre canal."
+   }
+  },
+  {
+   "id": "cg.l13.e13",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.grands_lacs"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Lequel de ces lacs ne fait PAS partie des Grands Lacs d'Amérique du Nord ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le lac Titicaca",
+    "Le lac Michigan",
+    "Le lac Érié",
+    "Le lac Ontario"
+   ],
+   "answer": "Le lac Titicaca",
+   "acceptedAnswers": [
+    "Le lac Titicaca"
+   ],
+   "explanation": "Les cinq Grands Lacs sont le Supérieur, le Michigan, le Huron, l'Érié et l'Ontario. Le Titicaca est un lac des Andes, entre le Pérou et la Bolivie.",
+   "tip": "HOMES : Huron, Ontario, Michigan, Érié, Supérieur.",
+   "extraExample": {
+    "text": "Le lac Supérieur est le plus grand lac d'eau douce du monde par la surface.",
+    "translation": "Il est presque aussi vaste que l'Autriche."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le lac Michigan",
+     "category": "word_confusion",
+     "feedback": "Le lac Michigan est bien l'un des Grands Lacs, et le seul entièrement situé aux États-Unis."
+    },
+    {
+     "equals": "Le lac Érié",
+     "category": "word_confusion",
+     "feedback": "Le lac Érié est l'un des cinq Grands Lacs, juste en amont des chutes du Niagara."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e14",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.groenland"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "De quel pays européen le Groenland dépend-il ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Du Danemark",
+    "De la Norvège",
+    "De l'Islande",
+    "Du Royaume-Uni"
+   ],
+   "answer": "Du Danemark",
+   "acceptedAnswers": [
+    "Du Danemark"
+   ],
+   "explanation": "Le Groenland est un territoire autonome du Royaume du Danemark. Géographiquement, il appartient pourtant à l'Amérique du Nord.",
+   "tip": "Groenland = Amérique du Nord pour la géographie, Danemark pour la politique.",
+   "extraExample": {
+    "text": "Nuuk, sur la côte sud-ouest, est la capitale du Groenland.",
+    "translation": "Elle compte environ 20 000 habitants."
+   },
+   "errorPatterns": [
+    {
+     "equals": "De la Norvège",
+     "category": "word_confusion",
+     "feedback": "Le Groenland a longtemps été lié à la Norvège, mais c'est le Danemark qui en est responsable aujourd'hui."
+    },
+    {
+     "equals": "De l'Islande",
+     "category": "word_confusion",
+     "feedback": "L'Islande est un pays indépendant, voisin du Groenland mais distinct."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e15",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.la_paz"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "En Bolivie, le gouvernement siège à ___, ville située à environ 3 600 m d'altitude.",
+   "promptLanguage": "fr",
+   "options": [
+    "La Paz",
+    "Sucre",
+    "Santa Cruz",
+    "Cochabamba"
+   ],
+   "answer": "La Paz",
+   "acceptedAnswers": [
+    "La Paz"
+   ],
+   "explanation": "La Paz abrite le gouvernement et le Parlement boliviens, tandis que Sucre est la capitale constitutionnelle et le siège de la justice. C'est l'un des sièges de gouvernement les plus hauts du monde.",
+   "tip": "Bolivie : La Paz (gouvernement), Sucre (capitale constitutionnelle).",
+   "extraExample": {
+    "text": "Le lac Titicaca, entre le Pérou et la Bolivie, est à environ 3 800 m d'altitude.",
+    "translation": "C'est l'un des plus hauts lacs navigables du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sucre",
+     "category": "word_confusion",
+     "feedback": "Sucre est la capitale constitutionnelle de la Bolivie, mais le gouvernement siège à La Paz."
+    },
+    {
+     "equals": "Santa Cruz",
+     "category": "word_confusion",
+     "feedback": "Santa Cruz de la Sierra est la plus grande ville du pays, dans les plaines de l'est."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e16",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.aconcagua"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le plus haut sommet des Amériques est l'___, en Argentine.",
+   "promptLanguage": "fr",
+   "options": [
+    "Aconcagua",
+    "Denali",
+    "Chimborazo",
+    "Huascarán"
+   ],
+   "answer": "Aconcagua",
+   "acceptedAnswers": [
+    "Aconcagua"
+   ],
+   "explanation": "L'Aconcagua culmine à environ 6 960 m dans les Andes argentines. C'est le plus haut sommet du monde hors d'Asie.",
+   "tip": "Aconcagua = Argentine, près de 7 000 m ; Denali = Alaska.",
+   "extraExample": {
+    "text": "Le Chimborazo, en Équateur, est le point de la surface terrestre le plus éloigné du centre de la Terre.",
+    "translation": "La Terre est renflée à l'équateur, ce qui compense sa hauteur modeste de 6 263 m."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Denali",
+     "category": "word_confusion",
+     "feedback": "Le Denali, en Alaska, culmine à environ 6 190 m : c'est le plus haut d'Amérique du Nord, pas des Amériques."
+    },
+    {
+     "equals": "Chimborazo",
+     "category": "word_confusion",
+     "feedback": "Le Chimborazo (6 263 m), en Équateur, est moins haut que l'Aconcagua."
+    },
+    {
+     "equals": "Huascarán",
+     "category": "word_confusion",
+     "feedback": "Le Huascarán (6 768 m) est le plus haut sommet du Pérou ; l'Aconcagua le dépasse."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e17",
+   "unitIds": [
+    "cg.v.abuja",
+    "cg.v.ankara",
+    "cg.v.islamabad",
+    "cg.v.wellington",
+    "cg.v.naypyidaw"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque pays à sa capitale.",
+   "prompt": "Rappel : les capitales piégeuses d'Afrique, d'Asie et d'Océanie",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Nigeria",
+     "right": "Abuja"
+    },
+    {
+     "left": "Turquie",
+     "right": "Ankara"
+    },
+    {
+     "left": "Pakistan",
+     "right": "Islamabad"
+    },
+    {
+     "left": "Nouvelle-Zélande",
+     "right": "Wellington"
+    },
+    {
+     "left": "Birmanie (Myanmar)",
+     "right": "Naypyidaw"
+    }
+   ],
+   "answer": "Nigeria = Abuja ; Turquie = Ankara ; Pakistan = Islamabad ; Nouvelle-Zélande = Wellington ; Birmanie (Myanmar) = Naypyidaw",
+   "acceptedAnswers": [],
+   "explanation": "À chaque fois, la plus grande ville (Lagos, Istanbul, Karachi, Auckland, Rangoun) n'est pas la capitale : ce sont Abuja, Ankara, Islamabad, Wellington et Naypyidaw.",
+   "tip": "Repère la grande ville célèbre : ce n'est presque jamais la bonne réponse.",
+   "extraExample": {
+    "text": "Dans toutes les parties du monde, des capitales ont été créées ou déplacées pour des raisons politiques.",
+    "translation": "Brasilia, Canberra et Abuja en sont trois exemples."
+   }
+  },
+  {
+   "id": "cg.l13.e18",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.ottawa"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la capitale du Canada ?",
+   "promptLanguage": "fr",
+   "answer": "Ottawa",
+   "acceptedAnswers": [
+    "Ottawa"
+   ],
+   "explanation": "Ottawa, sur la rivière des Outaouais, a été choisie comme capitale en 1857 par la reine Victoria. Toronto est la plus grande ville du pays et Montréal la deuxième.",
+   "tip": "Canada → Ottawa, ni Toronto ni Montréal.",
+   "extraExample": {
+    "text": "Ottawa est située à la frontière entre l'Ontario, anglophone, et le Québec, francophone.",
+    "translation": "Ce choix devait ménager les deux communautés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "toronto",
+     "category": "word_confusion",
+     "feedback": "Toronto est la plus grande ville du Canada, mais la capitale est Ottawa."
+    },
+    {
+     "equals": "montréal",
+     "category": "word_confusion",
+     "feedback": "Montréal est la deuxième ville du Canada et la grande métropole francophone, mais la capitale est Ottawa."
+    },
+    {
+     "equals": "montreal",
+     "category": "word_confusion",
+     "feedback": "Montréal est la deuxième ville du Canada et la grande métropole francophone, mais la capitale est Ottawa."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e19",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.groenland"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la plus grande île du monde, située au nord-est du Canada ?",
+   "promptLanguage": "fr",
+   "answer": "Groenland",
+   "acceptedAnswers": [
+    "Groenland",
+    "Le Groenland",
+    "Greenland"
+   ],
+   "explanation": "Avec plus de 2 millions de km², le Groenland est la plus grande île du monde, et environ 80 % de sa surface est recouverte de glace. L'Australie, plus vaste, est classée comme continent.",
+   "tip": "Plus grande île = Groenland.",
+   "extraExample": {
+    "text": "La Nouvelle-Guinée est la deuxième île du monde, devant Bornéo.",
+    "translation": "Elle est partagée entre l'Indonésie et la Papouasie-Nouvelle-Guinée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "madagascar",
+     "category": "word_confusion",
+     "feedback": "Madagascar, au large de l'Afrique, est la quatrième île du monde."
+    },
+    {
+     "equals": "australie",
+     "category": "word_confusion",
+     "feedback": "L'Australie est plus vaste, mais on la considère comme un continent et non comme une île."
+    },
+    {
+     "equals": "bornéo",
+     "category": "word_confusion",
+     "feedback": "Bornéo est la troisième île du monde, loin derrière le Groenland."
+    }
+   ]
+  },
+  {
+   "id": "cg.l13.e20",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.aconcagua"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans quel pays se trouve l'Aconcagua, plus haut sommet des Amériques ?",
+   "promptLanguage": "fr",
+   "answer": "Argentine",
+   "acceptedAnswers": [
+    "Argentine",
+    "L'Argentine",
+    "en Argentine"
+   ],
+   "explanation": "L'Aconcagua se dresse dans la province argentine de Mendoza, tout près de la frontière chilienne, dans la cordillère des Andes.",
+   "tip": "Aconcagua = Argentine, au bord de la frontière avec le Chili.",
+   "extraExample": {
+    "text": "La province de Mendoza est aussi célèbre pour ses vins.",
+    "translation": "Elle se trouve à l'ouest de l'Argentine, au pied des Andes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "chili",
+     "category": "word_confusion",
+     "feedback": "L'Aconcagua est tout près de la frontière chilienne, mais son sommet est du côté argentin."
+    }
+   ]
+  }
+ ]
+}

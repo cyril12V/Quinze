@@ -1,0 +1,834 @@
+{
+ "lessonId": "ar.l02",
+ "exercises": [
+  {
+   "id": "ar.l02.e01",
+   "unitIds": [
+    "ar.v.nun",
+    "ar.g02.nun_ya_five_teeth"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le nom de la lettre.",
+   "prompt": "Quelle lettre vois-tu ici : نـ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "bâ' (b)",
+    "nûn (n)",
+    "tâ' (t)",
+    "yâ' (y, î)"
+   ],
+   "answer": "nûn (n)",
+   "acceptedAnswers": [
+    "nûn (n)"
+   ],
+   "hint": "Un seul point : où est-il ?",
+   "explanation": "Une dent attachée à gauche, avec un seul point au-dessus : c'est ن, sous sa forme du début (نـ).",
+   "tip": "Un point dessus = n.",
+   "extraExample": {
+    "text": "نَبَات",
+    "translation": "la plante (ن au début)",
+    "transliteration": "nabât"
+   },
+   "errorPatterns": [
+    {
+     "equals": "bâ' (b)",
+     "category": "spelling",
+     "feedback": "ب a son point en dessous. Ici il est au-dessus : c'est ن."
+    },
+    {
+     "equals": "tâ' (t)",
+     "category": "spelling",
+     "feedback": "ت a deux points. Ici il n'y en a qu'un : c'est ن."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e02",
+   "unitIds": [
+    "ar.v.ya",
+    "ar.g02.nun_ya_five_teeth"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le nom de la lettre.",
+   "prompt": "Quelle lettre vois-tu ici : ـيـ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "bâ' (b)",
+    "tâ' (t)",
+    "nûn (n)",
+    "yâ' (y, î)"
+   ],
+   "answer": "yâ' (y, î)",
+   "acceptedAnswers": [
+    "yâ' (y, î)"
+   ],
+   "hint": "Compte les points, puis regarde où ils sont.",
+   "explanation": "Une dent attachée des deux côtés, avec deux points en dessous : c'est ي, sous sa forme du milieu (ـيـ).",
+   "tip": "Deux points dessous = y.",
+   "extraExample": {
+    "text": "بَيْنَ",
+    "translation": "entre (ي au milieu)",
+    "transliteration": "bayna"
+   },
+   "errorPatterns": [
+    {
+     "equals": "tâ' (t)",
+     "category": "spelling",
+     "feedback": "ت a aussi deux points, mais au-dessus. Ici ils sont en dessous : c'est ي."
+    },
+    {
+     "equals": "bâ' (b)",
+     "category": "spelling",
+     "feedback": "ب n'a qu'un point. Ici il y en a deux, en dessous : c'est ي."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e03",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.nun"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Quelle lettre a un seul point au-dessus de sa dent ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ب",
+    "ت",
+    "ن",
+    "ي"
+   ],
+   "answer": "ن",
+   "acceptedAnswers": [
+    "ن"
+   ],
+   "hint": "Pense au n de « nuit ».",
+   "explanation": "ن a un point au-dessus. ب a aussi un seul point, mais en dessous ; ت a deux points dessus ; ي a deux points dessous.",
+   "tip": "Un seul point : dessous = ب, dessus = ن.",
+   "extraExample": {
+    "text": "تِين",
+    "translation": "les figues (ن à la fin)",
+    "transliteration": "tîn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ب",
+     "category": "spelling",
+     "feedback": "ب n'a qu'un point, mais il est en dessous."
+    },
+    {
+     "equals": "ت",
+     "category": "spelling",
+     "feedback": "ت a deux points. Ici on cherche un seul point."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e04",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.nun",
+    "ar.v.ya",
+    "ar.v.tha",
+    "ar.v.ba"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque forme au nom de sa lettre.",
+   "prompt": "Des formes de ن ي ث ب à reconnaître",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "نـ",
+     "right": "nûn (n)"
+    },
+    {
+     "left": "ـيـ",
+     "right": "yâ' (y, î)"
+    },
+    {
+     "left": "ـث",
+     "right": "thâ' (th)"
+    },
+    {
+     "left": "ـبـ",
+     "right": "bâ' (b)"
+    }
+   ],
+   "answer": "نـ = nûn (n) ; ـيـ = yâ' (y, î) ; ـث = thâ' (th) ; ـبـ = bâ' (b)",
+   "acceptedAnswers": [],
+   "explanation": "نـ (un point dessus) = n, ـيـ (deux points dessous) = y, ـث (trois points dessus) = th, ـبـ (un point dessous) = b.",
+   "tip": "Compte les points, puis regarde où ils sont : c'est tout ce qui compte."
+  },
+  {
+   "id": "ar.l02.e05",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.tin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit تِين ?",
+   "promptLanguage": "fr",
+   "options": [
+    "tîn",
+    "nîn",
+    "bîn",
+    "yîn"
+   ],
+   "answer": "tîn",
+   "acceptedAnswers": [
+    "tîn"
+   ],
+   "hint": "Regarde les points de la première lettre.",
+   "explanation": "Deux points au-dessus de la première lettre : ت (t). Puis ي (î long) et ن (n). On lit tîn, « les figues ».",
+   "tip": "Première lettre : deux points dessus = t.",
+   "extraExample": {
+    "text": "شَجَرَةُ تِين",
+    "translation": "un figuier",
+    "transliteration": "chadjaratu tîn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "nîn",
+     "category": "spelling",
+     "feedback": "La première lettre a deux points au-dessus : c'est ت (t). Le ن est la dernière lettre."
+    },
+    {
+     "equals": "bîn",
+     "category": "spelling",
+     "feedback": "ب a un point en dessous. Ici les deux points sont au-dessus : c'est ت."
+    },
+    {
+     "equals": "yîn",
+     "category": "spelling",
+     "feedback": "Deux points au-dessus de la première lettre, c'est ت. Pour ي, ils seraient en dessous."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e06",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.ba",
+    "ar.v.ta",
+    "ar.v.tha",
+    "ar.v.nun",
+    "ar.v.ya"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque description à sa lettre.",
+   "prompt": "Compter les points",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1 point dessous",
+     "right": "ب"
+    },
+    {
+     "left": "2 points dessus",
+     "right": "ت"
+    },
+    {
+     "left": "3 points dessus",
+     "right": "ث"
+    },
+    {
+     "left": "1 point dessus",
+     "right": "ن"
+    },
+    {
+     "left": "2 points dessous",
+     "right": "ي"
+    }
+   ],
+   "answer": "1 point dessous = ب ; 2 points dessus = ت ; 3 points dessus = ث ; 1 point dessus = ن ; 2 points dessous = ي",
+   "acceptedAnswers": [],
+   "explanation": "Cinq lettres, un seul corps : ب (1 dessous), ت (2 dessus), ث (3 dessus), ن (1 dessus), ي (2 dessous).",
+   "tip": "Nombre de points, puis place des points : jamais le corps de la lettre."
+  },
+  {
+   "id": "ar.l02.e07",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.ba",
+    "ar.v.ya"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Parmi ب ت ث ن ي, lesquelles ont leurs points en dessous ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ب et ي",
+    "ت et ن",
+    "ث et ن",
+    "ب et ت"
+   ],
+   "answer": "ب et ي",
+   "acceptedAnswers": [
+    "ب et ي"
+   ],
+   "explanation": "ب (1 point) et ي (2 points) ont leurs points sous la dent. ت, ث et ن les ont au-dessus.",
+   "tip": "Dessous : seulement ب et ي. Tout le reste est dessus.",
+   "extraExample": {
+    "text": "بَيْنَ",
+    "translation": "entre (ب et ي : points dessous)",
+    "transliteration": "bayna"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ت et ن",
+     "category": "spelling",
+     "feedback": "Ce sont justement deux lettres dont les points sont au-dessus."
+    },
+    {
+     "equals": "ب et ت",
+     "category": "spelling",
+     "feedback": "ب a son point dessous, mais ت a ses deux points dessus."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e08",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.nun"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Dans بَنَات (les filles), sous quelle forme est le ن ?",
+   "promptLanguage": "fr",
+   "options": [
+    "initiale",
+    "médiane",
+    "finale",
+    "isolée"
+   ],
+   "answer": "médiane",
+   "acceptedAnswers": [
+    "médiane"
+   ],
+   "explanation": "Le ن est entre ب, qui s'attache à lui, et ا, qui s'attache à lui aussi : il est relié des deux côtés, donc en forme du milieu (ـنـ).",
+   "tip": "Relié des deux côtés = forme du milieu.",
+   "extraExample": {
+    "text": "نَبَات",
+    "translation": "la plante (ن au début)",
+    "transliteration": "nabât"
+   },
+   "errorPatterns": [
+    {
+     "equals": "isolée",
+     "category": "grammar",
+     "feedback": "Le ن est relié à ب et à ا : seule la lettre qui suit ا (le ت final) est isolée."
+    },
+    {
+     "equals": "initiale",
+     "category": "grammar",
+     "feedback": "La forme initiale est la première lettre du mot. Ici, ن vient après ب."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e09",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.banat"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit بَنَات ?",
+   "promptLanguage": "fr",
+   "options": [
+    "banât",
+    "batât",
+    "bayât",
+    "nabât"
+   ],
+   "answer": "banât",
+   "acceptedAnswers": [
+    "banât"
+   ],
+   "hint": "Regarde où est le point de la deuxième lettre.",
+   "explanation": "ب (point dessous), ن (point dessus), ا (â long), ت (deux points dessus) : banât, « les filles ».",
+   "tip": "Un point dessous d'abord (b), puis un point dessus (n).",
+   "extraExample": {
+    "text": "بِنْت",
+    "translation": "une fille",
+    "transliteration": "bint"
+   },
+   "errorPatterns": [
+    {
+     "equals": "nabât",
+     "category": "spelling",
+     "feedback": "C'est l'ordre inverse : la première lettre a son point dessous (ب), le ن ne vient qu'en deuxième."
+    },
+    {
+     "equals": "bayât",
+     "category": "spelling",
+     "feedback": "La deuxième lettre n'a qu'un point : c'est ن (n). ي en aurait deux, dessous."
+    },
+    {
+     "equals": "batât",
+     "category": "spelling",
+     "feedback": "La deuxième lettre a un seul point au-dessus : c'est ن. ت en aurait deux."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e10",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.bayna",
+    "ar.v.ya"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Choisis la lettre qui manque.",
+   "prompt": "Entre (bayna) : بَـ___ـنَ",
+   "promptLanguage": "fr",
+   "options": [
+    "ـيـ",
+    "ـتـ",
+    "ـنـ"
+   ],
+   "answer": "ـيـ",
+   "acceptedAnswers": [
+    "ـيـ",
+    "ي"
+   ],
+   "explanation": "Bayna a un y au milieu : ي, deux points en dessous. À l'intérieur du mot, il prend la forme ـيـ : بَيْنَ.",
+   "tip": "Le son y = deux points dessous.",
+   "extraExample": {
+    "text": "بَيْت",
+    "translation": "la maison (ي au milieu)",
+    "transliteration": "bayt"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ـتـ",
+     "category": "spelling",
+     "feedback": "ـتـ (deux points dessus) donnerait « batna ». Pour le son y, les deux points sont dessous."
+    },
+    {
+     "equals": "ـنـ",
+     "category": "spelling",
+     "feedback": "ـنـ (un point dessus) donnerait « banna ». Il faut deux points dessous : ـيـ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e11",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.nun",
+    "ar.v.tin"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le nom de la forme : initiale, médiane, finale ou isolée.",
+   "prompt": "Dans تِين (les figues), le ن est en forme ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "initiale",
+    "médiane",
+    "finale",
+    "isolée"
+   ],
+   "answer": "finale",
+   "acceptedAnswers": [
+    "finale",
+    "final",
+    "de fin",
+    "fin",
+    "forme finale"
+   ],
+   "explanation": "Le ن est la dernière lettre du mot et il est relié au ي qui le précède : c'est sa forme finale, ـن.",
+   "tip": "Dernière lettre + attachée à droite = forme finale.",
+   "extraExample": {
+    "text": "حَبِيب",
+    "translation": "chéri (ب final attaché)",
+    "transliteration": "7abîb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "isolée",
+     "category": "grammar",
+     "feedback": "Le ن est relié au ي : il n'est pas isolé, il est en forme finale (ـن)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e12",
+   "unitIds": [
+    "ar.g01.alif_ba_ta_tha",
+    "ar.v.alif",
+    "ar.v.nabat"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Dans نَبَات (la plante), à quelle lettre le ا est-il attaché ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ب",
+    "ن",
+    "ت",
+    "ي"
+   ],
+   "answer": "ب",
+   "acceptedAnswers": [
+    "ب"
+   ],
+   "explanation": "ا s'accroche toujours à la lettre qui est avant lui : ici ب (ـبا). Il ne s'attache pas au ت qui le suit : ce ت est isolé.",
+   "tip": "ا se colle à la lettre d'avant, jamais à celle d'après.",
+   "extraExample": {
+    "text": "بَنَات",
+    "translation": "les filles",
+    "transliteration": "banât"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ت",
+     "category": "grammar",
+     "feedback": "ت vient après ا, et ا ne s'attache jamais à la lettre suivante."
+    },
+    {
+     "equals": "ن",
+     "category": "grammar",
+     "feedback": "Le ن est la première lettre du mot ; ا est collé au ب qui le précède directement."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e13",
+   "unitIds": [
+    "ar.v.kitab",
+    "ar.g01.alif_ba_ta_tha"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots se lit kitâb (le livre) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "كِتَاب",
+    "كِنَاب",
+    "كِيَاب",
+    "كِبَاب"
+   ],
+   "answer": "كِتَاب",
+   "acceptedAnswers": [
+    "كِتَاب"
+   ],
+   "explanation": "Il faut deux points au-dessus de la dent du milieu : ت (t). كِنَاب aurait un point dessus (n), كِيَاب deux points dessous (y), كِبَاب un point dessous (b).",
+   "tip": "Pour retrouver t : deux points, et au-dessus.",
+   "extraExample": {
+    "text": "كُتُب",
+    "translation": "des livres",
+    "transliteration": "kutub"
+   },
+   "errorPatterns": [
+    {
+     "equals": "كِنَاب",
+     "category": "spelling",
+     "feedback": "Un seul point au-dessus, c'est ن : on lirait « kinâb »."
+    },
+    {
+     "equals": "كِيَاب",
+     "category": "spelling",
+     "feedback": "Deux points dessous, c'est ي : on lirait « kiyâb »."
+    },
+    {
+     "equals": "كِبَاب",
+     "category": "spelling",
+     "feedback": "Un point dessous, c'est ب : on lirait « kibâb »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e14",
+   "unitIds": [
+    "ar.v.thawb",
+    "ar.g01.alif_ba_ta_tha"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots se lit thawb (le vêtement) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ثَوْب",
+    "تَوْب",
+    "نَوْب",
+    "يَوْب"
+   ],
+   "answer": "ثَوْب",
+   "acceptedAnswers": [
+    "ثَوْب"
+   ],
+   "explanation": "Il faut trois points au-dessus de la première lettre : ث (th). تَوْب aurait deux points (t), نَوْب un point (n), يَوْب deux points dessous (y).",
+   "tip": "Trois points dessus = th.",
+   "extraExample": {
+    "text": "ثِيَاب",
+    "translation": "des vêtements",
+    "transliteration": "thiyâb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "تَوْب",
+     "category": "spelling",
+     "feedback": "Deux points seulement : on lirait « tawb ». Pour th, il en faut trois."
+    },
+    {
+     "equals": "نَوْب",
+     "category": "spelling",
+     "feedback": "Un seul point : on lirait « nawb ». Pour th, il en faut trois."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e15",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.tin",
+    "ar.v.banat",
+    "ar.v.nabat",
+    "ar.v.bayna"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Quatre mots à lire d'un coup d'œil",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "تِين",
+     "right": "les figues"
+    },
+    {
+     "left": "بَنَات",
+     "right": "les filles"
+    },
+    {
+     "left": "نَبَات",
+     "right": "la plante"
+    },
+    {
+     "left": "بَيْنَ",
+     "right": "entre"
+    }
+   ],
+   "answer": "تِين = les figues ; بَنَات = les filles ; نَبَات = la plante ; بَيْنَ = entre",
+   "acceptedAnswers": [],
+   "explanation": "تِين (tîn) = les figues, بَنَات (banât) = les filles, نَبَات (nabât) = la plante, بَيْنَ (bayna) = entre.",
+   "tip": "Lis les points avant de deviner : ils te donnent la lecture, donc le mot."
+  },
+  {
+   "id": "ar.l02.e16",
+   "unitIds": [
+    "ar.v.tin",
+    "ar.g02.nun_ya_five_teeth"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Touche les lettres dans l'ordre de lecture : la première lettre (à droite dans le mot) d'abord.",
+   "prompt": "Écris « tîn » (les figues) avec ces lettres.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ن",
+    "ت",
+    "ي"
+   ],
+   "answer": "ت ي ن",
+   "acceptedAnswers": [
+    "ت ي ن"
+   ],
+   "explanation": "Tîn : ت (t), ي (î long), ن (n). Attachées, ces lettres donnent تِين.",
+   "tip": "On lit de droite à gauche : la première lettre est à droite.",
+   "extraExample": {
+    "text": "تِينَة",
+    "translation": "une figue",
+    "transliteration": "tîna"
+   }
+  },
+  {
+   "id": "ar.l02.e17",
+   "unitIds": [
+    "ar.v.bayna",
+    "ar.g02.nun_ya_five_teeth"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Touche les lettres dans l'ordre de lecture : la première lettre (à droite dans le mot) d'abord.",
+   "prompt": "Écris « bayna » (entre) avec ces lettres.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ن",
+    "ب",
+    "ي"
+   ],
+   "answer": "ب ي ن",
+   "acceptedAnswers": [
+    "ب ي ن"
+   ],
+   "explanation": "Bayna : ب (b), ي (y), ن (n). Écrit avec les voyelles : بَيْنَ.",
+   "tip": "Les points te disent l'ordre : un dessous, deux dessous, un dessus.",
+   "extraExample": {
+    "text": "بَيْنِي وَبَيْنَكَ",
+    "translation": "entre moi et toi",
+    "transliteration": "baynî wa-baynaka"
+   }
+  },
+  {
+   "id": "ar.l02.e18",
+   "unitIds": [
+    "ar.v.tin",
+    "ar.g02.nun_ya_five_teeth"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "تِين",
+   "promptLanguage": "ar",
+   "answer": "les figues",
+   "acceptedAnswers": [
+    "les figues",
+    "figues",
+    "des figues",
+    "la figue"
+   ],
+   "explanation": "تِين se lit tîn et veut dire « les figues » : ت, ي, ن.",
+   "tip": "Tîn : deux points dessus au début, un point dessus à la fin.",
+   "extraExample": {
+    "text": "تِينَة",
+    "translation": "une figue",
+    "transliteration": "tîna"
+   },
+   "errorPatterns": [
+    {
+     "equals": "les filles",
+     "category": "vocabulary",
+     "feedback": "Les filles se dit بَنَات (banât). تِين commence par ت (deux points dessus) : tîn, les figues."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e19",
+   "unitIds": [
+    "ar.v.nabat",
+    "ar.g02.nun_ya_five_teeth"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "نَبَات",
+   "promptLanguage": "ar",
+   "answer": "la plante",
+   "acceptedAnswers": [
+    "la plante",
+    "plante",
+    "une plante",
+    "les plantes",
+    "la végétation",
+    "végétation"
+   ],
+   "explanation": "نَبَات se lit nabât et veut dire « la plante », la végétation en général : ن, ب, ا, ت.",
+   "tip": "Nabât commence par un point dessus (n), pas dessous.",
+   "extraExample": {
+    "text": "نَبَاتَات",
+    "translation": "des plantes",
+    "transliteration": "nabâtât"
+   },
+   "errorPatterns": [
+    {
+     "equals": "les filles",
+     "category": "vocabulary",
+     "feedback": "Les filles se dit بَنَات (banât), qui commence par ب (point dessous). نَبَات commence par ن : nabât, la plante."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e20",
+   "unitIds": [
+    "ar.v.bayna",
+    "ar.g02.nun_ya_five_teeth"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture en lettres latines (â pour un a long).",
+   "prompt": "Comment se lit بَيْنَ (entre) ?",
+   "promptLanguage": "fr",
+   "answer": "bayna",
+   "acceptedAnswers": [
+    "bayna",
+    "bayn",
+    "baina"
+   ],
+   "explanation": "ب (b), ي (y, deux points dessous), ن (n) : bayna, « entre ».",
+   "tip": "Un point dessous, deux points dessous, un point dessus : b - y - n.",
+   "extraExample": {
+    "text": "بَيْنِي",
+    "translation": "entre moi",
+    "transliteration": "baynî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "batna",
+     "category": "spelling",
+     "feedback": "La deuxième lettre a ses deux points dessous : c'est ي (y), pas ت."
+    },
+    {
+     "equals": "banna",
+     "category": "spelling",
+     "feedback": "La deuxième lettre a deux points dessous : c'est ي (y), pas ن."
+    }
+   ]
+  },
+  {
+   "id": "ar.l02.e21",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.ya",
+    "ar.v.ba"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit بَيْت (la maison) ?",
+   "promptLanguage": "fr",
+   "answer": "bayt",
+   "acceptedAnswers": [
+    "bayt",
+    "bait"
+   ],
+   "explanation": "ب (b), ي (y, deux points dessous), ت (t, deux points dessus) : bayt, « la maison ». Le dernier ت a ses points au-dessus, pas au-dessous.",
+   "tip": "Même début que بَيْنَ, mais la dernière lettre est ت (deux points dessus).",
+   "extraExample": {
+    "text": "بَيْتِي",
+    "translation": "ma maison",
+    "transliteration": "baytî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "bayn",
+     "category": "spelling",
+     "feedback": "La dernière lettre a deux points au-dessus : c'est ت (t), pas ن."
+    },
+    {
+     "equals": "bayb",
+     "category": "spelling",
+     "feedback": "La dernière lettre a deux points au-dessus : c'est ت (t), pas ب."
+    }
+   ]
+  }
+ ]
+}

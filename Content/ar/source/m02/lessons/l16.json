@@ -1,0 +1,961 @@
+{
+ "lessonId": "ar.l16",
+ "exercises": [
+  {
+   "id": "ar.l16.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.alif",
+    "ar.v.lam"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire ال devant un nom ?",
+   "promptLanguage": "fr",
+   "answer": "le / la",
+   "acceptedAnswers": [
+    "le / la"
+   ],
+   "explanation": "ال (alif + lam) est l'article défini : il veut dire le / la. Pour « un / une », l'arabe n'ajoute rien.",
+   "tip": "ال = le / la.",
+   "extraExample": {
+    "text": "الباب",
+    "translation": "la porte"
+   },
+   "errorPatterns": [
+    {
+     "equals": "un / une",
+     "category": "grammar",
+     "feedback": "L'arabe n'a pas de mot pour « un / une » : on écrit seulement le nom."
+    },
+    {
+     "equals": "mon / ma",
+     "category": "grammar",
+     "feedback": "« mon / ma » s'ajoute à la fin du nom (ي), pas au début."
+    },
+    {
+     "equals": "et",
+     "category": "vocabulary",
+     "feedback": "« et » s'écrit و, une seule lettre collée au mot suivant."
+    }
+   ],
+   "options": [
+    "le / la",
+    "un / une",
+    "mon / ma",
+    "et"
+   ]
+  },
+  {
+   "id": "ar.l16.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.alif",
+    "ar.v.lam"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne écriture.",
+   "prompt": "Comment écrit-on « l'église » ?",
+   "promptLanguage": "fr",
+   "answer": "الكنيسة",
+   "acceptedAnswers": [
+    "الكنيسة"
+   ],
+   "explanation": "« l'église » = ال + كنيسة : le ا devant le ل, puis le nom. كنيسة seul veut dire « église ».",
+   "tip": "ال = ا puis ل, toujours dans cet ordre.",
+   "extraExample": {
+    "text": "البيت",
+    "translation": "la maison"
+   },
+   "errorPatterns": [
+    {
+     "equals": "كنيسة",
+     "category": "grammar",
+     "feedback": "كنيسة sans ال veut dire « église » ; pour « l'église », ajoute ال devant."
+    },
+    {
+     "equals": "لكنيسة",
+     "category": "spelling",
+     "feedback": "Il manque le ا devant le ل : ال = ا + ل."
+    },
+    {
+     "equals": "اكنيسة",
+     "category": "spelling",
+     "feedback": "Il manque le ل : l'article s'écrit ا puis ل."
+    }
+   ],
+   "options": [
+    "الكنيسة",
+    "كنيسة",
+    "لكنيسة",
+    "اكنيسة"
+   ]
+  },
+  {
+   "id": "ar.l16.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.masih"
+   ],
+   "difficulty": 2,
+   "instruction": "Compte les blocs.",
+   "prompt": "Combien de blocs compte المسيح ?",
+   "promptLanguage": "fr",
+   "answer": "2 blocs",
+   "acceptedAnswers": [
+    "2 blocs"
+   ],
+   "explanation": "المسيح = ا | لمسيح : 2 blocs. Le mot se coupe après ا.",
+   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "extraExample": {
+    "text": "المسيح",
+    "translation": "le Christ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "1 bloc",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لمسيح."
+    },
+    {
+     "equals": "3 blocs",
+     "category": "instruction",
+     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لمسيح."
+    },
+    {
+     "equals": "4 blocs",
+     "category": "instruction",
+     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لمسيح."
+    }
+   ],
+   "options": [
+    "1 bloc",
+    "2 blocs",
+    "3 blocs",
+    "4 blocs"
+   ]
+  },
+  {
+   "id": "ar.l16.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.adra"
+   ],
+   "difficulty": 3,
+   "instruction": "Compte les blocs.",
+   "prompt": "Combien de blocs compte العدرا ?",
+   "promptLanguage": "fr",
+   "answer": "4 blocs",
+   "acceptedAnswers": [
+    "4 blocs"
+   ],
+   "explanation": "العدرا = ا | لعد | ر | ا : 4 blocs. Le mot se coupe après ا et après د et après ر.",
+   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "extraExample": {
+    "text": "العدرا",
+    "translation": "la Vierge Marie"
+   },
+   "errorPatterns": [
+    {
+     "equals": "1 bloc",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لعد | ر | ا."
+    },
+    {
+     "equals": "2 blocs",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لعد | ر | ا."
+    },
+    {
+     "equals": "3 blocs",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لعد | ر | ا."
+    }
+   ],
+   "options": [
+    "1 bloc",
+    "2 blocs",
+    "3 blocs",
+    "4 blocs"
+   ]
+  },
+  {
+   "id": "ar.l16.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.malak"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « ange » ?",
+   "promptLanguage": "fr",
+   "answer": "ملاك",
+   "acceptedAnswers": [
+    "ملاك"
+   ],
+   "explanation": "« ange » s'écrit م + ل + ا + ك : ملاك. ملا | ك : la ligature لا ferme le premier bloc.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "ملاك الرب ظهر لهم.",
+    "translation": "L'ange du Seigneur leur est apparu."
+   },
+   "hint": "Cherche la ligature لا puis ك.",
+   "errorPatterns": [
+    {
+     "equals": "سلام",
+     "category": "word_confusion",
+     "feedback": "سلام (س + ل + ا + م) veut dire « paix ». Pour « ange », il faut م + ل + ا + ك : ملاك."
+    },
+    {
+     "equals": "كلام",
+     "category": "word_confusion",
+     "feedback": "كلام (ك + ل + ا + م) veut dire « paroles ». Pour « ange », il faut م + ل + ا + ك : ملاك."
+    },
+    {
+     "equals": "صلاة",
+     "category": "word_confusion",
+     "feedback": "صلاة (ص + ل + ا + ة) veut dire « prière ». Pour « ange », il faut م + ل + ا + ك : ملاك."
+    }
+   ],
+   "options": [
+    "ملاك",
+    "سلام",
+    "كلام",
+    "صلاة"
+   ]
+  },
+  {
+   "id": "ar.l16.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.amin"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « amen » ?",
+   "promptLanguage": "fr",
+   "answer": "آمين",
+   "acceptedAnswers": [
+    "آمين"
+   ],
+   "explanation": "« amen » s'écrit آ + م + ي + ن : آمين. آ | مين : le آ (alif surmonté d'une petite vague) ferme le premier bloc.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "بنقول آمين بعد الصلاة.",
+    "translation": "Nous disons amen après la prière."
+   },
+   "errorPatterns": [
+    {
+     "equals": "المسيح",
+     "category": "word_confusion",
+     "feedback": "المسيح (ا + ل + م + س + ي + ح) veut dire « le Christ ». Pour « amen », il faut آ + م + ي + ن : آمين."
+    },
+    {
+     "equals": "ملاك",
+     "category": "word_confusion",
+     "feedback": "ملاك (م + ل + ا + ك) veut dire « ange ». Pour « amen », il faut آ + م + ي + ن : آمين."
+    },
+    {
+     "equals": "سلام",
+     "category": "word_confusion",
+     "feedback": "سلام (س + ل + ا + م) veut dire « paix ». Pour « amen », il faut آ + م + ي + ن : آمين."
+    }
+   ],
+   "options": [
+    "آمين",
+    "المسيح",
+    "ملاك",
+    "سلام"
+   ]
+  },
+  {
+   "id": "ar.l16.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.la"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon signe.",
+   "prompt": "Quand un ل est suivi d'un ا, quel signe les remplace ?",
+   "promptLanguage": "fr",
+   "answer": "لا",
+   "acceptedAnswers": [
+    "لا"
+   ],
+   "explanation": "ل + ا se fondent en un seul signe, la ligature لا. ال, c'est l'article : ا puis ل, dans l'autre ordre.",
+   "tip": "ل puis ا dans un mot = لا.",
+   "extraExample": {
+    "text": "سلام",
+    "translation": "paix"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ال",
+     "category": "word_confusion",
+     "feedback": "ال est l'article (ا puis ل). La ligature, c'est ل puis ا : لا."
+    },
+    {
+     "equals": "ءا",
+     "category": "spelling",
+     "feedback": "ء est une autre lettre (la hamza)."
+    },
+    {
+     "equals": "لل",
+     "category": "spelling",
+     "feedback": "لل, ce sont deux ل."
+    }
+   ],
+   "options": [
+    "لا",
+    "ال",
+    "ءا",
+    "لل"
+   ]
+  },
+  {
+   "id": "ar.l16.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.masih"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans المسيح, quelle forme prend la lettre ل ?",
+   "promptLanguage": "fr",
+   "answer": "forme du début",
+   "acceptedAnswers": [
+    "forme du début"
+   ],
+   "explanation": "Dans المسيح (blocs : ا | لمسيح), la lettre ل s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ا qui précède ne s'attache pas : le ل repart à neuf et s'accroche à la suite, forme du début لـ.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "المسيح",
+    "translation": "le Christ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du milieu",
+     "category": "instruction",
+     "feedback": "Un trait ـ de chaque côté : c'est la forme du milieu."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l16.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.shammas"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « diacre » ?",
+   "promptLanguage": "fr",
+   "answer": "شماس",
+   "acceptedAnswers": [
+    "شماس"
+   ],
+   "explanation": "« diacre » s'écrit ش + م + ا + س : شماس. Le ا ferme le premier bloc : شما | س.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "ابني بقى شماس.",
+    "translation": "Mon fils est devenu diacre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "مزمور",
+     "category": "word_confusion",
+     "feedback": "مزمور (م + ز + م + و + ر) veut dire « psaume ». Pour « diacre », il faut ش + م + ا + س : شماس."
+    },
+    {
+     "equals": "كنيسة",
+     "category": "word_confusion",
+     "feedback": "كنيسة (ك + ن + ي + س + ة) veut dire « église ». Pour « diacre », il faut ش + م + ا + س : شماس."
+    },
+    {
+     "equals": "قداس",
+     "category": "word_confusion",
+     "feedback": "قداس (ق + د + ا + س) veut dire « liturgie ». Pour « diacre », il faut ش + م + ا + س : شماس."
+    }
+   ],
+   "options": [
+    "شماس",
+    "مزمور",
+    "كنيسة",
+    "قداس"
+   ]
+  },
+  {
+   "id": "ar.l16.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.injil"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "Lis ce mot : إنجيل",
+   "promptLanguage": "fr",
+   "answer": "Évangile",
+   "acceptedAnswers": [
+    "Évangile"
+   ],
+   "explanation": "Lettre par lettre : إ (alif + petit ء dessous), ن (1 point dessus), ج (1 point dessous), ي (2 points dessous), ل (sans point) donne إنجيل, « Évangile ». Le إ (alif avec petit ء dessous) ferme le premier bloc : إ | نجيل.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "الإنجيل بيتقرا في القداس.",
+    "translation": "L'Évangile est lu à la liturgie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "croix",
+     "category": "word_confusion",
+     "feedback": "« croix » s'écrit صليب (ص + ل + ي + ب). Ici tu lis إ + ن + ج + ي + ل : إنجيل veut dire « Évangile »."
+    },
+    {
+     "equals": "livre",
+     "category": "word_confusion",
+     "feedback": "« livre » s'écrit كتاب (ك + ت + ا + ب). Ici tu lis إ + ن + ج + ي + ل : إنجيل veut dire « Évangile »."
+    },
+    {
+     "equals": "cœur",
+     "category": "word_confusion",
+     "feedback": "« cœur » s'écrit قلب (ق + ل + ب). Ici tu lis إ + ن + ج + ي + ل : إنجيل veut dire « Évangile »."
+    }
+   ],
+   "options": [
+    "Évangile",
+    "croix",
+    "livre",
+    "cœur"
+   ]
+  },
+  {
+   "id": "ar.l16.e11",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.ghada"
+   ],
+   "difficulty": 2,
+   "instruction": "Compte les blocs.",
+   "prompt": "Combien de blocs compte غدا ?",
+   "promptLanguage": "fr",
+   "answer": "2 blocs",
+   "acceptedAnswers": [
+    "2 blocs"
+   ],
+   "explanation": "غدا = غد | ا : 2 blocs. Le mot se coupe après د.",
+   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "extraExample": {
+    "text": "غدا",
+    "translation": "déjeuner"
+   },
+   "errorPatterns": [
+    {
+     "equals": "1 bloc",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : غد | ا."
+    },
+    {
+     "equals": "3 blocs",
+     "category": "instruction",
+     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : غد | ا."
+    },
+    {
+     "equals": "4 blocs",
+     "category": "instruction",
+     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : غد | ا."
+    }
+   ],
+   "options": [
+    "1 bloc",
+    "2 blocs",
+    "3 blocs",
+    "4 blocs"
+   ]
+  },
+  {
+   "id": "ar.l16.e12",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.shay"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans شاي, quelle forme prend la lettre ي ?",
+   "promptLanguage": "fr",
+   "answer": "forme isolée",
+   "acceptedAnswers": [
+    "forme isolée"
+   ],
+   "explanation": "Dans شاي (blocs : شا | ي), la lettre ي ne s'accroche à aucune voisine : c'est la forme isolée. Le ا qui précède ne s'attache pas : le ي est seul, donc isolé.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "شاي",
+    "translation": "thé"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme du début",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à gauche, vers la lettre suivante : c'est la forme du début."
+    },
+    {
+     "equals": "forme du milieu",
+     "category": "instruction",
+     "feedback": "Un trait ـ de chaque côté : c'est la forme du milieu."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l16.e13",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.salat"
+   ],
+   "difficulty": 3,
+   "instruction": "Quel signe manque pour écrire « prière » ?",
+   "prompt": "صـ___ة",
+   "promptLanguage": "ar",
+   "answer": "لا",
+   "acceptedAnswers": [
+    "لا"
+   ],
+   "explanation": "صلاة contient la ligature لا : ص + لا + ة. Le ل et le ا sont fondus en un seul signe.",
+   "tip": "ل puis ا = لا.",
+   "extraExample": {
+    "text": "صلاة الصبح.",
+    "translation": "La prière du matin."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ال",
+     "category": "word_confusion",
+     "feedback": "ال, c'est ا puis ل ; dans صلاة, c'est ل puis ا : لا."
+    },
+    {
+     "equals": "ل",
+     "category": "spelling",
+     "feedback": "Seul, ل ne suffit pas : il manque le ا, fondu dans la ligature."
+    },
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "Seul, ا ne suffit pas : il manque le ل, fondu dans la ligature."
+    }
+   ],
+   "options": [
+    "لا",
+    "ال",
+    "ل",
+    "ا"
+   ]
+  },
+  {
+   "id": "ar.l16.e14",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.salam"
+   ],
+   "difficulty": 3,
+   "instruction": "Quel signe manque pour écrire « paix » ?",
+   "prompt": "سـ___م",
+   "promptLanguage": "ar",
+   "answer": "لا",
+   "acceptedAnswers": [
+    "لا"
+   ],
+   "explanation": "سلام s'écrit س + لا + م : la ligature لا ferme le premier bloc, puis م reste seul.",
+   "tip": "Après لا, la lettre suivante repart à neuf.",
+   "extraExample": {
+    "text": "السلام لكم.",
+    "translation": "La paix soit avec vous."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ال",
+     "category": "word_confusion",
+     "feedback": "ال est l'article ; ici il faut la ligature ل + ا : لا."
+    }
+   ],
+   "options": [
+    "لا",
+    "ال",
+    "ل",
+    "ا"
+   ]
+  },
+  {
+   "id": "ar.l16.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.bab"
+   ],
+   "difficulty": 2,
+   "instruction": "Quelle lettre manque pour écrire « la porte » ?",
+   "prompt": "ا___ـبـاب",
+   "promptLanguage": "ar",
+   "answer": "ل",
+   "acceptedAnswers": [
+    "ل"
+   ],
+   "explanation": "« la porte » = ال + باب : ا, puis ل, puis باب. Le ل s'accroche à ce qui suit.",
+   "tip": "ال : ا puis ل.",
+   "extraExample": {
+    "text": "الباب",
+    "translation": "la porte"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "Le ا est déjà écrit au début ; il manque le ل."
+    },
+    {
+     "equals": "ن",
+     "category": "spelling",
+     "feedback": "ن a un point dessus ; l'article ne contient pas de ن."
+    }
+   ],
+   "options": [
+    "ل",
+    "ا",
+    "ب",
+    "ن"
+   ]
+  },
+  {
+   "id": "ar.l16.e16",
+   "type": "match",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.salat",
+    "ar.v.salam",
+    "ar.v.kalam",
+    "ar.v.balash",
+    "ar.v.malak"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots avec la ligature لا",
+   "promptLanguage": "fr",
+   "answer": "صلاة = prière ; سلام = paix ; كلام = paroles ; بلاش = gratuit ; ملاك = ange",
+   "acceptedAnswers": [],
+   "explanation": "Tous contiennent لا : cherche les lettres autour : ص, س, ك, ب, م.",
+   "pairs": [
+    {
+     "left": "صلاة",
+     "right": "prière"
+    },
+    {
+     "left": "سلام",
+     "right": "paix"
+    },
+    {
+     "left": "كلام",
+     "right": "paroles"
+    },
+    {
+     "left": "بلاش",
+     "right": "gratuit"
+    },
+    {
+     "left": "ملاك",
+     "right": "ange"
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e17",
+   "type": "match",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.masih",
+    "ar.v.adra",
+    "ar.v.amin",
+    "ar.v.qurban",
+    "ar.v.injil"
+   ],
+   "difficulty": 3,
+   "instruction": "Associe chaque mot d'église à son sens.",
+   "prompt": "Le Christ, la Vierge, amen, l'offrande, l'Évangile",
+   "promptLanguage": "fr",
+   "answer": "المسيح = le Christ ; العدرا = la Vierge Marie ; آمين = amen ; قربان = pain d'offrande ; إنجيل = Évangile",
+   "acceptedAnswers": [],
+   "explanation": "Ce sont des mots que tu dis à l'église : lis-les bloc par bloc.",
+   "pairs": [
+    {
+     "left": "المسيح",
+     "right": "le Christ"
+    },
+    {
+     "left": "العدرا",
+     "right": "la Vierge Marie"
+    },
+    {
+     "left": "آمين",
+     "right": "amen"
+    },
+    {
+     "left": "قربان",
+     "right": "pain d'offrande"
+    },
+    {
+     "left": "إنجيل",
+     "right": "Évangile"
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e18",
+   "type": "match",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.bayt",
+    "ar.v.kanisa",
+    "ar.v.salib",
+    "ar.v.eid"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa forme avec ال.",
+   "prompt": "Ajouter ال devant un nom",
+   "promptLanguage": "fr",
+   "answer": "بيت = البيت ; كنيسة = الكنيسة ; صليب = الصليب ; عيد = العيد",
+   "acceptedAnswers": [],
+   "explanation": "ال se met devant le nom : ا + ل + nom. Le ل s'accroche au nom, le ا reste seul.",
+   "pairs": [
+    {
+     "left": "بيت",
+     "right": "البيت"
+    },
+    {
+     "left": "كنيسة",
+     "right": "الكنيسة"
+    },
+    {
+     "left": "صليب",
+     "right": "الصليب"
+    },
+    {
+     "left": "عيد",
+     "right": "العيد"
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e19",
+   "type": "match",
+   "unitIds": [
+    "ar.v.bayt",
+    "ar.v.bab",
+    "ar.v.ward",
+    "ar.v.tin",
+    "ar.v.nabi"
+   ],
+   "difficulty": 2,
+   "instruction": "Révision : mots des leçons 9 et 10.",
+   "prompt": "Maison, porte, fleurs, figues, prophète",
+   "promptLanguage": "fr",
+   "answer": "بيت = maison ; باب = porte ; ورد = fleurs ; تين = figues ; نبي = prophète",
+   "acceptedAnswers": [],
+   "explanation": "Points et blocs : بيت (1 bloc), باب (2 blocs), ورد (3 blocs).",
+   "pairs": [
+    {
+     "left": "بيت",
+     "right": "maison"
+    },
+    {
+     "left": "باب",
+     "right": "porte"
+    },
+    {
+     "left": "ورد",
+     "right": "fleurs"
+    },
+    {
+     "left": "تين",
+     "right": "figues"
+    },
+    {
+     "left": "نبي",
+     "right": "prophète"
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e20",
+   "type": "match",
+   "unitIds": [
+    "ar.v.habibi",
+    "ar.v.bakhur",
+    "ar.v.shay",
+    "ar.v.sabah",
+    "ar.v.jaras"
+   ],
+   "difficulty": 2,
+   "instruction": "Révision : mots des leçons 11 et 12.",
+   "prompt": "Chéri, encens, thé, matin, cloche",
+   "promptLanguage": "fr",
+   "answer": "حبيبي = mon chéri ; بخور = encens ; شاي = thé ; صباح = matin ; جرس = cloche",
+   "acceptedAnswers": [],
+   "explanation": "Cherche le crochet ج ح خ, les dents س ش et la boucle ص ض.",
+   "pairs": [
+    {
+     "left": "حبيبي",
+     "right": "mon chéri"
+    },
+    {
+     "left": "بخور",
+     "right": "encens"
+    },
+    {
+     "left": "شاي",
+     "right": "thé"
+    },
+    {
+     "left": "صباح",
+     "right": "matin"
+    },
+    {
+     "left": "جرس",
+     "right": "cloche"
+    }
+   ]
+  },
+  {
+   "id": "ar.l16.e21",
+   "type": "translation",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.la"
+   ],
+   "difficulty": 1,
+   "instruction": "Écris le sens en français.",
+   "prompt": "لا",
+   "promptLanguage": "ar",
+   "answer": "non",
+   "acceptedAnswers": [
+    "non"
+   ],
+   "explanation": "لا est la ligature ل + ا, un seul signe. C'est le mot « non ».",
+   "tip": "ل + ا = لا, et c'est aussi « non ».",
+   "extraExample": {
+    "text": "لا، شكرا.",
+    "translation": "Non, merci."
+   }
+  },
+  {
+   "id": "ar.l16.e22",
+   "type": "translation",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.talata"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "ثلاثة",
+   "promptLanguage": "ar",
+   "answer": "trois",
+   "acceptedAnswers": [
+    "trois",
+    "3"
+   ],
+   "explanation": "ثلاثة = ثلا | ثة : ث (3 points dessus), la ligature لا, puis ث et ة. C'est le chiffre trois.",
+   "tip": "Deux ث avec 3 points dessus, et la ligature au milieu.",
+   "extraExample": {
+    "text": "عندي ثلاثة أولاد.",
+    "translation": "J'ai trois enfants."
+   }
+  },
+  {
+   "id": "ar.l16.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.kalam"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire كلام ?",
+   "promptLanguage": "fr",
+   "answer": "paroles",
+   "acceptedAnswers": [
+    "paroles",
+    "parole",
+    "discours",
+    "mots",
+    "les paroles",
+    "le discours",
+    "propos"
+   ],
+   "explanation": "كلام = كلا | م : ك, la ligature لا, puis م. Ce sont les paroles, ce qu'on dit.",
+   "tip": "كلا + م : la ligature ferme le premier bloc.",
+   "extraExample": {
+    "text": "كلامك صح.",
+    "translation": "Ce que tu dis est juste."
+   }
+  },
+  {
+   "id": "ar.l16.e24",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g16.article_and_ligature",
+    "ar.v.balash"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire بلاش ?",
+   "promptLanguage": "fr",
+   "answer": "gratuit",
+   "acceptedAnswers": [
+    "gratuit",
+    "gratuitement",
+    "gratis",
+    "pour rien",
+    "laisse tomber"
+   ],
+   "explanation": "بلاش = بلا | ش : ب, la ligature لا, puis ش (3 dents, 3 points). C'est « gratuit », « pour rien ».",
+   "tip": "بلا + ش : la ligature ferme le premier bloc.",
+   "extraExample": {
+    "text": "الأكل ده بلاش.",
+    "translation": "Ce repas est gratuit."
+   }
+  }
+ ]
+}

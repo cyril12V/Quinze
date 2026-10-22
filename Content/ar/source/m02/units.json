@@ -178,8 +178,8 @@
  {
   "id": "ar.g13.forms_ayn_family",
   "rule": {
-   "summary": "ط ظ ont une boucle et un bâton, ع غ une tête repliée ; ظ et غ sont ط et ع avec 1 point dessus. Le point fait la lettre.",
-   "explanation": "ط et ظ partagent la boucle et le bâton ; ع et غ partagent la tête repliée. Dans chaque paire, le point dessus distingue la lettre (ظ, غ). Au début et au milieu on voit la boucle-bâton ou la petite tête ; à la fin le crochet revient. Quand une lettre suit un و ou un ا, elle repart à neuf, comme le ع de يسوع qui est isolé.",
+   "summary": "ط ظ ont une boucle et un mât, ع غ une œil ; ظ et غ sont ط et ع avec 1 point dessus. Le point fait la lettre.",
+   "explanation": "ط et ظ partagent la boucle et le mât ; ع et غ partagent la œil. Dans chaque paire, le point dessus distingue la lettre (ظ, غ). Au début et au milieu on voit la boucle-mât ou la petite tête ; à la fin le crochet revient. Quand une lettre suit un و ou un ا, elle repart à neuf, comme le ع de يسوع qui est isolé.",
    "pattern": "طـ ـطـ ـط  |  ظـ ـظـ ـظ  |  عـ ـعـ ـع  |  غـ ـغـ ـغ",
    "examples": [
     {
@@ -216,14 +216,14 @@
      "why": "Le و ne s'attache pas à la suivante : le ع repart à neuf, et seul il est isolé."
     }
    ],
-   "tip": "Cherche d'abord le bâton ou la tête, puis le point dessus."
+   "tip": "Cherche d'abord le mât ou la tête, puis le point dessus."
   }
  },
  {
   "id": "ar.g14.forms_fa_lam",
   "rule": {
    "summary": "ف ق sont des têtes rondes (1 et 2 points dessus), ك ل sont des bâtons. ل s'attache à la suivante, contrairement à ا qui coupe le mot.",
-   "explanation": "ف et ق ont la même tête ronde : ف avec 1 point dessus, ق avec 2 points dessus. ك et ل sont des bâtons : ك est plus court avec un petit trait penché, ل est un bâton lisse. Au début et au milieu, on voit la boule ou le bâton ; à la fin, le pied revient. ل s'attache à la lettre suivante, alors que ا ne s'attache jamais : le bâton ل ne coupe pas le mot.",
+   "explanation": "ف et ق ont la même tête ronde : ف avec 1 point dessus, ق avec 2 points dessus. ك et ل sont des bâtons : ك est un trait penché avec un petit zigzag, ل est un bâton avec un pied courbé. Au début et au milieu, on voit la boule ou le bâton ; à la fin, le pied revient. ل s'attache à la lettre suivante, alors que ا ne s'attache jamais : le bâton ل ne coupe pas le mot.",
    "pattern": "فـ ـفـ ـف  |  قـ ـقـ ـق  |  كـ ـكـ ـك  |  لـ ـلـ ـل",
    "examples": [
     {
@@ -256,18 +256,18 @@
     },
     {
      "wrong": "ك pris pour ل",
-     "right": "ك a un petit trait penché",
-     "why": "ل est un bâton lisse ; ك porte un petit trait penché à l'intérieur."
+     "right": "ك a un petit zigzag",
+     "why": "ل est un bâton sans zigzag ; ك porte un petit zigzag dans l'angle."
     }
    ],
-   "tip": "Boule : compte les points (1 ou 2). Bâton : lisse ou avec un trait penché ?"
+   "tip": "Boule : compte les points (1 ou 2). Bâton : lisse, ou un trait avec un zigzag ?"
   }
  },
  {
   "id": "ar.g15.forms_mim_ha",
   "rule": {
-   "summary": "م est une boule fermée, ه une lettre aux quatre visages très différents, و ne s'attache pas, et ة n'existe qu'à la fin d'un mot (ـة attachée ou ة isolée).",
-   "explanation": "م garde sa boule au début et au milieu, sa queue revient à la fin. ه change complètement de dessin selon sa place : ه هـ ـهـ ـه. و fait partie des lettres qui ne s'attachent pas. ة, un ه avec 2 points dessus, ne s'écrit qu'en fin de mot : ـة si la lettre d'avant s'attache (كنيسة), ة isolée si elle ne s'attache pas (قهوة).",
+   "summary": "م est une boucle fermée, ه une lettre aux quatre visages très différents, و ne s'attache pas, et ة n'existe qu'à la fin d'un mot (ـة attachée ou ة isolée).",
+   "explanation": "م garde sa boucle au début et au milieu, sa queue revient à la fin. ه change complètement de dessin selon sa place : ه هـ ـهـ ـه. و fait partie des lettres qui ne s'attachent pas. ة, un ه avec 2 points dessus, ne s'écrit qu'en fin de mot : ـة si la lettre d'avant s'attache (كنيسة), ة isolée si elle ne s'attache pas (قهوة).",
    "pattern": "مـ ـمـ ـم  |  هـ ـهـ ـه  |  ـو  |  ـة ة",
    "examples": [
     {
@@ -301,10 +301,54 @@
     {
      "wrong": "م confondu avec ن",
      "right": "م n'a aucun point",
-     "why": "ن a un point dessus et une forme de bol ; م est une boule fermée sans point."
+     "why": "ن a un point dessus et une forme de bol ; م est une boucle fermée sans point."
     }
    ],
    "tip": "ة = ه + 2 points, toujours à la fin du mot."
+  }
+ },
+ {
+  "id": "ar.g16.article_and_ligature",
+  "rule": {
+   "summary": "ال devant un nom veut dire le / la et ajoute un bloc au début ; ل suivi de ا s'écrit avec la ligature لا, qui ferme le bloc comme un ا.",
+   "explanation": "L'article ال (ا puis ل) se place devant le nom : الكنيسة, البيت. Le ا ne s'attache pas, donc ال forme un bloc à lui seul et le ل s'accroche au nom (forme du début). Quand ل est suivi de ا, les deux se fondent en un seul signe, la ligature لا, qui ferme le bloc. Pour lire un mot : repère ال, coupe en blocs, lis chaque bloc lettre par lettre, assemble.",
+   "pattern": "ال + nom = le / la + nom   |   ل + ا = لا",
+   "examples": [
+    {
+     "text": "الكنيسة",
+     "translation": "l'église : ا | لكنيسة, 2 blocs"
+    },
+    {
+     "text": "المسيح",
+     "translation": "le Christ : ا | لمسيح"
+    },
+    {
+     "text": "صلاة",
+     "translation": "prière : صلا | ة, avec la ligature لا"
+    },
+    {
+     "text": "العدرا",
+     "translation": "la Vierge Marie : ا | لعد | ر | ا, 4 blocs"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "لكنيسة pour « l'église »",
+     "right": "الكنيسة",
+     "why": "L'article commence par le ا : ال = ا puis ل."
+    },
+    {
+     "wrong": "ل et ا écrits côte à côte dans صلاة",
+     "right": "la ligature لا",
+     "why": "ل suivi de ا se fond en un seul signe."
+    },
+    {
+     "wrong": "ال lu comme une partie du nom",
+     "right": "ال = le / la",
+     "why": "ال est un mot-outil : cache-le, lis le nom, puis ajoute « le / la »."
+    }
+   ],
+   "tip": "Cache ال avec le doigt, lis le nom, puis ajoute « le / la »."
   }
  }
 ]

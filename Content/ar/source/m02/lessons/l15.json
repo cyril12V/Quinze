@@ -287,11 +287,11 @@
    "acceptedAnswers": [
     "forme isolée"
    ],
-   "explanation": "Dans قهوة (blocs : قهو | ة), la lettre ة : elle ne s'accroche à aucune voisine : c'est la forme isolée. Le و qui précède ne s'attache pas : le ة reste isolé.",
+   "explanation": "Dans قهوة (blocs : قهو | ة), la lettre ة ne s'accroche à aucune voisine : c'est la forme isolée. Le و qui précède ne s'attache pas : le ة reste isolé.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "قهوة",
-    "translation": "mot"
+    "translation": "café (boisson)"
    },
    "errorPatterns": [
     {
@@ -332,11 +332,11 @@
    "acceptedAnswers": [
     "forme de la fin"
    ],
-   "explanation": "Dans كنيسة (blocs : كنيسة), la lettre ة : elle s'accroche seulement à la lettre d'avant : c'est la forme de la fin. Le ة s'accroche au س qui le précède.",
+   "explanation": "Dans كنيسة, la lettre ة s'accroche seulement à la lettre d'avant : c'est la forme de la fin. Le ة s'accroche au س qui le précède.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "كنيسة",
-    "translation": "mot"
+    "translation": "église"
    },
    "errorPatterns": [
     {
@@ -509,11 +509,11 @@
    "acceptedAnswers": [
     "forme du début"
    ],
-   "explanation": "Dans قداس (blocs : قد | ا | س), la lettre ق : elle s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ق s'attache au د qui le suit : forme du début قـ.",
+   "explanation": "Dans قداس (blocs : قد | ا | س), la lettre ق s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ق s'attache au د qui le suit : forme du début قـ.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "قداس",
-    "translation": "mot"
+    "translation": "liturgie"
    },
    "errorPatterns": [
     {
@@ -554,7 +554,7 @@
    "acceptedAnswers": [
     "م"
    ],
-   "explanation": "مية commence par م : une boule fermée, sans point. ن aurait un point dessus.",
+   "explanation": "مية commence par م : une boucle fermée, sans point. ن aurait un point dessus.",
    "tip": "Boule fermée, aucun point : م.",
    "extraExample": {
     "text": "المية باردة.",
@@ -593,7 +593,7 @@
    "acceptedAnswers": [
     "ة"
    ],
-   "explanation": "كنيسة finit par ة : 2 points dessus, attachée au س. ت aurait aussi 2 points, mais elle ne se met pas ainsi à la fin d'un mot féminin.",
+   "explanation": "كنيسة finit par ة : 2 points dessus, attachée au س. ت donnerait كنيست, qui n'existe pas : la finale de ce mot s'écrit ة.",
    "tip": "ة finale : un ه avec 2 points dessus.",
    "extraExample": {
     "text": "الكنيسة مفتوحة.",
@@ -608,7 +608,7 @@
     {
      "equals": "ت",
      "category": "spelling",
-     "feedback": "ت finale s'écrit ـت, sans la forme arrondie de ة."
+     "feedback": "كنيست n'existe pas : il faut la forme arrondie de ة avec ses 2 points."
     }
    ],
    "options": [
@@ -671,7 +671,7 @@
    ],
    "difficulty": 2,
    "instruction": "Associe chaque mot à son sens.",
-   "prompt": "Mots de la maison",
+   "prompt": "Eau, café, voiture, table, chambre",
    "promptLanguage": "fr",
    "answer": "مية = eau ; قهوة = café (boisson) ; عربية = voiture ; ترابيزة = table ; أوضة = chambre",
    "acceptedAnswers": [],
@@ -833,7 +833,7 @@
     "un diacre",
     "le diacre"
    ],
-   "explanation": "شماس = شما | س : ش (3 dents, 3 points), م (boule), ا, س. C'est le diacre, celui qui sert à l'autel.",
+   "explanation": "شماس = شما | س : ش (3 dents, 3 points), م (la cerise), ا, س. C'est le diacre, celui qui sert à l'autel.",
    "tip": "Le ا ferme le premier bloc.",
    "extraExample": {
     "text": "ابني بقى شماس.",
@@ -859,7 +859,7 @@
     "ne pas être",
     "pas du tout"
    ],
-   "explanation": "مش = م + ش : une boule et trois dents. C'est la négation « ne… pas ».",
+   "explanation": "مش = م + ش : une cerise et trois dents. C'est la négation « ne… pas ».",
    "tip": "Deux lettres attachées : un seul bloc.",
    "extraExample": {
     "text": "ده مش بيتي.",

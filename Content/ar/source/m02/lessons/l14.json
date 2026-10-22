@@ -155,7 +155,7 @@
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "فول وطعمية.",
-    "translation": "Du foul et des falafels (ta'amiya)."
+    "translation": "Du foul et des falafels."
    },
    "errorPatterns": [
     {
@@ -286,11 +286,11 @@
    "acceptedAnswers": [
     "forme du milieu"
    ],
-   "explanation": "Dans صليب (blocs : صليب), la lettre ل : elle s'accroche des deux côtés : c'est la forme du milieu. Le ل est entre le ص et le ي : attaché des deux côtés. Il ne coupe pas le mot.",
+   "explanation": "Dans صليب, la lettre ل s'accroche des deux côtés : c'est la forme du milieu. Le ل est entre le ص et le ي : attaché des deux côtés. Il ne coupe pas le mot.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "صليب",
-    "translation": "mot"
+    "translation": "croix"
    },
    "errorPatterns": [
     {
@@ -351,7 +351,7 @@
     {
      "equals": "4 blocs",
      "category": "instruction",
-     "feedback": "Tu as coupé une fois de trop : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : قد | ا | س."
+     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : قد | ا | س."
     }
    ],
    "options": [
@@ -463,11 +463,11 @@
    "acceptedAnswers": [
     "forme du début"
    ],
-   "explanation": "Dans عايز (blocs : عا | يز), la lettre ع : elle s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ع s'attache au ا qui le suit : forme du début عـ.",
+   "explanation": "Dans عايز (blocs : عا | يز), la lettre ع s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ع s'attache au ا qui le suit : forme du début عـ.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "عايز",
-    "translation": "mot"
+    "translation": "je veux"
    },
    "errorPatterns": [
     {
@@ -522,12 +522,12 @@
     {
      "equals": "3 blocs",
      "category": "instruction",
-     "feedback": "Tu as coupé une fois de trop : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : يسو | ع."
+     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : يسو | ع."
     },
     {
      "equals": "4 blocs",
      "category": "instruction",
-     "feedback": "Tu as coupé une fois de trop : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : يسو | ع."
+     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : يسو | ع."
     }
    ],
    "options": [
@@ -552,8 +552,8 @@
    "acceptedAnswers": [
     "ك"
    ],
-   "explanation": "كرسي commence par ك : un bâton court avec un petit trait penché. ل serait un bâton lisse.",
-   "tip": "Petit trait penché dans le bâton : ك.",
+   "explanation": "كرسي commence par ك : un trait avec son petit zigzag. ل serait un bâton sans zigzag.",
+   "tip": "Petit zigzag dans le trait : ك.",
    "extraExample": {
     "text": "اقعد على الكرسي.",
     "translation": "Assieds-toi sur la chaise."
@@ -562,7 +562,7 @@
     {
      "equals": "ل",
      "category": "spelling",
-     "feedback": "ل est un bâton lisse, sans trait penché."
+     "feedback": "ل est un bâton sans zigzag."
     }
    ],
    "options": [
@@ -641,7 +641,7 @@
     {
      "equals": "ك",
      "category": "spelling",
-     "feedback": "ك a un petit trait penché ; ici le bâton est lisse."
+     "feedback": "ك a un petit zigzag ; ici le bâton est lisse."
     }
    ],
    "options": [

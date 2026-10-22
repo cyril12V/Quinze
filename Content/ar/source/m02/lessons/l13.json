@@ -55,13 +55,13 @@
    ],
    "difficulty": 2,
    "instruction": "Choisis la bonne lettre.",
-   "prompt": "Quelle lettre est une boucle avec un bâton et 1 point dessus ?",
+   "prompt": "Quelle lettre est une boucle avec un mât et 1 point dessus ?",
    "promptLanguage": "fr",
    "answer": "ظ",
    "acceptedAnswers": [
     "ظ"
    ],
-   "explanation": "ظ est ط (boucle + bâton) avec 1 point dessus. ط n'a pas de point ; ع et غ n'ont pas de bâton.",
+   "explanation": "ظ est ط (boucle + mât) avec 1 point dessus. ط n'a pas de point ; ع et غ n'ont pas de mât.",
    "tip": "Bâton + point dessus : ظ.",
    "extraExample": {
     "text": "حظ",
@@ -76,12 +76,12 @@
     {
      "equals": "ع",
      "category": "spelling",
-     "feedback": "ع n'a pas de bâton : c'est une tête repliée."
+     "feedback": "ع n'a pas de mât : c'est une œil."
     },
     {
      "equals": "غ",
      "category": "spelling",
-     "feedback": "غ n'a pas de bâton : c'est une tête repliée avec un point."
+     "feedback": "غ n'a pas de mât : c'est une œil avec un point."
     }
    ],
    "options": [
@@ -197,7 +197,7 @@
    "acceptedAnswers": [
     "bon"
    ],
-   "explanation": "Lettre par lettre : ط (sans point), ي (2 points dessous), ب (1 point dessous) donne طيب, « bon ». ط : boucle et bâton, aucun point. 1 bloc.",
+   "explanation": "Lettre par lettre : ط (sans point), ي (2 points dessous), ب (1 point dessous) donne طيب, « bon ». ط : boucle et mât, aucun point. 1 bloc.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "إنت إنسان طيب.",
@@ -334,11 +334,11 @@
    "acceptedAnswers": [
     "forme du milieu"
    ],
-   "explanation": "Dans جعان (blocs : جعا | ن), la lettre ع : elle s'accroche des deux côtés : c'est la forme du milieu. Le ع est entre le ج et le ا : attaché des deux côtés.",
+   "explanation": "Dans جعان (blocs : جعا | ن), la lettre ع s'accroche des deux côtés : c'est la forme du milieu. Le ع est entre le ج et le ا : attaché des deux côtés.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "جعان",
-    "translation": "mot"
+    "translation": "affamé"
    },
    "errorPatterns": [
     {
@@ -379,11 +379,11 @@
    "acceptedAnswers": [
     "forme isolée"
    ],
-   "explanation": "Dans يسوع (blocs : يسو | ع), la lettre ع : elle ne s'accroche à aucune voisine : c'est la forme isolée. Le و qui précède ne s'attache pas : le ع est seul, donc isolé.",
+   "explanation": "Dans يسوع (blocs : يسو | ع), la lettre ع ne s'accroche à aucune voisine : c'est la forme isolée. Le و qui précède ne s'attache pas : le ع est seul, donc isolé.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "يسوع",
-    "translation": "mot"
+    "translation": "Jésus"
    },
    "errorPatterns": [
     {
@@ -467,11 +467,11 @@
    "acceptedAnswers": [
     "forme du début"
    ],
-   "explanation": "Dans صباح (blocs : صبا | ح), la lettre ص : elle s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ص s'attache au ب qui le suit : forme du début صـ.",
+   "explanation": "Dans صباح (blocs : صبا | ح), la lettre ص s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ص s'attache au ب qui le suit : forme du début صـ.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "صباح",
-    "translation": "mot"
+    "translation": "matin"
    },
    "errorPatterns": [
     {
@@ -556,7 +556,7 @@
    "acceptedAnswers": [
     "ع"
    ],
-   "explanation": "عيش commence par ع : une tête repliée, sans point. غ aurait un point dessus.",
+   "explanation": "عيش commence par ع : une œil, sans point. غ aurait un point dessus.",
    "tip": "Aucun point : ع.",
    "extraExample": {
     "text": "عايز عيش وجبنة.",
@@ -571,7 +571,7 @@
     {
      "equals": "ح",
      "category": "spelling",
-     "feedback": "ح est un crochet, pas une tête repliée."
+     "feedback": "ح est un crochet, pas une œil."
     }
    ],
    "options": [
@@ -595,8 +595,8 @@
    "acceptedAnswers": [
     "ط"
    ],
-   "explanation": "طير commence par ط : boucle et bâton, sans point. ظ aurait un point dessus.",
-   "tip": "Boucle + bâton, aucun point : ط.",
+   "explanation": "طير commence par ط : boucle et mât, sans point. ظ aurait un point dessus.",
+   "tip": "Boucle + mât, aucun point : ط.",
    "extraExample": {
     "text": "طيور السما.",
     "translation": "Les oiseaux du ciel."
@@ -630,7 +630,7 @@
    "acceptedAnswers": [
     "ظ"
    ],
-   "explanation": "حظ finit par ظ : boucle, bâton et 1 point dessus. ط n'aurait pas de point.",
+   "explanation": "حظ finit par ظ : boucle, mât et 1 point dessus. ط n'aurait pas de point.",
    "tip": "Bâton + 1 point : ظ.",
    "extraExample": {
     "text": "حظ سعيد!",
@@ -645,7 +645,7 @@
     {
      "equals": "ض",
      "category": "spelling",
-     "feedback": "ض n'a pas de bâton."
+     "feedback": "ض n'a pas de mât."
     }
    ],
    "options": [
@@ -746,25 +746,25 @@
    "instruction": "Associe chaque lettre à son dessin.",
    "prompt": "Boucle ou tête, point ou non",
    "promptLanguage": "fr",
-   "answer": "ط = boucle et bâton, aucun point ; ظ = boucle et bâton, 1 point dessus ; ع = tête repliée, aucun point ; غ = tête repliée, 1 point dessus",
+   "answer": "ط = boucle et mât, aucun point ; ظ = boucle et mât, 1 point dessus ; ع = œil, aucun point ; غ = œil, 1 point dessus",
    "acceptedAnswers": [],
-   "explanation": "Deux questions : un bâton ou une tête ? Un point dessus ou non ?",
+   "explanation": "Deux questions : un mât ou un œil ? Un point dessus ou non ?",
    "pairs": [
     {
      "left": "ط",
-     "right": "boucle et bâton, aucun point"
+     "right": "boucle et mât, aucun point"
     },
     {
      "left": "ظ",
-     "right": "boucle et bâton, 1 point dessus"
+     "right": "boucle et mât, 1 point dessus"
     },
     {
      "left": "ع",
-     "right": "tête repliée, aucun point"
+     "right": "œil, aucun point"
     },
     {
      "left": "غ",
-     "right": "tête repliée, 1 point dessus"
+     "right": "œil, 1 point dessus"
     }
    ]
   },
@@ -830,7 +830,7 @@
     "tu voudrais",
     "vouloir"
    ],
-   "explanation": "عايز = عا | يز : ع (tête repliée), le ا ferme le premier bloc, puis ي et ز. C'est « je veux » dans la bouche d'un homme.",
+   "explanation": "عايز = عا | يز : ع (œil), le ا ferme le premier bloc, puis ي et ز. C'est « je veux » dans la bouche d'un homme.",
    "tip": "عايز s'adapte à celui qui parle : je veux, tu veux, il veut.",
    "extraExample": {
     "text": "إنت عايز إيه؟",
@@ -880,7 +880,7 @@
     "repas de midi",
     "le repas de midi"
    ],
-   "explanation": "غدا = غد | ا : غ (tête repliée, 1 point dessus), د, ا. En Égypte, c'est le repas de midi.",
+   "explanation": "غدا = غد | ا : غ (œil, 1 point dessus), د, ا. En Égypte, c'est le repas de midi.",
    "tip": "Le point sur la tête : غ. Pour « demain », on dit بكرة.",
    "extraExample": {
     "text": "الغدا جاهز.",
@@ -914,7 +914,7 @@
     "le sort",
     "bonne chance"
    ],
-   "explanation": "حظ = ح + ظ : un crochet, puis une boucle avec bâton et 1 point dessus. C'est la chance.",
+   "explanation": "حظ = ح + ظ : un crochet, puis une boucle avec mât et 1 point dessus. C'est la chance.",
    "tip": "Le ظ final porte son point dessus.",
    "extraExample": {
     "text": "ده حظي.",

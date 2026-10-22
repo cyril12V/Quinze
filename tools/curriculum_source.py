@@ -252,7 +252,7 @@ def build():
             sys.exit(f"{les['id']} reviews grammar not yet introduced")
     out = dict(
         language=dict(code="en", name="Anglais", nativeName="English", writingDirection="ltr", ttsLocale="en-GB"),
-        contentVersion="1.0.0",
+        contentVersion="2.0.0",
         modules=[dict(id=m, title=t, description=d) for m, t, d in MODULES],
         grammarUnits=units, vocabularyUnits=vocab_units, lessons=lessons)
     path = ROOT / "Content" / "en" / "curriculum.json"

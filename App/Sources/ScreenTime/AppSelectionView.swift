@@ -75,7 +75,7 @@ struct AppSelectionView: View {
 
     private var header: some View {
         FlowHeader(title: "Apps à mettre en pause",
-                   subtitle: "À l'heure de chaque leçon, Quinze peut mettre en pause les apps qui te distraient, le temps de ta leçon de 5 minutes.",
+                   subtitle: "À l'heure de chaque leçon, Quinze peut mettre en pause les apps qui te distraient, le temps de ta leçon (anglais, arabe, culture G).",
                    display: false)
     }
 

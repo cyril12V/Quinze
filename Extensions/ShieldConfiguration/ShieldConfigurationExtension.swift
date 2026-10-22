@@ -42,7 +42,7 @@ final class ShieldConfigurationExtension: ShieldConfigurationDataSource {
             icon: icon,
             title: ShieldConfiguration.Label(text: title(), color: titleColor),
             subtitle: ShieldConfiguration.Label(
-                text: "Fais ta leçon de 5 minutes dans Quinze pour débloquer tes apps.", color: subtitleColor),
+                text: "Fais ta leçon dans Quinze (anglais, arabe, culture G) pour débloquer tes apps.", color: subtitleColor),
             primaryButtonLabel: ShieldConfiguration.Label(text: "Compris", color: onInk),
             primaryButtonBackgroundColor: ink,
             secondaryButtonLabel: ShieldConfiguration.Label(text: "Déblocage d'urgence", color: ink))

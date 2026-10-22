@@ -24,6 +24,36 @@
     "ar.g09.forms_ba_family"
    ],
    "functionWords": []
+  },
+  {
+   "id": "ar.g11.forms_jim_family",
+   "category": "reading",
+   "title": "Les formes d'une lettre dans le mot : ج ح خ",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g10.letters_that_do_not_connect"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g12.forms_sin_family",
+   "category": "reading",
+   "title": "Les formes d'une lettre dans le mot : س ش ص ض",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g11.forms_jim_family"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g13.forms_ayn_family",
+   "category": "reading",
+   "title": "Les formes d'une lettre dans le mot : ط ظ ع غ",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g12.forms_sin_family"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -164,6 +194,233 @@
      "word": "ربنا",
      "slug": "rabbina",
      "translation": "notre Seigneur",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l11",
+   "sequence": 11,
+   "title": "Le crochet : ج ح خ",
+   "description": "ج ح خ ont la même tête et le même crochet : seul le point change. Tu les lis au début, au milieu et à la fin des mots.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g11.forms_jim_family",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.jim",
+    "ar.v.ha",
+    "ar.v.kha",
+    "ar.g10.letters_that_do_not_connect"
+   ],
+   "vocabulary": [
+    {
+     "word": "حبيبي",
+     "slug": "habibi",
+     "translation": "mon chéri",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "خبر",
+     "slug": "khabar",
+     "translation": "nouvelle",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جزر",
+     "slug": "jazar",
+     "translation": "carottes",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "خوخ",
+     "slug": "khawkh",
+     "translation": "pêches",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "بخور",
+     "slug": "bakhur",
+     "translation": "encens",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جيب",
+     "slug": "jayb",
+     "translation": "poche",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جدو",
+     "slug": "jiddu",
+     "translation": "papy",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "خد",
+     "slug": "khud",
+     "translation": "prends",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "حد",
+     "slug": "hadd",
+     "translation": "quelqu'un",
+     "partOfSpeech": "pronoun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l12",
+   "sequence": 12,
+   "title": "Les dents et les boucles : س ش ص ض",
+   "description": "س ش ont trois dents, ص ض une boucle : seuls les points les séparent. Tu les lis dans des mots du quotidien et de l'église.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g12.forms_sin_family",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.sin",
+    "ar.v.shin",
+    "ar.v.sad",
+    "ar.v.dad",
+    "ar.g11.forms_jim_family"
+   ],
+   "vocabulary": [
+    {
+     "word": "شاي",
+     "slug": "shay",
+     "translation": "thé",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "صباح",
+     "slug": "sabah",
+     "translation": "matin",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أبيض",
+     "slug": "abyad",
+     "translation": "blanc",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "حاضر",
+     "slug": "hadir",
+     "translation": "entendu",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "نص",
+     "slug": "nuss",
+     "translation": "moitié",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "سبت",
+     "slug": "sabt",
+     "translation": "samedi",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جرس",
+     "slug": "jaras",
+     "translation": "cloche",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "صياد",
+     "slug": "sayyad",
+     "translation": "pêcheur",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "سر",
+     "slug": "sirr",
+     "translation": "secret",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أحسن",
+     "slug": "ahsan",
+     "translation": "mieux",
+     "partOfSpeech": "adjective"
+    }
+   ]
+  },
+  {
+   "id": "ar.l13",
+   "sequence": 13,
+   "title": "Les lourdes et les gorges : ط ظ ع غ",
+   "description": "ط ظ (boucle et bâton) et ع غ (tête repliée) dans les mots : عيش, عيد, يسوع… Un point dessus fait la différence.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g13.forms_ayn_family",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.tah",
+    "ar.v.zah",
+    "ar.v.ayn",
+    "ar.v.ghayn",
+    "ar.g12.forms_sin_family"
+   ],
+   "vocabulary": [
+    {
+     "word": "عيش",
+     "slug": "eish",
+     "translation": "pain",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عايز",
+     "slug": "ayiz",
+     "translation": "je veux",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "عيد",
+     "slug": "eid",
+     "translation": "fête",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جعان",
+     "slug": "jaan",
+     "translation": "affamé",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "غدا",
+     "slug": "ghada",
+     "translation": "déjeuner",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "غني",
+     "slug": "ghani",
+     "translation": "riche",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "طيب",
+     "slug": "tayyib",
+     "translation": "bon",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "طير",
+     "slug": "tayr",
+     "translation": "oiseau",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "حظ",
+     "slug": "hazz",
+     "translation": "chance",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "يسوع",
+     "slug": "yasou",
+     "translation": "Jésus",
      "partOfSpeech": "noun"
     }
    ]

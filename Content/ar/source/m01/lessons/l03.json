@@ -1,0 +1,626 @@
+{
+  "lessonId": "ar.l03",
+  "exercises": [
+    {
+      "id": "ar.l03.e01",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.jim"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son g, comme dans gâteau, en Égypte ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ن",
+        "ب",
+        "ج",
+        "ي"
+      ],
+      "answer": "ج",
+      "acceptedAnswers": [
+        "ج"
+      ],
+      "explanation": "En Égypte, ج se dit g comme dans gâteau. Son point est dans le creux du crochet.",
+      "tip": "Un hameçon avec une bille dans le creux.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      }
+    },
+    {
+      "id": "ar.l03.e02",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.ha"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un crochet sans aucun point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ت",
+        "ج",
+        "ح",
+        "خ"
+      ],
+      "answer": "ح",
+      "acceptedAnswers": [
+        "ح"
+      ],
+      "explanation": "ح est le crochet vide : ni bille dans le creux (ج), ni chapeau dessus (خ).",
+      "tip": "Le crochet vide : rien dedans, rien dessus.",
+      "extraExample": {
+        "text": "ح",
+        "translation": "ḥâ : un h appuyé, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ج",
+          "category": "word_confusion",
+          "feedback": "ج a 1 point dans le creux."
+        },
+        {
+          "equals": "خ",
+          "category": "word_confusion",
+          "feedback": "خ a 1 point dessus."
+        }
+      ]
+    },
+    {
+      "id": "ar.l03.e03",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.kha"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait un raclement de gorge, comme le ch allemand de Bach ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ج",
+        "ح",
+        "خ",
+        "ث"
+      ],
+      "answer": "خ",
+      "acceptedAnswers": [
+        "خ"
+      ],
+      "explanation": "خ se lit comme le ch allemand de Bach. Elle porte 1 point dessus, comme un chapeau.",
+      "tip": "Le crochet avec un chapeau (le point dessus).",
+      "extraExample": {
+        "text": "خ",
+        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l03.e04",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.jim",
+        "ar.v.ha",
+        "ar.v.kha"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ج, ح et خ à leurs points.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ج",
+          "right": "1 point dessous"
+        },
+        {
+          "left": "ح",
+          "right": "aucun point"
+        },
+        {
+          "left": "خ",
+          "right": "1 point dessus"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Même crochet, trois places pour le point : dessous (ج), nulle part (ح), dessus (خ)."
+    },
+    {
+      "id": "ar.l03.e05",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.kha"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre a 1 point dessus, sur un crochet ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ح",
+        "ن",
+        "خ",
+        "ج"
+      ],
+      "answer": "خ",
+      "acceptedAnswers": [
+        "خ"
+      ],
+      "explanation": "Le crochet à chapeau est خ. ن a aussi 1 point dessus, mais c'est un bol, pas un crochet.",
+      "tip": "Le crochet avec un chapeau (le point dessus).",
+      "extraExample": {
+        "text": "خ",
+        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "ن a bien 1 point dessus, mais sa forme est un bol creux."
+        }
+      ]
+    },
+    {
+      "id": "ar.l03.e06",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.jim"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre a 1 point dans le creux du crochet ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ح",
+        "خ",
+        "ب",
+        "ج"
+      ],
+      "answer": "ج",
+      "acceptedAnswers": [
+        "ج"
+      ],
+      "explanation": "ج a sa bille dans le creux, donc 1 point dessous. ب a aussi 1 point dessous, mais c'est une barque.",
+      "tip": "Un hameçon avec une bille dans le creux.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب a bien 1 point dessous, mais c'est une barque, pas un crochet."
+        }
+      ]
+    },
+    {
+      "id": "ar.l03.e07",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.jim"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "Le point de ج est ___, dans le creux du crochet.",
+      "promptLanguage": "fr",
+      "options": [
+        "dessous",
+        "au milieu",
+        "dessus"
+      ],
+      "answer": "dessous",
+      "acceptedAnswers": [
+        "dessous"
+      ],
+      "explanation": "Le point de ج est dessous, comme une bille dans une cuillère. Dessus, c'est خ.",
+      "tip": "Un hameçon avec une bille dans le creux.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      },
+      "errorPatterns": [
+        {
+          "equals": "dessus",
+          "category": "word_confusion",
+          "feedback": "Dessus, c'est le chapeau de خ."
+        }
+      ]
+    },
+    {
+      "id": "ar.l03.e08",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.kha"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "خ porte 1 point ___, comme un chapeau sur le crochet.",
+      "promptLanguage": "fr",
+      "options": [
+        "dessus",
+        "au milieu",
+        "dessous"
+      ],
+      "answer": "dessus",
+      "acceptedAnswers": [
+        "dessus"
+      ],
+      "explanation": "Le point de خ est dessus, comme un chapeau. Dessous, c'est ج.",
+      "tip": "Le crochet avec un chapeau (le point dessus).",
+      "extraExample": {
+        "text": "خ",
+        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l03.e09",
+      "unitIds": [
+        "ar.v.ya",
+        "ar.g03.letters3"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre a 2 points dessous et une queue qui plonge ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ي",
+        "ت",
+        "ن",
+        "ج"
+      ],
+      "answer": "ي",
+      "acceptedAnswers": [
+        "ي"
+      ],
+      "explanation": "ي a 2 points dessous et une queue qui plonge sous la ligne. ت a aussi 2 points, mais dessus.",
+      "tip": "Une queue qui plonge, deux points dessous.",
+      "extraExample": {
+        "text": "ي",
+        "translation": "yâ : le y de yaourt, 2 points dessous."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "ت a 2 points, mais dessus, sur une barque plate."
+        }
+      ]
+    },
+    {
+      "id": "ar.l03.e10",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.jim",
+        "ar.v.ha",
+        "ar.v.kha",
+        "ar.v.ba"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Trouve l'intruse.",
+      "prompt": "Trois de ces lettres sont des crochets. Laquelle est l'intruse ?",
+      "promptLanguage": "fr",
+      "options": [
+        "خ",
+        "ج",
+        "ح",
+        "ب"
+      ],
+      "answer": "ب",
+      "acceptedAnswers": [
+        "ب"
+      ],
+      "explanation": "ج, ح et خ sont des crochets. ب est une barque plate : c'est l'intruse.",
+      "tip": "Un hameçon avec une bille dans le creux.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      }
+    },
+    {
+      "id": "ar.l03.e11",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.ha"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon son.",
+      "prompt": "ح est le crochet sans point : elle se lit comme ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "un h appuyé",
+        "le g de gâteau",
+        "le n de nuit"
+      ],
+      "answer": "un h appuyé",
+      "acceptedAnswers": [
+        "un h appuyé"
+      ],
+      "explanation": "ح se lit comme un h appuyé, soufflé du fond de la gorge, alors que ج se dit g.",
+      "tip": "Le crochet vide : rien dedans, rien dessus.",
+      "extraExample": {
+        "text": "ح",
+        "translation": "ḥâ : un h appuyé, aucun point."
+      }
+    },
+    {
+      "id": "ar.l03.e12",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.jim"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "En Égypte, comment dit-on la lettre ج ?",
+      "promptLanguage": "fr",
+      "options": [
+        "le n de nuit",
+        "le ch allemand de Bach",
+        "le g de gâteau",
+        "le b de bateau"
+      ],
+      "answer": "le g de gâteau",
+      "acceptedAnswers": [
+        "le g de gâteau"
+      ],
+      "explanation": "En arabe littéraire, ج se dit dj, mais en Égypte on la dit g, comme dans gâteau.",
+      "tip": "Tu dis déjà ce g tous les jours : relie-le au crochet à bille.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      }
+    },
+    {
+      "id": "ar.l03.e13",
+      "unitIds": [
+        "ar.v.ta",
+        "ar.g03.letters3"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis les bons points.",
+      "prompt": "Quels points porte la lettre ت ?",
+      "promptLanguage": "fr",
+      "options": [
+        "3 points dessus",
+        "2 points dessus",
+        "1 point dessous",
+        "2 points dessous"
+      ],
+      "answer": "2 points dessus",
+      "acceptedAnswers": [
+        "2 points dessus"
+      ],
+      "explanation": "ت porte 2 points dessus, comme deux mouettes. Avec 2 points dessous, ce serait ي.",
+      "tip": "Deux mouettes sur la barque.",
+      "extraExample": {
+        "text": "ت",
+        "translation": "tâ : le t de table, 2 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "2 points dessous",
+          "category": "word_confusion",
+          "feedback": "2 points dessous, c'est ي, la lettre à queue."
+        }
+      ]
+    },
+    {
+      "id": "ar.l03.e14",
+      "unitIds": [
+        "ar.v.tha",
+        "ar.g03.letters3"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Devine la lettre.",
+      "prompt": "Qui suis-je ? « Je suis une barque avec trois mouettes sur ma coque. »",
+      "promptLanguage": "fr",
+      "options": [
+        "ث",
+        "ت",
+        "ن",
+        "ب"
+      ],
+      "answer": "ث",
+      "acceptedAnswers": [
+        "ث"
+      ],
+      "explanation": "Trois mouettes, ce sont 3 points dessus : c'est ث.",
+      "tip": "Trois mouettes en triangle sur la barque.",
+      "extraExample": {
+        "text": "ث",
+        "translation": "thâ : un t, parfois un s, 3 points dessus."
+      }
+    },
+    {
+      "id": "ar.l03.e15",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.kha"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Devine la lettre.",
+      "prompt": "Qui suis-je ? « Je suis un crochet coiffé d'un point, et je racle la gorge. »",
+      "promptLanguage": "fr",
+      "options": [
+        "ن",
+        "ج",
+        "خ",
+        "ح"
+      ],
+      "answer": "خ",
+      "acceptedAnswers": [
+        "خ"
+      ],
+      "explanation": "Un crochet avec un point dessus, qui racle la gorge comme le ch de Bach : c'est خ.",
+      "tip": "Le crochet avec un chapeau (le point dessus).",
+      "extraExample": {
+        "text": "خ",
+        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l03.e16",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.jim"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon nom.",
+      "prompt": "Quel est le nom de la lettre ج ?",
+      "promptLanguage": "fr",
+      "options": [
+        "tâ",
+        "gîm",
+        "nûn",
+        "bâ"
+      ],
+      "answer": "gîm",
+      "acceptedAnswers": [
+        "gîm"
+      ],
+      "explanation": "ج s'appelle gîm en Égypte. Son nom commence par son son, le g de gâteau.",
+      "tip": "Un hameçon avec une bille dans le creux.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      }
+    },
+    {
+      "id": "ar.l03.e17",
+      "unitIds": [
+        "ar.v.ba",
+        "ar.v.ta",
+        "ar.v.tha",
+        "ar.v.nun",
+        "ar.v.ya",
+        "ar.g03.letters3"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ب, ت, ث, ن et ي à leurs points.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ب",
+          "right": "1 point dessous"
+        },
+        {
+          "left": "ت",
+          "right": "2 points dessus"
+        },
+        {
+          "left": "ث",
+          "right": "3 points dessus"
+        },
+        {
+          "left": "ن",
+          "right": "1 point dessus"
+        },
+        {
+          "left": "ي",
+          "right": "2 points dessous"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Cinq lettres de la famille des points : le nombre ET la place les distinguent."
+    },
+    {
+      "id": "ar.l03.e18",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.jim",
+        "ar.v.ha",
+        "ar.v.kha",
+        "ar.v.nun"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ج, ح, خ et ن à leur son.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ج",
+          "right": "le g de gâteau"
+        },
+        {
+          "left": "ح",
+          "right": "un h appuyé"
+        },
+        {
+          "left": "خ",
+          "right": "le ch allemand de Bach"
+        },
+        {
+          "left": "ن",
+          "right": "le n de nuit"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Trois crochets, trois sons de gorge ou de bouche : g, h appuyé, ch de Bach. ن est le n de nuit."
+    },
+    {
+      "id": "ar.l03.e19",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.ha"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris le nombre.",
+      "prompt": "Combien de points a la lettre ح ? Réponds avec un chiffre.",
+      "promptLanguage": "fr",
+      "answer": "0",
+      "acceptedAnswers": [
+        "0",
+        "zéro",
+        "aucun"
+      ],
+      "explanation": "ح est le crochet vide : aucun point. C'est ce qui la distingue de ج et de خ.",
+      "tip": "Le crochet vide : rien dedans, rien dessus.",
+      "extraExample": {
+        "text": "ح",
+        "translation": "ḥâ : un h appuyé, aucun point."
+      }
+    },
+    {
+      "id": "ar.l03.e20",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.jim"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris le nom de la lettre.",
+      "prompt": "Comment s'appelle la lettre qui fait le son g en Égypte ?",
+      "promptLanguage": "fr",
+      "answer": "gîm",
+      "acceptedAnswers": [
+        "gîm",
+        "gim",
+        "jîm",
+        "jim"
+      ],
+      "explanation": "La lettre ج s'appelle gîm en Égypte (jîm en arabe littéraire).",
+      "tip": "Un hameçon avec une bille dans le creux.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      }
+    }
+  ]
+}

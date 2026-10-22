@@ -1,0 +1,635 @@
+{
+  "lessonId": "ar.l05",
+  "exercises": [
+    {
+      "id": "ar.l05.e01",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.sin"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son s, comme dans soleil ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ب",
+        "س",
+        "ر",
+        "ن"
+      ],
+      "answer": "س",
+      "acceptedAnswers": [
+        "س"
+      ],
+      "explanation": "س se lit comme le s de soleil : trois petites dents, comme une scie.",
+      "tip": "Trois petites dents, comme une scie.",
+      "extraExample": {
+        "text": "س",
+        "translation": "sîn : le s de soleil, aucun point."
+      }
+    },
+    {
+      "id": "ar.l05.e02",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.shin"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son ch, comme dans chat ?",
+      "promptLanguage": "fr",
+      "options": [
+        "س",
+        "ش",
+        "ن",
+        "ر"
+      ],
+      "answer": "ش",
+      "acceptedAnswers": [
+        "ش"
+      ],
+      "explanation": "ش se lit comme le ch de chat. C'est س avec 3 points de vapeur dessus.",
+      "tip": "Les trois dents et trois points de vapeur : chhh.",
+      "extraExample": {
+        "text": "ش",
+        "translation": "chîn : le ch de chat, 3 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "س",
+          "category": "word_confusion",
+          "feedback": "س fait s, comme soleil. Il lui manque les 3 points de vapeur."
+        }
+      ]
+    },
+    {
+      "id": "ar.l05.e03",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.sin"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est faite de trois petites dents, sans aucun point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ش",
+        "ض",
+        "ص",
+        "س"
+      ],
+      "answer": "س",
+      "acceptedAnswers": [
+        "س"
+      ],
+      "explanation": "س a trois dents et aucun point. ش a les mêmes dents, mais avec 3 points dessus.",
+      "tip": "Trois petites dents, comme une scie.",
+      "extraExample": {
+        "text": "س",
+        "translation": "sîn : le s de soleil, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ش",
+          "category": "word_confusion",
+          "feedback": "ش a bien des dents, mais aussi 3 points dessus."
+        }
+      ]
+    },
+    {
+      "id": "ar.l05.e04",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.sin",
+        "ar.v.shin",
+        "ar.v.sad",
+        "ar.v.dad"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie س, ش, ص et ض à leur nom.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "س",
+          "right": "sîn"
+        },
+        {
+          "left": "ش",
+          "right": "chîn"
+        },
+        {
+          "left": "ص",
+          "right": "sâd"
+        },
+        {
+          "left": "ض",
+          "right": "dâd"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Les noms commencent par le son de la lettre : sîn (s), chîn (ch), sâd (s lourd), dâd (d lourd)."
+    },
+    {
+      "id": "ar.l05.e05",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.shin"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un س coiffé de 3 points dessus ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ص",
+        "س",
+        "ث",
+        "ش"
+      ],
+      "answer": "ش",
+      "acceptedAnswers": [
+        "ش"
+      ],
+      "explanation": "ش est la scie sous la vapeur : trois dents et 3 points dessus.",
+      "tip": "Les trois dents et trois points de vapeur : chhh.",
+      "extraExample": {
+        "text": "ش",
+        "translation": "chîn : le ch de chat, 3 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ث",
+          "category": "word_confusion",
+          "feedback": "ث a aussi 3 points dessus, mais sur une barque, pas sur des dents."
+        }
+      ]
+    },
+    {
+      "id": "ar.l05.e06",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.sad"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre a une boucle fermée et aucun point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "س",
+        "ص",
+        "ض",
+        "ح"
+      ],
+      "answer": "ص",
+      "acceptedAnswers": [
+        "ص"
+      ],
+      "explanation": "ص est la boucle lourde sans point. ض a la même boucle, avec 1 point dessus.",
+      "tip": "Une boucle fermée, comme un œil qui se ferme.",
+      "extraExample": {
+        "text": "ص",
+        "translation": "sâd : un s lourd, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ض",
+          "category": "word_confusion",
+          "feedback": "ض a la même boucle, mais avec 1 point dessus."
+        }
+      ]
+    },
+    {
+      "id": "ar.l05.e07",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.dad"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est une boucle fermée coiffée de 1 point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ذ",
+        "ش",
+        "ض",
+        "ص"
+      ],
+      "answer": "ض",
+      "acceptedAnswers": [
+        "ض"
+      ],
+      "explanation": "ض est ص avec 1 point dessus : c'est le d lourd.",
+      "tip": "La boucle avec un point dessus.",
+      "extraExample": {
+        "text": "ض",
+        "translation": "dâd : un d lourd, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ص",
+          "category": "word_confusion",
+          "feedback": "ص est la boucle sans point."
+        }
+      ]
+    },
+    {
+      "id": "ar.l05.e08",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.sad"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "ص est un s ___ : il se dit en creusant la gorge.",
+      "promptLanguage": "fr",
+      "options": [
+        "lourd",
+        "léger",
+        "doux"
+      ],
+      "answer": "lourd",
+      "acceptedAnswers": [
+        "lourd"
+      ],
+      "explanation": "ص est le s lourd, dit au fond de la gorge. س est le s léger, comme dans soleil.",
+      "tip": "Une boucle fermée, comme un œil qui se ferme.",
+      "extraExample": {
+        "text": "ص",
+        "translation": "sâd : un s lourd, aucun point."
+      }
+    },
+    {
+      "id": "ar.l05.e09",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.shin",
+        "ar.v.sin"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Choisis la lettre qui manque.",
+      "prompt": "Si tu ajoutes 3 points dessus à س, tu obtiens ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "ص",
+        "ث",
+        "ض",
+        "ش"
+      ],
+      "answer": "ش",
+      "acceptedAnswers": [
+        "ش"
+      ],
+      "explanation": "س + 3 points dessus = ش : le s de soleil devient le ch de chat.",
+      "tip": "Les trois dents et trois points de vapeur : chhh.",
+      "extraExample": {
+        "text": "ش",
+        "translation": "chîn : le ch de chat, 3 points dessus."
+      }
+    },
+    {
+      "id": "ar.l05.e10",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.dad",
+        "ar.v.sad"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Choisis la lettre qui manque.",
+      "prompt": "Si tu ajoutes 1 point dessus à ص, tu obtiens ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "ض",
+        "ز",
+        "ذ",
+        "ش"
+      ],
+      "answer": "ض",
+      "acceptedAnswers": [
+        "ض"
+      ],
+      "explanation": "ص + 1 point dessus = ض : le s lourd devient le d lourd.",
+      "tip": "La boucle avec un point dessus.",
+      "extraExample": {
+        "text": "ض",
+        "translation": "dâd : un d lourd, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l05.e11",
+      "unitIds": [
+        "ar.v.dhal",
+        "ar.g05.letters5"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre se dit comme un d, parfois un z, en Égypte ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ص",
+        "ذ",
+        "ر",
+        "س"
+      ],
+      "answer": "ذ",
+      "acceptedAnswers": [
+        "ذ"
+      ],
+      "explanation": "ذ se dit comme un d, parfois un z, en Égypte. C'est le petit dos coiffé d'un point.",
+      "tip": "Le dos arrondi avec un chapeau.",
+      "extraExample": {
+        "text": "ذ",
+        "translation": "dhâl : un d, parfois un z, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l05.e12",
+      "unitIds": [
+        "ar.v.zay",
+        "ar.g05.letters5"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre ressemble à ر mais avec un point dessus ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ش",
+        "ذ",
+        "د",
+        "ز"
+      ],
+      "answer": "ز",
+      "acceptedAnswers": [
+        "ز"
+      ],
+      "explanation": "ز est la virgule ر avec 1 point dessus. Elle se lit comme le z de zèbre.",
+      "tip": "La virgule avec un point : zzz.",
+      "extraExample": {
+        "text": "ز",
+        "translation": "zây : le z de zèbre, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ذ",
+          "category": "word_confusion",
+          "feedback": "ذ a 1 point dessus mais c'est un dos arrondi, pas une virgule."
+        }
+      ]
+    },
+    {
+      "id": "ar.l05.e13",
+      "unitIds": [
+        "ar.v.jim",
+        "ar.g05.letters5"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "Quel son fait la lettre ج en Égypte ?",
+      "promptLanguage": "fr",
+      "options": [
+        "le s de soleil",
+        "le g de gâteau",
+        "le z de zèbre",
+        "le ch de chat"
+      ],
+      "answer": "le g de gâteau",
+      "acceptedAnswers": [
+        "le g de gâteau"
+      ],
+      "explanation": "En Égypte, ج se dit g comme dans gâteau.",
+      "tip": "Un hameçon avec une bille dans le creux.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      }
+    },
+    {
+      "id": "ar.l05.e14",
+      "unitIds": [
+        "ar.v.kha",
+        "ar.g05.letters5"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Laquelle de ces lettres est le crochet coiffé d'un chapeau ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ج",
+        "ش",
+        "خ",
+        "ح"
+      ],
+      "answer": "خ",
+      "acceptedAnswers": [
+        "خ"
+      ],
+      "explanation": "خ est le crochet avec 1 point dessus, qui se lit comme le ch allemand de Bach.",
+      "tip": "Le crochet avec un chapeau (le point dessus).",
+      "extraExample": {
+        "text": "خ",
+        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ج",
+          "category": "word_confusion",
+          "feedback": "ج a son point dans le creux, pas en chapeau."
+        }
+      ]
+    },
+    {
+      "id": "ar.l05.e15",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.shin"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Devine la lettre.",
+      "prompt": "Qui suis-je ? « Je suis une scie : trois dents et trois bouffées de vapeur au-dessus. »",
+      "promptLanguage": "fr",
+      "options": [
+        "ص",
+        "ث",
+        "ش",
+        "س"
+      ],
+      "answer": "ش",
+      "acceptedAnswers": [
+        "ش"
+      ],
+      "explanation": "Trois dents et 3 points dessus : c'est ش, le ch de chat.",
+      "tip": "Les trois dents et trois points de vapeur : chhh.",
+      "extraExample": {
+        "text": "ش",
+        "translation": "chîn : le ch de chat, 3 points dessus."
+      }
+    },
+    {
+      "id": "ar.l05.e16",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.dad"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "Quel son fait la lettre ض ?",
+      "promptLanguage": "fr",
+      "options": [
+        "un d lourd",
+        "le d de dent",
+        "un s lourd",
+        "le s de soleil"
+      ],
+      "answer": "un d lourd",
+      "acceptedAnswers": [
+        "un d lourd"
+      ],
+      "explanation": "ض est un d lourd, dit en creusant la gorge. Le d léger, c'est د.",
+      "tip": "La boucle avec un point dessus.",
+      "extraExample": {
+        "text": "ض",
+        "translation": "dâd : un d lourd, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "un s lourd",
+          "category": "word_confusion",
+          "feedback": "Le s lourd, c'est ص. ض a 1 point dessus et se dit d lourd."
+        }
+      ]
+    },
+    {
+      "id": "ar.l05.e17",
+      "unitIds": [
+        "ar.v.dhal",
+        "ar.v.ra",
+        "ar.v.zay",
+        "ar.v.kha",
+        "ar.g05.letters5"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ذ, ر, ز et خ à leur son.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ذ",
+          "right": "un d, parfois un z"
+        },
+        {
+          "left": "ر",
+          "right": "un r roulé"
+        },
+        {
+          "left": "ز",
+          "right": "le z de zèbre"
+        },
+        {
+          "left": "خ",
+          "right": "le ch allemand de Bach"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Quatre sons à relier : ذ (d ou z), ر (r roulé), ز (z) et خ (ch de Bach)."
+    },
+    {
+      "id": "ar.l05.e18",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.sin",
+        "ar.v.shin",
+        "ar.v.sad",
+        "ar.v.dad"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie س, ش, ص et ض à leur son.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "س",
+          "right": "le s de soleil"
+        },
+        {
+          "left": "ش",
+          "right": "le ch de chat"
+        },
+        {
+          "left": "ص",
+          "right": "un s lourd"
+        },
+        {
+          "left": "ض",
+          "right": "un d lourd"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Les dents donnent des sons légers (s, ch), la boucle donne des sons lourds (s, d)."
+    },
+    {
+      "id": "ar.l05.e19",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.shin"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris le nombre.",
+      "prompt": "Combien de points a la lettre ش ? Réponds avec un chiffre.",
+      "promptLanguage": "fr",
+      "answer": "3",
+      "acceptedAnswers": [
+        "3",
+        "trois"
+      ],
+      "explanation": "ش a 3 points dessus, trois bouffées de vapeur au-dessus des dents.",
+      "tip": "Les trois dents et trois points de vapeur : chhh.",
+      "extraExample": {
+        "text": "ش",
+        "translation": "chîn : le ch de chat, 3 points dessus."
+      }
+    },
+    {
+      "id": "ar.l05.e20",
+      "unitIds": [
+        "ar.g05.letters5",
+        "ar.v.shin"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris le nom de la lettre.",
+      "prompt": "Comment s'appelle la lettre qui fait le son ch, comme dans chat ?",
+      "promptLanguage": "fr",
+      "answer": "chîn",
+      "acceptedAnswers": [
+        "chîn",
+        "chin",
+        "chiin",
+        "shin"
+      ],
+      "explanation": "ش s'appelle chîn : son nom commence par son son, ch.",
+      "tip": "Les trois dents et trois points de vapeur : chhh.",
+      "extraExample": {
+        "text": "ش",
+        "translation": "chîn : le ch de chat, 3 points dessus."
+      }
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "lessonId": "ar.l06",
+  "exercises": [
+    {
+      "id": "ar.l06.e01",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.tah"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est une boucle fermée avec un mât, sans aucun point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ط",
+        "ظ",
+        "ض",
+        "ص"
+      ],
+      "answer": "ط",
+      "acceptedAnswers": [
+        "ط"
+      ],
+      "explanation": "ط est la boucle au mât, sans point : un t lourd. ظ a le même mât, avec 1 point dessus.",
+      "tip": "Une boucle avec un mât : un drapeau.",
+      "extraExample": {
+        "text": "ط",
+        "translation": "ṭâ : un t lourd, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ظ",
+          "category": "word_confusion",
+          "feedback": "ظ a bien un mât, mais aussi 1 point dessus."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e02",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.ayn"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un œil de profil, sans point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "غ",
+        "ع",
+        "ط",
+        "ح"
+      ],
+      "answer": "ع",
+      "acceptedAnswers": [
+        "ع"
+      ],
+      "explanation": "ع est l'œil de profil. Avec une larme (1 point dessus), ce serait غ.",
+      "tip": "Un œil de profil : aïn veut dire œil.",
+      "extraExample": {
+        "text": "ع",
+        "translation": "aïn : un son de gorge serrée, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "غ",
+          "category": "word_confusion",
+          "feedback": "غ est l'œil avec une larme : elle a 1 point dessus."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e03",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.ghayn"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le r de rouge, au fond de la gorge ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ر",
+        "غ",
+        "ظ",
+        "ع"
+      ],
+      "answer": "غ",
+      "acceptedAnswers": [
+        "غ"
+      ],
+      "explanation": "غ se lit comme le r de rouge, le r du fond de la gorge. Le r roulé, c'est ر.",
+      "tip": "L'œil avec une larme dessus.",
+      "extraExample": {
+        "text": "غ",
+        "translation": "ghaïn : le r de rouge, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ر",
+          "category": "word_confusion",
+          "feedback": "ر est le r roulé du bout de la langue, pas celui de rouge."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e04",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.tah",
+        "ar.v.zah",
+        "ar.v.ayn",
+        "ar.v.ghayn"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ط, ظ, ع et غ à leur nom.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ط",
+          "right": "ṭâ"
+        },
+        {
+          "left": "ظ",
+          "right": "ẓâ"
+        },
+        {
+          "left": "ع",
+          "right": "aïn"
+        },
+        {
+          "left": "غ",
+          "right": "ghaïn"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "ṭâ et ẓâ sont les lourdes à mât, aïn et ghaïn les lettres de gorge."
+    },
+    {
+      "id": "ar.l06.e05",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.zah"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un ط coiffé de 1 point dessus ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ض",
+        "ظ",
+        "غ",
+        "ط"
+      ],
+      "answer": "ظ",
+      "acceptedAnswers": [
+        "ظ"
+      ],
+      "explanation": "ظ est le drapeau avec un point : un z lourd.",
+      "tip": "Le drapeau avec un point.",
+      "extraExample": {
+        "text": "ظ",
+        "translation": "ẓâ : un z lourd, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ض",
+          "category": "word_confusion",
+          "feedback": "ض a 1 point dessus, mais sa boucle n'a pas de mât."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e06",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.ghayn"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un œil avec une larme, c'est-à-dire 1 point dessus ?",
+      "promptLanguage": "fr",
+      "options": [
+        "خ",
+        "غ",
+        "ظ",
+        "ع"
+      ],
+      "answer": "غ",
+      "acceptedAnswers": [
+        "غ"
+      ],
+      "explanation": "غ est ع avec 1 point dessus. خ a aussi 1 point dessus, mais c'est un crochet.",
+      "tip": "L'œil avec une larme dessus.",
+      "extraExample": {
+        "text": "غ",
+        "translation": "ghaïn : le r de rouge, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "خ",
+          "category": "word_confusion",
+          "feedback": "خ est un crochet. L'œil à larme, c'est غ."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e07",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.ayn"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait un son de gorge serrée, sans équivalent en français ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ح",
+        "غ",
+        "ع",
+        "ا"
+      ],
+      "answer": "ع",
+      "acceptedAnswers": [
+        "ع"
+      ],
+      "explanation": "ع serre la gorge : aucun son français n'y ressemble. ح souffle simplement fort, غ fait le r de rouge.",
+      "tip": "Un œil de profil : aïn veut dire œil.",
+      "extraExample": {
+        "text": "ع",
+        "translation": "aïn : un son de gorge serrée, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ح",
+          "category": "word_confusion",
+          "feedback": "ح est un h appuyé, un souffle. ع serre la gorge."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e08",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.tah"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "ط est un t ___ : le t de ت dit en creusant la gorge.",
+      "promptLanguage": "fr",
+      "options": [
+        "doux",
+        "lourd",
+        "léger"
+      ],
+      "answer": "lourd",
+      "acceptedAnswers": [
+        "lourd"
+      ],
+      "explanation": "ط est le t lourd, alors que ت est le t léger, comme dans table.",
+      "tip": "Une boucle avec un mât : un drapeau.",
+      "extraExample": {
+        "text": "ط",
+        "translation": "ṭâ : un t lourd, aucun point."
+      }
+    },
+    {
+      "id": "ar.l06.e09",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.ghayn",
+        "ar.v.ayn"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Choisis la lettre qui manque.",
+      "prompt": "Si tu ajoutes 1 point dessus à ع, tu obtiens ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "ظ",
+        "غ",
+        "خ",
+        "ض"
+      ],
+      "answer": "غ",
+      "acceptedAnswers": [
+        "غ"
+      ],
+      "explanation": "ع + 1 point dessus = غ : l'œil se met à pleurer et prend le son du r de rouge.",
+      "tip": "L'œil avec une larme dessus.",
+      "extraExample": {
+        "text": "غ",
+        "translation": "ghaïn : le r de rouge, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l06.e10",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.zah",
+        "ar.v.tah"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Choisis la lettre qui manque.",
+      "prompt": "Si tu ajoutes 1 point dessus à ط, tu obtiens ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "غ",
+        "ز",
+        "ظ",
+        "ض"
+      ],
+      "answer": "ظ",
+      "acceptedAnswers": [
+        "ظ"
+      ],
+      "explanation": "ط + 1 point dessus = ظ : le t lourd devient un z lourd.",
+      "tip": "Le drapeau avec un point.",
+      "extraExample": {
+        "text": "ظ",
+        "translation": "ẓâ : un z lourd, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l06.e11",
+      "unitIds": [
+        "ar.v.sad",
+        "ar.g06.letters6"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est une boucle fermée sans mât et sans point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ض",
+        "ص",
+        "ط",
+        "س"
+      ],
+      "answer": "ص",
+      "acceptedAnswers": [
+        "ص"
+      ],
+      "explanation": "ص est la boucle sans mât ni point. ط a un mât, ض a un point, س a des dents.",
+      "tip": "Une boucle fermée, comme un œil qui se ferme.",
+      "extraExample": {
+        "text": "ص",
+        "translation": "sâd : un s lourd, aucun point."
+      }
+    },
+    {
+      "id": "ar.l06.e12",
+      "unitIds": [
+        "ar.v.dad",
+        "ar.g06.letters6"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un d lourd ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ص",
+        "ض",
+        "د",
+        "ظ"
+      ],
+      "answer": "ض",
+      "acceptedAnswers": [
+        "ض"
+      ],
+      "explanation": "ض est le d lourd : une boucle avec 1 point dessus. Le d léger de dent, c'est د.",
+      "tip": "La boucle avec un point dessus.",
+      "extraExample": {
+        "text": "ض",
+        "translation": "dâd : un d lourd, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "د",
+          "category": "word_confusion",
+          "feedback": "د est le d léger, un petit dos sans boucle."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e13",
+      "unitIds": [
+        "ar.v.shin",
+        "ar.g06.letters6"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Laquelle de ces lettres dit « ch » comme dans chat ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ش",
+        "س",
+        "خ",
+        "ص"
+      ],
+      "answer": "ش",
+      "acceptedAnswers": [
+        "ش"
+      ],
+      "explanation": "ش dit ch comme dans chat. خ est un raclement de gorge, ce n'est pas le même son.",
+      "tip": "Les trois dents et trois points de vapeur : chhh.",
+      "extraExample": {
+        "text": "ش",
+        "translation": "chîn : le ch de chat, 3 points dessus."
+      }
+    },
+    {
+      "id": "ar.l06.e14",
+      "unitIds": [
+        "ar.v.sad",
+        "ar.g06.letters6"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon nom.",
+      "prompt": "Quel est le nom de la lettre ص ?",
+      "promptLanguage": "fr",
+      "options": [
+        "dâd",
+        "sâd",
+        "sîn",
+        "chîn"
+      ],
+      "answer": "sâd",
+      "acceptedAnswers": [
+        "sâd"
+      ],
+      "explanation": "ص s'appelle sâd. Ne la confonds pas avec ض, qui s'appelle dâd.",
+      "tip": "Une boucle fermée, comme un œil qui se ferme.",
+      "extraExample": {
+        "text": "ص",
+        "translation": "sâd : un s lourd, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "dâd",
+          "category": "word_confusion",
+          "feedback": "dâd est le nom de ض, la boucle avec un point."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e15",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.zah"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "Quel son fait la lettre ظ en Égypte ?",
+      "promptLanguage": "fr",
+      "options": [
+        "le d de dent",
+        "un t lourd",
+        "un z lourd",
+        "le z de zèbre"
+      ],
+      "answer": "un z lourd",
+      "acceptedAnswers": [
+        "un z lourd"
+      ],
+      "explanation": "En Égypte, ظ se dit comme un z lourd. Le z léger de zèbre, c'est ز.",
+      "tip": "Le drapeau avec un point.",
+      "extraExample": {
+        "text": "ظ",
+        "translation": "ẓâ : un z lourd, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "le z de zèbre",
+          "category": "word_confusion",
+          "feedback": "Le z léger, c'est ز. ظ est lourde, dite au fond de la gorge."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e16",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.zah"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Devine la lettre.",
+      "prompt": "Qui suis-je ? « Je suis un drapeau avec un point, lourd, et je dis z. »",
+      "promptLanguage": "fr",
+      "options": [
+        "ط",
+        "ض",
+        "ظ",
+        "ز"
+      ],
+      "answer": "ظ",
+      "acceptedAnswers": [
+        "ظ"
+      ],
+      "explanation": "Un mât et 1 point dessus, avec un z lourd : c'est ظ.",
+      "tip": "Le drapeau avec un point.",
+      "extraExample": {
+        "text": "ظ",
+        "translation": "ẓâ : un z lourd, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ز",
+          "category": "word_confusion",
+          "feedback": "ز est légère et n'a pas de mât."
+        }
+      ]
+    },
+    {
+      "id": "ar.l06.e17",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.sad",
+        "ar.v.dad",
+        "ar.v.tah",
+        "ar.v.zah"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ص, ض, ط et ظ à leur son.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ص",
+          "right": "un s lourd"
+        },
+        {
+          "left": "ض",
+          "right": "un d lourd"
+        },
+        {
+          "left": "ط",
+          "right": "un t lourd"
+        },
+        {
+          "left": "ظ",
+          "right": "un z lourd"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Les quatre lourdes sont les jumelles lourdes de س, د, ت et ز : s, d, t, z, dits au fond de la gorge."
+    },
+    {
+      "id": "ar.l06.e18",
+      "unitIds": [
+        "ar.v.sin",
+        "ar.v.shin",
+        "ar.v.dad",
+        "ar.v.tah",
+        "ar.g06.letters6"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie chaque forme à sa lettre.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "trois dents",
+          "right": "س"
+        },
+        {
+          "left": "trois dents et 3 points dessus",
+          "right": "ش"
+        },
+        {
+          "left": "boucle fermée et 1 point dessus",
+          "right": "ض"
+        },
+        {
+          "left": "boucle fermée avec un mât",
+          "right": "ط"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Dents ou boucle ? Mât ou pas ? Points ou pas ? Ces trois questions suffisent pour classer س ش ض ط."
+    },
+    {
+      "id": "ar.l06.e19",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.ghayn"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris le nombre.",
+      "prompt": "Combien de points a la lettre غ ? Réponds avec un chiffre.",
+      "promptLanguage": "fr",
+      "answer": "1",
+      "acceptedAnswers": [
+        "1",
+        "un"
+      ],
+      "explanation": "غ a 1 point dessus : la larme de l'œil. ع n'en a pas.",
+      "tip": "L'œil avec une larme dessus.",
+      "extraExample": {
+        "text": "غ",
+        "translation": "ghaïn : le r de rouge, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l06.e20",
+      "unitIds": [
+        "ar.g06.letters6",
+        "ar.v.ayn"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris le nom de la lettre.",
+      "prompt": "Comment s'appelle la lettre qui est un œil de profil, sans point ?",
+      "promptLanguage": "fr",
+      "answer": "aïn",
+      "acceptedAnswers": [
+        "aïn",
+        "ain",
+        "ayn",
+        "aine"
+      ],
+      "explanation": "ع s'appelle aïn, ce qui veut dire « œil » en arabe.",
+      "tip": "Un œil de profil : aïn veut dire œil.",
+      "extraExample": {
+        "text": "ع",
+        "translation": "aïn : un son de gorge serrée, aucun point."
+      }
+    }
+  ]
+}

@@ -69,7 +69,7 @@
    ],
    "commonErrors": [
     {
-     "wrong": "بـا lu comme un seul bloc avec le ب suivant",
+     "wrong": "باب lu en un seul bloc",
      "right": "با | ب : deux blocs",
      "why": "Le ا ne s'attache jamais à la lettre d'après."
     },
@@ -85,6 +85,138 @@
     }
    ],
    "tip": "Cherche ا د ذ ر ز و : après chacune, un nouveau bloc commence."
+  }
+ },
+ {
+  "id": "ar.g11.forms_jim_family",
+  "rule": {
+   "summary": "ج ح خ ont la même tête et le même crochet : seul le point change (dessous, aucun, dessus). Au début et au milieu c'est une tête, à la fin le crochet revient.",
+   "explanation": "ج, ح et خ se ressemblent comme ب ت ث : même corps, points différents. ج a un point dessous, ح n'en a pas, خ en a un dessus. Au début et au milieu d'un mot, la lettre est une petite tête (جـ ـجـ) ; à la fin, elle retrouve son crochet (ـج). Le point ne bouge jamais.",
+   "pattern": "جـ ـجـ ـج ج  |  حـ ـحـ ـح ح  |  خـ ـخـ ـخ خ",
+   "examples": [
+    {
+     "text": "حبيبي",
+     "translation": "mon chéri : ح + ب + ي + ب + ي, 1 bloc"
+    },
+    {
+     "text": "خوخ",
+     "translation": "pêches : خو | خ, 2 blocs"
+    },
+    {
+     "text": "جيب",
+     "translation": "poche : ج + ي + ب, 1 bloc"
+    },
+    {
+     "text": "بخور",
+     "translation": "encens : بخو | ر, 2 blocs"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "خد lu comme حد",
+     "right": "خد = prends ; حد = quelqu'un",
+     "why": "خ a un point dessus ; ح n'en a aucun."
+    },
+    {
+     "wrong": "ج lu comme خ",
+     "right": "ج : point dessous",
+     "why": "Le point de ج est dessous, dans le creux ; celui de خ est dessus."
+    },
+    {
+     "wrong": "le deuxième خ de خوخ écrit avec un trait",
+     "right": "خ isolé",
+     "why": "Après un و, la lettre repart à neuf ; en fin de mot et seule, elle est isolée."
+    }
+   ],
+   "tip": "Devant une tête, cherche d'abord le point : dessous, rien, ou dessus."
+  }
+ },
+ {
+  "id": "ar.g12.forms_sin_family",
+  "rule": {
+   "summary": "س ش ont trois dents, ص ض une boucle ; ش et ض sont س et ص avec des points. Les points ne bougent pas quand la forme change.",
+   "explanation": "س et ش partagent trois dents (ش a 3 points dessus). ص et ض partagent une boucle (ض a 1 point dessus). Au début et au milieu, les dents se serrent et la boucle reste ; à la fin, la queue revient. Comme pour ب ت ث ن ي, le point fait la lettre : on le regarde avant de lire le mot.",
+   "pattern": "سـ ـسـ ـس  |  شـ ـشـ ـش  |  صـ ـصـ ـص  |  ضـ ـضـ ـض",
+   "examples": [
+    {
+     "text": "شاي",
+     "translation": "thé : شا | ي"
+    },
+    {
+     "text": "صباح",
+     "translation": "matin : صبا | ح"
+    },
+    {
+     "text": "أبيض",
+     "translation": "blanc : أ | بيض"
+    },
+    {
+     "text": "جرس",
+     "translation": "cloche : جر | س"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "شاي lu ساي",
+     "right": "ش a 3 points dessus",
+     "why": "Sans ses 3 points, la lettre est س, et ساي n'existe pas."
+    },
+    {
+     "wrong": "ض lu ص",
+     "right": "ض : boucle + 1 point dessus",
+     "why": "ص n'a aucun point : le point de ض est ce qui les sépare."
+    },
+    {
+     "wrong": "ـضـ pour le ض de حاضر",
+     "right": "ضـ (forme du début)",
+     "why": "Le ا qui précède ne s'attache pas : le ض repart à neuf."
+    }
+   ],
+   "tip": "Dents ou boucle ? Puis compte les points : la lettre est là."
+  }
+ },
+ {
+  "id": "ar.g13.forms_ayn_family",
+  "rule": {
+   "summary": "ط ظ ont une boucle et un bâton, ع غ une tête repliée ; ظ et غ sont ط et ع avec 1 point dessus. Le point fait la lettre.",
+   "explanation": "ط et ظ partagent la boucle et le bâton ; ع et غ partagent la tête repliée. Dans chaque paire, le point dessus distingue la lettre (ظ, غ). Au début et au milieu on voit la boucle-bâton ou la petite tête ; à la fin le crochet revient. Quand une lettre suit un و ou un ا, elle repart à neuf, comme le ع de يسوع qui est isolé.",
+   "pattern": "طـ ـطـ ـط  |  ظـ ـظـ ـظ  |  عـ ـعـ ـع  |  غـ ـغـ ـغ",
+   "examples": [
+    {
+     "text": "عيش",
+     "translation": "pain : ع + ي + ش, 1 bloc"
+    },
+    {
+     "text": "جعان",
+     "translation": "affamé : جعا | ن"
+    },
+    {
+     "text": "يسوع",
+     "translation": "Jésus : يسو | ع, ع isolé"
+    },
+    {
+     "text": "حظ",
+     "translation": "chance : ح + ظ, ظ à la fin"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "غني lu comme عني",
+     "right": "غ a un point dessus",
+     "why": "Le point dessus fait la différence entre ع et غ."
+    },
+    {
+     "wrong": "طير lu comme طيب",
+     "right": "طير finit par ر",
+     "why": "ب a un point dessous ; ر n'en a aucun et descend sous la ligne."
+    },
+    {
+     "wrong": "ع de يسوع écrit avec un trait",
+     "right": "ع isolé",
+     "why": "Le و ne s'attache pas à la suivante : le ع repart à neuf, et seul il est isolé."
+    }
+   ],
+   "tip": "Cherche d'abord le bâton ou la tête, puis le point dessus."
   }
  }
 ]

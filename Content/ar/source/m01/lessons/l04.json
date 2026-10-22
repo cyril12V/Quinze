@@ -1,0 +1,626 @@
+{
+  "lessonId": "ar.l04",
+  "exercises": [
+    {
+      "id": "ar.l04.e01",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.dal"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son d, comme dans dent ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ز",
+        "د",
+        "ر",
+        "ب"
+      ],
+      "answer": "د",
+      "acceptedAnswers": [
+        "د"
+      ],
+      "explanation": "د se lit comme le d de dent : un petit dos arrondi posé sur la ligne, sans point.",
+      "tip": "Un petit dos arrondi posé sur la ligne.",
+      "extraExample": {
+        "text": "د",
+        "translation": "dâl : le d de dent, aucun point."
+      }
+    },
+    {
+      "id": "ar.l04.e02",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.zay"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son z, comme dans zèbre ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ر",
+        "ز",
+        "ن",
+        "د"
+      ],
+      "answer": "ز",
+      "acceptedAnswers": [
+        "ز"
+      ],
+      "explanation": "ز se lit comme le z de zèbre. C'est la virgule ر, coiffée d'un point dessus.",
+      "tip": "La virgule avec un point : zzz.",
+      "extraExample": {
+        "text": "ز",
+        "translation": "zây : le z de zèbre, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ر",
+          "category": "word_confusion",
+          "feedback": "ر est le r roulé : c'est la même virgule, mais sans point."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e03",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.ra"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est une virgule qui descend sous la ligne, sans point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ا",
+        "ر",
+        "ز",
+        "د"
+      ],
+      "answer": "ر",
+      "acceptedAnswers": [
+        "ر"
+      ],
+      "explanation": "ر descend sous la ligne comme une virgule. ز lui ressemble, mais elle porte un point dessus.",
+      "tip": "Une virgule qui descend sous la ligne.",
+      "extraExample": {
+        "text": "ر",
+        "translation": "râ : un r roulé, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ز",
+          "category": "word_confusion",
+          "feedback": "ز a la même forme, mais avec 1 point dessus."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e04",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.dal",
+        "ar.v.dhal",
+        "ar.v.ra",
+        "ar.v.zay"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie د, ذ, ر et ز à leur nom.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "د",
+          "right": "dâl"
+        },
+        {
+          "left": "ذ",
+          "right": "dhâl"
+        },
+        {
+          "left": "ر",
+          "right": "râ"
+        },
+        {
+          "left": "ز",
+          "right": "zây"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Quatre noms pour deux paires : dâl et dhâl, râ et zây. Le nom commence par le son de la lettre."
+    },
+    {
+      "id": "ar.l04.e05",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.dhal"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un petit dos arrondi avec 1 point dessus ?",
+      "promptLanguage": "fr",
+      "options": [
+        "د",
+        "ز",
+        "ذ",
+        "ر"
+      ],
+      "answer": "ذ",
+      "acceptedAnswers": [
+        "ذ"
+      ],
+      "explanation": "ذ est le dos de د coiffé d'un point dessus.",
+      "tip": "Le dos arrondi avec un chapeau.",
+      "extraExample": {
+        "text": "ذ",
+        "translation": "dhâl : un d, parfois un z, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "د",
+          "category": "word_confusion",
+          "feedback": "د est le même dos, mais sans aucun point."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e06",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.zay"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est une virgule avec 1 point dessus ?",
+      "promptLanguage": "fr",
+      "options": [
+        "د",
+        "ذ",
+        "ز",
+        "ر"
+      ],
+      "answer": "ز",
+      "acceptedAnswers": [
+        "ز"
+      ],
+      "explanation": "ز est la virgule ر avec un point dessus. ذ a bien un point dessus aussi, mais c'est un dos arrondi.",
+      "tip": "La virgule avec un point : zzz.",
+      "extraExample": {
+        "text": "ز",
+        "translation": "zây : le z de zèbre, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ذ",
+          "category": "word_confusion",
+          "feedback": "ذ a un point dessus, mais sa forme est un dos arrondi, pas une virgule."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e07",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.zay",
+        "ar.v.ra"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Choisis la lettre qui manque.",
+      "prompt": "Si tu ajoutes 1 point dessus à ر, tu obtiens ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "د",
+        "ذ",
+        "ز",
+        "ن"
+      ],
+      "answer": "ز",
+      "acceptedAnswers": [
+        "ز"
+      ],
+      "explanation": "ر + 1 point dessus = ز : le r roulé devient le z de zèbre.",
+      "tip": "La virgule avec un point : zzz.",
+      "extraExample": {
+        "text": "ز",
+        "translation": "zây : le z de zèbre, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l04.e08",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.dhal",
+        "ar.v.dal"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Choisis la lettre qui manque.",
+      "prompt": "Si tu ajoutes 1 point dessus à د, tu obtiens ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "ر",
+        "ز",
+        "ذ",
+        "خ"
+      ],
+      "answer": "ذ",
+      "acceptedAnswers": [
+        "ذ"
+      ],
+      "explanation": "د + 1 point dessus = ذ : le d de dent devient un d, parfois un z.",
+      "tip": "Le dos arrondi avec un chapeau.",
+      "extraExample": {
+        "text": "ذ",
+        "translation": "dhâl : un d, parfois un z, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l04.e09",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.ra",
+        "ar.v.dal"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "ر est une virgule qui descend ___ la ligne, alors que د reste posée dessus.",
+      "promptLanguage": "fr",
+      "options": [
+        "au bout de",
+        "sous",
+        "sur"
+      ],
+      "answer": "sous",
+      "acceptedAnswers": [
+        "sous"
+      ],
+      "explanation": "ر descend sous la ligne comme une virgule, alors que د reste posée sur la ligne.",
+      "tip": "Une virgule qui descend sous la ligne.",
+      "extraExample": {
+        "text": "ر",
+        "translation": "râ : un r roulé, aucun point."
+      }
+    },
+    {
+      "id": "ar.l04.e10",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.dal",
+        "ar.v.dhal",
+        "ar.v.zay",
+        "ar.v.kha"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Trouve l'intruse.",
+      "prompt": "Trois de ces lettres ont 1 point dessus. Laquelle est l'intruse ?",
+      "promptLanguage": "fr",
+      "options": [
+        "د",
+        "ذ",
+        "خ",
+        "ز"
+      ],
+      "answer": "د",
+      "acceptedAnswers": [
+        "د"
+      ],
+      "explanation": "ذ, ز et خ portent chacune 1 point dessus. د n'en porte aucun : c'est l'intruse.",
+      "tip": "Un petit dos arrondi posé sur la ligne.",
+      "extraExample": {
+        "text": "د",
+        "translation": "dâl : le d de dent, aucun point."
+      }
+    },
+    {
+      "id": "ar.l04.e11",
+      "unitIds": [
+        "ar.v.jim",
+        "ar.g04.letters4"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un crochet avec 1 point dans le creux ?",
+      "promptLanguage": "fr",
+      "options": [
+        "خ",
+        "ذ",
+        "ح",
+        "ج"
+      ],
+      "answer": "ج",
+      "acceptedAnswers": [
+        "ج"
+      ],
+      "explanation": "ج est le crochet à bille : 1 point dans le creux, donc dessous. Elle se dit g en Égypte.",
+      "tip": "Un hameçon avec une bille dans le creux.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      },
+      "errorPatterns": [
+        {
+          "equals": "خ",
+          "category": "word_confusion",
+          "feedback": "خ a son point dessus (le chapeau), pas dans le creux."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e12",
+      "unitIds": [
+        "ar.v.ha",
+        "ar.g04.letters4"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Parmi ces lettres, laquelle se lit comme un h appuyé ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ر",
+        "ح",
+        "ج",
+        "خ"
+      ],
+      "answer": "ح",
+      "acceptedAnswers": [
+        "ح"
+      ],
+      "explanation": "ح est le crochet vide, un h appuyé soufflé du fond de la gorge.",
+      "tip": "Le crochet vide : rien dedans, rien dessus.",
+      "extraExample": {
+        "text": "ح",
+        "translation": "ḥâ : un h appuyé, aucun point."
+      }
+    },
+    {
+      "id": "ar.l04.e13",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.dhal"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "En Égypte, comment dit-on le plus souvent la lettre ذ ?",
+      "promptLanguage": "fr",
+      "options": [
+        "le b de bateau",
+        "le r de rouge",
+        "le ch de chat",
+        "un d, parfois un z"
+      ],
+      "answer": "un d, parfois un z",
+      "acceptedAnswers": [
+        "un d, parfois un z"
+      ],
+      "explanation": "En arabe littéraire, ذ est le th de this, mais en Égypte on la dit comme un d, parfois un z.",
+      "tip": "Comme ث se dit t, ذ se dit d : les sons « th » n'existent pas en égyptien.",
+      "extraExample": {
+        "text": "ذ",
+        "translation": "dhâl : un d, parfois un z, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l04.e14",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.ra"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "Quel son fait la lettre ر ?",
+      "promptLanguage": "fr",
+      "options": [
+        "un r roulé",
+        "le n de nuit",
+        "le d de dent",
+        "le z de zèbre"
+      ],
+      "answer": "un r roulé",
+      "acceptedAnswers": [
+        "un r roulé"
+      ],
+      "explanation": "ر est un r roulé du bout de la langue, comme en espagnol.",
+      "tip": "Une virgule qui descend sous la ligne.",
+      "extraExample": {
+        "text": "ر",
+        "translation": "râ : un r roulé, aucun point."
+      }
+    },
+    {
+      "id": "ar.l04.e15",
+      "unitIds": [
+        "ar.v.jim",
+        "ar.g04.letters4"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Devine la lettre.",
+      "prompt": "Qui suis-je ? « Je suis un crochet avec une bille dans le creux. »",
+      "promptLanguage": "fr",
+      "options": [
+        "ح",
+        "ج",
+        "خ",
+        "ب"
+      ],
+      "answer": "ج",
+      "acceptedAnswers": [
+        "ج"
+      ],
+      "explanation": "La bille dans le creux est le point de ج : 1 point dessous.",
+      "tip": "Un hameçon avec une bille dans le creux.",
+      "extraExample": {
+        "text": "ج",
+        "translation": "gîm : le g de gâteau, 1 point dessous."
+      }
+    },
+    {
+      "id": "ar.l04.e16",
+      "unitIds": [
+        "ar.v.nun",
+        "ar.g04.letters4"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis les bons points.",
+      "prompt": "Quels points porte la lettre ن ?",
+      "promptLanguage": "fr",
+      "options": [
+        "2 points dessous",
+        "1 point dessous",
+        "2 points dessus",
+        "1 point dessus"
+      ],
+      "answer": "1 point dessus",
+      "acceptedAnswers": [
+        "1 point dessus"
+      ],
+      "explanation": "ن porte 1 point dessus, la cerise sur le bol. Avec 1 point dessous, ce serait ب.",
+      "tip": "Un bol avec une cerise dessus.",
+      "extraExample": {
+        "text": "ن",
+        "translation": "nûn : le n de nuit, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "1 point dessous",
+          "category": "word_confusion",
+          "feedback": "1 point dessous, c'est ب, la barque."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e17",
+      "unitIds": [
+        "ar.v.jim",
+        "ar.v.ha",
+        "ar.v.kha",
+        "ar.v.ya",
+        "ar.g04.letters4"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ج, ح, خ et ي à leurs points.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ج",
+          "right": "1 point dessous"
+        },
+        {
+          "left": "ح",
+          "right": "aucun point"
+        },
+        {
+          "left": "خ",
+          "right": "1 point dessus"
+        },
+        {
+          "left": "ي",
+          "right": "2 points dessous"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Trois crochets distingués par la place du point (dessous, aucun, dessus), et ي avec ses 2 points dessous."
+    },
+    {
+      "id": "ar.l04.e18",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.dal",
+        "ar.v.dhal",
+        "ar.v.ra",
+        "ar.v.zay"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie د, ذ, ر et ز à leur son.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "د",
+          "right": "le d de dent"
+        },
+        {
+          "left": "ذ",
+          "right": "un d, parfois un z"
+        },
+        {
+          "left": "ر",
+          "right": "un r roulé"
+        },
+        {
+          "left": "ز",
+          "right": "le z de zèbre"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Deux paires de jumelles : d et d/z, r et z. Le point dessus ajoute le son plus « bourdonnant »."
+    },
+    {
+      "id": "ar.l04.e19",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.ra"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris le nombre.",
+      "prompt": "Combien de points a la lettre ر ? Réponds avec un chiffre.",
+      "promptLanguage": "fr",
+      "answer": "0",
+      "acceptedAnswers": [
+        "0",
+        "zéro",
+        "aucun"
+      ],
+      "explanation": "ر n'a aucun point : c'est la virgule nue. Avec 1 point dessus, ce serait ز.",
+      "tip": "Une virgule qui descend sous la ligne.",
+      "extraExample": {
+        "text": "ر",
+        "translation": "râ : un r roulé, aucun point."
+      }
+    },
+    {
+      "id": "ar.l04.e20",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.zay"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris le nom de la lettre.",
+      "prompt": "Comment s'appelle la lettre qui fait le son z, comme dans zèbre ?",
+      "promptLanguage": "fr",
+      "answer": "zây",
+      "acceptedAnswers": [
+        "zây",
+        "zay",
+        "zai",
+        "zaï"
+      ],
+      "explanation": "ز s'appelle zây : son nom commence par son son, z.",
+      "tip": "La virgule avec un point : zzz.",
+      "extraExample": {
+        "text": "ز",
+        "translation": "zây : le z de zèbre, 1 point dessus."
+      }
+    }
+  ]
+}

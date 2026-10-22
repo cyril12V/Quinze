@@ -395,20 +395,20 @@
     "cg.g14.france_geographie",
     "cg.v.massif_central"
    ],
-   "type": "fill_blank",
+   "type": "mcq",
    "difficulty": 2,
-   "instruction": "Complète la phrase.",
-   "prompt": "Les volcans éteints de la chaîne des Puys, dont le puy de Dôme, se trouvent dans le ___.",
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel massif se trouvent les volcans éteints de la chaîne des Puys, dont le puy de Dôme ?",
    "promptLanguage": "fr",
    "options": [
-    "Massif central",
-    "Jura",
-    "Vosges",
-    "Pyrénées"
+    "Le Massif central",
+    "Le Jura",
+    "Les Vosges",
+    "Les Pyrénées"
    ],
-   "answer": "Massif central",
+   "answer": "Le Massif central",
    "acceptedAnswers": [
-    "Massif central"
+    "Le Massif central"
    ],
    "explanation": "La chaîne des Puys, au cœur de l'Auvergne, fait partie du Massif central, une région ancienne de moyennes montagnes qui compte de nombreux volcans éteints.",
    "tip": "Massif central = volcans d'Auvergne ; Alpes = hauts glaciers.",
@@ -418,17 +418,17 @@
    },
    "errorPatterns": [
     {
-     "equals": "Jura",
+     "equals": "Le Jura",
      "category": "word_confusion",
      "feedback": "Le Jura est un massif calcaire à la frontière suisse, sans volcans."
     },
     {
-     "equals": "Vosges",
+     "equals": "Les Vosges",
      "category": "word_confusion",
      "feedback": "Les Vosges, dans l'est, sont de vieilles montagnes sans volcans."
     },
     {
-     "equals": "Pyrénées",
+     "equals": "Les Pyrénées",
      "category": "word_confusion",
      "feedback": "Les Pyrénées forment la frontière avec l'Espagne."
     }
@@ -567,7 +567,7 @@
     "Brésil",
     "Venezuela",
     "Pérou",
-    "Colombie"
+    "Guyana"
    ],
    "answer": "Brésil",
    "acceptedAnswers": [
@@ -587,9 +587,9 @@
      "feedback": "Le Venezuela est plus à l'ouest, au-delà du Guyana et du Suriname."
     },
     {
-     "equals": "Colombie",
+     "equals": "Guyana",
      "category": "word_confusion",
-     "feedback": "La Colombie est loin à l'ouest de la Guyane."
+     "feedback": "Le Guyana est un autre pays, situé de l'autre côté du Suriname, à l'ouest ; il ne touche pas la Guyane."
     }
    ]
   },

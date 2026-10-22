@@ -323,16 +323,17 @@
    "type": "fill_blank",
    "difficulty": 2,
    "instruction": "Complète la phrase.",
-   "prompt": "Depuis 2007, plus de la moitié de l'humanité vit en ville : c'est le phénomène de l'___.",
+   "prompt": "Depuis 2007, plus de la moitié de l'humanité vit en ville : ce phénomène s'appelle ___.",
    "promptLanguage": "fr",
    "options": [
-    "urbanisation",
-    "immigration",
-    "mondialisation",
-    "industrialisation"
+    "l'urbanisation",
+    "l'immigration",
+    "la mondialisation",
+    "l'industrialisation"
    ],
-   "answer": "urbanisation",
+   "answer": "l'urbanisation",
    "acceptedAnswers": [
+    "l'urbanisation",
     "urbanisation"
    ],
    "explanation": "L'urbanisation désigne la concentration croissante de la population dans les villes. Depuis 2007, les citadins sont plus nombreux que les ruraux dans le monde.",
@@ -343,14 +344,19 @@
    },
    "errorPatterns": [
     {
-     "equals": "immigration",
+     "equals": "l'immigration",
      "category": "word_confusion",
      "feedback": "L'immigration est l'arrivée d'étrangers dans un pays ; ici on parle du passage de la campagne à la ville."
     },
     {
-     "equals": "mondialisation",
+     "equals": "la mondialisation",
      "category": "word_confusion",
      "feedback": "La mondialisation désigne l'intensification des échanges entre pays, pas l'avancée de la ville."
+    },
+    {
+     "equals": "l'industrialisation",
+     "category": "word_confusion",
+     "feedback": "L'industrialisation est le développement des usines ; elle a nourri la croissance des villes, mais le mot qui désigne le phénomène est « urbanisation »."
     }
    ]
   },

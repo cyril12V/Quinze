@@ -612,16 +612,17 @@
    "type": "fill_blank",
    "difficulty": 3,
    "instruction": "Complète la phrase.",
-   "prompt": "Le plus haut sommet des Amériques est l'___, en Argentine.",
+   "prompt": "Le plus haut sommet des Amériques, situé en Argentine, est ___.",
    "promptLanguage": "fr",
    "options": [
-    "Aconcagua",
-    "Denali",
-    "Chimborazo",
-    "Huascarán"
+    "l'Aconcagua",
+    "le Denali",
+    "le Chimborazo",
+    "le Huascarán"
    ],
-   "answer": "Aconcagua",
+   "answer": "l'Aconcagua",
    "acceptedAnswers": [
+    "l'Aconcagua",
     "Aconcagua"
    ],
    "explanation": "L'Aconcagua culmine à environ 6 960 m dans les Andes argentines. C'est le plus haut sommet du monde hors d'Asie.",
@@ -632,17 +633,17 @@
    },
    "errorPatterns": [
     {
-     "equals": "Denali",
+     "equals": "le Denali",
      "category": "word_confusion",
      "feedback": "Le Denali, en Alaska, culmine à environ 6 190 m : c'est le plus haut d'Amérique du Nord, pas des Amériques."
     },
     {
-     "equals": "Chimborazo",
+     "equals": "le Chimborazo",
      "category": "word_confusion",
      "feedback": "Le Chimborazo (6 263 m), en Équateur, est moins haut que l'Aconcagua."
     },
     {
-     "equals": "Huascarán",
+     "equals": "le Huascarán",
      "category": "word_confusion",
      "feedback": "Le Huascarán (6 768 m) est le plus haut sommet du Pérou ; l'Aconcagua le dépasse."
     }

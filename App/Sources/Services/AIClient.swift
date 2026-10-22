@@ -1,8 +1,12 @@
 import Foundation
 import Supabase
+import LearningCore
 
-// Client of the `ai` Edge Function (docs/contracts/backend.md). Only the contract fields are sent:
-// never the e-mail address, the name or any other personal data.
+// AI tutor and AI grading. With the learner's own Anthropic key (Keychain, set in the settings) every
+// call goes straight to Claude (ClaudeDirectClient, no backend); otherwise to the `ai` Edge Function
+// (docs/contracts/backend.md). Only the contract fields are sent: never the e-mail address, the name
+// or any other personal data. `engine` is the subject's engine: the direct path reads the validated
+// content from it (the Edge Function reloads it from its database).
 
 // MARK: - Client
 
@@ -19,8 +23,45 @@ struct AIClient: Sendable {
 
     let backend: BackendClient
 
-    /// False in local mode (no backend): answers are then graded by the learner.
-    var isConfigured: Bool { backend.client != nil }
+    /// The learner's own Anthropic API key, if one is saved in the Keychain.
+    var personalKey: String? { KeychainStore.apiKey() }
+
+    /// False without a personal key and without a backend: answers are then graded by the learner.
+    var isConfigured: Bool { personalKey != nil || backend.client != nil }
+
+    private var direct: ClaudeDirectClient? { personalKey.map { ClaudeDirectClient(apiKey: $0) } }
+
+    // MARK: Operations
+
+    func explainAnswer(_ request: AIExplainAnswerRequest, engine: LearningEngine) async throws -> AIExplainResponse {
+        if let client = direct { return try await client.explainAnswer(request, engine: engine) }
+        return try await call("explain-answer", body: request)
+    }
+
+    func explainWord(_ request: AIExplainWordRequest, engine: LearningEngine) async throws -> AIExplainResponse {
+        if let client = direct { return try await client.explainWord(request, engine: engine) }
+        return try await call("explain-word", body: request)
+    }
+
+    func explainRule(_ request: AIExplainRuleRequest, engine: LearningEngine) async throws -> AIExplainResponse {
+        if let client = direct { return try await client.explainRule(request, engine: engine) }
+        return try await call("explain-rule", body: request)
+    }
+
+    func followUp(_ request: AIFollowUpRequest, engine: LearningEngine) async throws -> AIExplainResponse {
+        if let client = direct { return try await client.followUp(request, engine: engine) }
+        return try await call("follow-up", body: request)
+    }
+
+    func grade(languageCode: String, level: Int, exerciseId: String, userAnswer: String,
+               engine: LearningEngine) async throws -> AIGradeResponse {
+        let request = AIGradeRequest(languageCode: languageCode, level: level, exerciseId: exerciseId,
+                                     userAnswer: userAnswer.truncated(to: 300))
+        if let client = direct { return try await client.grade(request, engine: engine) }
+        return try await call("grade-answer", body: request)
+    }
+
+    // MARK: Backend (Edge Function)
 
     func call<Body: Encodable & Sendable, Response: Decodable & Sendable>(
         _ action: String, body: Body
@@ -51,12 +92,6 @@ struct AIClient: Sendable {
         case 503: return .unavailable
         default: return body?.error == "rate_limited" ? .rateLimited : .server
         }
-    }
-
-    func grade(languageCode: String, level: Int, exerciseId: String, userAnswer: String) async throws -> AIGradeResponse {
-        try await call("grade-answer", body: AIGradeRequest(languageCode: languageCode, level: level,
-                                                            exerciseId: exerciseId,
-                                                            userAnswer: userAnswer.truncated(to: 300)))
     }
 }
 

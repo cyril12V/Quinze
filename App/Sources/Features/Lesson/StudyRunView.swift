@@ -9,11 +9,13 @@ struct StudyRunView: View {
     @State private var isAdvancing = false
 
     var body: some View {
-        LessonFlowView(controller: run.controller,
-                       onClose: onClose,
-                       stepLabel: run.stepLabel,
-                       next: nextStep,
-                       onNext: nextStep == nil ? nil : advance)
+        let step: NextStudyStep? = nextStep
+        let onNext: (() -> Void)? = step == nil ? nil : { advance() }
+        return LessonFlowView(controller: run.controller,
+                              onClose: onClose,
+                              stepLabel: run.stepLabel,
+                              next: step,
+                              onNext: onNext)
             .id(run.controller.id)
             .overlay {
                 if isAdvancing {

@@ -44,29 +44,29 @@
    "instruction": "Réponds.",
    "prompt": "Devant une lettre lunaire, que fait le ل de ال ?",
    "promptLanguage": "fr",
-   "answer": "il se dit",
+   "answer": "le ل se dit",
    "acceptedAnswers": [
-    "il se dit"
+    "le ل se dit"
    ],
-   "explanation": "Devant une lettre lunaire, le ل se prononce : on lui met un soukoun. Seules les solaires l'effacent.",
+   "explanation": "Devant une lettre lunaire, le ل se dit : on lui met un soukoun. Seules les solaires l'effacent.",
    "tip": "Lune : le ل reste.",
    "extraExample": {
     "text": "الْقَمَر",
     "translation": "la lune"
    },
    "options": [
-    "il s'efface",
-    "il se double",
-    "il se dit"
+    "le ل s'efface",
+    "le ل se double",
+    "le ل se dit"
    ],
    "errorPatterns": [
     {
-     "equals": "il s'efface",
+     "equals": "le ل s'efface",
      "category": "spelling",
      "feedback": "C'est le cas des lettres solaires, avec une chadda."
     },
     {
-     "equals": "il se double",
+     "equals": "le ل se double",
      "category": "spelling",
      "feedback": "Le ل ne se double jamais : c'est la lettre qui suit qui se double, devant les solaires."
     }
@@ -82,9 +82,9 @@
    "instruction": "Réponds.",
    "prompt": "Devant une lettre solaire, que devient le ل de ال ?",
    "promptLanguage": "fr",
-   "answer": "il s'efface",
+   "answer": "le ل s'efface",
    "acceptedAnswers": [
-    "il s'efface"
+    "le ل s'efface"
    ],
    "explanation": "Devant une lettre solaire, le ل s'efface et la lettre est doublée par une chadda : الشَّمْس.",
    "tip": "Soleil : le ل disparaît.",
@@ -93,13 +93,13 @@
     "translation": "le soleil"
    },
    "options": [
-    "il se dit",
-    "il s'efface",
-    "il porte une madda"
+    "le ل se dit",
+    "le ل s'efface",
+    "le ل porte une madda"
    ],
    "errorPatterns": [
     {
-     "equals": "il se dit",
+     "equals": "le ل se dit",
      "category": "spelling",
      "feedback": "C'est le cas des lettres lunaires, avec un soukoun."
     }
@@ -654,7 +654,7 @@
    "type": "match",
    "difficulty": 2,
    "instruction": "Associe chaque mot à son sens.",
-   "prompt": "Tes mots d'hier",
+   "prompt": "Mots de m02, avec ال",
    "promptLanguage": "fr",
    "answer": "الْكَنِيسَة = l'église ; الْمَسِيح = le Christ ; الْعَدْرَا = la Vierge Marie ; الصَّلِيب = la croix",
    "acceptedAnswers": [],
@@ -709,31 +709,33 @@
    "id": "ar.l23.e21",
    "unitIds": [
     "ar.g23.article_sun_moon",
-    "ar.v.el_ard"
+    "ar.v.el_kalima"
    ],
    "type": "translation",
    "difficulty": 2,
    "instruction": "Écris le sens en français.",
-   "prompt": "الْأَرْض",
+   "prompt": "الْكَلِمَة",
    "promptLanguage": "ar",
-   "answer": "terre",
+   "answer": "parole",
    "acceptedAnswers": [
-    "terre",
-    "la terre",
-    "le sol",
-    "terre"
+    "parole",
+    "la parole",
+    "le mot",
+    "mot",
+    "verbe",
+    "le verbe"
    ],
-   "explanation": "الْأَرْض : ال, puis أَرْض. La terre.",
-   "tip": "Le ل garde son soukoun.",
+   "explanation": "الْكَلِمَة : ال avec soukoun, puis كَلِمَة. Le mot, et dans l'Évangile la Parole : le Christ.",
+   "tip": "Lunaire : le ل se dit.",
    "extraExample": {
-    "text": "الْأَرْض كِبِيرَة.",
-    "translation": "La terre est grande."
+    "text": "كَلِمَة حَلْوَة.",
+    "translation": "Un mot doux."
    },
    "errorPatterns": [
     {
-     "equals": "ciel",
+     "equals": "terre",
      "category": "word_confusion",
-     "feedback": "Le ciel est السَّمَاء, avec une chadda sur س."
+     "feedback": "La terre est الْأَرْض."
     }
    ]
   },

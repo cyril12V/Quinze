@@ -1,0 +1,948 @@
+{
+ "lessonId": "en.l84",
+ "exercises": [
+  {
+   "id": "en.l84.e01",
+   "unitIds": [
+    "en.g65.reported_commands"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon verbe.",
+   "prompt": "« Wait here! » → The officer ___ us to wait there.",
+   "promptLanguage": "en",
+   "options": [
+    "told",
+    "said",
+    "talked",
+    "spoke"
+   ],
+   "answer": "told",
+   "acceptedAnswers": [
+    "told"
+   ],
+   "hint": "Un ordre rapporté : verbe + personne + to + verbe.",
+   "explanation": "Pour rapporter un ordre, on utilise tell + personne + to + verbe de base : told us to wait. Say ne se construit pas ainsi (pas de said us to…).",
+   "tip": "Ordre rapporté = told + personne + to + verbe.",
+   "extraExample": {
+    "text": "The teacher told the students to open their books.",
+    "translation": "Le professeur a dit aux élèves d'ouvrir leurs livres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "said",
+     "category": "grammar",
+     "feedback": "Say ne s'emploie pas pour un ordre rapporté avec une personne : told us to wait."
+    },
+    {
+     "equals": "talked",
+     "category": "word_confusion",
+     "feedback": "Talk ne s'utilise pas pour rapporter un ordre : told us to wait."
+    },
+    {
+     "equals": "spoke",
+     "category": "word_confusion",
+     "feedback": "Speak ne s'utilise pas pour rapporter un ordre : told us to wait."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e02",
+   "unitIds": [
+    "en.v.persuade",
+    "en.v.remind",
+    "en.v.encourage",
+    "en.v.allow",
+    "en.v.refuse"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les verbes qui rapportent un ordre ou un conseil",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "persuade",
+     "right": "persuader, convaincre"
+    },
+    {
+     "left": "remind",
+     "right": "rappeler (de faire)"
+    },
+    {
+     "left": "encourage",
+     "right": "encourager"
+    },
+    {
+     "left": "allow",
+     "right": "permettre, autoriser"
+    },
+    {
+     "left": "refuse",
+     "right": "refuser"
+    }
+   ],
+   "answer": "persuade = persuader, convaincre ; remind = rappeler (de faire) ; encourage = encourager ; allow = permettre, autoriser ; refuse = refuser",
+   "acceptedAnswers": [],
+   "explanation": "Remind someone to do something = rappeler à quelqu'un de faire quelque chose ; ne le confonds pas avec remember (se souvenir soi-même). Persuade veut dire réussir à convaincre.",
+   "tip": "Remind = rappeler à quelqu'un ; remember = se rappeler soi-même.",
+   "extraExample": {
+    "text": "Please remind me to call the bank.",
+    "translation": "Rappelle-moi d'appeler la banque, s'il te plaît."
+   }
+  },
+  {
+   "id": "en.l84.e03",
+   "unitIds": [
+    "en.g65.reported_commands"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "He told me ___.",
+   "promptLanguage": "en",
+   "context": "« Don't touch it! »",
+   "options": [
+    "not to touch it",
+    "don't touch it",
+    "that I don't touch it",
+    "not touching it"
+   ],
+   "answer": "not to touch it",
+   "acceptedAnswers": [
+    "not to touch it"
+   ],
+   "explanation": "À la négation, not se place devant to : told me not to touch it. Don't disparaît dans le discours rapporté.",
+   "tip": "Interdiction rapportée = told + personne + not to + verbe.",
+   "extraExample": {
+    "text": "She asked us not to make any noise.",
+    "translation": "Elle nous a demandé de ne pas faire de bruit."
+   },
+   "errorPatterns": [
+    {
+     "equals": "don't touch it",
+     "category": "grammar",
+     "feedback": "Don't disparaît dans le discours rapporté : told me not to touch it."
+    },
+    {
+     "equals": "that i don't touch it",
+     "category": "grammar",
+     "feedback": "Un ordre rapporté se fait avec to + verbe, pas avec that : not to touch it."
+    },
+    {
+     "equals": "not touching it",
+     "category": "conjugation",
+     "feedback": "Après told me, on utilise (not) to + verbe de base, pas le -ing."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e04",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.persuade"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne forme.",
+   "prompt": "My sister persuaded me ___ the course.",
+   "promptLanguage": "en",
+   "options": [
+    "to take",
+    "take",
+    "taking",
+    "to taking"
+   ],
+   "answer": "to take",
+   "acceptedAnswers": [
+    "to take"
+   ],
+   "explanation": "Persuade + personne + to + verbe de base : persuaded me to take. C'est le même modèle que told me to.",
+   "tip": "Persuade / encourage / allow + personne + to + verbe.",
+   "extraExample": {
+    "text": "He persuaded his boss to give him a day off.",
+    "translation": "Il a persuadé son patron de lui donner un jour de congé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "take",
+     "category": "grammar",
+     "feedback": "Après persuaded me, il faut to + verbe : to take."
+    },
+    {
+     "equals": "taking",
+     "category": "grammar",
+     "feedback": "Après persuade + personne, on utilise to + verbe de base, pas le -ing."
+    },
+    {
+     "equals": "to taking",
+     "category": "grammar",
+     "feedback": "To est suivi du verbe de base, sans -ing : to take."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e05",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.allow"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la bonne forme.",
+   "prompt": "The school doesn't allow students ___ phones in class.",
+   "promptLanguage": "en",
+   "options": [
+    "to use",
+    "use",
+    "using",
+    "that use"
+   ],
+   "answer": "to use",
+   "acceptedAnswers": [
+    "to use"
+   ],
+   "hint": "Allow + personne + ?",
+   "explanation": "Allow + personne + to + verbe de base : allow students to use. Sans personne, on peut dire allow + -ing (allow using phones), mais ici students est présent.",
+   "tip": "Allow someone to do something.",
+   "extraExample": {
+    "text": "My parents didn't allow me to go out on school nights.",
+    "translation": "Mes parents ne me permettaient pas de sortir en semaine."
+   },
+   "errorPatterns": [
+    {
+     "equals": "use",
+     "category": "grammar",
+     "feedback": "Après allow students, il faut to + verbe : to use."
+    },
+    {
+     "equals": "using",
+     "category": "grammar",
+     "feedback": "Après allow + personne (students), on utilise to + verbe de base, pas le -ing."
+    },
+    {
+     "equals": "that use",
+     "category": "grammar",
+     "feedback": "Allow n'est pas suivi de that : allow students to use."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e06",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.password",
+    "en.v.social_media",
+    "en.v.delete",
+    "en.v.post",
+    "en.v.remind"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le message, puis réponds.",
+   "prompt": "What did the boss ask the writer to do?",
+   "promptLanguage": "en",
+   "context": "My boss called me this morning. She told me not to post anything about the project on social media. She also reminded me to change my password every month and asked me to delete the old files from the shared folder.",
+   "options": [
+    "To delete the old files.",
+    "To post about the project online.",
+    "To change the password every week.",
+    "To tell the clients about the project."
+   ],
+   "answer": "To delete the old files.",
+   "acceptedAnswers": [
+    "To delete the old files."
+   ],
+   "explanation": "Le texte dit « asked me to delete the old files ». Elle lui a dit de ne pas publier (not to post) sur les réseaux sociaux et lui a rappelé de changer son mot de passe chaque mois (every month, pas every week).",
+   "tip": "Lis chaque verbe de rapport : told me not to…, reminded me to…, asked me to…",
+   "extraExample": {
+    "text": "The teacher asked us to write a short summary.",
+    "translation": "Le professeur nous a demandé d'écrire un court résumé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "to post about the project online",
+     "category": "instruction",
+     "feedback": "Au contraire : elle lui a dit de ne rien publier (told me not to post anything)."
+    },
+    {
+     "equals": "to change the password every week",
+     "category": "instruction",
+     "feedback": "Le texte dit every month, pas every week."
+    },
+    {
+     "equals": "to tell the clients about the project",
+     "category": "instruction",
+     "feedback": "Cette demande n'apparaît pas dans le texte."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e07",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.delete"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Rapporte la phrase du contexte.",
+   "prompt": "He said that he ___ the file the next day.",
+   "promptLanguage": "en",
+   "context": "« I'll delete the file tomorrow. »",
+   "options": [
+    "would delete",
+    "will delete",
+    "deleted",
+    "deletes"
+   ],
+   "answer": "would delete",
+   "acceptedAnswers": [
+    "would delete"
+   ],
+   "explanation": "Said est au passé : will recule en would. « Tomorrow » devient the next day.",
+   "tip": "Will → would après said / told.",
+   "extraExample": {
+    "text": "She said she would send the password later.",
+    "translation": "Elle a dit qu'elle enverrait le mot de passe plus tard."
+   },
+   "errorPatterns": [
+    {
+     "equals": "will delete",
+     "category": "verb_tense",
+     "feedback": "Après said (passé), will recule en would : would delete."
+    },
+    {
+     "equals": "deleted",
+     "category": "verb_tense",
+     "feedback": "Deleted est un passé. Le futur « I'll delete » devient would delete."
+    },
+    {
+     "equals": "deletes",
+     "category": "verb_tense",
+     "feedback": "Deletes est un présent. Après said, will recule en would."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e08",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.remind",
+    "en.v.password"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Elle m'a rappelé de changer mon mot de passe.",
+   "promptLanguage": "fr",
+   "answer": "She reminded me to change my password.",
+   "acceptedAnswers": [
+    "She reminded me to change my password.",
+    "She reminded me to change my passwords."
+   ],
+   "hint": "Remind + personne + to + verbe.",
+   "explanation": "Remind someone to do something = rappeler à quelqu'un de faire quelque chose. On utilise la même structure que told me to : reminded me to change. Remind ne veut pas dire remember.",
+   "tip": "Remind someone to do something.",
+   "extraExample": {
+    "text": "Remind me to buy some milk.",
+    "translation": "Rappelle-moi d'acheter du lait."
+   },
+   "errorPatterns": [
+    {
+     "contains": "remembered me",
+     "category": "word_confusion",
+     "feedback": "Remember = se souvenir. « Rappeler à quelqu'un » se dit remind."
+    },
+    {
+     "contains": "reminded me changing",
+     "category": "conjugation",
+     "feedback": "Après reminded me, on utilise to + verbe de base : to change."
+    },
+    {
+     "contains": "reminded me change",
+     "category": "grammar",
+     "feedback": "Il manque to : reminded me to change."
+    },
+    {
+     "contains": "reminded to me",
+     "category": "preposition",
+     "feedback": "Remind se construit sans to devant la personne : reminded me."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e09",
+   "unitIds": [
+    "en.g13.imperative",
+    "en.v.password"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "« ___ your password with anyone! » she said.",
+   "promptLanguage": "en",
+   "options": [
+    "Don't share",
+    "Not share",
+    "Doesn't share",
+    "No share"
+   ],
+   "answer": "Don't share",
+   "acceptedAnswers": [
+    "Don't share"
+   ],
+   "explanation": "L'impératif négatif se fait avec don't + verbe de base. Dans le discours rapporté, don't disparaît : she told me not to share my password.",
+   "tip": "Impératif négatif : Don't + verbe.",
+   "extraExample": {
+    "text": "Don't forget to lock the door!",
+    "translation": "N'oublie pas de fermer la porte à clé !"
+   },
+   "errorPatterns": [
+    {
+     "equals": "not share",
+     "category": "grammar",
+     "feedback": "L'impératif négatif se fait avec don't : Don't share…"
+    },
+    {
+     "equals": "doesn't share",
+     "category": "grammar",
+     "feedback": "Doesn't s'emploie avec he / she / it. L'impératif négatif se fait avec don't."
+    },
+    {
+     "equals": "no share",
+     "category": "grammar",
+     "feedback": "No share n'existe pas en anglais : Don't share…"
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e10",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.refuse"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la bonne forme.",
+   "prompt": "The suspect refused ___ any questions.",
+   "promptLanguage": "en",
+   "options": [
+    "to answer",
+    "answer",
+    "answering",
+    "that he answers"
+   ],
+   "answer": "to answer",
+   "acceptedAnswers": [
+    "to answer"
+   ],
+   "explanation": "Refuse se construit directement avec to + verbe de base (refuse to answer), sans personne entre les deux, contrairement à told me to.",
+   "tip": "Refuse to do something.",
+   "extraExample": {
+    "text": "She refused to sign the document.",
+    "translation": "Elle a refusé de signer le document."
+   },
+   "errorPatterns": [
+    {
+     "equals": "answer",
+     "category": "grammar",
+     "feedback": "Après refuse, il faut to + verbe : refused to answer."
+    },
+    {
+     "equals": "answering",
+     "category": "grammar",
+     "feedback": "Après refuse, on utilise to + verbe de base, pas le -ing."
+    },
+    {
+     "equals": "that he answers",
+     "category": "grammar",
+     "feedback": "Refuse n'est pas suivi de that + verbe ici : refused to answer."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e11",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.encourage",
+    "en.v.law"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Mes parents m'ont encouragé à étudier le droit.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "to",
+    "parents",
+    "me",
+    "law",
+    "My",
+    "study",
+    "encouraged"
+   ],
+   "answer": "My parents encouraged me to study law",
+   "acceptedAnswers": [
+    "My parents encouraged me to study law"
+   ],
+   "explanation": "Encourage + personne + to + verbe de base : encouraged me to study. Law (le droit) est indénombrable : study law, sans article.",
+   "tip": "Encourage someone to do something.",
+   "extraExample": {
+    "text": "The coach encouraged the team to keep going.",
+    "translation": "L'entraîneur a encouragé l'équipe à continuer."
+   }
+  },
+  {
+   "id": "en.l84.e12",
+   "unitIds": [
+    "en.g65.reported_commands"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque ordre direct à sa version rapportée.",
+   "prompt": "Ordre direct, ordre rapporté",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "« Close the door! »",
+     "right": "He told me to close the door."
+    },
+    {
+     "left": "« Please help me. »",
+     "right": "She asked me to help her."
+    },
+    {
+     "left": "« Don't be late! »",
+     "right": "He told us not to be late."
+    },
+    {
+     "left": "« You should rest. »",
+     "right": "The doctor advised me to rest."
+    },
+    {
+     "left": "« Don't tell anyone. »",
+     "right": "She asked me not to tell anyone."
+    }
+   ],
+   "answer": "« Close the door! » = He told me to close the door. ; « Please help me. » = She asked me to help her. ; « Don't be late! » = He told us not to be late. ; « You should rest. » = The doctor advised me to rest. ; « Don't tell anyone. » = She asked me not to tell anyone.",
+   "acceptedAnswers": [],
+   "explanation": "Un ordre ou une demande se rapporte avec verbe + personne + to + verbe de base (told, asked…) ; un conseil avec advised. À la négation, not se place devant to.",
+   "tip": "told / asked / advised + personne + (not) to + verbe.",
+   "extraExample": {
+    "text": "« Don't touch it! » → He told me not to touch it.",
+    "translation": "« Ne le touche pas ! » → Il m'a dit de ne pas le toucher."
+   }
+  },
+  {
+   "id": "en.l84.e13",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.post",
+    "en.v.social_media"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Il m'a dit de ne rien publier sur les réseaux sociaux.",
+   "promptLanguage": "fr",
+   "answer": "He told me not to post anything on social media.",
+   "acceptedAnswers": [
+    "He told me not to post anything on social media.",
+    "He told me not to post anything on social networks.",
+    "He told me not to publish anything on social media.",
+    "He told me not to publish anything on social networks.",
+    "He told me to not post anything on social media.",
+    "He told me to not post anything on social networks.",
+    "He told me to not publish anything on social media.",
+    "He told me to not publish anything on social networks.",
+    "He asked me not to post anything on social media.",
+    "He asked me not to post anything on social networks.",
+    "He asked me not to publish anything on social media.",
+    "He asked me not to publish anything on social networks.",
+    "He asked me to not post anything on social media.",
+    "He asked me to not post anything on social networks.",
+    "He asked me to not publish anything on social media.",
+    "He asked me to not publish anything on social networks."
+   ],
+   "hint": "Not se place devant to.",
+   "explanation": "Un ordre négatif rapporté se fait avec told me not to + verbe. « Ne rien publier » = not to post anything. On dit on social media, sans article.",
+   "tip": "« Ne… rien » = not… anything.",
+   "extraExample": {
+    "text": "She told me not to say anything to the press.",
+    "translation": "Elle m'a dit de ne rien dire à la presse."
+   },
+   "errorPatterns": [
+    {
+     "contains": "told me don't",
+     "category": "grammar",
+     "feedback": "Don't disparaît dans le discours rapporté : told me not to post…"
+    },
+    {
+     "contains": "said me",
+     "category": "grammar",
+     "feedback": "Say ne prend pas directement la personne : told me…"
+    },
+    {
+     "contains": "not to post nothing",
+     "category": "grammar",
+     "feedback": "Pas de double négation en anglais : not to post anything."
+    },
+    {
+     "contains": "in social media",
+     "category": "preposition",
+     "feedback": "On dit on social media."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e14",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.delete"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Le professeur nous a dit de ne pas supprimer les fichiers.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "files",
+    "The",
+    "us",
+    "delete",
+    "not",
+    "teacher",
+    "told",
+    "to",
+    "the"
+   ],
+   "answer": "The teacher told us not to delete the files",
+   "acceptedAnswers": [
+    "The teacher told us not to delete the files"
+   ],
+   "explanation": "Told + us + not to + verbe de base : not se place devant to. Le complément (the files) vient après le verbe.",
+   "tip": "told + personne + not to + verbe.",
+   "extraExample": {
+    "text": "The manager told us not to leave early.",
+    "translation": "Le responsable nous a dit de ne pas partir tôt."
+   }
+  },
+  {
+   "id": "en.l84.e15",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.encourage"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "The doctor encouraged him to exercise more.",
+   "promptLanguage": "en",
+   "answer": "Le médecin l'a encouragé à faire plus d'exercice.",
+   "acceptedAnswers": [
+    "Le médecin l'a encouragé à faire plus d'exercice.",
+    "Le médecin l'a encouragé à faire davantage d'exercice.",
+    "Le médecin l'a encouragé à faire plus de sport.",
+    "Le médecin l'a encouragé à faire davantage de sport.",
+    "Le médecin l'a encouragé à bouger davantage.",
+    "Le médecin l'a incité à faire plus d'exercice.",
+    "Le médecin l'a incité à faire davantage d'exercice.",
+    "Le médecin l'a incité à faire plus de sport.",
+    "Le médecin l'a incité à faire davantage de sport.",
+    "Le médecin l'a incité à bouger davantage.",
+    "Le docteur l'a encouragé à faire plus d'exercice.",
+    "Le docteur l'a encouragé à faire davantage d'exercice.",
+    "Le docteur l'a encouragé à faire plus de sport.",
+    "Le docteur l'a encouragé à faire davantage de sport.",
+    "Le docteur l'a encouragé à bouger davantage.",
+    "Le docteur l'a incité à faire plus d'exercice.",
+    "Le docteur l'a incité à faire davantage d'exercice.",
+    "Le docteur l'a incité à faire plus de sport.",
+    "Le docteur l'a incité à faire davantage de sport.",
+    "Le docteur l'a incité à bouger davantage.",
+    "La médecin l'a encouragé à faire plus d'exercice.",
+    "La médecin l'a encouragé à faire davantage d'exercice.",
+    "La médecin l'a encouragé à faire plus de sport.",
+    "La médecin l'a encouragé à faire davantage de sport.",
+    "La médecin l'a encouragé à bouger davantage.",
+    "La médecin l'a incité à faire plus d'exercice.",
+    "La médecin l'a incité à faire davantage d'exercice.",
+    "La médecin l'a incité à faire plus de sport.",
+    "La médecin l'a incité à faire davantage de sport.",
+    "La médecin l'a incité à bouger davantage.",
+    "La docteure l'a encouragé à faire plus d'exercice.",
+    "La docteure l'a encouragé à faire davantage d'exercice.",
+    "La docteure l'a encouragé à faire plus de sport.",
+    "La docteure l'a encouragé à faire davantage de sport.",
+    "La docteure l'a encouragé à bouger davantage.",
+    "La docteure l'a incité à faire plus d'exercice.",
+    "La docteure l'a incité à faire davantage d'exercice.",
+    "La docteure l'a incité à faire plus de sport.",
+    "La docteure l'a incité à faire davantage de sport.",
+    "La docteure l'a incité à bouger davantage."
+   ],
+   "explanation": "Encourage someone to do something = encourager quelqu'un à faire quelque chose. Exercise est ici un verbe : to exercise more = faire plus d'exercice.",
+   "tip": "Encourage quelqu'un à = encourage + personne + to.",
+   "extraExample": {
+    "text": "My teacher encouraged me to read more.",
+    "translation": "Mon professeur m'a encouragé à lire davantage."
+   }
+  },
+  {
+   "id": "en.l84.e16",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.turn_off"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la bonne forme.",
+   "prompt": "She asked us ___ off our phones.",
+   "promptLanguage": "en",
+   "context": "« Could you turn off your phones, please? »",
+   "options": [
+    "to turn",
+    "turn",
+    "turning",
+    "if we turn"
+   ],
+   "answer": "to turn",
+   "acceptedAnswers": [
+    "to turn"
+   ],
+   "explanation": "Une demande polie (could you…?) se rapporte avec asked + personne + to + verbe de base : asked us to turn off. On ne garde ni could ni la forme de question.",
+   "tip": "Demande polie rapportée : asked + personne + to + verbe.",
+   "extraExample": {
+    "text": "He asked me to switch off the light.",
+    "translation": "Il m'a demandé d'éteindre la lumière."
+   },
+   "errorPatterns": [
+    {
+     "equals": "turn",
+     "category": "grammar",
+     "feedback": "Après asked us, il faut to + verbe : to turn off."
+    },
+    {
+     "equals": "turning",
+     "category": "grammar",
+     "feedback": "Après asked + personne, on utilise to + verbe de base, pas le -ing."
+    },
+    {
+     "equals": "if we turn",
+     "category": "grammar",
+     "feedback": "Une demande n'est pas une question oui / non : on la rapporte avec to + verbe, pas avec if."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e17",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.post"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Elle m'a demandé où j'avais posté la photo.",
+   "promptLanguage": "fr",
+   "answer": "She asked me where I had posted the photo.",
+   "acceptedAnswers": [
+    "She asked me where I had posted the photo.",
+    "She asked me where I had posted the picture.",
+    "She asked me where I posted the photo.",
+    "She asked me where I posted the picture.",
+    "She asked me where I had put the photo.",
+    "She asked me where I had put the picture.",
+    "She asked me where I put the photo.",
+    "She asked me where I put the picture.",
+    "She asked me where I had uploaded the photo.",
+    "She asked me where I had uploaded the picture."
+   ],
+   "hint": "Pas d'inversion, et le temps recule.",
+   "explanation": "Where + sujet + verbe : l'ordre normal, sans did. « Avais posté » est un plus-que-parfait : had posted. Post = publier en ligne.",
+   "tip": "Question rapportée : pas de did, ordre sujet + verbe.",
+   "extraExample": {
+    "text": "He asked me why I had deleted the message.",
+    "translation": "Il m'a demandé pourquoi j'avais supprimé le message."
+   },
+   "errorPatterns": [
+    {
+     "contains": "where did i post",
+     "category": "word_order",
+     "feedback": "Dans une question rapportée, pas de did : where I had posted…"
+    },
+    {
+     "contains": "had post the",
+     "category": "conjugation",
+     "feedback": "Après had, il faut le participe passé : posted."
+    },
+    {
+     "contains": "asked to me",
+     "category": "preposition",
+     "feedback": "Asked se construit sans to devant la personne : asked me."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e18",
+   "unitIds": [
+    "en.g65.reported_commands",
+    "en.v.refuse",
+    "en.v.password"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Il a refusé de me donner son mot de passe.",
+   "promptLanguage": "fr",
+   "answer": "He refused to give me his password.",
+   "acceptedAnswers": [
+    "He refused to give me his password.",
+    "He refused to tell me his password.",
+    "He refused to give his password to me."
+   ],
+   "hint": "Refuse + to + verbe.",
+   "explanation": "Refuse se construit directement avec to + verbe de base : refused to give. Il n'y a pas de personne entre refuse et to, contrairement à told me to.",
+   "tip": "Refuse to do ≠ tell someone to do.",
+   "extraExample": {
+    "text": "They refused to let him in.",
+    "translation": "Ils ont refusé de le laisser entrer."
+   },
+   "errorPatterns": [
+    {
+     "contains": "refused giving",
+     "category": "conjugation",
+     "feedback": "Après refuse, on utilise to + verbe de base : refused to give."
+    },
+    {
+     "contains": "refused that",
+     "category": "grammar",
+     "feedback": "Refuse n'est pas suivi de that ici : refused to give."
+    },
+    {
+     "contains": "refused to me give",
+     "category": "word_order",
+     "feedback": "L'ordre est : refused to give me his password."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e19",
+   "unitIds": [
+    "en.g65.reported_commands"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Ma mère m'a dit de ne pas parler aux inconnus » ?",
+   "promptLanguage": "fr",
+   "answer": "My mother told me not to talk to strangers.",
+   "acceptedAnswers": [
+    "My mother told me not to talk to strangers.",
+    "My mother told me not to speak to strangers.",
+    "My mother told me to not talk to strangers.",
+    "My mother told me to not speak to strangers.",
+    "My mum told me not to talk to strangers.",
+    "My mum told me not to speak to strangers.",
+    "My mum told me to not talk to strangers.",
+    "My mum told me to not speak to strangers.",
+    "My mom told me not to talk to strangers.",
+    "My mom told me not to speak to strangers.",
+    "My mom told me to not talk to strangers.",
+    "My mom told me to not speak to strangers."
+   ],
+   "hint": "Not se place devant to.",
+   "explanation": "Un interdit rapporté se fait avec told me not to + verbe de base. Dans talk to strangers, to est la préposition de talk to, différent du to de l'infinitif.",
+   "tip": "Told me not to talk to… : deux to différents.",
+   "extraExample": {
+    "text": "The sign tells drivers not to park here.",
+    "translation": "Le panneau dit aux conducteurs de ne pas se garer ici."
+   },
+   "errorPatterns": [
+    {
+     "contains": "told me don't",
+     "category": "grammar",
+     "feedback": "Don't disparaît dans le discours rapporté : told me not to talk…"
+    },
+    {
+     "contains": "said me",
+     "category": "grammar",
+     "feedback": "Say ne prend pas directement la personne : told me…"
+    },
+    {
+     "contains": "talk strangers",
+     "category": "preposition",
+     "feedback": "Talk se construit avec to : talk to strangers."
+    },
+    {
+     "contains": "told that",
+     "category": "grammar",
+     "feedback": "Un ordre rapporté se fait avec to + verbe, pas avec that."
+    }
+   ]
+  },
+  {
+   "id": "en.l84.e20",
+   "unitIds": [
+    "en.g65.reported_commands"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Rapporte un ordre, une demande ou un conseil en anglais.",
+   "prompt": "Pense à un ordre, une demande ou un conseil que tu as reçu récemment. Écris-le au discours rapporté (told me to, asked me not to, advised me to…).",
+   "promptLanguage": "fr",
+   "requirements": {
+    "mustInclude": [
+     [
+      "told",
+      "asked",
+      "advised",
+      "reminded",
+      "warned",
+      "persuaded",
+      "encouraged",
+      "allowed",
+      "invited",
+      "begged",
+      "ordered"
+     ],
+     [
+      "to"
+     ]
+    ],
+    "minWords": 6
+   },
+   "answer": "My boss asked me to send the report before Friday.",
+   "acceptedAnswers": [
+    "My boss asked me to send the report before Friday.",
+    "The doctor advised me to rest for a week.",
+    "She told me not to post the photos online.",
+    "He reminded me to change my password."
+   ],
+   "hint": "Verbe + personne + (not) to + verbe de base.",
+   "explanation": "Un ordre, une demande ou un conseil se rapporte avec verbe + personne + (not) to + verbe de base : told me to, asked me not to, advised me to… N'utilise ni that ni don't.",
+   "tip": "Verbe + personne + (not) to + verbe.",
+   "extraExample": {
+    "text": "He warned me not to drive so fast.",
+    "translation": "Il m'a averti de ne pas conduire si vite."
+   },
+   "errorPatterns": [
+    {
+     "contains": "told me don't",
+     "category": "grammar",
+     "feedback": "Don't disparaît dans le discours rapporté : told me not to…"
+    },
+    {
+     "contains": "said me to",
+     "category": "grammar",
+     "feedback": "Pour un ordre, on utilise told me to, pas said me to."
+    },
+    {
+     "contains": "asked me don't",
+     "category": "grammar",
+     "feedback": "Don't disparaît dans le discours rapporté : asked me not to…"
+    }
+   ]
+  }
+ ]
+}

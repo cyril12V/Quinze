@@ -1,0 +1,630 @@
+{
+ "module": {
+  "id": 9,
+  "title": "Expériences et récits",
+  "description": "Present perfect (for, since, already, yet, forme continue), past continuous, past perfect et used to pour parler de ton parcours et raconter une histoire dans l'ordre."
+ },
+ "grammarUnits": [
+  {
+   "id": "en.g42.present_perfect_for_since",
+   "category": "verbs",
+   "title": "Present perfect + for / since (le piège du « depuis »)",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g39.present_perfect_intro"
+   ],
+   "functionWords": [
+    "for",
+    "since",
+    "how long"
+   ]
+  },
+  {
+   "id": "en.g43.present_perfect_adverbs",
+   "category": "verbs",
+   "title": "Present perfect : already, yet, just, ever, never, still",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g39.present_perfect_intro"
+   ],
+   "functionWords": [
+    "still"
+   ]
+  },
+  {
+   "id": "en.g44.present_perfect_continuous",
+   "category": "verbs",
+   "title": "Le present perfect continu (I've been working)",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g42.present_perfect_for_since",
+    "en.g18.present_continuous"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g45.past_simple_vs_present_perfect",
+   "category": "verbs",
+   "title": "Past simple ou present perfect ?",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g43.present_perfect_adverbs",
+    "en.g23.past_simple_negative_questions"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g46.past_continuous",
+   "category": "verbs",
+   "title": "Le past continuous (I was working) : le décor du récit",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g20.was_were",
+    "en.g18.present_continuous"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g47.when_while",
+   "category": "verbs",
+   "title": "Past continuous ou past simple ? When / while",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g46.past_continuous",
+    "en.g22.irregular_verbs"
+   ],
+   "functionWords": [
+    "while"
+   ]
+  },
+  {
+   "id": "en.g48.past_perfect",
+   "category": "verbs",
+   "title": "Le past perfect (I had already left)",
+   "difficulty": 5,
+   "prerequisites": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.g47.when_while"
+   ],
+   "functionWords": [
+    "by the time"
+   ]
+  },
+  {
+   "id": "en.g49.used_to_would",
+   "category": "verbs",
+   "title": "Used to / would : les habitudes passées",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g23.past_simple_negative_questions"
+   ],
+   "functionWords": [
+    "used to"
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "id": "en.l61",
+   "sequence": 61,
+   "title": "J'habite ici depuis 2020",
+   "description": "Le present perfect avec for et since pour une situation qui dure encore, et How long… ?",
+   "difficulty": 4,
+   "grammarUnitId": "en.g42.present_perfect_for_since",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g39.present_perfect_intro",
+    "en.g34.prepositions_time",
+    "en.g23.past_simple_negative_questions"
+   ],
+   "vocabulary": [
+    {
+     "word": "neighbourhood",
+     "slug": "neighbourhood",
+     "translation": "quartier",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "company",
+     "slug": "company",
+     "translation": "entreprise, société",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "career",
+     "slug": "career",
+     "translation": "carrière",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "decade",
+     "slug": "decade",
+     "translation": "décennie (dix ans)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "married",
+     "slug": "married",
+     "translation": "marié",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "university",
+     "slug": "university",
+     "translation": "université",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "childhood",
+     "slug": "childhood",
+     "translation": "enfance",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "month",
+     "slug": "month",
+     "translation": "mois",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l62",
+   "sequence": 62,
+   "title": "Déjà, pas encore, jamais",
+   "description": "Already, yet, just, ever, never et still avec le present perfect : leur sens et leur place dans la phrase.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g43.present_perfect_adverbs",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g39.present_perfect_intro",
+    "en.g42.present_perfect_for_since",
+    "en.g40.short_answers",
+    "en.v.abroad",
+    "en.v.experience"
+   ],
+   "vocabulary": [
+    {
+     "word": "achieve",
+     "slug": "achieve",
+     "translation": "accomplir, atteindre (un objectif)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "goal",
+     "slug": "goal",
+     "translation": "objectif, but",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "recently",
+     "slug": "recently",
+     "translation": "récemment",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "climb",
+     "slug": "climb",
+     "translation": "escalader, grimper",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "mountain",
+     "slug": "mountain",
+     "translation": "montagne",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "foreign",
+     "slug": "foreign",
+     "translation": "étranger (adjectif)",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "once",
+     "slug": "once",
+     "translation": "une fois",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "twice",
+     "slug": "twice",
+     "translation": "deux fois",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "so far",
+     "slug": "so_far",
+     "translation": "jusqu'ici, pour l'instant",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "en.l63",
+   "sequence": 63,
+   "title": "Ça fait des heures que j'attends",
+   "description": "Le present perfect continu (have been + -ing) pour la durée d'une activité et ses traces visibles.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g44.present_perfect_continuous",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g18.present_continuous",
+    "en.g42.present_perfect_for_since",
+    "en.g43.present_perfect_adverbs"
+   ],
+   "vocabulary": [
+    {
+     "word": "lately",
+     "slug": "lately",
+     "translation": "ces derniers temps",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "exhausted",
+     "slug": "exhausted",
+     "translation": "épuisé",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "look for",
+     "slug": "look_for",
+     "translation": "chercher",
+     "partOfSpeech": "phrasal_verb"
+    },
+    {
+     "word": "queue",
+     "slug": "queue",
+     "translation": "faire la queue",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "train",
+     "slug": "train",
+     "translation": "s'entraîner",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "organise",
+     "slug": "organise",
+     "translation": "organiser",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "paint",
+     "slug": "paint",
+     "translation": "peindre",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "run",
+     "slug": "run",
+     "translation": "courir",
+     "partOfSpeech": "verb"
+    }
+   ]
+  },
+  {
+   "id": "en.l64",
+   "sequence": 64,
+   "title": "Hier, ou jusqu'à aujourd'hui ?",
+   "description": "Choisir entre le past simple (moment fini, daté) et le present perfect (lien avec maintenant).",
+   "difficulty": 4,
+   "grammarUnitId": "en.g45.past_simple_vs_present_perfect",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g41.tense_contrast",
+    "en.g23.past_simple_negative_questions",
+    "en.g42.present_perfect_for_since",
+    "en.g44.present_perfect_continuous"
+   ],
+   "vocabulary": [
+    {
+     "word": "graduate",
+     "slug": "graduate",
+     "translation": "obtenir son diplôme",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "degree",
+     "slug": "degree",
+     "translation": "diplôme (universitaire)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "wedding",
+     "slug": "wedding",
+     "translation": "mariage (la cérémonie)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "event",
+     "slug": "event",
+     "translation": "événement",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "unforgettable",
+     "slug": "unforgettable",
+     "translation": "inoubliable",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "join",
+     "slug": "join",
+     "translation": "rejoindre, entrer dans (une entreprise, un club)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "promotion",
+     "slug": "promotion",
+     "translation": "promotion (au travail)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "interview",
+     "slug": "interview",
+     "translation": "entretien (d'embauche)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l65",
+   "sequence": 65,
+   "title": "Le soleil brillait…",
+   "description": "Le past continuous (was / were + -ing) pour dire ce qui était en train de se passer et planter le décor d'un récit.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g46.past_continuous",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g20.was_were",
+    "en.g18.present_continuous",
+    "en.g45.past_simple_vs_present_perfect"
+   ],
+   "vocabulary": [
+    {
+     "word": "shine",
+     "slug": "shine",
+     "translation": "briller",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "chat",
+     "slug": "chat",
+     "translation": "bavarder, discuter",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "crowd",
+     "slug": "crowd",
+     "translation": "foule",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "sunset",
+     "slug": "sunset",
+     "translation": "coucher de soleil",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "explore",
+     "slug": "explore",
+     "translation": "explorer, découvrir (un lieu)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "noisy",
+     "slug": "noisy",
+     "translation": "bruyant",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "guide",
+     "slug": "guide",
+     "translation": "guide",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "journey",
+     "slug": "journey",
+     "translation": "voyage, trajet",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l66",
+   "sequence": 66,
+   "title": "Je roulais quand soudain…",
+   "description": "Past continuous et past simple avec when et while : l'action longue et l'événement qui l'interrompt.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g47.when_while",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g46.past_continuous",
+    "en.g22.irregular_verbs",
+    "en.g36.connectors"
+   ],
+   "vocabulary": [
+    {
+     "word": "suddenly",
+     "slug": "suddenly",
+     "translation": "soudain, tout à coup",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "break down",
+     "slug": "break_down",
+     "translation": "tomber en panne",
+     "partOfSpeech": "phrasal_verb"
+    },
+    {
+     "word": "fall",
+     "slug": "fall",
+     "translation": "tomber",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "accident",
+     "slug": "accident",
+     "translation": "accident",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "notice",
+     "slug": "notice",
+     "translation": "remarquer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "steal",
+     "slug": "steal",
+     "translation": "voler (dérober)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "wallet",
+     "slug": "wallet",
+     "translation": "portefeuille",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ring",
+     "slug": "ring",
+     "translation": "sonner",
+     "partOfSpeech": "verb"
+    }
+   ]
+  },
+  {
+   "id": "en.l67",
+   "sequence": 67,
+   "title": "L'avion était déjà parti",
+   "description": "Le past perfect (had + participe passé) pour remettre les événements d'une histoire dans l'ordre.",
+   "difficulty": 5,
+   "grammarUnitId": "en.g48.past_perfect",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g47.when_while",
+    "en.g45.past_simple_vs_present_perfect",
+    "en.g39.present_perfect_intro"
+   ],
+   "vocabulary": [
+    {
+     "word": "realise",
+     "slug": "realise",
+     "translation": "se rendre compte",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "miss",
+     "slug": "miss",
+     "translation": "rater, manquer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "gate",
+     "slug": "gate",
+     "translation": "porte d'embarquement, portail",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "turn off",
+     "slug": "turn_off",
+     "translation": "éteindre",
+     "partOfSpeech": "phrasal_verb"
+    },
+    {
+     "word": "lock",
+     "slug": "lock",
+     "translation": "fermer à clé",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "upset",
+     "slug": "upset",
+     "translation": "contrarié, bouleversé",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "afterwards",
+     "slug": "afterwards",
+     "translation": "ensuite, après",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "relieved",
+     "slug": "relieved",
+     "translation": "soulagé",
+     "partOfSpeech": "adjective"
+    }
+   ]
+  },
+  {
+   "id": "en.l68",
+   "sequence": 68,
+   "title": "Avant, je fumais",
+   "description": "Used to et would pour parler des habitudes et des situations passées qui ont changé.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g49.used_to_would",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g48.past_perfect",
+    "en.g46.past_continuous",
+    "en.g17.frequency_adverbs",
+    "en.g23.past_simple_negative_questions"
+   ],
+   "vocabulary": [
+    {
+     "word": "grow up",
+     "slug": "grow_up",
+     "translation": "grandir",
+     "partOfSpeech": "phrasal_verb"
+    },
+    {
+     "word": "village",
+     "slug": "village",
+     "translation": "village",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "countryside",
+     "slug": "countryside",
+     "translation": "campagne",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "grandparents",
+     "slug": "grandparents",
+     "translation": "grands-parents",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "spend",
+     "slug": "spend",
+     "translation": "passer (du temps), dépenser",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "anymore",
+     "slug": "anymore",
+     "translation": "ne… plus",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "smoke",
+     "slug": "smoke",
+     "translation": "fumer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "hair",
+     "slug": "hair",
+     "translation": "cheveux",
+     "partOfSpeech": "noun"
+    }
+   ]
+  }
+ ]
+}

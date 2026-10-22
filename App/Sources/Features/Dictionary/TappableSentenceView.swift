@@ -28,7 +28,9 @@ struct TappableSentenceView: View {
                         ChunkView(chunk: chunk) { open(chunk.core) }
                     }
                 }
-                .frame(maxWidth: .infinity, alignment: .leading)
+                // Arabic flows right to left (first word on the right).
+                .environment(\.layoutDirection, text.containsArabic ? .rightToLeft : .leftToRight)
+                .frame(maxWidth: .infinity, alignment: text.containsArabic ? .trailing : .leading)
             }
         }
         .sheet(item: $sheet) { destination in

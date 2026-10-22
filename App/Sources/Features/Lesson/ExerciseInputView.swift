@@ -143,7 +143,7 @@ private struct ExerciseChoiceInput: View {
                 if isSelected {
                     QIconView(icon: .check, size: 14)
                 }
-                Text(option)
+                Text(option).arabicAware(option)
             }
         }
         .buttonStyle(QChipButtonStyle(isSelected: isSelected))
@@ -157,7 +157,7 @@ private struct ExerciseChoiceInput: View {
             answer = .choice(option)
         } label: {
             HStack(spacing: Theme.Spacing.s) {
-                Text(option)
+                Text(option).arabicAware(option)
                     .font(Theme.Font.body(.semibold))
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)

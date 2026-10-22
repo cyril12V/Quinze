@@ -18,3 +18,16 @@ extension String {
             || (0xFB50...0xFDFF).contains($0.value) || (0xFE70...0xFEFF).contains($0.value) }
     }
 }
+
+extension View {
+    /// Arabic text is shown with the system Arabic font at a larger size (readability of the letters
+    /// and vowel signs); other text keeps the font set by the surrounding view.
+    @ViewBuilder
+    func arabicAware(_ text: String, _ style: Font.TextStyle = .title2) -> some View {
+        if text.containsArabic {
+            self.font(.system(style)).environment(\.layoutDirection, .rightToLeft)
+        } else {
+            self
+        }
+    }
+}

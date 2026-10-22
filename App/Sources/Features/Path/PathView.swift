@@ -133,6 +133,7 @@ struct PathView: View {
                           title: env.store.languageName,
                           initials: QAvatar.initials(from: env.store.displayName),
                           avatarAction: { showSettings = true })
+                SubjectPicker()
                 VStack(alignment: .leading, spacing: Theme.Spacing.titleToContent) {
                     titleBlock(snapshot)
                     filterRow

@@ -97,13 +97,13 @@ struct LessonAnsweringView: View {
     @ViewBuilder private var promptBlock: some View {
         if exercise.promptLanguage == "fr" {
             Text(exercise.prompt)
-                .font(Theme.Font.prompt)
+                .font(exercise.prompt.containsArabic ? .system(.title) : Theme.Font.prompt)
                 .foregroundStyle(Theme.ink)
                 .fixedSize(horizontal: false, vertical: true)
                 .frame(maxWidth: .infinity, alignment: .leading)
         } else {
             TappableSentenceView(text: exercise.prompt, languageCode: exercise.promptLanguage)
-                .font(Theme.Font.prompt)
+                .font(exercise.prompt.containsArabic ? .system(.largeTitle) : Theme.Font.prompt)
                 .foregroundStyle(Theme.ink)
         }
     }

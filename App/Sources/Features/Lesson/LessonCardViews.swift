@@ -153,7 +153,7 @@ struct LessonRuleCard: View {
                 QIconView(icon: .close, size: 16)
                     .foregroundStyle(Theme.error)
                     .padding(.top, 2)
-                Text(error.wrong)
+                Text(error.wrong).arabicAware(error.wrong, .title3)
                     .strikethrough(true, color: Theme.error)
                     .foregroundStyle(Theme.error)
             }
@@ -161,7 +161,7 @@ struct LessonRuleCard: View {
                 QIconView(icon: .check, size: 16)
                     .foregroundStyle(Theme.success)
                     .padding(.top, 2)
-                Text(error.right)
+                Text(error.right).arabicAware(error.right, .title3)
                     .foregroundStyle(Theme.success)
             }
             Text(error.why)
@@ -237,7 +237,7 @@ struct LessonWordCard: View {
 
     private var wordHeader: some View {
         VStack(alignment: .leading, spacing: Theme.Spacing.s) {
-            Text(unit.title)
+            Text(unit.title).arabicAware(unit.title, .largeTitle)
                 .font(Theme.Font.display)
                 .tracking(Theme.Tracking.display)
                 .foregroundStyle(Theme.ink)
@@ -250,6 +250,13 @@ struct LessonWordCard: View {
                         .font(Theme.Font.body)
                         .foregroundStyle(Theme.onPastelSecondary)
                         .accessibilityLabel("Prononciation : \(ipa)")
+                        .padding(.trailing, Theme.Spacing.xs)
+                }
+                if let transliteration = entry?.transliteration, !transliteration.isEmpty {
+                    Text(transliteration)
+                        .font(Theme.Font.headline)
+                        .foregroundStyle(Theme.onPastelSecondary)
+                        .accessibilityLabel("Se lit : \(transliteration)")
                         .padding(.trailing, Theme.Spacing.xs)
                 }
                 QSpeakerButton(text: unit.title)
@@ -272,8 +279,14 @@ struct LessonWordCard: View {
             HStack(alignment: .top, spacing: Theme.Spacing.s) {
                 VStack(alignment: .leading, spacing: Theme.Spacing.xs) {
                     TappableSentenceView(text: example.text, languageCode: env.store.learningLanguageCode)
-                        .font(Theme.Font.headline)
+                        .font(example.text.containsArabic ? .system(.title2) : Theme.Font.headline)
                         .foregroundStyle(Theme.primaryText)
+                    if let transliteration = example.transliteration, !transliteration.isEmpty {
+                        Text(transliteration)
+                            .font(Theme.Font.callout)
+                            .italic()
+                            .foregroundStyle(Theme.secondaryText)
+                    }
                     Text(example.translation)
                         .font(Theme.Font.callout)
                         .foregroundStyle(Theme.secondaryText)

@@ -20,6 +20,7 @@ struct ProgressDashboardView: View {
                           title: env.store.languageName,
                           initials: QAvatar.initials(from: env.store.displayName),
                           avatarAction: { showSettings = true })
+                SubjectPicker()
                 if let report = env.store.progress {
                     dashboard(report)
                 } else {

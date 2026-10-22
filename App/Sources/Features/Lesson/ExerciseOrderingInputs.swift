@@ -63,7 +63,7 @@ struct ExerciseReorderInput: View {
                         Button {
                             remove(id, allItems: allItems)
                         } label: {
-                            Text(item.text)
+                            Text(item.text).arabicAware(item.text)
                         }
                         .buttonStyle(QChipButtonStyle(isSelected: true))
                         .accessibilityLabel("\(item.text), mot \(position + 1) sur \(chosen.count)")
@@ -87,7 +87,7 @@ struct ExerciseReorderInput: View {
                 Button {
                     add(item.id, allItems: allItems)
                 } label: {
-                    Text(item.text)
+                    Text(item.text).arabicAware(item.text)
                 }
                 .buttonStyle(QChipButtonStyle())
                 .disabled(isUsed)
@@ -205,7 +205,7 @@ struct ExerciseMatchInput: View {
         } label: {
             HStack(spacing: Theme.Spacing.s) {
                 numberBadge(index + 1, style: badge)
-                Text(text)
+                Text(text).arabicAware(text)
                     .font(Theme.Font.callout(.semibold))
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -230,7 +230,7 @@ struct ExerciseMatchInput: View {
                 if let owner {
                     numberBadge(owner + 1, style: .paired)
                 }
-                Text(item.text)
+                Text(item.text).arabicAware(item.text)
                     .font(Theme.Font.callout(.semibold))
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)

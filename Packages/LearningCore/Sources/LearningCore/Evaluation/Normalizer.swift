@@ -19,8 +19,10 @@ public enum TextNormalizer {
                 buffer.append("'")
             case "\u{201C}", "\u{201D}", "\u{201E}", "\u{00AB}", "\u{00BB}", "\"":
                 buffer.append(" ")
-            case ",", ";", ":", "(", ")", "[", "]", "{", "}", "\u{2013}", "\u{2014}", "\u{2015}":
+            case ",", ";", ":", "(", ")", "[", "]", "{", "}", "\u{2013}", "\u{2014}", "\u{2015}", "\u{060C}", "\u{061B}":
                 buffer.append(" ")
+            case "\u{061F}":
+                buffer.append("?")
             default:
                 buffer.append(ch)
             }
@@ -51,9 +53,21 @@ public enum TextNormalizer {
         return String(chars)
     }
 
-    /// Diacritic-insensitive form ("été" -> "ete").
+    /// Diacritic-insensitive form ("été" -> "ete"). For Arabic: no harakat, no tatweel, one alif,
+    /// ى = ي and ة = ه, so that a word typed without (or with wrong) vowel signs still matches.
     public static func foldAccents(_ text: String) -> String {
-        text.folding(options: .diacriticInsensitive, locale: nil)
+        var out = String.UnicodeScalarView()
+        for scalar in text.folding(options: .diacriticInsensitive, locale: nil).unicodeScalars {
+            switch scalar.value {
+            case 0x064B...0x065F, 0x0670, 0x0640: continue           // harakat, superscript alif, tatweel
+            case 0x0622, 0x0623, 0x0625, 0x0671: out.append("\u{0627}") // آ أ إ ٱ -> ا
+            case 0x0649: out.append("\u{064A}")                        // ى -> ي
+            case 0x0629: out.append("\u{0647}")                        // ة -> ه
+            case 0x0660...0x0669: out.append(Unicode.Scalar(scalar.value - 0x0660 + 0x30)!) // ٠-٩ -> 0-9
+            default: out.append(scalar)
+            }
+        }
+        return String(out)
     }
 
     // MARK: Canonical variants

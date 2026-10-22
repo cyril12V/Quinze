@@ -33,6 +33,10 @@ public enum ProgressCategory: String, Codable, CaseIterable, Sendable {
     case verbs
     case grammar
     case sentenceBuilding = "sentence_building"
+    /// Arabic: letters, vowel signs and reading.
+    case reading
+    /// General knowledge topics.
+    case knowledge
 
     public var displayName: String {
         switch self {
@@ -40,6 +44,8 @@ public enum ProgressCategory: String, Codable, CaseIterable, Sendable {
         case .verbs: return "Verbes"
         case .grammar: return "Grammaire"
         case .sentenceBuilding: return "Construction de phrases"
+        case .reading: return "Lecture"
+        case .knowledge: return "Connaissances"
         }
     }
 }
@@ -48,10 +54,13 @@ public enum ProgressCategory: String, Codable, CaseIterable, Sendable {
 public struct Example: Codable, Hashable, Sendable {
     public let text: String
     public let translation: String
+    /// Latin transcription of `text` (Arabic), shown under it.
+    public let transliteration: String?
 
-    public init(text: String, translation: String) {
+    public init(text: String, translation: String, transliteration: String? = nil) {
         self.text = text
         self.translation = translation
+        self.transliteration = transliteration
     }
 }
 
@@ -244,6 +253,8 @@ public struct Exercise: Codable, Hashable, Sendable, Identifiable {
 
     /// Language the learner must answer in.
     public func answerLanguage(studied: String) -> String {
+        // General knowledge ("cg") is studied in French.
+        let studied = studied == "cg" ? "fr" : studied
         switch type {
         case .translation, .freeAnswer:
             return promptLanguage == "fr" ? studied : "fr"
@@ -265,6 +276,8 @@ public struct DictionaryItem: Codable, Hashable, Sendable, Identifiable {
     public let otherTranslations: [String]?
     public let partOfSpeech: String
     public let ipa: String?
+    /// Latin transcription (Arabic words).
+    public let transliteration: String?
     public let explanation: String
     public let examples: [Example]
     public let confusions: [Confusion]?

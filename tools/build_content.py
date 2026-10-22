@@ -33,13 +33,33 @@ LESSON_DISTRIBUTION = {"mcq": 2, "fill_blank": 2, "translation": 2, "reorder": 1
 ERROR_CATEGORIES = {"vocabulary", "grammar", "conjugation", "verb_tense", "word_order", "spelling",
                     "preposition", "word_confusion", "instruction"}
 POS = {"noun", "verb", "phrasal_verb", "adjective", "adverb", "pronoun", "article", "determiner", "preposition",
-       "conjunction", "auxiliary", "modal", "interjection", "expression", "number"}
+       "conjunction", "auxiliary", "modal", "interjection", "expression", "number",
+       # arabe
+       "letter", "particle",
+       # culture générale
+       "concept", "person", "place", "event", "work", "date", "organization"}
+CATEGORIES = {"vocabulary", "verbs", "grammar", "sentence_building", "reading", "knowledge"}
 DIAG_TOPICS = {"vocabulary", "pronouns", "verbs", "present", "past", "future", "comprehension", "construction"}
 DIAG_LEVEL = {1: 0, 2: 1, 3: 2, 4: 3, 5: 3, 6: 1, 7: 4, 8: 4}
 SKILL = {"mcq": "recognition", "match": "recognition", "fill_blank": "recall", "reorder": "recall",
          "translation": "production", "free_answer": "production"}
 VERB_FORMS = {"thirdPerson", "past", "pastParticiple", "ing"}
 ALLOWED_FORMS = VERB_FORMS | {"plural", "comparative", "superlative"}
+
+# Règles propres à chaque matière. Les modules « format 2 » (nouveaux) ont des leçons de 18 à 24 exercices ;
+# les modules anglais 1 à 8 (format 1) gardent leurs 10 exercices et la répartition LESSON_DISTRIBUTION.
+PROFILES = {
+    "en": {"promptLanguages": {"en", "fr"}, "maxReverseTranslations": 2,
+           "types": {"mcq": (3, 6), "fill_blank": (3, 6), "translation": (3, 5), "reorder": (2, 3),
+                     "match": (2, 3), "free_answer": (2, 4)}},
+    "ar": {"promptLanguages": {"ar", "fr"}, "maxReverseTranslations": 99,
+           "types": {"mcq": (5, 10), "fill_blank": (2, 5), "translation": (1, 4), "reorder": (1, 4),
+                     "match": (3, 5), "free_answer": (1, 3)}},
+    "cg": {"promptLanguages": {"fr"}, "maxReverseTranslations": 0,
+           "types": {"mcq": (6, 10), "fill_blank": (3, 5), "translation": (0, 0), "reorder": (0, 2),
+                     "match": (2, 4), "free_answer": (2, 4)}},
+}
+LESSON_SIZE = (18, 24)
 
 
 def slug(text: str) -> str:
@@ -84,7 +104,8 @@ def check_example(ex, where, rep, field="example"):
         rep.err(where, f"{field} must be {{text, translation}}")
 
 
-def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], module: int, pool: str):
+def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], module: int, pool: str,
+                   lang: str = "en", fmt: int = 1):
     t = ex.get("type")
     if t not in EXERCISE_TYPES:
         rep.err(where, f"unknown type {t!r}")
@@ -94,8 +115,9 @@ def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], mod
             rep.err(where, f"'{f}' required")
     if t != "match" and not nonempty(ex.get("tip")):
         rep.err(where, "'tip' required")
-    if ex.get("promptLanguage") not in ("en", "fr"):
-        rep.err(where, "promptLanguage must be 'en' or 'fr'")
+    langs = PROFILES[lang]["promptLanguages"]
+    if ex.get("promptLanguage") not in langs:
+        rep.err(where, f"promptLanguage must be one of {sorted(langs)}")
     d = ex.get("difficulty")
     if not (isinstance(d, int) and 1 <= d <= 5):
         rep.err(where, "difficulty must be an int 1..5")
@@ -162,7 +184,7 @@ def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], mod
     if t == "free_answer":
         req = ex.get("requirements")
         if req is not None:
-            if module < 3:
+            if fmt == 1 and module < 3:
                 rep.err(where, "open free_answer (requirements) only from module 3")
             mi = req.get("mustInclude")
             if mi is not None and not (isinstance(mi, list) and all(isinstance(x, list) and x for x in mi)):
@@ -179,7 +201,7 @@ def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], mod
             rep.err(pw, "feedback required")
         if nonempty(p.get("equals")) and any(p["equals"].strip().lower() == a.strip().lower() for a in accepted):
             rep.err(pw, "error pattern equals an accepted answer")
-    if pool == "diagnostic":
+    if pool == "diagnostic" and fmt == 1:
         if ex.get("topic") not in DIAG_TOPICS:
             rep.err(where, f"diagnostic topic must be one of {sorted(DIAG_TOPICS)}")
         if ex.get("level") != DIAG_LEVEL[module]:
@@ -204,6 +226,8 @@ def finalize_exercise(ex: dict, pool: str, lesson_id: str | None) -> dict:
 def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: set[str]):
     mdir = ROOT / "Content" / lang / "source" / f"m{mnum:02d}"
     tag = f"m{mnum:02d}"
+    fmt = next((m.get("format", 1) for m in cur["modules"] if m["id"] == mnum), 1)
+    profile = PROFILES[lang]
     gunits = [u for u in cur["grammarUnits"] if u["module"] == mnum]
     vunits = [u for u in cur["vocabularyUnits"] if u["module"] == mnum]
     lessons = [l for l in cur["lessons"] if l["module"] == mnum]
@@ -247,7 +271,7 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
             expected[v["dictionaryItemId"]] = v
         for g in gunits:
             for fw in g.get("functionWords", []):
-                expected.setdefault(f"en.d.{slug(fw)}", {"title": fw, "id": None})
+                expected.setdefault(f"{lang}.d.{slug(fw)}", {"title": fw, "id": None})
         seen = set()
         for i, item in enumerate(data):
             iid = item.get("id")
@@ -270,14 +294,19 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
             ipa = item.get("ipa")
             if ipa is not None and not (isinstance(ipa, str) and ipa.startswith("/") and ipa.endswith("/")):
                 rep.err(w, "ipa must be written between slashes")
+            tr = item.get("transliteration")
+            if lang == "ar" and not nonempty(tr):
+                rep.err(w, "'transliteration' required for Arabic")
             forms = item.get("forms") or {}
-            if set(forms) - ALLOWED_FORMS:
+            if not all(isinstance(k, str) and nonempty(v) for k, v in forms.items()):
+                rep.err(w, "forms must map names to non-empty strings")
+            if lang == "en" and set(forms) - ALLOWED_FORMS:
                 rep.err(w, f"unknown forms {sorted(set(forms) - ALLOWED_FORMS)}")
             exp = expected.get(iid)
             if exp and exp.get("id"):
                 if item.get("unitId") != exp["id"]:
                     rep.err(w, f"unitId must be {exp['id']}")
-                if exp.get("partOfSpeech") == "verb" and not VERB_FORMS <= set(forms):
+                if lang == "en" and exp.get("partOfSpeech") == "verb" and not VERB_FORMS <= set(forms):
                     rep.err(w, "verb needs forms thirdPerson, past, pastParticiple, ing")
             elif item.get("unitId") not in (None, ""):
                 if item.get("unitId") not in known_units:
@@ -301,44 +330,58 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
         if data.get("lessonId") != les["id"]:
             rep.err(w0, f"lessonId must be {les['id']}")
         exs = data.get("exercises") or []
-        if len(exs) != 10:
-            rep.err(w0, f"exactly 10 exercises expected, found {len(exs)}")
         dist = collections.Counter(e.get("type") for e in exs)
-        if dict(dist) != LESSON_DISTRIBUTION:
-            rep.err(w0, f"type distribution {dict(dist)} != {LESSON_DISTRIBUTION}")
+        if fmt == 1:
+            if len(exs) != 10:
+                rep.err(w0, f"exactly 10 exercises expected, found {len(exs)}")
+            if dict(dist) != LESSON_DISTRIBUTION:
+                rep.err(w0, f"type distribution {dict(dist)} != {LESSON_DISTRIBUTION}")
+        else:
+            lo, hi = LESSON_SIZE
+            if not lo <= len(exs) <= hi:
+                rep.err(w0, f"{lo}-{hi} exercises expected, found {len(exs)}")
+            for t, (tmin, tmax) in profile["types"].items():
+                if not tmin <= dist.get(t, 0) <= tmax:
+                    rep.err(w0, f"{t}: {dist.get(t, 0)} exercises, expected {tmin}-{tmax}")
         ids = [e.get("id") for e in exs]
         exp_ids = [f"{les['id']}.e{i:02d}" for i in range(1, len(exs) + 1)]
         if sorted(i for i in ids if i) != sorted(exp_ids):
             rep.err(w0, f"exercise ids must be {exp_ids[0]}..{exp_ids[-1]}")
         primary_g = sum(1 for e in exs if (e.get("unitIds") or [None])[0] == les["grammarUnitId"])
-        if primary_g < 6:
-            rep.err(w0, f"grammar unit {les['grammarUnitId']} is primary in only {primary_g} exercises (>= 6)")
+        need = 6 if fmt == 1 else (len(exs) + 2) // 3
+        if primary_g < need:
+            rep.err(w0, f"grammar unit {les['grammarUnitId']} is primary in only {primary_g} exercises (>= {need})")
         all_units = {u for e in exs for u in (e.get("unitIds") or [])}
         for v in les["introduces"]:
-            if v.startswith("en.v.") and v not in all_units:
+            if v.startswith(f"{lang}.v.") and v not in all_units:
                 rep.err(w0, f"vocabulary {v} not used by any exercise")
-        en_fr = sum(1 for e in exs if e.get("type") == "translation" and e.get("promptLanguage") == "en")
-        if en_fr > 1:
-            rep.err(w0, "at most one en->fr translation per lesson")
+        reverse = sum(1 for e in exs if e.get("type") == "translation" and e.get("promptLanguage") == lang)
+        max_reverse = 1 if fmt == 1 else profile["maxReverseTranslations"]
+        if reverse > max_reverse:
+            rep.err(w0, f"at most {max_reverse} {lang}->fr translation(s) per lesson")
         open_free = sum(1 for e in exs if e.get("type") == "free_answer" and e.get("requirements"))
-        if open_free > 1:
-            rep.err(w0, "at most one open free_answer per lesson")
+        if open_free > (1 if fmt == 1 else 2):
+            rep.err(w0, "too many open free_answer in lesson")
         prompts = [e.get("prompt", "").strip().lower() for e in exs]
         if len(set(prompts)) != len(prompts):
             rep.err(w0, "duplicate prompts in lesson")
         for e in exs:
-            check_exercise(e, f"{w0} {e.get('id')}", rep, known_units, mnum, "lesson")
+            check_exercise(e, f"{w0} {e.get('id')}", rep, known_units, mnum, "lesson", lang, fmt)
             if e.get("type") in EXERCISE_TYPES:
                 result["exercises"].append(finalize_exercise(e, "lesson", les["id"]))
 
     for pool, fname in (("diagnostic", "diagnostic.json"), ("assessment", "assessment.json")):
+        if fmt != 1 and not (mdir / fname).exists():
+            continue  # facultatif pour les nouveaux modules
         data = load_json(mdir / fname, rep)
         if data is None:
             continue
         w0 = f"{tag}/{fname}"
-        if len(data) != 5:
+        if fmt == 1 and len(data) != 5:
             rep.err(w0, f"5 items expected, found {len(data)}")
-        prefix = "en.diag" if pool == "diagnostic" else "en.assess"
+        if fmt != 1 and not 5 <= len(data) <= 10:
+            rep.err(w0, f"5-10 items expected, found {len(data)}")
+        prefix = f"{lang}.diag" if pool == "diagnostic" else f"{lang}.assess"
         exp_ids = [f"{prefix}.m{mnum:02d}.{i:02d}" for i in range(1, len(data) + 1)]
         if sorted(e.get("id") or "" for e in data) != exp_ids:
             rep.err(w0, f"ids must be {exp_ids[0]}..{exp_ids[-1]}")
@@ -351,10 +394,101 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
             if recall < 3:
                 rep.err(w0, "assessment needs >= 3 recall items without options")
         for e in data:
-            check_exercise(e, f"{w0} {e.get('id')}", rep, known_units, mnum, pool)
+            check_exercise(e, f"{w0} {e.get('id')}", rep, known_units, mnum, pool, lang, fmt)
             if e.get("type") in EXERCISE_TYPES:
                 result[pool].append(finalize_exercise(e, pool, None))
     return result
+
+
+SLUG_RE = re.compile(r"^[a-z0-9]+(_[a-z0-9]+)*$")
+
+
+def merge_outlines(lang: str, cur: dict, rep: Report) -> None:
+    """Adds to the curriculum every module described by Content/<lang>/source/mNN/outline.json.
+
+    outline.json (modules « format 2 ») :
+    {"module": {"id": 9, "title": "...", "description": "..."},
+     "grammarUnits": [{"id": "en.g42.slug", "category": "grammar", "title": "...", "difficulty": 3,
+                       "prerequisites": ["en.g41.x"], "functionWords": []}],
+     "lessons": [{"id": "en.l61", "sequence": 61, "title": "...", "description": "...", "difficulty": 3,
+                  "grammarUnitId": "en.g42.slug", "introducesGrammar": true, "reviews": [],
+                  "vocabulary": [{"word": "...", "slug": "...", "translation": "...", "partOfSpeech": "noun"}]}]}
+    """
+    known_modules = {m["id"] for m in cur["modules"]}
+    src = ROOT / "Content" / lang / "source"
+    for path in sorted(src.glob("m*/outline.json")):
+        tag = f"{path.parent.name}/outline.json"
+        o = load_json(path, rep)
+        if o is None:
+            continue
+        mod = o.get("module") or {}
+        mid = mod.get("id")
+        if path.parent.name != f"m{mid:02d}" if isinstance(mid, int) else True:
+            rep.err(tag, "module.id must match the folder name")
+            continue
+        if mid in known_modules:
+            continue
+        cur["modules"].append({"id": mid, "title": mod.get("title", ""), "description": mod.get("description", ""),
+                               "format": 2})
+        for g in o.get("grammarUnits") or []:
+            gid = g.get("id", "")
+            if not re.match(rf"^{lang}\.g\d{{2,4}}\.[a-z0-9_]+$", gid):
+                rep.err(tag, f"bad grammar unit id {gid!r} (expected {lang}.gNN.slug)")
+            if g.get("category") not in CATEGORIES:
+                rep.err(tag, f"{gid}: category must be one of {sorted(CATEGORIES)}")
+            cur["grammarUnits"].append({"id": gid, "kind": "grammar", "category": g.get("category", "grammar"),
+                                        "title": g.get("title", ""), "difficulty": g.get("difficulty", 1),
+                                        "prerequisites": g.get("prerequisites", []), "module": mid,
+                                        "functionWords": g.get("functionWords", [])})
+        for les in o.get("lessons") or []:
+            lid = les.get("id", "")
+            if not re.match(rf"^{lang}\.l\d{{2,4}}$", lid):
+                rep.err(tag, f"bad lesson id {lid!r}")
+            introduces = [les["grammarUnitId"]] if les.get("introducesGrammar") else []
+            for v in les.get("vocabulary") or []:
+                vs = v.get("slug") or slug(v.get("word", ""))
+                if not SLUG_RE.match(vs or ""):
+                    rep.err(tag, f"{lid}: vocabulary {v.get('word')!r} needs an ascii 'slug'")
+                    continue
+                for f in ("word", "translation", "partOfSpeech"):
+                    if not nonempty(v.get(f)):
+                        rep.err(tag, f"{lid}: vocabulary {vs} needs '{f}'")
+                if v.get("partOfSpeech") not in POS:
+                    rep.err(tag, f"{lid}: vocabulary {vs} has invalid partOfSpeech {v.get('partOfSpeech')!r}")
+                vid = f"{lang}.v.{vs}"
+                cur["vocabularyUnits"].append({
+                    "id": vid, "kind": "vocabulary", "category": "vocabulary", "title": v.get("word", ""),
+                    "translation": v.get("translation", ""), "partOfSpeech": v.get("partOfSpeech", "noun"),
+                    "difficulty": les.get("difficulty", 1), "prerequisites": [], "module": mid, "lessonId": lid,
+                    "dictionaryItemId": f"{lang}.d.{vs}"})
+                introduces.append(vid)
+            cur["lessons"].append({"id": lid, "module": mid, "sequence": les.get("sequence"),
+                                   "title": les.get("title", ""), "description": les.get("description", ""),
+                                   "difficulty": les.get("difficulty", 1), "grammarUnitId": les.get("grammarUnitId"),
+                                   "introducesGrammar": bool(les.get("introducesGrammar")),
+                                   "introduces": introduces, "reviews": les.get("reviews", [])})
+    cur["modules"].sort(key=lambda m: m["id"])
+    # Global checks on the merged curriculum.
+    for kind in ("grammarUnits", "vocabularyUnits", "lessons"):
+        c = collections.Counter(x["id"] for x in cur[kind])
+        for i, n in c.items():
+            if n > 1:
+                rep.err("curriculum", f"duplicate {kind} id {i}")
+    seqs = collections.Counter(l["sequence"] for l in cur["lessons"])
+    for q, n in seqs.items():
+        if n > 1:
+            rep.err("curriculum", f"duplicate lesson sequence {q}")
+    gids = {g["id"] for g in cur["grammarUnits"]}
+    for g in cur["grammarUnits"]:
+        for p in g["prerequisites"]:
+            if p not in gids:
+                rep.err("curriculum", f"{g['id']}: unknown prerequisite {p}")
+    for l in cur["lessons"]:
+        if l["grammarUnitId"] not in gids:
+            rep.err("curriculum", f"{l['id']}: unknown grammarUnitId {l['grammarUnitId']}")
+        for r in l["reviews"]:
+            if r not in gids and not any(v["id"] == r for v in cur["vocabularyUnits"]):
+                rep.err("curriculum", f"{l['id']}: unknown review unit {r}")
 
 
 def sql_str(v) -> str:
@@ -439,6 +573,7 @@ def main():
     rep = Report()
     cur_path = ROOT / "Content" / lang / "curriculum.json"
     cur = json.loads(cur_path.read_text(encoding="utf-8"))
+    merge_outlines(lang, cur, rep)
     known_units = {u["id"] for u in cur["grammarUnits"]} | {u["id"] for u in cur["vocabularyUnits"]}
 
     modules = [m["id"] for m in cur["modules"]]
@@ -499,7 +634,7 @@ def main():
         "formatVersion": FORMAT_VERSION,
         "contentVersion": cur["contentVersion"],
         "language": cur["language"],
-        "modules": cur["modules"],
+        "modules": [{k: m[k] for k in ("id", "title", "description")} for m in cur["modules"] if m["id"] in results],
         "units": units,
         "lessons": [l for l in cur["lessons"] if l["module"] in built_modules],
         "exercises": [e for m in sorted(results) for e in results[m]["exercises"]],

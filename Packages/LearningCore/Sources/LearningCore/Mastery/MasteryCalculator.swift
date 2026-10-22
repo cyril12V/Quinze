@@ -148,7 +148,8 @@ extension LearningEngine {
         }
         let due = learner.memoryStates.values.filter { $0.nextReviewAt <= now }.count
         let done = learner.completedLessonIds.union(learner.placedLessonIds).filter { tables.lessonsById[$0] != nil }.count
-        let categories = ProgressCategory.allCases.map { cat -> CategoryProgress in
+        // Only the categories this subject actually uses (Arabic has no "Verbes" units, etc.).
+        let categories = ProgressCategory.allCases.filter { (perCategory[$0]?.total ?? 0) > 0 }.map { cat -> CategoryProgress in
             let e = perCategory[cat] ?? (0, 0, 0, 0)
             return CategoryProgress(category: cat, unitsTotal: e.total, unitsStudied: e.studied, unitsMastered: e.mastered,
                                     averageMastery: e.studied == 0 ? 0 : e.sum / Double(e.studied))

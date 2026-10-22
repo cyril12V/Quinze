@@ -252,10 +252,13 @@ struct AnswerEvaluator: Sendable {
             return make(.incorrect, expected, pattern.category, pattern.feedback, nil, diff, false)
         }
 
-        // Accent-only and apostrophe-only differences are accepted with a remark.
+        // Accent-only and apostrophe-only differences are accepted with a remark (typed answers only:
+        // choices may differ by a single diacritic, e.g. Arabic بَ / بِ).
         let foldedUser = Set(userSet.map { TextNormalizer.foldAccents($0) })
-        for (i, av) in acceptedVariants.enumerated() where !foldedUser.isDisjoint(with: Set(joinedSet(av).map { TextNormalizer.foldAccents($0) })) {
-            return make(.correctWithTypo, i == 0 ? nil : accepted[0], nil, nil, "Attention aux accents.", [], false)
+        let accentNote = studiedLanguage == "ar" ? "Attention aux voyelles et aux signes (harakat)." : "Attention aux accents."
+        for (i, av) in acceptedVariants.enumerated() where !isChoice
+            && !foldedUser.isDisjoint(with: Set(joinedSet(av).map { TextNormalizer.foldAccents($0) })) {
+            return make(.correctWithTypo, i == 0 ? nil : accepted[0], nil, nil, accentNote, [], false)
         }
         if english {
             let lenientSet = joinedSet(TextNormalizer.canonicalVariants(raw, english: true, lenient: true))

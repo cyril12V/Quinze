@@ -133,6 +133,7 @@ final class AppEnvironment {
         auth.start()
         await content.loadAll(configuration: engineConfiguration(for:))
         attachContent()
+        applySpeechPreferences()
         restrictions.refreshAuthorization()
         restrictions.reconcile(now: .now)
         if auth.state == .signedIn { await postSignIn() }
@@ -180,8 +181,14 @@ final class AppEnvironment {
         for store in stores.values { store.attachContent() }
     }
 
+    func applySpeechPreferences() {
+        speech.preferredVoices = settings.study.voiceIdentifiers
+        speech.rate = Float(settings.study.speechRate)
+    }
+
     /// Session lengths or enabled subjects changed in the settings.
     func studyPreferencesDidChange() async {
+        applySpeechPreferences()
         content.reconfigure(engineConfiguration(for:))
         attachContent()
         await study.refresh()

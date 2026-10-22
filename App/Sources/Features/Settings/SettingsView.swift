@@ -2,7 +2,7 @@ import SwiftUI
 import UserNotifications
 import LearningCore
 
-/// Settings: lesson times, reminders, app restrictions, account, privacy and known limits.
+/// Settings: subjects, lesson times, reminders, app restrictions, appearance, voices, AI, profile, about.
 /// Meant to be pushed inside the navigation stack of the home screen (it does not create its own).
 struct SettingsView: View {
     @Environment(AppEnvironment.self) private var env
@@ -28,9 +28,12 @@ struct SettingsView: View {
     var body: some View {
         QScreen {
             VStack(alignment: .leading, spacing: Theme.Spacing.section) {
+                SubjectsSettingsSection()
                 scheduleSection
                 reminderSection
                 restrictionSection
+                AppearanceSettingsSection()
+                VoiceSettingsSection()
                 if env.auth.isLocalMode { localAccountSection } else { accountSection }
                 aboutSection
             }
@@ -570,7 +573,7 @@ struct SettingsView: View {
 // MARK: - Section container
 
 /// Section label (caption, semibold) above a white card (radius 22), optional footnote under it.
-private struct SettingsSection<Content: View>: View {
+struct SettingsSection<Content: View>: View {
     let title: String
     let footer: String?
     let content: Content

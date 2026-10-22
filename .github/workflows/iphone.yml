@@ -2,7 +2,7 @@ name: Installer sur mon iPhone
 on:
   workflow_dispatch:
   push:
-    paths: ["*.zip", ".github/workflows/**"]
+    paths: ["*.zip", ".github/workflows/iphone.yml"]
 permissions:
   contents: write
 concurrency: quinze
@@ -15,7 +15,16 @@ jobs:
       - uses: actions/checkout@v4
       - id: check
         env:
-          SECRETS_JSON: ${{ toJSON(secrets) }}
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+          DIAWI_TOKEN: ${{ secrets.DIAWI_TOKEN }}
+          DEVELOPMENT_TEAM: ${{ secrets.DEVELOPMENT_TEAM }}
+          BUNDLE_ID_PREFIX: ${{ secrets.BUNDLE_ID_PREFIX }}
+          IPHONE_UDID: ${{ secrets.IPHONE_UDID }}
+          IPHONE_NAME: ${{ secrets.IPHONE_NAME }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
           ZIP=$(ls *.zip 2>/dev/null | head -1)
           if [ -n "$ZIP" ]; then
@@ -30,7 +39,16 @@ jobs:
     runs-on: macos-15
     timeout-minutes: 90
     env:
-      SECRETS_JSON: ${{ toJSON(secrets) }}
+      ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+      ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+      ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+      DIAWI_TOKEN: ${{ secrets.DIAWI_TOKEN }}
+      DEVELOPMENT_TEAM: ${{ secrets.DEVELOPMENT_TEAM }}
+      BUNDLE_ID_PREFIX: ${{ secrets.BUNDLE_ID_PREFIX }}
+      IPHONE_UDID: ${{ secrets.IPHONE_UDID }}
+      IPHONE_NAME: ${{ secrets.IPHONE_NAME }}
+      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+      SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
     steps:
       - uses: actions/checkout@v4
         with:

@@ -11,13 +11,13 @@ fail() {
     echo "### Échec : $1"
     if ls build/*.log >/dev/null 2>&1; then
       echo '```'
-      grep -hE "error:|\*\* (ARCHIVE|EXPORT) FAILED|Provisioning|No profiles|Family Controls|entitlement|certificate" build/*.log 2>/dev/null | sort -u | head -n 60 || true
+      grep -hE "error:|\[!\]|\*\* (ARCHIVE|EXPORT) FAILED|Provisioning|No profiles|Family Controls|entitlement|certificate" build/*.log 2>/dev/null | sort -u | head -n 60 || true
       echo '```'
     fi
   } >> "$SUMMARY"
   echo "::error::$1"
   # Les 15 premières erreurs s'affichent aussi en haut de la page du run (lisible sur iPhone).
-  grep -hE "error:" build/*.log 2>/dev/null | sed 's#^.*/quinze/##; s#^.*/work/[^/]*/[^/]*/##' | sort -u | head -n 15 \
+  grep -hE "error:|\[!\]" build/*.log 2>/dev/null | sed 's#^.*/quinze/##; s#^.*/work/[^/]*/[^/]*/##' | sort -u | head -n 15 \
     | while IFS= read -r line; do echo "::error::$line"; done || true
   exit 1
 }
@@ -103,8 +103,11 @@ chmod 600 "$ASC_KEY_PATH"
 cleanup() { rm -f "$ASC_KEY_PATH"; }
 trap cleanup EXIT
 
-# 5. Enregistre l'iPhone dans le compte (sans effet s'il l'est déjà).
+# 5. Enregistre l'iPhone dans le compte (sans effet s'il l'est déjà), puis crée les 4 identifiants
+#    et leurs capacités par l'API : en cas de refus, Apple donne ici un message précis, alors que
+#    xcodebuild ne dit que « Authentication failed ».
 bundle exec fastlane register_iphone 2>&1 | tee build/register.log
+bundle exec fastlane prepare_ids 2>&1 | tee build/prepare.log
 
 # 6. Projet, archive, export « développement ».
 xcodegen generate

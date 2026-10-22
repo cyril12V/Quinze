@@ -25,6 +25,63 @@ platform :ios do
                     udid: udid, api_key: api_key)
   end
 
+  desc "Crée les 4 identifiants de l'app et active leurs capacités, avec des messages d'erreur clairs"
+  lane :prepare_ids do
+    team = ENV["DEVELOPMENT_TEAM"].to_s.strip
+    prefix = ENV["BUNDLE_ID_PREFIX"].to_s.strip
+    prefix = "fr.elmdigitalagency" if prefix.empty?
+    cap = Spaceship::ConnectAPI::BundleIdCapability::Type
+    targets = {
+      "#{prefix}.quinze" => ["Quinze", [cap::APP_GROUPS, cap::FAMILY_CONTROLS, cap::APPLE_ID_AUTH]],
+      "#{prefix}.quinze.monitor" => ["Quinze Monitor", [cap::APP_GROUPS, cap::FAMILY_CONTROLS]],
+      "#{prefix}.quinze.shieldconfig" => ["Quinze Shield Configuration", [cap::APP_GROUPS, cap::FAMILY_CONTROLS]],
+      "#{prefix}.quinze.shieldaction" => ["Quinze Shield Action", [cap::APP_GROUPS, cap::FAMILY_CONTROLS]]
+    }
+    Spaceship::ConnectAPI.token = Spaceship::ConnectAPI::Token.from(hash: asc_api_key)
+
+    begin
+      existing = Spaceship::ConnectAPI::BundleId.all
+    rescue => e
+      UI.user_error!("Clé d'API refusée par Apple en lisant les identifiants (#{e.message}). " \
+                     "Vérifie dans App Store Connect > Utilisateurs et accès > Intégrations que la clé #{ENV['ASC_KEY_ID']} " \
+                     "est une clé d'équipe avec l'accès Admin.")
+    end
+    UI.message("La clé d'API voit #{existing.count} identifiant(s) dans le compte.")
+    teams = existing.map(&:seed_id).compact.uniq
+    UI.message("Préfixe d'équipe des identifiants existants : #{teams.join(', ')}") unless teams.empty?
+
+    targets.each do |identifier, (name, wanted)|
+      bundle = existing.find { |b| b.identifier == identifier }
+      if bundle.nil?
+        UI.message("Création de l'identifiant #{identifier}")
+        begin
+          bundle = Spaceship::ConnectAPI::BundleId.create(name: name, platform: "IOS", identifier: identifier)
+        rescue => e
+          UI.user_error!("Apple refuse de créer l'identifiant #{identifier} : #{e.message}. " \
+                         "S'il est déjà pris par un autre compte, mets un autre BUNDLE_ID_PREFIX dans Config/perso.env.")
+        end
+      end
+      if !team.empty? && bundle.seed_id && bundle.seed_id != team
+        UI.user_error!("L'identifiant #{identifier} appartient à l'équipe #{bundle.seed_id}, mais DEVELOPMENT_TEAM vaut #{team}. " \
+                       "La clé d'API et DEVELOPMENT_TEAM doivent venir du même compte.")
+      end
+      present = bundle.get_capabilities.map(&:capability_type)
+      (wanted - present).each do |type|
+        UI.message("#{identifier} : activation de #{type}")
+        settings = []
+        if type == cap::APPLE_ID_AUTH
+          settings = [{ key: "APPLE_ID_AUTH_APP_CONSENT", options: [{ key: "PRIMARY_APP_CONSENT" }] }]
+        end
+        begin
+          bundle.create_capability(type, settings: settings)
+        rescue => e
+          UI.user_error!("Apple refuse d'activer #{type} sur #{identifier} : #{e.message}")
+        end
+      end
+      UI.success("#{identifier} prêt (équipe #{bundle.seed_id})")
+    end
+  end
+
   desc "Envoie l'IPA exporté (build/export/Quinze.ipa) sur TestFlight"
   lane :beta do |options|
     ipa = options[:ipa] || File.expand_path("../build/export/Quinze.ipa", __dir__)

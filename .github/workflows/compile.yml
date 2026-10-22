@@ -1,0 +1,29 @@
+name: Compiler (sans signature)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "App/**"
+      - "Shared/**"
+      - "Extensions/**"
+      - "Packages/**"
+      - "project.yml"
+      - "tools/ci/compile_check.sh"
+      - ".github/workflows/compile.yml"
+concurrency:
+  group: compile-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  compile:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - run: bash tools/ci/compile_check.sh
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: compile-log
+          path: build/compile.log
+          if-no-files-found: ignore

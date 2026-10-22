@@ -337,7 +337,12 @@ final class LearningStore {
         let raw = await Task.detached(priority: .userInitiated) { () -> SessionPlan in
             switch kind {
             case .standard:
-                return engine.planSession(type: type, slot: slot, day: day, learner: snapshot, now: now, seed: seed)
+                let plan = engine.planSession(type: type, slot: slot, day: day, learner: snapshot, now: now, seed: seed)
+                // Nothing to review yet (new subject): free practice teaches the next lesson instead.
+                if plan.items.isEmpty && type == .extra {
+                    return engine.planSession(type: .learning, slot: nil, day: day, learner: snapshot, now: now, seed: seed)
+                }
+                return plan
             case .assessment:
                 return engine.planAssessment(day: day, learner: snapshot, now: now, seed: seed)
             case .focused(let unitId):

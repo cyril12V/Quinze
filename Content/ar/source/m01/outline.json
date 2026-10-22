@@ -42,6 +42,26 @@
     "ar.g01.alif_ba_ta_tha"
    ],
    "functionWords": []
+  },
+  {
+   "id": "ar.g05.sin_chin_sad_dad",
+   "category": "reading",
+   "title": "س ش ص ض : la scie et la boucle",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g02.nun_ya_five_teeth"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g06.ta_za_ayn_ghayn",
+   "category": "reading",
+   "title": "ط ظ ع غ : la boucle à bâton et la tête d'œil",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g05.sin_chin_sad_dad"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -293,6 +313,165 @@
      "word": "لَذِيذ",
      "slug": "ladhidh",
      "translation": "délicieux",
+     "partOfSpeech": "adjective"
+    }
+   ]
+  },
+  {
+   "id": "ar.l05",
+   "sequence": 5,
+   "title": "La scie et la boucle : س ش ص ض",
+   "description": "س ش (trois dents en scie) et ص ض (une boucle ronde) : deux paires où seuls les points changent, avec le s et le d « lourds » de l'arabe. Lecture de mots de la maison et de la table.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g05.sin_chin_sad_dad",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g04.non_connecting_letters",
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.zayt",
+    "ar.v.dar",
+    "ar.v.khatam",
+    "ar.v.djazar"
+   ],
+   "vocabulary": [
+    {
+     "word": "س",
+     "slug": "sin",
+     "translation": "la lettre sîn (s)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "ش",
+     "slug": "chin",
+     "translation": "la lettre chîn (ch)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "ص",
+     "slug": "sad",
+     "translation": "la lettre Sâd (S, s « lourd »)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "ض",
+     "slug": "dad",
+     "translation": "la lettre Dâd (D, d « lourd »)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "سَرِير",
+     "slug": "sarir",
+     "translation": "le lit",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شَوْكَة",
+     "slug": "chawka",
+     "translation": "la fourchette",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "صَحْن",
+     "slug": "sahn",
+     "translation": "l'assiette",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مِصْبَاح",
+     "slug": "misbah",
+     "translation": "la lampe",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ضَيْف",
+     "slug": "dayf",
+     "translation": "l'invité",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "قَمِيص",
+     "slug": "qamis",
+     "translation": "la chemise",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l06",
+   "sequence": 6,
+   "title": "Le bâton et l'œil : ط ظ ع غ",
+   "description": "ط ظ (une boucle à bâton vertical) et ع غ (une tête en forme d'œil) : deux paires où le point fait toute la différence, avec les sons « lourds » et gutturaux de l'arabe.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g06.ta_za_ayn_ghayn",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.g04.non_connecting_letters",
+    "ar.v.sad",
+    "ar.v.sarir",
+    "ar.v.dayf",
+    "ar.v.qamis",
+    "ar.v.dadjadj"
+   ],
+   "vocabulary": [
+    {
+     "word": "ط",
+     "slug": "tah",
+     "translation": "la lettre Tâ' (T, t « lourd »)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "ظ",
+     "slug": "zah",
+     "translation": "la lettre Zâ' (Z, dh « lourd »)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "ع",
+     "slug": "ayn",
+     "translation": "la lettre 3ayn (3, son guttural)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "غ",
+     "slug": "ghayn",
+     "translation": "la lettre ghayn (gh)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "طَعَام",
+     "slug": "taam",
+     "translation": "la nourriture, le repas",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "طَاوِلَة",
+     "slug": "tawila",
+     "translation": "la table",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَسَل",
+     "slug": "asal",
+     "translation": "le miel",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَصِير",
+     "slug": "asir",
+     "translation": "le jus",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "غُرْفَة",
+     "slug": "ghurfa",
+     "translation": "la chambre, la pièce",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "نَظِيف",
+     "slug": "nazif",
+     "translation": "propre",
      "partOfSpeech": "adjective"
     }
    ]

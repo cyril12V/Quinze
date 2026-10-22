@@ -1,0 +1,947 @@
+{
+ "lessonId": "ar.l06",
+ "exercises": [
+  {
+   "id": "ar.l06.e01",
+   "unitIds": [
+    "ar.v.tah",
+    "ar.g06.ta_za_ayn_ghayn"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le nom de la lettre.",
+   "prompt": "Quelle lettre vois-tu ici : طـ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tâ' (T, t lourd)",
+    "tâ' (t)",
+    "Sâd (S)",
+    "Zâ' (Z, dh lourd)"
+   ],
+   "answer": "Tâ' (T, t lourd)",
+   "acceptedAnswers": [
+    "Tâ' (T, t lourd)"
+   ],
+   "hint": "Y a-t-il un bâton vertical ?",
+   "explanation": "Une boucle fermée surmontée d'un bâton vertical, sans aucun point : c'est ط, sous sa forme du début (طـ).",
+   "tip": "Boucle + bâton = ط ou ظ ; sans point = ط.",
+   "extraExample": {
+    "text": "طَعَام",
+    "translation": "la nourriture (ط au début)",
+    "transliteration": "Ta3âm"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sâd (S)",
+     "category": "spelling",
+     "feedback": "ص est une boucle sans bâton. Ici, un bâton monte au-dessus : c'est ط."
+    },
+    {
+     "equals": "Zâ' (Z, dh lourd)",
+     "category": "spelling",
+     "feedback": "ظ porte un point au-dessus du bâton. Ici il n'y en a pas : c'est ط."
+    },
+    {
+     "equals": "tâ' (t)",
+     "category": "spelling",
+     "feedback": "ت est une dent avec deux points, sans bâton. Ici c'est une boucle à bâton : ط."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e02",
+   "unitIds": [
+    "ar.v.zah",
+    "ar.g06.ta_za_ayn_ghayn"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le nom de la lettre.",
+   "prompt": "Quelle lettre vois-tu ici : ـظـ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tâ' (T, t lourd)",
+    "Zâ' (Z, dh lourd)",
+    "Dâd (D)",
+    "dhâl (dh)"
+   ],
+   "answer": "Zâ' (Z, dh lourd)",
+   "acceptedAnswers": [
+    "Zâ' (Z, dh lourd)"
+   ],
+   "hint": "Regarde bien : bâton ou pas ? point ou pas ?",
+   "explanation": "Une boucle à bâton avec un point au-dessus : c'est ظ, sous sa forme du milieu (ـظـ). Sans le point, ce serait ط.",
+   "tip": "Boucle + bâton + un point dessus = ظ.",
+   "extraExample": {
+    "text": "نَظِيف",
+    "translation": "propre (ظ au milieu)",
+    "transliteration": "naZîf"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Tâ' (T, t lourd)",
+     "category": "spelling",
+     "feedback": "ط a la même forme, mais aucun point. Ici il y en a un, au-dessus : c'est ظ."
+    },
+    {
+     "equals": "Dâd (D)",
+     "category": "spelling",
+     "feedback": "ض est une boucle sans bâton. Ici, un bâton monte au-dessus : c'est ظ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e03",
+   "unitIds": [
+    "ar.v.ayn",
+    "ar.g06.ta_za_ayn_ghayn"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le nom de la lettre.",
+   "prompt": "Quelle lettre vois-tu ici : عـ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "3ayn (3)",
+    "ghayn (gh)",
+    "7â' (7)",
+    "djîm (dj)"
+   ],
+   "answer": "3ayn (3)",
+   "acceptedAnswers": [
+    "3ayn (3)"
+   ],
+   "hint": "Combien de points ?",
+   "explanation": "Une petite tête triangulaire, sans aucun point : c'est ع, sous sa forme du début (عـ).",
+   "tip": "Tête d'œil sans point = 3.",
+   "extraExample": {
+    "text": "عَسَل",
+    "translation": "le miel (ع au début)",
+    "transliteration": "3asal"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ghayn (gh)",
+     "category": "spelling",
+     "feedback": "غ a un point au-dessus de sa tête. Ici il n'y en a aucun : c'est ع."
+    },
+    {
+     "equals": "7â' (7)",
+     "category": "spelling",
+     "feedback": "ح est un crochet sans point mais sa forme est différente : une tête de crochet, pas une tête triangulaire."
+    },
+    {
+     "equals": "djîm (dj)",
+     "category": "spelling",
+     "feedback": "ج porte un point dans sa courbe. Ici il n'y a aucun point : c'est ع."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e04",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.tah",
+    "ar.v.zah",
+    "ar.v.ayn",
+    "ar.v.ghayn"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque description à sa lettre.",
+   "prompt": "Bâton ou œil, avec ou sans point",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "une boucle à bâton, aucun point",
+     "right": "ط"
+    },
+    {
+     "left": "une boucle à bâton, un point dessus",
+     "right": "ظ"
+    },
+    {
+     "left": "une tête d'œil, aucun point",
+     "right": "ع"
+    },
+    {
+     "left": "une tête d'œil, un point dessus",
+     "right": "غ"
+    }
+   ],
+   "answer": "une boucle à bâton, aucun point = ط ; une boucle à bâton, un point dessus = ظ ; une tête d'œil, aucun point = ع ; une tête d'œil, un point dessus = غ",
+   "acceptedAnswers": [],
+   "explanation": "Deux formes (boucle à bâton, tête d'œil), deux versions chacune : ط et ع sont « nues », ظ et غ portent un point au-dessus.",
+   "tip": "D'abord la forme, ensuite le point."
+  },
+  {
+   "id": "ar.l06.e05",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.tah",
+    "ar.v.sad"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qui distingue ط de ص ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un bâton vertical qui monte au-dessus de la boucle",
+    "Trois points au-dessus",
+    "L'absence de boucle",
+    "Une queue plus longue"
+   ],
+   "answer": "Un bâton vertical qui monte au-dessus de la boucle",
+   "acceptedAnswers": [
+    "Un bâton vertical qui monte au-dessus de la boucle"
+   ],
+   "explanation": "ط et ص ont tous deux une boucle et aucun point. Le bâton vertical est le seul signe qui permet de dire que c'est un ط.",
+   "tip": "Bâton = ط ou ظ. Pas de bâton = ص ou ض.",
+   "extraExample": {
+    "text": "طَعَام",
+    "translation": "la nourriture (ط avec bâton)",
+    "transliteration": "Ta3âm"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Trois points au-dessus",
+     "category": "grammar",
+     "feedback": "ط n'a aucun point. Trois points, c'est la signature de ش ou ث."
+    },
+    {
+     "equals": "L'absence de boucle",
+     "category": "grammar",
+     "feedback": "ط a bien une boucle fermée, comme ص."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e06",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.ghayn",
+    "ar.v.ayn"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Quelle lettre ressemble au r grasseyé français de « rue » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ع",
+    "غ",
+    "ر",
+    "خ"
+   ],
+   "answer": "غ",
+   "acceptedAnswers": [
+    "غ"
+   ],
+   "explanation": "غ (gh) se prononce au fond de la gorge, comme le r français de « rue ». ع (3), elle, n'a pas d'équivalent en français ; ر est un r roulé.",
+   "tip": "gh = le r français. 3 = un son de gorge serrée.",
+   "extraExample": {
+    "text": "غُرْفَة",
+    "translation": "la chambre (gh au début)",
+    "transliteration": "ghurfa"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ر",
+     "category": "spelling",
+     "feedback": "ر est le r roulé de l'arabe (comme en espagnol). Le r grasseyé français correspond plutôt à غ."
+    },
+    {
+     "equals": "ع",
+     "category": "spelling",
+     "feedback": "ع (3) est un son de gorge serrée sans équivalent en français ; c'est غ (gh) qui ressemble au r de « rue »."
+    },
+    {
+     "equals": "خ",
+     "category": "spelling",
+     "feedback": "خ (kh) est un souffle rauque, comme la jota espagnole, plus sec que gh."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e07",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.taam",
+    "ar.v.tah"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit طَعَام ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Ta3âm",
+    "Sa3âm",
+    "Ta7âm",
+    "Taghâm"
+   ],
+   "answer": "Ta3âm",
+   "acceptedAnswers": [
+    "Ta3âm"
+   ],
+   "hint": "Regarde le début, puis le point de la deuxième lettre.",
+   "explanation": "ط (T, boucle à bâton), ع (3, tête sans point), ا (â long) et م : Ta3âm, « la nourriture ».",
+   "tip": "Bâton au début : T lourd.",
+   "extraExample": {
+    "text": "أَطْعِمَة",
+    "translation": "des aliments",
+    "transliteration": "aT3ima"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sa3âm",
+     "category": "spelling",
+     "feedback": "ص n'a pas de bâton. Ici un bâton monte au-dessus de la boucle : c'est ط (T)."
+    },
+    {
+     "equals": "Ta7âm",
+     "category": "spelling",
+     "feedback": "ح est un crochet, pas une tête triangulaire : la deuxième lettre est ع (3)."
+    },
+    {
+     "equals": "Taghâm",
+     "category": "spelling",
+     "feedback": "غ aurait un point au-dessus. Ici la tête n'en a pas : c'est ع (3)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e08",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.asal",
+    "ar.v.ayn"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit عَسَل ?",
+   "promptLanguage": "fr",
+   "options": [
+    "3asal",
+    "ghasal",
+    "7asal",
+    "3azal"
+   ],
+   "answer": "3asal",
+   "acceptedAnswers": [
+    "3asal"
+   ],
+   "explanation": "ع (3, sans point), س (s, une scie sans point), ل (l) : 3asal, « le miel ».",
+   "tip": "Tête sans point en début de mot : 3.",
+   "extraExample": {
+    "text": "عَسَلِي",
+    "translation": "mon miel",
+    "transliteration": "3asalî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ghasal",
+     "category": "spelling",
+     "feedback": "غ aurait un point au-dessus de la tête. Ici il n'y en a pas : c'est ع."
+    },
+    {
+     "equals": "7asal",
+     "category": "spelling",
+     "feedback": "ح est un crochet. La première lettre est une tête triangulaire : ع."
+    },
+    {
+     "equals": "3azal",
+     "category": "spelling",
+     "feedback": "La deuxième lettre est une scie à trois dents (س), pas une virgule avec un point (ز)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e09",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.nazif",
+    "ar.v.zah"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit نَظِيف ?",
+   "promptLanguage": "fr",
+   "options": [
+    "naZîf",
+    "naTîf",
+    "naDîf",
+    "nadhîf"
+   ],
+   "answer": "naZîf",
+   "acceptedAnswers": [
+    "naZîf"
+   ],
+   "hint": "Y a-t-il un point au-dessus du bâton ?",
+   "explanation": "ن (n), puis une boucle à bâton avec un point au-dessus : ظ (Z). Puis ي et ف : naZîf, « propre ».",
+   "tip": "Bâton + point dessus = Z.",
+   "extraExample": {
+    "text": "قَمِيص نَظِيف",
+    "translation": "une chemise propre",
+    "transliteration": "qamîS naZîf"
+   },
+   "errorPatterns": [
+    {
+     "equals": "naTîf",
+     "category": "spelling",
+     "feedback": "ط n'a aucun point. Ici il y en a un, au-dessus du bâton : c'est ظ (Z)."
+    },
+    {
+     "equals": "naDîf",
+     "category": "spelling",
+     "feedback": "ض n'a pas de bâton. Ici un bâton monte au-dessus de la boucle : c'est ظ."
+    },
+    {
+     "equals": "nadhîf",
+     "category": "spelling",
+     "feedback": "ذ est un petit angle qui ne s'attache pas à la suite. Ici c'est une boucle à bâton reliée au ي : ظ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e10",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.asal",
+    "ar.v.ayn"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le nom de la forme : initiale, médiane, finale ou isolée.",
+   "prompt": "Dans طَعَام (la nourriture), le ع est en forme ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "initiale",
+    "médiane",
+    "finale",
+    "isolée"
+   ],
+   "answer": "médiane",
+   "acceptedAnswers": [
+    "médiane",
+    "médian",
+    "du milieu",
+    "milieu",
+    "forme médiane"
+   ],
+   "explanation": "Le ع est relié à ط qui le précède et à ا qui le suit : relié des deux côtés, il est en forme du milieu (ـعـ).",
+   "tip": "Relié des deux côtés = forme du milieu.",
+   "extraExample": {
+    "text": "مَعَ",
+    "translation": "avec : ع final attaché",
+    "transliteration": "ma3a"
+   },
+   "errorPatterns": [
+    {
+     "equals": "finale",
+     "category": "grammar",
+     "feedback": "Le ع n'est pas la dernière lettre : il est suivi de ا puis de م."
+    },
+    {
+     "equals": "initiale",
+     "category": "grammar",
+     "feedback": "La forme initiale est celle de la première lettre du mot. Ici, ط vient avant ع."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e11",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.ghurfa",
+    "ar.v.ghayn"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Choisis la lettre qui manque.",
+   "prompt": "La chambre (ghurfa) : ___ُرْفَة",
+   "promptLanguage": "fr",
+   "options": [
+    "غـ",
+    "عـ",
+    "خـ"
+   ],
+   "answer": "غـ",
+   "acceptedAnswers": [
+    "غـ",
+    "غ"
+   ],
+   "explanation": "Ghurfa commence par gh : غ, une tête d'œil avec un point au-dessus. عـ (sans point) donnerait « 3urfa ».",
+   "tip": "gh = tête d'œil + un point dessus.",
+   "extraExample": {
+    "text": "غُرَف",
+    "translation": "des chambres",
+    "transliteration": "ghuraf"
+   },
+   "errorPatterns": [
+    {
+     "equals": "عـ",
+     "category": "spelling",
+     "feedback": "عـ n'a pas de point : on lirait « 3urfa ». Pour gh, il faut le point au-dessus."
+    },
+    {
+     "equals": "خـ",
+     "category": "spelling",
+     "feedback": "خـ est un crochet. Ici c'est une tête d'œil : غـ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e12",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.asal",
+    "ar.v.ayn"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Choisis la lettre qui manque.",
+   "prompt": "Le miel (3asal) : ___َسَل",
+   "promptLanguage": "fr",
+   "options": [
+    "عـ",
+    "غـ",
+    "حـ"
+   ],
+   "answer": "عـ",
+   "acceptedAnswers": [
+    "عـ",
+    "ع"
+   ],
+   "explanation": "3asal commence par 3 : ع, une tête d'œil sans point. غـ (avec un point) donnerait « ghasal ».",
+   "tip": "3 = tête d'œil sans point.",
+   "extraExample": {
+    "text": "عَسَلِي",
+    "translation": "mon miel",
+    "transliteration": "3asalî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "غـ",
+     "category": "spelling",
+     "feedback": "غـ a un point au-dessus : on lirait « ghasal ». Pour 3, il n'y en a aucun."
+    },
+    {
+     "equals": "حـ",
+     "category": "spelling",
+     "feedback": "حـ est un crochet, pas une tête d'œil : on lirait « 7asal »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e13",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.asir",
+    "ar.v.sad"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Choisis la lettre qui manque.",
+   "prompt": "Le jus (3aSîr) : عَ___ِير",
+   "promptLanguage": "fr",
+   "options": [
+    "ـصـ",
+    "ـضـ",
+    "ـطـ"
+   ],
+   "answer": "ـصـ",
+   "acceptedAnswers": [
+    "ـصـ",
+    "ص"
+   ],
+   "explanation": "3aSîr a un S lourd au milieu : ص, une boucle sans point ni bâton, sous sa forme du milieu (ـصـ).",
+   "tip": "Boucle seule, sans point : S.",
+   "extraExample": {
+    "text": "مِصْبَاح",
+    "translation": "la lampe",
+    "transliteration": "miSbâ7"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ـضـ",
+     "category": "spelling",
+     "feedback": "ـضـ a un point au-dessus : on lirait « 3aDîr ». Pour S, aucun point."
+    },
+    {
+     "equals": "ـطـ",
+     "category": "spelling",
+     "feedback": "ـطـ a un bâton : on lirait « 3aTîr ». Pour S, la boucle est seule."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e14",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.sahn",
+    "ar.v.sad"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots se lit Sa7n (l'assiette) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "صَحْن",
+    "ضَحْن",
+    "طَحْن",
+    "سَحْن"
+   ],
+   "answer": "صَحْن",
+   "acceptedAnswers": [
+    "صَحْن"
+   ],
+   "explanation": "Il faut une boucle sans point ni bâton : ص (S). ضَحْن a un point (D), طَحْن un bâton (T, « moudre »), سَحْن une scie (s).",
+   "tip": "Boucle nue = S. Point = D. Bâton = T. Scie = s.",
+   "extraExample": {
+    "text": "صُحُون",
+    "translation": "des assiettes",
+    "transliteration": "Su7ûn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ضَحْن",
+     "category": "spelling",
+     "feedback": "ض a un point au-dessus de sa boucle : on lirait « Da7n »."
+    },
+    {
+     "equals": "طَحْن",
+     "category": "spelling",
+     "feedback": "ط a un bâton vertical : on lirait « Ta7n » (c'est un autre mot : moudre)."
+    },
+    {
+     "equals": "سَحْن",
+     "category": "spelling",
+     "feedback": "س est une scie à trois dents, pas une boucle : on lirait « sa7n »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e15",
+   "unitIds": [
+    "ar.g04.non_connecting_letters",
+    "ar.v.tawila",
+    "ar.v.waw"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans طَاوِلَة (la table), combien de blocs de lettres attachées vois-tu ?",
+   "promptLanguage": "fr",
+   "options": [
+    "un seul bloc",
+    "deux blocs",
+    "trois blocs",
+    "quatre blocs"
+   ],
+   "answer": "trois blocs",
+   "acceptedAnswers": [
+    "trois blocs"
+   ],
+   "explanation": "ط s'attache à ا (bloc 1 : طا). Mais ا coupe, puis و coupe aussi : il reste seul (bloc 2). Enfin ل s'attache à ة (bloc 3 : لة).",
+   "tip": "Les coupeuses ا et و ferment chacune un bloc.",
+   "extraExample": {
+    "text": "دَجَاج",
+    "translation": "trois blocs aussi : د | جا | ج",
+    "transliteration": "dadjâdj"
+   },
+   "errorPatterns": [
+    {
+     "equals": "deux blocs",
+     "category": "grammar",
+     "feedback": "و est une coupeuse : il reste seul entre les blocs طا et لة, ce qui fait trois blocs."
+    },
+    {
+     "equals": "quatre blocs",
+     "category": "grammar",
+     "feedback": "Une seule lettre (و) est isolée au milieu ; ط et ا sont attachés, ainsi que ل et ة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e16",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.taam",
+    "ar.v.tawila",
+    "ar.v.asal",
+    "ar.v.asir"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "À table",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "طَعَام",
+     "right": "la nourriture"
+    },
+    {
+     "left": "طَاوِلَة",
+     "right": "la table"
+    },
+    {
+     "left": "عَسَل",
+     "right": "le miel"
+    },
+    {
+     "left": "عَصِير",
+     "right": "le jus"
+    }
+   ],
+   "answer": "طَعَام = la nourriture ; طَاوِلَة = la table ; عَسَل = le miel ; عَصِير = le jus",
+   "acceptedAnswers": [],
+   "explanation": "طَعَام (Ta3âm) = la nourriture, طَاوِلَة (Tâwila) = la table, عَسَل (3asal) = le miel, عَصِير (3aSîr) = le jus.",
+   "tip": "Bâton au début : ط ; tête d'œil au début : ع."
+  },
+  {
+   "id": "ar.l06.e17",
+   "unitIds": [
+    "ar.v.sarir",
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.dayf",
+    "ar.v.qamis",
+    "ar.v.dadjadj"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Révision des leçons 4 et 5",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "سَرِير",
+     "right": "le lit"
+    },
+    {
+     "left": "ضَيْف",
+     "right": "l'invité"
+    },
+    {
+     "left": "قَمِيص",
+     "right": "la chemise"
+    },
+    {
+     "left": "دَجَاج",
+     "right": "le poulet"
+    }
+   ],
+   "answer": "سَرِير = le lit ; ضَيْف = l'invité ; قَمِيص = la chemise ; دَجَاج = le poulet",
+   "acceptedAnswers": [],
+   "explanation": "سَرِير (sarîr) = le lit, ضَيْف (Dayf) = l'invité, قَمِيص (qamîS) = la chemise, دَجَاج (dadjâdj) = le poulet.",
+   "tip": "Scie, boucle, angle : la silhouette d'abord."
+  },
+  {
+   "id": "ar.l06.e18",
+   "unitIds": [
+    "ar.v.asal",
+    "ar.g06.ta_za_ayn_ghayn"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Touche les lettres dans l'ordre de lecture : la première lettre (à droite dans le mot) d'abord.",
+   "prompt": "Écris « 3asal » (le miel) avec ces lettres.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ل",
+    "ع",
+    "س"
+   ],
+   "answer": "ع س ل",
+   "acceptedAnswers": [
+    "ع س ل"
+   ],
+   "explanation": "3asal : ع (3), س (s), ل (l). Écrit : عَسَل.",
+   "tip": "Commence par la tête d'œil sans point.",
+   "extraExample": {
+    "text": "عَسَلِي",
+    "translation": "mon miel",
+    "transliteration": "3asalî"
+   }
+  },
+  {
+   "id": "ar.l06.e19",
+   "unitIds": [
+    "ar.v.taam",
+    "ar.g06.ta_za_ayn_ghayn"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Touche les lettres dans l'ordre de lecture : la première lettre (à droite dans le mot) d'abord.",
+   "prompt": "Écris « Ta3âm » (la nourriture) avec ces lettres.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "م",
+    "ا",
+    "ط",
+    "ع"
+   ],
+   "answer": "ط ع ا م",
+   "acceptedAnswers": [
+    "ط ع ا م"
+   ],
+   "explanation": "Ta3âm : ط (T), ع (3), ا (â long), م (m). Écrit : طَعَام, avec un م isolé après ا.",
+   "tip": "Boucle à bâton d'abord, puis tête d'œil.",
+   "extraExample": {
+    "text": "طَعَام لَذِيذ",
+    "translation": "un repas délicieux",
+    "transliteration": "Ta3âm ladhîdh"
+   }
+  },
+  {
+   "id": "ar.l06.e20",
+   "unitIds": [
+    "ar.v.ghurfa",
+    "ar.g06.ta_za_ayn_ghayn"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "غُرْفَة",
+   "promptLanguage": "ar",
+   "answer": "la chambre",
+   "acceptedAnswers": [
+    "la chambre",
+    "chambre",
+    "une chambre",
+    "la pièce",
+    "pièce",
+    "une pièce"
+   ],
+   "explanation": "غُرْفَة se lit ghurfa et veut dire « la chambre », ou plus largement une pièce de la maison.",
+   "tip": "Ghurfa : tête d'œil avec un point au début.",
+   "extraExample": {
+    "text": "غُرْفَتِي",
+    "translation": "ma chambre",
+    "transliteration": "ghurfatî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "la maison",
+     "category": "vocabulary",
+     "feedback": "La maison se dit بَيْت (bayt). غُرْفَة (ghurfa), c'est la chambre, une pièce à l'intérieur."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e21",
+   "unitIds": [
+    "ar.v.nazif",
+    "ar.g06.ta_za_ayn_ghayn"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "نَظِيف",
+   "promptLanguage": "ar",
+   "answer": "propre",
+   "acceptedAnswers": [
+    "propre",
+    "nette",
+    "net",
+    "propres"
+   ],
+   "explanation": "نَظِيف se lit naZîf et veut dire « propre ». On l'emploie pour un lieu, un vêtement, une personne.",
+   "tip": "NaZîf : ن puis ظ, la boucle à bâton avec un point.",
+   "extraExample": {
+    "text": "بَيْت نَظِيف",
+    "translation": "une maison propre",
+    "transliteration": "bayt naZîf"
+   },
+   "errorPatterns": [
+    {
+     "equals": "sale",
+     "category": "vocabulary",
+     "feedback": "Le contraire ! « Sale » se dit وَسِخ (wasikh). نَظِيف veut dire « propre »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e22",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.tawila",
+    "ar.v.tah"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines (T pour ط, â pour un a long).",
+   "prompt": "Comment se lit طَاوِلَة (la table) ?",
+   "promptLanguage": "fr",
+   "answer": "Tâwila",
+   "acceptedAnswers": [
+    "Tâwila",
+    "Tawila",
+    "Taawila",
+    "Tâwla"
+   ],
+   "explanation": "ط (T), ا (â long), و (w), ل (l), ة (a) : Tâwila, « la table ». ط a un bâton et aucun point.",
+   "tip": "Bâton sans point : T lourd.",
+   "extraExample": {
+    "text": "طَاوِلَات",
+    "translation": "des tables",
+    "transliteration": "Tâwilât"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dâwila",
+     "category": "spelling",
+     "feedback": "ض n'a pas de bâton : ici la boucle a un bâton vertical, c'est ط (T)."
+    },
+    {
+     "equals": "Zâwila",
+     "category": "spelling",
+     "feedback": "ظ aurait un point au-dessus du bâton. Ici il n'y en a pas : c'est ط."
+    }
+   ]
+  },
+  {
+   "id": "ar.l06.e23",
+   "unitIds": [
+    "ar.g06.ta_za_ayn_ghayn",
+    "ar.v.asir",
+    "ar.v.ayn"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines (3 pour ع, S pour ص).",
+   "prompt": "Comment se lit عَصِير (le jus) ?",
+   "promptLanguage": "fr",
+   "answer": "3aSîr",
+   "acceptedAnswers": [
+    "3aSîr",
+    "3asir",
+    "3asiir"
+   ],
+   "explanation": "ع (3), ص (S), ي (î long), ر (r) : 3aSîr, « le jus ». La tête d'œil n'a pas de point, la boucle non plus.",
+   "tip": "Tête d'œil sans point : 3. Boucle nue : S.",
+   "extraExample": {
+    "text": "عَصِيرُ جَزَر",
+    "translation": "du jus de carotte",
+    "transliteration": "3aSîru djazar"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ghaSîr",
+     "category": "spelling",
+     "feedback": "غ aurait un point au-dessus de sa tête. Ici il n'y en a pas : c'est ع (3)."
+    },
+    {
+     "equals": "3aDîr",
+     "category": "spelling",
+     "feedback": "ض aurait un point au-dessus de sa boucle. Ici il n'y en a pas : c'est ص (S)."
+    }
+   ]
+  }
+ ]
+}

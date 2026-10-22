@@ -52,6 +52,38 @@
    ],
    "category": "knowledge",
    "functionWords": []
+  },
+  {
+   "id": "cg.g14.france_geographie",
+   "title": "La France : régions, fleuves, reliefs et outre-mer",
+   "difficulty": 2,
+   "prerequisites": [
+    "cg.g09.continents_oceans",
+    "cg.g10.europe_capitales"
+   ],
+   "category": "knowledge",
+   "functionWords": []
+  },
+  {
+   "id": "cg.g15.reliefs_fleuves_climats",
+   "title": "Reliefs, fleuves et climats du monde : les records",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g09.continents_oceans"
+   ],
+   "category": "knowledge",
+   "functionWords": []
+  },
+  {
+   "id": "cg.g16.population_villes_langues",
+   "title": "Population, grandes villes et langues du monde",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g09.continents_oceans",
+    "cg.g12.asie_oceanie"
+   ],
+   "category": "knowledge",
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -405,6 +437,234 @@
      "word": "Groenland",
      "slug": "groenland",
      "translation": "plus grande île du monde, territoire autonome du Danemark",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "cg.l14",
+   "sequence": 14,
+   "title": "La France : régions, fleuves, reliefs et outre-mer",
+   "description": "L'Hexagone, ses fleuves (Loire, Rhône, Seine), ses reliefs (Mont Blanc, Massif central, Pyrénées), ses régions et l'outre-mer.",
+   "difficulty": 2,
+   "grammarUnitId": "cg.g14.france_geographie",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g10.europe_capitales",
+    "cg.g13.ameriques",
+    "cg.g11.afrique_moyen_orient"
+   ],
+   "vocabulary": [
+    {
+     "word": "Hexagone",
+     "slug": "hexagone",
+     "translation": "surnom de la France métropolitaine, à cause de sa forme à six côtés",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Loire",
+     "slug": "loire",
+     "translation": "plus long fleuve de France (1 006 km)",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Rhône",
+     "slug": "rhone",
+     "translation": "fleuve né en Suisse qui traverse Lyon et se jette dans la Méditerranée",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Mont Blanc",
+     "slug": "mont_blanc",
+     "translation": "plus haut sommet des Alpes et de l'Union européenne (environ 4 800 m)",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Massif central",
+     "slug": "massif_central",
+     "translation": "vaste région de moyennes montagnes au centre de la France",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Pyrénées",
+     "slug": "pyrenees",
+     "translation": "chaîne de montagnes qui forme la frontière entre la France et l'Espagne",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Corse",
+     "slug": "corse",
+     "translation": "île de Beauté, plus grande île de la France métropolitaine",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "outre-mer",
+     "slug": "outre_mer",
+     "translation": "territoires français situés hors d'Europe, répartis dans le monde",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Guyane",
+     "slug": "guyane",
+     "translation": "département et région d'outre-mer français, en Amérique du Sud",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "La Réunion",
+     "slug": "la_reunion",
+     "translation": "île volcanique française de l'océan Indien, département depuis 1946",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "cg.l15",
+   "sequence": 15,
+   "title": "Reliefs, fleuves et climats du monde : les records",
+   "description": "Le plus haut, le plus profond, le plus bas, le plus sec : les records de la Terre, puis les grands climats et les repères de latitude.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g15.reliefs_fleuves_climats",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.g12.asie_oceanie",
+    "cg.g13.ameriques"
+   ],
+   "vocabulary": [
+    {
+     "word": "Baïkal",
+     "slug": "baikal",
+     "translation": "lac de Sibérie, le plus profond du monde (1 642 m)",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "mer Caspienne",
+     "slug": "mer_caspienne",
+     "translation": "plus vaste lac du monde, malgré son nom de « mer », entre l'Europe et l'Asie",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "fosse des Mariannes",
+     "slug": "fosse_des_mariannes",
+     "translation": "point le plus profond des océans (près de 11 000 m), dans le Pacifique",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "mer Morte",
+     "slug": "mer_morte",
+     "translation": "lac très salé du Proche-Orient, point le plus bas des terres émergées",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "désert d'Atacama",
+     "slug": "atacama",
+     "translation": "désert du Chili, le plus aride des déserts non polaires",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Alpes",
+     "slug": "alpes",
+     "translation": "grande chaîne de montagnes d'Europe, du Mont Blanc à la Slovénie",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "climat",
+     "slug": "climat",
+     "translation": "conditions moyennes du temps, mesurées sur de nombreuses années",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "mousson",
+     "slug": "mousson",
+     "translation": "vent saisonnier qui apporte de fortes pluies d'été en Asie du Sud",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "tropiques",
+     "slug": "tropiques",
+     "translation": "lignes imaginaires à environ 23,5° de latitude nord et sud",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "latitude",
+     "slug": "latitude",
+     "translation": "distance angulaire à l'équateur, en degrés vers le nord ou le sud",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "cg.l16",
+   "sequence": 16,
+   "title": "Population, grandes villes et langues du monde",
+   "description": "Qui peuple la Terre, où vit-on en ville, combien de langues parle-t-on : ordres de grandeur sur la population, les mégapoles et les langues.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g16.population_villes_langues",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g09.continents_oceans",
+    "cg.g11.afrique_moyen_orient",
+    "cg.g14.france_geographie"
+   ],
+   "vocabulary": [
+    {
+     "word": "mégapole",
+     "slug": "megapole",
+     "translation": "agglomération de plus de 10 millions d'habitants",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "densité de population",
+     "slug": "densite_de_population",
+     "translation": "nombre moyen d'habitants par kilomètre carré",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "urbanisation",
+     "slug": "urbanisation",
+     "translation": "part croissante de la population qui vit en ville",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Inde",
+     "slug": "inde",
+     "translation": "pays le plus peuplé du monde depuis 2023, environ 1,4 milliard d'habitants",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Tokyo",
+     "slug": "tokyo",
+     "translation": "capitale du Japon, l'une des plus grandes agglomérations du monde",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "mandarin",
+     "slug": "mandarin",
+     "translation": "langue chinoise la plus parlée, première langue maternelle du monde",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "langue maternelle",
+     "slug": "langue_maternelle",
+     "translation": "première langue apprise dans l'enfance",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Francophonie",
+     "slug": "francophonie",
+     "translation": "ensemble des pays et des personnes qui ont le français en partage",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Mexique",
+     "slug": "mexique",
+     "translation": "pays qui compte le plus d'hispanophones, loin devant l'Espagne",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Mongolie",
+     "slug": "mongolie",
+     "translation": "pays d'Asie à la plus faible densité de population du monde",
      "partOfSpeech": "place"
     }
    ]

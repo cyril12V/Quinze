@@ -1,0 +1,829 @@
+{
+ "lessonId": "cg.l05",
+ "exercises": [
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.napoleon_bonaparte",
+    "cg.v.napoleon_iii",
+    "cg.v.jules_ferry",
+    "cg.v.abolition_de_l_esclavage",
+    "cg.v.machine_a_vapeur"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui a fait quoi au XIXe siècle ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Napoléon Bonaparte",
+     "right": "sacré empereur en 1804"
+    },
+    {
+     "left": "Napoléon III",
+     "right": "empereur du Second Empire (1852-1870)"
+    },
+    {
+     "left": "Jules Ferry",
+     "right": "l'école gratuite, laïque et obligatoire"
+    },
+    {
+     "left": "Victor Schœlcher",
+     "right": "l'abolition de l'esclavage en 1848"
+    },
+    {
+     "left": "James Watt",
+     "right": "la machine à vapeur perfectionnée"
+    }
+   ],
+   "answer": "Napoléon Bonaparte = sacré empereur en 1804 ; Napoléon III = empereur du Second Empire (1852-1870) ; Jules Ferry = l'école gratuite, laïque et obligatoire ; Victor Schœlcher = l'abolition de l'esclavage en 1848 ; James Watt = la machine à vapeur perfectionnée",
+   "acceptedAnswers": [],
+   "explanation": "Cinq noms pour le XIXe siècle : Napoléon Ier et l'Empire, Napoléon III et le Second Empire, Jules Ferry et l'école, Schœlcher et l'abolition, Watt et la vapeur.",
+   "tip": "Napoléon Ier = 1804, Napoléon III = 1852 : deux empires, un oncle et son neveu.",
+   "extraExample": {
+    "text": "Napoléon III est le neveu de Napoléon Ier.",
+    "translation": "Napoléon II, le fils de Napoléon Ier, n'a jamais régné."
+   },
+   "id": "cg.l05.e01"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.austerlitz",
+    "cg.v.napoleon_bonaparte"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle victoire du 2 décembre 1805, surnommée la « bataille des trois empereurs », est le plus grand succès de Napoléon ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Austerlitz",
+    "Iéna",
+    "Wagram",
+    "Eylau"
+   ],
+   "answer": "Austerlitz",
+   "acceptedAnswers": [
+    "Austerlitz"
+   ],
+   "explanation": "À Austerlitz, en Moravie, Napoléon bat les armées russe et autrichienne, bien qu'il soit moins nombreux. Les trois empereurs sont Napoléon, le tsar de Russie et l'empereur d'Autriche. Iéna (1806) est une victoire sur les Prussiens.",
+   "tip": "Austerlitz = trois empereurs, un an après le sacre.",
+   "extraExample": {
+    "text": "Austerlitz a lieu un an jour pour jour après le sacre de Napoléon, le 2 décembre 1804.",
+    "translation": "Le 2 décembre est une date clé de sa légende."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Iéna",
+     "category": "word_confusion",
+     "feedback": "Iéna (1806) est une victoire contre la Prusse, un an plus tard."
+    },
+    {
+     "equals": "Wagram",
+     "category": "word_confusion",
+     "feedback": "Wagram (1809) est une victoire contre l'Autriche, quatre ans plus tard."
+    }
+   ],
+   "id": "cg.l05.e02"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.waterloo"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Où Napoléon est-il définitivement vaincu, le 18 juin 1815 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Waterloo",
+    "Austerlitz",
+    "Trafalgar",
+    "Leipzig"
+   ],
+   "answer": "Waterloo",
+   "acceptedAnswers": [
+    "Waterloo"
+   ],
+   "explanation": "À Waterloo, dans l'actuelle Belgique, il est battu par les armées britannique de Wellington et prussienne de Blücher. Trafalgar (1805) est une défaite navale contre Nelson, Leipzig (1813) une défaite contre la coalition des Européens.",
+   "tip": "Waterloo = la défaite finale ; Austerlitz = la victoire éclatante.",
+   "extraExample": {
+    "text": "« Avoir son Waterloo » signifie subir une défaite totale.",
+    "translation": "Le nom est devenu synonyme de désastre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Austerlitz",
+     "category": "word_confusion",
+     "feedback": "Austerlitz (1805) est au contraire sa plus belle victoire."
+    },
+    {
+     "equals": "Trafalgar",
+     "category": "word_confusion",
+     "feedback": "Trafalgar (1805) est une défaite navale contre l'amiral Nelson : Napoléon n'y était pas."
+    }
+   ],
+   "id": "cg.l05.e03"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.napoleon_bonaparte"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Après Waterloo, où les Britanniques exilent-ils Napoléon, jusqu'à sa mort en 1821 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "À Sainte-Hélène",
+    "À l'île d'Elbe",
+    "En Corse",
+    "À Malte"
+   ],
+   "answer": "À Sainte-Hélène",
+   "acceptedAnswers": [
+    "À Sainte-Hélène"
+   ],
+   "explanation": "Sainte-Hélène est une minuscule île de l'Atlantique Sud, à près de 2 000 km des côtes africaines : impossible de s'en évader. Napoléon y meurt le 5 mai 1821.",
+   "tip": "Elbe = premier exil (1814), Sainte-Hélène = dernier exil (1815).",
+   "extraExample": {
+    "text": "L'île d'Elbe est son premier exil, en 1814 : il s'en échappe en mars 1815 pour les Cent-Jours.",
+    "translation": "Il revient à Paris en vingt jours."
+   },
+   "errorPatterns": [
+    {
+     "equals": "À l'île d'Elbe",
+     "category": "word_confusion",
+     "feedback": "L'île d'Elbe est son premier exil, en 1814-1815, dont il s'est échappé."
+    },
+    {
+     "equals": "En Corse",
+     "category": "word_confusion",
+     "feedback": "La Corse est son île natale, mais les Britanniques ne lui permettent pas d'y retourner."
+    }
+   ],
+   "id": "cg.l05.e04"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.code_civil"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que garantit le Code civil de 1804 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'égalité devant la loi et la propriété",
+    "Le droit de vote pour tous",
+    "La liberté de la presse",
+    "L'égalité entre les hommes et les femmes"
+   ],
+   "answer": "L'égalité devant la loi et la propriété",
+   "acceptedAnswers": [
+    "L'égalité devant la loi et la propriété"
+   ],
+   "explanation": "Le Code civil conserve les acquis de la Révolution : égalité devant la loi, liberté individuelle, propriété. En revanche, il maintient la femme mariée sous l'autorité de son mari : l'égalité entre les sexes n'existe pas.",
+   "tip": "Code civil = égalité devant la loi, mais pas encore entre hommes et femmes.",
+   "extraExample": {
+    "text": "Jusqu'en 1965, une femme mariée a besoin de l'accord de son mari pour travailler.",
+    "translation": "Le Code civil a été réformé en ce sens seulement au XXe siècle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'égalité entre les hommes et les femmes",
+     "category": "word_confusion",
+     "feedback": "Le Code civil de 1804 maintient au contraire la femme mariée sous l'autorité de son mari."
+    },
+    {
+     "equals": "Le droit de vote pour tous",
+     "category": "word_confusion",
+     "feedback": "Le Code civil règle le droit privé (famille, propriété), pas le droit de vote."
+    }
+   ],
+   "id": "cg.l05.e05"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.revolution_industrielle"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel pays la révolution industrielle commence-t-elle, au XVIIIe siècle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "En Angleterre",
+    "En France",
+    "En Allemagne",
+    "Aux États-Unis"
+   ],
+   "answer": "En Angleterre",
+   "acceptedAnswers": [
+    "En Angleterre"
+   ],
+   "explanation": "Elle démarre en Grande-Bretagne vers 1750-1780, grâce au charbon, aux capitaux, au commerce colonial et à des inventions comme la machine à vapeur. Elle gagne ensuite la Belgique, la France et l'Allemagne.",
+   "tip": "Angleterre d'abord : charbon + machines + colonies.",
+   "extraExample": {
+    "text": "Manchester devient au XIXe siècle la capitale du textile de coton.",
+    "translation": "On l'appelle « Cottonopolis »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "En France",
+     "category": "word_confusion",
+     "feedback": "Elle n'arrive en France qu'au XIXe siècle, avec un net retard sur l'Angleterre."
+    }
+   ],
+   "id": "cg.l05.e06"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.machine_a_vapeur"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle invention, perfectionnée par James Watt à partir de 1769, devient le moteur de la révolution industrielle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La machine à vapeur",
+    "Le moteur à explosion",
+    "La dynamo électrique",
+    "Le métier à tisser"
+   ],
+   "answer": "La machine à vapeur",
+   "acceptedAnswers": [
+    "La machine à vapeur"
+   ],
+   "explanation": "La machine à vapeur transforme la chaleur en mouvement. Plus efficace grâce à Watt, elle fait tourner les machines des usines puis les locomotives et les bateaux. Le moteur à explosion n'arrive que dans la seconde moitié du XIXe siècle.",
+   "tip": "Vapeur = la force du XIXe siècle ; pétrole = celle du XXe.",
+   "extraExample": {
+    "text": "La première machine à vapeur utile, celle de Newcomen (1712), servait à pomper l'eau des mines.",
+    "translation": "Watt la rend bien plus économe en charbon."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le moteur à explosion",
+     "category": "word_confusion",
+     "feedback": "Le moteur à explosion apparaît plus tard, dans la seconde moitié du XIXe siècle."
+    },
+    {
+     "equals": "Le métier à tisser",
+     "category": "word_confusion",
+     "feedback": "Le métier à tisser mécanique existe, mais c'est la vapeur qui lui donne sa force."
+    }
+   ],
+   "id": "cg.l05.e07"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.abolition_de_l_esclavage"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle décision majeure la IIe République prend-elle le 27 avril 1848 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'abolition définitive de l'esclavage dans les colonies françaises",
+    "Le droit de vote des femmes",
+    "La séparation des Églises et de l'État",
+    "L'école obligatoire pour tous les enfants"
+   ],
+   "answer": "L'abolition définitive de l'esclavage dans les colonies françaises",
+   "acceptedAnswers": [
+    "L'abolition définitive de l'esclavage dans les colonies françaises"
+   ],
+   "explanation": "Sous l'impulsion de Victor Schœlcher, le gouvernement provisoire signe le décret d'abolition. L'esclavage avait été aboli en 1794, puis rétabli par Napoléon en 1802. Le droit de vote des femmes viendra en 1944, la séparation des Églises et de l'État en 1905, l'école obligatoire en 1882.",
+   "tip": "1794 aboli, 1802 rétabli, 1848 aboli pour de bon.",
+   "extraExample": {
+    "text": "Le 5 mars 1848, la IIe République instaure aussi le suffrage universel masculin.",
+    "translation": "Tous les hommes de plus de 21 ans votent désormais."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le droit de vote des femmes",
+     "category": "word_confusion",
+     "feedback": "Les Françaises ne votent qu'à partir de 1944-1945."
+    },
+    {
+     "equals": "La séparation des Églises et de l'État",
+     "category": "word_confusion",
+     "feedback": "Cette loi date de 1905, sous la IIIe République."
+    },
+    {
+     "equals": "L'école obligatoire pour tous les enfants",
+     "category": "word_confusion",
+     "feedback": "L'école devient obligatoire en 1882, avec Jules Ferry."
+    }
+   ],
+   "id": "cg.l05.e08"
+  },
+  {
+   "unitIds": [
+    "cg.v.premiere_republique",
+    "cg.g05.napoleon_xixe_siecle"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel régime, proclamé en 1792, disparaît quand Napoléon devient empereur en 1804 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Première République",
+    "L'Ancien Régime",
+    "La monarchie constitutionnelle",
+    "La Troisième République"
+   ],
+   "answer": "La Première République",
+   "acceptedAnswers": [
+    "La Première République"
+   ],
+   "explanation": "La Première République, née en 1792, se transforme en Empire : Napoléon est Premier consul en 1799, consul à vie en 1802, puis empereur en 1804.",
+   "tip": "Républiques françaises : 1792, 1848, 1870, 1946, 1958.",
+   "extraExample": {
+    "text": "Napoléon est d'abord Premier consul de la République, puis consul à vie en 1802.",
+    "translation": "Il prépare ainsi sa marche vers l'Empire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Ancien Régime",
+     "category": "word_confusion",
+     "feedback": "L'Ancien Régime s'achève dès 1789."
+    },
+    {
+     "equals": "La Troisième République",
+     "category": "word_confusion",
+     "feedback": "La Troisième République ne commence qu'en 1870."
+    }
+   ],
+   "id": "cg.l05.e09"
+  },
+  {
+   "unitIds": [
+    "cg.v.charlemagne",
+    "cg.g05.napoleon_xixe_siecle"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Pour son sacre en 1804, Napoléon veut se placer dans la lignée d'un empereur couronné à Rome en l'an 800. Lequel ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Charlemagne",
+    "Clovis",
+    "Auguste",
+    "Constantin"
+   ],
+   "answer": "Charlemagne",
+   "acceptedAnswers": [
+    "Charlemagne"
+   ],
+   "explanation": "Napoléon se veut l'héritier de Charlemagne, empereur d'Occident couronné à Noël 800 : des insignes attribués à Charlemagne (épée, sceptre, couronne) sont portés lors de la cérémonie.",
+   "tip": "Charlemagne 800, Napoléon 1804 : deux empereurs d'Occident, mille ans d'écart.",
+   "extraExample": {
+    "text": "Napoléon se couronne lui-même en 1804 à Notre-Dame, en présence du pape Pie VII.",
+    "translation": "Il montre ainsi qu'il ne tient son pouvoir de personne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Auguste",
+     "category": "word_confusion",
+     "feedback": "Auguste est le premier empereur romain, huit siècles avant Charlemagne."
+    },
+    {
+     "equals": "Clovis",
+     "category": "word_confusion",
+     "feedback": "Clovis est roi des Francs vers 500, pas empereur."
+    }
+   ],
+   "id": "cg.l05.e10"
+  },
+  {
+   "unitIds": [
+    "cg.v.jules_cesar",
+    "cg.g05.napoleon_xixe_siecle"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — En 1806, Napoléon supprime le calendrier républicain et revient au calendrier ___, réformé en 1582.",
+   "promptLanguage": "fr",
+   "options": [
+    "grégorien",
+    "julien",
+    "lunaire",
+    "maya"
+   ],
+   "answer": "grégorien",
+   "acceptedAnswers": [
+    "grégorien",
+    "le calendrier grégorien",
+    "gregorien"
+   ],
+   "explanation": "Le calendrier grégorien, établi en 1582 sous le pape Grégoire XIII, corrige le calendrier julien instauré par Jules César en 46 av. J.-C., qui prenait du retard sur le Soleil. C'est celui que nous utilisons encore.",
+   "tip": "Julien = Jules César (46 av. J.-C.) ; grégorien = pape Grégoire XIII (1582).",
+   "extraExample": {
+    "text": "Le calendrier républicain, lui, débute en 1792 et compte les années à partir de la République.",
+    "translation": "Il est resté en usage un peu plus de douze ans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "julien",
+     "category": "word_confusion",
+     "feedback": "Le calendrier julien, créé par Jules César, est l'ancêtre du grégorien, qui l'a corrigé en 1582."
+    }
+   ],
+   "id": "cg.l05.e11"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.napoleon_iii"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "En septembre 1870, Napoléon III est capturé à ___ par les Prussiens ; la IIIe République est proclamée deux jours plus tard.",
+   "promptLanguage": "fr",
+   "options": [
+    "Sedan",
+    "Metz",
+    "Waterloo",
+    "Verdun"
+   ],
+   "answer": "Sedan",
+   "acceptedAnswers": [
+    "Sedan"
+   ],
+   "explanation": "Le 2 septembre 1870, l'armée française est encerclée à Sedan et l'empereur se rend. Le 4 septembre, Paris proclame la République.",
+   "tip": "Sedan 1870 : la défaite qui fait tomber le Second Empire.",
+   "extraExample": {
+    "text": "Sedan est de nouveau le lieu d'une percée allemande en mai 1940.",
+    "translation": "Les Ardennes ont ouvert la route de la France en 1870 comme en 1940."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Waterloo",
+     "category": "word_confusion",
+     "feedback": "Waterloo est la défaite de Napoléon Ier, en 1815."
+    },
+    {
+     "equals": "Verdun",
+     "category": "word_confusion",
+     "feedback": "Verdun est la bataille de 1916, pendant la Première Guerre mondiale."
+    }
+   ],
+   "id": "cg.l05.e12"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.jules_ferry"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les lois de Jules Ferry (1881-1882) rendent l'école primaire gratuite, laïque et ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "obligatoire",
+    "facultative",
+    "réservée aux garçons"
+   ],
+   "answer": "obligatoire",
+   "acceptedAnswers": [
+    "obligatoire",
+    "obligatoire et laïque"
+   ],
+   "explanation": "En 1881 l'école devient gratuite ; en 1882 elle devient obligatoire de 6 à 13 ans, pour les filles comme pour les garçons, et laïque : l'enseignement religieux en sort.",
+   "tip": "Gratuite, laïque, obligatoire : les trois mots de Jules Ferry.",
+   "extraExample": {
+    "text": "Les instituteurs de la IIIe République sont surnommés « les hussards noirs de la République ».",
+    "translation": "Ils apprennent à lire et à écrire à tous les enfants."
+   },
+   "errorPatterns": [
+    {
+     "equals": "facultative",
+     "category": "word_confusion",
+     "feedback": "Elle devient justement obligatoire en 1882."
+    },
+    {
+     "equals": "réservée aux garçons",
+     "category": "word_confusion",
+     "feedback": "L'école de Jules Ferry concerne aussi les filles."
+    }
+   ],
+   "id": "cg.l05.e13"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.napoleon_iii"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Sous le Second Empire, le baron ___ transforme Paris en perçant de larges avenues.",
+   "promptLanguage": "fr",
+   "options": [
+    "Haussmann",
+    "Eiffel",
+    "Colbert",
+    "Vauban"
+   ],
+   "answer": "Haussmann",
+   "acceptedAnswers": [
+    "Haussmann",
+    "Georges Haussmann",
+    "Georges Eugène Haussmann",
+    "le baron Haussmann"
+   ],
+   "explanation": "Préfet de la Seine de 1853 à 1870, Georges Eugène Haussmann fait percer des boulevards, construire des égouts et aménager des parcs. Paris prend l'aspect qu'on lui connaît encore.",
+   "tip": "Haussmann = les grandes avenues parisiennes de Napoléon III.",
+   "extraExample": {
+    "text": "Gustave Eiffel construit sa tour pour l'Exposition universelle de 1889, sous la IIIe République.",
+    "translation": "La tour Eiffel date donc de vingt ans après Haussmann."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Eiffel",
+     "category": "word_confusion",
+     "feedback": "Eiffel construit sa tour en 1887-1889, sous la IIIe République."
+    },
+    {
+     "equals": "Colbert",
+     "category": "word_confusion",
+     "feedback": "Colbert est le ministre de Louis XIV, au XVIIe siècle."
+    }
+   ],
+   "id": "cg.l05.e14"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.code_civil",
+    "cg.v.waterloo",
+    "cg.v.abolition_de_l_esclavage",
+    "cg.v.napoleon_iii",
+    "cg.v.jules_ferry"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates du XIXe siècle",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1804",
+     "right": "Code civil et sacre de Napoléon"
+    },
+    {
+     "left": "1815",
+     "right": "défaite de Waterloo"
+    },
+    {
+     "left": "1848",
+     "right": "abolition de l'esclavage"
+    },
+    {
+     "left": "1870",
+     "right": "chute de Napoléon III à Sedan"
+    },
+    {
+     "left": "1882",
+     "right": "école laïque et obligatoire"
+    }
+   ],
+   "answer": "1804 = Code civil et sacre de Napoléon ; 1815 = défaite de Waterloo ; 1848 = abolition de l'esclavage ; 1870 = chute de Napoléon III à Sedan ; 1882 = école laïque et obligatoire",
+   "acceptedAnswers": [],
+   "explanation": "Cinq dates à retenir : 1804 (Code civil, sacre), 1815 (Waterloo), 1848 (abolition de l'esclavage), 1870 (Sedan et IIIe République) et 1882 (lois Ferry).",
+   "tip": "Quatre ruptures en 78 ans : 1804, 1815, 1848, 1870.",
+   "extraExample": {
+    "text": "Entre 1789 et 1870, la France connaît trois monarchies, deux empires et deux républiques.",
+    "translation": "Les régimes se succèdent à un rythme étonnant."
+   },
+   "id": "cg.l05.e15"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.waterloo",
+    "cg.v.napoleon_bonaparte"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la fin de l'Empire.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "1815",
+    "vaincu",
+    "Waterloo",
+    "à",
+    "Napoléon",
+    "en",
+    "est"
+   ],
+   "answer": "Napoléon est vaincu à Waterloo en 1815",
+   "acceptedAnswers": [
+    "Napoléon est vaincu à Waterloo en 1815",
+    "En 1815 Napoléon est vaincu à Waterloo"
+   ],
+   "explanation": "La défaite de Waterloo, le 18 juin 1815, met fin aux Cent-Jours.",
+   "tip": "Qui (Napoléon), quoi (vaincu), où (Waterloo), quand (1815).",
+   "extraExample": {
+    "text": "Après Waterloo, Louis XVIII, frère de Louis XVI, retrouve son trône.",
+    "translation": "C'est la seconde Restauration de la monarchie."
+   },
+   "id": "cg.l05.e16"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.revolution_industrielle"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'ère des machines.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "au",
+    "révolution",
+    "XVIIIe",
+    "siècle",
+    "commence",
+    "industrielle",
+    "en",
+    "La",
+    "Angleterre"
+   ],
+   "answer": "La révolution industrielle commence en Angleterre au XVIIIe siècle",
+   "acceptedAnswers": [
+    "La révolution industrielle commence en Angleterre au XVIIIe siècle",
+    "Au XVIIIe siècle la révolution industrielle commence en Angleterre"
+   ],
+   "explanation": "La révolution industrielle naît en Grande-Bretagne dans la seconde moitié du XVIIIe siècle.",
+   "tip": "Industrielle + Angleterre + vapeur : le trio du départ.",
+   "extraExample": {
+    "text": "En France, la révolution industrielle s'accélère sous le Second Empire.",
+    "translation": "Le réseau de chemins de fer s'étend alors rapidement."
+   },
+   "id": "cg.l05.e17"
+  },
+  {
+   "unitIds": [
+    "cg.v.traite_atlantique",
+    "cg.g05.napoleon_xixe_siecle"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Comment appelle-t-on le commerce de captifs africains déportés vers les Amériques entre le XVIe et le XIXe siècle ?",
+   "promptLanguage": "fr",
+   "answer": "La traite atlantique",
+   "acceptedAnswers": [
+    "La traite atlantique",
+    "traite atlantique",
+    "traite négrière",
+    "la traite négrière",
+    "traite des Noirs",
+    "la traite des Noirs",
+    "la traite",
+    "commerce triangulaire",
+    "le commerce triangulaire",
+    "traite des esclaves"
+   ],
+   "explanation": "La traite atlantique déporte plus de 10 millions d'Africains vers les Amériques. La France abolit l'esclavage en 1794, le rétablit en 1802 puis l'abolit définitivement en 1848.",
+   "tip": "1794 aboli, 1802 rétabli, 1848 aboli pour de bon.",
+   "extraExample": {
+    "text": "Le 10 mai est la journée nationale des mémoires de la traite, de l'esclavage et de leurs abolitions.",
+    "translation": "Cette journée a été instituée en France en 2006."
+   },
+   "hint": "Le circuit des navires entre l'Europe, l'Afrique et les Amériques s'appelle aussi commerce triangulaire.",
+   "errorPatterns": [
+    {
+     "equals": "esclavage",
+     "category": "word_confusion",
+     "feedback": "L'esclavage est le système ; la traite est le commerce qui déporte les captifs."
+    }
+   ],
+   "id": "cg.l05.e18"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.code_civil"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on l'ensemble des lois civiles promulgué en 1804 sous Napoléon, aussi appelé Code Napoléon ?",
+   "promptLanguage": "fr",
+   "answer": "Le Code civil",
+   "acceptedAnswers": [
+    "Le Code civil",
+    "Code civil",
+    "Code Napoléon",
+    "le Code Napoléon"
+   ],
+   "explanation": "Le Code civil de 1804 rassemble en un seul texte les lois sur les personnes, la famille, la propriété et les contrats. Il est encore en vigueur aujourd'hui, modifié à de nombreuses reprises.",
+   "tip": "Un code, un pays : le même droit pour tous les Français.",
+   "extraExample": {
+    "text": "Le Code civil a servi de modèle à de nombreux pays, de la Belgique à l'Amérique latine.",
+    "translation": "On l'appelle aussi « Code Napoléon »."
+   },
+   "hint": "Il porte aussi le nom de l'empereur.",
+   "id": "cg.l05.e19"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.troisieme_republique"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel régime politique est proclamé le 4 septembre 1870 et dure jusqu'en 1940 ?",
+   "promptLanguage": "fr",
+   "answer": "La Troisième République",
+   "acceptedAnswers": [
+    "La Troisième République",
+    "Troisième République",
+    "IIIe République",
+    "la IIIe République",
+    "3e République",
+    "la 3e République",
+    "troisieme republique"
+   ],
+   "explanation": "Après la chute de Napoléon III à Sedan, la Troisième République est proclamée. Elle installe durablement le régime républicain en France et s'achève en 1940, avec le vote des pleins pouvoirs à Pétain.",
+   "tip": "III de 1870 à 1940 : la République qui a duré 70 ans.",
+   "extraExample": {
+    "text": "Les lois constitutionnelles de 1875 fondent ce régime.",
+    "translation": "Elle voit naître l'école gratuite et la laïcité."
+   },
+   "errorPatterns": [
+    {
+     "equals": "deuxième république",
+     "category": "word_confusion",
+     "feedback": "La Deuxième République date de 1848-1852."
+    },
+    {
+     "equals": "cinquième république",
+     "category": "word_confusion",
+     "feedback": "La Cinquième République est celle d'aujourd'hui, fondée en 1958."
+    }
+   ],
+   "id": "cg.l05.e20"
+  },
+  {
+   "unitIds": [
+    "cg.g05.napoleon_xixe_siecle",
+    "cg.v.abolition_de_l_esclavage"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel homme politique abolitionniste fait signer le décret du 27 avril 1848 qui abolit définitivement l'esclavage ?",
+   "promptLanguage": "fr",
+   "answer": "Victor Schœlcher",
+   "acceptedAnswers": [
+    "Victor Schœlcher",
+    "Schœlcher",
+    "Victor Schoelcher",
+    "Schoelcher",
+    "Victor Schelcher"
+   ],
+   "explanation": "Victor Schœlcher (1804-1893) préside la commission qui prépare le décret d'abolition de 1848. Ses cendres reposent au Panthéon, avec celles de Félix Éboué, depuis 1949.",
+   "tip": "Schœlcher = l'abolition de 1848.",
+   "extraExample": {
+    "text": "Une commune de la Martinique porte le nom de Schœlcher.",
+    "translation": "Il est une figure majeure de la mémoire antillaise."
+   },
+   "hint": "Une commune de Martinique porte son nom.",
+   "errorPatterns": [
+    {
+     "equals": "napoléon",
+     "category": "word_confusion",
+     "feedback": "Napoléon avait au contraire rétabli l'esclavage en 1802."
+    },
+    {
+     "equals": "robespierre",
+     "category": "word_confusion",
+     "feedback": "Robespierre est mort en 1794 ; l'abolition de 1848 est l'œuvre de Schœlcher."
+    }
+   ],
+   "id": "cg.l05.e21"
+  }
+ ]
+}

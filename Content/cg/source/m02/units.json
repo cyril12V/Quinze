@@ -218,5 +218,137 @@
    ],
    "tip": "Ottawa (Canada), Washington D.C. (États-Unis), Brasilia (Brésil) : ni Toronto, ni New York, ni Rio ou São Paulo."
   }
+ },
+ {
+  "id": "cg.g14.france_geographie",
+  "rule": {
+   "summary": "La France métropolitaine, ou Hexagone, est bordée de mers et de montagnes ; elle compte 13 régions et 96 départements, auxquels s'ajoute un vaste outre-mer.",
+   "explanation": "L'Hexagone doit son nom à sa forme à six côtés : trois côtés maritimes (Manche et mer du Nord, Atlantique, Méditerranée) et trois frontières terrestres. Avec environ 550 000 km², c'est le plus vaste pays de l'Union européenne. Ses grands reliefs sont les Alpes (dont le Mont Blanc, environ 4 800 m), les Pyrénées (frontière avec l'Espagne), le Massif central, les Vosges et le Jura. Quatre fleuves dominent : la Loire (le plus long, 1 006 km), la Seine (Paris, Rouen, Le Havre), la Garonne (Toulouse, Bordeaux) et le Rhône (le plus puissant, de la Suisse à la Méditerranée). L'administration compte 13 régions métropolitaines depuis 2016 et 96 départements, plus l'outre-mer : Guadeloupe, Martinique, Guyane, La Réunion et Mayotte sont à la fois départements et régions (101 départements au total).",
+   "pattern": "Hexagone = 6 côtés · Loire = 1 006 km · Mont Blanc ≈ 4 800 m · 13 régions + 5 régions d'outre-mer · 101 départements",
+   "examples": [
+    {
+     "text": "La Loire (1 006 km) prend sa source dans le Massif central et se jette dans l'Atlantique près de Saint-Nazaire.",
+     "translation": "C'est le plus long fleuve de France ; elle traverse Orléans, Tours et Nantes."
+    },
+    {
+     "text": "Le Mont Blanc culmine à environ 4 800 m, près de Chamonix.",
+     "translation": "C'est le point culminant des Alpes et de l'Union européenne."
+    },
+    {
+     "text": "La Guyane est le seul département français situé en Amérique du Sud ; la base de Kourou y lance les fusées Ariane.",
+     "translation": "Sa position proche de l'équateur est idéale pour lancer des fusées."
+    },
+    {
+     "text": "La Corse, l'« île de Beauté », est la plus grande île de la France métropolitaine.",
+     "translation": "Napoléon Bonaparte est né à Ajaccio en 1769."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le plus long fleuve de France est la Seine.",
+     "right": "Le plus long fleuve de France est la Loire (1 006 km).",
+     "why": "La Seine est célèbre car elle traverse Paris, mais elle mesure environ 780 km, nettement moins que la Loire."
+    },
+    {
+     "wrong": "La France compte 22 régions.",
+     "right": "La France métropolitaine compte 13 régions depuis 2016 (22 auparavant), et 18 avec l'outre-mer.",
+     "why": "La réforme territoriale entrée en vigueur le 1er janvier 2016 a regroupé les anciennes régions de métropole."
+    },
+    {
+     "wrong": "Tous les territoires d'outre-mer sont des départements.",
+     "right": "Seuls cinq sont des départements et régions d'outre-mer ; les autres sont des collectivités (Polynésie française, Saint-Pierre-et-Miquelon…) ou ont un statut particulier (Nouvelle-Calédonie).",
+     "why": "Depuis la révision constitutionnelle de 2003, on ne parle plus officiellement de « DOM-TOM » mais d'outre-mer, avec plusieurs statuts."
+    }
+   ],
+   "tip": "Hexagone = 6 côtés ; Loire = 1 000 km ; Mont Blanc = 4 800 m ; outre-mer = 5 départements et des collectivités."
+  }
+ },
+ {
+  "id": "cg.g15.reliefs_fleuves_climats",
+  "rule": {
+   "summary": "La Terre a ses extrêmes (le plus haut, le plus profond, le plus bas, le plus sec) et des climats qui dépendent surtout de la latitude.",
+   "explanation": "Quelques records sont à connaître : l'Everest (environ 8 850 m) est le point le plus haut de la Terre, la fosse des Mariannes (près de 11 000 m de profondeur) le point le plus profond des océans, et la mer Morte (plus de 400 m sous le niveau de la mer) le point le plus bas des terres émergées. Le Baïkal, en Sibérie, est le lac le plus profond du monde ; la mer Caspienne, malgré son nom, est le plus vaste lac du monde. Le désert d'Atacama, au Chili, est le plus aride des déserts non polaires, alors que le plus grand désert, tous types confondus, est l'Antarctique. Le climat est la moyenne du temps sur de nombreuses années, à ne pas confondre avec la météo ; il dépend surtout de la latitude : chaud et humide près de l'équateur, tempéré entre les tropiques et les cercles polaires, très froid près des pôles. En Asie du Sud, la mousson apporte l'essentiel des pluies en été.",
+   "pattern": "Everest = le plus haut · fosse des Mariannes = le plus profond · mer Morte = le plus bas sur terre · Baïkal = lac le plus profond · Caspienne = lac le plus vaste · Atacama = désert le plus sec",
+   "examples": [
+    {
+     "text": "La fosse des Mariannes, dans le Pacifique, descend à près de 11 000 m.",
+     "translation": "Si l'on y plaçait l'Everest, son sommet resterait à plus de 2 000 m sous l'eau."
+    },
+    {
+     "text": "Le Baïkal, en Sibérie, est profond de 1 642 m et contient environ un cinquième de l'eau douce liquide de surface de la planète.",
+     "translation": "C'est le lac le plus profond et l'un des plus anciens du monde."
+    },
+    {
+     "text": "La mer Morte est à plus de 400 m sous le niveau de la mer.",
+     "translation": "C'est le point le plus bas des terres émergées ; son eau est si salée qu'on y flotte sans effort."
+    },
+    {
+     "text": "À la station Vostok, en Antarctique, on a relevé environ −89 °C en 1983.",
+     "translation": "C'est la température la plus basse jamais mesurée de façon officielle sur Terre."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La mer Caspienne est une mer.",
+     "right": "La Caspienne est le plus vaste lac du monde.",
+     "why": "Elle n'a aucune sortie vers l'océan : la plupart des géographes la classent donc comme un immense lac salé, même si son nom et sa taille évoquent une mer."
+    },
+    {
+     "wrong": "Un désert est toujours chaud et couvert de sable.",
+     "right": "Un désert est un lieu où il tombe très peu de pluie ; le plus grand du monde est l'Antarctique.",
+     "why": "Ce qui définit un désert, c'est le manque de précipitations (moins de 250 mm par an), pas la chaleur ni le sable : il existe des déserts de glace et de pierres."
+    },
+    {
+     "wrong": "Le climat, c'est le temps qu'il fait aujourd'hui.",
+     "right": "Le climat est la moyenne du temps sur de nombreuses années ; le temps du jour, c'est la météo.",
+     "why": "On calcule le climat sur au moins trente ans. Un hiver froid ne contredit donc pas le réchauffement : c'est de la météo, pas du climat."
+    }
+   ],
+   "tip": "Plus haut → Everest ; plus profond → Mariannes ; plus bas sur terre → mer Morte : trois extrêmes à retenir dans cet ordre."
+  }
+ },
+ {
+  "id": "cg.g16.population_villes_langues",
+  "rule": {
+   "summary": "L'humanité compte plus de 8 milliards d'habitants, de plus en plus citadins et concentrés en Asie, et parle environ 7 000 langues dont quelques-unes dominent.",
+   "explanation": "La Terre compte plus de 8 milliards d'habitants depuis novembre 2022, dont près de 60 % en Asie. L'Inde est devenue le pays le plus peuplé du monde en 2023, devant la Chine ; les États-Unis et l'Indonésie suivent. La densité de population (habitants par km²) varie énormément : très élevée à Monaco, très faible en Mongolie. Depuis 2007, plus de la moitié de l'humanité vit en ville : c'est l'urbanisation, qui fait grandir des mégapoles de plus de 10 millions d'habitants, comme Tokyo. On parle environ 7 000 langues : le mandarin est la plus parlée comme langue maternelle, l'anglais la plus parlée au total, en comptant ceux qui l'ont apprise comme langue seconde. Le français compte plus de 300 millions de locuteurs, en majorité en Afrique, et c'est au Mexique, et non en Espagne, que l'on compte le plus d'hispanophones.",
+   "pattern": "8 milliards d'humains · Inde ≈ Chine ≈ 1,4 milliard · mandarin = 1re langue maternelle · anglais = 1re langue au total · Mongolie = densité minimale, Monaco = densité maximale",
+   "examples": [
+    {
+     "text": "L'Inde a dépassé la Chine en 2023 pour devenir le pays le plus peuplé du monde.",
+     "translation": "Les deux pays comptent environ 1,4 milliard d'habitants chacun, soit plus d'un tiers de l'humanité à eux deux."
+    },
+    {
+     "text": "La Mongolie compte environ 2 habitants par km², la densité la plus faible des pays indépendants.",
+     "translation": "À l'inverse, Monaco dépasse les 15 000 habitants par km²."
+    },
+    {
+     "text": "Depuis 2007, plus de la moitié de l'humanité vit en ville.",
+     "translation": "Selon l'ONU, on devrait atteindre près de 70 % de citadins vers 2050."
+    },
+    {
+     "text": "Le mandarin est la langue maternelle du plus grand nombre de personnes, mais l'anglais est la langue la plus parlée au total.",
+     "translation": "Beaucoup de gens apprennent l'anglais comme langue seconde, ce qui fait grimper son total."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La Chine est le pays le plus peuplé du monde.",
+     "right": "L'Inde est le pays le plus peuplé depuis 2023.",
+     "why": "La population chinoise a cessé de croître et l'Inde l'a dépassée ; les deux comptent toutefois environ 1,4 milliard d'habitants."
+    },
+    {
+     "wrong": "L'anglais est la langue maternelle la plus parlée au monde.",
+     "right": "Le mandarin est la première langue maternelle ; l'anglais est la plus parlée si l'on compte aussi ceux qui l'ont apprise comme langue seconde.",
+     "why": "Le mandarin (plus de 900 millions de locuteurs natifs) devance l'espagnol et l'anglais comme langue maternelle, mais l'anglais a beaucoup plus de locuteurs non natifs."
+    },
+    {
+     "wrong": "Le pays qui compte le plus d'hispanophones est l'Espagne.",
+     "right": "C'est le Mexique.",
+     "why": "L'Espagne compte environ 48 millions d'habitants, le Mexique plus de 125 millions : la langue est née en Espagne, mais la plupart de ses locuteurs vivent en Amérique."
+    }
+   ],
+   "tip": "Pense en chiffres ronds : 8 milliards d'humains, 1,4 milliard en Inde et en Chine, 7 000 langues, plus de 300 millions de francophones."
+  }
  }
 ]

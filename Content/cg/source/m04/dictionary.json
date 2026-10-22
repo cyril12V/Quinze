@@ -934,5 +934,485 @@
    }
   ],
   "unitId": "cg.v.smic"
+ },
+ {
+  "id": "cg.d.pme",
+  "word": "la PME",
+  "translation": "petite ou moyenne entreprise : moins de 250 salariés",
+  "partOfSpeech": "concept",
+  "explanation": "En France, on distingue les micro-entreprises (moins de 10 salariés), les PME (moins de 250), les entreprises de taille intermédiaire (moins de 5 000) et les grandes entreprises. L'immense majorité des entreprises sont des PME, micro-entreprises comprises.",
+  "examples": [
+   {
+    "text": "Une usine de 120 salariés est une PME.",
+    "translation": "Une entreprise de plus de 5 000 salariés est une grande entreprise."
+   },
+   {
+    "text": "Les PME représentent une grande part des emplois du secteur privé en France.",
+    "translation": "Elles sont aussi un moteur de création d'emplois et d'innovation."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "start-up",
+    "note": "jeune entreprise innovante, à forte croissance potentielle, souvent financée par des investisseurs ; toutes les PME ne sont pas des start-up."
+   }
+  ],
+  "unitId": "cg.v.pme"
+ },
+ {
+  "id": "cg.d.chiffre_affaires",
+  "word": "le chiffre d'affaires",
+  "translation": "total des ventes d'une entreprise sur une période",
+  "partOfSpeech": "concept",
+  "explanation": "On l'abrège en CA. Il se calcule en général hors taxes. Il ne dit rien des coûts : c'est le point de départ du compte de résultat, pas son résultat.",
+  "examples": [
+   {
+    "text": "Une librairie qui vend 5 000 livres à 20 € a un chiffre d'affaires de 100 000 €.",
+    "translation": "Ce n'est pas son bénéfice : il faut retirer le coût des livres, le loyer, les salaires…"
+   },
+   {
+    "text": "Les grandes entreprises cotées publient leur chiffre d'affaires chaque trimestre.",
+    "translation": "Les actionnaires le surveillent pour juger la croissance de l'activité."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "bénéfice",
+    "note": "ce qui reste du chiffre d'affaires après avoir payé toutes les charges."
+   }
+  ],
+  "unitId": "cg.v.chiffre_affaires"
+ },
+ {
+  "id": "cg.d.marge",
+  "word": "la marge",
+  "translation": "différence entre le prix de vente et le coût d'un produit",
+  "partOfSpeech": "concept",
+  "explanation": "Un commerçant qui achète un article 60 € et le vend 100 € hors taxes dégage une marge de 40 €, soit 40 % du prix de vente. La marge doit ensuite couvrir le loyer, les salaires et les impôts.",
+  "examples": [
+   {
+    "text": "Une marge n'est pas un bénéfice : il reste à payer toutes les autres charges.",
+    "translation": "C'est ce qui reste après ces charges qui forme le bénéfice."
+   },
+   {
+    "text": "Les supermarchés ont souvent une faible marge par produit, mais vendent de très grandes quantités.",
+    "translation": "À l'inverse, le luxe vise des marges élevées sur un petit nombre de ventes."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "marge d'erreur",
+    "note": "autre sens du mot en statistiques ou en sondages : l'écart possible autour d'un résultat."
+   }
+  ],
+  "unitId": "cg.v.marge"
+ },
+ {
+  "id": "cg.d.benefice",
+  "word": "le bénéfice",
+  "translation": "ce qui reste au chiffre d'affaires après paiement de toutes les charges",
+  "partOfSpeech": "concept",
+  "explanation": "On parle aussi de profit ou de résultat. Si le résultat est négatif, c'est une perte. Une partie du bénéfice peut être versée aux actionnaires (dividendes), le reste est réinvesti.",
+  "examples": [
+   {
+    "text": "Une entreprise qui vend pour 1 000 000 € et supporte 950 000 € de charges dégage 50 000 € de bénéfice avant impôt.",
+    "translation": "Après l'impôt sur les sociétés, le bénéfice net est plus faible."
+   },
+   {
+    "text": "Une start-up peut perdre de l'argent pendant plusieurs années tant qu'elle investit pour grandir.",
+    "translation": "Elle finance alors ses pertes grâce à des investisseurs."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "chiffre d'affaires",
+    "note": "total des ventes, avant déduction des charges ; à ne pas confondre avec le bénéfice."
+   }
+  ],
+  "unitId": "cg.v.benefice"
+ },
+ {
+  "id": "cg.d.bilan",
+  "word": "le bilan",
+  "translation": "photographie du patrimoine d'une entreprise à une date : actif et passif",
+  "partOfSpeech": "concept",
+  "explanation": "D'un côté, l'actif : ce que l'entreprise possède (machines, stocks, argent en caisse). De l'autre, le passif : ce qu'elle doit (dettes) et l'argent apporté par les actionnaires. Les deux totaux sont toujours égaux.",
+  "examples": [
+   {
+    "text": "Le bilan est établi une fois par an, à la clôture des comptes, souvent le 31 décembre.",
+    "translation": "Il montre la situation à cette date, comme une photo."
+   },
+   {
+    "text": "Le compte de résultat résume les produits et les charges sur toute l'année.",
+    "translation": "Il se lit comme un film et aboutit au bénéfice ou à la perte."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "bilan (sens courant)",
+    "note": "« faire le bilan » signifie tirer des conclusions ; en comptabilité, c'est un document précis, avec actif et passif."
+   }
+  ],
+  "unitId": "cg.v.bilan"
+ },
+ {
+  "id": "cg.d.action",
+  "word": "l'action",
+  "translation": "titre qui représente une part du capital d'une société",
+  "partOfSpeech": "concept",
+  "explanation": "Celui qui la détient est un actionnaire, copropriétaire de l'entreprise. Il peut recevoir un dividende et vote en assemblée générale. Le cours de l'action varie selon l'offre et la demande.",
+  "examples": [
+   {
+    "text": "Si une société a 1 000 actions et que tu en possèdes 10, tu détiens 1 % de son capital.",
+    "translation": "Tu as, en principe, 1 % des droits de vote."
+   },
+   {
+    "text": "Le cours d'une action peut baisser : l'actionnaire peut perdre une partie ou la totalité de son investissement.",
+    "translation": "C'est le risque pris en échange d'une possibilité de gain."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "action (sens courant)",
+    "note": "à ne pas confondre avec une action en justice ou une action humanitaire : ici, c'est un titre financier."
+   }
+  ],
+  "unitId": "cg.v.action"
+ },
+ {
+  "id": "cg.d.dividende",
+  "word": "le dividende",
+  "translation": "part des bénéfices versée aux actionnaires",
+  "partOfSpeech": "concept",
+  "explanation": "Il est voté par l'assemblée générale des actionnaires et versé en général une fois par an, par action possédée. Une entreprise peut aussi garder ses bénéfices pour investir.",
+  "examples": [
+   {
+    "text": "Une société qui verse 2 € de dividende par action verse 200 € à quelqu'un qui détient 100 actions.",
+    "translation": "Le montant dépend du nombre d'actions détenues."
+   },
+   {
+    "text": "Les entreprises en difficulté réduisent ou suppriment souvent leur dividende.",
+    "translation": "En 2020, de nombreuses sociétés l'ont suspendu pendant la pandémie."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "intérêt",
+    "note": "revenu d'un prêt ou d'une obligation, fixé à l'avance ; le dividende, lui, dépend des bénéfices."
+   }
+  ],
+  "unitId": "cg.v.dividende"
+ },
+ {
+  "id": "cg.d.obligation",
+  "word": "l'obligation",
+  "translation": "titre de dette : celui qui l'achète prête de l'argent à une entreprise ou à un État",
+  "partOfSpeech": "concept",
+  "explanation": "L'émetteur s'engage à verser des intérêts, puis à rembourser le capital à une date fixée. Les États en émettent aussi pour financer leur dette, comme les OAT en France.",
+  "examples": [
+   {
+    "text": "Un État qui emprunte 10 milliards d'euros peut les lever en vendant des obligations à des investisseurs.",
+    "translation": "Le taux dépend de la confiance que les prêteurs lui accordent."
+   },
+   {
+    "text": "En cas de faillite, les détenteurs d'obligations sont remboursés avant les actionnaires.",
+    "translation": "Elles sont donc, en général, moins risquées que les actions."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "action",
+    "note": "part de propriété de l'entreprise ; l'obligation est un prêt à l'entreprise."
+   }
+  ],
+  "unitId": "cg.v.obligation"
+ },
+ {
+  "id": "cg.d.bourse",
+  "word": "la Bourse",
+  "translation": "marché où s'échangent des actions, des obligations et d'autres titres",
+  "partOfSpeech": "concept",
+  "explanation": "Ce marché permet aux entreprises de lever de l'argent et aux épargnants d'acheter des parts d'entreprises. Aujourd'hui, les échanges sont électroniques. La Bourse de Paris fait partie du groupe Euronext.",
+  "examples": [
+   {
+    "text": "Les grandes places boursières sont New York (Wall Street), Tokyo, Londres, Shanghai et Paris.",
+    "translation": "Chaque place a son indice phare."
+   },
+   {
+    "text": "Une entrée en Bourse consiste, pour une entreprise, à vendre une partie de son capital au public.",
+    "translation": "Elle lève ainsi de l'argent pour se développer."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "bourse d'études",
+    "note": "autre sens du mot : une aide financière pour étudier ; la Bourse (avec une majuscule) est le marché financier."
+   }
+  ],
+  "unitId": "cg.v.bourse"
+ },
+ {
+  "id": "cg.d.cac_40",
+  "word": "le CAC 40",
+  "translation": "indice des 40 grandes entreprises cotées à la Bourse de Paris",
+  "partOfSpeech": "concept",
+  "explanation": "CAC signifie « Cotation assistée en continu ». Lancé en 1988 avec une base de 1 000 points au 31 décembre 1987, il monte quand les cours de ses 40 entreprises montent en moyenne, pondérés par leur taille en Bourse.",
+  "examples": [
+   {
+    "text": "Aux États-Unis, les indices équivalents sont le Dow Jones (30 entreprises) et le S&P 500 (500 entreprises).",
+    "translation": "À Francfort, c'est le DAX ; à Londres, le FTSE 100."
+   },
+   {
+    "text": "Un indice boursier mesure l'évolution de l'ensemble des actions qui le composent, pas celle d'une seule société.",
+    "translation": "Quand on dit « le CAC a gagné 1 % », la moyenne de ses 40 valeurs a progressé de 1 %."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "Bourse",
+    "note": "marché où s'échangent les actions ; le CAC 40 n'est qu'un indicateur de la santé de la Bourse de Paris."
+   }
+  ],
+  "unitId": "cg.v.cac_40"
+ },
+ {
+  "id": "cg.d.mondialisation",
+  "word": "la mondialisation",
+  "translation": "intensification des échanges de biens, de capitaux, de personnes et d'informations entre les pays",
+  "partOfSpeech": "concept",
+  "explanation": "Elle s'accélère après 1945, puis après 1990, grâce aux transports, aux télécommunications et à la baisse des barrières douanières. On parle aussi de globalisation.",
+  "examples": [
+   {
+    "text": "La route de la soie relie déjà l'Asie et l'Europe dès l'Antiquité.",
+    "translation": "Les échanges lointains sont très anciens ; c'est leur ampleur qui est nouvelle."
+   },
+   {
+    "text": "En 2001, la Chine entre à l'OMC.",
+    "translation": "Elle devient en quelques années l'un des principaux exportateurs de produits manufacturés."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "internationalisation",
+    "note": "échanges entre pays ; la mondialisation désigne un système où les économies sont fortement liées entre elles."
+   }
+  ],
+  "unitId": "cg.v.mondialisation"
+ },
+ {
+  "id": "cg.d.conteneur",
+  "word": "le conteneur",
+  "translation": "grande boîte métallique standardisée pour transporter des marchandises",
+  "partOfSpeech": "concept",
+  "explanation": "L'Américain Malcom McLean lance le premier navire porte-conteneurs, l'Ideal X, en 1956. La boîte passe du bateau au train puis au camion sans être ouverte, ce qui réduit les coûts et le temps de transport.",
+  "examples": [
+   {
+    "text": "Un conteneur standard mesure 20 ou 40 pieds de long.",
+    "translation": "Les ports comptent les conteneurs en EVP, équivalent vingt pieds."
+   },
+   {
+    "text": "Shanghai et Singapour sont parmi les plus grands ports à conteneurs du monde.",
+    "translation": "Rotterdam est le premier port européen."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "palette",
+    "note": "plateforme sur laquelle on pose des marchandises ; le conteneur est une grande caisse fermée."
+   }
+  ],
+  "unitId": "cg.v.conteneur"
+ },
+ {
+  "id": "cg.d.delocalisation",
+  "word": "la délocalisation",
+  "translation": "transfert d'une production vers un autre pays",
+  "partOfSpeech": "concept",
+  "explanation": "Une entreprise ferme ou réduit une usine dans un pays et produit ailleurs, souvent là où la fabrication coûte moins cher. Le mouvement inverse, ramener la production, s'appelle la relocalisation.",
+  "examples": [
+   {
+    "text": "Dans les années 1990 et 2000, de nombreuses usines textiles européennes ferment et la production part en Asie.",
+    "translation": "Les vêtements deviennent moins chers, mais des emplois industriels disparaissent en Europe."
+   },
+   {
+    "text": "Après les pénuries de masques et de médicaments de 2020, plusieurs pays parlent de relocalisation.",
+    "translation": "L'idée est de réduire la dépendance envers des fournisseurs lointains."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "sous-traitance",
+    "note": "confier une partie de la production à une autre entreprise, en France ou à l'étranger ; ce n'est pas forcément une délocalisation."
+   }
+  ],
+  "unitId": "cg.v.delocalisation"
+ },
+ {
+  "id": "cg.d.libre_echange",
+  "word": "le libre-échange",
+  "translation": "commerce sans droits de douane ni quotas entre pays",
+  "partOfSpeech": "concept",
+  "explanation": "Il vise à laisser circuler les marchandises sans barrières. Il s'organise par des accords (zones de libre-échange) ou dans le cadre de l'OMC.",
+  "examples": [
+   {
+    "text": "L'ALENA, entre le Canada, les États-Unis et le Mexique, entre en vigueur en 1994.",
+    "translation": "Il est remplacé en 2020 par un nouvel accord, l'AEUMC."
+   },
+   {
+    "text": "L'accord CETA entre l'UE et le Canada s'applique de façon provisoire depuis 2017.",
+    "translation": "Il supprime l'essentiel des droits de douane entre les deux ensembles."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "libre circulation",
+    "note": "droit de circuler et de s'installer, comme dans l'espace Schengen ; le libre-échange concerne les marchandises."
+   }
+  ],
+  "unitId": "cg.v.libre_echange"
+ },
+ {
+  "id": "cg.d.protectionnisme",
+  "word": "le protectionnisme",
+  "translation": "politique qui protège les producteurs nationaux de la concurrence étrangère",
+  "partOfSpeech": "concept",
+  "explanation": "Il passe par des droits de douane, des quotas d'importation, des normes ou des aides aux entreprises nationales. Ses défenseurs veulent protéger les emplois et les industries naissantes ; ses critiques redoutent des prix plus élevés et des mesures de représailles.",
+  "examples": [
+   {
+    "text": "La loi Smoot-Hawley de 1930 relève fortement les droits de douane américains.",
+    "translation": "Plusieurs pays répondent par leurs propres taxes et le commerce mondial recule."
+   },
+   {
+    "text": "L'économiste allemand Friedrich List défendait en 1841 la protection temporaire des industries naissantes.",
+    "translation": "L'idée est de laisser une industrie se développer avant de l'exposer à la concurrence."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "autarcie",
+    "note": "fait de se suffire à soi-même, sans commerce extérieur ; le protectionnisme limite les importations sans les supprimer."
+   }
+  ],
+  "unitId": "cg.v.protectionnisme"
+ },
+ {
+  "id": "cg.d.droits_de_douane",
+  "word": "les droits de douane",
+  "translation": "taxes payées sur les marchandises importées",
+  "partOfSpeech": "concept",
+  "explanation": "Ils renchérissent les produits étrangers et rapportent de l'argent à l'État. Ils sont exprimés en pourcentage du prix. Dans l'Union européenne, ils sont communs à tous les États membres.",
+  "examples": [
+   {
+    "text": "Un droit de douane de 10 % sur une voiture importée à 20 000 € ajoute 2 000 € à son prix.",
+    "translation": "L'importateur ou le consommateur supporte ce surcoût."
+   },
+   {
+    "text": "Le GATT, signé en 1947, puis l'OMC ont fait baisser les droits de douane.",
+    "translation": "Ils sont aujourd'hui bien plus faibles qu'au milieu du XXe siècle."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "TVA",
+    "note": "impôt sur la consommation payé sur tous les achats, y compris les produits français ; ce n'est pas un droit de douane."
+   }
+  ],
+  "unitId": "cg.v.droits_de_douane"
+ },
+ {
+  "id": "cg.d.avantage_comparatif",
+  "word": "l'avantage comparatif",
+  "translation": "idée selon laquelle chaque pays gagne à produire ce qu'il fait au meilleur coût relatif",
+  "partOfSpeech": "concept",
+  "explanation": "David Ricardo l'expose en 1817. Même un pays moins efficace partout a intérêt à se spécialiser dans ce qu'il fait le moins mal, puis à échanger. L'exemple classique oppose le vin du Portugal et le drap de l'Angleterre.",
+  "examples": [
+   {
+    "text": "Ricardo montre que l'Angleterre et le Portugal gagnent tous deux à échanger du drap contre du vin.",
+    "translation": "Le commerce n'est donc pas un jeu où l'un gagne ce que l'autre perd."
+   },
+   {
+    "text": "Un avocat qui tape plus vite que sa secrétaire a intérêt à lui confier la frappe.",
+    "translation": "Il gagne plus en utilisant son temps à plaider."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "avantage absolu",
+    "note": "être meilleur qu'un autre dans une production (idée d'Adam Smith) ; l'avantage comparatif compare les coûts relatifs."
+   }
+  ],
+  "unitId": "cg.v.avantage_comparatif"
+ },
+ {
+  "id": "cg.d.balance_commerciale",
+  "word": "la balance commerciale",
+  "translation": "différence entre les exportations et les importations de marchandises d'un pays",
+  "partOfSpeech": "concept",
+  "explanation": "Si un pays exporte plus qu'il n'importe, il a un excédent commercial ; dans le cas contraire, un déficit commercial.",
+  "examples": [
+   {
+    "text": "L'Allemagne et la Chine enregistrent souvent un fort excédent commercial.",
+    "translation": "Les États-Unis connaissent depuis longtemps un déficit."
+   },
+   {
+    "text": "La France a un déficit commercial chaque année depuis 2003.",
+    "translation": "L'énergie importée pèse lourd dans ce solde."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "balance des paiements",
+    "note": "document plus large qui enregistre tous les échanges d'un pays avec l'étranger (biens, services, revenus, capitaux)."
+   }
+  ],
+  "unitId": "cg.v.balance_commerciale"
+ },
+ {
+  "id": "cg.d.multinationale",
+  "word": "la multinationale",
+  "translation": "entreprise présente et produisant dans plusieurs pays",
+  "partOfSpeech": "concept",
+  "explanation": "Elle a un siège dans un pays et des filiales dans d'autres, et organise sa production à l'échelle du monde. Certaines ont un chiffre d'affaires supérieur au PIB de nombreux États.",
+  "examples": [
+   {
+    "text": "Toyota, Nestlé, Apple et TotalEnergies sont des exemples de multinationales.",
+    "translation": "Elles sont respectivement japonaise, suisse, américaine et française."
+   },
+   {
+    "text": "Les GAFAM (Google, Apple, Meta, Amazon, Microsoft) sont de grandes multinationales du numérique.",
+    "translation": "Elles tirent une grande partie de leur activité hors de leur pays d'origine."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "transnationale",
+    "note": "synonyme de multinationale dans le vocabulaire des Nations unies : une firme qui agit dans plusieurs pays."
+   }
+  ],
+  "unitId": "cg.v.multinationale"
+ },
+ {
+  "id": "cg.d.pays_emergents",
+  "word": "les pays émergents",
+  "translation": "pays à forte croissance qui s'industrialisent et rattrapent les pays riches",
+  "partOfSpeech": "concept",
+  "explanation": "Le terme désigne des pays comme la Chine, l'Inde, le Brésil ou l'Indonésie, dont l'économie croît vite et dont les classes moyennes se développent. Le sigle BRIC (Brésil, Russie, Inde, Chine) est inventé en 2001 par un économiste de la banque Goldman Sachs.",
+  "examples": [
+   {
+    "text": "La Chine, l'Inde et le Brésil figurent parmi les plus grands pays émergents.",
+    "translation": "Ils pèsent aujourd'hui davantage dans le PIB mondial qu'il y a trente ans."
+   },
+   {
+    "text": "Les « dragons » asiatiques (Corée du Sud, Taïwan, Hong Kong, Singapour) s'industrialisent dès les années 1960-1980.",
+    "translation": "Ils ont ouvert la voie aux pays émergents actuels."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "pays en développement",
+    "note": "catégorie plus large, qui inclut aussi les pays les plus pauvres ; les pays émergents sont ceux dont la croissance est rapide."
+   }
+  ],
+  "unitId": "cg.v.pays_emergents"
  }
 ]

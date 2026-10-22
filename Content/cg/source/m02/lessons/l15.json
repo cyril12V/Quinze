@@ -1,0 +1,856 @@
+{
+ "lessonId": "cg.l15",
+ "exercises": [
+  {
+   "id": "cg.l15.e01",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.everest",
+    "cg.v.fosse_des_mariannes",
+    "cg.v.mer_morte",
+    "cg.v.baikal",
+    "cg.v.mer_caspienne"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque lieu à son record.",
+   "prompt": "Les records de la Terre",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Everest",
+     "right": "point le plus haut de la Terre"
+    },
+    {
+     "left": "Fosse des Mariannes",
+     "right": "point le plus profond des océans"
+    },
+    {
+     "left": "Mer Morte",
+     "right": "point le plus bas des terres émergées"
+    },
+    {
+     "left": "Baïkal",
+     "right": "lac le plus profond du monde"
+    },
+    {
+     "left": "Mer Caspienne",
+     "right": "plus vaste lac du monde"
+    }
+   ],
+   "answer": "Everest = point le plus haut de la Terre ; Fosse des Mariannes = point le plus profond des océans ; Mer Morte = point le plus bas des terres émergées ; Baïkal = lac le plus profond du monde ; Mer Caspienne = plus vaste lac du monde",
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq lieux détiennent des records : l'Everest est le plus haut, la fosse des Mariannes le plus profond, la mer Morte le plus bas sur terre, le Baïkal le plus profond des lacs et la Caspienne le plus vaste.",
+   "tip": "Haut → Everest ; profond → Mariannes ; bas sur terre → mer Morte.",
+   "extraExample": {
+    "text": "Le Baïkal contient environ un cinquième de l'eau douce liquide de surface de la planète.",
+    "translation": "C'est aussi l'un des plus anciens lacs du monde."
+   }
+  },
+  {
+   "id": "cg.l15.e02",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.fosse_des_mariannes"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le point le plus profond des océans ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La fosse des Mariannes",
+    "La fosse de Porto Rico",
+    "La fosse de la Sonde",
+    "La fosse des Kouriles"
+   ],
+   "answer": "La fosse des Mariannes",
+   "acceptedAnswers": [
+    "La fosse des Mariannes"
+   ],
+   "explanation": "La fosse des Mariannes, dans l'ouest du Pacifique, descend à près de 11 000 m. Les autres fosses sont moins profondes : Porto Rico dans l'Atlantique (environ 8 400 m), la Sonde dans l'océan Indien (environ 7 300 m).",
+   "tip": "Mariannes = Pacifique = près de 11 000 m.",
+   "extraExample": {
+    "text": "Si on y plongeait l'Everest, son sommet resterait à plus de 2 000 m sous l'eau.",
+    "translation": "La fosse est donc plus profonde que l'Everest n'est haut."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La fosse de Porto Rico",
+     "category": "word_confusion",
+     "feedback": "La fosse de Porto Rico, dans l'Atlantique, atteint environ 8 400 m : c'est la plus profonde de cet océan, mais pas du monde."
+    },
+    {
+     "equals": "La fosse de la Sonde",
+     "category": "word_confusion",
+     "feedback": "La fosse de la Sonde est la plus profonde de l'océan Indien (environ 7 300 m)."
+    },
+    {
+     "equals": "La fosse des Kouriles",
+     "category": "word_confusion",
+     "feedback": "La fosse des Kouriles, au nord-ouest du Pacifique, est très profonde (environ 10 500 m) mais moins que celle des Mariannes."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e03",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.baikal"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le lac le plus profond du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Baïkal",
+    "Le Tanganyika",
+    "Le lac Supérieur",
+    "Le lac Victoria"
+   ],
+   "answer": "Le Baïkal",
+   "acceptedAnswers": [
+    "Le Baïkal"
+   ],
+   "explanation": "Le Baïkal, en Sibérie, atteint 1 642 m de profondeur. Le Tanganyika, en Afrique, est le deuxième (environ 1 470 m) ; le Supérieur et le Victoria sont très vastes mais bien moins profonds.",
+   "tip": "Baïkal = le plus profond ; lac Supérieur = le plus grand lac d'eau douce par la surface.",
+   "extraExample": {
+    "text": "Le lac Supérieur, en Amérique du Nord, est le plus grand lac d'eau douce du monde par la surface.",
+    "translation": "Mais il n'atteint que 406 m de profondeur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Tanganyika",
+     "category": "word_confusion",
+     "feedback": "Le Tanganyika est le deuxième lac le plus profond du monde, avec environ 1 470 m."
+    },
+    {
+     "equals": "Le lac Supérieur",
+     "category": "word_confusion",
+     "feedback": "Le lac Supérieur est très vaste, mais profond d'environ 400 m seulement."
+    },
+    {
+     "equals": "Le lac Victoria",
+     "category": "word_confusion",
+     "feedback": "Le lac Victoria est très étendu mais très peu profond, environ 80 m."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e04",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.mer_morte"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Où se trouve le point le plus bas des terres émergées ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La mer Morte",
+    "La Vallée de la Mort",
+    "La mer Caspienne",
+    "La dépression de Qattara"
+   ],
+   "answer": "La mer Morte",
+   "acceptedAnswers": [
+    "La mer Morte"
+   ],
+   "explanation": "La mer Morte, au Proche-Orient, se trouve à plus de 400 m sous le niveau de la mer. La Vallée de la Mort (Californie, environ −86 m) et la dépression de Qattara (Égypte, environ −133 m) sont bien moins basses.",
+   "tip": "Mer Morte : plus de 400 m sous le niveau de la mer.",
+   "extraExample": {
+    "text": "L'eau de la mer Morte est environ dix fois plus salée que celle des océans.",
+    "translation": "On y flotte sans effort."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Vallée de la Mort",
+     "category": "word_confusion",
+     "feedback": "La Vallée de la Mort, en Californie, est le point le plus bas d'Amérique du Nord (environ −86 m), bien au-dessus de la mer Morte."
+    },
+    {
+     "equals": "La mer Caspienne",
+     "category": "word_confusion",
+     "feedback": "La Caspienne est à environ 28 m sous le niveau des océans seulement."
+    },
+    {
+     "equals": "La dépression de Qattara",
+     "category": "word_confusion",
+     "feedback": "La dépression de Qattara, en Égypte, est à environ −133 m : profonde, mais moins que la mer Morte."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e05",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.mer_caspienne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que la mer Caspienne, malgré son nom ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le plus vaste lac du monde",
+    "Un golfe de la mer Noire",
+    "Un bras de l'océan Indien",
+    "Une mer reliée à la Méditerranée"
+   ],
+   "answer": "Le plus vaste lac du monde",
+   "acceptedAnswers": [
+    "Le plus vaste lac du monde"
+   ],
+   "explanation": "La Caspienne n'a aucune sortie vers l'océan : on la classe donc comme un immense lac salé, le plus vaste du monde, avec environ 371 000 km².",
+   "tip": "Pas de sortie vers l'océan = un lac, même si on dit « mer ».",
+   "extraExample": {
+    "text": "La mer Morte porte aussi le nom de « mer » alors que c'est un lac salé.",
+    "translation": "Dans les deux cas, l'eau n'a pas de sortie vers l'océan."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un golfe de la mer Noire",
+     "category": "word_confusion",
+     "feedback": "La mer Noire est une autre mer intérieure, séparée de la Caspienne par le Caucase."
+    },
+    {
+     "equals": "Une mer reliée à la Méditerranée",
+     "category": "word_confusion",
+     "feedback": "La Caspienne est fermée : aucun détroit ne la relie à la Méditerranée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e06",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.atacama"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le désert non polaire le plus aride du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le désert d'Atacama",
+    "Le Sahara",
+    "Le Gobi",
+    "Le désert d'Arabie"
+   ],
+   "answer": "Le désert d'Atacama",
+   "acceptedAnswers": [
+    "Le désert d'Atacama"
+   ],
+   "explanation": "L'Atacama, au Chili, est le plus aride des déserts hors des régions polaires : certaines de ses stations n'ont enregistré aucune pluie pendant des années. Le Sahara est plus vaste, mais pas plus sec.",
+   "tip": "Atacama = le plus sec ; Sahara = le plus grand désert chaud.",
+   "extraExample": {
+    "text": "Les astronomes installent leurs plus grands télescopes dans l'Atacama.",
+    "translation": "Le ciel y est sec et très clair presque toute l'année."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Sahara",
+     "category": "word_confusion",
+     "feedback": "Le Sahara est le plus grand désert chaud, mais l'Atacama reçoit encore moins de pluie."
+    },
+    {
+     "equals": "Le Gobi",
+     "category": "word_confusion",
+     "feedback": "Le Gobi, en Asie, est un désert froid en hiver et reçoit plus de pluie que l'Atacama."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e07",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.mousson"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que la mousson ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un vent saisonnier qui apporte de fortes pluies d'été",
+    "Un courant marin chaud de l'Atlantique",
+    "Une tempête de sable du Sahara",
+    "Un cyclone tropical du Pacifique"
+   ],
+   "answer": "Un vent saisonnier qui apporte de fortes pluies d'été",
+   "acceptedAnswers": [
+    "Un vent saisonnier qui apporte de fortes pluies d'été"
+   ],
+   "explanation": "La mousson est un vent qui change de sens avec les saisons : en été, il vient de l'océan et apporte l'essentiel des pluies à l'Inde et à l'Asie du Sud-Est.",
+   "tip": "Mousson vient de l'arabe mawsim, « saison ».",
+   "extraExample": {
+    "text": "Le Gulf Stream est le courant marin chaud de l'Atlantique.",
+    "translation": "Il adoucit le climat de l'Europe de l'Ouest."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un courant marin chaud de l'Atlantique",
+     "category": "word_confusion",
+     "feedback": "Le courant chaud de l'Atlantique s'appelle le Gulf Stream : il n'a rien à voir avec la mousson."
+    },
+    {
+     "equals": "Un cyclone tropical du Pacifique",
+     "category": "word_confusion",
+     "feedback": "Un cyclone est une tempête tournante ; la mousson est un régime de vents saisonniers."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e08",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.climat"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le climat ___ se caractérise par des températures élevées et de fortes pluies toute l'année.",
+   "promptLanguage": "fr",
+   "options": [
+    "équatorial",
+    "polaire",
+    "désertique",
+    "tempéré"
+   ],
+   "answer": "équatorial",
+   "acceptedAnswers": [
+    "équatorial"
+   ],
+   "explanation": "Près de l'équateur, il fait chaud et il pleut presque tous les jours : c'est le climat équatorial, celui de l'Amazonie, du bassin du Congo et de l'Indonésie.",
+   "tip": "Équateur → équatorial : chaud et humide toute l'année.",
+   "extraExample": {
+    "text": "Le climat désertique reçoit très peu de pluie, comme au Sahara.",
+    "translation": "Le climat polaire est froid toute l'année, comme en Antarctique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "polaire",
+     "category": "word_confusion",
+     "feedback": "Le climat polaire est très froid toute l'année, avec très peu de précipitations."
+    },
+    {
+     "equals": "désertique",
+     "category": "word_confusion",
+     "feedback": "Le climat désertique est sec : il tombe très peu de pluie."
+    },
+    {
+     "equals": "tempéré",
+     "category": "word_confusion",
+     "feedback": "Le climat tempéré a quatre saisons bien marquées, comme en France."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e09",
+   "unitIds": [
+    "cg.v.sahara",
+    "cg.g15.reliefs_fleuves_climats"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Sahara est le plus grand désert ___ du monde, mais l'Antarctique est encore plus vaste.",
+   "promptLanguage": "fr",
+   "options": [
+    "chaud",
+    "froid",
+    "humide",
+    "côtier"
+   ],
+   "answer": "chaud",
+   "acceptedAnswers": [
+    "chaud"
+   ],
+   "explanation": "Le Sahara est le plus grand désert chaud ; si l'on compte aussi les déserts froids, l'Antarctique (environ 14 millions de km²) le dépasse.",
+   "tip": "Un désert se définit par le manque de pluie, pas par la chaleur.",
+   "extraExample": {
+    "text": "L'Arctique est aussi un désert froid, très peu arrosé.",
+    "translation": "Il est même le deuxième plus grand désert du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "froid",
+     "category": "word_confusion",
+     "feedback": "Le Sahara est un désert chaud ; c'est l'Antarctique qui est un désert froid, plus vaste encore."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e10",
+   "unitIds": [
+    "cg.v.nil",
+    "cg.v.amazone",
+    "cg.v.yang_tse_kiang"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quels deux fleuves se disputent le titre de plus long fleuve du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Nil et l'Amazone",
+    "Le Yang-Tsé-Kiang et le Mississippi",
+    "Le Congo et le Niger",
+    "Le Rhin et le Danube"
+   ],
+   "answer": "Le Nil et l'Amazone",
+   "acceptedAnswers": [
+    "Le Nil et l'Amazone"
+   ],
+   "explanation": "Selon la manière de mesurer la source et l'embouchure, c'est le Nil ou l'Amazone (tous deux autour de 6 500 km) qui arrive en tête. Le Yang-Tsé-Kiang est le troisième.",
+   "tip": "Plus long : Nil ou Amazone ; plus fort débit : Amazone.",
+   "extraExample": {
+    "text": "Le Yang-Tsé-Kiang est le plus long fleuve d'Asie.",
+    "translation": "Il mesure environ 6 300 km."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Yang-Tsé-Kiang et le Mississippi",
+     "category": "word_confusion",
+     "feedback": "Le Yang-Tsé-Kiang (environ 6 300 km) est le plus long d'Asie, mais reste derrière le Nil et l'Amazone."
+    },
+    {
+     "equals": "Le Congo et le Niger",
+     "category": "word_confusion",
+     "feedback": "Le Congo et le Niger sont de grands fleuves africains, mais moins longs que le Nil."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e11",
+   "unitIds": [
+    "cg.v.canal_de_panama",
+    "cg.g15.reliefs_fleuves_climats"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le canal de ___, ouvert en 1914, relie l'océan Atlantique à l'océan Pacifique.",
+   "promptLanguage": "fr",
+   "options": [
+    "Panama",
+    "Suez",
+    "Kiel",
+    "Corinthe"
+   ],
+   "answer": "Panama",
+   "acceptedAnswers": [
+    "Panama"
+   ],
+   "explanation": "Le canal de Panama traverse l'isthme qui relie les deux Amériques et met l'Atlantique en communication avec le Pacifique.",
+   "tip": "Panama : deux océans ; Suez : deux mers.",
+   "extraExample": {
+    "text": "Le canal de Suez relie la Méditerranée à la mer Rouge.",
+    "translation": "Il a été ouvert en 1869, bien avant celui de Panama."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Suez",
+     "category": "word_confusion",
+     "feedback": "Le canal de Suez, en Égypte, relie deux mers (Méditerranée et mer Rouge), pas deux océans."
+    },
+    {
+     "equals": "Corinthe",
+     "category": "word_confusion",
+     "feedback": "Le canal de Corinthe, en Grèce, ne mesure que 6 km."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e12",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.climat",
+    "cg.v.latitude"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Une phrase-repère sur le climat.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "dépend",
+    "Le",
+    "la",
+    "surtout",
+    "climat",
+    "de",
+    "latitude"
+   ],
+   "answer": "Le climat dépend surtout de la latitude",
+   "acceptedAnswers": [
+    "Le climat dépend surtout de la latitude"
+   ],
+   "explanation": "Plus on s'éloigne de l'équateur, plus le Soleil est bas dans le ciel et plus il fait frais : la latitude commande le climat.",
+   "tip": "Latitude = distance à l'équateur.",
+   "extraExample": {
+    "text": "L'altitude et la proximité de la mer jouent aussi un rôle.",
+    "translation": "Il fait plus froid en montagne et plus doux près de l'océan."
+   }
+  },
+  {
+   "id": "cg.l15.e13",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.tropiques"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ligne imaginaire passe à environ 23,5° de latitude nord ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le tropique du Cancer",
+    "Le tropique du Capricorne",
+    "Le cercle polaire arctique",
+    "L'équateur"
+   ],
+   "answer": "Le tropique du Cancer",
+   "acceptedAnswers": [
+    "Le tropique du Cancer"
+   ],
+   "explanation": "Le tropique du Cancer est à environ 23,5° de latitude nord ; le tropique du Capricorne, à la même distance, au sud. Le cercle polaire arctique est bien plus au nord (environ 66,5°) et l'équateur est à 0°.",
+   "tip": "Cancer = hémisphère Nord ; Capricorne = hémisphère Sud.",
+   "extraExample": {
+    "text": "Le tropique du Capricorne traverse le Brésil, la Namibie et l'Australie.",
+    "translation": "Il se trouve à environ 23,5° de latitude sud."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le tropique du Capricorne",
+     "category": "word_confusion",
+     "feedback": "Le tropique du Capricorne est à la même distance de l'équateur, mais dans l'hémisphère Sud."
+    },
+    {
+     "equals": "Le cercle polaire arctique",
+     "category": "word_confusion",
+     "feedback": "Le cercle polaire arctique est à environ 66,5° de latitude nord, beaucoup plus près du pôle."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e14",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.alpes"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Lequel de ces pays n'est PAS traversé par les Alpes ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Espagne",
+    "L'Autriche",
+    "La Slovénie",
+    "L'Allemagne"
+   ],
+   "answer": "L'Espagne",
+   "acceptedAnswers": [
+    "L'Espagne"
+   ],
+   "explanation": "Les Alpes traversent huit pays : la France, l'Italie, la Suisse, l'Autriche, l'Allemagne, le Liechtenstein, la Slovénie et Monaco. L'Espagne a les Pyrénées, pas les Alpes.",
+   "tip": "Alpes : de Monaco à la Slovénie ; Espagne = Pyrénées.",
+   "extraExample": {
+    "text": "Le Liechtenstein, petit État alpin, est coincé entre la Suisse et l'Autriche.",
+    "translation": "C'est l'un des plus petits pays d'Europe."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Allemagne",
+     "category": "word_confusion",
+     "feedback": "L'Allemagne touche les Alpes au sud, en Bavière."
+    },
+    {
+     "equals": "La Slovénie",
+     "category": "word_confusion",
+     "feedback": "La Slovénie possède les Alpes juliennes, à l'extrémité est de la chaîne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e15",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.climat"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le climat est la moyenne du temps sur de longues années ; le temps qu'il fait aujourd'hui, c'est la ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "météo",
+    "saison",
+    "mousson",
+    "latitude"
+   ],
+   "answer": "météo",
+   "acceptedAnswers": [
+    "météo",
+    "meteo",
+    "la météo"
+   ],
+   "explanation": "Le climat décrit les conditions habituelles d'un lieu sur au moins trente ans, alors que la météo décrit le temps qu'il fait à un moment précis.",
+   "tip": "Climat = long terme ; météo = court terme.",
+   "extraExample": {
+    "text": "Un hiver froid ne contredit pas le réchauffement climatique.",
+    "translation": "Une vague de froid est de la météo ; une tendance sur des décennies, c'est du climat."
+   },
+   "errorPatterns": [
+    {
+     "equals": "mousson",
+     "category": "word_confusion",
+     "feedback": "La mousson est un vent saisonnier, pas la mesure du temps du jour."
+    },
+    {
+     "equals": "saison",
+     "category": "word_confusion",
+     "feedback": "Une saison est une période de l'année, pas le temps qu'il fait un jour donné."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e16",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.tropiques"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les deux tropiques sont le tropique du Cancer, au nord, et le tropique du ___, au sud.",
+   "promptLanguage": "fr",
+   "options": [
+    "Capricorne",
+    "Sagittaire",
+    "Scorpion",
+    "Verseau"
+   ],
+   "answer": "Capricorne",
+   "acceptedAnswers": [
+    "Capricorne"
+   ],
+   "explanation": "Les tropiques sont situés à environ 23,5° de part et d'autre de l'équateur : le Cancer dans l'hémisphère Nord, le Capricorne dans l'hémisphère Sud.",
+   "tip": "Cancer au Nord, Capricorne au Sud.",
+   "extraExample": {
+    "text": "Les noms viennent de la position du Soleil devant les constellations du Cancer et du Capricorne, aux solstices.",
+    "translation": "Les astronomes de l'Antiquité les ont ainsi baptisés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sagittaire",
+     "category": "word_confusion",
+     "feedback": "Le Sagittaire est un signe du zodiaque, mais pas un tropique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e17",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.equateur",
+    "cg.v.tropiques",
+    "cg.v.latitude"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque ligne à sa valeur.",
+   "prompt": "Les lignes imaginaires du globe",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Équateur",
+     "right": "latitude 0°"
+    },
+    {
+     "left": "Tropique du Cancer",
+     "right": "environ 23,5° de latitude nord"
+    },
+    {
+     "left": "Tropique du Capricorne",
+     "right": "environ 23,5° de latitude sud"
+    },
+    {
+     "left": "Cercle polaire arctique",
+     "right": "environ 66,5° de latitude nord"
+    },
+    {
+     "left": "Méridien de Greenwich",
+     "right": "longitude 0°"
+    }
+   ],
+   "answer": "Équateur = latitude 0° ; Tropique du Cancer = environ 23,5° de latitude nord ; Tropique du Capricorne = environ 23,5° de latitude sud ; Cercle polaire arctique = environ 66,5° de latitude nord ; Méridien de Greenwich = longitude 0°",
+   "acceptedAnswers": [],
+   "explanation": "Les parallèles se repèrent par leur latitude (équateur, tropiques, cercles polaires) ; le méridien de Greenwich sert, lui, de référence pour la longitude.",
+   "tip": "Latitude : lignes horizontales (nord-sud) ; longitude : lignes verticales (est-ouest).",
+   "extraExample": {
+    "text": "Au-delà du cercle polaire arctique, le Soleil ne se couche pas certains jours d'été.",
+    "translation": "C'est le phénomène du soleil de minuit."
+   }
+  },
+  {
+   "id": "cg.l15.e18",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.fosse_des_mariannes",
+    "cg.v.ocean_pacifique"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans quel océan se trouve la fosse des Mariannes ?",
+   "promptLanguage": "fr",
+   "answer": "Pacifique",
+   "acceptedAnswers": [
+    "Pacifique",
+    "Le Pacifique",
+    "L'océan Pacifique",
+    "océan Pacifique"
+   ],
+   "explanation": "La fosse des Mariannes se situe dans l'ouest de l'océan Pacifique, près de l'île de Guam. Le plus grand océan possède aussi la fosse la plus profonde.",
+   "tip": "Le plus grand océan a aussi la fosse la plus profonde.",
+   "extraExample": {
+    "text": "Le Pacifique abrite la plupart des grandes fosses océaniques.",
+    "translation": "Il est à la fois le plus grand et le plus profond des océans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "atlantique",
+     "category": "word_confusion",
+     "feedback": "L'Atlantique a la fosse de Porto Rico (environ 8 400 m), bien moins profonde."
+    },
+    {
+     "equals": "indien",
+     "category": "word_confusion",
+     "feedback": "L'océan Indien a la fosse de la Sonde (environ 7 300 m), moins profonde."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e19",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel pays possède le plus long littoral du monde ?",
+   "promptLanguage": "fr",
+   "answer": "Canada",
+   "acceptedAnswers": [
+    "Canada",
+    "Le Canada"
+   ],
+   "explanation": "Avec ses trois côtes (Atlantique, Pacifique, Arctique) et ses milliers d'îles, le Canada possède le plus long littoral du monde, plus de 200 000 km.",
+   "tip": "Canada : trois océans, le plus long littoral.",
+   "extraExample": {
+    "text": "Le littoral du Canada est plus long que celui de la Norvège, de l'Indonésie ou de la Russie.",
+    "translation": "Ses côtes découpées et ses îles allongent considérablement la mesure."
+   },
+   "errorPatterns": [
+    {
+     "equals": "russie",
+     "category": "word_confusion",
+     "feedback": "La Russie a un très long littoral, mais celui du Canada est plus long."
+    },
+    {
+     "equals": "norvège",
+     "category": "word_confusion",
+     "feedback": "La Norvège a un littoral très découpé, mais il reste plus court que celui du Canada."
+    },
+    {
+     "equals": "norvege",
+     "category": "word_confusion",
+     "feedback": "La Norvège a un littoral très découpé, mais il reste plus court que celui du Canada."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e20",
+   "unitIds": [
+    "cg.v.antarctique",
+    "cg.v.sahara",
+    "cg.g15.reliefs_fleuves_climats"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le plus grand désert du monde, tous types confondus ?",
+   "promptLanguage": "fr",
+   "answer": "L'Antarctique",
+   "acceptedAnswers": [
+    "L'Antarctique",
+    "Antarctique",
+    "l'Antarctide",
+    "Antarctide",
+    "Le désert de l'Antarctique"
+   ],
+   "explanation": "Un désert se définit par le manque de précipitations : l'Antarctique, avec environ 14 millions de km², dépasse le Sahara (plus de 9 millions de km²).",
+   "tip": "Chaud : Sahara ; tous déserts : Antarctique.",
+   "extraExample": {
+    "text": "L'Arctique est le deuxième plus grand désert du monde.",
+    "translation": "Les déserts polaires reçoivent très peu de précipitations."
+   },
+   "errorPatterns": [
+    {
+     "equals": "sahara",
+     "category": "word_confusion",
+     "feedback": "Le Sahara est le plus grand désert chaud, mais l'Antarctique est plus vaste."
+    },
+    {
+     "equals": "le sahara",
+     "category": "word_confusion",
+     "feedback": "Le Sahara est le plus grand désert chaud, mais l'Antarctique est plus vaste."
+    },
+    {
+     "equals": "arctique",
+     "category": "word_confusion",
+     "feedback": "L'Arctique est le deuxième plus grand désert du monde, juste derrière l'Antarctique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l15.e21",
+   "unitIds": [
+    "cg.g15.reliefs_fleuves_climats",
+    "cg.v.latitude"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la coordonnée qui mesure la distance d'un lieu à l'équateur, en degrés vers le nord ou le sud ?",
+   "promptLanguage": "fr",
+   "answer": "La latitude",
+   "acceptedAnswers": [
+    "La latitude",
+    "Latitude"
+   ],
+   "explanation": "La latitude va de 0° à l'équateur jusqu'à 90° aux pôles ; la longitude mesure, elle, la position à l'est ou à l'ouest du méridien de Greenwich.",
+   "tip": "Latitude : lignes horizontales ; longitude : lignes verticales.",
+   "extraExample": {
+    "text": "Paris est à environ 49° de latitude nord et 2° de longitude est.",
+    "translation": "Ces deux nombres suffisent à la placer sur une carte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "longitude",
+     "category": "word_confusion",
+     "feedback": "La longitude mesure la position à l'est ou à l'ouest du méridien de Greenwich, pas la distance à l'équateur."
+    },
+    {
+     "equals": "altitude",
+     "category": "word_confusion",
+     "feedback": "L'altitude est la hauteur au-dessus du niveau de la mer, pas la distance à l'équateur."
+    }
+   ]
+  }
+ ]
+}

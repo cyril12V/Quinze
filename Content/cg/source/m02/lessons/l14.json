@@ -1,0 +1,905 @@
+{
+ "lessonId": "cg.l14",
+ "exercises": [
+  {
+   "id": "cg.l14.e01",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.corse"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque région à son chef-lieu.",
+   "prompt": "Des régions et leur ville principale (chef-lieu)",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Bretagne",
+     "right": "Rennes"
+    },
+    {
+     "left": "Occitanie",
+     "right": "Toulouse"
+    },
+    {
+     "left": "Grand Est",
+     "right": "Strasbourg"
+    },
+    {
+     "left": "Hauts-de-France",
+     "right": "Lille"
+    },
+    {
+     "left": "Corse",
+     "right": "Ajaccio"
+    }
+   ],
+   "answer": "Bretagne = Rennes ; Occitanie = Toulouse ; Grand Est = Strasbourg ; Hauts-de-France = Lille ; Corse = Ajaccio",
+   "acceptedAnswers": [],
+   "explanation": "Chaque région a un chef-lieu, où siège la préfecture de région : Rennes pour la Bretagne, Toulouse pour l'Occitanie, Strasbourg pour le Grand Est, Lille pour les Hauts-de-France et Ajaccio pour la Corse.",
+   "tip": "Rennes, Toulouse, Strasbourg, Lille : de grandes villes que tu connais déjà.",
+   "extraExample": {
+    "text": "Marseille est le chef-lieu de la région Provence-Alpes-Côte d'Azur.",
+    "translation": "La préfecture des Alpes-Maritimes, elle, est à Nice."
+   }
+  },
+  {
+   "id": "cg.l14.e02",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.hexagone"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment appelle-t-on la France métropolitaine à cause de sa forme géométrique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Hexagone",
+    "Le Pentagone",
+    "L'Octogone",
+    "Le Losange"
+   ],
+   "answer": "L'Hexagone",
+   "acceptedAnswers": [
+    "L'Hexagone"
+   ],
+   "explanation": "Avec ses six côtés (trois maritimes et trois terrestres), la France métropolitaine ressemble à un hexagone, d'où son surnom.",
+   "tip": "Hexa = six : l'Hexagone a six côtés.",
+   "extraExample": {
+    "text": "Le Pentagone, à cinq côtés, est le siège du ministère américain de la Défense.",
+    "translation": "Ne le confonds pas avec l'Hexagone."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Pentagone",
+     "category": "word_confusion",
+     "feedback": "Le Pentagone a cinq côtés : c'est le siège du ministère de la Défense des États-Unis."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e03",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.loire"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus long fleuve de France ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Loire",
+    "La Seine",
+    "Le Rhône",
+    "La Garonne"
+   ],
+   "answer": "La Loire",
+   "acceptedAnswers": [
+    "La Loire"
+   ],
+   "explanation": "La Loire mesure 1 006 km, de l'Ardèche à l'Atlantique. La Seine, pourtant plus célèbre car elle traverse Paris, ne mesure qu'environ 780 km.",
+   "tip": "Loire = 1 000 km, la seule à dépasser le millier de kilomètres.",
+   "extraExample": {
+    "text": "La Loire traverse Orléans, Tours et Nantes.",
+    "translation": "Elle se jette dans l'Atlantique près de Saint-Nazaire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Seine",
+     "category": "word_confusion",
+     "feedback": "La Seine est célèbre car elle traverse Paris, mais elle est plus courte que la Loire (environ 780 km)."
+    },
+    {
+     "equals": "Le Rhône",
+     "category": "word_confusion",
+     "feedback": "Le Rhône est le fleuve au plus fort débit, mais il est moins long en France (environ 545 km)."
+    },
+    {
+     "equals": "La Garonne",
+     "category": "word_confusion",
+     "feedback": "La Garonne (environ 530 km en France) est plus courte que la Loire."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e04",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.mont_blanc"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus haut sommet de France ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Mont Blanc",
+    "Le puy de Dôme",
+    "Le mont Ventoux",
+    "Le pic du Midi de Bigorre"
+   ],
+   "answer": "Le Mont Blanc",
+   "acceptedAnswers": [
+    "Le Mont Blanc"
+   ],
+   "explanation": "Le Mont Blanc culmine à environ 4 800 m, dans les Alpes, près de Chamonix : c'est le plus haut sommet de France et de l'Union européenne.",
+   "tip": "Mont Blanc = 4 800 m, le toit de l'Europe de l'Ouest.",
+   "extraExample": {
+    "text": "Le Mont Blanc a été gravi pour la première fois en 1786.",
+    "translation": "Cette ascension marque le début de l'alpinisme."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le puy de Dôme",
+     "category": "word_confusion",
+     "feedback": "Le puy de Dôme (environ 1 465 m) est un volcan éteint du Massif central."
+    },
+    {
+     "equals": "Le mont Ventoux",
+     "category": "word_confusion",
+     "feedback": "Le mont Ventoux (environ 1 900 m), en Provence, est célèbre grâce au Tour de France."
+    },
+    {
+     "equals": "Le pic du Midi de Bigorre",
+     "category": "word_confusion",
+     "feedback": "Le pic du Midi de Bigorre (2 877 m) est un sommet pyrénéen célèbre pour son observatoire."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e05",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.pyrenees"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle chaîne de montagnes forme la frontière naturelle entre la France et l'Espagne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Pyrénées",
+    "Les Alpes",
+    "Le Jura",
+    "Les Vosges"
+   ],
+   "answer": "Les Pyrénées",
+   "acceptedAnswers": [
+    "Les Pyrénées"
+   ],
+   "explanation": "Les Pyrénées s'étendent sur environ 430 km, de l'Atlantique à la Méditerranée, et séparent la France de l'Espagne, avec Andorre enclavée au milieu.",
+   "tip": "Pyrénées = Espagne ; Alpes = Italie et Suisse ; Jura = Suisse.",
+   "extraExample": {
+    "text": "Le Jura longe la frontière franco-suisse.",
+    "translation": "Les Vosges séparent la Lorraine de l'Alsace."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les Alpes",
+     "category": "word_confusion",
+     "feedback": "Les Alpes marquent la frontière avec l'Italie et, en partie, avec la Suisse."
+    },
+    {
+     "equals": "Le Jura",
+     "category": "word_confusion",
+     "feedback": "Le Jura est à la frontière avec la Suisse, pas avec l'Espagne."
+    },
+    {
+     "equals": "Les Vosges",
+     "category": "word_confusion",
+     "feedback": "Les Vosges sont dans l'est de la France, à l'ouest de la plaine d'Alsace."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e06",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.rhone"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel fleuve naît en Suisse, traverse Lyon et se jette dans la Méditerranée ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Rhône",
+    "La Loire",
+    "La Garonne",
+    "La Seine"
+   ],
+   "answer": "Le Rhône",
+   "acceptedAnswers": [
+    "Le Rhône"
+   ],
+   "explanation": "Le Rhône naît dans un glacier des Alpes suisses, traverse le lac Léman, puis passe à Lyon et à Avignon avant de former le delta de la Camargue.",
+   "tip": "Rhône = Lyon + Méditerranée ; Garonne = Toulouse, Bordeaux + Atlantique.",
+   "extraExample": {
+    "text": "À Lyon, le Rhône rejoint la Saône.",
+    "translation": "Les deux cours d'eau entourent la presqu'île, au cœur de la ville."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Garonne",
+     "category": "word_confusion",
+     "feedback": "La Garonne passe par Toulouse et Bordeaux et se jette dans l'Atlantique."
+    },
+    {
+     "equals": "La Loire",
+     "category": "word_confusion",
+     "feedback": "La Loire naît dans le Massif central et se jette dans l'Atlantique."
+    },
+    {
+     "equals": "La Seine",
+     "category": "word_confusion",
+     "feedback": "La Seine traverse Paris et se jette dans la Manche."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e07",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.guyane",
+    "cg.v.outre_mer"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel département et région d'outre-mer est situé en Amérique du Sud ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Guyane",
+    "La Martinique",
+    "La Guadeloupe",
+    "La Réunion"
+   ],
+   "answer": "La Guyane",
+   "acceptedAnswers": [
+    "La Guyane"
+   ],
+   "explanation": "La Guyane est le seul département d'outre-mer d'Amérique du Sud, entre le Suriname et le Brésil. La Martinique et la Guadeloupe sont aux Antilles, La Réunion dans l'océan Indien.",
+   "tip": "Guyane = Amérique du Sud ; Martinique et Guadeloupe = Antilles.",
+   "extraExample": {
+    "text": "Le centre spatial de Kourou, en Guyane, lance les fusées Ariane.",
+    "translation": "Il se trouve à seulement 5° au nord de l'équateur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Martinique",
+     "category": "word_confusion",
+     "feedback": "La Martinique est une île des Antilles, dans la mer des Caraïbes."
+    },
+    {
+     "equals": "La Guadeloupe",
+     "category": "word_confusion",
+     "feedback": "La Guadeloupe est un archipel des Antilles."
+    },
+    {
+     "equals": "La Réunion",
+     "category": "word_confusion",
+     "feedback": "La Réunion est une île de l'océan Indien, à l'est de Madagascar."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e08",
+   "unitIds": [
+    "cg.g14.france_geographie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Depuis 2016, la France métropolitaine compte ___ régions.",
+   "promptLanguage": "fr",
+   "options": [
+    "13",
+    "9",
+    "18",
+    "22"
+   ],
+   "answer": "13",
+   "acceptedAnswers": [
+    "13",
+    "treize"
+   ],
+   "explanation": "Au 1er janvier 2016, la réforme territoriale a regroupé les 22 anciennes régions de métropole en 13. Avec les 5 régions d'outre-mer, la France compte 18 régions.",
+   "tip": "13 en métropole, 18 en tout avec l'outre-mer.",
+   "extraExample": {
+    "text": "La France compte 96 départements en métropole et 5 en outre-mer.",
+    "translation": "Cela fait 101 départements au total."
+   },
+   "errorPatterns": [
+    {
+     "equals": "22",
+     "category": "word_confusion",
+     "feedback": "22 est le nombre de régions métropolitaines avant la réforme de 2016."
+    },
+    {
+     "equals": "18",
+     "category": "word_confusion",
+     "feedback": "18 est le total avec les cinq régions d'outre-mer ; la métropole en compte 13."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e09",
+   "unitIds": [
+    "cg.g14.france_geographie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La Seine traverse Paris et se jette dans la ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Manche",
+    "mer du Nord",
+    "Méditerranée",
+    "Atlantique"
+   ],
+   "answer": "Manche",
+   "acceptedAnswers": [
+    "Manche",
+    "la Manche"
+   ],
+   "explanation": "La Seine traverse Paris, puis Rouen, et se jette dans la Manche au Havre.",
+   "tip": "Seine → Manche ; Loire → Atlantique ; Rhône → Méditerranée.",
+   "extraExample": {
+    "text": "La Loire se jette dans l'Atlantique et le Rhône dans la Méditerranée.",
+    "translation": "Chaque grand fleuve français a son propre débouché."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Atlantique",
+     "category": "word_confusion",
+     "feedback": "L'Atlantique reçoit la Loire et la Garonne, pas la Seine."
+    },
+    {
+     "equals": "Méditerranée",
+     "category": "word_confusion",
+     "feedback": "La Méditerranée reçoit le Rhône."
+    },
+    {
+     "equals": "mer du Nord",
+     "category": "word_confusion",
+     "feedback": "La mer du Nord ne borde que l'extrême nord de la France, vers Dunkerque."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e10",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.massif_central"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les volcans éteints de la chaîne des Puys, dont le puy de Dôme, se trouvent dans le ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Massif central",
+    "Jura",
+    "Vosges",
+    "Pyrénées"
+   ],
+   "answer": "Massif central",
+   "acceptedAnswers": [
+    "Massif central"
+   ],
+   "explanation": "La chaîne des Puys, au cœur de l'Auvergne, fait partie du Massif central, une région ancienne de moyennes montagnes qui compte de nombreux volcans éteints.",
+   "tip": "Massif central = volcans d'Auvergne ; Alpes = hauts glaciers.",
+   "extraExample": {
+    "text": "Le Massif central occupe environ un sixième du territoire français.",
+    "translation": "On l'appelle parfois le château d'eau de la France, car de nombreux cours d'eau y naissent."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Jura",
+     "category": "word_confusion",
+     "feedback": "Le Jura est un massif calcaire à la frontière suisse, sans volcans."
+    },
+    {
+     "equals": "Vosges",
+     "category": "word_confusion",
+     "feedback": "Les Vosges, dans l'est, sont de vieilles montagnes sans volcans."
+    },
+    {
+     "equals": "Pyrénées",
+     "category": "word_confusion",
+     "feedback": "Les Pyrénées forment la frontière avec l'Espagne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e11",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.loire",
+    "cg.v.rhone"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque fleuve à son trajet.",
+   "prompt": "Les grands fleuves de France",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Loire",
+     "right": "traverse Orléans, Tours et Nantes"
+    },
+    {
+     "left": "Seine",
+     "right": "traverse Paris et Rouen"
+    },
+    {
+     "left": "Rhône",
+     "right": "passe par Lyon et rejoint la Méditerranée"
+    },
+    {
+     "left": "Garonne",
+     "right": "passe par Toulouse et Bordeaux"
+    }
+   ],
+   "answer": "Loire = traverse Orléans, Tours et Nantes ; Seine = traverse Paris et Rouen ; Rhône = passe par Lyon et rejoint la Méditerranée ; Garonne = passe par Toulouse et Bordeaux",
+   "acceptedAnswers": [],
+   "explanation": "Chaque fleuve a son trajet : la Loire par les châteaux et Nantes, la Seine par Paris, le Rhône par Lyon, la Garonne par Toulouse et Bordeaux.",
+   "tip": "Associe chaque fleuve à une ville repère : Paris, Lyon, Bordeaux, Nantes.",
+   "extraExample": {
+    "text": "Le Rhin forme une partie de la frontière entre la France et l'Allemagne.",
+    "translation": "Strasbourg est bâtie tout près de ses rives."
+   }
+  },
+  {
+   "id": "cg.l14.e12",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.loire"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Une phrase-repère sur les fleuves de France.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "fleuve",
+    "La",
+    "long",
+    "est",
+    "France",
+    "Loire",
+    "de",
+    "le",
+    "plus"
+   ],
+   "answer": "La Loire est le plus long fleuve de France",
+   "acceptedAnswers": [
+    "La Loire est le plus long fleuve de France",
+    "Le plus long fleuve de France est la Loire"
+   ],
+   "explanation": "La Loire (1 006 km) est le plus long fleuve de France.",
+   "tip": "« Le plus long… de France » : la formule du record.",
+   "extraExample": {
+    "text": "Le Mont Blanc est le plus haut sommet de France.",
+    "translation": "Même structure : « le plus haut… de France »."
+   }
+  },
+  {
+   "id": "cg.l14.e13",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.bruxelles"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ville française accueille le siège officiel du Parlement européen ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Strasbourg",
+    "Paris",
+    "Bruxelles",
+    "Luxembourg"
+   ],
+   "answer": "Strasbourg",
+   "acceptedAnswers": [
+    "Strasbourg"
+   ],
+   "explanation": "Le Parlement européen a son siège officiel à Strasbourg, où se tiennent les sessions plénières, même si une partie de ses travaux se déroule à Bruxelles. La Commission européenne, elle, siège à Bruxelles.",
+   "tip": "Parlement européen = Strasbourg ; Commission européenne = Bruxelles.",
+   "extraExample": {
+    "text": "Strasbourg est aussi le siège du Conseil de l'Europe, une organisation distincte de l'Union européenne.",
+    "translation": "La ville est bâtie sur le Rhin, à la frontière allemande."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Bruxelles",
+     "category": "word_confusion",
+     "feedback": "Bruxelles accueille la Commission et une partie du travail du Parlement, mais son siège officiel est à Strasbourg."
+    },
+    {
+     "equals": "Paris",
+     "category": "word_confusion",
+     "feedback": "Paris n'est le siège d'aucune grande institution de l'Union européenne."
+    },
+    {
+     "equals": "Luxembourg",
+     "category": "word_confusion",
+     "feedback": "Luxembourg abrite la Cour de justice de l'Union européenne, pas le siège du Parlement, et n'est pas en France."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e14",
+   "unitIds": [
+    "cg.g13.ameriques",
+    "cg.v.guyane"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La Guyane est bordée à l'ouest par le Suriname, et au sud et à l'est par le ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Brésil",
+    "Venezuela",
+    "Pérou",
+    "Colombie"
+   ],
+   "answer": "Brésil",
+   "acceptedAnswers": [
+    "Brésil",
+    "Le Brésil"
+   ],
+   "explanation": "La Guyane partage sa frontière avec le Suriname, à l'ouest, et avec le Brésil, au sud et à l'est : c'est la plus longue frontière terrestre de la France.",
+   "tip": "Guyane : Suriname à l'ouest, Brésil au sud et à l'est.",
+   "extraExample": {
+    "text": "Le Brésil est le plus grand pays d'Amérique du Sud.",
+    "translation": "Sa capitale, Brasilia, a été inaugurée en 1960."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Venezuela",
+     "category": "word_confusion",
+     "feedback": "Le Venezuela est plus à l'ouest, au-delà du Guyana et du Suriname."
+    },
+    {
+     "equals": "Colombie",
+     "category": "word_confusion",
+     "feedback": "La Colombie est loin à l'ouest de la Guyane."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e15",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.la_reunion",
+    "cg.v.outre_mer"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Depuis 1946, La Réunion est un ___ français.",
+   "promptLanguage": "fr",
+   "options": [
+    "département",
+    "territoire",
+    "protectorat",
+    "mandat"
+   ],
+   "answer": "département",
+   "acceptedAnswers": [
+    "département"
+   ],
+   "explanation": "La loi du 19 mars 1946 a transformé la Guadeloupe, la Martinique, la Guyane et La Réunion, d'anciennes colonies, en départements français.",
+   "tip": "1946 : la colonie devient département.",
+   "extraExample": {
+    "text": "Mayotte est devenue le 101e département français en 2011.",
+    "translation": "Elle se trouve, comme La Réunion, dans l'océan Indien."
+   },
+   "errorPatterns": [
+    {
+     "equals": "territoire",
+     "category": "word_confusion",
+     "feedback": "Un « territoire d'outre-mer » est un autre statut : La Réunion est un département depuis 1946."
+    },
+    {
+     "equals": "protectorat",
+     "category": "word_confusion",
+     "feedback": "Le protectorat était le statut de pays comme le Maroc ou la Tunisie, pas de La Réunion."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e16",
+   "unitIds": [
+    "cg.g14.france_geographie"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Lequel de ces pays n'est PAS voisin de la France métropolitaine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Portugal",
+    "Le Luxembourg",
+    "Andorre",
+    "La Suisse"
+   ],
+   "answer": "Le Portugal",
+   "acceptedAnswers": [
+    "Le Portugal"
+   ],
+   "explanation": "La France métropolitaine a huit voisins : la Belgique, le Luxembourg, l'Allemagne, la Suisse, l'Italie, Monaco, l'Espagne et Andorre. Le Portugal en est séparé par l'Espagne.",
+   "tip": "Huit voisins, de la Belgique à Andorre, en passant par Monaco.",
+   "extraExample": {
+    "text": "Monaco est entièrement entouré par la France, sauf du côté de la mer.",
+    "translation": "C'est le deuxième plus petit État du monde, après le Vatican."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Luxembourg",
+     "category": "word_confusion",
+     "feedback": "Le Luxembourg est bien voisin de la France, au nord-est."
+    },
+    {
+     "equals": "Andorre",
+     "category": "word_confusion",
+     "feedback": "Andorre est enclavée dans les Pyrénées, entre la France et l'Espagne."
+    },
+    {
+     "equals": "La Suisse",
+     "category": "word_confusion",
+     "feedback": "La Suisse touche la France à l'est, le long du Jura et du lac Léman."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e17",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.outre_mer"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Lequel de ces territoires français n'est PAS un département et région d'outre-mer ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Polynésie française",
+    "La Guadeloupe",
+    "La Martinique",
+    "Mayotte"
+   ],
+   "answer": "La Polynésie française",
+   "acceptedAnswers": [
+    "La Polynésie française"
+   ],
+   "explanation": "Les cinq départements et régions d'outre-mer sont la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte. La Polynésie française est une collectivité d'outre-mer, dotée d'une plus grande autonomie.",
+   "tip": "Cinq départements d'outre-mer : Guadeloupe, Martinique, Guyane, La Réunion, Mayotte.",
+   "extraExample": {
+    "text": "La Nouvelle-Calédonie a un statut particulier, prévu par la Constitution.",
+    "translation": "Sa capitale est Nouméa."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Mayotte",
+     "category": "word_confusion",
+     "feedback": "Mayotte est un département d'outre-mer depuis 2011, le 101e de France."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e18",
+   "unitIds": [
+    "cg.v.nil",
+    "cg.v.amazone",
+    "cg.v.everest",
+    "cg.v.canal_de_suez"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque repère à sa description.",
+   "prompt": "Rappel : fleuves, sommets et canaux du monde",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Nil",
+     "right": "traverse l'Égypte"
+    },
+    {
+     "left": "Amazone",
+     "right": "plus grand débit du monde"
+    },
+    {
+     "left": "Everest",
+     "right": "plus haut sommet du monde"
+    },
+    {
+     "left": "Canal de Suez",
+     "right": "relie la Méditerranée à la mer Rouge"
+    }
+   ],
+   "answer": "Nil = traverse l'Égypte ; Amazone = plus grand débit du monde ; Everest = plus haut sommet du monde ; Canal de Suez = relie la Méditerranée à la mer Rouge",
+   "acceptedAnswers": [],
+   "explanation": "Le Nil coule en Égypte, l'Amazone en Amérique du Sud, l'Everest en Asie, et le canal de Suez relie la Méditerranée à la mer Rouge.",
+   "tip": "Un repère = un continent : Nil (Afrique), Amazone (Amérique du Sud), Everest (Asie).",
+   "extraExample": {
+    "text": "Le canal de Panama relie l'Atlantique au Pacifique.",
+    "translation": "Il joue pour les Amériques le rôle que Suez joue pour l'Afrique et l'Asie."
+   }
+  },
+  {
+   "id": "cg.l14.e19",
+   "unitIds": [
+    "cg.g14.france_geographie"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel fleuve traverse Paris ?",
+   "promptLanguage": "fr",
+   "answer": "La Seine",
+   "acceptedAnswers": [
+    "La Seine",
+    "Seine"
+   ],
+   "explanation": "La Seine traverse Paris, Rouen et Le Havre avant de se jeter dans la Manche. Elle mesure environ 780 km.",
+   "tip": "Paris, c'est la Seine ; Lyon, c'est le Rhône et la Saône.",
+   "extraExample": {
+    "text": "La Seine prend sa source en Côte-d'Or, sur le plateau de Langres.",
+    "translation": "Elle traverse la Champagne et l'Île-de-France avant d'atteindre la Normandie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "loire",
+     "category": "word_confusion",
+     "feedback": "La Loire est le plus long fleuve de France, mais elle ne traverse pas Paris."
+    },
+    {
+     "equals": "la loire",
+     "category": "word_confusion",
+     "feedback": "La Loire est le plus long fleuve de France, mais elle ne traverse pas Paris."
+    },
+    {
+     "equals": "marne",
+     "category": "word_confusion",
+     "feedback": "La Marne est un affluent de la Seine, qui la rejoint à l'est de Paris."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e20",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.corse"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle l'île française de la Méditerranée surnommée l'« île de Beauté » ?",
+   "promptLanguage": "fr",
+   "answer": "Corse",
+   "acceptedAnswers": [
+    "Corse",
+    "La Corse"
+   ],
+   "explanation": "La Corse est surnommée l'île de Beauté. C'est la plus grande île de la France métropolitaine et la quatrième de la Méditerranée.",
+   "tip": "Île de Beauté = Corse ; Napoléon est né à Ajaccio.",
+   "extraExample": {
+    "text": "La Sardaigne, au sud, est une île italienne.",
+    "translation": "Un bras de mer, les bouches de Bonifacio, la sépare de la Corse."
+   },
+   "errorPatterns": [
+    {
+     "equals": "sardaigne",
+     "category": "word_confusion",
+     "feedback": "La Sardaigne est une île italienne, juste au sud de la Corse."
+    },
+    {
+     "equals": "sicile",
+     "category": "word_confusion",
+     "feedback": "La Sicile est la plus grande île de la Méditerranée, mais elle est italienne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e21",
+   "unitIds": [
+    "cg.g14.france_geographie"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la deuxième plus grande commune de France par sa population, derrière Paris ?",
+   "promptLanguage": "fr",
+   "answer": "Marseille",
+   "acceptedAnswers": [
+    "Marseille"
+   ],
+   "explanation": "Marseille compte environ 870 000 habitants dans les limites de la commune, derrière Paris (environ 2,1 millions). Lyon est troisième, puis Toulouse et Nice.",
+   "tip": "Par commune : Paris, Marseille, Lyon, Toulouse, Nice.",
+   "extraExample": {
+    "text": "Marseille est le premier port de France.",
+    "translation": "Fondée vers 600 avant J.-C. par des Grecs, c'est l'une des plus anciennes villes du pays."
+   },
+   "errorPatterns": [
+    {
+     "equals": "lyon",
+     "category": "word_confusion",
+     "feedback": "Lyon est la troisième commune de France, mais son agglomération est plus peuplée que celle de Marseille."
+    },
+    {
+     "equals": "toulouse",
+     "category": "word_confusion",
+     "feedback": "Toulouse est la quatrième commune de France."
+    },
+    {
+     "equals": "nice",
+     "category": "word_confusion",
+     "feedback": "Nice est la cinquième commune de France."
+    }
+   ]
+  },
+  {
+   "id": "cg.l14.e22",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.la_reunion"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle île française de l'océan Indien abrite le piton de la Fournaise, un volcan très actif ?",
+   "promptLanguage": "fr",
+   "answer": "La Réunion",
+   "acceptedAnswers": [
+    "La Réunion",
+    "Réunion",
+    "l'île de la Réunion"
+   ],
+   "explanation": "Le piton de la Fournaise, l'un des volcans les plus actifs du monde, se trouve à La Réunion, à l'est de Madagascar.",
+   "tip": "Réunion = océan Indien, volcan de la Fournaise ; Antilles = Martinique et Guadeloupe.",
+   "extraExample": {
+    "text": "Le piton des Neiges (environ 3 070 m) est le point culminant de l'île.",
+    "translation": "C'est un volcan éteint, plus ancien que la Fournaise."
+   },
+   "errorPatterns": [
+    {
+     "equals": "mayotte",
+     "category": "word_confusion",
+     "feedback": "Mayotte est dans l'archipel des Comores ; le piton de la Fournaise est à La Réunion."
+    },
+    {
+     "equals": "madagascar",
+     "category": "word_confusion",
+     "feedback": "Madagascar est un pays indépendant, pas un département français."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,789 @@
+{
+ "lessonId": "cg.l16",
+ "exercises": [
+  {
+   "id": "cg.l16.e01",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.mexique",
+    "cg.v.mandarin"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque pays à sa langue principale.",
+   "prompt": "Un pays, sa langue principale",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Chine",
+     "right": "mandarin"
+    },
+    {
+     "left": "Mexique",
+     "right": "espagnol"
+    },
+    {
+     "left": "Brésil",
+     "right": "portugais"
+    },
+    {
+     "left": "Russie",
+     "right": "russe"
+    },
+    {
+     "left": "Égypte",
+     "right": "arabe"
+    }
+   ],
+   "answer": "Chine = mandarin ; Mexique = espagnol ; Brésil = portugais ; Russie = russe ; Égypte = arabe",
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq grands pays sont chacun un poids lourd de leur langue : le mandarin en Chine, l'espagnol au Mexique, le portugais au Brésil, le russe en Russie et l'arabe en Égypte.",
+   "tip": "Le Brésil parle portugais, pas espagnol, contrairement à la plupart de ses voisins.",
+   "extraExample": {
+    "text": "L'arabe s'écrit de droite à gauche.",
+    "translation": "C'est l'une des six langues officielles de l'ONU."
+   }
+  },
+  {
+   "id": "cg.l16.e02",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.inde"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pays est le plus peuplé du monde depuis 2023 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Inde",
+    "La Chine",
+    "Les États-Unis",
+    "L'Indonésie"
+   ],
+   "answer": "L'Inde",
+   "acceptedAnswers": [
+    "L'Inde"
+   ],
+   "explanation": "En 2023, l'Inde a dépassé la Chine, dont la population a cessé de croître. Les deux pays comptent environ 1,4 milliard d'habitants, soit plus d'un tiers de l'humanité à eux deux.",
+   "tip": "Inde et Chine : environ 1,4 milliard chacune ; l'Inde est devant depuis 2023.",
+   "extraExample": {
+    "text": "Les États-Unis arrivent en troisième position, avec environ 340 millions d'habitants.",
+    "translation": "L'Indonésie est quatrième, avec environ 280 millions."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Chine",
+     "category": "word_confusion",
+     "feedback": "La Chine a été première pendant des décennies, mais l'Inde l'a dépassée en 2023."
+    },
+    {
+     "equals": "Les États-Unis",
+     "category": "word_confusion",
+     "feedback": "Les États-Unis sont troisièmes, avec environ 340 millions d'habitants : très loin derrière l'Inde et la Chine."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e03",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.mandarin",
+    "cg.v.langue_maternelle"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle langue est la plus parlée comme langue maternelle dans le monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le mandarin",
+    "L'anglais",
+    "L'espagnol",
+    "L'hindi"
+   ],
+   "answer": "Le mandarin",
+   "acceptedAnswers": [
+    "Le mandarin"
+   ],
+   "explanation": "Le mandarin compte plus de 900 millions de locuteurs natifs, devant l'espagnol et l'anglais. L'anglais est en revanche la langue la plus parlée au total, car beaucoup l'apprennent comme langue seconde.",
+   "tip": "Langue maternelle : le mandarin en tête ; au total : l'anglais.",
+   "extraExample": {
+    "text": "L'hindi compte environ 350 millions de locuteurs natifs.",
+    "translation": "Avec ceux qui le parlent comme langue seconde, il dépasse 600 millions."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'anglais",
+     "category": "word_confusion",
+     "feedback": "L'anglais est la langue la plus parlée au total, mais pas comme langue maternelle : il arrive après le mandarin et l'espagnol."
+    },
+    {
+     "equals": "L'espagnol",
+     "category": "word_confusion",
+     "feedback": "L'espagnol est deuxième comme langue maternelle, derrière le mandarin."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e04",
+   "unitIds": [
+    "cg.g09.continents_oceans"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel continent abrite près de 60 % de la population mondiale ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Asie",
+    "L'Afrique",
+    "L'Europe",
+    "L'Amérique"
+   ],
+   "answer": "L'Asie",
+   "acceptedAnswers": [
+    "L'Asie"
+   ],
+   "explanation": "L'Asie, le plus grand continent, réunit près de 60 % des habitants de la planète, notamment avec l'Inde et la Chine.",
+   "tip": "Six humains sur dix vivent en Asie.",
+   "extraExample": {
+    "text": "L'Afrique, deuxième continent, compte environ 18 % de la population mondiale.",
+    "translation": "C'est le continent dont la population croît le plus vite."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Afrique",
+     "category": "word_confusion",
+     "feedback": "L'Afrique compte environ 18 % de la population mondiale, moins du tiers de l'Asie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e05",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.densite_de_population"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que mesure la densité de population ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le nombre moyen d'habitants par kilomètre carré",
+    "Le nombre total d'habitants d'un pays",
+    "Le nombre d'habitants de la plus grande ville",
+    "Le nombre de naissances par habitant"
+   ],
+   "answer": "Le nombre moyen d'habitants par kilomètre carré",
+   "acceptedAnswers": [
+    "Le nombre moyen d'habitants par kilomètre carré"
+   ],
+   "explanation": "La densité se calcule en divisant la population par la superficie : c'est un nombre d'habitants par km². Un grand pays peu peuplé, comme la Mongolie, a une très faible densité.",
+   "tip": "Densité = habitants ÷ km².",
+   "extraExample": {
+    "text": "Monaco dépasse les 15 000 habitants par km².",
+    "translation": "C'est la densité la plus forte du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le nombre total d'habitants d'un pays",
+     "category": "word_confusion",
+     "feedback": "Le nombre total d'habitants, c'est la population ; la densité tient compte de la superficie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e06",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.mexique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pays compte le plus d'hispanophones ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Mexique",
+    "L'Espagne",
+    "L'Argentine",
+    "La Colombie"
+   ],
+   "answer": "Le Mexique",
+   "acceptedAnswers": [
+    "Le Mexique"
+   ],
+   "explanation": "Le Mexique compte plus de 125 millions d'habitants, bien plus que la Colombie (environ 52 millions), l'Espagne (environ 48 millions) ou l'Argentine (environ 46 millions).",
+   "tip": "Le plus grand pays hispanophone n'est pas l'Espagne, mais le Mexique.",
+   "extraExample": {
+    "text": "Le Brésil, grand voisin sud-américain, parle portugais.",
+    "translation": "Il compte environ 210 millions d'habitants, plus que le Mexique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Espagne",
+     "category": "word_confusion",
+     "feedback": "L'Espagne, berceau de la langue, compte environ 48 millions d'habitants : moins de la moitié du Mexique."
+    },
+    {
+     "equals": "La Colombie",
+     "category": "word_confusion",
+     "feedback": "La Colombie compte environ 52 millions d'habitants, moins de la moitié du Mexique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e07",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.tokyo"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ville a remplacé Kyoto comme capitale impériale du Japon à la fin du XIXe siècle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tokyo",
+    "Osaka",
+    "Nagoya",
+    "Yokohama"
+   ],
+   "answer": "Tokyo",
+   "acceptedAnswers": [
+    "Tokyo"
+   ],
+   "explanation": "L'ancienne ville d'Edo a été rebaptisée Tokyo en 1868, et l'empereur s'y est installé l'année suivante, quittant Kyoto, qui était la capitale impériale depuis plus de mille ans. Tokyo est aujourd'hui l'une des plus grandes agglomérations du monde.",
+   "tip": "Tokyo signifie « capitale de l'Est ».",
+   "extraExample": {
+    "text": "Yokohama est le grand port de la baie de Tokyo.",
+    "translation": "Les deux villes forment aujourd'hui une immense agglomération."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Osaka",
+     "category": "word_confusion",
+     "feedback": "Osaka est un grand centre économique, mais pas la capitale du Japon."
+    },
+    {
+     "equals": "Yokohama",
+     "category": "word_confusion",
+     "feedback": "Yokohama est le grand port voisin de Tokyo, dans la même agglomération."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e08",
+   "unitIds": [
+    "cg.g14.france_geographie",
+    "cg.v.densite_de_population"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Environ combien d'habitants la France compte-t-elle, outre-mer compris ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Environ 68 millions",
+    "Environ 48 millions",
+    "Environ 88 millions",
+    "Environ 120 millions"
+   ],
+   "answer": "Environ 68 millions",
+   "acceptedAnswers": [
+    "Environ 68 millions"
+   ],
+   "explanation": "La France compte environ 68 millions d'habitants en 2024. C'est le deuxième pays le plus peuplé de l'Union européenne, derrière l'Allemagne (environ 84 millions).",
+   "tip": "France : environ 68 millions ; Allemagne : environ 84 millions.",
+   "extraExample": {
+    "text": "La densité de la France métropolitaine est d'environ 120 habitants par km².",
+    "translation": "C'est environ deux fois moins que celle de l'Allemagne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Environ 120 millions",
+     "category": "word_confusion",
+     "feedback": "120 est la densité de la France en habitants par km², pas sa population."
+    },
+    {
+     "equals": "Environ 48 millions",
+     "category": "word_confusion",
+     "feedback": "48 millions, c'est plutôt la population de l'Espagne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e09",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.urbanisation"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Depuis 2007, plus de la moitié de l'humanité vit en ville : c'est le phénomène de l'___.",
+   "promptLanguage": "fr",
+   "options": [
+    "urbanisation",
+    "immigration",
+    "mondialisation",
+    "industrialisation"
+   ],
+   "answer": "urbanisation",
+   "acceptedAnswers": [
+    "urbanisation"
+   ],
+   "explanation": "L'urbanisation désigne la concentration croissante de la population dans les villes. Depuis 2007, les citadins sont plus nombreux que les ruraux dans le monde.",
+   "tip": "Urbain = de la ville : urbanisation = l'avancée de la ville.",
+   "extraExample": {
+    "text": "L'ONU prévoit près de 70 % de citadins vers 2050.",
+    "translation": "La croissance urbaine se concentre surtout en Asie et en Afrique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "immigration",
+     "category": "word_confusion",
+     "feedback": "L'immigration est l'arrivée d'étrangers dans un pays ; ici on parle du passage de la campagne à la ville."
+    },
+    {
+     "equals": "mondialisation",
+     "category": "word_confusion",
+     "feedback": "La mondialisation désigne l'intensification des échanges entre pays, pas l'avancée de la ville."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e10",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.langue_maternelle"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La première langue apprise dans l'enfance, en famille, s'appelle la langue ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "maternelle",
+    "officielle",
+    "seconde",
+    "régionale"
+   ],
+   "answer": "maternelle",
+   "acceptedAnswers": [
+    "maternelle"
+   ],
+   "explanation": "La langue maternelle est celle qu'on acquiert dès le plus jeune âge. Elle peut différer de la langue officielle du pays ou de celle de l'école.",
+   "tip": "Maternelle = apprise avec sa famille, dès le berceau.",
+   "extraExample": {
+    "text": "Au Sénégal, le français est la langue officielle, mais le wolof est la langue maternelle de nombreux habitants.",
+    "translation": "Beaucoup de Sénégalais parlent donc plusieurs langues."
+   },
+   "errorPatterns": [
+    {
+     "equals": "seconde",
+     "category": "word_confusion",
+     "feedback": "Une langue seconde est apprise plus tard, après la langue maternelle."
+    },
+    {
+     "equals": "officielle",
+     "category": "word_confusion",
+     "feedback": "La langue officielle est celle de l'État ; elle n'est pas forcément la langue de la famille."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e11",
+   "unitIds": [
+    "cg.v.inde",
+    "cg.g16.population_villes_langues"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque pays à sa population.",
+   "prompt": "Les quatre pays les plus peuplés (ordre de grandeur, vers 2024)",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Inde",
+     "right": "environ 1,4 milliard d'habitants, 1er depuis 2023"
+    },
+    {
+     "left": "Chine",
+     "right": "environ 1,4 milliard d'habitants, 2e"
+    },
+    {
+     "left": "États-Unis",
+     "right": "environ 340 millions d'habitants, 3e"
+    },
+    {
+     "left": "Indonésie",
+     "right": "environ 280 millions d'habitants, 4e"
+    }
+   ],
+   "answer": "Inde = environ 1,4 milliard d'habitants, 1er depuis 2023 ; Chine = environ 1,4 milliard d'habitants, 2e ; États-Unis = environ 340 millions d'habitants, 3e ; Indonésie = environ 280 millions d'habitants, 4e",
+   "acceptedAnswers": [],
+   "explanation": "L'Inde et la Chine dominent largement, avec environ 1,4 milliard d'habitants chacune ; viennent ensuite les États-Unis puis l'Indonésie.",
+   "tip": "Inde > Chine > États-Unis > Indonésie.",
+   "extraExample": {
+    "text": "Le Pakistan est cinquième, avec environ 240 millions d'habitants.",
+    "translation": "Le Nigeria et le Brésil suivent, autour de 210 à 230 millions."
+   }
+  },
+  {
+   "id": "cg.l16.e12",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.mandarin",
+    "cg.v.langue_maternelle"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Une phrase-repère sur les langues du monde.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "plus",
+    "langue",
+    "Le",
+    "la",
+    "du",
+    "maternelle",
+    "parlée",
+    "mandarin",
+    "est",
+    "monde",
+    "la"
+   ],
+   "answer": "Le mandarin est la langue maternelle la plus parlée du monde",
+   "acceptedAnswers": [
+    "Le mandarin est la langue maternelle la plus parlée du monde",
+    "La langue maternelle la plus parlée du monde est le mandarin"
+   ],
+   "explanation": "Le mandarin compte plus de 900 millions de locuteurs natifs : c'est la langue maternelle la plus répandue.",
+   "tip": "« La plus parlée du monde » : le superlatif, comme pour les records.",
+   "extraExample": {
+    "text": "L'anglais est la langue la plus parlée au total.",
+    "translation": "Il est la langue seconde de centaines de millions de personnes."
+   }
+  },
+  {
+   "id": "cg.l16.e13",
+   "unitIds": [
+    "cg.g11.afrique_moyen_orient",
+    "cg.v.francophonie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Plus de 300 millions de personnes parlent français dans le monde, et la majorité d'entre elles vivent en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Afrique",
+    "Europe",
+    "Amérique du Nord",
+    "Asie"
+   ],
+   "answer": "Afrique",
+   "acceptedAnswers": [
+    "Afrique"
+   ],
+   "explanation": "La majorité des francophones vit en Afrique, de l'Afrique du Nord à l'Afrique centrale : la République démocratique du Congo, l'Algérie ou la Côte d'Ivoire comptent de très nombreux locuteurs.",
+   "tip": "Le centre de gravité du français est en Afrique, pas en France.",
+   "extraExample": {
+    "text": "Le français est langue officielle au Sénégal, au Cameroun, en Côte d'Ivoire et dans de nombreux autres pays africains.",
+    "translation": "Il y cohabite avec de nombreuses langues locales."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Europe",
+     "category": "word_confusion",
+     "feedback": "La France, la Belgique et la Suisse comptent des dizaines de millions de francophones, mais moins que l'ensemble de l'Afrique."
+    },
+    {
+     "equals": "Amérique du Nord",
+     "category": "word_confusion",
+     "feedback": "Le Canada et les États-Unis comptent plusieurs millions de francophones, mais bien moins que l'Afrique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e14",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.langue_maternelle"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'ONU compte ___ langues officielles, dont le français, l'arabe et le chinois.",
+   "promptLanguage": "fr",
+   "options": [
+    "six",
+    "quatre",
+    "huit",
+    "dix"
+   ],
+   "answer": "six",
+   "acceptedAnswers": [
+    "six",
+    "6"
+   ],
+   "explanation": "Les six langues officielles de l'ONU sont l'anglais, l'arabe, le chinois, l'espagnol, le français et le russe.",
+   "tip": "Dans l'ordre alphabétique : anglais, arabe, chinois, espagnol, français, russe.",
+   "extraExample": {
+    "text": "Les deux langues de travail du Secrétariat de l'ONU sont l'anglais et le français.",
+    "translation": "Les documents y sont d'abord rédigés dans l'une de ces deux langues."
+   },
+   "errorPatterns": [
+    {
+     "equals": "quatre",
+     "category": "word_confusion",
+     "feedback": "Il y en a six : l'arabe, le chinois, l'espagnol et le russe s'ajoutent à l'anglais et au français."
+    },
+    {
+     "equals": "huit",
+     "category": "word_confusion",
+     "feedback": "Il y en a six, pas huit : anglais, arabe, chinois, espagnol, français, russe."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e15",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.megapole",
+    "cg.v.densite_de_population",
+    "cg.v.urbanisation",
+    "cg.v.langue_maternelle"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque terme à sa définition.",
+   "prompt": "Les mots de la démographie et des langues",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Mégapole",
+     "right": "agglomération de plus de 10 millions d'habitants"
+    },
+    {
+     "left": "Densité de population",
+     "right": "nombre d'habitants par kilomètre carré"
+    },
+    {
+     "left": "Urbanisation",
+     "right": "part croissante de la population qui vit en ville"
+    },
+    {
+     "left": "Langue maternelle",
+     "right": "première langue apprise dans l'enfance"
+    }
+   ],
+   "answer": "Mégapole = agglomération de plus de 10 millions d'habitants ; Densité de population = nombre d'habitants par kilomètre carré ; Urbanisation = part croissante de la population qui vit en ville ; Langue maternelle = première langue apprise dans l'enfance",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre termes servent à décrire la population et les langues : la mégapole (taille d'une ville), la densité (habitants par km²), l'urbanisation (vie en ville) et la langue maternelle.",
+   "tip": "Mégapole : « méga » = très grand ; densité : peuplement par km².",
+   "extraExample": {
+    "text": "Une métropole est une grande ville qui rayonne sur sa région, sans seuil de population précis.",
+    "translation": "La mégapole, elle, dépasse 10 millions d'habitants."
+   }
+  },
+  {
+   "id": "cg.l16.e16",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.megapole"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on une agglomération de plus de 10 millions d'habitants ?",
+   "promptLanguage": "fr",
+   "answer": "Une mégapole",
+   "acceptedAnswers": [
+    "Une mégapole",
+    "Mégapole",
+    "Megapole",
+    "Une megapole",
+    "Mégalopole",
+    "Une mégalopole"
+   ],
+   "explanation": "Une mégapole est une agglomération d'au moins 10 millions d'habitants, comme Tokyo, Delhi ou Shanghai. On parle aussi parfois de mégalopole.",
+   "tip": "Méga = très grand ; il n'y a pas de mégapole dans la plupart des pays.",
+   "extraExample": {
+    "text": "Il existe une trentaine de mégapoles dans le monde.",
+    "translation": "La majorité se trouve en Asie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "métropole",
+     "category": "word_confusion",
+     "feedback": "Une métropole est une grande ville qui rayonne sur sa région, sans seuil précis ; le mot cherché est « mégapole »."
+    },
+    {
+     "equals": "une métropole",
+     "category": "word_confusion",
+     "feedback": "Une métropole est une grande ville qui rayonne sur sa région, sans seuil précis ; le mot cherché est « mégapole »."
+    },
+    {
+     "equals": "capitale",
+     "category": "word_confusion",
+     "feedback": "Une capitale est le siège du pouvoir d'un pays ; elle n'est pas forcément une mégapole."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e17",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.langue_maternelle"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle langue est la plus parlée au total dans le monde, en comptant aussi ceux qui l'ont apprise comme langue seconde ?",
+   "promptLanguage": "fr",
+   "answer": "L'anglais",
+   "acceptedAnswers": [
+    "L'anglais",
+    "Anglais",
+    "La langue anglaise"
+   ],
+   "explanation": "L'anglais compte environ 1,5 milliard de locuteurs en tout, dont une majorité l'ont appris comme langue seconde. Le mandarin, avec plus d'un milliard de locuteurs, vient ensuite.",
+   "tip": "Langue maternelle : mandarin ; total de locuteurs : anglais.",
+   "extraExample": {
+    "text": "L'anglais est la langue des communications aériennes internationales.",
+    "translation": "Un pilote chinois et un contrôleur français l'utilisent pour se comprendre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "mandarin",
+     "category": "word_confusion",
+     "feedback": "Le mandarin est la première langue maternelle, mais l'anglais compte plus de locuteurs au total."
+    },
+    {
+     "equals": "le mandarin",
+     "category": "word_confusion",
+     "feedback": "Le mandarin est la première langue maternelle, mais l'anglais compte plus de locuteurs au total."
+    },
+    {
+     "equals": "chinois",
+     "category": "word_confusion",
+     "feedback": "Le chinois (mandarin) est la première langue maternelle, mais l'anglais compte plus de locuteurs au total."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e18",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.mongolie",
+    "cg.v.densite_de_population"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel pays d'Asie, coincé entre la Russie et la Chine, a la plus faible densité de population des pays indépendants ?",
+   "promptLanguage": "fr",
+   "answer": "Mongolie",
+   "acceptedAnswers": [
+    "Mongolie",
+    "La Mongolie"
+   ],
+   "explanation": "La Mongolie compte à peine plus de 3 millions d'habitants sur un territoire plus de deux fois plus grand que la France : environ 2 habitants par km², la plus faible densité des pays indépendants.",
+   "tip": "Mongolie : environ 2 habitants au km² ; Monaco : plus de 15 000.",
+   "extraExample": {
+    "text": "Oulan-Bator, la capitale, est considérée comme la plus froide du monde.",
+    "translation": "Elle abrite près de la moitié des habitants du pays."
+   },
+   "errorPatterns": [
+    {
+     "equals": "kazakhstan",
+     "category": "word_confusion",
+     "feedback": "Le Kazakhstan est aussi très peu dense (environ 7 habitants par km²), mais moins que la Mongolie."
+    },
+    {
+     "equals": "canada",
+     "category": "word_confusion",
+     "feedback": "Le Canada est peu dense (environ 4 habitants par km²), mais la Mongolie l'est encore moins."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e19",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.v.francophonie"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle l'organisation internationale qui réunit les États et gouvernements ayant le français en partage ?",
+   "promptLanguage": "fr",
+   "answer": "La Francophonie",
+   "acceptedAnswers": [
+    "La Francophonie",
+    "Francophonie",
+    "OIF",
+    "L'OIF",
+    "Organisation internationale de la Francophonie",
+    "L'Organisation internationale de la Francophonie"
+   ],
+   "explanation": "L'Organisation internationale de la Francophonie (OIF), héritière d'une agence créée en 1970 à Niamey, réunit des États et gouvernements de tous les continents.",
+   "tip": "Francophonie avec un grand F : l'organisation ; avec un petit f : l'ensemble des francophones.",
+   "extraExample": {
+    "text": "La Journée internationale de la Francophonie est célébrée chaque année le 20 mars.",
+    "translation": "Elle rappelle la création de l'ancêtre de l'OIF, en 1970."
+   },
+   "errorPatterns": [
+    {
+     "equals": "commonwealth",
+     "category": "word_confusion",
+     "feedback": "Le Commonwealth réunit d'anciens territoires britanniques : c'est l'équivalent anglophone, pas la Francophonie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l16.e20",
+   "unitIds": [
+    "cg.g16.population_villes_langues"
+   ],
+   "type": "mcq",
+   "difficulty": 4,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pays compte le plus grand nombre de langues parlées, plus de 800 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Papouasie-Nouvelle-Guinée",
+    "L'Inde",
+    "Le Nigeria",
+    "La Chine"
+   ],
+   "answer": "La Papouasie-Nouvelle-Guinée",
+   "acceptedAnswers": [
+    "La Papouasie-Nouvelle-Guinée"
+   ],
+   "explanation": "La Papouasie-Nouvelle-Guinée, avec ses vallées isolées, compte plus de 800 langues pour environ 10 millions d'habitants : c'est le pays le plus riche en langues du monde. L'Inde et le Nigeria en comptent plusieurs centaines.",
+   "tip": "Papouasie-Nouvelle-Guinée : le pays le plus riche en langues.",
+   "extraExample": {
+    "text": "Le monde compte environ 7 000 langues.",
+    "translation": "Beaucoup sont menacées de disparition."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Inde",
+     "category": "word_confusion",
+     "feedback": "L'Inde compte plusieurs centaines de langues (dont 22 reconnues par la Constitution), mais moins que la Papouasie-Nouvelle-Guinée."
+    },
+    {
+     "equals": "Le Nigeria",
+     "category": "word_confusion",
+     "feedback": "Le Nigeria compte plus de 500 langues, mais moins que la Papouasie-Nouvelle-Guinée."
+    }
+   ]
+  }
+ ]
+}

@@ -190,5 +190,101 @@
    ],
    "tip": "Six lettres coupeuses : ا د ذ ر ز و. Après elles, repars à zéro avec la forme de début."
   }
+ },
+ {
+  "id": "ar.g05.sin_chin_sad_dad",
+  "rule": {
+   "summary": "س ش ont une « scie » de trois petites dents ; ص ض ont une boucle ronde. Dans chaque paire, seuls les points changent : ش = س + 3 points dessus, ض = ص + 1 point dessus.",
+   "explanation": "Au début et au milieu, س et ش dessinent une petite scie à trois pointes (سـ ـسـ, شـ ـشـ) et ص et ض une boucle fermée (صـ ـصـ, ضـ ـضـ). Isolées ou à la fin, elles se terminent par une grande courbe avec une queue (س ش ص ض, ـس ـش ـص ـض). Les sons : س = s comme dans « sac » (toujours dur) ; ش = ch comme dans « chat » ; ص = un s « lourd » (la langue plaquée contre le palais, la bouche plus ronde), noté S ; ض = un d « lourd », noté D. Attention à ne pas confondre ث (trois points sur une seule dent) et ش (trois points sur trois dents).",
+   "pattern": "س : scie, 0 point · ش : scie + 3 points · ص : boucle · ض : boucle + 1 point dessus",
+   "examples": [
+    {
+     "text": "سَرِير",
+     "translation": "le lit",
+     "transliteration": "sarîr"
+    },
+    {
+     "text": "شَوْكَة",
+     "translation": "la fourchette",
+     "transliteration": "chawka"
+    },
+    {
+     "text": "صَحْن",
+     "translation": "l'assiette",
+     "transliteration": "Sa7n"
+    },
+    {
+     "text": "ضَيْف",
+     "translation": "l'invité",
+     "transliteration": "Dayf"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "شَوْكَة lu « thawka »",
+     "right": "شَوْكَة = chawka",
+     "why": "Les trois points sont posés sur une scie à trois dents : c'est ش (ch). ث aurait ses trois points sur une seule dent."
+    },
+    {
+     "wrong": "صَحْن lu comme avec un س léger",
+     "right": "صَحْن = Sa7n, avec un s « lourd »",
+     "why": "Une boucle ronde, c'est ص : un s plus profond et plus appuyé que س, qui est une scie."
+    },
+    {
+     "wrong": "ضَيْف lu « Sayf »",
+     "right": "ضَيْف = Dayf",
+     "why": "Il y a un point au-dessus de la boucle : c'est ض (D). Sans point, صَيْف (Sayf) veut dire « l'été »."
+    }
+   ],
+   "tip": "Scie ou boucle ? Puis compte les points : zéro ou trois pour la scie, zéro ou un pour la boucle."
+  }
+ },
+ {
+  "id": "ar.g06.ta_za_ayn_ghayn",
+  "rule": {
+   "summary": "ط ظ : une boucle fermée surmontée d'un bâton vertical ; ظ = ط + un point dessus. ع غ : une tête en forme d'œil ; غ = ع + un point dessus. Forme d'abord, point ensuite.",
+   "explanation": "ط et ظ ressemblent à ص et ض, avec un détail qui change tout : un bâton vertical qui monte au-dessus de la boucle (طـ ـطـ, ظـ ـظـ). Sans bâton, c'est ص ou ض ; avec le bâton, c'est ط ou ظ. Ce sont des sons « lourds » : ط = T (un t plus profond que ت) et ظ = Z (un dh lourd ; en Égypte, on entend plutôt un z lourd). ع et غ sont deux lettres de la gorge : au début et au milieu, une petite tête triangulaire (عـ ـعـ, غـ ـغـ), à la fin ou isolées, une tête avec une queue (ع ـع, غ ـغ). ع (3) n'existe pas en français : c'est un son créé en serrant la gorge, comme un « a » qu'on pousse du fond du larynx. غ (gh) ressemble au r grasseyé français, celui de « rue ».",
+   "pattern": "ط : boucle + bâton · ظ : boucle + bâton + 1 point dessus · ع : tête, 0 point · غ : tête + 1 point dessus",
+   "examples": [
+    {
+     "text": "طَعَام",
+     "translation": "la nourriture",
+     "transliteration": "Ta3âm"
+    },
+    {
+     "text": "عَسَل",
+     "translation": "le miel",
+     "transliteration": "3asal"
+    },
+    {
+     "text": "غُرْفَة",
+     "translation": "la chambre",
+     "transliteration": "ghurfa"
+    },
+    {
+     "text": "نَظِيف",
+     "translation": "propre",
+     "transliteration": "naZîf"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "طَعَام lu « Sa3âm »",
+     "right": "طَعَام = Ta3âm",
+     "why": "Le bâton vertical distingue ط de ص : sans bâton, la boucle est un ص. Ici, il y a un bâton : c'est ط (T)."
+    },
+    {
+     "wrong": "غُرْفَة lu « 3urfa »",
+     "right": "غُرْفَة = ghurfa",
+     "why": "La tête porte un point au-dessus : c'est غ (gh). Sans point, ce serait ع (3)."
+    },
+    {
+     "wrong": "نَظِيف lu « naTîf »",
+     "right": "نَظِيف = naZîf",
+     "why": "Il y a un point au-dessus du bâton : c'est ظ (Z). ط n'a aucun point."
+    }
+   ],
+   "tip": "Bâton ? Alors ط ou ظ. Tête d'œil ? Alors ع ou غ. Un point dessus : ظ ou غ."
+  }
  }
 ]

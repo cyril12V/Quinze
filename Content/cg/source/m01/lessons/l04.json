@@ -1,0 +1,812 @@
+{
+ "lessonId": "cg.l04",
+ "exercises": [
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.ancien_regime",
+    "cg.v.tiers_etat"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les trois ordres de l'Ancien Régime",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Le clergé",
+     "right": "les religieux : évêques, prêtres, moines"
+    },
+    {
+     "left": "La noblesse",
+     "right": "les seigneurs, qui ont des privilèges"
+    },
+    {
+     "left": "Le tiers état",
+     "right": "tout le reste : paysans, artisans, bourgeois"
+    },
+    {
+     "left": "L'Ancien Régime",
+     "right": "la France d'avant 1789"
+    }
+   ],
+   "answer": "Le clergé = les religieux : évêques, prêtres, moines ; La noblesse = les seigneurs, qui ont des privilèges ; Le tiers état = tout le reste : paysans, artisans, bourgeois ; L'Ancien Régime = la France d'avant 1789",
+   "acceptedAnswers": [],
+   "explanation": "Avant 1789, la société est divisée en trois ordres : le clergé, la noblesse et le tiers état. Les deux premiers ont des privilèges ; le tiers état, qui représente l'immense majorité des Français, paie la plupart des impôts.",
+   "tip": "Clergé, noblesse, tiers état : les deux premiers ont des privilèges, le troisième paie.",
+   "extraExample": {
+    "text": "En 1789, le clergé et la noblesse ne forment qu'une toute petite minorité des Français.",
+    "translation": "Le tiers état représente environ 98 % de la population."
+   },
+   "id": "cg.l04.e01"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.prise_de_la_bastille"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À quelle date les Parisiens prennent-ils la Bastille ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le 14 juillet 1789",
+    "Le 4 août 1789",
+    "Le 26 août 1789",
+    "Le 21 janvier 1793"
+   ],
+   "answer": "Le 14 juillet 1789",
+   "acceptedAnswers": [
+    "Le 14 juillet 1789"
+   ],
+   "explanation": "Le 14 juillet 1789, des Parisiens en armes s'emparent de la Bastille, forteresse-prison qui symbolise l'arbitraire royal. Le 4 août, l'Assemblée abolit les privilèges ; le 26 août, elle adopte la Déclaration des droits ; le 21 janvier 1793, Louis XVI est exécuté.",
+   "tip": "14 juillet = Bastille = fête nationale.",
+   "extraExample": {
+    "text": "La Bastille ne renfermait que sept prisonniers ce jour-là.",
+    "translation": "C'est le symbole qui compte, pas le nombre de détenus."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le 4 août 1789",
+     "category": "word_confusion",
+     "feedback": "Le 4 août 1789 est la nuit où l'Assemblée abolit les privilèges."
+    },
+    {
+     "equals": "Le 26 août 1789",
+     "category": "word_confusion",
+     "feedback": "Le 26 août 1789 est la date de la Déclaration des droits de l'homme et du citoyen."
+    },
+    {
+     "equals": "Le 21 janvier 1793",
+     "category": "word_confusion",
+     "feedback": "Le 21 janvier 1793 est l'exécution de Louis XVI."
+    }
+   ],
+   "id": "cg.l04.e02"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.declaration_des_droits_de_l_homme"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que proclame l'article premier de la Déclaration des droits de l'homme et du citoyen (26 août 1789) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les hommes naissent et demeurent libres et égaux en droits",
+    "Le roi tient son pouvoir de Dieu",
+    "Tous les citoyens ont les mêmes richesses",
+    "La monarchie est abolie"
+   ],
+   "answer": "Les hommes naissent et demeurent libres et égaux en droits",
+   "acceptedAnswers": [
+    "Les hommes naissent et demeurent libres et égaux en droits"
+   ],
+   "explanation": "La Déclaration pose le principe de l'égalité en droits, qui met fin aux privilèges de naissance. Elle n'abolit pas la monarchie (1792) et ne promet pas l'égalité des richesses.",
+   "tip": "« Libres et égaux en droits » : la phrase-clé de 1789.",
+   "extraExample": {
+    "text": "Ce texte est encore cité dans le préambule de la Constitution de la Ve République.",
+    "translation": "Plus de 230 ans après, il reste une référence juridique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La monarchie est abolie",
+     "category": "word_confusion",
+     "feedback": "La monarchie ne tombe qu'en 1792 ; en 1789, le roi reste en place."
+    },
+    {
+     "equals": "Le roi tient son pouvoir de Dieu",
+     "category": "word_confusion",
+     "feedback": "C'est l'idée de la monarchie de droit divin de l'Ancien Régime, que la Déclaration rejette."
+    }
+   ],
+   "id": "cg.l04.e03"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.ancien_regime",
+    "cg.v.louis_xvi"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi Louis XVI convoque-t-il les États généraux en 1789 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Pour trouver des solutions à la crise financière du royaume",
+    "Pour déclarer la guerre à l'Autriche",
+    "Pour proclamer la République",
+    "Pour abolir les privilèges de la noblesse"
+   ],
+   "answer": "Pour trouver des solutions à la crise financière du royaume",
+   "acceptedAnswers": [
+    "Pour trouver des solutions à la crise financière du royaume"
+   ],
+   "explanation": "Le royaume est lourdement endetté, notamment à cause des guerres, dont l'aide aux Américains pendant leur guerre d'indépendance. Louis XVI réunit les États généraux, qui n'avaient pas siégé depuis 1614, pour obtenir de nouveaux impôts.",
+   "tip": "Crise financière → États généraux → Révolution.",
+   "extraExample": {
+    "text": "La guerre contre l'Autriche n'est déclarée qu'en avril 1792, trois ans plus tard.",
+    "translation": "La Révolution a donc d'abord une cause financière."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Pour abolir les privilèges de la noblesse",
+     "category": "word_confusion",
+     "feedback": "Les privilèges sont abolis dans la nuit du 4 août 1789, après l'ouverture des États généraux."
+    },
+    {
+     "equals": "Pour proclamer la République",
+     "category": "word_confusion",
+     "feedback": "La République n'est proclamée qu'en septembre 1792."
+    }
+   ],
+   "id": "cg.l04.e04"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.louis_xvi"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que se passe-t-il le 21 janvier 1793 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Louis XVI est guillotiné",
+    "Marie-Antoinette est guillotinée",
+    "Robespierre est arrêté",
+    "La Bastille est prise"
+   ],
+   "answer": "Louis XVI est guillotiné",
+   "acceptedAnswers": [
+    "Louis XVI est guillotiné"
+   ],
+   "explanation": "Jugé par la Convention, Louis XVI est condamné à mort et guillotiné place de la Révolution, l'actuelle place de la Concorde. Marie-Antoinette l'est neuf mois plus tard, le 16 octobre 1793.",
+   "tip": "Janvier 1793 : le roi ; octobre 1793 : la reine.",
+   "extraExample": {
+    "text": "Après l'exécution du roi, la France est en guerre contre l'Autriche, la Prusse, l'Angleterre et l'Espagne.",
+    "translation": "La Révolution se radicalise."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Marie-Antoinette est guillotinée",
+     "category": "word_confusion",
+     "feedback": "Marie-Antoinette est guillotinée le 16 octobre 1793, neuf mois après son mari."
+    },
+    {
+     "equals": "Robespierre est arrêté",
+     "category": "word_confusion",
+     "feedback": "Robespierre est arrêté le 9 thermidor, en juillet 1794."
+    },
+    {
+     "equals": "La Bastille est prise",
+     "category": "word_confusion",
+     "feedback": "La Bastille est prise le 14 juillet 1789."
+    }
+   ],
+   "id": "cg.l04.e05"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.olympe_de_gouges"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui est Olympe de Gouges ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une femme de lettres qui réclame l'égalité des droits pour les femmes",
+    "La reine de France, épouse de Louis XVI",
+    "Une cheffe de la révolte vendéenne",
+    "La première députée de la Convention"
+   ],
+   "answer": "Une femme de lettres qui réclame l'égalité des droits pour les femmes",
+   "acceptedAnswers": [
+    "Une femme de lettres qui réclame l'égalité des droits pour les femmes"
+   ],
+   "explanation": "En 1791, Olympe de Gouges publie la Déclaration des droits de la femme et de la citoyenne, en réponse à la Déclaration de 1789 qui oublie les femmes. Elle est guillotinée en 1793.",
+   "tip": "Olympe de Gouges = les droits des femmes en 1791.",
+   "extraExample": {
+    "text": "Les femmes françaises n'obtiennent le droit de vote qu'en 1944.",
+    "translation": "Le combat d'Olympe de Gouges a duré plus d'un siècle et demi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La reine de France, épouse de Louis XVI",
+     "category": "word_confusion",
+     "feedback": "La reine est Marie-Antoinette d'Autriche."
+    },
+    {
+     "equals": "La première députée de la Convention",
+     "category": "word_confusion",
+     "feedback": "Aucune femme ne siège à la Convention : les femmes ne votent ni ne sont élues."
+    }
+   ],
+   "id": "cg.l04.e06"
+  },
+  {
+   "unitIds": [
+    "cg.v.edit_de_nantes",
+    "cg.g04.revolution_francaise"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel roi de l'Ancien Régime a révoqué l'édit de Nantes en 1685 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Louis XIV",
+    "Henri IV",
+    "Louis XVI",
+    "François Ier"
+   ],
+   "answer": "Louis XIV",
+   "acceptedAnswers": [
+    "Louis XIV"
+   ],
+   "explanation": "Louis XIV (1643-1715), le Roi-Soleil, révoque l'édit de Nantes en 1685 : les protestants n'ont plus le droit de pratiquer leur culte et beaucoup s'exilent. Henri IV l'avait signé en 1598.",
+   "tip": "Henri IV (1598) donne la tolérance, Louis XIV (1685) la reprend.",
+   "extraExample": {
+    "text": "Louis XIV règne 72 ans, de 1643 à 1715 : c'est le plus long règne de l'histoire de France.",
+    "translation": "Il incarne la monarchie absolue de l'Ancien Régime."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Henri IV",
+     "category": "word_confusion",
+     "feedback": "Henri IV a signé l'édit de Nantes en 1598 ; il ne l'a pas révoqué."
+    },
+    {
+     "equals": "Louis XVI",
+     "category": "word_confusion",
+     "feedback": "Louis XVI règne un siècle plus tard ; il signe l'édit de tolérance de 1787 en faveur des protestants."
+    }
+   ],
+   "id": "cg.l04.e07"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.la_terreur"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que la Terreur (1793-1794) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une période de répression qui envoie des milliers de personnes à la guillotine",
+    "Une guerre civile entre catholiques et protestants",
+    "Une révolte de paysans contre les nobles, en 1789",
+    "L'occupation de Paris par des armées étrangères"
+   ],
+   "answer": "Une période de répression qui envoie des milliers de personnes à la guillotine",
+   "acceptedAnswers": [
+    "Une période de répression qui envoie des milliers de personnes à la guillotine"
+   ],
+   "explanation": "Pendant la Terreur, le gouvernement révolutionnaire, dominé par Robespierre, arrête et exécute ceux qu'il juge hostiles à la République. La guerre entre catholiques et protestants, ce sont les guerres de religion du XVIe siècle.",
+   "tip": "Terreur = 1793-1794 = Robespierre + guillotine.",
+   "extraExample": {
+    "text": "La Grande Peur de l'été 1789 est une vague de rumeurs et de révoltes paysannes contre les seigneurs.",
+    "translation": "Elle précède la Terreur de quatre ans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Une guerre civile entre catholiques et protestants",
+     "category": "word_confusion",
+     "feedback": "Ce sont les guerres de religion (1562-1598), deux siècles plus tôt."
+    },
+    {
+     "equals": "Une révolte de paysans contre les nobles, en 1789",
+     "category": "word_confusion",
+     "feedback": "C'est la Grande Peur de 1789, qui précède la Terreur."
+    }
+   ],
+   "id": "cg.l04.e08"
+  },
+  {
+   "unitIds": [
+    "cg.v.feodalite",
+    "cg.g04.revolution_francaise"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Dans la nuit du 4 août 1789, l'Assemblée abolit les privilèges et détruit un système né au Moyen Âge. Lequel ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La féodalité",
+    "La monarchie",
+    "L'Église catholique",
+    "La République"
+   ],
+   "answer": "La féodalité",
+   "acceptedAnswers": [
+    "La féodalité"
+   ],
+   "explanation": "Le décret des 4-11 août proclame que l'Assemblée « détruit entièrement le régime féodal » : les droits des seigneurs, la dîme et les privilèges de naissance disparaissent.",
+   "tip": "4 août 1789 : la féodalité du Moyen Âge est abolie.",
+   "extraExample": {
+    "text": "Dans la nuit du 4 août, des nobles renoncent eux-mêmes à leurs privilèges.",
+    "translation": "Certains droits restent pourtant à racheter pendant plusieurs années."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La monarchie",
+     "category": "word_confusion",
+     "feedback": "La monarchie ne tombe qu'en août 1792."
+    },
+    {
+     "equals": "La République",
+     "category": "word_confusion",
+     "feedback": "La République n'existe pas encore : elle est proclamée en septembre 1792."
+    }
+   ],
+   "id": "cg.l04.e09"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel événement du 9 novembre 1799 (18 brumaire) met fin à la Révolution ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le coup d'État du général Bonaparte",
+    "La restauration de la monarchie",
+    "L'exécution de Robespierre",
+    "La victoire de Valmy"
+   ],
+   "answer": "Le coup d'État du général Bonaparte",
+   "acceptedAnswers": [
+    "Le coup d'État du général Bonaparte"
+   ],
+   "explanation": "Le 18 brumaire an VIII (9 novembre 1799), Bonaparte renverse le Directoire avec l'aide de son frère Lucien et de Sieyès. Il devient Premier consul : la Révolution s'arrête, un pouvoir plus autoritaire commence.",
+   "tip": "Brumaire 1799 : Bonaparte prend le pouvoir ; la suite au prochain chapitre.",
+   "extraExample": {
+    "text": "Le général Bonaparte a 30 ans quand il prend le pouvoir.",
+    "translation": "Sa gloire vient de ses victoires militaires en Italie et en Égypte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'exécution de Robespierre",
+     "category": "word_confusion",
+     "feedback": "Robespierre est exécuté en juillet 1794, cinq ans plus tôt."
+    },
+    {
+     "equals": "La victoire de Valmy",
+     "category": "word_confusion",
+     "feedback": "Valmy date de septembre 1792."
+    }
+   ],
+   "id": "cg.l04.e10"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.ancien_regime"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Sous l'Ancien Régime, la noblesse et le clergé bénéficient de ___, comme l'exemption de la plupart des impôts.",
+   "promptLanguage": "fr",
+   "options": [
+    "privilèges",
+    "salaires",
+    "pouvoirs absolus"
+   ],
+   "answer": "privilèges",
+   "acceptedAnswers": [
+    "privilèges",
+    "des privilèges",
+    "privilège"
+   ],
+   "explanation": "Les privilèges sont des avantages liés à la naissance : exemptions d'impôts, droits seigneuriaux, places réservées. La nuit du 4 août 1789 les abolit.",
+   "tip": "Privilège vient du latin « loi privée » : une règle qui ne vaut que pour certains.",
+   "extraExample": {
+    "text": "Seul le tiers état paie la taille, l'impôt direct de l'Ancien Régime.",
+    "translation": "C'est l'une des grandes injustices que dénonce la Révolution."
+   },
+   "errorPatterns": [
+    {
+     "equals": "pouvoirs absolus",
+     "category": "word_confusion",
+     "feedback": "Le pouvoir absolu appartient au roi seul, pas aux nobles ni au clergé."
+    }
+   ],
+   "id": "cg.l04.e11"
+  },
+  {
+   "unitIds": [
+    "cg.v.gutenberg",
+    "cg.g04.revolution_francaise"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Les idées de la Révolution circulent grâce aux journaux et aux brochures, rendus possibles par l'imprimerie de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Gutenberg",
+    "Colomb",
+    "Luther",
+    "Magellan"
+   ],
+   "answer": "Gutenberg",
+   "acceptedAnswers": [
+    "Gutenberg",
+    "Johannes Gutenberg"
+   ],
+   "explanation": "Gutenberg a mis au point l'imprimerie à caractères mobiles vers 1450. En 1789, des centaines de journaux et de brochures apparaissent en France.",
+   "tip": "Gutenberg 1450 → journaux de 1789 : l'imprimerie sert toutes les révolutions d'idées.",
+   "extraExample": {
+    "text": "La brochure de Sieyès « Qu'est-ce que le tiers état ? » se vend à des dizaines de milliers d'exemplaires.",
+    "translation": "Elle prépare l'opinion avant les États généraux."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Luther",
+     "category": "word_confusion",
+     "feedback": "Luther utilise l'imprimerie pour diffuser ses idées en 1517, mais il ne l'a pas inventée."
+    }
+   ],
+   "id": "cg.l04.e12"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.tiers_etat"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le 20 juin 1789, les députés du tiers état font le serment du ___ pour donner une Constitution à la France.",
+   "promptLanguage": "fr",
+   "options": [
+    "Jeu de paume",
+    "Champ de Mars",
+    "Palais-Royal",
+    "Grand Trianon"
+   ],
+   "answer": "Jeu de paume",
+   "acceptedAnswers": [
+    "Jeu de paume",
+    "du Jeu de paume",
+    "le Jeu de paume"
+   ],
+   "explanation": "Trouvant fermée la salle de leurs réunions, les députés se rassemblent dans la salle du Jeu de paume, à Versailles. Ils jurent de ne pas se séparer avant d'avoir donné une Constitution au royaume.",
+   "tip": "Jeu de paume = l'ancêtre du tennis : une salle de sport devient le lieu d'un serment historique.",
+   "extraExample": {
+    "text": "Jacques-Louis David a dessiné la scène du serment en 1791.",
+    "translation": "Le dessin est resté inachevé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Champ de Mars",
+     "category": "word_confusion",
+     "feedback": "Le Champ de Mars accueille la fête de la Fédération, le 14 juillet 1790."
+    }
+   ],
+   "id": "cg.l04.e13"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.premiere_republique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En septembre 1792, la France devient une république : c'est la ___ République.",
+   "promptLanguage": "fr",
+   "options": [
+    "Première",
+    "Deuxième",
+    "Troisième",
+    "Cinquième"
+   ],
+   "answer": "Première",
+   "acceptedAnswers": [
+    "Première",
+    "1re",
+    "Ire",
+    "premiere"
+   ],
+   "explanation": "La Première République naît en 1792, après la chute de la monarchie. Les suivantes sont la Deuxième (1848), la Troisième (1870), la Quatrième (1946) et la Cinquième (1958), toujours en vigueur.",
+   "tip": "Dates des cinq Républiques : 1792, 1848, 1870, 1946, 1958.",
+   "extraExample": {
+    "text": "La Troisième République est le régime le plus long avant l'actuel : de 1870 à 1940.",
+    "translation": "La Cinquième date de 1958."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Cinquième",
+     "category": "word_confusion",
+     "feedback": "La Cinquième République est celle d'aujourd'hui, fondée en 1958."
+    },
+    {
+     "equals": "Troisième",
+     "category": "word_confusion",
+     "feedback": "La Troisième République commence en 1870, après la chute de Napoléon III."
+    }
+   ],
+   "id": "cg.l04.e14"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.prise_de_la_bastille",
+    "cg.v.declaration_des_droits_de_l_homme",
+    "cg.v.louis_xvi",
+    "cg.v.robespierre"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates de la Révolution",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "14 juillet 1789",
+     "right": "prise de la Bastille"
+    },
+    {
+     "left": "26 août 1789",
+     "right": "Déclaration des droits de l'homme"
+    },
+    {
+     "left": "21 janvier 1793",
+     "right": "mort de Louis XVI"
+    },
+    {
+     "left": "27 juillet 1794",
+     "right": "chute de Robespierre"
+    },
+    {
+     "left": "9 novembre 1799",
+     "right": "coup d'État de Bonaparte"
+    }
+   ],
+   "answer": "14 juillet 1789 = prise de la Bastille ; 26 août 1789 = Déclaration des droits de l'homme ; 21 janvier 1793 = mort de Louis XVI ; 27 juillet 1794 = chute de Robespierre ; 9 novembre 1799 = coup d'État de Bonaparte",
+   "acceptedAnswers": [],
+   "explanation": "Cinq dates jalonnent la Révolution : la Bastille (1789), la Déclaration (1789), la mort du roi (1793), la fin de la Terreur (1794) et le coup d'État de Bonaparte (1799).",
+   "tip": "89 (deux fois), 93, 94, 99 : la Révolution tient en dix ans.",
+   "extraExample": {
+    "text": "La Révolution dure dix ans, de 1789 à 1799.",
+    "translation": "Chaque année ou presque change de régime."
+   },
+   "id": "cg.l04.e15"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le début de la Révolution.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Révolution",
+    "1789",
+    "en",
+    "commence",
+    "La",
+    "française"
+   ],
+   "answer": "La Révolution française commence en 1789",
+   "acceptedAnswers": [
+    "La Révolution française commence en 1789",
+    "En 1789 la Révolution française commence"
+   ],
+   "explanation": "Le repère de départ de la Révolution est 1789 : États généraux en mai, Bastille en juillet, Déclaration des droits en août.",
+   "tip": "1789 = l'année où tout bascule.",
+   "extraExample": {
+    "text": "Le calendrier révolutionnaire change même les noms des mois à partir de 1793.",
+    "translation": "Brumaire, thermidor et germinal ont disparu en 1806."
+   },
+   "id": "cg.l04.e16"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.declaration_des_droits_de_l_homme"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : les droits de l'homme.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "est",
+    "adoptée",
+    "Déclaration",
+    "l'homme",
+    "des",
+    "La",
+    "1789",
+    "droits",
+    "de",
+    "en"
+   ],
+   "answer": "La Déclaration des droits de l'homme est adoptée en 1789",
+   "acceptedAnswers": [
+    "La Déclaration des droits de l'homme est adoptée en 1789",
+    "En 1789 la Déclaration des droits de l'homme est adoptée"
+   ],
+   "explanation": "La Déclaration est adoptée le 26 août 1789 par l'Assemblée nationale constituante.",
+   "tip": "1789 et la Déclaration : égalité en droits pour tous les hommes.",
+   "extraExample": {
+    "text": "Elle ouvre aujourd'hui le préambule de la Constitution de 1958.",
+    "translation": "Le texte vit toujours."
+   },
+   "id": "cg.l04.e17"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.guillotine"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on la machine à décapiter utilisée à partir de 1792, qui porte le nom d'un docteur ?",
+   "promptLanguage": "fr",
+   "answer": "La guillotine",
+   "acceptedAnswers": [
+    "La guillotine",
+    "guillotine"
+   ],
+   "explanation": "La guillotine doit son nom au docteur Guillotin, qui voulait une mort plus rapide et identique pour tous. Elle est utilisée pour la première fois en avril 1792.",
+   "tip": "Guillotin le docteur, guillotine la machine.",
+   "extraExample": {
+    "text": "La dernière exécution par guillotine en France a lieu en 1977.",
+    "translation": "La peine de mort est abolie en 1981."
+   },
+   "hint": "Elle porte le nom du docteur Guillotin.",
+   "id": "cg.l04.e18"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.tiers_etat"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on l'ordre de l'Ancien Régime qui regroupe tous les Français ni nobles ni religieux ?",
+   "promptLanguage": "fr",
+   "answer": "Le tiers état",
+   "acceptedAnswers": [
+    "Le tiers état",
+    "tiers état",
+    "tiers-état",
+    "le tiers-état"
+   ],
+   "explanation": "Le tiers état, qui représente l'immense majorité de la population, paie l'essentiel des impôts. Il se proclame Assemblée nationale le 17 juin 1789.",
+   "tip": "Premier ordre : clergé ; deuxième : noblesse ; troisième : tiers état.",
+   "extraExample": {
+    "text": "Sieyès écrit en 1789 : « Qu'est-ce que le tiers état ? Tout. »",
+    "translation": "Cette brochure a marqué les esprits."
+   },
+   "errorPatterns": [
+    {
+     "equals": "noblesse",
+     "category": "word_confusion",
+     "feedback": "La noblesse est le deuxième ordre, privilégié ; le tiers état regroupe tous les autres."
+    },
+    {
+     "equals": "clergé",
+     "category": "word_confusion",
+     "feedback": "Le clergé est le premier ordre, celui des religieux."
+    }
+   ],
+   "id": "cg.l04.e19"
+  },
+  {
+   "unitIds": [
+    "cg.g04.revolution_francaise",
+    "cg.v.robespierre",
+    "cg.v.la_terreur"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel avocat d'Arras, surnommé « l'Incorruptible », domine le Comité de salut public pendant la Terreur ?",
+   "promptLanguage": "fr",
+   "answer": "Robespierre",
+   "acceptedAnswers": [
+    "Robespierre",
+    "Maximilien Robespierre",
+    "Maximilien de Robespierre"
+   ],
+   "explanation": "Maximilien de Robespierre dirige de fait le gouvernement révolutionnaire de 1793 à 1794. Son arrestation, le 9 thermidor (27 juillet 1794), met fin à la Terreur ; il est guillotiné le lendemain.",
+   "tip": "Robespierre = Terreur ; sa chute = fin de la Terreur.",
+   "extraExample": {
+    "text": "Au début de la Révolution, il avait défendu l'abolition de la peine de mort.",
+    "translation": "Un revirement resté célèbre."
+   },
+   "hint": "Son surnom veut dire qu'on ne pouvait pas le corrompre.",
+   "errorPatterns": [
+    {
+     "equals": "danton",
+     "category": "word_confusion",
+     "feedback": "Danton, rival de Robespierre, est guillotiné en avril 1794."
+    },
+    {
+     "equals": "marat",
+     "category": "word_confusion",
+     "feedback": "Marat est assassiné par Charlotte Corday en juillet 1793, avant la fin de la Terreur."
+    }
+   ],
+   "id": "cg.l04.e20"
+  },
+  {
+   "unitIds": [
+    "cg.v.auguste",
+    "cg.g04.revolution_francaise"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — En 1792, la France devient une république, comme Rome entre 509 et 27 av. J.-C. Quel premier empereur met fin à la République romaine ?",
+   "promptLanguage": "fr",
+   "answer": "Auguste",
+   "acceptedAnswers": [
+    "Auguste",
+    "Octave",
+    "Octave Auguste",
+    "César Auguste"
+   ],
+   "explanation": "Comme Rome, la France passera de la République à l'Empire : Auguste en 27 av. J.-C., Napoléon en 1804. Les révolutionnaires admiraient la République romaine.",
+   "tip": "République romaine → Auguste → Empire ; République française → Napoléon → Empire.",
+   "extraExample": {
+    "text": "Napoléon se fait sacrer empereur en 1804, dix ans après la chute de Robespierre.",
+    "translation": "On y reviendra dans la prochaine leçon."
+   },
+   "errorPatterns": [
+    {
+     "equals": "jules césar",
+     "category": "word_confusion",
+     "feedback": "César est assassiné en 44 av. J.-C. et n'a jamais été empereur ; c'est son fils adoptif qui fonde l'Empire."
+    },
+    {
+     "equals": "césar",
+     "category": "word_confusion",
+     "feedback": "César est assassiné en 44 av. J.-C. et n'a jamais été empereur ; c'est son fils adoptif qui fonde l'Empire."
+    }
+   ],
+   "id": "cg.l04.e21"
+  }
+ ]
+}

@@ -1,0 +1,922 @@
+{
+ "lessonId": "ar.l05",
+ "exercises": [
+  {
+   "id": "ar.l05.e01",
+   "unitIds": [
+    "ar.v.chin",
+    "ar.g05.sin_chin_sad_dad"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le nom de la lettre.",
+   "prompt": "Quelle lettre vois-tu ici : ـشـ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "sîn (s)",
+    "chîn (ch)",
+    "Sâd (S)",
+    "thâ' (th)"
+   ],
+   "answer": "chîn (ch)",
+   "acceptedAnswers": [
+    "chîn (ch)"
+   ],
+   "hint": "Scie ou boucle ? Combien de points ?",
+   "explanation": "Une petite scie de trois dents avec trois points au-dessus : c'est ش, sous sa forme du milieu (ـشـ).",
+   "tip": "Scie + trois points = ch.",
+   "extraExample": {
+    "text": "عَشَاء",
+    "translation": "le dîner (ش au milieu)",
+    "transliteration": "3achâ'"
+   },
+   "errorPatterns": [
+    {
+     "equals": "sîn (s)",
+     "category": "spelling",
+     "feedback": "س a la même scie, mais aucun point. Ici il y en a trois : c'est ش."
+    },
+    {
+     "equals": "thâ' (th)",
+     "category": "spelling",
+     "feedback": "ث porte ses trois points sur une seule dent. Ici ils sont posés sur une scie de trois dents : c'est ش."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e02",
+   "unitIds": [
+    "ar.v.dad",
+    "ar.g05.sin_chin_sad_dad"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le nom de la lettre.",
+   "prompt": "Quelle lettre vois-tu ici : ضـ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "sîn (s)",
+    "chîn (ch)",
+    "Sâd (S)",
+    "Dâd (D)"
+   ],
+   "answer": "Dâd (D)",
+   "acceptedAnswers": [
+    "Dâd (D)"
+   ],
+   "hint": "Regarde le point au-dessus de la boucle.",
+   "explanation": "Une boucle ronde avec un point au-dessus : c'est ض, sous sa forme du début (ضـ). Sans le point, ce serait ص (S).",
+   "tip": "Boucle + un point dessus = D.",
+   "extraExample": {
+    "text": "ضَيْف",
+    "translation": "l'invité (ض au début)",
+    "transliteration": "Dayf"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sâd (S)",
+     "category": "spelling",
+     "feedback": "ص a la même boucle, mais aucun point. Ici il y en a un, au-dessus : c'est ض."
+    },
+    {
+     "equals": "sîn (s)",
+     "category": "spelling",
+     "feedback": "س est une scie à trois dents. Ici c'est une boucle ronde : c'est ض ou ص."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e03",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.sin",
+    "ar.v.chin",
+    "ar.v.sad",
+    "ar.v.dad"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque description à sa lettre.",
+   "prompt": "Scie ou boucle, avec ou sans points",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "une scie à trois dents, aucun point",
+     "right": "س"
+    },
+    {
+     "left": "une scie à trois dents, trois points dessus",
+     "right": "ش"
+    },
+    {
+     "left": "une boucle ronde, aucun point",
+     "right": "ص"
+    },
+    {
+     "left": "une boucle ronde, un point dessus",
+     "right": "ض"
+    }
+   ],
+   "answer": "une scie à trois dents, aucun point = س ; une scie à trois dents, trois points dessus = ش ; une boucle ronde, aucun point = ص ; une boucle ronde, un point dessus = ض",
+   "acceptedAnswers": [],
+   "explanation": "Deux formes (scie, boucle), deux versions chacune : س et ص sont « nues », ش (trois points) et ض (un point) sont ornées.",
+   "tip": "D'abord la forme, ensuite les points."
+  },
+  {
+   "id": "ar.l05.e04",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.sad"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Quelle lettre est un s « lourd », prononcé avec la langue plaquée contre le palais ?",
+   "promptLanguage": "fr",
+   "options": [
+    "س",
+    "ش",
+    "ص",
+    "ث"
+   ],
+   "answer": "ص",
+   "acceptedAnswers": [
+    "ص"
+   ],
+   "explanation": "ص (S) est le s « emphatique » : plus profond que س, la bouche plus ronde. On le reconnaît à sa boucle.",
+   "tip": "Boucle = son lourd (ص, ض). Scie = son léger (س, ش).",
+   "extraExample": {
+    "text": "صَحْن",
+    "translation": "l'assiette",
+    "transliteration": "Sa7n"
+   },
+   "errorPatterns": [
+    {
+     "equals": "س",
+     "category": "spelling",
+     "feedback": "س est le s léger, comme dans « sac ». Le s lourd, c'est ص."
+    },
+    {
+     "equals": "ش",
+     "category": "spelling",
+     "feedback": "ش se prononce ch, comme dans « chat »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e05",
+   "unitIds": [
+    "ar.g01.alif_ba_ta_tha",
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.chin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Quelle lettre a trois points posés sur trois petites dents ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ث",
+    "ش",
+    "ت",
+    "س"
+   ],
+   "answer": "ش",
+   "acceptedAnswers": [
+    "ش"
+   ],
+   "explanation": "ش a trois points au-dessus d'une scie de trois dents. ث a aussi trois points, mais ils sont sur une seule dent.",
+   "tip": "Trois dents + trois points = ch. Une dent + trois points = th.",
+   "extraExample": {
+    "text": "شَوْكَة",
+    "translation": "la fourchette (ش au début)",
+    "transliteration": "chawka"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ث",
+     "category": "spelling",
+     "feedback": "ث a trois points, mais sur une seule dent : th. Ici il y a trois dents."
+    },
+    {
+     "equals": "س",
+     "category": "spelling",
+     "feedback": "س a trois dents, mais aucun point."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e06",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.sarir",
+    "ar.v.sin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit سَرِير ?",
+   "promptLanguage": "fr",
+   "options": [
+    "sarîr",
+    "charîr",
+    "Darîr",
+    "zarîr"
+   ],
+   "answer": "sarîr",
+   "acceptedAnswers": [
+    "sarîr"
+   ],
+   "hint": "Combien de points sur la première lettre ?",
+   "explanation": "Une scie sans point : س (s). Puis ر (r), ي (î long) et ر : sarîr, « le lit ».",
+   "tip": "Scie sans point = s.",
+   "extraExample": {
+    "text": "سَرِيرِي",
+    "translation": "mon lit",
+    "transliteration": "sarîrî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "charîr",
+     "category": "spelling",
+     "feedback": "ش aurait trois points au-dessus de sa scie. Ici il n'y en a aucun : c'est س."
+    },
+    {
+     "equals": "Darîr",
+     "category": "spelling",
+     "feedback": "ض est une boucle ronde avec un point. La première lettre est une scie sans point : c'est س."
+    },
+    {
+     "equals": "zarîr",
+     "category": "spelling",
+     "feedback": "La première lettre est une scie, pas une virgule avec un point : c'est س (s)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e07",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.sahn",
+    "ar.v.sad"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit صَحْن ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Sa7n",
+    "Da7n",
+    "Sadjn",
+    "Sakhn"
+   ],
+   "answer": "Sa7n",
+   "acceptedAnswers": [
+    "Sa7n"
+   ],
+   "explanation": "Une boucle sans point : ص (S, s lourd). Puis ح (aucun point, noté 7) et ن : Sa7n, « l'assiette ».",
+   "tip": "Boucle sans point = S ; la lettre du milieu n'a pas de point : 7.",
+   "extraExample": {
+    "text": "صُحُون",
+    "translation": "des assiettes",
+    "transliteration": "Su7ûn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sakhn",
+     "category": "spelling",
+     "feedback": "La lettre du milieu n'a aucun point : c'est ح (7), pas خ (kh)."
+    },
+    {
+     "equals": "Da7n",
+     "category": "spelling",
+     "feedback": "ض aurait un point au-dessus de sa boucle. Ici il n'y en a pas : c'est ص."
+    },
+    {
+     "equals": "Sadjn",
+     "category": "spelling",
+     "feedback": "La lettre du milieu n'a aucun point : c'est ح (7), pas ج."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e08",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.dayf",
+    "ar.v.dad"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots se lit Dayf (l'invité) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ضَيْف",
+    "صَيْف",
+    "سَيْف",
+    "شَيْف"
+   ],
+   "answer": "ضَيْف",
+   "acceptedAnswers": [
+    "ضَيْف"
+   ],
+   "explanation": "Il faut une boucle avec un point au-dessus : ض (D). صَيْف (sans point) se lit Sayf, « l'été » ; سَيْف (une scie) se lit sayf, « l'épée ».",
+   "tip": "Boucle + point dessus = D.",
+   "extraExample": {
+    "text": "ضُيُوف",
+    "translation": "des invités",
+    "transliteration": "Duyûf"
+   },
+   "errorPatterns": [
+    {
+     "equals": "صَيْف",
+     "category": "spelling",
+     "feedback": "ص n'a aucun point : on lirait « Sayf » (l'été). Pour D, il faut un point au-dessus de la boucle."
+    },
+    {
+     "equals": "سَيْف",
+     "category": "spelling",
+     "feedback": "س est une scie, pas une boucle : on lirait « sayf » (l'épée)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e09",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.misbah",
+    "ar.v.sad"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Dans مِصْبَاح (la lampe), sous quelle forme est le ص ?",
+   "promptLanguage": "fr",
+   "options": [
+    "initiale",
+    "médiane",
+    "finale",
+    "isolée"
+   ],
+   "answer": "médiane",
+   "acceptedAnswers": [
+    "médiane"
+   ],
+   "explanation": "Le ص est entre م, qui s'attache à lui, et ب, auquel il s'attache à son tour : relié des deux côtés, il est en forme du milieu (ـصـ).",
+   "tip": "Relié des deux côtés = forme du milieu.",
+   "extraExample": {
+    "text": "مَصَابِيح",
+    "translation": "des lampes (ص au milieu)",
+    "transliteration": "maSâbî7"
+   },
+   "errorPatterns": [
+    {
+     "equals": "isolée",
+     "category": "grammar",
+     "feedback": "Le ص est relié à م et à ب : il n'est pas isolé."
+    },
+    {
+     "equals": "initiale",
+     "category": "grammar",
+     "feedback": "La forme initiale est celle de la première lettre du mot. Ici, م vient avant ص."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e10",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.qamis",
+    "ar.v.sad"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le nom de la forme : initiale, médiane, finale ou isolée.",
+   "prompt": "Dans قَمِيص (la chemise), le ص est en forme ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "initiale",
+    "médiane",
+    "finale",
+    "isolée"
+   ],
+   "answer": "finale",
+   "acceptedAnswers": [
+    "finale",
+    "final",
+    "de fin",
+    "fin",
+    "forme finale"
+   ],
+   "explanation": "Le ص est la dernière lettre et il est relié au ي qui le précède : c'est sa forme finale, ـص, avec une boucle et une queue.",
+   "tip": "Dernière lettre + attachée à droite = forme finale.",
+   "extraExample": {
+    "text": "مَرِيض",
+    "translation": "malade (ض final)",
+    "transliteration": "marîD"
+   },
+   "errorPatterns": [
+    {
+     "equals": "isolée",
+     "category": "grammar",
+     "feedback": "Le ص est relié au ي d'avant : il n'est pas isolé, il est en forme finale (ـص)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e11",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.sarir",
+    "ar.v.sin"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Choisis la lettre qui manque.",
+   "prompt": "Le lit (sarîr) : ___َرِير",
+   "promptLanguage": "fr",
+   "options": [
+    "سـ",
+    "شـ",
+    "صـ"
+   ],
+   "answer": "سـ",
+   "acceptedAnswers": [
+    "سـ",
+    "س"
+   ],
+   "explanation": "Sarîr commence par s : س, une scie sans point. Au début du mot, il prend la forme سـ.",
+   "tip": "Scie sans point = s.",
+   "extraExample": {
+    "text": "مَسَاء",
+    "translation": "le soir",
+    "transliteration": "masâ'"
+   },
+   "errorPatterns": [
+    {
+     "equals": "شـ",
+     "category": "spelling",
+     "feedback": "شـ (trois points) donnerait « charîr ». Pour le son s, il n'y a aucun point."
+    },
+    {
+     "equals": "صـ",
+     "category": "spelling",
+     "feedback": "صـ est une boucle (s lourd) : on lirait « Sarîr ». Ici il faut la scie."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e12",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.dayf",
+    "ar.v.dad"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Choisis la lettre qui manque.",
+   "prompt": "L'invité (Dayf) : ___َيْف",
+   "promptLanguage": "fr",
+   "options": [
+    "ضـ",
+    "صـ",
+    "شـ"
+   ],
+   "answer": "ضـ",
+   "acceptedAnswers": [
+    "ضـ",
+    "ض"
+   ],
+   "explanation": "Dayf commence par D, le d lourd : ض, une boucle avec un point au-dessus. صـ (sans point) donnerait « Sayf ».",
+   "tip": "D lourd = boucle + un point dessus.",
+   "extraExample": {
+    "text": "ضَيْفِي",
+    "translation": "mon invité",
+    "transliteration": "Dayfî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "صـ",
+     "category": "spelling",
+     "feedback": "صـ n'a pas de point : on lirait « Sayf », l'été. Pour D, il faut un point au-dessus."
+    },
+    {
+     "equals": "شـ",
+     "category": "spelling",
+     "feedback": "شـ est une scie à trois points : on lirait « chayf »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e13",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.chawka",
+    "ar.v.chin"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Choisis la lettre qui manque.",
+   "prompt": "La fourchette (chawka) : ___َوْكَة",
+   "promptLanguage": "fr",
+   "options": [
+    "شـ",
+    "سـ",
+    "ثـ"
+   ],
+   "answer": "شـ",
+   "acceptedAnswers": [
+    "شـ",
+    "ش"
+   ],
+   "explanation": "Chawka commence par ch : ش, une scie de trois dents surmontée de trois points. ثـ (trois points sur une seule dent) donnerait « thawka ».",
+   "tip": "ch = trois dents, trois points.",
+   "extraExample": {
+    "text": "شَوْكَتِي",
+    "translation": "ma fourchette",
+    "transliteration": "chawkatî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ثـ",
+     "category": "spelling",
+     "feedback": "ثـ n'a qu'une dent avec trois points : on lirait « thawka ». Ici, la scie est à trois dents."
+    },
+    {
+     "equals": "سـ",
+     "category": "spelling",
+     "feedback": "سـ n'a aucun point : on lirait « sawka ». Pour ch, il faut les trois points."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e14",
+   "unitIds": [
+    "ar.g04.non_connecting_letters",
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.sarir"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans سَرِير (le lit), combien de blocs de lettres attachées vois-tu ?",
+   "promptLanguage": "fr",
+   "options": [
+    "un seul bloc",
+    "deux blocs",
+    "trois blocs",
+    "quatre blocs"
+   ],
+   "answer": "deux blocs",
+   "acceptedAnswers": [
+    "deux blocs"
+   ],
+   "explanation": "س s'attache à ر, mais ر coupe le mot. Le ي repart alors en forme de début, attaché au dernier ر : deux blocs, سر et ير.",
+   "tip": "Chaque coupeuse (ا د ذ ر ز و) ferme un bloc.",
+   "extraExample": {
+    "text": "لَذِيذ",
+    "translation": "délicieux : deux blocs",
+    "transliteration": "ladhîdh"
+   },
+   "errorPatterns": [
+    {
+     "equals": "un seul bloc",
+     "category": "grammar",
+     "feedback": "ر ne s'attache pas à la lettre suivante : le mot est coupé en deux."
+    },
+    {
+     "equals": "trois blocs",
+     "category": "grammar",
+     "feedback": "Il n'y a qu'une seule coupure (après le premier ر) qui sépare le mot en deux blocs."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e15",
+   "unitIds": [
+    "ar.g02.nun_ya_five_teeth",
+    "ar.v.ya",
+    "ar.v.ta"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots se lit bayt (la maison) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "بَيْت",
+    "بَيْش",
+    "بَيْص",
+    "بَيْض"
+   ],
+   "answer": "بَيْت",
+   "acceptedAnswers": [
+    "بَيْت"
+   ],
+   "explanation": "La dernière lettre doit être une dent avec deux points au-dessus : ت (t). Les trois autres finissent par une scie ou une boucle : ش, ص, ض.",
+   "tip": "Dent ou scie ou boucle ? La silhouette d'abord.",
+   "extraExample": {
+    "text": "بَيْتِي",
+    "translation": "ma maison",
+    "transliteration": "baytî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "بَيْض",
+     "category": "spelling",
+     "feedback": "ض est une boucle avec un point : on lirait « bayD » (les œufs)."
+    },
+    {
+     "equals": "بَيْش",
+     "category": "spelling",
+     "feedback": "ش est une scie avec trois points : on lirait « baych »."
+    },
+    {
+     "equals": "بَيْص",
+     "category": "spelling",
+     "feedback": "ص est une boucle sans point : on lirait « bayS »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e16",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.sarir",
+    "ar.v.chawka",
+    "ar.v.sahn",
+    "ar.v.misbah"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "La maison et la table",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "سَرِير",
+     "right": "le lit"
+    },
+    {
+     "left": "شَوْكَة",
+     "right": "la fourchette"
+    },
+    {
+     "left": "صَحْن",
+     "right": "l'assiette"
+    },
+    {
+     "left": "مِصْبَاح",
+     "right": "la lampe"
+    }
+   ],
+   "answer": "سَرِير = le lit ; شَوْكَة = la fourchette ; صَحْن = l'assiette ; مِصْبَاح = la lampe",
+   "acceptedAnswers": [],
+   "explanation": "سَرِير (sarîr) = le lit, شَوْكَة (chawka) = la fourchette, صَحْن (Sa7n) = l'assiette, مِصْبَاح (miSbâ7) = la lampe.",
+   "tip": "Scie ou boucle te donne déjà le début du mot."
+  },
+  {
+   "id": "ar.l05.e17",
+   "unitIds": [
+    "ar.v.zayt",
+    "ar.g04.non_connecting_letters",
+    "ar.v.dar",
+    "ar.v.khatam",
+    "ar.v.djazar"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Des mots des leçons précédentes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "زَيْت",
+     "right": "l'huile"
+    },
+    {
+     "left": "دَار",
+     "right": "la demeure"
+    },
+    {
+     "left": "خَاتَم",
+     "right": "la bague"
+    },
+    {
+     "left": "جَزَر",
+     "right": "les carottes"
+    }
+   ],
+   "answer": "زَيْت = l'huile ; دَار = la demeure ; خَاتَم = la bague ; جَزَر = les carottes",
+   "acceptedAnswers": [],
+   "explanation": "زَيْت (zayt) = l'huile, دَار (dâr) = la demeure, خَاتَم (khâtam) = la bague, جَزَر (djazar) = les carottes.",
+   "tip": "Pour chaque mot, repère les lettres coupeuses et le point du crochet."
+  },
+  {
+   "id": "ar.l05.e18",
+   "unitIds": [
+    "ar.v.dayf",
+    "ar.g05.sin_chin_sad_dad"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Touche les lettres dans l'ordre de lecture : la première lettre (à droite dans le mot) d'abord.",
+   "prompt": "Écris « Dayf » (l'invité) avec ces lettres.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ف",
+    "ض",
+    "ي"
+   ],
+   "answer": "ض ي ف",
+   "acceptedAnswers": [
+    "ض ي ف"
+   ],
+   "explanation": "Dayf : ض (D), ي (y), ف (f). Les trois lettres s'attachent : ضَيْف.",
+   "tip": "Commence par la boucle avec un point.",
+   "extraExample": {
+    "text": "ضُيُوف",
+    "translation": "des invités",
+    "transliteration": "Duyûf"
+   }
+  },
+  {
+   "id": "ar.l05.e19",
+   "unitIds": [
+    "ar.v.sarir",
+    "ar.g05.sin_chin_sad_dad"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Touche les lettres dans l'ordre de lecture : la première lettre (à droite dans le mot) d'abord.",
+   "prompt": "Écris « sarîr » (le lit) avec ces lettres.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ر",
+    "ر",
+    "ي",
+    "س"
+   ],
+   "answer": "س ر ي ر",
+   "acceptedAnswers": [
+    "س ر ي ر"
+   ],
+   "explanation": "Sarîr : س (s), ر (r), ي (î long), ر (r). Écrit : سَرِير.",
+   "tip": "On commence par la scie, à droite.",
+   "extraExample": {
+    "text": "سَرِيرِي",
+    "translation": "mon lit",
+    "transliteration": "sarîrî"
+   }
+  },
+  {
+   "id": "ar.l05.e20",
+   "unitIds": [
+    "ar.v.chawka",
+    "ar.g05.sin_chin_sad_dad"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "شَوْكَة",
+   "promptLanguage": "ar",
+   "answer": "la fourchette",
+   "acceptedAnswers": [
+    "la fourchette",
+    "fourchette",
+    "une fourchette",
+    "l'épine",
+    "épine",
+    "une épine"
+   ],
+   "explanation": "شَوْكَة se lit chawka et veut dire « la fourchette » (et aussi « l'épine ») : ش, و, ك, ة.",
+   "tip": "Chawka : la scie à trois points au début.",
+   "extraExample": {
+    "text": "شَوْكَتِي",
+    "translation": "ma fourchette",
+    "transliteration": "chawkatî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "la cuillère",
+     "category": "vocabulary",
+     "feedback": "La cuillère se dit مِلْعَقَة (mil3aqa). شَوْكَة (chawka) est la fourchette."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e21",
+   "unitIds": [
+    "ar.v.qamis",
+    "ar.g05.sin_chin_sad_dad"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "قَمِيص",
+   "promptLanguage": "ar",
+   "answer": "la chemise",
+   "acceptedAnswers": [
+    "la chemise",
+    "chemise",
+    "une chemise"
+   ],
+   "explanation": "قَمِيص se lit qamîS et veut dire « la chemise ». Il finit par ص, une boucle avec sa queue.",
+   "tip": "QamîS : finit par la boucle sans point.",
+   "extraExample": {
+    "text": "قُمْصَان",
+    "translation": "des chemises",
+    "transliteration": "qumSân"
+   },
+   "errorPatterns": [
+    {
+     "equals": "le lit",
+     "category": "vocabulary",
+     "feedback": "Le lit se dit سَرِير (sarîr). قَمِيص (qamîS) est un vêtement : la chemise."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e22",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.misbah",
+    "ar.v.sad"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines (S pour ص, 7 pour ح).",
+   "prompt": "Comment se lit مِصْبَاح (la lampe) ?",
+   "promptLanguage": "fr",
+   "answer": "miSbâ7",
+   "acceptedAnswers": [
+    "miSbâ7",
+    "miSba7",
+    "misbah",
+    "misbâh",
+    "misbaah",
+    "mesbah"
+   ],
+   "explanation": "م (m), ص (S), ب (b), ا (â long), ح (7) : miSbâ7, « la lampe ». Le ح final est isolé après ا.",
+   "tip": "Boucle sans point au milieu : S. Le dernier crochet n'a aucun point : 7.",
+   "extraExample": {
+    "text": "مِصْبَاحِي",
+    "translation": "ma lampe",
+    "transliteration": "miSbâ7î"
+   },
+   "errorPatterns": [
+    {
+     "equals": "midbâ7",
+     "category": "spelling",
+     "feedback": "La boucle n'a pas de point : c'est ص (S), pas ض (D)."
+    },
+    {
+     "equals": "miSbâkh",
+     "category": "spelling",
+     "feedback": "Le dernier crochet n'a aucun point : c'est ح (7), pas خ (kh)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l05.e23",
+   "unitIds": [
+    "ar.g05.sin_chin_sad_dad",
+    "ar.v.qamis",
+    "ar.v.sad"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines (S pour ص, î pour un i long).",
+   "prompt": "Comment se lit قَمِيص (la chemise) ?",
+   "promptLanguage": "fr",
+   "answer": "qamîS",
+   "acceptedAnswers": [
+    "qamîS",
+    "qamis",
+    "qamiis",
+    "qamiss"
+   ],
+   "explanation": "ق (q), م (m), ي (î long), ص (S) : qamîS, « la chemise ». La boucle finale n'a pas de point.",
+   "tip": "Pas de point sur la boucle : S, et non D.",
+   "extraExample": {
+    "text": "قَمِيصِي",
+    "translation": "ma chemise",
+    "transliteration": "qamîSî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "qamîD",
+     "category": "spelling",
+     "feedback": "ض aurait un point au-dessus de sa boucle. Ici il n'y en a pas : c'est ص (S)."
+    },
+    {
+     "equals": "qamîch",
+     "category": "spelling",
+     "feedback": "ش est une scie à trois points. Ici la lettre finale est une boucle : c'est ص (S)."
+    }
+   ]
+  }
+ ]
+}

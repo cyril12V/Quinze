@@ -1,0 +1,800 @@
+{
+ "lessonId": "cg.l29",
+ "exercises": [
+  {
+   "id": "cg.l29.e01",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.chiffre_affaires"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que le chiffre d'affaires d'une entreprise ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le total de ses ventes sur une période",
+    "Ce qui lui reste après avoir payé toutes ses charges",
+    "Le total de ses dettes",
+    "Le salaire de son dirigeant"
+   ],
+   "answer": "Le total de ses ventes sur une période",
+   "acceptedAnswers": [
+    "Le total de ses ventes sur une période"
+   ],
+   "explanation": "Le chiffre d'affaires (CA) additionne toutes les ventes de l'entreprise sur une période, en général une année. Il ne tient pas compte des coûts : ce qui reste après les charges, c'est le bénéfice.",
+   "tip": "CA = ce qui rentre ; bénéfice = ce qui reste.",
+   "extraExample": {
+    "text": "Une librairie qui vend 5 000 livres à 20 € a un chiffre d'affaires de 100 000 €.",
+    "translation": "Son bénéfice sera bien plus faible."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Ce qui lui reste après avoir payé toutes ses charges",
+     "category": "word_confusion",
+     "feedback": "C'est la définition du bénéfice, pas du chiffre d'affaires."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e02",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.action"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qu'une action ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une part du capital d'une entreprise",
+    "Un prêt accordé à une entreprise",
+    "Un impôt payé par une entreprise",
+    "Un contrat de travail"
+   ],
+   "answer": "Une part du capital d'une entreprise",
+   "acceptedAnswers": [
+    "Une part du capital d'une entreprise"
+   ],
+   "explanation": "Une action est un titre de propriété : celui qui l'achète devient actionnaire, copropriétaire de l'entreprise. Il peut recevoir un dividende et vote en assemblée générale.",
+   "tip": "Action = je possède un petit bout de l'entreprise.",
+   "extraExample": {
+    "text": "Si une société a 1 000 actions et que tu en détiens 10, tu possèdes 1 % de son capital.",
+    "translation": "Ta part dans les décisions est proportionnelle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un prêt accordé à une entreprise",
+     "category": "word_confusion",
+     "feedback": "Un prêt à une entreprise prend plutôt la forme d'une obligation, qui rapporte des intérêts, pas des dividendes."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e03",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.chiffre_affaires",
+    "cg.v.benefice",
+    "cg.v.marge",
+    "cg.v.dividende",
+    "cg.v.bilan"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Le vocabulaire de l'entreprise",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Chiffre d'affaires",
+     "right": "total des ventes d'une période"
+    },
+    {
+     "left": "Bénéfice",
+     "right": "ce qui reste après avoir payé toutes les charges"
+    },
+    {
+     "left": "Marge",
+     "right": "prix de vente moins coût du produit"
+    },
+    {
+     "left": "Dividende",
+     "right": "part des bénéfices versée aux actionnaires"
+    },
+    {
+     "left": "Bilan",
+     "right": "photographie du patrimoine de l'entreprise à une date"
+    }
+   ],
+   "answer": "Chiffre d'affaires = total des ventes d'une période ; Bénéfice = ce qui reste après avoir payé toutes les charges ; Marge = prix de vente moins coût du produit ; Dividende = part des bénéfices versée aux actionnaires ; Bilan = photographie du patrimoine de l'entreprise à une date",
+   "acceptedAnswers": [],
+   "explanation": "Cinq mots de base : le chiffre d'affaires (les ventes), le bénéfice (le reste), la marge (la différence sur un produit), le dividende (la part des actionnaires) et le bilan (la photo du patrimoine).",
+   "tip": "Ventes, reste, différence, part, photo.",
+   "extraExample": {
+    "text": "La plupart des entreprises françaises sont des PME, avec moins de 250 salariés.",
+    "translation": "Les très grandes entreprises sont rares mais emploient beaucoup de monde."
+   }
+  },
+  {
+   "id": "cg.l29.e04",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.benefice",
+    "cg.v.chiffre_affaires"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Une entreprise vend pour 500 000 € dans l'année et supporte 450 000 € de charges. Quel est son bénéfice avant impôt ?",
+   "promptLanguage": "fr",
+   "options": [
+    "50 000 €",
+    "450 000 €",
+    "500 000 €",
+    "950 000 €"
+   ],
+   "answer": "50 000 €",
+   "acceptedAnswers": [
+    "50 000 €"
+   ],
+   "explanation": "Bénéfice = chiffre d'affaires − charges = 500 000 − 450 000 = 50 000 €. L'impôt sur les sociétés sera calculé sur ce montant.",
+   "tip": "Bénéfice : on soustrait, on n'additionne pas.",
+   "extraExample": {
+    "text": "Si les charges dépassaient 500 000 €, l'entreprise serait en perte.",
+    "translation": "Un bénéfice négatif s'appelle une perte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "950 000 €",
+     "category": "word_confusion",
+     "feedback": "Il faut soustraire les charges du chiffre d'affaires, et non les additionner."
+    },
+    {
+     "equals": "500 000 €",
+     "category": "word_confusion",
+     "feedback": "500 000 € est le chiffre d'affaires, avant de payer les charges."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e05",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.marge"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Un commerçant achète un article 60 € hors taxes et le revend 100 € hors taxes. Quelle est sa marge ?",
+   "promptLanguage": "fr",
+   "options": [
+    "40 €",
+    "60 €",
+    "100 €",
+    "160 €"
+   ],
+   "answer": "40 €",
+   "acceptedAnswers": [
+    "40 €"
+   ],
+   "explanation": "Marge = prix de vente − coût d'achat = 100 − 60 = 40 €. Ce n'est pas encore un bénéfice : avec ces 40 €, il doit payer son loyer, ses salaires et ses impôts.",
+   "tip": "Marge = vente − achat.",
+   "extraExample": {
+    "text": "Une marge de 40 € sur un prix de vente de 100 € représente 40 % du prix de vente.",
+    "translation": "C'est ce qu'on appelle le taux de marque."
+   },
+   "errorPatterns": [
+    {
+     "equals": "160 €",
+     "category": "word_confusion",
+     "feedback": "On soustrait le coût d'achat du prix de vente : on ne les additionne pas."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e06",
+   "unitIds": [
+    "cg.v.taux_interet",
+    "cg.g29.entreprise_finance"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quand les taux d'intérêt montent, comment évolue le coût du crédit pour une entreprise qui veut investir ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il augmente",
+    "Il diminue",
+    "Il reste identique",
+    "Il disparaît"
+   ],
+   "answer": "Il augmente",
+   "acceptedAnswers": [
+    "Il augmente"
+   ],
+   "explanation": "Les taux d'intérêt sont le prix de l'argent emprunté : quand ils montent, emprunter coûte plus cher. Les entreprises investissent alors moins, ce qui ralentit l'activité.",
+   "tip": "Taux en hausse = crédit plus cher.",
+   "extraExample": {
+    "text": "Quand les taux baissent, les entreprises empruntent plus facilement.",
+    "translation": "La BCE ajuste ses taux pour stimuler ou freiner l'économie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il diminue",
+     "category": "word_confusion",
+     "feedback": "C'est l'effet d'une baisse des taux, pas d'une hausse."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e07",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.action",
+    "cg.v.obligation"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la différence entre une action et une obligation ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'action donne une part de propriété ; l'obligation est un prêt",
+    "L'action est un prêt ; l'obligation donne une part de propriété",
+    "Les deux sont des parts de propriété, mais l'une est plus chère",
+    "Les deux sont des impôts payés par l'entreprise"
+   ],
+   "answer": "L'action donne une part de propriété ; l'obligation est un prêt",
+   "acceptedAnswers": [
+    "L'action donne une part de propriété ; l'obligation est un prêt"
+   ],
+   "explanation": "L'actionnaire est copropriétaire et touche un dividende variable ; l'obligataire est un prêteur qui touche des intérêts fixés à l'avance et est remboursé à l'échéance. En cas de faillite, les obligataires passent avant les actionnaires.",
+   "tip": "Action : je possède. Obligation : je prête.",
+   "extraExample": {
+    "text": "Les États émettent des obligations pour financer leur dette.",
+    "translation": "En France, ces titres s'appellent les OAT."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'action est un prêt ; l'obligation donne une part de propriété",
+     "category": "word_confusion",
+     "feedback": "C'est l'inverse : l'obligation est un prêt, l'action est une part de propriété."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e08",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.dividende",
+    "cg.v.action"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le ___ est la part des bénéfices versée aux actionnaires.",
+   "promptLanguage": "fr",
+   "options": [
+    "dividende",
+    "salaire",
+    "loyer",
+    "intérêt"
+   ],
+   "answer": "dividende",
+   "acceptedAnswers": [
+    "dividende",
+    "le dividende",
+    "dividendes"
+   ],
+   "explanation": "Le dividende est voté par l'assemblée générale des actionnaires et versé, en général, une fois par an, par action détenue. L'entreprise peut aussi garder ses bénéfices pour investir.",
+   "tip": "Dividende : la part du gâteau des actionnaires.",
+   "extraExample": {
+    "text": "Une société qui verse 2 € de dividende par action verse 200 € à quelqu'un qui détient 100 actions.",
+    "translation": "Le montant total dépend du nombre d'actions."
+   },
+   "errorPatterns": [
+    {
+     "equals": "intérêt",
+     "category": "word_confusion",
+     "feedback": "L'intérêt est le revenu d'un prêt ou d'une obligation, fixé à l'avance ; le dividende dépend des bénéfices de l'entreprise."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e09",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.benefice"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pour obtenir le bénéfice, on retire du chiffre d'affaires toutes les ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "charges",
+    "actions",
+    "obligations",
+    "marges"
+   ],
+   "answer": "charges",
+   "acceptedAnswers": [
+    "charges",
+    "les charges"
+   ],
+   "explanation": "Les charges regroupent tout ce que l'entreprise doit payer : matières premières, salaires, loyers, énergie, impôts. Ce qui reste du chiffre d'affaires est le bénéfice.",
+   "tip": "Bénéfice = ventes − charges.",
+   "extraExample": {
+    "text": "Une entreprise dont les charges dépassent les ventes est en perte.",
+    "translation": "Elle doit alors puiser dans ses réserves ou emprunter."
+   }
+  },
+  {
+   "id": "cg.l29.e10",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.cac_40",
+    "cg.v.bourse"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les grands indices boursiers",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "CAC 40",
+     "right": "Paris"
+    },
+    {
+     "left": "Dow Jones",
+     "right": "New York"
+    },
+    {
+     "left": "DAX",
+     "right": "Francfort"
+    },
+    {
+     "left": "FTSE 100",
+     "right": "Londres"
+    },
+    {
+     "left": "Nikkei 225",
+     "right": "Tokyo"
+    }
+   ],
+   "answer": "CAC 40 = Paris ; Dow Jones = New York ; DAX = Francfort ; FTSE 100 = Londres ; Nikkei 225 = Tokyo",
+   "acceptedAnswers": [],
+   "explanation": "Chaque place boursière a son indice phare : le CAC 40 à Paris, le Dow Jones à New York, le DAX à Francfort, le FTSE 100 à Londres et le Nikkei 225 à Tokyo.",
+   "tip": "Un indice suit l'humeur d'une Bourse, pas celle d'une seule entreprise.",
+   "extraExample": {
+    "text": "Le S&P 500, américain aussi, suit 500 grandes entreprises.",
+    "translation": "Il est plus large que le Dow Jones, qui n'en compte que 30."
+   }
+  },
+  {
+   "id": "cg.l29.e11",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.bilan"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Dans un bilan, le passif regroupe ce que l'entreprise doit et l'argent apporté par ses ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "actionnaires",
+    "clients",
+    "fournisseurs",
+    "salariés"
+   ],
+   "answer": "actionnaires",
+   "acceptedAnswers": [
+    "actionnaires",
+    "les actionnaires"
+   ],
+   "explanation": "Le passif liste les ressources de l'entreprise : ses dettes et les capitaux apportés par les actionnaires. L'actif liste ce qu'elle possède. Les deux totaux sont égaux.",
+   "tip": "Actif = ce que l'entreprise possède ; passif = d'où vient l'argent.",
+   "extraExample": {
+    "text": "Un camion acheté à crédit apparaît à l'actif (il appartient à l'entreprise) et au passif (la dette qui l'a financé).",
+    "translation": "C'est pour cela que le bilan est toujours équilibré."
+   },
+   "errorPatterns": [
+    {
+     "equals": "clients",
+     "category": "word_confusion",
+     "feedback": "Les clients paient les ventes, qui apparaissent dans le compte de résultat ; les apports du passif viennent des actionnaires et des prêteurs."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e12",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.bourse"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le 15 septembre 2008, la faillite de la banque américaine ___ déclenche la crise financière mondiale.",
+   "promptLanguage": "fr",
+   "options": [
+    "Lehman Brothers",
+    "Goldman Sachs",
+    "Morgan Stanley",
+    "Wells Fargo"
+   ],
+   "answer": "Lehman Brothers",
+   "acceptedAnswers": [
+    "Lehman Brothers",
+    "Lehman"
+   ],
+   "explanation": "Lehman Brothers, quatrième banque d'investissement américaine, fait faillite le 15 septembre 2008. La confiance entre banques s'effondre, la crise des crédits immobiliers devient une crise mondiale.",
+   "tip": "15 septembre 2008 : Lehman Brothers tombe.",
+   "extraExample": {
+    "text": "Les États et les banques centrales interviennent massivement pour sauver le système bancaire.",
+    "translation": "La crise de 2008 provoque une récession dans de nombreux pays."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Goldman Sachs",
+     "category": "word_confusion",
+     "feedback": "Goldman Sachs a survécu à la crise de 2008 : c'est Lehman Brothers qui a fait faillite, le 15 septembre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e13",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.action",
+    "cg.v.bourse"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Au XVIIe siècle, la Compagnie néerlandaise des ___ orientales, fondée en 1602, est l'une des premières sociétés dont les actions s'échangent en Bourse.",
+   "promptLanguage": "fr",
+   "options": [
+    "Indes",
+    "Épices",
+    "Mers",
+    "Terres"
+   ],
+   "answer": "Indes",
+   "acceptedAnswers": [
+    "Indes",
+    "Indes orientales"
+   ],
+   "explanation": "La Compagnie néerlandaise des Indes orientales (VOC) émet des actions que l'on peut revendre sur la place d'Amsterdam. C'est l'un des premiers exemples de Bourse moderne.",
+   "tip": "VOC, 1602, Amsterdam : les actions s'échangent.",
+   "extraExample": {
+    "text": "La VOC commerçait avec l'Asie, notamment les épices.",
+    "translation": "Elle a disparu à la fin du XVIIIe siècle."
+   }
+  },
+  {
+   "id": "cg.l29.e14",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.bourse",
+    "cg.v.action"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que signifie, pour une entreprise, « entrer en Bourse » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Vendre une partie de son capital au public sous forme d'actions",
+    "Déménager son siège dans le quartier de la Bourse",
+    "Acheter des actions d'autres entreprises",
+    "Rembourser toutes ses dettes"
+   ],
+   "answer": "Vendre une partie de son capital au public sous forme d'actions",
+   "acceptedAnswers": [
+    "Vendre une partie de son capital au public sous forme d'actions"
+   ],
+   "explanation": "Entrer en Bourse (introduction en Bourse), c'est proposer des actions au public. L'entreprise reçoit de l'argent pour se développer, et ses actions peuvent ensuite être échangées chaque jour.",
+   "tip": "Entrer en Bourse : ouvrir son capital au public.",
+   "extraExample": {
+    "text": "Une entreprise cotée doit publier régulièrement ses comptes.",
+    "translation": "C'est une obligation de transparence envers les actionnaires."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Acheter des actions d'autres entreprises",
+     "category": "word_confusion",
+     "feedback": "Acheter des actions d'autres sociétés, c'est investir ; entrer en Bourse, c'est vendre ses propres actions."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e15",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.bourse"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En octobre 1929, la Bourse de New York connaît un krach. Quelle période de crise suit ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Grande Dépression des années 1930",
+    "La crise pétrolière de 1973",
+    "La crise financière de 2008",
+    "La Première Guerre mondiale"
+   ],
+   "answer": "La Grande Dépression des années 1930",
+   "acceptedAnswers": [
+    "La Grande Dépression des années 1930"
+   ],
+   "explanation": "Le krach de Wall Street (jeudi 24 et mardi 29 octobre 1929) fait s'effondrer les cours. Il ouvre la Grande Dépression : faillites de banques et d'entreprises, chômage de masse dans de nombreux pays.",
+   "tip": "1929 : krach ; 2008 : Lehman Brothers.",
+   "extraExample": {
+    "text": "Le 29 octobre 1929 est surnommé le « mardi noir ».",
+    "translation": "Il reste l'un des jours les plus sombres de l'histoire de la Bourse."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La crise financière de 2008",
+     "category": "word_confusion",
+     "feedback": "La crise de 2008 commence près de quatre-vingts ans plus tard, avec la faillite de Lehman Brothers."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e16",
+   "unitIds": [
+    "cg.v.amsterdam",
+    "cg.v.bruxelles",
+    "cg.g29.entreprise_finance",
+    "cg.v.bourse"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ville fait partie du groupe boursier Euronext, avec Paris et Bruxelles ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Amsterdam",
+    "Berne",
+    "Varsovie",
+    "Reykjavik"
+   ],
+   "answer": "Amsterdam",
+   "acceptedAnswers": [
+    "Amsterdam"
+   ],
+   "explanation": "Euronext est né en 2000 de la fusion des Bourses d'Amsterdam, de Bruxelles et de Paris. Il a ensuite accueilli d'autres places, comme Lisbonne et Dublin.",
+   "tip": "Euronext : Paris, Amsterdam, Bruxelles… et d'autres.",
+   "extraExample": {
+    "text": "La Bourse d'Amsterdam est considérée comme la plus ancienne Bourse de valeurs, née au début du XVIIe siècle.",
+    "translation": "Elle a vu naître le commerce des actions de la VOC."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Berne",
+     "category": "word_confusion",
+     "feedback": "Berne est la capitale de la Suisse ; la Bourse suisse est à Zurich et ne fait pas partie d'Euronext."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e17",
+   "unitIds": [
+    "cg.v.deficit_public",
+    "cg.g29.entreprise_finance",
+    "cg.v.obligation"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pour financer son déficit, l'État emprunte notamment en émettant des…",
+   "promptLanguage": "fr",
+   "options": [
+    "obligations",
+    "actions",
+    "dividendes",
+    "bilans"
+   ],
+   "answer": "obligations",
+   "acceptedAnswers": [
+    "obligations"
+   ],
+   "explanation": "Un État ne vend pas de parts de propriété : il emprunte en émettant des obligations, achetées par des banques, des assureurs, des épargnants. En France, ces obligations s'appellent les OAT.",
+   "tip": "Un État emprunte : il émet des obligations.",
+   "extraExample": {
+    "text": "Le taux auquel un État emprunte dépend de la confiance des prêteurs.",
+    "translation": "Quand elle baisse, les taux montent et la dette coûte plus cher."
+   },
+   "errorPatterns": [
+    {
+     "equals": "actions",
+     "category": "word_confusion",
+     "feedback": "Les actions sont des parts de propriété d'entreprises ; un État émet des obligations, qui sont des dettes."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e18",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.benefice",
+    "cg.v.chiffre_affaires"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le bénéfice.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "charges",
+    "Le",
+    "du",
+    "les",
+    "chiffre",
+    "est",
+    "reste",
+    "bénéfice",
+    "qui",
+    "après",
+    "ce",
+    "d'affaires"
+   ],
+   "answer": "Le bénéfice est ce qui reste du chiffre d'affaires après les charges",
+   "acceptedAnswers": [
+    "Le bénéfice est ce qui reste du chiffre d'affaires après les charges"
+   ],
+   "hint": "Commence par le mot bénéfice.",
+   "explanation": "Le bénéfice est la différence entre le chiffre d'affaires (les ventes) et les charges (les coûts). Si elle est négative, l'entreprise est en perte.",
+   "tip": "Ventes moins charges égale bénéfice.",
+   "extraExample": {
+    "text": "Une partie du bénéfice peut être versée en dividendes.",
+    "translation": "Le reste est souvent réinvesti dans l'entreprise."
+   }
+  },
+  {
+   "id": "cg.l29.e19",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.bilan"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on le document comptable qui présente l'actif et le passif d'une entreprise à une date donnée ?",
+   "promptLanguage": "fr",
+   "answer": "Le bilan",
+   "acceptedAnswers": [
+    "Le bilan",
+    "Bilan",
+    "bilan comptable",
+    "le bilan comptable"
+   ],
+   "explanation": "Le bilan est la photographie du patrimoine de l'entreprise : à gauche l'actif (ce qu'elle possède), à droite le passif (ce qu'elle doit et les capitaux des actionnaires). Les deux totaux sont égaux.",
+   "tip": "Bilan = photo ; compte de résultat = film.",
+   "extraExample": {
+    "text": "Le compte de résultat, lui, résume une année entière d'activité.",
+    "translation": "Il aboutit au bénéfice ou à la perte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Compte de résultat",
+     "category": "word_confusion",
+     "feedback": "Le compte de résultat décrit l'activité sur une période (produits et charges) ; le bilan est la photographie du patrimoine à une date."
+    },
+    {
+     "equals": "Le compte de résultat",
+     "category": "word_confusion",
+     "feedback": "Le compte de résultat décrit l'activité sur une période (produits et charges) ; le bilan est la photographie du patrimoine à une date."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e20",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.pme"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on, en abrégé, les entreprises de moins de 250 salariés ?",
+   "promptLanguage": "fr",
+   "answer": "PME",
+   "acceptedAnswers": [
+    "PME",
+    "les PME",
+    "petites et moyennes entreprises",
+    "petite et moyenne entreprise"
+   ],
+   "explanation": "Une PME (petite et moyenne entreprise) emploie moins de 250 personnes. Au-dessus, on parle d'entreprise de taille intermédiaire (jusqu'à 5 000 salariés), puis de grande entreprise.",
+   "tip": "PME = Petite et Moyenne Entreprise.",
+   "extraExample": {
+    "text": "Une micro-entreprise a moins de 10 salariés.",
+    "translation": "Elle fait aussi partie des PME."
+   },
+   "errorPatterns": [
+    {
+     "equals": "TPE",
+     "category": "word_confusion",
+     "feedback": "Une TPE (très petite entreprise) a moins de 10 salariés ; les PME vont jusqu'à 250."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e21",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.cac_40"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle l'indice qui suit les 40 grandes entreprises cotées à la Bourse de Paris ?",
+   "promptLanguage": "fr",
+   "answer": "CAC 40",
+   "acceptedAnswers": [
+    "CAC 40",
+    "le CAC 40",
+    "CAC40",
+    "le CAC40"
+   ],
+   "explanation": "Le CAC 40 (Cotation assistée en continu), lancé en 1988, suit les 40 plus grandes valeurs de la Bourse de Paris. Il monte quand leurs cours montent en moyenne, pondérés par leur taille.",
+   "tip": "CAC 40 : Paris ; Dow Jones : New York ; DAX : Francfort.",
+   "extraExample": {
+    "text": "Quand on dit « le CAC a gagné 1 % », on parle de la moyenne de ses 40 valeurs.",
+    "translation": "Ce n'est pas le cours d'une seule entreprise."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dow Jones",
+     "category": "word_confusion",
+     "feedback": "Le Dow Jones est l'indice de la Bourse de New York (30 entreprises)."
+    }
+   ]
+  },
+  {
+   "id": "cg.l29.e22",
+   "unitIds": [
+    "cg.g29.entreprise_finance",
+    "cg.v.marge"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Un commerçant achète un article 150 € hors taxes et le revend 210 € hors taxes. Quelle est sa marge, en euros ?",
+   "promptLanguage": "fr",
+   "answer": "60",
+   "acceptedAnswers": [
+    "60",
+    "60 €",
+    "60 euros",
+    "soixante euros"
+   ],
+   "explanation": "Marge = prix de vente − coût d'achat = 210 − 150 = 60 €. Cette marge doit encore couvrir ses charges (loyer, salaires, impôts) avant de devenir un bénéfice.",
+   "tip": "Marge = vente − achat, en euros.",
+   "extraExample": {
+    "text": "En pourcentage du prix de vente, 60 € sur 210 € font environ 29 %.",
+    "translation": "C'est le taux de marque."
+   },
+   "errorPatterns": [
+    {
+     "equals": "360",
+     "category": "word_confusion",
+     "feedback": "On soustrait le coût d'achat du prix de vente : on ne les additionne pas."
+    },
+    {
+     "equals": "210",
+     "category": "word_confusion",
+     "feedback": "210 € est le prix de vente ; la marge est la différence avec le coût d'achat."
+    }
+   ]
+  }
+ ]
+}

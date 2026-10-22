@@ -38,6 +38,16 @@
    "difficulty": 3,
    "prerequisites": [],
    "functionWords": []
+  },
+  {
+   "id": "cg.g37.litterature_mondiale",
+   "category": "knowledge",
+   "title": "Les grands classiques de la littérature mondiale",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g36.litterature_francaise"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -68,6 +78,12 @@
      "partOfSpeech": "concept"
     },
     {
+     "word": "Léonard de Vinci",
+     "slug": "leonard_de_vinci",
+     "translation": "peintre, inventeur et savant italien de la Renaissance (1452-1519)",
+     "partOfSpeech": "person"
+    },
+    {
      "word": "La Joconde",
      "slug": "la_joconde",
      "translation": "portrait peint par Léonard de Vinci, exposé au Louvre",
@@ -90,12 +106,6 @@
      "slug": "clair_obscur",
      "translation": "fort contraste entre des zones très éclairées et des zones plongées dans l'ombre",
      "partOfSpeech": "concept"
-    },
-    {
-     "word": "Rembrandt",
-     "slug": "rembrandt",
-     "translation": "peintre néerlandais du Siècle d'or, maître du clair-obscur (1606-1669)",
-     "partOfSpeech": "person"
     },
     {
      "word": "le romantisme",
@@ -341,6 +351,82 @@
      "word": "Albert Camus",
      "slug": "albert_camus",
      "translation": "écrivain et philosophe français, prix Nobel de littérature 1957",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "cg.l37",
+   "sequence": 37,
+   "title": "Littérature mondiale : les grands classiques",
+   "description": "D'Homère à García Márquez : les œuvres et les auteurs du monde entier que l'on cite le plus souvent, de l'Odyssée à Cent ans de solitude.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g37.litterature_mondiale",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g36.litterature_francaise",
+    "cg.g11.afrique_moyen_orient",
+    "cg.g01.antiquite"
+   ],
+   "vocabulary": [
+    {
+     "word": "Homère",
+     "slug": "homere",
+     "translation": "poète grec légendaire, auteur de l'Iliade et de l'Odyssée (VIIIe siècle av. J.-C.)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "La Divine Comédie",
+     "slug": "la_divine_comedie",
+     "translation": "poème de Dante (vers 1307-1320) : voyage en Enfer, au Purgatoire et au Paradis",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Don Quichotte",
+     "slug": "don_quichotte",
+     "translation": "roman de Cervantès (1605 et 1615) sur un hidalgo qui se prend pour un chevalier",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "William Shakespeare",
+     "slug": "william_shakespeare",
+     "translation": "dramaturge et poète anglais (1564-1616)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Hamlet",
+     "slug": "hamlet",
+     "translation": "tragédie de Shakespeare (vers 1600) : le prince du Danemark veut venger son père",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Guerre et Paix",
+     "slug": "guerre_et_paix",
+     "translation": "roman de Léon Tolstoï (1865-1869) sur la Russie au temps de Napoléon",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Franz Kafka",
+     "slug": "franz_kafka",
+     "translation": "écrivain de langue allemande né à Prague (1883-1924), auteur de La Métamorphose",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "George Orwell",
+     "slug": "george_orwell",
+     "translation": "écrivain britannique, auteur de La Ferme des animaux (1945) et de 1984 (1949)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Gabriel García Márquez",
+     "slug": "gabriel_garcia_marquez",
+     "translation": "écrivain colombien, prix Nobel 1982, auteur de Cent ans de solitude",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Naguib Mahfouz",
+     "slug": "naguib_mahfouz",
+     "translation": "écrivain égyptien, premier auteur de langue arabe prix Nobel de littérature (1988)",
      "partOfSpeech": "person"
     }
    ]

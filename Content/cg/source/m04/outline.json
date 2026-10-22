@@ -42,6 +42,27 @@
     "cg.g26.union_europeenne"
    ],
    "functionWords": []
+  },
+  {
+   "id": "cg.g29.entreprise_finance",
+   "category": "knowledge",
+   "title": "L'entreprise et la finance",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g28.notions_economie"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g30.mondialisation",
+   "category": "knowledge",
+   "title": "La mondialisation et le commerce international",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g27.organisations_internationales",
+    "cg.g28.notions_economie"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -342,6 +363,159 @@
      "word": "le SMIC",
      "slug": "smic",
      "translation": "salaire minimum interprofessionnel de croissance, plancher légal du salaire en France",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "cg.l29",
+   "sequence": 29,
+   "title": "Entreprise et finance : marge, bilan, Bourse",
+   "description": "Comment fonctionne une entreprise (chiffre d'affaires, marge, bénéfice, bilan) et comment elle se finance (actions, obligations, Bourse, CAC 40).",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g29.entreprise_finance",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g28.notions_economie",
+    "cg.g27.organisations_internationales",
+    "cg.g26.union_europeenne"
+   ],
+   "vocabulary": [
+    {
+     "word": "la PME",
+     "slug": "pme",
+     "translation": "petite ou moyenne entreprise : moins de 250 salariés",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le chiffre d'affaires",
+     "slug": "chiffre_affaires",
+     "translation": "total des ventes d'une entreprise sur une période",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la marge",
+     "slug": "marge",
+     "translation": "différence entre le prix de vente et le coût d'un produit",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le bénéfice",
+     "slug": "benefice",
+     "translation": "ce qui reste au chiffre d'affaires après paiement de toutes les charges",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le bilan",
+     "slug": "bilan",
+     "translation": "photographie du patrimoine d'une entreprise à une date : actif et passif",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'action",
+     "slug": "action",
+     "translation": "titre qui représente une part du capital d'une société",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le dividende",
+     "slug": "dividende",
+     "translation": "part des bénéfices versée aux actionnaires",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'obligation",
+     "slug": "obligation",
+     "translation": "titre de dette : celui qui l'achète prête de l'argent à une entreprise ou à un État",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la Bourse",
+     "slug": "bourse",
+     "translation": "marché où s'échangent des actions, des obligations et d'autres titres",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le CAC 40",
+     "slug": "cac_40",
+     "translation": "indice des 40 grandes entreprises cotées à la Bourse de Paris",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "cg.l30",
+   "sequence": 30,
+   "title": "Mondialisation : conteneurs, libre-échange et chaînes de valeur",
+   "description": "Comment les échanges mondiaux se sont intensifiés : transports, libre-échange et protectionnisme, délocalisations, multinationales et pays émergents.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g30.mondialisation",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g26.union_europeenne",
+    "cg.g27.organisations_internationales",
+    "cg.g28.notions_economie",
+    "cg.g23.informatique"
+   ],
+   "vocabulary": [
+    {
+     "word": "la mondialisation",
+     "slug": "mondialisation",
+     "translation": "intensification des échanges de biens, de capitaux, de personnes et d'informations entre les pays",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le conteneur",
+     "slug": "conteneur",
+     "translation": "grande boîte métallique standardisée pour transporter des marchandises",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la délocalisation",
+     "slug": "delocalisation",
+     "translation": "transfert d'une production vers un autre pays",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le libre-échange",
+     "slug": "libre_echange",
+     "translation": "commerce sans droits de douane ni quotas entre pays",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le protectionnisme",
+     "slug": "protectionnisme",
+     "translation": "politique qui protège les producteurs nationaux de la concurrence étrangère",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les droits de douane",
+     "slug": "droits_de_douane",
+     "translation": "taxes payées sur les marchandises importées",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'avantage comparatif",
+     "slug": "avantage_comparatif",
+     "translation": "idée selon laquelle chaque pays gagne à produire ce qu'il fait au meilleur coût relatif",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la balance commerciale",
+     "slug": "balance_commerciale",
+     "translation": "différence entre les exportations et les importations de marchandises d'un pays",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la multinationale",
+     "slug": "multinationale",
+     "translation": "entreprise présente et produisant dans plusieurs pays",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les pays émergents",
+     "slug": "pays_emergents",
+     "translation": "pays à forte croissance qui s'industrialisent et rattrapent les pays riches",
      "partOfSpeech": "concept"
     }
    ]

@@ -142,5 +142,101 @@
    ],
    "tip": "Souligne mentalement chaque ا, و, ي long : ce sont les temps forts du mot."
   }
+ },
+ {
+  "id": "ar.g28.nom_adjectif",
+  "rule": {
+   "summary": "En arabe, l'adjectif suit le nom et s'accorde avec lui : il reprend ال si le nom est défini (الْعَهْد الْجَدِيد), et prend un ة s'il est féminin (الْكَنِيسَة الْقِبْطِيَّة). Les noms féminins font souvent leur pluriel en ـَات (نُبُوَّة → نُبُوَّات).",
+   "explanation": "Dans un groupe nom + adjectif, l'adjectif vient toujours en deuxième. Si le nom a ال, l'adjectif l'a aussi : الْكِتَاب الْمُقَدَّس, mot à mot « le livre le saint » = la Bible. Sans ال des deux côtés, on obtient un groupe indéfini : كِتَابٌ مُقَدَّسٌ (un livre saint). Si seul le nom a ال, c'est une phrase : الْكِتَابُ مُقَدَّسٌ = le livre est saint. Un nom féminin demande un adjectif féminin : الْكَنِيسَة الْقِبْطِيَّة = l'Église copte. Le pluriel en ـَات se fait en retirant le ة et en ajoutant ـَات : نُبُوَّة → نُبُوَّات (prophéties), آيَة → آيَات (versets), أَيْقُونَة → أَيْقُونَات. Pour lire, applique ال à chaque mot : an-nubuwwât (ن solaire), al-qadîm (ق lunaire).",
+   "pattern": "ال + nom + ال + adjectif (même genre) · pluriel : ـَة → ـَات",
+   "examples": [
+    {
+     "text": "الْكِتَاب الْمُقَدَّس",
+     "translation": "la Bible : nom et adjectif ont tous deux ال",
+     "transliteration": "al-kitâb al-muqaddas"
+    },
+    {
+     "text": "الْعَهْد الْجَدِيد",
+     "translation": "le Nouveau Testament",
+     "transliteration": "al-3ahd al-djadîd"
+    },
+    {
+     "text": "الْكَنِيسَة الْقِبْطِيَّة",
+     "translation": "l'Église copte : nom et adjectif féminins",
+     "transliteration": "al-kanîsa al-qibTiyya"
+    },
+    {
+     "text": "النُّبُوَّات",
+     "translation": "les prophéties : pluriel en ـَات de نُبُوَّة",
+     "transliteration": "an-nubuwwât"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "الْعَهْد جَدِيد pour « le Nouveau Testament »",
+     "right": "الْعَهْد الْجَدِيد",
+     "why": "Quand le nom a ال, l'adjectif doit l'avoir aussi. Sans lui, c'est une phrase : « le testament est nouveau »."
+    },
+    {
+     "wrong": "الْكَنِيسَة الْقِبْطِيّ",
+     "right": "الْكَنِيسَة الْقِبْطِيَّة",
+     "why": "كَنِيسَة est féminin : l'adjectif prend aussi le ة (ـِيَّة)."
+    },
+    {
+     "wrong": "النُّبُوَّات lu « an-nubuwat »",
+     "right": "an-nubuwwât",
+     "why": "Le و porte une chadda (deux w) et le ـَات final se lit â + t."
+    }
+   ],
+   "tip": "Nom d'abord, adjectif ensuite ; si le nom a ال, l'adjectif aussi ; si le nom est féminin, l'adjectif aussi."
+  }
+ },
+ {
+  "id": "ar.g29.idafa",
+  "rule": {
+   "summary": "L'annexion (iDâfa) met deux noms côte à côte pour dire « X de Y » : le premier n'a ni ال ni tanwîn, le second est défini (ال) et se termine par une kasra. Le ة du premier nom se lit t.",
+   "explanation": "Pour dire « la fête de la Nativité », l'arabe n'utilise pas de petit mot « de » : il pose deux noms l'un après l'autre, عِيد (fête) puis الْمِيلَاد (la Nativité). C'est l'annexion. Trois règles de lecture : (1) le premier nom n'a jamais ال ni tanwîn, même s'il est précis en français (عِيد الْقِيَامَة, pas الْعِيد الْقِيَامَة) ; (2) le second nom a ال (ou est un nom propre) et prend une kasra quand on lit les terminaisons : عِيدُ الْمِيلَادِ = 3îdu l-mîlâdi, avec le a de al- qui tombe ; (3) si le premier nom se termine par ة, on dit t : أَيْقُونَةُ الْعَذْرَاءِ = ayqûnatu l-3adhrâ'. Attention à ne pas confondre avec nom + adjectif (leçon 28) : الصَّوْم الْكَبِير, « le Grand Carême », a ال sur les deux mots, alors qu'une annexion n'a ال que sur le second.",
+   "pattern": "1er nom sans ال + 2e nom avec ال = « X de Y » (3îd al-mîlâd) · nom + adjectif = ال sur les deux",
+   "examples": [
+    {
+     "text": "عِيد الْمِيلَاد",
+     "translation": "la fête de la Nativité (Noël) : 1er nom sans ال",
+     "transliteration": "3îd al-mîlâd"
+    },
+    {
+     "text": "عِيد الْقِيَامَة",
+     "translation": "la fête de la Résurrection (Pâques)",
+     "transliteration": "3îd al-qiyâma"
+    },
+    {
+     "text": "أُسْبُوع الْآلَام",
+     "translation": "la semaine de la Passion (Semaine sainte)",
+     "transliteration": "usbû3 al-âlâm"
+    },
+    {
+     "text": "أَحَد الشَّعَانِين",
+     "translation": "le dimanche des Rameaux : ش solaire dans le second nom",
+     "transliteration": "a7ad ach-cha3ânîn"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "الْعِيد الْقِيَامَة pour « la fête de la Résurrection »",
+     "right": "عِيد الْقِيَامَة",
+     "why": "Le premier nom d'une annexion n'a jamais ال : c'est le second nom qui le rend précis."
+    },
+    {
+     "wrong": "عِيدُ الْمِيلَادِ lu « 3îdu al-mîlâdi »",
+     "right": "3îdu l-mîlâdi",
+     "why": "Après la damma de 3îdu, le a de al- tombe : on enchaîne 3îdu l-mîlâdi."
+    },
+    {
+     "wrong": "الصَّوْم الْكَبِير lu comme une annexion « le jeûne du grand »",
+     "right": "le Grand Carême",
+     "why": "ال est sur les deux mots : c'est un nom + un adjectif, pas une annexion."
+    }
+   ],
+   "tip": "Annexion : le premier nom reste « nu » (sans ال), le second porte ال."
+  }
  }
 ]

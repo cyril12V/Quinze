@@ -174,5 +174,93 @@
    ],
    "tip": "PIB = production ; inflation = prix ; taux d'intérêt = prix de l'argent ; chômage = emploi ; déficit = une année, dette = tout le passé."
   }
+ },
+ {
+  "id": "cg.g29.entreprise_finance",
+  "rule": {
+   "summary": "Une entreprise produit des biens ou des services pour les vendre : son chiffre d'affaires moins ses charges donne son bénéfice. Son bilan décrit ce qu'elle possède et ce qu'elle doit à un instant donné ; pour se financer, elle peut emprunter ou émettre des actions et des obligations, échangées en Bourse.",
+   "explanation": "Le chiffre d'affaires est le total des ventes d'une période ; il ne faut pas le confondre avec le bénéfice, qui est ce qui reste après avoir payé toutes les charges (matières premières, salaires, loyers, impôts…). La marge est la différence entre le prix de vente et le coût d'un produit. Le bilan est la photographie du patrimoine de l'entreprise à une date donnée : l'actif (ce qu'elle possède) d'un côté, le passif (ce qu'elle doit et l'argent apporté par les actionnaires) de l'autre. Une action est une part du capital : son propriétaire, l'actionnaire, peut toucher un dividende. Une obligation est une dette : son détenteur est un prêteur, payé en intérêts. La Bourse est le marché où s'échangent ces titres, et le CAC 40 suit les 40 grandes valeurs de la Bourse de Paris.",
+   "pattern": "Bénéfice = chiffre d'affaires − charges ; actif = passif ; action = je suis propriétaire ; obligation = je prête",
+   "examples": [
+    {
+     "text": "Une boulangerie vend pour 200 000 € de pain dans l'année (chiffre d'affaires) et dépense 180 000 € (farine, salaires, loyer, impôts).",
+     "translation": "Son bénéfice est de 20 000 € : seul ce reste lui appartient."
+    },
+    {
+     "text": "La Compagnie néerlandaise des Indes orientales (1602) est l'une des premières sociétés dont les actions s'échangent à la Bourse d'Amsterdam.",
+     "translation": "Les actions et la Bourse existent donc depuis plus de quatre siècles."
+    },
+    {
+     "text": "Le 15 septembre 2008, la banque américaine Lehman Brothers fait faillite.",
+     "translation": "Cet événement déclenche la crise financière mondiale de 2008."
+    },
+    {
+     "text": "En octobre 1929, la Bourse de New York connaît un krach, au début de la Grande Dépression.",
+     "translation": "Les cours s'effondrent et de nombreuses banques et entreprises font faillite."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le chiffre d'affaires, c'est le bénéfice.",
+     "right": "Le chiffre d'affaires, ce sont les ventes ; le bénéfice, ce qui reste après les charges.",
+     "why": "Une entreprise peut avoir un gros chiffre d'affaires et perdre de l'argent si ses coûts sont plus élevés."
+    },
+    {
+     "wrong": "Acheter une action, c'est prêter de l'argent à l'entreprise.",
+     "right": "L'action fait de toi un copropriétaire ; c'est l'obligation qui est un prêt.",
+     "why": "L'actionnaire touche un dividende variable et peut tout perdre ; l'obligataire touche des intérêts fixés à l'avance et passe avant les actionnaires en cas de faillite."
+    },
+    {
+     "wrong": "La Bourse est un endroit où les entreprises vendent leurs produits.",
+     "right": "La Bourse est un marché où s'échangent des titres financiers, comme les actions et les obligations.",
+     "why": "Les entreprises vendent leurs produits à leurs clients ; en Bourse, on échange des parts d'entreprises."
+    }
+   ],
+   "tip": "Chiffre d'affaires = les ventes ; bénéfice = ce qui reste ; action = je possède ; obligation = je prête."
+  }
+ },
+ {
+  "id": "cg.g30.mondialisation",
+  "rule": {
+   "summary": "La mondialisation est l'intensification des échanges de marchandises, de capitaux, de personnes et d'informations entre les pays. Elle s'appuie sur des transports moins chers (le conteneur), sur Internet et sur la baisse des droits de douane, et elle transforme la production : les multinationales répartissent la fabrication entre plusieurs pays.",
+   "explanation": "Les échanges lointains sont très anciens (route de la soie, grandes découvertes), mais le grand tournant vient après 1945 : le GATT puis l'OMC font baisser les droits de douane, et le conteneur, lancé par Malcom McLean en 1956, fait chuter le coût du transport. La fin de la guerre froide (1989-1991) et l'entrée de la Chine à l'OMC (2001) accélèrent le mouvement, tandis que les multinationales délocalisent des usines vers des pays où produire coûte moins cher. Le libre-échange défend la suppression des barrières au commerce ; le protectionnisme protège les producteurs nationaux par des droits de douane ou des quotas. David Ricardo montre en 1817, avec l'avantage comparatif, que chaque pays gagne à se spécialiser dans ce qu'il produit au meilleur coût relatif. Les avantages (prix bas, choix, croissance des pays émergents) coexistent avec des critiques (désindustrialisation, inégalités, impact sur l'environnement).",
+   "pattern": "1956 : le conteneur ; 1995 : l'OMC ; 2001 : la Chine à l'OMC ; libre-échange contre protectionnisme ; Ricardo (1817) : l'avantage comparatif",
+   "examples": [
+    {
+     "text": "Un conteneur passe du bateau au train puis au camion sans être déchargé.",
+     "translation": "Le conteneur a fortement réduit le coût et la durée du transport des marchandises."
+    },
+    {
+     "text": "Plus de 80 % des marchandises échangées dans le monde, en volume, voyagent par la mer.",
+     "translation": "En mars 2021, le blocage du canal de Suez par l'Ever Given a perturbé le commerce mondial pendant près d'une semaine."
+    },
+    {
+     "text": "Un smartphone peut être conçu dans un pays, assemblé dans un autre avec des composants venus de plusieurs continents.",
+     "translation": "C'est la logique des chaînes de valeur mondiales : chaque étape est réalisée là où elle coûte le moins ou est la mieux maîtrisée."
+    },
+    {
+     "text": "L'Allemagne et la Chine ont souvent un excédent commercial ; les États-Unis et la France, un déficit.",
+     "translation": "La balance commerciale compare ce qu'un pays exporte et ce qu'il importe."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La mondialisation date d'aujourd'hui, avec Internet.",
+     "right": "Les échanges mondiaux existent depuis des siècles ; la mondialisation actuelle s'accélère après 1945, puis après 1990.",
+     "why": "Internet l'amplifie, mais le conteneur, la baisse des droits de douane et la fin de la guerre froide ont joué un rôle majeur."
+    },
+    {
+     "wrong": "Une délocalisation, c'est quand une entreprise ferme et disparaît.",
+     "right": "Une délocalisation transfère une production dans un autre pays ; l'entreprise continue d'exister.",
+     "why": "Les emplois du site d'origine disparaissent, mais la production reprend ailleurs."
+    },
+    {
+     "wrong": "Un déficit commercial signifie que le pays est en faillite.",
+     "right": "Un déficit commercial signifie que le pays importe plus qu'il n'exporte.",
+     "why": "C'est un déséquilibre, qui peut être financé par des capitaux étrangers ; ce n'est pas une faillite."
+    }
+   ],
+   "tip": "Conteneur, OMC, Chine, Internet : quatre moteurs de la mondialisation ; Ricardo : chacun produit ce qu'il fait le mieux."
+  }
  }
 ]

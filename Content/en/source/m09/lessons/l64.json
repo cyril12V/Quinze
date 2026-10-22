@@ -1,0 +1,941 @@
+{
+ "lessonId": "en.l64",
+ "exercises": [
+  {
+   "id": "en.l64.e01",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.graduate",
+    "en.v.university"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "I ___ from university in 2018.",
+   "promptLanguage": "en",
+   "options": [
+    "graduated",
+    "have graduated",
+    "graduate",
+    "am graduated"
+   ],
+   "answer": "graduated",
+   "acceptedAnswers": [
+    "graduated"
+   ],
+   "hint": "In 2018 : un moment fini et précis.",
+   "explanation": "Une date précise (in 2018) fixe l'action dans un moment terminé : on utilise le past simple, graduated, même si le français dit « j'ai eu mon diplôme ».",
+   "tip": "Une date → past simple.",
+   "extraExample": {
+    "text": "She joined the company in 2021.",
+    "translation": "Elle est entrée dans l'entreprise en 2021."
+   },
+   "errorPatterns": [
+    {
+     "equals": "have graduated",
+     "category": "verb_tense",
+     "feedback": "Avec une date précise (in 2018), le present perfect est impossible : I graduated."
+    },
+    {
+     "equals": "graduate",
+     "category": "verb_tense",
+     "feedback": "L'action est passée et datée : past simple, graduated."
+    },
+    {
+     "equals": "am graduated",
+     "category": "grammar",
+     "feedback": "Calque de « je suis diplômé ». Le verbe graduate se conjugue seul : I graduated in 2018."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e02",
+   "unitIds": [
+    "en.v.graduate",
+    "en.v.degree",
+    "en.v.wedding",
+    "en.v.event",
+    "en.v.unforgettable"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les grands moments d'une vie",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "graduate",
+     "right": "obtenir son diplôme"
+    },
+    {
+     "left": "degree",
+     "right": "le diplôme universitaire"
+    },
+    {
+     "left": "wedding",
+     "right": "le mariage (la fête)"
+    },
+    {
+     "left": "event",
+     "right": "l'événement"
+    },
+    {
+     "left": "unforgettable",
+     "right": "inoubliable"
+    }
+   ],
+   "answer": "graduate = obtenir son diplôme ; degree = le diplôme universitaire ; wedding = le mariage (la fête) ; event = l'événement ; unforgettable = inoubliable",
+   "acceptedAnswers": [],
+   "explanation": "Wedding est la cérémonie du mariage (marriage = la vie de couple). Degree est le diplôme de l'université ; graduate est le verbe « obtenir son diplôme ».",
+   "tip": "Un-forget-able : « qu'on ne peut pas oublier ».",
+   "extraExample": {
+    "text": "Their wedding was an unforgettable event.",
+    "translation": "Leur mariage a été un événement inoubliable."
+   }
+  },
+  {
+   "id": "en.l64.e03",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le dialogue et choisis la bonne question.",
+   "prompt": "A: ___ to Scotland? B: Yes, I went there in 2019. It was beautiful.",
+   "promptLanguage": "en",
+   "options": [
+    "Have you ever been",
+    "Have you ever went",
+    "Did you ever been",
+    "Were you already"
+   ],
+   "answer": "Have you ever been",
+   "acceptedAnswers": [
+    "Have you ever been"
+   ],
+   "hint": "A ne donne aucune date : il demande une expérience de vie.",
+   "explanation": "La conversation commence au present perfect (Have you ever been…?) car on demande une expérience sans date. Dès que B donne un moment précis (in 2019), il passe au past simple : I went, it was.",
+   "tip": "Question d'expérience : present perfect. Détails datés : past simple.",
+   "extraExample": {
+    "text": "Have you ever tried Thai food? — Yes, I tried it last year.",
+    "translation": "As-tu déjà goûté la cuisine thaïe ? — Oui, j'y ai goûté l'année dernière."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Have you ever went",
+     "category": "conjugation",
+     "feedback": "Après have, il faut le participe passé : been (ou gone), pas went."
+    },
+    {
+     "equals": "Did you ever been",
+     "category": "conjugation",
+     "feedback": "Après did, on met la forme de base ; mais pour une expérience de vie, on dit Have you ever been…?"
+    },
+    {
+     "equals": "Were you already",
+     "category": "word_confusion",
+     "feedback": "Calque de « étais-tu déjà ». Pour une expérience de vie : Have you ever been to Scotland?"
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e04",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.join"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque phrase anglaise à sa traduction.",
+   "prompt": "Pendant ou depuis ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "I joined the company in 2021.",
+     "right": "Je suis entré dans l'entreprise en 2021."
+    },
+    {
+     "left": "I have worked here since 2021.",
+     "right": "Je travaille ici depuis 2021."
+    },
+    {
+     "left": "I worked there for two years.",
+     "right": "J'y ai travaillé pendant deux ans."
+    },
+    {
+     "left": "I have worked there for two years.",
+     "right": "J'y travaille depuis deux ans."
+    },
+    {
+     "left": "When did you join?",
+     "right": "Quand es-tu arrivé dans l'entreprise ?"
+    }
+   ],
+   "answer": "I joined the company in 2021. = Je suis entré dans l'entreprise en 2021. ; I have worked here since 2021. = Je travaille ici depuis 2021. ; I worked there for two years. = J'y ai travaillé pendant deux ans. ; I have worked there for two years. = J'y travaille depuis deux ans. ; When did you join? = Quand es-tu arrivé dans l'entreprise ?",
+   "acceptedAnswers": [],
+   "explanation": "Avec le past simple, for veut dire « pendant » et la période est finie (tu n'y travailles plus). Avec le present perfect, for veut dire « depuis » : tu y travailles encore.",
+   "tip": "Worked for two years = c'est fini ; have worked for two years = ça continue.",
+   "extraExample": {
+    "text": "She lived in Spain for a year.",
+    "translation": "Elle a vécu en Espagne pendant un an."
+   }
+  },
+  {
+   "id": "en.l64.e05",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.promotion"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le verbe get (obtenir) à la bonne forme.",
+   "prompt": "Anna ___ a promotion last month.",
+   "promptLanguage": "en",
+   "options": [
+    "got",
+    "has got",
+    "gets",
+    "has gotten"
+   ],
+   "answer": "got",
+   "acceptedAnswers": [
+    "got",
+    "received",
+    "was given"
+   ],
+   "hint": "Last month : un moment fini.",
+   "explanation": "Last month donne un moment précis et terminé : past simple, got. Le present perfect ne va jamais avec last, yesterday ou ago.",
+   "tip": "Last…, yesterday, ago → past simple.",
+   "extraExample": {
+    "text": "We moved to Bristol last year.",
+    "translation": "Nous avons déménagé à Bristol l'année dernière."
+   },
+   "errorPatterns": [
+    {
+     "equals": "has got",
+     "category": "verb_tense",
+     "feedback": "Last month est un moment fini : past simple, Anna got a promotion."
+    },
+    {
+     "equals": "has gotten",
+     "category": "verb_tense",
+     "feedback": "Last month est un moment fini : past simple, got. (Gotten est la forme américaine du participe passé.)"
+    },
+    {
+     "equals": "gets",
+     "category": "verb_tense",
+     "feedback": "L'action est passée et datée (last month) : past simple, got."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e06",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.interview",
+    "en.v.job"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe have (avoir) à la bonne forme.",
+   "prompt": "We ___ three job interviews this week, and it's only Wednesday!",
+   "promptLanguage": "en",
+   "options": [
+    "have had",
+    "had",
+    "have",
+    "are having"
+   ],
+   "answer": "have had",
+   "acceptedAnswers": [
+    "have had"
+   ],
+   "hint": "La semaine n'est pas finie.",
+   "explanation": "This week n'est pas terminée (on est mercredi) : la période continue jusqu'à maintenant, donc present perfect, we have had. Avec last week, on dirait we had.",
+   "tip": "This week, this year, today (pas finis) → present perfect.",
+   "extraExample": {
+    "text": "I've drunk four coffees today.",
+    "translation": "J'ai bu quatre cafés aujourd'hui."
+   },
+   "errorPatterns": [
+    {
+     "equals": "had",
+     "category": "verb_tense",
+     "feedback": "This week n'est pas finie (it's only Wednesday) : present perfect, we have had."
+    },
+    {
+     "equals": "have",
+     "category": "verb_tense",
+     "feedback": "Les entretiens ont déjà eu lieu : present perfect, we have had."
+    },
+    {
+     "equals": "are having",
+     "category": "verb_tense",
+     "feedback": "On fait un bilan (three interviews so far) : present perfect, we have had."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e07",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.join",
+    "en.v.company"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne question.",
+   "prompt": "When ___ the company?",
+   "promptLanguage": "en",
+   "options": [
+    "did you join",
+    "have you joined",
+    "do you join",
+    "you joined"
+   ],
+   "answer": "did you join",
+   "acceptedAnswers": [
+    "did you join"
+   ],
+   "hint": "When demande un moment précis.",
+   "explanation": "When demande un moment précis du passé : la question se fait toujours au past simple, avec did + verbe de base. When have you joined… ? est impossible.",
+   "tip": "When…? → did + verbe de base.",
+   "extraExample": {
+    "text": "When did she graduate?",
+    "translation": "Quand a-t-elle obtenu son diplôme ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "have you joined",
+     "category": "verb_tense",
+     "feedback": "When demande un moment précis : past simple, When did you join…?"
+    },
+    {
+     "equals": "do you join",
+     "category": "verb_tense",
+     "feedback": "L'action est passée : When did you join the company?"
+    },
+    {
+     "equals": "you joined",
+     "category": "word_order",
+     "feedback": "Dans une question au past simple, il faut did avant le sujet : When did you join…?"
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e08",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.graduate",
+    "en.v.join"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le texte et choisis la bonne réponse.",
+   "prompt": "Does Ben still work at the bank?",
+   "promptLanguage": "en",
+   "context": "Ben graduated in 2015. He joined a bank in 2016 and worked there for five years. In 2021, he started his own company. He has had his company for a few years now, and he loves it.",
+   "options": [
+    "No, he doesn't.",
+    "Yes, he does.",
+    "Yes, he has."
+   ],
+   "answer": "No, he doesn't.",
+   "acceptedAnswers": [
+    "No, he doesn't."
+   ],
+   "hint": "Worked there for five years : la période est-elle finie ?",
+   "explanation": "Worked there for five years est au past simple : la période est finie, Ben ne travaille plus à la banque. Le present perfect (He has had his own company) montre au contraire ce qui continue.",
+   "tip": "Past simple + for = c'est fini ; present perfect + for / since = ça continue.",
+   "extraExample": {
+    "text": "My sister lived in Canada for three years. Now she lives in Paris.",
+    "translation": "Ma sœur a vécu au Canada pendant trois ans. Maintenant, elle habite à Paris."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Yes, he does.",
+     "category": "verb_tense",
+     "feedback": "Worked there for five years est au past simple : c'est terminé. Ben ne travaille plus à la banque."
+    },
+    {
+     "equals": "Yes, he has.",
+     "category": "grammar",
+     "feedback": "La question commence par Does : la réponse courte reprend does (No, he doesn't). Et Ben a quitté la banque."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e09",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe live (habiter) à la bonne forme.",
+   "prompt": "I ___ in Madrid for two years, but I came back to France in 2020.",
+   "promptLanguage": "en",
+   "options": [
+    "lived",
+    "have lived",
+    "live",
+    "have been living"
+   ],
+   "answer": "lived",
+   "acceptedAnswers": [
+    "lived"
+   ],
+   "hint": "Tu es revenu en France : la période à Madrid est-elle finie ?",
+   "explanation": "La période à Madrid est terminée (tu es rentré en 2020) : past simple, I lived there for two years. Le present perfect voudrait dire que tu y habites encore.",
+   "tip": "Période finie, même avec for → past simple.",
+   "extraExample": {
+    "text": "He worked in a bank for ten years before he changed careers.",
+    "translation": "Il a travaillé dans une banque pendant dix ans avant de changer de carrière."
+   },
+   "errorPatterns": [
+    {
+     "equals": "have lived",
+     "category": "verb_tense",
+     "feedback": "Have lived voudrait dire que tu habites encore à Madrid. Tu es rentré en 2020 : I lived."
+    },
+    {
+     "equals": "live",
+     "category": "verb_tense",
+     "feedback": "La période est finie : past simple, I lived."
+    },
+    {
+     "equals": "have been living",
+     "category": "verb_tense",
+     "feedback": "La forme continue voudrait dire que tu y habites encore. La période est finie : I lived."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e10",
+   "unitIds": [
+    "en.g23.past_simple_negative_questions",
+    "en.v.wedding"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse courte.",
+   "prompt": "Did you go to Sam's wedding? — No, I ___.",
+   "promptLanguage": "en",
+   "options": [
+    "didn't",
+    "haven't",
+    "wasn't",
+    "don't"
+   ],
+   "answer": "didn't",
+   "acceptedAnswers": [
+    "didn't"
+   ],
+   "hint": "Quel auxiliaire y a-t-il dans la question ?",
+   "explanation": "La question est au past simple avec did : la réponse courte reprend did. No, I didn't.",
+   "tip": "Did…? → Yes, I did. / No, I didn't.",
+   "extraExample": {
+    "text": "Did they enjoy the party? — Yes, they did.",
+    "translation": "Ont-ils aimé la fête ? — Oui."
+   },
+   "errorPatterns": [
+    {
+     "equals": "haven't",
+     "category": "grammar",
+     "feedback": "La question commence par Did : on répond avec did, No, I didn't."
+    },
+    {
+     "equals": "wasn't",
+     "category": "grammar",
+     "feedback": "Go n'est pas be : la question avec Did appelle No, I didn't."
+    },
+    {
+     "equals": "don't",
+     "category": "verb_tense",
+     "feedback": "La question est au passé (Did) : No, I didn't."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e11",
+   "unitIds": [
+    "en.g44.present_perfect_continuous",
+    "en.v.look_for",
+    "en.v.job",
+    "en.v.month"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Ça fait trois mois que je cherche du travail.",
+   "promptLanguage": "fr",
+   "answer": "I have been looking for a job for three months.",
+   "acceptedAnswers": [
+    "I have been looking for a job for three months.",
+    "I have been looking for work for three months.",
+    "I have been looking for a new job for three months."
+   ],
+   "hint": "« Ça fait… que » + activité qui continue.",
+   "explanation": "Tu cherches encore : present perfect continu, I have been looking for. Trois mois est une durée : for three months.",
+   "tip": "« Ça fait + durée + que » = have been + -ing + for.",
+   "extraExample": {
+    "text": "She has been looking for an apartment for weeks.",
+    "translation": "Ça fait des semaines qu'elle cherche un appartement."
+   },
+   "errorPatterns": [
+    {
+     "contains": "it makes three months",
+     "category": "word_confusion",
+     "feedback": "« Ça fait… que » ne se traduit pas par it makes : I have been looking for a job for three months."
+    },
+    {
+     "contains": "i am looking for a job since",
+     "category": "verb_tense",
+     "feedback": "Pas de présent avec « depuis » : I have been looking for a job for three months."
+    },
+    {
+     "contains": "since three months",
+     "category": "preposition",
+     "feedback": "Trois mois est une durée : for three months."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e12",
+   "unitIds": [
+    "en.g41.tense_contrast",
+    "en.v.walk"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le verbe walk (marcher) à la bonne forme.",
+   "prompt": "I usually ___ to work, but today I'm taking the bus.",
+   "promptLanguage": "en",
+   "options": [
+    "walk",
+    "am walking",
+    "walked",
+    "have walked"
+   ],
+   "answer": "walk",
+   "acceptedAnswers": [
+    "walk"
+   ],
+   "hint": "Usually = une habitude.",
+   "explanation": "Usually indique une habitude : présent simple, I walk. La deuxième partie (today I'm taking) décrit une exception en cours : présent continu.",
+   "tip": "Habitude (usually, every day) → présent simple.",
+   "extraExample": {
+    "text": "She usually works from home, but this week she's working at the office.",
+    "translation": "D'habitude elle travaille de chez elle, mais cette semaine elle travaille au bureau."
+   },
+   "errorPatterns": [
+    {
+     "equals": "am walking",
+     "category": "verb_tense",
+     "feedback": "Usually indique une habitude : présent simple, I walk."
+    },
+    {
+     "equals": "walked",
+     "category": "verb_tense",
+     "feedback": "La phrase parle de tes habitudes actuelles : présent simple, I walk."
+    },
+    {
+     "equals": "have walked",
+     "category": "verb_tense",
+     "feedback": "Usually indique une habitude : présent simple, I walk."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e13",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.graduate",
+    "en.v.degree"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "J'ai eu mon diplôme en 2019.",
+   "promptLanguage": "fr",
+   "answer": "I graduated in 2019.",
+   "acceptedAnswers": [
+    "I graduated in 2019.",
+    "I graduated from university in 2019.",
+    "I got my degree in 2019.",
+    "I got my diploma in 2019.",
+    "I obtained my degree in 2019.",
+    "I obtained my diploma in 2019."
+   ],
+   "hint": "En 2019 = moment fini et précis.",
+   "explanation": "Une date précise impose le past simple : I graduated in 2019 (ou I got my degree in 2019). Le present perfect est impossible avec in 2019.",
+   "tip": "Avec une année : past simple.",
+   "extraExample": {
+    "text": "He got his degree two years ago.",
+    "translation": "Il a eu son diplôme il y a deux ans."
+   },
+   "errorPatterns": [
+    {
+     "contains": "have graduated",
+     "category": "verb_tense",
+     "feedback": "Avec in 2019, pas de present perfect : I graduated in 2019."
+    },
+    {
+     "contains": "have got my degree",
+     "category": "verb_tense",
+     "feedback": "Avec in 2019, pas de present perfect : I got my degree in 2019."
+    },
+    {
+     "contains": "am graduated",
+     "category": "grammar",
+     "feedback": "Calque de « je suis diplômé ». On dit I graduated in 2019."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e14",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.interview"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "As-tu déjà eu un entretien en anglais ?",
+   "promptLanguage": "fr",
+   "answer": "Have you ever had an interview in English?",
+   "acceptedAnswers": [
+    "Have you ever had an interview in English?",
+    "Have you ever had a job interview in English?",
+    "Have you already had an interview in English?",
+    "Have you already had a job interview in English?"
+   ],
+   "hint": "Une expérience de vie, sans date.",
+   "explanation": "Aucun moment n'est précisé : on demande une expérience de vie, donc present perfect, Have you ever had…? Interview = entretien.",
+   "tip": "Expérience sans date : Have you ever + participe passé ?",
+   "extraExample": {
+    "text": "Have you ever given a presentation in English?",
+    "translation": "As-tu déjà fait une présentation en anglais ?"
+   },
+   "errorPatterns": [
+    {
+     "contains": "did you ever have",
+     "category": "verb_tense",
+     "feedback": "Pour une expérience de vie jusqu'à maintenant : Have you ever had…?"
+    },
+    {
+     "contains": "have you ever have",
+     "category": "conjugation",
+     "feedback": "Après have, il faut le participe passé : had."
+    },
+    {
+     "contains": "have you ever had an entretien",
+     "category": "vocabulary",
+     "feedback": "Un entretien d'embauche se dit an interview (a job interview)."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e15",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.join",
+    "en.v.company"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Quand es-tu entré dans l'entreprise ?",
+   "promptLanguage": "fr",
+   "answer": "When did you join the company?",
+   "acceptedAnswers": [
+    "When did you join the company?",
+    "When did you start working at the company?",
+    "When did you start working for the company?",
+    "When did you start at the company?"
+   ],
+   "hint": "When…? demande un moment précis ; « entrer dans » une entreprise = join.",
+   "explanation": "When demande un moment précis : past simple, When did you join…? Join (rejoindre, entrer dans) s'emploie sans préposition : join the company.",
+   "tip": "Join + nom, sans to ni in.",
+   "extraExample": {
+    "text": "When did she join the team?",
+    "translation": "Quand a-t-elle rejoint l'équipe ?"
+   },
+   "errorPatterns": [
+    {
+     "contains": "when have you joined",
+     "category": "verb_tense",
+     "feedback": "When demande un moment précis : When did you join…?"
+    },
+    {
+     "contains": "join to",
+     "category": "preposition",
+     "feedback": "Join s'emploie sans préposition : join the company."
+    },
+    {
+     "contains": "enter in the company",
+     "category": "word_confusion",
+     "feedback": "« Entrer dans une entreprise » se dit join the company."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e16",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.promotion"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Elle a eu une promotion il y a deux semaines.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "two",
+    "promotion",
+    "weeks",
+    "She",
+    "ago",
+    "a",
+    "got"
+   ],
+   "answer": "She got a promotion two weeks ago.",
+   "acceptedAnswers": [
+    "She got a promotion two weeks ago.",
+    "Two weeks ago she got a promotion."
+   ],
+   "hint": "Ago se place après la durée, en fin de phrase.",
+   "explanation": "Ago (il y a) donne un moment fini : past simple, got. Il se place après la durée : two weeks ago.",
+   "tip": "Durée + ago → past simple.",
+   "extraExample": {
+    "text": "They got married three years ago.",
+    "translation": "Ils se sont mariés il y a trois ans."
+   }
+  },
+  {
+   "id": "en.l64.e17",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.event",
+    "en.v.organise"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "C'est l'événement le plus important que j'aie jamais organisé.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "important",
+    "most",
+    "It",
+    "I",
+    "have",
+    "the",
+    "event",
+    "is",
+    "organised",
+    "ever"
+   ],
+   "answer": "It is the most important event I have ever organised.",
+   "acceptedAnswers": [
+    "It is the most important event I have ever organised."
+   ],
+   "hint": "Superlatif + I have ever + participe passé.",
+   "explanation": "Après un superlatif (the most important), l'anglais fait le bilan de toute ta vie avec le present perfect et ever : I have ever organised.",
+   "tip": "Le plus… que j'aie jamais… = the most… I have ever…",
+   "extraExample": {
+    "text": "It's the best film I have ever seen.",
+    "translation": "C'est le meilleur film que j'aie jamais vu."
+   }
+  },
+  {
+   "id": "en.l64.e18",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "I worked in London for two years.",
+   "promptLanguage": "en",
+   "answer": "J'ai travaillé à Londres pendant deux ans.",
+   "acceptedAnswers": [
+    "J'ai travaillé à Londres pendant deux ans.",
+    "J'ai travaillé deux ans à Londres.",
+    "J'ai travaillé à Londres durant deux ans.",
+    "J'ai travaillé pendant deux ans à Londres."
+   ],
+   "hint": "Worked est au past simple : la période est-elle finie ?",
+   "explanation": "Avec le past simple, for veut dire « pendant » : la période est terminée, tu ne travailles plus à Londres. Avec have worked, on traduirait par « depuis ».",
+   "tip": "Past simple + for = pendant ; present perfect + for = depuis.",
+   "extraExample": {
+    "text": "She studied in Berlin for a year.",
+    "translation": "Elle a étudié à Berlin pendant un an."
+   },
+   "errorPatterns": [
+    {
+     "contains": "depuis deux ans",
+     "category": "verb_tense",
+     "feedback": "Worked est au past simple : la période est finie. For se traduit alors par « pendant », pas « depuis »."
+    },
+    {
+     "contains": "je travaille",
+     "category": "verb_tense",
+     "feedback": "Worked est au past simple : c'est fini. J'ai travaillé à Londres pendant deux ans."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e19",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.unforgettable"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Have you ever been to Rome? — Yes, I ___ there in 2019. It was unforgettable.",
+   "promptLanguage": "en",
+   "options": [
+    "went",
+    "have been",
+    "have gone",
+    "go"
+   ],
+   "answer": "went",
+   "acceptedAnswers": [
+    "went"
+   ],
+   "hint": "La réponse donne une date.",
+   "explanation": "La question demande une expérience (present perfect), mais la réponse donne un moment précis (in 2019) : on passe au past simple, I went there in 2019.",
+   "tip": "Dès qu'on donne le moment, on passe au past simple.",
+   "extraExample": {
+    "text": "Have you met her parents? — Yes, I met them last Christmas.",
+    "translation": "As-tu rencontré ses parents ? — Oui, je les ai rencontrés à Noël dernier."
+   },
+   "errorPatterns": [
+    {
+     "equals": "have been",
+     "category": "verb_tense",
+     "feedback": "In 2019 est un moment précis : past simple, I went there in 2019."
+    },
+    {
+     "equals": "have gone",
+     "category": "verb_tense",
+     "feedback": "In 2019 est un moment précis : past simple, I went there. (Have gone voudrait d'ailleurs dire que tu y es encore.)"
+    },
+    {
+     "equals": "go",
+     "category": "verb_tense",
+     "feedback": "L'action est passée et datée : past simple, I went."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e20",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect",
+    "en.v.wedding",
+    "en.v.unforgettable"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Je suis allé à son mariage l'année dernière, c'était inoubliable » (son = de Lucy) ?",
+   "promptLanguage": "fr",
+   "answer": "I went to her wedding last year, it was unforgettable.",
+   "acceptedAnswers": [
+    "I went to her wedding last year, it was unforgettable.",
+    "I went to her wedding last year, it was an unforgettable day.",
+    "I went to her wedding last year, it was an unforgettable event.",
+    "I went to Lucy's wedding last year, it was unforgettable.",
+    "I went to Lucy's wedding last year, it was an unforgettable day.",
+    "I went to Lucy's wedding last year, it was an unforgettable event.",
+    "I went to her wedding last year and it was unforgettable.",
+    "I went to her wedding last year and it was an unforgettable day.",
+    "I went to her wedding last year and it was an unforgettable event.",
+    "I went to Lucy's wedding last year and it was unforgettable.",
+    "I went to Lucy's wedding last year and it was an unforgettable day.",
+    "I went to Lucy's wedding last year and it was an unforgettable event.",
+    "Last year, I went to her wedding, it was unforgettable.",
+    "Last year, I went to her wedding, it was an unforgettable day.",
+    "Last year, I went to Lucy's wedding, it was unforgettable.",
+    "Last year, I went to Lucy's wedding, it was an unforgettable day."
+   ],
+   "hint": "Last year → past simple ; « c'était » → it was.",
+   "explanation": "Last year est un moment fini : past simple, I went to her wedding. « C'était » se dit aussi au past simple : it was unforgettable.",
+   "tip": "Last year → past simple, y compris pour « c'était » (it was).",
+   "extraExample": {
+    "text": "We went to Japan last spring; it was amazing.",
+    "translation": "Nous sommes allés au Japon le printemps dernier, c'était incroyable."
+   },
+   "errorPatterns": [
+    {
+     "contains": "have been to her wedding last year",
+     "category": "verb_tense",
+     "feedback": "Avec last year, pas de present perfect : I went to her wedding last year."
+    },
+    {
+     "contains": "i have gone",
+     "category": "verb_tense",
+     "feedback": "Avec last year, pas de present perfect : I went."
+    },
+    {
+     "contains": "her marriage",
+     "category": "word_confusion",
+     "feedback": "La cérémonie et la fête du mariage se disent wedding ; marriage désigne la vie de couple."
+    }
+   ]
+  },
+  {
+   "id": "en.l64.e21",
+   "unitIds": [
+    "en.g45.past_simple_vs_present_perfect"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Présente ton parcours en anglais, en deux phrases.",
+   "prompt": "Une phrase au past simple avec un moment précis (in…, ago, last…), puis une phrase au present perfect avec for ou since.",
+   "promptLanguage": "fr",
+   "answer": "I graduated in 2012. I have worked for the same company since 2015.",
+   "acceptedAnswers": [
+    "I graduated in 2012. I have worked for the same company since 2015.",
+    "I moved to Lyon five years ago. I have lived in the same neighbourhood since then.",
+    "I joined my company in 2019 and I have been a manager for two years."
+   ],
+   "requirements": {
+    "mustInclude": [
+     [
+      "in",
+      "ago",
+      "last",
+      "when"
+     ],
+     [
+      "for",
+      "since"
+     ]
+    ],
+    "minWords": 10
+   },
+   "hint": "Moment précis → past simple ; for / since → have / has + participe passé.",
+   "explanation": "Le past simple situe une action dans un moment fini (in 2012, five years ago). Le present perfect avec for / since parle d'une situation qui dure encore.",
+   "tip": "Une date → past simple ; depuis → present perfect.",
+   "extraExample": {
+    "text": "I started my career in Paris in 2010. I have lived in London since 2018.",
+    "translation": "J'ai commencé ma carrière à Paris en 2010. J'habite à Londres depuis 2018."
+   },
+   "errorPatterns": [
+    {
+     "contains": "i have graduated in",
+     "category": "verb_tense",
+     "feedback": "Avec une date (in…), utilise le past simple : I graduated in…"
+    },
+    {
+     "contains": "i work here since",
+     "category": "verb_tense",
+     "feedback": "Avec since, pas de présent : I have worked here since…"
+    }
+   ]
+  }
+ ]
+}

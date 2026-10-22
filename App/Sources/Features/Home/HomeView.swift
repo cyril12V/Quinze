@@ -39,7 +39,12 @@ struct HomeView: View {
             SettingsView()
         }
         .sheet(isPresented: $showDaySheet) {
-            HomeDaySheet(day: env.study.today.day, slots: env.study.today.slots)
+            HomeDaySheet(day: env.study.today.day,
+                         slots: env.study.today.slots,
+                         schedule: env.settings.schedule,
+                         blocking: env.restrictions.isEnabled && env.restrictions.hasSelection
+                             && env.restrictions.authorization == .approved,
+                         minutes: Dictionary(uniqueKeysWithValues: Subject.allCases.map { ($0, env.settings.study.minutes(for: $0)) }))
         }
         .fullScreenCover(item: $activeRun) { run in
             StudyRunView(run: run, onClose: closeLesson)
@@ -109,7 +114,7 @@ struct HomeView: View {
                   initials: QAvatar.initials(from: env.store.displayName),
                   avatarAction: { showSettings = true },
                   trailingIcon: .calendar,
-                  trailingLabel: "Leçons du jour",
+                  trailingLabel: "Ma journée : horaires et blocages",
                   trailingAction: { showDaySheet = true })
     }
 

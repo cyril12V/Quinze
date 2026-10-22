@@ -1,0 +1,843 @@
+{
+ "lessonId": "cg.l18",
+ "exercises": [
+  {
+   "id": "cg.l18.e01",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.cellule"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est l'unité de base de tous les êtres vivants ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la cellule",
+    "l'atome",
+    "le gène",
+    "l'organe"
+   ],
+   "answer": "la cellule",
+   "acceptedAnswers": [
+    "la cellule"
+   ],
+   "explanation": "Tout être vivant est fait d'une ou de plusieurs cellules : une bactérie n'en a qu'une, le corps humain en compte des dizaines de milliers de milliards. C'est la plus petite unité capable de vivre seule.",
+   "tip": "Atome = brique de la matière ; cellule = brique du vivant.",
+   "extraExample": {
+    "text": "En 1665, Robert Hooke observe du liège au microscope et nomme « cellules » les petites cases qu'il voit.",
+    "translation": "C'est l'origine du mot."
+   },
+   "errorPatterns": [
+    {
+     "equals": "l'atome",
+     "category": "word_confusion",
+     "feedback": "L'atome est la brique de toute matière, vivante ou non ; l'unité de base du vivant est la cellule."
+    },
+    {
+     "equals": "le gène",
+     "category": "word_confusion",
+     "feedback": "Le gène est une portion d'ADN située dans la cellule : il est plus petit, mais il n'est pas vivant à lui seul."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e02",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.chromosome"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de chromosomes contient une cellule humaine (hors ovules et spermatozoïdes) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "23",
+    "46",
+    "48",
+    "64"
+   ],
+   "answer": "46",
+   "acceptedAnswers": [
+    "46"
+   ],
+   "explanation": "Une cellule humaine contient 46 chromosomes, rangés en 23 paires : dans chaque paire, un chromosome vient de la mère et l'autre du père. Les ovules et les spermatozoïdes n'en ont que 23.",
+   "tip": "23 paires × 2 = 46.",
+   "extraExample": {
+    "text": "Le chimpanzé a 48 chromosomes.",
+    "translation": "Deux chromosomes de nos ancêtres ont fusionné pour former notre chromosome 2."
+   },
+   "errorPatterns": [
+    {
+     "equals": "23",
+     "category": "word_confusion",
+     "feedback": "23, c'est le nombre de paires (ou le nombre dans un ovule ou un spermatozoïde). Une cellule ordinaire en contient 46."
+    },
+    {
+     "equals": "48",
+     "category": "word_confusion",
+     "feedback": "48, c'est le nombre de chromosomes du chimpanzé ; l'être humain en a 46."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e03",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.charles_darwin",
+    "cg.v.gregor_mendel",
+    "cg.v.double_helice",
+    "cg.v.cellule"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui a découvert quoi ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Charles Darwin (1859)",
+     "right": "la sélection naturelle"
+    },
+    {
+     "left": "Gregor Mendel (1865)",
+     "right": "les lois de l'hérédité"
+    },
+    {
+     "left": "Watson et Crick (1953)",
+     "right": "la double hélice de l'ADN"
+    },
+    {
+     "left": "Robert Hooke (1665)",
+     "right": "le nom de « cellule »"
+    },
+    {
+     "left": "Jean-Baptiste de Lamarck (1809)",
+     "right": "une première théorie de l'évolution"
+    }
+   ],
+   "answer": "Charles Darwin (1859) = la sélection naturelle ; Gregor Mendel (1865) = les lois de l'hérédité ; Watson et Crick (1953) = la double hélice de l'ADN ; Robert Hooke (1665) = le nom de « cellule » ; Jean-Baptiste de Lamarck (1809) = une première théorie de l'évolution",
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq repères racontent l'histoire de la biologie : la cellule est nommée au XVIIe siècle, l'évolution est pensée au XIXe (Lamarck puis Darwin), l'hérédité aussi (Mendel), et la structure de l'ADN est comprise en 1953.",
+   "tip": "Classe-les dans l'ordre : Hooke (1665), Lamarck (1809), Darwin (1859), Mendel (1865), Watson et Crick (1953).",
+   "extraExample": {
+    "text": "Lamarck pensait que les caractères acquis se transmettaient (la girafe qui s'étire le cou).",
+    "translation": "Darwin propose un autre mécanisme : la sélection naturelle."
+   }
+  },
+  {
+   "id": "cg.l18.e04",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.gregor_mendel"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Avec quelle plante Gregor Mendel a-t-il découvert les lois de l'hérédité ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le pois",
+    "le blé",
+    "la rose",
+    "le maïs"
+   ],
+   "answer": "le pois",
+   "acceptedAnswers": [
+    "le pois"
+   ],
+   "explanation": "Dans le jardin de son monastère de Brno, Mendel croise des milliers de plants de pois et compte les caractères des descendants (couleur, forme des graines). Il en tire des lois mathématiques de l'hérédité, présentées en 1865.",
+   "tip": "Mendel = moine + petits pois + 1865.",
+   "extraExample": {
+    "text": "Les lois de Mendel sont redécouvertes en 1900 par trois botanistes.",
+    "translation": "Son travail était passé presque inaperçu de son vivant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le maïs",
+     "category": "word_confusion",
+     "feedback": "Le maïs a été très étudié en génétique au XXe siècle, mais Mendel travaillait sur les pois."
+    },
+    {
+     "equals": "le blé",
+     "category": "word_confusion",
+     "feedback": "Mendel a choisi les pois, faciles à cultiver et dont les caractères sont bien tranchés (graines lisses ou ridées, jaunes ou vertes)."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e05",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.rosalind_franklin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle chercheuse britannique a obtenu les images aux rayons X qui ont révélé la forme de l'ADN ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Rosalind Franklin",
+    "Marie Curie",
+    "Ada Lovelace",
+    "Dorothy Hodgkin"
+   ],
+   "answer": "Rosalind Franklin",
+   "acceptedAnswers": [
+    "Rosalind Franklin"
+   ],
+   "explanation": "Rosalind Franklin obtient en 1952 la célèbre « photo 51 », qui montre que l'ADN a une forme d'hélice. Watson et Crick s'en servent pour bâtir leur modèle de 1953. Morte en 1958, elle ne partage pas le prix Nobel de 1962.",
+   "tip": "Franklin a fourni la preuve par l'image ; Watson et Crick ont construit le modèle.",
+   "extraExample": {
+    "text": "Le prix Nobel 1962 récompense Watson, Crick et Maurice Wilkins.",
+    "translation": "Le Nobel n'est pas attribué après la mort."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Marie Curie",
+     "category": "word_confusion",
+     "feedback": "Marie Curie a travaillé sur la radioactivité, au début du XXe siècle ; les images de l'ADN sont de Rosalind Franklin."
+    },
+    {
+     "equals": "Ada Lovelace",
+     "category": "word_confusion",
+     "feedback": "Ada Lovelace est une pionnière de la programmation (1843), sans lien avec l'ADN."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e06",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.coeur"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Combien de fois environ le cœur d'un adulte bat-il en une journée ?",
+   "promptLanguage": "fr",
+   "options": [
+    "environ 1 000 fois",
+    "environ 10 000 fois",
+    "environ 100 000 fois",
+    "environ 1 million de fois"
+   ],
+   "answer": "environ 100 000 fois",
+   "acceptedAnswers": [
+    "environ 100 000 fois"
+   ],
+   "explanation": "Au repos, le cœur bat environ 60 à 80 fois par minute. Sur 24 heures (1 440 minutes), cela fait environ 100 000 battements.",
+   "tip": "70 battements × 1 440 minutes ≈ 100 000.",
+   "extraExample": {
+    "text": "En une vie de 80 ans, le cœur bat environ 3 milliards de fois.",
+    "translation": "Sans jamais s'arrêter pour se reposer."
+   },
+   "errorPatterns": [
+    {
+     "equals": "environ 10 000 fois",
+     "category": "word_confusion",
+     "feedback": "C'est dix fois trop peu : à 70 battements par minute, on dépasse 4 000 par heure, donc environ 100 000 par jour."
+    },
+    {
+     "equals": "environ 1 million de fois",
+     "category": "word_confusion",
+     "feedback": "C'est dix fois trop : il faudrait près de 700 battements par minute."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e07",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.double_helice",
+    "cg.v.adn"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle forme a la molécule d'ADN ?",
+   "promptLanguage": "fr",
+   "options": [
+    "une double hélice",
+    "une simple chaîne droite",
+    "une sphère",
+    "un anneau fermé"
+   ],
+   "answer": "une double hélice",
+   "acceptedAnswers": [
+    "une double hélice"
+   ],
+   "explanation": "L'ADN est formé de deux brins enroulés l'un autour de l'autre, comme une échelle tordue. Les barreaux sont des paires de bases, A-T et G-C.",
+   "tip": "Imagine un escalier en colimaçon : deux rampes et des marches.",
+   "extraExample": {
+    "text": "Chez les bactéries, l'ADN principal forme souvent une boucle fermée.",
+    "translation": "Mais c'est toujours une double hélice, simplement refermée sur elle-même."
+   },
+   "errorPatterns": [
+    {
+     "equals": "un anneau fermé",
+     "category": "word_confusion",
+     "feedback": "Certaines bactéries ont un ADN refermé en boucle, mais la molécule elle-même reste une double hélice."
+    },
+    {
+     "equals": "une simple chaîne droite",
+     "category": "word_confusion",
+     "feedback": "Il y a deux brins, pas un : c'est ce qui permet à l'ADN de se recopier."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e08",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.origine_des_especes",
+    "cg.v.charles_darwin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En quelle année Charles Darwin publie-t-il L'Origine des espèces ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1789",
+    "1859",
+    "1905",
+    "1953"
+   ],
+   "answer": "1859",
+   "acceptedAnswers": [
+    "1859"
+   ],
+   "explanation": "L'Origine des espèces paraît le 24 novembre 1859. Darwin y explique que les espèces évoluent au fil des générations par sélection naturelle.",
+   "tip": "Darwin publie en 1859, soixante-dix ans après la Révolution française (1789).",
+   "extraExample": {
+    "text": "En 1871, Darwin publie La Filiation de l'homme.",
+    "translation": "Il y applique sa théorie à l'espèce humaine."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1953",
+     "category": "word_confusion",
+     "feedback": "1953, c'est la double hélice de l'ADN (Watson et Crick), près d'un siècle après Darwin."
+    },
+    {
+     "equals": "1905",
+     "category": "word_confusion",
+     "feedback": "1905, c'est l'année de la relativité restreinte d'Einstein, en physique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e09",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.charles_darwin"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "On entend souvent : « L'homme descend du singe. » Que dit vraiment la théorie de l'évolution ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'homme et les grands singes actuels ont un ancêtre commun.",
+    "L'homme descend du chimpanzé actuel.",
+    "L'homme n'a aucun lien de parenté avec les singes."
+   ],
+   "answer": "L'homme et les grands singes actuels ont un ancêtre commun.",
+   "acceptedAnswers": [
+    "L'homme et les grands singes actuels ont un ancêtre commun."
+   ],
+   "explanation": "Le chimpanzé n'est pas notre ancêtre mais un cousin : nos deux lignées se sont séparées il y a environ 6 à 7 millions d'années, à partir d'une espèce ancestrale aujourd'hui disparue.",
+   "tip": "Pense à un arbre généalogique : cousins, pas grand-parents.",
+   "extraExample": {
+    "text": "Homo sapiens est apparu en Afrique il y a environ 300 000 ans.",
+    "translation": "Les plus anciens fossiles connus ont été trouvés au Maroc, à Djebel Irhoud."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'homme descend du chimpanzé actuel.",
+     "category": "word_confusion",
+     "feedback": "Le chimpanzé actuel a évolué en même temps que nous : c'est un cousin, pas un ancêtre."
+    },
+    {
+     "equals": "L'homme n'a aucun lien de parenté avec les singes.",
+     "category": "word_confusion",
+     "feedback": "Au contraire : nous partageons un ancêtre commun avec les grands singes, et une grande partie de notre ADN."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e10",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.cellule",
+    "cg.v.adn",
+    "cg.v.gene",
+    "cg.v.chromosome"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots du vivant et leur définition",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "la cellule",
+     "right": "unité de base du vivant"
+    },
+    {
+     "left": "l'ADN",
+     "right": "molécule qui porte l'information génétique"
+    },
+    {
+     "left": "le gène",
+     "right": "portion d'ADN qui code une protéine"
+    },
+    {
+     "left": "le chromosome",
+     "right": "long filament d'ADN enroulé"
+    },
+    {
+     "left": "la mutation",
+     "right": "changement dans la séquence de l'ADN"
+    }
+   ],
+   "answer": "la cellule = unité de base du vivant ; l'ADN = molécule qui porte l'information génétique ; le gène = portion d'ADN qui code une protéine ; le chromosome = long filament d'ADN enroulé ; la mutation = changement dans la séquence de l'ADN",
+   "acceptedAnswers": [],
+   "explanation": "Du plus grand au plus petit : la cellule contient un noyau, qui contient les chromosomes, faits d'ADN, sur lequel se trouvent les gènes. Une mutation est une modification de cet ADN : c'est la source de la variété sur laquelle agit la sélection naturelle.",
+   "tip": "Pense à des poupées russes : cellule > chromosome > ADN > gène.",
+   "extraExample": {
+    "text": "Une mutation peut être neutre, nuisible ou parfois avantageuse.",
+    "translation": "Les mutations avantageuses ont plus de chances de se répandre."
+   }
+  },
+  {
+   "id": "cg.l18.e11",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.adn"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Dans l'ADN, la base A (adénine) s'associe toujours à la base ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "T",
+    "G",
+    "C",
+    "U"
+   ],
+   "answer": "T",
+   "acceptedAnswers": [
+    "T",
+    "thymine",
+    "la thymine",
+    "T (thymine)"
+   ],
+   "explanation": "Les quatre bases de l'ADN forment des paires fixes : A avec T, G avec C. Grâce à cette règle, chaque brin sert de modèle pour recopier l'autre.",
+   "tip": "Retiens « AT-GC » : A va avec T, G va avec C.",
+   "extraExample": {
+    "text": "La guanine (G) s'associe toujours à la cytosine (C).",
+    "translation": "C'est l'autre paire de bases de l'ADN."
+   },
+   "errorPatterns": [
+    {
+     "equals": "U",
+     "category": "word_confusion",
+     "feedback": "U (uracile) remplace T dans l'ARN, mais pas dans l'ADN. Dans l'ADN, A va avec T."
+    },
+    {
+     "equals": "G",
+     "category": "word_confusion",
+     "feedback": "G s'associe à C. A, lui, s'associe à T."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e12",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.selection_naturelle"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pour Darwin, les espèces évoluent par ___ naturelle.",
+   "promptLanguage": "fr",
+   "options": [
+    "sélection",
+    "mutation",
+    "génération",
+    "révolution"
+   ],
+   "answer": "sélection",
+   "acceptedAnswers": [
+    "sélection",
+    "la sélection"
+   ],
+   "explanation": "Les individus d'une espèce sont tous un peu différents. Ceux dont les caractères sont les plus utiles dans leur milieu survivent mieux et ont plus de descendants : leurs caractères se répandent. Darwin parle de sélection naturelle par analogie avec la sélection que pratiquent les éleveurs.",
+   "tip": "Éleveur = sélection artificielle ; nature = sélection naturelle.",
+   "extraExample": {
+    "text": "La résistance des bactéries aux antibiotiques s'explique par la sélection naturelle.",
+    "translation": "Les rares bactéries résistantes survivent et se multiplient."
+   },
+   "errorPatterns": [
+    {
+     "equals": "mutation",
+     "category": "word_confusion",
+     "feedback": "Les mutations créent la variété, mais le mécanisme décrit par Darwin est la sélection naturelle (il ne connaissait pas encore les mutations)."
+    },
+    {
+     "equals": "génération",
+     "category": "word_confusion",
+     "feedback": "La « génération spontanée » est une vieille idée, réfutée par Pasteur ; Darwin parle de sélection naturelle."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e13",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.alveole_pulmonaire"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Dans les poumons, l'oxygène passe dans le sang au niveau des ___ pulmonaires.",
+   "promptLanguage": "fr",
+   "options": [
+    "alvéoles",
+    "bronches",
+    "artères",
+    "ventricules"
+   ],
+   "answer": "alvéoles",
+   "acceptedAnswers": [
+    "alvéoles",
+    "les alvéoles"
+   ],
+   "explanation": "Les alvéoles sont de minuscules sacs au bout des bronches. Leur paroi très fine laisse passer l'oxygène vers le sang et le dioxyde de carbone vers l'air expiré.",
+   "tip": "Bronches = tuyaux ; alvéoles = échanges.",
+   "extraExample": {
+    "text": "Les poumons contiennent des centaines de millions d'alvéoles.",
+    "translation": "Dépliées, elles couvriraient plusieurs dizaines de mètres carrés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "bronches",
+     "category": "word_confusion",
+     "feedback": "Les bronches conduisent l'air jusqu'aux alvéoles ; l'échange se fait dans les alvéoles."
+    },
+    {
+     "equals": "ventricules",
+     "category": "word_confusion",
+     "feedback": "Les ventricules sont des cavités du cœur, pas des poumons."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e14",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.selection_naturelle"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Selon la théorie de Darwin, quels individus laissent le plus de descendants ?",
+   "promptLanguage": "fr",
+   "options": [
+    "les mieux adaptés à leur milieu",
+    "toujours les plus forts",
+    "toujours les plus gros",
+    "ceux qui font le plus d'efforts"
+   ],
+   "answer": "les mieux adaptés à leur milieu",
+   "acceptedAnswers": [
+    "les mieux adaptés à leur milieu"
+   ],
+   "explanation": "La sélection naturelle favorise les individus les mieux adaptés à leur environnement, pas forcément les plus forts : être petit, discret ou résistant au froid peut être un avantage.",
+   "tip": "Adapté ne veut pas dire fort.",
+   "extraExample": {
+    "text": "Dans un milieu enneigé, un lièvre au pelage blanc échappe mieux aux prédateurs.",
+    "translation": "Sa couleur, pas sa force, l'aide à survivre et à se reproduire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "toujours les plus forts",
+     "category": "word_confusion",
+     "feedback": "C'est l'idée reçue de la « loi du plus fort » : ce qui compte est l'adaptation au milieu, pas la force."
+    },
+    {
+     "equals": "ceux qui font le plus d'efforts",
+     "category": "word_confusion",
+     "feedback": "C'est plutôt l'idée de Lamarck (les efforts modifient le corps et se transmettent), que la génétique a réfutée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e15",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.origine_des_especes",
+    "cg.v.charles_darwin"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la théorie de l'évolution.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "1859",
+    "espèces",
+    "en",
+    "L'Origine",
+    "des",
+    "Darwin",
+    "publie"
+   ],
+   "answer": "Darwin publie L'Origine des espèces en 1859",
+   "acceptedAnswers": [
+    "Darwin publie L'Origine des espèces en 1859",
+    "En 1859 Darwin publie L'Origine des espèces"
+   ],
+   "hint": "Commence par le nom du naturaliste.",
+   "explanation": "Le repère essentiel : Darwin, L'Origine des espèces, 1859. Ce livre fonde la biologie moderne de l'évolution.",
+   "tip": "Qui (Darwin), quoi (L'Origine des espèces), quand (1859).",
+   "extraExample": {
+    "text": "Mendel présente ses lois de l'hérédité en 1865.",
+    "translation": "Six ans seulement après Darwin, mais les deux hommes ne se sont jamais rencontrés."
+   }
+  },
+  {
+   "id": "cg.l18.e16",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.gene"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le génome humain compte environ ___ gènes qui codent des protéines.",
+   "promptLanguage": "fr",
+   "options": [
+    "2 000",
+    "20 000",
+    "200 000",
+    "2 millions"
+   ],
+   "answer": "20 000",
+   "acceptedAnswers": [
+    "20 000",
+    "20000",
+    "vingt mille"
+   ],
+   "explanation": "Le décodage du génome humain, achevé pour l'essentiel en 2003, a révélé environ 20 000 gènes codant des protéines, bien moins qu'on ne le pensait. La complexité vient surtout de la façon dont ces gènes sont utilisés.",
+   "tip": "20 000 gènes, c'est à peine plus qu'un ver microscopique.",
+   "extraExample": {
+    "text": "Notre ADN compte environ 3 milliards de paires de bases.",
+    "translation": "Les gènes n'en occupent qu'une petite partie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "200 000",
+     "category": "word_confusion",
+     "feedback": "C'est dix fois trop : on l'a longtemps cru, mais le décodage du génome a montré qu'il n'y en a qu'environ 20 000."
+    },
+    {
+     "equals": "2 millions",
+     "category": "word_confusion",
+     "feedback": "Beaucoup trop : l'être humain a environ 20 000 gènes codant des protéines."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e17",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.globule_rouge"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel métal, présent dans l'hémoglobine des globules rouges, permet de capter l'oxygène ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le fer",
+    "le cuivre",
+    "le calcium",
+    "le zinc"
+   ],
+   "answer": "le fer",
+   "acceptedAnswers": [
+    "le fer"
+   ],
+   "explanation": "L'hémoglobine contient du fer, qui fixe l'oxygène dans les poumons. C'est aussi ce fer qui donne au sang sa couleur rouge.",
+   "tip": "Fer = rouge = oxygène.",
+   "extraExample": {
+    "text": "Un manque de fer peut provoquer une anémie.",
+    "translation": "Le sang transporte alors moins bien l'oxygène, d'où la fatigue."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le calcium",
+     "category": "word_confusion",
+     "feedback": "Le calcium sert surtout aux os et aux dents ; l'hémoglobine contient du fer."
+    },
+    {
+     "equals": "le cuivre",
+     "category": "word_confusion",
+     "feedback": "C'est le cuivre qui sert à transporter l'oxygène chez certains animaux comme la pieuvre (sang bleu) ; chez nous, c'est le fer."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e18",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.gregor_mendel"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel moine a découvert les lois de l'hérédité en croisant des pois ?",
+   "promptLanguage": "fr",
+   "answer": "Gregor Mendel",
+   "acceptedAnswers": [
+    "Gregor Mendel",
+    "Mendel",
+    "Johann Gregor Mendel"
+   ],
+   "explanation": "Gregor Mendel, moine à Brno, présente ses résultats en 1865. Il montre que les caractères se transmettent par des « facteurs » (nos gènes) selon des proportions précises.",
+   "tip": "Mendel = moine + pois + hérédité.",
+   "extraExample": {
+    "text": "Un caractère dominant s'exprime même s'il n'est reçu que d'un seul parent.",
+    "translation": "C'est l'une des notions clés découvertes par Mendel."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Darwin",
+     "category": "word_confusion",
+     "feedback": "Darwin a expliqué l'évolution (1859), mais les lois de l'hérédité avec des pois sont de Mendel."
+    },
+    {
+     "equals": "Charles Darwin",
+     "category": "word_confusion",
+     "feedback": "Darwin a expliqué l'évolution (1859), mais les lois de l'hérédité avec des pois sont de Mendel."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e19",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.adn"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le sigle de la molécule en double hélice qui porte l'information génétique ?",
+   "promptLanguage": "fr",
+   "answer": "ADN",
+   "acceptedAnswers": [
+    "ADN",
+    "l'ADN",
+    "acide désoxyribonucléique",
+    "l'acide désoxyribonucléique"
+   ],
+   "explanation": "ADN signifie acide désoxyribonucléique. Il est présent dans le noyau de presque toutes nos cellules et porte les instructions pour fabriquer les protéines.",
+   "tip": "A-D-N : acide (A), désoxyribo- (D), nucléique (N), car on le trouve dans le noyau (nucleus en latin).",
+   "extraExample": {
+    "text": "L'ARN, acide ribonucléique, est une molécule cousine.",
+    "translation": "Il sert notamment de copie de travail d'un gène."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ARN",
+     "category": "word_confusion",
+     "feedback": "L'ARN est une molécule cousine, en général à un seul brin. La double hélice qui porte l'information génétique, c'est l'ADN."
+    },
+    {
+     "equals": "DNA",
+     "category": "vocabulary",
+     "feedback": "DNA est le sigle anglais ; en français, on dit ADN."
+    }
+   ]
+  },
+  {
+   "id": "cg.l18.e20",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.double_helice"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la structure de l'ADN.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "en",
+    "1953",
+    "hélice",
+    "décrivent",
+    "double",
+    "de",
+    "l'ADN",
+    "la",
+    "Watson",
+    "et",
+    "Crick"
+   ],
+   "answer": "Watson et Crick décrivent la double hélice de l'ADN en 1953",
+   "acceptedAnswers": [
+    "Watson et Crick décrivent la double hélice de l'ADN en 1953",
+    "En 1953 Watson et Crick décrivent la double hélice de l'ADN",
+    "Crick et Watson décrivent la double hélice de l'ADN en 1953",
+    "En 1953 Crick et Watson décrivent la double hélice de l'ADN"
+   ],
+   "explanation": "En 1953, James Watson et Francis Crick publient le modèle de la double hélice, en s'appuyant sur les images de Rosalind Franklin.",
+   "tip": "1953 : moins d'un siècle après Darwin (1859), on comprend la forme de l'ADN.",
+   "extraExample": {
+    "text": "Le génome humain est décodé pour l'essentiel en 2003, cinquante ans plus tard.",
+    "translation": "On peut alors lire presque toutes les « lettres » de notre ADN."
+   }
+  },
+  {
+   "id": "cg.l18.e21",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.william_harvey"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quel médecin anglais a démontré la circulation du sang en 1628 ?",
+   "promptLanguage": "fr",
+   "answer": "William Harvey",
+   "acceptedAnswers": [
+    "William Harvey",
+    "Harvey"
+   ],
+   "explanation": "William Harvey publie en 1628 son traité sur le mouvement du cœur et du sang. Il prouve que le sang tourne en boucle, poussé par le cœur.",
+   "tip": "Harvey, 1628 : le cœur est une pompe.",
+   "extraExample": {
+    "text": "Harvey a calculé que le cœur pompe en une heure plus de sang que le corps n'en contient.",
+    "translation": "Preuve que c'est le même sang qui circule."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Pasteur",
+     "category": "word_confusion",
+     "feedback": "Pasteur est célèbre pour les microbes et les vaccins (XIXe siècle) ; la circulation du sang, c'est Harvey en 1628."
+    },
+    {
+     "equals": "Hippocrate",
+     "category": "word_confusion",
+     "feedback": "Hippocrate est un médecin grec de l'Antiquité ; la circulation du sang est démontrée par Harvey en 1628."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,941 @@
+{
+ "lessonId": "en.l66",
+ "exercises": [
+  {
+   "id": "en.l66.e01",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.break_down",
+    "en.v.car"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "I was driving to work when my car ___.",
+   "promptLanguage": "en",
+   "options": [
+    "broke down",
+    "was breaking down",
+    "breaks down",
+    "has broken down"
+   ],
+   "answer": "broke down",
+   "acceptedAnswers": [
+    "broke down"
+   ],
+   "hint": "La panne est un événement court qui interrompt l'action longue.",
+   "explanation": "Je roulais (action longue, past continuous) quand la voiture est tombée en panne (événement court, past simple) : broke down.",
+   "tip": "Le long au -ing, le court au past simple.",
+   "extraExample": {
+    "text": "We were having dinner when the lights went out.",
+    "translation": "Nous dînions quand les lumières se sont éteintes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "was breaking down",
+     "category": "verb_tense",
+     "feedback": "La panne est un événement court qui interrompt l'action : past simple, broke down."
+    },
+    {
+     "equals": "breaks down",
+     "category": "verb_tense",
+     "feedback": "L'histoire est au passé : past simple, broke down."
+    },
+    {
+     "equals": "has broken down",
+     "category": "verb_tense",
+     "feedback": "Dans un récit au passé, l'événement court se met au past simple : broke down."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e02",
+   "unitIds": [
+    "en.v.suddenly",
+    "en.v.break_down",
+    "en.v.fall",
+    "en.v.steal",
+    "en.v.wallet"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les petits incidents",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "suddenly",
+     "right": "soudain"
+    },
+    {
+     "left": "break down",
+     "right": "tomber en panne"
+    },
+    {
+     "left": "fall",
+     "right": "tomber"
+    },
+    {
+     "left": "steal",
+     "right": "voler (dérober)"
+    },
+    {
+     "left": "wallet",
+     "right": "le portefeuille"
+    }
+   ],
+   "answer": "suddenly = soudain ; break down = tomber en panne ; fall = tomber ; steal = voler (dérober) ; wallet = le portefeuille",
+   "acceptedAnswers": [],
+   "explanation": "Ces verbes sont irréguliers : break down → broke down, fall → fell, steal → stole. Suddenly annonce l'événement inattendu du récit.",
+   "tip": "Fall, fell, fallen ; steal, stole, stolen.",
+   "extraExample": {
+    "text": "Suddenly, someone stole my wallet.",
+    "translation": "Soudain, quelqu'un a volé mon portefeuille."
+   }
+  },
+  {
+   "id": "en.l66.e03",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.accident"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le mot qui convient.",
+   "prompt": "___ I was walking home, I saw an accident.",
+   "promptLanguage": "en",
+   "options": [
+    "While",
+    "During",
+    "For",
+    "Since"
+   ],
+   "answer": "While",
+   "acceptedAnswers": [
+    "While"
+   ],
+   "hint": "« Pendant que » + sujet + verbe.",
+   "explanation": "While (pendant que) est suivi d'un sujet et d'un verbe, en général au past continuous : While I was walking home. During est suivi d'un nom seul (during the journey).",
+   "tip": "While + sujet + verbe ; during + nom.",
+   "extraExample": {
+    "text": "While we were travelling, we met a lot of people.",
+    "translation": "Pendant que nous voyagions, nous avons rencontré beaucoup de gens."
+   },
+   "errorPatterns": [
+    {
+     "equals": "During",
+     "category": "word_confusion",
+     "feedback": "During est suivi d'un nom (during the journey), pas d'un sujet + verbe. Ici : While I was walking."
+    },
+    {
+     "equals": "For",
+     "category": "word_confusion",
+     "feedback": "For indique une durée (for an hour). « Pendant que » + verbe = while."
+    },
+    {
+     "equals": "Since",
+     "category": "word_confusion",
+     "feedback": "Since veut dire « depuis ». « Pendant que » = while."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e04",
+   "unitIds": [
+    "en.g47.when_while"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque phrase anglaise à sa traduction.",
+   "prompt": "When, while ou during ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "I was cooking when the phone rang.",
+     "right": "Je cuisinais quand le téléphone a sonné."
+    },
+    {
+     "left": "When the phone rang, I answered it.",
+     "right": "Quand le téléphone a sonné, j'ai répondu."
+    },
+    {
+     "left": "While I was cooking, he was reading.",
+     "right": "Pendant que je cuisinais, il lisait."
+    },
+    {
+     "left": "during the journey",
+     "right": "pendant le trajet"
+    },
+    {
+     "left": "while I was travelling",
+     "right": "pendant que je voyageais"
+    }
+   ],
+   "answer": "I was cooking when the phone rang. = Je cuisinais quand le téléphone a sonné. ; When the phone rang, I answered it. = Quand le téléphone a sonné, j'ai répondu. ; While I was cooking, he was reading. = Pendant que je cuisinais, il lisait. ; during the journey = pendant le trajet ; while I was travelling = pendant que je voyageais",
+   "acceptedAnswers": [],
+   "explanation": "Action longue interrompue : was / were + -ing… when + past simple. Deux actions qui se suivent : past simple des deux côtés. Deux actions longues en parallèle : past continuous des deux côtés. During + nom, while + sujet + verbe.",
+   "tip": "Interruption : -ing + when ; suite d'actions : past simple + past simple.",
+   "extraExample": {
+    "text": "When I got home, I took a shower.",
+    "translation": "Quand je suis rentré, j'ai pris une douche."
+   }
+  },
+  {
+   "id": "en.l66.e05",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.fall",
+    "en.v.run"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le verbe fall (tomber) à la bonne forme.",
+   "prompt": "She ___ while she was running in the park.",
+   "promptLanguage": "en",
+   "options": [
+    "fell",
+    "was falling",
+    "felt",
+    "fallen"
+   ],
+   "answer": "fell",
+   "acceptedAnswers": [
+    "fell"
+   ],
+   "hint": "La chute est un événement court ; fall est irrégulier.",
+   "explanation": "La chute interrompt l'action longue (she was running) : past simple, fell (fall, fell, fallen).",
+   "tip": "Fall → fell ; feel → felt : ne les confonds pas.",
+   "extraExample": {
+    "text": "He fell while he was climbing the mountain.",
+    "translation": "Il est tombé pendant qu'il escaladait la montagne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "was falling",
+     "category": "verb_tense",
+     "feedback": "La chute est un événement court qui interrompt la course : past simple, fell."
+    },
+    {
+     "equals": "felt",
+     "category": "word_confusion",
+     "feedback": "Felt est le passé de feel (ressentir). Le passé de fall (tomber) est fell."
+    },
+    {
+     "equals": "fallen",
+     "category": "conjugation",
+     "feedback": "Fallen est le participe passé (après have). Au past simple : fell."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e06",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.wallet",
+    "en.v.steal"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le verbe wait (attendre) à la bonne forme.",
+   "prompt": "While they ___ for the bus, someone stole her wallet.",
+   "promptLanguage": "en",
+   "options": [
+    "were waiting",
+    "was waiting",
+    "are waiting",
+    "have waited"
+   ],
+   "answer": "were waiting",
+   "acceptedAnswers": [
+    "were waiting",
+    "waited"
+   ],
+   "hint": "While + action longue ; they → were.",
+   "explanation": "While introduit l'action longue, au past continuous : they were waiting. Le vol est l'événement court : stole.",
+   "tip": "While + was / were + -ing.",
+   "extraExample": {
+    "text": "While I was sleeping, someone took my bag.",
+    "translation": "Pendant que je dormais, quelqu'un a pris mon sac."
+   },
+   "errorPatterns": [
+    {
+     "equals": "was waiting",
+     "category": "conjugation",
+     "feedback": "Avec they, c'est were : they were waiting."
+    },
+    {
+     "equals": "are waiting",
+     "category": "verb_tense",
+     "feedback": "L'histoire est au passé (stole) : they were waiting."
+    },
+    {
+     "equals": "have waited",
+     "category": "verb_tense",
+     "feedback": "Dans un récit au passé, l'action longue se met au past continuous : were waiting."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e07",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.ring",
+    "en.v.phone"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "I was having a shower when the phone ___.",
+   "promptLanguage": "en",
+   "options": [
+    "rang",
+    "was ringing",
+    "rung",
+    "rings"
+   ],
+   "answer": "rang",
+   "acceptedAnswers": [
+    "rang"
+   ],
+   "hint": "La sonnerie interrompt la douche.",
+   "explanation": "La sonnerie est un événement court qui interrompt l'action en cours : past simple, rang (ring, rang, rung).",
+   "tip": "When + événement court au past simple.",
+   "extraExample": {
+    "text": "I was watching TV when someone rang the bell.",
+    "translation": "Je regardais la télé quand quelqu'un a sonné."
+   },
+   "errorPatterns": [
+    {
+     "equals": "was ringing",
+     "category": "verb_tense",
+     "feedback": "La sonnerie est l'événement court qui interrompt la douche : past simple, rang."
+    },
+    {
+     "equals": "rung",
+     "category": "conjugation",
+     "feedback": "Rung est le participe passé (après have). Au past simple : rang."
+    },
+    {
+     "equals": "rings",
+     "category": "verb_tense",
+     "feedback": "L'histoire est au passé : the phone rang."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e08",
+   "unitIds": [
+    "en.g47.when_while"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne interprétation.",
+   "prompt": "Dans « When Tom arrived, we were having dinner », que s'est-il passé ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Nous avions déjà commencé à dîner quand Tom est arrivé.",
+    "Nous avons commencé à dîner après l'arrivée de Tom.",
+    "Tom est arrivé après la fin du dîner."
+   ],
+   "answer": "Nous avions déjà commencé à dîner quand Tom est arrivé.",
+   "acceptedAnswers": [
+    "Nous avions déjà commencé à dîner quand Tom est arrivé."
+   ],
+   "hint": "Were having dinner = action déjà en cours.",
+   "explanation": "Le past continuous (were having dinner) montre que le dîner était déjà en cours quand Tom est arrivé. Avec le past simple (When Tom arrived, we had dinner), le dîner aurait commencé après son arrivée.",
+   "tip": "When + past simple, past continuous = c'était déjà en cours.",
+   "extraExample": {
+    "text": "When I called her, she was working.",
+    "translation": "Quand je l'ai appelée, elle travaillait."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Nous avons commencé à dîner après l'arrivée de Tom.",
+     "category": "verb_tense",
+     "feedback": "Ce serait When Tom arrived, we had dinner (past simple). Avec were having, le dîner était déjà en cours."
+    },
+    {
+     "equals": "Tom est arrivé après la fin du dîner.",
+     "category": "verb_tense",
+     "feedback": "Pour un dîner terminé, on dirait we had already had dinner. Were having = en cours."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e09",
+   "unitIds": [
+    "en.g47.when_while"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe read (lire) à la bonne forme.",
+   "prompt": "While I was cooking, my husband ___ the newspaper.",
+   "promptLanguage": "en",
+   "options": [
+    "was reading",
+    "were reading",
+    "is reading",
+    "has read"
+   ],
+   "answer": "was reading",
+   "acceptedAnswers": [
+    "was reading",
+    "read"
+   ],
+   "hint": "Deux actions longues en même temps.",
+   "explanation": "Deux actions longues qui se déroulent en parallèle : past continuous des deux côtés. My husband = he : was reading.",
+   "tip": "Deux actions en parallèle : -ing + -ing.",
+   "extraExample": {
+    "text": "While Anna was working, the children were playing in the garden.",
+    "translation": "Pendant qu'Anna travaillait, les enfants jouaient dans le jardin."
+   },
+   "errorPatterns": [
+    {
+     "equals": "were reading",
+     "category": "conjugation",
+     "feedback": "My husband = he : was reading."
+    },
+    {
+     "equals": "is reading",
+     "category": "verb_tense",
+     "feedback": "La phrase est au passé (I was cooking) : was reading."
+    },
+    {
+     "equals": "has read",
+     "category": "verb_tense",
+     "feedback": "Deux actions longues en parallèle dans le passé : was reading."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e10",
+   "unitIds": [
+    "en.g22.irregular_verbs",
+    "en.v.steal"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le verbe steal (voler) au past simple.",
+   "prompt": "Someone ___ my bike last night.",
+   "promptLanguage": "en",
+   "options": [
+    "stole",
+    "stealed",
+    "stolen",
+    "steals"
+   ],
+   "answer": "stole",
+   "acceptedAnswers": [
+    "stole"
+   ],
+   "hint": "Steal est irrégulier.",
+   "explanation": "Steal est irrégulier : steal, stole, stolen. Au past simple (last night), on dit stole.",
+   "tip": "Steal, stole, stolen.",
+   "extraExample": {
+    "text": "A man stole her phone on the train.",
+    "translation": "Un homme lui a volé son téléphone dans le train."
+   },
+   "errorPatterns": [
+    {
+     "equals": "stealed",
+     "category": "conjugation",
+     "feedback": "Steal est irrégulier : au past simple, stole."
+    },
+    {
+     "equals": "stolen",
+     "category": "conjugation",
+     "feedback": "Stolen est le participe passé (has been stolen). Au past simple : stole."
+    },
+    {
+     "equals": "steals",
+     "category": "verb_tense",
+     "feedback": "Last night = passé : stole."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e11",
+   "unitIds": [
+    "en.g36.connectors",
+    "en.v.break_down"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le connecteur qui convient.",
+   "prompt": "My car broke down, ___ I called a taxi.",
+   "promptLanguage": "en",
+   "options": [
+    "so",
+    "because",
+    "but",
+    "or"
+   ],
+   "answer": "so",
+   "acceptedAnswers": [
+    "so"
+   ],
+   "hint": "La panne → la conséquence.",
+   "explanation": "So (donc, alors) introduit une conséquence : la voiture est tombée en panne, donc j'ai appelé un taxi. Because introduirait une cause.",
+   "tip": "So = conséquence ; because = cause.",
+   "extraExample": {
+    "text": "It was raining, so we stayed at home.",
+    "translation": "Il pleuvait, donc nous sommes restés à la maison."
+   },
+   "errorPatterns": [
+    {
+     "equals": "because",
+     "category": "word_confusion",
+     "feedback": "Because introduit une cause. Ici, appeler un taxi est la conséquence de la panne : so."
+    },
+    {
+     "equals": "but",
+     "category": "word_confusion",
+     "feedback": "But marque une opposition. Ici, c'est une conséquence : so."
+    },
+    {
+     "equals": "or",
+     "category": "word_confusion",
+     "feedback": "Or propose un choix. Ici, c'est une conséquence : so."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e12",
+   "unitIds": [
+    "en.g46.past_continuous"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Il ne travaillait pas, il dormait.",
+   "promptLanguage": "fr",
+   "answer": "He wasn't working, he was sleeping.",
+   "acceptedAnswers": [
+    "He wasn't working, he was sleeping.",
+    "He wasn't working, he was asleep."
+   ],
+   "hint": "Deux actions en cours au passé : wasn't / was + -ing.",
+   "explanation": "On décrit ce qui était en cours (ou pas) à un moment du passé : past continuous, he wasn't working, he was sleeping.",
+   "tip": "Négation : wasn't + -ing.",
+   "extraExample": {
+    "text": "They weren't listening, they were chatting.",
+    "translation": "Ils n'écoutaient pas, ils bavardaient."
+   },
+   "errorPatterns": [
+    {
+     "contains": "he didn't work",
+     "category": "verb_tense",
+     "feedback": "Pour une action en cours au passé (« il ne travaillait pas »), on dit he wasn't working."
+    },
+    {
+     "contains": "he didn't working",
+     "category": "grammar",
+     "feedback": "Didn't ne se combine pas avec -ing : he wasn't working."
+    },
+    {
+     "contains": "he was sleep",
+     "category": "conjugation",
+     "feedback": "Après was, le verbe prend -ing : he was sleeping."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e13",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.suddenly",
+    "en.v.break_down",
+    "en.v.car"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Je roulais quand soudain ma voiture est tombée en panne.",
+   "promptLanguage": "fr",
+   "answer": "I was driving when suddenly my car broke down.",
+   "acceptedAnswers": [
+    "I was driving when suddenly my car broke down.",
+    "I was driving when my car suddenly broke down.",
+    "I was driving, suddenly my car broke down.",
+    "I was driving and suddenly my car broke down."
+   ],
+   "hint": "Action longue : was + -ing ; panne : past simple.",
+   "explanation": "Je roulais = action longue (I was driving). La panne est l'événement soudain : past simple, broke down. Suddenly se place avant le sujet ou juste avant le verbe.",
+   "tip": "Was + -ing… when suddenly + past simple.",
+   "extraExample": {
+    "text": "We were sleeping when suddenly the alarm rang.",
+    "translation": "Nous dormions quand soudain l'alarme a sonné."
+   },
+   "errorPatterns": [
+    {
+     "contains": "i drove when",
+     "category": "verb_tense",
+     "feedback": "« Je roulais » est l'action longue : I was driving."
+    },
+    {
+     "contains": "was breaking down",
+     "category": "verb_tense",
+     "feedback": "La panne est un événement court : past simple, broke down."
+    },
+    {
+     "contains": "has broken down",
+     "category": "verb_tense",
+     "feedback": "Dans un récit au passé : my car broke down."
+    },
+    {
+     "contains": "fell in",
+     "category": "word_confusion",
+     "feedback": "« Tomber en panne » se dit break down, pas fall in."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e14",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.notice",
+    "en.v.station"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Pendant que j'attendais le train, j'ai remarqué quelque chose.",
+   "promptLanguage": "fr",
+   "answer": "While I was waiting for the train, I noticed something.",
+   "acceptedAnswers": [
+    "While I was waiting for the train, I noticed something.",
+    "When I was waiting for the train, I noticed something.",
+    "I noticed something while I was waiting for the train."
+   ],
+   "hint": "While + action longue ; remarquer = notice.",
+   "explanation": "L'attente est l'action longue (While I was waiting) ; remarquer est l'événement court, au past simple : I noticed. Attention : on attend for quelque chose (wait for the train).",
+   "tip": "Remarquer = notice ; attendre quelque chose = wait for.",
+   "extraExample": {
+    "text": "While she was walking to work, she noticed a new shop.",
+    "translation": "En allant au travail, elle a remarqué un nouveau magasin."
+   },
+   "errorPatterns": [
+    {
+     "contains": "during i was",
+     "category": "word_confusion",
+     "feedback": "During ne peut pas être suivi d'un sujet + verbe : While I was waiting…"
+    },
+    {
+     "contains": "was noticing",
+     "category": "verb_tense",
+     "feedback": "Remarquer est un événement court : past simple, I noticed."
+    },
+    {
+     "contains": "remarked",
+     "category": "word_confusion",
+     "feedback": "Remark veut dire « faire une remarque ». Remarquer (voir) = notice."
+    },
+    {
+     "contains": "waiting the train",
+     "category": "preposition",
+     "feedback": "On attend for quelque chose : waiting for the train."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e15",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.steal",
+    "en.v.wallet"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Quelqu'un a volé mon portefeuille pendant que je dormais.",
+   "promptLanguage": "fr",
+   "answer": "Someone stole my wallet while I was sleeping.",
+   "acceptedAnswers": [
+    "Someone stole my wallet while I was sleeping.",
+    "Someone stole my wallet while I was asleep.",
+    "Somebody stole my wallet while I was sleeping.",
+    "Somebody stole my wallet while I was asleep.",
+    "Someone stole my wallet while I slept.",
+    "Somebody stole my wallet while I slept.",
+    "While I was sleeping, someone stole my wallet.",
+    "While I was sleeping, somebody stole my wallet.",
+    "While I was asleep, someone stole my wallet.",
+    "While I was asleep, somebody stole my wallet."
+   ],
+   "hint": "Le vol : past simple ; le sommeil : action longue.",
+   "explanation": "Le vol est l'événement court (stole) ; while introduit l'action longue en cours, I was sleeping. Voler un objet = steal (steal, stole, stolen).",
+   "tip": "Steal + objet ; rob + personne ou lieu.",
+   "extraExample": {
+    "text": "Someone stole her bag while she was having lunch.",
+    "translation": "Quelqu'un lui a volé son sac pendant qu'elle déjeunait."
+   },
+   "errorPatterns": [
+    {
+     "contains": "robbed my wallet",
+     "category": "word_confusion",
+     "feedback": "Rob s'emploie avec une personne ou un lieu (rob a bank). Pour un objet : steal, stole."
+    },
+    {
+     "contains": "stealed",
+     "category": "conjugation",
+     "feedback": "Steal est irrégulier : stole."
+    },
+    {
+     "contains": "during i",
+     "category": "word_confusion",
+     "feedback": "During ne peut pas être suivi d'un sujet + verbe : while I was sleeping."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e16",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.ring"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Le téléphone a sonné pendant que je prenais une douche.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "The",
+    "having",
+    "shower",
+    "rang",
+    "while",
+    "I",
+    "a",
+    "phone",
+    "was"
+   ],
+   "answer": "The phone rang while I was having a shower.",
+   "acceptedAnswers": [
+    "The phone rang while I was having a shower.",
+    "While I was having a shower the phone rang."
+   ],
+   "hint": "Événement court + while + action longue.",
+   "explanation": "La sonnerie est l'événement court (rang) ; while introduit l'action longue en cours (I was having a shower).",
+   "tip": "While + was / were + -ing.",
+   "extraExample": {
+    "text": "The lights went out while we were watching a film.",
+    "translation": "Les lumières se sont éteintes pendant que nous regardions un film."
+   }
+  },
+  {
+   "id": "en.l66.e17",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.accident"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Elle a vu un accident en rentrant chez elle.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "home",
+    "was",
+    "accident",
+    "while",
+    "an",
+    "saw",
+    "she",
+    "She",
+    "walking"
+   ],
+   "answer": "She saw an accident while she was walking home.",
+   "acceptedAnswers": [
+    "She saw an accident while she was walking home.",
+    "While she was walking home she saw an accident."
+   ],
+   "hint": "« En rentrant » = pendant qu'elle rentrait.",
+   "explanation": "Le gérondif français « en rentrant » se traduit souvent par while + past continuous : while she was walking home. Voir l'accident est l'événement court : saw.",
+   "tip": "« En faisant… » (au passé) = while + was / were + -ing.",
+   "extraExample": {
+    "text": "I met Ben while I was shopping.",
+    "translation": "J'ai croisé Ben en faisant les courses."
+   }
+  },
+  {
+   "id": "en.l66.e18",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.ring"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "When the phone rang, I answered it.",
+   "promptLanguage": "en",
+   "answer": "Quand le téléphone a sonné, j'ai répondu.",
+   "acceptedAnswers": [
+    "Quand le téléphone a sonné, j'ai répondu.",
+    "Quand le téléphone a sonné, j'ai décroché.",
+    "Quand le téléphone a sonné, j'y ai répondu.",
+    "Lorsque le téléphone a sonné, j'ai répondu.",
+    "Lorsque le téléphone a sonné, j'ai décroché.",
+    "Lorsque le téléphone a sonné, j'y ai répondu."
+   ],
+   "hint": "Deux actions qui se suivent.",
+   "explanation": "Deux verbes au past simple : les actions se suivent (d'abord la sonnerie, puis la réponse). En français, deux passés composés.",
+   "tip": "Past simple + past simple = une action, puis l'autre.",
+   "extraExample": {
+    "text": "When she saw me, she smiled.",
+    "translation": "Quand elle m'a vu, elle a souri."
+   },
+   "errorPatterns": [
+    {
+     "contains": "je répondais",
+     "category": "verb_tense",
+     "feedback": "Answered est au past simple : j'ai répondu (après la sonnerie). « Je répondais » serait I was answering."
+    },
+    {
+     "contains": "sonnait",
+     "category": "verb_tense",
+     "feedback": "Rang est au past simple : le téléphone a sonné."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e19",
+   "unitIds": [
+    "en.g47.when_while"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le mot qui convient.",
+   "prompt": "I was reading ___ the lights suddenly went out.",
+   "promptLanguage": "en",
+   "options": [
+    "when",
+    "while",
+    "during",
+    "since"
+   ],
+   "answer": "when",
+   "acceptedAnswers": [
+    "when"
+   ],
+   "hint": "Ce qui suit est un événement court.",
+   "explanation": "When introduit surtout l'événement court qui interrompt l'action : when the lights went out. While introduit plutôt une action longue.",
+   "tip": "When + événement court ; while + action longue.",
+   "extraExample": {
+    "text": "We were leaving when it started to rain.",
+    "translation": "Nous partions quand il a commencé à pleuvoir."
+   },
+   "errorPatterns": [
+    {
+     "equals": "while",
+     "category": "word_confusion",
+     "feedback": "While annonce une action longue (while I was reading). Pour l'événement court qui interrompt : when."
+    },
+    {
+     "equals": "during",
+     "category": "word_confusion",
+     "feedback": "During est suivi d'un nom, pas d'un sujet + verbe : when the lights went out."
+    },
+    {
+     "equals": "since",
+     "category": "word_confusion",
+     "feedback": "Since veut dire « depuis ». Pour « quand » : when."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e20",
+   "unitIds": [
+    "en.g47.when_while",
+    "en.v.meet",
+    "en.v.wife"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « J'ai rencontré ma femme pendant que je travaillais à Londres » ?",
+   "promptLanguage": "fr",
+   "answer": "I met my wife while I was working in London.",
+   "acceptedAnswers": [
+    "I met my wife while I was working in London.",
+    "I met my wife when I was working in London.",
+    "I met my wife while I worked in London.",
+    "I met my wife while working in London.",
+    "While I was working in London, I met my wife.",
+    "When I was working in London, I met my wife."
+   ],
+   "hint": "Rencontrer : événement court ; travailler : action longue.",
+   "explanation": "La rencontre est un événement court (I met, past simple de meet) ; while introduit la période en cours, I was working in London.",
+   "tip": "Pendant que + action longue = while + was / were + -ing.",
+   "extraExample": {
+    "text": "She met her husband while she was studying in Rome.",
+    "translation": "Elle a rencontré son mari pendant qu'elle étudiait à Rome."
+   },
+   "errorPatterns": [
+    {
+     "contains": "during i was",
+     "category": "word_confusion",
+     "feedback": "During ne peut pas être suivi d'un sujet + verbe : while I was working."
+    },
+    {
+     "contains": "i was meeting",
+     "category": "verb_tense",
+     "feedback": "La rencontre est un événement court : past simple, I met."
+    },
+    {
+     "contains": "i have met my wife",
+     "category": "verb_tense",
+     "feedback": "Dans un récit au passé : I met my wife."
+    }
+   ]
+  },
+  {
+   "id": "en.l66.e21",
+   "unitIds": [
+    "en.g47.when_while"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Raconte un petit incident en anglais.",
+   "prompt": "Une panne, un vol, une chute… Utilise while ou when, une action longue au past continuous et un événement court au past simple.",
+   "promptLanguage": "fr",
+   "answer": "I was driving to Lyon when my car broke down.",
+   "acceptedAnswers": [
+    "I was driving to Lyon when my car broke down.",
+    "While I was waiting for the bus, someone stole my phone.",
+    "I was running in the park when I suddenly fell."
+   ],
+   "requirements": {
+    "mustInclude": [
+     [
+      "while",
+      "when"
+     ],
+     [
+      "was",
+      "were"
+     ]
+    ],
+    "minWords": 8
+   },
+   "hint": "Action longue : was / were + -ing. Événement court : past simple.",
+   "explanation": "Dans un récit, le past continuous décrit l'action en cours et le past simple l'événement qui l'interrompt. While introduit l'action longue, when surtout l'événement court.",
+   "tip": "Le long au -ing, le court au past simple.",
+   "extraExample": {
+    "text": "We were having dinner on the terrace when it suddenly started to rain.",
+    "translation": "Nous dînions sur la terrasse quand il s'est soudain mis à pleuvoir."
+   },
+   "errorPatterns": [
+    {
+     "contains": "during i",
+     "category": "word_confusion",
+     "feedback": "During ne peut pas être suivi d'un sujet + verbe : utilise while."
+    },
+    {
+     "contains": "was breaking down",
+     "category": "verb_tense",
+     "feedback": "La panne est un événement court : broke down."
+    }
+   ]
+  }
+ ]
+}

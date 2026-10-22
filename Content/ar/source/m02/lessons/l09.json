@@ -1,0 +1,764 @@
+{
+ "lessonId": "ar.l09",
+ "exercises": [
+  {
+   "id": "ar.l09.e01",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.fatha"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit بَ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ba",
+    "bi",
+    "bu"
+   ],
+   "answer": "ba",
+   "acceptedAnswers": [
+    "ba"
+   ],
+   "hint": "Regarde où est placé le petit trait.",
+   "explanation": "Le petit trait est au-dessus du ب : c'est une fatha, qui donne le son a. On lit donc ba.",
+   "tip": "Trait au-dessus = a.",
+   "extraExample": {
+    "text": "بَدَن",
+    "translation": "corps",
+    "transliteration": "badan"
+   },
+   "errorPatterns": [
+    {
+     "equals": "bi",
+     "category": "word_confusion",
+     "feedback": "bi s'écrirait بِ, avec le trait sous la lettre (kasra). Ici le trait est au-dessus : fatha = a."
+    },
+    {
+     "equals": "bu",
+     "category": "word_confusion",
+     "feedback": "bu s'écrirait بُ, avec un petit و au-dessus (damma). Ici, c'est un simple trait : a."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e02",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.kasra"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit بِ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ba",
+    "bi",
+    "bu"
+   ],
+   "answer": "bi",
+   "acceptedAnswers": [
+    "bi"
+   ],
+   "explanation": "Le petit trait est sous le ب : c'est une kasra, qui donne le son i. On lit bi.",
+   "tip": "Trait en dessous = i.",
+   "extraExample": {
+    "text": "سِ",
+    "translation": "si",
+    "transliteration": "si"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ba",
+     "category": "word_confusion",
+     "feedback": "Pour ba, le trait serait au-dessus (fatha). Ici il est en dessous : kasra = i."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e03",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.damma"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit بُ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ba",
+    "bi",
+    "bu"
+   ],
+   "answer": "bu",
+   "acceptedAnswers": [
+    "bu"
+   ],
+   "explanation": "Le petit signe en forme de و au-dessus du ب est une damma : elle donne le son u, prononcé « ou ». On lit bu (« bou »).",
+   "tip": "Petit و au-dessus = u (« ou »).",
+   "extraExample": {
+    "text": "دُ",
+    "translation": "du (« dou »)",
+    "transliteration": "du"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ba",
+     "category": "word_confusion",
+     "feedback": "La fatha est un trait droit. Ici, le signe a une petite boucle comme un و : c'est une damma, u."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e04",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.fatha",
+    "ar.v.kasra",
+    "ar.v.damma"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque signe à son nom et à son son.",
+   "prompt": "Les trois voyelles brèves",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ـَ",
+     "right": "fatha : a"
+    },
+    {
+     "left": "ـِ",
+     "right": "kasra : i"
+    },
+    {
+     "left": "ـُ",
+     "right": "damma : u"
+    }
+   ],
+   "answer": "ـَ = fatha : a ; ـِ = kasra : i ; ـُ = damma : u",
+   "acceptedAnswers": [],
+   "explanation": "La fatha (trait au-dessus) donne a, la kasra (trait en dessous) donne i, la damma (petit و au-dessus) donne u.",
+   "tip": "Au-dessus : a ou u ; en dessous : i."
+  },
+  {
+   "id": "ar.l09.e05",
+   "unitIds": [
+    "ar.g09.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le mot bien vocalisé.",
+   "prompt": "Quel mot est vocalisé correctement pour « kataba » (il a écrit) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "كَتَبَ",
+    "كِتَبَ",
+    "كَتُبَ",
+    "كُتِبَ"
+   ],
+   "answer": "كَتَبَ",
+   "acceptedAnswers": [
+    "كَتَبَ"
+   ],
+   "explanation": "Kataba = ka-ta-ba : trois syllabes avec a, donc une fatha sur chacune des trois lettres.",
+   "tip": "Un son a = un trait au-dessus de la lettre.",
+   "extraExample": {
+    "text": "ذَهَبَ",
+    "translation": "il est allé",
+    "transliteration": "dhahaba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "كُتِبَ",
+     "category": "word_confusion",
+     "feedback": "Celui-ci se lit kutiba (« il a été écrit ») : damma puis kasra."
+    },
+    {
+     "equals": "كِتَبَ",
+     "category": "word_confusion",
+     "feedback": "Celui-ci commence par ki : la kasra est sous le ك."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e06",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.walad",
+    "ar.v.radjul",
+    "ar.v.katif",
+    "ar.v.unuq"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa lecture.",
+   "prompt": "Lis chaque mot syllabe par syllabe.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "وَلَد",
+     "right": "walad"
+    },
+    {
+     "left": "رَجُل",
+     "right": "radjul"
+    },
+    {
+     "left": "كَتِف",
+     "right": "katif"
+    },
+    {
+     "left": "عُنُق",
+     "right": "3unuq"
+    }
+   ],
+   "answer": "وَلَد = walad ; رَجُل = radjul ; كَتِف = katif ; عُنُق = 3unuq",
+   "acceptedAnswers": [],
+   "explanation": "Chaque lettre se lit avec sa voyelle : wa-lad, ra-djul, ka-tif, 3u-nuq. La dernière lettre, sans signe, se lit sans voyelle.",
+   "tip": "Lis de droite à gauche, une lettre et son signe à la fois."
+  },
+  {
+   "id": "ar.l09.e07",
+   "unitIds": [
+    "ar.v.yad",
+    "ar.v.fam",
+    "ar.v.katif",
+    "ar.v.unuq",
+    "ar.v.radjul"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa traduction.",
+   "prompt": "Le corps et les personnes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "يَد",
+     "right": "la main"
+    },
+    {
+     "left": "فَم",
+     "right": "la bouche"
+    },
+    {
+     "left": "كَتِف",
+     "right": "l'épaule"
+    },
+    {
+     "left": "عُنُق",
+     "right": "le cou"
+    },
+    {
+     "left": "رَجُل",
+     "right": "l'homme"
+    }
+   ],
+   "answer": "يَد = la main ; فَم = la bouche ; كَتِف = l'épaule ; عُنُق = le cou ; رَجُل = l'homme",
+   "acceptedAnswers": [],
+   "explanation": "يَد (yad) = la main, فَم (fam) = la bouche, كَتِف (katif) = l'épaule, عُنُق (3unuq) = le cou, رَجُل (radjul) = l'homme.",
+   "tip": "Lis d'abord le mot à voix haute : le son aide à retrouver le sens."
+  },
+  {
+   "id": "ar.l09.e08",
+   "unitIds": [
+    "ar.g09.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Révision des formes de lettres. Choisis la bonne réponse.",
+   "prompt": "Dans كَتَبَ, quelle forme a le ت ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la forme du milieu (ـتـ)",
+    "la forme du début (تـ)",
+    "la forme de la fin (ـت)",
+    "la forme isolée (ت)"
+   ],
+   "answer": "la forme du milieu (ـتـ)",
+   "acceptedAnswers": [
+    "la forme du milieu (ـتـ)"
+   ],
+   "explanation": "Le ت est attaché au ك avant lui et au ب après lui : il prend sa forme du milieu, ـتـ.",
+   "tip": "Lettre attachée des deux côtés = forme du milieu.",
+   "extraExample": {
+    "text": "فَهِمَ",
+    "translation": "il a compris",
+    "transliteration": "fahima"
+   },
+   "errorPatterns": [
+    {
+     "equals": "la forme de la fin (ـت)",
+     "category": "spelling",
+     "feedback": "La forme de la fin n'est attachée qu'à droite. Ici le ت est aussi relié au ب qui suit."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e09",
+   "unitIds": [
+    "ar.g09.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit فَهِمَ (il a compris) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "fahima",
+    "fahama",
+    "fuhima",
+    "fahimu"
+   ],
+   "answer": "fahima",
+   "acceptedAnswers": [
+    "fahima"
+   ],
+   "explanation": "Fatha sur le ف (fa), kasra sous le ه (hi), fatha sur le م (ma) : fa-hi-ma.",
+   "tip": "Une lettre, un signe, une syllabe.",
+   "extraExample": {
+    "text": "شَرِبَ",
+    "translation": "il a bu",
+    "transliteration": "chariba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "fahama",
+     "category": "word_confusion",
+     "feedback": "Regarde sous le ه : le trait est en dessous, c'est une kasra (hi)."
+    },
+    {
+     "equals": "fuhima",
+     "category": "word_confusion",
+     "feedback": "Sur le ف, c'est un simple trait (fatha) : fa, pas fu."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e10",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.unuq"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit عُنُق (le cou) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "3unuq",
+    "3anaq",
+    "3iniq",
+    "3unaq"
+   ],
+   "answer": "3unuq",
+   "acceptedAnswers": [
+    "3unuq"
+   ],
+   "explanation": "Le ع et le ن portent chacun une damma (u) ; le ق final n'a pas de signe : 3u-nuq.",
+   "tip": "Deux petits و au-dessus = deux u.",
+   "extraExample": {
+    "text": "رُطَب",
+    "translation": "dattes fraîches",
+    "transliteration": "ruTab"
+   },
+   "errorPatterns": [
+    {
+     "equals": "3unaq",
+     "category": "word_confusion",
+     "feedback": "Le ن porte aussi une damma, pas une fatha : nu."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e11",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.yad"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le mot qui correspond.",
+   "prompt": "Lequel de ces mots se lit « yad » (la main) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "يَد",
+    "يُد",
+    "يِد"
+   ],
+   "answer": "يَد",
+   "acceptedAnswers": [
+    "يَد"
+   ],
+   "explanation": "Pour yad, il faut le son a sur le ي : une fatha, donc un trait au-dessus.",
+   "tip": "Son a = trait au-dessus.",
+   "extraExample": {
+    "text": "يَدُ الْوَلَدِ",
+    "translation": "la main du garçon",
+    "transliteration": "yadu l-waladi"
+   },
+   "errorPatterns": [
+    {
+     "equals": "يُد",
+     "category": "word_confusion",
+     "feedback": "Le petit و au-dessus est une damma : on lirait yud."
+    },
+    {
+     "equals": "يِد",
+     "category": "word_confusion",
+     "feedback": "Le trait sous la lettre est une kasra : on lirait yid."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e12",
+   "unitIds": [
+    "ar.g09.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Révision des formes de lettres. Choisis la bonne réponse.",
+   "prompt": "Comment s'écrit le ع au début d'un mot, comme dans عُنُق ?",
+   "promptLanguage": "fr",
+   "options": [
+    "عـ",
+    "ـعـ",
+    "ـع",
+    "ع"
+   ],
+   "answer": "عـ",
+   "acceptedAnswers": [
+    "عـ"
+   ],
+   "explanation": "Au début d'un mot, le ع est attaché seulement à la lettre suivante : on écrit عـ, la tête ouverte.",
+   "tip": "Début de mot = attaché seulement à gauche.",
+   "extraExample": {
+    "text": "عَمَل",
+    "translation": "travail",
+    "transliteration": "3amal"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ـعـ",
+     "category": "spelling",
+     "feedback": "ـعـ est la forme du milieu, attachée des deux côtés. Au début, rien n'est attaché à droite."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e13",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.kasra"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le nom du signe.",
+   "prompt": "Pour écrire « bi », on met une ___ sous le ب.",
+   "promptLanguage": "fr",
+   "options": [
+    "kasra",
+    "fatha",
+    "damma"
+   ],
+   "answer": "kasra",
+   "acceptedAnswers": [
+    "kasra"
+   ],
+   "explanation": "Le son i s'écrit avec une kasra, un petit trait placé sous la lettre : بِ.",
+   "tip": "Kasra = sous la lettre = i.",
+   "extraExample": {
+    "text": "سِ",
+    "translation": "si",
+    "transliteration": "si"
+   },
+   "errorPatterns": [
+    {
+     "equals": "fatha",
+     "category": "word_confusion",
+     "feedback": "La fatha se met au-dessus et donne a. Pour i, le trait va sous la lettre : kasra."
+    },
+    {
+     "equals": "damma",
+     "category": "word_confusion",
+     "feedback": "La damma donne u et se met au-dessus."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e14",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.radjul"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le nom du signe.",
+   "prompt": "Dans رَجُل (radjul, homme), le ج porte une ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "damma",
+    "fatha",
+    "kasra"
+   ],
+   "answer": "damma",
+   "acceptedAnswers": [
+    "damma",
+    "dhamma"
+   ],
+   "explanation": "On lit ra-djul : le ج a le son u, donc une damma (le petit و au-dessus).",
+   "tip": "Son u (« ou ») = damma.",
+   "extraExample": {
+    "text": "كُتِبَ",
+    "translation": "il a été écrit",
+    "transliteration": "kutiba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "fatha",
+     "category": "word_confusion",
+     "feedback": "La fatha est sur le ر (ra). Sur le ج, on entend u : c'est une damma."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e15",
+   "unitIds": [
+    "ar.g09.short_vowels"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Touche les syllabes dans l'ordre de lecture (la première d'abord).",
+   "prompt": "Écris « kataba » (il a écrit).",
+   "promptLanguage": "fr",
+   "tokens": [
+    "بَ",
+    "كَ",
+    "تَ"
+   ],
+   "answer": "كَ تَ بَ",
+   "acceptedAnswers": [
+    "كَ تَ بَ"
+   ],
+   "explanation": "Ka-ta-ba : trois syllabes, chacune avec une fatha. On commence par la droite en arabe, mais on touche d'abord la première syllabe.",
+   "tip": "Dis le mot à voix haute et suis les syllabes.",
+   "extraExample": {
+    "text": "جَلَسَ",
+    "translation": "il s'est assis",
+    "transliteration": "djalasa"
+   }
+  },
+  {
+   "id": "ar.l09.e16",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.radjul"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Touche les syllabes dans l'ordre de lecture (la première d'abord).",
+   "prompt": "Écris « radjul » (homme).",
+   "promptLanguage": "fr",
+   "tokens": [
+    "جُ",
+    "ل",
+    "رَ"
+   ],
+   "answer": "رَ جُ ل",
+   "acceptedAnswers": [
+    "رَ جُ ل"
+   ],
+   "explanation": "Ra-djul : ر avec fatha, ج avec damma, puis ل sans voyelle qui termine le mot.",
+   "tip": "La dernière lettre d'un mot isolé se lit souvent sans voyelle.",
+   "extraExample": {
+    "text": "وَلَد",
+    "translation": "garçon",
+    "transliteration": "walad"
+   }
+  },
+  {
+   "id": "ar.l09.e17",
+   "unitIds": [
+    "ar.v.fam",
+    "ar.g09.short_vowels"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "فَم",
+   "promptLanguage": "ar",
+   "answer": "la bouche",
+   "acceptedAnswers": [
+    "la bouche",
+    "bouche",
+    "une bouche"
+   ],
+   "explanation": "فَم se lit fam (fatha sur le ف) et veut dire « la bouche ».",
+   "tip": "Fam, la bouche : un mot d'une seule syllabe.",
+   "extraExample": {
+    "text": "فَمُ الطِّفْلِ",
+    "translation": "la bouche de l'enfant",
+    "transliteration": "famu T-Tifli"
+   },
+   "errorPatterns": [
+    {
+     "equals": "la main",
+     "category": "vocabulary",
+     "feedback": "La main, c'est يَد (yad). فَم (fam), c'est la bouche."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e18",
+   "unitIds": [
+    "ar.v.walad",
+    "ar.g09.short_vowels"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "وَلَد",
+   "promptLanguage": "ar",
+   "answer": "garçon",
+   "acceptedAnswers": [
+    "garçon",
+    "un garçon",
+    "le garçon",
+    "enfant",
+    "un enfant",
+    "l'enfant",
+    "fils",
+    "un fils",
+    "le fils"
+   ],
+   "explanation": "وَلَد se lit walad : un garçon, ou plus largement un enfant.",
+   "tip": "Walad : le garçon, l'enfant.",
+   "extraExample": {
+    "text": "وَلَدٌ صَغِيرٌ",
+    "translation": "un petit garçon",
+    "transliteration": "waladun Saghîrun"
+   },
+   "errorPatterns": [
+    {
+     "equals": "homme",
+     "category": "vocabulary",
+     "feedback": "L'homme, c'est رَجُل (radjul). وَلَد (walad) est un garçon, un enfant."
+    },
+    {
+     "equals": "fille",
+     "category": "vocabulary",
+     "feedback": "La fille, c'est بِنْت (bint). وَلَد (walad) est un garçon."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e19",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.katif"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit كَتِف (l'épaule) ?",
+   "promptLanguage": "fr",
+   "answer": "katif",
+   "acceptedAnswers": [
+    "katif"
+   ],
+   "hint": "Le signe du ت est sous la lettre.",
+   "explanation": "Fatha sur le ك (ka), kasra sous le ت (ti), ف final sans voyelle : ka-tif.",
+   "tip": "Regarde au-dessus ET en dessous de chaque lettre.",
+   "extraExample": {
+    "text": "كَتِفِي",
+    "translation": "mon épaule",
+    "transliteration": "katifî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "kataf",
+     "category": "spelling",
+     "feedback": "Le ت porte une kasra (trait sous la lettre) : ti, pas ta."
+    },
+    {
+     "equals": "kitaf",
+     "category": "spelling",
+     "feedback": "Le ك porte une fatha (trait au-dessus) : ka. La kasra est sous le ت."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e20",
+   "unitIds": [
+    "ar.g09.short_vowels"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit كُتِبَ (il a été écrit) ?",
+   "promptLanguage": "fr",
+   "answer": "kutiba",
+   "acceptedAnswers": [
+    "kutiba",
+    "koutiba"
+   ],
+   "explanation": "Damma sur le ك (ku), kasra sous le ت (ti), fatha sur le ب (ba) : ku-ti-ba. Mêmes lettres que kataba, mais d'autres voyelles et un autre sens.",
+   "tip": "Mêmes lettres, autres signes = autre mot : lis toujours les signes.",
+   "extraExample": {
+    "text": "كَتَبَ",
+    "translation": "il a écrit",
+    "transliteration": "kataba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "kataba",
+     "category": "spelling",
+     "feedback": "Regarde bien : damma sur le ك (ku), kasra sous le ت (ti). kataba s'écrirait كَتَبَ."
+    },
+    {
+     "equals": "kutib",
+     "category": "spelling",
+     "feedback": "Le ب final porte une fatha : il se prononce ba. On lit kutiba."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e21",
+   "unitIds": [
+    "ar.g09.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Révision des lettres. Choisis la bonne réponse.",
+   "prompt": "Dans وَلَد, quelle lettre ne s'attache pas à la lettre qui la suit ?",
+   "promptLanguage": "fr",
+   "options": [
+    "و",
+    "ل",
+    "ب",
+    "ي"
+   ],
+   "answer": "و",
+   "acceptedAnswers": [
+    "و"
+   ],
+   "explanation": "و fait partie des lettres qui ne s'attachent jamais à gauche (ا د ذ ر ز و). C'est pour cela que وَلَد commence par un و détaché.",
+   "tip": "ا د ذ ر ز و : six lettres qui ne tendent jamais la main à gauche.",
+   "extraExample": {
+    "text": "دَرَسَ",
+    "translation": "il a étudié",
+    "transliteration": "darasa"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ل",
+     "category": "spelling",
+     "feedback": "Le ل s'attache des deux côtés. Celui qui reste seul à gauche, c'est le و."
+    }
+   ]
+  }
+ ]
+}

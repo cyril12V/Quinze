@@ -1,0 +1,849 @@
+{
+ "lessonId": "cg.l20",
+ "exercises": [
+  {
+   "id": "cg.l20.e01",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.dmitri_mendeleiev",
+    "cg.v.tableau_periodique"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel chimiste russe a publié le tableau périodique des éléments en 1869 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Dmitri Mendeleïev",
+    "Antoine Lavoisier",
+    "Marie Curie",
+    "Niels Bohr"
+   ],
+   "answer": "Dmitri Mendeleïev",
+   "acceptedAnswers": [
+    "Dmitri Mendeleïev"
+   ],
+   "explanation": "En 1869, Dmitri Mendeleïev range les éléments connus dans un tableau où les propriétés reviennent de façon périodique, d'où son nom. Il laisse même des cases vides pour des éléments encore inconnus.",
+   "tip": "Mendeleïev = 1869 = tableau périodique.",
+   "extraExample": {
+    "text": "L'élément 101, le mendélévium, porte son nom.",
+    "translation": "Il a été créé en laboratoire en 1955."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Antoine Lavoisier",
+     "category": "word_confusion",
+     "feedback": "Lavoisier (XVIIIe siècle) est le père de la chimie moderne, mais le tableau périodique est de Mendeleïev, en 1869."
+    },
+    {
+     "equals": "Niels Bohr",
+     "category": "word_confusion",
+     "feedback": "Niels Bohr a proposé en 1913 un modèle de l'atome ; le tableau périodique est de Mendeleïev."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e02",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.molecule"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que signifie la formule H₂O, celle de l'eau ?",
+   "promptLanguage": "fr",
+   "options": [
+    "deux atomes d'hydrogène et un atome d'oxygène",
+    "un atome d'hydrogène et deux atomes d'oxygène",
+    "deux molécules d'eau",
+    "de l'hydrogène dissous dans l'eau"
+   ],
+   "answer": "deux atomes d'hydrogène et un atome d'oxygène",
+   "acceptedAnswers": [
+    "deux atomes d'hydrogène et un atome d'oxygène"
+   ],
+   "explanation": "Dans une formule chimique, le petit chiffre placé après un symbole indique le nombre d'atomes de cet élément. H₂ = deux hydrogènes, O sans chiffre = un oxygène.",
+   "tip": "Le petit chiffre compte l'atome qui est juste avant lui.",
+   "extraExample": {
+    "text": "CO₂ (dioxyde de carbone) contient un atome de carbone et deux atomes d'oxygène.",
+    "translation": "C'est le gaz que nous expirons."
+   },
+   "errorPatterns": [
+    {
+     "equals": "un atome d'hydrogène et deux atomes d'oxygène",
+     "category": "word_confusion",
+     "feedback": "C'est l'inverse : le 2 suit le H, donc il y a deux hydrogènes. Un seul oxygène (O sans chiffre)."
+    },
+    {
+     "equals": "deux molécules d'eau",
+     "category": "word_confusion",
+     "feedback": "Pour écrire deux molécules d'eau, on mettrait le 2 devant : 2 H₂O."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e03",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.element_chimique"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Symboles chimiques et éléments",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Au",
+     "right": "l'or"
+    },
+    {
+     "left": "Fe",
+     "right": "le fer"
+    },
+    {
+     "left": "Ag",
+     "right": "l'argent"
+    },
+    {
+     "left": "Na",
+     "right": "le sodium"
+    },
+    {
+     "left": "O",
+     "right": "l'oxygène"
+    }
+   ],
+   "answer": "Au = l'or ; Fe = le fer ; Ag = l'argent ; Na = le sodium ; O = l'oxygène",
+   "acceptedAnswers": [],
+   "explanation": "Beaucoup de symboles viennent du latin : Au de aurum (or), Fe de ferrum (fer), Ag de argentum (argent), Na de natrium (sodium). O, lui, vient directement d'oxygène.",
+   "tip": "Quand un symbole ne ressemble pas au nom français, pense au latin.",
+   "extraExample": {
+    "text": "Pb est le symbole du plomb, du latin plumbum.",
+    "translation": "Le mot « plombier » vient de la même racine."
+   }
+  },
+  {
+   "id": "cg.l20.e04",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.ph"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Le jus de citron a un pH d'environ 2. Il est donc…",
+   "promptLanguage": "fr",
+   "options": [
+    "acide",
+    "neutre",
+    "basique"
+   ],
+   "answer": "acide",
+   "acceptedAnswers": [
+    "acide"
+   ],
+   "explanation": "Sur l'échelle du pH (de 0 à 14), une valeur inférieure à 7 indique une solution acide, 7 une solution neutre et une valeur supérieure à 7 une solution basique.",
+   "tip": "Moins de 7 = acide ; 7 = neutre ; plus de 7 = basique.",
+   "extraExample": {
+    "text": "L'eau de Javel a un pH d'environ 12.",
+    "translation": "C'est une solution fortement basique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "basique",
+     "category": "word_confusion",
+     "feedback": "Basique correspond à un pH supérieur à 7 ; avec un pH de 2, le jus de citron est acide."
+    },
+    {
+     "equals": "neutre",
+     "category": "word_confusion",
+     "feedback": "Neutre, c'est exactement 7 (comme l'eau pure) ; 2 est très en dessous : c'est acide."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e05",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.vitesse_de_la_lumiere"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — L'éclair et le tonnerre se produisent en même temps. Pourquoi voit-on l'éclair avant d'entendre le tonnerre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La lumière va beaucoup plus vite que le son.",
+    "Le tonnerre part plus tard que l'éclair.",
+    "L'œil réagit plus vite que l'oreille."
+   ],
+   "answer": "La lumière va beaucoup plus vite que le son.",
+   "acceptedAnswers": [
+    "La lumière va beaucoup plus vite que le son."
+   ],
+   "explanation": "La lumière arrive presque instantanément (environ 300 000 km/s), alors que le son ne parcourt qu'environ 340 m/s dans l'air, soit environ 1 km en 3 secondes.",
+   "tip": "Compte les secondes entre l'éclair et le tonnerre, divise par 3 : tu obtiens la distance de l'orage en kilomètres.",
+   "extraExample": {
+    "text": "À 3 secondes d'écart, l'orage est à environ 1 km.",
+    "translation": "À 9 secondes, il est à environ 3 km."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le tonnerre part plus tard que l'éclair.",
+     "category": "word_confusion",
+     "feedback": "Les deux sont produits en même temps ; la différence vient de la vitesse : le son est bien plus lent que la lumière."
+    },
+    {
+     "equals": "L'œil réagit plus vite que l'oreille.",
+     "category": "word_confusion",
+     "feedback": "La différence de quelques secondes ne vient pas de nos sens mais de la lenteur du son par rapport à la lumière."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e06",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.antoine_lavoisier"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À quel chimiste français attribue-t-on la formule « Rien ne se perd, rien ne se crée, tout se transforme » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Antoine Lavoisier",
+    "Louis Pasteur",
+    "Pierre Curie",
+    "Blaise Pascal"
+   ],
+   "answer": "Antoine Lavoisier",
+   "acceptedAnswers": [
+    "Antoine Lavoisier"
+   ],
+   "explanation": "La phrase résume une idée que Lavoisier écrit en 1789 : dans une réaction chimique, la quantité de matière est la même avant et après. C'est la loi de conservation de la masse ; la formule courte est une reformulation populaire.",
+   "tip": "Lavoisier pesait tout : avant, après, la masse ne change pas.",
+   "extraExample": {
+    "text": "Quand du bois brûle, sa masse ne disparaît pas : elle part en gaz et en fumée.",
+    "translation": "Si on pèse aussi les gaz, la masse totale est conservée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Louis Pasteur",
+     "category": "word_confusion",
+     "feedback": "Pasteur est célèbre pour les microbes et les vaccins ; la conservation de la masse est due à Lavoisier."
+    },
+    {
+     "equals": "Blaise Pascal",
+     "category": "word_confusion",
+     "feedback": "Pascal (XVIIe siècle) est connu pour ses travaux sur la pression et pour sa machine à calculer, pas pour cette formule."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e07",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.etats_de_la_matiere"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment s'appelle le passage de l'état solide à l'état liquide ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la fusion",
+    "la vaporisation",
+    "la solidification",
+    "la sublimation"
+   ],
+   "answer": "la fusion",
+   "acceptedAnswers": [
+    "la fusion"
+   ],
+   "explanation": "Quand un glaçon fond, l'eau passe de l'état solide à l'état liquide : c'est la fusion. Le passage inverse, de liquide à solide, est la solidification.",
+   "tip": "Fusion = « fondre » : solide → liquide.",
+   "extraExample": {
+    "text": "La sublimation est le passage direct de solide à gaz.",
+    "translation": "La neige carbonique (CO₂ solide) se sublime sans fondre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la solidification",
+     "category": "word_confusion",
+     "feedback": "La solidification est le chemin inverse : de liquide à solide, comme l'eau qui gèle."
+    },
+    {
+     "equals": "la sublimation",
+     "category": "word_confusion",
+     "feedback": "La sublimation fait passer directement de solide à gaz, sans passer par le liquide."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e08",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.atome",
+    "cg.v.electron",
+    "cg.v.molecule",
+    "cg.v.numero_atomique"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots de la chimie et leur définition",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "l'atome",
+     "right": "brique de base de la matière"
+    },
+    {
+     "left": "l'électron",
+     "right": "particule négative autour du noyau"
+    },
+    {
+     "left": "le proton",
+     "right": "particule positive du noyau"
+    },
+    {
+     "left": "la molécule",
+     "right": "groupe d'atomes liés entre eux"
+    },
+    {
+     "left": "le numéro atomique",
+     "right": "nombre de protons du noyau"
+    }
+   ],
+   "answer": "l'atome = brique de base de la matière ; l'électron = particule négative autour du noyau ; le proton = particule positive du noyau ; la molécule = groupe d'atomes liés entre eux ; le numéro atomique = nombre de protons du noyau",
+   "acceptedAnswers": [],
+   "explanation": "L'atome a un noyau (protons positifs et neutrons sans charge) entouré d'électrons négatifs. Le nombre de protons, le numéro atomique, définit l'élément. Plusieurs atomes liés forment une molécule.",
+   "tip": "Proton = positif (P comme plus) ; électron = négatif.",
+   "extraExample": {
+    "text": "L'atome est presque entièrement vide.",
+    "translation": "Son noyau est environ 100 000 fois plus petit que l'atome lui-même."
+   }
+  },
+  {
+   "id": "cg.l20.e09",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.numero_atomique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le numéro atomique d'un élément est le nombre de ___ de son noyau.",
+   "promptLanguage": "fr",
+   "options": [
+    "protons",
+    "neutrons",
+    "électrons",
+    "molécules"
+   ],
+   "answer": "protons",
+   "acceptedAnswers": [
+    "protons",
+    "proton"
+   ],
+   "explanation": "Le numéro atomique Z compte les protons du noyau : 1 pour l'hydrogène, 6 pour le carbone, 8 pour l'oxygène, 79 pour l'or. Changer le nombre de protons, c'est changer d'élément.",
+   "tip": "Z comme « zone d'identité » : les protons donnent l'identité de l'atome.",
+   "extraExample": {
+    "text": "Le fer a le numéro atomique 26 : son noyau contient 26 protons.",
+    "translation": "Tout atome qui a 26 protons est un atome de fer."
+   },
+   "errorPatterns": [
+    {
+     "equals": "neutrons",
+     "category": "word_confusion",
+     "feedback": "Le nombre de neutrons peut varier pour un même élément (ce sont les isotopes) ; le numéro atomique compte les protons."
+    },
+    {
+     "equals": "électrons",
+     "category": "word_confusion",
+     "feedback": "Un atome peut gagner ou perdre des électrons sans changer d'élément ; le numéro atomique compte les protons du noyau."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e10",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.element_chimique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le symbole chimique de l'or est ___, du latin aurum.",
+   "promptLanguage": "fr",
+   "options": [
+    "Au",
+    "Or",
+    "Ag",
+    "O"
+   ],
+   "answer": "Au",
+   "acceptedAnswers": [
+    "Au"
+   ],
+   "explanation": "Le symbole de l'or, Au, vient du latin aurum. C'est le cas de plusieurs métaux connus depuis l'Antiquité : Ag (argent), Fe (fer), Pb (plomb), Cu (cuivre).",
+   "tip": "Aurum → Au ; le mot « auréole » (couronne dorée) vient de la même racine latine.",
+   "extraExample": {
+    "text": "Le numéro atomique de l'or est 79.",
+    "translation": "Son noyau contient donc 79 protons."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Ag",
+     "category": "word_confusion",
+     "feedback": "Ag est le symbole de l'argent (argentum) ; l'or, c'est Au."
+    },
+    {
+     "equals": "O",
+     "category": "word_confusion",
+     "feedback": "O est le symbole de l'oxygène ; l'or, c'est Au."
+    },
+    {
+     "equals": "Or",
+     "category": "word_confusion",
+     "feedback": "Les symboles chimiques sont internationaux et souvent latins : l'or s'écrit Au."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e11",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.adn"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Dans l'ADN, la base G (guanine) s'associe toujours à la base ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "C",
+    "A",
+    "T",
+    "U"
+   ],
+   "answer": "C",
+   "acceptedAnswers": [
+    "C",
+    "cytosine",
+    "la cytosine"
+   ],
+   "explanation": "Les quatre bases de l'ADN forment des paires fixes : A avec T, G avec C. Chaque brin peut donc servir de modèle pour recopier l'autre.",
+   "tip": "Retiens « AT-GC ».",
+   "extraExample": {
+    "text": "L'ADN humain compte environ 3 milliards de paires de bases.",
+    "translation": "Toutes sont des paires A-T ou G-C."
+   },
+   "errorPatterns": [
+    {
+     "equals": "T",
+     "category": "word_confusion",
+     "feedback": "T s'associe à A ; G, lui, s'associe à C."
+    },
+    {
+     "equals": "A",
+     "category": "word_confusion",
+     "feedback": "A s'associe à T ; G s'associe à C."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e12",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.element_chimique"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel gaz est le plus abondant dans l'air que nous respirons ?",
+   "promptLanguage": "fr",
+   "options": [
+    "l'azote",
+    "l'oxygène",
+    "le dioxyde de carbone",
+    "l'argon"
+   ],
+   "answer": "l'azote",
+   "acceptedAnswers": [
+    "l'azote"
+   ],
+   "explanation": "L'air est composé d'environ 78 % d'azote, 21 % d'oxygène, près de 1 % d'argon et d'environ 0,04 % de dioxyde de carbone.",
+   "tip": "Retiens « 78-21 » : 78 % d'azote, 21 % d'oxygène.",
+   "extraExample": {
+    "text": "L'azote ne nous sert pas à respirer : on le rejette tel quel.",
+    "translation": "Les plantes l'utilisent, grâce à des bactéries du sol."
+   },
+   "errorPatterns": [
+    {
+     "equals": "l'oxygène",
+     "category": "word_confusion",
+     "feedback": "C'est une idée reçue : l'oxygène ne fait qu'environ 21 % de l'air ; l'azote en fait environ 78 %."
+    },
+    {
+     "equals": "le dioxyde de carbone",
+     "category": "word_confusion",
+     "feedback": "Le CO₂ est très minoritaire (environ 0,04 %), même s'il joue un grand rôle dans le climat."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e13",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.dmitri_mendeleiev"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qui a rendu le tableau de Mendeleïev si convaincant ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il a laissé des cases vides et prédit des éléments découverts plus tard.",
+    "Il a découvert lui-même tous les éléments du tableau.",
+    "Il a classé les éléments par ordre alphabétique."
+   ],
+   "answer": "Il a laissé des cases vides et prédit des éléments découverts plus tard.",
+   "acceptedAnswers": [
+    "Il a laissé des cases vides et prédit des éléments découverts plus tard."
+   ],
+   "explanation": "Mendeleïev a osé laisser des trous et décrire à l'avance les propriétés d'éléments inconnus. La découverte du gallium (1875) et du germanium (1886), conformes à ses prédictions, a convaincu les chimistes.",
+   "tip": "Une bonne théorie ne fait pas que ranger : elle prédit.",
+   "extraExample": {
+    "text": "Le gallium fond à environ 30 °C.",
+    "translation": "Il peut fondre dans la main."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il a découvert lui-même tous les éléments du tableau.",
+     "category": "word_confusion",
+     "feedback": "Mendeleïev a classé des éléments déjà connus (environ 60) ; sa force a été de prévoir ceux qui manquaient."
+    },
+    {
+     "equals": "Il a classé les éléments par ordre alphabétique.",
+     "category": "word_confusion",
+     "feedback": "Le tableau classe les éléments par numéro atomique (à l'époque, par masse) et par propriétés, pas par ordre alphabétique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e14",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.etats_de_la_matiere"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Au niveau de la mer, l'eau pure bout à ___ °C.",
+   "promptLanguage": "fr",
+   "options": [
+    "0",
+    "37",
+    "100",
+    "273"
+   ],
+   "answer": "100",
+   "acceptedAnswers": [
+    "100",
+    "cent"
+   ],
+   "explanation": "À la pression du niveau de la mer, l'eau bout à 100 °C et gèle à 0 °C. En altitude, la pression est plus faible et l'eau bout à une température plus basse.",
+   "tip": "0 °C : la glace ; 100 °C : l'ébullition.",
+   "extraExample": {
+    "text": "Au sommet du mont Blanc, l'eau bout vers 85 °C.",
+    "translation": "Les pâtes y cuisent donc plus lentement."
+   },
+   "errorPatterns": [
+    {
+     "equals": "273",
+     "category": "word_confusion",
+     "feedback": "273 correspond à 0 °C exprimé en kelvins ; l'eau bout à 100 °C."
+    },
+    {
+     "equals": "37",
+     "category": "word_confusion",
+     "feedback": "37 °C, c'est la température du corps humain ; l'eau bout à 100 °C."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e15",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.dmitri_mendeleiev",
+    "cg.v.tableau_periodique"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le tableau périodique.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "publie",
+    "en",
+    "tableau",
+    "1869",
+    "Mendeleïev",
+    "éléments",
+    "des",
+    "périodique",
+    "son"
+   ],
+   "answer": "Mendeleïev publie son tableau périodique des éléments en 1869",
+   "acceptedAnswers": [
+    "Mendeleïev publie son tableau périodique des éléments en 1869",
+    "En 1869 Mendeleïev publie son tableau périodique des éléments"
+   ],
+   "hint": "Commence par le nom du chimiste.",
+   "explanation": "Le repère : Mendeleïev, le tableau périodique, 1869. Il classe les éléments de façon à faire apparaître des « familles » aux propriétés voisines.",
+   "tip": "Qui (Mendeleïev), quoi (le tableau périodique), quand (1869).",
+   "extraExample": {
+    "text": "Dix ans plus tôt, en 1859, Darwin publiait L'Origine des espèces.",
+    "translation": "Le XIXe siècle est le grand siècle des classifications scientifiques."
+   }
+  },
+  {
+   "id": "cg.l20.e16",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.systeme_immunitaire"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel savant français a mis au point le vaccin contre la rage, en 1885 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Louis Pasteur",
+    "Edward Jenner",
+    "Alexander Fleming",
+    "Antoine Lavoisier"
+   ],
+   "answer": "Louis Pasteur",
+   "acceptedAnswers": [
+    "Louis Pasteur"
+   ],
+   "explanation": "Le 6 juillet 1885, Louis Pasteur vaccine le jeune Joseph Meister, mordu par un chien enragé : il survit. C'est le premier vaccin contre la rage chez l'humain.",
+   "tip": "Jenner 1796 (variole), Pasteur 1885 (rage).",
+   "extraExample": {
+    "text": "L'Institut Pasteur est fondé à Paris en 1887.",
+    "translation": "Il est inauguré l'année suivante, en 1888."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Edward Jenner",
+     "category": "word_confusion",
+     "feedback": "Jenner a réalisé la première vaccination, contre la variole, en 1796 ; le vaccin contre la rage est de Pasteur."
+    },
+    {
+     "equals": "Alexander Fleming",
+     "category": "word_confusion",
+     "feedback": "Fleming a découvert la pénicilline en 1928 : c'est un antibiotique, pas un vaccin."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e17",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.tableau_periodique"
+   ],
+   "type": "mcq",
+   "difficulty": 4,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En 2016, les derniers éléments de la 7e ligne du tableau périodique reçoivent leur nom. Combien d'éléments le tableau compte-t-il alors ?",
+   "promptLanguage": "fr",
+   "options": [
+    "92",
+    "103",
+    "118",
+    "150"
+   ],
+   "answer": "118",
+   "acceptedAnswers": [
+    "118"
+   ],
+   "explanation": "Avec la reconnaissance de quatre nouveaux éléments (113, 115, 117 et 118), la 7e ligne du tableau est complète : 118 éléments. Le plus lourd est l'oganesson (numéro 118).",
+   "tip": "118 : le dernier élément porte le numéro 118.",
+   "extraExample": {
+    "text": "Les éléments au-delà de l'uranium (92) sont presque tous fabriqués en laboratoire.",
+    "translation": "Les plus lourds n'existent que quelques fractions de seconde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "92",
+     "category": "word_confusion",
+     "feedback": "92 est le numéro de l'uranium, le plus lourd des éléments présents en quantité notable dans la nature ; le tableau complet en compte 118."
+    },
+    {
+     "equals": "150",
+     "category": "word_confusion",
+     "feedback": "C'est trop : le tableau compte 118 éléments, du numéro 1 (hydrogène) au numéro 118 (oganesson)."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e18",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.ph"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Sur l'échelle du pH, quelle valeur correspond à une solution neutre, comme l'eau pure ?",
+   "promptLanguage": "fr",
+   "answer": "7",
+   "acceptedAnswers": [
+    "7",
+    "sept",
+    "pH 7",
+    "pH de 7"
+   ],
+   "explanation": "L'échelle du pH va de 0 à 14 : 7 correspond à une solution neutre, en dessous elle est acide, au-dessus basique. Le pH a été inventé en 1909 par le chimiste danois Søren Sørensen.",
+   "tip": "7, c'est le milieu de l'échelle de 0 à 14.",
+   "extraExample": {
+    "text": "Le pH de l'estomac est très acide, autour de 1 à 3.",
+    "translation": "Cette acidité aide à digérer et à tuer les microbes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "0",
+     "category": "word_confusion",
+     "feedback": "0 correspond à une solution extrêmement acide ; le neutre, c'est 7."
+    },
+    {
+     "equals": "14",
+     "category": "word_confusion",
+     "feedback": "14 correspond à une solution extrêmement basique ; le neutre, c'est 7, au milieu."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e19",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.antoine_lavoisier"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel chimiste français, guillotiné en 1794, est considéré comme le père de la chimie moderne ?",
+   "promptLanguage": "fr",
+   "answer": "Antoine Lavoisier",
+   "acceptedAnswers": [
+    "Antoine Lavoisier",
+    "Lavoisier",
+    "Antoine Laurent de Lavoisier",
+    "Antoine-Laurent de Lavoisier",
+    "Antoine Laurent Lavoisier"
+   ],
+   "explanation": "Antoine Lavoisier pèse précisément ce qui entre et sort des réactions, explique la combustion par l'oxygène et montre que l'eau est faite d'hydrogène et d'oxygène. Fermier général (collecteur d'impôts), il est guillotiné en 1794, sous la Terreur.",
+   "tip": "Lavoisier = balance + oxygène + conservation de la masse.",
+   "extraExample": {
+    "text": "Lavoisier donne leur nom à l'oxygène et à l'hydrogène.",
+    "translation": "Hydrogène signifie « qui engendre l'eau »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Pasteur",
+     "category": "word_confusion",
+     "feedback": "Pasteur vient un siècle plus tard (XIXe) et n'a pas été guillotiné ; le père de la chimie moderne est Lavoisier."
+    },
+    {
+     "equals": "Louis Pasteur",
+     "category": "word_confusion",
+     "feedback": "Pasteur vient un siècle plus tard (XIXe) et n'a pas été guillotiné ; le père de la chimie moderne est Lavoisier."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e20",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.molecule"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la formule chimique du dioxyde de carbone ?",
+   "promptLanguage": "fr",
+   "answer": "CO2",
+   "acceptedAnswers": [
+    "CO2",
+    "CO₂"
+   ],
+   "explanation": "Le dioxyde de carbone est formé d'un atome de carbone (C) et de deux atomes d'oxygène (O₂) : CO₂. « Di- » signifie deux.",
+   "tip": "Di-oxyde = deux oxygènes : CO₂.",
+   "extraExample": {
+    "text": "Le monoxyde de carbone, CO, n'a qu'un seul oxygène.",
+    "translation": "C'est un gaz toxique, inodore, produit par une mauvaise combustion."
+   },
+   "errorPatterns": [
+    {
+     "equals": "CO",
+     "category": "word_confusion",
+     "feedback": "CO est le monoxyde de carbone (un seul oxygène), un gaz toxique. Le dioxyde de carbone a deux oxygènes : CO2."
+    },
+    {
+     "equals": "C2O",
+     "category": "word_confusion",
+     "feedback": "Le 2 s'applique à l'oxygène, pas au carbone : CO2 (un carbone, deux oxygènes)."
+    },
+    {
+     "equals": "O2",
+     "category": "word_confusion",
+     "feedback": "O2 est le dioxygène, que nous respirons ; le dioxyde de carbone s'écrit CO2."
+    }
+   ]
+  },
+  {
+   "id": "cg.l20.e21",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.zero_absolu"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Dans quelle unité, nommée d'après Lord Kelvin, mesure-t-on la température à partir du zéro absolu ?",
+   "promptLanguage": "fr",
+   "answer": "le kelvin",
+   "acceptedAnswers": [
+    "le kelvin",
+    "kelvin",
+    "kelvins",
+    "K",
+    "les kelvins",
+    "en kelvins"
+   ],
+   "explanation": "L'échelle kelvin commence au zéro absolu (0 K = -273,15 °C). Un écart de 1 kelvin est égal à un écart de 1 degré Celsius.",
+   "tip": "Pour passer des °C aux K, ajoute 273.",
+   "extraExample": {
+    "text": "La surface du Soleil est à environ 5 800 K.",
+    "translation": "Soit environ 5 500 °C."
+   },
+   "errorPatterns": [
+    {
+     "equals": "degré Celsius",
+     "category": "word_confusion",
+     "feedback": "Le degré Celsius part de la glace (0 °C) ; l'échelle qui part du zéro absolu, c'est le kelvin."
+    },
+    {
+     "equals": "degrés Celsius",
+     "category": "word_confusion",
+     "feedback": "Le degré Celsius part de la glace (0 °C) ; l'échelle qui part du zéro absolu, c'est le kelvin."
+    }
+   ]
+  }
+ ]
+}

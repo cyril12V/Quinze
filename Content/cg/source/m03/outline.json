@@ -1,0 +1,684 @@
+{
+ "module": {
+  "id": 3,
+  "title": "Sciences et technologies",
+  "description": "Les repères essentiels des sciences : corps humain, vivant, physique, chimie, espace, Terre et climat, informatique et intelligence artificielle."
+ },
+ "grammarUnits": [
+  {
+   "id": "cg.g17.corps_humain",
+   "category": "knowledge",
+   "title": "Le corps humain",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g18.cellule_adn_evolution",
+   "category": "knowledge",
+   "title": "La cellule, l'ADN et l'évolution",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g19.physique",
+   "category": "knowledge",
+   "title": "Forces, énergie et lumière",
+   "difficulty": 3,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g20.chimie",
+   "category": "knowledge",
+   "title": "Atomes, molécules et éléments",
+   "difficulty": 3,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g21.espace",
+   "category": "knowledge",
+   "title": "L'espace et la conquête spatiale",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g19.physique"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g22.terre",
+   "category": "knowledge",
+   "title": "La Terre et le climat",
+   "difficulty": 3,
+   "prerequisites": [
+    "cg.g20.chimie"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g23.informatique",
+   "category": "knowledge",
+   "title": "L'informatique et Internet",
+   "difficulty": 3,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "cg.g24.intelligence_artificielle",
+   "category": "knowledge",
+   "title": "L'intelligence artificielle",
+   "difficulty": 4,
+   "prerequisites": [
+    "cg.g23.informatique"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "cg.l17",
+   "sequence": 17,
+   "title": "Le corps humain : la machine en chiffres",
+   "description": "Les grands systèmes du corps, le rôle des organes clés et les chiffres à connaître (206 os, 5 litres de sang…).",
+   "difficulty": 2,
+   "grammarUnitId": "cg.g17.corps_humain",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le squelette",
+     "slug": "squelette",
+     "translation": "ensemble des 206 os d'un adulte",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le cœur",
+     "slug": "coeur",
+     "translation": "muscle-pompe à quatre cavités qui fait circuler le sang",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la circulation sanguine",
+     "slug": "circulation_sanguine",
+     "translation": "trajet en boucle du sang, pompé par le cœur",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "William Harvey",
+     "slug": "william_harvey",
+     "translation": "médecin anglais qui décrit la circulation du sang (1628)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le globule rouge",
+     "slug": "globule_rouge",
+     "translation": "cellule du sang qui transporte l'oxygène",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'alvéole pulmonaire",
+     "slug": "alveole_pulmonaire",
+     "translation": "minuscule sac des poumons où l'oxygène passe dans le sang",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le neurone",
+     "slug": "neurone",
+     "translation": "cellule nerveuse qui transmet l'information",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la peau",
+     "slug": "peau",
+     "translation": "le plus grand organe du corps humain",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le système immunitaire",
+     "slug": "systeme_immunitaire",
+     "translation": "ensemble des défenses du corps contre les microbes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'hormone",
+     "slug": "hormone",
+     "translation": "messager chimique produit par une glande et transporté par le sang",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "cg.l18",
+   "sequence": 18,
+   "title": "Cellule, ADN et évolution : le code du vivant",
+   "description": "La cellule, l'ADN et les gènes, puis Mendel et l'hérédité, Darwin et la sélection naturelle.",
+   "difficulty": 2,
+   "grammarUnitId": "cg.g18.cellule_adn_evolution",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g17.corps_humain"
+   ],
+   "vocabulary": [
+    {
+     "word": "la cellule",
+     "slug": "cellule",
+     "translation": "unité de base de tous les êtres vivants",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'ADN",
+     "slug": "adn",
+     "translation": "acide désoxyribonucléique : molécule qui porte l'information génétique",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le gène",
+     "slug": "gene",
+     "translation": "portion d'ADN qui permet de fabriquer une protéine",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le chromosome",
+     "slug": "chromosome",
+     "translation": "long filament d'ADN enroulé ; 46 dans une cellule humaine",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la double hélice",
+     "slug": "double_helice",
+     "translation": "forme de la molécule d'ADN, décrite en 1953",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Rosalind Franklin",
+     "slug": "rosalind_franklin",
+     "translation": "chimiste britannique dont les images aux rayons X ont révélé la forme de l'ADN",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Gregor Mendel",
+     "slug": "gregor_mendel",
+     "translation": "moine qui découvre les lois de l'hérédité avec des pois (1865)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Charles Darwin",
+     "slug": "charles_darwin",
+     "translation": "naturaliste anglais, père de la théorie de l'évolution",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la sélection naturelle",
+     "slug": "selection_naturelle",
+     "translation": "mécanisme de l'évolution : les mieux adaptés laissent plus de descendants",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "L'Origine des espèces",
+     "slug": "origine_des_especes",
+     "translation": "livre de Darwin publié en 1859",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "cg.l19",
+   "sequence": 19,
+   "title": "Physique : de la pomme de Newton à E = mc²",
+   "description": "Forces, énergie et lumière ; Galilée, Newton et la gravitation, Einstein et la relativité.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g19.physique",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g17.corps_humain",
+    "cg.g18.cellule_adn_evolution"
+   ],
+   "vocabulary": [
+    {
+     "word": "Isaac Newton",
+     "slug": "isaac_newton",
+     "translation": "savant anglais des lois du mouvement et de la gravitation (1687)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la gravitation",
+     "slug": "gravitation",
+     "translation": "force d'attraction entre toutes les masses",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Galilée",
+     "slug": "galilee",
+     "translation": "savant italien de la chute des corps et de la lunette astronomique",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la force",
+     "slug": "force",
+     "translation": "action qui peut mettre en mouvement ou déformer un objet ; se mesure en newtons",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'énergie",
+     "slug": "energie",
+     "translation": "capacité à produire un travail, de la chaleur ou de la lumière ; se mesure en joules",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la vitesse de la lumière",
+     "slug": "vitesse_de_la_lumiere",
+     "translation": "environ 300 000 km/s dans le vide, la vitesse limite",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Albert Einstein",
+     "slug": "albert_einstein",
+     "translation": "physicien, auteur de la théorie de la relativité",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la relativité",
+     "slug": "relativite",
+     "translation": "théories d'Einstein sur l'espace, le temps et la gravitation (1905, 1915)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "E = mc²",
+     "slug": "e_mc2",
+     "translation": "formule d'Einstein : l'énergie équivaut à la masse fois la vitesse de la lumière au carré",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le zéro absolu",
+     "slug": "zero_absolu",
+     "translation": "température la plus basse possible : 0 kelvin, environ -273 °C",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "cg.l20",
+   "sequence": 20,
+   "title": "Chimie : atomes, molécules et tableau de Mendeleïev",
+   "description": "La structure de l'atome, les éléments et le tableau périodique, les molécules, les états de la matière et le pH.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g20.chimie",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g17.corps_humain",
+    "cg.g18.cellule_adn_evolution",
+    "cg.g19.physique"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'atome",
+     "slug": "atome",
+     "translation": "brique de la matière : un noyau entouré d'électrons",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'électron",
+     "slug": "electron",
+     "translation": "particule de charge négative située autour du noyau",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le numéro atomique",
+     "slug": "numero_atomique",
+     "translation": "nombre de protons du noyau, qui définit l'élément",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la molécule",
+     "slug": "molecule",
+     "translation": "groupe d'atomes liés entre eux (H₂O, CO₂…)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'élément chimique",
+     "slug": "element_chimique",
+     "translation": "type d'atome défini par son nombre de protons (hydrogène, fer, or…)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le tableau périodique",
+     "slug": "tableau_periodique",
+     "translation": "classement des éléments chimiques par numéro atomique",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Dmitri Mendeleïev",
+     "slug": "dmitri_mendeleiev",
+     "translation": "chimiste russe, auteur du tableau périodique (1869)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Antoine Lavoisier",
+     "slug": "antoine_lavoisier",
+     "translation": "chimiste français, père de la chimie moderne (1743-1794)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les états de la matière",
+     "slug": "etats_de_la_matiere",
+     "translation": "solide, liquide et gazeux, et les passages de l'un à l'autre",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le pH",
+     "slug": "ph",
+     "translation": "échelle de 0 à 14 qui mesure l'acidité ; 7 = neutre",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "cg.l21",
+   "sequence": 21,
+   "title": "L'espace : du système solaire aux premiers pas sur la Lune",
+   "description": "Les planètes, les étoiles et les galaxies, le Big Bang, puis la conquête spatiale de Spoutnik (1957) à Apollo 11 (1969).",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g21.espace",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g17.corps_humain",
+    "cg.g18.cellule_adn_evolution",
+    "cg.g19.physique",
+    "cg.g20.chimie"
+   ],
+   "vocabulary": [
+    {
+     "word": "le système solaire",
+     "slug": "systeme_solaire",
+     "translation": "le Soleil et tout ce qui tourne autour, dont huit planètes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'étoile",
+     "slug": "etoile",
+     "translation": "boule de gaz très chaude qui produit sa propre lumière, comme le Soleil",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'année-lumière",
+     "slug": "annee_lumiere",
+     "translation": "distance parcourue par la lumière en un an, environ 9 500 milliards de km",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la Voie lactée",
+     "slug": "voie_lactee",
+     "translation": "notre galaxie, qui contient le système solaire",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "le Big Bang",
+     "slug": "big_bang",
+     "translation": "naissance de l'Univers, il y a environ 13,8 milliards d'années",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Nicolas Copernic",
+     "slug": "nicolas_copernic",
+     "translation": "astronome polonais qui place le Soleil au centre (1543)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Spoutnik 1",
+     "slug": "spoutnik_1",
+     "translation": "premier satellite artificiel, lancé par l'URSS en 1957",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Youri Gagarine",
+     "slug": "youri_gagarine",
+     "translation": "cosmonaute soviétique, premier homme dans l'espace (1961)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Apollo 11",
+     "slug": "apollo_11",
+     "translation": "mission américaine des premiers pas sur la Lune (juillet 1969)",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Neil Armstrong",
+     "slug": "neil_armstrong",
+     "translation": "astronaute américain, premier homme à marcher sur la Lune",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "cg.l22",
+   "sequence": 22,
+   "title": "La Terre : plaques, volcans et climat",
+   "description": "Les couches de la Terre, la tectonique des plaques, les volcans et séismes, l'effet de serre et le réchauffement climatique.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g22.terre",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g19.physique",
+    "cg.g20.chimie",
+    "cg.g21.espace"
+   ],
+   "vocabulary": [
+    {
+     "word": "la croûte terrestre",
+     "slug": "croute_terrestre",
+     "translation": "fine couche rocheuse à la surface de la Terre",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le manteau",
+     "slug": "manteau",
+     "translation": "épaisse couche de roches chaudes sous la croûte",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le noyau terrestre",
+     "slug": "noyau_terrestre",
+     "translation": "centre de la Terre, en fer et nickel : liquide dehors, solide dedans",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la plaque tectonique",
+     "slug": "plaque_tectonique",
+     "translation": "grand morceau rigide de la surface terrestre, qui se déplace",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Alfred Wegener",
+     "slug": "alfred_wegener",
+     "translation": "scientifique allemand de la dérive des continents (1912)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la Pangée",
+     "slug": "pangee",
+     "translation": "supercontinent qui réunissait presque toutes les terres il y a plus de 200 millions d'années",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "le magma",
+     "slug": "magma",
+     "translation": "roche fondue en profondeur ; on l'appelle lave quand elle sort",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'effet de serre",
+     "slug": "effet_de_serre",
+     "translation": "piégeage de la chaleur par certains gaz de l'atmosphère",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le GIEC",
+     "slug": "giec",
+     "translation": "groupe d'experts intergouvernemental sur l'évolution du climat (1988)",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "l'accord de Paris",
+     "slug": "accord_de_paris",
+     "translation": "accord mondial sur le climat adopté à la COP21 (2015)",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "cg.l23",
+   "sequence": 23,
+   "title": "Informatique : du bit au Web",
+   "description": "Bits et octets, processeur et algorithmes, les pionniers (Lovelace, Turing), Internet et le Web de Tim Berners-Lee.",
+   "difficulty": 3,
+   "grammarUnitId": "cg.g23.informatique",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.g20.chimie",
+    "cg.g21.espace",
+    "cg.g22.terre"
+   ],
+   "vocabulary": [
+    {
+     "word": "le bit",
+     "slug": "bit",
+     "translation": "plus petite unité d'information : 0 ou 1",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'octet",
+     "slug": "octet",
+     "translation": "groupe de 8 bits",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'algorithme",
+     "slug": "algorithme",
+     "translation": "suite finie d'instructions pour résoudre un problème",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le processeur",
+     "slug": "processeur",
+     "translation": "composant qui exécute les instructions des programmes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le transistor",
+     "slug": "transistor",
+     "translation": "minuscule interrupteur électronique, inventé en 1947",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Ada Lovelace",
+     "slug": "ada_lovelace",
+     "translation": "mathématicienne anglaise, auteure du premier programme (1843)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Alan Turing",
+     "slug": "alan_turing",
+     "translation": "mathématicien britannique, père de l'informatique théorique",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Internet",
+     "slug": "internet",
+     "translation": "réseau mondial qui relie les réseaux d'ordinateurs",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Web",
+     "slug": "web",
+     "translation": "service d'Internet fait de pages reliées par des liens",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Tim Berners-Lee",
+     "slug": "tim_berners_lee",
+     "translation": "informaticien britannique, inventeur du Web au CERN (1989)",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "cg.l24",
+   "sequence": 24,
+   "title": "Intelligence artificielle : comment les machines apprennent",
+   "description": "Les grandes dates de l'IA, l'apprentissage automatique, les réseaux de neurones et le fonctionnement des grands modèles de langage.",
+   "difficulty": 4,
+   "grammarUnitId": "cg.g24.intelligence_artificielle",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g21.espace",
+    "cg.g22.terre",
+    "cg.g23.informatique"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'intelligence artificielle",
+     "slug": "intelligence_artificielle",
+     "translation": "techniques qui permettent à une machine d'accomplir des tâches dites intelligentes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le test de Turing",
+     "slug": "test_de_turing",
+     "translation": "épreuve où une machine doit passer pour un humain à l'écrit (1950)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la conférence de Dartmouth",
+     "slug": "conference_de_dartmouth",
+     "translation": "réunion de 1956 où naît l'expression « intelligence artificielle »",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'apprentissage automatique",
+     "slug": "apprentissage_automatique",
+     "translation": "méthode où un programme apprend à partir d'exemples (machine learning)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le réseau de neurones",
+     "slug": "reseau_de_neurones",
+     "translation": "programme fait de couches de « neurones » artificiels reliés entre eux",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'apprentissage profond",
+     "slug": "apprentissage_profond",
+     "translation": "apprentissage avec des réseaux de neurones à nombreuses couches (deep learning)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les données d'entraînement",
+     "slug": "donnees_entrainement",
+     "translation": "exemples utilisés pour faire apprendre un modèle",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le grand modèle de langage",
+     "slug": "grand_modele_de_langage",
+     "translation": "IA entraînée sur d'immenses textes pour prédire la suite d'un texte",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'hallucination",
+     "slug": "hallucination",
+     "translation": "réponse fausse ou inventée qu'une IA présente comme vraie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Deep Blue contre Kasparov",
+     "slug": "deep_blue",
+     "translation": "match d'échecs de 1997 où l'ordinateur Deep Blue d'IBM bat le champion du monde",
+     "partOfSpeech": "event"
+    }
+   ]
+  }
+ ]
+}

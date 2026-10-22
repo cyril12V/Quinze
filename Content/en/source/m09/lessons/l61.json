@@ -1,0 +1,901 @@
+{
+ "lessonId": "en.l61",
+ "exercises": [
+  {
+   "id": "en.l61.e01",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.neighbourhood"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "I ___ in this neighbourhood since 2020.",
+   "promptLanguage": "en",
+   "options": [
+    "have lived",
+    "live",
+    "am living",
+    "lived"
+   ],
+   "answer": "have lived",
+   "acceptedAnswers": [
+    "have lived"
+   ],
+   "hint": "La situation a commencé en 2020 et elle dure encore.",
+   "explanation": "En français, on dit « j'habite ici depuis 2020 » au présent. L'anglais, lui, regarde toute la période, de 2020 jusqu'à maintenant : il met le present perfect, have lived.",
+   "tip": "« Depuis » + situation qui dure encore = have / has + participe passé.",
+   "extraExample": {
+    "text": "My parents have lived in Lyon since 1995.",
+    "translation": "Mes parents habitent à Lyon depuis 1995."
+   },
+   "errorPatterns": [
+    {
+     "equals": "live",
+     "category": "verb_tense",
+     "feedback": "C'est le piège n°1 des francophones : avec since, le présent simple est impossible. Il faut le present perfect : I have lived."
+    },
+    {
+     "equals": "am living",
+     "category": "verb_tense",
+     "feedback": "Le présent continu ne s'emploie pas avec since. La période va de 2020 à maintenant : I have lived."
+    },
+    {
+     "equals": "lived",
+     "category": "verb_tense",
+     "feedback": "Lived (past simple) voudrait dire que c'est fini. Avec since, la situation continue : I have lived."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e02",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.decade",
+    "en.v.childhood",
+    "en.v.month"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque expression à sa traduction.",
+   "prompt": "Since, for… ou ago ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "since 2020",
+     "right": "depuis 2020"
+    },
+    {
+     "left": "for a decade",
+     "right": "depuis dix ans"
+    },
+    {
+     "left": "since childhood",
+     "right": "depuis l'enfance"
+    },
+    {
+     "left": "for six months",
+     "right": "depuis six mois"
+    },
+    {
+     "left": "two years ago",
+     "right": "il y a deux ans"
+    }
+   ],
+   "answer": "since 2020 = depuis 2020 ; for a decade = depuis dix ans ; since childhood = depuis l'enfance ; for six months = depuis six mois ; two years ago = il y a deux ans",
+   "acceptedAnswers": [],
+   "explanation": "Since se met devant un point de départ (2020, l'enfance) ; for devant une durée (dix ans, six mois). Ago (il y a) n'est pas « depuis » : il va avec le past simple et un moment fini.",
+   "tip": "Since = à partir de quand ; for = pendant combien de temps ; ago = il y a.",
+   "extraExample": {
+    "text": "I have known her since childhood.",
+    "translation": "Je la connais depuis l'enfance."
+   }
+  },
+  {
+   "id": "en.l61.e03",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.married"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le mot qui convient.",
+   "prompt": "We have been married ___ 2015.",
+   "promptLanguage": "en",
+   "options": [
+    "since",
+    "for",
+    "from",
+    "during"
+   ],
+   "answer": "since",
+   "acceptedAnswers": [
+    "since"
+   ],
+   "hint": "2015 : une durée ou un point de départ ?",
+   "explanation": "2015 est le moment où la situation a commencé : un point de départ. On utilise donc since. Le verbe est au present perfect (have been) car ils sont toujours mariés.",
+   "tip": "Une date, un jour, un événement → since. Une durée → for.",
+   "extraExample": {
+    "text": "She has been married since last summer.",
+    "translation": "Elle est mariée depuis l'été dernier."
+   },
+   "errorPatterns": [
+    {
+     "equals": "for",
+     "category": "preposition",
+     "feedback": "For se met devant une durée (for ten years). 2015 est un point de départ : since 2015."
+    },
+    {
+     "equals": "from",
+     "category": "preposition",
+     "feedback": "From s'emploie avec to (from 2015 to 2020). Pour « depuis » + date, on dit since."
+    },
+    {
+     "equals": "during",
+     "category": "preposition",
+     "feedback": "During veut dire « pendant » + un nom (during the holidays). Pour « depuis » + date : since."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e04",
+   "unitIds": [
+    "en.v.neighbourhood",
+    "en.v.company",
+    "en.v.career",
+    "en.v.university",
+    "en.v.married"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les mots de ton parcours",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "neighbourhood",
+     "right": "le quartier"
+    },
+    {
+     "left": "company",
+     "right": "l'entreprise"
+    },
+    {
+     "left": "career",
+     "right": "la carrière"
+    },
+    {
+     "left": "university",
+     "right": "l'université"
+    },
+    {
+     "left": "married",
+     "right": "marié"
+    }
+   ],
+   "answer": "neighbourhood = le quartier ; company = l'entreprise ; career = la carrière ; university = l'université ; married = marié",
+   "acceptedAnswers": [],
+   "explanation": "Ces mots servent à parler de ton parcours. Attention : company est une entreprise (pas « la compagnie »), et on est married to quelqu'un, pas with.",
+   "tip": "Retiens les mots par paires utiles : my neighbourhood, my company, my career.",
+   "extraExample": {
+    "text": "I have worked for the same company since university.",
+    "translation": "Je travaille dans la même entreprise depuis la fac."
+   }
+  },
+  {
+   "id": "en.l61.e05",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.month"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec for, since, during ou ago.",
+   "prompt": "I have had this car ___ six months.",
+   "promptLanguage": "en",
+   "options": [
+    "for",
+    "since",
+    "during",
+    "ago"
+   ],
+   "answer": "for",
+   "acceptedAnswers": [
+    "for"
+   ],
+   "hint": "Six months : un point de départ ou une durée ?",
+   "explanation": "Six months est une durée. Avec le present perfect, « depuis » + durée se dit for : I have had this car for six months (je l'ai depuis six mois).",
+   "tip": "For + durée (six months, two years, a decade) ; since + point de départ.",
+   "extraExample": {
+    "text": "He has been ill for a week.",
+    "translation": "Il est malade depuis une semaine."
+   },
+   "errorPatterns": [
+    {
+     "equals": "since",
+     "category": "preposition",
+     "feedback": "Since se met devant un point de départ (since March). Six months est une durée : for six months."
+    },
+    {
+     "equals": "during",
+     "category": "preposition",
+     "feedback": "During veut dire « pendant » + un nom (during the meeting). Pour une durée qui continue : for."
+    },
+    {
+     "equals": "ago",
+     "category": "word_confusion",
+     "feedback": "Ago (il y a) s'emploie avec le past simple : I bought it six months ago. Avec have had : for."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e06",
+   "unitIds": [
+    "en.g42.present_perfect_for_since"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne question.",
+   "prompt": "How long ___ Tom?",
+   "promptLanguage": "en",
+   "options": [
+    "have you known",
+    "do you know",
+    "are you knowing",
+    "you have known"
+   ],
+   "answer": "have you known",
+   "acceptedAnswers": [
+    "have you known"
+   ],
+   "hint": "« Depuis combien de temps connais-tu Tom ? » : la situation dure encore.",
+   "explanation": "Pour demander « depuis combien de temps », on utilise How long + present perfect : How long have you known Tom? Have passe devant le sujet, comme dans toute question.",
+   "tip": "« Depuis combien de temps… ? » = How long have / has + sujet + participe passé ?",
+   "extraExample": {
+    "text": "How long has she worked here?",
+    "translation": "Depuis combien de temps travaille-t-elle ici ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "do you know",
+     "category": "verb_tense",
+     "feedback": "How long + présent simple est un calque du français. Il faut le present perfect : How long have you known Tom?"
+    },
+    {
+     "equals": "are you knowing",
+     "category": "grammar",
+     "feedback": "Know est un verbe d'état : jamais de -ing. Et avec How long, il faut le present perfect : have you known."
+    },
+    {
+     "equals": "you have known",
+     "category": "word_order",
+     "feedback": "Dans une question, have se place devant le sujet : How long have you known…?"
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e07",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.university"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe know (connaître) à la bonne forme.",
+   "prompt": "I ___ Ben since university.",
+   "promptLanguage": "en",
+   "options": [
+    "have known",
+    "know",
+    "knew",
+    "am knowing"
+   ],
+   "answer": "have known",
+   "acceptedAnswers": [
+    "have known"
+   ],
+   "hint": "Tu connais Ben depuis la fac, et tu le connais toujours.",
+   "explanation": "Avec since et une situation qui dure encore, on met le present perfect : have known (know, knew, known). Know est un verbe d'état : il n'a pas de forme en -ing.",
+   "tip": "Je connais… depuis = I have known… since / for.",
+   "extraExample": {
+    "text": "We have known each other for twenty years.",
+    "translation": "Nous nous connaissons depuis vingt ans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "know",
+     "category": "verb_tense",
+     "feedback": "« Je connais Ben depuis la fac » : en anglais, pas de présent avec since. Il faut have known."
+    },
+    {
+     "equals": "knew",
+     "category": "verb_tense",
+     "feedback": "Knew (past simple) parle d'un moment fini. Avec since, la situation continue : have known."
+    },
+    {
+     "equals": "am knowing",
+     "category": "grammar",
+     "feedback": "Know est un verbe d'état : on ne dit jamais knowing ici. Il faut have known."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e08",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.company",
+    "en.v.married"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le texte et choisis la bonne réponse.",
+   "prompt": "How long has Lucy worked for her company?",
+   "promptLanguage": "en",
+   "context": "Hi, I'm Lucy. I moved to Bristol in 2019. I started working for a small company in 2021 and I love my job. I have been married to Sam for three years.",
+   "options": [
+    "Since 2021.",
+    "For 2021.",
+    "Since three years.",
+    "In 2019."
+   ],
+   "answer": "Since 2021.",
+   "acceptedAnswers": [
+    "Since 2021."
+   ],
+   "hint": "Cherche l'année où elle a commencé à travailler.",
+   "explanation": "Lucy a commencé son travail en 2021 et elle y travaille toujours : la réponse donne le point de départ avec since. For s'emploierait avec une durée (for three years).",
+   "tip": "How long…? → since + point de départ, ou for + durée.",
+   "extraExample": {
+    "text": "How long has Sam lived in Bristol? — Since 2019.",
+    "translation": "Depuis quand Sam habite-t-il à Bristol ? — Depuis 2019."
+   },
+   "errorPatterns": [
+    {
+     "equals": "For 2021.",
+     "category": "preposition",
+     "feedback": "For se met devant une durée, pas devant une date. Avec 2021, on dit since."
+    },
+    {
+     "equals": "Since three years.",
+     "category": "preposition",
+     "feedback": "Since ne se met jamais devant une durée : on dit for three years (ou since 2021)."
+    },
+    {
+     "equals": "In 2019.",
+     "category": "instruction",
+     "feedback": "Relis le texte : 2019 est l'année où Lucy est arrivée à Bristol, pas celle où elle a commencé son travail."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e09",
+   "unitIds": [
+    "en.g34.prepositions_time",
+    "en.v.career"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne préposition.",
+   "prompt": "I started my career ___ 2015.",
+   "promptLanguage": "en",
+   "options": [
+    "in",
+    "on",
+    "at",
+    "since"
+   ],
+   "answer": "in",
+   "acceptedAnswers": [
+    "in"
+   ],
+   "hint": "Started est au past simple : c'est un moment fini.",
+   "explanation": "Avec le past simple (started), on donne simplement le moment : in + année. Since ne va pas avec un verbe au past simple : il demande le present perfect (I have worked here since 2015).",
+   "tip": "Moment fini : in 2015. Situation qui dure : have + participe passé + since 2015.",
+   "extraExample": {
+    "text": "She graduated in 2018.",
+    "translation": "Elle a eu son diplôme en 2018."
+   },
+   "errorPatterns": [
+    {
+     "equals": "since",
+     "category": "verb_tense",
+     "feedback": "Since va avec le present perfect (I have worked since 2015). Avec started, au past simple, on dit simplement in 2015."
+    },
+    {
+     "equals": "on",
+     "category": "preposition",
+     "feedback": "On s'emploie avec un jour (on Monday). Avec une année : in."
+    },
+    {
+     "equals": "at",
+     "category": "preposition",
+     "feedback": "At s'emploie avec une heure (at six). Avec une année : in."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e10",
+   "unitIds": [
+    "en.g39.present_perfect_intro"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Anna isn't here: she has ___ to Rome for the weekend.",
+   "promptLanguage": "en",
+   "options": [
+    "gone",
+    "been",
+    "went"
+   ],
+   "answer": "gone",
+   "acceptedAnswers": [
+    "gone"
+   ],
+   "hint": "Anna est encore à Rome en ce moment.",
+   "explanation": "Has gone to = elle est partie et elle n'est pas encore revenue. Has been to voudrait dire qu'elle y est allée et qu'elle est revenue.",
+   "tip": "Gone = parti (et encore là-bas) ; been = allé (et revenu).",
+   "extraExample": {
+    "text": "Tom has gone to the gym. He'll be back at six.",
+    "translation": "Tom est parti à la salle de sport. Il revient à six heures."
+   },
+   "errorPatterns": [
+    {
+     "equals": "been",
+     "category": "word_confusion",
+     "feedback": "Has been to = elle y est allée et elle est revenue. Ici, Anna est encore à Rome : has gone."
+    },
+    {
+     "equals": "went",
+     "category": "conjugation",
+     "feedback": "Après has, il faut le participe passé : gone (go, went, gone)."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e11",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.doctor"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le mot qui convient.",
+   "prompt": "I have wanted to be a doctor ___ I was a child.",
+   "promptLanguage": "en",
+   "options": [
+    "since",
+    "for",
+    "when",
+    "ago"
+   ],
+   "answer": "since",
+   "acceptedAnswers": [
+    "since"
+   ],
+   "hint": "« Depuis que j'étais enfant ».",
+   "explanation": "Since peut aussi introduire une proposition : since I was a child (depuis que j'étais enfant). Le verbe principal reste au present perfect (have wanted), et la proposition après since est au past simple.",
+   "tip": "Since + sujet + past simple : since I was a child, since we met.",
+   "extraExample": {
+    "text": "We have been friends since we met at university.",
+    "translation": "Nous sommes amis depuis notre rencontre à l'université."
+   },
+   "errorPatterns": [
+    {
+     "equals": "for",
+     "category": "preposition",
+     "feedback": "For se met devant une durée. I was a child est un point de départ : since."
+    },
+    {
+     "equals": "when",
+     "category": "verb_tense",
+     "feedback": "When + past simple donne un moment fini, impossible avec have wanted. « Depuis que » = since."
+    },
+    {
+     "equals": "ago",
+     "category": "word_confusion",
+     "feedback": "Ago suit une durée (ten years ago) et va avec le past simple. « Depuis que » = since."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e12",
+   "unitIds": [
+    "en.g42.present_perfect_for_since"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "J'habite à Londres depuis 2019.",
+   "promptLanguage": "fr",
+   "answer": "I have lived in London since 2019.",
+   "acceptedAnswers": [
+    "I have lived in London since 2019.",
+    "I have been living in London since 2019."
+   ],
+   "hint": "Une situation qui a commencé en 2019 et qui dure encore.",
+   "explanation": "La situation dure toujours : l'anglais met le present perfect, I have lived (ou I have been living). 2019 est un point de départ : since.",
+   "tip": "Ne traduis jamais « j'habite… depuis » par I live… since.",
+   "extraExample": {
+    "text": "He has lived in Paris since he was twenty.",
+    "translation": "Il habite à Paris depuis ses vingt ans."
+   },
+   "errorPatterns": [
+    {
+     "contains": "i live in london since",
+     "category": "verb_tense",
+     "feedback": "« J'habite… depuis » : la situation dure encore, donc present perfect. On dit I have lived in London since 2019, jamais I live… since."
+    },
+    {
+     "contains": "i am living in london since",
+     "category": "verb_tense",
+     "feedback": "Le présent continu ne va pas avec since. Il faut I have lived (ou I have been living)."
+    },
+    {
+     "contains": "for 2019",
+     "category": "preposition",
+     "feedback": "2019 est un point de départ : since 2019. For s'emploie avec une durée (for five years)."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e13",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.company"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Elle travaille pour cette entreprise depuis dix ans.",
+   "promptLanguage": "fr",
+   "answer": "She has worked for this company for ten years.",
+   "acceptedAnswers": [
+    "She has worked for this company for ten years.",
+    "She has worked for this company for a decade.",
+    "She has worked for that company for ten years.",
+    "She has worked for that company for a decade.",
+    "She has worked at this company for ten years.",
+    "She has worked at this company for a decade.",
+    "She has worked at that company for ten years.",
+    "She has worked at that company for a decade.",
+    "She has been working for this company for ten years.",
+    "She has been working for this company for a decade.",
+    "She has been working for that company for ten years.",
+    "She has been working for that company for a decade.",
+    "She has been working at this company for ten years.",
+    "She has been working at this company for a decade.",
+    "She has been working at that company for ten years.",
+    "She has been working at that company for a decade."
+   ],
+   "hint": "Dix ans est une durée.",
+   "explanation": "Elle y travaille toujours : present perfect, she has worked (ou has been working). Dix ans est une durée : for ten years.",
+   "tip": "Durée + situation qui dure = has + participe passé + for.",
+   "extraExample": {
+    "text": "They have worked together for five years.",
+    "translation": "Ils travaillent ensemble depuis cinq ans."
+   },
+   "errorPatterns": [
+    {
+     "contains": "she works",
+     "category": "verb_tense",
+     "feedback": "« Elle travaille… depuis » : en anglais, pas de présent. Il faut she has worked."
+    },
+    {
+     "contains": "since ten years",
+     "category": "preposition",
+     "feedback": "Since ne se met jamais devant une durée. Ten years est une durée : for ten years."
+    },
+    {
+     "contains": "she have",
+     "category": "grammar",
+     "feedback": "Avec she, l'auxiliaire est has : she has worked."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e14",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.company"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Depuis combien de temps travailles-tu pour cette entreprise ?",
+   "promptLanguage": "fr",
+   "tokens": [
+    "have",
+    "long",
+    "worked",
+    "this",
+    "company",
+    "you",
+    "for",
+    "How"
+   ],
+   "answer": "How long have you worked for this company?",
+   "acceptedAnswers": [
+    "How long have you worked for this company?"
+   ],
+   "hint": "How long + have + sujet + participe passé.",
+   "explanation": "How long ouvre la question ; have passe devant le sujet you ; puis vient le participe passé worked.",
+   "tip": "How long have you + participe passé… ?",
+   "extraExample": {
+    "text": "How long have they been married?",
+    "translation": "Depuis combien de temps sont-ils mariés ?"
+   }
+  },
+  {
+   "id": "en.l61.e15",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.childhood",
+    "en.v.friend"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Nous sommes amis depuis l'enfance.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "since",
+    "have",
+    "childhood",
+    "We",
+    "friends",
+    "been"
+   ],
+   "answer": "We have been friends since childhood.",
+   "acceptedAnswers": [
+    "We have been friends since childhood."
+   ],
+   "hint": "« Nous sommes amis depuis… » : be au present perfect.",
+   "explanation": "« Être » au present perfect se dit have been. Since se place devant le point de départ, childhood (l'enfance).",
+   "tip": "Être… depuis = have / has been… since / for.",
+   "extraExample": {
+    "text": "She has been my best friend since school.",
+    "translation": "C'est ma meilleure amie depuis l'école."
+   }
+  },
+  {
+   "id": "en.l61.e16",
+   "unitIds": [
+    "en.g21.past_simple_regular",
+    "en.v.ago",
+    "en.v.move",
+    "en.v.month"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Il a déménagé il y a deux mois.",
+   "promptLanguage": "fr",
+   "answer": "He moved two months ago.",
+   "acceptedAnswers": [
+    "He moved two months ago.",
+    "He moved house two months ago."
+   ],
+   "hint": "« Il y a » + durée = ago, à la fin.",
+   "explanation": "Ago donne un moment fini dans le passé : on utilise le past simple, moved. Ne confonds pas ago (il y a, past simple) et for / since (depuis, present perfect).",
+   "tip": "Durée + ago = moment fini = past simple.",
+   "extraExample": {
+    "text": "We met three years ago.",
+    "translation": "Nous nous sommes rencontrés il y a trois ans."
+   },
+   "errorPatterns": [
+    {
+     "contains": "has moved two months ago",
+     "category": "verb_tense",
+     "feedback": "Ago donne un moment précis : past simple, he moved. Pas de present perfect avec ago."
+    },
+    {
+     "contains": "since two months",
+     "category": "preposition",
+     "feedback": "« Il y a deux mois » se dit two months ago, pas since."
+    },
+    {
+     "contains": "there are two months",
+     "category": "word_confusion",
+     "feedback": "« Il y a » + durée passée se dit ago, après la durée : two months ago."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e17",
+   "unitIds": [
+    "en.g42.present_perfect_for_since",
+    "en.v.married",
+    "en.v.decade"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "We have been married for a decade.",
+   "promptLanguage": "en",
+   "answer": "Nous sommes mariés depuis dix ans.",
+   "acceptedAnswers": [
+    "Nous sommes mariés depuis dix ans.",
+    "Nous sommes mariés depuis 10 ans.",
+    "Nous sommes mariés depuis une décennie.",
+    "Nous sommes mariées depuis dix ans.",
+    "Nous sommes mariées depuis 10 ans.",
+    "Nous sommes mariées depuis une décennie.",
+    "On est mariés depuis dix ans.",
+    "On est mariés depuis 10 ans.",
+    "On est mariés depuis une décennie.",
+    "On est mariées depuis dix ans.",
+    "On est mariées depuis 10 ans.",
+    "On est mariées depuis une décennie.",
+    "Ça fait dix ans que nous sommes mariés.",
+    "Ça fait dix ans que nous sommes mariées.",
+    "Ça fait dix ans qu'on est mariés.",
+    "Ça fait dix ans qu'on est mariées.",
+    "Ça fait 10 ans que nous sommes mariés.",
+    "Ça fait 10 ans que nous sommes mariées.",
+    "Ça fait 10 ans qu'on est mariés.",
+    "Ça fait 10 ans qu'on est mariées.",
+    "Cela fait dix ans que nous sommes mariés.",
+    "Cela fait dix ans que nous sommes mariées.",
+    "Cela fait dix ans qu'on est mariés.",
+    "Cela fait dix ans qu'on est mariées.",
+    "Cela fait 10 ans que nous sommes mariés.",
+    "Cela fait 10 ans que nous sommes mariées.",
+    "Cela fait 10 ans qu'on est mariés.",
+    "Cela fait 10 ans qu'on est mariées."
+   ],
+   "hint": "Ils sont toujours mariés.",
+   "explanation": "Have been married for a decade décrit une situation qui dure encore : en français, on la traduit au présent avec « depuis ». A decade = dix ans.",
+   "tip": "Present perfect + for / since → présent + « depuis » en français.",
+   "extraExample": {
+    "text": "I have known her for ages.",
+    "translation": "Je la connais depuis une éternité."
+   },
+   "errorPatterns": [
+    {
+     "contains": "avons été mariés",
+     "category": "verb_tense",
+     "feedback": "Ils sont toujours mariés : en français, on met le présent avec « depuis » : nous sommes mariés depuis dix ans."
+    },
+    {
+     "contains": "pendant dix ans",
+     "category": "preposition",
+     "feedback": "Avec le present perfect, for se traduit par « depuis » : la situation continue. « Pendant » suggérerait qu'elle est finie."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e18",
+   "unitIds": [
+    "en.g42.present_perfect_for_since"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Je le connais depuis six mois » ?",
+   "promptLanguage": "fr",
+   "answer": "I have known him for six months.",
+   "acceptedAnswers": [
+    "I have known him for six months.",
+    "I have known him for half a year."
+   ],
+   "hint": "Connaître = know, know, knew, known.",
+   "explanation": "Tu le connais toujours : present perfect, I have known. Six mois est une durée : for six months. Know est un verbe d'état : pas de forme -ing.",
+   "tip": "Je connais… depuis + durée = I have known… for.",
+   "extraExample": {
+    "text": "She has known her neighbours for a year.",
+    "translation": "Elle connaît ses voisins depuis un an."
+   },
+   "errorPatterns": [
+    {
+     "contains": "i know him for",
+     "category": "verb_tense",
+     "feedback": "Pas de présent avec « depuis » en anglais : I have known him for six months."
+    },
+    {
+     "contains": "since six months",
+     "category": "preposition",
+     "feedback": "Six months est une durée : for six months. Since se met devant un point de départ."
+    },
+    {
+     "contains": "been knowing",
+     "category": "grammar",
+     "feedback": "Know est un verbe d'état : pas de -ing. On dit I have known him."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e19",
+   "unitIds": [
+    "en.g23.past_simple_negative_questions",
+    "en.v.start"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la question en anglais.",
+   "prompt": "Comment demande-t-on « Quand as-tu commencé à travailler ici ? » ?",
+   "promptLanguage": "fr",
+   "answer": "When did you start working here?",
+   "acceptedAnswers": [
+    "When did you start working here?",
+    "When did you start to work here?",
+    "When did you begin working here?",
+    "When did you begin to work here?"
+   ],
+   "hint": "When… ? demande un moment précis.",
+   "explanation": "When demande un moment précis du passé : la question se fait au past simple avec did, et le verbe reste à la forme de base (start). Pour « depuis combien de temps », tu dirais How long have you worked here?",
+   "tip": "When…? → did ; How long…? → have + participe passé.",
+   "extraExample": {
+    "text": "When did you move to London?",
+    "translation": "Quand as-tu déménagé à Londres ?"
+   },
+   "errorPatterns": [
+    {
+     "contains": "when have you started",
+     "category": "verb_tense",
+     "feedback": "When demande un moment précis : past simple avec did, pas le present perfect."
+    },
+    {
+     "contains": "when you started",
+     "category": "grammar",
+     "feedback": "Dans une question au past simple, il faut did : When did you start…?"
+    },
+    {
+     "contains": "did you started",
+     "category": "conjugation",
+     "feedback": "Après did, le verbe reste à la forme de base : start, pas started."
+    }
+   ]
+  },
+  {
+   "id": "en.l61.e20",
+   "unitIds": [
+    "en.g42.present_perfect_for_since"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase vraie sur toi en anglais, avec for ou since.",
+   "prompt": "Parle de l'endroit où tu habites, de ton travail ou d'une personne que tu connais depuis longtemps.",
+   "promptLanguage": "fr",
+   "answer": "I have lived in Lyon since 2018.",
+   "acceptedAnswers": [
+    "I have lived in Lyon since 2018.",
+    "I have worked for my company for five years.",
+    "I have known my best friend since childhood.",
+    "We have been married for twelve years."
+   ],
+   "requirements": {
+    "mustInclude": [
+     [
+      "for",
+      "since"
+     ],
+     [
+      "have",
+      "has"
+     ]
+    ],
+    "minWords": 6
+   },
+   "hint": "Have / has + participe passé, puis for + durée ou since + point de départ.",
+   "explanation": "Pour une situation qui a commencé dans le passé et qui dure encore, on utilise le present perfect : have / has + participe passé. Since se met devant le point de départ, for devant la durée.",
+   "tip": "Relis-toi : pas de présent simple avec for ou since.",
+   "extraExample": {
+    "text": "I have been a teacher for fifteen years.",
+    "translation": "Je suis professeur depuis quinze ans."
+   },
+   "errorPatterns": [
+    {
+     "contains": "i live here since",
+     "category": "verb_tense",
+     "feedback": "Avec since, pas de présent : I have lived here since…"
+    },
+    {
+     "contains": "i work here since",
+     "category": "verb_tense",
+     "feedback": "Avec since, pas de présent : I have worked here since…"
+    }
+   ]
+  }
+ ]
+}

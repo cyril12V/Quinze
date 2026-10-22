@@ -1,0 +1,790 @@
+{
+ "lessonId": "cg.l10",
+ "exercises": [
+  {
+   "id": "cg.l10.e01",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.berne",
+    "cg.v.amsterdam",
+    "cg.v.varsovie",
+    "cg.v.vienne",
+    "cg.v.reykjavik"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque pays à sa capitale.",
+   "prompt": "Capitales d'Europe : les pièges",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Suisse",
+     "right": "Berne"
+    },
+    {
+     "left": "Pays-Bas",
+     "right": "Amsterdam"
+    },
+    {
+     "left": "Pologne",
+     "right": "Varsovie"
+    },
+    {
+     "left": "Autriche",
+     "right": "Vienne"
+    },
+    {
+     "left": "Islande",
+     "right": "Reykjavik"
+    }
+   ],
+   "answer": "Suisse = Berne ; Pays-Bas = Amsterdam ; Pologne = Varsovie ; Autriche = Vienne ; Islande = Reykjavik",
+   "acceptedAnswers": [],
+   "explanation": "Dans ces pays, la capitale n'est pas toujours la ville la plus connue : Zurich, Rotterdam ou Cracovie sont célèbres, mais les capitales sont Berne, Amsterdam et Varsovie.",
+   "tip": "Associe le pays à sa capitale, pas à sa ville la plus célèbre.",
+   "extraExample": {
+    "text": "La Haye accueille le gouvernement néerlandais, mais la capitale reste Amsterdam.",
+    "translation": "Une capitale n'est pas forcément le siège de toutes les institutions."
+   }
+  },
+  {
+   "id": "cg.l10.e02",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.berne"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ville est le siège du gouvernement suisse, la « ville fédérale » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Berne",
+    "Genève",
+    "Zurich",
+    "Lausanne"
+   ],
+   "answer": "Berne",
+   "acceptedAnswers": [
+    "Berne"
+   ],
+   "explanation": "C'est à Berne que siègent le gouvernement et le Parlement suisses. La Constitution parle de « ville fédérale », mais on la considère comme la capitale.",
+   "tip": "Suisse → Berne, même si Zurich et Genève sont plus célèbres.",
+   "extraExample": {
+    "text": "Zurich est la plus grande ville de Suisse.",
+    "translation": "C'est le centre financier du pays, pas sa capitale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Genève",
+     "category": "word_confusion",
+     "feedback": "Genève accueille de nombreuses organisations internationales (ONU, Croix-Rouge), mais le gouvernement siège à Berne."
+    },
+    {
+     "equals": "Zurich",
+     "category": "word_confusion",
+     "feedback": "Zurich est la plus grande ville de Suisse, pas sa capitale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e03",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.varsovie"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale de la Pologne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Varsovie",
+    "Cracovie",
+    "Gdansk",
+    "Prague"
+   ],
+   "answer": "Varsovie",
+   "acceptedAnswers": [
+    "Varsovie"
+   ],
+   "explanation": "Varsovie est la capitale de la Pologne depuis la fin du XVIe siècle. Cracovie, plus au sud, était l'ancienne capitale royale.",
+   "tip": "Pologne → Varsovie ; Cracovie = l'ancienne capitale.",
+   "extraExample": {
+    "text": "La vieille ville de Varsovie a été reconstruite après 1945.",
+    "translation": "Elle avait été presque entièrement détruite pendant la guerre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Cracovie",
+     "category": "word_confusion",
+     "feedback": "Cracovie a été la capitale royale jusqu'à la fin du XVIe siècle ; aujourd'hui, c'est Varsovie."
+    },
+    {
+     "equals": "Prague",
+     "category": "word_confusion",
+     "feedback": "Prague est la capitale de la Tchéquie, voisine de la Pologne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e04",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.bratislava",
+    "cg.v.ljubljana"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale de la Slovaquie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Bratislava",
+    "Ljubljana",
+    "Budapest",
+    "Zagreb"
+   ],
+   "answer": "Bratislava",
+   "acceptedAnswers": [
+    "Bratislava"
+   ],
+   "explanation": "Bratislava, sur le Danube, est la capitale de la Slovaquie. Ljubljana est la capitale de la Slovénie, un autre pays.",
+   "tip": "SlovaQUIE → BratiSLAVA ; SloVÉNIE → LJUBLJANA.",
+   "extraExample": {
+    "text": "Bratislava n'est qu'à une soixantaine de kilomètres de Vienne.",
+    "translation": "Deux capitales voisines sur le même fleuve."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Ljubljana",
+     "category": "word_confusion",
+     "feedback": "Ljubljana est la capitale de la Slovénie : attention aux noms Slovaquie / Slovénie."
+    },
+    {
+     "equals": "Zagreb",
+     "category": "word_confusion",
+     "feedback": "Zagreb est la capitale de la Croatie."
+    },
+    {
+     "equals": "Budapest",
+     "category": "word_confusion",
+     "feedback": "Budapest est la capitale de la Hongrie, plus en aval sur le Danube."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e05",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.vatican"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus petit État du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Vatican",
+    "Monaco",
+    "Saint-Marin",
+    "Le Liechtenstein"
+   ],
+   "answer": "Le Vatican",
+   "acceptedAnswers": [
+    "Le Vatican"
+   ],
+   "explanation": "La Cité du Vatican, enclavée dans Rome, mesure moins d'un demi-kilomètre carré. C'est le siège de l'Église catholique.",
+   "tip": "Vatican = le plus petit ; Monaco = deuxième.",
+   "extraExample": {
+    "text": "Le Vatican est un État indépendant depuis les accords du Latran, en 1929.",
+    "translation": "Il a été créé par un accord entre le Saint-Siège et l'Italie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Monaco",
+     "category": "vocabulary",
+     "feedback": "Monaco est le deuxième plus petit État (environ 2 km²) ; le Vatican fait moins d'un demi-km²."
+    },
+    {
+     "equals": "Saint-Marin",
+     "category": "vocabulary",
+     "feedback": "Saint-Marin, enclavé en Italie, mesure environ 60 km² : beaucoup plus que le Vatican."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e06",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.bruxelles"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quelle ville siège la Commission européenne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Bruxelles",
+    "Strasbourg",
+    "Luxembourg",
+    "Genève"
+   ],
+   "answer": "Bruxelles",
+   "acceptedAnswers": [
+    "Bruxelles"
+   ],
+   "explanation": "La Commission européenne et le Conseil de l'Union européenne siègent à Bruxelles, capitale de la Belgique.",
+   "tip": "Commission européenne = Bruxelles ; Parlement européen = Strasbourg (siège officiel).",
+   "extraExample": {
+    "text": "Bruxelles accueille aussi le siège de l'OTAN.",
+    "translation": "C'est l'un des grands centres de décision internationaux."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Strasbourg",
+     "category": "word_confusion",
+     "feedback": "Strasbourg est le siège officiel du Parlement européen, pas de la Commission."
+    },
+    {
+     "equals": "Luxembourg",
+     "category": "word_confusion",
+     "feedback": "Luxembourg accueille la Cour de justice de l'Union européenne, pas la Commission."
+    },
+    {
+     "equals": "Genève",
+     "category": "vocabulary",
+     "feedback": "Genève n'est pas dans l'Union européenne : la Suisse n'en fait pas partie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e07",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.amsterdam"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Amsterdam est la capitale des Pays-Bas. Mais où siègent le gouvernement et le Parlement ?",
+   "promptLanguage": "fr",
+   "options": [
+    "À La Haye",
+    "À Rotterdam",
+    "À Bruxelles"
+   ],
+   "answer": "À La Haye",
+   "acceptedAnswers": [
+    "À La Haye"
+   ],
+   "explanation": "La Constitution fait d'Amsterdam la capitale, mais le gouvernement, le Parlement et le roi travaillent à La Haye.",
+   "tip": "Pays-Bas : capitale = Amsterdam ; institutions = La Haye.",
+   "extraExample": {
+    "text": "La Haye accueille aussi la Cour internationale de justice.",
+    "translation": "Elle est souvent appelée « ville de la paix et de la justice »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "À Rotterdam",
+     "category": "word_confusion",
+     "feedback": "Rotterdam est le grand port du pays, pas le siège des institutions."
+    },
+    {
+     "equals": "À Bruxelles",
+     "category": "word_confusion",
+     "feedback": "Bruxelles est la capitale de la Belgique, pas des Pays-Bas."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e08",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.reykjavik"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la capitale d'État la plus au nord du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Reykjavik",
+    "Oslo",
+    "Helsinki",
+    "Moscou"
+   ],
+   "answer": "Reykjavik",
+   "acceptedAnswers": [
+    "Reykjavik"
+   ],
+   "explanation": "Reykjavik, capitale de l'Islande, est à environ 64° de latitude nord, plus au nord qu'Helsinki et Oslo (vers 60° N).",
+   "tip": "Islande → Reykjavik, tout en haut de la carte.",
+   "extraExample": {
+    "text": "Wellington, en Nouvelle-Zélande, est à l'inverse la capitale la plus australe.",
+    "translation": "Les deux extrêmes du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Helsinki",
+     "category": "vocabulary",
+     "feedback": "Helsinki est très au nord (60° N), mais Reykjavik l'est davantage (64° N)."
+    },
+    {
+     "equals": "Oslo",
+     "category": "vocabulary",
+     "feedback": "Oslo est vers 60° N, plus au sud que Reykjavik."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e09",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.vienne",
+    "cg.v.bratislava"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Laquelle de ces capitales n'est PAS traversée par le Danube ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Prague",
+    "Vienne",
+    "Budapest",
+    "Bratislava"
+   ],
+   "answer": "Prague",
+   "acceptedAnswers": [
+    "Prague"
+   ],
+   "explanation": "Prague est traversée par la Vltava (la Moldau). Le Danube, lui, passe par Vienne, Bratislava, Budapest et Belgrade.",
+   "tip": "Danube : Vienne, Bratislava, Budapest, Belgrade. Prague : la Vltava.",
+   "extraExample": {
+    "text": "Le compositeur Smetana a célébré la Vltava dans une œuvre célèbre, La Moldau.",
+    "translation": "C'est la rivière de Prague."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Bratislava",
+     "category": "vocabulary",
+     "feedback": "Bratislava est bien sur le Danube, à la frontière de l'Autriche et de la Hongrie."
+    },
+    {
+     "equals": "Budapest",
+     "category": "vocabulary",
+     "feedback": "Budapest est coupée en deux par le Danube : Buda d'un côté, Pest de l'autre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e10",
+   "unitIds": [
+    "cg.g10.europe_capitales"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque pays à sa capitale.",
+   "prompt": "Capitales d'Europe centrale et des Balkans",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Hongrie",
+     "right": "Budapest"
+    },
+    {
+     "left": "Roumanie",
+     "right": "Bucarest"
+    },
+    {
+     "left": "Bulgarie",
+     "right": "Sofia"
+    },
+    {
+     "left": "Croatie",
+     "right": "Zagreb"
+    },
+    {
+     "left": "Serbie",
+     "right": "Belgrade"
+    }
+   ],
+   "answer": "Hongrie = Budapest ; Roumanie = Bucarest ; Bulgarie = Sofia ; Croatie = Zagreb ; Serbie = Belgrade",
+   "acceptedAnswers": [],
+   "explanation": "Ces capitales se confondent facilement. Budapest (Hongrie) et Bucarest (Roumanie) se ressemblent ; Belgrade est sur le Danube, comme Budapest.",
+   "tip": "BUdaPEST = Hongrie ; BUCAREST = Roumanie : ne mélange pas les deux.",
+   "extraExample": {
+    "text": "Budapest est née en 1873 de la fusion de Buda, Óbuda et Pest.",
+    "translation": "Le Danube sépare Buda et Pest."
+   }
+  },
+  {
+   "id": "cg.l10.e11",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.continent"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Moscou est à l'ouest des monts Oural. Sur quel continent se trouve-t-elle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Europe",
+    "L'Asie",
+    "Elle est à cheval sur les deux"
+   ],
+   "answer": "L'Europe",
+   "acceptedAnswers": [
+    "L'Europe"
+   ],
+   "explanation": "La limite conventionnelle entre l'Europe et l'Asie passe par l'Oural. Moscou, à l'ouest, est donc en Europe ; la Sibérie, à l'est, est en Asie.",
+   "tip": "Ouest de l'Oural = Europe ; est de l'Oural = Asie.",
+   "extraExample": {
+    "text": "La Russie est le plus grand pays du monde, à cheval sur deux continents.",
+    "translation": "Mais la plupart des Russes vivent dans sa partie européenne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Asie",
+     "category": "vocabulary",
+     "feedback": "Moscou est à l'ouest de l'Oural, donc en Europe."
+    },
+    {
+     "equals": "Elle est à cheval sur les deux",
+     "category": "vocabulary",
+     "feedback": "C'est la Russie qui est à cheval sur deux continents ; Moscou est entièrement en Europe."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e12",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.vienne"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La capitale de l'Autriche est ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Vienne",
+    "Salzbourg",
+    "Canberra",
+    "Innsbruck"
+   ],
+   "answer": "Vienne",
+   "acceptedAnswers": [
+    "Vienne",
+    "Wien"
+   ],
+   "explanation": "Vienne, sur le Danube, est la capitale de l'Autriche. C'était aussi la capitale de l'empire des Habsbourg.",
+   "tip": "AutRIche → Vienne ; AUSTRALIE → Canberra.",
+   "extraExample": {
+    "text": "Vienne accueille l'un des sièges de l'ONU.",
+    "translation": "Avec New York, Genève et Nairobi."
+   },
+   "hint": "Une capitale sur le Danube.",
+   "errorPatterns": [
+    {
+     "equals": "Canberra",
+     "category": "word_confusion",
+     "feedback": "Canberra est la capitale de l'Australie : attention à la confusion Autriche / Australie."
+    },
+    {
+     "equals": "Salzbourg",
+     "category": "word_confusion",
+     "feedback": "Salzbourg est la ville natale de Mozart, pas la capitale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e13",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.ljubljana"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La capitale de la Slovénie est ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Ljubljana",
+    "Bratislava",
+    "Belgrade"
+   ],
+   "answer": "Ljubljana",
+   "acceptedAnswers": [
+    "Ljubljana"
+   ],
+   "explanation": "Ljubljana est la capitale de la Slovénie, petit pays indépendant depuis 1991 et membre de l'Union européenne depuis 2004.",
+   "tip": "Slovénie → Ljubljana ; Slovaquie → Bratislava.",
+   "extraExample": {
+    "text": "La Slovénie a été le premier pays de l'ex-Yougoslavie à adopter l'euro, en 2007.",
+    "translation": "Elle est voisine de l'Italie et de l'Autriche."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Bratislava",
+     "category": "word_confusion",
+     "feedback": "Bratislava est la capitale de la Slovaquie, pas de la Slovénie."
+    },
+    {
+     "equals": "Belgrade",
+     "category": "word_confusion",
+     "feedback": "Belgrade est la capitale de la Serbie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e14",
+   "unitIds": [
+    "cg.g10.europe_capitales"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Depuis 1990, la capitale de l'Allemagne réunifiée est ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Berlin",
+    "Bonn",
+    "Munich",
+    "Francfort"
+   ],
+   "answer": "Berlin",
+   "acceptedAnswers": [
+    "Berlin"
+   ],
+   "explanation": "Berlin est redevenue la capitale de l'Allemagne lors de la réunification, en 1990. De 1949 à 1990, Bonn était la capitale de la RFA (Allemagne de l'Ouest).",
+   "tip": "Allemagne : Bonn (RFA, 1949-1990), puis Berlin.",
+   "extraExample": {
+    "text": "Le mur de Berlin est tombé le 9 novembre 1989.",
+    "translation": "La réunification a suivi moins d'un an plus tard, le 3 octobre 1990."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Bonn",
+     "category": "vocabulary",
+     "feedback": "Bonn était la capitale de la RFA (Allemagne de l'Ouest) de 1949 à 1990."
+    },
+    {
+     "equals": "Francfort",
+     "category": "word_confusion",
+     "feedback": "Francfort est la capitale financière (siège de la Banque centrale européenne), pas politique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e15",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.ocean_arctique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Au nord, la Russie est bordée par l'océan ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Arctique",
+    "Austral",
+    "Pacifique"
+   ],
+   "answer": "Arctique",
+   "acceptedAnswers": [
+    "Arctique",
+    "l'Arctique"
+   ],
+   "explanation": "La côte nord de la Russie donne sur l'océan Arctique, souvent pris par les glaces sur des milliers de kilomètres.",
+   "tip": "Au nord de la Russie et du Canada : l'Arctique.",
+   "extraExample": {
+    "text": "La route maritime du Nord longe la côte arctique russe.",
+    "translation": "Elle devient plus praticable avec la fonte de la banquise."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Austral",
+     "category": "word_confusion",
+     "feedback": "L'océan Austral est tout au sud, autour de l'Antarctique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e16",
+   "unitIds": [
+    "cg.g10.europe_capitales",
+    "cg.v.bruxelles"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Une phrase-repère sur l'Union européenne.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "à",
+    "La",
+    "Bruxelles",
+    "siège",
+    "Commission",
+    "européenne"
+   ],
+   "answer": "La Commission européenne siège à Bruxelles",
+   "acceptedAnswers": [
+    "La Commission européenne siège à Bruxelles"
+   ],
+   "explanation": "La Commission européenne, qui propose les lois de l'Union, siège à Bruxelles, capitale de la Belgique.",
+   "tip": "Institution + siège à + ville.",
+   "extraExample": {
+    "text": "Le Parlement européen a son siège officiel à Strasbourg.",
+    "translation": "Les institutions européennes sont réparties entre plusieurs villes."
+   }
+  },
+  {
+   "id": "cg.l10.e17",
+   "unitIds": [
+    "cg.g10.europe_capitales"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la capitale du Portugal ?",
+   "promptLanguage": "fr",
+   "answer": "Lisbonne",
+   "acceptedAnswers": [
+    "Lisbonne",
+    "Lisboa"
+   ],
+   "explanation": "Lisbonne, à l'embouchure du Tage, est la capitale du Portugal. C'est la capitale la plus à l'ouest de l'Europe continentale.",
+   "tip": "Portugal → Lisbonne, au bord de l'Atlantique.",
+   "extraExample": {
+    "text": "Lisbonne a été en grande partie détruite par un séisme en 1755.",
+    "translation": "La ville a ensuite été reconstruite selon un plan moderne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "porto",
+     "category": "word_confusion",
+     "feedback": "Porto est la deuxième ville du Portugal, au nord ; la capitale est Lisbonne."
+    },
+    {
+     "equals": "madrid",
+     "category": "word_confusion",
+     "feedback": "Madrid est la capitale de l'Espagne, voisine du Portugal."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e18",
+   "unitIds": [
+    "cg.g10.europe_capitales"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la capitale de la Norvège ?",
+   "promptLanguage": "fr",
+   "answer": "Oslo",
+   "acceptedAnswers": [
+    "Oslo"
+   ],
+   "explanation": "Oslo, au fond d'un fjord, est la capitale de la Norvège. Les capitales scandinaves se confondent souvent : Stockholm (Suède), Copenhague (Danemark), Helsinki (Finlande).",
+   "tip": "Norvège → Oslo ; Suède → Stockholm ; Danemark → Copenhague.",
+   "extraExample": {
+    "text": "Le prix Nobel de la paix est remis chaque année à Oslo.",
+    "translation": "Les autres prix Nobel sont remis à Stockholm."
+   },
+   "errorPatterns": [
+    {
+     "equals": "stockholm",
+     "category": "word_confusion",
+     "feedback": "Stockholm est la capitale de la Suède."
+    },
+    {
+     "equals": "copenhague",
+     "category": "word_confusion",
+     "feedback": "Copenhague est la capitale du Danemark."
+    },
+    {
+     "equals": "helsinki",
+     "category": "word_confusion",
+     "feedback": "Helsinki est la capitale de la Finlande."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e19",
+   "unitIds": [
+    "cg.g10.europe_capitales"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le plus grand pays du monde par la superficie ?",
+   "promptLanguage": "fr",
+   "answer": "La Russie",
+   "acceptedAnswers": [
+    "La Russie",
+    "Russie",
+    "la Fédération de Russie",
+    "Fédération de Russie"
+   ],
+   "explanation": "La Russie couvre environ 17 millions de km², à cheval sur l'Europe et l'Asie, loin devant le Canada (environ 10 millions de km²), deuxième.",
+   "tip": "Russie = n° 1 en superficie, loin devant le Canada.",
+   "extraExample": {
+    "text": "La Russie s'étend sur 11 fuseaux horaires.",
+    "translation": "Quand il est midi à Moscou, il est déjà le soir au Kamtchatka."
+   },
+   "errorPatterns": [
+    {
+     "equals": "canada",
+     "category": "vocabulary",
+     "feedback": "Le Canada est deuxième, avec environ 10 millions de km² ; la Russie en a environ 17 millions."
+    },
+    {
+     "equals": "chine",
+     "category": "vocabulary",
+     "feedback": "La Chine est grande, mais nettement moins que la Russie et le Canada."
+    }
+   ]
+  },
+  {
+   "id": "cg.l10.e20",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.continent"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le plus petit continent ?",
+   "promptLanguage": "fr",
+   "answer": "L'Océanie",
+   "acceptedAnswers": [
+    "L'Océanie",
+    "Océanie"
+   ],
+   "explanation": "L'Océanie, dominée par l'Australie, est le plus petit continent, juste devant l'Europe.",
+   "tip": "Océanie = le plus petit, Europe = juste derrière.",
+   "extraExample": {
+    "text": "L'Océanie regroupe l'Australie, la Nouvelle-Zélande, la Nouvelle-Guinée et des milliers d'îles du Pacifique.",
+    "translation": "Beaucoup d'océan, peu de terres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "europe",
+     "category": "vocabulary",
+     "feedback": "L'Europe est le deuxième plus petit continent, derrière l'Océanie."
+    },
+    {
+     "equals": "l'europe",
+     "category": "vocabulary",
+     "feedback": "L'Europe est le deuxième plus petit continent, derrière l'Océanie."
+    }
+   ]
+  }
+ ]
+}

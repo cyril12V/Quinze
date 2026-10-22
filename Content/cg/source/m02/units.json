@@ -1,0 +1,90 @@
+[
+ {
+  "id": "cg.g09.continents_oceans",
+  "rule": {
+   "summary": "Les terres émergées forment de grands continents entourés de cinq océans ; l'équateur coupe la Terre en deux hémisphères.",
+   "explanation": "Les océans couvrent environ 70 % de la surface de la Terre. On distingue cinq océans : le Pacifique (le plus grand, environ un tiers de la planète), l'Atlantique, l'Indien, l'Austral (autour de l'Antarctique) et l'Arctique (le plus petit, autour du pôle Nord). Les continents sont l'Asie (le plus grand et le plus peuplé), l'Afrique, l'Amérique (souvent coupée en Amérique du Nord et du Sud), l'Antarctique, l'Europe et l'Océanie (le plus petit) ; on en compte 5, 6 ou 7 selon les conventions. L'équateur sépare l'hémisphère Nord de l'hémisphère Sud, et le méridien de Greenwich sépare l'Est de l'Ouest. Entre l'Europe et l'Asie, la limite conventionnelle passe par les monts Oural.",
+   "pattern": "5 océans, du plus grand au plus petit : Pacifique, Atlantique, Indien, Austral, Arctique. Asie = plus grand continent, Océanie = plus petit.",
+   "examples": [
+    {
+     "text": "Le Pacifique couvre environ un tiers de la surface de la Terre.",
+     "translation": "C'est plus que toutes les terres émergées réunies : de loin le plus grand océan."
+    },
+    {
+     "text": "L'Antarctique est un continent ; l'Arctique est un océan gelé.",
+     "translation": "C'est la confusion la plus fréquente sur les pôles."
+    },
+    {
+     "text": "L'équateur traverse notamment l'Équateur, le Brésil, le Kenya et l'Indonésie.",
+     "translation": "Le pays « Équateur » doit son nom à cette ligne."
+    },
+    {
+     "text": "Les monts Oural marquent la limite conventionnelle entre l'Europe et l'Asie.",
+     "translation": "C'est pour cela que la Russie s'étend sur deux continents."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "L'Arctique est un continent.",
+     "right": "L'Arctique est un océan (gelé en surface) ; c'est l'Antarctique qui est un continent.",
+     "why": "Au pôle Nord, il n'y a pas de terre sous la glace : c'est de la banquise posée sur l'océan. Au pôle Sud, la glace recouvre un vrai continent."
+    },
+    {
+     "wrong": "L'Atlantique est le plus grand océan.",
+     "right": "Le Pacifique est le plus grand océan.",
+     "why": "L'Atlantique n'est que le deuxième : le Pacifique, à lui seul, couvre environ un tiers de la Terre."
+    },
+    {
+     "wrong": "Il y a forcément 5 continents.",
+     "right": "On compte 5, 6 ou 7 continents selon les conventions.",
+     "why": "Les 5 anneaux olympiques représentent les « parties du monde » habitées ; on ajoute souvent l'Antarctique, et les pays anglophones séparent Amérique du Nord et du Sud."
+    }
+   ],
+   "tip": "Antarctique = « anti-Arctique » : à l'opposé, au Sud, et c'est une terre."
+  }
+ },
+ {
+  "id": "cg.g10.europe_capitales",
+  "rule": {
+   "summary": "L'Europe compte plus de 40 États ; plusieurs capitales piègent, car la ville la plus célèbre d'un pays n'est pas toujours sa capitale.",
+   "explanation": "La Russie, à cheval sur l'Europe et l'Asie, est le plus grand pays du monde, et le Vatican, enclavé dans Rome, le plus petit. Plusieurs capitales piègent : Berne pour la Suisse (ni Zurich ni Genève), Amsterdam pour les Pays-Bas (le gouvernement siège à La Haye), Varsovie pour la Pologne (pas Cracovie). Bruxelles, capitale de la Belgique, accueille aussi les principales institutions de l'Union européenne. Attention aux noms proches : Bratislava (Slovaquie) et Ljubljana (Slovénie), Budapest (Hongrie) et Bucarest (Roumanie), Autriche (Vienne) et Australie (Canberra). Au nord, Reykjavik (Islande) est la capitale d'État la plus septentrionale du monde.",
+   "pattern": "Suisse → Berne ; Pays-Bas → Amsterdam ; Pologne → Varsovie ; Slovaquie → Bratislava ; Slovénie → Ljubljana ; Islande → Reykjavik",
+   "examples": [
+    {
+     "text": "Berlin est la capitale de l'Allemagne réunifiée depuis 1990 ; avant, Bonn était celle de la RFA.",
+     "translation": "Une capitale peut changer avec l'histoire."
+    },
+    {
+     "text": "Le Danube traverse quatre capitales : Vienne, Bratislava, Budapest et Belgrade.",
+     "translation": "Un fil conducteur pour placer ces capitales sur la carte."
+    },
+    {
+     "text": "Bruxelles accueille la Commission européenne et le Conseil de l'Union européenne.",
+     "translation": "C'est pourquoi on dit « Bruxelles » pour parler des décisions européennes."
+    },
+    {
+     "text": "Le Vatican mesure moins d'un demi-kilomètre carré.",
+     "translation": "C'est le plus petit État du monde, entièrement entouré par Rome."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La capitale de la Suisse est Genève.",
+     "right": "Berne est la « ville fédérale », siège du gouvernement suisse.",
+     "why": "Genève et Zurich sont plus connues, mais c'est à Berne que siègent le gouvernement et le Parlement."
+    },
+    {
+     "wrong": "La capitale de la Slovaquie est Ljubljana.",
+     "right": "La capitale de la Slovaquie est Bratislava ; Ljubljana est celle de la Slovénie.",
+     "why": "Les deux noms de pays se ressemblent : retiens SlovaQUIE → BratiSLAVA, SloVÉNIE → LJUBLJANA."
+    },
+    {
+     "wrong": "La capitale des Pays-Bas est La Haye.",
+     "right": "Amsterdam est la capitale ; La Haye est le siège du gouvernement et du Parlement.",
+     "why": "La Constitution néerlandaise fait d'Amsterdam la capitale, mais les institutions travaillent à La Haye."
+    }
+   ],
+   "tip": "Méfie-toi de la ville la plus célèbre : ce n'est pas toujours la capitale (Zurich, Genève, Cracovie, Rotterdam)."
+  }
+ }
+]

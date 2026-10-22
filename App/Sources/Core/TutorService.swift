@@ -3,8 +3,8 @@ import Observation
 import LearningCore
 
 // CONTRACT FILE — owned by the "services" workstream (B1).
-// Calls the `ai` Edge Function (never the AI provider directly). Never throws: on error,
-// offline or quota exhausted it returns a fallback reply built from local content.
+// Goes through AIClient: straight to Claude with the learner's own key, else the `ai` Edge Function.
+// Never throws: on error, offline or quota exhausted it returns a fallback reply built from local content.
 
 enum TutorDetail: String, Sendable {
     case short, detailed
@@ -104,7 +104,7 @@ final class TutorService {
             request.unitId = unitId
         }
         do {
-            let response: AIExplainResponse = try await ai.call("follow-up", body: request)
+            let response = try await ai.followUp(request, engine: engine)
             return makeReply(response)
         } catch {
             return fallback(after: error, subject: subject, detail: .short, engine: engine,
@@ -119,23 +119,26 @@ final class TutorService {
         let level = store.learner.estimatedLevel ?? 1
         switch subject {
         case .answer(let exerciseId, let answer):
-            return try await ai.call("explain-answer", body: AIExplainAnswerRequest(
+            return try await ai.explainAnswer(AIExplainAnswerRequest(
                 languageCode: code, level: level, exerciseId: exerciseId, userAnswer: answer.truncated(to: 300),
-                detail: detail.rawValue, previousErrorCategories: previousErrorCategories(exerciseId: exerciseId, engine: engine)))
+                detail: detail.rawValue, previousErrorCategories: previousErrorCategories(exerciseId: exerciseId, engine: engine)),
+                engine: engine)
         case .rule(let unitId):
-            return try await ai.call("explain-rule", body: AIExplainRuleRequest(
-                languageCode: code, level: level, unitId: unitId, detail: detail.rawValue))
+            return try await ai.explainRule(AIExplainRuleRequest(
+                languageCode: code, level: level, unitId: unitId, detail: detail.rawValue), engine: engine)
         case .word(let word, let sentence):
-            return try await ai.call("explain-word", body: AIExplainWordRequest(
-                languageCode: code, level: level, word: word, sentence: sentence?.truncated(to: 300), detail: detail.rawValue))
+            return try await ai.explainWord(AIExplainWordRequest(
+                languageCode: code, level: level, word: word, sentence: sentence?.truncated(to: 300), detail: detail.rawValue),
+                engine: engine)
         case .example(let text, let unitId):
             if let unitId {
-                return try await ai.call("explain-rule", body: AIExplainRuleRequest(
-                    languageCode: code, level: level, unitId: unitId, detail: detail.rawValue))
+                return try await ai.explainRule(AIExplainRuleRequest(
+                    languageCode: code, level: level, unitId: unitId, detail: detail.rawValue), engine: engine)
             }
-            return try await ai.call("follow-up", body: AIFollowUpRequest(
+            return try await ai.followUp(AIFollowUpRequest(
                 languageCode: code, level: level, exerciseId: nil, unitId: nil, word: nil, userAnswer: nil,
-                previousExplanation: "", history: [], question: "Explique cette phrase : \(text)".truncated(to: 500)))
+                previousExplanation: "", history: [], question: "Explique cette phrase : \(text)".truncated(to: 500)),
+                engine: engine)
         }
     }
 

@@ -1,0 +1,163 @@
+{
+ "module": {
+  "id": 2,
+  "title": "Géographie du monde",
+  "description": "Continents, océans, pays et capitales, grands repères naturels, climats et population : la carte du monde dans la tête."
+ },
+ "grammarUnits": [
+  {
+   "id": "cg.g09.continents_oceans",
+   "title": "Continents et océans",
+   "difficulty": 1,
+   "prerequisites": [],
+   "category": "knowledge",
+   "functionWords": []
+  },
+  {
+   "id": "cg.g10.europe_capitales",
+   "title": "L'Europe : pays et capitales",
+   "difficulty": 1,
+   "prerequisites": [
+    "cg.g09.continents_oceans"
+   ],
+   "category": "knowledge",
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "cg.l09",
+   "sequence": 9,
+   "title": "Continents et océans : la carte du monde en tête",
+   "description": "Placer les continents, les cinq océans, l'équateur et les deux hémisphères.",
+   "difficulty": 1,
+   "grammarUnitId": "cg.g09.continents_oceans",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "continent",
+     "slug": "continent",
+     "translation": "grande étendue de terre émergée",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "océan Pacifique",
+     "slug": "ocean_pacifique",
+     "translation": "le plus grand et le plus profond des océans",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "océan Atlantique",
+     "slug": "ocean_atlantique",
+     "translation": "océan entre l'Europe, l'Afrique et les Amériques",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "océan Indien",
+     "slug": "ocean_indien",
+     "translation": "océan entre l'Afrique, l'Asie et l'Australie",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "océan Arctique",
+     "slug": "ocean_arctique",
+     "translation": "le plus petit océan, autour du pôle Nord",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "océan Austral",
+     "slug": "ocean_austral",
+     "translation": "océan qui entoure l'Antarctique",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Antarctique",
+     "slug": "antarctique",
+     "translation": "continent glacé autour du pôle Sud",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "équateur",
+     "slug": "equateur",
+     "translation": "ligne imaginaire à égale distance des deux pôles",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "hémisphère",
+     "slug": "hemisphere",
+     "translation": "moitié du globe terrestre",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "cg.l10",
+   "sequence": 10,
+   "title": "L'Europe : capitales et pièges classiques",
+   "description": "Les capitales européennes qui piègent (Berne, Amsterdam, Varsovie…) et quelques records du continent.",
+   "difficulty": 1,
+   "grammarUnitId": "cg.g10.europe_capitales",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g09.continents_oceans"
+   ],
+   "vocabulary": [
+    {
+     "word": "Berne",
+     "slug": "berne",
+     "translation": "siège du gouvernement suisse (« ville fédérale »)",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Amsterdam",
+     "slug": "amsterdam",
+     "translation": "capitale des Pays-Bas",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Bruxelles",
+     "slug": "bruxelles",
+     "translation": "capitale de la Belgique et siège d'institutions européennes",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Varsovie",
+     "slug": "varsovie",
+     "translation": "capitale de la Pologne",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Vienne",
+     "slug": "vienne",
+     "translation": "capitale de l'Autriche",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Bratislava",
+     "slug": "bratislava",
+     "translation": "capitale de la Slovaquie",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Ljubljana",
+     "slug": "ljubljana",
+     "translation": "capitale de la Slovénie",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Reykjavik",
+     "slug": "reykjavik",
+     "translation": "capitale de l'Islande",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Vatican",
+     "slug": "vatican",
+     "translation": "le plus petit État du monde, enclavé dans Rome",
+     "partOfSpeech": "place"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,623 @@
+{
+ "module": {
+  "id": 2,
+  "title": "Les voyelles et les signes",
+  "description": "Lire vite et sans hésiter les mots vocalisés : voyelles brèves et longues, sukun, shadda, tanwin, hamza, article, puis deviner les voyelles absentes."
+ },
+ "grammarUnits": [
+  {
+   "id": "ar.g09.short_vowels",
+   "category": "reading",
+   "title": "Les voyelles brèves : fatha, kasra, damma",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g10.sukun",
+   "category": "reading",
+   "title": "Le sukun et les syllabes fermées",
+   "difficulty": 1,
+   "prerequisites": [
+    "ar.g09.short_vowels"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g11.long_vowels",
+   "category": "reading",
+   "title": "Les voyelles longues (madd) et les diphtongues",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g09.short_vowels",
+    "ar.g10.sukun"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g12.shadda",
+   "category": "reading",
+   "title": "La shadda : la lettre doublée",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g10.sukun"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g13.tanwin",
+   "category": "reading",
+   "title": "Le tanwin : -an, -in, -un",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g09.short_vowels"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g14.hamza_madda",
+   "category": "reading",
+   "title": "La hamza, ses supports et le alif madda",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g11.long_vowels"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g15.article_sun_moon",
+   "category": "reading",
+   "title": "L'article ال : lettres solaires et lunaires",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g12.shadda",
+    "ar.g10.sukun"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g16.reading_unvowelled",
+   "category": "reading",
+   "title": "Lire sans voyelles",
+   "difficulty": 4,
+   "prerequisites": [
+    "ar.g11.long_vowels",
+    "ar.g15.article_sun_moon"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "ar.l09",
+   "sequence": 9,
+   "title": "Les voyelles brèves : fatha, kasra, damma",
+   "description": "Lire une lettre avec a, i ou u, puis des mots entiers syllabe par syllabe.",
+   "difficulty": 1,
+   "grammarUnitId": "ar.g09.short_vowels",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "فَتْحَة",
+     "slug": "fatha",
+     "translation": "fatha (signe de la voyelle a)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "كَسْرَة",
+     "slug": "kasra",
+     "translation": "kasra (signe de la voyelle i)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "ضَمَّة",
+     "slug": "damma",
+     "translation": "damma (signe de la voyelle u)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "وَلَد",
+     "slug": "walad",
+     "translation": "garçon, enfant",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "رَجُل",
+     "slug": "radjul",
+     "translation": "homme",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "يَد",
+     "slug": "yad",
+     "translation": "main",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "فَم",
+     "slug": "fam",
+     "translation": "bouche",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "كَتِف",
+     "slug": "katif",
+     "translation": "épaule",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عُنُق",
+     "slug": "unuq",
+     "translation": "cou",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l10",
+   "sequence": 10,
+   "title": "Le sukun et les syllabes fermées",
+   "description": "Repérer le petit rond qui coupe la voyelle et lire bint, qalb, katabtu d'un seul trait.",
+   "difficulty": 1,
+   "grammarUnitId": "ar.g10.sukun",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g09.short_vowels"
+   ],
+   "vocabulary": [
+    {
+     "word": "سُكُون",
+     "slug": "sukun",
+     "translation": "sukun (signe « pas de voyelle »)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "بِنْت",
+     "slug": "bint",
+     "translation": "fille",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "اِبْن",
+     "slug": "ibn",
+     "translation": "fils",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "طِفْل",
+     "slug": "tifl",
+     "translation": "enfant (petit)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "قَلْب",
+     "slug": "qalb",
+     "translation": "cœur",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "وَجْه",
+     "slug": "wadjh",
+     "translation": "visage",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "رِجْل",
+     "slug": "ridjl",
+     "translation": "jambe, pied",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شَخْص",
+     "slug": "chakhs",
+     "translation": "personne",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "بَطْن",
+     "slug": "batn",
+     "translation": "ventre",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l11",
+   "sequence": 11,
+   "title": "Les voyelles longues : court ou long ?",
+   "description": "Allonger la voyelle avec ا, و, ي et ne pas confondre î avec ay, û avec aw.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g11.long_vowels",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g09.short_vowels",
+    "ar.g10.sukun"
+   ],
+   "vocabulary": [
+    {
+     "word": "مَدّ",
+     "slug": "madd",
+     "translation": "allongement (voyelle longue)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "خَال",
+     "slug": "khal",
+     "translation": "oncle (frère de la mère)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "صَدِيق",
+     "slug": "sadiq",
+     "translation": "ami",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جَار",
+     "slug": "djar",
+     "translation": "voisin",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "لِسَان",
+     "slug": "lisan",
+     "translation": "langue (organe)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَيْن",
+     "slug": "ayn_oeil",
+     "translation": "œil",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "زَوْج",
+     "slug": "zawdj",
+     "translation": "mari, époux",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَجُوز",
+     "slug": "adjuz",
+     "translation": "personne âgée",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ذِرَاع",
+     "slug": "dhira",
+     "translation": "bras",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l12",
+   "sequence": 12,
+   "title": "La shadda : la lettre doublée",
+   "description": "Lire la consonne doublée (djadd, mu3allim) et placer la voyelle qui l'accompagne.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g12.shadda",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g10.sukun",
+    "ar.g11.long_vowels"
+   ],
+   "vocabulary": [
+    {
+     "word": "شَدَّة",
+     "slug": "shadda",
+     "translation": "shadda (signe de la lettre doublée)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "جَدّ",
+     "slug": "djadd",
+     "translation": "grand-père",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جَدَّة",
+     "slug": "djadda",
+     "translation": "grand-mère",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَمّ",
+     "slug": "amm",
+     "translation": "oncle (frère du père)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَمَّة",
+     "slug": "amma",
+     "translation": "tante (sœur du père)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مُعَلِّم",
+     "slug": "muallim",
+     "translation": "enseignant",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "سِنّ",
+     "slug": "sinn",
+     "translation": "dent",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "خَدّ",
+     "slug": "khadd",
+     "translation": "joue",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l13",
+   "sequence": 13,
+   "title": "Le tanwin : -an, -in, -un",
+   "description": "Lire la voyelle finale doublée qui ajoute un n, et son alif muet.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g13.tanwin",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g09.short_vowels",
+    "ar.g12.shadda"
+   ],
+   "vocabulary": [
+    {
+     "word": "تَنْوِين",
+     "slug": "tanwin",
+     "translation": "tanwin (voyelle finale doublée : -an, -in, -un)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "طَالِب",
+     "slug": "talib",
+     "translation": "étudiant",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "طَالِبَة",
+     "slug": "taliba",
+     "translation": "étudiante",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "طَبِيب",
+     "slug": "tabib",
+     "translation": "médecin",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "زَوْجَة",
+     "slug": "zawdja",
+     "translation": "épouse",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "صَدْر",
+     "slug": "sadr",
+     "translation": "poitrine",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ظَهْر",
+     "slug": "zahr",
+     "translation": "dos",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جَبِين",
+     "slug": "djabin",
+     "translation": "front",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l14",
+   "sequence": 14,
+   "title": "La hamza et le alif madda",
+   "description": "Lire la hamza sur ses supports أ إ ؤ ئ ou seule (ء), et le alif madda آ.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g14.hamza_madda",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g11.long_vowels",
+    "ar.g10.sukun"
+   ],
+   "vocabulary": [
+    {
+     "word": "مَدَّة",
+     "slug": "madda",
+     "translation": "madda (signe ~ de آ)",
+     "partOfSpeech": "letter"
+    },
+    {
+     "word": "أَب",
+     "slug": "ab",
+     "translation": "père",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أُمّ",
+     "slug": "umm",
+     "translation": "mère",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أَخ",
+     "slug": "akh",
+     "translation": "frère",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أُخْت",
+     "slug": "ukht",
+     "translation": "sœur",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "رَأْس",
+     "slug": "ras",
+     "translation": "tête",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أُذُن",
+     "slug": "udhun",
+     "translation": "oreille",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَائِلَة",
+     "slug": "aila",
+     "translation": "famille",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "نِسَاء",
+     "slug": "nisa",
+     "translation": "femmes",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "اِمْرَأَة",
+     "slug": "imraa",
+     "translation": "femme",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l15",
+   "sequence": 15,
+   "title": "L'article ال : lettres solaires et lunaires",
+   "description": "Lire al-qamar mais ach-chams : savoir quand le l de l'article disparaît.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g15.article_sun_moon",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g12.shadda",
+    "ar.g14.hamza_madda"
+   ],
+   "vocabulary": [
+    {
+     "word": "لِحْيَة",
+     "slug": "lihya",
+     "translation": "barbe",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "حَاجِب",
+     "slug": "hadjib",
+     "translation": "sourcil",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أُسْرَة",
+     "slug": "usra",
+     "translation": "famille (proche)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "سَاق",
+     "slug": "saq",
+     "translation": "jambe",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "دَم",
+     "slug": "dam",
+     "translation": "sang",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "كَفّ",
+     "slug": "kaff",
+     "translation": "paume (de la main)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ذَقْن",
+     "slug": "dhaqn",
+     "translation": "menton",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شَعْر",
+     "slug": "chaar",
+     "translation": "cheveux",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l16",
+   "sequence": 16,
+   "title": "Lire sans voyelles",
+   "description": "Deviner les voyelles des mots courants quand le texte n'a pas de harakat.",
+   "difficulty": 4,
+   "grammarUnitId": "ar.g16.reading_unvowelled",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g11.long_vowels",
+    "ar.g13.tanwin",
+    "ar.g15.article_sun_moon"
+   ],
+   "vocabulary": [
+    {
+     "word": "إِنْسَان",
+     "slug": "insan",
+     "translation": "être humain",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "حَفِيد",
+     "slug": "hafid",
+     "translation": "petit-fils",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "زَمِيل",
+     "slug": "zamil",
+     "translation": "collègue",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "فَتَاة",
+     "slug": "fatat",
+     "translation": "jeune fille",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شَابّ",
+     "slug": "chabb",
+     "translation": "jeune homme",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "رُكْبَة",
+     "slug": "rukba",
+     "translation": "genou",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَظْم",
+     "slug": "azm",
+     "translation": "os",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "اِسْم",
+     "slug": "ism",
+     "translation": "nom, prénom",
+     "partOfSpeech": "noun"
+    }
+   ]
+  }
+ ]
+}

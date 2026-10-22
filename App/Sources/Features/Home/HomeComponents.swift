@@ -325,22 +325,34 @@ struct HomeRestrictionCard: View {
 
 // MARK: - Day sheet (calendar button)
 
-/// Bottom sheet listing today's three lessons with their time and status.
+/// Bottom sheet « Ma journée » : what to do in each lesson, for how long, and when apps get blocked.
 struct HomeDaySheet: View {
     let day: LocalDay
     let slots: [SlotState]
+    let schedule: DailySchedule
+    /// Restrictions configured (switch on, apps chosen, authorization granted).
+    let blocking: Bool
+    let minutes: [Subject: Int]
 
     @Environment(\.dismiss) private var dismiss
 
-    init(day: LocalDay, slots: [SlotState]) {
+    init(day: LocalDay, slots: [SlotState], schedule: DailySchedule, blocking: Bool, minutes: [Subject: Int]) {
         self.day = day
         self.slots = slots
+        self.schedule = schedule
+        self.blocking = blocking
+        self.minutes = minutes
     }
 
     private var dateText: String {
         let text: String = day.startDate().formatted(
             .dateTime.weekday(.wide).day().month(.wide).locale(Locale(identifier: "fr")))
         return text.prefix(1).uppercased() + text.dropFirst()
+    }
+
+    private var totalMinutes: Int {
+        let perSlot = slots.first.map { slot in slot.parts.reduce(0) { $0 + (minutes[$1.subject] ?? 5) } } ?? 0
+        return perSlot * slots.count
     }
 
     var body: some View {
@@ -352,9 +364,13 @@ struct HomeDaySheet: View {
                 } else {
                     VStack(spacing: 10) {
                         ForEach(slots) { slot in
-                            HomeDaySheetRow(slot: slot)
+                            HomeDaySheetRow(slot: slot,
+                                            window: schedule.restrictionWindow(for: slot.slot),
+                                            blocking: blocking,
+                                            minutes: minutes)
                         }
                     }
+                    footer
                 }
             }
             .padding(.horizontal, Theme.Spacing.page)
@@ -368,8 +384,8 @@ struct HomeDaySheet: View {
     private var header: some View {
         HStack(alignment: .top, spacing: Theme.Spacing.s) {
             VStack(alignment: .leading, spacing: 4) {
-                CardTitle("Tes leçons du jour")
-                Text(dateText)
+                CardTitle("Ma journée")
+                Text(totalMinutes > 0 ? "\(dateText) · \(totalMinutes) min au total" : dateText)
                     .font(Theme.Font.callout)
                     .foregroundStyle(Theme.secondaryText)
             }
@@ -379,29 +395,64 @@ struct HomeDaySheet: View {
             RoundIconButton(icon: .close, label: "Fermer", fill: Theme.background) { dismiss() }
         }
     }
+
+    private var footer: some View {
+        Text(blocking
+             ? "À l'heure de chaque leçon, tes apps choisies sont bloquées jusqu'à ce que toutes les matières soient faites (ou jusqu'à la fin de la fenêtre). En plus, « Pratique libre » est dispo quand tu veux pour une 4e séance."
+             : "Le blocage des apps est désactivé : active-le dans Réglages > Restreindre les apps. « Pratique libre » est dispo quand tu veux pour une 4e séance.")
+            .font(Theme.Font.caption)
+            .foregroundStyle(Theme.secondaryText)
+            .fixedSize(horizontal: false, vertical: true)
+    }
 }
 
 struct HomeDaySheetRow: View {
     let slot: SlotState
+    let window: (start: TimeOfDay, end: TimeOfDay)
+    let blocking: Bool
+    let minutes: [Subject: Int]
+
+    private var plan: String {
+        guard !slot.parts.isEmpty else { return slot.slot.defaultSessionType.displayName }
+        return slot.parts.map { part in
+            let mark = part.status == .completed ? " ✓" : ""
+            return "\(part.subject.shortName) \(minutes[part.subject] ?? 5) min\(mark)"
+        }.joined(separator: " · ")
+    }
+
+    private var blockingText: String? {
+        guard blocking, slot.status != .completed else { return nil }
+        if slot.restrictionActive { return "Apps bloquées jusqu'à \(window.end) au plus tard" }
+        if slot.status == .upcoming { return "Apps bloquées de \(window.start) à \(window.end) si pas faite" }
+        return nil
+    }
 
     var body: some View {
-        HStack(spacing: 14) {
+        HStack(alignment: .top, spacing: 14) {
             QIconView(icon: slot.status.homeIcon, size: 18)
                 .foregroundStyle(Theme.ink)
                 .frame(width: 42, height: 42)
                 .background(Circle().fill(slot.status.homeIconFill))
-            VStack(alignment: .leading, spacing: 2) {
-                Text(slot.slot.displayName)
-                    .font(Theme.Font.headline)
-                    .foregroundStyle(Theme.primaryText)
-                Text("\(slot.slot.defaultSessionType.displayName) · \(slot.scheduledTime)")
-                    .font(Theme.Font.caption.monospacedDigit())
-                    .foregroundStyle(Theme.tertiaryText)
+            VStack(alignment: .leading, spacing: 3) {
+                HStack(alignment: .firstTextBaseline) {
+                    Text("\(slot.scheduledTime) · \(slot.slot.displayName)")
+                        .font(Theme.Font.headline.monospacedDigit())
+                        .foregroundStyle(Theme.primaryText)
+                    Spacer(minLength: Theme.Spacing.s)
+                    Text(slot.status.homeLabel)
+                        .font(Theme.Font.caption(.semibold))
+                        .foregroundStyle(Theme.ink)
+                }
+                Text(plan)
+                    .font(Theme.Font.callout)
+                    .foregroundStyle(Theme.secondaryText)
+                    .fixedSize(horizontal: false, vertical: true)
+                if let blockingText {
+                    Label(blockingText, systemImage: slot.restrictionActive ? "lock.fill" : "lock")
+                        .font(Theme.Font.caption.monospacedDigit())
+                        .foregroundStyle(slot.restrictionActive ? Theme.error : Theme.tertiaryText)
+                }
             }
-            Spacer(minLength: Theme.Spacing.s)
-            Text(slot.status.homeLabel)
-                .font(Theme.Font.caption(.semibold))
-                .foregroundStyle(Theme.ink)
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)

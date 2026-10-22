@@ -1,0 +1,793 @@
+{
+ "lessonId": "ar.l10",
+ "exercises": [
+  {
+   "id": "ar.l10.e01",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.sukun"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire le petit rond (ـْ) posé sur une lettre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la lettre n'a pas de voyelle",
+    "la voyelle u",
+    "la lettre est doublée",
+    "la voyelle est longue"
+   ],
+   "answer": "la lettre n'a pas de voyelle",
+   "acceptedAnswers": [
+    "la lettre n'a pas de voyelle"
+   ],
+   "explanation": "Le petit rond est le sukun : la consonne se prononce seule, sans voyelle, et ferme la syllabe.",
+   "tip": "Petit rond = rien : la consonne s'arrête net.",
+   "extraExample": {
+    "text": "قَلْب",
+    "translation": "cœur",
+    "transliteration": "qalb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "la voyelle u",
+     "category": "word_confusion",
+     "feedback": "Le son u, c'est la damma, qui a une petite queue comme un و. Le sukun est un rond fermé : pas de voyelle."
+    },
+    {
+     "equals": "la lettre est doublée",
+     "category": "word_confusion",
+     "feedback": "La lettre doublée, c'est la shadda (petit w). Le petit rond, c'est le sukun : pas de voyelle."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e02",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.sukun",
+    "ar.v.fatha",
+    "ar.v.kasra",
+    "ar.v.damma"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque signe à ce qu'il fait entendre.",
+   "prompt": "Les quatre signes de base",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ـَ",
+     "right": "a"
+    },
+    {
+     "left": "ـِ",
+     "right": "i"
+    },
+    {
+     "left": "ـُ",
+     "right": "u"
+    },
+    {
+     "left": "ـْ",
+     "right": "pas de voyelle"
+    }
+   ],
+   "answer": "ـَ = a ; ـِ = i ; ـُ = u ; ـْ = pas de voyelle",
+   "acceptedAnswers": [],
+   "explanation": "Fatha = a, kasra = i, damma = u, et le sukun = aucune voyelle : la consonne reste nue.",
+   "tip": "Le sukun est le seul signe qui enlève le son au lieu d'en ajouter un."
+  },
+  {
+   "id": "ar.l10.e03",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.bint",
+    "ar.v.ibn",
+    "ar.v.tifl",
+    "ar.v.qalb"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à sa lecture.",
+   "prompt": "Des mots avec un sukun",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "بِنْت",
+     "right": "bint"
+    },
+    {
+     "left": "اِبْن",
+     "right": "ibn"
+    },
+    {
+     "left": "طِفْل",
+     "right": "Tifl"
+    },
+    {
+     "left": "قَلْب",
+     "right": "qalb"
+    }
+   ],
+   "answer": "بِنْت = bint ; اِبْن = ibn ; طِفْل = Tifl ; قَلْب = qalb",
+   "acceptedAnswers": [],
+   "explanation": "Dans chaque mot, la lettre avec sukun se colle à la syllabe d'avant : bin-t, ib-n, Tif-l, qal-b.",
+   "tip": "Une syllabe fermée se dit d'un seul coup : qal, pas qa-la."
+  },
+  {
+   "id": "ar.l10.e04",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.bint"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit بِنْت (fille) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "bint",
+    "binat",
+    "banit",
+    "bunt"
+   ],
+   "answer": "bint",
+   "acceptedAnswers": [
+    "bint"
+   ],
+   "explanation": "Kasra sous le ب (bi), sukun sur le ن (n sans voyelle), puis ت final : bint, une seule syllabe.",
+   "tip": "Le sukun colle la consonne à la voyelle d'avant.",
+   "extraExample": {
+    "text": "طِفْل",
+    "translation": "enfant",
+    "transliteration": "Tifl"
+   },
+   "errorPatterns": [
+    {
+     "equals": "binat",
+     "category": "word_confusion",
+     "feedback": "Le ن porte un sukun : on n'ajoute pas de a après lui. On lit bint."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e05",
+   "unitIds": [
+    "ar.v.wadjh",
+    "ar.v.ridjl",
+    "ar.v.chakhs",
+    "ar.v.batn",
+    "ar.v.qalb"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa traduction.",
+   "prompt": "Le corps et les personnes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "وَجْه",
+     "right": "le visage"
+    },
+    {
+     "left": "رِجْل",
+     "right": "la jambe"
+    },
+    {
+     "left": "شَخْص",
+     "right": "la personne"
+    },
+    {
+     "left": "بَطْن",
+     "right": "le ventre"
+    },
+    {
+     "left": "قَلْب",
+     "right": "le cœur"
+    }
+   ],
+   "answer": "وَجْه = le visage ; رِجْل = la jambe ; شَخْص = la personne ; بَطْن = le ventre ; قَلْب = le cœur",
+   "acceptedAnswers": [],
+   "explanation": "وَجْه (wadjh) = le visage, رِجْل (ridjl) = la jambe, شَخْص (chakhS) = la personne, بَطْن (baTn) = le ventre, قَلْب (qalb) = le cœur.",
+   "tip": "Lis chaque mot à voix haute avant de chercher son sens."
+  },
+  {
+   "id": "ar.l10.e06",
+   "unitIds": [
+    "ar.g10.sukun"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans كَتَبْتُ (j'ai écrit), quelle lettre porte un sukun ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le ب",
+    "le ك",
+    "le premier ت",
+    "le dernier ت"
+   ],
+   "answer": "le ب",
+   "acceptedAnswers": [
+    "le ب"
+   ],
+   "explanation": "On lit ka-tab-tu : le ب porte le petit rond, il n'a pas de voyelle et ferme la syllabe tab.",
+   "tip": "Cherche le petit rond, puis découpe : ka-tab-tu.",
+   "extraExample": {
+    "text": "دَرَسْتُ",
+    "translation": "j'ai étudié",
+    "transliteration": "darastu"
+   },
+   "errorPatterns": [
+    {
+     "equals": "le dernier ت",
+     "category": "word_confusion",
+     "feedback": "Le dernier ت porte une damma (tu). Le sukun est sur le ب."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e07",
+   "unitIds": [
+    "ar.g10.sukun"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lecture.",
+   "prompt": "Comment se lit كَتَبْتُ (j'ai écrit) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "katabtu",
+    "katabatu",
+    "katibtu",
+    "katbutu"
+   ],
+   "answer": "katabtu",
+   "acceptedAnswers": [
+    "katabtu"
+   ],
+   "explanation": "Ka-tab-tu : le ب a un sukun, il se colle à ta. On ne dit donc pas « katabatu ».",
+   "tip": "Pas de voyelle sous le petit rond.",
+   "extraExample": {
+    "text": "جَلَسْتُ",
+    "translation": "je me suis assis",
+    "transliteration": "djalastu"
+   },
+   "errorPatterns": [
+    {
+     "equals": "katabatu",
+     "category": "word_confusion",
+     "feedback": "Tu as ajouté un a après le ب, mais il porte un sukun : katabtu."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e08",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.chakhs"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le mot bien vocalisé.",
+   "prompt": "Quel mot est vocalisé correctement pour « chakhS » (personne) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "شَخْص",
+    "شَخَص",
+    "شُخْص",
+    "شِخْص"
+   ],
+   "answer": "شَخْص",
+   "acceptedAnswers": [
+    "شَخْص"
+   ],
+   "explanation": "Cha-khS : fatha sur le ش, sukun sur le خ (pas de voyelle), puis le ص final.",
+   "tip": "Une consonne collée à la suivante = sukun.",
+   "extraExample": {
+    "text": "بَطْن",
+    "translation": "ventre",
+    "transliteration": "baTn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "شَخَص",
+     "category": "word_confusion",
+     "feedback": "Avec une fatha sur le خ, on lirait chakhaS. Il faut un sukun : chakhS."
+    },
+    {
+     "equals": "شُخْص",
+     "category": "word_confusion",
+     "feedback": "La damma sur le ش donnerait chukhS. On dit chakhS, avec a."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e09",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.ridjl"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Révision : choisis la bonne réponse.",
+   "prompt": "Quel signe porte le ر dans رِجْل (ridjl) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "une kasra",
+    "une fatha",
+    "une damma",
+    "un sukun"
+   ],
+   "answer": "une kasra",
+   "acceptedAnswers": [
+    "une kasra"
+   ],
+   "explanation": "On entend ri : le ر porte une kasra, le petit trait sous la lettre. Le ج, lui, porte un sukun.",
+   "tip": "Son i = trait sous la lettre.",
+   "extraExample": {
+    "text": "سِنّ",
+    "translation": "dent",
+    "transliteration": "sinn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "un sukun",
+     "category": "word_confusion",
+     "feedback": "Le sukun est sur le ج, pas sur le ر : un mot ne commence jamais par une lettre sans voyelle."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e10",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.ridjl",
+    "ar.v.radjul"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots veut dire « la jambe » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "رِجْل",
+    "رَجُل",
+    "رُجُل"
+   ],
+   "answer": "رِجْل",
+   "acceptedAnswers": [
+    "رِجْل"
+   ],
+   "explanation": "رِجْل (ridjl) = la jambe ; رَجُل (radjul) = l'homme. Mêmes lettres, mais ce sont les signes qui font la différence.",
+   "tip": "Ridjl (sukun) pour la jambe, radjul pour l'homme.",
+   "extraExample": {
+    "text": "رَجُل",
+    "translation": "homme",
+    "transliteration": "radjul"
+   },
+   "errorPatterns": [
+    {
+     "equals": "رَجُل",
+     "category": "vocabulary",
+     "feedback": "رَجُل se lit radjul : c'est l'homme. La jambe, c'est رِجْل (ridjl), avec un sukun sur le ج."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e11",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.qalb"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Lequel de ces mots a une syllabe fermée par un sukun ?",
+   "promptLanguage": "fr",
+   "options": [
+    "قَلْب",
+    "رَجُل",
+    "كَتِف",
+    "عُنُق"
+   ],
+   "answer": "قَلْب",
+   "acceptedAnswers": [
+    "قَلْب"
+   ],
+   "explanation": "Dans قَلْب, le ل porte un sukun : qal-b. Les trois autres mots n'ont que des voyelles brèves (ra-djul, ka-tif, 3u-nuq).",
+   "tip": "Le petit rond signale toujours une syllabe fermée.",
+   "extraExample": {
+    "text": "وَجْه",
+    "translation": "visage",
+    "transliteration": "wadjh"
+   }
+  },
+  {
+   "id": "ar.l10.e12",
+   "unitIds": [
+    "ar.g09.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Révision des formes de lettres. Choisis la bonne réponse.",
+   "prompt": "Dans بِنْت, quelle forme a le ن ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la forme du milieu (ـنـ)",
+    "la forme de la fin (ـن)",
+    "la forme isolée (ن)",
+    "la forme du début (نـ)"
+   ],
+   "answer": "la forme du milieu (ـنـ)",
+   "acceptedAnswers": [
+    "la forme du milieu (ـنـ)"
+   ],
+   "explanation": "Le ن est relié au ب avant lui et au ت après lui : c'est sa forme du milieu, qui ressemble à une dent avec un point au-dessus.",
+   "tip": "Au milieu, ب ت ث ن ي se ressemblent : seuls les points changent.",
+   "extraExample": {
+    "text": "بَنَات",
+    "translation": "filles",
+    "transliteration": "banât"
+   },
+   "errorPatterns": [
+    {
+     "equals": "la forme de la fin (ـن)",
+     "category": "spelling",
+     "feedback": "La forme de la fin a une grande courbe ; ici, le ن est suivi du ت, il est donc au milieu."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e13",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.sukun",
+    "ar.v.qalb"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le nom du signe.",
+   "prompt": "Dans قَلْب (qalb), le ل porte un ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "sukun",
+    "fatha",
+    "damma",
+    "kasra"
+   ],
+   "answer": "sukun",
+   "acceptedAnswers": [
+    "sukun",
+    "soukoun",
+    "soukoune",
+    "sukûn"
+   ],
+   "explanation": "Le ل se prononce sans voyelle et ferme la syllabe qal : il porte un sukun.",
+   "tip": "Pas de voyelle = sukun.",
+   "extraExample": {
+    "text": "طِفْل",
+    "translation": "enfant",
+    "transliteration": "Tifl"
+   },
+   "errorPatterns": [
+    {
+     "equals": "damma",
+     "category": "word_confusion",
+     "feedback": "La damma donnerait qalub. Ici le ل n'a pas de voyelle : sukun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e14",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.wadjh"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne lecture.",
+   "prompt": "وَجْه (visage) se lit « ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "wadjh",
+    "wadjah",
+    "widjh",
+    "wudjuh"
+   ],
+   "answer": "wadjh",
+   "acceptedAnswers": [
+    "wadjh",
+    "wajh"
+   ],
+   "explanation": "Fatha sur le و (wa), sukun sur le ج, puis le ه final : wadjh.",
+   "tip": "Sukun = la consonne se colle à la syllabe d'avant.",
+   "extraExample": {
+    "text": "وَجْهِي",
+    "translation": "mon visage",
+    "transliteration": "wadjhî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "wadjah",
+     "category": "spelling",
+     "feedback": "Le ج porte un sukun : pas de a après lui. On lit wadjh."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e15",
+   "unitIds": [
+    "ar.g09.short_vowels",
+    "ar.v.fam"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Révision : complète avec le nom du signe.",
+   "prompt": "Dans فَم (fam), le ف porte une ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "fatha",
+    "kasra",
+    "damma",
+    "sukun"
+   ],
+   "answer": "fatha",
+   "acceptedAnswers": [
+    "fatha",
+    "fat7a"
+   ],
+   "explanation": "On entend fa : le ف porte une fatha, le petit trait au-dessus.",
+   "tip": "Son a = fatha au-dessus.",
+   "extraExample": {
+    "text": "يَد",
+    "translation": "main",
+    "transliteration": "yad"
+   },
+   "errorPatterns": [
+    {
+     "equals": "kasra",
+     "category": "word_confusion",
+     "feedback": "La kasra donnerait fi. Ici on entend fa : fatha."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e16",
+   "unitIds": [
+    "ar.g10.sukun"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Touche les syllabes dans l'ordre de lecture (la première d'abord).",
+   "prompt": "Écris « katabtu » (j'ai écrit).",
+   "promptLanguage": "fr",
+   "tokens": [
+    "تُ",
+    "كَ",
+    "تَبْ"
+   ],
+   "answer": "كَ تَبْ تُ",
+   "acceptedAnswers": [
+    "كَ تَبْ تُ"
+   ],
+   "explanation": "Ka-tab-tu : la syllabe du milieu est fermée par le ب avec sukun.",
+   "tip": "Découpe le mot à voix haute : ka / tab / tu.",
+   "extraExample": {
+    "text": "دَرَسْتُ",
+    "translation": "j'ai étudié",
+    "transliteration": "darastu"
+   }
+  },
+  {
+   "id": "ar.l10.e17",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.batn"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Touche les morceaux dans l'ordre de lecture (le premier d'abord).",
+   "prompt": "Écris « baTn » (ventre).",
+   "promptLanguage": "fr",
+   "tokens": [
+    "طْ",
+    "ن",
+    "بَ"
+   ],
+   "answer": "بَ طْ ن",
+   "acceptedAnswers": [
+    "بَ طْ ن"
+   ],
+   "explanation": "Ba, puis ط avec sukun, puis ن : baTn, une seule syllabe.",
+   "tip": "Une lettre avec sukun ne fait pas de syllabe toute seule.",
+   "extraExample": {
+    "text": "بَطْنِي",
+    "translation": "mon ventre",
+    "transliteration": "baTnî"
+   }
+  },
+  {
+   "id": "ar.l10.e18",
+   "unitIds": [
+    "ar.v.qalb",
+    "ar.g10.sukun"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "قَلْب",
+   "promptLanguage": "ar",
+   "answer": "le cœur",
+   "acceptedAnswers": [
+    "le cœur",
+    "cœur",
+    "un cœur",
+    "le coeur",
+    "coeur",
+    "un coeur"
+   ],
+   "explanation": "قَلْب se lit qalb : le cœur.",
+   "tip": "Qalb avec un ق : le cœur ; kalb avec un ك : le chien.",
+   "extraExample": {
+    "text": "قَلْبِي",
+    "translation": "mon cœur",
+    "transliteration": "qalbî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "le chien",
+     "category": "word_confusion",
+     "feedback": "Le chien, c'est كَلْب (kalb), avec un ك. Ici c'est un ق : qalb, le cœur."
+    },
+    {
+     "equals": "chien",
+     "category": "word_confusion",
+     "feedback": "Le chien, c'est كَلْب (kalb), avec un ك. Ici c'est un ق : qalb, le cœur."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e19",
+   "unitIds": [
+    "ar.v.bint",
+    "ar.g10.sukun"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "بِنْت",
+   "promptLanguage": "ar",
+   "answer": "fille",
+   "acceptedAnswers": [
+    "fille",
+    "une fille",
+    "la fille",
+    "jeune fille",
+    "une jeune fille",
+    "la jeune fille"
+   ],
+   "explanation": "بِنْت se lit bint : une fille, ou la fille de quelqu'un.",
+   "tip": "Bint, la fille ; ibn, le fils.",
+   "extraExample": {
+    "text": "بِنْتِي",
+    "translation": "ma fille",
+    "transliteration": "bintî"
+   },
+   "errorPatterns": [
+    {
+     "equals": "fils",
+     "category": "vocabulary",
+     "feedback": "Le fils, c'est اِبْن (ibn). بِنْت (bint), c'est la fille."
+    },
+    {
+     "equals": "le fils",
+     "category": "vocabulary",
+     "feedback": "Le fils, c'est اِبْن (ibn). بِنْت (bint), c'est la fille."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e20",
+   "unitIds": [
+    "ar.g10.sukun",
+    "ar.v.batn"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit بَطْن (le ventre) ?",
+   "promptLanguage": "fr",
+   "answer": "baTn",
+   "acceptedAnswers": [
+    "baTn"
+   ],
+   "explanation": "Fatha sur le ب (ba), sukun sur le ط, puis ن : baTn. En lettres latines, le T majuscule note le ط.",
+   "tip": "Pas de voyelle après une lettre avec sukun.",
+   "extraExample": {
+    "text": "بُطُون",
+    "translation": "ventres",
+    "transliteration": "buTûn"
+   },
+   "errorPatterns": [
+    {
+     "equals": "batan",
+     "category": "spelling",
+     "feedback": "Le ط porte un sukun : pas de voyelle après lui. On lit baTn."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e21",
+   "unitIds": [
+    "ar.g10.sukun"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la lecture en lettres latines.",
+   "prompt": "Comment se lit قُلْتُ (j'ai dit) ?",
+   "promptLanguage": "fr",
+   "answer": "qultu",
+   "acceptedAnswers": [
+    "qultu",
+    "qoultou"
+   ],
+   "explanation": "Damma sur le ق (qu), sukun sur le ل, damma sur le ت : qul-tu.",
+   "tip": "Repère d'abord le sukun, puis coupe la syllabe juste après.",
+   "extraExample": {
+    "text": "كَتَبْتُ",
+    "translation": "j'ai écrit",
+    "transliteration": "katabtu"
+   },
+   "errorPatterns": [
+    {
+     "equals": "qulutu",
+     "category": "spelling",
+     "feedback": "Le ل porte un sukun : on ne met pas de voyelle après lui. qul-tu."
+    },
+    {
+     "equals": "qult",
+     "category": "spelling",
+     "feedback": "Le ت final porte une damma : il se prononce tu. On lit qultu."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e22",
+   "unitIds": [
+    "ar.g09.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Révision : choisis la bonne lecture.",
+   "prompt": "Comment se lit سَمِعَ (il a entendu) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "sami3a",
+    "sama3a",
+    "sumi3a",
+    "sami3"
+   ],
+   "answer": "sami3a",
+   "acceptedAnswers": [
+    "sami3a"
+   ],
+   "explanation": "Fatha sur le س (sa), kasra sous le م (mi), fatha sur le ع (3a) : sa-mi-3a.",
+   "tip": "Une lettre, un signe : lis-les dans l'ordre.",
+   "extraExample": {
+    "text": "فَهِمَ",
+    "translation": "il a compris",
+    "transliteration": "fahima"
+   },
+   "errorPatterns": [
+    {
+     "equals": "sami3",
+     "category": "word_confusion",
+     "feedback": "Le ع final porte une fatha : on le prononce 3a. sami3a."
+    }
+   ]
+  }
+ ]
+}

@@ -23,6 +23,7 @@ import json
 import re
 import shutil
 import sys
+import unicodedata
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -53,13 +54,65 @@ PROFILES = {
            "types": {"mcq": (3, 6), "fill_blank": (3, 6), "translation": (3, 5), "reorder": (2, 3),
                      "match": (2, 3), "free_answer": (2, 4)}},
     "ar": {"promptLanguages": {"ar", "fr"}, "maxReverseTranslations": 99,
-           "types": {"mcq": (5, 10), "fill_blank": (2, 5), "translation": (1, 4), "reorder": (1, 4),
-                     "match": (3, 5), "free_answer": (1, 3)}},
+           "types": {"mcq": (6, 12), "fill_blank": (0, 6), "translation": (0, 4), "reorder": (0, 4),
+                     "match": (3, 6), "free_answer": (0, 3)}},
     "cg": {"promptLanguages": {"fr"}, "maxReverseTranslations": 0,
            "types": {"mcq": (6, 10), "fill_blank": (3, 5), "translation": (0, 0), "reorder": (0, 2),
                      "match": (2, 4), "free_answer": (2, 4)}},
 }
 LESSON_SIZE = (18, 24)
+
+# Cours (cartes « à apprendre » montrées avant les questions) : obligatoires pour l'arabe et la culture G.
+COURSE_REQUIRED = {"ar", "cg"}
+COURSE_CARDS = (3, 10)
+# Les questions ne portent que sur ce qui a été appris : la réponse doit apparaître dans un cours (ou un mot
+# de vocabulaire) d'une leçon déjà vue.
+TAUGHT_CHECK = {"ar", "cg"}
+HARAKAT_RE = re.compile("[\u064B-\u0652\u0670]")
+
+
+def norm_taught(text: str) -> str:
+    """Lowercase, no accents nor harakat nor tatweel, punctuation as spaces (for « was it taught? »)."""
+    t = unicodedata.normalize("NFD", text.lower())
+    t = "".join(c for c in t if unicodedata.category(c) != "Mn").replace("\u0640", "")
+    t = re.sub(r"[^\w\s]", " ", t)
+    return " " + re.sub(r"\s+", " ", t).strip() + " "
+
+
+def load_courses(lang: str, cur: dict, rep: Report | None = None) -> dict:
+    """{lessonId: cards} for every course/lSEQ.json file of the language."""
+    out = {}
+    for les in cur["lessons"]:
+        path = ROOT / "Content" / lang / "source" / f"m{les['module']:02d}" / "course" / f"l{les['sequence']:02d}.json"
+        if not path.exists():
+            continue
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError as e:
+            if rep:
+                rep.err(str(path.relative_to(ROOT)), f"invalid JSON: {e}")
+            continue
+        out[les["id"]] = data
+    return out
+
+
+def taught_corpus(lang: str, cur: dict, courses: dict, dictionary_by_id: dict) -> dict:
+    """{lessonId: normalized text taught up to and including that lesson} (courses + vocabulary)."""
+    acc = ""
+    out = {}
+    for les in sorted(cur["lessons"], key=lambda l: l["sequence"]):
+        parts = []
+        for c in (courses.get(les["id"]) or {}).get("cards") or []:
+            parts += [c.get("title", ""), c.get("text", ""), c.get("keyFact", "")]
+        for v in cur["vocabularyUnits"]:
+            if v.get("lessonId") == les["id"]:
+                parts += [v.get("title", ""), v.get("translation", "")]
+                d = dictionary_by_id.get(v.get("dictionaryItemId"))
+                if d:
+                    parts += [d.get("word", ""), d.get("translation", "")]
+        acc += norm_taught(" ".join(parts))
+        out[les["id"]] = acc
+    return out
 
 
 def slug(text: str) -> str:
@@ -223,7 +276,8 @@ def finalize_exercise(ex: dict, pool: str, lesson_id: str | None) -> dict:
     return out
 
 
-def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: set[str]):
+def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: set[str],
+                    courses: dict | None = None, taught: dict | None = None):
     mdir = ROOT / "Content" / lang / "source" / f"m{mnum:02d}"
     tag = f"m{mnum:02d}"
     fmt = next((m.get("format", 1) for m in cur["modules"] if m["id"] == mnum), 1)
@@ -231,7 +285,17 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
     gunits = [u for u in cur["grammarUnits"] if u["module"] == mnum]
     vunits = [u for u in cur["vocabularyUnits"] if u["module"] == mnum]
     lessons = [l for l in cur["lessons"] if l["module"] == mnum]
-    result = {"rules": {}, "dictionary": [], "exercises": [], "diagnostic": [], "assessment": []}
+    result = {"rules": {}, "dictionary": [], "exercises": [], "diagnostic": [], "assessment": [], "courses": {}}
+    courses = courses or {}
+
+    # Arabic: no harakat before the module that teaches them.
+    harakat_from = cur.get("harakatFromModule")
+    if lang == "ar" and isinstance(harakat_from, int) and mnum < harakat_from:
+        for f in sorted(mdir.rglob("*.json")):
+            for n, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
+                if HARAKAT_RE.search(line):
+                    rep.err(f"{f.relative_to(ROOT)}:{n}", f"harakat before module {harakat_from} (they are not taught yet)")
+                    break
 
     # units.json
     data = load_json(mdir / "units.json", rep)
@@ -294,9 +358,8 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
             ipa = item.get("ipa")
             if ipa is not None and not (isinstance(ipa, str) and ipa.startswith("/") and ipa.endswith("/")):
                 rep.err(w, "ipa must be written between slashes")
-            tr = item.get("transliteration")
-            if lang == "ar" and not nonempty(tr):
-                rep.err(w, "'transliteration' required for Arabic")
+            if lang == "ar" and item.get("transliteration"):
+                rep.err(w, "no transliteration for Arabic (the learner reads the Arabic script only)")
             forms = item.get("forms") or {}
             if not all(isinstance(k, str) and nonempty(v) for k, v in forms.items()):
                 rep.err(w, "forms must map names to non-empty strings")
@@ -365,6 +428,50 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
         prompts = [e.get("prompt", "").strip().lower() for e in exs]
         if len(set(prompts)) != len(prompts):
             rep.err(w0, "duplicate prompts in lesson")
+        # Course: the cards the learner reads before the questions.
+        course = courses.get(les["id"])
+        cw = f"{tag}/course/l{num:02d}.json"
+        if course is None:
+            if lang in COURSE_REQUIRED:
+                rep.err(cw, "missing course (cards to learn before the questions)")
+        else:
+            if course.get("lessonId") != les["id"]:
+                rep.err(cw, f"lessonId must be {les['id']}")
+            cards = course.get("cards") or []
+            lo, hi = COURSE_CARDS
+            if not lo <= len(cards) <= hi:
+                rep.err(cw, f"{lo}-{hi} cards expected, found {len(cards)}")
+            for i, c in enumerate(cards):
+                if not (nonempty(c.get("title")) and nonempty(c.get("text"))):
+                    rep.err(f"{cw} card {i + 1}", "title and text required")
+                if len(c.get("title", "")) > 70:
+                    rep.err(f"{cw} card {i + 1}", "title longer than 70 characters")
+                if len(c.get("text", "")) > 480:
+                    rep.err(f"{cw} card {i + 1}", "text longer than 480 characters (split the card)")
+                if c.get("keyFact") is not None and (not nonempty(c["keyFact"]) or len(c["keyFact"]) > 180):
+                    rep.err(f"{cw} card {i + 1}", "keyFact must be a short sentence (<= 180 characters)")
+                if c.get("example") is not None:
+                    check_example(c["example"], f"{cw} card {i + 1}", rep)
+                extra = set(c) - {"title", "text", "keyFact", "emoji", "example", "arabic"}
+                if extra:
+                    rep.err(f"{cw} card {i + 1}", f"unknown fields {sorted(extra)}")
+            result["courses"][les["id"]] = cards
+        # Only ask what was taught (courses and vocabulary of this lesson and the previous ones).
+        known = (taught or {}).get(les["id"])
+        if lang in TAUGHT_CHECK and known is not None:
+            for e in exs:
+                t = e.get("type")
+                ew = f"{w0} {e.get('id')}"
+                if t in ("mcq", "fill_blank") and nonempty(e.get("answer")):
+                    if norm_taught(e["answer"]) not in known:
+                        rep.err(ew, f"answer {e['answer']!r} is not taught in the course or vocabulary so far")
+                elif t == "free_answer" and e.get("acceptedAnswers") and not e.get("requirements"):
+                    if not any(norm_taught(a) in known for a in e["acceptedAnswers"]):
+                        rep.err(ew, "no accepted answer is taught in the course or vocabulary so far")
+                elif t == "match":
+                    for p in e.get("pairs") or []:
+                        if norm_taught(p.get("left", "")) not in known and norm_taught(p.get("right", "")) not in known:
+                            rep.err(ew, f"pair {p.get('left')!r} = {p.get('right')!r} is not taught so far")
         for e in exs:
             check_exercise(e, f"{w0} {e.get('id')}", rep, known_units, mnum, "lesson", lang, fmt)
             if e.get("type") in EXERCISE_TYPES:
@@ -579,13 +686,26 @@ def main():
     modules = [m["id"] for m in cur["modules"]]
     if args.module:
         modules = [int(args.module.lstrip("m"))]
+    courses = load_courses(lang, cur, rep)
+    taught = None
+    if lang in TAUGHT_CHECK:
+        dictionary_by_id = {}
+        for m in cur["modules"]:
+            dpath = ROOT / "Content" / lang / "source" / f"m{m['id']:02d}" / "dictionary.json"
+            if dpath.exists():
+                try:
+                    for d in json.loads(dpath.read_text(encoding="utf-8")):
+                        dictionary_by_id[d.get("id")] = d
+                except (json.JSONDecodeError, AttributeError):
+                    pass
+        taught = taught_corpus(lang, cur, courses, dictionary_by_id)
 
     results = {}
     for m in modules:
         if args.allow_missing and not (ROOT / "Content" / lang / "source" / f"m{m:02d}").exists():
             rep.warn(f"m{m:02d}", "module missing (skipped)")
             continue
-        results[m] = validate_module(lang, cur, m, rep, known_units)
+        results[m] = validate_module(lang, cur, m, rep, known_units, courses, taught)
 
     # Cross-module checks
     all_ex = [e for r in results.values() for e in r["exercises"] + r["diagnostic"] + r["assessment"]]
@@ -636,7 +756,9 @@ def main():
         "language": cur["language"],
         "modules": [{k: m[k] for k in ("id", "title", "description")} for m in cur["modules"] if m["id"] in results],
         "units": units,
-        "lessons": [l for l in cur["lessons"] if l["module"] in built_modules],
+        "lessons": [dict(l, **({"course": c} if (c := next((r["courses"].get(l["id"]) for r in results.values()
+                                                              if l["id"] in r["courses"]), None)) else {}))
+                    for l in cur["lessons"] if l["module"] in built_modules],
         "exercises": [e for m in sorted(results) for e in results[m]["exercises"]],
         "diagnostic": [e for m in sorted(results) for e in results[m]["diagnostic"]],
         "assessment": [e for m in sorted(results) for e in results[m]["assessment"]],

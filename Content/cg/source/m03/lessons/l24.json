@@ -1,0 +1,902 @@
+{
+ "lessonId": "cg.l24",
+ "exercises": [
+  {
+   "id": "cg.l24.e01",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.deep_blue"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle machine a battu le champion du monde d'échecs Garry Kasparov en 1997 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Deep Blue",
+    "AlphaGo",
+    "Watson",
+    "ELIZA"
+   ],
+   "answer": "Deep Blue",
+   "acceptedAnswers": [
+    "Deep Blue"
+   ],
+   "explanation": "En mai 1997, Deep Blue, un superordinateur d'échecs conçu par IBM, bat Garry Kasparov dans un match en six parties. C'est la première défaite d'un champion du monde en titre face à une machine dans un match.",
+   "tip": "Deep Blue = échecs, 1997 ; AlphaGo = go, 2016.",
+   "extraExample": {
+    "text": "Kasparov avait battu une première version de Deep Blue en 1996.",
+    "translation": "La revanche de 1997 a marqué les esprits."
+   },
+   "errorPatterns": [
+    {
+     "equals": "AlphaGo",
+     "category": "word_confusion",
+     "feedback": "AlphaGo joue au go et date de 2016 ; la victoire aux échecs, en 1997, est celle de Deep Blue."
+    },
+    {
+     "equals": "Watson",
+     "category": "word_confusion",
+     "feedback": "Watson, un autre programme d'IBM, a gagné au jeu télévisé Jeopardy! en 2011."
+    },
+    {
+     "equals": "ELIZA",
+     "category": "word_confusion",
+     "feedback": "ELIZA (1966) est l'un des premiers programmes de conversation, sans lien avec les échecs."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e02",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.test_de_turing",
+    "cg.v.conference_de_dartmouth",
+    "cg.v.intelligence_artificielle",
+    "cg.v.deep_blue",
+    "cg.v.apprentissage_profond"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les grandes dates de l'IA",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1950",
+     "right": "Turing propose son test"
+    },
+    {
+     "left": "1956",
+     "right": "conférence de Dartmouth : naissance de l'expression « intelligence artificielle »"
+    },
+    {
+     "left": "1997",
+     "right": "Deep Blue bat Kasparov aux échecs"
+    },
+    {
+     "left": "2012",
+     "right": "AlexNet : l'apprentissage profond décolle"
+    },
+    {
+     "left": "2016",
+     "right": "AlphaGo bat Lee Sedol au go"
+    }
+   ],
+   "answer": "1950 = Turing propose son test ; 1956 = conférence de Dartmouth : naissance de l'expression « intelligence artificielle » ; 1997 = Deep Blue bat Kasparov aux échecs ; 2012 = AlexNet : l'apprentissage profond décolle ; 2016 = AlphaGo bat Lee Sedol au go",
+   "acceptedAnswers": [],
+   "explanation": "L'IA a une longue histoire : Turing (1950) et Dartmouth (1956) posent les bases, Deep Blue (1997) montre la force du calcul, puis l'apprentissage profond (2012) et AlphaGo (2016) ouvrent l'ère actuelle.",
+   "tip": "La frise : 1950, 1956, 1997, 2012, 2016.",
+   "extraExample": {
+    "text": "En 2017, des chercheurs de Google présentent l'architecture Transformer.",
+    "translation": "Elle est à la base des grands modèles de langage actuels."
+   }
+  },
+  {
+   "id": "cg.l24.e03",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.test_de_turing"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que mesure le test de Turing, proposé en 1950 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La capacité d'une machine à se faire passer pour un humain dans une conversation écrite",
+    "La vitesse de calcul d'un ordinateur",
+    "La capacité d'une machine à battre un humain aux échecs"
+   ],
+   "answer": "La capacité d'une machine à se faire passer pour un humain dans une conversation écrite",
+   "acceptedAnswers": [
+    "La capacité d'une machine à se faire passer pour un humain dans une conversation écrite"
+   ],
+   "explanation": "Dans son « jeu de l'imitation », Turing propose qu'un humain converse par écrit avec une machine et avec un autre humain : s'il ne sait pas les distinguer, la machine a réussi. Réussir ne prouve pas pour autant qu'elle pense ou qu'elle comprend.",
+   "tip": "Test de Turing = imiter l'humain à l'écrit, pas prouver qu'on pense.",
+   "extraExample": {
+    "text": "L'article de 1950 commence par la question « Les machines peuvent-elles penser ? ».",
+    "translation": "Turing propose de la remplacer par une expérience concrète."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La vitesse de calcul d'un ordinateur",
+     "category": "word_confusion",
+     "feedback": "La vitesse de calcul se mesure autrement (opérations par seconde) ; le test de Turing porte sur la conversation."
+    },
+    {
+     "equals": "La capacité d'une machine à battre un humain aux échecs",
+     "category": "word_confusion",
+     "feedback": "Gagner aux échecs est un autre défi (Deep Blue, 1997) ; le test de Turing repose sur la conversation écrite."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e04",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.intelligence_artificielle",
+    "cg.v.apprentissage_automatique",
+    "cg.v.reseau_de_neurones",
+    "cg.v.apprentissage_profond",
+    "cg.v.donnees_entrainement"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots de l'IA et leur définition",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "l'intelligence artificielle",
+     "right": "techniques qui font accomplir à une machine des tâches dites intelligentes"
+    },
+    {
+     "left": "l'apprentissage automatique",
+     "right": "méthode où le programme apprend à partir d'exemples"
+    },
+    {
+     "left": "le réseau de neurones",
+     "right": "programme fait de couches d'unités de calcul reliées entre elles"
+    },
+    {
+     "left": "l'apprentissage profond",
+     "right": "apprentissage avec des réseaux à très nombreuses couches"
+    },
+    {
+     "left": "les données d'entraînement",
+     "right": "exemples à partir desquels un modèle apprend"
+    }
+   ],
+   "answer": "l'intelligence artificielle = techniques qui font accomplir à une machine des tâches dites intelligentes ; l'apprentissage automatique = méthode où le programme apprend à partir d'exemples ; le réseau de neurones = programme fait de couches d'unités de calcul reliées entre elles ; l'apprentissage profond = apprentissage avec des réseaux à très nombreuses couches ; les données d'entraînement = exemples à partir desquels un modèle apprend",
+   "acceptedAnswers": [],
+   "explanation": "L'IA est le domaine général. L'apprentissage automatique en est la méthode dominante : le programme apprend à partir d'exemples (les données d'entraînement) au lieu de suivre des règles écrites à la main. Les réseaux de neurones, empilés en très nombreuses couches, donnent l'apprentissage profond.",
+   "tip": "Poupées russes : apprentissage profond ⊂ apprentissage automatique ⊂ IA.",
+   "extraExample": {
+    "text": "Un « neurone » artificiel n'est qu'un petit calcul sur des nombres.",
+    "translation": "Il s'inspire très librement du neurone biologique, qui est une cellule vivante."
+   }
+  },
+  {
+   "id": "cg.l24.e05",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.youri_gagarine",
+    "cg.v.neil_armstrong",
+    "cg.g23.informatique",
+    "cg.v.ada_lovelace",
+    "cg.v.tim_berners_lee",
+    "cg.v.alan_turing"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Révision — Qui a fait quoi ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Youri Gagarine",
+     "right": "premier homme dans l'espace (1961)"
+    },
+    {
+     "left": "Neil Armstrong",
+     "right": "premier homme sur la Lune (1969)"
+    },
+    {
+     "left": "Ada Lovelace",
+     "right": "premier programme informatique (1843)"
+    },
+    {
+     "left": "Tim Berners-Lee",
+     "right": "inventeur du Web (1989)"
+    },
+    {
+     "left": "Alan Turing",
+     "right": "auteur d'un test pour juger l'intelligence d'une machine (1950)"
+    }
+   ],
+   "answer": "Youri Gagarine = premier homme dans l'espace (1961) ; Neil Armstrong = premier homme sur la Lune (1969) ; Ada Lovelace = premier programme informatique (1843) ; Tim Berners-Lee = inventeur du Web (1989) ; Alan Turing = auteur d'un test pour juger l'intelligence d'une machine (1950)",
+   "acceptedAnswers": [],
+   "explanation": "Gagarine (1961) et Armstrong (1969) pour l'espace ; Lovelace (1843) et Berners-Lee (1989) pour l'informatique ; Turing pour l'IA, avec son test de 1950.",
+   "tip": "Retiens les « premiers » : premier homme dans l'espace, premier pas sur la Lune, premier programme, premier site du Web.",
+   "extraExample": {
+    "text": "Alan Turing décrit aussi, en 1936, une machine théorique qui modélise tout ordinateur.",
+    "translation": "C'est pourquoi on le considère comme le père de l'informatique théorique."
+   }
+  },
+  {
+   "id": "cg.l24.e06",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.apprentissage_automatique",
+    "cg.v.reseau_de_neurones"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 2016, le programme AlphaGo bat le champion Lee Sedol au jeu de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "go",
+    "échecs",
+    "dames",
+    "poker"
+   ],
+   "answer": "go",
+   "acceptedAnswers": [
+    "go",
+    "le go"
+   ],
+   "explanation": "Le go compte bien plus de positions possibles que les échecs : la force brute ne suffisait pas. AlphaGo combine des réseaux de neurones profonds et un apprentissage par l'expérience, après avoir étudié des parties d'experts, en jouant contre lui-même.",
+   "tip": "Échecs : Deep Blue en 1997 ; go : AlphaGo en 2016.",
+   "extraExample": {
+    "text": "Lee Sedol sauve l'honneur en gagnant la quatrième partie.",
+    "translation": "Le score final est de quatre victoires à une pour AlphaGo."
+   },
+   "errorPatterns": [
+    {
+     "equals": "échecs",
+     "category": "word_confusion",
+     "feedback": "Aux échecs, la victoire célèbre est celle de Deep Blue en 1997 ; AlphaGo a été conçu pour le go."
+    },
+    {
+     "equals": "dames",
+     "category": "word_confusion",
+     "feedback": "Les premiers programmes d'IA jouaient déjà aux dames dans les années 1950 ; AlphaGo, lui, a été conçu pour le go."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e07",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.hallucination"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En IA, qu'appelle-t-on une « hallucination » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une réponse fausse ou inventée, présentée comme vraie",
+    "Une panne qui déforme les images affichées",
+    "Une réponse correcte mais beaucoup trop longue"
+   ],
+   "answer": "Une réponse fausse ou inventée, présentée comme vraie",
+   "acceptedAnswers": [
+    "Une réponse fausse ou inventée, présentée comme vraie"
+   ],
+   "explanation": "Une hallucination est une réponse inventée (fait, chiffre, citation, source) donnée avec assurance. Elle vient du fonctionnement même du modèle, qui produit un texte plausible sans le vérifier.",
+   "tip": "Plausible n'est pas vrai.",
+   "extraExample": {
+    "text": "Un modèle de langage peut citer un livre ou un article qui n'existe pas.",
+    "translation": "Il assemble des mots probables, sans consulter de base de faits."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Une panne qui déforme les images affichées",
+     "category": "word_confusion",
+     "feedback": "Ce n'est pas une panne d'affichage : l'hallucination est une réponse inventée, qui a l'air vraie."
+    },
+    {
+     "equals": "Une réponse correcte mais beaucoup trop longue",
+     "category": "word_confusion",
+     "feedback": "La longueur n'a rien à voir : une hallucination est une information fausse ou inventée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e08",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.grand_modele_de_langage"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que fait un grand modèle de langage quand il rédige une réponse ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il prédit le morceau de texte suivant, puis le suivant, et ainsi de suite",
+    "Il cherche la réponse dans une base de faits vérifiés",
+    "Il recopie la page web qui correspond le mieux à la question"
+   ],
+   "answer": "Il prédit le morceau de texte suivant, puis le suivant, et ainsi de suite",
+   "acceptedAnswers": [
+    "Il prédit le morceau de texte suivant, puis le suivant, et ainsi de suite"
+   ],
+   "explanation": "Un grand modèle de langage est entraîné à prédire le morceau de texte (le « jeton ») qui suit. Il produit ainsi un texte plausible et fluide, mais il ne consulte pas par lui-même une base de faits vérifiés.",
+   "tip": "Un modèle de langage est un champion de la suite probable, pas de la vérité.",
+   "extraExample": {
+    "text": "Ces modèles reposent sur l'architecture Transformer, présentée par des chercheurs de Google en 2017.",
+    "translation": "Elle permet de tenir compte de tout le contexte d'une phrase à la fois."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il cherche la réponse dans une base de faits vérifiés",
+     "category": "word_confusion",
+     "feedback": "Par lui-même, un modèle de langage n'interroge pas de base de faits : il prédit un texte plausible, d'où le risque d'erreurs."
+    },
+    {
+     "equals": "Il recopie la page web qui correspond le mieux à la question",
+     "category": "word_confusion",
+     "feedback": "Il ne recopie pas de page : il génère un texte mot après mot, d'après ce qu'il a appris pendant l'entraînement."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e09",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.apprentissage_profond"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire « profond » dans « apprentissage profond » (deep learning) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le réseau de neurones compte de très nombreuses couches",
+    "La machine comprend le sens profond des choses, comme un humain",
+    "La machine apprend à partir de données cachées sur le « web profond »"
+   ],
+   "answer": "Le réseau de neurones compte de très nombreuses couches",
+   "acceptedAnswers": [
+    "Le réseau de neurones compte de très nombreuses couches"
+   ],
+   "explanation": "« Profond » désigne la profondeur du réseau, c'est-à-dire le nombre de couches de neurones empilées. Cela ne veut pas dire que la machine comprend en profondeur : c'est une description de l'architecture.",
+   "tip": "Profond = beaucoup de couches.",
+   "extraExample": {
+    "text": "En 2012, le réseau AlexNet remporte le concours de reconnaissance d'images ImageNet avec une avance écrasante.",
+    "translation": "C'est le point de départ de l'essor de l'apprentissage profond."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La machine comprend le sens profond des choses, comme un humain",
+     "category": "word_confusion",
+     "feedback": "Le mot décrit la structure du réseau, pas une compréhension : la machine calcule sur des nombres."
+    },
+    {
+     "equals": "La machine apprend à partir de données cachées sur le « web profond »",
+     "category": "word_confusion",
+     "feedback": "Le « web profond » désigne des pages non indexées par les moteurs de recherche ; cela n'a aucun rapport avec l'apprentissage profond."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e10",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.donnees_entrainement"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Un outil de recrutement est entraîné sur l'historique des embauches d'une entreprise, où certains profils étaient très peu recrutés. Que risque-t-il de faire ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Reproduire ce déséquilibre, car il a appris de ces exemples",
+    "Corriger automatiquement les injustices du passé",
+    "Ignorer l'historique et choisir au hasard"
+   ],
+   "answer": "Reproduire ce déséquilibre, car il a appris de ces exemples",
+   "acceptedAnswers": [
+    "Reproduire ce déséquilibre, car il a appris de ces exemples"
+   ],
+   "explanation": "Un modèle apprend des exemples qu'on lui donne. Si les données d'entraînement sont biaisées, il reproduit ces biais : une IA n'est jamais plus neutre que les données dont elle a appris.",
+   "tip": "La qualité des données fait la qualité du modèle.",
+   "extraExample": {
+    "text": "Un modèle de reconnaissance d'images est entraîné sur des millions d'images étiquetées.",
+    "translation": "Sans données, pas d'apprentissage."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Corriger automatiquement les injustices du passé",
+     "category": "word_confusion",
+     "feedback": "Rien ne corrige ces injustices tout seul : le modèle cherche à imiter les exemples reçus, avec leurs défauts."
+    },
+    {
+     "equals": "Ignorer l'historique et choisir au hasard",
+     "category": "word_confusion",
+     "feedback": "Le modèle ne choisit pas au hasard : il s'appuie justement sur l'historique appris."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e11",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.conference_de_dartmouth",
+    "cg.v.intelligence_artificielle"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'expression « intelligence artificielle » est proposée par l'informaticien américain John ___ pour la conférence de Dartmouth, en 1956.",
+   "promptLanguage": "fr",
+   "options": [
+    "McCarthy",
+    "Turing",
+    "Minsky",
+    "Shannon"
+   ],
+   "answer": "McCarthy",
+   "acceptedAnswers": [
+    "McCarthy",
+    "John McCarthy"
+   ],
+   "explanation": "John McCarthy forge l'expression dans la proposition de la conférence de Dartmouth. Il est aussi l'inventeur du langage Lisp, longtemps très utilisé en IA.",
+   "tip": "McCarthy baptise l'IA en 1956 ; Turing a proposé son test en 1950.",
+   "extraExample": {
+    "text": "Marvin Minsky et Claude Shannon participent à la même conférence.",
+    "translation": "Ils figurent parmi les pionniers du domaine."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Turing",
+     "category": "word_confusion",
+     "feedback": "Turing a proposé son test en 1950, mais il est mort en 1954 et n'a pas pris part à la conférence de 1956."
+    },
+    {
+     "equals": "Minsky",
+     "category": "word_confusion",
+     "feedback": "Marvin Minsky participe à la conférence, mais c'est McCarthy qui propose l'expression."
+    },
+    {
+     "equals": "Shannon",
+     "category": "word_confusion",
+     "feedback": "Claude Shannon participe à la conférence, mais c'est McCarthy qui propose l'expression."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e12",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.grand_modele_de_langage"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Un grand modèle de langage découpe les textes en petits morceaux de mots appelés des ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "jetons",
+    "syllabes",
+    "paragraphes",
+    "pixels"
+   ],
+   "answer": "jetons",
+   "acceptedAnswers": [
+    "jetons",
+    "jeton",
+    "tokens",
+    "token"
+   ],
+   "explanation": "Le texte est découpé en « jetons » (tokens en anglais), des morceaux de mots. Le modèle prédit le jeton suivant, puis le suivant, et ainsi de suite.",
+   "tip": "Jeton (token) = brique de texte.",
+   "extraExample": {
+    "text": "Un mot courant est souvent un seul jeton ; un mot rare peut être coupé en plusieurs morceaux.",
+    "translation": "Le modèle ne « voit » donc pas toujours les mots comme nous."
+   },
+   "errorPatterns": [
+    {
+     "equals": "syllabes",
+     "category": "word_confusion",
+     "feedback": "Les jetons ne correspondent pas toujours à des syllabes : ce sont des morceaux de mots choisis par statistique."
+    },
+    {
+     "equals": "pixels",
+     "category": "word_confusion",
+     "feedback": "Les pixels sont les points d'une image ; pour le texte, on parle de jetons."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e13",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.deep_blue",
+    "cg.v.apprentissage_automatique"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment Deep Blue a-t-il surtout battu Kasparov en 1997 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Par sa puissance de calcul : il examinait environ 200 millions de positions par seconde",
+    "En apprenant pendant des mois grâce à des millions de parties jouées contre lui-même",
+    "En lisant dans les pensées de Kasparov grâce à un réseau de neurones profond"
+   ],
+   "answer": "Par sa puissance de calcul : il examinait environ 200 millions de positions par seconde",
+   "acceptedAnswers": [
+    "Par sa puissance de calcul : il examinait environ 200 millions de positions par seconde"
+   ],
+   "explanation": "Deep Blue gagne surtout par la force brute : des puces spécialisées lui permettent d'examiner environ 200 millions de positions par seconde, avec des règles d'évaluation écrites par des humains. AlphaGo (2016), lui, progresse en jouant contre lui-même.",
+   "tip": "Deep Blue = calcul massif ; AlphaGo = apprentissage.",
+   "extraExample": {
+    "text": "AlphaGo bat Lee Sedol en mars 2016 par quatre victoires à une.",
+    "translation": "Le go, qui offre bien plus de coups possibles, était réputé hors de portée des machines."
+   },
+   "errorPatterns": [
+    {
+     "equals": "En apprenant pendant des mois grâce à des millions de parties jouées contre lui-même",
+     "category": "word_confusion",
+     "feedback": "C'est la méthode d'AlphaGo (2016). Deep Blue (1997) misait avant tout sur sa puissance de calcul."
+    },
+    {
+     "equals": "En lisant dans les pensées de Kasparov grâce à un réseau de neurones profond",
+     "category": "word_confusion",
+     "feedback": "Aucune machine ne lit les pensées ; et l'apprentissage profond n'a décollé qu'à partir de 2012, bien après Deep Blue."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e14",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.test_de_turing"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le test de Turing.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "son",
+    "Turing",
+    "propose",
+    "en",
+    "Alan",
+    "test",
+    "1950"
+   ],
+   "answer": "Alan Turing propose son test en 1950",
+   "acceptedAnswers": [
+    "Alan Turing propose son test en 1950",
+    "En 1950 Alan Turing propose son test"
+   ],
+   "hint": "Commence par le nom du mathématicien.",
+   "explanation": "En 1950, Alan Turing publie un article qui commence par la question « Les machines peuvent-elles penser ? » et propose son « jeu de l'imitation », aujourd'hui appelé test de Turing.",
+   "tip": "Qui (Turing), quoi (son test), quand (1950).",
+   "extraExample": {
+    "text": "Le prix Turing, créé en 1966, est souvent appelé le « prix Nobel de l'informatique ».",
+    "translation": "En 2018, il est attribué à Yann LeCun, Geoffrey Hinton et Yoshua Bengio."
+   }
+  },
+  {
+   "id": "cg.l24.e15",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.grand_modele_de_langage"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le grand modèle de langage.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "texte",
+    "prédit",
+    "modèle",
+    "la",
+    "Un",
+    "suite",
+    "langage",
+    "grand",
+    "de",
+    "d'un"
+   ],
+   "answer": "Un grand modèle de langage prédit la suite d'un texte",
+   "acceptedAnswers": [
+    "Un grand modèle de langage prédit la suite d'un texte"
+   ],
+   "hint": "Le sujet est « Un grand modèle de langage ».",
+   "explanation": "Un grand modèle de langage est entraîné sur d'immenses quantités de texte pour prédire la suite d'un texte. Cette tâche simple, répétée mot après mot, suffit à produire des réponses très fluides.",
+   "tip": "Un LLM est un prédicteur de la suite d'un texte.",
+   "extraExample": {
+    "text": "Les assistants conversationnels sont construits sur de grands modèles de langage.",
+    "translation": "Ils reçoivent un entraînement supplémentaire pour mieux suivre les consignes."
+   }
+  },
+  {
+   "id": "cg.l24.e16",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.deep_blue"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel champion du monde d'échecs a été battu en 1997 par l'ordinateur Deep Blue ?",
+   "promptLanguage": "fr",
+   "answer": "Garry Kasparov",
+   "acceptedAnswers": [
+    "Garry Kasparov",
+    "Kasparov",
+    "Gary Kasparov",
+    "Garri Kasparov"
+   ],
+   "explanation": "Garry Kasparov, champion du monde d'échecs, perd en mai 1997 un match en six parties contre Deep Blue. Il avait gagné contre une première version de la machine en 1996.",
+   "tip": "Kasparov : l'homme battu par Deep Blue en 1997.",
+   "extraExample": {
+    "text": "Kasparov, né à Bakou en 1963, est champion du monde de 1985 à 2000.",
+    "translation": "Il est considéré comme l'un des plus grands joueurs d'échecs de l'histoire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Anatoli Karpov",
+     "category": "word_confusion",
+     "feedback": "Karpov est le grand rival de Kasparov dans les années 1980, mais c'est Kasparov qui affronte Deep Blue."
+    },
+    {
+     "equals": "Karpov",
+     "category": "word_confusion",
+     "feedback": "Karpov est le grand rival de Kasparov dans les années 1980, mais c'est Kasparov qui affronte Deep Blue."
+    },
+    {
+     "equals": "Bobby Fischer",
+     "category": "word_confusion",
+     "feedback": "Bobby Fischer est champion du monde en 1972, bien avant Deep Blue."
+    },
+    {
+     "equals": "Fischer",
+     "category": "word_confusion",
+     "feedback": "Bobby Fischer est champion du monde en 1972, bien avant Deep Blue."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e17",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.apprentissage_automatique"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on la méthode où un programme apprend à partir d'exemples, au lieu de suivre des règles écrites à la main ?",
+   "promptLanguage": "fr",
+   "answer": "l'apprentissage automatique",
+   "acceptedAnswers": [
+    "l'apprentissage automatique",
+    "apprentissage automatique",
+    "machine learning",
+    "le machine learning",
+    "apprentissage machine"
+   ],
+   "explanation": "Dans l'apprentissage automatique (machine learning), on montre au programme des milliers de cas et il ajuste ses réglages pour se tromper de moins en moins. En programmation classique, c'est l'humain qui écrit les règles.",
+   "tip": "Programmation classique : l'humain écrit les règles ; apprentissage automatique : la machine les déduit des données.",
+   "extraExample": {
+    "text": "Un filtre anti-spam apprend à reconnaître les courriels indésirables à partir d'exemples déjà triés.",
+    "translation": "On parle d'apprentissage supervisé : les exemples sont étiquetés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "apprentissage profond",
+     "category": "word_confusion",
+     "feedback": "L'apprentissage profond est un cas particulier de l'apprentissage automatique, avec des réseaux à très nombreuses couches. La méthode générale s'appelle l'apprentissage automatique."
+    },
+    {
+     "equals": "l'apprentissage profond",
+     "category": "word_confusion",
+     "feedback": "L'apprentissage profond est un cas particulier de l'apprentissage automatique, avec des réseaux à très nombreuses couches. La méthode générale s'appelle l'apprentissage automatique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e18",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.web",
+    "cg.v.tim_berners_lee"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Comment s'appelle le service d'Internet, inventé en 1989 par Tim Berners-Lee, fait de pages reliées par des liens ?",
+   "promptLanguage": "fr",
+   "answer": "le Web",
+   "acceptedAnswers": [
+    "le Web",
+    "Web",
+    "World Wide Web",
+    "le World Wide Web",
+    "WWW",
+    "la Toile"
+   ],
+   "explanation": "Le Web (World Wide Web, « toile d'araignée mondiale »), inventé au CERN en 1989, est le service d'Internet fait de pages reliées par des liens. Internet est le réseau ; le Web n'en est qu'un service.",
+   "tip": "Web = toile d'araignée mondiale (World Wide Web).",
+   "extraExample": {
+    "text": "En 1993, le CERN met la technologie du Web dans le domaine public.",
+    "translation": "Chacun peut l'utiliser gratuitement."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Internet",
+     "category": "word_confusion",
+     "feedback": "Internet est le réseau qui transporte le Web ; le Web est le service de pages reliées par des liens, inventé en 1989."
+    },
+    {
+     "equals": "l'Internet",
+     "category": "word_confusion",
+     "feedback": "Internet est le réseau qui transporte le Web ; le Web est le service de pages reliées par des liens, inventé en 1989."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e19",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.effet_de_serre"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Entraîner un grand modèle consomme beaucoup d'électricité dans des centres de données. Quand cette électricité est produite avec du charbon ou du gaz, quel gaz à effet de serre est surtout rejeté ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le dioxyde de carbone (CO₂)",
+    "l'oxygène",
+    "l'azote"
+   ],
+   "answer": "le dioxyde de carbone (CO₂)",
+   "acceptedAnswers": [
+    "le dioxyde de carbone (CO₂)"
+   ],
+   "explanation": "Brûler du charbon ou du gaz pour produire de l'électricité rejette du CO₂, principal gaz à effet de serre d'origine humaine. L'empreinte climatique d'une IA dépend donc beaucoup de l'origine de l'électricité qu'elle consomme.",
+   "tip": "Combustion d'énergie fossile = CO₂ = effet de serre renforcé.",
+   "extraExample": {
+    "text": "Le GIEC, créé en 1988, fait la synthèse des connaissances sur le climat.",
+    "translation": "Ses rapports montrent le rôle central du CO₂ dans le réchauffement."
+   },
+   "errorPatterns": [
+    {
+     "equals": "l'oxygène",
+     "category": "word_confusion",
+     "feedback": "L'oxygène (21 % de l'air) ne piège pas la chaleur ; ce sont des gaz comme le CO₂ qui renforcent l'effet de serre."
+    },
+    {
+     "equals": "l'azote",
+     "category": "word_confusion",
+     "feedback": "L'azote (78 % de l'air) ne piège pas la chaleur ; ce sont des gaz comme le CO₂ qui renforcent l'effet de serre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e20",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.grand_modele_de_langage"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel sigle anglais désigne les grands modèles de langage, comme ceux des assistants conversationnels ?",
+   "promptLanguage": "fr",
+   "answer": "LLM",
+   "acceptedAnswers": [
+    "LLM",
+    "LLMs",
+    "Large Language Model",
+    "Large Language Models"
+   ],
+   "explanation": "LLM vient de l'anglais Large Language Model : « large » parce que ces modèles comptent des milliards de paramètres, « language » parce qu'ils manipulent du texte.",
+   "tip": "L-L-M : Large, Language, Model.",
+   "extraExample": {
+    "text": "Les paramètres d'un LLM se comptent en milliards.",
+    "translation": "Ce sont les nombres réglés pendant l'entraînement."
+   },
+   "errorPatterns": [
+    {
+     "equals": "IA",
+     "category": "word_confusion",
+     "feedback": "IA est le domaine général (intelligence artificielle) ; le sigle propre aux grands modèles de langage est LLM."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e21",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.octet",
+    "cg.v.grand_modele_de_langage"
+   ],
+   "type": "fill_blank",
+   "difficulty": 4,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Un modèle compte 1 milliard de paramètres, chacun stocké sur 2 octets. Il occupe donc environ ___ Go.",
+   "promptLanguage": "fr",
+   "options": [
+    "2",
+    "16",
+    "200",
+    "2 000"
+   ],
+   "answer": "2",
+   "acceptedAnswers": [
+    "2",
+    "deux"
+   ],
+   "hint": "1 gigaoctet (Go) = 1 milliard d'octets.",
+   "explanation": "1 milliard de paramètres × 2 octets = 2 milliards d'octets, soit 2 gigaoctets (1 Go = 1 milliard d'octets). Les plus grands modèles, avec des centaines de milliards de paramètres, occupent des centaines de gigaoctets.",
+   "tip": "Taille d'un modèle = nombre de paramètres × octets par paramètre.",
+   "extraExample": {
+    "text": "Un modèle de 70 milliards de paramètres à 2 octets chacun occupe environ 140 Go.",
+    "translation": "Il faut donc des cartes graphiques à grande mémoire pour le faire fonctionner."
+   },
+   "errorPatterns": [
+    {
+     "equals": "16",
+     "category": "word_confusion",
+     "feedback": "Tu as compté en bits (2 octets = 16 bits). Or 1 Go = 1 milliard d'octets : 2 milliards d'octets font 2 Go."
+    },
+    {
+     "equals": "2 000",
+     "category": "word_confusion",
+     "feedback": "2 000 Go feraient 2 téraoctets, mille fois trop : 2 milliards d'octets font 2 Go."
+    }
+   ]
+  },
+  {
+   "id": "cg.l24.e22",
+   "unitIds": [
+    "cg.g24.intelligence_artificielle",
+    "cg.v.hallucination"
+   ],
+   "type": "mcq",
+   "difficulty": 4,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Une IA te cite un article scientifique avec titre, auteurs et date précis. Que faire avant de t'en servir ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Vérifier dans une source fiable que cet article existe vraiment",
+    "L'utiliser tel quel : une IA ne cite jamais une source inexistante",
+    "Demander à la même IA si elle est sûre, et la croire si elle répond oui"
+   ],
+   "answer": "Vérifier dans une source fiable que cet article existe vraiment",
+   "acceptedAnswers": [
+    "Vérifier dans une source fiable que cet article existe vraiment"
+   ],
+   "explanation": "Un modèle de langage peut inventer des références qui paraissent parfaitement crédibles : c'est une hallucination. Lui demander s'il est sûr ne suffit pas, car il peut répondre avec le même aplomb. Il faut vérifier dans une source indépendante.",
+   "tip": "Plus c'est précis et important, plus tu vérifies.",
+   "extraExample": {
+    "text": "Pour limiter les hallucinations, on peut donner au modèle des documents fiables à consulter.",
+    "translation": "Mais il reste indispensable de vérifier les informations importantes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'utiliser tel quel : une IA ne cite jamais une source inexistante",
+     "category": "word_confusion",
+     "feedback": "Si : les références inventées sont une hallucination classique, et elles ont l'air très crédibles."
+    },
+    {
+     "equals": "Demander à la même IA si elle est sûre, et la croire si elle répond oui",
+     "category": "word_confusion",
+     "feedback": "La même IA peut répondre « oui » avec autant d'aplomb sur une fausse référence : il faut un contrôle indépendant."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,865 @@
+{
+ "lessonId": "cg.l22",
+ "exercises": [
+  {
+   "id": "cg.l22.e01",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.croute_terrestre",
+    "cg.v.manteau",
+    "cg.v.noyau_terrestre"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel ordre trouve-t-on les couches de la Terre, de la surface vers le centre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "croûte, manteau, noyau",
+    "manteau, croûte, noyau",
+    "croûte, noyau, manteau",
+    "noyau, manteau, croûte"
+   ],
+   "answer": "croûte, manteau, noyau",
+   "acceptedAnswers": [
+    "croûte, manteau, noyau"
+   ],
+   "explanation": "De la surface vers le centre : la croûte (fine couche rocheuse), le manteau (roches chaudes, la couche la plus épaisse), puis le noyau de fer et de nickel.",
+   "tip": "Pense à un œuf dur : coquille (croûte), blanc (manteau), jaune (noyau).",
+   "extraExample": {
+    "text": "Le centre de la Terre est à environ 6 400 km sous nos pieds.",
+    "translation": "Le forage le plus profond jamais réalisé n'a atteint qu'environ 12 km."
+   },
+   "errorPatterns": [
+    {
+     "equals": "manteau, croûte, noyau",
+     "category": "word_confusion",
+     "feedback": "La croûte est tout en surface, au-dessus du manteau."
+    },
+    {
+     "equals": "croûte, noyau, manteau",
+     "category": "word_confusion",
+     "feedback": "Le manteau se trouve entre la croûte et le noyau, pas après lui."
+    },
+    {
+     "equals": "noyau, manteau, croûte",
+     "category": "word_confusion",
+     "feedback": "C'est l'ordre inverse : celui du centre vers la surface."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e02",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.croute_terrestre",
+    "cg.v.manteau",
+    "cg.v.noyau_terrestre",
+    "cg.v.magma"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les couches de la Terre et le magma",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "la croûte",
+     "right": "fine couche rocheuse de la surface"
+    },
+    {
+     "left": "le manteau",
+     "right": "la plus épaisse couche, faite de roches chaudes"
+    },
+    {
+     "left": "le noyau",
+     "right": "fer et nickel, liquide dehors, solide au centre"
+    },
+    {
+     "left": "le magma",
+     "right": "roche fondue en profondeur"
+    }
+   ],
+   "answer": "la croûte = fine couche rocheuse de la surface ; le manteau = la plus épaisse couche, faite de roches chaudes ; le noyau = fer et nickel, liquide dehors, solide au centre ; le magma = roche fondue en profondeur",
+   "acceptedAnswers": [],
+   "explanation": "À l'échelle de la Terre, la croûte est aussi fine que la peau d'une pomme. Le manteau représente plus de 80 % du volume. Le noyau, surtout fait de fer et de nickel, a une partie externe liquide et une graine solide au centre. Le magma, roche fondue, ne se forme que localement, en profondeur.",
+   "tip": "Croûte = peau ; manteau = chair ; noyau = pépin.",
+   "extraExample": {
+    "text": "Les mouvements du fer liquide du noyau externe créent le champ magnétique terrestre.",
+    "translation": "C'est grâce à lui que la boussole indique le nord."
+   }
+  },
+  {
+   "id": "cg.l22.e03",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.alfred_wegener"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Alfred Wegener remarque que l'Amérique du Sud et l'Afrique s'emboîtent comme un puzzle et portent les mêmes fossiles. Quelle idée propose-t-il en 1912 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les continents étaient autrefois réunis, puis se sont éloignés : c'est la dérive des continents",
+    "La Terre grossit, ce qui écarte peu à peu les continents",
+    "Les continents ont toujours occupé la même place"
+   ],
+   "answer": "Les continents étaient autrefois réunis, puis se sont éloignés : c'est la dérive des continents",
+   "acceptedAnswers": [
+    "Les continents étaient autrefois réunis, puis se sont éloignés : c'est la dérive des continents"
+   ],
+   "explanation": "Pour Wegener, les continents ont été réunis autrefois puis se sont éloignés : c'est la dérive des continents (1912). Sa théorie est rejetée de son vivant, faute d'expliquer ce qui fait bouger les continents ; elle est confirmée dans les années 1960 par la tectonique des plaques.",
+   "tip": "Puzzle + mêmes fossiles = continents autrefois réunis.",
+   "extraExample": {
+    "text": "Wegener était météorologue, pas géologue.",
+    "translation": "Il meurt en 1930 lors d'une expédition au Groenland, sans voir sa théorie reconnue."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Terre grossit, ce qui écarte peu à peu les continents",
+     "category": "word_confusion",
+     "feedback": "Une hypothèse de « Terre en expansion » a existé, mais ce n'est pas celle de Wegener : lui pensait que les continents se déplacent."
+    },
+    {
+     "equals": "Les continents ont toujours occupé la même place",
+     "category": "word_confusion",
+     "feedback": "C'était l'opinion dominante avant Wegener. Lui propose au contraire que les continents bougent."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e04",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.pangee"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que la Pangée ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un supercontinent qui réunissait presque toutes les terres émergées",
+    "L'océan unique qui entourait tous les continents",
+    "La plus ancienne chaîne de montagnes du monde"
+   ],
+   "answer": "Un supercontinent qui réunissait presque toutes les terres émergées",
+   "acceptedAnswers": [
+    "Un supercontinent qui réunissait presque toutes les terres émergées"
+   ],
+   "explanation": "Wegener nomme ainsi le supercontinent (du grec « toute la Terre ») qui rassemblait presque toutes les terres, avant de se fragmenter il y a environ 200 millions d'années. L'océan qui l'entourait s'appelait la Panthalassa.",
+   "tip": "Pan- = tout, -gée = Terre : toute la Terre en un seul bloc.",
+   "extraExample": {
+    "text": "L'océan Atlantique est né de la séparation de la Pangée.",
+    "translation": "Il s'élargit encore de quelques centimètres chaque année."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'océan unique qui entourait tous les continents",
+     "category": "word_confusion",
+     "feedback": "L'océan unique s'appelait la Panthalassa ; la Pangée, c'est le continent unique au milieu."
+    },
+    {
+     "equals": "La plus ancienne chaîne de montagnes du monde",
+     "category": "word_confusion",
+     "feedback": "Ce n'est pas une chaîne de montagnes : Pangée désigne un continent géant."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e05",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.plaque_tectonique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Où se concentrent surtout les volcans et les séismes ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Aux frontières entre plaques tectoniques",
+    "Au milieu des plaques, loin des frontières",
+    "Partout, avec la même fréquence"
+   ],
+   "answer": "Aux frontières entre plaques tectoniques",
+   "acceptedAnswers": [
+    "Aux frontières entre plaques tectoniques"
+   ],
+   "explanation": "Les plaques se heurtent, s'écartent ou glissent les unes contre les autres le long de leurs frontières : c'est là que se concentrent la plupart des séismes et des volcans, par exemple autour de l'océan Pacifique (la « ceinture de feu »).",
+   "tip": "Volcans et séismes dessinent le contour des plaques.",
+   "extraExample": {
+    "text": "Quand une plaque océanique plonge sous une autre, on parle de subduction.",
+    "translation": "C'est là que se forment beaucoup de volcans explosifs et de grands séismes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Au milieu des plaques, loin des frontières",
+     "category": "word_confusion",
+     "feedback": "C'est plutôt l'inverse : l'essentiel de l'activité se situe sur les bords des plaques."
+    },
+    {
+     "equals": "Partout, avec la même fréquence",
+     "category": "word_confusion",
+     "feedback": "Non : séismes et volcans sont très concentrés, surtout autour du Pacifique, et pas répartis au hasard."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e06",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.magma"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment appelle-t-on le magma une fois sorti en surface par un volcan ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la lave",
+    "la cendre",
+    "le basalte",
+    "le manteau"
+   ],
+   "answer": "la lave",
+   "acceptedAnswers": [
+    "la lave"
+   ],
+   "explanation": "Le magma est la roche fondue qui se trouve sous terre. Quand elle sort par un volcan, on l'appelle lave ; en refroidissant, elle se solidifie en roches comme le basalte.",
+   "tip": "Magma = sous terre ; lave = dehors.",
+   "extraExample": {
+    "text": "La lave peut dépasser 1 000 °C à sa sortie.",
+    "translation": "Le Piton de la Fournaise, à La Réunion, est l'un des volcans les plus actifs du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la cendre",
+     "category": "word_confusion",
+     "feedback": "Les cendres sont de fines particules de roche projetées dans l'air lors d'une éruption, pas la roche fondue elle-même."
+    },
+    {
+     "equals": "le basalte",
+     "category": "word_confusion",
+     "feedback": "Le basalte est la roche qui se forme quand la lave refroidit et durcit."
+    },
+    {
+     "equals": "le manteau",
+     "category": "word_confusion",
+     "feedback": "Le manteau est une couche de la Terre, pas le nom de la roche fondue sortie d'un volcan."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e07",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.noyau_terrestre"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le noyau de la Terre est surtout fait de fer et de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "nickel",
+    "plomb",
+    "or",
+    "cuivre"
+   ],
+   "answer": "nickel",
+   "acceptedAnswers": [
+    "nickel"
+   ],
+   "explanation": "Le noyau est composé de fer et de nickel. Sa partie externe est liquide, et ses mouvements créent le champ magnétique terrestre ; la graine, au centre, est solide.",
+   "tip": "Fer + nickel : c'est aussi la composition des météorites métalliques.",
+   "extraExample": {
+    "text": "La température du noyau atteint environ 5 000 à 6 000 °C.",
+    "translation": "C'est comparable à la température de la surface du Soleil."
+   },
+   "errorPatterns": [
+    {
+     "equals": "or",
+     "category": "word_confusion",
+     "feedback": "L'or est très rare : le noyau est surtout fait de fer, associé au nickel."
+    },
+    {
+     "equals": "plomb",
+     "category": "word_confusion",
+     "feedback": "Le plomb est un métal bien moins abondant : le noyau est surtout fait de fer et de nickel."
+    },
+    {
+     "equals": "cuivre",
+     "category": "word_confusion",
+     "feedback": "Le cuivre est surtout présent dans la croûte ; le noyau est fait de fer et de nickel."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e08",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.effet_de_serre"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les énergies fossiles (charbon, pétrole, gaz) rejettent surtout du ___, le principal gaz à effet de serre d'origine humaine.",
+   "promptLanguage": "fr",
+   "options": [
+    "dioxyde de carbone",
+    "azote",
+    "oxygène"
+   ],
+   "answer": "dioxyde de carbone",
+   "acceptedAnswers": [
+    "dioxyde de carbone",
+    "le dioxyde de carbone",
+    "CO2",
+    "CO₂",
+    "gaz carbonique"
+   ],
+   "explanation": "Brûler du charbon, du pétrole ou du gaz libère du dioxyde de carbone (CO₂), qui s'accumule dans l'atmosphère et renforce l'effet de serre. L'azote et l'oxygène, qui forment environ 99 % de l'air, ne retiennent pas la chaleur.",
+   "tip": "Combustion d'énergie fossile = CO₂ dans l'air.",
+   "extraExample": {
+    "text": "Le méthane est un autre gaz à effet de serre important, produit surtout par l'élevage, les décharges et les fuites de gaz.",
+    "translation": "À quantité égale, il retient beaucoup plus de chaleur que le CO₂ mais reste moins longtemps dans l'air."
+   },
+   "errorPatterns": [
+    {
+     "equals": "azote",
+     "category": "word_confusion",
+     "feedback": "L'azote forme 78 % de l'air mais n'est pas un gaz à effet de serre."
+    },
+    {
+     "equals": "oxygène",
+     "category": "word_confusion",
+     "feedback": "L'oxygène forme 21 % de l'air et n'est pas un gaz à effet de serre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e09",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.systeme_solaire",
+    "cg.v.effet_de_serre"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Vénus est plus chaude que Mercure, pourtant plus proche du Soleil. Quelle en est la cause ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Son atmosphère épaisse de CO₂ provoque un effet de serre extrême",
+    "Elle tourne beaucoup plus vite sur elle-même que Mercure",
+    "Son noyau est beaucoup plus chaud que celui de Mercure"
+   ],
+   "answer": "Son atmosphère épaisse de CO₂ provoque un effet de serre extrême",
+   "acceptedAnswers": [
+    "Son atmosphère épaisse de CO₂ provoque un effet de serre extrême"
+   ],
+   "explanation": "L'atmosphère de Vénus, très épaisse et faite surtout de CO₂, piège la chaleur : c'est un effet de serre extrême, qui porte la surface à environ 460 °C. Mercure, sans atmosphère notable, ne garde pas la chaleur.",
+   "tip": "Vénus = l'effet de serre poussé à l'extrême.",
+   "extraExample": {
+    "text": "La Terre a, elle aussi, un effet de serre, mais beaucoup plus modéré.",
+    "translation": "Il maintient sa température moyenne autour de 15 °C."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Elle tourne beaucoup plus vite sur elle-même que Mercure",
+     "category": "word_confusion",
+     "feedback": "C'est faux : Vénus tourne très lentement sur elle-même (plus de 240 jours terrestres pour un tour). La cause est son atmosphère."
+    },
+    {
+     "equals": "Son noyau est beaucoup plus chaud que celui de Mercure",
+     "category": "word_confusion",
+     "feedback": "La chaleur de l'intérieur ne joue presque aucun rôle en surface ici : c'est l'atmosphère épaisse de CO₂ qui piège la chaleur du Soleil."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e10",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.alfred_wegener",
+    "cg.v.giec",
+    "cg.v.accord_de_paris",
+    "cg.v.effet_de_serre"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates clés de la Terre et du climat",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1824",
+     "right": "Fourier compare l'atmosphère à une vitre qui garde la chaleur"
+    },
+    {
+     "left": "1896",
+     "right": "Arrhenius calcule que plus de CO₂ réchaufferait la Terre"
+    },
+    {
+     "left": "1912",
+     "right": "Wegener propose la dérive des continents"
+    },
+    {
+     "left": "1988",
+     "right": "création du GIEC"
+    },
+    {
+     "left": "2015",
+     "right": "accord de Paris à la COP21"
+    }
+   ],
+   "answer": "1824 = Fourier compare l'atmosphère à une vitre qui garde la chaleur ; 1896 = Arrhenius calcule que plus de CO₂ réchaufferait la Terre ; 1912 = Wegener propose la dérive des continents ; 1988 = création du GIEC ; 2015 = accord de Paris à la COP21",
+   "acceptedAnswers": [],
+   "explanation": "De Fourier (1824) à l'accord de Paris (2015), la science du climat se construit pendant près de deux siècles, et le lien entre CO₂ et température est établi dès 1896. Wegener (1912) ouvre, lui, l'histoire de la tectonique des plaques.",
+   "tip": "Le lien CO₂-climat est connu depuis 1896 : bien avant la création du GIEC.",
+   "extraExample": {
+    "text": "En 1987, le protocole de Montréal interdit les CFC, qui détruisent la couche d'ozone.",
+    "translation": "C'est un autre problème que le réchauffement climatique."
+   }
+  },
+  {
+   "id": "cg.l22.e11",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.effet_de_serre"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la différence entre la météo et le climat ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La météo décrit le temps qu'il fait à un moment donné ; le climat est la moyenne sur au moins 30 ans",
+    "La météo concerne les précipitations, le climat les températures",
+    "La météo décrit une ville, le climat décrit la Terre entière"
+   ],
+   "answer": "La météo décrit le temps qu'il fait à un moment donné ; le climat est la moyenne sur au moins 30 ans",
+   "acceptedAnswers": [
+    "La météo décrit le temps qu'il fait à un moment donné ; le climat est la moyenne sur au moins 30 ans"
+   ],
+   "explanation": "La météo, c'est le temps qu'il fait un jour donné ; le climat, c'est la moyenne de ce temps sur au moins 30 ans. Un hiver froid ne contredit donc pas le réchauffement, qui se mesure sur des décennies.",
+   "tip": "Météo = aujourd'hui ; climat = moyenne sur des décennies.",
+   "extraExample": {
+    "text": "Trente ans est la période de référence utilisée par les météorologues pour définir le climat d'un lieu.",
+    "translation": "C'est l'Organisation météorologique mondiale qui a fixé cette convention."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La météo concerne les précipitations, le climat les températures",
+     "category": "word_confusion",
+     "feedback": "Les deux concernent températures, pluie, vent… La vraie différence est la durée : un moment donné ou une moyenne sur des décennies."
+    },
+    {
+     "equals": "La météo décrit une ville, le climat décrit la Terre entière",
+     "category": "word_confusion",
+     "feedback": "On peut parler du climat d'une région ou d'une ville ; la différence tient à la durée (30 ans au moins), pas au lieu."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e12",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.effet_de_serre"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelqu'un affirme : « Le réchauffement climatique vient du trou dans la couche d'ozone. » Que lui répondre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Ce sont deux problèmes différents : l'ozone filtre les UV, alors que le réchauffement vient surtout du CO₂",
+    "Il a raison : le trou laisse entrer toute la chaleur du Soleil",
+    "Il a raison : l'ozone est le principal gaz à effet de serre"
+   ],
+   "answer": "Ce sont deux problèmes différents : l'ozone filtre les UV, alors que le réchauffement vient surtout du CO₂",
+   "acceptedAnswers": [
+    "Ce sont deux problèmes différents : l'ozone filtre les UV, alors que le réchauffement vient surtout du CO₂"
+   ],
+   "explanation": "La couche d'ozone, en altitude, filtre les rayons ultraviolets ; son trou vient surtout des CFC, interdits par le protocole de Montréal (1987). Le réchauffement vient de l'excès de gaz à effet de serre, surtout le CO₂ des énergies fossiles.",
+   "tip": "Ozone = protège des UV ; CO₂ = réchauffe.",
+   "extraExample": {
+    "text": "Grâce au protocole de Montréal, la couche d'ozone se reconstitue lentement.",
+    "translation": "Les scientifiques prévoient un retour à la normale d'ici quelques décennies."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il a raison : le trou laisse entrer toute la chaleur du Soleil",
+     "category": "word_confusion",
+     "feedback": "Le trou laisse passer plus d'ultraviolets, pas plus de chaleur : il n'explique pas le réchauffement."
+    },
+    {
+     "equals": "Il a raison : l'ozone est le principal gaz à effet de serre",
+     "category": "word_confusion",
+     "feedback": "Le principal gaz à effet de serre d'origine humaine est le CO₂, pas l'ozone de la haute atmosphère."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e13",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.effet_de_serre"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Sans effet de serre naturel, la température moyenne de la Terre serait d'environ moins ___ °C, au lieu d'environ 15 °C.",
+   "promptLanguage": "fr",
+   "options": [
+    "8",
+    "18",
+    "30",
+    "60"
+   ],
+   "answer": "18",
+   "acceptedAnswers": [
+    "18",
+    "dix-huit"
+   ],
+   "explanation": "L'effet de serre naturel (vapeur d'eau, CO₂, méthane) retient une partie de la chaleur : il fait passer la température moyenne d'environ -18 °C à environ 15 °C, soit 33 °C de plus. Sans lui, la vie telle que nous la connaissons serait impossible.",
+   "tip": "Le problème n'est pas l'effet de serre, mais son renforcement par l'homme.",
+   "extraExample": {
+    "text": "Vénus, avec un effet de serre extrême, atteint environ 460 °C en surface.",
+    "translation": "Mars, avec une atmosphère très mince, est très froide : autour de -60 °C en moyenne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "8",
+     "category": "word_confusion",
+     "feedback": "Ce serait trop doux : sans effet de serre, la Terre serait à environ moins 18 °C."
+    },
+    {
+     "equals": "30",
+     "category": "word_confusion",
+     "feedback": "Un peu trop froid : l'écart dû à l'effet de serre est d'environ 33 °C, donc la moyenne serait d'environ moins 18 °C."
+    },
+    {
+     "equals": "60",
+     "category": "word_confusion",
+     "feedback": "Beaucoup trop froid : c'est plutôt la température de Mars. Pour la Terre, ce serait environ moins 18 °C."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e14",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.accord_de_paris"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'accord de Paris (COP21, 2015) vise à limiter le réchauffement bien en dessous de ___ °C par rapport à l'ère préindustrielle.",
+   "promptLanguage": "fr",
+   "options": [
+    "0,5",
+    "1",
+    "2",
+    "5"
+   ],
+   "answer": "2",
+   "acceptedAnswers": [
+    "2",
+    "deux"
+   ],
+   "explanation": "Les pays s'engagent à limiter la hausse de la température moyenne bien en dessous de 2 °C, en poursuivant les efforts pour ne pas dépasser 1,5 °C. Chaque pays fixe lui-même ses objectifs de réduction des émissions.",
+   "tip": "Paris 2015 : « bien en dessous de 2 °C, si possible 1,5 °C ».",
+   "extraExample": {
+    "text": "COP signifie « conférence des parties » : la COP21 était la 21e réunion annuelle.",
+    "translation": "Le protocole de Kyoto (1997) était un accord plus ancien, qui n'imposait des objectifs qu'aux pays industrialisés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1",
+     "category": "word_confusion",
+     "feedback": "La Terre s'est déjà réchauffée d'environ 1,1 °C ; l'objectif est de rester bien en dessous de 2 °C, si possible 1,5 °C."
+    },
+    {
+     "equals": "5",
+     "category": "word_confusion",
+     "feedback": "5 °C serait un réchauffement catastrophique ; l'objectif de l'accord est bien en dessous de 2 °C."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e15",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.alfred_wegener"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la dérive des continents.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "dérive",
+    "en",
+    "Wegener",
+    "des",
+    "1912",
+    "propose",
+    "continents",
+    "la"
+   ],
+   "answer": "Wegener propose la dérive des continents en 1912",
+   "acceptedAnswers": [
+    "Wegener propose la dérive des continents en 1912",
+    "En 1912 Wegener propose la dérive des continents"
+   ],
+   "hint": "Commence par le nom du scientifique.",
+   "explanation": "En 1912, le scientifique allemand Alfred Wegener propose que les continents se déplacent. Son idée sera rejetée de son vivant, puis confirmée dans les années 1960 par la tectonique des plaques.",
+   "tip": "Qui (Wegener), quoi (la dérive des continents), quand (1912).",
+   "extraExample": {
+    "text": "Dans les années 1960, l'étude des fonds océaniques confirme la théorie de Wegener.",
+    "translation": "On y découvre des dorsales, où naît du nouveau plancher océanique."
+   }
+  },
+  {
+   "id": "cg.l22.e16",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.etats_de_la_matiere"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quand la lave d'un volcan refroidit et durcit en basalte, quel changement d'état se produit-il ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la solidification",
+    "la fusion",
+    "la vaporisation",
+    "la sublimation"
+   ],
+   "answer": "la solidification",
+   "acceptedAnswers": [
+    "la solidification"
+   ],
+   "explanation": "La lave est de la roche liquide ; en refroidissant, elle passe de l'état liquide à l'état solide : c'est la solidification. Le passage inverse, de solide à liquide, est la fusion.",
+   "tip": "Refroidir un liquide : solidification ; chauffer un solide : fusion.",
+   "extraExample": {
+    "text": "Le basalte est la roche volcanique la plus répandue ; il forme le plancher des océans.",
+    "translation": "La croûte océanique est en grande partie faite de basalte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la fusion",
+     "category": "word_confusion",
+     "feedback": "La fusion est l'inverse : solide → liquide, comme la roche qui fond pour devenir magma."
+    },
+    {
+     "equals": "la vaporisation",
+     "category": "word_confusion",
+     "feedback": "La vaporisation est le passage du liquide au gaz ; ici la lave se refroidit et durcit."
+    },
+    {
+     "equals": "la sublimation",
+     "category": "word_confusion",
+     "feedback": "La sublimation est le passage direct de solide à gaz."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e17",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.molecule"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Le CO₂ est une molécule. Quels atomes contient-elle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un atome de carbone et deux atomes d'oxygène",
+    "Un atome de carbone et un atome d'oxygène",
+    "Deux atomes de carbone et un atome d'oxygène"
+   ],
+   "answer": "Un atome de carbone et deux atomes d'oxygène",
+   "acceptedAnswers": [
+    "Un atome de carbone et deux atomes d'oxygène"
+   ],
+   "explanation": "La formule CO₂ se lit : un atome de carbone (C) et deux atomes d'oxygène (O₂), soit trois atomes liés ensemble. Avec un seul oxygène (CO), ce serait le monoxyde de carbone, un autre gaz.",
+   "tip": "Le petit chiffre compte l'atome juste avant lui.",
+   "extraExample": {
+    "text": "Nous rejetons du CO₂ en expirant.",
+    "translation": "Les plantes l'absorbent par photosynthèse et rejettent de l'oxygène."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un atome de carbone et un atome d'oxygène",
+     "category": "word_confusion",
+     "feedback": "Ce serait CO, le monoxyde de carbone, un gaz toxique. Le CO₂ a deux oxygènes."
+    },
+    {
+     "equals": "Deux atomes de carbone et un atome d'oxygène",
+     "category": "word_confusion",
+     "feedback": "Le petit 2 est placé après le O : il y a deux oxygènes, pas deux carbones."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e18",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.pangee"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le supercontinent qui réunissait presque toutes les terres émergées il y a plus de 200 millions d'années ?",
+   "promptLanguage": "fr",
+   "answer": "la Pangée",
+   "acceptedAnswers": [
+    "la Pangée",
+    "Pangée",
+    "Pangee",
+    "la Pangee",
+    "Pangea"
+   ],
+   "explanation": "Le nom Pangée, donné par Wegener, vient du grec et signifie « toute la Terre ». Ce continent unique s'est fragmenté en plusieurs morceaux qui ont dérivé jusqu'à leurs positions actuelles.",
+   "tip": "Pan- (tout) + -gée (Terre).",
+   "extraExample": {
+    "text": "Le mot « panorama » contient aussi le préfixe grec pan-, « tout ».",
+    "translation": "Il désigne une vue qui embrasse tout l'horizon."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Panthalassa",
+     "category": "word_confusion",
+     "feedback": "La Panthalassa est l'océan qui entourait la Pangée, pas le continent."
+    },
+    {
+     "equals": "la Panthalassa",
+     "category": "word_confusion",
+     "feedback": "La Panthalassa est l'océan qui entourait la Pangée, pas le continent."
+    },
+    {
+     "equals": "Gondwana",
+     "category": "word_confusion",
+     "feedback": "Le Gondwana est un grand continent du Sud qui faisait partie de la Pangée, mais ce n'est pas le supercontinent entier."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e19",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.alfred_wegener"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel scientifique allemand propose en 1912 la théorie de la dérive des continents ?",
+   "promptLanguage": "fr",
+   "answer": "Alfred Wegener",
+   "acceptedAnswers": [
+    "Alfred Wegener",
+    "Wegener",
+    "Alfred Lothar Wegener"
+   ],
+   "explanation": "Alfred Wegener (1880-1930), météorologue et explorateur polaire, remarque que les continents s'emboîtent. Ses idées ne sont acceptées que bien après sa mort.",
+   "tip": "Wegener : le « puzzle » des continents.",
+   "extraExample": {
+    "text": "L'Islande est coupée en deux par la dorsale médio-atlantique, où les plaques nord-américaine et eurasienne s'écartent.",
+    "translation": "On peut y marcher dans la faille de Thingvellir, entre les deux plaques."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Charles Darwin",
+     "category": "word_confusion",
+     "feedback": "Darwin est l'auteur de la théorie de l'évolution (1859), pas de la dérive des continents."
+    },
+    {
+     "equals": "Darwin",
+     "category": "word_confusion",
+     "feedback": "Darwin est l'auteur de la théorie de l'évolution (1859), pas de la dérive des continents."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e20",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.voie_lactee"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Comment s'appelle la galaxie dans laquelle se trouvent la Terre et tout le système solaire ?",
+   "promptLanguage": "fr",
+   "answer": "la Voie lactée",
+   "acceptedAnswers": [
+    "la Voie lactée",
+    "Voie lactée",
+    "notre Voie lactée",
+    "Milky Way"
+   ],
+   "explanation": "Le système solaire se trouve dans l'un des bras de la Voie lactée, une galaxie spirale qui contient des centaines de milliards d'étoiles.",
+   "tip": "Voie lactée : la bande blanchâtre visible dans le ciel des nuits sans lune.",
+   "extraExample": {
+    "text": "Notre galaxie n'est qu'une parmi des milliards de galaxies de l'Univers.",
+    "translation": "Le Soleil n'est qu'une étoile parmi les centaines de milliards de la Voie lactée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Andromède",
+     "category": "word_confusion",
+     "feedback": "Andromède est la grande galaxie voisine, à environ 2,5 millions d'années-lumière ; la nôtre est la Voie lactée."
+    },
+    {
+     "equals": "la galaxie d'Andromède",
+     "category": "word_confusion",
+     "feedback": "Andromède est la grande galaxie voisine, à environ 2,5 millions d'années-lumière ; la nôtre est la Voie lactée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l22.e21",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.giec"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel groupe d'experts, créé en 1988 sous l'égide de l'ONU, fait la synthèse des connaissances scientifiques sur le climat ? (sigle)",
+   "promptLanguage": "fr",
+   "answer": "GIEC",
+   "acceptedAnswers": [
+    "GIEC",
+    "le GIEC",
+    "IPCC",
+    "Groupe d'experts intergouvernemental sur l'évolution du climat",
+    "le Groupe d'experts intergouvernemental sur l'évolution du climat"
+   ],
+   "explanation": "Le GIEC (Groupe d'experts intergouvernemental sur l'évolution du climat, IPCC en anglais) ne fait pas ses propres mesures : il évalue des milliers d'études publiées. Il reçoit le prix Nobel de la paix en 2007, avec Al Gore.",
+   "tip": "GIEC = 1988, les rapports de référence sur le climat.",
+   "extraExample": {
+    "text": "Les rapports du GIEC sont rédigés par des centaines de scientifiques du monde entier.",
+    "translation": "Leurs résumés pour les décideurs sont approuvés ligne par ligne avec les États."
+   },
+   "errorPatterns": [
+    {
+     "equals": "COP",
+     "category": "word_confusion",
+     "feedback": "Une COP est la conférence annuelle des pays signataires de la convention de l'ONU sur le climat, pas un groupe d'experts scientifiques."
+    },
+    {
+     "equals": "la COP",
+     "category": "word_confusion",
+     "feedback": "Une COP est la conférence annuelle des pays signataires de la convention de l'ONU sur le climat, pas un groupe d'experts scientifiques."
+    }
+   ]
+  }
+ ]
+}

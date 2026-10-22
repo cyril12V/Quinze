@@ -1,0 +1,881 @@
+{
+ "lessonId": "cg.l23",
+ "exercises": [
+  {
+   "id": "cg.l23.e01",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.bit"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelles valeurs un bit peut-il prendre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "0 ou 1",
+    "de 0 à 9",
+    "de 0 à 255"
+   ],
+   "answer": "0 ou 1",
+   "acceptedAnswers": [
+    "0 ou 1"
+   ],
+   "explanation": "Le bit (de l'anglais binary digit, « chiffre binaire ») est la plus petite unité d'information : il ne vaut que 0 ou 1. Tout ce qu'un ordinateur traite (textes, images, sons) est codé avec des bits.",
+   "tip": "Bit = binary digit : deux valeurs seulement.",
+   "extraExample": {
+    "text": "Avec 2 bits, on obtient 4 combinaisons : 00, 01, 10 et 11.",
+    "translation": "Chaque bit ajouté double le nombre de possibilités."
+   },
+   "errorPatterns": [
+    {
+     "equals": "de 0 à 9",
+     "category": "word_confusion",
+     "feedback": "Les chiffres de 0 à 9 sont ceux du système décimal ; un bit n'a que deux valeurs, 0 ou 1."
+    },
+    {
+     "equals": "de 0 à 255",
+     "category": "word_confusion",
+     "feedback": "De 0 à 255, ce sont les 256 valeurs que peut prendre un octet (8 bits), pas un seul bit."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e02",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.ada_lovelace",
+    "cg.v.alan_turing",
+    "cg.v.tim_berners_lee",
+    "cg.v.algorithme"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les grandes figures de l'informatique",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Blaise Pascal",
+     "right": "la Pascaline, machine à calculer (1642)"
+    },
+    {
+     "left": "Ada Lovelace",
+     "right": "auteure du premier programme (1843)"
+    },
+    {
+     "left": "Alan Turing",
+     "right": "machine théorique de 1936, Enigma"
+    },
+    {
+     "left": "Tim Berners-Lee",
+     "right": "inventeur du Web (1989)"
+    },
+    {
+     "left": "al-Khwârizmî",
+     "right": "son nom a donné le mot « algorithme »"
+    }
+   ],
+   "answer": "Blaise Pascal = la Pascaline, machine à calculer (1642) ; Ada Lovelace = auteure du premier programme (1843) ; Alan Turing = machine théorique de 1936, Enigma ; Tim Berners-Lee = inventeur du Web (1989) ; al-Khwârizmî = son nom a donné le mot « algorithme »",
+   "acceptedAnswers": [],
+   "explanation": "Pascal construit en 1642 une machine à calculer mécanique ; Lovelace écrit en 1843 le premier programme ; Turing pose en 1936 les bases théoriques du calcul et contribue au déchiffrement d'Enigma ; Berners-Lee invente le Web en 1989. Le mot « algorithme » vient du nom d'al-Khwârizmî, savant de Bagdad au IXe siècle.",
+   "tip": "Pascal 1642, Lovelace 1843, Turing 1936, Berners-Lee 1989.",
+   "extraExample": {
+    "text": "Un langage de programmation, Ada, porte le nom d'Ada Lovelace.",
+    "translation": "Il a été créé en 1980 pour l'armée américaine."
+   }
+  },
+  {
+   "id": "cg.l23.e03",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.ada_lovelace"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En 1843, Ada Lovelace écrit le premier programme informatique. Pour quelle machine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la machine analytique de Charles Babbage",
+    "la Pascaline de Blaise Pascal",
+    "la machine Enigma"
+   ],
+   "answer": "la machine analytique de Charles Babbage",
+   "acceptedAnswers": [
+    "la machine analytique de Charles Babbage"
+   ],
+   "explanation": "Charles Babbage a conçu la machine analytique, une machine à calculer programmable qui n'a jamais été achevée. Ada Lovelace écrit pour elle un algorithme (un calcul de nombres de Bernoulli), considéré comme le premier programme.",
+   "tip": "Babbage a conçu la machine, Lovelace a écrit le programme.",
+   "extraExample": {
+    "text": "Lovelace comprend qu'une telle machine pourrait manipuler bien plus que des nombres.",
+    "translation": "Elle imagine qu'elle pourrait, par exemple, composer de la musique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la Pascaline de Blaise Pascal",
+     "category": "word_confusion",
+     "feedback": "La Pascaline (1642) est une machine à calculer mécanique plus ancienne, qui n'était pas programmable."
+    },
+    {
+     "equals": "la machine Enigma",
+     "category": "word_confusion",
+     "feedback": "Enigma est une machine de chiffrement allemande de la Seconde Guerre mondiale, un siècle plus tard."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e04",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.algorithme"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qu'un algorithme ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une suite finie d'instructions précises pour résoudre un problème",
+    "Un langage de programmation",
+    "Un composant électronique de l'ordinateur"
+   ],
+   "answer": "Une suite finie d'instructions précises pour résoudre un problème",
+   "acceptedAnswers": [
+    "Une suite finie d'instructions précises pour résoudre un problème"
+   ],
+   "explanation": "Un algorithme est une suite d'étapes précises qui mène à un résultat, comme une recette de cuisine. Un programme est un algorithme écrit dans un langage de programmation.",
+   "tip": "Algorithme = recette ; programme = recette écrite pour un ordinateur.",
+   "extraExample": {
+    "text": "L'algorithme d'Euclide, vieux de plus de 2 000 ans, calcule le plus grand diviseur commun de deux nombres.",
+    "translation": "Les algorithmes existaient bien avant les ordinateurs."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un langage de programmation",
+     "category": "word_confusion",
+     "feedback": "Un langage (Python, C…) sert à écrire un algorithme pour l'ordinateur, mais n'est pas l'algorithme lui-même."
+    },
+    {
+     "equals": "Un composant électronique de l'ordinateur",
+     "category": "word_confusion",
+     "feedback": "Un algorithme n'est pas un objet physique : c'est une suite d'instructions, une méthode."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e05",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.transistor"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel composant, inventé en 1947, est l'interrupteur de base de tous les circuits numériques ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le transistor",
+    "le tube à vide",
+    "le condensateur"
+   ],
+   "answer": "le transistor",
+   "acceptedAnswers": [
+    "le transistor"
+   ],
+   "explanation": "Le transistor, inventé en 1947 aux laboratoires Bell, laisse passer ou bloque le courant. Il remplace les tubes à vide, gros, fragiles et gourmands en énergie, et permet de miniaturiser les ordinateurs.",
+   "tip": "Transistor = interrupteur minuscule : passe (1) ou bloque (0).",
+   "extraExample": {
+    "text": "Selon la loi de Moore, le nombre de transistors d'une puce double environ tous les deux ans.",
+    "translation": "Cette tendance s'est vérifiée pendant des décennies."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le tube à vide",
+     "category": "word_confusion",
+     "feedback": "Les tubes à vide jouaient ce rôle auparavant, mais ils ont été remplacés par le transistor (1947)."
+    },
+    {
+     "equals": "le condensateur",
+     "category": "word_confusion",
+     "feedback": "Un condensateur stocke de l'énergie électrique ; ce n'est pas un interrupteur."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e06",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.ada_lovelace",
+    "cg.v.alan_turing",
+    "cg.v.transistor",
+    "cg.v.internet",
+    "cg.v.web"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates clés de l'informatique",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1843",
+     "right": "Ada Lovelace écrit le premier programme"
+    },
+    {
+     "left": "1936",
+     "right": "Turing décrit sa machine théorique"
+    },
+    {
+     "left": "1947",
+     "right": "invention du transistor"
+    },
+    {
+     "left": "1969",
+     "right": "premier message sur ARPANET"
+    },
+    {
+     "left": "1989",
+     "right": "Tim Berners-Lee invente le Web"
+    }
+   ],
+   "answer": "1843 = Ada Lovelace écrit le premier programme ; 1936 = Turing décrit sa machine théorique ; 1947 = invention du transistor ; 1969 = premier message sur ARPANET ; 1989 = Tim Berners-Lee invente le Web",
+   "acceptedAnswers": [],
+   "explanation": "De 1843 à 1989 : d'abord l'idée du programme (Lovelace) et du calcul universel (Turing), puis le composant (transistor, 1947), puis le réseau (ARPANET en 1969, ancêtre d'Internet) et enfin le Web (1989).",
+   "tip": "Deux « 9 » : Internet en 1969, le Web vingt ans plus tard, en 1989.",
+   "extraExample": {
+    "text": "En 1993, le CERN met la technologie du Web dans le domaine public.",
+    "translation": "Chacun peut l'utiliser gratuitement, ce qui explique son succès."
+   }
+  },
+  {
+   "id": "cg.l23.e07",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.processeur"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le ___ est le « cerveau » de l'ordinateur : il exécute une à une les instructions des programmes.",
+   "promptLanguage": "fr",
+   "options": [
+    "processeur",
+    "transistor",
+    "octet",
+    "disque dur"
+   ],
+   "answer": "processeur",
+   "acceptedAnswers": [
+    "processeur",
+    "le processeur",
+    "CPU"
+   ],
+   "explanation": "Le processeur (CPU) exécute les instructions des programmes, des milliards de fois par seconde. Il est lui-même fait de milliards de transistors.",
+   "tip": "Processeur = celui qui traite les instructions.",
+   "extraExample": {
+    "text": "En 1971, Intel commercialise le 4004, le premier microprocesseur sur une seule puce.",
+    "translation": "Il contenait environ 2 300 transistors."
+   },
+   "errorPatterns": [
+    {
+     "equals": "transistor",
+     "category": "word_confusion",
+     "feedback": "Le transistor est l'interrupteur de base ; le processeur en contient des milliards et c'est lui qui exécute les programmes."
+    },
+    {
+     "equals": "disque dur",
+     "category": "word_confusion",
+     "feedback": "Le disque dur (ou le SSD) sert à stocker les fichiers ; il n'exécute pas les programmes."
+    },
+    {
+     "equals": "octet",
+     "category": "word_confusion",
+     "feedback": "L'octet est une unité d'information (8 bits), pas un composant."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e08",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.tim_berners_lee",
+    "cg.v.web"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 1989, Tim Berners-Lee invente le ___ au CERN.",
+   "promptLanguage": "fr",
+   "options": [
+    "Web",
+    "Internet",
+    "courriel",
+    "transistor"
+   ],
+   "answer": "Web",
+   "acceptedAnswers": [
+    "Web",
+    "le Web",
+    "World Wide Web",
+    "WWW"
+   ],
+   "explanation": "Tim Berners-Lee propose en mars 1989 un système de pages reliées par des liens hypertextes : le World Wide Web. Internet, le réseau qui le transporte, existait déjà depuis 1969.",
+   "tip": "Internet = le réseau (1969) ; Web = les pages (1989).",
+   "extraExample": {
+    "text": "Le premier site web a pour adresse info.cern.ch.",
+    "translation": "Il présentait le projet World Wide Web lui-même."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Internet",
+     "category": "word_confusion",
+     "feedback": "Internet existait déjà : Berners-Lee a inventé le Web, un service qui fonctionne sur Internet."
+    },
+    {
+     "equals": "courriel",
+     "category": "word_confusion",
+     "feedback": "Le courriel date de 1971 (Ray Tomlinson), bien avant le Web."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e09",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.internet",
+    "cg.v.web"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Internet et le Web, est-ce la même chose ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Non : Internet est le réseau mondial, le Web est un service (pages reliées par des liens) qui l'utilise",
+    "Oui : ce sont deux mots pour désigner la même chose",
+    "Non : le Web est le réseau, et Internet l'ensemble des sites"
+   ],
+   "answer": "Non : Internet est le réseau mondial, le Web est un service (pages reliées par des liens) qui l'utilise",
+   "acceptedAnswers": [
+    "Non : Internet est le réseau mondial, le Web est un service (pages reliées par des liens) qui l'utilise"
+   ],
+   "explanation": "Internet est le réseau de réseaux, né de l'ARPANET en 1969. Le Web, inventé en 1989, n'est qu'un de ses services, à côté du courriel ou des jeux en ligne qui utilisent aussi Internet.",
+   "tip": "Internet = les routes ; Web = les magasins.",
+   "extraExample": {
+    "text": "Un courriel voyage sur Internet sans passer par le Web.",
+    "translation": "Quand tu consultes une page avec un navigateur, tu utilises le Web."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Oui : ce sont deux mots pour désigner la même chose",
+     "category": "word_confusion",
+     "feedback": "C'est une confusion très courante : Internet est le réseau (1969), le Web un service qui l'utilise (1989)."
+    },
+    {
+     "equals": "Non : le Web est le réseau, et Internet l'ensemble des sites",
+     "category": "word_confusion",
+     "feedback": "C'est inversé : Internet est le réseau, le Web est l'ensemble des pages et sites reliés par des liens."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e10",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.internet"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le premier message d'Internet circule en 1969 sur le réseau américain ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "ARPANET",
+    "Cyclades",
+    "Minitel",
+    "Ethernet"
+   ],
+   "answer": "ARPANET",
+   "acceptedAnswers": [
+    "ARPANET",
+    "l'ARPANET"
+   ],
+   "explanation": "Le 29 octobre 1969, le premier message circule sur l'ARPANET entre deux ordinateurs californiens, à l'université UCLA et au Stanford Research Institute. C'est l'ancêtre d'Internet, qui s'unifie ensuite grâce au protocole TCP/IP.",
+   "tip": "ARPANET = l'ancêtre américain d'Internet (1969).",
+   "extraExample": {
+    "text": "Le Français Louis Pouzin conçoit au début des années 1970 le réseau Cyclades.",
+    "translation": "Son principe d'envoi en paquets indépendants inspire TCP/IP."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Cyclades",
+     "category": "word_confusion",
+     "feedback": "Cyclades est un réseau français conçu par Louis Pouzin au début des années 1970 : il a inspiré TCP/IP, mais l'ancêtre d'Internet est américain."
+    },
+    {
+     "equals": "Minitel",
+     "category": "word_confusion",
+     "feedback": "Le Minitel est un service français lancé au début des années 1980, sans lien avec le premier message de 1969."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e11",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.bit",
+    "cg.v.transistor"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi les ordinateurs codent-ils toute l'information avec des 0 et des 1 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Parce qu'un transistor n'a que deux états : il laisse passer le courant ou le bloque",
+    "Parce que 0 et 1 sont les seuls nombres que les humains savent lire",
+    "Parce que le système binaire est plus rapide à écrire pour les humains"
+   ],
+   "answer": "Parce qu'un transistor n'a que deux états : il laisse passer le courant ou le bloque",
+   "acceptedAnswers": [
+    "Parce qu'un transistor n'a que deux états : il laisse passer le courant ou le bloque"
+   ],
+   "explanation": "Un transistor se comporte comme un interrupteur : ouvert ou fermé, soit deux états faciles à distinguer, même avec des composants minuscules. On code donc tout en binaire, avec des 0 et des 1.",
+   "tip": "Deux états physiques = deux symboles.",
+   "extraExample": {
+    "text": "Un octet, c'est 8 bits : 256 combinaisons, assez pour coder une lettre.",
+    "translation": "Un texte de 1 000 lettres occupe donc environ 1 000 octets, soit 1 kilooctet."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Parce que 0 et 1 sont les seuls nombres que les humains savent lire",
+     "category": "word_confusion",
+     "feedback": "Au contraire, le binaire est difficile à lire pour nous ; il est choisi pour la machine, dont les composants n'ont que deux états."
+    },
+    {
+     "equals": "Parce que le système binaire est plus rapide à écrire pour les humains",
+     "category": "word_confusion",
+     "feedback": "Écrire en binaire est long et pénible pour un humain ; c'est la simplicité des circuits qui impose le choix."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e12",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.processeur"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Tu éteins ton ordinateur. Que deviennent les données de la mémoire vive (RAM) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Elles s'effacent : seul le stockage (disque dur, SSD) garde les fichiers",
+    "Elles sont conservées, comme les fichiers du disque",
+    "Elles sont envoyées automatiquement sur Internet"
+   ],
+   "answer": "Elles s'effacent : seul le stockage (disque dur, SSD) garde les fichiers",
+   "acceptedAnswers": [
+    "Elles s'effacent : seul le stockage (disque dur, SSD) garde les fichiers"
+   ],
+   "explanation": "La mémoire vive est la table de travail du processeur : rapide, mais temporaire. Elle s'efface à l'extinction ; les fichiers sont gardés dans le stockage, disque dur ou SSD.",
+   "tip": "RAM = brouillon ; disque ou SSD = classeur.",
+   "extraExample": {
+    "text": "Quand un logiciel plante, tu perds le document non enregistré.",
+    "translation": "Il n'était que dans la mémoire vive."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Elles sont conservées, comme les fichiers du disque",
+     "category": "word_confusion",
+     "feedback": "Ce serait pratique, mais non : la RAM est temporaire ; seules les données enregistrées sur le disque ou le SSD restent."
+    },
+    {
+     "equals": "Elles sont envoyées automatiquement sur Internet",
+     "category": "word_confusion",
+     "feedback": "Rien n'est envoyé automatiquement : les données de la RAM disparaissent simplement."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e13",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.adn",
+    "cg.v.bit"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — L'ADN code l'information génétique avec quatre « lettres » (A, T, G, C). Avec quels symboles un ordinateur code-t-il ses informations ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Deux : 0 et 1",
+    "Dix : de 0 à 9",
+    "Vingt-six : les lettres de l'alphabet"
+   ],
+   "answer": "Deux : 0 et 1",
+   "acceptedAnswers": [
+    "Deux : 0 et 1"
+   ],
+   "explanation": "L'ADN utilise un alphabet de quatre bases (A, T, G, C), l'ordinateur un alphabet de deux symboles, 0 et 1. Dans les deux cas, de longues suites de symboles suffisent à coder une immense quantité d'information.",
+   "tip": "ADN : alphabet à 4 lettres ; ordinateur : alphabet à 2 chiffres.",
+   "extraExample": {
+    "text": "L'ADN humain compte environ 3 milliards de paires de bases.",
+    "translation": "Des chercheurs ont déjà réussi à stocker des fichiers numériques dans de l'ADN synthétique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dix : de 0 à 9",
+     "category": "word_confusion",
+     "feedback": "Les dix chiffres de 0 à 9 forment notre système décimal, pas celui de l'ordinateur."
+    },
+    {
+     "equals": "Vingt-six : les lettres de l'alphabet",
+     "category": "word_confusion",
+     "feedback": "Les 26 lettres sont ce que nous lisons ; la machine, elle, les traduit en suites de 0 et de 1."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e14",
+   "unitIds": [
+    "cg.g22.terre",
+    "cg.v.plaque_tectonique",
+    "cg.v.internet"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Les câbles d'Internet qui relient l'Europe à l'Amérique traversent l'Atlantique, un océan qui s'élargit de quelques centimètres par an. Pourquoi ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les plaques tectoniques de part et d'autre de l'océan s'écartent lentement",
+    "Le niveau des mers monte à cause de la fonte des glaces",
+    "L'érosion rogne peu à peu les côtes"
+   ],
+   "answer": "Les plaques tectoniques de part et d'autre de l'océan s'écartent lentement",
+   "acceptedAnswers": [
+    "Les plaques tectoniques de part et d'autre de l'océan s'écartent lentement"
+   ],
+   "explanation": "L'Atlantique s'élargit parce que les plaques situées de part et d'autre de la dorsale médio-atlantique s'écartent : du nouveau plancher océanique s'y forme sans cesse. Le mouvement est de quelques centimètres par an.",
+   "tip": "Quelques centimètres par an : à peu près la vitesse de pousse des ongles.",
+   "extraExample": {
+    "text": "La quasi-totalité des communications Internet entre continents passe par des câbles sous-marins.",
+    "translation": "Les satellites n'en transportent qu'une faible part."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le niveau des mers monte à cause de la fonte des glaces",
+     "category": "word_confusion",
+     "feedback": "La montée des eaux recouvre les côtes ; elle n'écarte pas les continents l'un de l'autre."
+    },
+    {
+     "equals": "L'érosion rogne peu à peu les côtes",
+     "category": "word_confusion",
+     "feedback": "L'érosion modifie les côtes, mais l'élargissement de l'océan vient du mouvement des plaques."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e15",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.octet"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Un octet regroupe 8 bits et peut prendre ___ valeurs différentes.",
+   "promptLanguage": "fr",
+   "options": [
+    "8",
+    "64",
+    "256",
+    "1 000"
+   ],
+   "answer": "256",
+   "acceptedAnswers": [
+    "256"
+   ],
+   "explanation": "Chaque bit double le nombre de possibilités : 2 × 2 × … (huit fois) = 2⁸ = 256 combinaisons, de 0 à 255. C'est assez pour coder une lettre.",
+   "tip": "8 bits → 2⁸ = 256.",
+   "extraExample": {
+    "text": "Un kilooctet vaut 1 000 octets, un mégaoctet 1 000 kilooctets.",
+    "translation": "Chaque préfixe multiplie par 1 000."
+   },
+   "errorPatterns": [
+    {
+     "equals": "8",
+     "category": "word_confusion",
+     "feedback": "8, c'est le nombre de bits dans un octet ; le nombre de valeurs possibles est 2⁸ = 256."
+    },
+    {
+     "equals": "64",
+     "category": "word_confusion",
+     "feedback": "64 serait 2⁶ (6 bits) ; avec 8 bits, on a 2⁸ = 256 valeurs."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e16",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.tim_berners_lee",
+    "cg.v.web"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'invention du Web.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Web",
+    "au",
+    "invente",
+    "1989",
+    "Tim",
+    "CERN",
+    "le",
+    "en",
+    "Berners-Lee"
+   ],
+   "answer": "Tim Berners-Lee invente le Web au CERN en 1989",
+   "acceptedAnswers": [
+    "Tim Berners-Lee invente le Web au CERN en 1989",
+    "En 1989 Tim Berners-Lee invente le Web au CERN"
+   ],
+   "hint": "Commence par le nom de l'informaticien.",
+   "explanation": "En 1989, au CERN, près de Genève, l'informaticien britannique Tim Berners-Lee imagine un système de pages reliées par des liens hypertextes : c'est le Web.",
+   "tip": "Qui (Berners-Lee), quoi (le Web), où (CERN), quand (1989).",
+   "extraExample": {
+    "text": "Il travaille avec le Belge Robert Cailliau pour développer le projet.",
+    "translation": "Le CERN est installé à la frontière franco-suisse."
+   }
+  },
+  {
+   "id": "cg.l23.e17",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.internet",
+    "cg.v.web"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : Internet et le Web.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "qui",
+    "Internet",
+    "service",
+    "sur",
+    "Le",
+    "est",
+    "fonctionne",
+    "un",
+    "Web"
+   ],
+   "answer": "Le Web est un service qui fonctionne sur Internet",
+   "acceptedAnswers": [
+    "Le Web est un service qui fonctionne sur Internet"
+   ],
+   "hint": "Commence par le service, pas par le réseau.",
+   "explanation": "Le Web n'est pas Internet : c'est l'un des services qui utilisent le réseau, avec le courriel, la messagerie ou les jeux en ligne.",
+   "tip": "Le Web roule sur Internet, comme un camion sur une route.",
+   "extraExample": {
+    "text": "Internet existe depuis 1969, le Web depuis 1989.",
+    "translation": "Vingt ans séparent les deux."
+   }
+  },
+  {
+   "id": "cg.l23.e18",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.ada_lovelace"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle mathématicienne anglaise, fille du poète Lord Byron, a écrit en 1843 le premier programme informatique ?",
+   "promptLanguage": "fr",
+   "answer": "Ada Lovelace",
+   "acceptedAnswers": [
+    "Ada Lovelace",
+    "Lovelace",
+    "Ada Byron",
+    "Augusta Ada King"
+   ],
+   "explanation": "Ada Lovelace (1815-1852) publie en 1843 un algorithme destiné à la machine analytique de Charles Babbage. Elle voit que de telles machines pourraient manipuler autre chose que des nombres.",
+   "tip": "Ada Lovelace + 1843 = premier programme.",
+   "extraExample": {
+    "text": "Le langage de programmation Ada, créé en 1980 pour l'armée américaine, porte son nom.",
+    "translation": "Il est encore utilisé dans l'aéronautique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Grace Hopper",
+     "category": "word_confusion",
+     "feedback": "Grace Hopper, pionnière américaine de la programmation, a travaillé un siècle plus tard (premier compilateur dans les années 1950) ; le premier programme date de 1843, par Ada Lovelace."
+    },
+    {
+     "equals": "Marie Curie",
+     "category": "word_confusion",
+     "feedback": "Marie Curie est une physicienne et chimiste ; le premier programme informatique (1843) est d'Ada Lovelace."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e19",
+   "unitIds": [
+    "cg.g23.informatique",
+    "cg.v.alan_turing"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel mathématicien britannique (1912-1954) a décrit en 1936 une machine théorique capable d'exécuter n'importe quel calcul ?",
+   "promptLanguage": "fr",
+   "answer": "Alan Turing",
+   "acceptedAnswers": [
+    "Alan Turing",
+    "Turing",
+    "Alan Mathison Turing"
+   ],
+   "explanation": "En 1936, Alan Turing imagine une machine abstraite qui modélise tout ordinateur ; il montre aussi que certains problèmes ne peuvent être résolus par aucun calcul. Pendant la guerre, il contribue au déchiffrement d'Enigma.",
+   "tip": "Turing = la théorie de l'ordinateur.",
+   "extraExample": {
+    "text": "Le prix Turing, créé en 1966, récompense chaque année des pionniers de l'informatique.",
+    "translation": "On l'appelle souvent le « prix Nobel de l'informatique »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Charles Babbage",
+     "category": "word_confusion",
+     "feedback": "Babbage (XIXe siècle) a conçu la machine analytique, une machine mécanique ; la machine théorique de 1936 est de Turing."
+    },
+    {
+     "equals": "Babbage",
+     "category": "word_confusion",
+     "feedback": "Babbage (XIXe siècle) a conçu la machine analytique, une machine mécanique ; la machine théorique de 1936 est de Turing."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e20",
+   "unitIds": [
+    "cg.g21.espace",
+    "cg.v.apollo_11"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — La même année que le premier message sur ARPANET, des hommes marchent sur la Lune. Quelle mission américaine les y a emmenés ?",
+   "promptLanguage": "fr",
+   "answer": "Apollo 11",
+   "acceptedAnswers": [
+    "Apollo 11",
+    "Apollo XI",
+    "Apollo-11"
+   ],
+   "explanation": "Le 20 juillet 1969, Apollo 11 pose Neil Armstrong et Buzz Aldrin sur la Lune ; le 29 octobre de la même année, le premier message circule sur ARPANET. 1969 est une année charnière pour l'espace comme pour les réseaux.",
+   "tip": "1969 : la Lune (Apollo 11) et le premier message d'Internet.",
+   "extraExample": {
+    "text": "Michael Collins reste en orbite autour de la Lune pendant que ses deux collègues descendent.",
+    "translation": "Le troisième homme d'Apollo 11 ne marche donc pas sur la Lune."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Apollo 13",
+     "category": "word_confusion",
+     "feedback": "Apollo 13 (1970) devait se poser sur la Lune mais a dû faire demi-tour après une explosion à bord."
+    },
+    {
+     "equals": "Vostok 1",
+     "category": "word_confusion",
+     "feedback": "Vostok 1 est le vaisseau de Gagarine en 1961 ; les premiers pas sur la Lune datent de 1969, avec Apollo 11."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e21",
+   "unitIds": [
+    "cg.g20.chimie",
+    "cg.v.tableau_periodique",
+    "cg.v.transistor"
+   ],
+   "type": "mcq",
+   "difficulty": 4,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Le premier transistor, en 1947, utilise du germanium, un élément dont Mendeleïev avait annoncé l'existence avant sa découverte en 1886. Qu'est-ce qui lui avait permis de le prévoir ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les cases vides de son tableau périodique, qu'il remplissait avec des éléments aux propriétés prévisibles",
+    "Une observation du germanium dans la lumière du Soleil",
+    "Une expérience où il avait fabriqué l'élément en laboratoire"
+   ],
+   "answer": "Les cases vides de son tableau périodique, qu'il remplissait avec des éléments aux propriétés prévisibles",
+   "acceptedAnswers": [
+    "Les cases vides de son tableau périodique, qu'il remplissait avec des éléments aux propriétés prévisibles"
+   ],
+   "explanation": "Mendeleïev classe les éléments selon leurs propriétés et laisse des cases vides, où il décrit à l'avance des éléments encore inconnus. L'un d'eux, découvert en 1886 par l'Allemand Clemens Winkler, est le germanium : il correspondait à ses prédictions.",
+   "tip": "Cases vides = éléments à découvrir.",
+   "extraExample": {
+    "text": "Le silicium, qui a remplacé le germanium dans les puces électroniques, est juste au-dessus de lui dans le tableau périodique.",
+    "translation": "Même colonne : des propriétés voisines."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Une observation du germanium dans la lumière du Soleil",
+     "category": "word_confusion",
+     "feedback": "Ce n'est pas par une observation du Soleil : c'est la logique du tableau, avec ses cases vides, qui a fait prédire l'élément."
+    },
+    {
+     "equals": "Une expérience où il avait fabriqué l'élément en laboratoire",
+     "category": "word_confusion",
+     "feedback": "Mendeleïev ne l'a pas fabriqué : il l'a prédit sur le papier, et c'est Clemens Winkler qui l'a découvert en 1886."
+    }
+   ]
+  },
+  {
+   "id": "cg.l23.e22",
+   "unitIds": [
+    "cg.g23.informatique"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "En 1971, Ray Tomlinson envoie le premier courriel entre deux ordinateurs. Quel signe choisit-il pour séparer le nom de l'utilisateur de celui de la machine ?",
+   "promptLanguage": "fr",
+   "answer": "@",
+   "acceptedAnswers": [
+    "@",
+    "arobase",
+    "l'arobase",
+    "un arobase",
+    "arobas",
+    "at"
+   ],
+   "explanation": "Ray Tomlinson choisit le signe @ (arobase), un signe du clavier qui ne risquait pas d'apparaître dans un nom, pour séparer le nom de l'utilisateur de celui de la machine qui l'héberge. Il est depuis le symbole de l'adresse électronique.",
+   "tip": "@ se lit « at » en anglais : l'utilisateur « à » telle machine.",
+   "extraExample": {
+    "text": "Les premières adresses ressemblaient à « utilisateur@machine ».",
+    "translation": "Le principe n'a pas changé depuis 1971 : on écrit aujourd'hui prenom@domaine.fr."
+   },
+   "errorPatterns": [
+    {
+     "equals": "#",
+     "category": "word_confusion",
+     "feedback": "Le # (dièse) sert aux mots-clics ou aux numéros ; le signe de l'adresse électronique est @."
+    },
+    {
+     "equals": "&",
+     "category": "word_confusion",
+     "feedback": "Le & (esperluette) remplace « et » ; le signe de l'adresse électronique est @."
+    }
+   ]
+  }
+ ]
+}

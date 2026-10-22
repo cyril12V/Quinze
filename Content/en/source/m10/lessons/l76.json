@@ -1,0 +1,1055 @@
+{
+ "lessonId": "en.l76",
+ "exercises": [
+  {
+   "id": "en.l76.e01",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.fever"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Tom has a high fever and looks pale. He ___ be ill.",
+   "promptLanguage": "en",
+   "options": [
+    "must",
+    "mustn't",
+    "can't",
+    "should"
+   ],
+   "answer": "must",
+   "acceptedAnswers": [
+    "must"
+   ],
+   "hint": "Tu es presque sûr de ce que tu déduis.",
+   "explanation": "Tom a de la fièvre et il est pâle : tu en déduis qu'il est presque sûrement malade. Pour une déduction presque certaine, on utilise must + verbe de base : he must be ill.",
+   "tip": "Must = je suis presque sûr que c'est vrai.",
+   "extraExample": {
+    "text": "You've been working since six: you must be exhausted.",
+    "translation": "Tu travailles depuis six heures : tu dois être épuisé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "mustn't",
+     "category": "word_confusion",
+     "feedback": "Mustn't exprime une interdiction, pas une déduction. Pour dire que c'est presque sûr : must."
+    },
+    {
+     "equals": "can't",
+     "category": "word_confusion",
+     "feedback": "Can't veut dire « ce n'est pas possible ». Avec de la fièvre, il est sûrement malade : must."
+    },
+    {
+     "equals": "should",
+     "category": "word_confusion",
+     "feedback": "Should exprime un conseil ou une attente. Pour une déduction presque certaine : must."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e02",
+   "unitIds": [
+    "en.v.likely",
+    "en.v.evidence",
+    "en.v.cause",
+    "en.v.symptom",
+    "en.v.fever"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque expression anglaise à sa traduction.",
+   "prompt": "Santé et probabilité",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "be likely to win",
+     "right": "avoir de bonnes chances de gagner"
+    },
+    {
+     "left": "clear evidence",
+     "right": "des preuves claires"
+    },
+    {
+     "left": "cause a problem",
+     "right": "causer un problème"
+    },
+    {
+     "left": "a symptom of stress",
+     "right": "un symptôme de stress"
+    },
+    {
+     "left": "a high fever",
+     "right": "une forte fièvre"
+    }
+   ],
+   "answer": "be likely to win = avoir de bonnes chances de gagner ; clear evidence = des preuves claires ; cause a problem = causer un problème ; a symptom of stress = un symptôme de stress ; a high fever = une forte fièvre",
+   "acceptedAnswers": [
+    "be likely to win = avoir de bonnes chances de gagner ; clear evidence = des preuves claires ; cause a problem = causer un problème ; a symptom of stress = un symptôme de stress ; a high fever = une forte fièvre"
+   ],
+   "explanation": "Evidence est indénombrable : pas de -s, pas de a. Cause est à la fois un verbe (provoquer) et un nom (la cause). Likely est un adjectif : be likely to + verbe.",
+   "tip": "Evidence ≠ « évidence » : c'est « preuve(s) ». Pour « évident », on dit obvious.",
+   "extraExample": {
+    "text": "There is no evidence that the water is dangerous.",
+    "translation": "Il n'y a aucune preuve que l'eau soit dangereuse."
+   }
+  },
+  {
+   "id": "en.l76.e03",
+   "unitIds": [
+    "en.g57.modals_of_deduction"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la phrase correcte.",
+   "prompt": "Quelle phrase est correcte pour dire : « Elle ne peut pas être à la maison : sa voiture n'est pas là » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "She can't be at home: her car isn't here.",
+    "She mustn't be at home: her car isn't here.",
+    "She can't to be at home: her car isn't here."
+   ],
+   "answer": "She can't be at home: her car isn't here.",
+   "acceptedAnswers": [
+    "She can't be at home: her car isn't here."
+   ],
+   "hint": "Impossible ≠ interdit.",
+   "explanation": "Pour une déduction négative (« ce n'est pas possible »), on utilise can't + verbe de base. Mustn't exprime une interdiction (You mustn't be late).",
+   "tip": "Déduction négative = can't ; interdiction = mustn't.",
+   "extraExample": {
+    "text": "That can't be Tom's car: he doesn't have one.",
+    "translation": "Ça ne peut pas être la voiture de Tom : il n'en a pas."
+   },
+   "errorPatterns": [
+    {
+     "equals": "She mustn't be at home: her car isn't here.",
+     "category": "word_confusion",
+     "feedback": "Mustn't exprime une interdiction. Pour dire que c'est impossible, on utilise can't."
+    },
+    {
+     "equals": "She can't to be at home: her car isn't here.",
+     "category": "grammar",
+     "feedback": "Après un modal, jamais to : she can't be."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e04",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.storm"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "The roof is damaged and there are branches everywhere. There ___ a storm last night.",
+   "promptLanguage": "en",
+   "options": [
+    "must have been",
+    "must be",
+    "must was",
+    "can't have been"
+   ],
+   "answer": "must have been",
+   "acceptedAnswers": [
+    "must have been"
+   ],
+   "hint": "Last night : on parle du passé.",
+   "explanation": "On déduit un fait passé à partir de ce qu'on voit : must have + participe passé (must have been). Must be parlerait du présent.",
+   "tip": "Déduction sur le passé : must / can't / might + have + participe passé.",
+   "extraExample": {
+    "text": "The window is broken: someone must have broken in.",
+    "translation": "La fenêtre est cassée : quelqu'un a dû entrer par effraction."
+   },
+   "errorPatterns": [
+    {
+     "equals": "must be",
+     "category": "verb_tense",
+     "feedback": "Last night est dans le passé : il faut must have been."
+    },
+    {
+     "equals": "must was",
+     "category": "grammar",
+     "feedback": "Après un modal, pas de forme conjuguée de be : must have been."
+    },
+    {
+     "equals": "can't have been",
+     "category": "word_confusion",
+     "feedback": "Can't have been = ce n'est pas possible. Ici, tout indique qu'il y a eu une tempête : must have been."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e05",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.climate"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "The climate in Siberia is very cold, so it ___ be hot there in January.",
+   "promptLanguage": "en",
+   "options": [
+    "can't",
+    "mustn't",
+    "might",
+    "should"
+   ],
+   "answer": "can't",
+   "acceptedAnswers": [
+    "can't"
+   ],
+   "hint": "Le climat rend la chose impossible.",
+   "explanation": "Le climat est très froid, donc une chaleur en janvier est impossible : can't + verbe de base. Climate désigne le climat habituel d'une région.",
+   "tip": "Climate = le climat habituel ; weather = le temps du jour.",
+   "extraExample": {
+    "text": "It can't be 3 a.m. already: it's still light.",
+    "translation": "Il ne peut pas être déjà 3 heures du matin : il fait encore jour."
+   },
+   "errorPatterns": [
+    {
+     "equals": "mustn't",
+     "category": "word_confusion",
+     "feedback": "Mustn't exprime une interdiction. Pour dire que c'est impossible : can't."
+    },
+    {
+     "equals": "might",
+     "category": "word_confusion",
+     "feedback": "Might = c'est possible. Ici, le climat rend la chaleur impossible : can't."
+    },
+    {
+     "equals": "should",
+     "category": "word_confusion",
+     "feedback": "Should exprime un conseil ou une attente, pas une impossibilité : can't."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e06",
+   "unitIds": [
+    "en.v.storm",
+    "en.v.flood",
+    "en.v.climate",
+    "en.v.evidence"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque expression anglaise à sa traduction.",
+   "prompt": "Météo et environnement",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "a heavy storm",
+     "right": "une forte tempête"
+    },
+    {
+     "left": "a flood warning",
+     "right": "une alerte aux inondations"
+    },
+    {
+     "left": "climate change",
+     "right": "le changement climatique"
+    },
+    {
+     "left": "enough evidence",
+     "right": "assez de preuves"
+    }
+   ],
+   "answer": "a heavy storm = une forte tempête ; a flood warning = une alerte aux inondations ; climate change = le changement climatique ; enough evidence = assez de preuves",
+   "acceptedAnswers": [
+    "a heavy storm = une forte tempête ; a flood warning = une alerte aux inondations ; climate change = le changement climatique ; enough evidence = assez de preuves"
+   ],
+   "explanation": "Flood est un nom (une inondation) et un verbe (inonder). Climate (climat) se prononce /ˈklaɪmət/ : le i sonne comme dans eye. Storm désigne aussi bien une tempête qu'un orage.",
+   "tip": "Climate = long terme ; weather = le temps qu'il fait aujourd'hui.",
+   "extraExample": {
+    "text": "The river flooded the village after three days of rain.",
+    "translation": "La rivière a inondé le village après trois jours de pluie."
+   }
+  },
+  {
+   "id": "en.l76.e07",
+   "unitIds": [
+    "en.g39.present_perfect_intro",
+    "en.v.fever"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "As-tu déjà eu une forte fièvre ?",
+   "promptLanguage": "fr",
+   "tokens": [
+    "fever",
+    "Have",
+    "you",
+    "a",
+    "ever",
+    "high",
+    "had"
+   ],
+   "answer": "Have you ever had a high fever",
+   "acceptedAnswers": [
+    "Have you ever had a high fever"
+   ],
+   "hint": "Expérience de vie : Have you ever + participe passé.",
+   "explanation": "Pour parler d'une expérience de vie, on utilise le present perfect : Have + sujet + ever + participe passé (had). Le participe passé de have est had.",
+   "tip": "Have you ever + participe passé ? = As-tu déjà… ?",
+   "extraExample": {
+    "text": "Have you ever been in a storm at sea?",
+    "translation": "As-tu déjà été dans une tempête en mer ?"
+   }
+  },
+  {
+   "id": "en.l76.e08",
+   "unitIds": [
+    "en.g57.modals_of_deduction"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne phrase.",
+   "prompt": "Tu n'es pas sûr, ce n'est qu'une possibilité : « Il est peut-être au bureau ». Quelle phrase choisis-tu ?",
+   "promptLanguage": "fr",
+   "options": [
+    "He might be at the office.",
+    "He must be at the office.",
+    "He maybe at the office."
+   ],
+   "answer": "He might be at the office.",
+   "acceptedAnswers": [
+    "He might be at the office."
+   ],
+   "hint": "Peut-être = une simple possibilité.",
+   "explanation": "Might, may et could expriment une simple possibilité ; must exprime une quasi-certitude. Maybe est un adverbe : on dit Maybe he is at the office ou He might be at the office, jamais He maybe at the office.",
+   "tip": "« Peut-être » avant le sujet = maybe ; après le sujet = may / might be.",
+   "extraExample": {
+    "text": "Maybe she is stuck in traffic. / She might be stuck in traffic.",
+    "translation": "Elle est peut-être coincée dans les embouteillages."
+   },
+   "errorPatterns": [
+    {
+     "equals": "He must be at the office.",
+     "category": "word_confusion",
+     "feedback": "Must exprime une quasi-certitude. Pour une simple possibilité : might, may ou could."
+    },
+    {
+     "equals": "He maybe at the office.",
+     "category": "grammar",
+     "feedback": "Maybe est un adverbe, il ne remplace pas un verbe. Avec be, il faut un modal : he might / may be."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e09",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.likely"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "It is ___ to rain this afternoon: look at those dark clouds.",
+   "promptLanguage": "en",
+   "options": [
+    "likely",
+    "probably",
+    "maybe",
+    "possible"
+   ],
+   "answer": "likely",
+   "acceptedAnswers": [
+    "likely"
+   ],
+   "hint": "Be + adjectif + to + verbe.",
+   "explanation": "Be likely to + verbe = avoir de fortes chances de. Likely est un adjectif ; probably est l'adverbe correspondant et se place devant le verbe : it will probably rain.",
+   "tip": "It is likely to rain / It will probably rain : deux constructions, un seul sens.",
+   "extraExample": {
+    "text": "She is likely to win the election.",
+    "translation": "Elle a de fortes chances de gagner l'élection."
+   },
+   "errorPatterns": [
+    {
+     "equals": "probably",
+     "category": "grammar",
+     "feedback": "Probably est un adverbe : it will probably rain. Après it is, on a besoin d'un adjectif : likely."
+    },
+    {
+     "equals": "maybe",
+     "category": "grammar",
+     "feedback": "Maybe est un adverbe (Maybe it will rain). Après it is, il faut un adjectif : likely."
+    },
+    {
+     "equals": "possible",
+     "category": "grammar",
+     "feedback": "On ne dit pas possible to rain. Avec to + verbe, la structure est be likely to."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e10",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.cause",
+    "en.v.symptom"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "The doctor says the symptoms might be ___ by a virus.",
+   "promptLanguage": "en",
+   "options": [
+    "caused",
+    "cause",
+    "causing",
+    "causes"
+   ],
+   "answer": "caused",
+   "acceptedAnswers": [
+    "caused"
+   ],
+   "hint": "Be + participe passé + by.",
+   "explanation": "Might be caused by = est peut-être causé par. Après be, on utilise le participe passé (caused), suivi de by pour la cause. Might exprime ici une possibilité sur le présent.",
+   "tip": "Might be + participe passé + by : une cause possible.",
+   "extraExample": {
+    "text": "The delay may be caused by the storm.",
+    "translation": "Le retard est peut-être dû à la tempête."
+   },
+   "errorPatterns": [
+    {
+     "equals": "cause",
+     "category": "grammar",
+     "feedback": "Après be, il faut le participe passé (caused) pour dire « est causé par »."
+    },
+    {
+     "equals": "causing",
+     "category": "grammar",
+     "feedback": "Be causing voudrait dire « est en train de causer ». Pour « est causé par » : caused by."
+    },
+    {
+     "equals": "causes",
+     "category": "grammar",
+     "feedback": "Après might be, on ne met pas de présent : caused by."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e11",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.evidence"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "There is no ___ that he stole the money, so he can't be guilty.",
+   "promptLanguage": "en",
+   "options": [
+    "evidence",
+    "evidences",
+    "an evidence",
+    "evident"
+   ],
+   "answer": "evidence",
+   "acceptedAnswers": [
+    "evidence"
+   ],
+   "hint": "Un nom indénombrable.",
+   "explanation": "Evidence (preuve, preuves) est indénombrable : no evidence, some evidence, jamais evidences ni an evidence. Attention, faux ami : « une évidence » se dit plutôt an obvious fact.",
+   "tip": "Evidence : indénombrable, comme information ou advice.",
+   "extraExample": {
+    "text": "The police found new evidence yesterday.",
+    "translation": "La police a trouvé de nouvelles preuves hier."
+   },
+   "errorPatterns": [
+    {
+     "equals": "evidences",
+     "category": "grammar",
+     "feedback": "Evidence est indénombrable : pas de -s."
+    },
+    {
+     "equals": "an evidence",
+     "category": "grammar",
+     "feedback": "Evidence est indénombrable : pas de a ni de an."
+    },
+    {
+     "equals": "evident",
+     "category": "word_confusion",
+     "feedback": "Evident est un adjectif (évident). Le nom « preuve » se dit evidence."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e12",
+   "unitIds": [
+    "en.g12.must",
+    "en.g57.modals_of_deduction"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "You ___ wear a seat belt: it's the law.",
+   "promptLanguage": "en",
+   "options": [
+    "must",
+    "might",
+    "can't",
+    "may"
+   ],
+   "answer": "must",
+   "acceptedAnswers": [
+    "must"
+   ],
+   "hint": "La loi l'impose.",
+   "explanation": "Ici, must exprime une obligation (la loi l'impose). Le même mot sert aussi à la déduction (You must be tired). C'est le contexte qui décide du sens.",
+   "tip": "Must = obligation (devoir) ou déduction (sûrement).",
+   "extraExample": {
+    "text": "You must be tired after that long trip.",
+    "translation": "Tu dois être fatigué après ce long voyage."
+   },
+   "errorPatterns": [
+    {
+     "equals": "might",
+     "category": "word_confusion",
+     "feedback": "Might exprime une possibilité. Ici, c'est une obligation légale : must."
+    },
+    {
+     "equals": "can't",
+     "category": "word_confusion",
+     "feedback": "Can't veut dire « ce n'est pas possible » ou « il est interdit de ». Ici, c'est obligatoire : must."
+    },
+    {
+     "equals": "may",
+     "category": "word_confusion",
+     "feedback": "May exprime une possibilité ou une permission. Ici, c'est une obligation : must."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e13",
+   "unitIds": [
+    "en.g54.mixed_conditionals",
+    "en.v.climate"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "If we had acted earlier, the climate ___ changing so fast now.",
+   "promptLanguage": "en",
+   "options": [
+    "wouldn't be",
+    "wouldn't have been",
+    "won't be",
+    "wasn't"
+   ],
+   "answer": "wouldn't be",
+   "acceptedAnswers": [
+    "wouldn't be"
+   ],
+   "hint": "Now ramène le résultat au présent.",
+   "explanation": "Conditionnel mixte : la condition est passée (had acted), la conséquence est présente (now) : wouldn't be changing. Le marqueur now montre qu'on revient au présent.",
+   "tip": "Condition passée → had + participe passé ; résultat présent (now) → would + base.",
+   "extraExample": {
+    "text": "If she had saved more, she would be on holiday now.",
+    "translation": "Si elle avait économisé plus, elle serait en vacances maintenant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "wouldn't have been",
+     "category": "verb_tense",
+     "feedback": "Now indique un résultat présent : wouldn't be (pas wouldn't have been)."
+    },
+    {
+     "equals": "won't be",
+     "category": "verb_tense",
+     "feedback": "Will ne va pas avec if + had + participe passé : on imagine un passé différent, donc wouldn't be."
+    },
+    {
+     "equals": "wasn't",
+     "category": "verb_tense",
+     "feedback": "Il manque would : le résultat d'une condition imaginaire se construit avec wouldn't be."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e14",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.fever"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Il a de la fièvre : il doit avoir la grippe.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "flu",
+    "He",
+    "fever",
+    "has",
+    "a",
+    "so",
+    "the",
+    "he",
+    "must",
+    "have"
+   ],
+   "answer": "He has a fever so he must have the flu",
+   "acceptedAnswers": [
+    "He has a fever so he must have the flu"
+   ],
+   "hint": "Must + have (le verbe avoir) : présent.",
+   "explanation": "Must + verbe de base = déduction sur le présent. Ici le verbe est have (avoir la grippe) : he must have the flu. Ce n'est pas must have + participe passé.",
+   "tip": "Must have the flu (a la grippe) ≠ must have had the flu (a eu la grippe).",
+   "extraExample": {
+    "text": "She is yawning all the time: she must be tired.",
+    "translation": "Elle n'arrête pas de bâiller : elle doit être fatiguée."
+   }
+  },
+  {
+   "id": "en.l76.e15",
+   "unitIds": [
+    "en.g57.modals_of_deduction"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Il n'a pas pu oublier notre rendez-vous.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "forgotten",
+    "He",
+    "our",
+    "have",
+    "can't",
+    "appointment"
+   ],
+   "answer": "He can't have forgotten our appointment",
+   "acceptedAnswers": [
+    "He can't have forgotten our appointment"
+   ],
+   "hint": "Can't + have + participe passé.",
+   "explanation": "Déduction négative sur le passé : can't have + participe passé (forgotten). « Il n'a pas pu oublier » veut dire qu'il est impossible qu'il ait oublié.",
+   "tip": "Forget – forgot – forgotten.",
+   "extraExample": {
+    "text": "They can't have left yet: their coats are still here.",
+    "translation": "Ils ne peuvent pas être déjà partis : leurs manteaux sont encore là."
+   }
+  },
+  {
+   "id": "en.l76.e16",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.storm"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "La tempête a dû causer ces dégâts.",
+   "promptLanguage": "fr",
+   "answer": "The storm must have caused this damage.",
+   "acceptedAnswers": [
+    "The storm must have caused this damage.",
+    "The storm must have caused the damage.",
+    "The storm must have caused all this damage.",
+    "The storm must have caused all that damage.",
+    "The storm must have done this damage.",
+    "The storm must have done the damage.",
+    "The storm must have done all this damage.",
+    "The storm must have done all that damage.",
+    "This damage must have been caused by the storm.",
+    "The damage must have been caused by the storm.",
+    "All this damage must have been caused by the storm."
+   ],
+   "hint": "« A dû » (déduction) = must have + participe passé.",
+   "explanation": "Déduction presque certaine sur le passé : must have + participe passé (must have caused). « A dû » se traduit ici par must have, et non par had to. Damage est indénombrable.",
+   "tip": "« A dû » (déduction) = must have + participe passé.",
+   "extraExample": {
+    "text": "Tom isn't answering: he must have fallen asleep.",
+    "translation": "Tom ne répond pas : il a dû s'endormir."
+   },
+   "errorPatterns": [
+    {
+     "contains": "must caused",
+     "category": "grammar",
+     "feedback": "Après must, il faut have + participe passé : must have caused."
+    },
+    {
+     "contains": "must of",
+     "category": "spelling",
+     "feedback": "Must of est une faute d'écriture (must've se prononce comme must of) : on écrit must have."
+    },
+    {
+     "contains": "must has",
+     "category": "grammar",
+     "feedback": "Après un modal, jamais has : must have."
+    },
+    {
+     "contains": "must to",
+     "category": "grammar",
+     "feedback": "Après un modal, jamais to : must have caused."
+    },
+    {
+     "contains": "damages",
+     "category": "grammar",
+     "feedback": "Damage est indénombrable : this damage."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e17",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.symptom",
+    "en.v.cause"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Ces symptômes ne peuvent pas être dus au stress.",
+   "promptLanguage": "fr",
+   "answer": "These symptoms can't be caused by stress.",
+   "acceptedAnswers": [
+    "These symptoms can't be caused by stress.",
+    "These symptoms can't be due to stress.",
+    "These symptoms can't be the result of stress.",
+    "These symptoms cannot be caused by stress.",
+    "These symptoms cannot be due to stress.",
+    "These symptoms cannot be the result of stress.",
+    "Those symptoms can't be caused by stress.",
+    "Those symptoms can't be due to stress.",
+    "Those symptoms can't be the result of stress.",
+    "Those symptoms cannot be caused by stress.",
+    "Those symptoms cannot be due to stress.",
+    "Those symptoms cannot be the result of stress.",
+    "Stress can't be the cause of these symptoms.",
+    "Stress can't be the cause of those symptoms.",
+    "Stress cannot be the cause of these symptoms.",
+    "Stress cannot be the cause of those symptoms.",
+    "Stress can't cause these symptoms.",
+    "Stress can't cause those symptoms.",
+    "Stress cannot cause these symptoms.",
+    "Stress cannot cause those symptoms."
+   ],
+   "hint": "Impossible : can't.",
+   "explanation": "Déduction négative : can't + verbe de base (be). « Ne peuvent pas être dus à » se dit can't be caused by ou can't be due to. Mustn't n'est jamais une déduction négative.",
+   "tip": "Impossible = can't, jamais mustn't.",
+   "extraExample": {
+    "text": "That can't be the right address: there is no house number 12.",
+    "translation": "Ça ne peut pas être la bonne adresse : il n'y a pas de numéro 12."
+   },
+   "errorPatterns": [
+    {
+     "contains": "mustn't be",
+     "category": "word_confusion",
+     "feedback": "Mustn't exprime une interdiction. Pour dire que c'est impossible : can't be."
+    },
+    {
+     "contains": "don't can",
+     "category": "grammar",
+     "feedback": "Can n'utilise pas don't : la forme négative est can't."
+    },
+    {
+     "contains": "can't to",
+     "category": "grammar",
+     "feedback": "Après un modal, jamais to : can't be."
+    },
+    {
+     "contains": "can be caused",
+     "category": "verb_tense",
+     "feedback": "Can't (impossible) est le contraire de must. Ici, la phrase est négative : can't be caused by."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e18",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.flood",
+    "en.v.climate"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "The floods might have been caused by climate change.",
+   "promptLanguage": "en",
+   "answer": "Les inondations ont peut-être été causées par le changement climatique.",
+   "acceptedAnswers": [
+    "Les inondations ont peut-être été causées par le changement climatique.",
+    "Les inondations sont peut-être dues à le changement climatique.",
+    "Les inondations ont peut-être été provoquées par le changement climatique.",
+    "Les inondations pourraient avoir été causées par le changement climatique.",
+    "Les inondations pourraient avoir été provoquées par le changement climatique.",
+    "Les inondations pourraient être dues à le changement climatique.",
+    "Le changement climatique a peut-être causé les inondations.",
+    "Le changement climatique a peut-être provoqué les inondations.",
+    "Le changement climatique pourrait avoir causé les inondations.",
+    "Le changement climatique pourrait avoir provoqué les inondations."
+   ],
+   "explanation": "Might have been caused by = une possibilité sur le passé : « ont peut-être été causées par » ou « pourraient avoir été causées par ». Might exprime l'incertitude, pas la quasi-certitude.",
+   "tip": "Might / may / could have = « peut-être » ; must have = « a dû ».",
+   "extraExample": {
+    "text": "The delay may have been caused by the storm.",
+    "translation": "Le retard a peut-être été causé par la tempête."
+   },
+   "errorPatterns": [
+    {
+     "contains": "doivent avoir été",
+     "category": "word_confusion",
+     "feedback": "Might exprime une simple possibilité (« peut-être »). « Doivent avoir été » traduirait must have been, une quasi-certitude."
+    },
+    {
+     "contains": "ont dû être",
+     "category": "word_confusion",
+     "feedback": "« Ont dû être » traduirait must have been (quasi-certitude). Might have been = « ont peut-être été »."
+    },
+    {
+     "contains": "devaient",
+     "category": "word_confusion",
+     "feedback": "Might have been ne signifie pas « devaient » : c'est « ont peut-être été »."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e19",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.evidence"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "D'après les preuves, il ne peut pas avoir menti.",
+   "promptLanguage": "fr",
+   "answer": "According to the evidence, he can't have lied.",
+   "acceptedAnswers": [
+    "According to the evidence, he can't have lied.",
+    "According to the evidence, he couldn't have lied.",
+    "Based on the evidence, he can't have lied.",
+    "Based on the evidence, he couldn't have lied.",
+    "Judging by the evidence, he can't have lied.",
+    "Judging by the evidence, he couldn't have lied.",
+    "From the evidence, he can't have lied.",
+    "From the evidence, he couldn't have lied.",
+    "He can't have lied, according to the evidence.",
+    "He can't have lied, judging by the evidence.",
+    "He couldn't have lied, according to the evidence.",
+    "He couldn't have lied, judging by the evidence."
+   ],
+   "hint": "Impossible dans le passé : can't have + participe passé.",
+   "explanation": "Déduction négative sur le passé : can't have + participe passé (can't have lied). « Ne peut pas avoir menti » = il est impossible qu'il ait menti. Evidence reste indénombrable, avec the ici.",
+   "tip": "Impossible dans le passé = can't have + participe passé (couldn't have marche aussi).",
+   "extraExample": {
+    "text": "She can't have known about the plan: nobody told her.",
+    "translation": "Elle ne peut pas avoir su pour le plan : personne ne lui en a parlé."
+   },
+   "errorPatterns": [
+    {
+     "contains": "mustn't have",
+     "category": "word_confusion",
+     "feedback": "Mustn't exprime une interdiction. Pour une déduction négative sur le passé : can't have + participe passé."
+    },
+    {
+     "contains": "can't have lie ",
+     "category": "grammar",
+     "feedback": "Après have, il faut le participe passé : can't have lied."
+    },
+    {
+     "contains": "can't lied",
+     "category": "grammar",
+     "feedback": "Il manque have : can't have lied."
+    },
+    {
+     "contains": "evidences",
+     "category": "grammar",
+     "feedback": "Evidence est indénombrable : pas de -s."
+    },
+    {
+     "contains": "according the",
+     "category": "preposition",
+     "feedback": "On dit according to : according to the evidence."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e20",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.miss"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on : « Elle n'est pas encore là : elle a dû rater son bus » ?",
+   "promptLanguage": "fr",
+   "answer": "She isn't here yet: she must have missed her bus.",
+   "acceptedAnswers": [
+    "She isn't here yet: she must have missed her bus.",
+    "She isn't here yet: she must have missed the bus.",
+    "She isn't here yet, she must have missed her bus.",
+    "She isn't here yet, she must have missed the bus.",
+    "She isn't here yet so she must have missed her bus.",
+    "She isn't here yet so she must have missed the bus.",
+    "She isn't there yet: she must have missed her bus.",
+    "She isn't there yet: she must have missed the bus.",
+    "She isn't there yet, she must have missed her bus.",
+    "She isn't there yet, she must have missed the bus.",
+    "She isn't there yet so she must have missed her bus.",
+    "She isn't there yet so she must have missed the bus.",
+    "She is not here yet: she must have missed her bus.",
+    "She is not here yet: she must have missed the bus.",
+    "She is not here yet, she must have missed her bus.",
+    "She is not here yet, she must have missed the bus.",
+    "She is not here yet so she must have missed her bus.",
+    "She is not here yet so she must have missed the bus.",
+    "She is not there yet: she must have missed her bus.",
+    "She is not there yet: she must have missed the bus.",
+    "She is not there yet, she must have missed her bus.",
+    "She is not there yet, she must have missed the bus.",
+    "She is not there yet so she must have missed her bus.",
+    "She is not there yet so she must have missed the bus.",
+    "She hasn't arrived yet: she must have missed her bus.",
+    "She hasn't arrived yet: she must have missed the bus.",
+    "She hasn't arrived yet, she must have missed her bus.",
+    "She hasn't arrived yet, she must have missed the bus.",
+    "She hasn't arrived yet so she must have missed her bus.",
+    "She hasn't arrived yet so she must have missed the bus.",
+    "She hasn't come yet: she must have missed her bus.",
+    "She hasn't come yet: she must have missed the bus.",
+    "She hasn't come yet, she must have missed her bus.",
+    "She hasn't come yet, she must have missed the bus.",
+    "She hasn't come yet so she must have missed her bus.",
+    "She hasn't come yet so she must have missed the bus.",
+    "She hasn't got here yet: she must have missed her bus.",
+    "She hasn't got here yet: she must have missed the bus.",
+    "She hasn't got here yet, she must have missed her bus.",
+    "She hasn't got here yet, she must have missed the bus.",
+    "She hasn't got here yet so she must have missed her bus.",
+    "She hasn't got here yet so she must have missed the bus.",
+    "She hasn't turned up yet: she must have missed her bus.",
+    "She hasn't turned up yet: she must have missed the bus.",
+    "She hasn't turned up yet, she must have missed her bus.",
+    "She hasn't turned up yet, she must have missed the bus.",
+    "She hasn't turned up yet so she must have missed her bus.",
+    "She hasn't turned up yet so she must have missed the bus.",
+    "She hasn't shown up yet: she must have missed her bus.",
+    "She hasn't shown up yet: she must have missed the bus.",
+    "She hasn't shown up yet, she must have missed her bus.",
+    "She hasn't shown up yet, she must have missed the bus.",
+    "She hasn't shown up yet so she must have missed her bus.",
+    "She hasn't shown up yet so she must have missed the bus."
+   ],
+   "hint": "« A dû » (déduction) = must have + participe passé.",
+   "explanation": "« Elle a dû rater » est une déduction sur le passé : must have + participe passé (missed). Pas de had to (obligation) ici. Miss est régulier : missed.",
+   "tip": "« A dû » (déduction) = must have + participe passé ; « a dû » (obligation) = had to.",
+   "extraExample": {
+    "text": "He didn't come to the meeting: he must have forgotten.",
+    "translation": "Il n'est pas venu à la réunion : il a dû oublier."
+   },
+   "errorPatterns": [
+    {
+     "contains": "must missed",
+     "category": "grammar",
+     "feedback": "Après must, il faut have + participe passé : must have missed."
+    },
+    {
+     "contains": "must has missed",
+     "category": "grammar",
+     "feedback": "Après un modal, jamais has : must have missed."
+    },
+    {
+     "contains": "must of",
+     "category": "spelling",
+     "feedback": "Must of est une faute d'écriture : on écrit must have (must've)."
+    },
+    {
+     "contains": "should have missed",
+     "category": "word_confusion",
+     "feedback": "Should have missed veut dire « aurait dû rater ». Pour une déduction (« a dû rater »), on utilise must have missed."
+    },
+    {
+     "contains": "had to miss",
+     "category": "word_confusion",
+     "feedback": "Had to exprime une obligation passée. Pour une déduction (« a dû rater »), on utilise must have missed."
+    }
+   ]
+  },
+  {
+   "id": "en.l76.e21",
+   "unitIds": [
+    "en.g57.modals_of_deduction",
+    "en.v.likely",
+    "en.v.evidence",
+    "en.v.cause",
+    "en.v.symptom",
+    "en.v.fever",
+    "en.v.flood",
+    "en.v.climate",
+    "en.v.storm"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase de déduction avec must, can't, might, may ou could (présent ou passé) et un de ces mots : likely, evidence, cause, symptom, fever, flood, climate, storm.",
+   "prompt": "Tu vois un indice (une route bloquée, un ami absent, un ciel noir…). Que déduis-tu ?",
+   "promptLanguage": "fr",
+   "answer": "The road is blocked: there must have been a flood.",
+   "acceptedAnswers": [
+    "The road is blocked: there must have been a flood.",
+    "She has a high fever, so she can't come to work.",
+    "The sky is black: a storm might be coming.",
+    "The symptoms could be caused by stress."
+   ],
+   "requirements": {
+    "mustInclude": [
+     [
+      "must",
+      "can't",
+      "might",
+      "may",
+      "could"
+     ],
+     [
+      "likely",
+      "evidence",
+      "cause",
+      "caused",
+      "symptom",
+      "symptoms",
+      "fever",
+      "flood",
+      "flooded",
+      "climate",
+      "storm"
+     ]
+    ],
+    "minWords": 6
+   },
+   "explanation": "Pour déduire : must (presque sûr), can't (impossible), might / may / could (possible), suivis du verbe de base pour le présent, ou de have + participe passé pour le passé.",
+   "tip": "Sûr : must. Possible : might. Impossible : can't. Passé : + have + participe passé.",
+   "extraExample": {
+    "text": "The lights are off, so they must be asleep.",
+    "translation": "Les lumières sont éteintes, donc ils doivent dormir."
+   },
+   "errorPatterns": [
+    {
+     "contains": "mustn't be",
+     "category": "word_confusion",
+     "feedback": "Mustn't exprime une interdiction. Pour une déduction négative : can't be."
+    },
+    {
+     "contains": "must to",
+     "category": "grammar",
+     "feedback": "Après un modal, jamais to : must be, must have been."
+    },
+    {
+     "contains": "must have went",
+     "category": "conjugation",
+     "feedback": "Après have, il faut le participe passé : must have gone, pas went."
+    },
+    {
+     "contains": "maybe he might",
+     "category": "word_confusion",
+     "feedback": "Maybe et might expriment la même idée (peut-être) : n'utilise qu'un des deux."
+    }
+   ]
+  }
+ ]
+}

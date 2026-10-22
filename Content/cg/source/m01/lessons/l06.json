@@ -1,0 +1,831 @@
+{
+ "lessonId": "cg.l06",
+ "exercises": [
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.poilu",
+    "cg.v.guerre_de_tranchees",
+    "cg.v.armistice_de_1918",
+    "cg.v.societe_des_nations",
+    "cg.v.triple_entente"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots de la Grande Guerre",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Poilu",
+     "right": "soldat français de 14-18"
+    },
+    {
+     "left": "Tranchée",
+     "right": "fossé où les soldats vivent et combattent"
+    },
+    {
+     "left": "Armistice",
+     "right": "arrêt des combats, pas encore la paix"
+    },
+    {
+     "left": "Société des Nations",
+     "right": "organisation pour préserver la paix, créée en 1919"
+    },
+    {
+     "left": "Triple-Entente",
+     "right": "alliance France, Royaume-Uni, Russie"
+    }
+   ],
+   "answer": "Poilu = soldat français de 14-18 ; Tranchée = fossé où les soldats vivent et combattent ; Armistice = arrêt des combats, pas encore la paix ; Société des Nations = organisation pour préserver la paix, créée en 1919 ; Triple-Entente = alliance France, Royaume-Uni, Russie",
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq mots résument la Grande Guerre : le poilu dans sa tranchée, l'armistice qui arrête les combats, la SDN qui veut préserver la paix et la Triple-Entente qui structure les alliances.",
+   "tip": "Poilu + tranchée = la vie du soldat ; armistice + SDN = la fin de la guerre.",
+   "extraExample": {
+    "text": "Environ 8 millions de Français ont été mobilisés pendant la guerre.",
+    "translation": "Presque toutes les familles ont perdu un proche."
+   },
+   "id": "cg.l06.e01"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.attentat_de_sarajevo"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel événement du 28 juin 1914 déclenche la Première Guerre mondiale ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
+    "L'invasion de la Belgique par l'Allemagne",
+    "La déclaration de guerre de la France à l'Allemagne",
+    "La révolution russe"
+   ],
+   "answer": "L'assassinat de l'archiduc François-Ferdinand à Sarajevo",
+   "acceptedAnswers": [
+    "L'assassinat de l'archiduc François-Ferdinand à Sarajevo"
+   ],
+   "explanation": "L'héritier du trône d'Autriche-Hongrie est assassiné à Sarajevo par un nationaliste serbe. L'Autriche-Hongrie déclare la guerre à la Serbie, et le jeu des alliances entraîne toute l'Europe.",
+   "tip": "Sarajevo 1914 : l'étincelle qui allume la poudrière européenne.",
+   "extraExample": {
+    "text": "L'Allemagne déclare la guerre à la France le 3 août 1914.",
+    "translation": "L'invasion de la Belgique fait entrer le Royaume-Uni dans la guerre le lendemain."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'invasion de la Belgique par l'Allemagne",
+     "category": "word_confusion",
+     "feedback": "L'invasion de la Belgique a lieu début août 1914, après l'attentat."
+    },
+    {
+     "equals": "La déclaration de guerre de la France à l'Allemagne",
+     "category": "word_confusion",
+     "feedback": "La France ne déclare pas la guerre : c'est l'Allemagne qui la lui déclare, le 3 août 1914."
+    },
+    {
+     "equals": "La révolution russe",
+     "category": "word_confusion",
+     "feedback": "La révolution russe a lieu en 1917, au milieu de la guerre."
+    }
+   ],
+   "id": "cg.l06.e02"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.triple_entente"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quels pays forment la Triple-Entente en 1914 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La France, le Royaume-Uni et la Russie",
+    "L'Allemagne, l'Autriche-Hongrie et l'Italie",
+    "La France, l'Allemagne et le Royaume-Uni",
+    "Le Royaume-Uni, les États-Unis et la Russie"
+   ],
+   "answer": "La France, le Royaume-Uni et la Russie",
+   "acceptedAnswers": [
+    "La France, le Royaume-Uni et la Russie"
+   ],
+   "explanation": "La Triple-Entente réunit la France, le Royaume-Uni et la Russie. En face, la Triple-Alliance réunit l'Allemagne, l'Autriche-Hongrie et l'Italie ; mais l'Italie reste neutre en 1914 et rejoint l'Entente en 1915.",
+   "tip": "Entente = France, Royaume-Uni, Russie ; Empires centraux = Allemagne et Autriche-Hongrie.",
+   "extraExample": {
+    "text": "L'« Entente cordiale » désigne l'accord de 1904 entre la France et le Royaume-Uni.",
+    "translation": "Il met fin à des siècles de rivalité."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Allemagne, l'Autriche-Hongrie et l'Italie",
+     "category": "word_confusion",
+     "feedback": "C'est la Triple-Alliance, le camp adverse."
+    },
+    {
+     "equals": "Le Royaume-Uni, les États-Unis et la Russie",
+     "category": "word_confusion",
+     "feedback": "Les États-Unis n'entrent en guerre qu'en 1917."
+    }
+   ],
+   "id": "cg.l06.e03"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.poilu"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qu'un « poilu » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un soldat français de la Première Guerre mondiale",
+    "Un officier de l'armée allemande",
+    "Un médecin militaire",
+    "Un résistant de 1940"
+   ],
+   "answer": "Un soldat français de la Première Guerre mondiale",
+   "acceptedAnswers": [
+    "Un soldat français de la Première Guerre mondiale"
+   ],
+   "explanation": "Poilu est le surnom des soldats français de 14-18, du mot « poil », signe de virilité et de courage dans l'argot militaire. Environ 8 millions de Français ont été mobilisés.",
+   "tip": "Poilu = le soldat français de 14-18.",
+   "extraExample": {
+    "text": "Le dernier poilu, Lazare Ponticelli, est mort en 2008.",
+    "translation": "Il était né en Italie, en 1897."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un résistant de 1940",
+     "category": "word_confusion",
+     "feedback": "Les résistants de 1940-1945 appartiennent à la Seconde Guerre mondiale."
+    }
+   ],
+   "id": "cg.l06.e04"
+  },
+  {
+   "unitIds": [
+    "cg.v.troisieme_republique",
+    "cg.g06.premiere_guerre_mondiale"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — En 1914, quel régime, né en 1870 après la chute de Napoléon III, gouverne la France ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Troisième République",
+    "Le Second Empire",
+    "La Cinquième République",
+    "La monarchie de Juillet"
+   ],
+   "answer": "La Troisième République",
+   "acceptedAnswers": [
+    "La Troisième République"
+   ],
+   "explanation": "La Troisième République (1870-1940) dirige la France pendant toute la Première Guerre mondiale. Le Second Empire a pris fin en 1870 et la Cinquième République date de 1958.",
+   "tip": "Troisième République = 1870-1940, de Sedan à Pétain.",
+   "extraExample": {
+    "text": "Raymond Poincaré est président de la République de 1913 à 1920.",
+    "translation": "Il est en fonction pendant toute la guerre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Second Empire",
+     "category": "word_confusion",
+     "feedback": "Le Second Empire de Napoléon III s'achève en 1870."
+    },
+    {
+     "equals": "La Cinquième République",
+     "category": "word_confusion",
+     "feedback": "La Cinquième République est celle d'aujourd'hui, née en 1958."
+    }
+   ],
+   "id": "cg.l06.e05"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.bataille_de_la_marne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que se passe-t-il en septembre 1914, lors de la bataille de la Marne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'armée allemande est arrêtée avant d'atteindre Paris",
+    "Les Allemands prennent Paris",
+    "Les Français reprennent l'Alsace",
+    "Les États-Unis entrent en guerre"
+   ],
+   "answer": "L'armée allemande est arrêtée avant d'atteindre Paris",
+   "acceptedAnswers": [
+    "L'armée allemande est arrêtée avant d'atteindre Paris"
+   ],
+   "explanation": "Du 6 au 12 septembre 1914, les armées française et britannique de Joffre arrêtent les Allemands sur la Marne. Paris est sauvée, le plan allemand d'une victoire rapide échoue et la guerre s'installe dans la durée.",
+   "tip": "La Marne : Paris sauvée, la guerre éclair échoue.",
+   "extraExample": {
+    "text": "Le général Gallieni fait réquisitionner environ 600 taxis parisiens pour amener des soldats au front.",
+    "translation": "On les appelle les « taxis de la Marne »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les Allemands prennent Paris",
+     "category": "word_confusion",
+     "feedback": "Paris n'est jamais prise en 1914 ; c'est justement ce que la Marne empêche."
+    },
+    {
+     "equals": "Les États-Unis entrent en guerre",
+     "category": "word_confusion",
+     "feedback": "Les États-Unis n'entrent en guerre qu'en 1917."
+    }
+   ],
+   "id": "cg.l06.e06"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.bataille_de_verdun"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi la bataille de Verdun (1916) est-elle restée célèbre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "C'est une très longue bataille, extrêmement meurtrière, que l'armée française réussit à tenir",
+    "C'est la première bataille où l'on utilise des chars",
+    "C'est la bataille qui met fin à la guerre",
+    "C'est la bataille où les États-Unis débarquent"
+   ],
+   "answer": "C'est une très longue bataille, extrêmement meurtrière, que l'armée française réussit à tenir",
+   "acceptedAnswers": [
+    "C'est une très longue bataille, extrêmement meurtrière, que l'armée française réussit à tenir"
+   ],
+   "explanation": "La bataille dure de février à décembre 1916 et fait environ 300 000 morts, français et allemands. Les Français ne cèdent pas la ville, ravitaillée par la « Voie sacrée » : Verdun devient le symbole du sacrifice des poilus.",
+   "tip": "Verdun 1916 : la bataille-symbole des poilus.",
+   "extraExample": {
+    "text": "En 1984, Mitterrand et Kohl se tiennent par la main devant l'ossuaire de Douaumont.",
+    "translation": "Le geste symbolise la réconciliation franco-allemande."
+   },
+   "errorPatterns": [
+    {
+     "equals": "C'est la première bataille où l'on utilise des chars",
+     "category": "word_confusion",
+     "feedback": "Les chars apparaissent à la Somme, en septembre 1916, côté britannique."
+    },
+    {
+     "equals": "C'est la bataille qui met fin à la guerre",
+     "category": "word_confusion",
+     "feedback": "La guerre ne s'arrête qu'en novembre 1918, deux ans plus tard."
+    }
+   ],
+   "id": "cg.l06.e07"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.armistice_de_1918",
+    "cg.v.traite_de_versailles"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que l'armistice du 11 novembre 1918 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un cessez-le-feu, pas encore un traité de paix",
+    "Le traité de paix avec l'Allemagne",
+    "La capitulation de l'Autriche-Hongrie",
+    "La création de la Société des Nations"
+   ],
+   "answer": "Un cessez-le-feu, pas encore un traité de paix",
+   "acceptedAnswers": [
+    "Un cessez-le-feu, pas encore un traité de paix"
+   ],
+   "explanation": "Un armistice suspend les combats ; un traité de paix règle la situation après la guerre. L'armistice de 1918 est signé à Rethondes ; le traité de paix avec l'Allemagne est signé à Versailles le 28 juin 1919.",
+   "tip": "Armistice = on arrête de tirer ; traité = on règle la paix.",
+   "extraExample": {
+    "text": "Le même wagon de Rethondes sert en juin 1940 pour l'armistice imposé à la France.",
+    "translation": "Hitler a voulu une humiliation symétrique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le traité de paix avec l'Allemagne",
+     "category": "word_confusion",
+     "feedback": "Le traité de paix, c'est Versailles, signé le 28 juin 1919."
+    },
+    {
+     "equals": "La création de la Société des Nations",
+     "category": "word_confusion",
+     "feedback": "La SDN est créée en 1919 par le traité de Versailles."
+    }
+   ],
+   "id": "cg.l06.e08"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.traite_de_versailles",
+    "cg.v.societe_des_nations"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que prévoit le traité de Versailles (1919) pour l'Allemagne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Elle est déclarée responsable de la guerre et doit payer des réparations",
+    "Elle est partagée entre les vainqueurs",
+    "Elle garde toutes ses colonies",
+    "Elle conserve l'Alsace-Lorraine"
+   ],
+   "answer": "Elle est déclarée responsable de la guerre et doit payer des réparations",
+   "acceptedAnswers": [
+    "Elle est déclarée responsable de la guerre et doit payer des réparations"
+   ],
+   "explanation": "Le traité attribue à l'Allemagne la responsabilité de la guerre : elle doit payer des réparations, rendre l'Alsace-Lorraine à la France, perdre ses colonies et limiter son armée. Beaucoup d'Allemands y voient un « diktat » humiliant.",
+   "tip": "Versailles 1919 : l'Allemagne paie, perd, et ressent une humiliation qui pèsera lourd.",
+   "extraExample": {
+    "text": "Le traité est signé dans la galerie des Glaces, là où l'Empire allemand avait été proclamé en 1871.",
+    "translation": "Le choix du lieu est une revanche symbolique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Elle est partagée entre les vainqueurs",
+     "category": "word_confusion",
+     "feedback": "L'Allemagne ne sera partagée qu'après 1945, pas en 1919."
+    },
+    {
+     "equals": "Elle conserve l'Alsace-Lorraine",
+     "category": "word_confusion",
+     "feedback": "L'Alsace-Lorraine, annexée en 1871, revient à la France."
+    }
+   ],
+   "id": "cg.l06.e09"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que change l'année 1917 dans l'équilibre de la guerre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les États-Unis entrent en guerre et la Russie en sort",
+    "L'Italie entre en guerre contre la France",
+    "L'Allemagne s'empare de Paris",
+    "Le Royaume-Uni signe la paix"
+   ],
+   "answer": "Les États-Unis entrent en guerre et la Russie en sort",
+   "acceptedAnswers": [
+    "Les États-Unis entrent en guerre et la Russie en sort"
+   ],
+   "explanation": "En avril 1917, les États-Unis entrent en guerre aux côtés des Alliés. En Russie, la révolution de 1917 porte les bolcheviks au pouvoir, qui signent la paix avec l'Allemagne en mars 1918 (traité de Brest-Litovsk).",
+   "tip": "1917 : l'Amérique entre, la Russie sort.",
+   "extraExample": {
+    "text": "En 1918, des centaines de milliers de soldats américains arrivent en France.",
+    "translation": "Ils donnent l'avantage décisif aux Alliés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Italie entre en guerre contre la France",
+     "category": "word_confusion",
+     "feedback": "L'Italie entre en guerre en 1915, du côté de la France et non contre elle."
+    },
+    {
+     "equals": "L'Allemagne s'empare de Paris",
+     "category": "word_confusion",
+     "feedback": "Paris n'est jamais prise pendant la guerre."
+    }
+   ],
+   "id": "cg.l06.e10"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.guerre_de_tranchees"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "À partir de l'automne 1914, le front de l'Ouest s'étend de la mer du Nord à la ___ : c'est la guerre de tranchées.",
+   "promptLanguage": "fr",
+   "options": [
+    "Suisse",
+    "Méditerranée",
+    "Espagne",
+    "Manche"
+   ],
+   "answer": "Suisse",
+   "acceptedAnswers": [
+    "Suisse",
+    "la Suisse"
+   ],
+   "explanation": "Le front va de la mer du Nord à la frontière suisse, sur près de 700 km, et reste presque immobile pendant plus de trois ans.",
+   "tip": "Du Nord à la Suisse : un front de tranchées sans fin.",
+   "extraExample": {
+    "text": "Les gaz de combat sont utilisés à grande échelle à Ypres, en avril 1915.",
+    "translation": "Les soldats doivent alors porter des masques."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Méditerranée",
+     "category": "word_confusion",
+     "feedback": "Le front de l'Ouest s'arrête à la frontière suisse, loin de la Méditerranée."
+    }
+   ],
+   "id": "cg.l06.e11"
+  },
+  {
+   "unitIds": [
+    "cg.v.jules_ferry",
+    "cg.g06.premiere_guerre_mondiale"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Les poilus de 1914 ont presque tous appris à lire à l'école gratuite, laïque et obligatoire de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Jules Ferry",
+    "Napoléon III",
+    "Clemenceau",
+    "Haussmann"
+   ],
+   "answer": "Jules Ferry",
+   "acceptedAnswers": [
+    "Jules Ferry",
+    "Ferry"
+   ],
+   "explanation": "Les lois de Jules Ferry (1881-1882) ont rendu l'école primaire obligatoire : les soldats nés dans les années 1880-1890 savent presque tous lire et écrire. Leurs lettres sont aujourd'hui une source précieuse pour les historiens.",
+   "tip": "Ferry 1882 → poilus 1914 : une génération qui sait écrire.",
+   "extraExample": {
+    "text": "Des millions de lettres circulent entre le front et l'arrière.",
+    "translation": "Elles aident les soldats à tenir moralement."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Napoléon III",
+     "category": "word_confusion",
+     "feedback": "Napoléon III régnait jusqu'en 1870, bien avant les lois scolaires."
+    },
+    {
+     "equals": "Clemenceau",
+     "category": "word_confusion",
+     "feedback": "Clemenceau dirige le gouvernement en 1917-1920 ; l'école obligatoire date de 1882."
+    }
+   ],
+   "id": "cg.l06.e12"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.armistice_de_1918"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le 11 novembre 1918, l'armistice est signé à ___, dans la forêt de Compiègne.",
+   "promptLanguage": "fr",
+   "options": [
+    "Rethondes",
+    "Versailles",
+    "Verdun",
+    "Sarajevo"
+   ],
+   "answer": "Rethondes",
+   "acceptedAnswers": [
+    "Rethondes"
+   ],
+   "explanation": "L'armistice est signé à Rethondes, dans un wagon de chemin de fer. Le traité de paix, lui, est signé plus tard à Versailles.",
+   "tip": "Rethondes = armistice (1918) ; Versailles = traité (1919).",
+   "extraExample": {
+    "text": "Le wagon de l'armistice est conservé dans un musée de Rethondes, dans la forêt de Compiègne.",
+    "translation": "Le lieu est resté un symbole de la mémoire de la guerre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Versailles",
+     "category": "word_confusion",
+     "feedback": "Versailles est le lieu du traité de paix, signé le 28 juin 1919."
+    },
+    {
+     "equals": "Verdun",
+     "category": "word_confusion",
+     "feedback": "Verdun est la bataille de 1916."
+    }
+   ],
+   "id": "cg.l06.e13"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.georges_clemenceau"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Surnommé « le Tigre », ___ est le chef du gouvernement français qui conduit le pays à la victoire en 1918.",
+   "promptLanguage": "fr",
+   "options": [
+    "Clemenceau",
+    "Foch",
+    "Joffre",
+    "Pétain"
+   ],
+   "answer": "Clemenceau",
+   "acceptedAnswers": [
+    "Clemenceau",
+    "Georges Clemenceau"
+   ],
+   "explanation": "Georges Clemenceau est président du Conseil de novembre 1917 à 1920. Joffre commande à la Marne, Pétain à Verdun, Foch dirige les armées alliées en 1918 : trois généraux, un seul chef de gouvernement.",
+   "tip": "Joffre = Marne, Pétain = Verdun, Foch = armistice, Clemenceau = gouvernement.",
+   "extraExample": {
+    "text": "On le surnomme aussi « Père la Victoire ».",
+    "translation": "Il préside la conférence de la paix de 1919."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Foch",
+     "category": "word_confusion",
+     "feedback": "Foch est le maréchal qui commande les armées alliées en 1918, pas le chef du gouvernement."
+    },
+    {
+     "equals": "Pétain",
+     "category": "word_confusion",
+     "feedback": "Pétain est un général, vainqueur de Verdun, pas chef du gouvernement en 1918."
+    },
+    {
+     "equals": "Joffre",
+     "category": "word_confusion",
+     "feedback": "Joffre est le général vainqueur de la Marne en 1914."
+    }
+   ],
+   "id": "cg.l06.e14"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.attentat_de_sarajevo",
+    "cg.v.bataille_de_la_marne",
+    "cg.v.bataille_de_verdun",
+    "cg.v.armistice_de_1918",
+    "cg.v.traite_de_versailles"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates de la Grande Guerre",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "28 juin 1914",
+     "right": "attentat de Sarajevo"
+    },
+    {
+     "left": "septembre 1914",
+     "right": "bataille de la Marne"
+    },
+    {
+     "left": "1916",
+     "right": "bataille de Verdun"
+    },
+    {
+     "left": "11 novembre 1918",
+     "right": "armistice de Rethondes"
+    },
+    {
+     "left": "28 juin 1919",
+     "right": "traité de Versailles"
+    }
+   ],
+   "answer": "28 juin 1914 = attentat de Sarajevo ; septembre 1914 = bataille de la Marne ; 1916 = bataille de Verdun ; 11 novembre 1918 = armistice de Rethondes ; 28 juin 1919 = traité de Versailles",
+   "acceptedAnswers": [],
+   "explanation": "Cinq repères pour suivre la guerre : Sarajevo (1914), la Marne (1914), Verdun (1916), l'armistice (1918) et Versailles (1919).",
+   "tip": "Le 28 juin ouvre et clôt la période : 1914 l'attentat, 1919 le traité.",
+   "extraExample": {
+    "text": "L'attentat de Sarajevo et le traité de Versailles ont lieu le même jour de l'année, le 28 juin.",
+    "translation": "Cinq ans séparent les deux dates."
+   },
+   "id": "cg.l06.e15"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le début de la guerre.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "commence",
+    "en",
+    "Guerre",
+    "1914",
+    "La",
+    "Première",
+    "mondiale"
+   ],
+   "answer": "La Première Guerre mondiale commence en 1914",
+   "acceptedAnswers": [
+    "La Première Guerre mondiale commence en 1914",
+    "En 1914 la Première Guerre mondiale commence"
+   ],
+   "explanation": "La Première Guerre mondiale éclate en 1914 et s'achève en 1918.",
+   "tip": "14-18 : quatre ans et demi de guerre.",
+   "extraExample": {
+    "text": "On l'appelait « la Grande Guerre » ou « la der des ders ».",
+    "translation": "On espérait alors qu'elle serait la dernière."
+   },
+   "id": "cg.l06.e16"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.armistice_de_1918"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la fin des combats.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "11",
+    "à",
+    "signé",
+    "est",
+    "1918",
+    "Rethondes",
+    "L'armistice",
+    "novembre",
+    "le"
+   ],
+   "answer": "L'armistice est signé à Rethondes le 11 novembre 1918",
+   "acceptedAnswers": [
+    "L'armistice est signé à Rethondes le 11 novembre 1918",
+    "Le 11 novembre 1918 l'armistice est signé à Rethondes"
+   ],
+   "explanation": "L'armistice de Rethondes arrête les combats le 11 novembre 1918 à 11 heures.",
+   "tip": "11/11 à 11 h : une date facile à retenir.",
+   "extraExample": {
+    "text": "Le monument aux morts de chaque commune rappelle les noms des soldats disparus.",
+    "translation": "Il y en a dans presque toutes les communes de France."
+   },
+   "id": "cg.l06.e17"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.guerre_de_tranchees"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on les fossés creusés dans le sol où vivent et combattent les soldats pendant la guerre de 14-18 ?",
+   "promptLanguage": "fr",
+   "answer": "Les tranchées",
+   "acceptedAnswers": [
+    "Les tranchées",
+    "tranchées",
+    "tranchée",
+    "une tranchée",
+    "la tranchée"
+   ],
+   "explanation": "Les armées s'enterrent dans des tranchées protégées par des barbelés. La boue, le froid, les rats et les obus rendent la vie des soldats très dure.",
+   "tip": "Guerre de tranchées = guerre d'usure : on tient, on ne gagne que quelques mètres.",
+   "extraExample": {
+    "text": "La bataille de la Somme (1916) fait plus d'un million de victimes, tous camps confondus.",
+    "translation": "Les offensives avancent de quelques kilomètres au prix de pertes énormes."
+   },
+   "hint": "La guerre porte le nom de ces fossés.",
+   "errorPatterns": [
+    {
+     "equals": "bunkers",
+     "category": "word_confusion",
+     "feedback": "Les bunkers sont des abris bétonnés, plus caractéristiques de la Seconde Guerre mondiale."
+    }
+   ],
+   "id": "cg.l06.e18"
+  },
+  {
+   "unitIds": [
+    "cg.v.napoleon_iii",
+    "cg.g06.premiere_guerre_mondiale"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — En 1871, l'Allemagne annexe l'Alsace et une partie de la Lorraine après sa victoire. Quel empereur français avait déclaré la guerre à la Prusse en 1870 ?",
+   "promptLanguage": "fr",
+   "answer": "Napoléon III",
+   "acceptedAnswers": [
+    "Napoléon III",
+    "Napoleon III",
+    "Louis-Napoléon Bonaparte",
+    "Napoléon 3"
+   ],
+   "explanation": "La guerre de 1870 est déclarée sous Napoléon III. Vaincu à Sedan, il est renversé ; le traité de Francfort (1871) donne l'Alsace et une partie de la Lorraine à l'Allemagne, ce qui nourrit un désir de revanche jusqu'en 1914.",
+   "tip": "1871 : l'Alsace-Lorraine perdue ; 1919 : retrouvée.",
+   "extraExample": {
+    "text": "L'Alsace-Moselle revient à la France en 1918-1919.",
+    "translation": "Le traité de Versailles confirme ce retour."
+   },
+   "errorPatterns": [
+    {
+     "equals": "napoléon",
+     "category": "word_confusion",
+     "feedback": "Napoléon Ier est mort en 1821 ; il s'agit de son neveu, Napoléon III."
+    },
+    {
+     "equals": "napoléon ier",
+     "category": "word_confusion",
+     "feedback": "Napoléon Ier est mort en 1821 ; la guerre de 1870 est celle de son neveu, Napoléon III."
+    }
+   ],
+   "id": "cg.l06.e19"
+  },
+  {
+   "unitIds": [
+    "cg.v.charlemagne",
+    "cg.g06.premiere_guerre_mondiale"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Le nom de Verdun apparaît aussi en 843, dans un traité qui partage l'empire d'un célèbre empereur. Lequel ?",
+   "promptLanguage": "fr",
+   "answer": "Charlemagne",
+   "acceptedAnswers": [
+    "Charlemagne",
+    "l'empire de Charlemagne",
+    "Charles le Grand"
+   ],
+   "explanation": "Le traité de Verdun (843) partage l'empire carolingien entre les trois petits-fils de Charlemagne. Plus de mille ans plus tard, la ville est de nouveau au cœur de l'histoire de France, avec la bataille de 1916.",
+   "tip": "Verdun 843 : un traité ; Verdun 1916 : une bataille.",
+   "extraExample": {
+    "text": "Verdun est une ville de la Meuse, en Lorraine.",
+    "translation": "Elle a été une place forte pendant des siècles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "clovis",
+     "category": "word_confusion",
+     "feedback": "Clovis est roi des Francs vers 500, plus de trois siècles avant le traité de Verdun."
+    },
+    {
+     "equals": "napoléon",
+     "category": "word_confusion",
+     "feedback": "Napoléon règne au XIXe siècle ; le traité de Verdun date de 843."
+    }
+   ],
+   "id": "cg.l06.e20"
+  },
+  {
+   "unitIds": [
+    "cg.g06.premiere_guerre_mondiale",
+    "cg.v.traite_de_versailles"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel traité, signé le 28 juin 1919 dans la galerie des Glaces, fixe la paix avec l'Allemagne ?",
+   "promptLanguage": "fr",
+   "answer": "Le traité de Versailles",
+   "acceptedAnswers": [
+    "Le traité de Versailles",
+    "traité de Versailles",
+    "Versailles",
+    "traite de versailles"
+   ],
+   "explanation": "Signé à Versailles cinq ans jour pour jour après l'attentat de Sarajevo, le traité tient l'Allemagne pour responsable de la guerre et lui impose des réparations. Il crée aussi la Société des Nations.",
+   "tip": "Armistice en 1918 à Rethondes ; paix en 1919 à Versailles.",
+   "extraExample": {
+    "text": "L'Allemagne le vit comme une humiliation, qu'Hitler exploitera dans les années 1930.",
+    "translation": "Le traité contient ainsi une part des causes de la guerre suivante."
+   },
+   "hint": "Il porte le nom du château où il est signé.",
+   "errorPatterns": [
+    {
+     "equals": "armistice",
+     "category": "word_confusion",
+     "feedback": "L'armistice de 1918 est un cessez-le-feu ; le traité de paix est celui de 1919."
+    },
+    {
+     "equals": "traité de rethondes",
+     "category": "word_confusion",
+     "feedback": "Rethondes est le lieu de l'armistice de 1918, pas celui du traité de paix."
+    }
+   ],
+   "id": "cg.l06.e21"
+  }
+ ]
+}

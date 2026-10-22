@@ -1,0 +1,1217 @@
+{
+ "lessonId": "en.l70",
+ "exercises": [
+  {
+   "id": "en.l70.e01",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.salary"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "If I get a better salary, I ___ to a bigger flat.",
+   "promptLanguage": "en",
+   "options": [
+    "will move",
+    "move",
+    "would move",
+    "moved"
+   ],
+   "answer": "will move",
+   "acceptedAnswers": [
+    "will move"
+   ],
+   "hint": "Le salaire n'a pas encore augmenté, mais ça peut arriver.",
+   "explanation": "C'est une situation future possible : if + présent simple (get), puis will + verbe de base dans le résultat (will move).",
+   "tip": "If + présent, will + verbe : une condition réelle et le résultat qui en découle.",
+   "extraExample": {
+    "text": "If it rains tomorrow, I'll take the bus.",
+    "translation": "S'il pleut demain, je prendrai le bus."
+   },
+   "errorPatterns": [
+    {
+     "equals": "move",
+     "category": "verb_tense",
+     "feedback": "Sans will, la phrase dirait une vérité générale (« chaque fois que… »). Ici, c'est un projet futur possible : will move."
+    },
+    {
+     "equals": "would move",
+     "category": "verb_tense",
+     "feedback": "Would sert à imaginer quelque chose d'irréel (If I got…). Ici la condition est possible, avec get au présent : will move."
+    },
+    {
+     "equals": "moved",
+     "category": "verb_tense",
+     "feedback": "Moved est un passé. Le résultat d'une condition possible au futur prend will + verbe : will move."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e02",
+   "unitIds": [
+    "en.v.afford",
+    "en.v.loan",
+    "en.v.bank",
+    "en.v.salary",
+    "en.v.budget"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque expression anglaise à sa traduction.",
+   "prompt": "L'argent en quelques expressions",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "I can't afford it",
+     "right": "Je n'en ai pas les moyens"
+    },
+    {
+     "left": "a bank loan",
+     "right": "un prêt bancaire"
+    },
+    {
+     "left": "a monthly salary",
+     "right": "un salaire mensuel"
+    },
+    {
+     "left": "a tight budget",
+     "right": "un budget serré"
+    }
+   ],
+   "answer": "I can't afford it = Je n'en ai pas les moyens ; a bank loan = un prêt bancaire ; a monthly salary = un salaire mensuel ; a tight budget = un budget serré",
+   "acceptedAnswers": [
+    "I can't afford it = Je n'en ai pas les moyens ; a bank loan = un prêt bancaire ; a monthly salary = un salaire mensuel ; a tight budget = un budget serré"
+   ],
+   "explanation": "Afford s'emploie surtout après can, can't ou could. Loan (prêt) est un nom : le verbe « prêter » se dit lend. Tight veut dire serré, étroit.",
+   "tip": "Afford est presque toujours précédé de can, can't ou could.",
+   "extraExample": {
+    "text": "We can afford a small flat, but not a house.",
+    "translation": "Nous pouvons nous offrir un petit appartement, mais pas une maison."
+   }
+  },
+  {
+   "id": "en.l70.e03",
+   "unitIds": [
+    "en.g51.first_conditional"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la phrase correcte.",
+   "prompt": "Quelle phrase est correcte pour dire : « Si j'obtiens le prêt, j'achèterai l'appartement » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "If I get the loan, I will buy the flat.",
+    "If I will get the loan, I will buy the flat.",
+    "If I would get the loan, I will buy the flat."
+   ],
+   "answer": "If I get the loan, I will buy the flat.",
+   "acceptedAnswers": [
+    "If I get the loan, I will buy the flat."
+   ],
+   "hint": "Regarde le verbe juste après if.",
+   "explanation": "Après if, le verbe de la condition reste au présent simple (get), comme en français (« si j'obtiens »). Will se place seulement dans le résultat : I will buy.",
+   "tip": "Will va dans le résultat, jamais juste après if.",
+   "extraExample": {
+    "text": "If the bank says yes, I'll sign the contract.",
+    "translation": "Si la banque dit oui, je signerai le contrat."
+   },
+   "errorPatterns": [
+    {
+     "equals": "If I will get the loan, I will buy the flat.",
+     "category": "verb_tense",
+     "feedback": "Après if, on ne met pas will : le français dit « si j'obtiens » (présent), l'anglais aussi : if I get."
+    },
+    {
+     "equals": "If I would get the loan, I will buy the flat.",
+     "category": "verb_tense",
+     "feedback": "Would après if n'existe pas non plus. Pour une condition possible, on garde le présent simple : if I get."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e04",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.bank",
+    "en.v.loan"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "If the bank ___ me a loan, I'll start my own business.",
+   "promptLanguage": "en",
+   "options": [
+    "gives",
+    "will give",
+    "gave",
+    "give"
+   ],
+   "answer": "gives",
+   "acceptedAnswers": [
+    "gives",
+    "offers",
+    "grants"
+   ],
+   "hint": "The bank = it : pense à la 3e personne.",
+   "explanation": "Après if, présent simple, jamais will. The bank = it, donc le verbe prend un -s : gives.",
+   "tip": "Après if, présent simple, et -s avec he / she / it.",
+   "extraExample": {
+    "text": "If the bank refuses, we'll ask my father for help.",
+    "translation": "Si la banque refuse, nous demanderons de l'aide à mon père."
+   },
+   "errorPatterns": [
+    {
+     "equals": "will give",
+     "category": "verb_tense",
+     "feedback": "Pas de will après if : le verbe reste au présent, gives."
+    },
+    {
+     "equals": "gave",
+     "category": "verb_tense",
+     "feedback": "Gave est un passé. Pour une condition possible dans le futur, on garde le présent simple : gives."
+    },
+    {
+     "equals": "give",
+     "category": "conjugation",
+     "feedback": "The bank = it : il faut un -s au présent simple, gives."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e05",
+   "unitIds": [
+    "en.g25.going_to",
+    "en.v.save"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Sam has been saving for months. He ___ buy a motorbike this summer.",
+   "promptLanguage": "en",
+   "options": [
+    "is going to",
+    "goes to",
+    "is going",
+    "going to"
+   ],
+   "answer": "is going to",
+   "acceptedAnswers": [
+    "is going to"
+   ],
+   "hint": "C'est un projet déjà décidé.",
+   "explanation": "Sam a déjà commencé à économiser : c'est un projet décidé. On utilise be going to + verbe de base : he is going to buy.",
+   "tip": "Be going to = projet ou intention : n'oublie pas le verbe be.",
+   "extraExample": {
+    "text": "We are going to move to Lyon in September.",
+    "translation": "Nous allons déménager à Lyon en septembre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "goes to",
+     "category": "verb_tense",
+     "feedback": "Goes to veut dire « va à » (un lieu). Pour le futur, il faut be + going to + verbe : is going to buy."
+    },
+    {
+     "equals": "is going",
+     "category": "grammar",
+     "feedback": "Is going tout seul veut dire « est en train d'aller ». Pour le futur, on ajoute to + verbe : is going to buy."
+    },
+    {
+     "equals": "going to",
+     "category": "grammar",
+     "feedback": "Il manque le verbe be : he is going to buy."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e06",
+   "unitIds": [
+    "en.v.owe",
+    "en.v.earn",
+    "en.v.debt",
+    "en.v.pay_back",
+    "en.v.lend"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les mots de l'argent",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "owe",
+     "right": "devoir (de l'argent)"
+    },
+    {
+     "left": "earn",
+     "right": "gagner (un salaire)"
+    },
+    {
+     "left": "debt",
+     "right": "dette"
+    },
+    {
+     "left": "pay back",
+     "right": "rembourser"
+    },
+    {
+     "left": "lend",
+     "right": "prêter"
+    }
+   ],
+   "answer": "owe = devoir (de l'argent) ; earn = gagner (un salaire) ; debt = dette ; pay back = rembourser ; lend = prêter",
+   "acceptedAnswers": [
+    "owe = devoir (de l'argent) ; earn = gagner (un salaire) ; debt = dette ; pay back = rembourser ; lend = prêter"
+   ],
+   "explanation": "Lend (prêter) et borrow (emprunter) sont les deux côtés d'un prêt ; owe décrit ce qu'on doit ensuite. Debt se prononce /det/ : le b est muet.",
+   "tip": "On earn un salaire, on owe une dette, on pay back un prêt.",
+   "extraExample": {
+    "text": "I earn 2,000 euros a month, but I still owe the bank 5,000.",
+    "translation": "Je gagne 2 000 euros par mois, mais je dois encore 5 000 à la banque."
+   }
+  },
+  {
+   "id": "en.l70.e07",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.earn"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Unless you ___ more, you won't be able to buy a house.",
+   "promptLanguage": "en",
+   "options": [
+    "earn",
+    "don't earn",
+    "will earn",
+    "earned"
+   ],
+   "answer": "earn",
+   "acceptedAnswers": [
+    "earn"
+   ],
+   "hint": "Unless = if… not : la négation est déjà dans unless.",
+   "explanation": "Unless veut dire « si… ne… pas » : unless you earn more = if you don't earn more. Le verbe reste affirmatif et au présent simple.",
+   "tip": "Unless + verbe affirmatif ; jamais unless… not.",
+   "extraExample": {
+    "text": "Unless you leave now, you'll miss your flight.",
+    "translation": "Si tu ne pars pas maintenant, tu rateras ton vol."
+   },
+   "errorPatterns": [
+    {
+     "equals": "don't earn",
+     "category": "grammar",
+     "feedback": "Unless contient déjà la négation : unless you don't earn serait une double négation. Dis unless you earn."
+    },
+    {
+     "equals": "will earn",
+     "category": "verb_tense",
+     "feedback": "Pas de will après unless : présent simple, unless you earn."
+    },
+    {
+     "equals": "earned",
+     "category": "verb_tense",
+     "feedback": "Earned est un passé. Après unless, on garde le présent simple pour parler du futur : earn."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e08",
+   "unitIds": [
+    "en.g51.first_conditional"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "She won't buy the flat ___ the bank gives her a loan.",
+   "promptLanguage": "en",
+   "options": [
+    "unless",
+    "as soon as",
+    "while",
+    "so"
+   ],
+   "answer": "unless",
+   "acceptedAnswers": [
+    "unless"
+   ],
+   "hint": "Le sens : elle n'achètera pas l'appartement, sauf si…",
+   "explanation": "She won't buy the flat unless the bank gives her a loan = elle n'achètera pas l'appartement, sauf si la banque lui accorde un prêt. Unless remplace if… not.",
+   "tip": "Unless = sauf si / à moins que.",
+   "extraExample": {
+    "text": "I won't lend you the car unless you drive carefully.",
+    "translation": "Je ne te prêterai pas la voiture, sauf si tu conduis prudemment."
+   },
+   "errorPatterns": [
+    {
+     "equals": "as soon as",
+     "category": "word_confusion",
+     "feedback": "As soon as veut dire « dès que » : elle achèterait l'appartement dès que la banque lui donnerait un prêt. Ici, le sens est « sauf si » : unless."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e09",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.save"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Every time I get my salary, I ___ half of it.",
+   "promptLanguage": "en",
+   "options": [
+    "save",
+    "will save",
+    "would save",
+    "saved"
+   ],
+   "answer": "save",
+   "acceptedAnswers": [
+    "save"
+   ],
+   "hint": "« Chaque fois que » : c'est une habitude.",
+   "explanation": "Every time = chaque fois que : c'est une habitude qui se vérifie toujours, donc présent simple (conditionnel zéro). Will servirait pour un cas futur précis.",
+   "tip": "Habitude ou fait répété : présent simple partout ; événement futur précis : will.",
+   "extraExample": {
+    "text": "When I get paid, I always call my parents.",
+    "translation": "Quand je suis payé, j'appelle toujours mes parents."
+   },
+   "errorPatterns": [
+    {
+     "equals": "will save",
+     "category": "verb_tense",
+     "feedback": "Will servirait pour un cas futur précis (When I get my salary tomorrow, I'll…). Avec every time, c'est une habitude : save."
+    },
+    {
+     "equals": "would save",
+     "category": "verb_tense",
+     "feedback": "Would imagine une situation irréelle. Ici, c'est une habitude réelle : présent simple, save."
+    },
+    {
+     "equals": "saved",
+     "category": "verb_tense",
+     "feedback": "Saved est un passé. Une habitude actuelle se dit au présent simple : save."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e10",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.debt"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Unless we cut our spending, we ___ in debt for years.",
+   "promptLanguage": "en",
+   "options": [
+    "will be",
+    "are",
+    "would be",
+    "were"
+   ],
+   "answer": "will be",
+   "acceptedAnswers": [
+    "will be"
+   ],
+   "hint": "Le résultat est une prévision pour l'avenir.",
+   "explanation": "Après unless, présent simple (cut). Le résultat est une prévision : will + verbe de base, donc will be.",
+   "tip": "Dans la partie avec if / unless : présent ; dans le résultat : will.",
+   "extraExample": {
+    "text": "If we spend less, we'll be out of debt by December.",
+    "translation": "Si nous dépensons moins, nous n'aurons plus de dettes d'ici décembre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "are",
+     "category": "verb_tense",
+     "feedback": "Are décrit le présent. Le résultat d'une condition possible est une prévision : will be."
+    },
+    {
+     "equals": "would be",
+     "category": "verb_tense",
+     "feedback": "Would imagine quelque chose d'irréel. Ici, unless + présent annonce une vraie possibilité : will be."
+    },
+    {
+     "equals": "were",
+     "category": "verb_tense",
+     "feedback": "Were est un passé. Ici, la phrase parle de l'avenir : will be."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e11",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.pay_back"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "I'll pay you back as soon as I ___ the money.",
+   "promptLanguage": "en",
+   "options": [
+    "have",
+    "will have",
+    "would have",
+    "had"
+   ],
+   "answer": "have",
+   "acceptedAnswers": [
+    "have"
+   ],
+   "hint": "Le français dit « dès que j'aurai » ; l'anglais utilise un autre temps.",
+   "explanation": "Après as soon as, on parle du futur avec un présent simple : as soon as I have (« dès que j'aurai »). Le français met un futur, pas l'anglais.",
+   "tip": "Après if, unless, when et as soon as : présent simple, jamais will.",
+   "extraExample": {
+    "text": "Call me as soon as you arrive at the station.",
+    "translation": "Appelle-moi dès que tu arriveras à la gare."
+   },
+   "errorPatterns": [
+    {
+     "equals": "will have",
+     "category": "verb_tense",
+     "feedback": "Piège de traduction : « dès que j'aurai » est au futur en français, mais l'anglais garde le présent après as soon as : I have."
+    },
+    {
+     "equals": "would have",
+     "category": "verb_tense",
+     "feedback": "Would n'a pas sa place ici. Après as soon as, présent simple : I have."
+    },
+    {
+     "equals": "had",
+     "category": "verb_tense",
+     "feedback": "Had est un passé, or on parle du futur. Utilise le présent simple : I have."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e12",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.afford"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Nous pourrons nous offrir une maison si nous économisons assez.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "afford",
+    "if",
+    "We",
+    "save",
+    "a",
+    "will",
+    "enough",
+    "house",
+    "able",
+    "to",
+    "be",
+    "we"
+   ],
+   "answer": "We will be able to afford a house if we save enough",
+   "acceptedAnswers": [
+    "We will be able to afford a house if we save enough",
+    "If we save enough we will be able to afford a house"
+   ],
+   "hint": "Commence par We will.",
+   "explanation": "La condition réelle (if we save) prend le présent simple, le résultat prend will. « Pouvoir » au futur se dit will be able to, car can n'a pas de forme avec will.",
+   "tip": "Futur de can : will be able to (jamais will can).",
+   "extraExample": {
+    "text": "If you work hard, you will be able to pass the exam.",
+    "translation": "Si tu travailles dur, tu pourras réussir l'examen."
+   }
+  },
+  {
+   "id": "en.l70.e13",
+   "unitIds": [
+    "en.g23.past_simple_negative_questions",
+    "en.v.pay_back",
+    "en.v.loan"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "As-tu remboursé le prêt le mois dernier ?",
+   "promptLanguage": "fr",
+   "tokens": [
+    "loan",
+    "Did",
+    "month",
+    "you",
+    "the",
+    "back",
+    "pay",
+    "last"
+   ],
+   "answer": "Did you pay back the loan last month",
+   "acceptedAnswers": [
+    "Did you pay back the loan last month",
+    "Did you pay the loan back last month"
+   ],
+   "hint": "Question au passé : commence par Did.",
+   "explanation": "Au passé simple, la question se forme avec did + sujet + verbe de base : Did you pay…? Le verbe reste à la base (pay, pas paid). Avec pay back, le nom peut se placer avant ou après back.",
+   "tip": "Did + sujet + verbe de base : le passé est déjà dans did.",
+   "extraExample": {
+    "text": "Did she lend you the money?",
+    "translation": "Est-ce qu'elle t'a prêté l'argent ?"
+   }
+  },
+  {
+   "id": "en.l70.e14",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.salary",
+    "en.v.afford"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Si mon salaire augmente, nous pourrons nous offrir des vacances.",
+   "promptLanguage": "fr",
+   "answer": "If my salary goes up, we will be able to afford a holiday.",
+   "acceptedAnswers": [
+    "If my salary goes up, we will be able to afford a holiday.",
+    "If my salary goes up, we will be able to afford holidays.",
+    "If my salary goes up, we will be able to afford a vacation.",
+    "If my salary goes up, we will be able to afford vacations.",
+    "If my salary goes up, we can afford a holiday.",
+    "If my salary goes up, we can afford holidays.",
+    "If my salary goes up, we can afford a vacation.",
+    "If my salary goes up, we can afford vacations.",
+    "If my salary increases, we will be able to afford a holiday.",
+    "If my salary increases, we will be able to afford holidays.",
+    "If my salary increases, we will be able to afford a vacation.",
+    "If my salary increases, we will be able to afford vacations.",
+    "If my salary increases, we can afford a holiday.",
+    "If my salary increases, we can afford holidays.",
+    "If my salary increases, we can afford a vacation.",
+    "If my salary increases, we can afford vacations.",
+    "If my salary rises, we will be able to afford a holiday.",
+    "If my salary rises, we will be able to afford holidays.",
+    "If my salary rises, we will be able to afford a vacation.",
+    "If my salary rises, we will be able to afford vacations.",
+    "If my salary rises, we can afford a holiday.",
+    "If my salary rises, we can afford holidays.",
+    "If my salary rises, we can afford a vacation.",
+    "If my salary rises, we can afford vacations.",
+    "If my salary gets higher, we will be able to afford a holiday.",
+    "If my salary gets higher, we will be able to afford holidays.",
+    "If my salary gets higher, we will be able to afford a vacation.",
+    "If my salary gets higher, we will be able to afford vacations.",
+    "If my salary gets higher, we can afford a holiday.",
+    "If my salary gets higher, we can afford holidays.",
+    "If my salary gets higher, we can afford a vacation.",
+    "If my salary gets higher, we can afford vacations.",
+    "We will be able to afford a holiday if my salary goes up.",
+    "We will be able to afford a holiday if my salary increases.",
+    "We will be able to afford a holiday if my salary rises.",
+    "We will be able to afford a holiday if my salary gets higher.",
+    "We will be able to afford holidays if my salary goes up.",
+    "We will be able to afford holidays if my salary increases.",
+    "We will be able to afford holidays if my salary rises.",
+    "We will be able to afford holidays if my salary gets higher.",
+    "We will be able to afford a vacation if my salary goes up.",
+    "We will be able to afford a vacation if my salary increases.",
+    "We will be able to afford a vacation if my salary rises.",
+    "We will be able to afford a vacation if my salary gets higher.",
+    "We will be able to afford vacations if my salary goes up.",
+    "We will be able to afford vacations if my salary increases.",
+    "We will be able to afford vacations if my salary rises.",
+    "We will be able to afford vacations if my salary gets higher.",
+    "We can afford a holiday if my salary goes up.",
+    "We can afford a holiday if my salary increases.",
+    "We can afford a holiday if my salary rises.",
+    "We can afford a holiday if my salary gets higher.",
+    "We can afford holidays if my salary goes up.",
+    "We can afford holidays if my salary increases.",
+    "We can afford holidays if my salary rises.",
+    "We can afford holidays if my salary gets higher.",
+    "We can afford a vacation if my salary goes up.",
+    "We can afford a vacation if my salary increases.",
+    "We can afford a vacation if my salary rises.",
+    "We can afford a vacation if my salary gets higher.",
+    "We can afford vacations if my salary goes up.",
+    "We can afford vacations if my salary increases.",
+    "We can afford vacations if my salary rises.",
+    "We can afford vacations if my salary gets higher."
+   ],
+   "hint": "Pour « pouvoir » au futur, on dit will be able to.",
+   "explanation": "Condition possible : if + présent simple (my salary goes up), puis will dans le résultat. « Pouvoir » au futur se dit will be able to (jamais will can). Afford est suivi directement du nom.",
+   "tip": "Will can n'existe pas : utilise will be able to.",
+   "extraExample": {
+    "text": "If I get the job, I'll be able to afford my own flat.",
+    "translation": "Si j'obtiens le poste, je pourrai m'offrir mon propre appartement."
+   },
+   "errorPatterns": [
+    {
+     "contains": "if my salary will",
+     "category": "verb_tense",
+     "feedback": "Pas de will après if : if my salary goes up."
+    },
+    {
+     "contains": "will can",
+     "category": "grammar",
+     "feedback": "Will et can ne se combinent pas : au futur, can devient will be able to."
+    },
+    {
+     "contains": "salary go up",
+     "category": "conjugation",
+     "feedback": "Salary = it : au présent simple, il faut un -s, salary goes up."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e15",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.lend",
+    "en.v.pay_back"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "I'll lend you some money if you promise to pay me back.",
+   "promptLanguage": "en",
+   "answer": "Je te prêterai de l'argent si tu promets de me rembourser.",
+   "acceptedAnswers": [
+    "Je te prêterai de l'argent si tu promets de me rembourser.",
+    "Je te prêterai de l'argent si tu promets de me rendre l'argent.",
+    "Je te prêterai de l'argent si tu promets de me le rendre.",
+    "Je te prêterai de l'argent si tu me promets de me rembourser.",
+    "Je te prêterai de l'argent si tu me promets de me rendre l'argent.",
+    "Je te prêterai de l'argent si tu me promets de me le rendre.",
+    "Je te prêterai un peu d'argent si tu promets de me rembourser.",
+    "Je te prêterai un peu d'argent si tu promets de me rendre l'argent.",
+    "Je te prêterai un peu d'argent si tu promets de me le rendre.",
+    "Je te prêterai un peu d'argent si tu me promets de me rembourser.",
+    "Je te prêterai un peu d'argent si tu me promets de me rendre l'argent.",
+    "Je te prêterai un peu d'argent si tu me promets de me le rendre.",
+    "Je vais te prêter de l'argent si tu promets de me rembourser.",
+    "Je vais te prêter de l'argent si tu promets de me rendre l'argent.",
+    "Je vais te prêter de l'argent si tu promets de me le rendre.",
+    "Je vais te prêter de l'argent si tu me promets de me rembourser.",
+    "Je vais te prêter de l'argent si tu me promets de me rendre l'argent.",
+    "Je vais te prêter de l'argent si tu me promets de me le rendre.",
+    "Je vais te prêter un peu d'argent si tu promets de me rembourser.",
+    "Je vais te prêter un peu d'argent si tu promets de me rendre l'argent.",
+    "Je vais te prêter un peu d'argent si tu promets de me le rendre.",
+    "Je vais te prêter un peu d'argent si tu me promets de me rembourser.",
+    "Je vais te prêter un peu d'argent si tu me promets de me rendre l'argent.",
+    "Je vais te prêter un peu d'argent si tu me promets de me le rendre."
+   ],
+   "explanation": "Lend = prêter, pay me back = me rembourser. Après if, l'anglais met le présent (you promise) ; le français aussi (« si tu promets »).",
+   "tip": "Lend = prêter ; borrow = emprunter. Pay someone back = rembourser quelqu'un.",
+   "extraExample": {
+    "text": "Could you lend me twenty euros until Friday?",
+    "translation": "Peux-tu me prêter vingt euros jusqu'à vendredi ?"
+   },
+   "errorPatterns": [
+    {
+     "contains": "emprunterai",
+     "category": "word_confusion",
+     "feedback": "Lend veut dire prêter (c'est toi qui donnes). Emprunter se dit borrow."
+    },
+    {
+     "contains": "rembourserai",
+     "category": "vocabulary",
+     "feedback": "C'est l'autre personne qui doit rembourser : to pay me back = me rembourser."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e16",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.bank",
+    "en.v.loan",
+    "en.v.pay_back"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Je te rembourserai dès que la banque me donnera le prêt.",
+   "promptLanguage": "fr",
+   "answer": "I will pay you back as soon as the bank gives me the loan.",
+   "acceptedAnswers": [
+    "I will pay you back as soon as the bank gives me the loan.",
+    "I will pay you back as soon as the bank gives me a loan.",
+    "I will pay you back as soon as the bank grants me the loan.",
+    "I will pay you back as soon as the bank grants me a loan.",
+    "I will pay you back as soon as the bank offers me the loan.",
+    "I will pay you back as soon as the bank offers me a loan.",
+    "I will pay you back when the bank gives me the loan.",
+    "I will pay you back when the bank gives me a loan.",
+    "I will pay you back when the bank grants me the loan.",
+    "I will pay you back when the bank grants me a loan.",
+    "I will pay you back when the bank offers me the loan.",
+    "I will pay you back when the bank offers me a loan.",
+    "I will pay you back once the bank gives me the loan.",
+    "I will pay you back once the bank gives me a loan.",
+    "I will pay you back once the bank grants me the loan.",
+    "I will pay you back once the bank grants me a loan.",
+    "I will pay you back once the bank offers me the loan.",
+    "I will pay you back once the bank offers me a loan.",
+    "I will repay you as soon as the bank gives me the loan.",
+    "I will repay you as soon as the bank gives me a loan.",
+    "I will repay you as soon as the bank grants me the loan.",
+    "I will repay you as soon as the bank grants me a loan.",
+    "I will repay you as soon as the bank offers me the loan.",
+    "I will repay you as soon as the bank offers me a loan.",
+    "I will repay you when the bank gives me the loan.",
+    "I will repay you when the bank gives me a loan.",
+    "I will repay you when the bank grants me the loan.",
+    "I will repay you when the bank grants me a loan.",
+    "I will repay you when the bank offers me the loan.",
+    "I will repay you when the bank offers me a loan.",
+    "I will repay you once the bank gives me the loan.",
+    "I will repay you once the bank gives me a loan.",
+    "I will repay you once the bank grants me the loan.",
+    "I will repay you once the bank grants me a loan.",
+    "I will repay you once the bank offers me the loan.",
+    "I will repay you once the bank offers me a loan.",
+    "As soon as the bank gives me the loan, I will pay you back.",
+    "As soon as the bank gives me the loan, I will repay you.",
+    "As soon as the bank gives me a loan, I will pay you back.",
+    "As soon as the bank gives me a loan, I will repay you.",
+    "As soon as the bank grants me the loan, I will pay you back.",
+    "As soon as the bank grants me the loan, I will repay you.",
+    "As soon as the bank grants me a loan, I will pay you back.",
+    "As soon as the bank grants me a loan, I will repay you.",
+    "As soon as the bank offers me the loan, I will pay you back.",
+    "As soon as the bank offers me the loan, I will repay you.",
+    "As soon as the bank offers me a loan, I will pay you back.",
+    "As soon as the bank offers me a loan, I will repay you.",
+    "When the bank gives me the loan, I will pay you back.",
+    "When the bank gives me the loan, I will repay you.",
+    "When the bank gives me a loan, I will pay you back.",
+    "When the bank gives me a loan, I will repay you.",
+    "When the bank grants me the loan, I will pay you back.",
+    "When the bank grants me the loan, I will repay you.",
+    "When the bank grants me a loan, I will pay you back.",
+    "When the bank grants me a loan, I will repay you.",
+    "When the bank offers me the loan, I will pay you back.",
+    "When the bank offers me the loan, I will repay you.",
+    "When the bank offers me a loan, I will pay you back.",
+    "When the bank offers me a loan, I will repay you.",
+    "Once the bank gives me the loan, I will pay you back.",
+    "Once the bank gives me the loan, I will repay you.",
+    "Once the bank gives me a loan, I will pay you back.",
+    "Once the bank gives me a loan, I will repay you.",
+    "Once the bank grants me the loan, I will pay you back.",
+    "Once the bank grants me the loan, I will repay you.",
+    "Once the bank grants me a loan, I will pay you back.",
+    "Once the bank grants me a loan, I will repay you.",
+    "Once the bank offers me the loan, I will pay you back.",
+    "Once the bank offers me the loan, I will repay you.",
+    "Once the bank offers me a loan, I will pay you back.",
+    "Once the bank offers me a loan, I will repay you."
+   ],
+   "hint": "Après as soon as, le verbe reste au présent.",
+   "explanation": "« Dès que la banque me donnera » se dit as soon as the bank gives : présent simple, comme après if. Le résultat prend will. Avec un pronom, pay you back (le pronom se glisse entre pay et back).",
+   "tip": "Pronom + phrasal verb : pay you back, jamais pay back you.",
+   "extraExample": {
+    "text": "I'll text you as soon as I get home.",
+    "translation": "Je t'enverrai un message dès que je rentrerai."
+   },
+   "errorPatterns": [
+    {
+     "contains": "pay back you",
+     "category": "word_order",
+     "feedback": "Avec un pronom, il se place entre pay et back : pay you back."
+    },
+    {
+     "contains": "bank will give",
+     "category": "verb_tense",
+     "feedback": "Après as soon as, le verbe reste au présent : the bank gives (pas will give)."
+    },
+    {
+     "contains": "bank will grant",
+     "category": "verb_tense",
+     "feedback": "Après as soon as, le verbe reste au présent : the bank grants (pas will grant)."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e17",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.budget",
+    "en.v.debt"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "À moins de faire un budget, nous aurons des dettes.",
+   "promptLanguage": "fr",
+   "answer": "Unless we make a budget, we will be in debt.",
+   "acceptedAnswers": [
+    "Unless we make a budget, we will be in debt.",
+    "Unless we make a budget, we will have debts.",
+    "Unless we make a budget, we will get into debt.",
+    "Unless we make a budget, we will end up in debt.",
+    "Unless we set a budget, we will be in debt.",
+    "Unless we set a budget, we will have debts.",
+    "Unless we set a budget, we will get into debt.",
+    "Unless we set a budget, we will end up in debt.",
+    "Unless we create a budget, we will be in debt.",
+    "Unless we create a budget, we will have debts.",
+    "Unless we create a budget, we will get into debt.",
+    "Unless we create a budget, we will end up in debt.",
+    "Unless we have a budget, we will be in debt.",
+    "Unless we have a budget, we will have debts.",
+    "Unless we have a budget, we will get into debt.",
+    "Unless we have a budget, we will end up in debt.",
+    "If we don't make a budget, we will be in debt.",
+    "If we don't make a budget, we will have debts.",
+    "If we don't make a budget, we will get into debt.",
+    "If we don't make a budget, we will end up in debt.",
+    "If we don't set a budget, we will be in debt.",
+    "If we don't set a budget, we will have debts.",
+    "If we don't set a budget, we will get into debt.",
+    "If we don't set a budget, we will end up in debt.",
+    "If we don't create a budget, we will be in debt.",
+    "If we don't create a budget, we will have debts.",
+    "If we don't create a budget, we will get into debt.",
+    "If we don't create a budget, we will end up in debt.",
+    "If we don't have a budget, we will be in debt.",
+    "If we don't have a budget, we will have debts.",
+    "If we don't have a budget, we will get into debt.",
+    "If we don't have a budget, we will end up in debt.",
+    "We will be in debt unless we make a budget.",
+    "We will be in debt unless we set a budget.",
+    "We will be in debt unless we create a budget.",
+    "We will be in debt unless we have a budget.",
+    "We will be in debt if we don't make a budget.",
+    "We will be in debt if we don't set a budget.",
+    "We will be in debt if we don't create a budget.",
+    "We will be in debt if we don't have a budget.",
+    "We will have debts unless we make a budget.",
+    "We will have debts unless we set a budget.",
+    "We will have debts unless we create a budget.",
+    "We will have debts unless we have a budget.",
+    "We will have debts if we don't make a budget.",
+    "We will have debts if we don't set a budget.",
+    "We will have debts if we don't create a budget.",
+    "We will have debts if we don't have a budget.",
+    "We will get into debt unless we make a budget.",
+    "We will get into debt unless we set a budget.",
+    "We will get into debt unless we create a budget.",
+    "We will get into debt unless we have a budget.",
+    "We will get into debt if we don't make a budget.",
+    "We will get into debt if we don't set a budget.",
+    "We will get into debt if we don't create a budget.",
+    "We will get into debt if we don't have a budget.",
+    "We will end up in debt unless we make a budget.",
+    "We will end up in debt unless we set a budget.",
+    "We will end up in debt unless we create a budget.",
+    "We will end up in debt unless we have a budget.",
+    "We will end up in debt if we don't make a budget.",
+    "We will end up in debt if we don't set a budget.",
+    "We will end up in debt if we don't create a budget.",
+    "We will end up in debt if we don't have a budget."
+   ],
+   "hint": "Unless + verbe affirmatif.",
+   "explanation": "Unless = if… not, suivi d'un verbe affirmatif au présent : unless we make a budget. Le résultat prend will : we will be in debt. Be in debt = être endetté.",
+   "tip": "Unless contient déjà « not » : ne le double pas.",
+   "extraExample": {
+    "text": "Unless I get a loan, I won't be able to buy the flat.",
+    "translation": "À moins d'obtenir un prêt, je ne pourrai pas acheter l'appartement."
+   },
+   "errorPatterns": [
+    {
+     "contains": "unless we don't",
+     "category": "grammar",
+     "feedback": "Unless contient déjà la négation (= if… not) : unless we make a budget, pas unless we don't make."
+    },
+    {
+     "contains": "unless we will",
+     "category": "verb_tense",
+     "feedback": "Pas de will après unless : le verbe reste au présent, unless we make."
+    },
+    {
+     "contains": "have a debt",
+     "category": "grammar",
+     "feedback": "Pour dire « avoir des dettes », on dit have debts ou be in debt, pas have a debt."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e18",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.owe",
+    "en.v.pay_back",
+    "en.v.salary"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on : « Je dois 300 euros à ma sœur, mais je la rembourserai dès que je toucherai mon salaire » ?",
+   "promptLanguage": "fr",
+   "answer": "I owe my sister 300 euros, but I will pay her back as soon as I get my salary.",
+   "acceptedAnswers": [
+    "I owe my sister 300 euros, but I will pay her back as soon as I get my salary.",
+    "I owe my sister 300 euros, but I will pay her back as soon as I receive my salary.",
+    "I owe my sister 300 euros, but I will pay her back as soon as I get paid.",
+    "I owe my sister 300 euros, but I will repay her as soon as I get my salary.",
+    "I owe my sister 300 euros, but I will repay her as soon as I receive my salary.",
+    "I owe my sister 300 euros, but I will repay her as soon as I get paid.",
+    "I owe my sister 300 euros, and I will pay her back as soon as I get my salary.",
+    "I owe my sister 300 euros, and I will pay her back as soon as I receive my salary.",
+    "I owe my sister 300 euros, and I will pay her back as soon as I get paid.",
+    "I owe my sister 300 euros, and I will repay her as soon as I get my salary.",
+    "I owe my sister 300 euros, and I will repay her as soon as I receive my salary.",
+    "I owe my sister 300 euros, and I will repay her as soon as I get paid.",
+    "I owe 300 euros to my sister, but I will pay her back as soon as I get my salary.",
+    "I owe 300 euros to my sister, but I will pay her back as soon as I receive my salary.",
+    "I owe 300 euros to my sister, but I will pay her back as soon as I get paid.",
+    "I owe 300 euros to my sister, but I will repay her as soon as I get my salary.",
+    "I owe 300 euros to my sister, but I will repay her as soon as I receive my salary.",
+    "I owe 300 euros to my sister, but I will repay her as soon as I get paid.",
+    "I owe 300 euros to my sister, and I will pay her back as soon as I get my salary.",
+    "I owe 300 euros to my sister, and I will pay her back as soon as I receive my salary.",
+    "I owe 300 euros to my sister, and I will pay her back as soon as I get paid.",
+    "I owe 300 euros to my sister, and I will repay her as soon as I get my salary.",
+    "I owe 300 euros to my sister, and I will repay her as soon as I receive my salary.",
+    "I owe 300 euros to my sister, and I will repay her as soon as I get paid.",
+    "I owe three hundred euros to my sister, but I will pay her back as soon as I get my salary.",
+    "I owe three hundred euros to my sister, but I will pay her back as soon as I receive my salary.",
+    "I owe three hundred euros to my sister, but I will pay her back as soon as I get paid.",
+    "I owe three hundred euros to my sister, but I will repay her as soon as I get my salary.",
+    "I owe three hundred euros to my sister, but I will repay her as soon as I receive my salary.",
+    "I owe three hundred euros to my sister, but I will repay her as soon as I get paid.",
+    "I owe three hundred euros to my sister, and I will pay her back as soon as I get my salary.",
+    "I owe three hundred euros to my sister, and I will pay her back as soon as I receive my salary.",
+    "I owe three hundred euros to my sister, and I will pay her back as soon as I get paid.",
+    "I owe three hundred euros to my sister, and I will repay her as soon as I get my salary.",
+    "I owe three hundred euros to my sister, and I will repay her as soon as I receive my salary.",
+    "I owe three hundred euros to my sister, and I will repay her as soon as I get paid.",
+    "I owe my sister three hundred euros, but I will pay her back as soon as I get my salary.",
+    "I owe my sister three hundred euros, but I will pay her back as soon as I receive my salary.",
+    "I owe my sister three hundred euros, but I will pay her back as soon as I get paid.",
+    "I owe my sister three hundred euros, but I will repay her as soon as I get my salary.",
+    "I owe my sister three hundred euros, but I will repay her as soon as I receive my salary.",
+    "I owe my sister three hundred euros, but I will repay her as soon as I get paid.",
+    "I owe my sister three hundred euros, and I will pay her back as soon as I get my salary.",
+    "I owe my sister three hundred euros, and I will pay her back as soon as I receive my salary.",
+    "I owe my sister three hundred euros, and I will pay her back as soon as I get paid.",
+    "I owe my sister three hundred euros, and I will repay her as soon as I get my salary.",
+    "I owe my sister three hundred euros, and I will repay her as soon as I receive my salary.",
+    "I owe my sister three hundred euros, and I will repay her as soon as I get paid."
+   ],
+   "explanation": "Owe + personne + somme : I owe my sister 300 euros. Après as soon as, on garde le présent simple (get) alors que le français met le futur (« dès que je toucherai »). Avec un pronom : pay her back.",
+   "tip": "Owe = devoir (de l'argent) ; avec as soon as, jamais will.",
+   "extraExample": {
+    "text": "He owes the bank a lot of money.",
+    "translation": "Il doit beaucoup d'argent à la banque."
+   },
+   "errorPatterns": [
+    {
+     "contains": "as soon as i will",
+     "category": "verb_tense",
+     "feedback": "Pas de will après as soon as : as soon as I get my salary."
+    },
+    {
+     "contains": "pay back her",
+     "category": "word_order",
+     "feedback": "Avec un pronom, il se place entre pay et back : pay her back."
+    },
+    {
+     "contains": "i owe to my sister",
+     "category": "grammar",
+     "feedback": "Owe se construit directement avec la personne : I owe my sister… (ou I owe 300 euros to my sister)."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e19",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.earn",
+    "en.v.afford"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on : « À moins que tu gagnes plus, tu ne pourras pas t'offrir cette voiture » ?",
+   "promptLanguage": "fr",
+   "answer": "Unless you earn more, you won't be able to afford this car.",
+   "acceptedAnswers": [
+    "Unless you earn more, you won't be able to afford this car.",
+    "Unless you earn more, you won't be able to afford that car.",
+    "Unless you earn more, you won't be able to afford the car.",
+    "Unless you earn more, you can't afford this car.",
+    "Unless you earn more, you can't afford that car.",
+    "Unless you earn more, you can't afford the car.",
+    "If you don't earn more, you won't be able to afford this car.",
+    "If you don't earn more, you won't be able to afford that car.",
+    "If you don't earn more, you won't be able to afford the car.",
+    "If you don't earn more, you can't afford this car.",
+    "If you don't earn more, you can't afford that car.",
+    "If you don't earn more, you can't afford the car.",
+    "If you don't earn more money, you won't be able to afford this car.",
+    "If you don't earn more money, you won't be able to afford that car.",
+    "If you don't earn more money, you won't be able to afford the car.",
+    "If you don't earn more money, you can't afford this car.",
+    "If you don't earn more money, you can't afford that car.",
+    "If you don't earn more money, you can't afford the car.",
+    "If you don't make more money, you won't be able to afford this car.",
+    "If you don't make more money, you won't be able to afford that car.",
+    "If you don't make more money, you won't be able to afford the car.",
+    "If you don't make more money, you can't afford this car.",
+    "If you don't make more money, you can't afford that car.",
+    "If you don't make more money, you can't afford the car.",
+    "Unless you earn more money, you won't be able to afford this car.",
+    "Unless you earn more money, you won't be able to afford that car.",
+    "Unless you earn more money, you won't be able to afford the car.",
+    "Unless you earn more money, you can't afford this car.",
+    "Unless you earn more money, you can't afford that car.",
+    "Unless you earn more money, you can't afford the car.",
+    "Unless you make more money, you won't be able to afford this car.",
+    "Unless you make more money, you won't be able to afford that car.",
+    "Unless you make more money, you won't be able to afford the car.",
+    "Unless you make more money, you can't afford this car.",
+    "Unless you make more money, you can't afford that car.",
+    "Unless you make more money, you can't afford the car.",
+    "You won't be able to afford this car unless you earn more.",
+    "You won't be able to afford this car if you don't earn more.",
+    "You won't be able to afford this car if you don't earn more money.",
+    "You won't be able to afford this car if you don't make more money.",
+    "You won't be able to afford this car unless you earn more money.",
+    "You won't be able to afford this car unless you make more money.",
+    "You won't be able to afford that car unless you earn more.",
+    "You won't be able to afford that car if you don't earn more.",
+    "You won't be able to afford that car if you don't earn more money.",
+    "You won't be able to afford that car if you don't make more money.",
+    "You won't be able to afford that car unless you earn more money.",
+    "You won't be able to afford that car unless you make more money.",
+    "You won't be able to afford the car unless you earn more.",
+    "You won't be able to afford the car if you don't earn more.",
+    "You won't be able to afford the car if you don't earn more money.",
+    "You won't be able to afford the car if you don't make more money.",
+    "You won't be able to afford the car unless you earn more money.",
+    "You won't be able to afford the car unless you make more money.",
+    "You can't afford this car unless you earn more.",
+    "You can't afford this car if you don't earn more.",
+    "You can't afford this car if you don't earn more money.",
+    "You can't afford this car if you don't make more money.",
+    "You can't afford this car unless you earn more money.",
+    "You can't afford this car unless you make more money.",
+    "You can't afford that car unless you earn more.",
+    "You can't afford that car if you don't earn more.",
+    "You can't afford that car if you don't earn more money.",
+    "You can't afford that car if you don't make more money.",
+    "You can't afford that car unless you earn more money.",
+    "You can't afford that car unless you make more money.",
+    "You can't afford the car unless you earn more.",
+    "You can't afford the car if you don't earn more.",
+    "You can't afford the car if you don't earn more money.",
+    "You can't afford the car if you don't make more money.",
+    "You can't afford the car unless you earn more money.",
+    "You can't afford the car unless you make more money."
+   ],
+   "explanation": "Unless = if… not : le verbe qui suit est affirmatif (unless you earn). Le résultat : you won't be able to afford + nom, sans préposition devant le nom.",
+   "tip": "Unless contient déjà « not » : ne le double pas.",
+   "extraExample": {
+    "text": "Unless the price drops, we can't afford a new sofa.",
+    "translation": "À moins que le prix baisse, nous ne pouvons pas nous offrir un nouveau canapé."
+   },
+   "errorPatterns": [
+    {
+     "contains": "unless you don't",
+     "category": "grammar",
+     "feedback": "Unless contient déjà la négation : unless you earn more, pas unless you don't earn."
+    },
+    {
+     "contains": "will can",
+     "category": "grammar",
+     "feedback": "Will et can ne se combinent pas : au futur, on dit will be able to."
+    },
+    {
+     "contains": "unless you will",
+     "category": "verb_tense",
+     "feedback": "Pas de will après unless : le verbe reste au présent, unless you earn."
+    }
+   ]
+  },
+  {
+   "id": "en.l70.e20",
+   "unitIds": [
+    "en.g51.first_conditional",
+    "en.v.afford",
+    "en.v.loan",
+    "en.v.salary",
+    "en.v.budget",
+    "en.v.earn",
+    "en.v.debt"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase au premier conditionnel avec if, unless ou as soon as, et un de ces mots : afford, loan, bank, salary, budget, earn, debt.",
+   "prompt": "Parle de tes projets d'argent ou d'un achat que tu voudrais faire.",
+   "promptLanguage": "fr",
+   "answer": "If I save enough, I will be able to afford a new phone.",
+   "acceptedAnswers": [
+    "If I save enough, I will be able to afford a new phone.",
+    "As soon as I get my salary, I will pay back my debt.",
+    "Unless I earn more, I won't be able to buy a flat.",
+    "If the bank gives me a loan, I will open a restaurant."
+   ],
+   "requirements": {
+    "mustInclude": [
+     [
+      "if",
+      "unless",
+      "as soon as",
+      "when"
+     ],
+     [
+      "afford",
+      "loan",
+      "loans",
+      "bank",
+      "salary",
+      "budget",
+      "owe",
+      "owes",
+      "earn",
+      "earns",
+      "debt",
+      "debts"
+     ]
+    ],
+    "minWords": 7
+   },
+   "explanation": "Premier conditionnel : if / unless / as soon as + présent simple, puis will + verbe de base dans le résultat. Pas de will dans la partie avec if, et unless est déjà négatif.",
+   "tip": "Compte les temps : présent d'un côté, will de l'autre.",
+   "extraExample": {
+    "text": "As soon as I find a cheaper flat, I'll move out.",
+    "translation": "Dès que je trouverai un appartement moins cher, je déménagerai."
+   },
+   "errorPatterns": [
+    {
+     "contains": "if i will",
+     "category": "verb_tense",
+     "feedback": "Pas de will après if : le verbe de la condition reste au présent simple."
+    },
+    {
+     "contains": "unless i don't",
+     "category": "grammar",
+     "feedback": "Unless contient déjà la négation : unless I earn more, pas unless I don't earn."
+    },
+    {
+     "contains": "as soon as i will",
+     "category": "verb_tense",
+     "feedback": "Pas de will après as soon as : le verbe reste au présent simple."
+    }
+   ]
+  }
+ ]
+}

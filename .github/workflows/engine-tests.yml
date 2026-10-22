@@ -1,0 +1,46 @@
+name: Moteur et contenus (tests)
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "Packages/**"
+      - "App/Resources/Content/**"
+      - "tools/build_content.py"
+      - ".github/workflows/engine-tests.yml"
+concurrency:
+  group: engine-tests-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  test:
+    runs-on: macos-15
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - name: Construire les contenus des trois matières
+        run: |
+          for lang in en ar cg; do
+            if ls Content/$lang/source/m* >/dev/null 2>&1; then
+              python3 tools/build_content.py --lang $lang | tail -3 || echo "::warning::contenu $lang incomplet, ignoré"
+            fi
+          done
+      - name: Tests du moteur
+        run: |
+          sudo xcode-select -s /Applications/Xcode_26.3.app 2>/dev/null || true
+          cd Packages/LearningCore
+          swift test 2>&1 | tee ../../engine-tests.log
+          test ${PIPESTATUS[0]} -eq 0
+      - name: Résumé
+        if: always()
+        run: |
+          {
+            echo "### Tests du moteur"
+            grep -E "lessons, .* exercises|lessons completed|answer problems|Executed .* tests" engine-tests.log | tail -20 | sed 's/^/    /'
+            grep -E "error:|failed" engine-tests.log | head -40 | sed 's/^/    /'
+          } >> "$GITHUB_STEP_SUMMARY"
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: engine-tests-log
+          path: engine-tests.log
+          if-no-files-found: ignore

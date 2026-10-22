@@ -1,0 +1,829 @@
+{
+ "lessonId": "cg.l31",
+ "exercises": [
+  {
+   "id": "cg.l31.e01",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.clivage_gauche_droite"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "D'où viennent les mots « gauche » et « droite » en politique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Du débat sur le veto du roi à l'Assemblée constituante, en 1789",
+    "Du traité de Versailles, en 1919",
+    "De la Constitution de la Ve République, en 1958",
+    "De la guerre froide, après 1945"
+   ],
+   "answer": "Du débat sur le veto du roi à l'Assemblée constituante, en 1789",
+   "acceptedAnswers": [
+    "Du débat sur le veto du roi à l'Assemblée constituante, en 1789"
+   ],
+   "explanation": "En 1789, lors du débat sur le veto royal, les députés favorables au veto se placent à la droite du président de l'Assemblée constituante, et les opposants à sa gauche. L'habitude de s'asseoir selon ses opinions est restée.",
+   "tip": "1789 : la gauche et la droite naissent dans un hémicycle.",
+   "extraExample": {
+    "text": "Dans l'hémicycle de l'Assemblée nationale, les groupes de gauche siègent à la gauche du président.",
+    "translation": "L'habitude vient de 1789."
+   },
+   "errorPatterns": [
+    {
+     "equals": "De la guerre froide, après 1945",
+     "category": "word_confusion",
+     "feedback": "La guerre froide oppose deux blocs, mais le clivage gauche-droite apparaît dès 1789."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e02",
+   "unitIds": [
+    "cg.v.democratie",
+    "cg.g31.idees_politiques"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel mot, venu du grec, désigne le « pouvoir du peuple » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Démocratie",
+    "Aristocratie",
+    "Monarchie",
+    "Oligarchie"
+   ],
+   "answer": "Démocratie",
+   "acceptedAnswers": [
+    "Démocratie"
+   ],
+   "explanation": "Démocratie vient de dêmos (le peuple) et kratos (le pouvoir). Elle prend forme à Athènes à partir de la fin du VIe siècle avant J.-C. Elle s'oppose à la monarchie (pouvoir d'un seul), à l'aristocratie (pouvoir d'une élite) et à l'oligarchie (pouvoir de quelques-uns).",
+   "tip": "Dêmos = peuple, kratos = pouvoir.",
+   "extraExample": {
+    "text": "À Athènes, seuls les citoyens (hommes libres nés de parents athéniens) participent aux décisions.",
+    "translation": "Les femmes, les esclaves et les étrangers en sont exclus."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Aristocratie",
+     "category": "word_confusion",
+     "feedback": "Aristocratie vient de aristos, « le meilleur » : c'est le pouvoir d'une élite."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e03",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.adam_smith",
+    "cg.v.karl_marx",
+    "cg.v.liberalisme",
+    "cg.v.communisme",
+    "cg.v.totalitarisme"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui a écrit quoi ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Adam Smith",
+     "right": "La Richesse des nations (1776)"
+    },
+    {
+     "left": "Karl Marx",
+     "right": "Le Capital (1867)"
+    },
+    {
+     "left": "John Locke",
+     "right": "Deux traités du gouvernement civil (1690)"
+    },
+    {
+     "left": "Edmund Burke",
+     "right": "Réflexions sur la Révolution en France (1790)"
+    },
+    {
+     "left": "Hannah Arendt",
+     "right": "Les Origines du totalitarisme (1951)"
+    }
+   ],
+   "answer": "Adam Smith = La Richesse des nations (1776) ; Karl Marx = Le Capital (1867) ; John Locke = Deux traités du gouvernement civil (1690) ; Edmund Burke = Réflexions sur la Révolution en France (1790) ; Hannah Arendt = Les Origines du totalitarisme (1951)",
+   "acceptedAnswers": [],
+   "explanation": "Chaque grand courant a ses textes fondateurs : Locke et Smith pour le libéralisme, Marx pour le communisme, Burke pour le conservatisme. Hannah Arendt, elle, analyse le totalitarisme.",
+   "tip": "Un auteur, un courant : Smith et Locke libéraux, Marx communiste, Burke conservateur.",
+   "extraExample": {
+    "text": "Marx rédige le Manifeste du Parti communiste avec Friedrich Engels en 1848.",
+    "translation": "Le Capital paraît en 1867."
+   }
+  },
+  {
+   "id": "cg.l31.e04",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.karl_marx",
+    "cg.v.communisme"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel ouvrage Karl Marx et Friedrich Engels publient-ils en 1848 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Manifeste du Parti communiste",
+    "Le Capital",
+    "La Richesse des nations",
+    "De l'esprit des lois"
+   ],
+   "answer": "Le Manifeste du Parti communiste",
+   "acceptedAnswers": [
+    "Le Manifeste du Parti communiste"
+   ],
+   "explanation": "Le Manifeste du Parti communiste, publié à Londres en février 1848, résume la thèse de la lutte des classes entre la bourgeoisie et le prolétariat. Le Capital, œuvre de Marx seul, paraît en 1867.",
+   "tip": "Manifeste en 1848, Capital en 1867.",
+   "extraExample": {
+    "text": "En février 1848, une révolution à Paris renverse la monarchie de Juillet.",
+    "translation": "Le suffrage universel masculin est instauré peu après."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Capital",
+     "category": "word_confusion",
+     "feedback": "Le Capital est de Marx seul et date de 1867."
+    },
+    {
+     "equals": "La Richesse des nations",
+     "category": "word_confusion",
+     "feedback": "La Richesse des nations est d'Adam Smith (1776), un texte fondateur du libéralisme économique."
+    },
+    {
+     "equals": "De l'esprit des lois",
+     "category": "word_confusion",
+     "feedback": "De l'esprit des lois est de Montesquieu (1748), le livre de la séparation des pouvoirs."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e05",
+   "unitIds": [
+    "cg.g25.institutions_francaises",
+    "cg.v.motion_de_censure",
+    "cg.g31.idees_politiques"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "On qualifie souvent la France de régime « semi-présidentiel ». Pourquoi ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le président est élu directement, mais le gouvernement est responsable devant l'Assemblée nationale",
+    "Le président est choisi par le Parlement",
+    "Le président n'a aucun pouvoir politique",
+    "Le Premier ministre est élu directement par le peuple"
+   ],
+   "answer": "Le président est élu directement, mais le gouvernement est responsable devant l'Assemblée nationale",
+   "acceptedAnswers": [
+    "Le président est élu directement, mais le gouvernement est responsable devant l'Assemblée nationale"
+   ],
+   "explanation": "En France, le président est élu au suffrage universel direct (comme dans un régime présidentiel), mais le gouvernement peut être renversé par l'Assemblée nationale (comme dans un régime parlementaire). C'est un système mixte.",
+   "tip": "Semi-présidentiel : président élu par le peuple + gouvernement qui dépend de l'Assemblée.",
+   "extraExample": {
+    "text": "Aux États-Unis, le Congrès ne peut renverser le président que par une procédure exceptionnelle de destitution (impeachment).",
+    "translation": "En France, la motion de censure vise le gouvernement, pas le président."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le président est choisi par le Parlement",
+     "category": "word_confusion",
+     "feedback": "Le président français est élu directement par les citoyens depuis 1962."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e06",
+   "unitIds": [
+    "cg.v.guerre_froide",
+    "cg.v.communisme",
+    "cg.g31.idees_politiques"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Après 1945, un camp libéral et un camp communiste, menés par les États-Unis et l'URSS, s'opposent sans combat direct. Comment appelle-t-on cette période ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La guerre froide",
+    "La guerre de Cent Ans",
+    "La Terreur",
+    "La Belle Époque"
+   ],
+   "answer": "La guerre froide",
+   "acceptedAnswers": [
+    "La guerre froide"
+   ],
+   "explanation": "De 1947 à 1991 environ, les États-Unis et leurs alliés (démocraties, économie de marché) s'opposent à l'URSS et à ses alliés (régimes communistes à parti unique, économie planifiée). Elle s'achève avec la disparition de l'URSS.",
+   "tip": "Deux blocs, aucun affrontement direct : guerre froide.",
+   "extraExample": {
+    "text": "Le mur de Berlin, construit en 1961, devient le symbole de la division de l'Europe.",
+    "translation": "Il tombe le 9 novembre 1989."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La guerre de Cent Ans",
+     "category": "word_confusion",
+     "feedback": "La guerre de Cent Ans oppose la France et l'Angleterre au Moyen Âge (1337-1453)."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e07",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.regime_parlementaire"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Au Royaume-Uni, monarchie parlementaire, le roi règne mais ne ___ pas.",
+   "promptLanguage": "fr",
+   "options": [
+    "gouverne",
+    "vote",
+    "juge",
+    "parle"
+   ],
+   "answer": "gouverne",
+   "acceptedAnswers": [
+    "gouverne",
+    "gouverne pas"
+   ],
+   "explanation": "La formule « le roi règne, mais ne gouverne pas » résume la monarchie constitutionnelle britannique : le monarque est chef de l'État, mais c'est le Premier ministre, issu de la majorité de la Chambre des communes, qui gouverne.",
+   "tip": "Règne ≠ gouverne.",
+   "extraExample": {
+    "text": "Le roi nomme formellement le Premier ministre.",
+    "translation": "Il n'a pas de pouvoir politique propre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "juge",
+     "category": "word_confusion",
+     "feedback": "Les juges forment le pouvoir judiciaire ; c'est le Premier ministre qui gouverne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e08",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.adam_smith",
+    "cg.v.liberalisme"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Dans La Richesse des nations (1776), l'économiste écossais décrit la « main ___ » du marché.",
+   "promptLanguage": "fr",
+   "options": [
+    "invisible",
+    "visible",
+    "publique",
+    "lourde"
+   ],
+   "answer": "invisible",
+   "acceptedAnswers": [
+    "invisible"
+   ],
+   "explanation": "Pour Adam Smith, chacun, en cherchant son propre intérêt, contribue sans le vouloir à l'intérêt général, comme guidé par une « main invisible ». Cette image est un pilier du libéralisme économique.",
+   "tip": "Smith : la main invisible du marché.",
+   "extraExample": {
+    "text": "Smith ajoute que la division du travail rend les ouvriers beaucoup plus productifs.",
+    "translation": "Il prend l'exemple d'une manufacture d'épingles."
+   }
+  },
+  {
+   "id": "cg.l31.e09",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.regime_parlementaire",
+    "cg.v.regime_presidentiel"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Quel régime pour quel pays ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "États-Unis",
+     "right": "régime présidentiel et fédéral"
+    },
+    {
+     "left": "Royaume-Uni",
+     "right": "monarchie parlementaire"
+    },
+    {
+     "left": "France",
+     "right": "régime semi-présidentiel"
+    },
+    {
+     "left": "Allemagne",
+     "right": "république parlementaire et fédérale"
+    },
+    {
+     "left": "Suisse",
+     "right": "démocratie semi-directe, avec de nombreux référendums"
+    }
+   ],
+   "answer": "États-Unis = régime présidentiel et fédéral ; Royaume-Uni = monarchie parlementaire ; France = régime semi-présidentiel ; Allemagne = république parlementaire et fédérale ; Suisse = démocratie semi-directe, avec de nombreux référendums",
+   "acceptedAnswers": [],
+   "explanation": "Chaque pays combine ses choix : le président américain est élu séparément du Congrès ; le Royaume-Uni a un roi et un gouvernement qui dépend du Parlement ; la France mêle les deux modèles ; l'Allemagne est une république parlementaire fédérale ; la Suisse multiplie les votations.",
+   "tip": "Président séparé du Parlement : présidentiel ; gouvernement qui dépend du Parlement : parlementaire.",
+   "extraExample": {
+    "text": "La Belgique, l'Espagne et les Pays-Bas sont aussi des monarchies parlementaires.",
+    "translation": "Le Japon aussi, avec un empereur."
+   }
+  },
+  {
+   "id": "cg.l31.e10",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.suffrage_universel",
+    "cg.v.olympe_de_gouges"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le droit de vote est accordé aux femmes françaises par l'ordonnance du 21 avril ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1944",
+    "1789",
+    "1848",
+    "1974"
+   ],
+   "answer": "1944",
+   "acceptedAnswers": [
+    "1944"
+   ],
+   "explanation": "L'ordonnance du 21 avril 1944, prise à Alger par le Comité français de la Libération nationale, donne aux femmes le droit de vote et d'éligibilité. Elles votent pour la première fois aux municipales d'avril-mai 1945.",
+   "tip": "1848 pour les hommes, 1944 pour les femmes.",
+   "extraExample": {
+    "text": "Dès 1791, Olympe de Gouges publie la Déclaration des droits de la femme et de la citoyenne.",
+    "translation": "Il faudra plus d'un siècle et demi pour que le droit de vote leur soit accordé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1848",
+     "category": "word_confusion",
+     "feedback": "1848 est l'année du suffrage universel masculin ; les Françaises doivent attendre 1944."
+    },
+    {
+     "equals": "1974",
+     "category": "word_confusion",
+     "feedback": "En 1974, c'est l'âge de la majorité électorale qui passe de 21 à 18 ans."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e11",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.karl_marx",
+    "cg.v.communisme"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Manifeste du Parti communiste (1848) se termine par l'appel : « Prolétaires de tous les pays, ___ ! »",
+   "promptLanguage": "fr",
+   "options": [
+    "unissez-vous",
+    "révoltez-vous",
+    "enrichissez-vous",
+    "taisez-vous"
+   ],
+   "answer": "unissez-vous",
+   "acceptedAnswers": [
+    "unissez-vous"
+   ],
+   "explanation": "Le Manifeste de Marx et Engels invite les travailleurs à s'organiser au-delà des frontières. La formule « Prolétaires de tous les pays, unissez-vous ! » est devenue un mot d'ordre du mouvement ouvrier.",
+   "tip": "Le Manifeste : un appel à l'union des travailleurs.",
+   "extraExample": {
+    "text": "Le prolétariat désigne, pour Marx, les travailleurs qui ne possèdent pas leurs outils de production.",
+    "translation": "La bourgeoisie, elle, possède les usines et les capitaux."
+   },
+   "errorPatterns": [
+    {
+     "equals": "révoltez-vous",
+     "category": "word_confusion",
+     "feedback": "Le Manifeste appelle les travailleurs de tous les pays à s'unir, pas simplement à se révolter."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e12",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.suffrage_universel"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Avant 1848, la France pratique le suffrage censitaire. Qu'est-ce que cela signifie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Seuls les citoyens qui paient un certain impôt peuvent voter",
+    "Seuls les nobles peuvent voter",
+    "Seuls les hommes de plus de 18 ans peuvent voter",
+    "Le vote est obligatoire pour tous"
+   ],
+   "answer": "Seuls les citoyens qui paient un certain impôt peuvent voter",
+   "acceptedAnswers": [
+    "Seuls les citoyens qui paient un certain impôt peuvent voter"
+   ],
+   "explanation": "Dans le suffrage censitaire, il faut payer un montant minimal d'impôt, le cens, pour voter. En 1848, la IIe République instaure le suffrage universel masculin. Les femmes devront attendre 1944.",
+   "tip": "Cens = impôt minimum ; universel = tous les adultes.",
+   "extraExample": {
+    "text": "Sous la monarchie de Juillet (1830-1848), environ 250 000 hommes ont le droit de vote.",
+    "translation": "En 1848, ils sont plus de 9 millions."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Seuls les nobles peuvent voter",
+     "category": "word_confusion",
+     "feedback": "Le suffrage censitaire repose sur la richesse (l'impôt payé), pas sur la naissance."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e13",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.totalitarisme"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la différence entre un régime autoritaire et un régime totalitaire ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le second veut contrôler toute la société au nom d'une idéologie, pas seulement garder le pouvoir",
+    "Le second organise des élections libres",
+    "Le premier est toujours une monarchie",
+    "Il n'y a aucune différence"
+   ],
+   "answer": "Le second veut contrôler toute la société au nom d'une idéologie, pas seulement garder le pouvoir",
+   "acceptedAnswers": [
+    "Le second veut contrôler toute la société au nom d'une idéologie, pas seulement garder le pouvoir"
+   ],
+   "explanation": "Un régime autoritaire concentre le pouvoir et limite les libertés. Un régime totalitaire va plus loin : parti unique, idéologie officielle, propagande et terreur pour contrôler la vie publique et privée.",
+   "tip": "Autoritaire : garder le pouvoir ; totalitaire : tout contrôler.",
+   "extraExample": {
+    "text": "Hannah Arendt publie Les Origines du totalitarisme en 1951.",
+    "translation": "Elle y étudie le nazisme et le stalinisme."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il n'y a aucune différence",
+     "category": "word_confusion",
+     "feedback": "Les historiens distinguent les deux : le régime autoritaire garde le pouvoir, le totalitaire veut aussi transformer toute la société."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e14",
+   "unitIds": [
+    "cg.v.berne",
+    "cg.g31.idees_politiques",
+    "cg.v.suffrage_universel"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pays, dont Berne est la ville fédérale, pratique une démocratie semi-directe avec de nombreux référendums appelés votations ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Suisse",
+    "La Belgique",
+    "L'Autriche",
+    "Les Pays-Bas"
+   ],
+   "answer": "La Suisse",
+   "acceptedAnswers": [
+    "La Suisse"
+   ],
+   "explanation": "En Suisse, les citoyens votent plusieurs fois par an sur des lois et des initiatives populaires. C'est aussi un État fédéral, dont les cantons gardent de larges pouvoirs.",
+   "tip": "Suisse : le peuple vote souvent.",
+   "extraExample": {
+    "text": "En Suisse, une initiative populaire doit recueillir 100 000 signatures pour être soumise au vote.",
+    "translation": "Les citoyens peuvent ainsi proposer une modification de la Constitution fédérale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Belgique",
+     "category": "word_confusion",
+     "feedback": "La Belgique est une monarchie parlementaire et fédérale, mais elle ne pratique pas de référendums nationaux."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e15",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.communisme"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans une économie planifiée, comme en URSS, qui décide de ce que l'on produit ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'État, au moyen de plans",
+    "Les consommateurs, par leurs achats",
+    "La Bourse, par les cours des actions",
+    "L'OMC, par ses règles"
+   ],
+   "answer": "L'État, au moyen de plans",
+   "acceptedAnswers": [
+    "L'État, au moyen de plans"
+   ],
+   "explanation": "Dans l'économie planifiée, l'État fixe les objectifs de production par des plans, comme les plans quinquennaux soviétiques lancés en 1928. Dans l'économie de marché, ce sont les prix, nés de l'offre et de la demande, qui orientent la production.",
+   "tip": "Plan : l'État décide ; marché : les prix décident.",
+   "extraExample": {
+    "text": "La plupart des pays ont une économie mixte, avec des marchés et une intervention de l'État.",
+    "translation": "La France en est un exemple."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les consommateurs, par leurs achats",
+     "category": "word_confusion",
+     "feedback": "C'est le fonctionnement d'une économie de marché, l'inverse d'une économie planifiée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e16",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.regime_presidentiel"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le régime présidentiel.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "élu",
+    "du",
+    "président",
+    "Congrès",
+    "est",
+    "Le",
+    "séparément",
+    "américain"
+   ],
+   "answer": "Le président américain est élu séparément du Congrès",
+   "acceptedAnswers": [
+    "Le président américain est élu séparément du Congrès"
+   ],
+   "hint": "Commence par le président.",
+   "explanation": "Dans un régime présidentiel, le président et le Parlement (ici le Congrès) sont élus séparément : aucun ne peut renverser l'autre par un simple vote de défiance.",
+   "tip": "Présidentiel : deux élections séparées.",
+   "extraExample": {
+    "text": "Le Congrès américain comprend le Sénat et la Chambre des représentants.",
+    "translation": "Il siège au Capitole, à Washington."
+   }
+  },
+  {
+   "id": "cg.l31.e17",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.suffrage_universel"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le droit de vote des femmes.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Les",
+    "en",
+    "en",
+    "première",
+    "fois",
+    "1945",
+    "votent",
+    "France",
+    "femmes",
+    "pour",
+    "la"
+   ],
+   "answer": "Les femmes votent pour la première fois en France en 1945",
+   "acceptedAnswers": [
+    "Les femmes votent pour la première fois en France en 1945",
+    "En 1945 les femmes votent pour la première fois en France"
+   ],
+   "hint": "Commence par les femmes.",
+   "explanation": "Après l'ordonnance d'avril 1944, les Françaises votent pour la première fois aux élections municipales d'avril-mai 1945, puis aux législatives d'octobre 1945.",
+   "tip": "1944 : le droit ; 1945 : le premier vote.",
+   "extraExample": {
+    "text": "Le droit de vote à 18 ans date de 1974 en France.",
+    "translation": "Il est accordé par la loi du 5 juillet 1974."
+   }
+  },
+  {
+   "id": "cg.l31.e18",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.suffrage_universel"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on le droit de vote accordé à tous les citoyens adultes, sans condition de fortune ni de sexe ?",
+   "promptLanguage": "fr",
+   "answer": "Le suffrage universel",
+   "acceptedAnswers": [
+    "Le suffrage universel",
+    "suffrage universel"
+   ],
+   "explanation": "Le suffrage universel donne le droit de vote à tous les citoyens adultes. En France, il est masculin dès 1848 et s'étend aux femmes en 1944. « Universel » ne veut pas dire sans limite : les enfants, par exemple, ne votent pas.",
+   "tip": "Universel : tous les adultes, quelle que soit leur fortune.",
+   "extraExample": {
+    "text": "L'âge du droit de vote passe de 21 à 18 ans en France en 1974.",
+    "translation": "Cette réforme est décidée par la loi du 5 juillet 1974."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Suffrage censitaire",
+     "category": "word_confusion",
+     "feedback": "Le suffrage censitaire réserve le vote à ceux qui paient un certain impôt ; le suffrage universel l'ouvre à tous les adultes."
+    },
+    {
+     "equals": "Le suffrage censitaire",
+     "category": "word_confusion",
+     "feedback": "Le suffrage censitaire réserve le vote à ceux qui paient un certain impôt ; le suffrage universel l'ouvre à tous les adultes."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e19",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.regime_parlementaire"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on le régime où le gouvernement est responsable devant le Parlement, comme au Royaume-Uni ou en Allemagne ?",
+   "promptLanguage": "fr",
+   "answer": "Le régime parlementaire",
+   "acceptedAnswers": [
+    "Le régime parlementaire",
+    "régime parlementaire",
+    "un régime parlementaire",
+    "parlementaire",
+    "Le regime parlementaire",
+    "regime parlementaire",
+    "un regime parlementaire"
+   ],
+   "explanation": "Dans un régime parlementaire, le gouvernement doit avoir la confiance du Parlement ; s'il la perd, il tombe. Le chef de l'État y a surtout un rôle symbolique ou d'arbitre.",
+   "tip": "Parlementaire : le gouvernement dépend du Parlement.",
+   "extraExample": {
+    "text": "En Italie, le Parlement donne sa confiance au gouvernement, alors que le président de la République n'a qu'un rôle d'arbitre.",
+    "translation": "C'est aussi un régime parlementaire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Régime présidentiel",
+     "category": "word_confusion",
+     "feedback": "Dans un régime présidentiel, le gouvernement ne dépend pas du Parlement : le président est élu séparément."
+    },
+    {
+     "equals": "Le régime présidentiel",
+     "category": "word_confusion",
+     "feedback": "Dans un régime présidentiel, le gouvernement ne dépend pas du Parlement : le président est élu séparément."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e20",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.adam_smith"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel économiste écossais a publié La Richesse des nations en 1776 ?",
+   "promptLanguage": "fr",
+   "answer": "Adam Smith",
+   "acceptedAnswers": [
+    "Adam Smith",
+    "Smith"
+   ],
+   "explanation": "Adam Smith (1723-1790) y décrit la division du travail et la « main invisible » du marché. Il est considéré comme l'un des pères du libéralisme économique.",
+   "tip": "Smith : 1776, la main invisible.",
+   "extraExample": {
+    "text": "Smith est aussi l'auteur de La Théorie des sentiments moraux (1759).",
+    "translation": "Il enseignait la philosophie morale à Glasgow."
+   },
+   "errorPatterns": [
+    {
+     "equals": "David Ricardo",
+     "category": "word_confusion",
+     "feedback": "David Ricardo prolonge Smith avec l'avantage comparatif (1817) ; La Richesse des nations est de Smith."
+    },
+    {
+     "equals": "Karl Marx",
+     "category": "word_confusion",
+     "feedback": "Marx critique le capitalisme dans Le Capital (1867) ; La Richesse des nations est de Smith, près d'un siècle plus tôt."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e21",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.totalitarisme"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on un régime qui prétend contrôler toute la société au nom d'une idéologie, avec parti unique, propagande et terreur ?",
+   "promptLanguage": "fr",
+   "answer": "Totalitarisme",
+   "acceptedAnswers": [
+    "Totalitarisme",
+    "Le totalitarisme",
+    "un régime totalitaire",
+    "régime totalitaire",
+    "totalitaire",
+    "un regime totalitaire",
+    "regime totalitaire"
+   ],
+   "explanation": "Le totalitarisme cherche à contrôler la vie publique et privée au nom d'une idéologie officielle. L'Allemagne nazie et l'URSS de Staline en sont les exemples les plus étudiés.",
+   "tip": "Totalitarisme : tout contrôler, jusqu'aux esprits.",
+   "extraExample": {
+    "text": "Le mot naît dans l'Italie des années 1920.",
+    "translation": "Hannah Arendt l'analyse en 1951 dans Les Origines du totalitarisme."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Autoritarisme",
+     "category": "word_confusion",
+     "feedback": "Un régime autoritaire concentre le pouvoir sans forcément contrôler toute la société ; le totalitarisme va plus loin."
+    },
+    {
+     "equals": "Dictature",
+     "category": "word_confusion",
+     "feedback": "Une dictature concentre le pouvoir ; le totalitarisme, lui, prétend contrôler toute la société."
+    }
+   ]
+  },
+  {
+   "id": "cg.l31.e22",
+   "unitIds": [
+    "cg.g31.idees_politiques",
+    "cg.v.liberalisme",
+    "cg.v.socialisme",
+    "cg.v.communisme"
+   ],
+   "type": "match",
+   "difficulty": 4,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Courants politiques et idée centrale",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Libéralisme",
+     "right": "liberté individuelle et pouvoir limité"
+    },
+    {
+     "left": "Socialisme",
+     "right": "plus d'égalité et un rôle important du collectif"
+    },
+    {
+     "left": "Communisme",
+     "right": "fin de la propriété privée des moyens de production"
+    },
+    {
+     "left": "Conservatisme",
+     "right": "attachement à la tradition et changements progressifs"
+    },
+    {
+     "left": "Social-démocratie",
+     "right": "réformes dans le cadre de la démocratie et de l'économie de marché"
+    }
+   ],
+   "answer": "Libéralisme = liberté individuelle et pouvoir limité ; Socialisme = plus d'égalité et un rôle important du collectif ; Communisme = fin de la propriété privée des moyens de production ; Conservatisme = attachement à la tradition et changements progressifs ; Social-démocratie = réformes dans le cadre de la démocratie et de l'économie de marché",
+   "acceptedAnswers": [],
+   "explanation": "Chaque courant met en avant une valeur : le libéralisme la liberté individuelle, le socialisme l'égalité, le communisme la propriété collective, le conservatisme la tradition, la social-démocratie la réforme dans le cadre du marché et de la démocratie.",
+   "tip": "Liberté, égalité, propriété collective, tradition, réforme.",
+   "extraExample": {
+    "text": "Le conservateur britannique Edmund Burke critique la Révolution française dès 1790.",
+    "translation": "Il défend le changement progressif plutôt que la rupture."
+   }
+  }
+ ]
+}

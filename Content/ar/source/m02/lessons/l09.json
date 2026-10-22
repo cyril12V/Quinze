@@ -1,0 +1,880 @@
+{
+ "lessonId": "ar.l09",
+ "exercises": [
+  {
+   "id": "ar.l09.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.ba"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Laquelle de ces formes est la forme du début de ب ?",
+   "promptLanguage": "fr",
+   "answer": "بـ",
+   "acceptedAnswers": [
+    "بـ"
+   ],
+   "explanation": "La forme du début s'accroche à la lettre qui suit, donc le trait ـ est à gauche : بـ.",
+   "tip": "Début = trait à gauche, fin = trait à droite.",
+   "extraExample": {
+    "text": "بيت",
+    "translation": "maison"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ـبـ",
+     "category": "instruction",
+     "feedback": "ـبـ a le trait des deux côtés : c'est la forme du milieu."
+    },
+    {
+     "equals": "ـب",
+     "category": "instruction",
+     "feedback": "ـب a le trait à droite : c'est la forme de la fin."
+    },
+    {
+     "equals": "ب",
+     "category": "instruction",
+     "feedback": "ب sans trait est la forme isolée."
+    }
+   ],
+   "options": [
+    "بـ",
+    "ـبـ",
+    "ـب",
+    "ب"
+   ]
+  },
+  {
+   "id": "ar.l09.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.ba"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle forme de ب vois-tu ici : ـبـ ?",
+   "promptLanguage": "fr",
+   "answer": "forme du milieu",
+   "acceptedAnswers": [
+    "forme du milieu"
+   ],
+   "explanation": "Le trait ـ de chaque côté montre que la lettre s'accroche à gauche et à droite : c'est la forme du milieu.",
+   "tip": "Deux traits = milieu.",
+   "extraExample": {
+    "text": "نبي",
+    "translation": "prophète"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du début",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à gauche, vers la lettre suivante : c'est la forme du début."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l09.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bayt"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "بيت",
+   "promptLanguage": "ar",
+   "answer": "maison",
+   "acceptedAnswers": [
+    "maison"
+   ],
+   "explanation": "Lettre par lettre : ب (1 point dessous), ي (2 points dessous), ت (2 points dessus) donne بيت, « maison ». Les deux points sous le ي du milieu séparent بيت de بنت.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "بيتنا قريب من الكنيسة.",
+    "translation": "Notre maison est près de l'église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "fille",
+     "category": "word_confusion",
+     "feedback": "« fille » s'écrit بنت (ب + ن + ت). Ici tu lis ب + ي + ت : بيت veut dire « maison »."
+    },
+    {
+     "equals": "figues",
+     "category": "word_confusion",
+     "feedback": "« figues » s'écrit تين (ت + ي + ن). Ici tu lis ب + ي + ت : بيت veut dire « maison »."
+    },
+    {
+     "equals": "entre",
+     "category": "word_confusion",
+     "feedback": "« entre » s'écrit بين (ب + ي + ن). Ici tu lis ب + ي + ت : بيت veut dire « maison »."
+    }
+   ],
+   "options": [
+    "maison",
+    "fille",
+    "figues",
+    "entre"
+   ]
+  },
+  {
+   "id": "ar.l09.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bint"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "بنت",
+   "promptLanguage": "ar",
+   "answer": "fille",
+   "acceptedAnswers": [
+    "fille"
+   ],
+   "explanation": "Lettre par lettre : ب (1 point dessous), ن (1 point dessus), ت (2 points dessus) donne بنت, « fille ». Au milieu, un seul point dessus : ـنـ.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "البنت دي شاطرة.",
+    "translation": "Cette fille est douée."
+   },
+   "hint": "Regarde les points de la lettre du milieu.",
+   "errorPatterns": [
+    {
+     "equals": "maison",
+     "category": "word_confusion",
+     "feedback": "« maison » s'écrit بيت (ب + ي + ت). Ici tu lis ب + ن + ت : بنت veut dire « fille »."
+    },
+    {
+     "equals": "prophète",
+     "category": "word_confusion",
+     "feedback": "« prophète » s'écrit نبي (ن + ب + ي). Ici tu lis ب + ن + ت : بنت veut dire « fille »."
+    },
+    {
+     "equals": "dragon",
+     "category": "word_confusion",
+     "feedback": "« dragon » s'écrit تنين (ت + ن + ي + ن). Ici tu lis ب + ن + ت : بنت veut dire « fille »."
+    }
+   ],
+   "options": [
+    "fille",
+    "maison",
+    "prophète",
+    "dragon"
+   ]
+  },
+  {
+   "id": "ar.l09.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.tin"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « figues » ?",
+   "promptLanguage": "fr",
+   "answer": "تين",
+   "acceptedAnswers": [
+    "تين"
+   ],
+   "explanation": "« figues » s'écrit ت + ي + ن : تين. Trois dents de suite : ت (2 points dessus), ي (2 points dessous), ن (1 point dessus).",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "عايز كيلو تين.",
+    "translation": "Je voudrais un kilo de figues."
+   },
+   "errorPatterns": [
+    {
+     "equals": "بين",
+     "category": "word_confusion",
+     "feedback": "بين (ب + ي + ن) veut dire « entre ». Pour « figues », il faut ت + ي + ن : تين."
+    },
+    {
+     "equals": "بنت",
+     "category": "word_confusion",
+     "feedback": "بنت (ب + ن + ت) veut dire « fille ». Pour « figues », il faut ت + ي + ن : تين."
+    },
+    {
+     "equals": "تنين",
+     "category": "word_confusion",
+     "feedback": "تنين (ت + ن + ي + ن) veut dire « dragon ». Pour « figues », il faut ت + ي + ن : تين."
+    }
+   ],
+   "options": [
+    "تين",
+    "بين",
+    "بنت",
+    "تنين"
+   ]
+  },
+  {
+   "id": "ar.l09.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bayt"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans بيت, quelle forme prend la lettre ي ?",
+   "promptLanguage": "fr",
+   "answer": "forme du milieu",
+   "acceptedAnswers": [
+    "forme du milieu"
+   ],
+   "explanation": "Le ي est entre le ب et le ت : il s'accroche des deux côtés, donc il prend la forme du milieu ـيـ.",
+   "tip": "Une lettre entourée de deux lettres attachées prend la forme du milieu.",
+   "extraExample": {
+    "text": "بنت",
+    "translation": "fille"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du début",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à gauche, vers la lettre suivante : c'est la forme du début."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l09.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bint"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans بنت, quelle forme prend la dernière lettre, ت ?",
+   "promptLanguage": "fr",
+   "answer": "forme de la fin",
+   "acceptedAnswers": [
+    "forme de la fin"
+   ],
+   "explanation": "Le ت termine le mot et s'accroche seulement à la lettre d'avant : c'est la forme de la fin ـت.",
+   "tip": "La dernière lettre d'un bloc attaché prend la forme de la fin.",
+   "extraExample": {
+    "text": "بيت",
+    "translation": "maison"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du début",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à gauche, vers la lettre suivante : c'est la forme du début."
+    },
+    {
+     "equals": "forme du milieu",
+     "category": "instruction",
+     "feedback": "Un trait ـ de chaque côté : c'est la forme du milieu."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l09.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.ya"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne dent.",
+   "prompt": "Au milieu d'un mot, laquelle de ces dents a deux points dessous ?",
+   "promptLanguage": "fr",
+   "answer": "ـيـ",
+   "acceptedAnswers": [
+    "ـيـ"
+   ],
+   "explanation": "Deux points dessous : c'est le ي. ـبـ en a un seul dessous, ـتـ en a deux mais dessus, ـنـ en a un dessus.",
+   "tip": "Dessous ou dessus ? Un, deux ou trois ? Compte toujours.",
+   "extraExample": {
+    "text": "بيت",
+    "translation": "maison"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ـبـ",
+     "category": "spelling",
+     "feedback": "ـبـ n'a qu'un point dessous."
+    },
+    {
+     "equals": "ـتـ",
+     "category": "spelling",
+     "feedback": "ـتـ a deux points, mais dessus."
+    },
+    {
+     "equals": "ـنـ",
+     "category": "spelling",
+     "feedback": "ـنـ n'a qu'un point, dessus."
+    }
+   ],
+   "options": [
+    "ـبـ",
+    "ـتـ",
+    "ـنـ",
+    "ـيـ"
+   ]
+  },
+  {
+   "id": "ar.l09.e09",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bayt"
+   ],
+   "difficulty": 2,
+   "instruction": "Quelle lettre manque pour écrire « maison » ?",
+   "prompt": "بـ___ـت",
+   "promptLanguage": "ar",
+   "answer": "ي",
+   "acceptedAnswers": [
+    "ي"
+   ],
+   "explanation": "Pour « maison », il faut deux points dessous au milieu : ب + ي + ت = بيت. Avec ن on lirait بنت (fille).",
+   "tip": "Maison : deux points dessous. Fille : un point dessus.",
+   "extraExample": {
+    "text": "بيت",
+    "translation": "maison"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ن",
+     "category": "word_confusion",
+     "feedback": "بنت veut dire « fille ». Pour « maison », le milieu a deux points dessous : ي."
+    }
+   ],
+   "options": [
+    "ي",
+    "ن",
+    "ث",
+    "ب"
+   ]
+  },
+  {
+   "id": "ar.l09.e10",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.nabi"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète « prophète ».",
+   "prompt": "نـ___ـي",
+   "promptLanguage": "ar",
+   "answer": "ب",
+   "acceptedAnswers": [
+    "ب"
+   ],
+   "explanation": "نبي s'écrit ن + ب + ي : au milieu, la dent ـبـ n'a qu'un seul point, dessous.",
+   "tip": "Compte les points de la dent du milieu.",
+   "extraExample": {
+    "text": "نبي",
+    "translation": "prophète"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ت",
+     "category": "spelling",
+     "feedback": "ت a deux points dessus ; ici il y a un seul point dessous : ب."
+    }
+   ],
+   "options": [
+    "ب",
+    "ت",
+    "ن",
+    "ث"
+   ]
+  },
+  {
+   "id": "ar.l09.e11",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bint"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète « fille » : quelle est la dernière lettre ?",
+   "prompt": "بـنـ___",
+   "promptLanguage": "ar",
+   "answer": "ت",
+   "acceptedAnswers": [
+    "ت"
+   ],
+   "explanation": "بنت finit par ت : deux points dessus. ث en aurait trois, ي deux mais dessous.",
+   "tip": "À la fin, ت a deux points dessus.",
+   "extraExample": {
+    "text": "بنت",
+    "translation": "fille"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ث",
+     "category": "spelling",
+     "feedback": "ث a trois points dessus, ت en a deux."
+    },
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "ي a deux points dessous, ت deux points dessus."
+    }
+   ],
+   "options": [
+    "ت",
+    "ث",
+    "ي",
+    "ن"
+   ]
+  },
+  {
+   "id": "ar.l09.e12",
+   "type": "match",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bayt",
+    "ar.v.bint",
+    "ar.v.tin",
+    "ar.v.nabi",
+    "ar.v.bunn"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots de la leçon",
+   "promptLanguage": "fr",
+   "answer": "بيت = maison ; بنت = fille ; تين = figues ; نبي = prophète ; بن = café (grains)",
+   "acceptedAnswers": [],
+   "explanation": "Lis chaque mot lettre par lettre : les points te disent qui est qui, comme بيت (maison) et بنت (fille).",
+   "pairs": [
+    {
+     "left": "بيت",
+     "right": "maison"
+    },
+    {
+     "left": "بنت",
+     "right": "fille"
+    },
+    {
+     "left": "تين",
+     "right": "figues"
+    },
+    {
+     "left": "نبي",
+     "right": "prophète"
+    },
+    {
+     "left": "بن",
+     "right": "café (grains)"
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e13",
+   "type": "match",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.ba",
+    "ar.v.ta",
+    "ar.v.tha",
+    "ar.v.nun",
+    "ar.v.ya"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque lettre isolée à sa forme du début.",
+   "prompt": "Lettre isolée et forme du début",
+   "promptLanguage": "fr",
+   "answer": "ب = بـ ; ت = تـ ; ث = ثـ ; ن = نـ ; ي = يـ",
+   "acceptedAnswers": [],
+   "explanation": "La forme du début garde la lettre et ses points, et ajoute le trait ـ à gauche.",
+   "pairs": [
+    {
+     "left": "ب",
+     "right": "بـ"
+    },
+    {
+     "left": "ت",
+     "right": "تـ"
+    },
+    {
+     "left": "ث",
+     "right": "ثـ"
+    },
+    {
+     "left": "ن",
+     "right": "نـ"
+    },
+    {
+     "left": "ي",
+     "right": "يـ"
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e14",
+   "type": "match",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bayt",
+    "ar.v.bint",
+    "ar.v.nabi"
+   ],
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à la lettre de son milieu.",
+   "prompt": "La lettre du milieu",
+   "promptLanguage": "fr",
+   "answer": "بيت = ي ; بنت = ن ; نبي = ب",
+   "acceptedAnswers": [],
+   "explanation": "Au milieu, c'est la dent qui compte : بيت a ـيـ (2 points dessous), بنت a ـنـ (1 point dessus), نبي a ـبـ (1 point dessous).",
+   "pairs": [
+    {
+     "left": "بيت",
+     "right": "ي"
+    },
+    {
+     "left": "بنت",
+     "right": "ن"
+    },
+    {
+     "left": "نبي",
+     "right": "ب"
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e15",
+   "type": "translation",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.tinnin"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "تنين",
+   "promptLanguage": "ar",
+   "answer": "dragon",
+   "acceptedAnswers": [
+    "dragon",
+    "un dragon",
+    "le dragon"
+   ],
+   "explanation": "تنين = ت + ن + ي + ن : quatre dents, c'est le dragon. Ne le confonds pas avec تين (figues), qui a une dent de moins.",
+   "tip": "Compte les dents : quatre pour le dragon, trois pour les figues.",
+   "extraExample": {
+    "text": "تنين",
+    "translation": "dragon"
+   },
+   "errorPatterns": [
+    {
+     "equals": "figues",
+     "category": "word_confusion",
+     "feedback": "تين (figues) a trois lettres ; تنين en a quatre."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e16",
+   "type": "translation",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bayna"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "بين",
+   "promptLanguage": "ar",
+   "answer": "entre",
+   "acceptedAnswers": [
+    "entre"
+   ],
+   "explanation": "بين = ب + ي + ن. Même squelette que بيت, mais avec ن à la fin : c'est « entre ».",
+   "tip": "بين finit par ن (1 point dessus), بيت par ت (2 points dessus).",
+   "extraExample": {
+    "text": "بين",
+    "translation": "entre"
+   },
+   "errorPatterns": [
+    {
+     "equals": "maison",
+     "category": "word_confusion",
+     "feedback": "بيت (maison) finit par ت ; بين finit par ن."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e17",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.nabi"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire نبي ?",
+   "promptLanguage": "fr",
+   "answer": "prophète",
+   "acceptedAnswers": [
+    "prophète",
+    "prophete",
+    "un prophète",
+    "le prophète",
+    "un prophete",
+    "le prophete"
+   ],
+   "explanation": "نبي = ن + ب + ي : un prophète. Les trois lettres sont attachées en un seul bloc.",
+   "tip": "Lis de droite à gauche : ن, puis ب, puis ي.",
+   "extraExample": {
+    "text": "النبي داود كتب المزامير.",
+    "translation": "Le prophète David a écrit les psaumes."
+   }
+  },
+  {
+   "id": "ar.l09.e18",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g09.forms_ba_family",
+    "ar.v.bint"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire بنت ?",
+   "promptLanguage": "fr",
+   "answer": "fille",
+   "acceptedAnswers": [
+    "fille",
+    "une fille",
+    "la fille",
+    "petite fille"
+   ],
+   "explanation": "بنت = ب + ن + ت : une fille. Le milieu ـنـ a un point dessus, pas deux points dessous.",
+   "tip": "Un point dessus au milieu : c'est بنت.",
+   "extraExample": {
+    "text": "عندي بنتين.",
+    "translation": "J'ai deux filles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "maison",
+     "category": "word_confusion",
+     "feedback": "maison = بيت : deux points dessous au milieu. Ici le milieu a un point dessus."
+    }
+   ]
+  },
+  {
+   "id": "ar.l09.e19",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.ya"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Quelle lettre a deux points dessous ?",
+   "promptLanguage": "fr",
+   "answer": "ي",
+   "acceptedAnswers": [
+    "ي"
+   ],
+   "explanation": "ي a deux points sous sa courbe. ب n'en a qu'un dessous, ت en a deux mais dessus, ن un seul dessus.",
+   "tip": "Dessous ou dessus, un, deux ou trois : compte toujours.",
+   "extraExample": {
+    "text": "بيت",
+    "translation": "maison"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ب",
+     "category": "spelling",
+     "feedback": "ب n'a qu'un point, dessous."
+    },
+    {
+     "equals": "ت",
+     "category": "spelling",
+     "feedback": "ت a deux points, mais dessus."
+    },
+    {
+     "equals": "ن",
+     "category": "spelling",
+     "feedback": "ن n'a qu'un point, dessus."
+    }
+   ],
+   "options": [
+    "ب",
+    "ت",
+    "ي",
+    "ن"
+   ]
+  },
+  {
+   "id": "ar.l09.e20",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.tha"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Quelle lettre a trois points dessus ?",
+   "promptLanguage": "fr",
+   "answer": "ث",
+   "acceptedAnswers": [
+    "ث"
+   ],
+   "explanation": "ث porte trois points au-dessus : c'est la seule de la famille ب ت ث ن ي à en avoir trois.",
+   "tip": "Trois points dessus = ث.",
+   "extraExample": {
+    "text": "ثلاثة",
+    "translation": "trois"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ت",
+     "category": "spelling",
+     "feedback": "ت n'a que deux points."
+    },
+    {
+     "equals": "ن",
+     "category": "spelling",
+     "feedback": "ن n'a qu'un point."
+    },
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "ي a deux points, dessous."
+    }
+   ],
+   "options": [
+    "ث",
+    "ت",
+    "ن",
+    "ي"
+   ]
+  },
+  {
+   "id": "ar.l09.e21",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.alif"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Parmi ces lettres, laquelle n'a aucun point ?",
+   "promptLanguage": "fr",
+   "answer": "ا",
+   "acceptedAnswers": [
+    "ا"
+   ],
+   "explanation": "ا (alif) est un simple bâton, sans point. ب, ث et ي portent des points.",
+   "tip": "Un bâton tout droit, sans point : c'est l'alif.",
+   "extraExample": {
+    "text": "باب",
+    "translation": "porte"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ب",
+     "category": "spelling",
+     "feedback": "ب a un point dessous."
+    },
+    {
+     "equals": "ث",
+     "category": "spelling",
+     "feedback": "ث a trois points dessus."
+    },
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "ي a deux points dessous."
+    }
+   ],
+   "options": [
+    "ب",
+    "ا",
+    "ث",
+    "ي"
+   ]
+  },
+  {
+   "id": "ar.l09.e22",
+   "type": "match",
+   "unitIds": [
+    "ar.v.ba",
+    "ar.v.ta",
+    "ar.v.tha",
+    "ar.v.nun",
+    "ar.v.ya"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque lettre à ses points.",
+   "prompt": "Les points des lettres ب ت ث ن ي",
+   "promptLanguage": "fr",
+   "answer": "ب = 1 point dessous ; ت = 2 points dessus ; ث = 3 points dessus ; ن = 1 point dessus ; ي = 2 points dessous",
+   "acceptedAnswers": [],
+   "explanation": "Les points font la différence entre ces cinq lettres qui ont la même dent.",
+   "pairs": [
+    {
+     "left": "ب",
+     "right": "1 point dessous"
+    },
+    {
+     "left": "ت",
+     "right": "2 points dessus"
+    },
+    {
+     "left": "ث",
+     "right": "3 points dessus"
+    },
+    {
+     "left": "ن",
+     "right": "1 point dessus"
+    },
+    {
+     "left": "ي",
+     "right": "2 points dessous"
+    }
+   ]
+  }
+ ]
+}

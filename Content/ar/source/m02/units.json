@@ -1,0 +1,46 @@
+[
+ {
+  "id": "ar.g09.forms_ba_family",
+  "rule": {
+   "summary": "Dans un mot, une lettre change de forme selon sa place : isolée, début, milieu ou fin. Au milieu, ب ت ث ن ي sont la même dent : seuls les points les distinguent.",
+   "explanation": "Dans un mot, les lettres s'attachent de droite à gauche. Une lettre attachée à la suivante prend la forme du début, attachée des deux côtés la forme du milieu, attachée à la précédente la forme de la fin ; seule, elle garde la forme isolée. Le tatweel ـ montre l'attache. ب ت ث ن ي ont la même dent, seuls les points changent : ب 1 dessous, ت 2 dessus, ث 3 dessus, ن 1 dessus, ي 2 dessous.",
+   "pattern": "بـ (début)  ـبـ (milieu)  ـب (fin)  ب (isolée)",
+   "examples": [
+    {
+     "text": "بيت",
+     "translation": "maison : ب + ي + ت, trois lettres attachées"
+    },
+    {
+     "text": "بنت",
+     "translation": "fille : même squelette, ـنـ au milieu"
+    },
+    {
+     "text": "تين",
+     "translation": "figues : ت + ي + ن"
+    },
+    {
+     "text": "نبي",
+     "translation": "prophète : ن + ب + ي"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "بنت lu comme بيت",
+     "right": "بنت = fille ; بيت = maison",
+     "why": "ـنـ a un point dessus, ـيـ en a deux dessous."
+    },
+    {
+     "wrong": "ـب pris pour la forme du début",
+     "right": "بـ est la forme du début",
+     "why": "Le trait ـ est du côté de la lettre voisine : à gauche pour le début, à droite pour la fin."
+    },
+    {
+     "wrong": "ث lu avec deux points",
+     "right": "ث a trois points dessus",
+     "why": "Deux points dessus, c'est ت ; trois points dessus, c'est ث."
+    }
+   ],
+   "tip": "Devant une dent, compte les points avant de lire le mot."
+  }
+ }
+]

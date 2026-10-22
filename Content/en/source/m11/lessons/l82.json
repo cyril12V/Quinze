@@ -1,0 +1,914 @@
+{
+ "lessonId": "en.l82",
+ "exercises": [
+  {
+   "id": "en.l82.e01",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.witness"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon verbe.",
+   "prompt": "The witness ___ that she had seen the suspect.",
+   "promptLanguage": "en",
+   "options": [
+    "said",
+    "told",
+    "spoke",
+    "talked"
+   ],
+   "answer": "said",
+   "acceptedAnswers": [
+    "said"
+   ],
+   "hint": "Il n'y a pas de personne juste après le verbe.",
+   "explanation": "Say se construit sans personne : said that… Tell demande toujours la personne juste après (told the police that…). Ici il n'y a pas de personne : said.",
+   "tip": "Say something, tell someone.",
+   "extraExample": {
+    "text": "He said that he was tired.",
+    "translation": "Il a dit qu'il était fatigué."
+   },
+   "errorPatterns": [
+    {
+     "equals": "told",
+     "category": "grammar",
+     "feedback": "Tell doit être suivi de la personne (told the police, told me). Sans personne : said."
+    },
+    {
+     "equals": "spoke",
+     "category": "word_confusion",
+     "feedback": "Speak ne s'utilise pas pour rapporter des paroles avec that : said that…"
+    },
+    {
+     "equals": "talked",
+     "category": "word_confusion",
+     "feedback": "Talk ne s'utilise pas pour rapporter des paroles avec that : said that…"
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e02",
+   "unitIds": [
+    "en.v.witness",
+    "en.v.police",
+    "en.v.suspect",
+    "en.v.crime",
+    "en.v.guilty"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les mots de l'enquête",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "witness",
+     "right": "témoin"
+    },
+    {
+     "left": "police",
+     "right": "police"
+    },
+    {
+     "left": "suspect",
+     "right": "suspect"
+    },
+    {
+     "left": "crime",
+     "right": "délit, crime"
+    },
+    {
+     "left": "guilty",
+     "right": "coupable"
+    }
+   ],
+   "answer": "witness = témoin ; police = police ; suspect = suspect ; crime = délit, crime ; guilty = coupable",
+   "acceptedAnswers": [],
+   "explanation": "The police est suivi d'un verbe au pluriel (the police are). Crime désigne aussi la criminalité en général (crime is rising). Dans guilty, le u est muet : /ˈɡɪlti/.",
+   "tip": "The police are… : toujours le pluriel.",
+   "extraExample": {
+    "text": "The police are looking for two suspects.",
+    "translation": "La police recherche deux suspects."
+   }
+  },
+  {
+   "id": "en.l82.e03",
+   "unitIds": [
+    "en.g63.reported_statements"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "« I will call you tomorrow, » said Tom. → Tom said he ___ call me the next day.",
+   "promptLanguage": "en",
+   "options": [
+    "would",
+    "will",
+    "could",
+    "did"
+   ],
+   "answer": "would",
+   "acceptedAnswers": [
+    "would"
+   ],
+   "explanation": "Après said (au passé), will recule en would : Tom said he would call me. Tomorrow devient the next day.",
+   "tip": "Will → would après said / told.",
+   "extraExample": {
+    "text": "She said she would help us.",
+    "translation": "Elle a dit qu'elle nous aiderait."
+   },
+   "errorPatterns": [
+    {
+     "equals": "will",
+     "category": "verb_tense",
+     "feedback": "Après said, le temps recule d'un cran : will → would."
+    },
+    {
+     "equals": "could",
+     "category": "verb_tense",
+     "feedback": "Could est le recul de can. Le recul de will est would."
+    },
+    {
+     "equals": "did",
+     "category": "grammar",
+     "feedback": "Did ne s'emploie pas ici : will → would."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e04",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.claim",
+    "en.v.suspect"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Rapporte la phrase du contexte.",
+   "prompt": "The suspect claimed that he ___ at home all evening.",
+   "promptLanguage": "en",
+   "context": "« I was at home all evening. »",
+   "options": [
+    "had been",
+    "has been",
+    "is",
+    "will be"
+   ],
+   "answer": "had been",
+   "acceptedAnswers": [
+    "had been",
+    "was"
+   ],
+   "explanation": "Claimed est au passé : le temps recule d'un cran. Le past simple (was) devient souvent le past perfect (had been). À l'oral, on garde aussi was.",
+   "tip": "Past simple → past perfect après said / claimed.",
+   "extraExample": {
+    "text": "She said she had finished the report.",
+    "translation": "Elle a dit qu'elle avait terminé le rapport."
+   },
+   "errorPatterns": [
+    {
+     "equals": "has been",
+     "category": "verb_tense",
+     "feedback": "Has been est au présent : après claimed (passé), les temps reculent, donc had been."
+    },
+    {
+     "equals": "is",
+     "category": "verb_tense",
+     "feedback": "Après claimed (passé), le temps recule : la phrase d'origine est au passé, donc had been (ou was)."
+    },
+    {
+     "equals": "will be",
+     "category": "verb_tense",
+     "feedback": "Will be est un futur ; la phrase d'origine est au passé : had been."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e05",
+   "unitIds": [
+    "en.g63.reported_statements"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète le repère de temps.",
+   "prompt": "Last week, Anna told me that she would see me ___.",
+   "promptLanguage": "en",
+   "context": "« I'll see you tomorrow, » Anna told me last week.",
+   "options": [
+    "the next day",
+    "tomorrow",
+    "the day before",
+    "yesterday"
+   ],
+   "answer": "the next day",
+   "acceptedAnswers": [
+    "the next day",
+    "the following day"
+   ],
+   "hint": "On rapporte la phrase une semaine plus tard.",
+   "explanation": "Quand on rapporte les paroles plus tard, les repères de temps changent : tomorrow devient the next day (ou the following day). Tomorrow ne convient que si on rapporte le jour même.",
+   "tip": "tomorrow → the next day ; yesterday → the day before ; today → that day.",
+   "extraExample": {
+    "text": "He said he had called me the day before.",
+    "translation": "Il a dit qu'il m'avait appelé la veille."
+   },
+   "errorPatterns": [
+    {
+     "equals": "tomorrow",
+     "category": "verb_tense",
+     "feedback": "Une semaine plus tard, « demain » n'est plus le même jour : tomorrow devient the next day."
+    },
+    {
+     "equals": "the day before",
+     "category": "verb_tense",
+     "feedback": "The day before = la veille. Tomorrow devient the next day (le lendemain)."
+    },
+    {
+     "equals": "yesterday",
+     "category": "verb_tense",
+     "feedback": "Yesterday = hier ; ici il s'agit du lendemain : the next day."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e06",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.police",
+    "en.v.crime",
+    "en.v.witness",
+    "en.v.suspect",
+    "en.v.admit",
+    "en.v.deny"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le texte, puis réponds.",
+   "prompt": "What did the suspect say to the police?",
+   "promptLanguage": "en",
+   "context": "A man was questioned yesterday after a robbery at a jewellery shop. A witness told the police that she had seen two men running away. The suspect admitted that he had been in the street, but he denied that he had taken anything. He said that he would help the police.",
+   "options": [
+    "He had been in the street but hadn't taken anything.",
+    "He had seen two men running away.",
+    "He had taken the jewellery but wanted to help.",
+    "He had never been in that street."
+   ],
+   "answer": "He had been in the street but hadn't taken anything.",
+   "acceptedAnswers": [
+    "He had been in the street but hadn't taken anything."
+   ],
+   "explanation": "Le suspect a admis qu'il était dans la rue (admitted that he had been in the street), mais il a nié avoir pris quoi que ce soit (denied that he had taken anything). C'est le témoin qui avait vu deux hommes s'enfuir.",
+   "tip": "Admit = reconnaître ; deny = nier.",
+   "extraExample": {
+    "text": "She admitted that she had made a mistake.",
+    "translation": "Elle a admis qu'elle avait fait une erreur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "he had seen two men running away",
+     "category": "instruction",
+     "feedback": "C'est le témoin (a witness) qui a vu deux hommes s'enfuir, pas le suspect."
+    },
+    {
+     "equals": "he had taken the jewellery but wanted to help",
+     "category": "instruction",
+     "feedback": "Le suspect a nié avoir pris quoi que ce soit (denied that he had taken anything)."
+    },
+    {
+     "equals": "he had never been in that street",
+     "category": "instruction",
+     "feedback": "Il a admis (admitted) qu'il était dans la rue."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e07",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.police"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le verbe find au passif.",
+   "prompt": "The stolen car ___ by the police near the station yesterday.",
+   "promptLanguage": "en",
+   "options": [
+    "was found",
+    "found",
+    "is found",
+    "were found"
+   ],
+   "answer": "was found",
+   "acceptedAnswers": [
+    "was found"
+   ],
+   "hint": "La voiture subit l'action, et c'était hier.",
+   "explanation": "La voiture subit l'action (la police l'a trouvée) : c'est un passif. Yesterday est dans le passé et the stolen car est singulier : was found (find – found – found).",
+   "tip": "Find – found – found : au passif, was found.",
+   "extraExample": {
+    "text": "The missing child was found safe.",
+    "translation": "L'enfant disparu a été retrouvé sain et sauf."
+   },
+   "errorPatterns": [
+    {
+     "equals": "found",
+     "category": "grammar",
+     "feedback": "Sans was, la phrase devient active : la voiture aurait trouvé quelque chose. Au passif : was found."
+    },
+    {
+     "equals": "is found",
+     "category": "verb_tense",
+     "feedback": "Yesterday est dans le passé : was found."
+    },
+    {
+     "equals": "were found",
+     "category": "grammar",
+     "feedback": "The stolen car est singulier : was found."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e08",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.witness",
+    "en.v.police"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Le témoin a dit à la police qu'elle n'avait rien vu.",
+   "promptLanguage": "fr",
+   "answer": "The witness told the police that she hadn't seen anything.",
+   "acceptedAnswers": [
+    "The witness told the police that she hadn't seen anything.",
+    "The witness told the police that she had not seen anything.",
+    "The witness told the police that she had seen nothing.",
+    "The witness told the police that she didn't see anything.",
+    "The witness told the police that she saw nothing.",
+    "The witness told the police she hadn't seen anything.",
+    "The witness told the police she had not seen anything.",
+    "The witness told the police she had seen nothing.",
+    "The witness told the police she didn't see anything.",
+    "The witness told the police she saw nothing.",
+    "The witness said to the police that she hadn't seen anything.",
+    "The witness said to the police that she had not seen anything.",
+    "The witness said to the police that she had seen nothing.",
+    "The witness said to the police that she didn't see anything.",
+    "The witness said to the police that she saw nothing.",
+    "The witness said to the police she hadn't seen anything.",
+    "The witness said to the police she had not seen anything.",
+    "The witness said to the police she had seen nothing.",
+    "The witness said to the police she didn't see anything.",
+    "The witness said to the police she saw nothing."
+   ],
+   "hint": "Tell est suivi de la personne.",
+   "explanation": "Tell est toujours suivi de la personne (told the police) ; avec said, il faudrait to (said to the police). « N'avait rien vu » est un plus-que-parfait : hadn't seen anything.",
+   "tip": "Say something, tell someone.",
+   "extraExample": {
+    "text": "The officer told the driver that he had been speeding.",
+    "translation": "Le policier a dit au conducteur qu'il avait fait un excès de vitesse."
+   },
+   "errorPatterns": [
+    {
+     "contains": "said the police",
+     "category": "grammar",
+     "feedback": "Say ne prend pas directement la personne : told the police (ou said to the police)."
+    },
+    {
+     "contains": "told that",
+     "category": "grammar",
+     "feedback": "Tell est toujours suivi de la personne : told the police that…"
+    },
+    {
+     "contains": "had saw",
+     "category": "conjugation",
+     "feedback": "Après had, il faut le participe passé : seen (see – saw – seen)."
+    },
+    {
+     "contains": "hadn't saw",
+     "category": "conjugation",
+     "feedback": "Après hadn't, il faut le participe passé : seen (see – saw – seen)."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e09",
+   "unitIds": [
+    "en.g41.tense_contrast",
+    "en.v.police",
+    "en.v.suspect"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Yesterday the police ___ two suspects, and today they are looking for a third one.",
+   "promptLanguage": "en",
+   "options": [
+    "questioned",
+    "question",
+    "are questioning",
+    "have questioned"
+   ],
+   "answer": "questioned",
+   "acceptedAnswers": [
+    "questioned"
+   ],
+   "explanation": "Yesterday indique un moment précis du passé : on utilise le past simple (questioned). Le present perfect (have questioned) ne s'emploie pas avec yesterday.",
+   "tip": "Yesterday / last week / in 2019 → past simple.",
+   "extraExample": {
+    "text": "Last night the police closed the road.",
+    "translation": "Hier soir, la police a fermé la route."
+   },
+   "errorPatterns": [
+    {
+     "equals": "question",
+     "category": "conjugation",
+     "feedback": "Pour un fait passé daté (yesterday), il faut le past simple : questioned."
+    },
+    {
+     "equals": "are questioning",
+     "category": "verb_tense",
+     "feedback": "Are questioning est au présent continu. Yesterday appelle le past simple : questioned."
+    },
+    {
+     "equals": "have questioned",
+     "category": "verb_tense",
+     "feedback": "Le present perfect ne s'emploie pas avec yesterday : past simple, questioned."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e10",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.guilty"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Rapporte la phrase du contexte.",
+   "prompt": "The man said that he ___ guilty.",
+   "promptLanguage": "en",
+   "context": "« I'm not guilty. »",
+   "options": [
+    "wasn't",
+    "isn't",
+    "won't be",
+    "hasn't been"
+   ],
+   "answer": "wasn't",
+   "acceptedAnswers": [
+    "wasn't",
+    "was not"
+   ],
+   "explanation": "Said est au passé : le présent (I am not) recule au past simple (he was not). Am, is et are deviennent was ou were.",
+   "tip": "am / is / are → was / were après said.",
+   "extraExample": {
+    "text": "She said she was ready.",
+    "translation": "Elle a dit qu'elle était prête."
+   },
+   "errorPatterns": [
+    {
+     "equals": "isn't",
+     "category": "verb_tense",
+     "feedback": "Après said (passé), le présent recule au passé : wasn't."
+    },
+    {
+     "equals": "won't be",
+     "category": "verb_tense",
+     "feedback": "Won't be est un futur. « I'm not » est au présent : wasn't."
+    },
+    {
+     "equals": "hasn't been",
+     "category": "verb_tense",
+     "feedback": "Hasn't been est un present perfect. « I'm not » est au présent : wasn't."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e11",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.police"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "La police a dit qu'elle reviendrait le lendemain.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "would",
+    "The",
+    "day",
+    "back",
+    "said",
+    "they",
+    "the",
+    "come",
+    "police",
+    "next"
+   ],
+   "answer": "The police said they would come back the next day",
+   "acceptedAnswers": [
+    "The police said they would come back the next day"
+   ],
+   "explanation": "Said est directement suivi de la phrase rapportée (that est facultatif). Will recule en would, et « le lendemain » se dit the next day. The police est pluriel : they.",
+   "tip": "The police = they (pluriel).",
+   "extraExample": {
+    "text": "They said they would call back the following week.",
+    "translation": "Ils ont dit qu'ils rappelleraient la semaine suivante."
+   }
+  },
+  {
+   "id": "en.l82.e12",
+   "unitIds": [
+    "en.g63.reported_statements"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque phrase directe à sa version rapportée.",
+   "prompt": "Du direct au rapporté",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "« I am tired. »",
+     "right": "She said she was tired."
+    },
+    {
+     "left": "« I will help you. »",
+     "right": "She said she would help me."
+    },
+    {
+     "left": "« I can swim. »",
+     "right": "She said she could swim."
+    },
+    {
+     "left": "« I have finished. »",
+     "right": "She said she had finished."
+    },
+    {
+     "left": "« I must go. »",
+     "right": "She said she had to go."
+    }
+   ],
+   "answer": "« I am tired. » = She said she was tired. ; « I will help you. » = She said she would help me. ; « I can swim. » = She said she could swim. ; « I have finished. » = She said she had finished. ; « I must go. » = She said she had to go.",
+   "acceptedAnswers": [],
+   "explanation": "Le temps recule d'un cran : am → was, will → would, can → could, have finished → had finished, must → had to. Le pronom change aussi (I → she, you → me).",
+   "tip": "Après said : am → was, will → would, can → could, have → had, must → had to.",
+   "extraExample": {
+    "text": "« I live here. » → He said he lived there.",
+    "translation": "« J'habite ici. » → Il a dit qu'il habitait là."
+   }
+  },
+  {
+   "id": "en.l82.e13",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.claim"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Il prétend qu'il n'a rien fait.",
+   "promptLanguage": "fr",
+   "answer": "He claims that he hasn't done anything.",
+   "acceptedAnswers": [
+    "He claims that he hasn't done anything.",
+    "He claims that he has not done anything.",
+    "He claims that he didn't do anything.",
+    "He claims that he did not do anything.",
+    "He claims that he has done nothing.",
+    "He claims that he did nothing.",
+    "He claims he hasn't done anything.",
+    "He claims he has not done anything.",
+    "He claims he didn't do anything.",
+    "He claims he did not do anything.",
+    "He claims he has done nothing.",
+    "He claims he did nothing."
+   ],
+   "hint": "Claims est au présent.",
+   "explanation": "Prétend est au présent (claims) : le temps ne recule pas. Le recul n'a lieu que si le verbe d'introduction est au passé (claimed, said…). Claim = affirmer sans preuve.",
+   "tip": "Verbe d'introduction au présent → pas de recul du temps.",
+   "extraExample": {
+    "text": "She says she is tired.",
+    "translation": "Elle dit qu'elle est fatiguée."
+   },
+   "errorPatterns": [
+    {
+     "contains": "he claim that",
+     "category": "conjugation",
+     "feedback": "Avec he, le verbe prend un -s : claims."
+    },
+    {
+     "contains": "claims that he hadn't",
+     "category": "verb_tense",
+     "feedback": "Claims est au présent : pas de recul du temps. On garde hasn't done (ou didn't do)."
+    },
+    {
+     "contains": "claims he hadn't",
+     "category": "verb_tense",
+     "feedback": "Claims est au présent : pas de recul du temps. On garde hasn't done (ou didn't do)."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e14",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.deny",
+    "en.v.suspect"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Le suspect a nié qu'il avait volé l'argent.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "stolen",
+    "he",
+    "The",
+    "money",
+    "denied",
+    "suspect",
+    "had",
+    "the",
+    "that"
+   ],
+   "answer": "The suspect denied that he had stolen the money",
+   "acceptedAnswers": [
+    "The suspect denied that he had stolen the money"
+   ],
+   "explanation": "Deny that est suivi d'une proposition dont le temps recule : he stole → he had stolen. Steal – stole – stolen.",
+   "tip": "Deny that + sujet + had + participe passé.",
+   "extraExample": {
+    "text": "She denied that she had broken the window.",
+    "translation": "Elle a nié avoir cassé la fenêtre."
+   }
+  },
+  {
+   "id": "en.l82.e15",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.deny"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "The suspect denied everything and said that he had never seen the man.",
+   "promptLanguage": "en",
+   "answer": "Le suspect a tout nié et a dit qu'il n'avait jamais vu cet homme.",
+   "acceptedAnswers": [
+    "Le suspect a tout nié et a dit qu'il n'avait jamais vu cet homme.",
+    "Le suspect a tout nié et a dit qu'il n'avait jamais vu l'homme.",
+    "Le suspect a tout nié et a dit qu'il n'avait jamais vu ce monsieur.",
+    "Le suspect a tout nié et a affirmé qu'il n'avait jamais vu cet homme.",
+    "Le suspect a tout nié et a affirmé qu'il n'avait jamais vu l'homme.",
+    "Le suspect a tout nié et a affirmé qu'il n'avait jamais vu ce monsieur.",
+    "Le suspect a tout nié en disant qu'il n'avait jamais vu cet homme.",
+    "Le suspect a tout nié en disant qu'il n'avait jamais vu l'homme.",
+    "Le suspect a tout nié en disant qu'il n'avait jamais vu ce monsieur.",
+    "Le suspect a tout nié et a déclaré qu'il n'avait jamais vu cet homme.",
+    "Le suspect a tout nié et a déclaré qu'il n'avait jamais vu l'homme.",
+    "Le suspect a tout nié et a déclaré qu'il n'avait jamais vu ce monsieur."
+   ],
+   "explanation": "Denied everything = a tout nié. Had never seen est un plus-que-parfait : « n'avait jamais vu ». The man se traduit par « l'homme » ou « cet homme ».",
+   "tip": "Had + participe passé = plus-que-parfait (avait + participe).",
+   "extraExample": {
+    "text": "She said she had never been to London.",
+    "translation": "Elle a dit qu'elle n'était jamais allée à Londres."
+   }
+  },
+  {
+   "id": "en.l82.e16",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.police"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec said ou told.",
+   "prompt": "The police officer ___ us that the street was closed.",
+   "promptLanguage": "en",
+   "options": [
+    "told",
+    "said",
+    "spoke",
+    "talked"
+   ],
+   "answer": "told",
+   "acceptedAnswers": [
+    "told"
+   ],
+   "hint": "Il y a une personne (us) juste après.",
+   "explanation": "Tell est toujours suivi de la personne (told us). Said ne peut pas être suivi directement de us : il faudrait said to us that…",
+   "tip": "Told us… / said to us…",
+   "extraExample": {
+    "text": "She told me that she was leaving.",
+    "translation": "Elle m'a dit qu'elle partait."
+   },
+   "errorPatterns": [
+    {
+     "equals": "said",
+     "category": "grammar",
+     "feedback": "Said ne prend pas directement la personne : told us that… ou said to us that…"
+    },
+    {
+     "equals": "spoke",
+     "category": "word_confusion",
+     "feedback": "Speak ne s'utilise pas pour rapporter des paroles avec that : told us that…"
+    },
+    {
+     "equals": "talked",
+     "category": "word_confusion",
+     "feedback": "Talk ne s'utilise pas pour rapporter des paroles avec that : told us that…"
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e17",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.witness",
+    "en.v.suspect"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Le témoin, qui a vu le suspect, habite près de la banque.",
+   "promptLanguage": "fr",
+   "answer": "The witness, who saw the suspect, lives near the bank.",
+   "acceptedAnswers": [
+    "The witness, who saw the suspect, lives near the bank.",
+    "The witness, who saw the suspect, lives close to the bank.",
+    "The witness, who has seen the suspect, lives near the bank.",
+    "The witness, who has seen the suspect, lives close to the bank."
+   ],
+   "hint": "Détail entre virgules sur une personne : who.",
+   "explanation": "La relative « qui a vu le suspect » donne un détail sur un témoin déjà identifié : elle est entre virgules, avec who. Lives prend un -s (3e personne du singulier).",
+   "tip": "Entre virgules : who, jamais that.",
+   "extraExample": {
+    "text": "Her husband, who works in a bank, travels a lot.",
+    "translation": "Son mari, qui travaille dans une banque, voyage beaucoup."
+   },
+   "errorPatterns": [
+    {
+     "contains": "witness that",
+     "category": "grammar",
+     "feedback": "Après une virgule, that est interdit : who."
+    },
+    {
+     "contains": "witness which",
+     "category": "grammar",
+     "feedback": "Which ne s'utilise pas pour une personne : who."
+    },
+    {
+     "contains": "suspect live near",
+     "category": "conjugation",
+     "feedback": "Avec the witness (3e personne), le verbe prend un -s : lives."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e18",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.admit",
+    "en.v.police"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Elle a admis qu'elle avait menti à la police.",
+   "promptLanguage": "fr",
+   "answer": "She admitted that she had lied to the police.",
+   "acceptedAnswers": [
+    "She admitted that she had lied to the police.",
+    "She admitted that she lied to the police.",
+    "She admitted she had lied to the police.",
+    "She admitted she lied to the police."
+   ],
+   "hint": "Lie – lied – lied. Mentir à = lie to.",
+   "explanation": "Admit that est suivi d'une proposition dont le temps recule : « avait menti » = had lied. Mentir à quelqu'un se dit lie to someone.",
+   "tip": "Mentir à = lie to.",
+   "extraExample": {
+    "text": "He admitted that he had been late.",
+    "translation": "Il a admis qu'il avait été en retard."
+   },
+   "errorPatterns": [
+    {
+     "contains": "lied the police",
+     "category": "preposition",
+     "feedback": "Mentir à quelqu'un se dit lie to : lied to the police."
+    },
+    {
+     "contains": "lied at the police",
+     "category": "preposition",
+     "feedback": "Mentir à quelqu'un se dit lie to : lied to the police."
+    },
+    {
+     "contains": "had lie to",
+     "category": "conjugation",
+     "feedback": "Après had, il faut le participe passé : lied."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e19",
+   "unitIds": [
+    "en.g63.reported_statements"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Elle a dit qu'elle l'avait vu la veille » ?",
+   "promptLanguage": "fr",
+   "answer": "She said that she had seen him the day before.",
+   "acceptedAnswers": [
+    "She said that she had seen him the day before.",
+    "She said that she had seen him the previous day.",
+    "She said she had seen him the day before.",
+    "She said she had seen him the previous day.",
+    "She told me that she had seen him the day before.",
+    "She told me that she had seen him the previous day.",
+    "She told me she had seen him the day before.",
+    "She told me she had seen him the previous day."
+   ],
+   "hint": "Hier, vu depuis un autre jour, devient the day before.",
+   "explanation": "Said est au passé : « l'avait vu » = had seen. La veille se dit the day before (ou the previous day) : yesterday ne convient que si on rapporte les paroles le jour même.",
+   "tip": "yesterday → the day before.",
+   "extraExample": {
+    "text": "He said he had arrived the day before.",
+    "translation": "Il a dit qu'il était arrivé la veille."
+   },
+   "errorPatterns": [
+    {
+     "contains": "she said me",
+     "category": "grammar",
+     "feedback": "Say ne prend pas directement la personne : She said that… ou She told me…"
+    },
+    {
+     "contains": "she told that",
+     "category": "grammar",
+     "feedback": "Tell est toujours suivi de la personne : She told me that…"
+    },
+    {
+     "contains": "him yesterday",
+     "category": "verb_tense",
+     "feedback": "Quand on rapporte après coup, yesterday devient the day before (la veille)."
+    }
+   ]
+  },
+  {
+   "id": "en.l82.e20",
+   "unitIds": [
+    "en.g63.reported_statements"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Rapporte une phrase en anglais.",
+   "prompt": "Pense à une phrase qu'un ami ou un collègue t'a dite récemment. Rapporte-la en anglais avec said ou told.",
+   "promptLanguage": "fr",
+   "requirements": {
+    "mustInclude": [
+     [
+      "said",
+      "told",
+      "claimed",
+      "admitted",
+      "denied",
+      "explained",
+      "mentioned"
+     ]
+    ],
+    "minWords": 6
+   },
+   "answer": "My friend told me that she was moving to Spain.",
+   "acceptedAnswers": [
+    "My friend told me that she was moving to Spain.",
+    "My boss said that the meeting would start at nine.",
+    "Anna told me she couldn't come the next day.",
+    "He said he was tired."
+   ],
+   "hint": "Said (that) + phrase ; told + personne (that) + phrase, avec le temps qui recule.",
+   "explanation": "Après said ou told (au passé), les temps reculent d'un cran : am → was, will → would, can → could. N'oublie pas que told est toujours suivi de la personne (told me), pas said.",
+   "tip": "Said + phrase ; told + personne + phrase.",
+   "extraExample": {
+    "text": "He told me he would call the next day.",
+    "translation": "Il m'a dit qu'il appellerait le lendemain."
+   },
+   "errorPatterns": [
+    {
+     "contains": "said me",
+     "category": "grammar",
+     "feedback": "Say ne prend pas directement la personne : told me… ou said to me…"
+    },
+    {
+     "contains": "told that",
+     "category": "grammar",
+     "feedback": "Tell est toujours suivi de la personne : told me that…"
+    }
+   ]
+  }
+ ]
+}

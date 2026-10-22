@@ -48,11 +48,17 @@ Ce qu'il faut savoir :
 
 ## Contenu
 
-| Matière | Modules | Programme |
+| Matière | Dans l'app | Programme |
 |---|---|---|
-| Anglais | m01–m12 | A1 → B2 : grammaire, verbes, vocabulaire, anglais pro |
-| Arabe | m01 lettres et 4 formes · m02 voyelles et signes (harakat) · m03 lire vite · m04 mots de l'Église copte | Alphabet → lecture fluide → vocabulaire liturgique ; égyptien prévu ensuite |
-| Culture G | m01 histoire · m02 géographie · m03 sciences · m04 économie et politique · m05 arts, littérature, philosophie | Les repères essentiels de chaque domaine |
+| Anglais | m01–m09 : 68 leçons, 767 exercices, 469 fiches | A1 → B1 ; m10 (conditions), m11 (passif, discours rapporté) et m12 (anglais pro) en cours de rédaction |
+| Arabe | m01–m04 : 32 leçons, 689 exercices, 283 fiches | m01 lettres et 4 formes · m02 voyelles et signes (harakat) · m03 lire vite · m04 mots de l'Église copte ; égyptien prévu ensuite |
+| Culture G | m01–m05 : 40 leçons, 852 exercices, 397 fiches | m01 histoire · m02 géographie · m03 sciences · m04 économie et politique · m05 arts, littérature, philosophie |
+
+Le workflow `engine-tests.yml` vérifie à chaque changement que les contenus embarqués fonctionnent avec le moteur :
+
+- toutes les références se résolvent ;
+- chaque bonne réponse est acceptée et chaque erreur prévue est refusée ;
+- deux semaines de trois séances par jour progressent sans séance vide.
 
 Les sources sont dans `Content/<matière>/source/mNN/`. Les règles d'écriture des nouveaux modules sont dans `Content/BRIEF-V2.md`. Pour valider un module, puis reconstruire le fichier lu par l'app :
 

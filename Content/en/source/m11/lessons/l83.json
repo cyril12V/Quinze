@@ -1,0 +1,897 @@
+{
+ "lessonId": "en.l83",
+ "exercises": [
+  {
+   "id": "en.l83.e01",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.judge"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "The judge asked me where I ___.",
+   "promptLanguage": "en",
+   "context": "« Where do you live? »",
+   "options": [
+    "lived",
+    "did I live",
+    "do I live",
+    "lives"
+   ],
+   "answer": "lived",
+   "acceptedAnswers": [
+    "lived"
+   ],
+   "hint": "Une question rapportée n'est plus une question.",
+   "explanation": "Dans une question rapportée, l'ordre redevient sujet + verbe, sans do / did. Le présent recule au passé : where I lived.",
+   "tip": "Question rapportée : pas de did, ordre sujet + verbe.",
+   "extraExample": {
+    "text": "She asked me where I worked.",
+    "translation": "Elle m'a demandé où je travaillais."
+   },
+   "errorPatterns": [
+    {
+     "equals": "did i live",
+     "category": "word_order",
+     "feedback": "Dans une question rapportée, il n'y a plus d'inversion ni de did : where I lived."
+    },
+    {
+     "equals": "do i live",
+     "category": "word_order",
+     "feedback": "Pas d'inversion ni de do dans une question rapportée : where I lived."
+    },
+    {
+     "equals": "lives",
+     "category": "conjugation",
+     "feedback": "Avec I, le verbe n'a pas de -s : lived (et le temps recule)."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e02",
+   "unitIds": [
+    "en.v.investigate",
+    "en.v.judge",
+    "en.v.court",
+    "en.v.lawyer",
+    "en.v.trial"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les mots du monde judiciaire",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "investigate",
+     "right": "enquêter (sur)"
+    },
+    {
+     "left": "judge",
+     "right": "juge"
+    },
+    {
+     "left": "court",
+     "right": "tribunal"
+    },
+    {
+     "left": "lawyer",
+     "right": "avocat, avocate"
+    },
+    {
+     "left": "trial",
+     "right": "procès"
+    }
+   ],
+   "answer": "investigate = enquêter (sur) ; judge = juge ; court = tribunal ; lawyer = avocat, avocate ; trial = procès",
+   "acceptedAnswers": [],
+   "explanation": "Trial = procès (et aussi « essai » : a free trial). Ne le confonds pas avec process (un procédé). Court désigne aussi un terrain de sport (a tennis court).",
+   "tip": "Un lawyer plaide devant un judge, dans un court, pendant un trial.",
+   "extraExample": {
+    "text": "The trial will start in court next week.",
+    "translation": "Le procès commencera au tribunal la semaine prochaine."
+   }
+  },
+  {
+   "id": "en.l83.e03",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.lawyer",
+    "en.g16.present_simple_questions"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne phrase.",
+   "prompt": "Comment rapporte-t-on « Are you a lawyer? » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "He asked me if I was a lawyer.",
+    "He asked me if was I a lawyer.",
+    "He asked me that I was a lawyer.",
+    "He asked me am I a lawyer."
+   ],
+   "answer": "He asked me if I was a lawyer.",
+   "acceptedAnswers": [
+    "He asked me if I was a lawyer."
+   ],
+   "explanation": "Une question oui / non rapportée se fait avec if ou whether, puis l'ordre normal sujet + verbe (I was). Le présent (are you) recule au passé (I was) et le pronom change.",
+   "tip": "Question oui / non rapportée : asked + if / whether + sujet + verbe.",
+   "extraExample": {
+    "text": "She asked if I was ready.",
+    "translation": "Elle a demandé si j'étais prêt."
+   },
+   "errorPatterns": [
+    {
+     "equals": "he asked me if was i a lawyer",
+     "category": "word_order",
+     "feedback": "Après if, l'ordre est normal : sujet + verbe, soit if I was."
+    },
+    {
+     "equals": "he asked me that i was a lawyer",
+     "category": "grammar",
+     "feedback": "Pour une question oui / non, on utilise if ou whether, jamais that."
+    },
+    {
+     "equals": "he asked me am i a lawyer",
+     "category": "word_order",
+     "feedback": "Une question rapportée n'a ni inversion ni point d'interrogation, et il faut if ou whether : if I was a lawyer."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e04",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.lawyer"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la question rapportée.",
+   "prompt": "The judge asked me ___ I had a lawyer.",
+   "promptLanguage": "en",
+   "context": "« Do you have a lawyer? »",
+   "options": [
+    "if",
+    "that",
+    "what",
+    "do"
+   ],
+   "answer": "if",
+   "acceptedAnswers": [
+    "if",
+    "whether"
+   ],
+   "hint": "Une question à laquelle on répond par oui ou non.",
+   "explanation": "Pour une question oui / non, on introduit la question rapportée par if ou whether (= si). Do disparaît, et le présent recule au passé : I had a lawyer.",
+   "tip": "Question oui / non rapportée = if / whether.",
+   "extraExample": {
+    "text": "He asked whether I had seen the case.",
+    "translation": "Il a demandé si j'avais vu l'affaire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "that",
+     "category": "grammar",
+     "feedback": "Pour une question oui / non, on utilise if ou whether, jamais that."
+    },
+    {
+     "equals": "what",
+     "category": "word_confusion",
+     "feedback": "What demande « quoi ». Pour « si », on dit if ou whether."
+    },
+    {
+     "equals": "do",
+     "category": "grammar",
+     "feedback": "Do disparaît dans une question rapportée : on introduit avec if ou whether."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e05",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.court"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Rapporte la question du contexte.",
+   "prompt": "He asked me why I ___ to the court.",
+   "promptLanguage": "en",
+   "context": "« Why did you go to the court? »",
+   "options": [
+    "had gone",
+    "did go",
+    "have gone",
+    "go"
+   ],
+   "answer": "had gone",
+   "acceptedAnswers": [
+    "had gone",
+    "went"
+   ],
+   "explanation": "Pas de did dans une question rapportée, et l'ordre est sujet + verbe. Le past simple (did you go) recule en past perfect : why I had gone (on entend aussi why I went).",
+   "tip": "did you go ? → why I had gone.",
+   "extraExample": {
+    "text": "She asked me where I had parked.",
+    "translation": "Elle m'a demandé où je m'étais garé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "did go",
+     "category": "word_order",
+     "feedback": "Pas de did dans une question rapportée : why I had gone (ou why I went)."
+    },
+    {
+     "equals": "have gone",
+     "category": "verb_tense",
+     "feedback": "Après asked (passé), le temps recule : had gone, pas have gone."
+    },
+    {
+     "equals": "go",
+     "category": "verb_tense",
+     "feedback": "Le verbe doit être au passé : why I had gone (ou why I went)."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e06",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.trial",
+    "en.v.judge",
+    "en.v.lawyer",
+    "en.v.crime",
+    "en.v.witness",
+    "en.v.suspect"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le texte, puis réponds.",
+   "prompt": "What did the lawyer ask the witness?",
+   "promptLanguage": "en",
+   "context": "At the trial, the judge asked the witness where she had been on the night of the crime. Then the lawyer asked her if she had seen the suspect before. The witness said she hadn't.",
+   "options": [
+    "If she had seen the suspect before.",
+    "Where she had been that night.",
+    "Why she had gone to court.",
+    "Whether she was guilty."
+   ],
+   "answer": "If she had seen the suspect before.",
+   "acceptedAnswers": [
+    "If she had seen the suspect before."
+   ],
+   "explanation": "C'est le juge qui a demandé où elle avait été la nuit du crime. L'avocat, lui, a demandé si elle avait déjà vu le suspect (if she had seen the suspect before).",
+   "tip": "Repère qui parle : the judge asked… / the lawyer asked…",
+   "extraExample": {
+    "text": "The journalist asked if the trial had started.",
+    "translation": "Le journaliste a demandé si le procès avait commencé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "where she had been that night",
+     "category": "instruction",
+     "feedback": "C'est le juge qui a posé cette question (the judge asked the witness where she had been…)."
+    },
+    {
+     "equals": "why she had gone to court",
+     "category": "instruction",
+     "feedback": "Cette question n'apparaît pas dans le texte."
+    },
+    {
+     "equals": "whether she was guilty",
+     "category": "instruction",
+     "feedback": "L'avocat n'a pas demandé si elle était coupable : il a demandé si elle avait déjà vu le suspect."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e07",
+   "unitIds": [
+    "en.g63.reported_statements",
+    "en.v.court"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Rapporte la phrase du contexte.",
+   "prompt": "She said that she ___ to court the next day.",
+   "promptLanguage": "en",
+   "context": "« I will go to court tomorrow. »",
+   "options": [
+    "would go",
+    "will go",
+    "goes",
+    "went"
+   ],
+   "answer": "would go",
+   "acceptedAnswers": [
+    "would go"
+   ],
+   "explanation": "Said est au passé : will recule en would. « Tomorrow » devient the next day.",
+   "tip": "Will → would après said / told.",
+   "extraExample": {
+    "text": "He said he would come to the trial.",
+    "translation": "Il a dit qu'il viendrait au procès."
+   },
+   "errorPatterns": [
+    {
+     "equals": "will go",
+     "category": "verb_tense",
+     "feedback": "Après said (passé), will recule en would : would go."
+    },
+    {
+     "equals": "goes",
+     "category": "verb_tense",
+     "feedback": "Goes est au présent. Après said, will recule en would."
+    },
+    {
+     "equals": "went",
+     "category": "verb_tense",
+     "feedback": "Went est un passé. Le futur « I will go » devient would go."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e08",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.investigate",
+    "en.v.case"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Il m'a demandé pourquoi j'enquêtais sur cette affaire.",
+   "promptLanguage": "fr",
+   "answer": "He asked me why I was investigating the case.",
+   "acceptedAnswers": [
+    "He asked me why I was investigating the case.",
+    "He asked me why I was investigating this case.",
+    "He asked me why I was investigating that case."
+   ],
+   "hint": "Pas d'inversion après why.",
+   "explanation": "Pourquoi + sujet + verbe : l'ordre d'une phrase normale, sans did ni inversion. Investigate se construit avec un complément direct (investigate the case), sans préposition.",
+   "tip": "Investigate + complément direct (pas de on).",
+   "extraExample": {
+    "text": "The police are investigating the robbery.",
+    "translation": "La police enquête sur le cambriolage."
+   },
+   "errorPatterns": [
+    {
+     "contains": "why was i investigating",
+     "category": "word_order",
+     "feedback": "Dans une question rapportée, pas d'inversion : why I was investigating…"
+    },
+    {
+     "contains": "why did i investigate",
+     "category": "word_order",
+     "feedback": "Pas de did dans une question rapportée : why I was investigating…"
+    },
+    {
+     "contains": "investigating on",
+     "category": "preposition",
+     "feedback": "Investigate se construit sans préposition : investigating the case."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e09",
+   "unitIds": [
+    "en.g23.past_simple_negative_questions",
+    "en.v.lawyer"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon auxiliaire.",
+   "prompt": "___ the lawyer call you yesterday?",
+   "promptLanguage": "en",
+   "options": [
+    "Did",
+    "Does",
+    "Do",
+    "Was"
+   ],
+   "answer": "Did",
+   "acceptedAnswers": [
+    "Did"
+   ],
+   "explanation": "Yesterday indique le passé : la question au past simple se fait avec did + sujet + verbe de base (call). Do et does servent au présent.",
+   "tip": "Question au passé : Did + sujet + verbe de base.",
+   "extraExample": {
+    "text": "Did the judge ask you any questions?",
+    "translation": "Le juge t'a-t-il posé des questions ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "does",
+     "category": "verb_tense",
+     "feedback": "Does est au présent. Yesterday appelle did."
+    },
+    {
+     "equals": "do",
+     "category": "verb_tense",
+     "feedback": "Do est au présent. Yesterday appelle did."
+    },
+    {
+     "equals": "was",
+     "category": "grammar",
+     "feedback": "Was ne s'emploie pas avec un verbe d'action comme call : Did the lawyer call…?"
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e10",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.arrest"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Rapporte la question du contexte.",
+   "prompt": "The lawyer asked him whether the police ___ him.",
+   "promptLanguage": "en",
+   "context": "« Did the police arrest you? »",
+   "options": [
+    "had arrested",
+    "did arrest",
+    "have arrested",
+    "were arrested"
+   ],
+   "answer": "had arrested",
+   "acceptedAnswers": [
+    "had arrested",
+    "arrested"
+   ],
+   "explanation": "Whether introduit une question oui / non rapportée. Pas de did : le past simple (did … arrest) recule en past perfect, had arrested (on entend aussi arrested).",
+   "tip": "did you arrest ? → whether… had arrested.",
+   "extraExample": {
+    "text": "She asked whether the court had closed.",
+    "translation": "Elle a demandé si le tribunal avait fermé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "did arrest",
+     "category": "word_order",
+     "feedback": "Pas de did dans une question rapportée : had arrested (ou arrested)."
+    },
+    {
+     "equals": "have arrested",
+     "category": "verb_tense",
+     "feedback": "Après asked (passé), le temps recule : had arrested."
+    },
+    {
+     "equals": "were arrested",
+     "category": "grammar",
+     "feedback": "Were arrested serait un passif (« ont été arrêtés »). Ici la police a arrêté : had arrested."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e11",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.lawyer",
+    "en.v.wonder"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Je me demande si l'avocat me rappellera.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "wonder",
+    "if",
+    "I",
+    "me",
+    "will",
+    "the",
+    "back",
+    "call",
+    "lawyer"
+   ],
+   "answer": "I wonder if the lawyer will call me back",
+   "acceptedAnswers": [
+    "I wonder if the lawyer will call me back"
+   ],
+   "explanation": "Après wonder, la question garde l'ordre d'une phrase normale : if + sujet + verbe. Wonder est au présent, donc le temps ne recule pas : will call.",
+   "tip": "I wonder + if / mot interrogatif + sujet + verbe.",
+   "extraExample": {
+    "text": "I wonder why the judge was so strict.",
+    "translation": "Je me demande pourquoi le juge était si sévère."
+   }
+  },
+  {
+   "id": "en.l83.e12",
+   "unitIds": [
+    "en.g64.reported_questions"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque question directe à sa version rapportée.",
+   "prompt": "Question directe, question rapportée",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "« Where do you live? »",
+     "right": "He asked me where I lived."
+    },
+    {
+     "left": "« Are you a lawyer? »",
+     "right": "He asked me if I was a lawyer."
+    },
+    {
+     "left": "« What did you see? »",
+     "right": "He asked me what I had seen."
+    },
+    {
+     "left": "« Will you come to court? »",
+     "right": "He asked me if I would come to court."
+    },
+    {
+     "left": "« Why are you late? »",
+     "right": "He asked me why I was late."
+    }
+   ],
+   "answer": "« Where do you live? » = He asked me where I lived. ; « Are you a lawyer? » = He asked me if I was a lawyer. ; « What did you see? » = He asked me what I had seen. ; « Will you come to court? » = He asked me if I would come to court. ; « Why are you late? » = He asked me why I was late.",
+   "acceptedAnswers": [],
+   "explanation": "Dans la question rapportée, l'inversion et do / did disparaissent, le temps recule (do → past simple, did → past perfect, will → would) et on ajoute if pour une question oui / non.",
+   "tip": "Direct → rapporté : plus d'inversion, plus de do / did, temps reculé.",
+   "extraExample": {
+    "text": "« When did it happen? » → She asked when it had happened.",
+    "translation": "« Quand est-ce arrivé ? » → Elle a demandé quand c'était arrivé."
+   }
+  },
+  {
+   "id": "en.l83.e13",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.case",
+    "en.v.judge"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "La juge m'a demandé si je connaissais l'affaire.",
+   "promptLanguage": "fr",
+   "answer": "The judge asked me if I knew about the case.",
+   "acceptedAnswers": [
+    "The judge asked me if I knew about the case.",
+    "The judge asked me if I knew the case.",
+    "The judge asked me if I was familiar with the case.",
+    "The judge asked me whether I knew about the case.",
+    "The judge asked me whether I knew the case.",
+    "The judge asked me whether I was familiar with the case."
+   ],
+   "hint": "« Si » dans une question = if ou whether.",
+   "explanation": "Une question oui / non rapportée se fait avec if (ou whether) + sujet + verbe, sans do. « Connaissais » (imparfait) se traduit par le past simple : knew. Know about = être au courant de.",
+   "tip": "« Si » (question) = if ou whether.",
+   "extraExample": {
+    "text": "She asked me if I knew the lawyer.",
+    "translation": "Elle m'a demandé si je connaissais l'avocat."
+   },
+   "errorPatterns": [
+    {
+     "contains": "if did i know",
+     "category": "word_order",
+     "feedback": "Pas d'inversion ni de did après if : if I knew."
+    },
+    {
+     "contains": "if i did know",
+     "category": "word_order",
+     "feedback": "Pas de did dans une question rapportée : if I knew."
+    },
+    {
+     "contains": "that i knew",
+     "category": "grammar",
+     "feedback": "Pour une question oui / non, on utilise if ou whether, jamais that."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e14",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.trial",
+    "en.v.journalist"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Le journaliste a demandé quand le procès commencerait.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "trial",
+    "The",
+    "asked",
+    "would",
+    "when",
+    "start",
+    "journalist",
+    "the"
+   ],
+   "answer": "The journalist asked when the trial would start",
+   "acceptedAnswers": [
+    "The journalist asked when the trial would start"
+   ],
+   "explanation": "When introduit la question rapportée, suivie de l'ordre normal : the trial would start. Will recule en would.",
+   "tip": "Question rapportée : mot interrogatif + sujet + verbe.",
+   "extraExample": {
+    "text": "She asked when the court would open.",
+    "translation": "Elle a demandé quand le tribunal ouvrirait."
+   }
+  },
+  {
+   "id": "en.l83.e15",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.arrest"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "The lawyer asked if the police had arrested him at his home.",
+   "promptLanguage": "en",
+   "answer": "L'avocat a demandé si la police l'avait arrêté chez lui.",
+   "acceptedAnswers": [
+    "L'avocat a demandé si la police l'avait arrêté chez lui.",
+    "L'avocat a demandé si la police l'avait arrêté à son domicile.",
+    "L'avocat a demandé si la police l'avait interpellé chez lui.",
+    "L'avocat a demandé si la police l'avait interpellé à son domicile.",
+    "L'avocate a demandé si la police l'avait arrêté chez lui.",
+    "L'avocate a demandé si la police l'avait arrêté à son domicile.",
+    "L'avocate a demandé si la police l'avait interpellé chez lui.",
+    "L'avocate a demandé si la police l'avait interpellé à son domicile."
+   ],
+   "explanation": "If = si (question indirecte). Had arrested est un plus-que-parfait : « avait arrêté ». Him devient « l' » devant le verbe : l'avait arrêté.",
+   "tip": "If dans une question rapportée = « si ».",
+   "extraExample": {
+    "text": "The judge asked if the trial had started.",
+    "translation": "Le juge a demandé si le procès avait commencé."
+   }
+  },
+  {
+   "id": "en.l83.e16",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.court"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la question polie.",
+   "prompt": "Excuse me, can you tell me where ___?",
+   "promptLanguage": "en",
+   "options": [
+    "the court is",
+    "is the court",
+    "does the court",
+    "the court"
+   ],
+   "answer": "the court is",
+   "acceptedAnswers": [
+    "the court is"
+   ],
+   "hint": "Après can you tell me, ce n'est plus une vraie question.",
+   "explanation": "Une question indirecte polie (can you tell me…) garde l'ordre d'une phrase normale : where + sujet + verbe (the court is).",
+   "tip": "Can you tell me where + sujet + verbe ?",
+   "extraExample": {
+    "text": "Do you know what time the trial starts?",
+    "translation": "Sais-tu à quelle heure commence le procès ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "is the court",
+     "category": "word_order",
+     "feedback": "Après can you tell me, l'ordre redevient sujet + verbe : where the court is."
+    },
+    {
+     "equals": "does the court",
+     "category": "word_order",
+     "feedback": "Pas d'auxiliaire en plus dans une question indirecte : where the court is."
+    },
+    {
+     "equals": "the court",
+     "category": "grammar",
+     "feedback": "Il manque le verbe : where the court is."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e17",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.trial",
+    "en.v.postpone"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Le procès a été reporté à l'année prochaine.",
+   "promptLanguage": "fr",
+   "answer": "The trial has been postponed until next year.",
+   "acceptedAnswers": [
+    "The trial has been postponed until next year.",
+    "The trial has been postponed to next year.",
+    "The trial was postponed until next year.",
+    "The trial was postponed to next year."
+   ],
+   "hint": "Present perfect passif.",
+   "explanation": "Le procès subit l'action : c'est un passif. Au present perfect passif : has been + participe passé (postponed). Until next year = jusqu'à l'année prochaine.",
+   "tip": "Present perfect passif : has / have been + participe passé.",
+   "extraExample": {
+    "text": "The hearing has been moved to Tuesday.",
+    "translation": "L'audience a été déplacée à mardi."
+   },
+   "errorPatterns": [
+    {
+     "contains": "has postponed",
+     "category": "grammar",
+     "feedback": "Sans been, la phrase est active : le procès aurait reporté quelque chose. Au passif : has been postponed."
+    },
+    {
+     "contains": "has been postpone until",
+     "category": "conjugation",
+     "feedback": "Après been, il faut le participe passé : postponed."
+    },
+    {
+     "contains": "was been",
+     "category": "grammar",
+     "feedback": "Was been n'existe pas : has been postponed (ou was postponed)."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e18",
+   "unitIds": [
+    "en.g64.reported_questions",
+    "en.v.wonder",
+    "en.v.judge",
+    "en.v.believe",
+    "en.v.witness"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Je me demande si le juge croira le témoin.",
+   "promptLanguage": "fr",
+   "answer": "I wonder if the judge will believe the witness.",
+   "acceptedAnswers": [
+    "I wonder if the judge will believe the witness.",
+    "I wonder whether the judge will believe the witness."
+   ],
+   "hint": "Après wonder, pas d'inversion.",
+   "explanation": "Wonder est au présent : le temps ne recule pas, et la question garde l'ordre sujet + verbe (the judge will believe). « Si » se traduit par if ou whether.",
+   "tip": "I wonder if + sujet + verbe.",
+   "extraExample": {
+    "text": "I wonder whether the trial will start on time.",
+    "translation": "Je me demande si le procès commencera à l'heure."
+   },
+   "errorPatterns": [
+    {
+     "contains": "wonder will the judge",
+     "category": "word_order",
+     "feedback": "Après wonder, pas d'inversion : if the judge will believe…"
+    },
+    {
+     "contains": "wonder if will",
+     "category": "word_order",
+     "feedback": "Après if, l'ordre est sujet + verbe : if the judge will believe…"
+    },
+    {
+     "contains": "wonder that",
+     "category": "grammar",
+     "feedback": "Pour « si », on utilise if ou whether, jamais that."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e19",
+   "unitIds": [
+    "en.g64.reported_questions"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Il m'a demandé où j'étais le soir du crime » ?",
+   "promptLanguage": "fr",
+   "answer": "He asked me where I had been on the night of the crime.",
+   "acceptedAnswers": [
+    "He asked me where I had been on the night of the crime.",
+    "He asked me where I had been on the evening of the crime.",
+    "He asked me where I was on the night of the crime.",
+    "He asked me where I was on the evening of the crime."
+   ],
+   "hint": "Pas d'inversion, et le temps recule.",
+   "explanation": "Where + sujet + verbe : l'ordre d'une phrase normale. « Où étais-je » devient where I had been (ou where I was). Asked me : pas de to devant me.",
+   "tip": "Asked me (pas asked to me).",
+   "extraExample": {
+    "text": "She asked me where I had put the keys.",
+    "translation": "Elle m'a demandé où j'avais mis les clés."
+   },
+   "errorPatterns": [
+    {
+     "contains": "where was i",
+     "category": "word_order",
+     "feedback": "Dans une question rapportée, pas d'inversion : where I had been (ou where I was)."
+    },
+    {
+     "contains": "where i have been",
+     "category": "verb_tense",
+     "feedback": "Après asked (passé), le temps recule : where I had been."
+    },
+    {
+     "contains": "asked to me",
+     "category": "preposition",
+     "feedback": "Asked se construit sans to devant la personne : asked me."
+    },
+    {
+     "contains": "where did i be",
+     "category": "grammar",
+     "feedback": "Pas de did avec be : where I had been."
+    }
+   ]
+  },
+  {
+   "id": "en.l83.e20",
+   "unitIds": [
+    "en.g64.reported_questions"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Rapporte une question en anglais.",
+   "prompt": "Imagine qu'un policier ou un juge t'a posé une question. Écris-la au discours rapporté (He asked me if / where / why…).",
+   "promptLanguage": "fr",
+   "requirements": {
+    "mustInclude": [
+     [
+      "asked",
+      "wondered",
+      "wanted"
+     ],
+     [
+      "if",
+      "whether",
+      "where",
+      "when",
+      "why",
+      "what",
+      "how",
+      "who",
+      "which"
+     ]
+    ],
+    "minWords": 6
+   },
+   "answer": "The judge asked me where I had been that night.",
+   "acceptedAnswers": [
+    "The judge asked me where I had been that night.",
+    "The police officer asked me if I knew the suspect.",
+    "She asked me why I was in court.",
+    "He wanted to know whether I had a lawyer."
+   ],
+   "hint": "Asked (me) + if / mot interrogatif + sujet + verbe, sans did.",
+   "explanation": "Une question rapportée garde l'ordre sujet + verbe, sans do / did, et le temps recule. Pour une question oui / non, ajoute if ou whether.",
+   "tip": "Pas d'inversion, pas de did, pas de point d'interrogation.",
+   "extraExample": {
+    "text": "The lawyer asked me whether I had seen the suspect.",
+    "translation": "L'avocat m'a demandé si j'avais vu le suspect."
+   },
+   "errorPatterns": [
+    {
+     "contains": "asked me where did",
+     "category": "word_order",
+     "feedback": "Dans une question rapportée, pas de did : asked me where I…"
+    },
+    {
+     "contains": "asked me why did",
+     "category": "word_order",
+     "feedback": "Dans une question rapportée, pas de did : asked me why I…"
+    },
+    {
+     "contains": "asked me that",
+     "category": "grammar",
+     "feedback": "Pour une question oui / non, on utilise if ou whether, jamais that."
+    }
+   ]
+  }
+ ]
+}

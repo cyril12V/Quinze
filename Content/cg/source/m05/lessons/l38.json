@@ -1,0 +1,908 @@
+{
+ "lessonId": "cg.l38",
+ "exercises": [
+  {
+   "id": "cg.l38.e01",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.socrate"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel philosophe athénien, condamné à mort en 399 av. J.-C., n'a rien écrit ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Socrate",
+    "Épicure",
+    "Aristote",
+    "Platon"
+   ],
+   "answer": "Socrate",
+   "acceptedAnswers": [
+    "Socrate"
+   ],
+   "explanation": "Socrate enseigne par la parole, en posant des questions sur les places d'Athènes. Condamné pour impiété et corruption de la jeunesse, il boit la ciguë. C'est Platon qui rapporte sa pensée.",
+   "tip": "Socrate ne laisse aucun livre : tout ce qu'on sait de lui vient de ses élèves.",
+   "extraExample": {
+    "text": "« Connais-toi toi-même » était gravé sur le temple d'Apollon à Delphes.",
+    "translation": "Socrate en a fait le principe de sa quête de sagesse."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Platon",
+     "category": "word_confusion",
+     "feedback": "Platon est l'élève de Socrate ; lui a beaucoup écrit."
+    },
+    {
+     "equals": "Aristote",
+     "category": "word_confusion",
+     "feedback": "Aristote est l'élève de Platon, né plus de quinze ans après la mort de Socrate."
+    },
+    {
+     "equals": "Épicure",
+     "category": "word_confusion",
+     "feedback": "Épicure vit au IVe siècle av. J.-C., après Socrate."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e02",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.rene_descartes"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle phrase de Descartes (1637) est devenue la plus célèbre de la philosophie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "« L'homme est un animal politique »",
+    "« L'enfer, c'est les autres »",
+    "« Connais-toi toi-même »",
+    "« Je pense, donc je suis »"
+   ],
+   "answer": "« Je pense, donc je suis »",
+   "acceptedAnswers": [
+    "« Je pense, donc je suis »"
+   ],
+   "explanation": "Descartes écrit « Je pense, donc je suis » dans le Discours de la méthode. Même en doutant de tout, il ne peut pas douter qu'il pense : c'est sa première certitude, le cogito.",
+   "tip": "Descartes = doute + cogito + 1637.",
+   "extraExample": {
+    "text": "La formule apparaît en latin, « Cogito, ergo sum », dans les Principes de la philosophie (1644).",
+    "translation": "Le français est celle du Discours de la méthode."
+   },
+   "errorPatterns": [
+    {
+     "equals": "« Connais-toi toi-même »",
+     "category": "word_confusion",
+     "feedback": "C'est une devise du temple de Delphes, reprise par Socrate."
+    },
+    {
+     "equals": "« L'homme est un animal politique »",
+     "category": "word_confusion",
+     "feedback": "C'est l'idée d'Aristote."
+    },
+    {
+     "equals": "« L'enfer, c'est les autres »",
+     "category": "word_confusion",
+     "feedback": "C'est une réplique de la pièce Huis clos (1944) de Sartre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e03",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.socrate",
+    "cg.v.platon",
+    "cg.v.aristote",
+    "cg.v.rene_descartes",
+    "cg.v.montesquieu"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Philosophes et idées-clés",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Socrate",
+     "right": "la maïeutique : faire accoucher les esprits"
+    },
+    {
+     "left": "Platon",
+     "right": "l'allégorie de la caverne"
+    },
+    {
+     "left": "Aristote",
+     "right": "la logique et le syllogisme"
+    },
+    {
+     "left": "Descartes",
+     "right": "le doute méthodique"
+    },
+    {
+     "left": "Montesquieu",
+     "right": "la séparation des pouvoirs"
+    }
+   ],
+   "answer": "Socrate = la maïeutique : faire accoucher les esprits ; Platon = l'allégorie de la caverne ; Aristote = la logique et le syllogisme ; Descartes = le doute méthodique ; Montesquieu = la séparation des pouvoirs",
+   "acceptedAnswers": [],
+   "explanation": "Socrate interroge, Platon imagine la caverne, Aristote crée la logique, Descartes doute de tout pour trouver une certitude, Montesquieu veut séparer les pouvoirs.",
+   "tip": "Un philosophe, une idée : interroger, apparences, logique, doute, pouvoirs.",
+   "extraExample": {
+    "text": "Ces cinq penseurs s'étendent sur plus de 2 000 ans, de l'Athènes de Socrate à la France de Montesquieu.",
+    "translation": "On peut les placer sur une ligne du temps pour s'y retrouver."
+   }
+  },
+  {
+   "id": "cg.l38.e04",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.allegorie_de_la_caverne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans l'allégorie de la caverne de Platon, que représentent les ombres projetées sur le mur ?",
+   "promptLanguage": "fr",
+   "options": [
+    "les apparences que l'on prend pour la réalité",
+    "les souvenirs d'enfance",
+    "les ennemis de la cité",
+    "les dieux de l'Olympe"
+   ],
+   "answer": "les apparences que l'on prend pour la réalité",
+   "acceptedAnswers": [
+    "les apparences que l'on prend pour la réalité"
+   ],
+   "explanation": "Les prisonniers ne voient que des ombres : pour eux, c'est le monde réel. Platon veut dire que nous prenons souvent les apparences pour la vérité, et que le philosophe doit se tourner vers la lumière.",
+   "tip": "Ombres = apparences ; soleil = vérité.",
+   "extraExample": {
+    "text": "L'allégorie est racontée dans La République, au livre VII.",
+    "translation": "Platon la met dans la bouche de Socrate, qui parle à son ami Glaucon."
+   },
+   "errorPatterns": [
+    {
+     "equals": "les dieux de l'Olympe",
+     "category": "word_confusion",
+     "feedback": "L'allégorie ne parle pas de religion grecque : elle parle de connaissance."
+    },
+    {
+     "equals": "les ennemis de la cité",
+     "category": "word_confusion",
+     "feedback": "Les ombres ne représentent pas des personnes, mais des apparences trompeuses."
+    },
+    {
+     "equals": "les souvenirs d'enfance",
+     "category": "word_confusion",
+     "feedback": "Ce n'est pas un récit de mémoire : c'est une image de l'ignorance et de la connaissance."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e05",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.stoicisme"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle attitude enseigne le stoïcisme de Sénèque, d'Épictète et de Marc Aurèle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "obéir aveuglément au pouvoir",
+    "douter de tout",
+    "chercher le plaisir à tout prix",
+    "accepter calmement ce qu'on ne peut pas changer"
+   ],
+   "answer": "accepter calmement ce qu'on ne peut pas changer",
+   "acceptedAnswers": [
+    "accepter calmement ce qu'on ne peut pas changer"
+   ],
+   "explanation": "Les stoïciens distinguent ce qui dépend de nous (nos jugements, nos actes) de ce qui n'en dépend pas (la maladie, la mort, la fortune). Le sage agit sur le premier et accepte le second avec calme.",
+   "tip": "Stoïcien = calme devant l'épreuve.",
+   "extraExample": {
+    "text": "Dans le langage courant, « stoïque » signifie courageux face à la douleur.",
+    "translation": "Le mot vient directement de cette école."
+   },
+   "errorPatterns": [
+    {
+     "equals": "chercher le plaisir à tout prix",
+     "category": "word_confusion",
+     "feedback": "C'est une caricature de l'épicurisme, qui prône plutôt des plaisirs simples."
+    },
+    {
+     "equals": "douter de tout",
+     "category": "word_confusion",
+     "feedback": "Douter de tout, c'est la méthode de Descartes ou le scepticisme, pas le stoïcisme."
+    },
+    {
+     "equals": "obéir aveuglément au pouvoir",
+     "category": "word_confusion",
+     "feedback": "Les stoïciens obéissent à la raison, pas au pouvoir."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e06",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.platon",
+    "cg.v.aristote",
+    "cg.v.stoicisme"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Écoles de philosophie à Athènes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Platon",
+     "right": "l'Académie"
+    },
+    {
+     "left": "Aristote",
+     "right": "le Lycée"
+    },
+    {
+     "left": "Épicure",
+     "right": "le Jardin"
+    },
+    {
+     "left": "Zénon de Citium",
+     "right": "le Portique"
+    }
+   ],
+   "answer": "Platon = l'Académie ; Aristote = le Lycée ; Épicure = le Jardin ; Zénon de Citium = le Portique",
+   "acceptedAnswers": [],
+   "explanation": "Platon enseigne à l'Académie, Aristote au Lycée, Épicure dans son Jardin, et Zénon de Citium sous un portique (la stoa), d'où le nom de stoïcisme.",
+   "tip": "Chaque école a son lieu : jardin d'Akadèmos, Lycée, Jardin, Portique.",
+   "extraExample": {
+    "text": "Le mot « lycée » vient du nom de l'école d'Aristote.",
+    "translation": "On l'emploie aujourd'hui pour les établissements du secondaire."
+   }
+  },
+  {
+   "id": "cg.l38.e07",
+   "unitIds": [
+    "cg.v.parthenon",
+    "cg.v.socrate",
+    "cg.g38.philosophes_antiquite_lumieres"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Quand Socrate a une vingtaine d'années, on commence à bâtir sur l'Acropole d'Athènes un temple dédié à Athéna : le ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Parthénon",
+    "Sagrada Família",
+    "Taj Mahal",
+    "Colisée"
+   ],
+   "answer": "Parthénon",
+   "acceptedAnswers": [
+    "Parthénon"
+   ],
+   "explanation": "Le Parthénon est construit entre 447 et 432 av. J.-C., au temps de Périclès ; Socrate est né vers 470. Il a donc grandi à l'ombre de ce chantier, au cœur d'Athènes.",
+   "tip": "Siècle de Périclès = Parthénon, Socrate, théâtre et démocratie.",
+   "extraExample": {
+    "text": "Le sculpteur Phidias dirige le décor du Parthénon pour Périclès.",
+    "translation": "Athènes connaît alors un âge d'or artistique et intellectuel."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Colisée",
+     "category": "word_confusion",
+     "feedback": "Le Colisée est un amphithéâtre romain, inauguré en l'an 80, bien après Socrate."
+    },
+    {
+     "equals": "Taj Mahal",
+     "category": "word_confusion",
+     "feedback": "Le Taj Mahal est un mausolée indien du XVIIe siècle."
+    },
+    {
+     "equals": "Sagrada Família",
+     "category": "word_confusion",
+     "feedback": "La Sagrada Família est une basilique de Barcelone, commencée en 1882."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e08",
+   "unitIds": [
+    "cg.v.democratie",
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.socrate"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Socrate, Platon et Aristote vivent à Athènes, où est née une forme de gouvernement par le peuple. Laquelle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la monarchie héréditaire",
+    "la démocratie",
+    "la féodalité",
+    "la dictature militaire"
+   ],
+   "answer": "la démocratie",
+   "acceptedAnswers": [
+    "la démocratie"
+   ],
+   "explanation": "La démocratie athénienne est née au VIe siècle av. J.-C. avec Clisthène et atteint son apogée au temps de Périclès. Socrate a d'ailleurs été condamné par un tribunal populaire de cette démocratie.",
+   "tip": "Athènes = démocratie (mais sans les femmes, les esclaves et les étrangers).",
+   "extraExample": {
+    "text": "Platon se méfie de la démocratie, qu'il juge trop influencée par les passions.",
+    "translation": "Il préfère confier le pouvoir à des philosophes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la monarchie héréditaire",
+     "category": "word_confusion",
+     "feedback": "La monarchie est le pouvoir d'un roi héréditaire ; Athènes a justement renversé ses tyrans."
+    },
+    {
+     "equals": "la dictature militaire",
+     "category": "word_confusion",
+     "feedback": "Athènes n'est pas une dictature militaire : les citoyens votent les lois."
+    },
+    {
+     "equals": "la féodalité",
+     "category": "word_confusion",
+     "feedback": "La féodalité est un système du Moyen Âge, bien plus tard."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e09",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.rene_descartes"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que fait Descartes pour trouver une vérité absolument certaine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "il croit tout ce que disent les anciens",
+    "il doute de tout, méthodiquement",
+    "il fait des expériences de laboratoire",
+    "il consulte les textes religieux"
+   ],
+   "answer": "il doute de tout, méthodiquement",
+   "acceptedAnswers": [
+    "il doute de tout, méthodiquement"
+   ],
+   "explanation": "C'est le doute méthodique : Descartes écarte tout ce qui peut être douteux (les sens, les opinions, même les mathématiques) pour voir ce qui résiste. Il découvre qu'il ne peut pas douter qu'il pense.",
+   "tip": "Doute méthodique = tout mettre en doute pour trouver ce qui est sûr.",
+   "extraExample": {
+    "text": "Descartes imagine même qu'un « malin génie » le trompe sur tout.",
+    "translation": "Cette hypothèse pousse le doute jusqu'à son extrême."
+   },
+   "errorPatterns": [
+    {
+     "equals": "il croit tout ce que disent les anciens",
+     "category": "word_confusion",
+     "feedback": "Descartes rejette justement l'autorité des anciens et veut tout vérifier par lui-même."
+    },
+    {
+     "equals": "il fait des expériences de laboratoire",
+     "category": "word_confusion",
+     "feedback": "Descartes fait des expériences de physique, mais sa quête de certitude passe par le doute."
+    },
+    {
+     "equals": "il consulte les textes religieux",
+     "category": "word_confusion",
+     "feedback": "Il croit en Dieu mais cherche d'abord une vérité par la seule raison."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e10",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.les_lumieres"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle grande entreprise collective, dirigée par Diderot et d'Alembert (1751-1772), rassemble le savoir des Lumières ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le Dictionnaire de l'Académie",
+    "l'Encyclopédie",
+    "les Essais",
+    "la Bibliothèque nationale"
+   ],
+   "answer": "l'Encyclopédie",
+   "acceptedAnswers": [
+    "l'Encyclopédie"
+   ],
+   "explanation": "L'Encyclopédie est un immense ouvrage collectif de 28 volumes (dont 11 de planches) : des centaines de collaborateurs y expliquent les sciences, les arts et les métiers. Elle diffuse l'esprit critique et le goût de la raison.",
+   "tip": "Encyclopédie = Diderot + d'Alembert + Lumières.",
+   "extraExample": {
+    "text": "Voltaire, Rousseau et Montesquieu ont tous écrit des articles pour l'Encyclopédie.",
+    "translation": "Elle est la vitrine collective des Lumières."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le Dictionnaire de l'Académie",
+     "category": "word_confusion",
+     "feedback": "Le Dictionnaire de l'Académie française est une autre entreprise, plus ancienne, centrée sur la langue."
+    },
+    {
+     "equals": "la Bibliothèque nationale",
+     "category": "word_confusion",
+     "feedback": "La Bibliothèque nationale est une institution, pas un ouvrage collectif de 1751."
+    },
+    {
+     "equals": "les Essais",
+     "category": "word_confusion",
+     "feedback": "Les Essais sont l'œuvre de Montaigne (1580), sans lien avec les Lumières."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e11",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.montesquieu"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Dans les ___ (1721), Montesquieu imagine deux Persans qui visitent Paris et critiquent la société française.",
+   "promptLanguage": "fr",
+   "options": [
+    "Lettres persanes",
+    "Lettres de mon moulin",
+    "Confessions",
+    "Provinciales"
+   ],
+   "answer": "Lettres persanes",
+   "acceptedAnswers": [
+    "Lettres persanes",
+    "Lettres persanes (1721)",
+    "Les Lettres persanes"
+   ],
+   "explanation": "Dans les Lettres persanes, Usbek et Rica, deux voyageurs persans, découvrent Paris sous la Régence. Leur regard étonné permet à Montesquieu de se moquer des usages de la France sans avoir l'air d'attaquer le pouvoir.",
+   "tip": "Lettres persanes = regard d'un étranger sur Paris.",
+   "extraExample": {
+    "text": "Le procédé du regard étranger sera repris par Voltaire dans plusieurs contes.",
+    "translation": "Il permet de critiquer en faisant sourire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Lettres de mon moulin",
+     "category": "word_confusion",
+     "feedback": "Les Lettres de mon moulin sont un recueil de contes d'Alphonse Daudet (1869)."
+    },
+    {
+     "equals": "Provinciales",
+     "category": "word_confusion",
+     "feedback": "Les Provinciales sont des lettres de Pascal (1656-1657), consacrées à une polémique religieuse."
+    },
+    {
+     "equals": "Confessions",
+     "category": "word_confusion",
+     "feedback": "Les Confessions sont un livre autobiographique de Rousseau."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e12",
+   "unitIds": [
+    "cg.v.separation_des_pouvoirs",
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.montesquieu"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Selon Montesquieu, quels sont les trois pouvoirs qu'il faut séparer pour éviter les abus ?",
+   "promptLanguage": "fr",
+   "options": [
+    "législatif, exécutif et judiciaire",
+    "royal, noble et populaire",
+    "politique, religieux et militaire",
+    "national, régional et local"
+   ],
+   "answer": "législatif, exécutif et judiciaire",
+   "acceptedAnswers": [
+    "législatif, exécutif et judiciaire"
+   ],
+   "explanation": "Le pouvoir législatif fait la loi, l'exécutif l'applique, le judiciaire juge. Pour que personne ne puisse abuser de son pouvoir, Montesquieu veut que « le pouvoir arrête le pouvoir ».",
+   "tip": "Faire la loi, l'appliquer, juger : trois pouvoirs, trois mains différentes.",
+   "extraExample": {
+    "text": "En France, le Parlement, le gouvernement et les juges incarnent ces trois pouvoirs.",
+    "translation": "Le principe est inscrit dans l'article 16 de la Déclaration des droits de l'homme de 1789."
+   },
+   "errorPatterns": [
+    {
+     "equals": "politique, religieux et militaire",
+     "category": "word_confusion",
+     "feedback": "Ce sont des domaines de la vie, pas les trois pouvoirs de Montesquieu."
+    },
+    {
+     "equals": "royal, noble et populaire",
+     "category": "word_confusion",
+     "feedback": "Cette division renvoie plutôt aux « ordres » de l'Ancien Régime (clergé, noblesse, tiers état)."
+    },
+    {
+     "equals": "national, régional et local",
+     "category": "word_confusion",
+     "feedback": "C'est une répartition territoriale, pas la séparation des pouvoirs."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e13",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.jean_jacques_rousseau"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle idée est au cœur de Du contrat social, de Rousseau (1762) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le pouvoir appartient au peuple (souveraineté populaire)",
+    "l'homme est naturellement mauvais",
+    "les philosophes doivent diriger la cité",
+    "le roi tient son pouvoir de Dieu"
+   ],
+   "answer": "le pouvoir appartient au peuple (souveraineté populaire)",
+   "acceptedAnswers": [
+    "le pouvoir appartient au peuple (souveraineté populaire)"
+   ],
+   "explanation": "Pour Rousseau, la légitimité d'un pouvoir vient d'un contrat entre les citoyens : le peuple est souverain et la loi exprime la « volonté générale ». Cette idée inspire la Révolution française.",
+   "tip": "Rousseau = contrat social = le peuple est souverain.",
+   "extraExample": {
+    "text": "L'article 3 de la Déclaration de 1789 dit que la souveraineté réside dans la nation.",
+    "translation": "C'est un héritage direct de Rousseau."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le roi tient son pouvoir de Dieu",
+     "category": "word_confusion",
+     "feedback": "C'est la doctrine de la monarchie de droit divin, défendue par Bossuet, que les Lumières contestent."
+    },
+    {
+     "equals": "les philosophes doivent diriger la cité",
+     "category": "word_confusion",
+     "feedback": "C'est la thèse de Platon dans La République."
+    },
+    {
+     "equals": "l'homme est naturellement mauvais",
+     "category": "word_confusion",
+     "feedback": "Rousseau soutient l'inverse : l'homme est naturellement bon, c'est la société qui le corrompt."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e14",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.voltaire"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Dans ___ (1759), Voltaire se moque de Pangloss, qui répète que tout est pour le mieux dans le meilleur des mondes.",
+   "promptLanguage": "fr",
+   "options": [
+    "Émile",
+    "Le Neveu de Rameau",
+    "Candide",
+    "Les Lettres persanes"
+   ],
+   "answer": "Candide",
+   "acceptedAnswers": [
+    "Candide",
+    "Candide ou l'Optimisme"
+   ],
+   "explanation": "Candide, conte philosophique de 1759, raconte les épreuves d'un jeune homme naïf qui traverse guerres, tremblements de terre et injustices. Voltaire y attaque l'optimisme aveugle de Pangloss, mais aussi l'intolérance et l'esclavage.",
+   "tip": "Candide = Voltaire = Pangloss et le meilleur des mondes.",
+   "extraExample": {
+    "text": "L'œuvre se termine sur la formule « Il faut cultiver notre jardin ».",
+    "translation": "Voltaire invite à agir plutôt qu'à discuter dans le vide."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Émile",
+     "category": "word_confusion",
+     "feedback": "Émile est un traité d'éducation de Rousseau (1762)."
+    },
+    {
+     "equals": "Le Neveu de Rameau",
+     "category": "word_confusion",
+     "feedback": "Le Neveu de Rameau est un dialogue de Diderot."
+    },
+    {
+     "equals": "Les Lettres persanes",
+     "category": "word_confusion",
+     "feedback": "Les Lettres persanes sont de Montesquieu (1721)."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e15",
+   "unitIds": [
+    "cg.v.victor_hugo",
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.voltaire"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Voltaire et Rousseau reposent, comme Victor Hugo, au ___, à Paris.",
+   "promptLanguage": "fr",
+   "options": [
+    "Louvre",
+    "Père-Lachaise",
+    "Invalides",
+    "Panthéon"
+   ],
+   "answer": "Panthéon",
+   "acceptedAnswers": [
+    "Panthéon",
+    "le Panthéon",
+    "Pantheon"
+   ],
+   "explanation": "Le Panthéon, ancienne église Sainte-Geneviève transformée par la Révolution en temple des « grands hommes », accueille Voltaire (1791), Rousseau (1794) et Hugo (1885). Sa devise : « Aux grands hommes, la patrie reconnaissante ».",
+   "tip": "Panthéon = les grands hommes de la patrie.",
+   "extraExample": {
+    "text": "Marie Curie y repose depuis 1995 : elle est la première femme honorée pour ses mérites propres.",
+    "translation": "Joséphine Baker y entre en 2021."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Invalides",
+     "category": "word_confusion",
+     "feedback": "Les Invalides abritent le tombeau de Napoléon Ier, pas ceux des philosophes."
+    },
+    {
+     "equals": "Père-Lachaise",
+     "category": "word_confusion",
+     "feedback": "Le Père-Lachaise est un grand cimetière parisien où reposent Molière et La Fontaine, mais pas Voltaire ni Rousseau."
+    },
+    {
+     "equals": "Louvre",
+     "category": "word_confusion",
+     "feedback": "Le Louvre est un musée, pas un lieu de sépulture."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e16",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.voltaire",
+    "cg.v.montesquieu",
+    "cg.v.jean_jacques_rousseau",
+    "cg.v.les_lumieres"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Œuvres des Lumières et auteurs",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Candide",
+     "right": "Voltaire"
+    },
+    {
+     "left": "De l'esprit des lois",
+     "right": "Montesquieu"
+    },
+    {
+     "left": "Émile",
+     "right": "Rousseau"
+    },
+    {
+     "left": "L'Encyclopédie",
+     "right": "Diderot et d'Alembert"
+    }
+   ],
+   "answer": "Candide = Voltaire ; De l'esprit des lois = Montesquieu ; Émile = Rousseau ; L'Encyclopédie = Diderot et d'Alembert",
+   "acceptedAnswers": [],
+   "explanation": "Voltaire écrit Candide (1759), Montesquieu De l'esprit des lois (1748), Rousseau Émile (1762) et Diderot et d'Alembert dirigent l'Encyclopédie (1751-1772).",
+   "tip": "Mets-les dans l'ordre : 1748, 1751, 1759, 1762.",
+   "extraExample": {
+    "text": "Ces quatre œuvres paraissent en l'espace de quinze ans seulement.",
+    "translation": "Le milieu du XVIIIe siècle est le grand moment des Lumières."
+   }
+  },
+  {
+   "id": "cg.l38.e17",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.rene_descartes"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le Discours de la méthode.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "en",
+    "le",
+    "de",
+    "1637",
+    "publie",
+    "méthode",
+    "Descartes",
+    "la",
+    "Discours"
+   ],
+   "answer": "Descartes publie le Discours de la méthode en 1637",
+   "acceptedAnswers": [
+    "Descartes publie le Discours de la méthode en 1637",
+    "En 1637 Descartes publie le Discours de la méthode"
+   ],
+   "hint": "Commence par l'auteur du livre.",
+   "explanation": "Le repère : Descartes, Discours de la méthode, 1637. C'est là que se trouve « Je pense, donc je suis ».",
+   "tip": "Qui (Descartes), quoi (Discours de la méthode), quand (1637).",
+   "extraExample": {
+    "text": "Descartes passe une grande partie de sa vie aux Pays-Bas, où il se sent plus libre.",
+    "translation": "Il meurt à Stockholm en 1650, à l'invitation de la reine Christine de Suède."
+   }
+  },
+  {
+   "id": "cg.l38.e18",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.aristote"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel philosophe grec, élève de Platon, a été le précepteur d'Alexandre le Grand ?",
+   "promptLanguage": "fr",
+   "answer": "Aristote",
+   "acceptedAnswers": [
+    "Aristote"
+   ],
+   "explanation": "Aristote, né à Stagire, éduque le jeune Alexandre à la cour de Macédoine, puis fonde à Athènes le Lycée, en 335 av. J.-C. Il étudie la logique, la physique, la biologie et la politique.",
+   "tip": "Aristote = Alexandre = Lycée.",
+   "extraExample": {
+    "text": "Aristote a classé des centaines d'espèces animales, ce qui fait de lui un des fondateurs de la biologie.",
+    "translation": "Il ne se contentait pas de penser : il observait."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Socrate",
+     "category": "word_confusion",
+     "feedback": "Socrate est le maître de Platon, mort en 399 av. J.-C., avant la naissance d'Alexandre."
+    },
+    {
+     "equals": "Platon",
+     "category": "word_confusion",
+     "feedback": "Platon est le maître d'Aristote, pas son élève."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e19",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.socrate"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la méthode de Socrate, qui consiste à poser des questions pour aider l'interlocuteur à « accoucher » de ses propres idées ?",
+   "promptLanguage": "fr",
+   "answer": "la maïeutique",
+   "acceptedAnswers": [
+    "la maïeutique",
+    "maïeutique",
+    "maieutique",
+    "la maieutique",
+    "l'art de la maïeutique"
+   ],
+   "explanation": "La maïeutique vient du grec maieutikê, « art de l'accouchement ». Socrate compare son travail à celui de sa mère, sage-femme : il aide les autres à faire naître leurs idées plutôt que de les leur donner.",
+   "tip": "Maïeutique : accoucher les esprits.",
+   "extraExample": {
+    "text": "On parle aujourd'hui de « méthode socratique » pour un enseignement par le dialogue et les questions.",
+    "translation": "Elle reste utilisée en droit et en philosophie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "l'ironie",
+     "category": "word_confusion",
+     "feedback": "L'ironie socratique (faire semblant de ne rien savoir) accompagne la maïeutique, mais le nom de la méthode est la maïeutique."
+    },
+    {
+     "equals": "la dialectique",
+     "category": "word_confusion",
+     "feedback": "La dialectique est l'art de discuter par questions et réponses ; le terme précis de Socrate pour accoucher les esprits est la maïeutique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e20",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.voltaire"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel philosophe des Lumières, auteur de Candide, a défendu Jean Calas, protestant injustement exécuté à Toulouse en 1762 ?",
+   "promptLanguage": "fr",
+   "answer": "Voltaire",
+   "acceptedAnswers": [
+    "Voltaire"
+   ],
+   "explanation": "Voltaire s'engage dans l'affaire Calas : en 1765, la condamnation est annulée et la famille réhabilitée. Il publie en 1763 son Traité sur la tolérance, qui devient un texte fondateur de la tolérance religieuse.",
+   "tip": "Voltaire = tolérance + affaire Calas.",
+   "extraExample": {
+    "text": "Le combat de Voltaire a été plus tard repris par Zola pour Dreyfus.",
+    "translation": "Les deux écrivains montrent qu'une plume peut défendre un innocent."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Rousseau",
+     "category": "word_confusion",
+     "feedback": "Rousseau écrit sur le contrat social et l'éducation, mais c'est Voltaire qui défend Calas."
+    },
+    {
+     "equals": "Jean-Jacques Rousseau",
+     "category": "word_confusion",
+     "feedback": "Rousseau écrit sur le contrat social et l'éducation, mais c'est Voltaire qui défend Calas."
+    },
+    {
+     "equals": "Montesquieu",
+     "category": "word_confusion",
+     "feedback": "Montesquieu meurt en 1755, avant l'affaire Calas."
+    }
+   ]
+  },
+  {
+   "id": "cg.l38.e21",
+   "unitIds": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.v.jean_jacques_rousseau"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel philosophe genevois a écrit Du contrat social (1762) et Émile ?",
+   "promptLanguage": "fr",
+   "answer": "Jean-Jacques Rousseau",
+   "acceptedAnswers": [
+    "Jean-Jacques Rousseau",
+    "Rousseau",
+    "J.-J. Rousseau"
+   ],
+   "explanation": "Rousseau, né à Genève en 1712, écrit Du contrat social et Émile la même année, 1762. Les deux livres sont condamnés, et il doit fuir la France.",
+   "tip": "Rousseau = Genève = contrat social.",
+   "extraExample": {
+    "text": "Rousseau meurt en 1778, la même année que Voltaire.",
+    "translation": "Les deux grands rivaux disparaissent à quelques semaines d'écart, au printemps et à l'été 1778."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Voltaire",
+     "category": "word_confusion",
+     "feedback": "Voltaire est l'auteur de Candide et du Traité sur la tolérance ; Du contrat social est de Rousseau."
+    },
+    {
+     "equals": "Montesquieu",
+     "category": "word_confusion",
+     "feedback": "Montesquieu est l'auteur de De l'esprit des lois (1748), pas du Contrat social."
+    }
+   ]
+  }
+ ]
+}

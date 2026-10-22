@@ -1,0 +1,797 @@
+{
+  "lessonId": "ar.l08",
+  "exercises": [
+    {
+      "id": "ar.l08.e01",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.waw"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un petit 9, qui se lit comme le ou de oui ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ر",
+        "م",
+        "و",
+        "ف"
+      ],
+      "answer": "و",
+      "acceptedAnswers": [
+        "و"
+      ],
+      "explanation": "و est le petit 9 à queue courbe : le ou de oui. م a une queue droite.",
+      "tip": "Un petit 9 : une tête et une queue qui pend.",
+      "extraExample": {
+        "text": "و",
+        "translation": "wâw : le ou de oui, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "م",
+          "category": "word_confusion",
+          "feedback": "م a une queue droite, et se dit m comme dans mer."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e02",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.mim",
+        "ar.v.heh",
+        "ar.v.waw",
+        "ar.v.hamza",
+        "ar.v.ta_marbuta"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie م, ه, و, ء et ة à leur nom.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "م",
+          "right": "mîm"
+        },
+        {
+          "left": "ه",
+          "right": "hâ"
+        },
+        {
+          "left": "و",
+          "right": "wâw"
+        },
+        {
+          "left": "ء",
+          "right": "hamza"
+        },
+        {
+          "left": "ة",
+          "right": "tâ marbûta"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "mîm pour m, wâw pour w/ou, hâ pour le h soufflé. ء s'appelle hamza, ة s'appelle tâ marbûta, « ta attaché »."
+    },
+    {
+      "id": "ar.l08.e03",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.heh"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un petit nœud à deux boucles, qui se lit comme un h soufflé ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ه",
+        "ح",
+        "ع",
+        "خ"
+      ],
+      "answer": "ه",
+      "acceptedAnswers": [
+        "ه"
+      ],
+      "explanation": "ه est le petit nœud : un simple souffle. ح est un crochet à h appuyé.",
+      "tip": "Un petit nœud à deux boucles.",
+      "extraExample": {
+        "text": "ه",
+        "translation": "hâ : un h soufflé, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ح",
+          "category": "word_confusion",
+          "feedback": "ح est un crochet, avec un h appuyé, beaucoup plus fort."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e04",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.ta_marbuta"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un ه coiffé de 2 points dessus, à la fin des mots féminins ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ة",
+        "ت",
+        "ق",
+        "ه"
+      ],
+      "answer": "ة",
+      "acceptedAnswers": [
+        "ة"
+      ],
+      "explanation": "ة est le ه couronné des 2 points de ت : tâ marbûta, « ta attaché », qui se dit a à la fin du mot.",
+      "tip": "Un ه coiffé des deux points de ت.",
+      "extraExample": {
+        "text": "ة",
+        "translation": "tâ marbûta : un a à la fin du mot, 2 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ه",
+          "category": "word_confusion",
+          "feedback": "ه n'a pas de point : il lui manque la couronne de 2 points."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e05",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.alif_maqsura"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un ي qui a perdu ses 2 points ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ى",
+        "ن",
+        "ا",
+        "ي"
+      ],
+      "answer": "ى",
+      "acceptedAnswers": [
+        "ى"
+      ],
+      "explanation": "ى est un ي sans ses 2 points dessous. Elle ne se trouve qu'à la fin d'un mot.",
+      "tip": "Un ي qui a perdu ses deux points.",
+      "extraExample": {
+        "text": "ى",
+        "translation": "alif maqsûra : un a long à la fin du mot, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "ي garde ses 2 points dessous."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e06",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.mim",
+        "ar.v.waw"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "La queue de م est ___ ; celle de و se courbe.",
+      "promptLanguage": "fr",
+      "options": [
+        "courbe",
+        "cassée",
+        "droite"
+      ],
+      "answer": "droite",
+      "acceptedAnswers": [
+        "droite"
+      ],
+      "explanation": "م a une queue droite, comme une cerise, alors que celle de و se courbe vers la gauche.",
+      "tip": "Une cerise avec sa queue droite.",
+      "extraExample": {
+        "text": "م",
+        "translation": "mîm : le m de mer, aucun point."
+      }
+    },
+    {
+      "id": "ar.l08.e07",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.ta_marbuta"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec la bonne place.",
+      "prompt": "ة se trouve ___ des mots féminins.",
+      "promptLanguage": "fr",
+      "options": [
+        "au milieu",
+        "au début",
+        "à la fin"
+      ],
+      "answer": "à la fin",
+      "acceptedAnswers": [
+        "à la fin"
+      ],
+      "explanation": "ة est le ت attaché au ه : elle se trouve à la fin des mots féminins et elle se dit a.",
+      "tip": "Un ه coiffé des deux points de ت.",
+      "extraExample": {
+        "text": "ة",
+        "translation": "tâ marbûta : un a à la fin du mot, 2 points dessus."
+      }
+    },
+    {
+      "id": "ar.l08.e08",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.hamza",
+        "ar.v.ayn"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Choisis la lettre qui manque.",
+      "prompt": "ء est une toute petite tête de ___, posée seule.",
+      "promptLanguage": "fr",
+      "options": [
+        "ع",
+        "م",
+        "ف"
+      ],
+      "answer": "ع",
+      "acceptedAnswers": [
+        "ع"
+      ],
+      "explanation": "ء est une petite tête de ع, sans queue. Elle marque un coup de gorge.",
+      "tip": "Une toute petite tête de ع, posée seule.",
+      "extraExample": {
+        "text": "ء",
+        "translation": "hamza : un coup de gorge, aucun point."
+      }
+    },
+    {
+      "id": "ar.l08.e09",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.heh",
+        "ar.v.ha"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "ه est un h ___ : un simple souffle, plus léger que ح.",
+      "promptLanguage": "fr",
+      "options": [
+        "roulé",
+        "appuyé",
+        "soufflé"
+      ],
+      "answer": "soufflé",
+      "acceptedAnswers": [
+        "soufflé"
+      ],
+      "explanation": "ه est un h soufflé, léger. ح, au contraire, est un h appuyé, du fond de la gorge.",
+      "tip": "Un petit nœud à deux boucles.",
+      "extraExample": {
+        "text": "ه",
+        "translation": "hâ : un h soufflé, aucun point."
+      }
+    },
+    {
+      "id": "ar.l08.e10",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.hamza"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "Quel son fait la lettre ء ?",
+      "promptLanguage": "fr",
+      "options": [
+        "le m de mer",
+        "un coup de gorge",
+        "un son de gorge serrée",
+        "un h soufflé"
+      ],
+      "answer": "un coup de gorge",
+      "acceptedAnswers": [
+        "un coup de gorge"
+      ],
+      "explanation": "ء marque un coup de gorge, un petit arrêt dans la voix. ع serre la gorge, ه souffle.",
+      "tip": "Une toute petite tête de ع, posée seule.",
+      "extraExample": {
+        "text": "ء",
+        "translation": "hamza : un coup de gorge, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "un h soufflé",
+          "category": "word_confusion",
+          "feedback": "Le h soufflé, c'est ه. ء est un arrêt net dans la voix."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e11",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.mim"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Devine la lettre.",
+      "prompt": "Qui suis-je ? « Je suis une cerise avec une queue bien droite. »",
+      "promptLanguage": "fr",
+      "options": [
+        "م",
+        "و",
+        "ف",
+        "ن"
+      ],
+      "answer": "م",
+      "acceptedAnswers": [
+        "م"
+      ],
+      "explanation": "Une boucle avec une queue droite : c'est م, le m de mer.",
+      "tip": "Une cerise avec sa queue droite.",
+      "extraExample": {
+        "text": "م",
+        "translation": "mîm : le m de mer, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "و",
+          "category": "word_confusion",
+          "feedback": "و a une queue qui se courbe, comme un petit 9."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e12",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.mim"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris le nom de la lettre.",
+      "prompt": "Comment s'appelle la lettre qui fait le son m, comme dans mer ?",
+      "promptLanguage": "fr",
+      "answer": "mîm",
+      "acceptedAnswers": [
+        "mîm",
+        "mim",
+        "miim"
+      ],
+      "explanation": "م s'appelle mîm : son nom commence par son son, m.",
+      "tip": "Une cerise avec sa queue droite.",
+      "extraExample": {
+        "text": "م",
+        "translation": "mîm : le m de mer, aucun point."
+      }
+    },
+    {
+      "id": "ar.l08.e13",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.ta_marbuta"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris le nombre.",
+      "prompt": "Combien de points a la lettre ة ? Réponds avec un chiffre.",
+      "promptLanguage": "fr",
+      "answer": "2",
+      "acceptedAnswers": [
+        "2",
+        "deux"
+      ],
+      "explanation": "ة a 2 points dessus, ceux de ت : c'est le ت attaché au ه.",
+      "tip": "Un ه coiffé des deux points de ت.",
+      "extraExample": {
+        "text": "ة",
+        "translation": "tâ marbûta : un a à la fin du mot, 2 points dessus."
+      }
+    },
+    {
+      "id": "ar.l08.e14",
+      "unitIds": [
+        "ar.g08.letters8",
+        "ar.v.alif",
+        "ar.v.mim"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon nombre.",
+      "prompt": "Parmi les 28 lettres, combien n'ont aucun point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "12",
+        "13",
+        "10",
+        "15"
+      ],
+      "answer": "13",
+      "acceptedAnswers": [
+        "13"
+      ],
+      "explanation": "13 lettres n'ont aucun point, 15 en ont. Le bâton ا, les dents س, les boucles ص ط, l'œil ع, la cerise م... en font partie.",
+      "tip": "Un poteau droit, sans point : c'est alif.",
+      "extraExample": {
+        "text": "ا",
+        "translation": "alif : un bâton, une des 13 lettres sans point."
+      }
+    },
+    {
+      "id": "ar.l08.e15",
+      "unitIds": [
+        "ar.v.alif",
+        "ar.v.ba",
+        "ar.g08.letters8"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris le nombre.",
+      "prompt": "Combien de lettres compte l'alphabet arabe ? Réponds avec un chiffre.",
+      "promptLanguage": "fr",
+      "answer": "28",
+      "acceptedAnswers": [
+        "28",
+        "vingt-huit"
+      ],
+      "explanation": "L'alphabet arabe compte 28 lettres, lues de droite à gauche.",
+      "tip": "Un poteau droit, sans point : c'est alif.",
+      "extraExample": {
+        "text": "ا ب ت ث",
+        "translation": "alif, bâ, tâ, thâ : les quatre premières des 28 lettres."
+      }
+    },
+    {
+      "id": "ar.l08.e16",
+      "unitIds": [
+        "ar.v.ba",
+        "ar.v.jim",
+        "ar.v.ya",
+        "ar.g08.letters8"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon groupe.",
+      "prompt": "Quelles sont les seules lettres qui ont des points dessous ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ج ح خ",
+        "ب ت ث",
+        "ب ج ي",
+        "ن ي ت"
+      ],
+      "answer": "ب ج ي",
+      "acceptedAnswers": [
+        "ب ج ي"
+      ],
+      "explanation": "Seules trois lettres ont des points dessous : ب (1), ج (1) et ي (2). Tout le reste est dessus ou sans point.",
+      "tip": "Une barque, et son ancre en dessous.",
+      "extraExample": {
+        "text": "ب ج ي",
+        "translation": "les trois lettres aux points dessous."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ب ت ث",
+          "category": "word_confusion",
+          "feedback": "ت et ث ont leurs points dessus."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e17",
+      "unitIds": [
+        "ar.v.ra",
+        "ar.g08.letters8"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un r roulé, dessiné comme une virgule qui descend ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ر",
+        "د",
+        "غ",
+        "ز"
+      ],
+      "answer": "ر",
+      "acceptedAnswers": [
+        "ر"
+      ],
+      "explanation": "ر est le r roulé : une virgule qui descend. غ est l'autre r, celui de rouge, dessiné comme un œil.",
+      "tip": "Une virgule qui descend sous la ligne.",
+      "extraExample": {
+        "text": "ر",
+        "translation": "râ : un r roulé, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "غ",
+          "category": "word_confusion",
+          "feedback": "غ est le r de rouge, au fond de la gorge. Le r roulé est dessiné comme une virgule."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e18",
+      "unitIds": [
+        "ar.v.tha",
+        "ar.g08.letters8"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre s'appelle thâ ?",
+      "promptLanguage": "fr",
+      "options": [
+        "س",
+        "ت",
+        "ش",
+        "ث"
+      ],
+      "answer": "ث",
+      "acceptedAnswers": [
+        "ث"
+      ],
+      "explanation": "ث s'appelle thâ : une barque avec 3 points dessus. ش a aussi 3 points, mais sur trois dents.",
+      "tip": "Trois mouettes en triangle sur la barque.",
+      "extraExample": {
+        "text": "ث",
+        "translation": "thâ : un t, parfois un s, 3 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ش",
+          "category": "word_confusion",
+          "feedback": "ش a 3 points aussi, mais sur trois dents. Elle s'appelle chîn."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e19",
+      "unitIds": [
+        "ar.v.sad",
+        "ar.g08.letters8"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Laquelle de ces lettres est un s lourd, une boucle fermée sans point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ص",
+        "ط",
+        "ض",
+        "س"
+      ],
+      "answer": "ص",
+      "acceptedAnswers": [
+        "ص"
+      ],
+      "explanation": "ص est le s lourd : une boucle fermée sans point ni mât. ض a un point, ط a un mât.",
+      "tip": "Une boucle fermée, comme un œil qui se ferme.",
+      "extraExample": {
+        "text": "ص",
+        "translation": "sâd : un s lourd, aucun point."
+      }
+    },
+    {
+      "id": "ar.l08.e20",
+      "unitIds": [
+        "ar.v.kha",
+        "ar.v.ha",
+        "ar.g08.letters8"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Choisis la lettre qui manque.",
+      "prompt": "ح est le crochet sans point ; si tu lui ajoutes 1 point dessus, tu obtiens ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "خ",
+        "غ",
+        "ج",
+        "ذ"
+      ],
+      "answer": "خ",
+      "acceptedAnswers": [
+        "خ"
+      ],
+      "explanation": "ح + 1 point dessus = خ : le h appuyé devient le ch de Bach. Avec 1 point dessous, ce serait ج.",
+      "tip": "Le crochet avec un chapeau (le point dessus).",
+      "extraExample": {
+        "text": "خ",
+        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ج",
+          "category": "word_confusion",
+          "feedback": "ج a son point dans le creux, donc dessous."
+        }
+      ]
+    },
+    {
+      "id": "ar.l08.e21",
+      "unitIds": [
+        "ar.v.ha",
+        "ar.v.kha",
+        "ar.v.jim",
+        "ar.v.ya",
+        "ar.v.shin",
+        "ar.g08.letters8"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie chaque lettre à son nombre de points.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ح",
+          "right": "aucun point"
+        },
+        {
+          "left": "خ",
+          "right": "1 point dessus"
+        },
+        {
+          "left": "ج",
+          "right": "1 point dessous"
+        },
+        {
+          "left": "ي",
+          "right": "2 points dessous"
+        },
+        {
+          "left": "ش",
+          "right": "3 points dessus"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Cinq lettres, cinq cartes d'identité : le nombre ET la place des points décident."
+    },
+    {
+      "id": "ar.l08.e22",
+      "unitIds": [
+        "ar.v.dal",
+        "ar.v.ra",
+        "ar.v.sin",
+        "ar.v.sad",
+        "ar.v.ayn",
+        "ar.g08.letters8"
+      ],
+      "type": "match",
+      "difficulty": 4,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie chaque lettre à sa jumelle à points.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "د",
+          "right": "ذ"
+        },
+        {
+          "left": "ر",
+          "right": "ز"
+        },
+        {
+          "left": "س",
+          "right": "ش"
+        },
+        {
+          "left": "ص",
+          "right": "ض"
+        },
+        {
+          "left": "ع",
+          "right": "غ"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Dans chaque paire, on ajoute des points : 1 point dessus pour ذ ز ض غ, 3 points dessus pour ش."
+    },
+    {
+      "id": "ar.l08.e23",
+      "unitIds": [
+        "ar.v.jim",
+        "ar.v.ha",
+        "ar.v.tah",
+        "ar.v.ayn",
+        "ar.v.ghayn",
+        "ar.g08.letters8"
+      ],
+      "type": "match",
+      "difficulty": 4,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ج, ح, ط, ع et غ à leur son.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ج",
+          "right": "le g de gâteau"
+        },
+        {
+          "left": "ح",
+          "right": "un h appuyé"
+        },
+        {
+          "left": "ط",
+          "right": "un t lourd"
+        },
+        {
+          "left": "ع",
+          "right": "un son de gorge serrée"
+        },
+        {
+          "left": "غ",
+          "right": "le r de rouge"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "g, h appuyé, t lourd, gorge serrée, r de rouge : les sons les plus exotiques de l'arabe, déjà dans ton oreille égyptienne."
+    },
+    {
+      "id": "ar.l08.e24",
+      "unitIds": [
+        "ar.v.ba",
+        "ar.v.nun",
+        "ar.v.kha",
+        "ar.v.qaf",
+        "ar.v.lam",
+        "ar.g08.letters8"
+      ],
+      "type": "match",
+      "difficulty": 4,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Dernier défi : relie chaque forme à sa lettre.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "une barque avec 1 point dessous",
+          "right": "ب"
+        },
+        {
+          "left": "un bol avec 1 point dessus",
+          "right": "ن"
+        },
+        {
+          "left": "un crochet coiffé d'un chapeau",
+          "right": "خ"
+        },
+        {
+          "left": "une tête ronde et 2 points dessus",
+          "right": "ق"
+        },
+        {
+          "left": "un bâton avec un pied",
+          "right": "ل"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Forme d'abord, points ensuite : c'est la méthode pour lire vite, lettre par lettre."
+    }
+  ]
+}

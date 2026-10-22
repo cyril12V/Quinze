@@ -218,5 +218,93 @@
    ],
    "tip": "Cherche d'abord le bâton ou la tête, puis le point dessus."
   }
+ },
+ {
+  "id": "ar.g14.forms_fa_lam",
+  "rule": {
+   "summary": "ف ق sont des têtes rondes (1 et 2 points dessus), ك ل sont des bâtons. ل s'attache à la suivante, contrairement à ا qui coupe le mot.",
+   "explanation": "ف et ق ont la même tête ronde : ف avec 1 point dessus, ق avec 2 points dessus. ك et ل sont des bâtons : ك est plus court avec un petit trait penché, ل est un bâton lisse. Au début et au milieu, on voit la boule ou le bâton ; à la fin, le pied revient. ل s'attache à la lettre suivante, alors que ا ne s'attache jamais : le bâton ل ne coupe pas le mot.",
+   "pattern": "فـ ـفـ ـف  |  قـ ـقـ ـق  |  كـ ـكـ ـك  |  لـ ـلـ ـل",
+   "examples": [
+    {
+     "text": "صليب",
+     "translation": "croix : ص + ل + ي + ب, 1 bloc"
+    },
+    {
+     "text": "قداس",
+     "translation": "liturgie : قد | ا | س, 3 blocs"
+    },
+    {
+     "text": "كرسي",
+     "translation": "chaise : كر | سي, 2 blocs"
+    },
+    {
+     "text": "فول",
+     "translation": "fèves : فو | ل, 2 blocs"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "قلب lu فلب",
+     "right": "ق a 2 points dessus",
+     "why": "ف n'a qu'un seul point dessus."
+    },
+    {
+     "wrong": "ل pris pour ا dans صليب",
+     "right": "ل s'attache : صليب = 1 bloc",
+     "why": "ا coupe le mot, ل non : le ل est attaché des deux côtés."
+    },
+    {
+     "wrong": "ك pris pour ل",
+     "right": "ك a un petit trait penché",
+     "why": "ل est un bâton lisse ; ك porte un petit trait penché à l'intérieur."
+    }
+   ],
+   "tip": "Boule : compte les points (1 ou 2). Bâton : lisse ou avec un trait penché ?"
+  }
+ },
+ {
+  "id": "ar.g15.forms_mim_ha",
+  "rule": {
+   "summary": "م est une boule fermée, ه une lettre aux quatre visages très différents, و ne s'attache pas, et ة n'existe qu'à la fin d'un mot (ـة attachée ou ة isolée).",
+   "explanation": "م garde sa boule au début et au milieu, sa queue revient à la fin. ه change complètement de dessin selon sa place : ه هـ ـهـ ـه. و fait partie des lettres qui ne s'attachent pas. ة, un ه avec 2 points dessus, ne s'écrit qu'en fin de mot : ـة si la lettre d'avant s'attache (كنيسة), ة isolée si elle ne s'attache pas (قهوة).",
+   "pattern": "مـ ـمـ ـم  |  هـ ـهـ ـه  |  ـو  |  ـة ة",
+   "examples": [
+    {
+     "text": "مية",
+     "translation": "eau : م + ي + ة, 1 bloc"
+    },
+    {
+     "text": "قهوة",
+     "translation": "café : قهو | ة, ة isolé"
+    },
+    {
+     "text": "كنيسة",
+     "translation": "église : 1 bloc, ـة attaché"
+    },
+    {
+     "text": "ترابيزة",
+     "translation": "table : تر | ا | بيز | ة, 4 blocs"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ة finale écrite ه",
+     "right": "ة a 2 points dessus",
+     "why": "Sans ses 2 points, la lettre serait un ه."
+    },
+    {
+     "wrong": "ـة attachée après و dans قهوة",
+     "right": "ة isolée",
+     "why": "Le و ne s'attache pas à la suivante : le ة reste seul."
+    },
+    {
+     "wrong": "م confondu avec ن",
+     "right": "م n'a aucun point",
+     "why": "ن a un point dessus et une forme de bol ; م est une boule fermée sans point."
+    }
+   ],
+   "tip": "ة = ه + 2 points, toujours à la fin du mot."
+  }
  }
 ]

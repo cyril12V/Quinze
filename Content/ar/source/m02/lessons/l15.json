@@ -1,0 +1,920 @@
+{
+ "lessonId": "ar.l15",
+ "exercises": [
+  {
+   "id": "ar.l15.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.ta_marbuta"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Laquelle de ces formes est la forme de la fin de ة ?",
+   "promptLanguage": "fr",
+   "answer": "ـة",
+   "acceptedAnswers": [
+    "ـة"
+   ],
+   "explanation": "ة s'écrit ـة quand elle s'accroche à la lettre d'avant, avec ses 2 points dessus. ـه est un ه, sans point.",
+   "tip": "ة a toujours 2 points dessus.",
+   "extraExample": {
+    "text": "كنيسة",
+    "translation": "église"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ة",
+     "category": "instruction",
+     "feedback": "ة sans trait est la forme isolée, pas celle de la fin."
+    },
+    {
+     "equals": "ـه",
+     "category": "spelling",
+     "feedback": "ـه est la forme de la fin de ه : il n'a aucun point."
+    },
+    {
+     "equals": "هـ",
+     "category": "instruction",
+     "feedback": "هـ est la forme du début de ه."
+    }
+   ],
+   "options": [
+    "ـة",
+    "ة",
+    "ـه",
+    "هـ"
+   ]
+  },
+  {
+   "id": "ar.l15.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.mayya"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "مية",
+   "promptLanguage": "ar",
+   "answer": "eau",
+   "acceptedAnswers": [
+    "eau"
+   ],
+   "explanation": "Lettre par lettre : م (sans point), ي (2 points dessous), ة (2 points dessus) donne مية, « eau ». م + ي + ة : tout est attaché, 1 bloc.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "عايز كوباية مية.",
+    "translation": "Je voudrais un verre d'eau."
+   },
+   "errorPatterns": [
+    {
+     "equals": "pain",
+     "category": "word_confusion",
+     "feedback": "« pain » s'écrit عيش (ع + ي + ش). Ici tu lis م + ي + ة : مية veut dire « eau »."
+    },
+    {
+     "equals": "lait",
+     "category": "word_confusion",
+     "feedback": "« lait » s'écrit لبن (ل + ب + ن). Ici tu lis م + ي + ة : مية veut dire « eau »."
+    },
+    {
+     "equals": "thé",
+     "category": "word_confusion",
+     "feedback": "« thé » s'écrit شاي (ش + ا + ي). Ici tu lis م + ي + ة : مية veut dire « eau »."
+    }
+   ],
+   "options": [
+    "eau",
+    "pain",
+    "lait",
+    "thé"
+   ]
+  },
+  {
+   "id": "ar.l15.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.qahwa"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "قهوة",
+   "promptLanguage": "ar",
+   "answer": "café (boisson)",
+   "acceptedAnswers": [
+    "café (boisson)"
+   ],
+   "explanation": "Lettre par lettre : ق (2 points dessus), ه (sans point), و (sans point), ة (2 points dessus) donne قهوة, « café (boisson) ». Le و ferme le bloc قهو : le ة reste seul, donc isolé.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "قهوة سادة.",
+    "translation": "Un café sans sucre."
+   },
+   "hint": "Cherche le ة à la fin.",
+   "errorPatterns": [
+    {
+     "equals": "café (grains)",
+     "category": "word_confusion",
+     "feedback": "« café (grains) » s'écrit بن (ب + ن). Ici tu lis ق + ه + و + ة : قهوة veut dire « café (boisson) »."
+    },
+    {
+     "equals": "thé",
+     "category": "word_confusion",
+     "feedback": "« thé » s'écrit شاي (ش + ا + ي). Ici tu lis ق + ه + و + ة : قهوة veut dire « café (boisson) »."
+    },
+    {
+     "equals": "lait",
+     "category": "word_confusion",
+     "feedback": "« lait » s'écrit لبن (ل + ب + ن). Ici tu lis ق + ه + و + ة : قهوة veut dire « café (boisson) »."
+    }
+   ],
+   "options": [
+    "café (boisson)",
+    "café (grains)",
+    "thé",
+    "lait"
+   ]
+  },
+  {
+   "id": "ar.l15.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.kanisa"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "كنيسة",
+   "promptLanguage": "ar",
+   "answer": "église",
+   "acceptedAnswers": [
+    "église"
+   ],
+   "explanation": "Lettre par lettre : ك (sans point), ن (1 point dessus), ي (2 points dessous), س (sans point), ة (2 points dessus) donne كنيسة, « église ». Tout est attaché : 1 bloc. Le ـة final s'accroche au س.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "رايح الكنيسة.",
+    "translation": "Je vais à l'église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "cloche",
+     "category": "word_confusion",
+     "feedback": "« cloche » s'écrit جرس (ج + ر + س). Ici tu lis ك + ن + ي + س + ة : كنيسة veut dire « église »."
+    },
+    {
+     "equals": "croix",
+     "category": "word_confusion",
+     "feedback": "« croix » s'écrit صليب (ص + ل + ي + ب). Ici tu lis ك + ن + ي + س + ة : كنيسة veut dire « église »."
+    },
+    {
+     "equals": "monastère",
+     "category": "word_confusion",
+     "feedback": "« monastère » s'écrit دير (د + ي + ر). Ici tu lis ك + ن + ي + س + ة : كنيسة veut dire « église »."
+    }
+   ],
+   "options": [
+    "église",
+    "cloche",
+    "croix",
+    "monastère"
+   ]
+  },
+  {
+   "id": "ar.l15.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.arabiyya"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « voiture » ?",
+   "promptLanguage": "fr",
+   "answer": "عربية",
+   "acceptedAnswers": [
+    "عربية"
+   ],
+   "explanation": "« voiture » s'écrit ع + ر + ب + ي + ة : عربية. Le ر ferme le premier bloc : عر | بية.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "ركبنا العربية.",
+    "translation": "Nous sommes montés dans la voiture."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ترابيزة",
+     "category": "word_confusion",
+     "feedback": "ترابيزة (ت + ر + ا + ب + ي + ز + ة) veut dire « table ». Pour « voiture », il faut ع + ر + ب + ي + ة : عربية."
+    },
+    {
+     "equals": "أوضة",
+     "category": "word_confusion",
+     "feedback": "أوضة (أ + و + ض + ة) veut dire « chambre ». Pour « voiture », il faut ع + ر + ب + ي + ة : عربية."
+    },
+    {
+     "equals": "كرسي",
+     "category": "word_confusion",
+     "feedback": "كرسي (ك + ر + س + ي) veut dire « chaise ». Pour « voiture », il faut ع + ر + ب + ي + ة : عربية."
+    }
+   ],
+   "options": [
+    "عربية",
+    "ترابيزة",
+    "أوضة",
+    "كرسي"
+   ]
+  },
+  {
+   "id": "ar.l15.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.bukra"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « demain » ?",
+   "promptLanguage": "fr",
+   "answer": "بكرة",
+   "acceptedAnswers": [
+    "بكرة"
+   ],
+   "explanation": "« demain » s'écrit ب + ك + ر + ة : بكرة. Le ر ferme le bloc بكر : le ة reste seul, isolé.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "بكرة الأحد.",
+    "translation": "Demain, c'est dimanche."
+   },
+   "errorPatterns": [
+    {
+     "equals": "سكر",
+     "category": "word_confusion",
+     "feedback": "سكر (س + ك + ر) veut dire « sucre ». Pour « demain », il faut ب + ك + ر + ة : بكرة."
+    },
+    {
+     "equals": "بخور",
+     "category": "word_confusion",
+     "feedback": "بخور (ب + خ + و + ر) veut dire « encens ». Pour « demain », il faut ب + ك + ر + ة : بكرة."
+    },
+    {
+     "equals": "كرسي",
+     "category": "word_confusion",
+     "feedback": "كرسي (ك + ر + س + ي) veut dire « chaise ». Pour « demain », il faut ب + ك + ر + ة : بكرة."
+    }
+   ],
+   "options": [
+    "بكرة",
+    "سكر",
+    "بخور",
+    "كرسي"
+   ]
+  },
+  {
+   "id": "ar.l15.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.qahwa"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans قهوة, quelle forme prend la lettre ة ?",
+   "promptLanguage": "fr",
+   "answer": "forme isolée",
+   "acceptedAnswers": [
+    "forme isolée"
+   ],
+   "explanation": "Dans قهوة (blocs : قهو | ة), la lettre ة : elle ne s'accroche à aucune voisine : c'est la forme isolée. Le و qui précède ne s'attache pas : le ة reste isolé.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "قهوة",
+    "translation": "mot"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme du début",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à gauche, vers la lettre suivante : c'est la forme du début."
+    },
+    {
+     "equals": "forme du milieu",
+     "category": "instruction",
+     "feedback": "Un trait ـ de chaque côté : c'est la forme du milieu."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l15.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.kanisa"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans كنيسة, quelle forme prend la lettre ة ?",
+   "promptLanguage": "fr",
+   "answer": "forme de la fin",
+   "acceptedAnswers": [
+    "forme de la fin"
+   ],
+   "explanation": "Dans كنيسة (blocs : كنيسة), la lettre ة : elle s'accroche seulement à la lettre d'avant : c'est la forme de la fin. Le ة s'accroche au س qui le précède.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "كنيسة",
+    "translation": "mot"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du début",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à gauche, vers la lettre suivante : c'est la forme du début."
+    },
+    {
+     "equals": "forme du milieu",
+     "category": "instruction",
+     "feedback": "Un trait ـ de chaque côté : c'est la forme du milieu."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l15.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.tarabeza"
+   ],
+   "difficulty": 3,
+   "instruction": "Compte les blocs.",
+   "prompt": "Combien de blocs compte ترابيزة ?",
+   "promptLanguage": "fr",
+   "answer": "4 blocs",
+   "acceptedAnswers": [
+    "4 blocs"
+   ],
+   "explanation": "ترابيزة = تر | ا | بيز | ة : 4 blocs. Le mot se coupe après ر et après ا et après ز.",
+   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "extraExample": {
+    "text": "ترابيزة",
+    "translation": "table"
+   },
+   "errorPatterns": [
+    {
+     "equals": "1 bloc",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : تر | ا | بيز | ة."
+    },
+    {
+     "equals": "2 blocs",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : تر | ا | بيز | ة."
+    },
+    {
+     "equals": "3 blocs",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : تر | ا | بيز | ة."
+    }
+   ],
+   "options": [
+    "1 bloc",
+    "2 blocs",
+    "3 blocs",
+    "4 blocs"
+   ]
+  },
+  {
+   "id": "ar.l15.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.qalb"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « cœur » ?",
+   "promptLanguage": "fr",
+   "answer": "قلب",
+   "acceptedAnswers": [
+    "قلب"
+   ],
+   "explanation": "« cœur » s'écrit ق + ل + ب : قلب. ق (2 points dessus), ل (bâton), ب (1 point dessous) : 1 bloc.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "ربنا يفرح قلبك.",
+    "translation": "Que Dieu réjouisse ton cœur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "قداس",
+     "category": "word_confusion",
+     "feedback": "قداس (ق + د + ا + س) veut dire « liturgie ». Pour « cœur », il faut ق + ل + ب : قلب."
+    },
+    {
+     "equals": "قربان",
+     "category": "word_confusion",
+     "feedback": "قربان (ق + ر + ب + ا + ن) veut dire « pain d'offrande ». Pour « cœur », il faut ق + ل + ب : قلب."
+    },
+    {
+     "equals": "كرسي",
+     "category": "word_confusion",
+     "feedback": "كرسي (ك + ر + س + ي) veut dire « chaise ». Pour « cœur », il faut ق + ل + ب : قلب."
+    }
+   ],
+   "options": [
+    "قلب",
+    "قداس",
+    "قربان",
+    "كرسي"
+   ]
+  },
+  {
+   "id": "ar.l15.e11",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.salib"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "Lis ce mot : صليب",
+   "promptLanguage": "fr",
+   "answer": "croix",
+   "acceptedAnswers": [
+    "croix"
+   ],
+   "explanation": "Lettre par lettre : ص (sans point), ل (sans point), ي (2 points dessous), ب (1 point dessous) donne صليب, « croix ». ص (boucle) + ل (bâton) + ي + ب : tout est attaché, 1 bloc.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "الصليب على الحيطة.",
+    "translation": "La croix est sur le mur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "cœur",
+     "category": "word_confusion",
+     "feedback": "« cœur » s'écrit قلب (ق + ل + ب). Ici tu lis ص + ل + ي + ب : صليب veut dire « croix »."
+    },
+    {
+     "equals": "chaise",
+     "category": "word_confusion",
+     "feedback": "« chaise » s'écrit كرسي (ك + ر + س + ي). Ici tu lis ص + ل + ي + ب : صليب veut dire « croix »."
+    },
+    {
+     "equals": "Évangile",
+     "category": "word_confusion",
+     "feedback": "« Évangile » s'écrit إنجيل (إ + ن + ج + ي + ل). Ici tu lis ص + ل + ي + ب : صليب veut dire « croix »."
+    }
+   ],
+   "options": [
+    "croix",
+    "cœur",
+    "chaise",
+    "Évangile"
+   ]
+  },
+  {
+   "id": "ar.l15.e12",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.qaf"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans قداس, quelle forme prend la lettre ق ?",
+   "promptLanguage": "fr",
+   "answer": "forme du début",
+   "acceptedAnswers": [
+    "forme du début"
+   ],
+   "explanation": "Dans قداس (blocs : قد | ا | س), la lettre ق : elle s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ق s'attache au د qui le suit : forme du début قـ.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "قداس",
+    "translation": "mot"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du milieu",
+     "category": "instruction",
+     "feedback": "Un trait ـ de chaque côté : c'est la forme du milieu."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l15.e13",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.mayya"
+   ],
+   "difficulty": 2,
+   "instruction": "Quelle lettre manque pour écrire « eau » ?",
+   "prompt": "___ـيـة",
+   "promptLanguage": "ar",
+   "answer": "م",
+   "acceptedAnswers": [
+    "م"
+   ],
+   "explanation": "مية commence par م : une boule fermée, sans point. ن aurait un point dessus.",
+   "tip": "Boule fermée, aucun point : م.",
+   "extraExample": {
+    "text": "المية باردة.",
+    "translation": "L'eau est froide."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ن",
+     "category": "spelling",
+     "feedback": "ن a un point dessus ; م n'a aucun point."
+    },
+    {
+     "equals": "ه",
+     "category": "spelling",
+     "feedback": "ه a une autre forme au début : هـ."
+    }
+   ],
+   "options": [
+    "م",
+    "ن",
+    "ه"
+   ]
+  },
+  {
+   "id": "ar.l15.e14",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.kanisa"
+   ],
+   "difficulty": 3,
+   "instruction": "Quelle lettre termine « église » ?",
+   "prompt": "كـنـيـسـ___",
+   "promptLanguage": "ar",
+   "answer": "ة",
+   "acceptedAnswers": [
+    "ة"
+   ],
+   "explanation": "كنيسة finit par ة : 2 points dessus, attachée au س. ت aurait aussi 2 points, mais elle ne se met pas ainsi à la fin d'un mot féminin.",
+   "tip": "ة finale : un ه avec 2 points dessus.",
+   "extraExample": {
+    "text": "الكنيسة مفتوحة.",
+    "translation": "L'église est ouverte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ه",
+     "category": "spelling",
+     "feedback": "ه n'a aucun point ; ici il y en a deux : ة."
+    },
+    {
+     "equals": "ت",
+     "category": "spelling",
+     "feedback": "ت finale s'écrit ـت, sans la forme arrondie de ة."
+    }
+   ],
+   "options": [
+    "ة",
+    "ه",
+    "ت",
+    "ث"
+   ]
+  },
+  {
+   "id": "ar.l15.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.mish"
+   ],
+   "difficulty": 3,
+   "instruction": "Quelle lettre termine « ne… pas » ?",
+   "prompt": "مـ___",
+   "promptLanguage": "ar",
+   "answer": "ش",
+   "acceptedAnswers": [
+    "ش"
+   ],
+   "explanation": "مش finit par ش : trois dents et 3 points dessus. س n'a aucun point.",
+   "tip": "3 dents + 3 points : ش.",
+   "extraExample": {
+    "text": "مش عارف.",
+    "translation": "Je ne sais pas."
+   },
+   "errorPatterns": [
+    {
+     "equals": "س",
+     "category": "spelling",
+     "feedback": "س n'a aucun point ; ش en a trois."
+    },
+    {
+     "equals": "ص",
+     "category": "spelling",
+     "feedback": "ص a une boucle, pas des dents."
+    }
+   ],
+   "options": [
+    "ش",
+    "س",
+    "ص",
+    "ض"
+   ]
+  },
+  {
+   "id": "ar.l15.e16",
+   "type": "match",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.mayya",
+    "ar.v.qahwa",
+    "ar.v.arabiyya",
+    "ar.v.tarabeza",
+    "ar.v.oda"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots de la maison",
+   "promptLanguage": "fr",
+   "answer": "مية = eau ; قهوة = café (boisson) ; عربية = voiture ; ترابيزة = table ; أوضة = chambre",
+   "acceptedAnswers": [],
+   "explanation": "Cherche le ة final, isolé ou attaché, et compte les blocs.",
+   "pairs": [
+    {
+     "left": "مية",
+     "right": "eau"
+    },
+    {
+     "left": "قهوة",
+     "right": "café (boisson)"
+    },
+    {
+     "left": "عربية",
+     "right": "voiture"
+    },
+    {
+     "left": "ترابيزة",
+     "right": "table"
+    },
+    {
+     "left": "أوضة",
+     "right": "chambre"
+    }
+   ]
+  },
+  {
+   "id": "ar.l15.e17",
+   "type": "match",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.bukra",
+    "ar.v.mish",
+    "ar.v.kanisa",
+    "ar.v.shammas",
+    "ar.v.mazmur"
+   ],
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots du quotidien et mots d'église",
+   "promptLanguage": "fr",
+   "answer": "بكرة = demain ; مش = ne… pas ; كنيسة = église ; شماس = diacre ; مزمور = psaume",
+   "acceptedAnswers": [],
+   "explanation": "Lis lettre par lettre, puis bloc par bloc : بكر | ة, م + ش, كنيسة, شما | س, مز | مو | ر.",
+   "pairs": [
+    {
+     "left": "بكرة",
+     "right": "demain"
+    },
+    {
+     "left": "مش",
+     "right": "ne… pas"
+    },
+    {
+     "left": "كنيسة",
+     "right": "église"
+    },
+    {
+     "left": "شماس",
+     "right": "diacre"
+    },
+    {
+     "left": "مزمور",
+     "right": "psaume"
+    }
+   ]
+  },
+  {
+   "id": "ar.l15.e18",
+   "type": "match",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.mim",
+    "ar.v.heh",
+    "ar.v.kaf",
+    "ar.v.lam"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque lettre isolée à sa forme du début.",
+   "prompt": "Les formes du début de م ه ك ل",
+   "promptLanguage": "fr",
+   "answer": "م = مـ ; ه = هـ ; ك = كـ ; ل = لـ",
+   "acceptedAnswers": [],
+   "explanation": "La forme du début garde le dessin de la lettre, avec le trait ـ à gauche.",
+   "pairs": [
+    {
+     "left": "م",
+     "right": "مـ"
+    },
+    {
+     "left": "ه",
+     "right": "هـ"
+    },
+    {
+     "left": "ك",
+     "right": "كـ"
+    },
+    {
+     "left": "ل",
+     "right": "لـ"
+    }
+   ]
+  },
+  {
+   "id": "ar.l15.e19",
+   "type": "match",
+   "unitIds": [
+    "ar.v.sukkar",
+    "ar.v.laban",
+    "ar.v.kursi",
+    "ar.v.foul",
+    "ar.v.kitab"
+   ],
+   "difficulty": 2,
+   "instruction": "Révision : associe chaque mot à son sens.",
+   "prompt": "Mots de la leçon 14",
+   "promptLanguage": "fr",
+   "answer": "سكر = sucre ; لبن = lait ; كرسي = chaise ; فول = fèves ; كتاب = livre",
+   "acceptedAnswers": [],
+   "explanation": "Bâtons ك ل, têtes rondes ف ق : cherche d'abord le dessin, puis les points.",
+   "pairs": [
+    {
+     "left": "سكر",
+     "right": "sucre"
+    },
+    {
+     "left": "لبن",
+     "right": "lait"
+    },
+    {
+     "left": "كرسي",
+     "right": "chaise"
+    },
+    {
+     "left": "فول",
+     "right": "fèves"
+    },
+    {
+     "left": "كتاب",
+     "right": "livre"
+    }
+   ]
+  },
+  {
+   "id": "ar.l15.e20",
+   "type": "translation",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.shammas"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "شماس",
+   "promptLanguage": "ar",
+   "answer": "diacre",
+   "acceptedAnswers": [
+    "diacre",
+    "un diacre",
+    "le diacre"
+   ],
+   "explanation": "شماس = شما | س : ش (3 dents, 3 points), م (boule), ا, س. C'est le diacre, celui qui sert à l'autel.",
+   "tip": "Le ا ferme le premier bloc.",
+   "extraExample": {
+    "text": "ابني بقى شماس.",
+    "translation": "Mon fils est devenu diacre."
+   }
+  },
+  {
+   "id": "ar.l15.e21",
+   "type": "translation",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.mish"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "مش",
+   "promptLanguage": "ar",
+   "answer": "pas",
+   "acceptedAnswers": [
+    "pas",
+    "ne pas",
+    "non",
+    "ne pas être",
+    "pas du tout"
+   ],
+   "explanation": "مش = م + ش : une boule et trois dents. C'est la négation « ne… pas ».",
+   "tip": "Deux lettres attachées : un seul bloc.",
+   "extraExample": {
+    "text": "ده مش بيتي.",
+    "translation": "Ce n'est pas ma maison."
+   }
+  },
+  {
+   "id": "ar.l15.e22",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.oda"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire أوضة ?",
+   "promptLanguage": "fr",
+   "answer": "chambre",
+   "acceptedAnswers": [
+    "chambre",
+    "une chambre",
+    "la chambre",
+    "pièce",
+    "une pièce"
+   ],
+   "explanation": "أوضة = أ | و | ضة : alif, و, puis ض et ة attachés. C'est une chambre, une pièce.",
+   "tip": "3 blocs : أ | و | ضة.",
+   "extraExample": {
+    "text": "أوضتي صغيرة.",
+    "translation": "Ma chambre est petite."
+   }
+  },
+  {
+   "id": "ar.l15.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g15.forms_mim_ha",
+    "ar.v.mazmur"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire مزمور ?",
+   "promptLanguage": "fr",
+   "answer": "psaume",
+   "acceptedAnswers": [
+    "psaume",
+    "un psaume",
+    "le psaume"
+   ],
+   "explanation": "مزمور = مز | مو | ر : م, ز, م, و, ر. Trois blocs. C'est un psaume.",
+   "tip": "Deux م, séparés par un ز.",
+   "extraExample": {
+    "text": "بنقرا مزمور كل يوم.",
+    "translation": "Nous lisons un psaume chaque jour."
+   }
+  }
+ ]
+}

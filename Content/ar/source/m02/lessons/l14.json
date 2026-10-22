@@ -1,0 +1,920 @@
+{
+ "lessonId": "ar.l14",
+ "exercises": [
+  {
+   "id": "ar.l14.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.kaf"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Laquelle de ces formes est la forme de la fin de ك ?",
+   "promptLanguage": "fr",
+   "answer": "ـك",
+   "acceptedAnswers": [
+    "ـك"
+   ],
+   "explanation": "La forme de la fin s'accroche à la lettre d'avant : le trait ـ est à droite.",
+   "tip": "Fin = trait à droite.",
+   "extraExample": {
+    "text": "سكر",
+    "translation": "sucre"
+   },
+   "errorPatterns": [
+    {
+     "equals": "كـ",
+     "category": "instruction",
+     "feedback": "كـ a le trait à gauche : forme du début."
+    },
+    {
+     "equals": "ـكـ",
+     "category": "instruction",
+     "feedback": "ـكـ a un trait de chaque côté : forme du milieu."
+    },
+    {
+     "equals": "ك",
+     "category": "instruction",
+     "feedback": "ك sans trait : forme isolée."
+    }
+   ],
+   "options": [
+    "ـك",
+    "كـ",
+    "ـكـ",
+    "ك"
+   ]
+  },
+  {
+   "id": "ar.l14.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.qaf"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Quelle lettre a une tête ronde et 2 points dessus ?",
+   "promptLanguage": "fr",
+   "answer": "ق",
+   "acceptedAnswers": [
+    "ق"
+   ],
+   "explanation": "ق a une tête ronde et 2 points dessus. ف a la même tête mais 1 seul point ; ك et ل sont des bâtons.",
+   "tip": "Boule + 2 points : ق.",
+   "extraExample": {
+    "text": "قلب",
+    "translation": "cœur"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ف",
+     "category": "spelling",
+     "feedback": "ف a la même tête mais 1 seul point."
+    },
+    {
+     "equals": "ك",
+     "category": "spelling",
+     "feedback": "ك est un bâton, pas une tête ronde."
+    },
+    {
+     "equals": "ل",
+     "category": "spelling",
+     "feedback": "ل est un bâton, pas une tête ronde."
+    }
+   ],
+   "options": [
+    "ق",
+    "ف",
+    "ك",
+    "ل"
+   ]
+  },
+  {
+   "id": "ar.l14.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.sukkar"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "سكر",
+   "promptLanguage": "ar",
+   "answer": "sucre",
+   "acceptedAnswers": [
+    "sucre"
+   ],
+   "explanation": "Lettre par lettre : س (sans point), ك (sans point), ر (sans point) donne سكر, « sucre ». س + ك + ر : tout est attaché, 1 bloc.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "كوباية شاي بسكر.",
+    "translation": "Un verre de thé avec du sucre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "lait",
+     "category": "word_confusion",
+     "feedback": "« lait » s'écrit لبن (ل + ب + ن). Ici tu lis س + ك + ر : سكر veut dire « sucre »."
+    },
+    {
+     "equals": "chaise",
+     "category": "word_confusion",
+     "feedback": "« chaise » s'écrit كرسي (ك + ر + س + ي). Ici tu lis س + ك + ر : سكر veut dire « sucre »."
+    },
+    {
+     "equals": "livre",
+     "category": "word_confusion",
+     "feedback": "« livre » s'écrit كتاب (ك + ت + ا + ب). Ici tu lis س + ك + ر : سكر veut dire « sucre »."
+    }
+   ],
+   "options": [
+    "sucre",
+    "lait",
+    "chaise",
+    "livre"
+   ]
+  },
+  {
+   "id": "ar.l14.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.foul"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "فول",
+   "promptLanguage": "ar",
+   "answer": "fèves",
+   "acceptedAnswers": [
+    "fèves"
+   ],
+   "explanation": "Lettre par lettre : ف (1 point dessus), و (sans point), ل (sans point) donne فول, « fèves ». Le و ferme le premier bloc : فو | ل.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "فول وطعمية.",
+    "translation": "Du foul et des falafels (ta'amiya)."
+   },
+   "errorPatterns": [
+    {
+     "equals": "riz",
+     "category": "word_confusion",
+     "feedback": "« riz » s'écrit رز (ر + ز). Ici tu lis ف + و + ل : فول veut dire « fèves »."
+    },
+    {
+     "equals": "lait",
+     "category": "word_confusion",
+     "feedback": "« lait » s'écrit لبن (ل + ب + ن). Ici tu lis ف + و + ل : فول veut dire « fèves »."
+    },
+    {
+     "equals": "sucre",
+     "category": "word_confusion",
+     "feedback": "« sucre » s'écrit سكر (س + ك + ر). Ici tu lis ف + و + ل : فول veut dire « fèves »."
+    }
+   ],
+   "options": [
+    "fèves",
+    "riz",
+    "lait",
+    "sucre"
+   ]
+  },
+  {
+   "id": "ar.l14.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.quddas"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « liturgie » ?",
+   "promptLanguage": "fr",
+   "answer": "قداس",
+   "acceptedAnswers": [
+    "قداس"
+   ],
+   "explanation": "« liturgie » s'écrit ق + د + ا + س : قداس. قد | ا | س : 3 blocs. Le د et le ا ferment chacun un bloc.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "القداس بيبدأ بدري.",
+    "translation": "La liturgie commence tôt."
+   },
+   "errorPatterns": [
+    {
+     "equals": "قربان",
+     "category": "word_confusion",
+     "feedback": "قربان (ق + ر + ب + ا + ن) veut dire « pain d'offrande ». Pour « liturgie », il faut ق + د + ا + س : قداس."
+    },
+    {
+     "equals": "قلب",
+     "category": "word_confusion",
+     "feedback": "قلب (ق + ل + ب) veut dire « cœur ». Pour « liturgie », il faut ق + د + ا + س : قداس."
+    },
+    {
+     "equals": "كرسي",
+     "category": "word_confusion",
+     "feedback": "كرسي (ك + ر + س + ي) veut dire « chaise ». Pour « liturgie », il faut ق + د + ا + س : قداس."
+    }
+   ],
+   "options": [
+    "قداس",
+    "قربان",
+    "قلب",
+    "كرسي"
+   ]
+  },
+  {
+   "id": "ar.l14.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.injil"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « Évangile » ?",
+   "promptLanguage": "fr",
+   "answer": "إنجيل",
+   "acceptedAnswers": [
+    "إنجيل"
+   ],
+   "explanation": "« Évangile » s'écrit إ + ن + ج + ي + ل : إنجيل. Le إ (alif avec petit ء dessous) ferme le premier bloc : إ | نجيل.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "إنجيل يوحنا.",
+    "translation": "L'Évangile de Jean."
+   },
+   "errorPatterns": [
+    {
+     "equals": "صليب",
+     "category": "word_confusion",
+     "feedback": "صليب (ص + ل + ي + ب) veut dire « croix ». Pour « Évangile », il faut إ + ن + ج + ي + ل : إنجيل."
+    },
+    {
+     "equals": "كتاب",
+     "category": "word_confusion",
+     "feedback": "كتاب (ك + ت + ا + ب) veut dire « livre ». Pour « Évangile », il faut إ + ن + ج + ي + ل : إنجيل."
+    },
+    {
+     "equals": "قربان",
+     "category": "word_confusion",
+     "feedback": "قربان (ق + ر + ب + ا + ن) veut dire « pain d'offrande ». Pour « Évangile », il faut إ + ن + ج + ي + ل : إنجيل."
+    }
+   ],
+   "options": [
+    "إنجيل",
+    "صليب",
+    "كتاب",
+    "قربان"
+   ]
+  },
+  {
+   "id": "ar.l14.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.salib"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans صليب, quelle forme prend la lettre ل ?",
+   "promptLanguage": "fr",
+   "answer": "forme du milieu",
+   "acceptedAnswers": [
+    "forme du milieu"
+   ],
+   "explanation": "Dans صليب (blocs : صليب), la lettre ل : elle s'accroche des deux côtés : c'est la forme du milieu. Le ل est entre le ص et le ي : attaché des deux côtés. Il ne coupe pas le mot.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "صليب",
+    "translation": "mot"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du début",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à gauche, vers la lettre suivante : c'est la forme du début."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l14.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.quddas"
+   ],
+   "difficulty": 3,
+   "instruction": "Compte les blocs.",
+   "prompt": "Combien de blocs compte قداس ?",
+   "promptLanguage": "fr",
+   "answer": "3 blocs",
+   "acceptedAnswers": [
+    "3 blocs"
+   ],
+   "explanation": "قداس = قد | ا | س : 3 blocs. Le mot se coupe après د et après ا.",
+   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "extraExample": {
+    "text": "قداس",
+    "translation": "liturgie"
+   },
+   "errorPatterns": [
+    {
+     "equals": "1 bloc",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : قد | ا | س."
+    },
+    {
+     "equals": "2 blocs",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : قد | ا | س."
+    },
+    {
+     "equals": "4 blocs",
+     "category": "instruction",
+     "feedback": "Tu as coupé une fois de trop : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : قد | ا | س."
+    }
+   ],
+   "options": [
+    "1 bloc",
+    "2 blocs",
+    "3 blocs",
+    "4 blocs"
+   ]
+  },
+  {
+   "id": "ar.l14.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.eid"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "Lis ce mot : عيد",
+   "promptLanguage": "fr",
+   "answer": "fête",
+   "acceptedAnswers": [
+    "fête"
+   ],
+   "explanation": "Lettre par lettre : ع (sans point), ي (2 points dessous), د (sans point) donne عيد, « fête ». ع + ي + د : tout est attaché, 1 bloc.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "عيد القيامة أجمل عيد.",
+    "translation": "Pâques est la plus belle fête."
+   },
+   "errorPatterns": [
+    {
+     "equals": "pain",
+     "category": "word_confusion",
+     "feedback": "« pain » s'écrit عيش (ع + ي + ش). Ici tu lis ع + ي + د : عيد veut dire « fête »."
+    },
+    {
+     "equals": "chance",
+     "category": "word_confusion",
+     "feedback": "« chance » s'écrit حظ (ح + ظ). Ici tu lis ع + ي + د : عيد veut dire « fête »."
+    },
+    {
+     "equals": "riche",
+     "category": "word_confusion",
+     "feedback": "« riche » s'écrit غني (غ + ن + ي). Ici tu lis ع + ي + د : عيد veut dire « fête »."
+    }
+   ],
+   "options": [
+    "fête",
+    "pain",
+    "chance",
+    "riche"
+   ]
+  },
+  {
+   "id": "ar.l14.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.ghani"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « riche » ?",
+   "promptLanguage": "fr",
+   "answer": "غني",
+   "acceptedAnswers": [
+    "غني"
+   ],
+   "explanation": "« riche » s'écrit غ + ن + ي : غني. غ (1 point dessus) + ن + ي : 1 bloc.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "الغني والفقير سوا قدام ربنا.",
+    "translation": "Le riche et le pauvre sont égaux devant Dieu."
+   },
+   "errorPatterns": [
+    {
+     "equals": "عيد",
+     "category": "word_confusion",
+     "feedback": "عيد (ع + ي + د) veut dire « fête ». Pour « riche », il faut غ + ن + ي : غني."
+    },
+    {
+     "equals": "عيش",
+     "category": "word_confusion",
+     "feedback": "عيش (ع + ي + ش) veut dire « pain ». Pour « riche », il faut غ + ن + ي : غني."
+    },
+    {
+     "equals": "غدا",
+     "category": "word_confusion",
+     "feedback": "غدا (غ + د + ا) veut dire « déjeuner ». Pour « riche », il faut غ + ن + ي : غني."
+    }
+   ],
+   "options": [
+    "غني",
+    "عيد",
+    "عيش",
+    "غدا"
+   ]
+  },
+  {
+   "id": "ar.l14.e11",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.ayn"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans عايز, quelle forme prend la lettre ع ?",
+   "promptLanguage": "fr",
+   "answer": "forme du début",
+   "acceptedAnswers": [
+    "forme du début"
+   ],
+   "explanation": "Dans عايز (blocs : عا | يز), la lettre ع : elle s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ع s'attache au ا qui le suit : forme du début عـ.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "عايز",
+    "translation": "mot"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du milieu",
+     "category": "instruction",
+     "feedback": "Un trait ـ de chaque côté : c'est la forme du milieu."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l14.e12",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.yasou"
+   ],
+   "difficulty": 2,
+   "instruction": "Compte les blocs.",
+   "prompt": "Combien de blocs compte يسوع ?",
+   "promptLanguage": "fr",
+   "answer": "2 blocs",
+   "acceptedAnswers": [
+    "2 blocs"
+   ],
+   "explanation": "يسوع = يسو | ع : 2 blocs. Le mot se coupe après و.",
+   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "extraExample": {
+    "text": "يسوع",
+    "translation": "Jésus"
+   },
+   "errorPatterns": [
+    {
+     "equals": "1 bloc",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : يسو | ع."
+    },
+    {
+     "equals": "3 blocs",
+     "category": "instruction",
+     "feedback": "Tu as coupé une fois de trop : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : يسو | ع."
+    },
+    {
+     "equals": "4 blocs",
+     "category": "instruction",
+     "feedback": "Tu as coupé une fois de trop : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : يسو | ع."
+    }
+   ],
+   "options": [
+    "1 bloc",
+    "2 blocs",
+    "3 blocs",
+    "4 blocs"
+   ]
+  },
+  {
+   "id": "ar.l14.e13",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.kursi"
+   ],
+   "difficulty": 2,
+   "instruction": "Quelle lettre manque pour écrire « chaise » ?",
+   "prompt": "___ـرسـي",
+   "promptLanguage": "ar",
+   "answer": "ك",
+   "acceptedAnswers": [
+    "ك"
+   ],
+   "explanation": "كرسي commence par ك : un bâton court avec un petit trait penché. ل serait un bâton lisse.",
+   "tip": "Petit trait penché dans le bâton : ك.",
+   "extraExample": {
+    "text": "اقعد على الكرسي.",
+    "translation": "Assieds-toi sur la chaise."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ل",
+     "category": "spelling",
+     "feedback": "ل est un bâton lisse, sans trait penché."
+    }
+   ],
+   "options": [
+    "ك",
+    "ل",
+    "ق",
+    "ف"
+   ]
+  },
+  {
+   "id": "ar.l14.e14",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.qalb"
+   ],
+   "difficulty": 3,
+   "instruction": "Quelle lettre manque pour écrire « cœur » ?",
+   "prompt": "___ـلـب",
+   "promptLanguage": "ar",
+   "answer": "ق",
+   "acceptedAnswers": [
+    "ق"
+   ],
+   "explanation": "قلب commence par ق : une boule et 2 points dessus. ف n'a qu'un point.",
+   "tip": "2 points dessus : ق.",
+   "extraExample": {
+    "text": "بحبك من قلبي.",
+    "translation": "Je t'aime de tout mon cœur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ف",
+     "category": "spelling",
+     "feedback": "ف n'a qu'un point dessus ; il en faut deux."
+    },
+    {
+     "equals": "ك",
+     "category": "spelling",
+     "feedback": "ك est un bâton, pas une boule."
+    }
+   ],
+   "options": [
+    "ق",
+    "ف",
+    "ك"
+   ]
+  },
+  {
+   "id": "ar.l14.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.laban"
+   ],
+   "difficulty": 3,
+   "instruction": "Quelle lettre manque pour écrire « lait » ?",
+   "prompt": "___ـبـن",
+   "promptLanguage": "ar",
+   "answer": "ل",
+   "acceptedAnswers": [
+    "ل"
+   ],
+   "explanation": "لبن commence par ل : un bâton qui s'attache au ب qui suit. Le ا, lui, couperait le mot après lui.",
+   "tip": "ل s'attache, ا coupe.",
+   "extraExample": {
+    "text": "اللبن في التلاجة.",
+    "translation": "Le lait est dans le frigo."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "instruction",
+     "feedback": "ا ne s'attache pas au ب qui suit : le mot se couperait."
+    },
+    {
+     "equals": "ك",
+     "category": "spelling",
+     "feedback": "ك a un petit trait penché ; ici le bâton est lisse."
+    }
+   ],
+   "options": [
+    "ل",
+    "ا",
+    "ك"
+   ]
+  },
+  {
+   "id": "ar.l14.e16",
+   "type": "match",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.sukkar",
+    "ar.v.laban",
+    "ar.v.kursi",
+    "ar.v.foul",
+    "ar.v.kitab"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots de la maison",
+   "promptLanguage": "fr",
+   "answer": "سكر = sucre ; لبن = lait ; كرسي = chaise ; فول = fèves ; كتاب = livre",
+   "acceptedAnswers": [],
+   "explanation": "Cherche les bâtons ك ل et les têtes rondes ف ق, puis le sens te revient.",
+   "pairs": [
+    {
+     "left": "سكر",
+     "right": "sucre"
+    },
+    {
+     "left": "لبن",
+     "right": "lait"
+    },
+    {
+     "left": "كرسي",
+     "right": "chaise"
+    },
+    {
+     "left": "فول",
+     "right": "fèves"
+    },
+    {
+     "left": "كتاب",
+     "right": "livre"
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e17",
+   "type": "match",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.quddas",
+    "ar.v.qurban",
+    "ar.v.salib",
+    "ar.v.injil",
+    "ar.v.qalb"
+   ],
+   "difficulty": 3,
+   "instruction": "Associe chaque mot d'église à son sens.",
+   "prompt": "Mots d'église",
+   "promptLanguage": "fr",
+   "answer": "قداس = liturgie ; قربان = pain d'offrande ; صليب = croix ; إنجيل = Évangile ; قلب = cœur",
+   "acceptedAnswers": [],
+   "explanation": "Ce sont des mots que tu entends à l'église : ici tu apprends à les lire.",
+   "pairs": [
+    {
+     "left": "قداس",
+     "right": "liturgie"
+    },
+    {
+     "left": "قربان",
+     "right": "pain d'offrande"
+    },
+    {
+     "left": "صليب",
+     "right": "croix"
+    },
+    {
+     "left": "إنجيل",
+     "right": "Évangile"
+    },
+    {
+     "left": "قلب",
+     "right": "cœur"
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e18",
+   "type": "match",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.fa",
+    "ar.v.qaf",
+    "ar.v.kaf",
+    "ar.v.lam"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque lettre isolée à sa forme du début.",
+   "prompt": "Les formes du début de ف ق ك ل",
+   "promptLanguage": "fr",
+   "answer": "ف = فـ ; ق = قـ ; ك = كـ ; ل = لـ",
+   "acceptedAnswers": [],
+   "explanation": "La forme du début garde le dessin et les points, avec le trait ـ à gauche.",
+   "pairs": [
+    {
+     "left": "ف",
+     "right": "فـ"
+    },
+    {
+     "left": "ق",
+     "right": "قـ"
+    },
+    {
+     "left": "ك",
+     "right": "كـ"
+    },
+    {
+     "left": "ل",
+     "right": "لـ"
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e19",
+   "type": "match",
+   "unitIds": [
+    "ar.v.ghada",
+    "ar.v.tayr",
+    "ar.v.hazz",
+    "ar.v.jaan",
+    "ar.v.tayyib"
+   ],
+   "difficulty": 2,
+   "instruction": "Révision : associe chaque mot à son sens.",
+   "prompt": "Mots de la leçon 13",
+   "promptLanguage": "fr",
+   "answer": "غدا = déjeuner ; طير = oiseau ; حظ = chance ; جعان = affamé ; طيب = bon",
+   "acceptedAnswers": [],
+   "explanation": "Cherche la tête ع/غ, la boucle ط/ظ et les points dessus.",
+   "pairs": [
+    {
+     "left": "غدا",
+     "right": "déjeuner"
+    },
+    {
+     "left": "طير",
+     "right": "oiseau"
+    },
+    {
+     "left": "حظ",
+     "right": "chance"
+    },
+    {
+     "left": "جعان",
+     "right": "affamé"
+    },
+    {
+     "left": "طيب",
+     "right": "bon"
+    }
+   ]
+  },
+  {
+   "id": "ar.l14.e20",
+   "type": "translation",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.qurban"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "قربان",
+   "promptLanguage": "ar",
+   "answer": "pain d'offrande",
+   "acceptedAnswers": [
+    "pain d'offrande",
+    "pain de l'offrande",
+    "le pain d'offrande",
+    "offrande",
+    "l'offrande",
+    "communion"
+   ],
+   "explanation": "قربان = قر | با | ن : ق (2 points dessus), ر, ب, ا, ن. C'est le pain de l'offrande de la liturgie.",
+   "tip": "قر + با + ن : 3 blocs.",
+   "extraExample": {
+    "text": "الشعب بيتناول القربان.",
+    "translation": "Les fidèles reçoivent la communion."
+   }
+  },
+  {
+   "id": "ar.l14.e21",
+   "type": "translation",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.kitab"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "كتاب",
+   "promptLanguage": "ar",
+   "answer": "livre",
+   "acceptedAnswers": [
+    "livre",
+    "un livre",
+    "le livre"
+   ],
+   "explanation": "كتاب = كتا | ب : ك, ت, ا, ب. Le ا ferme le premier bloc. C'est un livre.",
+   "tip": "Le ا coupe le mot après ت.",
+   "extraExample": {
+    "text": "ده كتاب حلو.",
+    "translation": "C'est un beau livre."
+   }
+  },
+  {
+   "id": "ar.l14.e22",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.quddas"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire قداس ?",
+   "promptLanguage": "fr",
+   "answer": "liturgie",
+   "acceptedAnswers": [
+    "liturgie",
+    "la liturgie",
+    "une liturgie",
+    "messe",
+    "la messe"
+   ],
+   "explanation": "قداس = قد | ا | س : ق (2 points dessus), د, ا, س. C'est la liturgie, la grande prière du dimanche.",
+   "tip": "3 blocs : قد | ا | س.",
+   "extraExample": {
+    "text": "رحنا القداس يوم الأحد.",
+    "translation": "Nous sommes allés à la liturgie dimanche."
+   }
+  },
+  {
+   "id": "ar.l14.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g14.forms_fa_lam",
+    "ar.v.laban"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire لبن ?",
+   "promptLanguage": "fr",
+   "answer": "lait",
+   "acceptedAnswers": [
+    "lait",
+    "du lait",
+    "le lait"
+   ],
+   "explanation": "لبن = ل + ب + ن : un bâton, puis deux lettres à dents. Tout est attaché : c'est le lait.",
+   "tip": "Le bâton ل s'attache : un seul bloc.",
+   "extraExample": {
+    "text": "عايز كوباية لبن.",
+    "translation": "Je voudrais un verre de lait."
+   },
+   "errorPatterns": [
+    {
+     "equals": "sucre",
+     "category": "word_confusion",
+     "feedback": "سكر (sucre) commence par س, trois dents."
+    }
+   ]
+  }
+ ]
+}

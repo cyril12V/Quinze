@@ -1,0 +1,646 @@
+{
+  "lessonId": "ar.l07",
+  "exercises": [
+    {
+      "id": "ar.l07.e01",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.fa"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son f, comme dans feu ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ف",
+        "ب",
+        "ن",
+        "ق"
+      ],
+      "answer": "ف",
+      "acceptedAnswers": [
+        "ف"
+      ],
+      "explanation": "ف se lit comme le f de feu : une tête ronde avec 1 point dessus, le petit fantôme.",
+      "tip": "Une tête ronde avec un point dessus.",
+      "extraExample": {
+        "text": "ف",
+        "translation": "fâ : le f de feu, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ق",
+          "category": "word_confusion",
+          "feedback": "ق a 2 points et se dit comme un coup de gorge au Caire."
+        }
+      ]
+    },
+    {
+      "id": "ar.l07.e02",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.kaf"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son k, comme dans kilo ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ل",
+        "ك",
+        "ن",
+        "ا"
+      ],
+      "answer": "ك",
+      "acceptedAnswers": [
+        "ك"
+      ],
+      "explanation": "ك se lit comme le k de kilo : un grand trait avec un petit zigzag dans l'angle.",
+      "tip": "Un grand trait avec un petit zigzag dans l'angle.",
+      "extraExample": {
+        "text": "ك",
+        "translation": "kâf : le k de kilo, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ل",
+          "category": "word_confusion",
+          "feedback": "ل fait l, comme lune : un bâton avec un pied."
+        }
+      ]
+    },
+    {
+      "id": "ar.l07.e03",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.fa",
+        "ar.v.qaf",
+        "ar.v.kaf",
+        "ar.v.lam"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ف, ق, ك et ل à leur nom.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ف",
+          "right": "fâ"
+        },
+        {
+          "left": "ق",
+          "right": "qâf"
+        },
+        {
+          "left": "ك",
+          "right": "kâf"
+        },
+        {
+          "left": "ل",
+          "right": "lâm"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "fâ pour f, kâf pour k, lâm pour l. Le nom de ق est qâf : on le dit presque comme un coup de gorge au Caire."
+    },
+    {
+      "id": "ar.l07.e04",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.fa"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est une tête ronde avec 1 point dessus ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ف",
+        "ن",
+        "ك",
+        "ق"
+      ],
+      "answer": "ف",
+      "acceptedAnswers": [
+        "ف"
+      ],
+      "explanation": "ف est la tête ronde à un point. ق en a deux, et ن est un bol, pas une tête ronde.",
+      "tip": "Une tête ronde avec un point dessus.",
+      "extraExample": {
+        "text": "ف",
+        "translation": "fâ : le f de feu, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "ن a 1 point dessus, mais c'est un bol creux, pas une tête ronde."
+        }
+      ]
+    },
+    {
+      "id": "ar.l07.e05",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.qaf"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre a une tête ronde, 2 points dessus et une queue profonde ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ن",
+        "ف",
+        "ت",
+        "ق"
+      ],
+      "answer": "ق",
+      "acceptedAnswers": [
+        "ق"
+      ],
+      "explanation": "ق a 2 points dessus et une queue qui plonge. ت a aussi 2 points dessus, mais c'est une barque plate.",
+      "tip": "Une tête ronde, deux points et une queue profonde.",
+      "extraExample": {
+        "text": "ق",
+        "translation": "qâf : un coup de gorge, 2 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "ت a bien 2 points dessus, mais c'est une barque plate."
+        }
+      ]
+    },
+    {
+      "id": "ar.l07.e06",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.lam"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un bâton avec un pied courbé, comme un L dans un miroir ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ل",
+        "ك",
+        "ر",
+        "ا"
+      ],
+      "answer": "ل",
+      "acceptedAnswers": [
+        "ل"
+      ],
+      "explanation": "ل est un bâton avec un pied. ا est un bâton nu, sans pied.",
+      "tip": "Un L dans un miroir : un bâton avec un pied.",
+      "extraExample": {
+        "text": "ل",
+        "translation": "lâm : le l de lune, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ا",
+          "category": "word_confusion",
+          "feedback": "ا est un bâton sans pied."
+        }
+      ]
+    },
+    {
+      "id": "ar.l07.e07",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.kaf"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un grand trait avec un petit zigzag dans l'angle, sans point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ل",
+        "ك",
+        "ف",
+        "ا"
+      ],
+      "answer": "ك",
+      "acceptedAnswers": [
+        "ك"
+      ],
+      "explanation": "ك a un zigzag dans l'angle, mais aucun point. Le zigzag fait partie de la lettre.",
+      "tip": "Un grand trait avec un petit zigzag dans l'angle.",
+      "extraExample": {
+        "text": "ك",
+        "translation": "kâf : le k de kilo, aucun point."
+      }
+    },
+    {
+      "id": "ar.l07.e08",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.qaf"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon nombre.",
+      "prompt": "ق a ___ points dessus, et une queue profonde.",
+      "promptLanguage": "fr",
+      "options": [
+        "3",
+        "2",
+        "1"
+      ],
+      "answer": "2",
+      "acceptedAnswers": [
+        "2"
+      ],
+      "explanation": "ق a 2 points dessus. Avec 1 point dessus et une queue courte, ce serait ف.",
+      "tip": "Une tête ronde, deux points et une queue profonde.",
+      "extraExample": {
+        "text": "ق",
+        "translation": "qâf : un coup de gorge, 2 points dessus."
+      }
+    },
+    {
+      "id": "ar.l07.e09",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.fa",
+        "ar.v.qaf"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "ف a 1 point dessus et une queue ___ ; ق a une queue profonde.",
+      "promptLanguage": "fr",
+      "options": [
+        "cassée",
+        "profonde",
+        "courte"
+      ],
+      "answer": "courte",
+      "acceptedAnswers": [
+        "courte"
+      ],
+      "explanation": "La queue de ف est courte, celle de ق plonge sous la ligne : deux indices pour les distinguer.",
+      "tip": "Une tête ronde avec un point dessus.",
+      "extraExample": {
+        "text": "ف",
+        "translation": "fâ : le f de feu, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l07.e10",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.lam",
+        "ar.v.alif"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "ل est un bâton avec un ___ courbé : un L vu dans un miroir.",
+      "promptLanguage": "fr",
+      "options": [
+        "point",
+        "chapeau",
+        "pied"
+      ],
+      "answer": "pied",
+      "acceptedAnswers": [
+        "pied"
+      ],
+      "explanation": "ل a un pied courbé. ا est un bâton sans pied, et aucune des deux n'a de point.",
+      "tip": "Un L dans un miroir : un bâton avec un pied.",
+      "extraExample": {
+        "text": "ل",
+        "translation": "lâm : le l de lune, aucun point."
+      }
+    },
+    {
+      "id": "ar.l07.e11",
+      "unitIds": [
+        "ar.v.ta",
+        "ar.g07.letters7"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Parmi ces lettres, laquelle a 2 points dessus sur une barque plate ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ن",
+        "ت",
+        "ف",
+        "ق"
+      ],
+      "answer": "ت",
+      "acceptedAnswers": [
+        "ت"
+      ],
+      "explanation": "ت a 2 points dessus et un corps de barque plate. ق a aussi 2 points dessus, mais une tête ronde et une queue profonde.",
+      "tip": "Deux mouettes sur la barque.",
+      "extraExample": {
+        "text": "ت",
+        "translation": "tâ : le t de table, 2 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ق",
+          "category": "word_confusion",
+          "feedback": "ق a bien 2 points dessus, mais sa tête est ronde et sa queue profonde."
+        }
+      ]
+    },
+    {
+      "id": "ar.l07.e12",
+      "unitIds": [
+        "ar.v.zah",
+        "ar.g07.letters7"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un z lourd ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ط",
+        "ز",
+        "ظ",
+        "ض"
+      ],
+      "answer": "ظ",
+      "acceptedAnswers": [
+        "ظ"
+      ],
+      "explanation": "ظ est le z lourd : un mât et 1 point dessus. ز est le z léger de zèbre.",
+      "tip": "Le drapeau avec un point.",
+      "extraExample": {
+        "text": "ظ",
+        "translation": "ẓâ : un z lourd, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ز",
+          "category": "word_confusion",
+          "feedback": "ز est le z léger, sans boucle ni mât."
+        }
+      ]
+    },
+    {
+      "id": "ar.l07.e13",
+      "unitIds": [
+        "ar.v.tah",
+        "ar.g07.letters7"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un t lourd, boucle fermée avec un mât ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ط",
+        "ت",
+        "ص",
+        "ظ"
+      ],
+      "answer": "ط",
+      "acceptedAnswers": [
+        "ط"
+      ],
+      "explanation": "ط est le t lourd : une boucle avec un mât, sans point. ت est le t léger.",
+      "tip": "Une boucle avec un mât : un drapeau.",
+      "extraExample": {
+        "text": "ط",
+        "translation": "ṭâ : un t lourd, aucun point."
+      }
+    },
+    {
+      "id": "ar.l07.e14",
+      "unitIds": [
+        "ar.v.ghayn",
+        "ar.g07.letters7"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "Quel son fait la lettre غ ?",
+      "promptLanguage": "fr",
+      "options": [
+        "un son de gorge serrée",
+        "un r roulé",
+        "le ch allemand de Bach",
+        "le r de rouge"
+      ],
+      "answer": "le r de rouge",
+      "acceptedAnswers": [
+        "le r de rouge"
+      ],
+      "explanation": "غ se lit comme le r de rouge, le r du fond de la gorge. Le r roulé, c'est ر.",
+      "tip": "L'œil avec une larme dessus.",
+      "extraExample": {
+        "text": "غ",
+        "translation": "ghaïn : le r de rouge, 1 point dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "un r roulé",
+          "category": "word_confusion",
+          "feedback": "Le r roulé, c'est ر. غ est le r de rouge."
+        }
+      ]
+    },
+    {
+      "id": "ar.l07.e15",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.qaf"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "Au Caire, comment dit-on le plus souvent la lettre ق ?",
+      "promptLanguage": "fr",
+      "options": [
+        "un coup de gorge",
+        "le r de rouge",
+        "le k de kilo",
+        "le f de feu"
+      ],
+      "answer": "un coup de gorge",
+      "acceptedAnswers": [
+        "un coup de gorge"
+      ],
+      "explanation": "Au Caire, ق se dit comme un coup de gorge, un petit arrêt dans la voix. Le vrai k, c'est ك.",
+      "tip": "Écoute-toi dire le mot « stylo » en égyptien : le premier son, c'est ق.",
+      "extraExample": {
+        "text": "ق",
+        "translation": "qâf : un coup de gorge, 2 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "le k de kilo",
+          "category": "word_confusion",
+          "feedback": "Le k de kilo, c'est ك. Au Caire, ق est un coup de gorge."
+        }
+      ]
+    },
+    {
+      "id": "ar.l07.e16",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.fa",
+        "ar.v.qaf",
+        "ar.v.kaf",
+        "ar.v.lam"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ف, ق, ك et ل à leur son.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ف",
+          "right": "le f de feu"
+        },
+        {
+          "left": "ق",
+          "right": "un coup de gorge"
+        },
+        {
+          "left": "ك",
+          "right": "le k de kilo"
+        },
+        {
+          "left": "ل",
+          "right": "le l de lune"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "f, coup de gorge, k, l : quatre sons très différents pour quatre dessins très différents."
+    },
+    {
+      "id": "ar.l07.e17",
+      "unitIds": [
+        "ar.v.ayn",
+        "ar.v.ghayn",
+        "ar.v.tah",
+        "ar.v.zah",
+        "ar.g07.letters7"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ع, غ, ط et ظ à leur forme.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ع",
+          "right": "un œil de profil"
+        },
+        {
+          "left": "غ",
+          "right": "un œil avec une larme"
+        },
+        {
+          "left": "ط",
+          "right": "une boucle avec un mât"
+        },
+        {
+          "left": "ظ",
+          "right": "un mât et 1 point dessus"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "ع et غ sont des yeux (غ pleure), ط et ظ sont des boucles à mât (ظ a un point)."
+    },
+    {
+      "id": "ar.l07.e18",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.nun",
+        "ar.v.fa",
+        "ar.v.ta",
+        "ar.v.qaf"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie ن, ف, ت et ق à leur forme.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ن",
+          "right": "un bol, 1 point dessus"
+        },
+        {
+          "left": "ف",
+          "right": "une tête ronde, 1 point dessus"
+        },
+        {
+          "left": "ت",
+          "right": "une barque, 2 points dessus"
+        },
+        {
+          "left": "ق",
+          "right": "une tête ronde, 2 points dessus"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Nombre de points et forme du corps : les deux indices ensemble t'évitent les confusions."
+    },
+    {
+      "id": "ar.l07.e19",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.fa"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris le nombre.",
+      "prompt": "Combien de points a la lettre ف ? Réponds avec un chiffre.",
+      "promptLanguage": "fr",
+      "answer": "1",
+      "acceptedAnswers": [
+        "1",
+        "un"
+      ],
+      "explanation": "ف a 1 point dessus, et une queue courte. ق en a 2.",
+      "tip": "Une tête ronde avec un point dessus.",
+      "extraExample": {
+        "text": "ف",
+        "translation": "fâ : le f de feu, 1 point dessus."
+      }
+    },
+    {
+      "id": "ar.l07.e20",
+      "unitIds": [
+        "ar.g07.letters7",
+        "ar.v.lam"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris le nom de la lettre.",
+      "prompt": "Comment s'appelle la lettre qui fait le son l, comme dans lune ?",
+      "promptLanguage": "fr",
+      "answer": "lâm",
+      "acceptedAnswers": [
+        "lâm",
+        "lam",
+        "laam"
+      ],
+      "explanation": "ل s'appelle lâm : son nom commence par son son, l.",
+      "tip": "Un L dans un miroir : un bâton avec un pied.",
+      "extraExample": {
+        "text": "ل",
+        "translation": "lâm : le l de lune, aucun point."
+      }
+    }
+  ]
+}

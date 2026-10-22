@@ -1,0 +1,1078 @@
+{
+ "lessonId": "en.l90",
+ "exercises": [
+  {
+   "id": "en.l90.e01",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.applicant"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne expression de quantité.",
+   "prompt": "We have ___ applicants for the job, so we can start the interviews.",
+   "promptLanguage": "en",
+   "options": [
+    "a few",
+    "a little",
+    "little",
+    "much"
+   ],
+   "answer": "a few",
+   "acceptedAnswers": [
+    "a few"
+   ],
+   "hint": "Applicants est au pluriel : il se compte.",
+   "explanation": "A few (quelques) s'emploie devant un nom pluriel dénombrable : a few applicants. Le sens est positif : il y en a assez pour commencer.",
+   "tip": "a few + pluriel ; a little + indénombrable.",
+   "extraExample": {
+    "text": "I have a few ideas for the project.",
+    "translation": "J'ai quelques idées pour le projet."
+   },
+   "errorPatterns": [
+    {
+     "equals": "a little",
+     "category": "grammar",
+     "feedback": "A little s'emploie avec un nom indénombrable (a little time). Applicants se compte : a few."
+    },
+    {
+     "equals": "little",
+     "category": "grammar",
+     "feedback": "Little s'emploie avec un indénombrable, et son sens est négatif. Applicants se compte : a few."
+    },
+    {
+     "equals": "much",
+     "category": "grammar",
+     "feedback": "Much s'emploie avec un indénombrable, surtout dans les questions et les négations. Applicants se compte : a few ou many."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e02",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.staff",
+    "en.v.applicant",
+    "en.v.feedback",
+    "en.v.survey",
+    "en.v.equipment"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Le vocabulaire du travail en équipe",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "staff",
+     "right": "personnel, équipe"
+    },
+    {
+     "left": "applicant",
+     "right": "candidat (à un poste)"
+    },
+    {
+     "left": "feedback",
+     "right": "retours, avis"
+    },
+    {
+     "left": "survey",
+     "right": "enquête, sondage"
+    },
+    {
+     "left": "equipment",
+     "right": "matériel, équipement"
+    }
+   ],
+   "answer": "staff = personnel, équipe ; applicant = candidat (à un poste) ; feedback = retours, avis ; survey = enquête, sondage ; equipment = matériel, équipement",
+   "acceptedAnswers": [],
+   "explanation": "Staff, feedback et equipment sont indénombrables : jamais de -s, jamais a(n). Applicant et survey sont dénombrables : applicants, surveys.",
+   "tip": "Staff, feedback, equipment : pas de -s.",
+   "extraExample": {
+    "text": "The staff gave us useful feedback.",
+    "translation": "Le personnel nous a donné des retours utiles."
+   }
+  },
+  {
+   "id": "en.l90.e03",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.information"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne expression de quantité.",
+   "prompt": "I need ___ information about the product before I decide.",
+   "promptLanguage": "en",
+   "options": [
+    "a little",
+    "a few",
+    "many",
+    "several"
+   ],
+   "answer": "a little",
+   "acceptedAnswers": [
+    "a little"
+   ],
+   "hint": "Information est indénombrable.",
+   "explanation": "Information est indénombrable : on dit a little information, jamais a few informations. Many et several demandent un pluriel dénombrable.",
+   "tip": "Information : jamais de -s ; a little, much, some, any.",
+   "extraExample": {
+    "text": "Can I have a little more time?",
+    "translation": "Puis-je avoir un peu plus de temps ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "a few",
+     "category": "grammar",
+     "feedback": "Information est indénombrable (jamais informations) : a little information."
+    },
+    {
+     "equals": "many",
+     "category": "grammar",
+     "feedback": "Many s'emploie avec un pluriel dénombrable. Information est indénombrable : a little, much, some."
+    },
+    {
+     "equals": "several",
+     "category": "grammar",
+     "feedback": "Several s'emploie avec un pluriel dénombrable. Information est indénombrable : a little, some."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e04",
+   "unitIds": [
+    "en.g28.there_is_are",
+    "en.v.equipment"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne forme.",
+   "prompt": "There ___ plenty of equipment in the storeroom.",
+   "promptLanguage": "en",
+   "options": [
+    "is",
+    "are",
+    "have",
+    "has"
+   ],
+   "answer": "is",
+   "acceptedAnswers": [
+    "is"
+   ],
+   "hint": "Equipment est indénombrable : singulier.",
+   "explanation": "Equipment est indénombrable, donc singulier : there is plenty of equipment. Plenty of s'emploie avec les deux types de noms, mais le verbe s'accorde avec le nom qui suit.",
+   "tip": "Nom indénombrable → there is.",
+   "extraExample": {
+    "text": "There is plenty of time before the deadline.",
+    "translation": "Il y a largement le temps avant l'échéance."
+   },
+   "errorPatterns": [
+    {
+     "equals": "are",
+     "category": "conjugation",
+     "feedback": "Equipment est indénombrable (jamais equipments) : il se construit au singulier, there is."
+    },
+    {
+     "equals": "have",
+     "category": "grammar",
+     "feedback": "There + be pour dire « il y a » : there is. Have n'est pas utilisé ici."
+    },
+    {
+     "equals": "has",
+     "category": "grammar",
+     "feedback": "There + be pour dire « il y a » : there is. Has n'est pas utilisé ici."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e05",
+   "unitIds": [
+    "en.g29.some_any",
+    "en.v.feedback"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "We haven't received ___ feedback yet.",
+   "promptLanguage": "en",
+   "options": [
+    "any",
+    "some",
+    "a few",
+    "many"
+   ],
+   "answer": "any",
+   "acceptedAnswers": [
+    "any"
+   ],
+   "hint": "La phrase est négative.",
+   "explanation": "Dans une phrase négative, on utilise any (et non some) : we haven't received any feedback. Feedback est indénombrable, donc pas de a few ni de many.",
+   "tip": "Négation → any. Feedback : indénombrable.",
+   "extraExample": {
+    "text": "I haven't got any information about it.",
+    "translation": "Je n'ai aucune information à ce sujet."
+   },
+   "errorPatterns": [
+    {
+     "equals": "some",
+     "category": "grammar",
+     "feedback": "Some s'emploie plutôt dans les phrases affirmatives. Dans une négation, on utilise any."
+    },
+    {
+     "equals": "a few",
+     "category": "grammar",
+     "feedback": "A few demande un pluriel dénombrable. Feedback est indénombrable ; dans une négation, on dit any."
+    },
+    {
+     "equals": "many",
+     "category": "grammar",
+     "feedback": "Many demande un pluriel dénombrable. Feedback est indénombrable ; dans une négation, on dit any."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e06",
+   "unitIds": [
+    "en.g30.how_much_many",
+    "en.v.information"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "How ___ information do we have about the new client?",
+   "promptLanguage": "en",
+   "options": [
+    "much",
+    "many",
+    "few",
+    "a few"
+   ],
+   "answer": "much",
+   "acceptedAnswers": [
+    "much"
+   ],
+   "hint": "Information est indénombrable.",
+   "explanation": "How much s'emploie avec un nom indénombrable (information), How many avec un pluriel dénombrable (applicants). Information ne prend jamais de -s.",
+   "tip": "How much + indénombrable ; how many + pluriel.",
+   "extraExample": {
+    "text": "How many applicants have you interviewed?",
+    "translation": "Combien de candidats avez-vous reçus en entretien ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "many",
+     "category": "grammar",
+     "feedback": "How many demande un pluriel dénombrable. Information est indénombrable : how much."
+    },
+    {
+     "equals": "few",
+     "category": "grammar",
+     "feedback": "Few ne s'emploie pas dans une question How. Information est indénombrable : how much."
+    },
+    {
+     "equals": "a few",
+     "category": "grammar",
+     "feedback": "A few ne s'emploie pas après How. Information est indénombrable : how much."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e07",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.applicant"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne expression de quantité.",
+   "prompt": "Very ___ applicants had the right experience, so we are advertising again.",
+   "promptLanguage": "en",
+   "options": [
+    "few",
+    "a few",
+    "a little",
+    "little"
+   ],
+   "answer": "few",
+   "acceptedAnswers": [
+    "few"
+   ],
+   "hint": "Very va avec la forme sans a.",
+   "explanation": "Very few (très peu) a un sens négatif. Applicants est dénombrable, donc few ; little s'emploie avec un indénombrable. On ne dit pas very a few.",
+   "tip": "very few, very little : jamais very a few.",
+   "extraExample": {
+    "text": "Very few people came to the meeting.",
+    "translation": "Très peu de gens sont venus à la réunion."
+   },
+   "errorPatterns": [
+    {
+     "equals": "a few",
+     "category": "grammar",
+     "feedback": "Very a few n'existe pas : very va avec few. D'ailleurs, a few a un sens positif."
+    },
+    {
+     "equals": "a little",
+     "category": "grammar",
+     "feedback": "A little s'emploie avec un indénombrable. Applicants se compte : very few."
+    },
+    {
+     "equals": "little",
+     "category": "grammar",
+     "feedback": "Little s'emploie avec un indénombrable. Applicants se compte : very few."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e08",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.feedback"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la bonne expression de quantité.",
+   "prompt": "Could I have ___ feedback on my report before Friday?",
+   "promptLanguage": "en",
+   "options": [
+    "a little",
+    "a few",
+    "little",
+    "few"
+   ],
+   "answer": "a little",
+   "acceptedAnswers": [
+    "a little"
+   ],
+   "hint": "Une demande polie : on veut un peu de feedback.",
+   "explanation": "Feedback est indénombrable : a little (un peu de). Dans une demande polie, on veut quelque chose, donc le sens positif a little. Sans a, little voudrait dire « presque pas ».",
+   "tip": "a little = un peu (positif) ; little = presque pas.",
+   "extraExample": {
+    "text": "Could I have a little more time?",
+    "translation": "Puis-je avoir un peu plus de temps ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "a few",
+     "category": "grammar",
+     "feedback": "Feedback est indénombrable (jamais feedbacks) : a little feedback."
+    },
+    {
+     "equals": "little",
+     "category": "word_confusion",
+     "feedback": "Sans a, little a un sens négatif (presque pas). Dans une demande polie, on veut un peu : a little."
+    },
+    {
+     "equals": "few",
+     "category": "grammar",
+     "feedback": "Few demande un pluriel dénombrable. Feedback est indénombrable : a little."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e09",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.equipment"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la phrase correcte.",
+   "prompt": "Which sentence about the office is correct?",
+   "promptLanguage": "en",
+   "options": [
+    "We need some new equipment.",
+    "We need some new equipments.",
+    "We need a new equipment.",
+    "We need many new equipment."
+   ],
+   "answer": "We need some new equipment.",
+   "acceptedAnswers": [
+    "We need some new equipment."
+   ],
+   "hint": "Equipment est indénombrable.",
+   "explanation": "Equipment est indénombrable : pas de -s, pas de a(n), pas de many. On dit some equipment, a piece of equipment, a lot of equipment.",
+   "tip": "Pour en compter un seul : a piece of equipment.",
+   "extraExample": {
+    "text": "This is a very expensive piece of equipment.",
+    "translation": "C'est un matériel très cher."
+   },
+   "errorPatterns": [
+    {
+     "equals": "We need some new equipments.",
+     "category": "grammar",
+     "feedback": "Equipment est indénombrable : jamais de -s."
+    },
+    {
+     "equals": "We need a new equipment.",
+     "category": "grammar",
+     "feedback": "Equipment est indénombrable : pas de a(n). Pour un seul, on dit a piece of equipment."
+    },
+    {
+     "equals": "We need many new equipment.",
+     "category": "grammar",
+     "feedback": "Many demande un pluriel dénombrable. Avec equipment, on dit some, a lot of, much."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e10",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.applicant"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec l'expression qui convient.",
+   "prompt": "There were ___ applicants for the job, so we are advertising again.",
+   "promptLanguage": "en",
+   "options": [
+    "hardly any",
+    "hardly",
+    "almost",
+    "nearly any"
+   ],
+   "answer": "hardly any",
+   "acceptedAnswers": [
+    "hardly any"
+   ],
+   "hint": "« Presque aucun candidat. »",
+   "explanation": "Hardly any (presque aucun) se place devant un nom. Il est déjà négatif : pas besoin de not. Hardly seul ne s'emploie pas devant un nom.",
+   "tip": "hardly any + nom = presque aucun.",
+   "extraExample": {
+    "text": "There is hardly any traffic at this time.",
+    "translation": "Il n'y a presque pas de circulation à cette heure."
+   },
+   "errorPatterns": [
+    {
+     "equals": "hardly",
+     "category": "grammar",
+     "feedback": "Hardly seul ne se place pas devant un nom : hardly any applicants."
+    },
+    {
+     "equals": "almost",
+     "category": "grammar",
+     "feedback": "Almost any n'a pas ce sens. Pour « presque aucun », on dit hardly any."
+    },
+    {
+     "equals": "nearly any",
+     "category": "grammar",
+     "feedback": "Nearly any n'existe pas dans ce sens. Pour « presque aucun », on dit hardly any."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e11",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.available",
+    "en.v.opportunity"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec l'expression qui convient.",
+   "prompt": "Don't worry, there are ___ opportunities available for young graduates in this sector.",
+   "promptLanguage": "en",
+   "options": [
+    "plenty of",
+    "hardly any",
+    "few",
+    "a little"
+   ],
+   "answer": "plenty of",
+   "acceptedAnswers": [
+    "plenty of"
+   ],
+   "hint": "Don't worry : il y en a largement assez.",
+   "explanation": "Plenty of (largement assez de) rassure : there are plenty of opportunities. Hardly any et few diraient qu'il y en a presque plus ; a little ne s'emploie pas avec des opportunités qu'on compte.",
+   "tip": "plenty of = plus qu'il n'en faut.",
+   "extraExample": {
+    "text": "We have plenty of time before the deadline.",
+    "translation": "Nous avons largement le temps avant la date limite."
+   },
+   "errorPatterns": [
+    {
+     "equals": "hardly any",
+     "category": "word_confusion",
+     "feedback": "Hardly any dirait qu'il n'y en a presque plus, ce qui contredit Don't worry."
+    },
+    {
+     "equals": "few",
+     "category": "word_confusion",
+     "feedback": "Few dirait qu'il y en a trop peu, ce qui contredit Don't worry."
+    },
+    {
+     "equals": "a little",
+     "category": "grammar",
+     "feedback": "A little s'emploie avec un indénombrable. Opportunities se compte."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e12",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.staff"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec l'expression qui convient.",
+   "prompt": "___ the staff left before six o'clock, but a few stayed to finish the report.",
+   "promptLanguage": "en",
+   "options": [
+    "Most of",
+    "Most",
+    "The most",
+    "Almost"
+   ],
+   "answer": "Most of",
+   "acceptedAnswers": [
+    "Most of"
+   ],
+   "hint": "Après le trou : the + nom.",
+   "explanation": "Devant the + nom, on utilise most of : most of the staff. Most seul s'emploie devant un nom sans déterminant, pour une généralité (most people). The most est un superlatif.",
+   "tip": "most of the… ; most people (sans the).",
+   "extraExample": {
+    "text": "Most of my colleagues work from home on Fridays.",
+    "translation": "La plupart de mes collègues travaillent à domicile le vendredi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Most",
+     "category": "grammar",
+     "feedback": "Devant the + nom, il faut most of : most of the staff. Most seul : most people."
+    },
+    {
+     "equals": "The most",
+     "category": "grammar",
+     "feedback": "The most est un superlatif (le plus). « La plupart de » se dit most of."
+    },
+    {
+     "equals": "Almost",
+     "category": "grammar",
+     "feedback": "Almost se combine avec all (almost all the staff). Pour « la plupart de », on dit most of."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e13",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.applicant"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Nous avons quelques candidats intéressants pour le poste.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "applicants",
+    "a",
+    "We",
+    "for",
+    "have",
+    "interesting",
+    "job",
+    "few",
+    "the"
+   ],
+   "answer": "We have a few interesting applicants for the job.",
+   "acceptedAnswers": [
+    "We have a few interesting applicants for the job.",
+    "For the job we have a few interesting applicants."
+   ],
+   "hint": "A few + adjectif + nom pluriel.",
+   "explanation": "A few se place devant l'adjectif et le nom pluriel : a few interesting applicants. Il a un sens positif (quelques, assez pour continuer).",
+   "tip": "a few + (adjectif) + nom pluriel.",
+   "extraExample": {
+    "text": "We have a few good ideas for the launch.",
+    "translation": "Nous avons quelques bonnes idées pour le lancement."
+   }
+  },
+  {
+   "id": "en.l90.e14",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.research",
+    "en.v.information"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Il y a très peu de recherches sur ce sujet.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "little",
+    "is",
+    "subject",
+    "There",
+    "on",
+    "very",
+    "this",
+    "research"
+   ],
+   "answer": "There is very little research on this subject.",
+   "acceptedAnswers": [
+    "There is very little research on this subject."
+   ],
+   "hint": "Research est indénombrable, comme information : there is.",
+   "explanation": "Research est indénombrable (comme information) : jamais researches. Le français dit « des recherches » au pluriel, mais l'anglais dit there is very little research, au singulier.",
+   "tip": "research, information, feedback : pas de -s.",
+   "extraExample": {
+    "text": "There is very little information on this subject.",
+    "translation": "Il y a très peu d'informations sur ce sujet."
+   }
+  },
+  {
+   "id": "en.l90.e15",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.survey",
+    "en.v.feedback",
+    "en.v.equipment",
+    "en.v.staff"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque phrase anglaise à sa traduction.",
+   "prompt": "Doser une quantité",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "We received plenty of feedback.",
+     "right": "Nous avons reçu beaucoup de retours."
+    },
+    {
+     "left": "Few people answered the survey.",
+     "right": "Peu de gens ont répondu à l'enquête."
+    },
+    {
+     "left": "A few people answered the survey.",
+     "right": "Quelques personnes ont répondu à l'enquête."
+    },
+    {
+     "left": "We have little equipment.",
+     "right": "Nous avons peu de matériel."
+    },
+    {
+     "left": "Most of the staff agreed.",
+     "right": "La plupart du personnel était d'accord."
+    }
+   ],
+   "answer": "We received plenty of feedback. = Nous avons reçu beaucoup de retours. ; Few people answered the survey. = Peu de gens ont répondu à l'enquête. ; A few people answered the survey. = Quelques personnes ont répondu à l'enquête. ; We have little equipment. = Nous avons peu de matériel. ; Most of the staff agreed. = La plupart du personnel était d'accord.",
+   "acceptedAnswers": [],
+   "explanation": "Few / little (sans a) disent « presque pas » ; a few / a little disent « quelques / un peu ». Plenty of dit « largement assez » ; most of dit « la plupart ».",
+   "tip": "Avec a = positif ; sans a = négatif.",
+   "extraExample": {
+    "text": "Hardly any customers answered the survey.",
+    "translation": "Presque aucun client n'a répondu à l'enquête."
+   }
+  },
+  {
+   "id": "en.l90.e16",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.information",
+    "en.v.available"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "There is hardly any information available.",
+   "promptLanguage": "en",
+   "answer": "Il n'y a presque aucune information disponible.",
+   "acceptedAnswers": [
+    "Il n'y a presque aucune information disponible.",
+    "Il n'y a quasiment aucune information disponible.",
+    "Il n'y a pratiquement aucune information disponible.",
+    "Il n'y a quasiment pas d'informations disponibles.",
+    "Il n'y a presque pas d'informations disponibles.",
+    "Il n'y a pratiquement pas d'informations disponibles.",
+    "Il y a très peu d'informations disponibles.",
+    "Il n'existe presque aucune information.",
+    "Presque aucune information n'est disponible.",
+    "Quasiment aucune information n'est disponible.",
+    "Pratiquement aucune information n'est disponible.",
+    "Il n'y a presque aucun renseignement disponible.",
+    "Il n'y a presque aucune info disponible.",
+    "Il n'y a presque aucune information.",
+    "Il y a très peu d'information disponible."
+   ],
+   "hint": "Hardly any = presque aucun.",
+   "explanation": "Hardly any signifie « presque aucun » : il en reste un tout petit peu. Hardly est déjà négatif, mais en français on traduit avec « presque » ou « quasiment ».",
+   "tip": "hardly any = presque aucun, quasiment pas de.",
+   "extraExample": {
+    "text": "There is hardly any traffic at this time.",
+    "translation": "Il n'y a presque pas de circulation à cette heure."
+   },
+   "errorPatterns": [
+    {
+     "contains": "n'y a aucune",
+     "category": "word_confusion",
+     "feedback": "Hardly any = presque aucun, pas « aucun » : il en reste un tout petit peu."
+    },
+    {
+     "contains": "beaucoup",
+     "category": "word_confusion",
+     "feedback": "Hardly any est le contraire de « beaucoup » : presque aucune information."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e17",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.information"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Pouvez-vous me donner un peu plus d'informations ?",
+   "promptLanguage": "fr",
+   "answer": "Could you give me a little more information?",
+   "acceptedAnswers": [
+    "Could you give me a little more information?",
+    "Can you give me a little more information?",
+    "Could you give me a bit more information?",
+    "Could you give me some more information?",
+    "Could you give me a little more information, please?",
+    "Can you give me a bit more information?",
+    "Can you give me some more information?",
+    "Would you give me a little more information?"
+   ],
+   "hint": "Information est indénombrable.",
+   "explanation": "Information est indénombrable : pas de -s, et on dit a little more information. Pour une demande polie, could you est plus doux que can you.",
+   "tip": "a little more + indénombrable.",
+   "extraExample": {
+    "text": "Could you give me a little more time?",
+    "translation": "Pourriez-vous me donner un peu plus de temps ?"
+   },
+   "errorPatterns": [
+    {
+     "contains": "informations",
+     "category": "grammar",
+     "feedback": "Information est indénombrable : jamais de -s."
+    },
+    {
+     "contains": "a few more information",
+     "category": "grammar",
+     "feedback": "Information est indénombrable : a little more information, pas a few."
+    },
+    {
+     "contains": "an information",
+     "category": "grammar",
+     "feedback": "Information est indénombrable : pas de an. Pour une seule information, on dit a piece of information."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e18",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.survey"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Très peu de personnes ont répondu à l'enquête.",
+   "promptLanguage": "fr",
+   "answer": "Very few people answered the survey.",
+   "acceptedAnswers": [
+    "Very few people answered the survey.",
+    "Very few people replied to the survey.",
+    "Very few people responded to the survey.",
+    "Very few people completed the survey.",
+    "Hardly anyone answered the survey.",
+    "Hardly any people answered the survey.",
+    "Very few people answered the questionnaire.",
+    "Very few people took the survey.",
+    "Very few people filled in the survey.",
+    "Very few people filled out the survey."
+   ],
+   "hint": "People est dénombrable : very few.",
+   "explanation": "People est dénombrable (pluriel) : very few people. Very little s'emploierait avec un indénombrable. Answer se construit sans to : answer the survey.",
+   "tip": "very few + pluriel ; very little + indénombrable.",
+   "extraExample": {
+    "text": "Very few applicants had the right experience.",
+    "translation": "Très peu de candidats avaient la bonne expérience."
+   },
+   "errorPatterns": [
+    {
+     "contains": "very little people",
+     "category": "grammar",
+     "feedback": "People est dénombrable (pluriel) : very few people."
+    },
+    {
+     "contains": "a few people",
+     "category": "word_confusion",
+     "feedback": "A few = quelques (positif). « Très peu » se dit very few."
+    },
+    {
+     "contains": "answered to",
+     "category": "preposition",
+     "feedback": "Answer se construit sans to : answered the survey."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e19",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.equipment",
+    "en.v.available"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Il n'y a presque plus de matériel disponible.",
+   "promptLanguage": "fr",
+   "answer": "There is hardly any equipment available.",
+   "acceptedAnswers": [
+    "There is hardly any equipment available.",
+    "There's hardly any equipment available.",
+    "There is hardly any equipment left.",
+    "Hardly any equipment is available.",
+    "There is hardly any equipment left available.",
+    "There is hardly any equipment still available.",
+    "There is hardly any equipment available now."
+   ],
+   "hint": "Hardly any est déjà négatif ; equipment est indénombrable.",
+   "explanation": "Hardly any (presque aucun) est déjà négatif : on n'ajoute pas de not. Equipment est indénombrable, donc singulier : there is, jamais there are ni equipments.",
+   "tip": "hardly any + indénombrable → there is.",
+   "extraExample": {
+    "text": "There is hardly any information available online.",
+    "translation": "Il n'y a presque aucune information disponible en ligne."
+   },
+   "errorPatterns": [
+    {
+     "contains": "hardly no",
+     "category": "grammar",
+     "feedback": "Hardly est déjà négatif : hardly any, jamais hardly no."
+    },
+    {
+     "contains": "equipments",
+     "category": "grammar",
+     "feedback": "Equipment est indénombrable : jamais de -s."
+    },
+    {
+     "contains": "there are hardly any equipment",
+     "category": "conjugation",
+     "feedback": "Equipment est indénombrable : there is, pas there are."
+    },
+    {
+     "contains": "not hardly",
+     "category": "grammar",
+     "feedback": "Hardly est déjà négatif : pas de not avec lui."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e20",
+   "unitIds": [
+    "en.g70.cause_consequence",
+    "en.v.shortage",
+    "en.v.equipment",
+    "en.v.staff"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "En raison d'une pénurie de matériel, le personnel n'a pas pu travailler.",
+   "promptLanguage": "fr",
+   "answer": "Due to a shortage of equipment, the staff couldn't work.",
+   "acceptedAnswers": [
+    "Due to a shortage of equipment, the staff couldn't work.",
+    "Because of a shortage of equipment, the staff couldn't work.",
+    "The staff couldn't work due to a shortage of equipment.",
+    "The staff couldn't work because of a shortage of equipment.",
+    "Due to a lack of equipment, the staff couldn't work.",
+    "Because of a lack of equipment, the staff couldn't work.",
+    "Due to a shortage of equipment the staff couldn't work.",
+    "Due to a shortage of equipment, the staff were unable to work.",
+    "Due to a shortage of equipment, the staff was unable to work."
+   ],
+   "hint": "Due to / because of + nom ; equipment est indénombrable.",
+   "explanation": "Due to (ou because of) est suivi d'un nom : a shortage of equipment. Equipment est indénombrable (jamais equipments). Le staff est un nom collectif.",
+   "tip": "Cause + nom : due to / because of.",
+   "extraExample": {
+    "text": "Due to a shortage of drivers, deliveries are late.",
+    "translation": "En raison d'un manque de chauffeurs, les livraisons sont en retard."
+   },
+   "errorPatterns": [
+    {
+     "contains": "equipments",
+     "category": "grammar",
+     "feedback": "Equipment est indénombrable : jamais de -s."
+    },
+    {
+     "contains": "because a shortage",
+     "category": "grammar",
+     "feedback": "Because est suivi d'un sujet + verbe. Devant un nom (a shortage), on dit because of ou due to."
+    },
+    {
+     "contains": "a shortage of equipments",
+     "category": "grammar",
+     "feedback": "Equipment est indénombrable : a shortage of equipment."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e21",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.feedback"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Nous avons reçu beaucoup de retours positifs » ?",
+   "promptLanguage": "fr",
+   "answer": "We received a lot of positive feedback.",
+   "acceptedAnswers": [
+    "We received a lot of positive feedback.",
+    "We received plenty of positive feedback.",
+    "We got a lot of positive feedback.",
+    "We got plenty of positive feedback.",
+    "We have received a lot of positive feedback.",
+    "We have received plenty of positive feedback.",
+    "We received lots of positive feedback.",
+    "We received a great deal of positive feedback."
+   ],
+   "hint": "Feedback est indénombrable.",
+   "explanation": "Feedback est indénombrable : on le quantifie avec a lot of, plenty of ou lots of, jamais avec many ni avec un -s. Le past simple received traduit « nous avons reçu ».",
+   "tip": "a lot of / plenty of + feedback (sans -s).",
+   "extraExample": {
+    "text": "We got a lot of useful information from the survey.",
+    "translation": "Nous avons obtenu beaucoup d'informations utiles grâce à l'enquête."
+   },
+   "errorPatterns": [
+    {
+     "contains": "feedbacks",
+     "category": "grammar",
+     "feedback": "Feedback est indénombrable : jamais de -s."
+    },
+    {
+     "contains": "many feedback",
+     "category": "grammar",
+     "feedback": "Many demande un pluriel dénombrable. Feedback est indénombrable : a lot of, plenty of, much."
+    },
+    {
+     "contains": "a positive feedback",
+     "category": "grammar",
+     "feedback": "Feedback est indénombrable : pas de a. Pour un seul, on dit a piece of feedback."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e22",
+   "unitIds": [
+    "en.g71.quantifiers",
+    "en.v.available",
+    "en.v.staff"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « La plupart de mes collègues sont disponibles lundi » ?",
+   "promptLanguage": "fr",
+   "answer": "Most of my colleagues are available on Monday.",
+   "acceptedAnswers": [
+    "Most of my colleagues are available on Monday.",
+    "Most of my colleagues are available Monday.",
+    "Most of my colleagues will be available on Monday.",
+    "Most of my colleagues are free on Monday.",
+    "Most of my colleagues are available on Mondays."
+   ],
+   "hint": "Most of + déterminant + nom.",
+   "explanation": "Après most of, il faut un déterminant (my, the, these) : most of my colleagues. Les jours se construisent avec on : on Monday. Available = disponible.",
+   "tip": "most of + my / the / these + nom.",
+   "extraExample": {
+    "text": "Most of the staff are available on Friday.",
+    "translation": "La plupart du personnel est disponible vendredi."
+   },
+   "errorPatterns": [
+    {
+     "contains": "the most of",
+     "category": "grammar",
+     "feedback": "The most est un superlatif (le plus). « La plupart de » se dit most of."
+    },
+    {
+     "contains": "most of colleagues",
+     "category": "grammar",
+     "feedback": "Après most of, il faut un déterminant : most of my colleagues."
+    },
+    {
+     "contains": "most my colleagues",
+     "category": "grammar",
+     "feedback": "Il manque of : most of my colleagues."
+    }
+   ]
+  },
+  {
+   "id": "en.l90.e23",
+   "unitIds": [
+    "en.g71.quantifiers"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase en anglais.",
+   "prompt": "Décris une situation au travail avec a few, few, a little, little, plenty of, hardly any ou most of.",
+   "promptLanguage": "fr",
+   "answer": "We have plenty of time, but hardly any budget.",
+   "acceptedAnswers": [
+    "We have plenty of time, but hardly any budget.",
+    "Only a few people attended the training session.",
+    "There is very little information about the new system.",
+    "Most of my colleagues work from home on Fridays."
+   ],
+   "hint": "Attention : feedback, equipment et information sont indénombrables.",
+   "requirements": {
+    "mustInclude": [
+     [
+      "a few",
+      "few",
+      "a little",
+      "little",
+      "plenty of",
+      "hardly any",
+      "most of"
+     ]
+    ],
+    "minWords": 6
+   },
+   "explanation": "Choisis ton expression selon le nom : few et a few pour un pluriel dénombrable, little et a little pour un indénombrable, plenty of pour les deux, hardly any pour « presque aucun », most of + déterminant.",
+   "tip": "Dénombrable → few ; indénombrable → little.",
+   "extraExample": {
+    "text": "There is hardly any equipment left in the storeroom.",
+    "translation": "Il ne reste presque plus de matériel dans la réserve."
+   },
+   "errorPatterns": [
+    {
+     "contains": "informations",
+     "category": "grammar",
+     "feedback": "Information est indénombrable : jamais de -s."
+    },
+    {
+     "contains": "equipments",
+     "category": "grammar",
+     "feedback": "Equipment est indénombrable : jamais de -s."
+    },
+    {
+     "contains": "feedbacks",
+     "category": "grammar",
+     "feedback": "Feedback est indénombrable : jamais de -s."
+    },
+    {
+     "contains": "little people",
+     "category": "grammar",
+     "feedback": "People est dénombrable : few people."
+    },
+    {
+     "contains": "a few time",
+     "category": "grammar",
+     "feedback": "Time est indénombrable : a little time."
+    }
+   ]
+  }
+ ]
+}

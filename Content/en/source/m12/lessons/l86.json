@@ -677,6 +677,48 @@
   {
    "id": "en.l86.e16",
    "unitIds": [
+    "en.g67.verbs_changing_meaning",
+    "en.v.stop"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "He stopped to answer the phone.",
+   "promptLanguage": "en",
+   "answer": "Il s'est arrêté pour répondre au téléphone.",
+   "acceptedAnswers": [
+    "Il s'est arrêté pour répondre au téléphone.",
+    "Il s'est arrêté afin de répondre au téléphone.",
+    "Il s'est interrompu pour répondre au téléphone.",
+    "Il s'est arrêté pour décrocher le téléphone.",
+    "Il s'est arrêté pour prendre l'appel.",
+    "Il a fait une pause pour répondre au téléphone.",
+    "Il s'est arrêté un instant pour répondre au téléphone.",
+    "Il s'est arrêté pour répondre à un appel."
+   ],
+   "hint": "Stop to + verbe : il s'arrête pour faire autre chose.",
+   "explanation": "Stop to answer = s'arrêter pour répondre : il interrompt ce qu'il fait afin de décrocher. S'il avait arrêté de répondre, on dirait stopped answering.",
+   "tip": "stop to + verbe = s'arrêter pour… ; stop + -ing = arrêter de…",
+   "extraExample": {
+    "text": "She stopped to talk to a colleague.",
+    "translation": "Elle s'est arrêtée pour parler à un collègue."
+   },
+   "errorPatterns": [
+    {
+     "contains": "arrêté de répondre",
+     "category": "verb_tense",
+     "feedback": "Stopped to answer = s'est arrêté pour répondre. « Arrêter de répondre » se dirait stopped answering."
+    },
+    {
+     "contains": "a arrêté de",
+     "category": "verb_tense",
+     "feedback": "Stop + -ing = arrêter de. Ici, c'est stop to : il s'arrête pour faire autre chose."
+    }
+   ]
+  },
+  {
+   "id": "en.l86.e17",
+   "unitIds": [
     "en.g23.past_simple_negative_questions",
     "en.v.reminder"
    ],
@@ -719,7 +761,7 @@
    ]
   },
   {
-   "id": "en.l86.e17",
+   "id": "en.l86.e18",
    "unitIds": [
     "en.g67.verbs_changing_meaning",
     "en.v.regret",
@@ -764,7 +806,7 @@
    ]
   },
   {
-   "id": "en.l86.e18",
+   "id": "en.l86.e19",
    "unitIds": [
     "en.g67.verbs_changing_meaning",
     "en.v.remember",
@@ -809,7 +851,7 @@
    ]
   },
   {
-   "id": "en.l86.e19",
+   "id": "en.l86.e20",
    "unitIds": [
     "en.g67.verbs_changing_meaning",
     "en.v.try"
@@ -848,7 +890,7 @@
    ]
   },
   {
-   "id": "en.l86.e20",
+   "id": "en.l86.e21",
    "unitIds": [
     "en.g67.verbs_changing_meaning",
     "en.v.stop",
@@ -892,7 +934,7 @@
    ]
   },
   {
-   "id": "en.l86.e21",
+   "id": "en.l86.e22",
    "unitIds": [
     "en.g67.verbs_changing_meaning",
     "en.v.regret"
@@ -939,7 +981,7 @@
    ]
   },
   {
-   "id": "en.l86.e22",
+   "id": "en.l86.e23",
    "unitIds": [
     "en.g67.verbs_changing_meaning",
     "en.v.forget",
@@ -986,7 +1028,7 @@
    ]
   },
   {
-   "id": "en.l86.e23",
+   "id": "en.l86.e24",
    "unitIds": [
     "en.g67.verbs_changing_meaning",
     "en.v.remember",

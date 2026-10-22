@@ -1,0 +1,1198 @@
+{
+ "lessonId": "en.l88",
+ "exercises": [
+  {
+   "id": "en.l88.e01",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.revenue",
+    "en.v.profit"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot de liaison.",
+   "prompt": "___ our revenue grew, our profit fell.",
+   "promptLanguage": "en",
+   "options": [
+    "Although",
+    "Despite",
+    "However",
+    "In spite of"
+   ],
+   "answer": "Although",
+   "acceptedAnswers": [
+    "Although"
+   ],
+   "hint": "Après le trou, il y a un sujet et un verbe.",
+   "explanation": "Although (bien que) est suivi d'une proposition complète : sujet + verbe (our revenue grew). Despite et in spite of demandent un nom ou un -ing.",
+   "tip": "Although + sujet + verbe.",
+   "extraExample": {
+    "text": "Although the offer was low, we accepted it.",
+    "translation": "Bien que l'offre soit basse, nous l'avons acceptée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Despite",
+     "category": "grammar",
+     "feedback": "Despite est suivi d'un nom ou d'un -ing, pas d'une proposition avec sujet + verbe (our revenue grew)."
+    },
+    {
+     "equals": "However",
+     "category": "grammar",
+     "feedback": "However ouvre une nouvelle phrase (Our revenue grew. However, our profit fell). Il ne se place pas au début d'une proposition reliée à la suivante."
+    },
+    {
+     "equals": "In spite of",
+     "category": "grammar",
+     "feedback": "In spite of est suivi d'un nom ou d'un -ing, pas d'une proposition avec sujet + verbe."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e02",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.revenue",
+    "en.v.profit",
+    "en.v.cost",
+    "en.v.growth",
+    "en.v.competitor"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Le vocabulaire des résultats d'une entreprise",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "revenue",
+     "right": "chiffre d'affaires, recettes"
+    },
+    {
+     "left": "profit",
+     "right": "bénéfice"
+    },
+    {
+     "left": "cost",
+     "right": "coût"
+    },
+    {
+     "left": "growth",
+     "right": "croissance"
+    },
+    {
+     "left": "competitor",
+     "right": "concurrent"
+    }
+   ],
+   "answer": "revenue = chiffre d'affaires, recettes ; profit = bénéfice ; cost = coût ; growth = croissance ; competitor = concurrent",
+   "acceptedAnswers": [],
+   "explanation": "Revenue est ce qu'une entreprise encaisse ; profit est ce qui reste après avoir payé les costs. Growth (croissance) est indénombrable.",
+   "tip": "Revenue − costs = profit.",
+   "extraExample": {
+    "text": "Our growth is strong, but our costs are rising.",
+    "translation": "Notre croissance est forte, mais nos coûts augmentent."
+   }
+  },
+  {
+   "id": "en.l88.e03",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.cost",
+    "en.v.profit"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot de liaison.",
+   "prompt": "___ the high costs, the company made a profit.",
+   "promptLanguage": "en",
+   "options": [
+    "Despite",
+    "Although",
+    "However",
+    "Whereas"
+   ],
+   "answer": "Despite",
+   "acceptedAnswers": [
+    "Despite"
+   ],
+   "hint": "Après le trou, il y a un groupe nominal (the high costs).",
+   "explanation": "Despite (malgré) est suivi d'un nom ou d'un groupe nominal : despite the high costs. Devant sujet + verbe, on utiliserait although.",
+   "tip": "Despite + nom ou -ing.",
+   "extraExample": {
+    "text": "Despite the rain, the match went ahead.",
+    "translation": "Malgré la pluie, le match a eu lieu."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Although",
+     "category": "grammar",
+     "feedback": "Although est suivi d'un sujet et d'un verbe. Devant un groupe nominal (the high costs), on utilise despite."
+    },
+    {
+     "equals": "However",
+     "category": "grammar",
+     "feedback": "However ouvre une nouvelle phrase et ne s'emploie pas devant un groupe nominal. Ici : despite the high costs."
+    },
+    {
+     "equals": "Whereas",
+     "category": "grammar",
+     "feedback": "Whereas oppose deux propositions complètes. Devant un groupe nominal, on utilise despite."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e04",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.growth"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le mot qui manque.",
+   "prompt": "In spite ___ strong growth, the company is losing money.",
+   "promptLanguage": "en",
+   "options": [
+    "of",
+    "to",
+    "from",
+    "with"
+   ],
+   "answer": "of",
+   "acceptedAnswers": [
+    "of"
+   ],
+   "hint": "Contrairement à despite, in spite of garde un petit mot.",
+   "explanation": "In spite of (malgré) garde toujours of. Despite, lui, n'en a pas : despite strong growth, mais in spite of strong growth.",
+   "tip": "In spite OF, mais despite tout court.",
+   "extraExample": {
+    "text": "We went out in spite of the rain.",
+    "translation": "Nous sommes sortis malgré la pluie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "to",
+     "category": "preposition",
+     "feedback": "L'expression est in spite of : le petit mot est of."
+    },
+    {
+     "equals": "from",
+     "category": "preposition",
+     "feedback": "L'expression est in spite of : le petit mot est of."
+    },
+    {
+     "equals": "with",
+     "category": "preposition",
+     "feedback": "L'expression est in spite of : le petit mot est of."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e05",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.competitor",
+    "en.g36.connectors"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot de liaison.",
+   "prompt": "Our main competitor lowered its prices. ___, we kept ours the same.",
+   "promptLanguage": "en",
+   "options": [
+    "However",
+    "Although",
+    "Despite",
+    "Whereas"
+   ],
+   "answer": "However",
+   "acceptedAnswers": [
+    "However"
+   ],
+   "hint": "La phrase précédente est terminée par un point.",
+   "explanation": "However (cependant) ouvre une nouvelle phrase, après un point, et se termine par une virgule. Although, despite et whereas se placent à l'intérieur d'une phrase.",
+   "tip": "However = nouvelle phrase + virgule.",
+   "extraExample": {
+    "text": "The idea is good. However, it is too expensive.",
+    "translation": "L'idée est bonne. Cependant, elle est trop chère."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Although",
+     "category": "grammar",
+     "feedback": "Although relie deux propositions dans la même phrase. Après un point, on utilise however."
+    },
+    {
+     "equals": "Despite",
+     "category": "grammar",
+     "feedback": "Despite est suivi d'un nom ou d'un -ing, et non d'une phrase comme we kept ours the same."
+    },
+    {
+     "equals": "Whereas",
+     "category": "grammar",
+     "feedback": "Whereas relie deux propositions dans la même phrase ; après un point, on utilise however."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e06",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.revenue",
+    "en.v.profit"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le mot qui oppose les deux éléments.",
+   "prompt": "Our revenue rose by ten per cent, ___ our profit stayed the same.",
+   "promptLanguage": "en",
+   "options": [
+    "whereas",
+    "despite",
+    "however",
+    "because of"
+   ],
+   "answer": "whereas",
+   "acceptedAnswers": [
+    "whereas"
+   ],
+   "hint": "On compare deux faits dans une seule phrase.",
+   "explanation": "Whereas (alors que) oppose deux faits dans la même phrase : le chiffre d'affaires monte, le bénéfice reste stable. Il est suivi d'une proposition complète.",
+   "tip": "A…, whereas B… = A…, alors que B…",
+   "extraExample": {
+    "text": "Tom likes coffee, whereas Anna prefers tea.",
+    "translation": "Tom aime le café, alors qu'Anna préfère le thé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "despite",
+     "category": "grammar",
+     "feedback": "Despite est suivi d'un nom ou d'un -ing. Ici, il y a une proposition complète (our profit stayed the same) : whereas."
+    },
+    {
+     "equals": "however",
+     "category": "grammar",
+     "feedback": "However s'emploie après un point ; on ne relie pas deux propositions avec une simple virgule + however."
+    },
+    {
+     "equals": "because of",
+     "category": "word_confusion",
+     "feedback": "Because of exprime la cause. Ici, on oppose deux faits : whereas."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e07",
+   "unitIds": [
+    "en.g69.contrast_linkers"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot de liaison.",
+   "prompt": "It rained all day, but even ___ it was raining, we walked to the client's office.",
+   "promptLanguage": "en",
+   "options": [
+    "though",
+    "if",
+    "that",
+    "as"
+   ],
+   "answer": "though",
+   "acceptedAnswers": [
+    "though"
+   ],
+   "hint": "La pluie est un fait réel, pas une hypothèse.",
+   "explanation": "Even though (même si, bien que) introduit un fait réel : il a plu toute la journée. Even if servirait pour une hypothèse, une situation qu'on imagine.",
+   "tip": "Even though = fait réel ; even if = hypothèse.",
+   "extraExample": {
+    "text": "Even though he was ill, he came to work.",
+    "translation": "Même s'il était malade, il est venu travailler."
+   },
+   "errorPatterns": [
+    {
+     "equals": "if",
+     "category": "word_confusion",
+     "feedback": "Even if introduit une hypothèse. Ici, la pluie est un fait réel (it rained all day) : even though."
+    },
+    {
+     "equals": "that",
+     "category": "grammar",
+     "feedback": "Even that ne s'emploie pas pour introduire une concession : even though."
+    },
+    {
+     "equals": "as",
+     "category": "grammar",
+     "feedback": "Even as ne s'emploie pas pour la concession : même si = even though."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e08",
+   "unitIds": [
+    "en.v.disappointed",
+    "en.g69.contrast_linkers"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon adjectif.",
+   "prompt": "The sales figures were ___, so the whole team felt disappointed.",
+   "promptLanguage": "en",
+   "options": [
+    "disappointing",
+    "disappointed",
+    "disappoint",
+    "disappointment"
+   ],
+   "answer": "disappointing",
+   "acceptedAnswers": [
+    "disappointing"
+   ],
+   "hint": "Les chiffres décevaient : c'est la chose qui déçoit.",
+   "explanation": "Disappointing décrit ce qui déçoit (les chiffres, un résultat). Disappointed décrit la personne déçue (the team felt disappointed).",
+   "tip": "-ing = ce qui provoque l'émotion ; -ed = la personne qui la ressent.",
+   "extraExample": {
+    "text": "The film was boring, so we felt bored.",
+    "translation": "Le film était ennuyeux, alors nous nous sommes ennuyés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "disappointed",
+     "category": "word_confusion",
+     "feedback": "Disappointed décrit la personne déçue. Les chiffres sont la cause de la déception : disappointing."
+    },
+    {
+     "equals": "disappoint",
+     "category": "grammar",
+     "feedback": "Disappoint est un verbe. Après were, il faut un adjectif : disappointing."
+    },
+    {
+     "equals": "disappointment",
+     "category": "grammar",
+     "feedback": "Disappointment est un nom (une déception). Après were, il faut un adjectif : disappointing."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e09",
+   "unitIds": [
+    "en.g69.contrast_linkers"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la phrase correcte.",
+   "prompt": "Choose the correct sentence about a tired colleague.",
+   "promptLanguage": "en",
+   "options": [
+    "Despite being tired, she finished the report.",
+    "Despite she was tired, she finished the report.",
+    "Despite of being tired, she finished the report.",
+    "In spite being tired, she finished the report."
+   ],
+   "answer": "Despite being tired, she finished the report.",
+   "acceptedAnswers": [
+    "Despite being tired, she finished the report."
+   ],
+   "hint": "Despite n'est pas suivi d'un sujet + verbe, et il n'a pas de of.",
+   "explanation": "Despite est suivi d'un nom ou d'un verbe en -ing (despite being tired), sans of. In spite of garde of : in spite of being tired.",
+   "tip": "Despite + -ing (sans of) ; in spite of + -ing.",
+   "extraExample": {
+    "text": "In spite of feeling ill, he went to work.",
+    "translation": "Bien qu'il se sente malade, il est allé travailler."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Despite she was tired, she finished the report.",
+     "category": "grammar",
+     "feedback": "Despite n'accepte pas sujet + verbe. Dis despite being tired, ou although she was tired."
+    },
+    {
+     "equals": "Despite of being tired, she finished the report.",
+     "category": "preposition",
+     "feedback": "Despite se construit sans of. C'est in spite of qui garde of."
+    },
+    {
+     "equals": "In spite being tired, she finished the report.",
+     "category": "preposition",
+     "feedback": "L'expression complète est in spite of : il manque of."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e10",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.cost",
+    "en.v.profit"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Bien que nos coûts aient augmenté, nous avons réalisé un bénéfice.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "we",
+    "profit",
+    "Although",
+    "rose",
+    "made",
+    "costs",
+    "a",
+    "our"
+   ],
+   "answer": "Although our costs rose we made a profit.",
+   "acceptedAnswers": [
+    "Although our costs rose we made a profit.",
+    "We made a profit although our costs rose."
+   ],
+   "hint": "Although + sujet + verbe, puis la proposition principale.",
+   "explanation": "Although introduit une proposition complète (our costs rose), suivie d'une virgule et de la proposition principale (we made a profit). On peut aussi inverser l'ordre des deux parties.",
+   "tip": "Although… , … ou … although…",
+   "extraExample": {
+    "text": "Although it was late, we kept working.",
+    "translation": "Bien qu'il soit tard, nous avons continué à travailler."
+   }
+  },
+  {
+   "id": "en.l88.e11",
+   "unitIds": [
+    "en.g68.work_phrasal_verbs",
+    "en.v.call_off",
+    "en.v.cost",
+    "en.g69.contrast_linkers"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la particule qui manque.",
+   "prompt": "Despite the rising costs, the board refused to call the project ___.",
+   "promptLanguage": "en",
+   "options": [
+    "off",
+    "on",
+    "up",
+    "out"
+   ],
+   "answer": "off",
+   "acceptedAnswers": [
+    "off"
+   ],
+   "hint": "Call off = annuler.",
+   "explanation": "Call off = annuler. Avec un nom, la particule peut se placer après : call the project off. Despite introduit ici un groupe nominal (the rising costs).",
+   "tip": "Call off = annuler ; despite + groupe nominal.",
+   "extraExample": {
+    "text": "They called the meeting off at the last minute.",
+    "translation": "Ils ont annulé la réunion à la dernière minute."
+   },
+   "errorPatterns": [
+    {
+     "equals": "on",
+     "category": "vocabulary",
+     "feedback": "Call on = rendre visite ou faire appel à. Pour annuler, on dit call off."
+    },
+    {
+     "equals": "up",
+     "category": "vocabulary",
+     "feedback": "Call up = téléphoner. Pour annuler, on dit call off."
+    },
+    {
+     "equals": "out",
+     "category": "vocabulary",
+     "feedback": "Call out = appeler à voix haute. Pour annuler, on dit call off."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e12",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.disappointed"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque phrase anglaise à sa traduction.",
+   "prompt": "Les mots de contraste en situation",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Although it's cheap, it isn't reliable.",
+     "right": "Bien que ce soit bon marché, ce n'est pas fiable."
+    },
+    {
+     "left": "Despite the costs, we made a profit.",
+     "right": "Malgré les coûts, nous avons réalisé un bénéfice."
+    },
+    {
+     "left": "Sales rose. However, profits fell.",
+     "right": "Les ventes ont augmenté. Cependant, les bénéfices ont baissé."
+    },
+    {
+     "left": "Our revenue grew, whereas theirs fell.",
+     "right": "Notre chiffre d'affaires a augmenté, alors que le leur a baissé."
+    },
+    {
+     "left": "Even though he was disappointed, he stayed.",
+     "right": "Même s'il était déçu, il est resté."
+    }
+   ],
+   "answer": "Although it's cheap, it isn't reliable. = Bien que ce soit bon marché, ce n'est pas fiable. ; Despite the costs, we made a profit. = Malgré les coûts, nous avons réalisé un bénéfice. ; Sales rose. However, profits fell. = Les ventes ont augmenté. Cependant, les bénéfices ont baissé. ; Our revenue grew, whereas theirs fell. = Notre chiffre d'affaires a augmenté, alors que le leur a baissé. ; Even though he was disappointed, he stayed. = Même s'il était déçu, il est resté.",
+   "acceptedAnswers": [],
+   "explanation": "Although et even though introduisent une proposition ; despite introduit un nom ; however ouvre une nouvelle phrase ; whereas oppose deux éléments dans la même phrase.",
+   "tip": "Although + phrase ; despite + nom ; however = nouvelle phrase.",
+   "extraExample": {
+    "text": "Whereas Tom drives, Anna takes the train.",
+    "translation": "Tom conduit, alors qu'Anna prend le train."
+   }
+  },
+  {
+   "id": "en.l88.e13",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.revenue",
+    "en.v.profit"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "Although our revenue grew, our profits fell.",
+   "promptLanguage": "en",
+   "answer": "Bien que notre chiffre d'affaires ait augmenté, nos bénéfices ont baissé.",
+   "acceptedAnswers": [
+    "Bien que notre chiffre d'affaires ait augmenté, nos bénéfices ont baissé.",
+    "Bien que notre chiffre d'affaires ait augmenté, nos bénéfices ont diminué.",
+    "Bien que notre chiffre d'affaires ait augmenté, nos profits ont baissé.",
+    "Bien que notre chiffre d'affaires ait augmenté, nos profits ont diminué.",
+    "Bien que notre chiffre d'affaires ait augmenté, notre bénéfice a baissé.",
+    "Bien que notre chiffre d'affaires ait augmenté, notre bénéfice a diminué.",
+    "Bien que notre chiffre d'affaires ait progressé, nos bénéfices ont baissé.",
+    "Bien que notre chiffre d'affaires ait progressé, nos bénéfices ont diminué.",
+    "Bien que notre chiffre d'affaires ait progressé, nos profits ont baissé.",
+    "Bien que notre chiffre d'affaires ait progressé, nos profits ont diminué.",
+    "Bien que notre chiffre d'affaires ait progressé, notre bénéfice a baissé.",
+    "Bien que notre chiffre d'affaires ait progressé, notre bénéfice a diminué.",
+    "Même si notre chiffre d'affaires a augmenté, nos bénéfices ont baissé.",
+    "Même si notre chiffre d'affaires a augmenté, nos bénéfices ont diminué.",
+    "Même si notre chiffre d'affaires a augmenté, nos profits ont baissé.",
+    "Même si notre chiffre d'affaires a augmenté, nos profits ont diminué.",
+    "Même si notre chiffre d'affaires a augmenté, notre bénéfice a baissé.",
+    "Même si notre chiffre d'affaires a augmenté, notre bénéfice a diminué.",
+    "Même si notre chiffre d'affaires a progressé, nos bénéfices ont baissé.",
+    "Même si notre chiffre d'affaires a progressé, nos bénéfices ont diminué.",
+    "Même si notre chiffre d'affaires a progressé, nos profits ont baissé.",
+    "Même si notre chiffre d'affaires a progressé, nos profits ont diminué.",
+    "Même si notre chiffre d'affaires a progressé, notre bénéfice a baissé.",
+    "Même si notre chiffre d'affaires a progressé, notre bénéfice a diminué.",
+    "Bien que nos recettes aient augmenté, nos bénéfices ont baissé.",
+    "Bien que nos recettes aient augmenté, nos bénéfices ont diminué.",
+    "Bien que nos recettes aient augmenté, nos profits ont baissé.",
+    "Bien que nos recettes aient augmenté, nos profits ont diminué.",
+    "Bien que nos recettes aient augmenté, notre bénéfice a baissé.",
+    "Bien que nos recettes aient augmenté, notre bénéfice a diminué.",
+    "Même si nos recettes ont augmenté, nos bénéfices ont baissé.",
+    "Même si nos recettes ont augmenté, nos bénéfices ont diminué.",
+    "Même si nos recettes ont augmenté, nos profits ont baissé.",
+    "Même si nos recettes ont augmenté, nos profits ont diminué.",
+    "Même si nos recettes ont augmenté, notre bénéfice a baissé.",
+    "Même si nos recettes ont augmenté, notre bénéfice a diminué.",
+    "Notre chiffre d'affaires a augmenté, mais nos bénéfices ont baissé.",
+    "Notre chiffre d'affaires a augmenté, mais nos bénéfices ont diminué.",
+    "Notre chiffre d'affaires a augmenté, mais nos profits ont baissé.",
+    "Notre chiffre d'affaires a augmenté, mais nos profits ont diminué.",
+    "Notre chiffre d'affaires a augmenté, mais notre bénéfice a baissé.",
+    "Notre chiffre d'affaires a augmenté, mais notre bénéfice a diminué.",
+    "Notre chiffre d'affaires a progressé, mais nos bénéfices ont baissé.",
+    "Notre chiffre d'affaires a progressé, mais nos bénéfices ont diminué.",
+    "Notre chiffre d'affaires a progressé, mais nos profits ont baissé.",
+    "Notre chiffre d'affaires a progressé, mais nos profits ont diminué.",
+    "Notre chiffre d'affaires a progressé, mais notre bénéfice a baissé.",
+    "Notre chiffre d'affaires a progressé, mais notre bénéfice a diminué.",
+    "Nos recettes ont augmenté, mais nos bénéfices ont baissé.",
+    "Nos recettes ont augmenté, mais nos bénéfices ont diminué.",
+    "Nos recettes ont augmenté, mais nos profits ont baissé.",
+    "Nos recettes ont augmenté, mais nos profits ont diminué.",
+    "Nos recettes ont augmenté, mais notre bénéfice a baissé.",
+    "Nos recettes ont augmenté, mais notre bénéfice a diminué."
+   ],
+   "hint": "Revenue = chiffre d'affaires ; profit = bénéfice.",
+   "explanation": "Although introduit un fait qui contraste avec la suite : le chiffre d'affaires a augmenté, mais les bénéfices ont baissé. En français, « bien que » demande le subjonctif ; « même si » demande l'indicatif.",
+   "tip": "although = bien que (subjonctif) ou même si (indicatif).",
+   "extraExample": {
+    "text": "Although the offer was low, we accepted it.",
+    "translation": "Bien que l'offre soit basse, nous l'avons acceptée."
+   },
+   "errorPatterns": [
+    {
+     "contains": "bénéfices ont augmenté",
+     "category": "word_confusion",
+     "feedback": "Attention au sens : c'est le chiffre d'affaires (revenue) qui a augmenté, et les bénéfices (profits) qui ont baissé."
+    },
+    {
+     "contains": "profits ont augmenté",
+     "category": "word_confusion",
+     "feedback": "Attention au sens : c'est le chiffre d'affaires (revenue) qui a augmenté, et les profits qui ont baissé."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e14",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.competitor"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Notre concurrent a augmenté ses prix, alors que nous avons baissé les nôtres.",
+   "promptLanguage": "fr",
+   "answer": "Our competitor raised its prices, whereas we lowered ours.",
+   "acceptedAnswers": [
+    "Our competitor raised its prices, whereas we lowered ours.",
+    "Our competitor has raised its prices, whereas we have lowered ours.",
+    "Our competitor increased its prices, whereas we lowered ours.",
+    "Our competitor raised its prices, while we lowered ours.",
+    "Whereas our competitor raised its prices, we lowered ours.",
+    "Our competitor raised their prices, whereas we lowered ours.",
+    "Our competitor increased its prices, whereas we reduced ours.",
+    "Our competitor raised its prices, whereas we reduced ours.",
+    "Our competitor raised its prices, whereas we lowered our prices.",
+    "Our competitor increased its prices, whereas we lowered our prices.",
+    "Our competitor raised its prices, while we lowered our prices.",
+    "Our competitor has raised its prices, whereas we have lowered our prices.",
+    "Our competitor raised its prices, whereas we lowered our own."
+   ],
+   "hint": "Whereas oppose deux faits dans la même phrase.",
+   "explanation": "« Alors que » avec une idée d'opposition se traduit par whereas (ou while). Il est suivi d'une proposition complète : we lowered ours. Ours remplace « nos prix ».",
+   "tip": "Whereas = alors que (opposition) ; ours = les nôtres.",
+   "extraExample": {
+    "text": "Our revenue grew, whereas our competitor's fell.",
+    "translation": "Notre chiffre d'affaires a augmenté, alors que celui de notre concurrent a baissé."
+   },
+   "errorPatterns": [
+    {
+     "contains": "where as",
+     "category": "spelling",
+     "feedback": "Whereas s'écrit en un seul mot."
+    },
+    {
+     "contains": "whereas but",
+     "category": "grammar",
+     "feedback": "Avec whereas, on n'ajoute pas but."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e15",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.disappointed",
+    "en.v.outcome"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Même s'il était déçu, il a accepté l'issue de la négociation.",
+   "promptLanguage": "fr",
+   "answer": "Even though he was disappointed, he accepted the outcome of the negotiation.",
+   "acceptedAnswers": [
+    "Even though he was disappointed, he accepted the outcome of the negotiation.",
+    "Even though he was disappointed, he accepted the outcome of the negotiations.",
+    "Although he was disappointed, he accepted the outcome of the negotiation.",
+    "Although he was disappointed, he accepted the outcome of the negotiations.",
+    "He accepted the outcome of the negotiation even though he was disappointed.",
+    "He accepted the outcome of the negotiations even though he was disappointed.",
+    "Even though he was disappointed, he accepted the result of the negotiation.",
+    "Even though he was disappointed, he accepted the result of the negotiations."
+   ],
+   "hint": "Even though + sujet + verbe.",
+   "explanation": "« Même s'il était déçu » (fait réel) se traduit par even though he was disappointed. Disappointed décrit la personne ; outcome est l'issue d'un processus.",
+   "tip": "Even though / although + sujet + verbe, sans but.",
+   "extraExample": {
+    "text": "Even though the offer was low, they signed.",
+    "translation": "Même si l'offre était basse, ils ont signé."
+   },
+   "errorPatterns": [
+    {
+     "contains": "although but",
+     "category": "grammar",
+     "feedback": "Avec although ou even though, on n'ajoute pas but : le français « bien que… mais » ne se calque pas."
+    },
+    {
+     "contains": "despite he",
+     "category": "grammar",
+     "feedback": "Despite n'est pas suivi d'un sujet + verbe. Utilise even though he was disappointed."
+    },
+    {
+     "contains": "disappointing",
+     "category": "word_confusion",
+     "feedback": "Disappointing = décevant (la chose). Pour une personne déçue, on dit disappointed."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e16",
+   "unitIds": [
+    "en.g37.comparatives_superlatives",
+    "en.v.affordable",
+    "en.v.reliable"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Ce modèle est plus abordable et plus fiable que l'ancien.",
+   "promptLanguage": "fr",
+   "answer": "This model is more affordable and more reliable than the old one.",
+   "acceptedAnswers": [
+    "This model is more affordable and more reliable than the old one.",
+    "This model is more affordable and more reliable than the old model.",
+    "This model is more affordable and reliable than the old one.",
+    "This model is more affordable and more reliable than the previous one.",
+    "This model is both more affordable and more reliable than the old one.",
+    "This model is more affordable and more reliable than the old version.",
+    "This model is more affordable and more reliable than the older one."
+   ],
+   "hint": "Adjectif long : more + adjectif + than.",
+   "explanation": "Affordable et reliable sont des adjectifs longs : on forme le comparatif avec more + adjectif, puis than pour le second terme. The old one évite de répéter model.",
+   "tip": "Adjectif long : more… than.",
+   "extraExample": {
+    "text": "This option is more expensive than the first one.",
+    "translation": "Cette option est plus chère que la première."
+   },
+   "errorPatterns": [
+    {
+     "contains": "more affordable that",
+     "category": "grammar",
+     "feedback": "Après un comparatif, on utilise than (pas that)."
+    },
+    {
+     "contains": "most affordable",
+     "category": "grammar",
+     "feedback": "Most forme le superlatif (le plus). Pour comparer deux choses, on dit more… than."
+    },
+    {
+     "contains": "more affordabler",
+     "category": "grammar",
+     "feedback": "Affordable est un adjectif long : more affordable, sans -er."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e17",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.growth"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Malgré la croissance rapide, l'entreprise a perdu de l'argent.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "lost",
+    "the",
+    "money",
+    "Despite",
+    "rapid",
+    "company",
+    "the",
+    "growth"
+   ],
+   "answer": "Despite the rapid growth the company lost money.",
+   "acceptedAnswers": [
+    "Despite the rapid growth the company lost money.",
+    "The company lost money despite the rapid growth."
+   ],
+   "hint": "Despite + groupe nominal, sans of.",
+   "explanation": "Despite est suivi d'un groupe nominal (the rapid growth), puis d'une virgule et de la proposition principale. On peut aussi mettre despite en fin de phrase, sans virgule.",
+   "tip": "Despite + groupe nominal.",
+   "extraExample": {
+    "text": "Despite the bad weather, the event was a success.",
+    "translation": "Malgré le mauvais temps, l'événement a été un succès."
+   }
+  },
+  {
+   "id": "en.l88.e18",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.affordable",
+    "en.v.reliable"
+   ],
+   "type": "fill_blank",
+   "difficulty": 4,
+   "instruction": "Complète avec le mot qui manque.",
+   "prompt": "Despite the fact ___ it is affordable, the machine is not very reliable.",
+   "promptLanguage": "en",
+   "options": [
+    "that",
+    "of",
+    "to",
+    "which"
+   ],
+   "answer": "that",
+   "acceptedAnswers": [
+    "that"
+   ],
+   "hint": "Pour mettre une proposition après despite, on ajoute the fact that.",
+   "explanation": "Despite ne peut pas être suivi d'un sujet + verbe. Pour garder une proposition, on ajoute the fact that : despite the fact that it is affordable. Autre solution : although it is affordable.",
+   "tip": "Despite the fact that + sujet + verbe.",
+   "extraExample": {
+    "text": "In spite of the fact that it was late, we kept working.",
+    "translation": "Bien qu'il fût tard, nous avons continué à travailler."
+   },
+   "errorPatterns": [
+    {
+     "equals": "of",
+     "category": "preposition",
+     "feedback": "On dit the fact that : that introduit la proposition. Despite lui-même n'a jamais de of."
+    },
+    {
+     "equals": "to",
+     "category": "grammar",
+     "feedback": "On dit the fact that + sujet + verbe."
+    },
+    {
+     "equals": "which",
+     "category": "grammar",
+     "feedback": "Après the fact, on utilise that : the fact that it is affordable."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e19",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.budget",
+    "en.v.cost"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Malgré la hausse des coûts, nous sommes restés dans le budget.",
+   "promptLanguage": "fr",
+   "answer": "Despite the rise in costs, we stayed within the budget.",
+   "acceptedAnswers": [
+    "Despite the rise in costs, we stayed within the budget.",
+    "Despite the increase in costs, we stayed within the budget.",
+    "In spite of the rise in costs, we stayed within the budget.",
+    "In spite of the increase in costs, we stayed within the budget.",
+    "Despite rising costs, we stayed within the budget.",
+    "In spite of rising costs, we stayed within the budget.",
+    "Despite the higher costs, we stayed within the budget.",
+    "Despite the rise in costs, we stayed within budget.",
+    "Despite the increase in costs, we stayed within budget.",
+    "Despite rising costs, we stayed within budget.",
+    "In spite of rising costs, we stayed within budget.",
+    "Despite the rise in costs, we stayed on budget.",
+    "Despite rising costs, we stayed on budget.",
+    "Although costs rose, we stayed within the budget.",
+    "Although costs increased, we stayed within the budget.",
+    "Although costs went up, we stayed within the budget."
+   ],
+   "hint": "Despite + groupe nominal (the rise in costs).",
+   "explanation": "« Malgré » devant un nom se traduit par despite ou in spite of. The rise in costs est un groupe nominal. Despite n'a pas de of ; in spite of en a un.",
+   "tip": "Despite the rise in costs, ou in spite of the rise in costs.",
+   "extraExample": {
+    "text": "Despite the delay, we stayed within the budget.",
+    "translation": "Malgré le retard, nous sommes restés dans le budget."
+   },
+   "errorPatterns": [
+    {
+     "contains": "despite of",
+     "category": "preposition",
+     "feedback": "Despite se construit sans of."
+    },
+    {
+     "contains": "despite the costs rose",
+     "category": "grammar",
+     "feedback": "Despite est suivi d'un nom (the rise in costs) ou d'un -ing, pas d'une proposition (the costs rose)."
+    },
+    {
+     "contains": "in spite the",
+     "category": "preposition",
+     "feedback": "Il faut in spite of the… : il manque of."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e20",
+   "unitIds": [
+    "en.v.budget",
+    "en.g69.contrast_linkers"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Malgré un budget limité, nous avons obtenu de bons résultats » ?",
+   "promptLanguage": "fr",
+   "answer": "Despite a limited budget, we achieved good results.",
+   "acceptedAnswers": [
+    "Despite a limited budget, we achieved good results.",
+    "Despite a limited budget, we got good results.",
+    "Despite a limited budget, we obtained good results.",
+    "Despite a small budget, we achieved good results.",
+    "Despite a small budget, we got good results.",
+    "Despite a small budget, we obtained good results.",
+    "Despite a tight budget, we achieved good results.",
+    "Despite a tight budget, we got good results.",
+    "Despite a tight budget, we obtained good results.",
+    "In spite of a limited budget, we achieved good results.",
+    "In spite of a limited budget, we got good results.",
+    "In spite of a limited budget, we obtained good results.",
+    "In spite of a small budget, we achieved good results.",
+    "In spite of a small budget, we got good results.",
+    "In spite of a small budget, we obtained good results.",
+    "In spite of a tight budget, we achieved good results.",
+    "In spite of a tight budget, we got good results.",
+    "In spite of a tight budget, we obtained good results.",
+    "Although our budget was limited, we achieved good results.",
+    "Although our budget was limited, we got good results.",
+    "Although our budget was limited, we obtained good results.",
+    "Although our budget was small, we achieved good results.",
+    "Although our budget was small, we got good results.",
+    "Although our budget was small, we obtained good results.",
+    "Although our budget was tight, we achieved good results.",
+    "Although our budget was tight, we got good results.",
+    "Although our budget was tight, we obtained good results.",
+    "Although the budget was limited, we achieved good results.",
+    "Although the budget was limited, we got good results.",
+    "Although the budget was limited, we obtained good results.",
+    "Although the budget was small, we achieved good results.",
+    "Although the budget was small, we got good results.",
+    "Although the budget was small, we obtained good results.",
+    "Although the budget was tight, we achieved good results.",
+    "Although the budget was tight, we got good results.",
+    "Although the budget was tight, we obtained good results.",
+    "Even though our budget was limited, we achieved good results.",
+    "Even though our budget was limited, we got good results.",
+    "Even though our budget was limited, we obtained good results.",
+    "Even though our budget was small, we achieved good results.",
+    "Even though our budget was small, we got good results.",
+    "Even though our budget was small, we obtained good results.",
+    "Even though our budget was tight, we achieved good results.",
+    "Even though our budget was tight, we got good results.",
+    "Even though our budget was tight, we obtained good results.",
+    "Even though the budget was limited, we achieved good results.",
+    "Even though the budget was limited, we got good results.",
+    "Even though the budget was limited, we obtained good results.",
+    "Even though the budget was small, we achieved good results.",
+    "Even though the budget was small, we got good results.",
+    "Even though the budget was small, we obtained good results.",
+    "Even though the budget was tight, we achieved good results.",
+    "Even though the budget was tight, we got good results.",
+    "Even though the budget was tight, we obtained good results.",
+    "Although we had a limited budget, we achieved good results.",
+    "Even though we had a limited budget, we achieved good results."
+   ],
+   "hint": "Despite + groupe nominal, ou although + phrase complète.",
+   "explanation": "Deux solutions : despite + groupe nominal (despite a limited budget), ou although + sujet + verbe (although our budget was limited). Les deux se placent avant la proposition principale.",
+   "tip": "Despite + nom ; although + sujet + verbe.",
+   "extraExample": {
+    "text": "Despite a small team, they finished on time.",
+    "translation": "Malgré une petite équipe, ils ont fini à temps."
+   },
+   "errorPatterns": [
+    {
+     "contains": "despite of",
+     "category": "preposition",
+     "feedback": "Despite se construit sans of."
+    },
+    {
+     "contains": "despite our budget was",
+     "category": "grammar",
+     "feedback": "Despite est suivi d'un nom, pas d'une proposition. Avec sujet + verbe, utilise although."
+    },
+    {
+     "contains": "although but",
+     "category": "grammar",
+     "feedback": "Avec although, on n'ajoute pas but."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e21",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.profit",
+    "en.v.revenue"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Les ventes ont augmenté. Cependant, les bénéfices ont baissé » ?",
+   "promptLanguage": "fr",
+   "answer": "Sales rose. However, profits fell.",
+   "acceptedAnswers": [
+    "Sales rose. However, profits fell.",
+    "Sales rose. However, profits dropped.",
+    "Sales rose. However, profits decreased.",
+    "Sales rose. However, profits went down.",
+    "Sales rose. However, profit fell.",
+    "Sales rose. However, profit dropped.",
+    "Sales rose. However, profit decreased.",
+    "Sales rose. However, profit went down.",
+    "Sales grew. However, profits fell.",
+    "Sales grew. However, profits dropped.",
+    "Sales grew. However, profits decreased.",
+    "Sales grew. However, profits went down.",
+    "Sales grew. However, profit fell.",
+    "Sales grew. However, profit dropped.",
+    "Sales grew. However, profit decreased.",
+    "Sales grew. However, profit went down.",
+    "Sales increased. However, profits fell.",
+    "Sales increased. However, profits dropped.",
+    "Sales increased. However, profits decreased.",
+    "Sales increased. However, profits went down.",
+    "Sales increased. However, profit fell.",
+    "Sales increased. However, profit dropped.",
+    "Sales increased. However, profit decreased.",
+    "Sales increased. However, profit went down.",
+    "Sales went up. However, profits fell.",
+    "Sales went up. However, profits dropped.",
+    "Sales went up. However, profits decreased.",
+    "Sales went up. However, profits went down.",
+    "Sales went up. However, profit fell.",
+    "Sales went up. However, profit dropped.",
+    "Sales went up. However, profit decreased.",
+    "Sales went up. However, profit went down.",
+    "Sales rose; however, profits fell.",
+    "Sales rose; however, profits dropped.",
+    "Sales rose; however, profits decreased.",
+    "Sales rose; however, profits went down.",
+    "Sales grew; however, profits fell.",
+    "Sales grew; however, profits dropped.",
+    "Sales grew; however, profits decreased.",
+    "Sales grew; however, profits went down.",
+    "Sales increased; however, profits fell.",
+    "Sales increased; however, profits dropped.",
+    "Sales increased; however, profits decreased.",
+    "Sales increased; however, profits went down.",
+    "Sales went up; however, profits fell.",
+    "Sales went up; however, profits dropped.",
+    "Sales went up; however, profits decreased.",
+    "Sales went up; however, profits went down."
+   ],
+   "hint": "However ouvre une nouvelle phrase, suivi d'une virgule.",
+   "explanation": "« Cependant » se traduit par however, qui ouvre une nouvelle phrase (après un point ou un point-virgule) et est suivi d'une virgule.",
+   "tip": "… . However, … = cependant.",
+   "extraExample": {
+    "text": "The idea is good. However, it is too expensive.",
+    "translation": "L'idée est bonne. Cependant, elle est trop chère."
+   },
+   "errorPatterns": [
+    {
+     "contains": "but however",
+     "category": "grammar",
+     "feedback": "But et however ne s'emploient pas ensemble : however suffit."
+    },
+    {
+     "contains": "in the other hand",
+     "category": "vocabulary",
+     "feedback": "L'expression est on the other hand ; pour « cependant », on utilise however."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e22",
+   "unitIds": [
+    "en.g69.contrast_linkers",
+    "en.v.competitor"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Bien que notre concurrent soit plus grand, nous avons plus de clients » ?",
+   "promptLanguage": "fr",
+   "answer": "Although our competitor is bigger, we have more clients.",
+   "acceptedAnswers": [
+    "Although our competitor is bigger, we have more clients.",
+    "Although our competitor is bigger, we have more customers.",
+    "Although our competitor is larger, we have more clients.",
+    "Although our competitor is larger, we have more customers.",
+    "Even though our competitor is bigger, we have more clients.",
+    "Even though our competitor is bigger, we have more customers.",
+    "Even though our competitor is larger, we have more clients.",
+    "Even though our competitor is larger, we have more customers.",
+    "Though our competitor is bigger, we have more clients.",
+    "Though our competitor is bigger, we have more customers.",
+    "Though our competitor is larger, we have more clients.",
+    "Though our competitor is larger, we have more customers."
+   ],
+   "hint": "Although + sujet + verbe, sans but.",
+   "explanation": "« Bien que » + une proposition = although (ou even though). Competitor est singulier : is. More clients forme le comparatif de beaucoup de clients.",
+   "tip": "Although… , … (jamais although… but…).",
+   "extraExample": {
+    "text": "Although the price is high, the quality is excellent.",
+    "translation": "Bien que le prix soit élevé, la qualité est excellente."
+   },
+   "errorPatterns": [
+    {
+     "contains": "although but",
+     "category": "grammar",
+     "feedback": "Avec although, on n'ajoute pas but : le français « bien que… mais » ne se calque pas."
+    },
+    {
+     "contains": "despite our competitor is",
+     "category": "grammar",
+     "feedback": "Despite n'est pas suivi d'un sujet + verbe : utilise although."
+    },
+    {
+     "contains": "competitor are",
+     "category": "conjugation",
+     "feedback": "Competitor est singulier : our competitor is."
+    }
+   ]
+  },
+  {
+   "id": "en.l88.e23",
+   "unitIds": [
+    "en.g69.contrast_linkers"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase en anglais.",
+   "prompt": "Compare deux entreprises ou deux produits avec whereas, although, even though ou despite.",
+   "promptLanguage": "fr",
+   "answer": "Our revenue grew by ten per cent, whereas our competitor's fell.",
+   "acceptedAnswers": [
+    "Our revenue grew by ten per cent, whereas our competitor's fell.",
+    "Although the new model is more expensive, it is much more reliable.",
+    "Despite the high costs, the company made a profit.",
+    "Even though the first option is cheaper, I prefer the second one."
+   ],
+   "hint": "Vérifie ce qui suit ton mot : phrase complète (although), nom ou -ing (despite).",
+   "requirements": {
+    "mustInclude": [
+     [
+      "whereas",
+      "although",
+      "even though",
+      "despite",
+      "in spite of",
+      "though"
+     ]
+    ],
+    "minWords": 8
+   },
+   "explanation": "Tu peux utiliser whereas pour opposer deux faits, although ou even though devant une phrase complète, despite ou in spite of devant un nom ou un -ing. Évite but après although.",
+   "tip": "Although + phrase ; despite + nom ou -ing ; whereas oppose deux éléments.",
+   "extraExample": {
+    "text": "Whereas the first plan is cheap, the second is more reliable.",
+    "translation": "Alors que le premier plan est bon marché, le second est plus fiable."
+   },
+   "errorPatterns": [
+    {
+     "contains": "despite of",
+     "category": "preposition",
+     "feedback": "Despite se construit sans of."
+    },
+    {
+     "contains": "although but",
+     "category": "grammar",
+     "feedback": "Avec although, on n'ajoute pas but."
+    },
+    {
+     "contains": "whereas but",
+     "category": "grammar",
+     "feedback": "Avec whereas, on n'ajoute pas but."
+    }
+   ]
+  }
+ ]
+}

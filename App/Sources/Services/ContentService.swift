@@ -44,14 +44,15 @@ struct ContentCache: Sendable {
 
     /// Cached bundle (when still valid for this app build), else the bundled one. Blocking: call off the main actor.
     static func loadBest(languageCode: String) -> Loaded? {
-        if let meta = metadata(), meta.appBuild == currentBuild, let dir = directory() {
+        // The cache only ever holds one downloaded bundle; it is used for its own language only.
+        if let meta = metadata(), meta.fileName.hasPrefix(languageCode + "-"), meta.appBuild == currentBuild, let dir = directory() {
             let file = dir.appendingPathComponent(meta.fileName)
             if let data = try? Data(contentsOf: file), let bundle = try? ContentBundle.decode(from: data) {
                 return Loaded(engine: LearningEngine(bundle: bundle), version: bundle.contentVersion, fromCache: true)
             }
             Log.content.error("cached content unusable: removed")
             removeCache()
-        } else if metadata() != nil {
+        } else if let meta = metadata(), meta.fileName.hasPrefix(languageCode + "-") {
             removeCache()
         }
         let bundle = Bundle.main
@@ -109,7 +110,10 @@ struct ContentCache: Sendable {
 @MainActor
 @Observable
 final class ContentService {
-    private(set) var engine: LearningEngine?
+    /// One engine per subject whose bundle could be loaded.
+    private(set) var engines: [Subject: LearningEngine] = [:]
+    /// English engine (the subject every user has).
+    var engine: LearningEngine? { engines[.english] }
     private(set) var activeVersion: String?
     private(set) var loadFailed = false
     /// Version downloaded and waiting for the next launch.
@@ -124,18 +128,31 @@ final class ContentService {
         self.network = network
     }
 
-    /// Loads the bundle and builds the engine off the main actor.
-    func load(languageCode: String = "en") async {
-        let loaded = await Task.detached(priority: .userInitiated) {
-            ContentCache.loadBest(languageCode: languageCode)
-        }.value
-        if let loaded {
-            engine = loaded.engine
-            activeVersion = loaded.version
-            loadFailed = false
-            Log.content.info("content \(loaded.version, privacy: .public) loaded (cache: \(loaded.fromCache))")
-        } else {
-            loadFailed = true
+    /// Loads the bundle of every subject and builds the engines off the main actor.
+    /// `configuration` gives the engine settings of a subject (session length, new lessons per day).
+    func loadAll(configuration: (Subject) -> EngineConfiguration) async {
+        var loadedEngines: [Subject: LearningEngine] = [:]
+        for subject in Subject.allCases {
+            let code = subject.code
+            let loaded = await Task.detached(priority: .userInitiated) {
+                ContentCache.loadBest(languageCode: code)
+            }.value
+            guard let loaded else {
+                Log.content.error("content \(code, privacy: .public) missing")
+                continue
+            }
+            loadedEngines[subject] = LearningEngine(index: loaded.engine.index, configuration: configuration(subject))
+            if subject == .english { activeVersion = loaded.version }
+            Log.content.info("content \(code, privacy: .public) \(loaded.version, privacy: .public) loaded")
+        }
+        engines = loadedEngines
+        loadFailed = loadedEngines[.english] == nil
+    }
+
+    /// Applies new engine settings (session length changed in the settings) without reloading the content.
+    func reconfigure(_ configuration: (Subject) -> EngineConfiguration) {
+        engines = engines.reduce(into: [:]) { result, entry in
+            result[entry.key] = LearningEngine(index: entry.value.index, configuration: configuration(entry.key))
         }
     }
 

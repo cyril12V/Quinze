@@ -173,11 +173,17 @@ struct HomeLessonCard: View {
 /// Card of one of today's three slots.
 struct HomeSlotCard: View {
     let slot: SlotState
+    /// Total length of the sitting (every enabled subject).
+    let minutes: Int
     let isStarting: Bool
     let onAction: () -> Void
 
-    private var minutes: Int {
-        max(1, EngineConfiguration.default.targetSessionSeconds / 60)
+    /// "Anglais ✓ · Arabe · Culture G"
+    private var partsLine: String? {
+        guard slot.parts.count > 1 else { return nil }
+        return slot.parts.map { part in
+            part.status == .completed ? "\(part.subject.shortName) ✓" : part.subject.shortName
+        }.joined(separator: " · ")
     }
 
     private var lessonName: String {
@@ -209,6 +215,7 @@ struct HomeSlotCard: View {
         HomeLessonCard(pastel: slot.slot.homePastel,
                        pillText: slot.slot.defaultSessionType.displayName,
                        title: lessonName,
+                       subtitle: partsLine,
                        meta: "\(minutes) min · \(slot.scheduledTime)",
                        footer: footer)
     }
@@ -217,12 +224,9 @@ struct HomeSlotCard: View {
 /// Card shown first when the 3 daily lessons are done (or when no slot exists): one more practice session.
 struct HomeExtraCard: View {
     let allDone: Bool
+    let minutes: Int
     let isStarting: Bool
     let onAction: () -> Void
-
-    private var minutes: Int {
-        max(1, EngineConfiguration.default.targetSessionSeconds / 60)
-    }
 
     var body: some View {
         HomeLessonCard(pastel: .green,

@@ -6,16 +6,21 @@ struct LessonFinishedView: View {
     let controller: LessonController
     let summary: SessionSummary
     let onDone: () -> Void
+    var next: NextStudyStep? = nil
+    var onNext: (() -> Void)? = nil
 
     @Environment(AppEnvironment.self) private var env
     @AccessibilityFocusState private var titleFocused: Bool
 
     private let maxVisibleUnits = 8
 
-    init(controller: LessonController, summary: SessionSummary, onDone: @escaping () -> Void) {
+    init(controller: LessonController, summary: SessionSummary, onDone: @escaping () -> Void,
+         next: NextStudyStep? = nil, onNext: (() -> Void)? = nil) {
         self.controller = controller
         self.summary = summary
         self.onDone = onDone
+        self.next = next
+        self.onNext = onNext
     }
 
     var body: some View {
@@ -32,12 +37,21 @@ struct LessonFinishedView: View {
                     .qAppear(2)
             }
         } footer: {
-            Button("Terminer", action: onDone)
-                .buttonStyle(.primary)
+            if let next, let onNext {
+                VStack(spacing: Theme.Spacing.s) {
+                    Button("Continuer : \(next.subject.displayName) · \(next.minutes) min", action: onNext)
+                        .buttonStyle(.primary)
+                    Button("Plus tard", action: onDone)
+                        .buttonStyle(.secondary)
+                }
+            } else {
+                Button("Terminer", action: onDone)
+                    .buttonStyle(.primary)
+            }
         }
         .task {
             titleFocused = true
-            await env.store.refresh()
+            await env.study.refresh()
         }
     }
 
@@ -47,7 +61,7 @@ struct LessonFinishedView: View {
         VStack(alignment: .leading, spacing: Theme.Spacing.s + 2) {
             illustration
                 .frame(maxWidth: .infinity)
-            ScreenTitle("Session terminée")
+            ScreenTitle(next == nil ? "Session terminée" : "\(controller.subject.displayName) : terminé !")
                 .padding(.top, Theme.Spacing.s)
                 .accessibilityFocused($titleFocused)
             ScreenSubtitle(subtitle)
@@ -162,7 +176,10 @@ struct LessonFinishedView: View {
     // MARK: Next session and restrictions
 
     private var nextSessionText: String? {
-        let slots: [SlotState] = env.store.today.slots
+        if let next {
+            return "Ensuite : \(next.subject.displayName). Ta leçon du créneau sera terminée après toutes tes matières."
+        }
+        let slots: [SlotState] = env.study.today.slots
         guard !slots.isEmpty else { return nil }
         let pending: [SlotState] = slots.filter {
             $0.status == .upcoming || $0.status == .available || $0.status == .inProgress

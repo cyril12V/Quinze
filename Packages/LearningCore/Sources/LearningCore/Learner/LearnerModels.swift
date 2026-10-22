@@ -462,6 +462,8 @@ public struct EngineConfiguration: Codable, Hashable, Sendable {
     public var assessmentQuestionCount: Int
     public var diagnosticMinQuestions: Int
     public var diagnosticMaxQuestions: Int
+    /// New lessons a learner may start in one day (one per session up to this number).
+    public var maxNewLessonsPerDay: Int
 
     public init(fsrsWeights: [Double], desiredRetention: Double, maximumIntervalDays: Double,
                 minInteractions: Int, maxInteractions: Int, targetSessionSeconds: Int,
@@ -470,7 +472,8 @@ public struct EngineConfiguration: Codable, Hashable, Sendable {
                 prerequisiteBypassDays: Int, masteredThreshold: Double, fragileThreshold: Double,
                 delayedSuccessHours: Double, recentResultsLimit: Int, attemptHistoryLimit: Int,
                 assessmentIntervalDays: Int, assessmentQuestionCount: Int,
-                diagnosticMinQuestions: Int, diagnosticMaxQuestions: Int) {
+                diagnosticMinQuestions: Int, diagnosticMaxQuestions: Int, maxNewLessonsPerDay: Int = 1) {
+        self.maxNewLessonsPerDay = maxNewLessonsPerDay
         self.fsrsWeights = fsrsWeights
         self.desiredRetention = desiredRetention
         self.maximumIntervalDays = maximumIntervalDays

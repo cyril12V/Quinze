@@ -17,6 +17,77 @@ struct SettingsRecord: Codable, Equatable, Sendable {
     }
 }
 
+/// Light / dark appearance chosen in the settings.
+enum AppearanceMode: String, Codable, CaseIterable, Sendable, Identifiable {
+    case light, dark, system
+
+    var id: String { rawValue }
+
+    var displayName: String {
+        switch self {
+        case .light: return "Clair"
+        case .dark: return "Sombre"
+        case .system: return "Automatique"
+        }
+    }
+}
+
+/// One subject in the daily sessions.
+struct SubjectPreference: Codable, Equatable, Sendable, Identifiable {
+    var subject: Subject
+    var enabled: Bool
+    /// Target length of the subject's part of a session.
+    var minutes: Int
+
+    var id: Subject { subject }
+    static let minuteRange = 2...20
+}
+
+/// What the learner studies and how the app looks and sounds (local only, not synced).
+struct StudyPreferences: Codable, Equatable, Sendable {
+    var subjects: [SubjectPreference]
+    var appearance: AppearanceMode
+    /// AVSpeechSynthesisVoice identifier chosen per language ("en", "ar", "fr").
+    var voiceIdentifiers: [String: String]
+    /// AVSpeechUtterance rate (0...1, 0.5 = normal).
+    var speechRate: Double
+
+    static let `default` = StudyPreferences(
+        subjects: Subject.studyOrder.map { SubjectPreference(subject: $0, enabled: true, minutes: 5) },
+        appearance: .light, voiceIdentifiers: [:], speechRate: 0.46)
+
+    /// Subjects of a session, in study order (English is always kept as a fallback).
+    var enabledSubjects: [Subject] {
+        let list = subjects.filter(\.enabled).map(\.subject)
+        return list.isEmpty ? [.english] : list
+    }
+
+    func minutes(for subject: Subject) -> Int {
+        subjects.first { $0.subject == subject }?.minutes ?? 5
+    }
+
+    init(subjects: [SubjectPreference], appearance: AppearanceMode, voiceIdentifiers: [String: String], speechRate: Double) {
+        self.subjects = subjects
+        self.appearance = appearance
+        self.voiceIdentifiers = voiceIdentifiers
+        self.speechRate = speechRate
+    }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        let d = StudyPreferences.default
+        var subjects = (try? c.decodeIfPresent([SubjectPreference].self, forKey: .subjects)) ?? d.subjects
+        // A subject added in a later version appears enabled, at the end.
+        for missing in Subject.studyOrder where !subjects.contains(where: { $0.subject == missing }) {
+            subjects.append(SubjectPreference(subject: missing, enabled: true, minutes: 5))
+        }
+        self.subjects = subjects
+        appearance = (try? c.decodeIfPresent(AppearanceMode.self, forKey: .appearance)) ?? d.appearance
+        voiceIdentifiers = (try? c.decodeIfPresent([String: String].self, forKey: .voiceIdentifiers)) ?? d.voiceIdentifiers
+        speechRate = (try? c.decodeIfPresent(Double.self, forKey: .speechRate)) ?? d.speechRate
+    }
+}
+
 /// Profile (placement, onboarding progress, name) and settings, persisted locally and synced.
 @MainActor
 @Observable
@@ -25,10 +96,12 @@ final class SettingsStore {
     private(set) var notificationPreferences: NotificationPreferences
     private(set) var profile: UserProfileRecord
     private(set) var record: SettingsRecord
+    private(set) var study: StudyPreferences
 
     private let local: LocalStore
     private static let profileKey = "profile"
     private static let settingsKey = "settings"
+    private static let studyKey = "study"
 
     init(local: LocalStore) {
         self.local = local
@@ -38,6 +111,19 @@ final class SettingsStore {
         schedule = rec.schedule
         notificationPreferences = rec.notifications
         profile = prof
+        study = local.value(StudyPreferences.self, for: Self.studyKey) ?? .default
+    }
+
+    func updateStudy(_ change: (inout StudyPreferences) -> Void) {
+        var s = study
+        change(&s)
+        for i in s.subjects.indices {
+            s.subjects[i].minutes = min(max(s.subjects[i].minutes, SubjectPreference.minuteRange.lowerBound),
+                                        SubjectPreference.minuteRange.upperBound)
+        }
+        guard s != study else { return }
+        study = s
+        local.setValue(s, for: Self.studyKey)
     }
 
     /// Re-reads storage (after a wipe or a server restore).
@@ -47,6 +133,7 @@ final class SettingsStore {
         schedule = rec.schedule
         notificationPreferences = rec.notifications
         profile = local.value(UserProfileRecord.self, for: Self.profileKey) ?? UserProfileRecord.empty
+        study = local.value(StudyPreferences.self, for: Self.studyKey) ?? .default
     }
 
     // MARK: Profile

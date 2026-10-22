@@ -2,9 +2,19 @@ import SwiftUI
 import LearningCore
 
 /// Full-screen lesson: top bar, then the screen of the current phase.
+/// Next subject of a sitting, offered on the finish screen ("Continuer : Arabe").
+struct NextStudyStep: Equatable {
+    let subject: Subject
+    let minutes: Int
+}
+
 struct LessonFlowView: View {
     let controller: LessonController
     let onClose: () -> Void
+    /// "Anglais · 1/3" shown above the progress bar during a sitting.
+    var stepLabel: String? = nil
+    var next: NextStudyStep? = nil
+    var onNext: (() -> Void)? = nil
 
     @Environment(AppEnvironment.self) private var env
     @Environment(\.scenePhase) private var scenePhase
@@ -12,9 +22,13 @@ struct LessonFlowView: View {
     @State private var isBusy = false
     @State private var tutorRequest: TutorRequest?
 
-    init(controller: LessonController, onClose: @escaping () -> Void) {
+    init(controller: LessonController, onClose: @escaping () -> Void, stepLabel: String? = nil,
+         next: NextStudyStep? = nil, onNext: (() -> Void)? = nil) {
         self.controller = controller
         self.onClose = onClose
+        self.stepLabel = stepLabel
+        self.next = next
+        self.onNext = onNext
     }
 
     var body: some View {
@@ -47,14 +61,19 @@ struct LessonFlowView: View {
                 .accessibilityHint(controller.isFinished ? "" : "Ta progression est enregistrée.")
 
             if !controller.isFinished {
-                HStack(spacing: Theme.Spacing.m) {
-                    QProgressBar(value: controller.progressFraction)
-                    Text(controller.progressLabel)
-                        .font(Theme.Font.caption(.semibold).monospacedDigit())
-                        .foregroundStyle(Theme.tertiaryText)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(stepLabel ?? controller.subject.displayName)
+                        .font(Theme.Font.caption(.semibold))
+                        .foregroundStyle(Theme.secondaryText)
+                    HStack(spacing: Theme.Spacing.m) {
+                        QProgressBar(value: controller.progressFraction)
+                        Text(controller.progressLabel)
+                            .font(Theme.Font.caption(.semibold).monospacedDigit())
+                            .foregroundStyle(Theme.tertiaryText)
+                    }
                 }
                 .accessibilityElement(children: .ignore)
-                .accessibilityLabel("Progression")
+                .accessibilityLabel("Progression, \(stepLabel ?? controller.subject.displayName)")
                 .accessibilityValue(controller.progressLabel)
             } else {
                 Spacer(minLength: 0)
@@ -95,7 +114,7 @@ struct LessonFlowView: View {
                 onContinue: advance
             )
         case .finished(let summary):
-            LessonFinishedView(controller: controller, summary: summary, onDone: onClose)
+            LessonFinishedView(controller: controller, summary: summary, onDone: onClose, next: next, onNext: onNext)
         }
     }
 

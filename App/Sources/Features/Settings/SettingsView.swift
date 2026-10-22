@@ -368,7 +368,7 @@ struct SettingsView: View {
 
     private func emergencyUnlock() {
         restrictions.emergencyUnlock(reason: "user_settings")
-        Task { await env.store.refresh() }
+        Task { await env.study.refresh() }
     }
 
     // MARK: Account
@@ -478,7 +478,7 @@ struct SettingsView: View {
         guard nameDraft.trimmingCharacters(in: .whitespacesAndNewlines) != current else { return }
         env.settings.setDisplayName(nameDraft)
         env.sync.requestSync(.settings)
-        Task { await env.store.refresh() }
+        Task { await env.study.refresh() }
     }
 
     private func exportData() {

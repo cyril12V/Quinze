@@ -17,6 +17,13 @@ enum SlotStatus: String, Sendable {
     case missed
 }
 
+/// One subject's part of a slot (anglais, arabe, culture G).
+struct SubjectPart: Identifiable, Equatable, Sendable {
+    var subject: Subject
+    var status: SlotStatus
+    var id: Subject { subject }
+}
+
 struct SlotState: Identifiable, Equatable, Sendable {
     var id: SessionSlot { slot }
     var slot: SessionSlot
@@ -25,6 +32,10 @@ struct SlotState: Identifiable, Equatable, Sendable {
     /// Apps are currently shielded for this slot.
     var restrictionActive: Bool
     var sessionId: UUID?
+    /// Subjects of the slot, in study order (empty for a single-subject view).
+    var parts: [SubjectPart] = []
+
+    var completedParts: Int { parts.filter { $0.status == .completed }.count }
 }
 
 /// Everything the home screen needs (§14.2).
@@ -94,9 +105,14 @@ private enum PlanKind: Sendable {
     case focused(String)
 }
 
+/// State and actions of ONE subject (anglais, arabe ou culture G): its engine, its learner and its sessions.
+/// `StudyCoordinator` chains the subjects of a slot and decides when a slot is complete.
 @MainActor
 @Observable
 final class LearningStore {
+    let subject: Subject
+    /// Set by the environment: chains subjects, lifts restrictions, plans reminders for the whole day.
+    @ObservationIgnored weak var coordinator: StudyCoordinator?
     /// Nil until the content bundle is loaded.
     private(set) var engine: LearningEngine?
     private(set) var learner: LearnerSnapshot = .empty
@@ -127,8 +143,10 @@ final class LearningStore {
     private var refreshGeneration = 0
     private var isProcessingGradings = false
 
-    init(local: LocalStore, content: ContentService, settings: SettingsStore, restrictions: RestrictionManager,
+    init(subject: Subject, local: LocalStore, content: ContentService, settings: SettingsStore, restrictions: RestrictionManager,
          notifications: NotificationScheduler, sync: SyncService, network: NetworkMonitor, ai: AIClient) {
+        self.subject = subject
+        self.languageName = subject.displayName
         self.local = local
         self.content = content
         self.settings = settings
@@ -143,18 +161,27 @@ final class LearningStore {
 
     /// Takes the engine built by the content service.
     func attachContent() {
-        engine = content.engine
-        if let language = engine?.language {
-            languageName = Self.frenchName(for: language)
-        }
+        engine = content.engines[subject]
+        languageName = subject.displayName
     }
 
-    private static func frenchName(for language: LanguageInfo) -> String {
-        switch language.code {
-        case "en": return "Anglais"
-        case "ar": return "Arabe"
-        default: return language.name
-        }
+    // MARK: This subject's share of local storage
+
+    func myMemoryStates() -> [MemoryState] { local.memoryStates().filter { subject.owns($0.unitId) } }
+    func myAttempts() -> [AttemptRecord] { local.recentAttempts(limit: 2_000).filter { subject.owns($0.exerciseId) } }
+    func mySessions() -> [SessionRecord] { local.sessions().filter { $0.subjectCode == subject.code } }
+    func mySessions(on day: LocalDay) -> [SessionRecord] { local.sessions(on: day).filter { $0.subjectCode == subject.code } }
+    private func myPendingGradingCount() -> Int {
+        local.pendingGradings(limit: 1_000).filter { subject.owns($0.exerciseId) }.count
+    }
+
+    /// The placement test only exists for English.
+    private var snapshotProfile: UserProfileRecord {
+        guard subject != .english else { return settings.profile }
+        var p = settings.profile
+        p.placement = nil
+        p.estimatedLevel = nil
+        return p
     }
 
     /// Forgets everything in memory (local data was wiped).
@@ -172,8 +199,8 @@ final class LearningStore {
     /// The learner as seen by the engine, rebuilt from local storage.
     @discardableResult
     func reloadLearner() -> LearnerSnapshot {
-        let snapshot = SnapshotBuilder.build(memoryStates: local.memoryStates(), attempts: local.recentAttempts(limit: 500),
-                                             sessions: local.sessions(), profile: settings.profile)
+        let snapshot = SnapshotBuilder.build(memoryStates: myMemoryStates(), attempts: myAttempts(),
+                                             sessions: mySessions(), profile: snapshotProfile)
         learner = snapshot
         return snapshot
     }
@@ -183,13 +210,13 @@ final class LearningStore {
         refreshGeneration += 1
         let generation = refreshGeneration
         let profile = settings.profile
-        let sessions = expireStaleSessions(local.sessions(), now: now)
-        let snapshot = SnapshotBuilder.build(memoryStates: local.memoryStates(), attempts: local.recentAttempts(limit: 500),
-                                             sessions: sessions, profile: profile)
+        let sessions = expireStaleSessions(mySessions(), now: now)
+        let snapshot = SnapshotBuilder.build(memoryStates: myMemoryStates(), attempts: myAttempts(),
+                                             sessions: sessions, profile: snapshotProfile)
         learner = snapshot
         displayName = profile.displayName
-        trackedWordIds = Set(local.vocabulary().map(\.dictionaryItemId))
-        pendingGradingCount = local.pendingGradingCount()
+        trackedWordIds = Set(local.vocabulary().map(\.dictionaryItemId).filter { subject.owns($0) })
+        pendingGradingCount = myPendingGradingCount()
 
         let day = LocalDay(date: now)
         let slots = SlotLogic.slotStates(day: day, now: now, schedule: settings.schedule, sessions: sessions,
@@ -240,7 +267,7 @@ final class LearningStore {
             guard engine != nil else { throw LearningStoreError.contentUnavailable }
             let now = Date.now
             let day = LocalDay(date: now)
-            let existing = local.sessions(on: day).filter { $0.slot == slot }
+            let existing = mySessions(on: day).filter { $0.slot == slot }
             if existing.contains(where: { $0.status == .completed }) { throw LearningStoreError.slotAlreadyCompleted }
             if let running = existing.first(where: { $0.status == .inProgress }), let controller = controller(resuming: running) {
                 return controller
@@ -280,7 +307,7 @@ final class LearningStore {
     /// A session interrupted earlier (app killed, user left), if any.
     func resumableSession() -> LessonController? {
         let day = LocalDay(date: .now)
-        let running = local.sessions(on: day)
+        let running = mySessions(on: day)
             .filter { $0.status == .inProgress }
             .sorted { ($0.startedAt ?? .distantPast) > ($1.startedAt ?? .distantPast) }
         for record in running {
@@ -324,7 +351,8 @@ final class LearningStore {
                                createdAt: raw.createdAt)
         let scheduled = slot.map { SlotLogic.instant(day: day, time: settings.schedule.time(for: $0)) }
         let record = SessionRecord(id: sessionId, type: plan.type, slot: plan.slot, day: day, scheduledAt: scheduled,
-                                   startedAt: now, status: .inProgress, lessonId: plan.lessonId, updatedAt: now)
+                                   startedAt: now, status: .inProgress, lessonId: plan.lessonId, updatedAt: now,
+                                   subject: subject.code)
         local.saveSession(record, dirty: true)
         let runner = SessionRunner(plan: plan, startedAt: now)
         local.saveRunner(runner, for: sessionId)
@@ -346,7 +374,7 @@ final class LearningStore {
     func sessionDidFinish(_ controller: LessonController) async {
         activeControllers[controller.id] = nil
         await refresh()
-        await rescheduleNotifications()
+        await coordinator?.subjectSessionDidFinish()
         sync.requestSync(.sessionCompleted)
         await processPendingGradings()
     }
@@ -412,7 +440,7 @@ final class LearningStore {
 
     func enqueueGrading(attempt: AttemptRecord, now: Date) {
         local.enqueueGrading(attemptId: attempt.id, exerciseId: attempt.exerciseId, userAnswer: attempt.submittedAnswer, now: now)
-        pendingGradingCount = local.pendingGradingCount()
+        pendingGradingCount = myPendingGradingCount()
     }
 
     /// Grades queued answers when the network allows it (foreground, connectivity regained, after a session).
@@ -421,7 +449,7 @@ final class LearningStore {
         isProcessingGradings = true
         defer { isProcessingGradings = false }
         var resolvedAny = false
-        for item in local.pendingGradings(limit: 10) {
+        for item in local.pendingGradings(limit: 200).filter({ subject.owns($0.exerciseId) }).prefix(10) {
             guard let engine else { break }
             let client = ai
             let code = engine.language.code
@@ -446,7 +474,7 @@ final class LearningStore {
                 if item.tries + 1 >= 5 { local.removePendingGrading(attemptId: item.attemptId) }
             }
         }
-        pendingGradingCount = local.pendingGradingCount()
+        pendingGradingCount = myPendingGradingCount()
         if resolvedAny {
             sync.requestSync(.manual)
             await refresh()
@@ -477,15 +505,26 @@ final class LearningStore {
 
     // MARK: Notifications
 
+    /// Reminders cover the whole day (every subject): planned by the coordinator.
     func rescheduleNotifications(now: Date = .now) async {
-        let todayDay = LocalDay(date: now)
-        var completed: [LocalDay: Set<SessionSlot>] = [:]
-        for session in local.sessions() where session.status == .completed && session.day >= todayDay {
-            if let slot = session.slot { completed[session.day, default: []].insert(slot) }
-        }
-        await notifications.reschedule(schedule: settings.schedule, preferences: settings.notificationPreferences,
-                                       completed: completed, dueReviewCount: today.dueReviewCount, now: now)
+        await coordinator?.rescheduleNotifications(now: now)
     }
+
+    // MARK: Time-based sessions
+
+    /// More practice for a session that ended before its target duration (fast learner): reviews and
+    /// exercises of the studied notions, never cards, never exercises already in the session.
+    func extensionItems(for plan: SessionPlan, now: Date) -> [SessionItem] {
+        guard let engine else { return [] }
+        let snapshot = learner
+        let day = LocalDay(date: now)
+        let seed = UInt64(truncatingIfNeeded: Int(now.timeIntervalSince1970)) &+ plan.id.planSeed
+        let more = engine.planSession(type: .extra, slot: nil, day: day, learner: snapshot, now: now, seed: seed)
+        return more.items.filter { $0.exerciseId != nil }
+    }
+
+    /// Target length (seconds) of this subject's part of a session.
+    var targetSessionSeconds: Int { settings.study.minutes(for: subject) * 60 }
 
     // MARK: Content & dictionary
 

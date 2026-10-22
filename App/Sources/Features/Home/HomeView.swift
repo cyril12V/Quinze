@@ -9,8 +9,8 @@ struct HomeView: View {
     @Environment(\.scenePhase) private var scenePhase
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
-    @State private var activeLesson: LessonController? = nil
-    @State private var resumable: LessonController? = nil
+    @State private var activeRun: StudyRun? = nil
+    @State private var resumable: StudyRun? = nil
     @State private var isStarting = false
     @State private var showUnlockDialog = false
     @State private var showDaySheet = false
@@ -23,7 +23,7 @@ struct HomeView: View {
         case slot(SessionSlot)
         case extra
         case assessment
-        case resume(LessonController)
+        case resume(StudyRun)
     }
 
     /// Width taken off each card so that the next one peeks out of the carousel.
@@ -39,10 +39,10 @@ struct HomeView: View {
             SettingsView()
         }
         .sheet(isPresented: $showDaySheet) {
-            HomeDaySheet(day: env.store.today.day, slots: env.store.today.slots)
+            HomeDaySheet(day: env.study.today.day, slots: env.study.today.slots)
         }
-        .fullScreenCover(item: $activeLesson) { controller in
-            LessonFlowView(controller: controller, onClose: closeLesson)
+        .fullScreenCover(item: $activeRun) { run in
+            StudyRunView(run: run, onClose: closeLesson)
         }
         .confirmationDialog(
             "Débloquer tes apps maintenant ?",
@@ -68,8 +68,8 @@ struct HomeView: View {
         VStack(alignment: .leading, spacing: Theme.Spacing.section) {
             header
 
-            if let message = env.store.errorMessage {
-                HomeErrorBanner(message: message) { env.store.errorMessage = nil }
+            if let message = env.study.errorMessage {
+                HomeErrorBanner(message: message) { env.study.errorMessage = nil }
                     .qAppear(0)
             }
 
@@ -79,7 +79,8 @@ struct HomeView: View {
             }
 
             if let resumable {
-                HomeResumeCard(sessionName: resumable.type.displayName, isStarting: isStarting) {
+                HomeResumeCard(sessionName: "\(resumable.controller.subject.displayName) · \(resumable.controller.type.displayName)",
+                               isStarting: isStarting) {
                     start(.resume(resumable))
                 }
                 .qAppear(3)
@@ -88,7 +89,7 @@ struct HomeView: View {
             statsBlock
                 .qAppear(4)
 
-            if env.store.today.assessmentDue {
+            if env.study.today.assessmentDue {
                 HomeAssessmentCard(isStarting: isStarting) { start(.assessment) }
                     .qAppear(5)
             }
@@ -144,9 +145,9 @@ struct HomeView: View {
     }
 
     private var screenSubtitle: String {
-        let today: TodayState = env.store.today
+        let today: TodayState = env.study.today
         if today.slots.isEmpty {
-            return env.store.isLoading ? "Je prépare ta journée…" : "Une courte série d'exercices, à ton rythme."
+            return env.study.isLoading ? "Je prépare ta journée…" : "Une courte série d'exercices, à ton rythme."
         }
         let done: Int = today.completedCount
         let total: Int = today.slots.count
@@ -163,7 +164,7 @@ struct HomeView: View {
             SkeletonCard(height: 300)
         } else {
             VStack(alignment: .leading, spacing: Theme.Spacing.card) {
-                if !env.store.today.slots.isEmpty {
+                if !env.study.today.slots.isEmpty {
                     slotChips
                 }
                 carousel
@@ -178,7 +179,7 @@ struct HomeView: View {
     private var slotChips: some View {
         ScrollView(.horizontal) {
             HStack(spacing: Theme.Spacing.s) {
-                ForEach(env.store.today.slots) { slot in
+                ForEach(env.study.today.slots) { slot in
                     slotChip(slot)
                 }
             }
@@ -227,20 +228,25 @@ struct HomeView: View {
     @ViewBuilder private func carouselCard(_ item: HomeCarouselItem, index: Int) -> some View {
         switch item.kind {
         case .slot(let slot):
-            HomeSlotCard(slot: slot, isStarting: isStarting) { start(.slot(slot.slot)) }
+            HomeSlotCard(slot: slot, minutes: sittingMinutes, isStarting: isStarting) { start(.slot(slot.slot)) }
                 .containerRelativeFrame(.horizontal) { length, _ in max(length - Self.carouselPeek, 240) }
                 .qAppear(index + 1)
         case .extra(let allDone):
-            HomeExtraCard(allDone: allDone, isStarting: isStarting) { start(.extra) }
+            HomeExtraCard(allDone: allDone, minutes: sittingMinutes, isStarting: isStarting) { start(.extra) }
                 .containerRelativeFrame(.horizontal) { length, _ in max(length - Self.carouselPeek, 240) }
                 .qAppear(index + 1)
         }
     }
 
+    /// Length of a sitting: every enabled subject one after the other.
+    private var sittingMinutes: Int {
+        env.study.enabledSubjects.reduce(0) { $0 + env.settings.study.minutes(for: $1) }
+    }
+
     // MARK: Stats
 
     private var statsBlock: some View {
-        let today: TodayState = env.store.today
+        let today: TodayState = env.study.today
         let reviewsLabel: String = today.dueReviewCount > 1 ? "Révisions à faire" : "Révision à faire"
         return StatGrid {
             StatMiniCard(icon: .flame, value: FrenchLabels.days(today.streakDays), label: "Série en cours", pastel: .pink)
@@ -251,9 +257,9 @@ struct HomeView: View {
     // MARK: Featured slot
 
     private var featuredState: HomeFeaturedState {
-        let today: TodayState = env.store.today
+        let today: TodayState = env.study.today
         if today.slots.isEmpty {
-            return env.store.isLoading ? .loading : .extra(allDone: false)
+            return env.study.isLoading ? .loading : .extra(allDone: false)
         }
         if let slot = today.slots.first(where: { $0.status == .inProgress }) { return .resume(slot) }
         if let slot = today.slots.first(where: { $0.status == .available }) { return .start(slot) }
@@ -274,7 +280,7 @@ struct HomeView: View {
     /// Featured slot first, then the other slots still to do, then the finished ones.
     /// With the 3 lessons done (or no slot at all) the « leçon supplémentaire » card leads.
     private var carouselItems: [HomeCarouselItem] {
-        let slots: [SlotState] = env.store.today.slots
+        let slots: [SlotState] = env.study.today.slots
         if slots.isEmpty {
             return [HomeCarouselItem(kind: .extra(allDone: false))]
         }
@@ -299,28 +305,33 @@ struct HomeView: View {
     private func start(_ action: StartAction) {
         guard !isStarting else { return }
         isStarting = true
-        env.store.errorMessage = nil
+        env.study.errorMessage = nil
         Task { @MainActor in
             defer { isStarting = false }
             do {
+                let run: StudyRun
                 switch action {
                 case .slot(let slot):
-                    activeLesson = try await env.store.startSession(for: slot)
+                    run = try await env.study.startSlot(slot)
                 case .extra:
-                    activeLesson = try await env.store.startExtraSession()
+                    run = try await env.study.startExtra()
                 case .assessment:
-                    activeLesson = try await env.store.startAssessment()
-                case .resume(let controller):
-                    activeLesson = controller
+                    run = try await env.study.startAssessment()
+                case .resume(let resumed):
+                    run = resumed
                 }
+                env.study.focusSubject = run.controller.subject
+                activeRun = run
             } catch {
-                env.store.errorMessage = "Impossible de lancer la leçon pour le moment. Réessaie dans un instant."
+                if env.study.errorMessage == nil {
+                    env.study.errorMessage = "Impossible de lancer la leçon pour le moment. Réessaie dans un instant."
+                }
             }
         }
     }
 
     private func closeLesson() {
-        activeLesson = nil
+        activeRun = nil
         Task { @MainActor in
             await reload()
             focusedCard = carouselItems.first?.id
@@ -333,10 +344,10 @@ struct HomeView: View {
     }
 
     private func reload() async {
-        await env.store.refresh()
-        guard activeLesson == nil else { return }
-        let candidate: LessonController? = env.store.resumableSession()
-        if let candidate, candidate.slot == nil, !candidate.isFinished {
+        await env.study.refresh()
+        guard activeRun == nil else { return }
+        let candidate: StudyRun? = env.study.resumableRun()
+        if let candidate, candidate.controller.slot == nil, !candidate.controller.isFinished {
             resumable = candidate
         } else {
             resumable = nil

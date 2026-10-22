@@ -29,11 +29,16 @@ struct SessionRecord: Codable, Equatable, Sendable, Identifiable {
     var score: Double?
     var emergencyUnlocked: Bool
     var updatedAt: Date
+    /// Subject code ("en", "ar", "cg"). Nil in sessions saved before the v2: they are English.
+    var subject: String?
+
+    var subjectCode: String { subject ?? "en" }
 
     init(id: UUID, type: SessionType, slot: SessionSlot?, day: LocalDay, scheduledAt: Date? = nil,
          startedAt: Date? = nil, completedAt: Date? = nil, status: SessionStatus, lessonId: String? = nil,
          itemCount: Int = 0, correctCount: Int = 0, durationSeconds: Int = 0, score: Double? = nil,
-         emergencyUnlocked: Bool = false, updatedAt: Date) {
+         emergencyUnlocked: Bool = false, updatedAt: Date, subject: String? = nil) {
+        self.subject = subject
         self.id = id
         self.type = type
         self.slot = slot

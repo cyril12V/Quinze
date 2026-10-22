@@ -46,6 +46,10 @@ final class LessonController: Identifiable {
 
     var slot: SessionSlot? { plan.slot }
     var type: SessionType { plan.type }
+    /// Subject studied in this session.
+    var subject: Subject { store.subject }
+    /// Items added because the learner was faster than the subject's target duration.
+    private(set) var extendedCount = 0
     var isFinished: Bool { if case .finished = phase { return true } else { return false } }
     var summary: SessionSummary? { if case .finished(let s) = phase { return s } else { return nil } }
 
@@ -138,6 +142,7 @@ final class LessonController: Identifiable {
         }
         guard !isBusy else { return }
         runner.advance(engine: engine, learner: store.learner)
+        if runner.isComplete { extendIfTimeRemains() }
         persistRunner()
         if runner.isComplete {
             await finish()
@@ -150,6 +155,22 @@ final class LessonController: Identifiable {
     func suspend() {
         guard !isFinished, !isFinishing else { return }
         persistRunner()
+    }
+
+    /// Time-based sessions: a learner who answers fast keeps practising (reviews of what he knows,
+    /// exercises of the notions he is studying) until the subject's target duration is reached.
+    private func extendIfTimeRemains() {
+        switch plan.type {
+        case .learning, .application, .consolidation, .extra: break
+        case .diagnostic, .assessment: return
+        }
+        let elapsed = Date.now.timeIntervalSince(runner.startedAt)
+        let target = Double(store.targetSessionSeconds)
+        // Stop when less than ~25 s remain, and never more than 60 extra items in one session.
+        guard elapsed < target - 25, extendedCount < 60 else { return }
+        let batch = Array(store.extensionItems(for: plan, now: .now).prefix(6))
+        let added = runner.extend(with: batch)
+        extendedCount += added
     }
 
     // MARK: State
@@ -235,14 +256,10 @@ final class LessonController: Identifiable {
         store.local.saveSession(completed, dirty: true)
         store.local.clearRunner(for: id)
 
-        // The lesson of a slot lifts the slot's shield (also when done during the early-start window).
+        // A slot's shield is lifted once every subject of the slot is done (coordinator).
         var lifted: Bool?
-        if let slot = plan.slot {
-            let wasActive = store.restrictions.activeSlots.contains(slot)
-            store.restrictions.sessionCompleted(slot: slot, day: plan.day)
-            if wasActive { lifted = !store.restrictions.activeSlots.contains(slot) }
-            await store.notifications.sessionCompleted(slot: slot, day: plan.day, restrictionsLifted: lifted ?? false,
-                                                       preferences: store.settings.notificationPreferences)
+        if let slot = plan.slot, let coordinator = store.coordinator {
+            lifted = await coordinator.slotPartCompleted(slot: slot, day: plan.day)
         }
         restrictionLifted = lifted
         currentItem = nil

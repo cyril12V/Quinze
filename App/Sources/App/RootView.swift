@@ -23,6 +23,7 @@ struct RootView: View {
             }
         }
         .animation(.easeInOut(duration: 0.2), value: env.route)
+        .preferredColorScheme(env.settings.study.appearance.colorScheme)
         .fullScreenCover(isPresented: Binding(
             get: { env.auth.state == .passwordRecovery },
             set: { presented in if !presented { env.auth.cancelRecovery() } })) {
@@ -82,9 +83,9 @@ private struct ContentErrorView: View {
     private func retry() {
         isRetrying = true
         Task {
-            await env.content.load(languageCode: env.settings.profile.languageId)
-            env.store.attachContent()
-            await env.store.refresh()
+            await env.content.loadAll(configuration: env.engineConfiguration(for:))
+            env.attachContent()
+            await env.study.refresh()
             isRetrying = false
         }
     }

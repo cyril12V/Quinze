@@ -81,12 +81,18 @@ struct SessionPlanner {
     var isFlooded: Bool { overdueCount > config.overdueThresholdToPauseNewMaterial }
 
     /// True when a lesson was completed today (its units were first seen today).
-    var lessonLearnedToday: Bool {
-        learner.memoryStates.values.contains { st in
+    var lessonLearnedToday: Bool { lessonsLearnedToday > 0 }
+
+    /// Number of lessons completed today (their units were first seen today).
+    var lessonsLearnedToday: Int {
+        var lessons = Set<String>()
+        for st in learner.memoryStates.values {
             guard st.source == .lesson, LocalDay(date: st.firstSeenAt, calendar: calendar) == day,
-                  let lessonId = index.tables.introducingLessonId[st.unitId] else { return false }
-            return learner.completedLessonIds.contains(lessonId)
+                  let lessonId = index.tables.introducingLessonId[st.unitId],
+                  learner.completedLessonIds.contains(lessonId) else { continue }
+            lessons.insert(lessonId)
         }
+        return lessons.count
     }
 
     private var struggling: Bool { (performance ?? 1) < EngineTuning.lowPerformance }
@@ -546,7 +552,7 @@ extension LearningEngine {
         // Probe planner: facts about the day (it is cheap and not used to build items).
         let probe = SessionPlanner(engine: self, learner: learner, now: now, day: day, seed: seed, salt: "probe")
         let flooded = probe.isFlooded
-        let learnedToday = probe.lessonLearnedToday
+        let learnedToday = probe.lessonsLearnedToday >= max(1, configuration.maxNewLessonsPerDay)
         let pending = selector.firstPending(learner)
         var blocker: String?
         var lesson: Lesson?

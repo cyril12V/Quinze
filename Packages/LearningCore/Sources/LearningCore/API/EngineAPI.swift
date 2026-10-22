@@ -282,6 +282,21 @@ public struct SessionRunner: Codable, Hashable, Sendable {
     public func summary(engine: LearningEngine, now: Date) -> SessionSummary {
         buildSummary(engine: engine, now: now)
     }
+
+    /// Adds items at the end of the session (time-based sessions: a fast learner gets more practice
+    /// until the target duration is reached). Exercises already in the session are skipped.
+    /// Returns the number of items added.
+    @discardableResult
+    public mutating func extend(with newItems: [SessionItem]) -> Int {
+        let inSession = Set(items.compactMap { $0.exerciseId })
+        var added = 0
+        for item in newItems {
+            if let exerciseId = item.exerciseId, inSession.contains(exerciseId) { continue }
+            items.append(item)
+            added += 1
+        }
+        return added
+    }
 }
 
 /// Adaptive placement test (15–20 questions, staircase on levels 0...4).

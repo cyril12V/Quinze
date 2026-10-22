@@ -54,12 +54,14 @@ final class TutorService {
 
     private let ai: AIClient
     private let network: NetworkMonitor
-    private unowned let store: LearningStore
+    /// Store of the subject being studied (the tutor follows the lesson or screen in front of the user).
+    @ObservationIgnored private let storeProvider: @MainActor () -> LearningStore
+    private var store: LearningStore { storeProvider() }
 
-    init(ai: AIClient, network: NetworkMonitor, store: LearningStore) {
+    init(ai: AIClient, network: NetworkMonitor, store: @escaping @MainActor () -> LearningStore) {
         self.ai = ai
         self.network = network
-        self.store = store
+        self.storeProvider = store
     }
 
     /// First explanation ("Explique-moi") or deeper one ("Plus de détails").

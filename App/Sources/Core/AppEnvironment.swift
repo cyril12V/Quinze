@@ -21,7 +21,11 @@ enum AppRoute: Equatable {
 @MainActor
 @Observable
 final class AppEnvironment {
-    let store: LearningStore
+    /// One store per subject, chained by `study`.
+    let stores: [Subject: LearningStore]
+    let study: StudyCoordinator
+    /// Store of the subject currently in focus (dictionary, progress, path, tutor, lesson in progress).
+    var store: LearningStore { study.focusStore }
     let tutor: TutorService
     let speech: SpeechService
     let restrictions: RestrictionManager
@@ -57,8 +61,16 @@ final class AppEnvironment {
         let sync = SyncService(backend: backend, local: local, settings: settings, network: network,
                                currentUserId: { [weak auth] in auth?.userId })
         let ai = AIClient(backend: backend)
-        let store = LearningStore(local: local, content: content, settings: settings, restrictions: restrictions,
-                                  notifications: notifications, sync: sync, network: network, ai: ai)
+        var stores: [Subject: LearningStore] = [:]
+        for subject in Subject.allCases {
+            stores[subject] = LearningStore(subject: subject, local: local, content: content, settings: settings,
+                                            restrictions: restrictions, notifications: notifications, sync: sync,
+                                            network: network, ai: ai)
+        }
+        let study = StudyCoordinator(stores: stores, settings: settings, local: local,
+                                     restrictions: restrictions, notifications: notifications)
+        self.stores = stores
+        self.study = study
         self.config = config
         self.backend = backend
         self.local = local
@@ -67,8 +79,7 @@ final class AppEnvironment {
         self.content = content
         self.auth = auth
         self.sync = sync
-        self.store = store
-        self.tutor = TutorService(ai: ai, network: network, store: store)
+        self.tutor = TutorService(ai: ai, network: network, store: { study.focusStore })
         self.speech = SpeechService()
         self.restrictions = restrictions
         self.notifications = notifications
@@ -98,7 +109,7 @@ final class AppEnvironment {
         case .signedOut:
             return welcomeSeen ? .auth : .onboarding
         case .signedIn, .passwordRecovery:
-            if store.engine == nil { return .contentError }
+            if stores[.english]?.engine == nil { return .contentError }
             return settings.profile.onboardingCompleted ? .home : .onboarding
         }
     }
@@ -120,8 +131,8 @@ final class AppEnvironment {
         let syncService = sync
         syncService.onDataChanged = { [weak self] scheduleChanged in await self?.syncDidMerge(scheduleChanged: scheduleChanged) }
         auth.start()
-        await content.load(languageCode: settings.profile.languageId)
-        store.attachContent()
+        await content.loadAll(configuration: engineConfiguration(for:))
+        attachContent()
         restrictions.refreshAuthorization()
         restrictions.reconcile(now: .now)
         if auth.state == .signedIn { await postSignIn() }
@@ -141,17 +152,44 @@ final class AppEnvironment {
             _ = await sync.restoreFromServer()
             isRestoring = false
         }
-        store.attachContent()
-        await store.refresh()
+        attachContent()
+        await study.refresh()
         if settings.profile.onboardingCompleted { await startNormalOperation() }
     }
 
     private func startNormalOperation() async {
         applyRestrictionSchedule()
         sync.requestSync(.launch)
-        await store.refresh()
-        await store.rescheduleNotifications()
-        await store.processPendingGradings()
+        await study.refresh()
+        await study.rescheduleNotifications()
+        await processPendingGradings()
+    }
+
+    // MARK: Subjects
+
+    /// Engine settings of a subject: its session length and up to one new lesson per slot.
+    func engineConfiguration(for subject: Subject) -> EngineConfiguration {
+        var config = EngineConfiguration.default
+        config.targetSessionSeconds = settings.study.minutes(for: subject) * 60
+        config.maxInteractions = 25
+        config.maxNewLessonsPerDay = 3
+        return config
+    }
+
+    func attachContent() {
+        for store in stores.values { store.attachContent() }
+    }
+
+    /// Session lengths or enabled subjects changed in the settings.
+    func studyPreferencesDidChange() async {
+        content.reconfigure(engineConfiguration(for:))
+        attachContent()
+        await study.refresh()
+        await study.rescheduleNotifications()
+    }
+
+    private func processPendingGradings() async {
+        for store in stores.values { await store.processPendingGradings() }
     }
 
     /// Onboarding finished (first lesson done or postponed).
@@ -173,14 +211,14 @@ final class AppEnvironment {
         checkScreenTimeAuthorization(previous: previous)
         guard auth.state == .signedIn, settings.profile.onboardingCompleted else { return }
         sync.requestSync(.foreground)
-        await store.refresh()
-        await store.rescheduleNotifications()
-        await store.processPendingGradings()
+        await study.refresh()
+        await study.rescheduleNotifications()
+        await processPendingGradings()
         await content.checkForUpdate()
     }
 
     func didEnterBackground() {
-        store.suspendActiveSessions()
+        for store in stores.values { store.suspendActiveSessions() }
     }
 
     func handle(url: URL) async {
@@ -191,7 +229,7 @@ final class AppEnvironment {
         guard auth.state == .signedIn, settings.profile.onboardingCompleted else { return }
         sync.requestSync(.connectivity)
         Task {
-            await store.processPendingGradings()
+            await processPendingGradings()
             await content.checkForUpdate()
         }
     }
@@ -233,14 +271,14 @@ final class AppEnvironment {
     private func significantTimeChange() async {
         guard auth.state == .signedIn, settings.profile.onboardingCompleted else { return }
         restrictions.reconcile(now: .now)
-        await store.refresh()
-        await store.rescheduleNotifications()
+        await study.refresh()
+        await study.rescheduleNotifications()
     }
 
     private func syncDidMerge(scheduleChanged: Bool) async {
         if scheduleChanged { applyRestrictionSchedule() }
-        await store.refresh()
-        if settings.profile.onboardingCompleted { await store.rescheduleNotifications() }
+        await study.refresh()
+        if settings.profile.onboardingCompleted { await study.rescheduleNotifications() }
     }
 
     // MARK: Settings actions
@@ -256,8 +294,8 @@ final class AppEnvironment {
 
     func scheduleDidChange() async {
         applyRestrictionSchedule()
-        await store.rescheduleNotifications()
-        await store.refresh()
+        await study.rescheduleNotifications()
+        await study.refresh()
         sync.requestSync(.settings)
     }
 
@@ -274,7 +312,7 @@ final class AppEnvironment {
 
     func updateNotificationPreferences(_ preferences: NotificationPreferences) async {
         settings.updateNotificationPreferences(preferences)
-        await store.rescheduleNotifications()
+        await study.rescheduleNotifications()
         sync.requestSync(.settings)
     }
 
@@ -282,7 +320,7 @@ final class AppEnvironment {
 
     /// Syncs (best effort, 6 s), signs out and switches the restrictions off: without an account there is no lesson to lift them.
     func logout() async -> Bool {
-        store.suspendActiveSessions()
+        didEnterBackground()
         let sync = self.sync
         _ = try? await withTimeout(seconds: 6) { await sync.syncNow(.manual) }
         guard await auth.signOut() else { return false }
@@ -294,7 +332,7 @@ final class AppEnvironment {
 
     /// Server deletion first (needs the network), then local wipe, restrictions off, back to the welcome screen.
     func deleteAccount() async throws {
-        store.suspendActiveSessions()
+        didEnterBackground()
         try await auth.deleteAccountOnServer()
         sync.cancelAll()
         wipeLocalData()
@@ -308,7 +346,7 @@ final class AppEnvironment {
     private func wipeLocalData() {
         local.wipeAll()
         settings.reload()
-        store.reset()
+        for store in stores.values { store.reset() }
     }
 
     private func shutDownRestrictions(reason: String) {

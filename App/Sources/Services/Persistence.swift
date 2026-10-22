@@ -618,6 +618,21 @@ final class LocalStore {
 
     // MARK: Wipe
 
+    /// Deletes everything studied in some subjects (ids starting with "ar." / "cg.", sessions of those
+    /// subjects). Used once when the content of these subjects was rewritten from scratch.
+    func wipeSubjects(_ codes: Set<String>) {
+        let prefixes = codes.map { $0 + "." }
+        func owned(_ id: String) -> Bool { prefixes.contains { id.hasPrefix($0) } }
+        for row in fetch(FetchDescriptor<MemoryStateEntity>()) where owned(row.unitId) { context.delete(row) }
+        for row in fetch(FetchDescriptor<AttemptEntity>()) where owned(row.exerciseId) { context.delete(row) }
+        for row in fetch(FetchDescriptor<VocabularyEntity>()) where owned(row.dictionaryItemId) { context.delete(row) }
+        for row in fetch(FetchDescriptor<PendingGradingEntity>()) where owned(row.exerciseId) { context.delete(row) }
+        for row in fetch(FetchDescriptor<SessionEntity>()) {
+            if let session = decode(SessionRecord.self, row.data), codes.contains(session.subjectCode) { context.delete(row) }
+        }
+        save()
+    }
+
     /// Deletes every row (account deletion, switching accounts).
     func wipeAll() {
         do {

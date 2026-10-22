@@ -196,6 +196,11 @@ final class LearningStore {
         pendingGradingCount = 0
     }
 
+    /// Title of the next lesson to learn in this subject (home blocks), nil when there is none.
+    var upNextTitle: String? {
+        engine?.nextLesson(for: learner, now: .now)?.title
+    }
+
     /// The learner as seen by the engine, rebuilt from local storage.
     @discardableResult
     func reloadLearner() -> LearnerSnapshot {

@@ -6,6 +6,10 @@ private struct SpeechEnabledKey: EnvironmentKey {
     static let defaultValue = true
 }
 
+private struct SubjectLockedKey: EnvironmentKey {
+    static let defaultValue = false
+}
+
 private struct StudySubjectCodeKey: EnvironmentKey {
     static let defaultValue = "en"
 }
@@ -15,6 +19,12 @@ extension EnvironmentValues {
     var speechEnabled: Bool {
         get { self[SpeechEnabledKey.self] }
         set { self[SpeechEnabledKey.self] = newValue }
+    }
+
+    /// True inside a subject's own tab: the subject switcher chips are hidden.
+    var subjectLocked: Bool {
+        get { self[SubjectLockedKey.self] }
+        set { self[SubjectLockedKey.self] = newValue }
     }
 
     /// Code of the subject being studied on screen ("en", "ar", "cg").

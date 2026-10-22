@@ -35,30 +35,10 @@ final class StudyRun: Identifiable {
         return nil
     }
 
-    /// Subject that comes after the current one, once it is finished.
-    var nextSubject: Subject? {
-        guard controller.isFinished else { return nil }
-        switch kind {
-        case .slot(let slot):
-            return coordinator.nextSubject(slot: slot, day: controller.plan.day)
-        case .extra:
-            return coordinator.enabledSubjects.first { !studied.contains($0) }
-        case .single:
-            return nil
-        }
-    }
+    /// Subjects are done one at a time from the home blocks: a run never chains to another subject.
+    var nextSubject: Subject? { nil }
 
-    /// "Anglais · 1/3"
-    var stepLabel: String? {
-        let total: Int
-        switch kind {
-        case .slot, .extra: total = coordinator.enabledSubjects.count
-        case .single: return nil
-        }
-        guard total > 1 else { return nil }
-        let position = (coordinator.enabledSubjects.firstIndex(of: controller.subject) ?? 0) + 1
-        return "\(controller.subject.displayName) · \(position)/\(total)"
-    }
+    var stepLabel: String? { nil }
 
     /// Starts the next subject. Returns false when there is none (or it could not start).
     @discardableResult
@@ -207,6 +187,40 @@ final class StudyCoordinator {
                 return try await startPart(of: slot, subject: next)
             }
             return nil
+        }
+    }
+
+    /// One subject's session of a slot, started from its home block. Nil when the subject has nothing to
+    /// study for this slot: an empty completed session is recorded so that the slot can still be completed.
+    func startSubject(_ subject: Subject, slot: SessionSlot) async throws -> StudyRun? {
+        do {
+            let controller = try await store(subject).startSession(for: slot)
+            errorMessage = nil
+            return StudyRun(kind: .slot(slot), controller: controller, coordinator: self)
+        } catch LearningStoreError.emptySession {
+            let now = Date.now
+            let day = LocalDay(date: now)
+            local.saveSession(SessionRecord(id: UUID(), type: slot.defaultSessionType, slot: slot, day: day,
+                                            startedAt: now, completedAt: now, status: .completed, updatedAt: now,
+                                            subject: subject.code), dirty: true)
+            _ = await slotPartCompleted(slot: slot, day: day)
+            await refresh()
+            return nil
+        } catch {
+            errorMessage = error.localizedDescription
+            throw error
+        }
+    }
+
+    /// Free practice in one subject.
+    func startExtra(_ subject: Subject) async throws -> StudyRun {
+        do {
+            let controller = try await store(subject).startExtraSession()
+            errorMessage = nil
+            return StudyRun(kind: .extra, controller: controller, coordinator: self)
+        } catch {
+            errorMessage = error.localizedDescription
+            throw error
         }
     }
 

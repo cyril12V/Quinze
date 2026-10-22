@@ -71,7 +71,7 @@ enum SnapshotBuilder {
         let completed = sessions.filter { $0.status == .completed }
         // A lesson counts once validated (sessions before v3 have no verdict: validated).
         let lessonIds = Set(completed.filter { $0.lessonPassed != false }.compactMap(\.lessonId))
-        let lastAssessment = completed.filter { $0.type == .assessment }.compactMap(\.completedAt).max()
+        let lastAssessment = completed.filter { $0.type == .assessment && $0.examModule == nil }.compactMap(\.completedAt).max()
         let passedModules = Set(completed.filter { $0.examPassed == true }.compactMap(\.examModule))
         let last = completed.max { ($0.completedAt ?? .distantPast) < ($1.completedAt ?? .distantPast) }
         let failedModule = last?.examPassed == false ? last?.examModule : nil

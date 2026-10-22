@@ -1,8 +1,9 @@
 import SwiftUI
 import LearningCore
 
-/// Home tab (« dashboard » model): greeting header, dynamic title, today's slots as chips and as a
-/// carousel of big pastel cards, then streak / reviews, assessment and restriction cards.
+/// Home tab: greeting header, dynamic title, today's slots as chips and, for the slot shown, one block per
+/// subject (anglais, arabe, culture G) started separately; then free practice, streak / reviews, assessment
+/// and restriction cards.
 /// Wrapped in a `NavigationStack` by `MainTabView`: it hides the system bar and draws `AppHeader`.
 struct HomeView: View {
     @Environment(AppEnvironment.self) private var env
@@ -15,19 +16,17 @@ struct HomeView: View {
     @State private var showUnlockDialog = false
     @State private var showDaySheet = false
     @State private var showSettings = false
-    @State private var focusedCard: HomeCardID? = nil
+    @State private var selectedSlot: SessionSlot? = nil
+    @State private var infoMessage: String? = nil
 
     init() {}
 
     private enum StartAction {
-        case slot(SessionSlot)
-        case extra
+        case subject(Subject, SessionSlot)
+        case extra(Subject)
         case assessment
         case resume(StudyRun)
     }
-
-    /// Width taken off each card so that the next one peeks out of the carousel.
-    private static let carouselPeek: CGFloat = 22
 
     var body: some View {
         QScreen {
@@ -75,6 +74,10 @@ struct HomeView: View {
 
             if let message = env.study.errorMessage {
                 HomeErrorBanner(message: message) { env.study.errorMessage = nil }
+                    .qAppear(0)
+            }
+            if let infoMessage {
+                HomeInfoBanner(message: infoMessage) { self.infoMessage = nil }
                     .qAppear(0)
             }
 
@@ -162,23 +165,35 @@ struct HomeView: View {
         return "\(done) leçon sur \(total) terminée aujourd'hui."
     }
 
-    // MARK: Lessons (chips + carousel)
+    // MARK: Lessons (slot chips + one block per subject)
 
     @ViewBuilder private var lessonsBlock: some View {
         if case .loading = featuredState {
             SkeletonCard(height: 300)
         } else {
             VStack(alignment: .leading, spacing: Theme.Spacing.card) {
-                if !env.study.today.slots.isEmpty {
+                if let slot = shownSlot {
                     slotChips
+                    ForEach(Array(slot.parts.enumerated()), id: \.element.id) { offset, part in
+                        HomeSubjectBlock(subject: part.subject, status: part.status, scheduledTime: slot.scheduledTime,
+                                         minutes: env.settings.study.minutes(for: part.subject),
+                                         upNext: env.study.store(part.subject).upNextTitle,
+                                         isStarting: isStarting,
+                                         onStart: { start(.subject(part.subject, slot.slot)) },
+                                         onPractice: { start(.extra(part.subject)) })
+                            .qAppear(offset + 1)
+                    }
                 }
-                carousel
+                freePractice
             }
         }
     }
 
-    private var selectedCard: HomeCardID? {
-        focusedCard ?? carouselItems.first?.id
+    /// The slot whose subject blocks are shown: the one chosen with the chips, else the featured one.
+    private var shownSlot: SlotState? {
+        let slots: [SlotState] = env.study.today.slots
+        if let selectedSlot, let slot = slots.first(where: { $0.slot == selectedSlot }) { return slot }
+        return featuredSlot ?? slots.last
     }
 
     private var slotChips: some View {
@@ -198,54 +213,34 @@ struct HomeView: View {
         FilterChip(title: "\(slot.slot.displayName) · \(slot.scheduledTime)",
                    icon: slot.status.homeIcon,
                    iconFill: slot.status.homeIconFill,
-                   isSelected: selectedCard == HomeCardID.slot(slot.slot)) {
-            select(.slot(slot.slot))
+                   isSelected: shownSlot?.slot == slot.slot) {
+            if reduceMotion { selectedSlot = slot.slot } else { withAnimation(.easeOut(duration: 0.2)) { selectedSlot = slot.slot } }
         }
         .accessibilityLabel("\(slot.slot.displayName), \(slot.scheduledTime), \(slot.status.homeLabel.lowercased())")
-        .accessibilityHint("Affiche la carte de cette leçon")
+        .accessibilityHint("Affiche les matières de cette leçon")
     }
 
-    private func select(_ id: HomeCardID) {
-        if reduceMotion {
-            focusedCard = id
-        } else {
-            withAnimation(.easeOut(duration: 0.25)) { focusedCard = id }
-        }
-    }
-
-    private var carousel: some View {
-        let items: [HomeCarouselItem] = carouselItems
-        return ScrollView(.horizontal) {
-            HStack(alignment: .top, spacing: Theme.Spacing.card) {
-                ForEach(Array(items.enumerated()), id: \.element.id) { offset, item in
-                    carouselCard(item, index: offset)
+    /// « Entraînement libre » : one more session in the subject of your choice, whenever you want.
+    private var freePractice: some View {
+        VStack(alignment: .leading, spacing: Theme.Spacing.s) {
+            QSectionTitle("Entraînement libre")
+            Text("Une séance en plus, quand tu veux : révisions, et la leçon suivante s'il n'y a rien à revoir.")
+                .font(Theme.Font.callout)
+                .foregroundStyle(Theme.secondaryText)
+                .fixedSize(horizontal: false, vertical: true)
+            HStack(spacing: Theme.Spacing.s) {
+                ForEach(env.study.enabledSubjects) { subject in
+                    Button { start(.extra(subject)) } label: {
+                        Text("\(subject.emoji) \(subject.shortName)")
+                            .font(Theme.Font.callout(.semibold))
+                            .frame(maxWidth: .infinity)
+                    }
+                    .buttonStyle(.secondary)
+                    .disabled(isStarting)
+                    .accessibilityLabel("Entraînement libre, \(subject.displayName)")
                 }
             }
-            .scrollTargetLayout()
         }
-        .scrollIndicators(.hidden)
-        .scrollTargetBehavior(.viewAligned)
-        .scrollPosition(id: $focusedCard)
-        .contentMargins(.horizontal, Theme.Spacing.page, for: .scrollContent)
-        .padding(.horizontal, -Theme.Spacing.page)
-    }
-
-    @ViewBuilder private func carouselCard(_ item: HomeCarouselItem, index: Int) -> some View {
-        switch item.kind {
-        case .slot(let slot):
-            HomeSlotCard(slot: slot, minutes: sittingMinutes, isStarting: isStarting) { start(.slot(slot.slot)) }
-                .containerRelativeFrame(.horizontal) { length, _ in max(length - Self.carouselPeek, 240) }
-                .qAppear(index + 1)
-        case .extra(let allDone):
-            HomeExtraCard(allDone: allDone, minutes: sittingMinutes, isStarting: isStarting) { start(.extra) }
-                .containerRelativeFrame(.horizontal) { length, _ in max(length - Self.carouselPeek, 240) }
-                .qAppear(index + 1)
-        }
-    }
-
-    /// Length of a sitting: every enabled subject one after the other.
-    private var sittingMinutes: Int {
-        env.study.enabledSubjects.reduce(0) { $0 + env.settings.study.minutes(for: $1) }
     }
 
     // MARK: Stats
@@ -282,44 +277,26 @@ struct HomeView: View {
         }
     }
 
-    /// Featured slot first, then the other slots still to do, then the finished ones.
-    /// With the 3 lessons done (or no slot at all) the « leçon supplémentaire » card leads.
-    private var carouselItems: [HomeCarouselItem] {
-        let slots: [SlotState] = env.study.today.slots
-        if slots.isEmpty {
-            return [HomeCarouselItem(kind: .extra(allDone: false))]
-        }
-        let lead: SlotState? = featuredSlot
-        var items: [HomeCarouselItem] = []
-        if let lead {
-            items.append(HomeCarouselItem(kind: .slot(lead)))
-        } else {
-            items.append(HomeCarouselItem(kind: .extra(allDone: true)))
-        }
-        for slot in slots where slot.status != .completed && slot.slot != lead?.slot {
-            items.append(HomeCarouselItem(kind: .slot(slot)))
-        }
-        for slot in slots where slot.status == .completed {
-            items.append(HomeCarouselItem(kind: .slot(slot)))
-        }
-        return items
-    }
-
     // MARK: Actions
 
     private func start(_ action: StartAction) {
         guard !isStarting else { return }
         isStarting = true
         env.study.errorMessage = nil
+        infoMessage = nil
         Task { @MainActor in
             defer { isStarting = false }
             do {
                 let run: StudyRun
                 switch action {
-                case .slot(let slot):
-                    run = try await env.study.startSlot(slot)
-                case .extra:
-                    run = try await env.study.startExtra()
+                case .subject(let subject, let slot):
+                    guard let started = try await env.study.startSubject(subject, slot: slot) else {
+                        infoMessage = "Rien de nouveau en \(subject.shortName.lowercased()) pour cette leçon : c'est validé."
+                        return
+                    }
+                    run = started
+                case .extra(let subject):
+                    run = try await env.study.startExtra(subject)
                 case .assessment:
                     run = try await env.study.startAssessment()
                 case .resume(let resumed):
@@ -329,7 +306,7 @@ struct HomeView: View {
                 activeRun = run
             } catch {
                 if env.study.errorMessage == nil {
-                    env.study.errorMessage = "Impossible de lancer la leçon pour le moment. Réessaie dans un instant."
+                    env.study.errorMessage = "Impossible de lancer la séance pour le moment. Réessaie dans un instant."
                 }
             }
         }
@@ -337,10 +314,7 @@ struct HomeView: View {
 
     private func closeLesson() {
         activeRun = nil
-        Task { @MainActor in
-            await reload()
-            focusedCard = carouselItems.first?.id
-        }
+        Task { @MainActor in await reload() }
     }
 
     private func emergencyUnlock() {

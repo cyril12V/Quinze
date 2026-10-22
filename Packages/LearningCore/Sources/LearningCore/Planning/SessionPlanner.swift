@@ -775,7 +775,8 @@ extension LearningEngine {
             if passed { learner.completedLessonIds.insert(lessonId) }
         }
         if plan.type == .assessment {
-            learner.lastAssessmentAt = now
+            // The periodic consolidation test keeps its own rhythm: a module exam does not reset it.
+            if plan.examModule == nil { learner.lastAssessmentAt = now }
             if let module = plan.examModule {
                 let graded = (attempts ?? []).filter { $0.result != .pending }
                 let score = graded.isEmpty ? 0 : Double(graded.filter { $0.result.countsAsSuccess }.count) / Double(graded.count)

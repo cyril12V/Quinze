@@ -462,3 +462,119 @@ struct HomeDaySheetRow: View {
         .accessibilityElement(children: .combine)
     }
 }
+
+// MARK: - Subject block (one per subject of the slot shown)
+
+/// « 🇬🇧 Anglais · 5 min · À faire » with its button. Each subject is started alone and the learner comes back
+/// home at the end; the slot is done (apps unblocked) when every block is.
+struct HomeSubjectBlock: View {
+    let subject: Subject
+    let status: SlotStatus
+    let scheduledTime: TimeOfDay
+    let minutes: Int
+    let upNext: String?
+    let isStarting: Bool
+    let onStart: () -> Void
+    let onPractice: () -> Void
+
+    private var pastel: Pastel {
+        switch subject {
+        case .english: return .blue
+        case .arabic: return .yellow
+        case .culture: return .pink
+        }
+    }
+
+    private var statusText: String {
+        switch status {
+        case .completed: return "Fait ✓"
+        case .inProgress: return "En cours"
+        case .available: return "À faire"
+        case .missed: return "À rattraper"
+        case .upcoming: return "À \(scheduledTime)"
+        }
+    }
+
+    var body: some View {
+        PastelCard(pastel, padding: 18) {
+            VStack(alignment: .leading, spacing: Theme.Spacing.m) {
+                HStack(alignment: .center, spacing: Theme.Spacing.m) {
+                    Text(subject.emoji)
+                        .font(.system(size: 34))
+                        .accessibilityHidden(true)
+                    VStack(alignment: .leading, spacing: 2) {
+                        CardTitle(subject.displayName)
+                        Text("\(minutes) min · \(statusText)")
+                            .font(Theme.Font.callout(.semibold))
+                            .foregroundStyle(Theme.onPastelSecondary)
+                    }
+                    Spacer(minLength: 0)
+                    if status == .completed {
+                        QIconView(icon: .check, size: 18)
+                            .foregroundStyle(Theme.onInk)
+                            .frame(width: 38, height: 38)
+                            .background(Circle().fill(Theme.ink))
+                            .accessibilityHidden(true)
+                    }
+                }
+                if let upNext, status != .completed {
+                    Text("Prochaine leçon : \(upNext)")
+                        .font(Theme.Font.callout)
+                        .foregroundStyle(Theme.onPastelSecondary)
+                        .lineLimit(2)
+                }
+                button
+            }
+        }
+        .accessibilityElement(children: .contain)
+    }
+
+    @ViewBuilder private var button: some View {
+        switch status {
+        case .completed:
+            Button("S'entraîner encore", action: onPractice)
+                .buttonStyle(.secondary)
+                .disabled(isStarting)
+        case .upcoming:
+            Button("Disponible vers \(scheduledTime)", action: onStart)
+                .buttonStyle(.secondary)
+                .disabled(true)
+        case .inProgress:
+            Button("Reprendre", action: onStart)
+                .buttonStyle(.primary)
+                .disabled(isStarting)
+        case .available, .missed:
+            Button(status == .missed ? "Rattraper" : "Commencer", action: onStart)
+                .buttonStyle(.primary)
+                .disabled(isStarting)
+        }
+    }
+}
+
+/// Neutral information line (not an error), dismissable.
+struct HomeInfoBanner: View {
+    let message: String
+    let onDismiss: () -> Void
+
+    var body: some View {
+        HStack(alignment: .top, spacing: Theme.Spacing.s) {
+            QIconView(icon: .info, size: 18)
+                .foregroundStyle(Theme.ink)
+                .padding(.top, 1)
+            Text(message)
+                .font(Theme.Font.callout)
+                .foregroundStyle(Theme.primaryText)
+                .fixedSize(horizontal: false, vertical: true)
+            Spacer(minLength: 0)
+            Button(action: onDismiss) {
+                QIconView(icon: .close, size: 14)
+                    .foregroundStyle(Theme.secondaryText)
+                    .frame(width: Theme.minTapSize, height: Theme.minTapSize)
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel("Fermer")
+        }
+        .padding(.leading, Theme.Spacing.m)
+        .card()
+    }
+}

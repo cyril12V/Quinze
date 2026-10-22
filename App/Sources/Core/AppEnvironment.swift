@@ -131,6 +131,12 @@ final class AppEnvironment {
         let syncService = sync
         syncService.onDataChanged = { [weak self] scheduleChanged in await self?.syncDidMerge(scheduleChanged: scheduleChanged) }
         auth.start()
+        // v3: Arabic (Egyptian, from the letters) and Culture G (courses) were rewritten: their progress starts over once.
+        let resetKey = "quinze.v3.arabicCultureReset"
+        if !UserDefaults.standard.bool(forKey: resetKey) {
+            local.wipeSubjects(["ar", "cg"])
+            UserDefaults.standard.set(true, forKey: resetKey)
+        }
         await content.loadAll(configuration: engineConfiguration(for:))
         attachContent()
         applySpeechPreferences()

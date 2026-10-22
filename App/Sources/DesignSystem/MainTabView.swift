@@ -1,48 +1,50 @@
 import SwiftUI
 import UIKit
 
-/// The four internal sections reachable from the bottom navigation.
+/// The bottom navigation: home, then one space per subject (its path, words and games, progress).
 enum MainTab: String, CaseIterable, Identifiable, Sendable {
-    case home, path, dictionary, progress
+    case home, english, arabic, culture
 
     var id: String { rawValue }
 
-    var title: String {
+    var subject: Subject? {
         switch self {
-        case .home: return "Accueil"
-        case .path: return "Parcours"
-        case .dictionary: return "Dictionnaire"
-        case .progress: return "Progrès"
+        case .home: return nil
+        case .english: return .english
+        case .arabic: return .arabic
+        case .culture: return .culture
         }
     }
 
-    var icon: QIcon {
-        switch self {
-        case .home: return .home
-        case .path: return .path
-        case .dictionary: return .dictionary
-        case .progress: return .chart
-        }
-    }
+    var title: String { subject?.shortName ?? "Accueil" }
 }
 
 /// Root of the signed-in app: one NavigationStack per tab + the bottom navigation.
 /// Each tab root draws its own `AppHeader` and hides the system navigation bar.
 struct MainTabView: View {
+    @Environment(AppEnvironment.self) private var env
     @State private var tab: MainTab = .home
 
     var body: some View {
         ZStack {
             switch tab {
             case .home: NavigationStack { HomeView() }
-            case .path: NavigationStack { PathView() }
-            case .dictionary: NavigationStack { DictionaryView() }
-            case .progress: NavigationStack { ProgressDashboardView() }
+            case .english: NavigationStack { SubjectSpaceView(subject: .english) }.id(MainTab.english)
+            case .arabic: NavigationStack { SubjectSpaceView(subject: .arabic) }.id(MainTab.arabic)
+            case .culture: NavigationStack { SubjectSpaceView(subject: .culture) }.id(MainTab.culture)
             }
         }
         .safeAreaInset(edge: .bottom, spacing: 0) {
-            QBottomNav(selection: $tab)
+            QBottomNav(selection: Binding(get: { tab }, set: { select($0) }))
         }
+    }
+
+    private func select(_ newTab: MainTab) {
+        if let subject = newTab.subject, env.study.focusSubject != subject {
+            env.study.focusSubject = subject
+            Task { await env.store.refresh() }
+        }
+        tab = newTab
     }
 }
 
@@ -75,7 +77,14 @@ struct QBottomNav: View {
             selection = tab
         } label: {
             VStack(spacing: 4) {
-                QIconView(icon: tab.icon, size: 22, filled: isActive)
+                if let subject = tab.subject {
+                    Text(subject.emoji)
+                        .font(.system(size: 20))
+                        .opacity(isActive ? 1 : 0.55)
+                        .frame(height: 22)
+                } else {
+                    QIconView(icon: .home, size: 22, filled: isActive)
+                }
                 Text(tab.title)
                     .font(Theme.Font.jakarta(10, isActive ? .semibold : .medium, relativeTo: .caption2))
                     .lineLimit(1)

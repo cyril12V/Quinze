@@ -4,10 +4,11 @@ import SwiftUI
 /// (parcours, progrès). Only subjects whose content is installed are listed.
 struct SubjectPicker: View {
     @Environment(AppEnvironment.self) private var env
+    @Environment(\.subjectLocked) private var subjectLocked
 
     var body: some View {
         let subjects = Subject.studyOrder.filter { env.stores[$0]?.engine != nil }
-        if subjects.count > 1 {
+        if subjects.count > 1 && !subjectLocked {
             ScrollView(.horizontal) {
                 HStack(spacing: Theme.Spacing.s) {
                     ForEach(subjects) { subject in

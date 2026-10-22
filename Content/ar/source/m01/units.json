@@ -334,5 +334,53 @@
    ],
    "tip": "Tête ronde : compte les points (1 = f, 2 = q). Trait haut : zigzag = k, trait nu = l."
   }
+ },
+ {
+  "id": "ar.g08.ta_marbuta_maqsura_hamza_lam_alif",
+  "rule": {
+   "summary": "Quatre signes complètent l'alphabet : ة (fin de mot, se lit a), ى (fin de mot, se lit â), ء (la hamza, coupure de gorge) et la ligature لا, obligatoire quand ل est suivi de ا.",
+   "explanation": "ة est un ه surmonté de deux points : on la trouve uniquement à la fin d'un mot, le plus souvent un féminin, et elle se lit a (مَكْتَبَة, maktaba). ى ressemble à un ي sans aucun point : à la fin de certains mots, elle se lit â (مَقْهَى, maqhâ). ء, la hamza, est une brève coupure de la gorge, comme dans « sama' » ; elle peut se tenir seule sur la ligne (سَمَاء) ou sur un support (أ إ ؤ ئ), détaillé au module 2. Enfin ل suivi de ا ne s'écrit jamais en deux signes : on les fond en une ligature لا (سَلَام). Avec ces quatre signes, tu as fait le tour de l'alphabet : 28 lettres et leurs quatre formes.",
+   "pattern": "ـة : fin de mot, a · ى : fin de mot, â · ء : coupure de gorge · لا : ligature obligatoire",
+   "examples": [
+    {
+     "text": "مَكْتَبَة",
+     "translation": "la bibliothèque",
+     "transliteration": "maktaba"
+    },
+    {
+     "text": "مَقْهَى",
+     "translation": "le café",
+     "transliteration": "maqhâ"
+    },
+    {
+     "text": "سَمَاء",
+     "translation": "le ciel",
+     "transliteration": "samâ'"
+    },
+    {
+     "text": "سَلَام",
+     "translation": "la paix",
+     "transliteration": "salâm"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "مَكْتَبَة lu « maktab »",
+     "right": "مَكْتَبَة = maktaba",
+     "why": "Le ة final se lit a : ne l'oublie pas. مَكْتَب (maktab) sans ة est le bureau, مَكْتَبَة (maktaba) la bibliothèque."
+    },
+    {
+     "wrong": "مَقْهَى lu « maqhî »",
+     "right": "مَقْهَى = maqhâ",
+     "why": "ى n'a aucun point : c'est alif maqSûra, qui se lit â. ي, avec ses deux points dessous, se lirait î."
+    },
+    {
+     "wrong": "سَلَام écrit avec ل et ا séparés",
+     "right": "سَلَام = سـ + لا + م",
+     "why": "ل suivi de ا s'écrit toujours en ligature لا : deux traits croisés."
+    }
+   ],
+   "tip": "Fin de mot : deux points sur la boucle = a (ة) ; queue sans point = â (ى)."
+  }
  }
 ]

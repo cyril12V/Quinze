@@ -1,0 +1,1160 @@
+{
+ "lessonId": "en.l75",
+ "exercises": [
+  {
+   "id": "en.l75.e01",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.public_transport"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "I'd rather ___ public transport than drive in the city.",
+   "promptLanguage": "en",
+   "options": [
+    "take",
+    "to take",
+    "taking",
+    "took"
+   ],
+   "answer": "take",
+   "acceptedAnswers": [
+    "take"
+   ],
+   "hint": "Pas de to après would rather.",
+   "explanation": "I'd rather = I would rather, suivi du verbe de base, sans to : I'd rather take public transport (je préfère prendre les transports en commun). Than introduit la comparaison.",
+   "tip": "Would rather + base, jamais to.",
+   "extraExample": {
+    "text": "I'd rather stay at home tonight.",
+    "translation": "Je préfère rester à la maison ce soir."
+   },
+   "errorPatterns": [
+    {
+     "equals": "to take",
+     "category": "grammar",
+     "feedback": "Après would rather, on ne met pas to : I'd rather take."
+    },
+    {
+     "equals": "taking",
+     "category": "grammar",
+     "feedback": "Après would rather, le verbe est à la base, pas en -ing : I'd rather take."
+    },
+    {
+     "equals": "took",
+     "category": "verb_tense",
+     "feedback": "Took est un prétérit. Après would rather (même sujet), on met la base : take."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e02",
+   "unitIds": [
+    "en.v.reduce",
+    "en.v.energy",
+    "en.v.waste",
+    "en.v.public_transport",
+    "en.v.insurance"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque expression anglaise à sa traduction.",
+   "prompt": "Économies et transports",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "reduce costs",
+     "right": "réduire les coûts"
+    },
+    {
+     "left": "save energy",
+     "right": "économiser l'énergie"
+    },
+    {
+     "left": "waste time",
+     "right": "perdre son temps"
+    },
+    {
+     "left": "public transport",
+     "right": "les transports en commun"
+    },
+    {
+     "left": "car insurance",
+     "right": "assurance auto"
+    }
+   ],
+   "answer": "reduce costs = réduire les coûts ; save energy = économiser l'énergie ; waste time = perdre son temps ; public transport = les transports en commun ; car insurance = assurance auto",
+   "acceptedAnswers": [
+    "reduce costs = réduire les coûts ; save energy = économiser l'énergie ; waste time = perdre son temps ; public transport = les transports en commun ; car insurance = assurance auto"
+   ],
+   "explanation": "Waste (gaspiller) s'emploie avec le temps, l'argent, l'énergie : waste time, waste money. Public transport est indénombrable (jamais a public transport). Energy aussi : pas de -s.",
+   "tip": "Energy, transport, insurance : indénombrables, sans -s et sans a.",
+   "extraExample": {
+    "text": "Cycling is a good way to reduce your travel costs.",
+    "translation": "Faire du vélo est un bon moyen de réduire tes frais de déplacement."
+   }
+  },
+  {
+   "id": "en.l75.e03",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.insurance"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la phrase correcte.",
+   "prompt": "Quelle phrase est correcte pour dire : « Tu ferais bien d'appeler l'assurance avant de partir » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "You'd better call the insurance company before you leave.",
+    "You'd better to call the insurance company before you leave.",
+    "You'd rather call the insurance company before you leave."
+   ],
+   "answer": "You'd better call the insurance company before you leave.",
+   "acceptedAnswers": [
+    "You'd better call the insurance company before you leave."
+   ],
+   "hint": "Had better est suivi du verbe de base.",
+   "explanation": "You'd better = You had better + verbe de base, sans to. C'est un conseil ferme : si tu ne le fais pas, il y aura un problème. You'd rather exprimerait une préférence (« tu préférerais appeler »).",
+   "tip": "'d better = had better ; 'd rather = would rather. Même contraction, deux sens.",
+   "extraExample": {
+    "text": "You'd better take an umbrella: it's going to rain.",
+    "translation": "Tu ferais bien de prendre un parapluie : il va pleuvoir."
+   },
+   "errorPatterns": [
+    {
+     "equals": "You'd better to call the insurance company before you leave.",
+     "category": "grammar",
+     "feedback": "Had better est suivi du verbe de base, jamais de to : you'd better call."
+    },
+    {
+     "equals": "You'd rather call the insurance company before you leave.",
+     "category": "word_confusion",
+     "feedback": "You'd rather = tu préférerais (une préférence). Pour un conseil ferme : you'd better."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e04",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.cancel"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "We'd better ___ the trip: the weather is terrible.",
+   "promptLanguage": "en",
+   "options": [
+    "cancel",
+    "to cancel",
+    "cancelling",
+    "cancelled"
+   ],
+   "answer": "cancel",
+   "acceptedAnswers": [
+    "cancel"
+   ],
+   "hint": "Had better + verbe de base.",
+   "explanation": "Had better est suivi du verbe de base, sans to : we had better cancel the trip (on ferait mieux d'annuler le voyage). Il s'emploie pour le présent ou le futur, même si had ressemble à un passé.",
+   "tip": "Had better = comme should : verbe de base, pas de to.",
+   "extraExample": {
+    "text": "You'd better leave now, or you'll miss your train.",
+    "translation": "Tu ferais mieux de partir maintenant, sinon tu vas rater ton train."
+   },
+   "errorPatterns": [
+    {
+     "equals": "to cancel",
+     "category": "grammar",
+     "feedback": "Had better est suivi du verbe de base, jamais de to : we'd better cancel."
+    },
+    {
+     "equals": "cancelling",
+     "category": "grammar",
+     "feedback": "Had better n'est pas suivi d'un -ing : we'd better cancel."
+    },
+    {
+     "equals": "cancelled",
+     "category": "verb_tense",
+     "feedback": "Cancelled est un passé. Had better + base, même pour parler du présent : cancel."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e05",
+   "unitIds": [
+    "en.g38.should_could",
+    "en.g56.would_rather_had_better",
+    "en.v.insurance"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle phrase prévient d'un vrai problème si tu n'agis pas ?",
+   "promptLanguage": "fr",
+   "options": [
+    "You'd better check your insurance, or you won't be covered.",
+    "You should check your insurance.",
+    "You could check your insurance."
+   ],
+   "answer": "You'd better check your insurance, or you won't be covered.",
+   "acceptedAnswers": [
+    "You'd better check your insurance, or you won't be covered."
+   ],
+   "hint": "Cherche le conseil le plus fort.",
+   "explanation": "Had better est plus fort que should : il annonce un problème si on ne le fait pas. Should donne un conseil ; could propose seulement une possibilité.",
+   "tip": "Could (possibilité) < should (conseil) < had better (avertissement).",
+   "extraExample": {
+    "text": "You'd better hurry, or we'll be late.",
+    "translation": "Tu ferais mieux de te dépêcher, sinon nous serons en retard."
+   },
+   "errorPatterns": [
+    {
+     "equals": "You should check your insurance.",
+     "category": "word_confusion",
+     "feedback": "Should donne un conseil, sans menace. Had better annonce un problème si tu ne le fais pas."
+    },
+    {
+     "equals": "You could check your insurance.",
+     "category": "word_confusion",
+     "feedback": "Could propose une possibilité : c'est le plus doux. Ce n'est pas un avertissement."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e06",
+   "unitIds": [
+    "en.v.cancel",
+    "en.v.rent",
+    "en.v.prescription",
+    "en.v.energy"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque expression anglaise à sa traduction.",
+   "prompt": "Vie quotidienne",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "cancel a flight",
+     "right": "annuler un vol"
+    },
+    {
+     "left": "pay the rent",
+     "right": "payer le loyer"
+    },
+    {
+     "left": "get a prescription",
+     "right": "obtenir une ordonnance"
+    },
+    {
+     "left": "energy bills",
+     "right": "factures d'énergie"
+    }
+   ],
+   "answer": "cancel a flight = annuler un vol ; pay the rent = payer le loyer ; get a prescription = obtenir une ordonnance ; energy bills = factures d'énergie",
+   "acceptedAnswers": [
+    "cancel a flight = annuler un vol ; pay the rent = payer le loyer ; get a prescription = obtenir une ordonnance ; energy bills = factures d'énergie"
+   ],
+   "explanation": "Rent est à la fois un nom (le loyer) et un verbe (louer). Cancel prend deux l au passé britannique (cancelled), un seul en américain (canceled). Prescription est une ordonnance médicale, et non une « prescription » juridique.",
+   "tip": "Rent = le loyer ou louer ; prescription = ordonnance.",
+   "extraExample": {
+    "text": "The flat is nice, but the rent is very high.",
+    "translation": "L'appartement est joli, mais le loyer est très élevé."
+   }
+  },
+  {
+   "id": "en.l75.e07",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.government"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "It's time the government ___ more to protect the environment.",
+   "promptLanguage": "en",
+   "options": [
+    "did",
+    "does",
+    "do",
+    "will do"
+   ],
+   "answer": "did",
+   "acceptedAnswers": [
+    "did"
+   ],
+   "hint": "It's time + sujet : quel temps ?",
+   "explanation": "It's time + sujet + prétérit signifie « il est (grand) temps que… ». Le prétérit ne parle pas du passé ici : il exprime l'idée qu'on aurait déjà dû agir. Did est le prétérit de do.",
+   "tip": "It's time + sujet : prétérit ; It's time to : infinitif.",
+   "extraExample": {
+    "text": "It's time you found a new job.",
+    "translation": "Il est temps que tu trouves un nouveau travail."
+   },
+   "errorPatterns": [
+    {
+     "equals": "does",
+     "category": "verb_tense",
+     "feedback": "Après It's time + sujet, on met le prétérit (did), pas le présent."
+    },
+    {
+     "equals": "do",
+     "category": "verb_tense",
+     "feedback": "Après It's time + sujet, on met le prétérit (did), pas la base."
+    },
+    {
+     "equals": "will do",
+     "category": "verb_tense",
+     "feedback": "Will ne s'emploie pas après It's time + sujet : on met le prétérit, did."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e08",
+   "unitIds": [
+    "en.g56.would_rather_had_better"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "I'd rather you ___ here.",
+   "promptLanguage": "en",
+   "options": [
+    "didn't smoke",
+    "don't smoke",
+    "won't smoke",
+    "wouldn't smoke"
+   ],
+   "answer": "didn't smoke",
+   "acceptedAnswers": [
+    "didn't smoke"
+   ],
+   "hint": "Tu préfères qu'une autre personne agisse autrement.",
+   "explanation": "Quand on préfère que quelqu'un d'autre agisse autrement : would rather + sujet + prétérit. I'd rather you didn't smoke here (je préférerais que tu ne fumes pas ici). Le prétérit marque ici la politesse, pas le passé.",
+   "tip": "Would rather + autre personne : prétérit (comme après wish).",
+   "extraExample": {
+    "text": "I'd rather you didn't tell anyone.",
+    "translation": "Je préférerais que tu n'en parles à personne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "don't smoke",
+     "category": "verb_tense",
+     "feedback": "Après I'd rather + sujet, on utilise le prétérit (didn't smoke), même pour le présent."
+    },
+    {
+     "equals": "won't smoke",
+     "category": "verb_tense",
+     "feedback": "Will n'a pas sa place après would rather + sujet : didn't smoke."
+    },
+    {
+     "equals": "wouldn't smoke",
+     "category": "verb_tense",
+     "feedback": "Would est déjà dans I'd rather. Ensuite : sujet + prétérit, didn't smoke."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e09",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.reduce",
+    "en.v.energy"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "It's time ___ our energy bills.",
+   "promptLanguage": "en",
+   "options": [
+    "to reduce",
+    "reduce",
+    "reducing",
+    "we reduce"
+   ],
+   "answer": "to reduce",
+   "acceptedAnswers": [
+    "to reduce"
+   ],
+   "hint": "Il est l'heure de… : quelle construction ?",
+   "explanation": "It's time to + verbe de base signifie « il est l'heure / temps de… ». Avec un sujet, on dirait It's time we reduced (prétérit), mais jamais It's time we reduce.",
+   "tip": "It's time to + base, ou It's time + sujet + prétérit.",
+   "extraExample": {
+    "text": "It's time to go home.",
+    "translation": "Il est l'heure de rentrer."
+   },
+   "errorPatterns": [
+    {
+     "equals": "reduce",
+     "category": "grammar",
+     "feedback": "Après It's time, il faut to + verbe (to reduce), ou un sujet + prétérit."
+    },
+    {
+     "equals": "reducing",
+     "category": "grammar",
+     "feedback": "It's time + -ing n'existe pas : It's time to reduce."
+    },
+    {
+     "equals": "we reduce",
+     "category": "verb_tense",
+     "feedback": "It's time + sujet demande le prétérit (we reduced). Ici, la forme attendue est simplement to reduce."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e10",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.rent"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "I'd rather ___ a small flat than buy a big house.",
+   "promptLanguage": "en",
+   "options": [
+    "rent",
+    "to rent",
+    "renting",
+    "rented"
+   ],
+   "answer": "rent",
+   "acceptedAnswers": [
+    "rent"
+   ],
+   "hint": "Would rather A than B : deux verbes à la base.",
+   "explanation": "Pour comparer deux options : would rather + base + than + base. I'd rather rent a small flat than buy a big house. Rent signifie louer.",
+   "tip": "Would rather A than B : deux verbes à la base, sans to.",
+   "extraExample": {
+    "text": "She'd rather work from home than travel two hours every day.",
+    "translation": "Elle préférerait travailler à la maison plutôt que voyager deux heures par jour."
+   },
+   "errorPatterns": [
+    {
+     "equals": "to rent",
+     "category": "grammar",
+     "feedback": "Après would rather, on ne met pas to : I'd rather rent."
+    },
+    {
+     "equals": "renting",
+     "category": "grammar",
+     "feedback": "Would rather est suivi de la base, pas de -ing : I'd rather rent."
+    },
+    {
+     "equals": "rented",
+     "category": "verb_tense",
+     "feedback": "Rented est un passé. Après would rather (même sujet), on met la base : rent."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e11",
+   "unitIds": [
+    "en.g55.wish_if_only",
+    "en.v.waste",
+    "en.v.energy"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "I wish we ___ so much energy.",
+   "promptLanguage": "en",
+   "options": [
+    "didn't waste",
+    "don't waste",
+    "wouldn't waste",
+    "hadn't wasted"
+   ],
+   "answer": "didn't waste",
+   "acceptedAnswers": [
+    "didn't waste"
+   ],
+   "hint": "Regret sur le présent : on recule d'un temps.",
+   "explanation": "Regret sur le présent : wish + prétérit. I wish we didn't waste so much energy (j'aimerais que nous ne gaspillions pas autant d'énergie). Wish + would servirait pour souhaiter que quelqu'un d'autre change.",
+   "tip": "Wish recule d'un temps : présent → prétérit.",
+   "extraExample": {
+    "text": "I wish I didn't spend so much time online.",
+    "translation": "J'aimerais ne pas passer autant de temps en ligne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "don't waste",
+     "category": "verb_tense",
+     "feedback": "Après wish, on recule d'un temps : didn't waste."
+    },
+    {
+     "equals": "wouldn't waste",
+     "category": "verb_tense",
+     "feedback": "Pour un regret qui te concerne (we), pas de wish + would : didn't waste."
+    },
+    {
+     "equals": "hadn't wasted",
+     "category": "verb_tense",
+     "feedback": "Hadn't wasted exprime un regret sur le passé. Ici, on parle du présent : didn't waste."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e12",
+   "unitIds": [
+    "en.g12.must",
+    "en.v.prescription"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "You ___ buy this medicine without a prescription: it's against the law.",
+   "promptLanguage": "en",
+   "options": [
+    "mustn't",
+    "don't have to",
+    "needn't",
+    "mustn't to"
+   ],
+   "answer": "mustn't",
+   "acceptedAnswers": [
+    "mustn't"
+   ],
+   "hint": "C'est interdit par la loi.",
+   "explanation": "Mustn't exprime une interdiction (c'est contre la loi). Don't have to exprime seulement que ce n'est pas obligatoire. Prescription = ordonnance.",
+   "tip": "Mustn't = interdit ; don't have to = pas obligé.",
+   "extraExample": {
+    "text": "You mustn't use your phone while driving.",
+    "translation": "Tu ne dois pas utiliser ton téléphone en conduisant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "don't have to",
+     "category": "word_confusion",
+     "feedback": "Don't have to = ce n'est pas obligatoire. Ici, c'est interdit : mustn't."
+    },
+    {
+     "equals": "needn't",
+     "category": "word_confusion",
+     "feedback": "Needn't = pas besoin de. Ici, c'est interdit par la loi : mustn't."
+    },
+    {
+     "equals": "mustn't to",
+     "category": "grammar",
+     "feedback": "Après un modal, jamais to : mustn't buy."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e13",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.cancel"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Tu ferais mieux de ne pas annuler le rendez-vous.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "not",
+    "You'd",
+    "cancel",
+    "the",
+    "better",
+    "appointment"
+   ],
+   "answer": "You'd better not cancel the appointment",
+   "acceptedAnswers": [
+    "You'd better not cancel the appointment"
+   ],
+   "hint": "Not se place après better.",
+   "explanation": "La négation de had better est had better not + base. Not se place juste après better, jamais avant : you'd better not cancel.",
+   "tip": "Had better NOT, would rather NOT : not vient juste après.",
+   "extraExample": {
+    "text": "We'd better not tell him yet.",
+    "translation": "On ferait mieux de ne pas encore le lui dire."
+   }
+  },
+  {
+   "id": "en.l75.e14",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.public_transport"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Nous préférerions utiliser les transports en commun plutôt que payer le parking.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "public",
+    "We'd",
+    "than",
+    "use",
+    "pay",
+    "transport",
+    "rather",
+    "for",
+    "parking"
+   ],
+   "answer": "We'd rather use public transport than pay for parking",
+   "acceptedAnswers": [
+    "We'd rather use public transport than pay for parking"
+   ],
+   "hint": "Would rather A than B.",
+   "explanation": "Would rather + base + than + base : we'd rather use … than pay …. Les deux verbes sont à la base, sans to. Public transport est indénombrable.",
+   "tip": "Would rather A than B : le même type de verbe des deux côtés.",
+   "extraExample": {
+    "text": "I'd rather wait here than go out in the rain.",
+    "translation": "Je préfère attendre ici plutôt que sortir sous la pluie."
+   }
+  },
+  {
+   "id": "en.l75.e15",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.insurance"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Tu ferais mieux de changer d'assurance : celle-ci est trop chère.",
+   "promptLanguage": "fr",
+   "answer": "You'd better change your insurance: this one is too expensive.",
+   "acceptedAnswers": [
+    "You'd better change your insurance: this one is too expensive.",
+    "You'd better change your insurance: this company is too expensive.",
+    "You'd better change your insurance: it is too expensive.",
+    "You'd better change your insurance, this one is too expensive.",
+    "You'd better change your insurance, this company is too expensive.",
+    "You'd better change your insurance, it is too expensive.",
+    "You'd better change your insurance; this one is too expensive.",
+    "You'd better change your insurance; this company is too expensive.",
+    "You'd better change your insurance; it is too expensive.",
+    "You'd better change your insurance because this one is too expensive.",
+    "You'd better change your insurance because this company is too expensive.",
+    "You'd better change your insurance because it is too expensive.",
+    "You'd better change your insurance as this one is too expensive.",
+    "You'd better change your insurance as this company is too expensive.",
+    "You'd better change your insurance as it is too expensive.",
+    "You'd better change insurance: this one is too expensive.",
+    "You'd better change insurance: this company is too expensive.",
+    "You'd better change insurance: it is too expensive.",
+    "You'd better change insurance, this one is too expensive.",
+    "You'd better change insurance, this company is too expensive.",
+    "You'd better change insurance, it is too expensive.",
+    "You'd better change insurance; this one is too expensive.",
+    "You'd better change insurance; this company is too expensive.",
+    "You'd better change insurance; it is too expensive.",
+    "You'd better change insurance because this one is too expensive.",
+    "You'd better change insurance because this company is too expensive.",
+    "You'd better change insurance because it is too expensive.",
+    "You'd better change insurance as this one is too expensive.",
+    "You'd better change insurance as this company is too expensive.",
+    "You'd better change insurance as it is too expensive.",
+    "You'd better change your insurance company: this one is too expensive.",
+    "You'd better change your insurance company: this company is too expensive.",
+    "You'd better change your insurance company: it is too expensive.",
+    "You'd better change your insurance company, this one is too expensive.",
+    "You'd better change your insurance company, this company is too expensive.",
+    "You'd better change your insurance company, it is too expensive.",
+    "You'd better change your insurance company; this one is too expensive.",
+    "You'd better change your insurance company; this company is too expensive.",
+    "You'd better change your insurance company; it is too expensive.",
+    "You'd better change your insurance company because this one is too expensive.",
+    "You'd better change your insurance company because this company is too expensive.",
+    "You'd better change your insurance company because it is too expensive.",
+    "You'd better change your insurance company as this one is too expensive.",
+    "You'd better change your insurance company as this company is too expensive.",
+    "You'd better change your insurance company as it is too expensive.",
+    "You'd better change your insurer: this one is too expensive.",
+    "You'd better change your insurer: this company is too expensive.",
+    "You'd better change your insurer: it is too expensive.",
+    "You'd better change your insurer, this one is too expensive.",
+    "You'd better change your insurer, this company is too expensive.",
+    "You'd better change your insurer, it is too expensive.",
+    "You'd better change your insurer; this one is too expensive.",
+    "You'd better change your insurer; this company is too expensive.",
+    "You'd better change your insurer; it is too expensive.",
+    "You'd better change your insurer because this one is too expensive.",
+    "You'd better change your insurer because this company is too expensive.",
+    "You'd better change your insurer because it is too expensive.",
+    "You'd better change your insurer as this one is too expensive.",
+    "You'd better change your insurer as this company is too expensive.",
+    "You'd better change your insurer as it is too expensive.",
+    "You'd better switch your insurance: this one is too expensive.",
+    "You'd better switch your insurance: this company is too expensive.",
+    "You'd better switch your insurance: it is too expensive.",
+    "You'd better switch your insurance, this one is too expensive.",
+    "You'd better switch your insurance, this company is too expensive.",
+    "You'd better switch your insurance, it is too expensive.",
+    "You'd better switch your insurance; this one is too expensive.",
+    "You'd better switch your insurance; this company is too expensive.",
+    "You'd better switch your insurance; it is too expensive.",
+    "You'd better switch your insurance because this one is too expensive.",
+    "You'd better switch your insurance because this company is too expensive.",
+    "You'd better switch your insurance because it is too expensive.",
+    "You'd better switch your insurance as this one is too expensive.",
+    "You'd better switch your insurance as this company is too expensive.",
+    "You'd better switch your insurance as it is too expensive.",
+    "You'd better switch insurance: this one is too expensive.",
+    "You'd better switch insurance: this company is too expensive.",
+    "You'd better switch insurance: it is too expensive.",
+    "You'd better switch insurance, this one is too expensive.",
+    "You'd better switch insurance, this company is too expensive.",
+    "You'd better switch insurance, it is too expensive.",
+    "You'd better switch insurance; this one is too expensive.",
+    "You'd better switch insurance; this company is too expensive.",
+    "You'd better switch insurance; it is too expensive.",
+    "You'd better switch insurance because this one is too expensive.",
+    "You'd better switch insurance because this company is too expensive.",
+    "You'd better switch insurance because it is too expensive.",
+    "You'd better switch insurance as this one is too expensive.",
+    "You'd better switch insurance as this company is too expensive.",
+    "You'd better switch insurance as it is too expensive.",
+    "You'd better switch your insurance company: this one is too expensive.",
+    "You'd better switch your insurance company: this company is too expensive.",
+    "You'd better switch your insurance company: it is too expensive.",
+    "You'd better switch your insurance company, this one is too expensive.",
+    "You'd better switch your insurance company, this company is too expensive.",
+    "You'd better switch your insurance company, it is too expensive.",
+    "You'd better switch your insurance company; this one is too expensive.",
+    "You'd better switch your insurance company; this company is too expensive.",
+    "You'd better switch your insurance company; it is too expensive.",
+    "You'd better switch your insurance company because this one is too expensive.",
+    "You'd better switch your insurance company because this company is too expensive.",
+    "You'd better switch your insurance company because it is too expensive.",
+    "You'd better switch your insurance company as this one is too expensive.",
+    "You'd better switch your insurance company as this company is too expensive.",
+    "You'd better switch your insurance company as it is too expensive.",
+    "You'd better switch your insurer: this one is too expensive.",
+    "You'd better switch your insurer: this company is too expensive.",
+    "You'd better switch your insurer: it is too expensive.",
+    "You'd better switch your insurer, this one is too expensive.",
+    "You'd better switch your insurer, this company is too expensive.",
+    "You'd better switch your insurer, it is too expensive.",
+    "You'd better switch your insurer; this one is too expensive.",
+    "You'd better switch your insurer; this company is too expensive.",
+    "You'd better switch your insurer; it is too expensive.",
+    "You'd better switch your insurer because this one is too expensive.",
+    "You'd better switch your insurer because this company is too expensive.",
+    "You'd better switch your insurer because it is too expensive.",
+    "You'd better switch your insurer as this one is too expensive.",
+    "You'd better switch your insurer as this company is too expensive.",
+    "You'd better switch your insurer as it is too expensive."
+   ],
+   "hint": "Had better + base, sans to.",
+   "explanation": "You'd better + verbe de base (change), sans to, pour un conseil ferme. « Changer d'assurance » se dit change (ou switch) your insurance (company).",
+   "tip": "Had better : jamais to, jamais would better.",
+   "extraExample": {
+    "text": "You'd better read the contract before you sign.",
+    "translation": "Tu ferais mieux de lire le contrat avant de signer."
+   },
+   "errorPatterns": [
+    {
+     "contains": "better to",
+     "category": "grammar",
+     "feedback": "Had better est suivi du verbe de base, sans to : you'd better change."
+    },
+    {
+     "contains": "you would better",
+     "category": "grammar",
+     "feedback": "On dit you had better (you'd better), pas you would better."
+    },
+    {
+     "contains": "better changing",
+     "category": "grammar",
+     "feedback": "Had better n'est pas suivi d'un -ing : you'd better change."
+    },
+    {
+     "contains": "better changed",
+     "category": "verb_tense",
+     "feedback": "Had better est suivi de la base, même pour parler du présent : you'd better change."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e16",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.rent"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Je préférerais louer un appartement plutôt que d'en acheter un.",
+   "promptLanguage": "fr",
+   "answer": "I'd rather rent a flat than buy one.",
+   "acceptedAnswers": [
+    "I'd rather rent a flat than buy one.",
+    "I'd rather rent a flat than buy a flat.",
+    "I'd rather rent a flat than buy an apartment.",
+    "I'd rather rent a flat than buy a house.",
+    "I'd rather rent an apartment than buy one.",
+    "I'd rather rent an apartment than buy a flat.",
+    "I'd rather rent an apartment than buy an apartment.",
+    "I'd rather rent an apartment than buy a house.",
+    "I'd rather rent a house than buy one.",
+    "I'd rather rent a house than buy a flat.",
+    "I'd rather rent a house than buy an apartment.",
+    "I'd rather rent a house than buy a house."
+   ],
+   "hint": "Would rather A than B.",
+   "explanation": "Would rather + base + than + base : I'd rather rent … than buy …. Les deux verbes sont à la base, sans to ni -ing. One remplace le nom déjà cité (a flat).",
+   "tip": "« Plutôt que de » après would rather = than + base.",
+   "extraExample": {
+    "text": "I'd rather cook at home than eat out every night.",
+    "translation": "Je préfère cuisiner à la maison plutôt que manger dehors tous les soirs."
+   },
+   "errorPatterns": [
+    {
+     "contains": "rather to",
+     "category": "grammar",
+     "feedback": "Après would rather, on ne met pas to : I'd rather rent."
+    },
+    {
+     "contains": "than buying",
+     "category": "grammar",
+     "feedback": "Après than, on garde la base comme après rather : than buy."
+    },
+    {
+     "contains": "than to buy",
+     "category": "grammar",
+     "feedback": "Pas de to après than ici : I'd rather rent … than buy."
+    },
+    {
+     "contains": "i prefer rent",
+     "category": "grammar",
+     "feedback": "Prefer se construit avec -ing (I prefer renting). Avec la base, on dit I'd rather rent."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e17",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.cancel"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "I'd rather you didn't cancel the meeting.",
+   "promptLanguage": "en",
+   "answer": "Je préférerais que tu n'annules pas la réunion.",
+   "acceptedAnswers": [
+    "Je préférerais que tu n'annules pas la réunion.",
+    "Je préférerais que tu n'annules pas le rendez-vous.",
+    "Je préférerais que tu n'annules pas la rencontre.",
+    "Je préférerais que vous n'annuliez pas la réunion.",
+    "Je préférerais que vous n'annuliez pas le rendez-vous.",
+    "Je préférerais que vous n'annuliez pas la rencontre.",
+    "J'aimerais mieux que tu n'annules pas la réunion.",
+    "J'aimerais mieux que tu n'annules pas le rendez-vous.",
+    "J'aimerais mieux que tu n'annules pas la rencontre.",
+    "J'aimerais mieux que vous n'annuliez pas la réunion.",
+    "J'aimerais mieux que vous n'annuliez pas le rendez-vous.",
+    "J'aimerais mieux que vous n'annuliez pas la rencontre.",
+    "Je préfère que tu n'annules pas la réunion.",
+    "Je préfère que tu n'annules pas le rendez-vous.",
+    "Je préfère que tu n'annules pas la rencontre.",
+    "Je préfère que vous n'annuliez pas la réunion.",
+    "Je préfère que vous n'annuliez pas le rendez-vous.",
+    "Je préfère que vous n'annuliez pas la rencontre."
+   ],
+   "explanation": "I'd rather you didn't + base = « je préférerais que tu ne… pas ». Le prétérit anglais didn't correspond au subjonctif français (que tu n'annules). Cancel = annuler.",
+   "tip": "Would rather + sujet + prétérit ↔ « préférer que » + subjonctif.",
+   "extraExample": {
+    "text": "I'd rather you called me back tomorrow.",
+    "translation": "Je préférerais que tu me rappelles demain."
+   },
+   "errorPatterns": [
+    {
+     "contains": "n'annuleras",
+     "category": "verb_tense",
+     "feedback": "Après « je préférerais que », on emploie le subjonctif : « que tu n'annules pas »."
+    },
+    {
+     "contains": "n'annulais",
+     "category": "verb_tense",
+     "feedback": "Le prétérit anglais didn't correspond au subjonctif en français, pas à l'imparfait : « que tu n'annules pas »."
+    },
+    {
+     "contains": "n'annulerais",
+     "category": "verb_tense",
+     "feedback": "Après « que », pas de conditionnel : « que tu n'annules pas »."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e18",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.environment"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Il est grand temps que le gouvernement protège l'environnement.",
+   "promptLanguage": "fr",
+   "answer": "It's about time the government protected the environment.",
+   "acceptedAnswers": [
+    "It's time that the government protected the environment.",
+    "It's time the government protected the environment.",
+    "It's about time that the government protected the environment.",
+    "It's about time the government protected the environment.",
+    "It's high time that the government protected the environment.",
+    "It's high time the government protected the environment.",
+    "It's time for the government to protect the environment.",
+    "It's about time for the government to protect the environment.",
+    "It's high time for the government to protect the environment."
+   ],
+   "hint": "It's time + sujet : prétérit.",
+   "explanation": "It's (high / about) time + sujet + prétérit = « il est (grand) temps que… ». On peut aussi dire It's time for the government to protect… Protect se met au prétérit : protected.",
+   "tip": "It's time + sujet : prétérit ; It's time for + personne + to + verbe.",
+   "extraExample": {
+    "text": "It's about time you cleaned your room.",
+    "translation": "Il est grand temps que tu ranges ta chambre."
+   },
+   "errorPatterns": [
+    {
+     "contains": "government protects",
+     "category": "verb_tense",
+     "feedback": "It's time + sujet demande le prétérit : the government protected."
+    },
+    {
+     "contains": "government will protect",
+     "category": "verb_tense",
+     "feedback": "Will ne s'emploie pas après It's time + sujet : protected."
+    },
+    {
+     "contains": "government protect ",
+     "category": "verb_tense",
+     "feedback": "It's time + sujet demande le prétérit : the government protected."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e19",
+   "unitIds": [
+    "en.g56.would_rather_had_better"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on : « Tu ferais mieux de ne pas conduire si tu es fatigué » ?",
+   "promptLanguage": "fr",
+   "answer": "You'd better not drive if you are tired.",
+   "acceptedAnswers": [
+    "You'd better not drive if you are tired.",
+    "You'd better not drive if you are exhausted.",
+    "You'd better not drive if you feel tired.",
+    "You'd better not drive if you feel exhausted.",
+    "You'd better not drive when you are tired.",
+    "You'd better not drive when you are exhausted.",
+    "You'd better not drive when you feel tired.",
+    "You'd better not drive when you feel exhausted.",
+    "You'd better not take the car if you are tired.",
+    "You'd better not take the car if you are exhausted.",
+    "You'd better not take the car if you feel tired.",
+    "You'd better not take the car if you feel exhausted.",
+    "You'd better not take the car when you are tired.",
+    "You'd better not take the car when you are exhausted.",
+    "You'd better not take the car when you feel tired.",
+    "You'd better not take the car when you feel exhausted.",
+    "If you are tired, you'd better not drive.",
+    "If you are tired, you'd better not take the car.",
+    "If you are exhausted, you'd better not drive.",
+    "If you are exhausted, you'd better not take the car.",
+    "If you feel tired, you'd better not drive.",
+    "If you feel tired, you'd better not take the car.",
+    "If you feel exhausted, you'd better not drive.",
+    "If you feel exhausted, you'd better not take the car.",
+    "When you are tired, you'd better not drive.",
+    "When you are tired, you'd better not take the car.",
+    "When you are exhausted, you'd better not drive.",
+    "When you are exhausted, you'd better not take the car.",
+    "When you feel tired, you'd better not drive.",
+    "When you feel tired, you'd better not take the car.",
+    "When you feel exhausted, you'd better not drive.",
+    "When you feel exhausted, you'd better not take the car."
+   ],
+   "hint": "Not se place après better.",
+   "explanation": "Had better not + base exprime un avertissement ferme : you'd better not drive. Not se place juste après better, et le verbe reste à la base.",
+   "tip": "Had better NOT + base : jamais don't ni do not.",
+   "extraExample": {
+    "text": "You'd better not touch that: it's very hot.",
+    "translation": "Tu ferais mieux de ne pas toucher ça : c'est très chaud."
+   },
+   "errorPatterns": [
+    {
+     "contains": "better do not",
+     "category": "grammar",
+     "feedback": "La négation de had better se place après better : had better not + base."
+    },
+    {
+     "contains": "better dont",
+     "category": "grammar",
+     "feedback": "La négation de had better se place après better : had better not + base."
+    },
+    {
+     "contains": "better not to",
+     "category": "grammar",
+     "feedback": "Après had better not, pas de to : you'd better not drive."
+    },
+    {
+     "contains": "you would better",
+     "category": "grammar",
+     "feedback": "On dit you had better (you'd better), pas you would better."
+    },
+    {
+     "contains": "better to not",
+     "category": "grammar",
+     "feedback": "Had better est suivi de not + base : you'd better not drive."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e20",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.rent"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on : « Je préférerais habiter près de mon travail plutôt que payer un loyer plus élevé » ?",
+   "promptLanguage": "fr",
+   "answer": "I'd rather live near my work than pay a higher rent.",
+   "acceptedAnswers": [
+    "I'd rather live near my work than pay a higher rent.",
+    "I'd rather live near my work than pay higher rent.",
+    "I'd rather live near my work than pay more rent.",
+    "I'd rather live near work than pay a higher rent.",
+    "I'd rather live near work than pay higher rent.",
+    "I'd rather live near work than pay more rent.",
+    "I'd rather live near my office than pay a higher rent.",
+    "I'd rather live near my office than pay higher rent.",
+    "I'd rather live near my office than pay more rent.",
+    "I'd rather live near my workplace than pay a higher rent.",
+    "I'd rather live near my workplace than pay higher rent.",
+    "I'd rather live near my workplace than pay more rent.",
+    "I'd rather live close to my work than pay a higher rent.",
+    "I'd rather live close to my work than pay higher rent.",
+    "I'd rather live close to my work than pay more rent.",
+    "I'd rather live close to work than pay a higher rent.",
+    "I'd rather live close to work than pay higher rent.",
+    "I'd rather live close to work than pay more rent.",
+    "I'd rather live close to my office than pay a higher rent.",
+    "I'd rather live close to my office than pay higher rent.",
+    "I'd rather live close to my office than pay more rent.",
+    "I'd rather live close to my workplace than pay a higher rent.",
+    "I'd rather live close to my workplace than pay higher rent.",
+    "I'd rather live close to my workplace than pay more rent."
+   ],
+   "hint": "Would rather A than B.",
+   "explanation": "Would rather A than B : deux verbes à la base, sans to. Rent est ici un nom (le loyer). Near n'est pas suivi de of : near my work (mais close to).",
+   "tip": "Near + nom directement ; close + to.",
+   "extraExample": {
+    "text": "She'd rather work from home than travel two hours every day.",
+    "translation": "Elle préférerait travailler à la maison plutôt que voyager deux heures par jour."
+   },
+   "errorPatterns": [
+    {
+     "contains": "rather to",
+     "category": "grammar",
+     "feedback": "Après would rather, on ne met pas to : I'd rather live."
+    },
+    {
+     "contains": "rather living",
+     "category": "grammar",
+     "feedback": "Would rather est suivi de la base : I'd rather live."
+    },
+    {
+     "contains": "than paying",
+     "category": "grammar",
+     "feedback": "Après than, on garde la base : than pay."
+    },
+    {
+     "contains": "than to pay",
+     "category": "grammar",
+     "feedback": "Pas de to après than ici : than pay."
+    },
+    {
+     "contains": "near of",
+     "category": "preposition",
+     "feedback": "Near se construit sans of : near my work."
+    }
+   ]
+  },
+  {
+   "id": "en.l75.e21",
+   "unitIds": [
+    "en.g56.would_rather_had_better",
+    "en.v.reduce",
+    "en.v.energy",
+    "en.v.waste",
+    "en.v.public_transport",
+    "en.v.cancel",
+    "en.v.insurance",
+    "en.v.rent",
+    "en.v.prescription"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase avec would rather, had better ou it's time, et un de ces mots : reduce, energy, waste, public transport, cancel, insurance, rent, prescription.",
+   "prompt": "Que ferais-tu pour économiser de l'argent ou protéger l'environnement ?",
+   "promptLanguage": "fr",
+   "answer": "I'd rather take public transport than waste money on petrol.",
+   "acceptedAnswers": [
+    "I'd rather take public transport than waste money on petrol.",
+    "You'd better cancel your insurance if it is too expensive.",
+    "It's time we stopped wasting energy.",
+    "I'd rather rent a small flat than buy a big one."
+   ],
+   "requirements": {
+    "mustInclude": [
+     [
+      "would rather",
+      "had better",
+      "it's time",
+      "it's about time",
+      "it's high time"
+     ],
+     [
+      "reduce",
+      "reduced",
+      "energy",
+      "waste",
+      "wasting",
+      "wasted",
+      "public transport",
+      "cancel",
+      "insurance",
+      "rent",
+      "prescription"
+     ]
+    ],
+    "minWords": 6
+   },
+   "explanation": "Would rather + base (sans to) pour une préférence, had better + base pour un conseil ferme, it's time to + base ou it's time + sujet + prétérit pour « il est temps de / que ».",
+   "tip": "Rather, better : jamais de to juste après. It's time + sujet : prétérit.",
+   "extraExample": {
+    "text": "It's time we turned off the lights when we leave a room.",
+    "translation": "Il est temps que nous éteignions les lumières en quittant une pièce."
+   },
+   "errorPatterns": [
+    {
+     "contains": "would rather to",
+     "category": "grammar",
+     "feedback": "Après would rather, on ne met pas to."
+    },
+    {
+     "contains": "had better to",
+     "category": "grammar",
+     "feedback": "Après had better, on ne met pas to."
+    },
+    {
+     "contains": "time we go",
+     "category": "verb_tense",
+     "feedback": "It's time + sujet demande le prétérit : it's time we went (ou it's time to go)."
+    }
+   ]
+  }
+ ]
+}

@@ -57,6 +57,7 @@ final class SubjectBundlesTests: XCTestCase {
                     case .mcq: sub = .choice(eq)
                     case .reorder: sub = .ordering(eq.split(separator: " ").map(String.init))
                     case .match: continue
+                    case _ where e.options?.contains(eq) == true: sub = .choice(eq)
                     default: sub = .text(eq)
                     }
                     if engine.evaluate(e, submission: sub).isCorrect { problems.append("\(e.id): mistake « \(eq) » accepted") }
@@ -88,6 +89,8 @@ final class SubjectBundlesTests: XCTestCase {
         case .mcq: return ([e.answer] + e.acceptedAnswers).map { .choice($0) }
         case .reorder: return ([e.answer] + e.acceptedAnswers).map { .ordering($0.split(separator: " ").map(String.init)) }
         case .match: return [.matches(e.pairs ?? [])]
+        case _ where !(e.options ?? []).isEmpty:   // fill_blank with options: the app sends the tapped option
+            return ([e.answer] + e.acceptedAnswers).map { e.options!.contains($0) ? .choice($0) : .text($0) }
         default: return ([e.answer] + e.acceptedAnswers).map { .text($0) }
         }
     }

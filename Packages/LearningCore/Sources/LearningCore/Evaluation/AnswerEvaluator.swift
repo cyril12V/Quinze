@@ -201,6 +201,7 @@ struct AnswerEvaluator: Sendable {
         var isChoice = ex.type == .mcq
         if case .choice = submission { isChoice = true }
         let make = Maker(ex: ex, raw: raw)
+        if isChoice, let literal = evaluateTappedOption(ex, raw: raw, english: english, make: make) { return literal }
         let userTokens = TextNormalizer.tokens(raw)
         if userTokens.isEmpty {
             return make(.incorrect, nil, nil, "Tu n'as pas encore répondu.")
@@ -209,6 +210,22 @@ struct AnswerEvaluator: Sendable {
             return evaluateTextTokens(ex, raw: raw, english: english, isChoice: isChoice, make: make)
         }
         return make(.incorrect, nil, nil, "Ce type de réponse ne convient pas à cet exercice.")
+    }
+
+    /// A tapped option is taken literally when one of the options is exactly the expected answer: two
+    /// options may differ only by a sign the normalizer ignores (Arabic hamza « ' », a syllable hyphen,
+    /// harakat), and an option may be a lone sign. Returns nil to fall back to the usual comparison.
+    private func evaluateTappedOption(_ ex: Exercise, raw: String, english: Bool, make: Maker) -> Evaluation? {
+        guard let options = ex.options, options.contains(raw) else { return nil }
+        let accepted = acceptedTexts(ex)
+        if let i = accepted.firstIndex(of: raw) { return make(.correct, i == 0 ? nil : accepted[0]) }
+        guard options.contains(where: { accepted.contains($0) }) else { return nil }
+        if let pattern = ex.errorPatterns?.first(where: { $0.equals == raw }) {
+            return make(.incorrect, accepted[0], pattern.category, pattern.feedback)
+        }
+        guard !TextNormalizer.tokens(raw).isEmpty else { return make(.incorrect, accepted[0], .spelling) }
+        let usual = evaluateTextTokens(ex, raw: raw, english: english, isChoice: true, make: make)
+        return usual.isCorrect ? make(.incorrect, accepted[0], .spelling) : usual
     }
 
     private func evaluateTextTokens(_ ex: Exercise, raw: String, english: Bool, isChoice: Bool,

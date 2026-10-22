@@ -1,0 +1,924 @@
+{
+ "lessonId": "en.l81",
+ "exercises": [
+  {
+   "id": "en.l81.e01",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.discovery"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon pronom relatif.",
+   "prompt": "Marie Curie, ___ was born in Warsaw, won two Nobel Prizes.",
+   "promptLanguage": "en",
+   "options": [
+    "who",
+    "that",
+    "which",
+    "whose"
+   ],
+   "answer": "who",
+   "acceptedAnswers": [
+    "who"
+   ],
+   "hint": "Une personne, entre virgules.",
+   "explanation": "L'information entre virgules est un détail en plus sur une personne déjà identifiée : on utilise who. That est interdit dans une relative entre virgules.",
+   "tip": "Entre virgules : who ou which, jamais that.",
+   "extraExample": {
+    "text": "My brother, who lives in London, is a teacher.",
+    "translation": "Mon frère, qui habite à Londres, est professeur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "that",
+     "category": "grammar",
+     "feedback": "Après une virgule, that est interdit : who pour une personne."
+    },
+    {
+     "equals": "which",
+     "category": "grammar",
+     "feedback": "Which ne s'utilise pas pour une personne : who."
+    },
+    {
+     "equals": "whose",
+     "category": "grammar",
+     "feedback": "Whose exprime la possession (dont le, dont la). Ici le pronom est le sujet de was born : who."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e02",
+   "unitIds": [
+    "en.v.experiment",
+    "en.v.laboratory",
+    "en.v.discovery",
+    "en.v.vaccine",
+    "en.v.disease"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les mots de la science et de la médecine",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "experiment",
+     "right": "expérience (scientifique)"
+    },
+    {
+     "left": "laboratory",
+     "right": "laboratoire"
+    },
+    {
+     "left": "discovery",
+     "right": "découverte"
+    },
+    {
+     "left": "vaccine",
+     "right": "vaccin"
+    },
+    {
+     "left": "disease",
+     "right": "maladie"
+    }
+   ],
+   "answer": "experiment = expérience (scientifique) ; laboratory = laboratoire ; discovery = découverte ; vaccine = vaccin ; disease = maladie",
+   "acceptedAnswers": [],
+   "explanation": "Faux ami : an experiment est une expérience scientifique ; une expérience vécue se dit an experience. À l'oral, laboratory est souvent raccourci en lab.",
+   "tip": "Experiment = test en laboratoire ; experience = ce qu'on a vécu.",
+   "extraExample": {
+    "text": "The scientists did an experiment in the lab.",
+    "translation": "Les scientifiques ont fait une expérience au labo."
+   }
+  },
+  {
+   "id": "en.l81.e03",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.planet"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon pronom relatif.",
+   "prompt": "Jupiter, ___ is the biggest planet in our solar system, has many moons.",
+   "promptLanguage": "en",
+   "options": [
+    "which",
+    "that",
+    "who",
+    "what"
+   ],
+   "answer": "which",
+   "acceptedAnswers": [
+    "which"
+   ],
+   "explanation": "L'information entre virgules s'ajoute à Jupiter, une chose : on utilise which. That est impossible après une virgule, et what ne s'emploie jamais comme pronom relatif.",
+   "tip": "Chose + virgules → which.",
+   "extraExample": {
+    "text": "Mars, which is called the Red Planet, is smaller than Earth.",
+    "translation": "Mars, qu'on appelle la planète rouge, est plus petite que la Terre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "that",
+     "category": "grammar",
+     "feedback": "Après une virgule, that est interdit : which pour une chose."
+    },
+    {
+     "equals": "who",
+     "category": "grammar",
+     "feedback": "Who est réservé aux personnes : Jupiter est une planète, donc which."
+    },
+    {
+     "equals": "what",
+     "category": "word_confusion",
+     "feedback": "What ne sert jamais de pronom relatif : which."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e04",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.disease"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le bon pronom relatif.",
+   "prompt": "Smallpox, ___ was once a deadly disease, was officially eradicated in 1980.",
+   "promptLanguage": "en",
+   "options": [
+    "which",
+    "that",
+    "who",
+    "what"
+   ],
+   "answer": "which",
+   "acceptedAnswers": [
+    "which"
+   ],
+   "hint": "Une maladie est une chose ; il y a des virgules.",
+   "explanation": "Entre virgules, on ajoute un détail sur une chose connue : which. That n'est pas possible dans ce type de relative. L'Organisation mondiale de la santé a déclaré la variole éradiquée en 1980.",
+   "tip": "Virgules = information en plus = jamais that.",
+   "extraExample": {
+    "text": "Measles, which spreads very easily, can be prevented by a vaccine.",
+    "translation": "La rougeole, qui se propage très facilement, peut être évitée par un vaccin."
+   },
+   "errorPatterns": [
+    {
+     "equals": "that",
+     "category": "grammar",
+     "feedback": "Après une virgule, that est interdit : which pour une chose."
+    },
+    {
+     "equals": "who",
+     "category": "grammar",
+     "feedback": "Who est réservé aux personnes : une maladie est une chose, donc which."
+    },
+    {
+     "equals": "what",
+     "category": "word_confusion",
+     "feedback": "What ne sert jamais de pronom relatif : which."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e05",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.vaccine"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le bon pronom relatif.",
+   "prompt": "Edward Jenner, ___ vaccine saved millions of lives, was an English doctor.",
+   "promptLanguage": "en",
+   "options": [
+    "whose",
+    "who",
+    "which",
+    "that"
+   ],
+   "answer": "whose",
+   "acceptedAnswers": [
+    "whose"
+   ],
+   "hint": "Le vaccin de Jenner : quelle idée exprime-t-on ?",
+   "explanation": "Whose = dont le / dont la : le vaccin de Jenner. Il se place directement devant le nom (whose vaccine), même dans une relative entre virgules.",
+   "tip": "Whose + nom : Jenner, whose vaccine…",
+   "extraExample": {
+    "text": "Marie Curie, whose discoveries changed science, won two Nobel Prizes.",
+    "translation": "Marie Curie, dont les découvertes ont changé la science, a reçu deux prix Nobel."
+   },
+   "errorPatterns": [
+    {
+     "equals": "who",
+     "category": "grammar",
+     "feedback": "Who remplace une personne sujet. Ici on exprime la possession (le vaccin de Jenner) : whose vaccine."
+    },
+    {
+     "equals": "which",
+     "category": "grammar",
+     "feedback": "Which est pour les choses ; la possession se dit whose."
+    },
+    {
+     "equals": "that",
+     "category": "grammar",
+     "feedback": "That est interdit entre virgules et ne marque pas la possession : whose."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e06",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.laboratory",
+    "en.v.develop",
+    "en.v.discovery"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le texte, puis réponds.",
+   "prompt": "According to the text, who developed penicillin into a medicine?",
+   "promptLanguage": "en",
+   "context": "In 1928, Alexander Fleming, who worked at a hospital in London, came back from holiday and found something strange in his laboratory: a mould which had killed the bacteria around it. This accident, which led to the discovery of penicillin, did not change medicine immediately. Other scientists, who developed it into a medicine, needed more than ten years.",
+   "options": [
+    "Other scientists, after Fleming",
+    "Alexander Fleming, in 1928",
+    "A doctor from his hospital",
+    "Nobody, because it was an accident"
+   ],
+   "answer": "Other scientists, after Fleming",
+   "acceptedAnswers": [
+    "Other scientists, after Fleming"
+   ],
+   "explanation": "Le texte dit : « Other scientists, who developed it into a medicine, needed more than ten years ». La découverte date de 1928 (Fleming), mais le médicament est venu plus tard grâce à d'autres scientifiques.",
+   "tip": "Repère la relative : who developed it donne la réponse.",
+   "extraExample": {
+    "text": "The doctor, who works in a hospital in Leeds, found a new treatment.",
+    "translation": "Le médecin, qui travaille dans un hôpital à Leeds, a trouvé un nouveau traitement."
+   },
+   "errorPatterns": [
+    {
+     "equals": "alexander fleming in 1928",
+     "category": "instruction",
+     "feedback": "En 1928, Fleming a seulement remarqué la moisissure. Ce sont d'autres scientifiques qui l'ont transformée en médicament."
+    },
+    {
+     "equals": "a doctor from his hospital",
+     "category": "instruction",
+     "feedback": "Le texte ne parle pas d'un médecin de son hôpital."
+    },
+    {
+     "equals": "nobody because it was an accident",
+     "category": "instruction",
+     "feedback": "L'accident a mené à la découverte, mais d'autres scientifiques ont ensuite développé le médicament."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e07",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.experiment"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne phrase.",
+   "prompt": "Dans quelle phrase peut-on supprimer le pronom relatif (who / which / that) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "The vaccine that she developed saved millions of lives.",
+    "The woman who developed the vaccine is Dr Lee.",
+    "The laboratory which is in Lyon is new.",
+    "The disease that killed thousands is rare."
+   ],
+   "answer": "The vaccine that she developed saved millions of lives.",
+   "acceptedAnswers": [
+    "The vaccine that she developed saved millions of lives."
+   ],
+   "explanation": "On peut supprimer le pronom quand il est le complément de la relative, c'est-à-dire quand il est suivi d'un sujet : the vaccine (that) she developed. Dans les autres phrases, le pronom est suivi d'un verbe : c'est le sujet, il est obligatoire.",
+   "tip": "Pronom suivi d'un sujet → tu peux l'enlever ; suivi d'un verbe → tu le gardes.",
+   "extraExample": {
+    "text": "The experiment (that) we did failed.",
+    "translation": "L'expérience que nous avons faite a échoué."
+   },
+   "errorPatterns": [
+    {
+     "equals": "the woman who developed the vaccine is dr lee",
+     "category": "grammar",
+     "feedback": "Ici who est suivi d'un verbe (developed) : c'est le sujet, on ne peut pas le supprimer."
+    },
+    {
+     "equals": "the laboratory which is in lyon is new",
+     "category": "grammar",
+     "feedback": "Which est suivi de is : c'est le sujet de la relative, donc obligatoire."
+    },
+    {
+     "equals": "the disease that killed thousands is rare",
+     "category": "grammar",
+     "feedback": "That est suivi de killed : c'est le sujet, on ne peut pas le supprimer."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e08",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Marie Curie, qui a reçu deux prix Nobel, a travaillé à Paris.",
+   "promptLanguage": "fr",
+   "answer": "Marie Curie, who won two Nobel Prizes, worked in Paris.",
+   "acceptedAnswers": [
+    "Marie Curie, who won two Nobel Prizes, worked in Paris.",
+    "Marie Curie, who received two Nobel Prizes, worked in Paris.",
+    "Marie Curie, who was awarded two Nobel Prizes, worked in Paris.",
+    "Marie Curie, who got two Nobel Prizes, worked in Paris."
+   ],
+   "hint": "Nom propre + information en plus : virgules.",
+   "explanation": "Cette relative ajoute une information sur une personne déjà identifiée (Marie Curie) : elle se met entre virgules avec who. That est impossible. « Recevoir un prix » se dit win, receive ou be awarded.",
+   "tip": "Nom propre + détail en plus : virgule, who…, virgule.",
+   "extraExample": {
+    "text": "Neil Armstrong, who was born in Ohio, walked on the Moon in 1969.",
+    "translation": "Neil Armstrong, qui est né dans l'Ohio, a marché sur la Lune en 1969."
+   },
+   "errorPatterns": [
+    {
+     "contains": "marie curie that",
+     "category": "grammar",
+     "feedback": "Après une virgule, that est interdit : Marie Curie, who…"
+    },
+    {
+     "contains": "curie which",
+     "category": "grammar",
+     "feedback": "Which ne s'utilise pas pour une personne : who."
+    },
+    {
+     "contains": "who she",
+     "category": "grammar",
+     "feedback": "Who remplace déjà Marie Curie : on n'ajoute pas she."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e09",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.g62.non_defining_relative_clauses"
+   ],
+   "type": "mcq",
+   "difficulty": 4,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que sous-entend la phrase « My sister, who lives in Lyon, is a doctor » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le locuteur n'a probablement qu'une seule sœur.",
+    "Le locuteur a plusieurs sœurs et précise de laquelle il parle.",
+    "Les virgules ne changent rien au sens de la phrase.",
+    "Sa sœur est médecin, mais elle n'habite pas à Lyon."
+   ],
+   "answer": "Le locuteur n'a probablement qu'une seule sœur.",
+   "acceptedAnswers": [
+    "Le locuteur n'a probablement qu'une seule sœur."
+   ],
+   "explanation": "Avec des virgules, la relative est un simple détail sur une sœur déjà identifiée : on n'en a probablement qu'une. Sans virgules (My sister who lives in Lyon…), la relative sert à choisir parmi plusieurs sœurs.",
+   "tip": "Pas de virgule = on précise parmi d'autres. Virgules = on ajoute un détail.",
+   "extraExample": {
+    "text": "The students who passed the exam were happy.",
+    "translation": "Les étudiants qui ont réussi l'examen étaient contents (mais pas tous les étudiants)."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le locuteur a plusieurs sœurs et précise de laquelle il parle",
+     "category": "grammar",
+     "feedback": "Ce sens correspond à la phrase sans virgules. Avec des virgules, le détail est un simple ajout : une seule sœur."
+    },
+    {
+     "equals": "les virgules ne changent rien au sens de la phrase",
+     "category": "grammar",
+     "feedback": "Elles changent tout : sans virgules, la relative identifie ; avec virgules, elle ajoute un détail."
+    },
+    {
+     "equals": "sa sœur est médecin mais elle n'habite pas à lyon",
+     "category": "instruction",
+     "feedback": "La relative dit bien que sa sœur habite à Lyon."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e10",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.experiment",
+    "en.v.laboratory"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le passif.",
+   "prompt": "All experiments ___ done in a laboratory, not at home.",
+   "promptLanguage": "en",
+   "options": [
+    "must be",
+    "must",
+    "must to be",
+    "must been"
+   ],
+   "answer": "must be",
+   "acceptedAnswers": [
+    "must be"
+   ],
+   "hint": "Obligation + passif : modal + be + participe passé.",
+   "explanation": "Les expériences subissent l'action : c'est un passif avec modal. Après must, be reste à la forme de base et le verbe est au participe passé : must be done.",
+   "tip": "Modal + be + participe passé : must be done.",
+   "extraExample": {
+    "text": "This medicine must be kept in a cool place.",
+    "translation": "Ce médicament doit être conservé dans un endroit frais."
+   },
+   "errorPatterns": [
+    {
+     "equals": "must",
+     "category": "grammar",
+     "feedback": "Sans be, la phrase n'est pas un passif correct : il faut must be done."
+    },
+    {
+     "equals": "must to be",
+     "category": "grammar",
+     "feedback": "Après must, pas de to : must be done."
+    },
+    {
+     "equals": "must been",
+     "category": "conjugation",
+     "feedback": "Après un modal, be reste à la forme de base : must be, pas must been."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e11",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.planet"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Neptune, qui a été découverte en 1846, est très froide.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "is",
+    "Neptune,",
+    "1846,",
+    "very",
+    "which",
+    "in",
+    "discovered",
+    "was",
+    "cold"
+   ],
+   "answer": "Neptune, which was discovered in 1846, is very cold",
+   "acceptedAnswers": [
+    "Neptune, which was discovered in 1846, is very cold"
+   ],
+   "explanation": "La relative which was discovered in 1846 est un détail ajouté sur Neptune : elle est entourée de virgules et commence par which. Le verbe principal (is) vient après la deuxième virgule.",
+   "tip": "Nom, which + verbe…, suite de la phrase.",
+   "extraExample": {
+    "text": "Venus, which is the hottest planet, is named after a goddess.",
+    "translation": "Vénus, qui est la planète la plus chaude, porte le nom d'une déesse."
+   }
+  },
+  {
+   "id": "en.l81.e12",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque phrase anglaise à sa traduction.",
+   "prompt": "Virgules, ce qui, pronom supprimé",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "My brother, who lives in Lyon, is a doctor.",
+     "right": "Mon frère, qui habite à Lyon, est médecin."
+    },
+    {
+     "left": "The film I saw was great.",
+     "right": "Le film que j'ai vu était génial."
+    },
+    {
+     "left": "He lost, which surprised everyone.",
+     "right": "Il a perdu, ce qui a surpris tout le monde."
+    },
+    {
+     "left": "The doctor who called is my aunt.",
+     "right": "Le médecin qui a appelé est ma tante."
+    },
+    {
+     "left": "Jupiter, which is huge, has many moons.",
+     "right": "Jupiter, qui est énorme, a beaucoup de lunes."
+    }
+   ],
+   "answer": "My brother, who lives in Lyon, is a doctor. = Mon frère, qui habite à Lyon, est médecin. ; The film I saw was great. = Le film que j'ai vu était génial. ; He lost, which surprised everyone. = Il a perdu, ce qui a surpris tout le monde. ; The doctor who called is my aunt. = Le médecin qui a appelé est ma tante. ; Jupiter, which is huge, has many moons. = Jupiter, qui est énorme, a beaucoup de lunes.",
+   "acceptedAnswers": [],
+   "explanation": "Entre virgules, who / which ajoutent un détail ; which peut aussi reprendre toute une phrase (= ce qui). Sans virgules et sans pronom (The film I saw), le pronom complément a simplement été supprimé.",
+   "tip": "Virgules → détail ; , which après une phrase → « ce qui » ; pas de pronom → complément omis.",
+   "extraExample": {
+    "text": "The shirt she bought was too small.",
+    "translation": "La chemise qu'elle a achetée était trop petite."
+   }
+  },
+  {
+   "id": "en.l81.e13",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.experiment",
+    "en.v.prove"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Cette expérience a échoué, ce qui prouve que le vaccin n'était pas prêt.",
+   "promptLanguage": "fr",
+   "answer": "This experiment failed, which proves that the vaccine wasn't ready.",
+   "acceptedAnswers": [
+    "This experiment failed, which proves that the vaccine wasn't ready.",
+    "This experiment failed, which proves that the vaccine was not ready.",
+    "This experiment failed, which proves that the vaccine wasn't yet ready.",
+    "This experiment failed, which proves the vaccine wasn't ready.",
+    "This experiment failed, which proves the vaccine was not ready.",
+    "This experiment failed, which proves the vaccine wasn't yet ready.",
+    "This experiment failed, which proved that the vaccine wasn't ready.",
+    "This experiment failed, which proved that the vaccine was not ready.",
+    "This experiment failed, which proved that the vaccine wasn't yet ready.",
+    "This experiment failed, which proved the vaccine wasn't ready.",
+    "This experiment failed, which proved the vaccine was not ready.",
+    "This experiment failed, which proved the vaccine wasn't yet ready.",
+    "The experiment failed, which proves that the vaccine wasn't ready.",
+    "The experiment failed, which proves that the vaccine was not ready.",
+    "The experiment failed, which proves that the vaccine wasn't yet ready.",
+    "The experiment failed, which proves the vaccine wasn't ready.",
+    "The experiment failed, which proves the vaccine was not ready.",
+    "The experiment failed, which proves the vaccine wasn't yet ready.",
+    "The experiment failed, which proved that the vaccine wasn't ready.",
+    "The experiment failed, which proved that the vaccine was not ready.",
+    "The experiment failed, which proved that the vaccine wasn't yet ready.",
+    "The experiment failed, which proved the vaccine wasn't ready.",
+    "The experiment failed, which proved the vaccine was not ready.",
+    "The experiment failed, which proved the vaccine wasn't yet ready.",
+    "That experiment failed, which proves that the vaccine wasn't ready.",
+    "That experiment failed, which proves that the vaccine was not ready.",
+    "That experiment failed, which proves that the vaccine wasn't yet ready.",
+    "That experiment failed, which proves the vaccine wasn't ready.",
+    "That experiment failed, which proves the vaccine was not ready.",
+    "That experiment failed, which proves the vaccine wasn't yet ready.",
+    "That experiment failed, which proved that the vaccine wasn't ready.",
+    "That experiment failed, which proved that the vaccine was not ready.",
+    "That experiment failed, which proved that the vaccine wasn't yet ready.",
+    "That experiment failed, which proved the vaccine wasn't ready.",
+    "That experiment failed, which proved the vaccine was not ready.",
+    "That experiment failed, which proved the vaccine wasn't yet ready."
+   ],
+   "hint": ", which peut reprendre toute la phrase (= ce qui).",
+   "explanation": "Which reprend toute la proposition précédente (the experiment failed) et veut dire « ce qui ». Il se place après une virgule. Prove that = prouver que.",
+   "tip": "« Ce qui » qui reprend une phrase = , which.",
+   "extraExample": {
+    "text": "He arrived late, which annoyed everyone.",
+    "translation": "Il est arrivé en retard, ce qui a agacé tout le monde."
+   },
+   "errorPatterns": [
+    {
+     "contains": "failed what",
+     "category": "word_confusion",
+     "feedback": "« Ce qui » qui reprend une phrase se dit which, pas what."
+    },
+    {
+     "contains": "failed that proves",
+     "category": "grammar",
+     "feedback": "That est interdit après une virgule : , which proves…"
+    },
+    {
+     "contains": "which prove that",
+     "category": "conjugation",
+     "feedback": "Which est ici singulier (= ce fait) : proves, avec un -s."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e14",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.disease"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Le paludisme, qui est transmis par les moustiques, est toujours une maladie grave.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "serious",
+    "Malaria,",
+    "is",
+    "by",
+    "disease",
+    "which",
+    "still",
+    "spread",
+    "a",
+    "mosquitoes,",
+    "is"
+   ],
+   "answer": "Malaria, which is spread by mosquitoes, is still a serious disease",
+   "acceptedAnswers": [
+    "Malaria, which is spread by mosquitoes, is still a serious disease"
+   ],
+   "explanation": "La relative entre virgules (which is spread by mosquitoes) ajoute un détail sur le paludisme ; c'est un passif au présent. Le verbe principal, is, arrive après la deuxième virgule.",
+   "tip": "Nom, which + verbe…, suite de la phrase.",
+   "extraExample": {
+    "text": "Flu, which is caused by a virus, spreads quickly in winter.",
+    "translation": "La grippe, qui est causée par un virus, se propage vite en hiver."
+   }
+  },
+  {
+   "id": "en.l81.e15",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.laboratory"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "The laboratory, which is open to the public, offers free tours.",
+   "promptLanguage": "en",
+   "answer": "Le laboratoire, qui est ouvert au public, propose des visites gratuites.",
+   "acceptedAnswers": [
+    "Le laboratoire, qui est ouvert au public, propose des visites gratuites.",
+    "Le laboratoire, qui est ouvert au public, propose des visites guidées gratuites.",
+    "Le laboratoire, qui est ouvert au public, offre des visites gratuites.",
+    "Le laboratoire, qui est ouvert au public, offre des visites guidées gratuites.",
+    "Le laboratoire, qui est ouvert au public, organise des visites gratuites.",
+    "Le laboratoire, qui est ouvert au public, organise des visites guidées gratuites."
+   ],
+   "explanation": "La relative entre virgules (which is open to the public) ajoute un détail ; en français, elle se traduit par « qui est ouvert au public ». Offers free tours = propose des visites gratuites.",
+   "tip": "Which entre virgules = « qui » en français, avec les virgules aussi.",
+   "extraExample": {
+    "text": "The museum, which is free on Sundays, is very popular.",
+    "translation": "Le musée, qui est gratuit le dimanche, est très populaire."
+   }
+  },
+  {
+   "id": "en.l81.e16",
+   "unitIds": [
+    "en.g37.comparatives_superlatives",
+    "en.v.planet"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le superlatif.",
+   "prompt": "Venus is ___ planet in our solar system.",
+   "promptLanguage": "en",
+   "options": [
+    "the hottest",
+    "hotter",
+    "the most hot",
+    "the hot"
+   ],
+   "answer": "the hottest",
+   "acceptedAnswers": [
+    "the hottest"
+   ],
+   "hint": "Vénus bat tous les records de chaleur.",
+   "explanation": "Hot est un adjectif court : le superlatif prend the + -est, avec le t doublé : the hottest. On ne dit pas the most hot.",
+   "tip": "Adjectif court : the + adjectif + -est (the hottest).",
+   "extraExample": {
+    "text": "Mercury is the closest planet to the Sun.",
+    "translation": "Mercure est la planète la plus proche du Soleil."
+   },
+   "errorPatterns": [
+    {
+     "equals": "hotter",
+     "category": "grammar",
+     "feedback": "Hotter est un comparatif (plus chaud que). Pour « la plus chaude », il faut the hottest."
+    },
+    {
+     "equals": "the most hot",
+     "category": "grammar",
+     "feedback": "Hot est court : on ajoute -est (the hottest), pas the most."
+    },
+    {
+     "equals": "the hot",
+     "category": "grammar",
+     "feedback": "The hot est un simple adjectif. Le superlatif est the hottest."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e17",
+   "unitIds": [
+    "en.g36.connectors",
+    "en.v.experiment",
+    "en.v.laboratory"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Les scientifiques ont travaillé au laboratoire jusqu'à minuit parce que l'expérience ne marchait pas.",
+   "promptLanguage": "fr",
+   "answer": "The scientists worked in the laboratory until midnight because the experiment wasn't working.",
+   "acceptedAnswers": [
+    "The scientists worked in the laboratory until midnight because the experiment wasn't working.",
+    "The scientists worked in the laboratory until midnight because the experiment didn't work.",
+    "The scientists worked in the laboratory until midnight because the experiment was not working.",
+    "The scientists worked in the laboratory until midnight because the experiment did not work.",
+    "The scientists worked in the lab until midnight because the experiment wasn't working.",
+    "The scientists worked in the lab until midnight because the experiment didn't work.",
+    "The scientists worked in the lab until midnight because the experiment was not working.",
+    "The scientists worked in the lab until midnight because the experiment did not work.",
+    "The scientists worked at the laboratory until midnight because the experiment wasn't working.",
+    "The scientists worked at the laboratory until midnight because the experiment didn't work.",
+    "The scientists worked at the laboratory until midnight because the experiment was not working.",
+    "The scientists worked at the laboratory until midnight because the experiment did not work.",
+    "The scientists worked at the lab until midnight because the experiment wasn't working.",
+    "The scientists worked at the lab until midnight because the experiment didn't work.",
+    "The scientists worked at the lab until midnight because the experiment was not working.",
+    "The scientists worked at the lab until midnight because the experiment did not work."
+   ],
+   "hint": "Parce que + sujet + verbe = because.",
+   "explanation": "Because introduit la raison et est suivi d'un sujet et d'un verbe. « Ne marchait pas » se dit wasn't working (ou didn't work). Until midnight = jusqu'à minuit.",
+   "tip": "Because + sujet + verbe ; jusqu'à = until.",
+   "extraExample": {
+    "text": "We stayed home because it was raining.",
+    "translation": "Nous sommes restés à la maison parce qu'il pleuvait."
+   },
+   "errorPatterns": [
+    {
+     "contains": "because of the experiment",
+     "category": "grammar",
+     "feedback": "Because of est suivi d'un nom ; ici il y a un sujet et un verbe : because the experiment wasn't working."
+    },
+    {
+     "contains": "until to midnight",
+     "category": "preposition",
+     "feedback": "Until s'emploie sans to : until midnight."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e18",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.develop",
+    "en.v.vaccine"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Pasteur, qui était chimiste, a mis au point un vaccin contre la rage.",
+   "promptLanguage": "fr",
+   "answer": "Pasteur, who was a chemist, developed a vaccine against rabies.",
+   "acceptedAnswers": [
+    "Pasteur, who was a chemist, developed a vaccine against rabies.",
+    "Pasteur, who was a chemist, developed a vaccine for rabies.",
+    "Pasteur, who was a chemist, developed a rabies vaccine.",
+    "Pasteur, who was a chemist, created a vaccine against rabies.",
+    "Pasteur, who was a chemist, created a vaccine for rabies.",
+    "Pasteur, who was a chemist, created a rabies vaccine.",
+    "Louis Pasteur, who was a chemist, developed a vaccine against rabies.",
+    "Louis Pasteur, who was a chemist, developed a vaccine for rabies.",
+    "Louis Pasteur, who was a chemist, developed a rabies vaccine.",
+    "Louis Pasteur, who was a chemist, created a vaccine against rabies.",
+    "Louis Pasteur, who was a chemist, created a vaccine for rabies.",
+    "Louis Pasteur, who was a chemist, created a rabies vaccine."
+   ],
+   "hint": "La maladie « la rage » ne se dit pas rage en anglais.",
+   "explanation": "L'information « qui était chimiste » s'ajoute à un nom propre : who entre virgules. Mettre au point un vaccin = develop a vaccine. La maladie « la rage » se dit rabies.",
+   "tip": "Rage = colère ; la maladie, c'est rabies.",
+   "extraExample": {
+    "text": "Fleming, who discovered penicillin, was born in Scotland.",
+    "translation": "Fleming, qui a découvert la pénicilline, est né en Écosse."
+   },
+   "errorPatterns": [
+    {
+     "contains": "against rage",
+     "category": "vocabulary",
+     "feedback": "En anglais, la maladie « la rage » se dit rabies. Rage veut dire colère."
+    },
+    {
+     "contains": "against the rage",
+     "category": "vocabulary",
+     "feedback": "En anglais, la maladie « la rage » se dit rabies. Rage veut dire colère."
+    },
+    {
+     "contains": "pasteur that",
+     "category": "grammar",
+     "feedback": "Après une virgule, that est interdit : who."
+    },
+    {
+     "contains": "pasteur which",
+     "category": "grammar",
+     "feedback": "Which ne s'utilise pas pour une personne : who."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e19",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses",
+    "en.v.discovery",
+    "en.g09.do_vs_make"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Elle a fait une grande découverte, ce qui a surpris tout le monde » ?",
+   "promptLanguage": "fr",
+   "answer": "She made a big discovery, which surprised everyone.",
+   "acceptedAnswers": [
+    "She made a big discovery, which surprised everyone.",
+    "She made a big discovery, which surprised everybody.",
+    "She made a great discovery, which surprised everyone.",
+    "She made a great discovery, which surprised everybody.",
+    "She made an important discovery, which surprised everyone.",
+    "She made an important discovery, which surprised everybody.",
+    "She made a major discovery, which surprised everyone.",
+    "She made a major discovery, which surprised everybody.",
+    "She made a huge discovery, which surprised everyone.",
+    "She made a huge discovery, which surprised everybody."
+   ],
+   "hint": "Une découverte se « fait » avec make ; « ce qui » = , which.",
+   "explanation": "On dit make a discovery (comme make a mistake). Which, après la virgule, reprend toute la première partie de la phrase : « ce qui a surpris tout le monde ».",
+   "tip": "Make a discovery ; , which = ce qui.",
+   "extraExample": {
+    "text": "He passed the exam, which made his parents proud.",
+    "translation": "Il a réussi l'examen, ce qui a rendu ses parents fiers."
+   },
+   "errorPatterns": [
+    {
+     "contains": "did a discovery",
+     "category": "word_confusion",
+     "feedback": "On dit make a discovery, pas do : make sert à créer ou produire quelque chose."
+    },
+    {
+     "contains": "what surprised",
+     "category": "word_confusion",
+     "feedback": "« Ce qui » qui reprend une phrase se dit which, pas what."
+    },
+    {
+     "contains": "which it surprised",
+     "category": "grammar",
+     "feedback": "Which est déjà le sujet : on n'ajoute pas it."
+    }
+   ]
+  },
+  {
+   "id": "en.l81.e20",
+   "unitIds": [
+    "en.g62.non_defining_relative_clauses"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase en anglais avec une relative entre virgules.",
+   "prompt": "Écris une phrase avec une relative entre virgules (who ou which) sur une personne, un lieu ou une découverte que tu connais.",
+   "promptLanguage": "fr",
+   "requirements": {
+    "mustInclude": [
+     [
+      "who",
+      "which",
+      "whose",
+      "where"
+     ]
+    ],
+    "minWords": 8
+   },
+   "answer": "Marie Curie, who was born in Warsaw, won two Nobel Prizes.",
+   "acceptedAnswers": [
+    "Marie Curie, who was born in Warsaw, won two Nobel Prizes.",
+    "Paris, which is the capital of France, has a famous tower.",
+    "Penicillin, which was discovered in 1928, saved millions of lives.",
+    "Jupiter, which is huge, has many moons."
+   ],
+   "hint": "Nom, who / which + détail, suite de la phrase.",
+   "explanation": "Une relative explicative s'écrit entre virgules et apporte un détail sur quelqu'un ou quelque chose d'identifié. On y met who (personne) ou which (chose), jamais that.",
+   "tip": "Virgule, who / which + détail, virgule.",
+   "extraExample": {
+    "text": "London, which is on the Thames, is the capital of England.",
+    "translation": "Londres, qui est sur la Tamise, est la capitale de l'Angleterre."
+   },
+   "errorPatterns": [
+    {
+     "contains": "which was born",
+     "category": "grammar",
+     "feedback": "Which ne s'utilise pas pour une personne : who was born…"
+    },
+    {
+     "contains": "who is the capital",
+     "category": "grammar",
+     "feedback": "Who ne s'utilise pas pour une chose ou un lieu : which is the capital…"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,310 @@
+[
+ {
+  "id": "ar.g17.short_vowels",
+  "rule": {
+   "summary": "Trois petits signes donnent les voyelles brèves : la fatha ـَ (a), la kasra ـِ (i) et la damma ـُ (ou).",
+   "explanation": "L'arabe écrit les consonnes ; les voyelles brèves sont des signes, les harakat. La fatha est un trait penché au-dessus de la lettre (a), la kasra le même trait sous la lettre (i), la damma un petit و bouclé au-dessus (ou). La voyelle se dit après sa lettre. En égyptien, un mot finit presque toujours sans voyelle : la dernière lettre n'a pas de signe.",
+   "pattern": "بَ = b + a    بِ = b + i    بُ = b + ou",
+   "examples": [
+    {
+     "text": "جَبَل",
+     "translation": "montagne : ج + a, ب + a, puis ل sans voyelle"
+    },
+    {
+     "text": "عِنَب",
+     "translation": "raisin : une kasra sous ع, puis deux fathas"
+    },
+    {
+     "text": "كُتُب",
+     "translation": "livres : deux dammas"
+    },
+    {
+     "text": "حَمَل",
+     "translation": "agneau : l'Agneau de Dieu est le Christ"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "بِ lu b + a",
+     "right": "بِ = b + i",
+     "why": "Le trait sous la lettre est une kasra : le son est i."
+    },
+    {
+     "wrong": "كَتَب lu comme كُتُب",
+     "right": "كُتُب = livres ; كَتَب = il a écrit",
+     "why": "Les consonnes sont les mêmes, mais chaque voyelle change le mot."
+    },
+    {
+     "wrong": "une voyelle sur la dernière lettre de بَلَد",
+     "right": "بَلَد finit par د sans signe",
+     "why": "En égyptien, le mot se termine sans voyelle."
+    }
+   ],
+   "tip": "Ouvrir, casser, rassembler : fatha = a, kasra = i, damma = ou."
+  }
+ },
+ {
+  "id": "ar.g18.sukun",
+  "rule": {
+   "summary": "Le soukoun ـْ, un petit rond au-dessus de la lettre, dit qu'elle n'a pas de voyelle : on enchaîne directement avec la lettre suivante.",
+   "explanation": "Une lettre avec soukoun se lit seule, sans voyelle, collée à la lettre d'avant. Dans بُرْج, le ر n'a pas de voyelle : b + ou, puis r, puis j. Avec ـَيْ et ـَوْ, la fatha et la lettre forment un seul son : en égyptien, ـَيْ se dit é long et ـَوْ se dit ô. À la fin d'un mot, le soukoun est souvent omis.",
+   "pattern": "بُرْج : بُ + رْ + ج    ـَيْ = é long    ـَوْ = ô",
+   "examples": [
+    {
+     "text": "بُرْج",
+     "translation": "tour, clocher : ر sans voyelle"
+    },
+    {
+     "text": "كَلْب",
+     "translation": "chien : ل sans voyelle"
+    },
+    {
+     "text": "يَوْم",
+     "translation": "jour : ـَوْ se dit ô"
+    },
+    {
+     "text": "خَيْر",
+     "translation": "bien : ـَيْ se dit é long"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ـْ lu comme une voyelle",
+     "right": "ـْ = aucune voyelle",
+     "why": "Le petit rond veut dire « rien » : la lettre est collée à la suivante."
+    },
+    {
+     "wrong": "يَوْم lu en deux syllabes avec un ou séparé",
+     "right": "يَوْم : ـَوْ forme un seul son, ô",
+     "why": "La fatha et و avec soukoun se fondent en un seul son."
+    },
+    {
+     "wrong": "كَلْب lu avec une voyelle sur ل",
+     "right": "كَلْب : ك + a, ل, ب",
+     "why": "Le soukoun empêche toute voyelle sur ل."
+    }
+   ],
+   "tip": "Rond = rien : le soukoun coupe la voyelle."
+  }
+ },
+ {
+  "id": "ar.g19.long_vowels",
+  "rule": {
+   "summary": "ا و ي après la voyelle brève qui leur correspond donnent les voyelles longues : ـَا (a long), ـُو (ou long), ـِي (i long).",
+   "explanation": "Les lettres ا و ي peuvent allonger une voyelle. Après une fatha, ا donne un a long ; après une damma, و donne un ou long ; après une kasra, ي donne un i long. La lettre qui allonge ne porte aucun signe. Une voyelle longue dure à peu près deux fois plus longtemps qu'une brève. Si و ou ي porte une voyelle (وَ، يَ), elle redevient une consonne, comme dans يَوْم.",
+   "pattern": "ـَا = a long    ـُو = ou long    ـِي = i long",
+   "examples": [
+    {
+     "text": "نُور",
+     "translation": "lumière : damma + و = ou long"
+    },
+    {
+     "text": "مَلَاك",
+     "translation": "ange : fatha + ا = a long"
+    },
+    {
+     "text": "كِبِير",
+     "translation": "grand : kasra + ي = i long"
+    },
+    {
+     "text": "خَلَاص",
+     "translation": "c'est fini, salut"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "نُور lu avec un ou court puis un w",
+     "right": "نُور : ou long",
+     "why": "و sans signe après une damma allonge la voyelle."
+    },
+    {
+     "wrong": "كِبِير lu avec un y après le i",
+     "right": "كِبِير : i long",
+     "why": "ي sans signe après une kasra allonge la voyelle."
+    },
+    {
+     "wrong": "ـَا lu a + a",
+     "right": "ـَا = un seul a long",
+     "why": "ا n'ajoute pas une deuxième voyelle : il rallonge la fatha."
+    }
+   ],
+   "tip": "Voyelle brève + lettre sœur = voyelle longue."
+  }
+ },
+ {
+  "id": "ar.g20.shadda",
+  "rule": {
+   "summary": "La chadda ـّ, un petit w au-dessus de la lettre, double la lettre : on la prononce deux fois.",
+   "explanation": "La chadda remplace une lettre répétée : كُبَّايَة s'écrit avec un seul ب, mais on prononce bb. La première moitié ferme la syllabe d'avant, la seconde ouvre la suivante. La voyelle se pose avec la chadda : fatha ـَّ, damma ـُّ au-dessus, kasra ـِّ sous la lettre. En égyptien, une lettre doublée peut aussi finir un mot : رَبّ.",
+   "pattern": "بَّ = bb + a    بُّ = bb + ou    بِّ = bb + i",
+   "examples": [
+    {
+     "text": "كُبَّايَة",
+     "translation": "verre : ب doublé"
+    },
+    {
+     "text": "مَيَّة",
+     "translation": "eau : ي doublé"
+    },
+    {
+     "text": "قُدَّاس",
+     "translation": "messe : د doublé"
+    },
+    {
+     "text": "رَبّ",
+     "translation": "Seigneur : ب doublé en fin de mot"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "كُبَّايَة lu avec un seul ب",
+     "right": "كُبَّايَة : bb",
+     "why": "La chadda compte pour deux lettres."
+    },
+    {
+     "wrong": "chadda lue comme une voyelle",
+     "right": "chadda = lettre doublée",
+     "why": "Elle ne donne pas de son nouveau : elle double la consonne, et la voyelle vient à côté."
+    },
+    {
+     "wrong": "chadda confondue avec le soukoun",
+     "right": "soukoun = petit rond, chadda = petit w",
+     "why": "Rond : aucune voyelle. W : lettre doublée."
+    }
+   ],
+   "tip": "Chadda = deux fois la lettre."
+  }
+ },
+ {
+  "id": "ar.g21.tanwin",
+  "rule": {
+   "summary": "Le tanwin est un signe doublé à la fin d'un mot : ـً (an), ـٍ (in), ـٌ (oun). Le plus courant en égyptien est ـً, comme dans شُكْرًا.",
+   "explanation": "Tanwin veut dire « nounation » : on double le signe et on ajoute un n à la fin du mot. Fathatan ـً : an, avec un alif muet (شُكْرًا). Kasratan ـٍ : in. Dammatan ـٌ : oun. En égyptien, tu verras surtout ـً dans des adverbes : شُكْرًا, جِدًّا, طَبْعًا. ـٍ et ـٌ se rencontrent dans les textes d'église et les livres.",
+   "pattern": "ـً = an    ـٍ = in    ـٌ = oun",
+   "examples": [
+    {
+     "text": "شُكْرًا",
+     "translation": "merci : tanwin fatha, alif muet"
+    },
+    {
+     "text": "جِدًّا",
+     "translation": "très : chadda + tanwin"
+    },
+    {
+     "text": "طَبْعًا",
+     "translation": "bien sûr"
+    },
+    {
+     "text": "بَيْتٌ  بَيْتٍ  بَيْتًا",
+     "translation": "les trois tanwins sur la même base"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ـً lu comme une simple fatha",
+     "right": "ـً = an",
+     "why": "Le signe est doublé : on entend un n à la fin."
+    },
+    {
+     "wrong": "l'alif de شُكْرًا lu comme un a de plus",
+     "right": "l'alif de شُكْرًا est muet",
+     "why": "Il porte seulement le tanwin, il ne se dit pas à part."
+    },
+    {
+     "wrong": "tanwin au milieu du mot",
+     "right": "tanwin = toujours à la fin du mot",
+     "why": "Il remplace la voyelle de fin de mot."
+    }
+   ],
+   "tip": "Tanwin = signe doublé = un n à la fin."
+  }
+ },
+ {
+  "id": "ar.g22.hamza_madda",
+  "rule": {
+   "summary": "La hamza (coup de gorge) s'écrit seule ء ou sur un support : أ إ ؤ ئ. Sur ا, une madda donne آ : hamza + a long.",
+   "explanation": "ء est un coup de gorge. Elle prend un support selon la voyelle la plus forte (kasra, puis damma, puis fatha) : أ sur ا avec fatha ou damma, إ sous ا avec kasra, ؤ sur و avec damma, ئ sur ي sans points avec kasra. Après une voyelle longue ou un soukoun, elle s'écrit seule : مَسَاء. آ = ا + hamza + a long : آمِين. Un ا avec une voyelle mais sans hamza, comme dans اِرْحَم, ne fait que porter la voyelle.",
+   "pattern": "أَ أُ    إِ    ؤُ    ئِ    ء    آ",
+   "examples": [
+    {
+     "text": "أَيْوَه",
+     "translation": "oui : hamza sur ا avec fatha"
+    },
+    {
+     "text": "إِيه",
+     "translation": "quoi : hamza sous ا avec kasra"
+    },
+    {
+     "text": "سُؤَال",
+     "translation": "question : ؤ sur و"
+    },
+    {
+     "text": "آمِين",
+     "translation": "amen : madda"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "إِ lu avec une fatha",
+     "right": "إِ = hamza + i",
+     "why": "Quand la hamza est sous ا, elle porte une kasra."
+    },
+    {
+     "wrong": "آ lu comme un ا simple",
+     "right": "آ = hamza + a long",
+     "why": "La madda ajoute un coup de gorge avant le a long."
+    },
+    {
+     "wrong": "ؤ lu comme un و simple",
+     "right": "ؤ = hamza sur و",
+     "why": "Le petit signe sur و est la hamza : on entend un coup de gorge."
+    }
+   ],
+   "tip": "Le support suit la voyelle la plus forte : kasra, damma, fatha."
+  }
+ },
+ {
+  "id": "ar.g23.article_sun_moon",
+  "rule": {
+   "summary": "ال veut dire « le / la / les ». Devant une lettre lunaire, le ل se dit ; devant une lettre solaire, le ل s'efface et la lettre est doublée par une chadda.",
+   "explanation": "ال s'écrit collé au nom. Devant les 14 lettres lunaires (أ ب ج ح خ ع غ ف ق ك م ه و ي), le ل garde un soukoun et se dit : الْقَمَر. Devant les 14 lettres solaires (ت ث د ذ ر ز س ش ص ض ط ظ ل ن), le ل s'efface et la lettre qui suit porte une chadda : الشَّمْس. En égyptien, ال se dit el. Dans un texte vocalisé, la chadda après ال t'indique tout de suite une lettre solaire.",
+   "pattern": "الْ + lunaire    ال + solaire avec chadda",
+   "examples": [
+    {
+     "text": "الْقَمَر",
+     "translation": "la lune : ق est lunaire, le ل se dit"
+    },
+    {
+     "text": "الشَّمْس",
+     "translation": "le soleil : ش est solaire, il est doublé"
+    },
+    {
+     "text": "الْكَنِيسَة",
+     "translation": "l'église : ك est lunaire"
+    },
+    {
+     "text": "النَّهَارْدَه",
+     "translation": "aujourd'hui : ن est solaire"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "الشَّمْس lu avec le ل dit",
+     "right": "الشَّمْس : le ل s'efface",
+     "why": "ش est solaire : il absorbe le ل et se double."
+    },
+    {
+     "wrong": "الْقَمَر lu avec ق doublé",
+     "right": "الْقَمَر : le ل se dit",
+     "why": "ق est lunaire : rien ne s'efface."
+    },
+    {
+     "wrong": "ال écrit sans le ا",
+     "right": "ال = ا + ل",
+     "why": "L'article est toujours composé de ces deux lettres collées au nom."
+    }
+   ],
+   "tip": "Chadda après ال = lettre solaire. Soukoun sur le ل = lettre lunaire."
+  }
+ }
+]

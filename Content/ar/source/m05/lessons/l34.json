@@ -1,0 +1,734 @@
+{
+ "lessonId": "ar.l34",
+ "exercises": [
+  {
+   "id": "ar.l34.e01",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.mama"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « maman » ?",
+   "promptLanguage": "fr",
+   "answer": "ماما",
+   "acceptedAnswers": [
+    "ماما"
+   ],
+   "explanation": "ماما est le jumeau de بابا : seule la première lettre change (carte « Papa et maman »).",
+   "tip": "م comme dans ماما et مريم.",
+   "extraExample": {
+    "text": "ماما في البيت",
+    "translation": "Maman est à la maison"
+   },
+   "options": [
+    "بابا",
+    "تيتة",
+    "جدو",
+    "ماما"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بابا",
+     "category": "word_confusion",
+     "feedback": "بابا est papa ; maman commence par م."
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e02",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.ibni"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Comprends la règle.",
+   "prompt": "Que veut dire le ي collé à la fin de ابني ?",
+   "promptLanguage": "fr",
+   "answer": "mon / ma",
+   "acceptedAnswers": [
+    "mon / ma"
+   ],
+   "explanation": "Un ي final veut dire « mon / ma » : ابن + ي = ابني, « mon fils » (carte « Le secret »).",
+   "tip": "ـي = mon / ma ; ـنا = notre.",
+   "extraExample": {
+    "text": "بنتي مريم",
+    "translation": "Ma fille Mariam"
+   },
+   "options": [
+    "ton",
+    "mon / ma",
+    "notre",
+    "ils"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "notre",
+     "category": "word_confusion",
+     "feedback": "« notre » c'est ـنا, comme dans أبونا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e03",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.ibni"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Lis : ابني. Que veut dire ce mot ?",
+   "promptLanguage": "fr",
+   "answer": "mon fils",
+   "acceptedAnswers": [
+    "mon fils"
+   ],
+   "explanation": "ابني = ابن (fils) + ي (mon) : mon fils.",
+   "tip": "ابن = fils, بنت = fille.",
+   "extraExample": {
+    "text": "ابني مينا",
+    "translation": "Mon fils Mina"
+   },
+   "options": [
+    "ma fille",
+    "mon frère",
+    "mon fils",
+    "mon mari"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ma fille",
+     "category": "word_confusion",
+     "feedback": "Ma fille se dit بنتي."
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e04",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.akhuya"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Lis : أخويا. Que veut dire ce mot ?",
+   "promptLanguage": "fr",
+   "answer": "mon frère",
+   "acceptedAnswers": [
+    "mon frère"
+   ],
+   "explanation": "أخويا veut dire « mon frère » : le ـي de « mon » s'écrit ـيا (carte « Frère et sœur »).",
+   "tip": "أخويا = أخو + يا.",
+   "extraExample": {
+    "text": "أخويا مينا",
+    "translation": "Mon frère Mina"
+   },
+   "options": [
+    "mon frère",
+    "mon fils",
+    "mon mari",
+    "mon oncle"
+   ]
+  },
+  {
+   "id": "ar.l34.e05",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.okhti"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « ma sœur » ?",
+   "promptLanguage": "fr",
+   "answer": "أختي",
+   "acceptedAnswers": [
+    "أختي"
+   ],
+   "explanation": "أختي = أخت (sœur) + ي (ma).",
+   "tip": "أختي contient la lettre ت.",
+   "extraExample": {
+    "text": "أختي مريم",
+    "translation": "Ma sœur Mariam"
+   },
+   "options": [
+    "بنتي",
+    "مراتي",
+    "أخويا",
+    "أختي"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "أخويا",
+     "category": "word_confusion",
+     "feedback": "أخويا est le frère."
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e06",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.khaltu"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Un enfant appelle la sœur de sa mère. Quel mot dit-il ?",
+   "promptLanguage": "fr",
+   "answer": "خالتو",
+   "acceptedAnswers": [
+    "خالتو"
+   ],
+   "explanation": "خالتو est la sœur de la mère ; عمو est le frère du père (carte « Grands-parents, oncle, tante »).",
+   "tip": "خال... = côté maternel.",
+   "extraExample": {
+    "text": "خالتو مريم",
+    "translation": "Tante Mariam"
+   },
+   "options": [
+    "تيتة",
+    "عمو",
+    "ماما",
+    "خالتو"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "عمو",
+     "category": "word_confusion",
+     "feedback": "عمو est l'oncle, pas la tante."
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e07",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.ammu"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « oncle » ?",
+   "promptLanguage": "fr",
+   "answer": "عمو",
+   "acceptedAnswers": [
+    "عمو"
+   ],
+   "explanation": "عمو est l'oncle, le frère du père ; les enfants le disent aussi à un adulte qu'ils aiment bien.",
+   "tip": "عمو = oncle.",
+   "extraExample": {
+    "text": "صباح الخير يا عمو",
+    "translation": "Bonjour, oncle"
+   },
+   "options": [
+    "خالتو",
+    "أخويا",
+    "جدو",
+    "عمو"
+   ]
+  },
+  {
+   "id": "ar.l34.e08",
+   "unitIds": [
+    "ar.v.mesa_el_kheir"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel de la leçon précédente.",
+   "prompt": "Le soir, tu croises ta tante. Quelle salutation dis-tu ?",
+   "promptLanguage": "fr",
+   "answer": "مساء الخير",
+   "acceptedAnswers": [
+    "مساء الخير"
+   ],
+   "explanation": "Le soir on dit مساء الخير, le matin صباح الخير.",
+   "tip": "مساء = soir.",
+   "extraExample": {
+    "text": "مساء الخير يا خالتو",
+    "translation": "Bonsoir, tante"
+   },
+   "options": [
+    "مساء الخير",
+    "شكرا",
+    "يلا",
+    "صباح الخير"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "صباح الخير",
+     "category": "word_confusion",
+     "feedback": "صباح est le matin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e09",
+   "unitIds": [
+    "ar.v.ba"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel des lettres.",
+   "prompt": "Quelle lettre commence à la fois بيت (maison) et بنت (fille) ?",
+   "promptLanguage": "fr",
+   "answer": "ب",
+   "acceptedAnswers": [
+    "ب"
+   ],
+   "explanation": "Les deux mots commencent par ب, la lettre à un point en dessous.",
+   "tip": "ب : un point dessous.",
+   "extraExample": {
+    "text": "بيت",
+    "translation": "maison"
+   },
+   "options": [
+    "ث",
+    "ب",
+    "ن",
+    "ت"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ن",
+     "category": "word_confusion",
+     "feedback": "ن a un point au-dessus."
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e10",
+   "unitIds": [
+    "ar.v.jiddu"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel du vocabulaire.",
+   "prompt": "Le père de ton père, que tu appelles جدو, c'est ton…",
+   "promptLanguage": "fr",
+   "answer": "papy",
+   "acceptedAnswers": [
+    "papy"
+   ],
+   "explanation": "جدو veut dire « papy » (vu avec la lettre ج) ; il va avec تيتة, « mamie ».",
+   "tip": "جدو + تيتة = les grands-parents.",
+   "extraExample": {
+    "text": "جدو في البيت",
+    "translation": "Papy est à la maison"
+   },
+   "options": [
+    "mari",
+    "oncle",
+    "fils",
+    "papy"
+   ]
+  },
+  {
+   "id": "ar.l34.e11",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.akhuya",
+    "ar.v.okhti",
+    "ar.v.ibni",
+    "ar.v.binti",
+    "ar.v.teta"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Associe chaque mot de la famille à son sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Le ي final veut dire « mon / ma » ; le reste du mot dit qui c'est.",
+   "pairs": [
+    {
+     "left": "أخويا",
+     "right": "mon frère"
+    },
+    {
+     "left": "أختي",
+     "right": "ma sœur"
+    },
+    {
+     "left": "ابني",
+     "right": "mon fils"
+    },
+    {
+     "left": "بنتي",
+     "right": "ma fille"
+    },
+    {
+     "left": "تيتة",
+     "right": "mamie"
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e12",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.gozi",
+    "ar.v.merati",
+    "ar.v.ammu",
+    "ar.v.khaltu",
+    "ar.v.mama"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Associe les autres membres de la famille à leur sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Mari et femme portent aussi le ي de « mon, ma » ; عمو et خالتو sont l'oncle et la tante.",
+   "pairs": [
+    {
+     "left": "جوزي",
+     "right": "mon mari"
+    },
+    {
+     "left": "مراتي",
+     "right": "ma femme"
+    },
+    {
+     "left": "عمو",
+     "right": "oncle (frère du père)"
+    },
+    {
+     "left": "خالتو",
+     "right": "tante (sœur de la mère)"
+    },
+    {
+     "left": "ماما",
+     "right": "maman"
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e13",
+   "unitIds": [
+    "ar.v.baba",
+    "ar.v.jiddu",
+    "ar.v.bayt",
+    "ar.v.bint"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Rappel : associe chaque mot à son sens.",
+   "prompt": "Associe ces mots de la famille et de la maison vus avec les lettres.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre mots viennent des leçons sur les lettres dans les mots.",
+   "pairs": [
+    {
+     "left": "بابا",
+     "right": "papa"
+    },
+    {
+     "left": "جدو",
+     "right": "papy"
+    },
+    {
+     "left": "بيت",
+     "right": "maison"
+    },
+    {
+     "left": "بنت",
+     "right": "fille"
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e14",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.binti"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète l'équation.",
+   "prompt": "بنت + ___ = بنتي  (ma fille)",
+   "promptLanguage": "ar",
+   "answer": "ي",
+   "acceptedAnswers": [
+    "ي"
+   ],
+   "explanation": "Un ي final veut dire « mon / ma » : بنت + ي = بنتي.",
+   "tip": "ي = mon / ma.",
+   "extraExample": {
+    "text": "ابن + ي = ابني",
+    "translation": "fils + mon = mon fils"
+   },
+   "options": [
+    "و",
+    "ي",
+    "ة",
+    "نا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "نا",
+     "category": "word_confusion",
+     "feedback": "ـنا veut dire « notre », pas « ma »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e15",
+   "unitIds": [
+    "ar.g34.la_famille"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète l'équation.",
+   "prompt": "أبو + ___ = أبونا  (notre père)",
+   "promptLanguage": "ar",
+   "answer": "نا",
+   "acceptedAnswers": [
+    "نا"
+   ],
+   "explanation": "Pour dire « notre », on colle ـنا : أبونا, ربنا.",
+   "tip": "نا = notre.",
+   "extraExample": {
+    "text": "رب + نا = ربنا",
+    "translation": "Seigneur + notre = notre Seigneur"
+   },
+   "options": [
+    "نا",
+    "ه",
+    "ك",
+    "ي"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ي",
+     "category": "word_confusion",
+     "feedback": "ي donnerait « mon père » (أبويا)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l34.e16",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.mama"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "يا ___ ، إزيك؟  (Maman, comment vas-tu ?)",
+   "promptLanguage": "ar",
+   "answer": "ماما",
+   "acceptedAnswers": [
+    "ماما"
+   ],
+   "explanation": "On appelle sa mère avec يا ماما ; la parenthèse donne « maman ».",
+   "tip": "يا + mot = appeler quelqu'un.",
+   "extraExample": {
+    "text": "يا بابا، إزيك؟",
+    "translation": "Papa, comment vas-tu ?"
+   },
+   "options": [
+    "بابا",
+    "ماما",
+    "تيتة",
+    "جدو"
+   ]
+  },
+  {
+   "id": "ar.l34.e17",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.akhuya"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "___ مينا  (mon frère Mina)",
+   "promptLanguage": "ar",
+   "answer": "أخويا",
+   "acceptedAnswers": [
+    "أخويا"
+   ],
+   "explanation": "« Mon frère » se dit أخويا (carte « Frère et sœur »).",
+   "tip": "أخويا = mon frère.",
+   "extraExample": {
+    "text": "أخويا بيشوي",
+    "translation": "Mon frère Bishoy"
+   },
+   "options": [
+    "أختي",
+    "ابني",
+    "أخويا",
+    "جوزي"
+   ]
+  },
+  {
+   "id": "ar.l34.e18",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.ibni"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "ابني مينا",
+   "promptLanguage": "ar",
+   "answer": "mon fils mina",
+   "acceptedAnswers": [
+    "mon fils mina",
+    "mon fils est mina",
+    "mon fils, mina",
+    "mon fils s'appelle mina"
+   ],
+   "explanation": "ابني = mon fils ; مينا est son prénom.",
+   "tip": "Le prénom suit le mot de famille.",
+   "extraExample": {
+    "text": "بنتي مريم",
+    "translation": "Ma fille Mariam"
+   }
+  },
+  {
+   "id": "ar.l34.e19",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.okhti"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "أختي مريم",
+   "promptLanguage": "ar",
+   "answer": "ma sœur mariam",
+   "acceptedAnswers": [
+    "ma sœur mariam",
+    "ma soeur mariam",
+    "ma sœur marie",
+    "ma soeur marie",
+    "ma sœur est mariam",
+    "ma sœur, mariam"
+   ],
+   "explanation": "أختي = ma sœur ; مريم est son prénom.",
+   "tip": "ـي = ma.",
+   "extraExample": {
+    "text": "أخويا مينا",
+    "translation": "Mon frère Mina"
+   }
+  },
+  {
+   "id": "ar.l34.e20",
+   "unitIds": [
+    "ar.v.sabah_el_kheir",
+    "ar.g34.la_famille"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "صباح الخير يا ماما",
+   "promptLanguage": "ar",
+   "answer": "bonjour maman",
+   "acceptedAnswers": [
+    "bonjour maman",
+    "bonjour, maman",
+    "bonjour ma maman",
+    "bonjour mère"
+   ],
+   "explanation": "صباح الخير = bonjour ; يا ماما = « maman ! » en l'appelant.",
+   "tip": "Salutation + يا + personne.",
+   "extraExample": {
+    "text": "صباح الخير يا تيتة",
+    "translation": "Bonjour, mamie"
+   }
+  },
+  {
+   "id": "ar.l34.e21",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.gozi"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Une dame dit : « جوزي في الشغل ». De qui parle-t-elle ?",
+   "promptLanguage": "fr",
+   "answer": "son mari",
+   "acceptedAnswers": [
+    "son mari",
+    "mon mari",
+    "mari",
+    "le mari",
+    "de son mari",
+    "son époux",
+    "mon époux"
+   ],
+   "explanation": "جوزي = mon mari ; c'est donc le mari de la dame (carte « Mari et femme »).",
+   "tip": "جوز... = le mari.",
+   "extraExample": {
+    "text": "جوزي بيشوي",
+    "translation": "Mon mari Bishoy"
+   }
+  },
+  {
+   "id": "ar.l34.e22",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.merati"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Un monsieur dit : « مراتي في البيت ». De qui parle-t-il ?",
+   "promptLanguage": "fr",
+   "answer": "sa femme",
+   "acceptedAnswers": [
+    "sa femme",
+    "ma femme",
+    "femme",
+    "la femme",
+    "de sa femme",
+    "son épouse",
+    "mon épouse"
+   ],
+   "explanation": "مراتي = ma femme ; le monsieur parle donc de son épouse.",
+   "tip": "مرات... = l'épouse.",
+   "extraExample": {
+    "text": "مراتي مارينا",
+    "translation": "Ma femme Marina"
+   }
+  },
+  {
+   "id": "ar.l34.e23",
+   "unitIds": [
+    "ar.g34.la_famille",
+    "ar.v.teta"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Forme la phrase : « Bonjour, mamie ».",
+   "promptLanguage": "ar",
+   "answer": "صباح الخير يا تيتة",
+   "acceptedAnswers": [
+    "صباح الخير يا تيتة"
+   ],
+   "explanation": "Salutation d'abord, puis يا et la personne qu'on appelle.",
+   "tip": "يا + nom à la fin.",
+   "extraExample": {
+    "text": "مساء الخير يا ماما",
+    "translation": "Bonsoir, maman"
+   },
+   "tokens": [
+    "تيتة",
+    "الخير",
+    "يا",
+    "صباح"
+   ]
+  }
+ ]
+}

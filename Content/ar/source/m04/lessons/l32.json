@@ -1,0 +1,923 @@
+{
+ "lessonId": "ar.l32",
+ "exercises": [
+  {
+   "id": "ar.l32.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.makhrag"
+   ],
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "مخرج",
+   "promptLanguage": "ar",
+   "options": [
+    "entrée",
+    "sortie",
+    "interdit",
+    "rue"
+   ],
+   "answer": "sortie",
+   "acceptedAnswers": [
+    "sortie"
+   ],
+   "explanation": "مخر | ج : deux blocs, le ر ferme le premier. C'est le panneau « sortie ».",
+   "tip": "Pense à la porte verte au-dessus de la sortie.",
+   "extraExample": {
+    "text": "مخرج الطوارئ.",
+    "translation": "La sortie de secours."
+   },
+   "errorPatterns": [
+    {
+     "equals": "entrée",
+     "category": "word_confusion",
+     "feedback": "« entrée » ne correspond pas : relis مخرج bloc par bloc. Ici, le sens est « sortie »."
+    },
+    {
+     "equals": "interdit",
+     "category": "word_confusion",
+     "feedback": "« interdit » ne correspond pas : relis مخرج bloc par bloc. Ici, le sens est « sortie »."
+    },
+    {
+     "equals": "rue",
+     "category": "word_confusion",
+     "feedback": "« rue » ne correspond pas : relis مخرج bloc par bloc. Ici, le sens est « sortie »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.mamnu"
+   ],
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "ممنوع",
+   "promptLanguage": "ar",
+   "options": [
+    "sortie",
+    "pharmacie",
+    "station",
+    "interdit"
+   ],
+   "answer": "interdit",
+   "acceptedAnswers": [
+    "interdit"
+   ],
+   "explanation": "ممنو | ع : deux blocs, le و ferme le premier. Deux م au début : c'est le panneau « interdit ».",
+   "tip": "Deux م qui se répondent : c'est le panneau qui t'arrête.",
+   "extraExample": {
+    "text": "ممنوع الدخول.",
+    "translation": "Entrée interdite."
+   },
+   "errorPatterns": [
+    {
+     "equals": "sortie",
+     "category": "word_confusion",
+     "feedback": "« sortie » ne correspond pas : relis ممنوع bloc par bloc. Ici, le sens est « interdit »."
+    },
+    {
+     "equals": "pharmacie",
+     "category": "word_confusion",
+     "feedback": "« pharmacie » ne correspond pas : relis ممنوع bloc par bloc. Ici, le sens est « interdit »."
+    },
+    {
+     "equals": "station",
+     "category": "word_confusion",
+     "feedback": "« station » ne correspond pas : relis ممنوع bloc par bloc. Ici, le sens est « interdit »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.saydaliya"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "صيدلية",
+   "promptLanguage": "ar",
+   "options": [
+    "hôpital",
+    "pharmacie",
+    "restaurant",
+    "école"
+   ],
+   "answer": "pharmacie",
+   "acceptedAnswers": [
+    "pharmacie"
+   ],
+   "explanation": "صيد | لية : deux blocs, le د ferme le premier. C'est la « pharmacie ».",
+   "tip": "Une croix verte et le mot صيدلية.",
+   "extraExample": {
+    "text": "الصيدلية فاتحة.",
+    "translation": "La pharmacie est ouverte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "hôpital",
+     "category": "word_confusion",
+     "feedback": "« hôpital » ne correspond pas : relis صيدلية bloc par bloc. Ici, le sens est « pharmacie »."
+    },
+    {
+     "equals": "restaurant",
+     "category": "word_confusion",
+     "feedback": "« restaurant » ne correspond pas : relis صيدلية bloc par bloc. Ici, le sens est « pharmacie »."
+    },
+    {
+     "equals": "école",
+     "category": "word_confusion",
+     "feedback": "« école » ne correspond pas : relis صيدلية bloc par bloc. Ici, le sens est « pharmacie »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.mahatta",
+    "ar.v.metro",
+    "ar.v.law_samaht",
+    "ar.v.fin"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "لو سمحت، فين محطة المترو؟",
+   "promptLanguage": "ar",
+   "options": [
+    "Excuse-moi, où est l'église ?",
+    "Merci, la station de métro est ici.",
+    "Où est le métro, Mina ?",
+    "Excuse-moi, où est la station de métro ?"
+   ],
+   "answer": "Excuse-moi, où est la station de métro ?",
+   "acceptedAnswers": [
+    "Excuse-moi, où est la station de métro ?"
+   ],
+   "explanation": "لو سمحت (excuse-moi) + فين (où) + محطة المترو (la station de métro) : une demande de chemin complète.",
+   "tip": "Cherche فين : c'est le mot de question.",
+   "extraExample": {
+    "text": "لو سمحت، فين الصيدلية؟",
+    "translation": "Excuse-moi, où est la pharmacie ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Excuse-moi, où est l'église ?",
+     "category": "word_confusion",
+     "feedback": "« Excuse-moi, où est l'église ? » ne correspond pas : relis لو سمحت، فين محطة المترو؟ bloc par bloc. Ici, le sens est « Excuse-moi, où est la station de métro ? »."
+    },
+    {
+     "equals": "Merci, la station de métro est ici.",
+     "category": "word_confusion",
+     "feedback": "« Merci, la station de métro est ici. » ne correspond pas : relis لو سمحت، فين محطة المترو؟ bloc par bloc. Ici, le sens est « Excuse-moi, où est la station de métro ? »."
+    },
+    {
+     "equals": "Où est le métro, Mina ?",
+     "category": "word_confusion",
+     "feedback": "« Où est le métro, Mina ? » ne correspond pas : relis لو سمحت، فين محطة المترو؟ bloc par bloc. Ici, le sens est « Excuse-moi, où est la station de métro ? »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.el_ahad",
+    "ar.v.quddas"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "قداس الأحد",
+   "promptLanguage": "ar",
+   "options": [
+    "l'école du dimanche",
+    "la liturgie du dimanche",
+    "l'office de louange du dimanche",
+    "le psaume du dimanche"
+   ],
+   "answer": "la liturgie du dimanche",
+   "acceptedAnswers": [
+    "la liturgie du dimanche"
+   ],
+   "explanation": "قداس (liturgie, module 2) + الأحد (dimanche) : « la liturgie du dimanche ».",
+   "tip": "الأحد = ال + أحد.",
+   "extraExample": {
+    "text": "قداس النهارده.",
+    "translation": "La liturgie, c'est aujourd'hui."
+   },
+   "errorPatterns": [
+    {
+     "equals": "l'école du dimanche",
+     "category": "word_confusion",
+     "feedback": "« l'école du dimanche » ne correspond pas : relis قداس الأحد bloc par bloc. Ici, le sens est « la liturgie du dimanche »."
+    },
+    {
+     "equals": "l'office de louange du dimanche",
+     "category": "word_confusion",
+     "feedback": "« l'office de louange du dimanche » ne correspond pas : relis قداس الأحد bloc par bloc. Ici, le sens est « la liturgie du dimanche »."
+    },
+    {
+     "equals": "le psaume du dimanche",
+     "category": "word_confusion",
+     "feedback": "« le psaume du dimanche » ne correspond pas : relis قداس الأحد bloc par bloc. Ici, le sens est « la liturgie du dimanche »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.madares_el_ahad"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "مدارس الأحد",
+   "promptLanguage": "ar",
+   "options": [
+    "la liturgie du dimanche",
+    "le livre des heures",
+    "l'église du dimanche",
+    "l'école du dimanche"
+   ],
+   "answer": "l'école du dimanche",
+   "acceptedAnswers": [
+    "l'école du dimanche"
+   ],
+   "explanation": "مدارس est le pluriel de مدرسة (école) ; avec الأحد : « l'école du dimanche ».",
+   "tip": "Reconnais مدرسة dans مدارس.",
+   "extraExample": {
+    "text": "أنا رايح مدارس الأحد.",
+    "translation": "Je vais à l'école du dimanche."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la liturgie du dimanche",
+     "category": "word_confusion",
+     "feedback": "« la liturgie du dimanche » ne correspond pas : relis مدارس الأحد bloc par bloc. Ici, le sens est « l'école du dimanche »."
+    },
+    {
+     "equals": "le livre des heures",
+     "category": "word_confusion",
+     "feedback": "« le livre des heures » ne correspond pas : relis مدارس الأحد bloc par bloc. Ici, le sens est « l'école du dimanche »."
+    },
+    {
+     "equals": "l'église du dimanche",
+     "category": "word_confusion",
+     "feedback": "« l'église du dimanche » ne correspond pas : relis مدارس الأحد bloc par bloc. Ici, le sens est « l'école du dimanche »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.share"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "شارع",
+   "promptLanguage": "ar",
+   "options": [
+    "station",
+    "rue",
+    "métro",
+    "sortie"
+   ],
+   "answer": "rue",
+   "acceptedAnswers": [
+    "rue"
+   ],
+   "explanation": "شا | ر | ع : trois blocs, car le ا et le ر ferment chacun un bloc. C'est la « rue ».",
+   "tip": "ش | ا | ر | ع : cherche les coupures du ا et du ر.",
+   "extraExample": {
+    "text": "الشارع زحمة.",
+    "translation": "La rue est bondée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "station",
+     "category": "word_confusion",
+     "feedback": "« station » ne correspond pas : relis شارع bloc par bloc. Ici, le sens est « rue »."
+    },
+    {
+     "equals": "métro",
+     "category": "word_confusion",
+     "feedback": "« métro » ne correspond pas : relis شارع bloc par bloc. Ici, le sens est « rue »."
+    },
+    {
+     "equals": "sortie",
+     "category": "word_confusion",
+     "feedback": "« sortie » ne correspond pas : relis شارع bloc par bloc. Ici, le sens est « rue »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.fi",
+    "ar.g32.reading_review"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces petits mots veut dire « dans » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "فين",
+    "مين",
+    "على",
+    "في"
+   ],
+   "answer": "في",
+   "acceptedAnswers": [
+    "في"
+   ],
+   "explanation": "في (dans) est le plus court : deux lettres. فين (où) et مين (qui) ont un ن final ; على veut dire « sur ».",
+   "tip": "Compte les lettres : في n'en a que deux.",
+   "extraExample": {
+    "text": "في الكنيسة",
+    "translation": "dans l'église"
+   },
+   "errorPatterns": [
+    {
+     "equals": "فين",
+     "category": "word_confusion",
+     "feedback": "فين veut dire « où » : il a un ن final de plus."
+    },
+    {
+     "equals": "مين",
+     "category": "word_confusion",
+     "feedback": "مين veut dire « qui »."
+    },
+    {
+     "equals": "على",
+     "category": "word_confusion",
+     "feedback": "على veut dire « sur »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.kitir",
+    "ar.g32.reading_review"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans « شكرا كتير », que veut dire كتير ?",
+   "promptLanguage": "fr",
+   "options": [
+    "très",
+    "beaucoup",
+    "livres",
+    "aussi"
+   ],
+   "answer": "beaucoup",
+   "acceptedAnswers": [
+    "beaucoup"
+   ],
+   "explanation": "كتير veut dire « beaucoup » : شكرا كتير = « merci beaucoup ». « Très » se dit أوي.",
+   "tip": "Ne le confonds pas avec كتب (livres).",
+   "extraExample": {
+    "text": "عندي كتب كتير.",
+    "translation": "J'ai beaucoup de livres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "très",
+     "category": "word_confusion",
+     "feedback": "« Très » se dit أوي ; كتير veut dire « beaucoup »."
+    },
+    {
+     "equals": "livres",
+     "category": "word_confusion",
+     "feedback": "« Livres » se dit كتب, avec un ب à la fin."
+    },
+    {
+     "equals": "aussi",
+     "category": "word_confusion",
+     "feedback": "« Aussi » se dit كمان."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.delwaqti",
+    "ar.g32.reading_review"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « maintenant » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "النهارده",
+    "كمان",
+    "كده",
+    "دلوقتي"
+   ],
+   "answer": "دلوقتي",
+   "acceptedAnswers": [
+    "دلوقتي"
+   ],
+   "explanation": "دلوقتي veut dire « maintenant ». النهارده veut dire « aujourd'hui », كمان « aussi, encore » et كده « comme ça ».",
+   "tip": "Le « quand » est souvent à la fin de la phrase.",
+   "extraExample": {
+    "text": "بابا عايز شاي دلوقتي.",
+    "translation": "Papa veut du thé maintenant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "النهارده",
+     "category": "word_confusion",
+     "feedback": "« النهارده » a un autre sens que « maintenant »."
+    },
+    {
+     "equals": "كمان",
+     "category": "word_confusion",
+     "feedback": "« كمان » a un autre sens que « maintenant »."
+    },
+    {
+     "equals": "كده",
+     "category": "word_confusion",
+     "feedback": "« كده » a un autre sens que « maintenant »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e11",
+   "type": "match",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.saydaliya",
+    "ar.v.makhrag",
+    "ar.v.mamnu",
+    "ar.v.metro"
+   ],
+   "difficulty": 1,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque panneau à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "صيدلية",
+     "right": "pharmacie"
+    },
+    {
+     "left": "مخرج",
+     "right": "sortie"
+    },
+    {
+     "left": "ممنوع",
+     "right": "interdit"
+    },
+    {
+     "left": "مترو",
+     "right": "métro"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "صيدلية = pharmacie ; مخرج = sortie ; ممنوع = interdit ; مترو = métro",
+   "explanation": "Quatre mots de la rue : صيدلية (pharmacie), مخرج (sortie), ممنوع (interdit) et مترو (métro)."
+  },
+  {
+   "id": "ar.l32.e12",
+   "type": "match",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.share",
+    "ar.v.mahatta",
+    "ar.v.el_ahad",
+    "ar.v.madares_el_ahad"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot de la ville et de l'église à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "شارع",
+     "right": "rue"
+    },
+    {
+     "left": "محطة",
+     "right": "station"
+    },
+    {
+     "left": "الأحد",
+     "right": "dimanche"
+    },
+    {
+     "left": "مدارس الأحد",
+     "right": "école du dimanche"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "شارع = rue ; محطة = station ; الأحد = dimanche ; مدارس الأحد = école du dimanche",
+   "explanation": "Quatre mots d'affiches : شارع (rue), محطة (station), الأحد (dimanche) et مدارس الأحد (l'école du dimanche)."
+  },
+  {
+   "id": "ar.l32.e13",
+   "type": "match",
+   "unitIds": [
+    "ar.v.fi",
+    "ar.v.ala",
+    "ar.v.min",
+    "ar.v.imta",
+    "ar.g32.reading_review"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Retour aux petits mots : relie chaque mot à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "في",
+     "right": "dans"
+    },
+    {
+     "left": "على",
+     "right": "sur"
+    },
+    {
+     "left": "مين",
+     "right": "qui"
+    },
+    {
+     "left": "إمتى",
+     "right": "quand"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "في = dans ; على = sur ; مين = qui ; إمتى = quand",
+   "explanation": "في (dans), على (sur), مين (qui) et إمتى (quand) : des images à reconnaître sans épeler."
+  },
+  {
+   "id": "ar.l32.e14",
+   "type": "match",
+   "unitIds": [
+    "ar.v.mobail",
+    "ar.v.utobis",
+    "ar.v.walad",
+    "ar.v.samak",
+    "ar.g32.reading_review"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Retour aux premières leçons : relie chaque mot à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "موبايل",
+     "right": "portable"
+    },
+    {
+     "left": "أتوبيس",
+     "right": "bus"
+    },
+    {
+     "left": "ولد",
+     "right": "garçon"
+    },
+    {
+     "left": "سمك",
+     "right": "poisson"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "موبايل = portable ; أتوبيس = bus ; ولد = garçon ; سمك = poisson",
+   "explanation": "موبايل (3 blocs), أتوبيس (3 blocs), ولد (le و est une consonne) et سمك (trois consonnes) : coupe, lis, recolle."
+  },
+  {
+   "id": "ar.l32.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.el_ahad"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "قداس ___ (la liturgie du dimanche)",
+   "promptLanguage": "ar",
+   "options": [
+    "الكنيسة",
+    "الأحد",
+    "النهارده",
+    "بكرة"
+   ],
+   "answer": "الأحد",
+   "acceptedAnswers": [
+    "الأحد"
+   ],
+   "explanation": "Le dimanche se dit الأحد : قداس الأحد = « la liturgie du dimanche ». النهارده veut dire « aujourd'hui » et بكرة « demain ».",
+   "tip": "الأحد = ال + أحد : trois blocs.",
+   "extraExample": {
+    "text": "الأحد الجاي.",
+    "translation": "Dimanche prochain."
+   },
+   "errorPatterns": [
+    {
+     "equals": "النهارده",
+     "category": "vocabulary",
+     "feedback": "النهارده veut dire « aujourd'hui », pas « dimanche »."
+    },
+    {
+     "equals": "بكرة",
+     "category": "vocabulary",
+     "feedback": "بكرة veut dire « demain »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e16",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.fin",
+    "ar.v.mahatta"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "لو سمحت، ___ محطة المترو؟ (Excuse-moi, où est la station de métro ?)",
+   "promptLanguage": "ar",
+   "options": [
+    "مين",
+    "في",
+    "إيه",
+    "فين"
+   ],
+   "answer": "فين",
+   "acceptedAnswers": [
+    "فين"
+   ],
+   "explanation": "Pour demander un lieu, on emploie فين (où). مين veut dire « qui », في « dans » et إيه « quoi ».",
+   "tip": "فين : un ن final, comme dans « où ».",
+   "extraExample": {
+    "text": "لو سمحت، فين الباب؟",
+    "translation": "Excuse-moi, où est la porte ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "مين",
+     "category": "vocabulary",
+     "feedback": "مين veut dire « qui »."
+    },
+    {
+     "equals": "في",
+     "category": "vocabulary",
+     "feedback": "في (dans) n'a pas de ن final ; pour « où », il faut فين."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e17",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.v.ahlan",
+    "ar.g32.reading_review"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "___ يا مينا، إزيك؟ (Salut Mina, comment vas-tu ?)",
+   "promptLanguage": "ar",
+   "options": [
+    "شكرا",
+    "أهلا",
+    "ممنوع",
+    "مخرج"
+   ],
+   "answer": "أهلا",
+   "acceptedAnswers": [
+    "أهلا"
+   ],
+   "explanation": "Pour saluer quelqu'un, on commence par أهلا. شكرا veut dire « merci », ممنوع « interdit » et مخرج « sortie ».",
+   "tip": "أهلا ouvre la conversation.",
+   "extraExample": {
+    "text": "أهلا يا مريم!",
+    "translation": "Salut Mariam !"
+   },
+   "errorPatterns": [
+    {
+     "equals": "شكرا",
+     "category": "vocabulary",
+     "feedback": "شكرا veut dire « merci » : on ne remercie pas avant de saluer."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e18",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.v.wi_liruhak_ayan",
+    "ar.v.salam_likol",
+    "ar.g32.reading_review"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "السلام لكل — ___ (Et à ton esprit aussi.)",
+   "promptLanguage": "ar",
+   "options": [
+    "المجد لك يا رب",
+    "يا رب ارحم",
+    "آمين",
+    "ولروحك أيضا"
+   ],
+   "answer": "ولروحك أيضا",
+   "acceptedAnswers": [
+    "ولروحك أيضا"
+   ],
+   "explanation": "Au souhait du prêtre السلام لكل, le peuple répond ولروحك أيضا. Les autres phrases sont d'autres moments de la liturgie.",
+   "tip": "Souhait de paix → réponse qui commence par و.",
+   "extraExample": {
+    "text": "ولروحك أيضا.",
+    "translation": "Et à ton esprit aussi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "المجد لك يا رب",
+     "category": "vocabulary",
+     "feedback": "C'est une louange, pas la réponse au souhait de paix."
+    },
+    {
+     "equals": "يا رب ارحم",
+     "category": "vocabulary",
+     "feedback": "C'est une demande de pitié."
+    },
+    {
+     "equals": "آمين",
+     "category": "vocabulary",
+     "feedback": "آمين veut dire « amen » : il conclut une prière, il ne répond pas à ce souhait."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e19",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.mahatta",
+    "ar.v.metro"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Excuse-moi, où est la station de métro ? »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "المترو",
+    "فين",
+    "لو",
+    "محطة",
+    "سمحت"
+   ],
+   "answer": "لو سمحت فين محطة المترو",
+   "acceptedAnswers": [
+    "لو سمحت فين محطة المترو",
+    "فين محطة المترو لو سمحت"
+   ],
+   "explanation": "لو سمحت est un groupe de deux mots, puis la question فين محطة المترو. On peut aussi mettre لو سمحت à la fin.",
+   "tip": "لو سمحت ne se coupe pas.",
+   "extraExample": {
+    "text": "لو سمحت فين الصيدلية",
+    "translation": "Excuse-moi, où est la pharmacie ?"
+   }
+  },
+  {
+   "id": "ar.l32.e20",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.madares_el_ahad",
+    "ar.v.rayeh"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Je vais à l'école du dimanche. »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "الأحد",
+    "أنا",
+    "مدارس",
+    "رايح"
+   ],
+   "answer": "أنا رايح مدارس الأحد",
+   "acceptedAnswers": [
+    "أنا رايح مدارس الأحد"
+   ],
+   "explanation": "Qui (أنا), fait quoi (رايح), où (مدارس الأحد). Le groupe مدارس الأحد ne se coupe pas.",
+   "tip": "Qui, fait quoi, où.",
+   "extraExample": {
+    "text": "أنا رايح الكنيسة",
+    "translation": "Je vais à l'église"
+   }
+  },
+  {
+   "id": "ar.l32.e21",
+   "type": "translation",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.mahatta"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "محطة",
+   "promptLanguage": "ar",
+   "answer": "station",
+   "acceptedAnswers": [
+    "station",
+    "la station",
+    "gare",
+    "arrêt"
+   ],
+   "explanation": "محطة est un seul bloc de quatre lettres : « station » (de métro, de bus ou de train).",
+   "tip": "Coupe en deux paquets : مح | طة.",
+   "extraExample": {
+    "text": "المحطة الجاية.",
+    "translation": "La prochaine station."
+   }
+  },
+  {
+   "id": "ar.l32.e22",
+   "type": "translation",
+   "unitIds": [
+    "ar.v.shokran",
+    "ar.v.awi",
+    "ar.g32.reading_review"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "شكرا أوي",
+   "promptLanguage": "ar",
+   "answer": "Merci beaucoup.",
+   "acceptedAnswers": [
+    "Merci beaucoup.",
+    "merci beaucoup",
+    "merci bien",
+    "merci énormément"
+   ],
+   "explanation": "شكرا (merci) + أوي (très) : la façon courante de remercier chaleureusement.",
+   "tip": "أوي renforce le mot qui le précède.",
+   "extraExample": {
+    "text": "شكرا كتير.",
+    "translation": "Merci beaucoup."
+   }
+  },
+  {
+   "id": "ar.l32.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.el_ahad"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire الأحد ?",
+   "promptLanguage": "fr",
+   "answer": "dimanche",
+   "acceptedAnswers": [
+    "dimanche",
+    "le dimanche"
+   ],
+   "explanation": "الأحد veut dire « dimanche » : ال + أحد. C'est le jour de la liturgie.",
+   "tip": "ال + أحد : le premier jour.",
+   "extraExample": {
+    "text": "القداس يوم الأحد.",
+    "translation": "La liturgie est le dimanche."
+   }
+  },
+  {
+   "id": "ar.l32.e24",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g32.reading_review",
+    "ar.v.metro"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire مترو ?",
+   "promptLanguage": "fr",
+   "answer": "métro",
+   "acceptedAnswers": [
+    "métro",
+    "le métro",
+    "metro"
+   ],
+   "explanation": "مترو est le mot « métro » écrit comme on le dit : م + ت + رو.",
+   "tip": "Il vient du français : dis-le à voix haute.",
+   "extraExample": {
+    "text": "المترو سريع.",
+    "translation": "Le métro est rapide."
+   }
+  }
+ ]
+}

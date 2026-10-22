@@ -1,0 +1,729 @@
+{
+ "lessonId": "ar.l33",
+ "exercises": [
+  {
+   "id": "ar.l33.e01",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.mesa_el_kheir"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne salutation.",
+   "prompt": "Quelle salutation veut dire « bonsoir » ?",
+   "promptLanguage": "fr",
+   "answer": "مساء الخير",
+   "acceptedAnswers": [
+    "مساء الخير"
+   ],
+   "explanation": "مساء veut dire « soir » : مساء الخير = bonsoir (carte « Le soir »).",
+   "tip": "مساء commence par م et finit par la hamza ء.",
+   "extraExample": {
+    "text": "مساء الخير يا أبونا",
+    "translation": "Bonsoir, notre père"
+   },
+   "options": [
+    "معلش",
+    "صباح النور",
+    "صباح الخير",
+    "مساء الخير"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "صباح الخير",
+     "category": "word_confusion",
+     "feedback": "صباح est le matin ; le soir on dit مساء."
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e02",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.sabah_el_nur"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelqu'un te dit صباح الخير. Que réponds-tu ?",
+   "promptLanguage": "fr",
+   "answer": "صباح النور",
+   "acceptedAnswers": [
+    "صباح النور"
+   ],
+   "explanation": "On répond à صباح الخير par صباح النور, « matin de lumière » : le bien appelle la lumière.",
+   "tip": "Même mot, mais الخير devient النور.",
+   "extraExample": {
+    "text": "صباح النور يا مينا",
+    "translation": "Bonjour (réponse), Mina"
+   },
+   "options": [
+    "مع السلامة",
+    "مساء النور",
+    "العفو",
+    "صباح النور"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "مساء النور",
+     "category": "word_confusion",
+     "feedback": "C'est la réponse du soir ; ici il s'agit du matin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e03",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.mesa_el_nur"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelqu'un te dit مساء الخير. Que réponds-tu ?",
+   "promptLanguage": "fr",
+   "answer": "مساء النور",
+   "acceptedAnswers": [
+    "مساء النور"
+   ],
+   "explanation": "À مساء الخير on répond مساء النور, « soir de lumière » (carte « Le soir »).",
+   "tip": "Matin ↔ matin, soir ↔ soir : on garde le même premier mot.",
+   "extraExample": {
+    "text": "مساء النور يا مريم",
+    "translation": "Bonsoir (réponse), Mariam"
+   },
+   "options": [
+    "العفو",
+    "صباح النور",
+    "مساء النور",
+    "مع السلامة"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "صباح النور",
+     "category": "word_confusion",
+     "feedback": "C'est la réponse du matin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e04",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.amel_eih"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Tu demandes à une femme « comment ça va ? ». Que dis-tu ?",
+   "promptLanguage": "fr",
+   "answer": "عاملة إيه",
+   "acceptedAnswers": [
+    "عاملة إيه"
+   ],
+   "explanation": "À une femme, on ajoute ة : عاملة إيه (carte « Une 2e façon de demander »).",
+   "tip": "Féminin = ة à la fin.",
+   "extraExample": {
+    "text": "عاملة إيه يا ماما؟",
+    "translation": "Comment ça va, maman ?"
+   },
+   "options": [
+    "مساء الخير",
+    "عامل إيه",
+    "شكرا",
+    "عاملة إيه"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "عامل إيه",
+     "category": "word_confusion",
+     "feedback": "C'est la forme pour un homme ; à une femme on dit عاملة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e05",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.afw"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelqu'un te dit شكرا. Que réponds-tu ?",
+   "promptLanguage": "fr",
+   "answer": "العفو",
+   "acceptedAnswers": [
+    "العفو"
+   ],
+   "explanation": "À un merci on répond العفو, « de rien » (carte « Merci et de rien »).",
+   "tip": "شكرا ← العفو.",
+   "extraExample": {
+    "text": "شكرا يا مينا — العفو",
+    "translation": "Merci, Mina — De rien"
+   },
+   "options": [
+    "يلا",
+    "ماشي",
+    "معلش",
+    "العفو"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "معلش",
+     "category": "word_confusion",
+     "feedback": "معلش sert à s'excuser, pas à répondre à un merci."
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e06",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.alf_shokran"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Ton ami t'écrit : « ألف شكر ! ». Que veut-il dire ?",
+   "promptLanguage": "fr",
+   "answer": "mille mercis",
+   "acceptedAnswers": [
+    "mille mercis"
+   ],
+   "explanation": "ألف شكر veut dire « mille mercis » : un merci chaleureux (carte « Merci et de rien »).",
+   "tip": "ألف = mille ; شكر = merci.",
+   "extraExample": {
+    "text": "ألف شكر يا بابا",
+    "translation": "Mille mercis, papa"
+   },
+   "options": [
+    "au revoir",
+    "bonsoir",
+    "s'il te plaît",
+    "mille mercis"
+   ]
+  },
+  {
+   "id": "ar.l33.e07",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.an_eznak"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne formule.",
+   "prompt": "Quelle expression veut dire « avec ta permission » (quand on passe ou qu'on part) ?",
+   "promptLanguage": "fr",
+   "answer": "عن إذنك",
+   "acceptedAnswers": [
+    "عن إذنك"
+   ],
+   "explanation": "عن إذنك veut dire « avec ta permission » : on le dit en passant ou en partant (carte « Demander poliment »).",
+   "tip": "إذنك = ta permission.",
+   "extraExample": {
+    "text": "عن إذنك يا أستاذ",
+    "translation": "Avec votre permission, monsieur"
+   },
+   "options": [
+    "عن إذنك",
+    "من فضلك",
+    "معلش",
+    "لو سمحت"
+   ]
+  },
+  {
+   "id": "ar.l33.e08",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.maa_salama"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne formule.",
+   "prompt": "Tu quittes ton ami. Que lui dis-tu ?",
+   "promptLanguage": "fr",
+   "answer": "مع السلامة",
+   "acceptedAnswers": [
+    "مع السلامة"
+   ],
+   "explanation": "مع السلامة veut dire « au revoir », littéralement « avec la paix ».",
+   "tip": "مع السلامة = au revoir.",
+   "extraExample": {
+    "text": "مع السلامة يا حبيبي",
+    "translation": "Au revoir, mon chéri"
+   },
+   "options": [
+    "العفو",
+    "صباح النور",
+    "مع السلامة",
+    "أهلا"
+   ]
+  },
+  {
+   "id": "ar.l33.e09",
+   "unitIds": [
+    "ar.v.elhamdulillah"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel du module précédent.",
+   "prompt": "Ton ami te demande إزيك ? Quelle est la réponse la plus courante ?",
+   "promptLanguage": "fr",
+   "answer": "الحمد لله",
+   "acceptedAnswers": [
+    "الحمد لله"
+   ],
+   "explanation": "الحمد لله veut dire « Dieu merci » : c'est la réponse habituelle à إزيك.",
+   "tip": "إزيك ← الحمد لله.",
+   "extraExample": {
+    "text": "إزيك يا مينا — الحمد لله",
+    "translation": "Comment vas-tu, Mina ? — Dieu merci"
+   },
+   "options": [
+    "الحمد لله",
+    "صباح النور",
+    "العفو",
+    "مع السلامة"
+   ]
+  },
+  {
+   "id": "ar.l33.e10",
+   "unitIds": [
+    "ar.v.sad"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Rappel des lettres.",
+   "prompt": "Le mot صباح s'ouvre par une lettre « lourde ». Laquelle ?",
+   "promptLanguage": "fr",
+   "answer": "ص",
+   "acceptedAnswers": [
+    "ص"
+   ],
+   "explanation": "ص est le s lourd (leçon des lettres lourdes) ; س est le s léger, ش le ch.",
+   "tip": "ص a une boucle fermée ; س a seulement des dents.",
+   "extraExample": {
+    "text": "صباح الخير",
+    "translation": "Bonjour"
+   },
+   "options": [
+    "س",
+    "ض",
+    "ص",
+    "ش"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "س",
+     "category": "word_confusion",
+     "feedback": "س est le s léger ; ici c'est la boucle de ص."
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e11",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.mesa_el_kheir",
+    "ar.v.amel_eih",
+    "ar.v.afw",
+    "ar.v.men_fadlak",
+    "ar.v.maa_salama"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque expression à son sens.",
+   "prompt": "Associe chaque expression à son sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ce sont les expressions de cette leçon : le soir, les nouvelles, le merci, la demande et l'adieu.",
+   "pairs": [
+    {
+     "left": "مساء الخير",
+     "right": "bonsoir"
+    },
+    {
+     "left": "عامل إيه",
+     "right": "comment ça va ?"
+    },
+    {
+     "left": "العفو",
+     "right": "de rien"
+    },
+    {
+     "left": "من فضلك",
+     "right": "s'il te plaît"
+    },
+    {
+     "left": "مع السلامة",
+     "right": "au revoir"
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e12",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.sabah_el_nur",
+    "ar.v.mesa_el_nur"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque phrase à sa réponse.",
+   "prompt": "Associe chaque phrase à sa réponse.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Une salutation appelle toujours sa réponse : le bien appelle la lumière, et le merci appelle « de rien ».",
+   "pairs": [
+    {
+     "left": "صباح الخير",
+     "right": "صباح النور"
+    },
+    {
+     "left": "مساء الخير",
+     "right": "مساء النور"
+    },
+    {
+     "left": "شكرا",
+     "right": "العفو"
+    },
+    {
+     "left": "إزيك",
+     "right": "الحمد لله"
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e13",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.maalesh",
+    "ar.v.an_eznak",
+    "ar.v.alf_shokran",
+    "ar.v.law_samaht",
+    "ar.v.mashi"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque expression à son sens.",
+   "prompt": "Associe ces expressions de politesse à leur sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Trois expressions nouvelles, et deux du module précédent (لو سمحت, ماشي).",
+   "pairs": [
+    {
+     "left": "معلش",
+     "right": "pardon, ce n'est pas grave"
+    },
+    {
+     "left": "عن إذنك",
+     "right": "avec ta permission"
+    },
+    {
+     "left": "ألف شكر",
+     "right": "mille mercis"
+    },
+    {
+     "left": "لو سمحت",
+     "right": "excuse-moi (pour interpeller)"
+    },
+    {
+     "left": "ماشي",
+     "right": "d'accord, OK"
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e14",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.mesa_el_kheir"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la salutation.",
+   "prompt": "مساء ___  (bonsoir)",
+   "promptLanguage": "ar",
+   "answer": "الخير",
+   "acceptedAnswers": [
+    "الخير"
+   ],
+   "explanation": "« Bonsoir » se dit مساء الخير : seul le premier mot change entre matin et soir.",
+   "tip": "الخير = le bien.",
+   "extraExample": {
+    "text": "مساء الخير يا ماما",
+    "translation": "Bonsoir, maman"
+   },
+   "options": [
+    "الخير",
+    "العفو",
+    "السلامة",
+    "إذنك"
+   ]
+  },
+  {
+   "id": "ar.l33.e15",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.sabah_el_nur"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la réponse qui renchérit.",
+   "prompt": "— صباح الخير\n— صباح ___",
+   "promptLanguage": "ar",
+   "answer": "النور",
+   "acceptedAnswers": [
+    "النور"
+   ],
+   "explanation": "La réponse à صباح الخير est صباح النور, « matin de lumière ».",
+   "tip": "الخير ← النور.",
+   "extraExample": {
+    "text": "صباح النور يا أبونا",
+    "translation": "Bonjour (réponse), notre père"
+   },
+   "options": [
+    "النور",
+    "العفو",
+    "السلامة",
+    "فضلك"
+   ]
+  },
+  {
+   "id": "ar.l33.e16",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.maa_salama"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la formule d'adieu.",
+   "prompt": "مع ___  (au revoir)",
+   "promptLanguage": "ar",
+   "answer": "السلامة",
+   "acceptedAnswers": [
+    "السلامة"
+   ],
+   "explanation": "On dit مع السلامة pour « au revoir » (carte « Se quitter »).",
+   "tip": "Pense à « avec la paix ».",
+   "extraExample": {
+    "text": "مع السلامة يا مينا",
+    "translation": "Au revoir, Mina"
+   },
+   "options": [
+    "النور",
+    "السلامة",
+    "الخير",
+    "فضلك"
+   ]
+  },
+  {
+   "id": "ar.l33.e17",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.men_fadlak"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la demande polie.",
+   "prompt": "من ___ ، عايز شاي  (s'il te plaît, je veux un thé)",
+   "promptLanguage": "ar",
+   "answer": "فضلك",
+   "acceptedAnswers": [
+    "فضلك"
+   ],
+   "explanation": "من فضلك veut dire « s'il te plaît » : on l'ajoute à la demande.",
+   "tip": "من + فضلك = de ta faveur.",
+   "extraExample": {
+    "text": "من فضلك، عايز عيش",
+    "translation": "S'il te plaît, je veux du pain"
+   },
+   "options": [
+    "إذنك",
+    "فضلك",
+    "سمحت",
+    "شكرا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "سمحت",
+     "category": "word_confusion",
+     "feedback": "سمحت va avec لو (لو سمحت), pas avec من."
+    }
+   ]
+  },
+  {
+   "id": "ar.l33.e18",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.alf_shokran"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "ألف شكر يا أبونا",
+   "promptLanguage": "ar",
+   "answer": "mille mercis notre père",
+   "acceptedAnswers": [
+    "mille mercis notre père",
+    "mille mercis mon père",
+    "mille mercis père",
+    "mille mercis le père",
+    "mille mercis au prêtre",
+    "un grand merci notre père"
+   ],
+   "explanation": "ألف شكر = mille mercis, et يا أبونا = « notre père » en s'adressant au prêtre.",
+   "tip": "يا + nom = on appelle quelqu'un.",
+   "extraExample": {
+    "text": "ألف شكر يا مريم",
+    "translation": "Mille mercis, Mariam"
+   }
+  },
+  {
+   "id": "ar.l33.e19",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.maalesh"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "معلش",
+   "promptLanguage": "ar",
+   "answer": "pardon",
+   "acceptedAnswers": [
+    "pardon",
+    "désolé",
+    "ce n'est pas grave",
+    "pas grave",
+    "tant pis",
+    "excuse-moi",
+    "excuse moi",
+    "désolée"
+   ],
+   "explanation": "معلش couvre « pardon », « ce n'est pas grave » et « tant pis ».",
+   "tip": "Le contexte décide du sens.",
+   "extraExample": {
+    "text": "معلش يا ماما",
+    "translation": "Pardon, maman"
+   }
+  },
+  {
+   "id": "ar.l33.e20",
+   "unitIds": [
+    "ar.v.ayiz",
+    "ar.v.shay"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Rappel : écris le sens en français.",
+   "prompt": "عايز شاي",
+   "promptLanguage": "ar",
+   "answer": "je veux du thé",
+   "acceptedAnswers": [
+    "je veux du thé",
+    "je veux un thé",
+    "je veux le thé",
+    "veux du thé",
+    "je voudrais du thé",
+    "je voudrais un thé",
+    "il veut du thé",
+    "tu veux du thé"
+   ],
+   "explanation": "عايز veut dire « je veux » (ou « il veut ») et شاي « thé », mots vus dans les lettres dans les mots.",
+   "tip": "Sans voyelles, عايز peut être je/tu/il : le contexte tranche.",
+   "extraExample": {
+    "text": "عايز عيش",
+    "translation": "Je veux du pain"
+   }
+  },
+  {
+   "id": "ar.l33.e21",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.an_eznak"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Réponds en français.",
+   "prompt": "Que veut dire عن إذنك quand quelqu'un se lève pour partir ?",
+   "promptLanguage": "fr",
+   "answer": "avec ta permission",
+   "acceptedAnswers": [
+    "avec ta permission",
+    "avec votre permission",
+    "avec ta permission je pars",
+    "excuse-moi",
+    "excusez-moi",
+    "avec ton autorisation",
+    "permets-moi"
+   ],
+   "explanation": "عن إذنك veut dire « avec ta permission » : une formule polie pour passer ou partir.",
+   "tip": "إذن = permission.",
+   "extraExample": {
+    "text": "عن إذنك يا أستاذ",
+    "translation": "Avec votre permission, monsieur"
+   }
+  },
+  {
+   "id": "ar.l33.e22",
+   "unitIds": [
+    "ar.v.habibi"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Rappel : réponds en français.",
+   "prompt": "Ta mère te dit : « معلش يا حبيبي ». Que veut dire حبيبي ?",
+   "promptLanguage": "fr",
+   "answer": "mon chéri",
+   "acceptedAnswers": [
+    "mon chéri",
+    "mon cheri",
+    "chéri",
+    "cheri",
+    "mon cher",
+    "mon amour",
+    "mon chou",
+    "ma chérie"
+   ],
+   "explanation": "حبيبي est un mot affectueux : « mon chéri » (mot vu dans la leçon sur ج ح خ).",
+   "tip": "Se dit à un enfant, un ami, un proche.",
+   "extraExample": {
+    "text": "إزيك يا حبيبي",
+    "translation": "Comment vas-tu, mon chéri ?"
+   }
+  },
+  {
+   "id": "ar.l33.e23",
+   "unitIds": [
+    "ar.g33.salutations_politesse",
+    "ar.v.maa_salama"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Forme la phrase : « Au revoir, notre père ».",
+   "promptLanguage": "ar",
+   "answer": "مع السلامة يا أبونا",
+   "acceptedAnswers": [
+    "مع السلامة يا أبونا"
+   ],
+   "explanation": "On commence par la formule, puis يا et la personne qu'on appelle.",
+   "tip": "Formule d'abord, يا + nom à la fin.",
+   "extraExample": {
+    "text": "مساء الخير يا أبونا",
+    "translation": "Bonsoir, notre père"
+   },
+   "tokens": [
+    "السلامة",
+    "أبونا",
+    "مع",
+    "يا"
+   ]
+  }
+ ]
+}

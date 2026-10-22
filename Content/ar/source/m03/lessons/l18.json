@@ -1,0 +1,810 @@
+{
+ "lessonId": "ar.l18",
+ "exercises": [
+  {
+   "id": "ar.l18.e01",
+   "unitIds": [
+    "ar.g18.sukun"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Quel signe veut dire « pas de voyelle » ?",
+   "promptLanguage": "fr",
+   "answer": "le soukoun",
+   "acceptedAnswers": [
+    "le soukoun"
+   ],
+   "explanation": "Le soukoun, petit rond au-dessus de la lettre, veut dire : aucune voyelle. La fatha et la damma sont des voyelles.",
+   "tip": "Rond = rien.",
+   "extraExample": {
+    "text": "نْ",
+    "translation": "n sans voyelle"
+   },
+   "options": [
+    "la damma",
+    "la fatha",
+    "le soukoun"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "la fatha",
+     "category": "spelling",
+     "feedback": "La fatha est un trait penché : elle donne le son a."
+    },
+    {
+     "equals": "la damma",
+     "category": "spelling",
+     "feedback": "La damma est un petit و bouclé : elle donne le son ou."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e02",
+   "unitIds": [
+    "ar.g18.sukun"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Où écrit-on surtout le soukoun ?",
+   "promptLanguage": "fr",
+   "answer": "au milieu du mot",
+   "acceptedAnswers": [
+    "au milieu du mot"
+   ],
+   "explanation": "Au milieu du mot. À la fin, la dernière lettre se lit sans voyelle sans qu'on le note, et un mot ne peut pas commencer sans voyelle.",
+   "tip": "Soukoun : au milieu, rarement ailleurs.",
+   "extraExample": {
+    "text": "كَلْب",
+    "translation": "chien : soukoun sur ل"
+   },
+   "options": [
+    "à la fin du mot",
+    "au milieu du mot",
+    "au début du mot"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "à la fin du mot",
+     "category": "spelling",
+     "feedback": "À la fin, la dernière lettre reste le plus souvent nue : on ne note presque jamais de soukoun."
+    },
+    {
+     "equals": "au début du mot",
+     "category": "spelling",
+     "feedback": "Un mot ne commence jamais sans voyelle : le soukoun ne s'écrit pas au début."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e03",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.nagm"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "نَجْم",
+   "promptLanguage": "ar",
+   "answer": "étoile",
+   "acceptedAnswers": [
+    "étoile"
+   ],
+   "explanation": "ن + a, ج sans voyelle, م : l'étoile. Le soukoun sur ج dit qu'on enchaîne g et m sans voyelle.",
+   "tip": "Une seule voyelle : le a de ن.",
+   "extraExample": {
+    "text": "نَجْم كِبِير.",
+    "translation": "Une grande étoile."
+   },
+   "options": [
+    "chien",
+    "mer",
+    "soleil",
+    "étoile"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "soleil",
+     "category": "word_confusion",
+     "feedback": "Le soleil est شَمْس : il commence par ش, pas par ن."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e04",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.kalb"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "كَلْب",
+   "promptLanguage": "ar",
+   "answer": "chien",
+   "acceptedAnswers": [
+    "chien"
+   ],
+   "explanation": "ك + a, ل sans voyelle, ب : le chien. Le ب final n'a aucun signe.",
+   "tip": "Dernière lettre : pas de signe.",
+   "extraExample": {
+    "text": "عِنْدِي كَلْب.",
+    "translation": "J'ai un chien."
+   },
+   "options": [
+    "étoile",
+    "chien",
+    "tour",
+    "mer"
+   ]
+  },
+  {
+   "id": "ar.l18.e05",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.sawm"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "صَوْم",
+   "promptLanguage": "ar",
+   "answer": "jeûne",
+   "acceptedAnswers": [
+    "jeûne"
+   ],
+   "explanation": "ص + a, و avec soukoun : ـَوْ se fond en un ô. Puis م. C'est le jeûne, comme dans le Grand Carême.",
+   "tip": "ـَوْ : un seul son, ô.",
+   "extraExample": {
+    "text": "الصَّوْم الْكَبِير.",
+    "translation": "Le Grand Carême."
+   },
+   "options": [
+    "invité",
+    "jeûne",
+    "gloire",
+    "couleur"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "couleur",
+     "category": "word_confusion",
+     "feedback": "La couleur est لَوْن : même ـَوْ, mais la première lettre est ل."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e06",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.magd"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "مَجْد",
+   "promptLanguage": "ar",
+   "answer": "gloire",
+   "acceptedAnswers": [
+    "gloire"
+   ],
+   "explanation": "م + a, ج sans voyelle, د : la gloire, mot de la liturgie (الْمَجْد لِلَّه).",
+   "tip": "Même schéma que نَجْم : a, puis soukoun.",
+   "extraExample": {
+    "text": "الْمَجْد لِلَّه.",
+    "translation": "Gloire à Dieu."
+   },
+   "options": [
+    "jeûne",
+    "étoile",
+    "gloire",
+    "mer"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "étoile",
+     "category": "word_confusion",
+     "feedback": "L'étoile est نَجْم : elle commence par ن, pas par م."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e07",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.ain_eye"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Comment se lit ـَيْ dans عَيْن en égyptien ?",
+   "promptLanguage": "fr",
+   "answer": "é long, comme dans thé",
+   "acceptedAnswers": [
+    "é long, comme dans thé"
+   ],
+   "explanation": "Une fatha suivie de ي avec soukoun forme un seul son : en égyptien, un é long, comme dans thé.",
+   "tip": "Tu dis déjà عَيْن avec ce é.",
+   "extraExample": {
+    "text": "ضَيْف",
+    "translation": "invité"
+   },
+   "options": [
+    "a bref, comme dans table",
+    "ou long, comme dans loup",
+    "é long, comme dans thé"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ou long, comme dans loup",
+     "category": "spelling",
+     "feedback": "Le ou vient de la damma ; ici il y a une fatha et ي."
+    },
+    {
+     "equals": "a bref, comme dans table",
+     "category": "spelling",
+     "feedback": "Le ي avec soukoun change le son : ce n'est plus un simple a."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e08",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.lawn"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Comment se lit ـَوْ dans لَوْن en égyptien ?",
+   "promptLanguage": "fr",
+   "answer": "ô, comme dans rôle",
+   "acceptedAnswers": [
+    "ô, comme dans rôle"
+   ],
+   "explanation": "Une fatha suivie de و avec soukoun donne un seul son : un ô en égyptien, comme dans rôle.",
+   "tip": "ـَوْ : ô ; ـَيْ : é.",
+   "extraExample": {
+    "text": "صَوْم",
+    "translation": "jeûne"
+   },
+   "options": [
+    "é long, comme dans thé",
+    "ô, comme dans rôle",
+    "ou, comme dans loup"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "é long, comme dans thé",
+     "category": "spelling",
+     "feedback": "Le é long vient de ـَيْ, avec ي ; ici c'est و."
+    },
+    {
+     "equals": "ou, comme dans loup",
+     "category": "spelling",
+     "feedback": "Le ou vient de la damma ; ici il y a une fatha et و avec soukoun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e09",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.g18.sukun"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne syllabe.",
+   "prompt": "Laquelle de ces syllabes porte une kasra ?",
+   "promptLanguage": "fr",
+   "answer": "بِ",
+   "acceptedAnswers": [
+    "بِ"
+   ],
+   "explanation": "La kasra est le trait sous la lettre. Le soukoun est un rond, la fatha un trait au-dessus.",
+   "tip": "Kasra : sous la lettre, son i.",
+   "extraExample": {
+    "text": "تِ",
+    "translation": "t + i"
+   },
+   "options": [
+    "بُ",
+    "بَ",
+    "بِ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بَ",
+     "category": "spelling",
+     "feedback": "Le trait de بَ est au-dessus : c'est une fatha."
+    },
+    {
+     "equals": "بُ",
+     "category": "spelling",
+     "feedback": "Le petit و bouclé de بُ est une damma."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e10",
+   "unitIds": [
+    "ar.v.qamar",
+    "ar.g18.sukun"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "قَمَر",
+   "promptLanguage": "ar",
+   "answer": "lune",
+   "acceptedAnswers": [
+    "lune"
+   ],
+   "explanation": "ق + a, م + a, ر : deux fathas, aucun soukoun. C'est la lune ; le soleil est شَمْس, avec un soukoun.",
+   "tip": "Compte les soukouns : aucun ici.",
+   "extraExample": {
+    "text": "الْقَمَر طَالِع.",
+    "translation": "La lune est levée."
+   },
+   "options": [
+    "soleil",
+    "mer",
+    "lune",
+    "étoile"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "soleil",
+     "category": "word_confusion",
+     "feedback": "Le soleil est شَمْس, avec un soukoun sur م. Ici : قَمَر, deux fathas."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e11",
+   "unitIds": [
+    "ar.v.bayt",
+    "ar.g18.sukun"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "بَيْت",
+   "promptLanguage": "ar",
+   "answer": "maison",
+   "acceptedAnswers": [
+    "maison"
+   ],
+   "explanation": "ب + a, ي avec soukoun : ـَيْ forme un seul son, un é long. Puis ت. C'est la maison, que tu lisais بيت.",
+   "tip": "ـَيْ : le é de ton mot de tous les jours.",
+   "extraExample": {
+    "text": "بَيْتِي",
+    "translation": "ma maison"
+   },
+   "options": [
+    "maison",
+    "porte",
+    "fille",
+    "café"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "fille",
+     "category": "word_confusion",
+     "feedback": "La fille est بِنْت, avec ن et un soukoun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e12",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.burj"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne lettre.",
+   "prompt": "بُرْ___",
+   "promptLanguage": "ar",
+   "answer": "ج",
+   "acceptedAnswers": [
+    "ج"
+   ],
+   "explanation": "Le soukoun est sur ر, au milieu du mot. La dernière lettre ج reste nue : en égyptien, le mot finit sans voyelle.",
+   "tip": "Fin de mot : lettre nue.",
+   "extraExample": {
+    "text": "بُرْج الْكَنِيسَة.",
+    "translation": "Le clocher de l'église."
+   },
+   "options": [
+    "جَ",
+    "ج",
+    "جُ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "جَ",
+     "category": "spelling",
+     "feedback": "Pas de voyelle à la fin du mot."
+    },
+    {
+     "equals": "جُ",
+     "category": "spelling",
+     "feedback": "Pas de voyelle à la fin du mot."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e13",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.bahr"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la bonne syllabe.",
+   "prompt": "بَ___ر",
+   "promptLanguage": "ar",
+   "answer": "حْ",
+   "acceptedAnswers": [
+    "حْ"
+   ],
+   "explanation": "Mer, بَحْر : بَ (b + a), حْ (h appuyé, sans voyelle), ر. Ton oreille entend une seule voyelle, le a.",
+   "tip": "Une voyelle seulement : le ح est collé.",
+   "extraExample": {
+    "text": "رُحْنَا الْبَحْر.",
+    "translation": "Nous sommes allés à la mer."
+   },
+   "options": [
+    "حْ",
+    "حَ",
+    "حِ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "حَ",
+     "category": "spelling",
+     "feedback": "Avec une fatha, il y aurait deux a : mais le mot n'en a qu'un."
+    },
+    {
+     "equals": "حِ",
+     "category": "spelling",
+     "feedback": "Avec une kasra, on entendrait un i : le mot n'en a pas."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e14",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.lawn"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la bonne syllabe.",
+   "prompt": "لَ___ن  (couleur)",
+   "promptLanguage": "ar",
+   "answer": "وْ",
+   "acceptedAnswers": [
+    "وْ"
+   ],
+   "explanation": "لَوْن : لَ, puis و avec soukoun (ـَوْ se fond en ô), puis ن.",
+   "tip": "ـَوْ : fatha, puis و avec soukoun.",
+   "extraExample": {
+    "text": "لَوْن جَمِيل.",
+    "translation": "Une belle couleur."
+   },
+   "options": [
+    "وَ",
+    "وْ",
+    "وُ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "وَ",
+     "category": "spelling",
+     "feedback": "Avec une fatha sur و, il n'y aurait plus de ô : on lirait une syllabe en plus."
+    },
+    {
+     "equals": "وُ",
+     "category": "spelling",
+     "feedback": "Avec une damma, on lirait ou, pas ô."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e15",
+   "unitIds": [
+    "ar.v.bint",
+    "ar.g18.sukun"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « fille ».",
+   "prompt": "بِ___ت",
+   "promptLanguage": "ar",
+   "answer": "نْ",
+   "acceptedAnswers": [
+    "نْ"
+   ],
+   "explanation": "بِنْت : بِ (b + i), نْ (n, sans voyelle), ت. Tu dis ce mot avec un seul i.",
+   "tip": "Après le i, la lettre suivante est nue.",
+   "extraExample": {
+    "text": "بِنْتِي",
+    "translation": "ma fille"
+   },
+   "options": [
+    "نُ",
+    "نَ",
+    "نْ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "نَ",
+     "category": "spelling",
+     "feedback": "Un a de plus ? Ce n'est pas ce que tu dis : le ن s'enchaîne directement."
+    },
+    {
+     "equals": "نُ",
+     "category": "spelling",
+     "feedback": "Un ou de plus ? Le mot n'a qu'une voyelle : le i."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e16",
+   "unitIds": [
+    "ar.v.eish",
+    "ar.g18.sukun"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « pain ».",
+   "prompt": "عَ___ش",
+   "promptLanguage": "ar",
+   "answer": "يْ",
+   "acceptedAnswers": [
+    "يْ"
+   ],
+   "explanation": "عَيْش : عَ, puis ي avec soukoun (ـَيْ, un é long), puis ش. C'est le mot que tu dis tous les jours.",
+   "tip": "Dis-le tout haut : tu entends un é long.",
+   "extraExample": {
+    "text": "عَيْش بَلَدِي",
+    "translation": "pain baladi"
+   },
+   "options": [
+    "يِ",
+    "يْ",
+    "يَ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "يَ",
+     "category": "spelling",
+     "feedback": "Avec une fatha sur ي, on lirait deux syllabes : toi, tu dis une seule syllabe."
+    },
+    {
+     "equals": "يِ",
+     "category": "spelling",
+     "feedback": "Avec une kasra, on lirait un i en plus : le mot n'en a pas."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e17",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.g17.short_vowels"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque signe à ce qu'il donne.",
+   "prompt": "Les quatre signes",
+   "promptLanguage": "fr",
+   "answer": "ـَ = a ; ـِ = i ; ـُ = ou ; ـْ = aucune voyelle",
+   "acceptedAnswers": [],
+   "explanation": "Fatha : a. Kasra : i. Damma : ou. Soukoun : aucune voyelle.",
+   "pairs": [
+    {
+     "left": "ـَ",
+     "right": "a"
+    },
+    {
+     "left": "ـِ",
+     "right": "i"
+    },
+    {
+     "left": "ـُ",
+     "right": "ou"
+    },
+    {
+     "left": "ـْ",
+     "right": "aucune voyelle"
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e18",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.burj",
+    "ar.v.nagm",
+    "ar.v.kalb",
+    "ar.v.bahr"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots avec soukoun",
+   "promptLanguage": "fr",
+   "answer": "بُرْج = tour ; نَجْم = étoile ; كَلْب = chien ; بَحْر = mer",
+   "acceptedAnswers": [],
+   "explanation": "Chaque mot a une voyelle, un soukoun, puis une dernière lettre nue.",
+   "pairs": [
+    {
+     "left": "بُرْج",
+     "right": "tour"
+    },
+    {
+     "left": "نَجْم",
+     "right": "étoile"
+    },
+    {
+     "left": "كَلْب",
+     "right": "chien"
+    },
+    {
+     "left": "بَحْر",
+     "right": "mer"
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e19",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.ain_eye",
+    "ar.v.dayf",
+    "ar.v.lawn",
+    "ar.v.shams"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots avec ـَيْ, ـَوْ et soukoun",
+   "promptLanguage": "fr",
+   "answer": "عَيْن = œil ; ضَيْف = invité ; لَوْن = couleur ; شَمْس = soleil",
+   "acceptedAnswers": [],
+   "explanation": "عَيْن et ضَيْف : ـَيْ, un é long. لَوْن : ـَوْ, un ô. شَمْس : fatha puis م après un soukoun.",
+   "pairs": [
+    {
+     "left": "عَيْن",
+     "right": "œil"
+    },
+    {
+     "left": "ضَيْف",
+     "right": "invité"
+    },
+    {
+     "left": "لَوْن",
+     "right": "couleur"
+    },
+    {
+     "left": "شَمْس",
+     "right": "soleil"
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e20",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.shams"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "شَمْس",
+   "promptLanguage": "ar",
+   "answer": "soleil",
+   "acceptedAnswers": [
+    "soleil",
+    "le soleil"
+   ],
+   "explanation": "ش + a, م sans voyelle, س : le soleil.",
+   "tip": "Une voyelle, un soukoun, une lettre nue.",
+   "extraExample": {
+    "text": "الشَّمْس حَامْيَة.",
+    "translation": "Le soleil est brûlant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "lune",
+     "category": "word_confusion",
+     "feedback": "La lune est قَمَر, sans soukoun."
+    },
+    {
+     "equals": "étoile",
+     "category": "word_confusion",
+     "feedback": "L'étoile est نَجْم : ici tu lis ش + م + س."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e21",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.v.burj"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire بُرْج ?",
+   "promptLanguage": "fr",
+   "answer": "tour",
+   "acceptedAnswers": [
+    "tour",
+    "une tour",
+    "la tour",
+    "clocher",
+    "un clocher",
+    "le clocher"
+   ],
+   "explanation": "بُرْج : بُ (b + ou), ر sans voyelle, ج. C'est une tour, et le clocher d'une église.",
+   "tip": "Damma, puis soukoun.",
+   "extraExample": {
+    "text": "بُرْج الْقَاهِرَة.",
+    "translation": "La tour du Caire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "chien",
+     "category": "word_confusion",
+     "feedback": "Le chien est كَلْب : ici tu lis ب + ر + ج."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e22",
+   "unitIds": [
+    "ar.g18.sukun"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Comment s'appelle le petit rond posé sur une lettre qui n'a pas de voyelle ?",
+   "promptLanguage": "fr",
+   "answer": "soukoun",
+   "acceptedAnswers": [
+    "soukoun",
+    "le soukoun",
+    "sukun",
+    "le sukun",
+    "soukoune",
+    "sokoun",
+    "سكون",
+    "سُكُون"
+   ],
+   "explanation": "C'est le soukoun (سُكُون, « silence ») : il dit qu'il n'y a aucune voyelle sur la lettre.",
+   "tip": "Rond = rien.",
+   "extraExample": {
+    "text": "نْ",
+    "translation": "n sans voyelle"
+   },
+   "errorPatterns": [
+    {
+     "equals": "fatha",
+     "category": "word_confusion",
+     "feedback": "La fatha est un trait penché, qui donne le son a."
+    },
+    {
+     "equals": "chadda",
+     "category": "word_confusion",
+     "feedback": "La chadda double la lettre : tu la verras bientôt."
+    }
+   ]
+  }
+ ]
+}

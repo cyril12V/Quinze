@@ -1,0 +1,734 @@
+{
+ "lessonId": "ar.l40",
+ "exercises": [
+  {
+   "id": "ar.l40.e01",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.haykal"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « sanctuaire » (la partie de l'église où se trouve l'autel) ?",
+   "promptLanguage": "fr",
+   "answer": "هيكل",
+   "acceptedAnswers": [
+    "هيكل"
+   ],
+   "explanation": "الهيكل est le sanctuaire ; كنيسة est l'église entière (carte « Dans l'église »).",
+   "tip": "هيكل = là où est le مذبح.",
+   "extraExample": {
+    "text": "أبونا في الهيكل",
+    "translation": "Notre père est dans le sanctuaire"
+   },
+   "options": [
+    "جرس",
+    "هيكل",
+    "كنيسة",
+    "أيقونة"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "كنيسة",
+     "category": "word_confusion",
+     "feedback": "كنيسة est l'église entière, pas seulement le sanctuaire."
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e02",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.madbah"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « autel » ?",
+   "promptLanguage": "fr",
+   "answer": "مذبح",
+   "acceptedAnswers": [
+    "مذبح"
+   ],
+   "explanation": "المذبح est l'autel, au centre du هيكل.",
+   "tip": "مذبح : م + ذ.",
+   "extraExample": {
+    "text": "المذبح في الهيكل",
+    "translation": "L'autel est dans le sanctuaire"
+   },
+   "options": [
+    "مذبح",
+    "صليب",
+    "هيكل",
+    "قربان"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "هيكل",
+     "category": "word_confusion",
+     "feedback": "هيكل est le sanctuaire qui contient l'autel."
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e03",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.ayqona"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « icône » (une image sainte peinte) ?",
+   "promptLanguage": "fr",
+   "answer": "أيقونة",
+   "acceptedAnswers": [
+    "أيقونة"
+   ],
+   "explanation": "أيقونة est l'icône ; صليب est la croix, إنجيل l'Évangile, مزمور le psaume.",
+   "tip": "أيقونة : أ + ي + ق.",
+   "extraExample": {
+    "text": "الأيقونة في الكنيسة",
+    "translation": "L'icône est dans l'église"
+   },
+   "options": [
+    "مزمور",
+    "إنجيل",
+    "صليب",
+    "أيقونة"
+   ]
+  },
+  {
+   "id": "ar.l40.e04",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.margirgis"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Dans « كنيسة مارجرجس », quel saint est honoré ?",
+   "promptLanguage": "fr",
+   "answer": "saint Georges",
+   "acceptedAnswers": [
+    "saint Georges"
+   ],
+   "explanation": "مار veut dire « saint » et مارجرجس est saint Georges (carte « Les saints »).",
+   "tip": "مار + nom = saint.",
+   "extraExample": {
+    "text": "عيد مارجرجس",
+    "translation": "La fête de saint Georges"
+   },
+   "options": [
+    "la Vierge",
+    "saint Georges",
+    "saint Mina",
+    "saint Marc"
+   ]
+  },
+  {
+   "id": "ar.l40.e05",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.el_qiddisin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Que veut dire القديسين ?",
+   "promptLanguage": "fr",
+   "answer": "les saints",
+   "acceptedAnswers": [
+    "les saints"
+   ],
+   "explanation": "القديسين est le pluriel de قديس : le ـين final marque le pluriel des personnes.",
+   "tip": "ـين = plusieurs personnes.",
+   "extraExample": {
+    "text": "صلوات القديسين",
+    "translation": "Les prières des saints"
+   },
+   "options": [
+    "les saints",
+    "le saint",
+    "les prêtres",
+    "les anges"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "le saint",
+     "category": "word_confusion",
+     "feedback": "Le singulier est قديس, sans ـين."
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e06",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.el_qiddisin"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Applique la règle de ـنا.",
+   "prompt": "Quelle expression veut dire « notre mère la Vierge » ?",
+   "promptLanguage": "fr",
+   "answer": "أمنا العدرا",
+   "acceptedAnswers": [
+    "أمنا العدرا"
+   ],
+   "explanation": "ـنا veut dire « notre » : أم + نا = أمنا, comme أبونا (notre père) et ربنا (notre Seigneur).",
+   "tip": "ـنا = notre.",
+   "extraExample": {
+    "text": "أمنا العدرا",
+    "translation": "Notre mère la Vierge"
+   },
+   "options": [
+    "أبونا العدرا",
+    "ربنا العدرا",
+    "أمنا العدرا",
+    "أخويا العدرا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "أبونا العدرا",
+     "category": "word_confusion",
+     "feedback": "أبونا est « notre père » ; la Vierge est une mère : أمنا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e07",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.ashiyya"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot désigne l'offrande d'encens du soir ?",
+   "promptLanguage": "fr",
+   "answer": "عشية",
+   "acceptedAnswers": [
+    "عشية"
+   ],
+   "explanation": "عشية est l'offrande du soir ; باكر celle du matin (carte « Les offices »).",
+   "tip": "عشية = soir.",
+   "extraExample": {
+    "text": "رفع بخور عشية",
+    "translation": "L'offrande de l'encens du soir"
+   },
+   "options": [
+    "عشية",
+    "تسبحة",
+    "باكر",
+    "قداس"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "باكر",
+     "category": "word_confusion",
+     "feedback": "باكر est celle du matin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e08",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.itiraf"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « confession » ?",
+   "promptLanguage": "fr",
+   "answer": "اعتراف",
+   "acceptedAnswers": [
+    "اعتراف"
+   ],
+   "explanation": "اعتراف est la confession, auprès de أبونا (carte « Confession et communion »).",
+   "tip": "اعتراف = on avoue ses fautes.",
+   "extraExample": {
+    "text": "الاعتراف مع أبونا",
+    "translation": "La confession avec notre père"
+   },
+   "options": [
+    "تناول",
+    "اعتراف",
+    "عيد",
+    "صيام"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "تناول",
+     "category": "word_confusion",
+     "feedback": "تناول est la communion."
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e09",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.eid_el_milad"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne date.",
+   "prompt": "Quand les coptes fêtent-ils عيد الميلاد (Noël) ?",
+   "promptLanguage": "fr",
+   "answer": "le 7 janvier",
+   "acceptedAnswers": [
+    "le 7 janvier"
+   ],
+   "explanation": "Les coptes fêtent Noël le 7 janvier, سبعة يناير (carte « Fêtes et jeûnes »).",
+   "tip": "7 janvier = سبعة يناير.",
+   "extraExample": {
+    "text": "عيد الميلاد في سبعة يناير",
+    "translation": "Noël est le 7 janvier"
+   },
+   "options": [
+    "le 1er janvier",
+    "le 7 janvier",
+    "le 25 décembre",
+    "le 6 janvier"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "le 25 décembre",
+     "category": "word_confusion",
+     "feedback": "C'est la date de l'Occident ; les coptes fêtent le 7 janvier."
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e10",
+   "unitIds": [
+    "ar.v.injil"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel : le livre de la liturgie.",
+   "prompt": "Quel mot veut dire « Évangile » ?",
+   "promptLanguage": "fr",
+   "answer": "إنجيل",
+   "acceptedAnswers": [
+    "إنجيل"
+   ],
+   "explanation": "إنجيل est l'Évangile ; مزمور est un psaume, نبوات les prophéties, أجبية le livre des heures.",
+   "tip": "إنجيل : le livre de la Bonne Nouvelle.",
+   "extraExample": {
+    "text": "الإنجيل في القداس",
+    "translation": "L'Évangile est lu à la liturgie"
+   },
+   "options": [
+    "نبوات",
+    "مزمور",
+    "أجبية",
+    "إنجيل"
+   ]
+  },
+  {
+   "id": "ar.l40.e11",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.haykal",
+    "ar.v.madbah",
+    "ar.v.ayqona",
+    "ar.v.el_qiddisin",
+    "ar.v.margirgis"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Associe chaque mot de l'église à son sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Le lieu (هيكل, مذبح, أيقونة) et les saints (القديسين, مارجرجس).",
+   "pairs": [
+    {
+     "left": "هيكل",
+     "right": "sanctuaire"
+    },
+    {
+     "left": "مذبح",
+     "right": "autel"
+    },
+    {
+     "left": "أيقونة",
+     "right": "icône"
+    },
+    {
+     "left": "القديسين",
+     "right": "les saints"
+    },
+    {
+     "left": "مارجرجس",
+     "right": "saint Georges"
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e12",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.ashiyya",
+    "ar.v.tanawul",
+    "ar.v.itiraf",
+    "ar.v.siyam",
+    "ar.v.eid_el_milad"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Associe les moments et les gestes de l'église à leur sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Les offices, les gestes de préparation et les temps forts de l'année.",
+   "pairs": [
+    {
+     "left": "عشية",
+     "right": "vêpres (offrande d'encens du soir)"
+    },
+    {
+     "left": "تناول",
+     "right": "communion"
+    },
+    {
+     "left": "اعتراف",
+     "right": "confession"
+    },
+    {
+     "left": "صيام",
+     "right": "jeûne"
+    },
+    {
+     "left": "عيد الميلاد",
+     "right": "Noël"
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e13",
+   "unitIds": [
+    "ar.v.quddas",
+    "ar.v.abouna",
+    "ar.v.shammas",
+    "ar.v.bakhur",
+    "ar.v.jaras"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Rappel : associe chaque mot à son sens.",
+   "prompt": "Revois les mots d'église déjà lus dans les modules précédents.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq mots viennent des leçons sur les lettres : tu les revois maintenant à leur place dans l'église.",
+   "pairs": [
+    {
+     "left": "قداس",
+     "right": "liturgie"
+    },
+    {
+     "left": "أبونا",
+     "right": "notre père (le prêtre)"
+    },
+    {
+     "left": "شماس",
+     "right": "diacre"
+    },
+    {
+     "left": "بخور",
+     "right": "encens"
+    },
+    {
+     "left": "جرس",
+     "right": "cloche"
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e14",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.ayqona"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "الأيقونة في ___  (l'icône est dans l'église)",
+   "promptLanguage": "ar",
+   "answer": "الكنيسة",
+   "acceptedAnswers": [
+    "الكنيسة"
+   ],
+   "explanation": "L'icône se trouve dans l'église : الأيقونة في الكنيسة (carte « Dans l'église »).",
+   "tip": "في + lieu.",
+   "extraExample": {
+    "text": "الأيقونة جنب المذبح",
+    "translation": "L'icône est près de l'autel"
+   },
+   "options": [
+    "الكنيسة",
+    "السوق",
+    "الحمام",
+    "المطبخ"
+   ]
+  },
+  {
+   "id": "ar.l40.e15",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.haykal"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "أبونا في ___  (notre père est dans le sanctuaire)",
+   "promptLanguage": "ar",
+   "answer": "الهيكل",
+   "acceptedAnswers": [
+    "الهيكل"
+   ],
+   "explanation": "Le prêtre est dans le sanctuaire, الهيكل, près de l'autel.",
+   "tip": "هيكل = sanctuaire.",
+   "extraExample": {
+    "text": "الشماس في الهيكل",
+    "translation": "Le diacre est dans le sanctuaire"
+   },
+   "options": [
+    "الهيكل",
+    "السوق",
+    "البلكونة",
+    "المطبخ"
+   ]
+  },
+  {
+   "id": "ar.l40.e16",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.siyam"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "الأربع والجمعة ___  (mercredi et vendredi : jeûne)",
+   "promptLanguage": "ar",
+   "answer": "صيام",
+   "acceptedAnswers": [
+    "صيام"
+   ],
+   "explanation": "Le mercredi et le vendredi sont des jours de jeûne, صيام (comme صوم).",
+   "tip": "صيام → صيامي.",
+   "extraExample": {
+    "text": "أيام الصيام",
+    "translation": "Les jours de jeûne"
+   },
+   "options": [
+    "قداس",
+    "اعتراف",
+    "صيام",
+    "عيد"
+   ]
+  },
+  {
+   "id": "ar.l40.e17",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.eid_el_milad"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "عيد ___ في سبعة يناير  (Noël est le 7 janvier)",
+   "promptLanguage": "ar",
+   "answer": "الميلاد",
+   "acceptedAnswers": [
+    "الميلاد"
+   ],
+   "explanation": "عيد الميلاد est Noël, le 7 janvier ; عيد القيامة est Pâques (carte « Fêtes et jeûnes »).",
+   "tip": "الميلاد = Nativité.",
+   "extraExample": {
+    "text": "عيد القيامة",
+    "translation": "La fête de Pâques"
+   },
+   "options": [
+    "القيامة",
+    "الميلاد",
+    "الصليب",
+    "العدرا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "القيامة",
+     "category": "word_confusion",
+     "feedback": "عيد القيامة est Pâques, pas Noël."
+    }
+   ]
+  },
+  {
+   "id": "ar.l40.e18",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.el_qiddisin"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "أمنا العدرا والقديسين",
+   "promptLanguage": "ar",
+   "answer": "notre mère la vierge et les saints",
+   "acceptedAnswers": [
+    "notre mère la vierge et les saints",
+    "notre mère la vierge marie et les saints",
+    "notre mère marie et les saints",
+    "notre mère, la vierge, et les saints",
+    "la vierge notre mère et les saints"
+   ],
+   "explanation": "أمنا = notre mère, العدرا = la Vierge, والقديسين = et les saints (و collé = et).",
+   "tip": "ـنا = notre.",
+   "extraExample": {
+    "text": "أبونا والقديسين",
+    "translation": "Notre père et les saints"
+   }
+  },
+  {
+   "id": "ar.l40.e19",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.siyam"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "القداس يوم الأحد الصبح",
+   "promptLanguage": "ar",
+   "answer": "la liturgie le dimanche matin",
+   "acceptedAnswers": [
+    "la liturgie le dimanche matin",
+    "la liturgie est le dimanche matin",
+    "la liturgie est dimanche matin",
+    "la messe le dimanche matin",
+    "le dimanche matin la liturgie",
+    "la liturgie dimanche matin"
+   ],
+   "explanation": "القداس = la liturgie, يوم الأحد = le dimanche, الصبح = le matin.",
+   "tip": "يوم + jour.",
+   "extraExample": {
+    "text": "القداس الصبح",
+    "translation": "La liturgie le matin"
+   }
+  },
+  {
+   "id": "ar.l40.e20",
+   "unitIds": [
+    "ar.v.baba",
+    "ar.v.mama"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Rappel : écris le sens en français.",
+   "prompt": "بابا وماما في الكنيسة",
+   "promptLanguage": "ar",
+   "answer": "papa et maman sont à l'église",
+   "acceptedAnswers": [
+    "papa et maman sont à l'église",
+    "papa et maman sont dans l'église",
+    "papa et maman à l'église",
+    "papa et maman dans l'église"
+   ],
+   "explanation": "بابا = papa, وماما = et maman, في الكنيسة = à l'église.",
+   "tip": "و collé = et.",
+   "extraExample": {
+    "text": "ماما وبابا في البيت",
+    "translation": "Maman et papa sont à la maison"
+   }
+  },
+  {
+   "id": "ar.l40.e21",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.itiraf"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Que veut dire اعتراف dans la vie de l'Église ?",
+   "promptLanguage": "fr",
+   "answer": "confession",
+   "acceptedAnswers": [
+    "confession",
+    "la confession",
+    "se confesser",
+    "confesser ses péchés",
+    "la confession des péchés"
+   ],
+   "explanation": "اعتراف est la confession des péchés auprès du prêtre.",
+   "tip": "اعتراف → أب الاعتراف.",
+   "extraExample": {
+    "text": "الاعتراف مع أبونا",
+    "translation": "La confession avec notre père"
+   }
+  },
+  {
+   "id": "ar.l40.e22",
+   "unitIds": [
+    "ar.g40.a_l_eglise",
+    "ar.v.margirgis"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Dans « كنيسة مارجرجس », quel saint donne son nom à l'église ? Écris son nom en français.",
+   "promptLanguage": "fr",
+   "answer": "saint georges",
+   "acceptedAnswers": [
+    "saint georges",
+    "saint george",
+    "georges",
+    "george",
+    "st georges",
+    "st george",
+    "saint-georges"
+   ],
+   "explanation": "مارجرجس est saint Georges : مار (saint) + جرجس (Georges).",
+   "tip": "مار = saint.",
+   "extraExample": {
+    "text": "كنيسة مارجرجس",
+    "translation": "L'église de Saint-Georges"
+   }
+  },
+  {
+   "id": "ar.l40.e23",
+   "unitIds": [
+    "ar.v.el_ahad",
+    "ar.g40.a_l_eglise"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Forme la phrase : « Dimanche matin, je vais à la liturgie ».",
+   "promptLanguage": "ar",
+   "answer": "الأحد الصبح رايح القداس",
+   "acceptedAnswers": [
+    "الأحد الصبح رايح القداس"
+   ],
+   "explanation": "Le moment (الأحد الصبح) vient d'abord, puis رايح (je vais) et la destination.",
+   "tip": "Moment + رايح + lieu.",
+   "extraExample": {
+    "text": "الجمعة رايح الكنيسة",
+    "translation": "Vendredi je vais à l'église"
+   },
+   "tokens": [
+    "رايح",
+    "الصبح",
+    "الأحد",
+    "القداس"
+   ]
+  }
+ ]
+}

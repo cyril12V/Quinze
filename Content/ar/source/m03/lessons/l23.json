@@ -1,0 +1,834 @@
+{
+ "lessonId": "ar.l23",
+ "exercises": [
+  {
+   "id": "ar.l23.e01",
+   "unitIds": [
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Que veut dire ال devant un nom ?",
+   "promptLanguage": "fr",
+   "answer": "le, la, les",
+   "acceptedAnswers": [
+    "le, la, les"
+   ],
+   "explanation": "ال est l'article défini : il veut dire le, la ou les.",
+   "tip": "ال est collé au nom.",
+   "extraExample": {
+    "text": "الْكَنِيسَة",
+    "translation": "l'église"
+   },
+   "options": [
+    "le, la, les",
+    "de, du",
+    "un, une"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "un, une",
+     "category": "spelling",
+     "feedback": "Un, une (article indéfini) ne s'écrit pas en arabe : on laisse le nom seul."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e02",
+   "unitIds": [
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Devant une lettre lunaire, que fait le ل de ال ?",
+   "promptLanguage": "fr",
+   "answer": "il se dit",
+   "acceptedAnswers": [
+    "il se dit"
+   ],
+   "explanation": "Devant une lettre lunaire, le ل se prononce : on lui met un soukoun. Seules les solaires l'effacent.",
+   "tip": "Lune : le ل reste.",
+   "extraExample": {
+    "text": "الْقَمَر",
+    "translation": "la lune"
+   },
+   "options": [
+    "il s'efface",
+    "il se double",
+    "il se dit"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "il s'efface",
+     "category": "spelling",
+     "feedback": "C'est le cas des lettres solaires, avec une chadda."
+    },
+    {
+     "equals": "il se double",
+     "category": "spelling",
+     "feedback": "Le ل ne se double jamais : c'est la lettre qui suit qui se double, devant les solaires."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e03",
+   "unitIds": [
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Devant une lettre solaire, que devient le ل de ال ?",
+   "promptLanguage": "fr",
+   "answer": "il s'efface",
+   "acceptedAnswers": [
+    "il s'efface"
+   ],
+   "explanation": "Devant une lettre solaire, le ل s'efface et la lettre est doublée par une chadda : الشَّمْس.",
+   "tip": "Soleil : le ل disparaît.",
+   "extraExample": {
+    "text": "الشَّمْس",
+    "translation": "le soleil"
+   },
+   "options": [
+    "il se dit",
+    "il s'efface",
+    "il porte une madda"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "il se dit",
+     "category": "spelling",
+     "feedback": "C'est le cas des lettres lunaires, avec un soukoun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e04",
+   "unitIds": [
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Comment reconnaît-on une lettre solaire dans un texte vocalisé ?",
+   "promptLanguage": "fr",
+   "answer": "elle porte une chadda",
+   "acceptedAnswers": [
+    "elle porte une chadda"
+   ],
+   "explanation": "Une lettre solaire est doublée : elle porte une chadda juste après ال. Le soukoun sur ل annonce, lui, une lettre lunaire.",
+   "tip": "Chadda après ال = soleil.",
+   "extraExample": {
+    "text": "الرَّبّ",
+    "translation": "le Seigneur"
+   },
+   "options": [
+    "elle porte une madda",
+    "elle porte une chadda",
+    "le ل porte un soukoun"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "le ل porte un soukoun",
+     "category": "spelling",
+     "feedback": "Le soukoun sur ل annonce une lettre lunaire."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e05",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_ard"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "الْأَرْض",
+   "promptLanguage": "ar",
+   "answer": "la terre",
+   "acceptedAnswers": [
+    "la terre"
+   ],
+   "explanation": "ال, puis أَرْض : le ل porte un soukoun car أ est lunaire. C'est la terre.",
+   "tip": "Soukoun sur ل : lunaire.",
+   "extraExample": {
+    "text": "السَّمَا وَالْأَرْض.",
+    "translation": "Le ciel et la terre."
+   },
+   "options": [
+    "le peuple",
+    "la terre",
+    "le ciel",
+    "le monde"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "le ciel",
+     "category": "word_confusion",
+     "feedback": "Le ciel est السَّمَاء : le س y est doublé."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e06",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_sama"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "السَّمَاء",
+   "promptLanguage": "ar",
+   "answer": "le ciel",
+   "acceptedAnswers": [
+    "le ciel"
+   ],
+   "explanation": "ال, puis سَّ doublé, puis مَاء : le ل s'efface devant س solaire. C'est le ciel.",
+   "tip": "Chadda après ال : solaire.",
+   "extraExample": {
+    "text": "السَّمَاء زَرْقَا.",
+    "translation": "Le ciel est bleu."
+   },
+   "options": [
+    "la Parole",
+    "l'autel",
+    "le ciel",
+    "la terre"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "la terre",
+     "category": "word_confusion",
+     "feedback": "La terre est الْأَرْض : son ل porte un soukoun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e07",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_dunya"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Dans الدُّنْيَا, la lettre د est…",
+   "promptLanguage": "fr",
+   "answer": "solaire",
+   "acceptedAnswers": [
+    "solaire"
+   ],
+   "explanation": "د porte une chadda, c'est une lettre solaire : le ل s'efface et le د est doublé.",
+   "tip": "Chadda = solaire.",
+   "extraExample": {
+    "text": "الدُّنْيَا حَرّ.",
+    "translation": "Il fait chaud."
+   },
+   "options": [
+    "lunaire",
+    "solaire",
+    "muette"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "lunaire",
+     "category": "spelling",
+     "feedback": "Une lettre lunaire n'a pas de chadda : le ل porterait un soukoun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e08",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_kalima"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Dans الْكَلِمَة, la lettre ك est…",
+   "promptLanguage": "fr",
+   "answer": "lunaire",
+   "acceptedAnswers": [
+    "lunaire"
+   ],
+   "explanation": "Le ل porte un soukoun et le ك n'a pas de chadda : ك est lunaire.",
+   "tip": "Soukoun sur ل : lunaire.",
+   "extraExample": {
+    "text": "كَلِمَة حَلْوَة.",
+    "translation": "Un mot doux."
+   },
+   "options": [
+    "solaire",
+    "muette",
+    "lunaire"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "solaire",
+     "category": "spelling",
+     "feedback": "Une lettre solaire porterait une chadda."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e09",
+   "unitIds": [
+    "ar.v.qamar",
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Dans الْقَمَر, la lettre ق est…",
+   "promptLanguage": "fr",
+   "answer": "lunaire",
+   "acceptedAnswers": [
+    "lunaire"
+   ],
+   "explanation": "Le ل a un soukoun et ق ne porte pas de chadda : ق est lunaire, comme dans le nom de la lune.",
+   "tip": "Lune : ق lunaire.",
+   "extraExample": {
+    "text": "الْقَمَر طَالِع.",
+    "translation": "La lune est levée."
+   },
+   "options": [
+    "solaire",
+    "lunaire",
+    "muette"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "solaire",
+     "category": "spelling",
+     "feedback": "Une lettre solaire porterait une chadda : ici le ق n'en a pas."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e10",
+   "unitIds": [
+    "ar.v.shams",
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Dans الشَّمْس, la lettre ش est…",
+   "promptLanguage": "fr",
+   "answer": "solaire",
+   "acceptedAnswers": [
+    "solaire"
+   ],
+   "explanation": "ش porte une chadda et le ل n'a pas de signe : ش est solaire, comme dans le nom du soleil.",
+   "tip": "Soleil : ش solaire.",
+   "extraExample": {
+    "text": "الشَّمْس حَامْيَة.",
+    "translation": "Le soleil est brûlant."
+   },
+   "options": [
+    "lunaire",
+    "solaire",
+    "muette"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "lunaire",
+     "category": "spelling",
+     "feedback": "Une lettre lunaire n'a pas de chadda : ici ش en porte une."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e11",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_sama"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot.",
+   "prompt": "ال___مَاء",
+   "promptLanguage": "ar",
+   "answer": "سَّ",
+   "acceptedAnswers": [
+    "سَّ"
+   ],
+   "explanation": "Devant ا, ل puis س solaire : le س porte une chadda. On lit un س doublé : السَّمَاء.",
+   "tip": "Solaire : chadda.",
+   "extraExample": {
+    "text": "السَّمَاء زَرْقَا.",
+    "translation": "Le ciel est bleu."
+   },
+   "options": [
+    "سَّ",
+    "سَ",
+    "سْ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "سْ",
+     "category": "spelling",
+     "feedback": "Le soukoun dit « aucune voyelle » : ici le س est doublé."
+    },
+    {
+     "equals": "سَ",
+     "category": "spelling",
+     "feedback": "Il manque la chadda : le س est solaire."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e12",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_qummus"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot.",
+   "prompt": "الْ___مُّص",
+   "promptLanguage": "ar",
+   "answer": "قُ",
+   "acceptedAnswers": [
+    "قُ"
+   ],
+   "explanation": "ق est lunaire : pas de chadda sur lui, le ل garde son soukoun. On lit قُ, puis م doublé : الْقُمُّص.",
+   "tip": "Lunaire : le ل se dit.",
+   "extraExample": {
+    "text": "الْقُمُّص جَاي.",
+    "translation": "L'archiprêtre arrive."
+   },
+   "options": [
+    "قُ",
+    "قْ",
+    "قَّ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "قَّ",
+     "category": "spelling",
+     "feedback": "La chadda va avec les solaires : ق est lunaire. Ici la chadda est sur م, plus loin."
+    },
+    {
+     "equals": "قْ",
+     "category": "spelling",
+     "feedback": "Le قْ n'a pas de voyelle : mais ici on lit قُ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e13",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_dunya"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète le mot.",
+   "prompt": "ال___نْيَا",
+   "promptLanguage": "ar",
+   "answer": "دُّ",
+   "acceptedAnswers": [
+    "دُّ"
+   ],
+   "explanation": "د est solaire : il porte une chadda, avec une damma. On lit un د doublé : الدُّنْيَا.",
+   "tip": "Solaire : chadda + voyelle.",
+   "extraExample": {
+    "text": "الدُّنْيَا صُغَيَّرَة.",
+    "translation": "Le monde est petit."
+   },
+   "options": [
+    "دْ",
+    "دُّ",
+    "دُ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "دْ",
+     "category": "spelling",
+     "feedback": "Le soukoun dit « aucune voyelle » : ici le د est doublé."
+    },
+    {
+     "equals": "دُ",
+     "category": "spelling",
+     "feedback": "Il manque la chadda : le د est solaire."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e14",
+   "unitIds": [
+    "ar.v.rabb",
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « le Seigneur ».",
+   "prompt": "ال___بّ",
+   "promptLanguage": "ar",
+   "answer": "رَّ",
+   "acceptedAnswers": [
+    "رَّ"
+   ],
+   "explanation": "ر est solaire : il porte une chadda, avec une fatha. On lit الرَّبّ, avec un r doublé.",
+   "tip": "Solaire : ر doublé.",
+   "extraExample": {
+    "text": "الرَّبّ رَاعِيّ.",
+    "translation": "Le Seigneur est mon berger."
+   },
+   "options": [
+    "رْ",
+    "رَّ",
+    "رُ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "رْ",
+     "category": "spelling",
+     "feedback": "Le soukoun dit « aucune voyelle » : ici le ر est doublé."
+    },
+    {
+     "equals": "رُ",
+     "category": "spelling",
+     "feedback": "La voyelle est une fatha, avec la chadda."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e15",
+   "unitIds": [
+    "ar.v.kanisa",
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « l'église ».",
+   "prompt": "الْ___نِيسَة",
+   "promptLanguage": "ar",
+   "answer": "كَ",
+   "acceptedAnswers": [
+    "كَ"
+   ],
+   "explanation": "ك est lunaire : pas de chadda, le ل garde son soukoun. On lit كَ : الْكَنِيسَة.",
+   "tip": "Lunaire : le ل se dit.",
+   "extraExample": {
+    "text": "الْكَنِيسَة قَرِيبَة.",
+    "translation": "L'église est proche."
+   },
+   "options": [
+    "كْ",
+    "كَ",
+    "كَّ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "كَّ",
+     "category": "spelling",
+     "feedback": "La chadda va avec les solaires : ك est lunaire."
+    },
+    {
+     "equals": "كْ",
+     "category": "spelling",
+     "feedback": "Le كْ n'a pas de voyelle : mais ici on lit كَ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e16",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.qamar",
+    "ar.v.shams",
+    "ar.v.el_ard",
+    "ar.v.el_sama"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Dans le ciel et sur terre",
+   "promptLanguage": "fr",
+   "answer": "الْقَمَر = la lune ; الشَّمْس = le soleil ; الْأَرْض = la terre ; السَّمَاء = le ciel",
+   "acceptedAnswers": [],
+   "explanation": "الْقَمَر et الْأَرْض : lunaires, soukoun sur ل. الشَّمْس et السَّمَاء : solaires, chadda.",
+   "pairs": [
+    {
+     "left": "الْقَمَر",
+     "right": "la lune"
+    },
+    {
+     "left": "الشَّمْس",
+     "right": "le soleil"
+    },
+    {
+     "left": "الْأَرْض",
+     "right": "la terre"
+    },
+    {
+     "left": "السَّمَاء",
+     "right": "le ciel"
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e17",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_qummus",
+    "ar.v.el_usquf",
+    "ar.v.el_matran",
+    "ar.v.el_aqbat"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Dans l'Église copte",
+   "promptLanguage": "fr",
+   "answer": "الْقُمُّص = l'archiprêtre ; الْأُسْقُف = l'évêque ; الْمَطْرَان = le métropolite ; الْأَقْبَاط = les Coptes",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre mots commencent par une lettre lunaire : ق أ م أ.",
+   "pairs": [
+    {
+     "left": "الْقُمُّص",
+     "right": "l'archiprêtre"
+    },
+    {
+     "left": "الْأُسْقُف",
+     "right": "l'évêque"
+    },
+    {
+     "left": "الْمَطْرَان",
+     "right": "le métropolite"
+    },
+    {
+     "left": "الْأَقْبَاط",
+     "right": "les Coptes"
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e18",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_dunya",
+    "ar.v.el_shaab",
+    "ar.v.el_kitab_el_muqaddas"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots de la vie",
+   "promptLanguage": "fr",
+   "answer": "الدُّنْيَا = le monde ; الشَّعْب = le peuple ; الْكِتَاب الْمُقَدَّس = la Bible",
+   "acceptedAnswers": [],
+   "explanation": "الدُّنْيَا et الشَّعْب : solaires, chadda. الْكِتَاب الْمُقَدَّس : deux mots à lettres lunaires.",
+   "pairs": [
+    {
+     "left": "الدُّنْيَا",
+     "right": "le monde"
+    },
+    {
+     "left": "الشَّعْب",
+     "right": "le peuple"
+    },
+    {
+     "left": "الْكِتَاب الْمُقَدَّس",
+     "right": "la Bible"
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e19",
+   "unitIds": [
+    "ar.v.kanisa",
+    "ar.g23.article_sun_moon",
+    "ar.v.masih",
+    "ar.v.adra",
+    "ar.v.salib"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Tes mots d'hier",
+   "promptLanguage": "fr",
+   "answer": "الْكَنِيسَة = l'église ; الْمَسِيح = le Christ ; الْعَدْرَا = la Vierge Marie ; الصَّلِيب = la croix",
+   "acceptedAnswers": [],
+   "explanation": "Ce sont des mots de m02, maintenant vocalisés : ك م ع sont lunaires, ص solaire.",
+   "pairs": [
+    {
+     "left": "الْكَنِيسَة",
+     "right": "l'église"
+    },
+    {
+     "left": "الْمَسِيح",
+     "right": "le Christ"
+    },
+    {
+     "left": "الْعَدْرَا",
+     "right": "la Vierge Marie"
+    },
+    {
+     "left": "الصَّلِيب",
+     "right": "la croix"
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e20",
+   "unitIds": [
+    "ar.v.dayiman",
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Gloire à Dieu toujours",
+   "promptLanguage": "fr",
+   "answer": "الْمَجْد لِلَّه دَايِمًا",
+   "acceptedAnswers": [
+    "الْمَجْد لِلَّه دَايِمًا"
+   ],
+   "explanation": "الْمَجْد لِلَّه دَايِمًا : d'abord le mot avec ال (la gloire), puis « à Dieu », puis « toujours ».",
+   "tip": "ال ouvre la phrase.",
+   "extraExample": {
+    "text": "الْمَجْد لِلَّه.",
+    "translation": "Gloire à Dieu."
+   },
+   "tokens": [
+    "دَايِمًا",
+    "لِلَّه",
+    "الْمَجْد"
+   ]
+  },
+  {
+   "id": "ar.l23.e21",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_ard"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "الْأَرْض",
+   "promptLanguage": "ar",
+   "answer": "terre",
+   "acceptedAnswers": [
+    "terre",
+    "la terre",
+    "le sol",
+    "terre"
+   ],
+   "explanation": "الْأَرْض : ال, puis أَرْض. La terre.",
+   "tip": "Le ل garde son soukoun.",
+   "extraExample": {
+    "text": "الْأَرْض كِبِيرَة.",
+    "translation": "La terre est grande."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ciel",
+     "category": "word_confusion",
+     "feedback": "Le ciel est السَّمَاء, avec une chadda sur س."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e22",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_usquf"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "الْأُسْقُف",
+   "promptLanguage": "ar",
+   "answer": "évêque",
+   "acceptedAnswers": [
+    "évêque",
+    "l'évêque",
+    "un évêque"
+   ],
+   "explanation": "الْأُسْقُف : ال, puis أُسْقُف. Le ل porte un soukoun car أ est lunaire. C'est l'évêque.",
+   "tip": "Lunaire : le ل se dit.",
+   "extraExample": {
+    "text": "زِيَارَة الْأُسْقُف.",
+    "translation": "La visite de l'évêque."
+   },
+   "errorPatterns": [
+    {
+     "equals": "prêtre",
+     "category": "word_confusion",
+     "feedback": "Le prêtre est كَاهِن ou أَبُونَا : ici tu lis الْأُسْقُف."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e23",
+   "unitIds": [
+    "ar.g23.article_sun_moon",
+    "ar.v.el_shaab"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire الشَّعْب ?",
+   "promptLanguage": "fr",
+   "answer": "peuple",
+   "acceptedAnswers": [
+    "peuple",
+    "le peuple",
+    "assemblée",
+    "l'assemblée",
+    "foule"
+   ],
+   "explanation": "الشَّعْب : ال, puis ش solaire doublé, ع sans voyelle, ب. Le peuple, l'assemblée.",
+   "tip": "Chadda après ال : solaire.",
+   "extraExample": {
+    "text": "الشَّعْب بِيَرُدّ: آمِين.",
+    "translation": "L'assemblée répond : amen."
+   },
+   "errorPatterns": [
+    {
+     "equals": "monde",
+     "category": "word_confusion",
+     "feedback": "Le monde est الدُّنْيَا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l23.e24",
+   "unitIds": [
+    "ar.g23.article_sun_moon"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris la réponse en chiffres.",
+   "prompt": "Combien y a-t-il de lettres solaires ?",
+   "promptLanguage": "fr",
+   "answer": "14",
+   "acceptedAnswers": [
+    "14",
+    "quatorze"
+   ],
+   "explanation": "Il y a 14 lettres solaires et 14 lettres lunaires : 28 lettres en tout.",
+   "tip": "14 + 14 = 28.",
+   "extraExample": {
+    "text": "الشَّمْس",
+    "translation": "le soleil"
+   },
+   "errorPatterns": [
+    {
+     "equals": "28",
+     "category": "instruction",
+     "feedback": "28, c'est le total des lettres de l'alphabet. Les solaires en sont la moitié."
+    }
+   ]
+  }
+ ]
+}

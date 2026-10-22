@@ -1,0 +1,354 @@
+[
+ {
+  "id": "ar.g25.syllabes",
+  "rule": {
+   "summary": "Une syllabe est une consonne suivie d'une voyelle. Lire vite, c'est reconnaître ces petits paquets d'un coup d'œil au lieu d'épeler lettre par lettre.",
+   "explanation": "Les voyelles longues s'écrivent avec les lettres ا و ي : elles te montrent où sont les paquets longs. Les voyelles courtes ne sont pas écrites quand il n'y a pas de harakat ; ton oreille de locuteur égyptien les ajoute dès que tu reconnais le mot. La méthode : repère les lettres ا و ي, coupe en paquets, dis chaque paquet, recolle.",
+   "pattern": "consonne + voyelle = 1 paquet : مَا | مَا = ماما",
+   "examples": [
+    {
+     "text": "ماما",
+     "translation": "maman : deux paquets ما | ما"
+    },
+    {
+     "text": "تيتة",
+     "translation": "mamie : تي | تة, le ي est la balise"
+    },
+    {
+     "text": "موز",
+     "translation": "banane : un paquet long مو, puis ز"
+    },
+    {
+     "text": "سمك",
+     "translation": "poisson : trois consonnes écrites, les voyelles viennent de l'oreille"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Lire ماما en épelant م, ا, م, ا",
+     "right": "Lire deux paquets : ما | ما",
+     "why": "L'alif prolonge la voyelle de la consonne qui le précède : les deux forment un seul paquet."
+    },
+    {
+     "wrong": "Chercher une lettre pour chaque voyelle dans سمك",
+     "right": "Lire س م ك et laisser l'oreille ajouter les voyelles",
+     "why": "Sans harakat, les voyelles courtes ne sont jamais écrites."
+    },
+    {
+     "wrong": "Couper تيتة en ت | يتة",
+     "right": "Couper en تي | تة",
+     "why": "La balise ي reste collée à la consonne qui la précède."
+    }
+   ],
+   "tip": "Repère d'abord les lettres ا و ي : ce sont tes balises."
+  }
+ },
+ {
+  "id": "ar.g26.long_words",
+  "rule": {
+   "summary": "Un mot long n'est qu'une suite de petits blocs. Les lettres ا د ذ ر ز و ferment un bloc ; si un bloc reste long, on le coupe en paquets, et on lit ال d'un coup.",
+   "explanation": "Un bloc est une suite de lettres attachées (module 2). Pour lire un long mot, coupe-le à chaque ا د ذ ر ز و, lis chaque bloc, puis recolle. Quand il n'y a aucune coupure, comme dans مستشفى, coupe en paquets de deux ou trois lettres. Reconnais aussi les morceaux qui reviennent : ال (« le, la »), la fin ـة, la fin ـنا (« notre ») et le و collé devant un mot (« et »).",
+   "pattern": "ال + blocs + fin : ا | لقا | هر | ة",
+   "examples": [
+    {
+     "text": "تليفون",
+     "translation": "téléphone : تليفو | ن, deux blocs"
+    },
+    {
+     "text": "جامعة",
+     "translation": "université : جا | معة"
+    },
+    {
+     "text": "القاهرة",
+     "translation": "Le Caire : ا | لقا | هر | ة, avec ال au début"
+    },
+    {
+     "text": "مستشفى",
+     "translation": "hôpital : un seul bloc, coupé en paquets مس | تش | فى"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Lire مستشفى lettre par lettre : م, س, ت, ش, ف, ى",
+     "right": "Couper en paquets : مس | تش | فى",
+     "why": "Sans lettre de coupure, on découpe soi-même en paquets de deux ou trois lettres."
+    },
+    {
+     "wrong": "Chercher ال au milieu du mot القاهرة",
+     "right": "Lire ال au début, puis le reste du mot",
+     "why": "ال s'écrit collé au début du mot : le ا ferme son bloc, puis le ل s'attache à la suite."
+    },
+    {
+     "wrong": "Prendre le و de بابا وماما pour une lettre du mot",
+     "right": "Le lire comme le petit mot « et »",
+     "why": "Le و ne s'attache pas au mot suivant : il reste seul, comme un mot d'une lettre."
+    }
+   ],
+   "tip": "Coupe d'abord aux six lettres, puis en paquets si le bloc est encore long."
+  }
+ },
+ {
+  "id": "ar.g27.short_sentences",
+  "rule": {
+   "summary": "Les phrases égyptiennes de tous les jours s'écrivent sans voyelles, comme on les dit. Pour les lire, on repère les mots un par un, de droite à gauche, et on vérifie le sens.",
+   "explanation": "Au présent, l'arabe égyptien n'a pas de verbe « être » : أنا كويس veut dire à la lettre « moi bien ». Les phrases sont donc courtes et faciles à lire. Les mots qui reviennent sont à connaître comme des images : إزيك (comment vas-tu ?), كويس (bien), فين (où), شكرا (merci), لو سمحت (excuse-moi). Une femme termine souvent le mot par ـة : عايز devient عايزة.",
+   "pattern": "question → réponse : إزيك ؟ → أنا كويس، الحمد لله",
+   "examples": [
+    {
+     "text": "إزيك يا مينا؟",
+     "translation": "Comment vas-tu, Mina ?"
+    },
+    {
+     "text": "أنا كويس، الحمد لله.",
+     "translation": "Je vais bien, Dieu merci."
+    },
+    {
+     "text": "عايز شاي.",
+     "translation": "Je veux du thé."
+    },
+    {
+     "text": "فين الكنيسة؟",
+     "translation": "Où est l'église ?"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Chercher un verbe « être » dans أنا كويس",
+     "right": "Lire « moi bien » : أنا كويس",
+     "why": "Au présent, l'égyptien n'a pas de verbe « être » : on met les deux mots côte à côte."
+    },
+    {
+     "wrong": "Lire فين comme في",
+     "right": "Lire فين (où) avec son ن final",
+     "why": "في (dans) et فين (où) ne diffèrent que par le ن : regarde la fin du mot."
+    },
+    {
+     "wrong": "Répondre صباح الخير par صباح الخير",
+     "right": "Répondre صباح النور",
+     "why": "On renvoie un souhait plus beau : « matin de lumière »."
+    }
+   ],
+   "tip": "Lis la phrase à voix basse, comme tu la dirais dans la rue."
+  }
+ },
+ {
+  "id": "ar.g28.liturgy",
+  "rule": {
+   "summary": "Les réponses de la liturgie s'écrivent comme dans les livres coptes arabes. Comme tu les connais par cœur, ta mémoire aide tes yeux : tu reconnais le début et le reste vient tout seul.",
+   "explanation": "Un dialogue revient sans cesse : le prêtre dit السلام لكل et le peuple répond ولروحك أيضا. Le ك final veut dire « toi, ton » (لك, ولروحك). Le و du début de ولروحك est le petit mot « et ». Les mots des offices (قداس, تسبحة, أجبية, نبوات, مزمور) se lisent bloc par bloc comme n'importe quel mot, mais tu les as déjà entendus des centaines de fois.",
+   "pattern": "prêtre : السلام لكل → peuple : ولروحك أيضا",
+   "examples": [
+    {
+     "text": "يا رب ارحم",
+     "translation": "Seigneur, aie pitié"
+    },
+    {
+     "text": "السلام لكل",
+     "translation": "La paix à tous, souhait du prêtre"
+    },
+    {
+     "text": "ولروحك أيضا",
+     "translation": "Et à ton esprit aussi, réponse du peuple"
+    },
+    {
+     "text": "المجد لك يا رب",
+     "translation": "Gloire à toi, Seigneur"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Lire ولروحك comme un seul mot sans analyse",
+     "right": "Voir و + لروحك : « et à ton esprit »",
+     "why": "Le و du début est le petit mot « et », séparé par sa forme isolée."
+    },
+    {
+     "wrong": "Confondre لك et لكل",
+     "right": "لك = « à toi » ; لكل = « à tous »",
+     "why": "Il y a une lettre de plus dans لكل : un ل final."
+    },
+    {
+     "wrong": "Chercher une voyelle pour chaque lettre",
+     "right": "Lire le groupe entier, que la mémoire connaît",
+     "why": "À l'église, tu reconnais le groupe avant d'avoir lu toutes les lettres."
+    }
+   ],
+   "tip": "Reconnais le groupe en entier : ta mémoire fait la moitié du travail."
+  }
+ },
+ {
+  "id": "ar.g29.read_with_meaning",
+  "rule": {
+   "summary": "Les Égyptiens n'écrivent pas les voyelles courtes : plusieurs mots s'écrivent donc pareil. Pour choisir, on lit les consonnes, on laisse l'oreille proposer un mot, puis on vérifie avec le sens de la phrase.",
+   "explanation": "Le même squelette de consonnes peut cacher deux mots : كتب (livres ou il a écrit), علم (drapeau ou science), أكل (nourriture ou il a mangé). Le contexte décide : après عندي on attend un nom, après une personne on attend une action, et ال annonce un nom. Un même mot peut aussi s'écrire de deux façons (مدرسة ou مدرسه, على ou علي) : on oublie souvent les petits signes.",
+   "pattern": "consonnes + oreille + sens de la phrase = le bon mot",
+   "examples": [
+    {
+     "text": "عندي كتب كتير",
+     "translation": "J'ai beaucoup de livres : كتب = livres"
+    },
+    {
+     "text": "بابا كتب جواب",
+     "translation": "Papa a écrit une lettre : كتب = il a écrit"
+    },
+    {
+     "text": "علم مصر",
+     "translation": "le drapeau de l'Égypte : علم = drapeau"
+    },
+    {
+     "text": "العلم نور",
+     "translation": "La science est une lumière : علم = science"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Lire كتب toujours « il a écrit »",
+     "right": "Choisir livres ou il a écrit selon la phrase",
+     "why": "Les consonnes ne suffisent pas : le sens de la phrase tranche."
+    },
+    {
+     "wrong": "Croire que مدرسه est un autre mot que مدرسة",
+     "right": "C'est le même mot, écrit avec ه",
+     "why": "Dans l'écriture rapide, le ة s'écrit souvent comme un ه."
+    },
+    {
+     "wrong": "Chercher les voyelles courtes dans le texte",
+     "right": "Les ajouter de tête",
+     "why": "Elles ne sont presque jamais écrites : le lecteur les connaît."
+    }
+   ],
+   "tip": "Dis les consonnes à voix basse : si le mot est dans ta langue, il te revient."
+  }
+ },
+ {
+  "id": "ar.g30.little_words",
+  "rule": {
+   "summary": "Un mot sur trois est un petit mot : ده, دي, دول, في, على, مش et les mots de question. Courts et fréquents, ils se lisent comme des images, sans épeler.",
+   "explanation": "ده, دي et دول veulent dire « ça » (masculin, féminin, pluriel). في veut dire « dans » ou « il y a », على veut dire « sur », مش nie. Cinq mots posent presque toutes les questions : إيه (quoi), مين (qui), فين (où), ليه (pourquoi), إمتى (quand). Beaucoup se ressemblent (في, فين, مين) : regarde le début et la fin.",
+   "pattern": "ده / دي / دول · في / على / مش · إيه / مين / فين / ليه / إمتى",
+   "examples": [
+    {
+     "text": "ده بيت",
+     "translation": "C'est une maison."
+    },
+    {
+     "text": "الكتاب على الترابيزة",
+     "translation": "Le livre est sur la table."
+    },
+    {
+     "text": "إيه ده؟",
+     "translation": "C'est quoi ?"
+    },
+    {
+     "text": "إمتى القداس؟",
+     "translation": "Quand est la liturgie ?"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Lire في comme فين",
+     "right": "Regarder si le ن final est là",
+     "why": "فين (où) a un ن de plus que في (dans)."
+    },
+    {
+     "wrong": "Dire ده pour un mot féminin comme كنيسة",
+     "right": "Dire دي كنيسة",
+     "why": "ده est pour le masculin, دي pour le féminin."
+    },
+    {
+     "wrong": "Lire مين comme مش",
+     "right": "مين = qui, مش = ne… pas",
+     "why": "Les deux commencent par م, mais la fin n'est pas la même."
+    }
+   ],
+   "tip": "Apprends chaque petit mot comme une image : début, fin, et c'est tout."
+  }
+ },
+ {
+  "id": "ar.g31.sentence_flow",
+  "rule": {
+   "summary": "Lire une phrase d'un seul trait, c'est la lire par groupes de sens, pas mot à mot : qui, fait quoi, où, quand. L'œil avance de droite à gauche sans revenir en arrière.",
+   "explanation": "Une phrase égyptienne suit souvent l'ordre qui, fait quoi, où, quand. La fin du mot indique qui agit : رايح (un homme), رايحة (une femme), رايحين (plusieurs personnes). Les mots de la rue (النهارده, دلوقتي, كمان, أوي, خلاص, يلا, ماشي, تمام, كده) se lisent comme des images. Si un mot t'arrête, saute-le, lis la suite, puis reviens.",
+   "pattern": "qui + fait quoi + où + quand : أنا رايح الكنيسة النهارده",
+   "examples": [
+    {
+     "text": "أنا رايح الكنيسة النهارده",
+     "translation": "Je vais à l'église aujourd'hui."
+    },
+    {
+     "text": "بابا عايز شاي دلوقتي",
+     "translation": "Papa veut du thé maintenant."
+    },
+    {
+     "text": "أنا جعان أوي",
+     "translation": "J'ai très faim."
+    },
+    {
+     "text": "بكرة القداس، ماشي؟",
+     "translation": "Demain, c'est la liturgie, d'accord ?"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Lire رايحة quand c'est un homme qui parle",
+     "right": "Utiliser رايح pour un homme, رايحة pour une femme",
+     "why": "La fin du mot dit qui agit : ـة pour une femme."
+    },
+    {
+     "wrong": "Lire une phrase mot à mot en revenant en arrière",
+     "right": "Lire par groupes de sens, sans reculer",
+     "why": "Le sens des autres mots aide à deviner le mot qui bloque."
+    },
+    {
+     "wrong": "Chercher « quand » au début de la phrase",
+     "right": "Le chercher à la fin",
+     "why": "النهارده et دلوقتي se mettent souvent en dernier."
+    }
+   ],
+   "tip": "Cache la traduction et lis d'un seul trait : si tu hésites, cherche les groupes de sens."
+  }
+ },
+ {
+  "id": "ar.g32.reading_review",
+  "rule": {
+   "summary": "Lire couramment, c'est combiner tous les outils : paquets, blocs, ال, petits mots, groupes de sens. Et avant de lire, on devine déjà ce qu'on va trouver, grâce au lieu et au genre de texte.",
+   "explanation": "Sur un panneau de rue, on attend des mots comme مخرج ou ممنوع ; sur une affiche d'église, قداس, تسبحة ou مدارس الأحد. Ce contexte souffle déjà la moitié du texte. Ensuite, on coupe en blocs, on lit ال d'un coup, on reconnaît les petits mots comme des images et on lit la phrase par groupes de sens.",
+   "pattern": "contexte → groupes de sens → mots → vérification",
+   "examples": [
+    {
+     "text": "لو سمحت، فين محطة المترو؟",
+     "translation": "Excuse-moi, où est la station de métro ? : une phrase de la rue"
+    },
+    {
+     "text": "قداس الأحد",
+     "translation": "la liturgie du dimanche : une affiche d'église"
+    },
+    {
+     "text": "ممنوع",
+     "translation": "interdit : un panneau"
+    },
+    {
+     "text": "أنا رايح مدارس الأحد",
+     "translation": "Je vais à l'école du dimanche"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Lire chaque panneau lettre par lettre",
+     "right": "Lire le mot d'un coup grâce au contexte",
+     "why": "Sur un panneau, le contexte te dit déjà quels mots sont possibles."
+    },
+    {
+     "wrong": "Confondre في, فين et مين",
+     "right": "Regarder le début et la fin",
+     "why": "فين (où) et مين (qui) ont un ن final ; في (dans) n'en a pas."
+    },
+    {
+     "wrong": "Oublier de couper aux ا د ذ ر ز و",
+     "right": "Couper d'abord aux six lettres",
+     "why": "Elles ferment un bloc et rendent les longs mots faciles."
+    }
+   ],
+   "tip": "Avant de lire, demande-toi où tu es : le contexte souffle les mots."
+  }
+ }
+]

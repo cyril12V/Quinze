@@ -1,0 +1,701 @@
+{
+ "module": {
+  "id": 5,
+  "title": "L'égyptien de tous les jours",
+  "description": "Salutations, famille, maison, nourriture, café et marché, chiffres et prix, temps et église : tu lis et tu comprends l'égyptien du quotidien."
+ },
+ "grammarUnits": [
+  {
+   "id": "ar.g33.salutations_politesse",
+   "category": "vocabulary",
+   "title": "Salutations et politesse : la question et sa réponse",
+   "difficulty": 1,
+   "prerequisites": [
+    "ar.g32.reading_review"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g34.la_famille",
+   "category": "vocabulary",
+   "title": "La famille : ـي (mon, ma) et ـنا (notre)",
+   "difficulty": 1,
+   "prerequisites": [
+    "ar.g33.salutations_politesse"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g35.la_maison",
+   "category": "vocabulary",
+   "title": "La maison : dire où est quoi avec في",
+   "difficulty": 1,
+   "prerequisites": [
+    "ar.g34.la_famille"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g36.la_nourriture",
+   "category": "vocabulary",
+   "title": "Au menu : les noms de nourriture et le ة de l'unité",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g35.la_maison"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g37.cafe_et_marche",
+   "category": "vocabulary",
+   "title": "Commander et marchander : عايز, بكام, غالي / رخيص",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g36.la_nourriture"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g38.nombres_et_prix",
+   "category": "vocabulary",
+   "title": "Nombres et prix : les chiffres ١٢٣",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g37.cafe_et_marche"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g39.le_temps",
+   "category": "vocabulary",
+   "title": "Le temps : امبارح, النهارده, بكرة et l'heure",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g38.nombres_et_prix"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g40.a_l_eglise",
+   "category": "vocabulary",
+   "title": "À l'église : lieux, personnes, offices et fêtes",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g39.le_temps"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "ar.l33",
+   "sequence": 33,
+   "title": "Salue comme au Caire",
+   "description": "Politesse de tous les jours : bonsoir, les réponses qui renchérissent, de rien, s'il te plaît, avec ta permission, pardon, au revoir.",
+   "difficulty": 1,
+   "grammarUnitId": "ar.g33.salutations_politesse",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.elhamdulillah",
+    "ar.v.sad",
+    "ar.v.ayiz",
+    "ar.v.habibi"
+   ],
+   "vocabulary": [
+    {
+     "word": "مساء الخير",
+     "slug": "mesa_el_kheir",
+     "translation": "bonsoir",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "صباح النور",
+     "slug": "sabah_el_nur",
+     "translation": "bonjour (réponse)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "مساء النور",
+     "slug": "mesa_el_nur",
+     "translation": "bonsoir (réponse)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "عامل إيه",
+     "slug": "amel_eih",
+     "translation": "comment ça va ?",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "العفو",
+     "slug": "afw",
+     "translation": "de rien",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "ألف شكر",
+     "slug": "alf_shokran",
+     "translation": "mille mercis",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "من فضلك",
+     "slug": "men_fadlak",
+     "translation": "s'il te plaît",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "عن إذنك",
+     "slug": "an_eznak",
+     "translation": "avec ta permission",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "معلش",
+     "slug": "maalesh",
+     "translation": "pardon, ce n'est pas grave",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "مع السلامة",
+     "slug": "maa_salama",
+     "translation": "au revoir",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "ar.l34",
+   "sequence": 34,
+   "title": "Ma famille",
+   "description": "Papa, maman, frère, sœur, mari, femme, fils, fille, grands-parents, oncle et tante : et la logique du petit ي qui veut dire « mon / ma ».",
+   "difficulty": 1,
+   "grammarUnitId": "ar.g34.la_famille",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.mesa_el_kheir",
+    "ar.v.ba",
+    "ar.v.jiddu",
+    "ar.v.baba",
+    "ar.v.sabah_el_kheir"
+   ],
+   "vocabulary": [
+    {
+     "word": "أخويا",
+     "slug": "akhuya",
+     "translation": "mon frère",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أختي",
+     "slug": "okhti",
+     "translation": "ma sœur",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جوزي",
+     "slug": "gozi",
+     "translation": "mon mari",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مراتي",
+     "slug": "merati",
+     "translation": "ma femme",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ابني",
+     "slug": "ibni",
+     "translation": "mon fils",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "بنتي",
+     "slug": "binti",
+     "translation": "ma fille",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عمو",
+     "slug": "ammu",
+     "translation": "oncle (frère du père)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "خالتو",
+     "slug": "khaltu",
+     "translation": "tante (sœur de la mère)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l35",
+   "sequence": 35,
+   "title": "Chez moi",
+   "description": "La maison égyptienne : appartement, salon, cuisine, salle de bain, meubles, fenêtre et balcon, et le petit mot في pour dire où est quoi.",
+   "difficulty": 1,
+   "grammarUnitId": "ar.g35.la_maison",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.kursi",
+    "ar.v.baba",
+    "ar.v.bayt",
+    "ar.v.ayiz",
+    "ar.v.akhuya"
+   ],
+   "vocabulary": [
+    {
+     "word": "مطبخ",
+     "slug": "matbakh",
+     "translation": "cuisine",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "حمام",
+     "slug": "hammam",
+     "translation": "salle de bain, toilettes",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "سرير",
+     "slug": "sarir",
+     "translation": "lit",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "كنبة",
+     "slug": "kanaba",
+     "translation": "canapé",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شباك",
+     "slug": "shubbak",
+     "translation": "fenêtre",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "تلاجة",
+     "slug": "tallaga",
+     "translation": "frigo",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شقة",
+     "slug": "shaqqa",
+     "translation": "appartement",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "صالة",
+     "slug": "sala",
+     "translation": "salon",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "بلكونة",
+     "slug": "balakona",
+     "translation": "balcon",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l36",
+   "sequence": 36,
+   "title": "À table !",
+   "description": "Les plats et produits de tous les jours : ta'miya, kushari, mouloukhiya, poulet, fromage, œufs, jus, et le ة qui veut dire « une seule pièce ».",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g36.la_nourriture",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.samak",
+    "ar.v.eish",
+    "ar.v.shay"
+   ],
+   "vocabulary": [
+    {
+     "word": "طعمية",
+     "slug": "tameya",
+     "translation": "croquettes de fèves",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "كشري",
+     "slug": "koshary",
+     "translation": "kushari (riz, pâtes, lentilles)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ملوخية",
+     "slug": "molokheya",
+     "translation": "mouloukhiya (soupe verte)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "فراخ",
+     "slug": "ferakh",
+     "translation": "poulet",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جبنة",
+     "slug": "gebna",
+     "translation": "fromage",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "بيض",
+     "slug": "beid",
+     "translation": "œufs",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عصير",
+     "slug": "asir",
+     "translation": "jus",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "لحمة",
+     "slug": "lahma",
+     "translation": "viande",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "بطاطس",
+     "slug": "batates",
+     "translation": "pommes de terre, frites",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "طماطم",
+     "slug": "tamatem",
+     "translation": "tomates",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l37",
+   "sequence": 37,
+   "title": "Au café et au souk",
+   "description": "Commander, demander le prix, dire que c'est cher ou pas cher, payer l'addition : l'égyptien du café et du marché.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g37.cafe_et_marche",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.men_fadlak",
+    "ar.v.fin",
+    "ar.v.ayiz"
+   ],
+   "vocabulary": [
+    {
+     "word": "بكام",
+     "slug": "bikam",
+     "translation": "combien ça coûte ?",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "غالي",
+     "slug": "ghali",
+     "translation": "cher",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "رخيص",
+     "slug": "rakhis",
+     "translation": "bon marché, pas cher",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "الحساب",
+     "slug": "el_hisab",
+     "translation": "l'addition",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "فلوس",
+     "slug": "felus",
+     "translation": "argent",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جنيه",
+     "slug": "guneh",
+     "translation": "livre égyptienne",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "سوق",
+     "slug": "souq",
+     "translation": "marché",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ممكن",
+     "slug": "mumken",
+     "translation": "est-ce possible ? puis-je ?",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "حاجة",
+     "slug": "haga",
+     "translation": "chose, quelque chose",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "كام",
+     "slug": "kam",
+     "translation": "combien (de)",
+     "partOfSpeech": "adverb"
+    }
+   ]
+  },
+  {
+   "id": "ar.l38",
+   "sequence": 38,
+   "title": "Les chiffres et les prix",
+   "description": "Les nombres de 1 à 10, 20 et 100 en égyptien, les chiffres ١٢٣ qu'on voit partout au Caire, et les prix en livres.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g38.nombres_et_prix",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.bikam",
+    "ar.v.ghali",
+    "ar.v.el_hisab",
+    "ar.v.mayya"
+   ],
+   "vocabulary": [
+    {
+     "word": "واحد",
+     "slug": "wahed",
+     "translation": "un (1)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "اتنين",
+     "slug": "itnen",
+     "translation": "deux (2)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "تلاتة",
+     "slug": "talata_eg",
+     "translation": "trois (3)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "أربعة",
+     "slug": "arba",
+     "translation": "quatre (4)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "خمسة",
+     "slug": "khamsa",
+     "translation": "cinq (5)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "ستة",
+     "slug": "setta",
+     "translation": "six (6)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "سبعة",
+     "slug": "sabaa",
+     "translation": "sept (7)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "تمانية",
+     "slug": "tamanya",
+     "translation": "huit (8)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "تسعة",
+     "slug": "tesaa",
+     "translation": "neuf (9)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "عشرة",
+     "slug": "ashara",
+     "translation": "dix (10)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "عشرين",
+     "slug": "ashrin",
+     "translation": "vingt (20)",
+     "partOfSpeech": "number"
+    },
+    {
+     "word": "مية",
+     "slug": "miyya",
+     "translation": "cent (100)",
+     "partOfSpeech": "number"
+    }
+   ]
+  },
+  {
+   "id": "ar.l39",
+   "sequence": 39,
+   "title": "Hier, aujourd'hui, demain",
+   "description": "Situer dans le temps : hier, demain, le matin, la nuit, plus tard, l'heure et les jours de la semaine, avec le réflexe إن شاء الله.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g39.le_temps",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.el_ahad",
+    "ar.v.sawm",
+    "ar.v.naharda",
+    "ar.v.bukra"
+   ],
+   "vocabulary": [
+    {
+     "word": "امبارح",
+     "slug": "embareh",
+     "translation": "hier",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "بعدين",
+     "slug": "baadein",
+     "translation": "plus tard, ensuite",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "الصبح",
+     "slug": "el_subh",
+     "translation": "le matin",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "الضهر",
+     "slug": "el_dohr",
+     "translation": "midi, l'après-midi",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "بالليل",
+     "slug": "bellayl",
+     "translation": "la nuit",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "الساعة كام",
+     "slug": "el_sa_kam",
+     "translation": "quelle heure est-il ?",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "ربع",
+     "slug": "rob",
+     "translation": "un quart",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الاتنين",
+     "slug": "el_itnen",
+     "translation": "lundi",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الجمعة",
+     "slug": "el_gomaa",
+     "translation": "vendredi",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "إن شاء الله",
+     "slug": "inshallah",
+     "translation": "si Dieu le veut",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "ar.l40",
+   "sequence": 40,
+   "title": "Dimanche à l'église",
+   "description": "Le lieu, les saints, les offices, la communion, les fêtes et les jeûnes : les mots de l'église copte, lus comme les Égyptiens les écrivent.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g40.a_l_eglise",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.injil",
+    "ar.v.quddas",
+    "ar.v.baba",
+    "ar.v.el_ahad"
+   ],
+   "vocabulary": [
+    {
+     "word": "هيكل",
+     "slug": "haykal",
+     "translation": "sanctuaire",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مذبح",
+     "slug": "madbah",
+     "translation": "autel",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أيقونة",
+     "slug": "ayqona",
+     "translation": "icône",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "القديسين",
+     "slug": "el_qiddisin",
+     "translation": "les saints",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مارجرجس",
+     "slug": "margirgis",
+     "translation": "saint Georges",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "عشية",
+     "slug": "ashiyya",
+     "translation": "vêpres (offrande d'encens du soir)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "تناول",
+     "slug": "tanawul",
+     "translation": "communion",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "اعتراف",
+     "slug": "itiraf",
+     "translation": "confession",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "صيام",
+     "slug": "siyam",
+     "translation": "jeûne",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عيد الميلاد",
+     "slug": "eid_el_milad",
+     "translation": "Noël",
+     "partOfSpeech": "event"
+    }
+   ]
+  }
+ ]
+}

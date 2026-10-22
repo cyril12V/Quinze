@@ -1,0 +1,701 @@
+{
+ "lessonId": "ar.l35",
+ "exercises": [
+  {
+   "id": "ar.l35.e01",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.matbakh"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « cuisine » (la pièce) ?",
+   "promptLanguage": "fr",
+   "answer": "مطبخ",
+   "acceptedAnswers": [
+    "مطبخ"
+   ],
+   "explanation": "مطبخ est la cuisine ; حمام est la salle de bain (carte « La cuisine »).",
+   "tip": "مطبخ : م + ط lourd + خ.",
+   "extraExample": {
+    "text": "ماما في المطبخ",
+    "translation": "Maman est dans la cuisine"
+   },
+   "options": [
+    "سرير",
+    "صالة",
+    "مطبخ",
+    "حمام"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "حمام",
+     "category": "word_confusion",
+     "feedback": "حمام est la salle de bain."
+    }
+   ]
+  },
+  {
+   "id": "ar.l35.e02",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.tallaga"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « frigo » ?",
+   "promptLanguage": "fr",
+   "answer": "تلاجة",
+   "acceptedAnswers": [
+    "تلاجة"
+   ],
+   "explanation": "تلاجة est le frigo ; le ج se lit g (carte « La cuisine »).",
+   "tip": "ج se dit g en Égypte.",
+   "extraExample": {
+    "text": "المية في التلاجة",
+    "translation": "L'eau est dans le frigo"
+   },
+   "options": [
+    "تلاجة",
+    "مطبخ",
+    "شباك",
+    "كنبة"
+   ]
+  },
+  {
+   "id": "ar.l35.e03",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.hammam"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Tu lis حمام sur une porte de restaurant. Qu'est-ce que c'est ?",
+   "promptLanguage": "fr",
+   "answer": "la salle de bain",
+   "acceptedAnswers": [
+    "la salle de bain"
+   ],
+   "explanation": "حمام est la salle de bain et les toilettes (carte « La salle de bain »).",
+   "tip": "Sur un menu, حمام serait du pigeon !",
+   "extraExample": {
+    "text": "فين الحمام؟",
+    "translation": "Où sont les toilettes ?"
+   },
+   "options": [
+    "la cuisine",
+    "le balcon",
+    "la salle de bain",
+    "le salon"
+   ]
+  },
+  {
+   "id": "ar.l35.e04",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.sarir"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « lit » ?",
+   "promptLanguage": "fr",
+   "answer": "سرير",
+   "acceptedAnswers": [
+    "سرير"
+   ],
+   "explanation": "سرير est le lit ; كنبة est un canapé (carte « Dormir et s'asseoir »).",
+   "tip": "سرير = on dort.",
+   "extraExample": {
+    "text": "السرير في الأوضة",
+    "translation": "Le lit est dans la chambre"
+   },
+   "options": [
+    "ترابيزة",
+    "كرسي",
+    "كنبة",
+    "سرير"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "كنبة",
+     "category": "word_confusion",
+     "feedback": "كنبة est un canapé."
+    }
+   ]
+  },
+  {
+   "id": "ar.l35.e05",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.kanaba"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Lis : كنبة. Qu'est-ce que c'est ?",
+   "promptLanguage": "fr",
+   "answer": "un canapé",
+   "acceptedAnswers": [
+    "un canapé"
+   ],
+   "explanation": "كنبة est un canapé, dans الصالة, le salon.",
+   "tip": "كنبة : le canapé des invités.",
+   "extraExample": {
+    "text": "الكنبة في الصالة",
+    "translation": "Le canapé est dans le salon"
+   },
+   "options": [
+    "un lit",
+    "une fenêtre",
+    "un canapé",
+    "un frigo"
+   ]
+  },
+  {
+   "id": "ar.l35.e06",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.shubbak"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « fenêtre » ?",
+   "promptLanguage": "fr",
+   "answer": "شباك",
+   "acceptedAnswers": [
+    "شباك"
+   ],
+   "explanation": "شباك est la fenêtre ; باب est la porte (carte « Fenêtre et balcon »).",
+   "tip": "Fenêtre = شباك, porte = باب.",
+   "extraExample": {
+    "text": "الشباك مفتوح",
+    "translation": "La fenêtre est ouverte"
+   },
+   "options": [
+    "تلاجة",
+    "سرير",
+    "شباك",
+    "باب"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "باب",
+     "category": "word_confusion",
+     "feedback": "باب est la porte."
+    }
+   ]
+  },
+  {
+   "id": "ar.l35.e07",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.shaqqa"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « appartement » ?",
+   "promptLanguage": "fr",
+   "answer": "شقة",
+   "acceptedAnswers": [
+    "شقة"
+   ],
+   "explanation": "شقة est l'appartement ; بيت est la maison (carte « Au Caire, on vit en شقة »).",
+   "tip": "Au Caire : شقة dans un immeuble.",
+   "extraExample": {
+    "text": "عندنا شقة",
+    "translation": "Nous avons un appartement"
+   },
+   "options": [
+    "صالة",
+    "شقة",
+    "بيت",
+    "أوضة"
+   ]
+  },
+  {
+   "id": "ar.l35.e08",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.oda"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Comprends la règle.",
+   "prompt": "Au pluriel, le ة de أوضة tombe. Quel mot veut dire « les pièces » ?",
+   "promptLanguage": "fr",
+   "answer": "أوض",
+   "acceptedAnswers": [
+    "أوض"
+   ],
+   "explanation": "Au pluriel on écrit أوض, sans ة (carte « Au Caire, on vit en شقة »).",
+   "tip": "Pluriel : on perd le ة.",
+   "extraExample": {
+    "text": "الأوض كبيرة",
+    "translation": "Les pièces sont grandes"
+   },
+   "options": [
+    "أوضة",
+    "أوضتي",
+    "أوضتنا",
+    "أوض"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "أوضة",
+     "category": "word_confusion",
+     "feedback": "C'est le singulier, avec ة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l35.e09",
+   "unitIds": [
+    "ar.v.kursi"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel du vocabulaire.",
+   "prompt": "Quel mot veut dire « chaise » ?",
+   "promptLanguage": "fr",
+   "answer": "كرسي",
+   "acceptedAnswers": [
+    "كرسي"
+   ],
+   "explanation": "كرسي est la chaise, ترابيزة la table : deux mots vus avec les lettres.",
+   "tip": "كرسي = on s'assoit.",
+   "extraExample": {
+    "text": "الكرسي في البلكونة",
+    "translation": "La chaise est sur le balcon"
+   },
+   "options": [
+    "ترابيزة",
+    "كرسي",
+    "سرير",
+    "شباك"
+   ]
+  },
+  {
+   "id": "ar.l35.e10",
+   "unitIds": [
+    "ar.v.baba"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel de la famille.",
+   "prompt": "Dans « بابا في الصالة », qui est dans le salon ?",
+   "promptLanguage": "fr",
+   "answer": "papa",
+   "acceptedAnswers": [
+    "papa"
+   ],
+   "explanation": "بابا veut dire « papa » ; الصالة est le salon.",
+   "tip": "بابا = papa, ماما = maman.",
+   "extraExample": {
+    "text": "ماما في الصالة",
+    "translation": "Maman est dans le salon"
+   },
+   "options": [
+    "papa",
+    "mamie",
+    "mon frère",
+    "maman"
+   ]
+  },
+  {
+   "id": "ar.l35.e11",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.matbakh",
+    "ar.v.hammam",
+    "ar.v.sarir",
+    "ar.v.kanaba",
+    "ar.v.tallaga"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Associe chaque mot de la maison à son sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Cuisine, salle de bain, chambre, salon : chaque pièce a son mot.",
+   "pairs": [
+    {
+     "left": "مطبخ",
+     "right": "cuisine"
+    },
+    {
+     "left": "حمام",
+     "right": "salle de bain, toilettes"
+    },
+    {
+     "left": "سرير",
+     "right": "lit"
+    },
+    {
+     "left": "كنبة",
+     "right": "canapé"
+    },
+    {
+     "left": "تلاجة",
+     "right": "frigo"
+    }
+   ]
+  },
+  {
+   "id": "ar.l35.e12",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.shubbak",
+    "ar.v.shaqqa",
+    "ar.v.sala",
+    "ar.v.balakona"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Associe l'appartement et ses ouvertures à leur sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre mots décrivent l'appartement : l'ensemble, la grande pièce et les ouvertures.",
+   "pairs": [
+    {
+     "left": "شباك",
+     "right": "fenêtre"
+    },
+    {
+     "left": "شقة",
+     "right": "appartement"
+    },
+    {
+     "left": "صالة",
+     "right": "salon"
+    },
+    {
+     "left": "بلكونة",
+     "right": "balcon"
+    }
+   ]
+  },
+  {
+   "id": "ar.l35.e13",
+   "unitIds": [
+    "ar.v.bayt",
+    "ar.v.bab",
+    "ar.v.kursi",
+    "ar.v.tarabeza",
+    "ar.v.oda"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Rappel : associe chaque mot à son sens.",
+   "prompt": "Revois les mots de la maison appris avec les lettres.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq mots sont ceux que tu connais déjà : ils trouvent leur place dans l'appartement.",
+   "pairs": [
+    {
+     "left": "بيت",
+     "right": "maison"
+    },
+    {
+     "left": "باب",
+     "right": "porte"
+    },
+    {
+     "left": "كرسي",
+     "right": "chaise"
+    },
+    {
+     "left": "ترابيزة",
+     "right": "table"
+    },
+    {
+     "left": "أوضة",
+     "right": "chambre"
+    }
+   ]
+  },
+  {
+   "id": "ar.l35.e14",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.sarir"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "السرير ___ الأوضة  (le lit est dans la chambre)",
+   "promptLanguage": "ar",
+   "answer": "في",
+   "acceptedAnswers": [
+    "في"
+   ],
+   "explanation": "في veut dire « dans, à » : chose + في + lieu (carte « Où est quoi ? »).",
+   "tip": "في = dans.",
+   "extraExample": {
+    "text": "الكنبة في الصالة",
+    "translation": "Le canapé est dans le salon"
+   },
+   "options": [
+    "من",
+    "مع",
+    "في",
+    "يا"
+   ]
+  },
+  {
+   "id": "ar.l35.e15",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.tallaga"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "التلاجة في ___  (le frigo est dans la cuisine)",
+   "promptLanguage": "ar",
+   "answer": "المطبخ",
+   "acceptedAnswers": [
+    "المطبخ"
+   ],
+   "explanation": "Le frigo est dans la cuisine : التلاجة في المطبخ (carte « La cuisine »).",
+   "tip": "ال = le, la.",
+   "extraExample": {
+    "text": "ماما في المطبخ",
+    "translation": "Maman est dans la cuisine"
+   },
+   "options": [
+    "المطبخ",
+    "الشباك",
+    "البلكونة",
+    "الحمام"
+   ]
+  },
+  {
+   "id": "ar.l35.e16",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.balakona"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "الكرسي في ___  (la chaise est sur le balcon)",
+   "promptLanguage": "ar",
+   "answer": "البلكونة",
+   "acceptedAnswers": [
+    "البلكونة"
+   ],
+   "explanation": "On met une chaise sur le balcon pour boire le thé : الكرسي في البلكونة (carte « Fenêtre et balcon »).",
+   "tip": "بلكونة = balcon.",
+   "extraExample": {
+    "text": "الشاي في البلكونة",
+    "translation": "Le thé est sur le balcon"
+   },
+   "options": [
+    "التلاجة",
+    "البلكونة",
+    "المطبخ",
+    "الحمام"
+   ]
+  },
+  {
+   "id": "ar.l35.e17",
+   "unitIds": [
+    "ar.v.ayiz"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Rappel : complète la phrase.",
+   "prompt": "لو سمحت، ___ مية  (s'il vous plaît, je veux de l'eau)",
+   "promptLanguage": "ar",
+   "answer": "عايز",
+   "acceptedAnswers": [
+    "عايز"
+   ],
+   "explanation": "عايز veut dire « je veux » ; on le met avant ce qu'on demande.",
+   "tip": "عايز + chose = je veux…",
+   "extraExample": {
+    "text": "عايز شاي",
+    "translation": "Je veux du thé"
+   },
+   "options": [
+    "شباك",
+    "بيت",
+    "أختي",
+    "عايز"
+   ]
+  },
+  {
+   "id": "ar.l35.e18",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.tallaga",
+    "ar.v.matbakh"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "التلاجة في المطبخ",
+   "promptLanguage": "ar",
+   "answer": "le frigo est dans la cuisine",
+   "acceptedAnswers": [
+    "le frigo est dans la cuisine",
+    "le réfrigérateur est dans la cuisine",
+    "frigo dans la cuisine",
+    "le frigo dans la cuisine",
+    "le frigo est à la cuisine"
+   ],
+   "explanation": "التلاجة = le frigo, في = dans, المطبخ = la cuisine.",
+   "tip": "Chose + في + lieu.",
+   "extraExample": {
+    "text": "الكنبة في الصالة",
+    "translation": "Le canapé est dans le salon"
+   }
+  },
+  {
+   "id": "ar.l35.e19",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.shubbak",
+    "ar.v.sala"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "الشباك في الصالة",
+   "promptLanguage": "ar",
+   "answer": "la fenêtre est dans le salon",
+   "acceptedAnswers": [
+    "la fenêtre est dans le salon",
+    "la fenêtre est au salon",
+    "fenêtre dans le salon",
+    "la fenêtre du salon",
+    "la fenêtre est dans la salle de séjour"
+   ],
+   "explanation": "الشباك = la fenêtre, في = dans, الصالة = le salon.",
+   "tip": "ال devant le nom = le / la.",
+   "extraExample": {
+    "text": "الشباك في الأوضة",
+    "translation": "La fenêtre est dans la chambre"
+   }
+  },
+  {
+   "id": "ar.l35.e20",
+   "unitIds": [
+    "ar.v.akhuya",
+    "ar.v.bayt"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Rappel : écris le sens en français.",
+   "prompt": "أخويا في البيت",
+   "promptLanguage": "ar",
+   "answer": "mon frère est à la maison",
+   "acceptedAnswers": [
+    "mon frère est à la maison",
+    "mon frère est dans la maison",
+    "mon frère à la maison",
+    "mon frère est chez nous"
+   ],
+   "explanation": "أخويا = mon frère, في = à, البيت = la maison.",
+   "tip": "ـي/ـيا = mon.",
+   "extraExample": {
+    "text": "أختي في البيت",
+    "translation": "Ma sœur est à la maison"
+   }
+  },
+  {
+   "id": "ar.l35.e21",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.hammam"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Que veut dire حمام quand on cherche la bonne porte dans un appartement ?",
+   "promptLanguage": "fr",
+   "answer": "salle de bain",
+   "acceptedAnswers": [
+    "salle de bain",
+    "la salle de bain",
+    "salle de bains",
+    "la salle de bains",
+    "toilettes",
+    "les toilettes",
+    "wc"
+   ],
+   "explanation": "حمام est la salle de bain (et les toilettes) dans une maison.",
+   "tip": "Sur un menu, ce serait du pigeon !",
+   "extraExample": {
+    "text": "الحمام جنب الأوضة",
+    "translation": "La salle de bain est à côté de la chambre"
+   }
+  },
+  {
+   "id": "ar.l35.e22",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.sarir"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Ton frère te dit : « عايز سرير ». Qu'est-ce qu'il veut ?",
+   "promptLanguage": "fr",
+   "answer": "un lit",
+   "acceptedAnswers": [
+    "un lit",
+    "le lit",
+    "il veut un lit",
+    "lit",
+    "un lit pour dormir",
+    "du lit"
+   ],
+   "explanation": "عايز = je veux et سرير = lit : il veut un lit.",
+   "tip": "عايز + nom = je veux…",
+   "extraExample": {
+    "text": "عايز كنبة",
+    "translation": "Je veux un canapé"
+   }
+  },
+  {
+   "id": "ar.l35.e23",
+   "unitIds": [
+    "ar.g35.la_maison",
+    "ar.v.kanaba",
+    "ar.v.sala"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Forme la phrase : « Le canapé est dans le salon ».",
+   "promptLanguage": "ar",
+   "answer": "الكنبة في الصالة",
+   "acceptedAnswers": [
+    "الكنبة في الصالة"
+   ],
+   "explanation": "Chose + في + lieu : الكنبة (la chose), في (dans), الصالة (le lieu).",
+   "tip": "Pas de verbe : trois mots suffisent.",
+   "extraExample": {
+    "text": "السرير في الأوضة",
+    "translation": "Le lit est dans la chambre"
+   },
+   "tokens": [
+    "الصالة",
+    "الكنبة",
+    "في"
+   ]
+  }
+ ]
+}

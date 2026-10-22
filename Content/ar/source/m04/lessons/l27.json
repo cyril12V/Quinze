@@ -1,0 +1,903 @@
+{
+ "lessonId": "ar.l27",
+ "exercises": [
+  {
+   "id": "ar.l27.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ezzayyak"
+   ],
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "إزيك",
+   "promptLanguage": "ar",
+   "options": [
+    "Où est l'église ?",
+    "Comment vas-tu ?",
+    "Je veux du thé.",
+    "Merci."
+   ],
+   "answer": "Comment vas-tu ?",
+   "acceptedAnswers": [
+    "Comment vas-tu ?"
+   ],
+   "explanation": "إ | ز | يك : trois blocs, إ | ز | يك. C'est la question qu'on pose en premier à quelqu'un.",
+   "tip": "Trois blocs : un إ seul, un ز seul, puis يك.",
+   "extraExample": {
+    "text": "إزيك يا مينا؟",
+    "translation": "Comment vas-tu, Mina ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Où est l'église ?",
+     "category": "word_confusion",
+     "feedback": "« Où est l'église ? » ne correspond pas : relis إزيك bloc par bloc. Ici, le sens est « Comment vas-tu ? »."
+    },
+    {
+     "equals": "Je veux du thé.",
+     "category": "word_confusion",
+     "feedback": "« Je veux du thé. » ne correspond pas : relis إزيك bloc par bloc. Ici, le sens est « Comment vas-tu ? »."
+    },
+    {
+     "equals": "Merci.",
+     "category": "word_confusion",
+     "feedback": "« Merci. » ne correspond pas : relis إزيك bloc par bloc. Ici, le sens est « Comment vas-tu ? »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.kwayyis"
+   ],
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "كويس",
+   "promptLanguage": "ar",
+   "options": [
+    "merci",
+    "où",
+    "thé",
+    "bien"
+   ],
+   "answer": "bien",
+   "acceptedAnswers": [
+    "bien"
+   ],
+   "explanation": "كو | يس : le و ferme le premier bloc, puis يس. C'est le mot égyptien pour « bien ».",
+   "tip": "Le و au milieu de كويس fait un paquet long.",
+   "extraExample": {
+    "text": "الشاي كويس.",
+    "translation": "Le thé est bon."
+   },
+   "errorPatterns": [
+    {
+     "equals": "merci",
+     "category": "word_confusion",
+     "feedback": "« merci » ne correspond pas : relis كويس bloc par bloc. Ici, le sens est « bien »."
+    },
+    {
+     "equals": "où",
+     "category": "word_confusion",
+     "feedback": "« où » ne correspond pas : relis كويس bloc par bloc. Ici, le sens est « bien »."
+    },
+    {
+     "equals": "thé",
+     "category": "word_confusion",
+     "feedback": "« thé » ne correspond pas : relis كويس bloc par bloc. Ici, le sens est « bien »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.jaan",
+    "ar.v.ana",
+    "ar.g27.short_sentences"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "أنا جعان",
+   "promptLanguage": "ar",
+   "options": [
+    "Je veux du thé.",
+    "J'ai faim.",
+    "Je vais bien, Dieu merci.",
+    "Où est l'église ?"
+   ],
+   "answer": "J'ai faim.",
+   "acceptedAnswers": [
+    "J'ai faim."
+   ],
+   "explanation": "أنا veut dire « je » et جعان (module 2) veut dire « affamé ». Sans verbe « être » : « moi affamé », c'est-à-dire « j'ai faim ».",
+   "tip": "Deux mots, deux images : أنا + جعان.",
+   "extraExample": {
+    "text": "أنا جعان أوي.",
+    "translation": "J'ai très faim."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Je veux du thé.",
+     "category": "word_confusion",
+     "feedback": "« Je veux du thé. » ne correspond pas : relis أنا جعان bloc par bloc. Ici, le sens est « J'ai faim. »."
+    },
+    {
+     "equals": "Je vais bien, Dieu merci.",
+     "category": "word_confusion",
+     "feedback": "« Je vais bien, Dieu merci. » ne correspond pas : relis أنا جعان bloc par bloc. Ici, le sens est « J'ai faim. »."
+    },
+    {
+     "equals": "Où est l'église ?",
+     "category": "word_confusion",
+     "feedback": "« Où est l'église ? » ne correspond pas : relis أنا جعان bloc par bloc. Ici, le sens est « J'ai faim. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.fin",
+    "ar.v.kanisa"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "فين الكنيسة؟",
+   "promptLanguage": "ar",
+   "options": [
+    "Comment vas-tu ?",
+    "J'ai faim.",
+    "Merci.",
+    "Où est l'église ?"
+   ],
+   "answer": "Où est l'église ?",
+   "acceptedAnswers": [
+    "Où est l'église ?"
+   ],
+   "explanation": "فين (où) ouvre la phrase, puis الكنيسة (ال + كنيسة) : « Où est l'église ? »",
+   "tip": "Le mot de question vient en premier.",
+   "extraExample": {
+    "text": "فين الباب؟",
+    "translation": "Où est la porte ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Comment vas-tu ?",
+     "category": "word_confusion",
+     "feedback": "« Comment vas-tu ? » ne correspond pas : relis فين الكنيسة؟ bloc par bloc. Ici, le sens est « Où est l'église ? »."
+    },
+    {
+     "equals": "J'ai faim.",
+     "category": "word_confusion",
+     "feedback": "« J'ai faim. » ne correspond pas : relis فين الكنيسة؟ bloc par bloc. Ici, le sens est « Où est l'église ? »."
+    },
+    {
+     "equals": "Merci.",
+     "category": "word_confusion",
+     "feedback": "« Merci. » ne correspond pas : relis فين الكنيسة؟ bloc par bloc. Ici, le sens est « Où est l'église ? »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.ayiz",
+    "ar.v.shay",
+    "ar.g27.short_sentences"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "عايز شاي",
+   "promptLanguage": "ar",
+   "options": [
+    "J'ai faim.",
+    "Je veux du thé.",
+    "Maman veut du thé.",
+    "Où est le thé ?"
+   ],
+   "answer": "Je veux du thé.",
+   "acceptedAnswers": [
+    "Je veux du thé."
+   ],
+   "explanation": "عايز (je veux) et شاي (thé), deux mots du module 2 : « Je veux du thé. » Pas de ـة à عايز : c'est un homme qui parle.",
+   "tip": "Un ـة à la fin de عايز signale une femme.",
+   "extraExample": {
+    "text": "عايز عيش.",
+    "translation": "Je veux du pain."
+   },
+   "errorPatterns": [
+    {
+     "equals": "J'ai faim.",
+     "category": "word_confusion",
+     "feedback": "« J'ai faim. » ne correspond pas : relis عايز شاي bloc par bloc. Ici, le sens est « Je veux du thé. »."
+    },
+    {
+     "equals": "Maman veut du thé.",
+     "category": "word_confusion",
+     "feedback": "« Maman veut du thé. » ne correspond pas : relis عايز شاي bloc par bloc. Ici, le sens est « Je veux du thé. »."
+    },
+    {
+     "equals": "Où est le thé ?",
+     "category": "word_confusion",
+     "feedback": "« Où est le thé ? » ne correspond pas : relis عايز شاي bloc par bloc. Ici, le sens est « Je veux du thé. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ezzayyak",
+    "ar.v.kwayyis"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle phrase répond à إزيك ؟",
+   "promptLanguage": "ar",
+   "options": [
+    "عايز شاي",
+    "فين الكنيسة؟",
+    "شكرا",
+    "أنا كويس، الحمد لله"
+   ],
+   "answer": "أنا كويس، الحمد لله",
+   "acceptedAnswers": [
+    "أنا كويس، الحمد لله"
+   ],
+   "explanation": "À une question de nouvelles, on répond par des nouvelles : أنا كويس، الحمد لله. عايز شاي exprime un souhait et فين الكنيسة؟ pose une autre question.",
+   "tip": "Question de nouvelles, réponse de nouvelles.",
+   "extraExample": {
+    "text": "إزيك؟ أنا كويس، الحمد لله.",
+    "translation": "— Comment vas-tu ? — Je vais bien, Dieu merci."
+   },
+   "errorPatterns": [
+    {
+     "equals": "عايز شاي",
+     "category": "vocabulary",
+     "feedback": "عايز شاي veut dire « Je veux du thé. » : ce n'est pas une réponse à des nouvelles."
+    },
+    {
+     "equals": "فين الكنيسة؟",
+     "category": "vocabulary",
+     "feedback": "فين الكنيسة؟ est une question (« Où est l'église ? »), pas une réponse."
+    },
+    {
+     "equals": "شكرا",
+     "category": "vocabulary",
+     "feedback": "شكرا veut dire « merci » : on remercie, on ne donne pas de ses nouvelles."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.sabah_el_kheir",
+    "ar.v.nur"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que répond-on à صباح الخير ?",
+   "promptLanguage": "fr",
+   "options": [
+    "شكرا",
+    "صباح النور",
+    "إزيك",
+    "لو سمحت"
+   ],
+   "answer": "صباح النور",
+   "acceptedAnswers": [
+    "صباح النور"
+   ],
+   "explanation": "On répond à un souhait par un souhait plus beau : صباح النور, « matin de lumière ».",
+   "tip": "Bien → lumière : النور.",
+   "extraExample": {
+    "text": "صباح الخير يا مينا.",
+    "translation": "Bonjour Mina."
+   },
+   "errorPatterns": [
+    {
+     "equals": "شكرا",
+     "category": "vocabulary",
+     "feedback": "« شكرا » ne répond pas à un salut du matin : on répond صباح النور."
+    },
+    {
+     "equals": "إزيك",
+     "category": "vocabulary",
+     "feedback": "« إزيك » ne répond pas à un salut du matin : on répond صباح النور."
+    },
+    {
+     "equals": "لو سمحت",
+     "category": "vocabulary",
+     "feedback": "« لو سمحت » ne répond pas à un salut du matin : on répond صباح النور."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.law_samaht",
+    "ar.v.fin"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pour demander poliment où est l'église, tu dis…",
+   "promptLanguage": "ar",
+   "options": [
+    "أنا كويس، الحمد لله",
+    "لو سمحت، عايز شاي",
+    "إزيك يا مينا؟",
+    "لو سمحت، فين الكنيسة؟"
+   ],
+   "answer": "لو سمحت، فين الكنيسة؟",
+   "acceptedAnswers": [
+    "لو سمحت، فين الكنيسة؟"
+   ],
+   "explanation": "لو سمحت (excuse-moi) ouvre la phrase et فين الكنيسة؟ pose la question. لو سمحت، عايز شاي demande du thé, pas l'église.",
+   "tip": "Cherche فين : c'est lui qui veut dire « où ».",
+   "extraExample": {
+    "text": "لو سمحت، فين الباب؟",
+    "translation": "Excuse-moi, où est la porte ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "أنا كويس، الحمد لله",
+     "category": "vocabulary",
+     "feedback": "C'est une réponse de nouvelles, pas une question."
+    },
+    {
+     "equals": "لو سمحت، عايز شاي",
+     "category": "vocabulary",
+     "feedback": "Cette phrase demande du thé : il n'y a pas de فين, donc pas de « où »."
+    },
+    {
+     "equals": "إزيك يا مينا؟",
+     "category": "vocabulary",
+     "feedback": "C'est une question de nouvelles : « Comment vas-tu, Mina ? »"
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ya_nida"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel petit mot sert à appeler quelqu'un, comme dans إزيك يا مينا ؟",
+   "promptLanguage": "fr",
+   "options": [
+    "أنا",
+    "يا",
+    "فين",
+    "كويس"
+   ],
+   "answer": "يا",
+   "acceptedAnswers": [
+    "يا"
+   ],
+   "explanation": "يا se met devant un prénom pour appeler la personne : يا مينا. Tu le retrouveras dans يا رب.",
+   "tip": "يا + prénom : on s'adresse à quelqu'un.",
+   "extraExample": {
+    "text": "أهلا يا مريم",
+    "translation": "Salut Mariam"
+   },
+   "errorPatterns": [
+    {
+     "equals": "أنا",
+     "category": "word_confusion",
+     "feedback": "أنا veut dire « je »."
+    },
+    {
+     "equals": "فين",
+     "category": "word_confusion",
+     "feedback": "فين veut dire « où »."
+    },
+    {
+     "equals": "كويس",
+     "category": "word_confusion",
+     "feedback": "كويس veut dire « bien »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.mama",
+    "ar.v.ayiz",
+    "ar.g27.short_sentences"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "ماما عايزة شاي",
+   "promptLanguage": "ar",
+   "options": [
+    "Papa veut du thé.",
+    "Maman a faim.",
+    "Mamie veut du thé.",
+    "Maman veut du thé."
+   ],
+   "answer": "Maman veut du thé.",
+   "acceptedAnswers": [
+    "Maman veut du thé."
+   ],
+   "explanation": "ماما (maman, leçon 25) + عايزة (elle veut) + شاي (thé). Le ـة de عايزة montre que c'est une femme qui veut.",
+   "tip": "عايزة avec ـة : une femme veut.",
+   "extraExample": {
+    "text": "بابا عايز شاي.",
+    "translation": "Papa veut du thé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Papa veut du thé.",
+     "category": "word_confusion",
+     "feedback": "« Papa veut du thé. » ne correspond pas : relis ماما عايزة شاي bloc par bloc. Ici, le sens est « Maman veut du thé. »."
+    },
+    {
+     "equals": "Maman a faim.",
+     "category": "word_confusion",
+     "feedback": "« Maman a faim. » ne correspond pas : relis ماما عايزة شاي bloc par bloc. Ici, le sens est « Maman veut du thé. »."
+    },
+    {
+     "equals": "Mamie veut du thé.",
+     "category": "word_confusion",
+     "feedback": "« Mamie veut du thé. » ne correspond pas : relis ماما عايزة شاي bloc par bloc. Ici, le sens est « Maman veut du thé. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e11",
+   "type": "match",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ana",
+    "ar.v.kwayyis",
+    "ar.v.fin",
+    "ar.v.shokran"
+   ],
+   "difficulty": 1,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot à son sens (1).",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "أنا",
+     "right": "je, moi"
+    },
+    {
+     "left": "كويس",
+     "right": "bien"
+    },
+    {
+     "left": "فين",
+     "right": "où"
+    },
+    {
+     "left": "شكرا",
+     "right": "merci"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "أنا = je, moi ; كويس = bien ; فين = où ; شكرا = merci",
+   "explanation": "Quatre petits mots que tu verras partout : أنا (je), كويس (bien), فين (où, avec son ن final) et شكرا (merci)."
+  },
+  {
+   "id": "ar.l27.e12",
+   "type": "match",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ahlan",
+    "ar.v.law_samaht",
+    "ar.v.sabah_el_kheir",
+    "ar.v.ezzayyak"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot à son sens (2).",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "أهلا",
+     "right": "salut, bienvenue"
+    },
+    {
+     "left": "لو سمحت",
+     "right": "excuse-moi"
+    },
+    {
+     "left": "صباح الخير",
+     "right": "bonjour (le matin)"
+    },
+    {
+     "left": "إزيك",
+     "right": "comment vas-tu ?"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "أهلا = salut, bienvenue ; لو سمحت = excuse-moi ; صباح الخير = bonjour (le matin) ; إزيك = comment vas-tu ?",
+   "explanation": "Quatre mots de politesse : on salue avec أهلا, on demande de l'attention avec لو سمحت, on souhaite le bonjour avec صباح الخير et on prend des nouvelles avec إزيك."
+  },
+  {
+   "id": "ar.l27.e13",
+   "type": "match",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ezzayyak",
+    "ar.v.fin",
+    "ar.v.ayiz",
+    "ar.v.jaan"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque phrase à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "إزيك؟",
+     "right": "Comment vas-tu ?"
+    },
+    {
+     "left": "فين الكنيسة؟",
+     "right": "Où est l'église ?"
+    },
+    {
+     "left": "عايز شاي",
+     "right": "Je veux du thé."
+    },
+    {
+     "left": "أنا جعان",
+     "right": "J'ai faim."
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "إزيك؟ = Comment vas-tu ? ; فين الكنيسة؟ = Où est l'église ? ; عايز شاي = Je veux du thé. ; أنا جعان = J'ai faim.",
+   "explanation": "Quatre phrases de la leçon : une question de nouvelles, une question de lieu, un souhait et un état. Repère le mot clé de chacune : إزيك, فين, عايز, جعان."
+  },
+  {
+   "id": "ar.l27.e14",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.kwayyis"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "أنا ___، الحمد لله (Je vais bien, Dieu merci.)",
+   "promptLanguage": "ar",
+   "options": [
+    "جعان",
+    "فين",
+    "شاي",
+    "كويس"
+   ],
+   "answer": "كويس",
+   "acceptedAnswers": [
+    "كويس"
+   ],
+   "explanation": "Après أنا، on met l'état : كويس pour « bien ». جعان voudrait dire « j'ai faim ».",
+   "tip": "Le mot qui veut dire « bien » est كويس.",
+   "extraExample": {
+    "text": "أنا كويس.",
+    "translation": "Je vais bien."
+   },
+   "errorPatterns": [
+    {
+     "equals": "جعان",
+     "category": "vocabulary",
+     "feedback": "أنا جعان veut dire « J'ai faim. », pas « Je vais bien. »"
+    },
+    {
+     "equals": "فين",
+     "category": "vocabulary",
+     "feedback": "فين veut dire « où » : il ne dit pas comment on va."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.fin"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "___ الكنيسة؟ (Où est l'église ?)",
+   "promptLanguage": "ar",
+   "options": [
+    "أنا",
+    "فين",
+    "كويس",
+    "شكرا"
+   ],
+   "answer": "فين",
+   "acceptedAnswers": [
+    "فين"
+   ],
+   "explanation": "Pour demander « où », on commence la phrase par فين.",
+   "tip": "فين ouvre la question.",
+   "extraExample": {
+    "text": "فين الباب؟",
+    "translation": "Où est la porte ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "أنا",
+     "category": "vocabulary",
+     "feedback": "أنا veut dire « je » : la phrase demande un lieu."
+    },
+    {
+     "equals": "شكرا",
+     "category": "vocabulary",
+     "feedback": "شكرا veut dire « merci »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e16",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ya_nida"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "إزيك ___ مينا؟ (Comment vas-tu, Mina ?)",
+   "promptLanguage": "ar",
+   "options": [
+    "أنا",
+    "فين",
+    "أهلا",
+    "يا"
+   ],
+   "answer": "يا",
+   "acceptedAnswers": [
+    "يا"
+   ],
+   "explanation": "يا se place devant le prénom de la personne qu'on appelle : يا مينا.",
+   "tip": "يا + prénom.",
+   "extraExample": {
+    "text": "أهلا يا مينا!",
+    "translation": "Salut Mina !"
+   },
+   "errorPatterns": [
+    {
+     "equals": "أنا",
+     "category": "vocabulary",
+     "feedback": "إزيك أنا مينا voudrait dire autre chose ; ici on appelle Mina avec يا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e17",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.v.shay",
+    "ar.v.eish",
+    "ar.v.mayya",
+    "ar.v.qahwa",
+    "ar.g27.short_sentences"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "عايز ___ (Je veux du thé.)",
+   "promptLanguage": "ar",
+   "options": [
+    "عيش",
+    "شاي",
+    "مية",
+    "قهوة"
+   ],
+   "answer": "شاي",
+   "acceptedAnswers": [
+    "شاي"
+   ],
+   "explanation": "Le mot « thé » est شاي (ش + ا + ي). عيش est le pain, مية l'eau et قهوة le café.",
+   "tip": "Le thé commence par ش : trois dents, trois points dessus.",
+   "extraExample": {
+    "text": "عايز مية.",
+    "translation": "Je veux de l'eau."
+   },
+   "errorPatterns": [
+    {
+     "equals": "عيش",
+     "category": "vocabulary",
+     "feedback": "عيش veut dire « pain » : ce n'est pas le thé."
+    },
+    {
+     "equals": "مية",
+     "category": "vocabulary",
+     "feedback": "مية veut dire « eau »."
+    },
+    {
+     "equals": "قهوة",
+     "category": "vocabulary",
+     "feedback": "قهوة veut dire « café »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l27.e18",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ana",
+    "ar.v.kwayyis",
+    "ar.v.elhamdulillah"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Je vais bien, Dieu merci. »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "الحمد",
+    "كويس",
+    "لله",
+    "أنا"
+   ],
+   "answer": "أنا كويس الحمد لله",
+   "acceptedAnswers": [
+    "أنا كويس الحمد لله",
+    "الحمد لله أنا كويس"
+   ],
+   "explanation": "On met d'abord أنا, puis كويس, puis الحمد لله : « moi bien, Dieu merci ». Le groupe الحمد لله va ensemble.",
+   "tip": "الحمد لله est un groupe de deux mots inséparables.",
+   "extraExample": {
+    "text": "أنا جعان",
+    "translation": "J'ai faim"
+   }
+  },
+  {
+   "id": "ar.l27.e19",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.law_samaht",
+    "ar.v.fin"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Excuse-moi, où est l'église ? »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "الكنيسة",
+    "لو",
+    "فين",
+    "سمحت"
+   ],
+   "answer": "لو سمحت فين الكنيسة",
+   "acceptedAnswers": [
+    "لو سمحت فين الكنيسة",
+    "فين الكنيسة لو سمحت"
+   ],
+   "explanation": "لو سمحت est un groupe de deux mots, puis la question فين الكنيسة. On peut aussi mettre لو سمحت à la fin.",
+   "tip": "لو سمحت ne se coupe pas : les deux mots vont ensemble.",
+   "extraExample": {
+    "text": "لو سمحت فين الباب",
+    "translation": "Excuse-moi, où est la porte ?"
+   }
+  },
+  {
+   "id": "ar.l27.e20",
+   "type": "translation",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ezzayyak",
+    "ar.v.ya_nida"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "إزيك يا مينا",
+   "promptLanguage": "ar",
+   "answer": "Comment vas-tu, Mina ?",
+   "acceptedAnswers": [
+    "Comment vas-tu, Mina ?",
+    "comment vas-tu mina",
+    "comment ça va, mina",
+    "comment ça va mina",
+    "comment tu vas, mina",
+    "salut mina, comment vas-tu",
+    "comment vas tu mina"
+   ],
+   "explanation": "إزيك (comment vas-tu) + يا مينا (on appelle Mina). C'est la façon la plus courante de prendre des nouvelles.",
+   "tip": "يا + prénom = on appelle la personne.",
+   "extraExample": {
+    "text": "إزيك يا تيتة؟",
+    "translation": "Comment vas-tu, mamie ?"
+   }
+  },
+  {
+   "id": "ar.l27.e21",
+   "type": "translation",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.ana",
+    "ar.v.kwayyis",
+    "ar.v.elhamdulillah"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "أنا كويس الحمد لله",
+   "promptLanguage": "ar",
+   "answer": "Je vais bien, Dieu merci.",
+   "acceptedAnswers": [
+    "Je vais bien, Dieu merci.",
+    "je vais bien dieu merci",
+    "ça va bien, dieu merci",
+    "ça va, dieu merci",
+    "je suis bien, dieu merci",
+    "je vais bien, grâce à dieu",
+    "je vais bien grâce à dieu"
+   ],
+   "explanation": "أنا (je) + كويس (bien) + الحمد لله (Dieu merci). C'est la réponse classique à إزيك.",
+   "tip": "Cherche l'ordre : je, bien, Dieu merci.",
+   "extraExample": {
+    "text": "أنا كويس",
+    "translation": "Je vais bien"
+   }
+  },
+  {
+   "id": "ar.l27.e22",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.elhamdulillah"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire الحمد لله ?",
+   "promptLanguage": "fr",
+   "answer": "Dieu merci",
+   "acceptedAnswers": [
+    "Dieu merci",
+    "grâce à dieu",
+    "louange à dieu",
+    "gloire à dieu",
+    "merci mon dieu"
+   ],
+   "explanation": "الحمد لله veut dire à la lettre « la louange est à Dieu ». Les Égyptiens l'emploient comme « Dieu merci ».",
+   "tip": "Deux mots qui se disent toujours ensemble.",
+   "extraExample": {
+    "text": "كويس، الحمد لله.",
+    "translation": "Bien, Dieu merci."
+   }
+  },
+  {
+   "id": "ar.l27.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g27.short_sentences",
+    "ar.v.shokran"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire شكرا ?",
+   "promptLanguage": "fr",
+   "answer": "merci",
+   "acceptedAnswers": [
+    "merci",
+    "merci beaucoup",
+    "merci bien"
+   ],
+   "explanation": "شكرا est le mot pour remercier. On l'entend dix fois par jour dans la rue.",
+   "tip": "Cinq lettres : ش ك ر ا, avec un ر et un ا qui ne s'attachent pas.",
+   "extraExample": {
+    "text": "شكرا كتير.",
+    "translation": "Merci beaucoup."
+   }
+  }
+ ]
+}

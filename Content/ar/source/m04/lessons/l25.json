@@ -1,0 +1,920 @@
+{
+ "lessonId": "ar.l25",
+ "exercises": [
+  {
+   "id": "ar.l25.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g25.syllabes"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qu'une syllabe ?",
+   "promptLanguage": "fr",
+   "options": [
+    "deux consonnes sans voyelle",
+    "une consonne + une voyelle",
+    "une lettre seule sans point",
+    "un mot entier"
+   ],
+   "answer": "une consonne + une voyelle",
+   "acceptedAnswers": [
+    "une consonne + une voyelle"
+   ],
+   "explanation": "Une syllabe est un petit paquet : une consonne + une voyelle, comme مَا ou بِي. C'est ce que ton œil doit reconnaître d'un coup.",
+   "tip": "Pense à pa-pa ou ma-ma : deux paquets identiques.",
+   "extraExample": {
+    "text": "ماما",
+    "translation": "maman : deux paquets ما | ما"
+   },
+   "errorPatterns": [
+    {
+     "equals": "deux consonnes sans voyelle",
+     "category": "word_confusion",
+     "feedback": "Une syllabe a toujours une voyelle : sans elle, on ne peut pas la dire."
+    },
+    {
+     "equals": "un mot entier",
+     "category": "word_confusion",
+     "feedback": "Un mot est fait d'une ou plusieurs syllabes ; une syllabe n'est qu'un paquet du mot."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.alif",
+    "ar.v.waw",
+    "ar.v.ya"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelles lettres écrivent toujours une voyelle longue ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ب ت ث",
+    "س ش ص",
+    "م ن ل",
+    "ا و ي"
+   ],
+   "answer": "ا و ي",
+   "acceptedAnswers": [
+    "ا و ي"
+   ],
+   "explanation": "ا, و et ي sont les lettres de voyelle longue : elles restent écrites même sans harakat. Toutes les autres sont des consonnes.",
+   "tip": "Retiens la trilogie ا و ي : ce sont tes balises.",
+   "extraExample": {
+    "text": "موز",
+    "translation": "banane : le و donne le paquet مو"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ب ت ث",
+     "category": "word_confusion",
+     "feedback": "ب ت ث sont des consonnes : les trois sœurs de la barque."
+    },
+    {
+     "equals": "س ش ص",
+     "category": "word_confusion",
+     "feedback": "س ش ص sont des consonnes à dents ou à boucle, pas des voyelles."
+    },
+    {
+     "equals": "م ن ل",
+     "category": "word_confusion",
+     "feedback": "م ن ل sont des consonnes aussi."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.mama"
+   ],
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "ماما",
+   "promptLanguage": "ar",
+   "options": [
+    "papa",
+    "maman",
+    "mamie",
+    "banane"
+   ],
+   "answer": "maman",
+   "acceptedAnswers": [
+    "maman"
+   ],
+   "explanation": "م + ا, puis م + ا : deux paquets ما | ما, « maman ». La première lettre م n'a aucun point.",
+   "tip": "م = boule sans point ; ب = barque avec un point dessous.",
+   "extraExample": {
+    "text": "ماما عايزة شاي.",
+    "translation": "Maman veut du thé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "papa",
+     "category": "word_confusion",
+     "feedback": "« papa » s'écrit بابا : il commence par ب, avec 1 point dessous. Ici, la première lettre est م, sans point."
+    },
+    {
+     "equals": "mamie",
+     "category": "word_confusion",
+     "feedback": "« mamie » s'écrit تيتة, avec deux ت. Ici tu lis ما | ما."
+    },
+    {
+     "equals": "banane",
+     "category": "word_confusion",
+     "feedback": "« banane » s'écrit موز. Ici tu lis ما | ما : deux paquets identiques."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.teta"
+   ],
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "تيتة",
+   "promptLanguage": "ar",
+   "options": [
+    "maman",
+    "papa",
+    "chat",
+    "mamie"
+   ],
+   "answer": "mamie",
+   "acceptedAnswers": [
+    "mamie"
+   ],
+   "explanation": "تي | تة : le ي est la balise du premier paquet, et le ة termine le mot. Deux paquets, « mamie ».",
+   "tip": "Deux ت de chaque côté du ي : le mot sonne comme un petit refrain.",
+   "extraExample": {
+    "text": "تيتة في البيت.",
+    "translation": "Mamie est à la maison."
+   },
+   "errorPatterns": [
+    {
+     "equals": "maman",
+     "category": "word_confusion",
+     "feedback": "« maman » ne correspond pas : relis تيتة paquet par paquet. Ici, le sens est « mamie »."
+    },
+    {
+     "equals": "papa",
+     "category": "word_confusion",
+     "feedback": "« papa » ne correspond pas : relis تيتة paquet par paquet. Ici, le sens est « mamie »."
+    },
+    {
+     "equals": "chat",
+     "category": "word_confusion",
+     "feedback": "« chat » ne correspond pas : relis تيتة paquet par paquet. Ici, le sens est « mamie »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.mooz"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "موز",
+   "promptLanguage": "ar",
+   "options": [
+    "sel",
+    "banane",
+    "lumière",
+    "poisson"
+   ],
+   "answer": "banane",
+   "acceptedAnswers": [
+    "banane"
+   ],
+   "explanation": "Le و est une balise : مو est un paquet long, puis vient le ز. Ensemble : موز, « banane ».",
+   "tip": "Un و au milieu fait un paquet long : مو.",
+   "extraExample": {
+    "text": "الموز حلو.",
+    "translation": "Les bananes sont bonnes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "sel",
+     "category": "word_confusion",
+     "feedback": "« sel » ne correspond pas : relis موز paquet par paquet. Ici, le sens est « banane »."
+    },
+    {
+     "equals": "lumière",
+     "category": "word_confusion",
+     "feedback": "« lumière » ne correspond pas : relis موز paquet par paquet. Ici, le sens est « banane »."
+    },
+    {
+     "equals": "poisson",
+     "category": "word_confusion",
+     "feedback": "« poisson » ne correspond pas : relis موز paquet par paquet. Ici, le sens est « banane »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.teta"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel mot vois-tu la voyelle longue ي ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ملح",
+    "سمك",
+    "جمل",
+    "تيتة"
+   ],
+   "answer": "تيتة",
+   "acceptedAnswers": [
+    "تيتة"
+   ],
+   "explanation": "Seul تيتة contient un ي. Les mots ملح, سمك et جمل n'ont que des consonnes écrites : leurs voyelles sont courtes, donc invisibles.",
+   "tip": "Cherche d'abord les balises ا و ي.",
+   "extraExample": {
+    "text": "بيت",
+    "translation": "maison : le ي est la balise"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ملح",
+     "category": "word_confusion",
+     "feedback": "« ملح » ne contient ni ا ni و ni ي : ses voyelles sont courtes, donc invisibles."
+    },
+    {
+     "equals": "سمك",
+     "category": "word_confusion",
+     "feedback": "« سمك » ne contient ni ا ni و ni ي : ses voyelles sont courtes, donc invisibles."
+    },
+    {
+     "equals": "جمل",
+     "category": "word_confusion",
+     "feedback": "« جمل » ne contient ni ا ni و ni ي : ses voyelles sont courtes, donc invisibles."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.teta"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment coupe-t-on تيتة en paquets ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ت | يتة",
+    "تي | تة",
+    "تيت | ة",
+    "ت | يت | ة"
+   ],
+   "answer": "تي | تة",
+   "acceptedAnswers": [
+    "تي | تة"
+   ],
+   "explanation": "Le ي prolonge la voyelle du premier ت : تي est un paquet. Le reste, تة, forme le second paquet.",
+   "tip": "Une balise reste toujours collée à la consonne qui la précède.",
+   "extraExample": {
+    "text": "ماما",
+    "translation": "ما | ما : deux paquets"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ت | يتة",
+     "category": "spelling",
+     "feedback": "Couper en « ت | يتة » sépare la balise ي de sa consonne : ce n'est pas un paquet."
+    },
+    {
+     "equals": "تيت | ة",
+     "category": "spelling",
+     "feedback": "Couper en « تيت | ة » sépare la balise ي de sa consonne : ce n'est pas un paquet."
+    },
+    {
+     "equals": "ت | يت | ة",
+     "category": "spelling",
+     "feedback": "Couper en « ت | يت | ة » sépare la balise ي de sa consonne : ce n'est pas un paquet."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.nur"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel mot se dit en un seul paquet ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ماما",
+    "تيتة",
+    "سمك",
+    "نور"
+   ],
+   "answer": "نور",
+   "acceptedAnswers": [
+    "نور"
+   ],
+   "explanation": "نور se dit d'un seul souffle : نو + ر forment un seul paquet long. ماما, تيتة et سمك ont chacun deux paquets.",
+   "tip": "Compte les voyelles : une voyelle, un paquet.",
+   "extraExample": {
+    "text": "موز",
+    "translation": "banane : un seul paquet aussi"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ماما",
+     "category": "word_confusion",
+     "feedback": "« ماما » se dit en deux paquets, pas en un seul."
+    },
+    {
+     "equals": "تيتة",
+     "category": "word_confusion",
+     "feedback": "« تيتة » se dit en deux paquets, pas en un seul."
+    },
+    {
+     "equals": "سمك",
+     "category": "word_confusion",
+     "feedback": "« سمك » se dit en deux paquets, pas en un seul."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.baba",
+    "ar.g25.syllabes"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "بابا",
+   "promptLanguage": "ar",
+   "options": [
+    "maman",
+    "papa",
+    "mamie",
+    "porte"
+   ],
+   "answer": "papa",
+   "acceptedAnswers": [
+    "papa"
+   ],
+   "explanation": "ب + ا, puis ب + ا : بابا, « papa ». Même forme que ماما, mais la barque ب a un point dessous, la boule م n'en a pas.",
+   "tip": "ب (point dessous) = b ; م (aucun point) = m.",
+   "extraExample": {
+    "text": "بابا في الكنيسة.",
+    "translation": "Papa est à l'église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "maman",
+     "category": "word_confusion",
+     "feedback": "ماما commence par م, sans point. Ici la première lettre est ب, avec 1 point dessous : c'est « papa »."
+    },
+    {
+     "equals": "mamie",
+     "category": "word_confusion",
+     "feedback": "« mamie » s'écrit تيتة. Ici tu lis ب + ا, puis ب + ا."
+    },
+    {
+     "equals": "porte",
+     "category": "word_confusion",
+     "feedback": "« porte » s'écrit باب, un seul paquet. Ici le mot a deux ا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.alif",
+    "ar.g25.syllabes"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Quelle lettre est un bâton droit, sans point, qui donne un a long ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ل",
+    "ب",
+    "ر",
+    "ا"
+   ],
+   "answer": "ا",
+   "acceptedAnswers": [
+    "ا"
+   ],
+   "explanation": "ا (alif) est le bâton droit sans point : la balise du a long. ل a aussi un bâton, mais avec un pied qui tourne.",
+   "tip": "Alif = un poteau planté sur la ligne.",
+   "extraExample": {
+    "text": "باب",
+    "translation": "porte : le ا au milieu"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ل",
+     "category": "spelling",
+     "feedback": "ل a un bâton, mais avec un pied courbé vers la gauche."
+    },
+    {
+     "equals": "ب",
+     "category": "spelling",
+     "feedback": "ب est la barque avec un point dessous."
+    },
+    {
+     "equals": "ر",
+     "category": "spelling",
+     "feedback": "ر est un petit crochet qui descend sous la ligne."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e11",
+   "type": "match",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.mama",
+    "ar.v.nur",
+    "ar.v.mooz",
+    "ar.v.milh"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot à son sens : la maison et la cuisine.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ماما",
+     "right": "maman"
+    },
+    {
+     "left": "نور",
+     "right": "lumière"
+    },
+    {
+     "left": "موز",
+     "right": "banane"
+    },
+    {
+     "left": "ملح",
+     "right": "sel"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "ماما = maman ; نور = lumière ; موز = banane ; ملح = sel",
+   "explanation": "ماما (ما | ما), نور (un paquet long), موز (مو + ز) et ملح (trois consonnes) : coupe chaque mot en paquets avant de choisir."
+  },
+  {
+   "id": "ar.l25.e12",
+   "type": "match",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.samak",
+    "ar.v.gamal",
+    "ar.v.otta",
+    "ar.v.walad"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot à son sens : les animaux et les gens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "سمك",
+     "right": "poisson"
+    },
+    {
+     "left": "جمل",
+     "right": "chameau"
+    },
+    {
+     "left": "قطة",
+     "right": "chat"
+    },
+    {
+     "left": "ولد",
+     "right": "garçon"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "سمك = poisson ; جمل = chameau ; قطة = chat ; ولد = garçon",
+   "explanation": "سمك, جمل et قطة ont deux paquets ; dans ولد, le و est une consonne. Le sens te dit comment le lire."
+  },
+  {
+   "id": "ar.l25.e13",
+   "type": "match",
+   "unitIds": [
+    "ar.v.bab",
+    "ar.v.bayt",
+    "ar.v.kanisa",
+    "ar.v.baba",
+    "ar.g25.syllabes"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot du module 2 à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "باب",
+     "right": "porte"
+    },
+    {
+     "left": "بيت",
+     "right": "maison"
+    },
+    {
+     "left": "كنيسة",
+     "right": "église"
+    },
+    {
+     "left": "بابا",
+     "right": "papa"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "باب = porte ; بيت = maison ; كنيسة = église ; بابا = papa",
+   "explanation": "باب et بيت sont des paquets uniques, بابا en a deux, كنيسة en a trois : les balises ا et ي t'aident à les reconnaître."
+  },
+  {
+   "id": "ar.l25.e14",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.mooz"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète la voyelle longue manquante.",
+   "prompt": "م___ز (banane)",
+   "promptLanguage": "ar",
+   "options": [
+    "ا",
+    "ي",
+    "ن",
+    "و"
+   ],
+   "answer": "و",
+   "acceptedAnswers": [
+    "و"
+   ],
+   "explanation": "Dans موز, la voyelle longue est un و : il donne le paquet مو. Sans lui, le mot ne se lit plus.",
+   "tip": "Cherche la balise qui manque : ا, و ou ي.",
+   "extraExample": {
+    "text": "نور",
+    "translation": "lumière : un و aussi"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "م ا ز ne donne aucun mot connu : « banane » s'écrit avec un و."
+    },
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "م ي ز n'est pas « banane » : le mot contient un و."
+    },
+    {
+     "equals": "ن",
+     "category": "spelling",
+     "feedback": "ن est une consonne, alors qu'il manque une voyelle longue."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.teta"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète la voyelle longue manquante.",
+   "prompt": "ت___تة (mamie)",
+   "promptLanguage": "ar",
+   "options": [
+    "ا",
+    "ي",
+    "و",
+    "م"
+   ],
+   "answer": "ي",
+   "acceptedAnswers": [
+    "ي"
+   ],
+   "explanation": "تيتة a un ي pour balise : تي | تة. Avec ا ou و, on lirait un autre mot.",
+   "tip": "Le ي de تيتة est entouré de deux ت.",
+   "extraExample": {
+    "text": "بيت",
+    "translation": "maison : encore un ي au milieu"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "ت ا ت ة ne veut rien dire : « mamie » contient un ي."
+    },
+    {
+     "equals": "و",
+     "category": "spelling",
+     "feedback": "ت و ت ة n'est pas « mamie » : cherche le ي."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e16",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.samak"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète la consonne manquante.",
+   "prompt": "س___ك (poisson)",
+   "promptLanguage": "ar",
+   "options": [
+    "ن",
+    "ل",
+    "ب",
+    "م"
+   ],
+   "answer": "م",
+   "acceptedAnswers": [
+    "م"
+   ],
+   "explanation": "Le poisson s'écrit س م ك : trois consonnes, aucune voyelle visible. Le م est la boule fermée, sans point.",
+   "tip": "Dis le mot dans ta tête : ton oreille retrouve la consonne du milieu.",
+   "extraExample": {
+    "text": "السمك طازة.",
+    "translation": "Le poisson est frais."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ن",
+     "category": "spelling",
+     "feedback": "ن a un point dessus ; « poisson » s'écrit avec un م, sans point."
+    },
+    {
+     "equals": "ب",
+     "category": "spelling",
+     "feedback": "ب a un point dessous ; « poisson » s'écrit avec un م, sans point."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e17",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.otta"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète la consonne manquante.",
+   "prompt": "ق___ة (chat)",
+   "promptLanguage": "ar",
+   "options": [
+    "ت",
+    "ط",
+    "د",
+    "ض"
+   ],
+   "answer": "ط",
+   "acceptedAnswers": [
+    "ط"
+   ],
+   "explanation": "قطة s'écrit ق ط ة : la lettre du milieu est le ط lourd (une boucle et son bâton), pas le ت.",
+   "tip": "Le ط a un bâton qui monte au-dessus de sa boucle.",
+   "extraExample": {
+    "text": "القطة بتشرب لبن.",
+    "translation": "Le chat boit du lait."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ت",
+     "category": "spelling",
+     "feedback": "ت n'a pas de bâton, mais 2 points dessus. « chat » s'écrit avec un ط."
+    },
+    {
+     "equals": "ض",
+     "category": "spelling",
+     "feedback": "ض a un point dessus ; ici la lettre n'a aucun point."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e18",
+   "type": "translation",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.milh"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "ملح",
+   "promptLanguage": "ar",
+   "answer": "sel",
+   "acceptedAnswers": [
+    "sel",
+    "le sel",
+    "du sel"
+   ],
+   "explanation": "ملح = م + ل + ح : trois consonnes, un seul paquet. C'est le « sel ».",
+   "tip": "Boule, bâton, crochet : م ل ح.",
+   "extraExample": {
+    "text": "حط ملح شوية.",
+    "translation": "Mets un peu de sel."
+   },
+   "errorPatterns": [
+    {
+     "equals": "sucre",
+     "category": "vocabulary",
+     "feedback": "« sucre » s'écrit سكر (module 2). Ici le mot commence par م."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e19",
+   "type": "translation",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.gamal"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "جمل",
+   "promptLanguage": "ar",
+   "answer": "chameau",
+   "acceptedAnswers": [
+    "chameau",
+    "le chameau",
+    "un chameau",
+    "dromadaire"
+   ],
+   "explanation": "جمل = ج + م + ل : trois consonnes, deux paquets quand on le dit. C'est le « chameau ».",
+   "tip": "Le ج se dit g au Caire, comme dans gâteau.",
+   "extraExample": {
+    "text": "ركبت جمل جنب الأهرامات.",
+    "translation": "J'ai monté un chameau près des pyramides."
+   }
+  },
+  {
+   "id": "ar.l25.e20",
+   "type": "translation",
+   "unitIds": [
+    "ar.v.kanisa",
+    "ar.g25.syllabes"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "كنيسة",
+   "promptLanguage": "ar",
+   "answer": "église",
+   "acceptedAnswers": [
+    "église",
+    "l'église",
+    "une église",
+    "eglise",
+    "l'eglise"
+   ],
+   "explanation": "كنيسة = كَ | نِي | سَة : trois paquets, avec le ي pour balise. C'est l'« église ».",
+   "tip": "Un ة à la fin signale souvent un mot féminin.",
+   "extraExample": {
+    "text": "الكنيسة كبيرة.",
+    "translation": "L'église est grande."
+   }
+  },
+  {
+   "id": "ar.l25.e21",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.mama"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Combien de paquets compte ماما ?",
+   "promptLanguage": "fr",
+   "answer": "deux",
+   "acceptedAnswers": [
+    "deux",
+    "2",
+    "deux paquets",
+    "2 paquets"
+   ],
+   "explanation": "ماما = ما | ما : chaque ا prolonge la voyelle de son م. Deux ا, deux paquets.",
+   "tip": "Autant de voyelles, autant de paquets.",
+   "extraExample": {
+    "text": "بابا",
+    "translation": "با | با : deux paquets aussi"
+   },
+   "errorPatterns": [
+    {
+     "equals": "un",
+     "category": "vocabulary",
+     "feedback": "Il y a deux ا, donc deux paquets : ما | ما."
+    },
+    {
+     "equals": "1",
+     "category": "vocabulary",
+     "feedback": "Il y a deux ا, donc deux paquets : ما | ما."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e22",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g25.syllabes",
+    "ar.v.nur"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire نور ?",
+   "promptLanguage": "fr",
+   "answer": "lumière",
+   "acceptedAnswers": [
+    "lumière",
+    "la lumière",
+    "une lumière"
+   ],
+   "explanation": "نور = نو + ر, un seul paquet long. Le mot veut dire « lumière ».",
+   "tip": "Le و fait le paquet long نو.",
+   "extraExample": {
+    "text": "افتح النور.",
+    "translation": "Allume la lumière."
+   },
+   "errorPatterns": [
+    {
+     "equals": "fleurs",
+     "category": "vocabulary",
+     "feedback": "« fleurs » s'écrit ورد (module 2). Ici la première lettre est ن."
+    }
+   ]
+  },
+  {
+   "id": "ar.l25.e23",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.qalam",
+    "ar.g25.syllabes"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "قَلَم",
+   "promptLanguage": "ar",
+   "options": [
+    "lune",
+    "stylo",
+    "montagne",
+    "agneau"
+   ],
+   "answer": "stylo",
+   "acceptedAnswers": [
+    "stylo"
+   ],
+   "explanation": "Avec les harakat, chaque voyelle est écrite : قَلَم est « stylo ». Sans harakat, on écrirait قلم : les mêmes trois consonnes, le même mot, que ton oreille complète.",
+   "tip": "Les harakat sont des aides : ôte-les par la pensée et lis les trois consonnes.",
+   "extraExample": {
+    "text": "قلم",
+    "translation": "stylo : le même mot, sans voyelles écrites"
+   },
+   "errorPatterns": [
+    {
+     "equals": "lune",
+     "category": "word_confusion",
+     "feedback": "« lune » s'écrit قَمَر, avec un ر à la fin. Ici le mot finit par م."
+    },
+    {
+     "equals": "montagne",
+     "category": "word_confusion",
+     "feedback": "« montagne » s'écrit جَبَل : il commence par ج."
+    },
+    {
+     "equals": "agneau",
+     "category": "word_confusion",
+     "feedback": "« agneau » s'écrit حَمَل : il commence par ح."
+    }
+   ]
+  }
+ ]
+}

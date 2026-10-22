@@ -1,0 +1,836 @@
+{
+ "lessonId": "ar.l20",
+ "exercises": [
+  {
+   "id": "ar.l20.e01",
+   "unitIds": [
+    "ar.g20.shadda"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Quel signe double la lettre ?",
+   "promptLanguage": "fr",
+   "answer": "la chadda",
+   "acceptedAnswers": [
+    "la chadda"
+   ],
+   "explanation": "La chadda, petit w sur la lettre, la fait dire deux fois. Le soukoun, petit rond, dit qu'il n'y a aucune voyelle.",
+   "tip": "Petit w = lettre doublée.",
+   "extraExample": {
+    "text": "بّ",
+    "translation": "bb"
+   },
+   "options": [
+    "la kasra",
+    "le soukoun",
+    "la chadda"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "le soukoun",
+     "category": "spelling",
+     "feedback": "Le soukoun est un petit rond : aucune voyelle, pas de doublement."
+    },
+    {
+     "equals": "la kasra",
+     "category": "spelling",
+     "feedback": "La kasra est un trait sous la lettre : le son i."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e02",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.kubbaya"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Combien de fois dit-on le ب dans كُبَّايَة ?",
+   "promptLanguage": "fr",
+   "answer": "deux fois",
+   "acceptedAnswers": [
+    "deux fois"
+   ],
+   "explanation": "Un seul ب est écrit, mais la chadda le fait dire deux fois.",
+   "tip": "Chadda : on lit la lettre deux fois.",
+   "extraExample": {
+    "text": "مَيَّة",
+    "translation": "eau : deux y"
+   },
+   "options": [
+    "trois fois",
+    "une fois",
+    "deux fois"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "une fois",
+     "category": "spelling",
+     "feedback": "Il n'y a qu'un ب écrit, mais la chadda en fait deux dits."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e03",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.kubbaya"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "كُبَّايَة",
+   "promptLanguage": "ar",
+   "answer": "verre",
+   "acceptedAnswers": [
+    "verre"
+   ],
+   "explanation": "ك + ou, ب doublé, puis ب + a long, ي + a : كُبَّايَة, le verre. Le dernier ة est muet.",
+   "tip": "Cherche la chadda sur le ب.",
+   "extraExample": {
+    "text": "كُبَّايَة مَيَّة.",
+    "translation": "Un verre d'eau."
+   },
+   "options": [
+    "eau",
+    "boutique",
+    "tasse",
+    "verre"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "eau",
+     "category": "word_confusion",
+     "feedback": "L'eau est مَيَّة. Ici tu lis ك + ب + ا + ي + ة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e04",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.rabb"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "رَبّ",
+   "promptLanguage": "ar",
+   "answer": "Seigneur",
+   "acceptedAnswers": [
+    "Seigneur"
+   ],
+   "explanation": "ر + a, ب doublé en fin de mot : le Seigneur. C'est le mot de يَا رَبّ.",
+   "tip": "Chadda finale : le ب est long.",
+   "extraExample": {
+    "text": "الرَّبّ رَاعِيّ.",
+    "translation": "Le Seigneur est mon berger."
+   },
+   "options": [
+    "amour",
+    "Seigneur",
+    "tout",
+    "paradis"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "amour",
+     "category": "word_confusion",
+     "feedback": "L'amour est حُبّ : même fin, mais la voyelle est une damma et la première lettre est ح."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e05",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.janna"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "جَنَّة",
+   "promptLanguage": "ar",
+   "answer": "paradis",
+   "acceptedAnswers": [
+    "paradis"
+   ],
+   "explanation": "ج + a, ن doublé, puis ة : le paradis, ou le jardin.",
+   "tip": "Le ن est écrit une fois, dit deux fois.",
+   "extraExample": {
+    "text": "جَنَّة عَدْن.",
+    "translation": "Le jardin d'Éden."
+   },
+   "options": [
+    "paradis",
+    "dame",
+    "saint",
+    "boutique"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "saint",
+     "category": "word_confusion",
+     "feedback": "Le saint est قِدِّيس."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e06",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.qiddis"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "قِدِّيس",
+   "promptLanguage": "ar",
+   "answer": "saint",
+   "acceptedAnswers": [
+    "saint"
+   ],
+   "explanation": "ق + i, د doublé, ي (i long), س : un saint. La kasra est sous la chadda.",
+   "tip": "Kasra + ي : i long, après le د doublé.",
+   "extraExample": {
+    "text": "الْقِدِّيس مَار جِرْجِس.",
+    "translation": "Saint Georges."
+   },
+   "options": [
+    "maître",
+    "monsieur",
+    "paradis",
+    "saint"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "monsieur",
+     "category": "word_confusion",
+     "feedback": "Monsieur, seigneur est سَيِّد : ici tu lis ق + د + ي + س."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e07",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.sayyid"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "سَيِّد",
+   "promptLanguage": "ar",
+   "answer": "monsieur",
+   "acceptedAnswers": [
+    "monsieur"
+   ],
+   "explanation": "س + a, ي doublé avec une kasra, puis د : monsieur, ou seigneur.",
+   "tip": "Le ي est doublé et porte une kasra.",
+   "extraExample": {
+    "text": "السَّيِّد الْمَسِيح.",
+    "translation": "Le Seigneur le Christ."
+   },
+   "options": [
+    "monsieur",
+    "saint",
+    "maître",
+    "dame"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "dame",
+     "category": "word_confusion",
+     "feedback": "La dame est سِتّ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e08",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.muallim"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "مُعَلِّم",
+   "promptLanguage": "ar",
+   "answer": "maître",
+   "acceptedAnswers": [
+    "maître"
+   ],
+   "explanation": "م + ou, ع + a, ل doublé avec une kasra, م : le maître, le patron.",
+   "tip": "Chadda sur ل, kasra dessous.",
+   "extraExample": {
+    "text": "يَا مُعَلِّم!",
+    "translation": "Patron !"
+   },
+   "options": [
+    "maître",
+    "ami",
+    "boutique",
+    "saint"
+   ]
+  },
+  {
+   "id": "ar.l20.e09",
+   "unitIds": [
+    "ar.g20.shadda"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Où se place la kasra quand la lettre porte une chadda ?",
+   "promptLanguage": "fr",
+   "answer": "sous la lettre",
+   "acceptedAnswers": [
+    "sous la lettre"
+   ],
+   "explanation": "La kasra reste sous la lettre, comme toujours, même si la chadda est au-dessus : قِدِّيس.",
+   "tip": "Kasra : toujours sous.",
+   "extraExample": {
+    "text": "سَيِّد",
+    "translation": "monsieur"
+   },
+   "options": [
+    "après la lettre",
+    "sur la chadda",
+    "sous la lettre"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "sur la chadda",
+     "category": "spelling",
+     "feedback": "La fatha et la damma se posent au-dessus ; la kasra reste en dessous."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e10",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.g20.shadda"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Dans كُبَّايَة, quelle lettre allonge la fatha de بَّ ?",
+   "promptLanguage": "fr",
+   "answer": "ا",
+   "acceptedAnswers": [
+    "ا"
+   ],
+   "explanation": "Après بَّ, le ا allonge la fatha : a long. Puis يَ est une consonne avec sa fatha.",
+   "tip": "Fatha + ا : a long, même avec une chadda.",
+   "extraExample": {
+    "text": "قُدَّاس",
+    "translation": "liturgie"
+   },
+   "options": [
+    "ي",
+    "ب",
+    "ا"
+   ]
+  },
+  {
+   "id": "ar.l20.e11",
+   "unitIds": [
+    "ar.v.quddas",
+    "ar.g20.shadda"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "قُدَّاس",
+   "promptLanguage": "ar",
+   "answer": "liturgie",
+   "acceptedAnswers": [
+    "liturgie"
+   ],
+   "explanation": "ق + ou, د doublé, puis ا (a long), س : c'est la liturgie, le mot que tu lisais قداس.",
+   "tip": "Lettre doublée, puis ا.",
+   "extraExample": {
+    "text": "رُحْت الْقُدَّاس.",
+    "translation": "Je suis allé à la liturgie."
+   },
+   "options": [
+    "encens",
+    "croix",
+    "prière",
+    "liturgie"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "prière",
+     "category": "word_confusion",
+     "feedback": "La prière est صَلَاة : un autre mot."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e12",
+   "unitIds": [
+    "ar.v.tayyib",
+    "ar.g20.shadda"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "طَيِّب",
+   "promptLanguage": "ar",
+   "answer": "bon",
+   "acceptedAnswers": [
+    "bon"
+   ],
+   "explanation": "ط + a, ي doublé avec une kasra, ب : bon, gentil. Tu le disais tous les jours.",
+   "tip": "Chadda sur ي, kasra dessous.",
+   "extraExample": {
+    "text": "عَيْش طَيِّب.",
+    "translation": "Du bon pain."
+   },
+   "options": [
+    "grand",
+    "blanc",
+    "gratuit",
+    "bon"
+   ]
+  },
+  {
+   "id": "ar.l20.e13",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.dukkan"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la lettre doublée.",
+   "prompt": "دُ___ان",
+   "promptLanguage": "ar",
+   "answer": "كَّ",
+   "acceptedAnswers": [
+    "كَّ"
+   ],
+   "explanation": "دُكَّان : دُ, puis ك doublé avec une fatha, puis ا (a long) et ن.",
+   "tip": "Chadda + fatha, puis ا.",
+   "extraExample": {
+    "text": "رُحْت الدُّكَّان.",
+    "translation": "Je suis allé à la boutique."
+   },
+   "options": [
+    "كْ",
+    "كَّ",
+    "كَ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "كْ",
+     "category": "spelling",
+     "feedback": "Le soukoun n'ajoute rien : le ك est doublé dans ce mot."
+    },
+    {
+     "equals": "كَ",
+     "category": "spelling",
+     "feedback": "Il manque la chadda : le ك est dit deux fois."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e14",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.hubb"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la dernière lettre.",
+   "prompt": "حُ___",
+   "promptLanguage": "ar",
+   "answer": "بّ",
+   "acceptedAnswers": [
+    "بّ"
+   ],
+   "explanation": "En égyptien, حُبّ finit par un ب doublé : la chadda est sur la dernière lettre.",
+   "tip": "Fin de mot doublée : chadda sur la dernière lettre.",
+   "extraExample": {
+    "text": "حُبّ كِبِير.",
+    "translation": "Un grand amour."
+   },
+   "options": [
+    "بّ",
+    "بْ",
+    "ب"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ب",
+     "category": "spelling",
+     "feedback": "Sans chadda, le ب serait simple : le mot se dirait plus court."
+    },
+    {
+     "equals": "بْ",
+     "category": "spelling",
+     "feedback": "Le soukoun dit « aucune voyelle », mais ici le ب est doublé."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e15",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.qiddis"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la lettre doublée.",
+   "prompt": "قِ___يس",
+   "promptLanguage": "ar",
+   "answer": "دِّ",
+   "acceptedAnswers": [
+    "دِّ"
+   ],
+   "explanation": "قِدِّيس : قِ, puis د doublé avec une kasra (sous la lettre), puis ي (i long) et س.",
+   "tip": "Kasra : toujours sous la lettre.",
+   "extraExample": {
+    "text": "الْقِدِّيس مَار جِرْجِس.",
+    "translation": "Saint Georges."
+   },
+   "options": [
+    "دِّ",
+    "دَّ",
+    "دْ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "دَّ",
+     "category": "spelling",
+     "feedback": "Avec une fatha, ce serait un a ; ici la voyelle est un i."
+    },
+    {
+     "equals": "دْ",
+     "category": "spelling",
+     "feedback": "Le soukoun n'ajoute rien : le د est doublé."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e16",
+   "unitIds": [
+    "ar.v.mayya",
+    "ar.g20.shadda"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « eau ».",
+   "prompt": "مَ___ة",
+   "promptLanguage": "ar",
+   "answer": "يَّ",
+   "acceptedAnswers": [
+    "يَّ"
+   ],
+   "explanation": "مَيَّة : مَ, puis ي doublé avec une fatha, puis ة. Tu dis deux y : eau se dit avec un y long.",
+   "tip": "Chadda + fatha sur ي.",
+   "extraExample": {
+    "text": "كُبَّايَة مَيَّة.",
+    "translation": "Un verre d'eau."
+   },
+   "options": [
+    "يْ",
+    "يَ",
+    "يَّ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "يْ",
+     "category": "spelling",
+     "feedback": "Un ي avec soukoun donnerait un é long (comme dans عَيْن), pas le double y."
+    },
+    {
+     "equals": "يَ",
+     "category": "spelling",
+     "feedback": "Il manque la chadda : le ي est dit deux fois."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e17",
+   "unitIds": [
+    "ar.v.sukkar",
+    "ar.g20.shadda"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « sucre ».",
+   "prompt": "سُ___ر",
+   "promptLanguage": "ar",
+   "answer": "كَّ",
+   "acceptedAnswers": [
+    "كَّ"
+   ],
+   "explanation": "سُكَّر : سُ, puis ك doublé avec une fatha, puis ر. Tu dis deux k.",
+   "tip": "Dis-le tout haut : tu sens le k doublé.",
+   "extraExample": {
+    "text": "سُكَّر زِيَادَة.",
+    "translation": "Beaucoup de sucre."
+   },
+   "options": [
+    "كَّ",
+    "كُ",
+    "كْ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "كْ",
+     "category": "spelling",
+     "feedback": "Un soukoun ne double pas la lettre."
+    },
+    {
+     "equals": "كُ",
+     "category": "spelling",
+     "feedback": "La voyelle est un a après le k doublé, pas un ou."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e18",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.g18.sukun"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque signe à ce qu'il fait.",
+   "prompt": "Les signes à retenir",
+   "promptLanguage": "fr",
+   "answer": "ـَ = a ; ـُ = ou ; ـْ = aucune voyelle ; ـّ = lettre doublée",
+   "acceptedAnswers": [],
+   "explanation": "Fatha : a. Damma : ou. Soukoun : aucune voyelle. Chadda : lettre doublée.",
+   "pairs": [
+    {
+     "left": "ـَ",
+     "right": "a"
+    },
+    {
+     "left": "ـُ",
+     "right": "ou"
+    },
+    {
+     "left": "ـْ",
+     "right": "aucune voyelle"
+    },
+    {
+     "left": "ـّ",
+     "right": "lettre doublée"
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e19",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.kubbaya",
+    "ar.v.rabb",
+    "ar.v.hubb",
+    "ar.v.kull"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots avec chadda",
+   "promptLanguage": "fr",
+   "answer": "كُبَّايَة = verre ; رَبّ = Seigneur ; حُبّ = amour ; كُلّ = tout",
+   "acceptedAnswers": [],
+   "explanation": "Dans chaque mot, une lettre est écrite une fois et dite deux fois.",
+   "pairs": [
+    {
+     "left": "كُبَّايَة",
+     "right": "verre"
+    },
+    {
+     "left": "رَبّ",
+     "right": "Seigneur"
+    },
+    {
+     "left": "حُبّ",
+     "right": "amour"
+    },
+    {
+     "left": "كُلّ",
+     "right": "tout"
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e20",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.qiddis",
+    "ar.v.sayyid",
+    "ar.v.muallim",
+    "ar.v.janna"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots d'église avec chadda",
+   "promptLanguage": "fr",
+   "answer": "قِدِّيس = saint ; سَيِّد = monsieur ; مُعَلِّم = maître ; جَنَّة = paradis",
+   "acceptedAnswers": [],
+   "explanation": "قِدِّيس : د doublé. سَيِّد : ي doublé. مُعَلِّم : ل doublé. جَنَّة : ن doublé.",
+   "pairs": [
+    {
+     "left": "قِدِّيس",
+     "right": "saint"
+    },
+    {
+     "left": "سَيِّد",
+     "right": "monsieur"
+    },
+    {
+     "left": "مُعَلِّم",
+     "right": "maître"
+    },
+    {
+     "left": "جَنَّة",
+     "right": "paradis"
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e21",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.dukkan"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "دُكَّان",
+   "promptLanguage": "ar",
+   "answer": "boutique",
+   "acceptedAnswers": [
+    "boutique",
+    "une boutique",
+    "la boutique",
+    "magasin",
+    "échoppe"
+   ],
+   "explanation": "د + ou, ك doublé, ا (a long), ن : une petite boutique de quartier.",
+   "tip": "Chadda sur ك.",
+   "extraExample": {
+    "text": "دُكَّان صُغَيَّر.",
+    "translation": "Une petite boutique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "verre",
+     "category": "word_confusion",
+     "feedback": "Le verre est كُبَّايَة : ici tu lis د + ك + ا + ن."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e22",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.sitt"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "سِتّ",
+   "promptLanguage": "ar",
+   "answer": "dame",
+   "acceptedAnswers": [
+    "dame",
+    "madame",
+    "la dame",
+    "une dame",
+    "six",
+    "le chiffre six"
+   ],
+   "explanation": "س + i, ت doublé en fin de mot. Une dame, et aussi le chiffre six : le contexte te dit lequel.",
+   "tip": "Chadda finale, kasra sous le س.",
+   "extraExample": {
+    "text": "سِتّ سَاعَات.",
+    "translation": "Six heures."
+   },
+   "errorPatterns": [
+    {
+     "equals": "saint",
+     "category": "word_confusion",
+     "feedback": "Le saint est قِدِّيس."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e23",
+   "unitIds": [
+    "ar.v.mayya",
+    "ar.g20.shadda"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire مَيَّة ?",
+   "promptLanguage": "fr",
+   "answer": "eau",
+   "acceptedAnswers": [
+    "eau",
+    "de l'eau",
+    "l'eau",
+    "une eau"
+   ],
+   "explanation": "مَيَّة : م + a, ي doublé, ة. C'est l'eau, que tu lisais مية.",
+   "tip": "Le ي doublé est le cœur du mot.",
+   "extraExample": {
+    "text": "كُبَّايَة مَيَّة.",
+    "translation": "Un verre d'eau."
+   },
+   "errorPatterns": [
+    {
+     "equals": "verre",
+     "category": "word_confusion",
+     "feedback": "Le verre est كُبَّايَة : ici tu lis م + ي + ي + ة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l20.e24",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.v.kull"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire كُلّ ?",
+   "promptLanguage": "fr",
+   "answer": "tout",
+   "acceptedAnswers": [
+    "tout",
+    "chaque",
+    "tous",
+    "toute",
+    "tous les",
+    "tout le"
+   ],
+   "explanation": "كُلّ : ك + ou, ل doublé en fin de mot. Tout, chaque : كُلّ يَوْم, chaque jour.",
+   "tip": "Chadda finale sur ل.",
+   "extraExample": {
+    "text": "كُلّ يَوْم.",
+    "translation": "Chaque jour."
+   },
+   "errorPatterns": [
+    {
+     "equals": "chien",
+     "category": "word_confusion",
+     "feedback": "Le chien est كَلْب, avec un soukoun. كُلّ a une chadda."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,935 @@
+{
+ "lessonId": "ar.l31",
+ "exercises": [
+  {
+   "id": "ar.l31.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.rayeh",
+    "ar.v.naharda",
+    "ar.v.kanisa"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "أنا رايح الكنيسة النهارده",
+   "promptLanguage": "ar",
+   "options": [
+    "Je veux du thé maintenant.",
+    "Je vais à l'église aujourd'hui.",
+    "Où est l'église aujourd'hui ?",
+    "Maman va à l'université aujourd'hui."
+   ],
+   "answer": "Je vais à l'église aujourd'hui.",
+   "acceptedAnswers": [
+    "Je vais à l'église aujourd'hui."
+   ],
+   "explanation": "أنا رايح (je vais) | الكنيسة (à l'église) | النهارده (aujourd'hui) : trois groupes de sens à enchaîner.",
+   "tip": "Qui ? fait quoi ? où ? quand ?",
+   "extraExample": {
+    "text": "أنا رايح الجامعة النهارده.",
+    "translation": "Je vais à l'université aujourd'hui."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Je veux du thé maintenant.",
+     "category": "word_confusion",
+     "feedback": "« Je veux du thé maintenant. » ne correspond pas : relis أنا رايح الكنيسة النهارده bloc par bloc. Ici, le sens est « Je vais à l'église aujourd'hui. »."
+    },
+    {
+     "equals": "Où est l'église aujourd'hui ?",
+     "category": "word_confusion",
+     "feedback": "« Où est l'église aujourd'hui ? » ne correspond pas : relis أنا رايح الكنيسة النهارده bloc par bloc. Ici, le sens est « Je vais à l'église aujourd'hui. »."
+    },
+    {
+     "equals": "Maman va à l'université aujourd'hui.",
+     "category": "word_confusion",
+     "feedback": "« Maman va à l'université aujourd'hui. » ne correspond pas : relis أنا رايح الكنيسة النهارده bloc par bloc. Ici, le sens est « Je vais à l'église aujourd'hui. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.delwaqti",
+    "ar.v.ayiz",
+    "ar.v.shay"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "بابا عايز شاي دلوقتي",
+   "promptLanguage": "ar",
+   "options": [
+    "Papa a faim maintenant.",
+    "Papa va à l'église aujourd'hui.",
+    "Maman veut du thé maintenant.",
+    "Papa veut du thé maintenant."
+   ],
+   "answer": "Papa veut du thé maintenant.",
+   "acceptedAnswers": [
+    "Papa veut du thé maintenant."
+   ],
+   "explanation": "بابا (qui) | عايز شاي (veut du thé) | دلوقتي (maintenant) : le « quand » est à la fin.",
+   "tip": "Le dernier groupe donne le « quand ».",
+   "extraExample": {
+    "text": "بابا عايز عيش دلوقتي.",
+    "translation": "Papa veut du pain maintenant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Papa a faim maintenant.",
+     "category": "word_confusion",
+     "feedback": "« Papa a faim maintenant. » ne correspond pas : relis بابا عايز شاي دلوقتي bloc par bloc. Ici, le sens est « Papa veut du thé maintenant. »."
+    },
+    {
+     "equals": "Papa va à l'église aujourd'hui.",
+     "category": "word_confusion",
+     "feedback": "« Papa va à l'église aujourd'hui. » ne correspond pas : relis بابا عايز شاي دلوقتي bloc par bloc. Ici, le sens est « Papa veut du thé maintenant. »."
+    },
+    {
+     "equals": "Maman veut du thé maintenant.",
+     "category": "word_confusion",
+     "feedback": "« Maman veut du thé maintenant. » ne correspond pas : relis بابا عايز شاي دلوقتي bloc par bloc. Ici, le sens est « Papa veut du thé maintenant. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.rayeh",
+    "ar.v.gamia",
+    "ar.v.naharda"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "ماما رايحة الجامعة النهارده",
+   "promptLanguage": "ar",
+   "options": [
+    "Maman va à l'école aujourd'hui.",
+    "Maman va à l'université aujourd'hui.",
+    "Papa va à l'université aujourd'hui.",
+    "Maman veut de l'eau maintenant."
+   ],
+   "answer": "Maman va à l'université aujourd'hui.",
+   "acceptedAnswers": [
+    "Maman va à l'université aujourd'hui."
+   ],
+   "explanation": "ماما رايحة (maman va, avec ـة : une femme) | الجامعة (à l'université) | النهارده (aujourd'hui).",
+   "tip": "Le ـة de رايحة annonce une femme.",
+   "extraExample": {
+    "text": "ماما رايحة الكنيسة.",
+    "translation": "Maman va à l'église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Maman va à l'école aujourd'hui.",
+     "category": "word_confusion",
+     "feedback": "« Maman va à l'école aujourd'hui. » ne correspond pas : relis ماما رايحة الجامعة النهارده bloc par bloc. Ici, le sens est « Maman va à l'université aujourd'hui. »."
+    },
+    {
+     "equals": "Papa va à l'université aujourd'hui.",
+     "category": "word_confusion",
+     "feedback": "« Papa va à l'université aujourd'hui. » ne correspond pas : relis ماما رايحة الجامعة النهارده bloc par bloc. Ici, le sens est « Maman va à l'université aujourd'hui. »."
+    },
+    {
+     "equals": "Maman veut de l'eau maintenant.",
+     "category": "word_confusion",
+     "feedback": "« Maman veut de l'eau maintenant. » ne correspond pas : relis ماما رايحة الجامعة النهارده bloc par bloc. Ici, le sens est « Maman va à l'université aujourd'hui. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.awi",
+    "ar.v.jaan"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "أنا جعان أوي",
+   "promptLanguage": "ar",
+   "options": [
+    "J'ai un peu faim.",
+    "Je veux du thé.",
+    "Je vais bien, Dieu merci.",
+    "J'ai très faim."
+   ],
+   "answer": "J'ai très faim.",
+   "acceptedAnswers": [
+    "J'ai très faim."
+   ],
+   "explanation": "أنا جعان (j'ai faim) + أوي (très) : أوي renforce le mot qui le précède.",
+   "tip": "أوي se met après le mot qu'il renforce.",
+   "extraExample": {
+    "text": "الأكل حلو أوي.",
+    "translation": "La nourriture est très bonne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "J'ai un peu faim.",
+     "category": "word_confusion",
+     "feedback": "« J'ai un peu faim. » ne correspond pas : relis أنا جعان أوي bloc par bloc. Ici, le sens est « J'ai très faim. »."
+    },
+    {
+     "equals": "Je veux du thé.",
+     "category": "word_confusion",
+     "feedback": "« Je veux du thé. » ne correspond pas : relis أنا جعان أوي bloc par bloc. Ici, le sens est « J'ai très faim. »."
+    },
+    {
+     "equals": "Je vais bien, Dieu merci.",
+     "category": "word_confusion",
+     "feedback": "« Je vais bien, Dieu merci. » ne correspond pas : relis أنا جعان أوي bloc par bloc. Ici, le sens est « J'ai très faim. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.kaman",
+    "ar.v.ayiz",
+    "ar.v.eish"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "عايز عيش كمان",
+   "promptLanguage": "ar",
+   "options": [
+    "Je veux du pain maintenant.",
+    "Je veux encore du pain.",
+    "Je ne veux pas de pain.",
+    "Papa veut du pain."
+   ],
+   "answer": "Je veux encore du pain.",
+   "acceptedAnswers": [
+    "Je veux encore du pain."
+   ],
+   "explanation": "عايز عيش (je veux du pain) + كمان (encore). كمان se place après ce qu'il complète.",
+   "tip": "كمان : encore, aussi.",
+   "extraExample": {
+    "text": "عايز شاي كمان.",
+    "translation": "Je veux encore du thé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Je veux du pain maintenant.",
+     "category": "word_confusion",
+     "feedback": "« Je veux du pain maintenant. » ne correspond pas : relis عايز عيش كمان bloc par bloc. Ici, le sens est « Je veux encore du pain. »."
+    },
+    {
+     "equals": "Je ne veux pas de pain.",
+     "category": "word_confusion",
+     "feedback": "« Je ne veux pas de pain. » ne correspond pas : relis عايز عيش كمان bloc par bloc. Ici, le sens est « Je veux encore du pain. »."
+    },
+    {
+     "equals": "Papa veut du pain.",
+     "category": "word_confusion",
+     "feedback": "« Papa veut du pain. » ne correspond pas : relis عايز عيش كمان bloc par bloc. Ici, le sens est « Je veux encore du pain. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.tamam",
+    "ar.v.shokran",
+    "ar.v.awi"
+   ],
+   "difficulty": 3,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "تمام شكرا أوي",
+   "promptLanguage": "ar",
+   "options": [
+    "Allez, merci beaucoup.",
+    "D'accord, merci.",
+    "Parfait, c'est fini.",
+    "Parfait, merci beaucoup."
+   ],
+   "answer": "Parfait, merci beaucoup.",
+   "acceptedAnswers": [
+    "Parfait, merci beaucoup."
+   ],
+   "explanation": "تمام (parfait) + شكرا (merci) + أوي (très) : « Parfait, merci beaucoup. »",
+   "tip": "Trois mots courts qui se lisent d'un coup.",
+   "extraExample": {
+    "text": "تمام، كله كويس.",
+    "translation": "Parfait, tout est bien."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Allez, merci beaucoup.",
+     "category": "word_confusion",
+     "feedback": "« Allez, merci beaucoup. » ne correspond pas : relis تمام شكرا أوي bloc par bloc. Ici, le sens est « Parfait, merci beaucoup. »."
+    },
+    {
+     "equals": "D'accord, merci.",
+     "category": "word_confusion",
+     "feedback": "« D'accord, merci. » ne correspond pas : relis تمام شكرا أوي bloc par bloc. Ici, le sens est « Parfait, merci beaucoup. »."
+    },
+    {
+     "equals": "Parfait, c'est fini.",
+     "category": "word_confusion",
+     "feedback": "« Parfait, c'est fini. » ne correspond pas : relis تمام شكرا أوي bloc par bloc. Ici, le sens est « Parfait, merci beaucoup. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.rayeh"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui parle dans « أنا رايحة الكنيسة » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "un homme",
+    "une femme",
+    "plusieurs personnes"
+   ],
+   "answer": "une femme",
+   "acceptedAnswers": [
+    "une femme"
+   ],
+   "explanation": "Le ـة de رايحة montre qu'une femme parle ; un homme dirait رايح.",
+   "tip": "Regarde la fin du mot : ـة = une femme.",
+   "extraExample": {
+    "text": "ماما رايحة الجامعة.",
+    "translation": "Maman va à l'université."
+   },
+   "errorPatterns": [
+    {
+     "equals": "un homme",
+     "category": "grammar",
+     "feedback": "Un homme dirait رايح, sans ـة."
+    },
+    {
+     "equals": "plusieurs personnes",
+     "category": "grammar",
+     "feedback": "Plusieurs personnes diraient رايحين, avec ـين."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.delwaqti"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans « بابا عايز شاي دلوقتي », quel mot dit « quand » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "بابا",
+    "عايز",
+    "شاي",
+    "دلوقتي"
+   ],
+   "answer": "دلوقتي",
+   "acceptedAnswers": [
+    "دلوقتي"
+   ],
+   "explanation": "Le « quand » est le dernier groupe : دلوقتي (maintenant). بابا est le qui, عايز شاي le « veut du thé ».",
+   "tip": "Cherche le « quand » à la fin de la phrase.",
+   "extraExample": {
+    "text": "أنا رايح النهارده.",
+    "translation": "Je vais aujourd'hui."
+   },
+   "errorPatterns": [
+    {
+     "equals": "بابا",
+     "category": "grammar",
+     "feedback": "« بابا » ne dit pas quand : le « quand » est le dernier mot, دلوقتي."
+    },
+    {
+     "equals": "عايز",
+     "category": "grammar",
+     "feedback": "« عايز » ne dit pas quand : le « quand » est le dernier mot, دلوقتي."
+    },
+    {
+     "equals": "شاي",
+     "category": "grammar",
+     "feedback": "« شاي » ne dit pas quand : le « quand » est le dernier mot, دلوقتي."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.yalla"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « allez ! » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "خلاص",
+    "يلا",
+    "ماشي",
+    "كده"
+   ],
+   "answer": "يلا",
+   "acceptedAnswers": [
+    "يلا"
+   ],
+   "explanation": "يلا sert à encourager ou à partir : « allez ! ». خلاص veut dire « c'est fini », ماشي « d'accord » et كده « comme ça ».",
+   "tip": "يلا lance l'action : on y va.",
+   "extraExample": {
+    "text": "يلا يا مينا",
+    "translation": "Allez, Mina !"
+   },
+   "errorPatterns": [
+    {
+     "equals": "خلاص",
+     "category": "word_confusion",
+     "feedback": "« خلاص » a un autre sens que « allez ! » : relis la leçon."
+    },
+    {
+     "equals": "ماشي",
+     "category": "word_confusion",
+     "feedback": "« ماشي » a un autre sens que « allez ! » : relis la leçon."
+    },
+    {
+     "equals": "كده",
+     "category": "word_confusion",
+     "feedback": "« كده » a un autre sens que « allez ! » : relis la leçon."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.ala",
+    "ar.g31.sentence_flow"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel petit mot veut dire « sur » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "في",
+    "مش",
+    "فين",
+    "على"
+   ],
+   "answer": "على",
+   "acceptedAnswers": [
+    "على"
+   ],
+   "explanation": "على veut dire « sur ». في veut dire « dans », مش « ne… pas » et فين « où ».",
+   "tip": "على : posé dessus.",
+   "extraExample": {
+    "text": "الكتاب على الترابيزة.",
+    "translation": "Le livre est sur la table."
+   },
+   "errorPatterns": [
+    {
+     "equals": "في",
+     "category": "word_confusion",
+     "feedback": "« في » a un autre sens que « sur » : relis les petits mots de la leçon 30."
+    },
+    {
+     "equals": "مش",
+     "category": "word_confusion",
+     "feedback": "« مش » a un autre sens que « sur » : relis les petits mots de la leçon 30."
+    },
+    {
+     "equals": "فين",
+     "category": "word_confusion",
+     "feedback": "« فين » a un autre sens que « sur » : relis les petits mots de la leçon 30."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e11",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.leh",
+    "ar.g31.sentence_flow"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot de question veut dire « pourquoi » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "مين",
+    "ليه",
+    "إمتى",
+    "فين"
+   ],
+   "answer": "ليه",
+   "acceptedAnswers": [
+    "ليه"
+   ],
+   "explanation": "ليه veut dire « pourquoi ». مين veut dire « qui », إمتى « quand » et فين « où ».",
+   "tip": "ليه ouvre une question qui cherche la raison.",
+   "extraExample": {
+    "text": "ليه مش عايز؟",
+    "translation": "Pourquoi tu ne veux pas ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "مين",
+     "category": "word_confusion",
+     "feedback": "« مين » pose une autre question que « pourquoi »."
+    },
+    {
+     "equals": "إمتى",
+     "category": "word_confusion",
+     "feedback": "« إمتى » pose une autre question que « pourquoi »."
+    },
+    {
+     "equals": "فين",
+     "category": "word_confusion",
+     "feedback": "« فين » pose une autre question que « pourquoi »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e12",
+   "type": "match",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.naharda",
+    "ar.v.delwaqti",
+    "ar.v.kaman",
+    "ar.v.awi"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot de la rue à son sens (1).",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "النهارده",
+     "right": "aujourd'hui"
+    },
+    {
+     "left": "دلوقتي",
+     "right": "maintenant"
+    },
+    {
+     "left": "كمان",
+     "right": "encore"
+    },
+    {
+     "left": "أوي",
+     "right": "très"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "النهارده = aujourd'hui ; دلوقتي = maintenant ; كمان = encore ; أوي = très",
+   "explanation": "Quatre mots de tous les jours : النهارده (aujourd'hui), دلوقتي (maintenant), كمان (encore) et أوي (très)."
+  },
+  {
+   "id": "ar.l31.e13",
+   "type": "match",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.khalas",
+    "ar.v.yalla",
+    "ar.v.mashi",
+    "ar.v.keda"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot de la rue à son sens (2).",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "خلاص",
+     "right": "ça y est"
+    },
+    {
+     "left": "يلا",
+     "right": "allez"
+    },
+    {
+     "left": "ماشي",
+     "right": "d'accord"
+    },
+    {
+     "left": "كده",
+     "right": "comme ça"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "خلاص = ça y est ; يلا = allez ; ماشي = d'accord ; كده = comme ça",
+   "explanation": "Des mots de conversation : خلاص (c'est fini), يلا (allez), ماشي (d'accord) et كده (comme ça)."
+  },
+  {
+   "id": "ar.l31.e14",
+   "type": "match",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.rayeh"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque forme à celui qui parle.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "رايح",
+     "right": "un homme"
+    },
+    {
+     "left": "رايحة",
+     "right": "une femme"
+    },
+    {
+     "left": "رايحين",
+     "right": "plusieurs personnes"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "رايح = un homme ; رايحة = une femme ; رايحين = plusieurs personnes",
+   "explanation": "رايح (sans ـة) pour un homme, رايحة (avec ـة) pour une femme, رايحين (avec ـين) pour plusieurs personnes."
+  },
+  {
+   "id": "ar.l31.e15",
+   "type": "match",
+   "unitIds": [
+    "ar.v.ya_rab_irham",
+    "ar.v.salam_likol",
+    "ar.v.magd_lak",
+    "ar.v.masih_qam",
+    "ar.g31.sentence_flow"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Retour à l'église : relie chaque réponse à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "يا رب ارحم",
+     "right": "Seigneur, aie pitié"
+    },
+    {
+     "left": "السلام لكل",
+     "right": "La paix à tous"
+    },
+    {
+     "left": "المجد لك يا رب",
+     "right": "Gloire à toi, Seigneur"
+    },
+    {
+     "left": "المسيح قام",
+     "right": "Le Christ est ressuscité"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "يا رب ارحم = Seigneur, aie pitié ; السلام لكل = La paix à tous ; المجد لك يا رب = Gloire à toi, Seigneur ; المسيح قام = Le Christ est ressuscité",
+   "explanation": "Quatre réponses de la liturgie : tu les connais par cœur, ton œil doit les reconnaître d'un trait."
+  },
+  {
+   "id": "ar.l31.e16",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.rayeh"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "أنا ___ الكنيسة النهارده (Je vais à l'église aujourd'hui.)",
+   "promptLanguage": "ar",
+   "options": [
+    "جعان",
+    "عايز",
+    "كويس",
+    "رايح"
+   ],
+   "answer": "رايح",
+   "acceptedAnswers": [
+    "رايح"
+   ],
+   "explanation": "Pour dire où l'on va, on emploie رايح. جعان (affamé) et كويس (bien) ne vont pas avec un lieu.",
+   "tip": "رايح + un lieu : je vais quelque part.",
+   "extraExample": {
+    "text": "أنا رايح الجامعة.",
+    "translation": "Je vais à l'université."
+   },
+   "errorPatterns": [
+    {
+     "equals": "جعان",
+     "category": "vocabulary",
+     "feedback": "أنا جعان الكنيسة n'a pas de sens : جعان veut dire « affamé »."
+    },
+    {
+     "equals": "كويس",
+     "category": "vocabulary",
+     "feedback": "أنا كويس الكنيسة n'a pas de sens : كويس veut dire « bien »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e17",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.delwaqti"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "بابا عايز شاي ___ (Papa veut du thé maintenant.)",
+   "promptLanguage": "ar",
+   "options": [
+    "أوي",
+    "دلوقتي",
+    "كمان",
+    "كده"
+   ],
+   "answer": "دلوقتي",
+   "acceptedAnswers": [
+    "دلوقتي"
+   ],
+   "explanation": "Le mot qui veut dire « maintenant » est دلوقتي ; il se met à la fin de la phrase.",
+   "tip": "دلوقتي : maintenant, tout de suite.",
+   "extraExample": {
+    "text": "خلاص دلوقتي.",
+    "translation": "C'est fini maintenant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "أوي",
+     "category": "vocabulary",
+     "feedback": "« أوي » ne veut pas dire « maintenant » : c'est دلوقتي."
+    },
+    {
+     "equals": "كمان",
+     "category": "vocabulary",
+     "feedback": "« كمان » ne veut pas dire « maintenant » : c'est دلوقتي."
+    },
+    {
+     "equals": "كده",
+     "category": "vocabulary",
+     "feedback": "« كده » ne veut pas dire « maintenant » : c'est دلوقتي."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e18",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.rayeh"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "ماما ___ الجامعة النهارده (Maman va à l'université aujourd'hui.)",
+   "promptLanguage": "ar",
+   "options": [
+    "رايح",
+    "رايحين",
+    "عايزة",
+    "رايحة"
+   ],
+   "answer": "رايحة",
+   "acceptedAnswers": [
+    "رايحة"
+   ],
+   "explanation": "Maman est une femme : le mot prend ـة, رايحة. رايح est pour un homme, رايحين pour plusieurs personnes.",
+   "tip": "ـة à la fin : une femme.",
+   "extraExample": {
+    "text": "تيتة رايحة الكنيسة.",
+    "translation": "Mamie va à l'église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "رايح",
+     "category": "grammar",
+     "feedback": "رايح est pour un homme ; ماما est une femme."
+    },
+    {
+     "equals": "رايحين",
+     "category": "grammar",
+     "feedback": "رايحين est pour plusieurs personnes."
+    },
+    {
+     "equals": "عايزة",
+     "category": "grammar",
+     "feedback": "عايزة veut dire « elle veut » : ici il faut dire qu'elle va."
+    }
+   ]
+  },
+  {
+   "id": "ar.l31.e19",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.rayeh",
+    "ar.v.naharda"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Je vais à l'église aujourd'hui. »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "النهارده",
+    "أنا",
+    "الكنيسة",
+    "رايح"
+   ],
+   "answer": "أنا رايح الكنيسة النهارده",
+   "acceptedAnswers": [
+    "أنا رايح الكنيسة النهارده",
+    "النهارده أنا رايح الكنيسة"
+   ],
+   "explanation": "Qui (أنا), fait quoi (رايح), où (الكنيسة), quand (النهارده). On peut aussi mettre le « quand » en premier.",
+   "tip": "Qui, fait quoi, où, quand.",
+   "extraExample": {
+    "text": "أنا رايح الجامعة النهارده",
+    "translation": "Je vais à l'université aujourd'hui"
+   }
+  },
+  {
+   "id": "ar.l31.e20",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.delwaqti"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Papa veut du thé maintenant. »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "دلوقتي",
+    "شاي",
+    "بابا",
+    "عايز"
+   ],
+   "answer": "بابا عايز شاي دلوقتي",
+   "acceptedAnswers": [
+    "بابا عايز شاي دلوقتي",
+    "دلوقتي بابا عايز شاي"
+   ],
+   "explanation": "Qui (بابا), fait quoi (عايز شاي), quand (دلوقتي). Le « quand » peut aussi ouvrir la phrase.",
+   "tip": "Le « quand » va à la fin ou au début.",
+   "extraExample": {
+    "text": "ماما عايزة شاي دلوقتي",
+    "translation": "Maman veut du thé maintenant"
+   }
+  },
+  {
+   "id": "ar.l31.e21",
+   "type": "translation",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.yalla",
+    "ar.v.ya_nida"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "يلا يا مينا",
+   "promptLanguage": "ar",
+   "answer": "Allez, Mina !",
+   "acceptedAnswers": [
+    "Allez, Mina !",
+    "allez mina",
+    "allons-y mina",
+    "on y va mina",
+    "allez, mina"
+   ],
+   "explanation": "يلا (allez) + يا مينا (on appelle Mina) : on l'encourage à se lancer ou à venir.",
+   "tip": "يا + prénom : on appelle quelqu'un.",
+   "extraExample": {
+    "text": "يلا يا بابا",
+    "translation": "Allez, papa !"
+   }
+  },
+  {
+   "id": "ar.l31.e22",
+   "type": "translation",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.keda",
+    "ar.v.kwayyis"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "كده كويس",
+   "promptLanguage": "ar",
+   "answer": "Comme ça, c'est bien ?",
+   "acceptedAnswers": [
+    "Comme ça, c'est bien ?",
+    "comme ça, c'est bien",
+    "comme ça c'est bien",
+    "c'est bien comme ça",
+    "c'est bien comme ça ?",
+    "comme ça c'est bon"
+   ],
+   "explanation": "كده (comme ça) + كويس (bien) : on demande si c'est bon ainsi.",
+   "tip": "Deux petits mots qui reviennent partout.",
+   "extraExample": {
+    "text": "كده تمام؟",
+    "translation": "Comme ça, c'est parfait ?"
+   }
+  },
+  {
+   "id": "ar.l31.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.v.min",
+    "ar.g31.sentence_flow"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire مين ?",
+   "promptLanguage": "fr",
+   "answer": "qui",
+   "acceptedAnswers": [
+    "qui",
+    "qui ?"
+   ],
+   "explanation": "مين veut dire « qui ». C'est un des cinq mots de question de la leçon 30.",
+   "tip": "Ne le confonds pas avec مش (ne… pas).",
+   "extraExample": {
+    "text": "مين ده؟",
+    "translation": "C'est qui ?"
+   }
+  },
+  {
+   "id": "ar.l31.e24",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g31.sentence_flow",
+    "ar.v.mashi"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire ماشي ?",
+   "promptLanguage": "fr",
+   "answer": "d'accord",
+   "acceptedAnswers": [
+    "d'accord",
+    "ok",
+    "okay",
+    "ça marche",
+    "dac"
+   ],
+   "explanation": "ماشي veut dire « d'accord » : on le dit pour accepter une proposition.",
+   "tip": "Tu le dis toi-même vingt fois par jour.",
+   "extraExample": {
+    "text": "ماشي، هاجي.",
+    "translation": "D'accord, je viens."
+   }
+  }
+ ]
+}

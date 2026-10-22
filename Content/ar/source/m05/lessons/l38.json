@@ -1,0 +1,708 @@
+{
+ "lessonId": "ar.l38",
+ "exercises": [
+  {
+   "id": "ar.l38.e01",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.wahed"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « un » (le chiffre ١) ?",
+   "promptLanguage": "fr",
+   "answer": "واحد",
+   "acceptedAnswers": [
+    "واحد"
+   ],
+   "explanation": "واحد est le nombre 1, écrit ١ (un bâton) (carte « De 1 à 5 »).",
+   "tip": "١ = un bâton = un.",
+   "extraExample": {
+    "text": "واحد شاي",
+    "translation": "Un thé"
+   },
+   "options": [
+    "أربعة",
+    "واحد",
+    "اتنين",
+    "تلاتة"
+   ]
+  },
+  {
+   "id": "ar.l38.e02",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.talata_eg"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis le chiffre.",
+   "prompt": "Quel nombre est écrit ٣ ?",
+   "promptLanguage": "fr",
+   "answer": "3",
+   "acceptedAnswers": [
+    "3"
+   ],
+   "explanation": "٣ = 3 = تلاتة : trois petites bosses (carte « De 1 à 5 »).",
+   "tip": "٣ : pense à trois bosses.",
+   "extraExample": {
+    "text": "تلاتة جنيه",
+    "translation": "Trois livres"
+   },
+   "options": [
+    "2",
+    "3",
+    "5",
+    "4"
+   ]
+  },
+  {
+   "id": "ar.l38.e03",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.sabaa"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le chiffre.",
+   "prompt": "Quel nombre est écrit ٧ ?",
+   "promptLanguage": "fr",
+   "answer": "7",
+   "acceptedAnswers": [
+    "7"
+   ],
+   "explanation": "٧ ressemble à un V : c'est 7 (carte « De 6 à 10 »). Le ٨ est un V à l'envers.",
+   "tip": "٧ = V.",
+   "extraExample": {
+    "text": "سبعة جنيه",
+    "translation": "Sept livres"
+   },
+   "options": [
+    "8",
+    "6",
+    "7",
+    "5"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "8",
+     "category": "word_confusion",
+     "feedback": "٨ est un V à l'envers ; ٧ est un V normal."
+    }
+   ]
+  },
+  {
+   "id": "ar.l38.e04",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.khamsa"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Écris le chiffre.",
+   "prompt": "Comment écrit-on 5 en chiffres arabes ?",
+   "promptLanguage": "fr",
+   "answer": "٥",
+   "acceptedAnswers": [
+    "٥"
+   ],
+   "explanation": "5 s'écrit ٥ : un rond (carte « De 1 à 5 »). Le zéro, lui, est un point ٠.",
+   "tip": "٥ est un rond.",
+   "extraExample": {
+    "text": "خمسة جنيه",
+    "translation": "Cinq livres"
+   },
+   "options": [
+    "٦",
+    "٣",
+    "٠",
+    "٥"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "٠",
+     "category": "word_confusion",
+     "feedback": "٠ est le zéro, un simple point."
+    }
+   ]
+  },
+  {
+   "id": "ar.l38.e05",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.wahed"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Comprends le zéro.",
+   "prompt": "Quel chiffre arabe s'écrit comme un simple point ?",
+   "promptLanguage": "fr",
+   "answer": "٠",
+   "acceptedAnswers": [
+    "٠"
+   ],
+   "explanation": "Le zéro, صفر, est un point ٠ ; le ٥ est un rond (carte « De 1 à 5 »).",
+   "tip": "٠ = point = zéro.",
+   "extraExample": {
+    "text": "١٠ = عشرة",
+    "translation": "10 = dix"
+   },
+   "options": [
+    "١",
+    "٩",
+    "٥",
+    "٠"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "٥",
+     "category": "word_confusion",
+     "feedback": "٥ est un rond, c'est cinq."
+    }
+   ]
+  },
+  {
+   "id": "ar.l38.e06",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.khamsa"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis le mot.",
+   "prompt": "Lis le mot خمسة. Quel nombre est-ce ?",
+   "promptLanguage": "fr",
+   "answer": "5",
+   "acceptedAnswers": [
+    "5"
+   ],
+   "explanation": "خمسة est le nombre 5, écrit ٥.",
+   "tip": "خمسة : خ comme le ch allemand.",
+   "extraExample": {
+    "text": "الساعة خمسة",
+    "translation": "Il est cinq heures"
+   },
+   "options": [
+    "9",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "id": "ar.l38.e07",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.ashara"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « dix » ?",
+   "promptLanguage": "fr",
+   "answer": "عشرة",
+   "acceptedAnswers": [
+    "عشرة"
+   ],
+   "explanation": "عشرة est 10, écrit ١٠. Avec la fin ـين, عشرين est 20.",
+   "tip": "عشرة (10) → عشرين (20).",
+   "extraExample": {
+    "text": "عشرة جنيه",
+    "translation": "Dix livres"
+   },
+   "options": [
+    "عشرة",
+    "مية",
+    "تسعة",
+    "عشرين"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "عشرين",
+     "category": "word_confusion",
+     "feedback": "عشرين est vingt."
+    }
+   ]
+  },
+  {
+   "id": "ar.l38.e08",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.miyya"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le prix.",
+   "prompt": "Lis : « مية جنيه ». Combien ça fait ?",
+   "promptLanguage": "fr",
+   "answer": "cent livres",
+   "acceptedAnswers": [
+    "cent livres"
+   ],
+   "explanation": "مية veut dire cent : مية جنيه = cent livres (carte « Cent »).",
+   "tip": "مية devant جنيه = cent.",
+   "extraExample": {
+    "text": "مية في المية",
+    "translation": "Cent pour cent"
+   },
+   "options": [
+    "dix livres",
+    "vingt livres",
+    "un verre d'eau",
+    "cent livres"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "un verre d'eau",
+     "category": "word_confusion",
+     "feedback": "Ici مية est suivi de جنيه : c'est cent."
+    }
+   ]
+  },
+  {
+   "id": "ar.l38.e09",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.miyya"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Comprends le double sens.",
+   "prompt": "Le mot مية s'écrit pareil pour deux sens. Lesquels ?",
+   "promptLanguage": "fr",
+   "answer": "l'eau et cent",
+   "acceptedAnswers": [
+    "l'eau et cent"
+   ],
+   "explanation": "مية = l'eau (leçon sur م ه و) et مية = cent : le contexte décide (carte « Cent »).",
+   "tip": "Cherche جنيه ou كوباية autour.",
+   "extraExample": {
+    "text": "كوباية مية",
+    "translation": "Un verre d'eau"
+   },
+   "options": [
+    "l'eau et dix",
+    "l'eau et cent",
+    "le thé et cent",
+    "l'eau et mille"
+   ]
+  },
+  {
+   "id": "ar.l38.e10",
+   "unitIds": [
+    "ar.v.bikam"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel de la leçon précédente.",
+   "prompt": "Dans « بكام ده؟ — بعشرين جنيه », que demande-t-on ?",
+   "promptLanguage": "fr",
+   "answer": "le prix",
+   "acceptedAnswers": [
+    "le prix"
+   ],
+   "explanation": "بكام demande le prix (leçon précédente) ; on répond par un nombre + جنيه.",
+   "tip": "بكام = combien ça coûte ?",
+   "extraExample": {
+    "text": "بكام الكيلو؟",
+    "translation": "Combien le kilo ?"
+   },
+   "options": [
+    "le lieu",
+    "le nom",
+    "le prix",
+    "l'heure"
+   ]
+  },
+  {
+   "id": "ar.l38.e11",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.wahed",
+    "ar.v.itnen",
+    "ar.v.talata_eg",
+    "ar.v.arba",
+    "ar.v.khamsa"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à son chiffre.",
+   "prompt": "Associe chaque nombre écrit en mots à son chiffre.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Chaque nombre a son mot : ١ واحد, ٢ اتنين, ٣ تلاتة, ٤ أربعة, ٥ خمسة.",
+   "pairs": [
+    {
+     "left": "واحد",
+     "right": "١"
+    },
+    {
+     "left": "اتنين",
+     "right": "٢"
+    },
+    {
+     "left": "تلاتة",
+     "right": "٣"
+    },
+    {
+     "left": "أربعة",
+     "right": "٤"
+    },
+    {
+     "left": "خمسة",
+     "right": "٥"
+    }
+   ]
+  },
+  {
+   "id": "ar.l38.e12",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.setta",
+    "ar.v.sabaa",
+    "ar.v.tamanya",
+    "ar.v.tesaa",
+    "ar.v.ashara"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son chiffre.",
+   "prompt": "Associe les nombres de 6 à 10 à leur chiffre.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "De ٦ à ١٠ : ستة, سبعة, تمانية, تسعة, عشرة.",
+   "pairs": [
+    {
+     "left": "ستة",
+     "right": "٦"
+    },
+    {
+     "left": "سبعة",
+     "right": "٧"
+    },
+    {
+     "left": "تمانية",
+     "right": "٨"
+    },
+    {
+     "left": "تسعة",
+     "right": "٩"
+    },
+    {
+     "left": "عشرة",
+     "right": "١٠"
+    }
+   ]
+  },
+  {
+   "id": "ar.l38.e13",
+   "unitIds": [
+    "ar.v.bikam",
+    "ar.v.ghali",
+    "ar.v.rakhis",
+    "ar.v.guneh",
+    "ar.v.felus"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Rappel : associe chaque mot à son sens.",
+   "prompt": "Revois les mots du prix de la leçon précédente.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ces mots t'ont servi à demander et juger un prix ; maintenant tu sais aussi le dire.",
+   "pairs": [
+    {
+     "left": "بكام",
+     "right": "combien ça coûte ?"
+    },
+    {
+     "left": "غالي",
+     "right": "cher"
+    },
+    {
+     "left": "رخيص",
+     "right": "bon marché, pas cher"
+    },
+    {
+     "left": "جنيه",
+     "right": "livre égyptienne"
+    },
+    {
+     "left": "فلوس",
+     "right": "argent"
+    }
+   ]
+  },
+  {
+   "id": "ar.l38.e14",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.setta"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le calcul avec le nom du nombre.",
+   "prompt": "٣ + ٣ = ___",
+   "promptLanguage": "ar",
+   "answer": "ستة",
+   "acceptedAnswers": [
+    "ستة"
+   ],
+   "explanation": "٣ + ٣ = ٦, et ٦ se dit ستة (carte « Entraîne-toi »).",
+   "tip": "ستة = 6.",
+   "extraExample": {
+    "text": "٢ + ٢ = أربعة",
+    "translation": "2 + 2 = quatre"
+   },
+   "options": [
+    "خمسة",
+    "سبعة",
+    "ستة",
+    "تسعة"
+   ]
+  },
+  {
+   "id": "ar.l38.e15",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.tamanya"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète le calcul avec le nom du nombre.",
+   "prompt": "٤ + ٤ = ___",
+   "promptLanguage": "ar",
+   "answer": "تمانية",
+   "acceptedAnswers": [
+    "تمانية"
+   ],
+   "explanation": "٤ + ٤ = ٨, et ٨ se dit تمانية.",
+   "tip": "٨ = un V à l'envers.",
+   "extraExample": {
+    "text": "٣ + ٣ = ستة",
+    "translation": "3 + 3 = six"
+   },
+   "options": [
+    "عشرة",
+    "تمانية",
+    "تسعة",
+    "سبعة"
+   ]
+  },
+  {
+   "id": "ar.l38.e16",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.miyya"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le prix.",
+   "prompt": "___ جنيه  (cent livres)",
+   "promptLanguage": "ar",
+   "answer": "مية",
+   "acceptedAnswers": [
+    "مية"
+   ],
+   "explanation": "مية devant جنيه veut dire cent (carte « Cent »).",
+   "tip": "مية = ١٠٠.",
+   "extraExample": {
+    "text": "عشرين جنيه",
+    "translation": "Vingt livres"
+   },
+   "options": [
+    "عشرين",
+    "مية",
+    "عشرة",
+    "خمسة"
+   ]
+  },
+  {
+   "id": "ar.l38.e17",
+   "unitIds": [
+    "ar.v.ghali"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Rappel : complète la phrase.",
+   "prompt": "ده ___ أوي  (c'est très cher)",
+   "promptLanguage": "ar",
+   "answer": "غالي",
+   "acceptedAnswers": [
+    "غالي"
+   ],
+   "explanation": "غالي veut dire « cher » ; أوي veut dire « très ».",
+   "tip": "ده غالي = c'est cher.",
+   "extraExample": {
+    "text": "ده رخيص",
+    "translation": "C'est bon marché"
+   },
+   "options": [
+    "غالي",
+    "كام",
+    "رخيص",
+    "بكام"
+   ]
+  },
+  {
+   "id": "ar.l38.e18",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.khamsa"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "بخمسة جنيه",
+   "promptLanguage": "ar",
+   "answer": "pour cinq livres",
+   "acceptedAnswers": [
+    "pour cinq livres",
+    "cinq livres",
+    "à cinq livres",
+    "pour 5 livres",
+    "5 livres"
+   ],
+   "explanation": "ب = pour, خمسة = cinq, جنيه = livre : le prix se dit avec ب devant le nombre.",
+   "tip": "ب + nombre + جنيه.",
+   "extraExample": {
+    "text": "بعشرة جنيه",
+    "translation": "Pour dix livres"
+   }
+  },
+  {
+   "id": "ar.l38.e19",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.talata_eg"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "تلاتة قهوة من فضلك",
+   "promptLanguage": "ar",
+   "answer": "trois cafés s'il te plaît",
+   "acceptedAnswers": [
+    "trois cafés s'il te plaît",
+    "trois cafés s'il vous plaît",
+    "trois cafés, s'il vous plaît",
+    "trois cafés, s'il te plaît",
+    "3 cafés s'il vous plaît"
+   ],
+   "explanation": "تلاتة = trois, قهوة = café, من فضلك = s'il te plaît : le nombre se place devant l'objet.",
+   "tip": "Nombre + objet.",
+   "extraExample": {
+    "text": "اتنين شاي",
+    "translation": "Deux thés"
+   }
+  },
+  {
+   "id": "ar.l38.e20",
+   "unitIds": [
+    "ar.v.el_hisab",
+    "ar.g38.nombres_et_prix"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Rappel : écris le sens en français.",
+   "prompt": "الحساب مية جنيه",
+   "promptLanguage": "ar",
+   "answer": "l'addition est de cent livres",
+   "acceptedAnswers": [
+    "l'addition est de cent livres",
+    "l'addition fait cent livres",
+    "l'addition, cent livres",
+    "l'addition c'est cent livres",
+    "l'addition cent livres",
+    "l'addition est à cent livres"
+   ],
+   "explanation": "الحساب = l'addition, مية جنيه = cent livres.",
+   "tip": "الحساب + prix.",
+   "extraExample": {
+    "text": "الحساب عشرين جنيه",
+    "translation": "L'addition est de vingt livres"
+   }
+  },
+  {
+   "id": "ar.l38.e21",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.ashrin"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Quel nombre est عشرين ?",
+   "promptLanguage": "fr",
+   "answer": "vingt",
+   "acceptedAnswers": [
+    "vingt",
+    "20",
+    "vingts"
+   ],
+   "explanation": "عشرين = 20 : la fin ـين fabrique les dizaines (عشرة → عشرين).",
+   "tip": "ـين = dizaines.",
+   "extraExample": {
+    "text": "عشرين جنيه",
+    "translation": "Vingt livres"
+   }
+  },
+  {
+   "id": "ar.l38.e22",
+   "unitIds": [
+    "ar.v.mayya",
+    "ar.g38.nombres_et_prix"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Réponds en français.",
+   "prompt": "Dans « كوباية مية », que veut dire مية ?",
+   "promptLanguage": "fr",
+   "answer": "eau",
+   "acceptedAnswers": [
+    "eau",
+    "de l'eau",
+    "l'eau",
+    "un verre d'eau"
+   ],
+   "explanation": "Après كوباية (verre), مية veut dire « l'eau » ; après un nombre, ce serait cent.",
+   "tip": "Le contexte décide.",
+   "extraExample": {
+    "text": "عايز مية",
+    "translation": "Je veux de l'eau"
+   }
+  },
+  {
+   "id": "ar.l38.e23",
+   "unitIds": [
+    "ar.g38.nombres_et_prix",
+    "ar.v.itnen"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Forme la phrase : « Deux thés, s'il te plaît ».",
+   "promptLanguage": "ar",
+   "answer": "اتنين شاي من فضلك",
+   "acceptedAnswers": [
+    "اتنين شاي من فضلك"
+   ],
+   "explanation": "Le nombre vient avant l'objet, et من فضلك termine la demande polie.",
+   "tip": "Nombre + objet + من فضلك.",
+   "extraExample": {
+    "text": "تلاتة شاي من فضلك",
+    "translation": "Trois thés, s'il te plaît"
+   },
+   "tokens": [
+    "من",
+    "فضلك",
+    "اتنين",
+    "شاي"
+   ]
+  }
+ ]
+}

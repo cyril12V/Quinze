@@ -1,0 +1,855 @@
+{
+ "lessonId": "ar.l26",
+ "exercises": [
+  {
+   "id": "ar.l26.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.g26.long_words"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qu'un bloc ?",
+   "promptLanguage": "fr",
+   "options": [
+    "une voyelle courte",
+    "une suite de lettres attachées",
+    "un mot entier",
+    "un point sous une lettre"
+   ],
+   "answer": "une suite de lettres attachées",
+   "acceptedAnswers": [
+    "une suite de lettres attachées"
+   ],
+   "explanation": "Un bloc est une suite de lettres attachées. Un mot long est fait de plusieurs blocs qu'on lit un par un.",
+   "tip": "Un bloc finit quand une lettre ne s'attache pas à la suivante.",
+   "extraExample": {
+    "text": "باب",
+    "translation": "با | ب : deux blocs"
+   },
+   "errorPatterns": [
+    {
+     "equals": "un mot entier",
+     "category": "word_confusion",
+     "feedback": "Un mot peut contenir plusieurs blocs : باب en a deux (با | ب)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.g26.long_words"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelles lettres ferment un bloc ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ب ت ث ن ي",
+    "س ش ص ض",
+    "ف ق ك ل",
+    "ا د ذ ر ز و"
+   ],
+   "answer": "ا د ذ ر ز و",
+   "acceptedAnswers": [
+    "ا د ذ ر ز و"
+   ],
+   "explanation": "Les lettres ا د ذ ر ز و ne s'attachent pas à la suivante : elles terminent le bloc. Toutes les autres s'accrochent.",
+   "tip": "Les six lettres qui lâchent la main.",
+   "extraExample": {
+    "text": "ورد",
+    "translation": "و | ر | د : trois blocs"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ب ت ث ن ي",
+     "category": "word_confusion",
+     "feedback": "« ب ت ث ن ي » : ces lettres s'attachent à la suivante, elles ne ferment pas de bloc."
+    },
+    {
+     "equals": "س ش ص ض",
+     "category": "word_confusion",
+     "feedback": "« س ش ص ض » : ces lettres s'attachent à la suivante, elles ne ferment pas de bloc."
+    },
+    {
+     "equals": "ف ق ك ل",
+     "category": "word_confusion",
+     "feedback": "« ف ق ك ل » : ces lettres s'attachent à la suivante, elles ne ferment pas de bloc."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.telifun"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En combien de blocs se coupe تليفون ?",
+   "promptLanguage": "fr",
+   "options": [
+    "un",
+    "deux",
+    "trois",
+    "quatre"
+   ],
+   "answer": "deux",
+   "acceptedAnswers": [
+    "deux"
+   ],
+   "explanation": "Le و ferme le premier bloc : تليفو | ن. Il reste le ن seul : deux blocs.",
+   "tip": "Compte les ا د ذ ر ز و : chacun ferme un bloc.",
+   "extraExample": {
+    "text": "جامعة",
+    "translation": "جا | معة : deux blocs"
+   },
+   "errorPatterns": [
+    {
+     "equals": "un",
+     "category": "spelling",
+     "feedback": "Le و ferme un bloc au milieu du mot : il y en a donc plus d'un."
+    },
+    {
+     "equals": "trois",
+     "category": "spelling",
+     "feedback": "Il n'y a qu'une coupure, après le و : تليفو | ن, deux blocs."
+    },
+    {
+     "equals": "quatre",
+     "category": "spelling",
+     "feedback": "Il n'y a qu'une coupure, après le و : تليفو | ن, deux blocs."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.gamia"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Où coupe-t-on جامعة ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ج | امعة",
+    "جامع | ة",
+    "جام | عة",
+    "جا | معة"
+   ],
+   "answer": "جا | معة",
+   "acceptedAnswers": [
+    "جا | معة"
+   ],
+   "explanation": "Le ا ferme le premier bloc, donc la coupure vient juste après lui : جا | معة. Le ة reste attaché au ع.",
+   "tip": "La coupure vient après la lettre ا, jamais avant.",
+   "extraExample": {
+    "text": "باب",
+    "translation": "با | ب"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ج | امعة",
+     "category": "spelling",
+     "feedback": "Couper en « ج | امعة » ne respecte pas la règle : on coupe juste après le ا."
+    },
+    {
+     "equals": "جامع | ة",
+     "category": "spelling",
+     "feedback": "Couper en « جامع | ة » ne respecte pas la règle : on coupe juste après le ا."
+    },
+    {
+     "equals": "جام | عة",
+     "category": "spelling",
+     "feedback": "Couper en « جام | عة » ne respecte pas la règle : on coupe juste après le ا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.mobail"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "موبايل",
+   "promptLanguage": "ar",
+   "options": [
+    "bus",
+    "portable",
+    "hôpital",
+    "école"
+   ],
+   "answer": "portable",
+   "acceptedAnswers": [
+    "portable"
+   ],
+   "explanation": "مو | با | يل : trois blocs, car le و et le ا ferment les deux premiers. Ensemble : موبايل, « portable ».",
+   "tip": "Dis-le comme dans la rue : tu le connais par cœur.",
+   "extraExample": {
+    "text": "عندي موبايل جديد.",
+    "translation": "J'ai un nouveau portable."
+   },
+   "errorPatterns": [
+    {
+     "equals": "bus",
+     "category": "word_confusion",
+     "feedback": "« bus » ne correspond pas : relis موبايل bloc par bloc. Ici, le sens est « portable »."
+    },
+    {
+     "equals": "hôpital",
+     "category": "word_confusion",
+     "feedback": "« hôpital » ne correspond pas : relis موبايل bloc par bloc. Ici, le sens est « portable »."
+    },
+    {
+     "equals": "école",
+     "category": "word_confusion",
+     "feedback": "« école » ne correspond pas : relis موبايل bloc par bloc. Ici, le sens est « portable »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.mustashfa"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « hôpital » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "مدرسة",
+    "جامعة",
+    "مطعم",
+    "مستشفى"
+   ],
+   "answer": "مستشفى",
+   "acceptedAnswers": [
+    "مستشفى"
+   ],
+   "explanation": "مستشفى est un seul long bloc, qu'on lit en paquets : مس | تش | فى. Le ى final est sa dernière lettre.",
+   "tip": "Cherche les dents س ش et le ى final.",
+   "extraExample": {
+    "text": "المستشفى قريب.",
+    "translation": "L'hôpital est près d'ici."
+   },
+   "errorPatterns": [
+    {
+     "equals": "مدرسة",
+     "category": "word_confusion",
+     "feedback": "« مدرسة » est un autre lieu : l'hôpital s'écrit مستشفى."
+    },
+    {
+     "equals": "جامعة",
+     "category": "word_confusion",
+     "feedback": "« جامعة » est un autre lieu : l'hôpital s'écrit مستشفى."
+    },
+    {
+     "equals": "مطعم",
+     "category": "word_confusion",
+     "feedback": "« مطعم » est un autre lieu : l'hôpital s'écrit مستشفى."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g26.long_words"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire ال au début d'un mot ?",
+   "promptLanguage": "fr",
+   "options": [
+    "et",
+    "le ou la",
+    "notre",
+    "dans"
+   ],
+   "answer": "le ou la",
+   "acceptedAnswers": [
+    "le ou la"
+   ],
+   "explanation": "ال se lit « le » ou « la » : on le lit d'un coup, puis on lit le reste du mot.",
+   "tip": "Cherche ال en premier : il s'écarte tout seul.",
+   "extraExample": {
+    "text": "الكنيسة",
+    "translation": "l'église"
+   },
+   "errorPatterns": [
+    {
+     "equals": "et",
+     "category": "word_confusion",
+     "feedback": "« et » s'écrit و, seul devant le mot suivant."
+    },
+    {
+     "equals": "notre",
+     "category": "word_confusion",
+     "feedback": "« notre » s'écrit ـنا, à la fin du mot."
+    },
+    {
+     "equals": "dans",
+     "category": "word_confusion",
+     "feedback": "« dans » est un autre petit mot, que tu verras à la leçon 30."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g26.long_words"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans « بابا وماما », que veut dire le و ?",
+   "promptLanguage": "fr",
+   "options": [
+    "notre",
+    "moi",
+    "dans",
+    "et"
+   ],
+   "answer": "et",
+   "acceptedAnswers": [
+    "et"
+   ],
+   "explanation": "Un و seul devant un mot veut dire « et » : بابا وماما = papa et maman.",
+   "tip": "Un و qui reste seul devant le mot suivant est le petit mot « et ».",
+   "extraExample": {
+    "text": "شاي وعيش",
+    "translation": "du thé et du pain"
+   },
+   "errorPatterns": [
+    {
+     "equals": "notre",
+     "category": "word_confusion",
+     "feedback": "« notre » s'écrit ـنا, à la fin d'un mot."
+    },
+    {
+     "equals": "moi",
+     "category": "word_confusion",
+     "feedback": "« moi » s'écrit أنا (leçon 27)."
+    },
+    {
+     "equals": "dans",
+     "category": "word_confusion",
+     "feedback": "« dans » est un autre petit mot (leçon 30)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.rabbina",
+    "ar.v.abouna",
+    "ar.g26.long_words"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle fin de mot veut dire « notre » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ـة",
+    "ـنا",
+    "ال",
+    "و"
+   ],
+   "answer": "ـنا",
+   "acceptedAnswers": [
+    "ـنا"
+   ],
+   "explanation": "ـنا veut dire « notre » : ربنا = رب + نا (notre Seigneur), أبونا = أبو + نا (notre père).",
+   "tip": "ـنا : notre.",
+   "extraExample": {
+    "text": "ربنا",
+    "translation": "notre Seigneur : رب + نا"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ـة",
+     "category": "word_confusion",
+     "feedback": "ـة termine beaucoup de mots féminins, mais ne veut pas dire « notre »."
+    },
+    {
+     "equals": "ال",
+     "category": "word_confusion",
+     "feedback": "ال est au début du mot et veut dire « le » ou « la »."
+    },
+    {
+     "equals": "و",
+     "category": "word_confusion",
+     "feedback": "و seul devant un mot veut dire « et »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.kanisa",
+    "ar.g26.long_words"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "الكنيسة",
+   "promptLanguage": "ar",
+   "options": [
+    "une école",
+    "la maison",
+    "la porte",
+    "l'église"
+   ],
+   "answer": "l'église",
+   "acceptedAnswers": [
+    "l'église"
+   ],
+   "explanation": "ال + كنيسة : ال veut dire « le » ou « la », كنيسة est l'église. Ensemble : « l'église ».",
+   "tip": "Enlève ال, lis le reste, puis remets-le.",
+   "extraExample": {
+    "text": "الكنيسة كبيرة.",
+    "translation": "L'église est grande."
+   },
+   "errorPatterns": [
+    {
+     "equals": "une école",
+     "category": "word_confusion",
+     "feedback": "« une école » ne correspond pas : relis الكنيسة bloc par bloc. Ici, le sens est « l'église »."
+    },
+    {
+     "equals": "la maison",
+     "category": "word_confusion",
+     "feedback": "« la maison » ne correspond pas : relis الكنيسة bloc par bloc. Ici, le sens est « l'église »."
+    },
+    {
+     "equals": "la porte",
+     "category": "word_confusion",
+     "feedback": "« la porte » ne correspond pas : relis الكنيسة bloc par bloc. Ici, le sens est « l'église »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e11",
+   "type": "match",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.madrasa",
+    "ar.v.mustashfa",
+    "ar.v.gamia",
+    "ar.v.matam"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque lieu à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "مدرسة",
+     "right": "école"
+    },
+    {
+     "left": "مستشفى",
+     "right": "hôpital"
+    },
+    {
+     "left": "جامعة",
+     "right": "université"
+    },
+    {
+     "left": "مطعم",
+     "right": "restaurant"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "مدرسة = école ; مستشفى = hôpital ; جامعة = université ; مطعم = restaurant",
+   "explanation": "Quatre lieux de la ville : مدرسة (3 blocs), مستشفى (1 bloc), جامعة (2 blocs) et مطعم (1 bloc). Coupe, lis, recolle."
+  },
+  {
+   "id": "ar.l26.e12",
+   "type": "match",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.mobail",
+    "ar.v.utobis",
+    "ar.v.telifun",
+    "ar.v.al_qahira"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot à son sens : la ville et la rue.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "موبايل",
+     "right": "portable"
+    },
+    {
+     "left": "أتوبيس",
+     "right": "bus"
+    },
+    {
+     "left": "تليفون",
+     "right": "téléphone"
+    },
+    {
+     "left": "القاهرة",
+     "right": "Le Caire"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "موبايل = portable ; أتوبيس = bus ; تليفون = téléphone ; القاهرة = Le Caire",
+   "explanation": "Des mots de tous les jours, écrits comme on les dit : موبايل, أتوبيس et تليفون viennent de l'étranger, القاهرة est ال + قاهرة."
+  },
+  {
+   "id": "ar.l26.e13",
+   "type": "match",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.telifun",
+    "ar.v.gamia",
+    "ar.v.madrasa",
+    "ar.v.mobail"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque mot à sa coupure en blocs.",
+   "prompt": "Relie chaque mot à ses blocs.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "تليفون",
+     "right": "تليفو | ن"
+    },
+    {
+     "left": "جامعة",
+     "right": "جا | معة"
+    },
+    {
+     "left": "مدرسة",
+     "right": "مد | ر | سة"
+    },
+    {
+     "left": "موبايل",
+     "right": "مو | با | يل"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "تليفون = تليفو | ن ; جامعة = جا | معة ; مدرسة = مد | ر | سة ; موبايل = مو | با | يل",
+   "explanation": "On coupe après chaque ا د ذ ر ز و : تليفو | ن (le و), جا | معة (le ا), مد | ر | سة (le د et le ر), مو | با | يل (le و et le ا)."
+  },
+  {
+   "id": "ar.l26.e14",
+   "type": "match",
+   "unitIds": [
+    "ar.v.mama",
+    "ar.v.walad",
+    "ar.v.otta",
+    "ar.v.milh",
+    "ar.g26.long_words"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot de la leçon 25 à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ماما",
+     "right": "maman"
+    },
+    {
+     "left": "ولد",
+     "right": "garçon"
+    },
+    {
+     "left": "قطة",
+     "right": "chat"
+    },
+    {
+     "left": "ملح",
+     "right": "sel"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "ماما = maman ; ولد = garçon ; قطة = chat ; ملح = sel",
+   "explanation": "Retour aux mots courts : ماما (ما | ما), ولد (le و est une consonne), قطة (ق ط ة) et ملح (trois consonnes)."
+  },
+  {
+   "id": "ar.l26.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.telifun"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète le dernier bloc.",
+   "prompt": "تليفو | ___ (téléphone)",
+   "promptLanguage": "ar",
+   "options": [
+    "ل",
+    "ن",
+    "م",
+    "ب"
+   ],
+   "answer": "ن",
+   "acceptedAnswers": [
+    "ن"
+   ],
+   "explanation": "تليفون se coupe après le و : تليفو | ن. Le dernier bloc est le ن tout seul.",
+   "tip": "Le dernier bloc d'un mot peut être une seule lettre.",
+   "extraExample": {
+    "text": "جامعة",
+    "translation": "جا | معة"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ل",
+     "category": "spelling",
+     "feedback": "Le dernier bloc de « téléphone » est un ن, avec 1 point dessus."
+    },
+    {
+     "equals": "م",
+     "category": "spelling",
+     "feedback": "م est une boule sans point ; ici la lettre a 1 point dessus."
+    },
+    {
+     "equals": "ب",
+     "category": "spelling",
+     "feedback": "ب a 1 point dessous ; ici le point est dessus."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e16",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.mobail"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète le dernier bloc.",
+   "prompt": "مو | با | ___ (portable)",
+   "promptLanguage": "ar",
+   "options": [
+    "ين",
+    "بل",
+    "ول",
+    "يل"
+   ],
+   "answer": "يل",
+   "acceptedAnswers": [
+    "يل"
+   ],
+   "explanation": "موبايل se coupe en مو | با | يل : le ا ferme le deuxième bloc, il reste le ي et le ل.",
+   "tip": "Après un ا, le bloc suivant repart à neuf.",
+   "extraExample": {
+    "text": "موبايل جديد",
+    "translation": "un portable neuf"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ين",
+     "category": "spelling",
+     "feedback": "« ين » ne finit pas موبايل : le mot finit par ي + ل."
+    },
+    {
+     "equals": "بل",
+     "category": "spelling",
+     "feedback": "« بل » ne finit pas موبايل : le mot finit par ي + ل."
+    },
+    {
+     "equals": "ول",
+     "category": "spelling",
+     "feedback": "« ول » ne finit pas موبايل : le mot finit par ي + ل."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e17",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.al_qahira"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète le dernier bloc.",
+   "prompt": "ا | لقا | هر | ___ (Le Caire)",
+   "promptLanguage": "ar",
+   "options": [
+    "ه",
+    "ة",
+    "ى",
+    "ا"
+   ],
+   "answer": "ة",
+   "acceptedAnswers": [
+    "ة"
+   ],
+   "explanation": "القاهرة finit par le ة, qui reste seul dans son bloc parce que le ر ne s'attache pas. Il a 2 points dessus.",
+   "tip": "ة a toujours 2 points dessus.",
+   "extraExample": {
+    "text": "مدرسة",
+    "translation": "مد | ر | سة"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ه",
+     "category": "spelling",
+     "feedback": "ه n'a aucun point ; la fin de القاهرة porte 2 points : c'est ة."
+    },
+    {
+     "equals": "ى",
+     "category": "spelling",
+     "feedback": "ى finit les mots en a long, mais ici il y a 2 points dessus : c'est ة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e18",
+   "type": "translation",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.mustashfa"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "مستشفى",
+   "promptLanguage": "ar",
+   "answer": "hôpital",
+   "acceptedAnswers": [
+    "hôpital",
+    "l'hôpital",
+    "un hôpital",
+    "hopital"
+   ],
+   "explanation": "مستشفى est un seul bloc de six lettres, lu en paquets مس | تش | فى : « hôpital ».",
+   "tip": "Pense aux dents س ش au milieu.",
+   "extraExample": {
+    "text": "المستشفى قريب.",
+    "translation": "L'hôpital est près d'ici."
+   }
+  },
+  {
+   "id": "ar.l26.e19",
+   "type": "translation",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.telifun"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "تليفون",
+   "promptLanguage": "ar",
+   "answer": "téléphone",
+   "acceptedAnswers": [
+    "téléphone",
+    "le téléphone",
+    "un téléphone",
+    "telephone"
+   ],
+   "explanation": "تليفو | ن : le mot qu'on entend partout, écrit comme on le dit.",
+   "tip": "Coupe après le و.",
+   "extraExample": {
+    "text": "التليفون بيرن.",
+    "translation": "Le téléphone sonne."
+   }
+  },
+  {
+   "id": "ar.l26.e20",
+   "type": "translation",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.al_katidraiya"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "الكاتدرائية",
+   "promptLanguage": "ar",
+   "answer": "cathédrale",
+   "acceptedAnswers": [
+    "cathédrale",
+    "la cathédrale",
+    "une cathédrale",
+    "cathedrale",
+    "la cathedrale"
+   ],
+   "explanation": "ا | لكا | تد | ر | ا | ئية : six blocs. On met ال de côté et on lit كاتدرائية : « cathédrale ».",
+   "tip": "Lis ال, puis avance bloc par bloc.",
+   "extraExample": {
+    "text": "الكاتدرائية كبيرة.",
+    "translation": "La cathédrale est grande."
+   }
+  },
+  {
+   "id": "ar.l26.e21",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.al_katidraiya"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Combien de blocs compte الكاتدرائية ?",
+   "promptLanguage": "fr",
+   "answer": "six",
+   "acceptedAnswers": [
+    "six",
+    "6",
+    "six blocs",
+    "6 blocs"
+   ],
+   "explanation": "Chaque ا, د, ر ferme un bloc, et le dernier bloc ئية termine le mot : ا | لكا | تد | ر | ا | ئية, six blocs.",
+   "tip": "Pose un trait après chaque ا د ر, puis compte les morceaux.",
+   "extraExample": {
+    "text": "القاهرة",
+    "translation": "ا | لقا | هر | ة : quatre blocs"
+   },
+   "errorPatterns": [
+    {
+     "equals": "cinq",
+     "category": "vocabulary",
+     "feedback": "Tu as oublié le dernier bloc ئية : il y en a six."
+    },
+    {
+     "equals": "5",
+     "category": "vocabulary",
+     "feedback": "Tu as oublié le dernier bloc ئية : il y en a six."
+    }
+   ]
+  },
+  {
+   "id": "ar.l26.e22",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.v.matam"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire مطعم ?",
+   "promptLanguage": "fr",
+   "answer": "restaurant",
+   "acceptedAnswers": [
+    "restaurant",
+    "un restaurant",
+    "le restaurant"
+   ],
+   "explanation": "مطعم = مط | عم, un seul bloc de quatre lettres : « restaurant ».",
+   "tip": "Un seul bloc : coupe-le en deux paquets, مط | عم.",
+   "extraExample": {
+    "text": "المطعم فاتح.",
+    "translation": "Le restaurant est ouvert."
+   }
+  }
+ ]
+}

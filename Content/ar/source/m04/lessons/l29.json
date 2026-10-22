@@ -1,0 +1,911 @@
+{
+ "lessonId": "ar.l29",
+ "exercises": [
+  {
+   "id": "ar.l29.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g29.read_with_meaning"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel indice décide entre deux mots qui s'écrivent pareil ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le nombre de lettres",
+    "le sens de la phrase",
+    "la longueur de la phrase",
+    "la place sur la page"
+   ],
+   "answer": "le sens de la phrase",
+   "acceptedAnswers": [
+    "le sens de la phrase"
+   ],
+   "explanation": "Les deux mots ont les mêmes consonnes ; seul le sens de la phrase permet de choisir lequel est le bon.",
+   "tip": "Consonnes, oreille, puis le sens de la phrase.",
+   "extraExample": {
+    "text": "عندي كتب كتير.",
+    "translation": "J'ai beaucoup de livres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le nombre de lettres",
+     "category": "instruction",
+     "feedback": "« le nombre de lettres » ne change rien : les deux mots s'écrivent exactement pareil. C'est le sens de la phrase qui décide."
+    },
+    {
+     "equals": "la longueur de la phrase",
+     "category": "instruction",
+     "feedback": "« la longueur de la phrase » ne change rien : les deux mots s'écrivent exactement pareil. C'est le sens de la phrase qui décide."
+    },
+    {
+     "equals": "la place sur la page",
+     "category": "instruction",
+     "feedback": "« la place sur la page » ne change rien : les deux mots s'écrivent exactement pareil. C'est le sens de la phrase qui décide."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.andi",
+    "ar.v.kitir",
+    "ar.v.kutub_katab"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "عندي كتب كتير",
+   "promptLanguage": "ar",
+   "options": [
+    "Papa a écrit une lettre.",
+    "J'ai beaucoup de lettres.",
+    "Il a beaucoup écrit.",
+    "J'ai beaucoup de livres."
+   ],
+   "answer": "J'ai beaucoup de livres.",
+   "acceptedAnswers": [
+    "J'ai beaucoup de livres."
+   ],
+   "explanation": "Après عندي (j'ai), on attend une chose : كتب veut dire « livres ». كتير veut dire « beaucoup ».",
+   "tip": "عندي appelle un nom, pas une action.",
+   "extraExample": {
+    "text": "عندي كتب.",
+    "translation": "J'ai des livres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Papa a écrit une lettre.",
+     "category": "word_confusion",
+     "feedback": "« Papa a écrit une lettre. » ne correspond pas : relis عندي كتب كتير bloc par bloc. Ici, le sens est « J'ai beaucoup de livres. »."
+    },
+    {
+     "equals": "J'ai beaucoup de lettres.",
+     "category": "word_confusion",
+     "feedback": "« J'ai beaucoup de lettres. » ne correspond pas : relis عندي كتب كتير bloc par bloc. Ici, le sens est « J'ai beaucoup de livres. »."
+    },
+    {
+     "equals": "Il a beaucoup écrit.",
+     "category": "word_confusion",
+     "feedback": "« Il a beaucoup écrit. » ne correspond pas : relis عندي كتب كتير bloc par bloc. Ici, le sens est « J'ai beaucoup de livres. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.kutub_katab",
+    "ar.v.gawab"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "بابا كتب جواب",
+   "promptLanguage": "ar",
+   "options": [
+    "J'ai beaucoup de livres.",
+    "Papa a écrit une lettre.",
+    "Papa a mangé du poisson.",
+    "Papa a beaucoup de livres."
+   ],
+   "answer": "Papa a écrit une lettre.",
+   "acceptedAnswers": [
+    "Papa a écrit une lettre."
+   ],
+   "explanation": "Après بابا, on attend une action : كتب veut dire « il a écrit », et جواب est la lettre.",
+   "tip": "Quand le mot suit une personne, cherche l'action.",
+   "extraExample": {
+    "text": "ماما كتبت جواب.",
+    "translation": "Maman a écrit une lettre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "J'ai beaucoup de livres.",
+     "category": "word_confusion",
+     "feedback": "« J'ai beaucoup de livres. » ne correspond pas : relis بابا كتب جواب bloc par bloc. Ici, le sens est « Papa a écrit une lettre. »."
+    },
+    {
+     "equals": "Papa a mangé du poisson.",
+     "category": "word_confusion",
+     "feedback": "« Papa a mangé du poisson. » ne correspond pas : relis بابا كتب جواب bloc par bloc. Ici, le sens est « Papa a écrit une lettre. »."
+    },
+    {
+     "equals": "Papa a beaucoup de livres.",
+     "category": "word_confusion",
+     "feedback": "« Papa a beaucoup de livres. » ne correspond pas : relis بابا كتب جواب bloc par bloc. Ici, le sens est « Papa a écrit une lettre. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.alam_ilm",
+    "ar.v.masr"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans « علم مصر », que veut dire علم ?",
+   "promptLanguage": "fr",
+   "options": [
+    "science",
+    "nourriture",
+    "livres",
+    "drapeau"
+   ],
+   "answer": "drapeau",
+   "acceptedAnswers": [
+    "drapeau"
+   ],
+   "explanation": "علم مصر, c'est « le drapeau de l'Égypte » : un pays a un drapeau. La science n'irait pas avec le nom d'un pays.",
+   "tip": "Un nom de pays derrière : pense au drapeau.",
+   "extraExample": {
+    "text": "علم مصر.",
+    "translation": "Le drapeau de l'Égypte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "science",
+     "category": "word_confusion",
+     "feedback": "« science » ne va pas avec le nom d'un pays : علم مصر est « le drapeau de l'Égypte »."
+    },
+    {
+     "equals": "nourriture",
+     "category": "word_confusion",
+     "feedback": "« nourriture » ne va pas avec le nom d'un pays : علم مصر est « le drapeau de l'Égypte »."
+    },
+    {
+     "equals": "livres",
+     "category": "word_confusion",
+     "feedback": "« livres » ne va pas avec le nom d'un pays : علم مصر est « le drapeau de l'Égypte »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.alam_ilm",
+    "ar.v.nur"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans « العلم نور », que veut dire العلم ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le drapeau",
+    "la science",
+    "la nourriture",
+    "le livre"
+   ],
+   "answer": "la science",
+   "acceptedAnswers": [
+    "la science"
+   ],
+   "explanation": "Une lumière (نور), c'est l'image du savoir : العلم نور = « La science est une lumière. »",
+   "tip": "Le sens de نور (lumière) oriente vers la science.",
+   "extraExample": {
+    "text": "العلم مهم.",
+    "translation": "La science est importante."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le drapeau",
+     "category": "word_confusion",
+     "feedback": "« Le drapeau est une lumière » n'a pas de sens : ici on parle de la science."
+    },
+    {
+     "equals": "la nourriture",
+     "category": "word_confusion",
+     "feedback": "On ne dit pas que la nourriture est une lumière : le mot est العلم, la science."
+    },
+    {
+     "equals": "le livre",
+     "category": "word_confusion",
+     "feedback": "Le livre se dit كتاب : ici le mot est العلم."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.akl_akal",
+    "ar.v.samak"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "بابا أكل سمك",
+   "promptLanguage": "ar",
+   "options": [
+    "Papa a du poisson.",
+    "Papa veut de la nourriture.",
+    "Maman a mangé du poisson.",
+    "Papa a mangé du poisson."
+   ],
+   "answer": "Papa a mangé du poisson.",
+   "acceptedAnswers": [
+    "Papa a mangé du poisson."
+   ],
+   "explanation": "Après بابا (une personne), أكل est une action : « il a mangé ». Le poisson (سمك) est celui de la leçon 25.",
+   "tip": "Une personne devant le mot : c'est une action.",
+   "extraExample": {
+    "text": "ماما أكلت موز.",
+    "translation": "Maman a mangé une banane."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Papa a du poisson.",
+     "category": "word_confusion",
+     "feedback": "« Papa a du poisson. » ne correspond pas : relis بابا أكل سمك bloc par bloc. Ici, le sens est « Papa a mangé du poisson. »."
+    },
+    {
+     "equals": "Papa veut de la nourriture.",
+     "category": "word_confusion",
+     "feedback": "« Papa veut de la nourriture. » ne correspond pas : relis بابا أكل سمك bloc par bloc. Ici, le sens est « Papa a mangé du poisson. »."
+    },
+    {
+     "equals": "Maman a mangé du poisson.",
+     "category": "word_confusion",
+     "feedback": "« Maman a mangé du poisson. » ne correspond pas : relis بابا أكل سمك bloc par bloc. Ici, le sens est « Papa a mangé du poisson. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.akl_akal"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire الأكل ?",
+   "promptLanguage": "fr",
+   "options": [
+    "il a mangé",
+    "la nourriture",
+    "le drapeau",
+    "la lettre"
+   ],
+   "answer": "la nourriture",
+   "acceptedAnswers": [
+    "la nourriture"
+   ],
+   "explanation": "Avec ال devant, c'est un nom : الأكل = « la nourriture ». Une action ne prend pas ال.",
+   "tip": "ال annonce un nom.",
+   "extraExample": {
+    "text": "الأكل حلو.",
+    "translation": "La nourriture est bonne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "il a mangé",
+     "category": "word_confusion",
+     "feedback": "« Il a mangé » est une action : elle ne prend pas ال. الأكل est le nom, « la nourriture »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.kutub_katab",
+    "ar.g29.read_with_meaning"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Avec les voyelles, lequel de ces mots veut dire « livres » (plusieurs livres) ?",
+   "promptLanguage": "ar",
+   "options": [
+    "كَتَب",
+    "كِتَاب",
+    "كُتَّاب",
+    "كُتُب"
+   ],
+   "answer": "كُتُب",
+   "acceptedAnswers": [
+    "كُتُب"
+   ],
+   "explanation": "كُتُب est le pluriel : « livres ». كَتَب veut dire « il a écrit », كِتَاب est un seul livre et كُتَّاب veut dire « écrivains ».",
+   "tip": "Les voyelles écrites lèvent tous les doutes, mais on ne les écrit presque jamais.",
+   "extraExample": {
+    "text": "عندي كتب كتير.",
+    "translation": "J'ai beaucoup de livres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "كَتَب",
+     "category": "word_confusion",
+     "feedback": "كَتَب (il a écrit) est le verbe : le deuxième sens de كتب."
+    },
+    {
+     "equals": "كِتَاب",
+     "category": "word_confusion",
+     "feedback": "كِتَاب est un seul livre (avec un ا long) ; ici on veut « livres », au pluriel."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.madrasa"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle graphie est une autre façon d'écrire مدرسة ?",
+   "promptLanguage": "fr",
+   "options": [
+    "مدارس",
+    "مدرسه",
+    "مدرسين",
+    "مدرسي"
+   ],
+   "answer": "مدرسه",
+   "acceptedAnswers": [
+    "مدرسه"
+   ],
+   "explanation": "Beaucoup d'Égyptiens écrivent un ه au lieu du ة : مدرسه = مدرسة. Les autres mots sont un pluriel ou une forme avec « mon ».",
+   "tip": "Même forme d'ensemble, seule la fin change : ة ou ه.",
+   "extraExample": {
+    "text": "المدرسه",
+    "translation": "l'école"
+   },
+   "errorPatterns": [
+    {
+     "equals": "مدارس",
+     "category": "spelling",
+     "feedback": "مدارس est un pluriel (des écoles) : il a un ا de plus au milieu."
+    },
+    {
+     "equals": "مدرسين",
+     "category": "spelling",
+     "feedback": "مدرسين finit par ين : ce n'est pas le même mot."
+    },
+    {
+     "equals": "مدرسي",
+     "category": "spelling",
+     "feedback": "مدرسي finit par ي : ce n'est pas le même mot."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g29.read_with_meaning"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle graphie est une autre façon d'écrire على ?",
+   "promptLanguage": "fr",
+   "options": [
+    "عيل",
+    "عالي",
+    "علم",
+    "علي"
+   ],
+   "answer": "علي",
+   "acceptedAnswers": [
+    "علي"
+   ],
+   "explanation": "Beaucoup d'Égyptiens écrivent ي au lieu de ى à la fin de على. Les autres sont d'autres mots : عيل (enfant), عالي (haut), علم (drapeau, science).",
+   "tip": "Un ى final peut s'écrire ي : même mot.",
+   "extraExample": {
+    "text": "على الترابيزة",
+    "translation": "sur la table"
+   },
+   "errorPatterns": [
+    {
+     "equals": "عيل",
+     "category": "spelling",
+     "feedback": "عيل a un ي au milieu : c'est un autre mot."
+    },
+    {
+     "equals": "عالي",
+     "category": "spelling",
+     "feedback": "عالي a un ا au milieu : c'est un autre mot."
+    },
+    {
+     "equals": "علم",
+     "category": "spelling",
+     "feedback": "علم finit par م : c'est un autre mot."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e11",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.gamia",
+    "ar.g29.read_with_meaning"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "جامعة",
+   "promptLanguage": "ar",
+   "options": [
+    "école",
+    "université",
+    "hôpital",
+    "restaurant"
+   ],
+   "answer": "université",
+   "acceptedAnswers": [
+    "université"
+   ],
+   "explanation": "جا | معة : le ا ferme le premier bloc. Ces cinq lettres donnent l'« université ».",
+   "tip": "Coupe après le ا, puis lis معة.",
+   "extraExample": {
+    "text": "الجامعة كبيرة.",
+    "translation": "L'université est grande."
+   },
+   "errorPatterns": [
+    {
+     "equals": "école",
+     "category": "word_confusion",
+     "feedback": "« école » ne correspond pas : relis جامعة bloc par bloc. Ici, le sens est « université »."
+    },
+    {
+     "equals": "hôpital",
+     "category": "word_confusion",
+     "feedback": "« hôpital » ne correspond pas : relis جامعة bloc par bloc. Ici, le sens est « université »."
+    },
+    {
+     "equals": "restaurant",
+     "category": "word_confusion",
+     "feedback": "« restaurant » ne correspond pas : relis جامعة bloc par bloc. Ici, le sens est « université »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e12",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.salat",
+    "ar.g29.read_with_meaning"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « prière » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "قداس",
+    "مزمور",
+    "تسبحة",
+    "صلاة"
+   ],
+   "answer": "صلاة",
+   "acceptedAnswers": [
+    "صلاة"
+   ],
+   "explanation": "صلاة veut dire « prière » en général. قداس est la liturgie, مزمور un psaume et تسبحة un office de louange.",
+   "tip": "La ligature لا au milieu de صلاة : ص + لا + ة.",
+   "extraExample": {
+    "text": "صلاة الصبح",
+    "translation": "la prière du matin"
+   },
+   "errorPatterns": [
+    {
+     "equals": "قداس",
+     "category": "word_confusion",
+     "feedback": "« قداس » est un autre mot de l'église : la prière s'écrit صلاة."
+    },
+    {
+     "equals": "مزمور",
+     "category": "word_confusion",
+     "feedback": "« مزمور » est un autre mot de l'église : la prière s'écrit صلاة."
+    },
+    {
+     "equals": "تسبحة",
+     "category": "word_confusion",
+     "feedback": "« تسبحة » est un autre mot de l'église : la prière s'écrit صلاة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e13",
+   "type": "match",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.kutub_katab",
+    "ar.v.alam_ilm",
+    "ar.v.akl_akal",
+    "ar.v.andi"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Retour aux phrases de tous les jours : relie chaque phrase à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "عندي كتب كتير",
+     "right": "J'ai beaucoup de livres."
+    },
+    {
+     "left": "بابا كتب جواب",
+     "right": "Papa a écrit une lettre."
+    },
+    {
+     "left": "علم مصر",
+     "right": "le drapeau de l'Égypte"
+    },
+    {
+     "left": "بابا أكل سمك",
+     "right": "Papa a mangé du poisson."
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "عندي كتب كتير = J'ai beaucoup de livres. ; بابا كتب جواب = Papa a écrit une lettre. ; علم مصر = le drapeau de l'Égypte ; بابا أكل سمك = Papa a mangé du poisson.",
+   "explanation": "Dans chaque phrase, le mot d'avant décide : après عندي un nom (livres), après بابا une action (a écrit, a mangé), et علم مصر nomme le drapeau d'un pays."
+  },
+  {
+   "id": "ar.l29.e14",
+   "type": "match",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.andi",
+    "ar.v.kitir",
+    "ar.v.gawab",
+    "ar.v.masr"
+   ],
+   "difficulty": 1,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "عندي",
+     "right": "j'ai"
+    },
+    {
+     "left": "كتير",
+     "right": "beaucoup"
+    },
+    {
+     "left": "جواب",
+     "right": "lettre"
+    },
+    {
+     "left": "مصر",
+     "right": "Égypte"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "عندي = j'ai ; كتير = beaucoup ; جواب = lettre ; مصر = Égypte",
+   "explanation": "Quatre mots de la leçon : عندي (à la lettre « chez moi »), كتير, جواب et مصر."
+  },
+  {
+   "id": "ar.l29.e15",
+   "type": "match",
+   "unitIds": [
+    "ar.v.madrasa",
+    "ar.v.shokran",
+    "ar.v.agbiya",
+    "ar.v.al_qahira",
+    "ar.g29.read_with_meaning"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot des leçons 26 à 28 à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "مدرسة",
+     "right": "école"
+    },
+    {
+     "left": "شكرا",
+     "right": "merci"
+    },
+    {
+     "left": "أجبية",
+     "right": "livre des heures"
+    },
+    {
+     "left": "القاهرة",
+     "right": "Le Caire"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "مدرسة = école ; شكرا = merci ; أجبية = livre des heures ; القاهرة = Le Caire",
+   "explanation": "Retour en arrière : مدرسة (école, 3 blocs), شكرا (merci), أجبية (livre des heures) et القاهرة (Le Caire, avec ال)."
+  },
+  {
+   "id": "ar.l29.e16",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.kutub_katab"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "عندي ___ كتير (livres)",
+   "promptLanguage": "ar",
+   "options": [
+    "جواب",
+    "مصر",
+    "علم",
+    "كتب"
+   ],
+   "answer": "كتب",
+   "acceptedAnswers": [
+    "كتب"
+   ],
+   "explanation": "Après عندي on attend une chose, et le sens « livres » donne كتب. جواب est une lettre, مصر l'Égypte.",
+   "tip": "Ici كتب est un nom : « des livres ».",
+   "extraExample": {
+    "text": "عندي كتب.",
+    "translation": "J'ai des livres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "جواب",
+     "category": "vocabulary",
+     "feedback": "جواب veut dire « lettre », pas « livres »."
+    },
+    {
+     "equals": "علم",
+     "category": "vocabulary",
+     "feedback": "علم veut dire « drapeau » ou « science », pas « livres »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e17",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.gawab"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "بابا كتب ___ (Papa a écrit une lettre.)",
+   "promptLanguage": "ar",
+   "options": [
+    "كتير",
+    "جواب",
+    "مصر",
+    "علم"
+   ],
+   "answer": "جواب",
+   "acceptedAnswers": [
+    "جواب"
+   ],
+   "explanation": "Papa a écrit… quoi ? Une lettre : جواب. كتير veut dire « beaucoup » et مصر « Égypte ».",
+   "tip": "Après un verbe d'écriture, cherche l'objet : جواب.",
+   "extraExample": {
+    "text": "كتبت جواب.",
+    "translation": "J'ai écrit une lettre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "كتير",
+     "category": "vocabulary",
+     "feedback": "كتير veut dire « beaucoup » : on n'écrit pas « beaucoup »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e18",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.akl_akal"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "بابا ___ سمك (Papa a mangé du poisson.)",
+   "promptLanguage": "ar",
+   "options": [
+    "علم",
+    "كتير",
+    "عندي",
+    "أكل"
+   ],
+   "answer": "أكل",
+   "acceptedAnswers": [
+    "أكل"
+   ],
+   "explanation": "Après بابا, l'action est أكل (il a mangé) : « Papa a mangé du poisson. »",
+   "tip": "Une personne + une action + un complément.",
+   "extraExample": {
+    "text": "ماما أكلت موز.",
+    "translation": "Maman a mangé une banane."
+   },
+   "errorPatterns": [
+    {
+     "equals": "عندي",
+     "category": "vocabulary",
+     "feedback": "عندي veut dire « j'ai » : il ne va pas après بابا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l29.e19",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.kutub_katab",
+    "ar.v.gawab"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Papa a écrit une lettre. »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "جواب",
+    "بابا",
+    "كتب"
+   ],
+   "answer": "بابا كتب جواب",
+   "acceptedAnswers": [
+    "بابا كتب جواب"
+   ],
+   "explanation": "Qui ? بابا. Il a fait quoi ? كتب. Quoi ? جواب. L'ordre est : personne, action, chose.",
+   "tip": "Qui, fait quoi, quoi : personne, action, chose.",
+   "extraExample": {
+    "text": "بابا أكل سمك",
+    "translation": "Papa a mangé du poisson"
+   }
+  },
+  {
+   "id": "ar.l29.e20",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.andi",
+    "ar.v.kitir",
+    "ar.v.kutub_katab"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « J'ai beaucoup de livres. »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "كتير",
+    "عندي",
+    "كتب"
+   ],
+   "answer": "عندي كتب كتير",
+   "acceptedAnswers": [
+    "عندي كتب كتير"
+   ],
+   "explanation": "عندي (j'ai) vient d'abord, puis la chose (كتب), puis la quantité (كتير).",
+   "tip": "Chose d'abord, quantité ensuite : كتب كتير.",
+   "extraExample": {
+    "text": "عندي موبايل",
+    "translation": "J'ai un portable"
+   }
+  },
+  {
+   "id": "ar.l29.e21",
+   "type": "translation",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.andi",
+    "ar.v.gawab"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "عندي جواب",
+   "promptLanguage": "ar",
+   "answer": "J'ai une lettre.",
+   "acceptedAnswers": [
+    "J'ai une lettre.",
+    "j'ai une lettre",
+    "j'ai un courrier",
+    "j'ai une réponse"
+   ],
+   "explanation": "عندي (j'ai) + جواب (une lettre). Le mot عندي veut dire à la lettre « chez moi ».",
+   "tip": "عندي + un nom = j'ai quelque chose.",
+   "extraExample": {
+    "text": "عندي موبايل.",
+    "translation": "J'ai un portable."
+   }
+  },
+  {
+   "id": "ar.l29.e22",
+   "type": "translation",
+   "unitIds": [
+    "ar.v.shokran",
+    "ar.v.kitir",
+    "ar.g29.read_with_meaning"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "شكرا كتير",
+   "promptLanguage": "ar",
+   "answer": "Merci beaucoup.",
+   "acceptedAnswers": [
+    "Merci beaucoup.",
+    "merci beaucoup",
+    "merci bien",
+    "merci énormément"
+   ],
+   "explanation": "شكرا (merci) + كتير (beaucoup) : la formule la plus courante pour remercier chaleureusement.",
+   "tip": "كتير se place après ce qu'il renforce.",
+   "extraExample": {
+    "text": "شكرا.",
+    "translation": "Merci."
+   }
+  },
+  {
+   "id": "ar.l29.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.kitir"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire كتير ?",
+   "promptLanguage": "fr",
+   "answer": "beaucoup",
+   "acceptedAnswers": [
+    "beaucoup",
+    "plein",
+    "énormément"
+   ],
+   "explanation": "كتير veut dire « beaucoup » ; on l'entend dans شكرا كتير.",
+   "tip": "Il se place après le mot qu'il renforce.",
+   "extraExample": {
+    "text": "عندي كتب كتير.",
+    "translation": "J'ai beaucoup de livres."
+   }
+  },
+  {
+   "id": "ar.l29.e24",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g29.read_with_meaning",
+    "ar.v.masr"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire مصر ?",
+   "promptLanguage": "fr",
+   "answer": "Égypte",
+   "acceptedAnswers": [
+    "Égypte",
+    "egypte",
+    "l'égypte",
+    "l'egypte"
+   ],
+   "explanation": "مصر est le nom du pays : م ص ر, trois lettres, avec un ر final qui reste seul.",
+   "tip": "Tu le vois sur le drapeau : علم مصر.",
+   "extraExample": {
+    "text": "أنا من مصر.",
+    "translation": "Je suis d'Égypte."
+   }
+  }
+ ]
+}

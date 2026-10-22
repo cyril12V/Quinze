@@ -1,0 +1,717 @@
+{
+ "lessonId": "ar.l36",
+ "exercises": [
+  {
+   "id": "ar.l36.e01",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.tameya"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « croquettes de fèves » (le falafel égyptien) ?",
+   "promptLanguage": "fr",
+   "answer": "طعمية",
+   "acceptedAnswers": [
+    "طعمية"
+   ],
+   "explanation": "طعمية est le falafel égyptien, fait de فول (carte « Le petit-déjeuner du peuple »).",
+   "tip": "طعمية et فول vont ensemble.",
+   "extraExample": {
+    "text": "عايز ساندوتش طعمية",
+    "translation": "Je veux un sandwich de ta'miya"
+   },
+   "options": [
+    "جبنة",
+    "طعمية",
+    "ملوخية",
+    "كشري"
+   ]
+  },
+  {
+   "id": "ar.l36.e02",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.koshary"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon plat.",
+   "prompt": "Quel plat mélange riz, pâtes et lentilles avec une sauce tomate ?",
+   "promptLanguage": "fr",
+   "answer": "كشري",
+   "acceptedAnswers": [
+    "كشري"
+   ],
+   "explanation": "كشري est le plat national : riz, pâtes, lentilles et sauce de طماطم.",
+   "tip": "كشري = tout dans la même assiette.",
+   "extraExample": {
+    "text": "عايز طبق كشري",
+    "translation": "Je veux une assiette de kushari"
+   },
+   "options": [
+    "كشري",
+    "فراخ",
+    "طعمية",
+    "بيض"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "طعمية",
+     "category": "word_confusion",
+     "feedback": "طعمية est une croquette de fèves, pas un mélange de riz et de pâtes."
+    }
+   ]
+  },
+  {
+   "id": "ar.l36.e03",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.molokheya"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Lis : ملوخية. Qu'est-ce que c'est ?",
+   "promptLanguage": "fr",
+   "answer": "une soupe verte",
+   "acceptedAnswers": [
+    "une soupe verte"
+   ],
+   "explanation": "ملوخية est une soupe verte, qu'on mange avec رز et فراخ (carte « ملوخية et فراخ »).",
+   "tip": "ملوخية : le plat vert du déjeuner.",
+   "extraExample": {
+    "text": "ملوخية بالفراخ",
+    "translation": "Mouloukhiya au poulet"
+   },
+   "options": [
+    "une soupe verte",
+    "un dessert",
+    "un fromage",
+    "un jus"
+   ]
+  },
+  {
+   "id": "ar.l36.e04",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.ferakh"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « poulet » ?",
+   "promptLanguage": "fr",
+   "answer": "فراخ",
+   "acceptedAnswers": [
+    "فراخ"
+   ],
+   "explanation": "فراخ est le poulet ; لحمة est la viande de bœuf ou d'agneau.",
+   "tip": "فراخ = volaille.",
+   "extraExample": {
+    "text": "رز وفراخ",
+    "translation": "Du riz et du poulet"
+   },
+   "options": [
+    "بيض",
+    "جبنة",
+    "لحمة",
+    "فراخ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "لحمة",
+     "category": "word_confusion",
+     "feedback": "لحمة est la viande rouge ; le poulet se dit فراخ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l36.e05",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.beid"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « des œufs » (en général, plusieurs) ?",
+   "promptLanguage": "fr",
+   "answer": "بيض",
+   "acceptedAnswers": [
+    "بيض"
+   ],
+   "explanation": "بيض désigne les œufs en général ; avec ة, بيضة n'en désigne qu'un seul.",
+   "tip": "Sans ة : le groupe.",
+   "extraExample": {
+    "text": "بيض وجبنة",
+    "translation": "Des œufs et du fromage"
+   },
+   "options": [
+    "بيض",
+    "جبنة",
+    "بيضة",
+    "عصير"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بيضة",
+     "category": "word_confusion",
+     "feedback": "بيضة est un seul œuf."
+    }
+   ]
+  },
+  {
+   "id": "ar.l36.e06",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.beid"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Applique la règle du ة.",
+   "prompt": "Tu veux UN seul œuf. Quel mot dis-tu ?",
+   "promptLanguage": "fr",
+   "answer": "بيضة",
+   "acceptedAnswers": [
+    "بيضة"
+   ],
+   "explanation": "Le ة final désigne une seule pièce : بيض (des œufs) devient بيضة (un œuf).",
+   "tip": "ة = une seule pièce.",
+   "extraExample": {
+    "text": "موز → موزة",
+    "translation": "des bananes → une banane"
+   },
+   "options": [
+    "بيض",
+    "فراخ",
+    "بيضة",
+    "جبنة"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بيض",
+     "category": "word_confusion",
+     "feedback": "بيض désigne plusieurs œufs ; pour un seul on ajoute ة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l36.e07",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.asir"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Tu lis عصير sur la carte d'un café. Que bois-tu ?",
+   "promptLanguage": "fr",
+   "answer": "du jus",
+   "acceptedAnswers": [
+    "du jus"
+   ],
+   "explanation": "عصير est du jus de fruits ; le plus célèbre est عصير قصب, de canne à sucre.",
+   "tip": "عصير = jus.",
+   "extraExample": {
+    "text": "عصير قصب",
+    "translation": "Jus de canne à sucre"
+   },
+   "options": [
+    "du lait",
+    "du jus",
+    "de l'eau",
+    "du thé"
+   ]
+  },
+  {
+   "id": "ar.l36.e08",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.gebna"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « fromage » ?",
+   "promptLanguage": "fr",
+   "answer": "جبنة",
+   "acceptedAnswers": [
+    "جبنة"
+   ],
+   "explanation": "جبنة est le fromage ; avec عيش, on obtient le petit-déjeuner.",
+   "tip": "جبنة : ج se dit g.",
+   "extraExample": {
+    "text": "عيش وجبنة",
+    "translation": "Du pain et du fromage"
+   },
+   "options": [
+    "لحمة",
+    "بطاطس",
+    "طماطم",
+    "جبنة"
+   ]
+  },
+  {
+   "id": "ar.l36.e09",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.koshary"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Pense au jeûne.",
+   "prompt": "Pendant le jeûne copte, quel plat est صيامي (sans produit animal) ?",
+   "promptLanguage": "fr",
+   "answer": "كشري",
+   "acceptedAnswers": [
+    "كشري"
+   ],
+   "explanation": "كشري ne contient aucun produit animal ; فراخ, جبنة et لحمة n'en sont pas autorisés (carte « Les jours de jeûne »).",
+   "tip": "فول, طعمية, كشري : le trio du jeûne.",
+   "extraExample": {
+    "text": "الكشري أكل صيامي",
+    "translation": "Le kushari est un plat de jeûne"
+   },
+   "options": [
+    "كشري",
+    "فراخ",
+    "جبنة",
+    "لحمة"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "جبنة",
+     "category": "word_confusion",
+     "feedback": "Le fromage est un produit laitier : interdit pendant le jeûne."
+    }
+   ]
+  },
+  {
+   "id": "ar.l36.e10",
+   "unitIds": [
+    "ar.v.samak"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel du vocabulaire.",
+   "prompt": "Quel mot veut dire « poisson » ?",
+   "promptLanguage": "fr",
+   "answer": "سمك",
+   "acceptedAnswers": [
+    "سمك"
+   ],
+   "explanation": "سمك est le poisson ; لحمة est la viande rouge et فراخ le poulet.",
+   "tip": "سمك = poisson.",
+   "extraExample": {
+    "text": "رز وسمك",
+    "translation": "Du riz et du poisson"
+   },
+   "options": [
+    "فراخ",
+    "بيض",
+    "لحمة",
+    "سمك"
+   ]
+  },
+  {
+   "id": "ar.l36.e11",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.tameya",
+    "ar.v.koshary",
+    "ar.v.molokheya",
+    "ar.v.ferakh",
+    "ar.v.beid"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque plat à son sens.",
+   "prompt": "Associe chaque mot du menu à son sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ce sont les cinq premiers plats du menu (cartes « Le petit-déjeuner », « Le plat national », « ملوخية et فراخ »).",
+   "pairs": [
+    {
+     "left": "طعمية",
+     "right": "croquettes de fèves"
+    },
+    {
+     "left": "كشري",
+     "right": "kushari (riz, pâtes, lentilles)"
+    },
+    {
+     "left": "ملوخية",
+     "right": "mouloukhiya (soupe verte)"
+    },
+    {
+     "left": "فراخ",
+     "right": "poulet"
+    },
+    {
+     "left": "بيض",
+     "right": "œufs"
+    }
+   ]
+  },
+  {
+   "id": "ar.l36.e12",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.gebna",
+    "ar.v.lahma",
+    "ar.v.batates",
+    "ar.v.asir",
+    "ar.v.tamatem"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque produit à son sens.",
+   "prompt": "Associe chaque produit du frigo à son sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Le reste du frigo : fromage, viande, pommes de terre, jus et tomates.",
+   "pairs": [
+    {
+     "left": "جبنة",
+     "right": "fromage"
+    },
+    {
+     "left": "لحمة",
+     "right": "viande"
+    },
+    {
+     "left": "بطاطس",
+     "right": "pommes de terre, frites"
+    },
+    {
+     "left": "عصير",
+     "right": "jus"
+    },
+    {
+     "left": "طماطم",
+     "right": "tomates"
+    }
+   ]
+  },
+  {
+   "id": "ar.l36.e13",
+   "unitIds": [
+    "ar.v.eish",
+    "ar.v.foul",
+    "ar.v.ruzz",
+    "ar.v.samak",
+    "ar.v.mooz"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Rappel : associe chaque mot à son sens.",
+   "prompt": "Revois les mots de cuisine que tu connaissais déjà.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq mots viennent des leçons sur les lettres dans les mots et sur la lecture par paquets.",
+   "pairs": [
+    {
+     "left": "عيش",
+     "right": "pain"
+    },
+    {
+     "left": "فول",
+     "right": "fèves"
+    },
+    {
+     "left": "رز",
+     "right": "riz"
+    },
+    {
+     "left": "سمك",
+     "right": "poisson"
+    },
+    {
+     "left": "موز",
+     "right": "banane"
+    }
+   ]
+  },
+  {
+   "id": "ar.l36.e14",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.tameya"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le petit-déjeuner.",
+   "prompt": "فول و ___  (fèves et croquettes de fèves)",
+   "promptLanguage": "ar",
+   "answer": "طعمية",
+   "acceptedAnswers": [
+    "طعمية"
+   ],
+   "explanation": "Au petit-déjeuner, le فول va avec la طعمية (carte « Le petit-déjeuner du peuple »).",
+   "tip": "فول وطعمية : un duo inséparable.",
+   "extraExample": {
+    "text": "فول وطعمية وعيش",
+    "translation": "Des fèves, des croquettes et du pain"
+   },
+   "options": [
+    "بطاطس",
+    "ملوخية",
+    "كشري",
+    "طعمية"
+   ]
+  },
+  {
+   "id": "ar.l36.e15",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.molokheya"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le menu.",
+   "prompt": "___ ورز وفراخ  (la soupe verte, du riz et du poulet)",
+   "promptLanguage": "ar",
+   "answer": "ملوخية",
+   "acceptedAnswers": [
+    "ملوخية"
+   ],
+   "explanation": "La ملوخية se mange avec du رز et de la فراخ (carte « ملوخية et فراخ »).",
+   "tip": "Soupe verte + riz + poulet.",
+   "extraExample": {
+    "text": "ملوخية بالفراخ",
+    "translation": "Mouloukhiya au poulet"
+   },
+   "options": [
+    "طعمية",
+    "جبنة",
+    "ملوخية",
+    "كشري"
+   ]
+  },
+  {
+   "id": "ar.l36.e16",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.beid"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Applique la règle du ة.",
+   "prompt": "بيض + ة = ___  (un seul œuf)",
+   "promptLanguage": "ar",
+   "answer": "بيضة",
+   "acceptedAnswers": [
+    "بيضة"
+   ],
+   "explanation": "Le ة final désigne une seule pièce : بيض + ة = بيضة.",
+   "tip": "ة = une seule pièce.",
+   "extraExample": {
+    "text": "تين → تينة",
+    "translation": "des figues → une figue"
+   },
+   "options": [
+    "بيضتين",
+    "جبنة",
+    "فراخ",
+    "بيضة"
+   ]
+  },
+  {
+   "id": "ar.l36.e17",
+   "unitIds": [
+    "ar.v.shay"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Rappel : complète la commande.",
+   "prompt": "عايز ___ ، من فضلك  (un thé, s'il te plaît)",
+   "promptLanguage": "ar",
+   "answer": "شاي",
+   "acceptedAnswers": [
+    "شاي"
+   ],
+   "explanation": "عايز + شاي : « je veux un thé » ; من فضلك rend la demande polie.",
+   "tip": "عايز + boisson.",
+   "extraExample": {
+    "text": "عايز شاي من فضلك",
+    "translation": "Je veux un thé, s'il te plaît"
+   },
+   "options": [
+    "شاي",
+    "بيض",
+    "جبنة",
+    "لحمة"
+   ]
+  },
+  {
+   "id": "ar.l36.e18",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.tameya",
+    "ar.v.foul"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "عايز فول وطعمية",
+   "promptLanguage": "ar",
+   "answer": "je veux des fèves et des croquettes de fèves",
+   "acceptedAnswers": [
+    "je veux des fèves et des croquettes de fèves",
+    "je veux des fèves et des croquettes",
+    "je veux du foul et de la ta'miya",
+    "je veux des fèves et des falafels",
+    "je veux du foul et des falafels",
+    "je veux des fèves et des falafel"
+   ],
+   "explanation": "عايز = je veux ; فول وطعمية = des fèves et des croquettes de fèves (و = et).",
+   "tip": "و collé = et.",
+   "extraExample": {
+    "text": "عايز عيش وجبنة",
+    "translation": "Je veux du pain et du fromage"
+   }
+  },
+  {
+   "id": "ar.l36.e19",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.gebna",
+    "ar.v.tallaga"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "الجبنة في التلاجة",
+   "promptLanguage": "ar",
+   "answer": "le fromage est dans le frigo",
+   "acceptedAnswers": [
+    "le fromage est dans le frigo",
+    "le fromage dans le frigo",
+    "le fromage est au frigo",
+    "le fromage est dans le réfrigérateur"
+   ],
+   "explanation": "الجبنة = le fromage, في = dans, التلاجة = le frigo (leçon sur la maison).",
+   "tip": "Chose + في + lieu.",
+   "extraExample": {
+    "text": "الفراخ في التلاجة",
+    "translation": "Le poulet est dans le frigo"
+   }
+  },
+  {
+   "id": "ar.l36.e20",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.asir",
+    "ar.v.mashi"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Rappel : écris le sens en français.",
+   "prompt": "ماشي، عايز عصير",
+   "promptLanguage": "ar",
+   "answer": "d'accord, je veux du jus",
+   "acceptedAnswers": [
+    "d'accord, je veux du jus",
+    "d'accord je veux du jus",
+    "ok, je veux du jus",
+    "ok je veux du jus",
+    "d'accord, je veux un jus"
+   ],
+   "explanation": "ماشي = d'accord ; عايز عصير = je veux du jus.",
+   "tip": "ماشي + commande.",
+   "extraExample": {
+    "text": "ماشي، عايز شاي",
+    "translation": "D'accord, je veux du thé"
+   }
+  },
+  {
+   "id": "ar.l36.e21",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.molokheya"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Sur un menu, tu lis « ملوخية ». Quel genre de plat est-ce ?",
+   "promptLanguage": "fr",
+   "answer": "une soupe verte",
+   "acceptedAnswers": [
+    "une soupe verte",
+    "soupe verte",
+    "une soupe",
+    "soupe",
+    "un plat vert",
+    "de la soupe",
+    "soupe de corète",
+    "une soupe d'herbes"
+   ],
+   "explanation": "ملوخية est une soupe verte faite de feuilles hachées (carte « ملوخية et فراخ »).",
+   "tip": "Elle se sert avec du رز.",
+   "extraExample": {
+    "text": "ملوخية ورز",
+    "translation": "De la mouloukhiya et du riz"
+   }
+  },
+  {
+   "id": "ar.l36.e22",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.ferakh"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Tu lis sur un menu « رز وفراخ ». Qu'est-ce que tu vas manger ?",
+   "promptLanguage": "fr",
+   "answer": "du riz et du poulet",
+   "acceptedAnswers": [
+    "du riz et du poulet",
+    "riz et poulet",
+    "du riz avec du poulet",
+    "riz avec poulet",
+    "riz poulet",
+    "du riz et de la volaille"
+   ],
+   "explanation": "رز = riz, و = et, فراخ = poulet.",
+   "tip": "و collé au mot suivant = et.",
+   "extraExample": {
+    "text": "رز وسمك",
+    "translation": "Du riz et du poisson"
+   }
+  },
+  {
+   "id": "ar.l36.e23",
+   "unitIds": [
+    "ar.g36.la_nourriture",
+    "ar.v.gebna",
+    "ar.v.eish"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Forme la phrase : « Je veux du pain et du fromage ».",
+   "promptLanguage": "ar",
+   "answer": "عايز عيش وجبنة",
+   "acceptedAnswers": [
+    "عايز عيش وجبنة"
+   ],
+   "explanation": "عايز (je veux) vient en premier, puis les deux aliments reliés par و.",
+   "tip": "عايز + aliment + و + aliment.",
+   "extraExample": {
+    "text": "عايز فول وطعمية",
+    "translation": "Je veux des fèves et des croquettes"
+   },
+   "tokens": [
+    "عايز",
+    "وجبنة",
+    "عيش"
+   ]
+  }
+ ]
+}

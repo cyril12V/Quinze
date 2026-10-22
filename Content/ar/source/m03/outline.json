@@ -1,0 +1,590 @@
+{
+ "module": {
+  "id": 3,
+  "title": "Les harakat",
+  "description": "Les petits signes qui donnent les voyelles : fatha, kasra, damma, soukoun, voyelles longues, chadda, tanwin, hamza, ال et ة ى. Tu lis des mots égyptiens et d'église entièrement vocalisés."
+ },
+ "grammarUnits": [
+  {
+   "id": "ar.g17.short_vowels",
+   "category": "reading",
+   "title": "Les trois voyelles brèves : fatha, kasra, damma",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g16.article_and_ligature"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g18.sukun",
+   "category": "reading",
+   "title": "Le soukoun ـْ et les sons ـَيْ, ـَوْ",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g17.short_vowels"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g19.long_vowels",
+   "category": "reading",
+   "title": "Les voyelles longues : ـَا, ـُو, ـِي",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g18.sukun"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g20.shadda",
+   "category": "reading",
+   "title": "La chadda ـّ : lettre doublée",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g18.sukun"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g21.tanwin",
+   "category": "reading",
+   "title": "Le tanwin : ـً, ـٍ, ـٌ",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g20.shadda"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g22.hamza_madda",
+   "category": "reading",
+   "title": "La hamza ء et la madda آ",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g19.long_vowels"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g23.article_sun_moon",
+   "category": "reading",
+   "title": "ال, lettres solaires et lunaires",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g20.shadda"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "ar.l17",
+   "sequence": 17,
+   "title": "Fatha, kasra, damma : les 3 voyelles",
+   "description": "Les trois petites voyelles de l'arabe, a, i, ou, écrites par des signes sur ou sous la lettre.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g17.short_vowels",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "بَلَد",
+     "slug": "balad",
+     "translation": "pays, village",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جَبَل",
+     "slug": "gabal",
+     "translation": "montagne",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "قَلَم",
+     "slug": "qalam",
+     "translation": "stylo",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "قَمَر",
+     "slug": "qamar",
+     "translation": "lune",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "حَمَل",
+     "slug": "hamal",
+     "translation": "agneau",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَسَل",
+     "slug": "asal",
+     "translation": "miel",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عِنَب",
+     "slug": "enab",
+     "translation": "raisin",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "رُسُل",
+     "slug": "rusul",
+     "translation": "apôtres",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "قُدُس",
+     "slug": "qudus",
+     "translation": "sainteté, saint",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l18",
+   "sequence": 18,
+   "title": "Le soukoun : zéro voyelle",
+   "description": "Le petit rond ـْ qui dit qu'une lettre n'a pas de voyelle, et les deux sons ـَيْ et ـَوْ.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g18.sukun",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g17.short_vowels"
+   ],
+   "vocabulary": [
+    {
+     "word": "بُرْج",
+     "slug": "burj",
+     "translation": "tour, clocher",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "نَجْم",
+     "slug": "nagm",
+     "translation": "étoile",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "كَلْب",
+     "slug": "kalb",
+     "translation": "chien",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "بَحْر",
+     "slug": "bahr",
+     "translation": "mer",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مَجْد",
+     "slug": "magd",
+     "translation": "gloire",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "صَوْم",
+     "slug": "sawm",
+     "translation": "jeûne",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "لَوْن",
+     "slug": "lawn",
+     "translation": "couleur",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عَيْن",
+     "slug": "ain_eye",
+     "translation": "œil",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ضَيْف",
+     "slug": "dayf",
+     "translation": "invité",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شَمْس",
+     "slug": "shams",
+     "translation": "soleil",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l19",
+   "sequence": 19,
+   "title": "Voyelles longues : ا و ي",
+   "description": "Comment une voyelle brève suivie de ا, و ou ي devient longue : â, ou long, i long.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g19.long_vowels",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g17.short_vowels",
+    "ar.g18.sukun"
+   ],
+   "vocabulary": [
+    {
+     "word": "رُوح",
+     "slug": "ruh",
+     "translation": "esprit, âme",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "طَرِيق",
+     "slug": "tariq",
+     "translation": "route, chemin",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "تِلْمِيذ",
+     "slug": "tilmiz",
+     "translation": "élève, disciple",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "رَاهِب",
+     "slug": "rahib",
+     "translation": "moine",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "كَاهِن",
+     "slug": "kahin",
+     "translation": "prêtre",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "صَدِيق",
+     "slug": "sadiq",
+     "translation": "ami",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "دُكْتُور",
+     "slug": "duktur",
+     "translation": "docteur",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "كِبِير",
+     "slug": "kibir",
+     "translation": "grand",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "جَار",
+     "slug": "gar",
+     "translation": "voisin",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "فِيل",
+     "slug": "fil",
+     "translation": "éléphant",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l20",
+   "sequence": 20,
+   "title": "La chadda : la lettre doublée",
+   "description": "Le petit w ـّ qui double une lettre : كُبَّايَة, مَيَّة, قُدَّاس, رَبّ.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g20.shadda",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g18.sukun",
+    "ar.g19.long_vowels"
+   ],
+   "vocabulary": [
+    {
+     "word": "كُبَّايَة",
+     "slug": "kubbaya",
+     "translation": "verre (à boire)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "رَبّ",
+     "slug": "rabb",
+     "translation": "Seigneur",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "حُبّ",
+     "slug": "hubb",
+     "translation": "amour",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "كُلّ",
+     "slug": "kull",
+     "translation": "tout, chaque",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "سِتّ",
+     "slug": "sitt",
+     "translation": "dame, madame ; six",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مُعَلِّم",
+     "slug": "muallim",
+     "translation": "maître, patron",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "دُكَّان",
+     "slug": "dukkan",
+     "translation": "boutique",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "قِدِّيس",
+     "slug": "qiddis",
+     "translation": "saint",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "سَيِّد",
+     "slug": "sayyid",
+     "translation": "monsieur, seigneur",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جَنَّة",
+     "slug": "janna",
+     "translation": "paradis, jardin",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l21",
+   "sequence": 21,
+   "title": "Le tanwin : le n de la fin",
+   "description": "Les signes doublés ـً ـٍ ـٌ à la fin d'un mot, et les petits mots du quotidien qui les portent : شُكْرًا, جِدًّا, طَبْعًا.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g21.tanwin",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g19.long_vowels",
+    "ar.g20.shadda"
+   ],
+   "vocabulary": [
+    {
+     "word": "عَفْوًا",
+     "slug": "afwan",
+     "translation": "de rien, pardon",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "جِدًّا",
+     "slug": "giddan",
+     "translation": "très",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "طَبْعًا",
+     "slug": "tabaan",
+     "translation": "bien sûr",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "فِعْلًا",
+     "slug": "filan",
+     "translation": "vraiment",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "مَثَلًا",
+     "slug": "masalan",
+     "translation": "par exemple",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "تَقْرِيبًا",
+     "slug": "taqriban",
+     "translation": "environ, presque",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "دَايِمًا",
+     "slug": "dayiman",
+     "translation": "toujours",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "حَالًا",
+     "slug": "halan",
+     "translation": "tout de suite",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "غَالِبًا",
+     "slug": "ghaliban",
+     "translation": "souvent, le plus souvent",
+     "partOfSpeech": "adverb"
+    }
+   ]
+  },
+  {
+   "id": "ar.l22",
+   "sequence": 22,
+   "title": "Hamza et madda : le coup de gorge",
+   "description": "La hamza ء seule ou sur un support (أ إ ؤ ئ), la madda آ, et le ا de liaison.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g22.hamza_madda",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g19.long_vowels",
+    "ar.g21.tanwin"
+   ],
+   "vocabulary": [
+    {
+     "word": "سُؤَال",
+     "slug": "suaal",
+     "translation": "question",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "رَئِيس",
+     "slug": "raees",
+     "translation": "chef, supérieur",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مَسَاء",
+     "slug": "masaa",
+     "translation": "soir",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مَلَائِكَة",
+     "slug": "malaika",
+     "translation": "anges",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "إِيمَان",
+     "slug": "iman",
+     "translation": "foi",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "آدَم",
+     "slug": "adam",
+     "translation": "Adam",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "إِبْرَاهِيم",
+     "slug": "ibrahim",
+     "translation": "Abraham",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أَمَل",
+     "slug": "amal",
+     "translation": "espoir",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أَسَد",
+     "slug": "asad",
+     "translation": "lion",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أَيْوَه",
+     "slug": "aywa",
+     "translation": "oui",
+     "partOfSpeech": "interjection"
+    }
+   ]
+  },
+  {
+   "id": "ar.l23",
+   "sequence": 23,
+   "title": "ال : lettres solaires et lunaires",
+   "description": "L'article ال et les deux familles de lettres : devant les lunaires le ل se dit, devant les solaires il s'efface.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g23.article_sun_moon",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g20.shadda",
+    "ar.g22.hamza_madda"
+   ],
+   "vocabulary": [
+    {
+     "word": "الْقُمُّص",
+     "slug": "el_qummus",
+     "translation": "l'archiprêtre",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الْمَطْرَان",
+     "slug": "el_matran",
+     "translation": "le métropolite",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الْأُسْقُف",
+     "slug": "el_usquf",
+     "translation": "l'évêque",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الْأَقْبَاط",
+     "slug": "el_aqbat",
+     "translation": "les Coptes",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الْكِتَاب الْمُقَدَّس",
+     "slug": "el_kitab_el_muqaddas",
+     "translation": "la Bible",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "الْأَرْض",
+     "slug": "el_ard",
+     "translation": "la terre",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "السَّمَاء",
+     "slug": "el_sama",
+     "translation": "le ciel, les cieux",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الدُّنْيَا",
+     "slug": "el_dunya",
+     "translation": "le monde, la vie",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الْكَلِمَة",
+     "slug": "el_kalima",
+     "translation": "la Parole, le mot",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الشَّعْب",
+     "slug": "el_shaab",
+     "translation": "le peuple",
+     "partOfSpeech": "noun"
+    }
+   ]
+  }
+ ]
+}

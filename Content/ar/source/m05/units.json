@@ -1,0 +1,354 @@
+[
+ {
+  "id": "ar.g33.salutations_politesse",
+  "rule": {
+   "summary": "En égyptien, une salutation est un petit dialogue : on lance une phrase et l'autre répond en renchérissant.",
+   "explanation": "Le matin, صباح الخير appelle صباح النور ; le soir, مساء الخير appelle مساء النور. Pour prendre des nouvelles, إزيك ou عامل إيه (عاملة إيه à une femme) appellent الحمد لله. Un merci appelle العفو. Pour la politesse : من فضلك (s'il te plaît), لو سمحت et عن إذنك (excuse-moi), معلش (pardon). On se quitte avec مع السلامة.",
+   "pattern": "صباح الخير ← صباح النور  |  شكرا ← العفو  |  إزيك ← الحمد لله",
+   "examples": [
+    {
+     "text": "مساء الخير يا أبونا — مساء النور",
+     "translation": "Bonsoir, notre père — Bonsoir (réponse)"
+    },
+    {
+     "text": "عاملة إيه يا مريم؟ — الحمد لله",
+     "translation": "Comment ça va, Mariam ? — Dieu merci"
+    },
+    {
+     "text": "شكرا — العفو",
+     "translation": "Merci — De rien"
+    },
+    {
+     "text": "عن إذنك، مع السلامة",
+     "translation": "Avec ta permission, au revoir"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "عامل إيه يا مريم؟",
+     "right": "عاملة إيه يا مريم؟",
+     "why": "À une femme, on ajoute ة : عاملة, au lieu de عامل."
+    },
+    {
+     "wrong": "مساء الخير (à 8 h du matin)",
+     "right": "صباح الخير",
+     "why": "Le matin on dit صباح, à partir de l'après-midi مساء."
+    },
+    {
+     "wrong": "شكرا ← شكرا",
+     "right": "شكرا ← العفو",
+     "why": "Quand on te dit شكرا, on répond العفو (de rien), pas un deuxième merci."
+    }
+   ],
+   "tip": "Retiens les salutations par paires : صباح الخير ← صباح النور, مساء الخير ← مساء النور."
+  }
+ },
+ {
+  "id": "ar.g34.la_famille",
+  "rule": {
+   "summary": "Un petit ي collé à la fin d'un nom veut dire « mon » ou « ma » ; ـنا veut dire « notre ».",
+   "explanation": "Les mots de la famille s'emploient presque toujours avec « mon » ou « ma » collé : ابن (fils) devient ابني (mon fils), بنت (fille) devient بنتي (ma fille). Pour « notre », on colle ـنا : أبونا (notre père). Le frère est un cas particulier : أخويا. Pour appeler quelqu'un, on met يا devant : يا ماما.",
+   "pattern": "nom + ـي = mon / ma   |   nom + ـنا = notre",
+   "examples": [
+    {
+     "text": "ابني مينا",
+     "translation": "Mon fils Mina"
+    },
+    {
+     "text": "بنتي مريم",
+     "translation": "Ma fille Mariam"
+    },
+    {
+     "text": "أخويا وأختي",
+     "translation": "Mon frère et ma sœur"
+    },
+    {
+     "text": "يا ماما، إزيك؟",
+     "translation": "Maman, comment vas-tu ?"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "مراتي = mon mari",
+     "right": "جوزي = mon mari",
+     "why": "جوزي est le mari ; مراتي est l'épouse."
+    },
+    {
+     "wrong": "ابني = ma fille",
+     "right": "بنتي = ma fille",
+     "why": "ابن (fils) donne ابني ; بنت (fille) donne بنتي."
+    },
+    {
+     "wrong": "خالتو = la sœur de mon père",
+     "right": "خالتو = la sœur de ma mère",
+     "why": "La sœur de la mère est خالتو ; le frère du père est عمو."
+    }
+   ],
+   "tip": "Quand un nom de la famille finit par ي, traduis-le par « mon » ou « ma »."
+  }
+ },
+ {
+  "id": "ar.g35.la_maison",
+  "rule": {
+   "summary": "Pour dire où se trouve une chose, on place في (« dans, à ») entre la chose et le lieu.",
+   "explanation": "La phrase égyptienne n'a pas de verbe « être » au présent : السرير في الأوضة se lit « le lit [est] dans la chambre ». ال veut dire « le / la ». Les mots de la maison s'apprennent par pièces : cuisine (مطبخ, تلاجة), salle de bain (حمام), chambre (سرير), salon (كنبة), ouvertures (شباك, باب, بلكونة).",
+   "pattern": "الشيء + في + المكان   (la chose + dans + le lieu)",
+   "examples": [
+    {
+     "text": "السرير في الأوضة",
+     "translation": "Le lit est dans la chambre"
+    },
+    {
+     "text": "التلاجة في المطبخ",
+     "translation": "Le frigo est dans la cuisine"
+    },
+    {
+     "text": "الكنبة في الصالة",
+     "translation": "Le canapé est dans le salon"
+    },
+    {
+     "text": "الكرسي في البلكونة",
+     "translation": "La chaise est sur le balcon"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "مطبخ = salle de bain",
+     "right": "مطبخ = cuisine ; حمام = salle de bain",
+     "why": "مطبخ commence par م, حمام par ح."
+    },
+    {
+     "wrong": "شباك = porte",
+     "right": "شباك = fenêtre ; باب = porte",
+     "why": "La porte est باب, tu la connais déjà."
+    },
+    {
+     "wrong": "الأوضة (les pièces)",
+     "right": "الأوض (les pièces)",
+     "why": "Au pluriel, le ة de أوضة tombe : أوض."
+    }
+   ],
+   "tip": "Pas de verbe : chose + في + lieu suffit pour dire où elle est."
+  }
+ },
+ {
+  "id": "ar.g36.la_nourriture",
+  "rule": {
+   "summary": "Un nom de nourriture désigne le groupe ; un ة final désigne une seule pièce.",
+   "explanation": "بيض veut dire « des œufs » en général, et بيضة « un œuf ». Même logique pour موز (des bananes) et موزة (une banane), تين (des figues) et تينة (une figue). Pour commander, on dit عايز devant le plat. Un و collé au mot suivant veut dire « et » : فول وطعمية, « fèves et croquettes de fèves ».",
+   "pattern": "بيض (des œufs) + ة = بيضة (un œuf)   |   و + mot = « et » + mot",
+   "examples": [
+    {
+     "text": "فول وطعمية",
+     "translation": "Des fèves et des croquettes de fèves"
+    },
+    {
+     "text": "عايز بيضة",
+     "translation": "Je veux un œuf"
+    },
+    {
+     "text": "رز وفراخ",
+     "translation": "Du riz et du poulet"
+    },
+    {
+     "text": "عيش وجبنة",
+     "translation": "Du pain et du fromage"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "بيضة = des œufs",
+     "right": "بيض = des œufs ; بيضة = un œuf",
+     "why": "Le ة final désigne une seule pièce."
+    },
+    {
+     "wrong": "كشري = soupe verte",
+     "right": "كشري = riz, pâtes et lentilles ; ملوخية = soupe verte",
+     "why": "Deux plats très différents : un mélange de féculents et une soupe d'herbe."
+    },
+    {
+     "wrong": "فراخ = viande de bœuf",
+     "right": "فراخ = poulet ; لحمة = viande",
+     "why": "فراخ est la volaille ; لحمة est la viande, surtout le bœuf et l'agneau."
+    }
+   ],
+   "tip": "Pour un seul œuf, une seule banane, une seule figue : ajoute ة."
+  }
+ },
+ {
+  "id": "ar.g37.cafe_et_marche",
+  "rule": {
+   "summary": "On commande avec عايز, on demande le prix avec بكام, et l'adjectif s'accorde avec le nom : غالي (masculin), غالية (féminin).",
+   "explanation": "عايز + chose veut dire « je veux… » ; une femme dit عايزة. Pour le prix : بكام + chose ? (« combien ça coûte ? »). Cher se dit غالي, bon marché رخيص ; si le nom est féminin, on ajoute ة : اللحمة غالية. À la fin du repas : الحساب لو سمحت.",
+   "pattern": "عايز + chose   |   بكام + chose ؟   |   adjectif + ة = féminin",
+   "examples": [
+    {
+     "text": "عايز كباية شاي",
+     "translation": "Je veux un verre de thé"
+    },
+    {
+     "text": "بكام ده؟",
+     "translation": "Combien ça coûte ?"
+    },
+    {
+     "text": "اللحمة غالية",
+     "translation": "La viande est chère"
+    },
+    {
+     "text": "الكشري رخيص",
+     "translation": "Le kushari est bon marché"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "اللحمة غالي",
+     "right": "اللحمة غالية",
+     "why": "لحمة est un nom féminin : l'adjectif prend ة."
+    },
+    {
+     "wrong": "عايز (dit par une dame)",
+     "right": "عايزة",
+     "why": "Une femme ajoute ة : عايزة."
+    },
+    {
+     "wrong": "فلوس = la monnaie du pays",
+     "right": "جنيه = la monnaie ; فلوس = l'argent en général",
+     "why": "جنيه est l'unité (la livre égyptienne), فلوس désigne l'argent."
+    }
+   ],
+   "tip": "Au féminin, ajoute ة : عايزة, غالية, رخيصة."
+  }
+ },
+ {
+  "id": "ar.g38.nombres_et_prix",
+  "rule": {
+   "summary": "Les nombres s'écrivent en chiffres arabes orientaux (١ ٢ ٣…), toujours de gauche à droite, et se disent avec des mots simples.",
+   "explanation": "Au Caire tu lis ١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ٠ sur les prix, les billets et les tickets. Les nombres à plusieurs chiffres se lisent de gauche à droite : ١٢ est douze. Les dizaines se terminent en ـين : عشرة (10) donne عشرين (20), خمسة (5) donne خمسين (50). Pour un prix, ب (« pour ») s'ajoute devant : بخمسة جنيه.",
+   "pattern": "١ ٢ ٣ ٤ ٥ ٦ ٧ ٨ ٩ ١٠   |   ب + nombre + جنيه = pour… livres",
+   "examples": [
+    {
+     "text": "بخمسة جنيه",
+     "translation": "Pour cinq livres"
+    },
+    {
+     "text": "بعشرين جنيه",
+     "translation": "Pour vingt livres"
+    },
+    {
+     "text": "اتنين شاي",
+     "translation": "Deux thés"
+    },
+    {
+     "text": "مية جنيه",
+     "translation": "Cent livres"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "٥ = zéro",
+     "right": "٥ = cinq ; ٠ = zéro",
+     "why": "Le ٥ est rond comme un zéro, mais le vrai zéro est un simple point."
+    },
+    {
+     "wrong": "٧ = 8 et ٨ = 7",
+     "right": "٧ = 7 (un V) ; ٨ = 8 (un V à l'envers)",
+     "why": "٧ ressemble à un V ; ٨ à un V à l'envers."
+    },
+    {
+     "wrong": "مية = seulement l'eau",
+     "right": "مية = l'eau ou cent, selon le contexte",
+     "why": "Deux mots différents s'écrivent pareil : le sens dépend de la phrase."
+    }
+   ],
+   "tip": "٠ est un point, ٥ est un rond, ٧ est un V, ٨ est un V à l'envers."
+  }
+ },
+ {
+  "id": "ar.g39.le_temps",
+  "rule": {
+   "summary": "Pour situer dans le temps, on pose un mot de temps (امبارح, النهارده, بكرة, الصبح…) ; l'heure se dit الساعة + nombre.",
+   "explanation": "Trois repères de base : امبارح (hier), النهارده (aujourd'hui), بكرة (demain). Les moments de la journée : الصبح (le matin), الضهر (à midi), بالليل (la nuit) ; ب veut dire « à, pendant ». L'heure : الساعة كام ؟ demande l'heure, on répond الساعة + nombre, avec ونص (et demie) et وربع (et quart). La semaine démarre le dimanche et suit les nombres : الأحد (un), الاتنين (deux), التلات (trois), الأربع (quatre), الخميس (cinq).",
+   "pattern": "امبارح — النهارده — بكرة   |   الساعة + nombre (+ ونص / وربع)",
+   "examples": [
+    {
+     "text": "بكرة الساعة تمانية",
+     "translation": "Demain à huit heures"
+    },
+    {
+     "text": "الساعة تلاتة ونص",
+     "translation": "Il est trois heures et demie"
+    },
+    {
+     "text": "النهارده الأحد",
+     "translation": "Aujourd'hui c'est dimanche"
+    },
+    {
+     "text": "بالليل بنصلي",
+     "translation": "La nuit, on prie"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "الساعة تلاتة وربع = 3 h 30",
+     "right": "الساعة تلاتة ونص = 3 h 30 ; وربع = 3 h 15",
+     "why": "نص veut dire la moitié, ربع le quart."
+    },
+    {
+     "wrong": "الاتنين = mardi",
+     "right": "الاتنين = lundi",
+     "why": "La semaine commence au dimanche (un) : الاتنين (deux) est le lundi."
+    },
+    {
+     "wrong": "بكرة = hier",
+     "right": "بكرة = demain ; امبارح = hier",
+     "why": "Les deux commencent par une lettre à bâton mais ne se lisent pas pareil : امبارح a un ا au début."
+    }
+   ],
+   "tip": "Dimanche = un, lundi = deux, mardi = trois, mercredi = quatre, jeudi = cinq : les jours suivent les nombres."
+  }
+ },
+ {
+  "id": "ar.g40.a_l_eglise",
+  "rule": {
+   "summary": "Les mots d'église se rangent en trois familles : le lieu (هيكل, مذبح, أيقونة), les personnes (أبونا, شماس, القديسين) et le temps (عشية, قداس, صيام, عيد).",
+   "explanation": "L'église (كنيسة) contient le هيكل, le sanctuaire où se trouve le مذبح (l'autel), et des أيقونة (icônes). Les personnes : أبونا (le prêtre), شماس (le diacre), القديسين (les saints, avec le pluriel en ـين) et مارجرجس (saint Georges ; مار = saint devant un nom). Le temps : عشية (le soir), قداس (la liturgie), صيام (les jours de jeûne), عيد (les fêtes). ـنا veut dire « notre » : أبونا, ربنا, أمنا.",
+   "pattern": "lieu : هيكل · مذبح · أيقونة   |   personnes : أبونا · شماس · القديسين   |   temps : عشية · قداس · صيام · عيد",
+   "examples": [
+    {
+     "text": "الأيقونة في الكنيسة",
+     "translation": "L'icône est dans l'église"
+    },
+    {
+     "text": "أبونا في الهيكل",
+     "translation": "Notre père est dans le sanctuaire"
+    },
+    {
+     "text": "القداس يوم الأحد",
+     "translation": "La liturgie est le dimanche"
+    },
+    {
+     "text": "الأربع والجمعة صيام",
+     "translation": "Mercredi et vendredi : jeûne"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "هيكل = toute l'église",
+     "right": "كنيسة = l'église entière ; هيكل = le sanctuaire avec l'autel",
+     "why": "Le هيكل est seulement la partie où se trouve le مذبح."
+    },
+    {
+     "wrong": "عيد الميلاد = 25 décembre",
+     "right": "عيد الميلاد = 7 janvier",
+     "why": "Les coptes fêtent Noël le 7 janvier."
+    },
+    {
+     "wrong": "القديسين = le saint",
+     "right": "القديسين = les saints",
+     "why": "Le ـين final marque le pluriel des personnes ; le singulier est قديس."
+    }
+   ],
+   "tip": "Quand tu lis un mot d'église, demande-toi : c'est un lieu, une personne ou un moment ?"
+  }
+ }
+]

@@ -1,0 +1,688 @@
+{
+ "module": {
+  "id": 4,
+  "title": "Lire petit à petit",
+  "description": "Des syllabes aux phrases : tu lis des mots longs, des phrases égyptiennes, les réponses de la liturgie et les petits mots de tous les jours, sans voyelles et sans effort."
+ },
+ "grammarUnits": [
+  {
+   "id": "ar.g25.syllabes",
+   "category": "reading",
+   "title": "Lire par syllabes : consonne + voyelle",
+   "difficulty": 1,
+   "prerequisites": [
+    "ar.g22.hamza_madda"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g26.long_words",
+   "category": "reading",
+   "title": "Lire les mots longs : couper en blocs",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g25.syllabes",
+    "ar.g10.letters_that_do_not_connect"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g27.short_sentences",
+   "category": "reading",
+   "title": "Lire de petites phrases égyptiennes",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g26.long_words"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g28.liturgy",
+   "category": "reading",
+   "title": "Les réponses de la liturgie",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g27.short_sentences"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g29.read_with_meaning",
+   "category": "reading",
+   "title": "Lire sans voyelles en s'aidant du sens",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g28.liturgy"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g30.little_words",
+   "category": "reading",
+   "title": "Les petits mots les plus fréquents",
+   "difficulty": 2,
+   "prerequisites": [
+    "ar.g29.read_with_meaning"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g31.sentence_flow",
+   "category": "reading",
+   "title": "Lire une phrase d'un seul trait",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g30.little_words"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "ar.g32.reading_review",
+   "category": "reading",
+   "title": "Bilan de lecture : la rue et l'église",
+   "difficulty": 3,
+   "prerequisites": [
+    "ar.g31.sentence_flow"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "ar.l25",
+   "sequence": 25,
+   "title": "Lire par petits paquets",
+   "description": "Tu apprends à lire par syllabes plutôt que lettre par lettre, puis tu lis tes premiers mots courts.",
+   "difficulty": 1,
+   "grammarUnitId": "ar.g25.syllabes",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.g17.short_vowels",
+    "ar.v.alif",
+    "ar.v.baba",
+    "ar.v.bab",
+    "ar.v.bayt",
+    "ar.v.kanisa",
+    "ar.v.qalam"
+   ],
+   "vocabulary": [
+    {
+     "word": "ماما",
+     "slug": "mama",
+     "translation": "maman",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "تيتة",
+     "slug": "teta",
+     "translation": "mamie",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "نور",
+     "slug": "nur",
+     "translation": "lumière",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "موز",
+     "slug": "mooz",
+     "translation": "banane",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ملح",
+     "slug": "milh",
+     "translation": "sel",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "سمك",
+     "slug": "samak",
+     "translation": "poisson",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جمل",
+     "slug": "gamal",
+     "translation": "chameau",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "قطة",
+     "slug": "otta",
+     "translation": "chat (chatte)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ولد",
+     "slug": "walad",
+     "translation": "garçon",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l26",
+   "sequence": 26,
+   "title": "Les mots longs, bloc par bloc",
+   "description": "Tu découpes les longs mots en petits blocs, tu lis ال d'un coup et tu reconnais les fins qui reviennent.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g26.long_words",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.kanisa",
+    "ar.v.rabbina",
+    "ar.v.abouna",
+    "ar.v.mama",
+    "ar.v.walad"
+   ],
+   "vocabulary": [
+    {
+     "word": "مدرسة",
+     "slug": "madrasa",
+     "translation": "école",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مستشفى",
+     "slug": "mustashfa",
+     "translation": "hôpital",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "موبايل",
+     "slug": "mobail",
+     "translation": "portable",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أتوبيس",
+     "slug": "utobis",
+     "translation": "bus",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "تليفون",
+     "slug": "telifun",
+     "translation": "téléphone",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "جامعة",
+     "slug": "gamia",
+     "translation": "université",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مطعم",
+     "slug": "matam",
+     "translation": "restaurant",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "القاهرة",
+     "slug": "al_qahira",
+     "translation": "Le Caire",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الكاتدرائية",
+     "slug": "al_katidraiya",
+     "translation": "la cathédrale",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l27",
+   "sequence": 27,
+   "title": "Premières phrases de tous les jours",
+   "description": "Tu lis les phrases que tu dis tous les jours : demander des nouvelles, répondre, demander son chemin.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g27.short_sentences",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.ayiz",
+    "ar.v.shay",
+    "ar.v.jaan",
+    "ar.v.sabah",
+    "ar.v.nur",
+    "ar.v.kanisa",
+    "ar.v.mama",
+    "ar.g26.long_words"
+   ],
+   "vocabulary": [
+    {
+     "word": "أنا",
+     "slug": "ana",
+     "translation": "je, moi",
+     "partOfSpeech": "pronoun"
+    },
+    {
+     "word": "إزيك",
+     "slug": "ezzayyak",
+     "translation": "comment vas-tu ?",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "كويس",
+     "slug": "kwayyis",
+     "translation": "bien",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "الحمد لله",
+     "slug": "elhamdulillah",
+     "translation": "Dieu merci",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "فين",
+     "slug": "fin",
+     "translation": "où",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "أهلا",
+     "slug": "ahlan",
+     "translation": "salut, bienvenue",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "شكرا",
+     "slug": "shokran",
+     "translation": "merci",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "لو سمحت",
+     "slug": "law_samaht",
+     "translation": "excuse-moi (pour interpeller)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "صباح الخير",
+     "slug": "sabah_el_kheir",
+     "translation": "bonjour (le matin)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "يا",
+     "slug": "ya_nida",
+     "translation": "ô (pour appeler quelqu'un)",
+     "partOfSpeech": "particle"
+    }
+   ]
+  },
+  {
+   "id": "ar.l28",
+   "sequence": 28,
+   "title": "À l'église : réponses et mots de la liturgie",
+   "description": "Tu lis les réponses que tu connais par cœur à l'église et les mots des offices : les paroles que ta mémoire aide à lire vite.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g28.liturgy",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.amin",
+    "ar.v.salat",
+    "ar.v.quddas",
+    "ar.v.mazmur",
+    "ar.v.nabawat",
+    "ar.v.masih",
+    "ar.g26.long_words",
+    "ar.v.rabb"
+   ],
+   "vocabulary": [
+    {
+     "word": "يا رب ارحم",
+     "slug": "ya_rab_irham",
+     "translation": "Seigneur, aie pitié",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "السلام لكل",
+     "slug": "salam_likol",
+     "translation": "la paix à tous",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "ولروحك أيضا",
+     "slug": "wi_liruhak_ayan",
+     "translation": "et à ton esprit aussi",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "المجد لك يا رب",
+     "slug": "magd_lak",
+     "translation": "gloire à toi, Seigneur",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "تسبحة",
+     "slug": "tasbiha",
+     "translation": "office de louange",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أجبية",
+     "slug": "agbiya",
+     "translation": "livre des heures",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "هللويا",
+     "slug": "halleluya",
+     "translation": "alléluia",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "المسيح قام",
+     "slug": "masih_qam",
+     "translation": "le Christ est ressuscité",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "قدوس",
+     "slug": "quddus",
+     "translation": "saint",
+     "partOfSpeech": "adjective"
+    }
+   ]
+  },
+  {
+   "id": "ar.l29",
+   "sequence": 29,
+   "title": "Sans voyelles, avec le sens",
+   "description": "Tu lis comme les Égyptiens écrivent : sans voyelles courtes, en laissant l'oreille et le sens trouver le bon mot.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g29.read_with_meaning",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.g17.short_vowels",
+    "ar.v.gamia",
+    "ar.v.shokran",
+    "ar.v.salat",
+    "ar.v.agbiya",
+    "ar.v.al_qahira",
+    "ar.v.samak"
+   ],
+   "vocabulary": [
+    {
+     "word": "كتب",
+     "slug": "kutub_katab",
+     "translation": "livres ; il a écrit",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "علم",
+     "slug": "alam_ilm",
+     "translation": "drapeau ; science",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "أكل",
+     "slug": "akl_akal",
+     "translation": "nourriture ; il a mangé",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "عندي",
+     "slug": "andi",
+     "translation": "j'ai",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "كتير",
+     "slug": "kitir",
+     "translation": "beaucoup",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "جواب",
+     "slug": "gawab",
+     "translation": "lettre (courrier)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مصر",
+     "slug": "masr",
+     "translation": "Égypte",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l30",
+   "sequence": 30,
+   "title": "Les petits mots qui sont partout",
+   "description": "Tu reconnais d'un coup d'œil les petits mots les plus fréquents : ده, دي, دول, في, على, مش et les mots de question.",
+   "difficulty": 2,
+   "grammarUnitId": "ar.g30.little_words",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.mish",
+    "ar.v.fin",
+    "ar.v.kwayyis",
+    "ar.v.kitir",
+    "ar.v.bayt",
+    "ar.v.kanisa",
+    "ar.v.kitab",
+    "ar.v.tarabeza"
+   ],
+   "vocabulary": [
+    {
+     "word": "ده",
+     "slug": "da",
+     "translation": "ça, ce (masculin)",
+     "partOfSpeech": "pronoun"
+    },
+    {
+     "word": "دي",
+     "slug": "di",
+     "translation": "ça, cette (féminin)",
+     "partOfSpeech": "pronoun"
+    },
+    {
+     "word": "دول",
+     "slug": "dol",
+     "translation": "ces, ceux-ci (pluriel)",
+     "partOfSpeech": "pronoun"
+    },
+    {
+     "word": "في",
+     "slug": "fi",
+     "translation": "dans ; il y a",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "على",
+     "slug": "ala",
+     "translation": "sur",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "إيه",
+     "slug": "eh",
+     "translation": "quoi",
+     "partOfSpeech": "pronoun"
+    },
+    {
+     "word": "مين",
+     "slug": "min",
+     "translation": "qui",
+     "partOfSpeech": "pronoun"
+    },
+    {
+     "word": "ليه",
+     "slug": "leh",
+     "translation": "pourquoi",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "إمتى",
+     "slug": "imta",
+     "translation": "quand",
+     "partOfSpeech": "adverb"
+    }
+   ]
+  },
+  {
+   "id": "ar.l31",
+   "sequence": 31,
+   "title": "Une phrase d'un seul trait",
+   "description": "Tu lis des phrases entières par groupes de sens, avec les mots de la rue que tu dis cent fois par jour.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g31.sentence_flow",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.ala",
+    "ar.v.leh",
+    "ar.v.min",
+    "ar.v.mish",
+    "ar.v.bukra",
+    "ar.v.magd_lak",
+    "ar.v.masih_qam",
+    "ar.v.ya_rab_irham"
+   ],
+   "vocabulary": [
+    {
+     "word": "رايح",
+     "slug": "rayeh",
+     "translation": "je vais, il va",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "النهارده",
+     "slug": "naharda",
+     "translation": "aujourd'hui",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "دلوقتي",
+     "slug": "delwaqti",
+     "translation": "maintenant",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "كمان",
+     "slug": "kaman",
+     "translation": "aussi, encore",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "أوي",
+     "slug": "awi",
+     "translation": "très",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "خلاص",
+     "slug": "khalas",
+     "translation": "ça y est, c'est fini",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "يلا",
+     "slug": "yalla",
+     "translation": "allez ! on y va !",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "ماشي",
+     "slug": "mashi",
+     "translation": "d'accord, OK",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "تمام",
+     "slug": "tamam",
+     "translation": "parfait",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "كده",
+     "slug": "keda",
+     "translation": "comme ça",
+     "partOfSpeech": "adverb"
+    }
+   ]
+  },
+  {
+   "id": "ar.l32",
+   "sequence": 32,
+   "title": "Bilan de lecture",
+   "description": "Tu réunis tous tes outils de lecteur sur des panneaux de rue, des affiches d'église et un petit dialogue.",
+   "difficulty": 3,
+   "grammarUnitId": "ar.g32.reading_review",
+   "introducesGrammar": true,
+   "reviews": [
+    "ar.v.fi",
+    "ar.v.ala",
+    "ar.v.min",
+    "ar.v.imta",
+    "ar.v.mobail",
+    "ar.v.utobis",
+    "ar.v.walad",
+    "ar.v.samak",
+    "ar.v.kitir",
+    "ar.v.delwaqti",
+    "ar.v.salam_likol",
+    "ar.v.wi_liruhak_ayan",
+    "ar.v.ahlan"
+   ],
+   "vocabulary": [
+    {
+     "word": "صيدلية",
+     "slug": "saydaliya",
+     "translation": "pharmacie",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مخرج",
+     "slug": "makhrag",
+     "translation": "sortie",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ممنوع",
+     "slug": "mamnu",
+     "translation": "interdit",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "مترو",
+     "slug": "metro",
+     "translation": "métro",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شارع",
+     "slug": "share",
+     "translation": "rue",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "محطة",
+     "slug": "mahatta",
+     "translation": "station",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الأحد",
+     "slug": "el_ahad",
+     "translation": "dimanche",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "مدارس الأحد",
+     "slug": "madares_el_ahad",
+     "translation": "école du dimanche",
+     "partOfSpeech": "expression"
+    }
+   ]
+  }
+ ]
+}

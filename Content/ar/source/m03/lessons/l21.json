@@ -1,0 +1,819 @@
+{
+ "lessonId": "ar.l21",
+ "exercises": [
+  {
+   "id": "ar.l21.e01",
+   "unitIds": [
+    "ar.g21.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Où écrit-on le tanwin ?",
+   "promptLanguage": "fr",
+   "answer": "à la fin du mot",
+   "acceptedAnswers": [
+    "à la fin du mot"
+   ],
+   "explanation": "Le tanwin ne s'écrit qu'à la fin d'un mot : il ajoute un n final.",
+   "tip": "Tanwin = n de la fin.",
+   "extraExample": {
+    "text": "شُكْرًا",
+    "translation": "merci"
+   },
+   "options": [
+    "au début du mot",
+    "à la fin du mot",
+    "au milieu du mot"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "au début du mot",
+     "category": "spelling",
+     "feedback": "Jamais au début : un mot ne commence pas par un n supplémentaire."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e02",
+   "unitIds": [
+    "ar.g21.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Quel son donne ـً ?",
+   "promptLanguage": "fr",
+   "answer": "an",
+   "acceptedAnswers": [
+    "an"
+   ],
+   "explanation": "Deux fathas donnent le son an. Deux kasras donnent in, deux dammas oun.",
+   "tip": "Deux fathas : an.",
+   "extraExample": {
+    "text": "طَبْعًا",
+    "translation": "bien sûr"
+   },
+   "options": [
+    "oun",
+    "in",
+    "an"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "in",
+     "category": "spelling",
+     "feedback": "Le son in vient des deux kasras ـٍ, sous la lettre."
+    },
+    {
+     "equals": "oun",
+     "category": "spelling",
+     "feedback": "Le son oun vient des deux dammas ـٌ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e03",
+   "unitIds": [
+    "ar.g21.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Dans شُكْرًا, le ا final se prononce-t-il à part ?",
+   "promptLanguage": "fr",
+   "answer": "non, il est muet",
+   "acceptedAnswers": [
+    "non, il est muet"
+   ],
+   "explanation": "Le ا ne fait que porter le tanwin : non, il est muet. On dit ش + ou, ك, ر + an.",
+   "tip": "Le ا final du tanwin ne se dit pas.",
+   "extraExample": {
+    "text": "جِدًّا",
+    "translation": "très"
+   },
+   "options": [
+    "oui, comme un a long",
+    "oui, comme un i long",
+    "non, il est muet"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "oui, comme un a long",
+     "category": "spelling",
+     "feedback": "Ce ا n'allonge rien : il est muet, le tanwin donne déjà le son an."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e04",
+   "unitIds": [
+    "ar.g21.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "شُكْرًا",
+   "promptLanguage": "ar",
+   "answer": "merci",
+   "acceptedAnswers": [
+    "merci"
+   ],
+   "explanation": "ش + ou, ك sans voyelle, ر + an (tanwin) : merci.",
+   "tip": "Ce que tu dis après un cadeau.",
+   "extraExample": {
+    "text": "شُكْرًا لَكَ يَا رَبّ.",
+    "translation": "Merci à toi, Seigneur."
+   },
+   "options": [
+    "toujours",
+    "de rien",
+    "très",
+    "merci"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "de rien",
+     "category": "word_confusion",
+     "feedback": "Pour répondre à un merci, on dit عَفْوًا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e05",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.afwan"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "عَفْوًا",
+   "promptLanguage": "ar",
+   "answer": "de rien",
+   "acceptedAnswers": [
+    "de rien"
+   ],
+   "explanation": "ع + a, ف sans voyelle, و + an : c'est la réponse à un merci, ou « pardon ».",
+   "tip": "Le و porte le tanwin : c'est une consonne.",
+   "extraExample": {
+    "text": "شُكْرًا. - عَفْوًا.",
+    "translation": "Merci. - De rien."
+   },
+   "options": [
+    "bien sûr",
+    "merci",
+    "vraiment",
+    "de rien"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "merci",
+     "category": "word_confusion",
+     "feedback": "Merci est شُكْرًا. Ici tu lis ع + ف + و."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e06",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.giddan"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Que veut dire جِدًّا dans عَيْش طَيِّب جِدًّا ?",
+   "promptLanguage": "fr",
+   "answer": "très",
+   "acceptedAnswers": [
+    "très"
+   ],
+   "explanation": "جِدًّا veut dire « très » : du pain très bon. Il s'ajoute après l'adjectif.",
+   "tip": "Dis-le : « très ».",
+   "extraExample": {
+    "text": "كُوَيِّس جِدًّا.",
+    "translation": "Très bien."
+   },
+   "options": [
+    "très",
+    "toujours",
+    "tout de suite"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "toujours",
+     "category": "word_confusion",
+     "feedback": "Toujours est دَايِمًا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e07",
+   "unitIds": [
+    "ar.g20.shadda",
+    "ar.g21.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Dans جِدًّا, quelle lettre est doublée par la chadda ?",
+   "promptLanguage": "fr",
+   "answer": "د",
+   "acceptedAnswers": [
+    "د"
+   ],
+   "explanation": "La chadda est sur د : ج + i, puis د doublé, qui porte aussi le tanwin.",
+   "tip": "Cherche le petit w.",
+   "extraExample": {
+    "text": "كُبَّايَة",
+    "translation": "verre"
+   },
+   "options": [
+    "ج",
+    "ا",
+    "د"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ج",
+     "category": "spelling",
+     "feedback": "ج porte seulement la kasra."
+    },
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "Le ا final est muet."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e08",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.g21.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Dans عَفْوًا, le و porte un signe : est-ce une voyelle longue ou une consonne ?",
+   "promptLanguage": "fr",
+   "answer": "une consonne",
+   "acceptedAnswers": [
+    "une consonne"
+   ],
+   "explanation": "Un و qui porte un signe (ici le tanwin) est une consonne. La voyelle longue ou est un و nu, après une damma.",
+   "tip": "Signe sur و ou ي : consonne.",
+   "extraExample": {
+    "text": "رُوح",
+    "translation": "esprit : ici le و est nu"
+   },
+   "options": [
+    "une consonne",
+    "une voyelle longue",
+    "une lettre muette"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "une voyelle longue",
+     "category": "spelling",
+     "feedback": "Une voyelle longue serait un و nu après une damma : ici il y a une fatha et un tanwin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e09",
+   "unitIds": [
+    "ar.g18.sukun",
+    "ar.g21.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Dans تَقْرِيبًا, quel signe est posé sur le ق ?",
+   "promptLanguage": "fr",
+   "answer": "le soukoun",
+   "acceptedAnswers": [
+    "le soukoun"
+   ],
+   "explanation": "Le ق n'a pas de voyelle : il porte un soukoun. Le tanwin est à la fin, sur ب.",
+   "tip": "Petit rond : aucune voyelle.",
+   "extraExample": {
+    "text": "نَجْم",
+    "translation": "étoile"
+   },
+   "options": [
+    "le soukoun",
+    "la chadda",
+    "le tanwin"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "la chadda",
+     "category": "spelling",
+     "feedback": "La chadda double une lettre ; ici le ق est seul, avec un petit rond."
+    },
+    {
+     "equals": "le tanwin",
+     "category": "spelling",
+     "feedback": "Le tanwin est seulement à la fin du mot, sur ب."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e10",
+   "unitIds": [
+    "ar.v.bayt",
+    "ar.g21.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Quelle forme de « maison » se termine par le son an ?",
+   "promptLanguage": "fr",
+   "answer": "بَيْتًا",
+   "acceptedAnswers": [
+    "بَيْتًا"
+   ],
+   "explanation": "Deux fathas (ـً) donnent an, avec un ا muet après. بَيْتٌ finit par oun, بَيْتٍ par in.",
+   "tip": "Deux fathas + ا : an.",
+   "extraExample": {
+    "text": "بَيْتًا",
+    "translation": "une maison (finit par an)"
+   },
+   "options": [
+    "بَيْتٌ",
+    "بَيْتٍ",
+    "بَيْتًا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بَيْتٌ",
+     "category": "spelling",
+     "feedback": "Les deux dammas ـٌ donnent oun."
+    },
+    {
+     "equals": "بَيْتٍ",
+     "category": "spelling",
+     "feedback": "Les deux kasras ـٍ donnent in."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e11",
+   "unitIds": [
+    "ar.v.sukkar",
+    "ar.g21.tanwin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Dans سُكَّر, combien de fois lit-on le ك ?",
+   "promptLanguage": "fr",
+   "answer": "deux fois",
+   "acceptedAnswers": [
+    "deux fois"
+   ],
+   "explanation": "La chadda sur ك le fait dire deux fois, même s'il n'est écrit qu'une fois.",
+   "tip": "Chadda : deux fois.",
+   "extraExample": {
+    "text": "مَيَّة",
+    "translation": "eau"
+   },
+   "options": [
+    "deux fois",
+    "trois fois",
+    "une fois"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "une fois",
+     "category": "spelling",
+     "feedback": "Avec la chadda, le ك est dit deux fois."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e12",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.afwan"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le dialogue.",
+   "prompt": "شُكْرًا. - ___.",
+   "promptLanguage": "ar",
+   "answer": "عَفْوًا",
+   "acceptedAnswers": [
+    "عَفْوًا"
+   ],
+   "explanation": "On répond « merci » par « de rien » : عَفْوًا.",
+   "tip": "Merci, de rien.",
+   "extraExample": {
+    "text": "شُكْرًا. - عَفْوًا.",
+    "translation": "Merci. - De rien."
+   },
+   "options": [
+    "حَالًا",
+    "جِدًّا",
+    "عَفْوًا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "جِدًّا",
+     "category": "spelling",
+     "feedback": "جِدًّا veut dire « très » : ça ne répond pas à un merci."
+    },
+    {
+     "equals": "حَالًا",
+     "category": "spelling",
+     "feedback": "حَالًا veut dire « tout de suite »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e13",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.giddan"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "كُوَيِّس ___.",
+   "promptLanguage": "ar",
+   "answer": "جِدًّا",
+   "acceptedAnswers": [
+    "جِدًّا"
+   ],
+   "explanation": "« Très bien » : كُوَيِّس جِدًّا. جِدًّا s'ajoute après l'adjectif pour dire « très ».",
+   "tip": "Après l'adjectif : très.",
+   "extraExample": {
+    "text": "الطَّرِيق طَوِيل جِدًّا.",
+    "translation": "La route est très longue."
+   },
+   "options": [
+    "غَالِبًا",
+    "حَالًا",
+    "جِدًّا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "حَالًا",
+     "category": "spelling",
+     "feedback": "Tout de suite ne va pas avec « bien »."
+    },
+    {
+     "equals": "غَالِبًا",
+     "category": "spelling",
+     "feedback": "Souvent ne va pas ici : on veut dire « très bien »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e14",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.tabaan"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le dialogue.",
+   "prompt": "هَتِيجِي بُكْرَة؟ - ___!",
+   "promptLanguage": "ar",
+   "answer": "طَبْعًا",
+   "acceptedAnswers": [
+    "طَبْعًا"
+   ],
+   "explanation": "« Tu viens demain ? – Bien sûr ! » : طَبْعًا.",
+   "tip": "Réponse enthousiaste : bien sûr.",
+   "extraExample": {
+    "text": "طَبْعًا هَاجِي.",
+    "translation": "Bien sûr que je viens."
+   },
+   "options": [
+    "تَقْرِيبًا",
+    "طَبْعًا",
+    "مَثَلًا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "مَثَلًا",
+     "category": "spelling",
+     "feedback": "Par exemple ne répond pas à une question oui/non."
+    },
+    {
+     "equals": "تَقْرِيبًا",
+     "category": "spelling",
+     "feedback": "Environ ne convient pas pour une réponse franche."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e15",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.dayiman"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "الْمَجْد لِلَّه ___.",
+   "promptLanguage": "ar",
+   "answer": "دَايِمًا",
+   "acceptedAnswers": [
+    "دَايِمًا"
+   ],
+   "explanation": "« Gloire à Dieu toujours » : الْمَجْد لِلَّه دَايِمًا.",
+   "tip": "Toujours : دَايِمًا.",
+   "extraExample": {
+    "text": "دَايِمًا كُوَيِّس.",
+    "translation": "Toujours bien."
+   },
+   "options": [
+    "مَثَلًا",
+    "دَايِمًا",
+    "حَالًا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "حَالًا",
+     "category": "spelling",
+     "feedback": "Tout de suite ne va pas avec une louange de toujours."
+    },
+    {
+     "equals": "مَثَلًا",
+     "category": "spelling",
+     "feedback": "Par exemple ne va pas ici."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e16",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.halan"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "هَاجِي ___.",
+   "promptLanguage": "ar",
+   "answer": "حَالًا",
+   "acceptedAnswers": [
+    "حَالًا"
+   ],
+   "explanation": "« J'arrive tout de suite » : هَاجِي حَالًا.",
+   "tip": "Tout de suite : حَالًا.",
+   "extraExample": {
+    "text": "حَالًا!",
+    "translation": "Tout de suite !"
+   },
+   "options": [
+    "تَقْرِيبًا",
+    "دَايِمًا",
+    "حَالًا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "دَايِمًا",
+     "category": "spelling",
+     "feedback": "Toujours ne va pas avec « j'arrive »."
+    },
+    {
+     "equals": "تَقْرِيبًا",
+     "category": "spelling",
+     "feedback": "Environ n'a pas de sens ici."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e17",
+   "unitIds": [
+    "ar.g21.tanwin"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque tanwin à son son.",
+   "prompt": "Les trois tanwins",
+   "promptLanguage": "fr",
+   "answer": "ـً = an ; ـٍ = in ; ـٌ = oun",
+   "acceptedAnswers": [],
+   "explanation": "Deux fathas : an. Deux kasras : in. Deux dammas : oun.",
+   "pairs": [
+    {
+     "left": "ـً",
+     "right": "an"
+    },
+    {
+     "left": "ـٍ",
+     "right": "in"
+    },
+    {
+     "left": "ـٌ",
+     "right": "oun"
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e18",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.tabaan",
+    "ar.v.filan",
+    "ar.v.masalan",
+    "ar.v.taqriban"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Petits mots à tanwin (1)",
+   "promptLanguage": "fr",
+   "answer": "طَبْعًا = bien sûr ; فِعْلًا = vraiment ; مَثَلًا = par exemple ; تَقْرِيبًا = environ",
+   "acceptedAnswers": [],
+   "explanation": "Chacun se termine par ـًا : le son an.",
+   "pairs": [
+    {
+     "left": "طَبْعًا",
+     "right": "bien sûr"
+    },
+    {
+     "left": "فِعْلًا",
+     "right": "vraiment"
+    },
+    {
+     "left": "مَثَلًا",
+     "right": "par exemple"
+    },
+    {
+     "left": "تَقْرِيبًا",
+     "right": "environ"
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e19",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.dayiman",
+    "ar.v.halan",
+    "ar.v.ghaliban",
+    "ar.v.giddan"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Petits mots à tanwin (2)",
+   "promptLanguage": "fr",
+   "answer": "دَايِمًا = toujours ; حَالًا = tout de suite ; غَالِبًا = souvent ; جِدًّا = très",
+   "acceptedAnswers": [],
+   "explanation": "Des mots invariables qui ne changent jamais : on apprend leur fin en an.",
+   "pairs": [
+    {
+     "left": "دَايِمًا",
+     "right": "toujours"
+    },
+    {
+     "left": "حَالًا",
+     "right": "tout de suite"
+    },
+    {
+     "left": "غَالِبًا",
+     "right": "souvent"
+    },
+    {
+     "left": "جِدًّا",
+     "right": "très"
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e20",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.taqriban"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "تَقْرِيبًا",
+   "promptLanguage": "ar",
+   "answer": "environ",
+   "acceptedAnswers": [
+    "environ",
+    "à peu près",
+    "presque",
+    "approximativement"
+   ],
+   "explanation": "تَقْرِيبًا : environ, à peu près. ق porte un soukoun et le tanwin est à la fin.",
+   "tip": "Soukoun sur ق, tanwin à la fin.",
+   "extraExample": {
+    "text": "تَقْرِيبًا سِتّ سَاعَات.",
+    "translation": "À peu près six heures."
+   },
+   "errorPatterns": [
+    {
+     "equals": "toujours",
+     "category": "word_confusion",
+     "feedback": "Toujours est دَايِمًا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e21",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.masalan"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "مَثَلًا",
+   "promptLanguage": "ar",
+   "answer": "par exemple",
+   "acceptedAnswers": [
+    "par exemple",
+    "exemple",
+    "par exemples"
+   ],
+   "explanation": "مَثَلًا sert à donner un exemple : par exemple.",
+   "tip": "Quand tu dis « par exemple... ».",
+   "extraExample": {
+    "text": "مَثَلًا بُكْرَة.",
+    "translation": "Par exemple demain."
+   },
+   "errorPatterns": [
+    {
+     "equals": "bien sûr",
+     "category": "word_confusion",
+     "feedback": "Bien sûr est طَبْعًا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e22",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.v.halan"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire حَالًا ?",
+   "promptLanguage": "fr",
+   "answer": "tout de suite",
+   "acceptedAnswers": [
+    "tout de suite",
+    "de suite",
+    "immédiatement",
+    "maintenant",
+    "tout de suite !"
+   ],
+   "explanation": "حَالًا : ح + a, ل + an (tanwin), puis un ا muet. C'est « tout de suite ».",
+   "tip": "Un seul ل, puis le tanwin.",
+   "extraExample": {
+    "text": "هَاجِي حَالًا.",
+    "translation": "J'arrive tout de suite."
+   },
+   "errorPatterns": [
+    {
+     "equals": "souvent",
+     "category": "word_confusion",
+     "feedback": "Souvent est غَالِبًا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l21.e23",
+   "unitIds": [
+    "ar.g21.tanwin"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Comment s'appelle le signe doublé qui ajoute un n à la fin d'un mot ?",
+   "promptLanguage": "fr",
+   "answer": "tanwin",
+   "acceptedAnswers": [
+    "tanwin",
+    "le tanwin",
+    "tanouin",
+    "تنوين"
+   ],
+   "explanation": "C'est le tanwin (تَنْوِين, « mettre un n »).",
+   "tip": "Signe doublé = n final.",
+   "extraExample": {
+    "text": "شُكْرًا",
+    "translation": "merci"
+   },
+   "errorPatterns": [
+    {
+     "equals": "chadda",
+     "category": "word_confusion",
+     "feedback": "La chadda double une lettre au milieu du mot. Le tanwin est à la fin."
+    }
+   ]
+  }
+ ]
+}

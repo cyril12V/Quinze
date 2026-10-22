@@ -1,0 +1,857 @@
+{
+ "lessonId": "ar.l22",
+ "exercises": [
+  {
+   "id": "ar.l22.e01",
+   "unitIds": [
+    "ar.g22.hamza_madda"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Que marque la lettre ء ?",
+   "promptLanguage": "fr",
+   "answer": "un coup de gorge",
+   "acceptedAnswers": [
+    "un coup de gorge"
+   ],
+   "explanation": "ء (hamza) est un coup de gorge, un petit arrêt dans la voix, comme celui de ق au Caire.",
+   "tip": "Dis un petit arrêt dans la gorge.",
+   "extraExample": {
+    "text": "أَمَل",
+    "translation": "espoir"
+   },
+   "options": [
+    "un h soufflé",
+    "un a long",
+    "un coup de gorge"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "un h soufflé",
+     "category": "spelling",
+     "feedback": "Le h soufflé est ه. La hamza est un arrêt de la gorge."
+    },
+    {
+     "equals": "un a long",
+     "category": "spelling",
+     "feedback": "Le a long est ا, ou آ qui a aussi un coup de gorge."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e02",
+   "unitIds": [
+    "ar.g22.hamza_madda"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Où se place la hamza quand elle a une kasra, au début d'un mot ?",
+   "promptLanguage": "fr",
+   "answer": "sous le ا",
+   "acceptedAnswers": [
+    "sous le ا"
+   ],
+   "explanation": "Avec une kasra, la hamza passe sous le ا : إِ. Avec fatha ou damma, elle est au-dessus : أ.",
+   "tip": "Kasra : en dessous, comme toujours.",
+   "extraExample": {
+    "text": "إِيمَان",
+    "translation": "foi"
+   },
+   "options": [
+    "sous le ا",
+    "au-dessus du ا",
+    "sur un و"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "au-dessus du ا",
+     "category": "spelling",
+     "feedback": "Au-dessus, c'est pour la fatha ou la damma (أ)."
+    },
+    {
+     "equals": "sur un و",
+     "category": "spelling",
+     "feedback": "Le support و (ؤ) vient avec une damma, au milieu d'un mot."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e03",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.suaal"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Sur quelle lettre s'appuie la hamza de سُؤَال ?",
+   "promptLanguage": "fr",
+   "answer": "و",
+   "acceptedAnswers": [
+    "و"
+   ],
+   "explanation": "La damma est plus forte que la fatha : le support est و, ce qui donne ؤ.",
+   "tip": "Damma : ؤ.",
+   "extraExample": {
+    "text": "سُؤَال سَهْل.",
+    "translation": "Une question facile."
+   },
+   "options": [
+    "و",
+    "ا",
+    "ي"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "ا est pour la fatha ou la damma au début. Ici la damma de س choisit و."
+    },
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "ي sans points est pour la kasra."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e04",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.raees"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Sur quelle lettre s'appuie la hamza de رَئِيس ?",
+   "promptLanguage": "fr",
+   "answer": "ي sans points",
+   "acceptedAnswers": [
+    "ي sans points"
+   ],
+   "explanation": "La hamza porte une kasra : le support est un ي sans points, ce qui donne ئ.",
+   "tip": "Kasra : ئ.",
+   "extraExample": {
+    "text": "رَئِيس الدَّيْر.",
+    "translation": "Le supérieur du monastère."
+   },
+   "options": [
+    "و",
+    "ا",
+    "ي sans points"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "ا est pour fatha ou damma, ou pour la kasra au début du mot (إ)."
+    },
+    {
+     "equals": "و",
+     "category": "spelling",
+     "feedback": "و est pour la damma (ؤ)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e05",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.suaal"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "سُؤَال",
+   "promptLanguage": "ar",
+   "answer": "question",
+   "acceptedAnswers": [
+    "question"
+   ],
+   "explanation": "س + ou, ؤ (coup de gorge + a), ا (a long), ل : une question.",
+   "tip": "Cherche la hamza sur و.",
+   "extraExample": {
+    "text": "عِنْدِي سُؤَال.",
+    "translation": "J'ai une question."
+   },
+   "options": [
+    "chef",
+    "foi",
+    "soir",
+    "question"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "chef",
+     "category": "word_confusion",
+     "feedback": "Le chef est رَئِيس, avec une hamza sur ي."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e06",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.masaa"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "مَسَاء",
+   "promptLanguage": "ar",
+   "answer": "soir",
+   "acceptedAnswers": [
+    "soir"
+   ],
+   "explanation": "م + a, س + a long, puis ء seule : le soir. La hamza est seule après le ا long.",
+   "tip": "Hamza finale seule : ء.",
+   "extraExample": {
+    "text": "فِي الْمَسَاء.",
+    "translation": "Le soir."
+   },
+   "options": [
+    "soir",
+    "anges",
+    "question",
+    "espoir"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "espoir",
+     "category": "word_confusion",
+     "feedback": "L'espoir est أَمَل, avec une hamza au début."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e07",
+   "unitIds": [
+    "ar.g22.hamza_madda"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Comment se lit آ ?",
+   "promptLanguage": "fr",
+   "answer": "coup de gorge + a long",
+   "acceptedAnswers": [
+    "coup de gorge + a long"
+   ],
+   "explanation": "La madda sur ا donne deux sons en un : un coup de gorge, puis un a long.",
+   "tip": "Madda = أَا.",
+   "extraExample": {
+    "text": "آمِين",
+    "translation": "amen"
+   },
+   "options": [
+    "coup de gorge + i",
+    "a bref seulement",
+    "coup de gorge + a long"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "a bref seulement",
+     "category": "spelling",
+     "feedback": "Il y a aussi un coup de gorge, et le a est long."
+    },
+    {
+     "equals": "coup de gorge + i",
+     "category": "spelling",
+     "feedback": "Le son i vient d'une kasra : ici, c'est un a."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e08",
+   "unitIds": [
+    "ar.v.amin",
+    "ar.g22.hamza_madda"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "آمِين",
+   "promptLanguage": "ar",
+   "answer": "amen",
+   "acceptedAnswers": [
+    "amen"
+   ],
+   "explanation": "آ (coup de gorge + a long), م + i long (kasra + ي), ن : amen, la réponse de l'assemblée à la fin des prières.",
+   "tip": "La madda ouvre le mot.",
+   "extraExample": {
+    "text": "آمِين يَا رَبّ.",
+    "translation": "Amen, Seigneur."
+   },
+   "options": [
+    "oui",
+    "bonsoir",
+    "merci",
+    "amen"
+   ]
+  },
+  {
+   "id": "ar.l22.e09",
+   "unitIds": [
+    "ar.v.abouna",
+    "ar.g22.hamza_madda"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "أَبُونَا",
+   "promptLanguage": "ar",
+   "answer": "notre père",
+   "acceptedAnswers": [
+    "notre père"
+   ],
+   "explanation": "أ (hamza + fatha), ب + ou long, ن + a long : notre père, la façon de dire « le prêtre ».",
+   "tip": "Hamza + fatha au début, puis ou long.",
+   "extraExample": {
+    "text": "أَبُونَا بِيصَلِّي.",
+    "translation": "Notre père (le prêtre) prie."
+   },
+   "options": [
+    "notre maison",
+    "notre père",
+    "notre Seigneur",
+    "notre frère"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "notre Seigneur",
+     "category": "word_confusion",
+     "feedback": "Notre Seigneur est رَبِّنَا : un autre mot."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e10",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.g22.hamza_madda"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Dans اِرْحَم, que fait le ا ?",
+   "promptLanguage": "fr",
+   "answer": "il porte seulement la voyelle i",
+   "acceptedAnswers": [
+    "il porte seulement la voyelle i"
+   ],
+   "explanation": "Ce ا a une kasra mais pas de hamza : il porte seulement la voyelle i. Pour un coup de gorge, il faudrait إ.",
+   "tip": "Pas de petit ء : pas de coup de gorge.",
+   "extraExample": {
+    "text": "يَا رَبّ اِرْحَم",
+    "translation": "Seigneur, aie pitié"
+   },
+   "options": [
+    "il fait un coup de gorge",
+    "il allonge la fatha",
+    "il porte seulement la voyelle i"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "il fait un coup de gorge",
+     "category": "spelling",
+     "feedback": "Sans hamza, pas de coup de gorge : il porte seulement le i."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e11",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.raees"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la bonne syllabe.",
+   "prompt": "رَ___يس",
+   "promptLanguage": "ar",
+   "answer": "ئِ",
+   "acceptedAnswers": [
+    "ئِ"
+   ],
+   "explanation": "رَئِيس : la hamza a une kasra, son support est donc ي sans points : ئِ. Puis ي (i long) et س.",
+   "tip": "Kasra : ئ.",
+   "extraExample": {
+    "text": "رَئِيسِي فِي الشُّغْل.",
+    "translation": "Mon chef au travail."
+   },
+   "options": [
+    "ئِ",
+    "أَ",
+    "ؤُ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ؤُ",
+     "category": "spelling",
+     "feedback": "ؤ va avec une damma : ici la hamza a une kasra."
+    },
+    {
+     "equals": "أَ",
+     "category": "spelling",
+     "feedback": "أ va avec fatha ou damma, en début de mot."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e12",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.suaal"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la bonne syllabe.",
+   "prompt": "سُ___ال",
+   "promptLanguage": "ar",
+   "answer": "ؤَ",
+   "acceptedAnswers": [
+    "ؤَ"
+   ],
+   "explanation": "سُؤَال : la damma de س est la voyelle la plus forte, la hamza s'appuie donc sur و : ؤَ.",
+   "tip": "Damma : ؤ.",
+   "extraExample": {
+    "text": "سُؤَال سَهْل.",
+    "translation": "Une question facile."
+   },
+   "options": [
+    "ؤَ",
+    "أَ",
+    "ئِ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ئِ",
+     "category": "spelling",
+     "feedback": "ئ va avec une kasra : ici la voyelle la plus forte est la damma de س."
+    },
+    {
+     "equals": "أَ",
+     "category": "spelling",
+     "feedback": "Au milieu du mot, après une damma, la hamza s'appuie sur و."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e13",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.masaa"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la fin du mot.",
+   "prompt": "مَسَا___",
+   "promptLanguage": "ar",
+   "answer": "ء",
+   "acceptedAnswers": [
+    "ء"
+   ],
+   "explanation": "Après un ا long, à la fin du mot, la hamza s'écrit seule : ء.",
+   "tip": "Après ا long : ء seule.",
+   "extraExample": {
+    "text": "مَسَاء الْخَيْر.",
+    "translation": "Bonsoir."
+   },
+   "options": [
+    "أ",
+    "ئ",
+    "ء"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "أ",
+     "category": "spelling",
+     "feedback": "أ est pour le début du mot."
+    },
+    {
+     "equals": "ئ",
+     "category": "spelling",
+     "feedback": "ئ est pour une hamza avec kasra."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e14",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.amal"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne syllabe.",
+   "prompt": "___مَل",
+   "promptLanguage": "ar",
+   "answer": "أَ",
+   "acceptedAnswers": [
+    "أَ"
+   ],
+   "explanation": "أَمَل : la hamza a une fatha, elle est donc au-dessus du ا : أَ.",
+   "tip": "Fatha : au-dessus.",
+   "extraExample": {
+    "text": "عِنْدِي أَمَل.",
+    "translation": "J'ai de l'espoir."
+   },
+   "options": [
+    "إِ",
+    "أَ",
+    "آ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "إِ",
+     "category": "spelling",
+     "feedback": "إ est pour la kasra, sous le ا."
+    },
+    {
+     "equals": "آ",
+     "category": "spelling",
+     "feedback": "آ ajoute un a long : le mot n'en a pas ici."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e15",
+   "unitIds": [
+    "ar.v.oda",
+    "ar.g22.hamza_madda"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « chambre ».",
+   "prompt": "أُ___ضَة",
+   "promptLanguage": "ar",
+   "answer": "و",
+   "acceptedAnswers": [
+    "و"
+   ],
+   "explanation": "أُوضَة : la damma de أُ est allongée par و, ce qui donne un ou long. C'est ton mot de tous les jours.",
+   "tip": "Damma → و.",
+   "extraExample": {
+    "text": "أُوضَة كِبِيرَة.",
+    "translation": "Une grande chambre."
+   },
+   "options": [
+    "ا",
+    "و",
+    "ي"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "ا allonge une fatha, pas une damma."
+    },
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "ي allonge une kasra, pas une damma."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e16",
+   "unitIds": [
+    "ar.g22.hamza_madda"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque lettre à son rôle.",
+   "prompt": "Les lettres de la hamza",
+   "promptLanguage": "fr",
+   "answer": "أ = hamza sur ا, au-dessus ; إ = hamza sous ا ; ؤ = hamza sur و ; ئ = hamza sur ي sans points",
+   "acceptedAnswers": [],
+   "explanation": "أ : fatha ou damma. إ : kasra. ؤ : damma. ئ : kasra, au milieu du mot.",
+   "pairs": [
+    {
+     "left": "أ",
+     "right": "hamza sur ا, au-dessus"
+    },
+    {
+     "left": "إ",
+     "right": "hamza sous ا"
+    },
+    {
+     "left": "ؤ",
+     "right": "hamza sur و"
+    },
+    {
+     "left": "ئ",
+     "right": "hamza sur ي sans points"
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e17",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.suaal",
+    "ar.v.raees",
+    "ar.v.masaa",
+    "ar.v.malaika"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots avec hamza au milieu",
+   "promptLanguage": "fr",
+   "answer": "سُؤَال = question ; رَئِيس = chef ; مَسَاء = soir ; مَلَائِكَة = anges",
+   "acceptedAnswers": [],
+   "explanation": "Dans ces mots, la hamza est au milieu ou à la fin : ؤ, ئ, ء.",
+   "pairs": [
+    {
+     "left": "سُؤَال",
+     "right": "question"
+    },
+    {
+     "left": "رَئِيس",
+     "right": "chef"
+    },
+    {
+     "left": "مَسَاء",
+     "right": "soir"
+    },
+    {
+     "left": "مَلَائِكَة",
+     "right": "anges"
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e18",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.adam",
+    "ar.v.ibrahim",
+    "ar.v.amal",
+    "ar.v.asad",
+    "ar.v.aywa"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots avec hamza au début",
+   "promptLanguage": "fr",
+   "answer": "آدَم = Adam ; إِبْرَاهِيم = Abraham ; أَمَل = espoir ; أَسَد = lion ; أَيْوَه = oui",
+   "acceptedAnswers": [],
+   "explanation": "Au début d'un mot : آ, إ ou أ selon la voyelle.",
+   "pairs": [
+    {
+     "left": "آدَم",
+     "right": "Adam"
+    },
+    {
+     "left": "إِبْرَاهِيم",
+     "right": "Abraham"
+    },
+    {
+     "left": "أَمَل",
+     "right": "espoir"
+    },
+    {
+     "left": "أَسَد",
+     "right": "lion"
+    },
+    {
+     "left": "أَيْوَه",
+     "right": "oui"
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e19",
+   "unitIds": [
+    "ar.v.amin",
+    "ar.g22.hamza_madda",
+    "ar.v.abouna",
+    "ar.v.oda",
+    "ar.v.injil"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Tes mots d'hier",
+   "promptLanguage": "fr",
+   "answer": "آمِين = amen ; أَبُونَا = notre père ; أُوضَة = chambre ; إِنْجِيل = Évangile",
+   "acceptedAnswers": [],
+   "explanation": "Ce sont des mots de m02, maintenant avec leur hamza vocalisée.",
+   "pairs": [
+    {
+     "left": "آمِين",
+     "right": "amen"
+    },
+    {
+     "left": "أَبُونَا",
+     "right": "notre père"
+    },
+    {
+     "left": "أُوضَة",
+     "right": "chambre"
+    },
+    {
+     "left": "إِنْجِيل",
+     "right": "Évangile"
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e20",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.rabb"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Seigneur, aie pitié",
+   "promptLanguage": "fr",
+   "answer": "يَا رَبّ اِرْحَم",
+   "acceptedAnswers": [
+    "يَا رَبّ اِرْحَم"
+   ],
+   "explanation": "يَا رَبّ اِرْحَم : l'appel (يَا), le Seigneur (رَبّ), puis l'ordre « aie pitié » (اِرْحَم).",
+   "tip": "On appelle d'abord, on demande ensuite.",
+   "extraExample": {
+    "text": "آمِين يَا رَبّ.",
+    "translation": "Amen, Seigneur."
+   },
+   "tokens": [
+    "اِرْحَم",
+    "يَا",
+    "رَبّ"
+   ]
+  },
+  {
+   "id": "ar.l22.e21",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.asad"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "أَسَد",
+   "promptLanguage": "ar",
+   "answer": "lion",
+   "acceptedAnswers": [
+    "lion",
+    "un lion",
+    "le lion"
+   ],
+   "explanation": "أ (hamza + fatha), س + a, د : le lion.",
+   "tip": "Hamza + fatha au début.",
+   "extraExample": {
+    "text": "أَسَد كِبِير.",
+    "translation": "Un grand lion."
+   },
+   "errorPatterns": [
+    {
+     "equals": "espoir",
+     "category": "word_confusion",
+     "feedback": "L'espoir est أَمَل : ici tu lis أ + س + د."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e22",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.amal"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "أَمَل",
+   "promptLanguage": "ar",
+   "answer": "espoir",
+   "acceptedAnswers": [
+    "espoir",
+    "l'espoir",
+    "un espoir",
+    "espérance"
+   ],
+   "explanation": "أ (hamza + fatha), م + a, ل : l'espoir.",
+   "tip": "Hamza + fatha au début.",
+   "extraExample": {
+    "text": "الْأَمَل فِي اللَّه.",
+    "translation": "L'espoir est en Dieu."
+   },
+   "errorPatterns": [
+    {
+     "equals": "lion",
+     "category": "word_confusion",
+     "feedback": "Le lion est أَسَد : ici tu lis أ + م + ل."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e23",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.v.iman"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire إِيمَان ?",
+   "promptLanguage": "fr",
+   "answer": "foi",
+   "acceptedAnswers": [
+    "foi",
+    "la foi",
+    "une foi",
+    "croyance"
+   ],
+   "explanation": "إِيمَان : إِ (hamza sous le ا, kasra) + ي (i long), م + a long, ن. C'est la foi.",
+   "tip": "Kasra : hamza sous le ا.",
+   "extraExample": {
+    "text": "الْإِيمَان بِالْمَسِيح.",
+    "translation": "La foi au Christ."
+   },
+   "errorPatterns": [
+    {
+     "equals": "espoir",
+     "category": "word_confusion",
+     "feedback": "L'espoir est أَمَل, avec أ au-dessus du ا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l22.e24",
+   "unitIds": [
+    "ar.g22.hamza_madda"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Comment s'appelle la petite vague posée sur le ا dans آ ?",
+   "promptLanguage": "fr",
+   "answer": "madda",
+   "acceptedAnswers": [
+    "madda",
+    "la madda",
+    "مدة",
+    "مَدَّة"
+   ],
+   "explanation": "C'est la madda (مَدَّة, « allongement ») : elle donne un coup de gorge suivi d'un a long.",
+   "tip": "Madda = coup de gorge + a long.",
+   "extraExample": {
+    "text": "آمِين",
+    "translation": "amen"
+   },
+   "errorPatterns": [
+    {
+     "equals": "chadda",
+     "category": "word_confusion",
+     "feedback": "La chadda est un petit w qui double une lettre. La madda est une petite vague sur le ا."
+    }
+   ]
+  }
+ ]
+}

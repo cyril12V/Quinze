@@ -1,0 +1,931 @@
+{
+ "lessonId": "ar.l28",
+ "exercises": [
+  {
+   "id": "ar.l28.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.ya_rab_irham"
+   ],
+   "difficulty": 1,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "يا رب ارحم",
+   "promptLanguage": "ar",
+   "options": [
+    "Gloire à toi, Seigneur",
+    "Seigneur, aie pitié",
+    "La paix à tous",
+    "Et à ton esprit aussi"
+   ],
+   "answer": "Seigneur, aie pitié",
+   "acceptedAnswers": [
+    "Seigneur, aie pitié"
+   ],
+   "explanation": "يا (appel) + رب (Seigneur) + ارحم (aie pitié) : c'est le « Seigneur, aie pitié » de la liturgie.",
+   "tip": "Cherche رب au milieu : c'est « le Seigneur ».",
+   "extraExample": {
+    "text": "يا رب ارحمنا.",
+    "translation": "Seigneur, aie pitié de nous."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Gloire à toi, Seigneur",
+     "category": "word_confusion",
+     "feedback": "« Gloire à toi, Seigneur » ne correspond pas : relis يا رب ارحم bloc par bloc. Ici, le sens est « Seigneur, aie pitié »."
+    },
+    {
+     "equals": "La paix à tous",
+     "category": "word_confusion",
+     "feedback": "« La paix à tous » ne correspond pas : relis يا رب ارحم bloc par bloc. Ici, le sens est « Seigneur, aie pitié »."
+    },
+    {
+     "equals": "Et à ton esprit aussi",
+     "category": "word_confusion",
+     "feedback": "« Et à ton esprit aussi » ne correspond pas : relis يا رب ارحم bloc par bloc. Ici, le sens est « Seigneur, aie pitié »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.salam_likol",
+    "ar.v.wi_liruhak_ayan"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Le prêtre dit « السلام لكل ». Que répond le peuple ?",
+   "promptLanguage": "fr",
+   "options": [
+    "المجد لك يا رب",
+    "يا رب ارحم",
+    "بالحقيقة قام",
+    "ولروحك أيضا"
+   ],
+   "answer": "ولروحك أيضا",
+   "acceptedAnswers": [
+    "ولروحك أيضا"
+   ],
+   "explanation": "Au souhait du prêtre, le peuple répond ولروحك أيضا : « Et à ton esprit aussi ». C'est un dialogue appris par cœur.",
+   "tip": "Souhait de paix → réponse qui commence par و.",
+   "extraExample": {
+    "text": "السلام لكل. ولروحك أيضا.",
+    "translation": "La paix à tous. Et à ton esprit aussi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "المجد لك يا رب",
+     "category": "vocabulary",
+     "feedback": "C'est une louange (« Gloire à toi, Seigneur »), pas la réponse au souhait de paix."
+    },
+    {
+     "equals": "يا رب ارحم",
+     "category": "vocabulary",
+     "feedback": "C'est une demande de pitié, pas la réponse à un souhait de paix."
+    },
+    {
+     "equals": "بالحقيقة قام",
+     "category": "vocabulary",
+     "feedback": "C'est la réponse à المسيح قام, pendant le temps pascal."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.magd_lak"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "المجد لك يا رب",
+   "promptLanguage": "ar",
+   "options": [
+    "Seigneur, aie pitié",
+    "Gloire à toi, Seigneur",
+    "Et à ton esprit aussi",
+    "Le Christ est ressuscité"
+   ],
+   "answer": "Gloire à toi, Seigneur",
+   "acceptedAnswers": [
+    "Gloire à toi, Seigneur"
+   ],
+   "explanation": "المجد (ال + مجد : la gloire) + لك (à toi) + يا رب : c'est la louange de l'assemblée.",
+   "tip": "لك finit par ك : « à toi ».",
+   "extraExample": {
+    "text": "المجد لك.",
+    "translation": "Gloire à toi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Seigneur, aie pitié",
+     "category": "word_confusion",
+     "feedback": "« Seigneur, aie pitié » ne correspond pas : relis المجد لك يا رب bloc par bloc. Ici, le sens est « Gloire à toi, Seigneur »."
+    },
+    {
+     "equals": "Et à ton esprit aussi",
+     "category": "word_confusion",
+     "feedback": "« Et à ton esprit aussi » ne correspond pas : relis المجد لك يا رب bloc par bloc. Ici, le sens est « Gloire à toi, Seigneur »."
+    },
+    {
+     "equals": "Le Christ est ressuscité",
+     "category": "word_confusion",
+     "feedback": "« Le Christ est ressuscité » ne correspond pas : relis المجد لك يا رب bloc par bloc. Ici, le sens est « Gloire à toi, Seigneur »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.agbiya"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot désigne le livre des prières des heures ?",
+   "promptLanguage": "fr",
+   "options": [
+    "تسبحة",
+    "مزمور",
+    "نبوات",
+    "أجبية"
+   ],
+   "answer": "أجبية",
+   "acceptedAnswers": [
+    "أجبية"
+   ],
+   "explanation": "أجبية est le livre des heures : les prières de la journée. تسبحة est un office de louange, مزمور un psaume et نبوات des prophéties.",
+   "tip": "Le livre qu'on garde sur soi : أجبية.",
+   "extraExample": {
+    "text": "الأجبية في الشنطة.",
+    "translation": "Le livre des heures est dans le sac."
+   },
+   "errorPatterns": [
+    {
+     "equals": "تسبحة",
+     "category": "word_confusion",
+     "feedback": "« تسبحة » ne désigne pas le livre des heures : c'est أجبية."
+    },
+    {
+     "equals": "مزمور",
+     "category": "word_confusion",
+     "feedback": "« مزمور » ne désigne pas le livre des heures : c'est أجبية."
+    },
+    {
+     "equals": "نبوات",
+     "category": "word_confusion",
+     "feedback": "« نبوات » ne désigne pas le livre des heures : c'est أجبية."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.tasbiha"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot désigne l'office de louange avec chants et psaumes ?",
+   "promptLanguage": "fr",
+   "options": [
+    "أجبية",
+    "تسبحة",
+    "قداس",
+    "صلاة"
+   ],
+   "answer": "تسبحة",
+   "acceptedAnswers": [
+    "تسبحة"
+   ],
+   "explanation": "تسبحة vient de la même idée que « louer » : c'est l'office de louange, fait de chants et de psaumes.",
+   "tip": "ت س ب ح ة : le mot de la louange.",
+   "extraExample": {
+    "text": "التسبحة بتبدأ بدري.",
+    "translation": "L'office de louange commence tôt."
+   },
+   "errorPatterns": [
+    {
+     "equals": "أجبية",
+     "category": "word_confusion",
+     "feedback": "« أجبية » est un autre mot de la prière : l'office de louange est تسبحة."
+    },
+    {
+     "equals": "قداس",
+     "category": "word_confusion",
+     "feedback": "« قداس » est un autre mot de la prière : l'office de louange est تسبحة."
+    },
+    {
+     "equals": "صلاة",
+     "category": "word_confusion",
+     "feedback": "« صلاة » est un autre mot de la prière : l'office de louange est تسبحة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.wi_liruhak_ayan"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "ولروحك أيضا",
+   "promptLanguage": "ar",
+   "options": [
+    "La paix à tous",
+    "Gloire à toi, Seigneur",
+    "Le Christ est ressuscité",
+    "Et à ton esprit aussi"
+   ],
+   "answer": "Et à ton esprit aussi",
+   "acceptedAnswers": [
+    "Et à ton esprit aussi"
+   ],
+   "explanation": "و (et) + لروحك (à ton esprit) + أيضا (aussi) : « Et à ton esprit aussi ». Le ك final veut dire « ton ».",
+   "tip": "Le و du début est le petit mot « et » (leçon 26).",
+   "extraExample": {
+    "text": "السلام لكل. ولروحك أيضا.",
+    "translation": "La paix à tous. Et à ton esprit aussi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La paix à tous",
+     "category": "word_confusion",
+     "feedback": "« La paix à tous » ne correspond pas : relis ولروحك أيضا bloc par bloc. Ici, le sens est « Et à ton esprit aussi »."
+    },
+    {
+     "equals": "Gloire à toi, Seigneur",
+     "category": "word_confusion",
+     "feedback": "« Gloire à toi, Seigneur » ne correspond pas : relis ولروحك أيضا bloc par bloc. Ici, le sens est « Et à ton esprit aussi »."
+    },
+    {
+     "equals": "Le Christ est ressuscité",
+     "category": "word_confusion",
+     "feedback": "« Le Christ est ressuscité » ne correspond pas : relis ولروحك أيضا bloc par bloc. Ici, le sens est « Et à ton esprit aussi »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.wi_liruhak_ayan"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le sens du ك à la fin de ولروحك ?",
+   "promptLanguage": "fr",
+   "options": [
+    "notre",
+    "ton",
+    "mon",
+    "et"
+   ],
+   "answer": "ton",
+   "acceptedAnswers": [
+    "ton"
+   ],
+   "explanation": "Le ك final veut dire « toi » ou « ton » : ولروحك = et à ton esprit, لك = à toi.",
+   "tip": "ك = toi ; ـنا = notre.",
+   "extraExample": {
+    "text": "المجد لك",
+    "translation": "Gloire à toi"
+   },
+   "errorPatterns": [
+    {
+     "equals": "notre",
+     "category": "word_confusion",
+     "feedback": "« notre » s'écrit ـنا (leçon 26)."
+    },
+    {
+     "equals": "mon",
+     "category": "word_confusion",
+     "feedback": "« mon » s'écrit avec une autre fin, pas avec ك."
+    },
+    {
+     "equals": "et",
+     "category": "word_confusion",
+     "feedback": "« et » est le و du début, pas la lettre de la fin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.masih_qam"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que répond-on à المسيح قام ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ولروحك أيضا",
+    "يا رب ارحم",
+    "المجد لك يا رب",
+    "بالحقيقة قام"
+   ],
+   "answer": "بالحقيقة قام",
+   "acceptedAnswers": [
+    "بالحقيقة قام"
+   ],
+   "explanation": "On répond à المسيح قام par بالحقيقة قام : « Il est vraiment ressuscité ». Les deux phrases se terminent par قام.",
+   "tip": "Les deux phrases finissent par le même mot : قام.",
+   "extraExample": {
+    "text": "بالحقيقة قام!",
+    "translation": "Il est vraiment ressuscité !"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ولروحك أيضا",
+     "category": "vocabulary",
+     "feedback": "« ولروحك أيضا » est une autre réponse de la liturgie, pas celle du temps pascal."
+    },
+    {
+     "equals": "يا رب ارحم",
+     "category": "vocabulary",
+     "feedback": "« يا رب ارحم » est une autre réponse de la liturgie, pas celle du temps pascal."
+    },
+    {
+     "equals": "المجد لك يا رب",
+     "category": "vocabulary",
+     "feedback": "« المجد لك يا رب » est une autre réponse de la liturgie, pas celle du temps pascal."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.masih",
+    "ar.v.masih_qam",
+    "ar.g28.liturgy"
+   ],
+   "difficulty": 3,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "المسيح قام",
+   "promptLanguage": "ar",
+   "options": [
+    "Il est vraiment ressuscité",
+    "Le Christ est ressuscité",
+    "Gloire à toi, Seigneur",
+    "Seigneur, aie pitié"
+   ],
+   "answer": "Le Christ est ressuscité",
+   "acceptedAnswers": [
+    "Le Christ est ressuscité"
+   ],
+   "explanation": "المسيح (le Christ, module 2) + قام (il est ressuscité, à la lettre « il s'est levé »). Le premier mot est celui du module 2.",
+   "tip": "Commence par le mot que tu connais : المسيح.",
+   "extraExample": {
+    "text": "هللويا، المسيح قام.",
+    "translation": "Alléluia, le Christ est ressuscité."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il est vraiment ressuscité",
+     "category": "word_confusion",
+     "feedback": "« Il est vraiment ressuscité » ne correspond pas : relis المسيح قام bloc par bloc. Ici, le sens est « Le Christ est ressuscité »."
+    },
+    {
+     "equals": "Gloire à toi, Seigneur",
+     "category": "word_confusion",
+     "feedback": "« Gloire à toi, Seigneur » ne correspond pas : relis المسيح قام bloc par bloc. Ici, le sens est « Le Christ est ressuscité »."
+    },
+    {
+     "equals": "Seigneur, aie pitié",
+     "category": "word_confusion",
+     "feedback": "« Seigneur, aie pitié » ne correspond pas : relis المسيح قام bloc par bloc. Ici, le sens est « Le Christ est ressuscité »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.quddas",
+    "ar.g28.liturgy"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Parmi ces mots, lequel veut dire « liturgie » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "صلاة",
+    "مزمور",
+    "نبوات",
+    "قداس"
+   ],
+   "answer": "قداس",
+   "acceptedAnswers": [
+    "قداس"
+   ],
+   "explanation": "قداس est la liturgie, la grande prière de l'église. صلاة est la prière en général, مزمور un psaume, نبوات les prophéties.",
+   "tip": "Le dimanche, on va au قداس.",
+   "extraExample": {
+    "text": "قداس الأحد",
+    "translation": "la liturgie du dimanche"
+   },
+   "errorPatterns": [
+    {
+     "equals": "صلاة",
+     "category": "word_confusion",
+     "feedback": "« صلاة » est un autre mot de l'église : la liturgie s'écrit قداس."
+    },
+    {
+     "equals": "مزمور",
+     "category": "word_confusion",
+     "feedback": "« مزمور » est un autre mot de l'église : la liturgie s'écrit قداس."
+    },
+    {
+     "equals": "نبوات",
+     "category": "word_confusion",
+     "feedback": "« نبوات » est un autre mot de l'église : la liturgie s'écrit قداس."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e11",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g26.long_words",
+    "ar.g28.liturgy"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans « المجد لك يا رب », quel mot commence par ال ?",
+   "promptLanguage": "fr",
+   "options": [
+    "لك",
+    "المجد",
+    "يا",
+    "رب"
+   ],
+   "answer": "المجد",
+   "acceptedAnswers": [
+    "المجد"
+   ],
+   "explanation": "ال se lit « le » ou « la » : المجد = ال + مجد, « la gloire ». Les autres mots n'ont pas de ال.",
+   "tip": "Cherche le ا suivi d'un ل au début du mot.",
+   "extraExample": {
+    "text": "الكنيسة",
+    "translation": "l'église"
+   },
+   "errorPatterns": [
+    {
+     "equals": "لك",
+     "category": "spelling",
+     "feedback": "« لك » n'a pas de ال au début."
+    },
+    {
+     "equals": "يا",
+     "category": "spelling",
+     "feedback": "« يا » n'a pas de ال au début."
+    },
+    {
+     "equals": "رب",
+     "category": "spelling",
+     "feedback": "« رب » n'a pas de ال au début."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e12",
+   "type": "match",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.ya_rab_irham",
+    "ar.v.salam_likol",
+    "ar.v.magd_lak",
+    "ar.v.masih_qam"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque réponse à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "يا رب ارحم",
+     "right": "Seigneur, aie pitié"
+    },
+    {
+     "left": "السلام لكل",
+     "right": "La paix à tous"
+    },
+    {
+     "left": "المجد لك يا رب",
+     "right": "Gloire à toi, Seigneur"
+    },
+    {
+     "left": "المسيح قام",
+     "right": "Le Christ est ressuscité"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "يا رب ارحم = Seigneur, aie pitié ; السلام لكل = La paix à tous ; المجد لك يا رب = Gloire à toi, Seigneur ; المسيح قام = Le Christ est ressuscité",
+   "explanation": "Quatre phrases de la liturgie : la demande de pitié, le souhait de paix, la louange et le salut de Pâques."
+  },
+  {
+   "id": "ar.l28.e13",
+   "type": "match",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.tasbiha",
+    "ar.v.agbiya",
+    "ar.v.halleluya",
+    "ar.v.quddus"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot de l'église à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "تسبحة",
+     "right": "office de louange"
+    },
+    {
+     "left": "أجبية",
+     "right": "livre des heures"
+    },
+    {
+     "left": "هللويا",
+     "right": "alléluia"
+    },
+    {
+     "left": "قدوس",
+     "right": "saint"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "تسبحة = office de louange ; أجبية = livre des heures ; هللويا = alléluia ; قدوس = saint",
+   "explanation": "تسبحة est l'office de louange, أجبية le livre des heures, هللويا le cri de louange et قدوس veut dire « saint »."
+  },
+  {
+   "id": "ar.l28.e14",
+   "type": "match",
+   "unitIds": [
+    "ar.v.quddas",
+    "ar.v.mazmur",
+    "ar.v.nabawat",
+    "ar.v.amin",
+    "ar.v.salat",
+    "ar.g28.liturgy"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Retrouve les mots de la leçon 16 : relie chaque mot à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "قداس",
+     "right": "liturgie"
+    },
+    {
+     "left": "مزمور",
+     "right": "psaume"
+    },
+    {
+     "left": "نبوات",
+     "right": "prophéties"
+    },
+    {
+     "left": "آمين",
+     "right": "amen"
+    },
+    {
+     "left": "صلاة",
+     "right": "prière"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "قداس = liturgie ; مزمور = psaume ; نبوات = prophéties ; آمين = amen ; صلاة = prière",
+   "explanation": "Cinq mots d'église déjà vus : قداس (liturgie), مزمور (psaume), نبوات (prophéties), آمين (amen) et صلاة (prière)."
+  },
+  {
+   "id": "ar.l28.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.salam_likol"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "السلام ___ (La paix à tous)",
+   "promptLanguage": "ar",
+   "options": [
+    "لك",
+    "لكل",
+    "رب",
+    "أيضا"
+   ],
+   "answer": "لكل",
+   "acceptedAnswers": [
+    "لكل"
+   ],
+   "explanation": "Le souhait complet est السلام لكل : « la paix à tous ». لك voudrait dire « à toi ».",
+   "tip": "لكل a un ل de plus que لك.",
+   "extraExample": {
+    "text": "السلام لكل.",
+    "translation": "La paix à tous."
+   },
+   "errorPatterns": [
+    {
+     "equals": "لك",
+     "category": "vocabulary",
+     "feedback": "لك veut dire « à toi » ; ici il faut « à tous » : لكل."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e16",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.magd_lak"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "المجد لك يا ___ (Gloire à toi, Seigneur)",
+   "promptLanguage": "ar",
+   "options": [
+    "روح",
+    "نور",
+    "قام",
+    "رب"
+   ],
+   "answer": "رب",
+   "acceptedAnswers": [
+    "رب"
+   ],
+   "explanation": "Le groupe يا رب veut dire « Seigneur » : المجد لك يا رب. روح, نور et قام ont d'autres sens.",
+   "tip": "يا + رب : on appelle le Seigneur.",
+   "extraExample": {
+    "text": "يا رب ارحم",
+    "translation": "Seigneur, aie pitié"
+   },
+   "errorPatterns": [
+    {
+     "equals": "روح",
+     "category": "vocabulary",
+     "feedback": "روح veut dire « esprit » : on l'a vu dans ولروحك."
+    },
+    {
+     "equals": "نور",
+     "category": "vocabulary",
+     "feedback": "نور veut dire « lumière »."
+    },
+    {
+     "equals": "قام",
+     "category": "vocabulary",
+     "feedback": "قام veut dire « il est ressuscité »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e17",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.wi_liruhak_ayan"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "ولروحك ___ (Et à ton esprit aussi)",
+   "promptLanguage": "ar",
+   "options": [
+    "لكل",
+    "أيضا",
+    "رب",
+    "قام"
+   ],
+   "answer": "أيضا",
+   "acceptedAnswers": [
+    "أيضا"
+   ],
+   "explanation": "La réponse complète est ولروحك أيضا : « et à ton esprit aussi ». لكل appartient au souhait du prêtre.",
+   "tip": "أيضا veut dire « aussi ».",
+   "extraExample": {
+    "text": "السلام لكل. ولروحك أيضا.",
+    "translation": "La paix à tous. Et à ton esprit aussi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "لكل",
+     "category": "vocabulary",
+     "feedback": "لكل vient du souhait du prêtre (السلام لكل), pas de la réponse."
+    }
+   ]
+  },
+  {
+   "id": "ar.l28.e18",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.ya_rab_irham"
+   ],
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Seigneur, aie pitié »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ارحم",
+    "رب",
+    "يا"
+   ],
+   "answer": "يا رب ارحم",
+   "acceptedAnswers": [
+    "يا رب ارحم"
+   ],
+   "explanation": "On appelle d'abord le Seigneur (يا رب), puis on demande la pitié (ارحم).",
+   "tip": "يا ouvre toujours : on appelle avant de demander.",
+   "extraExample": {
+    "text": "يا رب ارحمنا",
+    "translation": "Seigneur, aie pitié de nous"
+   }
+  },
+  {
+   "id": "ar.l28.e19",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.magd_lak"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Gloire à toi, Seigneur »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "يا",
+    "لك",
+    "المجد",
+    "رب"
+   ],
+   "answer": "المجد لك يا رب",
+   "acceptedAnswers": [
+    "المجد لك يا رب"
+   ],
+   "explanation": "La gloire (المجد) d'abord, puis à qui elle revient : لك, puis l'appel يا رب.",
+   "tip": "Le groupe يا رب va toujours ensemble, à la fin.",
+   "extraExample": {
+    "text": "المجد لك",
+    "translation": "Gloire à toi"
+   }
+  },
+  {
+   "id": "ar.l28.e20",
+   "type": "translation",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.salam_likol"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "السلام لكل",
+   "promptLanguage": "ar",
+   "answer": "La paix à tous",
+   "acceptedAnswers": [
+    "La paix à tous",
+    "paix à tous",
+    "la paix pour tous",
+    "la paix soit avec tous"
+   ],
+   "explanation": "السلام (la paix) + لكل (à tous) : le souhait que le prêtre adresse à l'assemblée.",
+   "tip": "ال + سلام : la paix.",
+   "extraExample": {
+    "text": "السلام لكل.",
+    "translation": "La paix à tous."
+   }
+  },
+  {
+   "id": "ar.l28.e21",
+   "type": "translation",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.halleluya",
+    "ar.v.masih_qam"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "هللويا، المسيح قام",
+   "promptLanguage": "ar",
+   "answer": "Alléluia, le Christ est ressuscité.",
+   "acceptedAnswers": [
+    "Alléluia, le Christ est ressuscité.",
+    "alléluia, le christ est ressuscité",
+    "alléluia le christ est ressuscité",
+    "alleluia, le christ est ressuscité",
+    "alléluia, christ est ressuscité"
+   ],
+   "explanation": "هللويا (alléluia) + المسيح قام (le Christ est ressuscité) : la joie de Pâques.",
+   "tip": "Deux phrases de joie, un seul souffle.",
+   "extraExample": {
+    "text": "بالحقيقة قام!",
+    "translation": "Il est vraiment ressuscité !"
+   }
+  },
+  {
+   "id": "ar.l28.e22",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.halleluya"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire هللويا ?",
+   "promptLanguage": "fr",
+   "answer": "alléluia",
+   "acceptedAnswers": [
+    "alléluia",
+    "alleluia",
+    "louez le seigneur",
+    "louange au seigneur"
+   ],
+   "explanation": "هللويا est un cri de joie qui vient de l'hébreu : « louez le Seigneur ».",
+   "tip": "Il se termine par ويا : tu l'as entendu mille fois.",
+   "extraExample": {
+    "text": "هللويا!",
+    "translation": "Alléluia !"
+   }
+  },
+  {
+   "id": "ar.l28.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g28.liturgy",
+    "ar.v.quddus"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire قدوس ?",
+   "promptLanguage": "fr",
+   "answer": "saint",
+   "acceptedAnswers": [
+    "saint",
+    "sainte",
+    "le saint"
+   ],
+   "explanation": "قدوس veut dire « saint ». On l'entend dans l'hymne qui commence par قدوس الله, « Saint Dieu ».",
+   "tip": "ق د و س : deux lettres qui ne s'attachent pas, le د et le و.",
+   "extraExample": {
+    "text": "قدوس الله",
+    "translation": "Saint Dieu"
+   }
+  },
+  {
+   "id": "ar.l28.e24",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.rabb",
+    "ar.g28.liturgy"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans يا رب ارحم, que veut dire رب ?",
+   "promptLanguage": "ar",
+   "options": [
+    "Père",
+    "Dieu merci",
+    "Jésus",
+    "Seigneur"
+   ],
+   "answer": "Seigneur",
+   "acceptedAnswers": [
+    "Seigneur"
+   ],
+   "explanation": "رب veut dire « Seigneur ». Avec les harakat, on le voit écrit رَبّ, avec une chadda sur le ب ; dans les livres de prières, la chadda est souvent écrite.",
+   "tip": "يا رب : « ô Seigneur », l'appel qui ouvre tant de prières.",
+   "extraExample": {
+    "text": "المجد لك يا رب",
+    "translation": "Gloire à toi, Seigneur"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Père",
+     "category": "word_confusion",
+     "feedback": "« Père » se dit أب ; رب veut dire « Seigneur »."
+    },
+    {
+     "equals": "Dieu merci",
+     "category": "word_confusion",
+     "feedback": "« Dieu merci » se dit الحمد لله."
+    },
+    {
+     "equals": "Jésus",
+     "category": "word_confusion",
+     "feedback": "رب est un titre, « Seigneur », pas un nom."
+    }
+   ]
+  }
+ ]
+}

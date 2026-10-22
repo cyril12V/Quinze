@@ -1,0 +1,795 @@
+{
+ "lessonId": "ar.l17",
+ "exercises": [
+  {
+   "id": "ar.l17.e01",
+   "unitIds": [
+    "ar.g17.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne syllabe.",
+   "prompt": "Laquelle de ces syllabes porte une fatha ?",
+   "promptLanguage": "fr",
+   "answer": "بَ",
+   "acceptedAnswers": [
+    "بَ"
+   ],
+   "explanation": "La fatha est le petit trait penché au-dessus de la lettre. بِ a un trait sous la lettre (kasra) et بُ un petit و bouclé (damma).",
+   "tip": "Fatha = ouvrir : le trait est au-dessus.",
+   "extraExample": {
+    "text": "تَ",
+    "translation": "t + a"
+   },
+   "options": [
+    "بَ",
+    "بِ",
+    "بُ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بِ",
+     "category": "spelling",
+     "feedback": "Ce trait est sous la lettre : c'est une kasra (le son i)."
+    },
+    {
+     "equals": "بُ",
+     "category": "spelling",
+     "feedback": "Ce petit و bouclé est une damma (le son ou)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e02",
+   "unitIds": [
+    "ar.g17.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Quel signe se place sous la lettre ?",
+   "promptLanguage": "fr",
+   "answer": "la kasra",
+   "acceptedAnswers": [
+    "la kasra"
+   ],
+   "explanation": "Seule la kasra va sous la lettre. La fatha et la damma sont au-dessus.",
+   "tip": "Kasra = casser : le i tombe sous la lettre.",
+   "extraExample": {
+    "text": "بِ",
+    "translation": "b + i"
+   },
+   "options": [
+    "la fatha",
+    "la kasra",
+    "la damma"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "la fatha",
+     "category": "spelling",
+     "feedback": "La fatha est un trait au-dessus de la lettre."
+    },
+    {
+     "equals": "la damma",
+     "category": "spelling",
+     "feedback": "La damma est un petit و bouclé au-dessus de la lettre."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e03",
+   "unitIds": [
+    "ar.g17.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Quel son donne la damma ?",
+   "promptLanguage": "fr",
+   "answer": "ou comme dans loup",
+   "acceptedAnswers": [
+    "ou comme dans loup"
+   ],
+   "explanation": "La damma (ضَمَّة, « rassembler ») donne le son ou : les lèvres se rassemblent en rond.",
+   "tip": "Lèvres en rond : ou.",
+   "extraExample": {
+    "text": "بُ",
+    "translation": "b + ou"
+   },
+   "options": [
+    "a comme dans table",
+    "ou comme dans loup",
+    "i comme dans midi"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "a comme dans table",
+     "category": "spelling",
+     "feedback": "Le son a vient de la fatha, le trait au-dessus."
+    },
+    {
+     "equals": "i comme dans midi",
+     "category": "spelling",
+     "feedback": "Le son i vient de la kasra, le trait sous la lettre."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e04",
+   "unitIds": [
+    "ar.g17.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis la syllabe.",
+   "prompt": "Comment se lit la syllabe بُ ?",
+   "promptLanguage": "fr",
+   "answer": "b + ou",
+   "acceptedAnswers": [
+    "b + ou"
+   ],
+   "explanation": "ب porte une damma : le b est suivi du son ou.",
+   "tip": "Lis la lettre, puis ajoute sa voyelle.",
+   "extraExample": {
+    "text": "تُ",
+    "translation": "t + ou"
+   },
+   "options": [
+    "b + i",
+    "b + a",
+    "b + ou"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "b + a",
+     "category": "spelling",
+     "feedback": "b + a s'écrit بَ, avec une fatha."
+    },
+    {
+     "equals": "b + i",
+     "category": "spelling",
+     "feedback": "b + i s'écrit بِ, avec une kasra sous la lettre."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e05",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.gabal"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "جَبَل",
+   "promptLanguage": "ar",
+   "answer": "montagne",
+   "acceptedAnswers": [
+    "montagne"
+   ],
+   "explanation": "ج + a, ب + a, ل : deux fathas, puis ل sans voyelle. C'est la montagne.",
+   "tip": "Lis lettre par lettre, voyelle comprise.",
+   "extraExample": {
+    "text": "جَبَل سِينَا.",
+    "translation": "Le mont Sinaï."
+   },
+   "options": [
+    "miel",
+    "montagne",
+    "lune",
+    "pays"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "pays",
+     "category": "word_confusion",
+     "feedback": "Le pays s'écrit بَلَد : la première lettre est ب, pas ج."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e06",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.hamal"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "حَمَل",
+   "promptLanguage": "ar",
+   "answer": "agneau",
+   "acceptedAnswers": [
+    "agneau"
+   ],
+   "explanation": "ح + a, م + a, ل : l'agneau. Dans l'Église, l'Agneau de Dieu est le Christ.",
+   "tip": "Trois lettres, deux fathas.",
+   "extraExample": {
+    "text": "حَمَل اللَّه.",
+    "translation": "L'Agneau de Dieu."
+   },
+   "options": [
+    "agneau",
+    "apôtres",
+    "livres",
+    "lune"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "lune",
+     "category": "word_confusion",
+     "feedback": "La lune est قَمَر : elle commence par ق, pas par ح."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e07",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.enab"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Quelle voyelle porte le ع au début de عِنَب ?",
+   "promptLanguage": "fr",
+   "answer": "la kasra",
+   "acceptedAnswers": [
+    "la kasra"
+   ],
+   "explanation": "Le signe est sous le ع : c'est une kasra, donc le son i. Les deux autres voyelles de عِنَب sont des fathas.",
+   "tip": "Regarde si le signe est au-dessus ou sous la lettre.",
+   "extraExample": {
+    "text": "عِنَب أَحْمَر.",
+    "translation": "Du raisin rouge."
+   },
+   "options": [
+    "la kasra",
+    "la fatha",
+    "la damma"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "la fatha",
+     "category": "spelling",
+     "feedback": "Les fathas de عِنَب sont sur ن et ب ; sur ع, le signe est sous la lettre."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e08",
+   "unitIds": [
+    "ar.g17.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « livres » ?",
+   "promptLanguage": "fr",
+   "answer": "كُتُب",
+   "acceptedAnswers": [
+    "كُتُب"
+   ],
+   "explanation": "كُتُب porte deux dammas : ك + ou, ت + ou, ب. كَتَب, avec des fathas, veut dire « il a écrit ». كُتَب n'est pas un mot.",
+   "tip": "Mêmes lettres, voyelles différentes : mot différent.",
+   "extraExample": {
+    "text": "كُتُب كِتِير.",
+    "translation": "Beaucoup de livres."
+   },
+   "options": [
+    "كَتَب",
+    "كُتُب",
+    "كُتَب"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "كَتَب",
+     "category": "word_confusion",
+     "feedback": "كَتَب (fathas) veut dire « il a écrit ». Pour « livres », on veut deux dammas."
+    },
+    {
+     "equals": "كُتَب",
+     "category": "spelling",
+     "feedback": "Cette combinaison n'existe pas : pour « livres », les deux voyelles sont des dammas."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e09",
+   "unitIds": [
+    "ar.v.jim",
+    "ar.g17.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Retrouve la lettre.",
+   "prompt": "Quelle lettre se lit comme le g de « gâteau » ?",
+   "promptLanguage": "fr",
+   "answer": "ج",
+   "acceptedAnswers": [
+    "ج"
+   ],
+   "explanation": "En Égypte, ج se dit g, comme dans gâteau : c'est la lettre du crochet avec un point dessous.",
+   "tip": "ج a un point sous le crochet : g de gâteau.",
+   "extraExample": {
+    "text": "جَبَل",
+    "translation": "montagne"
+   },
+   "options": [
+    "خ",
+    "ح",
+    "ج"
+   ]
+  },
+  {
+   "id": "ar.l17.e10",
+   "unitIds": [
+    "ar.v.laban",
+    "ar.g17.short_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "لبن",
+   "promptLanguage": "ar",
+   "answer": "lait",
+   "acceptedAnswers": [
+    "lait"
+   ],
+   "explanation": "ل + ب + ن, sans voyelles : c'est le lait. Sans harakat, tu lis grâce au mot que tu connais.",
+   "tip": "Sans voyelles, ton oreille complète le mot.",
+   "extraExample": {
+    "text": "لَبَن",
+    "translation": "lait (avec ses voyelles)"
+   },
+   "options": [
+    "eau",
+    "thé",
+    "pain",
+    "lait"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "pain",
+     "category": "word_confusion",
+     "feedback": "« pain » s'écrit عيش."
+    },
+    {
+     "equals": "thé",
+     "category": "word_confusion",
+     "feedback": "« thé » s'écrit شاي."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e11",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.gabal"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne syllabe.",
+   "prompt": "جَ___ل",
+   "promptLanguage": "ar",
+   "answer": "بَ",
+   "acceptedAnswers": [
+    "بَ"
+   ],
+   "explanation": "La montagne, جَبَل : après جَ vient ب avec une fatha, puis ل sans voyelle.",
+   "tip": "Dis le mot à voix haute : ton oreille entend le a.",
+   "extraExample": {
+    "text": "جَبَل",
+    "translation": "montagne"
+   },
+   "options": [
+    "بُ",
+    "بِ",
+    "بَ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بِ",
+     "category": "spelling",
+     "feedback": "Avec une kasra, ce serait un i : la montagne a un a."
+    },
+    {
+     "equals": "بُ",
+     "category": "spelling",
+     "feedback": "Avec une damma, ce serait un ou : la montagne a un a."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e12",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.enab"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la bonne syllabe.",
+   "prompt": "عِ___ب",
+   "promptLanguage": "ar",
+   "answer": "نَ",
+   "acceptedAnswers": [
+    "نَ"
+   ],
+   "explanation": "عِنَب : عِ (kasra), puis نَ (fatha), puis ب sans voyelle. Il n'y a qu'une kasra dans ce mot.",
+   "tip": "Une seule kasra, au début.",
+   "extraExample": {
+    "text": "عِنَب أَحْمَر.",
+    "translation": "Du raisin rouge."
+   },
+   "options": [
+    "نُ",
+    "نِ",
+    "نَ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "نِ",
+     "category": "spelling",
+     "feedback": "Une seconde kasra ? Non : la kasra est seulement sur ع."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e13",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.balad"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la dernière lettre.",
+   "prompt": "بَلَ___",
+   "promptLanguage": "ar",
+   "answer": "د",
+   "acceptedAnswers": [
+    "د"
+   ],
+   "explanation": "La dernière lettre d'un mot n'a presque jamais de signe : en égyptien, il finit sans voyelle. On écrit donc د seul.",
+   "tip": "Dernière lettre : pas de signe.",
+   "extraExample": {
+    "text": "بَلَدِي مِصْر.",
+    "translation": "Mon pays, c'est l'Égypte."
+   },
+   "options": [
+    "د",
+    "دِ",
+    "دَ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "دَ",
+     "category": "spelling",
+     "feedback": "Ce serait un a de plus à la fin : en égyptien, بَلَد finit par la lettre د, sans voyelle."
+    },
+    {
+     "equals": "دِ",
+     "category": "spelling",
+     "feedback": "Ce serait un i à la fin : بَلَد finit sans voyelle."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e14",
+   "unitIds": [
+    "ar.v.laban",
+    "ar.g17.short_vowels"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « lait ».",
+   "prompt": "لَ___ن",
+   "promptLanguage": "ar",
+   "answer": "بَ",
+   "acceptedAnswers": [
+    "بَ"
+   ],
+   "explanation": "Tu dis déjà ce mot à l'oral : lait se dit avec a, a. Donc ب porte une fatha : لَبَن.",
+   "tip": "Dis-le tout haut : tu entends la voyelle.",
+   "extraExample": {
+    "text": "لَبَن",
+    "translation": "lait"
+   },
+   "options": [
+    "بِ",
+    "بُ",
+    "بَ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بِ",
+     "category": "spelling",
+     "feedback": "Dis le mot à voix haute : tu n'entends pas de i."
+    },
+    {
+     "equals": "بُ",
+     "category": "spelling",
+     "feedback": "Dis le mot à voix haute : tu n'entends pas de ou."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e15",
+   "unitIds": [
+    "ar.v.jaras",
+    "ar.g17.short_vowels"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « cloche ».",
+   "prompt": "جَ___س",
+   "promptLanguage": "ar",
+   "answer": "رَ",
+   "acceptedAnswers": [
+    "رَ"
+   ],
+   "explanation": "Cloche, جَرَس : deux fathas, puis س sans voyelle. Ton oreille entend a, a.",
+   "tip": "Deux fois le son a.",
+   "extraExample": {
+    "text": "جَرَس الْكَنِيسَة",
+    "translation": "la cloche de l'église"
+   },
+   "options": [
+    "رِ",
+    "رَ",
+    "رُ"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "رِ",
+     "category": "spelling",
+     "feedback": "Pas de i dans ce mot : la voyelle est un a."
+    },
+    {
+     "equals": "رُ",
+     "category": "spelling",
+     "feedback": "Pas de ou dans ce mot : la voyelle est un a."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e16",
+   "unitIds": [
+    "ar.g17.short_vowels"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque syllabe à son son.",
+   "prompt": "Syllabes et sons",
+   "promptLanguage": "fr",
+   "answer": "بَ = b + a ; تِ = t + i ; نُ = n + ou ; سَ = s + a",
+   "acceptedAnswers": [],
+   "explanation": "La fatha donne a, la kasra donne i, la damma donne ou. La lettre se dit d'abord, la voyelle après.",
+   "pairs": [
+    {
+     "left": "بَ",
+     "right": "b + a"
+    },
+    {
+     "left": "تِ",
+     "right": "t + i"
+    },
+    {
+     "left": "نُ",
+     "right": "n + ou"
+    },
+    {
+     "left": "سَ",
+     "right": "s + a"
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e17",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.gabal",
+    "ar.v.asal",
+    "ar.v.qalam",
+    "ar.v.qamar"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots du quotidien",
+   "promptLanguage": "fr",
+   "answer": "جَبَل = montagne ; عَسَل = miel ; قَلَم = stylo ; قَمَر = lune",
+   "acceptedAnswers": [],
+   "explanation": "Lis chaque mot lettre par lettre, voyelle comprise : trois lettres et deux fathas à chaque fois.",
+   "pairs": [
+    {
+     "left": "جَبَل",
+     "right": "montagne"
+    },
+    {
+     "left": "عَسَل",
+     "right": "miel"
+    },
+    {
+     "left": "قَلَم",
+     "right": "stylo"
+    },
+    {
+     "left": "قَمَر",
+     "right": "lune"
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e18",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.hamal",
+    "ar.v.rusul",
+    "ar.v.qudus"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots d'église et de livres",
+   "promptLanguage": "fr",
+   "answer": "حَمَل = agneau ; رُسُل = apôtres ; قُدُس = sainteté ; كُتُب = livres",
+   "acceptedAnswers": [],
+   "explanation": "حَمَل : l'Agneau de Dieu ; رُسُل : les apôtres ; قُدُس : la sainteté (الرُّوح الْقُدُس) ; كُتُب : des livres.",
+   "pairs": [
+    {
+     "left": "حَمَل",
+     "right": "agneau"
+    },
+    {
+     "left": "رُسُل",
+     "right": "apôtres"
+    },
+    {
+     "left": "قُدُس",
+     "right": "sainteté"
+    },
+    {
+     "left": "كُتُب",
+     "right": "livres"
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e19",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.balad"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "بَلَد",
+   "promptLanguage": "ar",
+   "answer": "pays",
+   "acceptedAnswers": [
+    "pays",
+    "un pays",
+    "le pays",
+    "village",
+    "un village"
+   ],
+   "explanation": "ب + a, ل + a, د : un pays, ou le village d'où l'on vient.",
+   "tip": "Deux fathas, puis د sans voyelle.",
+   "extraExample": {
+    "text": "بَلَد كِبِير.",
+    "translation": "Un grand pays."
+   },
+   "errorPatterns": [
+    {
+     "equals": "montagne",
+     "category": "word_confusion",
+     "feedback": "La montagne est جَبَل : ici tu lis ب + ل + د."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e20",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.qalam"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "قَلَم",
+   "promptLanguage": "ar",
+   "answer": "stylo",
+   "acceptedAnswers": [
+    "stylo",
+    "un stylo",
+    "le stylo",
+    "crayon",
+    "un crayon"
+   ],
+   "explanation": "ق + a, ل + a, م : le stylo. Au Caire, ق se dit comme un coup de gorge.",
+   "tip": "Deux fathas.",
+   "extraExample": {
+    "text": "عِنْدِي قَلَم.",
+    "translation": "J'ai un stylo."
+   },
+   "errorPatterns": [
+    {
+     "equals": "lune",
+     "category": "word_confusion",
+     "feedback": "La lune est قَمَر : ici tu lis ق + ل + م."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e21",
+   "unitIds": [
+    "ar.g17.short_vowels"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Comment s'appelle le signe en forme de petit و bouclé, posé au-dessus de la lettre ?",
+   "promptLanguage": "fr",
+   "answer": "damma",
+   "acceptedAnswers": [
+    "damma",
+    "la damma",
+    "une damma",
+    "dhamma",
+    "ضمة",
+    "ضَمَّة"
+   ],
+   "explanation": "C'est la damma (ضَمَّة, « rassembler ») : elle donne le son ou.",
+   "tip": "Un petit و bouclé : ou.",
+   "extraExample": {
+    "text": "بُ",
+    "translation": "b + ou"
+   },
+   "errorPatterns": [
+    {
+     "equals": "fatha",
+     "category": "word_confusion",
+     "feedback": "La fatha est un trait penché, pas un petit و bouclé."
+    },
+    {
+     "equals": "kasra",
+     "category": "word_confusion",
+     "feedback": "La kasra est un trait penché sous la lettre."
+    }
+   ]
+  },
+  {
+   "id": "ar.l17.e22",
+   "unitIds": [
+    "ar.g17.short_vowels",
+    "ar.v.rusul"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire رُسُل ?",
+   "promptLanguage": "fr",
+   "answer": "apôtres",
+   "acceptedAnswers": [
+    "apôtres",
+    "les apôtres",
+    "des apôtres",
+    "apôtre"
+   ],
+   "explanation": "رُسُل : deux dammas, donc ر + ou, س + ou, ل. Ce sont les apôtres, les envoyés du Christ.",
+   "tip": "Deux dammas, deux ou.",
+   "extraExample": {
+    "text": "عِيد الرُّسُل.",
+    "translation": "La fête des apôtres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "agneau",
+     "category": "word_confusion",
+     "feedback": "L'agneau est حَمَل, avec des fathas."
+    }
+   ]
+  }
+ ]
+}

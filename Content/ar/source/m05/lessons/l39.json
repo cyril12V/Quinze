@@ -1,0 +1,733 @@
+{
+ "lessonId": "ar.l39",
+ "exercises": [
+  {
+   "id": "ar.l39.e01",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.embareh"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « hier » ?",
+   "promptLanguage": "fr",
+   "answer": "امبارح",
+   "acceptedAnswers": [
+    "امبارح"
+   ],
+   "explanation": "امبارح est hier ; il complète la ligne du temps امبارح — النهارده — بكرة.",
+   "tip": "امبارح commence par ا.",
+   "extraExample": {
+    "text": "امبارح بالليل",
+    "translation": "Hier soir"
+   },
+   "options": [
+    "بكرة",
+    "النهارده",
+    "امبارح",
+    "دلوقتي"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بكرة",
+     "category": "word_confusion",
+     "feedback": "بكرة veut dire « demain »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e02",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.bellayl"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Tu entends « بالليل بنصلي ». Quand prie-t-on ?",
+   "promptLanguage": "fr",
+   "answer": "la nuit",
+   "acceptedAnswers": [
+    "la nuit"
+   ],
+   "explanation": "بالليل = ب + الليل : « la nuit » (carte « Les moments de la journée »).",
+   "tip": "ب = pendant, à.",
+   "extraExample": {
+    "text": "بالليل الجو حلو",
+    "translation": "La nuit, il fait bon"
+   },
+   "options": [
+    "le matin",
+    "à midi",
+    "la nuit",
+    "hier"
+   ]
+  },
+  {
+   "id": "ar.l39.e03",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.el_subh"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « le matin » dans un emploi du temps ?",
+   "promptLanguage": "fr",
+   "answer": "الصبح",
+   "acceptedAnswers": [
+    "الصبح"
+   ],
+   "explanation": "الصبح est le matin ; tu connais sa famille dans صباح الخير.",
+   "tip": "الصبح ↔ صباح.",
+   "extraExample": {
+    "text": "الصبح في الكنيسة",
+    "translation": "Le matin à l'église"
+   },
+   "options": [
+    "الصبح",
+    "بالليل",
+    "بعدين",
+    "الضهر"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "الضهر",
+     "category": "word_confusion",
+     "feedback": "الضهر est midi."
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e04",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.baadein"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « plus tard, ensuite » ?",
+   "promptLanguage": "fr",
+   "answer": "بعدين",
+   "acceptedAnswers": [
+    "بعدين"
+   ],
+   "explanation": "بعدين est « plus tard » ; il s'oppose à دلوقتي, « maintenant ».",
+   "tip": "بعدين ≠ دلوقتي.",
+   "extraExample": {
+    "text": "ماشي، بعدين",
+    "translation": "D'accord, plus tard"
+   },
+   "options": [
+    "دلوقتي",
+    "امبارح",
+    "بعدين",
+    "بكرة"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "دلوقتي",
+     "category": "word_confusion",
+     "feedback": "دلوقتي veut dire « maintenant »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e05",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.el_sa_kam"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne question.",
+   "prompt": "Quelle question demande l'heure ?",
+   "promptLanguage": "fr",
+   "answer": "الساعة كام؟",
+   "acceptedAnswers": [
+    "الساعة كام؟"
+   ],
+   "explanation": "الساعة كام ؟ demande l'heure ; بكام ده؟ demande un prix.",
+   "tip": "كام est dans les deux : regarde le mot avant.",
+   "extraExample": {
+    "text": "الساعة كام دلوقتي؟",
+    "translation": "Quelle heure est-il maintenant ?"
+   },
+   "options": [
+    "عامل إيه؟",
+    "بكام ده؟",
+    "فين السوق؟",
+    "الساعة كام؟"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "بكام ده؟",
+     "category": "word_confusion",
+     "feedback": "بكام demande un prix, pas l'heure."
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e06",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.rob"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis l'heure.",
+   "prompt": "Tu lis : « الساعة تلاتة ونص ». Quelle heure est-ce ?",
+   "promptLanguage": "fr",
+   "answer": "3 h 30",
+   "acceptedAnswers": [
+    "3 h 30"
+   ],
+   "explanation": "ونص veut dire « et demie » : 3 h 30. Pour 3 h 15, on dirait وربع (carte « Quelle heure est-il ? »).",
+   "tip": "نص = moitié, ربع = quart.",
+   "extraExample": {
+    "text": "الساعة اتنين ونص",
+    "translation": "Il est deux heures et demie"
+   },
+   "options": [
+    "3 h 30",
+    "3 h 15",
+    "3 h 45",
+    "2 h 30"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "3 h 15",
+     "category": "word_confusion",
+     "feedback": "3 h 15 se dit تلاتة وربع."
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e07",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.el_itnen"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Comprends la semaine.",
+   "prompt": "Si الأحد est le premier jour, quel jour est الاتنين ?",
+   "promptLanguage": "fr",
+   "answer": "lundi",
+   "acceptedAnswers": [
+    "lundi"
+   ],
+   "explanation": "الاتنين vient de « deux » : c'est le deuxième jour, le lundi (carte « La semaine suit les nombres »).",
+   "tip": "الأحد = 1, الاتنين = 2.",
+   "extraExample": {
+    "text": "يوم الاتنين",
+    "translation": "Le lundi"
+   },
+   "options": [
+    "vendredi",
+    "lundi",
+    "mardi",
+    "samedi"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "mardi",
+     "category": "word_confusion",
+     "feedback": "Mardi est التلات (trois)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e08",
+   "unitIds": [
+    "ar.v.el_ahad"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel : le jour de l'église.",
+   "prompt": "Quel jour est celui du قداس pour la plupart des familles coptes ?",
+   "promptLanguage": "fr",
+   "answer": "الأحد",
+   "acceptedAnswers": [
+    "الأحد"
+   ],
+   "explanation": "Le dimanche, الأحد, est le jour de la liturgie (carte « Mercredi et vendredi »).",
+   "tip": "الأحد = dimanche.",
+   "extraExample": {
+    "text": "الأحد الصبح القداس",
+    "translation": "Dimanche matin, la liturgie"
+   },
+   "options": [
+    "الاتنين",
+    "الأحد",
+    "السبت",
+    "الجمعة"
+   ]
+  },
+  {
+   "id": "ar.l39.e09",
+   "unitIds": [
+    "ar.v.sawm"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Rappel : les jours de jeûne.",
+   "prompt": "Quels jours de la semaine les coptes orthodoxes jeûnent-ils (صوم) ?",
+   "promptLanguage": "fr",
+   "answer": "mercredi et vendredi",
+   "acceptedAnswers": [
+    "mercredi et vendredi"
+   ],
+   "explanation": "Les coptes jeûnent chaque mercredi (الأربع) et vendredi (الجمعة).",
+   "tip": "الأربع والجمعة صوم.",
+   "extraExample": {
+    "text": "الجمعة صوم",
+    "translation": "Le vendredi est un jour de jeûne"
+   },
+   "options": [
+    "samedi et dimanche",
+    "jeudi et samedi",
+    "lundi et mardi",
+    "mercredi et vendredi"
+   ]
+  },
+  {
+   "id": "ar.l39.e10",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.inshallah"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "On te dit « بكرة إن شاء الله ». Que veut dire إن شاء الله ?",
+   "promptLanguage": "fr",
+   "answer": "si Dieu le veut",
+   "acceptedAnswers": [
+    "si Dieu le veut"
+   ],
+   "explanation": "إن شاء الله veut dire « si Dieu le veut » : un réflexe pour parler du futur.",
+   "tip": "Futur → إن شاء الله.",
+   "extraExample": {
+    "text": "هنتقابل إن شاء الله",
+    "translation": "On se verra, si Dieu le veut"
+   },
+   "options": [
+    "à tout de suite",
+    "merci beaucoup",
+    "au revoir",
+    "si Dieu le veut"
+   ]
+  },
+  {
+   "id": "ar.l39.e11",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.embareh",
+    "ar.v.baadein",
+    "ar.v.el_subh",
+    "ar.v.el_dohr",
+    "ar.v.bellayl"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Associe chaque mot de temps à son sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Le passé proche, le « plus tard » et les trois moments de la journée.",
+   "pairs": [
+    {
+     "left": "امبارح",
+     "right": "hier"
+    },
+    {
+     "left": "بعدين",
+     "right": "plus tard, ensuite"
+    },
+    {
+     "left": "الصبح",
+     "right": "le matin"
+    },
+    {
+     "left": "الضهر",
+     "right": "midi, l'après-midi"
+    },
+    {
+     "left": "بالليل",
+     "right": "la nuit"
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e12",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.el_sa_kam",
+    "ar.v.rob",
+    "ar.v.el_itnen",
+    "ar.v.el_gomaa",
+    "ar.v.inshallah"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque expression à son sens.",
+   "prompt": "Associe l'heure, la semaine et le réflexe du futur à leur sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "L'heure, le quart, deux jours et l'expression du futur.",
+   "pairs": [
+    {
+     "left": "الساعة كام",
+     "right": "quelle heure est-il ?"
+    },
+    {
+     "left": "ربع",
+     "right": "un quart"
+    },
+    {
+     "left": "الاتنين",
+     "right": "lundi"
+    },
+    {
+     "left": "الجمعة",
+     "right": "vendredi"
+    },
+    {
+     "left": "إن شاء الله",
+     "right": "si Dieu le veut"
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e13",
+   "unitIds": [
+    "ar.v.naharda",
+    "ar.v.bukra",
+    "ar.v.delwaqti",
+    "ar.v.el_ahad",
+    "ar.v.sabt"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Rappel : associe chaque mot à son sens.",
+   "prompt": "Revois les mots du temps déjà lus dans les modules précédents.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ces mots viennent des lettres et des phrases de tous les jours : tu les retrouves sur ta ligne du temps.",
+   "pairs": [
+    {
+     "left": "النهارده",
+     "right": "aujourd'hui"
+    },
+    {
+     "left": "بكرة",
+     "right": "demain"
+    },
+    {
+     "left": "دلوقتي",
+     "right": "maintenant"
+    },
+    {
+     "left": "الأحد",
+     "right": "dimanche"
+    },
+    {
+     "left": "سبت",
+     "right": "samedi"
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e14",
+   "unitIds": [
+    "ar.v.bukra",
+    "ar.g39.le_temps"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Rappel : complète la phrase.",
+   "prompt": "___ رايح القداس  (demain, je vais à la liturgie)",
+   "promptLanguage": "ar",
+   "answer": "بكرة",
+   "acceptedAnswers": [
+    "بكرة"
+   ],
+   "explanation": "بكرة veut dire « demain » ; رايح veut dire « je vais ».",
+   "tip": "بكرة = demain.",
+   "extraExample": {
+    "text": "بكرة الصبح",
+    "translation": "Demain matin"
+   },
+   "options": [
+    "بكرة",
+    "الضهر",
+    "بعدين",
+    "امبارح"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "امبارح",
+     "category": "word_confusion",
+     "feedback": "امبارح veut dire « hier » : on ne dit pas « hier je vais »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e15",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.rob"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète l'heure.",
+   "prompt": "الساعة تلاتة ___  (3 h 15)",
+   "promptLanguage": "ar",
+   "answer": "وربع",
+   "acceptedAnswers": [
+    "وربع"
+   ],
+   "explanation": "ربع est le quart : وربع veut dire « et quart », donc 3 h 15 (carte « Quelle heure est-il ? »).",
+   "tip": "ربع = quart.",
+   "extraExample": {
+    "text": "الساعة اتنين وربع",
+    "translation": "Il est deux heures et quart"
+   },
+   "options": [
+    "وخمسة",
+    "وعشرين",
+    "وربع",
+    "ونص"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ونص",
+     "category": "word_confusion",
+     "feedback": "ونص est 3 h 30."
+    }
+   ]
+  },
+  {
+   "id": "ar.l39.e16",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.el_sa_kam",
+    "ar.v.setta"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Rappel des nombres : complète l'heure.",
+   "prompt": "الساعة ___ ونص  (6 h 30)",
+   "promptLanguage": "ar",
+   "answer": "ستة",
+   "acceptedAnswers": [
+    "ستة"
+   ],
+   "explanation": "الساعة + nombre + ونص : ستة (6) donne 6 h 30.",
+   "tip": "ستة = 6.",
+   "extraExample": {
+    "text": "الساعة سبعة ونص",
+    "translation": "Il est sept heures et demie"
+   },
+   "options": [
+    "ستة",
+    "سبعة",
+    "خمسة",
+    "تمانية"
+   ]
+  },
+  {
+   "id": "ar.l39.e17",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.inshallah"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "بكرة ___  (demain, si Dieu le veut)",
+   "promptLanguage": "ar",
+   "answer": "إن شاء الله",
+   "acceptedAnswers": [
+    "إن شاء الله"
+   ],
+   "explanation": "On ajoute إن شاء الله dès qu'on parle du futur.",
+   "tip": "Futur → إن شاء الله.",
+   "extraExample": {
+    "text": "الصبح إن شاء الله",
+    "translation": "Le matin, si Dieu le veut"
+   },
+   "options": [
+    "إن شاء الله",
+    "العفو",
+    "ماشي",
+    "معلش"
+   ]
+  },
+  {
+   "id": "ar.l39.e18",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.el_itnen"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète les jours de jeûne.",
+   "prompt": "___ والجمعة صوم  (le mercredi et le vendredi, jeûne)",
+   "promptLanguage": "ar",
+   "answer": "الأربع",
+   "acceptedAnswers": [
+    "الأربع"
+   ],
+   "explanation": "Le mercredi, الأربع (quatre), et le vendredi sont les jours de jeûne de la semaine.",
+   "tip": "الأربع = 4e jour.",
+   "extraExample": {
+    "text": "الخميس بعد الأربع",
+    "translation": "Le jeudi vient après le mercredi"
+   },
+   "options": [
+    "التلات",
+    "الخميس",
+    "الأربع",
+    "الاتنين"
+   ]
+  },
+  {
+   "id": "ar.l39.e19",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.bellayl"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "بكرة الساعة تمانية إن شاء الله",
+   "promptLanguage": "ar",
+   "answer": "demain à huit heures si dieu le veut",
+   "acceptedAnswers": [
+    "demain à huit heures si dieu le veut",
+    "demain à huit heures, si dieu le veut",
+    "demain à 8 heures si dieu le veut",
+    "demain à 8h si dieu le veut",
+    "demain à huit heures inch'allah"
+   ],
+   "explanation": "بكرة = demain, الساعة تمانية = à huit heures, إن شاء الله = si Dieu le veut.",
+   "tip": "Temps + heure + إن شاء الله.",
+   "extraExample": {
+    "text": "الجمعة الساعة تسعة",
+    "translation": "Vendredi à neuf heures"
+   }
+  },
+  {
+   "id": "ar.l39.e20",
+   "unitIds": [
+    "ar.v.naharda",
+    "ar.v.el_ahad"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Rappel : écris le sens en français.",
+   "prompt": "النهارده الأحد",
+   "promptLanguage": "ar",
+   "answer": "aujourd'hui c'est dimanche",
+   "acceptedAnswers": [
+    "aujourd'hui c'est dimanche",
+    "aujourd'hui, c'est dimanche",
+    "aujourd'hui dimanche",
+    "aujourd'hui, dimanche",
+    "on est dimanche aujourd'hui",
+    "nous sommes dimanche"
+   ],
+   "explanation": "النهارده = aujourd'hui, الأحد = dimanche.",
+   "tip": "Pas de verbe « être » : deux mots suffisent.",
+   "extraExample": {
+    "text": "النهارده الجمعة",
+    "translation": "Aujourd'hui c'est vendredi"
+   }
+  },
+  {
+   "id": "ar.l39.e21",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.el_itnen"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Quel jour vient juste après الأحد dans la semaine égyptienne ?",
+   "promptLanguage": "fr",
+   "answer": "lundi",
+   "acceptedAnswers": [
+    "lundi",
+    "le lundi"
+   ],
+   "explanation": "Après الأحد (un) vient الاتنين (deux), le lundi.",
+   "tip": "Les jours suivent les nombres.",
+   "extraExample": {
+    "text": "يوم الاتنين",
+    "translation": "Le lundi"
+   }
+  },
+  {
+   "id": "ar.l39.e22",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.el_sa_kam"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Que veut dire la question « الساعة كام ؟ »",
+   "promptLanguage": "fr",
+   "answer": "quelle heure est-il",
+   "acceptedAnswers": [
+    "quelle heure est-il",
+    "quelle heure est il",
+    "quelle heure est-il ?",
+    "il est quelle heure",
+    "quelle heure",
+    "c'est quelle heure",
+    "l'heure"
+   ],
+   "explanation": "الساعة كام ؟ demande l'heure (carte « Quelle heure est-il ? »).",
+   "tip": "كام = combien, الساعة = l'heure.",
+   "extraExample": {
+    "text": "القداس الساعة كام؟",
+    "translation": "À quelle heure est la liturgie ?"
+   }
+  },
+  {
+   "id": "ar.l39.e23",
+   "unitIds": [
+    "ar.g39.le_temps",
+    "ar.v.el_sa_kam"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Dis : « Il est trois heures et demie ».",
+   "promptLanguage": "ar",
+   "answer": "الساعة تلاتة ونص",
+   "acceptedAnswers": [
+    "الساعة تلاتة ونص"
+   ],
+   "explanation": "On commence par الساعة, puis le nombre, puis ونص pour la demie.",
+   "tip": "الساعة + nombre + ونص.",
+   "extraExample": {
+    "text": "الساعة اتنين وربع",
+    "translation": "Il est deux heures et quart"
+   },
+   "tokens": [
+    "تلاتة",
+    "ونص",
+    "الساعة"
+   ]
+  }
+ ]
+}

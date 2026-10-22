@@ -1,0 +1,751 @@
+{
+ "lessonId": "ar.l37",
+ "exercises": [
+  {
+   "id": "ar.l37.e01",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.ayiz"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Tu veux commander un thé. Quel mot dis-tu avant « شاي » ?",
+   "promptLanguage": "fr",
+   "answer": "عايز",
+   "acceptedAnswers": [
+    "عايز"
+   ],
+   "explanation": "عايز veut dire « je veux » : on le met avant ce qu'on commande (carte « Au café »).",
+   "tip": "عايز + chose.",
+   "extraExample": {
+    "text": "عايز قهوة",
+    "translation": "Je veux un café"
+   },
+   "options": [
+    "الحساب",
+    "فلوس",
+    "عايز",
+    "غالي"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "غالي",
+     "category": "word_confusion",
+     "feedback": "غالي veut dire « cher »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e02",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.ayiz"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Applique la règle du féminin.",
+   "prompt": "Une femme commande un thé. Que dit-elle ?",
+   "promptLanguage": "fr",
+   "answer": "عايزة",
+   "acceptedAnswers": [
+    "عايزة"
+   ],
+   "explanation": "Une femme ajoute ة : عايزة (carte « Au café »).",
+   "tip": "Féminin = ة.",
+   "extraExample": {
+    "text": "عايزة قهوة",
+    "translation": "Je voudrais un café (une femme)"
+   },
+   "options": [
+    "غالية",
+    "عايزة",
+    "عايز",
+    "رخيصة"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "عايز",
+     "category": "word_confusion",
+     "feedback": "C'est la forme de l'homme ; une femme ajoute ة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e03",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.el_hisab"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « l'addition » ?",
+   "promptLanguage": "fr",
+   "answer": "الحساب",
+   "acceptedAnswers": [
+    "الحساب"
+   ],
+   "explanation": "الحساب est l'addition ; on le demande avec لو سمحت (carte « Payer »).",
+   "tip": "الحساب لو سمحت.",
+   "extraExample": {
+    "text": "الحساب عليا",
+    "translation": "C'est moi qui paie"
+   },
+   "options": [
+    "فلوس",
+    "حاجة",
+    "الحساب",
+    "سوق"
+   ]
+  },
+  {
+   "id": "ar.l37.e04",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.guneh"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quelle est la monnaie de l'Égypte ?",
+   "promptLanguage": "fr",
+   "answer": "جنيه",
+   "acceptedAnswers": [
+    "جنيه"
+   ],
+   "explanation": "جنيه est la livre égyptienne ; فلوس est l'argent en général (carte « L'argent »).",
+   "tip": "جنيه : le ج se lit g.",
+   "extraExample": {
+    "text": "جنيه واحد",
+    "translation": "Une livre"
+   },
+   "options": [
+    "حاجة",
+    "جنيه",
+    "فلوس",
+    "كباية"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "فلوس",
+     "category": "word_confusion",
+     "feedback": "فلوس est l'argent en général, pas la monnaie."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e05",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.bikam"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Pour demander le prix d'un objet, quel mot dis-tu devant ده ?",
+   "promptLanguage": "fr",
+   "answer": "بكام",
+   "acceptedAnswers": [
+    "بكام"
+   ],
+   "explanation": "بكام veut dire « combien ça coûte ? » (carte « Demander le prix »).",
+   "tip": "بكام = ب + كام.",
+   "extraExample": {
+    "text": "بكام الكيلو؟",
+    "translation": "Combien le kilo ?"
+   },
+   "options": [
+    "بكام",
+    "الحساب",
+    "عايز",
+    "غالي"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "غالي",
+     "category": "word_confusion",
+     "feedback": "غالي est la réponse (« cher »), pas la question."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e06",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.ghali"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réaction.",
+   "prompt": "Le vendeur annonce un prix trop haut. Que dis-tu au souk ?",
+   "promptLanguage": "fr",
+   "answer": "غالي",
+   "acceptedAnswers": [
+    "غالي"
+   ],
+   "explanation": "غالي veut dire « cher » : au souk, on commence presque toujours par là (carte « Le souk »).",
+   "tip": "غالي = cher.",
+   "extraExample": {
+    "text": "غالي أوي!",
+    "translation": "Très cher !"
+   },
+   "options": [
+    "الحساب",
+    "معلش",
+    "غالي",
+    "رخيص"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "رخيص",
+     "category": "word_confusion",
+     "feedback": "رخيص veut dire « bon marché »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e07",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.souq"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis et choisis le sens.",
+   "prompt": "Tu lis : « رايح السوق ». Où va la personne ?",
+   "promptLanguage": "fr",
+   "answer": "au marché",
+   "acceptedAnswers": [
+    "au marché"
+   ],
+   "explanation": "سوق est le marché ; رايح veut dire « je vais » (mot vu dans les phrases).",
+   "tip": "السوق = le souk.",
+   "extraExample": {
+    "text": "السوق زحمة",
+    "translation": "Le marché est bondé"
+   },
+   "options": [
+    "à l'église",
+    "au marché",
+    "à l'école",
+    "au café"
+   ]
+  },
+  {
+   "id": "ar.l37.e08",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.mumken"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Pour demander doucement « je peux avoir un café ? », quel mot places-tu devant قهوة ?",
+   "promptLanguage": "fr",
+   "answer": "ممكن",
+   "acceptedAnswers": [
+    "ممكن"
+   ],
+   "explanation": "ممكن veut dire « est-ce possible ? » : ممكن قهوة ؟ est la façon douce de commander (carte « ممكن et حاجة »).",
+   "tip": "ممكن + chose ?",
+   "extraExample": {
+    "text": "ممكن الحساب؟",
+    "translation": "Je peux avoir l'addition ?"
+   },
+   "options": [
+    "رخيص",
+    "كام",
+    "ممكن",
+    "الحساب"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "كام",
+     "category": "word_confusion",
+     "feedback": "كام veut dire « combien »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e09",
+   "unitIds": [
+    "ar.v.men_fadlak"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel de la politesse.",
+   "prompt": "Quelle expression veut dire « s'il te plaît » ?",
+   "promptLanguage": "fr",
+   "answer": "من فضلك",
+   "acceptedAnswers": [
+    "من فضلك"
+   ],
+   "explanation": "من فضلك veut dire « s'il te plaît » ; معلش est « pardon ».",
+   "tip": "من فضلك accompagne la commande.",
+   "extraExample": {
+    "text": "من فضلك، عايز عصير",
+    "translation": "S'il te plaît, je veux un jus"
+   },
+   "options": [
+    "معلش",
+    "مع السلامة",
+    "العفو",
+    "من فضلك"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "معلش",
+     "category": "word_confusion",
+     "feedback": "معلش veut dire « pardon »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e10",
+   "unitIds": [
+    "ar.v.fin"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Rappel du module précédent.",
+   "prompt": "Dans « فين الحمام ؟ », que veut dire فين ?",
+   "promptLanguage": "fr",
+   "answer": "où",
+   "acceptedAnswers": [
+    "où"
+   ],
+   "explanation": "فين veut dire « où » : فين الحمام ؟ = où sont les toilettes ?",
+   "tip": "فين = où.",
+   "extraExample": {
+    "text": "فين السوق؟",
+    "translation": "Où est le marché ?"
+   },
+   "options": [
+    "qui",
+    "où",
+    "quand",
+    "pourquoi"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "qui",
+     "category": "word_confusion",
+     "feedback": "« qui » se dit مين."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e11",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.bikam",
+    "ar.v.ghali",
+    "ar.v.rakhis",
+    "ar.v.el_hisab",
+    "ar.v.felus"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Associe chaque mot du café à son sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Les mots du prix : demander, juger (cher / bon marché), payer.",
+   "pairs": [
+    {
+     "left": "بكام",
+     "right": "combien ça coûte ?"
+    },
+    {
+     "left": "غالي",
+     "right": "cher"
+    },
+    {
+     "left": "رخيص",
+     "right": "bon marché, pas cher"
+    },
+    {
+     "left": "الحساب",
+     "right": "l'addition"
+    },
+    {
+     "left": "فلوس",
+     "right": "argent"
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e12",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.guneh",
+    "ar.v.souq",
+    "ar.v.mumken",
+    "ar.v.haga",
+    "ar.v.kam"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Associe les autres mots du marché à leur sens.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Monnaie, lieu, politesse, « chose » et « combien » : les mots passe-partout du marché.",
+   "pairs": [
+    {
+     "left": "جنيه",
+     "right": "livre égyptienne"
+    },
+    {
+     "left": "سوق",
+     "right": "marché"
+    },
+    {
+     "left": "ممكن",
+     "right": "est-ce possible ? puis-je ?"
+    },
+    {
+     "left": "حاجة",
+     "right": "chose, quelque chose"
+    },
+    {
+     "left": "كام",
+     "right": "combien (de)"
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e13",
+   "unitIds": [
+    "ar.v.ayiz",
+    "ar.v.fin",
+    "ar.v.eh",
+    "ar.v.matam",
+    "ar.v.shay"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Rappel : associe chaque mot à son sens.",
+   "prompt": "Revois des mots du café vus dans les modules précédents.",
+   "promptLanguage": "fr",
+   "answer": null,
+   "acceptedAnswers": [],
+   "explanation": "Ces mots viennent des lettres, de la lecture par paquets et des petits mots qui sont partout.",
+   "pairs": [
+    {
+     "left": "عايز",
+     "right": "je veux"
+    },
+    {
+     "left": "فين",
+     "right": "où"
+    },
+    {
+     "left": "إيه",
+     "right": "quoi"
+    },
+    {
+     "left": "مطعم",
+     "right": "restaurant"
+    },
+    {
+     "left": "شاي",
+     "right": "thé"
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e14",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.ayiz"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la commande.",
+   "prompt": "لو سمحت ، ___ كباية شاي  (s'il vous plaît, je veux un verre de thé)",
+   "promptLanguage": "ar",
+   "answer": "عايز",
+   "acceptedAnswers": [
+    "عايز"
+   ],
+   "explanation": "عايز + chose : « je veux… ». لو سمحت ouvre la conversation.",
+   "tip": "عايز devant la commande.",
+   "extraExample": {
+    "text": "لو سمحت، عايز كباية قهوة",
+    "translation": "Excusez-moi, je veux une tasse de café"
+   },
+   "options": [
+    "الحساب",
+    "عايز",
+    "بكام",
+    "رخيص"
+   ]
+  },
+  {
+   "id": "ar.l37.e15",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.bikam"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la question.",
+   "prompt": "___ ده؟  (combien ça coûte ?)",
+   "promptLanguage": "ar",
+   "answer": "بكام",
+   "acceptedAnswers": [
+    "بكام"
+   ],
+   "explanation": "بكام ده؟ veut dire « combien ça coûte ? ».",
+   "tip": "بكام = ب + كام.",
+   "extraExample": {
+    "text": "بكام ده؟",
+    "translation": "Combien ça coûte ?"
+   },
+   "options": [
+    "بكام",
+    "إيه",
+    "فين",
+    "الحساب"
+   ]
+  },
+  {
+   "id": "ar.l37.e16",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.ghali"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Accorde l'adjectif.",
+   "prompt": "اللحمة ___ أوي  (la viande est très chère)",
+   "promptLanguage": "ar",
+   "answer": "غالية",
+   "acceptedAnswers": [
+    "غالية"
+   ],
+   "explanation": "لحمة est féminin : l'adjectif prend ة. أوي veut dire « très ».",
+   "tip": "Nom féminin ↔ adjectif en ة.",
+   "extraExample": {
+    "text": "الفراخ غالية",
+    "translation": "Le poulet est cher"
+   },
+   "options": [
+    "غالي",
+    "غالية",
+    "رخيص",
+    "رخيصة"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "غالي",
+     "category": "word_confusion",
+     "feedback": "C'est la forme du masculin ; اللحمة est féminin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e17",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.rakhis"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Accorde l'adjectif.",
+   "prompt": "الكشري ___  (le kushari est bon marché)",
+   "promptLanguage": "ar",
+   "answer": "رخيص",
+   "acceptedAnswers": [
+    "رخيص"
+   ],
+   "explanation": "كشري est masculin : pas de ة. رخيص veut dire « bon marché ».",
+   "tip": "Masculin = sans ة.",
+   "extraExample": {
+    "text": "الفول رخيص",
+    "translation": "Les fèves sont bon marché"
+   },
+   "options": [
+    "غالية",
+    "رخيص",
+    "غالي",
+    "رخيصة"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "رخيصة",
+     "category": "word_confusion",
+     "feedback": "رخيصة est le féminin ; كشري est masculin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l37.e18",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.bikam",
+    "ar.v.asir"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "بكام العصير؟",
+   "promptLanguage": "ar",
+   "answer": "combien coûte le jus",
+   "acceptedAnswers": [
+    "combien coûte le jus",
+    "combien coûte le jus ?",
+    "c'est combien le jus",
+    "le jus c'est combien",
+    "combien le jus",
+    "quel est le prix du jus"
+   ],
+   "explanation": "بكام = combien ça coûte ; العصير = le jus.",
+   "tip": "بكام + chose = prix.",
+   "extraExample": {
+    "text": "بكام الشاي؟",
+    "translation": "Combien coûte le thé ?"
+   }
+  },
+  {
+   "id": "ar.l37.e19",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.el_hisab"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "الحساب لو سمحت",
+   "promptLanguage": "ar",
+   "answer": "l'addition s'il vous plaît",
+   "acceptedAnswers": [
+    "l'addition s'il vous plaît",
+    "l'addition, s'il vous plaît",
+    "l'addition s'il te plaît",
+    "la note s'il vous plaît",
+    "l'addition excusez-moi",
+    "l'addition excuse-moi"
+   ],
+   "explanation": "الحساب = l'addition ; لو سمحت = s'il vous plaît.",
+   "tip": "On lève la main : الحساب لو سمحت.",
+   "extraExample": {
+    "text": "الحساب من فضلك",
+    "translation": "L'addition, s'il vous plaît"
+   }
+  },
+  {
+   "id": "ar.l37.e20",
+   "unitIds": [
+    "ar.v.ayiz",
+    "ar.v.men_fadlak"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Rappel : écris le sens en français.",
+   "prompt": "عايز قهوة من فضلك",
+   "promptLanguage": "ar",
+   "answer": "je veux un café s'il te plaît",
+   "acceptedAnswers": [
+    "je veux un café s'il te plaît",
+    "je veux un café s'il vous plaît",
+    "je voudrais un café s'il vous plaît",
+    "je voudrais un café s'il te plaît",
+    "je veux du café s'il te plaît",
+    "je veux un café, s'il vous plaît"
+   ],
+   "explanation": "عايز = je veux ; قهوة = café ; من فضلك = s'il te plaît.",
+   "tip": "Commande + من فضلك.",
+   "extraExample": {
+    "text": "عايز شاي من فضلك",
+    "translation": "Je veux un thé, s'il te plaît"
+   }
+  },
+  {
+   "id": "ar.l37.e21",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.ghali"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Réponds en français.",
+   "prompt": "Au souk, tu dis « غالي ! » au vendeur. Qu'est-ce que tu lui dis ?",
+   "promptLanguage": "fr",
+   "answer": "c'est cher",
+   "acceptedAnswers": [
+    "c'est cher",
+    "cher",
+    "trop cher",
+    "c'est trop cher",
+    "il est cher",
+    "ça coûte cher",
+    "c'est très cher"
+   ],
+   "explanation": "غالي veut dire « cher » : c'est la première réplique du marchandage (carte « Cher ou pas cher »).",
+   "tip": "غالي = cher.",
+   "extraExample": {
+    "text": "غالي أوي!",
+    "translation": "Très cher !"
+   }
+  },
+  {
+   "id": "ar.l37.e22",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.felus"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Réponds en français.",
+   "prompt": "Que veut dire فلوس dans « معايا فلوس » ?",
+   "promptLanguage": "fr",
+   "answer": "argent",
+   "acceptedAnswers": [
+    "argent",
+    "de l'argent",
+    "l'argent",
+    "des sous",
+    "les sous",
+    "sous"
+   ],
+   "explanation": "فلوس est l'argent en général (carte « L'argent »).",
+   "tip": "فلوس = argent, جنيه = la livre.",
+   "extraExample": {
+    "text": "مفيش فلوس",
+    "translation": "Il n'y a pas d'argent"
+   }
+  },
+  {
+   "id": "ar.l37.e23",
+   "unitIds": [
+    "ar.g37.cafe_et_marche",
+    "ar.v.kubbaya"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Forme la phrase : « Je veux un verre de thé ».",
+   "promptLanguage": "ar",
+   "answer": "عايز كباية شاي",
+   "acceptedAnswers": [
+    "عايز كباية شاي"
+   ],
+   "explanation": "عايز vient en premier, puis ce qu'on veut : كباية (un verre) et شاي (du thé).",
+   "tip": "عايز + contenant + contenu.",
+   "extraExample": {
+    "text": "عايز كباية مية",
+    "translation": "Je veux un verre d'eau"
+   },
+   "tokens": [
+    "كباية",
+    "عايز",
+    "شاي"
+   ]
+  }
+ ]
+}

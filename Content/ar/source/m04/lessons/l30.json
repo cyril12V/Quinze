@@ -1,0 +1,871 @@
+{
+ "lessonId": "ar.l30",
+ "exercises": [
+  {
+   "id": "ar.l30.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.da",
+    "ar.v.bayt"
+   ],
+   "difficulty": 1,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "ده بيت",
+   "promptLanguage": "ar",
+   "options": [
+    "C'est une église.",
+    "C'est une maison.",
+    "Où est la maison ?",
+    "C'est une porte."
+   ],
+   "answer": "C'est une maison.",
+   "acceptedAnswers": [
+    "C'est une maison."
+   ],
+   "explanation": "ده (ça, masculin) + بيت (maison, module 2) : « C'est une maison. »",
+   "tip": "ده est masculin, comme بيت.",
+   "extraExample": {
+    "text": "ده باب.",
+    "translation": "C'est une porte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "C'est une église.",
+     "category": "word_confusion",
+     "feedback": "« C'est une église. » ne correspond pas : relis ده بيت bloc par bloc. Ici, le sens est « C'est une maison. »."
+    },
+    {
+     "equals": "Où est la maison ?",
+     "category": "word_confusion",
+     "feedback": "« Où est la maison ? » ne correspond pas : relis ده بيت bloc par bloc. Ici, le sens est « C'est une maison. »."
+    },
+    {
+     "equals": "C'est une porte.",
+     "category": "word_confusion",
+     "feedback": "« C'est une porte. » ne correspond pas : relis ده بيت bloc par bloc. Ici, le sens est « C'est une maison. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.di",
+    "ar.v.kanisa"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "دي كنيسة",
+   "promptLanguage": "ar",
+   "options": [
+    "C'est une maison.",
+    "Ce sont des garçons.",
+    "Où est l'église ?",
+    "C'est une église."
+   ],
+   "answer": "C'est une église.",
+   "acceptedAnswers": [
+    "C'est une église."
+   ],
+   "explanation": "دي (ça, féminin) + كنيسة : « C'est une église ». كنيسة est un mot féminin : il finit par ة.",
+   "tip": "Un ة à la fin du nom : pense à دي.",
+   "extraExample": {
+    "text": "دي مدرسة.",
+    "translation": "C'est une école."
+   },
+   "errorPatterns": [
+    {
+     "equals": "C'est une maison.",
+     "category": "word_confusion",
+     "feedback": "« C'est une maison. » ne correspond pas : relis دي كنيسة bloc par bloc. Ici, le sens est « C'est une église. »."
+    },
+    {
+     "equals": "Ce sont des garçons.",
+     "category": "word_confusion",
+     "feedback": "« Ce sont des garçons. » ne correspond pas : relis دي كنيسة bloc par bloc. Ici, le sens est « C'est une église. »."
+    },
+    {
+     "equals": "Où est l'église ?",
+     "category": "word_confusion",
+     "feedback": "« Où est l'église ? » ne correspond pas : relis دي كنيسة bloc par bloc. Ici, le sens est « C'est une église. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.dol",
+    "ar.v.walad"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "دول ولاد",
+   "promptLanguage": "ar",
+   "options": [
+    "C'est un garçon.",
+    "Ce sont des garçons.",
+    "Ce sont des filles.",
+    "C'est une maison."
+   ],
+   "answer": "Ce sont des garçons.",
+   "acceptedAnswers": [
+    "Ce sont des garçons."
+   ],
+   "explanation": "دول sert pour plusieurs personnes ou choses : « Ce sont… ». ولاد est le pluriel de ولد (garçon, leçon 25).",
+   "tip": "دول : plus d'un.",
+   "extraExample": {
+    "text": "دول كتب.",
+    "translation": "Ce sont des livres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "C'est un garçon.",
+     "category": "word_confusion",
+     "feedback": "« C'est un garçon. » ne correspond pas : relis دول ولاد bloc par bloc. Ici, le sens est « Ce sont des garçons. »."
+    },
+    {
+     "equals": "Ce sont des filles.",
+     "category": "word_confusion",
+     "feedback": "« Ce sont des filles. » ne correspond pas : relis دول ولاد bloc par bloc. Ici, le sens est « Ce sont des garçons. »."
+    },
+    {
+     "equals": "C'est une maison.",
+     "category": "word_confusion",
+     "feedback": "« C'est une maison. » ne correspond pas : relis دول ولاد bloc par bloc. Ici, le sens est « Ce sont des garçons. »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.fi",
+    "ar.v.kanisa"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire في الكنيسة ?",
+   "promptLanguage": "fr",
+   "options": [
+    "sur l'église",
+    "où est l'église",
+    "l'église n'est pas ici",
+    "dans l'église"
+   ],
+   "answer": "dans l'église",
+   "acceptedAnswers": [
+    "dans l'église"
+   ],
+   "explanation": "في veut dire « dans » : في الكنيسة = dans l'église. Pour « sur », on aurait على.",
+   "tip": "في : deux lettres, un ف et un ي.",
+   "extraExample": {
+    "text": "في البيت",
+    "translation": "dans la maison"
+   },
+   "errorPatterns": [
+    {
+     "equals": "sur l'église",
+     "category": "word_confusion",
+     "feedback": "« Sur » se dit على ; ici le mot est في, « dans »."
+    },
+    {
+     "equals": "où est l'église",
+     "category": "word_confusion",
+     "feedback": "« Où » se dit فين, avec un ن final ; ici le mot est في."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.ala",
+    "ar.v.kitab",
+    "ar.v.tarabeza"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire الكتاب على الترابيزة ?",
+   "promptLanguage": "ar",
+   "options": [
+    "Le livre est dans la table.",
+    "Le livre est sur la table.",
+    "La table est sur le livre.",
+    "Où est le livre ?"
+   ],
+   "answer": "Le livre est sur la table.",
+   "acceptedAnswers": [
+    "Le livre est sur la table."
+   ],
+   "explanation": "على veut dire « sur » : le livre (الكتاب) est sur la table (الترابيزة). On lit dans l'ordre : le livre d'abord, puis où il est.",
+   "tip": "Lis l'ordre des mots : ce qui est posé vient avant على.",
+   "extraExample": {
+    "text": "الموبايل على الكرسي.",
+    "translation": "Le portable est sur la chaise."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le livre est dans la table.",
+     "category": "word_confusion",
+     "feedback": "« Dans » se dit في ; ici le mot est على, « sur »."
+    },
+    {
+     "equals": "La table est sur le livre.",
+     "category": "word_confusion",
+     "feedback": "L'ordre est inversé : le livre est le premier mot, c'est lui qui est posé."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.min"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « qui » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "إيه",
+    "ليه",
+    "إمتى",
+    "مين"
+   ],
+   "answer": "مين",
+   "acceptedAnswers": [
+    "مين"
+   ],
+   "explanation": "مين veut dire « qui ». إيه veut dire « quoi », ليه « pourquoi », إمتى « quand ».",
+   "tip": "Cinq questions, cinq images : apprends-les par cœur.",
+   "extraExample": {
+    "text": "مين ده؟",
+    "translation": "C'est qui ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "إيه",
+     "category": "word_confusion",
+     "feedback": "« إيه » n'est pas « qui » : relis la liste des cinq questions."
+    },
+    {
+     "equals": "ليه",
+     "category": "word_confusion",
+     "feedback": "« ليه » n'est pas « qui » : relis la liste des cinq questions."
+    },
+    {
+     "equals": "إمتى",
+     "category": "word_confusion",
+     "feedback": "« إمتى » n'est pas « qui » : relis la liste des cinq questions."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.eh",
+    "ar.v.da"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis la phrase et choisis son sens.",
+   "prompt": "إيه ده؟",
+   "promptLanguage": "ar",
+   "options": [
+    "C'est qui ?",
+    "C'est quoi ?",
+    "Pourquoi ?",
+    "Quand est-ce ?"
+   ],
+   "answer": "C'est quoi ?",
+   "acceptedAnswers": [
+    "C'est quoi ?"
+   ],
+   "explanation": "إيه (quoi) + ده (ça) : « C'est quoi ? » Le mot de question donne le ton de la phrase.",
+   "tip": "Le mot de question vient en premier ou en dernier.",
+   "extraExample": {
+    "text": "ده إيه؟",
+    "translation": "C'est quoi ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "C'est qui ?",
+     "category": "word_confusion",
+     "feedback": "« C'est qui ? » ne correspond pas : relis إيه ده؟ bloc par bloc. Ici, le sens est « C'est quoi ? »."
+    },
+    {
+     "equals": "Pourquoi ?",
+     "category": "word_confusion",
+     "feedback": "« Pourquoi ? » ne correspond pas : relis إيه ده؟ bloc par bloc. Ici, le sens est « C'est quoi ? »."
+    },
+    {
+     "equals": "Quand est-ce ?",
+     "category": "word_confusion",
+     "feedback": "« Quand est-ce ? » ne correspond pas : relis إيه ده؟ bloc par bloc. Ici, le sens est « C'est quoi ? »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.fin",
+    "ar.g30.little_words"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel petit mot veut dire « où » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "في",
+    "مين",
+    "ليه",
+    "فين"
+   ],
+   "answer": "فين",
+   "acceptedAnswers": [
+    "فين"
+   ],
+   "explanation": "فين (où) finit par un ن ; في (dans) n'en a pas ; مين (qui) commence par م.",
+   "tip": "Regarde le début et la fin : ف…ن = où.",
+   "extraExample": {
+    "text": "فين الباب؟",
+    "translation": "Où est la porte ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "في",
+     "category": "word_confusion",
+     "feedback": "في (dans) n'a pas de ن final : « où » s'écrit فين."
+    },
+    {
+     "equals": "مين",
+     "category": "word_confusion",
+     "feedback": "مين commence par م : c'est « qui »."
+    },
+    {
+     "equals": "ليه",
+     "category": "word_confusion",
+     "feedback": "ليه commence par ل : c'est « pourquoi »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.mish",
+    "ar.v.kwayyis",
+    "ar.g30.little_words"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "مش كويس",
+   "promptLanguage": "ar",
+   "options": [
+    "très bien",
+    "pas bien",
+    "Dieu merci",
+    "pas de thé"
+   ],
+   "answer": "pas bien",
+   "acceptedAnswers": [
+    "pas bien"
+   ],
+   "explanation": "مش (ne… pas) + كويس (bien) : « pas bien ». مش devant un mot le nie.",
+   "tip": "مش nie le mot qui le suit.",
+   "extraExample": {
+    "text": "مش عايز.",
+    "translation": "Je ne veux pas."
+   },
+   "errorPatterns": [
+    {
+     "equals": "très bien",
+     "category": "word_confusion",
+     "feedback": "« très bien » ne correspond pas : relis مش كويس bloc par bloc. Ici, le sens est « pas bien »."
+    },
+    {
+     "equals": "Dieu merci",
+     "category": "word_confusion",
+     "feedback": "« Dieu merci » ne correspond pas : relis مش كويس bloc par bloc. Ici, le sens est « pas bien »."
+    },
+    {
+     "equals": "pas de thé",
+     "category": "word_confusion",
+     "feedback": "« pas de thé » ne correspond pas : relis مش كويس bloc par bloc. Ici, le sens est « pas bien »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.kitir",
+    "ar.g30.little_words"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « beaucoup » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "كتب",
+    "عندي",
+    "جواب",
+    "كتير"
+   ],
+   "answer": "كتير",
+   "acceptedAnswers": [
+    "كتير"
+   ],
+   "explanation": "كتير veut dire « beaucoup ». كتب veut dire « livres » ou « il a écrit », عندي « j'ai », جواب « lettre ».",
+   "tip": "كتير finit par ير, comme شكرا كتير.",
+   "extraExample": {
+    "text": "شكرا كتير.",
+    "translation": "Merci beaucoup."
+   },
+   "errorPatterns": [
+    {
+     "equals": "كتب",
+     "category": "word_confusion",
+     "feedback": "« كتب » a un autre sens : « beaucoup » se dit كتير."
+    },
+    {
+     "equals": "عندي",
+     "category": "word_confusion",
+     "feedback": "« عندي » a un autre sens : « beaucoup » se dit كتير."
+    },
+    {
+     "equals": "جواب",
+     "category": "word_confusion",
+     "feedback": "« جواب » a un autre sens : « beaucoup » se dit كتير."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e11",
+   "type": "match",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.da",
+    "ar.v.di",
+    "ar.v.dol"
+   ],
+   "difficulty": 1,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque petit mot à son genre.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ده",
+     "right": "masculin"
+    },
+    {
+     "left": "دي",
+     "right": "féminin"
+    },
+    {
+     "left": "دول",
+     "right": "pluriel"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "ده = masculin ; دي = féminin ; دول = pluriel",
+   "explanation": "ده pour un masculin, دي pour un féminin, دول pour plusieurs. Le dernier caractère fait la différence."
+  },
+  {
+   "id": "ar.l30.e12",
+   "type": "match",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.fi",
+    "ar.v.ala",
+    "ar.v.mish",
+    "ar.v.fin"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque petit mot à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "في",
+     "right": "dans"
+    },
+    {
+     "left": "على",
+     "right": "sur"
+    },
+    {
+     "left": "مش",
+     "right": "ne… pas"
+    },
+    {
+     "left": "فين",
+     "right": "où"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "في = dans ; على = sur ; مش = ne… pas ; فين = où",
+   "explanation": "في (dans), على (sur), مش (ne… pas) et فين (où) : quatre petits mots qu'on voit dans presque chaque phrase."
+  },
+  {
+   "id": "ar.l30.e13",
+   "type": "match",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.eh",
+    "ar.v.min",
+    "ar.v.leh",
+    "ar.v.imta"
+   ],
+   "difficulty": 2,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque mot de question à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "إيه",
+     "right": "quoi"
+    },
+    {
+     "left": "مين",
+     "right": "qui"
+    },
+    {
+     "left": "ليه",
+     "right": "pourquoi"
+    },
+    {
+     "left": "إمتى",
+     "right": "quand"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "إيه = quoi ; مين = qui ; ليه = pourquoi ; إمتى = quand",
+   "explanation": "Quatre questions : إيه (quoi), مين (qui), ليه (pourquoi) et إمتى (quand). Le cinquième mot, فين, veut dire « où »."
+  },
+  {
+   "id": "ar.l30.e14",
+   "type": "match",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.leh",
+    "ar.v.imta",
+    "ar.v.min",
+    "ar.v.fin"
+   ],
+   "difficulty": 3,
+   "instruction": "Relie chaque élément à son sens.",
+   "prompt": "Relie chaque question à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "ليه مش عايز؟",
+     "right": "Pourquoi tu ne veux pas ?"
+    },
+    {
+     "left": "إمتى القداس؟",
+     "right": "Quand est la liturgie ?"
+    },
+    {
+     "left": "مين ده؟",
+     "right": "C'est qui ?"
+    },
+    {
+     "left": "فين الباب؟",
+     "right": "Où est la porte ?"
+    }
+   ],
+   "acceptedAnswers": [],
+   "answer": "ليه مش عايز؟ = Pourquoi tu ne veux pas ? ; إمتى القداس؟ = Quand est la liturgie ? ; مين ده؟ = C'est qui ? ; فين الباب؟ = Où est la porte ?",
+   "explanation": "Repère le mot de question de chaque phrase : ليه (pourquoi), إمتى (quand), مين (qui), فين (où)."
+  },
+  {
+   "id": "ar.l30.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.da"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "___ بيت (C'est une maison.)",
+   "promptLanguage": "ar",
+   "options": [
+    "دي",
+    "ده",
+    "دول",
+    "في"
+   ],
+   "answer": "ده",
+   "acceptedAnswers": [
+    "ده"
+   ],
+   "explanation": "بيت est un mot masculin, donc on dit ده بيت. دي serait pour un féminin et دول pour un pluriel.",
+   "tip": "Mot féminin ou masculin : cherche le ة.",
+   "extraExample": {
+    "text": "ده باب.",
+    "translation": "C'est une porte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "دي",
+     "category": "vocabulary",
+     "feedback": "دي est pour un féminin ; بيت est masculin."
+    },
+    {
+     "equals": "دول",
+     "category": "vocabulary",
+     "feedback": "دول est pour un pluriel ; ici il n'y a qu'une maison."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e16",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.ala"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "الكتاب ___ الترابيزة (Le livre est sur la table.)",
+   "promptLanguage": "ar",
+   "options": [
+    "في",
+    "مش",
+    "فين",
+    "على"
+   ],
+   "answer": "على",
+   "acceptedAnswers": [
+    "على"
+   ],
+   "explanation": "Le livre est posé sur la table : le petit mot est على, « sur ». في voudrait dire « dans ».",
+   "tip": "Posé dessus : على.",
+   "extraExample": {
+    "text": "الموبايل على الكرسي.",
+    "translation": "Le portable est sur la chaise."
+   },
+   "errorPatterns": [
+    {
+     "equals": "في",
+     "category": "vocabulary",
+     "feedback": "في veut dire « dans » : ici le livre est dessus."
+    },
+    {
+     "equals": "فين",
+     "category": "vocabulary",
+     "feedback": "فين veut dire « où »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e17",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.imta"
+   ],
+   "difficulty": 3,
+   "instruction": "Complète avec le bon mot.",
+   "prompt": "___ القداس؟ (Quand est la liturgie ?)",
+   "promptLanguage": "ar",
+   "options": [
+    "مين",
+    "إمتى",
+    "ليه",
+    "إيه"
+   ],
+   "answer": "إمتى",
+   "acceptedAnswers": [
+    "إمتى"
+   ],
+   "explanation": "Pour demander « quand », on commence par إمتى. مين (qui), ليه (pourquoi) et إيه (quoi) posent d'autres questions.",
+   "tip": "إمتى : le seul de la liste qui commence par إ + م.",
+   "extraExample": {
+    "text": "إمتى هتيجي؟",
+    "translation": "Quand viendras-tu ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "مين",
+     "category": "vocabulary",
+     "feedback": "« مين » pose une autre question que « quand »."
+    },
+    {
+     "equals": "ليه",
+     "category": "vocabulary",
+     "feedback": "« ليه » pose une autre question que « quand »."
+    },
+    {
+     "equals": "إيه",
+     "category": "vocabulary",
+     "feedback": "« إيه » pose une autre question que « quand »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l30.e18",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.leh",
+    "ar.v.mish"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Pourquoi tu ne veux pas de thé ? »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "شاي",
+    "عايز",
+    "ليه",
+    "مش"
+   ],
+   "answer": "ليه مش عايز شاي",
+   "acceptedAnswers": [
+    "ليه مش عايز شاي",
+    "مش عايز شاي ليه"
+   ],
+   "explanation": "Le mot de question ليه ouvre la phrase, puis مش عايز (je ne veux pas) et شاي. On peut aussi le mettre à la fin.",
+   "tip": "ليه au début, ou tout à la fin.",
+   "extraExample": {
+    "text": "ليه مش عايز؟",
+    "translation": "Pourquoi tu ne veux pas ?"
+   }
+  },
+  {
+   "id": "ar.l30.e19",
+   "type": "reorder",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.ala"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets dans l'ordre : « Le livre est sur la table. »",
+   "promptLanguage": "fr",
+   "tokens": [
+    "الترابيزة",
+    "الكتاب",
+    "على"
+   ],
+   "answer": "الكتاب على الترابيزة",
+   "acceptedAnswers": [
+    "الكتاب على الترابيزة"
+   ],
+   "explanation": "On nomme d'abord ce qui est posé (الكتاب), puis على (sur), puis l'endroit (الترابيزة).",
+   "tip": "Chose posée, على, endroit.",
+   "extraExample": {
+    "text": "الموبايل على الكرسي",
+    "translation": "Le portable est sur la chaise"
+   }
+  },
+  {
+   "id": "ar.l30.e20",
+   "type": "translation",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.imta",
+    "ar.v.quddas"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "إمتى القداس",
+   "promptLanguage": "ar",
+   "answer": "Quand est la liturgie ?",
+   "acceptedAnswers": [
+    "Quand est la liturgie ?",
+    "quand est la liturgie",
+    "quand a lieu la liturgie",
+    "quand est la messe",
+    "c'est quand la liturgie"
+   ],
+   "explanation": "إمتى (quand) + القداس (la liturgie) : « Quand est la liturgie ? »",
+   "tip": "Le mot de question vient en premier.",
+   "extraExample": {
+    "text": "إمتى التسبحة؟",
+    "translation": "Quand est l'office de louange ?"
+   }
+  },
+  {
+   "id": "ar.l30.e21",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.leh"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire ليه ?",
+   "promptLanguage": "fr",
+   "answer": "pourquoi",
+   "acceptedAnswers": [
+    "pourquoi",
+    "pourquoi ?"
+   ],
+   "explanation": "ليه veut dire « pourquoi ». On l'entend à chaque « pourquoi pas ? » en égyptien.",
+   "tip": "ليه ouvre la question.",
+   "extraExample": {
+    "text": "ليه مش عايز؟",
+    "translation": "Pourquoi tu ne veux pas ?"
+   }
+  },
+  {
+   "id": "ar.l30.e22",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g30.little_words",
+    "ar.v.ala"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire على ?",
+   "promptLanguage": "fr",
+   "answer": "sur",
+   "acceptedAnswers": [
+    "sur",
+    "sur le",
+    "sur la"
+   ],
+   "explanation": "على veut dire « sur ». On le trouve aussi écrit علي.",
+   "tip": "Pense à ce qui est posé dessus.",
+   "extraExample": {
+    "text": "الكتاب على الترابيزة.",
+    "translation": "Le livre est sur la table."
+   }
+  },
+  {
+   "id": "ar.l30.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.v.kwayyis",
+    "ar.g30.little_words"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire كويس ?",
+   "promptLanguage": "fr",
+   "answer": "bien",
+   "acceptedAnswers": [
+    "bien",
+    "bon"
+   ],
+   "explanation": "كويس veut dire « bien » ou « bon ». C'est le mot de la leçon 27.",
+   "tip": "Le و au milieu fait un paquet long : كو.",
+   "extraExample": {
+    "text": "الشاي كويس.",
+    "translation": "Le thé est bon."
+   }
+  }
+ ]
+}

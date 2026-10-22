@@ -1,0 +1,744 @@
+{
+ "lessonId": "ar.l19",
+ "exercises": [
+  {
+   "id": "ar.l19.e01",
+   "unitIds": [
+    "ar.g19.long_vowels"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque voyelle à sa lettre sœur.",
+   "prompt": "Voyelles et lettres sœurs",
+   "promptLanguage": "fr",
+   "answer": "ـَ = ا ; ـُ = و ; ـِ = ي",
+   "acceptedAnswers": [],
+   "explanation": "Fatha + ا : a long. Damma + و : ou long. Kasra + ي : i long.",
+   "pairs": [
+    {
+     "left": "ـَ",
+     "right": "ا"
+    },
+    {
+     "left": "ـُ",
+     "right": "و"
+    },
+    {
+     "left": "ـِ",
+     "right": "ي"
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e02",
+   "unitIds": [
+    "ar.g19.long_vowels"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Une voyelle longue dure combien de fois plus longtemps qu'une voyelle brève ?",
+   "promptLanguage": "fr",
+   "answer": "deux fois",
+   "acceptedAnswers": [
+    "deux fois",
+    "2 fois",
+    "deux fois plus",
+    "le double",
+    "double",
+    "x2"
+   ],
+   "explanation": "La lettre sœur allonge la voyelle : elle dure deux fois plus longtemps.",
+   "tip": "Brève = 1, longue = 2.",
+   "extraExample": {
+    "text": "رُوح",
+    "translation": "ou long"
+   }
+  },
+  {
+   "id": "ar.l19.e03",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.ruh"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "رُوح",
+   "promptLanguage": "ar",
+   "answer": "esprit",
+   "acceptedAnswers": [
+    "esprit"
+   ],
+   "explanation": "ر + damma, puis و sans signe : un ou long, puis ح. C'est l'esprit, comme dans الرُّوح الْقُدُس.",
+   "tip": "Damma + و sans signe : ou long.",
+   "extraExample": {
+    "text": "الرُّوح الْقُدُس.",
+    "translation": "Le Saint-Esprit."
+   },
+   "options": [
+    "ami",
+    "esprit",
+    "feu",
+    "route"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "route",
+     "category": "word_confusion",
+     "feedback": "La route est طَرِيق : elle commence par ط."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e04",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.tariq"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "طَرِيق",
+   "promptLanguage": "ar",
+   "answer": "chemin",
+   "acceptedAnswers": [
+    "chemin"
+   ],
+   "explanation": "ط + a, ر + i long (kasra + ي), ق : le chemin, la route.",
+   "tip": "Kasra + ي : un i tenu.",
+   "extraExample": {
+    "text": "الطَّرِيق طَوِيل.",
+    "translation": "La route est longue."
+   },
+   "options": [
+    "esprit",
+    "chemin",
+    "ami",
+    "voisin"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ami",
+     "category": "word_confusion",
+     "feedback": "L'ami est صَدِيق : même ـِيق final, mais le début est ص."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e05",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.kahin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "كَاهِن",
+   "promptLanguage": "ar",
+   "answer": "prêtre",
+   "acceptedAnswers": [
+    "prêtre"
+   ],
+   "explanation": "ك + a long (fatha + ا), ه + i, ن : le prêtre de l'église.",
+   "tip": "ـَا au début, puis une kasra.",
+   "extraExample": {
+    "text": "كَاهِن الْكَنِيسَة.",
+    "translation": "Le prêtre de l'église."
+   },
+   "options": [
+    "prêtre",
+    "docteur",
+    "moine",
+    "élève"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "moine",
+     "category": "word_confusion",
+     "feedback": "Le moine est رَاهِب : la première lettre est ر, pas ك."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e06",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.rahib"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "رَاهِب",
+   "promptLanguage": "ar",
+   "answer": "moine",
+   "acceptedAnswers": [
+    "moine"
+   ],
+   "explanation": "ر + a long (fatha + ا), ه + i, ب : le moine, qui vit au monastère.",
+   "tip": "Même schéma que كَاهِن, première lettre différente.",
+   "extraExample": {
+    "text": "رَاهِب فِي الدَّيْر.",
+    "translation": "Un moine dans le monastère."
+   },
+   "options": [
+    "prêtre",
+    "voisin",
+    "moine",
+    "ami"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "prêtre",
+     "category": "word_confusion",
+     "feedback": "Le prêtre est كَاهِن : il commence par ك. Ici tu lis ر."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e07",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.tilmiz"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "تِلْمِيذ",
+   "promptLanguage": "ar",
+   "answer": "disciple",
+   "acceptedAnswers": [
+    "disciple"
+   ],
+   "explanation": "ت + i, ل sans voyelle (soukoun), م + i long (kasra + ي), ذ : un élève, un disciple.",
+   "tip": "Un soukoun, puis ـِي.",
+   "extraExample": {
+    "text": "تَلَامِيذ الْمَسِيح.",
+    "translation": "Les disciples du Christ."
+   },
+   "options": [
+    "docteur",
+    "disciple",
+    "chemin",
+    "moine"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "moine",
+     "category": "word_confusion",
+     "feedback": "Le moine est رَاهِب. Ici tu lis ت + ل + م + ي + ذ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e08",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.duktur"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "دُكْتُور",
+   "promptLanguage": "ar",
+   "answer": "docteur",
+   "acceptedAnswers": [
+    "docteur"
+   ],
+   "explanation": "د + ou, ك sans voyelle, ت + ou long (damma + و), ر : le docteur.",
+   "tip": "Deux dammas, dont la seconde est allongée par و.",
+   "extraExample": {
+    "text": "الدُّكْتُور جَاي.",
+    "translation": "Le docteur arrive."
+   },
+   "options": [
+    "élève",
+    "docteur",
+    "prêtre",
+    "voisin"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "prêtre",
+     "category": "word_confusion",
+     "feedback": "Le prêtre est كَاهِن. Ici tu lis د + ك + ت + و + ر."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e09",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.kibir"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Combien de voyelles longues y a-t-il dans كِبِير ?",
+   "promptLanguage": "fr",
+   "answer": "une",
+   "acceptedAnswers": [
+    "une"
+   ],
+   "explanation": "كِبِير : كِ est brève, بِ est suivie de ي (i long) : une seule voyelle longue, car il n'y a qu'une seule lettre ي.",
+   "tip": "Compte les lettres ا و ي nues, pas les kasras.",
+   "extraExample": {
+    "text": "بَيْت كِبِير.",
+    "translation": "Une grande maison."
+   },
+   "options": [
+    "une",
+    "deux",
+    "trois"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "deux",
+     "category": "spelling",
+     "feedback": "Il y a deux kasras, mais un seul ي : une seule voyelle longue."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e10",
+   "unitIds": [
+    "ar.v.sawm",
+    "ar.g19.long_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots se lit avec un ô (ـَوْ) ?",
+   "promptLanguage": "fr",
+   "answer": "صَوْم",
+   "acceptedAnswers": [
+    "صَوْم"
+   ],
+   "explanation": "صَوْم : fatha + و avec soukoun, donc ô. رُوح a un و nu après une damma : ou long. كَاهِن n'a pas de و.",
+   "tip": "Un و avec soukoun : ô. Un و nu : ou long.",
+   "extraExample": {
+    "text": "لَوْن",
+    "translation": "couleur"
+   },
+   "options": [
+    "كَاهِن",
+    "رُوح",
+    "صَوْم"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "رُوح",
+     "category": "spelling",
+     "feedback": "Dans رُوح, le و est nu, après une damma : c'est un ou long, pas un ô."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e11",
+   "unitIds": [
+    "ar.v.salib",
+    "ar.g19.long_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "صَلِيب",
+   "promptLanguage": "ar",
+   "answer": "croix",
+   "acceptedAnswers": [
+    "croix"
+   ],
+   "explanation": "ص + a, ل + i long (kasra + ي), ب : la croix, mot que tu lisais صليب.",
+   "tip": "Dans صَلِيب, le ي allonge la kasra de ل.",
+   "extraExample": {
+    "text": "صَلِيب الْمَسِيح",
+    "translation": "la croix du Christ"
+   },
+   "options": [
+    "esprit",
+    "croix",
+    "pain",
+    "chemin"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "chemin",
+     "category": "word_confusion",
+     "feedback": "Le chemin est طَرِيق, un autre mot : ici tu lis ص + ل + ي + ب."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e12",
+   "unitIds": [
+    "ar.v.malak",
+    "ar.g19.long_vowels"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "مَلَاك",
+   "promptLanguage": "ar",
+   "answer": "ange",
+   "acceptedAnswers": [
+    "ange"
+   ],
+   "explanation": "م + a, ل + a long (fatha + ا), ك : un ange, que tu lisais ملاك.",
+   "tip": "Fatha + ا : a long.",
+   "extraExample": {
+    "text": "مَلَاك الرَّبّ",
+    "translation": "l'ange du Seigneur"
+   },
+   "options": [
+    "prêtre",
+    "ange",
+    "voisin",
+    "moine"
+   ]
+  },
+  {
+   "id": "ar.l19.e13",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.gar"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la lettre qui allonge.",
+   "prompt": "جَ___ر",
+   "promptLanguage": "ar",
+   "answer": "ا",
+   "acceptedAnswers": [
+    "ا"
+   ],
+   "explanation": "Le voisin, جَار : ج + fatha, puis ا allonge en a long, puis ر.",
+   "tip": "Fatha → ا.",
+   "extraExample": {
+    "text": "جَارِي طَيِّب.",
+    "translation": "Mon voisin est gentil."
+   },
+   "options": [
+    "ا",
+    "و",
+    "ي"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "و",
+     "category": "spelling",
+     "feedback": "Le و allonge une damma, pas une fatha."
+    },
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "Le ي allonge une kasra, pas une fatha."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e14",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.sadiq"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec la lettre qui allonge.",
+   "prompt": "صَدِ___ق",
+   "promptLanguage": "ar",
+   "answer": "ي",
+   "acceptedAnswers": [
+    "ي"
+   ],
+   "explanation": "L'ami, صَدِيق : la kasra sous د est allongée par ي : i long.",
+   "tip": "Kasra → ي.",
+   "extraExample": {
+    "text": "صَدِيق قَدِيم.",
+    "translation": "Un vieil ami."
+   },
+   "options": [
+    "ا",
+    "ي",
+    "و"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "Le ا allonge une fatha, pas une kasra."
+    },
+    {
+     "equals": "و",
+     "category": "spelling",
+     "feedback": "Le و allonge une damma, pas une kasra."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e15",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.duktur"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec la lettre qui allonge.",
+   "prompt": "دُكْتُ___ر",
+   "promptLanguage": "ar",
+   "answer": "و",
+   "acceptedAnswers": [
+    "و"
+   ],
+   "explanation": "Le docteur, دُكْتُور : la damma sur ت est allongée par و.",
+   "tip": "Damma → و.",
+   "extraExample": {
+    "text": "الدُّكْتُور جَاي.",
+    "translation": "Le docteur arrive."
+   },
+   "options": [
+    "ا",
+    "ي",
+    "و"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "Le ا allonge une fatha, pas une damma."
+    },
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "Le ي allonge une kasra, pas une damma."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e16",
+   "unitIds": [
+    "ar.v.kitab",
+    "ar.g19.long_vowels"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le mot « livre ».",
+   "prompt": "كِتَ___ب",
+   "promptLanguage": "ar",
+   "answer": "ا",
+   "acceptedAnswers": [
+    "ا"
+   ],
+   "explanation": "كِتَاب : la fatha sur ت est suivie de ا : a long. Tu dis ce mot avec un a long.",
+   "tip": "Dis-le tout haut : tu entends un a tenu.",
+   "extraExample": {
+    "text": "كِتَاب الْكَنِيسَة",
+    "translation": "le livre de l'église"
+   },
+   "options": [
+    "ا",
+    "ي",
+    "و"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "Un i long s'entendrait après une kasra, pas après la fatha de ت."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e17",
+   "unitIds": [
+    "ar.v.bakhur",
+    "ar.g19.long_vowels"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète le mot « encens ».",
+   "prompt": "بَخُ___ر",
+   "promptLanguage": "ar",
+   "answer": "و",
+   "acceptedAnswers": [
+    "و"
+   ],
+   "explanation": "بَخُور : la damma sur خ est allongée par و : ou long. C'est le mot que tu entends à la messe.",
+   "tip": "Damma → و.",
+   "extraExample": {
+    "text": "رَائِحَة الْبَخُور",
+    "translation": "l'odeur de l'encens"
+   },
+   "options": [
+    "ا",
+    "و",
+    "ي"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "Le ا allonge une fatha ; sur خ, la voyelle est une damma."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e18",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.ruh",
+    "ar.v.tariq",
+    "ar.v.kahin",
+    "ar.v.rahib"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots d'église",
+   "promptLanguage": "fr",
+   "answer": "رُوح = esprit ; طَرِيق = chemin ; كَاهِن = prêtre ; رَاهِب = moine",
+   "acceptedAnswers": [],
+   "explanation": "رُوح : ou long. طَرِيق : i long. كَاهِن et رَاهِب : a long.",
+   "pairs": [
+    {
+     "left": "رُوح",
+     "right": "esprit"
+    },
+    {
+     "left": "طَرِيق",
+     "right": "chemin"
+    },
+    {
+     "left": "كَاهِن",
+     "right": "prêtre"
+    },
+    {
+     "left": "رَاهِب",
+     "right": "moine"
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e19",
+   "unitIds": [
+    "ar.v.malak",
+    "ar.g19.long_vowels",
+    "ar.v.salam",
+    "ar.v.kalam",
+    "ar.v.kitab"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots que tu connaissais déjà",
+   "promptLanguage": "fr",
+   "answer": "مَلَاك = ange ; سَلَام = paix ; كَلَام = paroles ; كِتَاب = livre",
+   "acceptedAnswers": [],
+   "explanation": "Ce sont des mots de m02, maintenant avec leurs voyelles longues.",
+   "pairs": [
+    {
+     "left": "مَلَاك",
+     "right": "ange"
+    },
+    {
+     "left": "سَلَام",
+     "right": "paix"
+    },
+    {
+     "left": "كَلَام",
+     "right": "paroles"
+    },
+    {
+     "left": "كِتَاب",
+     "right": "livre"
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e20",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.gar"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "جَار",
+   "promptLanguage": "ar",
+   "answer": "voisin",
+   "acceptedAnswers": [
+    "voisin",
+    "un voisin",
+    "le voisin"
+   ],
+   "explanation": "ج + a long (fatha + ا), ر : le voisin.",
+   "tip": "Fatha → ا.",
+   "extraExample": {
+    "text": "جَارِي طَيِّب.",
+    "translation": "Mon voisin est gentil."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ami",
+     "category": "word_confusion",
+     "feedback": "L'ami est صَدِيق. Ici tu lis ج + ا + ر."
+    }
+   ]
+  },
+  {
+   "id": "ar.l19.e21",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.fil"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "فِيل",
+   "promptLanguage": "ar",
+   "answer": "éléphant",
+   "acceptedAnswers": [
+    "éléphant",
+    "un éléphant",
+    "l'éléphant"
+   ],
+   "explanation": "ف + i long (kasra + ي), ل : l'éléphant.",
+   "tip": "Kasra → ي.",
+   "extraExample": {
+    "text": "فِيل كِبِير.",
+    "translation": "Un grand éléphant."
+   }
+  },
+  {
+   "id": "ar.l19.e22",
+   "unitIds": [
+    "ar.g19.long_vowels",
+    "ar.v.sadiq"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire صَدِيق ?",
+   "promptLanguage": "fr",
+   "answer": "ami",
+   "acceptedAnswers": [
+    "ami",
+    "un ami",
+    "l'ami",
+    "copain"
+   ],
+   "explanation": "صَدِيق : ص + a, د + i long (kasra + ي), ق. C'est un ami.",
+   "tip": "Un seul i long.",
+   "extraExample": {
+    "text": "صَدِيق قَدِيم.",
+    "translation": "Un vieil ami."
+   },
+   "errorPatterns": [
+    {
+     "equals": "moine",
+     "category": "word_confusion",
+     "feedback": "Le moine est رَاهِب. Ici tu lis ص + د + ي + ق."
+    }
+   ]
+  }
+ ]
+}

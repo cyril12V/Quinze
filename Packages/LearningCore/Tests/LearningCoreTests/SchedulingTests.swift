@@ -266,7 +266,7 @@ final class SchedulingTests: XCTestCase {
         XCTAssertEqual(p.rulesStudied, 1); XCTAssertEqual(p.wordsStudied, 1)   // be + tired (happy: secondary of a failed attempt)
         XCTAssertEqual(p.reviewsDone, 1)
         XCTAssertEqual(p.lessonsCompleted, 1); XCTAssertEqual(p.lessonsTotal, 3)
-        XCTAssertEqual(p.categories.count, 4)
+        XCTAssertEqual(p.categories.count, 3)   // only the categories present in the content (the fixture has no sentence building unit)
         let grammar = p.categories.first { $0.category == .grammar }!
         XCTAssertEqual(grammar.unitsTotal, 3); XCTAssertEqual(grammar.unitsStudied, 1)
         XCTAssertGreaterThan(grammar.averageMastery, 0)

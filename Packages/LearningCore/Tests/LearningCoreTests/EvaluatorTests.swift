@@ -202,7 +202,8 @@ final class EvaluatorTests: XCTestCase {
         XCTAssertEqual(accents.result, .correctWithTypo)
         XCTAssertEqual(accents.typoNote, "Attention aux accents.")
         XCTAssertEqual(text("en.l01.e11", "Je suis très fatigué").result, .pending)
-        XCTAssertEqual(ev("en.l01.e10", .choice("fatigue")).result, .correctWithTypo)
+        // A tapped option is exact: accent leniency only applies to typed answers (Arabic options may differ only by harakat).
+        XCTAssertEqual(ev("en.l01.e10", .choice("fatigue")).result, .incorrect)
         XCTAssertEqual(ev("en.l01.e10", .choice("heureux")).result, .incorrect)
     }
 

@@ -1,0 +1,866 @@
+{
+ "lessonId": "ar.l32",
+ "exercises": [
+  {
+   "id": "ar.l32.e01",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.mahabba"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis vite : quelle lecture est la bonne en fin de verset ?",
+   "prompt": "اللّٰهُ مَحَبَّةٌ",
+   "promptLanguage": "ar",
+   "options": [
+    "Allâhu ma7abba",
+    "Allâhu ma7abbatun",
+    "Allâhu mahabba",
+    "Allâhi ma7abba"
+   ],
+   "answer": "Allâhu ma7abba",
+   "acceptedAnswers": [
+    "Allâhu ma7abba"
+   ],
+   "explanation": "اللّٰهُ se lit Allâhu (damma). مَحَبَّةٌ = ma-7ab-ba : ح = 7 et la chadda double le ب. C'est la fin du verset : on s'arrête, le tanwîn et le t du ة tombent.",
+   "tip": "Fin de phrase : le tanwîn tombe.",
+   "extraExample": {
+    "text": "اللّٰهُ نُورٌ",
+    "translation": "Dieu est lumière.",
+    "transliteration": "Allâhu nûr"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Allâhu ma7abbatun",
+     "category": "grammar",
+     "feedback": "À la fin du verset, le tanwîn tombe : on dit ma7abba."
+    },
+    {
+     "equals": "Allâhu mahabba",
+     "category": "spelling",
+     "feedback": "Le ح sans point se note 7 : ma7abba."
+    },
+    {
+     "equals": "Allâhi ma7abba",
+     "category": "grammar",
+     "feedback": "Le sujet اللّٰهُ porte une damma : Allâhu."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e02",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.nur"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis vite : quelle lecture est la bonne ?",
+   "prompt": "نُور",
+   "promptLanguage": "ar",
+   "options": [
+    "nûr",
+    "nur",
+    "nâr",
+    "nîr"
+   ],
+   "answer": "nûr",
+   "acceptedAnswers": [
+    "nûr"
+   ],
+   "explanation": "ن avec une damma (nu), puis و : le و après une damma est long, û. Puis ر. On lit nûr.",
+   "tip": "Damma + و = û long.",
+   "extraExample": {
+    "text": "نُورُ الْعَالَمِ",
+    "translation": "la lumière du monde",
+    "transliteration": "nûru l-3âlam"
+   },
+   "errorPatterns": [
+    {
+     "equals": "nur",
+     "category": "spelling",
+     "feedback": "Le و après la damma est long : nûr."
+    },
+    {
+     "equals": "nâr",
+     "category": "spelling",
+     "feedback": "C'est un و, pas un ا : û."
+    },
+    {
+     "equals": "nîr",
+     "category": "spelling",
+     "feedback": "La damma donne u, pas i."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e03",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.mahabba",
+    "ar.v.rai",
+    "ar.v.salih",
+    "ar.v.nur",
+    "ar.v.tariq"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot à sa traduction.",
+   "prompt": "Les mots des versets (1)",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "مَحَبَّة",
+     "right": "amour"
+    },
+    {
+     "left": "الرَّاعِي",
+     "right": "le berger"
+    },
+    {
+     "left": "صَالِح",
+     "right": "bon"
+    },
+    {
+     "left": "نُور",
+     "right": "lumière"
+    },
+    {
+     "left": "طَرِيق",
+     "right": "chemin"
+    }
+   ],
+   "answer": "مَحَبَّة = amour ; الرَّاعِي = le berger ; صَالِح = bon ; نُور = lumière ; طَرِيق = chemin",
+   "acceptedAnswers": [],
+   "explanation": "Ces cinq mots viennent de versets très connus : « Dieu est amour », « Je suis le bon berger », « Dieu est lumière », « Je suis le chemin »."
+  },
+  {
+   "id": "ar.l32.e04",
+   "unitIds": [
+    "ar.g13.tanwin",
+    "ar.v.mahabba"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Observe le tanwîn.",
+   "prompt": "Quel signe y a-t-il à la fin de مَحَبَّةٌ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un tanwîn en damma (-un)",
+    "Un tanwîn en fatha (-an)",
+    "Un tanwîn en kasra (-in)",
+    "Une simple damma (-u)"
+   ],
+   "answer": "Un tanwîn en damma (-un)",
+   "acceptedAnswers": [
+    "Un tanwîn en damma (-un)"
+   ],
+   "explanation": "Révision : la damma doublée (ـٌ) donne le tanwîn -un, « un/une », sur un nom sans ال. Avec ال, il ne resterait qu'une seule damma (الْمَحَبَّةُ).",
+   "tip": "Deux dammas = -un.",
+   "extraExample": {
+    "text": "كَلِمَةٌ",
+    "translation": "une parole",
+    "transliteration": "kalimatun"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un tanwîn en fatha (-an)",
+     "category": "grammar",
+     "feedback": "Le tanwîn -an s'écrit ـً avec un ا. Ici, le signe est une damma doublée."
+    },
+    {
+     "equals": "Un tanwîn en kasra (-in)",
+     "category": "grammar",
+     "feedback": "Le tanwîn -in s'écrit sous la lettre. Ici, le signe est au-dessus : c'est une damma."
+    },
+    {
+     "equals": "Une simple damma (-u)",
+     "category": "grammar",
+     "feedback": "Il y a deux marques de damma, pas une : c'est un tanwîn, -un."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e05",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.mahabba"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Observe la pause.",
+   "prompt": "Dans مَحَبَّةٌ وَنُورٌ, comment lit-on le premier mot, مَحَبَّةٌ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ma7abbatun",
+    "ma7abba",
+    "ma7abbatan",
+    "ma7abbat"
+   ],
+   "answer": "ma7abbatun",
+   "acceptedAnswers": [
+    "ma7abbatun"
+   ],
+   "explanation": "Au milieu d'une phrase, on lit le tanwîn : ma7abbatun wa-nûr. C'est seulement à la fin qu'il tombe.",
+   "tip": "Milieu : tout se lit ; fin : la voyelle tombe.",
+   "extraExample": {
+    "text": "نُورٌ وَحَيَاةٌ",
+    "translation": "lumière et vie",
+    "transliteration": "nûrun wa-7ayâ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ma7abba",
+     "category": "grammar",
+     "feedback": "C'est la lecture à la fin d'une phrase. Ici, un autre mot suit : on lit le tanwîn."
+    },
+    {
+     "equals": "ma7abbatan",
+     "category": "spelling",
+     "feedback": "Le signe est une damma doublée : -un, pas -an."
+    },
+    {
+     "equals": "ma7abbat",
+     "category": "spelling",
+     "feedback": "Le tanwîn ajoute le son -un : ma7abbatun."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e06",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.nur"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Observe la pause.",
+   "prompt": "À la fin du verset اللّٰهُ نُورٌ, comment lit-on نُورٌ ?",
+   "promptLanguage": "fr",
+   "options": [
+    "nûr",
+    "nûrun",
+    "nûran",
+    "nûrâ"
+   ],
+   "answer": "nûr",
+   "acceptedAnswers": [
+    "nûr"
+   ],
+   "explanation": "À la fin d'une phrase, le tanwîn -un tombe : on s'arrête sur nûr, sans voyelle.",
+   "tip": "Dernier mot : on s'arrête net.",
+   "extraExample": {
+    "text": "اللّٰهُ مَحَبَّةٌ",
+    "translation": "Dieu est amour.",
+    "transliteration": "Allâhu ma7abba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "nûrun",
+     "category": "grammar",
+     "feedback": "Le tanwîn se lit au milieu d'une phrase. À la fin, il tombe : nûr."
+    },
+    {
+     "equals": "nûran",
+     "category": "grammar",
+     "feedback": "Le signe est une damma doublée, jamais -an."
+    },
+    {
+     "equals": "nûrâ",
+     "category": "grammar",
+     "feedback": "Le signe est une damma doublée : -un au milieu, rien à la fin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e07",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.hayat"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis vite : quelle lecture est la bonne en fin de phrase ?",
+   "prompt": "الْحَيَاة",
+   "promptLanguage": "ar",
+   "options": [
+    "al-7ayâ",
+    "al-7ayâtu",
+    "al-hayâ",
+    "al-7iyâ"
+   ],
+   "answer": "al-7ayâ",
+   "acceptedAnswers": [
+    "al-7ayâ"
+   ],
+   "explanation": "ح = 7 (lunaire : al-), يَ = ya, ا = â long. Le ة final ne s'entend plus à la pause. Au milieu d'une phrase, on dirait al-7ayâtu.",
+   "tip": "ة après ا long : muet à la pause.",
+   "extraExample": {
+    "text": "حَيَاةُ الْكَنِيسَةِ",
+    "translation": "la vie de l'église",
+    "transliteration": "7ayâtu l-kanîsa"
+   },
+   "errorPatterns": [
+    {
+     "equals": "al-7ayâtu",
+     "category": "grammar",
+     "feedback": "C'est la lecture au milieu d'une phrase. À la fin, la damma et le t tombent : al-7ayâ."
+    },
+    {
+     "equals": "al-hayâ",
+     "category": "spelling",
+     "feedback": "Le ح sans point est un 7, pas un h."
+    },
+    {
+     "equals": "al-7iyâ",
+     "category": "spelling",
+     "feedback": "Sous le ح il y a une fatha : 7a."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e08",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.rai"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis vite : quelle lecture est la bonne ?",
+   "prompt": "الرَّاعِي",
+   "promptLanguage": "ar",
+   "options": [
+    "ar-râ3î",
+    "al-râ3î",
+    "ar-ra3î",
+    "ar-râ'î"
+   ],
+   "answer": "ar-râ3î",
+   "acceptedAnswers": [
+    "ar-râ3î"
+   ],
+   "explanation": "ر est une lettre solaire : le l de ال ne se dit pas et le ر est doublé (chadda), ar-. Puis ا long, ع = 3 et ـِي = î long : râ3î.",
+   "tip": "ال + ر = ar-.",
+   "extraExample": {
+    "text": "الرَّاعِي الصَّالِحُ",
+    "translation": "le bon berger",
+    "transliteration": "ar-râ3î S-Sâli7u"
+   },
+   "errorPatterns": [
+    {
+     "equals": "al-râ3î",
+     "category": "grammar",
+     "feedback": "ر est solaire : le l tombe, ar-râ3î."
+    },
+    {
+     "equals": "ar-ra3î",
+     "category": "spelling",
+     "feedback": "Le ا est long : râ."
+    },
+    {
+     "equals": "ar-râ'î",
+     "category": "spelling",
+     "feedback": "C'est un ع (3), pas une hamza."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e09",
+   "unitIds": [
+    "ar.g28.nom_adjectif",
+    "ar.v.rai",
+    "ar.v.salih"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Comment dit-on « le bon berger » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "الرَّاعِي الصَّالِح",
+    "الرَّاعِي صَالِح",
+    "رَاعِي الصَّالِح",
+    "الصَّالِح الرَّاعِي"
+   ],
+   "answer": "الرَّاعِي الصَّالِح",
+   "acceptedAnswers": [
+    "الرَّاعِي الصَّالِح"
+   ],
+   "explanation": "Révision de la leçon 28 : l'adjectif suit le nom et reprend ال quand le nom l'a. Sans ال sur l'adjectif, ce serait une phrase : « le berger est bon ».",
+   "tip": "Nom + adjectif : ال sur les deux.",
+   "extraExample": {
+    "text": "الْكِتَاب الْمُقَدَّس",
+    "translation": "la Bible",
+    "transliteration": "al-kitâb al-muqaddas"
+   },
+   "errorPatterns": [
+    {
+     "equals": "الرَّاعِي صَالِح",
+     "category": "grammar",
+     "feedback": "Sans ال sur l'adjectif, c'est une phrase : « le berger est bon »."
+    },
+    {
+     "equals": "رَاعِي الصَّالِح",
+     "category": "grammar",
+     "feedback": "Sans ال sur le premier mot, c'est une annexion : « le berger du bon »."
+    },
+    {
+     "equals": "الصَّالِح الرَّاعِي",
+     "category": "grammar",
+     "feedback": "L'adjectif se place après le nom, pas avant."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e10",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.kalima"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds à la question.",
+   "prompt": "Au début de l'Évangile de Jean : « Au commencement était الْكَلِمَة ». Qui est الْكَلِمَة ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Verbe, c'est-à-dire Jésus-Christ",
+    "Un livre de la Bible",
+    "Un prophète",
+    "Un chant de l'église"
+   ],
+   "answer": "Le Verbe, c'est-à-dire Jésus-Christ",
+   "acceptedAnswers": [
+    "Le Verbe, c'est-à-dire Jésus-Christ"
+   ],
+   "explanation": "Dans le prologue de saint Jean, الْكَلِمَة est le Verbe (la Parole) : le Christ, qui est auprès de Dieu. Dans la vie courante, كَلِمَة veut simplement dire « un mot ».",
+   "tip": "الْكَلِمَة avec ال = le Verbe.",
+   "extraExample": {
+    "text": "كَلِمَةُ اللّٰهِ",
+    "translation": "la parole de Dieu, le Verbe de Dieu",
+    "transliteration": "kalimatu llâh"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un livre de la Bible",
+     "category": "vocabulary",
+     "feedback": "Un livre se dit كِتَاب ou سِفْر. الْكَلِمَة est le Verbe."
+    },
+    {
+     "equals": "Un prophète",
+     "category": "vocabulary",
+     "feedback": "Un prophète se dit نَبِيّ. الْكَلِمَة est le Verbe."
+    },
+    {
+     "equals": "Un chant de l'église",
+     "category": "vocabulary",
+     "feedback": "Un chant n'est pas une كَلِمَة au sens de Jean : c'est le Verbe, le Christ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e11",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.hayat",
+    "ar.v.kalima",
+    "ar.v.alam",
+    "ar.v.haqq",
+    "ar.v.nur"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa lecture.",
+   "prompt": "Lecture éclair : les mots des versets (2)",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "حَقّ",
+     "right": "7aqq"
+    },
+    {
+     "left": "حَيَاة",
+     "right": "7ayâ"
+    },
+    {
+     "left": "كَلِمَة",
+     "right": "kalima"
+    },
+    {
+     "left": "عَالَم",
+     "right": "3âlam"
+    },
+    {
+     "left": "نُور",
+     "right": "nûr"
+    }
+   ],
+   "answer": "حَقّ = 7aqq ; حَيَاة = 7ayâ ; كَلِمَة = kalima ; عَالَم = 3âlam ; نُور = nûr",
+   "acceptedAnswers": [],
+   "explanation": "Le ح sans point se lit 7, le ع se lit 3. La chadda double le ق de 7aqq. Le ة final se lit a à la pause (kalima) ou se tait après un â long (7ayâ)."
+  },
+  {
+   "id": "ar.l32.e12",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.mahabba",
+    "ar.v.nur",
+    "ar.v.tariq",
+    "ar.v.haqq",
+    "ar.v.hayat"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque verset à sa traduction.",
+   "prompt": "Cinq versets très courts",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "اللّٰهُ مَحَبَّةٌ",
+     "right": "Dieu est amour"
+    },
+    {
+     "left": "اللّٰهُ نُورٌ",
+     "right": "Dieu est lumière"
+    },
+    {
+     "left": "أَنَا هُوَ الطَّرِيقُ",
+     "right": "Je suis le chemin"
+    },
+    {
+     "left": "أَنَا هُوَ الْحَقُّ",
+     "right": "Je suis la vérité"
+    },
+    {
+     "left": "أَنَا هُوَ الْحَيَاةُ",
+     "right": "Je suis la vie"
+    }
+   ],
+   "answer": "اللّٰهُ مَحَبَّةٌ = Dieu est amour ; اللّٰهُ نُورٌ = Dieu est lumière ; أَنَا هُوَ الطَّرِيقُ = Je suis le chemin ; أَنَا هُوَ الْحَقُّ = Je suis la vérité ; أَنَا هُوَ الْحَيَاةُ = Je suis la vie",
+   "acceptedAnswers": [],
+   "explanation": "Les deux premiers sont de la première lettre de saint Jean (1 Jean 4:8 et 1:5) ; les trois suivants forment le verset de Jean 14:6."
+  },
+  {
+   "id": "ar.l32.e13",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.mahabba"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète : « Dieu est amour. »",
+   "prompt": "اللّٰهُ ___",
+   "promptLanguage": "ar",
+   "options": [
+    "نُورٌ",
+    "مَحَبَّةٌ",
+    "عَالَمٌ"
+   ],
+   "answer": "مَحَبَّةٌ",
+   "acceptedAnswers": [
+    "مَحَبَّةٌ"
+   ],
+   "explanation": "« Dieu est amour » = اللّٰهُ مَحَبَّةٌ (1 Jean 4:8). Le tanwîn est la marque de l'attribut sans ال.",
+   "tip": "Amour = مَحَبَّة.",
+   "extraExample": {
+    "text": "اللّٰهُ نُورٌ",
+    "translation": "Dieu est lumière.",
+    "transliteration": "Allâhu nûr"
+   },
+   "errorPatterns": [
+    {
+     "equals": "نُورٌ",
+     "category": "vocabulary",
+     "feedback": "اللّٰهُ نُورٌ est aussi un verset, mais il veut dire « Dieu est lumière »."
+    },
+    {
+     "equals": "عَالَمٌ",
+     "category": "vocabulary",
+     "feedback": "عَالَم est le monde : « Dieu est monde » n'a pas de sens."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e14",
+   "unitIds": [
+    "ar.g31.ya_pronoms_attaches",
+    "ar.g32.tanwin_pause",
+    "ar.v.nur"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète : « Le Seigneur est notre lumière. »",
+   "prompt": "الرَّبُّ نُورُ___",
+   "promptLanguage": "ar",
+   "options": [
+    "كَ",
+    "نَا",
+    "هُ"
+   ],
+   "answer": "نَا",
+   "acceptedAnswers": [
+    "نَا"
+   ],
+   "explanation": "Révision de la leçon 31 : « notre » se dit ـنَا. نُورُ + نَا = نُورُنَا. ـكَ donnerait « ta lumière » et ـهُ « sa lumière ».",
+   "tip": "نَا = notre.",
+   "extraExample": {
+    "text": "رَبُّنَا",
+    "translation": "notre Seigneur",
+    "transliteration": "rabbunâ"
+   },
+   "errorPatterns": [
+    {
+     "equals": "كَ",
+     "category": "grammar",
+     "feedback": "ـكَ veut dire « ton, ta » : « ta lumière ». Ici, c'est « notre »."
+    },
+    {
+     "equals": "هُ",
+     "category": "grammar",
+     "feedback": "ـهُ veut dire « son, sa » : « sa lumière ». Ici, c'est « notre »."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e15",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.haqq",
+    "ar.v.tariq",
+    "ar.v.hayat"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète : « Je suis le chemin, la vérité et la vie. »",
+   "prompt": "أَنَا هُوَ الطَّرِيقُ وَالْحَقُّ وَ___",
+   "promptLanguage": "ar",
+   "options": [
+    "حَيَاةٌ",
+    "الْحَيَاةِ",
+    "الْحَيَاةُ"
+   ],
+   "answer": "الْحَيَاةُ",
+   "acceptedAnswers": [
+    "الْحَيَاةُ"
+   ],
+   "explanation": "Les trois noms sont définis (ils ont ال) : ils gardent une simple damma, sans tanwîn. À la fin du verset, on les lit al-7ayâ, sans la damma ni le t.",
+   "tip": "Avec ال : une seule damma.",
+   "extraExample": {
+    "text": "الْحَقُّ جَمِيلٌ",
+    "translation": "La vérité est belle.",
+    "transliteration": "al-7aqqu djamîl"
+   },
+   "errorPatterns": [
+    {
+     "equals": "حَيَاةٌ",
+     "category": "grammar",
+     "feedback": "Avec un tanwîn, ce serait « une vie ». Ici, les trois mots ont ال."
+    },
+    {
+     "equals": "الْحَيَاةِ",
+     "category": "grammar",
+     "feedback": "Une kasra suit فِي ou مِنْ. Ici, le mot est un attribut, avec une damma."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e16",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.nur",
+    "ar.v.alam"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre : « Je suis la lumière du monde. »",
+   "prompt": "Remets dans l'ordre : Je suis (2 mots) / la lumière de / le monde",
+   "promptLanguage": "fr",
+   "tokens": [
+    "هُوَ",
+    "الْعَالَمِ",
+    "أَنَا",
+    "نُورُ"
+   ],
+   "answer": "أَنَا هُوَ نُورُ الْعَالَمِ",
+   "acceptedAnswers": [
+    "أَنَا هُوَ نُورُ الْعَالَمِ"
+   ],
+   "explanation": "أَنَا هُوَ = « moi, je suis ». Puis une annexion : نُورُ (sans ال) + الْعَالَمِ (avec ال et une kasra), comme عِيدُ الْمِيلَادِ dans la leçon 29.",
+   "tip": "Premier nom nu, puis le nom précis.",
+   "extraExample": {
+    "text": "نُورُ الْكَنِيسَةِ",
+    "translation": "la lumière de l'église",
+    "transliteration": "nûru l-kanîsa"
+   }
+  },
+  {
+   "id": "ar.l32.e17",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.rai",
+    "ar.v.salih"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre : « Je suis le bon berger. »",
+   "prompt": "Remets dans l'ordre : Je suis (2 mots) / le berger / le bon",
+   "promptLanguage": "fr",
+   "tokens": [
+    "الصَّالِحُ",
+    "أَنَا",
+    "الرَّاعِي",
+    "هُوَ"
+   ],
+   "answer": "أَنَا هُوَ الرَّاعِي الصَّالِحُ",
+   "acceptedAnswers": [
+    "أَنَا هُوَ الرَّاعِي الصَّالِحُ"
+   ],
+   "explanation": "أَنَا هُوَ vient d'abord, puis le nom (الرَّاعِي) et son adjectif (الصَّالِحُ), qui reprend ال.",
+   "tip": "Nom d'abord, adjectif ensuite.",
+   "extraExample": {
+    "text": "الْعَهْد الْجَدِيد",
+    "translation": "le Nouveau Testament",
+    "transliteration": "al-3ahd al-djadîd"
+   }
+  },
+  {
+   "id": "ar.l32.e18",
+   "unitIds": [
+    "ar.v.ana",
+    "ar.v.huwa",
+    "ar.g32.tanwin_pause",
+    "ar.v.tariq"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Traduis en français.",
+   "prompt": "أَنَا هُوَ الطَّرِيقُ",
+   "promptLanguage": "ar",
+   "answer": "Je suis le chemin.",
+   "acceptedAnswers": [
+    "Je suis le chemin.",
+    "Moi, je suis le chemin.",
+    "C'est moi, le chemin.",
+    "Je suis la route."
+   ],
+   "explanation": "أَنَا = je (leçon 22) ; هُوَ ajoute l'insistance, « c'est moi qui suis » ; الطَّرِيقُ = le chemin. Le verbe « être » ne s'écrit pas.",
+   "tip": "أَنَا هُوَ = « Je suis ».",
+   "extraExample": {
+    "text": "هُوَ الطَّرِيقُ",
+    "translation": "Il est le chemin.",
+    "transliteration": "huwa T-Tarîq"
+   },
+   "errorPatterns": [
+    {
+     "contains": "vérité",
+     "category": "vocabulary",
+     "feedback": "La vérité se dit حَقّ. Ici, le mot est الطَّرِيق : le chemin."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e19",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.mahabba",
+    "ar.v.nur"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "اللّٰهُ نُورٌ وَمَحَبَّةٌ",
+   "promptLanguage": "ar",
+   "answer": "Dieu est lumière et amour.",
+   "acceptedAnswers": [
+    "Dieu est lumière et amour.",
+    "Dieu est la lumière et l'amour.",
+    "Dieu est lumière et Dieu est amour."
+   ],
+   "explanation": "Deux attributs sans ال, reliés par وَ : نُورٌ وَمَحَبَّةٌ. Au milieu de la phrase, on lit le tanwîn de نُورٌ : Allâhu nûrun wa-ma7abba.",
+   "tip": "Sans ال : on ne traduit pas « un ».",
+   "extraExample": {
+    "text": "الْكَلِمَةُ نُورٌ",
+    "translation": "La parole est lumière.",
+    "transliteration": "al-kalimatu nûr"
+   },
+   "errorPatterns": [
+    {
+     "contains": "monde",
+     "category": "vocabulary",
+     "feedback": "Le monde se dit عَالَم. Ici, le mot est نُور : la lumière."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e20",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.nur"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la lecture en lettres latines, comme à la fin d'un verset.",
+   "prompt": "اللّٰهُ نُورٌ",
+   "promptLanguage": "ar",
+   "answer": "Allâhu nûr",
+   "acceptedAnswers": [
+    "Allâhu nûr",
+    "Allahu nur",
+    "Allaahu nuur"
+   ],
+   "hint": "Le dernier mot s'arrête sans -un.",
+   "explanation": "Sujet avec damma (Allâhu), puis l'attribut nûr. À la fin du verset, le tanwîn tombe : on s'arrête sur nûr (1 Jean 1:5).",
+   "tip": "Allâhu + nûr.",
+   "extraExample": {
+    "text": "اللّٰهُ مَحَبَّةٌ",
+    "translation": "Dieu est amour.",
+    "transliteration": "Allâhu ma7abba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "Allâhu nûrun",
+     "category": "grammar",
+     "feedback": "À la fin du verset, le tanwîn tombe : nûr."
+    },
+    {
+     "equals": "Allahu nûrun",
+     "category": "grammar",
+     "feedback": "À la fin du verset, le tanwîn tombe : nûr."
+    }
+   ]
+  },
+  {
+   "id": "ar.l32.e21",
+   "unitIds": [
+    "ar.g32.tanwin_pause",
+    "ar.v.kalima"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la traduction en français.",
+   "prompt": "كَلِمَةٌ",
+   "promptLanguage": "ar",
+   "answer": "une parole",
+   "acceptedAnswers": [
+    "une parole",
+    "un mot",
+    "parole",
+    "mot",
+    "une parole, un mot"
+   ],
+   "explanation": "كَلِمَة est un mot, une parole. Le tanwîn dit « un, une ». Avec ال, الْكَلِمَة est le Verbe, le Christ (Jean 1).",
+   "tip": "كَلِمَة : mot, parole, Verbe.",
+   "extraExample": {
+    "text": "كَلِمَةُ اللّٰهِ",
+    "translation": "la parole de Dieu, le Verbe de Dieu",
+    "transliteration": "kalimatu llâh"
+   },
+   "errorPatterns": [
+    {
+     "contains": "livre",
+     "category": "vocabulary",
+     "feedback": "Un livre se dit كِتَاب. Ici, le mot est كَلِمَة : un mot, une parole."
+    }
+   ]
+  }
+ ]
+}

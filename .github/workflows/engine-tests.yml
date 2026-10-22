@@ -17,13 +17,6 @@ jobs:
     timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
-      - name: Construire les contenus des trois matières
-        run: |
-          for lang in en ar cg; do
-            if ls Content/$lang/source/m* >/dev/null 2>&1; then
-              python3 tools/build_content.py --lang $lang | tail -3 || echo "::warning::contenu $lang incomplet, ignoré"
-            fi
-          done
       - name: Tests du moteur
         run: |
           sudo xcode-select -s /Applications/Xcode_26.3.app 2>/dev/null || true

@@ -334,5 +334,53 @@
    ],
    "tip": "Pronom collé, ا muet : lis le mot, pas la lettre."
   }
+ },
+ {
+  "id": "ar.g32.tanwin_pause",
+  "rule": {
+   "summary": "Dans un verset, on lit les voyelles de fin et le tanwîn au milieu d'une phrase, mais on les laisse tomber à la fin : مَحَبَّةٌ se lit ma7abbatun au milieu et ma7abba à la fin.",
+   "explanation": "Un verset court est souvent une phrase sans verbe : un sujet (اللّٰهُ, avec une damma) puis un attribut. (1) L'attribut sans ال porte un tanwîn : اللّٰهُ مَحَبَّةٌ, « Dieu est amour » (en français, on ne dit pas « un amour »). Avec ال, il garde une simple damma : الطَّرِيقُ, « le chemin ». أَنَا هُوَ… se traduit « Je suis… » et insiste sur « c'est moi qui suis ». (2) La règle de la pause. Au milieu d'une phrase, on lit tout : مَحَبَّةٌ وَنُورٌ = ma7abbatun wa-nûr. À la toute fin, on s'arrête sans voyelle : le tanwîn -un ou -in tombe (نُورٌ = nûr), la damma tombe (الْحَقُّ = al-7aqq) et le ة se lit a (مَحَبَّةٌ = ma7abba) ou ne s'entend plus après un â long (الْحَيَاةُ = al-7ayâ). (3) À la fin d'une phrase, le tanwîn -an (ـً) se prononce souvent â : أَيْضًا = ayDâ ; en Égypte, on garde parfois -an. Lis le verset d'un seul souffle, puis reprends-le en marquant la pause sur le dernier mot.",
+   "pattern": "milieu de phrase : ـٌ = -un, ـُ = -u · fin de phrase : tout tombe (nûr, al-7aqq) · ـَةٌ → -a (ma7abba)",
+   "examples": [
+    {
+     "text": "اللّٰهُ مَحَبَّةٌ",
+     "translation": "Dieu est amour (1 Jean 4:8) : à la fin, le tanwîn et le t tombent",
+     "transliteration": "Allâhu ma7abba"
+    },
+    {
+     "text": "مَحَبَّةٌ وَنُورٌ",
+     "translation": "amour et lumière : au milieu, on lit -un ; à la fin, il tombe",
+     "transliteration": "ma7abbatun wa-nûr"
+    },
+    {
+     "text": "أَنَا هُوَ نُورُ الْعَالَمِ",
+     "translation": "Je suis la lumière du monde (Jean 8:12)",
+     "transliteration": "ana huwa nûru l-3âlam"
+    },
+    {
+     "text": "أَنَا هُوَ الطَّرِيقُ وَالْحَقُّ وَالْحَيَاةُ",
+     "translation": "Je suis le chemin, la vérité et la vie (Jean 14:6) : damma au milieu, rien à la fin",
+     "transliteration": "ana huwa T-Tarîqu wa-l-7aqqu wa-l-7ayâ"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "اللّٰهُ مَحَبَّةٌ lu « Allâhu ma7abbatun » en fin de verset",
+     "right": "Allâhu ma7abba",
+     "why": "À la fin d'une phrase, le tanwîn et le t du ة tombent : on s'arrête sur ma7abba."
+    },
+    {
+     "wrong": "الْحَيَاةُ lu « al-7ayâtu » en fin de phrase",
+     "right": "al-7ayâ",
+     "why": "À la pause, la damma et le t ne se lisent pas. On les dit seulement si un autre mot suit : al-7ayâtu l-abadiyya."
+    },
+    {
+     "wrong": "الطَّرِيقُ وَالْحَقُّ lu « aT-Tarîq wa-l-7aqq » au milieu du verset",
+     "right": "aT-Tarîqu wa-l-7aqqu",
+     "why": "Au milieu d'une phrase, on lit les voyelles de fin. Seul le dernier mot s'arrête sans voyelle."
+    }
+   ],
+   "tip": "Au milieu, lis la fin du mot ; à la fin, tais-la."
+  }
  }
 ]

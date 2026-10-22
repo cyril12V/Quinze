@@ -1,7 +1,7 @@
 import XCTest
 @testable import LearningCore
 
-/// Checks every built subject bundle (Content/build/en.json, ar.json, cg.json) against the engine:
+/// Checks every subject bundle shipped in the app (App/Resources/Content/en.json, ar.json, cg.json) against the engine:
 /// references resolve, model answers are accepted, anticipated mistakes are not, and two weeks of
 /// three sessions a day run without getting stuck.
 final class SubjectBundlesTests: XCTestCase {
@@ -10,11 +10,11 @@ final class SubjectBundlesTests: XCTestCase {
     private func bundles() throws -> [(String, ContentBundle)] {
         var out: [(String, ContentBundle)] = []
         for code in Self.subjects {
-            let url = TestSupport.repoRoot.appendingPathComponent("Content/build/\(code).json")
+            let url = TestSupport.repoRoot.appendingPathComponent("App/Resources/Content/\(code).json")
             guard FileManager.default.fileExists(atPath: url.path) else { continue }
             out.append((code, try ContentBundle.decode(from: Data(contentsOf: url))))
         }
-        if out.isEmpty { throw XCTSkip("no bundle built in Content/build") }
+        if out.isEmpty { throw XCTSkip("no bundle in App/Resources/Content") }
         return out
     }
 

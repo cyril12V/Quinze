@@ -1,0 +1,621 @@
+{
+ "module": {
+  "id": 11,
+  "title": "Passif, relatives et discours rapporté",
+  "description": "Le passif à tous les temps, have something done, les propositions relatives et le discours rapporté (affirmations, questions, ordres), autour de l'actualité, des médias, de la justice et des sciences."
+ },
+ "grammarUnits": [
+  {
+   "id": "en.g58.passive_present_past",
+   "category": "verbs",
+   "title": "Le passif au présent et au passé (is made / was built)",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g20.was_were",
+    "en.g22.irregular_verbs"
+   ],
+   "functionWords": [
+    "by"
+   ]
+  },
+  {
+   "id": "en.g59.passive_other_tenses",
+   "category": "verbs",
+   "title": "Le passif avec will, les modaux et le present perfect",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g58.passive_present_past",
+    "en.g39.present_perfect_intro"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g60.have_something_done",
+   "category": "verbs",
+   "title": "Faire faire : have something done",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g58.passive_present_past"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g61.defining_relative_clauses",
+   "category": "sentence_building",
+   "title": "Les relatives déterminatives : who, which, that, whose, where",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g35.question_words"
+   ],
+   "functionWords": [
+    "that",
+    "whose"
+   ]
+  },
+  {
+   "id": "en.g62.non_defining_relative_clauses",
+   "category": "sentence_building",
+   "title": "Les relatives explicatives (avec virgules) et l'omission du pronom",
+   "difficulty": 5,
+   "prerequisites": [
+    "en.g61.defining_relative_clauses"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g63.reported_statements",
+   "category": "sentence_building",
+   "title": "Le discours rapporté : les affirmations (said / told)",
+   "difficulty": 5,
+   "prerequisites": [
+    "en.g22.irregular_verbs",
+    "en.g41.tense_contrast"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g64.reported_questions",
+   "category": "sentence_building",
+   "title": "Le discours rapporté : les questions (asked if / where…)",
+   "difficulty": 5,
+   "prerequisites": [
+    "en.g63.reported_statements",
+    "en.g35.question_words"
+   ],
+   "functionWords": [
+    "whether"
+   ]
+  },
+  {
+   "id": "en.g65.reported_commands",
+   "category": "sentence_building",
+   "title": "Le discours rapporté : ordres et demandes (told me to / asked me not to)",
+   "difficulty": 5,
+   "prerequisites": [
+    "en.g63.reported_statements",
+    "en.g13.imperative"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "en.l77",
+   "sequence": 77,
+   "title": "Inventé, fabriqué, découvert",
+   "description": "Le passif au présent et au passé (is made, was invented) pour parler d'inventions et de découvertes.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g58.passive_present_past",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g22.irregular_verbs",
+    "en.g20.was_were",
+    "en.g21.past_simple_regular",
+    "en.g14.present_simple_third_person"
+   ],
+   "vocabulary": [
+    {
+     "word": "invent",
+     "slug": "invent",
+     "translation": "inventer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "invention",
+     "slug": "invention",
+     "translation": "invention",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "scientist",
+     "slug": "scientist",
+     "translation": "scientifique (personne)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "discover",
+     "slug": "discover",
+     "translation": "découvrir",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "research",
+     "slug": "research",
+     "translation": "recherche(s)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "produce",
+     "slug": "produce",
+     "translation": "produire, fabriquer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "factory",
+     "slug": "factory",
+     "translation": "usine",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "device",
+     "slug": "device",
+     "translation": "appareil",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l78",
+   "sequence": 78,
+   "title": "Les résultats seront annoncés demain",
+   "description": "Le passif avec will, les modaux et le present perfect : will be sent, must be done, has been sold.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g59.passive_other_tenses",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g58.passive_present_past",
+    "en.g39.present_perfect_intro",
+    "en.g38.should_could",
+    "en.g24.will_future"
+   ],
+   "vocabulary": [
+    {
+     "word": "law",
+     "slug": "law",
+     "translation": "loi",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "government",
+     "slug": "government",
+     "translation": "gouvernement",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "announce",
+     "slug": "announce",
+     "translation": "annoncer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "publish",
+     "slug": "publish",
+     "translation": "publier",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "cancel",
+     "slug": "cancel",
+     "translation": "annuler",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "result",
+     "slug": "result",
+     "translation": "résultat",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "vote",
+     "slug": "vote",
+     "translation": "voter",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "election",
+     "slug": "election",
+     "translation": "élection",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l79",
+   "sequence": 79,
+   "title": "Je fais réparer mon téléphone",
+   "description": "Have something done pour dire « faire faire » : I had my phone repaired.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g60.have_something_done",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g59.passive_other_tenses",
+    "en.g58.passive_present_past",
+    "en.g09.do_vs_make",
+    "en.g10.want_need_to"
+   ],
+   "vocabulary": [
+    {
+     "word": "repair",
+     "slug": "repair",
+     "translation": "réparer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "screen",
+     "slug": "screen",
+     "translation": "écran",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "install",
+     "slug": "install",
+     "translation": "installer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "software",
+     "slug": "software",
+     "translation": "logiciel",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "update",
+     "slug": "update",
+     "translation": "mettre à jour",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "battery",
+     "slug": "battery",
+     "translation": "batterie, pile",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "replace",
+     "slug": "replace",
+     "translation": "remplacer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "data",
+     "slug": "data",
+     "translation": "données",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l80",
+   "sequence": 80,
+   "title": "Le journaliste qui a écrit l'article",
+   "description": "Les relatives déterminatives : who, which, that, whose et where.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g61.defining_relative_clauses",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g35.question_words",
+    "en.g58.passive_present_past",
+    "en.g60.have_something_done"
+   ],
+   "vocabulary": [
+    {
+     "word": "journalist",
+     "slug": "journalist",
+     "translation": "journaliste",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "newspaper",
+     "slug": "newspaper",
+     "translation": "journal",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "article",
+     "slug": "article",
+     "translation": "article",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "headline",
+     "slug": "headline",
+     "translation": "gros titre",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "website",
+     "slug": "website",
+     "translation": "site web",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "source",
+     "slug": "source",
+     "translation": "source",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "reader",
+     "slug": "reader",
+     "translation": "lecteur, lectrice",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "news",
+     "slug": "news",
+     "translation": "les nouvelles, les informations",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l81",
+   "sequence": 81,
+   "title": "Marie Curie, qui…",
+   "description": "Les relatives explicatives entre virgules, which = « ce qui », et l'omission du pronom relatif.",
+   "difficulty": 5,
+   "grammarUnitId": "en.g62.non_defining_relative_clauses",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g61.defining_relative_clauses",
+    "en.g59.passive_other_tenses",
+    "en.g37.comparatives_superlatives",
+    "en.g36.connectors"
+   ],
+   "vocabulary": [
+    {
+     "word": "experiment",
+     "slug": "experiment",
+     "translation": "expérience (scientifique)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "laboratory",
+     "slug": "laboratory",
+     "translation": "laboratoire",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "discovery",
+     "slug": "discovery",
+     "translation": "découverte",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "vaccine",
+     "slug": "vaccine",
+     "translation": "vaccin",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "disease",
+     "slug": "disease",
+     "translation": "maladie",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "develop",
+     "slug": "develop",
+     "translation": "développer, mettre au point",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "prove",
+     "slug": "prove",
+     "translation": "prouver",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "planet",
+     "slug": "planet",
+     "translation": "planète",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l82",
+   "sequence": 82,
+   "title": "Il a dit qu'il était chez lui",
+   "description": "Rapporter des paroles avec said et told, et reculer les temps (am → was, will → would).",
+   "difficulty": 5,
+   "grammarUnitId": "en.g63.reported_statements",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g41.tense_contrast",
+    "en.g58.passive_present_past",
+    "en.g62.non_defining_relative_clauses"
+   ],
+   "vocabulary": [
+    {
+     "word": "witness",
+     "slug": "witness",
+     "translation": "témoin",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "police",
+     "slug": "police",
+     "translation": "police",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "suspect",
+     "slug": "suspect",
+     "translation": "suspect",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "claim",
+     "slug": "claim",
+     "translation": "affirmer, prétendre",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "deny",
+     "slug": "deny",
+     "translation": "nier",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "admit",
+     "slug": "admit",
+     "translation": "admettre, avouer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "crime",
+     "slug": "crime",
+     "translation": "délit, crime ; la criminalité",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "guilty",
+     "slug": "guilty",
+     "translation": "coupable",
+     "partOfSpeech": "adjective"
+    }
+   ]
+  },
+  {
+   "id": "en.l83",
+   "sequence": 83,
+   "title": "Il m'a demandé où j'étais",
+   "description": "Rapporter des questions : asked where I was, asked if I had…, sans inversion ni did.",
+   "difficulty": 5,
+   "grammarUnitId": "en.g64.reported_questions",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g63.reported_statements",
+    "en.g59.passive_other_tenses",
+    "en.g23.past_simple_negative_questions",
+    "en.g16.present_simple_questions"
+   ],
+   "vocabulary": [
+    {
+     "word": "investigate",
+     "slug": "investigate",
+     "translation": "enquêter (sur)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "judge",
+     "slug": "judge",
+     "translation": "juge",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "court",
+     "slug": "court",
+     "translation": "tribunal",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "lawyer",
+     "slug": "lawyer",
+     "translation": "avocat, avocate",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "trial",
+     "slug": "trial",
+     "translation": "procès",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "arrest",
+     "slug": "arrest",
+     "translation": "arrêter (police)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "evidence",
+     "slug": "evidence",
+     "translation": "preuve(s)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "wonder",
+     "slug": "wonder",
+     "translation": "se demander",
+     "partOfSpeech": "verb"
+    }
+   ]
+  },
+  {
+   "id": "en.l84",
+   "sequence": 84,
+   "title": "Il m'a dit de rester calme",
+   "description": "Rapporter des ordres, des demandes et des conseils : told me to, asked me not to, advised me to.",
+   "difficulty": 5,
+   "grammarUnitId": "en.g65.reported_commands",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g64.reported_questions",
+    "en.g63.reported_statements",
+    "en.g13.imperative",
+    "en.g38.should_could"
+   ],
+   "vocabulary": [
+    {
+     "word": "warn",
+     "slug": "warn",
+     "translation": "avertir, prévenir",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "remind",
+     "slug": "remind",
+     "translation": "rappeler (à quelqu'un de faire)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "advise",
+     "slug": "advise",
+     "translation": "conseiller",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "refuse",
+     "slug": "refuse",
+     "translation": "refuser",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "post",
+     "slug": "post",
+     "translation": "publier (en ligne), poster",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "social media",
+     "slug": "social_media",
+     "translation": "les réseaux sociaux",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "password",
+     "slug": "password",
+     "translation": "mot de passe",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "delete",
+     "slug": "delete",
+     "translation": "supprimer, effacer",
+     "partOfSpeech": "verb"
+    }
+   ]
+  }
+ ]
+}

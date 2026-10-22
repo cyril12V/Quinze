@@ -1,0 +1,386 @@
+[
+ {
+  "id": "ar.g09.short_vowels",
+  "rule": {
+   "summary": "Trois petits signes donnent la voyelle brève d'une lettre : la fatha (ـَ) au-dessus = a, la kasra (ـِ) en dessous = i, la damma (ـُ) au-dessus = u.",
+   "explanation": "En arabe, on écrit surtout les consonnes ; les voyelles brèves sont de petits signes (les harakat) posés sur ou sous la lettre. La fatha est un petit trait oblique au-dessus : بَ = ba. La kasra est le même trait, mais en dessous : بِ = bi. La damma ressemble à un petit و au-dessus : بُ = bu, qui se prononce « bou » (on l'écrit u). On lit toujours la consonne puis sa voyelle, syllabe par syllabe : كَتَبَ = ka-ta-ba. Dans les fiches de mots, la dernière lettre reste souvent sans signe : on la lit sans voyelle (وَلَد = walad).",
+   "pattern": "consonne + signe = syllabe : بَ ba · بِ bi · بُ bu",
+   "examples": [
+    {
+     "text": "كَتَبَ",
+     "translation": "il a écrit",
+     "transliteration": "kataba"
+    },
+    {
+     "text": "وَلَد",
+     "translation": "garçon",
+     "transliteration": "walad"
+    },
+    {
+     "text": "رَجُل",
+     "translation": "homme",
+     "transliteration": "radjul"
+    },
+    {
+     "text": "كُتِبَ",
+     "translation": "il a été écrit",
+     "transliteration": "kutiba"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "بِ lu « ba »",
+     "right": "بِ = bi",
+     "why": "Le trait est sous la lettre : c'est une kasra, donc i. La fatha, elle, est au-dessus."
+    },
+    {
+     "wrong": "بُ lu « bo »",
+     "right": "بُ = bu (« bou »)",
+     "why": "La damma donne toujours le son « ou », jamais « o » : رَجُل se lit radjul."
+    },
+    {
+     "wrong": "كَتَبَ lu « katab »",
+     "right": "كَتَبَ = kataba",
+     "why": "Chaque lettre qui porte une voyelle se prononce avec elle, la dernière aussi : ka-ta-ba."
+    }
+   ],
+   "tip": "Trait au-dessus = a, trait en dessous = i, petit و au-dessus = u."
+  }
+ },
+ {
+  "id": "ar.g10.sukun",
+  "rule": {
+   "summary": "Le sukun (ـْ), petit rond au-dessus d'une lettre, indique que cette consonne n'a pas de voyelle : elle ferme la syllabe.",
+   "explanation": "Une lettre avec sukun se prononce seule, sans voyelle, et s'accroche à la syllabe d'avant : بِنْت = bin-t, قَلْب = qal-b. On lit donc par syllabes fermées (consonne + voyelle + consonne) : كَتَبْتُ = ka-tab-tu. Le sukun est un petit rond fermé ; la damma a une petite queue, comme un mini و : ne les confonds pas. Un mot ne commence jamais par une lettre avec sukun. En fin de mot isolé (à la pause), on ne prononce pas la dernière voyelle : c'est pour cela que les fiches écrivent la dernière lettre sans signe.",
+   "pattern": "consonne + voyelle + consonne avec ـْ = syllabe fermée : قَلْ = qal",
+   "examples": [
+    {
+     "text": "بِنْت",
+     "translation": "fille",
+     "transliteration": "bint"
+    },
+    {
+     "text": "قَلْب",
+     "translation": "cœur",
+     "transliteration": "qalb"
+    },
+    {
+     "text": "كَتَبْتُ",
+     "translation": "j'ai écrit",
+     "transliteration": "katabtu"
+    },
+    {
+     "text": "طِفْل",
+     "translation": "enfant",
+     "transliteration": "Tifl"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "قَلْب lu « qalab »",
+     "right": "قَلْب = qalb",
+     "why": "Le ل porte un sukun : on n'ajoute aucune voyelle après lui."
+    },
+    {
+     "wrong": "كَتَبْتُ lu « katabutu »",
+     "right": "كَتَبْتُ = katabtu",
+     "why": "Le ب porte un sukun : il se colle à la syllabe d'avant (ka-tab-tu), sans voyelle."
+    },
+    {
+     "wrong": "Confondre ـْ (sukun) et ـُ (damma)",
+     "right": "ـْ = pas de voyelle ; ـُ = u",
+     "why": "Le sukun est un petit rond fermé ; la damma a une queue comme un petit و."
+    }
+   ],
+   "tip": "Petit rond = rien : la consonne s'arrête net."
+  }
+ },
+ {
+  "id": "ar.g11.long_vowels",
+  "rule": {
+   "summary": "Une voyelle brève suivie de sa lettre de prolongement devient longue : ـَا = â, ـِي = î, ـُو = û (c'est le madd).",
+   "explanation": "Les lettres ا, و et ي servent aussi à allonger la voyelle qui précède : بَا = bâ, بِي = bî, بُو = bû. On tient le son deux fois plus longtemps ; en translittération, on le marque d'un accent circonflexe (kitâb). Les couples vont toujours ensemble : fatha + ا, kasra + ي, damma + و. Piège : si و ou ي porte un sukun après une fatha, ce n'est pas une voyelle longue mais une diphtongue : عَيْن = 3ayn, زَوْج = zawdj. Et si و ou ي porte une voyelle, c'est une consonne : وَلَد = walad. Dans quelques mots très courants, le â s'écrit avec un petit alif posé au-dessus de la lettre : هٰذَا = hâdhâ.",
+   "pattern": "ـَا = â · ـِي = î · ـُو = û   mais   ـَيْ = ay · ـَوْ = aw",
+   "examples": [
+    {
+     "text": "كِتَاب",
+     "translation": "livre",
+     "transliteration": "kitâb"
+    },
+    {
+     "text": "صَدِيق",
+     "translation": "ami",
+     "transliteration": "Sadîq"
+    },
+    {
+     "text": "عَجُوز",
+     "translation": "personne âgée",
+     "transliteration": "3adjûz"
+    },
+    {
+     "text": "عَيْن",
+     "translation": "œil",
+     "transliteration": "3ayn"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "عَيْن lu « 3în »",
+     "right": "عَيْن = 3ayn",
+     "why": "Le ي porte un sukun après une fatha : c'est la diphtongue ay. Un î long s'écrirait kasra + ي (ـِي)."
+    },
+    {
+     "wrong": "كَتَبَ lu « kâtaba »",
+     "right": "كَتَبَ = kataba",
+     "why": "Il n'y a pas de ا après le ك : la voyelle reste brève. Seule une lettre de prolongement allonge le son."
+    },
+    {
+     "wrong": "صَدِيق lu « Sadiq », i bref",
+     "right": "صَدِيق = Sadîq",
+     "why": "Kasra + ي = î long : on tient le son. La longueur distingue beaucoup de mots."
+    }
+   ],
+   "tip": "Fatha + ا, kasra + ي, damma + و : la voyelle s'étire."
+  }
+ },
+ {
+  "id": "ar.g12.shadda",
+  "rule": {
+   "summary": "La shadda (ـّ), petit « w » posé sur une lettre, double la consonne : on la prononce deux fois.",
+   "explanation": "Une lettre avec shadda vaut deux lettres : la première sans voyelle (elle ferme la syllabe), la seconde avec la voyelle (elle ouvre la suivante) : جَدَّة = djad-da, مُعَلِّم = mu-3al-lim. On appuie sur la consonne, comme dans l'italien « nonno ». La voyelle accompagne la shadda : fatha et damma au-dessus de la shadda (ـَّ ـُّ), kasra sous la lettre ou juste sous la shadda (ـِّ). La shadda change le sens : دَرَسَ (darasa, il a étudié) n'est pas دَرَّسَ (darrasa, il a enseigné).",
+   "pattern": "ـّ = consonne doublée : جَدّ = djadd · مُعَلِّم = mu3allim",
+   "examples": [
+    {
+     "text": "جَدّ",
+     "translation": "grand-père",
+     "transliteration": "djadd"
+    },
+    {
+     "text": "جَدَّة",
+     "translation": "grand-mère",
+     "transliteration": "djadda"
+    },
+    {
+     "text": "مُعَلِّم",
+     "translation": "enseignant",
+     "transliteration": "mu3allim"
+    },
+    {
+     "text": "دَرَّسَ",
+     "translation": "il a enseigné",
+     "transliteration": "darrasa"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "جَدَّة lu « djada »",
+     "right": "جَدَّة = djadda",
+     "why": "La shadda double le د : djad-da. Sans elle, le mot est trop court."
+    },
+    {
+     "wrong": "مُعَلِّم lu « mu3allam »",
+     "right": "مُعَلِّم = mu3allim",
+     "why": "Le petit trait sous la shadda est une kasra : on lit lli, avec le ل doublé."
+    },
+    {
+     "wrong": "Lire la shadda comme un son « w »",
+     "right": "ـّ = consonne doublée",
+     "why": "La shadda ressemble à un petit w mais ne se prononce pas : elle double seulement la lettre."
+    }
+   ],
+   "tip": "Shadda = on dit la lettre deux fois : djad-da."
+  }
+ },
+ {
+  "id": "ar.g13.tanwin",
+  "rule": {
+   "summary": "Le tanwin, c'est la voyelle finale écrite en double (ـٌ ـٍ ـً) : elle ajoute un son n à la fin du mot : -un, -in, -an.",
+   "explanation": "On le trouve à la fin des noms et adjectifs indéfinis (« un livre ») : كِتَابٌ = kitâbun, كِتَابٍ = kitâbin, كِتَابًا = kitâban. Ce n s'entend mais ne s'écrit pas avec un ن. Le tanwin -an s'accompagne d'un alif muet (كِتَابًا), sauf après ة ou ـَاء (طَالِبَةً = Tâlibatan). Avec ة, le tanwin fait entendre le t : طَالِبَةٌ = Tâlibatun. Le tanwin disparaît dès que le mot prend l'article ال : الطَّالِبُ = aT-Tâlibu.",
+   "pattern": "ـٌ = -un · ـٍ = -in · ـً (+ ا muet) = -an",
+   "examples": [
+    {
+     "text": "طَالِبٌ",
+     "translation": "un étudiant",
+     "transliteration": "Tâlibun"
+    },
+    {
+     "text": "هِيَ طَالِبَةٌ",
+     "translation": "Elle est étudiante.",
+     "transliteration": "hiya Tâlibatun"
+    },
+    {
+     "text": "رَأَيْتُ طَبِيبًا",
+     "translation": "J'ai vu un médecin.",
+     "transliteration": "ra'aytu Tabîban"
+    },
+    {
+     "text": "مَعَ طَبِيبٍ",
+     "translation": "avec un médecin",
+     "transliteration": "ma3a Tabîbin"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "كِتَابًا lu « kitâbanâ »",
+     "right": "كِتَابًا = kitâban",
+     "why": "L'alif après le tanwin -an est muet : il sert seulement de support."
+    },
+    {
+     "wrong": "طَالِبٌ lu « Tâlibu »",
+     "right": "طَالِبٌ = Tâlibun",
+     "why": "Deux dammas (ou une damma avec une queue) = tanwin : on ajoute le son n."
+    },
+    {
+     "wrong": "الْكِتَابٌ",
+     "right": "الْكِتَابُ",
+     "why": "L'article et le tanwin ne vont jamais ensemble : avec ال, la voyelle finale est simple."
+    }
+   ],
+   "tip": "Signe doublé = voyelle + n."
+  }
+ },
+ {
+  "id": "ar.g14.hamza_madda",
+  "rule": {
+   "summary": "La hamza (ء) est un petit coup de glotte, comme la coupure dans « oh ! oh ! ». Elle s'écrit seule ou sur un support (أ إ ؤ ئ) ; le alif madda آ se lit 'â.",
+   "explanation": "La hamza est une vraie consonne : on la note ' en translittération (سُؤَال = su'âl). Son support (ا, و, ou ي sans points) ne se prononce pas : lis seulement la hamza et sa voyelle. En début de mot, elle est sur l'alif : أَ = a, أُ = u, et إِ = i (hamza et kasra sous l'alif) ; on entend surtout la voyelle : أَب = ab, أُمّ = umm. Au milieu, le support suit la voyelle la plus forte : ؤ près d'un u, ئ près d'un i, أ près d'un a. Après un â long ou en fin de mot, elle reste souvent seule : نِسَاء = nisâ'. Le alif madda آ remplace « أَا » : آبَاء = âbâ'.",
+   "pattern": "أَ a · أُ u · إِ i · ؤ ئ ء = ' · آ = 'â",
+   "examples": [
+    {
+     "text": "أَب",
+     "translation": "père",
+     "transliteration": "ab"
+    },
+    {
+     "text": "سُؤَال",
+     "translation": "question",
+     "transliteration": "su'âl"
+    },
+    {
+     "text": "عَائِلَة",
+     "translation": "famille",
+     "transliteration": "3â'ila"
+    },
+    {
+     "text": "آبَاء",
+     "translation": "pères, parents",
+     "transliteration": "âbâ'"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "سُؤَال lu « suwâl »",
+     "right": "سُؤَال = su'âl",
+     "why": "Le و ne sert que de support à la hamza : on ne prononce pas w mais un petit coup de glotte."
+    },
+    {
+     "wrong": "عَائِلَة lu « 3âyila »",
+     "right": "عَائِلَة = 3â'ila",
+     "why": "ئ (sans points) est une hamza sur un support, pas un ي : on lit 3â'ila."
+    },
+    {
+     "wrong": "آ lu comme un a bref",
+     "right": "آ = 'â (long)",
+     "why": "La madda indique une hamza suivie d'un â long : آبَاء = âbâ'."
+    }
+   ],
+   "tip": "Le support se tait : lis seulement la hamza et sa voyelle."
+  }
+ },
+ {
+  "id": "ar.g15.article_sun_moon",
+  "rule": {
+   "summary": "L'article ال (al-, « le, la, les ») se colle au nom. Devant une lettre lunaire, on prononce le l ; devant une lettre solaire, le l disparaît et la lettre suivante est doublée.",
+   "explanation": "Les 14 lettres solaires sont ت ث د ذ ر ز س ش ص ض ط ظ ل ن (on les prononce avec le bout de la langue). Devant elles, le ل s'écrit mais ne se prononce pas, et la lettre suivante porte une shadda : الشَّمْس = ach-chams. Les 14 autres lettres sont lunaires : le ل porte un sukun et se prononce : الْقَمَر = al-qamar. Dans un texte vocalisé, c'est donc facile : ل avec sukun → on dit l ; ل sans signe + shadda sur la lettre suivante → on ne dit pas l. Au milieu d'une phrase, le a de al- tombe après une voyelle : فِي الْبَيْتِ = fî l-bayti.",
+   "pattern": "lunaire : الْ + lettre = al- · solaire : ال + lettre avec ـّ = a + lettre doublée",
+   "examples": [
+    {
+     "text": "الشَّمْس",
+     "translation": "le soleil",
+     "transliteration": "ach-chams"
+    },
+    {
+     "text": "الْقَمَر",
+     "translation": "la lune",
+     "transliteration": "al-qamar"
+    },
+    {
+     "text": "الدَّم",
+     "translation": "le sang",
+     "transliteration": "ad-dam"
+    },
+    {
+     "text": "الْأُسْرَة",
+     "translation": "la famille",
+     "transliteration": "al-usra"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "الشَّمْس lu « al-chams »",
+     "right": "الشَّمْس = ach-chams",
+     "why": "ش est une lettre solaire : le l ne se prononce pas et on double le ch."
+    },
+    {
+     "wrong": "الْقَمَر lu « aq-qamar »",
+     "right": "الْقَمَر = al-qamar",
+     "why": "ق est une lettre lunaire : le ل porte un sukun et se prononce."
+    },
+    {
+     "wrong": "الْوَلَد lu « aw-walad »",
+     "right": "الْوَلَد = al-walad",
+     "why": "و est lunaire : on garde le l. Repère : s'il y a un sukun sur le ل, on dit l."
+    }
+   ],
+   "tip": "Le soleil cache le l, la lune le laisse voir."
+  }
+ },
+ {
+  "id": "ar.g16.reading_unvowelled",
+  "rule": {
+   "summary": "Les textes courants (journaux, panneaux, livres, messages) n'écrivent pas les voyelles brèves : on les devine grâce aux mots connus, aux lettres longues ا و ي et au sens.",
+   "explanation": "Seules les lettres sont écrites : كتب peut se lire kataba (il a écrit), kutiba (il a été écrit) ou kutub (des livres). Les voyelles longues restent visibles, ce sont tes points d'appui : كتاب = kitâb. Le ة final signale souvent un nom féminin (طالبة = Tâliba) et ال au début, l'article (البيت = al-bayt). Les mots très courants se reconnaissent d'un coup d'œil, comme une image : ولد = walad, بنت = bint, هذا = hâdhâ. Quand plusieurs lectures sont possibles, c'est la phrase qui choisit.",
+   "pattern": "Repères : ا و ي = voyelles longues · ال = article · ة = féminin · le sens choisit",
+   "examples": [
+    {
+     "text": "ولد",
+     "translation": "garçon",
+     "transliteration": "walad"
+    },
+    {
+     "text": "بنت",
+     "translation": "fille",
+     "transliteration": "bint"
+    },
+    {
+     "text": "كتاب",
+     "translation": "livre",
+     "transliteration": "kitâb"
+    },
+    {
+     "text": "هذا",
+     "translation": "ceci, c'est",
+     "transliteration": "hâdhâ"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "كتاب lu « kataba »",
+     "right": "كتاب = kitâb",
+     "why": "Le ا entre ت et ب est une voyelle longue : le verbe kataba s'écrit sans ا (كتب)."
+    },
+    {
+     "wrong": "بيت lu « bît »",
+     "right": "بيت = bayt",
+     "why": "Dans ce mot courant, le ي est une diphtongue (ay). Mémorise les mots fréquents comme des images."
+    },
+    {
+     "wrong": "هذا lu « hadhâ »",
+     "right": "هذا = hâdhâ",
+     "why": "Mot très courant : un â s'entend après le ه sans être écrit (petit alif dans le texte vocalisé هٰذَا)."
+    }
+   ],
+   "tip": "Repère d'abord les ا و ي et l'article, puis laisse le sens choisir."
+  }
+ }
+]

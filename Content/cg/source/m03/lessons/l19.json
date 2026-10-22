@@ -1,0 +1,878 @@
+{
+ "lessonId": "cg.l19",
+ "exercises": [
+  {
+   "id": "cg.l19.e01",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.isaac_newton",
+    "cg.v.gravitation"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel savant a énoncé la loi de la gravitation universelle en 1687 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Isaac Newton",
+    "Galilée",
+    "Albert Einstein",
+    "René Descartes"
+   ],
+   "answer": "Isaac Newton",
+   "acceptedAnswers": [
+    "Isaac Newton"
+   ],
+   "explanation": "Dans ses Principia, publiés en 1687, Isaac Newton montre que la force qui fait tomber les objets sur Terre est la même que celle qui retient la Lune autour de la Terre et les planètes autour du Soleil : la gravitation universelle.",
+   "tip": "Newton = 1687 = gravitation : une seule force pour la pomme et pour la Lune.",
+   "extraExample": {
+    "text": "Grâce à la gravitation de Newton, on peut calculer le retour des comètes.",
+    "translation": "Edmond Halley annonce ainsi le retour de « sa » comète, observée en 1758-1759."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Albert Einstein",
+     "category": "word_confusion",
+     "feedback": "Einstein a revu la gravitation en 1915 avec la relativité générale, mais la loi de la gravitation universelle de 1687 est de Newton."
+    },
+    {
+     "equals": "Galilée",
+     "category": "word_confusion",
+     "feedback": "Galilée a étudié la chute des corps sur Terre ; c'est Newton qui a étendu cette force à tout l'Univers."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e02",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.vitesse_de_la_lumiere"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est, environ, la vitesse de la lumière dans le vide ?",
+   "promptLanguage": "fr",
+   "options": [
+    "300 km/s",
+    "300 000 km/s",
+    "300 000 km/h",
+    "340 m/s"
+   ],
+   "answer": "300 000 km/s",
+   "acceptedAnswers": [
+    "300 000 km/s"
+   ],
+   "explanation": "La lumière parcourt environ 300 000 km chaque seconde dans le vide (exactement 299 792 458 m/s). Aucun objet ni aucune information ne peut aller plus vite.",
+   "tip": "300 000 km par SECONDE : en une seconde, la lumière ferait plus de sept fois le tour de la Terre.",
+   "extraExample": {
+    "text": "La lumière de la Lune nous parvient en un peu plus d'une seconde.",
+    "translation": "La Lune est à environ 384 000 km."
+   },
+   "errorPatterns": [
+    {
+     "equals": "340 m/s",
+     "category": "word_confusion",
+     "feedback": "340 m/s, c'est la vitesse du son dans l'air, près d'un million de fois plus lente que la lumière."
+    },
+    {
+     "equals": "300 000 km/h",
+     "category": "word_confusion",
+     "feedback": "Le chiffre est bon mais pas l'unité : c'est 300 000 km par seconde, pas par heure."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e03",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.force",
+    "cg.v.energie",
+    "cg.v.zero_absolu"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Grandeurs physiques et unités",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "une force",
+     "right": "le newton (N)"
+    },
+    {
+     "left": "une énergie",
+     "right": "le joule (J)"
+    },
+    {
+     "left": "une puissance",
+     "right": "le watt (W)"
+    },
+    {
+     "left": "une température absolue",
+     "right": "le kelvin (K)"
+    },
+    {
+     "left": "une masse",
+     "right": "le kilogramme (kg)"
+    }
+   ],
+   "answer": "une force = le newton (N) ; une énergie = le joule (J) ; une puissance = le watt (W) ; une température absolue = le kelvin (K) ; une masse = le kilogramme (kg)",
+   "acceptedAnswers": [],
+   "explanation": "Plusieurs unités portent le nom d'un savant : Isaac Newton (force), James Prescott Joule (énergie), James Watt (puissance), Lord Kelvin (température). Le kilogramme, lui, est l'unité de masse.",
+   "tip": "Une unité qui porte le nom d'une personne s'écrit sans majuscule (un newton) mais son symbole prend une majuscule (N).",
+   "extraExample": {
+    "text": "Une ampoule de 10 watts consomme 10 joules par seconde.",
+    "translation": "La puissance, c'est l'énergie utilisée chaque seconde."
+   }
+  },
+  {
+   "id": "cg.l19.e04",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.galilee"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "D'après Galilée, que se passe-t-il si l'on lâche en même temps, dans le vide, une boule de plomb et une plume ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Elles tombent à la même vitesse.",
+    "La boule de plomb tombe plus vite.",
+    "La plume tombe plus vite.",
+    "Elles restent immobiles."
+   ],
+   "answer": "Elles tombent à la même vitesse.",
+   "acceptedAnswers": [
+    "Elles tombent à la même vitesse."
+   ],
+   "explanation": "Sans air, tous les objets tombent avec la même accélération, quelle que soit leur masse. Sur Terre, la plume tombe plus lentement uniquement à cause de la résistance de l'air.",
+   "tip": "C'est l'air qui freine la plume, pas sa légèreté.",
+   "extraExample": {
+    "text": "En 1971, sur la Lune, l'astronaute David Scott lâche un marteau et une plume : ils touchent le sol en même temps.",
+    "translation": "Il n'y a pas d'air sur la Lune pour freiner la plume."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La boule de plomb tombe plus vite.",
+     "category": "word_confusion",
+     "feedback": "C'est ce que pensait Aristote, et ce que Galilée a réfuté : sans air, la masse ne change pas la vitesse de chute."
+    },
+    {
+     "equals": "Elles restent immobiles.",
+     "category": "word_confusion",
+     "feedback": "Dans le vide, il n'y a pas d'air, mais il y a toujours la gravitation : les objets tombent."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e05",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.albert_einstein"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pour quel travail Albert Einstein a-t-il reçu le prix Nobel de physique 1921 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "l'explication de l'effet photoélectrique",
+    "la relativité générale",
+    "la formule E = mc²",
+    "la bombe atomique"
+   ],
+   "answer": "l'explication de l'effet photoélectrique",
+   "acceptedAnswers": [
+    "l'explication de l'effet photoélectrique"
+   ],
+   "explanation": "Le comité Nobel récompense en 1921 son explication de l'effet photoélectrique : la lumière est faite de « grains » d'énergie, les photons. La relativité, encore discutée à l'époque, n'est pas citée.",
+   "tip": "Nobel d'Einstein = la lumière en grains (photoélectrique), pas la relativité.",
+   "extraExample": {
+    "text": "L'effet photoélectrique est le principe des panneaux solaires photovoltaïques.",
+    "translation": "La lumière y met des électrons en mouvement et produit un courant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la relativité générale",
+     "category": "word_confusion",
+     "feedback": "C'est l'idée reçue la plus courante : la relativité n'a jamais été récompensée par un Nobel. Einstein l'a reçu pour l'effet photoélectrique."
+    },
+    {
+     "equals": "la bombe atomique",
+     "category": "word_confusion",
+     "feedback": "Einstein n'a pas fabriqué la bombe ; il a seulement signé en 1939 une lettre alertant le président Roosevelt."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e06",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.selection_naturelle"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Selon Darwin, quel mécanisme explique l'évolution des espèces ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la sélection naturelle",
+    "l'hérédité des caractères acquis",
+    "la génération spontanée",
+    "la volonté des animaux"
+   ],
+   "answer": "la sélection naturelle",
+   "acceptedAnswers": [
+    "la sélection naturelle"
+   ],
+   "explanation": "Pour Darwin (1859), les individus les mieux adaptés à leur milieu laissent plus de descendants : leurs caractères se répandent dans l'espèce. C'est la sélection naturelle.",
+   "tip": "Darwin = sélection naturelle ; Lamarck = caractères acquis.",
+   "extraExample": {
+    "text": "Les pinsons des Galápagos ont des becs adaptés à leur nourriture.",
+    "translation": "C'est l'exemple qui a fait réfléchir Darwin."
+   },
+   "errorPatterns": [
+    {
+     "equals": "l'hérédité des caractères acquis",
+     "category": "word_confusion",
+     "feedback": "C'est la théorie de Lamarck (1809), réfutée depuis ; Darwin propose la sélection naturelle."
+    },
+    {
+     "equals": "la génération spontanée",
+     "category": "word_confusion",
+     "feedback": "La génération spontanée (la vie qui naît de rien) a été réfutée par Pasteur ; elle n'explique pas l'évolution."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e07",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.e_mc2"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans la formule E = mc², que représente la lettre c ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la vitesse de la lumière",
+    "la chaleur",
+    "la charge électrique",
+    "le carbone"
+   ],
+   "answer": "la vitesse de la lumière",
+   "acceptedAnswers": [
+    "la vitesse de la lumière"
+   ],
+   "explanation": "E est l'énergie, m la masse et c la vitesse de la lumière. Comme c² est un nombre gigantesque, une toute petite masse correspond à une énergie énorme.",
+   "tip": "c vient probablement du latin celeritas, « vitesse ».",
+   "extraExample": {
+    "text": "Dans une centrale nucléaire, une infime partie de la masse de l'uranium se transforme en énergie.",
+    "translation": "C'est E = mc² en action."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le carbone",
+     "category": "word_confusion",
+     "feedback": "C est bien le symbole du carbone en chimie, mais dans E = mc², la lettre minuscule c désigne la vitesse de la lumière."
+    },
+    {
+     "equals": "la chaleur",
+     "category": "word_confusion",
+     "feedback": "La chaleur est une forme d'énergie (E) ; c est la vitesse de la lumière."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e08",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.force"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Un astronaute part de la Terre et se pose sur la Lune. Qu'est-ce qui change ?",
+   "promptLanguage": "fr",
+   "options": [
+    "son poids, mais pas sa masse",
+    "sa masse, mais pas son poids",
+    "son poids et sa masse",
+    "ni son poids ni sa masse"
+   ],
+   "answer": "son poids, mais pas sa masse",
+   "acceptedAnswers": [
+    "son poids, mais pas sa masse"
+   ],
+   "explanation": "La masse, en kilogrammes, est la quantité de matière : elle est la même partout. Le poids est une force, l'attraction de l'astre : sur la Lune, il est environ six fois plus faible.",
+   "tip": "Masse = ce que tu es (en kg) ; poids = comment l'astre t'attire (en newtons).",
+   "extraExample": {
+    "text": "Sur Jupiter, le même astronaute pèserait environ 2,5 fois plus que sur Terre.",
+    "translation": "Sa masse, elle, n'aurait toujours pas changé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "sa masse, mais pas son poids",
+     "category": "word_confusion",
+     "feedback": "C'est l'inverse : la masse (quantité de matière) ne change pas ; le poids, lui, dépend de l'astre."
+    },
+    {
+     "equals": "son poids et sa masse",
+     "category": "word_confusion",
+     "feedback": "La masse ne change pas en voyageant : seul le poids, qui dépend de la gravitation, change."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e09",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.galilee",
+    "cg.v.isaac_newton",
+    "cg.v.albert_einstein"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les grands physiciens et leur apport",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Galilée",
+     "right": "chute des corps et lunette astronomique"
+    },
+    {
+     "left": "Isaac Newton",
+     "right": "gravitation universelle (1687)"
+    },
+    {
+     "left": "Albert Einstein",
+     "right": "relativité (1905 et 1915)"
+    },
+    {
+     "left": "Marie Curie",
+     "right": "radioactivité (Nobel 1903 et 1911)"
+    }
+   ],
+   "answer": "Galilée = chute des corps et lunette astronomique ; Isaac Newton = gravitation universelle (1687) ; Albert Einstein = relativité (1905 et 1915) ; Marie Curie = radioactivité (Nobel 1903 et 1911)",
+   "acceptedAnswers": [],
+   "explanation": "Galilée (début XVIIe) ouvre la physique expérimentale, Newton (fin XVIIe) unifie Terre et ciel, Marie Curie (début XXe) explore la radioactivité et Einstein (début XXe) révolutionne l'espace et le temps.",
+   "tip": "Dans l'ordre : Galilée, Newton, puis Curie et Einstein, contemporains.",
+   "extraExample": {
+    "text": "Marie Curie est la seule personne à avoir reçu un prix Nobel dans deux sciences différentes.",
+    "translation": "Physique en 1903, chimie en 1911."
+   }
+  },
+  {
+   "id": "cg.l19.e10",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.isaac_newton"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 1687, Isaac Newton publie les ___, où il expose les lois du mouvement et la gravitation.",
+   "promptLanguage": "fr",
+   "options": [
+    "Principia",
+    "Dialogues",
+    "Éléments",
+    "Méditations"
+   ],
+   "answer": "Principia",
+   "acceptedAnswers": [
+    "Principia",
+    "Principia Mathematica",
+    "Philosophiae Naturalis Principia Mathematica",
+    "Principes mathématiques de la philosophie naturelle"
+   ],
+   "explanation": "Le titre complet est Philosophiae Naturalis Principia Mathematica (Principes mathématiques de la philosophie naturelle). C'est l'un des livres les plus importants de l'histoire des sciences.",
+   "tip": "Principia = « principes » en latin.",
+   "extraExample": {
+    "text": "En France, c'est Émilie du Châtelet qui traduit les Principia au XVIIIe siècle.",
+    "translation": "Sa traduction reste une référence."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Éléments",
+     "category": "word_confusion",
+     "feedback": "Les Éléments sont l'œuvre du mathématicien grec Euclide, sur la géométrie."
+    },
+    {
+     "equals": "Méditations",
+     "category": "word_confusion",
+     "feedback": "Les Méditations métaphysiques sont de René Descartes (1641), un livre de philosophie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e11",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.zero_absolu"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le zéro absolu, la température la plus basse possible, vaut 0 kelvin, soit environ moins ___ °C.",
+   "promptLanguage": "fr",
+   "options": [
+    "100",
+    "273",
+    "460",
+    "1 000"
+   ],
+   "answer": "273",
+   "acceptedAnswers": [
+    "273",
+    "273,15",
+    "273.15",
+    "deux cent soixante-treize"
+   ],
+   "explanation": "0 K = -273,15 °C. À cette température, l'agitation des atomes serait minimale. On peut s'en approcher à quelques milliardièmes de degré, mais jamais l'atteindre.",
+   "tip": "Pour passer des degrés Celsius aux kelvins, ajoute 273 : 0 °C = 273 K.",
+   "extraExample": {
+    "text": "L'eau gèle à 0 °C, soit environ 273 K.",
+    "translation": "L'échelle kelvin n'a pas de valeurs négatives."
+   },
+   "errorPatterns": [
+    {
+     "equals": "100",
+     "category": "word_confusion",
+     "feedback": "-100 °C est encore loin du zéro absolu : on descend jusqu'à environ -273 °C."
+    },
+    {
+     "equals": "460",
+     "category": "word_confusion",
+     "feedback": "-460, c'est presque la valeur en degrés Fahrenheit (-459,67 °F). En degrés Celsius, c'est -273 °C."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e12",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.peau"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Le plus grand organe du corps humain est ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "la peau",
+    "le foie",
+    "le cerveau",
+    "l'intestin"
+   ],
+   "answer": "la peau",
+   "acceptedAnswers": [
+    "la peau",
+    "peau"
+   ],
+   "explanation": "La peau, qui couvre environ 1,5 à 2 m² chez un adulte, est le plus grand organe du corps. Le foie est le plus gros organe interne.",
+   "tip": "Un organe peut être à l'extérieur : la peau en est un.",
+   "extraExample": {
+    "text": "La peau aide à garder le corps à environ 37 °C grâce à la transpiration.",
+    "translation": "En s'évaporant, la sueur rafraîchit le corps."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le foie",
+     "category": "word_confusion",
+     "feedback": "Le foie est le plus gros organe interne, mais le plus grand organe est la peau."
+    },
+    {
+     "equals": "l'intestin",
+     "category": "word_confusion",
+     "feedback": "L'intestin est très long, mais la peau reste considérée comme le plus grand organe."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e13",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.energie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'énergie ne se crée pas et ne disparaît pas : elle se ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "transforme",
+    "détruit",
+    "multiplie",
+    "consomme"
+   ],
+   "answer": "transforme",
+   "acceptedAnswers": [
+    "transforme",
+    "convertit"
+   ],
+   "explanation": "C'est le principe de conservation de l'énergie : une centrale hydroélectrique transforme l'énergie du mouvement de l'eau en électricité, une ampoule transforme l'électricité en lumière et en chaleur.",
+   "tip": "Pense à une chaîne : soleil → plante → nourriture → muscles → mouvement.",
+   "extraExample": {
+    "text": "Quand tu freines à vélo, l'énergie du mouvement se transforme en chaleur dans les freins.",
+    "translation": "Rien n'est perdu, tout change de forme."
+   },
+   "errorPatterns": [
+    {
+     "equals": "consomme",
+     "category": "word_confusion",
+     "feedback": "Dans la vie courante, on dit qu'on « consomme » de l'énergie, mais en physique elle se transforme seulement d'une forme à une autre."
+    },
+    {
+     "equals": "détruit",
+     "category": "word_confusion",
+     "feedback": "L'énergie ne peut pas être détruite : elle se transforme."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e14",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.relativite"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle technologie du quotidien doit tenir compte de la relativité d'Einstein pour être précise ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le GPS",
+    "le four à micro-ondes",
+    "l'ampoule électrique",
+    "le réfrigérateur"
+   ],
+   "answer": "le GPS",
+   "acceptedAnswers": [
+    "le GPS"
+   ],
+   "explanation": "Les horloges des satellites GPS, rapides et plus loin de la Terre, ne battent pas exactement au même rythme que celles au sol. Sans les corrections prévues par la relativité, la position calculée se décalerait de plusieurs kilomètres par jour.",
+   "tip": "Relativité = le temps dépend de la vitesse et de la gravitation, même pour un satellite.",
+   "extraExample": {
+    "text": "En 1919, une éclipse de Soleil confirme que la lumière des étoiles est déviée par le Soleil.",
+    "translation": "C'est la première grande preuve de la relativité générale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le four à micro-ondes",
+     "category": "word_confusion",
+     "feedback": "Le micro-ondes chauffe grâce aux ondes électromagnétiques ; il n'a pas besoin de la relativité."
+    },
+    {
+     "equals": "l'ampoule électrique",
+     "category": "word_confusion",
+     "feedback": "L'ampoule fonctionne avec l'électricité classique ; c'est le GPS qui a besoin de la relativité."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e15",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.isaac_newton",
+    "cg.v.gravitation"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la gravitation.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "1687",
+    "la",
+    "gravitation",
+    "la",
+    "loi",
+    "universelle",
+    "de",
+    "publie",
+    "en",
+    "Newton"
+   ],
+   "answer": "Newton publie la loi de la gravitation universelle en 1687",
+   "acceptedAnswers": [
+    "Newton publie la loi de la gravitation universelle en 1687",
+    "En 1687 Newton publie la loi de la gravitation universelle"
+   ],
+   "hint": "Commence par le nom du savant.",
+   "explanation": "Le repère : Newton, la gravitation universelle, 1687. C'est la même force qui fait tomber les objets et qui fait tourner la Lune autour de la Terre.",
+   "tip": "Qui (Newton), quoi (la gravitation universelle), quand (1687).",
+   "extraExample": {
+    "text": "Galilée meurt en 1642, l'année où naît Newton selon le calendrier anglais de l'époque.",
+    "translation": "Comme si le flambeau passait de l'un à l'autre."
+   }
+  },
+  {
+   "id": "cg.l19.e16",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.vitesse_de_la_lumiere"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de temps la lumière du Soleil met-elle pour arriver jusqu'à la Terre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "environ 8 secondes",
+    "environ 8 minutes",
+    "environ 8 heures",
+    "elle arrive instantanément"
+   ],
+   "answer": "environ 8 minutes",
+   "acceptedAnswers": [
+    "environ 8 minutes"
+   ],
+   "explanation": "Le Soleil est à environ 150 millions de kilomètres. À 300 000 km/s, la lumière met environ 500 secondes, soit un peu plus de 8 minutes.",
+   "tip": "150 millions ÷ 300 000 = 500 secondes ≈ 8 minutes.",
+   "extraExample": {
+    "text": "Si le Soleil s'éteignait, on ne s'en apercevrait qu'environ 8 minutes plus tard.",
+    "translation": "On voit toujours le Soleil tel qu'il était 8 minutes plus tôt."
+   },
+   "errorPatterns": [
+    {
+     "equals": "environ 8 secondes",
+     "category": "word_confusion",
+     "feedback": "C'est beaucoup trop court : il faut environ 8 minutes pour parcourir les 150 millions de km."
+    },
+    {
+     "equals": "elle arrive instantanément",
+     "category": "word_confusion",
+     "feedback": "La lumière est très rapide mais pas instantanée : il lui faut environ 8 minutes depuis le Soleil."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e17",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.gregor_mendel",
+    "cg.v.charles_darwin",
+    "cg.v.william_harvey"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Révision — Savants du vivant et découvertes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "William Harvey",
+     "right": "la circulation du sang (1628)"
+    },
+    {
+     "left": "Edward Jenner",
+     "right": "le premier vaccin (1796)"
+    },
+    {
+     "left": "Charles Darwin",
+     "right": "la sélection naturelle (1859)"
+    },
+    {
+     "left": "Gregor Mendel",
+     "right": "les lois de l'hérédité (1865)"
+    }
+   ],
+   "answer": "William Harvey = la circulation du sang (1628) ; Edward Jenner = le premier vaccin (1796) ; Charles Darwin = la sélection naturelle (1859) ; Gregor Mendel = les lois de l'hérédité (1865)",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre repères des sciences du vivant s'enchaînent : la circulation du sang (XVIIe siècle), le premier vaccin (fin XVIIIe), puis l'évolution et l'hérédité (milieu du XIXe).",
+   "tip": "Range-les par date : 1628, 1796, 1859, 1865.",
+   "extraExample": {
+    "text": "En 1885, Louis Pasteur met au point le vaccin contre la rage.",
+    "translation": "Il prolonge l'idée de Jenner, près d'un siècle plus tard."
+   }
+  },
+  {
+   "id": "cg.l19.e18",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.albert_einstein",
+    "cg.v.e_mc2"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel physicien a publié la formule E = mc² en 1905 ?",
+   "promptLanguage": "fr",
+   "answer": "Albert Einstein",
+   "acceptedAnswers": [
+    "Albert Einstein",
+    "Einstein"
+   ],
+   "explanation": "En 1905, son « année miraculeuse », Einstein publie quatre articles majeurs, dont la relativité restreinte et la formule E = mc², qui relie la masse et l'énergie.",
+   "tip": "1905 : Einstein a 26 ans et change la physique.",
+   "extraExample": {
+    "text": "En 1915, Einstein publie la relativité générale.",
+    "translation": "Elle décrit la gravitation comme une courbure de l'espace-temps."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Newton",
+     "category": "word_confusion",
+     "feedback": "Newton (1687) est le savant de la gravitation ; E = mc² est d'Einstein, plus de deux siècles plus tard."
+    },
+    {
+     "equals": "Isaac Newton",
+     "category": "word_confusion",
+     "feedback": "Newton (1687) est le savant de la gravitation ; E = mc² est d'Einstein, plus de deux siècles plus tard."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e19",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.galilee"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel savant italien a découvert en 1610, avec sa lunette, quatre satellites de Jupiter ?",
+   "promptLanguage": "fr",
+   "answer": "Galilée",
+   "acceptedAnswers": [
+    "Galilée",
+    "Galileo Galilei",
+    "Galilei",
+    "Galileo"
+   ],
+   "explanation": "En 1610, Galilée pointe sa lunette vers Jupiter et y voit quatre « lunes » qui tournent autour de la planète. C'est la preuve que tout ne tourne pas autour de la Terre.",
+   "tip": "On appelle encore ces quatre lunes les « satellites galiléens » : Io, Europe, Ganymède et Callisto.",
+   "extraExample": {
+    "text": "En 1633, Galilée est condamné par l'Église pour avoir défendu l'idée que la Terre tourne autour du Soleil.",
+    "translation": "Il finit sa vie assigné à résidence."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Copernic",
+     "category": "word_confusion",
+     "feedback": "Copernic (1543) a proposé que la Terre tourne autour du Soleil, mais il n'avait pas de lunette : il est mort avant son invention."
+    },
+    {
+     "equals": "Newton",
+     "category": "word_confusion",
+     "feedback": "Newton est anglais et plus tardif ; les satellites de Jupiter ont été découverts par Galilée en 1610."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e20",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.albert_einstein",
+    "cg.v.relativite"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la relativité.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "relativité",
+    "Einstein",
+    "de",
+    "théorie",
+    "générale",
+    "1915",
+    "en",
+    "la",
+    "la",
+    "publie"
+   ],
+   "answer": "Einstein publie la théorie de la relativité générale en 1915",
+   "acceptedAnswers": [
+    "Einstein publie la théorie de la relativité générale en 1915",
+    "En 1915 Einstein publie la théorie de la relativité générale"
+   ],
+   "explanation": "La relativité restreinte date de 1905 ; la relativité générale, qui explique la gravitation comme une courbure de l'espace-temps, de 1915.",
+   "tip": "Restreinte 1905, générale 1915 : dix ans d'écart.",
+   "extraExample": {
+    "text": "La relativité générale prédit l'existence des ondes gravitationnelles.",
+    "translation": "Elles ont été détectées pour la première fois en 2015, cent ans plus tard."
+   }
+  },
+  {
+   "id": "cg.l19.e21",
+   "unitIds": [
+    "cg.g18.cellule_adn_evolution",
+    "cg.v.rosalind_franklin"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quelle chimiste britannique a obtenu la « photo 51 », image décisive de l'ADN ?",
+   "promptLanguage": "fr",
+   "answer": "Rosalind Franklin",
+   "acceptedAnswers": [
+    "Rosalind Franklin",
+    "Franklin"
+   ],
+   "explanation": "La photo 51, obtenue en 1952 dans le laboratoire de Rosalind Franklin, révèle la forme en hélice de l'ADN. Watson et Crick s'en servent pour leur modèle de 1953.",
+   "tip": "Franklin = l'image ; Watson et Crick = le modèle.",
+   "extraExample": {
+    "text": "Rosalind Franklin meurt en 1958, à 37 ans.",
+    "translation": "Elle ne peut donc pas partager le prix Nobel de 1962."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Marie Curie",
+     "category": "word_confusion",
+     "feedback": "Marie Curie a étudié la radioactivité ; la photo 51 de l'ADN est liée à Rosalind Franklin."
+    }
+   ]
+  },
+  {
+   "id": "cg.l19.e22",
+   "unitIds": [
+    "cg.g19.physique",
+    "cg.v.force"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est l'unité de mesure d'une force, nommée d'après un savant anglais ?",
+   "promptLanguage": "fr",
+   "answer": "le newton",
+   "acceptedAnswers": [
+    "le newton",
+    "newton",
+    "newtons",
+    "les newtons",
+    "N",
+    "un newton"
+   ],
+   "explanation": "La force se mesure en newtons (symbole N), en hommage à Isaac Newton. Un objet de 1 kg pèse environ 9,8 N sur Terre.",
+   "tip": "Force → Newton : le savant des forces a donné son nom à leur unité.",
+   "extraExample": {
+    "text": "Le poids est une force, donc il se mesure en newtons.",
+    "translation": "Dire « je pèse 70 kilos » est un abus de langage : 70 kg est une masse."
+   },
+   "errorPatterns": [
+    {
+     "equals": "joule",
+     "category": "word_confusion",
+     "feedback": "Le joule mesure l'énergie ; la force se mesure en newtons."
+    },
+    {
+     "equals": "le joule",
+     "category": "word_confusion",
+     "feedback": "Le joule mesure l'énergie ; la force se mesure en newtons."
+    },
+    {
+     "equals": "watt",
+     "category": "word_confusion",
+     "feedback": "Le watt mesure la puissance ; la force se mesure en newtons."
+    }
+   ]
+  }
+ ]
+}

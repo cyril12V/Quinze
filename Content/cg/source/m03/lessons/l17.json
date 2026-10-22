@@ -1,0 +1,806 @@
+{
+ "lessonId": "cg.l17",
+ "exercises": [
+  {
+   "id": "cg.l17.e01",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.squelette"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien d'os compte le squelette d'un adulte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "106",
+    "206",
+    "306",
+    "600"
+   ],
+   "answer": "206",
+   "acceptedAnswers": [
+    "206"
+   ],
+   "explanation": "Le squelette adulte compte 206 os. Un nouveau-né en a davantage, car plusieurs os (notamment ceux du crâne et du bassin) se soudent en grandissant.",
+   "tip": "Retiens « 2-0-6 » : deux cents os, et six de plus.",
+   "extraExample": {
+    "text": "Le fémur, l'os de la cuisse, est le plus long des 206 os.",
+    "translation": "Il supporte une grande partie du poids du corps."
+   },
+   "errorPatterns": [
+    {
+     "equals": "306",
+     "category": "word_confusion",
+     "feedback": "C'est trop : un nouveau-né a bien plus de 206 os, mais certains se soudent ; l'adulte en a 206."
+    },
+    {
+     "equals": "600",
+     "category": "word_confusion",
+     "feedback": "Tu confonds peut-être avec les muscles, qui sont plus de 600. Les os d'un adulte sont 206."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e02",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.peau"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus grand organe du corps humain ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la peau",
+    "le foie",
+    "le cerveau",
+    "les poumons"
+   ],
+   "answer": "la peau",
+   "acceptedAnswers": [
+    "la peau"
+   ],
+   "explanation": "La peau est un organe à part entière : elle protège, régule la température et perçoit le toucher. Chez un adulte, elle couvre environ 1,5 à 2 m².",
+   "tip": "Un organe n'est pas forcément à l'intérieur : la peau en est un, et c'est le plus grand.",
+   "extraExample": {
+    "text": "Le foie est le plus gros organe interne.",
+    "translation": "Il pèse environ 1,5 kg chez l'adulte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le foie",
+     "category": "word_confusion",
+     "feedback": "Le foie est le plus gros organe interne, mais la peau, qui enveloppe tout le corps, est le plus grand organe."
+    },
+    {
+     "equals": "le cerveau",
+     "category": "word_confusion",
+     "feedback": "Le cerveau pèse environ 1,3 à 1,4 kg : c'est bien moins que la peau."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e03",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.coeur",
+    "cg.v.neurone",
+    "cg.v.systeme_immunitaire",
+    "cg.v.alveole_pulmonaire"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les grands systèmes du corps et leurs organes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Appareil respiratoire",
+     "right": "les poumons"
+    },
+    {
+     "left": "Appareil circulatoire",
+     "right": "le cœur et les vaisseaux"
+    },
+    {
+     "left": "Système nerveux",
+     "right": "le cerveau et les nerfs"
+    },
+    {
+     "left": "Appareil digestif",
+     "right": "l'estomac et les intestins"
+    },
+    {
+     "left": "Système immunitaire",
+     "right": "les globules blancs et les anticorps"
+    }
+   ],
+   "answer": "Appareil respiratoire = les poumons ; Appareil circulatoire = le cœur et les vaisseaux ; Système nerveux = le cerveau et les nerfs ; Appareil digestif = l'estomac et les intestins ; Système immunitaire = les globules blancs et les anticorps",
+   "acceptedAnswers": [],
+   "explanation": "Chaque système a une mission : respirer (poumons), transporter (cœur et vaisseaux), commander (cerveau et nerfs), digérer (estomac et intestins), se défendre (globules blancs et anticorps). Ils travaillent ensemble : l'oxygène des poumons ne sert à rien sans le cœur pour le distribuer.",
+   "tip": "Associe chaque système à un verbe : respirer, transporter, commander, digérer, se défendre.",
+   "extraExample": {
+    "text": "Les reins font partie de l'appareil urinaire : ils filtrent le sang et produisent l'urine.",
+    "translation": "Ils éliminent les déchets du corps."
+   }
+  },
+  {
+   "id": "cg.l17.e04",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.globule_rouge"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le rôle principal des globules rouges ?",
+   "promptLanguage": "fr",
+   "options": [
+    "transporter l'oxygène",
+    "défendre le corps contre les microbes",
+    "faire coaguler le sang",
+    "transmettre les messages nerveux"
+   ],
+   "answer": "transporter l'oxygène",
+   "acceptedAnswers": [
+    "transporter l'oxygène"
+   ],
+   "explanation": "Les globules rouges contiennent l'hémoglobine, une protéine riche en fer qui capte l'oxygène dans les poumons et le libère dans les organes.",
+   "tip": "Rouge comme le fer de l'hémoglobine : rouge = oxygène.",
+   "extraExample": {
+    "text": "Les globules blancs, eux, défendent le corps contre les infections.",
+    "translation": "Leur nombre augmente souvent pendant une infection."
+   },
+   "errorPatterns": [
+    {
+     "equals": "défendre le corps contre les microbes",
+     "category": "word_confusion",
+     "feedback": "Ça, c'est le rôle des globules blancs. Les globules rouges transportent l'oxygène."
+    },
+    {
+     "equals": "faire coaguler le sang",
+     "category": "word_confusion",
+     "feedback": "Ce sont les plaquettes qui font coaguler le sang quand on se coupe."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e05",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.william_harvey",
+    "cg.v.circulation_sanguine"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui a démontré, en 1628, que le sang circule en boucle dans le corps, poussé par le cœur ?",
+   "promptLanguage": "fr",
+   "options": [
+    "William Harvey",
+    "Louis Pasteur",
+    "Hippocrate",
+    "Claude Bernard"
+   ],
+   "answer": "William Harvey",
+   "acceptedAnswers": [
+    "William Harvey"
+   ],
+   "explanation": "Le médecin anglais William Harvey publie en 1628 son traité sur le mouvement du cœur et du sang. Il calcule que le cœur pompe trop de sang pour qu'il soit sans cesse fabriqué : c'est donc le même sang qui tourne en boucle.",
+   "tip": "Harvey, 1628 : le cœur est une pompe et le sang fait une boucle.",
+   "extraExample": {
+    "text": "Avant Harvey, on suivait le médecin antique Galien, pour qui le sang était fabriqué par le foie et consommé par les organes.",
+    "translation": "Harvey renverse une idée vieille de quatorze siècles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Louis Pasteur",
+     "category": "word_confusion",
+     "feedback": "Pasteur (XIXe siècle) est célèbre pour les microbes et le vaccin contre la rage, pas pour la circulation sanguine."
+    },
+    {
+     "equals": "Hippocrate",
+     "category": "word_confusion",
+     "feedback": "Hippocrate est un médecin grec de l'Antiquité ; la circulation du sang n'est démontrée qu'en 1628, par Harvey."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e06",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.alveole_pulmonaire"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Où l'oxygène de l'air passe-t-il dans le sang ?",
+   "promptLanguage": "fr",
+   "options": [
+    "dans les alvéoles pulmonaires",
+    "dans la trachée",
+    "dans le cœur",
+    "dans le nez"
+   ],
+   "answer": "dans les alvéoles pulmonaires",
+   "acceptedAnswers": [
+    "dans les alvéoles pulmonaires"
+   ],
+   "explanation": "L'air descend par la trachée puis les bronches jusqu'aux alvéoles, de minuscules sacs à la paroi très fine. C'est là que l'oxygène passe dans le sang et que le dioxyde de carbone en sort.",
+   "tip": "Trachée et bronches = les tuyaux ; alvéoles = le lieu de l'échange.",
+   "extraExample": {
+    "text": "On inspire de l'air riche en oxygène et on expire de l'air plus riche en dioxyde de carbone.",
+    "translation": "C'est le résultat de l'échange dans les alvéoles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "dans la trachée",
+     "category": "word_confusion",
+     "feedback": "La trachée n'est qu'un tuyau qui conduit l'air ; l'échange se fait tout au bout, dans les alvéoles."
+    },
+    {
+     "equals": "dans le cœur",
+     "category": "word_confusion",
+     "feedback": "Le cœur pompe le sang, mais l'oxygène y entre avant, dans les alvéoles des poumons."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e07",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.squelette",
+    "cg.v.coeur",
+    "cg.v.neurone",
+    "cg.v.circulation_sanguine"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les chiffres clés du corps humain (adulte)",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Nombre d'os",
+     "right": "206"
+    },
+    {
+     "left": "Volume de sang",
+     "right": "environ 5 litres"
+    },
+    {
+     "left": "Battements du cœur par jour",
+     "right": "environ 100 000"
+    },
+    {
+     "left": "Neurones du cerveau",
+     "right": "environ 86 milliards"
+    },
+    {
+     "left": "Part d'eau dans le corps",
+     "right": "environ 60 %"
+    }
+   ],
+   "answer": "Nombre d'os = 206 ; Volume de sang = environ 5 litres ; Battements du cœur par jour = environ 100 000 ; Neurones du cerveau = environ 86 milliards ; Part d'eau dans le corps = environ 60 %",
+   "acceptedAnswers": [],
+   "explanation": "Ce sont les ordres de grandeur à connaître : 206 os, environ 5 litres de sang, environ 100 000 battements de cœur par jour (60 à 80 par minute au repos), environ 86 milliards de neurones et environ 60 % d'eau.",
+   "tip": "Du plus petit au plus grand nombre : 5 litres, 60 %, 206 os, 100 000 battements, 86 milliards de neurones.",
+   "extraExample": {
+    "text": "Au repos, les 5 litres de sang font le tour du corps environ une fois par minute.",
+    "translation": "Le cœur pompe donc environ 5 litres par minute."
+   }
+  },
+  {
+   "id": "cg.l17.e08",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.neurone"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "« On n'utilise que 10 % de son cerveau. » Qu'en penser ?",
+   "promptLanguage": "fr",
+   "options": [
+    "C'est faux : toutes les zones du cerveau servent.",
+    "C'est vrai : 90 % du cerveau est en réserve.",
+    "C'est vrai, sauf chez les génies."
+   ],
+   "answer": "C'est faux : toutes les zones du cerveau servent.",
+   "acceptedAnswers": [
+    "C'est faux : toutes les zones du cerveau servent."
+   ],
+   "explanation": "L'imagerie cérébrale montre que toutes les régions du cerveau sont actives à un moment ou à un autre, même pendant le sommeil. Une lésion de n'importe quelle zone a des conséquences.",
+   "tip": "Le mythe des 10 % est une idée reçue tenace, jamais démontrée.",
+   "extraExample": {
+    "text": "Le cerveau représente environ 2 % du poids du corps mais consomme environ 20 % de son énergie.",
+    "translation": "Un organe à 90 % inutile ne serait pas aussi gourmand."
+   },
+   "errorPatterns": [
+    {
+     "equals": "C'est vrai : 90 % du cerveau est en réserve.",
+     "category": "word_confusion",
+     "feedback": "C'est une idée reçue : aucune zone du cerveau n'est « en réserve », toutes ont un rôle."
+    },
+    {
+     "equals": "C'est vrai, sauf chez les génies.",
+     "category": "word_confusion",
+     "feedback": "Tout le monde utilise tout son cerveau ; le mythe des 10 % ne repose sur aucune mesure."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e09",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.coeur"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le cœur est un muscle à ___ cavités : deux oreillettes et deux ventricules.",
+   "promptLanguage": "fr",
+   "options": [
+    "deux",
+    "trois",
+    "quatre",
+    "six"
+   ],
+   "answer": "quatre",
+   "acceptedAnswers": [
+    "quatre",
+    "4"
+   ],
+   "explanation": "Le cœur a quatre cavités : deux oreillettes en haut, qui reçoivent le sang, et deux ventricules en bas, qui l'éjectent. La partie droite envoie le sang aux poumons, la partie gauche vers tout le corps.",
+   "tip": "Deux étages (oreillettes en haut, ventricules en bas) × deux côtés (droit, gauche) = 4.",
+   "extraExample": {
+    "text": "Le ventricule gauche est le plus musclé, car il envoie le sang dans tout le corps.",
+    "translation": "C'est lui qu'on sent battre à gauche de la poitrine."
+   },
+   "errorPatterns": [
+    {
+     "equals": "deux",
+     "category": "word_confusion",
+     "feedback": "Il y a deux oreillettes ET deux ventricules : quatre cavités en tout."
+    },
+    {
+     "equals": "trois",
+     "category": "word_confusion",
+     "feedback": "La plupart des reptiles ont un cœur à trois cavités ; celui des mammifères, dont l'humain, en a quatre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e10",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.circulation_sanguine"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les ___ transportent le sang du cœur vers les organes ; les veines le ramènent au cœur.",
+   "promptLanguage": "fr",
+   "options": [
+    "artères",
+    "veines",
+    "capillaires",
+    "bronches"
+   ],
+   "answer": "artères",
+   "acceptedAnswers": [
+    "artères",
+    "les artères"
+   ],
+   "explanation": "Les artères partent du cœur, les veines y reviennent. Entre les deux, de minuscules capillaires distribuent l'oxygène aux cellules.",
+   "tip": "Artère = « aller » (les deux commencent par A).",
+   "extraExample": {
+    "text": "L'aorte, qui sort du ventricule gauche, est la plus grosse artère du corps.",
+    "translation": "Elle distribue le sang riche en oxygène vers tout l'organisme."
+   },
+   "errorPatterns": [
+    {
+     "equals": "veines",
+     "category": "word_confusion",
+     "feedback": "Les veines font le trajet inverse : elles ramènent le sang vers le cœur."
+    },
+    {
+     "equals": "bronches",
+     "category": "word_confusion",
+     "feedback": "Les bronches transportent l'air dans les poumons, pas le sang."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e11",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.hormone"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel organe produit l'insuline, l'hormone qui fait baisser le taux de sucre dans le sang ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le pancréas",
+    "le foie",
+    "la thyroïde",
+    "les glandes surrénales"
+   ],
+   "answer": "le pancréas",
+   "acceptedAnswers": [
+    "le pancréas"
+   ],
+   "explanation": "L'insuline est fabriquée par le pancréas. Quand elle manque ou agit mal, le sucre s'accumule dans le sang : c'est le diabète.",
+   "tip": "Pancréas → insuline → sucre : les trois vont ensemble.",
+   "extraExample": {
+    "text": "Les glandes surrénales, au-dessus des reins, produisent l'adrénaline.",
+    "translation": "C'est l'hormone du stress, qui accélère le cœur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "les glandes surrénales",
+     "category": "word_confusion",
+     "feedback": "Les surrénales produisent l'adrénaline (hormone du stress), pas l'insuline."
+    },
+    {
+     "equals": "le foie",
+     "category": "word_confusion",
+     "feedback": "Le foie stocke et libère du sucre, mais l'insuline vient du pancréas."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e12",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.systeme_immunitaire"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui a réalisé la première vaccination, contre la variole, en 1796 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Edward Jenner",
+    "Louis Pasteur",
+    "Alexander Fleming",
+    "Marie Curie"
+   ],
+   "answer": "Edward Jenner",
+   "acceptedAnswers": [
+    "Edward Jenner"
+   ],
+   "explanation": "Le médecin anglais Edward Jenner inocule en 1796 la vaccine, une maladie bénigne de la vache, pour protéger contre la variole. Le mot « vaccin » vient d'ailleurs du latin vacca, la vache.",
+   "tip": "Jenner 1796 (variole) avant Pasteur 1885 (rage).",
+   "extraExample": {
+    "text": "En 1885, Louis Pasteur vaccine le jeune Joseph Meister contre la rage.",
+    "translation": "C'est le premier vaccin contre la rage administré à un humain."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Louis Pasteur",
+     "category": "word_confusion",
+     "feedback": "Pasteur a inventé le vaccin contre la rage, en 1885 ; la toute première vaccination, contre la variole, est celle de Jenner en 1796."
+    },
+    {
+     "equals": "Alexander Fleming",
+     "category": "word_confusion",
+     "feedback": "Fleming a découvert la pénicilline, le premier antibiotique, en 1928 : ce n'est pas un vaccin."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e13",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.william_harvey",
+    "cg.v.circulation_sanguine"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la circulation sanguine.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "la",
+    "Harvey",
+    "William",
+    "circulation",
+    "du",
+    "décrit",
+    "en",
+    "sang",
+    "1628"
+   ],
+   "answer": "William Harvey décrit la circulation du sang en 1628",
+   "acceptedAnswers": [
+    "William Harvey décrit la circulation du sang en 1628",
+    "En 1628 William Harvey décrit la circulation du sang"
+   ],
+   "hint": "Commence par le nom du médecin.",
+   "explanation": "Le repère à retenir associe un nom, une découverte et une date : Harvey, la circulation sanguine, 1628.",
+   "tip": "Pour retenir une découverte : qui, quoi, quand.",
+   "extraExample": {
+    "text": "Karl Landsteiner découvre les groupes sanguins en 1901.",
+    "translation": "C'est ce qui rend possibles les transfusions sans danger."
+   }
+  },
+  {
+   "id": "cg.l17.e14",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.squelette"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le plus petit os du corps humain se trouve dans l'oreille : c'est ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "l'étrier",
+    "le fémur",
+    "la rotule",
+    "le coccyx"
+   ],
+   "answer": "l'étrier",
+   "acceptedAnswers": [
+    "l'étrier",
+    "étrier",
+    "un étrier"
+   ],
+   "explanation": "L'étrier mesure quelques millimètres. Avec le marteau et l'enclume, il transmet les vibrations du tympan à l'oreille interne.",
+   "tip": "Les trois osselets de l'oreille : marteau, enclume, étrier ; l'étrier est le plus petit.",
+   "extraExample": {
+    "text": "Le fémur, l'os de la cuisse, est au contraire le plus long os du corps.",
+    "translation": "Il peut mesurer près de 50 cm chez un adulte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le fémur",
+     "category": "word_confusion",
+     "feedback": "Le fémur est l'inverse : c'est le plus long os, dans la cuisse."
+    },
+    {
+     "equals": "la rotule",
+     "category": "word_confusion",
+     "feedback": "La rotule est dans le genou, pas dans l'oreille."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e15",
+   "unitIds": [
+    "cg.g17.corps_humain"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le corps d'un adulte est composé d'environ ___ % d'eau.",
+   "promptLanguage": "fr",
+   "options": [
+    "20",
+    "40",
+    "60",
+    "90"
+   ],
+   "answer": "60",
+   "acceptedAnswers": [
+    "60",
+    "soixante"
+   ],
+   "explanation": "L'eau représente environ 60 % du poids d'un adulte : dans le sang, dans les cellules et entre les cellules. C'est pourquoi on ne survit que quelques jours sans boire.",
+   "tip": "Retiens « 6 sur 10 » : six dixièmes du corps sont de l'eau.",
+   "extraExample": {
+    "text": "La température normale du corps est d'environ 37 °C.",
+    "translation": "Au-delà de 38 °C, on parle de fièvre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "90",
+     "category": "word_confusion",
+     "feedback": "C'est trop : environ 60 % pour un adulte. Certains fruits, comme la pastèque, dépassent 90 %."
+    },
+    {
+     "equals": "20",
+     "category": "word_confusion",
+     "feedback": "C'est bien trop peu : l'eau est le principal constituant du corps, environ 60 %."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e16",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.globule_rouge",
+    "cg.v.systeme_immunitaire"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les composants du sang et leur rôle",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Globules rouges",
+     "right": "transportent l'oxygène"
+    },
+    {
+     "left": "Globules blancs",
+     "right": "défendent contre les microbes"
+    },
+    {
+     "left": "Plaquettes",
+     "right": "font coaguler le sang"
+    },
+    {
+     "left": "Plasma",
+     "right": "partie liquide qui transporte le tout"
+    }
+   ],
+   "answer": "Globules rouges = transportent l'oxygène ; Globules blancs = défendent contre les microbes ; Plaquettes = font coaguler le sang ; Plasma = partie liquide qui transporte le tout",
+   "acceptedAnswers": [],
+   "explanation": "Le sang est un mélange : le plasma, liquide jaunâtre, transporte les globules rouges (oxygène), les globules blancs (défense) et les plaquettes (coagulation).",
+   "tip": "Rouge = oxygène, blanc = défense, plaquettes = pansement naturel.",
+   "extraExample": {
+    "text": "Quand on se coupe, les plaquettes s'agglutinent pour former un caillot.",
+    "translation": "Elles arrêtent ainsi le saignement."
+   }
+  },
+  {
+   "id": "cg.l17.e17",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.neurone"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le nom de la cellule qui transmet l'information dans le système nerveux ?",
+   "promptLanguage": "fr",
+   "answer": "le neurone",
+   "acceptedAnswers": [
+    "le neurone",
+    "neurone",
+    "un neurone",
+    "les neurones",
+    "neurones",
+    "la cellule nerveuse",
+    "cellule nerveuse"
+   ],
+   "hint": "Le même mot sert aussi en intelligence artificielle.",
+   "explanation": "Le neurone transmet des signaux électriques et chimiques. Il communique avec d'autres neurones par des zones de contact, les synapses.",
+   "tip": "Neurone : le mot vient du grec neuron, « nerf ».",
+   "extraExample": {
+    "text": "Le cerveau contient environ 86 milliards de neurones.",
+    "translation": "Chacun peut être relié à des milliers d'autres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "synapse",
+     "category": "word_confusion",
+     "feedback": "La synapse est la zone de contact entre deux neurones ; la cellule elle-même s'appelle le neurone."
+    },
+    {
+     "equals": "la synapse",
+     "category": "word_confusion",
+     "feedback": "La synapse est la zone de contact entre deux neurones ; la cellule elle-même s'appelle le neurone."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e18",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.squelette"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le plus long os du corps humain ?",
+   "promptLanguage": "fr",
+   "answer": "le fémur",
+   "acceptedAnswers": [
+    "le fémur",
+    "fémur",
+    "un fémur",
+    "l'os de la cuisse"
+   ],
+   "explanation": "Le fémur, l'os de la cuisse, est le plus long et l'un des plus solides du corps. Il relie la hanche au genou.",
+   "tip": "Fémur = cuisse = le plus long.",
+   "extraExample": {
+    "text": "Le tibia, dans la jambe, est le deuxième os le plus long.",
+    "translation": "On le sent juste sous la peau, à l'avant de la jambe."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le tibia",
+     "category": "word_confusion",
+     "feedback": "Le tibia est le deuxième plus long ; le plus long est le fémur, l'os de la cuisse."
+    },
+    {
+     "equals": "tibia",
+     "category": "word_confusion",
+     "feedback": "Le tibia est le deuxième plus long ; le plus long est le fémur, l'os de la cuisse."
+    },
+    {
+     "equals": "l'humérus",
+     "category": "word_confusion",
+     "feedback": "L'humérus est le plus long os du bras, mais le fémur, dans la cuisse, est plus long."
+    }
+   ]
+  },
+  {
+   "id": "cg.l17.e19",
+   "unitIds": [
+    "cg.g17.corps_humain",
+    "cg.v.globule_rouge"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le rôle du sang.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "transportent",
+    "le",
+    "l'oxygène",
+    "tout",
+    "globules",
+    "Les",
+    "rouges",
+    "corps",
+    "dans"
+   ],
+   "answer": "Les globules rouges transportent l'oxygène dans tout le corps",
+   "acceptedAnswers": [
+    "Les globules rouges transportent l'oxygène dans tout le corps",
+    "Dans tout le corps les globules rouges transportent l'oxygène"
+   ],
+   "explanation": "Les globules rouges captent l'oxygène dans les poumons et le distribuent à toutes les cellules, qui en ont besoin pour produire leur énergie.",
+   "tip": "Sujet (les globules rouges) + action (transportent) + quoi (l'oxygène) + où (dans tout le corps).",
+   "extraExample": {
+    "text": "Les globules blancs défendent le corps contre les microbes.",
+    "translation": "Ce sont les soldats du système immunitaire."
+   }
+  },
+  {
+   "id": "cg.l17.e20",
+   "unitIds": [
+    "cg.g17.corps_humain"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel médecin autrichien a découvert les groupes sanguins A, B et O en 1901 ?",
+   "promptLanguage": "fr",
+   "answer": "Karl Landsteiner",
+   "acceptedAnswers": [
+    "Karl Landsteiner",
+    "Landsteiner"
+   ],
+   "hint": "Son nom commence par « Land… ».",
+   "explanation": "En 1901, Karl Landsteiner montre que le sang des humains n'est pas tous compatible et identifie les groupes A, B et O (le groupe AB est décrit peu après). Il reçoit le prix Nobel en 1930.",
+   "tip": "Landsteiner, 1901 : les groupes sanguins rendent les transfusions sûres.",
+   "extraExample": {
+    "text": "Le facteur rhésus (positif ou négatif) est découvert en 1940, notamment par Landsteiner.",
+    "translation": "Il complète le groupe : on est par exemple A positif ou O négatif."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Pasteur",
+     "category": "word_confusion",
+     "feedback": "Pasteur a travaillé sur les microbes et les vaccins ; les groupes sanguins ont été découverts par Karl Landsteiner."
+    },
+    {
+     "equals": "Louis Pasteur",
+     "category": "word_confusion",
+     "feedback": "Pasteur a travaillé sur les microbes et les vaccins ; les groupes sanguins ont été découverts par Karl Landsteiner."
+    }
+   ]
+  }
+ ]
+}

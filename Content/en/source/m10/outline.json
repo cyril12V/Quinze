@@ -1,0 +1,650 @@
+{
+ "module": {
+  "id": 10,
+  "title": "Hypothèses et conditions",
+  "description": "Les quatre conditionnels, wish / if only, would rather, had better, it's time et les modaux de déduction (must, might, can't)."
+ },
+ "grammarUnits": [
+  {
+   "id": "en.g50.zero_conditional",
+   "category": "verbs",
+   "title": "Le conditionnel zéro : les vérités générales",
+   "difficulty": 3,
+   "prerequisites": [
+    "en.g14.present_simple_third_person",
+    "en.g15.present_simple_negative"
+   ],
+   "functionWords": [
+    "if"
+   ]
+  },
+  {
+   "id": "en.g51.first_conditional",
+   "category": "verbs",
+   "title": "Le premier conditionnel, unless et as soon as",
+   "difficulty": 3,
+   "prerequisites": [
+    "en.g50.zero_conditional",
+    "en.g24.will_future"
+   ],
+   "functionWords": [
+    "unless",
+    "as soon as"
+   ]
+  },
+  {
+   "id": "en.g52.second_conditional",
+   "category": "verbs",
+   "title": "Le deuxième conditionnel : If I had…, I would… / If I were you",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g51.first_conditional",
+    "en.g22.irregular_verbs"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g53.third_conditional",
+   "category": "verbs",
+   "title": "Le troisième conditionnel : If I had known…",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g52.second_conditional",
+    "en.g39.present_perfect_intro"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g54.mixed_conditionals",
+   "category": "verbs",
+   "title": "Les conditionnels mixtes",
+   "difficulty": 5,
+   "prerequisites": [
+    "en.g52.second_conditional",
+    "en.g53.third_conditional"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "en.g55.wish_if_only",
+   "category": "verbs",
+   "title": "Wish et if only : regrets présents et passés",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g52.second_conditional",
+    "en.g53.third_conditional"
+   ],
+   "functionWords": [
+    "if only"
+   ]
+  },
+  {
+   "id": "en.g56.would_rather_had_better",
+   "category": "verbs",
+   "title": "Would rather, had better, it's time",
+   "difficulty": 4,
+   "prerequisites": [
+    "en.g38.should_could"
+   ],
+   "functionWords": [
+    "would rather",
+    "had better",
+    "it's time"
+   ]
+  },
+  {
+   "id": "en.g57.modals_of_deduction",
+   "category": "verbs",
+   "title": "Les modaux de déduction : must, might, can't (+ have done)",
+   "difficulty": 5,
+   "prerequisites": [
+    "en.g12.must",
+    "en.g39.present_perfect_intro"
+   ],
+   "functionWords": [
+    "might",
+    "may"
+   ]
+  }
+ ],
+ "lessons": [
+  {
+   "id": "en.l69",
+   "sequence": 69,
+   "title": "Si on chauffe la glace, elle fond",
+   "description": "Le conditionnel zéro (if / when + présent, présent) pour les vérités générales, la science et les habitudes.",
+   "difficulty": 3,
+   "grammarUnitId": "en.g50.zero_conditional",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g14.present_simple_third_person",
+    "en.g15.present_simple_negative",
+    "en.g37.comparatives_superlatives",
+    "en.g41.tense_contrast",
+    "en.v.mistake"
+   ],
+   "vocabulary": [
+    {
+     "word": "heat",
+     "slug": "heat",
+     "translation": "chauffer ; chaleur",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "boil",
+     "slug": "boil",
+     "translation": "bouillir, faire bouillir",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "melt",
+     "slug": "melt",
+     "translation": "fondre",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "temperature",
+     "slug": "temperature",
+     "translation": "température",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "plant",
+     "slug": "plant",
+     "translation": "plante ; planter",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "pollution",
+     "slug": "pollution",
+     "translation": "pollution",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "recycle",
+     "slug": "recycle",
+     "translation": "recycler",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "environment",
+     "slug": "environment",
+     "translation": "environnement",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l70",
+   "sequence": 70,
+   "title": "Si j'économise, je partirai",
+   "description": "Le premier conditionnel (if + présent, will + verbe) avec unless, as soon as et when, pour parler d'argent et de projets.",
+   "difficulty": 3,
+   "grammarUnitId": "en.g51.first_conditional",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g50.zero_conditional",
+    "en.g24.will_future",
+    "en.g30.how_much_many",
+    "en.g25.going_to",
+    "en.v.save",
+    "en.v.lend"
+   ],
+   "vocabulary": [
+    {
+     "word": "afford",
+     "slug": "afford",
+     "translation": "avoir les moyens (de), se permettre",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "loan",
+     "slug": "loan",
+     "translation": "prêt (d'argent)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "bank",
+     "slug": "bank",
+     "translation": "banque",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "salary",
+     "slug": "salary",
+     "translation": "salaire",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "budget",
+     "slug": "budget",
+     "translation": "budget",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "spend",
+     "slug": "spend",
+     "translation": "dépenser ; passer (du temps)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "earn",
+     "slug": "earn",
+     "translation": "gagner (de l'argent)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "debt",
+     "slug": "debt",
+     "translation": "dette",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "pay back",
+     "slug": "pay_back",
+     "translation": "rembourser",
+     "partOfSpeech": "phrasal_verb"
+    }
+   ]
+  },
+  {
+   "id": "en.l71",
+   "sequence": 71,
+   "title": "Si j'étais riche…",
+   "description": "Le deuxième conditionnel (if + prétérit, would + verbe) pour imaginer, et If I were you pour conseiller.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g52.second_conditional",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g51.first_conditional",
+    "en.g20.was_were",
+    "en.g38.should_could",
+    "en.g37.comparatives_superlatives",
+    "en.v.advice"
+   ],
+   "vocabulary": [
+    {
+     "word": "rich",
+     "slug": "rich",
+     "translation": "riche",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "lottery",
+     "slug": "lottery",
+     "translation": "loterie, loto",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "quit",
+     "slug": "quit",
+     "translation": "quitter (un emploi), arrêter",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "career",
+     "slug": "career",
+     "translation": "carrière",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "choose",
+     "slug": "choose",
+     "translation": "choisir",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "choice",
+     "slug": "choice",
+     "translation": "choix",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "retire",
+     "slug": "retire",
+     "translation": "prendre sa retraite",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "advise",
+     "slug": "advise",
+     "translation": "conseiller",
+     "partOfSpeech": "verb"
+    }
+   ]
+  },
+  {
+   "id": "en.l72",
+   "sequence": 72,
+   "title": "Si j'avais su…",
+   "description": "Le troisième conditionnel (if + had + participe passé, would have + participe passé) pour refaire le passé.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g53.third_conditional",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g52.second_conditional",
+    "en.g39.present_perfect_intro",
+    "en.g23.past_simple_negative_questions",
+    "en.g22.irregular_verbs",
+    "en.v.advice"
+   ],
+   "vocabulary": [
+    {
+     "word": "risk",
+     "slug": "risk",
+     "translation": "risque ; risquer",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "miss",
+     "slug": "miss",
+     "translation": "rater, manquer",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "accident",
+     "slug": "accident",
+     "translation": "accident",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "warn",
+     "slug": "warn",
+     "translation": "prévenir, avertir",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "avoid",
+     "slug": "avoid",
+     "translation": "éviter",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "succeed",
+     "slug": "succeed",
+     "translation": "réussir",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "fail",
+     "slug": "fail",
+     "translation": "échouer, rater",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "consequence",
+     "slug": "consequence",
+     "translation": "conséquence",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l73",
+   "sequence": 73,
+   "title": "Si j'avais accepté ce poste…",
+   "description": "Les conditionnels mixtes : un passé différent qui change le présent, ou un présent différent qui aurait changé le passé.",
+   "difficulty": 5,
+   "grammarUnitId": "en.g54.mixed_conditionals",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g53.third_conditional",
+    "en.g52.second_conditional",
+    "en.g41.tense_contrast",
+    "en.v.save",
+    "en.v.debt"
+   ],
+   "vocabulary": [
+    {
+     "word": "degree",
+     "slug": "degree",
+     "translation": "diplôme (universitaire) ; degré",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "invest",
+     "slug": "invest",
+     "translation": "investir",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "successful",
+     "slug": "successful",
+     "translation": "qui réussit, qui a du succès",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "opportunity",
+     "slug": "opportunity",
+     "translation": "occasion, opportunité",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "interview",
+     "slug": "interview",
+     "translation": "entretien",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "offer",
+     "slug": "offer",
+     "translation": "offre ; proposer",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "accept",
+     "slug": "accept",
+     "translation": "accepter",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "savings",
+     "slug": "savings",
+     "translation": "économies (argent mis de côté)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l74",
+   "sequence": 74,
+   "title": "Si seulement…",
+   "description": "I wish et If only pour exprimer un regret sur le présent (prétérit) et sur le passé (had + participe passé).",
+   "difficulty": 4,
+   "grammarUnitId": "en.g55.wish_if_only",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g20.was_were",
+    "en.g17.frequency_adverbs",
+    "en.g53.third_conditional",
+    "en.g52.second_conditional"
+   ],
+   "vocabulary": [
+    {
+     "word": "wish",
+     "slug": "wish",
+     "translation": "souhaiter, regretter que",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "regret",
+     "slug": "regret",
+     "translation": "regretter",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "smoke",
+     "slug": "smoke",
+     "translation": "fumer ; fumée",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "weight",
+     "slug": "weight",
+     "translation": "poids",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "diet",
+     "slug": "diet",
+     "translation": "alimentation ; régime",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "fit",
+     "slug": "fit",
+     "translation": "en forme",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "habit",
+     "slug": "habit",
+     "translation": "habitude",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "stress",
+     "slug": "stress",
+     "translation": "stress",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "healthy",
+     "slug": "healthy",
+     "translation": "en bonne santé, sain",
+     "partOfSpeech": "adjective"
+    }
+   ]
+  },
+  {
+   "id": "en.l75",
+   "sequence": 75,
+   "title": "Tu ferais mieux de…",
+   "description": "Would rather (préférence), had better (conseil ferme) et it's time (il est temps) pour décider au quotidien.",
+   "difficulty": 4,
+   "grammarUnitId": "en.g56.would_rather_had_better",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g38.should_could",
+    "en.g55.wish_if_only",
+    "en.g12.must",
+    "en.v.spend"
+   ],
+   "vocabulary": [
+    {
+     "word": "reduce",
+     "slug": "reduce",
+     "translation": "réduire",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "energy",
+     "slug": "energy",
+     "translation": "énergie",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "waste",
+     "slug": "waste",
+     "translation": "gaspiller ; déchets",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "public transport",
+     "slug": "public_transport",
+     "translation": "transports en commun",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "cancel",
+     "slug": "cancel",
+     "translation": "annuler",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "insurance",
+     "slug": "insurance",
+     "translation": "assurance",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "rent",
+     "slug": "rent",
+     "translation": "loyer ; louer",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "prescription",
+     "slug": "prescription",
+     "translation": "ordonnance",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "en.l76",
+   "sequence": 76,
+   "title": "Il doit être malade",
+   "description": "Must, might / may / could et can't pour faire des déductions sur le présent, et + have + participe passé pour le passé.",
+   "difficulty": 5,
+   "grammarUnitId": "en.g57.modals_of_deduction",
+   "introducesGrammar": true,
+   "reviews": [
+    "en.g12.must",
+    "en.g11.can",
+    "en.g54.mixed_conditionals",
+    "en.g39.present_perfect_intro"
+   ],
+   "vocabulary": [
+    {
+     "word": "likely",
+     "slug": "likely",
+     "translation": "probable",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "evidence",
+     "slug": "evidence",
+     "translation": "preuve(s)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "cause",
+     "slug": "cause",
+     "translation": "causer, provoquer ; cause",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "symptom",
+     "slug": "symptom",
+     "translation": "symptôme",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "fever",
+     "slug": "fever",
+     "translation": "fièvre",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "flood",
+     "slug": "flood",
+     "translation": "inondation ; inonder",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "climate",
+     "slug": "climate",
+     "translation": "climat",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "storm",
+     "slug": "storm",
+     "translation": "tempête, orage",
+     "partOfSpeech": "noun"
+    }
+   ]
+  }
+ ]
+}

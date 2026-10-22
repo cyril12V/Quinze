@@ -1,0 +1,1000 @@
+{
+ "lessonId": "en.l69",
+ "exercises": [
+  {
+   "id": "en.l69.e01",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.melt"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "If you heat ice, it ___.",
+   "promptLanguage": "en",
+   "options": [
+    "melts",
+    "melted",
+    "would melt",
+    "melting"
+   ],
+   "answer": "melts",
+   "acceptedAnswers": [
+    "melts"
+   ],
+   "hint": "C'est un fait qui se vérifie à chaque fois.",
+   "explanation": "C'est une vérité scientifique, toujours vraie : if + présent, présent. Avec it, le présent simple prend un -s : it melts.",
+   "tip": "Fait toujours vrai = présent simple dans les deux parties de la phrase.",
+   "extraExample": {
+    "text": "If you put butter in the sun, it melts.",
+    "translation": "Si on met du beurre au soleil, il fond."
+   },
+   "errorPatterns": [
+    {
+     "equals": "melted",
+     "category": "verb_tense",
+     "feedback": "Melted est un passé. Pour un fait toujours vrai, les deux verbes sont au présent : it melts."
+    },
+    {
+     "equals": "would melt",
+     "category": "verb_tense",
+     "feedback": "Would sert à imaginer une situation irréelle. Ici, c'est un fait scientifique : présent simple, it melts."
+    },
+    {
+     "equals": "melting",
+     "category": "grammar",
+     "feedback": "Un verbe en -ing ne s'emploie pas seul. Il faut le présent simple : it melts."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e02",
+   "unitIds": [
+    "en.v.heat",
+    "en.v.boil",
+    "en.v.melt",
+    "en.v.plant",
+    "en.v.recycle"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "La nature et la science",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "heat",
+     "right": "chauffer"
+    },
+    {
+     "left": "boil",
+     "right": "bouillir"
+    },
+    {
+     "left": "melt",
+     "right": "fondre"
+    },
+    {
+     "left": "plant",
+     "right": "plante"
+    },
+    {
+     "left": "recycle",
+     "right": "recycler"
+    }
+   ],
+   "answer": "heat = chauffer ; boil = bouillir ; melt = fondre ; plant = plante ; recycle = recycler",
+   "acceptedAnswers": [],
+   "explanation": "Heat, boil, melt et recycle sont des verbes réguliers (heated, boiled, melted, recycled). Plant est surtout un nom (une plante), mais aussi un verbe (planter).",
+   "tip": "Boil pour les liquides (l'eau bout), melt pour les solides qui deviennent liquides (la glace fond).",
+   "extraExample": {
+    "text": "Water boils at 100 degrees.",
+    "translation": "L'eau bout à 100 degrés."
+   }
+  },
+  {
+   "id": "en.l69.e03",
+   "unitIds": [
+    "en.g50.zero_conditional"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle phrase exprime une vérité générale (conditionnel zéro) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "If you mix blue and yellow, you get green.",
+    "If it rains tomorrow, we'll stay at home.",
+    "If I won the lottery, I would buy a boat."
+   ],
+   "answer": "If you mix blue and yellow, you get green.",
+   "acceptedAnswers": [
+    "If you mix blue and yellow, you get green."
+   ],
+   "hint": "Cherche la phrase qui est vraie à chaque fois, sans moment précis.",
+   "explanation": "Mélanger du bleu et du jaune donne toujours du vert : c'est une vérité générale, avec deux présents simples (mix… get).",
+   "tip": "Conditionnel zéro = « chaque fois que… » : présent + présent.",
+   "extraExample": {
+    "text": "If you press this button, the machine stops.",
+    "translation": "Si on appuie sur ce bouton, la machine s'arrête."
+   },
+   "errorPatterns": [
+    {
+     "equals": "If it rains tomorrow, we'll stay at home.",
+     "category": "verb_tense",
+     "feedback": "Tomorrow parle d'une situation future précise, avec will : ce n'est pas une vérité générale (c'est le premier conditionnel)."
+    },
+    {
+     "equals": "If I won the lottery, I would buy a boat.",
+     "category": "verb_tense",
+     "feedback": "Won… would buy imagine une situation irréelle : ce n'est pas une vérité générale."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e04",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.plant",
+    "en.g15.present_simple_negative"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "If plants ___ enough light, they die.",
+   "promptLanguage": "en",
+   "options": [
+    "don't get",
+    "doesn't get",
+    "won't get",
+    "didn't get"
+   ],
+   "answer": "don't get",
+   "acceptedAnswers": [
+    "don't get"
+   ],
+   "explanation": "Vérité générale : présent simple. Plants est pluriel (= they), donc la négation est don't + verbe de base.",
+   "tip": "Pluriel (they) → don't ; singulier (he, she, it) → doesn't.",
+   "extraExample": {
+    "text": "If babies don't sleep enough, they cry a lot.",
+    "translation": "Si les bébés ne dorment pas assez, ils pleurent beaucoup."
+   },
+   "errorPatterns": [
+    {
+     "equals": "doesn't get",
+     "category": "conjugation",
+     "feedback": "Plants est au pluriel (they) : on dit don't, pas doesn't."
+    },
+    {
+     "equals": "won't get",
+     "category": "verb_tense",
+     "feedback": "Pas de will après if : la condition reste au présent simple, don't get."
+    },
+    {
+     "equals": "didn't get",
+     "category": "verb_tense",
+     "feedback": "Didn't est un passé ; une vérité générale se dit au présent : don't get."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e05",
+   "unitIds": [
+    "en.g37.comparatives_superlatives",
+    "en.v.pollution"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Air pollution is ___ in big cities than in small towns.",
+   "promptLanguage": "en",
+   "options": [
+    "worse",
+    "more bad",
+    "badder",
+    "worst"
+   ],
+   "answer": "worse",
+   "acceptedAnswers": [
+    "worse"
+   ],
+   "explanation": "Bad a un comparatif irrégulier : bad → worse → the worst. Avec than, on utilise le comparatif : worse than.",
+   "tip": "Bad → worse (than) → the worst ; good → better → the best.",
+   "extraExample": {
+    "text": "The traffic is worse on Fridays.",
+    "translation": "La circulation est pire le vendredi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "more bad",
+     "category": "grammar",
+     "feedback": "Bad a un comparatif irrégulier : worse, pas more bad."
+    },
+    {
+     "equals": "badder",
+     "category": "grammar",
+     "feedback": "Badder n'existe pas : le comparatif de bad est worse."
+    },
+    {
+     "equals": "worst",
+     "category": "grammar",
+     "feedback": "Worst est le superlatif (the worst = le pire). Avec than, il faut le comparatif : worse."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e06",
+   "unitIds": [
+    "en.v.environment",
+    "en.v.pollution",
+    "en.v.temperature",
+    "en.v.boil",
+    "en.v.melt"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque expression anglaise à sa traduction.",
+   "prompt": "L'environnement en expressions",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "protect the environment",
+     "right": "protéger l'environnement"
+    },
+    {
+     "left": "air pollution",
+     "right": "la pollution de l'air"
+    },
+    {
+     "left": "a high temperature",
+     "right": "une température élevée"
+    },
+    {
+     "left": "boiling water",
+     "right": "de l'eau bouillante"
+    },
+    {
+     "left": "melting ice",
+     "right": "la glace qui fond"
+    }
+   ],
+   "answer": "protect the environment = protéger l'environnement ; air pollution = la pollution de l'air ; a high temperature = une température élevée ; boiling water = de l'eau bouillante ; melting ice = la glace qui fond",
+   "acceptedAnswers": [],
+   "explanation": "Pollution est indénombrable (pas de -s, pas de a). Environment s'écrit avec un seul n au milieu. Boiling et melting sont des formes en -ing utilisées comme adjectifs.",
+   "tip": "Environment : un seul n avant le m (pas environnement).",
+   "extraExample": {
+    "text": "Recycling is good for the environment.",
+    "translation": "Le recyclage est bon pour l'environnement."
+   }
+  },
+  {
+   "id": "en.l69.e07",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.heat"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "If you ___ chocolate, it melts.",
+   "promptLanguage": "en",
+   "options": [
+    "heat",
+    "heats",
+    "will heat",
+    "heated"
+   ],
+   "answer": "heat",
+   "acceptedAnswers": [
+    "heat"
+   ],
+   "explanation": "Vérité générale : if + présent simple. Le sujet est you, donc pas de -s : you heat.",
+   "tip": "Après if, le verbe de la condition reste au présent, sans will.",
+   "extraExample": {
+    "text": "If you heat milk too long, it boils over.",
+    "translation": "Si on chauffe le lait trop longtemps, il déborde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "heats",
+     "category": "conjugation",
+     "feedback": "Le sujet est you : pas de -s. On dit if you heat."
+    },
+    {
+     "equals": "will heat",
+     "category": "verb_tense",
+     "feedback": "Pas de will après if : le verbe reste au présent, if you heat."
+    },
+    {
+     "equals": "heated",
+     "category": "verb_tense",
+     "feedback": "Heated est un passé. Pour une vérité générale, on utilise le présent : heat."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e08",
+   "unitIds": [
+    "en.g50.zero_conditional"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "When I ___ coffee after 6 pm, I can't sleep.",
+   "promptLanguage": "en",
+   "options": [
+    "drink",
+    "will drink",
+    "drank",
+    "drinks"
+   ],
+   "answer": "drink",
+   "acceptedAnswers": [
+    "drink"
+   ],
+   "hint": "When a ici le sens de « chaque fois que ».",
+   "explanation": "C'est une habitude qui se vérifie à chaque fois : when + présent simple. Avec I, pas de -s : I drink.",
+   "tip": "Habitude ou vérité générale : if / when + présent simple, jamais will.",
+   "extraExample": {
+    "text": "When I go to bed late, I feel tired the next day.",
+    "translation": "Quand je me couche tard, je suis fatigué le lendemain."
+   },
+   "errorPatterns": [
+    {
+     "equals": "drinks",
+     "category": "conjugation",
+     "feedback": "Avec I, le présent simple ne prend pas de -s : I drink."
+    },
+    {
+     "equals": "will drink",
+     "category": "verb_tense",
+     "feedback": "Après when, pas de will : on parle d'une habitude, au présent simple."
+    },
+    {
+     "equals": "drank",
+     "category": "verb_tense",
+     "feedback": "Drank est un passé. Une habitude se dit au présent simple : drink."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e09",
+   "unitIds": [
+    "en.g15.present_simple_negative",
+    "en.v.recycle"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "My neighbour ___ recycle his bottles: he puts everything in the same bin.",
+   "promptLanguage": "en",
+   "options": [
+    "doesn't",
+    "don't",
+    "isn't",
+    "not"
+   ],
+   "answer": "doesn't",
+   "acceptedAnswers": [
+    "doesn't"
+   ],
+   "explanation": "My neighbour = he : la négation du présent simple est doesn't + verbe de base (recycle, sans -s).",
+   "tip": "He / she / it → doesn't + verbe de base.",
+   "extraExample": {
+    "text": "Anna doesn't eat meat.",
+    "translation": "Anna ne mange pas de viande."
+   },
+   "errorPatterns": [
+    {
+     "equals": "don't",
+     "category": "conjugation",
+     "feedback": "My neighbour = he : on dit doesn't, pas don't."
+    },
+    {
+     "equals": "isn't",
+     "category": "grammar",
+     "feedback": "Isn't s'utilise avec un adjectif ou un -ing. Avec un verbe au présent simple : doesn't recycle."
+    },
+    {
+     "equals": "not",
+     "category": "grammar",
+     "feedback": "En anglais, on ne met pas not directement devant le verbe : il faut doesn't."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e10",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.temperature"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "If the temperature ___ below zero, water turns into ice.",
+   "promptLanguage": "en",
+   "options": [
+    "falls",
+    "fall",
+    "will fall",
+    "is falling"
+   ],
+   "answer": "falls",
+   "acceptedAnswers": [
+    "falls",
+    "drops",
+    "goes"
+   ],
+   "explanation": "Fait scientifique : if + présent simple. The temperature = it, donc on ajoute -s : falls.",
+   "tip": "Sujet singulier (it) au présent simple : n'oublie pas le -s.",
+   "extraExample": {
+    "text": "If the sun shines, the snow melts.",
+    "translation": "Si le soleil brille, la neige fond."
+   },
+   "errorPatterns": [
+    {
+     "equals": "fall",
+     "category": "conjugation",
+     "feedback": "The temperature = it : il faut un -s, falls."
+    },
+    {
+     "equals": "will fall",
+     "category": "verb_tense",
+     "feedback": "Pas de will après if : falls."
+    },
+    {
+     "equals": "is falling",
+     "category": "verb_tense",
+     "feedback": "Is falling décrit ce qui se passe maintenant. Pour un fait toujours vrai : falls."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e11",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.boil"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "L'eau bout si on la chauffe à 100 degrés.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "boils",
+    "100",
+    "degrees",
+    "Water",
+    "you",
+    "to",
+    "heat",
+    "if",
+    "it"
+   ],
+   "answer": "Water boils if you heat it to 100 degrees",
+   "acceptedAnswers": [
+    "Water boils if you heat it to 100 degrees"
+   ],
+   "hint": "Commence par Water.",
+   "explanation": "Vérité générale : deux présents simples. Quand la partie avec if vient en second, il n'y a pas de virgule. Water = it, donc boils prend un -s.",
+   "tip": "Résultat + if + condition : pas de virgule entre les deux.",
+   "extraExample": {
+    "text": "Ice melts if you leave it in the sun.",
+    "translation": "La glace fond si on la laisse au soleil."
+   }
+  },
+  {
+   "id": "en.l69.e12",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.melt"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Quand il fait chaud, la neige fond.",
+   "promptLanguage": "fr",
+   "answer": "When it is hot, snow melts.",
+   "acceptedAnswers": [
+    "When it is hot, snow melts.",
+    "When it is hot, the snow melts.",
+    "When it is warm, snow melts.",
+    "When it is warm, the snow melts.",
+    "If it is hot, snow melts.",
+    "If it is hot, the snow melts.",
+    "If it is warm, snow melts.",
+    "If it is warm, the snow melts.",
+    "Snow melts when it is hot.",
+    "Snow melts when it is warm.",
+    "Snow melts if it is hot.",
+    "Snow melts if it is warm.",
+    "The snow melts when it is hot.",
+    "The snow melts when it is warm.",
+    "The snow melts if it is hot.",
+    "The snow melts if it is warm."
+   ],
+   "explanation": "Fait toujours vrai : when / if + présent simple, présent simple. Snow = it, donc melts. Pour la météo, on dit it is hot (pas it makes hot).",
+   "tip": "Pour la météo : it is + adjectif (it is hot, it is cold).",
+   "extraExample": {
+    "text": "When it is cold, the lake freezes.",
+    "translation": "Quand il fait froid, le lac gèle."
+   },
+   "errorPatterns": [
+    {
+     "contains": "it makes hot",
+     "category": "word_confusion",
+     "feedback": "Pour la météo, on n'utilise pas make : on dit it is hot."
+    },
+    {
+     "contains": "snow melt",
+     "category": "conjugation",
+     "feedback": "Snow = it : au présent simple, il faut un -s, snow melts."
+    },
+    {
+     "contains": "is melting",
+     "category": "verb_tense",
+     "feedback": "Pour un fait général, on utilise le présent simple : snow melts."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e13",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.plant"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Si on n'arrose pas les plantes, elles meurent.",
+   "promptLanguage": "fr",
+   "answer": "If you don't water plants, they die.",
+   "acceptedAnswers": [
+    "If you don't water plants, they die.",
+    "If you don't water the plants, they die.",
+    "If you do not water plants, they die.",
+    "If you do not water the plants, they die.",
+    "If we don't water plants, they die.",
+    "If we don't water the plants, they die.",
+    "If we do not water plants, they die.",
+    "If we do not water the plants, they die.",
+    "Plants die if you don't water them.",
+    "Plants die if you do not water them.",
+    "Plants die if we don't water them.",
+    "Plants die if we do not water them.",
+    "The plants die if you don't water them.",
+    "The plants die if you do not water them.",
+    "The plants die if we don't water them.",
+    "The plants die if we do not water them.",
+    "If plants don't get water, they die.",
+    "If plants don't get any water, they die.",
+    "If plants do not get water, they die.",
+    "If plants do not get any water, they die."
+   ],
+   "explanation": "Vérité générale : if + présent simple, présent simple. « On » se traduit souvent par you (ou we) dans une vérité générale. Plants = they, donc die, sans -s.",
+   "tip": "« On » dans une vérité générale = you ou we.",
+   "extraExample": {
+    "text": "If you don't eat, you get tired.",
+    "translation": "Si on ne mange pas, on se fatigue."
+   },
+   "errorPatterns": [
+    {
+     "contains": "they dies",
+     "category": "conjugation",
+     "feedback": "They ne prend pas de -s : they die."
+    },
+    {
+     "contains": "if you will",
+     "category": "verb_tense",
+     "feedback": "Pas de will après if : if you don't water…"
+    },
+    {
+     "contains": "if one",
+     "category": "word_confusion",
+     "feedback": "On ne traduit pas « on » par one dans une phrase courante : utilise you ou we."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e14",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.pollution",
+    "en.v.environment"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Si les gens prennent la voiture tous les jours, la pollution augmente.",
+   "promptLanguage": "fr",
+   "answer": "If people drive every day, pollution increases.",
+   "acceptedAnswers": [
+    "If people drive every day, pollution increases.",
+    "If people drive every day, pollution goes up.",
+    "If people drive every day, pollution rises.",
+    "If people take the car every day, pollution increases.",
+    "If people take the car every day, pollution goes up.",
+    "If people take the car every day, pollution rises.",
+    "If people take their cars every day, pollution increases.",
+    "If people take their cars every day, pollution goes up.",
+    "If people take their cars every day, pollution rises.",
+    "If people use their cars every day, pollution increases.",
+    "If people use their cars every day, pollution goes up.",
+    "If people use their cars every day, pollution rises.",
+    "If people use the car every day, pollution increases.",
+    "If people use the car every day, pollution goes up.",
+    "If people use the car every day, pollution rises.",
+    "When people drive every day, pollution increases.",
+    "When people drive every day, pollution goes up.",
+    "When people drive every day, pollution rises.",
+    "When people take the car every day, pollution increases.",
+    "When people take the car every day, pollution goes up.",
+    "When people take the car every day, pollution rises.",
+    "When people take their cars every day, pollution increases.",
+    "When people take their cars every day, pollution goes up.",
+    "When people take their cars every day, pollution rises.",
+    "When people use their cars every day, pollution increases.",
+    "When people use their cars every day, pollution goes up.",
+    "When people use their cars every day, pollution rises.",
+    "When people use the car every day, pollution increases.",
+    "When people use the car every day, pollution goes up.",
+    "When people use the car every day, pollution rises.",
+    "Pollution increases if people drive every day.",
+    "Pollution increases if people take the car every day.",
+    "Pollution increases if people take their cars every day.",
+    "Pollution increases if people use their cars every day.",
+    "Pollution increases if people use the car every day.",
+    "Pollution increases when people drive every day.",
+    "Pollution increases when people take the car every day.",
+    "Pollution increases when people take their cars every day.",
+    "Pollution increases when people use their cars every day.",
+    "Pollution increases when people use the car every day.",
+    "Pollution goes up if people drive every day.",
+    "Pollution goes up if people take the car every day.",
+    "Pollution goes up if people take their cars every day.",
+    "Pollution goes up if people use their cars every day.",
+    "Pollution goes up if people use the car every day.",
+    "Pollution goes up when people drive every day.",
+    "Pollution goes up when people take the car every day.",
+    "Pollution goes up when people take their cars every day.",
+    "Pollution goes up when people use their cars every day.",
+    "Pollution goes up when people use the car every day.",
+    "Pollution rises if people drive every day.",
+    "Pollution rises if people take the car every day.",
+    "Pollution rises if people take their cars every day.",
+    "Pollution rises if people use their cars every day.",
+    "Pollution rises if people use the car every day.",
+    "Pollution rises when people drive every day.",
+    "Pollution rises when people take the car every day.",
+    "Pollution rises when people take their cars every day.",
+    "Pollution rises when people use their cars every day.",
+    "Pollution rises when people use the car every day."
+   ],
+   "explanation": "Vérité générale : présent simple dans les deux parties. People est pluriel (people drive), pollution est singulier et indénombrable (pollution increases), sans the.",
+   "tip": "People = pluriel (people drive) ; pollution = singulier, sans article (pollution increases).",
+   "extraExample": {
+    "text": "If people recycle more, there is less waste.",
+    "translation": "Si les gens recyclent plus, il y a moins de déchets."
+   },
+   "errorPatterns": [
+    {
+     "contains": "people drives",
+     "category": "conjugation",
+     "feedback": "People est un pluriel : people drive, sans -s."
+    },
+    {
+     "contains": "people takes",
+     "category": "conjugation",
+     "feedback": "People est un pluriel : people take, sans -s."
+    },
+    {
+     "contains": "the pollution",
+     "category": "grammar",
+     "feedback": "Pour parler de la pollution en général, on ne met pas the : pollution increases."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e15",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.heat"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "If you heat milk too quickly, it burns.",
+   "promptLanguage": "en",
+   "answer": "Si on chauffe le lait trop vite, il brûle.",
+   "acceptedAnswers": [
+    "Si on chauffe le lait trop vite, il brûle.",
+    "Si on chauffe le lait trop rapidement, il brûle.",
+    "Si on chauffe du lait trop vite, il brûle.",
+    "Si on chauffe du lait trop rapidement, il brûle.",
+    "Si tu chauffes le lait trop vite, il brûle.",
+    "Si tu chauffes le lait trop rapidement, il brûle.",
+    "Si tu chauffes du lait trop vite, il brûle.",
+    "Si tu chauffes du lait trop rapidement, il brûle.",
+    "Si on fait chauffer le lait trop vite, il brûle.",
+    "Si on fait chauffer le lait trop rapidement, il brûle.",
+    "Si on fait chauffer du lait trop vite, il brûle.",
+    "Si on fait chauffer du lait trop rapidement, il brûle.",
+    "Si tu fais chauffer le lait trop vite, il brûle.",
+    "Si tu fais chauffer le lait trop rapidement, il brûle.",
+    "Si tu fais chauffer du lait trop vite, il brûle.",
+    "Si tu fais chauffer du lait trop rapidement, il brûle.",
+    "Si vous chauffez le lait trop vite, il brûle.",
+    "Si vous chauffez le lait trop rapidement, il brûle.",
+    "Si vous chauffez du lait trop vite, il brûle.",
+    "Si vous chauffez du lait trop rapidement, il brûle.",
+    "Quand on chauffe le lait trop vite, il brûle.",
+    "Quand on chauffe le lait trop rapidement, il brûle.",
+    "Quand on chauffe du lait trop vite, il brûle.",
+    "Quand on chauffe du lait trop rapidement, il brûle.",
+    "Quand tu chauffes le lait trop vite, il brûle.",
+    "Quand tu chauffes le lait trop rapidement, il brûle.",
+    "Quand tu chauffes du lait trop vite, il brûle.",
+    "Quand tu chauffes du lait trop rapidement, il brûle.",
+    "Quand on fait chauffer le lait trop vite, il brûle.",
+    "Quand on fait chauffer le lait trop rapidement, il brûle.",
+    "Quand on fait chauffer du lait trop vite, il brûle.",
+    "Quand on fait chauffer du lait trop rapidement, il brûle."
+   ],
+   "explanation": "If you… dans une vérité générale se traduit naturellement par « si on… » (ou « si tu… »). Les deux verbes sont au présent, comme en anglais.",
+   "tip": "You dans une vérité générale = « on » en français.",
+   "extraExample": {
+    "text": "If you leave bread outside, it gets hard.",
+    "translation": "Si on laisse le pain dehors, il durcit."
+   },
+   "errorPatterns": [
+    {
+     "contains": "chauffera",
+     "category": "verb_tense",
+     "feedback": "Les deux verbes sont au présent en anglais (heat… burns) : en français aussi, « il brûle »."
+    },
+    {
+     "contains": "brûlera",
+     "category": "verb_tense",
+     "feedback": "It burns est au présent : c'est une vérité générale, « il brûle »."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e16",
+   "unitIds": [
+    "en.g14.present_simple_third_person",
+    "en.g17.frequency_adverbs",
+    "en.v.recycle"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Ma sœur recycle toujours ses bouteilles.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "always",
+    "My",
+    "her",
+    "sister",
+    "bottles",
+    "recycles"
+   ],
+   "answer": "My sister always recycles her bottles",
+   "acceptedAnswers": [
+    "My sister always recycles her bottles"
+   ],
+   "explanation": "Avec my sister (= she), le présent simple prend un -s : recycles. L'adverbe de fréquence always se place avant le verbe.",
+   "tip": "Always, usually, never… se placent avant le verbe (mais après be).",
+   "extraExample": {
+    "text": "My father never drinks coffee.",
+    "translation": "Mon père ne boit jamais de café."
+   }
+  },
+  {
+   "id": "en.l69.e17",
+   "unitIds": [
+    "en.g41.tense_contrast",
+    "en.v.recycle"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le bon temps.",
+   "prompt": "Last year, our town ___ a new recycling centre.",
+   "promptLanguage": "en",
+   "options": [
+    "opened",
+    "opens",
+    "has opened",
+    "will open"
+   ],
+   "answer": "opened",
+   "acceptedAnswers": [
+    "opened",
+    "built"
+   ],
+   "explanation": "Last year donne un moment précis dans le passé : past simple (opened).",
+   "tip": "Last year, yesterday, ago : past simple.",
+   "extraExample": {
+    "text": "Two years ago, they planted a tree in the park.",
+    "translation": "Il y a deux ans, ils ont planté un arbre dans le parc."
+   },
+   "errorPatterns": [
+    {
+     "equals": "has opened",
+     "category": "verb_tense",
+     "feedback": "Avec last year (moment précis), on n'utilise pas le present perfect : opened."
+    },
+    {
+     "equals": "opens",
+     "category": "verb_tense",
+     "feedback": "Opens est au présent. Last year demande le past simple : opened."
+    },
+    {
+     "equals": "will open",
+     "category": "verb_tense",
+     "feedback": "Will parle du futur. Last year demande le past simple : opened."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e18",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.mistake"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on : « Quand je suis fatigué, je fais des erreurs » ?",
+   "promptLanguage": "fr",
+   "answer": "When I am tired, I make mistakes.",
+   "acceptedAnswers": [
+    "When I am tired, I make mistakes.",
+    "If I am tired, I make mistakes.",
+    "I make mistakes when I am tired.",
+    "I make mistakes if I am tired."
+   ],
+   "explanation": "C'est une habitude qui se vérifie à chaque fois : when / if + présent simple, présent simple. On dit make a mistake (pas do).",
+   "tip": "Une erreur : make a mistake, jamais do a mistake.",
+   "extraExample": {
+    "text": "When I am hungry, I get angry.",
+    "translation": "Quand j'ai faim, je m'énerve."
+   },
+   "errorPatterns": [
+    {
+     "contains": "do mistakes",
+     "category": "word_confusion",
+     "feedback": "On dit make mistakes, pas do mistakes."
+    },
+    {
+     "contains": "i will make",
+     "category": "verb_tense",
+     "feedback": "Pour une habitude qui se vérifie à chaque fois, on garde le présent simple : I make mistakes."
+    },
+    {
+     "contains": "i am making mistakes",
+     "category": "verb_tense",
+     "feedback": "Une habitude se dit au présent simple : I make mistakes."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e19",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.recycle",
+    "en.v.save"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on : « Si on recycle le papier, on sauve des arbres » ?",
+   "promptLanguage": "fr",
+   "answer": "If you recycle paper, you save trees.",
+   "acceptedAnswers": [
+    "If you recycle paper, you save trees.",
+    "If you recycle paper, it saves trees.",
+    "When you recycle paper, you save trees.",
+    "When you recycle paper, it saves trees.",
+    "If we recycle paper, we save trees.",
+    "If we recycle paper, it saves trees.",
+    "When we recycle paper, we save trees.",
+    "When we recycle paper, it saves trees.",
+    "If people recycle paper, they save trees.",
+    "If people recycle paper, it saves trees.",
+    "When people recycle paper, they save trees.",
+    "When people recycle paper, it saves trees.",
+    "Recycling paper saves trees."
+   ],
+   "explanation": "Vérité générale : if + présent simple, présent simple. « On » se traduit par you ou we. Save veut dire économiser, mais aussi sauver.",
+   "tip": "Pas de will après if, même en anglais écrit soigné.",
+   "extraExample": {
+    "text": "If you turn off the lights, you save energy.",
+    "translation": "Si on éteint les lumières, on économise de l'énergie."
+   },
+   "errorPatterns": [
+    {
+     "contains": "will recycle",
+     "category": "verb_tense",
+     "feedback": "Pas de will après if : if you recycle."
+    },
+    {
+     "contains": "you saves",
+     "category": "conjugation",
+     "feedback": "Avec you, pas de -s : you save."
+    },
+    {
+     "contains": "we saves",
+     "category": "conjugation",
+     "feedback": "Avec we, pas de -s : we save."
+    }
+   ]
+  },
+  {
+   "id": "en.l69.e20",
+   "unitIds": [
+    "en.g50.zero_conditional",
+    "en.v.heat",
+    "en.v.melt",
+    "en.v.boil",
+    "en.v.plant",
+    "en.v.temperature"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase au conditionnel zéro avec if ou when et un de ces mots : heat, melt, boil, plant, temperature.",
+   "prompt": "Écris une vérité générale sur la nature, la cuisine ou la santé.",
+   "promptLanguage": "fr",
+   "requirements": {
+    "mustInclude": [
+     [
+      "if",
+      "when"
+     ],
+     [
+      "heat",
+      "heats",
+      "melt",
+      "melts",
+      "boil",
+      "boils",
+      "plant",
+      "plants",
+      "temperature"
+     ]
+    ],
+    "minWords": 6
+   },
+   "answer": "If you don't water plants, they die.",
+   "acceptedAnswers": [
+    "If you don't water plants, they die.",
+    "When the temperature drops, water turns into ice.",
+    "If you heat butter, it melts.",
+    "Water boils if you heat it to 100 degrees."
+   ],
+   "explanation": "Une vérité générale se construit avec if / when + présent simple, présent simple. Attention au -s à la 3e personne (it melts, water boils).",
+   "tip": "Présent + présent, et pas de will après if.",
+   "extraExample": {
+    "text": "If you boil an egg for ten minutes, it gets hard.",
+    "translation": "Si on fait bouillir un œuf dix minutes, il devient dur."
+   },
+   "errorPatterns": [
+    {
+     "contains": "if you will",
+     "category": "verb_tense",
+     "feedback": "Pas de will après if : le verbe reste au présent simple."
+    },
+    {
+     "contains": "it melt",
+     "category": "conjugation",
+     "feedback": "Avec it, le présent simple prend un -s : it melts."
+    },
+    {
+     "contains": "it boil",
+     "category": "conjugation",
+     "feedback": "Avec it, le présent simple prend un -s : it boils."
+    }
+   ]
+  }
+ ]
+}

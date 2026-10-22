@@ -1,0 +1,770 @@
+{
+ "lessonId": "cg.l09",
+ "exercises": [
+  {
+   "id": "cg.l09.e01",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.ocean_pacifique",
+    "cg.v.ocean_atlantique",
+    "cg.v.ocean_indien",
+    "cg.v.ocean_arctique",
+    "cg.v.ocean_austral"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque océan à sa description.",
+   "prompt": "Les cinq océans",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Pacifique",
+     "right": "le plus grand océan"
+    },
+    {
+     "left": "Atlantique",
+     "right": "entre l'Europe, l'Afrique et les Amériques"
+    },
+    {
+     "left": "Indien",
+     "right": "entre l'Afrique, l'Asie et l'Australie"
+    },
+    {
+     "left": "Austral",
+     "right": "autour de l'Antarctique"
+    },
+    {
+     "left": "Arctique",
+     "right": "le plus petit, autour du pôle Nord"
+    }
+   ],
+   "answer": "Pacifique = le plus grand océan ; Atlantique = entre l'Europe, l'Afrique et les Amériques ; Indien = entre l'Afrique, l'Asie et l'Australie ; Austral = autour de l'Antarctique ; Arctique = le plus petit, autour du pôle Nord",
+   "acceptedAnswers": [],
+   "explanation": "Les cinq océans se repèrent par leur position : le Pacifique entre l'Asie et les Amériques, l'Atlantique entre l'Ancien et le Nouveau Monde, l'Indien au sud de l'Asie, l'Austral autour de l'Antarctique et l'Arctique au nord.",
+   "tip": "Du plus grand au plus petit : Pacifique, Atlantique, Indien, Austral, Arctique.",
+   "extraExample": {
+    "text": "Ensemble, les océans couvrent environ 70 % de la surface de la Terre.",
+    "translation": "La Terre est surtout une planète bleue."
+   }
+  },
+  {
+   "id": "cg.l09.e02",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.ocean_pacifique"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus grand océan du monde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Pacifique",
+    "L'Atlantique",
+    "L'océan Indien",
+    "L'Arctique"
+   ],
+   "answer": "Le Pacifique",
+   "acceptedAnswers": [
+    "Le Pacifique"
+   ],
+   "explanation": "Le Pacifique couvre environ un tiers de la surface de la Terre, plus que toutes les terres émergées réunies. Il est bien plus vaste que l'Atlantique, deuxième.",
+   "tip": "Pacifique = le géant : premier en surface et en profondeur.",
+   "extraExample": {
+    "text": "Le Pacifique est aussi le plus profond : la fosse des Mariannes y descend à près de 11 000 m.",
+    "translation": "Plus grand et plus profond : deux records pour le même océan."
+   },
+   "hint": "Il s'étend entre l'Asie et les Amériques.",
+   "errorPatterns": [
+    {
+     "equals": "L'Atlantique",
+     "category": "vocabulary",
+     "feedback": "L'Atlantique n'est que le deuxième : le Pacifique est bien plus vaste."
+    },
+    {
+     "equals": "L'océan Indien",
+     "category": "vocabulary",
+     "feedback": "L'océan Indien est le troisième par la taille."
+    },
+    {
+     "equals": "L'Arctique",
+     "category": "vocabulary",
+     "feedback": "L'Arctique est au contraire le plus petit des cinq océans."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e03",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.continent"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel continent est le plus grand, par la superficie comme par la population ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Asie",
+    "L'Afrique",
+    "L'Amérique",
+    "L'Europe"
+   ],
+   "answer": "L'Asie",
+   "acceptedAnswers": [
+    "L'Asie"
+   ],
+   "explanation": "L'Asie est à la fois le plus vaste continent et le plus peuplé : elle abrite près de 6 humains sur 10.",
+   "tip": "Asie = record double : surface et population.",
+   "extraExample": {
+    "text": "L'Inde et la Chine, les deux pays les plus peuplés du monde, sont en Asie.",
+    "translation": "Elles dépassent chacune 1,4 milliard d'habitants."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Afrique",
+     "category": "vocabulary",
+     "feedback": "L'Afrique est deuxième en superficie et en population, derrière l'Asie."
+    },
+    {
+     "equals": "L'Amérique",
+     "category": "vocabulary",
+     "feedback": "Même réunies, l'Amérique du Nord et du Sud sont moins peuplées que l'Asie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e04",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.antarctique",
+    "cg.v.ocean_arctique"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Sur quoi se trouve le pôle Sud ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Sur un continent, l'Antarctique",
+    "Sur un océan gelé, l'Arctique",
+    "Sur une île, le Groenland"
+   ],
+   "answer": "Sur un continent, l'Antarctique",
+   "acceptedAnswers": [
+    "Sur un continent, l'Antarctique"
+   ],
+   "explanation": "Le pôle Sud est au cœur de l'Antarctique, un continent recouvert d'une épaisse calotte de glace. Au pôle Nord, au contraire, il n'y a que de la glace de mer posée sur l'océan Arctique.",
+   "tip": "Antarctique = « anti-Arctique » : à l'opposé, au Sud, et c'est une terre.",
+   "extraExample": {
+    "text": "La station franco-italienne Concordia est installée en plein cœur de l'Antarctique.",
+    "translation": "Des scientifiques y vivent même pendant l'hiver polaire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sur un océan gelé, l'Arctique",
+     "category": "word_confusion",
+     "feedback": "L'Arctique est au nord : c'est le pôle Nord qui se trouve sur l'océan Arctique gelé."
+    },
+    {
+     "equals": "Sur une île, le Groenland",
+     "category": "vocabulary",
+     "feedback": "Le Groenland est dans l'hémisphère Nord, loin du pôle Sud."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e05",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.ocean_atlantique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel océan sépare l'Europe et l'Afrique des Amériques ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Atlantique",
+    "Le Pacifique",
+    "L'océan Indien"
+   ],
+   "answer": "L'Atlantique",
+   "acceptedAnswers": [
+    "L'Atlantique"
+   ],
+   "explanation": "L'Atlantique s'étend entre l'Europe et l'Afrique à l'est et les Amériques à l'ouest. C'est l'océan qu'ont traversé Christophe Colomb puis des millions d'émigrants.",
+   "tip": "Atlantique = l'océan entre « Ancien » et « Nouveau » Monde.",
+   "extraExample": {
+    "text": "Christophe Colomb a traversé l'Atlantique en 1492.",
+    "translation": "C'est le début des grandes traversées entre l'Europe et l'Amérique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Pacifique",
+     "category": "word_confusion",
+     "feedback": "Le Pacifique est de l'autre côté des Amériques, entre elles et l'Asie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e06",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.ocean_indien"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quel océan se trouve Madagascar ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'océan Indien",
+    "L'Atlantique",
+    "Le Pacifique",
+    "L'océan Austral"
+   ],
+   "answer": "L'océan Indien",
+   "acceptedAnswers": [
+    "L'océan Indien"
+   ],
+   "explanation": "Madagascar est au large de la côte est de l'Afrique : elle est baignée par l'océan Indien, comme La Réunion et Maurice.",
+   "tip": "Côte est de l'Afrique = océan Indien ; côte ouest = Atlantique.",
+   "extraExample": {
+    "text": "La Réunion, département français, se trouve aussi dans l'océan Indien.",
+    "translation": "À l'est de Madagascar."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Atlantique",
+     "category": "word_confusion",
+     "feedback": "L'Atlantique borde la côte ouest de l'Afrique ; Madagascar est à l'est."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e07",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.equateur",
+    "cg.v.hemisphere"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ligne imaginaire partage la Terre en hémisphère Nord et hémisphère Sud ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'équateur",
+    "Le méridien de Greenwich",
+    "Le tropique du Cancer"
+   ],
+   "answer": "L'équateur",
+   "acceptedAnswers": [
+    "L'équateur"
+   ],
+   "explanation": "L'équateur, à égale distance des deux pôles (latitude 0°), coupe la Terre en deux hémisphères : Nord et Sud.",
+   "tip": "Équateur = « égalité » : il coupe la Terre en deux moitiés égales, Nord et Sud.",
+   "extraExample": {
+    "text": "L'équateur mesure environ 40 000 km de long.",
+    "translation": "C'est le plus grand tour de la Terre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le méridien de Greenwich",
+     "category": "word_confusion",
+     "feedback": "Le méridien de Greenwich sépare l'Est et l'Ouest, pas le Nord et le Sud."
+    },
+    {
+     "equals": "Le tropique du Cancer",
+     "category": "word_confusion",
+     "feedback": "Le tropique du Cancer est entièrement dans l'hémisphère Nord."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e08",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.ocean_arctique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus petit des cinq océans ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Arctique",
+    "L'océan Austral",
+    "L'océan Indien"
+   ],
+   "answer": "L'Arctique",
+   "acceptedAnswers": [
+    "L'Arctique"
+   ],
+   "explanation": "L'Arctique, autour du pôle Nord, est le plus petit et le moins profond des océans. Une grande partie est couverte de banquise.",
+   "tip": "Arctique = petit et au nord.",
+   "extraExample": {
+    "text": "L'Arctique est bordé par la Russie, le Canada, l'Alaska, la Norvège et le Groenland.",
+    "translation": "C'est un océan presque fermé par les terres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'océan Austral",
+     "category": "vocabulary",
+     "feedback": "L'océan Austral, autour de l'Antarctique, est plus grand que l'Arctique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e09",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.continent"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le plus petit continent ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Océanie",
+    "L'Europe",
+    "L'Antarctique"
+   ],
+   "answer": "L'Océanie",
+   "acceptedAnswers": [
+    "L'Océanie"
+   ],
+   "explanation": "L'Océanie, dominée par l'Australie, est le plus petit continent. L'Europe vient juste derrière, et l'Antarctique est bien plus grand que les deux.",
+   "tip": "Océanie = le plus petit, même si l'Australie à elle seule est immense.",
+   "extraExample": {
+    "text": "L'Australie est à la fois un pays et presque tout un continent.",
+    "translation": "C'est le seul pays dans ce cas."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Europe",
+     "category": "vocabulary",
+     "feedback": "L'Europe est le deuxième plus petit continent, juste derrière l'Océanie."
+    },
+    {
+     "equals": "L'Antarctique",
+     "category": "vocabulary",
+     "feedback": "L'Antarctique est plus grand que l'Europe et que l'Océanie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e10",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.continent",
+    "cg.v.hemisphere",
+    "cg.v.equateur"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa définition.",
+   "prompt": "Les mots de la carte du monde",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Continent",
+     "right": "grande étendue de terre émergée"
+    },
+    {
+     "left": "Hémisphère",
+     "right": "moitié du globe terrestre"
+    },
+    {
+     "left": "Équateur",
+     "right": "ligne qui sépare le Nord et le Sud"
+    },
+    {
+     "left": "Méridien de Greenwich",
+     "right": "ligne qui sépare l'Est et l'Ouest"
+    }
+   ],
+   "answer": "Continent = grande étendue de terre émergée ; Hémisphère = moitié du globe terrestre ; Équateur = ligne qui sépare le Nord et le Sud ; Méridien de Greenwich = ligne qui sépare l'Est et l'Ouest",
+   "acceptedAnswers": [],
+   "explanation": "L'équateur (latitude 0°) sépare les hémisphères Nord et Sud ; le méridien de Greenwich (longitude 0°) sépare l'Est et l'Ouest. Un continent est une grande masse de terre entourée d'océans.",
+   "tip": "Équateur = horizontal (Nord/Sud) ; Greenwich = vertical (Est/Ouest).",
+   "extraExample": {
+    "text": "Le méridien de Greenwich passe notamment par l'Angleterre, la France et l'Espagne.",
+    "translation": "Il doit son nom à l'observatoire de Greenwich, près de Londres."
+   }
+  },
+  {
+   "id": "cg.l09.e11",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.equateur"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Lequel de ces pays est traversé par l'équateur ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Brésil",
+    "Le Mexique",
+    "L'Égypte",
+    "L'Inde"
+   ],
+   "answer": "Le Brésil",
+   "acceptedAnswers": [
+    "Le Brésil"
+   ],
+   "explanation": "L'équateur traverse le nord du Brésil, près de l'embouchure de l'Amazone. Le Mexique, l'Égypte et l'Inde sont entièrement dans l'hémisphère Nord.",
+   "tip": "L'équateur passe par l'Amazonie, le centre de l'Afrique et l'Indonésie.",
+   "extraExample": {
+    "text": "En Afrique, l'équateur traverse notamment le Gabon, la RD Congo, l'Ouganda et le Kenya.",
+    "translation": "Il passe par le cœur de l'Afrique centrale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Inde",
+     "category": "vocabulary",
+     "feedback": "L'Inde est entièrement au nord de l'équateur, même ses îles les plus au sud."
+    },
+    {
+     "equals": "Le Mexique",
+     "category": "word_confusion",
+     "feedback": "Le Mexique est traversé par le tropique du Cancer, pas par l'équateur."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e12",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.hemisphere"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En décembre, c'est l'été en Australie. Pourquoi ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Parce qu'elle est dans l'hémisphère Sud",
+    "Parce qu'elle est plus proche du Soleil en décembre",
+    "Parce qu'elle est traversée par l'équateur"
+   ],
+   "answer": "Parce qu'elle est dans l'hémisphère Sud",
+   "acceptedAnswers": [
+    "Parce qu'elle est dans l'hémisphère Sud"
+   ],
+   "explanation": "Les saisons sont inversées entre les deux hémisphères : quand l'hémisphère Nord est en hiver, l'hémisphère Sud est en été. Cela vient de l'inclinaison de l'axe de la Terre.",
+   "tip": "Hémisphère Sud = saisons inversées : Noël en été.",
+   "extraExample": {
+    "text": "En Argentine, les grandes vacances d'été tombent en janvier et février.",
+    "translation": "Même hémisphère Sud, même calendrier inversé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Parce qu'elle est plus proche du Soleil en décembre",
+     "category": "vocabulary",
+     "feedback": "Ce n'est pas la distance au Soleil : les saisons viennent de l'inclinaison de la Terre."
+    },
+    {
+     "equals": "Parce qu'elle est traversée par l'équateur",
+     "category": "vocabulary",
+     "feedback": "L'équateur ne traverse pas l'Australie : elle est entièrement dans l'hémisphère Sud."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e13",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.ocean_austral",
+    "cg.v.antarctique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'océan ___ entoure le continent antarctique.",
+   "promptLanguage": "fr",
+   "options": [
+    "Austral",
+    "Arctique",
+    "Indien"
+   ],
+   "answer": "Austral",
+   "acceptedAnswers": [
+    "Austral"
+   ],
+   "explanation": "L'océan Austral (« du Sud ») fait le tour de l'Antarctique. Il n'est compté comme cinquième océan que depuis les années 2000 : avant, ses eaux étaient partagées entre Atlantique, Pacifique et Indien.",
+   "tip": "Austral = du Sud, comme dans « l'hémisphère austral ».",
+   "extraExample": {
+    "text": "Le courant circumpolaire antarctique fait le tour du globe dans l'océan Austral.",
+    "translation": "Rien ne l'arrête : aucune terre sur son passage."
+   },
+   "hint": "Le mot veut dire « du Sud ».",
+   "errorPatterns": [
+    {
+     "equals": "Arctique",
+     "category": "word_confusion",
+     "feedback": "L'Arctique est au nord ; autour de l'Antarctique, c'est l'océan Austral."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e14",
+   "unitIds": [
+    "cg.g09.continents_oceans"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les océans recouvrent environ ___ % de la surface de la Terre.",
+   "promptLanguage": "fr",
+   "options": [
+    "30",
+    "50",
+    "70",
+    "90"
+   ],
+   "answer": "70",
+   "acceptedAnswers": [
+    "70",
+    "71",
+    "soixante-dix"
+   ],
+   "explanation": "Environ 70 % de la surface terrestre est couverte par les océans, contre 30 % pour les terres émergées.",
+   "tip": "Retiens 70/30 : sept dixièmes d'eau, trois dixièmes de terre.",
+   "extraExample": {
+    "text": "Le Pacifique à lui seul couvre environ un tiers de la planète.",
+    "translation": "Il pèse lourd dans ces 70 %."
+   },
+   "errorPatterns": [
+    {
+     "equals": "30",
+     "category": "vocabulary",
+     "feedback": "30 % correspond aux terres émergées ; les océans en couvrent environ 70 %."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e15",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.continent"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La limite conventionnelle entre l'Europe et l'Asie passe par les monts ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Oural",
+    "Alpes",
+    "Carpates",
+    "Pyrénées"
+   ],
+   "answer": "Oural",
+   "acceptedAnswers": [
+    "Oural",
+    "l'Oural"
+   ],
+   "explanation": "Les géographes font passer la limite entre l'Europe et l'Asie par les monts Oural, en Russie. C'est une convention : il n'y a pas de mer entre les deux continents.",
+   "tip": "Oural = la frontière de l'Europe à l'est.",
+   "extraExample": {
+    "text": "Moscou est à l'ouest de l'Oural, donc en Europe ; la Sibérie est à l'est, en Asie.",
+    "translation": "La Russie est ainsi à cheval sur deux continents."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Alpes",
+     "category": "vocabulary",
+     "feedback": "Les Alpes sont au cœur de l'Europe, loin de l'Asie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e16",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.equateur"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "En Amérique du Sud, le pays nommé ___ doit son nom à la ligne qui le traverse.",
+   "promptLanguage": "fr",
+   "options": [
+    "Équateur",
+    "Colombie",
+    "Pérou"
+   ],
+   "answer": "Équateur",
+   "acceptedAnswers": [
+    "Équateur",
+    "l'Équateur",
+    "Ecuador"
+   ],
+   "explanation": "L'Équateur est traversé par la ligne de l'équateur, d'où son nom. Sa capitale, Quito, se trouve tout près de cette ligne.",
+   "tip": "Pays « Équateur » = ligne de l'équateur.",
+   "extraExample": {
+    "text": "Sa capitale, Quito, est à quelques dizaines de kilomètres au sud de l'équateur.",
+    "translation": "On y visite le monument « La Mitad del Mundo » (le milieu du monde)."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Colombie",
+     "category": "word_confusion",
+     "feedback": "L'équateur traverse bien le sud de la Colombie, mais c'est l'Équateur qui porte son nom."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e17",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.ocean_pacifique"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Une phrase-repère sur les océans.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Pacifique",
+    "océan",
+    "du",
+    "plus",
+    "Le",
+    "monde",
+    "le",
+    "est",
+    "grand"
+   ],
+   "answer": "Le Pacifique est le plus grand océan du monde",
+   "acceptedAnswers": [
+    "Le Pacifique est le plus grand océan du monde"
+   ],
+   "explanation": "Le Pacifique est le plus grand des cinq océans, devant l'Atlantique.",
+   "tip": "Sujet (le Pacifique) + est + le plus grand + nom.",
+   "extraExample": {
+    "text": "L'Arctique est le plus petit océan du monde.",
+    "translation": "Les deux extrêmes à retenir."
+   }
+  },
+  {
+   "id": "cg.l09.e18",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.antarctique"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel continent, presque entièrement recouvert de glace, entoure le pôle Sud ?",
+   "promptLanguage": "fr",
+   "answer": "L'Antarctique",
+   "acceptedAnswers": [
+    "L'Antarctique",
+    "Antarctique",
+    "l'Antarctide",
+    "Antarctide",
+    "le continent antarctique"
+   ],
+   "explanation": "L'Antarctique (on dit aussi l'Antarctide) est un continent recouvert d'une calotte de glace épaisse en moyenne de plus de 2 km.",
+   "tip": "Au sud, une terre : l'Antarctique. Au nord, un océan : l'Arctique.",
+   "extraExample": {
+    "text": "L'Antarctique n'a pas d'habitants permanents.",
+    "translation": "Seuls des scientifiques y séjournent."
+   },
+   "hint": "Son nom veut dire « à l'opposé de l'Arctique ».",
+   "errorPatterns": [
+    {
+     "equals": "arctique",
+     "category": "word_confusion",
+     "feedback": "L'Arctique est au nord, et c'est un océan. Au sud, c'est l'Antarctique."
+    },
+    {
+     "equals": "l'arctique",
+     "category": "word_confusion",
+     "feedback": "L'Arctique est au nord, et c'est un océan. Au sud, c'est l'Antarctique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e19",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.ocean_pacifique"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel océan s'étend entre l'Asie et les Amériques ?",
+   "promptLanguage": "fr",
+   "answer": "Le Pacifique",
+   "acceptedAnswers": [
+    "Le Pacifique",
+    "Pacifique",
+    "l'océan Pacifique",
+    "océan Pacifique"
+   ],
+   "explanation": "Le Pacifique sépare l'Asie et l'Océanie, à l'ouest, des Amériques, à l'est.",
+   "tip": "Pacifique = entre l'Asie et l'Amérique ; Atlantique = entre l'Europe et l'Amérique.",
+   "extraExample": {
+    "text": "Le Japon et le Chili sont tous deux bordés par le Pacifique.",
+    "translation": "Ils se font face, de part et d'autre de l'océan."
+   },
+   "errorPatterns": [
+    {
+     "equals": "atlantique",
+     "category": "word_confusion",
+     "feedback": "L'Atlantique est de l'autre côté des Amériques, face à l'Europe et à l'Afrique."
+    },
+    {
+     "equals": "l'atlantique",
+     "category": "word_confusion",
+     "feedback": "L'Atlantique est de l'autre côté des Amériques, face à l'Europe et à l'Afrique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l09.e20",
+   "unitIds": [
+    "cg.g09.continents_oceans",
+    "cg.v.hemisphere",
+    "cg.v.equateur"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on chacune des deux moitiés de la Terre séparées par l'équateur ? (un mot)",
+   "promptLanguage": "fr",
+   "answer": "Hémisphère",
+   "acceptedAnswers": [
+    "Hémisphère",
+    "un hémisphère",
+    "hémisphères",
+    "les hémisphères",
+    "l'hémisphère"
+   ],
+   "explanation": "L'équateur coupe la Terre en deux hémisphères : l'hémisphère Nord (ou boréal) et l'hémisphère Sud (ou austral).",
+   "tip": "On dit UN hémisphère : le mot est masculin.",
+   "extraExample": {
+    "text": "Le méridien de Greenwich, lui, délimite les hémisphères Est et Ouest.",
+    "translation": "On peut couper la Terre en deux de deux façons."
+   },
+   "errorPatterns": [
+    {
+     "equals": "atmosphère",
+     "category": "word_confusion",
+     "feedback": "L'atmosphère est la couche d'air qui entoure la Terre ; une moitié du globe est un hémisphère."
+    },
+    {
+     "equals": "pôle",
+     "category": "word_confusion",
+     "feedback": "Les pôles sont des points ; chaque moitié du globe est un hémisphère."
+    }
+   ]
+  }
+ ]
+}

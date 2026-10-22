@@ -145,6 +145,29 @@
   "unitId": "en.v.research"
  },
  {
+  "id": "en.d.technology",
+  "word": "technology",
+  "translation": "technologie",
+  "partOfSpeech": "noun",
+  "ipa": "/tekˈnɒlədʒi/",
+  "explanation": "Technology désigne les techniques modernes (informatique, Internet, machines). Attention à l'orthographe : -nology, sans h après le t.",
+  "examples": [
+   {
+    "text": "Technology is changing very fast.",
+    "translation": "La technologie évolue très vite."
+   },
+   {
+    "text": "This technology was developed in Japan.",
+    "translation": "Cette technologie a été mise au point au Japon."
+   }
+  ],
+  "confusions": [],
+  "forms": {
+   "plural": "technologies"
+  },
+  "unitId": "en.v.technology"
+ },
+ {
   "id": "en.d.produce",
   "word": "produce",
   "translation": "produire, fabriquer",
@@ -343,30 +366,39 @@
   "unitId": "en.v.publish"
  },
  {
-  "id": "en.d.cancel",
-  "word": "cancel",
-  "translation": "annuler",
+  "id": "en.d.postpone",
+  "word": "postpone",
+  "translation": "reporter, repousser",
   "partOfSpeech": "verb",
-  "ipa": "/ˈkænsl/",
-  "explanation": "En anglais britannique, on double le l : cancelled, cancelling (canceled en américain).",
+  "ipa": "/pəˈspəʊn/",
+  "explanation": "Postpone veut dire repousser à plus tard (une réunion, un match, une élection). Attention : « reporter » ne se traduit jamais par report (= un rapport, signaler).",
   "examples": [
    {
-    "text": "The flight has been cancelled.",
-    "translation": "Le vol a été annulé."
+    "text": "The match has been postponed because of the rain.",
+    "translation": "Le match a été reporté à cause de la pluie."
    },
    {
-    "text": "We had to cancel the meeting.",
-    "translation": "Nous avons dû annuler la réunion."
+    "text": "We had to postpone our trip.",
+    "translation": "Nous avons dû repousser notre voyage."
    }
   ],
-  "confusions": [],
+  "confusions": [
+   {
+    "word": "report",
+    "note": "un rapport (nom) ; signaler, faire un reportage (verbe)."
+   },
+   {
+    "word": "cancel",
+    "note": "annuler : l'événement n'aura pas lieu du tout."
+   }
+  ],
   "forms": {
-   "thirdPerson": "cancels",
-   "past": "cancelled",
-   "pastParticiple": "cancelled",
-   "ing": "cancelling"
+   "thirdPerson": "postpones",
+   "past": "postponed",
+   "pastParticiple": "postponed",
+   "ing": "postponing"
   },
-  "unitId": "en.v.cancel"
+  "unitId": "en.v.postpone"
  },
  {
   "id": "en.d.result",
@@ -1433,29 +1465,31 @@
   "unitId": "en.v.arrest"
  },
  {
-  "id": "en.d.evidence",
-  "word": "evidence",
-  "translation": "preuve(s)",
+  "id": "en.d.case",
+  "word": "case",
+  "translation": "affaire (judiciaire), cas",
+  "otherTranslations": [
+   "cas",
+   "étui, valise (suitcase)"
+  ],
   "partOfSpeech": "noun",
-  "ipa": "/ˈevɪdəns/",
-  "explanation": "Evidence est indénombrable : pas de -s ni de a. « Une preuve » = a piece of evidence. Ce n'est pas « une évidence ».",
+  "ipa": "/keɪs/",
+  "explanation": "Case désigne une affaire traitée par la police ou un tribunal, mais aussi un cas : in this case (dans ce cas), in case (au cas où).",
   "examples": [
    {
-    "text": "There is no evidence against him.",
-    "translation": "Il n'y a aucune preuve contre lui."
+    "text": "The police are investigating the case.",
+    "translation": "La police enquête sur l'affaire."
    },
    {
-    "text": "The police found new evidence.",
-    "translation": "La police a trouvé de nouvelles preuves."
+    "text": "Take an umbrella in case it rains.",
+    "translation": "Prends un parapluie au cas où il pleuvrait."
    }
   ],
-  "confusions": [
-   {
-    "word": "obvious",
-    "note": "évident ; « c'est une évidence » = it's obvious."
-   }
-  ],
-  "unitId": "en.v.evidence"
+  "confusions": [],
+  "forms": {
+   "plural": "cases"
+  },
+  "unitId": "en.v.case"
  },
  {
   "id": "en.d.wonder",
@@ -1487,32 +1521,6 @@
    "ing": "wondering"
   },
   "unitId": "en.v.wonder"
- },
- {
-  "id": "en.d.warn",
-  "word": "warn",
-  "translation": "avertir, prévenir",
-  "partOfSpeech": "verb",
-  "ipa": "/wɔːn/",
-  "explanation": "Warn someone (not) to do something = avertir quelqu'un de (ne pas) faire quelque chose ; warn about = mettre en garde contre.",
-  "examples": [
-   {
-    "text": "The police warned people to stay at home.",
-    "translation": "La police a averti les gens de rester chez eux."
-   },
-   {
-    "text": "I warned you!",
-    "translation": "Je t'avais prévenu !"
-   }
-  ],
-  "confusions": [],
-  "forms": {
-   "thirdPerson": "warns",
-   "past": "warned",
-   "pastParticiple": "warned",
-   "ing": "warning"
-  },
-  "unitId": "en.v.warn"
  },
  {
   "id": "en.d.remind",
@@ -1550,35 +1558,87 @@
   "unitId": "en.v.remind"
  },
  {
-  "id": "en.d.advise",
-  "word": "advise",
-  "translation": "conseiller",
+  "id": "en.d.persuade",
+  "word": "persuade",
+  "translation": "persuader",
   "partOfSpeech": "verb",
-  "ipa": "/ədˈvaɪz/",
-  "explanation": "Advise (avec s, prononcé /z/) est le verbe ; advice (avec c) est le nom, indénombrable.",
+  "ipa": "/pəˈsweɪd/",
+  "explanation": "Persuade someone to do something = persuader quelqu'un de faire quelque chose.",
   "examples": [
    {
-    "text": "The doctor advised me to rest.",
-    "translation": "Le médecin m'a conseillé de me reposer."
+    "text": "She persuaded me to stay.",
+    "translation": "Elle m'a persuadé de rester."
    },
    {
-    "text": "Experts advise people not to share their passwords.",
-    "translation": "Les experts conseillent de ne pas partager ses mots de passe."
+    "text": "Nobody could persuade him to tell the truth.",
+    "translation": "Personne n'a pu le persuader de dire la vérité."
+   }
+  ],
+  "confusions": [],
+  "forms": {
+   "thirdPerson": "persuades",
+   "past": "persuaded",
+   "pastParticiple": "persuaded",
+   "ing": "persuading"
+  },
+  "unitId": "en.v.persuade"
+ },
+ {
+  "id": "en.d.encourage",
+  "word": "encourage",
+  "translation": "encourager",
+  "partOfSpeech": "verb",
+  "ipa": "/ɪnˈkʌrɪdʒ/",
+  "explanation": "Encourage someone to do something = encourager quelqu'un à faire quelque chose (to + verbe, pas à).",
+  "examples": [
+   {
+    "text": "My parents encouraged me to learn English.",
+    "translation": "Mes parents m'ont encouragé à apprendre l'anglais."
+   },
+   {
+    "text": "The government encourages people to use public transport.",
+    "translation": "Le gouvernement encourage les gens à prendre les transports en commun."
+   }
+  ],
+  "confusions": [],
+  "forms": {
+   "thirdPerson": "encourages",
+   "past": "encouraged",
+   "pastParticiple": "encouraged",
+   "ing": "encouraging"
+  },
+  "unitId": "en.v.encourage"
+ },
+ {
+  "id": "en.d.allow",
+  "word": "allow",
+  "translation": "permettre, autoriser",
+  "partOfSpeech": "verb",
+  "ipa": "/əˈlaʊ/",
+  "explanation": "Allow someone to do something = permettre à quelqu'un de faire quelque chose ; be allowed to = avoir le droit de.",
+  "examples": [
+   {
+    "text": "My boss allows me to work from home.",
+    "translation": "Mon patron me permet de travailler de chez moi."
+   },
+   {
+    "text": "You're not allowed to smoke here.",
+    "translation": "Tu n'as pas le droit de fumer ici."
    }
   ],
   "confusions": [
    {
-    "word": "advice",
-    "note": "le conseil, les conseils (nom indénombrable)."
+    "word": "let",
+    "note": "même sens, mais sans to : let me go."
    }
   ],
   "forms": {
-   "thirdPerson": "advises",
-   "past": "advised",
-   "pastParticiple": "advised",
-   "ing": "advising"
+   "thirdPerson": "allows",
+   "past": "allowed",
+   "pastParticiple": "allowed",
+   "ing": "allowing"
   },
-  "unitId": "en.v.advise"
+  "unitId": "en.v.allow"
  },
  {
   "id": "en.d.refuse",

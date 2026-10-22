@@ -1,0 +1,828 @@
+{
+ "lessonId": "ar.l18",
+ "exercises": [
+  {
+   "id": "ar.l18.e01",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.kataba"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis vite : quel mot est écrit ?",
+   "prompt": "كَتَبَ",
+   "promptLanguage": "ar",
+   "options": [
+    "kataba",
+    "katab",
+    "kutiba",
+    "kitâb"
+   ],
+   "answer": "kataba",
+   "acceptedAnswers": [
+    "kataba"
+   ],
+   "hint": "Trois lettres, trois fathas.",
+   "explanation": "كَتَبَ porte une fatha sur chacune de ses 3 lettres : ka-ta-ba, « il a écrit ». La fatha finale se prononce.",
+   "tip": "Verbe de base = 3 lettres, 3 voyelles : CaCaCa.",
+   "extraExample": {
+    "text": "كَتَبَ كِتَابًا",
+    "translation": "Il a écrit un livre.",
+    "transliteration": "kataba kitâban"
+   },
+   "errorPatterns": [
+    {
+     "equals": "katab",
+     "category": "spelling",
+     "feedback": "La dernière lettre porte une fatha : on la lit, ka-ta-ba."
+    },
+    {
+     "equals": "kitâb",
+     "category": "spelling",
+     "feedback": "كِتَاب (le livre) a une kasra sous ك et un ا. Ici, trois fathas et pas de ا : kataba."
+    },
+    {
+     "equals": "kutiba",
+     "category": "spelling",
+     "feedback": "Les petits traits sont au-dessus des lettres : ce sont des fathas (a), pas une damma et une kasra."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e02",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.kitab"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Quelle est la racine (les 3 lettres de base) de ce mot ?",
+   "prompt": "كِتَاب",
+   "promptLanguage": "ar",
+   "options": [
+    "ك ت ب",
+    "ك ت ا",
+    "ت ا ب"
+   ],
+   "answer": "ك ت ب",
+   "acceptedAnswers": [
+    "ك ت ب"
+   ],
+   "explanation": "Le ا de كِتَاب sert à allonger la voyelle (tâ) ; il ne fait pas partie de la racine. Les 3 consonnes qui portent le sens « écrire » sont ك ت ب.",
+   "tip": "La racine ne garde que les consonnes de base : on enlève les ا, و, ي qui allongent.",
+   "extraExample": {
+    "text": "كُتُب",
+    "translation": "des livres (même racine ك ت ب)",
+    "transliteration": "kutub"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ك ت ا",
+     "category": "spelling",
+     "feedback": "Le ا est une voyelle longue ajoutée, pas une lettre de la racine : ك ت ب."
+    },
+    {
+     "equals": "ت ا ب",
+     "category": "spelling",
+     "feedback": "Le ك du début fait partie de la racine (écrire) ; le ا, lui, n'en fait pas partie."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e03",
+   "unitIds": [
+    "ar.v.kataba",
+    "ar.v.darasa",
+    "ar.v.dhahaba",
+    "ar.v.akala",
+    "ar.v.chariba"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque verbe à sa traduction.",
+   "prompt": "Cinq verbes de 3 lettres",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "كَتَبَ",
+     "right": "il a écrit"
+    },
+    {
+     "left": "دَرَسَ",
+     "right": "il a étudié"
+    },
+    {
+     "left": "ذَهَبَ",
+     "right": "il est allé"
+    },
+    {
+     "left": "أَكَلَ",
+     "right": "il a mangé"
+    },
+    {
+     "left": "شَرِبَ",
+     "right": "il a bu"
+    }
+   ],
+   "answer": "كَتَبَ = il a écrit ; دَرَسَ = il a étudié ; ذَهَبَ = il est allé ; أَكَلَ = il a mangé ; شَرِبَ = il a bu",
+   "acceptedAnswers": [],
+   "explanation": "Tous ces verbes sont au passé, à la forme « il » : c'est la forme de base de 3 lettres que l'on cherche dans le dictionnaire."
+  },
+  {
+   "id": "ar.l18.e04",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.chariba"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis vite : quel mot est écrit ?",
+   "prompt": "شَرِبَ",
+   "promptLanguage": "ar",
+   "options": [
+    "chariba",
+    "charaba",
+    "churiba",
+    "sariba"
+   ],
+   "answer": "chariba",
+   "acceptedAnswers": [
+    "chariba"
+   ],
+   "hint": "Regarde bien la voyelle sous le ر.",
+   "explanation": "شَ = cha, رِ = ri (kasra sous ر), بَ = ba : chariba, « il a bu ». Ce verbe suit le rythme CaCiCa.",
+   "tip": "Tous les verbes ne font pas kataba : vérifie la voyelle du milieu.",
+   "extraExample": {
+    "text": "شَرِبَ الْمَاءَ",
+    "translation": "Il a bu l'eau.",
+    "transliteration": "chariba l-mâ'"
+   },
+   "errorPatterns": [
+    {
+     "equals": "charaba",
+     "category": "spelling",
+     "feedback": "Sous le ر il y a une kasra (petit trait dessous) : ri, pas ra."
+    },
+    {
+     "equals": "sariba",
+     "category": "spelling",
+     "feedback": "ش a trois points : c'est ch, pas s."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e05",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.maktab"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot appartient à la famille de كَتَبَ (écrire) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "مَكْتَب",
+    "مَطْعَم",
+    "مَدْرَسَة",
+    "جَلَسَ"
+   ],
+   "answer": "مَكْتَب",
+   "acceptedAnswers": [
+    "مَكْتَب"
+   ],
+   "explanation": "مَكْتَب contient ك ت ب dans le même ordre, avec مَـ devant (le lieu) : le bureau, « le lieu où l'on écrit ».",
+   "tip": "Cherche les 3 lettres de la racine, dans le même ordre, au milieu du mot.",
+   "extraExample": {
+    "text": "مَكْتَبَة",
+    "translation": "la bibliothèque (racine ك ت ب)",
+    "transliteration": "maktaba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "مَطْعَم",
+     "category": "word_confusion",
+     "feedback": "مَطْعَم commence aussi par مَـ, mais sa racine est ط ع م (manger) : c'est le restaurant."
+    },
+    {
+     "equals": "مَدْرَسَة",
+     "category": "word_confusion",
+     "feedback": "مَدْرَسَة vient de la racine د ر س (étudier), pas de ك ت ب."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e06",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.fataha"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis vite : quel mot est écrit ?",
+   "prompt": "فَتَحَ",
+   "promptLanguage": "ar",
+   "options": [
+    "fata7a",
+    "qata7a",
+    "fatakha",
+    "fati7a"
+   ],
+   "answer": "fata7a",
+   "acceptedAnswers": [
+    "fata7a"
+   ],
+   "hint": "ف a un seul point ; ح n'en a aucun.",
+   "explanation": "فَ = fa (un point : f), تَ = ta, حَ = 7a (aucun point) : fata7a, « il a ouvert ».",
+   "tip": "Rythme CaCaCa : trois fathas, une seule lecture possible.",
+   "extraExample": {
+    "text": "فَتَحَ الْبَابَ",
+    "translation": "Il a ouvert la porte.",
+    "transliteration": "fata7a l-bâb"
+   },
+   "errorPatterns": [
+    {
+     "equals": "qata7a",
+     "category": "spelling",
+     "feedback": "ف a un seul point au-dessus ; ق en a deux."
+    },
+    {
+     "equals": "fatakha",
+     "category": "spelling",
+     "feedback": "La dernière lettre n'a pas de point : c'est ح (7), pas خ (kh)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e07",
+   "unitIds": [
+    "ar.v.djalasa",
+    "ar.g18.three_letter_roots"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Que veut dire ce verbe ?",
+   "prompt": "جَلَسَ",
+   "promptLanguage": "ar",
+   "options": [
+    "il s'est assis",
+    "il a étudié",
+    "il a écrit",
+    "il a ouvert"
+   ],
+   "answer": "il s'est assis",
+   "acceptedAnswers": [
+    "il s'est assis"
+   ],
+   "explanation": "جَلَسَ (dja-la-sa) veut dire « il s'est assis ». Racine ج ل س.",
+   "tip": "Associe chaque racine à une image : ج ل س = une chaise.",
+   "extraExample": {
+    "text": "جَلَسَ فِي الْمَطْعَمِ",
+    "translation": "Il s'est assis au restaurant.",
+    "transliteration": "djalasa fî l-maT3am"
+   },
+   "errorPatterns": [
+    {
+     "equals": "il a ouvert",
+     "category": "vocabulary",
+     "feedback": "« Il a ouvert » se dit فَتَحَ (fata7a)."
+    },
+    {
+     "equals": "il a étudié",
+     "category": "vocabulary",
+     "feedback": "« Il a étudié » se dit دَرَسَ ; il finit aussi par سَ, mais commence par د."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e08",
+   "unitIds": [
+    "ar.g17.open_closed_syllables",
+    "ar.v.darasa"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Combien de syllabes dans ce verbe ?",
+   "prompt": "دَرَسَ",
+   "promptLanguage": "ar",
+   "options": [
+    "2",
+    "3",
+    "4"
+   ],
+   "answer": "3",
+   "acceptedAnswers": [
+    "3"
+   ],
+   "explanation": "Révision des syllabes : trois lettres avec fatha = trois syllabes ouvertes, da-ra-sa.",
+   "tip": "Un verbe de base vocalisé CaCaCa = 3 syllabes ouvertes.",
+   "extraExample": {
+    "text": "ذَهَبَ",
+    "translation": "il est allé : dha-ha-ba",
+    "transliteration": "dhahaba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "2",
+     "category": "spelling",
+     "feedback": "La fatha finale se prononce dans un verbe : da-ra-sa, trois syllabes."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e09",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.kataba",
+    "ar.v.kitab",
+    "ar.v.maktab",
+    "ar.v.darasa",
+    "ar.v.madrasa"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Deux familles : écrire et étudier",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "كَتَبَ",
+     "right": "il a écrit"
+    },
+    {
+     "left": "كِتَاب",
+     "right": "le livre"
+    },
+    {
+     "left": "مَكْتَب",
+     "right": "le bureau"
+    },
+    {
+     "left": "دَرَسَ",
+     "right": "il a étudié"
+    },
+    {
+     "left": "مَدْرَسَة",
+     "right": "l'école"
+    }
+   ],
+   "answer": "كَتَبَ = il a écrit ; كِتَاب = le livre ; مَكْتَب = le bureau ; دَرَسَ = il a étudié ; مَدْرَسَة = l'école",
+   "acceptedAnswers": [],
+   "explanation": "ك ت ب donne كَتَبَ, كِتَاب, مَكْتَب ; د ر س donne دَرَسَ et مَدْرَسَة. Le مَـ du début indique souvent un lieu."
+  },
+  {
+   "id": "ar.l18.e10",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.akala",
+    "ar.v.fataha",
+    "ar.v.djalasa",
+    "ar.v.dhahaba",
+    "ar.v.chariba"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque verbe à sa lecture.",
+   "prompt": "Lis chaque verbe d'un coup",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "أَكَلَ",
+     "right": "'akala"
+    },
+    {
+     "left": "فَتَحَ",
+     "right": "fata7a"
+    },
+    {
+     "left": "جَلَسَ",
+     "right": "djalasa"
+    },
+    {
+     "left": "ذَهَبَ",
+     "right": "dhahaba"
+    },
+    {
+     "left": "شَرِبَ",
+     "right": "chariba"
+    }
+   ],
+   "answer": "أَكَلَ = 'akala ; فَتَحَ = fata7a ; جَلَسَ = djalasa ; ذَهَبَ = dhahaba ; شَرِبَ = chariba",
+   "acceptedAnswers": [],
+   "explanation": "Quatre de ces verbes suivent le rythme CaCaCa ; شَرِبَ suit CaCiCa (kasra sous ر)."
+  },
+  {
+   "id": "ar.l18.e11",
+   "unitIds": [
+    "ar.v.madrasa",
+    "ar.g18.three_letter_roots"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la racine.",
+   "prompt": "Quelle est la racine de مَدْرَسَة ?",
+   "promptLanguage": "fr",
+   "options": [
+    "د ر س",
+    "م د ر",
+    "ر س ة"
+   ],
+   "answer": "د ر س",
+   "acceptedAnswers": [
+    "د ر س"
+   ],
+   "explanation": "Révision : مَدْرَسَة = مَـ (lieu) + د ر س (étudier) + ـة. C'est « le lieu où l'on étudie ».",
+   "tip": "Enlève مَـ au début et ـة à la fin : il reste la racine.",
+   "extraExample": {
+    "text": "دَرَسَ فِي الْمَدْرَسَةِ",
+    "translation": "Il a étudié à l'école.",
+    "transliteration": "darasa fî l-madrasa"
+   },
+   "errorPatterns": [
+    {
+     "equals": "م د ر",
+     "category": "spelling",
+     "feedback": "Le مَـ du début est un ajout qui indique le lieu ; il ne fait pas partie de la racine."
+    },
+    {
+     "equals": "ر س ة",
+     "category": "spelling",
+     "feedback": "Le ة final est une terminaison (féminin), pas une lettre de la racine."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e12",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.dhahaba"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Attention aux points et aux voyelles.",
+   "prompt": "Quel mot veut dire « il est allé » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ذَهَبَ",
+    "ذَهَب",
+    "دَهَبَ"
+   ],
+   "answer": "ذَهَبَ",
+   "acceptedAnswers": [
+    "ذَهَبَ"
+   ],
+   "explanation": "ذَهَبَ commence par ذ (un point, dh) et porte une fatha sur chaque lettre : dha-ha-ba, « il est allé ».",
+   "tip": "Le verbe porte une voyelle sur sa dernière lettre ; le nom lu seul, non.",
+   "extraExample": {
+    "text": "ذَهَبَ إِلَى السُّوقِ",
+    "translation": "Il est allé au marché.",
+    "transliteration": "dhahaba 'ilâ s-sûq"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ذَهَب",
+     "category": "word_confusion",
+     "feedback": "Sans voyelle finale, ذَهَب est un nom : l'or. Le verbe porte une fatha sur chaque lettre."
+    },
+    {
+     "equals": "دَهَبَ",
+     "category": "spelling",
+     "feedback": "د n'a pas de point : le verbe « aller » commence par ذ (dh)."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e13",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.kitab",
+    "ar.v.fataha"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète : « Il a ouvert le livre. »",
+   "prompt": "فَتَحَ ___",
+   "promptLanguage": "ar",
+   "options": [
+    "الْكِتَابَ",
+    "الْمَكْتَبَ",
+    "كَتَبَ"
+   ],
+   "answer": "الْكِتَابَ",
+   "acceptedAnswers": [
+    "الْكِتَابَ"
+   ],
+   "explanation": "« Le livre » = الْكِتَابَ (ki-tâb, avec ا). الْمَكْتَب est le bureau et كَتَبَ est un verbe : même racine, autre sens.",
+   "tip": "Même racine, sens différent : regarde les lettres ajoutées (ا, مَـ).",
+   "extraExample": {
+    "text": "فَتَحَ الْمَكْتَبَ",
+    "translation": "Il a ouvert le bureau.",
+    "transliteration": "fata7a l-maktab"
+   },
+   "errorPatterns": [
+    {
+     "equals": "الْمَكْتَبَ",
+     "category": "word_confusion",
+     "feedback": "الْمَكْتَب (avec مَـ) est le bureau. Le livre, c'est الْكِتَاب, avec un ا."
+    },
+    {
+     "equals": "كَتَبَ",
+     "category": "word_confusion",
+     "feedback": "كَتَبَ est un verbe (il a écrit). Après فَتَحَ, il faut un nom : الْكِتَابَ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e14",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.akala",
+    "ar.v.samak"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète : « Il a mangé le poisson. »",
+   "prompt": "___ السَّمَكَ",
+   "promptLanguage": "ar",
+   "options": [
+    "أَكَلَ",
+    "شَرِبَ",
+    "كَتَبَ"
+   ],
+   "answer": "أَكَلَ",
+   "acceptedAnswers": [
+    "أَكَلَ"
+   ],
+   "explanation": "« Il a mangé » = أَكَلَ ('a-ka-la), racine أ ك ل. شَرِبَ veut dire « il a bu ».",
+   "tip": "أ ك ل = manger ; ش ر ب = boire.",
+   "extraExample": {
+    "text": "أَكَلَ الْخُبْزَ",
+    "translation": "Il a mangé le pain.",
+    "transliteration": "'akala l-khubz"
+   },
+   "errorPatterns": [
+    {
+     "equals": "شَرِبَ",
+     "category": "vocabulary",
+     "feedback": "شَرِبَ veut dire « il a bu ». On mange le poisson : أَكَلَ."
+    },
+    {
+     "equals": "كَتَبَ",
+     "category": "vocabulary",
+     "feedback": "كَتَبَ veut dire « il a écrit ». « Il a mangé » : أَكَلَ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e15",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.dhahaba",
+    "ar.v.madrasa"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète : « Il est allé à l'école. »",
+   "prompt": "___ إِلَى الْمَدْرَسَةِ",
+   "promptLanguage": "ar",
+   "options": [
+    "ذَهَبَ",
+    "جَلَسَ",
+    "دَرَسَ"
+   ],
+   "answer": "ذَهَبَ",
+   "acceptedAnswers": [
+    "ذَهَبَ"
+   ],
+   "explanation": "« Il est allé » = ذَهَبَ. Avec إِلَى (vers), on attend un verbe de mouvement.",
+   "tip": "ذَهَبَ + إِلَى = aller à.",
+   "extraExample": {
+    "text": "ذَهَبَ إِلَى الْمَطْعَمِ",
+    "translation": "Il est allé au restaurant.",
+    "transliteration": "dhahaba 'ilâ l-maT3am"
+   },
+   "errorPatterns": [
+    {
+     "equals": "دَرَسَ",
+     "category": "word_confusion",
+     "feedback": "دَرَسَ veut dire « il a étudié ». Avec إِلَى (vers), il faut le verbe « aller » : ذَهَبَ."
+    },
+    {
+     "equals": "جَلَسَ",
+     "category": "word_confusion",
+     "feedback": "جَلَسَ veut dire « il s'est assis ». Pour « il est allé », c'est ذَهَبَ."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e16",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.darasa",
+    "ar.v.kitab",
+    "ar.v.maktab"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre : « Il a étudié le livre au bureau. »",
+   "prompt": "Remets dans l'ordre : il a étudié / le livre / au bureau",
+   "promptLanguage": "fr",
+   "tokens": [
+    "فِي",
+    "الْمَكْتَبِ",
+    "دَرَسَ",
+    "الْكِتَابَ"
+   ],
+   "answer": "دَرَسَ الْكِتَابَ فِي الْمَكْتَبِ",
+   "acceptedAnswers": [
+    "دَرَسَ الْكِتَابَ فِي الْمَكْتَبِ"
+   ],
+   "explanation": "En arabe, la phrase commence souvent par le verbe : دَرَسَ, puis ce qu'il a étudié (الْكِتَابَ), puis le lieu (فِي الْمَكْتَبِ).",
+   "tip": "Verbe d'abord, puis l'objet, puis le lieu.",
+   "extraExample": {
+    "text": "كَتَبَ الْكِتَابَ فِي الْمَدْرَسَةِ",
+    "translation": "Il a écrit le livre à l'école.",
+    "transliteration": "kataba l-kitâba fî l-madrasa"
+   }
+  },
+  {
+   "id": "ar.l18.e17",
+   "unitIds": [
+    "ar.v.samak",
+    "ar.v.akala",
+    "ar.v.madrasa"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre : « Il a mangé le poisson à l'école. »",
+   "prompt": "Remets dans l'ordre : il a mangé / le poisson / à l'école",
+   "promptLanguage": "fr",
+   "tokens": [
+    "السَّمَكَ",
+    "فِي",
+    "الْمَدْرَسَةِ",
+    "أَكَلَ"
+   ],
+   "answer": "أَكَلَ السَّمَكَ فِي الْمَدْرَسَةِ",
+   "acceptedAnswers": [
+    "أَكَلَ السَّمَكَ فِي الْمَدْرَسَةِ"
+   ],
+   "explanation": "Verbe (أَكَلَ), objet (السَّمَكَ), puis lieu (فِي الْمَدْرَسَةِ). Révision : سَمَك et مَدْرَسَة viennent de la leçon précédente.",
+   "tip": "Repère d'abord le verbe de 3 lettres : il ouvre la phrase.",
+   "extraExample": {
+    "text": "شَرِبَ الْمَاءَ فِي الْمَدْرَسَةِ",
+    "translation": "Il a bu l'eau à l'école.",
+    "transliteration": "chariba l-mâ'a fî l-madrasa"
+   }
+  },
+  {
+   "id": "ar.l18.e18",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.kataba",
+    "ar.v.maktab"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "كَتَبَ فِي الْمَكْتَبِ",
+   "promptLanguage": "ar",
+   "answer": "Il a écrit au bureau.",
+   "acceptedAnswers": [
+    "Il a écrit au bureau.",
+    "Il a écrit dans le bureau.",
+    "Il écrivait au bureau.",
+    "Il écrivit au bureau."
+   ],
+   "explanation": "كَتَبَ = il a écrit ; فِي = à, dans ; الْمَكْتَبِ = le bureau (مَـ + ك ت ب : le lieu où l'on écrit).",
+   "tip": "مَـ + racine = un lieu : مَكْتَب, مَطْعَم, مَدْرَسَة.",
+   "extraExample": {
+    "text": "دَرَسَ فِي الْمَدْرَسَةِ",
+    "translation": "Il a étudié à l'école.",
+    "transliteration": "darasa fî l-madrasa"
+   },
+   "errorPatterns": [
+    {
+     "contains": "livre",
+     "category": "vocabulary",
+     "feedback": "مَكْتَب (avec مَـ) est le bureau ; le livre, c'est كِتَاب."
+    },
+    {
+     "contains": "bibliothèque",
+     "category": "vocabulary",
+     "feedback": "La bibliothèque se dit مَكْتَبَة (avec ـة). مَكْتَب, c'est le bureau."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e19",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.djalasa",
+    "ar.v.kataba"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en français.",
+   "prompt": "جَلَسَ وَكَتَبَ",
+   "promptLanguage": "ar",
+   "answer": "Il s'est assis et il a écrit.",
+   "acceptedAnswers": [
+    "Il s'est assis et il a écrit.",
+    "Il s'est assis et a écrit.",
+    "Il s'assit et écrivit.",
+    "Il s'est assis puis il a écrit.",
+    "Il s'est assis puis a écrit."
+   ],
+   "explanation": "Deux verbes de 3 lettres reliés par وَ (et), collé au second : جَلَسَ = il s'est assis, وَ = et, كَتَبَ = il a écrit.",
+   "tip": "وَ se colle au mot suivant : وَكَتَبَ = wa + kataba.",
+   "extraExample": {
+    "text": "أَكَلَ وَشَرِبَ",
+    "translation": "Il a mangé et il a bu.",
+    "transliteration": "'akala wa-chariba"
+   },
+   "errorPatterns": [
+    {
+     "contains": "ouvert",
+     "category": "vocabulary",
+     "feedback": "فَتَحَ = il a ouvert ; ici le premier verbe est جَلَسَ, il s'est assis."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e20",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.kitab"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ce mot en lettres latines.",
+   "prompt": "كِتَاب",
+   "promptLanguage": "ar",
+   "answer": "kitâb",
+   "acceptedAnswers": [
+    "kitâb",
+    "kitab",
+    "kitaab"
+   ],
+   "hint": "Kasra sous ك, puis un ا qui allonge.",
+   "explanation": "كِ = ki, تَا = tâ (fatha + ا = a long), ب = b : kitâb, le livre.",
+   "tip": "Fatha + ا = â long : écris â, ou aa.",
+   "extraExample": {
+    "text": "هٰذَا كِتَابٌ جَدِيدٌ",
+    "translation": "C'est un nouveau livre.",
+    "transliteration": "hâdhâ kitâbun djadîd"
+   },
+   "errorPatterns": [
+    {
+     "equals": "katab",
+     "category": "spelling",
+     "feedback": "Sous ك il y a une kasra (ki) et le ا allonge le a : ki-tâb."
+    },
+    {
+     "equals": "kataba",
+     "category": "word_confusion",
+     "feedback": "kataba, c'est le verbe كَتَبَ (il a écrit), sans ا. Ici : ki-tâb, le livre."
+    }
+   ]
+  },
+  {
+   "id": "ar.l18.e21",
+   "unitIds": [
+    "ar.g18.three_letter_roots",
+    "ar.v.maktab"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la racine de ce mot en lettres latines, séparées par des tirets.",
+   "prompt": "مَكْتَب",
+   "promptLanguage": "ar",
+   "answer": "k-t-b",
+   "acceptedAnswers": [
+    "k-t-b",
+    "ktb"
+   ],
+   "hint": "Enlève le مَـ du début.",
+   "explanation": "مَكْتَب = مَـ (lieu) + ك ت ب. La racine est k-t-b, l'idée d'écrire.",
+   "tip": "مَـ au début d'un mot est très souvent un ajout : la racine commence après.",
+   "extraExample": {
+    "text": "مَكْتَب، كِتَاب، كَتَبَ",
+    "translation": "bureau, livre, il a écrit : une seule racine",
+    "transliteration": "maktab, kitâb, kataba"
+   },
+   "errorPatterns": [
+    {
+     "equals": "m-k-t",
+     "category": "spelling",
+     "feedback": "Le مَـ du début est un ajout (« lieu de ») ; la racine est k-t-b."
+    },
+    {
+     "equals": "m-k-t-b",
+     "category": "spelling",
+     "feedback": "Une racine a 3 lettres : on enlève le مَـ, il reste k-t-b."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,915 @@
+{
+ "lessonId": "en.l77",
+ "exercises": [
+  {
+   "id": "en.l77.e01",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.invent"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "The telephone ___ by Alexander Graham Bell in 1876.",
+   "promptLanguage": "en",
+   "options": [
+    "was invented",
+    "invented",
+    "is invented",
+    "was invent"
+   ],
+   "answer": "was invented",
+   "acceptedAnswers": [
+    "was invented"
+   ],
+   "hint": "Le téléphone n'a rien inventé : il a été inventé.",
+   "explanation": "Le téléphone ne fait pas l'action, il la subit : c'est le passif, be + participe passé. L'action date de 1876, donc be se met au passé : was invented.",
+   "tip": "Passif = be au bon temps + participe passé.",
+   "extraExample": {
+    "text": "The first computer was built in the 1940s.",
+    "translation": "Le premier ordinateur a été construit dans les années 1940."
+   },
+   "errorPatterns": [
+    {
+     "equals": "invented",
+     "category": "grammar",
+     "feedback": "Sans was, la phrase devient active : ce serait le téléphone qui invente. Au passif : was invented."
+    },
+    {
+     "equals": "is invented",
+     "category": "verb_tense",
+     "feedback": "1876 est dans le passé : be se met au passé, was invented."
+    },
+    {
+     "equals": "was invent",
+     "category": "conjugation",
+     "feedback": "Après was, il faut le participe passé : invented."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e02",
+   "unitIds": [
+    "en.v.invent",
+    "en.v.discover",
+    "en.v.scientist",
+    "en.v.research",
+    "en.v.factory"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les mots de la science et de l'industrie",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "invent",
+     "right": "inventer"
+    },
+    {
+     "left": "discover",
+     "right": "découvrir"
+    },
+    {
+     "left": "scientist",
+     "right": "scientifique"
+    },
+    {
+     "left": "research",
+     "right": "recherche(s)"
+    },
+    {
+     "left": "factory",
+     "right": "usine"
+    }
+   ],
+   "answer": "invent = inventer ; discover = découvrir ; scientist = scientifique ; research = recherche(s) ; factory = usine",
+   "acceptedAnswers": [],
+   "explanation": "Invent = créer ce qui n'existait pas ; discover = trouver ce qui existait déjà. Research est indénombrable : do research, sans -s ni a.",
+   "tip": "On invente une machine, on découvre une planète.",
+   "extraExample": {
+    "text": "Penicillin was discovered, but the computer was invented.",
+    "translation": "La pénicilline a été découverte, mais l'ordinateur a été inventé."
+   }
+  },
+  {
+   "id": "en.l77.e03",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.produce"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne traduction.",
+   "prompt": "Comment dit-on « Ces téléphones sont fabriqués en Chine » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "These phones are produced in China.",
+    "These phones produce in China.",
+    "These phones are produce in China.",
+    "These phones were produced in China."
+   ],
+   "answer": "These phones are produced in China.",
+   "acceptedAnswers": [
+    "These phones are produced in China."
+   ],
+   "explanation": "« Sont fabriqués » décrit un fait au présent, et les téléphones subissent l'action : passif présent, are + participe passé. Le sujet est pluriel (these phones), donc are.",
+   "tip": "Passif au présent : am / is / are + participe passé.",
+   "extraExample": {
+    "text": "Coffee is grown in Brazil.",
+    "translation": "Le café est cultivé au Brésil."
+   },
+   "errorPatterns": [
+    {
+     "equals": "these phones produce in china",
+     "category": "grammar",
+     "feedback": "Sans are, la phrase est active : ce seraient les téléphones qui produisent. Il faut are + participe passé."
+    },
+    {
+     "equals": "these phones are produce in china",
+     "category": "conjugation",
+     "feedback": "Après are, le verbe se met au participe passé : produced."
+    },
+    {
+     "equals": "these phones were produced in china",
+     "category": "verb_tense",
+     "feedback": "« Sont fabriqués » est au présent : are produced. Were produced voudrait dire « ont été fabriqués »."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e04",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.factory"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le verbe make au passif.",
+   "prompt": "Thousands of cars ___ in this factory every year.",
+   "promptLanguage": "en",
+   "options": [
+    "are made",
+    "is made",
+    "make",
+    "are make"
+   ],
+   "answer": "are made",
+   "acceptedAnswers": [
+    "are made"
+   ],
+   "hint": "Sujet pluriel + habitude : be au présent pluriel.",
+   "explanation": "Les voitures ne fabriquent rien : elles sont fabriquées, c'est un passif. Every year indique une habitude, donc le présent ; thousands of cars est pluriel : are + made (participe passé irrégulier de make).",
+   "tip": "Make – made – made : au passif, on dit is made / are made.",
+   "extraExample": {
+    "text": "Bread is made every morning in this bakery.",
+    "translation": "Le pain est fait tous les matins dans cette boulangerie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "is made",
+     "category": "grammar",
+     "feedback": "Thousands of cars est pluriel : are made, pas is made."
+    },
+    {
+     "equals": "make",
+     "category": "grammar",
+     "feedback": "Make est actif : ce seraient les voitures qui fabriquent. Au passif : are made."
+    },
+    {
+     "equals": "are make",
+     "category": "conjugation",
+     "feedback": "Après are, il faut le participe passé : made."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e05",
+   "unitIds": [
+    "en.g22.irregular_verbs",
+    "en.g58.passive_present_past"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne série.",
+   "prompt": "Quelle série donne write – past simple – participe passé ?",
+   "promptLanguage": "fr",
+   "options": [
+    "write – wrote – written",
+    "write – written – wrote",
+    "write – writed – writed",
+    "write – wrote – wrote"
+   ],
+   "answer": "write – wrote – written",
+   "acceptedAnswers": [
+    "write – wrote – written"
+   ],
+   "explanation": "Write est irrégulier : wrote au past simple, written au participe passé. C'est le participe passé qu'on utilise au passif : The book was written in 1950.",
+   "tip": "Pour le passif, il te faut toujours la 3e colonne (participe passé) : written, made, built.",
+   "extraExample": {
+    "text": "This article was written by two journalists.",
+    "translation": "Cet article a été écrit par deux journalistes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "write – written – wrote",
+     "category": "conjugation",
+     "feedback": "L'ordre est inversé : wrote est le past simple, written le participe passé."
+    },
+    {
+     "equals": "write – writed – writed",
+     "category": "conjugation",
+     "feedback": "Write est irrégulier : on n'ajoute pas -ed. Write – wrote – written."
+    },
+    {
+     "equals": "write – wrote – wrote",
+     "category": "conjugation",
+     "feedback": "Le participe passé de write n'est pas wrote mais written."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e06",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.discover"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe discover au passif.",
+   "prompt": "Penicillin ___ by Alexander Fleming in 1928.",
+   "promptLanguage": "en",
+   "options": [
+    "was discovered",
+    "discovered",
+    "is discovered",
+    "were discovered"
+   ],
+   "answer": "was discovered",
+   "acceptedAnswers": [
+    "was discovered"
+   ],
+   "hint": "Qui a fait l'action ? Fleming. Le sujet de la phrase, lui, la subit.",
+   "explanation": "La pénicilline subit l'action (on l'a découverte) : passif. 1928 est un moment passé, et penicillin est singulier : was + discovered.",
+   "tip": "Date du passé + passif : was / were + participe passé.",
+   "extraExample": {
+    "text": "Pluto was discovered in 1930.",
+    "translation": "Pluton a été découverte en 1930."
+   },
+   "errorPatterns": [
+    {
+     "equals": "discovered",
+     "category": "grammar",
+     "feedback": "Sans was, la phrase devient active : la pénicilline aurait découvert quelque chose. Il faut was discovered."
+    },
+    {
+     "equals": "is discovered",
+     "category": "verb_tense",
+     "feedback": "1928 est dans le passé : was discovered."
+    },
+    {
+     "equals": "were discovered",
+     "category": "grammar",
+     "feedback": "Penicillin est singulier : was, pas were."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e07",
+   "unitIds": [
+    "en.g58.passive_present_past"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque forme passive à sa traduction.",
+   "prompt": "Présent ou passé ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "it is made",
+     "right": "il est fabriqué"
+    },
+    {
+     "left": "it was made",
+     "right": "il a été fabriqué"
+    },
+    {
+     "left": "they are sold",
+     "right": "ils sont vendus"
+    },
+    {
+     "left": "they were sold",
+     "right": "ils ont été vendus"
+    },
+    {
+     "left": "it is spoken",
+     "right": "on le parle"
+    }
+   ],
+   "answer": "it is made = il est fabriqué ; it was made = il a été fabriqué ; they are sold = ils sont vendus ; they were sold = ils ont été vendus ; it is spoken = on le parle",
+   "acceptedAnswers": [],
+   "explanation": "Is / are = présent ; was / were = passé. Au passif, c'est be qui porte le temps : le participe passé (made, sold, spoken) ne change pas. Souvent, le passif anglais se traduit par « on ».",
+   "tip": "Change be pour changer le temps : is made → was made.",
+   "extraExample": {
+    "text": "Spanish is spoken in Mexico.",
+    "translation": "On parle espagnol au Mexique."
+   }
+  },
+  {
+   "id": "en.l77.e08",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.invention",
+    "en.v.device"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le texte, puis choisis la phrase vraie.",
+   "context": "The first mobile phone call was made in New York in 1973. The device weighed more than one kilo, and it was not sold to the public until 1983. This invention changed our lives: today, more than a billion smartphones are sold every year.",
+   "prompt": "Which sentence is true according to the text?",
+   "promptLanguage": "en",
+   "options": [
+    "More than a billion smartphones are sold every year.",
+    "The first mobile phone was sold in 1973.",
+    "The device weighed less than one kilo.",
+    "The first call was made in London."
+   ],
+   "answer": "More than a billion smartphones are sold every year.",
+   "acceptedAnswers": [
+    "More than a billion smartphones are sold every year."
+   ],
+   "explanation": "Le texte dit « more than a billion smartphones are sold every year » : passif présent (are sold) pour un fait actuel. The first call was made in 1973 : passif passé pour un moment terminé.",
+   "tip": "Dans un texte, regarde be : is / are = aujourd'hui, was / were = autrefois.",
+   "extraExample": {
+    "text": "The first email was sent in 1971.",
+    "translation": "Le premier e-mail a été envoyé en 1971."
+   },
+   "errorPatterns": [
+    {
+     "equals": "the first mobile phone was sold in 1973",
+     "category": "instruction",
+     "feedback": "Relis le texte : en 1973, c'est le premier appel qui a été passé. Le téléphone a été vendu en 1983."
+    },
+    {
+     "equals": "the device weighed less than one kilo",
+     "category": "instruction",
+     "feedback": "Le texte dit more than one kilo : plus d'un kilo."
+    },
+    {
+     "equals": "the first call was made in london",
+     "category": "instruction",
+     "feedback": "Le premier appel a été passé à New York."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e09",
+   "unitIds": [
+    "en.g20.was_were",
+    "en.v.scientist"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec was ou were.",
+   "prompt": "Last year, the two scientists ___ very surprised by the results.",
+   "promptLanguage": "en",
+   "options": [
+    "were",
+    "was",
+    "are",
+    "been"
+   ],
+   "answer": "were",
+   "acceptedAnswers": [
+    "were"
+   ],
+   "explanation": "Last year situe la phrase dans le passé, et the two scientists est pluriel : were. Was s'emploie avec I, he, she, it ou un nom singulier.",
+   "tip": "Pluriel au passé : were ; singulier : was.",
+   "extraExample": {
+    "text": "The researchers were happy with the results.",
+    "translation": "Les chercheurs étaient contents des résultats."
+   },
+   "errorPatterns": [
+    {
+     "equals": "was",
+     "category": "grammar",
+     "feedback": "The two scientists est pluriel : were, pas was."
+    },
+    {
+     "equals": "are",
+     "category": "verb_tense",
+     "feedback": "Last year situe l'action dans le passé : were."
+    },
+    {
+     "equals": "been",
+     "category": "conjugation",
+     "feedback": "Been est un participe passé : il ne s'emploie pas seul après le sujet."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e10",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.technology"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe develop au passif.",
+   "prompt": "This technology ___ in Japan in the 1990s.",
+   "promptLanguage": "en",
+   "options": [
+    "was developed",
+    "developed",
+    "were developed",
+    "was develop"
+   ],
+   "answer": "was developed",
+   "acceptedAnswers": [
+    "was developed"
+   ],
+   "explanation": "La technologie a été mise au point : elle subit l'action, c'est un passif. Les années 1990 sont terminées, et technology est singulier : was developed.",
+   "tip": "Sujet singulier + passé : was + participe passé.",
+   "extraExample": {
+    "text": "The software was developed by a small team.",
+    "translation": "Le logiciel a été développé par une petite équipe."
+   },
+   "errorPatterns": [
+    {
+     "equals": "developed",
+     "category": "grammar",
+     "feedback": "Sans was, la technologie aurait développé quelque chose. Au passif : was developed."
+    },
+    {
+     "equals": "were developed",
+     "category": "grammar",
+     "feedback": "Technology est singulier : was developed."
+    },
+    {
+     "equals": "was develop",
+     "category": "conjugation",
+     "feedback": "Après was, il faut le participe passé : developed."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e11",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.device"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Où ces appareils sont-ils fabriqués ?",
+   "promptLanguage": "fr",
+   "tokens": [
+    "devices",
+    "made",
+    "Where",
+    "these",
+    "are"
+   ],
+   "answer": "Where are these devices made",
+   "acceptedAnswers": [
+    "Where are these devices made"
+   ],
+   "explanation": "Dans une question au passif, be passe devant le sujet : Where + are + these devices + made (participe passé). On n'utilise pas do.",
+   "tip": "Question au passif : mot interrogatif + be + sujet + participe passé.",
+   "extraExample": {
+    "text": "When was this bridge built?",
+    "translation": "Quand ce pont a-t-il été construit ?"
+   }
+  },
+  {
+   "id": "en.l77.e12",
+   "unitIds": [
+    "en.v.discover",
+    "en.v.invent",
+    "en.v.produce",
+    "en.g58.passive_present_past"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis le verbe qui convient.",
+   "prompt": "The planet Neptune was ___ in 1846.",
+   "promptLanguage": "en",
+   "options": [
+    "discovered",
+    "invented",
+    "produced"
+   ],
+   "answer": "discovered",
+   "acceptedAnswers": [
+    "discovered"
+   ],
+   "explanation": "Neptune existait déjà avant 1846 : on l'a découverte, on ne l'a pas inventée. Discover = trouver ce qui existait ; invent = créer ce qui n'existait pas.",
+   "tip": "Ce qui existait déjà est discovered ; ce qui est nouveau est invented.",
+   "extraExample": {
+    "text": "A new species of bird was discovered last year.",
+    "translation": "Une nouvelle espèce d'oiseau a été découverte l'an dernier."
+   },
+   "errorPatterns": [
+    {
+     "equals": "invented",
+     "category": "word_confusion",
+     "feedback": "On n'invente pas une planète : elle existait déjà. On la découvre : discovered."
+    },
+    {
+     "equals": "produced",
+     "category": "word_confusion",
+     "feedback": "Produce veut dire fabriquer. Une planète n'est pas fabriquée."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e13",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.scientist"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Ce livre a été écrit par une scientifique.",
+   "promptLanguage": "fr",
+   "answer": "This book was written by a scientist.",
+   "acceptedAnswers": [
+    "This book was written by a scientist.",
+    "This book has been written by a scientist.",
+    "That book was written by a scientist.",
+    "That book has been written by a scientist.",
+    "A scientist wrote this book.",
+    "A scientist wrote that book."
+   ],
+   "hint": "Write – wrote – written.",
+   "explanation": "Le livre subit l'action : passif, was + participe passé de write (written). « Par » se traduit by.",
+   "tip": "« Par » au passif = by.",
+   "extraExample": {
+    "text": "This song was written by a famous singer.",
+    "translation": "Cette chanson a été écrite par un chanteur célèbre."
+   },
+   "errorPatterns": [
+    {
+     "contains": "was wrote",
+     "category": "conjugation",
+     "feedback": "Wrote est le past simple. Au passif, il faut le participe passé : written."
+    },
+    {
+     "contains": "was write",
+     "category": "conjugation",
+     "feedback": "Après was, il faut le participe passé : written."
+    },
+    {
+     "contains": "written from",
+     "category": "preposition",
+     "feedback": "Au passif, « par » se dit by, pas from."
+    },
+    {
+     "contains": "written of",
+     "category": "preposition",
+     "feedback": "Au passif, « par » se dit by, pas of."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e14",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.invention"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la question.",
+   "prompt": "When ___ the first computer built?",
+   "promptLanguage": "en",
+   "options": [
+    "was",
+    "did",
+    "is",
+    "were"
+   ],
+   "answer": "was",
+   "acceptedAnswers": [
+    "was"
+   ],
+   "explanation": "Au passif, la question se fait avec be, qu'on place avant le sujet : When was it built? Did ne s'utilise pas ici, car le verbe built est déjà un participe passé.",
+   "tip": "Question au passif : be + sujet + participe passé, jamais did.",
+   "extraExample": {
+    "text": "Where were these photos taken?",
+    "translation": "Où ces photos ont-elles été prises ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "did",
+     "category": "grammar",
+     "feedback": "Au passif, la question se fait avec be : When was it built?, pas did."
+    },
+    {
+     "equals": "is",
+     "category": "verb_tense",
+     "feedback": "On parle du premier ordinateur, dans le passé : was."
+    },
+    {
+     "equals": "were",
+     "category": "grammar",
+     "feedback": "The first computer est singulier : was."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e15",
+   "unitIds": [
+    "en.g58.passive_present_past"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "English is spoken here.",
+   "promptLanguage": "en",
+   "answer": "Ici, on parle anglais.",
+   "acceptedAnswers": [
+    "Ici, on parle anglais.",
+    "On parle anglais ici.",
+    "Ici on parle l'anglais.",
+    "On parle l'anglais ici.",
+    "L'anglais est parlé ici.",
+    "Ici, l'anglais est parlé.",
+    "Ici, nous parlons anglais.",
+    "Nous parlons anglais ici."
+   ],
+   "explanation": "Le passif anglais se traduit très souvent par « on » en français. « L'anglais est parlé ici » est correct mais moins naturel.",
+   "tip": "Passif anglais sans by → pense à « on » en français.",
+   "extraExample": {
+    "text": "Credit cards are accepted.",
+    "translation": "On accepte les cartes bancaires."
+   }
+  },
+  {
+   "id": "en.l77.e16",
+   "unitIds": [
+    "en.g21.past_simple_regular",
+    "en.v.discover",
+    "en.v.scientist"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Les scientifiques ont découvert le problème en 2015.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "the",
+    "problem",
+    "The",
+    "discovered",
+    "in",
+    "scientists",
+    "2015"
+   ],
+   "answer": "The scientists discovered the problem in 2015",
+   "acceptedAnswers": [
+    "The scientists discovered the problem in 2015",
+    "In 2015 the scientists discovered the problem"
+   ],
+   "explanation": "Ici, les scientifiques font l'action : voix active, au past simple (discovered), car 2015 est une date précise du passé.",
+   "tip": "Date précise du passé : past simple, verbe régulier en -ed.",
+   "extraExample": {
+    "text": "They noticed the mistake in 2019.",
+    "translation": "Ils ont remarqué l'erreur en 2019."
+   }
+  },
+  {
+   "id": "en.l77.e17",
+   "unitIds": [
+    "en.g14.present_simple_third_person",
+    "en.v.factory"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais. « diriger » = run.",
+   "prompt": "Ma sœur dirige une usine près de Lyon.",
+   "promptLanguage": "fr",
+   "answer": "My sister runs a factory near Lyon.",
+   "acceptedAnswers": [
+    "My sister runs a factory near Lyon.",
+    "My sister runs a factory close to Lyon.",
+    "My sister manages a factory near Lyon.",
+    "My sister manages a factory close to Lyon.",
+    "My sister is the manager of a factory near Lyon.",
+    "My sister is the manager of a factory close to Lyon.",
+    "My sister is the director of a factory near Lyon.",
+    "My sister is the director of a factory close to Lyon.",
+    "My sister is the head of a factory near Lyon.",
+    "My sister is the head of a factory close to Lyon."
+   ],
+   "explanation": "Au présent simple, avec he / she (ici my sister), le verbe prend un -s : runs. Run a factory = diriger une usine.",
+   "tip": "My sister = she : n'oublie pas le -s du présent simple.",
+   "extraExample": {
+    "text": "My brother manages a small shop.",
+    "translation": "Mon frère gère une petite boutique."
+   },
+   "errorPatterns": [
+    {
+     "contains": "my sister run a",
+     "category": "conjugation",
+     "feedback": "Avec my sister (she), le verbe prend un -s : runs."
+    },
+    {
+     "contains": "my sister manage a",
+     "category": "conjugation",
+     "feedback": "Avec my sister (she), le verbe prend un -s : manages."
+    },
+    {
+     "contains": "is running a factory",
+     "category": "verb_tense",
+     "feedback": "C'est une situation permanente : présent simple, runs."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e18",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.device",
+    "en.v.produce"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Ces appareils ne sont plus fabriqués en France.",
+   "promptLanguage": "fr",
+   "answer": "These devices are no longer made in France.",
+   "acceptedAnswers": [
+    "These devices are no longer made in France.",
+    "These devices are no longer produced in France.",
+    "These devices are no longer manufactured in France.",
+    "Those devices are no longer made in France.",
+    "Those devices are no longer produced in France.",
+    "Those devices are no longer manufactured in France.",
+    "These devices are not made in France anymore.",
+    "These devices are not made in France any more.",
+    "These devices are not produced in France anymore.",
+    "These devices are not produced in France any more.",
+    "These devices are not manufactured in France anymore.",
+    "These devices are not manufactured in France any more.",
+    "Those devices are not made in France anymore.",
+    "Those devices are not made in France any more.",
+    "Those devices are not produced in France anymore.",
+    "Those devices are not produced in France any more.",
+    "Those devices are not manufactured in France anymore.",
+    "Those devices are not manufactured in France any more."
+   ],
+   "explanation": "Les appareils subissent l'action : passif présent, are + participe passé (made ou produced). « Ne… plus » se dit no longer, ou not… anymore en fin de phrase.",
+   "tip": "« Ne… plus » = no longer (devant le participe) ou not… anymore (à la fin).",
+   "extraExample": {
+    "text": "This model is no longer sold in shops.",
+    "translation": "Ce modèle n'est plus vendu en magasin."
+   },
+   "errorPatterns": [
+    {
+     "contains": "are no more",
+     "category": "word_confusion",
+     "feedback": "« Ne… plus » se dit no longer (ou not… anymore), pas no more."
+    },
+    {
+     "contains": "no longer make",
+     "category": "conjugation",
+     "feedback": "Après are, il faut le participe passé : made."
+    },
+    {
+     "contains": "no longer produce in",
+     "category": "conjugation",
+     "feedback": "Après are, il faut le participe passé : produced."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e19",
+   "unitIds": [
+    "en.g58.passive_present_past"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « On m'a volé mon téléphone » ?",
+   "promptLanguage": "fr",
+   "answer": "My phone was stolen.",
+   "acceptedAnswers": [
+    "My phone was stolen.",
+    "My phone has been stolen.",
+    "My mobile was stolen.",
+    "My mobile has been stolen.",
+    "My mobile phone was stolen.",
+    "My mobile phone has been stolen.",
+    "My cell phone was stolen.",
+    "My cell phone has been stolen.",
+    "Someone stole my phone.",
+    "Someone has stolen my phone.",
+    "Somebody stole my phone.",
+    "Somebody has stolen my phone."
+   ],
+   "hint": "Le sujet de la phrase anglaise est le téléphone.",
+   "explanation": "En anglais, on met au passif l'objet volé : my phone was stolen (steal – stole – stolen). « I was stolen » voudrait dire que toi, tu as été volé !",
+   "tip": "« On m'a volé X » = My X was stolen.",
+   "extraExample": {
+    "text": "My bike was stolen last night.",
+    "translation": "On m'a volé mon vélo hier soir."
+   },
+   "errorPatterns": [
+    {
+     "contains": "i was stolen",
+     "category": "grammar",
+     "feedback": "I was stolen voudrait dire que toi, tu as été volé. Le sujet est ton téléphone : My phone was stolen."
+    },
+    {
+     "contains": "was stole",
+     "category": "conjugation",
+     "feedback": "Stole est le past simple. Au passif, il faut le participe passé : stolen."
+    },
+    {
+     "contains": "one stole",
+     "category": "grammar",
+     "feedback": "« On » ne se traduit pas par one ici : utilise le passif, My phone was stolen."
+    }
+   ]
+  },
+  {
+   "id": "en.l77.e20",
+   "unitIds": [
+    "en.g58.passive_present_past"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase en anglais, au passif.",
+   "prompt": "Écris une phrase au passif sur une invention ou un objet : où il est fabriqué, quand ou par qui il a été inventé…",
+   "promptLanguage": "fr",
+   "requirements": {
+    "mustInclude": [
+     [
+      "is",
+      "are",
+      "was",
+      "were"
+     ],
+     [
+      "made",
+      "invented",
+      "built",
+      "produced",
+      "discovered",
+      "designed",
+      "created",
+      "sold",
+      "written",
+      "developed",
+      "used",
+      "grown",
+      "manufactured",
+      "sent",
+      "taken",
+      "found",
+      "painted",
+      "launched",
+      "opened",
+      "known",
+      "eaten",
+      "spoken",
+      "bought"
+     ]
+    ],
+    "minWords": 5
+   },
+   "answer": "Paper was invented in China.",
+   "acceptedAnswers": [
+    "Paper was invented in China.",
+    "My laptop was made in China.",
+    "The Eiffel Tower was built in 1889.",
+    "These shoes are produced in Italy."
+   ],
+   "hint": "Sujet + is / are / was / were + participe passé (+ by …).",
+   "explanation": "Une phrase au passif contient be au bon temps (is / are, was / were) + un participe passé. Ajoute by + l'auteur seulement si c'est utile.",
+   "tip": "Vérifie que ton verbe principal est bien au participe passé (made, built, invented).",
+   "extraExample": {
+    "text": "The Eiffel Tower was built in 1889.",
+    "translation": "La tour Eiffel a été construite en 1889."
+   },
+   "errorPatterns": [
+    {
+     "contains": "was build",
+     "category": "conjugation",
+     "feedback": "Après was, il faut le participe passé : built."
+    },
+    {
+     "contains": "was invent",
+     "category": "conjugation",
+     "feedback": "Après was, il faut le participe passé : invented."
+    },
+    {
+     "contains": "was make",
+     "category": "conjugation",
+     "feedback": "Après was, il faut le participe passé : made."
+    }
+   ]
+  }
+ ]
+}

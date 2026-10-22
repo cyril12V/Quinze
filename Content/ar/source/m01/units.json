@@ -1,0 +1,50 @@
+[
+ {
+  "id": "ar.g01.alif_ba_ta_tha",
+  "rule": {
+   "summary": "ب ت ث ont exactement le même corps : seuls les points changent (ب un point dessous, ت deux dessus, ث trois dessus). Alif ا s'attache à la lettre d'avant, jamais à celle d'après.",
+   "explanation": "En arabe, une lettre change de forme selon sa place : isolée (ب), au début (بـ, attachée à gauche), au milieu (ـبـ, attachée des deux côtés) ou à la fin (ـب, attachée à droite). Pour ب ت ث, le corps est une cuvette quand la lettre est isolée ou finale, et une simple petite « dent » au début ou au milieu. Pour savoir laquelle tu lis, ne regarde que les points : un dessous = b, deux dessus = t, trois dessus = th (le th anglais de « think »). Alif ا est un trait vertical : il s'accroche à la lettre d'avant (ـا) mais jamais à la suivante, qui repart donc en forme de début ou isolée.",
+   "pattern": "Isolée ب · début بـ · milieu ـبـ · fin ـب — ب : 1 point dessous, ت : 2 dessus, ث : 3 dessus ; ا ne s'attache jamais à gauche",
+   "examples": [
+    {
+     "text": "بَاب",
+     "translation": "la porte",
+     "transliteration": "bâb"
+    },
+    {
+     "text": "كِتَاب",
+     "translation": "le livre",
+     "transliteration": "kitâb"
+    },
+    {
+     "text": "ثَوْب",
+     "translation": "le vêtement",
+     "transliteration": "thawb"
+    },
+    {
+     "text": "أَثَاث",
+     "translation": "les meubles",
+     "transliteration": "athâth"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "كِتَاب lu « kibâb »",
+     "right": "كِتَاب = kitâb",
+     "why": "La dent du milieu porte deux points au-dessus : c'est ت (t). ب n'a qu'un point, et il est en dessous."
+    },
+    {
+     "wrong": "ثَوْب lu « tawb »",
+     "right": "ثَوْب = thawb",
+     "why": "Trois points au-dessus, c'est ث : le th anglais de « think ». ت n'en a que deux."
+    },
+    {
+     "wrong": "Chercher un ب attaché (ـب) à la fin de بَاب",
+     "right": "بَاب finit par un ب isolé (ب)",
+     "why": "ا ne s'attache jamais à la lettre qui le suit : après lui, la lettre repart seule."
+    }
+   ],
+   "tip": "Ne regarde pas le corps de la lettre, compte les points : 1 dessous (ب), 2 dessus (ت), 3 dessus (ث)."
+  }
+ }
+]

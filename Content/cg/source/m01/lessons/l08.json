@@ -1,0 +1,889 @@
+{
+ "lessonId": "cg.l08",
+ "exercises": [
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.guerre_froide",
+    "cg.v.plan_marshall",
+    "cg.v.mur_de_berlin",
+    "cg.v.crise_de_cuba",
+    "cg.v.mikhail_gorbatchev"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots de la guerre froide",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Guerre froide",
+     "right": "rivalité États-Unis/URSS sans combat direct"
+    },
+    {
+     "left": "Plan Marshall",
+     "right": "aide américaine à l'Europe de l'Ouest"
+    },
+    {
+     "left": "Mur de Berlin",
+     "right": "mur construit en 1961, tombé en 1989"
+    },
+    {
+     "left": "Crise de Cuba",
+     "right": "missiles soviétiques, octobre 1962"
+    },
+    {
+     "left": "Gorbatchev",
+     "right": "dernier dirigeant de l'URSS"
+    }
+   ],
+   "answer": "Guerre froide = rivalité États-Unis/URSS sans combat direct ; Plan Marshall = aide américaine à l'Europe de l'Ouest ; Mur de Berlin = mur construit en 1961, tombé en 1989 ; Crise de Cuba = missiles soviétiques, octobre 1962 ; Gorbatchev = dernier dirigeant de l'URSS",
+   "acceptedAnswers": [],
+   "explanation": "Cinq repères de la guerre froide : la rivalité elle-même, l'aide Marshall à l'Ouest, le mur qui coupe Berlin, la crise qui frôle la guerre nucléaire et l'homme qui met fin à l'URSS.",
+   "tip": "Marshall aide, le mur sépare, Cuba menace, Gorbatchev clôt.",
+   "extraExample": {
+    "text": "La guerre froide dure environ quarante-quatre ans, de 1947 à 1991.",
+    "translation": "Elle structure toute la seconde moitié du XXe siècle."
+   },
+   "id": "cg.l08.e01"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.guerre_froide"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quels sont les deux camps qui s'opposent pendant la guerre froide ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les États-Unis et l'URSS, avec leurs alliés",
+    "La France et l'Allemagne",
+    "Le Royaume-Uni et la Chine",
+    "L'Inde et le Pakistan"
+   ],
+   "answer": "Les États-Unis et l'URSS, avec leurs alliés",
+   "acceptedAnswers": [
+    "Les États-Unis et l'URSS, avec leurs alliés"
+   ],
+   "explanation": "Le bloc de l'Ouest (États-Unis, démocraties libérales, capitalisme) s'oppose au bloc de l'Est (URSS, régimes communistes) de 1947 à 1991, partout dans le monde.",
+   "tip": "Ouest = États-Unis ; Est = URSS.",
+   "extraExample": {
+    "text": "En 1955, l'URSS et ses alliés signent le pacte de Varsovie, en réponse à l'OTAN créée en 1949.",
+    "translation": "L'Europe est alors coupée en deux alliances militaires."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La France et l'Allemagne",
+     "category": "word_confusion",
+     "feedback": "Elles se réconcilient et sont toutes deux dans le camp occidental (pour la RFA)."
+    },
+    {
+     "equals": "L'Inde et le Pakistan",
+     "category": "word_confusion",
+     "feedback": "Leur rivalité est un conflit régional, né de la partition de 1947."
+    }
+   ],
+   "id": "cg.l08.e02"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.plan_marshall"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À quoi sert le plan Marshall, lancé par les États-Unis en 1947 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "À aider financièrement l'Europe de l'Ouest à se reconstruire",
+    "À créer une armée européenne commune",
+    "À préparer le débarquement en Normandie",
+    "À financer la décolonisation de l'Afrique"
+   ],
+   "answer": "À aider financièrement l'Europe de l'Ouest à se reconstruire",
+   "acceptedAnswers": [
+    "À aider financièrement l'Europe de l'Ouest à se reconstruire"
+   ],
+   "explanation": "Entre 1948 et 1952, environ 13 milliards de dollars sont versés à seize pays d'Europe de l'Ouest. Les États-Unis veulent relancer l'économie européenne et empêcher que la misère ne profite aux communistes. L'URSS refuse l'aide et interdit aux pays de l'Est de l'accepter.",
+   "tip": "Marshall = des dollars américains pour reconstruire l'Ouest.",
+   "extraExample": {
+    "text": "En 1948, les pays bénéficiaires créent l'OECE pour répartir l'aide ensemble.",
+    "translation": "L'aide les pousse à coopérer entre eux."
+   },
+   "errorPatterns": [
+    {
+     "equals": "À créer une armée européenne commune",
+     "category": "word_confusion",
+     "feedback": "Le plan Marshall est une aide économique, pas un projet militaire."
+    },
+    {
+     "equals": "À préparer le débarquement en Normandie",
+     "category": "word_confusion",
+     "feedback": "Le débarquement a lieu en 1944, avant le plan Marshall."
+    },
+    {
+     "equals": "À financer la décolonisation de l'Afrique",
+     "category": "word_confusion",
+     "feedback": "Le plan Marshall concerne la reconstruction de l'Europe."
+    }
+   ],
+   "id": "cg.l08.e03"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.decolonisation"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que désigne la décolonisation ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le processus par lequel d'anciennes colonies deviennent indépendantes, surtout après 1945",
+    "La conquête de nouveaux territoires par les puissances européennes",
+    "La fin de l'esclavage dans les colonies au XIXe siècle",
+    "L'installation de colons européens en Afrique du Nord"
+   ],
+   "answer": "Le processus par lequel d'anciennes colonies deviennent indépendantes, surtout après 1945",
+   "acceptedAnswers": [
+    "Le processus par lequel d'anciennes colonies deviennent indépendantes, surtout après 1945"
+   ],
+   "explanation": "Après 1945, les empires coloniaux s'effondrent : Inde (1947), Indochine (1954), Afrique noire (1960), Algérie (1962). C'est l'une des plus grandes transformations du XXe siècle.",
+   "tip": "Dé-colonisation = fin des colonies.",
+   "extraExample": {
+    "text": "En 1960, dix-sept pays africains accèdent à l'indépendance.",
+    "translation": "On parle de « l'année de l'Afrique »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La conquête de nouveaux territoires par les puissances européennes",
+     "category": "word_confusion",
+     "feedback": "C'est l'inverse : la colonisation est la conquête, la décolonisation en est la fin."
+    },
+    {
+     "equals": "La fin de l'esclavage dans les colonies au XIXe siècle",
+     "category": "word_confusion",
+     "feedback": "L'abolition de l'esclavage est un autre sujet (1848 en France)."
+    },
+    {
+     "equals": "L'installation de colons européens en Afrique du Nord",
+     "category": "word_confusion",
+     "feedback": "L'installation de colons relève de la colonisation, pas de la décolonisation."
+    }
+   ],
+   "id": "cg.l08.e04"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.mahatma_gandhi"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle méthode de lutte Gandhi défend-il pour obtenir l'indépendance de l'Inde ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La non-violence et la désobéissance civile",
+    "La guérilla contre l'armée britannique",
+    "Une alliance militaire avec l'URSS",
+    "Un coup d'État contre le vice-roi"
+   ],
+   "answer": "La non-violence et la désobéissance civile",
+   "acceptedAnswers": [
+    "La non-violence et la désobéissance civile"
+   ],
+   "explanation": "Gandhi mène des campagnes pacifiques : boycott des produits britanniques, grèves, marche du sel en 1930. L'Inde devient indépendante le 15 août 1947, mais elle est partagée entre l'Inde et le Pakistan, avec de graves violences.",
+   "tip": "Gandhi = non-violence.",
+   "extraExample": {
+    "text": "Gandhi est assassiné le 30 janvier 1948 par un extrémiste hindou.",
+    "translation": "Il avait pourtant tout fait pour arrêter les violences entre hindous et musulmans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La guérilla contre l'armée britannique",
+     "category": "word_confusion",
+     "feedback": "Gandhi refuse la violence, même contre l'occupant."
+    },
+    {
+     "equals": "Une alliance militaire avec l'URSS",
+     "category": "word_confusion",
+     "feedback": "Gandhi mène une lutte non violente, sans alliance militaire."
+    },
+    {
+     "equals": "Un coup d'État contre le vice-roi",
+     "category": "word_confusion",
+     "feedback": "Gandhi n'a jamais recours à la force."
+    }
+   ],
+   "id": "cg.l08.e05"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.mur_de_berlin"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi l'Allemagne de l'Est (RDA) construit-elle le mur de Berlin en 1961 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Pour empêcher ses habitants de fuir vers Berlin-Ouest et l'Allemagne de l'Ouest",
+    "Pour protéger Berlin contre une attaque nucléaire américaine",
+    "Pour marquer la frontière entre la France et l'Allemagne",
+    "Pour célébrer la victoire de l'URSS en 1945"
+   ],
+   "answer": "Pour empêcher ses habitants de fuir vers Berlin-Ouest et l'Allemagne de l'Ouest",
+   "acceptedAnswers": [
+    "Pour empêcher ses habitants de fuir vers Berlin-Ouest et l'Allemagne de l'Ouest"
+   ],
+   "explanation": "Entre 1949 et 1961, plus de deux millions d'Allemands de l'Est ont quitté la RDA, souvent en passant par Berlin. Le 13 août 1961, la RDA ferme la frontière et construit un mur de béton autour de Berlin-Ouest.",
+   "tip": "Le mur enferme les Allemands de l'Est : il ne les protège pas.",
+   "extraExample": {
+    "text": "Le mur reste debout 28 ans, jusqu'au 9 novembre 1989.",
+    "translation": "Des personnes sont mortes en tentant de le franchir."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Pour protéger Berlin contre une attaque nucléaire américaine",
+     "category": "word_confusion",
+     "feedback": "Le mur n'a aucun rôle militaire : il empêche les départs."
+    },
+    {
+     "equals": "Pour marquer la frontière entre la France et l'Allemagne",
+     "category": "word_confusion",
+     "feedback": "Berlin est loin de la France ; le mur est à l'intérieur de l'Allemagne."
+    }
+   ],
+   "id": "cg.l08.e06"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.crise_de_cuba"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que se passe-t-il lors de la crise de Cuba, en octobre 1962 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Des missiles nucléaires soviétiques installés à Cuba amènent le monde au bord de la guerre nucléaire",
+    "Les États-Unis envahissent Cuba et renversent Fidel Castro",
+    "L'URSS bombarde la Floride",
+    "Fidel Castro est renversé par un coup d'État"
+   ],
+   "answer": "Des missiles nucléaires soviétiques installés à Cuba amènent le monde au bord de la guerre nucléaire",
+   "acceptedAnswers": [
+    "Des missiles nucléaires soviétiques installés à Cuba amènent le monde au bord de la guerre nucléaire"
+   ],
+   "explanation": "Kennedy découvre les missiles, impose un blocus naval et exige leur retrait. Après treize jours de tension extrême, Khrouchtchev cède, et les États-Unis promettent de ne pas envahir Cuba.",
+   "tip": "Cuba 1962 : treize jours au bord du gouffre nucléaire.",
+   "extraExample": {
+    "text": "Une ligne directe, le « téléphone rouge », est établie en 1963 entre Washington et Moscou.",
+    "translation": "Elle doit éviter qu'un malentendu ne déclenche une guerre nucléaire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les États-Unis envahissent Cuba et renversent Fidel Castro",
+     "category": "word_confusion",
+     "feedback": "Les États-Unis ne l'envahissent pas ; l'invasion de la baie des Cochons (1961), menée par des exilés, avait déjà échoué."
+    },
+    {
+     "equals": "L'URSS bombarde la Floride",
+     "category": "word_confusion",
+     "feedback": "Aucun bombardement n'a lieu : la crise se règle par la négociation."
+    },
+    {
+     "equals": "Fidel Castro est renversé par un coup d'État",
+     "category": "word_confusion",
+     "feedback": "Castro reste au pouvoir jusqu'en 2008."
+    }
+   ],
+   "id": "cg.l08.e07"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.mikhail_gorbatchev"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelles réformes Mikhaïl Gorbatchev lance-t-il en URSS à partir de 1985 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La perestroïka (reconstruction) et la glasnost (transparence)",
+    "La collectivisation des terres et les plans quinquennaux",
+    "Le blocus de Berlin et la course aux armements",
+    "Le retour à un régime de parti unique plus strict"
+   ],
+   "answer": "La perestroïka (reconstruction) et la glasnost (transparence)",
+   "acceptedAnswers": [
+    "La perestroïka (reconstruction) et la glasnost (transparence)"
+   ],
+   "explanation": "La perestroïka veut réformer l'économie soviétique, la glasnost ouvre la liberté d'expression. Gorbatchev laisse aussi les pays d'Europe de l'Est choisir leur destin : ces réformes précipitent la fin du bloc communiste.",
+   "tip": "Perestroïka = reconstruire ; glasnost = dire la vérité.",
+   "extraExample": {
+    "text": "Gorbatchev reçoit le prix Nobel de la paix en 1990.",
+    "translation": "Il démissionne le 25 décembre 1991, et l'URSS disparaît."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La collectivisation des terres et les plans quinquennaux",
+     "category": "word_confusion",
+     "feedback": "Ce sont les méthodes de Staline, dans les années 1930."
+    },
+    {
+     "equals": "Le blocus de Berlin et la course aux armements",
+     "category": "word_confusion",
+     "feedback": "Ce sont des épisodes de la guerre froide des années 1948-1949 et suivantes, pas des réformes de Gorbatchev."
+    }
+   ],
+   "id": "cg.l08.e08"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.dien_bien_phu"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que se passe-t-il à Dien Bien Phu en 1954 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'armée française est vaincue par le Viet Minh, ce qui met fin à la guerre d'Indochine",
+    "L'armée américaine y subit sa plus grande défaite",
+    "Les accords d'Évian y sont signés",
+    "La France y proclame l'indépendance de l'Algérie"
+   ],
+   "answer": "L'armée française est vaincue par le Viet Minh, ce qui met fin à la guerre d'Indochine",
+   "acceptedAnswers": [
+    "L'armée française est vaincue par le Viet Minh, ce qui met fin à la guerre d'Indochine"
+   ],
+   "explanation": "Après deux mois de siège (13 mars-7 mai 1954), le camp retranché français tombe. Les accords de Genève (juillet 1954) partagent le Vietnam en deux : la France quitte l'Indochine, et les États-Unis s'engagent ensuite au Sud-Vietnam.",
+   "tip": "Dien Bien Phu 1954 : la France perd l'Indochine.",
+   "extraExample": {
+    "text": "Les derniers soldats français quittent le Vietnam en 1956.",
+    "translation": "Dix ans plus tard, ce sont les Américains qui s'enlisent dans la guerre du Vietnam."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'armée américaine y subit sa plus grande défaite",
+     "category": "word_confusion",
+     "feedback": "Dien Bien Phu est une défaite française ; les Américains s'engagent au Vietnam à partir des années 1960."
+    },
+    {
+     "equals": "Les accords d'Évian y sont signés",
+     "category": "word_confusion",
+     "feedback": "Les accords d'Évian (1962) concernent l'Algérie."
+    },
+    {
+     "equals": "La France y proclame l'indépendance de l'Algérie",
+     "category": "word_confusion",
+     "feedback": "Dien Bien Phu est au Vietnam, pas en Algérie."
+    }
+   ],
+   "id": "cg.l08.e09"
+  },
+  {
+   "unitIds": [
+    "cg.v.hiroshima",
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.guerre_froide"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Hiroshima (1945) ouvre l'ère nucléaire. Quel pays fait exploser sa première bombe atomique en 1949, lançant la course aux armements ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'URSS",
+    "La France",
+    "La Chine",
+    "Le Royaume-Uni"
+   ],
+   "answer": "L'URSS",
+   "acceptedAnswers": [
+    "L'URSS"
+   ],
+   "explanation": "L'URSS teste sa première bombe en août 1949 : le monopole américain prend fin. Le Royaume-Uni suit en 1952, la France en 1960 (dans le Sahara algérien) et la Chine en 1964.",
+   "tip": "1945 les États-Unis, 1949 l'URSS : la course commence.",
+   "extraExample": {
+    "text": "La dissuasion nucléaire repose sur « l'équilibre de la terreur ».",
+    "translation": "Personne n'ose attaquer en premier, car la riposte serait dévastatrice."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La France",
+     "category": "word_confusion",
+     "feedback": "La France n'obtient la bombe qu'en 1960, avec un essai dans le Sahara algérien."
+    },
+    {
+     "equals": "La Chine",
+     "category": "word_confusion",
+     "feedback": "La Chine teste sa première bombe en 1964."
+    },
+    {
+     "equals": "Le Royaume-Uni",
+     "category": "word_confusion",
+     "feedback": "Le Royaume-Uni la teste en 1952, trois ans après l'URSS."
+    }
+   ],
+   "id": "cg.l08.e10"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.guerre_froide"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La guerre froide est « froide » parce que les États-Unis et l'URSS ne s'affrontent jamais ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "directement",
+    "idéologiquement",
+    "économiquement",
+    "diplomatiquement"
+   ],
+   "answer": "directement",
+   "acceptedAnswers": [
+    "directement"
+   ],
+   "explanation": "Les deux superpuissances s'affrontent de façon indirecte (guerres par pays interposés, course aux armements, propagande), mais jamais par un combat direct qui aurait pu déclencher une guerre nucléaire.",
+   "tip": "Froide = sans combat direct.",
+   "extraExample": {
+    "text": "La guerre de Corée (1950-1953) et la guerre du Vietnam sont des conflits « chauds » de la guerre froide.",
+    "translation": "Les superpuissances y soutiennent des camps opposés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "idéologiquement",
+     "category": "word_confusion",
+     "feedback": "Elles s'opposent au contraire fortement sur les idées (capitalisme contre communisme)."
+    },
+    {
+     "equals": "économiquement",
+     "category": "word_confusion",
+     "feedback": "Leur rivalité économique est intense : c'est le combat direct qui manque."
+    },
+    {
+     "equals": "diplomatiquement",
+     "category": "word_confusion",
+     "feedback": "Elles négocient et s'affrontent aussi à l'ONU, mais la guerre reste « froide »."
+    }
+   ],
+   "id": "cg.l08.e11"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.guerre_d_algerie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le 1er novembre 1954, une série d'attentats du FLN, surnommée la « Toussaint ___ », marque le début de la guerre d'Algérie.",
+   "promptLanguage": "fr",
+   "options": [
+    "rouge",
+    "blanche",
+    "noire",
+    "sanglante"
+   ],
+   "answer": "rouge",
+   "acceptedAnswers": [
+    "rouge"
+   ],
+   "explanation": "La « Toussaint rouge » (1er novembre 1954, jour de la Toussaint) ouvre la guerre d'indépendance algérienne. Elle ne s'achève qu'en 1962, avec les accords d'Évian.",
+   "tip": "Toussaint rouge = 1er novembre 1954.",
+   "extraExample": {
+    "text": "L'Algérie était divisée en départements français depuis 1848.",
+    "translation": "Elle n'était donc pas une colonie comme les autres aux yeux de Paris."
+   },
+   "errorPatterns": [
+    {
+     "equals": "noire",
+     "category": "word_confusion",
+     "feedback": "On dit « Toussaint rouge », en référence au sang versé."
+    },
+    {
+     "equals": "blanche",
+     "category": "word_confusion",
+     "feedback": "On dit « Toussaint rouge », en référence au sang versé."
+    }
+   ],
+   "id": "cg.l08.e12"
+  },
+  {
+   "unitIds": [
+    "cg.v.charles_de_gaulle",
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.guerre_d_algerie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Revenu au pouvoir en 1958 en pleine guerre d'Algérie, le général ___ met fin à la guerre en 1962 avec les accords d'Évian.",
+   "promptLanguage": "fr",
+   "options": [
+    "de Gaulle",
+    "Pétain",
+    "Clemenceau",
+    "Mendès France"
+   ],
+   "answer": "de Gaulle",
+   "acceptedAnswers": [
+    "de Gaulle",
+    "Charles de Gaulle",
+    "le général de Gaulle"
+   ],
+   "explanation": "De Gaulle revient au pouvoir en 1958, dans la crise née de la guerre d'Algérie, et fonde la Cinquième République. Il choisit finalement la négociation avec le FLN : accords d'Évian en mars 1962, puis indépendance en juillet.",
+   "tip": "De Gaulle : Londres en 1940, l'Élysée en 1958.",
+   "extraExample": {
+    "text": "Pierre Mendès France, lui, avait négocié la fin de la guerre d'Indochine en 1954.",
+    "translation": "Il s'était engagé à obtenir un accord en un mois."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Pétain",
+     "category": "word_confusion",
+     "feedback": "Pétain, chef du régime de Vichy, est mort en 1951."
+    },
+    {
+     "equals": "Clemenceau",
+     "category": "word_confusion",
+     "feedback": "Clemenceau est mort en 1929."
+    },
+    {
+     "equals": "Mendès France",
+     "category": "word_confusion",
+     "feedback": "Mendès France a mis fin à la guerre d'Indochine en 1954, pas à celle d'Algérie."
+    }
+   ],
+   "id": "cg.l08.e13"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.mur_de_berlin",
+    "cg.v.mikhail_gorbatchev"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Sous Gorbatchev, le mur de Berlin tombe le 9 novembre ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1989",
+    "1961",
+    "1991",
+    "1975"
+   ],
+   "answer": "1989",
+   "acceptedAnswers": [
+    "1989"
+   ],
+   "explanation": "Le 9 novembre 1989, après de grandes manifestations en RDA, les frontières sont ouvertes. L'Allemagne est réunifiée le 3 octobre 1990 et l'URSS disparaît en décembre 1991.",
+   "tip": "1961 : le mur se construit ; 1989 : il tombe.",
+   "extraExample": {
+    "text": "Entre la construction et la chute du mur, il s'écoule 28 ans.",
+    "translation": "Beaucoup d'Allemands de l'Est n'ont connu que lui."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1961",
+     "category": "word_confusion",
+     "feedback": "1961 est l'année de la construction du mur."
+    },
+    {
+     "equals": "1991",
+     "category": "word_confusion",
+     "feedback": "1991 est l'année de la disparition de l'URSS, deux ans après la chute du mur."
+    }
+   ],
+   "id": "cg.l08.e14"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.mahatma_gandhi",
+    "cg.v.dien_bien_phu",
+    "cg.v.mur_de_berlin",
+    "cg.v.mikhail_gorbatchev"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates de la guerre froide et de la décolonisation",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1947",
+     "right": "indépendance de l'Inde"
+    },
+    {
+     "left": "1954",
+     "right": "défaite de Dien Bien Phu"
+    },
+    {
+     "left": "1961",
+     "right": "construction du mur de Berlin"
+    },
+    {
+     "left": "1989",
+     "right": "chute du mur de Berlin"
+    },
+    {
+     "left": "1991",
+     "right": "disparition de l'URSS"
+    }
+   ],
+   "answer": "1947 = indépendance de l'Inde ; 1954 = défaite de Dien Bien Phu ; 1961 = construction du mur de Berlin ; 1989 = chute du mur de Berlin ; 1991 = disparition de l'URSS",
+   "acceptedAnswers": [],
+   "explanation": "De l'indépendance de l'Inde (1947) à la fin de l'URSS (1991) : cinq repères qui structurent l'après-guerre.",
+   "tip": "1947 l'Inde, 1954 l'Indochine, 1961 le mur, 1989 sa chute, 1991 la fin de l'URSS.",
+   "extraExample": {
+    "text": "En 1990, l'Allemagne est réunifiée.",
+    "translation": "La date, le 3 octobre, est la fête nationale allemande."
+   },
+   "id": "cg.l08.e15"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.mur_de_berlin"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la chute du mur.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "novembre",
+    "1989",
+    "tombe",
+    "Berlin",
+    "mur",
+    "le",
+    "9",
+    "Le",
+    "de"
+   ],
+   "answer": "Le mur de Berlin tombe le 9 novembre 1989",
+   "acceptedAnswers": [
+    "Le mur de Berlin tombe le 9 novembre 1989",
+    "Le 9 novembre 1989 le mur de Berlin tombe"
+   ],
+   "explanation": "Le 9 novembre 1989, les frontières de la RDA s'ouvrent et le mur de Berlin n'a plus de raison d'être.",
+   "tip": "9 novembre 1989 : le mur tombe.",
+   "extraExample": {
+    "text": "Des Berlinois démolissent eux-mêmes le mur à coups de pioche.",
+    "translation": "Des morceaux sont conservés comme souvenirs."
+   },
+   "id": "cg.l08.e16"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.guerre_d_algerie"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'indépendance de l'Algérie.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "juillet",
+    "en",
+    "1962",
+    "indépendante",
+    "L'Algérie",
+    "devient"
+   ],
+   "answer": "L'Algérie devient indépendante en juillet 1962",
+   "acceptedAnswers": [
+    "L'Algérie devient indépendante en juillet 1962",
+    "En juillet 1962 l'Algérie devient indépendante"
+   ],
+   "explanation": "Après huit ans de guerre, l'Algérie devient indépendante en juillet 1962.",
+   "tip": "Juillet 1962 : indépendance de l'Algérie.",
+   "extraExample": {
+    "text": "L'Algérie fête son indépendance le 5 juillet.",
+    "translation": "La France est la puissance coloniale depuis 1830."
+   },
+   "id": "cg.l08.e17"
+  },
+  {
+   "unitIds": [
+    "cg.v.winston_churchill",
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.guerre_froide"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quel ancien Premier ministre britannique évoque en 1946 un « rideau de fer » qui divise l'Europe ?",
+   "promptLanguage": "fr",
+   "answer": "Winston Churchill",
+   "acceptedAnswers": [
+    "Winston Churchill",
+    "Churchill",
+    "Sir Winston Churchill"
+   ],
+   "explanation": "Le 5 mars 1946, dans un discours prononcé à Fulton, aux États-Unis, Churchill déclare qu'« un rideau de fer est descendu sur le continent ». L'expression devient le symbole de la division de l'Europe.",
+   "tip": "Rideau de fer = Churchill, 1946.",
+   "extraExample": {
+    "text": "Churchill avait perdu les élections de juillet 1945 et n'était plus Premier ministre en 1946.",
+    "translation": "Il l'est redevenu de 1951 à 1955."
+   },
+   "hint": "Il dirigeait le Royaume-Uni pendant la guerre.",
+   "errorPatterns": [
+    {
+     "equals": "chamberlain",
+     "category": "word_confusion",
+     "feedback": "Chamberlain est l'homme de Munich (1938) ; il est mort en 1940."
+    },
+    {
+     "equals": "roosevelt",
+     "category": "word_confusion",
+     "feedback": "Roosevelt est américain, et il est mort en avril 1945."
+    }
+   ],
+   "id": "cg.l08.e18"
+  },
+  {
+   "unitIds": [
+    "cg.v.societe_des_nations",
+    "cg.g08.guerre_froide_decolonisation_europe"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quelle organisation, créée en 1945, succède à la Société des Nations pour préserver la paix ?",
+   "promptLanguage": "fr",
+   "answer": "L'ONU",
+   "acceptedAnswers": [
+    "L'ONU",
+    "ONU",
+    "Organisation des Nations unies",
+    "l'Organisation des Nations unies",
+    "Nations unies",
+    "les Nations unies"
+   ],
+   "explanation": "La SDN (1919) n'a pas su empêcher la Seconde Guerre mondiale. L'Organisation des Nations unies, fondée en 1945, la remplace et siège à New York.",
+   "tip": "SDN (1919, Genève) → ONU (1945, New York).",
+   "extraExample": {
+    "text": "L'ONU compte aujourd'hui près de 200 États membres.",
+    "translation": "Elle a été créée par 51 États en 1945."
+   },
+   "hint": "Elle a un sigle de trois lettres.",
+   "errorPatterns": [
+    {
+     "equals": "otan",
+     "category": "word_confusion",
+     "feedback": "L'OTAN est une alliance militaire occidentale, créée en 1949."
+    },
+    {
+     "equals": "sdn",
+     "category": "word_confusion",
+     "feedback": "La SDN est l'organisation d'avant-guerre, qui a échoué."
+    }
+   ],
+   "id": "cg.l08.e19"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.construction_europeenne"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel pays, ennemi de la France en 1870, en 1914 et en 1939, devient son principal partenaire dans la construction européenne ?",
+   "promptLanguage": "fr",
+   "answer": "L'Allemagne",
+   "acceptedAnswers": [
+    "L'Allemagne",
+    "Allemagne",
+    "la RFA",
+    "République fédérale d'Allemagne",
+    "l'Allemagne de l'Ouest"
+   ],
+   "explanation": "Après trois guerres en soixante-dix ans, la France et l'Allemagne de l'Ouest choisissent la réconciliation. Leur rapprochement est le moteur de la construction européenne, de la CECA (1951) au traité de l'Élysée (1963).",
+   "tip": "Trois guerres, puis la réconciliation : le couple franco-allemand.",
+   "extraExample": {
+    "text": "Le chancelier Adenauer et le général de Gaulle signent le traité de l'Élysée en 1963.",
+    "translation": "Il organise des rencontres régulières entre les deux pays."
+   },
+   "hint": "C'est le pays voisin à l'est.",
+   "errorPatterns": [
+    {
+     "equals": "royaume-uni",
+     "category": "word_confusion",
+     "feedback": "Le Royaume-Uni a été l'allié de la France en 1914 et 1939, pas son ennemi."
+    },
+    {
+     "equals": "italie",
+     "category": "word_confusion",
+     "feedback": "L'Italie a été l'alliée de la France en 1914-1918."
+    },
+    {
+     "equals": "autriche",
+     "category": "word_confusion",
+     "feedback": "L'Autriche n'est pas l'ennemi central de la France sur ces trois dates."
+    }
+   ],
+   "id": "cg.l08.e20"
+  },
+  {
+   "unitIds": [
+    "cg.g08.guerre_froide_decolonisation_europe",
+    "cg.v.guerre_d_algerie",
+    "cg.v.decolonisation"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quels accords, signés en mars 1962 à Évian, en Haute-Savoie, mettent fin à la guerre d'Algérie ?",
+   "promptLanguage": "fr",
+   "answer": "Les accords d'Évian",
+   "acceptedAnswers": [
+    "Les accords d'Évian",
+    "accords d'Évian",
+    "Évian",
+    "Evian",
+    "accords d'Evian",
+    "les accords d'Evian"
+   ],
+   "explanation": "Les accords d'Évian, signés le 18 mars 1962 entre le gouvernement français et le FLN, prévoient un cessez-le-feu et un référendum d'autodétermination. L'Algérie devient indépendante le 5 juillet 1962.",
+   "tip": "Évian 1962 = Algérie ; Genève 1954 = Indochine.",
+   "extraExample": {
+    "text": "Évian-les-Bains est connue pour son eau minérale et son lac.",
+    "translation": "La ville borde le lac Léman, face à la Suisse."
+   },
+   "hint": "Ils portent le nom d'une ville connue pour son eau.",
+   "errorPatterns": [
+    {
+     "equals": "genève",
+     "category": "word_confusion",
+     "feedback": "Les accords de Genève (1954) concernent l'Indochine."
+    },
+    {
+     "equals": "accords de genève",
+     "category": "word_confusion",
+     "feedback": "Les accords de Genève (1954) concernent l'Indochine."
+    }
+   ],
+   "id": "cg.l08.e21"
+  }
+ ]
+}

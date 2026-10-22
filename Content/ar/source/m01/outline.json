@@ -6,7 +6,7 @@
   },
   "grammarUnits": [
     {
-      "id": "ar.g01.letters_alif_ba_ta_tha",
+      "id": "ar.g01.letters1",
       "category": "reading",
       "title": "Alif, bâ, tâ, thâ : ا ب ت ث",
       "difficulty": 1,
@@ -14,72 +14,72 @@
       "functionWords": []
     },
     {
-      "id": "ar.g02.letters_nun_ya_and_dots",
+      "id": "ar.g02.letters2",
       "category": "reading",
       "title": "Nûn, yâ et le jeu des points : ن ي",
       "difficulty": 1,
       "prerequisites": [
-        "ar.g01.letters_alif_ba_ta_tha"
+        "ar.g01.letters1"
       ],
       "functionWords": []
     },
     {
-      "id": "ar.g03.letters_jim_ha_kha",
+      "id": "ar.g03.letters3",
       "category": "reading",
       "title": "Les trois crochets : ج ح خ",
       "difficulty": 1,
       "prerequisites": [
-        "ar.g02.letters_nun_ya_and_dots"
+        "ar.g02.letters2"
       ],
       "functionWords": []
     },
     {
-      "id": "ar.g04.letters_dal_dhal_ra_zay",
+      "id": "ar.g04.letters4",
       "category": "reading",
       "title": "Les petites jumelles : د ذ ر ز",
       "difficulty": 1,
       "prerequisites": [
-        "ar.g03.letters_jim_ha_kha"
+        "ar.g03.letters3"
       ],
       "functionWords": []
     },
     {
-      "id": "ar.g05.letters_sin_shin_sad_dad",
+      "id": "ar.g05.letters5",
       "category": "reading",
       "title": "Les dents et les boucles : س ش ص ض",
       "difficulty": 2,
       "prerequisites": [
-        "ar.g04.letters_dal_dhal_ra_zay"
+        "ar.g04.letters4"
       ],
       "functionWords": []
     },
     {
-      "id": "ar.g06.letters_tah_zah_ayn_ghayn",
+      "id": "ar.g06.letters6",
       "category": "reading",
       "title": "Les lourdes et les gorges : ط ظ ع غ",
       "difficulty": 2,
       "prerequisites": [
-        "ar.g05.letters_sin_shin_sad_dad"
+        "ar.g05.letters5"
       ],
       "functionWords": []
     },
     {
-      "id": "ar.g07.letters_fa_qaf_kaf_lam",
+      "id": "ar.g07.letters7",
       "category": "reading",
       "title": "Les têtes rondes et les bâtons : ف ق ك ل",
       "difficulty": 2,
       "prerequisites": [
-        "ar.g06.letters_tah_zah_ayn_ghayn"
+        "ar.g06.letters6"
       ],
       "functionWords": []
     },
     {
-      "id": "ar.g08.letters_mim_heh_waw_and_review",
+      "id": "ar.g08.letters8",
       "category": "reading",
       "title": "Dernières lettres et grand bilan : م ه و ء ة ى",
       "difficulty": 2,
       "prerequisites": [
-        "ar.g07.letters_fa_qaf_kaf_lam"
+        "ar.g07.letters7"
       ],
       "functionWords": []
     }
@@ -91,7 +91,7 @@
       "title": "Le bâton et la barque",
       "description": "Découvre ا ب ت ث : le bâton, la barque et ses points.",
       "difficulty": 1,
-      "grammarUnitId": "ar.g01.letters_alif_ba_ta_tha",
+      "grammarUnitId": "ar.g01.letters1",
       "introducesGrammar": true,
       "reviews": [],
       "vocabulary": [
@@ -127,10 +127,10 @@
       "title": "Le bol, la queue et les points",
       "description": "Ajoute ن et ي, puis maîtrise le jeu des points dessus et dessous.",
       "difficulty": 1,
-      "grammarUnitId": "ar.g02.letters_nun_ya_and_dots",
+      "grammarUnitId": "ar.g02.letters2",
       "introducesGrammar": true,
       "reviews": [
-        "ar.g01.letters_alif_ba_ta_tha"
+        "ar.g01.letters1"
       ],
       "vocabulary": [
         {
@@ -153,11 +153,11 @@
       "title": "Trois crochets, trois sons",
       "description": "Reconnais ج ح خ : le même crochet, trois sons, un point qui change tout.",
       "difficulty": 1,
-      "grammarUnitId": "ar.g03.letters_jim_ha_kha",
+      "grammarUnitId": "ar.g03.letters3",
       "introducesGrammar": true,
       "reviews": [
-        "ar.g01.letters_alif_ba_ta_tha",
-        "ar.g02.letters_nun_ya_and_dots"
+        "ar.g01.letters1",
+        "ar.g02.letters2"
       ],
       "vocabulary": [
         {
@@ -186,11 +186,11 @@
       "title": "Les jumelles d, z, r",
       "description": "Découvre د ذ ر ز : deux paires de jumelles qui ne diffèrent que d'un point.",
       "difficulty": 1,
-      "grammarUnitId": "ar.g04.letters_dal_dhal_ra_zay",
+      "grammarUnitId": "ar.g04.letters4",
       "introducesGrammar": true,
       "reviews": [
-        "ar.g02.letters_nun_ya_and_dots",
-        "ar.g03.letters_jim_ha_kha"
+        "ar.g02.letters2",
+        "ar.g03.letters3"
       ],
       "vocabulary": [
         {
@@ -225,11 +225,11 @@
       "title": "Dents, boucles et lourdeur",
       "description": "Apprends س ش ص ض : les dents, les trois points et les lettres lourdes.",
       "difficulty": 2,
-      "grammarUnitId": "ar.g05.letters_sin_shin_sad_dad",
+      "grammarUnitId": "ar.g05.letters5",
       "introducesGrammar": true,
       "reviews": [
-        "ar.g03.letters_jim_ha_kha",
-        "ar.g04.letters_dal_dhal_ra_zay"
+        "ar.g03.letters3",
+        "ar.g04.letters4"
       ],
       "vocabulary": [
         {
@@ -264,11 +264,11 @@
       "title": "Lourdes et gorges profondes",
       "description": "Termine les lourdes avec ط ظ, puis plonge dans la gorge avec ع et غ.",
       "difficulty": 2,
-      "grammarUnitId": "ar.g06.letters_tah_zah_ayn_ghayn",
+      "grammarUnitId": "ar.g06.letters6",
       "introducesGrammar": true,
       "reviews": [
-        "ar.g04.letters_dal_dhal_ra_zay",
-        "ar.g05.letters_sin_shin_sad_dad"
+        "ar.g04.letters4",
+        "ar.g05.letters5"
       ],
       "vocabulary": [
         {
@@ -303,11 +303,11 @@
       "title": "Têtes rondes et bâtons",
       "description": "Distingue ف ق par leurs points, puis ك et ل, le K et le L de l'arabe.",
       "difficulty": 2,
-      "grammarUnitId": "ar.g07.letters_fa_qaf_kaf_lam",
+      "grammarUnitId": "ar.g07.letters7",
       "introducesGrammar": true,
       "reviews": [
-        "ar.g05.letters_sin_shin_sad_dad",
-        "ar.g06.letters_tah_zah_ayn_ghayn"
+        "ar.g05.letters5",
+        "ar.g06.letters6"
       ],
       "vocabulary": [
         {
@@ -342,11 +342,11 @@
       "title": "Les dernières lettres et le grand bilan",
       "description": "Apprends م ه و ء ة ى, puis fais le bilan des 28 lettres et de leurs points.",
       "difficulty": 2,
-      "grammarUnitId": "ar.g08.letters_mim_heh_waw_and_review",
+      "grammarUnitId": "ar.g08.letters8",
       "introducesGrammar": true,
       "reviews": [
-        "ar.g06.letters_tah_zah_ayn_ghayn",
-        "ar.g07.letters_fa_qaf_kaf_lam"
+        "ar.g06.letters6",
+        "ar.g07.letters7"
       ],
       "vocabulary": [
         {

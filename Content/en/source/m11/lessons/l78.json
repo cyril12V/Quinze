@@ -1,0 +1,946 @@
+{
+ "lessonId": "en.l78",
+ "exercises": [
+  {
+   "id": "en.l78.e01",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.announce",
+    "en.v.election"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "The election results ___ tomorrow evening.",
+   "promptLanguage": "en",
+   "options": [
+    "will be announced",
+    "will announce",
+    "will announced",
+    "were announced"
+   ],
+   "answer": "will be announced",
+   "acceptedAnswers": [
+    "will be announced"
+   ],
+   "hint": "Les résultats ne peuvent pas annoncer : on les annonce, et c'est pour demain.",
+   "explanation": "Les résultats subissent l'action (on les annonce) : c'est un passif. Au futur, on met will + be + participe passé : will be announced.",
+   "tip": "Passif au futur : will be + participe passé.",
+   "extraExample": {
+    "text": "The winner will be announced on Friday.",
+    "translation": "Le gagnant sera annoncé vendredi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "will announce",
+     "category": "grammar",
+     "feedback": "Sans be, la phrase est active : ce seraient les résultats qui annonceraient quelque chose. Au passif : will be announced."
+    },
+    {
+     "equals": "will announced",
+     "category": "grammar",
+     "feedback": "Il manque be : au passif, will est suivi de be + participe passé."
+    },
+    {
+     "equals": "were announced",
+     "category": "verb_tense",
+     "feedback": "Tomorrow evening est dans le futur, pas dans le passé : will be announced."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e02",
+   "unitIds": [
+    "en.v.law",
+    "en.v.government",
+    "en.v.vote",
+    "en.v.election",
+    "en.v.result"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les mots de la vie politique",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "law",
+     "right": "loi"
+    },
+    {
+     "left": "government",
+     "right": "gouvernement"
+    },
+    {
+     "left": "vote",
+     "right": "voter"
+    },
+    {
+     "left": "election",
+     "right": "élection"
+    },
+    {
+     "left": "result",
+     "right": "résultat"
+    }
+   ],
+   "answer": "law = loi ; government = gouvernement ; vote = voter ; election = élection ; result = résultat",
+   "acceptedAnswers": [],
+   "explanation": "Attention à l'orthographe de government : le n est bien là, avant -ment. Vote est à la fois un verbe (voter) et un nom (un vote).",
+   "tip": "On vote dans une élection : to vote (verbe), an election (nom).",
+   "extraExample": {
+    "text": "The government has announced a new law.",
+    "translation": "Le gouvernement a annoncé une nouvelle loi."
+   }
+  },
+  {
+   "id": "en.l78.e03",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.postpone"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne traduction.",
+   "prompt": "Comment dit-on « La réunion a été reportée à lundi » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "The meeting has been postponed until Monday.",
+    "The meeting has postponed until Monday.",
+    "The meeting has been postpone until Monday.",
+    "The meeting was been postponed until Monday."
+   ],
+   "answer": "The meeting has been postponed until Monday.",
+   "acceptedAnswers": [
+    "The meeting has been postponed until Monday."
+   ],
+   "explanation": "La réunion subit l'action et le résultat compte maintenant : present perfect passif, has been + participe passé (postponed). Until Monday = jusqu'à lundi.",
+   "tip": "Present perfect passif : has / have been + participe passé.",
+   "extraExample": {
+    "text": "The flight has been cancelled because of the storm.",
+    "translation": "Le vol a été annulé à cause de la tempête."
+   },
+   "errorPatterns": [
+    {
+     "equals": "the meeting has postponed until monday",
+     "category": "grammar",
+     "feedback": "Sans been, la phrase est active : la réunion aurait reporté quelque chose. Passif : has been postponed."
+    },
+    {
+     "equals": "the meeting has been postpone until monday",
+     "category": "conjugation",
+     "feedback": "Après been, il faut le participe passé : postponed."
+    },
+    {
+     "equals": "the meeting was been postponed until monday",
+     "category": "grammar",
+     "feedback": "Was been n'existe pas : au present perfect, on dit has been postponed."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e04",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.law"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le verbe change au passif.",
+   "prompt": "This law is too old. It ___ changed.",
+   "promptLanguage": "en",
+   "options": [
+    "should be",
+    "should",
+    "should been",
+    "should to be"
+   ],
+   "answer": "should be",
+   "acceptedAnswers": [
+    "should be"
+   ],
+   "hint": "Après un modal, be reste à la forme de base.",
+   "explanation": "La loi subit le changement : c'est un passif. Après un modal (should, must, can), on met be + participe passé : should be changed. Pas de to, et be ne prend aucune terminaison.",
+   "tip": "Modal + be + participe passé : should be changed, must be done.",
+   "extraExample": {
+    "text": "Rubbish can be recycled at this centre.",
+    "translation": "Les déchets peuvent être recyclés dans ce centre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "should",
+     "category": "grammar",
+     "feedback": "Sans be, il manque le passif : la loi ne se change pas toute seule. Il faut should be changed."
+    },
+    {
+     "equals": "should been",
+     "category": "conjugation",
+     "feedback": "Après un modal, be reste à la forme de base : should be, pas should been."
+    },
+    {
+     "equals": "should to be",
+     "category": "grammar",
+     "feedback": "Après un modal (should, must, can), pas de to : should be changed."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e05",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.publish",
+    "en.v.result"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe publish au passif.",
+   "prompt": "Nobody knows who won, because the results ___ yet.",
+   "promptLanguage": "en",
+   "options": [
+    "haven't been published",
+    "hasn't been published",
+    "haven't published",
+    "didn't been published"
+   ],
+   "answer": "haven't been published",
+   "acceptedAnswers": [
+    "haven't been published"
+   ],
+   "hint": "Results est pluriel, et yet appelle un résultat qui compte maintenant.",
+   "explanation": "Les résultats subissent l'action (on les publie) : passif. Yet appelle le present perfect, et results est pluriel : haven't been published.",
+   "tip": "Yet + négatif : haven't / hasn't been + participe passé.",
+   "extraExample": {
+    "text": "The report hasn't been published yet.",
+    "translation": "Le rapport n'a pas encore été publié."
+   },
+   "errorPatterns": [
+    {
+     "equals": "hasn't been published",
+     "category": "grammar",
+     "feedback": "Results est pluriel : haven't been published, pas hasn't."
+    },
+    {
+     "equals": "haven't published",
+     "category": "grammar",
+     "feedback": "Sans been, la phrase devient active (les résultats n'auraient rien publié). Au passif : haven't been published."
+    },
+    {
+     "equals": "didn't been published",
+     "category": "conjugation",
+     "feedback": "Didn't s'emploie avec le verbe de base, jamais avec been. Avec yet : haven't been published."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e06",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.election",
+    "en.v.postpone",
+    "en.v.vote",
+    "en.v.government"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le texte, puis réponds.",
+   "prompt": "When will the results be published?",
+   "promptLanguage": "en",
+   "context": "The date of the election has been postponed. It was planned for 10 May, but the government has announced that people will now vote on 24 May. The results will be published online the next morning.",
+   "options": [
+    "On 25 May",
+    "On 24 May",
+    "On 10 May",
+    "On 11 May"
+   ],
+   "answer": "On 25 May",
+   "acceptedAnswers": [
+    "On 25 May"
+   ],
+   "explanation": "Le texte dit que le vote aura lieu le 24 mai et que les résultats seront publiés le lendemain matin (the next morning) : le 25 mai. Tu y retrouves deux passifs de la leçon : has been postponed et will be published.",
+   "tip": "Dans un texte, repère les dates : l'événement (24 mai), puis ce qui le suit.",
+   "extraExample": {
+    "text": "The winner will be announced the day after the final.",
+    "translation": "Le gagnant sera annoncé le lendemain de la finale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "on 24 may",
+     "category": "instruction",
+     "feedback": "Le 24 mai est le jour du vote ; les résultats sont publiés le lendemain matin (the next morning)."
+    },
+    {
+     "equals": "on 10 may",
+     "category": "instruction",
+     "feedback": "Le 10 mai était la date prévue au départ : l'élection a été reportée au 24 mai."
+    },
+    {
+     "equals": "on 11 may",
+     "category": "instruction",
+     "feedback": "Le 11 mai serait le lendemain de la date initiale, mais l'élection a été reportée."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e07",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.vote"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le verbe give au passif.",
+   "prompt": "In France, women ___ the right to vote in 1944.",
+   "promptLanguage": "en",
+   "options": [
+    "were given",
+    "gave",
+    "are given",
+    "have given"
+   ],
+   "answer": "were given",
+   "acceptedAnswers": [
+    "were given"
+   ],
+   "hint": "Les femmes ont reçu ce droit : elles subissent l'action.",
+   "explanation": "Les Françaises ont reçu ce droit, elles ne l'ont pas donné : c'est un passif. 1944 est une date passée et women est pluriel : were + participe passé (given).",
+   "tip": "Date du passé + sujet pluriel : were + participe passé.",
+   "extraExample": {
+    "text": "The first modern Olympic Games were held in Athens in 1896.",
+    "translation": "Les premiers Jeux olympiques modernes ont eu lieu à Athènes en 1896."
+   },
+   "errorPatterns": [
+    {
+     "equals": "gave",
+     "category": "grammar",
+     "feedback": "Sans passif, ce seraient les femmes qui donnent le droit. Elles l'ont reçu : were given."
+    },
+    {
+     "equals": "are given",
+     "category": "verb_tense",
+     "feedback": "1944 est dans le passé : were given."
+    },
+    {
+     "equals": "have given",
+     "category": "grammar",
+     "feedback": "Have given est actif (elles ont donné). Pour « on leur a donné », il faut were given."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e08",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.announce"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Les résultats seront annoncés demain matin.",
+   "promptLanguage": "fr",
+   "answer": "The results will be announced tomorrow morning.",
+   "acceptedAnswers": [
+    "The results will be announced tomorrow morning.",
+    "The results are going to be announced tomorrow morning.",
+    "Tomorrow morning the results will be announced.",
+    "Tomorrow morning the results are going to be announced."
+   ],
+   "hint": "Futur + passif : will + be + participe passé.",
+   "explanation": "Les résultats subissent l'action : passif. Au futur, on met will be + participe passé (announced). Demain matin se dit tomorrow morning, sans préposition.",
+   "tip": "Tomorrow morning / tomorrow night : pas de in ni de on devant tomorrow.",
+   "extraExample": {
+    "text": "The tickets will be sent by email.",
+    "translation": "Les billets seront envoyés par e-mail."
+   },
+   "errorPatterns": [
+    {
+     "contains": "will announced",
+     "category": "grammar",
+     "feedback": "Il manque be : will be announced."
+    },
+    {
+     "contains": "results will announce",
+     "category": "grammar",
+     "feedback": "Sans be, ce seraient les résultats qui annonceraient. Au passif : will be announced."
+    },
+    {
+     "contains": "will be announce",
+     "category": "conjugation",
+     "feedback": "Après be, il faut le participe passé : announced."
+    },
+    {
+     "contains": "in tomorrow morning",
+     "category": "preposition",
+     "feedback": "Tomorrow morning s'emploie sans préposition : pas de in."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e09",
+   "unitIds": [
+    "en.g24.will_future",
+    "en.v.election"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Complète la réponse courte.",
+   "prompt": "A: Do you think she will win the election? B: Yes, I think she ___.",
+   "promptLanguage": "en",
+   "options": [
+    "will",
+    "does",
+    "is",
+    "would"
+   ],
+   "answer": "will",
+   "acceptedAnswers": [
+    "will"
+   ],
+   "explanation": "La question est au futur avec will : dans la réponse courte, on reprend will (Yes, she will). Does sert au présent, would au conditionnel.",
+   "tip": "Réponse courte : on reprend l'auxiliaire de la question.",
+   "extraExample": {
+    "text": "A: Will they postpone the vote? B: No, they won't.",
+    "translation": "A : Vont-ils reporter le vote ? B : Non."
+   },
+   "errorPatterns": [
+    {
+     "equals": "does",
+     "category": "grammar",
+     "feedback": "Does est l'auxiliaire du présent. La question est au futur (will) : Yes, she will."
+    },
+    {
+     "equals": "is",
+     "category": "grammar",
+     "feedback": "Is ne reprend pas will : on reprend l'auxiliaire de la question, Yes, she will."
+    },
+    {
+     "equals": "would",
+     "category": "verb_tense",
+     "feedback": "Would est le conditionnel ou le futur dans le passé. Ici, comme dans la question, on garde will."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e10",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.government",
+    "en.v.law"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le passif en going to.",
+   "prompt": "According to the government, a new law ___ introduced next year.",
+   "promptLanguage": "en",
+   "options": [
+    "is going to be",
+    "is going to",
+    "going to be",
+    "will to be"
+   ],
+   "answer": "is going to be",
+   "acceptedAnswers": [
+    "is going to be"
+   ],
+   "hint": "Going to + be + participe passé.",
+   "explanation": "La loi subit l'action (on va l'introduire) : c'est un passif. Avec going to, on garde l'auxiliaire is puis on ajoute be + participe passé : is going to be introduced.",
+   "tip": "Going to + be + participe passé : is going to be introduced.",
+   "extraExample": {
+    "text": "A new bridge is going to be built here.",
+    "translation": "Un nouveau pont va être construit ici."
+   },
+   "errorPatterns": [
+    {
+     "equals": "is going to",
+     "category": "grammar",
+     "feedback": "Sans be, la phrase devient active : une loi ne peut pas introduire quelque chose. Il faut is going to be introduced."
+    },
+    {
+     "equals": "going to be",
+     "category": "grammar",
+     "feedback": "Il manque l'auxiliaire is : a new law is going to be introduced."
+    },
+    {
+     "equals": "will to be",
+     "category": "grammar",
+     "feedback": "Will n'est pas suivi de to : on dit will be introduced ou is going to be introduced."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e11",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.law"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "La loi a-t-elle été modifiée ?",
+   "promptLanguage": "fr",
+   "tokens": [
+    "law",
+    "been",
+    "Has",
+    "changed",
+    "the"
+   ],
+   "answer": "Has the law been changed",
+   "acceptedAnswers": [
+    "Has the law been changed"
+   ],
+   "explanation": "Au present perfect passif, la question inverse has et le sujet : Has + sujet + been + participe passé. On n'utilise pas do.",
+   "tip": "Question : Has / Have + sujet + been + participe passé.",
+   "extraExample": {
+    "text": "Have the tickets been sent?",
+    "translation": "Les billets ont-ils été envoyés ?"
+   }
+  },
+  {
+   "id": "en.l78.e12",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.send"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque phrase anglaise à sa traduction.",
+   "prompt": "Quel temps au passif ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "It will be sent tomorrow.",
+     "right": "Il sera envoyé demain."
+    },
+    {
+     "left": "It has been sent.",
+     "right": "Il a été envoyé (c'est fait)."
+    },
+    {
+     "left": "It must be sent today.",
+     "right": "Il doit être envoyé aujourd'hui."
+    },
+    {
+     "left": "It is being sent.",
+     "right": "Il est en train d'être envoyé."
+    },
+    {
+     "left": "It was sent yesterday.",
+     "right": "Il a été envoyé hier."
+    }
+   ],
+   "answer": "It will be sent tomorrow. = Il sera envoyé demain. ; It has been sent. = Il a été envoyé (c'est fait). ; It must be sent today. = Il doit être envoyé aujourd'hui. ; It is being sent. = Il est en train d'être envoyé. ; It was sent yesterday. = Il a été envoyé hier.",
+   "acceptedAnswers": [],
+   "explanation": "Le principe est toujours be + participe passé (sent). C'est ce qui précède be qui change le sens : will = futur, has = résultat présent, must = obligation, is being = en cours, was = moment passé.",
+   "tip": "Regarde le mot avant be (will, must, has, is) : c'est lui qui donne le temps ou le sens.",
+   "extraExample": {
+    "text": "The room is being cleaned.",
+    "translation": "La salle est en train d'être nettoyée."
+   }
+  },
+  {
+   "id": "en.l78.e13",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.vote"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Le vote doit être organisé avant la fin du mois.",
+   "promptLanguage": "fr",
+   "answer": "The vote must be organised before the end of the month.",
+   "acceptedAnswers": [
+    "The vote must be organised before the end of the month.",
+    "The vote must be organised by the end of the month.",
+    "The vote must be organized before the end of the month.",
+    "The vote must be organized by the end of the month.",
+    "The vote must be held before the end of the month.",
+    "The vote must be held by the end of the month.",
+    "The vote has to be organised before the end of the month.",
+    "The vote has to be organised by the end of the month.",
+    "The vote has to be organized before the end of the month.",
+    "The vote has to be organized by the end of the month.",
+    "The vote has to be held before the end of the month.",
+    "The vote has to be held by the end of the month."
+   ],
+   "hint": "Obligation au passif : must + be + participe passé.",
+   "explanation": "Le vote subit l'action : c'est un passif. Avec un modal (must), be reste à la forme de base : must be organised. Pas de to après must.",
+   "tip": "Après must / can / should : be + participe passé, sans to.",
+   "extraExample": {
+    "text": "The documents must be signed before Friday.",
+    "translation": "Les documents doivent être signés avant vendredi."
+   },
+   "errorPatterns": [
+    {
+     "contains": "must to be",
+     "category": "grammar",
+     "feedback": "Après must, pas de to : must be organised."
+    },
+    {
+     "contains": "must organised",
+     "category": "grammar",
+     "feedback": "Il manque be : must be organised."
+    },
+    {
+     "contains": "must been",
+     "category": "conjugation",
+     "feedback": "Après un modal, be reste à la forme de base : must be, pas must been."
+    },
+    {
+     "contains": "must be organise",
+     "category": "conjugation",
+     "feedback": "Après be, il faut le participe passé : organised."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e14",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.result"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Les résultats ne peuvent pas être publiés avant lundi.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "results",
+    "The",
+    "be",
+    "can't",
+    "before",
+    "Monday",
+    "published"
+   ],
+   "answer": "The results can't be published before Monday",
+   "acceptedAnswers": [
+    "The results can't be published before Monday"
+   ],
+   "explanation": "À la négation avec un modal, not se place après le modal : can't + be + participe passé (published). « Avant lundi » se dit before Monday.",
+   "tip": "Négation au passif : modal + not + be + participe passé.",
+   "extraExample": {
+    "text": "The package can't be delivered before Friday.",
+    "translation": "Le colis ne peut pas être livré avant vendredi."
+   }
+  },
+  {
+   "id": "en.l78.e15",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.postpone"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "The concert has been postponed until next month.",
+   "promptLanguage": "en",
+   "answer": "Le concert a été reporté au mois prochain.",
+   "acceptedAnswers": [
+    "Le concert a été reporté au mois prochain.",
+    "Le concert a été reporté au mois suivant.",
+    "Le concert a été reporté jusqu'au mois prochain.",
+    "Le concert a été repoussé au mois prochain.",
+    "Le concert a été repoussé au mois suivant.",
+    "Le concert a été repoussé jusqu'au mois prochain.",
+    "Le concert est reporté au mois prochain.",
+    "Le concert est reporté au mois suivant.",
+    "Le concert est reporté jusqu'au mois prochain.",
+    "Le concert est repoussé au mois prochain.",
+    "Le concert est repoussé au mois suivant.",
+    "Le concert est repoussé jusqu'au mois prochain.",
+    "On a reporté le concert au mois prochain.",
+    "On a reporté le concert au mois suivant.",
+    "On a reporté le concert jusqu'au mois prochain.",
+    "On a repoussé le concert au mois prochain.",
+    "On a repoussé le concert au mois suivant.",
+    "On a repoussé le concert jusqu'au mois prochain."
+   ],
+   "explanation": "Has been postponed = a été reporté : present perfect passif. En français, on traduit par « a été reporté » ou « est reporté » ; until next month = au mois prochain.",
+   "tip": "Postpone = reporter à plus tard (≠ cancel = annuler).",
+   "extraExample": {
+    "text": "The match has been cancelled.",
+    "translation": "Le match a été annulé."
+   }
+  },
+  {
+   "id": "en.l78.e16",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.vote",
+    "en.v.result"
+   ],
+   "type": "fill_blank",
+   "difficulty": 4,
+   "instruction": "Complète avec le verbe count au passif.",
+   "prompt": "We can't see the final result yet: the votes ___ counted right now.",
+   "promptLanguage": "en",
+   "options": [
+    "are being",
+    "are",
+    "have being",
+    "were being"
+   ],
+   "answer": "are being",
+   "acceptedAnswers": [
+    "are being"
+   ],
+   "hint": "L'action est en cours, en ce moment.",
+   "explanation": "Pour une action en cours, le passif se fait avec is / are being + participe passé. Ici, the votes est pluriel et right now montre que l'action se passe maintenant : are being counted.",
+   "tip": "Action en cours + passif : is / are being + participe passé.",
+   "extraExample": {
+    "text": "The new bridge is being built next to the old one.",
+    "translation": "Le nouveau pont est en cours de construction à côté de l'ancien."
+   },
+   "errorPatterns": [
+    {
+     "equals": "are",
+     "category": "verb_tense",
+     "feedback": "Are counted décrit une habitude ou un fait. Right now appelle une action en cours : are being counted."
+    },
+    {
+     "equals": "have being",
+     "category": "conjugation",
+     "feedback": "Après have, on dit been, pas being. Et ici l'action est en cours : are being counted."
+    },
+    {
+     "equals": "were being",
+     "category": "verb_tense",
+     "feedback": "Right now parle du moment présent : are being, pas were being."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e17",
+   "unitIds": [
+    "en.g39.present_perfect_intro",
+    "en.v.already",
+    "en.v.government",
+    "en.v.announce",
+    "en.v.election"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Le gouvernement a déjà annoncé la date des élections.",
+   "promptLanguage": "fr",
+   "answer": "The government has already announced the date of the elections.",
+   "acceptedAnswers": [
+    "The government has already announced the date of the elections.",
+    "The government has already announced the date of the election.",
+    "The government has already announced the election date.",
+    "The government have already announced the date of the elections.",
+    "The government have already announced the date of the election.",
+    "The government have already announced the election date.",
+    "The government has announced the date of the elections already.",
+    "The government has announced the date of the election already.",
+    "The government has announced the election date already.",
+    "The government have announced the date of the elections already.",
+    "The government have announced the date of the election already.",
+    "The government have announced the election date already."
+   ],
+   "hint": "Already se place entre has et le participe passé.",
+   "explanation": "Le gouvernement a annoncé quelque chose et le résultat compte maintenant : present perfect, has + participe passé. Already se place entre has et le participe passé.",
+   "tip": "Present perfect + already : has already announced.",
+   "extraExample": {
+    "text": "They have already published the results.",
+    "translation": "Ils ont déjà publié les résultats."
+   },
+   "errorPatterns": [
+    {
+     "contains": "announced already the",
+     "category": "word_order",
+     "feedback": "Already se place entre has et le participe passé : has already announced."
+    },
+    {
+     "contains": "already announce the",
+     "category": "conjugation",
+     "feedback": "Après has, il faut le participe passé : announced."
+    },
+    {
+     "contains": "government has announce",
+     "category": "conjugation",
+     "feedback": "Après has, le verbe est au participe passé : announced."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e18",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.result",
+    "en.v.announce"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Est-ce que le résultat sera annoncé ce soir ?",
+   "promptLanguage": "fr",
+   "answer": "Will the result be announced tonight?",
+   "acceptedAnswers": [
+    "Will the result be announced tonight?",
+    "Will the result be announced this evening?",
+    "Is the result going to be announced tonight?",
+    "Is the result going to be announced this evening?"
+   ],
+   "hint": "Will passe devant le sujet.",
+   "explanation": "Au futur passif, la question se fait avec Will + sujet + be + participe passé. Will passe devant le sujet, be reste à la forme de base ; pas de do.",
+   "tip": "Will + sujet + be + participe passé ?",
+   "extraExample": {
+    "text": "Will the tickets be sent by email?",
+    "translation": "Les billets seront-ils envoyés par e-mail ?"
+   },
+   "errorPatterns": [
+    {
+     "contains": "will be the result",
+     "category": "word_order",
+     "feedback": "Dans la question, will se place avant le sujet : Will the result be announced?"
+    },
+    {
+     "contains": "will the result announced",
+     "category": "grammar",
+     "feedback": "Il manque be : Will the result be announced?"
+    },
+    {
+     "contains": "does the result",
+     "category": "grammar",
+     "feedback": "Au passif, on n'utilise pas do / does : Will the result be announced?"
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e19",
+   "unitIds": [
+    "en.g59.passive_other_tenses"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Rien n'a été décidé » ?",
+   "promptLanguage": "fr",
+   "answer": "Nothing has been decided.",
+   "acceptedAnswers": [
+    "Nothing has been decided.",
+    "Nothing has been decided yet.",
+    "Nothing was decided.",
+    "Nothing's been decided.",
+    "Nothing's been decided yet.",
+    "Nothing has been decided so far."
+   ],
+   "hint": "Le sujet est « rien » : il subit la décision.",
+   "explanation": "Rien subit l'action : passif au present perfect, has been + participe passé (decided). Nothing est déjà négatif, donc le verbe reste affirmatif.",
+   "tip": "Nothing / nobody + verbe affirmatif : Nothing has been decided.",
+   "extraExample": {
+    "text": "Nobody was told about the change.",
+    "translation": "Personne n'a été informé du changement."
+   },
+   "errorPatterns": [
+    {
+     "contains": "nothing hasn't",
+     "category": "grammar",
+     "feedback": "Nothing est déjà négatif : pas de deuxième négation. Nothing has been decided."
+    },
+    {
+     "contains": "nothing has decided",
+     "category": "grammar",
+     "feedback": "Sans been, c'est actif. Au passif : Nothing has been decided."
+    },
+    {
+     "contains": "nothing is decide",
+     "category": "conjugation",
+     "feedback": "Après be, il faut le participe passé : decided."
+    }
+   ]
+  },
+  {
+   "id": "en.l78.e20",
+   "unitIds": [
+    "en.g59.passive_other_tenses"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase en anglais, au passif.",
+   "prompt": "Écris une phrase au passif sur un événement : ce qui va être annoncé, ce qui a été reporté, ce qui doit être fait…",
+   "promptLanguage": "fr",
+   "requirements": {
+    "mustInclude": [
+     [
+      "be",
+      "been",
+      "being",
+      "is",
+      "are",
+      "was",
+      "were"
+     ],
+     [
+      "announced",
+      "published",
+      "postponed",
+      "cancelled",
+      "canceled",
+      "held",
+      "sent",
+      "changed",
+      "decided",
+      "voted",
+      "organised",
+      "organized",
+      "approved",
+      "delayed",
+      "done",
+      "finished",
+      "built",
+      "opened",
+      "closed",
+      "given",
+      "made",
+      "signed",
+      "checked",
+      "prepared",
+      "repaired",
+      "taken",
+      "paid",
+      "written",
+      "moved",
+      "chosen",
+      "counted",
+      "discussed"
+     ]
+    ],
+    "minWords": 5
+   },
+   "answer": "The match will be postponed until next week.",
+   "acceptedAnswers": [
+    "The match will be postponed until next week.",
+    "The new law has been published online.",
+    "The results must be announced before Friday.",
+    "Nothing was decided at the meeting."
+   ],
+   "hint": "will be / must be / has been + participe passé.",
+   "explanation": "Une phrase au passif contient be (will be, must be, has been…) et un participe passé. Choisis la forme qui correspond au sens : futur (will be announced), obligation (must be done), résultat présent (has been postponed).",
+   "tip": "Vérifie que be est là et que ton verbe principal est un participe passé.",
+   "extraExample": {
+    "text": "The exam has been moved to Thursday.",
+    "translation": "L'examen a été déplacé à jeudi."
+   },
+   "errorPatterns": [
+    {
+     "contains": "will announced",
+     "category": "grammar",
+     "feedback": "Il manque be : will be announced."
+    },
+    {
+     "contains": "will published",
+     "category": "grammar",
+     "feedback": "Il manque be : will be published."
+    },
+    {
+     "contains": "will postponed",
+     "category": "grammar",
+     "feedback": "Il manque be : will be postponed."
+    }
+   ]
+  }
+ ]
+}

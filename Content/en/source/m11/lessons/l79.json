@@ -1,0 +1,931 @@
+{
+ "lessonId": "en.l79",
+ "exercises": [
+  {
+   "id": "en.l79.e01",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.repair"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "My phone is broken, so I'll ___ tomorrow.",
+   "promptLanguage": "en",
+   "options": [
+    "have it repaired",
+    "have repaired it",
+    "make it repaired",
+    "have it repair"
+   ],
+   "answer": "have it repaired",
+   "acceptedAnswers": [
+    "have it repaired"
+   ],
+   "hint": "Quelqu'un d'autre va le réparer pour moi.",
+   "explanation": "Pour dire « je fais réparer mon téléphone », l'anglais utilise have + objet + participe passé : have it repaired. L'objet (it) se place avant le participe passé.",
+   "tip": "Have + quoi + participe passé : have it repaired.",
+   "extraExample": {
+    "text": "I'm going to have my hair cut tomorrow.",
+    "translation": "Je vais me faire couper les cheveux demain."
+   },
+   "errorPatterns": [
+    {
+     "equals": "have repaired it",
+     "category": "grammar",
+     "feedback": "Cet ordre change le sens : have repaired it veut dire « l'avoir réparé » (toi-même). Pour « le faire réparer », l'objet passe avant le participe : have it repaired."
+    },
+    {
+     "equals": "make it repaired",
+     "category": "word_confusion",
+     "feedback": "« Faire faire » ne se traduit pas par make : on utilise have + objet + participe passé."
+    },
+    {
+     "equals": "have it repair",
+     "category": "conjugation",
+     "feedback": "Après l'objet, il faut le participe passé : repaired."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e02",
+   "unitIds": [
+    "en.v.repair",
+    "en.v.screen",
+    "en.v.battery",
+    "en.v.replace",
+    "en.v.install"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les mots du téléphone et de l'ordinateur",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "repair",
+     "right": "réparer"
+    },
+    {
+     "left": "screen",
+     "right": "écran"
+    },
+    {
+     "left": "battery",
+     "right": "batterie, pile"
+    },
+    {
+     "left": "replace",
+     "right": "remplacer"
+    },
+    {
+     "left": "install",
+     "right": "installer"
+    }
+   ],
+   "answer": "repair = réparer ; screen = écran ; battery = batterie, pile ; replace = remplacer ; install = installer",
+   "acceptedAnswers": [],
+   "explanation": "Screen = écran (pas « scène »). Battery désigne aussi bien la batterie d'un téléphone que la pile d'une télécommande : un seul mot en anglais.",
+   "tip": "On repair une panne, on replace une pièce.",
+   "extraExample": {
+    "text": "I had the screen replaced.",
+    "translation": "J'ai fait remplacer l'écran."
+   }
+  },
+  {
+   "id": "en.l79.e03",
+   "unitIds": [
+    "en.g60.have_something_done"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne phrase.",
+   "prompt": "Which sentence means that someone else cleaned the windows?",
+   "promptLanguage": "en",
+   "options": [
+    "I had my windows cleaned.",
+    "I cleaned my windows.",
+    "I was cleaning my windows.",
+    "I have cleaned my windows."
+   ],
+   "answer": "I had my windows cleaned.",
+   "acceptedAnswers": [
+    "I had my windows cleaned."
+   ],
+   "explanation": "Have + objet + participe passé veut dire que quelqu'un d'autre fait le travail pour toi. I cleaned my windows veut dire que tu les as nettoyées toi-même.",
+   "tip": "Have + objet + participe passé = quelqu'un d'autre le fait.",
+   "extraExample": {
+    "text": "She has her car washed every Saturday.",
+    "translation": "Elle fait laver sa voiture tous les samedis."
+   },
+   "errorPatterns": [
+    {
+     "equals": "i cleaned my windows",
+     "category": "instruction",
+     "feedback": "Sans have, c'est toi qui as nettoyé les fenêtres."
+    },
+    {
+     "equals": "i was cleaning my windows",
+     "category": "instruction",
+     "feedback": "I was cleaning : tu étais en train de les nettoyer toi-même."
+    },
+    {
+     "equals": "i have cleaned my windows",
+     "category": "instruction",
+     "feedback": "I have cleaned = tu les as nettoyées toi-même. Pour « les faire nettoyer », l'objet se place entre have et le participe : I have my windows cleaned."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e04",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.screen",
+    "en.v.replace"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le bon verbe.",
+   "prompt": "I broke my screen, so I'm going to ___ it replaced.",
+   "promptLanguage": "en",
+   "options": [
+    "have",
+    "make",
+    "do",
+    "let"
+   ],
+   "answer": "have",
+   "acceptedAnswers": [
+    "have",
+    "get"
+   ],
+   "hint": "« Faire faire » : quel verbe l'anglais utilise-t-il ?",
+   "explanation": "Pour « faire remplacer », on utilise have + objet + participe passé (ou get, plus familier). Make, do et let ne marchent pas dans ce sens.",
+   "tip": "Faire faire = have (ou get) + objet + participe passé.",
+   "extraExample": {
+    "text": "We're having the kitchen painted.",
+    "translation": "Nous faisons repeindre la cuisine."
+   },
+   "errorPatterns": [
+    {
+     "equals": "make",
+     "category": "word_confusion",
+     "feedback": "Make ne veut pas dire « faire faire » : on utilise have + objet + participe passé."
+    },
+    {
+     "equals": "do",
+     "category": "word_confusion",
+     "feedback": "Do ne s'emploie pas ainsi : have it replaced."
+    },
+    {
+     "equals": "let",
+     "category": "word_confusion",
+     "feedback": "Let veut dire laisser. Pour « faire faire », on dit have it replaced."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e05",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.battery",
+    "en.v.replace"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe replace.",
+   "prompt": "Last week I had the battery ___ at a shop in town.",
+   "promptLanguage": "en",
+   "options": [
+    "replaced",
+    "replace",
+    "replacing",
+    "to replace"
+   ],
+   "answer": "replaced",
+   "acceptedAnswers": [
+    "replaced"
+   ],
+   "hint": "Après l'objet (the battery), il faut un participe passé.",
+   "explanation": "Dans have + objet + participe passé, le verbe qui décrit le travail est au participe passé : the battery replaced. C'est la batterie qui est remplacée, ce n'est pas toi qui la remplaces.",
+   "tip": "Have + objet + participe passé : the battery (objet) replaced (participe).",
+   "extraExample": {
+    "text": "I'm having my laptop checked this afternoon.",
+    "translation": "Je fais vérifier mon ordinateur portable cet après-midi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "replace",
+     "category": "conjugation",
+     "feedback": "Après l'objet, on met le participe passé : replaced."
+    },
+    {
+     "equals": "replacing",
+     "category": "conjugation",
+     "feedback": "Pas de -ing ici : have + objet + participe passé, soit the battery replaced."
+    },
+    {
+     "equals": "to replace",
+     "category": "grammar",
+     "feedback": "Pas de to : had the battery replaced."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e06",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.software",
+    "en.v.update",
+    "en.v.data",
+    "en.v.battery",
+    "en.v.repair"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le texte, puis choisis la phrase vraie.",
+   "prompt": "Which statement about the writer is correct?",
+   "promptLanguage": "en",
+   "context": "My laptop was very slow, so last Saturday I took it to a repair shop. The technician replaced the old battery, installed new software and updated everything. I collected it on Monday. Next week, I'm going to have all my data saved on a second drive.",
+   "options": [
+    "The writer had the battery replaced by a technician.",
+    "The writer replaced the battery himself.",
+    "The writer collected the laptop on Saturday.",
+    "The writer had his data saved last week."
+   ],
+   "answer": "The writer had the battery replaced by a technician.",
+   "acceptedAnswers": [
+    "The writer had the battery replaced by a technician."
+   ],
+   "explanation": "C'est le technicien qui a remplacé la batterie : l'auteur l'a donc fait remplacer (had it replaced). Il a apporté l'ordinateur le samedi, l'a récupéré le lundi, et fera sauvegarder ses données la semaine prochaine.",
+   "tip": "Qui fait le travail ? Si c'est quelqu'un d'autre, c'est have + objet + participe passé.",
+   "extraExample": {
+    "text": "We had the locks changed after the break-in.",
+    "translation": "Nous avons fait changer les serrures après le cambriolage."
+   },
+   "errorPatterns": [
+    {
+     "equals": "the writer replaced the battery himself",
+     "category": "instruction",
+     "feedback": "C'est le technicien qui a remplacé la batterie : l'auteur l'a fait remplacer."
+    },
+    {
+     "equals": "the writer collected the laptop on saturday",
+     "category": "instruction",
+     "feedback": "Le samedi, il l'a apporté au magasin ; il l'a récupéré lundi."
+    },
+    {
+     "equals": "the writer had his data saved last week",
+     "category": "instruction",
+     "feedback": "Il va faire sauvegarder ses données la semaine prochaine (next week)."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e07",
+   "unitIds": [
+    "en.g59.passive_other_tenses",
+    "en.v.install"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe install au passif.",
+   "prompt": "Please wait a few minutes: the new software ___ installed.",
+   "promptLanguage": "en",
+   "options": [
+    "is being",
+    "is",
+    "has being",
+    "was being"
+   ],
+   "answer": "is being",
+   "acceptedAnswers": [
+    "is being"
+   ],
+   "hint": "L'installation est en cours.",
+   "explanation": "Une action en cours au passif se construit avec is / are being + participe passé. Le sujet the new software est singulier : is being installed.",
+   "tip": "En cours + passif : is / are being + participe passé.",
+   "extraExample": {
+    "text": "The road is being repaired this week.",
+    "translation": "La route est en réparation cette semaine."
+   },
+   "errorPatterns": [
+    {
+     "equals": "is",
+     "category": "verb_tense",
+     "feedback": "Is installed décrit un état ou une habitude. Please wait montre que l'action est en cours : is being installed."
+    },
+    {
+     "equals": "has being",
+     "category": "conjugation",
+     "feedback": "Après has, on dit been, pas being. Et ici l'action est en cours : is being installed."
+    },
+    {
+     "equals": "was being",
+     "category": "verb_tense",
+     "feedback": "Please wait parle du moment présent : is being, pas was being."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e08",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.screen",
+    "en.v.replace"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "J'ai fait remplacer mon écran la semaine dernière.",
+   "promptLanguage": "fr",
+   "answer": "I had my screen replaced last week.",
+   "acceptedAnswers": [
+    "I had my screen replaced last week.",
+    "I had my screen replaced a week ago.",
+    "I got my screen replaced last week.",
+    "I got my screen replaced a week ago.",
+    "Last week I had my screen replaced.",
+    "Last week I got my screen replaced."
+   ],
+   "hint": "Have + objet + participe passé, au passé.",
+   "explanation": "Quelqu'un d'autre a remplacé l'écran : have + objet + participe passé. Have se met au passé (had), et le participe passé reste replaced.",
+   "tip": "I had my screen replaced ≠ I replaced my screen.",
+   "extraExample": {
+    "text": "She had her phone repaired in two days.",
+    "translation": "Elle a fait réparer son téléphone en deux jours."
+   },
+   "errorPatterns": [
+    {
+     "contains": "i made replace",
+     "category": "word_confusion",
+     "feedback": "« Faire faire » ne se dit pas avec make : I had my screen replaced."
+    },
+    {
+     "contains": "i had replaced my screen",
+     "category": "grammar",
+     "feedback": "I had replaced my screen veut dire « j'avais remplacé mon écran » (moi-même). Pour « j'ai fait remplacer », l'objet passe avant le participe : I had my screen replaced."
+    },
+    {
+     "contains": "i replaced my screen",
+     "category": "grammar",
+     "feedback": "I replaced my screen = je l'ai remplacé moi-même. Pour « j'ai fait remplacer », il faut I had my screen replaced."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e09",
+   "unitIds": [
+    "en.g09.do_vs_make",
+    "en.v.research"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon verbe.",
+   "prompt": "Before you buy a new phone, you should ___ some research.",
+   "promptLanguage": "en",
+   "options": [
+    "do",
+    "make",
+    "take",
+    "have"
+   ],
+   "answer": "do",
+   "acceptedAnswers": [
+    "do"
+   ],
+   "explanation": "On dit do research : research est indénombrable et se construit avec do (do some research). Make sert plutôt à fabriquer ou à créer (make a decision, make a mistake).",
+   "tip": "Do research, do homework, do the housework : do pour les activités.",
+   "extraExample": {
+    "text": "She is doing research on climate change.",
+    "translation": "Elle fait des recherches sur le changement climatique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "make",
+     "category": "word_confusion",
+     "feedback": "En français on « fait des recherches », mais en anglais on dit do research, pas make research."
+    },
+    {
+     "equals": "take",
+     "category": "word_confusion",
+     "feedback": "Take ne s'emploie pas avec research : do some research."
+    },
+    {
+     "equals": "have",
+     "category": "word_confusion",
+     "feedback": "Have some research n'existe pas : do some research."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e10",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.software",
+    "en.v.update"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le verbe update.",
+   "prompt": "I haven't had my software ___ for months.",
+   "promptLanguage": "en",
+   "options": [
+    "updated",
+    "update",
+    "updating",
+    "to update"
+   ],
+   "answer": "updated",
+   "acceptedAnswers": [
+    "updated"
+   ],
+   "hint": "Après l'objet (my software), il faut un participe passé.",
+   "explanation": "Have + objet + participe passé fonctionne à tous les temps de have, y compris au present perfect : I haven't had my software updated = je n'ai pas fait mettre mon logiciel à jour. Le verbe du travail reste au participe passé.",
+   "tip": "Le temps se lit sur have ; le verbe du travail reste au participe passé.",
+   "extraExample": {
+    "text": "She has had her car serviced twice this year.",
+    "translation": "Elle a fait réviser sa voiture deux fois cette année."
+   },
+   "errorPatterns": [
+    {
+     "equals": "update",
+     "category": "conjugation",
+     "feedback": "Après l'objet, il faut le participe passé : updated."
+    },
+    {
+     "equals": "updating",
+     "category": "conjugation",
+     "feedback": "Pas de -ing ici : have + objet + participe passé, soit my software updated."
+    },
+    {
+     "equals": "to update",
+     "category": "grammar",
+     "feedback": "Pas de to : haven't had my software updated."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e11",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.battery",
+    "en.g10.want_need_to"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Je dois faire remplacer la batterie.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "I",
+    "to",
+    "battery",
+    "need",
+    "have",
+    "the",
+    "replaced"
+   ],
+   "answer": "I need to have the battery replaced",
+   "acceptedAnswers": [
+    "I need to have the battery replaced"
+   ],
+   "explanation": "Need to est suivi de have (verbe de base), puis de l'objet (the battery) et du participe passé (replaced).",
+   "tip": "Need / want to + have + objet + participe passé.",
+   "extraExample": {
+    "text": "I want to have my hair cut before the wedding.",
+    "translation": "Je veux me faire couper les cheveux avant le mariage."
+   }
+  },
+  {
+   "id": "en.l79.e12",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.repair"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque phrase anglaise à sa traduction.",
+   "prompt": "Moi-même ou quelqu'un d'autre ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "I had my screen replaced.",
+     "right": "J'ai fait remplacer mon écran."
+    },
+    {
+     "left": "I replaced my screen.",
+     "right": "J'ai remplacé mon écran moi-même."
+    },
+    {
+     "left": "She's having her hair cut.",
+     "right": "Elle se fait couper les cheveux."
+    },
+    {
+     "left": "We had the walls painted.",
+     "right": "Nous avons fait peindre les murs."
+    },
+    {
+     "left": "Did you have it fixed?",
+     "right": "Tu l'as fait réparer ?"
+    }
+   ],
+   "answer": "I had my screen replaced. = J'ai fait remplacer mon écran. ; I replaced my screen. = J'ai remplacé mon écran moi-même. ; She's having her hair cut. = Elle se fait couper les cheveux. ; We had the walls painted. = Nous avons fait peindre les murs. ; Did you have it fixed? = Tu l'as fait réparer ?",
+   "acceptedAnswers": [],
+   "explanation": "Avec have + objet + participe passé, quelqu'un d'autre fait le travail. Sans have (I replaced my screen), c'est toi qui le fais. Have se met au temps voulu : had, is having, did… have.",
+   "tip": "Have + objet + participe passé = faire faire.",
+   "extraExample": {
+    "text": "He's having his teeth checked today.",
+    "translation": "Il fait vérifier ses dents aujourd'hui."
+   }
+  },
+  {
+   "id": "en.l79.e13",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.install",
+    "en.v.software"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Je vais faire installer un nouveau logiciel.",
+   "promptLanguage": "fr",
+   "answer": "I'm going to have new software installed.",
+   "acceptedAnswers": [
+    "I'm going to have new software installed.",
+    "I'm going to have a new piece of software installed.",
+    "I'm going to have a new program installed.",
+    "I'm going to get new software installed.",
+    "I'm going to get a new piece of software installed.",
+    "I'm going to get a new program installed.",
+    "I am going to have new software installed.",
+    "I am going to have a new piece of software installed.",
+    "I am going to have a new program installed.",
+    "I am going to get new software installed.",
+    "I am going to get a new piece of software installed.",
+    "I am going to get a new program installed.",
+    "I'll have new software installed.",
+    "I'll have a new piece of software installed.",
+    "I'll have a new program installed.",
+    "I'll get new software installed.",
+    "I'll get a new piece of software installed.",
+    "I'll get a new program installed.",
+    "I will have new software installed.",
+    "I will have a new piece of software installed.",
+    "I will have a new program installed.",
+    "I will get new software installed.",
+    "I will get a new piece of software installed.",
+    "I will get a new program installed."
+   ],
+   "hint": "Software n'a ni a ni pluriel.",
+   "explanation": "Quelqu'un d'autre fera l'installation : have + objet + participe passé. Le futur proche se fait avec am going to + have. Software est indénombrable : new software, sans a ni -s.",
+   "tip": "Software est indénombrable : pas de a, pas de -s.",
+   "extraExample": {
+    "text": "I need new software installed on my laptop.",
+    "translation": "J'ai besoin qu'on installe un nouveau logiciel sur mon ordinateur portable."
+   },
+   "errorPatterns": [
+    {
+     "contains": "a new software",
+     "category": "grammar",
+     "feedback": "Software est indénombrable : on dit new software ou a piece of software, jamais a software."
+    },
+    {
+     "contains": "softwares",
+     "category": "spelling",
+     "feedback": "Software n'a pas de pluriel."
+    },
+    {
+     "contains": "have installed new",
+     "category": "grammar",
+     "feedback": "L'objet doit passer avant le participe : have new software installed."
+    },
+    {
+     "contains": "make install",
+     "category": "word_confusion",
+     "feedback": "« Faire faire » ne se traduit pas par make : have new software installed."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e14",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.data",
+    "en.v.save"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Où as-tu fait sauvegarder tes données ?",
+   "promptLanguage": "fr",
+   "tokens": [
+    "data",
+    "did",
+    "Where",
+    "saved",
+    "have",
+    "you",
+    "your"
+   ],
+   "answer": "Where did you have your data saved",
+   "acceptedAnswers": [
+    "Where did you have your data saved"
+   ],
+   "explanation": "Ici, have est un verbe ordinaire : la question se fait avec did + sujet + have (forme de base) + objet + participe passé. Did porte le passé, donc have ne change pas.",
+   "tip": "Question : do / did + sujet + have + objet + participe passé.",
+   "extraExample": {
+    "text": "How often do you have your car checked?",
+    "translation": "À quelle fréquence fais-tu vérifier ta voiture ?"
+   }
+  },
+  {
+   "id": "en.l79.e15",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.repair"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "I'm having my bike repaired this afternoon.",
+   "promptLanguage": "en",
+   "answer": "Je fais réparer mon vélo cet après-midi.",
+   "acceptedAnswers": [
+    "Je fais réparer mon vélo cet après-midi.",
+    "Je fais réparer ma bicyclette cet après-midi.",
+    "Je fais réviser mon vélo cet après-midi.",
+    "Je fais réviser ma bicyclette cet après-midi.",
+    "Cet après-midi, je fais réparer mon vélo.",
+    "Cet après-midi je fais réparer mon vélo.",
+    "Je donne mon vélo à réparer cet après-midi.",
+    "On répare mon vélo cet après-midi.",
+    "Mon vélo est en réparation cet après-midi."
+   ],
+   "explanation": "I'm having my bike repaired = je fais réparer mon vélo : have + objet + participe passé, au présent continu parce que c'est prévu pour cet après-midi. En français, on traduit par « faire + infinitif ».",
+   "tip": "Have something done = « faire + infinitif » : faire réparer, faire couper…",
+   "extraExample": {
+    "text": "We're having the windows replaced next week.",
+    "translation": "Nous faisons remplacer les fenêtres la semaine prochaine."
+   }
+  },
+  {
+   "id": "en.l79.e16",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.screen",
+    "en.v.repair"
+   ],
+   "type": "fill_blank",
+   "difficulty": 4,
+   "instruction": "Complète avec le verbe have.",
+   "prompt": "Why didn't you ___ your screen repaired earlier?",
+   "promptLanguage": "en",
+   "options": [
+    "have",
+    "had",
+    "having",
+    "to have"
+   ],
+   "answer": "have",
+   "acceptedAnswers": [
+    "have"
+   ],
+   "hint": "Après didn't, le verbe est à la forme de base.",
+   "explanation": "Have est ici un verbe ordinaire : après didn't, il revient à la forme de base (have), comme n'importe quel autre verbe. La suite reste have + objet + participe passé : your screen repaired.",
+   "tip": "Après do / did, have reste à la forme de base : didn't have it repaired.",
+   "extraExample": {
+    "text": "Do you often have your car washed?",
+    "translation": "Fais-tu souvent laver ta voiture ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "had",
+     "category": "conjugation",
+     "feedback": "Après didn't, le verbe se met à la forme de base : have, pas had."
+    },
+    {
+     "equals": "having",
+     "category": "conjugation",
+     "feedback": "Après didn't, on utilise have à la forme de base, pas having."
+    },
+    {
+     "equals": "to have",
+     "category": "grammar",
+     "feedback": "Après didn't, pas de to : didn't have your screen repaired."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e17",
+   "unitIds": [
+    "en.g22.irregular_verbs",
+    "en.v.screen"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "J'ai cassé mon écran la semaine dernière.",
+   "promptLanguage": "fr",
+   "answer": "I broke my screen last week.",
+   "acceptedAnswers": [
+    "I broke my screen last week.",
+    "I broke my screen a week ago.",
+    "I broke my phone screen last week.",
+    "I broke my phone screen a week ago.",
+    "Last week I broke my screen",
+    "Last week I broke my phone screen"
+   ],
+   "hint": "Break est irrégulier.",
+   "explanation": "Break est un verbe irrégulier : break – broke – broken. L'action est terminée (la semaine dernière) : past simple, broke. Ici, c'est toi qui as cassé l'écran, donc pas de have + participe.",
+   "tip": "Break – broke – broken.",
+   "extraExample": {
+    "text": "I lost my keys yesterday.",
+    "translation": "J'ai perdu mes clés hier."
+   },
+   "errorPatterns": [
+    {
+     "contains": "i breaked",
+     "category": "conjugation",
+     "feedback": "Break est irrégulier : le past simple est broke."
+    },
+    {
+     "contains": "i broken",
+     "category": "conjugation",
+     "feedback": "Broken est le participe passé. Au past simple : broke."
+    },
+    {
+     "contains": "i have broke",
+     "category": "conjugation",
+     "feedback": "Have broke n'existe pas : au present perfect, I have broken ; au past simple, I broke."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e18",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.update",
+    "en.g38.should_could"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Tu devrais faire mettre à jour ton ordinateur.",
+   "promptLanguage": "fr",
+   "answer": "You should have your computer updated.",
+   "acceptedAnswers": [
+    "You should have your computer updated.",
+    "You should have your laptop updated.",
+    "You should get your computer updated.",
+    "You should get your laptop updated."
+   ],
+   "hint": "Should + have + objet + participe passé.",
+   "explanation": "Après should, have reste à la forme de base, puis viennent l'objet et le participe passé : should have your computer updated. L'ordre est essentiel.",
+   "tip": "Objet avant le participe : should have your computer updated.",
+   "extraExample": {
+    "text": "You should have your eyes tested every two years.",
+    "translation": "Tu devrais faire contrôler ta vue tous les deux ans."
+   },
+   "errorPatterns": [
+    {
+     "contains": "should have updated your",
+     "category": "grammar",
+     "feedback": "You should have updated your computer veut dire « tu aurais dû mettre à jour ton ordinateur » (toi-même). Pour « faire mettre à jour », l'objet passe avant le participe : You should have your computer updated."
+    },
+    {
+     "contains": "should make your computer",
+     "category": "word_confusion",
+     "feedback": "« Faire faire » ne se traduit pas par make : should have your computer updated."
+    },
+    {
+     "contains": "should to have",
+     "category": "grammar",
+     "feedback": "Après should, pas de to : should have your computer updated."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e19",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.v.data"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « Elle a fait sauvegarder ses données » ?",
+   "promptLanguage": "fr",
+   "answer": "She had her data saved.",
+   "acceptedAnswers": [
+    "She had her data saved.",
+    "She had her data backed up.",
+    "She got her data saved.",
+    "She got her data backed up.",
+    "She has had her data saved.",
+    "She has had her data backed up."
+   ],
+   "hint": "Elle → her.",
+   "explanation": "Quelqu'un d'autre a sauvegardé les données : have + objet + participe passé. Au passé, had ; l'objet her data se place avant le participe saved.",
+   "tip": "Le possessif s'accorde avec le possesseur : elle = her.",
+   "extraExample": {
+    "text": "He had his passport renewed last month.",
+    "translation": "Il a fait renouveler son passeport le mois dernier."
+   },
+   "errorPatterns": [
+    {
+     "contains": "she made save",
+     "category": "word_confusion",
+     "feedback": "« Faire faire » ne se traduit pas par make : She had her data saved."
+    },
+    {
+     "contains": "she had saved her data",
+     "category": "grammar",
+     "feedback": "She had saved her data = elle avait sauvegardé ses données (elle-même). Pour « elle a fait sauvegarder », l'objet passe avant le participe : She had her data saved."
+    },
+    {
+     "contains": "his data",
+     "category": "grammar",
+     "feedback": "Le possesseur est « elle » : le possessif est her, pas his."
+    }
+   ]
+  },
+  {
+   "id": "en.l79.e20",
+   "unitIds": [
+    "en.g60.have_something_done"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase en anglais avec have something done.",
+   "prompt": "Écris une phrase : quelque chose que tu as fait faire (ou que tu vas faire faire) par quelqu'un d'autre.",
+   "promptLanguage": "fr",
+   "requirements": {
+    "mustInclude": [
+     [
+      "have",
+      "has",
+      "had",
+      "having",
+      "get",
+      "got",
+      "getting"
+     ],
+     [
+      "repaired",
+      "fixed",
+      "replaced",
+      "cut",
+      "painted",
+      "installed",
+      "updated",
+      "checked",
+      "cleaned",
+      "done",
+      "serviced",
+      "delivered",
+      "fitted",
+      "tested",
+      "washed",
+      "renewed",
+      "saved",
+      "built",
+      "changed",
+      "dyed",
+      "decorated",
+      "cleaned",
+      "printed"
+     ]
+    ],
+    "minWords": 5
+   },
+   "answer": "I had my hair cut yesterday.",
+   "acceptedAnswers": [
+    "I had my hair cut yesterday.",
+    "I'm going to have my phone repaired.",
+    "We are having the kitchen painted.",
+    "I got my car washed last week."
+   ],
+   "hint": "Have + objet + participe passé.",
+   "explanation": "Pour parler de quelque chose que quelqu'un d'autre fait pour toi, utilise have (ou get) + objet + participe passé : I had my car washed. N'utilise pas make, et place l'objet avant le participe.",
+   "tip": "Have / get + quoi + participe passé.",
+   "extraExample": {
+    "text": "I'm having my flat painted next month.",
+    "translation": "Je fais repeindre mon appartement le mois prochain."
+   },
+   "errorPatterns": [
+    {
+     "contains": "made repair",
+     "category": "word_confusion",
+     "feedback": "« Faire faire » ne se traduit pas par make : have + objet + participe passé."
+    },
+    {
+     "contains": "made fix",
+     "category": "word_confusion",
+     "feedback": "« Faire faire » ne se traduit pas par make : have + objet + participe passé."
+    }
+   ]
+  }
+ ]
+}

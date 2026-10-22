@@ -306,5 +306,49 @@
    ],
    "tip": "Chadda après ال = lettre solaire. Soukoun sur le ل = lettre lunaire."
   }
+ },
+ {
+  "id": "ar.g24.ta_marbuta_alif_maqsura",
+  "rule": {
+   "summary": "ة marque le féminin et ne se dit pas : le a final vient de la fatha d'avant. ى est un a long final écrit comme un ي sans points.",
+   "explanation": "ة (tâ marbûta) termine la plupart des mots féminins et suit toujours une fatha (ou un alif long) : dans قَهْوَة, le a final est celui de la fatha sur و. Quand le mot est suivi de son complément, elle se lit parfois t : كَنِيسَةِ الْعَدْرَا. ى (alif maqsûra) ne se trouve qu'à la fin d'un mot ; après une fatha, elle donne un a long : عَلَى, مُوسَى, مَتَّى.",
+   "pattern": "ـَة = a final    ـَى = a long final",
+   "examples": [
+    {
+     "text": "قَهْوَة",
+     "translation": "café : le a final vient de la fatha sur و"
+    },
+    {
+     "text": "كَنِيسَة",
+     "translation": "église"
+    },
+    {
+     "text": "مُوسَى",
+     "translation": "Moïse : ى donne un a long"
+    },
+    {
+     "text": "مَتَّى",
+     "translation": "Matthieu, l'évangéliste"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "قَهْوَة lu avec un a de plus après و",
+     "right": "قَهْوَة : le a de وَ suffit",
+     "why": "ة est muette, elle ne rajoute pas de son."
+    },
+    {
+     "wrong": "ى lu comme un i (ي)",
+     "right": "ى = a long",
+     "why": "ى n'a pas de points et suit une fatha : c'est un a long."
+    },
+    {
+     "wrong": "ة toujours lue t",
+     "right": "ة se dit a, parfois t devant un complément",
+     "why": "Seul le lien avec le mot suivant la fait entendre t."
+    }
+   ],
+   "tip": "ة : le a est déjà dans la fatha d'avant. ى : sans points, c'est un a long."
+  }
  }
 ]

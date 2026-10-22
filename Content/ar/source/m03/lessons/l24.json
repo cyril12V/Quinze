@@ -1,0 +1,862 @@
+{
+ "lessonId": "ar.l24",
+ "exercises": [
+  {
+   "id": "ar.l24.e01",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Dans قَهْوَة, d'où vient le a de la fin ?",
+   "promptLanguage": "fr",
+   "answer": "de la fatha sur و",
+   "acceptedAnswers": [
+    "de la fatha sur و"
+   ],
+   "explanation": "ة est muette : le a final vient de la fatha sur و, juste avant elle.",
+   "tip": "Cherche la fatha avant ة.",
+   "extraExample": {
+    "text": "كَنِيسَة",
+    "translation": "église : le a vient de la fatha sur س"
+   },
+   "options": [
+    "d'un ا caché",
+    "du ة lui-même",
+    "de la fatha sur و"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "du ة lui-même",
+     "category": "spelling",
+     "feedback": "ة ne se dit pas à part : c'est la fatha d'avant qui donne le a."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e02",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Réponds.",
+   "prompt": "Comment se lit ى à la fin d'un mot ?",
+   "promptLanguage": "fr",
+   "answer": "a long",
+   "acceptedAnswers": [
+    "a long"
+   ],
+   "explanation": "Après une fatha, ى donne un a long : مُوسَى. Le i long vient d'un ي avec ses points après une kasra.",
+   "tip": "ى = a long.",
+   "extraExample": {
+    "text": "مَتَّى",
+    "translation": "Matthieu"
+   },
+   "options": [
+    "ou long",
+    "i long",
+    "a long"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "i long",
+     "category": "spelling",
+     "feedback": "Le i long vient de ي avec une kasra avant."
+    },
+    {
+     "equals": "ou long",
+     "category": "spelling",
+     "feedback": "Le ou long vient de و avec une damma avant."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e03",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Réponds.",
+   "prompt": "Comment reconnaît-on ى ?",
+   "promptLanguage": "fr",
+   "answer": "ى est un ي sans ses deux points",
+   "acceptedAnswers": [
+    "ى est un ي sans ses deux points"
+   ],
+   "explanation": "ى est un ي dont on a enlevé les 2 points, et il n'est qu'à la fin des mots.",
+   "tip": "Pas de points : alif maqsûra.",
+   "extraExample": {
+    "text": "مُوسَى",
+    "translation": "Moïse"
+   },
+   "options": [
+    "ى est un ي sans ses deux points",
+    "ى est un ا courbé",
+    "ى est un ي avec un point en plus"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ى est un ا courbé",
+     "category": "spelling",
+     "feedback": "Le ا est un bâton droit ; ى garde la forme d'un ي."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e04",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.rahma"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "رَحْمَة",
+   "promptLanguage": "ar",
+   "answer": "miséricorde",
+   "acceptedAnswers": [
+    "miséricorde"
+   ],
+   "explanation": "ر + a, ح sans voyelle, م + a, ة muette : la miséricorde. C'est ce qu'on demande avec يَا رَبّ اِرْحَم.",
+   "tip": "Fatha avant ة : le a final.",
+   "extraExample": {
+    "text": "رَحْمَة رَبِّنَا وَاسْعَة.",
+    "translation": "La miséricorde de notre Seigneur est vaste."
+   },
+   "options": [
+    "bénédiction",
+    "joie",
+    "résurrection",
+    "miséricorde"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "bénédiction",
+     "category": "word_confusion",
+     "feedback": "La bénédiction est بَرَكَة : trois fathas."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e05",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.qiyama"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "قِيَامَة",
+   "promptLanguage": "ar",
+   "answer": "résurrection",
+   "acceptedAnswers": [
+    "résurrection"
+   ],
+   "explanation": "ق + i, ي + a long (ي consonne avec fatha, puis ا), م + a, ة muette : la résurrection, la fête de Pâques.",
+   "tip": "Le ي porte une fatha : c'est une consonne.",
+   "extraExample": {
+    "text": "عِيد الْقِيَامَة.",
+    "translation": "La fête de la Résurrection."
+   },
+   "options": [
+    "prière",
+    "miséricorde",
+    "église",
+    "résurrection"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "prière",
+     "category": "word_confusion",
+     "feedback": "La prière est صَلَاة : un autre mot."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e06",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.musa"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "مُوسَى",
+   "promptLanguage": "ar",
+   "answer": "Moïse",
+   "acceptedAnswers": [
+    "Moïse"
+   ],
+   "explanation": "م + ou long (damma + و), س + a long final (fatha + ى) : Moïse, le prophète.",
+   "tip": "ى final : a long.",
+   "extraExample": {
+    "text": "جَبَل مُوسَى.",
+    "translation": "Le mont de Moïse."
+   },
+   "options": [
+    "Moïse",
+    "Adam",
+    "Jean",
+    "Matthieu"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "Matthieu",
+     "category": "word_confusion",
+     "feedback": "Matthieu est مَتَّى : avec un ت doublé."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e07",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.yohanna"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "يُوحَنَّا",
+   "promptLanguage": "ar",
+   "answer": "Jean",
+   "acceptedAnswers": [
+    "Jean"
+   ],
+   "explanation": "ي + ou long, ح + a, ن doublé + a long final, écrit ici avec un ا : Jean.",
+   "tip": "Un a long final peut s'écrire ا.",
+   "extraExample": {
+    "text": "إِنْجِيل يُوحَنَّا.",
+    "translation": "L'Évangile selon Jean."
+   },
+   "options": [
+    "Moïse",
+    "Matthieu",
+    "Jean",
+    "Abraham"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "Moïse",
+     "category": "word_confusion",
+     "feedback": "Moïse est مُوسَى, avec un ى final."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e08",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Réponds.",
+   "prompt": "Dans مَلَائِكَة, quelle voyelle précède ة ?",
+   "promptLanguage": "fr",
+   "answer": "la fatha",
+   "acceptedAnswers": [
+    "la fatha"
+   ],
+   "explanation": "ة est toujours précédée d'une fatha (ou d'un ا long) : ici celle de ك.",
+   "tip": "ة : toujours après une fatha.",
+   "extraExample": {
+    "text": "رَحْمَة",
+    "translation": "miséricorde"
+   },
+   "options": [
+    "la fatha",
+    "la kasra",
+    "la damma"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "la kasra",
+     "category": "spelling",
+     "feedback": "La kasra de مَلَائِكَة est sous la hamza ئ, pas sous ك."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e09",
+   "unitIds": [
+    "ar.v.kanisa",
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "كَنِيسَة",
+   "promptLanguage": "ar",
+   "answer": "église",
+   "acceptedAnswers": [
+    "église"
+   ],
+   "explanation": "ك + a, ن + i long, س + a, ة muette : l'église. Le mot que tu lisais كنيسة.",
+   "tip": "Dis le mot tout haut : ton oreille le reconnaît.",
+   "extraExample": {
+    "text": "كَنِيسَة الْعَدْرَا",
+    "translation": "l'église de la Vierge"
+   },
+   "options": [
+    "chambre",
+    "école",
+    "maison",
+    "église"
+   ]
+  },
+  {
+   "id": "ar.l24.e10",
+   "unitIds": [
+    "ar.v.qahwa",
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "قَهْوَة",
+   "promptLanguage": "ar",
+   "answer": "café (boisson)",
+   "acceptedAnswers": [
+    "café (boisson)"
+   ],
+   "explanation": "ق + a, ه sans voyelle, و + a, ة muette : le café que l'on boit. Le café en grains est بُنّ.",
+   "tip": "Le a final vient de la fatha sur و.",
+   "extraExample": {
+    "text": "قَهْوَة سَادَة",
+    "translation": "un café sans sucre"
+   },
+   "options": [
+    "thé",
+    "café (grains)",
+    "café (boisson)",
+    "lait"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "café (grains)",
+     "category": "word_confusion",
+     "feedback": "Le café en grains est بُنّ, avec une chadda."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e11",
+   "unitIds": [
+    "ar.g21.tanwin",
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots se termine par le son an ?",
+   "promptLanguage": "fr",
+   "answer": "دَايِمًا",
+   "acceptedAnswers": [
+    "دَايِمًا"
+   ],
+   "explanation": "دَايِمًا se termine par le tanwin fatha (ـًا) : an. شَجَرَة finit par ة muette, مُوسَى par un a long.",
+   "tip": "Deux fathas : an.",
+   "extraExample": {
+    "text": "الْمَجْد لِلَّه دَايِمًا.",
+    "translation": "Gloire à Dieu toujours."
+   },
+   "options": [
+    "شَجَرَة",
+    "دَايِمًا",
+    "مُوسَى"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "شَجَرَة",
+     "category": "spelling",
+     "feedback": "ة est muette : elle donne un simple a, sans n."
+    },
+    {
+     "equals": "مُوسَى",
+     "category": "spelling",
+     "feedback": "ى donne un a long, sans n."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e12",
+   "unitIds": [
+    "ar.g22.hamza_madda",
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Lequel de ces mots commence par un coup de gorge + a long ?",
+   "promptLanguage": "fr",
+   "answer": "آمِين",
+   "acceptedAnswers": [
+    "آمِين"
+   ],
+   "explanation": "آ (madda) donne un coup de gorge suivi d'un a long. أَبُونَا a un coup de gorge + a bref, إِيمَان un coup de gorge + i.",
+   "tip": "Madda = coup de gorge + a long.",
+   "extraExample": {
+    "text": "آدَم",
+    "translation": "Adam"
+   },
+   "options": [
+    "إِيمَان",
+    "أَبُونَا",
+    "آمِين"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "أَبُونَا",
+     "category": "spelling",
+     "feedback": "Ici la hamza a une fatha : coup de gorge + a bref."
+    },
+    {
+     "equals": "إِيمَان",
+     "category": "spelling",
+     "feedback": "Ici la hamza a une kasra : coup de gorge + i."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e13",
+   "unitIds": [
+    "ar.v.qahwa",
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète le mot « café ».",
+   "prompt": "قَهْوَ___",
+   "promptLanguage": "ar",
+   "answer": "ة",
+   "acceptedAnswers": [
+    "ة"
+   ],
+   "explanation": "قَهْوَة se termine par ة, le ت attaché au ه : deux points dessus. Le a final est celui de la fatha sur و.",
+   "tip": "ة : deux points dessus.",
+   "extraExample": {
+    "text": "قَهْوَة سَادَة",
+    "translation": "un café sans sucre"
+   },
+   "options": [
+    "ت",
+    "ة",
+    "ه"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ه",
+     "category": "spelling",
+     "feedback": "ه n'a pas de points : ce n'est pas le ة du féminin."
+    },
+    {
+     "equals": "ت",
+     "category": "spelling",
+     "feedback": "ت a deux points mais ne se termine pas ainsi : le mot féminin finit par ة."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e14",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.musa"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète le nom « Moïse ».",
+   "prompt": "مُوسَ___",
+   "promptLanguage": "ar",
+   "answer": "ى",
+   "acceptedAnswers": [
+    "ى"
+   ],
+   "explanation": "Moïse s'écrit avec un ى final, sans points, après la fatha de س.",
+   "tip": "Moïse : ى.",
+   "extraExample": {
+    "text": "مُوسَى النَّبِي.",
+    "translation": "Moïse le prophète."
+   },
+   "options": [
+    "ى",
+    "ي",
+    "ا"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "ي aurait deux points, et suivrait une kasra : ici c'est un ى après une fatha."
+    },
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "Moïse s'écrit avec un ى, alors que Jean s'écrit avec un ا."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e15",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.yohanna"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète le nom « Jean ».",
+   "prompt": "يُوحَنَّ___",
+   "promptLanguage": "ar",
+   "answer": "ا",
+   "acceptedAnswers": [
+    "ا"
+   ],
+   "explanation": "Jean s'écrit avec un ا final, bien que le son soit le même qu'avec ى. On apprend chaque nom tel qu'il est écrit.",
+   "tip": "Jean : ا ; Moïse : ى.",
+   "extraExample": {
+    "text": "يُوحَنَّا الْحَبِيب.",
+    "translation": "Jean le bien-aimé."
+   },
+   "options": [
+    "ا",
+    "ي",
+    "ى"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ى",
+     "category": "spelling",
+     "feedback": "C'est Moïse qui prend ى. Jean prend un ا."
+    },
+    {
+     "equals": "ي",
+     "category": "spelling",
+     "feedback": "ي aurait deux points et suivrait une kasra."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e16",
+   "unitIds": [
+    "ar.v.kursi",
+    "ar.g24.ta_marbuta_alif_maqsura"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète le mot « chaise ».",
+   "prompt": "كُرْسِ___",
+   "promptLanguage": "ar",
+   "answer": "ي",
+   "acceptedAnswers": [
+    "ي"
+   ],
+   "explanation": "Après la kasra sous س, un ي final donne un i long : كُرْسِي. Avec un ى, on lirait un a long.",
+   "tip": "Kasra + ي : i long.",
+   "extraExample": {
+    "text": "كُرْسِي",
+    "translation": "chaise"
+   },
+   "options": [
+    "ا",
+    "ي",
+    "ى"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "ى",
+     "category": "spelling",
+     "feedback": "ى va avec une fatha. Après la kasra de س, il faut ي."
+    },
+    {
+     "equals": "ا",
+     "category": "spelling",
+     "feedback": "ا allonge une fatha ; après une kasra, c'est ي."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e17",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.rahma",
+    "ar.v.qiyama",
+    "ar.v.baraka",
+    "ar.v.farha",
+    "ar.v.shagara"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots en ة",
+   "promptLanguage": "fr",
+   "answer": "رَحْمَة = miséricorde ; قِيَامَة = résurrection ; بَرَكَة = bénédiction ; فَرْحَة = joie ; شَجَرَة = arbre",
+   "acceptedAnswers": [],
+   "explanation": "Tous finissent par ة muette, après une fatha.",
+   "pairs": [
+    {
+     "left": "رَحْمَة",
+     "right": "miséricorde"
+    },
+    {
+     "left": "قِيَامَة",
+     "right": "résurrection"
+    },
+    {
+     "left": "بَرَكَة",
+     "right": "bénédiction"
+    },
+    {
+     "left": "فَرْحَة",
+     "right": "joie"
+    },
+    {
+     "left": "شَجَرَة",
+     "right": "arbre"
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e18",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.musa",
+    "ar.v.matta",
+    "ar.v.yohanna",
+    "ar.v.zikra",
+    "ar.v.maana"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots en ى et en ا",
+   "promptLanguage": "fr",
+   "answer": "مُوسَى = Moïse ; مَتَّى = Matthieu ; يُوحَنَّا = Jean ; ذِكْرَى = souvenir ; مَعْنَى = sens",
+   "acceptedAnswers": [],
+   "explanation": "Les noms de Moïse et Matthieu finissent par ى ; Jean par ا. Le son est le même : un a long.",
+   "pairs": [
+    {
+     "left": "مُوسَى",
+     "right": "Moïse"
+    },
+    {
+     "left": "مَتَّى",
+     "right": "Matthieu"
+    },
+    {
+     "left": "يُوحَنَّا",
+     "right": "Jean"
+    },
+    {
+     "left": "ذِكْرَى",
+     "right": "souvenir"
+    },
+    {
+     "left": "مَعْنَى",
+     "right": "sens"
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e19",
+   "unitIds": [
+    "ar.v.gabal",
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.burj",
+    "ar.v.ruh",
+    "ar.v.kahin"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Bilan : fatha, soukoun, voyelles longues",
+   "promptLanguage": "fr",
+   "answer": "جَبَل = montagne ; بُرْج = tour ; رُوح = esprit ; كَاهِن = prêtre",
+   "acceptedAnswers": [],
+   "explanation": "جَبَل : deux fathas. بُرْج : un soukoun. رُوح : ou long. كَاهِن : a long.",
+   "pairs": [
+    {
+     "left": "جَبَل",
+     "right": "montagne"
+    },
+    {
+     "left": "بُرْج",
+     "right": "tour"
+    },
+    {
+     "left": "رُوح",
+     "right": "esprit"
+    },
+    {
+     "left": "كَاهِن",
+     "right": "prêtre"
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e20",
+   "unitIds": [
+    "ar.v.rabb",
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.qiddis",
+    "ar.v.suaal",
+    "ar.v.shams"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Bilan : chadda, hamza et ال",
+   "promptLanguage": "fr",
+   "answer": "رَبّ = Seigneur ; قِدِّيس = saint ; سُؤَال = question ; الشَّمْس = le soleil",
+   "acceptedAnswers": [],
+   "explanation": "رَبّ et قِدِّيس : chadda. سُؤَال : hamza sur و. الشَّمْس : ال avec une lettre solaire.",
+   "pairs": [
+    {
+     "left": "رَبّ",
+     "right": "Seigneur"
+    },
+    {
+     "left": "قِدِّيس",
+     "right": "saint"
+    },
+    {
+     "left": "سُؤَال",
+     "right": "question"
+    },
+    {
+     "left": "الشَّمْس",
+     "right": "le soleil"
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e21",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.shagara"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "شَجَرَة",
+   "promptLanguage": "ar",
+   "answer": "arbre",
+   "acceptedAnswers": [
+    "arbre",
+    "un arbre",
+    "l'arbre"
+   ],
+   "explanation": "ش + a, ج + a, ر + a, ة muette : un arbre.",
+   "tip": "Trois fathas, puis ة.",
+   "extraExample": {
+    "text": "شَجَرَة كِبِيرَة.",
+    "translation": "Un grand arbre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "joie",
+     "category": "word_confusion",
+     "feedback": "La joie est فَرْحَة, avec un soukoun sur ر."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e22",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.farha"
+   ],
+   "type": "translation",
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "فَرْحَة",
+   "promptLanguage": "ar",
+   "answer": "joie",
+   "acceptedAnswers": [
+    "joie",
+    "une joie",
+    "la joie",
+    "bonheur"
+   ],
+   "explanation": "ف + a, ر sans voyelle, ح + a, ة muette : la joie.",
+   "tip": "Un soukoun sur ر.",
+   "extraExample": {
+    "text": "فَرْحَة الْعِيد.",
+    "translation": "La joie de la fête."
+   },
+   "errorPatterns": [
+    {
+     "equals": "arbre",
+     "category": "word_confusion",
+     "feedback": "L'arbre est شَجَرَة, avec trois fathas."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e23",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.zikra"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire ذِكْرَى ?",
+   "promptLanguage": "fr",
+   "answer": "souvenir",
+   "acceptedAnswers": [
+    "souvenir",
+    "un souvenir",
+    "commémoration",
+    "la commémoration",
+    "mémoire"
+   ],
+   "explanation": "ذِكْرَى : ذ + i, ك sans voyelle, ر + a long final (fatha + ى). Un souvenir, et dans l'Église la commémoration d'un saint.",
+   "tip": "Fatha + ى : a long.",
+   "extraExample": {
+    "text": "ذِكْرَى جَمِيلَة.",
+    "translation": "Un beau souvenir."
+   },
+   "errorPatterns": [
+    {
+     "equals": "sens",
+     "category": "word_confusion",
+     "feedback": "Le sens est مَعْنَى : ici tu lis ذ + ك + ر + ى."
+    }
+   ]
+  },
+  {
+   "id": "ar.l24.e24",
+   "unitIds": [
+    "ar.g24.ta_marbuta_alif_maqsura",
+    "ar.v.maana"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire مَعْنَى ?",
+   "promptLanguage": "fr",
+   "answer": "sens",
+   "acceptedAnswers": [
+    "sens",
+    "le sens",
+    "signification",
+    "la signification",
+    "un sens"
+   ],
+   "explanation": "مَعْنَى : م + a, ع sans voyelle, ن + a long final (fatha + ى). Le sens d'un mot.",
+   "tip": "Fatha + ى : a long.",
+   "extraExample": {
+    "text": "مَعْنَى كَلِمَة آمِين.",
+    "translation": "Le sens du mot amen."
+   },
+   "errorPatterns": [
+    {
+     "equals": "souvenir",
+     "category": "word_confusion",
+     "feedback": "Le souvenir est ذِكْرَى."
+    }
+   ]
+  }
+ ]
+}

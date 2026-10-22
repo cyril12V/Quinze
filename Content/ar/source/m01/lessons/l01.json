@@ -1,0 +1,661 @@
+{
+  "lessonId": "ar.l01",
+  "exercises": [
+    {
+      "id": "ar.l01.e01",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.alif"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre est un simple bâton droit, sans aucun point ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ا",
+        "ب",
+        "ت",
+        "ث"
+      ],
+      "answer": "ا",
+      "acceptedAnswers": [
+        "ا"
+      ],
+      "explanation": "ا (alif) est le poteau de l'alphabet : un trait droit et nu. Les trois autres sont des barques à points.",
+      "tip": "Un poteau droit, sans point : c'est alif.",
+      "extraExample": {
+        "text": "ا",
+        "translation": "alif : le a long de pâte, aucun point."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب est une barque avec 1 point dessous, pas un bâton."
+        }
+      ]
+    },
+    {
+      "id": "ar.l01.e02",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ba"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son b, comme dans bateau ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ب",
+        "ث",
+        "ا",
+        "ت"
+      ],
+      "answer": "ب",
+      "acceptedAnswers": [
+        "ب"
+      ],
+      "explanation": "ب se lit comme le b de bateau, et sa forme est justement une barque avec son ancre (1 point dessous).",
+      "tip": "Une barque, et son ancre en dessous.",
+      "extraExample": {
+        "text": "ب",
+        "translation": "bâ : le b de bateau, 1 point dessous."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "ت est la barque aux deux mouettes (2 points dessus) : elle fait t."
+        }
+      ]
+    },
+    {
+      "id": "ar.l01.e03",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ta"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son t, comme dans table ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ت",
+        "ب",
+        "ا"
+      ],
+      "answer": "ت",
+      "acceptedAnswers": [
+        "ت"
+      ],
+      "explanation": "ت se lit comme le t de table. Retiens ses 2 points dessus, deux mouettes sur la barque.",
+      "tip": "Deux mouettes sur la barque.",
+      "extraExample": {
+        "text": "ت",
+        "translation": "tâ : le t de table, 2 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب fait b, comme bateau : son point est dessous."
+        }
+      ]
+    },
+    {
+      "id": "ar.l01.e04",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.tha"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis le bon nombre.",
+      "prompt": "Combien de points a la lettre ث ?",
+      "promptLanguage": "fr",
+      "options": [
+        "2",
+        "1",
+        "3"
+      ],
+      "answer": "3",
+      "acceptedAnswers": [
+        "3"
+      ],
+      "explanation": "ث porte 3 points dessus, trois mouettes en triangle sur la barque.",
+      "tip": "Trois mouettes en triangle sur la barque.",
+      "extraExample": {
+        "text": "ث",
+        "translation": "thâ : un t, parfois un s, 3 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "2",
+          "category": "word_confusion",
+          "feedback": "2 points dessus, c'est ت. ث en a un de plus : 3."
+        }
+      ]
+    },
+    {
+      "id": "ar.l01.e05",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.alif",
+        "ar.v.ba",
+        "ar.v.ta",
+        "ar.v.tha"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie chaque lettre à son nom.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ا",
+          "right": "alif"
+        },
+        {
+          "left": "ب",
+          "right": "bâ"
+        },
+        {
+          "left": "ت",
+          "right": "tâ"
+        },
+        {
+          "left": "ث",
+          "right": "thâ"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Les quatre premières lettres s'appellent alif, bâ, tâ, thâ : le nom commence par le son de la lettre (b pour bâ, t pour tâ)."
+    },
+    {
+      "id": "ar.l01.e06",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ba"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre a 1 point dessous ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ت",
+        "ب",
+        "ث",
+        "ا"
+      ],
+      "answer": "ب",
+      "acceptedAnswers": [
+        "ب"
+      ],
+      "explanation": "Seul ب a son point en dessous, comme une ancre. ت et ث ont leurs points dessus.",
+      "tip": "Une barque, et son ancre en dessous.",
+      "extraExample": {
+        "text": "ب",
+        "translation": "bâ : le b de bateau, 1 point dessous."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "ت a 2 points, et ils sont dessus."
+        }
+      ]
+    },
+    {
+      "id": "ar.l01.e07",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ta"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre a 2 points dessus ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ث",
+        "ب",
+        "ا",
+        "ت"
+      ],
+      "answer": "ت",
+      "acceptedAnswers": [
+        "ت"
+      ],
+      "explanation": "ت a 2 points dessus, comme deux mouettes. ث en a 3, et ب en a un seul, dessous.",
+      "tip": "Deux mouettes sur la barque.",
+      "extraExample": {
+        "text": "ت",
+        "translation": "tâ : le t de table, 2 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ث",
+          "category": "word_confusion",
+          "feedback": "ث en a 3 : compte bien, il y en a un de trop."
+        }
+      ]
+    },
+    {
+      "id": "ar.l01.e08",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ta"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon nombre.",
+      "prompt": "ت a ___ points dessus, comme deux mouettes sur la barque.",
+      "promptLanguage": "fr",
+      "options": [
+        "2",
+        "3",
+        "1"
+      ],
+      "answer": "2",
+      "acceptedAnswers": [
+        "2"
+      ],
+      "explanation": "ت a 2 points dessus. Avec 1 point dessous c'est ب, avec 3 points dessus c'est ث.",
+      "tip": "Deux mouettes sur la barque.",
+      "extraExample": {
+        "text": "ت",
+        "translation": "tâ : le t de table, 2 points dessus."
+      }
+    },
+    {
+      "id": "ar.l01.e09",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.alif",
+        "ar.v.ba",
+        "ar.v.ta",
+        "ar.v.tha"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Trouve l'intruse.",
+      "prompt": "Trois de ces lettres sont des barques. Laquelle est l'intruse ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ث",
+        "ت",
+        "ب",
+        "ا"
+      ],
+      "answer": "ا",
+      "acceptedAnswers": [
+        "ا"
+      ],
+      "explanation": "ب, ت et ث partagent le même corps de barque. ا est un bâton droit sans point : c'est l'intruse.",
+      "tip": "Un poteau droit, sans point : c'est alif.",
+      "extraExample": {
+        "text": "ا",
+        "translation": "alif : le a long de pâte, aucun point."
+      }
+    },
+    {
+      "id": "ar.l01.e10",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.alif",
+        "ar.v.ba",
+        "ar.v.ta",
+        "ar.v.tha"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie chaque lettre à ses points.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ا",
+          "right": "aucun point"
+        },
+        {
+          "left": "ب",
+          "right": "1 point dessous"
+        },
+        {
+          "left": "ت",
+          "right": "2 points dessus"
+        },
+        {
+          "left": "ث",
+          "right": "3 points dessus"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "Les points sont la carte d'identité de la barque : 1 dessous pour ب, 2 dessus pour ت, 3 dessus pour ث. ا n'en a aucun."
+    },
+    {
+      "id": "ar.l01.e11",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.tha"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis le bon nom.",
+      "prompt": "Quel est le nom de la lettre ث ?",
+      "promptLanguage": "fr",
+      "options": [
+        "thâ",
+        "bâ",
+        "alif",
+        "tâ"
+      ],
+      "answer": "thâ",
+      "acceptedAnswers": [
+        "thâ"
+      ],
+      "explanation": "ث s'appelle thâ. Son nom ressemble à celui de ت (tâ) comme son dessin ressemble au sien.",
+      "tip": "Trois mouettes en triangle sur la barque.",
+      "extraExample": {
+        "text": "ث",
+        "translation": "thâ : un t, parfois un s, 3 points dessus."
+      },
+      "errorPatterns": [
+        {
+          "equals": "tâ",
+          "category": "word_confusion",
+          "feedback": "tâ est le nom de ت (2 points). ث, avec 3 points, s'appelle thâ."
+        }
+      ]
+    },
+    {
+      "id": "ar.l01.e12",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ta"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète l'ordre de l'alphabet.",
+      "prompt": "ا ب ___ ث",
+      "promptLanguage": "ar",
+      "options": [
+        "ت",
+        "ا",
+        "ث"
+      ],
+      "answer": "ت",
+      "acceptedAnswers": [
+        "ت"
+      ],
+      "hint": "Dans l'ordre : le bâton, puis trois barques.",
+      "explanation": "L'alphabet suit un ordre fixe : ا, ب, ت, ث. La lettre qui manque entre ب et ث est ت.",
+      "tip": "Deux mouettes sur la barque.",
+      "extraExample": {
+        "text": "ت",
+        "translation": "tâ : le t de table, 2 points dessus."
+      }
+    },
+    {
+      "id": "ar.l01.e13",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ba"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète avec le bon mot.",
+      "prompt": "Le point de ب est ___ la barque.",
+      "promptLanguage": "fr",
+      "options": [
+        "dessous",
+        "dessus",
+        "dedans"
+      ],
+      "answer": "dessous",
+      "acceptedAnswers": [
+        "dessous"
+      ],
+      "explanation": "Le point de ب est dessous, comme l'ancre d'un bateau. C'est ce qui la distingue de ت et ث.",
+      "tip": "Une barque, et son ancre en dessous.",
+      "extraExample": {
+        "text": "ب",
+        "translation": "bâ : le b de bateau, 1 point dessous."
+      },
+      "errorPatterns": [
+        {
+          "equals": "dessus",
+          "category": "word_confusion",
+          "feedback": "Dessus, ce sont les mouettes de ت et ث. L'ancre de ب est en dessous."
+        }
+      ]
+    },
+    {
+      "id": "ar.l01.e14",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.tha"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "En Égypte, comment dit-on le plus souvent la lettre ث ?",
+      "promptLanguage": "fr",
+      "options": [
+        "le b de bateau",
+        "le n de nuit",
+        "un t, parfois un s",
+        "le a long de pâte"
+      ],
+      "answer": "un t, parfois un s",
+      "acceptedAnswers": [
+        "un t, parfois un s"
+      ],
+      "explanation": "En arabe littéraire, ث est le th de think, mais en Égypte on la dit comme un t, parfois un s.",
+      "tip": "ث sonne comme ت en Égypte : seuls les points les séparent à l'écrit.",
+      "extraExample": {
+        "text": "ث",
+        "translation": "thâ : un t, parfois un s, 3 points dessus."
+      }
+    },
+    {
+      "id": "ar.l01.e15",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ba"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Devine la lettre.",
+      "prompt": "Qui suis-je ? « Je suis une barque. Mon ancre pend en dessous. »",
+      "promptLanguage": "fr",
+      "options": [
+        "ت",
+        "ا",
+        "ب",
+        "ث"
+      ],
+      "answer": "ب",
+      "acceptedAnswers": [
+        "ب"
+      ],
+      "explanation": "L'ancre en dessous est le point unique de ب : le b de bateau.",
+      "tip": "Une barque, et son ancre en dessous.",
+      "extraExample": {
+        "text": "ب",
+        "translation": "bâ : le b de bateau, 1 point dessous."
+      }
+    },
+    {
+      "id": "ar.l01.e16",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.tha",
+        "ar.v.ta"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre vient juste après ت dans l'alphabet ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ث",
+        "ا",
+        "ب"
+      ],
+      "answer": "ث",
+      "acceptedAnswers": [
+        "ث"
+      ],
+      "explanation": "L'ordre est ا, ب, ت, ث : ث suit ت.",
+      "tip": "Trois mouettes en triangle sur la barque.",
+      "extraExample": {
+        "text": "ث",
+        "translation": "thâ : un t, parfois un s, 3 points dessus."
+      }
+    },
+    {
+      "id": "ar.l01.e17",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ta"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris le nombre.",
+      "prompt": "Combien de points a la lettre ت ? Réponds avec un chiffre.",
+      "promptLanguage": "fr",
+      "answer": "2",
+      "acceptedAnswers": [
+        "2",
+        "deux"
+      ],
+      "explanation": "ت a 2 points dessus, comme deux mouettes sur la barque.",
+      "tip": "Deux mouettes sur la barque.",
+      "extraExample": {
+        "text": "ت",
+        "translation": "tâ : le t de table, 2 points dessus."
+      }
+    },
+    {
+      "id": "ar.l01.e18",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ba"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris le nom de la lettre.",
+      "prompt": "Comment s'appelle la lettre qui fait le son b ?",
+      "promptLanguage": "fr",
+      "answer": "bâ",
+      "acceptedAnswers": [
+        "bâ",
+        "ba",
+        "baa"
+      ],
+      "hint": "Le nom commence par le son, suivi d'un â.",
+      "explanation": "La lettre qui fait b s'appelle bâ : son nom commence par son son.",
+      "tip": "Une barque, et son ancre en dessous.",
+      "extraExample": {
+        "text": "ب",
+        "translation": "bâ : le b de bateau, 1 point dessous."
+      }
+    },
+    {
+      "id": "ar.l01.e19",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.ta"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis le bon son.",
+      "prompt": "Quel son fait la lettre ت ?",
+      "promptLanguage": "fr",
+      "options": [
+        "le n de nuit",
+        "le a long de pâte",
+        "le t de table",
+        "le b de bateau"
+      ],
+      "answer": "le t de table",
+      "acceptedAnswers": [
+        "le t de table"
+      ],
+      "explanation": "ت se lit comme le t de table.",
+      "tip": "Deux mouettes sur la barque.",
+      "extraExample": {
+        "text": "ت",
+        "translation": "tâ : le t de table, 2 points dessus."
+      }
+    },
+    {
+      "id": "ar.l01.e20",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.alif",
+        "ar.v.ba",
+        "ar.v.ta",
+        "ar.v.tha"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Relie chaque élément à son associé.",
+      "prompt": "Relie chaque lettre à son son.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "ا",
+          "right": "le a long de pâte"
+        },
+        {
+          "left": "ب",
+          "right": "le b de bateau"
+        },
+        {
+          "left": "ت",
+          "right": "le t de table"
+        },
+        {
+          "left": "ث",
+          "right": "un t, parfois un s"
+        }
+      ],
+      "acceptedAnswers": [],
+      "explanation": "ا dit le a long, ب dit b, ت dit t, et ث dit aussi t (parfois s) en Égypte."
+    },
+    {
+      "id": "ar.l01.e21",
+      "unitIds": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.v.tha"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre a 3 points dessus ?",
+      "promptLanguage": "fr",
+      "options": [
+        "ث",
+        "ت",
+        "ب",
+        "ا"
+      ],
+      "answer": "ث",
+      "acceptedAnswers": [
+        "ث"
+      ],
+      "explanation": "ث a 3 points dessus. C'est la plus « chargée » de la famille des barques.",
+      "tip": "Trois mouettes en triangle sur la barque.",
+      "extraExample": {
+        "text": "ث",
+        "translation": "thâ : un t, parfois un s, 3 points dessus."
+      }
+    }
+  ]
+}

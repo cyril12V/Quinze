@@ -42,5 +42,49 @@
    ],
    "tip": "Devant une dent, compte les points avant de lire le mot."
   }
+ },
+ {
+  "id": "ar.g10.letters_that_do_not_connect",
+  "rule": {
+   "summary": "ا د ذ ر ز و ne s'attachent pas à la lettre suivante : elles coupent le mot en blocs, et la lettre suivante repart à neuf.",
+   "explanation": "Un bloc est une suite de lettres attachées. Les six lettres ا د ذ ر ز و s'attachent à la lettre d'avant mais jamais à celle d'après : elles n'ont que la forme isolée et la forme de la fin. Après elles, le mot se coupe et la lettre suivante prend la forme du début (ou isolée). On lit plus vite bloc par bloc.",
+   "pattern": "ا د ذ ر ز و : fin de bloc. Exemple : باب = با | ب",
+   "examples": [
+    {
+     "text": "باب",
+     "translation": "porte : با | ب, 2 blocs"
+    },
+    {
+     "text": "ورد",
+     "translation": "fleurs : و | ر | د, 3 blocs"
+    },
+    {
+     "text": "زيت",
+     "translation": "huile : ز | يت, 2 blocs"
+    },
+    {
+     "text": "أبونا",
+     "translation": "notre père (le prêtre) : أ | بو | نا, 3 blocs"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "بـا lu comme un seul bloc avec le ب suivant",
+     "right": "با | ب : deux blocs",
+     "why": "Le ا ne s'attache jamais à la lettre d'après."
+    },
+    {
+     "wrong": "ـبـ pour le deuxième ب de بابا",
+     "right": "بـ (forme du début)",
+     "why": "Après le ا, le ب repart à neuf et s'accroche au ا suivant : forme du début."
+    },
+    {
+     "wrong": "د pris pour ذ",
+     "right": "ذ a un point dessus",
+     "why": "Un point au-dessus du crochet, c'est ذ ; sans point, c'est د."
+    }
+   ],
+   "tip": "Cherche ا د ذ ر ز و : après chacune, un nouveau bloc commence."
+  }
  }
 ]

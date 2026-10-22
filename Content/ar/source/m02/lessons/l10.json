@@ -1,0 +1,918 @@
+{
+ "lessonId": "ar.l10",
+ "exercises": [
+  {
+   "id": "ar.l10.e01",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.alif"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne lettre.",
+   "prompt": "Laquelle de ces lettres ne s'attache jamais à la lettre suivante ?",
+   "promptLanguage": "fr",
+   "answer": "ا",
+   "acceptedAnswers": [
+    "ا"
+   ],
+   "explanation": "ا fait partie des six lettres ا د ذ ر ز و qui lâchent la main : le mot se coupe après elle. ب, ت et ن, elles, s'attachent.",
+   "tip": "ا د ذ ر ز و : six lettres à retenir.",
+   "extraExample": {
+    "text": "باب",
+    "translation": "porte"
+   },
+   "errorPatterns": [
+    {
+     "equals": "ب",
+     "category": "instruction",
+     "feedback": "ب s'attache à la lettre suivante (بـ)."
+    },
+    {
+     "equals": "ت",
+     "category": "instruction",
+     "feedback": "ت s'attache à la lettre suivante (تـ)."
+    },
+    {
+     "equals": "ن",
+     "category": "instruction",
+     "feedback": "ن s'attache à la lettre suivante (نـ)."
+    }
+   ],
+   "options": [
+    "ا",
+    "ب",
+    "ت",
+    "ن"
+   ]
+  },
+  {
+   "id": "ar.l10.e02",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.dal"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Laquelle de ces formes n'existe pas pour la lettre د ?",
+   "promptLanguage": "fr",
+   "answer": "forme du début",
+   "acceptedAnswers": [
+    "forme du début"
+   ],
+   "explanation": "د ne s'accroche pas à la lettre suivante : elle n'a donc pas de forme du début (ni du milieu). Il lui reste la forme isolée د et la forme de la fin ـد.",
+   "tip": "Pas d'attache vers la suivante = pas de forme du début.",
+   "extraExample": {
+    "text": "ورد",
+    "translation": "fleurs"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "د existe seule : c'est sa forme isolée."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "ـد existe : c'est la forme de la fin, attachée à la lettre d'avant."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l10.e03",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.bab"
+   ],
+   "difficulty": 2,
+   "instruction": "Compte les blocs.",
+   "prompt": "Combien de blocs compte باب ?",
+   "promptLanguage": "fr",
+   "answer": "2 blocs",
+   "acceptedAnswers": [
+    "2 blocs"
+   ],
+   "explanation": "باب = با | ب : 2 blocs. Le mot se coupe après ا.",
+   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "extraExample": {
+    "text": "باب",
+    "translation": "porte"
+   },
+   "errorPatterns": [
+    {
+     "equals": "1 bloc",
+     "category": "instruction",
+     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : با | ب."
+    },
+    {
+     "equals": "3 blocs",
+     "category": "instruction",
+     "feedback": "Tu as coupé une fois de trop : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : با | ب."
+    },
+    {
+     "equals": "4 blocs",
+     "category": "instruction",
+     "feedback": "Tu as coupé une fois de trop : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : با | ب."
+    }
+   ],
+   "options": [
+    "1 bloc",
+    "2 blocs",
+    "3 blocs",
+    "4 blocs"
+   ]
+  },
+  {
+   "id": "ar.l10.e04",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.bab"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans باب, quelle forme prend la lettre ا ?",
+   "promptLanguage": "fr",
+   "answer": "forme de la fin",
+   "acceptedAnswers": [
+    "forme de la fin"
+   ],
+   "explanation": "Dans باب (blocs : با | ب), la lettre ا : elle s'accroche seulement à la lettre d'avant : c'est la forme de la fin. Le ا est la dernière lettre de son bloc : forme de la fin ـا.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "باب",
+    "translation": "mot"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du début",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à gauche, vers la lettre suivante : c'est la forme du début."
+    },
+    {
+     "equals": "forme du milieu",
+     "category": "instruction",
+     "feedback": "Un trait ـ de chaque côté : c'est la forme du milieu."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l10.e05",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.baba"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans بابا, quelle forme prend le deuxième ب ?",
+   "promptLanguage": "fr",
+   "answer": "forme du début",
+   "acceptedAnswers": [
+    "forme du début"
+   ],
+   "explanation": "Dans بابا (blocs : با | با), le deuxième ب : elle s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Il repart à neuf après le premier ا et s'accroche au dernier : forme du début بـ.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "بابا",
+    "translation": "mot"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du milieu",
+     "category": "instruction",
+     "feedback": "Un trait ـ de chaque côté : c'est la forme du milieu."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l10.e06",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.baba"
+   ],
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "بابا",
+   "promptLanguage": "ar",
+   "answer": "papa",
+   "acceptedAnswers": [
+    "papa"
+   ],
+   "explanation": "Lettre par lettre : ب (1 point dessous), ا (sans point), ب (1 point dessous), ا (sans point) donne بابا, « papa ». Deux fois ب + ا : 2 blocs, با | با.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "بابا راجع من الشغل.",
+    "translation": "Papa rentre du travail."
+   },
+   "errorPatterns": [
+    {
+     "equals": "porte",
+     "category": "word_confusion",
+     "feedback": "« porte » s'écrit باب (ب + ا + ب). Ici tu lis ب + ا + ب + ا : بابا veut dire « papa »."
+    },
+    {
+     "equals": "prophète",
+     "category": "word_confusion",
+     "feedback": "« prophète » s'écrit نبي (ن + ب + ي). Ici tu lis ب + ا + ب + ا : بابا veut dire « papa »."
+    },
+    {
+     "equals": "fille",
+     "category": "word_confusion",
+     "feedback": "« fille » s'écrit بنت (ب + ن + ت). Ici tu lis ب + ا + ب + ا : بابا veut dire « papa »."
+    }
+   ],
+   "options": [
+    "papa",
+    "porte",
+    "prophète",
+    "fille"
+   ]
+  },
+  {
+   "id": "ar.l10.e07",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.nabawat"
+   ],
+   "difficulty": 3,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "نبوات",
+   "promptLanguage": "ar",
+   "answer": "prophéties",
+   "acceptedAnswers": [
+    "prophéties"
+   ],
+   "explanation": "Lettre par lettre : ن (1 point dessus), ب (1 point dessous), و (sans point), ا (sans point), ت (2 points dessus) donne نبوات, « prophéties ». 3 blocs : نبو | ا | ت. Le ت repart seul après le ا.",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
+   "extraExample": {
+    "text": "النبوات بتتقرا في الجمعة العظيمة.",
+    "translation": "Les prophéties sont lues le Vendredi saint."
+   },
+   "hint": "Trois blocs : نبو | ا | ت.",
+   "errorPatterns": [
+    {
+     "equals": "prophète",
+     "category": "word_confusion",
+     "feedback": "« prophète » s'écrit نبي (ن + ب + ي). Ici tu lis ن + ب + و + ا + ت : نبوات veut dire « prophéties »."
+    },
+    {
+     "equals": "fleurs",
+     "category": "word_confusion",
+     "feedback": "« fleurs » s'écrit ورد (و + ر + د). Ici tu lis ن + ب + و + ا + ت : نبوات veut dire « prophéties »."
+    },
+    {
+     "equals": "faute",
+     "category": "word_confusion",
+     "feedback": "« faute » s'écrit ذنب (ذ + ن + ب). Ici tu lis ن + ب + و + ا + ت : نبوات veut dire « prophéties »."
+    }
+   ],
+   "options": [
+    "prophéties",
+    "prophète",
+    "fleurs",
+    "faute"
+   ]
+  },
+  {
+   "id": "ar.l10.e08",
+   "type": "mcq",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.abouna"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « notre père (le prêtre) » ?",
+   "promptLanguage": "fr",
+   "answer": "أبونا",
+   "acceptedAnswers": [
+    "أبونا"
+   ],
+   "explanation": "« notre père (le prêtre) » s'écrit أ + ب + و + ن + ا : أبونا. Le ا du début porte un petit ء : on le lit comme un alif. 3 blocs : أ | بو | نا.",
+   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "extraExample": {
+    "text": "صلي عشاني يا أبونا.",
+    "translation": "Prie pour moi, mon père."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ربنا",
+     "category": "word_confusion",
+     "feedback": "ربنا (ر + ب + ن + ا) veut dire « notre Seigneur ». Pour « notre père (le prêtre) », il faut أ + ب + و + ن + ا : أبونا."
+    },
+    {
+     "equals": "نبوات",
+     "category": "word_confusion",
+     "feedback": "نبوات (ن + ب + و + ا + ت) veut dire « prophéties ». Pour « notre père (le prêtre) », il faut أ + ب + و + ن + ا : أبونا."
+    },
+    {
+     "equals": "ورد",
+     "category": "word_confusion",
+     "feedback": "ورد (و + ر + د) veut dire « fleurs ». Pour « notre père (le prêtre) », il faut أ + ب + و + ن + ا : أبونا."
+    }
+   ],
+   "options": [
+    "أبونا",
+    "ربنا",
+    "نبوات",
+    "ورد"
+   ]
+  },
+  {
+   "id": "ar.l10.e09",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.bayt"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « maison » ?",
+   "promptLanguage": "fr",
+   "answer": "بيت",
+   "acceptedAnswers": [
+    "بيت"
+   ],
+   "explanation": "« maison » s'écrit ب + ي + ت : بيت. بنت (fille) a un point dessus au milieu ; باب (porte) a un ا qui coupe le mot.",
+   "tip": "Deux points dessous au milieu : la maison.",
+   "extraExample": {
+    "text": "بيتنا قريب من الكنيسة.",
+    "translation": "Notre maison est près de l'église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "بنت",
+     "category": "word_confusion",
+     "feedback": "بنت veut dire « fille » : ـنـ a un point dessus."
+    },
+    {
+     "equals": "بين",
+     "category": "word_confusion",
+     "feedback": "بين veut dire « entre » : elle finit par ن."
+    },
+    {
+     "equals": "باب",
+     "category": "word_confusion",
+     "feedback": "باب veut dire « porte » : le ا coupe le mot."
+    }
+   ],
+   "options": [
+    "بيت",
+    "بنت",
+    "بين",
+    "باب"
+   ]
+  },
+  {
+   "id": "ar.l10.e10",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.tinnin"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis le bon mot.",
+   "prompt": "Quel mot veut dire « dragon » ?",
+   "promptLanguage": "fr",
+   "answer": "تنين",
+   "acceptedAnswers": [
+    "تنين"
+   ],
+   "explanation": "Le dragon a quatre dents : ت + ن + ي + ن. تين (figues) en a trois.",
+   "tip": "Compte les dents.",
+   "extraExample": {
+    "text": "مارجرجس قتل التنين.",
+    "translation": "Saint Georges a tué le dragon."
+   },
+   "errorPatterns": [
+    {
+     "equals": "تين",
+     "category": "word_confusion",
+     "feedback": "تين veut dire « figues » : il y a une dent de moins."
+    },
+    {
+     "equals": "بين",
+     "category": "word_confusion",
+     "feedback": "بين veut dire « entre »."
+    },
+    {
+     "equals": "نبي",
+     "category": "word_confusion",
+     "feedback": "نبي veut dire « prophète »."
+    }
+   ],
+   "options": [
+    "تنين",
+    "تين",
+    "بين",
+    "نبي"
+   ]
+  },
+  {
+   "id": "ar.l10.e11",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.ta"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Laquelle de ces formes est la forme de la fin de ت ?",
+   "promptLanguage": "fr",
+   "answer": "ـت",
+   "acceptedAnswers": [
+    "ـت"
+   ],
+   "explanation": "La forme de la fin s'accroche à la lettre d'avant : le trait ـ est à droite. ت garde ses deux points dessus.",
+   "tip": "Fin = trait à droite.",
+   "extraExample": {
+    "text": "بنت",
+    "translation": "fille"
+   },
+   "errorPatterns": [
+    {
+     "equals": "تـ",
+     "category": "instruction",
+     "feedback": "تـ a le trait à gauche : c'est la forme du début."
+    },
+    {
+     "equals": "ـتـ",
+     "category": "instruction",
+     "feedback": "ـتـ a un trait de chaque côté : forme du milieu."
+    },
+    {
+     "equals": "ت",
+     "category": "instruction",
+     "feedback": "ت sans trait : forme isolée."
+    }
+   ],
+   "options": [
+    "ـت",
+    "تـ",
+    "ـتـ",
+    "ت"
+   ]
+  },
+  {
+   "id": "ar.l10.e12",
+   "type": "mcq",
+   "unitIds": [
+    "ar.v.nabi"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans نبي, quelle forme prend la lettre ب ?",
+   "promptLanguage": "fr",
+   "answer": "forme du milieu",
+   "acceptedAnswers": [
+    "forme du milieu"
+   ],
+   "explanation": "Dans نبي (blocs : نبي), la lettre ب : elle s'accroche des deux côtés : c'est la forme du milieu. Au milieu, la dent ـبـ n'a qu'un point dessous.",
+   "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
+   "extraExample": {
+    "text": "نبي",
+    "translation": "mot"
+   },
+   "errorPatterns": [
+    {
+     "equals": "forme isolée",
+     "category": "instruction",
+     "feedback": "Sans trait ـ, la lettre est seule : c'est la forme isolée."
+    },
+    {
+     "equals": "forme du début",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à gauche, vers la lettre suivante : c'est la forme du début."
+    },
+    {
+     "equals": "forme de la fin",
+     "category": "instruction",
+     "feedback": "Le trait ـ est à droite, vers la lettre précédente : c'est la forme de la fin."
+    }
+   ],
+   "options": [
+    "forme isolée",
+    "forme du début",
+    "forme du milieu",
+    "forme de la fin"
+   ]
+  },
+  {
+   "id": "ar.l10.e13",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.ward"
+   ],
+   "difficulty": 3,
+   "instruction": "Quelle lettre manque pour écrire « fleurs » ?",
+   "prompt": "و___د",
+   "promptLanguage": "ar",
+   "answer": "ر",
+   "acceptedAnswers": [
+    "ر"
+   ],
+   "explanation": "ورد s'écrit و + ر + د : trois lettres qui ne s'attachent pas. ز aurait un point dessus ; د n'a pas la même place.",
+   "tip": "ر descend sous la ligne, sans point.",
+   "extraExample": {
+    "text": "الورد ريحته حلوة.",
+    "translation": "Les fleurs sentent bon."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ز",
+     "category": "spelling",
+     "feedback": "ز a un point dessus. Ici il n'y en a pas : ر."
+    },
+    {
+     "equals": "د",
+     "category": "spelling",
+     "feedback": "د reste sur la ligne ; ر descend un peu sous la ligne."
+    }
+   ],
+   "options": [
+    "ر",
+    "ز",
+    "د",
+    "ذ"
+   ]
+  },
+  {
+   "id": "ar.l10.e14",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.dhanb"
+   ],
+   "difficulty": 3,
+   "instruction": "Quelle lettre manque pour écrire « faute » ?",
+   "prompt": "___نـب",
+   "promptLanguage": "ar",
+   "answer": "ذ",
+   "acceptedAnswers": [
+    "ذ"
+   ],
+   "explanation": "ذنب commence par ذ : un د avec 1 point dessus. Après elle, نب repart à neuf.",
+   "tip": "ذ = د + 1 point dessus.",
+   "extraExample": {
+    "text": "ده مش ذنبي.",
+    "translation": "Ce n'est pas ma faute."
+   },
+   "errorPatterns": [
+    {
+     "equals": "د",
+     "category": "spelling",
+     "feedback": "د n'a pas de point ; il en faut un dessus : ذ."
+    }
+   ],
+   "options": [
+    "ذ",
+    "د",
+    "ز",
+    "ر"
+   ]
+  },
+  {
+   "id": "ar.l10.e15",
+   "type": "fill_blank",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.zayt"
+   ],
+   "difficulty": 3,
+   "instruction": "Quelle lettre manque pour écrire « huile » ?",
+   "prompt": "___يـت",
+   "promptLanguage": "ar",
+   "answer": "ز",
+   "acceptedAnswers": [
+    "ز"
+   ],
+   "explanation": "زيت commence par ز : un ر avec 1 point dessus. Le ز se détache, puis يت reste attaché.",
+   "tip": "ز = ر + 1 point dessus.",
+   "extraExample": {
+    "text": "زيت الزيتون.",
+    "translation": "L'huile d'olive."
+   },
+   "errorPatterns": [
+    {
+     "equals": "ر",
+     "category": "spelling",
+     "feedback": "ر n'a pas de point ; il en faut un dessus : ز."
+    },
+    {
+     "equals": "ذ",
+     "category": "spelling",
+     "feedback": "ذ est un د avec un point ; ici la lettre descend sous la ligne : ز."
+    }
+   ],
+   "options": [
+    "ز",
+    "ر",
+    "ن",
+    "ذ"
+   ]
+  },
+  {
+   "id": "ar.l10.e16",
+   "type": "match",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.bab",
+    "ar.v.ruzz",
+    "ar.v.zayt",
+    "ar.v.ward",
+    "ar.v.dayr"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à son sens.",
+   "prompt": "Mots des lettres qui ne s'attachent pas",
+   "promptLanguage": "fr",
+   "answer": "باب = porte ; رز = riz ; زيت = huile ; ورد = fleurs ; دير = monastère",
+   "acceptedAnswers": [],
+   "explanation": "Lis bloc par bloc : با | ب, ر | ز, ز | يت, و | ر | د, د | ير.",
+   "pairs": [
+    {
+     "left": "باب",
+     "right": "porte"
+    },
+    {
+     "left": "رز",
+     "right": "riz"
+    },
+    {
+     "left": "زيت",
+     "right": "huile"
+    },
+    {
+     "left": "ورد",
+     "right": "fleurs"
+    },
+    {
+     "left": "دير",
+     "right": "monastère"
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e17",
+   "type": "match",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.bayt",
+    "ar.v.bab",
+    "ar.v.ward"
+   ],
+   "difficulty": 3,
+   "instruction": "Associe chaque mot à son nombre de blocs.",
+   "prompt": "Compter les blocs",
+   "promptLanguage": "fr",
+   "answer": "بيت = 1 bloc ; باب = 2 blocs ; ورد = 3 blocs ; راديو = 4 blocs",
+   "acceptedAnswers": [],
+   "explanation": "بيت : tout est attaché (1 bloc). باب : le ا coupe (2 blocs). ورد : و, ر, د coupent (3 blocs). راديو = ر | ا | د | يو (4 blocs).",
+   "pairs": [
+    {
+     "left": "بيت",
+     "right": "1 bloc"
+    },
+    {
+     "left": "باب",
+     "right": "2 blocs"
+    },
+    {
+     "left": "ورد",
+     "right": "3 blocs"
+    },
+    {
+     "left": "راديو",
+     "right": "4 blocs"
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e18",
+   "type": "match",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.alif",
+    "ar.v.dal",
+    "ar.v.ra",
+    "ar.v.zay",
+    "ar.v.waw"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque lettre à sa forme de la fin.",
+   "prompt": "Lettre isolée et forme de la fin",
+   "promptLanguage": "fr",
+   "answer": "ا = ـا ; د = ـد ; ر = ـر ; ز = ـز ; و = ـو",
+   "acceptedAnswers": [],
+   "explanation": "La forme de la fin garde la lettre et ajoute le trait ـ à droite, du côté de la lettre d'avant.",
+   "pairs": [
+    {
+     "left": "ا",
+     "right": "ـا"
+    },
+    {
+     "left": "د",
+     "right": "ـد"
+    },
+    {
+     "left": "ر",
+     "right": "ـر"
+    },
+    {
+     "left": "ز",
+     "right": "ـز"
+    },
+    {
+     "left": "و",
+     "right": "ـو"
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e19",
+   "type": "match",
+   "unitIds": [
+    "ar.v.tinnin",
+    "ar.v.bayna",
+    "ar.v.bunn",
+    "ar.v.nabi"
+   ],
+   "difficulty": 2,
+   "instruction": "Révision : associe chaque mot à son sens.",
+   "prompt": "Mots de la leçon 9",
+   "promptLanguage": "fr",
+   "answer": "تنين = dragon ; بين = entre ; بن = café (grains) ; نبي = prophète",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre mots n'utilisent que ب ت ث ن ي : compte les points pour les reconnaître.",
+   "pairs": [
+    {
+     "left": "تنين",
+     "right": "dragon"
+    },
+    {
+     "left": "بين",
+     "right": "entre"
+    },
+    {
+     "left": "بن",
+     "right": "café (grains)"
+    },
+    {
+     "left": "نبي",
+     "right": "prophète"
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e20",
+   "type": "translation",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.rabbina"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris le sens en français.",
+   "prompt": "ربنا",
+   "promptLanguage": "ar",
+   "answer": "notre seigneur",
+   "acceptedAnswers": [
+    "notre seigneur",
+    "seigneur",
+    "dieu",
+    "notre dieu"
+   ],
+   "explanation": "ربنا = ر | بنا : le ر se détache, puis بنا reste attaché. C'est « notre Seigneur », le mot de tous les jours pour parler de Dieu.",
+   "tip": "ر + بنا : 2 blocs.",
+   "extraExample": {
+    "text": "ربنا يباركك.",
+    "translation": "Que Dieu te bénisse."
+   }
+  },
+  {
+   "id": "ar.l10.e21",
+   "type": "translation",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.dayr"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris le sens en français.",
+   "prompt": "دير",
+   "promptLanguage": "ar",
+   "answer": "monastère",
+   "acceptedAnswers": [
+    "monastère",
+    "monastere",
+    "un monastère",
+    "le monastère"
+   ],
+   "explanation": "دير = د | ير : le د se détache. C'est un monastère.",
+   "tip": "د coupe le mot : 2 blocs.",
+   "extraExample": {
+    "text": "رحنا الدير يوم الجمعة.",
+    "translation": "Nous sommes allés au monastère vendredi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "porte",
+     "category": "word_confusion",
+     "feedback": "باب (porte) a un ا ; دير commence par د."
+    }
+   ]
+  },
+  {
+   "id": "ar.l10.e22",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.dhanb"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire ذنب ?",
+   "promptLanguage": "fr",
+   "answer": "faute",
+   "acceptedAnswers": [
+    "faute",
+    "une faute",
+    "la faute",
+    "péché",
+    "peche",
+    "un péché"
+   ],
+   "explanation": "ذنب = ذ + نب : le ذ (د avec un point dessus) se détache. C'est une faute, ou un péché dans la prière.",
+   "tip": "ذ = د + 1 point dessus.",
+   "extraExample": {
+    "text": "اغفر لنا ذنوبنا.",
+    "translation": "Pardonne-nous nos fautes."
+   }
+  },
+  {
+   "id": "ar.l10.e23",
+   "type": "free_answer",
+   "unitIds": [
+    "ar.g10.letters_that_do_not_connect",
+    "ar.v.ruzz"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris la réponse en français.",
+   "prompt": "Que veut dire رز ?",
+   "promptLanguage": "fr",
+   "answer": "riz",
+   "acceptedAnswers": [
+    "riz",
+    "du riz",
+    "le riz"
+   ],
+   "explanation": "رز = ر + ز : deux lettres qui ne s'attachent pas, donc 2 blocs. C'est le riz.",
+   "tip": "ر sans point, ز avec un point dessus.",
+   "extraExample": {
+    "text": "الرز بالفراخ.",
+    "translation": "Du riz au poulet."
+   },
+   "errorPatterns": [
+    {
+     "equals": "fleurs",
+     "category": "word_confusion",
+     "feedback": "ورد (fleurs) a trois lettres : و ر د."
+    }
+   ]
+  }
+ ]
+}

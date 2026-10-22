@@ -1,0 +1,350 @@
+[
+  {
+    "id": "ar.g01.letters_alif_ba_ta_tha",
+    "rule": {
+      "summary": "ا ب ت ث : un bâton et trois barques qui ne diffèrent que par leurs points.",
+      "explanation": "L'arabe se lit de droite à gauche et compte 28 lettres. ا est un bâton sans point (le a long). ب, ت et ث ont le même corps de barque : ب a 1 point dessous (le b de bateau), ت a 2 points dessus (le t de table), ث a 3 points dessus (un t, parfois un s en Égypte).",
+      "pattern": "ا = bâton ; ب = 1 point dessous ; ت = 2 points dessus ; ث = 3 points dessus",
+      "examples": [
+        {
+          "text": "ا",
+          "translation": "alif : le a long, un bâton sans point"
+        },
+        {
+          "text": "ب",
+          "translation": "bâ : le b de bateau, 1 point dessous"
+        },
+        {
+          "text": "ت",
+          "translation": "tâ : le t de table, 2 points dessus"
+        },
+        {
+          "text": "ث",
+          "translation": "thâ : un t (parfois un s) en Égypte, 3 points dessus"
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Lire ت quand il y a 1 point dessous",
+          "right": "ب",
+          "why": "Le point d'en bas fait la barque ب ; ت porte 2 points dessus."
+        },
+        {
+          "wrong": "Lire ث comme ت",
+          "right": "ث",
+          "why": "Compte les points : 3 points dessus font ث, 2 points dessus font ت."
+        },
+        {
+          "wrong": "Chercher un point sur ا",
+          "right": "ا",
+          "why": "ا est un bâton nu : aucun point."
+        }
+      ],
+      "tip": "Compte les points, puis regarde où ils sont : dessous ou dessus."
+    }
+  },
+  {
+    "id": "ar.g02.letters_nun_ya_and_dots",
+    "rule": {
+      "summary": "ن et ي complètent la famille des points : tout dépend de leur nombre et de leur place.",
+      "explanation": "ن est un bol creux avec 1 point dessus (le n de nuit). ي plonge sous la ligne avec 2 points dessous (le y de yaourt ou un i long). Avec ب ت ث, tu as cinq lettres à points : ب 1 dessous, ت 2 dessus, ث 3 dessus, ن 1 dessus, ي 2 dessous.",
+      "pattern": "ب 1 dessous ; ت 2 dessus ; ث 3 dessus ; ن 1 dessus ; ي 2 dessous",
+      "examples": [
+        {
+          "text": "ن",
+          "translation": "nûn : le n de nuit, 1 point dessus"
+        },
+        {
+          "text": "ي",
+          "translation": "yâ : le y de yaourt, 2 points dessous"
+        },
+        {
+          "text": "ب",
+          "translation": "bâ : 1 point dessous"
+        },
+        {
+          "text": "ت",
+          "translation": "tâ : 2 points dessus"
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Confondre ب et ن",
+          "right": "ب = barque plate, point dessous ; ن = bol creux, point dessus",
+          "why": "Le point est dessous pour ب et dessus pour ن."
+        },
+        {
+          "wrong": "Confondre ت et ي",
+          "right": "ت = 2 points dessus ; ي = 2 points dessous",
+          "why": "Même nombre de points, mais pas la même place."
+        },
+        {
+          "wrong": "Oublier la queue de ي",
+          "right": "ي plonge sous la ligne",
+          "why": "Aucune autre lettre à points ne descend ainsi."
+        }
+      ],
+      "tip": "Pose deux questions : combien de points ? dessus ou dessous ?"
+    }
+  },
+  {
+    "id": "ar.g03.letters_jim_ha_kha",
+    "rule": {
+      "summary": "ج ح خ : le même crochet, et un point qui change le son.",
+      "explanation": "ج, ح et خ ont la même forme de crochet. ج a 1 point dans le creux (dessous) et se dit g en Égypte, comme dans gâteau. ح n'a pas de point : c'est un h appuyé du fond de la gorge. خ a 1 point dessus : c'est le ch allemand de Bach.",
+      "pattern": "ج = point dessous = g ; ح = pas de point = h appuyé ; خ = point dessus = ch de Bach",
+      "examples": [
+        {
+          "text": "ج",
+          "translation": "gîm : le g de gâteau, 1 point dessous"
+        },
+        {
+          "text": "ح",
+          "translation": "ḥâ : un h appuyé, aucun point"
+        },
+        {
+          "text": "خ",
+          "translation": "khâ : le ch allemand de Bach, 1 point dessus"
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Lire ج comme dans l'arabe littéraire (dj)",
+          "right": "En Égypte, ج se dit g",
+          "why": "Au Caire, on dit g comme dans gâteau."
+        },
+        {
+          "wrong": "Confondre ح et ه",
+          "right": "ح est un crochet appuyé ; ه est un petit nœud léger",
+          "why": "Les deux sont des h, mais pas les mêmes."
+        },
+        {
+          "wrong": "Placer le point de خ dessous",
+          "right": "خ a son point dessus",
+          "why": "Dessous, c'est ج."
+        }
+      ],
+      "tip": "Dessous = ج, rien = ح, dessus = خ."
+    }
+  },
+  {
+    "id": "ar.g04.letters_dal_dhal_ra_zay",
+    "rule": {
+      "summary": "د ذ ر ز : deux paires de jumelles, chacune distinguée par un seul point.",
+      "explanation": "د (le d de dent) et ر (un r roulé) n'ont pas de point. En ajoutant 1 point dessus, on obtient ذ (un d, parfois un z en Égypte) et ز (le z de zèbre). د reste posée sur la ligne ; ر descend sous la ligne comme une virgule.",
+      "pattern": "د → ذ et ر → ز : on ajoute 1 point dessus",
+      "examples": [
+        {
+          "text": "د",
+          "translation": "dâl : le d de dent, aucun point"
+        },
+        {
+          "text": "ذ",
+          "translation": "dhâl : un d, parfois un z, 1 point dessus"
+        },
+        {
+          "text": "ر",
+          "translation": "râ : un r roulé, aucun point"
+        },
+        {
+          "text": "ز",
+          "translation": "zây : le z de zèbre, 1 point dessus"
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Confondre د et ر",
+          "right": "د reste sur la ligne ; ر descend",
+          "why": "La virgule ر plonge sous la ligne."
+        },
+        {
+          "wrong": "Lire ذ comme le th anglais en Égypte",
+          "right": "ذ se dit d, parfois z",
+          "why": "L'arabe égyptien n'a pas le th de this."
+        },
+        {
+          "wrong": "Oublier le point de ز",
+          "right": "ز = ر + 1 point dessus",
+          "why": "Sans le point, c'est ر."
+        }
+      ],
+      "tip": "Un point dessus transforme ر en ز et د en ذ."
+    }
+  },
+  {
+    "id": "ar.g05.letters_sin_shin_sad_dad",
+    "rule": {
+      "summary": "س ش ص ض : les dents, leurs trois points, et leurs jumelles lourdes.",
+      "explanation": "س (trois dents) se dit s comme dans soleil ; avec 3 points dessus, c'est ش (ch de chat). ص (une boucle fermée) est un s lourd ; avec 1 point dessus, c'est ض, un d lourd. Les lettres lourdes se disent plus profondément dans la gorge.",
+      "pattern": "س → ش (+3 points) ; ص → ض (+1 point)",
+      "examples": [
+        {
+          "text": "س",
+          "translation": "sîn : le s de soleil, trois dents"
+        },
+        {
+          "text": "ش",
+          "translation": "chîn : le ch de chat, 3 points dessus"
+        },
+        {
+          "text": "ص",
+          "translation": "sâd : un s lourd, une boucle"
+        },
+        {
+          "text": "ض",
+          "translation": "dâd : un d lourd, 1 point dessus"
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Confondre س et ص",
+          "right": "س a des dents ; ص a une boucle",
+          "why": "Les dents sont légères, la boucle est lourde."
+        },
+        {
+          "wrong": "Confondre ش et ث",
+          "right": "ش a trois dents ; ث est une barque",
+          "why": "Les deux ont 3 points dessus mais pas le même corps."
+        },
+        {
+          "wrong": "Confondre ض et د",
+          "right": "ض a une boucle ; د est un petit dos",
+          "why": "ض est lourde, د est légère."
+        }
+      ],
+      "tip": "Dents = légère, boucle = lourde."
+    }
+  },
+  {
+    "id": "ar.g06.letters_tah_zah_ayn_ghayn",
+    "rule": {
+      "summary": "ط ظ ع غ : la fin des lourdes, puis les deux lettres de gorge.",
+      "explanation": "ط (une boucle avec un mât) est un t lourd ; avec 1 point dessus, ظ est un z lourd. ع (un petit 3 couché sur une queue) est un son de gorge serrée sans équivalent français ; avec 1 point dessus, غ se dit comme le r de rouge.",
+      "pattern": "ط → ظ et ع → غ : on ajoute 1 point dessus",
+      "examples": [
+        {
+          "text": "ط",
+          "translation": "ṭâ : un t lourd, boucle et mât"
+        },
+        {
+          "text": "ظ",
+          "translation": "ẓâ : un z lourd, 1 point dessus"
+        },
+        {
+          "text": "ع",
+          "translation": "aïn : un son de gorge serrée"
+        },
+        {
+          "text": "غ",
+          "translation": "ghaïn : le r de rouge, 1 point dessus"
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Confondre ط et ص",
+          "right": "ط a un mât ; ص n'en a pas",
+          "why": "Le mât distingue la famille ط."
+        },
+        {
+          "wrong": "Lire ع comme un a ordinaire",
+          "right": "ع est un son de gorge serrée",
+          "why": "Elle serre la gorge, ce que ا ne fait pas."
+        },
+        {
+          "wrong": "Confondre غ et ر",
+          "right": "غ est un r du fond de la gorge ; ر est roulé",
+          "why": "Deux r différents."
+        }
+      ],
+      "tip": "ع est un œil, غ est l'œil avec une larme."
+    }
+  },
+  {
+    "id": "ar.g07.letters_fa_qaf_kaf_lam",
+    "rule": {
+      "summary": "ف ق ك ل : deux têtes rondes, un trait à zigzag et un bâton à pied.",
+      "explanation": "ف (1 point dessus) se dit f comme dans feu ; ق (2 points dessus, queue profonde) est un coup de gorge au Caire. ك (un grand trait avec un zigzag) se dit k comme dans kilo. ل (un bâton à pied courbe) se dit l comme dans lune.",
+      "pattern": "ف = 1 point dessus ; ق = 2 points dessus ; ك = zigzag ; ل = bâton à pied",
+      "examples": [
+        {
+          "text": "ف",
+          "translation": "fâ : le f de feu, 1 point dessus"
+        },
+        {
+          "text": "ق",
+          "translation": "qâf : un coup de gorge au Caire, 2 points dessus"
+        },
+        {
+          "text": "ك",
+          "translation": "kâf : le k de kilo, un zigzag"
+        },
+        {
+          "text": "ل",
+          "translation": "lâm : le l de lune, un bâton à pied"
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Confondre ف et ق",
+          "right": "ف a 1 point, ق en a 2",
+          "why": "Compte les points et regarde la queue."
+        },
+        {
+          "wrong": "Lire ق comme un k",
+          "right": "Au Caire, ق est un coup de gorge",
+          "why": "Le vrai k de l'arabe égyptien, c'est ك."
+        },
+        {
+          "wrong": "Confondre ل et ا",
+          "right": "ل a un pied qui tourne",
+          "why": "ا est un bâton nu."
+        }
+      ],
+      "tip": "Une tête ronde : 1 point = ف, 2 points = ق."
+    }
+  },
+  {
+    "id": "ar.g08.letters_mim_heh_waw_and_review",
+    "rule": {
+      "summary": "م ه و, puis ء ة ى : les dernières lettres et le bilan des 28.",
+      "explanation": "م (une cerise à queue droite) se dit m comme dans mer ; ه (un petit nœud) est un h soufflé ; و (un petit 9) donne le ou de oui. ء est un coup de gorge ; ة est un ه coiffé de 2 points dessus, à la fin des mots féminins ; ى est un ي sans ses deux points, à la fin d'un mot.",
+      "pattern": "م = cerise ; ه = nœud ; و = petit 9 ; ء = coup de gorge ; ة = ه + 2 points ; ى = ي sans points",
+      "examples": [
+        {
+          "text": "م",
+          "translation": "mîm : le m de mer, aucun point"
+        },
+        {
+          "text": "ه",
+          "translation": "hâ : un h soufflé, aucun point"
+        },
+        {
+          "text": "و",
+          "translation": "wâw : le ou de oui, aucun point"
+        },
+        {
+          "text": "ة",
+          "translation": "tâ marbûta : ه avec 2 points dessus"
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Confondre م et و",
+          "right": "م a une queue droite ; و a une queue courbe",
+          "why": "Regarde la queue."
+        },
+        {
+          "wrong": "Lire ة comme ه",
+          "right": "ة a 2 points dessus",
+          "why": "Les deux points ajoutent le ت."
+        },
+        {
+          "wrong": "Chercher 2 points sous ى",
+          "right": "ى n'a aucun point",
+          "why": "Avec 2 points dessous, c'est ي."
+        }
+      ],
+      "tip": "Il y a 12 lettres sans point parmi les 28."
+    }
+  }
+]

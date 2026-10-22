@@ -1,0 +1,391 @@
+{
+  "module": {
+    "id": 1,
+    "title": "Les lettres, une par une",
+    "description": "Les 28 lettres de l'alphabet arabe seules : leur forme, leur son (avec la prononciation égyptienne), leur nom et les points qui distinguent les lettres qui se ressemblent."
+  },
+  "grammarUnits": [
+    {
+      "id": "ar.g01.letters_alif_ba_ta_tha",
+      "category": "reading",
+      "title": "Alif, bâ, tâ, thâ : ا ب ت ث",
+      "difficulty": 1,
+      "prerequisites": [],
+      "functionWords": []
+    },
+    {
+      "id": "ar.g02.letters_nun_ya_and_dots",
+      "category": "reading",
+      "title": "Nûn, yâ et le jeu des points : ن ي",
+      "difficulty": 1,
+      "prerequisites": [
+        "ar.g01.letters_alif_ba_ta_tha"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "ar.g03.letters_jim_ha_kha",
+      "category": "reading",
+      "title": "Les trois crochets : ج ح خ",
+      "difficulty": 1,
+      "prerequisites": [
+        "ar.g02.letters_nun_ya_and_dots"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "ar.g04.letters_dal_dhal_ra_zay",
+      "category": "reading",
+      "title": "Les petites jumelles : د ذ ر ز",
+      "difficulty": 1,
+      "prerequisites": [
+        "ar.g03.letters_jim_ha_kha"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "ar.g05.letters_sin_shin_sad_dad",
+      "category": "reading",
+      "title": "Les dents et les boucles : س ش ص ض",
+      "difficulty": 2,
+      "prerequisites": [
+        "ar.g04.letters_dal_dhal_ra_zay"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "ar.g06.letters_tah_zah_ayn_ghayn",
+      "category": "reading",
+      "title": "Les lourdes et les gorges : ط ظ ع غ",
+      "difficulty": 2,
+      "prerequisites": [
+        "ar.g05.letters_sin_shin_sad_dad"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "ar.g07.letters_fa_qaf_kaf_lam",
+      "category": "reading",
+      "title": "Les têtes rondes et les bâtons : ف ق ك ل",
+      "difficulty": 2,
+      "prerequisites": [
+        "ar.g06.letters_tah_zah_ayn_ghayn"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "ar.g08.letters_mim_heh_waw_and_review",
+      "category": "reading",
+      "title": "Dernières lettres et grand bilan : م ه و ء ة ى",
+      "difficulty": 2,
+      "prerequisites": [
+        "ar.g07.letters_fa_qaf_kaf_lam"
+      ],
+      "functionWords": []
+    }
+  ],
+  "lessons": [
+    {
+      "id": "ar.l01",
+      "sequence": 1,
+      "title": "Le bâton et la barque",
+      "description": "Découvre ا ب ت ث : le bâton, la barque et ses points.",
+      "difficulty": 1,
+      "grammarUnitId": "ar.g01.letters_alif_ba_ta_tha",
+      "introducesGrammar": true,
+      "reviews": [],
+      "vocabulary": [
+        {
+          "word": "ا",
+          "slug": "alif",
+          "translation": "alif — son a long",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ب",
+          "slug": "ba",
+          "translation": "bâ — son b",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ت",
+          "slug": "ta",
+          "translation": "tâ — son t",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ث",
+          "slug": "tha",
+          "translation": "thâ — son t (ou s) en Égypte",
+          "partOfSpeech": "letter"
+        }
+      ]
+    },
+    {
+      "id": "ar.l02",
+      "sequence": 2,
+      "title": "Le bol, la queue et les points",
+      "description": "Ajoute ن et ي, puis maîtrise le jeu des points dessus et dessous.",
+      "difficulty": 1,
+      "grammarUnitId": "ar.g02.letters_nun_ya_and_dots",
+      "introducesGrammar": true,
+      "reviews": [
+        "ar.g01.letters_alif_ba_ta_tha"
+      ],
+      "vocabulary": [
+        {
+          "word": "ن",
+          "slug": "nun",
+          "translation": "nûn — son n",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ي",
+          "slug": "ya",
+          "translation": "yâ — son y ou i long",
+          "partOfSpeech": "letter"
+        }
+      ]
+    },
+    {
+      "id": "ar.l03",
+      "sequence": 3,
+      "title": "Trois crochets, trois sons",
+      "description": "Reconnais ج ح خ : le même crochet, trois sons, un point qui change tout.",
+      "difficulty": 1,
+      "grammarUnitId": "ar.g03.letters_jim_ha_kha",
+      "introducesGrammar": true,
+      "reviews": [
+        "ar.g01.letters_alif_ba_ta_tha",
+        "ar.g02.letters_nun_ya_and_dots"
+      ],
+      "vocabulary": [
+        {
+          "word": "ج",
+          "slug": "jim",
+          "translation": "gîm — son g (comme gâteau)",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ح",
+          "slug": "hah",
+          "translation": "ḥâ — h appuyé du fond de la gorge",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "خ",
+          "slug": "kha",
+          "translation": "khâ — ch allemand (Bach)",
+          "partOfSpeech": "letter"
+        }
+      ]
+    },
+    {
+      "id": "ar.l04",
+      "sequence": 4,
+      "title": "Les jumelles d, z, r",
+      "description": "Découvre د ذ ر ز : deux paires de jumelles qui ne diffèrent que d'un point.",
+      "difficulty": 1,
+      "grammarUnitId": "ar.g04.letters_dal_dhal_ra_zay",
+      "introducesGrammar": true,
+      "reviews": [
+        "ar.g02.letters_nun_ya_and_dots",
+        "ar.g03.letters_jim_ha_kha"
+      ],
+      "vocabulary": [
+        {
+          "word": "د",
+          "slug": "dal",
+          "translation": "dâl — son d",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ذ",
+          "slug": "dhal",
+          "translation": "dhâl — son d ou z en Égypte",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ر",
+          "slug": "ra",
+          "translation": "râ — r roulé",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ز",
+          "slug": "zay",
+          "translation": "zây — son z",
+          "partOfSpeech": "letter"
+        }
+      ]
+    },
+    {
+      "id": "ar.l05",
+      "sequence": 5,
+      "title": "Dents, boucles et lourdeur",
+      "description": "Apprends س ش ص ض : les dents, les trois points et les lettres lourdes.",
+      "difficulty": 2,
+      "grammarUnitId": "ar.g05.letters_sin_shin_sad_dad",
+      "introducesGrammar": true,
+      "reviews": [
+        "ar.g03.letters_jim_ha_kha",
+        "ar.g04.letters_dal_dhal_ra_zay"
+      ],
+      "vocabulary": [
+        {
+          "word": "س",
+          "slug": "sin",
+          "translation": "sîn — son s",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ش",
+          "slug": "shin",
+          "translation": "chîn — son ch",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ص",
+          "slug": "sad",
+          "translation": "sâd — s lourd",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ض",
+          "slug": "dad",
+          "translation": "dâd — d lourd",
+          "partOfSpeech": "letter"
+        }
+      ]
+    },
+    {
+      "id": "ar.l06",
+      "sequence": 6,
+      "title": "Lourdes et gorges profondes",
+      "description": "Termine les lourdes avec ط ظ, puis plonge dans la gorge avec ع et غ.",
+      "difficulty": 2,
+      "grammarUnitId": "ar.g06.letters_tah_zah_ayn_ghayn",
+      "introducesGrammar": true,
+      "reviews": [
+        "ar.g04.letters_dal_dhal_ra_zay",
+        "ar.g05.letters_sin_shin_sad_dad"
+      ],
+      "vocabulary": [
+        {
+          "word": "ط",
+          "slug": "tah",
+          "translation": "ṭâ — t lourd",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ظ",
+          "slug": "zah",
+          "translation": "ẓâ — z lourd",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ع",
+          "slug": "ayn",
+          "translation": "aïn — son de gorge serrée",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "غ",
+          "slug": "ghayn",
+          "translation": "ghaïn — r grasseyé (comme rouge)",
+          "partOfSpeech": "letter"
+        }
+      ]
+    },
+    {
+      "id": "ar.l07",
+      "sequence": 7,
+      "title": "Têtes rondes et bâtons",
+      "description": "Distingue ف ق par leurs points, puis ك et ل, le K et le L de l'arabe.",
+      "difficulty": 2,
+      "grammarUnitId": "ar.g07.letters_fa_qaf_kaf_lam",
+      "introducesGrammar": true,
+      "reviews": [
+        "ar.g05.letters_sin_shin_sad_dad",
+        "ar.g06.letters_tah_zah_ayn_ghayn"
+      ],
+      "vocabulary": [
+        {
+          "word": "ف",
+          "slug": "fa",
+          "translation": "fâ — son f",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ق",
+          "slug": "qaf",
+          "translation": "qâf — coup de gorge au Caire",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ك",
+          "slug": "kaf",
+          "translation": "kâf — son k",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ل",
+          "slug": "lam",
+          "translation": "lâm — son l",
+          "partOfSpeech": "letter"
+        }
+      ]
+    },
+    {
+      "id": "ar.l08",
+      "sequence": 8,
+      "title": "Les dernières lettres et le grand bilan",
+      "description": "Apprends م ه و ء ة ى, puis fais le bilan des 28 lettres et de leurs points.",
+      "difficulty": 2,
+      "grammarUnitId": "ar.g08.letters_mim_heh_waw_and_review",
+      "introducesGrammar": true,
+      "reviews": [
+        "ar.g06.letters_tah_zah_ayn_ghayn",
+        "ar.g07.letters_fa_qaf_kaf_lam"
+      ],
+      "vocabulary": [
+        {
+          "word": "م",
+          "slug": "mim",
+          "translation": "mîm — son m",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ه",
+          "slug": "heh",
+          "translation": "hâ — h soufflé",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "و",
+          "slug": "waw",
+          "translation": "wâw — son ou",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ء",
+          "slug": "hamza",
+          "translation": "hamza — coup de gorge",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ة",
+          "slug": "ta_marbuta",
+          "translation": "tâ marbûta — a final",
+          "partOfSpeech": "letter"
+        },
+        {
+          "word": "ى",
+          "slug": "alif_maqsura",
+          "translation": "alif maqsûra — a long final",
+          "partOfSpeech": "letter"
+        }
+      ]
+    }
+  ]
+}

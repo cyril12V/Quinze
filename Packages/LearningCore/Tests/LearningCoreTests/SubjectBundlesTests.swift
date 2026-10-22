@@ -38,13 +38,14 @@ final class SubjectBundlesTests: XCTestCase {
         }
     }
 
-    /// New subjects only (the English corpus has its own report): every model and accepted answer is
-    /// accepted, and no `equals` error pattern is.
-    func testModelAnswersAcceptedInNewSubjects() throws {
-        for (code, bundle) in try bundles() where code != "en" {
+    /// New content (Arabic, Culture G, English lessons 61+; the first 60 English lessons have their own
+    /// report): every model and accepted answer is accepted, and no `equals` error pattern is.
+    func testModelAnswersAcceptedInNewContent() throws {
+        for (code, bundle) in try bundles() {
             let engine = LearningEngine(bundle: bundle)
+            let sequence = Dictionary(uniqueKeysWithValues: bundle.lessons.map { ($0.id, $0.sequence) })
             var problems: [String] = []
-            for e in bundle.exercises {
+            for e in bundle.exercises where code != "en" || (e.lessonId.flatMap { sequence[$0] } ?? 0) > 60 {
                 for sub in submissions(e) {
                     let ev = engine.evaluate(e, submission: sub)
                     if ev.isCorrect || (e.requirements != nil && ev.result == .pending) { continue }

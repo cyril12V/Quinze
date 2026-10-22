@@ -46,7 +46,7 @@ struct WordSheet: View {
     /// Part of speech on the left, close button on the right.
     private var topRow: some View {
         HStack(spacing: Theme.Spacing.s) {
-            QPill(text: FrenchLabels.partOfSpeech(item.partOfSpeech), fill: Theme.surface, foreground: Theme.ink)
+            QPill(text: item.partOfSpeechLabel, fill: Theme.surface, foreground: Theme.ink)
             Spacer(minLength: Theme.Spacing.s)
             RoundIconButton(icon: .close, label: "Fermer") { dismiss() }
         }
@@ -54,13 +54,17 @@ struct WordSheet: View {
 
     private var header: some View {
         VStack(alignment: .leading, spacing: Theme.Spacing.s) {
-            Text(item.word)
-                .font(Theme.Font.display)
-                .tracking(Theme.Tracking.display)
+            StudiedText(text: item.word, size: .hero)
                 .foregroundStyle(Theme.primaryText)
                 .lineLimit(2)
                 .minimumScaleFactor(0.7)
                 .accessibilityAddTraits(.isHeader)
+            if let reading = item.reading {
+                Text(reading)
+                    .font(Theme.Font.headline)
+                    .foregroundStyle(Theme.secondaryText)
+                    .accessibilityLabel("Se lit : \(reading)")
+            }
             HStack(spacing: Theme.Spacing.xs) {
                 if let ipa = item.ipa, !ipa.isEmpty {
                     Text(ipa)
@@ -113,6 +117,12 @@ struct WordSheet: View {
                             TappableSentenceView(text: example.text, languageCode: env.store.learningLanguageCode)
                                 .font(Theme.Font.body(.semibold))
                                 .foregroundStyle(Theme.ink)
+                            if let transliteration = example.transliteration, !transliteration.isEmpty {
+                                Text(transliteration)
+                                    .font(Theme.Font.callout)
+                                    .italic()
+                                    .foregroundStyle(Theme.onPastelSecondary)
+                            }
                             Text(example.translation)
                                 .font(Theme.Font.callout)
                                 .foregroundStyle(Theme.onPastelSecondary)
@@ -161,6 +171,7 @@ struct WordSheet: View {
                             .foregroundStyle(Theme.secondaryText)
                         Spacer(minLength: Theme.Spacing.m)
                         Text(row.value)
+                            .arabicAware(row.value, .title2)
                             .font(Theme.Font.body(.medium))
                             .foregroundStyle(Theme.primaryText)
                     }
@@ -175,7 +186,8 @@ struct WordSheet: View {
         guard let forms = item.forms, !forms.isEmpty else { return [] }
         var rows: [(label: String, value: String)] = []
         var used: Set<String> = []
-        for entry in FrenchLabels.formLabels {
+        let shapeLabels = GameQuestionFactory.shapeKeys.map { (key: $0.key, label: $0.label) }
+        for entry in FrenchLabels.formLabels + shapeLabels {
             if let value = forms[entry.key], !value.isEmpty {
                 rows.append((label: entry.label, value: value))
                 used.insert(entry.key)

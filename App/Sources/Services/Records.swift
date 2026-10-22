@@ -31,6 +31,11 @@ struct SessionRecord: Codable, Equatable, Sendable, Identifiable {
     var updatedAt: Date
     /// Subject code ("en", "ar", "cg"). Nil in sessions saved before the v2: they are English.
     var subject: String?
+    /// Learning sessions: false when the lesson was not validated (it will be retaken). Nil before v3.
+    var lessonPassed: Bool?
+    /// End-of-module exams: the module and whether the exam was passed.
+    var examModule: Int?
+    var examPassed: Bool?
 
     var subjectCode: String { subject ?? "en" }
 

@@ -40,6 +40,7 @@ struct LessonFlowView: View {
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
         }
         .background(Theme.background.ignoresSafeArea())
+        .studySubject(controller.subject)
         .animation(reduceMotion ? nil : .easeInOut(duration: 0.2), value: controller.phase)
         .sheet(item: $tutorRequest) { request in
             TutorSheet(subject: request.subject)
@@ -62,7 +63,7 @@ struct LessonFlowView: View {
 
             if !controller.isFinished {
                 VStack(alignment: .leading, spacing: 4) {
-                    Text(stepLabel ?? controller.subject.displayName)
+                    Text([stepLabel ?? controller.subject.displayName, controller.sectionLabel].compactMap { $0 }.joined(separator: " · "))
                         .font(Theme.Font.caption(.semibold))
                         .foregroundStyle(Theme.secondaryText)
                     HStack(spacing: Theme.Spacing.m) {
@@ -119,7 +120,9 @@ struct LessonFlowView: View {
     }
 
     @ViewBuilder private var cardContent: some View {
-        if let unit = controller.currentUnit {
+        if let step = controller.currentCourseCard {
+            LessonCourseCard(step: step, lessonTitle: controller.lessonTitle, isBusy: isBusy, onContinue: advance)
+        } else if let unit = controller.currentUnit {
             if isRuleCard(for: unit) {
                 LessonRuleCard(
                     unit: unit,
@@ -152,7 +155,7 @@ struct LessonFlowView: View {
         if let kind = controller.currentItem?.kind {
             switch kind {
             case .ruleCard: return true
-            case .wordCard: return false
+            case .wordCard, .courseCard: return false
             case .exercise: return unit.kind == .grammar
             }
         }

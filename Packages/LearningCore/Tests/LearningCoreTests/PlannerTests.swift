@@ -194,6 +194,7 @@ final class PlannerTests: XCTestCase {
         let e = LearningEngine(index: engine.index, configuration: config)
         var learner = LearnerSnapshot()
         learner.completedLessonIds = ["en.l01", "en.l02"]
+        learner.passedModules = [1]   // module 1 exam passed: this test is about the overdue flood
         let past = now.addingTimeInterval(-10 * 86_400)
         for u in ["en.g01.be", "en.g02.present_simple", "en.v.teacher", "en.v.student", "en.v.go", "en.v.eat"] {
             learner.memoryStates[u] = state(u, stability: 6, firstSeen: past, successes: 2, next: now.addingTimeInterval(-3 * 86_400), results: [true, true])
@@ -280,5 +281,97 @@ final class PlannerTests: XCTestCase {
         XCTAssertEqual(engine.similarExercise(to: id, learner: learner, excluding: [], seed: 1)?.id,
                        engine.similarExercise(to: id, learner: learner, excluding: [], seed: 1)?.id)
         XCTAssertNil(engine.similarExercise(to: "nope", learner: learner, excluding: [], seed: 1))
+    }
+
+    // MARK: v3: lesson validation, module exams, course
+
+    private func play(_ plan: SessionPlan, at t: Date, learner: inout LearnerSnapshot,
+                      right: (Int, SessionItem) -> Bool) -> SessionOutcome {
+        var runner = SessionRunner(plan: plan, startedAt: t)
+        var i = 0
+        while let item = runner.currentItem {
+            if let id = item.exerciseId {
+                let ex = engine.exercise(id)!
+                let ok = right(i, item)
+                i += 1
+                let (_, a) = runner.submit(ok ? TestSupport.modelSubmission(ex) : TestSupport.wrongSubmission(ex),
+                                           hintUsed: false, duration: 5, engine: engine, now: t)
+                engine.apply(a, to: &learner, now: t)
+            }
+            runner.advance(engine: engine, learner: learner)
+        }
+        return engine.registerCompletion(of: plan, attempts: runner.attempts, to: &learner, now: t)
+    }
+
+    func testLessonIsValidatedOnlyWithEnoughFirstTrySuccesses() {
+        let p = engine.planSession(type: .learning, slot: .morning, day: day0, learner: .empty, now: now, seed: 21)
+        XCTAssertEqual(p.lessonId, "en.l01")
+        var weak = LearnerSnapshot()
+        let failed = play(p, at: now, learner: &weak) { i, item in item.role == .remediation || i % 2 == 0 }
+        XCTAssertEqual(failed.lessonPassed, false)
+        XCTAssertFalse(weak.completedLessonIds.contains("en.l01"))
+        // the lesson is taught again at the next session
+        let again = engine.planSession(type: .application, slot: .afternoon, day: day0, learner: weak,
+                                       now: TestSupport.date(day: 0, hour: 14), seed: 22)
+        XCTAssertEqual(again.type, .learning)
+        XCTAssertEqual(again.lessonId, "en.l01")
+        var good = LearnerSnapshot()
+        let passed = play(p, at: now, learner: &good) { _, _ in true }
+        XCTAssertEqual(passed.lessonPassed, true)
+        XCTAssertTrue(good.completedLessonIds.contains("en.l01"))
+    }
+
+    func testModuleExamOpensTheNextModule() {
+        var learner = LearnerSnapshot()
+        learner.completedLessonIds = ["en.l01", "en.l02"]
+        let t = TestSupport.date(day: 1, hour: 9)
+        let exam = engine.planSession(type: .learning, slot: .morning, day: TestSupport.day(1), learner: learner, now: t, seed: 3)
+        XCTAssertEqual(exam.type, .assessment)
+        XCTAssertEqual(exam.examModule, 1)
+        XCTAssertFalse(exam.items.isEmpty)
+        XCTAssertTrue(exam.items.allSatisfy { $0.role == .assessment && !$0.hintAllowed })
+        let moduleLessons: Set<String> = ["en.l01", "en.l02"]
+        XCTAssertTrue(exam.items.compactMap { $0.exerciseId.flatMap { self.engine.exercise($0)?.lessonId } }.allSatisfy { moduleLessons.contains($0) })
+        // failed: the module is revised first, then the exam comes back
+        var failing = learner
+        let failed = play(exam, at: t, learner: &failing) { _, _ in false }
+        XCTAssertEqual(failed.examPassed, false)
+        XCTAssertEqual(failing.lastFailedExamModule, 1)
+        let review = engine.planSession(type: .application, slot: .afternoon, day: TestSupport.day(1), learner: failing,
+                                        now: t.addingTimeInterval(5 * 3600), seed: 4)
+        XCTAssertNil(review.examModule)
+        XCTAssertNil(review.lessonId)
+        XCTAssertFalse(review.items.isEmpty)
+        _ = play(review, at: t.addingTimeInterval(5 * 3600), learner: &failing) { _, _ in true }
+        XCTAssertNil(failing.lastFailedExamModule)
+        let retake = engine.planSession(type: .consolidation, slot: .evening, day: TestSupport.day(1), learner: failing,
+                                        now: t.addingTimeInterval(11 * 3600), seed: 5)
+        XCTAssertEqual(retake.examModule, 1)
+        // passed: module 2 opens
+        var passing = learner
+        let passed = play(exam, at: t, learner: &passing) { _, _ in true }
+        XCTAssertEqual(passed.examPassed, true)
+        XCTAssertTrue(passing.passedModules.contains(1))
+        let next = engine.planSession(type: .learning, slot: .morning, day: TestSupport.day(2), learner: passing,
+                                      now: TestSupport.date(day: 2, hour: 9), seed: 6)
+        XCTAssertNil(next.examModule)
+        XCTAssertNotEqual(next.type, .assessment)
+    }
+
+    func testCourseCardsComeBeforeTheQuestions() throws {
+        let url = try XCTUnwrap(Bundle.module.url(forResource: "fixture-bundle", withExtension: "json", subdirectory: "Fixtures"))
+        var json = try XCTUnwrap(JSONSerialization.jsonObject(with: Data(contentsOf: url)) as? [String: Any])
+        var lessons = try XCTUnwrap(json["lessons"] as? [[String: Any]])
+        lessons[0]["course"] = [["title": "Le verbe être", "text": "I am, you are, he is.", "keyFact": "be = être"],
+                                ["title": "Les métiers", "text": "teacher, student, doctor", "emoji": "👩‍🏫"]]
+        json["lessons"] = lessons
+        let bundle = try ContentBundle.decode(from: JSONSerialization.data(withJSONObject: json))
+        XCTAssertEqual(bundle.lessons[0].course?.count, 2)
+        let e = LearningEngine(bundle: bundle)
+        let p = e.planSession(type: .learning, slot: .morning, day: day0, learner: .empty, now: now, seed: 1)
+        XCTAssertEqual(p.lessonId, "en.l01")
+        let kinds = p.items.map { $0.kind }
+        XCTAssertEqual(Array(kinds.prefix(2)), [.courseCard(lessonId: "en.l01", index: 0), .courseCard(lessonId: "en.l01", index: 1)])
+        XCTAssertFalse(kinds.contains(.ruleCard(unitId: "en.g01.be")), "the course replaces the rule card")
     }
 }

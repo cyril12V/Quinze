@@ -73,14 +73,15 @@ final class SubjectBundlesTests: XCTestCase {
     func testTwoWeeksOfSessionsProgress() throws {
         for (code, bundle) in try bundles() {
             var config = EngineConfiguration.default
-            config.maxNewLessonsPerDay = 3
+            config.maxNewLessonsPerDay = 2
             let engine = LearningEngine(bundle: bundle, configuration: config)
-            var sim = Simulator(engine: engine, seed: 11)
+            // A learner who read the course: most first tries are right, so lessons and exams are passed.
+            var sim = Simulator(engine: engine, seed: 11, base: 0.85, gain: 0.15)
             for d in 0..<14 { sim.runDay(d, assessmentIfDue: code == "en") }
             let empty = sim.records.filter { $0.plan.items.isEmpty }.count
             let learned = sim.learner.completedLessonIds.count
             print("\(code): \(learned) lessons completed in 14 days, \(sim.records.count) sessions, \(empty) empty")
-            XCTAssertGreaterThanOrEqual(learned, min(10, bundle.lessons.count), "\(code): progression stuck")
+            XCTAssertGreaterThanOrEqual(learned, min(8, bundle.lessons.count), "\(code): progression stuck")
             XCTAssertEqual(empty, 0, "\(code): empty sessions")
         }
     }

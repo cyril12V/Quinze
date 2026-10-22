@@ -180,6 +180,7 @@ private struct ExerciseTextInput: View {
 
     @State private var text: String = ""
     @FocusState private var isFocused: Bool
+    @Environment(\.studySubjectCode) private var studySubjectCode
 
     init(exercise: Exercise, answer: Binding<AnswerSubmission?>) {
         self.exercise = exercise
@@ -190,15 +191,15 @@ private struct ExerciseTextInput: View {
         exercise.type == .translation || exercise.type == .freeAnswer
     }
 
-    /// The learner answers in French only for translation/free answers prompted in the studied language.
-    /// "xx" stands for the studied language: `answerLanguage` only compares against "fr".
+    /// Language of the typed answer: French for Culture G and for translations into French.
     private var answersInFrench: Bool {
-        exercise.answerLanguage(studied: "xx") == "fr"
+        exercise.answerLanguage(studied: studySubjectCode) == "fr"
     }
 
     private var placeholder: String {
-        if !isMultiline { return "Écris le mot manquant" }
-        return answersInFrench ? "Écris ta réponse en français" : "Écris ta réponse en anglais"
+        if !isMultiline { return answersInFrench && studySubjectCode != "en" ? "Écris ta réponse" : "Écris le mot manquant" }
+        if answersInFrench { return "Écris ta réponse en français" }
+        return studySubjectCode == "ar" ? "Écris ta réponse en arabe" : "Écris ta réponse en anglais"
     }
 
     var body: some View {
@@ -208,7 +209,7 @@ private struct ExerciseTextInput: View {
             .textInputAutocapitalization(answersInFrench ? .sentences : .never)
             .autocorrectionDisabled(!answersInFrench)
             .submitLabel(.done)
-            .accessibilityLabel(answersInFrench ? "Ta réponse en français" : "Ta réponse en anglais")
+            .accessibilityLabel(answersInFrench ? "Ta réponse en français" : "Ta réponse")
             .padding(.vertical, isMultiline ? Theme.Spacing.m - 2 : 0)
             .frame(maxWidth: .infinity, minHeight: isMultiline ? 120 : 0, alignment: .topLeading)
             .qField(isFocused: isFocused)

@@ -87,9 +87,11 @@ struct Simulator {
             runner.advance(engine: engine, learner: learner)
             now = now.addingTimeInterval(30)
         }
-        engine.registerCompletion(of: plan, to: &learner, now: now)
+        engine.registerCompletion(of: plan, attempts: runner.attempts, to: &learner, now: now)
         completedDays.insert(day)
-        if sessionType == .learning, let l = plan.lessonId, lessonCompletionDay[l] == nil { lessonCompletionDay[l] = offset }
+        if plan.type == .learning, let l = plan.lessonId, learner.completedLessonIds.contains(l), lessonCompletionDay[l] == nil {
+            lessonCompletionDay[l] = offset
+        }
         let record = Record(day: offset, slot: slot, plan: plan, summary: runner.summary(engine: engine, now: now), exerciseIds: ids,
                             remediations: runner.remediationCount)
         records.append(record)

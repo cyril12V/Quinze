@@ -56,15 +56,14 @@ final class SessionRunnerTests: XCTestCase {
         XCTAssertTrue(runner.isComplete)
     }
 
-    func testRemediationIsInsertedAndCapped() {
+    func testWrongAnswersComeBackUntilTheTriesRunOut() {
         let p = plan(seed: 2)
         var runner = SessionRunner(plan: p, startedAt: now)
         let planned = p.items.count
         let exerciseItems = p.items.filter { $0.exerciseId != nil }.count
         var learner = LearnerSnapshot()
-        var inserted: [SessionItem] = []
         var guardCount = 0
-        while let item = runner.currentItem, guardCount < 100 {
+        while let item = runner.currentItem, guardCount < 200 {
             guardCount += 1
             if let id = item.exerciseId {
                 let ex = engine.exercise(id)!
@@ -73,26 +72,17 @@ final class SessionRunnerTests: XCTestCase {
                 XCTAssertEqual(attempt.isRemediation, item.role == .remediation)
                 engine.apply(attempt, to: &learner, now: now)
             }
-            let before = runner.items.count
             runner.advance(engine: engine, learner: learner)
-            if runner.items.count > before { inserted.append(runner.items.last!) }
         }
-        XCTAssertTrue(runner.isComplete, "a wrong answer never blocks the end of the session")
-        XCTAssertEqual(runner.remediationCount, engine.configuration.maxRemediationsPerSession)
-        XCTAssertEqual(inserted.count, 3)
-        XCTAssertEqual(runner.items.count, planned + 3)
-        XCTAssertEqual(runner.attempts.count, exerciseItems + 3)
-        for item in inserted {
-            XCTAssertEqual(item.role, .remediation)
-            XCTAssertTrue(item.hintAllowed)
-        }
-        // a remediation is another exercise on the same primary unit (or the same exercise once when there is no other)
-        let originals = p.items.compactMap { $0.exerciseId }
-        for item in inserted {
-            let r = engine.exercise(item.exerciseId!)!
-            XCTAssertTrue(engine.index.exercisesById[r.id] != nil)
-            XCTAssertFalse(originals.contains(r.id) && r.id == inserted.first?.exerciseId && false)
-        }
+        XCTAssertTrue(runner.isComplete, "the session always ends")
+        // every question comes back twice (same exercise, then a similar one), within the session cap
+        let expected = min(2 * exerciseItems, engine.configuration.maxRemediationsPerSession)
+        XCTAssertEqual(runner.remediationCount, expected)
+        XCTAssertEqual(runner.items.count, planned + expected)
+        XCTAssertEqual(runner.attempts.count, exerciseItems + expected)
+        let retries = runner.items.filter { $0.role == .remediation }
+        XCTAssertEqual(retries.count, expected)
+        XCTAssertTrue(retries.allSatisfy { $0.hintAllowed })
         let summary = runner.summary(engine: engine, now: now)
         XCTAssertEqual(summary.correctCount, 0)
         XCTAssertLessThanOrEqual(summary.importantErrors.count, 5)
@@ -100,22 +90,34 @@ final class SessionRunnerTests: XCTestCase {
         XCTAssertEqual(Set(summary.importantErrors.map { $0.exerciseId }).count, summary.importantErrors.count)
     }
 
-    func testRemediationTargetsTheSameUnit() {
+    func testWrongAnswerComesBackALittleLaterThenASimilarOne() {
         let p = plan(seed: 3)
         var runner = SessionRunner(plan: p, startedAt: now)
         guard let first = runner.currentItem, case .ruleCard = first.kind else { return XCTFail("expected a rule card first") }
-        runner.advance(engine: engine, learner: .empty)
         while let item = runner.currentItem, item.exerciseId == nil { runner.advance(engine: engine, learner: .empty) }
-        let item = runner.currentItem!
-        let ex = engine.exercise(item.exerciseId!)!
+        let position = runner.completedCount
+        let ex = engine.exercise(runner.currentItem!.exerciseId!)!
         runner.submit(TestSupport.wrongSubmission(ex), hintUsed: false, duration: 1, engine: engine, now: now)
         runner.advance(engine: engine, learner: .empty)
-        let added = runner.items.last!
-        XCTAssertEqual(added.role, .remediation)
-        let r = engine.exercise(added.exerciseId!)!
+        let firstRetry = runner.items.firstIndex { $0.role == .remediation }
+        XCTAssertEqual(firstRetry, min(position + 3, runner.items.count - 1), "two other questions in between")
+        XCTAssertEqual(runner.items[firstRetry!].exerciseId, ex.id, "the same question comes back first")
+        // right answers until the retry, wrong again on it: a similar exercise on the same notion comes next
+        while let item = runner.currentItem {
+            guard let id = item.exerciseId else { runner.advance(engine: engine, learner: .empty); continue }
+            let e = engine.exercise(id)!
+            if item.role == .remediation {
+                runner.submit(TestSupport.wrongSubmission(e), hintUsed: false, duration: 1, engine: engine, now: now)
+                runner.advance(engine: engine, learner: .empty)
+                break
+            }
+            runner.submit(TestSupport.modelSubmission(e), hintUsed: false, duration: 1, engine: engine, now: now)
+            runner.advance(engine: engine, learner: .empty)
+        }
+        let retries = runner.items.filter { $0.role == .remediation }
+        XCTAssertEqual(retries.count, 2)
+        let r = engine.exercise(retries[1].exerciseId!)!
         XCTAssertEqual(r.primaryUnitId, ex.primaryUnitId)
-        XCTAssertNotEqual(r.id, ex.id)
-        XCTAssertFalse(p.items.contains { $0.exerciseId == r.id }, "a remediation is not already part of the session")
     }
 
     func testPendingEvaluationDoesNotTriggerRemediationButOverrideDoes() {

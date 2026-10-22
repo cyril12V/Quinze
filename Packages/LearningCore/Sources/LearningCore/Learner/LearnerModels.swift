@@ -218,10 +218,18 @@ public struct LearnerSnapshot: Codable, Hashable, Sendable {
     public var estimatedLevel: Int?
     public var lastAssessmentAt: Date?
     public var startedAt: Date?
+    /// Modules whose end-of-module exam was passed (the next module opens).
+    public var passedModules: Set<Int>
+    /// Set when the learner's last session of this subject was a failed module exam: the next session is a
+    /// targeted review of that module, then the exam comes back.
+    public var lastFailedExamModule: Int?
 
     public init(memoryStates: [String: MemoryState] = [:], recentAttempts: [AttemptRecord] = [],
                 completedLessonIds: Set<String> = [], placedLessonIds: Set<String> = [],
-                estimatedLevel: Int? = nil, lastAssessmentAt: Date? = nil, startedAt: Date? = nil) {
+                estimatedLevel: Int? = nil, lastAssessmentAt: Date? = nil, startedAt: Date? = nil,
+                passedModules: Set<Int> = [], lastFailedExamModule: Int? = nil) {
+        self.passedModules = passedModules
+        self.lastFailedExamModule = lastFailedExamModule
         self.memoryStates = memoryStates
         self.recentAttempts = recentAttempts
         self.completedLessonIds = completedLessonIds
@@ -252,6 +260,8 @@ public struct SessionItem: Codable, Hashable, Sendable, Identifiable {
         /// Introduce a new word (with audio).
         case wordCard(unitId: String)
         case exercise(exerciseId: String)
+        /// Card `index` of the course of a lesson, read before its questions.
+        case courseCard(lessonId: String, index: Int)
     }
 
     public let id: UUID
@@ -285,9 +295,13 @@ public struct SessionPlan: Codable, Hashable, Sendable, Identifiable {
     public let items: [SessionItem]
     public let estimatedSeconds: Int
     public let createdAt: Date
+    /// End-of-module exam: the module it checks (an assessment-type session). Nil otherwise.
+    public let examModule: Int?
 
     public init(id: UUID = UUID(), type: SessionType, slot: SessionSlot?, day: LocalDay, lessonId: String?,
-                newUnitIds: [String], items: [SessionItem], estimatedSeconds: Int, createdAt: Date) {
+                newUnitIds: [String], items: [SessionItem], estimatedSeconds: Int, createdAt: Date,
+                examModule: Int? = nil) {
+        self.examModule = examModule
         self.id = id
         self.type = type
         self.slot = slot
@@ -307,6 +321,26 @@ public struct ImportantError: Codable, Hashable, Sendable {
     public let expected: String
     public let given: String
     public let category: ErrorCategory?
+}
+
+/// What a finished session decided (see `LearningEngine.registerCompletion(of:attempts:to:now:)`).
+public struct SessionOutcome: Codable, Hashable, Sendable {
+    /// Learning sessions: share of first-try successes on the lesson's exercises, and whether it validates the lesson.
+    public var lessonScore: Double?
+    public var lessonPassed: Bool?
+    /// End-of-module exams.
+    public var examModule: Int?
+    public var examScore: Double?
+    public var examPassed: Bool?
+
+    public init(lessonScore: Double? = nil, lessonPassed: Bool? = nil, examModule: Int? = nil, examScore: Double? = nil,
+                examPassed: Bool? = nil) {
+        self.lessonScore = lessonScore
+        self.lessonPassed = lessonPassed
+        self.examModule = examModule
+        self.examScore = examScore
+        self.examPassed = examPassed
+    }
 }
 
 /// End-of-session screen data (§14.5).
@@ -464,6 +498,14 @@ public struct EngineConfiguration: Codable, Hashable, Sendable {
     public var diagnosticMaxQuestions: Int
     /// New lessons a learner may start in one day (one per session up to this number).
     public var maxNewLessonsPerDay: Int
+    /// Share of first-try successes on a lesson's exercises needed to validate the lesson (else it is retaken).
+    public var lessonPassRate: Double = 0.8
+    /// Score needed at an end-of-module exam to open the next module.
+    public var examPassRate: Double = 0.8
+    /// Questions of an end-of-module exam.
+    public var examQuestionCount: Int = 15
+    /// A wrong answer comes back later in the session, up to this many extra tries per exercise.
+    public var maxRetriesPerExercise: Int = 2
 
     public init(fsrsWeights: [Double], desiredRetention: Double, maximumIntervalDays: Double,
                 minInteractions: Int, maxInteractions: Int, targetSessionSeconds: Int,
@@ -509,7 +551,7 @@ public struct EngineConfiguration: Codable, Hashable, Sendable {
             "mcq": 15, "match": 25, "fill_blank": 20, "reorder": 25, "translation": 35, "free_answer": 40,
         ],
         overdueThresholdToPauseNewMaterial: 15,
-        maxRemediationsPerSession: 3,
+        maxRemediationsPerSession: 30,
         prerequisiteMasteryThreshold: 0.5,
         prerequisiteBypassDays: 5,
         masteredThreshold: 0.8,

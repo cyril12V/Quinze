@@ -192,6 +192,7 @@ struct QStatTile: View {
 /// Listen button (native text-to-speech through the shared `SpeechService`).
 struct QSpeakerButton: View {
     @Environment(AppEnvironment.self) private var env
+    @Environment(\.speechEnabled) private var speechEnabled
     let text: String
     let slow: Bool
 
@@ -201,6 +202,10 @@ struct QSpeakerButton: View {
     }
 
     var body: some View {
+        if speechEnabled { button }
+    }
+
+    private var button: some View {
         Button {
             env.speech.speak(spokenText, locale: env.store.learningSpeechLocale, slow: slow)
         } label: {

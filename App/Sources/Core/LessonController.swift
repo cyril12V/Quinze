@@ -7,6 +7,13 @@ import LearningCore
 // grade uncertain answers, updates memory states, lifts the slot's restriction on completion.
 // The learning UI (B2) only uses the members declared here.
 
+/// A card of a lesson's course, with its position (« 2 / 6 »).
+struct CourseCardStep: Equatable {
+    let card: CourseCard
+    let index: Int
+    let total: Int
+}
+
 enum LessonPhase: Equatable {
     /// A rule card or a word card is shown (`currentUnit`); the user taps "Continuer".
     case card
@@ -43,6 +50,10 @@ final class LessonController: Identifiable {
     private(set) var restrictionLifted: Bool?
     /// The correction of a free answer is waiting for the network to be verified (level 3).
     private(set) var pendingReviewNotice: Bool = false
+    /// Course card shown (phase `.card`), with its position in the course.
+    private(set) var currentCourseCard: CourseCardStep?
+    /// After completion: whether the lesson was validated, the exam passed.
+    private(set) var outcome: SessionOutcome?
 
     var slot: SessionSlot? { plan.slot }
     var type: SessionType { plan.type }
@@ -173,6 +184,31 @@ final class LessonController: Identifiable {
         extendedCount += added
     }
 
+    /// Title of the lesson taught by this session, if any.
+    var lessonTitle: String? { plan.lessonId.flatMap { engine.lesson($0)?.title } }
+
+    /// A unit of this session's subject (titles on the finish screen).
+    func unit(_ id: String) -> LearningUnit? { engine.unit(id) }
+
+    /// Label of the part of the session the current item belongs to.
+    var sectionLabel: String? {
+        guard let item = currentItem else { return nil }
+        if case .courseCard = item.kind { return "Cours" }
+        switch item.role {
+        case .assessment: return plan.examModule != nil ? "Contrôle du module" : "Test"
+        case .recentReview: return plan.type == .learning ? "Rappel" : "Bilan du jour"
+        case .oldReview: return "Révision"
+        case .activeRecall: return "De mémoire"
+        case .remediation: return "On réessaie"
+        case .newMaterial, .practice:
+            switch plan.type {
+            case .learning: return plan.lessonId == nil ? "Révision ciblée" : "Nouvelle leçon"
+            case .consolidation: return "Bilan du jour"
+            default: return "Entraînement"
+            }
+        }
+    }
+
     // MARK: State
 
     /// Rebuilds the screen state from the runner (new session or resumed one).
@@ -196,10 +232,19 @@ final class LessonController: Identifiable {
         guard let item = runner.currentItem else { return }
         currentItem = item
         presentation = item.presentation
+        currentCourseCard = nil
         switch item.kind {
         case .ruleCard(let unitId), .wordCard(let unitId):
             currentExercise = nil
             currentUnit = engine.unit(unitId)
+            phase = .card
+        case .courseCard(let lessonId, let index):
+            currentExercise = nil
+            currentUnit = nil
+            let course = engine.lesson(lessonId)?.course ?? []
+            if index < course.count {
+                currentCourseCard = CourseCardStep(card: course[index], index: index, total: course.count)
+            }
             phase = .card
         case .exercise(let exerciseId):
             let exercise = engine.exercise(exerciseId)
@@ -252,6 +297,13 @@ final class LessonController: Identifiable {
         completed.durationSeconds = Int(summary.durationSeconds.rounded())
         completed.score = summary.score
         completed.updatedAt = now
+        // Lesson validated (or to be retaken), module exam passed or not.
+        var snapshot = store.learner
+        let result = engine.registerCompletion(of: plan, attempts: runner.attempts, to: &snapshot, now: now)
+        completed.lessonPassed = result.lessonPassed
+        completed.examModule = result.examModule
+        completed.examPassed = result.examPassed
+        outcome = result
         record = completed
         store.local.saveSession(completed, dirty: true)
         store.local.clearRunner(for: id)

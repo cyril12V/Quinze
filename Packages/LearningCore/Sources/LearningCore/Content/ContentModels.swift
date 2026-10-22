@@ -114,6 +114,30 @@ public struct Lesson: Codable, Hashable, Sendable, Identifiable {
     public let introduces: [String]
     /// Units reinforced by this lesson without being new.
     public let reviews: [String]
+    /// Cards read before the questions (« apprendre avant de répondre »). Nil for lessons without a course.
+    public let course: [CourseCard]?
+}
+
+/// One card of a lesson's course.
+public struct CourseCard: Codable, Hashable, Sendable {
+    public let title: String
+    public let text: String
+    /// « À retenir » sentence.
+    public let keyFact: String?
+    public let emoji: String?
+    public let example: Example?
+    /// Arabic letter or word shown big on the card.
+    public let arabic: String?
+
+    public init(title: String, text: String, keyFact: String? = nil, emoji: String? = nil, example: Example? = nil,
+                arabic: String? = nil) {
+        self.title = title
+        self.text = text
+        self.keyFact = keyFact
+        self.emoji = emoji
+        self.example = example
+        self.arabic = arabic
+    }
 }
 
 public enum ExerciseType: String, Codable, CaseIterable, Sendable {

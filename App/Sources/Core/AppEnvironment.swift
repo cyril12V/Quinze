@@ -173,7 +173,7 @@ final class AppEnvironment {
         var config = EngineConfiguration.default
         config.targetSessionSeconds = settings.study.minutes(for: subject) * 60
         config.maxInteractions = 25
-        config.maxNewLessonsPerDay = 3
+        config.maxNewLessonsPerDay = 2
         return config
     }
 

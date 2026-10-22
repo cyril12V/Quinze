@@ -69,8 +69,12 @@ enum SnapshotBuilder {
         for state in memoryStates { states[state.unitId] = state }
         let recent = attempts.sorted { $0.answeredAt < $1.answeredAt }.suffix(max(0, attemptLimit))
         let completed = sessions.filter { $0.status == .completed }
-        let lessonIds = Set(completed.compactMap(\.lessonId))
+        // A lesson counts once validated (sessions before v3 have no verdict: validated).
+        let lessonIds = Set(completed.filter { $0.lessonPassed != false }.compactMap(\.lessonId))
         let lastAssessment = completed.filter { $0.type == .assessment }.compactMap(\.completedAt).max()
+        let passedModules = Set(completed.filter { $0.examPassed == true }.compactMap(\.examModule))
+        let last = completed.max { ($0.completedAt ?? .distantPast) < ($1.completedAt ?? .distantPast) }
+        let failedModule = last?.examPassed == false ? last?.examModule : nil
         return LearnerSnapshot(
             memoryStates: states,
             recentAttempts: Array(recent),
@@ -78,7 +82,9 @@ enum SnapshotBuilder {
             placedLessonIds: Set(profile.placement?.placedLessonIds ?? []),
             estimatedLevel: profile.placement?.estimatedLevel ?? profile.estimatedLevel,
             lastAssessmentAt: lastAssessment,
-            startedAt: profile.startedAt)
+            startedAt: profile.startedAt,
+            passedModules: passedModules,
+            lastFailedExamModule: failedModule)
     }
 }
 

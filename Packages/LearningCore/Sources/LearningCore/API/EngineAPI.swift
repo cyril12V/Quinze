@@ -194,8 +194,9 @@ public struct SessionRunner: Codable, Hashable, Sendable {
     public private(set) var awaitingAdvance: Bool
     public private(set) var remediationCount: Int
     public private(set) var startedAt: Date
-    /// Exercises already re-queued as-is (when no similar exercise exists).
-    private var repeatedExerciseIds: [String]
+    /// Extra tries already given per original exercise, and the original exercise of each retry.
+    private var retryCount: [String: Int]
+    private var retryOrigin: [String: String]
 
     public init(plan: SessionPlan, startedAt: Date) {
         self.plan = plan
@@ -206,7 +207,8 @@ public struct SessionRunner: Codable, Hashable, Sendable {
         self.awaitingAdvance = false
         self.remediationCount = 0
         self.startedAt = startedAt
-        self.repeatedExerciseIds = []
+        self.retryCount = [:]
+        self.retryOrigin = [:]
     }
 
     public var currentItem: SessionItem? { position < items.count ? items[position] : nil }
@@ -253,24 +255,32 @@ public struct SessionRunner: Codable, Hashable, Sendable {
         return attempts[i]
     }
 
-    /// Moves to the next item, inserting a remediation item after a wrong answer.
+    /// Moves to the next item. After a wrong answer the question comes back a little later in the session
+    /// (two other items in between), until it is right: first the same exercise, then a similar one, up to
+    /// `maxRetriesPerExercise` extra tries. Exams and the diagnostic have no retries.
     public mutating func advance(engine: LearningEngine, learner: LearnerSnapshot) {
         guard let item = currentItem else { return }
         if let exerciseId = item.exerciseId, awaitingAdvance, let evaluation = lastEvaluation,
            evaluation.result == .incorrect || evaluation.result == .partial,
            plan.type != .assessment, plan.type != .diagnostic,
            remediationCount < engine.configuration.maxRemediationsPerSession {
-            let inSession = Set(items.compactMap { $0.exerciseId })
-            let seed = stableHash(plan.id.uuidString) &+ UInt64(position)
-            if let similar = engine.similarExercise(to: exerciseId, learner: learner, excluding: inSession, seed: seed) {
-                let presentation = SessionRunner.guidedPresentation(for: similar)
-                items.append(SessionItem(kind: .exercise(exerciseId: similar.id), role: .remediation,
-                                         presentation: presentation, hintAllowed: true))
-                remediationCount += 1
-            } else if !repeatedExerciseIds.contains(exerciseId) {
-                repeatedExerciseIds.append(exerciseId)
-                items.append(SessionItem(kind: .exercise(exerciseId: exerciseId), role: .remediation,
-                                         presentation: item.presentation, hintAllowed: true))
+            // The chain of tries of this question: the original exercise and the retries inserted for it.
+            let origin = retryOrigin[exerciseId] ?? exerciseId
+            let tries = retryCount[origin, default: 0]
+            if tries < engine.configuration.maxRetriesPerExercise {
+                var next: (id: String, presentation: PresentationMode) = (exerciseId, item.presentation)
+                if tries >= 1 {
+                    let inSession = Set(items[position...].compactMap { $0.exerciseId })
+                    let seed = stableHash(plan.id.uuidString) &+ UInt64(position)
+                    if let similar = engine.similarExercise(to: exerciseId, learner: learner, excluding: inSession.union([exerciseId]), seed: seed) {
+                        next = (similar.id, SessionRunner.guidedPresentation(for: similar))
+                    }
+                }
+                let retry = SessionItem(kind: .exercise(exerciseId: next.id), role: .remediation,
+                                        presentation: next.presentation, hintAllowed: true)
+                items.insert(retry, at: min(position + 3, items.count))
+                retryCount[origin] = tries + 1
+                retryOrigin[next.id] = origin
                 remediationCount += 1
             }
         }

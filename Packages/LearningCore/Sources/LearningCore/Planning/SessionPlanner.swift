@@ -210,7 +210,10 @@ struct SessionPlanner {
         case .mcq: presentation = .choices
         case .match: presentation = .pairs
         case .reorder: presentation = .tokens
-        case .fillBlank: presentation = (!noHint && m < 0.3 && ex.options != nil) ? .choices : .typed
+        case .fillBlank:
+            // The learner never types Arabic: Arabic gaps are always answered by choosing.
+            let choose = ex.options != nil && (index.bundle.language.code == "ar" || (!noHint && m < 0.3))
+            presentation = choose ? .choices : .typed
         case .translation, .freeAnswer: presentation = .typed
         }
         let hint = !noHint && m < 0.6 && role != .activeRecall
@@ -280,6 +283,7 @@ struct SessionPlanner {
             switch item.kind {
             case .ruleCard: return acc + (config.estimatedSeconds["ruleCard"] ?? 45)
             case .wordCard: return acc + (config.estimatedSeconds["wordCard"] ?? 12)
+            case .courseCard: return acc + (config.estimatedSeconds["courseCard"] ?? 25)
             case .exercise(let id):
                 let t = index.exercisesById[id]?.type.rawValue ?? "mcq"
                 return acc + (config.estimatedSeconds[t] ?? 25)
@@ -288,9 +292,19 @@ struct SessionPlanner {
     }
 
     private mutating func makePlan(type: SessionType, slot: SessionSlot?, lessonId: String?, newUnitIds: [String],
-                                   items: [SessionItem]) -> SessionPlan {
+                                   items: [SessionItem], examModule: Int? = nil) -> SessionPlan {
         SessionPlan(id: rng.nextUUID(), type: type, slot: slot, day: day, lessonId: lessonId, newUnitIds: newUnitIds,
-                    items: items, estimatedSeconds: estimatedSeconds(items), createdAt: now)
+                    items: items, estimatedSeconds: estimatedSeconds(items), createdAt: now, examModule: examModule)
+    }
+
+    /// Units first seen on the learner's previous study day (the day before today with new material).
+    private func previousDayUnits(excluding: Set<String>) -> [String] {
+        let days = learner.memoryStates.values.map { LocalDay(date: $0.firstSeenAt, calendar: calendar) }.filter { $0 < day }
+        guard let last = days.max() else { return [] }
+        let states = learner.memoryStates.values.filter {
+            LocalDay(date: $0.firstSeenAt, calendar: calendar) == last && !excluding.contains($0.unitId) && index.unitsById[$0.unitId] != nil
+        }
+        return states.sorted { (score($0.unitId), $0.unitId) < (score($1.unitId), $1.unitId) }.map { $0.unitId }
     }
 
     private func exerciseItemCount(_ items: [SessionItem]) -> Int { items.filter { $0.exerciseId != nil }.count }
@@ -301,23 +315,38 @@ struct SessionPlanner {
         let lessons = doneLessonIds.union([lesson.id])
         let newUnits = lesson.introduces
         var cards: [SessionItem] = []
-        if lesson.introducesGrammar {
+        let course = lesson.course ?? []
+        if !course.isEmpty {
+            // Learn before answering: the course replaces the rule card.
+            for i in course.indices { cards.append(card(.courseCard(lessonId: lesson.id, index: i), role: .newMaterial)) }
+        } else if lesson.introducesGrammar {
             cards.append(card(.ruleCard(unitId: lesson.grammarUnitId), role: .newMaterial))
         } else if index.unitsById[lesson.grammarUnitId] != nil, score(lesson.grammarUnitId) < 0.6 {
             cards.append(card(.ruleCard(unitId: lesson.grammarUnitId), role: .oldReview))
         }
-        var words = newUnits.filter { index.unitsById[$0]?.kind == .vocabulary }
-        if struggling { words = Array(words.prefix(3)) }
-        for w in words { cards.append(card(.wordCard(unitId: w), role: .newMaterial)) }
+        // Word cards (with audio) for languages; Culture G concepts are taught by the course.
+        if course.isEmpty || index.bundle.language.code != "cg" {
+            var words = newUnits.filter { index.unitsById[$0]?.kind == .vocabulary }
+            if struggling { words = Array(words.prefix(3)) }
+            for w in words { cards.append(card(.wordCard(unitId: w), role: .newMaterial)) }
+        }
         let cardSeconds = estimatedSeconds(cards)
         let n = exerciseCount(cardSeconds: cardSeconds)
-        let nOld = max(1, Int((0.15 * Double(n)).rounded()))
+        let nOld = max(2, Int((0.3 * Double(n)).rounded()))
         let nRecall = max(1, Int((0.15 * Double(n)).rounded()))
 
-        // Warm-up: oldest due reviews.
+        // Warm-up: recall from memory of what was learned just before (this morning, else the previous study
+        // day), then the oldest due reviews.
         let lessonUnitSet = Set(newUnits)
-        let warmUnits = pool([.old, .recent], dueOnly: true, excluding: lessonUnitSet)
-        let warm = fillGroup(units: Array(warmUnits.prefix(nOld * 2)), count: nOld, role: .oldReview, mode: .byMastery, lessons: lessons)
+        let todayBefore = unitsToday.filter { !lessonUnitSet.contains($0) }
+        let justBefore = todayBefore.isEmpty ? previousDayUnits(excluding: lessonUnitSet) : todayBefore
+        var warm = fillGroup(units: Array(justBefore.prefix(nOld * 2)), count: nOld, role: .recentReview, mode: .practice,
+                             lessons: lessons, noHint: true)
+        if warm.count < nOld {
+            let warmUnits = pool([.old, .recent], dueOnly: true, excluding: lessonUnitSet.union(justBefore))
+            warm += fillGroup(units: Array(warmUnits.prefix(nOld * 2)), count: nOld - warm.count, role: .oldReview,
+                              mode: .byMastery, lessons: lessons)
+        }
 
         // Exercises of the lesson: cover every new unit, from the most guided to the most demanding.
         let lessonPool = (index.tables.exercisesByLesson[lesson.id] ?? []).filter { eligible($0, lessons: lessons) }
@@ -481,6 +510,64 @@ struct SessionPlanner {
         return makePlan(type: .extra, slot: nil, lessonId: nil, newUnitIds: [], items: cards + sortGuided(items))
     }
 
+    // MARK: End-of-module exam
+
+    /// Questions on the lessons of `module`: one exercise per unit first, demanding presentations, no hints.
+    mutating func planModuleExam(module: Int, slot: SessionSlot?) -> SessionPlan {
+        let lessonIds = Set(index.lessonsInOrder.filter { $0.module == module }.map { $0.id })
+        let candidates = lessonIds.sorted().flatMap { index.tables.exercisesByLesson[$0] ?? [] }
+            .filter { $0.deprecated != true }
+        let seenRecently = exercisesRecent
+        var pool = candidates
+        if pool.count > 1 { for i in stride(from: pool.count - 1, to: 0, by: -1) { pool.swapAt(i, rng.nextInt(i + 1)) } }
+        // Fresh exercises first, production before recognition.
+        pool.sort { (seenRecently.contains($0.id) ? 1 : 0, -rank($0.skill)) < (seenRecently.contains($1.id) ? 1 : 0, -rank($1.skill)) }
+        var chosen: [Exercise] = []
+        var units = Set<String>()
+        for oneByUnit in [true, false] {
+            for ex in pool where chosen.count < config.examQuestionCount && !chosen.contains(where: { $0.id == ex.id }) {
+                if oneByUnit && units.contains(ex.primaryUnitId) { continue }
+                chosen.append(ex); units.insert(ex.primaryUnitId)
+            }
+        }
+        chosen.sort { (Self.guidance($0.type), $0.difficulty) < (Self.guidance($1.type), $1.difficulty) }
+        let arabic = index.bundle.language.code == "ar"
+        var items: [SessionItem] = []
+        for ex in chosen {
+            let presentation: PresentationMode
+            switch ex.type {
+            case .mcq: presentation = .choices
+            case .match: presentation = .pairs
+            case .reorder: presentation = .tokens
+            case .fillBlank: presentation = (arabic && ex.options != nil) ? .choices : .typed
+            case .translation, .freeAnswer: presentation = .typed
+            }
+            used.insert(ex.id)
+            items.append(SessionItem(id: rng.nextUUID(), kind: .exercise(exerciseId: ex.id), role: .assessment,
+                                     presentation: presentation, hintAllowed: false))
+        }
+        return makePlan(type: .assessment, slot: slot, lessonId: nil, newUnitIds: [], items: items, examModule: module)
+    }
+
+    /// After a failed exam: the weakest notions of the module, with their rule, before the exam comes back.
+    mutating func planModuleReview(module: Int, slot: SessionSlot?) -> SessionPlan {
+        let lessons = doneLessonIds
+        let moduleUnits = Set(index.lessonsInOrder.filter { $0.module == module }.flatMap { $0.introduces })
+        let weakest = moduleUnits.filter { index.unitsById[$0] != nil }
+            .sorted { (score($0), $0) < (score($1), $1) }
+        let n = exerciseCount(cardSeconds: 0)
+        var cards: [SessionItem] = []
+        if let rule = weakest.first(where: { index.unitsById[$0]?.kind != .vocabulary }) {
+            cards.append(card(.ruleCard(unitId: rule), role: .oldReview))
+        }
+        var items = fillGroup(units: Array(weakest.prefix(8)), count: n, role: .recentReview, mode: .practice, lessons: lessons)
+        if items.count < n {
+            allowRepeats = true
+            items += fillGroup(units: weakest, count: n - items.count, role: .recentReview, mode: .byMastery, lessons: lessons)
+        }
+        return makePlan(type: .consolidation, slot: slot, lessonId: nil, newUnitIds: [], items: cards + sortGuided(items))
+    }
+
     // MARK: Assessment
 
     mutating func planAssessment() -> SessionPlan {
@@ -552,7 +639,20 @@ extension LearningEngine {
         // Probe planner: facts about the day (it is cheap and not used to build items).
         let probe = SessionPlanner(engine: self, learner: learner, now: now, day: day, seed: seed, salt: "probe")
         let flooded = probe.isFlooded
-        let learnedToday = probe.lessonsLearnedToday >= max(1, configuration.maxNewLessonsPerDay)
+
+        // End of a module: its exam must be passed before the next module opens. After a failed exam, the next
+        // session revises the module, then the exam comes back.
+        if requested != .extra, let module = selector.moduleAwaitingExam(learner) {
+            var planner = SessionPlanner(engine: self, learner: learner, now: now, day: day, seed: seed, salt: "exam\(module)",
+                                         excluded: excluded)
+            if learner.lastFailedExamModule == module { return planner.planModuleReview(module: module, slot: slot) }
+            return planner.planModuleExam(module: module, slot: slot)
+        }
+
+        // The three sessions of the day differ: morning and afternoon teach (after recalling what came just
+        // before), the evening reviews the day and older material, and teaches only if nothing was learned today.
+        let maxNew = max(1, configuration.maxNewLessonsPerDay)
+        let learnedToday = slot == .evening ? probe.lessonsLearnedToday > 0 : probe.lessonsLearnedToday >= maxNew
         let pending = selector.firstPending(learner)
         var blocker: String?
         var lesson: Lesson?
@@ -651,8 +751,44 @@ extension LearningEngine {
     /// Records the completion of a session in the learner snapshot: the lesson taught by a learning session becomes
     /// "completed", an assessment sets `lastAssessmentAt`. The app calls this when the learner finishes a session.
     public func registerCompletion(of plan: SessionPlan, to learner: inout LearnerSnapshot, now: Date) {
+        _ = registerCompletion(of: plan, attempts: nil, to: &learner, now: now)
+    }
+
+    /// Same, judging the lesson and the exam on the session's attempts: a lesson is validated only with
+    /// `lessonPassRate` of first-try successes on its exercises (else it is retaken), a module exam opens the
+    /// next module with `examPassRate`.
+    @discardableResult
+    public func registerCompletion(of plan: SessionPlan, attempts: [AttemptRecord]?, to learner: inout LearnerSnapshot,
+                                   now: Date) -> SessionOutcome {
         if learner.startedAt == nil { learner.startedAt = now }
-        if plan.type == .learning, let lessonId = plan.lessonId { learner.completedLessonIds.insert(lessonId) }
-        if plan.type == .assessment { learner.lastAssessmentAt = now }
+        var outcome = SessionOutcome()
+        if plan.type == .learning, let lessonId = plan.lessonId {
+            var firstTries: [AttemptRecord] = []
+            var seen = Set<String>()
+            for a in attempts ?? [] where !a.isRemediation && a.result != .pending && seen.insert(a.exerciseId).inserted {
+                if index.exercisesById[a.exerciseId]?.lessonId == lessonId { firstTries.append(a) }
+            }
+            let rate = firstTries.isEmpty ? 1 : Double(firstTries.filter { $0.result.countsAsSuccess }.count) / Double(firstTries.count)
+            let passed = attempts == nil || rate >= configuration.lessonPassRate - 1e-9
+            outcome.lessonScore = attempts == nil ? nil : rate
+            outcome.lessonPassed = passed
+            if passed { learner.completedLessonIds.insert(lessonId) }
+        }
+        if plan.type == .assessment {
+            learner.lastAssessmentAt = now
+            if let module = plan.examModule {
+                let graded = (attempts ?? []).filter { $0.result != .pending }
+                let score = graded.isEmpty ? 0 : Double(graded.filter { $0.result.countsAsSuccess }.count) / Double(graded.count)
+                let passed = score >= configuration.examPassRate - 1e-9
+                outcome.examModule = module
+                outcome.examScore = score
+                outcome.examPassed = passed
+                if passed { learner.passedModules.insert(module); learner.lastFailedExamModule = nil }
+                else { learner.lastFailedExamModule = module }
+                return outcome
+            }
+        }
+        if learner.lastFailedExamModule != nil && plan.examModule == nil { learner.lastFailedExamModule = nil }
+        return outcome
     }
 }

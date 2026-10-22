@@ -50,6 +50,20 @@ struct LessonSelector {
             .sorted { ($0.score, $0.unitId) < ($1.score, $1.unitId) }
     }
 
+    /// The first module whose lessons are all done (at least one really studied) but whose exam is not passed,
+    /// when a later lesson is waiting for it. Modules skipped by the placement test need no exam.
+    func moduleAwaitingExam(_ learner: LearnerSnapshot) -> Int? {
+        let modules = Array(Set(index.lessonsInOrder.map { $0.module })).sorted()
+        for module in modules where !learner.passedModules.contains(module) {
+            let lessons = index.lessonsInOrder.filter { $0.module == module }
+            guard !lessons.isEmpty else { continue }
+            if !lessons.allSatisfy({ isDone($0, learner) }) { return nil }
+            if lessons.allSatisfy({ learner.placedLessonIds.contains($0.id) }) { continue }
+            return module
+        }
+        return nil
+    }
+
     func nextLesson(_ learner: LearnerSnapshot, now: Date) -> Lesson? {
         index.lessonsInOrder.first { !isDone($0, learner) && blockers(of: $0, learner: learner, now: now).isEmpty }
     }

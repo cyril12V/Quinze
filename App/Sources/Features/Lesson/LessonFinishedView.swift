@@ -28,6 +28,7 @@ struct LessonFinishedView: View {
             VStack(alignment: .leading, spacing: Theme.Spacing.l) {
                 header
                     .qAppear(0)
+                verdict
                 statsGrid
                     .qAppear(1)
                 workedUnits
@@ -98,6 +99,45 @@ struct LessonFinishedView: View {
         return parts.joined(separator: " · ")
     }
 
+    // MARK: Verdict (lesson validated, exam passed)
+
+    @ViewBuilder private var verdict: some View {
+        if let outcome = controller.outcome {
+            if let passed = outcome.lessonPassed, let score = outcome.lessonScore {
+                verdictCard(ok: passed,
+                            title: passed ? "Leçon validée" : "Leçon à revoir",
+                            text: passed
+                                ? "\(FrenchLabels.percent(score)) de bonnes réponses du premier coup. La suite est ouverte."
+                                : "\(FrenchLabels.percent(score)) du premier coup, il en faut 80 %. On reprend cette leçon à la prochaine séance, avec le cours : rien n'est perdu.")
+            } else if let passed = outcome.examPassed, let score = outcome.examScore {
+                verdictCard(ok: passed,
+                            title: passed ? "Contrôle réussi" : "Contrôle pas encore réussi",
+                            text: passed
+                                ? "\(FrenchLabels.percent(score)) : le module est consolidé, le suivant est ouvert."
+                                : "\(FrenchLabels.percent(score)), il faut 80 %. Prochaine séance : révision ciblée de ce module, puis tu repasses le contrôle.")
+            }
+        }
+    }
+
+    private func verdictCard(ok: Bool, title: String, text: String) -> some View {
+        PastelCard(ok ? .green : .yellow, padding: 18) {
+            HStack(alignment: .top, spacing: Theme.Spacing.m) {
+                QIconView(icon: ok ? .check : .refresh, size: 18)
+                    .foregroundStyle(Theme.onInk)
+                    .frame(width: 38, height: 38)
+                    .background(Circle().fill(Theme.ink))
+                VStack(alignment: .leading, spacing: Theme.Spacing.xs) {
+                    CardTitle(title)
+                    Text(text)
+                        .font(Theme.Font.callout)
+                        .foregroundStyle(Theme.onPastelSecondary)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+        }
+        .accessibilityElement(children: .combine)
+    }
+
     // MARK: Numbers
 
     private var statsGrid: some View {
@@ -111,7 +151,7 @@ struct LessonFinishedView: View {
     }
 
     @ViewBuilder private var workedUnits: some View {
-        let titles: [String] = summary.unitIdsWorked.compactMap { env.store.unit($0)?.title }
+        let titles: [String] = summary.unitIdsWorked.compactMap { controller.unit($0)?.title }
         if !titles.isEmpty {
             VStack(alignment: .leading, spacing: Theme.Spacing.m) {
                 QSectionTitle("Ce que tu as travaillé")
@@ -222,7 +262,7 @@ struct LessonFinishedView: View {
                         Text("Tes apps restent verrouillées")
                             .font(Theme.Font.headline)
                             .foregroundStyle(Theme.onInk)
-                        Text("Cette session ne concerne pas le créneau en cours. Termine la leçon du créneau pour les débloquer, ou utilise le déblocage d'urgence depuis l'accueil.")
+                        Text(remainingText)
                             .font(Theme.Font.callout)
                             .foregroundStyle(Theme.onInk)
                     }
@@ -230,6 +270,17 @@ struct LessonFinishedView: View {
                 }
             }
         }
+    }
+
+    /// Subjects of the slot still to do, from the home blocks.
+    private var remainingText: String {
+        guard let slot = controller.slot,
+              let state = env.study.today.slots.first(where: { $0.slot == slot }) else {
+            return "Termine les matières du créneau pour les débloquer, ou utilise le déblocage d'urgence depuis l'accueil."
+        }
+        let left = state.parts.filter { $0.status != .completed && $0.subject != controller.subject }.map { $0.subject.displayName.lowercased() }
+        guard !left.isEmpty else { return "Elles se débloquent dans un instant." }
+        return "Il reste : \(left.joined(separator: ", ")). Reviens à l'accueil et touche le bloc suivant."
     }
 
     private func inkCard<Content: View>(icon: QIcon, @ViewBuilder content: () -> Content) -> some View {

@@ -50,7 +50,7 @@ Ce qu'il faut savoir :
 
 | Matière | Dans l'app | Programme |
 |---|---|---|
-| Anglais | m01–m09 : 68 leçons, 767 exercices, 469 fiches | A1 → B1 ; m10 (conditions), m11 (passif, discours rapporté) et m12 (anglais pro) en cours de rédaction |
+| Anglais | m01–m12 : 92 leçons, 1 280 exercices, 698 fiches | A1 → B2 : bases, temps, récits (m09), conditions (m10), passif et discours rapporté (m11), anglais pro et nuances (m12) |
 | Arabe | m01–m04 : 32 leçons, 689 exercices, 283 fiches | m01 lettres et 4 formes · m02 voyelles et signes (harakat) · m03 lire vite · m04 mots de l'Église copte ; égyptien prévu ensuite |
 | Culture G | m01–m05 : 40 leçons, 852 exercices, 397 fiches | m01 histoire · m02 géographie · m03 sciences · m04 économie et politique · m05 arts, littérature, philosophie |
 

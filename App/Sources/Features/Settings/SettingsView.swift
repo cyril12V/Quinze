@@ -34,6 +34,7 @@ struct SettingsView: View {
                 restrictionSection
                 AppearanceSettingsSection()
                 VoiceSettingsSection()
+                AISettingsSection()
                 if env.auth.isLocalMode { localAccountSection } else { accountSection }
                 aboutSection
             }

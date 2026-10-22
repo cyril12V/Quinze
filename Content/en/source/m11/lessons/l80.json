@@ -1,0 +1,1009 @@
+{
+ "lessonId": "en.l80",
+ "exercises": [
+  {
+   "id": "en.l80.e01",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.journalist",
+    "en.v.article"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis le bon pronom relatif.",
+   "prompt": "The journalist ___ wrote this article lives in Lyon.",
+   "promptLanguage": "en",
+   "options": [
+    "who",
+    "which",
+    "whose",
+    "where"
+   ],
+   "answer": "who",
+   "acceptedAnswers": [
+    "who"
+   ],
+   "hint": "Une personne : quel pronom la remplace ?",
+   "explanation": "Le pronom relatif remplace the journalist, une personne, et il est le sujet de wrote : on utilise who (ou that). Which est réservé aux choses.",
+   "tip": "Personne → who ; chose → which ; les deux → that.",
+   "extraExample": {
+    "text": "I know a woman who speaks five languages.",
+    "translation": "Je connais une femme qui parle cinq langues."
+   },
+   "errorPatterns": [
+    {
+     "equals": "which",
+     "category": "grammar",
+     "feedback": "Which ne s'utilise pas pour une personne : who (ou that)."
+    },
+    {
+     "equals": "whose",
+     "category": "grammar",
+     "feedback": "Whose exprime la possession (dont le, dont la). Ici le pronom est le sujet de wrote : who."
+    },
+    {
+     "equals": "where",
+     "category": "grammar",
+     "feedback": "Where s'utilise pour un lieu, pas pour une personne."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e02",
+   "unitIds": [
+    "en.v.journalist",
+    "en.v.newspaper",
+    "en.v.article",
+    "en.v.headline",
+    "en.v.website"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque mot anglais à sa traduction.",
+   "prompt": "Les mots de la presse",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "journalist",
+     "right": "journaliste"
+    },
+    {
+     "left": "newspaper",
+     "right": "journal (quotidien)"
+    },
+    {
+     "left": "article",
+     "right": "article"
+    },
+    {
+     "left": "headline",
+     "right": "gros titre"
+    },
+    {
+     "left": "website",
+     "right": "site web"
+    }
+   ],
+   "answer": "journalist = journaliste ; newspaper = journal (quotidien) ; article = article ; headline = gros titre ; website = site web",
+   "acceptedAnswers": [],
+   "explanation": "Newspaper est le journal qu'on lit chaque jour ; un journal intime se dit diary. Le headline est le titre en grand qui ouvre un article de presse.",
+   "tip": "Un newspaper contient des articles ; chaque article a un headline.",
+   "extraExample": {
+    "text": "The headline was on the front page of every newspaper.",
+    "translation": "Le gros titre était à la une de tous les journaux."
+   }
+  },
+  {
+   "id": "en.l80.e03",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.article"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis le bon pronom relatif.",
+   "prompt": "This is the article ___ I read yesterday.",
+   "promptLanguage": "en",
+   "options": [
+    "that",
+    "what",
+    "who",
+    "where"
+   ],
+   "answer": "that",
+   "acceptedAnswers": [
+    "that"
+   ],
+   "explanation": "Le pronom relatif remplace the article (une chose) et reprend le complément de I read : that (ou which). What ne s'utilise jamais pour traduire « que » dans une relative.",
+   "tip": "« Que » dans une relative = that ou which, jamais what.",
+   "extraExample": {
+    "text": "The film that we saw was too long.",
+    "translation": "Le film que nous avons vu était trop long."
+   },
+   "errorPatterns": [
+    {
+     "equals": "what",
+     "category": "word_confusion",
+     "feedback": "« Que » dans une relative ne se traduit jamais par what : that (ou which)."
+    },
+    {
+     "equals": "who",
+     "category": "grammar",
+     "feedback": "Who est réservé aux personnes ; un article est une chose : that."
+    },
+    {
+     "equals": "where",
+     "category": "grammar",
+     "feedback": "Where s'utilise pour un lieu, pas pour un article."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e04",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.website"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le bon pronom relatif.",
+   "prompt": "The website ___ publishes the best articles is free.",
+   "promptLanguage": "en",
+   "options": [
+    "which",
+    "who",
+    "whose",
+    "where"
+   ],
+   "answer": "which",
+   "acceptedAnswers": [
+    "which",
+    "that"
+   ],
+   "hint": "Un site web est une chose.",
+   "explanation": "Le pronom relatif remplace the website, une chose, et il est le sujet de publishes : which (ou that). Who est réservé aux personnes.",
+   "tip": "Chose + sujet de la relative : which ou that, jamais who.",
+   "extraExample": {
+    "text": "The app that I use every day is free.",
+    "translation": "L'application que j'utilise tous les jours est gratuite."
+   },
+   "errorPatterns": [
+    {
+     "equals": "who",
+     "category": "grammar",
+     "feedback": "Who est réservé aux personnes ; un site web est une chose : which ou that."
+    },
+    {
+     "equals": "whose",
+     "category": "grammar",
+     "feedback": "Whose exprime la possession. Ici le pronom est le sujet de publishes : which."
+    },
+    {
+     "equals": "where",
+     "category": "grammar",
+     "feedback": "Where introduit un lieu avec son propre sujet. Ici le pronom est le sujet de publishes : which."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e05",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.website",
+    "en.v.news"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le bon pronom relatif.",
+   "prompt": "This is the website ___ I read the news every morning.",
+   "promptLanguage": "en",
+   "options": [
+    "where",
+    "which",
+    "who",
+    "whose"
+   ],
+   "answer": "where",
+   "acceptedAnswers": [
+    "where"
+   ],
+   "hint": "Un lieu, même virtuel, avec son propre sujet (I).",
+   "explanation": "Where introduit un lieu, ici un site web, quand la relative a son propre sujet (I read…). Which reprendrait un objet : il faudrait alors une préposition (the website on which I read…).",
+   "tip": "Lieu + sujet + verbe → where.",
+   "extraExample": {
+    "text": "That's the café where we met last year.",
+    "translation": "C'est le café où nous nous sommes rencontrés l'an dernier."
+   },
+   "errorPatterns": [
+    {
+     "equals": "which",
+     "category": "grammar",
+     "feedback": "Which remplace un objet et demanderait une préposition. Pour un lieu avec son propre sujet, on utilise where."
+    },
+    {
+     "equals": "who",
+     "category": "grammar",
+     "feedback": "Who est réservé aux personnes ; ici on parle d'un lieu : where."
+    },
+    {
+     "equals": "whose",
+     "category": "grammar",
+     "feedback": "Whose exprime la possession (dont le, dont la), pas un lieu."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e06",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.source",
+    "en.v.headline",
+    "en.v.news",
+    "en.v.journalist",
+    "en.v.newspaper"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Lis le texte, puis réponds.",
+   "prompt": "What do we learn about the story in the headline?",
+   "promptLanguage": "en",
+   "context": "The newspaper that I read every morning published a strange headline yesterday: « Town without water for a week ». The journalist who wrote the article got the story from a source who works at the water company. But the news was wrong: there was a small problem, and the water came back after two hours.",
+   "options": [
+    "It was wrong.",
+    "It was true.",
+    "It was about a flood.",
+    "It was written by a reader."
+   ],
+   "answer": "It was wrong.",
+   "acceptedAnswers": [
+    "It was wrong."
+   ],
+   "explanation": "Le texte dit que the news was wrong : le gros titre annonçait une semaine sans eau, mais l'eau est revenue après deux heures. L'information venait pourtant d'une source de la compagnie des eaux.",
+   "tip": "Dans un texte, repère le mot qui change tout : but.",
+   "extraExample": {
+    "text": "The man who called me was a journalist.",
+    "translation": "L'homme qui m'a appelé était journaliste."
+   },
+   "errorPatterns": [
+    {
+     "equals": "it was true",
+     "category": "instruction",
+     "feedback": "Le texte dit but the news was wrong : l'information était fausse."
+    },
+    {
+     "equals": "it was about a flood",
+     "category": "instruction",
+     "feedback": "Le texte parle d'une ville sans eau, pas d'une inondation."
+    },
+    {
+     "equals": "it was written by a reader",
+     "category": "instruction",
+     "feedback": "L'article a été écrit par un journaliste (the journalist who wrote the article), pas par un lecteur."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e07",
+   "unitIds": [
+    "en.g35.question_words",
+    "en.v.newspaper"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète avec le bon mot interrogatif.",
+   "prompt": "___ is the editor of this newspaper?",
+   "promptLanguage": "en",
+   "options": [
+    "Who",
+    "What",
+    "Whose",
+    "Where"
+   ],
+   "answer": "Who",
+   "acceptedAnswers": [
+    "Who"
+   ],
+   "hint": "On demande l'identité d'une personne.",
+   "explanation": "On interroge sur une personne avec who. What s'emploie pour les choses, whose pour la possession (à qui est…) et where pour un lieu.",
+   "tip": "Who = qui (personne), what = quoi (chose), whose = à qui.",
+   "extraExample": {
+    "text": "Who wrote this article?",
+    "translation": "Qui a écrit cet article ?"
+   },
+   "errorPatterns": [
+    {
+     "equals": "what",
+     "category": "word_confusion",
+     "feedback": "What s'utilise pour une chose ; pour une personne, on dit who."
+    },
+    {
+     "equals": "whose",
+     "category": "word_confusion",
+     "feedback": "Whose = à qui / de qui (possession). Pour demander « qui est… ? », on dit who."
+    },
+    {
+     "equals": "where",
+     "category": "word_confusion",
+     "feedback": "Where = où. Ici on demande qui est la personne."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e08",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.journalist",
+    "en.v.article",
+    "en.v.newspaper"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Le journaliste qui a écrit cet article travaille pour un journal français.",
+   "promptLanguage": "fr",
+   "answer": "The journalist who wrote this article works for a French newspaper.",
+   "acceptedAnswers": [
+    "The journalist who wrote this article works for a French newspaper.",
+    "The journalist who wrote this article works for a French paper.",
+    "The journalist who wrote the article works for a French newspaper.",
+    "The journalist who wrote the article works for a French paper.",
+    "The journalist that wrote this article works for a French newspaper.",
+    "The journalist that wrote this article works for a French paper.",
+    "The journalist that wrote the article works for a French newspaper.",
+    "The journalist that wrote the article works for a French paper."
+   ],
+   "hint": "N'oublie pas le -s de la 3e personne.",
+   "explanation": "Who remplace the journalist, sujet de wrote, et la relative est indispensable : pas de virgule. Works prend un -s à la 3e personne du singulier.",
+   "tip": "Personne → who ou that ; et n'oublie pas le -s de works.",
+   "extraExample": {
+    "text": "The man who lives next door is a journalist.",
+    "translation": "L'homme qui habite à côté est journaliste."
+   },
+   "errorPatterns": [
+    {
+     "contains": "journalist which",
+     "category": "grammar",
+     "feedback": "Which ne s'utilise pas pour une personne : who ou that."
+    },
+    {
+     "contains": "who he wrote",
+     "category": "grammar",
+     "feedback": "Who remplace déjà the journalist : on n'ajoute pas he."
+    },
+    {
+     "contains": "article work for",
+     "category": "conjugation",
+     "feedback": "Au présent simple, avec he / she, le verbe prend un -s : works."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e09",
+   "unitIds": [
+    "en.g58.passive_present_past",
+    "en.v.website"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne forme.",
+   "prompt": "Many articles on this website ___ by readers.",
+   "promptLanguage": "en",
+   "options": [
+    "are written",
+    "write",
+    "is written",
+    "were write"
+   ],
+   "answer": "are written",
+   "acceptedAnswers": [
+    "are written"
+   ],
+   "explanation": "Les articles ne s'écrivent pas tout seuls : c'est un passif. Au présent, avec un sujet pluriel (many articles) : are + participe passé (written).",
+   "tip": "Passif au présent, sujet pluriel : are + participe passé.",
+   "extraExample": {
+    "text": "Spanish is spoken in many countries.",
+    "translation": "On parle espagnol dans beaucoup de pays."
+   },
+   "errorPatterns": [
+    {
+     "equals": "write",
+     "category": "grammar",
+     "feedback": "Sans are, la phrase est active : les articles écriraient quelque chose. Au passif : are written."
+    },
+    {
+     "equals": "is written",
+     "category": "grammar",
+     "feedback": "Many articles est pluriel : are written."
+    },
+    {
+     "equals": "were write",
+     "category": "conjugation",
+     "feedback": "Après be, il faut le participe passé written ; et le présent demande are."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e10",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.news"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète avec le bon verbe.",
+   "prompt": "The news that we hear every day ___ not always good.",
+   "promptLanguage": "en",
+   "options": [
+    "is",
+    "are",
+    "were",
+    "have"
+   ],
+   "answer": "is",
+   "acceptedAnswers": [
+    "is"
+   ],
+   "hint": "News est indénombrable.",
+   "explanation": "News se termine par -s mais est indénombrable : le verbe est au singulier (is). Pour une seule information, on dit a piece of news.",
+   "tip": "The news is…, jamais the news are…",
+   "extraExample": {
+    "text": "The news is on at nine o'clock.",
+    "translation": "Le journal télévisé est à neuf heures."
+   },
+   "errorPatterns": [
+    {
+     "equals": "are",
+     "category": "grammar",
+     "feedback": "News est indénombrable : le verbe est au singulier, is."
+    },
+    {
+     "equals": "were",
+     "category": "grammar",
+     "feedback": "News est singulier, et la phrase est au présent (every day) : is."
+    },
+    {
+     "equals": "have",
+     "category": "grammar",
+     "feedback": "Have ne convient pas ici : the news + is."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e11",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.journalist"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Voici la femme dont le fils est journaliste.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "son",
+    "woman",
+    "is",
+    "whose",
+    "This",
+    "a",
+    "the",
+    "journalist",
+    "is"
+   ],
+   "answer": "This is the woman whose son is a journalist",
+   "acceptedAnswers": [
+    "This is the woman whose son is a journalist"
+   ],
+   "explanation": "Whose remplace « dont le / dont la » et se place directement devant le nom (son) : the woman whose son. On n'ajoute pas de possessif en plus.",
+   "tip": "Whose + nom : the woman whose son…",
+   "extraExample": {
+    "text": "He's a writer whose books are read all over the world.",
+    "translation": "C'est un écrivain dont les livres sont lus dans le monde entier."
+   }
+  },
+  {
+   "id": "en.l80.e12",
+   "unitIds": [
+    "en.g61.defining_relative_clauses"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque expression anglaise à sa traduction.",
+   "prompt": "Qui, que, dont, où ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "the man who called",
+     "right": "l'homme qui a appelé"
+    },
+    {
+     "left": "the article that I read",
+     "right": "l'article que j'ai lu"
+    },
+    {
+     "left": "the woman whose son…",
+     "right": "la femme dont le fils…"
+    },
+    {
+     "left": "the city where I live",
+     "right": "la ville où j'habite"
+    },
+    {
+     "left": "the website which is free",
+     "right": "le site web qui est gratuit"
+    }
+   ],
+   "answer": "the man who called = l'homme qui a appelé ; the article that I read = l'article que j'ai lu ; the woman whose son… = la femme dont le fils… ; the city where I live = la ville où j'habite ; the website which is free = le site web qui est gratuit",
+   "acceptedAnswers": [],
+   "explanation": "Qui (sujet) se dit who pour une personne, which ou that pour une chose ; que (complément) se dit that ou which ; « dont le / dont la » se dit whose ; « où » se dit where.",
+   "tip": "Personne → who, chose → which, les deux → that, possession → whose, lieu → where.",
+   "extraExample": {
+    "text": "The book that I'm reading is great.",
+    "translation": "Le livre que je lis est génial."
+   }
+  },
+  {
+   "id": "en.l80.e13",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.website",
+    "en.v.look_for",
+    "en.v.news"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Je cherche un site web où je peux lire l'actualité gratuitement.",
+   "promptLanguage": "fr",
+   "answer": "I'm looking for a website where I can read the news for free.",
+   "acceptedAnswers": [
+    "I'm looking for a website where I can read the news for free.",
+    "I'm looking for a website where I can read the news free of charge.",
+    "I'm looking for a website where I can read the latest news for free.",
+    "I'm looking for a website where I can read the latest news free of charge.",
+    "I am looking for a website where I can read the news for free.",
+    "I am looking for a website where I can read the news free of charge.",
+    "I am looking for a website where I can read the latest news for free.",
+    "I am looking for a website where I can read the latest news free of charge."
+   ],
+   "hint": "Un site web est un lieu virtuel.",
+   "explanation": "Where introduit un lieu, même virtuel, quand la relative a son propre sujet (I can read…). Pour « l'actualité », on dit the news ; « gratuitement » se dit for free.",
+   "tip": "Lieu + sujet + verbe → where ; gratuitement = for free.",
+   "extraExample": {
+    "text": "This is the site where I buy my books.",
+    "translation": "C'est le site où j'achète mes livres."
+   },
+   "errorPatterns": [
+    {
+     "contains": "website which i can read",
+     "category": "grammar",
+     "feedback": "Pour un lieu avec son propre sujet, on utilise where : a website where I can read…"
+    },
+    {
+     "contains": "where i can to read",
+     "category": "grammar",
+     "feedback": "Après can, pas de to : I can read."
+    },
+    {
+     "contains": "a news",
+     "category": "grammar",
+     "feedback": "News est indénombrable : on ne dit pas a news (mais a piece of news)."
+    },
+    {
+     "contains": "the news are",
+     "category": "grammar",
+     "feedback": "News est indénombrable : le verbe est au singulier."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e14",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.headline",
+    "en.v.election"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour traduire.",
+   "prompt": "Le gros titre que j'ai lu parlait des élections.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "headline",
+    "was",
+    "elections",
+    "that",
+    "The",
+    "read",
+    "about",
+    "I",
+    "the"
+   ],
+   "answer": "The headline that I read was about the elections",
+   "acceptedAnswers": [
+    "The headline that I read was about the elections"
+   ],
+   "explanation": "Que se traduit par that (ou which) : the headline that I read. Le pronom remplace déjà the headline, donc on n'ajoute pas it. Was about = parlait de.",
+   "tip": "Chose + complément : the headline that I read.",
+   "extraExample": {
+    "text": "The film that we watched was about a journalist.",
+    "translation": "Le film que nous avons regardé parlait d'un journaliste."
+   }
+  },
+  {
+   "id": "en.l80.e15",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.source"
+   ],
+   "type": "translation",
+   "difficulty": 3,
+   "instruction": "Traduis en français.",
+   "prompt": "I don't trust websites that don't give their sources.",
+   "promptLanguage": "en",
+   "answer": "Je ne fais pas confiance aux sites web qui ne donnent pas leurs sources.",
+   "acceptedAnswers": [
+    "Je ne fais pas confiance aux sites web qui ne donnent pas leurs sources.",
+    "Je ne fais pas confiance aux sites web qui ne citent pas leurs sources.",
+    "Je ne fais pas confiance aux sites web qui ne indiquent pas leurs sources.",
+    "Je ne fais pas confiance aux sites web qui ne mentionnent pas leurs sources.",
+    "Je ne fais pas confiance aux sites web qui ne précisent pas leurs sources.",
+    "Je ne fais pas confiance aux sites qui ne donnent pas leurs sources.",
+    "Je ne fais pas confiance aux sites qui ne citent pas leurs sources.",
+    "Je ne fais pas confiance aux sites qui ne indiquent pas leurs sources.",
+    "Je ne fais pas confiance aux sites qui ne mentionnent pas leurs sources.",
+    "Je ne fais pas confiance aux sites qui ne précisent pas leurs sources.",
+    "Je ne fais pas confiance aux sites internet qui ne donnent pas leurs sources.",
+    "Je ne fais pas confiance aux sites internet qui ne citent pas leurs sources.",
+    "Je ne fais pas confiance aux sites internet qui ne indiquent pas leurs sources.",
+    "Je ne fais pas confiance aux sites internet qui ne mentionnent pas leurs sources.",
+    "Je ne fais pas confiance aux sites internet qui ne précisent pas leurs sources.",
+    "Je ne me fie pas aux sites web qui ne donnent pas leurs sources.",
+    "Je ne me fie pas aux sites web qui ne citent pas leurs sources.",
+    "Je ne me fie pas aux sites web qui ne indiquent pas leurs sources.",
+    "Je ne me fie pas aux sites web qui ne mentionnent pas leurs sources.",
+    "Je ne me fie pas aux sites web qui ne précisent pas leurs sources.",
+    "Je ne me fie pas aux sites qui ne donnent pas leurs sources.",
+    "Je ne me fie pas aux sites qui ne citent pas leurs sources.",
+    "Je ne me fie pas aux sites qui ne indiquent pas leurs sources.",
+    "Je ne me fie pas aux sites qui ne mentionnent pas leurs sources.",
+    "Je ne me fie pas aux sites qui ne précisent pas leurs sources.",
+    "Je ne me fie pas aux sites internet qui ne donnent pas leurs sources.",
+    "Je ne me fie pas aux sites internet qui ne citent pas leurs sources.",
+    "Je ne me fie pas aux sites internet qui ne indiquent pas leurs sources.",
+    "Je ne me fie pas aux sites internet qui ne mentionnent pas leurs sources.",
+    "Je ne me fie pas aux sites internet qui ne précisent pas leurs sources.",
+    "Je me méfie des sites web qui ne donnent pas leurs sources.",
+    "Je me méfie des sites web qui ne citent pas leurs sources.",
+    "Je me méfie des sites web qui ne indiquent pas leurs sources.",
+    "Je me méfie des sites web qui ne mentionnent pas leurs sources.",
+    "Je me méfie des sites web qui ne précisent pas leurs sources.",
+    "Je me méfie des sites qui ne donnent pas leurs sources.",
+    "Je me méfie des sites qui ne citent pas leurs sources.",
+    "Je me méfie des sites qui ne indiquent pas leurs sources.",
+    "Je me méfie des sites qui ne mentionnent pas leurs sources.",
+    "Je me méfie des sites qui ne précisent pas leurs sources.",
+    "Je me méfie des sites internet qui ne donnent pas leurs sources.",
+    "Je me méfie des sites internet qui ne citent pas leurs sources.",
+    "Je me méfie des sites internet qui ne indiquent pas leurs sources.",
+    "Je me méfie des sites internet qui ne mentionnent pas leurs sources.",
+    "Je me méfie des sites internet qui ne précisent pas leurs sources."
+   ],
+   "explanation": "That est ici le sujet de la relative : « les sites web qui ne donnent pas leurs sources ». Don't trust se traduit par « ne pas faire confiance » ou « se méfier ».",
+   "tip": "That sujet (chose) = « qui » en français.",
+   "extraExample": {
+    "text": "Websites that publish fake news lose their readers.",
+    "translation": "Les sites qui publient de fausses informations perdent leurs lecteurs."
+   }
+  },
+  {
+   "id": "en.l80.e16",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.reader",
+    "en.v.newspaper"
+   ],
+   "type": "fill_blank",
+   "difficulty": 4,
+   "instruction": "Complète avec le bon pronom relatif.",
+   "prompt": "The reader ___ letter was published in the newspaper is my neighbour.",
+   "promptLanguage": "en",
+   "options": [
+    "whose",
+    "who",
+    "that",
+    "which"
+   ],
+   "answer": "whose",
+   "acceptedAnswers": [
+    "whose"
+   ],
+   "hint": "La lettre appartient au lecteur.",
+   "explanation": "Whose exprime la possession (« dont la lettre » = la lettre de ce lecteur) et se place directement devant le nom : whose letter. Who et that ne marquent pas la possession.",
+   "tip": "Whose + nom = dont le / dont la + nom.",
+   "extraExample": {
+    "text": "I met a girl whose father is a famous journalist.",
+    "translation": "J'ai rencontré une fille dont le père est un journaliste célèbre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "who",
+     "category": "grammar",
+     "feedback": "Who remplace une personne (sujet), mais ici il faut exprimer la possession : whose letter."
+    },
+    {
+     "equals": "that",
+     "category": "grammar",
+     "feedback": "That ne marque pas la possession. « Dont la lettre » = whose letter."
+    },
+    {
+     "equals": "which",
+     "category": "grammar",
+     "feedback": "Which est pour les choses ; la possession se dit whose."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e17",
+   "unitIds": [
+    "en.g60.have_something_done",
+    "en.g61.defining_relative_clauses",
+    "en.v.repair"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Voici le magasin où j'ai fait réparer mon téléphone.",
+   "promptLanguage": "fr",
+   "answer": "This is the shop where I had my phone repaired.",
+   "acceptedAnswers": [
+    "This is the shop where I had my phone repaired.",
+    "This is the shop where I had my phone fixed.",
+    "This is the shop where I had my mobile repaired.",
+    "This is the shop where I had my mobile fixed.",
+    "This is the shop where I got my phone repaired.",
+    "This is the shop where I got my phone fixed.",
+    "This is the shop where I got my mobile repaired.",
+    "This is the shop where I got my mobile fixed.",
+    "This is the store where I had my phone repaired.",
+    "This is the store where I had my phone fixed.",
+    "This is the store where I had my mobile repaired.",
+    "This is the store where I had my mobile fixed.",
+    "This is the store where I got my phone repaired.",
+    "This is the store where I got my phone fixed.",
+    "This is the store where I got my mobile repaired.",
+    "This is the store where I got my mobile fixed.",
+    "That is the shop where I had my phone repaired.",
+    "That is the shop where I had my phone fixed.",
+    "That is the shop where I had my mobile repaired.",
+    "That is the shop where I had my mobile fixed.",
+    "That is the shop where I got my phone repaired.",
+    "That is the shop where I got my phone fixed.",
+    "That is the shop where I got my mobile repaired.",
+    "That is the shop where I got my mobile fixed.",
+    "That is the store where I had my phone repaired.",
+    "That is the store where I had my phone fixed.",
+    "That is the store where I had my mobile repaired.",
+    "That is the store where I had my mobile fixed.",
+    "That is the store where I got my phone repaired.",
+    "That is the store where I got my phone fixed.",
+    "That is the store where I got my mobile repaired.",
+    "That is the store where I got my mobile fixed.",
+    "Here is the shop where I had my phone repaired.",
+    "Here is the shop where I had my phone fixed.",
+    "Here is the shop where I had my mobile repaired.",
+    "Here is the shop where I had my mobile fixed.",
+    "Here is the shop where I got my phone repaired.",
+    "Here is the shop where I got my phone fixed.",
+    "Here is the shop where I got my mobile repaired.",
+    "Here is the shop where I got my mobile fixed.",
+    "Here is the store where I had my phone repaired.",
+    "Here is the store where I had my phone fixed.",
+    "Here is the store where I had my mobile repaired.",
+    "Here is the store where I had my mobile fixed.",
+    "Here is the store where I got my phone repaired.",
+    "Here is the store where I got my phone fixed.",
+    "Here is the store where I got my mobile repaired.",
+    "Here is the store where I got my mobile fixed."
+   ],
+   "hint": "Lieu : where. Faire faire : have + objet + participe passé.",
+   "explanation": "Where introduit le magasin (un lieu) et est suivi de son propre sujet (I). Dans la relative, « j'ai fait réparer mon téléphone » = I had my phone repaired : have + objet + participe passé.",
+   "tip": "Lieu → where ; faire faire → have + objet + participe passé.",
+   "extraExample": {
+    "text": "That's the garage where I had my car serviced.",
+    "translation": "C'est le garage où j'ai fait réviser ma voiture."
+   },
+   "errorPatterns": [
+    {
+     "contains": "where i made",
+     "category": "word_confusion",
+     "feedback": "« Faire faire » ne se traduit pas par make : I had my phone repaired."
+    },
+    {
+     "contains": "had repaired my phone",
+     "category": "grammar",
+     "feedback": "Le participe passé se place après l'objet : I had my phone repaired."
+    },
+    {
+     "contains": "shop which i had",
+     "category": "grammar",
+     "feedback": "Pour un lieu avec son propre sujet, on utilise where : the shop where I had…"
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e18",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.reader",
+    "en.v.newspaper"
+   ],
+   "type": "translation",
+   "difficulty": 4,
+   "instruction": "Traduis en anglais.",
+   "prompt": "Les lecteurs qui achètent ce journal sont surtout jeunes.",
+   "promptLanguage": "fr",
+   "answer": "The readers who buy this newspaper are mostly young.",
+   "acceptedAnswers": [
+    "The readers who buy this newspaper are mostly young.",
+    "The readers who buy this newspaper are mainly young.",
+    "The readers who buy this paper are mostly young.",
+    "The readers who buy this paper are mainly young.",
+    "The readers that buy this newspaper are mostly young.",
+    "The readers that buy this newspaper are mainly young.",
+    "The readers that buy this paper are mostly young.",
+    "The readers that buy this paper are mainly young.",
+    "Readers who buy this newspaper are mostly young.",
+    "Readers who buy this newspaper are mainly young.",
+    "Readers who buy this paper are mostly young.",
+    "Readers who buy this paper are mainly young.",
+    "Readers that buy this newspaper are mostly young.",
+    "Readers that buy this newspaper are mainly young.",
+    "Readers that buy this paper are mostly young.",
+    "Readers that buy this paper are mainly young."
+   ],
+   "hint": "Readers est pluriel.",
+   "explanation": "Who (ou that) remplace readers, sujet de buy. Readers est pluriel : le verbe n'a pas de -s (buy) et on dit are. Surtout se dit mostly ou mainly.",
+   "tip": "Sujet pluriel : pas de -s au verbe (readers buy).",
+   "extraExample": {
+    "text": "The people who live here are very friendly.",
+    "translation": "Les gens qui habitent ici sont très sympathiques."
+   },
+   "errorPatterns": [
+    {
+     "contains": "readers which",
+     "category": "grammar",
+     "feedback": "Which ne s'utilise pas pour des personnes : who ou that."
+    },
+    {
+     "contains": "readers who buys",
+     "category": "conjugation",
+     "feedback": "Readers est pluriel : le verbe n'a pas de -s, buy."
+    },
+    {
+     "contains": "readers is",
+     "category": "grammar",
+     "feedback": "Readers est pluriel : are."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e19",
+   "unitIds": [
+    "en.g61.defining_relative_clauses",
+    "en.v.headline"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris la phrase en anglais.",
+   "prompt": "Comment dit-on « C'est le gros titre qui a surpris tout le monde » ?",
+   "promptLanguage": "fr",
+   "answer": "It's the headline that surprised everyone.",
+   "acceptedAnswers": [
+    "It's the headline that surprised everyone.",
+    "It's the headline that surprised everybody.",
+    "It's the headline which surprised everyone.",
+    "It's the headline which surprised everybody.",
+    "It is the headline that surprised everyone.",
+    "It is the headline that surprised everybody.",
+    "It is the headline which surprised everyone.",
+    "It is the headline which surprised everybody.",
+    "That's the headline that surprised everyone.",
+    "That's the headline that surprised everybody.",
+    "That's the headline which surprised everyone.",
+    "That's the headline which surprised everybody.",
+    "That is the headline that surprised everyone.",
+    "That is the headline that surprised everybody.",
+    "That is the headline which surprised everyone.",
+    "That is the headline which surprised everybody.",
+    "This is the headline that surprised everyone.",
+    "This is the headline that surprised everybody.",
+    "This is the headline which surprised everyone.",
+    "This is the headline which surprised everybody."
+   ],
+   "hint": "Un gros titre est une chose, sujet de surprised.",
+   "explanation": "That (ou which) remplace the headline, une chose, sujet de surprised. « Tout le monde » se dit everyone ou everybody.",
+   "tip": "« Qui » (chose, sujet) = that ou which.",
+   "extraExample": {
+    "text": "It's the song that made her famous.",
+    "translation": "C'est la chanson qui l'a rendue célèbre."
+   },
+   "errorPatterns": [
+    {
+     "contains": "headline what",
+     "category": "word_confusion",
+     "feedback": "Dans une relative, « qui » ne se traduit jamais par what : that ou which."
+    },
+    {
+     "contains": "headline who",
+     "category": "grammar",
+     "feedback": "Who est réservé aux personnes : that ou which pour un gros titre."
+    },
+    {
+     "contains": "that it surprised",
+     "category": "grammar",
+     "feedback": "That remplace déjà the headline : on n'ajoute pas it."
+    },
+    {
+     "contains": "all the world",
+     "category": "vocabulary",
+     "feedback": "« Tout le monde » se dit everyone ou everybody, pas all the world."
+    }
+   ]
+  },
+  {
+   "id": "en.l80.e20",
+   "unitIds": [
+    "en.g61.defining_relative_clauses"
+   ],
+   "type": "free_answer",
+   "difficulty": 5,
+   "instruction": "Écris une phrase en anglais avec une relative.",
+   "prompt": "Écris une phrase avec who, which, that, whose ou where : parle d'un journal, d'un site web ou d'un journaliste que tu connais.",
+   "promptLanguage": "fr",
+   "requirements": {
+    "mustInclude": [
+     [
+      "who",
+      "which",
+      "that",
+      "whose",
+      "where"
+     ]
+    ],
+    "minWords": 6
+   },
+   "answer": "I read a newspaper that is published every morning.",
+   "acceptedAnswers": [
+    "I read a newspaper that is published every morning.",
+    "She is a journalist who writes about science.",
+    "This is the website where I read the news.",
+    "He is a reader whose letters are often published."
+   ],
+   "hint": "Personne → who, chose → which / that, lieu → where, possession → whose.",
+   "explanation": "Une relative déterminative précise de qui ou de quoi tu parles : choisis who (personne), which / that (chose), whose (possession) ou where (lieu), sans virgule et sans répéter le sujet.",
+   "tip": "Pas de virgule et pas de pronom en plus : the article that I read.",
+   "extraExample": {
+    "text": "She is the journalist who interviewed the president.",
+    "translation": "C'est la journaliste qui a interviewé le président."
+   },
+   "errorPatterns": [
+    {
+     "contains": "journalist which",
+     "category": "grammar",
+     "feedback": "Which ne s'utilise pas pour une personne : who ou that."
+    },
+    {
+     "contains": "newspaper who",
+     "category": "grammar",
+     "feedback": "Who est réservé aux personnes : which ou that pour un journal."
+    },
+    {
+     "contains": "the news are",
+     "category": "grammar",
+     "feedback": "News est indénombrable : the news is."
+    }
+   ]
+  }
+ ]
+}

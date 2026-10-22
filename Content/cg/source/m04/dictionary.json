@@ -1654,5 +1654,245 @@
    }
   ],
   "unitId": "cg.v.regime_presidentiel"
+ },
+ {
+  "id": "cg.d.mix_energetique",
+  "word": "le mix énergétique",
+  "translation": "répartition des sources d'énergie qu'un pays utilise",
+  "partOfSpeech": "concept",
+  "explanation": "On distingue le mix énergétique, qui regroupe toutes les énergies consommées (pétrole des transports, gaz du chauffage, électricité…), et le mix électrique, qui ne concerne que la production d'électricité. Il dépend des ressources du pays et de ses choix politiques.",
+  "examples": [
+   {
+    "text": "En France, le nucléaire fournit environ deux tiers de l'électricité (années 2020), mais l'électricité ne représente qu'environ un quart de l'énergie finale consommée.",
+    "translation": "Mix électrique et mix énergétique ne se confondent pas."
+   },
+   {
+    "text": "La Norvège produit l'essentiel de son électricité avec l'hydroélectricité, tandis que la Pologne dépend encore beaucoup du charbon.",
+    "translation": "Chaque pays compose son mix avec ce qu'il possède et ce qu'il choisit."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "mix électrique",
+    "note": "ne concerne que la production d'électricité, une partie seulement de l'énergie consommée."
+   }
+  ],
+  "unitId": "cg.v.mix_energetique"
+ },
+ {
+  "id": "cg.d.energies_fossiles",
+  "word": "les énergies fossiles",
+  "translation": "charbon, pétrole et gaz, formés il y a des millions d'années à partir de matière organique",
+  "partOfSpeech": "concept",
+  "explanation": "Elles se sont formées sur des millions d'années à partir de restes d'organismes enfouis. On les brûle bien plus vite qu'elles ne se reconstituent : leurs réserves sont donc limitées. Leur combustion rejette du CO₂, principal gaz à effet de serre d'origine humaine.",
+  "examples": [
+   {
+    "text": "Le charbon alimente les machines à vapeur de la révolution industrielle, puis le pétrole domine le XXe siècle avec l'automobile.",
+    "translation": "Le forage d'Edwin Drake, en 1859 en Pennsylvanie, lance l'industrie pétrolière américaine."
+   },
+   {
+    "text": "Les énergies fossiles fournissent environ 80 % de l'énergie consommée dans le monde (début des années 2020).",
+    "translation": "Leur combustion est la principale cause du réchauffement climatique actuel."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "hydrocarbure",
+    "note": "terme qui désigne le pétrole et le gaz naturel, mais pas le charbon."
+   }
+  ],
+  "unitId": "cg.v.energies_fossiles"
+ },
+ {
+  "id": "cg.d.energies_renouvelables",
+  "word": "les énergies renouvelables",
+  "translation": "énergies issues de sources qui se reconstituent à l'échelle humaine : soleil, vent, eau, biomasse, chaleur de la Terre",
+  "partOfSpeech": "concept",
+  "explanation": "Elles regroupent le solaire, l'éolien, l'hydraulique, la biomasse (bois, biogaz) et la géothermie. Elles émettent peu de CO₂ en fonctionnement, mais le soleil et le vent sont intermittents : il faut des réseaux et du stockage, par exemple des batteries ou des barrages réversibles.",
+  "examples": [
+   {
+    "text": "Le barrage des Trois-Gorges, en Chine, est la plus grande centrale hydroélectrique du monde par sa puissance.",
+    "translation": "L'hydroélectricité reste la première source d'électricité renouvelable dans le monde (début des années 2020)."
+   },
+   {
+    "text": "Dans beaucoup de pays, le solaire et l'éolien sont désormais parmi les moyens les moins chers pour produire de l'électricité neuve.",
+    "translation": "Leur part augmente vite, mais ils dépendent de la météo."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "bas carbone",
+    "note": "qualifie une énergie qui émet peu de CO₂ : les renouvelables et le nucléaire sont bas carbone, mais seules les renouvelables sont renouvelables."
+   }
+  ],
+  "unitId": "cg.v.energies_renouvelables"
+ },
+ {
+  "id": "cg.d.nucleaire",
+  "word": "le nucléaire",
+  "translation": "énergie libérée par la fission de noyaux d'uranium dans un réacteur",
+  "partOfSpeech": "concept",
+  "explanation": "Dans une centrale, la fission de noyaux d'uranium libère de la chaleur, qui produit de la vapeur puis de l'électricité. Le nucléaire émet très peu de CO₂ en fonctionnement, mais il produit des déchets radioactifs à gérer très longtemps et exige des règles de sécurité strictes.",
+  "examples": [
+   {
+    "text": "Les accidents de Tchernobyl (1986) et de Fukushima (2011) ont marqué l'opinion mondiale.",
+    "translation": "Ils ont relancé le débat sur la sécurité des centrales."
+   },
+   {
+    "text": "Après le choc pétrolier de 1973, la France lance en 1974 le plan Messmer pour construire de nombreux réacteurs.",
+    "translation": "Elle compte aujourd'hui plus de cinquante réacteurs en service."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "fusion",
+    "note": "réaction inverse, où des noyaux légers s'assemblent comme dans le Soleil ; elle reste au stade de la recherche."
+   }
+  ],
+  "unitId": "cg.v.nucleaire"
+ },
+ {
+  "id": "cg.d.opep",
+  "word": "l'OPEP",
+  "translation": "Organisation des pays exportateurs de pétrole, fondée en 1960",
+  "partOfSpeech": "organization",
+  "explanation": "Fondée à Bagdad en 1960 par cinq pays (Arabie saoudite, Iran, Irak, Koweït, Venezuela), elle coordonne la production de pétrole de ses membres pour peser sur les prix. Son siège est à Vienne depuis 1965. Elle compte une douzaine de membres dans les années 2020 ; la liste évolue.",
+  "examples": [
+   {
+    "text": "Le Nigeria, dont la capitale est Abuja, est membre de l'OPEP depuis 1971.",
+    "translation": "L'Algérie et la Libye en font aussi partie."
+   },
+   {
+    "text": "En 1973, un embargo des pays arabes producteurs et une hausse des prix décidée par l'OPEP font environ quadrupler le prix du pétrole en quelques mois.",
+    "translation": "L'OPEP s'impose alors comme un acteur majeur de l'économie mondiale."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "OPEP+",
+    "note": "alliance formée en 2016 entre l'OPEP et d'autres producteurs, comme la Russie, pour coordonner la production."
+   }
+  ],
+  "unitId": "cg.v.opep"
+ },
+ {
+  "id": "cg.d.neutralite_carbone",
+  "word": "la neutralité carbone",
+  "translation": "équilibre entre les émissions de gaz à effet de serre et ce que la nature et la technique absorbent",
+  "partOfSpeech": "concept",
+  "explanation": "On l'atteint quand les émissions restantes sont compensées par des absorptions : forêts, sols, océans, captage et stockage du carbone. Le GIEC indique que, pour limiter le réchauffement à 1,5 °C, les émissions mondiales de CO₂ doivent atteindre la neutralité vers 2050.",
+  "examples": [
+   {
+    "text": "L'Union européenne s'est engagée à la neutralité carbone en 2050, la Chine d'ici 2060 et l'Inde en 2070.",
+    "translation": "Les dates varient selon les pays et leurs moyens."
+   },
+   {
+    "text": "Un arbre stocke du carbone en grandissant, mais les forêts ne peuvent pas absorber toutes les émissions humaines.",
+    "translation": "La neutralité suppose d'abord de réduire fortement les émissions."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "zéro émission",
+    "note": "plus strict : aucune émission du tout ; la neutralité accepte des émissions résiduelles si elles sont compensées."
+   }
+  ],
+  "unitId": "cg.v.neutralite_carbone"
+ },
+ {
+  "id": "cg.d.developpement_durable",
+  "word": "le développement durable",
+  "translation": "développement qui répond aux besoins du présent sans compromettre ceux des générations futures",
+  "partOfSpeech": "concept",
+  "explanation": "La définition vient du rapport Brundtland, « Notre avenir à tous » (1987). Le développement durable repose sur trois piliers : économique, social et environnemental. En 2015, l'ONU adopte l'Agenda 2030 et ses 17 objectifs de développement durable (ODD).",
+  "examples": [
+   {
+    "text": "Le Sommet de la Terre de Rio, en 1992, fait entrer le développement durable dans le vocabulaire international.",
+    "translation": "Il débouche notamment sur la convention-cadre de l'ONU sur les changements climatiques."
+   },
+   {
+    "text": "Parmi les 17 ODD figurent la fin de la pauvreté, l'accès à l'eau propre et la lutte contre le changement climatique.",
+    "translation": "Ils doivent être atteints d'ici 2030."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "écologie",
+    "note": "science des relations entre les êtres vivants et leur milieu ; le développement durable associe aussi l'économie et le social."
+   }
+  ],
+  "unitId": "cg.v.developpement_durable"
+ },
+ {
+  "id": "cg.d.transition_demographique",
+  "word": "la transition démographique",
+  "translation": "passage d'une natalité et d'une mortalité élevées à une natalité et une mortalité faibles",
+  "partOfSpeech": "concept",
+  "explanation": "Elle se déroule en plusieurs étapes : la mortalité baisse d'abord (hygiène, vaccination, alimentation) alors que la natalité reste élevée, ce qui fait croître vite la population ; puis la natalité baisse à son tour et la croissance ralentit. L'Europe l'a connue aux XIXe et XXe siècles ; l'Afrique subsaharienne est encore en cours de transition.",
+  "examples": [
+   {
+    "text": "La France est un cas précoce : sa natalité baisse dès la fin du XVIIIe siècle, bien avant celle de ses voisins.",
+    "translation": "Dans la plupart des pays, la baisse de la natalité ne commence qu'aux XIXe ou XXe siècles."
+   },
+   {
+    "text": "La population mondiale passe d'environ 1 milliard vers 1800 à 8 milliards en 2022, selon l'ONU.",
+    "translation": "Elle devrait atteindre un maximum autour de 10 milliards dans les années 2080, avant de se stabiliser ou de reculer légèrement."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "explosion démographique",
+    "note": "expression pour la phase de croissance rapide de la population ; c'est une étape de la transition, pas son ensemble."
+   }
+  ],
+  "unitId": "cg.v.transition_demographique"
+ },
+ {
+  "id": "cg.d.indice_fecondite",
+  "word": "l'indice de fécondité",
+  "translation": "nombre moyen d'enfants par femme",
+  "partOfSpeech": "concept",
+  "explanation": "Il se calcule pour une année donnée. Un indice d'environ 2,1 enfants par femme assure le renouvellement des générations dans un pays développé ; en dessous, la population finit par diminuer sans immigration. Au niveau mondial, il est d'un peu plus de 2 au début des années 2020, contre près de 5 en 1950.",
+  "examples": [
+   {
+    "text": "En France, l'indice est d'environ 1,6 enfant par femme en 2024, contre environ 2 en 2010.",
+    "translation": "La France reste pourtant l'un des pays les plus féconds de l'Union européenne."
+   },
+   {
+    "text": "La Corée du Sud a un indice inférieur à 1, l'un des plus bas du monde, alors que celui du Niger dépasse 6.",
+    "translation": "L'écart illustre les situations très différentes des pays dans la transition démographique."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "taux de natalité",
+    "note": "nombre de naissances pour 1 000 habitants sur un an ; il dépend aussi de l'âge de la population, alors que l'indice de fécondité suit le nombre d'enfants par femme."
+   }
+  ],
+  "unitId": "cg.v.indice_fecondite"
+ },
+ {
+  "id": "cg.d.thomas_malthus",
+  "word": "Thomas Malthus",
+  "translation": "économiste et pasteur britannique (1766-1834), auteur de l'Essai sur le principe de population (1798)",
+  "partOfSpeech": "person",
+  "explanation": "Il soutient que la population tend à croître plus vite (en progression géométrique) que les ressources alimentaires (progression arithmétique), ce qui mènerait à la famine, aux épidémies ou aux guerres. Ses prévisions ne se sont pas réalisées à l'échelle mondiale, grâce aux gains de productivité agricole, mais son nom reste associé aux débats sur la population et les ressources.",
+  "examples": [
+   {
+    "text": "Malthus publie son Essai en 1798, d'abord sans nom d'auteur.",
+    "translation": "En 1805, il devient l'un des premiers professeurs d'économie politique en Angleterre."
+   },
+   {
+    "text": "La « révolution verte » des années 1960 (variétés de blé et de riz à haut rendement, engrais) augmente fortement les récoltes.",
+    "translation": "Elle explique en partie pourquoi la famine générale annoncée par Malthus n'a pas eu lieu à l'échelle mondiale, même si des famines locales persistent."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "malthusianisme",
+    "note": "ensemble des idées de Malthus ; par extension, politique de restriction volontaire de la croissance."
+   }
+  ],
+  "unitId": "cg.v.thomas_malthus"
  }
 ]

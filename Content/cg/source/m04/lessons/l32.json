@@ -1,0 +1,828 @@
+{
+ "lessonId": "cg.l32",
+ "exercises": [
+  {
+   "id": "cg.l32.e01",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.energies_fossiles"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle part de l'énergie consommée dans le monde provient encore du charbon, du pétrole et du gaz (début des années 2020) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Environ 80 %",
+    "Environ 20 %",
+    "Environ 50 %",
+    "Moins de 10 %"
+   ],
+   "answer": "Environ 80 %",
+   "acceptedAnswers": [
+    "Environ 80 %"
+   ],
+   "explanation": "Malgré le développement des énergies renouvelables, le charbon, le pétrole et le gaz fournissent encore environ 80 % de l'énergie consommée dans le monde au début des années 2020. Leur combustion rejette du CO₂, principal gaz à effet de serre d'origine humaine.",
+   "tip": "Fossiles : environ quatre cinquièmes de l'énergie mondiale.",
+   "extraExample": {
+    "text": "Le charbon alimente les machines à vapeur de la révolution industrielle, puis le pétrole domine le XXe siècle avec l'automobile.",
+    "translation": "Le gaz naturel s'impose surtout dans la seconde moitié du XXe siècle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Environ 20 %",
+     "category": "word_confusion",
+     "feedback": "Les fossiles dominent encore largement : environ quatre cinquièmes de l'énergie mondiale, pas un cinquième."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e02",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.energies_fossiles",
+    "cg.v.energies_renouvelables",
+    "cg.v.nucleaire",
+    "cg.v.mix_energetique",
+    "cg.v.opep"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots de l'énergie",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Énergies fossiles",
+     "right": "charbon, pétrole et gaz"
+    },
+    {
+     "left": "Énergies renouvelables",
+     "right": "soleil, vent, eau, biomasse"
+    },
+    {
+     "left": "Nucléaire",
+     "right": "fission de noyaux d'uranium"
+    },
+    {
+     "left": "Mix énergétique",
+     "right": "répartition des sources d'énergie d'un pays"
+    },
+    {
+     "left": "OPEP",
+     "right": "organisation de pays exportateurs de pétrole"
+    }
+   ],
+   "answer": "Énergies fossiles = charbon, pétrole et gaz ; Énergies renouvelables = soleil, vent, eau, biomasse ; Nucléaire = fission de noyaux d'uranium ; Mix énergétique = répartition des sources d'énergie d'un pays ; OPEP = organisation de pays exportateurs de pétrole",
+   "acceptedAnswers": [],
+   "explanation": "Les énergies fossiles viennent de matière organique enfouie depuis des millions d'années ; les renouvelables se reconstituent à l'échelle humaine ; le nucléaire repose sur l'uranium ; le mix énergétique décrit le dosage des sources d'un pays ; l'OPEP regroupe des pays producteurs de pétrole.",
+   "tip": "Fossile = un stock ; renouvelable = un flux ; mix = le dosage d'un pays.",
+   "extraExample": {
+    "text": "Le mix énergétique de la France mêle pétrole, gaz, nucléaire, hydroélectricité, éolien et solaire.",
+    "translation": "Le mix décrit la proportion de chaque source."
+   }
+  },
+  {
+   "id": "cg.l32.e03",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.energies_renouvelables"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi qualifie-t-on le solaire et l'éolien d'énergies « intermittentes » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Elles ne produisent que lorsqu'il y a du soleil ou du vent",
+    "Elles s'épuisent au bout de quelques années",
+    "Elles rejettent beaucoup de CO₂ en fonctionnement",
+    "Elles ne fonctionnent que dans les pays chauds"
+   ],
+   "answer": "Elles ne produisent que lorsqu'il y a du soleil ou du vent",
+   "acceptedAnswers": [
+    "Elles ne produisent que lorsqu'il y a du soleil ou du vent"
+   ],
+   "explanation": "La production dépend de la météo et de l'heure : un panneau solaire ne produit pas la nuit, une éolienne tourne peu sans vent. D'où le besoin de réseaux étendus, de centrales de réserve et de stockage (batteries, barrages réversibles).",
+   "tip": "Intermittent : la production suit la météo, pas la demande.",
+   "extraExample": {
+    "text": "Un barrage réversible pompe l'eau vers un lac en altitude quand l'électricité est abondante, puis la turbine quand elle manque.",
+    "translation": "C'est l'une des principales formes de stockage d'électricité à grande échelle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Elles rejettent beaucoup de CO₂ en fonctionnement",
+     "category": "word_confusion",
+     "feedback": "Le solaire et l'éolien émettent très peu de CO₂ en fonctionnement ; leur difficulté est une production irrégulière."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e04",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.nucleaire",
+    "cg.v.energies_renouvelables"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Le nucléaire est-il une énergie renouvelable ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Non : l'uranium est une ressource limitée, même si le nucléaire émet peu de CO₂",
+    "Oui : le Soleil recrée l'uranium en quelques années",
+    "Oui : il ne produit aucun déchet",
+    "Non : il émet autant de CO₂ que le charbon"
+   ],
+   "answer": "Non : l'uranium est une ressource limitée, même si le nucléaire émet peu de CO₂",
+   "acceptedAnswers": [
+    "Non : l'uranium est une ressource limitée, même si le nucléaire émet peu de CO₂"
+   ],
+   "explanation": "Le nucléaire est une énergie bas carbone (très peu de CO₂ en fonctionnement), mais pas renouvelable : l'uranium est extrait du sol et ses réserves sont limitées. Il produit aussi des déchets radioactifs. Bas carbone et renouvelable sont deux notions différentes.",
+   "tip": "Bas carbone n'est pas synonyme de renouvelable.",
+   "extraExample": {
+    "text": "L'hydroélectricité, l'éolien et le solaire sont à la fois renouvelables et bas carbone.",
+    "translation": "Le nucléaire est seulement bas carbone ; le charbon n'est ni l'un ni l'autre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Oui : il ne produit aucun déchet",
+     "category": "word_confusion",
+     "feedback": "Le nucléaire produit des déchets radioactifs, dont certains restent dangereux très longtemps."
+    },
+    {
+     "equals": "Non : il émet autant de CO₂ que le charbon",
+     "category": "word_confusion",
+     "feedback": "En fonctionnement, une centrale nucléaire émet très peu de CO₂, alors que le charbon en émet beaucoup."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e05",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.nucleaire",
+    "cg.v.opep"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Après le premier choc ___ de 1973, la France lance en 1974 un vaste programme de réacteurs nucléaires.",
+   "promptLanguage": "fr",
+   "options": [
+    "pétrolier",
+    "boursier",
+    "climatique",
+    "monétaire"
+   ],
+   "answer": "pétrolier",
+   "acceptedAnswers": [
+    "pétrolier",
+    "petrolier"
+   ],
+   "explanation": "Le quadruplement du prix du pétrole en 1973-1974 rappelle à la France sa dépendance à l'énergie importée. Le plan Messmer (1974) prévoit de produire l'essentiel de son électricité avec ses propres réacteurs nucléaires.",
+   "tip": "1973 : pétrole cher ; 1974 : plan nucléaire.",
+   "extraExample": {
+    "text": "Dès les années 1980, le nucléaire devient la première source d'électricité en France.",
+    "translation": "Il y fournit aujourd'hui environ deux tiers de l'électricité."
+   },
+   "errorPatterns": [
+    {
+     "equals": "monétaire",
+     "category": "word_confusion",
+     "feedback": "Un choc monétaire désigne une crise des monnaies ; 1973 est le premier choc pétrolier, qui fait environ quadrupler le prix du baril."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e06",
+   "unitIds": [
+    "cg.v.abuja",
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.opep"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel grand pays d'Afrique de l'Ouest, dont la capitale est Abuja, est membre de l'OPEP depuis 1971 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Nigeria",
+    "Le Ghana",
+    "Le Sénégal",
+    "Le Mali"
+   ],
+   "answer": "Le Nigeria",
+   "acceptedAnswers": [
+    "Le Nigeria"
+   ],
+   "explanation": "Le Nigeria, pays le plus peuplé d'Afrique, est un grand producteur de pétrole et membre de l'OPEP depuis 1971. Sa capitale est Abuja depuis 1991, à la place de Lagos, sa plus grande ville.",
+   "tip": "Nigeria : Abuja, pétrole, OPEP.",
+   "extraExample": {
+    "text": "L'OPEP compte aussi l'Algérie, la Libye, le Gabon ou le Congo parmi ses membres.",
+    "translation": "Elle réunit des pays d'Afrique, du Moyen-Orient et d'Amérique du Sud."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Ghana",
+     "category": "word_confusion",
+     "feedback": "Le Ghana produit un peu de pétrole, mais il n'est pas membre de l'OPEP ; sa capitale est Accra."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e07",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.opep",
+    "cg.v.vienne"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans quelle capitale européenne le siège de l'OPEP est-il installé depuis 1965 ?",
+   "promptLanguage": "fr",
+   "answer": "Vienne",
+   "acceptedAnswers": [
+    "Vienne",
+    "à Vienne",
+    "Vienne (Autriche)",
+    "Vienna",
+    "a Vienne"
+   ],
+   "explanation": "L'OPEP est fondée à Bagdad en 1960. Son secrétariat s'installe d'abord à Genève, puis à Vienne, en Autriche, depuis 1965.",
+   "tip": "OPEP : fondée à Bagdad, siège à Vienne.",
+   "extraExample": {
+    "text": "Vienne accueille aussi plusieurs organisations internationales, dont l'Agence internationale de l'énergie atomique (AIEA).",
+    "translation": "Elle est l'un des sièges de l'ONU, avec New York, Genève et Nairobi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Genève",
+     "category": "word_confusion",
+     "feedback": "Genève fut le premier siège de l'OPEP (1961-1965), mais celle-ci est installée à Vienne depuis 1965."
+    },
+    {
+     "equals": "Bagdad",
+     "category": "word_confusion",
+     "feedback": "Bagdad est la ville où l'OPEP a été fondée en 1960, mais son siège est à Vienne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e08",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.indice_fecondite"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel indice de fécondité assure le renouvellement des générations dans un pays développé ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Environ 2,1 enfants par femme",
+    "Environ 1 enfant par femme",
+    "Environ 3,5 enfants par femme",
+    "Environ 5 enfants par femme"
+   ],
+   "answer": "Environ 2,1 enfants par femme",
+   "acceptedAnswers": [
+    "Environ 2,1 enfants par femme"
+   ],
+   "explanation": "Il faut un peu plus de 2 enfants par femme pour que chaque génération soit remplacée par la suivante (2 pour remplacer les parents, un peu plus pour compenser les décès avant l'âge adulte). En dessous de ce seuil, la population finit par diminuer, sauf immigration.",
+   "tip": "2,1 : le seuil de renouvellement.",
+   "extraExample": {
+    "text": "La France compte environ 1,6 enfant par femme en 2024, contre environ 2 en 2010.",
+    "translation": "Elle reste l'un des pays les plus féconds de l'Union européenne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Environ 1 enfant par femme",
+     "category": "word_confusion",
+     "feedback": "Avec 1 enfant par femme, chaque génération est deux fois moins nombreuse que la précédente : la population baisse."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e09",
+   "unitIds": [
+    "cg.g16.population_villes_langues",
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.transition_demographique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En novembre 2022, la population mondiale franchit, selon l'ONU, le cap des ___ milliards d'habitants.",
+   "promptLanguage": "fr",
+   "options": [
+    "8",
+    "6",
+    "7",
+    "10"
+   ],
+   "answer": "8",
+   "acceptedAnswers": [
+    "8",
+    "huit"
+   ],
+   "explanation": "L'ONU a symboliquement fixé au 15 novembre 2022 le passage à 8 milliards d'humains. Le cap des 7 milliards avait été franchi en 2011 : il a fallu environ onze ans pour ajouter un milliard.",
+   "tip": "7 en 2011, 8 en 2022.",
+   "extraExample": {
+    "text": "La population mondiale dépasse 1 milliard vers 1800 et 2 milliards vers 1927.",
+    "translation": "Le troisième milliard est atteint vers 1960 : la croissance s'accélère au XXe siècle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "7",
+     "category": "word_confusion",
+     "feedback": "Le cap des 7 milliards est franchi en 2011 ; en 2022, on passe à 8 milliards."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e10",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.neutralite_carbone"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que signifie atteindre la « neutralité carbone » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Équilibrer les émissions de gaz à effet de serre et ce qui est absorbé",
+    "Ne plus émettre aucun gaz à effet de serre",
+    "Remplacer tout le charbon par du pétrole",
+    "Interdire le CO₂ dans l'atmosphère"
+   ],
+   "answer": "Équilibrer les émissions de gaz à effet de serre et ce qui est absorbé",
+   "acceptedAnswers": [
+    "Équilibrer les émissions de gaz à effet de serre et ce qui est absorbé"
+   ],
+   "explanation": "La neutralité carbone consiste à compenser les émissions restantes par des absorptions (forêts, sols, océans, captage et stockage du carbone). Elle n'exige pas zéro émission : elle exige que le bilan net soit nul.",
+   "tip": "Neutralité = bilan net nul, pas émissions nulles.",
+   "extraExample": {
+    "text": "Le Pacte vert européen, présenté en 2019, fixe l'objectif de neutralité carbone en 2050.",
+    "translation": "Cet objectif est ensuite inscrit dans la loi européenne sur le climat (2021)."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Ne plus émettre aucun gaz à effet de serre",
+     "category": "word_confusion",
+     "feedback": "Zéro émission est plus strict : la neutralité accepte des émissions résiduelles si elles sont compensées par des puits de carbone."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e11",
+   "unitIds": [
+    "cg.v.giec",
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.neutralite_carbone",
+    "cg.v.accord_de_paris"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pour limiter le réchauffement à 1,5 °C, le GIEC indique que les émissions mondiales de CO₂ doivent atteindre la neutralité vers ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "2050",
+    "2030",
+    "2100",
+    "2200"
+   ],
+   "answer": "2050",
+   "acceptedAnswers": [
+    "2050"
+   ],
+   "explanation": "Dans son rapport spécial de 2018, le GIEC estime que, pour rester à 1,5 °C, il faut réduire fortement les émissions de CO₂ et atteindre la neutralité vers 2050 ; pour 2 °C, vers 2070.",
+   "tip": "1,5 °C : 2050 ; 2 °C : 2070.",
+   "extraExample": {
+    "text": "L'accord de Paris (2015) vise à limiter le réchauffement bien en dessous de 2 °C, en poursuivant 1,5 °C.",
+    "translation": "Chaque pays fixe lui-même ses objectifs de réduction."
+   },
+   "errorPatterns": [
+    {
+     "equals": "2030",
+     "category": "word_confusion",
+     "feedback": "2030 est une étape : le GIEC estime qu'il faut déjà réduire fortement les émissions d'ici là (environ 45 % de moins qu'en 2010 pour 1,5 °C), la neutralité venant vers 2050."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e12",
+   "unitIds": [
+    "cg.v.effet_de_serre",
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.neutralite_carbone"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi appelle-t-on les forêts, les sols et les océans des « puits de carbone » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Ils absorbent une partie du CO₂ émis par les activités humaines",
+    "Ils produisent du charbon en grande quantité",
+    "Ils bloquent la lumière du Soleil",
+    "Ils servent de réservoirs de pétrole"
+   ],
+   "answer": "Ils absorbent une partie du CO₂ émis par les activités humaines",
+   "acceptedAnswers": [
+    "Ils absorbent une partie du CO₂ émis par les activités humaines"
+   ],
+   "explanation": "Les plantes absorbent du CO₂ par la photosynthèse et les océans en dissolvent une partie : ensemble, forêts, sols et océans absorbent environ la moitié du CO₂ émis par les humains. Cela ne suffit pas à tout compenser : la neutralité suppose aussi de réduire les émissions.",
+   "tip": "Puits de carbone : la nature qui absorbe une partie du CO₂.",
+   "extraExample": {
+    "text": "La déforestation transforme une forêt en source de CO₂ au lieu d'un puits.",
+    "translation": "La forêt amazonienne stocke d'énormes quantités de carbone."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Ils produisent du charbon en grande quantité",
+     "category": "word_confusion",
+     "feedback": "Le charbon est un combustible fossile formé sur des millions d'années ; un puits de carbone, lui, stocke du CO₂."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e13",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.developpement_durable"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel texte de 1987 définit le développement durable comme celui qui répond aux besoins du présent sans compromettre ceux des générations futures ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le rapport Brundtland",
+    "Le traité de Maastricht",
+    "Le protocole de Kyoto",
+    "La Charte de l'ONU"
+   ],
+   "answer": "Le rapport Brundtland",
+   "acceptedAnswers": [
+    "Le rapport Brundtland"
+   ],
+   "explanation": "Le rapport « Notre avenir à tous », dit rapport Brundtland (du nom de la Norvégienne Gro Harlem Brundtland, qui présidait la commission), popularise l'expression en 1987. Le développement durable repose sur trois piliers : économique, social et environnemental.",
+   "tip": "Brundtland, 1987 : penser aux générations futures.",
+   "extraExample": {
+    "text": "Le Sommet de la Terre de Rio, en 1992, met le développement durable au cœur de l'agenda international.",
+    "translation": "Il aboutit à la convention-cadre de l'ONU sur les changements climatiques."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le protocole de Kyoto",
+     "category": "word_confusion",
+     "feedback": "Le protocole de Kyoto (1997) porte sur la réduction des émissions de gaz à effet de serre, pas sur la définition du développement durable."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e14",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.transition_demographique",
+    "cg.v.indice_fecondite"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi la population augmente-t-elle très vite au début de la transition démographique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La mortalité baisse avant la natalité",
+    "La natalité augmente brusquement alors que la mortalité reste stable",
+    "La natalité et la mortalité baissent exactement au même rythme",
+    "Les migrations internationales deviennent beaucoup plus nombreuses"
+   ],
+   "answer": "La mortalité baisse avant la natalité",
+   "acceptedAnswers": [
+    "La mortalité baisse avant la natalité"
+   ],
+   "explanation": "Grâce à l'hygiène, à la vaccination et à une meilleure alimentation, la mortalité (surtout infantile) recule d'abord. La natalité ne baisse que plus tard, quand les familles s'adaptent. Entre les deux, il y a bien plus de naissances que de décès : la population croît vite.",
+   "tip": "Transition : la mortalité baisse d'abord, la natalité ensuite.",
+   "extraExample": {
+    "text": "En Europe, la transition s'étend sur les XIXe et XXe siècles ; en Afrique subsaharienne, elle est encore en cours.",
+    "translation": "La natalité y reste plus élevée qu'ailleurs."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La natalité augmente brusquement alors que la mortalité reste stable",
+     "category": "word_confusion",
+     "feedback": "Ce n'est pas la natalité qui monte : c'est la mortalité qui recule, alors que la natalité reste élevée."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e15",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.energies_fossiles",
+    "cg.v.opep",
+    "cg.v.developpement_durable",
+    "cg.v.accord_de_paris"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Dates clés de l'énergie et du développement durable",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1859",
+     "right": "forage d'Edwin Drake, en Pennsylvanie"
+    },
+    {
+     "left": "1960",
+     "right": "création de l'OPEP à Bagdad"
+    },
+    {
+     "left": "1973",
+     "right": "premier choc pétrolier"
+    },
+    {
+     "left": "1987",
+     "right": "rapport Brundtland"
+    },
+    {
+     "left": "2015",
+     "right": "accord de Paris et ODD de l'ONU"
+    }
+   ],
+   "answer": "1859 = forage d'Edwin Drake, en Pennsylvanie ; 1960 = création de l'OPEP à Bagdad ; 1973 = premier choc pétrolier ; 1987 = rapport Brundtland ; 2015 = accord de Paris et ODD de l'ONU",
+   "acceptedAnswers": [],
+   "explanation": "1859 : le forage d'Edwin Drake lance l'industrie pétrolière américaine. 1960 : cinq pays producteurs créent l'OPEP à Bagdad. 1973 : l'embargo arabe et la hausse des prix provoquent le premier choc pétrolier. 1987 : le rapport Brundtland définit le développement durable. 2015 : accord de Paris sur le climat et Agenda 2030 avec ses 17 ODD.",
+   "tip": "Du pétrole (1859) au climat (2015) en cinq dates.",
+   "extraExample": {
+    "text": "En 1979, la révolution iranienne provoque un second choc pétrolier.",
+    "translation": "Les prix du baril remontent fortement une deuxième fois."
+   }
+  },
+  {
+   "id": "cg.l32.e16",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.mix_energetique",
+    "cg.v.nucleaire",
+    "cg.v.energies_renouvelables"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Pays et source dominante de l'électricité (ordres de grandeur, années 2020)",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "France",
+     "right": "nucléaire (environ deux tiers)"
+    },
+    {
+     "left": "Norvège",
+     "right": "hydroélectricité (près de 90 %)"
+    },
+    {
+     "left": "Pologne",
+     "right": "charbon (plus de la moitié)"
+    },
+    {
+     "left": "Danemark",
+     "right": "éolien (plus de la moitié)"
+    }
+   ],
+   "answer": "France = nucléaire (environ deux tiers) ; Norvège = hydroélectricité (près de 90 %) ; Pologne = charbon (plus de la moitié) ; Danemark = éolien (plus de la moitié)",
+   "acceptedAnswers": [],
+   "explanation": "Le mix électrique varie selon les ressources et les choix politiques : la France a misé sur le nucléaire après 1974 ; la Norvège dispose de montagnes et de chutes d'eau ; la Pologne possède d'importantes ressources de charbon ; le Danemark a développé très tôt l'éolien. Ces chiffres sont des ordres de grandeur et évoluent d'une année à l'autre.",
+   "tip": "Chaque pays compose son mix avec ce qu'il a et ce qu'il choisit.",
+   "extraExample": {
+    "text": "Le Brésil produit plus de la moitié de son électricité grâce à l'hydroélectricité.",
+    "translation": "Il bénéficie de grands fleuves, comme l'Amazone et le Paraná."
+   }
+  },
+  {
+   "id": "cg.l32.e17",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.thomas_malthus",
+    "cg.v.charles_darwin"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 1798, Malthus publie son Essai sur le principe de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "population",
+    "gravitation",
+    "production",
+    "liberté"
+   ],
+   "answer": "population",
+   "acceptedAnswers": [
+    "population"
+   ],
+   "explanation": "L'Essai sur le principe de population de Thomas Malthus (1798) soutient que la population tend à croître plus vite que les ressources alimentaires. Il influence les débats sur la pauvreté, les ressources et la démographie, et il inspire Charles Darwin.",
+   "tip": "Malthus, 1798 : la population contre les ressources.",
+   "extraExample": {
+    "text": "Charles Darwin raconte avoir lu Malthus en 1838 : l'idée d'une lutte pour les ressources l'aide à formuler la sélection naturelle.",
+    "translation": "Malthus a donc influencé la biologie autant que l'économie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "production",
+     "category": "word_confusion",
+     "feedback": "Malthus parle de population, non de production : son livre s'intitule Essai sur le principe de population."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e18",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.mix_energetique"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on la répartition des différentes sources d'énergie (pétrole, gaz, nucléaire, renouvelables…) utilisées par un pays ?",
+   "promptLanguage": "fr",
+   "answer": "Le mix énergétique",
+   "acceptedAnswers": [
+    "Le mix énergétique",
+    "mix énergétique",
+    "un mix énergétique",
+    "mix energetique",
+    "Le mix energetique",
+    "un mix energetique"
+   ],
+   "explanation": "Le mix énergétique décrit la part de chaque source d'énergie dans la consommation d'un pays. Le mix électrique, lui, ne concerne que la production d'électricité.",
+   "tip": "Mix : le dosage des sources d'énergie.",
+   "extraExample": {
+    "text": "En France, l'électricité ne représente qu'environ un quart de l'énergie finale consommée.",
+    "translation": "Le reste vient surtout du pétrole (transports) et du gaz (chauffage)."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le mix électrique",
+     "category": "word_confusion",
+     "feedback": "Le mix électrique ne concerne que l'électricité ; le mix énergétique couvre toutes les formes d'énergie consommées."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e19",
+   "unitIds": [
+    "cg.v.onu",
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.developpement_durable"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on les 17 objectifs adoptés par l'ONU en 2015 pour un avenir plus durable d'ici 2030 ?",
+   "promptLanguage": "fr",
+   "answer": "Les objectifs de développement durable",
+   "acceptedAnswers": [
+    "Les objectifs de développement durable",
+    "objectifs de développement durable",
+    "ODD",
+    "les ODD",
+    "Agenda 2030",
+    "l'Agenda 2030",
+    "Les objectifs de developpement durable",
+    "objectifs de developpement durable"
+   ],
+   "explanation": "Les 17 objectifs de développement durable (ODD) forment le cœur de l'Agenda 2030, adopté par les 193 États membres de l'ONU en septembre 2015. Ils vont de la fin de la pauvreté à la lutte contre le changement climatique, en passant par l'éducation, l'eau et l'énergie.",
+   "tip": "17 objectifs, une échéance : 2030.",
+   "extraExample": {
+    "text": "L'objectif 7 concerne une énergie propre et d'un coût abordable ; l'objectif 13, la lutte contre le changement climatique.",
+    "translation": "L'objectif 1 vise la fin de la pauvreté."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Accord de Paris",
+     "category": "word_confusion",
+     "feedback": "L'accord de Paris (2015) porte sur le climat ; les ODD sont plus larges : pauvreté, santé, éducation, eau, énergie, climat…"
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e20",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.thomas_malthus",
+    "cg.v.revolution_industrielle"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle « révolution » agricole des années 1960, fondée sur des variétés de blé et de riz à haut rendement et sur les engrais, a permis de nourrir une population mondiale en forte croissance ?",
+   "promptLanguage": "fr",
+   "answer": "La révolution verte",
+   "acceptedAnswers": [
+    "La révolution verte",
+    "révolution verte",
+    "revolution verte",
+    "La revolution verte"
+   ],
+   "explanation": "La révolution verte, associée à l'agronome américain Norman Borlaug (prix Nobel de la paix 1970), multiplie les rendements du blé et du riz, d'abord au Mexique, puis en Inde et en Asie. Elle explique en partie pourquoi la famine générale annoncée par Malthus n'a pas eu lieu à l'échelle mondiale, même si des famines locales persistent. Elle a aussi un coût écologique : eau, engrais, pesticides.",
+   "tip": "Révolution verte : des rendements agricoles multipliés.",
+   "extraExample": {
+    "text": "L'Inde, qui a connu de grandes famines (Bengale, 1943), devient largement autosuffisante en céréales à partir des années 1970.",
+    "translation": "La révolution verte y a joué un rôle majeur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La révolution industrielle",
+     "category": "word_confusion",
+     "feedback": "La révolution industrielle (XVIIIe-XIXe siècles) concerne les machines et les usines ; la révolution verte, des années 1960, concerne les rendements agricoles."
+    }
+   ]
+  },
+  {
+   "id": "cg.l32.e21",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.developpement_durable"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le développement durable.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "aux",
+    "des",
+    "compromettre",
+    "présent",
+    "du",
+    "sans",
+    "besoins",
+    "développement",
+    "ceux",
+    "futures",
+    "répond",
+    "générations",
+    "Le",
+    "durable"
+   ],
+   "answer": "Le développement durable répond aux besoins du présent sans compromettre ceux des générations futures",
+   "acceptedAnswers": [
+    "Le développement durable répond aux besoins du présent sans compromettre ceux des générations futures"
+   ],
+   "hint": "Commence par le sujet.",
+   "explanation": "Voici la formule simplifiée du rapport Brundtland (1987) : satisfaire les besoins d'aujourd'hui sans empêcher les générations futures de satisfaire les leurs.",
+   "tip": "Présent d'abord, générations futures ensuite.",
+   "extraExample": {
+    "text": "Le développement durable repose sur trois piliers.",
+    "translation": "Économique, social et environnemental."
+   }
+  },
+  {
+   "id": "cg.l32.e22",
+   "unitIds": [
+    "cg.g32.enjeux_monde_actuel",
+    "cg.v.mix_energetique",
+    "cg.v.nucleaire"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'électricité en France.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "produit",
+    "La",
+    "nucléaire",
+    "son",
+    "France",
+    "électricité",
+    "le",
+    "deux",
+    "avec",
+    "environ",
+    "de",
+    "tiers"
+   ],
+   "answer": "La France produit environ deux tiers de son électricité avec le nucléaire",
+   "acceptedAnswers": [
+    "La France produit environ deux tiers de son électricité avec le nucléaire",
+    "La France produit avec le nucléaire environ deux tiers de son électricité"
+   ],
+   "hint": "Commence par la France.",
+   "explanation": "Dans les années 2020, le nucléaire fournit autour de deux tiers de l'électricité française selon les années (entre 60 % et 70 % environ). Le reste vient surtout de l'hydraulique, de l'éolien, du solaire et du gaz.",
+   "tip": "France : le nucléaire domine l'électricité.",
+   "extraExample": {
+    "text": "Le parc nucléaire français compte plus de cinquante réacteurs.",
+    "translation": "Il a été construit en grande partie dans les années 1970 et 1980."
+   }
+  }
+ ]
+}

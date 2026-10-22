@@ -1,0 +1,827 @@
+{
+ "lessonId": "cg.l28",
+ "exercises": [
+  {
+   "id": "cg.l28.e01",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.pib"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que mesure le PIB ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La valeur des biens et des services produits dans un pays en un an",
+    "Le total des salaires versés aux fonctionnaires",
+    "Le bonheur moyen des habitants",
+    "Le montant de la dette de l'État"
+   ],
+   "answer": "La valeur des biens et des services produits dans un pays en un an",
+   "acceptedAnswers": [
+    "La valeur des biens et des services produits dans un pays en un an"
+   ],
+   "explanation": "Le produit intérieur brut additionne la valeur ajoutée de tout ce qui est produit sur un territoire en un an. C'est l'indicateur le plus utilisé pour comparer la taille des économies.",
+   "tip": "PIB = production d'un pays sur un an.",
+   "extraExample": {
+    "text": "Le PIB par habitant divise le PIB par le nombre d'habitants.",
+    "translation": "Il donne une idée du niveau de vie moyen, mais cache les inégalités."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le bonheur moyen des habitants",
+     "category": "word_confusion",
+     "feedback": "Le PIB mesure la production, pas le bien-être : un pays très riche peut avoir de fortes inégalités."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e02",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.inflation"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que l'inflation ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une hausse générale et durable des prix",
+    "Une baisse générale des prix",
+    "Une hausse générale des salaires",
+    "Une hausse du nombre de chômeurs"
+   ],
+   "answer": "Une hausse générale et durable des prix",
+   "acceptedAnswers": [
+    "Une hausse générale et durable des prix"
+   ],
+   "explanation": "L'inflation est l'augmentation générale et durable des prix. Quand elle est forte, la monnaie perd de sa valeur : avec 100 €, on achète moins de choses qu'avant.",
+   "tip": "Inflation : l'argent vaut moins.",
+   "extraExample": {
+    "text": "Une inflation de 2 % par an signifie qu'un panier de 100 € coûte 102 € un an plus tard.",
+    "translation": "C'est l'objectif de la Banque centrale européenne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Une baisse générale des prix",
+     "category": "word_confusion",
+     "feedback": "La baisse générale et durable des prix s'appelle la déflation, l'inverse de l'inflation."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e03",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.pib",
+    "cg.v.inflation",
+    "cg.v.chomage",
+    "cg.v.taux_interet",
+    "cg.v.deficit_public"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots de l'économie",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "PIB",
+     "right": "richesse produite dans un pays en un an"
+    },
+    {
+     "left": "Inflation",
+     "right": "hausse générale et durable des prix"
+    },
+    {
+     "left": "Chômage",
+     "right": "personnes sans emploi qui en cherchent un"
+    },
+    {
+     "left": "Taux d'intérêt",
+     "right": "prix de l'argent emprunté"
+    },
+    {
+     "left": "Déficit public",
+     "right": "dépenses de l'État supérieures à ses recettes sur une année"
+    }
+   ],
+   "answer": "PIB = richesse produite dans un pays en un an ; Inflation = hausse générale et durable des prix ; Chômage = personnes sans emploi qui en cherchent un ; Taux d'intérêt = prix de l'argent emprunté ; Déficit public = dépenses de l'État supérieures à ses recettes sur une année",
+   "acceptedAnswers": [],
+   "explanation": "Cinq mots à ne jamais confondre : le PIB mesure la production, l'inflation la hausse des prix, le chômage l'emploi, le taux d'intérêt le coût du crédit et le déficit l'équilibre du budget de l'État.",
+   "tip": "Un mot, une question : combien produit-on ? les prix montent-ils ? qui cherche du travail ? combien coûte le crédit ? l'État dépense-t-il trop ?",
+   "extraExample": {
+    "text": "Le PIB de la France est de l'ordre de 2 900 milliards d'euros par an (2024).",
+    "translation": "C'est une valeur qui change chaque année."
+   }
+  },
+  {
+   "id": "cg.l28.e04",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.smic"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le salaire minimum légal en France ?",
+   "promptLanguage": "fr",
+   "answer": "SMIC",
+   "acceptedAnswers": [
+    "SMIC",
+    "le SMIC",
+    "salaire minimum interprofessionnel de croissance"
+   ],
+   "explanation": "Le SMIC (salaire minimum interprofessionnel de croissance) est créé en 1970. Il remplace le SMIG de 1950 et suit à la fois les prix et la croissance des salaires.",
+   "tip": "SMIC : le plancher du salaire.",
+   "extraExample": {
+    "text": "Le SMIC est revalorisé au 1er janvier, et plus tôt en cas de forte inflation.",
+    "translation": "Il protège le pouvoir d'achat des salariés les plus modestes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "SMIG",
+     "category": "word_confusion",
+     "feedback": "Le SMIG (1950) est l'ancêtre du SMIC : il a été remplacé en 1970 par le SMIC, qui tient aussi compte de la croissance."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e05",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.taux_interet",
+    "cg.v.banque_centrale"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que se passe-t-il en général quand la banque centrale relève ses taux d'intérêt ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les crédits coûtent plus cher et l'inflation ralentit",
+    "Les crédits coûtent moins cher et l'économie accélère",
+    "Les prix baissent aussitôt dans les magasins",
+    "Le chômage disparaît"
+   ],
+   "answer": "Les crédits coûtent plus cher et l'inflation ralentit",
+   "acceptedAnswers": [
+    "Les crédits coûtent plus cher et l'inflation ralentit"
+   ],
+   "explanation": "Quand les taux montent, emprunter coûte plus cher : les ménages et les entreprises dépensent et investissent moins, la demande ralentit et la hausse des prix se calme. À l'inverse, baisser les taux stimule l'activité.",
+   "tip": "Taux en hausse : frein sur le crédit et sur les prix.",
+   "extraExample": {
+    "text": "En 2022, les banques centrales relèvent leurs taux pour lutter contre une forte inflation.",
+    "translation": "Les crédits immobiliers deviennent alors nettement plus chers."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les crédits coûtent moins cher et l'économie accélère",
+     "category": "word_confusion",
+     "feedback": "C'est l'effet d'une baisse des taux, pas d'une hausse."
+    },
+    {
+     "equals": "Les prix baissent aussitôt dans les magasins",
+     "category": "word_confusion",
+     "feedback": "L'effet sur les prix est lent et se traduit par un ralentissement de leur hausse, pas par une baisse immédiate."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e06",
+   "unitIds": [
+    "cg.v.euro",
+    "cg.v.banque_centrale",
+    "cg.g28.notions_economie"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle institution, installée à Francfort, fixe les taux d'intérêt directeurs de la zone euro ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Banque centrale européenne",
+    "La Banque de France",
+    "La Commission européenne",
+    "Le FMI"
+   ],
+   "answer": "La Banque centrale européenne",
+   "acceptedAnswers": [
+    "La Banque centrale européenne"
+   ],
+   "explanation": "La BCE, installée à Francfort depuis 1998, conduit la politique monétaire de la zone euro et fixe ses taux directeurs. La Banque de France fait partie du système européen, mais ne décide plus seule.",
+   "tip": "Euro : une seule monnaie, une seule banque centrale, à Francfort.",
+   "extraExample": {
+    "text": "La Réserve fédérale (Fed), créée en 1913, joue le même rôle pour le dollar.",
+    "translation": "Les décisions des deux banques centrales sont suivies dans le monde entier."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Banque de France",
+     "category": "word_confusion",
+     "feedback": "La Banque de France fait partie du système européen de banques centrales, mais c'est la BCE qui fixe les taux de la zone euro."
+    },
+    {
+     "equals": "La Commission européenne",
+     "category": "word_confusion",
+     "feedback": "La Commission propose les lois européennes ; la monnaie relève de la BCE."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e07",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.deficit_public",
+    "cg.v.dette_publique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Un État dépense 120 milliards d'euros dans l'année et reçoit 100 milliards d'euros de recettes. Comment appelle-t-on les 20 milliards qui manquent ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un déficit",
+    "Une dette accumulée",
+    "Un excédent",
+    "Une inflation"
+   ],
+   "answer": "Un déficit",
+   "acceptedAnswers": [
+    "Un déficit"
+   ],
+   "explanation": "L'écart entre les dépenses et les recettes d'une année est le déficit. Pour le financer, l'État emprunte, et la dette augmente d'autant.",
+   "tip": "Déficit : l'écart d'une année ; dette : tout le cumul.",
+   "extraExample": {
+    "text": "Un excédent est le contraire : les recettes dépassent les dépenses.",
+    "translation": "La France n'en a plus connu depuis 1974."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Une dette accumulée",
+     "category": "word_confusion",
+     "feedback": "La dette est la somme de tous les déficits passés ; les 20 milliards de l'année sont un déficit."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e08",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.inflation"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En France, l'inflation se mesure à partir de l'indice des prix à la ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "consommation",
+    "production",
+    "exportation",
+    "population"
+   ],
+   "answer": "consommation",
+   "acceptedAnswers": [
+    "consommation"
+   ],
+   "explanation": "L'INSEE calcule l'indice des prix à la consommation (IPC) à partir d'un panier de biens et de services achetés par les ménages : alimentation, logement, transports, loisirs…",
+   "tip": "IPC = les prix de ce que les ménages consomment.",
+   "extraExample": {
+    "text": "L'indice sert aussi à revaloriser le SMIC et certaines pensions.",
+    "translation": "Il est publié chaque mois."
+   },
+   "errorPatterns": [
+    {
+     "equals": "production",
+     "category": "word_confusion",
+     "feedback": "Les prix à la production concernent les entreprises ; l'inflation que l'on cite le plus souvent est celle des prix à la consommation."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e09",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.chomage"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le taux de chômage est le nombre de chômeurs divisé par la population ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "active",
+    "totale",
+    "salariée",
+    "adulte"
+   ],
+   "answer": "active",
+   "acceptedAnswers": [
+    "active"
+   ],
+   "explanation": "La population active comprend les personnes qui ont un emploi et celles qui en cherchent un. Les étudiants, les retraités et les personnes qui ne cherchent pas de travail n'en font pas partie.",
+   "tip": "Chômeurs ÷ population active.",
+   "extraExample": {
+    "text": "Un étudiant qui ne cherche pas d'emploi n'est pas un chômeur.",
+    "translation": "Il ne fait pas partie de la population active."
+   },
+   "errorPatterns": [
+    {
+     "equals": "totale",
+     "category": "word_confusion",
+     "feedback": "Si l'on divisait par la population totale, on compterait aussi les enfants et les retraités : on utilise la population active."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e10",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.pib",
+    "cg.v.banque_centrale",
+    "cg.v.chomage",
+    "cg.v.fmi"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui mesure, qui décide, qui aide ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "INSEE",
+     "right": "calcule le PIB, l'inflation et le chômage en France"
+    },
+    {
+     "left": "BCE",
+     "right": "fixe les taux directeurs de la zone euro"
+    },
+    {
+     "left": "France Travail",
+     "right": "accompagne les demandeurs d'emploi"
+    },
+    {
+     "left": "FMI",
+     "right": "aide les États en difficulté financière"
+    }
+   ],
+   "answer": "INSEE = calcule le PIB, l'inflation et le chômage en France ; BCE = fixe les taux directeurs de la zone euro ; France Travail = accompagne les demandeurs d'emploi ; FMI = aide les États en difficulté financière",
+   "acceptedAnswers": [],
+   "explanation": "L'INSEE produit les chiffres officiels, la BCE décide des taux de la zone euro, France Travail suit les demandeurs d'emploi et le FMI prête aux États en difficulté.",
+   "tip": "Chiffres : INSEE ; taux : BCE ; emploi : France Travail ; États en crise : FMI.",
+   "extraExample": {
+    "text": "L'INSEE est créé en 1946.",
+    "translation": "Il dépend du ministère de l'Économie."
+   }
+  },
+  {
+   "id": "cg.l28.e11",
+   "unitIds": [
+    "cg.v.traite_de_maastricht",
+    "cg.g28.notions_economie",
+    "cg.v.deficit_public"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le traité de Maastricht fixe un repère de déficit public d'au plus ___ % du PIB.",
+   "promptLanguage": "fr",
+   "options": [
+    "3",
+    "5",
+    "10",
+    "60"
+   ],
+   "answer": "3",
+   "acceptedAnswers": [
+    "3"
+   ],
+   "explanation": "Les critères de convergence de Maastricht limitent le déficit public à 3 % du PIB et la dette publique à 60 % du PIB. Ils sont repris dans le Pacte de stabilité et de croissance de la zone euro.",
+   "tip": "Maastricht : 3 % pour le déficit, 60 % pour la dette.",
+   "extraExample": {
+    "text": "Ces repères sont régulièrement dépassés par plusieurs pays, dont la France.",
+    "translation": "Les règles européennes ont été réformées pour les adapter."
+   },
+   "errorPatterns": [
+    {
+     "equals": "60",
+     "category": "word_confusion",
+     "feedback": "60 % du PIB est le repère pour la dette publique, pas pour le déficit."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e12",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.inflation"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Quand l'inflation ralentit mais que les prix continuent de monter, on parle de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "désinflation",
+    "déflation",
+    "récession",
+    "hyperinflation"
+   ],
+   "answer": "désinflation",
+   "acceptedAnswers": [
+    "désinflation",
+    "desinflation"
+   ],
+   "explanation": "La désinflation est un ralentissement de l'inflation : les prix montent encore, mais moins vite. La déflation est une baisse générale des prix, ce qui n'est pas la même chose.",
+   "tip": "Dés-inflation : l'inflation se calme ; dé-flation : les prix baissent.",
+   "extraExample": {
+    "text": "Après le pic de 2022, l'inflation a ralenti dans la zone euro.",
+    "translation": "Les prix, eux, sont restés plus élevés qu'avant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "déflation",
+     "category": "word_confusion",
+     "feedback": "La déflation est une baisse générale des prix. Ici, les prix montent encore, mais plus lentement : c'est la désinflation."
+    },
+    {
+     "equals": "hyperinflation",
+     "category": "word_confusion",
+     "feedback": "L'hyperinflation est une hausse des prix extrêmement rapide, comme en Allemagne en 1923."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e13",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.chomage"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle personne est considérée comme chômeuse au sens du Bureau international du travail ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une personne sans emploi, disponible et qui cherche activement un travail",
+    "Un étudiant à temps plein",
+    "Un retraité qui ne cherche pas de travail",
+    "Un salarié à temps partiel satisfait de son emploi"
+   ],
+   "answer": "Une personne sans emploi, disponible et qui cherche activement un travail",
+   "acceptedAnswers": [
+    "Une personne sans emploi, disponible et qui cherche activement un travail"
+   ],
+   "explanation": "Pour le BIT, il faut trois conditions : être sans emploi, être disponible dans les quinze jours et avoir cherché activement un emploi. C'est cette définition que l'INSEE utilise pour calculer le taux de chômage.",
+   "tip": "Chômeur BIT : sans emploi, disponible, en recherche.",
+   "extraExample": {
+    "text": "Une personne découragée qui a cessé de chercher du travail n'est pas comptée comme chômeuse.",
+    "translation": "On parle parfois de « halo du chômage » pour ces personnes."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un étudiant à temps plein",
+     "category": "word_confusion",
+     "feedback": "Un étudiant qui ne cherche pas d'emploi ne fait pas partie des chômeurs."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e14",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.pouvoir_achat",
+    "cg.v.inflation"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans un pays où les salaires augmentent de 2 % et les prix de 5 % sur un an, que devient le pouvoir d'achat ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il baisse",
+    "Il augmente",
+    "Il reste stable",
+    "On ne peut pas le savoir"
+   ],
+   "answer": "Il baisse",
+   "acceptedAnswers": [
+    "Il baisse"
+   ],
+   "explanation": "Le pouvoir d'achat suit l'écart entre les revenus et les prix. Ici les prix montent plus vite que les salaires : on peut acheter moins de choses qu'avant avec le même revenu.",
+   "tip": "Revenus − prix : si c'est négatif, le pouvoir d'achat baisse.",
+   "extraExample": {
+    "text": "Un salaire qui augmente moins vite que l'inflation perd de la valeur.",
+    "translation": "C'est pourquoi on discute de l'indexation des salaires sur les prix."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il augmente",
+     "category": "word_confusion",
+     "feedback": "Le salaire augmente, mais les prix augmentent plus : on peut acheter moins de choses."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e15",
+   "unitIds": [
+    "cg.v.fmi",
+    "cg.g28.notions_economie"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle organisation internationale prête de l'argent à des États en difficulté financière, souvent en échange de réformes ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le FMI",
+    "L'OMC",
+    "L'OMS",
+    "L'UNESCO"
+   ],
+   "answer": "Le FMI",
+   "acceptedAnswers": [
+    "Le FMI"
+   ],
+   "explanation": "Le Fonds monétaire international accorde des prêts aux États qui ne parviennent plus à équilibrer leurs comptes extérieurs, en général en demandant des réformes. Il siège à Washington.",
+   "tip": "FMI : pompier financier des États.",
+   "extraExample": {
+    "text": "La Banque mondiale finance plutôt des projets de développement à long terme.",
+    "translation": "Les deux institutions sont nées de la conférence de Bretton Woods."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'OMC",
+     "category": "word_confusion",
+     "feedback": "L'OMC règle les différends commerciaux entre pays, elle ne prête pas d'argent."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e16",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.dette_publique",
+    "cg.v.deficit_public"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la dette.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "somme",
+    "déficits",
+    "dette",
+    "accumulés",
+    "la",
+    "La",
+    "des",
+    "est"
+   ],
+   "answer": "La dette est la somme des déficits accumulés",
+   "acceptedAnswers": [
+    "La dette est la somme des déficits accumulés"
+   ],
+   "hint": "Commence par le mot dette.",
+   "explanation": "La dette publique est le total des emprunts non remboursés : elle se construit année après année en additionnant les déficits.",
+   "tip": "Déficit = flux d'une année ; dette = stock accumulé.",
+   "extraExample": {
+    "text": "Un excédent permet de rembourser une partie de la dette.",
+    "translation": "La France n'en a plus connu depuis 1974."
+   }
+  },
+  {
+   "id": "cg.l28.e17",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.banque_centrale",
+    "cg.v.taux_interet"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : les taux.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "freiner",
+    "centrale",
+    "banque",
+    "taux",
+    "l'inflation",
+    "La",
+    "pour",
+    "relève",
+    "ses"
+   ],
+   "answer": "La banque centrale relève ses taux pour freiner l'inflation",
+   "acceptedAnswers": [
+    "La banque centrale relève ses taux pour freiner l'inflation"
+   ],
+   "hint": "Commence par l'institution.",
+   "explanation": "Relever les taux d'intérêt rend le crédit plus cher et réduit la demande : c'est l'arme classique des banques centrales contre l'inflation.",
+   "tip": "Taux en hausse, prix qui se calment.",
+   "extraExample": {
+    "text": "En 2022 et 2023, la BCE a relevé ses taux directeurs à plusieurs reprises.",
+    "translation": "C'était la plus forte série de hausses depuis la création de l'euro."
+   }
+  },
+  {
+   "id": "cg.l28.e18",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.pib",
+    "cg.v.croissance"
+   ],
+   "type": "mcq",
+   "difficulty": 4,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi le PIB est-il un indicateur imparfait du niveau de vie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il ne dit rien de la répartition des richesses ni de l'environnement",
+    "Il ne tient pas compte des prix",
+    "Il ne compte que les produits exportés",
+    "Il n'est calculé qu'une fois par siècle"
+   ],
+   "answer": "Il ne dit rien de la répartition des richesses ni de l'environnement",
+   "acceptedAnswers": [
+    "Il ne dit rien de la répartition des richesses ni de l'environnement"
+   ],
+   "explanation": "Le PIB additionne la production mais ne montre pas comment la richesse est partagée, ni ce que la production coûte à l'environnement. La croissance du PIB peut donc coexister avec des inégalités fortes.",
+   "tip": "PIB = taille du gâteau, pas la façon de le partager.",
+   "extraExample": {
+    "text": "L'indice de développement humain (IDH) combine revenu, santé et éducation.",
+    "translation": "Il a été créé par l'ONU dans les années 1990."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il ne tient pas compte des prix",
+     "category": "word_confusion",
+     "feedback": "La croissance est calculée en volume, c'est-à-dire en retirant l'effet de l'inflation."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e19",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.inflation"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on la baisse générale et durable des prix ?",
+   "promptLanguage": "fr",
+   "answer": "Déflation",
+   "acceptedAnswers": [
+    "Déflation",
+    "la déflation",
+    "deflation",
+    "la deflation"
+   ],
+   "explanation": "La déflation est l'inverse de l'inflation. Elle peut sembler agréable, mais elle pousse les consommateurs à retarder leurs achats et peut aggraver une crise, comme dans les années 1930 ou au Japon dans les années 1990.",
+   "tip": "Dé-flation : le ballon se dégonfle, les prix aussi.",
+   "extraExample": {
+    "text": "Le Japon a connu une longue période de prix quasi stables ou en baisse à partir des années 1990.",
+    "translation": "On l'appelle parfois la « décennie perdue »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Désinflation",
+     "category": "word_confusion",
+     "feedback": "La désinflation est un ralentissement de l'inflation (les prix montent moins vite). La baisse des prix est la déflation."
+    },
+    {
+     "equals": "Inflation",
+     "category": "word_confusion",
+     "feedback": "L'inflation est une hausse des prix. La baisse générale des prix est la déflation."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e20",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.dette_publique"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on le total des emprunts accumulés par l'État et pas encore remboursés ?",
+   "promptLanguage": "fr",
+   "answer": "La dette publique",
+   "acceptedAnswers": [
+    "La dette publique",
+    "Dette publique",
+    "la dette de l'État",
+    "dette de l'État",
+    "la dette de l'Etat",
+    "dette de l'Etat"
+   ],
+   "explanation": "La dette publique est le stock des emprunts non remboursés des administrations publiques. On la compare au PIB pour mesurer son poids : en France, elle dépasse 100 % du PIB depuis 2020.",
+   "tip": "Dette = tous les déficits passés additionnés.",
+   "extraExample": {
+    "text": "L'État paie chaque année des intérêts sur sa dette.",
+    "translation": "Quand les taux montent, cette charge pèse plus lourd dans le budget."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Déficit",
+     "category": "word_confusion",
+     "feedback": "Le déficit est l'écart entre dépenses et recettes sur une seule année ; la dette est le cumul de ces déficits."
+    },
+    {
+     "equals": "Le déficit",
+     "category": "word_confusion",
+     "feedback": "Le déficit est l'écart entre dépenses et recettes sur une seule année ; la dette est le cumul de ces déficits."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e21",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.banque_centrale"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la banque centrale des États-Unis, créée en 1913 ?",
+   "promptLanguage": "fr",
+   "answer": "La Réserve fédérale",
+   "acceptedAnswers": [
+    "La Réserve fédérale",
+    "Réserve fédérale",
+    "Fed",
+    "la Fed",
+    "Federal Reserve",
+    "Système de réserve fédérale",
+    "La Reserve federale",
+    "Reserve federale",
+    "Systeme de reserve federale"
+   ],
+   "explanation": "La Réserve fédérale, ou Fed, est la banque centrale des États-Unis depuis 1913. Ses décisions sur les taux d'intérêt influencent l'économie mondiale, car le dollar est la principale monnaie des échanges internationaux.",
+   "tip": "Fed : le pendant américain de la BCE.",
+   "extraExample": {
+    "text": "La BCE joue le même rôle pour la zone euro depuis 1998.",
+    "translation": "Les deux banques centrales surveillent l'inflation."
+   },
+   "errorPatterns": [
+    {
+     "equals": "BCE",
+     "category": "word_confusion",
+     "feedback": "La BCE est la banque centrale de la zone euro. Celle des États-Unis est la Réserve fédérale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l28.e22",
+   "unitIds": [
+    "cg.g28.notions_economie",
+    "cg.v.croissance",
+    "cg.v.pouvoir_achat",
+    "cg.v.inflation",
+    "cg.v.deficit_public"
+   ],
+   "type": "match",
+   "difficulty": 4,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "De quelle situation parle-t-on ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Les prix montent plus vite que les salaires",
+     "right": "baisse du pouvoir d'achat"
+    },
+    {
+     "left": "Le PIB baisse pendant deux trimestres de suite",
+     "right": "récession"
+    },
+    {
+     "left": "Les prix baissent de façon générale et durable",
+     "right": "déflation"
+    },
+    {
+     "left": "Les prix montent, mais moins vite qu'avant",
+     "right": "désinflation"
+    },
+    {
+     "left": "L'État dépense plus qu'il ne reçoit en un an",
+     "right": "déficit public"
+    }
+   ],
+   "answer": "Les prix montent plus vite que les salaires = baisse du pouvoir d'achat ; Le PIB baisse pendant deux trimestres de suite = récession ; Les prix baissent de façon générale et durable = déflation ; Les prix montent, mais moins vite qu'avant = désinflation ; L'État dépense plus qu'il ne reçoit en un an = déficit public",
+   "acceptedAnswers": [],
+   "explanation": "Une situation, un mot : si les prix montent plus vite que les revenus, le pouvoir d'achat baisse ; deux trimestres de recul du PIB font une récession ; une baisse des prix est une déflation ; leur ralentissement, une désinflation ; l'écart annuel du budget, un déficit.",
+   "tip": "Récession : l'activité recule ; déflation : les prix reculent.",
+   "extraExample": {
+    "text": "La crise financière de 2008 a provoqué une récession dans de nombreux pays.",
+    "translation": "En 2009, l'économie mondiale recule, ce qui est très rare depuis 1945."
+   }
+  }
+ ]
+}

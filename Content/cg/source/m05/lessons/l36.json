@@ -1,0 +1,935 @@
+{
+ "lessonId": "cg.l36",
+ "exercises": [
+  {
+   "id": "cg.l36.e01",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.moliere"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel auteur du XVIIe siècle a écrit Le Malade imaginaire et L'Avare ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Victor Hugo",
+    "Molière",
+    "Racine",
+    "La Fontaine"
+   ],
+   "answer": "Molière",
+   "acceptedAnswers": [
+    "Molière"
+   ],
+   "explanation": "Molière, de son vrai nom Jean-Baptiste Poquelin, écrit des comédies qui se moquent des défauts humains : l'avarice, l'hypocrisie, l'hypocondrie. Il est protégé par Louis XIV.",
+   "tip": "Molière = comédies ; Racine = tragédies.",
+   "extraExample": {
+    "text": "Le Bourgeois gentilhomme (1670) se moque d'un riche marchand qui veut devenir noble.",
+    "translation": "La pièce a été créée devant le roi, au château de Chambord."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Racine",
+     "category": "word_confusion",
+     "feedback": "Racine écrit des tragédies (Phèdre, Andromaque), pas des comédies."
+    },
+    {
+     "equals": "Victor Hugo",
+     "category": "word_confusion",
+     "feedback": "Hugo est un écrivain romantique du XIXe siècle."
+    },
+    {
+     "equals": "La Fontaine",
+     "category": "word_confusion",
+     "feedback": "La Fontaine est l'auteur des Fables, pas de pièces de théâtre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e02",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.victor_hugo"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui a écrit le roman Les Misérables, publié en 1862 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Victor Hugo",
+    "Gustave Flaubert",
+    "Émile Zola",
+    "Alexandre Dumas"
+   ],
+   "answer": "Victor Hugo",
+   "acceptedAnswers": [
+    "Victor Hugo"
+   ],
+   "explanation": "Victor Hugo publie Les Misérables en 1862. Le roman suit Jean Valjean, ancien forçat, et dénonce la misère du XIXe siècle.",
+   "tip": "Hugo = Les Misérables et Notre-Dame de Paris.",
+   "extraExample": {
+    "text": "Gavroche, le gamin de Paris, est un personnage des Misérables.",
+    "translation": "Il est devenu un symbole de la jeunesse populaire parisienne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Émile Zola",
+     "category": "word_confusion",
+     "feedback": "Zola écrit Germinal et L'Assommoir, qui peignent la condition ouvrière."
+    },
+    {
+     "equals": "Gustave Flaubert",
+     "category": "word_confusion",
+     "feedback": "Flaubert est l'auteur de Madame Bovary."
+    },
+    {
+     "equals": "Alexandre Dumas",
+     "category": "word_confusion",
+     "feedback": "Dumas écrit des romans d'aventures : Les Trois Mousquetaires, Le Comte de Monte-Cristo."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e03",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.moliere",
+    "cg.v.jean_racine",
+    "cg.v.jean_de_la_fontaine",
+    "cg.v.victor_hugo",
+    "cg.v.gustave_flaubert"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Auteurs et œuvres",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Molière",
+     "right": "Le Bourgeois gentilhomme"
+    },
+    {
+     "left": "Racine",
+     "right": "Phèdre"
+    },
+    {
+     "left": "La Fontaine",
+     "right": "Le Corbeau et le Renard"
+    },
+    {
+     "left": "Victor Hugo",
+     "right": "Notre-Dame de Paris"
+    },
+    {
+     "left": "Flaubert",
+     "right": "Madame Bovary"
+    }
+   ],
+   "answer": "Molière = Le Bourgeois gentilhomme ; Racine = Phèdre ; La Fontaine = Le Corbeau et le Renard ; Victor Hugo = Notre-Dame de Paris ; Flaubert = Madame Bovary",
+   "acceptedAnswers": [],
+   "explanation": "Molière (comédie, 1670), Racine (tragédie, 1677), La Fontaine (fable), Hugo (roman, 1831) et Flaubert (roman, 1857) : cinq auteurs, cinq genres.",
+   "tip": "Associe chaque auteur à son genre : comédie, tragédie, fable, grand roman historique, roman réaliste.",
+   "extraExample": {
+    "text": "Corneille, rival de Racine, est l'auteur du Cid.",
+    "translation": "Il est le troisième grand nom du théâtre classique, avec Molière et Racine."
+   }
+  },
+  {
+   "id": "cg.l36.e04",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.jean_de_la_fontaine"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qu'une fable, chez La Fontaine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "un poème à la gloire du roi",
+    "une comédie en trois actes qui se moque d'un défaut",
+    "un court récit en vers, avec des animaux qui parlent, qui se termine par une morale",
+    "un long roman d'aventures historiques"
+   ],
+   "answer": "un court récit en vers, avec des animaux qui parlent, qui se termine par une morale",
+   "acceptedAnswers": [
+    "un court récit en vers, avec des animaux qui parlent, qui se termine par une morale"
+   ],
+   "explanation": "Les Fables de La Fontaine mettent en scène des animaux qui ressemblent aux humains. À la fin, une morale tire la leçon : « Tout flatteur vit aux dépens de celui qui l'écoute ».",
+   "tip": "Fable = animaux + vers + morale.",
+   "extraExample": {
+    "text": "Le renard, rusé, y est souvent un personnage de flatteur.",
+    "translation": "Les Fables sont une manière détournée de critiquer la cour et la société."
+   },
+   "errorPatterns": [
+    {
+     "equals": "une comédie en trois actes qui se moque d'un défaut",
+     "category": "word_confusion",
+     "feedback": "C'est plutôt un genre de Molière, qui écrit pour le théâtre."
+    },
+    {
+     "equals": "un long roman d'aventures historiques",
+     "category": "word_confusion",
+     "feedback": "Les fables sont des récits brefs, de quelques vers à quelques dizaines de vers."
+    },
+    {
+     "equals": "un poème à la gloire du roi",
+     "category": "word_confusion",
+     "feedback": "Les fables critiquent souvent les courtisans et les puissants, plutôt que de les louer."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e05",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.jean_racine"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle pièce de Racine (1677), inspirée d'un mythe grec, met en scène une reine torturée par un amour coupable pour son beau-fils ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Phèdre",
+    "Le Cid",
+    "Andromaque",
+    "Le Tartuffe"
+   ],
+   "answer": "Phèdre",
+   "acceptedAnswers": [
+    "Phèdre"
+   ],
+   "explanation": "Dans Phèdre, la reine, épouse de Thésée, aime son beau-fils Hippolyte. La pièce est considérée comme le sommet de la tragédie classique.",
+   "tip": "Phèdre = Racine = amour interdit.",
+   "extraExample": {
+    "text": "Phèdre est écrite en alexandrins, vers de douze syllabes.",
+    "translation": "L'alexandrin est le vers de la tragédie classique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Cid",
+     "category": "word_confusion",
+     "feedback": "Le Cid (1637) est de Corneille et raconte un conflit entre l'amour et l'honneur."
+    },
+    {
+     "equals": "Le Tartuffe",
+     "category": "word_confusion",
+     "feedback": "Le Tartuffe est une comédie de Molière sur l'hypocrisie religieuse."
+    },
+    {
+     "equals": "Andromaque",
+     "category": "word_confusion",
+     "feedback": "Andromaque (1667) est aussi de Racine, mais l'héroïne en est la veuve d'Hector ; le personnage qui aime son beau-fils est Phèdre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e06",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.jean_de_la_fontaine"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La Fontaine s'inspire du fabuliste grec ___ pour écrire ses Fables.",
+   "promptLanguage": "fr",
+   "options": [
+    "Ésope",
+    "Sophocle",
+    "Homère",
+    "Platon"
+   ],
+   "answer": "Ésope",
+   "acceptedAnswers": [
+    "Ésope"
+   ],
+   "explanation": "Ésope, qui aurait vécu en Grèce au VIe siècle av. J.-C., est le plus célèbre fabuliste de l'Antiquité. La Fontaine reprend ses récits d'animaux et les met en vers.",
+   "tip": "Ésope = fabuliste ; Homère = épopée ; Sophocle = tragédie.",
+   "extraExample": {
+    "text": "Le fabuliste latin Phèdre a lui aussi mis en vers les récits d'Ésope.",
+    "translation": "La fable est donc un genre très ancien."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Homère",
+     "category": "word_confusion",
+     "feedback": "Homère est le poète de l'Iliade et de l'Odyssée, des épopées, pas de fables."
+    },
+    {
+     "equals": "Sophocle",
+     "category": "word_confusion",
+     "feedback": "Sophocle est un auteur de tragédies grecques (Œdipe roi, Antigone)."
+    },
+    {
+     "equals": "Platon",
+     "category": "word_confusion",
+     "feedback": "Platon est un philosophe grec, élève de Socrate."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e07",
+   "unitIds": [
+    "cg.v.romantisme",
+    "cg.g36.litterature_francaise",
+    "cg.v.victor_hugo"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Victor Hugo est le chef de file de quel mouvement, illustré en peinture par Delacroix ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le romantisme",
+    "le baroque",
+    "l'impressionnisme",
+    "le surréalisme"
+   ],
+   "answer": "le romantisme",
+   "acceptedAnswers": [
+    "le romantisme"
+   ],
+   "explanation": "Le romantisme, début du XIXe siècle, exalte les émotions, la nature et la liberté. Hugo le défend au théâtre (Hernani, 1830), en poésie et dans ses romans ; Delacroix en est le grand peintre.",
+   "tip": "Hugo en littérature, Delacroix en peinture : le romantisme réunit les arts.",
+   "extraExample": {
+    "text": "La bataille d'Hernani, en 1830, oppose partisans et adversaires du romantisme au théâtre.",
+    "translation": "Elle a lieu la même année que La Liberté guidant le peuple."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le baroque",
+     "category": "word_confusion",
+     "feedback": "Le baroque est un style du XVIIe siècle."
+    },
+    {
+     "equals": "l'impressionnisme",
+     "category": "word_confusion",
+     "feedback": "L'impressionnisme naît en 1874, après Hugo."
+    },
+    {
+     "equals": "le surréalisme",
+     "category": "word_confusion",
+     "feedback": "Le surréalisme est lancé en 1924, bien après Hugo."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e08",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.academie_francaise"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Fondée en 1635 par le cardinal de ___, l'Académie française veille sur la langue.",
+   "promptLanguage": "fr",
+   "options": [
+    "Richelieu",
+    "Colbert",
+    "Talleyrand",
+    "Mazarin"
+   ],
+   "answer": "Richelieu",
+   "acceptedAnswers": [
+    "Richelieu"
+   ],
+   "explanation": "Le cardinal de Richelieu, principal ministre de Louis XIII, fonde l'Académie française en 1635. Elle compte 40 membres, qui préparent notamment le dictionnaire de la langue.",
+   "tip": "Richelieu = 1635 = Académie française.",
+   "extraExample": {
+    "text": "L'Académie siège à l'Institut de France, sur les bords de la Seine, à Paris.",
+    "translation": "Ses membres sont élus à vie : on les appelle « les immortels »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Mazarin",
+     "category": "word_confusion",
+     "feedback": "Mazarin prend la suite de Richelieu après la mort de celui-ci, en 1642 ; l'Académie existe déjà depuis 1635."
+    },
+    {
+     "equals": "Colbert",
+     "category": "word_confusion",
+     "feedback": "Colbert est le ministre de Louis XIV (à partir de 1661), bien après la création de l'Académie."
+    },
+    {
+     "equals": "Talleyrand",
+     "category": "word_confusion",
+     "feedback": "Talleyrand est un diplomate des XVIIIe-XIXe siècles (mort en 1838)."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e09",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.gustave_flaubert"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le roman Madame Bovary de Flaubert, qui lui vaut un procès, paraît en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1830",
+    "1857",
+    "1885",
+    "1913"
+   ],
+   "answer": "1857",
+   "acceptedAnswers": [
+    "1857"
+   ],
+   "explanation": "Flaubert publie Madame Bovary en 1857. Le procureur l'accuse d'outrage à la morale ; Flaubert est acquitté. La même année, Baudelaire est condamné pour Les Fleurs du mal.",
+   "tip": "1857 : Madame Bovary et Les Fleurs du mal, deux livres poursuivis.",
+   "extraExample": {
+    "text": "Le roman est d'abord publié en feuilleton dans la Revue de Paris, en 1856.",
+    "translation": "Le procès a contribué à son succès."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1830",
+     "category": "word_confusion",
+     "feedback": "1830 est l'année d'Hernani de Hugo, en plein romantisme."
+    },
+    {
+     "equals": "1885",
+     "category": "word_confusion",
+     "feedback": "1885 est l'année de la mort de Hugo et de la parution de Germinal."
+    },
+    {
+     "equals": "1913",
+     "category": "word_confusion",
+     "feedback": "1913 est l'année de Du côté de chez Swann de Proust."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e10",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.charles_baudelaire"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel recueil de poèmes de Baudelaire, publié en 1857, vaut à son auteur une condamnation pour outrage à la morale publique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Châtiments",
+    "Les Fleurs du mal",
+    "Alcools",
+    "Les Contemplations"
+   ],
+   "answer": "Les Fleurs du mal",
+   "acceptedAnswers": [
+    "Les Fleurs du mal"
+   ],
+   "explanation": "Les Fleurs du mal (1857) cherche la beauté jusque dans la laideur et le mal. Le tribunal condamne Baudelaire à une amende et exige le retrait de six poèmes ; la condamnation n'est annulée qu'en 1949.",
+   "tip": "Fleurs du mal = Baudelaire = beauté dans le mal.",
+   "extraExample": {
+    "text": "Le poème « L'Invitation au voyage » est dans ce recueil.",
+    "translation": "Il a été mis en musique par plusieurs compositeurs, dont Henri Duparc."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les Contemplations",
+     "category": "word_confusion",
+     "feedback": "Les Contemplations (1856) sont de Victor Hugo."
+    },
+    {
+     "equals": "Alcools",
+     "category": "word_confusion",
+     "feedback": "Alcools (1913) est un recueil de Guillaume Apollinaire."
+    },
+    {
+     "equals": "Les Châtiments",
+     "category": "word_confusion",
+     "feedback": "Les Châtiments (1853) sont de Victor Hugo, qui y attaque Napoléon III."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e11",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.marcel_proust"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans À la recherche du temps perdu, quel objet fait ressurgir un souvenir d'enfance chez le narrateur ?",
+   "promptLanguage": "fr",
+   "options": [
+    "une photographie de famille",
+    "une lettre d'amour",
+    "une madeleine trempée dans le thé",
+    "un air de piano"
+   ],
+   "answer": "une madeleine trempée dans le thé",
+   "acceptedAnswers": [
+    "une madeleine trempée dans le thé"
+   ],
+   "explanation": "Le goût d'un morceau de madeleine trempé dans le thé fait revenir en un instant tout le village de Combray, où le narrateur a passé son enfance. C'est le grand exemple de la « mémoire involontaire ».",
+   "tip": "Madeleine de Proust = un goût qui ramène le passé.",
+   "extraExample": {
+    "text": "L'odeur d'un parfum ou le goût d'un plat d'enfance peut provoquer le même effet.",
+    "translation": "On parle de « madeleine de Proust » pour désigner un tel souvenir."
+   },
+   "errorPatterns": [
+    {
+     "equals": "une lettre d'amour",
+     "category": "word_confusion",
+     "feedback": "Les lettres d'amour jouent un rôle dans le roman, mais le souvenir célèbre vient d'un goût."
+    },
+    {
+     "equals": "un air de piano",
+     "category": "word_confusion",
+     "feedback": "La musique compte beaucoup dans le roman (la petite phrase de Vinteuil), mais le souvenir d'enfance vient d'une madeleine."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e12",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.emile_zola"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel titre porte la lettre ouverte de Zola, publiée en 1898 dans L'Aurore pour défendre le capitaine Dreyfus ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Germinal",
+    "L'Assommoir",
+    "J'accuse…!",
+    "Le Ventre de Paris"
+   ],
+   "answer": "J'accuse…!",
+   "acceptedAnswers": [
+    "J'accuse…!"
+   ],
+   "explanation": "Le 13 janvier 1898, Zola publie « J'accuse…! », lettre ouverte au président de la République. Il y dénonce l'armée, qui a condamné à tort Dreyfus, et il est lui-même condamné.",
+   "tip": "J'accuse = Zola = Dreyfus.",
+   "extraExample": {
+    "text": "Le capitaine Alfred Dreyfus est finalement réhabilité en 1906.",
+    "translation": "L'affaire Dreyfus a divisé la France pendant plus de dix ans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Germinal",
+     "category": "word_confusion",
+     "feedback": "Germinal est un roman de 1885 sur une grève de mineurs, pas la lettre ouverte."
+    },
+    {
+     "equals": "Le Ventre de Paris",
+     "category": "word_confusion",
+     "feedback": "Le Ventre de Paris (1873) est un roman sur les Halles, pas une lettre ouverte."
+    },
+    {
+     "equals": "L'Assommoir",
+     "category": "word_confusion",
+     "feedback": "L'Assommoir (1877) est un roman sur la vie ouvrière parisienne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e13",
+   "unitIds": [
+    "cg.v.notre_dame_de_paris",
+    "cg.g36.litterature_francaise",
+    "cg.v.victor_hugo"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel roman de Victor Hugo (1831) a contribué à réveiller l'intérêt pour la cathédrale de Paris, alors en mauvais état ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Misérables",
+    "Les Travailleurs de la mer",
+    "Quatrevingt-treize",
+    "Notre-Dame de Paris"
+   ],
+   "answer": "Notre-Dame de Paris",
+   "acceptedAnswers": [
+    "Notre-Dame de Paris"
+   ],
+   "explanation": "Dans Notre-Dame de Paris (1831), la cathédrale est presque un personnage, aux côtés d'Esmeralda et de Quasimodo. Le succès du roman mène à sa restauration à partir de 1844.",
+   "tip": "Hugo a sauvé Notre-Dame une première fois en 1831, par le roman.",
+   "extraExample": {
+    "text": "Viollet-le-Duc dirige la restauration de la cathédrale à partir de 1844.",
+    "translation": "Il construit alors la flèche détruite par l'incendie de 2019."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les Misérables",
+     "category": "word_confusion",
+     "feedback": "Les Misérables (1862) ont pour décor Paris et la misère, mais pas la cathédrale."
+    },
+    {
+     "equals": "Quatrevingt-treize",
+     "category": "word_confusion",
+     "feedback": "Quatrevingt-treize (1874) se déroule pendant la Révolution, en Vendée."
+    },
+    {
+     "equals": "Les Travailleurs de la mer",
+     "category": "word_confusion",
+     "feedback": "Ce roman (1866) se passe à Guernesey, sur la mer."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e14",
+   "unitIds": [
+    "cg.v.bruxelles",
+    "cg.g36.litterature_francaise",
+    "cg.v.victor_hugo"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Opposant à Napoléon III, Hugo s'exile après le coup d'État de 1851 : il gagne d'abord ___, puis Jersey et Guernesey.",
+   "promptLanguage": "fr",
+   "options": [
+    "Amsterdam",
+    "Bruxelles",
+    "Berne",
+    "Vienne"
+   ],
+   "answer": "Bruxelles",
+   "acceptedAnswers": [
+    "Bruxelles"
+   ],
+   "explanation": "Hugo arrive à Bruxelles en décembre 1851, puis s'installe sur l'île de Jersey en 1852 et sur celle de Guernesey en 1855. Il ne rentre en France qu'en 1870, après la chute de Napoléon III.",
+   "tip": "Exil de Hugo : Bruxelles, Jersey, Guernesey (1851-1870).",
+   "extraExample": {
+    "text": "À Guernesey, Hugo écrit Les Misérables et Les Contemplations.",
+    "translation": "Sa maison, Hauteville House, est aujourd'hui un musée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Amsterdam",
+     "category": "word_confusion",
+     "feedback": "Amsterdam est la capitale des Pays-Bas ; Hugo s'est exilé en Belgique, puis dans les îles anglo-normandes."
+    },
+    {
+     "equals": "Vienne",
+     "category": "word_confusion",
+     "feedback": "Vienne est la capitale de l'Autriche, loin des lieux d'exil de Hugo."
+    },
+    {
+     "equals": "Berne",
+     "category": "word_confusion",
+     "feedback": "Berne est la capitale de la Suisse ; Hugo n'y a pas vécu en exil."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e15",
+   "unitIds": [
+    "cg.v.humanisme",
+    "cg.g36.litterature_francaise"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Rabelais, auteur de Pantagruel (1532), appartient à quel mouvement de la Renaissance, qui place l'étude des textes anciens et l'éducation au cœur du savoir ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le romantisme",
+    "l'humanisme",
+    "le classicisme",
+    "le naturalisme"
+   ],
+   "answer": "l'humanisme",
+   "acceptedAnswers": [
+    "l'humanisme"
+   ],
+   "explanation": "L'humanisme est le grand mouvement intellectuel de la Renaissance : il redécouvre les textes de l'Antiquité et croit à l'éducation. Rabelais, Érasme et Montaigne en sont de grandes figures.",
+   "tip": "Humanisme = XVIe siècle = l'être humain et l'étude des textes anciens.",
+   "extraExample": {
+    "text": "Montaigne publie les premiers livres des Essais en 1580.",
+    "translation": "Il y écrit : « Que sais-je ? », devise du doute humaniste."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le romantisme",
+     "category": "word_confusion",
+     "feedback": "Le romantisme est un mouvement du XIXe siècle, 300 ans après Rabelais."
+    },
+    {
+     "equals": "le naturalisme",
+     "category": "word_confusion",
+     "feedback": "Le naturalisme est un mouvement littéraire du XIXe siècle (Zola)."
+    },
+    {
+     "equals": "le classicisme",
+     "category": "word_confusion",
+     "feedback": "Le classicisme domine le XVIIe siècle (Molière, Racine)."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e16",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.gustave_flaubert",
+    "cg.v.victor_hugo",
+    "cg.v.marcel_proust",
+    "cg.v.albert_camus"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Œuvres et dates de parution",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Notre-Dame de Paris",
+     "right": "1831"
+    },
+    {
+     "left": "Madame Bovary",
+     "right": "1857"
+    },
+    {
+     "left": "Les Misérables",
+     "right": "1862"
+    },
+    {
+     "left": "Du côté de chez Swann",
+     "right": "1913"
+    },
+    {
+     "left": "L'Étranger",
+     "right": "1942"
+    }
+   ],
+   "answer": "Notre-Dame de Paris = 1831 ; Madame Bovary = 1857 ; Les Misérables = 1862 ; Du côté de chez Swann = 1913 ; L'Étranger = 1942",
+   "acceptedAnswers": [],
+   "explanation": "Cinq jalons de la littérature française : Hugo (1831 et 1862), Flaubert (1857), Proust (1913) et Camus (1942). On voit passer du romantisme au réalisme, puis aux grands romans du XXe siècle.",
+   "tip": "Range-les en ligne du temps : 1831, 1857, 1862, 1913, 1942.",
+   "extraExample": {
+    "text": "Entre 1857 et 1862, Baudelaire, Flaubert et Hugo publient trois œuvres majeures.",
+    "translation": "Ces années sont l'un des sommets de la littérature française du XIXe siècle."
+   }
+  },
+  {
+   "id": "cg.l36.e17",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.moliere"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : Molière.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "1673",
+    "meurt",
+    "Le",
+    "Molière",
+    "imaginaire",
+    "joué",
+    "Malade",
+    "après",
+    "avoir",
+    "en"
+   ],
+   "answer": "Molière meurt en 1673 après avoir joué Le Malade imaginaire",
+   "acceptedAnswers": [
+    "Molière meurt en 1673 après avoir joué Le Malade imaginaire",
+    "En 1673 Molière meurt après avoir joué Le Malade imaginaire"
+   ],
+   "hint": "Pense à ce qui se passe après la représentation.",
+   "explanation": "Le repère : Molière, 1673, Le Malade imaginaire. Il se sent mal sur scène lors de la quatrième représentation, et meurt le soir même.",
+   "tip": "Qui (Molière), quand (1673), dans quelle pièce (Le Malade imaginaire).",
+   "extraExample": {
+    "text": "Molière jouait lui-même le rôle d'Argan, le malade imaginaire.",
+    "translation": "Il était à la fois auteur, metteur en scène et acteur."
+   }
+  },
+  {
+   "id": "cg.l36.e18",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.albert_camus"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel écrivain français, né en Algérie, a reçu le prix Nobel de littérature en 1957 ?",
+   "promptLanguage": "fr",
+   "answer": "Albert Camus",
+   "acceptedAnswers": [
+    "Albert Camus",
+    "Camus"
+   ],
+   "explanation": "Albert Camus reçoit le Nobel en 1957, à 44 ans, pour une œuvre qui met en lumière les problèmes de la conscience humaine. Il est l'auteur de L'Étranger et de La Peste.",
+   "tip": "Camus = Algérie + L'Étranger + Nobel 1957.",
+   "extraExample": {
+    "text": "Camus meurt en janvier 1960 dans un accident de voiture, deux ans après son prix Nobel.",
+    "translation": "Il avait 46 ans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sartre",
+     "category": "word_confusion",
+     "feedback": "Sartre est prix Nobel 1964, qu'il refuse ; Camus, lui, est né en Algérie et reçoit le prix en 1957."
+    },
+    {
+     "equals": "Jean-Paul Sartre",
+     "category": "word_confusion",
+     "feedback": "Sartre est prix Nobel 1964, qu'il refuse ; Camus, lui, est né en Algérie et reçoit le prix en 1957."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e19",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.jean_de_la_fontaine"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans la fable de La Fontaine, quel animal flatte le corbeau pour lui prendre son fromage ?",
+   "promptLanguage": "fr",
+   "answer": "le renard",
+   "acceptedAnswers": [
+    "le renard",
+    "renard",
+    "un renard",
+    "le Renard"
+   ],
+   "explanation": "Le renard, rusé, flatte le corbeau sur sa belle voix. Le corbeau ouvre le bec pour chanter, laisse tomber son fromage, et le renard s'en empare.",
+   "tip": "Le renard flatte, le corbeau se fait avoir : la morale est de se méfier des flatteurs.",
+   "extraExample": {
+    "text": "Dans « La Cigale et la Fourmi », la fourmi refuse de prêter à la cigale qui a chanté tout l'été.",
+    "translation": "La Fontaine y oppose l'imprévoyance et le travail."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le loup",
+     "category": "word_confusion",
+     "feedback": "Dans cette fable, c'est le renard qui flatte le corbeau ; le loup apparaît dans d'autres fables, comme « Le Loup et l'Agneau »."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e20",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.emile_zola"
+   ],
+   "type": "reorder",
+   "difficulty": 4,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'affaire Dreyfus.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "pour",
+    "le",
+    "Zola",
+    "publie",
+    "Dreyfus",
+    "capitaine",
+    "1898",
+    "en",
+    "J'accuse",
+    "défendre"
+   ],
+   "answer": "Zola publie J'accuse en 1898 pour défendre le capitaine Dreyfus",
+   "acceptedAnswers": [
+    "Zola publie J'accuse en 1898 pour défendre le capitaine Dreyfus",
+    "En 1898 Zola publie J'accuse pour défendre le capitaine Dreyfus"
+   ],
+   "hint": "La date de la lettre se trouve avant la mention de Dreyfus.",
+   "explanation": "Le repère : Zola, J'accuse, 1898, Dreyfus. Sa lettre ouverte relance l'affaire Dreyfus et divise la France.",
+   "tip": "Qui (Zola), quoi (J'accuse), quand (1898), pour qui (Dreyfus).",
+   "extraExample": {
+    "text": "La lettre de Zola est publiée à la une du journal L'Aurore, où écrit Georges Clemenceau.",
+    "translation": "Clemenceau deviendra président du Conseil en 1906, puis en 1917."
+   }
+  },
+  {
+   "id": "cg.l36.e21",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.marcel_proust"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le titre du premier volume d'À la recherche du temps perdu, publié par Marcel Proust en 1913 ?",
+   "promptLanguage": "fr",
+   "answer": "Du côté de chez Swann",
+   "acceptedAnswers": [
+    "Du côté de chez Swann",
+    "Swann",
+    "Du cote de chez Swann",
+    "Du côté de chez Swann."
+   ],
+   "explanation": "Du côté de chez Swann paraît en 1913. Il contient l'épisode de la madeleine et l'histoire de l'amour de Swann pour Odette. Le dernier volume, Le Temps retrouvé, paraît en 1927, cinq ans après la mort de Proust.",
+   "tip": "Premier volume : Swann (1913) ; dernier volume : Le Temps retrouvé (1927).",
+   "extraExample": {
+    "text": "Proust obtient le prix Goncourt en 1919 pour À l'ombre des jeunes filles en fleurs, le deuxième volume.",
+    "translation": "Cette récompense lui apporte enfin la célébrité."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Temps retrouvé",
+     "category": "word_confusion",
+     "feedback": "Le Temps retrouvé est le dernier volume (1927), pas le premier."
+    },
+    {
+     "equals": "À l'ombre des jeunes filles en fleurs",
+     "category": "word_confusion",
+     "feedback": "C'est le deuxième volume (1919) ; le premier est Du côté de chez Swann."
+    }
+   ]
+  },
+  {
+   "id": "cg.l36.e22",
+   "unitIds": [
+    "cg.g36.litterature_francaise",
+    "cg.v.academie_francaise"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle écrivaine est devenue, en 1980, la première femme élue à l'Académie française ?",
+   "promptLanguage": "fr",
+   "answer": "Marguerite Yourcenar",
+   "acceptedAnswers": [
+    "Marguerite Yourcenar",
+    "Yourcenar"
+   ],
+   "explanation": "Marguerite Yourcenar, auteure des Mémoires d'Hadrien (1951), est élue en 1980 : l'Académie, fondée en 1635, accueille enfin une femme. Elle est reçue officiellement en 1981.",
+   "tip": "Académie : fondée en 1635, première femme en 1980 (Yourcenar).",
+   "extraExample": {
+    "text": "Marguerite Yourcenar est née en Belgique, de nationalité française, et a vécu aux États-Unis.",
+    "translation": "Elle a été élue alors qu'elle résidait de l'autre côté de l'Atlantique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Marguerite Duras",
+     "category": "word_confusion",
+     "feedback": "Duras a reçu le prix Goncourt en 1984 pour L'Amant, mais n'a jamais été académicienne."
+    },
+    {
+     "equals": "Simone de Beauvoir",
+     "category": "word_confusion",
+     "feedback": "Simone de Beauvoir, philosophe et romancière, n'est jamais entrée à l'Académie."
+    }
+   ]
+  }
+ ]
+}

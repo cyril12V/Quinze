@@ -94,5 +94,53 @@
    ],
    "tip": "Regarde la voyelle avant ي / و : fatha + soukoun = ay / aw ; kasra ou damma sans soukoun = î / û."
   }
+ },
+ {
+  "id": "ar.g27.voyelles_longues_mots_grecs",
+  "rule": {
+   "summary": "Les noms des lectures du qoddâs viennent du grec et se lisent comme n'importe quel mot arabe vocalisé : chaque ا, و, ي après sa voyelle est long (â, û, î), et on lit le mot bloc par bloc.",
+   "explanation": "Le Paulus, le Catholicon, l'Ibraksis ou le Synaxaire ont des noms grecs écrits en lettres arabes. Ils font peur parce qu'ils sont longs, mais la méthode ne change pas : repère d'abord les voyelles longues (ـَا = â, ـُو = û, ـِي = î) puis coupe en blocs. الْكَاثُولِيكُون = al-kâ-thû-lî-kûn : quatre voyelles longues, donc quatre temps forts. Les lettres ث et ج gardent leur son (th, dj). L'article suit la règle de la leçon 25 : lunaire devant ب, ك, إ (al-bûlus, al-kâthûlîkûn, al-ibraksîs), solaire devant س (as-sinaksâr). Pense à marquer la longueur : بُولُس se lit bûlus, avec un û long, et non bulus.",
+   "pattern": "ـَا = â · ـُو = û · ـِي = î : on tient la voyelle deux fois plus longtemps",
+   "examples": [
+    {
+     "text": "الْبُولُس",
+     "translation": "la lecture de saint Paul : û long",
+     "transliteration": "al-bûlus"
+    },
+    {
+     "text": "الْكَاثُولِيكُون",
+     "translation": "les épîtres catholiques : â, û, î, û longs",
+     "transliteration": "al-kâthûlîkûn"
+    },
+    {
+     "text": "الْإِبْرَكْسِيس",
+     "translation": "les Actes des Apôtres : un seul î long, à la fin",
+     "transliteration": "al-ibraksîs"
+    },
+    {
+     "text": "السِّنَكْسَار",
+     "translation": "le Synaxaire : س solaire, â long",
+     "transliteration": "as-sinaksâr"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "الْبُولُس lu « al-bulus »",
+     "right": "al-bûlus",
+     "why": "Le و après la damma du ب allonge la voyelle : bû, pas bu."
+    },
+    {
+     "wrong": "السِّنَكْسَار lu « al-sinaksar »",
+     "right": "as-sinaksâr",
+     "why": "س est solaire (chadda) et le dernier ا est long : â."
+    },
+    {
+     "wrong": "الْكَاثُولِيكُون lu « al-katolikon »",
+     "right": "al-kâthûlîkûn",
+     "why": "ث se lit th, pas t, et chaque ا, و, ي marque une voyelle longue."
+    }
+   ],
+   "tip": "Souligne mentalement chaque ا, و, ي long : ce sont les temps forts du mot."
+  }
  }
 ]

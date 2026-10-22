@@ -700,5 +700,239 @@
    }
   ],
   "unitId": "cg.v.g20"
+ },
+ {
+  "id": "cg.d.pib",
+  "word": "le PIB",
+  "translation": "produit intérieur brut : valeur des biens et services produits dans un pays en un an",
+  "partOfSpeech": "concept",
+  "explanation": "Il sert à comparer la taille des économies. Le PIB par habitant (le PIB divisé par la population) donne une idée du niveau de vie moyen, mais cache les inégalités.",
+  "examples": [
+   {
+    "text": "Le PIB de la France est de l'ordre de 2 900 milliards d'euros (2024).",
+    "translation": "C'est l'une des plus grandes économies du monde."
+   },
+   {
+    "text": "Le PIB compte la valeur ajoutée : la valeur produite moins celle des produits déjà achetés pour la fabriquer.",
+    "translation": "Cela évite de compter deux fois la farine, puis le pain."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "RNB",
+    "note": "revenu national brut : revenus des habitants d'un pays, où qu'ils produisent ; le PIB compte ce qui est produit sur le territoire."
+   }
+  ],
+  "unitId": "cg.v.pib"
+ },
+ {
+  "id": "cg.d.croissance",
+  "word": "la croissance",
+  "translation": "hausse du PIB en volume d'une période à l'autre",
+  "partOfSpeech": "concept",
+  "explanation": "On la calcule en pourcentage, une fois l'inflation retirée. Deux trimestres consécutifs de baisse du PIB définissent couramment une récession.",
+  "examples": [
+   {
+    "text": "En France, la croissance dépasse souvent 5 % par an dans les années 1960.",
+    "translation": "Elle est beaucoup plus faible depuis les années 2000."
+   },
+   {
+    "text": "En 2020, la pandémie de Covid-19 provoque une récession mondiale historique.",
+    "translation": "Le PIB de la France recule très fortement, puis rebondit en 2021."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "développement",
+    "note": "il inclut aussi la santé, l'éducation, l'espérance de vie ; la croissance, elle, ne mesure que la production."
+   }
+  ],
+  "unitId": "cg.v.croissance"
+ },
+ {
+  "id": "cg.d.inflation",
+  "word": "l'inflation",
+  "translation": "hausse générale et durable des prix",
+  "partOfSpeech": "concept",
+  "explanation": "Elle réduit le pouvoir d'achat de la monnaie. En France, l'INSEE la mesure avec l'indice des prix à la consommation. L'inverse, la baisse générale des prix, est la déflation.",
+  "examples": [
+   {
+    "text": "En 1923, l'Allemagne connaît une hyperinflation : les prix doublent en quelques jours.",
+    "translation": "Un billet de banque ne vaut presque plus rien."
+   },
+   {
+    "text": "En 2022, l'inflation grimpe fortement dans le monde après la reprise qui suit le Covid-19 et la hausse des prix de l'énergie.",
+    "translation": "Les banques centrales relèvent alors leurs taux d'intérêt pour la freiner."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "désinflation",
+    "note": "ralentissement de l'inflation : les prix montent moins vite, mais ils ne baissent pas."
+   }
+  ],
+  "unitId": "cg.v.inflation"
+ },
+ {
+  "id": "cg.d.pouvoir_achat",
+  "word": "le pouvoir d'achat",
+  "translation": "quantité de biens et de services qu'un revenu permet d'acheter",
+  "partOfSpeech": "concept",
+  "explanation": "Il dépend du revenu et des prix : si les prix montent plus vite que les salaires, le pouvoir d'achat baisse.",
+  "examples": [
+   {
+    "text": "Avec un salaire qui augmente de 2 % quand les prix augmentent de 4 %, le pouvoir d'achat recule d'environ 2 %.",
+    "translation": "Ce qui compte, c'est l'écart entre l'évolution des revenus et celle des prix."
+   },
+   {
+    "text": "Le SMIC est revalorisé chaque année et plus tôt en cours d'année si l'inflation dépasse un seuil.",
+    "translation": "Cette règle protège le pouvoir d'achat des salariés les plus modestes."
+   }
+  ],
+  "unitId": "cg.v.pouvoir_achat"
+ },
+ {
+  "id": "cg.d.taux_interet",
+  "word": "le taux d'intérêt",
+  "translation": "prix à payer pour emprunter de l'argent, en pourcentage",
+  "partOfSpeech": "concept",
+  "explanation": "Une banque prête 1 000 € à 5 % par an : l'emprunteur rembourse 1 050 € au bout d'un an. Quand les taux montent, les crédits coûtent plus cher et la consommation ralentit.",
+  "examples": [
+   {
+    "text": "Quand la BCE relève ses taux directeurs, les crédits immobiliers deviennent plus chers.",
+    "translation": "Les ménages empruntent moins et achètent moins."
+   },
+   {
+    "text": "Le taux d'intérêt réel est le taux affiché moins l'inflation.",
+    "translation": "Avec 3 % d'intérêt et 4 % d'inflation, l'épargnant perd en pouvoir d'achat."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "taux de change",
+    "note": "prix d'une monnaie exprimé dans une autre (1 euro = x dollars) ; rien à voir avec le coût d'un crédit."
+   }
+  ],
+  "unitId": "cg.v.taux_interet"
+ },
+ {
+  "id": "cg.d.banque_centrale",
+  "word": "la banque centrale",
+  "translation": "institution qui émet la monnaie et fixe les taux directeurs",
+  "partOfSpeech": "organization",
+  "explanation": "Elle veille à la stabilité des prix et du système bancaire. Pour la zone euro, c'est la Banque centrale européenne (Francfort, 1998) ; pour le dollar, la Réserve fédérale (la Fed), créée en 1913.",
+  "examples": [
+   {
+    "text": "La BCE a pour objectif principal la stabilité des prix, avec une inflation proche de 2 %.",
+    "translation": "Elle est indépendante des gouvernements."
+   },
+   {
+    "text": "La Banque de France, fondée en 1800 par Napoléon Bonaparte, fait partie du système européen de banques centrales.",
+    "translation": "Depuis la naissance de l'euro, elle ne décide plus seule de la politique monétaire."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "banque commerciale",
+    "note": "banque qui reçoit des dépôts et accorde des crédits aux particuliers et aux entreprises ; elle emprunte elle-même auprès de la banque centrale."
+   }
+  ],
+  "unitId": "cg.v.banque_centrale"
+ },
+ {
+  "id": "cg.d.chomage",
+  "word": "le chômage",
+  "translation": "situation des personnes sans emploi qui en cherchent un",
+  "partOfSpeech": "concept",
+  "explanation": "Le taux de chômage est le nombre de chômeurs divisé par la population active (les personnes qui ont un emploi ou en cherchent un). En France, l'INSEE le calcule selon la définition du Bureau international du travail.",
+  "examples": [
+   {
+    "text": "Pour le BIT, un chômeur est sans emploi, disponible dans les quinze jours et en recherche active.",
+    "translation": "Une personne qui ne cherche plus de travail n'est pas comptée comme chômeuse."
+   },
+   {
+    "text": "France Travail, nom de Pôle emploi depuis 2024, enregistre les demandeurs d'emploi inscrits.",
+    "translation": "Ce nombre n'est pas le même que le taux de chômage de l'INSEE."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "population active",
+    "note": "ensemble des personnes qui ont un emploi ou en cherchent un ; les étudiants et les retraités n'en font pas partie."
+   }
+  ],
+  "unitId": "cg.v.chomage"
+ },
+ {
+  "id": "cg.d.deficit_public",
+  "word": "le déficit public",
+  "translation": "dépenses de l'État supérieures à ses recettes sur une année",
+  "partOfSpeech": "concept",
+  "explanation": "Il se mesure en pourcentage du PIB. Pour le financer, l'État emprunte sur les marchés financiers.",
+  "examples": [
+   {
+    "text": "Le traité de Maastricht fixe un repère de déficit de 3 % du PIB au maximum.",
+    "translation": "Ce plafond est repris dans le Pacte de stabilité et de croissance."
+   },
+   {
+    "text": "La France n'a plus connu d'excédent budgétaire depuis 1974.",
+    "translation": "Chaque année depuis, ses dépenses ont dépassé ses recettes."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "dette publique",
+    "note": "total des emprunts accumulés et pas encore remboursés ; le déficit n'est que l'écart de l'année."
+   }
+  ],
+  "unitId": "cg.v.deficit_public"
+ },
+ {
+  "id": "cg.d.dette_publique",
+  "word": "la dette publique",
+  "translation": "total des emprunts accumulés par les administrations publiques",
+  "partOfSpeech": "concept",
+  "explanation": "Elle augmente à chaque déficit. On la compare au PIB : en France, elle dépasse 100 % du PIB depuis 2020.",
+  "examples": [
+   {
+    "text": "L'État paie chaque année des intérêts sur sa dette, qui pèsent sur le budget.",
+    "translation": "Quand les taux d'intérêt montent, cette charge augmente."
+   },
+   {
+    "text": "Le Japon a une dette publique supérieure à 200 % de son PIB.",
+    "translation": "Le critère de Maastricht de 60 % est dépassé par plusieurs pays de la zone euro."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "dette privée",
+    "note": "dette des ménages et des entreprises, à ne pas confondre avec la dette de l'État."
+   }
+  ],
+  "unitId": "cg.v.dette_publique"
+ },
+ {
+  "id": "cg.d.smic",
+  "word": "le SMIC",
+  "translation": "salaire minimum interprofessionnel de croissance, plancher légal du salaire en France",
+  "partOfSpeech": "concept",
+  "explanation": "Créé en 1970, il remplace le SMIG (1950). Aucun salarié ne peut être payé en dessous. Il est revalorisé chaque année au 1er janvier, et plus tôt en cas de forte inflation.",
+  "examples": [
+   {
+    "text": "Le SMIC est défini sur une base horaire : on parle de SMIC horaire.",
+    "translation": "Le SMIC mensuel dépend du nombre d'heures travaillées."
+   },
+   {
+    "text": "L'Allemagne n'a introduit un salaire minimum légal qu'en 2015.",
+    "translation": "Avant, les salaires minimums dépendaient surtout des accords de branche."
+   }
+  ],
+  "confusions": [
+   {
+    "word": "SMIG",
+    "note": "salaire minimum interprofessionnel garanti (1950), ancêtre du SMIC : il n'était pas lié à la croissance."
+   }
+  ],
+  "unitId": "cg.v.smic"
  }
 ]

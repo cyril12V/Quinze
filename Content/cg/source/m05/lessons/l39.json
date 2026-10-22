@@ -1,0 +1,957 @@
+{
+ "lessonId": "cg.l39",
+ "exercises": [
+  {
+   "id": "cg.l39.e01",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.emmanuel_kant"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel philosophe allemand, né à Königsberg, est l'auteur de la Critique de la raison pure (1781) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "René Descartes",
+    "Karl Marx",
+    "Friedrich Nietzsche",
+    "Emmanuel Kant"
+   ],
+   "answer": "Emmanuel Kant",
+   "acceptedAnswers": [
+    "Emmanuel Kant"
+   ],
+   "explanation": "Kant publie la Critique de la raison pure en 1781. Il y étudie les limites de la connaissance : nous ne connaissons les choses que telles qu'elles nous apparaissent.",
+   "tip": "Kant = Königsberg = 1781.",
+   "extraExample": {
+    "text": "Königsberg s'appelle aujourd'hui Kaliningrad et appartient à la Russie.",
+    "translation": "Kant y est né en 1724, y a enseigné et y est mort en 1804."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Friedrich Nietzsche",
+     "category": "word_confusion",
+     "feedback": "Nietzsche naît en 1844, plus d'un demi-siècle après la Critique de la raison pure."
+    },
+    {
+     "equals": "Karl Marx",
+     "category": "word_confusion",
+     "feedback": "Marx naît en 1818, bien après 1781."
+    },
+    {
+     "equals": "René Descartes",
+     "category": "word_confusion",
+     "feedback": "Descartes est mort en 1650 et il est français."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e02",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.friedrich_nietzsche"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel philosophe allemand a écrit « Dieu est mort » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Voltaire",
+    "Jean-Paul Sartre",
+    "Friedrich Nietzsche",
+    "Karl Marx"
+   ],
+   "answer": "Friedrich Nietzsche",
+   "acceptedAnswers": [
+    "Friedrich Nietzsche"
+   ],
+   "explanation": "La formule apparaît dans Le Gai Savoir (1882) et revient dans Ainsi parlait Zarathoustra. Nietzsche ne se réjouit pas : il constate que les Européens ne croient plus vraiment en Dieu et s'inquiète du vide de valeurs qui en résulte.",
+   "tip": "« Dieu est mort » = Nietzsche = Zarathoustra.",
+   "extraExample": {
+    "text": "Nietzsche écrit aussi Par-delà le bien et le mal (1886).",
+    "translation": "Il y remet en cause les morales traditionnelles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Jean-Paul Sartre",
+     "category": "word_confusion",
+     "feedback": "Sartre est athée, mais cette formule ne vient pas de lui."
+    },
+    {
+     "equals": "Voltaire",
+     "category": "word_confusion",
+     "feedback": "Voltaire critique l'Église, mais il croit en un Dieu créateur ; la formule n'est pas de lui."
+    },
+    {
+     "equals": "Karl Marx",
+     "category": "word_confusion",
+     "feedback": "Marx a écrit que la religion est « l'opium du peuple », mais pas « Dieu est mort »."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e03",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.hannah_arendt",
+    "cg.v.sigmund_freud",
+    "cg.v.jean_paul_sartre",
+    "cg.v.simone_de_beauvoir",
+    "cg.v.friedrich_nietzsche"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Philosophes et œuvres",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Hannah Arendt",
+     "right": "Eichmann à Jérusalem"
+    },
+    {
+     "left": "Sigmund Freud",
+     "right": "L'Interprétation des rêves"
+    },
+    {
+     "left": "Jean-Paul Sartre",
+     "right": "L'Être et le Néant"
+    },
+    {
+     "left": "Simone de Beauvoir",
+     "right": "Le Deuxième Sexe"
+    },
+    {
+     "left": "Friedrich Nietzsche",
+     "right": "Ainsi parlait Zarathoustra"
+    }
+   ],
+   "answer": "Hannah Arendt = Eichmann à Jérusalem ; Sigmund Freud = L'Interprétation des rêves ; Jean-Paul Sartre = L'Être et le Néant ; Simone de Beauvoir = Le Deuxième Sexe ; Friedrich Nietzsche = Ainsi parlait Zarathoustra",
+   "acceptedAnswers": [],
+   "explanation": "Arendt écrit Eichmann à Jérusalem (1963), Freud L'Interprétation des rêves (1900), Sartre L'Être et le Néant (1943), Beauvoir Le Deuxième Sexe (1949) et Nietzsche Ainsi parlait Zarathoustra (1883-1885).",
+   "tip": "Un auteur, un titre : associe d'abord celui que tu connais le mieux.",
+   "extraExample": {
+    "text": "Ces cinq œuvres s'étalent sur plus de soixante ans, de 1883 à 1963.",
+    "translation": "Elles marquent l'histoire de la pensée moderne."
+   }
+  },
+  {
+   "id": "cg.l39.e04",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.imperatif_categorique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel principe moral Kant formule-t-il avec l'impératif catégorique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "faire ce qui est bon pour le plus grand nombre",
+    "agir selon une règle que l'on voudrait voir valable pour tous",
+    "faire ce qui rapporte le plus de plaisir",
+    "obéir toujours à l'autorité"
+   ],
+   "answer": "agir selon une règle que l'on voudrait voir valable pour tous",
+   "acceptedAnswers": [
+    "agir selon une règle que l'on voudrait voir valable pour tous"
+   ],
+   "explanation": "L'impératif catégorique est un test moral : avant d'agir, demande-toi si tu pourrais vouloir que la règle de ton action devienne une loi pour tous. Il est « catégorique » parce qu'il vaut sans condition, quel que soit le but poursuivi.",
+   "tip": "Catégorique = sans condition = valable pour tous.",
+   "extraExample": {
+    "text": "Mentir ou ne pas tenir une promesse échoue au test : si tout le monde le faisait, la confiance disparaîtrait.",
+    "translation": "Pour Kant, une action est morale quand elle respecte le devoir, pas quand elle rapporte quelque chose."
+   },
+   "errorPatterns": [
+    {
+     "equals": "faire ce qui rapporte le plus de plaisir",
+     "category": "word_confusion",
+     "feedback": "Kant refuse que la morale dépende du plaisir ou de l'intérêt."
+    },
+    {
+     "equals": "obéir toujours à l'autorité",
+     "category": "word_confusion",
+     "feedback": "Kant demande de penser par soi-même, pas d'obéir aveuglément."
+    },
+    {
+     "equals": "faire ce qui est bon pour le plus grand nombre",
+     "category": "word_confusion",
+     "feedback": "C'est l'utilitarisme de Bentham et Mill ; Kant juge l'action sur son principe, pas sur ses conséquences."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e05",
+   "unitIds": [
+    "cg.v.karl_marx",
+    "cg.g39.philosophie_moderne"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Dans le Manifeste du parti communiste (1848), Marx et Engels présentent l'histoire comme une lutte des ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "générations",
+    "classes",
+    "religions",
+    "nations"
+   ],
+   "answer": "classes",
+   "acceptedAnswers": [
+    "classes",
+    "classes sociales"
+   ],
+   "explanation": "Le Manifeste s'ouvre sur l'idée que l'histoire des sociétés est celle de la lutte des classes : bourgeois contre prolétaires dans la société industrielle.",
+   "tip": "Marx = classes sociales.",
+   "extraExample": {
+    "text": "Engels, fils d'un industriel de Manchester, soutient Marx pendant des années.",
+    "translation": "Leur amitié dure près de quarante ans."
+   },
+   "errorPatterns": [
+    {
+     "equals": "nations",
+     "category": "word_confusion",
+     "feedback": "Marx oppose des classes sociales, pas des nations."
+    },
+    {
+     "equals": "religions",
+     "category": "word_confusion",
+     "feedback": "Marx critique la religion, mais elle n'est pas le moteur de l'histoire selon lui."
+    },
+    {
+     "equals": "générations",
+     "category": "word_confusion",
+     "feedback": "Le conflit des générations n'est pas l'idée du Manifeste."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e06",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.sigmund_freud"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle discipline Sigmund Freud a-t-il fondée à Vienne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la psychiatrie",
+    "la psychanalyse",
+    "la psychologie expérimentale",
+    "la sociologie"
+   ],
+   "answer": "la psychanalyse",
+   "acceptedAnswers": [
+    "la psychanalyse"
+   ],
+   "explanation": "La psychanalyse repose sur la parole : le patient dit tout ce qui lui vient à l'esprit, et l'analyste l'aide à comprendre ce que cela révèle de ses désirs cachés.",
+   "tip": "Freud = psychanalyse = inconscient.",
+   "extraExample": {
+    "text": "Le cabinet de Freud, au 19 Berggasse à Vienne, est aujourd'hui un musée.",
+    "translation": "À Londres, sa dernière maison abrite aussi le Freud Museum."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la sociologie",
+     "category": "word_confusion",
+     "feedback": "La sociologie, qui étudie les sociétés, est surtout liée à Durkheim."
+    },
+    {
+     "equals": "la psychologie expérimentale",
+     "category": "word_confusion",
+     "feedback": "La psychologie expérimentale est née en laboratoire, en Allemagne, avec Wundt."
+    },
+    {
+     "equals": "la psychiatrie",
+     "category": "word_confusion",
+     "feedback": "La psychiatrie existait avant Freud : c'est une spécialité médicale."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e07",
+   "unitIds": [
+    "cg.v.vienne",
+    "cg.g39.philosophie_moderne",
+    "cg.v.sigmund_freud"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Freud vit à ___, capitale de l'Autriche, de 1891 à 1938, puis fuit à Londres après l'arrivée des nazis.",
+   "promptLanguage": "fr",
+   "options": [
+    "Vienne",
+    "Bratislava",
+    "Berne",
+    "Budapest"
+   ],
+   "answer": "Vienne",
+   "acceptedAnswers": [
+    "Vienne"
+   ],
+   "explanation": "Freud habite au 19 Berggasse, à Vienne, jusqu'en 1938. Après l'annexion de l'Autriche par l'Allemagne nazie, l'Anschluss, il quitte la ville pour Londres.",
+   "tip": "Freud = Vienne (capitale de l'Autriche).",
+   "extraExample": {
+    "text": "Mozart, Beethoven et Klimt ont vécu à Vienne.",
+    "translation": "Au tournant du XXe siècle, la ville est un grand foyer d'art et d'idées."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Berne",
+     "category": "word_confusion",
+     "feedback": "Berne est la capitale de la Suisse."
+    },
+    {
+     "equals": "Budapest",
+     "category": "word_confusion",
+     "feedback": "Budapest est la capitale de la Hongrie."
+    },
+    {
+     "equals": "Bratislava",
+     "category": "word_confusion",
+     "feedback": "Bratislava est la capitale de la Slovaquie."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e08",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.inconscient"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pour Freud, nos rêves, nos lapsus et nos actes manqués révèlent des désirs cachés dans ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "l'inconscient",
+    "la conscience",
+    "la volonté",
+    "la raison"
+   ],
+   "answer": "l'inconscient",
+   "acceptedAnswers": [
+    "l'inconscient",
+    "inconscient"
+   ],
+   "explanation": "Ce que nous ne voulons pas savoir est repoussé dans l'inconscient, mais continue d'agir : on le retrouve dans les rêves, les lapsus et les actes manqués.",
+   "tip": "Inconscient = ce qui agit à notre insu.",
+   "extraExample": {
+    "text": "Le mot « lapsus » vient du latin lapsus, « glissade ».",
+    "translation": "Un lapsus, c'est quand la langue glisse et dit autre chose que prévu."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la conscience",
+     "category": "word_confusion",
+     "feedback": "La conscience, c'est ce dont on s'aperçoit ; l'inconscient, c'est justement ce qui lui échappe."
+    },
+    {
+     "equals": "la volonté",
+     "category": "word_confusion",
+     "feedback": "Un lapsus n'est pas voulu : il échappe à la volonté."
+    },
+    {
+     "equals": "la raison",
+     "category": "word_confusion",
+     "feedback": "Les rêves et les lapsus ne suivent pas la raison."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e09",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.existentialisme"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que signifie la formule existentialiste « l'existence précède l'essence » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "les objets existent avant les idées",
+    "on est entièrement déterminé par sa naissance",
+    "l'âme existe avant le corps",
+    "on n'a pas de nature fixée d'avance : on se définit par ses choix"
+   ],
+   "answer": "on n'a pas de nature fixée d'avance : on se définit par ses choix",
+   "acceptedAnswers": [
+    "on n'a pas de nature fixée d'avance : on se définit par ses choix"
+   ],
+   "explanation": "Un couteau est fabriqué pour une fonction : son essence existe avant lui. L'être humain, lui, n'a pas de fonction donnée d'avance : il existe d'abord, puis se définit par ce qu'il fait.",
+   "tip": "Existence d'abord, définition ensuite.",
+   "extraExample": {
+    "text": "Pour Sartre, l'homme est « condamné à être libre » et donc responsable de ce qu'il devient.",
+    "translation": "L'angoisse naît de cette liberté totale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "on est entièrement déterminé par sa naissance",
+     "category": "word_confusion",
+     "feedback": "C'est le contraire de la pensée de Sartre, qui insiste sur la liberté."
+    },
+    {
+     "equals": "l'âme existe avant le corps",
+     "category": "word_confusion",
+     "feedback": "C'est une idée proche de Platon, pas de l'existentialisme."
+    },
+    {
+     "equals": "les objets existent avant les idées",
+     "category": "word_confusion",
+     "feedback": "La formule parle de l'être humain, pas des objets."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e10",
+   "unitIds": [
+    "cg.v.totalitarisme",
+    "cg.g39.philosophie_moderne",
+    "cg.v.hannah_arendt"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Hannah Arendt étudie le totalitarisme, régime qui prétend contrôler toute la société. Quels régimes du XXe siècle analyse-t-elle surtout ?",
+   "promptLanguage": "fr",
+   "options": [
+    "l'Allemagne nazie et l'URSS de Staline",
+    "la Révolution française et l'Empire napoléonien",
+    "l'Ancien Régime et la monarchie de Juillet",
+    "la Grèce de Périclès et la Rome d'Auguste"
+   ],
+   "answer": "l'Allemagne nazie et l'URSS de Staline",
+   "acceptedAnswers": [
+    "l'Allemagne nazie et l'URSS de Staline"
+   ],
+   "explanation": "Dans Les Origines du totalitarisme (1951), Arendt compare le régime nazi et le régime stalinien : parti unique, idéologie officielle, propagande, police politique et terreur.",
+   "tip": "Totalitarisme = nazisme + stalinisme (Arendt, 1951).",
+   "extraExample": {
+    "text": "Arendt a elle-même fui l'Allemagne nazie en 1933.",
+    "translation": "Elle écrit donc sur un régime qu'elle a vu de près."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la Révolution française et l'Empire napoléonien",
+     "category": "word_confusion",
+     "feedback": "Ces régimes sont du XVIIIe et du début du XIXe siècle ; le mot « totalitaire » désigne le XXe siècle."
+    },
+    {
+     "equals": "l'Ancien Régime et la monarchie de Juillet",
+     "category": "word_confusion",
+     "feedback": "Ce sont des monarchies du XVIIe au XIXe siècle, pas des régimes totalitaires."
+    },
+    {
+     "equals": "la Grèce de Périclès et la Rome d'Auguste",
+     "category": "word_confusion",
+     "feedback": "Ces régimes de l'Antiquité n'ont rien de totalitaire au sens moderne."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e11",
+   "unitIds": [
+    "cg.v.albert_camus",
+    "cg.g39.philosophie_moderne",
+    "cg.v.existentialisme"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel écrivain, auteur de L'Étranger (1942), a toujours refusé l'étiquette d'« existentialiste » et s'est brouillé avec Sartre ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Albert Camus",
+    "Gustave Flaubert",
+    "Marcel Proust",
+    "Émile Zola"
+   ],
+   "answer": "Albert Camus",
+   "acceptedAnswers": [
+    "Albert Camus"
+   ],
+   "explanation": "Albert Camus (1913-1960), prix Nobel de littérature en 1957, publie L'Étranger en 1942. Souvent rapproché de Sartre, il refuse l'étiquette d'existentialiste et rompt avec lui en 1952, après la publication de L'Homme révolté.",
+   "tip": "Camus = L'Étranger = l'absurde.",
+   "extraExample": {
+    "text": "Camus résume l'absurde dans Le Mythe de Sisyphe (1942).",
+    "translation": "Il y voit le décalage entre notre besoin de sens et le silence du monde."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Marcel Proust",
+     "category": "word_confusion",
+     "feedback": "Proust est l'auteur d'À la recherche du temps perdu."
+    },
+    {
+     "equals": "Émile Zola",
+     "category": "word_confusion",
+     "feedback": "Zola est l'auteur de Germinal et mort en 1902."
+    },
+    {
+     "equals": "Gustave Flaubert",
+     "category": "word_confusion",
+     "feedback": "Flaubert est l'auteur de Madame Bovary et mort en 1880."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e12",
+   "unitIds": [
+    "cg.v.les_lumieres",
+    "cg.g39.philosophie_moderne",
+    "cg.v.emmanuel_kant"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — En 1784, Kant répond à la question « Qu'est-ce que les Lumières ? ». Quelle idée résume sa réponse ?",
+   "promptLanguage": "fr",
+   "options": [
+    "obéir aux autorités sans discuter",
+    "chercher le plaisir avant tout",
+    "revenir aux traditions",
+    "oser penser par soi-même"
+   ],
+   "answer": "oser penser par soi-même",
+   "acceptedAnswers": [
+    "oser penser par soi-même"
+   ],
+   "explanation": "Pour Kant, les Lumières sont la sortie de l'homme hors d'une minorité dont il est lui-même responsable. Il invite chacun à oser penser par soi-même, sans attendre qu'un tuteur le fasse à sa place.",
+   "tip": "Lumières = penser par soi-même.",
+   "extraExample": {
+    "text": "Sa devise latine est Sapere aude, « ose savoir ».",
+    "translation": "Kant la reprend du poète romain Horace."
+   },
+   "errorPatterns": [
+    {
+     "equals": "obéir aux autorités sans discuter",
+     "category": "word_confusion",
+     "feedback": "C'est exactement l'état de minorité que Kant veut quitter."
+    },
+    {
+     "equals": "revenir aux traditions",
+     "category": "word_confusion",
+     "feedback": "Les Lumières critiquent les préjugés plutôt que de les suivre."
+    },
+    {
+     "equals": "chercher le plaisir avant tout",
+     "category": "word_confusion",
+     "feedback": "Ce n'est pas le sujet du texte de Kant."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e13",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.jean_paul_sartre"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quelle pièce de Sartre (1944) trois personnages enfermés ensemble découvrent-ils que « l'enfer, c'est les autres » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Mots",
+    "Les Mouches",
+    "La Nausée",
+    "Huis clos"
+   ],
+   "answer": "Huis clos",
+   "acceptedAnswers": [
+    "Huis clos"
+   ],
+   "explanation": "Huis clos met en scène Garcin, Inès et Estelle, enfermés dans un salon qui est en réalité l'enfer. Ils comprennent que le pire supplice est le regard des autres.",
+   "tip": "Huis clos = trois personnages + enfer.",
+   "extraExample": {
+    "text": "Sartre écrit aussi La Nausée (1938), roman sur le malaise d'Antoine Roquentin devant l'existence.",
+    "translation": "C'est l'un de ses livres les plus connus."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Nausée",
+     "category": "word_confusion",
+     "feedback": "La Nausée est un roman (1938), pas une pièce de théâtre."
+    },
+    {
+     "equals": "Les Mots",
+     "category": "word_confusion",
+     "feedback": "Les Mots (1964) est le récit autobiographique de l'enfance de Sartre."
+    },
+    {
+     "equals": "Les Mouches",
+     "category": "word_confusion",
+     "feedback": "Les Mouches (1943) est une pièce de Sartre inspirée du mythe d'Oreste, mais ce n'est pas celle de l'enfer."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e14",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.simone_de_beauvoir"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Dans ___ (1949), Simone de Beauvoir analyse la condition des femmes et écrit qu'on ne naît pas femme, on le devient.",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Mandarins",
+    "Le Deuxième Sexe",
+    "La Nausée",
+    "L'Être et le Néant"
+   ],
+   "answer": "Le Deuxième Sexe",
+   "acceptedAnswers": [
+    "Le Deuxième Sexe",
+    "Le Deuxième Sexe (1949)"
+   ],
+   "explanation": "Le Deuxième Sexe étudie comment la société fabrique la place des femmes. La phrase « On ne naît pas femme, on le devient » résume cette idée : les rôles féminins ne sont pas donnés par la nature mais appris.",
+   "tip": "Beauvoir = Le Deuxième Sexe = 1949.",
+   "extraExample": {
+    "text": "Beauvoir est enterrée au cimetière du Montparnasse, dans la même tombe que Sartre.",
+    "translation": "Elle y rejoint Sartre en 1986, six ans après sa mort."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Être et le Néant",
+     "category": "word_confusion",
+     "feedback": "L'Être et le Néant (1943) est l'œuvre philosophique de Sartre."
+    },
+    {
+     "equals": "Les Mandarins",
+     "category": "word_confusion",
+     "feedback": "Les Mandarins (prix Goncourt 1954) est un roman de Beauvoir, mais pas l'essai sur la condition des femmes."
+    },
+    {
+     "equals": "La Nausée",
+     "category": "word_confusion",
+     "feedback": "La Nausée est un roman de Sartre (1938)."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e15",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.hannah_arendt"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Après le procès d'Eichmann à Jérusalem, Hannah Arendt parle de la « banalité du ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "bien",
+    "hasard",
+    "pouvoir",
+    "mal"
+   ],
+   "answer": "mal",
+   "acceptedAnswers": [
+    "mal",
+    "le mal"
+   ],
+   "explanation": "Dans Eichmann à Jérusalem (1963), Arendt décrit un fonctionnaire ordinaire qui a obéi sans réfléchir. Elle parle de « banalité du mal » : de grands crimes peuvent être commis par des gens ordinaires qui cessent de penser par eux-mêmes.",
+   "tip": "Arendt = Eichmann = banalité du mal.",
+   "extraExample": {
+    "text": "L'expression ne veut pas dire que le mal est sans gravité.",
+    "translation": "Elle veut dire qu'il n'a pas besoin de monstres pour exister."
+   },
+   "errorPatterns": [
+    {
+     "equals": "bien",
+     "category": "word_confusion",
+     "feedback": "Arendt parle du mal, pas du bien."
+    },
+    {
+     "equals": "pouvoir",
+     "category": "word_confusion",
+     "feedback": "L'expression célèbre est « banalité du mal », pas « du pouvoir »."
+    },
+    {
+     "equals": "hasard",
+     "category": "word_confusion",
+     "feedback": "Le mot « hasard » ne fait pas partie de l'expression."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e16",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.libre_arbitre",
+    "cg.v.inconscient"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Notions clés et définitions",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "le libre arbitre",
+     "right": "pouvoir de choisir ses actes sans contrainte"
+    },
+    {
+     "left": "l'inconscient",
+     "right": "ce qui agit en nous à notre insu"
+    },
+    {
+     "left": "le déterminisme",
+     "right": "tout événement a une cause qui le précède"
+    },
+    {
+     "left": "la conscience",
+     "right": "ce dont nous avons une connaissance immédiate"
+    }
+   ],
+   "answer": "le libre arbitre = pouvoir de choisir ses actes sans contrainte ; l'inconscient = ce qui agit en nous à notre insu ; le déterminisme = tout événement a une cause qui le précède ; la conscience = ce dont nous avons une connaissance immédiate",
+   "acceptedAnswers": [],
+   "explanation": "Le libre arbitre est le pouvoir de choisir ; l'inconscient agit à notre insu ; le déterminisme affirme que tout a une cause antérieure ; la conscience est la connaissance immédiate de nos pensées et sensations.",
+   "tip": "Conscience et inconscient s'opposent ; libre arbitre et déterminisme aussi.",
+   "extraExample": {
+    "text": "Ces notions reviennent dans les épreuves de culture générale et de philosophie.",
+    "translation": "Savoir les définir en une phrase est déjà un bon début."
+   }
+  },
+  {
+   "id": "cg.l39.e17",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.libre_arbitre"
+   ],
+   "type": "mcq",
+   "difficulty": 4,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel mot désigne la thèse opposée au libre arbitre, selon laquelle tout événement, y compris nos choix, est causé par ce qui le précède ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le relativisme",
+    "le déterminisme",
+    "l'humanisme",
+    "le scepticisme"
+   ],
+   "answer": "le déterminisme",
+   "acceptedAnswers": [
+    "le déterminisme"
+   ],
+   "explanation": "Le déterminisme est la thèse selon laquelle chaque événement a des causes qui le précèdent, y compris nos décisions. Si c'est vrai, notre liberté serait une illusion. Le libre arbitre défend l'inverse : nous pouvons choisir autrement.",
+   "tip": "Déterminisme = tout a une cause ; libre arbitre = je choisis.",
+   "extraExample": {
+    "text": "Spinoza (1632-1677) pense que les hommes se croient libres parce qu'ils ignorent les causes qui les font agir.",
+    "translation": "C'est l'une des défenses les plus célèbres du déterminisme."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le scepticisme",
+     "category": "word_confusion",
+     "feedback": "Le scepticisme doute qu'on puisse atteindre la vérité."
+    },
+    {
+     "equals": "le relativisme",
+     "category": "word_confusion",
+     "feedback": "Le relativisme dit que les valeurs ou les vérités dépendent du point de vue."
+    },
+    {
+     "equals": "l'humanisme",
+     "category": "word_confusion",
+     "feedback": "L'humanisme place l'être humain au centre de la réflexion ; ce n'est pas le contraire du libre arbitre."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e18",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.friedrich_nietzsche",
+    "cg.v.jean_paul_sartre",
+    "cg.v.simone_de_beauvoir",
+    "cg.v.karl_marx"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Formules célèbres et auteurs",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "« Dieu est mort »",
+     "right": "Friedrich Nietzsche"
+    },
+    {
+     "left": "« L'enfer, c'est les autres »",
+     "right": "Jean-Paul Sartre"
+    },
+    {
+     "left": "« On ne naît pas femme, on le devient »",
+     "right": "Simone de Beauvoir"
+    },
+    {
+     "left": "« Prolétaires de tous les pays, unissez-vous ! »",
+     "right": "Karl Marx"
+    }
+   ],
+   "answer": "« Dieu est mort » = Friedrich Nietzsche ; « L'enfer, c'est les autres » = Jean-Paul Sartre ; « On ne naît pas femme, on le devient » = Simone de Beauvoir ; « Prolétaires de tous les pays, unissez-vous ! » = Karl Marx",
+   "acceptedAnswers": [],
+   "explanation": "Nietzsche écrit « Dieu est mort », Sartre « L'enfer, c'est les autres » (Huis clos), Beauvoir « On ne naît pas femme, on le devient » (Le Deuxième Sexe), Marx (avec Engels) « Prolétaires de tous les pays, unissez-vous ! ».",
+   "tip": "Une formule, un auteur : quatre phrases à reconnaître au vol.",
+   "extraExample": {
+    "text": "Le Manifeste du parti communiste (1848) est signé par Marx et Engels.",
+    "translation": "Marx en est le plus célèbre rédacteur."
+   }
+  },
+  {
+   "id": "cg.l39.e19",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.jean_paul_sartre"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'existentialisme.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "précède",
+    "l'essence",
+    "affirme",
+    "l'existence",
+    "que",
+    "Sartre"
+   ],
+   "answer": "Sartre affirme que l'existence précède l'essence",
+   "acceptedAnswers": [
+    "Sartre affirme que l'existence précède l'essence"
+   ],
+   "hint": "Commence par le nom du philosophe.",
+   "explanation": "Le repère : Sartre, existentialisme, l'existence avant l'essence.",
+   "tip": "Qui (Sartre), quoi (l'existence précède l'essence).",
+   "extraExample": {
+    "text": "Le texte de référence est la conférence « L'existentialisme est un humanisme » (1945).",
+    "translation": "Elle est publiée en 1946."
+   }
+  },
+  {
+   "id": "cg.l39.e20",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.emmanuel_kant",
+    "cg.v.imperatif_categorique"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le principe moral de Kant qui demande d'agir selon une règle que l'on pourrait vouloir universelle ?",
+   "promptLanguage": "fr",
+   "answer": "l'impératif catégorique",
+   "acceptedAnswers": [
+    "l'impératif catégorique",
+    "impératif catégorique",
+    "imperatif categorique",
+    "l'imperatif categorique"
+   ],
+   "explanation": "Kant formule l'impératif catégorique dans les Fondements de la métaphysique des mœurs (1785). Il est « catégorique » parce qu'il vaut sans condition, quel que soit le but poursuivi.",
+   "tip": "Impératif catégorique = devoir sans condition.",
+   "extraExample": {
+    "text": "Kant parle aussi d'un impératif « hypothétique », qui dépend d'un but : « si tu veux réussir, travaille ».",
+    "translation": "Le catégorique, lui, ne dépend d'aucun but."
+   },
+   "errorPatterns": [
+    {
+     "equals": "l'impératif hypothétique",
+     "category": "word_confusion",
+     "feedback": "L'impératif hypothétique dépend d'un but ; le principe moral de Kant est, lui, sans condition : c'est l'impératif catégorique."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e21",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.friedrich_nietzsche"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel philosophe allemand a écrit Ainsi parlait Zarathoustra (1883-1885) ?",
+   "promptLanguage": "fr",
+   "answer": "Friedrich Nietzsche",
+   "acceptedAnswers": [
+    "Friedrich Nietzsche",
+    "Nietzsche",
+    "F. Nietzsche"
+   ],
+   "explanation": "Nietzsche écrit Ainsi parlait Zarathoustra entre 1883 et 1885. Le prophète Zarathoustra y annonce le « surhomme » et reprend la formule « Dieu est mort ».",
+   "tip": "Zarathoustra = Nietzsche.",
+   "extraExample": {
+    "text": "Le compositeur Richard Strauss s'en inspire pour un poème symphonique (1896).",
+    "translation": "Son début est connu pour avoir servi de musique au film 2001, l'Odyssée de l'espace (1968)."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Kant",
+     "category": "word_confusion",
+     "feedback": "Kant est mort en 1804, près de quatre-vingts ans avant Zarathoustra."
+    },
+    {
+     "equals": "Karl Marx",
+     "category": "word_confusion",
+     "feedback": "Marx est l'auteur du Capital et du Manifeste, pas de Zarathoustra."
+    },
+    {
+     "equals": "Freud",
+     "category": "word_confusion",
+     "feedback": "Freud est le père de la psychanalyse ; Zarathoustra est de Nietzsche."
+    }
+   ]
+  },
+  {
+   "id": "cg.l39.e22",
+   "unitIds": [
+    "cg.g39.philosophie_moderne",
+    "cg.v.sigmund_freud",
+    "cg.v.inconscient"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on la méthode de soin fondée par Freud, qui soigne par la parole en explorant l'inconscient ?",
+   "promptLanguage": "fr",
+   "answer": "la psychanalyse",
+   "acceptedAnswers": [
+    "la psychanalyse",
+    "psychanalyse",
+    "la cure psychanalytique",
+    "cure psychanalytique"
+   ],
+   "explanation": "La psychanalyse est née à Vienne autour de 1900. Le patient parle librement, et l'analyste l'aide à comprendre ses désirs et ses peurs refoulés.",
+   "tip": "Psychanalyse = soigner par la parole.",
+   "extraExample": {
+    "text": "Le divan sur lequel s'allonge le patient est devenu le symbole de la psychanalyse.",
+    "translation": "Celui de Freud est conservé à Londres, au Freud Museum."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la psychologie",
+     "category": "word_confusion",
+     "feedback": "La psychologie est une discipline plus large ; la méthode de Freud s'appelle la psychanalyse."
+    },
+    {
+     "equals": "la psychiatrie",
+     "category": "word_confusion",
+     "feedback": "La psychiatrie est une spécialité médicale ; la méthode de Freud s'appelle la psychanalyse."
+    }
+   ]
+  }
+ ]
+}

@@ -56,6 +56,16 @@
    "difficulty": 4,
    "prerequisites": [],
    "functionWords": []
+  },
+  {
+   "id": "cg.g39.philosophie_moderne",
+   "category": "knowledge",
+   "title": "La philosophie moderne et les notions clés",
+   "difficulty": 4,
+   "prerequisites": [
+    "cg.g38.philosophes_antiquite_lumieres"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -513,6 +523,83 @@
      "slug": "jean_jacques_rousseau",
      "translation": "philosophe genevois (1712-1778), auteur du Contrat social (1762)",
      "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "cg.l39",
+   "sequence": 39,
+   "title": "Philosophie moderne et notions clés",
+   "description": "Kant, Nietzsche, Freud, Sartre, Beauvoir et Arendt : les penseurs des deux derniers siècles et les grandes notions (devoir, inconscient, liberté) qui reviennent partout.",
+   "difficulty": 4,
+   "grammarUnitId": "cg.g39.philosophie_moderne",
+   "introducesGrammar": true,
+   "reviews": [
+    "cg.g38.philosophes_antiquite_lumieres",
+    "cg.g10.europe_capitales",
+    "cg.g36.litterature_francaise",
+    "cg.g31.idees_politiques"
+   ],
+   "vocabulary": [
+    {
+     "word": "Emmanuel Kant",
+     "slug": "emmanuel_kant",
+     "translation": "philosophe allemand (1724-1804), auteur de la Critique de la raison pure",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'impératif catégorique",
+     "slug": "imperatif_categorique",
+     "translation": "principe moral de Kant : n'agir que selon une règle que l'on pourrait vouloir universelle",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Friedrich Nietzsche",
+     "slug": "friedrich_nietzsche",
+     "translation": "philosophe allemand (1844-1900), auteur d'Ainsi parlait Zarathoustra et de la formule « Dieu est mort »",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Hannah Arendt",
+     "slug": "hannah_arendt",
+     "translation": "philosophe allemande puis américaine (1906-1975), auteure d'Eichmann à Jérusalem",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Sigmund Freud",
+     "slug": "sigmund_freud",
+     "translation": "médecin autrichien (1856-1939), fondateur de la psychanalyse",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'inconscient",
+     "slug": "inconscient",
+     "translation": "ensemble des pensées et des désirs qui agissent sur nous sans que nous en ayons conscience",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'existentialisme",
+     "slug": "existentialisme",
+     "translation": "courant philosophique selon lequel l'être humain se définit par ses choix et ses actes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Jean-Paul Sartre",
+     "slug": "jean_paul_sartre",
+     "translation": "philosophe et écrivain français (1905-1980), figure de l'existentialisme",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Simone de Beauvoir",
+     "slug": "simone_de_beauvoir",
+     "translation": "philosophe et écrivaine française (1908-1986), auteure du Deuxième Sexe (1949)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le libre arbitre",
+     "slug": "libre_arbitre",
+     "translation": "pouvoir de choisir ses actes par sa propre volonté, sans y être contraint",
+     "partOfSpeech": "concept"
     }
    ]
   }

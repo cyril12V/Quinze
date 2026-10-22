@@ -1,0 +1,889 @@
+{
+ "lessonId": "cg.l07",
+ "exercises": [
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.adolf_hitler",
+    "cg.v.winston_churchill",
+    "cg.v.charles_de_gaulle",
+    "cg.v.jean_moulin",
+    "cg.v.regime_de_vichy"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les figures de 1939-1945",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Hitler",
+     "right": "chef du régime nazi, chancelier en 1933"
+    },
+    {
+     "left": "Churchill",
+     "right": "Premier ministre britannique à partir de mai 1940"
+    },
+    {
+     "left": "De Gaulle",
+     "right": "appel du 18 juin 1940 à Londres"
+    },
+    {
+     "left": "Jean Moulin",
+     "right": "unificateur de la Résistance intérieure"
+    },
+    {
+     "left": "Régime de Vichy",
+     "right": "« État français » du maréchal Pétain"
+    }
+   ],
+   "answer": "Hitler = chef du régime nazi, chancelier en 1933 ; Churchill = Premier ministre britannique à partir de mai 1940 ; De Gaulle = appel du 18 juin 1940 à Londres ; Jean Moulin = unificateur de la Résistance intérieure ; Régime de Vichy = « État français » du maréchal Pétain",
+   "acceptedAnswers": [],
+   "explanation": "Hitler dirige l'Allemagne nazie ; Churchill refuse de céder ; de Gaulle appelle à continuer la lutte ; Jean Moulin unifie la Résistance ; Vichy est le régime de Pétain, qui collabore.",
+   "tip": "Un nom, un rôle : pour chaque figure, retiens l'acte qui la définit.",
+   "extraExample": {
+    "text": "Les « Trois Grands » de 1945 sont Roosevelt, Churchill et Staline.",
+    "translation": "Ils se rencontrent à Yalta en février 1945."
+   },
+   "id": "cg.l07.e01"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.adolf_hitler"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui devient chancelier d'Allemagne en janvier 1933 et fait du pays une dictature nazie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Adolf Hitler",
+    "Benito Mussolini",
+    "Joseph Staline",
+    "Francisco Franco"
+   ],
+   "answer": "Adolf Hitler",
+   "acceptedAnswers": [
+    "Adolf Hitler"
+   ],
+   "explanation": "Nommé chancelier le 30 janvier 1933, Hitler supprime rapidement les libertés et instaure une dictature raciste et expansionniste, le Troisième Reich.",
+   "tip": "Hitler = Allemagne nazie.",
+   "extraExample": {
+    "text": "Hitler est né en Autriche, en 1889.",
+    "translation": "Il prend la nationalité allemande en 1932."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Benito Mussolini",
+     "category": "word_confusion",
+     "feedback": "Mussolini dirige l'Italie fasciste, alliée de l'Allemagne."
+    },
+    {
+     "equals": "Joseph Staline",
+     "category": "word_confusion",
+     "feedback": "Staline dirige l'URSS, d'abord liée à Hitler par un pacte (1939), puis attaquée par lui (1941)."
+    },
+    {
+     "equals": "Francisco Franco",
+     "category": "word_confusion",
+     "feedback": "Franco dirige l'Espagne, officiellement neutre pendant la guerre."
+    }
+   ],
+   "id": "cg.l07.e02"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.accords_de_munich"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'obtient Hitler aux accords de Munich, en septembre 1938 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Sudètes, une région de la Tchécoslovaquie",
+    "L'Alsace-Lorraine",
+    "Le droit d'envahir la Pologne",
+    "L'Autriche"
+   ],
+   "answer": "Les Sudètes, une région de la Tchécoslovaquie",
+   "acceptedAnswers": [
+    "Les Sudètes, une région de la Tchécoslovaquie"
+   ],
+   "explanation": "À Munich, la France et le Royaume-Uni acceptent que l'Allemagne annexe les Sudètes, en espérant ainsi préserver la paix. Moins de six mois plus tard, Hitler occupe le reste de la Tchécoslovaquie : la politique d'apaisement a échoué.",
+   "tip": "Munich 1938 : on cède les Sudètes pour sauver la paix, et la guerre vient quand même.",
+   "extraExample": {
+    "text": "La Tchécoslovaquie n'est pas invitée à la conférence qui décide de son sort.",
+    "translation": "Cela choque beaucoup de contemporains."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Alsace-Lorraine",
+     "category": "word_confusion",
+     "feedback": "L'Alsace-Lorraine est revenue à la France en 1919."
+    },
+    {
+     "equals": "Le droit d'envahir la Pologne",
+     "category": "word_confusion",
+     "feedback": "Personne n'autorise l'invasion de la Pologne, qui a lieu en septembre 1939."
+    },
+    {
+     "equals": "L'Autriche",
+     "category": "word_confusion",
+     "feedback": "L'Autriche est annexée en mars 1938 (l'Anschluss), avant la conférence de Munich."
+    }
+   ],
+   "id": "cg.l07.e03"
+  },
+  {
+   "unitIds": [
+    "cg.v.traite_de_versailles",
+    "cg.g07.seconde_guerre_mondiale"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel traité de 1919, jugé humiliant par beaucoup d'Allemands, Hitler dénonce-t-il sans cesse dans sa propagande ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le traité de Versailles",
+    "Le traité de Francfort",
+    "Le traité de Verdun",
+    "L'armistice de Rethondes"
+   ],
+   "answer": "Le traité de Versailles",
+   "acceptedAnswers": [
+    "Le traité de Versailles"
+   ],
+   "explanation": "Le traité de Versailles (1919) rend l'Allemagne responsable de la guerre et lui impose des réparations. Hitler en fait un argument pour sa propagande et le remet en cause dès son arrivée au pouvoir.",
+   "tip": "Versailles 1919 : l'humiliation sur laquelle Hitler s'appuie.",
+   "extraExample": {
+    "text": "En 1936, l'armée allemande réoccupe la Rhénanie, zone démilitarisée par le traité.",
+    "translation": "La France et le Royaume-Uni ne réagissent pas militairement."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le traité de Francfort",
+     "category": "word_confusion",
+     "feedback": "Le traité de Francfort (1871) donne l'Alsace-Moselle à l'Allemagne après la guerre de 1870."
+    },
+    {
+     "equals": "Le traité de Verdun",
+     "category": "word_confusion",
+     "feedback": "Le traité de Verdun (843) partage l'empire de Charlemagne."
+    },
+    {
+     "equals": "L'armistice de Rethondes",
+     "category": "word_confusion",
+     "feedback": "L'armistice de Rethondes arrête les combats en 1918 : ce n'est pas un traité de paix."
+    }
+   ],
+   "id": "cg.l07.e04"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.regime_de_vichy"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que fait le régime de Vichy après la défaite de 1940 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il collabore avec l'Allemagne nazie et remplace la République par l'« État français »",
+    "Il continue la guerre depuis Londres",
+    "Il rétablit la monarchie",
+    "Il déclare la guerre à l'Allemagne"
+   ],
+   "answer": "Il collabore avec l'Allemagne nazie et remplace la République par l'« État français »",
+   "acceptedAnswers": [
+    "Il collabore avec l'Allemagne nazie et remplace la République par l'« État français »"
+   ],
+   "explanation": "Dirigé par le maréchal Pétain, le régime de Vichy met fin à la Troisième République, remplace la devise par « Travail, Famille, Patrie », collabore avec l'Allemagne nazie et persécute les Juifs.",
+   "tip": "Vichy = collaboration ; Londres = Résistance.",
+   "extraExample": {
+    "text": "En juin 1940, Pétain affirme qu'il faut « cesser le combat ».",
+    "translation": "Pour de Gaulle, au contraire, la défaite n'est pas définitive."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il continue la guerre depuis Londres",
+     "category": "word_confusion",
+     "feedback": "C'est ce que fait de Gaulle, avec la France libre, pas le régime de Pétain."
+    },
+    {
+     "equals": "Il rétablit la monarchie",
+     "category": "word_confusion",
+     "feedback": "Vichy est une dictature, mais n'est pas une monarchie."
+    },
+    {
+     "equals": "Il déclare la guerre à l'Allemagne",
+     "category": "word_confusion",
+     "feedback": "Au contraire, Vichy collabore avec l'Allemagne."
+    }
+   ],
+   "id": "cg.l07.e05"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.charles_de_gaulle"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que fait le général de Gaulle le 18 juin 1940 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il lance depuis Londres, à la radio, un appel à continuer la lutte",
+    "Il signe l'armistice avec l'Allemagne",
+    "Il prend la tête du régime de Vichy",
+    "Il libère Paris"
+   ],
+   "answer": "Il lance depuis Londres, à la radio, un appel à continuer la lutte",
+   "acceptedAnswers": [
+    "Il lance depuis Londres, à la radio, un appel à continuer la lutte"
+   ],
+   "explanation": "Au lendemain de la demande d'armistice de Pétain, de Gaulle s'exprime sur la BBC pour appeler les Français à poursuivre le combat. Ce jour-là, peu de Français l'entendent, mais l'appel est devenu le symbole de la Résistance.",
+   "tip": "18 juin 1940 = l'appel de Londres.",
+   "extraExample": {
+    "text": "De Gaulle est alors un général de brigade encore peu connu.",
+    "translation": "Il avait été nommé sous-secrétaire d'État à la Guerre quelques jours auparavant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il signe l'armistice avec l'Allemagne",
+     "category": "word_confusion",
+     "feedback": "L'armistice est demandé par Pétain, que de Gaulle refuse."
+    },
+    {
+     "equals": "Il prend la tête du régime de Vichy",
+     "category": "word_confusion",
+     "feedback": "Le régime de Vichy est dirigé par Pétain, adversaire de de Gaulle."
+    },
+    {
+     "equals": "Il libère Paris",
+     "category": "word_confusion",
+     "feedback": "Paris est libérée en août 1944, quatre ans plus tard."
+    }
+   ],
+   "id": "cg.l07.e06"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.jean_moulin"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel rôle joue Jean Moulin dans la Résistance ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il unifie les mouvements de résistance sous l'autorité de de Gaulle",
+    "Il commande le débarquement de Normandie",
+    "Il dirige la police du régime de Vichy",
+    "Il est le chef de l'armée allemande en France"
+   ],
+   "answer": "Il unifie les mouvements de résistance sous l'autorité de de Gaulle",
+   "acceptedAnswers": [
+    "Il unifie les mouvements de résistance sous l'autorité de de Gaulle"
+   ],
+   "explanation": "Envoyé en France par de Gaulle, Jean Moulin réussit à rassembler les mouvements de résistance, avec la création du Conseil national de la Résistance en mai 1943. Arrêté à Caluire en juin 1943, il meurt sous la torture.",
+   "tip": "Moulin = l'unité de la Résistance.",
+   "extraExample": {
+    "text": "Ses cendres sont transférées au Panthéon en 1964.",
+    "translation": "Le discours de Malraux est un grand moment de la mémoire nationale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il commande le débarquement de Normandie",
+     "category": "word_confusion",
+     "feedback": "Le débarquement est commandé par le général américain Eisenhower."
+    },
+    {
+     "equals": "Il dirige la police du régime de Vichy",
+     "category": "word_confusion",
+     "feedback": "Moulin est, au contraire, révoqué par Vichy."
+    }
+   ],
+   "id": "cg.l07.e07"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.shoah"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que désigne le mot « Shoah » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'extermination des Juifs d'Europe par les nazis",
+    "Le travail obligatoire des Français en Allemagne",
+    "Les bombardements des villes allemandes",
+    "L'occupation de la zone libre en 1942"
+   ],
+   "answer": "L'extermination des Juifs d'Europe par les nazis",
+   "acceptedAnswers": [
+    "L'extermination des Juifs d'Europe par les nazis"
+   ],
+   "explanation": "Shoah est un mot hébreu qui signifie « catastrophe ». Il désigne le génocide d'environ six millions de Juifs d'Europe, assassinés par les nazis et leurs complices entre 1941 et 1945.",
+   "tip": "Shoah = le génocide des Juifs d'Europe, environ 6 millions de morts.",
+   "extraExample": {
+    "text": "Auschwitz est libéré le 27 janvier 1945 par l'armée soviétique.",
+    "translation": "Cette date est la Journée internationale de commémoration."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le travail obligatoire des Français en Allemagne",
+     "category": "word_confusion",
+     "feedback": "C'est le STO (service du travail obligatoire), une autre réalité de l'Occupation."
+    },
+    {
+     "equals": "Les bombardements des villes allemandes",
+     "category": "word_confusion",
+     "feedback": "Les bombardements alliés sont une opération militaire, pas un génocide."
+    },
+    {
+     "equals": "L'occupation de la zone libre en 1942",
+     "category": "word_confusion",
+     "feedback": "L'occupation de la zone libre, en novembre 1942, n'a rien à voir avec ce mot."
+    }
+   ],
+   "id": "cg.l07.e08"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.pearl_harbor"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que se passe-t-il le 7 décembre 1941 à Pearl Harbor ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Japon attaque par surprise la flotte américaine, et les États-Unis entrent en guerre",
+    "Les Alliés débarquent sur la côte",
+    "Les États-Unis larguent la bombe atomique",
+    "L'Allemagne attaque l'URSS"
+   ],
+   "answer": "Le Japon attaque par surprise la flotte américaine, et les États-Unis entrent en guerre",
+   "acceptedAnswers": [
+    "Le Japon attaque par surprise la flotte américaine, et les États-Unis entrent en guerre"
+   ],
+   "explanation": "L'attaque japonaise sur la base d'Hawaï fait plus de 2 400 morts américains. Le lendemain, les États-Unis déclarent la guerre au Japon : la guerre devient véritablement mondiale.",
+   "tip": "Pearl Harbor = les États-Unis entrent en guerre.",
+   "extraExample": {
+    "text": "Roosevelt parle d'un « jour qui restera dans l'infamie ».",
+    "translation": "Les États-Unis mobilisent ensuite toute leur industrie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les Alliés débarquent sur la côte",
+     "category": "word_confusion",
+     "feedback": "Le débarquement de Normandie a lieu le 6 juin 1944."
+    },
+    {
+     "equals": "Les États-Unis larguent la bombe atomique",
+     "category": "word_confusion",
+     "feedback": "La bombe atomique est larguée sur Hiroshima en août 1945."
+    },
+    {
+     "equals": "L'Allemagne attaque l'URSS",
+     "category": "word_confusion",
+     "feedback": "L'Allemagne attaque l'URSS le 22 juin 1941, six mois plus tôt."
+    }
+   ],
+   "id": "cg.l07.e09"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.debarquement_de_normandie"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel événement a lieu le 6 juin 1944 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le débarquement des Alliés en Normandie",
+    "La libération de Paris",
+    "La capitulation de l'Allemagne",
+    "L'appel du 18 juin"
+   ],
+   "answer": "Le débarquement des Alliés en Normandie",
+   "acceptedAnswers": [
+    "Le débarquement des Alliés en Normandie"
+   ],
+   "explanation": "Le 6 juin 1944, le « Jour J », les Alliés débarquent sur cinq plages de Normandie. Paris n'est libérée que le 25 août, et l'Allemagne capitule le 8 mai 1945.",
+   "tip": "6 juin = Normandie ; 25 août = Paris ; 8 mai 1945 = victoire en Europe.",
+   "extraExample": {
+    "text": "Sur les cinq plages, Utah et Omaha sont américaines, Juno canadienne, Gold et Sword britanniques.",
+    "translation": "Le général Eisenhower commande l'ensemble des troupes alliées."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La libération de Paris",
+     "category": "word_confusion",
+     "feedback": "Paris est libérée le 25 août 1944, après le débarquement."
+    },
+    {
+     "equals": "La capitulation de l'Allemagne",
+     "category": "word_confusion",
+     "feedback": "L'Allemagne capitule en mai 1945, presque un an plus tard."
+    },
+    {
+     "equals": "L'appel du 18 juin",
+     "category": "word_confusion",
+     "feedback": "L'appel de de Gaulle date de juin 1940, quatre ans plus tôt."
+    }
+   ],
+   "id": "cg.l07.e10"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.adolf_hitler"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le 1er septembre 1939, l'Allemagne de Hitler envahit la ___ : la France et le Royaume-Uni lui déclarent la guerre.",
+   "promptLanguage": "fr",
+   "options": [
+    "Pologne",
+    "Tchécoslovaquie",
+    "Belgique",
+    "Autriche"
+   ],
+   "answer": "Pologne",
+   "acceptedAnswers": [
+    "Pologne",
+    "la Pologne"
+   ],
+   "explanation": "L'invasion de la Pologne, le 1er septembre 1939, déclenche la guerre en Europe. La France et le Royaume-Uni déclarent la guerre à l'Allemagne le 3 septembre.",
+   "tip": "1er septembre 1939 : la Pologne ; c'est le début de la guerre en Europe.",
+   "extraExample": {
+    "text": "L'URSS envahit l'est de la Pologne à son tour, le 17 septembre 1939.",
+    "translation": "Elle applique ainsi un accord secret signé avec l'Allemagne."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Tchécoslovaquie",
+     "category": "word_confusion",
+     "feedback": "La Tchécoslovaquie est occupée en mars 1939, sans guerre."
+    },
+    {
+     "equals": "Belgique",
+     "category": "word_confusion",
+     "feedback": "La Belgique est envahie en mai 1940."
+    },
+    {
+     "equals": "Autriche",
+     "category": "word_confusion",
+     "feedback": "L'Autriche est annexée en mars 1938."
+    }
+   ],
+   "id": "cg.l07.e11"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.winston_churchill"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Premier ministre britannique à partir de mai 1940, ___ refuse tout compromis avec Hitler et promet « du sang, du labeur, des larmes et de la sueur ».",
+   "promptLanguage": "fr",
+   "options": [
+    "Winston Churchill",
+    "Neville Chamberlain",
+    "Franklin Roosevelt",
+    "Clement Attlee"
+   ],
+   "answer": "Winston Churchill",
+   "acceptedAnswers": [
+    "Winston Churchill",
+    "Churchill"
+   ],
+   "explanation": "Churchill remplace Chamberlain, qui avait signé les accords de Munich. Il incarne la résistance britannique à l'été 1940, quand le Royaume-Uni reste seul face à l'Allemagne.",
+   "tip": "Chamberlain = Munich ; Churchill = résistance.",
+   "extraExample": {
+    "text": "La Royal Air Force remporte la bataille d'Angleterre à l'été 1940.",
+    "translation": "Hitler renonce alors à envahir le Royaume-Uni."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Neville Chamberlain",
+     "category": "word_confusion",
+     "feedback": "Chamberlain est le Premier ministre qui a signé les accords de Munich, avant de démissionner en mai 1940."
+    },
+    {
+     "equals": "Franklin Roosevelt",
+     "category": "word_confusion",
+     "feedback": "Roosevelt est le président des États-Unis, pas le Premier ministre britannique."
+    }
+   ],
+   "id": "cg.l07.e12"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.hiroshima"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le 6 août 1945, les États-Unis larguent la première bombe atomique sur la ville japonaise de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Hiroshima",
+    "Nagasaki",
+    "Tokyo",
+    "Kyoto"
+   ],
+   "answer": "Hiroshima",
+   "acceptedAnswers": [
+    "Hiroshima"
+   ],
+   "explanation": "La première bombe atomique est larguée sur Hiroshima le 6 août 1945, la seconde sur Nagasaki le 9 août. Le Japon annonce sa capitulation le 15 août.",
+   "tip": "Hiroshima = le 6 août ; Nagasaki = le 9 août.",
+   "extraExample": {
+    "text": "Le Japon signe sa capitulation le 2 septembre 1945, sur un cuirassé américain.",
+    "translation": "C'est la fin de la Seconde Guerre mondiale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Nagasaki",
+     "category": "word_confusion",
+     "feedback": "Nagasaki est la seconde ville atomisée, trois jours plus tard, le 9 août."
+    },
+    {
+     "equals": "Tokyo",
+     "category": "word_confusion",
+     "feedback": "Tokyo a subi de lourds bombardements classiques, mais pas la bombe atomique."
+    }
+   ],
+   "id": "cg.l07.e13"
+  },
+  {
+   "unitIds": [
+    "cg.v.bataille_de_verdun",
+    "cg.v.regime_de_vichy",
+    "cg.g07.seconde_guerre_mondiale"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Le maréchal Pétain, chef du régime de Vichy, avait été en 1916 le « vainqueur de ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "Verdun",
+    "la Marne",
+    "Sedan",
+    "Austerlitz"
+   ],
+   "answer": "Verdun",
+   "acceptedAnswers": [
+    "Verdun",
+    "la bataille de Verdun"
+   ],
+   "explanation": "Pétain commande à Verdun en 1916, ce qui lui vaut un immense prestige de héros de la Grande Guerre. En 1940, à 84 ans, il met ce prestige au service de l'armistice puis du régime de Vichy.",
+   "tip": "Pétain : héros de Verdun en 1916, chef de Vichy en 1940.",
+   "extraExample": {
+    "text": "Pétain naît en 1856 : en 1940, il a 84 ans.",
+    "translation": "Il est condamné à mort en 1945, mais de Gaulle commue sa peine en prison à vie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la Marne",
+     "category": "word_confusion",
+     "feedback": "Joffre a été le vainqueur de la Marne, en 1914."
+    },
+    {
+     "equals": "Sedan",
+     "category": "word_confusion",
+     "feedback": "Sedan est la défaite de Napoléon III, en 1870."
+    },
+    {
+     "equals": "Austerlitz",
+     "category": "word_confusion",
+     "feedback": "Austerlitz est la victoire de Napoléon, en 1805."
+    }
+   ],
+   "id": "cg.l07.e14"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.accords_de_munich",
+    "cg.v.debarquement_de_normandie",
+    "cg.v.charles_de_gaulle",
+    "cg.v.hiroshima"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates de la Seconde Guerre mondiale",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "septembre 1938",
+     "right": "accords de Munich"
+    },
+    {
+     "left": "1er septembre 1939",
+     "right": "invasion de la Pologne"
+    },
+    {
+     "left": "18 juin 1940",
+     "right": "appel de de Gaulle"
+    },
+    {
+     "left": "6 juin 1944",
+     "right": "débarquement de Normandie"
+    },
+    {
+     "left": "6 août 1945",
+     "right": "bombe atomique sur Hiroshima"
+    }
+   ],
+   "answer": "septembre 1938 = accords de Munich ; 1er septembre 1939 = invasion de la Pologne ; 18 juin 1940 = appel de de Gaulle ; 6 juin 1944 = débarquement de Normandie ; 6 août 1945 = bombe atomique sur Hiroshima",
+   "acceptedAnswers": [],
+   "explanation": "De Munich (1938) à Hiroshima (1945) : cinq repères qui structurent la période, de la marche à la guerre jusqu'à la victoire.",
+   "tip": "1938 renonce, 1939 attaque, 1940 appelle, 1944 débarque, 1945 explose.",
+   "extraExample": {
+    "text": "Le 8 mai 1945, l'Allemagne capitule, mais le Japon continue le combat jusqu'en août.",
+    "translation": "La guerre s'achève donc en deux temps."
+   },
+   "id": "cg.l07.e15"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.adolf_hitler"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le début de la guerre en Europe.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Pologne",
+    "L'Allemagne",
+    "le",
+    "1939",
+    "envahit",
+    "septembre",
+    "la",
+    "1er"
+   ],
+   "answer": "L'Allemagne envahit la Pologne le 1er septembre 1939",
+   "acceptedAnswers": [
+    "L'Allemagne envahit la Pologne le 1er septembre 1939",
+    "Le 1er septembre 1939 l'Allemagne envahit la Pologne"
+   ],
+   "explanation": "L'invasion de la Pologne, le 1er septembre 1939, marque le début de la Seconde Guerre mondiale en Europe.",
+   "tip": "1er septembre 1939 : Pologne, début de la guerre.",
+   "extraExample": {
+    "text": "La France et le Royaume-Uni déclarent la guerre à l'Allemagne le 3 septembre 1939.",
+    "translation": "Ils sont liés à la Pologne par des garanties."
+   },
+   "id": "cg.l07.e16"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.charles_de_gaulle"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'appel du 18 juin.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Londres",
+    "son",
+    "18",
+    "Gaulle",
+    "appel",
+    "De",
+    "le",
+    "juin",
+    "1940",
+    "lance",
+    "depuis"
+   ],
+   "answer": "De Gaulle lance son appel depuis Londres le 18 juin 1940",
+   "acceptedAnswers": [
+    "De Gaulle lance son appel depuis Londres le 18 juin 1940",
+    "Le 18 juin 1940 de Gaulle lance son appel depuis Londres"
+   ],
+   "explanation": "Le 18 juin 1940, de Gaulle appelle depuis Londres à continuer le combat ; c'est le point de départ de la France libre.",
+   "tip": "18 juin 1940 : Londres, de Gaulle, la France libre.",
+   "extraExample": {
+    "text": "Une affiche « La France a perdu une bataille ! Mais la France n'a pas perdu la guerre ! » est placardée à Londres en 1940.",
+    "translation": "Elle est restée un symbole de l'espoir."
+   },
+   "id": "cg.l07.e17"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.regime_de_vichy"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle ville thermale du centre de la France a donné son nom au régime du maréchal Pétain (1940-1944) ?",
+   "promptLanguage": "fr",
+   "answer": "Vichy",
+   "acceptedAnswers": [
+    "Vichy",
+    "à Vichy",
+    "la ville de Vichy"
+   ],
+   "explanation": "Après la défaite de 1940, le gouvernement s'installe à Vichy, ville d'eau dans l'Allier, qui possède de nombreux hôtels. Le régime en garde le nom.",
+   "tip": "Vichy, c'est l'État français de Pétain.",
+   "extraExample": {
+    "text": "La zone dite « libre » est occupée par l'Allemagne en novembre 1942.",
+    "translation": "Vichy ne dirige plus alors qu'une France entièrement occupée."
+   },
+   "hint": "C'est aussi le nom d'une ville d'eau célèbre.",
+   "errorPatterns": [
+    {
+     "equals": "londres",
+     "category": "word_confusion",
+     "feedback": "Londres est le siège de la France libre de de Gaulle, pas du régime de Pétain."
+    },
+    {
+     "equals": "paris",
+     "category": "word_confusion",
+     "feedback": "Le gouvernement de Pétain ne siège pas à Paris, occupée par les Allemands."
+    }
+   ],
+   "id": "cg.l07.e18"
+  },
+  {
+   "unitIds": [
+    "cg.v.troisieme_republique",
+    "cg.g07.seconde_guerre_mondiale"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quel régime, né en 1870, disparaît en juillet 1940 quand le Parlement vote les pleins pouvoirs à Pétain ?",
+   "promptLanguage": "fr",
+   "answer": "La Troisième République",
+   "acceptedAnswers": [
+    "La Troisième République",
+    "Troisième République",
+    "IIIe République",
+    "3e République",
+    "la 3e République"
+   ],
+   "explanation": "Le 10 juillet 1940, à Vichy, députés et sénateurs votent les pleins pouvoirs au maréchal Pétain. Le lendemain, la République est remplacée par l'« État français » : c'est la fin de la Troisième République.",
+   "tip": "Troisième République : 1870 (Sedan) → 1940 (Vichy).",
+   "extraExample": {
+    "text": "Le vote du 10 juillet 1940 donne 569 voix pour et 80 contre.",
+    "translation": "Ces 80 parlementaires ont voté non ; certains deviendront résistants."
+   },
+   "hint": "C'est le régime qui suit le Second Empire.",
+   "errorPatterns": [
+    {
+     "equals": "deuxième république",
+     "category": "word_confusion",
+     "feedback": "La Deuxième République date de 1848-1852."
+    },
+    {
+     "equals": "cinquième république",
+     "category": "word_confusion",
+     "feedback": "La Cinquième République date de 1958, après la guerre."
+    }
+   ],
+   "id": "cg.l07.e19"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale",
+    "cg.v.debarquement_de_normandie"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le nom de code de l'opération alliée qui commence par le débarquement du 6 juin 1944 en Normandie ?",
+   "promptLanguage": "fr",
+   "answer": "Overlord",
+   "acceptedAnswers": [
+    "Overlord",
+    "opération Overlord",
+    "l'opération Overlord"
+   ],
+   "explanation": "L'opération Overlord est le nom de code de la bataille de Normandie, dont le débarquement est la première phase. « D-Day » (ou « Jour J ») désigne seulement la date du 6 juin 1944.",
+   "tip": "Overlord = l'opération ; D-Day = le jour.",
+   "extraExample": {
+    "text": "Plus de 150 000 soldats alliés débarquent ou sont parachutés pendant les premières 24 heures.",
+    "translation": "C'est la plus grande opération amphibie de l'histoire."
+   },
+   "hint": "C'est un mot anglais qui désigne un chef suprême.",
+   "errorPatterns": [
+    {
+     "equals": "d-day",
+     "category": "word_confusion",
+     "feedback": "D-Day désigne le jour du débarquement, pas le nom de l'opération."
+    },
+    {
+     "equals": "dragoon",
+     "category": "word_confusion",
+     "feedback": "Dragoon est le nom du débarquement de Provence, en août 1944."
+    }
+   ],
+   "id": "cg.l07.e20"
+  },
+  {
+   "unitIds": [
+    "cg.g07.seconde_guerre_mondiale"
+   ],
+   "type": "free_answer",
+   "difficulty": 4,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle date de 1945, férié en France, marque la capitulation de l'Allemagne nazie ?",
+   "promptLanguage": "fr",
+   "answer": "Le 8 mai 1945",
+   "acceptedAnswers": [
+    "Le 8 mai 1945",
+    "8 mai 1945",
+    "8 mai",
+    "le 8 mai"
+   ],
+   "explanation": "L'Allemagne signe sa capitulation dans la nuit du 7 au 8 mai 1945, à Reims puis à Berlin. En France, le 8 mai est un jour férié qui commémore la victoire sur l'Allemagne nazie.",
+   "tip": "8 mai 1945 : victoire en Europe ; 2 septembre 1945 : fin de la guerre contre le Japon.",
+   "extraExample": {
+    "text": "Le 8 mai 1945 est aussi le jour de manifestations à Sétif, en Algérie, suivies d'une répression sanglante.",
+    "translation": "Cet épisode est un tournant dans l'histoire du nationalisme algérien."
+   },
+   "hint": "La date est au mois de mai.",
+   "errorPatterns": [
+    {
+     "equals": "11 novembre",
+     "category": "word_confusion",
+     "feedback": "Le 11 novembre commémore l'armistice de 1918."
+    },
+    {
+     "equals": "14 juillet",
+     "category": "word_confusion",
+     "feedback": "Le 14 juillet est la fête nationale, en mémoire de 1789 et 1790."
+    }
+   ],
+   "id": "cg.l07.e21"
+  }
+ ]
+}

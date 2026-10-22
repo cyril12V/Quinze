@@ -96,7 +96,7 @@ struct DiagnosticStepView: View {
             progressBlock
             if let exercise = current {
                 questionCard(exercise)
-                ExerciseInputView(exercise: exercise, presentation: Self.presentation(for: exercise), onSubmit: submit)
+                ExerciseInputView(exercise: exercise, presentation: Self.presentation(for: exercise), onSubmit: { submit($0) })
                     .id(exercise.id)
             }
             FlowLinkButton(title: "Arrêter l'évaluation", action: skip)

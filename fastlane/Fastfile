@@ -25,17 +25,20 @@ platform :ios do
                     udid: udid, api_key: api_key)
   end
 
-  desc "Crée les 4 identifiants de l'app et active leurs capacités, avec des messages d'erreur clairs"
+  # L'API d'Apple ne sait ni activer Family Controls ni rattacher un App Group à un identifiant :
+  # ces deux réglages se font une fois à la main sur developer.apple.com (voir docs/12). Cette lane crée
+  # les identifiants et les capacités que l'API accepte, pour que les erreurs restantes soient claires.
+  desc "Crée les 4 identifiants de l'app et active les capacités possibles par l'API"
   lane :prepare_ids do
     team = ENV["DEVELOPMENT_TEAM"].to_s.strip
     prefix = ENV["BUNDLE_ID_PREFIX"].to_s.strip
     prefix = "fr.elmdigitalagency" if prefix.empty?
     cap = Spaceship::ConnectAPI::BundleIdCapability::Type
     targets = {
-      "#{prefix}.quinze" => ["Quinze", [cap::APP_GROUPS, cap::FAMILY_CONTROLS, cap::APPLE_ID_AUTH]],
-      "#{prefix}.quinze.monitor" => ["Quinze Monitor", [cap::APP_GROUPS, cap::FAMILY_CONTROLS]],
-      "#{prefix}.quinze.shieldconfig" => ["Quinze Shield Configuration", [cap::APP_GROUPS, cap::FAMILY_CONTROLS]],
-      "#{prefix}.quinze.shieldaction" => ["Quinze Shield Action", [cap::APP_GROUPS, cap::FAMILY_CONTROLS]]
+      "#{prefix}.quinze" => ["Quinze", [cap::APP_GROUPS, cap::APPLE_ID_AUTH]],
+      "#{prefix}.quinze.monitor" => ["Quinze Monitor", [cap::APP_GROUPS]],
+      "#{prefix}.quinze.shieldconfig" => ["Quinze Shield Configuration", [cap::APP_GROUPS]],
+      "#{prefix}.quinze.shieldaction" => ["Quinze Shield Action", [cap::APP_GROUPS]]
     }
     Spaceship::ConnectAPI.token = Spaceship::ConnectAPI::Token.from(hash: asc_api_key)
 
@@ -66,6 +69,7 @@ platform :ios do
                        "La clé d'API et DEVELOPMENT_TEAM doivent venir du même compte.")
       end
       present = bundle.get_capabilities.map(&:capability_type)
+      UI.message("#{identifier} : capacités actuelles #{present.compact.sort.join(', ')}")
       (wanted - present).each do |type|
         UI.message("#{identifier} : activation de #{type}")
         settings = []

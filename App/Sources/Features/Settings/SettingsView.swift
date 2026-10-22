@@ -229,7 +229,7 @@ struct SettingsView: View {
             SettingsSection("Restrictions d'apps",
                             footer: "Les apps choisies sont bloquées à l'heure de chaque leçon et se débloquent quand la leçon est terminée, ou à la fin de l'échéance de sécurité. Le choix reste sur cet iPhone.") {
                 toggleRow("Restreindre les apps pendant les leçons",
-                          isOn: Binding(get: { restrictions.isEnabled }, set: setRestrictions))
+                          isOn: Binding(get: { restrictions.isEnabled }, set: { setRestrictions($0) }))
                 if restrictions.isEnabled || restrictions.authorization == .approved {
                     FlowDivider()
                     modePicker

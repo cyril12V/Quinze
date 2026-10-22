@@ -72,7 +72,7 @@ struct AuthFlowView: View {
                 rawNonce = AppleNonce.random()
                 request.requestedScopes = [.fullName, .email]
                 request.nonce = AppleNonce.sha256(rawNonce)
-            }, onCompletion: handleApple)
+            }, onCompletion: { handleApple($0) })
             .signInWithAppleButtonStyle(colorScheme == .dark ? .white : .black)
             .frame(height: Theme.primaryButtonHeight)
             .clipShape(Capsule())

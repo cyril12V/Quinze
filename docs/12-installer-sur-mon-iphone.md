@@ -40,7 +40,12 @@ Tu pourras brancher Supabase plus tard (voir la fin du guide) sans perdre tes pr
    - Télécharge le fichier `AuthKey_XXXXXXXXXX.p8`. Apple ne le propose **qu'une seule fois** : garde-le précieusement.
    - Note le **Key ID** (10 caractères) et l'**Issuer ID** (affiché au-dessus de la liste, sous forme d'UUID).
 
-Les identifiants de l'app, l'App Group et la capacité Family Controls sont créés automatiquement à la première compilation. Si la compilation échoue sur ce point, la section « Problèmes fréquents » indique quoi cocher à la main.
+4. **Une seule fois, sur developer.apple.com > Certificates, Identifiers & Profiles > Identifiers.** L'API d'Apple ne sait ni activer Family Controls ni rattacher un App Group, il faut donc le faire à la main :
+   - Crée l'App Group `group.<préfixe>.quinze` (menu en haut à droite : App Groups, puis « + »).
+   - Crée les 4 identifiants d'app (App IDs > App) : `<préfixe>.quinze`, `.quinze.monitor`, `.quinze.shieldconfig`, `.quinze.shieldaction`.
+   - Sur chacun, coche **Family Controls (Development)** et **App Groups**, clique sur « Configure », choisis le groupe, puis « Save ».
+
+   La compilation crée ensuite toute seule ce que l'API permet : Sign in with Apple sur l'app, le certificat et les profils de développement.
 
 ## 3. Trouver l'identifiant (UDID) de ton iPhone
 
@@ -83,14 +88,17 @@ Pour vérifier que le blocage marche, mets une leçon dans 20 minutes, choisis u
 
 ## Mettre à jour l'app
 
-Relance le workflow et installe le nouveau lien. Tes progrès sont conservés : c'est la même app, mise à jour. La signature de développement est valable **un an**. Avant l'échéance, il suffit de recompiler.
+Relance le workflow et installe le nouveau lien. Attention : n'envoie plus d'ancien `quinze.zip` dans le dépôt, il remplacerait le code par sa version et effacerait les corrections faites depuis.
+
+Le workflow **« Compiler (sans signature) »** se lance tout seul à chaque modification du code. Il vérifie que l'app compile, sans secret ni compte Apple, et ne crée aucun certificat. Tes progrès sont conservés : c'est la même app, mise à jour. La signature de développement est valable **un an**. Avant l'échéance, il suffit de recompiler.
 
 ## Problèmes fréquents
 
 | Message dans « Échec » | Solution |
 |---|---|
 | `Secret … absent` | Un secret de l'étape 5 manque ou est mal nommé |
-| `No profiles for '…' were found` ou `Family Controls` | Sur developer.apple.com > Identifiers, ouvre les 4 identifiants (`…quinze`, `.monitor`, `.shieldconfig`, `.shieldaction`). Coche **Family Controls** et **App Groups**, puis associe le groupe `group.<préfixe>.quinze`. Relance |
+| `No profiles for '…' were found`, `Family Controls` ou `Authentication failed` | L'étape 2.4 n'est pas faite ou incomplète : sur developer.apple.com > Identifiers, ouvre les 4 identifiants (`…quinze`, `.monitor`, `.shieldconfig`, `.shieldaction`). Coche **Family Controls (Development)** et **App Groups**, puis associe le groupe `group.<préfixe>.quinze`. Relance |
+| `PLA Update available` ou contrat | Accepte le dernier contrat sur developer.apple.com/account (« Consulter le contrat »). Relance |
 | `maximum number of certificates` | developer.apple.com > Certificates : révoque les anciens certificats « Apple Development » créés par l'API. Relance |
 | `device … not registered` ou l'installation échoue | L'UDID du secret ne correspond pas à l'iPhone : vérifie-le, puis relance |
 | L'app s'installe mais ne s'ouvre pas | Le Mode développeur n'est pas activé (étape 7.2) |

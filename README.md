@@ -12,10 +12,10 @@ Application iPhone d'apprentissage des langues : trois sessions de cinq minutes 
 |---|---|---|
 | `Packages/LearningCore/` | Moteur pédagogique en Swift pur : correction, FSRS, maîtrise, planification des sessions, diagnostic, dictionnaire | Compilé et testé : 78 tests sous Linux, Swift 6.0.3 |
 | `Content/` | Programme et corpus anglais : 60 leçons, 600 exercices, 397 fiches, diagnostic, évaluations, plus les outils de validation | Validé par script et par le moteur |
-| `App/` | App iOS SwiftUI : onboarding, comptes, leçons, correction, professeur IA, dictionnaire, progrès, réglages, synchronisation | Syntaxe vérifiée ; **première compilation iOS à faire en CI** |
+| `App/` | App iOS SwiftUI : onboarding, comptes, leçons, correction, professeur IA, dictionnaire, progrès, réglages, synchronisation | Compile pour iOS avec Xcode 26.3 (workflow `compile.yml`) |
 | `Shared/`, `Extensions/` | Restrictions Screen Time : état partagé, moniteur DeviceActivity, écran de blocage, actions du bouclier | Idem ; **à valider sur iPhone** |
 | `supabase/` | Base de données (7 migrations, RLS), RPC de synchronisation, Edge Functions `ai` (Claude) et `account` | 180 assertions SQL et 46 tests TypeScript passent |
-| `.github/workflows/` | CI du moteur, build et tests iOS sur macOS, envoi TestFlight | Prête, s'exécute sur GitHub |
+| `.github/workflows/` | `compile.yml` : compilation sans signature à chaque push ; `iphone.yml` : version signée pour ton iPhone, lien Diawi | S'exécute sur GitHub |
 | `docs/` | Documentation technique et rapports | — |
 
 ## Usage perso : installer sur ton iPhone

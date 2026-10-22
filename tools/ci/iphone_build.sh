@@ -131,34 +131,15 @@ xcodebuild -exportArchive -archivePath build/Quinze.xcarchive -exportPath build/
   -exportOptionsPlist build/ExportOptions.plist "${AUTH[@]}" 2>&1 | tee build/export.log
 IPA=$(ls build/export/*.ipa | head -1)
 
-# 7. Lien d'installation Diawi (si le jeton existe).
-LINK=""
-if [ -n "${DIAWI_TOKEN:-}" ]; then
-  JOB=$(curl -sS https://upload.diawi.com/ -F "token=$DIAWI_TOKEN" -F "file=@$IPA" -F "find_by_udid=0" -F "wall_of_apps=0" \
-        | python3 -c 'import sys,json; print(json.load(sys.stdin).get("job",""))')
-  [ -n "$JOB" ] || fail "envoi Diawi refusé (jeton DIAWI_TOKEN invalide ?)"
-  for _ in $(seq 1 36); do
-    sleep 5
-    STATUS=$(curl -sS "https://upload.diawi.com/status?token=$DIAWI_TOKEN&job=$JOB")
-    CODE=$(printf '%s' "$STATUS" | python3 -c 'import sys,json; print(json.load(sys.stdin).get("status",""))')
-    if [ "$CODE" = "2000" ]; then
-      LINK=$(printf '%s' "$STATUS" | python3 -c 'import sys,json; print(json.load(sys.stdin).get("link",""))')
-      break
-    fi
-    [ "$CODE" = "2001" ] || fail "Diawi : $STATUS"
-  done
-fi
-
+# 7. Lien d'installation Diawi (si le jeton existe). Un refus de Diawi n'efface pas la compilation :
+#    l'IPA reste dans l'artefact du run, et le workflow « Envoyer sur Diawi » peut le renvoyer.
 trap - ERR
-{
-  echo "### Quinze est prêt pour ton iPhone"
-  echo ""
-  if [ -n "$LINK" ]; then
-    echo "**Ouvre ce lien dans Safari sur ton iPhone, puis touche Installer :** $LINK"
-  else
-    echo "Pas de lien Diawi (secret DIAWI_TOKEN absent) : l'IPA est dans l'artefact **quinze-iphone** en bas de cette page."
-  fi
-  echo ""
-  echo "Première installation : active **Réglages > Confidentialité et sécurité > Mode développeur**, puis redémarre l'iPhone."
-} >> "$SUMMARY"
-echo "Terminé. ${LINK:+Lien : $LINK}"
+if ! bash tools/ci/diawi_upload.sh "$IPA"; then
+  {
+    echo ""
+    echo "La compilation a réussi : l'IPA signé pour ton iPhone est dans l'artefact **quinze-iphone** en bas de cette page."
+    echo "Une fois Diawi réglé, relance seulement l'envoi avec le workflow « Envoyer sur Diawi » (numéro de ce run : ${GITHUB_RUN_ID:-?})."
+  } >> "$SUMMARY"
+  exit 1
+fi
+echo "Terminé."

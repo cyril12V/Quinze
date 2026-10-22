@@ -1,0 +1,41 @@
+name: Envoyer sur Diawi
+# Renvoie sur Diawi l'IPA d'une compilation déjà faite, sans recompiler ni créer de certificat.
+on:
+  workflow_dispatch:
+    inputs:
+      run_id:
+        description: "Numéro du run « Installer sur mon iPhone » qui contient l'IPA (vide = le dernier)"
+        required: false
+        default: ""
+permissions:
+  actions: read
+  contents: read
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - id: run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ inputs.run_id }}
+        run: |
+          if [ -z "$RUN_ID" ]; then
+            for id in $(gh run list -R "$GITHUB_REPOSITORY" -w iphone.yml -L 20 --json databaseId --jq '.[].databaseId'); do
+              if gh api "repos/$GITHUB_REPOSITORY/actions/runs/$id/artifacts" --jq '.artifacts[] | select(.name=="quinze-iphone" and (.expired|not)) | .size_in_bytes' | awk '$1 > 100000 {f=1} END {exit !f}'; then
+                RUN_ID=$id; break
+              fi
+            done
+          fi
+          [ -n "$RUN_ID" ] || { echo "::error::Aucun run avec un IPA trouvé."; exit 1; }
+          echo "id=$RUN_ID" >> "$GITHUB_OUTPUT"
+          echo "IPA du run $RUN_ID" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/download-artifact@v4
+        with:
+          name: quinze-iphone
+          path: build
+          run-id: ${{ steps.run.outputs.id }}
+          github-token: ${{ github.token }}
+      - env:
+          DIAWI_TOKEN: ${{ secrets.DIAWI_TOKEN }}
+        run: bash tools/ci/diawi_upload.sh "$(ls build/export/*.ipa build/*.ipa 2>/dev/null | head -1)"

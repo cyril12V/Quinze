@@ -396,7 +396,7 @@ final class LearningStore {
         learner = updated
     }
 
-    /// Local mode: there is no AI to grade uncertain answers, the learner compares with the expected answer.
+    /// False without a personal Claude key and without a backend: the learner compares with the expected answer.
     var canGradeWithAI: Bool { ai.isConfigured }
 
     /// Verdict given by the learner on an uncertain answer (local mode).
@@ -429,7 +429,8 @@ final class LearningStore {
         let client = ai
         do {
             let response = try await withTimeout(seconds: 10) {
-                try await client.grade(languageCode: code, level: level, exerciseId: exerciseId, userAnswer: answer)
+                try await client.grade(languageCode: code, level: level, exerciseId: exerciseId, userAnswer: answer,
+                                       engine: engine)
             }
             return AIGradeOutcome(response: response)
         } catch {
@@ -456,7 +457,8 @@ final class LearningStore {
             let level = learner.estimatedLevel ?? 1
             do {
                 let response = try await withTimeout(seconds: 15) {
-                    try await client.grade(languageCode: code, level: level, exerciseId: item.exerciseId, userAnswer: item.userAnswer)
+                    try await client.grade(languageCode: code, level: level, exerciseId: item.exerciseId,
+                                           userAnswer: item.userAnswer, engine: engine)
                 }
                 if let outcome = AIGradeOutcome(response: response) {
                     resolvePending(attemptId: item.attemptId, result: outcome.result, errorCategory: outcome.errorCategory, now: .now)
@@ -467,7 +469,8 @@ final class LearningStore {
                     local.bumpGradingTries(attemptId: item.attemptId)
                     if item.tries + 1 >= 3 { local.removePendingGrading(attemptId: item.attemptId) }
                 }
-            } catch let failure as AIClient.Failure where failure == .rateLimited || failure == .offline || failure == .notConfigured {
+            } catch let failure as AIClient.Failure
+                        where failure == .rateLimited || failure == .offline || failure == .notConfigured || failure == .unauthorized {
                 break
             } catch {
                 local.bumpGradingTries(attemptId: item.attemptId)

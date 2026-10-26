@@ -523,30 +523,30 @@
     "ar.v.mobail"
    ],
    "difficulty": 3,
-   "instruction": "Relie chaque mot à sa coupure en blocs.",
-   "prompt": "Relie chaque mot à ses blocs.",
+   "instruction": "Lis chaque mot et relie-le à son sens.",
+   "prompt": "Relie chaque mot long à son sens.",
    "promptLanguage": "fr",
    "pairs": [
     {
      "left": "تليفون",
-     "right": "تليفو | ن"
+     "right": "téléphone"
     },
     {
      "left": "جامعة",
-     "right": "جا | معة"
+     "right": "université"
     },
     {
      "left": "مدرسة",
-     "right": "مد | ر | سة"
+     "right": "école"
     },
     {
      "left": "موبايل",
-     "right": "مو | با | يل"
+     "right": "portable"
     }
    ],
    "acceptedAnswers": [],
-   "answer": "تليفون = تليفو | ن ; جامعة = جا | معة ; مدرسة = مد | ر | سة ; موبايل = مو | با | يل",
-   "explanation": "On coupe après chaque ا د ذ ر ز و : تليفو | ن (le و), جا | معة (le ا), مد | ر | سة (le د et le ر), مو | با | يل (le و et le ا)."
+   "answer": "تليفون = téléphone ; جامعة = université ; مدرسة = école ; موبايل = portable",
+   "explanation": "Un mot long se lit morceau par morceau, de droite à gauche : تليفون (téléphone), جامعة (université), مدرسة (école), موبايل (portable)."
   },
   {
    "id": "ar.l26.e14",

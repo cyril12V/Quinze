@@ -34,8 +34,8 @@ Le chemin est fait pour un Égyptien qui lit encore lentement :
 
 | Module | Contenu |
 |---|---|
-| m01 | Les lettres seules : forme, son, points |
-| m02 | Les lettres dans le mot (début, milieu, fin), avec des mots égyptiens et des mots d'église, sans voyelles |
+| m01 | Les lettres en vitesse (4 leçons) : on voit la lettre (seule, au début, au milieu, à la fin) et on choisit son son ; on la repère dans de vrais mots ; des mots à lire |
+| m02 | Lire des mots : repérer chaque lettre dans le mot, lire des mots égyptiens et d'église et de petites lignes, sans voyelles |
 | m03 | Les harakat |
 | m04 | Lire petit à petit, dont les réponses de la liturgie |
 | m05 | L'égyptien de tous les jours |
@@ -92,7 +92,7 @@ Ce qu'il faut savoir :
 | Matière | Dans l'app | Programme |
 |---|---|---|
 | Anglais | m01–m12 : 92 leçons, 1 280 exercices, 698 fiches | A1 → B2 : bases, temps, récits (m09), conditions (m10), passif et discours rapporté (m11), anglais pro et nuances (m12) |
-| Arabe | m01–m05 : 40 leçons avec cours, 904 exercices, 335 fiches | m01 lettres seules · m02 lettres dans le mot · m03 harakat · m04 lire petit à petit · m05 égyptien de tous les jours |
+| Arabe | m01–m05 : 36 leçons avec cours, 831 exercices, 335 fiches | m01 lettres seules · m02 lettres dans le mot · m03 harakat · m04 lire petit à petit · m05 égyptien de tous les jours |
 | Culture G | m01–m05 : 40 leçons avec cours, 852 exercices, 397 fiches | m01 histoire · m02 géographie · m03 sciences · m04 économie et politique · m05 arts, littérature, philosophie |
 
 Le workflow `engine-tests.yml` vérifie à chaque changement que les contenus embarqués fonctionnent avec le moteur :

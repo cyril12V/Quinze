@@ -66,13 +66,14 @@ L'apprenant est égyptien, copte orthodoxe. Il parle égyptien mais lit lentemen
    - reorder de lettres, à éviter : préfère mcq et match.
 
    Les réponses tapées sont en français (translation ar→fr : « Que veut dire عيش ? » → « pain »).
-6. **Consolidation avant d'avancer.** Le moteur fait passer un contrôle à la fin de chaque module : il faut 80 % pour passer au module suivant. Les leçons doivent donc préparer ce contrôle, avec beaucoup de révisions des leçons précédentes (au moins 4 exercises de révision par leçon dans les modules 1 et 2).
+6. **Pas de questions sur les points, pas d'intrus, pas de comptage de blocs.** L'apprenant connaît déjà les lettres : il veut l'automatisme. On lui montre une lettre (seule ou dans un mot) et il choisit à quoi elle correspond, on lui demande quelle lettre est au début, au milieu, à la fin d'un mot, et on lui donne beaucoup de choses à lire. Les points peuvent aider à décrire une forme dans un cours, jamais faire l'objet d'une question.
+7. **Consolidation avant d'avancer.** Le moteur fait passer un contrôle à la fin de chaque module : il faut 80 % pour passer au module suivant. Les leçons doivent donc préparer ce contrôle, avec beaucoup de révisions des leçons précédentes (au moins 4 exercises de révision par leçon dans les modules 1 et 2).
 
 ### Programme (40 leçons)
 
 | Module | Leçons | Contenu |
 |---|---|---|
-| m01 Les lettres, une par une | 1–8 | Lettres seules (forme isolée), leur son, leur nom, les points qui les distinguent. Pas encore de mots. |
+| m01 Les lettres en vitesse | 1–4 | Toutes les lettres en 4 leçons : la lettre (seule, début, milieu, fin) et son son, sa place dans de vrais mots, des mots à lire. |
 | m02 Les lettres dans le mot | 9–16 | Formes début / milieu / fin, lettres qui ne s'attachent pas, lire des mots courts égyptiens et d'église, sans voyelles. |
 | m03 Les harakat | 17–24 | Fatha, kasra, damma, sukun, voyelles longues, shadda, tanwin, hamza et madda, ال (lettres solaires et lunaires), ة et ى. Mots vocalisés comme on les prononce en égyptien. |
 | m04 Lire petit à petit | 25–32 | Syllabes, mots longs, petites phrases égyptiennes, réponses de la liturgie, lire sans voyelles en s'aidant du sens, mots fréquents (ده, دي, في, على, مش). |

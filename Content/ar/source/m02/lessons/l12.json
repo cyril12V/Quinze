@@ -16,7 +16,7 @@
    "acceptedAnswers": [
     "ـشـ"
    ],
-   "explanation": "La forme du milieu s'accroche des deux côtés : un trait ـ de chaque côté. ش garde ses 3 points dessus.",
+   "explanation": "La forme du milieu s'accroche des deux côtés : un trait ـ de chaque côté.",
    "tip": "Milieu = trait des deux côtés.",
    "extraExample": {
     "text": "شاي",
@@ -51,44 +51,45 @@
    "type": "mcq",
    "unitIds": [
     "ar.g12.forms_sin_family",
-    "ar.v.shin"
+    "ar.v.dad",
+    "ar.v.abyad"
    ],
    "difficulty": 2,
-   "instruction": "Choisis la bonne lettre.",
-   "prompt": "Laquelle de ces lettres a trois dents et trois points dessus ?",
+   "instruction": "Repère la lettre dans le mot.",
+   "prompt": "Quelle lettre est à la fin de أبيض ?",
    "promptLanguage": "fr",
-   "answer": "ش",
+   "answer": "ض",
    "acceptedAnswers": [
-    "ش"
+    "ض"
    ],
-   "explanation": "ش a trois dents et 3 points dessus. س a les mêmes dents sans point ; ث a 3 points mais pas de dents ; ص a une boucle.",
-   "tip": "Dents + 3 points = ش.",
+   "explanation": "On lit أبيض (« blanc ») de droite à gauche : أ puis ب puis ي puis ض. La lettre à la fin est ض.",
+   "tip": "Le début d'un mot arabe est à droite, la fin est à gauche.",
    "extraExample": {
-    "text": "شاي",
-    "translation": "thé"
+    "text": "اللبن لونه أبيض.",
+    "translation": "Le lait est blanc."
    },
    "errorPatterns": [
     {
-     "equals": "س",
-     "category": "spelling",
-     "feedback": "س a trois dents, mais aucun point."
-    },
-    {
-     "equals": "ث",
-     "category": "spelling",
-     "feedback": "ث a 3 points dessus mais n'a pas de dents : c'est une barque."
-    },
-    {
      "equals": "ص",
      "category": "spelling",
-     "feedback": "ص a une boucle, pas des dents."
+     "feedback": "Il n'y a pas de ص dans أبيض. Lis le mot de droite à gauche : أ puis ب puis ي puis ض."
+    },
+    {
+     "equals": "س",
+     "category": "spelling",
+     "feedback": "Il n'y a pas de س dans أبيض. Lis le mot de droite à gauche : أ puis ب puis ي puis ض."
+    },
+    {
+     "equals": "ش",
+     "category": "spelling",
+     "feedback": "Il n'y a pas de ش dans أبيض. Lis le mot de droite à gauche : أ puis ب puis ي puis ض."
     }
    ],
    "options": [
-    "ش",
+    "ض",
+    "ص",
     "س",
-    "ث",
-    "ص"
+    "ش"
    ]
   },
   {
@@ -106,7 +107,7 @@
    "acceptedAnswers": [
     "thé"
    ],
-   "explanation": "Lettre par lettre : ش (3 points dessus), ا (sans point), ي (2 points dessous) donne شاي, « thé ». ش : 3 dents et 3 points dessus. Le ا ferme le premier bloc : شا | ي.",
+   "explanation": "Lettre par lettre : ش, ا, ي donne شاي, « thé ». Le ا ferme le premier bloc : شا | ي.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "عايز كوباية شاي.",
@@ -151,7 +152,7 @@
    "acceptedAnswers": [
     "matin"
    ],
-   "explanation": "Lettre par lettre : ص (sans point), ب (1 point dessous), ا (sans point), ح (sans point) donne صباح, « matin ». ص : une boucle, aucun point. Le ا ferme le bloc : صبا | ح.",
+   "explanation": "Lettre par lettre : ص, ب, ا, ح donne صباح, « matin ». Le ا ferme le bloc : صبا | ح.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "صباح الخير يا أبونا.",
@@ -197,7 +198,7 @@
     "صياد"
    ],
    "explanation": "« pêcheur » s'écrit ص + ي + ا + د : صياد. Le ا ferme le bloc صيا, puis le د reste seul : صيا | د.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "بطرس كان صياد.",
     "translation": "Pierre était pêcheur."
@@ -242,7 +243,7 @@
     "حاضر"
    ],
    "explanation": "« entendu » s'écrit ح + ا + ض + ر : حاضر. Après le ا, le ض repart à neuf : forme du début ضـ. Blocs : حا | ضر.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "حاضر، هعمله دلوقتي.",
     "translation": "Entendu, je le fais tout de suite."
@@ -286,7 +287,7 @@
    "acceptedAnswers": [
     "forme du début"
    ],
-   "explanation": "Dans حاضر (blocs : حا | ضر), la lettre ض s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ا ne s'attache pas au ض : celui-ci repart à neuf.",
+   "explanation": "Dans حاضر (qui se lit حا | ضر), la lettre ض s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ا ne s'attache pas au ض : celui-ci repart à neuf.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "حاضر",
@@ -331,7 +332,7 @@
    "acceptedAnswers": [
     "forme de la fin"
    ],
-   "explanation": "Dans أبيض (blocs : أ | بيض), la lettre ض s'accroche seulement à la lettre d'avant : c'est la forme de la fin. Le ض est attaché au ي qui le précède, et rien ne le suit.",
+   "explanation": "Dans أبيض (qui se lit أ | بيض), la lettre ض s'accroche seulement à la lettre d'avant : c'est la forme de la fin. Le ض est attaché au ي qui le précède, et rien ne le suit.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "أبيض",
@@ -366,44 +367,46 @@
    "type": "mcq",
    "unitIds": [
     "ar.g12.forms_sin_family",
-    "ar.v.sayyad"
+    "ar.v.shay",
+    "ar.v.abyad",
+    "ar.v.hadir"
    ],
    "difficulty": 2,
-   "instruction": "Compte les blocs.",
-   "prompt": "Combien de blocs compte صياد ?",
-   "promptLanguage": "fr",
-   "answer": "2 blocs",
+   "instruction": "Lis la ligne et choisis son sens.",
+   "prompt": "شاي أبيض؟ حاضر",
+   "promptLanguage": "ar",
+   "answer": "Un thé blanc ? Entendu !",
    "acceptedAnswers": [
-    "2 blocs"
+    "Un thé blanc ? Entendu !"
    ],
-   "explanation": "صياد = صيا | د : 2 blocs. Le mot se coupe après ا.",
-   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "explanation": "Lis d'un trait : شاي (le thé), أبيض (blanc), حاضر (entendu). Le client demande, le serveur répond : un thé blanc ? Entendu !",
+   "tip": "Une ligne se lit comme un mot : de droite à gauche, un mot après l'autre.",
    "extraExample": {
-    "text": "صياد",
-    "translation": "pêcheur"
+    "text": "حاضر يا أبونا.",
+    "translation": "Entendu, notre père."
    },
    "errorPatterns": [
     {
-     "equals": "1 bloc",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : صيا | د."
+     "equals": "Une cloche blanche ? Entendu !",
+     "category": "word_confusion",
+     "feedback": "« la cloche » s'écrit جرس. Ici le premier mot est شاي : le thé."
     },
     {
-     "equals": "3 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : صيا | د."
+     "equals": "Un thé blanc ? Mieux !",
+     "category": "word_confusion",
+     "feedback": "« mieux » s'écrit أحسن. Ici le dernier mot est حاضر : entendu."
     },
     {
-     "equals": "4 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : صيا | د."
+     "equals": "Un thé blanc ? Samedi !",
+     "category": "word_confusion",
+     "feedback": "« samedi » s'écrit سبت. Ici le dernier mot est حاضر : entendu."
     }
    ],
    "options": [
-    "1 bloc",
-    "2 blocs",
-    "3 blocs",
-    "4 blocs"
+    "Un thé blanc ? Entendu !",
+    "Une cloche blanche ? Entendu !",
+    "Un thé blanc ? Mieux !",
+    "Un thé blanc ? Samedi !"
    ]
   },
   {
@@ -421,7 +424,7 @@
     "جدو"
    ],
    "explanation": "« papy » s'écrit ج + د + و : جدو. Le د ferme le premier bloc : جد | و.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "رحنا نزور جدو.",
     "translation": "Nous sommes allés rendre visite à papy."
@@ -501,41 +504,41 @@
     "ar.v.rabbina"
    ],
    "difficulty": 2,
-   "instruction": "Compte les blocs.",
-   "prompt": "Combien de blocs compte ربنا ?",
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "Lis ce mot : ربنا",
    "promptLanguage": "fr",
-   "answer": "2 blocs",
+   "answer": "notre Seigneur",
    "acceptedAnswers": [
-    "2 blocs"
+    "notre Seigneur"
    ],
-   "explanation": "ربنا = ر | بنا : 2 blocs. Le mot se coupe après ر.",
-   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "explanation": "ربنا se lit ر + ب + ن + ا : « notre Seigneur ».",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
-    "text": "ربنا",
-    "translation": "notre Seigneur"
+    "text": "ربنا يباركك.",
+    "translation": "Que Dieu te bénisse."
    },
    "errorPatterns": [
     {
-     "equals": "1 bloc",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ر | بنا."
+     "equals": "notre père (le prêtre)",
+     "category": "word_confusion",
+     "feedback": "« notre père (le prêtre) » s'écrit أبونا. Ici tu lis ر + ب + ن + ا : ربنا veut dire « notre Seigneur »."
     },
     {
-     "equals": "3 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ر | بنا."
+     "equals": "faute",
+     "category": "word_confusion",
+     "feedback": "« faute » s'écrit ذنب. Ici tu lis ر + ب + ن + ا : ربنا veut dire « notre Seigneur »."
     },
     {
-     "equals": "4 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ر | بنا."
+     "equals": "papa",
+     "category": "word_confusion",
+     "feedback": "« papa » s'écrit بابا. Ici tu lis ر + ب + ن + ا : ربنا veut dire « notre Seigneur »."
     }
    ],
    "options": [
-    "1 bloc",
-    "2 blocs",
-    "3 blocs",
-    "4 blocs"
+    "notre Seigneur",
+    "notre père (le prêtre)",
+    "faute",
+    "papa"
    ]
   },
   {
@@ -553,8 +556,8 @@
    "acceptedAnswers": [
     "ش"
    ],
-   "explanation": "شاي commence par ش : trois dents et 3 points dessus. Sans les points, ce serait س.",
-   "tip": "3 dents + 3 points = ش.",
+   "explanation": "شاي (« thé ») s'écrit ش + ا + ي : la lettre qui manque, au début du mot, est ش.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "الشاي بالنعناع.",
     "translation": "Le thé à la menthe."
@@ -563,12 +566,12 @@
     {
      "equals": "س",
      "category": "spelling",
-     "feedback": "س a les mêmes dents mais aucun point."
+     "feedback": "Avec س, on lirait ساي : ce n'est pas « thé ». Pour « thé », la lettre au début est ش."
     },
     {
      "equals": "ث",
      "category": "spelling",
-     "feedback": "ث a 3 points mais pas de dents."
+     "feedback": "Avec ث, on lirait ثاي : ce n'est pas « thé ». Pour « thé », la lettre au début est ش."
     }
    ],
    "options": [
@@ -592,8 +595,8 @@
    "acceptedAnswers": [
     "س"
    ],
-   "explanation": "سبت commence par س : trois dents, aucun point. ش aurait 3 points, ص une boucle.",
-   "tip": "Trois dents sans point : س.",
+   "explanation": "سبت (« samedi ») s'écrit س + ب + ت : la lettre qui manque, au début du mot, est س.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "السبت ده إجازة.",
     "translation": "Ce samedi est un jour de congé."
@@ -602,17 +605,17 @@
     {
      "equals": "ش",
      "category": "spelling",
-     "feedback": "ش a 3 points dessus ; ici il n'y en a aucun."
+     "feedback": "Avec ش, on lirait شبت : ce n'est pas « samedi ». Pour « samedi », la lettre au début est س."
     },
     {
      "equals": "ص",
      "category": "spelling",
-     "feedback": "ص a une boucle, pas des dents."
+     "feedback": "Avec ص, on lirait صبت : ce n'est pas « samedi ». Pour « samedi », la lettre au début est س."
     },
     {
      "equals": "ض",
      "category": "spelling",
-     "feedback": "ض a une boucle et un point."
+     "feedback": "Avec ض, on lirait ضبت : ce n'est pas « samedi ». Pour « samedi », la lettre au début est س."
     }
    ],
    "options": [
@@ -637,8 +640,8 @@
    "acceptedAnswers": [
     "ض"
    ],
-   "explanation": "أبيض finit par ض : une boucle et 1 point dessus. ص aurait une boucle sans point.",
-   "tip": "Boucle + 1 point : ض.",
+   "explanation": "أبيض (« blanc ») s'écrit أ + ب + ي + ض : la lettre qui manque, à la fin du mot, est ض.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "اللبن لونه أبيض.",
     "translation": "Le lait est blanc."
@@ -647,7 +650,17 @@
     {
      "equals": "ص",
      "category": "spelling",
-     "feedback": "ص n'a pas de point ; il en faut un dessus : ض."
+     "feedback": "Avec ص, on lirait أبيص : ce n'est pas « blanc ». Pour « blanc », la lettre à la fin est ض."
+    },
+    {
+     "equals": "س",
+     "category": "spelling",
+     "feedback": "Avec س, on lirait أبيس : ce n'est pas « blanc ». Pour « blanc », la lettre à la fin est ض."
+    },
+    {
+     "equals": "ش",
+     "category": "spelling",
+     "feedback": "Avec ش, on lirait أبيش : ce n'est pas « blanc ». Pour « blanc », la lettre à la fin est ض."
     }
    ],
    "options": [
@@ -670,11 +683,11 @@
    ],
    "difficulty": 2,
    "instruction": "Associe chaque mot à son sens.",
-   "prompt": "Mots des dents et des boucles",
+   "prompt": "Thé, matin, cloche, samedi, blanc",
    "promptLanguage": "fr",
    "answer": "شاي = thé ; صباح = matin ; جرس = cloche ; سبت = samedi ; أبيض = blanc",
    "acceptedAnswers": [],
-   "explanation": "Compte les dents et cherche les points : ش (3 points), ص (boucle), س (dents sans point).",
+   "explanation": "Lis chaque mot d'un coup d'œil, de droite à gauche : ش dans شاي, ص dans صباح, س dans سبت.",
    "pairs": [
     {
      "left": "شاي",
@@ -714,7 +727,7 @@
    "promptLanguage": "fr",
    "answer": "س = سـ ; ش = شـ ; ص = صـ ; ض = ضـ",
    "acceptedAnswers": [],
-   "explanation": "La forme du début garde les dents (ou la boucle) et les points, avec le trait ـ à gauche.",
+   "explanation": "La forme du début garde le dessin de la lettre, avec le trait ـ à gauche.",
    "pairs": [
     {
      "left": "س",
@@ -739,34 +752,39 @@
    "type": "match",
    "unitIds": [
     "ar.g12.forms_sin_family",
-    "ar.v.sin",
-    "ar.v.shin",
-    "ar.v.sad",
-    "ar.v.dad"
+    "ar.v.shay",
+    "ar.v.sabah",
+    "ar.v.sabt",
+    "ar.v.hadir",
+    "ar.v.jaras"
    ],
-   "difficulty": 3,
-   "instruction": "Associe chaque lettre à son dessin.",
-   "prompt": "Dents ou boucle, points ou non",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa première lettre.",
+   "prompt": "Premières lettres : thé, matin, samedi, entendu, cloche",
    "promptLanguage": "fr",
-   "answer": "س = 3 dents, aucun point ; ش = 3 dents, 3 points dessus ; ص = boucle, aucun point ; ض = boucle, 1 point dessus",
+   "answer": "شاي = ش ; صباح = ص ; سبت = س ; حاضر = ح ; جرس = ج",
    "acceptedAnswers": [],
-   "explanation": "Deux questions : des dents ou une boucle ? Combien de points ?",
+   "explanation": "On lit de droite à gauche, donc la première lettre est celle de droite : شاي → ش, صباح → ص, سبت → س, حاضر → ح, جرس → ج.",
    "pairs": [
     {
-     "left": "س",
-     "right": "3 dents, aucun point"
+     "left": "شاي",
+     "right": "ش"
     },
     {
-     "left": "ش",
-     "right": "3 dents, 3 points dessus"
+     "left": "صباح",
+     "right": "ص"
     },
     {
-     "left": "ص",
-     "right": "boucle, aucun point"
+     "left": "سبت",
+     "right": "س"
     },
     {
-     "left": "ض",
-     "right": "boucle, 1 point dessus"
+     "left": "حاضر",
+     "right": "ح"
+    },
+    {
+     "left": "جرس",
+     "right": "ج"
     }
    ]
   },
@@ -786,7 +804,7 @@
    "promptLanguage": "fr",
    "answer": "بخور = encens ; جزر = carottes ; خوخ = pêches ; خد = prends ; جدو = papy",
    "acceptedAnswers": [],
-   "explanation": "Cherche la tête et son point : dessous pour ج, aucun pour ح, dessus pour خ.",
+   "explanation": "Ces mots viennent de la leçon 11 : lis chacun d'un coup d'œil, de droite à gauche.",
    "pairs": [
     {
      "left": "بخور",
@@ -859,7 +877,7 @@
     "le mieux"
    ],
    "explanation": "أحسن = أ | حسن : le س du milieu est entre ح et ن (ـسـ). C'est « mieux », « le meilleur ».",
-   "tip": "Compte les dents du milieu : ح + س + ن.",
+   "tip": "Lis de droite à gauche : أ, ح, س, ن.",
    "extraExample": {
     "text": "ده أحسن واحد.",
     "translation": "C'est le meilleur."
@@ -884,8 +902,8 @@
     "sacrement",
     "un sacrement"
    ],
-   "explanation": "سر = س + ر, sans aucun point : un secret, et dans l'Église un sacrement.",
-   "tip": "Deux lettres, un seul bloc.",
+   "explanation": "سر = س + ر : un secret, et dans l'Église un sacrement.",
+   "tip": "Deux lettres attachées, lues d'un trait.",
    "extraExample": {
     "text": "المعمودية سر من أسرار الكنيسة.",
     "translation": "Le baptême est un sacrement de l'Église."
@@ -910,8 +928,8 @@
     "demi",
     "une moitié"
    ],
-   "explanation": "نص = ن + ص : le ص a une boucle sans point. C'est la moitié, comme dans « une demi-heure ».",
-   "tip": "ن (1 point dessus) puis ص (boucle).",
+   "explanation": "نص = ن + ص : la moitié, comme dans « une demi-heure ».",
+   "tip": "ن puis ص : deux lettres attachées.",
    "extraExample": {
     "text": "نص ساعة.",
     "translation": "Une demi-heure."

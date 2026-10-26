@@ -51,44 +51,47 @@
    "type": "mcq",
    "unitIds": [
     "ar.g13.forms_ayn_family",
-    "ar.v.zah"
+    "ar.v.jaan",
+    "ar.v.ayiz",
+    "ar.v.eish",
+    "ar.v.tayyib"
    ],
    "difficulty": 2,
-   "instruction": "Choisis la bonne lettre.",
-   "prompt": "Quelle lettre est une boucle avec un mât et 1 point dessus ?",
-   "promptLanguage": "fr",
-   "answer": "ظ",
+   "instruction": "Lis la ligne et choisis son sens.",
+   "prompt": "جعان عايز عيش طيب",
+   "promptLanguage": "ar",
+   "answer": "J'ai faim, je veux du bon pain.",
    "acceptedAnswers": [
-    "ظ"
+    "J'ai faim, je veux du bon pain."
    ],
-   "explanation": "ظ est ط (boucle + mât) avec 1 point dessus. ط n'a pas de point ; ع et غ n'ont pas de mât.",
-   "tip": "Bâton + point dessus : ظ.",
+   "explanation": "Quatre mots à la suite : جعان (affamé), عايز (je veux), عيش (pain), طيب (bon). La ligne dit : J'ai faim, je veux du bon pain.",
+   "tip": "Une ligne se lit comme un mot : de droite à gauche, un mot après l'autre.",
    "extraExample": {
-    "text": "حظ",
-    "translation": "chance"
+    "text": "عايز عيش وجبنة.",
+    "translation": "Je voudrais du pain et du fromage."
    },
    "errorPatterns": [
     {
-     "equals": "ط",
-     "category": "spelling",
-     "feedback": "ط a le même dessin mais aucun point."
+     "equals": "Je suis riche, je veux du bon pain.",
+     "category": "word_confusion",
+     "feedback": "« riche » s'écrit غني. Ici le premier mot est جعان : affamé."
     },
     {
-     "equals": "ع",
-     "category": "spelling",
-     "feedback": "ع n'a pas de mât : c'est une œil."
+     "equals": "J'ai faim, je veux du bon riz.",
+     "category": "word_confusion",
+     "feedback": "« le riz » s'écrit رز. Ici le troisième mot est عيش : le pain."
     },
     {
-     "equals": "غ",
-     "category": "spelling",
-     "feedback": "غ n'a pas de mât : c'est une œil avec un point."
+     "equals": "J'ai faim, je veux un bon déjeuner.",
+     "category": "word_confusion",
+     "feedback": "« le déjeuner » s'écrit غدا. Ici le troisième mot est عيش : le pain."
     }
    ],
    "options": [
-    "ظ",
-    "ط",
-    "ع",
-    "غ"
+    "J'ai faim, je veux du bon pain.",
+    "Je suis riche, je veux du bon pain.",
+    "J'ai faim, je veux du bon riz.",
+    "J'ai faim, je veux un bon déjeuner."
    ]
   },
   {
@@ -106,7 +109,7 @@
    "acceptedAnswers": [
     "pain"
    ],
-   "explanation": "Lettre par lettre : ع (sans point), ي (2 points dessous), ش (3 points dessus) donne عيش, « pain ». ع (tête) + ي + ش (3 dents, 3 points) : 1 bloc.",
+   "explanation": "Lettre par lettre : ع, ي, ش donne عيش, « pain ».",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "عايز عيش وجبنة.",
@@ -151,13 +154,13 @@
    "acceptedAnswers": [
     "riche"
    ],
-   "explanation": "Lettre par lettre : غ (1 point dessus), ن (1 point dessus), ي (2 points dessous) donne غني, « riche ». غ (1 point dessus) + ن + ي : 1 bloc.",
+   "explanation": "Lettre par lettre : غ, ن, ي donne غني, « riche ».",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "الراجل ده غني.",
     "translation": "Cet homme est riche."
    },
-   "hint": "Le point dessus change ع en غ.",
+   "hint": "Regarde la première lettre.",
    "errorPatterns": [
     {
      "equals": "affamé",
@@ -197,7 +200,7 @@
    "acceptedAnswers": [
     "bon"
    ],
-   "explanation": "Lettre par lettre : ط (sans point), ي (2 points dessous), ب (1 point dessous) donne طيب, « bon ». ط : boucle et mât, aucun point. 1 bloc.",
+   "explanation": "Lettre par lettre : ط, ي, ب donne طيب, « bon ».",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "إنت إنسان طيب.",
@@ -243,13 +246,13 @@
    "acceptedAnswers": [
     "طير"
    ],
-   "explanation": "« oiseau » s'écrit ط + ي + ر : طير. ط + ي + ر : 1 bloc. La dernière lettre est ر, pas ب.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "explanation": "« oiseau » s'écrit ط + ي + ر : طير.La dernière lettre est ر, pas ب.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "طيور السما.",
     "translation": "Les oiseaux du ciel."
    },
-   "hint": "La dernière lettre n'a aucun point.",
+   "hint": "Regarde la dernière lettre.",
    "errorPatterns": [
     {
      "equals": "طيب",
@@ -290,7 +293,7 @@
     "يسوع"
    ],
    "explanation": "« Jésus » s'écrit ي + س + و + ع : يسوع. Le و ferme le bloc يسو ; le ع reste seul : forme isolée. Blocs : يسو | ع.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "اسم يسوع حلو.",
     "translation": "Le nom de Jésus est doux."
@@ -334,7 +337,7 @@
    "acceptedAnswers": [
     "forme du milieu"
    ],
-   "explanation": "Dans جعان (blocs : جعا | ن), la lettre ع s'accroche des deux côtés : c'est la forme du milieu. Le ع est entre le ج et le ا : attaché des deux côtés.",
+   "explanation": "Dans جعان (qui se lit جعا | ن), la lettre ع s'accroche des deux côtés : c'est la forme du milieu. Le ع est entre le ج et le ا : attaché des deux côtés.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "جعان",
@@ -379,7 +382,7 @@
    "acceptedAnswers": [
     "forme isolée"
    ],
-   "explanation": "Dans يسوع (blocs : يسو | ع), la lettre ع ne s'accroche à aucune voisine : c'est la forme isolée. Le و qui précède ne s'attache pas : le ع est seul, donc isolé.",
+   "explanation": "Dans يسوع (qui se lit يسو | ع), la lettre ع ne s'accroche à aucune voisine : c'est la forme isolée. Le و qui précède ne s'attache pas : le ع est seul, donc isolé.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "يسوع",
@@ -423,8 +426,8 @@
    "acceptedAnswers": [
     "شاي"
    ],
-   "explanation": "« thé » s'écrit ش + ا + ي : شاي. ش : 3 dents et 3 points dessus. Le ا ferme le premier bloc : شا | ي.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "explanation": "« thé » s'écrit ش + ا + ي : شاي. Le ا ferme le premier bloc : شا | ي.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "الشاي بالنعناع.",
     "translation": "Le thé à la menthe."
@@ -467,7 +470,7 @@
    "acceptedAnswers": [
     "forme du début"
    ],
-   "explanation": "Dans صباح (blocs : صبا | ح), la lettre ص s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ص s'attache au ب qui le suit : forme du début صـ.",
+   "explanation": "Dans صباح (qui se lit صبا | ح), la lettre ص s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ص s'attache au ب qui le suit : forme du début صـ.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "صباح",
@@ -511,7 +514,7 @@
    "acceptedAnswers": [
     "prends"
    ],
-   "explanation": "Lettre par lettre : خ (1 point dessus), د (sans point) donne خد, « prends ». Un point dessus : خ. Sans point, ce serait حد.",
+   "explanation": "Lettre par lettre : خ, د donne خد, « prends ». Ne le confonds pas avec حد (quelqu'un).",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "خد الكتاب ده.",
@@ -556,8 +559,8 @@
    "acceptedAnswers": [
     "ع"
    ],
-   "explanation": "عيش commence par ع : une œil, sans point. غ aurait un point dessus.",
-   "tip": "Aucun point : ع.",
+   "explanation": "عيش (« pain ») s'écrit ع + ي + ش : la lettre qui manque, au début du mot, est ع.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "عايز عيش وجبنة.",
     "translation": "Je voudrais du pain et du fromage."
@@ -566,12 +569,12 @@
     {
      "equals": "غ",
      "category": "spelling",
-     "feedback": "غ a un point dessus ; ici il n'y en a pas."
+     "feedback": "Avec غ, on lirait غيش : ce n'est pas « pain ». Pour « pain », la lettre au début est ع."
     },
     {
      "equals": "ح",
      "category": "spelling",
-     "feedback": "ح est un crochet, pas une œil."
+     "feedback": "Avec ح, on lirait حيش : ce n'est pas « pain ». Pour « pain », la lettre au début est ع."
     }
    ],
    "options": [
@@ -595,8 +598,8 @@
    "acceptedAnswers": [
     "ط"
    ],
-   "explanation": "طير commence par ط : boucle et mât, sans point. ظ aurait un point dessus.",
-   "tip": "Boucle + mât, aucun point : ط.",
+   "explanation": "طير (« oiseau ») s'écrit ط + ي + ر : la lettre qui manque, au début du mot, est ط.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "طيور السما.",
     "translation": "Les oiseaux du ciel."
@@ -605,7 +608,17 @@
     {
      "equals": "ظ",
      "category": "spelling",
-     "feedback": "ظ a un point dessus ; ici il n'y en a pas."
+     "feedback": "Avec ظ, on lirait ظير : ce n'est pas « oiseau ». Pour « oiseau », la lettre au début est ط."
+    },
+    {
+     "equals": "ع",
+     "category": "spelling",
+     "feedback": "Avec ع, on lirait عير : ce n'est pas « oiseau ». Pour « oiseau », la lettre au début est ط."
+    },
+    {
+     "equals": "غ",
+     "category": "spelling",
+     "feedback": "Avec غ, on lirait غير : ce n'est pas « oiseau ». Pour « oiseau », la lettre au début est ط."
     }
    ],
    "options": [
@@ -630,8 +643,8 @@
    "acceptedAnswers": [
     "ظ"
    ],
-   "explanation": "حظ finit par ظ : boucle, mât et 1 point dessus. ط n'aurait pas de point.",
-   "tip": "Bâton + 1 point : ظ.",
+   "explanation": "حظ (« chance ») s'écrit ح + ظ : la lettre qui manque, à la fin du mot, est ظ.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "حظ سعيد!",
     "translation": "Bonne chance !"
@@ -640,12 +653,17 @@
     {
      "equals": "ط",
      "category": "spelling",
-     "feedback": "ط n'a pas de point ; il en faut un dessus."
+     "feedback": "Avec ط, on lirait حط : ce n'est pas « chance ». Pour « chance », la lettre à la fin est ظ."
     },
     {
      "equals": "ض",
      "category": "spelling",
-     "feedback": "ض n'a pas de mât."
+     "feedback": "Avec ض, on lirait حض : ce n'est pas « chance ». Pour « chance », la lettre à la fin est ظ."
+    },
+    {
+     "equals": "غ",
+     "category": "spelling",
+     "feedback": "Avec غ, on lirait حغ : ce n'est pas « chance ». Pour « chance », la lettre à la fin est ظ."
     }
    ],
    "options": [
@@ -672,7 +690,7 @@
    "promptLanguage": "fr",
    "answer": "عيش = pain ; عيد = fête ; غدا = déjeuner ; غني = riche ; طير = oiseau",
    "acceptedAnswers": [],
-   "explanation": "Cherche la tête ع, le point de غ, la boucle de ط.",
+   "explanation": "Lis chaque mot d'un coup d'œil et repère sa première lettre : ع, غ ou ط.",
    "pairs": [
     {
      "left": "عيش",
@@ -712,7 +730,7 @@
    "promptLanguage": "fr",
    "answer": "ط = طـ ; ظ = ظـ ; ع = عـ ; غ = غـ",
    "acceptedAnswers": [],
-   "explanation": "La forme du début garde le dessin et le point, avec le trait ـ à gauche.",
+   "explanation": "La forme du début garde le dessin de la lettre, avec le trait ـ à gauche.",
    "pairs": [
     {
      "left": "ط",
@@ -737,34 +755,39 @@
    "type": "match",
    "unitIds": [
     "ar.g13.forms_ayn_family",
-    "ar.v.tah",
-    "ar.v.zah",
-    "ar.v.ayn",
-    "ar.v.ghayn"
+    "ar.v.eish",
+    "ar.v.ghada",
+    "ar.v.tayr",
+    "ar.v.jaan",
+    "ar.v.yasou"
    ],
-   "difficulty": 3,
-   "instruction": "Associe chaque lettre à son dessin.",
-   "prompt": "Boucle ou tête, point ou non",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa première lettre.",
+   "prompt": "Premières lettres : pain, déjeuner, oiseau, affamé, Jésus",
    "promptLanguage": "fr",
-   "answer": "ط = boucle et mât, aucun point ; ظ = boucle et mât, 1 point dessus ; ع = œil, aucun point ; غ = œil, 1 point dessus",
+   "answer": "عيش = ع ; غدا = غ ; طير = ط ; جعان = ج ; يسوع = ي",
    "acceptedAnswers": [],
-   "explanation": "Deux questions : un mât ou un œil ? Un point dessus ou non ?",
+   "explanation": "On lit de droite à gauche, donc la première lettre est celle de droite : عيش → ع, غدا → غ, طير → ط, جعان → ج, يسوع → ي.",
    "pairs": [
     {
-     "left": "ط",
-     "right": "boucle et mât, aucun point"
+     "left": "عيش",
+     "right": "ع"
     },
     {
-     "left": "ظ",
-     "right": "boucle et mât, 1 point dessus"
+     "left": "غدا",
+     "right": "غ"
     },
     {
-     "left": "ع",
-     "right": "œil, aucun point"
+     "left": "طير",
+     "right": "ط"
     },
     {
-     "left": "غ",
-     "right": "œil, 1 point dessus"
+     "left": "جعان",
+     "right": "ج"
+    },
+    {
+     "left": "يسوع",
+     "right": "ي"
     }
    ]
   },
@@ -784,7 +807,7 @@
    "promptLanguage": "fr",
    "answer": "أبيض = blanc ; جرس = cloche ; صياد = pêcheur ; سر = secret ; أحسن = mieux",
    "acceptedAnswers": [],
-   "explanation": "Compte les dents et cherche les points : ش, ص, ض, س.",
+   "explanation": "Ces mots viennent de la leçon 12 : lis chacun d'un coup d'œil, de droite à gauche.",
    "pairs": [
     {
      "left": "أبيض",
@@ -855,7 +878,7 @@
     "jésus christ"
    ],
    "explanation": "يسوع = يسو | ع : le و ferme le premier bloc et le ع reste seul. C'est Jésus.",
-   "tip": "يسو + ع : deux blocs.",
+   "tip": "يسو + ع : le ع est seul, à la fin.",
    "extraExample": {
     "text": "يسوع بيحبنا.",
     "translation": "Jésus nous aime."
@@ -880,8 +903,8 @@
     "repas de midi",
     "le repas de midi"
    ],
-   "explanation": "غدا = غد | ا : غ (œil, 1 point dessus), د, ا. En Égypte, c'est le repas de midi.",
-   "tip": "Le point sur la tête : غ. Pour « demain », on dit بكرة.",
+   "explanation": "غدا = غد | ا : غ, د, ا. En Égypte, c'est le repas de midi.",
+   "tip": "غدا commence par غ. Pour « demain », on dit بكرة.",
    "extraExample": {
     "text": "الغدا جاهز.",
     "translation": "Le déjeuner est prêt."
@@ -890,7 +913,7 @@
     {
      "equals": "pain",
      "category": "word_confusion",
-     "feedback": "عيش (pain) commence par ع, sans point."
+     "feedback": "عيش (pain) commence par ع, pas par غ."
     }
    ]
   },
@@ -914,8 +937,8 @@
     "le sort",
     "bonne chance"
    ],
-   "explanation": "حظ = ح + ظ : un crochet, puis une boucle avec mât et 1 point dessus. C'est la chance.",
-   "tip": "Le ظ final porte son point dessus.",
+   "explanation": "حظ = ح + ظ. C'est la chance.",
+   "tip": "Le ظ est à la fin du mot.",
    "extraExample": {
     "text": "ده حظي.",
     "translation": "C'est ma chance."

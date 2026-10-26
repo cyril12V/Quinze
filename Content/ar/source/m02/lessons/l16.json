@@ -98,44 +98,46 @@
    "type": "mcq",
    "unitIds": [
     "ar.g16.article_and_ligature",
-    "ar.v.masih"
+    "ar.v.salam",
+    "ar.v.masih",
+    "ar.v.amin"
    ],
    "difficulty": 2,
-   "instruction": "Compte les blocs.",
-   "prompt": "Combien de blocs compte المسيح ?",
-   "promptLanguage": "fr",
-   "answer": "2 blocs",
+   "instruction": "Lis la ligne et choisis son sens.",
+   "prompt": "سلام المسيح آمين",
+   "promptLanguage": "ar",
+   "answer": "La paix du Christ, amen.",
    "acceptedAnswers": [
-    "2 blocs"
+    "La paix du Christ, amen."
    ],
-   "explanation": "المسيح = ا | لمسيح : 2 blocs. Le mot se coupe après ا.",
-   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "explanation": "Trois mots à la suite : سلام (la paix), المسيح (le Christ), آمين (amen). Cache ال dans المسيح, lis le nom, puis ajoute « le ».",
+   "tip": "Une ligne se lit comme un mot : de droite à gauche, un mot après l'autre.",
    "extraExample": {
-    "text": "المسيح",
-    "translation": "le Christ"
+    "text": "بنقول آمين بعد الصلاة.",
+    "translation": "Nous disons amen après la prière."
    },
    "errorPatterns": [
     {
-     "equals": "1 bloc",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لمسيح."
+     "equals": "La paix de la Vierge, amen.",
+     "category": "word_confusion",
+     "feedback": "« la Vierge » s'écrit العدرا. Ici le deuxième mot est المسيح : le Christ."
     },
     {
-     "equals": "3 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لمسيح."
+     "equals": "La prière du Christ, amen.",
+     "category": "word_confusion",
+     "feedback": "« la prière » s'écrit صلاة. Ici le premier mot est سلام : la paix."
     },
     {
-     "equals": "4 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لمسيح."
+     "equals": "L'ange du Christ, amen.",
+     "category": "word_confusion",
+     "feedback": "« l'ange » s'écrit ملاك. Ici le premier mot est سلام : la paix."
     }
    ],
    "options": [
-    "1 bloc",
-    "2 blocs",
-    "3 blocs",
-    "4 blocs"
+    "La paix du Christ, amen.",
+    "La paix de la Vierge, amen.",
+    "La prière du Christ, amen.",
+    "L'ange du Christ, amen."
    ]
   },
   {
@@ -143,44 +145,44 @@
    "type": "mcq",
    "unitIds": [
     "ar.g16.article_and_ligature",
-    "ar.v.adra"
+    "ar.v.masih"
    ],
-   "difficulty": 3,
-   "instruction": "Compte les blocs.",
-   "prompt": "Combien de blocs compte العدرا ?",
+   "difficulty": 2,
+   "instruction": "Cache ال et repère la lettre.",
+   "prompt": "Cache ال : quelle est la première lettre du nom dans المسيح ?",
    "promptLanguage": "fr",
-   "answer": "4 blocs",
+   "answer": "م",
    "acceptedAnswers": [
-    "4 blocs"
+    "م"
    ],
-   "explanation": "العدرا = ا | لعد | ر | ا : 4 blocs. Le mot se coupe après ا et après د et après ر.",
-   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "explanation": "Cache ال avec ton doigt : il reste مسيح. La première lettre du nom est م.",
+   "tip": "Cache ال : la lettre qui suit est la première du nom.",
    "extraExample": {
-    "text": "العدرا",
-    "translation": "la Vierge Marie"
+    "text": "المسيح قام.",
+    "translation": "Le Christ est ressuscité."
    },
    "errorPatterns": [
     {
-     "equals": "1 bloc",
+     "equals": "ل",
      "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لعد | ر | ا."
+     "feedback": "ل fait partie de ال : cache-le avec le ا."
     },
     {
-     "equals": "2 blocs",
+     "equals": "ا",
      "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لعد | ر | ا."
+     "feedback": "ا fait partie de ال : cache-le avec le ل."
     },
     {
-     "equals": "3 blocs",
+     "equals": "س",
      "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : ا | لعد | ر | ا."
+     "feedback": "س est la deuxième lettre du nom مسيح, pas la première."
     }
    ],
    "options": [
-    "1 bloc",
-    "2 blocs",
-    "3 blocs",
-    "4 blocs"
+    "م",
+    "ل",
+    "ا",
+    "س"
    ]
   },
   {
@@ -199,7 +201,7 @@
     "ملاك"
    ],
    "explanation": "« ange » s'écrit م + ل + ا + ك : ملاك. ملا | ك : la ligature لا ferme le premier bloc.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "ملاك الرب ظهر لهم.",
     "translation": "L'ange du Seigneur leur est apparu."
@@ -245,7 +247,7 @@
     "آمين"
    ],
    "explanation": "« amen » s'écrit آ + م + ي + ن : آمين. آ | مين : le آ (alif surmonté d'une petite vague) ferme le premier bloc.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "بنقول آمين بعد الصلاة.",
     "translation": "Nous disons amen après la prière."
@@ -334,7 +336,7 @@
    "acceptedAnswers": [
     "forme du début"
    ],
-   "explanation": "Dans المسيح (blocs : ا | لمسيح), la lettre ل s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ا qui précède ne s'attache pas : le ل repart à neuf et s'accroche à la suite, forme du début لـ.",
+   "explanation": "Dans المسيح (qui se lit ا | لمسيح), la lettre ل s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ا qui précède ne s'attache pas : le ل repart à neuf et s'accroche à la suite, forme du début لـ.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "المسيح",
@@ -379,7 +381,7 @@
     "شماس"
    ],
    "explanation": "« diacre » s'écrit ش + م + ا + س : شماس. Le ا ferme le premier bloc : شما | س.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "ابني بقى شماس.",
     "translation": "Mon fils est devenu diacre."
@@ -422,7 +424,7 @@
    "acceptedAnswers": [
     "Évangile"
    ],
-   "explanation": "Lettre par lettre : إ (alif + petit ء dessous), ن (1 point dessus), ج (1 point dessous), ي (2 points dessous), ل (sans point) donne إنجيل, « Évangile ». Le إ (alif avec petit ء dessous) ferme le premier bloc : إ | نجيل.",
+   "explanation": "Lettre par lettre : إ, ن, ج, ي, ل donne إنجيل, « Évangile ». Le إ (alif avec petit ء dessous) ferme le premier bloc : إ | نجيل.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "الإنجيل بيتقرا في القداس.",
@@ -456,44 +458,46 @@
    "id": "ar.l16.e11",
    "type": "mcq",
    "unitIds": [
-    "ar.v.ghada"
+    "ar.g16.article_and_ligature",
+    "ar.v.salat",
+    "ar.v.adra"
    ],
    "difficulty": 2,
-   "instruction": "Compte les blocs.",
-   "prompt": "Combien de blocs compte غدا ?",
-   "promptLanguage": "fr",
-   "answer": "2 blocs",
+   "instruction": "Lis la ligne et choisis son sens.",
+   "prompt": "صلاة العدرا",
+   "promptLanguage": "ar",
+   "answer": "la prière de la Vierge Marie",
    "acceptedAnswers": [
-    "2 blocs"
+    "la prière de la Vierge Marie"
    ],
-   "explanation": "غدا = غد | ا : 2 blocs. Le mot se coupe après د.",
-   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "explanation": "Deux mots : صلاة (la prière) et العدرا (la Vierge Marie). Cache ال, lis le nom عدرا, puis ajoute « la ».",
+   "tip": "Une ligne se lit comme un mot : de droite à gauche, un mot après l'autre.",
    "extraExample": {
-    "text": "غدا",
-    "translation": "déjeuner"
+    "text": "العدرا أم النور.",
+    "translation": "La Vierge est la mère de la lumière."
    },
    "errorPatterns": [
     {
-     "equals": "1 bloc",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : غد | ا."
+     "equals": "la prière du Christ",
+     "category": "word_confusion",
+     "feedback": "« le Christ » s'écrit المسيح. Ici le deuxième mot est العدرا : la Vierge Marie."
     },
     {
-     "equals": "3 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : غد | ا."
+     "equals": "la paix de la Vierge Marie",
+     "category": "word_confusion",
+     "feedback": "« la paix » s'écrit سلام. Ici le premier mot est صلاة : la prière."
     },
     {
-     "equals": "4 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : غد | ا."
+     "equals": "la porte de la Vierge Marie",
+     "category": "word_confusion",
+     "feedback": "« la porte » s'écrit باب. Ici le premier mot est صلاة : la prière."
     }
    ],
    "options": [
-    "1 bloc",
-    "2 blocs",
-    "3 blocs",
-    "4 blocs"
+    "la prière de la Vierge Marie",
+    "la prière du Christ",
+    "la paix de la Vierge Marie",
+    "la porte de la Vierge Marie"
    ]
   },
   {
@@ -510,7 +514,7 @@
    "acceptedAnswers": [
     "forme isolée"
    ],
-   "explanation": "Dans شاي (blocs : شا | ي), la lettre ي ne s'accroche à aucune voisine : c'est la forme isolée. Le ا qui précède ne s'attache pas : le ي est seul, donc isolé.",
+   "explanation": "Dans شاي (qui se lit شا | ي), la lettre ي ne s'accroche à aucune voisine : c'est la forme isolée. Le ا qui précède ne s'attache pas : le ي est seul, donc isolé.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "شاي",
@@ -650,7 +654,7 @@
     {
      "equals": "ن",
      "category": "spelling",
-     "feedback": "ن a un point dessus ; l'article ne contient pas de ن."
+     "feedback": "ن n'est pas dans l'article : ال, c'est ا puis ل."
     }
    ],
    "options": [
@@ -718,7 +722,7 @@
    "promptLanguage": "fr",
    "answer": "المسيح = le Christ ; العدرا = la Vierge Marie ; آمين = amen ; قربان = pain d'offrande ; إنجيل = Évangile",
    "acceptedAnswers": [],
-   "explanation": "Ce sont des mots que tu dis à l'église : lis-les bloc par bloc.",
+   "explanation": "Ce sont des mots que tu dis à l'église : lis-les d'un trait.",
    "pairs": [
     {
      "left": "المسيح",
@@ -794,7 +798,7 @@
    "promptLanguage": "fr",
    "answer": "بيت = maison ; باب = porte ; ورد = fleurs ; تين = figues ; نبي = prophète",
    "acceptedAnswers": [],
-   "explanation": "Points et blocs : بيت (1 bloc), باب (2 blocs), ورد (3 blocs).",
+   "explanation": "Ces mots viennent des leçons 9 et 10 : lis chacun d'un coup d'œil, de droite à gauche.",
    "pairs": [
     {
      "left": "بيت",
@@ -834,7 +838,7 @@
    "promptLanguage": "fr",
    "answer": "حبيبي = mon chéri ; بخور = encens ; شاي = thé ; صباح = matin ; جرس = cloche",
    "acceptedAnswers": [],
-   "explanation": "Cherche le crochet ج ح خ, les dents س ش et la boucle ص ض.",
+   "explanation": "Ces mots viennent des leçons 11 et 12 : lis chacun d'un coup d'œil, de droite à gauche.",
    "pairs": [
     {
      "left": "حبيبي",
@@ -896,8 +900,8 @@
     "trois",
     "3"
    ],
-   "explanation": "ثلاثة = ثلا | ثة : ث (3 points dessus), la ligature لا, puis ث et ة. C'est le chiffre trois.",
-   "tip": "Deux ث avec 3 points dessus, et la ligature au milieu.",
+   "explanation": "ثلاثة = ثلا | ثة : ث, la ligature لا, puis ث et ة. C'est le chiffre trois.",
+   "tip": "Deux ث, avec la ligature لا au milieu.",
    "extraExample": {
     "text": "عندي ثلاثة أولاد.",
     "translation": "J'ai trois enfants."
@@ -950,7 +954,7 @@
     "pour rien",
     "laisse tomber"
    ],
-   "explanation": "بلاش = بلا | ش : ب, la ligature لا, puis ش (3 dents, 3 points). C'est « gratuit », « pour rien ».",
+   "explanation": "بلاش = بلا | ش : ب, la ligature لا, puis ش. C'est « gratuit », « pour rien ».",
    "tip": "بلا + ش : la ligature ferme le premier bloc.",
    "extraExample": {
     "text": "الأكل ده بلاش.",

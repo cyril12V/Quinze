@@ -2,32 +2,32 @@
  {
   "id": "ar.g09.forms_ba_family",
   "rule": {
-   "summary": "Dans un mot, une lettre change de forme selon sa place : isolée, début, milieu ou fin. Au milieu, ب ت ث ن ي sont la même dent : seuls les points les distinguent.",
-   "explanation": "Dans un mot, les lettres s'attachent de droite à gauche. Une lettre attachée à la suivante prend la forme du début, attachée des deux côtés la forme du milieu, attachée à la précédente la forme de la fin ; seule, elle garde la forme isolée. Le tatweel ـ montre l'attache. ب ت ث ن ي ont la même dent, seuls les points changent : ب 1 dessous, ت 2 dessus, ث 3 dessus, ن 1 dessus, ي 2 dessous.",
+   "summary": "Dans un mot, une lettre change de forme selon sa place : isolée, début, milieu ou fin. Au milieu, ب ت ث ن ي sont la même dent : on les reconnaît grâce au mot entier.",
+   "explanation": "Dans un mot, les lettres s'attachent de droite à gauche. Une lettre attachée à la suivante prend la forme du début, attachée des deux côtés la forme du milieu, attachée à la précédente la forme de la fin ; seule, elle garde la forme isolée. Le tatweel ـ montre l'attache. ب ت ث ن ي ont la même dent au milieu : on les reconnaît dans le mot, et les points ne sont qu'un repère rapide.",
    "pattern": "بـ (début)  ـبـ (milieu)  ـب (fin)  ب (isolée)",
    "examples": [
     {
      "text": "بيت",
-     "translation": "maison : ب + ي + ت, trois lettres attachées"
+     "translation": "maison : ب au début, ي au milieu, ت à la fin"
     },
     {
      "text": "بنت",
-     "translation": "fille : même squelette, ـنـ au milieu"
+     "translation": "fille : même début et même fin, ـنـ au milieu"
     },
     {
      "text": "تين",
-     "translation": "figues : ت + ي + ن"
+     "translation": "figues : ت au début, ي au milieu, ن à la fin"
     },
     {
      "text": "نبي",
-     "translation": "prophète : ن + ب + ي"
+     "translation": "prophète : ن au début, ب au milieu, ي à la fin"
     }
    ],
    "commonErrors": [
     {
      "wrong": "بنت lu comme بيت",
      "right": "بنت = fille ; بيت = maison",
-     "why": "ـنـ a un point dessus, ـيـ en a deux dessous."
+     "why": "La lettre du milieu n'est pas la même : ـنـ dans بنت, ـيـ dans بيت."
     },
     {
      "wrong": "ـب pris pour la forme du début",
@@ -35,12 +35,12 @@
      "why": "Le trait ـ est du côté de la lettre voisine : à gauche pour le début, à droite pour la fin."
     },
     {
-     "wrong": "ث lu avec deux points",
-     "right": "ث a trois points dessus",
-     "why": "Deux points dessus, c'est ت ; trois points dessus, c'est ث."
+     "wrong": "ت lu comme ث",
+     "right": "تين (figues) commence par ت",
+     "why": "Lis le mot en entier : تين est un mot que tu connais, il te confirme la lettre."
     }
    ],
-   "tip": "Devant une dent, compte les points avant de lire le mot."
+   "tip": "Lis le mot en entier, de droite à gauche : début, milieu, fin."
   }
  },
  {
@@ -52,25 +52,25 @@
    "examples": [
     {
      "text": "باب",
-     "translation": "porte : با | ب, 2 blocs"
+     "translation": "porte : با | ب"
     },
     {
      "text": "ورد",
-     "translation": "fleurs : و | ر | د, 3 blocs"
+     "translation": "fleurs : و | ر | د"
     },
     {
      "text": "زيت",
-     "translation": "huile : ز | يت, 2 blocs"
+     "translation": "huile : ز | يت"
     },
     {
      "text": "أبونا",
-     "translation": "notre père (le prêtre) : أ | بو | نا, 3 blocs"
+     "translation": "notre père (le prêtre) : أ | بو | نا"
     }
    ],
    "commonErrors": [
     {
-     "wrong": "باب lu en un seul bloc",
-     "right": "با | ب : deux blocs",
+     "wrong": "باب lu en un seul morceau",
+     "right": "با | ب : le mot se coupe après le ا",
      "why": "Le ا ne s'attache jamais à la lettre d'après."
     },
     {
@@ -80,47 +80,47 @@
     },
     {
      "wrong": "د pris pour ذ",
-     "right": "ذ a un point dessus",
-     "why": "Un point au-dessus du crochet, c'est ذ ; sans point, c'est د."
+     "right": "ذنب commence par ذ, دير par د",
+     "why": "Le mot t'aide à choisir la bonne lettre."
     }
    ],
-   "tip": "Cherche ا د ذ ر ز و : après chacune, un nouveau bloc commence."
+   "tip": "Cherche ا د ذ ر ز و : après chacune, la lettre suivante repart à neuf."
   }
  },
  {
   "id": "ar.g11.forms_jim_family",
   "rule": {
-   "summary": "ج ح خ ont la même tête et le même crochet : seul le point change (dessous, aucun, dessus). Au début et au milieu c'est une tête, à la fin le crochet revient.",
-   "explanation": "ج, ح et خ se ressemblent comme ب ت ث : même corps, points différents. ج a un point dessous, ح n'en a pas, خ en a un dessus. Au début et au milieu d'un mot, la lettre est une petite tête (جـ ـجـ) ; à la fin, elle retrouve son crochet (ـج). Le point ne bouge jamais.",
+   "summary": "ج ح خ ont la même tête et le même crochet : on les reconnaît dans le mot. Au début et au milieu c'est une tête, à la fin le crochet revient.",
+   "explanation": "ج, ح et خ se ressemblent comme ب ت ث : même corps. Un petit point (dessous pour ج, aucun pour ح, dessus pour خ) sert de repère rapide, mais on les reconnaît surtout dans le mot. Au début et au milieu d'un mot, la lettre est une petite tête (جـ ـجـ) ; à la fin, elle retrouve son crochet (ـج).",
    "pattern": "جـ ـجـ ـج ج  |  حـ ـحـ ـح ح  |  خـ ـخـ ـخ خ",
    "examples": [
     {
      "text": "حبيبي",
-     "translation": "mon chéri : ح + ب + ي + ب + ي, 1 bloc"
+     "translation": "mon chéri : ح au début, ي à la fin"
     },
     {
      "text": "خوخ",
-     "translation": "pêches : خو | خ, 2 blocs"
+     "translation": "pêches : خ au début, و au milieu, خ à la fin"
     },
     {
      "text": "جيب",
-     "translation": "poche : ج + ي + ب, 1 bloc"
+     "translation": "poche : ج au début"
     },
     {
      "text": "بخور",
-     "translation": "encens : بخو | ر, 2 blocs"
+     "translation": "encens : خ au milieu"
     }
    ],
    "commonErrors": [
     {
      "wrong": "خد lu comme حد",
      "right": "خد = prends ; حد = quelqu'un",
-     "why": "خ a un point dessus ; ح n'en a aucun."
+     "why": "La première lettre n'est pas la même : lis-la avant de lire le reste."
     },
     {
-     "wrong": "ج lu comme خ",
-     "right": "ج : point dessous",
-     "why": "Le point de ج est dessous, dans le creux ; celui de خ est dessus."
+     "wrong": "جيب lu comme خيب",
+     "right": "جيب commence par ج",
+     "why": "Le mot t'aide : جيب (poche) est le mot que tu connais."
     },
     {
      "wrong": "le deuxième خ de خوخ écrit avec un trait",
@@ -128,14 +128,14 @@
      "why": "Après un و, la lettre repart à neuf ; en fin de mot et seule, elle est isolée."
     }
    ],
-   "tip": "Devant une tête, cherche d'abord le point : dessous, rien, ou dessus."
+   "tip": "Devant une tête, lis le mot en entier : la première lettre est à droite, au début."
   }
  },
  {
   "id": "ar.g12.forms_sin_family",
   "rule": {
-   "summary": "س ش ont trois dents, ص ض une boucle ; ش et ض sont س et ص avec des points. Les points ne bougent pas quand la forme change.",
-   "explanation": "س et ش partagent trois dents (ش a 3 points dessus). ص et ض partagent une boucle (ض a 1 point dessus). Au début et au milieu, les dents se serrent et la boucle reste ; à la fin, la queue revient. Comme pour ب ت ث ن ي, le point fait la lettre : on le regarde avant de lire le mot.",
+   "summary": "س ش ont trois dents, ص ض une boucle : on les reconnaît dans le mot, au début, au milieu ou à la fin. Les points ne bougent pas quand la forme change.",
+   "explanation": "س et ش partagent trois dents, ص et ض partagent une boucle ; ش et ض portent des points en plus, un repère rapide. Au début et au milieu, les dents se serrent et la boucle reste ; à la fin, la queue revient. Pour lire, regarde le mot entier : شاي (thé) est un mot que tu connais.",
    "pattern": "سـ ـسـ ـس  |  شـ ـشـ ـش  |  صـ ـصـ ـص  |  ضـ ـضـ ـض",
    "examples": [
     {
@@ -158,13 +158,13 @@
    "commonErrors": [
     {
      "wrong": "شاي lu ساي",
-     "right": "ش a 3 points dessus",
-     "why": "Sans ses 3 points, la lettre est س, et ساي n'existe pas."
+     "right": "شاي : ش au début",
+     "why": "Le mot t'aide : شاي (thé) est le mot que tu connais."
     },
     {
      "wrong": "ض lu ص",
-     "right": "ض : boucle + 1 point dessus",
-     "why": "ص n'a aucun point : le point de ض est ce qui les sépare."
+     "right": "حاضر avec ض",
+     "why": "Le mot t'aide : حاضر (entendu) est le mot que tu connais."
     },
     {
      "wrong": "ـضـ pour le ض de حاضر",
@@ -172,43 +172,43 @@
      "why": "Le ا qui précède ne s'attache pas : le ض repart à neuf."
     }
    ],
-   "tip": "Dents ou boucle ? Puis compte les points : la lettre est là."
+   "tip": "Dents ou boucle ? Lis le mot en entier : la lettre est là."
   }
  },
  {
   "id": "ar.g13.forms_ayn_family",
   "rule": {
-   "summary": "ط ظ ont une boucle et un mât, ع غ une œil ; ظ et غ sont ط et ع avec 1 point dessus. Le point fait la lettre.",
-   "explanation": "ط et ظ partagent la boucle et le mât ; ع et غ partagent la œil. Dans chaque paire, le point dessus distingue la lettre (ظ, غ). Au début et au milieu on voit la boucle-mât ou la petite tête ; à la fin le crochet revient. Quand une lettre suit un و ou un ا, elle repart à neuf, comme le ع de يسوع qui est isolé.",
+   "summary": "ط ظ ont une boucle et un mât, ع غ un œil : on les reconnaît dans le mot, au début, au milieu ou à la fin.",
+   "explanation": "ط et ظ partagent la boucle et le mât ; ع et غ partagent l'œil. Dans chaque paire, un point dessus (ظ, غ) sert de repère rapide. Au début et au milieu on voit la boucle-mât ou la petite tête ; à la fin le crochet revient. Quand une lettre suit un و ou un ا, elle repart à neuf, comme le ع de يسوع qui est isolé.",
    "pattern": "طـ ـطـ ـط  |  ظـ ـظـ ـظ  |  عـ ـعـ ـع  |  غـ ـغـ ـغ",
    "examples": [
     {
      "text": "عيش",
-     "translation": "pain : ع + ي + ش, 1 bloc"
+     "translation": "pain : ع au début"
     },
     {
      "text": "جعان",
-     "translation": "affamé : جعا | ن"
+     "translation": "affamé : ع au milieu"
     },
     {
      "text": "يسوع",
-     "translation": "Jésus : يسو | ع, ع isolé"
+     "translation": "Jésus : ع à la fin, isolé"
     },
     {
      "text": "حظ",
-     "translation": "chance : ح + ظ, ظ à la fin"
+     "translation": "chance : ظ à la fin"
     }
    ],
    "commonErrors": [
     {
-     "wrong": "غني lu comme عني",
-     "right": "غ a un point dessus",
-     "why": "Le point dessus fait la différence entre ع et غ."
+     "wrong": "غني lu avec ع",
+     "right": "غني commence par غ",
+     "why": "Lis la première lettre avec soin : غني veut dire « riche »."
     },
     {
      "wrong": "طير lu comme طيب",
      "right": "طير finit par ر",
-     "why": "ب a un point dessous ; ر n'en a aucun et descend sous la ligne."
+     "why": "Regarde la dernière lettre : ر descend sous la ligne, ب est une dent."
     },
     {
      "wrong": "ع de يسوع écrit avec un trait",
@@ -216,42 +216,42 @@
      "why": "Le و ne s'attache pas à la suivante : le ع repart à neuf, et seul il est isolé."
     }
    ],
-   "tip": "Cherche d'abord le mât ou la tête, puis le point dessus."
+   "tip": "Lis le mot en entier : la tête ou le mât te dit où est la lettre."
   }
  },
  {
   "id": "ar.g14.forms_fa_lam",
   "rule": {
-   "summary": "ف ق sont des têtes rondes (1 et 2 points dessus), ك ل sont des bâtons. ل s'attache à la suivante, contrairement à ا qui coupe le mot.",
-   "explanation": "ف et ق ont la même tête ronde : ف avec 1 point dessus, ق avec 2 points dessus. ك et ل sont des bâtons : ك est un trait penché avec un petit zigzag, ل est un bâton avec un pied courbé. Au début et au milieu, on voit la boule ou le bâton ; à la fin, le pied revient. ل s'attache à la lettre suivante, alors que ا ne s'attache jamais : le bâton ل ne coupe pas le mot.",
+   "summary": "ف ق sont des têtes rondes, ك ل des bâtons : on les reconnaît dans le mot. ل s'attache à la suivante, contrairement à ا qui coupe le mot.",
+   "explanation": "ف et ق ont la même tête ronde (1 point dessus pour ف, 2 pour ق : un repère rapide). ك et ل sont des bâtons : ك est un trait penché avec un petit zigzag, ل est un bâton avec un pied courbé. Au début et au milieu, on voit la boule ou le bâton ; à la fin, le pied revient. ل s'attache à la lettre suivante, alors que ا ne s'attache jamais : le bâton ل ne coupe pas le mot.",
    "pattern": "فـ ـفـ ـف  |  قـ ـقـ ـق  |  كـ ـكـ ـك  |  لـ ـلـ ـل",
    "examples": [
     {
      "text": "صليب",
-     "translation": "croix : ص + ل + ي + ب, 1 bloc"
+     "translation": "croix : ل au milieu, tout est attaché"
     },
     {
      "text": "قداس",
-     "translation": "liturgie : قد | ا | س, 3 blocs"
+     "translation": "liturgie : قد | ا | س, ق au début"
     },
     {
      "text": "كرسي",
-     "translation": "chaise : كر | سي, 2 blocs"
+     "translation": "chaise : كر | سي, ك au début"
     },
     {
      "text": "فول",
-     "translation": "fèves : فو | ل, 2 blocs"
+     "translation": "fèves : فو | ل, ف au début, ل à la fin"
     }
    ],
    "commonErrors": [
     {
      "wrong": "قلب lu فلب",
-     "right": "ق a 2 points dessus",
-     "why": "ف n'a qu'un seul point dessus."
+     "right": "قلب commence par ق",
+     "why": "Le mot t'aide : قلب (cœur) est le mot que tu connais."
     },
     {
      "wrong": "ل pris pour ا dans صليب",
-     "right": "ل s'attache : صليب = 1 bloc",
+     "right": "ل s'attache : صليب se lit d'un trait",
      "why": "ا coupe le mot, ل non : le ل est attaché des deux côtés."
     },
     {
@@ -260,7 +260,7 @@
      "why": "ل est un bâton sans zigzag ; ك porte un petit zigzag dans l'angle."
     }
    ],
-   "tip": "Boule : compte les points (1 ou 2). Bâton : lisse, ou un trait avec un zigzag ?"
+   "tip": "Boule : lis le mot en entier. Bâton : lisse, ou un trait avec un zigzag ?"
   }
  },
  {
@@ -272,19 +272,19 @@
    "examples": [
     {
      "text": "مية",
-     "translation": "eau : م + ي + ة, 1 bloc"
+     "translation": "eau : م au début, ة à la fin"
     },
     {
      "text": "قهوة",
-     "translation": "café : قهو | ة, ة isolé"
+     "translation": "café : ة isolé après le و"
     },
     {
      "text": "كنيسة",
-     "translation": "église : 1 bloc, ـة attaché"
+     "translation": "église : ـة attaché au س"
     },
     {
      "text": "ترابيزة",
-     "translation": "table : تر | ا | بيز | ة, 4 blocs"
+     "translation": "table : تر | ا | بيز | ة"
     }
    ],
    "commonErrors": [
@@ -310,13 +310,13 @@
  {
   "id": "ar.g16.article_and_ligature",
   "rule": {
-   "summary": "ال devant un nom veut dire le / la et ajoute un bloc au début ; ل suivi de ا s'écrit avec la ligature لا, qui ferme le bloc comme un ا.",
-   "explanation": "L'article ال (ا puis ل) se place devant le nom : الكنيسة, البيت. Le ا ne s'attache pas, donc ال forme un bloc à lui seul et le ل s'accroche au nom (forme du début). Quand ل est suivi de ا, les deux se fondent en un seul signe, la ligature لا, qui ferme le bloc. Pour lire un mot : repère ال, coupe en blocs, lis chaque bloc lettre par lettre, assemble.",
+   "summary": "ال devant un nom veut dire le / la ; ل suivi de ا s'écrit avec la ligature لا, qui ferme le morceau comme un ا.",
+   "explanation": "L'article ال (ا puis ل) se place devant le nom : الكنيسة, البيت. Le ا ne s'attache pas, donc il reste seul au début et le ل s'accroche au nom (forme du début). Quand ل est suivi de ا, les deux se fondent en un seul signe, la ligature لا, qui ferme le morceau. Pour lire un mot : repère ال, coupe en morceaux, lis chaque morceau lettre par lettre, assemble.",
    "pattern": "ال + nom = le / la + nom   |   ل + ا = لا",
    "examples": [
     {
      "text": "الكنيسة",
-     "translation": "l'église : ا | لكنيسة, 2 blocs"
+     "translation": "l'église : ا | لكنيسة"
     },
     {
      "text": "المسيح",
@@ -328,7 +328,7 @@
     },
     {
      "text": "العدرا",
-     "translation": "la Vierge Marie : ا | لعد | ر | ا, 4 blocs"
+     "translation": "la Vierge Marie : ا | لعد | ر | ا"
     }
    ],
    "commonErrors": [

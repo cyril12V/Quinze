@@ -5,34 +5,44 @@
       "id": "ar.l02.e01",
       "unitIds": [
         "ar.g02.letters2",
-        "ar.v.nun"
+        "ar.v.jim"
       ],
       "type": "mcq",
       "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre fait le son n, comme dans nuit ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ت",
-        "ب",
-        "ي",
-        "ن"
-      ],
-      "answer": "ن",
-      "acceptedAnswers": [
-        "ن"
-      ],
-      "explanation": "ن se lit comme le n de nuit : un bol creux avec une cerise (1 point dessus).",
-      "tip": "Un bol avec une cerise dessus.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ج",
+      "promptLanguage": "ar",
+      "explanation": "ج (gîm) se lit g, comme gâteau.",
+      "tip": "Le g de gâteau, pas dj.",
       "extraExample": {
-        "text": "ن",
-        "translation": "nûn : le n de nuit, 1 point dessus."
+        "text": "جزر",
+        "translation": "carottes : ج au début"
       },
+      "options": [
+        "g, comme gâteau",
+        "kh, comme dans Bach",
+        "d, comme dent",
+        "h fort, comme sur une vitre"
+      ],
+      "answer": "g, comme gâteau",
+      "acceptedAnswers": [
+        "g, comme gâteau"
+      ],
       "errorPatterns": [
         {
-          "equals": "ب",
+          "equals": "h fort, comme sur une vitre",
           "category": "word_confusion",
-          "feedback": "ب fait b, comme bateau. Son point est dessous."
+          "feedback": "« h fort, comme sur une vitre » est le son de ح (ḥâ). Ici, c'est ج (gîm) : g, comme gâteau."
+        },
+        {
+          "equals": "kh, comme dans Bach",
+          "category": "word_confusion",
+          "feedback": "« kh, comme dans Bach » est le son de خ (khâ). Ici, c'est ج (gîm) : g, comme gâteau."
+        },
+        {
+          "equals": "d, comme dent",
+          "category": "word_confusion",
+          "feedback": "« d, comme dent » est le son de د (dâl). Ici, c'est ج (gîm) : g, comme gâteau."
         }
       ]
     },
@@ -40,62 +50,89 @@
       "id": "ar.l02.e02",
       "unitIds": [
         "ar.g02.letters2",
-        "ar.v.ya"
+        "ar.v.ha"
       ],
       "type": "mcq",
-      "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre fait le son y, comme dans yaourt ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ب",
-        "ا",
-        "ن",
-        "ي"
-      ],
-      "answer": "ي",
-      "acceptedAnswers": [
-        "ي"
-      ],
-      "explanation": "ي se lit comme le y de yaourt. Repère sa longue queue et ses 2 points dessous.",
-      "tip": "Une queue qui plonge, deux points dessous.",
+      "difficulty": 2,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ـحـ",
+      "promptLanguage": "ar",
+      "explanation": "ـحـ est la forme du milieu de ح (ḥâ) : la forme change, pas le son. ح se lit h fort, comme sur une vitre.",
+      "tip": "De la buée sur une vitre : h fort.",
       "extraExample": {
-        "text": "ي",
-        "translation": "yâ : le y de yaourt, 2 points dessous."
-      }
+        "text": "حب",
+        "translation": "amour : ح au début"
+      },
+      "options": [
+        "r roulé, comme en espagnol",
+        "kh, comme dans Bach",
+        "h fort, comme sur une vitre",
+        "g, comme gâteau"
+      ],
+      "answer": "h fort, comme sur une vitre",
+      "acceptedAnswers": [
+        "h fort, comme sur une vitre"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "g, comme gâteau",
+          "category": "word_confusion",
+          "feedback": "« g, comme gâteau » est le son de ج (gîm). Ici, c'est ح (ḥâ) : h fort, comme sur une vitre."
+        },
+        {
+          "equals": "kh, comme dans Bach",
+          "category": "word_confusion",
+          "feedback": "« kh, comme dans Bach » est le son de خ (khâ). Ici, c'est ح (ḥâ) : h fort, comme sur une vitre."
+        },
+        {
+          "equals": "r roulé, comme en espagnol",
+          "category": "word_confusion",
+          "feedback": "« r roulé, comme en espagnol » est le son de ر (râ). Ici, c'est ح (ḥâ) : h fort, comme sur une vitre."
+        }
+      ]
     },
     {
       "id": "ar.l02.e03",
       "unitIds": [
-        "ar.v.tha",
-        "ar.g02.letters2"
+        "ar.g02.letters2",
+        "ar.v.kha"
       ],
       "type": "mcq",
-      "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre a 3 points dessus ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ث",
-        "ي",
-        "ن",
-        "ت"
-      ],
-      "answer": "ث",
-      "acceptedAnswers": [
-        "ث"
-      ],
-      "explanation": "ث porte 3 points dessus. ن n'en a qu'un, ت en a 2 et ي a ses 2 points dessous.",
-      "tip": "Trois mouettes en triangle sur la barque.",
+      "difficulty": 2,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "خـ",
+      "promptLanguage": "ar",
+      "explanation": "خـ est la forme du début de خ (khâ) : la forme change, pas le son. خ se lit kh, comme dans Bach.",
+      "tip": "Bach : le kh qui racle.",
       "extraExample": {
-        "text": "ث",
-        "translation": "thâ : un t, parfois un s, 3 points dessus."
+        "text": "خير",
+        "translation": "le bien : خ au début"
       },
+      "options": [
+        "g, comme gâteau",
+        "d, comme dent",
+        "kh, comme dans Bach",
+        "h fort, comme sur une vitre"
+      ],
+      "answer": "kh, comme dans Bach",
+      "acceptedAnswers": [
+        "kh, comme dans Bach"
+      ],
       "errorPatterns": [
         {
-          "equals": "ت",
+          "equals": "g, comme gâteau",
           "category": "word_confusion",
-          "feedback": "ت en a 2 seulement."
+          "feedback": "« g, comme gâteau » est le son de ج (gîm). Ici, c'est خ (khâ) : kh, comme dans Bach."
+        },
+        {
+          "equals": "h fort, comme sur une vitre",
+          "category": "word_confusion",
+          "feedback": "« h fort, comme sur une vitre » est le son de ح (ḥâ). Ici, c'est خ (khâ) : kh, comme dans Bach."
+        },
+        {
+          "equals": "d, comme dent",
+          "category": "word_confusion",
+          "feedback": "« d, comme dent » est le son de د (dâl). Ici, c'est خ (khâ) : kh, comme dans Bach."
         }
       ]
     },
@@ -103,69 +140,89 @@
       "id": "ar.l02.e04",
       "unitIds": [
         "ar.g02.letters2",
-        "ar.v.nun",
-        "ar.v.ya",
-        "ar.v.ba",
-        "ar.v.ta"
+        "ar.v.dhal"
       ],
-      "type": "match",
-      "difficulty": 1,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie ن, ي, ب et ت à leur nom.",
-      "promptLanguage": "fr",
-      "pairs": [
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ذ",
+      "promptLanguage": "ar",
+      "explanation": "ذ (dhâl) se lit d ou z, comme dent ou zèbre.",
+      "tip": "ذ est un d (ou un z savant).",
+      "extraExample": {
+        "text": "ذنب",
+        "translation": "péché : ذ au début"
+      },
+      "options": [
+        "r roulé, comme en espagnol",
+        "d ou z, comme dent ou zèbre",
+        "h fort, comme sur une vitre",
+        "b, comme bateau"
+      ],
+      "answer": "d ou z, comme dent ou zèbre",
+      "acceptedAnswers": [
+        "d ou z, comme dent ou zèbre"
+      ],
+      "errorPatterns": [
         {
-          "left": "ن",
-          "right": "nûn"
+          "equals": "r roulé, comme en espagnol",
+          "category": "word_confusion",
+          "feedback": "« r roulé, comme en espagnol » est le son de ر (râ). Ici, c'est ذ (dhâl) : d ou z, comme dent ou zèbre."
         },
         {
-          "left": "ي",
-          "right": "yâ"
+          "equals": "h fort, comme sur une vitre",
+          "category": "word_confusion",
+          "feedback": "« h fort, comme sur une vitre » est le son de ح (ḥâ). Ici, c'est ذ (dhâl) : d ou z, comme dent ou zèbre."
         },
         {
-          "left": "ب",
-          "right": "bâ"
-        },
-        {
-          "left": "ت",
-          "right": "tâ"
+          "equals": "b, comme bateau",
+          "category": "word_confusion",
+          "feedback": "« b, comme bateau » est le son de ب (bâ). Ici, c'est ذ (dhâl) : d ou z, comme dent ou zèbre."
         }
-      ],
-      "acceptedAnswers": [],
-      "explanation": "Chaque nom commence par le son de sa lettre : nûn pour n, yâ pour y, bâ pour b, tâ pour t."
+      ]
     },
     {
       "id": "ar.l02.e05",
       "unitIds": [
         "ar.g02.letters2",
-        "ar.v.nun"
+        "ar.v.ra"
       ],
       "type": "mcq",
-      "difficulty": 2,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre est un bol creux avec 1 point dessus ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ب",
-        "ن",
-        "ث",
-        "ت"
-      ],
-      "answer": "ن",
-      "acceptedAnswers": [
-        "ن"
-      ],
-      "explanation": "ن est le bol à cerise : creux, avec son point dessus. ب est une barque plate dont le point est dessous.",
-      "tip": "Un bol avec une cerise dessus.",
+      "difficulty": 1,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ـر",
+      "promptLanguage": "ar",
+      "explanation": "ـر est la forme de la fin de ر (râ) : la forme change, pas le son. ر se lit r roulé, comme en espagnol.",
+      "tip": "Le r qui roule, du bout de la langue.",
       "extraExample": {
-        "text": "ن",
-        "translation": "nûn : le n de nuit, 1 point dessus."
+        "text": "رز",
+        "translation": "riz : ر au début"
       },
+      "options": [
+        "z, comme zèbre",
+        "g, comme gâteau",
+        "r roulé, comme en espagnol",
+        "n, comme nuit"
+      ],
+      "answer": "r roulé, comme en espagnol",
+      "acceptedAnswers": [
+        "r roulé, comme en espagnol"
+      ],
       "errorPatterns": [
         {
-          "equals": "ب",
+          "equals": "z, comme zèbre",
           "category": "word_confusion",
-          "feedback": "ب a son point dessous, et sa forme est plate."
+          "feedback": "« z, comme zèbre » est le son de ز (zây). Ici, c'est ر (râ) : r roulé, comme en espagnol."
+        },
+        {
+          "equals": "g, comme gâteau",
+          "category": "word_confusion",
+          "feedback": "« g, comme gâteau » est le son de ج (gîm). Ici, c'est ر (râ) : r roulé, comme en espagnol."
+        },
+        {
+          "equals": "n, comme nuit",
+          "category": "word_confusion",
+          "feedback": "« n, comme nuit » est le son de ن (nûn). Ici, c'est ر (râ) : r roulé, comme en espagnol."
         }
       ]
     },
@@ -173,34 +230,44 @@
       "id": "ar.l02.e06",
       "unitIds": [
         "ar.g02.letters2",
-        "ar.v.ya"
+        "ar.v.zay"
       ],
       "type": "mcq",
       "difficulty": 2,
       "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre a 2 points dessous ?",
+      "prompt": "Quelle lettre fait le son « z, comme zèbre » ?",
       "promptLanguage": "fr",
-      "options": [
-        "ت",
-        "ث",
-        "ب",
-        "ي"
-      ],
-      "answer": "ي",
-      "acceptedAnswers": [
-        "ي"
-      ],
-      "explanation": "ي a 2 points dessous, au bout de sa queue. ت a aussi 2 points, mais dessus.",
-      "tip": "Une queue qui plonge, deux points dessous.",
+      "explanation": "Le son z, comme zèbre s'écrit ز (zây).",
+      "tip": "Un zèbre : z.",
       "extraExample": {
-        "text": "ي",
-        "translation": "yâ : le y de yaourt, 2 points dessous."
+        "text": "زيت",
+        "translation": "huile : ز au début"
       },
+      "options": [
+        "ن",
+        "ز",
+        "د",
+        "ر"
+      ],
+      "answer": "ز",
+      "acceptedAnswers": [
+        "ز"
+      ],
       "errorPatterns": [
         {
-          "equals": "ت",
+          "equals": "ر",
           "category": "word_confusion",
-          "feedback": "ت a bien 2 points, mais dessus. Ici, il faut 2 points dessous."
+          "feedback": "ر (râ) se lit r roulé, comme en espagnol, pas z, comme zèbre."
+        },
+        {
+          "equals": "د",
+          "category": "word_confusion",
+          "feedback": "د (dâl) se lit d, comme dent, pas z, comme zèbre."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "ن (nûn) se lit n, comme nuit, pas z, comme zèbre."
         }
       ]
     },
@@ -208,413 +275,651 @@
       "id": "ar.l02.e07",
       "unitIds": [
         "ar.g02.letters2",
-        "ar.v.nun"
+        "ar.v.zay"
       ],
-      "type": "fill_blank",
+      "type": "mcq",
       "difficulty": 2,
-      "instruction": "Complète avec le bon mot.",
-      "prompt": "La lettre ن a 1 point ___, comme une cerise sur un bol.",
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans زيت, quelle lettre est au début ?",
       "promptLanguage": "fr",
-      "options": [
-        "dessous",
-        "dessus",
-        "dedans"
-      ],
-      "answer": "dessus",
-      "acceptedAnswers": [
-        "dessus"
-      ],
-      "explanation": "Le point de ن est dessus, alors que celui de ب est dessous : c'est la place qui les distingue.",
-      "tip": "Un bol avec une cerise dessus.",
+      "explanation": "زيت (huile) se lit de droite à gauche : ز puis ي puis ت. La lettre au début est ز.",
+      "tip": "Un mot se lit de droite à gauche : la première lettre est à droite.",
       "extraExample": {
-        "text": "ن",
-        "translation": "nûn : le n de nuit, 1 point dessus."
+        "text": "زيت",
+        "translation": "huile : ز au début, ت à la fin"
       },
+      "options": [
+        "ز",
+        "ي",
+        "ت",
+        "ر"
+      ],
+      "answer": "ز",
+      "acceptedAnswers": [
+        "ز"
+      ],
+      "hint": "Le début d'un mot est à droite.",
       "errorPatterns": [
         {
-          "equals": "dessous",
+          "equals": "ي",
           "category": "word_confusion",
-          "feedback": "Dessous, c'est ب. Pour ن, la cerise est posée dessus."
+          "feedback": "ي est bien dans زيت, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "ت est bien dans زيت, mais à la fin. Lis de droite à gauche."
+        },
+        {
+          "equals": "ر",
+          "category": "word_confusion",
+          "feedback": "ر n'est pas dans زيت. Lis les lettres de droite à gauche."
         }
       ]
     },
     {
       "id": "ar.l02.e08",
       "unitIds": [
-        "ar.v.alif",
-        "ar.g02.letters2"
+        "ar.g02.letters2",
+        "ar.v.zay"
       ],
       "type": "mcq",
       "difficulty": 2,
       "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre ne porte aucun point ?",
+      "prompt": "Dans جزر, quelle lettre est au milieu ?",
       "promptLanguage": "fr",
-      "options": [
-        "ب",
-        "ي",
-        "ا",
-        "ن"
-      ],
-      "answer": "ا",
-      "acceptedAnswers": [
-        "ا"
-      ],
-      "explanation": "ا est un bâton nu. ب, ن et ي portent chacune des points.",
-      "tip": "Un poteau droit, sans point : c'est alif.",
+      "explanation": "جزر (carottes) se lit de droite à gauche : ج puis ز puis ر. La lettre au milieu est ز.",
+      "tip": "Pour le milieu, lis de droite à gauche et arrête-toi sur la lettre du centre.",
       "extraExample": {
-        "text": "ا",
-        "translation": "alif : le a long de pâte, aucun point."
-      }
+        "text": "جزر",
+        "translation": "carottes : ج au début, ر à la fin"
+      },
+      "options": [
+        "ج",
+        "ب",
+        "ر",
+        "ز"
+      ],
+      "answer": "ز",
+      "acceptedAnswers": [
+        "ز"
+      ],
+      "hint": "Le milieu est entre la première lettre (à droite) et la dernière (à gauche).",
+      "errorPatterns": [
+        {
+          "equals": "ج",
+          "category": "word_confusion",
+          "feedback": "ج est bien dans جزر, mais au début. Lis de droite à gauche."
+        },
+        {
+          "equals": "ر",
+          "category": "word_confusion",
+          "feedback": "ر est bien dans جزر, mais à la fin. Lis de droite à gauche."
+        },
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب n'est pas dans جزر. Lis les lettres de droite à gauche."
+        }
+      ]
     },
     {
       "id": "ar.l02.e09",
       "unitIds": [
         "ar.g02.letters2",
-        "ar.v.ba",
-        "ar.v.nun",
-        "ar.v.ya",
-        "ar.v.ta"
-      ],
-      "type": "match",
-      "difficulty": 2,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie ب, ن, ي et ت à leurs points.",
-      "promptLanguage": "fr",
-      "pairs": [
-        {
-          "left": "ب",
-          "right": "1 point dessous"
-        },
-        {
-          "left": "ن",
-          "right": "1 point dessus"
-        },
-        {
-          "left": "ي",
-          "right": "2 points dessous"
-        },
-        {
-          "left": "ت",
-          "right": "2 points dessus"
-        }
-      ],
-      "acceptedAnswers": [],
-      "explanation": "Le nombre ET la place font la lettre : ب et ن n'ont qu'un point, ت et ي en ont deux, mais dessus ou dessous."
-    },
-    {
-      "id": "ar.l02.e10",
-      "unitIds": [
-        "ar.g02.letters2",
-        "ar.v.ya",
-        "ar.v.ta",
-        "ar.v.tha",
-        "ar.v.nun"
+        "ar.v.ba"
       ],
       "type": "mcq",
       "difficulty": 2,
-      "instruction": "Trouve l'intruse.",
-      "prompt": "Trois de ces lettres ont leurs points dessus. Laquelle est l'intruse ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ي",
-        "ت",
-        "ث",
-        "ن"
-      ],
-      "answer": "ي",
-      "acceptedAnswers": [
-        "ي"
-      ],
-      "explanation": "ت, ث et ن ont leurs points dessus. ي est l'intruse : ses 2 points sont dessous.",
-      "tip": "Une queue qui plonge, deux points dessous.",
-      "extraExample": {
-        "text": "ي",
-        "translation": "yâ : le y de yaourt, 2 points dessous."
-      }
-    },
-    {
-      "id": "ar.l02.e11",
-      "unitIds": [
-        "ar.g02.letters2",
-        "ar.v.ya"
-      ],
-      "type": "fill_blank",
-      "difficulty": 2,
-      "instruction": "Choisis la lettre qui manque.",
-      "prompt": "La lettre ___ est celle dont la queue plonge sous la ligne.",
-      "promptLanguage": "fr",
-      "options": [
-        "ي",
-        "ب",
-        "ن",
-        "ت"
-      ],
-      "answer": "ي",
-      "acceptedAnswers": [
-        "ي"
-      ],
-      "explanation": "ي est la seule du groupe avec une queue qui plonge sous la ligne, et elle a 2 points dessous.",
-      "tip": "Une queue qui plonge, deux points dessous.",
-      "extraExample": {
-        "text": "ي",
-        "translation": "yâ : le y de yaourt, 2 points dessous."
-      }
-    },
-    {
-      "id": "ar.l02.e12",
-      "unitIds": [
-        "ar.g02.letters2",
-        "ar.v.ya"
-      ],
-      "type": "fill_blank",
-      "difficulty": 2,
-      "instruction": "Complète avec le bon nombre.",
-      "prompt": "ي a ___ points dessous, au bout de sa longue queue.",
-      "promptLanguage": "fr",
-      "options": [
-        "1",
-        "3",
-        "2"
-      ],
-      "answer": "2",
-      "acceptedAnswers": [
-        "2"
-      ],
-      "explanation": "ي a 2 points dessous. Si tu n'en vois qu'un dessous, c'est ب.",
-      "tip": "Une queue qui plonge, deux points dessous.",
-      "extraExample": {
-        "text": "ي",
-        "translation": "yâ : le y de yaourt, 2 points dessous."
-      }
-    },
-    {
-      "id": "ar.l02.e13",
-      "unitIds": [
-        "ar.v.ba",
-        "ar.v.ta",
-        "ar.g02.letters2"
-      ],
-      "type": "mcq",
-      "difficulty": 3,
       "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre vient juste avant ت dans l'alphabet ?",
+      "prompt": "Dans ذنب, quelle lettre est à la fin ?",
       "promptLanguage": "fr",
+      "explanation": "ذنب (péché) se lit de droite à gauche : ذ puis ن puis ب. La lettre à la fin est ب.",
+      "tip": "La dernière lettre est tout à gauche.",
+      "extraExample": {
+        "text": "ذنب",
+        "translation": "péché : ذ au début, ب à la fin"
+      },
       "options": [
-        "ب",
-        "ا",
-        "ث"
+        "ت",
+        "ن",
+        "ذ",
+        "ب"
       ],
       "answer": "ب",
       "acceptedAnswers": [
         "ب"
       ],
-      "explanation": "L'ordre est ا, ب, ت, ث : ب vient juste avant ت.",
-      "tip": "Une barque, et son ancre en dessous.",
-      "extraExample": {
-        "text": "ب",
-        "translation": "bâ : le b de bateau, 1 point dessous."
-      }
+      "hint": "La fin d'un mot est à gauche.",
+      "errorPatterns": [
+        {
+          "equals": "ذ",
+          "category": "word_confusion",
+          "feedback": "ذ est bien dans ذنب, mais au début. Lis de droite à gauche."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "ن est bien dans ذنب, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "ت n'est pas dans ذنب. Lis les lettres de droite à gauche."
+        }
+      ]
     },
     {
-      "id": "ar.l02.e14",
+      "id": "ar.l02.e10",
       "unitIds": [
-        "ar.v.tha",
-        "ar.g02.letters2"
+        "ar.g02.letters2",
+        "ar.v.ha"
       ],
       "type": "mcq",
       "difficulty": 3,
-      "instruction": "Choisis le bon son.",
-      "prompt": "Quel son fait la lettre ث en Égypte ?",
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Quelle est la forme de ح au milieu d'un mot ?",
       "promptLanguage": "fr",
-      "options": [
-        "le y de yaourt",
-        "un t, parfois un s",
-        "le b de bateau",
-        "le n de nuit"
-      ],
-      "answer": "un t, parfois un s",
-      "acceptedAnswers": [
-        "un t, parfois un s"
-      ],
-      "explanation": "En Égypte, ث se dit comme un t, parfois comme un s. Les 3 points dessus la distinguent de ت à l'écrit.",
-      "tip": "Trois mouettes en triangle sur la barque.",
+      "explanation": "Au milieu d'un mot, ح (ḥâ) s'accroche des deux côtés : elle devient ـحـ.",
+      "tip": "Au milieu, le trait ـ est des deux côtés de la lettre.",
       "extraExample": {
-        "text": "ث",
-        "translation": "thâ : un t, parfois un s, 3 points dessus."
-      }
+        "text": "بحر",
+        "translation": "mer : ح au milieu"
+      },
+      "options": [
+        "ـجـ",
+        "ـحـ",
+        "ـبـ",
+        "ـخـ"
+      ],
+      "answer": "ـحـ",
+      "acceptedAnswers": [
+        "ـحـ"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ـجـ",
+          "category": "word_confusion",
+          "feedback": "ـجـ est la forme du milieu de ج (gîm), pas de ح."
+        },
+        {
+          "equals": "ـخـ",
+          "category": "word_confusion",
+          "feedback": "ـخـ est la forme du milieu de خ (khâ), pas de ح."
+        },
+        {
+          "equals": "ـبـ",
+          "category": "word_confusion",
+          "feedback": "ـبـ est la forme du milieu de ب (bâ), pas de ح."
+        }
+      ]
     },
     {
-      "id": "ar.l02.e15",
+      "id": "ar.l02.e11",
       "unitIds": [
-        "ar.g02.letters2",
+        "ar.g01.letters1",
         "ar.v.ya"
       ],
       "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Devine la lettre.",
-      "prompt": "Qui suis-je ? « J'ai deux points, mais ils sont sous la ligne, au bout d'une longue queue. »",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans بيت, quelle lettre est au milieu ?",
       "promptLanguage": "fr",
+      "explanation": "بيت (maison) se lit de droite à gauche : ب puis ي puis ت. La lettre au milieu est ي.",
+      "tip": "Pour le milieu, lis de droite à gauche et arrête-toi sur la lettre du centre.",
+      "extraExample": {
+        "text": "بيت",
+        "translation": "maison : ب au début, ت à la fin"
+      },
       "options": [
+        "ت",
         "ن",
         "ب",
-        "ت",
         "ي"
       ],
       "answer": "ي",
       "acceptedAnswers": [
         "ي"
       ],
-      "explanation": "Deux points dessous et une queue qui plonge : c'est ي, le y de yaourt.",
-      "tip": "Une queue qui plonge, deux points dessous.",
+      "hint": "Le milieu est entre la première lettre (à droite) et la dernière (à gauche).",
+      "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب est bien dans بيت, mais au début. Lis de droite à gauche."
+        },
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "ت est bien dans بيت, mais à la fin. Lis de droite à gauche."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "ن n'est pas dans بيت. Lis les lettres de droite à gauche."
+        }
+      ]
+    },
+    {
+      "id": "ar.l02.e12",
+      "unitIds": [
+        "ar.g01.letters1",
+        "ar.v.nun"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son « n, comme nuit » ?",
+      "promptLanguage": "fr",
+      "explanation": "Le son n, comme nuit s'écrit ن (nûn).",
+      "tip": "Un bol pour la nuit : n.",
       "extraExample": {
-        "text": "ي",
-        "translation": "yâ : le y de yaourt, 2 points dessous."
-      }
+        "text": "نبي",
+        "translation": "prophète : ن au début"
+      },
+      "options": [
+        "ب",
+        "ي",
+        "ر",
+        "ن"
+      ],
+      "answer": "ن",
+      "acceptedAnswers": [
+        "ن"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب (bâ) se lit b, comme bateau, pas n, comme nuit."
+        },
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "ي (yâ) se lit y ou i long, comme yaourt, pas n, comme nuit."
+        },
+        {
+          "equals": "ر",
+          "category": "word_confusion",
+          "feedback": "ر (râ) se lit r roulé, comme en espagnol, pas n, comme nuit."
+        }
+      ]
+    },
+    {
+      "id": "ar.l02.e13",
+      "unitIds": [
+        "ar.g02.letters2",
+        "ar.v.zay"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "جـ___ر (carottes)",
+      "promptLanguage": "fr",
+      "explanation": "جزر (carottes) s'écrit : ج ز ر. Il manquait ز, qui se lit z, comme zèbre.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
+      "extraExample": {
+        "text": "جزر",
+        "translation": "carottes"
+      },
+      "options": [
+        "ن",
+        "ز",
+        "د",
+        "ر"
+      ],
+      "answer": "ز",
+      "acceptedAnswers": [
+        "ز"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ر",
+          "category": "word_confusion",
+          "feedback": "Avec ر (r roulé, comme en espagnol), on n'écrit pas « carottes » : il faut ز."
+        },
+        {
+          "equals": "د",
+          "category": "word_confusion",
+          "feedback": "Avec د (d, comme dent), on n'écrit pas « carottes » : il faut ز."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "Avec ن (n, comme nuit), on n'écrit pas « carottes » : il faut ز."
+        }
+      ]
+    },
+    {
+      "id": "ar.l02.e14",
+      "unitIds": [
+        "ar.g02.letters2",
+        "ar.v.ya"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "ز___ـت (huile)",
+      "promptLanguage": "fr",
+      "explanation": "زيت (huile) s'écrit : ز ي ت. Il manquait ي, qui se lit y ou i long, comme yaourt.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
+      "extraExample": {
+        "text": "زيت",
+        "translation": "huile"
+      },
+      "options": [
+        "ن",
+        "ي",
+        "ر",
+        "ب"
+      ],
+      "answer": "ي",
+      "acceptedAnswers": [
+        "ي"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "Avec ن (n, comme nuit), on n'écrit pas « huile » : il faut ي."
+        },
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "Avec ب (b, comme bateau), on n'écrit pas « huile » : il faut ي."
+        },
+        {
+          "equals": "ر",
+          "category": "word_confusion",
+          "feedback": "Avec ر (r roulé, comme en espagnol), on n'écrit pas « huile » : il faut ي."
+        }
+      ]
+    },
+    {
+      "id": "ar.l02.e15",
+      "unitIds": [
+        "ar.g02.letters2",
+        "ar.v.ha"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "بـ___ر (mer)",
+      "promptLanguage": "fr",
+      "explanation": "بحر (mer) s'écrit : ب ح ر. Il manquait ح, qui se lit h fort, comme sur une vitre.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
+      "extraExample": {
+        "text": "بحر",
+        "translation": "mer"
+      },
+      "options": [
+        "ت",
+        "ن",
+        "ح",
+        "د"
+      ],
+      "answer": "ح",
+      "acceptedAnswers": [
+        "ح"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "Avec ن (n, comme nuit), on n'écrit pas « mer » : il faut ح."
+        },
+        {
+          "equals": "د",
+          "category": "word_confusion",
+          "feedback": "Avec د (d, comme dent), on n'écrit pas « mer » : il faut ح."
+        },
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "Avec ت (t, comme table), on n'écrit pas « mer » : il faut ح."
+        }
+      ]
     },
     {
       "id": "ar.l02.e16",
       "unitIds": [
-        "ar.v.ta",
-        "ar.g02.letters2"
+        "ar.g02.letters2",
+        "ar.v.jim",
+        "ar.v.ha",
+        "ar.v.kha",
+        "ar.v.dal",
+        "ar.v.zay"
       ],
-      "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Tu vois 2 points dessus d'une barque plate. Quelle lettre est-ce ?",
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque lettre à son son.",
+      "prompt": "Relie chaque lettre à son son : ج ح خ د ز",
       "promptLanguage": "fr",
-      "options": [
-        "ت",
-        "ث",
-        "ن",
-        "ي"
-      ],
-      "answer": "ت",
-      "acceptedAnswers": [
-        "ت"
-      ],
-      "explanation": "2 points dessus d'une barque plate : c'est ت. Avec 2 points dessous et une queue, ce serait ي.",
-      "tip": "Deux mouettes sur la barque.",
-      "extraExample": {
-        "text": "ت",
-        "translation": "tâ : le t de table, 2 points dessus."
-      },
-      "errorPatterns": [
+      "pairs": [
         {
-          "equals": "ي",
-          "category": "word_confusion",
-          "feedback": "ي a 2 points aussi, mais dessous et au bout d'une queue."
+          "left": "ج",
+          "right": "g, comme gâteau"
+        },
+        {
+          "left": "ح",
+          "right": "h fort, comme sur une vitre"
+        },
+        {
+          "left": "خ",
+          "right": "kh, comme dans Bach"
+        },
+        {
+          "left": "د",
+          "right": "d, comme dent"
+        },
+        {
+          "left": "ز",
+          "right": "z, comme zèbre"
         }
-      ]
+      ],
+      "answer": "ج = g, comme gâteau ; ح = h fort, comme sur une vitre ; خ = kh, comme dans Bach ; د = d, comme dent ; ز = z, comme zèbre",
+      "acceptedAnswers": [],
+      "explanation": "Lis la lettre, entends le son : ج = g, comme gâteau ; ح = h fort, comme sur une vitre ; خ = kh, comme dans Bach ; د = d, comme dent ; ز = z, comme zèbre."
     },
     {
       "id": "ar.l02.e17",
       "unitIds": [
         "ar.g02.letters2",
+        "ar.v.ra",
+        "ar.v.ba",
         "ar.v.nun"
       ],
-      "type": "free_answer",
+      "type": "match",
       "difficulty": 2,
-      "instruction": "Écris le nombre.",
-      "prompt": "Combien de points a la lettre ن ? Réponds avec un chiffre.",
+      "instruction": "Relie chaque mot à son sens.",
+      "prompt": "Relie chaque mot à son sens : ربنا زيت جزر بحر ذنب",
       "promptLanguage": "fr",
-      "answer": "1",
-      "acceptedAnswers": [
-        "1",
-        "un"
+      "pairs": [
+        {
+          "left": "ربنا",
+          "right": "notre Seigneur (Dieu)"
+        },
+        {
+          "left": "زيت",
+          "right": "huile"
+        },
+        {
+          "left": "جزر",
+          "right": "carottes"
+        },
+        {
+          "left": "بحر",
+          "right": "mer"
+        },
+        {
+          "left": "ذنب",
+          "right": "péché"
+        }
       ],
-      "explanation": "ن a un seul point, posé dessus. Quand tu vois un seul point, demande-toi : dessus ou dessous ?",
-      "tip": "Un bol avec une cerise dessus.",
-      "extraExample": {
-        "text": "ن",
-        "translation": "nûn : le n de nuit, 1 point dessus."
-      }
+      "answer": "ربنا = notre Seigneur (Dieu) ; زيت = huile ; جزر = carottes ; بحر = mer ; ذنب = péché",
+      "acceptedAnswers": [],
+      "explanation": "Ces mots viennent de la carte « Des mots à lire » : ربنا = notre Seigneur (Dieu) ; زيت = huile ; جزر = carottes ; بحر = mer ; ذنب = péché."
     },
     {
       "id": "ar.l02.e18",
       "unitIds": [
         "ar.g02.letters2",
-        "ar.v.nun"
+        "ar.v.jim",
+        "ar.v.ha",
+        "ar.v.kha",
+        "ar.g01.letters1"
       ],
-      "type": "free_answer",
-      "difficulty": 3,
-      "instruction": "Écris le nom de la lettre.",
-      "prompt": "Comment s'appelle la lettre qui fait le son n ?",
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Relie chaque lettre à sa forme du début.",
+      "prompt": "Relie chaque lettre à sa forme du début : ج ح خ ب ن",
       "promptLanguage": "fr",
-      "answer": "nûn",
-      "acceptedAnswers": [
-        "nûn",
-        "nun",
-        "noun"
+      "pairs": [
+        {
+          "left": "ج",
+          "right": "جـ"
+        },
+        {
+          "left": "ح",
+          "right": "حـ"
+        },
+        {
+          "left": "خ",
+          "right": "خـ"
+        },
+        {
+          "left": "ب",
+          "right": "بـ"
+        },
+        {
+          "left": "ن",
+          "right": "نـ"
+        }
       ],
-      "explanation": "La lettre qui fait n s'appelle nûn : son nom commence par son son.",
-      "tip": "Un bol avec une cerise dessus.",
-      "extraExample": {
-        "text": "ن",
-        "translation": "nûn : le n de nuit, 1 point dessus."
-      }
+      "answer": "ج = جـ ; ح = حـ ; خ = خـ ; ب = بـ ; ن = نـ",
+      "acceptedAnswers": [],
+      "explanation": "La forme du début s'accroche à la lettre suivante : le trait ـ est à gauche. Même lettre, seule la forme change."
     },
     {
       "id": "ar.l02.e19",
       "unitIds": [
-        "ar.g02.letters2",
-        "ar.v.ya"
+        "ar.g01.letters1",
+        "ar.v.ba",
+        "ar.v.ya",
+        "ar.v.ta"
       ],
-      "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Choisis le bon nom.",
-      "prompt": "Quel est le nom de la lettre ي ?",
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Relie chaque mot à son sens.",
+      "prompt": "Relie chaque mot à son sens : بيت باب بنت ابن نبي",
       "promptLanguage": "fr",
-      "options": [
-        "bâ",
-        "yâ",
-        "nûn",
-        "tâ"
+      "pairs": [
+        {
+          "left": "بيت",
+          "right": "maison"
+        },
+        {
+          "left": "باب",
+          "right": "porte"
+        },
+        {
+          "left": "بنت",
+          "right": "fille"
+        },
+        {
+          "left": "ابن",
+          "right": "fils"
+        },
+        {
+          "left": "نبي",
+          "right": "prophète"
+        }
       ],
-      "answer": "yâ",
-      "acceptedAnswers": [
-        "yâ"
-      ],
-      "explanation": "ي s'appelle yâ, comme le son y de yaourt.",
-      "tip": "Une queue qui plonge, deux points dessous.",
-      "extraExample": {
-        "text": "ي",
-        "translation": "yâ : le y de yaourt, 2 points dessous."
-      }
+      "answer": "بيت = maison ; باب = porte ; بنت = fille ; ابن = fils ; نبي = prophète",
+      "acceptedAnswers": [],
+      "explanation": "Ces mots viennent de la carte « Des mots à lire » : بيت = maison ; باب = porte ; بنت = fille ; ابن = fils ; نبي = prophète."
     },
     {
       "id": "ar.l02.e20",
       "unitIds": [
-        "ar.v.ba",
-        "ar.v.ta",
-        "ar.v.nun",
-        "ar.v.ya",
-        "ar.g02.letters2"
+        "ar.g02.letters2",
+        "ar.v.jim"
       ],
-      "type": "match",
+      "type": "translation",
       "difficulty": 3,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie ن, ي, ب et ت à leur son.",
-      "promptLanguage": "fr",
-      "pairs": [
-        {
-          "left": "ن",
-          "right": "le n de nuit"
-        },
-        {
-          "left": "ي",
-          "right": "le y de yaourt"
-        },
-        {
-          "left": "ب",
-          "right": "le b de bateau"
-        },
-        {
-          "left": "ت",
-          "right": "le t de table"
-        }
+      "instruction": "Écris le sens en français.",
+      "prompt": "جار",
+      "promptLanguage": "ar",
+      "explanation": "جار veut dire « voisin » : tu l'as lu dans la carte « Des mots à lire ».",
+      "tip": "Lis lettre par lettre, de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "جزر",
+        "translation": "carottes : ج au début aussi"
+      },
+      "answer": "voisin",
+      "acceptedAnswers": [
+        "voisin",
+        "le voisin",
+        "un voisin"
+      ]
+    },
+    {
+      "id": "ar.l02.e21",
+      "unitIds": [
+        "ar.g01.letters1",
+        "ar.v.ba"
       ],
-      "acceptedAnswers": [],
-      "explanation": "Quatre lettres, quatre sons : n, y, b, t. Les noms nûn, yâ, bâ et tâ les rappellent."
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Écris le sens en français.",
+      "prompt": "بنت",
+      "promptLanguage": "ar",
+      "explanation": "بنت veut dire « fille » : tu l'as lu dans la carte « Des mots à lire ».",
+      "tip": "Lis lettre par lettre, de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "ابن",
+        "translation": "fils : attention à ne pas confondre avec بنت"
+      },
+      "answer": "fille",
+      "acceptedAnswers": [
+        "fille",
+        "la fille",
+        "une fille",
+        "ma fille"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "fils",
+          "category": "vocabulary",
+          "feedback": "ابن (fils) commence par ا ; بنت (fille) commence par ب."
+        }
+      ]
+    },
+    {
+      "id": "ar.l02.e22",
+      "unitIds": [
+        "ar.g02.letters2",
+        "ar.v.ra"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la réponse en français.",
+      "prompt": "Que signifie ربنا ?",
+      "promptLanguage": "fr",
+      "explanation": "ربنا veut dire « notre Seigneur » : c'est un des mots de la carte « Des mots à lire ».",
+      "tip": "Épelle les lettres de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "ربنا",
+        "translation": "notre Seigneur : un mot de la prière comme de la rue"
+      },
+      "answer": "notre Seigneur",
+      "acceptedAnswers": [
+        "notre Seigneur",
+        "seigneur",
+        "le Seigneur",
+        "dieu",
+        "notre Dieu"
+      ]
     }
   ]
 }

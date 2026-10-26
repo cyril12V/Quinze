@@ -5,34 +5,44 @@
       "id": "ar.l01.e01",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.alif"
+        "ar.v.ba"
       ],
       "type": "mcq",
       "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre est un simple bâton droit, sans aucun point ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ا",
-        "ب",
-        "ت",
-        "ث"
-      ],
-      "answer": "ا",
-      "acceptedAnswers": [
-        "ا"
-      ],
-      "explanation": "ا (alif) est le poteau de l'alphabet : un trait droit et nu. Les trois autres sont des barques à points.",
-      "tip": "Un poteau droit, sans point : c'est alif.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ب",
+      "promptLanguage": "ar",
+      "explanation": "ب (bâ) se lit b, comme bateau.",
+      "tip": "Barque, bateau : b.",
       "extraExample": {
-        "text": "ا",
-        "translation": "alif : le a long de pâte, aucun point."
+        "text": "بيت",
+        "translation": "maison : ب au début"
       },
+      "options": [
+        "y ou i long, comme yaourt",
+        "b, comme bateau",
+        "a long, comme pâte",
+        "n, comme nuit"
+      ],
+      "answer": "b, comme bateau",
+      "acceptedAnswers": [
+        "b, comme bateau"
+      ],
       "errorPatterns": [
         {
-          "equals": "ب",
+          "equals": "n, comme nuit",
           "category": "word_confusion",
-          "feedback": "ب est une barque avec 1 point dessous, pas un bâton."
+          "feedback": "« n, comme nuit » est le son de ن (nûn). Ici, c'est ب (bâ) : b, comme bateau."
+        },
+        {
+          "equals": "a long, comme pâte",
+          "category": "word_confusion",
+          "feedback": "« a long, comme pâte » est le son de ا (alif). Ici, c'est ب (bâ) : b, comme bateau."
+        },
+        {
+          "equals": "y ou i long, comme yaourt",
+          "category": "word_confusion",
+          "feedback": "« y ou i long, comme yaourt » est le son de ي (yâ). Ici, c'est ب (bâ) : b, comme bateau."
         }
       ]
     },
@@ -40,34 +50,44 @@
       "id": "ar.l01.e02",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.ba"
+        "ar.v.alif"
       ],
       "type": "mcq",
       "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre fait le son b, comme dans bateau ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ب",
-        "ث",
-        "ا",
-        "ت"
-      ],
-      "answer": "ب",
-      "acceptedAnswers": [
-        "ب"
-      ],
-      "explanation": "ب se lit comme le b de bateau, et sa forme est justement une barque avec son ancre (1 point dessous).",
-      "tip": "Une barque, et son ancre en dessous.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ا",
+      "promptLanguage": "ar",
+      "explanation": "ا (alif) se lit a long, comme pâte.",
+      "tip": "Le poteau droit : a long.",
       "extraExample": {
-        "text": "ب",
-        "translation": "bâ : le b de bateau, 1 point dessous."
+        "text": "باب",
+        "translation": "porte : ا au milieu"
       },
+      "options": [
+        "b, comme bateau",
+        "t, comme table",
+        "y ou i long, comme yaourt",
+        "a long, comme pâte"
+      ],
+      "answer": "a long, comme pâte",
+      "acceptedAnswers": [
+        "a long, comme pâte"
+      ],
       "errorPatterns": [
         {
-          "equals": "ت",
+          "equals": "b, comme bateau",
           "category": "word_confusion",
-          "feedback": "ت est la barque aux deux mouettes (2 points dessus) : elle fait t."
+          "feedback": "« b, comme bateau » est le son de ب (bâ). Ici, c'est ا (alif) : a long, comme pâte."
+        },
+        {
+          "equals": "t, comme table",
+          "category": "word_confusion",
+          "feedback": "« t, comme table » est le son de ت (tâ). Ici, c'est ا (alif) : a long, comme pâte."
+        },
+        {
+          "equals": "y ou i long, comme yaourt",
+          "category": "word_confusion",
+          "feedback": "« y ou i long, comme yaourt » est le son de ي (yâ). Ici, c'est ا (alif) : a long, comme pâte."
         }
       ]
     },
@@ -75,33 +95,44 @@
       "id": "ar.l01.e03",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.ta"
+        "ar.v.nun"
       ],
       "type": "mcq",
       "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre fait le son t, comme dans table ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ت",
-        "ب",
-        "ا"
-      ],
-      "answer": "ت",
-      "acceptedAnswers": [
-        "ت"
-      ],
-      "explanation": "ت se lit comme le t de table. Retiens ses 2 points dessus, deux mouettes sur la barque.",
-      "tip": "Deux mouettes sur la barque.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "نـ",
+      "promptLanguage": "ar",
+      "explanation": "نـ est la forme du début de ن (nûn) : la forme change, pas le son. ن se lit n, comme nuit.",
+      "tip": "Un bol pour la nuit : n.",
       "extraExample": {
-        "text": "ت",
-        "translation": "tâ : le t de table, 2 points dessus."
+        "text": "نبي",
+        "translation": "prophète : ن au début"
       },
+      "options": [
+        "t, comme table",
+        "n, comme nuit",
+        "a long, comme pâte",
+        "b, comme bateau"
+      ],
+      "answer": "n, comme nuit",
+      "acceptedAnswers": [
+        "n, comme nuit"
+      ],
       "errorPatterns": [
         {
-          "equals": "ب",
+          "equals": "b, comme bateau",
           "category": "word_confusion",
-          "feedback": "ب fait b, comme bateau : son point est dessous."
+          "feedback": "« b, comme bateau » est le son de ب (bâ). Ici, c'est ن (nûn) : n, comme nuit."
+        },
+        {
+          "equals": "a long, comme pâte",
+          "category": "word_confusion",
+          "feedback": "« a long, comme pâte » est le son de ا (alif). Ici, c'est ن (nûn) : n, comme nuit."
+        },
+        {
+          "equals": "t, comme table",
+          "category": "word_confusion",
+          "feedback": "« t, comme table » est le son de ت (tâ). Ici, c'est ن (nûn) : n, comme nuit."
         }
       ]
     },
@@ -109,33 +140,44 @@
       "id": "ar.l01.e04",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.tha"
+        "ar.v.ta"
       ],
       "type": "mcq",
       "difficulty": 1,
-      "instruction": "Choisis le bon nombre.",
-      "prompt": "Combien de points a la lettre ث ?",
-      "promptLanguage": "fr",
-      "options": [
-        "2",
-        "1",
-        "3"
-      ],
-      "answer": "3",
-      "acceptedAnswers": [
-        "3"
-      ],
-      "explanation": "ث porte 3 points dessus, trois mouettes en triangle sur la barque.",
-      "tip": "Trois mouettes en triangle sur la barque.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ت",
+      "promptLanguage": "ar",
+      "explanation": "ت (tâ) se lit t, comme table.",
+      "tip": "Table : t.",
       "extraExample": {
-        "text": "ث",
-        "translation": "thâ : un t, parfois un s, 3 points dessus."
+        "text": "تين",
+        "translation": "figues : ت au début"
       },
+      "options": [
+        "a long, comme pâte",
+        "t, comme table",
+        "y ou i long, comme yaourt",
+        "n, comme nuit"
+      ],
+      "answer": "t, comme table",
+      "acceptedAnswers": [
+        "t, comme table"
+      ],
       "errorPatterns": [
         {
-          "equals": "2",
+          "equals": "n, comme nuit",
           "category": "word_confusion",
-          "feedback": "2 points dessus, c'est ت. ث en a un de plus : 3."
+          "feedback": "« n, comme nuit » est le son de ن (nûn). Ici, c'est ت (tâ) : t, comme table."
+        },
+        {
+          "equals": "a long, comme pâte",
+          "category": "word_confusion",
+          "feedback": "« a long, comme pâte » est le son de ا (alif). Ici, c'est ت (tâ) : t, comme table."
+        },
+        {
+          "equals": "y ou i long, comme yaourt",
+          "category": "word_confusion",
+          "feedback": "« y ou i long, comme yaourt » est le son de ي (yâ). Ici, c'est ت (tâ) : t, comme table."
         }
       ]
     },
@@ -146,66 +188,82 @@
         "ar.v.alif",
         "ar.v.ba",
         "ar.v.ta",
-        "ar.v.tha"
+        "ar.v.nun",
+        "ar.v.ya"
       ],
       "type": "match",
       "difficulty": 1,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie chaque lettre de ا ب ت ث à son nom.",
+      "instruction": "Relie chaque lettre à son son.",
+      "prompt": "Relie chaque lettre à son son : ا ب ت ن ي",
       "promptLanguage": "fr",
       "pairs": [
         {
           "left": "ا",
-          "right": "alif"
+          "right": "a long, comme pâte"
         },
         {
           "left": "ب",
-          "right": "bâ"
+          "right": "b, comme bateau"
         },
         {
           "left": "ت",
-          "right": "tâ"
+          "right": "t, comme table"
         },
         {
-          "left": "ث",
-          "right": "thâ"
+          "left": "ن",
+          "right": "n, comme nuit"
+        },
+        {
+          "left": "ي",
+          "right": "y ou i long, comme yaourt"
         }
       ],
+      "answer": "ا = a long, comme pâte ; ب = b, comme bateau ; ت = t, comme table ; ن = n, comme nuit ; ي = y ou i long, comme yaourt",
       "acceptedAnswers": [],
-      "explanation": "Les quatre premières lettres s'appellent alif, bâ, tâ, thâ : le nom commence par le son de la lettre (b pour bâ, t pour tâ)."
+      "explanation": "Lis la lettre, entends le son : ا = a long, comme pâte ; ب = b, comme bateau ; ت = t, comme table ; ن = n, comme nuit ; ي = y ou i long, comme yaourt."
     },
     {
       "id": "ar.l01.e06",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.ba"
+        "ar.v.ya"
       ],
       "type": "mcq",
       "difficulty": 2,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre a 1 point dessous ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ت",
-        "ب",
-        "ث",
-        "ا"
-      ],
-      "answer": "ب",
-      "acceptedAnswers": [
-        "ب"
-      ],
-      "explanation": "Seul ب a son point en dessous, comme une ancre. ت et ث ont leurs points dessus.",
-      "tip": "Une barque, et son ancre en dessous.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ـيـ",
+      "promptLanguage": "ar",
+      "explanation": "ـيـ est la forme du milieu de ي (yâ) : la forme change, pas le son. ي se lit y ou i long, comme yaourt.",
+      "tip": "Yaourt : y, ou un i long.",
       "extraExample": {
-        "text": "ب",
-        "translation": "bâ : le b de bateau, 1 point dessous."
+        "text": "بيت",
+        "translation": "maison : ي au milieu"
       },
+      "options": [
+        "a long, comme pâte",
+        "n, comme nuit",
+        "b, comme bateau",
+        "y ou i long, comme yaourt"
+      ],
+      "answer": "y ou i long, comme yaourt",
+      "acceptedAnswers": [
+        "y ou i long, comme yaourt"
+      ],
       "errorPatterns": [
         {
-          "equals": "ت",
+          "equals": "b, comme bateau",
           "category": "word_confusion",
-          "feedback": "ت a 2 points, et ils sont dessus."
+          "feedback": "« b, comme bateau » est le son de ب (bâ). Ici, c'est ي (yâ) : y ou i long, comme yaourt."
+        },
+        {
+          "equals": "n, comme nuit",
+          "category": "word_confusion",
+          "feedback": "« n, comme nuit » est le son de ن (nûn). Ici, c'est ي (yâ) : y ou i long, comme yaourt."
+        },
+        {
+          "equals": "a long, comme pâte",
+          "category": "word_confusion",
+          "feedback": "« a long, comme pâte » est le son de ا (alif). Ici, c'est ي (yâ) : y ou i long, comme yaourt."
         }
       ]
     },
@@ -213,34 +271,44 @@
       "id": "ar.l01.e07",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.ta"
+        "ar.v.tha"
       ],
       "type": "mcq",
       "difficulty": 2,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre a 2 points dessus ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ث",
-        "ب",
-        "ا",
-        "ت"
-      ],
-      "answer": "ت",
-      "acceptedAnswers": [
-        "ت"
-      ],
-      "explanation": "ت a 2 points dessus, comme deux mouettes. ث en a 3, et ب en a un seul, dessous.",
-      "tip": "Deux mouettes sur la barque.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ث",
+      "promptLanguage": "ar",
+      "explanation": "ث (thâ) se lit t ou s, comme thé.",
+      "tip": "Le th de thé se dit t : ث aussi.",
       "extraExample": {
-        "text": "ت",
-        "translation": "tâ : le t de table, 2 points dessus."
+        "text": "ثلاثة",
+        "translation": "trois : ث au début, dit t en Égypte"
       },
+      "options": [
+        "n, comme nuit",
+        "b, comme bateau",
+        "t ou s, comme thé",
+        "a long, comme pâte"
+      ],
+      "answer": "t ou s, comme thé",
+      "acceptedAnswers": [
+        "t ou s, comme thé"
+      ],
       "errorPatterns": [
         {
-          "equals": "ث",
+          "equals": "b, comme bateau",
           "category": "word_confusion",
-          "feedback": "ث en a 3 : compte bien, il y en a un de trop."
+          "feedback": "« b, comme bateau » est le son de ب (bâ). Ici, c'est ث (thâ) : t ou s, comme thé."
+        },
+        {
+          "equals": "a long, comme pâte",
+          "category": "word_confusion",
+          "feedback": "« a long, comme pâte » est le son de ا (alif). Ici, c'est ث (thâ) : t ou s, comme thé."
+        },
+        {
+          "equals": "n, comme nuit",
+          "category": "word_confusion",
+          "feedback": "« n, comme nuit » est le son de ن (nûn). Ici, c'est ث (thâ) : t ou s, comme thé."
         }
       ]
     },
@@ -250,125 +318,180 @@
         "ar.g01.letters1",
         "ar.v.ta"
       ],
-      "type": "fill_blank",
+      "type": "mcq",
       "difficulty": 2,
-      "instruction": "Complète avec le bon nombre.",
-      "prompt": "ت a ___ points dessus, comme deux mouettes sur la barque.",
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son « t, comme table » ?",
       "promptLanguage": "fr",
-      "options": [
-        "2",
-        "3",
-        "1"
-      ],
-      "answer": "2",
-      "acceptedAnswers": [
-        "2"
-      ],
-      "explanation": "ت a 2 points dessus. Avec 1 point dessous c'est ب, avec 3 points dessus c'est ث.",
-      "tip": "Deux mouettes sur la barque.",
+      "explanation": "Le son t, comme table s'écrit ت (tâ).",
+      "tip": "Table : t.",
       "extraExample": {
-        "text": "ت",
-        "translation": "tâ : le t de table, 2 points dessus."
-      }
+        "text": "تين",
+        "translation": "figues : ت au début"
+      },
+      "options": [
+        "ت",
+        "ن",
+        "ا",
+        "ب"
+      ],
+      "answer": "ت",
+      "acceptedAnswers": [
+        "ت"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب (bâ) se lit b, comme bateau, pas t, comme table."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "ن (nûn) se lit n, comme nuit, pas t, comme table."
+        },
+        {
+          "equals": "ا",
+          "category": "word_confusion",
+          "feedback": "ا (alif) se lit a long, comme pâte, pas t, comme table."
+        }
+      ]
     },
     {
       "id": "ar.l01.e09",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.alif",
-        "ar.v.ba",
-        "ar.v.ta",
-        "ar.v.tha"
+        "ar.v.ba"
       ],
       "type": "mcq",
       "difficulty": 2,
-      "instruction": "Trouve l'intruse.",
-      "prompt": "Trois de ces lettres sont des barques. Laquelle est l'intruse ?",
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans بيت, quelle lettre est au début ?",
       "promptLanguage": "fr",
-      "options": [
-        "ث",
-        "ت",
-        "ب",
-        "ا"
-      ],
-      "answer": "ا",
-      "acceptedAnswers": [
-        "ا"
-      ],
-      "explanation": "ب, ت et ث partagent le même corps de barque. ا est un bâton droit sans point : c'est l'intruse.",
-      "tip": "Un poteau droit, sans point : c'est alif.",
+      "explanation": "بيت (maison) se lit de droite à gauche : ب puis ي puis ت. La lettre au début est ب.",
+      "tip": "Un mot se lit de droite à gauche : la première lettre est à droite.",
       "extraExample": {
-        "text": "ا",
-        "translation": "alif : le a long de pâte, aucun point."
-      }
+        "text": "بيت",
+        "translation": "maison : ب au début, ت à la fin"
+      },
+      "options": [
+        "ب",
+        "ت",
+        "ن",
+        "ي"
+      ],
+      "answer": "ب",
+      "acceptedAnswers": [
+        "ب"
+      ],
+      "hint": "Le début d'un mot est à droite.",
+      "errorPatterns": [
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "ت est bien dans بيت, mais à la fin. Lis de droite à gauche."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "ن n'est pas dans بيت. Lis les lettres de droite à gauche."
+        },
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "ي est bien dans بيت, mais au milieu. Lis de droite à gauche."
+        }
+      ]
     },
     {
       "id": "ar.l01.e10",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.alif",
-        "ar.v.ba",
-        "ar.v.ta",
-        "ar.v.tha"
+        "ar.v.nun"
       ],
-      "type": "match",
+      "type": "mcq",
       "difficulty": 2,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie chaque lettre de ا ب ت ث à ses points.",
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans بنت, quelle lettre est au milieu ?",
       "promptLanguage": "fr",
-      "pairs": [
-        {
-          "left": "ا",
-          "right": "aucun point"
-        },
-        {
-          "left": "ب",
-          "right": "1 point dessous"
-        },
-        {
-          "left": "ت",
-          "right": "2 points dessus"
-        },
-        {
-          "left": "ث",
-          "right": "3 points dessus"
-        }
+      "explanation": "بنت (fille) se lit de droite à gauche : ب puis ن puis ت. La lettre au milieu est ن.",
+      "tip": "Pour le milieu, lis de droite à gauche et arrête-toi sur la lettre du centre.",
+      "extraExample": {
+        "text": "بنت",
+        "translation": "fille : ب au début, ت à la fin"
+      },
+      "options": [
+        "ت",
+        "ي",
+        "ب",
+        "ن"
       ],
-      "acceptedAnswers": [],
-      "explanation": "Les points sont la carte d'identité de la barque : 1 dessous pour ب, 2 dessus pour ت, 3 dessus pour ث. ا n'en a aucun."
+      "answer": "ن",
+      "acceptedAnswers": [
+        "ن"
+      ],
+      "hint": "Le milieu est entre la première lettre (à droite) et la dernière (à gauche).",
+      "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب est bien dans بنت, mais au début. Lis de droite à gauche."
+        },
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "ي n'est pas dans بنت. Lis les lettres de droite à gauche."
+        },
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "ت est bien dans بنت, mais à la fin. Lis de droite à gauche."
+        }
+      ]
     },
     {
       "id": "ar.l01.e11",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.tha"
+        "ar.v.nun"
       ],
       "type": "mcq",
       "difficulty": 2,
-      "instruction": "Choisis le bon nom.",
-      "prompt": "Quel est le nom de la lettre ث ?",
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans تين, quelle lettre est à la fin ?",
       "promptLanguage": "fr",
-      "options": [
-        "thâ",
-        "bâ",
-        "alif",
-        "tâ"
-      ],
-      "answer": "thâ",
-      "acceptedAnswers": [
-        "thâ"
-      ],
-      "explanation": "ث s'appelle thâ. Son nom ressemble à celui de ت (tâ) comme son dessin ressemble au sien.",
-      "tip": "Trois mouettes en triangle sur la barque.",
+      "explanation": "تين (figues) se lit de droite à gauche : ت puis ي puis ن. La lettre à la fin est ن.",
+      "tip": "La dernière lettre est tout à gauche.",
       "extraExample": {
-        "text": "ث",
-        "translation": "thâ : un t, parfois un s, 3 points dessus."
+        "text": "تين",
+        "translation": "figues : ت au début, ن à la fin"
       },
+      "options": [
+        "ن",
+        "ت",
+        "ي",
+        "ب"
+      ],
+      "answer": "ن",
+      "acceptedAnswers": [
+        "ن"
+      ],
+      "hint": "La fin d'un mot est à gauche.",
       "errorPatterns": [
         {
-          "equals": "tâ",
+          "equals": "ت",
           "category": "word_confusion",
-          "feedback": "tâ est le nom de ت (2 points). ث, avec 3 points, s'appelle thâ."
+          "feedback": "ت est bien dans تين, mais au début. Lis de droite à gauche."
+        },
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "ي est bien dans تين, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب n'est pas dans تين. Lis les lettres de droite à gauche."
         }
       ]
     },
@@ -376,29 +499,47 @@
       "id": "ar.l01.e12",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.ta"
+        "ar.v.alif"
       ],
-      "type": "fill_blank",
+      "type": "mcq",
       "difficulty": 2,
-      "instruction": "Complète l'ordre de l'alphabet.",
-      "prompt": "ا ب ___ ث",
-      "promptLanguage": "ar",
-      "options": [
-        "ت",
-        "ا",
-        "ث"
-      ],
-      "answer": "ت",
-      "acceptedAnswers": [
-        "ت"
-      ],
-      "hint": "Dans l'ordre : le bâton, puis trois barques.",
-      "explanation": "L'alphabet suit un ordre fixe : ا, ب, ت, ث. La lettre qui manque entre ب et ث est ت.",
-      "tip": "Deux mouettes sur la barque.",
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans ابن, quelle lettre est au début ?",
+      "promptLanguage": "fr",
+      "explanation": "ابن (fils) se lit de droite à gauche : ا puis ب puis ن. La lettre au début est ا.",
+      "tip": "Un mot se lit de droite à gauche : la première lettre est à droite.",
       "extraExample": {
-        "text": "ت",
-        "translation": "tâ : le t de table, 2 points dessus."
-      }
+        "text": "ابن",
+        "translation": "fils : ا au début, ن à la fin"
+      },
+      "options": [
+        "ا",
+        "ن",
+        "ب",
+        "ي"
+      ],
+      "answer": "ا",
+      "acceptedAnswers": [
+        "ا"
+      ],
+      "hint": "Le début d'un mot est à droite.",
+      "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب est bien dans ابن, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "ن est bien dans ابن, mais à la fin. Lis de droite à gauche."
+        },
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "ي n'est pas dans ابن. Lis les lettres de droite à gauche."
+        }
+      ]
     },
     {
       "id": "ar.l01.e13",
@@ -406,31 +547,42 @@
         "ar.g01.letters1",
         "ar.v.ba"
       ],
-      "type": "fill_blank",
+      "type": "mcq",
       "difficulty": 2,
-      "instruction": "Complète avec le bon mot.",
-      "prompt": "Le point de ب est ___ la barque.",
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Quelle est la forme de ب au milieu d'un mot ?",
       "promptLanguage": "fr",
-      "options": [
-        "dessous",
-        "dessus",
-        "dedans"
-      ],
-      "answer": "dessous",
-      "acceptedAnswers": [
-        "dessous"
-      ],
-      "explanation": "Le point de ب est dessous, comme l'ancre d'un bateau. C'est ce qui la distingue de ت et ث.",
-      "tip": "Une barque, et son ancre en dessous.",
+      "explanation": "Au milieu d'un mot, ب (bâ) s'accroche des deux côtés : elle devient ـبـ.",
+      "tip": "Au milieu, le trait ـ est des deux côtés de la lettre.",
       "extraExample": {
-        "text": "ب",
-        "translation": "bâ : le b de bateau, 1 point dessous."
+        "text": "نبي",
+        "translation": "prophète : ب au milieu"
       },
+      "options": [
+        "ـيـ",
+        "ـبـ",
+        "ـتـ",
+        "ـنـ"
+      ],
+      "answer": "ـبـ",
+      "acceptedAnswers": [
+        "ـبـ"
+      ],
       "errorPatterns": [
         {
-          "equals": "dessus",
+          "equals": "ـتـ",
           "category": "word_confusion",
-          "feedback": "Dessus, ce sont les mouettes de ت et ث. L'ancre de ب est en dessous."
+          "feedback": "ـتـ est la forme du milieu de ت (tâ), pas de ب."
+        },
+        {
+          "equals": "ـنـ",
+          "category": "word_confusion",
+          "feedback": "ـنـ est la forme du milieu de ن (nûn), pas de ب."
+        },
+        {
+          "equals": "ـيـ",
+          "category": "word_confusion",
+          "feedback": "ـيـ est la forme du milieu de ي (yâ), pas de ب."
         }
       ]
     },
@@ -438,85 +590,132 @@
       "id": "ar.l01.e14",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.tha"
+        "ar.v.ba",
+        "ar.v.ta",
+        "ar.v.tha",
+        "ar.v.nun",
+        "ar.v.ya"
       ],
-      "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Choisis la bonne réponse.",
-      "prompt": "En Égypte, comment dit-on le plus souvent la lettre ث ?",
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Relie chaque lettre à sa forme du début.",
+      "prompt": "Relie chaque lettre à sa forme du début : ب ت ث ن ي",
       "promptLanguage": "fr",
-      "options": [
-        "le b de bateau",
-        "le n de nuit",
-        "un t, parfois un s",
-        "le a long de pâte"
+      "pairs": [
+        {
+          "left": "ب",
+          "right": "بـ"
+        },
+        {
+          "left": "ت",
+          "right": "تـ"
+        },
+        {
+          "left": "ث",
+          "right": "ثـ"
+        },
+        {
+          "left": "ن",
+          "right": "نـ"
+        },
+        {
+          "left": "ي",
+          "right": "يـ"
+        }
       ],
-      "answer": "un t, parfois un s",
-      "acceptedAnswers": [
-        "un t, parfois un s"
-      ],
-      "explanation": "En arabe littéraire, ث est le th de think, mais en Égypte on la dit comme un t, parfois un s.",
-      "tip": "ث sonne comme ت en Égypte : seuls les points les séparent à l'écrit.",
-      "extraExample": {
-        "text": "ث",
-        "translation": "thâ : un t, parfois un s, 3 points dessus."
-      }
+      "answer": "ب = بـ ; ت = تـ ; ث = ثـ ; ن = نـ ; ي = يـ",
+      "acceptedAnswers": [],
+      "explanation": "La forme du début s'accroche à la lettre suivante : le trait ـ est à gauche. On lit la même lettre, seule sa forme change."
     },
     {
       "id": "ar.l01.e15",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.ba"
+        "ar.v.ya"
       ],
-      "type": "mcq",
+      "type": "fill_blank",
       "difficulty": 3,
-      "instruction": "Devine la lettre.",
-      "prompt": "Qui suis-je ? « Je suis une barque. Mon ancre pend en dessous. »",
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "بـ___ـت (maison)",
       "promptLanguage": "fr",
+      "explanation": "بيت (maison) s'écrit : ب ي ت. Il manquait ي, qui se lit y ou i long, comme yaourt.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
+      "extraExample": {
+        "text": "بيت",
+        "translation": "maison"
+      },
       "options": [
-        "ت",
         "ا",
         "ب",
-        "ث"
+        "ي",
+        "ن"
       ],
-      "answer": "ب",
+      "answer": "ي",
       "acceptedAnswers": [
-        "ب"
+        "ي"
       ],
-      "explanation": "L'ancre en dessous est le point unique de ب : le b de bateau.",
-      "tip": "Une barque, et son ancre en dessous.",
-      "extraExample": {
-        "text": "ب",
-        "translation": "bâ : le b de bateau, 1 point dessous."
-      }
+      "errorPatterns": [
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "Avec ن (n, comme nuit), on n'écrit pas « maison » : il faut ي."
+        },
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "Avec ب (b, comme bateau), on n'écrit pas « maison » : il faut ي."
+        },
+        {
+          "equals": "ا",
+          "category": "word_confusion",
+          "feedback": "Avec ا (a long, comme pâte), on n'écrit pas « maison » : il faut ي."
+        }
+      ]
     },
     {
       "id": "ar.l01.e16",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.tha",
-        "ar.v.ta"
+        "ar.v.ba"
       ],
-      "type": "mcq",
+      "type": "fill_blank",
       "difficulty": 3,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre vient juste après ت dans l'alphabet ?",
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "نـ___ـي (prophète)",
       "promptLanguage": "fr",
+      "explanation": "نبي (prophète) s'écrit : ن ب ي. Il manquait ب, qui se lit b, comme bateau.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
+      "extraExample": {
+        "text": "نبي",
+        "translation": "prophète"
+      },
       "options": [
-        "ث",
+        "ب",
         "ا",
+        "ت",
+        "ن"
+      ],
+      "answer": "ب",
+      "acceptedAnswers": [
         "ب"
       ],
-      "answer": "ث",
-      "acceptedAnswers": [
-        "ث"
-      ],
-      "explanation": "L'ordre est ا, ب, ت, ث : ث suit ت.",
-      "tip": "Trois mouettes en triangle sur la barque.",
-      "extraExample": {
-        "text": "ث",
-        "translation": "thâ : un t, parfois un s, 3 points dessus."
-      }
+      "errorPatterns": [
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "Avec ت (t, comme table), on n'écrit pas « prophète » : il faut ب."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "Avec ن (n, comme nuit), on n'écrit pas « prophète » : il faut ب."
+        },
+        {
+          "equals": "ا",
+          "category": "word_confusion",
+          "feedback": "Avec ا (a long, comme pâte), on n'écrit pas « prophète » : il faut ب."
+        }
+      ]
     },
     {
       "id": "ar.l01.e17",
@@ -524,110 +723,198 @@
         "ar.g01.letters1",
         "ar.v.ta"
       ],
-      "type": "free_answer",
-      "difficulty": 2,
-      "instruction": "Écris le nombre.",
-      "prompt": "Combien de points a la lettre ت ? Réponds avec un chiffre.",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "بـنـ___ (fille)",
       "promptLanguage": "fr",
-      "answer": "2",
-      "acceptedAnswers": [
-        "2",
-        "deux"
-      ],
-      "explanation": "ت a 2 points dessus, comme deux mouettes sur la barque.",
-      "tip": "Deux mouettes sur la barque.",
+      "explanation": "بنت (fille) s'écrit : ب ن ت. Il manquait ت, qui se lit t, comme table.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
       "extraExample": {
-        "text": "ت",
-        "translation": "tâ : le t de table, 2 points dessus."
-      }
+        "text": "بنت",
+        "translation": "fille"
+      },
+      "options": [
+        "ت",
+        "ب",
+        "ث",
+        "ي"
+      ],
+      "answer": "ت",
+      "acceptedAnswers": [
+        "ت"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ث",
+          "category": "word_confusion",
+          "feedback": "Avec ث (t ou s, comme thé), on n'écrit pas « fille » : il faut ت."
+        },
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "Avec ب (b, comme bateau), on n'écrit pas « fille » : il faut ت."
+        },
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "Avec ي (y ou i long, comme yaourt), on n'écrit pas « fille » : il faut ت."
+        }
+      ]
     },
     {
       "id": "ar.l01.e18",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.ba"
+        "ar.v.ba",
+        "ar.v.ya",
+        "ar.v.ta"
       ],
-      "type": "free_answer",
-      "difficulty": 3,
-      "instruction": "Écris le nom de la lettre.",
-      "prompt": "Comment s'appelle la lettre qui fait le son b ?",
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Relie chaque mot à son sens.",
+      "prompt": "Relie chaque mot à son sens : بيت باب بنت تين نبي",
       "promptLanguage": "fr",
-      "answer": "bâ",
-      "acceptedAnswers": [
-        "bâ",
-        "ba",
-        "baa"
+      "pairs": [
+        {
+          "left": "بيت",
+          "right": "maison"
+        },
+        {
+          "left": "باب",
+          "right": "porte"
+        },
+        {
+          "left": "بنت",
+          "right": "fille"
+        },
+        {
+          "left": "تين",
+          "right": "figues"
+        },
+        {
+          "left": "نبي",
+          "right": "prophète"
+        }
       ],
-      "hint": "Le nom commence par le son, suivi d'un â.",
-      "explanation": "La lettre qui fait b s'appelle bâ : son nom commence par son son.",
-      "tip": "Une barque, et son ancre en dessous.",
-      "extraExample": {
-        "text": "ب",
-        "translation": "bâ : le b de bateau, 1 point dessous."
-      }
+      "answer": "بيت = maison ; باب = porte ; بنت = fille ; تين = figues ; نبي = prophète",
+      "acceptedAnswers": [],
+      "explanation": "Ces mots viennent de la carte « Des mots à lire » : بيت = maison ; باب = porte ; بنت = fille ; تين = figues ; نبي = prophète."
     },
     {
       "id": "ar.l01.e19",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.ta"
+        "ar.v.ta",
+        "ar.v.ba",
+        "ar.v.ya"
       ],
-      "type": "mcq",
+      "type": "match",
       "difficulty": 3,
-      "instruction": "Choisis le bon son.",
-      "prompt": "Quel son fait la lettre ت ?",
+      "instruction": "Relie chaque mot à sa dernière lettre.",
+      "prompt": "Relie chaque mot à sa dernière lettre : بيت باب نبي تين",
       "promptLanguage": "fr",
-      "options": [
-        "le n de nuit",
-        "le a long de pâte",
-        "le t de table",
-        "le b de bateau"
+      "pairs": [
+        {
+          "left": "بيت",
+          "right": "ت"
+        },
+        {
+          "left": "باب",
+          "right": "ب"
+        },
+        {
+          "left": "نبي",
+          "right": "ي"
+        },
+        {
+          "left": "تين",
+          "right": "ن"
+        }
       ],
-      "answer": "le t de table",
-      "acceptedAnswers": [
-        "le t de table"
-      ],
-      "explanation": "ت se lit comme le t de table.",
-      "tip": "Deux mouettes sur la barque.",
-      "extraExample": {
-        "text": "ت",
-        "translation": "tâ : le t de table, 2 points dessus."
-      }
+      "answer": "بيت = ت ; باب = ب ; نبي = ي ; تين = ن",
+      "acceptedAnswers": [],
+      "explanation": "La dernière lettre est tout à gauche : بيت finit par ت ; باب finit par ب ; نبي finit par ي ; تين finit par ن."
     },
     {
       "id": "ar.l01.e20",
       "unitIds": [
         "ar.g01.letters1",
-        "ar.v.alif",
-        "ar.v.ba",
-        "ar.v.ta",
-        "ar.v.tha"
+        "ar.v.ba"
       ],
-      "type": "match",
+      "type": "translation",
       "difficulty": 3,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie chaque lettre de ا ب ت ث à son son.",
-      "promptLanguage": "fr",
-      "pairs": [
-        {
-          "left": "ا",
-          "right": "le a long de pâte"
-        },
-        {
-          "left": "ب",
-          "right": "le b de bateau"
-        },
-        {
-          "left": "ت",
-          "right": "le t de table"
-        },
-        {
-          "left": "ث",
-          "right": "un t, parfois un s"
-        }
+      "instruction": "Écris le sens en français.",
+      "prompt": "باب",
+      "promptLanguage": "ar",
+      "explanation": "باب veut dire « porte » : tu l'as lu dans la carte « Des mots à lire ».",
+      "tip": "Lis lettre par lettre, de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "بيت",
+        "translation": "maison : un autre mot de la carte"
+      },
+      "answer": "porte",
+      "acceptedAnswers": [
+        "porte",
+        "la porte",
+        "une porte"
+      ]
+    },
+    {
+      "id": "ar.l01.e21",
+      "unitIds": [
+        "ar.g01.letters1",
+        "ar.v.alif"
       ],
-      "acceptedAnswers": [],
-      "explanation": "ا dit le a long, ب dit b, ت dit t, et ث dit aussi t (parfois s) en Égypte."
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Écris le sens en français.",
+      "prompt": "ابن",
+      "promptLanguage": "ar",
+      "explanation": "ابن veut dire « fils » : tu l'as lu dans la carte « Des mots à lire ».",
+      "tip": "Lis lettre par lettre, de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "بنت",
+        "translation": "fille : ابن et بنت se ressemblent, regarde la première lettre"
+      },
+      "answer": "fils",
+      "acceptedAnswers": [
+        "fils",
+        "le fils",
+        "un fils"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "fille",
+          "category": "vocabulary",
+          "feedback": "بنت (fille) commence par ب ; ابن (fils) commence par ا, le poteau."
+        }
+      ]
+    },
+    {
+      "id": "ar.l01.e22",
+      "unitIds": [
+        "ar.g01.letters1",
+        "ar.v.nun"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la réponse en français.",
+      "prompt": "Que signifie نبي ?",
+      "promptLanguage": "fr",
+      "explanation": "نبي veut dire « prophète » : c'est un des mots de la carte « Des mots à lire ».",
+      "tip": "Épelle les lettres de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "نبي",
+        "translation": "prophète : les prophètes de l'Ancien Testament, comme à l'église"
+      },
+      "answer": "prophète",
+      "acceptedAnswers": [
+        "prophète",
+        "prophete",
+        "le prophète",
+        "un prophète"
+      ]
     }
   ]
 }

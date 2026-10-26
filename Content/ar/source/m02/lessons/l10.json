@@ -90,44 +90,46 @@
    "type": "mcq",
    "unitIds": [
     "ar.g10.letters_that_do_not_connect",
-    "ar.v.bab"
+    "ar.v.bab",
+    "ar.v.bayt",
+    "ar.v.rabbina"
    ],
    "difficulty": 2,
-   "instruction": "Compte les blocs.",
-   "prompt": "Combien de blocs compte باب ?",
-   "promptLanguage": "fr",
-   "answer": "2 blocs",
+   "instruction": "Lis la ligne et choisis son sens.",
+   "prompt": "باب بيت ربنا",
+   "promptLanguage": "ar",
+   "answer": "la porte de la maison de notre Seigneur",
    "acceptedAnswers": [
-    "2 blocs"
+    "la porte de la maison de notre Seigneur"
    ],
-   "explanation": "باب = با | ب : 2 blocs. Le mot se coupe après ا.",
-   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "explanation": "Trois mots à la suite : باب (la porte), بيت (la maison), ربنا (notre Seigneur). بيت ربنا, la maison de notre Seigneur, c'est l'église.",
+   "tip": "Une ligne se lit comme un mot : de droite à gauche, un mot après l'autre.",
    "extraExample": {
-    "text": "باب",
-    "translation": "porte"
+    "text": "باب الكنيسة كبير.",
+    "translation": "La porte de l'église est grande."
    },
    "errorPatterns": [
     {
-     "equals": "1 bloc",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : با | ب."
+     "equals": "la porte du monastère de notre Seigneur",
+     "category": "word_confusion",
+     "feedback": "« le monastère » s'écrit دير. Ici le deuxième mot est بيت : la maison."
     },
     {
-     "equals": "3 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : با | ب."
+     "equals": "la porte de la maison de notre père (le prêtre)",
+     "category": "word_confusion",
+     "feedback": "« notre père (le prêtre) » s'écrit أبونا. Ici le dernier mot est ربنا : notre Seigneur."
     },
     {
-     "equals": "4 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : با | ب."
+     "equals": "les fleurs de la maison de notre Seigneur",
+     "category": "word_confusion",
+     "feedback": "« les fleurs » s'écrit ورد. Ici le premier mot est باب : la porte."
     }
    ],
    "options": [
-    "1 bloc",
-    "2 blocs",
-    "3 blocs",
-    "4 blocs"
+    "la porte de la maison de notre Seigneur",
+    "la porte du monastère de notre Seigneur",
+    "la porte de la maison de notre père (le prêtre)",
+    "les fleurs de la maison de notre Seigneur"
    ]
   },
   {
@@ -145,7 +147,7 @@
    "acceptedAnswers": [
     "forme de la fin"
    ],
-   "explanation": "Dans باب (blocs : با | ب), la lettre ا s'accroche seulement à la lettre d'avant : c'est la forme de la fin. Le ا est la dernière lettre de son bloc : forme de la fin ـا.",
+   "explanation": "Dans باب (qui se lit با | ب), la lettre ا s'accroche seulement à la lettre d'avant : c'est la forme de la fin. Le ا est la dernière lettre de son bloc : forme de la fin ـا.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "باب",
@@ -190,7 +192,7 @@
    "acceptedAnswers": [
     "forme du début"
    ],
-   "explanation": "Dans بابا (blocs : با | با), le deuxième ب s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Il repart à neuf après le premier ا et s'accroche au dernier : forme du début بـ.",
+   "explanation": "Dans بابا (qui se lit با | با), le deuxième ب s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Il repart à neuf après le premier ا et s'accroche au dernier : forme du début بـ.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "بابا",
@@ -235,7 +237,7 @@
    "acceptedAnswers": [
     "papa"
    ],
-   "explanation": "Lettre par lettre : ب (1 point dessous), ا (sans point), ب (1 point dessous), ا (sans point) donne بابا, « papa ». Deux fois ب + ا : 2 blocs, با | با.",
+   "explanation": "Lettre par lettre : ب, ا, ب, ا donne بابا, « papa ». Deux fois ب + ا, با | با.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "بابا راجع من الشغل.",
@@ -280,13 +282,13 @@
    "acceptedAnswers": [
     "prophéties"
    ],
-   "explanation": "Lettre par lettre : ن (1 point dessus), ب (1 point dessous), و (sans point), ا (sans point), ت (2 points dessus) donne نبوات, « prophéties ». 3 blocs : نبو | ا | ت. Le ت repart seul après le ا.",
+   "explanation": "Lettre par lettre : ن, ب, و, ا, ت donne نبوات, « prophéties ». Les morceaux : نبو | ا | ت. Le ت repart seul après le ا.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "النبوات بتتقرا في الجمعة العظيمة.",
     "translation": "Les prophéties sont lues le Vendredi saint."
    },
-   "hint": "Trois blocs : نبو | ا | ت.",
+   "hint": "Lis par morceaux : نبو | ا | ت.",
    "errorPatterns": [
     {
      "equals": "prophète",
@@ -326,8 +328,8 @@
    "acceptedAnswers": [
     "أبونا"
    ],
-   "explanation": "« notre père (le prêtre) » s'écrit أ + ب + و + ن + ا : أبونا. Le ا du début porte un petit ء : on le lit comme un alif. 3 blocs : أ | بو | نا.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "explanation": "« notre père (le prêtre) » s'écrit أ + ب + و + ن + ا : أبونا. Le ا du début porte un petit ء : on le lit comme un alif. Les morceaux : أ | بو | نا.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "صلي عشاني يا أبونا.",
     "translation": "Prie pour moi, mon père."
@@ -370,8 +372,8 @@
    "acceptedAnswers": [
     "بيت"
    ],
-   "explanation": "« maison » s'écrit ب + ي + ت : بيت. بنت (fille) a un point dessus au milieu ; باب (porte) a un ا qui coupe le mot.",
-   "tip": "Deux points dessous au milieu : la maison.",
+   "explanation": "« maison » s'écrit ب + ي + ت : بيت. بنت (fille) a un ن au milieu ; باب (porte) a un ا qui coupe le mot.",
+   "tip": "Maison : un ي au milieu.",
    "extraExample": {
     "text": "بيتنا قريب من الكنيسة.",
     "translation": "Notre maison est près de l'église."
@@ -380,7 +382,7 @@
     {
      "equals": "بنت",
      "category": "word_confusion",
-     "feedback": "بنت veut dire « fille » : ـنـ a un point dessus."
+     "feedback": "بنت veut dire « fille » : sa lettre du milieu est ن."
     },
     {
      "equals": "بين",
@@ -414,8 +416,8 @@
    "acceptedAnswers": [
     "تنين"
    ],
-   "explanation": "Le dragon a quatre dents : ت + ن + ي + ن. تين (figues) en a trois.",
-   "tip": "Compte les dents.",
+   "explanation": "« dragon » s'écrit ت + ن + ي + ن : تنين, quatre lettres. تين (figues) n'en a que trois.",
+   "tip": "Dragon : quatre lettres. Figues : trois.",
    "extraExample": {
     "text": "مارجرجس قتل التنين.",
     "translation": "Saint Georges a tué le dragon."
@@ -424,7 +426,7 @@
     {
      "equals": "تين",
      "category": "word_confusion",
-     "feedback": "تين veut dire « figues » : il y a une dent de moins."
+     "feedback": "تين veut dire « figues » : il est plus court."
     },
     {
      "equals": "بين",
@@ -458,7 +460,7 @@
    "acceptedAnswers": [
     "ـت"
    ],
-   "explanation": "La forme de la fin s'accroche à la lettre d'avant : le trait ـ est à droite. ت garde ses deux points dessus.",
+   "explanation": "La forme de la fin s'accroche à la lettre d'avant : le trait ـ est à droite.",
    "tip": "Fin = trait à droite.",
    "extraExample": {
     "text": "بنت",
@@ -502,7 +504,7 @@
    "acceptedAnswers": [
     "forme du milieu"
    ],
-   "explanation": "Dans نبي, la lettre ب s'accroche des deux côtés : c'est la forme du milieu. Au milieu, la dent ـبـ n'a qu'un point dessous.",
+   "explanation": "Dans نبي, la lettre ب s'accroche des deux côtés : c'est la forme du milieu ـبـ.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "نبي",
@@ -547,8 +549,8 @@
    "acceptedAnswers": [
     "ر"
    ],
-   "explanation": "ورد s'écrit و + ر + د : trois lettres qui ne s'attachent pas. ز aurait un point dessus ; د n'a pas la même place.",
-   "tip": "ر descend sous la ligne, sans point.",
+   "explanation": "ورد (« fleurs ») s'écrit و + ر + د : la lettre qui manque, au milieu du mot, est ر.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "الورد ريحته حلوة.",
     "translation": "Les fleurs sentent bon."
@@ -557,12 +559,17 @@
     {
      "equals": "ز",
      "category": "spelling",
-     "feedback": "ز a un point dessus. Ici il n'y en a pas : ر."
+     "feedback": "Avec ز, on lirait وزد : ce n'est pas « fleurs ». Pour « fleurs », la lettre au milieu est ر."
     },
     {
      "equals": "د",
      "category": "spelling",
-     "feedback": "د reste sur la ligne ; ر descend un peu sous la ligne."
+     "feedback": "Avec د, on lirait ودد : ce n'est pas « fleurs ». Pour « fleurs », la lettre au milieu est ر."
+    },
+    {
+     "equals": "ذ",
+     "category": "spelling",
+     "feedback": "Avec ذ, on lirait وذد : ce n'est pas « fleurs ». Pour « fleurs », la lettre au milieu est ر."
     }
    ],
    "options": [
@@ -587,8 +594,8 @@
    "acceptedAnswers": [
     "ذ"
    ],
-   "explanation": "ذنب commence par ذ : un د avec 1 point dessus. Après elle, نب repart à neuf.",
-   "tip": "ذ = د + 1 point dessus.",
+   "explanation": "ذنب (« faute ») s'écrit ذ + ن + ب : la lettre qui manque, au début du mot, est ذ.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "ده مش ذنبي.",
     "translation": "Ce n'est pas ma faute."
@@ -597,7 +604,17 @@
     {
      "equals": "د",
      "category": "spelling",
-     "feedback": "د n'a pas de point ; il en faut un dessus : ذ."
+     "feedback": "Avec د, on lirait دنب : ce n'est pas « faute ». Pour « faute », la lettre au début est ذ."
+    },
+    {
+     "equals": "ز",
+     "category": "spelling",
+     "feedback": "Avec ز, on lirait زنب : ce n'est pas « faute ». Pour « faute », la lettre au début est ذ."
+    },
+    {
+     "equals": "ر",
+     "category": "spelling",
+     "feedback": "Avec ر, on lirait رنب : ce n'est pas « faute ». Pour « faute », la lettre au début est ذ."
     }
    ],
    "options": [
@@ -622,8 +639,8 @@
    "acceptedAnswers": [
     "ز"
    ],
-   "explanation": "زيت commence par ز : un ر avec 1 point dessus. Le ز se détache, puis يت reste attaché.",
-   "tip": "ز = ر + 1 point dessus.",
+   "explanation": "زيت (« huile ») s'écrit ز + ي + ت : la lettre qui manque, au début du mot, est ز.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "زيت الزيتون.",
     "translation": "L'huile d'olive."
@@ -632,12 +649,17 @@
     {
      "equals": "ر",
      "category": "spelling",
-     "feedback": "ر n'a pas de point ; il en faut un dessus : ز."
+     "feedback": "Avec ر, on lirait ريت : ce n'est pas « huile ». Pour « huile », la lettre au début est ز."
+    },
+    {
+     "equals": "ن",
+     "category": "spelling",
+     "feedback": "Avec ن, on lirait نيت : ce n'est pas « huile ». Pour « huile », la lettre au début est ز."
     },
     {
      "equals": "ذ",
      "category": "spelling",
-     "feedback": "ذ est un د avec un point ; ici la lettre descend sous la ligne : ز."
+     "feedback": "Avec ذ, on lirait ذيت : ce n'est pas « huile ». Pour « huile », la lettre au début est ز."
     }
    ],
    "options": [
@@ -693,33 +715,39 @@
    "type": "match",
    "unitIds": [
     "ar.g10.letters_that_do_not_connect",
-    "ar.v.bayt",
     "ar.v.bab",
-    "ar.v.ward"
+    "ar.v.ward",
+    "ar.v.dayr",
+    "ar.v.zayt",
+    "ar.v.ruzz"
    ],
-   "difficulty": 3,
-   "instruction": "Associe chaque mot à son nombre de blocs.",
-   "prompt": "Compter les blocs",
+   "difficulty": 2,
+   "instruction": "Associe chaque mot à sa première lettre.",
+   "prompt": "Premières lettres : porte, fleurs, monastère, huile, riz",
    "promptLanguage": "fr",
-   "answer": "بيت = 1 bloc ; باب = 2 blocs ; ورد = 3 blocs ; راديو = 4 blocs",
+   "answer": "باب = ب ; ورد = و ; دير = د ; زيت = ز ; رز = ر",
    "acceptedAnswers": [],
-   "explanation": "بيت : tout est attaché (1 bloc). باب : le ا coupe (2 blocs). ورد : و, ر, د coupent (3 blocs). راديو = ر | ا | د | يو (4 blocs).",
+   "explanation": "On lit de droite à gauche, donc la première lettre est celle de droite : باب → ب, ورد → و, دير → د, زيت → ز, رز → ر.",
    "pairs": [
     {
-     "left": "بيت",
-     "right": "1 bloc"
-    },
-    {
      "left": "باب",
-     "right": "2 blocs"
+     "right": "ب"
     },
     {
      "left": "ورد",
-     "right": "3 blocs"
+     "right": "و"
     },
     {
-     "left": "راديو",
-     "right": "4 blocs"
+     "left": "دير",
+     "right": "د"
+    },
+    {
+     "left": "زيت",
+     "right": "ز"
+    },
+    {
+     "left": "رز",
+     "right": "ر"
     }
    ]
   },
@@ -779,7 +807,7 @@
    "promptLanguage": "fr",
    "answer": "تنين = dragon ; بين = entre ; بن = café (grains) ; نبي = prophète",
    "acceptedAnswers": [],
-   "explanation": "Ces quatre mots n'utilisent que ب ت ث ن ي : compte les points pour les reconnaître.",
+   "explanation": "Ces quatre mots n'utilisent que ب ت ث ن ي : lis-les d'un trait, de droite à gauche.",
    "pairs": [
     {
      "left": "تنين",
@@ -818,7 +846,7 @@
     "notre dieu"
    ],
    "explanation": "ربنا = ر | بنا : le ر se détache, puis بنا reste attaché. C'est « notre Seigneur », le mot de tous les jours pour parler de Dieu.",
-   "tip": "ر + بنا : 2 blocs.",
+   "tip": "ر + بنا.",
    "extraExample": {
     "text": "ربنا يباركك.",
     "translation": "Que Dieu te bénisse."
@@ -843,7 +871,7 @@
     "le monastère"
    ],
    "explanation": "دير = د | ير : le د se détache. C'est un monastère.",
-   "tip": "د coupe le mot : 2 blocs.",
+   "tip": "د coupe le mot.",
    "extraExample": {
     "text": "رحنا الدير يوم الجمعة.",
     "translation": "Nous sommes allés au monastère vendredi."
@@ -876,8 +904,8 @@
     "peche",
     "un péché"
    ],
-   "explanation": "ذنب = ذ + نب : le ذ (د avec un point dessus) se détache. C'est une faute, ou un péché dans la prière.",
-   "tip": "ذ = د + 1 point dessus.",
+   "explanation": "ذنب = ذ + نب : le ذ se détache. C'est une faute, ou un péché dans la prière.",
+   "tip": "ذنب commence par ذ, un crochet qui ne s'attache pas : lis le mot d'un trait.",
    "extraExample": {
     "text": "اغفر لنا ذنوبنا.",
     "translation": "Pardonne-nous nos fautes."
@@ -900,8 +928,8 @@
     "du riz",
     "le riz"
    ],
-   "explanation": "رز = ر + ز : deux lettres qui ne s'attachent pas, donc 2 blocs. C'est le riz.",
-   "tip": "ر sans point, ز avec un point dessus.",
+   "explanation": "رز = ر + ز : deux lettres qui ne s'attachent pas. C'est le riz.",
+   "tip": "ر puis ز : deux lettres seules, côte à côte.",
    "extraExample": {
     "text": "الرز بالفراخ.",
     "translation": "Du riz au poulet."

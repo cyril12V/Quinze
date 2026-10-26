@@ -16,8 +16,8 @@
    "acceptedAnswers": [
     "ـة"
    ],
-   "explanation": "ة s'écrit ـة quand elle s'accroche à la lettre d'avant, avec ses 2 points dessus. ـه est un ه, sans point.",
-   "tip": "ة a toujours 2 points dessus.",
+   "explanation": "ة s'écrit ـة quand elle s'accroche à la lettre d'avant. ـه est un ه, une autre lettre.",
+   "tip": "ة n'existe qu'à la fin d'un mot.",
    "extraExample": {
     "text": "كنيسة",
     "translation": "église"
@@ -31,7 +31,7 @@
     {
      "equals": "ـه",
      "category": "spelling",
-     "feedback": "ـه est la forme de la fin de ه : il n'a aucun point."
+     "feedback": "ـه est la forme de la fin de ه, une autre lettre."
     },
     {
      "equals": "هـ",
@@ -61,7 +61,7 @@
    "acceptedAnswers": [
     "eau"
    ],
-   "explanation": "Lettre par lettre : م (sans point), ي (2 points dessous), ة (2 points dessus) donne مية, « eau ». م + ي + ة : tout est attaché, 1 bloc.",
+   "explanation": "Lettre par lettre : م, ي, ة donne مية, « eau ».",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "عايز كوباية مية.",
@@ -106,7 +106,7 @@
    "acceptedAnswers": [
     "café (boisson)"
    ],
-   "explanation": "Lettre par lettre : ق (2 points dessus), ه (sans point), و (sans point), ة (2 points dessus) donne قهوة, « café (boisson) ». Le و ferme le bloc قهو : le ة reste seul, donc isolé.",
+   "explanation": "Lettre par lettre : ق, ه, و, ة donne قهوة, « café (boisson) ». Le و ferme le bloc قهو : le ة reste seul, donc isolé.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "قهوة سادة.",
@@ -152,7 +152,7 @@
    "acceptedAnswers": [
     "église"
    ],
-   "explanation": "Lettre par lettre : ك (sans point), ن (1 point dessus), ي (2 points dessous), س (sans point), ة (2 points dessus) donne كنيسة, « église ». Tout est attaché : 1 bloc. Le ـة final s'accroche au س.",
+   "explanation": "Lettre par lettre : ك, ن, ي, س, ة donne كنيسة, « église ».Le ـة final s'accroche au س.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "رايح الكنيسة.",
@@ -198,7 +198,7 @@
     "عربية"
    ],
    "explanation": "« voiture » s'écrit ع + ر + ب + ي + ة : عربية. Le ر ferme le premier bloc : عر | بية.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "ركبنا العربية.",
     "translation": "Nous sommes montés dans la voiture."
@@ -243,7 +243,7 @@
     "بكرة"
    ],
    "explanation": "« demain » s'écrit ب + ك + ر + ة : بكرة. Le ر ferme le bloc بكر : le ة reste seul, isolé.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "بكرة الأحد.",
     "translation": "Demain, c'est dimanche."
@@ -287,7 +287,7 @@
    "acceptedAnswers": [
     "forme isolée"
    ],
-   "explanation": "Dans قهوة (blocs : قهو | ة), la lettre ة ne s'accroche à aucune voisine : c'est la forme isolée. Le و qui précède ne s'attache pas : le ة reste isolé.",
+   "explanation": "Dans قهوة (qui se lit قهو | ة), la lettre ة ne s'accroche à aucune voisine : c'est la forme isolée. Le و qui précède ne s'attache pas : le ة reste isolé.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "قهوة",
@@ -367,44 +367,47 @@
    "type": "mcq",
    "unitIds": [
     "ar.g15.forms_mim_ha",
-    "ar.v.tarabeza"
+    "ar.v.mish",
+    "ar.v.ayiz",
+    "ar.v.qahwa",
+    "ar.v.mayya"
    ],
-   "difficulty": 3,
-   "instruction": "Compte les blocs.",
-   "prompt": "Combien de blocs compte ترابيزة ?",
-   "promptLanguage": "fr",
-   "answer": "4 blocs",
+   "difficulty": 2,
+   "instruction": "Lis la ligne et choisis son sens.",
+   "prompt": "مش عايز قهوة، عايز مية",
+   "promptLanguage": "ar",
+   "answer": "Je ne veux pas de café, je veux de l'eau.",
    "acceptedAnswers": [
-    "4 blocs"
+    "Je ne veux pas de café, je veux de l'eau."
    ],
-   "explanation": "ترابيزة = تر | ا | بيز | ة : 4 blocs. Le mot se coupe après ر et après ا et après ز.",
-   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "explanation": "Lis d'un trait : مش (ne… pas), عايز (je veux), قهوة (café) puis عايز مية (je veux de l'eau). Le مش ne porte que sur la première moitié.",
+   "tip": "Une ligne se lit comme un mot : de droite à gauche, un mot après l'autre.",
    "extraExample": {
-    "text": "ترابيزة",
-    "translation": "table"
+    "text": "عايز مية ساقعة.",
+    "translation": "Je veux de l'eau fraîche."
    },
    "errorPatterns": [
     {
-     "equals": "1 bloc",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : تر | ا | بيز | ة."
+     "equals": "Je veux du café, je ne veux pas d'eau.",
+     "category": "word_confusion",
+     "feedback": "Regarde où est مش (ne… pas) : il est au début de la ligne, devant « je veux du café ». C'est le café qu'on refuse."
     },
     {
-     "equals": "2 blocs",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : تر | ا | بيز | ة."
+     "equals": "Je ne veux pas de café, je veux une table.",
+     "category": "word_confusion",
+     "feedback": "« la table » s'écrit ترابيزة. Ici le dernier mot est مية : l'eau."
     },
     {
-     "equals": "3 blocs",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : تر | ا | بيز | ة."
+     "equals": "Je ne veux pas de voiture, je veux de l'eau.",
+     "category": "word_confusion",
+     "feedback": "« la voiture » s'écrit عربية. Ici le troisième mot est قهوة : le café."
     }
    ],
    "options": [
-    "1 bloc",
-    "2 blocs",
-    "3 blocs",
-    "4 blocs"
+    "Je ne veux pas de café, je veux de l'eau.",
+    "Je veux du café, je ne veux pas d'eau.",
+    "Je ne veux pas de café, je veux une table.",
+    "Je ne veux pas de voiture, je veux de l'eau."
    ]
   },
   {
@@ -421,8 +424,8 @@
    "acceptedAnswers": [
     "قلب"
    ],
-   "explanation": "« cœur » s'écrit ق + ل + ب : قلب. ق (2 points dessus), ل (bâton), ب (1 point dessous) : 1 bloc.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "explanation": "« cœur » s'écrit ق + ل + ب : قلب.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "ربنا يفرح قلبك.",
     "translation": "Que Dieu réjouisse ton cœur."
@@ -465,7 +468,7 @@
    "acceptedAnswers": [
     "croix"
    ],
-   "explanation": "Lettre par lettre : ص (sans point), ل (sans point), ي (2 points dessous), ب (1 point dessous) donne صليب, « croix ». ص (boucle) + ل (bâton) + ي + ب : tout est attaché, 1 bloc.",
+   "explanation": "Lettre par lettre : ص, ل, ي, ب donne صليب, « croix ».",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "الصليب على الحيطة.",
@@ -509,7 +512,7 @@
    "acceptedAnswers": [
     "forme du début"
    ],
-   "explanation": "Dans قداس (blocs : قد | ا | س), la lettre ق s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ق s'attache au د qui le suit : forme du début قـ.",
+   "explanation": "Dans قداس (qui se lit قد | ا | س), la lettre ق s'accroche à la lettre qui la suit, pas à celle d'avant : c'est la forme du début. Le ق s'attache au د qui le suit : forme du début قـ.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "قداس",
@@ -554,8 +557,8 @@
    "acceptedAnswers": [
     "م"
    ],
-   "explanation": "مية commence par م : une boucle fermée, sans point. ن aurait un point dessus.",
-   "tip": "Boule fermée, aucun point : م.",
+   "explanation": "مية (« eau ») s'écrit م + ي + ة : la lettre qui manque, au début du mot, est م.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "المية باردة.",
     "translation": "L'eau est froide."
@@ -564,12 +567,12 @@
     {
      "equals": "ن",
      "category": "spelling",
-     "feedback": "ن a un point dessus ; م n'a aucun point."
+     "feedback": "Avec ن, on lirait نية : ce n'est pas « eau ». Pour « eau », la lettre au début est م."
     },
     {
      "equals": "ه",
      "category": "spelling",
-     "feedback": "ه a une autre forme au début : هـ."
+     "feedback": "Avec ه, on lirait هية : ce n'est pas « eau ». Pour « eau », la lettre au début est م."
     }
    ],
    "options": [
@@ -593,8 +596,8 @@
    "acceptedAnswers": [
     "ة"
    ],
-   "explanation": "كنيسة finit par ة : 2 points dessus, attachée au س. ت donnerait كنيست, qui n'existe pas : la finale de ce mot s'écrit ة.",
-   "tip": "ة finale : un ه avec 2 points dessus.",
+   "explanation": "كنيسة (« église ») s'écrit ك + ن + ي + س + ة : la lettre qui manque, à la fin du mot, est ة.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "الكنيسة مفتوحة.",
     "translation": "L'église est ouverte."
@@ -603,12 +606,17 @@
     {
      "equals": "ه",
      "category": "spelling",
-     "feedback": "ه n'a aucun point ; ici il y en a deux : ة."
+     "feedback": "Avec ه, on lirait كنيسه : ce n'est pas « église ». Pour « église », la lettre à la fin est ة."
     },
     {
      "equals": "ت",
      "category": "spelling",
-     "feedback": "كنيست n'existe pas : il faut la forme arrondie de ة avec ses 2 points."
+     "feedback": "Avec ت, on lirait كنيست : ce n'est pas « église ». Pour « église », la lettre à la fin est ة."
+    },
+    {
+     "equals": "ث",
+     "category": "spelling",
+     "feedback": "Avec ث, on lirait كنيسث : ce n'est pas « église ». Pour « église », la lettre à la fin est ة."
     }
    ],
    "options": [
@@ -633,8 +641,8 @@
    "acceptedAnswers": [
     "ش"
    ],
-   "explanation": "مش finit par ش : trois dents et 3 points dessus. س n'a aucun point.",
-   "tip": "3 dents + 3 points : ش.",
+   "explanation": "مش (« ne… pas ») s'écrit م + ش : la lettre qui manque, à la fin du mot, est ش.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "مش عارف.",
     "translation": "Je ne sais pas."
@@ -643,12 +651,17 @@
     {
      "equals": "س",
      "category": "spelling",
-     "feedback": "س n'a aucun point ; ش en a trois."
+     "feedback": "Avec س, on lirait مس : ce n'est pas « ne… pas ». Pour « ne… pas », la lettre à la fin est ش."
     },
     {
      "equals": "ص",
      "category": "spelling",
-     "feedback": "ص a une boucle, pas des dents."
+     "feedback": "Avec ص, on lirait مص : ce n'est pas « ne… pas ». Pour « ne… pas », la lettre à la fin est ش."
+    },
+    {
+     "equals": "ض",
+     "category": "spelling",
+     "feedback": "Avec ض, on lirait مض : ce n'est pas « ne… pas ». Pour « ne… pas », la lettre à la fin est ش."
     }
    ],
    "options": [
@@ -675,7 +688,7 @@
    "promptLanguage": "fr",
    "answer": "مية = eau ; قهوة = café (boisson) ; عربية = voiture ; ترابيزة = table ; أوضة = chambre",
    "acceptedAnswers": [],
-   "explanation": "Cherche le ة final, isolé ou attaché, et compte les blocs.",
+   "explanation": "Cherche le ة à la fin de chaque mot, isolé ou attaché.",
    "pairs": [
     {
      "left": "مية",
@@ -716,7 +729,7 @@
    "promptLanguage": "fr",
    "answer": "بكرة = demain ; مش = ne… pas ; كنيسة = église ; شماس = diacre ; مزمور = psaume",
    "acceptedAnswers": [],
-   "explanation": "Lis lettre par lettre, puis bloc par bloc : بكر | ة, م + ش, كنيسة, شما | س, مز | مو | ر.",
+   "explanation": "Lis chaque mot d'un coup d'œil, de droite à gauche : بكرة, مش, كنيسة, شماس, مزمور.",
    "pairs": [
     {
      "left": "بكرة",
@@ -792,7 +805,7 @@
    "promptLanguage": "fr",
    "answer": "سكر = sucre ; لبن = lait ; كرسي = chaise ; فول = fèves ; كتاب = livre",
    "acceptedAnswers": [],
-   "explanation": "Bâtons ك ل, têtes rondes ف ق : cherche d'abord le dessin, puis les points.",
+   "explanation": "Ces mots viennent de la leçon 14 : lis chacun d'un coup d'œil, de droite à gauche.",
    "pairs": [
     {
      "left": "سكر",
@@ -833,7 +846,7 @@
     "un diacre",
     "le diacre"
    ],
-   "explanation": "شماس = شما | س : ش (3 dents, 3 points), م (la cerise), ا, س. C'est le diacre, celui qui sert à l'autel.",
+   "explanation": "شماس = شما | س : ش, م (la cerise), ا, س. C'est le diacre, celui qui sert à l'autel.",
    "tip": "Le ا ferme le premier bloc.",
    "extraExample": {
     "text": "ابني بقى شماس.",
@@ -859,8 +872,8 @@
     "ne pas être",
     "pas du tout"
    ],
-   "explanation": "مش = م + ش : une cerise et trois dents. C'est la négation « ne… pas ».",
-   "tip": "Deux lettres attachées : un seul bloc.",
+   "explanation": "مش = م + ش : deux lettres attachées. C'est la négation « ne… pas ».",
+   "tip": "Deux lettres attachées, lues d'un trait.",
    "extraExample": {
     "text": "ده مش بيتي.",
     "translation": "Ce n'est pas ma maison."
@@ -886,7 +899,7 @@
     "une pièce"
    ],
    "explanation": "أوضة = أ | و | ضة : alif, و, puis ض et ة attachés. C'est une chambre, une pièce.",
-   "tip": "3 blocs : أ | و | ضة.",
+   "tip": "Les morceaux : أ | و | ضة.",
    "extraExample": {
     "text": "أوضتي صغيرة.",
     "translation": "Ma chambre est petite."
@@ -909,7 +922,7 @@
     "un psaume",
     "le psaume"
    ],
-   "explanation": "مزمور = مز | مو | ر : م, ز, م, و, ر. Trois blocs. C'est un psaume.",
+   "explanation": "مزمور = مز | مو | ر : م, ز, م, و, ر. C'est un psaume.",
    "tip": "Deux م, séparés par un ز.",
    "extraExample": {
     "text": "بنقرا مزمور كل يوم.",

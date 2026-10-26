@@ -16,7 +16,7 @@
    "acceptedAnswers": [
     "جـ"
    ],
-   "explanation": "La forme du début s'accroche à la lettre qui suit : le trait ـ est à gauche. ج garde son point dessous.",
+   "explanation": "La forme du début s'accroche à la lettre qui suit : le trait ـ est à gauche.",
    "tip": "Début = trait à gauche.",
    "extraExample": {
     "text": "جيب",
@@ -51,38 +51,45 @@
    "type": "mcq",
    "unitIds": [
     "ar.g11.forms_jim_family",
-    "ar.v.jim"
+    "ar.v.jim",
+    "ar.v.jayb"
    ],
    "difficulty": 1,
-   "instruction": "Choisis la bonne lettre.",
-   "prompt": "Dans la famille du crochet, quelle lettre a un point dessous ?",
+   "instruction": "Repère la lettre dans le mot.",
+   "prompt": "Quelle lettre est au début de جيب ?",
    "promptLanguage": "fr",
    "answer": "ج",
    "acceptedAnswers": [
     "ج"
    ],
-   "explanation": "ج a un point dessous, dans le creux du crochet. ح n'en a aucun, خ en a un dessus.",
-   "tip": "Dessous = ج, dessus = خ, rien = ح.",
+   "explanation": "On lit جيب (« poche ») de droite à gauche : ج puis ي puis ب. La lettre au début est ج.",
+   "tip": "Le début d'un mot arabe est à droite, la fin est à gauche.",
    "extraExample": {
-    "text": "جزر",
-    "translation": "carottes"
+    "text": "الموبايل في جيبي.",
+    "translation": "Mon portable est dans ma poche."
    },
    "errorPatterns": [
     {
      "equals": "ح",
      "category": "spelling",
-     "feedback": "ح n'a aucun point."
+     "feedback": "Il n'y a pas de ح dans جيب. Lis le mot de droite à gauche : ج puis ي puis ب."
     },
     {
      "equals": "خ",
      "category": "spelling",
-     "feedback": "خ a son point dessus."
+     "feedback": "Il n'y a pas de خ dans جيب. Lis le mot de droite à gauche : ج puis ي puis ب."
+    },
+    {
+     "equals": "ب",
+     "category": "instruction",
+     "feedback": "ب est bien dans جيب, mais à la fin, pas au début."
     }
    ],
    "options": [
     "ج",
     "ح",
-    "خ"
+    "خ",
+    "ب"
    ]
   },
   {
@@ -100,7 +107,7 @@
    "acceptedAnswers": [
     "mon chéri"
    ],
-   "explanation": "Lettre par lettre : ح (sans point), ب (1 point dessous), ي (2 points dessous), ب (1 point dessous), ي (2 points dessous) donne حبيبي, « mon chéri ». Tout est attaché : 1 bloc, ح + ب + ي + ب + ي.",
+   "explanation": "Lettre par lettre : ح, ب, ي, ب, ي donne حبيبي, « mon chéri ». Tout est attaché, d'une seule traite.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "تعالى يا حبيبي.",
@@ -145,7 +152,7 @@
    "acceptedAnswers": [
     "nouvelle"
    ],
-   "explanation": "Lettre par lettre : خ (1 point dessus), ب (1 point dessous), ر (sans point) donne خبر, « nouvelle ». خ : un point dessus ; puis ب et ر attachés : 1 bloc.",
+   "explanation": "Lettre par lettre : خ, ب, ر donne خبر, « nouvelle ».",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "الخبر ده حلو.",
@@ -191,7 +198,7 @@
     "بخور"
    ],
    "explanation": "« encens » s'écrit ب + خ + و + ر : بخور. ب + خ + و s'attachent, puis le و ferme le bloc : بخو | ر.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "أبونا بيرفع البخور.",
     "translation": "Le prêtre fait monter l'encens."
@@ -235,13 +242,13 @@
    "acceptedAnswers": [
     "خد"
    ],
-   "explanation": "« prends » s'écrit خ + د : خد. Un point dessus : خ. Sans point, ce serait حد.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "explanation": "« prends » s'écrit خ + د : خد. Ne le confonds pas avec حد (quelqu'un) : regarde la première lettre.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "خد بالك.",
     "translation": "Fais attention."
    },
-   "hint": "Un point dessus, ou aucun ?",
+   "hint": "Regarde la première lettre.",
    "errorPatterns": [
     {
      "equals": "حد",
@@ -281,7 +288,7 @@
    "acceptedAnswers": [
     "forme isolée"
    ],
-   "explanation": "Dans خوخ (blocs : خو | خ), le deuxième خ ne s'accroche à aucune voisine : c'est la forme isolée. Il suit un و qui ne s'attache pas : il est seul.",
+   "explanation": "Dans خوخ (qui se lit خو | خ), le deuxième خ ne s'accroche à aucune voisine : c'est la forme isolée. Il suit un و qui ne s'attache pas : il est seul.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "خوخ",
@@ -326,7 +333,7 @@
    "acceptedAnswers": [
     "forme du milieu"
    ],
-   "explanation": "Dans بخور (blocs : بخو | ر), la lettre خ s'accroche des deux côtés : c'est la forme du milieu. Il est entre le ب et le و, attaché des deux côtés : ـخـ.",
+   "explanation": "Dans بخور (qui se lit بخو | ر), la lettre خ s'accroche des deux côtés : c'est la forme du milieu. Il est entre le ب et le و, attaché des deux côtés : ـخـ.",
    "tip": "Regarde si la lettre s'accroche à celle d'avant (à droite) et à celle d'après (à gauche).",
    "extraExample": {
     "text": "بخور",
@@ -361,88 +368,93 @@
    "type": "mcq",
    "unitIds": [
     "ar.g11.forms_jim_family",
-    "ar.v.khawkh"
+    "ar.v.jiddu",
+    "ar.v.habibi",
+    "ar.v.khud",
+    "ar.v.jazar"
    ],
-   "difficulty": 3,
-   "instruction": "Compte les blocs.",
-   "prompt": "Combien de blocs compte خوخ ?",
-   "promptLanguage": "fr",
-   "answer": "2 blocs",
+   "difficulty": 2,
+   "instruction": "Lis la ligne et choisis son sens.",
+   "prompt": "جدو حبيبي خد جزر",
+   "promptLanguage": "ar",
+   "answer": "Papy chéri, prends des carottes.",
    "acceptedAnswers": [
-    "2 blocs"
+    "Papy chéri, prends des carottes."
    ],
-   "explanation": "خوخ = خو | خ : 2 blocs. Le mot se coupe après و.",
-   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "explanation": "Quatre mots à la suite : جدو (papy), حبيبي (mon chéri), خد (prends), جزر (des carottes). La ligne dit : Papy chéri, prends des carottes.",
+   "tip": "Une ligne se lit comme un mot : de droite à gauche, un mot après l'autre.",
    "extraExample": {
-    "text": "خوخ",
-    "translation": "pêches"
+    "text": "تعالى يا حبيبي.",
+    "translation": "Viens, mon chéri."
    },
    "errorPatterns": [
     {
-     "equals": "1 bloc",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : خو | خ."
+     "equals": "Papy chéri, prends des pêches.",
+     "category": "word_confusion",
+     "feedback": "« des pêches » s'écrit خوخ. Ici le dernier mot est جزر : des carottes."
     },
     {
-     "equals": "3 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : خو | خ."
+     "equals": "Papy chéri, prends l'encens.",
+     "category": "word_confusion",
+     "feedback": "« l'encens » s'écrit بخور. Ici le dernier mot est جزر : des carottes."
     },
     {
-     "equals": "4 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : خو | خ."
+     "equals": "Papy chéri, quelqu'un prend des carottes.",
+     "category": "word_confusion",
+     "feedback": "« quelqu'un » s'écrit حد et « prends » s'écrit خد. Ici le troisième mot est خد : prends."
     }
    ],
    "options": [
-    "1 bloc",
-    "2 blocs",
-    "3 blocs",
-    "4 blocs"
+    "Papy chéri, prends des carottes.",
+    "Papy chéri, prends des pêches.",
+    "Papy chéri, prends l'encens.",
+    "Papy chéri, quelqu'un prend des carottes."
    ]
   },
   {
    "id": "ar.l11.e10",
    "type": "mcq",
    "unitIds": [
-    "ar.v.waw"
+    "ar.v.waw",
+    "ar.g11.forms_jim_family",
+    "ar.v.khawkh"
    ],
-   "difficulty": 1,
-   "instruction": "Choisis la bonne lettre.",
-   "prompt": "Quelle lettre ferme toujours son bloc ?",
+   "difficulty": 2,
+   "instruction": "Repère la lettre dans le mot.",
+   "prompt": "Quelle lettre est au milieu de خوخ ?",
    "promptLanguage": "fr",
    "answer": "و",
    "acceptedAnswers": [
     "و"
    ],
-   "explanation": "و fait partie des six lettres qui ne s'attachent pas à la suivante : le bloc se ferme après elle. ج ح خ, elles, s'attachent.",
-   "tip": "ا د ذ ر ز و ferment le bloc.",
+   "explanation": "On lit خوخ (« pêches ») de droite à gauche : خ puis و puis خ. La lettre au milieu est و.",
+   "tip": "Le début d'un mot arabe est à droite, la fin est à gauche.",
    "extraExample": {
-    "text": "خوخ",
-    "translation": "pêches"
+    "text": "الخوخ طعمه حلو.",
+    "translation": "Les pêches sont délicieuses."
    },
    "errorPatterns": [
     {
-     "equals": "ج",
+     "equals": "خ",
      "category": "instruction",
-     "feedback": "ج s'attache à la lettre suivante (جـ)."
+     "feedback": "خ est bien dans خوخ, mais au début et à la fin, pas au milieu."
     },
     {
      "equals": "ح",
-     "category": "instruction",
-     "feedback": "ح s'attache à la lettre suivante (حـ)."
+     "category": "spelling",
+     "feedback": "Il n'y a pas de ح dans خوخ. Lis le mot de droite à gauche : خ puis و puis خ."
     },
     {
-     "equals": "خ",
-     "category": "instruction",
-     "feedback": "خ s'attache à la lettre suivante (خـ)."
+     "equals": "ج",
+     "category": "spelling",
+     "feedback": "Il n'y a pas de ج dans خوخ. Lis le mot de droite à gauche : خ puis و puis خ."
     }
    ],
    "options": [
     "و",
-    "ج",
+    "خ",
     "ح",
-    "خ"
+    "ج"
    ]
   },
   {
@@ -451,42 +463,42 @@
    "unitIds": [
     "ar.v.abouna"
    ],
-   "difficulty": 3,
-   "instruction": "Compte les blocs.",
-   "prompt": "Combien de blocs compte أبونا ?",
+   "difficulty": 2,
+   "instruction": "Lis le mot et choisis son sens.",
+   "prompt": "Lis ce mot : أبونا",
    "promptLanguage": "fr",
-   "answer": "3 blocs",
+   "answer": "notre père (le prêtre)",
    "acceptedAnswers": [
-    "3 blocs"
+    "notre père (le prêtre)"
    ],
-   "explanation": "أبونا = أ | بو | نا : 3 blocs. Le mot se coupe après أ et après و.",
-   "tip": "Après chaque ا د ذ ر ز و, un nouveau bloc commence.",
+   "explanation": "أبونا se lit أ + ب + و + ن + ا : « notre père (le prêtre) ».",
+   "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
-    "text": "أبونا",
-    "translation": "notre père (le prêtre)"
+    "text": "أبونا بيصلي القداس.",
+    "translation": "Le prêtre célèbre la liturgie."
    },
    "errorPatterns": [
     {
-     "equals": "1 bloc",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : أ | بو | نا."
+     "equals": "notre Seigneur",
+     "category": "word_confusion",
+     "feedback": "« notre Seigneur » s'écrit ربنا. Ici tu lis أ + ب + و + ن + ا : أبونا veut dire « notre père (le prêtre) »."
     },
     {
-     "equals": "2 blocs",
-     "category": "instruction",
-     "feedback": "Tu as oublié une coupure : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : أ | بو | نا."
+     "equals": "prophéties",
+     "category": "word_confusion",
+     "feedback": "« prophéties » s'écrit نبوات. Ici tu lis أ + ب + و + ن + ا : أبونا veut dire « notre père (le prêtre) »."
     },
     {
-     "equals": "4 blocs",
-     "category": "instruction",
-     "feedback": "Tu as coupé trop de fois : seules ا د ذ ر ز و ne s'attachent pas à la suivante. Ici : أ | بو | نا."
+     "equals": "monastère",
+     "category": "word_confusion",
+     "feedback": "« monastère » s'écrit دير. Ici tu lis أ + ب + و + ن + ا : أبونا veut dire « notre père (le prêtre) »."
     }
    ],
    "options": [
-    "1 bloc",
-    "2 blocs",
-    "3 blocs",
-    "4 blocs"
+    "notre père (le prêtre)",
+    "notre Seigneur",
+    "prophéties",
+    "monastère"
    ]
   },
   {
@@ -503,8 +515,8 @@
    "acceptedAnswers": [
     "بنت"
    ],
-   "explanation": "« fille » s'écrit ب + ن + ت : بنت. Au milieu, un seul point dessus : ـنـ.",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "explanation": "« fille » s'écrit ب + ن + ت : بنت. La lettre du milieu est ن.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "عندي بنتين.",
     "translation": "J'ai deux filles."
@@ -548,8 +560,8 @@
    "acceptedAnswers": [
     "ج"
    ],
-   "explanation": "جيب commence par ج : le point est dessous, dans le creux. ح n'a pas de point, خ l'a dessus.",
-   "tip": "Point dessous : ج.",
+   "explanation": "جيب (« poche ») s'écrit ج + ي + ب : la lettre qui manque, au début du mot, est ج.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "الفلوس في الجيب.",
     "translation": "L'argent est dans la poche."
@@ -558,12 +570,12 @@
     {
      "equals": "ح",
      "category": "spelling",
-     "feedback": "ح n'a aucun point ; il en faut un dessous."
+     "feedback": "Avec ح, on lirait حيب : ce n'est pas « poche ». Pour « poche », la lettre au début est ج."
     },
     {
      "equals": "خ",
      "category": "spelling",
-     "feedback": "خ a son point dessus ; ici il est dessous."
+     "feedback": "Avec خ, on lirait خيب : ce n'est pas « poche ». Pour « poche », la lettre au début est ج."
     }
    ],
    "options": [
@@ -587,8 +599,8 @@
    "acceptedAnswers": [
     "خ"
    ],
-   "explanation": "خبر commence par خ : un point dessus. Puis ب et ر restent attachés.",
-   "tip": "Point dessus : خ.",
+   "explanation": "خبر (« nouvelle ») s'écrit خ + ب + ر : la lettre qui manque, au début du mot, est خ.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "سمعت الخبر؟",
     "translation": "Tu as entendu la nouvelle ?"
@@ -597,12 +609,12 @@
     {
      "equals": "ح",
      "category": "spelling",
-     "feedback": "ح n'a aucun point ; il en faut un dessus."
+     "feedback": "Avec ح, on lirait حبر : ce n'est pas « nouvelle ». Pour « nouvelle », la lettre au début est خ."
     },
     {
      "equals": "ج",
      "category": "spelling",
-     "feedback": "ج a son point dessous ; ici il est dessus."
+     "feedback": "Avec ج, on lirait جبر : ce n'est pas « nouvelle ». Pour « nouvelle », la lettre au début est خ."
     }
    ],
    "options": [
@@ -626,8 +638,8 @@
    "acceptedAnswers": [
     "ح"
    ],
-   "explanation": "حد n'a aucun point. Avec un point dessus, ce serait خد (prends).",
-   "tip": "Aucun point : ح.",
+   "explanation": "حد (« quelqu'un ») s'écrit ح + د : la lettre qui manque, au début du mot, est ح.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "فيه حد هنا؟",
     "translation": "Il y a quelqu'un ici ?"
@@ -636,7 +648,12 @@
     {
      "equals": "خ",
      "category": "word_confusion",
-     "feedback": "خد veut dire « prends ». « quelqu'un » n'a aucun point."
+     "feedback": "Avec خ, on lirait خد (« prends »), pas « quelqu'un ». Pour « quelqu'un », la lettre au début est ح."
+    },
+    {
+     "equals": "ج",
+     "category": "spelling",
+     "feedback": "Avec ج, on lirait جد : ce n'est pas « quelqu'un ». Pour « quelqu'un », la lettre au début est ح."
     }
    ],
    "options": [
@@ -662,7 +679,7 @@
    "promptLanguage": "fr",
    "answer": "حبيبي = mon chéri ; خبر = nouvelle ; جزر = carottes ; خوخ = pêches ; جيب = poche",
    "acceptedAnswers": [],
-   "explanation": "Cherche le point : dessous pour ج, dessus pour خ, aucun pour ح.",
+   "explanation": "Lis chaque mot d'un coup d'œil et repère sa première lettre : ج, ح ou خ.",
    "pairs": [
     {
      "left": "حبيبي",
@@ -690,30 +707,38 @@
    "id": "ar.l11.e17",
    "type": "match",
    "unitIds": [
-    "ar.g11.forms_jim_family",
     "ar.v.jim",
     "ar.v.ha",
-    "ar.v.kha"
+    "ar.v.kha",
+    "ar.g11.forms_jim_family",
+    "ar.v.jayb",
+    "ar.v.hadd",
+    "ar.v.khud",
+    "ar.v.bakhur"
    ],
    "difficulty": 2,
-   "instruction": "Associe chaque lettre à son point.",
-   "prompt": "Les points de ج ح خ",
+   "instruction": "Associe chaque mot à sa première lettre.",
+   "prompt": "Premières lettres : poche, quelqu'un, prends, encens",
    "promptLanguage": "fr",
-   "answer": "ج = 1 point dessous ; ح = aucun point ; خ = 1 point dessus",
+   "answer": "جيب = ج ; حد = ح ; خد = خ ; بخور = ب",
    "acceptedAnswers": [],
-   "explanation": "ج, ح, خ ont le même corps : seul le point les distingue.",
+   "explanation": "On lit de droite à gauche, donc la première lettre est celle de droite : جيب → ج, حد → ح, خد → خ, بخور → ب.",
    "pairs": [
     {
-     "left": "ج",
-     "right": "1 point dessous"
+     "left": "جيب",
+     "right": "ج"
     },
     {
-     "left": "ح",
-     "right": "aucun point"
+     "left": "حد",
+     "right": "ح"
     },
     {
-     "left": "خ",
-     "right": "1 point dessus"
+     "left": "خد",
+     "right": "خ"
+    },
+    {
+     "left": "بخور",
+     "right": "ب"
     }
    ]
   },
@@ -734,7 +759,7 @@
    "promptLanguage": "fr",
    "answer": "ج = جـ ; ح = حـ ; خ = خـ ; ب = بـ ; ن = نـ",
    "acceptedAnswers": [],
-   "explanation": "La forme du début garde la lettre et ses points, avec le trait ـ à gauche.",
+   "explanation": "La forme du début garde la lettre et ajoute le trait ـ à gauche.",
    "pairs": [
     {
      "left": "ج",
@@ -845,8 +870,8 @@
     "peche",
     "les pêches"
    ],
-   "explanation": "خوخ = خو | خ : deux خ avec un point dessus, séparés par un و. Ce sont les pêches.",
-   "tip": "Deux points dessus, un à chaque extrémité.",
+   "explanation": "خوخ = خو | خ : deux خ séparés par un و, un au début et un à la fin. Ce sont les pêches.",
+   "tip": "Un خ au début, un خ à la fin, un و entre les deux.",
    "extraExample": {
     "text": "اشتريت خوخ من السوق.",
     "translation": "J'ai acheté des pêches au marché."
@@ -855,7 +880,7 @@
     {
      "equals": "carottes",
      "category": "word_confusion",
-     "feedback": "جزر (carottes) commence par ج, point dessous."
+     "feedback": "جزر (carottes) commence par ج, pas par خ."
     }
    ]
   },
@@ -877,8 +902,8 @@
     "quelque un",
     "une personne"
    ],
-   "explanation": "حد = ح + د, sans aucun point. C'est « quelqu'un » (et « personne » dans une phrase négative).",
-   "tip": "Aucun point : ح. Un point dessus : خد (prends).",
+   "explanation": "حد = ح + د. C'est « quelqu'un » (et « personne » dans une phrase négative).",
+   "tip": "حد (quelqu'un) commence par ح ; خد (prends) commence par خ.",
    "extraExample": {
     "text": "مفيش حد في البيت.",
     "translation": "Il n'y a personne à la maison."
@@ -887,7 +912,7 @@
     {
      "equals": "prends",
      "category": "word_confusion",
-     "feedback": "خد (prends) a un point dessus. حد n'en a aucun."
+     "feedback": "خد (prends) commence par خ. حد commence par ح."
     }
    ]
   },
@@ -909,7 +934,7 @@
     "des carottes",
     "les carottes"
    ],
-   "explanation": "جزر = جز | ر : ج (1 point dessous), ز (1 point dessus), ر (aucun). Ce sont les carottes.",
+   "explanation": "جزر = جز | ر : ج, ز, ر (aucun). Ce sont les carottes.",
    "tip": "ج puis ز puis ر : lis de droite à gauche.",
    "extraExample": {
     "text": "عايز كيلو جزر.",

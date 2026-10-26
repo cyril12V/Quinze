@@ -5,62 +5,89 @@
       "id": "ar.l04.e01",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.dal"
+        "ar.v.qaf"
       ],
       "type": "mcq",
       "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre fait le son d, comme dans dent ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ز",
-        "د",
-        "ر",
-        "ب"
-      ],
-      "answer": "د",
-      "acceptedAnswers": [
-        "د"
-      ],
-      "explanation": "د se lit comme le d de dent : un petit dos arrondi posé sur la ligne, sans point.",
-      "tip": "Un petit dos arrondi posé sur la ligne.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ق",
+      "promptLanguage": "ar",
+      "explanation": "ق (qâf) se lit coup de gorge, comme dans « oh-oh ».",
+      "tip": "Au Caire, ق est un coup de gorge.",
       "extraExample": {
-        "text": "د",
-        "translation": "dâl : le d de dent, aucun point."
-      }
+        "text": "قداس",
+        "translation": "messe : ق au début"
+      },
+      "options": [
+        "k, comme kilo",
+        "f, comme feu",
+        "coup de gorge, comme dans « oh-oh »",
+        "l, comme lune"
+      ],
+      "answer": "coup de gorge, comme dans « oh-oh »",
+      "acceptedAnswers": [
+        "coup de gorge, comme dans « oh-oh »"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "k, comme kilo",
+          "category": "word_confusion",
+          "feedback": "« k, comme kilo » est le son de ك (kâf). Ici, c'est ق (qâf) : coup de gorge, comme dans « oh-oh »."
+        },
+        {
+          "equals": "f, comme feu",
+          "category": "word_confusion",
+          "feedback": "« f, comme feu » est le son de ف (fâ). Ici, c'est ق (qâf) : coup de gorge, comme dans « oh-oh »."
+        },
+        {
+          "equals": "l, comme lune",
+          "category": "word_confusion",
+          "feedback": "« l, comme lune » est le son de ل (lâm). Ici, c'est ق (qâf) : coup de gorge, comme dans « oh-oh »."
+        }
+      ]
     },
     {
       "id": "ar.l04.e02",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.zay"
+        "ar.v.heh"
       ],
       "type": "mcq",
-      "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre fait le son z, comme dans zèbre ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ر",
-        "ز",
-        "ن",
-        "د"
-      ],
-      "answer": "ز",
-      "acceptedAnswers": [
-        "ز"
-      ],
-      "explanation": "ز se lit comme le z de zèbre. C'est la virgule ر, coiffée d'un point dessus.",
-      "tip": "La virgule avec un point : zzz.",
+      "difficulty": 2,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ـهـ",
+      "promptLanguage": "ar",
+      "explanation": "ـهـ est la forme du milieu de ه (hâ) : la forme change, pas le son. ه se lit h léger, comme dans hop.",
+      "tip": "Un souffle léger : h.",
       "extraExample": {
-        "text": "ز",
-        "translation": "zây : le z de zèbre, 1 point dessus."
+        "text": "ليه",
+        "translation": "pourquoi : ه à la fin"
       },
+      "options": [
+        "ou, comme dans oui",
+        "m, comme mer",
+        "h léger, comme dans hop",
+        "h fort, comme sur une vitre"
+      ],
+      "answer": "h léger, comme dans hop",
+      "acceptedAnswers": [
+        "h léger, comme dans hop"
+      ],
       "errorPatterns": [
         {
-          "equals": "ر",
+          "equals": "h fort, comme sur une vitre",
           "category": "word_confusion",
-          "feedback": "ر est le r roulé : c'est la même virgule, mais sans point."
+          "feedback": "« h fort, comme sur une vitre » est le son de ح (ḥâ). Ici, c'est ه (hâ) : h léger, comme dans hop."
+        },
+        {
+          "equals": "m, comme mer",
+          "category": "word_confusion",
+          "feedback": "« m, comme mer » est le son de م (mîm). Ici, c'est ه (hâ) : h léger, comme dans hop."
+        },
+        {
+          "equals": "ou, comme dans oui",
+          "category": "word_confusion",
+          "feedback": "« ou, comme dans oui » est le son de و (wâw). Ici, c'est ه (hâ) : h léger, comme dans hop."
         }
       ]
     },
@@ -68,34 +95,44 @@
       "id": "ar.l04.e03",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.ra"
+        "ar.v.waw"
       ],
       "type": "mcq",
       "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre est une virgule qui descend sous la ligne, sans point ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ا",
-        "ر",
-        "ز",
-        "د"
-      ],
-      "answer": "ر",
-      "acceptedAnswers": [
-        "ر"
-      ],
-      "explanation": "ر descend sous la ligne comme une virgule. ز lui ressemble, mais elle porte un point dessus.",
-      "tip": "Une virgule qui descend sous la ligne.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "و",
+      "promptLanguage": "ar",
+      "explanation": "و (wâw) se lit ou, comme dans oui.",
+      "tip": "Oui : ou.",
       "extraExample": {
-        "text": "ر",
-        "translation": "râ : un r roulé, aucun point."
+        "text": "كويس",
+        "translation": "bon : و au milieu"
       },
+      "options": [
+        "ou, comme dans oui",
+        "r roulé, comme en espagnol",
+        "m, comme mer",
+        "f, comme feu"
+      ],
+      "answer": "ou, comme dans oui",
+      "acceptedAnswers": [
+        "ou, comme dans oui"
+      ],
       "errorPatterns": [
         {
-          "equals": "ز",
+          "equals": "m, comme mer",
           "category": "word_confusion",
-          "feedback": "ز a la même forme, mais avec 1 point dessus."
+          "feedback": "« m, comme mer » est le son de م (mîm). Ici, c'est و (wâw) : ou, comme dans oui."
+        },
+        {
+          "equals": "r roulé, comme en espagnol",
+          "category": "word_confusion",
+          "feedback": "« r roulé, comme en espagnol » est le son de ر (râ). Ici, c'est و (wâw) : ou, comme dans oui."
+        },
+        {
+          "equals": "f, comme feu",
+          "category": "word_confusion",
+          "feedback": "« f, comme feu » est le son de ف (fâ). Ici, c'est و (wâw) : ou, comme dans oui."
         }
       ]
     },
@@ -103,69 +140,89 @@
       "id": "ar.l04.e04",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.dal",
-        "ar.v.dhal",
-        "ar.v.ra",
-        "ar.v.zay"
+        "ar.v.ta_marbuta"
       ],
-      "type": "match",
-      "difficulty": 1,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie د, ذ, ر et ز à leur nom.",
-      "promptLanguage": "fr",
-      "pairs": [
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ـة",
+      "promptLanguage": "ar",
+      "explanation": "ـة est la forme de la fin de ة (tâ marbûta) : la forme change, pas le son. ة se lit a final féminin, comme pizza.",
+      "tip": "ة finit les mots féminins comme كنيسة.",
+      "extraExample": {
+        "text": "كنيسة",
+        "translation": "église : ة à la fin"
+      },
+      "options": [
+        "l, comme lune",
+        "h léger, comme dans hop",
+        "a final féminin, comme pizza",
+        "m, comme mer"
+      ],
+      "answer": "a final féminin, comme pizza",
+      "acceptedAnswers": [
+        "a final féminin, comme pizza"
+      ],
+      "errorPatterns": [
         {
-          "left": "د",
-          "right": "dâl"
+          "equals": "h léger, comme dans hop",
+          "category": "word_confusion",
+          "feedback": "« h léger, comme dans hop » est le son de ه (hâ). Ici, c'est ة (tâ marbûta) : a final féminin, comme pizza."
         },
         {
-          "left": "ذ",
-          "right": "dhâl"
+          "equals": "l, comme lune",
+          "category": "word_confusion",
+          "feedback": "« l, comme lune » est le son de ل (lâm). Ici, c'est ة (tâ marbûta) : a final féminin, comme pizza."
         },
         {
-          "left": "ر",
-          "right": "râ"
-        },
-        {
-          "left": "ز",
-          "right": "zây"
+          "equals": "m, comme mer",
+          "category": "word_confusion",
+          "feedback": "« m, comme mer » est le son de م (mîm). Ici, c'est ة (tâ marbûta) : a final féminin, comme pizza."
         }
-      ],
-      "acceptedAnswers": [],
-      "explanation": "Quatre noms pour deux paires : dâl et dhâl, râ et zây. Le nom commence par le son de la lettre."
+      ]
     },
     {
       "id": "ar.l04.e05",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.dhal"
+        "ar.v.hamza"
       ],
       "type": "mcq",
       "difficulty": 2,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre est un petit dos arrondi avec 1 point dessus ?",
-      "promptLanguage": "fr",
-      "options": [
-        "د",
-        "ز",
-        "ذ",
-        "ر"
-      ],
-      "answer": "ذ",
-      "acceptedAnswers": [
-        "ذ"
-      ],
-      "explanation": "ذ est le dos de د coiffé d'un point dessus.",
-      "tip": "Le dos arrondi avec un chapeau.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ء",
+      "promptLanguage": "ar",
+      "explanation": "ء (hamza) se lit arrêt net de la voix, comme dans « ça-a ».",
+      "tip": "Un arrêt net de la voix.",
       "extraExample": {
-        "text": "ذ",
-        "translation": "dhâl : un d, parfois un z, 1 point dessus."
+        "text": "أبونا",
+        "translation": "notre père (le prêtre) : ء posée sur l'alif, au début"
       },
+      "options": [
+        "arrêt net de la voix, comme dans « ça-a »",
+        "k, comme kilo",
+        "f, comme feu",
+        "ou, comme dans oui"
+      ],
+      "answer": "arrêt net de la voix, comme dans « ça-a »",
+      "acceptedAnswers": [
+        "arrêt net de la voix, comme dans « ça-a »"
+      ],
       "errorPatterns": [
         {
-          "equals": "د",
+          "equals": "f, comme feu",
           "category": "word_confusion",
-          "feedback": "د est le même dos, mais sans aucun point."
+          "feedback": "« f, comme feu » est le son de ف (fâ). Ici, c'est ء (hamza) : arrêt net de la voix, comme dans « ça-a »."
+        },
+        {
+          "equals": "k, comme kilo",
+          "category": "word_confusion",
+          "feedback": "« k, comme kilo » est le son de ك (kâf). Ici, c'est ء (hamza) : arrêt net de la voix, comme dans « ça-a »."
+        },
+        {
+          "equals": "ou, comme dans oui",
+          "category": "word_confusion",
+          "feedback": "« ou, comme dans oui » est le son de و (wâw). Ici, c'est ء (hamza) : arrêt net de la voix, comme dans « ça-a »."
         }
       ]
     },
@@ -173,34 +230,44 @@
       "id": "ar.l04.e06",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.zay"
+        "ar.v.kaf"
       ],
       "type": "mcq",
       "difficulty": 2,
       "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre est une virgule avec 1 point dessus ?",
+      "prompt": "Quelle lettre fait le son « k, comme kilo » ?",
       "promptLanguage": "fr",
-      "options": [
-        "د",
-        "ذ",
-        "ز",
-        "ر"
-      ],
-      "answer": "ز",
-      "acceptedAnswers": [
-        "ز"
-      ],
-      "explanation": "ز est la virgule ر avec un point dessus. ذ a bien un point dessus aussi, mais c'est un dos arrondi.",
-      "tip": "La virgule avec un point : zzz.",
+      "explanation": "Le son k, comme kilo s'écrit ك (kâf).",
+      "tip": "Le kilo : k.",
       "extraExample": {
-        "text": "ز",
-        "translation": "zây : le z de zèbre, 1 point dessus."
+        "text": "كتاب",
+        "translation": "livre : ك au début"
       },
+      "options": [
+        "م",
+        "ل",
+        "ق",
+        "ك"
+      ],
+      "answer": "ك",
+      "acceptedAnswers": [
+        "ك"
+      ],
       "errorPatterns": [
         {
-          "equals": "ذ",
+          "equals": "ق",
           "category": "word_confusion",
-          "feedback": "ذ a un point dessus, mais sa forme est un dos arrondi, pas une virgule."
+          "feedback": "ق (qâf) se lit coup de gorge, comme dans « oh-oh », pas k, comme kilo."
+        },
+        {
+          "equals": "ل",
+          "category": "word_confusion",
+          "feedback": "ل (lâm) se lit l, comme lune, pas k, comme kilo."
+        },
+        {
+          "equals": "م",
+          "category": "word_confusion",
+          "feedback": "م (mîm) se lit m, comme mer, pas k, comme kilo."
         }
       ]
     },
@@ -208,419 +275,722 @@
       "id": "ar.l04.e07",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.zay",
-        "ar.v.ra"
+        "ar.v.qaf"
       ],
-      "type": "fill_blank",
+      "type": "mcq",
       "difficulty": 2,
-      "instruction": "Choisis la lettre qui manque.",
-      "prompt": "Si tu ajoutes 1 point dessus à ر, tu obtiens ___.",
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans قداس, quelle lettre est au début ?",
       "promptLanguage": "fr",
-      "options": [
-        "د",
-        "ذ",
-        "ز",
-        "ن"
-      ],
-      "answer": "ز",
-      "acceptedAnswers": [
-        "ز"
-      ],
-      "explanation": "ر + 1 point dessus = ز : le r roulé devient le z de zèbre.",
-      "tip": "La virgule avec un point : zzz.",
+      "explanation": "قداس (messe) se lit de droite à gauche : ق puis د puis ا puis س. La lettre au début est ق.",
+      "tip": "Un mot se lit de droite à gauche : la première lettre est à droite.",
       "extraExample": {
-        "text": "ز",
-        "translation": "zây : le z de zèbre, 1 point dessus."
-      }
+        "text": "قداس",
+        "translation": "messe : ق au début, س à la fin"
+      },
+      "options": [
+        "ك",
+        "ف",
+        "ل",
+        "ق"
+      ],
+      "answer": "ق",
+      "acceptedAnswers": [
+        "ق"
+      ],
+      "hint": "Le début d'un mot est à droite.",
+      "errorPatterns": [
+        {
+          "equals": "ف",
+          "category": "word_confusion",
+          "feedback": "ف n'est pas dans قداس. Lis les lettres de droite à gauche."
+        },
+        {
+          "equals": "ك",
+          "category": "word_confusion",
+          "feedback": "ك n'est pas dans قداس. Lis les lettres de droite à gauche."
+        },
+        {
+          "equals": "ل",
+          "category": "word_confusion",
+          "feedback": "ل n'est pas dans قداس. Lis les lettres de droite à gauche."
+        }
+      ]
     },
     {
       "id": "ar.l04.e08",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.dhal",
-        "ar.v.dal"
-      ],
-      "type": "fill_blank",
-      "difficulty": 2,
-      "instruction": "Choisis la lettre qui manque.",
-      "prompt": "Si tu ajoutes 1 point dessus à د, tu obtiens ___.",
-      "promptLanguage": "fr",
-      "options": [
-        "ر",
-        "ز",
-        "ذ",
-        "خ"
-      ],
-      "answer": "ذ",
-      "acceptedAnswers": [
-        "ذ"
-      ],
-      "explanation": "د + 1 point dessus = ذ : le d de dent devient un d, parfois un z.",
-      "tip": "Le dos arrondi avec un chapeau.",
-      "extraExample": {
-        "text": "ذ",
-        "translation": "dhâl : un d, parfois un z, 1 point dessus."
-      }
-    },
-    {
-      "id": "ar.l04.e09",
-      "unitIds": [
-        "ar.g04.letters4",
-        "ar.v.ra",
-        "ar.v.dal"
-      ],
-      "type": "fill_blank",
-      "difficulty": 2,
-      "instruction": "Complète avec le bon mot.",
-      "prompt": "ر est une virgule qui descend ___ la ligne, alors que د reste posée dessus.",
-      "promptLanguage": "fr",
-      "options": [
-        "au bout de",
-        "sous",
-        "sur"
-      ],
-      "answer": "sous",
-      "acceptedAnswers": [
-        "sous"
-      ],
-      "explanation": "ر descend sous la ligne comme une virgule, alors que د reste posée sur la ligne.",
-      "tip": "Une virgule qui descend sous la ligne.",
-      "extraExample": {
-        "text": "ر",
-        "translation": "râ : un r roulé, aucun point."
-      }
-    },
-    {
-      "id": "ar.l04.e10",
-      "unitIds": [
-        "ar.g04.letters4",
-        "ar.v.dal",
-        "ar.v.dhal",
-        "ar.v.zay",
-        "ar.v.kha"
-      ],
-      "type": "mcq",
-      "difficulty": 2,
-      "instruction": "Trouve l'intruse.",
-      "prompt": "Trois de ces lettres ont 1 point dessus. Laquelle est l'intruse ?",
-      "promptLanguage": "fr",
-      "options": [
-        "د",
-        "ذ",
-        "خ",
-        "ز"
-      ],
-      "answer": "د",
-      "acceptedAnswers": [
-        "د"
-      ],
-      "explanation": "ذ, ز et خ portent chacune 1 point dessus. د n'en porte aucun : c'est l'intruse.",
-      "tip": "Un petit dos arrondi posé sur la ligne.",
-      "extraExample": {
-        "text": "د",
-        "translation": "dâl : le d de dent, aucun point."
-      }
-    },
-    {
-      "id": "ar.l04.e11",
-      "unitIds": [
-        "ar.v.jim",
-        "ar.g04.letters4"
+        "ar.v.ta_marbuta"
       ],
       "type": "mcq",
       "difficulty": 2,
       "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre est un crochet avec 1 point dans le creux ?",
+      "prompt": "Dans كنيسة, quelle lettre est à la fin ?",
       "promptLanguage": "fr",
+      "explanation": "كنيسة (église) se lit de droite à gauche : ك puis ن puis ي puis س puis ة. La lettre à la fin est ة.",
+      "tip": "La dernière lettre est tout à gauche.",
+      "extraExample": {
+        "text": "كنيسة",
+        "translation": "église : ك au début, ة à la fin"
+      },
+      "options": [
+        "ه",
+        "ة",
+        "س",
+        "ن"
+      ],
+      "answer": "ة",
+      "acceptedAnswers": [
+        "ة"
+      ],
+      "hint": "La fin d'un mot est à gauche.",
+      "errorPatterns": [
+        {
+          "equals": "ه",
+          "category": "word_confusion",
+          "feedback": "ه n'est pas dans كنيسة. Lis les lettres de droite à gauche."
+        },
+        {
+          "equals": "س",
+          "category": "word_confusion",
+          "feedback": "س est bien dans كنيسة, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "ن est bien dans كنيسة, mais au milieu. Lis de droite à gauche."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e09",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.ayn"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "عـ",
+      "promptLanguage": "ar",
+      "explanation": "عـ est la forme du début de ع (aïn) : la forme change, pas le son. ع se lit a étranglé, gorge serrée.",
+      "tip": "La gorge serrée : un a étranglé.",
+      "extraExample": {
+        "text": "عيش",
+        "translation": "pain : ع au début"
+      },
+      "options": [
+        "r de gorge, comme dans rouge",
+        "h fort, comme sur une vitre",
+        "kh, comme dans Bach",
+        "a étranglé, gorge serrée"
+      ],
+      "answer": "a étranglé, gorge serrée",
+      "acceptedAnswers": [
+        "a étranglé, gorge serrée"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "r de gorge, comme dans rouge",
+          "category": "word_confusion",
+          "feedback": "« r de gorge, comme dans rouge » est le son de غ (ghaïn). Ici, c'est ع (aïn) : a étranglé, gorge serrée."
+        },
+        {
+          "equals": "h fort, comme sur une vitre",
+          "category": "word_confusion",
+          "feedback": "« h fort, comme sur une vitre » est le son de ح (ḥâ). Ici, c'est ع (aïn) : a étranglé, gorge serrée."
+        },
+        {
+          "equals": "kh, comme dans Bach",
+          "category": "word_confusion",
+          "feedback": "« kh, comme dans Bach » est le son de خ (khâ). Ici, c'est ع (aïn) : a étranglé, gorge serrée."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e10",
+      "unitIds": [
+        "ar.g02.letters2",
+        "ar.v.ha"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans بحر, quelle lettre est au milieu ?",
+      "promptLanguage": "fr",
+      "explanation": "بحر (mer) se lit de droite à gauche : ب puis ح puis ر. La lettre au milieu est ح.",
+      "tip": "Pour le milieu, lis de droite à gauche et arrête-toi sur la lettre du centre.",
+      "extraExample": {
+        "text": "بحر",
+        "translation": "mer : ب au début, ر à la fin"
+      },
       "options": [
         "خ",
-        "ذ",
-        "ح",
-        "ج"
+        "ر",
+        "ب",
+        "ح"
       ],
-      "answer": "ج",
+      "answer": "ح",
       "acceptedAnswers": [
-        "ج"
+        "ح"
       ],
-      "explanation": "ج est le crochet à bille : 1 point dans le creux, donc dessous. Elle se dit g en Égypte.",
-      "tip": "Un hameçon avec une bille dans le creux.",
-      "extraExample": {
-        "text": "ج",
-        "translation": "gîm : le g de gâteau, 1 point dessous."
-      },
+      "hint": "Le milieu est entre la première lettre (à droite) et la dernière (à gauche).",
       "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب est bien dans بحر, mais au début. Lis de droite à gauche."
+        },
+        {
+          "equals": "ر",
+          "category": "word_confusion",
+          "feedback": "ر est bien dans بحر, mais à la fin. Lis de droite à gauche."
+        },
         {
           "equals": "خ",
           "category": "word_confusion",
-          "feedback": "خ a son point dessus (le chapeau), pas dans le creux."
+          "feedback": "خ n'est pas dans بحر. Lis les lettres de droite à gauche."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e11",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.shin"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans شاي, quelle lettre est au début ?",
+      "promptLanguage": "fr",
+      "explanation": "شاي (thé) se lit de droite à gauche : ش puis ا puis ي. La lettre au début est ش.",
+      "tip": "Un mot se lit de droite à gauche : la première lettre est à droite.",
+      "extraExample": {
+        "text": "شاي",
+        "translation": "thé : ش au début, ي à la fin"
+      },
+      "options": [
+        "ا",
+        "ش",
+        "ص",
+        "س"
+      ],
+      "answer": "ش",
+      "acceptedAnswers": [
+        "ش"
+      ],
+      "hint": "Le début d'un mot est à droite.",
+      "errorPatterns": [
+        {
+          "equals": "ا",
+          "category": "word_confusion",
+          "feedback": "ا est bien dans شاي, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "س",
+          "category": "word_confusion",
+          "feedback": "س n'est pas dans شاي. Lis les lettres de droite à gauche."
+        },
+        {
+          "equals": "ص",
+          "category": "word_confusion",
+          "feedback": "ص n'est pas dans شاي. Lis les lettres de droite à gauche."
         }
       ]
     },
     {
       "id": "ar.l04.e12",
       "unitIds": [
-        "ar.v.ha",
-        "ar.g04.letters4"
+        "ar.g03.letters3",
+        "ar.v.shin"
       ],
       "type": "mcq",
       "difficulty": 2,
       "instruction": "Choisis la bonne lettre.",
-      "prompt": "Parmi ces lettres, laquelle se lit comme un h appuyé ?",
+      "prompt": "Quelle lettre fait le son « ch, comme chat » ?",
       "promptLanguage": "fr",
-      "options": [
-        "ر",
-        "ح",
-        "ج",
-        "خ"
-      ],
-      "answer": "ح",
-      "acceptedAnswers": [
-        "ح"
-      ],
-      "explanation": "ح est le crochet vide, un h appuyé soufflé du fond de la gorge.",
-      "tip": "Le crochet vide : rien dedans, rien dessus.",
+      "explanation": "Le son ch, comme chat s'écrit ش (chîn).",
+      "tip": "Un chat : ch.",
       "extraExample": {
-        "text": "ح",
-        "translation": "ḥâ : un h appuyé, aucun point."
-      }
+        "text": "شاي",
+        "translation": "thé : ش au début"
+      },
+      "options": [
+        "س",
+        "ص",
+        "ث",
+        "ش"
+      ],
+      "answer": "ش",
+      "acceptedAnswers": [
+        "ش"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "س",
+          "category": "word_confusion",
+          "feedback": "س (sîn) se lit s, comme soleil, pas ch, comme chat."
+        },
+        {
+          "equals": "ث",
+          "category": "word_confusion",
+          "feedback": "ث (thâ) se lit t ou s, comme thé, pas ch, comme chat."
+        },
+        {
+          "equals": "ص",
+          "category": "word_confusion",
+          "feedback": "ص (sâd) se lit s lourd, comme dans sol, pas ch, comme chat."
+        }
+      ]
     },
     {
       "id": "ar.l04.e13",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.dhal"
+        "ar.v.fa",
+        "ar.v.kaf",
+        "ar.v.lam",
+        "ar.v.mim",
+        "ar.v.heh"
       ],
-      "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Choisis le bon son.",
-      "prompt": "En Égypte, comment dit-on le plus souvent la lettre ذ ?",
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque lettre à son son.",
+      "prompt": "Relie chaque lettre à son son : ف ك ل م ه",
       "promptLanguage": "fr",
-      "options": [
-        "le b de bateau",
-        "le r de rouge",
-        "le ch de chat",
-        "un d, parfois un z"
+      "pairs": [
+        {
+          "left": "ف",
+          "right": "f, comme feu"
+        },
+        {
+          "left": "ك",
+          "right": "k, comme kilo"
+        },
+        {
+          "left": "ل",
+          "right": "l, comme lune"
+        },
+        {
+          "left": "م",
+          "right": "m, comme mer"
+        },
+        {
+          "left": "ه",
+          "right": "h léger, comme dans hop"
+        }
       ],
-      "answer": "un d, parfois un z",
-      "acceptedAnswers": [
-        "un d, parfois un z"
-      ],
-      "explanation": "En arabe littéraire, ذ est le th de this, mais en Égypte on la dit comme un d, parfois un z.",
-      "tip": "Comme ث se dit t, ذ se dit d : les sons « th » n'existent pas en égyptien.",
-      "extraExample": {
-        "text": "ذ",
-        "translation": "dhâl : un d, parfois un z, 1 point dessus."
-      }
+      "answer": "ف = f, comme feu ; ك = k, comme kilo ; ل = l, comme lune ; م = m, comme mer ; ه = h léger, comme dans hop",
+      "acceptedAnswers": [],
+      "explanation": "Lis la lettre, entends le son : ف = f, comme feu ; ك = k, comme kilo ; ل = l, comme lune ; م = m, comme mer ; ه = h léger, comme dans hop."
     },
     {
       "id": "ar.l04.e14",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.ra"
+        "ar.v.waw",
+        "ar.v.ta_marbuta",
+        "ar.v.alif_maqsura",
+        "ar.v.hamza"
       ],
-      "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Choisis le bon son.",
-      "prompt": "Quel son fait la lettre ر ?",
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Relie chaque lettre à son son.",
+      "prompt": "Relie chaque lettre à son son : و ة ى ء",
       "promptLanguage": "fr",
-      "options": [
-        "un r roulé",
-        "le n de nuit",
-        "le d de dent",
-        "le z de zèbre"
+      "pairs": [
+        {
+          "left": "و",
+          "right": "ou, comme dans oui"
+        },
+        {
+          "left": "ة",
+          "right": "a final féminin, comme pizza"
+        },
+        {
+          "left": "ى",
+          "right": "a final de mot, comme dans là"
+        },
+        {
+          "left": "ء",
+          "right": "arrêt net de la voix, comme dans « ça-a »"
+        }
       ],
-      "answer": "un r roulé",
-      "acceptedAnswers": [
-        "un r roulé"
-      ],
-      "explanation": "ر est un r roulé du bout de la langue, comme en espagnol.",
-      "tip": "Une virgule qui descend sous la ligne.",
-      "extraExample": {
-        "text": "ر",
-        "translation": "râ : un r roulé, aucun point."
-      }
+      "answer": "و = ou, comme dans oui ; ة = a final féminin, comme pizza ; ى = a final de mot, comme dans là ; ء = arrêt net de la voix, comme dans « ça-a »",
+      "acceptedAnswers": [],
+      "explanation": "Lis la lettre, entends le son : و = ou, comme dans oui ; ة = a final féminin, comme pizza ; ى = a final de mot, comme dans là ; ء = arrêt net de la voix, comme dans « ça-a »."
     },
     {
       "id": "ar.l04.e15",
       "unitIds": [
-        "ar.v.jim",
-        "ar.g04.letters4"
+        "ar.g04.letters4",
+        "ar.v.kaf",
+        "ar.v.nun",
+        "ar.v.ya"
       ],
-      "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Devine la lettre.",
-      "prompt": "Qui suis-je ? « Je suis un crochet avec une bille dans le creux. »",
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Relie chaque mot à son sens.",
+      "prompt": "Relie chaque mot à son sens : كنيسة قداس صليب يسوع قهوة",
       "promptLanguage": "fr",
-      "options": [
-        "ح",
-        "ج",
-        "خ",
-        "ب"
+      "pairs": [
+        {
+          "left": "كنيسة",
+          "right": "église"
+        },
+        {
+          "left": "قداس",
+          "right": "messe"
+        },
+        {
+          "left": "صليب",
+          "right": "croix"
+        },
+        {
+          "left": "يسوع",
+          "right": "Jésus"
+        },
+        {
+          "left": "قهوة",
+          "right": "café"
+        }
       ],
-      "answer": "ج",
-      "acceptedAnswers": [
-        "ج"
-      ],
-      "explanation": "La bille dans le creux est le point de ج : 1 point dessous.",
-      "tip": "Un hameçon avec une bille dans le creux.",
-      "extraExample": {
-        "text": "ج",
-        "translation": "gîm : le g de gâteau, 1 point dessous."
-      }
+      "answer": "كنيسة = église ; قداس = messe ; صليب = croix ; يسوع = Jésus ; قهوة = café",
+      "acceptedAnswers": [],
+      "explanation": "Ces mots viennent de la carte « Des mots à lire » : كنيسة = église ; قداس = messe ; صليب = croix ; يسوع = Jésus ; قهوة = café."
     },
     {
       "id": "ar.l04.e16",
       "unitIds": [
-        "ar.v.nun",
-        "ar.g04.letters4"
+        "ar.g04.letters4",
+        "ar.v.fa",
+        "ar.v.ya",
+        "ar.v.nun"
       ],
-      "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Choisis les bons points.",
-      "prompt": "Quels points porte la lettre ن ?",
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Relie chaque mot à son sens.",
+      "prompt": "Relie chaque mot à son sens : فين ليه مية كويس أبونا",
       "promptLanguage": "fr",
-      "options": [
-        "2 points dessous",
-        "1 point dessous",
-        "2 points dessus",
-        "1 point dessus"
-      ],
-      "answer": "1 point dessus",
-      "acceptedAnswers": [
-        "1 point dessus"
-      ],
-      "explanation": "ن porte 1 point dessus, la cerise sur le bol. Avec 1 point dessous, ce serait ب.",
-      "tip": "Un bol avec une cerise dessus.",
-      "extraExample": {
-        "text": "ن",
-        "translation": "nûn : le n de nuit, 1 point dessus."
-      },
-      "errorPatterns": [
+      "pairs": [
         {
-          "equals": "1 point dessous",
-          "category": "word_confusion",
-          "feedback": "1 point dessous, c'est ب, la barque."
+          "left": "فين",
+          "right": "où"
+        },
+        {
+          "left": "ليه",
+          "right": "pourquoi"
+        },
+        {
+          "left": "مية",
+          "right": "eau"
+        },
+        {
+          "left": "كويس",
+          "right": "bon"
+        },
+        {
+          "left": "أبونا",
+          "right": "notre père (le prêtre)"
         }
-      ]
+      ],
+      "answer": "فين = où ; ليه = pourquoi ; مية = eau ; كويس = bon ; أبونا = notre père (le prêtre)",
+      "acceptedAnswers": [],
+      "explanation": "Ces mots viennent de la carte « Des mots à lire » : فين = où ; ليه = pourquoi ; مية = eau ; كويس = bon ; أبونا = notre père (le prêtre)."
     },
     {
       "id": "ar.l04.e17",
       "unitIds": [
+        "ar.g02.letters2",
         "ar.v.jim",
-        "ar.v.ha",
         "ar.v.kha",
-        "ar.v.ya",
-        "ar.g04.letters4"
+        "ar.g03.letters3",
+        "ar.v.shin",
+        "ar.v.ayn",
+        "ar.v.ghayn"
       ],
       "type": "match",
-      "difficulty": 3,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie ج, ح, خ et ي à leurs points.",
+      "difficulty": 2,
+      "instruction": "Relie chaque lettre à son son.",
+      "prompt": "Relie chaque lettre à son son : ج خ ش ع غ",
       "promptLanguage": "fr",
       "pairs": [
         {
           "left": "ج",
-          "right": "1 point dessous"
-        },
-        {
-          "left": "ح",
-          "right": "aucun point"
+          "right": "g, comme gâteau"
         },
         {
           "left": "خ",
-          "right": "1 point dessus"
+          "right": "kh, comme dans Bach"
         },
         {
-          "left": "ي",
-          "right": "2 points dessous"
+          "left": "ش",
+          "right": "ch, comme chat"
+        },
+        {
+          "left": "ع",
+          "right": "a étranglé, gorge serrée"
+        },
+        {
+          "left": "غ",
+          "right": "r de gorge, comme dans rouge"
         }
       ],
+      "answer": "ج = g, comme gâteau ; خ = kh, comme dans Bach ; ش = ch, comme chat ; ع = a étranglé, gorge serrée ; غ = r de gorge, comme dans rouge",
       "acceptedAnswers": [],
-      "explanation": "Trois crochets distingués par la place du point (dessous, aucun, dessus), et ي avec ses 2 points dessous."
+      "explanation": "Révision : ج = g, comme gâteau ; خ = kh, comme dans Bach ; ش = ch, comme chat ; ع = a étranglé, gorge serrée ; غ = r de gorge, comme dans rouge."
     },
     {
       "id": "ar.l04.e18",
       "unitIds": [
-        "ar.g04.letters4",
-        "ar.v.dal",
+        "ar.g02.letters2",
         "ar.v.dhal",
+        "ar.v.ha",
         "ar.v.ra",
-        "ar.v.zay"
+        "ar.g03.letters3",
+        "ar.v.sad",
+        "ar.v.tah"
       ],
       "type": "match",
       "difficulty": 3,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie د, ذ, ر et ز à leur son.",
+      "instruction": "Relie chaque lettre à son son.",
+      "prompt": "Relie chaque lettre à son son : ذ ص ط ح ر",
       "promptLanguage": "fr",
       "pairs": [
         {
-          "left": "د",
-          "right": "le d de dent"
+          "left": "ذ",
+          "right": "d ou z, comme dent ou zèbre"
         },
         {
-          "left": "ذ",
-          "right": "un d, parfois un z"
+          "left": "ص",
+          "right": "s lourd, comme dans sol"
+        },
+        {
+          "left": "ط",
+          "right": "t lourd, comme dans tôt"
+        },
+        {
+          "left": "ح",
+          "right": "h fort, comme sur une vitre"
         },
         {
           "left": "ر",
-          "right": "un r roulé"
-        },
-        {
-          "left": "ز",
-          "right": "le z de zèbre"
+          "right": "r roulé, comme en espagnol"
         }
       ],
+      "answer": "ذ = d ou z, comme dent ou zèbre ; ص = s lourd, comme dans sol ; ط = t lourd, comme dans tôt ; ح = h fort, comme sur une vitre ; ر = r roulé, comme en espagnol",
       "acceptedAnswers": [],
-      "explanation": "Deux paires de jumelles : d et d/z, r et z. Le point dessus ajoute le son plus « bourdonnant »."
+      "explanation": "Révision : ذ = d ou z, comme dent ou zèbre ; ص = s lourd, comme dans sol ; ط = t lourd, comme dans tôt ; ح = h fort, comme sur une vitre ; ر = r roulé, comme en espagnol."
     },
     {
       "id": "ar.l04.e19",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.ra"
+        "ar.v.nun"
       ],
-      "type": "free_answer",
-      "difficulty": 2,
-      "instruction": "Écris le nombre.",
-      "prompt": "Combien de points a la lettre ر ? Réponds avec un chiffre.",
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "كـ___ـيسة (église)",
       "promptLanguage": "fr",
-      "answer": "0",
-      "acceptedAnswers": [
-        "0",
-        "zéro",
-        "aucun"
-      ],
-      "explanation": "ر n'a aucun point : c'est la virgule nue. Avec 1 point dessus, ce serait ز.",
-      "tip": "Une virgule qui descend sous la ligne.",
+      "explanation": "كنيسة (église) s'écrit : ك ن ي س ة. Il manquait ن, qui se lit n, comme nuit.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
       "extraExample": {
-        "text": "ر",
-        "translation": "râ : un r roulé, aucun point."
-      }
+        "text": "كنيسة",
+        "translation": "église"
+      },
+      "options": [
+        "ن",
+        "ف",
+        "م",
+        "ل"
+      ],
+      "answer": "ن",
+      "acceptedAnswers": [
+        "ن"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ل",
+          "category": "word_confusion",
+          "feedback": "Avec ل (l, comme lune), on n'écrit pas « église » : il faut ن."
+        },
+        {
+          "equals": "ف",
+          "category": "word_confusion",
+          "feedback": "Avec ف (f, comme feu), on n'écrit pas « église » : il faut ن."
+        },
+        {
+          "equals": "م",
+          "category": "word_confusion",
+          "feedback": "Avec م (m, comme mer), on n'écrit pas « église » : il faut ن."
+        }
+      ]
     },
     {
       "id": "ar.l04.e20",
       "unitIds": [
         "ar.g04.letters4",
-        "ar.v.zay"
+        "ar.v.heh"
       ],
-      "type": "free_answer",
+      "type": "fill_blank",
       "difficulty": 3,
-      "instruction": "Écris le nom de la lettre.",
-      "prompt": "Comment s'appelle la lettre qui fait le son z, comme dans zèbre ?",
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "قـ___ـوة (café)",
       "promptLanguage": "fr",
-      "answer": "zây",
-      "acceptedAnswers": [
-        "zây",
-        "zay",
-        "zai",
-        "zaï"
-      ],
-      "explanation": "ز s'appelle zây : son nom commence par son son, z.",
-      "tip": "La virgule avec un point : zzz.",
+      "explanation": "قهوة (café) s'écrit : ق ه و ة. Il manquait ه, qui se lit h léger, comme dans hop.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
       "extraExample": {
-        "text": "ز",
-        "translation": "zây : le z de zèbre, 1 point dessus."
-      }
+        "text": "قهوة",
+        "translation": "café"
+      },
+      "options": [
+        "ه",
+        "ح",
+        "و",
+        "ل"
+      ],
+      "answer": "ه",
+      "acceptedAnswers": [
+        "ه"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "و",
+          "category": "word_confusion",
+          "feedback": "Avec و (ou, comme dans oui), on n'écrit pas « café » : il faut ه."
+        },
+        {
+          "equals": "ل",
+          "category": "word_confusion",
+          "feedback": "Avec ل (l, comme lune), on n'écrit pas « café » : il faut ه."
+        },
+        {
+          "equals": "ح",
+          "category": "word_confusion",
+          "feedback": "Avec ح (h fort, comme sur une vitre), on n'écrit pas « café » : il faut ه."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e21",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.dal"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "قـ___اس (messe)",
+      "promptLanguage": "fr",
+      "explanation": "قداس (messe) s'écrit : ق د ا س. Il manquait د, qui se lit d, comme dent.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
+      "extraExample": {
+        "text": "قداس",
+        "translation": "messe"
+      },
+      "options": [
+        "د",
+        "ل",
+        "ر",
+        "ن"
+      ],
+      "answer": "د",
+      "acceptedAnswers": [
+        "د"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ر",
+          "category": "word_confusion",
+          "feedback": "Avec ر (r roulé, comme en espagnol), on n'écrit pas « messe » : il faut د."
+        },
+        {
+          "equals": "ل",
+          "category": "word_confusion",
+          "feedback": "Avec ل (l, comme lune), on n'écrit pas « messe » : il faut د."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "Avec ن (n, comme nuit), on n'écrit pas « messe » : il faut د."
+        }
+      ]
+    },
+    {
+      "id": "ar.l04.e22",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.sad"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Écris le sens en français.",
+      "prompt": "صليب",
+      "promptLanguage": "ar",
+      "explanation": "صليب veut dire « croix » : tu l'as lu dans la carte « Des mots à lire ».",
+      "tip": "Lis lettre par lettre, de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "صليب",
+        "translation": "croix : le signe que tu fais en priant"
+      },
+      "answer": "croix",
+      "acceptedAnswers": [
+        "croix",
+        "la croix",
+        "une croix"
+      ]
+    },
+    {
+      "id": "ar.l04.e23",
+      "unitIds": [
+        "ar.g04.letters4",
+        "ar.v.fa"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Écris le sens en français.",
+      "prompt": "فين",
+      "promptLanguage": "ar",
+      "explanation": "فين veut dire « où » : tu l'as lu dans la carte « Des mots à lire ».",
+      "tip": "Lis lettre par lettre, de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "فين",
+        "translation": "où : on le dit pour demander un endroit"
+      },
+      "answer": "où",
+      "acceptedAnswers": [
+        "où",
+        "ou",
+        "où est",
+        "où ça"
+      ]
+    },
+    {
+      "id": "ar.l04.e24",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.ayn"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Écris le sens en français.",
+      "prompt": "عيش",
+      "promptLanguage": "ar",
+      "explanation": "عيش veut dire « pain » : tu l'as lu dans la carte « Des mots à lire ».",
+      "tip": "Lis lettre par lettre, de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "عيش",
+        "translation": "pain : ع au début, ش à la fin"
+      },
+      "answer": "pain",
+      "acceptedAnswers": [
+        "pain",
+        "le pain",
+        "du pain"
+      ]
     }
   ]
 }

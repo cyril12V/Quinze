@@ -5,67 +5,89 @@
       "id": "ar.l03.e01",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.jim"
+        "ar.v.shin"
       ],
       "type": "mcq",
       "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre fait le son g, comme dans gâteau, en Égypte ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ن",
-        "ب",
-        "ج",
-        "ي"
-      ],
-      "answer": "ج",
-      "acceptedAnswers": [
-        "ج"
-      ],
-      "explanation": "En Égypte, ج se dit g comme dans gâteau. Son point est dans le creux du crochet.",
-      "tip": "Un hameçon avec une bille dans le creux.",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "شـ",
+      "promptLanguage": "ar",
+      "explanation": "شـ est la forme du début de ش (chîn) : la forme change, pas le son. ش se lit ch, comme chat.",
+      "tip": "Un chat : ch.",
       "extraExample": {
-        "text": "ج",
-        "translation": "gîm : le g de gâteau, 1 point dessous."
-      }
+        "text": "شاي",
+        "translation": "thé : ش au début"
+      },
+      "options": [
+        "b, comme bateau",
+        "ch, comme chat",
+        "s, comme soleil",
+        "z, comme zèbre"
+      ],
+      "answer": "ch, comme chat",
+      "acceptedAnswers": [
+        "ch, comme chat"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "s, comme soleil",
+          "category": "word_confusion",
+          "feedback": "« s, comme soleil » est le son de س (sîn). Ici, c'est ش (chîn) : ch, comme chat."
+        },
+        {
+          "equals": "b, comme bateau",
+          "category": "word_confusion",
+          "feedback": "« b, comme bateau » est le son de ب (bâ). Ici, c'est ش (chîn) : ch, comme chat."
+        },
+        {
+          "equals": "z, comme zèbre",
+          "category": "word_confusion",
+          "feedback": "« z, comme zèbre » est le son de ز (zây). Ici, c'est ش (chîn) : ch, comme chat."
+        }
+      ]
     },
     {
       "id": "ar.l03.e02",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.ha"
+        "ar.v.sad"
       ],
       "type": "mcq",
-      "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre est un crochet sans aucun point ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ت",
-        "ج",
-        "ح",
-        "خ"
-      ],
-      "answer": "ح",
-      "acceptedAnswers": [
-        "ح"
-      ],
-      "explanation": "ح est le crochet vide : ni bille dans le creux (ج), ni chapeau dessus (خ).",
-      "tip": "Le crochet vide : rien dedans, rien dessus.",
+      "difficulty": 2,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ص",
+      "promptLanguage": "ar",
+      "explanation": "ص (sâd) se lit s lourd, comme dans sol.",
+      "tip": "ص est le s lourd de س.",
       "extraExample": {
-        "text": "ح",
-        "translation": "ḥâ : un h appuyé, aucun point."
+        "text": "صبر",
+        "translation": "patience : ص au début"
       },
+      "options": [
+        "ch, comme chat",
+        "s, comme soleil",
+        "z, comme zèbre",
+        "s lourd, comme dans sol"
+      ],
+      "answer": "s lourd, comme dans sol",
+      "acceptedAnswers": [
+        "s lourd, comme dans sol"
+      ],
       "errorPatterns": [
         {
-          "equals": "ج",
+          "equals": "s, comme soleil",
           "category": "word_confusion",
-          "feedback": "ج a 1 point dans le creux."
+          "feedback": "« s, comme soleil » est le son de س (sîn). Ici, c'est ص (sâd) : s lourd, comme dans sol."
         },
         {
-          "equals": "خ",
+          "equals": "ch, comme chat",
           "category": "word_confusion",
-          "feedback": "خ a 1 point dessus."
+          "feedback": "« ch, comme chat » est le son de ش (chîn). Ici, c'est ص (sâd) : s lourd, comme dans sol."
+        },
+        {
+          "equals": "z, comme zèbre",
+          "category": "word_confusion",
+          "feedback": "« z, comme zèbre » est le son de ز (zây). Ici, c'est ص (sâd) : s lourd, comme dans sol."
         }
       ]
     },
@@ -73,92 +95,134 @@
       "id": "ar.l03.e03",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.kha"
+        "ar.v.tah"
       ],
       "type": "mcq",
-      "difficulty": 1,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre fait un raclement de gorge, comme le ch allemand de Bach ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ج",
-        "ح",
-        "خ",
-        "ث"
-      ],
-      "answer": "خ",
-      "acceptedAnswers": [
-        "خ"
-      ],
-      "explanation": "خ se lit comme le ch allemand de Bach. Elle porte 1 point dessus, comme un chapeau.",
-      "tip": "Le crochet avec un chapeau (le point dessus).",
+      "difficulty": 2,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ـط",
+      "promptLanguage": "ar",
+      "explanation": "ـط est la forme de la fin de ط (ṭâ) : la forme change, pas le son. ط se lit t lourd, comme dans tôt.",
+      "tip": "ط est le t lourd de ت.",
       "extraExample": {
-        "text": "خ",
-        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
-      }
+        "text": "طيب",
+        "translation": "d'accord : ط au début"
+      },
+      "options": [
+        "s lourd, comme dans sol",
+        "z, comme zèbre",
+        "t, comme table",
+        "t lourd, comme dans tôt"
+      ],
+      "answer": "t lourd, comme dans tôt",
+      "acceptedAnswers": [
+        "t lourd, comme dans tôt"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "t, comme table",
+          "category": "word_confusion",
+          "feedback": "« t, comme table » est le son de ت (tâ). Ici, c'est ط (ṭâ) : t lourd, comme dans tôt."
+        },
+        {
+          "equals": "s lourd, comme dans sol",
+          "category": "word_confusion",
+          "feedback": "« s lourd, comme dans sol » est le son de ص (sâd). Ici, c'est ط (ṭâ) : t lourd, comme dans tôt."
+        },
+        {
+          "equals": "z, comme zèbre",
+          "category": "word_confusion",
+          "feedback": "« z, comme zèbre » est le son de ز (zây). Ici, c'est ط (ṭâ) : t lourd, comme dans tôt."
+        }
+      ]
     },
     {
       "id": "ar.l03.e04",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.jim",
-        "ar.v.ha",
-        "ar.v.kha"
+        "ar.v.ayn"
       ],
-      "type": "match",
-      "difficulty": 1,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie ج, ح et خ à leurs points.",
-      "promptLanguage": "fr",
-      "pairs": [
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ع",
+      "promptLanguage": "ar",
+      "explanation": "ع (aïn) se lit a étranglé, gorge serrée.",
+      "tip": "La gorge serrée : un a étranglé.",
+      "extraExample": {
+        "text": "عيش",
+        "translation": "pain : ع au début"
+      },
+      "options": [
+        "r de gorge, comme dans rouge",
+        "a étranglé, gorge serrée",
+        "h fort, comme sur une vitre",
+        "a long, comme pâte"
+      ],
+      "answer": "a étranglé, gorge serrée",
+      "acceptedAnswers": [
+        "a étranglé, gorge serrée"
+      ],
+      "errorPatterns": [
         {
-          "left": "ج",
-          "right": "1 point dessous"
+          "equals": "r de gorge, comme dans rouge",
+          "category": "word_confusion",
+          "feedback": "« r de gorge, comme dans rouge » est le son de غ (ghaïn). Ici, c'est ع (aïn) : a étranglé, gorge serrée."
         },
         {
-          "left": "ح",
-          "right": "aucun point"
+          "equals": "h fort, comme sur une vitre",
+          "category": "word_confusion",
+          "feedback": "« h fort, comme sur une vitre » est le son de ح (ḥâ). Ici, c'est ع (aïn) : a étranglé, gorge serrée."
         },
         {
-          "left": "خ",
-          "right": "1 point dessus"
+          "equals": "a long, comme pâte",
+          "category": "word_confusion",
+          "feedback": "« a long, comme pâte » est le son de ا (alif). Ici, c'est ع (aïn) : a étranglé, gorge serrée."
         }
-      ],
-      "acceptedAnswers": [],
-      "explanation": "Même crochet, trois places pour le point : dessous (ج), nulle part (ح), dessus (خ)."
+      ]
     },
     {
       "id": "ar.l03.e05",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.kha"
+        "ar.v.ghayn"
       ],
       "type": "mcq",
       "difficulty": 2,
-      "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre a 1 point dessus, sur un crochet ?",
-      "promptLanguage": "fr",
-      "options": [
-        "ح",
-        "ن",
-        "خ",
-        "ج"
-      ],
-      "answer": "خ",
-      "acceptedAnswers": [
-        "خ"
-      ],
-      "explanation": "Le crochet à chapeau est خ. ن a aussi 1 point dessus, mais c'est un bol, pas un crochet.",
-      "tip": "Le crochet avec un chapeau (le point dessus).",
+      "instruction": "Quelle lettre est-ce ?",
+      "prompt": "ـغـ",
+      "promptLanguage": "ar",
+      "explanation": "ـغـ est la forme du milieu de غ (ghaïn) : la forme change, pas le son. غ se lit r de gorge, comme dans rouge.",
+      "tip": "Le r de rouge, au fond de la gorge.",
       "extraExample": {
-        "text": "خ",
-        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
+        "text": "غني",
+        "translation": "riche : غ au début"
       },
+      "options": [
+        "r de gorge, comme dans rouge",
+        "kh, comme dans Bach",
+        "a étranglé, gorge serrée",
+        "r roulé, comme en espagnol"
+      ],
+      "answer": "r de gorge, comme dans rouge",
+      "acceptedAnswers": [
+        "r de gorge, comme dans rouge"
+      ],
       "errorPatterns": [
         {
-          "equals": "ن",
+          "equals": "a étranglé, gorge serrée",
           "category": "word_confusion",
-          "feedback": "ن a bien 1 point dessus, mais sa forme est un bol creux."
+          "feedback": "« a étranglé, gorge serrée » est le son de ع (aïn). Ici, c'est غ (ghaïn) : r de gorge, comme dans rouge."
+        },
+        {
+          "equals": "r roulé, comme en espagnol",
+          "category": "word_confusion",
+          "feedback": "« r roulé, comme en espagnol » est le son de ر (râ). Ici, c'est غ (ghaïn) : r de gorge, comme dans rouge."
+        },
+        {
+          "equals": "kh, comme dans Bach",
+          "category": "word_confusion",
+          "feedback": "« kh, comme dans Bach » est le son de خ (khâ). Ici, c'est غ (ghaïn) : r de gorge, comme dans rouge."
         }
       ]
     },
@@ -166,34 +230,44 @@
       "id": "ar.l03.e06",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.jim"
+        "ar.v.dad"
       ],
       "type": "mcq",
       "difficulty": 2,
       "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre a 1 point dans le creux du crochet ?",
+      "prompt": "Quelle lettre fait le son « d lourd, comme dans dos » ?",
       "promptLanguage": "fr",
-      "options": [
-        "ح",
-        "خ",
-        "ب",
-        "ج"
-      ],
-      "answer": "ج",
-      "acceptedAnswers": [
-        "ج"
-      ],
-      "explanation": "ج a sa bille dans le creux, donc 1 point dessous. ب a aussi 1 point dessous, mais c'est une barque.",
-      "tip": "Un hameçon avec une bille dans le creux.",
+      "explanation": "Le son d lourd, comme dans dos s'écrit ض (dâd).",
+      "tip": "ض est le d lourd de د.",
       "extraExample": {
-        "text": "ج",
-        "translation": "gîm : le g de gâteau, 1 point dessous."
+        "text": "ضد",
+        "translation": "contre : ض au début"
       },
+      "options": [
+        "ص",
+        "ط",
+        "د",
+        "ض"
+      ],
+      "answer": "ض",
+      "acceptedAnswers": [
+        "ض"
+      ],
       "errorPatterns": [
         {
-          "equals": "ب",
+          "equals": "د",
           "category": "word_confusion",
-          "feedback": "ب a bien 1 point dessous, mais c'est une barque, pas un crochet."
+          "feedback": "د (dâl) se lit d, comme dent, pas d lourd, comme dans dos."
+        },
+        {
+          "equals": "ص",
+          "category": "word_confusion",
+          "feedback": "ص (sâd) se lit s lourd, comme dans sol, pas d lourd, comme dans dos."
+        },
+        {
+          "equals": "ط",
+          "category": "word_confusion",
+          "feedback": "ط (ṭâ) se lit t lourd, comme dans tôt, pas d lourd, comme dans dos."
         }
       ]
     },
@@ -201,33 +275,44 @@
       "id": "ar.l03.e07",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.jim"
+        "ar.v.zah"
       ],
-      "type": "fill_blank",
+      "type": "mcq",
       "difficulty": 2,
-      "instruction": "Complète avec le bon mot.",
-      "prompt": "Le point de ج est ___, dans le creux du crochet.",
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Quelle lettre fait le son « z lourd, comme dans zone » ?",
       "promptLanguage": "fr",
-      "options": [
-        "dessous",
-        "au milieu",
-        "dessus"
-      ],
-      "answer": "dessous",
-      "acceptedAnswers": [
-        "dessous"
-      ],
-      "explanation": "Le point de ج est dessous, comme une bille dans une cuillère. Dessus, c'est خ.",
-      "tip": "Un hameçon avec une bille dans le creux.",
+      "explanation": "Le son z lourd, comme dans zone s'écrit ظ (ẓâ).",
+      "tip": "ظ est le z lourd de ز.",
       "extraExample": {
-        "text": "ج",
-        "translation": "gîm : le g de gâteau, 1 point dessous."
+        "text": "حظ",
+        "translation": "chance : ظ à la fin"
       },
+      "options": [
+        "ض",
+        "ز",
+        "ظ",
+        "ط"
+      ],
+      "answer": "ظ",
+      "acceptedAnswers": [
+        "ظ"
+      ],
       "errorPatterns": [
         {
-          "equals": "dessus",
+          "equals": "ز",
           "category": "word_confusion",
-          "feedback": "Dessus, c'est le chapeau de خ."
+          "feedback": "ز (zây) se lit z, comme zèbre, pas z lourd, comme dans zone."
+        },
+        {
+          "equals": "ط",
+          "category": "word_confusion",
+          "feedback": "ط (ṭâ) se lit t lourd, comme dans tôt, pas z lourd, comme dans zone."
+        },
+        {
+          "equals": "ض",
+          "category": "word_confusion",
+          "feedback": "ض (dâd) se lit d lourd, comme dans dos, pas z lourd, comme dans zone."
         }
       ]
     },
@@ -235,61 +320,91 @@
       "id": "ar.l03.e08",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.kha"
-      ],
-      "type": "fill_blank",
-      "difficulty": 2,
-      "instruction": "Complète avec le bon mot.",
-      "prompt": "خ porte 1 point ___, comme un chapeau sur le crochet.",
-      "promptLanguage": "fr",
-      "options": [
-        "dessus",
-        "au milieu",
-        "dessous"
-      ],
-      "answer": "dessus",
-      "acceptedAnswers": [
-        "dessus"
-      ],
-      "explanation": "Le point de خ est dessus, comme un chapeau. Dessous, c'est ج.",
-      "tip": "Le crochet avec un chapeau (le point dessus).",
-      "extraExample": {
-        "text": "خ",
-        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
-      }
-    },
-    {
-      "id": "ar.l03.e09",
-      "unitIds": [
-        "ar.v.ya",
-        "ar.g03.letters3"
+        "ar.v.ayn"
       ],
       "type": "mcq",
       "difficulty": 2,
       "instruction": "Choisis la bonne lettre.",
-      "prompt": "Quelle lettre a 2 points dessous et une queue qui plonge ?",
+      "prompt": "Dans عيش, quelle lettre est au début ?",
       "promptLanguage": "fr",
-      "options": [
-        "ي",
-        "ت",
-        "ن",
-        "ج"
-      ],
-      "answer": "ي",
-      "acceptedAnswers": [
-        "ي"
-      ],
-      "explanation": "ي a 2 points dessous et une queue qui plonge sous la ligne. ت a aussi 2 points, mais dessus.",
-      "tip": "Une queue qui plonge, deux points dessous.",
+      "explanation": "عيش (pain) se lit de droite à gauche : ع puis ي puis ش. La lettre au début est ع.",
+      "tip": "Un mot se lit de droite à gauche : la première lettre est à droite.",
       "extraExample": {
-        "text": "ي",
-        "translation": "yâ : le y de yaourt, 2 points dessous."
+        "text": "عيش",
+        "translation": "pain : ع au début, ش à la fin"
       },
+      "options": [
+        "غ",
+        "ي",
+        "ع",
+        "ش"
+      ],
+      "answer": "ع",
+      "acceptedAnswers": [
+        "ع"
+      ],
+      "hint": "Le début d'un mot est à droite.",
       "errorPatterns": [
         {
-          "equals": "ت",
+          "equals": "ي",
           "category": "word_confusion",
-          "feedback": "ت a 2 points, mais dessus, sur une barque plate."
+          "feedback": "ي est bien dans عيش, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "ش",
+          "category": "word_confusion",
+          "feedback": "ش est bien dans عيش, mais à la fin. Lis de droite à gauche."
+        },
+        {
+          "equals": "غ",
+          "category": "word_confusion",
+          "feedback": "غ n'est pas dans عيش. Lis les lettres de droite à gauche."
+        }
+      ]
+    },
+    {
+      "id": "ar.l03.e09",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.ra"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans صبر, quelle lettre est à la fin ?",
+      "promptLanguage": "fr",
+      "explanation": "صبر (patience) se lit de droite à gauche : ص puis ب puis ر. La lettre à la fin est ر.",
+      "tip": "La dernière lettre est tout à gauche.",
+      "extraExample": {
+        "text": "صبر",
+        "translation": "patience : ص au début, ر à la fin"
+      },
+      "options": [
+        "ز",
+        "ب",
+        "ص",
+        "ر"
+      ],
+      "answer": "ر",
+      "acceptedAnswers": [
+        "ر"
+      ],
+      "hint": "La fin d'un mot est à gauche.",
+      "errorPatterns": [
+        {
+          "equals": "ص",
+          "category": "word_confusion",
+          "feedback": "ص est bien dans صبر, mais au début. Lis de droite à gauche."
+        },
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب est bien dans صبر, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "ز",
+          "category": "word_confusion",
+          "feedback": "ز n'est pas dans صبر. Lis les lettres de droite à gauche."
         }
       ]
     },
@@ -297,330 +412,549 @@
       "id": "ar.l03.e10",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.jim",
-        "ar.v.ha",
-        "ar.v.kha",
-        "ar.v.ba"
+        "ar.v.ayn"
       ],
       "type": "mcq",
-      "difficulty": 2,
-      "instruction": "Trouve l'intruse.",
-      "prompt": "Trois de ces lettres sont des crochets. Laquelle est l'intruse ?",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne forme.",
+      "prompt": "Quelle est la forme de ع au milieu d'un mot ?",
       "promptLanguage": "fr",
-      "options": [
-        "خ",
-        "ج",
-        "ح",
-        "ب"
-      ],
-      "answer": "ب",
-      "acceptedAnswers": [
-        "ب"
-      ],
-      "explanation": "ج, ح et خ sont des crochets. ب est une barque plate : c'est l'intruse.",
-      "tip": "Un hameçon avec une bille dans le creux.",
+      "explanation": "Au milieu d'un mot, ع (aïn) s'accroche des deux côtés : elle devient ـعـ.",
+      "tip": "Au milieu, le trait ـ est des deux côtés de la lettre.",
       "extraExample": {
-        "text": "ج",
-        "translation": "gîm : le g de gâteau, 1 point dessous."
-      }
+        "text": "بعد",
+        "translation": "après : ع au milieu"
+      },
+      "options": [
+        "ـعـ",
+        "ـحـ",
+        "ـغـ",
+        "ـصـ"
+      ],
+      "answer": "ـعـ",
+      "acceptedAnswers": [
+        "ـعـ"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ـغـ",
+          "category": "word_confusion",
+          "feedback": "ـغـ est la forme du milieu de غ (ghaïn), pas de ع."
+        },
+        {
+          "equals": "ـحـ",
+          "category": "word_confusion",
+          "feedback": "ـحـ est la forme du milieu de ح (ḥâ), pas de ع."
+        },
+        {
+          "equals": "ـصـ",
+          "category": "word_confusion",
+          "feedback": "ـصـ est la forme du milieu de ص (sâd), pas de ع."
+        }
+      ]
     },
     {
       "id": "ar.l03.e11",
       "unitIds": [
-        "ar.g03.letters3",
-        "ar.v.ha"
+        "ar.g02.letters2",
+        "ar.v.ra"
       ],
-      "type": "fill_blank",
+      "type": "mcq",
       "difficulty": 2,
-      "instruction": "Complète avec le bon son.",
-      "prompt": "ح est le crochet sans point : elle se lit comme ___.",
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans جزر, quelle lettre est à la fin ?",
       "promptLanguage": "fr",
-      "options": [
-        "un h appuyé",
-        "le g de gâteau",
-        "le n de nuit"
-      ],
-      "answer": "un h appuyé",
-      "acceptedAnswers": [
-        "un h appuyé"
-      ],
-      "explanation": "ح se lit comme un h appuyé, soufflé du fond de la gorge, alors que ج se dit g.",
-      "tip": "Le crochet vide : rien dedans, rien dessus.",
+      "explanation": "جزر (carottes) se lit de droite à gauche : ج puis ز puis ر. La lettre à la fin est ر.",
+      "tip": "La dernière lettre est tout à gauche.",
       "extraExample": {
-        "text": "ح",
-        "translation": "ḥâ : un h appuyé, aucun point."
-      }
+        "text": "جزر",
+        "translation": "carottes : ج au début, ر à la fin"
+      },
+      "options": [
+        "ب",
+        "ر",
+        "ز",
+        "ج"
+      ],
+      "answer": "ر",
+      "acceptedAnswers": [
+        "ر"
+      ],
+      "hint": "La fin d'un mot est à gauche.",
+      "errorPatterns": [
+        {
+          "equals": "ج",
+          "category": "word_confusion",
+          "feedback": "ج est bien dans جزر, mais au début. Lis de droite à gauche."
+        },
+        {
+          "equals": "ز",
+          "category": "word_confusion",
+          "feedback": "ز est bien dans جزر, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "ب n'est pas dans جزر. Lis les lettres de droite à gauche."
+        }
+      ]
     },
     {
       "id": "ar.l03.e12",
       "unitIds": [
-        "ar.g03.letters3",
-        "ar.v.jim"
+        "ar.g01.letters1",
+        "ar.v.ta"
       ],
       "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Choisis le bon son.",
-      "prompt": "En Égypte, comment dit-on la lettre ج ?",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne lettre.",
+      "prompt": "Dans زيت, quelle lettre est à la fin ?",
       "promptLanguage": "fr",
-      "options": [
-        "le n de nuit",
-        "le ch allemand de Bach",
-        "le g de gâteau",
-        "le b de bateau"
-      ],
-      "answer": "le g de gâteau",
-      "acceptedAnswers": [
-        "le g de gâteau"
-      ],
-      "explanation": "En arabe littéraire, ج se dit dj, mais en Égypte on la dit g, comme dans gâteau.",
-      "tip": "Tu dis déjà ce g tous les jours : relie-le au crochet à bille.",
+      "explanation": "زيت (huile) se lit de droite à gauche : ز puis ي puis ت. La lettre à la fin est ت.",
+      "tip": "La dernière lettre est tout à gauche.",
       "extraExample": {
-        "text": "ج",
-        "translation": "gîm : le g de gâteau, 1 point dessous."
-      }
+        "text": "زيت",
+        "translation": "huile : ز au début, ت à la fin"
+      },
+      "options": [
+        "ث",
+        "ز",
+        "ت",
+        "ي"
+      ],
+      "answer": "ت",
+      "acceptedAnswers": [
+        "ت"
+      ],
+      "hint": "La fin d'un mot est à gauche.",
+      "errorPatterns": [
+        {
+          "equals": "ز",
+          "category": "word_confusion",
+          "feedback": "ز est bien dans زيت, mais au début. Lis de droite à gauche."
+        },
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "ي est bien dans زيت, mais au milieu. Lis de droite à gauche."
+        },
+        {
+          "equals": "ث",
+          "category": "word_confusion",
+          "feedback": "ث n'est pas dans زيت. Lis les lettres de droite à gauche."
+        }
+      ]
     },
     {
       "id": "ar.l03.e13",
       "unitIds": [
-        "ar.v.ta",
-        "ar.g03.letters3"
+        "ar.g03.letters3",
+        "ar.v.ayn"
       ],
-      "type": "mcq",
+      "type": "fill_blank",
       "difficulty": 3,
-      "instruction": "Choisis les bons points.",
-      "prompt": "Quels points porte la lettre ت ?",
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "___ـيش (pain)",
       "promptLanguage": "fr",
-      "options": [
-        "3 points dessus",
-        "2 points dessus",
-        "1 point dessous",
-        "2 points dessous"
-      ],
-      "answer": "2 points dessus",
-      "acceptedAnswers": [
-        "2 points dessus"
-      ],
-      "explanation": "ت porte 2 points dessus, comme deux mouettes. Avec 2 points dessous, ce serait ي.",
-      "tip": "Deux mouettes sur la barque.",
+      "explanation": "عيش (pain) s'écrit : ع ي ش. Il manquait ع, qui se lit a étranglé, gorge serrée.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
       "extraExample": {
-        "text": "ت",
-        "translation": "tâ : le t de table, 2 points dessus."
+        "text": "عيش",
+        "translation": "pain"
       },
+      "options": [
+        "ع",
+        "س",
+        "ص",
+        "غ"
+      ],
+      "answer": "ع",
+      "acceptedAnswers": [
+        "ع"
+      ],
       "errorPatterns": [
         {
-          "equals": "2 points dessous",
+          "equals": "غ",
           "category": "word_confusion",
-          "feedback": "2 points dessous, c'est ي, la lettre à queue."
+          "feedback": "Avec غ (r de gorge, comme dans rouge), on n'écrit pas « pain » : il faut ع."
+        },
+        {
+          "equals": "س",
+          "category": "word_confusion",
+          "feedback": "Avec س (s, comme soleil), on n'écrit pas « pain » : il faut ع."
+        },
+        {
+          "equals": "ص",
+          "category": "word_confusion",
+          "feedback": "Avec ص (s lourd, comme dans sol), on n'écrit pas « pain » : il faut ع."
         }
       ]
     },
     {
       "id": "ar.l03.e14",
       "unitIds": [
-        "ar.v.tha",
-        "ar.g03.letters3"
+        "ar.g03.letters3",
+        "ar.v.ba"
       ],
-      "type": "mcq",
+      "type": "fill_blank",
       "difficulty": 3,
-      "instruction": "Devine la lettre.",
-      "prompt": "Qui suis-je ? « Je suis une barque avec trois mouettes sur ma coque. »",
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "صـ___ـر (patience)",
       "promptLanguage": "fr",
+      "explanation": "صبر (patience) s'écrit : ص ب ر. Il manquait ب, qui se lit b, comme bateau.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
+      "extraExample": {
+        "text": "صبر",
+        "translation": "patience"
+      },
       "options": [
-        "ث",
-        "ت",
+        "ب",
         "ن",
+        "ي",
+        "ت"
+      ],
+      "answer": "ب",
+      "acceptedAnswers": [
         "ب"
       ],
-      "answer": "ث",
-      "acceptedAnswers": [
-        "ث"
-      ],
-      "explanation": "Trois mouettes, ce sont 3 points dessus : c'est ث.",
-      "tip": "Trois mouettes en triangle sur la barque.",
-      "extraExample": {
-        "text": "ث",
-        "translation": "thâ : un t, parfois un s, 3 points dessus."
-      }
+      "errorPatterns": [
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "Avec ت (t, comme table), on n'écrit pas « patience » : il faut ب."
+        },
+        {
+          "equals": "ن",
+          "category": "word_confusion",
+          "feedback": "Avec ن (n, comme nuit), on n'écrit pas « patience » : il faut ب."
+        },
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "Avec ي (y ou i long, comme yaourt), on n'écrit pas « patience » : il faut ب."
+        }
+      ]
     },
     {
       "id": "ar.l03.e15",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.kha"
+        "ar.v.nun"
       ],
-      "type": "mcq",
+      "type": "fill_blank",
       "difficulty": 3,
-      "instruction": "Devine la lettre.",
-      "prompt": "Qui suis-je ? « Je suis un crochet coiffé d'un point, et je racle la gorge. »",
+      "instruction": "Complète le mot avec la bonne lettre.",
+      "prompt": "غـ___ـي (riche)",
       "promptLanguage": "fr",
-      "options": [
-        "ن",
-        "ج",
-        "خ",
-        "ح"
-      ],
-      "answer": "خ",
-      "acceptedAnswers": [
-        "خ"
-      ],
-      "explanation": "Un crochet avec un point dessus, qui racle la gorge comme le ch de Bach : c'est خ.",
-      "tip": "Le crochet avec un chapeau (le point dessus).",
+      "explanation": "غني (riche) s'écrit : غ ن ي. Il manquait ن, qui se lit n, comme nuit.",
+      "tip": "Dis le mot à voix haute : quel son manque ?",
       "extraExample": {
-        "text": "خ",
-        "translation": "khâ : le ch allemand de Bach, 1 point dessus."
-      }
+        "text": "غني",
+        "translation": "riche"
+      },
+      "options": [
+        "ب",
+        "ي",
+        "ت",
+        "ن"
+      ],
+      "answer": "ن",
+      "acceptedAnswers": [
+        "ن"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "ب",
+          "category": "word_confusion",
+          "feedback": "Avec ب (b, comme bateau), on n'écrit pas « riche » : il faut ن."
+        },
+        {
+          "equals": "ي",
+          "category": "word_confusion",
+          "feedback": "Avec ي (y ou i long, comme yaourt), on n'écrit pas « riche » : il faut ن."
+        },
+        {
+          "equals": "ت",
+          "category": "word_confusion",
+          "feedback": "Avec ت (t, comme table), on n'écrit pas « riche » : il faut ن."
+        }
+      ]
     },
     {
       "id": "ar.l03.e16",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.jim"
+        "ar.v.sin",
+        "ar.v.shin",
+        "ar.v.sad",
+        "ar.v.dad",
+        "ar.v.tah"
       ],
-      "type": "mcq",
-      "difficulty": 3,
-      "instruction": "Choisis le bon nom.",
-      "prompt": "Quel est le nom de la lettre ج ?",
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Relie chaque lettre à son son.",
+      "prompt": "Relie chaque lettre à son son : س ش ص ض ط",
       "promptLanguage": "fr",
-      "options": [
-        "tâ",
-        "gîm",
-        "nûn",
-        "bâ"
+      "pairs": [
+        {
+          "left": "س",
+          "right": "s, comme soleil"
+        },
+        {
+          "left": "ش",
+          "right": "ch, comme chat"
+        },
+        {
+          "left": "ص",
+          "right": "s lourd, comme dans sol"
+        },
+        {
+          "left": "ض",
+          "right": "d lourd, comme dans dos"
+        },
+        {
+          "left": "ط",
+          "right": "t lourd, comme dans tôt"
+        }
       ],
-      "answer": "gîm",
-      "acceptedAnswers": [
-        "gîm"
-      ],
-      "explanation": "ج s'appelle gîm en Égypte. Son nom commence par son son, le g de gâteau.",
-      "tip": "Un hameçon avec une bille dans le creux.",
-      "extraExample": {
-        "text": "ج",
-        "translation": "gîm : le g de gâteau, 1 point dessous."
-      }
+      "answer": "س = s, comme soleil ; ش = ch, comme chat ; ص = s lourd, comme dans sol ; ض = d lourd, comme dans dos ; ط = t lourd, comme dans tôt",
+      "acceptedAnswers": [],
+      "explanation": "Lis la lettre, entends le son : س = s, comme soleil ; ش = ch, comme chat ; ص = s lourd, comme dans sol ; ض = d lourd, comme dans dos ; ط = t lourd, comme dans tôt."
     },
     {
       "id": "ar.l03.e17",
       "unitIds": [
-        "ar.v.ba",
-        "ar.v.ta",
-        "ar.v.tha",
-        "ar.v.nun",
-        "ar.v.ya",
-        "ar.g03.letters3"
+        "ar.g03.letters3",
+        "ar.v.zah",
+        "ar.v.ayn",
+        "ar.v.ghayn",
+        "ar.v.jim",
+        "ar.v.kha"
       ],
       "type": "match",
-      "difficulty": 3,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie ب, ت, ث, ن et ي à leurs points.",
+      "difficulty": 2,
+      "instruction": "Relie chaque lettre à son son.",
+      "prompt": "Relie chaque lettre à son son : ظ ع غ ج خ",
       "promptLanguage": "fr",
       "pairs": [
         {
-          "left": "ب",
-          "right": "1 point dessous"
+          "left": "ظ",
+          "right": "z lourd, comme dans zone"
         },
         {
-          "left": "ت",
-          "right": "2 points dessus"
+          "left": "ع",
+          "right": "a étranglé, gorge serrée"
         },
         {
-          "left": "ث",
-          "right": "3 points dessus"
+          "left": "غ",
+          "right": "r de gorge, comme dans rouge"
         },
         {
-          "left": "ن",
-          "right": "1 point dessus"
+          "left": "ج",
+          "right": "g, comme gâteau"
         },
         {
-          "left": "ي",
-          "right": "2 points dessous"
+          "left": "خ",
+          "right": "kh, comme dans Bach"
         }
       ],
+      "answer": "ظ = z lourd, comme dans zone ; ع = a étranglé, gorge serrée ; غ = r de gorge, comme dans rouge ; ج = g, comme gâteau ; خ = kh, comme dans Bach",
       "acceptedAnswers": [],
-      "explanation": "Cinq lettres de la famille des points : le nombre ET la place les distinguent."
+      "explanation": "Lis la lettre, entends le son : ظ = z lourd, comme dans zone ; ع = a étranglé, gorge serrée ; غ = r de gorge, comme dans rouge ; ج = g, comme gâteau ; خ = kh, comme dans Bach."
     },
     {
       "id": "ar.l03.e18",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.jim",
-        "ar.v.ha",
-        "ar.v.kha",
-        "ar.v.nun"
+        "ar.v.shin",
+        "ar.v.alif",
+        "ar.v.ya"
       ],
       "type": "match",
-      "difficulty": 3,
-      "instruction": "Relie chaque élément à son associé.",
-      "prompt": "Relie ج, ح, خ et ن à leur son.",
+      "difficulty": 2,
+      "instruction": "Relie chaque mot à son sens.",
+      "prompt": "Relie chaque mot à son sens : شاي عيش شارع عيد غني",
       "promptLanguage": "fr",
       "pairs": [
         {
-          "left": "ج",
-          "right": "le g de gâteau"
+          "left": "شاي",
+          "right": "thé"
         },
         {
-          "left": "ح",
-          "right": "un h appuyé"
+          "left": "عيش",
+          "right": "pain"
         },
         {
-          "left": "خ",
-          "right": "le ch allemand de Bach"
+          "left": "شارع",
+          "right": "rue"
         },
         {
-          "left": "ن",
-          "right": "le n de nuit"
+          "left": "عيد",
+          "right": "fête"
+        },
+        {
+          "left": "غني",
+          "right": "riche"
         }
       ],
+      "answer": "شاي = thé ; عيش = pain ; شارع = rue ; عيد = fête ; غني = riche",
       "acceptedAnswers": [],
-      "explanation": "Trois crochets, trois sons de gorge ou de bouche : g, h appuyé, ch de Bach. ن est le n de nuit."
+      "explanation": "Ces mots viennent de la carte « Des mots à lire » : شاي = thé ; عيش = pain ; شارع = rue ; عيد = fête ; غني = riche."
     },
     {
       "id": "ar.l03.e19",
       "unitIds": [
-        "ar.g03.letters3",
-        "ar.v.ha"
+        "ar.g02.letters2",
+        "ar.v.jim",
+        "ar.v.zay",
+        "ar.v.ra"
       ],
-      "type": "free_answer",
+      "type": "match",
       "difficulty": 2,
-      "instruction": "Écris le nombre.",
-      "prompt": "Combien de points a la lettre ح ? Réponds avec un chiffre.",
+      "instruction": "Relie chaque mot à son sens.",
+      "prompt": "Relie chaque mot à son sens : جزر ذنب جار حب خير",
       "promptLanguage": "fr",
-      "answer": "0",
-      "acceptedAnswers": [
-        "0",
-        "zéro",
-        "aucun"
+      "pairs": [
+        {
+          "left": "جزر",
+          "right": "carottes"
+        },
+        {
+          "left": "ذنب",
+          "right": "péché"
+        },
+        {
+          "left": "جار",
+          "right": "voisin"
+        },
+        {
+          "left": "حب",
+          "right": "amour"
+        },
+        {
+          "left": "خير",
+          "right": "le bien"
+        }
       ],
-      "explanation": "ح est le crochet vide : aucun point. C'est ce qui la distingue de ج et de خ.",
-      "tip": "Le crochet vide : rien dedans, rien dessus.",
-      "extraExample": {
-        "text": "ح",
-        "translation": "ḥâ : un h appuyé, aucun point."
-      }
+      "answer": "جزر = carottes ; ذنب = péché ; جار = voisin ; حب = amour ; خير = le bien",
+      "acceptedAnswers": [],
+      "explanation": "Ces mots viennent de la carte « Des mots à lire » : جزر = carottes ; ذنب = péché ; جار = voisin ; حب = amour ; خير = le bien."
     },
     {
       "id": "ar.l03.e20",
       "unitIds": [
         "ar.g03.letters3",
-        "ar.v.jim"
+        "ar.v.sin",
+        "ar.v.shin",
+        "ar.v.sad"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Relie chaque lettre à sa forme du début.",
+      "prompt": "Relie chaque lettre à sa forme du début : س ش ص ط ع",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "س",
+          "right": "سـ"
+        },
+        {
+          "left": "ش",
+          "right": "شـ"
+        },
+        {
+          "left": "ص",
+          "right": "صـ"
+        },
+        {
+          "left": "ط",
+          "right": "طـ"
+        },
+        {
+          "left": "ع",
+          "right": "عـ"
+        }
+      ],
+      "answer": "س = سـ ; ش = شـ ; ص = صـ ; ط = طـ ; ع = عـ",
+      "acceptedAnswers": [],
+      "explanation": "La forme du début s'accroche à la lettre suivante : le trait ـ est à gauche. Même lettre, seule la forme change."
+    },
+    {
+      "id": "ar.l03.e21",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.shin"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Écris le sens en français.",
+      "prompt": "شارع",
+      "promptLanguage": "ar",
+      "explanation": "شارع veut dire « rue » : tu l'as lu dans la carte « Des mots à lire ».",
+      "tip": "Lis lettre par lettre, de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "شاي",
+        "translation": "thé : un autre mot du quotidien"
+      },
+      "answer": "rue",
+      "acceptedAnswers": [
+        "rue",
+        "la rue",
+        "une rue"
+      ]
+    },
+    {
+      "id": "ar.l03.e22",
+      "unitIds": [
+        "ar.g03.letters3",
+        "ar.v.tah"
       ],
       "type": "free_answer",
       "difficulty": 3,
-      "instruction": "Écris le nom de la lettre.",
-      "prompt": "Comment s'appelle la lettre qui fait le son g en Égypte ?",
+      "instruction": "Écris la réponse en français.",
+      "prompt": "Que signifie طيب ?",
       "promptLanguage": "fr",
-      "answer": "gîm",
-      "acceptedAnswers": [
-        "gîm",
-        "gim",
-        "jîm",
-        "jim"
-      ],
-      "explanation": "La lettre ج s'appelle gîm en Égypte (jîm en arabe littéraire).",
-      "tip": "Un hameçon avec une bille dans le creux.",
+      "explanation": "طيب veut dire « d'accord » : c'est un des mots de la carte « Des mots à lire ».",
+      "tip": "Épelle les lettres de droite à gauche, puis dis le mot.",
       "extraExample": {
-        "text": "ج",
-        "translation": "gîm : le g de gâteau, 1 point dessous."
-      }
+        "text": "طيب",
+        "translation": "d'accord : on le dit à chaque conversation"
+      },
+      "answer": "d'accord",
+      "acceptedAnswers": [
+        "d'accord",
+        "daccord",
+        "d accord",
+        "ok",
+        "okay",
+        "bon",
+        "bien",
+        "ça marche"
+      ]
+    },
+    {
+      "id": "ar.l03.e23",
+      "unitIds": [
+        "ar.g01.letters1",
+        "ar.v.ba"
+      ],
+      "type": "translation",
+      "difficulty": 3,
+      "instruction": "Écris le sens en français.",
+      "prompt": "بحر",
+      "promptLanguage": "ar",
+      "explanation": "بحر veut dire « mer » : tu l'as lu dans la carte « Des mots à lire ».",
+      "tip": "Lis lettre par lettre, de droite à gauche, puis dis le mot.",
+      "extraExample": {
+        "text": "بحر",
+        "translation": "mer : ح au milieu"
+      },
+      "answer": "mer",
+      "acceptedAnswers": [
+        "mer",
+        "la mer",
+        "une mer"
+      ]
     }
   ]
 }

@@ -106,7 +106,7 @@
    "acceptedAnswers": [
     "maison"
    ],
-   "explanation": "Lettre par lettre : ب (1 point dessous), ي (2 points dessous), ت (2 points dessus) donne بيت, « maison ». Les deux points sous le ي du milieu séparent بيت de بنت.",
+   "explanation": "Lettre par lettre : ب, ي, ت donne بيت, « maison ». La lettre du milieu, ي, le distingue de بنت.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "بيتنا قريب من الكنيسة.",
@@ -151,13 +151,13 @@
    "acceptedAnswers": [
     "fille"
    ],
-   "explanation": "Lettre par lettre : ب (1 point dessous), ن (1 point dessus), ت (2 points dessus) donne بنت, « fille ». Au milieu, un seul point dessus : ـنـ.",
+   "explanation": "Lettre par lettre : ب, ن, ت donne بنت, « fille ». La lettre du milieu, ن, la distingue de بيت.",
    "tip": "Lis de droite à gauche, lettre après lettre, puis dis le mot à voix haute.",
    "extraExample": {
     "text": "البنت دي شاطرة.",
     "translation": "Cette fille est douée."
    },
-   "hint": "Regarde les points de la lettre du milieu.",
+   "hint": "Regarde la lettre du milieu.",
    "errorPatterns": [
     {
      "equals": "maison",
@@ -197,8 +197,8 @@
    "acceptedAnswers": [
     "تين"
    ],
-   "explanation": "« figues » s'écrit ت + ي + ن : تين. Trois dents de suite : ت (2 points dessus), ي (2 points dessous), ن (1 point dessus).",
-   "tip": "Compare les points et les attaches, lettre par lettre.",
+   "explanation": "« figues » s'écrit ت + ي + ن : تين. Trois lettres attachées, lues de droite à gauche.",
+   "tip": "Repère la première lettre de chaque option, puis lis le mot en entier.",
    "extraExample": {
     "text": "عايز كيلو تين.",
     "translation": "Je voudrais un kilo de figues."
@@ -322,44 +322,46 @@
    "type": "mcq",
    "unitIds": [
     "ar.g09.forms_ba_family",
-    "ar.v.ya"
+    "ar.v.tinnin",
+    "ar.v.bayna",
+    "ar.v.tin"
    ],
-   "difficulty": 3,
-   "instruction": "Choisis la bonne dent.",
-   "prompt": "Au milieu d'un mot, laquelle de ces dents a deux points dessous ?",
-   "promptLanguage": "fr",
-   "answer": "ـيـ",
+   "difficulty": 2,
+   "instruction": "Lis la ligne et choisis son sens.",
+   "prompt": "تنين بين تين",
+   "promptLanguage": "ar",
+   "answer": "un dragon entre les figues",
    "acceptedAnswers": [
-    "ـيـ"
+    "un dragon entre les figues"
    ],
-   "explanation": "Deux points dessous : c'est le ي. ـبـ en a un seul dessous, ـتـ en a deux mais dessus, ـنـ en a un dessus.",
-   "tip": "Dessous ou dessus ? Un, deux ou trois ? Compte toujours.",
+   "explanation": "Lis un mot à la fois, de droite à gauche : تنين (dragon), بين (entre), تين (figues). La ligne dit : un dragon entre les figues.",
+   "tip": "Une ligne se lit comme un mot : de droite à gauche, un mot après l'autre.",
    "extraExample": {
-    "text": "بيت",
-    "translation": "maison"
+    "text": "التنين في الحدوتة بينفخ نار.",
+    "translation": "Le dragon de l'histoire crache du feu."
    },
    "errorPatterns": [
     {
-     "equals": "ـبـ",
-     "category": "spelling",
-     "feedback": "ـبـ n'a qu'un point dessous."
+     "equals": "une fille entre les figues",
+     "category": "word_confusion",
+     "feedback": "« une fille entre les figues » s'écrirait بنت بين تين. Ici le premier mot est تنين : un dragon."
     },
     {
-     "equals": "ـتـ",
-     "category": "spelling",
-     "feedback": "ـتـ a deux points, mais dessus."
+     "equals": "un prophète entre les figues",
+     "category": "word_confusion",
+     "feedback": "« un prophète entre les figues » s'écrirait نبي بين تين. Ici le premier mot est تنين : un dragon."
     },
     {
-     "equals": "ـنـ",
-     "category": "spelling",
-     "feedback": "ـنـ n'a qu'un point, dessus."
+     "equals": "un dragon entre des grains de café",
+     "category": "word_confusion",
+     "feedback": "« des grains de café » s'écrit بن. Ici le dernier mot est تين : les figues."
     }
    ],
    "options": [
-    "ـبـ",
-    "ـتـ",
-    "ـنـ",
-    "ـيـ"
+    "un dragon entre les figues",
+    "une fille entre les figues",
+    "un prophète entre les figues",
+    "un dragon entre des grains de café"
    ]
   },
   {
@@ -377,8 +379,8 @@
    "acceptedAnswers": [
     "ي"
    ],
-   "explanation": "Pour « maison », il faut deux points dessous au milieu : ب + ي + ت = بيت. Avec ن on lirait بنت (fille).",
-   "tip": "Maison : deux points dessous. Fille : un point dessus.",
+   "explanation": "بيت (« maison ») s'écrit ب + ي + ت : la lettre qui manque, au milieu du mot, est ي.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "بيت",
     "translation": "maison"
@@ -387,7 +389,17 @@
     {
      "equals": "ن",
      "category": "word_confusion",
-     "feedback": "بنت veut dire « fille ». Pour « maison », le milieu a deux points dessous : ي."
+     "feedback": "Avec ن, on lirait بنت (« fille »), pas « maison ». Pour « maison », la lettre au milieu est ي."
+    },
+    {
+     "equals": "ث",
+     "category": "spelling",
+     "feedback": "Avec ث, on lirait بثت : ce n'est pas « maison ». Pour « maison », la lettre au milieu est ي."
+    },
+    {
+     "equals": "ب",
+     "category": "spelling",
+     "feedback": "Avec ب, on lirait ببت : ce n'est pas « maison ». Pour « maison », la lettre au milieu est ي."
     }
    ],
    "options": [
@@ -412,8 +424,8 @@
    "acceptedAnswers": [
     "ب"
    ],
-   "explanation": "نبي s'écrit ن + ب + ي : au milieu, la dent ـبـ n'a qu'un seul point, dessous.",
-   "tip": "Compte les points de la dent du milieu.",
+   "explanation": "نبي (« prophète ») s'écrit ن + ب + ي : la lettre qui manque, au milieu du mot, est ب.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "نبي",
     "translation": "prophète"
@@ -422,7 +434,17 @@
     {
      "equals": "ت",
      "category": "spelling",
-     "feedback": "ت a deux points dessus ; ici il y a un seul point dessous : ب."
+     "feedback": "Avec ت, on lirait نتي : ce n'est pas « prophète ». Pour « prophète », la lettre au milieu est ب."
+    },
+    {
+     "equals": "ن",
+     "category": "spelling",
+     "feedback": "Avec ن, on lirait نني : ce n'est pas « prophète ». Pour « prophète », la lettre au milieu est ب."
+    },
+    {
+     "equals": "ث",
+     "category": "spelling",
+     "feedback": "Avec ث, on lirait نثي : ce n'est pas « prophète ». Pour « prophète », la lettre au milieu est ب."
     }
    ],
    "options": [
@@ -447,8 +469,8 @@
    "acceptedAnswers": [
     "ت"
    ],
-   "explanation": "بنت finit par ت : deux points dessus. ث en aurait trois, ي deux mais dessous.",
-   "tip": "À la fin, ت a deux points dessus.",
+   "explanation": "بنت (« fille ») s'écrit ب + ن + ت : la lettre qui manque, à la fin du mot, est ت.",
+   "tip": "Essaie chaque option dans le mot : une seule donne un mot que tu connais.",
    "extraExample": {
     "text": "بنت",
     "translation": "fille"
@@ -457,12 +479,17 @@
     {
      "equals": "ث",
      "category": "spelling",
-     "feedback": "ث a trois points dessus, ت en a deux."
+     "feedback": "Avec ث, on lirait بنث : ce n'est pas « fille ». Pour « fille », la lettre à la fin est ت."
     },
     {
      "equals": "ي",
      "category": "spelling",
-     "feedback": "ي a deux points dessous, ت deux points dessus."
+     "feedback": "Avec ي, on lirait بني : ce n'est pas « fille ». Pour « fille », la lettre à la fin est ت."
+    },
+    {
+     "equals": "ن",
+     "category": "spelling",
+     "feedback": "Avec ن, on lirait بنن : ce n'est pas « fille ». Pour « fille », la lettre à la fin est ت."
     }
    ],
    "options": [
@@ -489,7 +516,7 @@
    "promptLanguage": "fr",
    "answer": "بيت = maison ; بنت = fille ; تين = figues ; نبي = prophète ; بن = café (grains)",
    "acceptedAnswers": [],
-   "explanation": "Lis chaque mot lettre par lettre : les points te disent qui est qui, comme بيت (maison) et بنت (fille).",
+   "explanation": "Lis chaque mot d'un trait, de droite à gauche : la lettre du milieu sépare بيت (maison) de بنت (fille).",
    "pairs": [
     {
      "left": "بيت",
@@ -530,7 +557,7 @@
    "promptLanguage": "fr",
    "answer": "ب = بـ ; ت = تـ ; ث = ثـ ; ن = نـ ; ي = يـ",
    "acceptedAnswers": [],
-   "explanation": "La forme du début garde la lettre et ses points, et ajoute le trait ـ à gauche.",
+   "explanation": "La forme du début garde la lettre et ajoute le trait ـ à gauche.",
    "pairs": [
     {
      "left": "ب",
@@ -569,7 +596,7 @@
    "promptLanguage": "fr",
    "answer": "بيت = ي ; بنت = ن ; نبي = ب",
    "acceptedAnswers": [],
-   "explanation": "Au milieu, c'est la dent qui compte : بيت a ـيـ (2 points dessous), بنت a ـنـ (1 point dessus), نبي a ـبـ (1 point dessous).",
+   "explanation": "Au milieu, c'est le mot qui t'aide : بيت a un ي au milieu, بنت un ن, نبي un ب.",
    "pairs": [
     {
      "left": "بيت",
@@ -602,8 +629,8 @@
     "un dragon",
     "le dragon"
    ],
-   "explanation": "تنين = ت + ن + ي + ن : quatre dents, c'est le dragon. Ne le confonds pas avec تين (figues), qui a une dent de moins.",
-   "tip": "Compte les dents : quatre pour le dragon, trois pour les figues.",
+   "explanation": "تنين = ت + ن + ي + ن : quatre lettres attachées, c'est le dragon. Ne le confonds pas avec تين (figues), qui est plus court.",
+   "tip": "Quatre lettres pour le dragon, trois pour les figues.",
    "extraExample": {
     "text": "تنين",
     "translation": "dragon"
@@ -632,7 +659,7 @@
     "entre"
    ],
    "explanation": "بين = ب + ي + ن. Même squelette que بيت, mais avec ن à la fin : c'est « entre ».",
-   "tip": "بين finit par ن (1 point dessus), بيت par ت (2 points dessus).",
+   "tip": "بين finit par ن, بيت par ت.",
    "extraExample": {
     "text": "بين",
     "translation": "entre"
@@ -665,7 +692,7 @@
     "un prophete",
     "le prophete"
    ],
-   "explanation": "نبي = ن + ب + ي : un prophète. Les trois lettres sont attachées en un seul bloc.",
+   "explanation": "نبي = ن + ب + ي : un prophète. Les trois lettres sont attachées d'une seule traite.",
    "tip": "Lis de droite à gauche : ن, puis ب, puis ي.",
    "extraExample": {
     "text": "النبي داود كتب المزامير.",
@@ -690,8 +717,8 @@
     "la fille",
     "petite fille"
    ],
-   "explanation": "بنت = ب + ن + ت : une fille. Le milieu ـنـ a un point dessus, pas deux points dessous.",
-   "tip": "Un point dessus au milieu : c'est بنت.",
+   "explanation": "بنت = ب + ن + ت : une fille. La lettre du milieu est un ن, pas un ي.",
+   "tip": "Une fille : un ن au milieu.",
    "extraExample": {
     "text": "عندي بنتين.",
     "translation": "J'ai deux filles."
@@ -700,7 +727,7 @@
     {
      "equals": "maison",
      "category": "word_confusion",
-     "feedback": "maison = بيت : deux points dessous au milieu. Ici le milieu a un point dessus."
+     "feedback": "« maison » s'écrit بيت : la lettre du milieu est ي. Ici c'est un ن."
     }
    ]
   },
@@ -708,86 +735,90 @@
    "id": "ar.l09.e19",
    "type": "mcq",
    "unitIds": [
-    "ar.v.ya"
+    "ar.v.ya",
+    "ar.g09.forms_ba_family",
+    "ar.v.nabi"
    ],
    "difficulty": 1,
-   "instruction": "Choisis la bonne lettre.",
-   "prompt": "Laquelle de ces lettres a ses deux points sous la barque ?",
+   "instruction": "Repère la lettre dans le mot.",
+   "prompt": "Quelle lettre est à la fin de نبي ?",
    "promptLanguage": "fr",
    "answer": "ي",
    "acceptedAnswers": [
     "ي"
    ],
-   "explanation": "ي a deux points sous sa courbe. ب n'en a qu'un dessous, ت en a deux mais dessus, ن un seul dessus.",
-   "tip": "Dessous ou dessus, un, deux ou trois : compte toujours.",
+   "explanation": "On lit نبي (« prophète ») de droite à gauche : ن puis ب puis ي. La lettre à la fin est ي.",
+   "tip": "Le début d'un mot arabe est à droite, la fin est à gauche.",
    "extraExample": {
-    "text": "بيت",
-    "translation": "maison"
+    "text": "إيليا نبي كبير في الكتاب المقدس.",
+    "translation": "Élie est un grand prophète dans la Bible."
    },
    "errorPatterns": [
     {
+     "equals": "ن",
+     "category": "instruction",
+     "feedback": "ن est bien dans نبي, mais au début, pas à la fin."
+    },
+    {
      "equals": "ب",
-     "category": "spelling",
-     "feedback": "ب n'a qu'un point, dessous."
+     "category": "instruction",
+     "feedback": "ب est bien dans نبي, mais au milieu, pas à la fin."
     },
     {
      "equals": "ت",
      "category": "spelling",
-     "feedback": "ت a deux points, mais dessus."
-    },
-    {
-     "equals": "ن",
-     "category": "spelling",
-     "feedback": "ن n'a qu'un point, dessus."
+     "feedback": "Il n'y a pas de ت dans نبي. Lis le mot de droite à gauche : ن puis ب puis ي."
     }
    ],
    "options": [
+    "ن",
     "ب",
     "ت",
-    "ي",
-    "ن"
+    "ي"
    ]
   },
   {
    "id": "ar.l09.e20",
    "type": "mcq",
    "unitIds": [
-    "ar.v.tha"
+    "ar.v.ta",
+    "ar.g09.forms_ba_family",
+    "ar.v.tinnin"
    ],
-   "difficulty": 1,
-   "instruction": "Choisis la bonne lettre.",
-   "prompt": "Laquelle de ces lettres est coiffée de trois points ?",
+   "difficulty": 2,
+   "instruction": "Repère la lettre dans le mot.",
+   "prompt": "Quelle lettre est au début de تنين ?",
    "promptLanguage": "fr",
-   "answer": "ث",
+   "answer": "ت",
    "acceptedAnswers": [
-    "ث"
+    "ت"
    ],
-   "explanation": "ث porte trois points au-dessus : c'est la seule de la famille ب ت ث ن ي à en avoir trois.",
-   "tip": "Trois points dessus = ث.",
+   "explanation": "On lit تنين (« dragon ») de droite à gauche : ت puis ن puis ي puis ن. La lettre au début est ت.",
+   "tip": "Le début d'un mot arabe est à droite, la fin est à gauche.",
    "extraExample": {
-    "text": "ثلاثة",
-    "translation": "trois"
+    "text": "مارجرجس قتل التنين.",
+    "translation": "Saint Georges a tué le dragon."
    },
    "errorPatterns": [
     {
-     "equals": "ت",
+     "equals": "ث",
      "category": "spelling",
-     "feedback": "ت n'a que deux points."
+     "feedback": "Il n'y a pas de ث dans تنين. Lis le mot de droite à gauche : ت puis ن puis ي puis ن."
     },
     {
      "equals": "ن",
-     "category": "spelling",
-     "feedback": "ن n'a qu'un point."
+     "category": "instruction",
+     "feedback": "ن est bien dans تنين, mais au milieu et à la fin, pas au début."
     },
     {
      "equals": "ي",
-     "category": "spelling",
-     "feedback": "ي a deux points, dessous."
+     "category": "instruction",
+     "feedback": "ي est bien dans تنين, mais au milieu, pas au début."
     }
    ],
    "options": [
-    "ث",
     "ت",
+    "ث",
     "ن",
     "ي"
    ]
@@ -796,44 +827,40 @@
    "id": "ar.l09.e21",
    "type": "mcq",
    "unitIds": [
-    "ar.v.alif"
+    "ar.v.ya",
+    "ar.g09.forms_ba_family",
+    "ar.v.tin"
    ],
-   "difficulty": 1,
-   "instruction": "Choisis la bonne lettre.",
-   "prompt": "Parmi ces lettres, laquelle n'a aucun point ?",
+   "difficulty": 2,
+   "instruction": "Où est la lettre ?",
+   "prompt": "Où se trouve le ي dans تين ?",
    "promptLanguage": "fr",
-   "answer": "ا",
+   "answer": "au milieu",
    "acceptedAnswers": [
-    "ا"
+    "au milieu"
    ],
-   "explanation": "ا (alif) est un simple bâton, sans point. ب, ث et ي portent des points.",
-   "tip": "Un bâton tout droit, sans point : c'est l'alif.",
+   "explanation": "تين (« figues ») se lit ت puis ي puis ن : le ي est au milieu.",
+   "tip": "Le début d'un mot arabe est à droite, la fin est à gauche.",
    "extraExample": {
-    "text": "باب",
-    "translation": "porte"
+    "text": "التين حلو أوي.",
+    "translation": "Les figues sont très sucrées."
    },
    "errorPatterns": [
     {
-     "equals": "ب",
-     "category": "spelling",
-     "feedback": "ب a un point dessous."
+     "equals": "au début",
+     "category": "instruction",
+     "feedback": "Dans تين, le ي n'est pas au début : il est au milieu. Lis à partir de la droite : ت puis ي puis ن."
     },
     {
-     "equals": "ث",
-     "category": "spelling",
-     "feedback": "ث a trois points dessus."
-    },
-    {
-     "equals": "ي",
-     "category": "spelling",
-     "feedback": "ي a deux points dessous."
+     "equals": "à la fin",
+     "category": "instruction",
+     "feedback": "Dans تين, le ي n'est pas à la fin : il est au milieu. Lis à partir de la droite : ت puis ي puis ن."
     }
    ],
    "options": [
-    "ب",
-    "ا",
-    "ث",
-    "ي"
+    "au début",
+    "au milieu",
+    "à la fin"
    ]
   },
   {
@@ -842,37 +869,31 @@
    "unitIds": [
     "ar.v.ba",
     "ar.v.ta",
-    "ar.v.tha",
     "ar.v.nun",
-    "ar.v.ya"
+    "ar.g09.forms_ba_family",
+    "ar.v.bayt",
+    "ar.v.tin",
+    "ar.v.nabi"
    ],
    "difficulty": 2,
-   "instruction": "Associe chaque lettre à ses points.",
-   "prompt": "Les points des lettres ب ت ث ن ي",
+   "instruction": "Associe chaque mot à sa première lettre.",
+   "prompt": "Premières lettres : maison, figues, prophète",
    "promptLanguage": "fr",
-   "answer": "ب = 1 point dessous ; ت = 2 points dessus ; ث = 3 points dessus ; ن = 1 point dessus ; ي = 2 points dessous",
+   "answer": "بيت = ب ; تين = ت ; نبي = ن",
    "acceptedAnswers": [],
-   "explanation": "Les points font la différence entre ces cinq lettres qui ont la même dent.",
+   "explanation": "On lit de droite à gauche, donc la première lettre est celle de droite : بيت → ب, تين → ت, نبي → ن.",
    "pairs": [
     {
-     "left": "ب",
-     "right": "1 point dessous"
+     "left": "بيت",
+     "right": "ب"
     },
     {
-     "left": "ت",
-     "right": "2 points dessus"
+     "left": "تين",
+     "right": "ت"
     },
     {
-     "left": "ث",
-     "right": "3 points dessus"
-    },
-    {
-     "left": "ن",
-     "right": "1 point dessus"
-    },
-    {
-     "left": "ي",
-     "right": "2 points dessous"
+     "left": "نبي",
+     "right": "ن"
     }
    ]
   }

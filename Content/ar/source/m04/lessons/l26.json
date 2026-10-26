@@ -89,40 +89,40 @@
     "ar.v.telifun"
    ],
    "difficulty": 2,
-   "instruction": "Choisis la bonne réponse.",
-   "prompt": "En combien de blocs se coupe تليفون ?",
+   "instruction": "Repère la lettre dans le mot.",
+   "prompt": "Dans تليفون, quelle lettre est à la fin ?",
    "promptLanguage": "fr",
    "options": [
-    "un",
-    "deux",
-    "trois",
-    "quatre"
+    "ن",
+    "ت",
+    "ف",
+    "و"
    ],
-   "answer": "deux",
+   "answer": "ن",
    "acceptedAnswers": [
-    "deux"
+    "ن"
    ],
-   "explanation": "Le و ferme le premier bloc : تليفو | ن. Il reste le ن seul : deux blocs.",
-   "tip": "Compte les ا د ذ ر ز و : chacun ferme un bloc.",
+   "explanation": "تليفون (téléphone) finit par ن, sous sa forme de fin ـن. ت est au début, ف et و au milieu.",
+   "tip": "La fin du mot, c'est la lettre la plus à gauche.",
    "extraExample": {
-    "text": "جامعة",
-    "translation": "جا | معة : deux blocs"
+    "text": "تليفزيون",
+    "translation": "télévision : finit aussi par ن"
    },
    "errorPatterns": [
     {
-     "equals": "un",
+     "equals": "ت",
      "category": "spelling",
-     "feedback": "Le و ferme un bloc au milieu du mot : il y en a donc plus d'un."
+     "feedback": "ت est au début de تليفون (à droite), pas à la fin."
     },
     {
-     "equals": "trois",
+     "equals": "ف",
      "category": "spelling",
-     "feedback": "Il n'y a qu'une coupure, après le و : تليفو | ن, deux blocs."
+     "feedback": "ف est au milieu de تليفون ; la dernière lettre est ن."
     },
     {
-     "equals": "quatre",
+     "equals": "و",
      "category": "spelling",
-     "feedback": "Il n'y a qu'une coupure, après le و : تليفو | ن, deux blocs."
+     "feedback": "و est juste avant la fin ; la dernière lettre est ن."
     }
    ]
   },
@@ -798,32 +798,33 @@
     "ar.v.al_katidraiya"
    ],
    "difficulty": 3,
-   "instruction": "Écris la réponse en français.",
-   "prompt": "Combien de blocs compte الكاتدرائية ?",
+   "instruction": "Lis le mot et écris son sens en français.",
+   "prompt": "Que veut dire الكاتدرائية ?",
    "promptLanguage": "fr",
-   "answer": "six",
+   "answer": "la cathédrale",
    "acceptedAnswers": [
-    "six",
-    "6",
-    "six blocs",
-    "6 blocs"
+    "la cathédrale",
+    "cathédrale",
+    "une cathédrale",
+    "la cathedrale",
+    "cathedrale"
    ],
-   "explanation": "Chaque ا, د, ر ferme un bloc, et le dernier bloc ئية termine le mot : ا | لكا | تد | ر | ا | ئية, six blocs.",
-   "tip": "Pose un trait après chaque ا د ر, puis compte les morceaux.",
+   "explanation": "الكاتدرائية, c'est la cathédrale : ال (la) + كاتدرائية. Un mot long se lit morceau par morceau.",
+   "tip": "Repère d'abord ال au début, puis lis le reste lentement.",
    "extraExample": {
-    "text": "القاهرة",
-    "translation": "ا | لقا | هر | ة : quatre blocs"
+    "text": "الكاتدرائية المرقسية",
+    "translation": "la cathédrale Saint-Marc (au Caire)"
    },
    "errorPatterns": [
     {
-     "equals": "cinq",
+     "equals": "église",
      "category": "vocabulary",
-     "feedback": "Tu as oublié le dernier bloc ئية : il y en a six."
+     "feedback": "Presque : c'est la cathédrale, la grande église de l'évêque."
     },
     {
-     "equals": "5",
+     "equals": "l'église",
      "category": "vocabulary",
-     "feedback": "Tu as oublié le dernier bloc ئية : il y en a six."
+     "feedback": "Presque : c'est la cathédrale, la grande église de l'évêque."
     }
    ]
   },

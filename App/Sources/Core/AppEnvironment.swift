@@ -137,6 +137,12 @@ final class AppEnvironment {
             local.wipeSubjects(["ar", "cg"])
             UserDefaults.standard.set(true, forKey: resetKey)
         }
+        // v3.1: the Arabic letters were regrouped into 4 fast lessons (no more questions on dots): Arabic restarts once.
+        let arabicResetKey = "quinze.v31.arabicReset"
+        if !UserDefaults.standard.bool(forKey: arabicResetKey) {
+            local.wipeSubjects(["ar"])
+            UserDefaults.standard.set(true, forKey: arabicResetKey)
+        }
         await content.loadAll(configuration: engineConfiguration(for:))
         attachContent()
         applySpeechPreferences()

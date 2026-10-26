@@ -410,8 +410,8 @@
     "ar.g25.syllabes"
    ],
    "difficulty": 1,
-   "instruction": "Choisis la bonne lettre.",
-   "prompt": "Quelle lettre est un bâton droit, sans point, qui donne un a long ?",
+   "instruction": "Repère la lettre dans le mot.",
+   "prompt": "Dans باب, quelle lettre est au milieu ?",
    "promptLanguage": "fr",
    "options": [
     "ل",
@@ -423,27 +423,27 @@
    "acceptedAnswers": [
     "ا"
    ],
-   "explanation": "ا (alif) est le bâton droit sans point : la balise du a long. ل a aussi un bâton, mais avec un pied qui tourne.",
-   "tip": "Alif = un poteau planté sur la ligne.",
+   "explanation": "باب (porte) se lit ب + ا + ب : la lettre du milieu est ا (alif), le a long.",
+   "tip": "Lis lettre par lettre, de droite à gauche : début, milieu, fin.",
    "extraExample": {
-    "text": "باب",
-    "translation": "porte : le ا au milieu"
+    "text": "نار",
+    "translation": "feu : ا au milieu aussi"
    },
    "errorPatterns": [
     {
-     "equals": "ل",
-     "category": "spelling",
-     "feedback": "ل a un bâton, mais avec un pied courbé vers la gauche."
-    },
-    {
      "equals": "ب",
      "category": "spelling",
-     "feedback": "ب est la barque avec un point dessous."
+     "feedback": "ب est au début et à la fin de باب, pas au milieu."
+    },
+    {
+     "equals": "ل",
+     "category": "spelling",
+     "feedback": "Il n'y a pas de ل dans باب : au milieu, c'est le bâton ا."
     },
     {
      "equals": "ر",
      "category": "spelling",
-     "feedback": "ر est un petit crochet qui descend sous la ligne."
+     "feedback": "Il n'y a pas de ر dans باب : au milieu, c'est ا."
     }
    ]
   },

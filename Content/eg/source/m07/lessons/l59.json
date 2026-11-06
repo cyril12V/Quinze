@@ -1,0 +1,766 @@
+{
+ "lessonId": "eg.l59",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.joseph_smith",
+    "eg.v.william_miller",
+    "eg.v.ellen_white",
+    "eg.v.moroni"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui est qui ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Joseph Smith",
+     "right": "fondateur des mormons"
+    },
+    {
+     "left": "Moroni",
+     "right": "l'ange des plaques d'or"
+    },
+    {
+     "left": "William Miller",
+     "right": "annonce le retour du Christ en 1844"
+    },
+    {
+     "left": "Ellen White",
+     "right": "prophétesse adventiste"
+    }
+   ],
+   "answer": "Joseph Smith = fondateur des mormons ; Moroni = l'ange des plaques d'or ; William Miller = annonce le retour du Christ en 1844 ; Ellen White = prophétesse adventiste",
+   "acceptedAnswers": [],
+   "explanation": "Deux noms pour les mormons, deux pour les adventistes.",
+   "tip": "Smith, Moroni / Miller, White.",
+   "id": "eg.l59.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.mormons"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En quelle année Joseph Smith publie-t-il le Livre de Mormon et fonde-t-il l'Église ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1830",
+    "1844",
+    "1863",
+    "1890"
+   ],
+   "answer": "1830",
+   "acceptedAnswers": [
+    "1830"
+   ],
+   "explanation": "Le Livre de Mormon est publié et l'Église est fondée en 1830, dans l'État de New York.",
+   "tip": "1830 : mormons.",
+   "extraExample": {
+    "text": "1844 : Grande Déception.",
+    "translation": "1863 : Église adventiste."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1844",
+     "category": "word_confusion",
+     "feedback": "1844 est la Grande Déception des adventistes."
+    },
+    {
+     "equals": "1863",
+     "category": "word_confusion",
+     "feedback": "1863 est l'organisation de l'Église adventiste."
+    }
+   ],
+   "id": "eg.l59.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.livre_de_mormon"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel livre les mormons ajoutent-ils à la Bible ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Livre de Mormon",
+    "Le Coran",
+    "Le Livre d'Hénoch",
+    "Les 95 thèses"
+   ],
+   "answer": "Le Livre de Mormon",
+   "acceptedAnswers": [
+    "Le Livre de Mormon"
+   ],
+   "explanation": "Les mormons y voient une autre Écriture. Pour nous, la Bible est complète.",
+   "tip": "Mormon : un livre de plus.",
+   "extraExample": {
+    "text": "Ils ont aussi Doctrine et Alliances.",
+    "translation": "Et la Perle de grand prix."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les 95 thèses",
+     "category": "word_confusion",
+     "feedback": "Les 95 thèses sont de Luther."
+    }
+   ],
+   "id": "eg.l59.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.moroni"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel ange aurait indiqué les plaques d'or à Joseph Smith ?",
+   "promptLanguage": "fr",
+   "hint": "Son nom commence par M.",
+   "answer": "Moroni",
+   "acceptedAnswers": [
+    "Moroni",
+    "l'ange Moroni"
+   ],
+   "explanation": "Selon Joseph Smith, l'ange Moroni lui apparaît en 1823.",
+   "tip": "Moroni : plaques d'or.",
+   "extraExample": {
+    "text": "Une statue de Moroni orne les temples mormons.",
+    "translation": "Elle tient une trompette."
+   },
+   "id": "eg.l59.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.mormons"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que croient les mormons sur Dieu ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Père, le Fils et le Saint-Esprit sont trois êtres distincts",
+    "Dieu est un seul être en trois personnes de même nature",
+    "Dieu est seulement une force",
+    "Le Fils est inférieur au Père et créé"
+   ],
+   "answer": "Le Père, le Fils et le Saint-Esprit sont trois êtres distincts",
+   "acceptedAnswers": [
+    "Le Père, le Fils et le Saint-Esprit sont trois êtres distincts"
+   ],
+   "explanation": "Les mormons parlent de trois êtres distincts. Nous croyons à un seul Dieu en trois personnes de même nature.",
+   "tip": "Trois êtres ≠ une essence.",
+   "extraExample": {
+    "text": "Nicée affirme la consubstantialité.",
+    "translation": "C'est le mot clé de 325."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dieu est un seul être en trois personnes de même nature",
+     "category": "word_confusion",
+     "feedback": "C'est la foi de l'Église copte, pas celle des mormons."
+    }
+   ],
+   "id": "eg.l59.e05"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.mormons"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la foi de l'Église copte sur Dieu ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un seul Dieu en trois personnes de même nature",
+    "Trois êtres distincts",
+    "Un seul Dieu en une personne",
+    "Deux dieux"
+   ],
+   "answer": "Un seul Dieu en trois personnes de même nature",
+   "acceptedAnswers": [
+    "Un seul Dieu en trois personnes de même nature"
+   ],
+   "explanation": "La Trinité : un seul Dieu, trois personnes de même nature.",
+   "tip": "Trinité : 1 Dieu, 3 personnes.",
+   "extraExample": {
+    "text": "C'est la foi de Nicée.",
+    "translation": "Elle est dans le Credo."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Trois êtres distincts",
+     "category": "word_confusion",
+     "feedback": "C'est la doctrine mormone."
+    }
+   ],
+   "id": "eg.l59.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.livre_de_mormon"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les mormons ajoutent à la Bible le Livre de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Mormon",
+    "Moroni",
+    "Daniel",
+    "Hénoch"
+   ],
+   "answer": "Mormon",
+   "acceptedAnswers": [
+    "Mormon"
+   ],
+   "explanation": "Le Livre de Mormon est leur écriture propre.",
+   "tip": "Mormon : le livre.",
+   "extraExample": {
+    "text": "Moroni est l'ange.",
+    "translation": "Mormon est le nom du livre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Moroni",
+     "category": "word_confusion",
+     "feedback": "Moroni est l'ange, non le livre."
+    }
+   ],
+   "id": "eg.l59.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.mormons"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Jusqu'en quelle année la polygamie a-t-elle été pratiquée par les mormons ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1890",
+    "1830",
+    "1844",
+    "1950"
+   ],
+   "answer": "1890",
+   "acceptedAnswers": [
+    "1890"
+   ],
+   "explanation": "La polygamie, pratiquée au XIXe siècle, a été abandonnée en 1890.",
+   "tip": "1890 : fin de la polygamie.",
+   "extraExample": {
+    "text": "Elle n'est plus pratiquée par l'Église.",
+    "translation": "Quelques groupes séparés la continuent."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1830",
+     "category": "word_confusion",
+     "feedback": "1830 est la fondation de l'Église."
+    }
+   ],
+   "id": "eg.l59.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.grande_deception"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "La Grande Déception a lieu en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1844",
+    "1830",
+    "1863",
+    "1914"
+   ],
+   "answer": "1844",
+   "acceptedAnswers": [
+    "1844"
+   ],
+   "explanation": "Le 22 octobre 1844, le Christ n'est pas venu comme Miller l'annonçait.",
+   "tip": "1844 : déception.",
+   "extraExample": {
+    "text": "1914 est une date des témoins de Jéhovah.",
+    "translation": "Ne pas confondre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1863",
+     "category": "word_confusion",
+     "feedback": "1863 est l'Église adventiste."
+    }
+   ],
+   "id": "eg.l59.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.william_miller"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel verset de Jésus dit que nul ne connaît le jour ni l'heure ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Matthieu 24, 36",
+    "Luc 23, 43",
+    "Jude 3",
+    "Actes 20, 7"
+   ],
+   "answer": "Matthieu 24, 36",
+   "acceptedAnswers": [
+    "Matthieu 24, 36"
+   ],
+   "explanation": "Jésus dit : « Quant à ce jour et à cette heure, personne ne les connaît » (Matthieu 24, 36).",
+   "tip": "24, 36 : pas de date.",
+   "extraExample": {
+    "text": "Miller a pourtant annoncé une date.",
+    "translation": "L'échec a prouvé la parole de Jésus."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Luc 23, 43",
+     "category": "word_confusion",
+     "feedback": "Luc 23, 43 est la parole au bon larron."
+    }
+   ],
+   "id": "eg.l59.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.grande_deception"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on l'échec de la prédiction de 1844 ?",
+   "promptLanguage": "fr",
+   "hint": "Deux mots, le premier commence par G.",
+   "answer": "la Grande Déception",
+   "acceptedAnswers": [
+    "la Grande Déception",
+    "Grande Déception"
+   ],
+   "explanation": "Le 22 octobre 1844, des milliers d'adventistes attendaient le retour du Christ.",
+   "tip": "Grande Déception : 1844.",
+   "extraExample": {
+    "text": "On parle aussi de Great Disappointment.",
+    "translation": "Ellen White apparaît après."
+   },
+   "id": "eg.l59.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.ellen_white"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui est Ellen White ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Prophétesse et cofondatrice de l'Église adventiste",
+    "La fondatrice des mormons",
+    "Une sainte copte",
+    "La fondatrice de la Science chrétienne"
+   ],
+   "answer": "Prophétesse et cofondatrice de l'Église adventiste",
+   "acceptedAnswers": [
+    "Prophétesse et cofondatrice de l'Église adventiste"
+   ],
+   "explanation": "Ellen White (1827-1915) dit avoir reçu des visions et guide l'Église adventiste.",
+   "tip": "White : adventistes.",
+   "extraExample": {
+    "text": "Eddy est la fondatrice de la Science chrétienne.",
+    "translation": "Smith celui des mormons."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La fondatrice de la Science chrétienne",
+     "category": "word_confusion",
+     "feedback": "La fondatrice est Mary Baker Eddy."
+    }
+   ],
+   "id": "eg.l59.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.adventistes"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En quelle année l'Église adventiste du septième jour est-elle organisée ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1863",
+    "1830",
+    "1844",
+    "1875"
+   ],
+   "answer": "1863",
+   "acceptedAnswers": [
+    "1863"
+   ],
+   "explanation": "L'Église adventiste est organisée en 1863 à Battle Creek.",
+   "tip": "1863 : adventistes.",
+   "extraExample": {
+    "text": "1844 est la déception.",
+    "translation": "1875 est la publication de Science et Santé."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1844",
+     "category": "word_confusion",
+     "feedback": "1844 est la Grande Déception, avant l'organisation de l'Église."
+    }
+   ],
+   "id": "eg.l59.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.sabbat_du_samedi"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel jour les adventistes observent-ils le sabbat ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le samedi",
+    "Le dimanche",
+    "Le vendredi",
+    "Le lundi"
+   ],
+   "answer": "Le samedi",
+   "acceptedAnswers": [
+    "Le samedi"
+   ],
+   "explanation": "Les adventistes du septième jour observent le samedi comme jour de repos.",
+   "tip": "Septième jour = samedi.",
+   "extraExample": {
+    "text": "L'Église copte célèbre le dimanche.",
+    "translation": "Jour de la Résurrection."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le dimanche",
+     "category": "word_confusion",
+     "feedback": "C'est le jour chrétien traditionnel, celui de l'Église copte."
+    }
+   ],
+   "id": "eg.l59.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.adventistes"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que croient les adventistes sur les morts ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les morts dorment jusqu'à la résurrection",
+    "Les morts vont au purgatoire",
+    "Les morts se réincarnent",
+    "Les morts intercèdent"
+   ],
+   "answer": "Les morts dorment jusqu'à la résurrection",
+   "acceptedAnswers": [
+    "Les morts dorment jusqu'à la résurrection"
+   ],
+   "explanation": "Pour les adventistes, il n'y a pas de vie consciente entre la mort et la résurrection.",
+   "tip": "Mort = sommeil.",
+   "extraExample": {
+    "text": "Ils rejettent aussi l'enfer éternel.",
+    "translation": "Nous croyons à la vie des saints dès maintenant."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les morts vont au purgatoire",
+     "category": "word_confusion",
+     "feedback": "C'est la doctrine catholique, non adventiste."
+    }
+   ],
+   "id": "eg.l59.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.sabbat_du_samedi"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les Coptes célèbrent le jour du Seigneur le ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "dimanche",
+    "samedi",
+    "vendredi"
+   ],
+   "answer": "dimanche",
+   "acceptedAnswers": [
+    "dimanche"
+   ],
+   "explanation": "Le dimanche, jour de la Résurrection (Actes 20, 7).",
+   "tip": "Dimanche : Résurrection.",
+   "extraExample": {
+    "text": "Les premiers chrétiens se réunissaient le premier jour de la semaine.",
+    "translation": "Actes 20, 7."
+   },
+   "id": "eg.l59.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle parole de Jésus montre que les saints sont déjà avec lui ?",
+   "promptLanguage": "fr",
+   "options": [
+    "« Aujourd'hui tu seras avec moi dans le paradis »",
+    "« Tu es Pierre »",
+    "« Laissez venir à moi les petits enfants »",
+    "« Je suis le chemin »"
+   ],
+   "answer": "« Aujourd'hui tu seras avec moi dans le paradis »",
+   "acceptedAnswers": [
+    "« Aujourd'hui tu seras avec moi dans le paradis »"
+   ],
+   "explanation": "Luc 23, 43 : Jésus promet au bon larron le paradis le jour même.",
+   "tip": "Aujourd'hui = tout de suite.",
+   "extraExample": {
+    "text": "Les adventistes lisent autrement ce verset.",
+    "translation": "La virgule change le sens."
+   },
+   "errorPatterns": [
+    {
+     "equals": "« Tu es Pierre »",
+     "category": "word_confusion",
+     "feedback": "Cette parole concerne Pierre, non les morts."
+    }
+   ],
+   "id": "eg.l59.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : les groupes américains.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "adventistes",
+    "nés",
+    "États-Unis",
+    "au",
+    "mormons",
+    "et",
+    "les",
+    "siècle",
+    "sont",
+    "aux",
+    "XIXe",
+    "Les"
+   ],
+   "answer": "Les mormons et les adventistes sont nés aux États-Unis au XIXe siècle",
+   "acceptedAnswers": [
+    "Les mormons et les adventistes sont nés aux États-Unis au XIXe siècle"
+   ],
+   "explanation": "Les mormons et les adventistes sont nés aux États-Unis au XIXe siècle.",
+   "tip": "XIXe, États-Unis.",
+   "extraExample": {
+    "text": "Les témoins de Jéhovah aussi.",
+    "translation": "Et la Science chrétienne."
+   },
+   "id": "eg.l59.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les dates des groupes américains",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1830",
+     "right": "fondation de l'Église mormone"
+    },
+    {
+     "left": "1844",
+     "right": "la Grande Déception"
+    },
+    {
+     "left": "1863",
+     "right": "l'Église adventiste est organisée"
+    },
+    {
+     "left": "1890",
+     "right": "fin de la polygamie mormone"
+    }
+   ],
+   "answer": "1830 = fondation de l'Église mormone ; 1844 = la Grande Déception ; 1863 = l'Église adventiste est organisée ; 1890 = fin de la polygamie mormone",
+   "acceptedAnswers": [],
+   "explanation": "Quatre dates à retenir.",
+   "tip": "1830, 1844, 1863, 1890.",
+   "id": "eg.l59.e19"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.deux_sacrements"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Combien de sacrements la plupart des protestants gardent-ils ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Deux",
+    "Sept",
+    "Trois",
+    "Aucun"
+   ],
+   "answer": "Deux",
+   "acceptedAnswers": [
+    "Deux"
+   ],
+   "explanation": "La plupart des protestants gardent le baptême et la Cène.",
+   "tip": "2 contre 7.",
+   "extraExample": {
+    "text": "Les Coptes en ont sept.",
+    "translation": "Les catholiques aussi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sept",
+     "category": "word_confusion",
+     "feedback": "Sept est le nombre des Coptes et des catholiques."
+    }
+   ],
+   "id": "eg.l59.e20"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.reforme"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — La Réforme commence en ___ avec Luther.",
+   "promptLanguage": "fr",
+   "options": [
+    "1517",
+    "1054",
+    "1830",
+    "1870"
+   ],
+   "answer": "1517",
+   "acceptedAnswers": [
+    "1517"
+   ],
+   "explanation": "Luther affiche ses 95 thèses en 1517 : début de la Réforme.",
+   "tip": "1517 : Luther.",
+   "extraExample": {
+    "text": "Le mot « protestant » vient de Spire, en 1529.",
+    "translation": "La Réforme se répand vite."
+   },
+   "id": "eg.l59.e21"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.immaculee_conception"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quel dogme sur Marie Pie IX définit-il en 1854 ?",
+   "promptLanguage": "fr",
+   "hint": "Elle commence par I.",
+   "answer": "Immaculée Conception",
+   "acceptedAnswers": [
+    "Immaculée Conception",
+    "l'Immaculée Conception"
+   ],
+   "explanation": "Pie IX définit l'Immaculée Conception de Marie en 1854.",
+   "tip": "1854 : Marie.",
+   "extraExample": {
+    "text": "Elle concerne la conception de Marie.",
+    "translation": "Jésus est né d'une vierge."
+   },
+   "id": "eg.l59.e22"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.pape"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Pour les catholiques, le pape est le successeur de saint ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Pierre",
+    "Marc",
+    "Paul",
+    "Jean"
+   ],
+   "answer": "Pierre",
+   "acceptedAnswers": [
+    "Pierre"
+   ],
+   "explanation": "Le pape de Rome est le successeur de saint Pierre ; le pape d'Alexandrie, de saint Marc.",
+   "tip": "Pierre → Rome ; Marc → Alexandrie.",
+   "extraExample": {
+    "text": "Matthieu 16, 18.",
+    "translation": "« Tu es Pierre »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Marc",
+     "category": "word_confusion",
+     "feedback": "Saint Marc est à l'origine de l'Église d'Alexandrie."
+    }
+   ],
+   "id": "eg.l59.e23"
+  }
+ ]
+}

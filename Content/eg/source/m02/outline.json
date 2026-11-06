@@ -1,554 +1,548 @@
 {
-  "module": {
-    "id": 2,
-    "title": "Le deuxième siècle",
-    "description": "Les apôtres ont disparu : comment l'Église garde sa foi (succession, Pères apostoliques, apologistes, canon) et face à quelles hérésies et persécutions."
+ "module": {
+  "id": 2,
+  "title": "Le deuxième siècle",
+  "description": "Les apôtres ont disparu : comment l'Église garde sa foi (succession, Pères apostoliques, apologistes, canon) et face à quelles hérésies et persécutions."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g09.releve_des_apotres",
+   "category": "knowledge",
+   "title": "La relève des apôtres et la défense de la foi",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
   },
-  "grammarUnits": [
+  {
+   "id": "eg.g10.sieges_apostoliques",
+   "category": "knowledge",
+   "title": "Les quatre sièges apostoliques",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g09.releve_des_apotres"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g11.peres_apostoliques",
+   "category": "knowledge",
+   "title": "Les Pères apostoliques",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g10.sieges_apostoliques"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g12.persecutions_ichthus",
+   "category": "knowledge",
+   "title": "Les persécutions du IIe siècle et le poisson ICHTHYS",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g11.peres_apostoliques"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g13.apologistes",
+   "category": "knowledge",
+   "title": "Les apologistes : Justin et Tertullien",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g12.persecutions_ichthus"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g14.gnosticisme_docetisme",
+   "category": "knowledge",
+   "title": "Gnosticisme et docétisme",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g13.apologistes"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g15.marcion_montan",
+   "category": "knowledge",
+   "title": "Marcionisme et montanisme",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g14.gnosticisme_docetisme"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g16.canon_regle_de_foi",
+   "category": "knowledge",
+   "title": "Canon, règle de foi et Alexandrie de Démétrios",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g15.marcion_montan"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l09",
+   "sequence": 9,
+   "title": "Les apôtres ne sont plus là",
+   "description": "Comprendre pourquoi, au IIe siècle, l'Église doit défendre sa foi, et sur quoi elle s'appuie : Écritures, tradition, succession apostolique.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g09.releve_des_apotres",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
     {
-      "id": "eg.g09.releve_des_apotres",
-      "category": "knowledge",
-      "title": "La relève des apôtres et la défense de la foi",
-      "difficulty": 2,
-      "prerequisites": [],
-      "functionWords": []
+     "word": "la sainte tradition",
+     "slug": "sainte_tradition",
+     "translation": "enseignement transmis par les apôtres de vive voix et par la vie de l'Église",
+     "partOfSpeech": "concept"
     },
     {
-      "id": "eg.g10.sieges_apostoliques",
-      "category": "knowledge",
-      "title": "Les quatre sièges apostoliques",
-      "difficulty": 2,
-      "prerequisites": [
-        "eg.g09.releve_des_apotres"
-      ],
-      "functionWords": []
+     "word": "le dépôt de la foi",
+     "slug": "depot_de_la_foi",
+     "translation": "la foi reçue des apôtres, confiée à l'Église pour qu'elle la garde intacte",
+     "partOfSpeech": "concept"
     },
     {
-      "id": "eg.g11.peres_apostoliques",
-      "category": "knowledge",
-      "title": "Les Pères apostoliques",
-      "difficulty": 2,
-      "prerequisites": [
-        "eg.g10.sieges_apostoliques"
-      ],
-      "functionWords": []
+     "word": "un évêque",
+     "slug": "eveque",
+     "translation": "responsable d'une Église locale, successeur des apôtres",
+     "partOfSpeech": "person"
     },
     {
-      "id": "eg.g12.persecutions_ichthus",
-      "category": "knowledge",
-      "title": "Les persécutions du IIe siècle et le poisson ICHTHYS",
-      "difficulty": 2,
-      "prerequisites": [
-        "eg.g11.peres_apostoliques"
-      ],
-      "functionWords": []
+     "word": "les Écritures",
+     "slug": "ecritures",
+     "translation": "les livres saints reçus par l'Église : Ancien et Nouveau Testament",
+     "partOfSpeech": "work"
     },
     {
-      "id": "eg.g13.apologistes",
-      "category": "knowledge",
-      "title": "Les apologistes : Justin et Tertullien",
-      "difficulty": 2,
-      "prerequisites": [
-        "eg.g12.persecutions_ichthus"
-      ],
-      "functionWords": []
-    },
-    {
-      "id": "eg.g14.gnosticisme_docetisme",
-      "category": "knowledge",
-      "title": "Gnosticisme et docétisme",
-      "difficulty": 3,
-      "prerequisites": [
-        "eg.g13.apologistes"
-      ],
-      "functionWords": []
-    },
-    {
-      "id": "eg.g15.marcion_montan",
-      "category": "knowledge",
-      "title": "Marcionisme et montanisme",
-      "difficulty": 3,
-      "prerequisites": [
-        "eg.g14.gnosticisme_docetisme"
-      ],
-      "functionWords": []
-    },
-    {
-      "id": "eg.g16.canon_regle_de_foi",
-      "category": "knowledge",
-      "title": "Canon, règle de foi et Alexandrie de Démétrios",
-      "difficulty": 3,
-      "prerequisites": [
-        "eg.g15.marcion_montan"
-      ],
-      "functionWords": []
+     "word": "une doctrine",
+     "slug": "doctrine",
+     "translation": "un enseignement sur la foi",
+     "partOfSpeech": "concept"
     }
-  ],
-  "lessons": [
+   ]
+  },
+  {
+   "id": "eg.l10",
+   "sequence": 10,
+   "title": "Les quatre sièges apostoliques",
+   "description": "Rome, Alexandrie, Antioche, Jérusalem : pourquoi ces Églises ont une autorité particulière, et qui les a fondées.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g10.sieges_apostoliques",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g09.releve_des_apotres"
+   ],
+   "vocabulary": [
     {
-      "id": "eg.l09",
-      "sequence": 9,
-      "title": "Les apôtres ne sont plus là",
-      "description": "Comprendre pourquoi, au IIe siècle, l'Église doit défendre sa foi, et sur quoi elle s'appuie : Écritures, tradition, succession apostolique.",
-      "difficulty": 2,
-      "grammarUnitId": "eg.g09.releve_des_apotres",
-      "introducesGrammar": true,
-      "reviews": [],
-      "vocabulary": [
-        {
-          "word": "la sainte tradition",
-          "slug": "sainte_tradition",
-          "translation": "enseignement transmis par les apôtres de vive voix et par la vie de l'Église",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "le dépôt de la foi",
-          "slug": "depot_de_la_foi",
-          "translation": "la foi reçue des apôtres, confiée à l'Église pour qu'elle la garde intacte",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "un évêque",
-          "slug": "eveque",
-          "translation": "responsable d'une Église locale, successeur des apôtres",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "les Écritures",
-          "slug": "ecritures",
-          "translation": "les livres saints reçus par l'Église : Ancien et Nouveau Testament",
-          "partOfSpeech": "work"
-        },
-        {
-          "word": "une doctrine",
-          "slug": "doctrine",
-          "translation": "un enseignement sur la foi",
-          "partOfSpeech": "concept"
-        }
-      ]
+     "word": "le siège de Rome",
+     "slug": "siege_de_rome",
+     "translation": "Église fondée par les apôtres Pierre et Paul",
+     "partOfSpeech": "organization"
     },
     {
-      "id": "eg.l10",
-      "sequence": 10,
-      "title": "Les quatre sièges apostoliques",
-      "description": "Rome, Alexandrie, Antioche, Jérusalem : pourquoi ces Églises ont une autorité particulière, et qui les a fondées.",
-      "difficulty": 2,
-      "grammarUnitId": "eg.g10.sieges_apostoliques",
-      "introducesGrammar": true,
-      "reviews": [
-        "eg.g09.releve_des_apotres"
-      ],
-      "vocabulary": [
-        {
-          "word": "le siège de Rome",
-          "slug": "siege_de_rome",
-          "translation": "Église fondée par les apôtres Pierre et Paul",
-          "partOfSpeech": "organization"
-        },
-        {
-          "word": "le siège d'Alexandrie",
-          "slug": "siege_d_alexandrie",
-          "translation": "Église fondée par saint Marc, celle des Coptes",
-          "partOfSpeech": "organization"
-        },
-        {
-          "word": "le siège d'Antioche",
-          "slug": "siege_d_antioche",
-          "translation": "Église de Syrie rattachée à l'apôtre Pierre",
-          "partOfSpeech": "organization"
-        },
-        {
-          "word": "le siège de Jérusalem",
-          "slug": "siege_de_jerusalem",
-          "translation": "première Église, née autour des apôtres, avec saint Jacques",
-          "partOfSpeech": "organization"
-        },
-        {
-          "word": "saint Marc",
-          "slug": "saint_marc",
-          "translation": "évangéliste, fondateur de l'Église d'Alexandrie",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "le pape d'Alexandrie",
-          "slug": "pape_d_alexandrie",
-          "translation": "titre de l'évêque d'Alexandrie, chef de l'Église copte",
-          "partOfSpeech": "person"
-        }
-      ]
+     "word": "le siège d'Alexandrie",
+     "slug": "siege_d_alexandrie",
+     "translation": "Église fondée par saint Marc, celle des Coptes",
+     "partOfSpeech": "organization"
     },
     {
-      "id": "eg.l11",
-      "sequence": 11,
-      "title": "Clément, Ignace, Polycarpe : les Pères apostoliques",
-      "description": "Trois évêques proches des apôtres qui transmettent la foi par leurs lettres.",
-      "difficulty": 2,
-      "grammarUnitId": "eg.g11.peres_apostoliques",
-      "introducesGrammar": true,
-      "reviews": [
-        "eg.g10.sieges_apostoliques",
-        "eg.g09.releve_des_apotres"
-      ],
-      "vocabulary": [
-        {
-          "word": "les Pères apostoliques",
-          "slug": "peres_apostoliques",
-          "translation": "premiers Pères de l'Église, proches des apôtres",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "Clément de Rome",
-          "slug": "clement_de_rome",
-          "translation": "évêque de Rome, auteur d'une lettre aux Corinthiens vers 96",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "Ignace d'Antioche",
-          "slug": "ignace_d_antioche",
-          "translation": "évêque d'Antioche, martyr à Rome vers 110",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "Polycarpe de Smyrne",
-          "slug": "polycarpe_de_smyrne",
-          "translation": "évêque de Smyrne, disciple de l'apôtre Jean, martyr",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "la lettre aux Corinthiens",
-          "slug": "lettre_aux_corinthiens",
-          "translation": "lettre de Clément de Rome aux chrétiens de Corinthe, vers 96",
-          "partOfSpeech": "work"
-        },
-        {
-          "word": "les sept lettres d'Ignace",
-          "slug": "sept_lettres_d_ignace",
-          "translation": "lettres écrites par Ignace d'Antioche pendant son voyage vers Rome",
-          "partOfSpeech": "work"
-        },
-        {
-          "word": "la lettre aux Philippiens",
-          "slug": "lettre_aux_philippiens",
-          "translation": "lettre de Polycarpe de Smyrne aux chrétiens de Philippes",
-          "partOfSpeech": "work"
-        },
-        {
-          "word": "« catholique » au sens premier",
-          "slug": "catholique_sens",
-          "translation": "universelle, qui s'étend à toute la terre",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "Smyrne",
-          "slug": "smyrne",
-          "translation": "ville de Turquie actuelle, aujourd'hui Izmir",
-          "partOfSpeech": "place"
-        }
-      ]
+     "word": "le siège d'Antioche",
+     "slug": "siege_d_antioche",
+     "translation": "Église de Syrie rattachée à l'apôtre Pierre",
+     "partOfSpeech": "organization"
     },
     {
-      "id": "eg.l12",
-      "sequence": 12,
-      "title": "Persécutions, martyrs et poisson secret",
-      "description": "Pourquoi Rome persécute, qui sont les martyrs de ce siècle, et pourquoi le poisson ICHTHYS est le signe des chrétiens.",
-      "difficulty": 2,
-      "grammarUnitId": "eg.g12.persecutions_ichthus",
-      "introducesGrammar": true,
-      "reviews": [
-        "eg.g11.peres_apostoliques",
-        "eg.g10.sieges_apostoliques"
-      ],
-      "vocabulary": [
-        {
-          "word": "une persécution",
-          "slug": "persecution_romaine",
-          "translation": "poursuite violente des chrétiens à cause de leur foi",
-          "partOfSpeech": "event"
-        },
-        {
-          "word": "Trajan",
-          "slug": "trajan",
-          "translation": "empereur romain au début du IIe siècle, troisième persécution",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "Marc Aurèle",
-          "slug": "marc_aurele",
-          "translation": "empereur philosophe (161-180), quatrième persécution",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "Septime Sévère",
-          "slug": "septime_severe",
-          "translation": "empereur romain vers 200, cinquième persécution",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "ICHTHYS (le poisson)",
-          "slug": "ichthys",
-          "translation": "mot grec qui signifie poisson, sigle de Jésus Christ Fils de Dieu Sauveur",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "le culte de l'empereur",
-          "slug": "culte_de_l_empereur",
-          "translation": "hommage religieux rendu à l'empereur romain",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "les martyrs de Lyon",
-          "slug": "martyrs_de_lyon",
-          "translation": "chrétiens de Lyon morts en 177, dont Pothin et Blandine",
-          "partOfSpeech": "event"
-        },
-        {
-          "word": "Pline le Jeune",
-          "slug": "pline_le_jeune",
-          "translation": "gouverneur de Bithynie qui interroge Trajan vers 112",
-          "partOfSpeech": "person"
-        }
-      ]
+     "word": "le siège de Jérusalem",
+     "slug": "siege_de_jerusalem",
+     "translation": "première Église, née autour des apôtres, avec saint Jacques",
+     "partOfSpeech": "organization"
     },
     {
-      "id": "eg.l13",
-      "sequence": 13,
-      "title": "Les apologistes : défendre la foi",
-      "description": "Justin Martyr et Tertullien répondent aux accusations des païens et montrent que la foi chrétienne est raisonnable.",
-      "difficulty": 2,
-      "grammarUnitId": "eg.g13.apologistes",
-      "introducesGrammar": true,
-      "reviews": [
-        "eg.g12.persecutions_ichthus",
-        "eg.g11.peres_apostoliques"
-      ],
-      "vocabulary": [
-        {
-          "word": "un apologiste",
-          "slug": "apologiste",
-          "translation": "écrivain chrétien qui défend la foi devant les non-chrétiens",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "le paganisme",
-          "slug": "paganisme",
-          "translation": "religion traditionnelle de l'Empire romain, avec de nombreux dieux",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "Justin Martyr",
-          "slug": "justin_martyr",
-          "translation": "philosophe converti, apologiste, martyr à Rome vers 165",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "Tertullien",
-          "slug": "tertullien",
-          "translation": "premier grand auteur chrétien latin, de Carthage",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "l'Apologétique",
-          "slug": "apologetique",
-          "translation": "œuvre de Tertullien écrite en 197 pour défendre les chrétiens",
-          "partOfSpeech": "work"
-        },
-        {
-          "word": "le Dialogue avec Tryphon",
-          "slug": "dialogue_avec_tryphon",
-          "translation": "œuvre de Justin : débat avec un Juif sur Jésus et l'Ancien Testament",
-          "partOfSpeech": "work"
-        },
-        {
-          "word": "les semences du Verbe",
-          "slug": "semences_du_verbe",
-          "translation": "idée de Justin : les philosophes ont entrevu une part de la vérité du Christ",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "le sang des martyrs",
-          "slug": "sang_des_martyrs",
-          "translation": "formule de Tertullien : le courage des martyrs fait naître de nouveaux chrétiens",
-          "partOfSpeech": "concept"
-        }
-      ]
-    },
-    {
-      "id": "eg.l14",
-      "sequence": 14,
-      "title": "Gnosticisme et docétisme",
-      "description": "Deux hérésies liées : le salut par une connaissance secrète, et le Christ au corps fantôme. Comment l'Église répond.",
-      "difficulty": 3,
-      "grammarUnitId": "eg.g14.gnosticisme_docetisme",
-      "introducesGrammar": true,
-      "reviews": [
-        "eg.g13.apologistes",
-        "eg.g12.persecutions_ichthus"
-      ],
-      "vocabulary": [
-        {
-          "word": "la gnose",
-          "slug": "gnose",
-          "translation": "connaissance secrète censée sauver (du grec gnosis)",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "le démiurge",
-          "slug": "demiurge",
-          "translation": "dieu inférieur qui aurait créé le monde matériel selon les gnostiques",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "Valentin",
-          "slug": "valentin",
-          "translation": "maître gnostique, enseigne à Alexandrie puis à Rome",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "Basilide",
-          "slug": "basilide",
-          "translation": "maître gnostique d'Alexandrie",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "Irénée de Lyon",
-          "slug": "irenee_de_lyon",
-          "translation": "évêque de Lyon, disciple de Polycarpe, auteur de Contre les hérésies",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "Contre les hérésies",
-          "slug": "contre_les_heresies",
-          "translation": "œuvre d'Irénée de Lyon (vers 180) qui réfute le gnosticisme",
-          "partOfSpeech": "work"
-        },
-        {
-          "word": "Nag Hammadi",
-          "slug": "nag_hammadi",
-          "translation": "lieu de Haute-Égypte où une bibliothèque gnostique est retrouvée en 1945",
-          "partOfSpeech": "place"
-        }
-      ]
-    },
-    {
-      "id": "eg.l15",
-      "sequence": 15,
-      "title": "Marcion et Montan : deux dieux, une fausse prophétie",
-      "description": "Marcion rejette l'Ancien Testament, Montanus annonce une « nouvelle prophétie » : ce qu'ils enseignent, et comment l'Église répond.",
-      "difficulty": 3,
-      "grammarUnitId": "eg.g15.marcion_montan",
-      "introducesGrammar": true,
-      "reviews": [
-        "eg.g14.gnosticisme_docetisme",
-        "eg.g13.apologistes"
-      ],
-      "vocabulary": [
-        {
-          "word": "Marcion",
-          "slug": "marcion",
-          "translation": "armateur de Sinope, exclu de l'Église de Rome vers 144",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "le marcionisme",
-          "slug": "marcionisme",
-          "translation": "hérésie qui oppose le Dieu de l'Ancien Testament au Dieu d'amour du Nouveau",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "Montanus",
-          "slug": "montanus",
-          "translation": "prophète phrygien qui se dit porte-parole du Paraclet vers 170",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "le montanisme",
-          "slug": "montanisme",
-          "translation": "mouvement de la « nouvelle prophétie », fin des temps et rigueur extrême",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "le Paraclet",
-          "slug": "paraclet",
-          "translation": "nom de l'Esprit Saint dans l'Évangile de Jean : le Consolateur, le Défenseur",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "Priscilla et Maximilla",
-          "slug": "priscilla_et_maximilla",
-          "translation": "deux prophétesses qui accompagnent Montanus",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "le millénarisme",
-          "slug": "millenarisme",
-          "translation": "croyance en un règne du Christ de mille ans avec les élus avant la fin",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "le rigorisme",
-          "slug": "rigorisme",
-          "translation": "exigence morale extrême, au-delà de ce que l'Église demande à tous",
-          "partOfSpeech": "concept"
-        }
-      ]
-    },
-    {
-      "id": "eg.l16",
-      "sequence": 16,
-      "title": "Le canon, la règle de foi et Démétrios",
-      "description": "Comment l'Église répond aux hérésies : le canon, la règle de foi, et le rôle d'Alexandrie sous saint Démétrios.",
-      "difficulty": 3,
-      "grammarUnitId": "eg.g16.canon_regle_de_foi",
-      "introducesGrammar": true,
-      "reviews": [
-        "eg.g15.marcion_montan",
-        "eg.g14.gnosticisme_docetisme",
-        "eg.g13.apologistes"
-      ],
-      "vocabulary": [
-        {
-          "word": "le canon des Écritures",
-          "slug": "canon_des_ecritures",
-          "translation": "liste des livres reconnus par l'Église comme inspirés",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "la règle de foi",
-          "slug": "regle_de_foi",
-          "translation": "résumé de la foi reçue au baptême, racine du Credo",
-          "partOfSpeech": "concept"
-        },
-        {
-          "word": "le Fragment de Muratori",
-          "slug": "fragment_de_muratori",
-          "translation": "ancienne liste romaine de livres du Nouveau Testament (vers 170-200)",
-          "partOfSpeech": "work"
-        },
-        {
-          "word": "saint Démétrios",
-          "slug": "saint_demetrios",
-          "translation": "XIIe pape d'Alexandrie, élu en 189, surnommé le vigneron",
-          "partOfSpeech": "person"
-        },
-        {
-          "word": "la date de Pâques",
-          "slug": "date_de_paques",
-          "translation": "controverse du IIe siècle sur le jour où fêter la Résurrection",
-          "partOfSpeech": "event"
-        },
-        {
-          "word": "le 14 Nisan",
-          "slug": "quatorze_nisan",
-          "translation": "date juive de la Pâque, suivie par certaines Églises d'Asie Mineure",
-          "partOfSpeech": "date"
-        },
-        {
-          "word": "l'épacte",
-          "slug": "epacte",
-          "translation": "calcul lunaire utilisé à Alexandrie pour fixer la date de Pâques et du carême",
-          "partOfSpeech": "concept"
-        }
-      ]
+     "word": "le pape d'Alexandrie",
+     "slug": "pape_d_alexandrie",
+     "translation": "titre de l'évêque d'Alexandrie, chef de l'Église copte",
+     "partOfSpeech": "person"
     }
-  ]
+   ]
+  },
+  {
+   "id": "eg.l11",
+   "sequence": 11,
+   "title": "Clément, Ignace, Polycarpe : les Pères apostoliques",
+   "description": "Trois évêques proches des apôtres qui transmettent la foi par leurs lettres.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g11.peres_apostoliques",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g10.sieges_apostoliques",
+    "eg.g09.releve_des_apotres"
+   ],
+   "vocabulary": [
+    {
+     "word": "les Pères apostoliques",
+     "slug": "peres_apostoliques",
+     "translation": "premiers Pères de l'Église, proches des apôtres",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Clément de Rome",
+     "slug": "clement_de_rome",
+     "translation": "évêque de Rome, auteur d'une lettre aux Corinthiens vers 96",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Ignace d'Antioche",
+     "slug": "ignace_d_antioche",
+     "translation": "évêque d'Antioche, martyr à Rome vers 110",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Polycarpe de Smyrne",
+     "slug": "polycarpe_de_smyrne",
+     "translation": "évêque de Smyrne, disciple de l'apôtre Jean, martyr",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la lettre aux Corinthiens",
+     "slug": "lettre_aux_corinthiens",
+     "translation": "lettre de Clément de Rome aux chrétiens de Corinthe, vers 96",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les sept lettres d'Ignace",
+     "slug": "sept_lettres_d_ignace",
+     "translation": "lettres écrites par Ignace d'Antioche pendant son voyage vers Rome",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "la lettre aux Philippiens",
+     "slug": "lettre_aux_philippiens",
+     "translation": "lettre de Polycarpe de Smyrne aux chrétiens de Philippes",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "« catholique » au sens premier",
+     "slug": "catholique_sens",
+     "translation": "universelle, qui s'étend à toute la terre",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Smyrne",
+     "slug": "smyrne",
+     "translation": "ville de Turquie actuelle, aujourd'hui Izmir",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l12",
+   "sequence": 12,
+   "title": "Persécutions, martyrs et poisson secret",
+   "description": "Pourquoi Rome persécute, qui sont les martyrs de ce siècle, et pourquoi le poisson ICHTHYS est le signe des chrétiens.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g12.persecutions_ichthus",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g11.peres_apostoliques",
+    "eg.g10.sieges_apostoliques"
+   ],
+   "vocabulary": [
+    {
+     "word": "une persécution",
+     "slug": "persecution_romaine",
+     "translation": "poursuite violente des chrétiens à cause de leur foi",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Trajan",
+     "slug": "trajan",
+     "translation": "empereur romain au début du IIe siècle, troisième persécution",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Marc Aurèle",
+     "slug": "marc_aurele",
+     "translation": "empereur philosophe (161-180), quatrième persécution",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Septime Sévère",
+     "slug": "septime_severe",
+     "translation": "empereur romain vers 200, cinquième persécution",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "ICHTHYS (le poisson)",
+     "slug": "ichthys",
+     "translation": "mot grec qui signifie poisson, sigle de Jésus Christ Fils de Dieu Sauveur",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le culte de l'empereur",
+     "slug": "culte_de_l_empereur",
+     "translation": "hommage religieux rendu à l'empereur romain",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les martyrs de Lyon",
+     "slug": "martyrs_de_lyon",
+     "translation": "chrétiens de Lyon morts en 177, dont Pothin et Blandine",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Pline le Jeune",
+     "slug": "pline_le_jeune",
+     "translation": "gouverneur de Bithynie qui interroge Trajan vers 112",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l13",
+   "sequence": 13,
+   "title": "Les apologistes : défendre la foi",
+   "description": "Justin Martyr et Tertullien répondent aux accusations des païens et montrent que la foi chrétienne est raisonnable.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g13.apologistes",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g12.persecutions_ichthus",
+    "eg.g11.peres_apostoliques"
+   ],
+   "vocabulary": [
+    {
+     "word": "un apologiste",
+     "slug": "apologiste",
+     "translation": "écrivain chrétien qui défend la foi devant les non-chrétiens",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le paganisme",
+     "slug": "paganisme",
+     "translation": "religion traditionnelle de l'Empire romain, avec de nombreux dieux",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Justin Martyr",
+     "slug": "justin_martyr",
+     "translation": "philosophe converti, apologiste, martyr à Rome vers 165",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Tertullien",
+     "slug": "tertullien",
+     "translation": "premier grand auteur chrétien latin, de Carthage",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'Apologétique",
+     "slug": "apologetique",
+     "translation": "œuvre de Tertullien écrite en 197 pour défendre les chrétiens",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "le Dialogue avec Tryphon",
+     "slug": "dialogue_avec_tryphon",
+     "translation": "œuvre de Justin : débat avec un Juif sur Jésus et l'Ancien Testament",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les semences du Verbe",
+     "slug": "semences_du_verbe",
+     "translation": "idée de Justin : les philosophes ont entrevu une part de la vérité du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le sang des martyrs",
+     "slug": "sang_des_martyrs",
+     "translation": "formule de Tertullien : le courage des martyrs fait naître de nouveaux chrétiens",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l14",
+   "sequence": 14,
+   "title": "Gnosticisme et docétisme",
+   "description": "Deux hérésies liées : le salut par une connaissance secrète, et le Christ au corps fantôme. Comment l'Église répond.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g14.gnosticisme_docetisme",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g13.apologistes",
+    "eg.g12.persecutions_ichthus"
+   ],
+   "vocabulary": [
+    {
+     "word": "la gnose",
+     "slug": "gnose",
+     "translation": "connaissance secrète censée sauver (du grec gnosis)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le démiurge",
+     "slug": "demiurge",
+     "translation": "dieu inférieur qui aurait créé le monde matériel selon les gnostiques",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Valentin",
+     "slug": "valentin",
+     "translation": "maître gnostique, enseigne à Alexandrie puis à Rome",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Basilide",
+     "slug": "basilide",
+     "translation": "maître gnostique d'Alexandrie",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Irénée de Lyon",
+     "slug": "irenee_de_lyon",
+     "translation": "évêque de Lyon, disciple de Polycarpe, auteur de Contre les hérésies",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Contre les hérésies",
+     "slug": "contre_les_heresies",
+     "translation": "œuvre d'Irénée de Lyon (vers 180) qui réfute le gnosticisme",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Nag Hammadi",
+     "slug": "nag_hammadi",
+     "translation": "lieu de Haute-Égypte où une bibliothèque gnostique est retrouvée en 1945",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l15",
+   "sequence": 15,
+   "title": "Marcion et Montan : deux dieux, une fausse prophétie",
+   "description": "Marcion rejette l'Ancien Testament, Montanus annonce une « nouvelle prophétie » : ce qu'ils enseignent, et comment l'Église répond.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g15.marcion_montan",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g14.gnosticisme_docetisme",
+    "eg.g13.apologistes"
+   ],
+   "vocabulary": [
+    {
+     "word": "Marcion",
+     "slug": "marcion",
+     "translation": "armateur de Sinope, exclu de l'Église de Rome vers 144",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le marcionisme",
+     "slug": "marcionisme",
+     "translation": "hérésie qui oppose le Dieu de l'Ancien Testament au Dieu d'amour du Nouveau",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Montanus",
+     "slug": "montanus",
+     "translation": "prophète phrygien qui se dit porte-parole du Paraclet vers 170",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le montanisme",
+     "slug": "montanisme",
+     "translation": "mouvement de la « nouvelle prophétie », fin des temps et rigueur extrême",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Paraclet",
+     "slug": "paraclet",
+     "translation": "nom de l'Esprit Saint dans l'Évangile de Jean : le Consolateur, le Défenseur",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Priscilla et Maximilla",
+     "slug": "priscilla_et_maximilla",
+     "translation": "deux prophétesses qui accompagnent Montanus",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le millénarisme",
+     "slug": "millenarisme",
+     "translation": "croyance en un règne du Christ de mille ans avec les élus avant la fin",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le rigorisme",
+     "slug": "rigorisme",
+     "translation": "exigence morale extrême, au-delà de ce que l'Église demande à tous",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l16",
+   "sequence": 16,
+   "title": "Le canon, la règle de foi et Démétrios",
+   "description": "Comment l'Église répond aux hérésies : le canon, la règle de foi, et le rôle d'Alexandrie sous saint Démétrios.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g16.canon_regle_de_foi",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g15.marcion_montan",
+    "eg.g14.gnosticisme_docetisme",
+    "eg.g13.apologistes"
+   ],
+   "vocabulary": [
+    {
+     "word": "le canon des Écritures",
+     "slug": "canon_des_ecritures",
+     "translation": "liste des livres reconnus par l'Église comme inspirés",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la règle de foi",
+     "slug": "regle_de_foi",
+     "translation": "résumé de la foi reçue au baptême, racine du Credo",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Fragment de Muratori",
+     "slug": "fragment_de_muratori",
+     "translation": "ancienne liste romaine de livres du Nouveau Testament (vers 170-200)",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "saint Démétrios",
+     "slug": "saint_demetrios",
+     "translation": "XIIe pape d'Alexandrie, élu en 189, surnommé le vigneron",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la date de Pâques",
+     "slug": "date_de_paques",
+     "translation": "controverse du IIe siècle sur le jour où fêter la Résurrection",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le 14 Nisan",
+     "slug": "quatorze_nisan",
+     "translation": "date juive de la Pâque, suivie par certaines Églises d'Asie Mineure",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "l'épacte",
+     "slug": "epacte",
+     "translation": "calcul lunaire utilisé à Alexandrie pour fixer la date de Pâques et du carême",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
 }

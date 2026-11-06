@@ -82,6 +82,46 @@
     "eg.g39.ephese_449"
    ],
    "functionWords": []
+  },
+  {
+   "id": "eg.g41.dioscore",
+   "category": "knowledge",
+   "title": "Saint Dioscore d'Alexandrie",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g40.chalcedoine"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g42.miaphysisme",
+   "category": "knowledge",
+   "title": "Le miaphysisme",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g41.dioscore"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g43.schisme_et_suites",
+   "category": "knowledge",
+   "title": "Les suites du schisme (482-641)",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g42.miaphysisme"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g44.deux_familles",
+   "category": "knowledge",
+   "title": "Les familles orthodoxes et le dialogue",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g43.schisme_et_suites"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -468,6 +508,175 @@
      "slug": "premier_schisme",
      "translation": "rupture de l'Église après Chalcédoine",
      "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l41",
+   "sequence": 41,
+   "title": "Saint Dioscore, confesseur de la foi",
+   "description": "Qui était Dioscore, ce dont on l'accuse, ce que répond la tradition copte, son exil à Gangra et pourquoi l'Église copte le vénère.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g41.dioscore",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g40.chalcedoine",
+    "eg.g39.ephese_449"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'archidiacre",
+     "slug": "archidiacre",
+     "translation": "premier assistant d'un évêque",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les trois accusations contre Dioscore",
+     "slug": "accusations_contre_dioscore",
+     "translation": "accusations portées contre lui à Chalcédoine",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Gangra",
+     "slug": "gangra",
+     "translation": "ville d'Asie Mineure où Dioscore est exilé",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l42",
+   "sequence": 42,
+   "title": "Miaphysisme : la foi de l'Église copte",
+   "description": "Mono, dyo, mia : trois mots grecs pour comprendre ce que l'Église copte croit sur la nature du Christ, et pourquoi elle n'est pas monophysite.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g42.miaphysisme",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g41.dioscore",
+    "eg.g40.chalcedoine"
+   ],
+   "vocabulary": [
+    {
+     "word": "le miaphysisme",
+     "slug": "miaphysisme",
+     "translation": "foi en une seule nature du Verbe incarné, humaine et divine",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le dyophysisme",
+     "slug": "dyophysisme",
+     "translation": "foi en deux natures du Christ, chacune gardant son caractère",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "physis",
+     "slug": "physis",
+     "translation": "mot grec pour « nature »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "sans mélange ni division",
+     "slug": "sans_melange_ni_division",
+     "translation": "le divin et l'humain unis dans le Christ sans se confondre ni se séparer",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l43",
+   "sequence": 43,
+   "title": "Le schisme et ses suites : deux papes à Alexandrie",
+   "description": "Hénotikon, persécutions, Justinien, melkites : comment la rupture de 451 s'installe et pourquoi l'Égypte a deux patriarches d'Alexandrie.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g43.schisme_et_suites",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g42.miaphysisme",
+    "eg.g40.chalcedoine"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'Hénotikon (482)",
+     "slug": "henotikon",
+     "translation": "édit d'union de l'empereur Zénon",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Zénon",
+     "slug": "zenon",
+     "translation": "empereur d'Orient (474-491), auteur de l'Hénotikon",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Justinien",
+     "slug": "justinien",
+     "translation": "empereur romain d'Orient (527-565)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les melkites",
+     "slug": "melkites",
+     "translation": "chrétiens fidèles à l'empereur, ayant accepté Chalcédoine",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "les Églises non-chalcédoniennes",
+     "slug": "non_chalcedoniens",
+     "translation": "Églises qui refusent les décisions de Chalcédoine",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les Églises chalcédoniennes",
+     "slug": "chalcedoniens",
+     "translation": "Églises qui acceptent Chalcédoine et reconnaissent sept conciles",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "saint Macaire d'Edkou",
+     "slug": "macaire_d_edkou",
+     "translation": "évêque d'Edkou, martyr des persécutions non-chalcédoniennes",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l44",
+   "sequence": 44,
+   "title": "Deux familles orthodoxes, un dialogue",
+   "description": "Trois ou sept conciles, les six Églises sœurs, le dialogue du XXe siècle et la frise du Ve siècle pour tout réviser.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g44.deux_familles",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g43.schisme_et_suites",
+    "eg.g42.miaphysisme",
+    "eg.g40.chalcedoine"
+   ],
+   "vocabulary": [
+    {
+     "word": "les Églises sœurs",
+     "slug": "eglises_soeurs",
+     "translation": "les six Églises non-chalcédoniennes en intercommunion",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "l'intercommunion",
+     "slug": "intercommunion",
+     "translation": "communion pleine entre Églises, y compris le mariage entre leurs fidèles",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'accord de 1989 à Amba Bichoï",
+     "slug": "accord_de_1989",
+     "translation": "accord de foi entre orthodoxes orientaux et byzantins",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la christologie",
+     "slug": "christologie",
+     "translation": "enseignement sur qui est le Christ, sur ses natures",
+     "partOfSpeech": "concept"
     }
    ]
   }

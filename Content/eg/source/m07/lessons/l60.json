@@ -1,0 +1,699 @@
+{
+ "lessonId": "eg.l60",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.temoins_de_jehovah",
+    "eg.v.science_chretienne",
+    "eg.v.mary_baker_eddy",
+    "eg.v.charles_taze_russell"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Chaque mouvement et son fondateur",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "témoins de Jéhovah",
+     "right": "Charles Taze Russell"
+    },
+    {
+     "left": "Science chrétienne",
+     "right": "Mary Baker Eddy"
+    },
+    {
+     "left": "mormons",
+     "right": "Joseph Smith"
+    },
+    {
+     "left": "adventistes",
+     "right": "William Miller et Ellen White"
+    }
+   ],
+   "answer": "témoins de Jéhovah = Charles Taze Russell ; Science chrétienne = Mary Baker Eddy ; mormons = Joseph Smith ; adventistes = William Miller et Ellen White",
+   "acceptedAnswers": [],
+   "explanation": "Quatre mouvements, cinq noms à retenir.",
+   "tip": "Un mouvement, un nom.",
+   "id": "eg.l60.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.charles_taze_russell"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui est Charles Taze Russell ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Fondateur de la Watch Tower et des témoins de Jéhovah",
+    "Fondateur des mormons",
+    "Fondatrice de la Science chrétienne",
+    "Réformateur du XVIe siècle"
+   ],
+   "answer": "Fondateur de la Watch Tower et des témoins de Jéhovah",
+   "acceptedAnswers": [
+    "Fondateur de la Watch Tower et des témoins de Jéhovah"
+   ],
+   "explanation": "Russell, de Pittsburgh, fonde le groupe d'étude biblique qui devient les témoins de Jéhovah.",
+   "tip": "Russell : Watch Tower.",
+   "extraExample": {
+    "text": "Il publie Zion's Watch Tower en 1879.",
+    "translation": "Le nom actuel date de 1931."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Fondateur des mormons",
+     "category": "word_confusion",
+     "feedback": "Le fondateur des mormons est Joseph Smith."
+    }
+   ],
+   "id": "eg.l60.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.temoins_de_jehovah"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que croient les témoins de Jéhovah sur Jésus ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le premier être créé par Jéhovah",
+    "Dieu, de même nature que le Père",
+    "Un simple prophète",
+    "Un ange sans corps"
+   ],
+   "answer": "Le premier être créé par Jéhovah",
+   "acceptedAnswers": [
+    "Le premier être créé par Jéhovah"
+   ],
+   "explanation": "Pour eux, Jésus est créé et inférieur au Père. Nous confessons qu'il est vrai Dieu de même nature que le Père.",
+   "tip": "Créé ≠ de même nature.",
+   "extraExample": {
+    "text": "C'est la thèse d'Arius, condamnée à Nicée.",
+    "translation": "Les témoins la reprennent."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dieu, de même nature que le Père",
+     "category": "word_confusion",
+     "feedback": "C'est la foi de l'Église copte, non celle des témoins de Jéhovah."
+    }
+   ],
+   "id": "eg.l60.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.temoins_de_jehovah"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que pensent les témoins de Jéhovah du Saint-Esprit ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une force active",
+    "Une personne divine",
+    "Un ange",
+    "Le Fils"
+   ],
+   "answer": "Une force active",
+   "acceptedAnswers": [
+    "Une force active"
+   ],
+   "explanation": "Pour eux, le Saint-Esprit est une force, non une personne. Nous croyons qu'il est Dieu (Actes 5, 3-4).",
+   "tip": "Force ≠ personne.",
+   "extraExample": {
+    "text": "Actes 5, 3-4 : mentir à l'Esprit, c'est mentir à Dieu.",
+    "translation": "Un mensonge ne se fait pas à une force."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Une personne divine",
+     "category": "word_confusion",
+     "feedback": "C'est notre foi, pas la leur."
+    }
+   ],
+   "id": "eg.l60.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.cent_quarante_quatre_mille"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Selon les témoins de Jéhovah, ___ fidèles vivent au ciel avec le Christ.",
+   "promptLanguage": "fr",
+   "options": [
+    "144 000",
+    "12 000",
+    "1 000",
+    "7 000"
+   ],
+   "answer": "144 000",
+   "acceptedAnswers": [
+    "144 000",
+    "144000",
+    "144.000"
+   ],
+   "explanation": "Ils lisent Apocalypse 7, 4 au sens propre. Nous y voyons un nombre symbolique de plénitude.",
+   "tip": "12 × 12 × 1000.",
+   "extraExample": {
+    "text": "Apocalypse 7, 4 compte 144 000.",
+    "translation": "Le nombre est symbolique."
+   },
+   "id": "eg.l60.e05"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.refus_des_transfusions"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que refusent les témoins de Jéhovah au nom d'Actes 15, 20 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La transfusion sanguine",
+    "Tout médecin",
+    "Le baptême",
+    "La prière"
+   ],
+   "answer": "La transfusion sanguine",
+   "acceptedAnswers": [
+    "La transfusion sanguine"
+   ],
+   "explanation": "Ils refusent le sang (Actes 15, 20) mais acceptent les autres soins. La vie est un don de Dieu : nous sauvons une vie.",
+   "tip": "Sang refusé, médecins acceptés.",
+   "extraExample": {
+    "text": "Actes 15, 20 parle de s'abstenir du sang.",
+    "translation": "Ils lisent ce verset au sens littéral."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Tout médecin",
+     "category": "word_confusion",
+     "feedback": "Ils acceptent les médecins ; c'est une erreur fréquente."
+    }
+   ],
+   "id": "eg.l60.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.traduction_du_monde_nouveau"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel verset répond à la thèse que Jésus est créé ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Jean 1, 1",
+    "Apocalypse 7, 4",
+    "Actes 15, 20",
+    "Matthieu 9, 12"
+   ],
+   "answer": "Jean 1, 1",
+   "acceptedAnswers": [
+    "Jean 1, 1"
+   ],
+   "explanation": "Jean 1, 1 : « le Verbe était Dieu ». La Traduction du monde nouveau le rend par « un dieu », mais le grec ne le permet pas.",
+   "tip": "Jean 1, 1 : Verbe = Dieu.",
+   "extraExample": {
+    "text": "Jean 20, 28 : « mon Seigneur et mon Dieu ».",
+    "translation": "Thomas n'est pas repris."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Apocalypse 7, 4",
+     "category": "word_confusion",
+     "feedback": "Ce verset parle des 144 000, non de la nature du Christ."
+    }
+   ],
+   "id": "eg.l60.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.temoins_de_jehovah"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel verset montre que le Saint-Esprit est Dieu ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Actes 5, 3-4",
+    "Apocalypse 7, 4",
+    "Actes 15, 20",
+    "Matthieu 28, 20"
+   ],
+   "answer": "Actes 5, 3-4",
+   "acceptedAnswers": [
+    "Actes 5, 3-4"
+   ],
+   "explanation": "Pierre dit : mentir à l'Esprit Saint, c'est mentir à Dieu.",
+   "tip": "Actes 5 : Esprit = Dieu.",
+   "extraExample": {
+    "text": "Dans la Trinité, l'Esprit est une personne.",
+    "translation": "Il est de même nature."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Actes 15, 20",
+     "category": "word_confusion",
+     "feedback": "Ce verset concerne le sang."
+    }
+   ],
+   "id": "eg.l60.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.traduction_du_monde_nouveau"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la Bible des témoins de Jéhovah ?",
+   "promptLanguage": "fr",
+   "hint": "Elle contient « monde ».",
+   "answer": "Traduction du monde nouveau",
+   "acceptedAnswers": [
+    "Traduction du monde nouveau",
+    "la Traduction du monde nouveau"
+   ],
+   "explanation": "La Traduction du monde nouveau est publiée en 1961.",
+   "tip": "Monde nouveau.",
+   "extraExample": {
+    "text": "Elle traduit Jean 1, 1 par « un dieu ».",
+    "translation": "Le grec dit « Dieu »."
+   },
+   "id": "eg.l60.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.science_et_sante"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En quelle année Mary Baker Eddy publie-t-elle Science et Santé ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1875",
+    "1830",
+    "1863",
+    "1931"
+   ],
+   "answer": "1875",
+   "acceptedAnswers": [
+    "1875"
+   ],
+   "explanation": "Science et Santé est publié en 1875 ; l'Église est fondée à Boston en 1879.",
+   "tip": "1875 : livre ; 1879 : Église.",
+   "extraExample": {
+    "text": "1863 est l'Église adventiste.",
+    "translation": "1931 est le nom des témoins de Jéhovah."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1863",
+     "category": "word_confusion",
+     "feedback": "1863 est l'Église adventiste."
+    }
+   ],
+   "id": "eg.l60.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.science_chretienne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que sont la matière, le péché et la maladie pour la Science chrétienne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Des illusions",
+    "Des punitions de Dieu",
+    "Des sacrements",
+    "Des vertus"
+   ],
+   "answer": "Des illusions",
+   "acceptedAnswers": [
+    "Des illusions"
+   ],
+   "explanation": "La Science chrétienne affirme que la matière, la maladie et la mort sont des illusions. Nous répondons que la maladie est réelle : le Christ a guéri des malades.",
+   "tip": "Illusion ≠ réalité.",
+   "extraExample": {
+    "text": "Le Christ a guéri de vrais malades.",
+    "translation": "Saint Luc était médecin."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Des punitions de Dieu",
+     "category": "word_confusion",
+     "feedback": "Ce n'est pas la thèse de la Science chrétienne."
+    }
+   ],
+   "id": "eg.l60.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.science_chretienne"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel mouvement n'a aucun rapport avec la Science chrétienne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La scientologie",
+    "Les adventistes",
+    "Les mormons",
+    "L'Église évangélique"
+   ],
+   "answer": "La scientologie",
+   "acceptedAnswers": [
+    "La scientologie"
+   ],
+   "explanation": "La scientologie a été créée dans les années 1950, la Science chrétienne en 1879. Elles n'ont aucun rapport.",
+   "tip": "Science chrétienne ≠ scientologie.",
+   "extraExample": {
+    "text": "Les deux noms se ressemblent.",
+    "translation": "Mais les deux mouvements sont distincts."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les adventistes",
+     "category": "word_confusion",
+     "feedback": "Les adventistes sont un autre mouvement, sans rapport direct."
+    }
+   ],
+   "id": "eg.l60.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel évangéliste était médecin ?",
+   "promptLanguage": "fr",
+   "hint": "Il a aussi écrit les Actes.",
+   "answer": "Luc",
+   "acceptedAnswers": [
+    "Luc",
+    "saint Luc",
+    "Luc l'évangéliste"
+   ],
+   "explanation": "Saint Luc, médecin, nous rappelle que soigner est un acte de charité et que la maladie est réelle.",
+   "tip": "Luc : médecin.",
+   "extraExample": {
+    "text": "Paul l'appelle « le médecin bien-aimé ».",
+    "translation": "Colossiens 4, 14."
+   },
+   "id": "eg.l60.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel trait commun à plusieurs groupes récents est signalé dans le cours ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Chacun ajoute une autorité à la Bible",
+    "Chacun est né en Europe",
+    "Chacun reconnaît le pape",
+    "Chacun a des icônes"
+   ],
+   "answer": "Chacun ajoute une autorité à la Bible",
+   "acceptedAnswers": [
+    "Chacun ajoute une autorité à la Bible"
+   ],
+   "explanation": "Livre de Mormon, écrits d'Ellen White, Traduction du monde nouveau, Science et Santé : chacun ajoute une autorité à la Bible.",
+   "tip": "Plus qu'un livre.",
+   "extraExample": {
+    "text": "Jude 3 : la foi a été transmise une fois pour toutes.",
+    "translation": "Nous n'ajoutons pas de nouveau livre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Chacun est né en Europe",
+     "category": "word_confusion",
+     "feedback": "Tous sont nés aux États-Unis."
+    }
+   ],
+   "id": "eg.l60.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.grande_apostasie"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle promesse du Christ répond à l'idée d'une Église disparue ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les portes du séjour des morts ne prévaudront point",
+    "Tu seras avec moi dans le paradis",
+    "Le Verbe s'est fait chair",
+    "Mon esprit se réjouit en Dieu"
+   ],
+   "answer": "Les portes du séjour des morts ne prévaudront point",
+   "acceptedAnswers": [
+    "Les portes du séjour des morts ne prévaudront point"
+   ],
+   "explanation": "Matthieu 16, 18 : l'Église ne disparaît pas ; le Christ reste avec elle jusqu'à la fin des temps.",
+   "tip": "Pas d'apostasie totale.",
+   "extraExample": {
+    "text": "Matthieu 28, 20 : « je suis avec vous tous les jours ».",
+    "translation": "La chaîne de saint Marc est continue."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Tu seras avec moi dans le paradis",
+     "category": "word_confusion",
+     "feedback": "C'est Luc 23, 43, la parole au bon larron."
+    }
+   ],
+   "id": "eg.l60.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne",
+    "eg.v.grande_apostasie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "« Je suis avec vous tous les ___ jusqu'à la fin du monde » (Matthieu 28, 20).",
+   "promptLanguage": "fr",
+   "options": [
+    "jours",
+    "ans",
+    "siècles"
+   ],
+   "answer": "jours",
+   "acceptedAnswers": [
+    "jours"
+   ],
+   "explanation": "Le Christ promet sa présence à l'Église tous les jours.",
+   "tip": "28, 20 : tous les jours.",
+   "extraExample": {
+    "text": "C'est la dernière phrase de l'évangile selon Matthieu.",
+    "translation": "Elle suit l'envoi en mission."
+   },
+   "id": "eg.l60.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : notre attitude.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Nous",
+    "avec",
+    "douceur",
+    "répondons",
+    "respect",
+    "et"
+   ],
+   "answer": "Nous répondons avec douceur et respect",
+   "acceptedAnswers": [
+    "Nous répondons avec douceur et respect"
+   ],
+   "explanation": "Nous répondons avec douceur et respect, comme Pierre le demande.",
+   "tip": "1 Pierre 3, 15.",
+   "extraExample": {
+    "text": "On aime la personne, on dit la vérité.",
+    "translation": "La douceur ouvre la porte."
+   },
+   "id": "eg.l60.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g60.temoins_science_chretienne"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Quelle date pour quel mouvement ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1830",
+     "right": "mormons"
+    },
+    {
+     "left": "1863",
+     "right": "adventistes"
+    },
+    {
+     "left": "1875",
+     "right": "Science et Santé"
+    },
+    {
+     "left": "1879",
+     "right": "Zion's Watch Tower"
+    }
+   ],
+   "answer": "1830 = mormons ; 1863 = adventistes ; 1875 = Science et Santé ; 1879 = Zion's Watch Tower",
+   "acceptedAnswers": [],
+   "explanation": "Les quatre groupes naissent entre 1830 et 1879.",
+   "tip": "XIXe siècle, États-Unis.",
+   "id": "eg.l60.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g59.mormons_adventistes",
+    "eg.v.grande_deception"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quel mouvement est né après la Grande Déception de 1844 ?",
+   "promptLanguage": "fr",
+   "hint": "Son nom parle de la venue du Christ.",
+   "answer": "adventistes",
+   "acceptedAnswers": [
+    "adventistes",
+    "les adventistes",
+    "adventiste",
+    "Église adventiste"
+   ],
+   "explanation": "Après 1844, un petit groupe fidèle à Miller forme l'Église adventiste.",
+   "tip": "1844 → adventistes.",
+   "extraExample": {
+    "text": "L'Église est organisée en 1863.",
+    "translation": "Ellen White en est la figure."
+   },
+   "id": "eg.l60.e19"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.icone"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Les icônes s'appuient sur l'Incarnation : Dieu s'est rendu visible en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Jésus-Christ",
+    "Moïse",
+    "Marie",
+    "Adam"
+   ],
+   "answer": "Jésus-Christ",
+   "acceptedAnswers": [
+    "Jésus-Christ"
+   ],
+   "explanation": "Dieu s'est rendu visible en Jésus-Christ : c'est le fondement des icônes.",
+   "tip": "Incarnation → icônes.",
+   "extraExample": {
+    "text": "Saint Basile : l'honneur passe au modèle.",
+    "translation": "L'icône n'est jamais adorée."
+   },
+   "id": "eg.l60.e20"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.deuterocanoniques"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Les protestants ne gardent pas les livres ___ de la Septante.",
+   "promptLanguage": "fr",
+   "options": [
+    "deutérocanoniques",
+    "prophétiques",
+    "historiques"
+   ],
+   "answer": "deutérocanoniques",
+   "acceptedAnswers": [
+    "deutérocanoniques"
+   ],
+   "explanation": "Tobie, Judith, la Sagesse, etc. viennent de la Septante. Les Coptes les gardent.",
+   "tip": "Deutéro : second.",
+   "extraExample": {
+    "text": "La Septante est née à Alexandrie.",
+    "translation": "Un héritage de notre ville."
+   },
+   "id": "eg.l60.e21"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.melkites"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quel patriarche d'Alexandrie, mort en exil en 454, est vénéré par les Coptes ?",
+   "promptLanguage": "fr",
+   "hint": "Son nom commence par D.",
+   "answer": "Dioscore",
+   "acceptedAnswers": [
+    "Dioscore",
+    "saint Dioscore",
+    "Dioscore d'Alexandrie"
+   ],
+   "explanation": "Dioscore est déposé en 451, exilé à Gangra et meurt en 454.",
+   "tip": "Dioscore : confesseur.",
+   "extraExample": {
+    "text": "Il succède à Cyrille.",
+    "translation": "L'Église copte le fête."
+   },
+   "id": "eg.l60.e22"
+  }
+ ]
+}

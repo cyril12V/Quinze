@@ -579,6 +579,99 @@
     }
    ],
    "id": "eg.l53.e19"
+  },
+  {
+   "unitIds": [
+    "eg.v.saint_marc",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel apôtre a fondé l'Église d'Alexandrie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Saint Marc",
+    "Saint Pierre",
+    "Saint Thomas",
+    "Saint Paul"
+   ],
+   "answer": "Saint Marc",
+   "acceptedAnswers": [
+    "Saint Marc"
+   ],
+   "explanation": "Saint Marc a fondé l'Église d'Alexandrie, dont notre pape est le successeur.",
+   "tip": "Marc : Alexandrie.",
+   "extraExample": {
+    "text": "Thomas est l'apôtre de l'Inde.",
+    "translation": "Pierre est l'apôtre de Rome."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Saint Thomas",
+     "category": "word_confusion",
+     "feedback": "Thomas est lié à l'Inde, donc à l'Église malankare."
+    }
+   ],
+   "id": "eg.l53.e20"
+  },
+  {
+   "unitIds": [
+    "eg.v.concile_de_nicee",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — En quelle année se tient le concile de Nicée ?",
+   "promptLanguage": "fr",
+   "options": [
+    "325",
+    "381",
+    "431",
+    "451"
+   ],
+   "answer": "325",
+   "acceptedAnswers": [
+    "325"
+   ],
+   "explanation": "Le premier concile œcuménique se tient à Nicée en 325. Il est reçu par toutes les familles d'Églises.",
+   "tip": "Nicée : 325.",
+   "extraExample": {
+    "text": "Constantinople vient en 381.",
+    "translation": "Éphèse en 431."
+   },
+   "errorPatterns": [
+    {
+     "equals": "451",
+     "category": "word_confusion",
+     "feedback": "451 est Chalcédoine, que nous n'avons pas reçu."
+    }
+   ],
+   "id": "eg.l53.e21"
+  },
+  {
+   "unitIds": [
+    "eg.v.arius",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quel prêtre d'Alexandrie niait que le Fils soit Dieu, au début du IVe siècle ?",
+   "promptLanguage": "fr",
+   "hint": "Son nom commence par A.",
+   "answer": "Arius",
+   "acceptedAnswers": [
+    "Arius"
+   ],
+   "explanation": "Arius, prêtre d'Alexandrie, est condamné à Nicée.",
+   "tip": "Arius : le Fils créé.",
+   "extraExample": {
+    "text": "Les témoins de Jéhovah reprennent une idée voisine.",
+    "translation": "Nicée l'a condamnée."
+   },
+   "id": "eg.l53.e22"
   }
  ]
 }

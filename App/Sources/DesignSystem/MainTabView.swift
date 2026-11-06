@@ -26,6 +26,14 @@ struct MainTabView: View {
     @State private var tab: MainTab = .home
 
     var body: some View {
+        if env.settings.study.space == .church {
+            ChurchSpaceView()
+        } else {
+            quinze
+        }
+    }
+
+    private var quinze: some View {
         ZStack {
             switch tab {
             case .home: NavigationStack { HomeView() }

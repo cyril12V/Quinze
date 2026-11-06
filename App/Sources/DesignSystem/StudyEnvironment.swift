@@ -38,6 +38,6 @@ extension View {
     /// Environment of a subject's screens: its code, and no audio for Culture G.
     func studySubject(_ subject: Subject) -> some View {
         environment(\.studySubjectCode, subject.rawValue)
-            .environment(\.speechEnabled, subject != .culture)
+            .environment(\.speechEnabled, subject != .culture && subject != .church)
     }
 }

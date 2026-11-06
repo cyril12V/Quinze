@@ -325,7 +325,7 @@ struct SessionPlanner {
             cards.append(card(.ruleCard(unitId: lesson.grammarUnitId), role: .oldReview))
         }
         // Word cards (with audio) for languages; Culture G concepts are taught by the course.
-        if course.isEmpty || index.bundle.language.code != "cg" {
+        if course.isEmpty || !["cg", "eg"].contains(index.bundle.language.code) {
             var words = newUnits.filter { index.unitsById[$0]?.kind == .vocabulary }
             if struggling { words = Array(words.prefix(3)) }
             for w in words { cards.append(card(.wordCard(unitId: w), role: .newMaterial)) }

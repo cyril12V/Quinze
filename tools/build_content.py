@@ -59,15 +59,20 @@ PROFILES = {
     "cg": {"promptLanguages": {"fr"}, "maxReverseTranslations": 0,
            "types": {"mcq": (6, 10), "fill_blank": (3, 5), "translation": (0, 0), "reorder": (0, 2),
                      "match": (2, 4), "free_answer": (2, 4)}},
+    # Église copte : comme la culture G (en français, un cours avant les questions), plus des mots coptes à
+    # traduire en français dans les modules de langue copte.
+    "eg": {"promptLanguages": {"fr", "cop"}, "maxReverseTranslations": 99,
+           "types": {"mcq": (6, 12), "fill_blank": (2, 6), "translation": (0, 4), "reorder": (0, 3),
+                     "match": (2, 5), "free_answer": (1, 4)}},
 }
 LESSON_SIZE = (18, 24)
 
 # Cours (cartes « à apprendre » montrées avant les questions) : obligatoires pour l'arabe et la culture G.
-COURSE_REQUIRED = {"ar", "cg"}
+COURSE_REQUIRED = {"ar", "cg", "eg"}
 COURSE_CARDS = (3, 10)
 # Les questions ne portent que sur ce qui a été appris : la réponse doit apparaître dans un cours (ou un mot
 # de vocabulaire) d'une leçon déjà vue.
-TAUGHT_CHECK = {"ar", "cg"}
+TAUGHT_CHECK = {"ar", "cg", "eg"}
 HARAKAT_RE = re.compile("[\u064B-\u0652\u0670]")
 
 

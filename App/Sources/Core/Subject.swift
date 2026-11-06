@@ -1,12 +1,14 @@
 import Foundation
 import LearningCore
 
-/// The three things Quinze teaches. Each subject has its own content bundle (`Content/<code>.json`),
-/// its own engine and its own learner state; every identifier of its content starts with `<code>.`.
+/// The things Quinze teaches. Each subject has its own content bundle (`Content/<code>.json`), its own engine and
+/// its own learner state; every identifier of its content starts with `<code>.`. The first three are studied in
+/// the daily slots; `.church` lives in the separate « Église » space, outside the slots and the blocking.
 enum Subject: String, CaseIterable, Codable, Sendable, Identifiable, Hashable {
     case english = "en"
     case arabic = "ar"
     case culture = "cg"
+    case church = "eg"
 
     var id: String { rawValue }
     var code: String { rawValue }
@@ -17,6 +19,7 @@ enum Subject: String, CaseIterable, Codable, Sendable, Identifiable, Hashable {
         case .english: return "Anglais"
         case .arabic: return "Arabe"
         case .culture: return "Culture G"
+        case .church: return "Église copte"
         }
     }
 
@@ -26,6 +29,7 @@ enum Subject: String, CaseIterable, Codable, Sendable, Identifiable, Hashable {
         case .english: return "Anglais"
         case .arabic: return "Arabe"
         case .culture: return "Culture"
+        case .church: return "Église"
         }
     }
 
@@ -34,6 +38,7 @@ enum Subject: String, CaseIterable, Codable, Sendable, Identifiable, Hashable {
         case .english: return "🇬🇧"
         case .arabic: return "🇪🇬"
         case .culture: return "🌍"
+        case .church: return "⛪"
         }
     }
 
@@ -43,6 +48,7 @@ enum Subject: String, CaseIterable, Codable, Sendable, Identifiable, Hashable {
         case .english: return "textformat.abc"
         case .arabic: return "character.book.closed"
         case .culture: return "globe.europe.africa"
+        case .church: return "building.columns"
         }
     }
 

@@ -97,6 +97,9 @@ struct HomeView: View {
             statsBlock
                 .qAppear(4)
 
+            HomeChurchEntryCard { env.openSpace(.church) }
+                .qAppear(4)
+
             if env.study.today.assessmentDue {
                 HomeAssessmentCard(isStarting: isStarting) { start(.assessment) }
                     .qAppear(5)

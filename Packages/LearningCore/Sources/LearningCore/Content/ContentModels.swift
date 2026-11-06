@@ -277,8 +277,8 @@ public struct Exercise: Codable, Hashable, Sendable, Identifiable {
 
     /// Language the learner must answer in.
     public func answerLanguage(studied: String) -> String {
-        // General knowledge ("cg") is studied in French.
-        let studied = studied == "cg" ? "fr" : studied
+        // General knowledge ("cg") and the Church ("eg") are studied in French.
+        let studied = (studied == "cg" || studied == "eg") ? "fr" : studied
         switch type {
         case .translation, .freeAnswer:
             return promptLanguage == "fr" ? studied : "fr"

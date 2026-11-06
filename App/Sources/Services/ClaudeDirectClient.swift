@@ -268,6 +268,7 @@ struct ClaudePrompt: Sendable {
         case .english: return Self.englishSystem
         case .arabic: return Self.arabicSystem
         case .culture: return Self.cultureSystem
+        case .church: return Self.churchSystem
         }
     }
 
@@ -327,6 +328,23 @@ struct ClaudePrompt: Sendable {
     9. \(formatRule)
     """
 
+    private static let churchSystem = """
+    Tu es « Quinze », le professeur de l'espace « Église » de l'application Quinze, destiné à un adulte copte orthodoxe francophone qui veut connaître son Église dans sa globalité : histoire des premiers siècles, conciles, hérésies, foi, sacrements, Agpeya, tasbeha, saints, langue copte. Tout se fait en français.
+
+    Ta mission : expliquer avec bienveillance pourquoi une réponse est juste ou fausse, expliquer un concile, une hérésie, un Père de l'Église, une notion de foi ou un mot copte, raconter l'essentiel d'un sujet, corriger une réponse libre et répondre aux questions de suivi de l'élève.
+
+    Règles impératives :
+    1. Appuie-toi UNIQUEMENT sur le contenu validé fourni dans le bloc <contenu_valide>. N'invente jamais de fait, de date, de nom ni de citation qui n'y figure pas. Tu peux reformuler, simplifier, relier les faits entre eux et proposer un moyen de s'en souvenir.
+    2. \(unsureRule)
+    3. Parle du point de vue de l'Église copte orthodoxe, avec respect pour les autres Églises et sans polémique. Reste dans ton rôle : l'Église et le contenu fourni. Si la demande est hors sujet, refuse poliment en une phrase et ramène l'élève vers l'exercice.
+    4. \(dataRule)
+    5. Tu expliques des faits et la foi, pas la langue française : ne corrige ni la grammaire ni l'orthographe de l'élève (sauf un nom méconnaissable). Donne le pourquoi et le contexte (cause, conséquence, repère chronologique) pour que le fait se retienne.
+    6. Réponds en français, simplement : phrases courtes, pas de jargon. Ton chaleureux et encourageant, jamais moqueur ; tutoie l'élève.
+    7. \(levelRule)
+    8. \(privacyRule)
+    9. \(formatRule)
+    """
+
     // MARK: User prompts
 
     func explainAnswer(content: ClaudeContent, userAnswer: String, previousErrorCategories: [String], detailed: Bool) -> String {
@@ -342,7 +360,7 @@ struct ClaudePrompt: Sendable {
             parts.append("Catégories d'erreurs récurrentes chez cet élève : \(categories.joined(separator: ", ")).")
         }
         switch subject {
-        case .culture:
+        case .culture, .church:
             parts.append("Tâche : explique si la réponse de l'élève est juste ou non par rapport à la réponse attendue, en t'appuyant sur l'explication et la fiche du contenu validé. Si elle est juste, félicite en une phrase puis ajoute le fait ou le contexte qui aide à s'en souvenir. Sinon, donne la bonne réponse et explique pourquoi, sans commenter la grammaire ni l'orthographe.")
         case .english, .arabic:
             var task = "Tâche : explique si la réponse de l'élève est correcte ou non par rapport à la réponse attendue, en t'appuyant sur l'explication et la règle du contenu validé. Si elle est correcte, félicite en une phrase puis rappelle la règle. Sinon, identifie précisément l'erreur, donne la bonne forme et la raison. Si une erreur récurrente est signalée et pertinente, donne un conseil pour l'éviter."
@@ -370,7 +388,7 @@ struct ClaudePrompt: Sendable {
             task = "Tâche : explique ce mot (sens, emploi, translittération et lecture, formes, confusions fréquentes) uniquement à partir du contenu validé. "
                 + (sentence != nil ? "Si la phrase de contexte aide, montre le sens du mot dans cette phrase sans inventer de règle. " : "")
                 + "Donne un ou deux exemples simples."
-        case .culture:
+        case .culture, .church:
             task = "Tâche : explique ce terme (de quoi il s'agit, pourquoi c'est important, confusions fréquentes) uniquement à partir du contenu validé. "
                 + (sentence != nil ? "Si la phrase de contexte aide, montre ce que le terme veut dire dans cette phrase. " : "")
                 + "Donne un ou deux faits clés."
@@ -408,6 +426,7 @@ struct ClaudePrompt: Sendable {
         case .english: topic = "l'apprentissage de l'anglais"
         case .arabic: topic = "l'apprentissage de l'arabe"
         case .culture: topic = "la culture générale"
+        case .church: topic = "l'Église copte orthodoxe"
         }
         parts.append("Tâche : réponds à la question de l'élève en t'appuyant uniquement sur le contenu validé et sur l'explication précédente. Si la question sort du contenu validé ou de \(topic), ou si tu n'es pas sûr, dis-le poliment et propose de revoir la leçon.")
         parts.append(explainFormat(detailed: false))
@@ -460,7 +479,7 @@ struct ClaudePrompt: Sendable {
         case .arabic:
             example = #"{"text": "phrase en arabe vocalisé", "translation": "translittération — traduction en français"}"#
             examplesRule = "Les exemples sont repris du contenu validé ou formés en appliquant strictement la règle ; « examples » peut être un tableau vide."
-        case .culture:
+        case .culture, .church:
             example = #"{"text": "fait clé, en une phrase", "translation": "pourquoi c'est important, en quelques mots"}"#
             examplesRule = "Les exemples sont des faits repris du contenu validé ; « examples » peut être un tableau vide."
         }
@@ -494,7 +513,7 @@ struct ClaudePrompt: Sendable {
             break
         case .arabic:
             lines.append("- Une translittération latine raisonnable de la réponse attendue (accents oubliés, voyelle longue doublée, variante courante) est correcte.")
-        case .culture:
+        case .culture, .church:
             lines.append("- Juge le fond (le fait, le nom, la date, le lieu), pas la langue : accepte une réponse avec ou sans article, et une orthographe approximative d'un nom si elle est reconnaissable sans ambiguïté. Pour errorCategory, utilise « vocabulary » pour un mauvais fait ou un mauvais nom, « instruction » pour une réponse à côté de la consigne.")
         }
         return lines.joined(separator: "\n")

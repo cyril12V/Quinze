@@ -183,7 +183,8 @@ final class AppEnvironment {
     /// Engine settings of a subject: its session length and up to one new lesson per slot.
     func engineConfiguration(for subject: Subject) -> EngineConfiguration {
         var config = EngineConfiguration.default
-        config.targetSessionSeconds = settings.study.minutes(for: subject) * 60
+        // The Église space has no slot: a session of about 8 minutes, at the learner's pace.
+        config.targetSessionSeconds = (subject == .church ? 8 : settings.study.minutes(for: subject)) * 60
         config.maxInteractions = 25
         config.maxNewLessonsPerDay = 2
         return config
@@ -199,6 +200,13 @@ final class AppEnvironment {
     }
 
     /// Session lengths or enabled subjects changed in the settings.
+    /// Opens one of the two spaces of the app (Quinze or Église).
+    func openSpace(_ space: AppSpace) {
+        settings.updateStudy { $0.space = space }
+        study.focusSubject = space == .church ? .church : .english
+        Task { await store.refresh() }
+    }
+
     func studyPreferencesDidChange() async {
         applySpeechPreferences()
         content.reconfigure(engineConfiguration(for:))

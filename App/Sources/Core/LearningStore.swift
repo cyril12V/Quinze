@@ -304,6 +304,12 @@ final class LearningStore {
         try await report { try await launch(kind: .focused(unitId), type: .extra, slot: nil, sessionId: UUID(), now: .now) }
     }
 
+    /// The « Église » space's session of the day, outside the slots: the next lesson if none was learned today,
+    /// else practice of what is due.
+    func startDailySession() async throws -> LessonController {
+        try await report { try await launch(kind: .standard, type: .learning, slot: nil, sessionId: UUID(), now: .now) }
+    }
+
     /// The very first lesson at the end of the onboarding (a learning session outside the daily slots).
     func startFirstLesson() async throws -> LessonController {
         try await report { try await launch(kind: .standard, type: .learning, slot: nil, sessionId: UUID(), now: .now) }

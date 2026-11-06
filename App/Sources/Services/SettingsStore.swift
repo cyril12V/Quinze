@@ -44,8 +44,17 @@ struct SubjectPreference: Codable, Equatable, Sendable, Identifiable {
 }
 
 /// What the learner studies and how the app looks and sounds (local only, not synced).
+/// Which of the two « apps » of Quinze is shown: the languages and culture (with slots and blocking), or the
+/// separate « Église » space.
+enum AppSpace: String, Codable, Sendable {
+    case quinze
+    case church
+}
+
 struct StudyPreferences: Codable, Equatable, Sendable {
     var subjects: [SubjectPreference]
+    /// Space shown at launch (the last one used).
+    var space: AppSpace = .quinze
     var appearance: AppearanceMode
     /// AVSpeechSynthesisVoice identifier chosen per language ("en", "ar", "fr").
     var voiceIdentifiers: [String: String]
@@ -85,6 +94,7 @@ struct StudyPreferences: Codable, Equatable, Sendable {
         appearance = (try? c.decodeIfPresent(AppearanceMode.self, forKey: .appearance)) ?? d.appearance
         voiceIdentifiers = (try? c.decodeIfPresent([String: String].self, forKey: .voiceIdentifiers)) ?? d.voiceIdentifiers
         speechRate = (try? c.decodeIfPresent(Double.self, forKey: .speechRate)) ?? d.speechRate
+        space = (try? c.decodeIfPresent(AppSpace.self, forKey: .space)) ?? .quinze
     }
 }
 

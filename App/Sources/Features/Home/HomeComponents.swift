@@ -482,6 +482,7 @@ struct HomeSubjectBlock: View {
         case .english: return .blue
         case .arabic: return .yellow
         case .culture: return .pink
+        case .church: return .green
         }
     }
 

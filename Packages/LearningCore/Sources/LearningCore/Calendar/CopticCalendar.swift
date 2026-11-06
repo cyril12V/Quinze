@@ -125,7 +125,7 @@ public enum CopticCalendar {
         if jdn >= easter - 55 && jdn < easter - 7 { return "Grand Carême" }
         if jdn >= easter - 69 && jdn <= easter - 67 { return "Jeûne de Ninive" }
         // Apostles: from the day after Pentecost to 4 Abib (feast of the apostles on 5 Abib).
-        let apostlesEnd = julianDay(coptic: cd.year, month: 11, day: 4)
+        let apostlesEnd = julianDay(coptic: coptic(julianDay: easter + 50).year, month: 11, day: 4)
         if jdn >= easter + 50 && jdn <= apostlesEnd { return "Jeûne des Apôtres" }
         if cd.month == 12 && cd.day <= 15 { return "Jeûne de la Vierge" }
         // The Nativity is celebrated on 7 January and the Theophany on 19 January (Gregorian): the 43 days of the

@@ -129,6 +129,7 @@ struct DictionaryView: View {
         case .english: return "Chercher un mot"
         case .arabic: return "Chercher un mot arabe ou français"
         case .culture: return "Chercher une notion, un nom, une date"
+        case .church: return "Chercher un concile, un Père, une notion, un mot copte"
         }
     }
 
@@ -140,6 +141,8 @@ struct DictionaryView: View {
             return "Cherche un mot arabe ou sa traduction pour voir sa fiche. Les mots que tu choisis d'apprendre apparaîtront ici."
         case .culture:
             return "Cherche une notion, un personnage, un lieu ou une date pour voir sa fiche. Ce que tu choisis d'apprendre apparaîtra ici."
+        case .church:
+            return "Cherche un concile, un Père de l'Église, une hérésie, une notion ou un mot copte pour voir sa fiche. Ce que tu choisis d'apprendre apparaîtra ici."
         }
     }
 

@@ -64,7 +64,7 @@ struct WordSeriesListView: View {
         switch subject {
         case .english, .arabic:
             return "Une série par leçon, dans l'ordre de ton parcours. Deux minutes : des cartes, un petit quiz, et les mots partent dans tes révisions."
-        case .culture:
+        case .culture, .church:
             return "Une série par leçon : les notions, personnages, lieux et dates à retenir. Des cartes, un petit quiz, puis tes révisions."
         }
     }

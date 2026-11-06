@@ -1,0 +1,652 @@
+{
+ "lessonId": "eg.l106",
+ "exercises": [
+  {
+   "id": "eg.l106.e01",
+   "unitIds": [
+    "eg.v.copte"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le mot copte veut dire ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "chrétien",
+    "égyptien",
+    "ancien",
+    "arabe"
+   ],
+   "answer": "égyptien",
+   "acceptedAnswers": [
+    "égyptien",
+    "egyptien"
+   ],
+   "explanation": "Copte vient du grec Aigyptios, « égyptien » : l'Église copte est l'Église d'Égypte.",
+   "tip": "Copte = égyptien.",
+   "extraExample": {
+    "text": "Le copte reste la langue de la liturgie.",
+    "translation": "L'arabe devient la langue courante."
+   }
+  },
+  {
+   "id": "eg.l106.e02",
+   "unitIds": [
+    "eg.v.melkites"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire le mot melkite ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Gens du roi",
+    "Amis des martyrs",
+    "Gens du désert",
+    "Fils du peuple"
+   ],
+   "answer": "Gens du roi",
+   "acceptedAnswers": [
+    "Gens du roi"
+   ],
+   "explanation": "Melkite vient du syriaque malka, « roi » : ce sont les fidèles de l'empereur.",
+   "tip": "Melkite = roi.",
+   "extraExample": {
+    "text": "Les melkites acceptent Chalcédoine.",
+    "translation": "Les Coptes la refusent."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Gens du désert",
+     "category": "word_confusion",
+     "feedback": "Le désert est celui des moines, pas des melkites."
+    }
+   ]
+  },
+  {
+   "id": "eg.l106.e03",
+   "unitIds": [
+    "eg.v.abou_sefein"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel saint soldat a une église Abou Sefein au Vieux-Caire ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Mina",
+    "Abanoub",
+    "Mercure",
+    "Georges"
+   ],
+   "answer": "Mercure",
+   "acceptedAnswers": [
+    "Mercure"
+   ],
+   "explanation": "Abou Sefein est le surnom de Mercure, le père des deux épées.",
+   "tip": "Abou Sefein = Mercure.",
+   "extraExample": {
+    "text": "Barsoum le Nu vit près de cette église.",
+    "translation": "Il y est ermite."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Georges",
+     "category": "word_confusion",
+     "feedback": "Georges est le prince des martyrs."
+    }
+   ]
+  },
+  {
+   "id": "eg.l106.e04",
+   "unitIds": [
+    "eg.v.prince_des_martyrs"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel saint soldat est appelé le prince des martyrs ?",
+   "promptLanguage": "fr",
+   "answer": "Georges",
+   "acceptedAnswers": [
+    "Georges",
+    "saint Georges",
+    "Mar Girgis"
+   ],
+   "explanation": "Les Coptes appellent Georges le prince des martyrs.",
+   "tip": "Georges = prince.",
+   "extraExample": {
+    "text": "Georges est martyr vers 303.",
+    "translation": "Son dragon est Satan."
+   }
+  },
+  {
+   "id": "eg.l106.e05",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.conquete_arabe"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel général conquiert l'Égypte vers 640 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Zénon",
+    "Justinien",
+    "Amr ibn al-As",
+    "Marcien"
+   ],
+   "answer": "Amr ibn al-As",
+   "acceptedAnswers": [
+    "Amr ibn al-As"
+   ],
+   "explanation": "Vers 640, Amr ibn al-As conquiert l'Égypte pour les Arabes.",
+   "tip": "640 = Amr ibn al-As.",
+   "extraExample": {
+    "text": "La conquête arabe change l'Égypte.",
+    "translation": "Les Coptes paient un impôt spécial."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Justinien",
+     "category": "word_confusion",
+     "feedback": "Justinien est un empereur du VIe siècle."
+    }
+   ]
+  },
+  {
+   "id": "eg.l106.e06",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.benjamin_ier"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape, caché pendant des années, est rappelé après la conquête arabe ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Benjamin Ier",
+    "Abraam ibn Zaraa",
+    "Athanase",
+    "Dioscore"
+   ],
+   "answer": "Benjamin Ier",
+   "acceptedAnswers": [
+    "Benjamin Ier"
+   ],
+   "explanation": "Selon la tradition copte, Benjamin Ier revient de sa cachette et retrouve son siège.",
+   "tip": "Benjamin Ier = retour.",
+   "extraExample": {
+    "text": "Benjamin Ier se cache dans le désert.",
+    "translation": "Il revient à Alexandrie vers 640."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dioscore",
+     "category": "word_confusion",
+     "feedback": "Dioscore est mort en exil à Gangra en 454."
+    }
+   ]
+  },
+  {
+   "id": "eg.l106.e07",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.fatimides"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle dynastie de califes gouverne l'Égypte à l'époque d'Abraam ibn Zaraa ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Ptolémées",
+    "Les Romains",
+    "Les Perses",
+    "Les Fatimides"
+   ],
+   "answer": "Les Fatimides",
+   "acceptedAnswers": [
+    "Les Fatimides"
+   ],
+   "explanation": "Abraam vit sous les Fatimides, qui gouvernent l'Égypte au Xe siècle.",
+   "tip": "Fatimides = Xe siècle.",
+   "extraExample": {
+    "text": "Les Fatimides gouvernent le Caire.",
+    "translation": "Le pape Abraam vit sous leur règne."
+   }
+  },
+  {
+   "id": "eg.l106.e08",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.abraam_ibn_zaraa"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape est un ancien marchand d'origine syrienne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Abraam ibn Zaraa",
+    "Benjamin Ier",
+    "Cyrille",
+    "Théophile"
+   ],
+   "answer": "Abraam ibn Zaraa",
+   "acceptedAnswers": [
+    "Abraam ibn Zaraa"
+   ],
+   "explanation": "Abraam ibn Zaraa, marchand syrien devenu moine, est le 62e pape.",
+   "tip": "Abraam = marchand.",
+   "extraExample": {
+    "text": "Abraam ibn Zaraa est le 62e pape.",
+    "translation": "Il donne beaucoup aux pauvres."
+   }
+  },
+  {
+   "id": "eg.l106.e09",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.abraam_ibn_zaraa"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle phrase de l'Évangile sert de défi au pape Abraam ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les noces de Cana",
+    "Le pain de chaque jour",
+    "La foi comme un grain de moutarde",
+    "Le bon berger"
+   ],
+   "answer": "La foi comme un grain de moutarde",
+   "acceptedAnswers": [
+    "La foi comme un grain de moutarde"
+   ],
+   "explanation": "Si la foi est comme un grain de moutarde, elle peut déplacer une montagne (Mt 17, 20).",
+   "tip": "Moutarde = montagne.",
+   "extraExample": {
+    "text": "Abraam ibn Zaraa est le 62e pape.",
+    "translation": "Il donne beaucoup aux pauvres."
+   }
+  },
+  {
+   "id": "eg.l106.e10",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.simon_le_tanneur"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel tanneur borgne la Vierge indique-t-elle au pape Abraam ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Samuel",
+    "Barsoum",
+    "Marc",
+    "Simon"
+   ],
+   "answer": "Simon",
+   "acceptedAnswers": [
+    "Simon"
+   ],
+   "explanation": "La Vierge guide Abraam vers Simon, un tanneur borgne qui porte une cruche d'eau.",
+   "tip": "Simon et la cruche.",
+   "extraExample": {
+    "text": "Simon le Tanneur porte une cruche d'eau.",
+    "translation": "La Vierge l'indique au pape."
+   }
+  },
+  {
+   "id": "eg.l106.e11",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.mokattam"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle montagne du Caire se soulève, selon la tradition ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Sinaï",
+    "Le mont des Oliviers",
+    "Le Mokattam",
+    "Le mont Qalamoun"
+   ],
+   "answer": "Le Mokattam",
+   "acceptedAnswers": [
+    "Le Mokattam"
+   ],
+   "explanation": "Au pied du Mokattam, la foi du peuple déplace la montagne, selon la tradition.",
+   "tip": "Mokattam = Le Caire.",
+   "extraExample": {
+    "text": "Le Mokattam domine Le Caire.",
+    "translation": "On y a bâti une grande église-grotte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le mont Qalamoun",
+     "category": "word_confusion",
+     "feedback": "Qalamoun est la montagne du monastère de Samuel."
+    }
+   ]
+  },
+  {
+   "id": "eg.l106.e12",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.barsoum_le_nu"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que porte Barsoum le Nu, qui lui vaut son nom ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un manteau de roi",
+    "Une peau de chèvre",
+    "Un sac de sable",
+    "Une couronne d'épines"
+   ],
+   "answer": "Une peau de chèvre",
+   "acceptedAnswers": [
+    "Une peau de chèvre"
+   ],
+   "explanation": "Barsoum ne porte qu'une peau de chèvre autour de la taille : on l'appelle le Nu.",
+   "tip": "Barsoum = peau de chèvre.",
+   "extraExample": {
+    "text": "Barsoum le Nu vit près de l'église de Mercure.",
+    "translation": "Il porte une peau de chèvre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un sac de sable",
+     "category": "word_confusion",
+     "feedback": "Le sac de sable, c'est l'histoire de Moïse le Noir."
+    }
+   ]
+  },
+  {
+   "id": "eg.l106.e13",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.abraam_ibn_zaraa"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Abraam ibn Zaraa est le 62e ___ d'Alexandrie.",
+   "promptLanguage": "fr",
+   "options": [
+    "pape",
+    "évêque de Rome",
+    "empereur",
+    "moine"
+   ],
+   "answer": "pape",
+   "acceptedAnswers": [
+    "pape"
+   ],
+   "explanation": "Abraam est le 62e pape d'Alexandrie, vers 975.",
+   "tip": "62e pape.",
+   "extraExample": {
+    "text": "Abraam ibn Zaraa est le 62e pape.",
+    "translation": "Il donne beaucoup aux pauvres."
+   }
+  },
+  {
+   "id": "eg.l106.e14",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.simon_le_tanneur"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Simon le Tanneur est un homme humble et ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "savant",
+    "sourd",
+    "borgne",
+    "riche"
+   ],
+   "answer": "borgne",
+   "acceptedAnswers": [
+    "borgne"
+   ],
+   "explanation": "Simon est un tanneur borgne : il avait suivi l'Évangile à la lettre.",
+   "tip": "Simon = borgne.",
+   "extraExample": {
+    "text": "Simon le Tanneur porte une cruche d'eau.",
+    "translation": "La Vierge l'indique au pape."
+   }
+  },
+  {
+   "id": "eg.l106.e15",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.mokattam"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Au pied du Mokattam, le peuple répète « Kyrie ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "alleluia",
+    "amen",
+    "hosanna",
+    "eleison"
+   ],
+   "answer": "eleison",
+   "acceptedAnswers": [
+    "eleison"
+   ],
+   "explanation": "Le Kyrie eleison, « Seigneur, aie pitié », accompagne la prière du peuple.",
+   "tip": "Kyrie eleison.",
+   "extraExample": {
+    "text": "Le Mokattam domine Le Caire.",
+    "translation": "On y a bâti une grande église-grotte."
+   }
+  },
+  {
+   "id": "eg.l106.e16",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.conquete_arabe"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Après la conquête arabe, le copte reste la langue de la ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "poésie",
+    "cuisine",
+    "politique",
+    "liturgie"
+   ],
+   "answer": "liturgie",
+   "acceptedAnswers": [
+    "liturgie"
+   ],
+   "explanation": "L'arabe devient la langue courante, le copte reste celui de la liturgie.",
+   "tip": "Copte = liturgie.",
+   "extraExample": {
+    "text": "La conquête arabe change l'Égypte.",
+    "translation": "Les Coptes paient un impôt spécial."
+   }
+  },
+  {
+   "id": "eg.l106.e17",
+   "unitIds": [
+    "eg.g106.moyen_age"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui est qui au Moyen Âge ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Benjamin Ier",
+     "right": "revient après la conquête arabe"
+    },
+    {
+     "left": "Abraam ibn Zaraa",
+     "right": "le pape du Mokattam"
+    },
+    {
+     "left": "Simon le Tanneur",
+     "right": "le tanneur borgne"
+    },
+    {
+     "left": "Barsoum le Nu",
+     "right": "la peau de chèvre"
+    }
+   ],
+   "answer": "Benjamin Ier = revient après la conquête arabe ; Abraam ibn Zaraa = le pape du Mokattam ; Simon le Tanneur = le tanneur borgne ; Barsoum le Nu = la peau de chèvre",
+   "acceptedAnswers": [],
+   "explanation": "Chacun a son trait : le retour, le pape du Mokattam, le tanneur, la peau de chèvre."
+  },
+  {
+   "id": "eg.l106.e18",
+   "unitIds": [
+    "eg.g106.moyen_age"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Trois repères",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Vers 640",
+     "right": "conquête arabe"
+    },
+    {
+     "left": "Vers 975",
+     "right": "Abraam ibn Zaraa"
+    },
+    {
+     "left": "1317",
+     "right": "mort de Barsoum"
+    }
+   ],
+   "answer": "Vers 640 = conquête arabe ; Vers 975 = Abraam ibn Zaraa ; 1317 = mort de Barsoum",
+   "acceptedAnswers": [],
+   "explanation": "640 (Amr ibn al-As), 975 (Abraam et Simon), 1317 (mort de Barsoum)."
+  },
+  {
+   "id": "eg.l106.e19",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.mokattam"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : le miracle du Mokattam.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "du",
+    "montagne",
+    "peut",
+    "déplacer",
+    "La",
+    "Mokattam",
+    "foi",
+    "la"
+   ],
+   "answer": "La foi peut déplacer la montagne du Mokattam",
+   "acceptedAnswers": [
+    "La foi peut déplacer la montagne du Mokattam"
+   ],
+   "explanation": "La foi, même petite, peut déplacer la montagne (Mt 17, 20).",
+   "tip": "Mokattam = foi.",
+   "extraExample": {
+    "text": "Le Mokattam domine Le Caire.",
+    "translation": "On y a bâti une grande église-grotte."
+   }
+  },
+  {
+   "id": "eg.l106.e20",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.simon_le_tanneur"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel tanneur borgne prie avec le pape Abraam au pied du Mokattam ?",
+   "promptLanguage": "fr",
+   "answer": "Simon",
+   "acceptedAnswers": [
+    "Simon",
+    "Simon le Tanneur",
+    "saint Simon"
+   ],
+   "explanation": "Simon le Tanneur est l'homme humble que la Vierge indique à Abraam.",
+   "tip": "Simon = tanneur.",
+   "extraExample": {
+    "text": "Simon le Tanneur porte une cruche d'eau.",
+    "translation": "La Vierge l'indique au pape."
+   }
+  },
+  {
+   "id": "eg.l106.e21",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.barsoum_le_nu"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel ermite du Vieux-Caire ne porte qu'une peau de chèvre ?",
+   "promptLanguage": "fr",
+   "answer": "Barsoum le Nu",
+   "acceptedAnswers": [
+    "Barsoum le Nu",
+    "Barsoum",
+    "Abba Barsoum"
+   ],
+   "explanation": "Barsoum le Nu vit près de l'église de Mercure et ne porte qu'une peau de chèvre.",
+   "tip": "Barsoum = Nu.",
+   "extraExample": {
+    "text": "Barsoum le Nu vit près de l'église de Mercure.",
+    "translation": "Il porte une peau de chèvre."
+   }
+  },
+  {
+   "id": "eg.l106.e22",
+   "unitIds": [
+    "eg.g106.moyen_age",
+    "eg.v.mokattam"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la montagne du Caire déplacée, selon la tradition, par la foi de Simon et d'Abraam ?",
+   "promptLanguage": "fr",
+   "answer": "Le Mokattam",
+   "acceptedAnswers": [
+    "Le Mokattam",
+    "Mokattam",
+    "Muqattam"
+   ],
+   "explanation": "Le Mokattam domine Le Caire ; une grande église y porte le nom de Simon.",
+   "tip": "Mokattam = Le Caire.",
+   "extraExample": {
+    "text": "Le Mokattam domine Le Caire.",
+    "translation": "On y a bâti une grande église-grotte."
+   }
+  }
+ ]
+}

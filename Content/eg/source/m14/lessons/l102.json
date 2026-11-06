@@ -1,0 +1,632 @@
+{
+ "lessonId": "eg.l102",
+ "exercises": [
+  {
+   "id": "eg.l102.e01",
+   "unitIds": [
+    "eg.v.moise_le_noir"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Moïse le Noir meurt vers 405, tué par des ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Grecs",
+    "Romains",
+    "Berbères",
+    "Perses"
+   ],
+   "answer": "Berbères",
+   "acceptedAnswers": [
+    "Berbères",
+    "Berberes"
+   ],
+   "explanation": "Des Berbères attaquent Scété et Moïse meurt avec sept frères sans avoir voulu se battre.",
+   "tip": "Moïse refuse la violence.",
+   "extraExample": {
+    "text": "Moïse a été chef de brigands.",
+    "translation": "Il est devenu un père doux."
+   }
+  },
+  {
+   "id": "eg.l102.e02",
+   "unitIds": [
+    "eg.v.concile_chalcedoine"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel concile de 451 Samuel le Confesseur refuse-t-il d'accepter ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Éphèse",
+    "Constantinople",
+    "Nicée",
+    "Chalcédoine"
+   ],
+   "answer": "Chalcédoine",
+   "acceptedAnswers": [
+    "Chalcédoine"
+   ],
+   "explanation": "Samuel reste fidèle à la foi de Dioscore et de Cyrille : il refuse Chalcédoine.",
+   "tip": "Les Coptes refusent Chalcédoine.",
+   "extraExample": {
+    "text": "Dioscore aussi refuse Chalcédoine.",
+    "translation": "Il est exilé à Gangra."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Éphèse",
+     "category": "word_confusion",
+     "feedback": "Éphèse (431) est un concile que l'Église copte reconnaît."
+    }
+   ]
+  },
+  {
+   "id": "eg.l102.e03",
+   "unitIds": [
+    "eg.v.wadi_natroun"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment s'appelle aujourd'hui la région de Scété ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Fayoum",
+    "Wadi Natroun",
+    "Gangra",
+    "Sohag"
+   ],
+   "answer": "Wadi Natroun",
+   "acceptedAnswers": [
+    "Wadi Natroun"
+   ],
+   "explanation": "Scété est le Wadi Natroun d'aujourd'hui, où vivent encore des moines.",
+   "tip": "Scété = Wadi Natroun.",
+   "extraExample": {
+    "text": "Macaire vit à Scété.",
+    "translation": "Il y a encore quatre monastères."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Sohag",
+     "category": "word_confusion",
+     "feedback": "Sohag est la ville du Monastère Blanc, en Haute-Égypte."
+    }
+   ]
+  },
+  {
+   "id": "eg.l102.e04",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.anba_bishoy"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel moine attache ses cheveux au plafond pour ne pas s'endormir pendant la prière ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Anba Bishoy",
+    "Chénouté",
+    "Samuel",
+    "Arsène"
+   ],
+   "answer": "Anba Bishoy",
+   "acceptedAnswers": [
+    "Anba Bishoy"
+   ],
+   "explanation": "Bishoy attache ses cheveux au plafond avec une corde pour veiller pendant la prière de la nuit.",
+   "tip": "Bishoy = cheveux au plafond.",
+   "extraExample": {
+    "text": "Anba Bishoy naît à Shansa en 320.",
+    "translation": "Il rejoint Macaire à Scété."
+   }
+  },
+  {
+   "id": "eg.l102.e05",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.anba_bishoy",
+    "eg.v.hospitalite"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui Bishoy reconnaît-il dans le vieillard qu'il porte sur ses épaules ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un brigand",
+    "Saint Antoine",
+    "Un ange",
+    "Le Christ"
+   ],
+   "answer": "Le Christ",
+   "acceptedAnswers": [
+    "Le Christ"
+   ],
+   "explanation": "Selon la tradition, le vieillard est le Christ lui-même, caché dans le pauvre.",
+   "tip": "Le Christ est dans l'étranger.",
+   "extraExample": {
+    "text": "Anba Bishoy naît à Shansa en 320.",
+    "translation": "Il rejoint Macaire à Scété."
+   }
+  },
+  {
+   "id": "eg.l102.e06",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.maxime_et_domece"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui sont Maxime et Domèce ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Deux évêques d'Antioche",
+    "Deux princes romains",
+    "Deux brigands",
+    "Deux martyrs de Dioclétien"
+   ],
+   "answer": "Deux princes romains",
+   "acceptedAnswers": [
+    "Deux princes romains"
+   ],
+   "explanation": "Maxime et Domèce sont fils d'un empereur selon le Synaxaire, et deviennent moines.",
+   "tip": "Maxime et Domèce = princes romains.",
+   "extraExample": {
+    "text": "Maxime et Domèce quittent le palais.",
+    "translation": "Ils rejoignent Macaire à Scété."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Deux brigands",
+     "category": "word_confusion",
+     "feedback": "Le brigand converti, c'est Moïse le Noir."
+    }
+   ]
+  },
+  {
+   "id": "eg.l102.e07",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.maxime_et_domece"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Chez quel Père du désert Maxime et Domèce deviennent-ils disciples ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Paul de Thèbes",
+    "Pacôme",
+    "Macaire",
+    "Antoine"
+   ],
+   "answer": "Macaire",
+   "acceptedAnswers": [
+    "Macaire"
+   ],
+   "explanation": "Ils rejoignent Macaire à Scété, qui les met à l'épreuve puis les revêt de l'habit.",
+   "tip": "Macaire accueille les princes.",
+   "extraExample": {
+    "text": "Maxime et Domèce quittent le palais.",
+    "translation": "Ils rejoignent Macaire à Scété."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Antoine",
+     "category": "word_confusion",
+     "feedback": "Antoine est le père des moines, mais ce sont des disciples de Macaire."
+    }
+   ]
+  },
+  {
+   "id": "eg.l102.e08",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.baramous_des_romains"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que signifie le nom Baramous ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Des martyrs",
+    "Des Romains",
+    "Du désert",
+    "Des Syriens"
+   ],
+   "answer": "Des Romains",
+   "acceptedAnswers": [
+    "Des Romains"
+   ],
+   "explanation": "Baramous vient du copte Pa-Romeos, « des Romains ».",
+   "tip": "Baramous = Romains.",
+   "extraExample": {
+    "text": "Baramous garde le souvenir des deux princes romains.",
+    "translation": "Le nom signifie « des Romains »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Des Syriens",
+     "category": "word_confusion",
+     "feedback": "Le monastère des Syriens est un autre monastère du Wadi Natroun."
+    }
+   ]
+  },
+  {
+   "id": "eg.l102.e09",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.samuel_le_confesseur"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi Samuel est-il appelé le Confesseur ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Celui qui confesse les péchés des moines",
+    "Celui qui meurt martyr en Libye",
+    "Celui qui rédige un credo",
+    "Celui qui souffre pour sa foi sans mourir martyr"
+   ],
+   "answer": "Celui qui souffre pour sa foi sans mourir martyr",
+   "acceptedAnswers": [
+    "Celui qui souffre pour sa foi sans mourir martyr"
+   ],
+   "explanation": "Un confesseur souffre pour sa foi (coups, exil) sans mourir martyr, comme Samuel et Dioscore.",
+   "tip": "Confesseur = souffrir sans mourir.",
+   "extraExample": {
+    "text": "Samuel est appelé le Confesseur.",
+    "translation": "Il souffre pour sa foi sans mourir martyr."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Celui qui confesse les péchés des moines",
+     "category": "word_confusion",
+     "feedback": "Ici, « confesseur » désigne celui qui confesse sa foi en souffrant."
+    }
+   ]
+  },
+  {
+   "id": "eg.l102.e10",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.monastere_de_qalamoun"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel monastère Samuel fonde-t-il en Moyenne-Égypte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Baramous",
+    "Le Monastère Blanc",
+    "Anba Bishoy",
+    "Le monastère de Qalamoun"
+   ],
+   "answer": "Le monastère de Qalamoun",
+   "acceptedAnswers": [
+    "Le monastère de Qalamoun"
+   ],
+   "explanation": "Samuel fonde le monastère de Qalamoun, qui existe toujours.",
+   "tip": "Samuel = Qalamoun.",
+   "extraExample": {
+    "text": "Le monastère de Qalamoun existe toujours.",
+    "translation": "On y vénère Samuel."
+   }
+  },
+  {
+   "id": "eg.l102.e11",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.monastere_blanc",
+    "eg.v.chenoute"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel monastère Chénouté dirige-t-il près de Sohag ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Saint-Macaire",
+    "Le Monastère Blanc",
+    "Baramous",
+    "Qalamoun"
+   ],
+   "answer": "Le Monastère Blanc",
+   "acceptedAnswers": [
+    "Le Monastère Blanc"
+   ],
+   "explanation": "Chénouté dirige le Monastère Blanc, près de Sohag, avec une discipline stricte.",
+   "tip": "Chénouté = Monastère Blanc.",
+   "extraExample": {
+    "text": "Chénouté dirige le Monastère Blanc.",
+    "translation": "Les moines y suivent une règle stricte."
+   }
+  },
+  {
+   "id": "eg.l102.e12",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.chenoute"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quelle langue Chénouté écrit-il ses sermons ?",
+   "promptLanguage": "fr",
+   "options": [
+    "En copte",
+    "En latin",
+    "En syriaque",
+    "En hébreu"
+   ],
+   "answer": "En copte",
+   "acceptedAnswers": [
+    "En copte"
+   ],
+   "explanation": "Chénouté écrit en copte : il est le plus grand écrivain de langue copte.",
+   "tip": "Chénouté = copte.",
+   "extraExample": {
+    "text": "Bishoy attache ses cheveux au plafond pour prier la nuit.",
+    "translation": "Il veille jusqu'au matin."
+   }
+  },
+  {
+   "id": "eg.l102.e13",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.anba_bishoy"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Bishoy attache ses ___ au plafond de sa cellule.",
+   "promptLanguage": "fr",
+   "options": [
+    "pieds",
+    "mains",
+    "cheveux",
+    "livres"
+   ],
+   "answer": "cheveux",
+   "acceptedAnswers": [
+    "cheveux"
+   ],
+   "explanation": "Pour veiller pendant la prière, Bishoy attache ses cheveux au plafond avec une corde.",
+   "tip": "Cheveux au plafond.",
+   "extraExample": {
+    "text": "Anba Bishoy naît à Shansa en 320.",
+    "translation": "Il rejoint Macaire à Scété."
+   }
+  },
+  {
+   "id": "eg.l102.e14",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.baramous_des_romains"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Baramous vient du copte Pa-Romeos, « des ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "Syriens",
+    "Pères",
+    "Romains",
+    "Coptes"
+   ],
+   "answer": "Romains",
+   "acceptedAnswers": [
+    "Romains"
+   ],
+   "explanation": "Le nom du monastère rappelle les deux princes romains Maxime et Domèce.",
+   "tip": "Baramous, monastère des Romains.",
+   "extraExample": {
+    "text": "Baramous garde le souvenir des deux princes romains.",
+    "translation": "Le nom signifie « des Romains »."
+   }
+  },
+  {
+   "id": "eg.l102.e15",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.hospitalite"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Accueillir l'étranger et le pauvre, c'est pratiquer l'___.",
+   "promptLanguage": "fr",
+   "options": [
+    "exégèse",
+    "confession",
+    "hospitalité",
+    "obéissance"
+   ],
+   "answer": "hospitalité",
+   "acceptedAnswers": [
+    "hospitalité",
+    "hospitalite"
+   ],
+   "explanation": "Accueillir le pauvre, c'est accueillir le Christ : c'est l'hospitalité des Pères.",
+   "tip": "Hospitalité = accueillir.",
+   "extraExample": {
+    "text": "Bishoy pratique l'hospitalité.",
+    "translation": "Il porte l'étranger sur ses épaules."
+   }
+  },
+  {
+   "id": "eg.l102.e16",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui est qui au Wadi Natroun et au-delà ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Anba Bishoy",
+     "right": "cheveux attachés au plafond"
+    },
+    {
+     "left": "Maxime et Domèce",
+     "right": "deux princes romains"
+    },
+    {
+     "left": "Samuel",
+     "right": "le Confesseur de Qalamoun"
+    },
+    {
+     "left": "Chénouté",
+     "right": "le Monastère Blanc"
+    }
+   ],
+   "answer": "Anba Bishoy = cheveux attachés au plafond ; Maxime et Domèce = deux princes romains ; Samuel = le Confesseur de Qalamoun ; Chénouté = le Monastère Blanc",
+   "acceptedAnswers": [],
+   "explanation": "Chaque saint garde son image : la corde de Bishoy, les princes, le Confesseur, le Monastère Blanc."
+  },
+  {
+   "id": "eg.l102.e17",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Un monastère, un saint",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Baramous",
+     "right": "Maxime et Domèce"
+    },
+    {
+     "left": "Qalamoun",
+     "right": "Samuel le Confesseur"
+    },
+    {
+     "left": "Monastère Blanc",
+     "right": "Chénouté"
+    }
+   ],
+   "answer": "Baramous = Maxime et Domèce ; Qalamoun = Samuel le Confesseur ; Monastère Blanc = Chénouté",
+   "acceptedAnswers": [],
+   "explanation": "Le nom du monastère rappelle le saint : Baramous (Romains), Qalamoun (Samuel), Monastère Blanc (Chénouté)."
+  },
+  {
+   "id": "eg.l102.e18",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.samuel_le_confesseur"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : pourquoi Samuel est confesseur.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "souffert",
+    "sans",
+    "mourir",
+    "Samuel",
+    "a",
+    "pour",
+    "sa",
+    "foi"
+   ],
+   "answer": "Samuel a souffert pour sa foi sans mourir",
+   "acceptedAnswers": [
+    "Samuel a souffert pour sa foi sans mourir"
+   ],
+   "explanation": "Samuel est battu et chassé mais n'est pas tué : c'est un confesseur.",
+   "tip": "Confesseur = souffrir sans mourir.",
+   "extraExample": {
+    "text": "Samuel est appelé le Confesseur.",
+    "translation": "Il souffre pour sa foi sans mourir martyr."
+   }
+  },
+  {
+   "id": "eg.l102.e19",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.anba_bishoy"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel moine de Scété attache ses cheveux au plafond pendant la prière ?",
+   "promptLanguage": "fr",
+   "answer": "Bishoy",
+   "acceptedAnswers": [
+    "Bishoy",
+    "Anba Bishoy",
+    "saint Bishoy",
+    "Pishoy"
+   ],
+   "explanation": "Bishoy veille ainsi pendant la prière de la nuit.",
+   "tip": "Bishoy = cheveux.",
+   "extraExample": {
+    "text": "Anba Bishoy naît à Shansa en 320.",
+    "translation": "Il rejoint Macaire à Scété."
+   }
+  },
+  {
+   "id": "eg.l102.e20",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.monastere_blanc"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le monastère de Chénouté près de Sohag ?",
+   "promptLanguage": "fr",
+   "answer": "Le Monastère Blanc",
+   "acceptedAnswers": [
+    "Le Monastère Blanc",
+    "Monastère Blanc"
+   ],
+   "explanation": "Chénouté dirige le Monastère Blanc, en Haute-Égypte.",
+   "tip": "Chénouté = Monastère Blanc.",
+   "extraExample": {
+    "text": "Chénouté dirige le Monastère Blanc.",
+    "translation": "Les moines y suivent une règle stricte."
+   }
+  },
+  {
+   "id": "eg.l102.e21",
+   "unitIds": [
+    "eg.g102.peres_du_desert_2",
+    "eg.v.samuel_le_confesseur"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel moine du VIIe siècle, appelé le Confesseur, refuse Chalcédoine et fonde Qalamoun ?",
+   "promptLanguage": "fr",
+   "answer": "Samuel",
+   "acceptedAnswers": [
+    "Samuel",
+    "Samuel le Confesseur",
+    "saint Samuel"
+   ],
+   "explanation": "Samuel fonde le monastère de Qalamoun après avoir refusé Chalcédoine.",
+   "tip": "Samuel = Confesseur.",
+   "extraExample": {
+    "text": "Samuel est appelé le Confesseur.",
+    "translation": "Il souffre pour sa foi sans mourir martyr."
+   }
+  }
+ ]
+}

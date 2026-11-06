@@ -1,0 +1,615 @@
+{
+ "lessonId": "eg.l103",
+ "exercises": [
+  {
+   "id": "eg.l103.e01",
+   "unitIds": [
+    "eg.v.diocletien"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel empereur lance la grande persécution de 303 ?",
+   "promptLanguage": "fr",
+   "answer": "Dioclétien",
+   "acceptedAnswers": [
+    "Dioclétien",
+    "Diocletien",
+    "l'empereur Dioclétien"
+   ],
+   "explanation": "En 303, Dioclétien publie quatre édits contre les chrétiens : c'est la grande persécution.",
+   "tip": "303 = Dioclétien.",
+   "extraExample": {
+    "text": "Galère lui succède en 305.",
+    "translation": "Sa cruauté dépasse celle de ses prédécesseurs."
+   }
+  },
+  {
+   "id": "eg.l103.e02",
+   "unitIds": [
+    "eg.v.eusebe_de_cesaree"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel historien raconte les martyrs d'Égypte de la grande persécution ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Jean Cassien",
+    "Eusèbe de Césarée",
+    "Frumentius",
+    "Pline le Jeune"
+   ],
+   "answer": "Eusèbe de Césarée",
+   "acceptedAnswers": [
+    "Eusèbe de Césarée"
+   ],
+   "explanation": "Eusèbe de Césarée, témoin de l'époque, décrit des milliers d'Égyptiens morts pour le Christ.",
+   "tip": "Eusèbe = témoin des martyrs.",
+   "extraExample": {
+    "text": "Eusèbe parle aussi de Pantène et de l'Inde.",
+    "translation": "Il écrit l'histoire de l'Église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Jean Cassien",
+     "category": "word_confusion",
+     "feedback": "Jean Cassien fait connaître le monachisme à l'Occident."
+    }
+   ]
+  },
+  {
+   "id": "eg.l103.e03",
+   "unitIds": [
+    "eg.v.pierre_sceau_des_martyrs"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le pape Pierre, sceau des martyrs, meurt martyr en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "325",
+    "311",
+    "451",
+    "303"
+   ],
+   "answer": "311",
+   "acceptedAnswers": [
+    "311"
+   ],
+   "explanation": "Pierre est le dernier martyr de la grande persécution, en 311.",
+   "tip": "311 = Pierre.",
+   "extraExample": {
+    "text": "En 311, Galère signe l'édit de tolérance.",
+    "translation": "La persécution s'arrête."
+   }
+  },
+  {
+   "id": "eg.l103.e04",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.saint_soldat"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi beaucoup de martyrs sont-ils des soldats ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Ils refusent de quitter l'armée",
+    "Ils refusent d'adorer l'empereur",
+    "Ils sont trop pauvres",
+    "Ils refusent de payer l'impôt"
+   ],
+   "answer": "Ils refusent d'adorer l'empereur",
+   "acceptedAnswers": [
+    "Ils refusent d'adorer l'empereur"
+   ],
+   "explanation": "Chaque soldat doit sacrifier à l'empereur : les chrétiens refusent et en meurent.",
+   "tip": "Soldat chrétien = refus du sacrifice.",
+   "extraExample": {
+    "text": "Georges est un saint soldat.",
+    "translation": "Il préfère mourir plutôt qu'adorer l'empereur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Ils refusent de quitter l'armée",
+     "category": "word_confusion",
+     "feedback": "Beaucoup quittent au contraire l'armée, comme Mina, ou refusent seulement le sacrifice."
+    }
+   ]
+  },
+  {
+   "id": "eg.l103.e05",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.prince_des_martyrs"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel saint soldat est appelé le prince des martyrs ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Mina",
+    "Pierre",
+    "Mercure",
+    "Georges"
+   ],
+   "answer": "Georges",
+   "acceptedAnswers": [
+    "Georges"
+   ],
+   "explanation": "Les Coptes appellent Georges le prince des martyrs.",
+   "tip": "Georges = prince.",
+   "extraExample": {
+    "text": "Georges est le prince des martyrs.",
+    "translation": "Beaucoup d'églises coptes portent son nom."
+   }
+  },
+  {
+   "id": "eg.l103.e06",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.saint_georges"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que représente le dragon sur l'icône de saint Georges ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une ville d'Égypte",
+    "La mort du saint",
+    "Un empereur",
+    "Satan"
+   ],
+   "answer": "Satan",
+   "acceptedAnswers": [
+    "Satan"
+   ],
+   "explanation": "Le dragon, image tardive, représente Satan, le mal vaincu par la foi.",
+   "tip": "Dragon = Satan.",
+   "extraExample": {
+    "text": "Mercure est surnommé Abou Sefein.",
+    "translation": "Cela veut dire le père des deux épées."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un empereur",
+     "category": "word_confusion",
+     "feedback": "Le dragon est un symbole du mal, pas une personne réelle."
+    }
+   ]
+  },
+  {
+   "id": "eg.l103.e07",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.saint_mina"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "De quelle ville d'Égypte Mina est-il originaire ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Akhmim",
+    "Alexandrie",
+    "Thèbes",
+    "Nikiou"
+   ],
+   "answer": "Nikiou",
+   "acceptedAnswers": [
+    "Nikiou"
+   ],
+   "explanation": "Mina naît vers 285 à Nikiou, en Égypte.",
+   "tip": "Mina = Nikiou.",
+   "extraExample": {
+    "text": "Les trois saints sont d'anciens soldats romains.",
+    "translation": "Ils refusent d'adorer l'empereur."
+   }
+  },
+  {
+   "id": "eg.l103.e08",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.mariout"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Selon la tradition, quel animal s'arrête près du lac Maryût avec le corps de Mina ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un âne",
+    "Un cheval",
+    "Un chameau",
+    "Un lion"
+   ],
+   "answer": "Un chameau",
+   "acceptedAnswers": [
+    "Un chameau"
+   ],
+   "explanation": "Le chameau qui porte le corps de Mina s'arrête de lui-même : c'est là qu'on l'enterre.",
+   "tip": "Mina et les chameaux.",
+   "extraExample": {
+    "text": "Le chameau s'arrête près du lac Maryût.",
+    "translation": "On y enterre Mina."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un cheval",
+     "category": "word_confusion",
+     "feedback": "Le cheval est l'animal de saint Georges."
+    }
+   ]
+  },
+  {
+   "id": "eg.l103.e09",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.ampoule_de_saint_mina",
+    "eg.v.abou_mina"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle image figure sur les ampoules des pèlerins d'Abou Mina ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une croix",
+    "Georges et son dragon",
+    "Mercure et ses épées",
+    "Mina entre deux chameaux"
+   ],
+   "answer": "Mina entre deux chameaux",
+   "acceptedAnswers": [
+    "Mina entre deux chameaux"
+   ],
+   "explanation": "Les ampoules d'argile portent l'image de Mina entre deux chameaux.",
+   "tip": "Ampoule = Mina + chameaux.",
+   "extraExample": {
+    "text": "Les archéologues retrouvent des ampoules de saint Mina dans toute la Méditerranée.",
+    "translation": "Ce sont des souvenirs de pèlerinage."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Georges et son dragon",
+     "category": "word_confusion",
+     "feedback": "Le dragon est l'image de Georges, pas de Mina."
+    }
+   ]
+  },
+  {
+   "id": "eg.l103.e10",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.abou_sefein"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire le surnom Abou Sefein ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le père des pauvres",
+    "Le sceau des martyrs",
+    "Le père des deux épées",
+    "Le prince des martyrs"
+   ],
+   "answer": "Le père des deux épées",
+   "acceptedAnswers": [
+    "Le père des deux épées"
+   ],
+   "explanation": "Abou Sefein, « père des deux épées », désigne Mercure.",
+   "tip": "Sefein = deux épées.",
+   "extraExample": {
+    "text": "L'église Abou Sefein porte le nom de Mercure.",
+    "translation": "Elle se trouve au Vieux-Caire."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le prince des martyrs",
+     "category": "word_confusion",
+     "feedback": "Le prince des martyrs, c'est Georges."
+    },
+    {
+     "equals": "Le sceau des martyrs",
+     "category": "word_confusion",
+     "feedback": "Le sceau des martyrs, c'est le pape Pierre."
+    }
+   ]
+  },
+  {
+   "id": "eg.l103.e11",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.philopatir_mercure"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui remet une épée brillante à Mercure, selon la tradition ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Saint Marc",
+    "Un moine",
+    "L'archange Michel",
+    "Un empereur"
+   ],
+   "answer": "L'archange Michel",
+   "acceptedAnswers": [
+    "L'archange Michel"
+   ],
+   "explanation": "Selon la tradition, l'archange Michel lui remet une épée brillante avant un combat.",
+   "tip": "Mercure et l'ange.",
+   "extraExample": {
+    "text": "Mercure est un officier romain.",
+    "translation": "Il refuse d'honorer les idoles."
+   }
+  },
+  {
+   "id": "eg.l103.e12",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.philopatir_mercure"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Sous quel empereur Mercure est-il martyrisé ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Dioclétien",
+    "Dèce",
+    "Néron",
+    "Constantin"
+   ],
+   "answer": "Dèce",
+   "acceptedAnswers": [
+    "Dèce"
+   ],
+   "explanation": "Mercure est martyr en 250 sous Dèce, le premier persécuteur général.",
+   "tip": "Mercure = Dèce (250).",
+   "extraExample": {
+    "text": "Mercure est un officier romain.",
+    "translation": "Il refuse d'honorer les idoles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dioclétien",
+     "category": "word_confusion",
+     "feedback": "Dioclétien persécute plus tard, en 303."
+    }
+   ]
+  },
+  {
+   "id": "eg.l103.e13",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.saint_georges"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Georges est martyrisé vers ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "451",
+    "250",
+    "311",
+    "303"
+   ],
+   "answer": "303",
+   "acceptedAnswers": [
+    "303"
+   ],
+   "explanation": "Georges est martyrisé vers 303, au début de la grande persécution de Dioclétien.",
+   "tip": "Georges = 303.",
+   "extraExample": {
+    "text": "Les pèlerins repartent d'Abou Mina avec une ampoule.",
+    "translation": "Elle porte l'image de Mina entre deux chameaux."
+   }
+  },
+  {
+   "id": "eg.l103.e14",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.abou_mina"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Abou Mina est un grand centre de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "chasse",
+    "études",
+    "commerce",
+    "pèlerinage"
+   ],
+   "answer": "pèlerinage",
+   "acceptedAnswers": [
+    "pèlerinage",
+    "pelerinage"
+   ],
+   "explanation": "Sur la tombe de Mina naît un centre de pèlerinage célèbre du Ve au VIIe siècle.",
+   "tip": "Abou Mina = pèlerins.",
+   "extraExample": {
+    "text": "Abou Mina est née autour de la tombe de Mina.",
+    "translation": "Des malades y viennent chercher la guérison."
+   }
+  },
+  {
+   "id": "eg.l103.e15",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.philopatir_mercure"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le nom Philopatir veut dire « qui aime son ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "fils",
+    "père",
+    "frère",
+    "roi"
+   ],
+   "answer": "père",
+   "acceptedAnswers": [
+    "père",
+    "pere"
+   ],
+   "explanation": "Philopatir veut dire « qui aime son père ».",
+   "tip": "Philo = aimer, patir = père.",
+   "extraExample": {
+    "text": "Mercure est un officier romain.",
+    "translation": "Il refuse d'honorer les idoles."
+   }
+  },
+  {
+   "id": "eg.l103.e16",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.saint_georges",
+    "eg.v.saint_mina",
+    "eg.v.pierre_sceau_des_martyrs"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Trois martyrs de la grande persécution",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Georges",
+     "right": "vers 303"
+    },
+    {
+     "left": "Mina",
+     "right": "vers 309"
+    },
+    {
+     "left": "Pierre d'Alexandrie",
+     "right": "311"
+    }
+   ],
+   "answer": "Georges = vers 303 ; Mina = vers 309 ; Pierre d'Alexandrie = 311",
+   "acceptedAnswers": [],
+   "explanation": "Georges, Mina et le pape Pierre meurent entre 303 et 311, pendant la grande persécution."
+  },
+  {
+   "id": "eg.l103.e17",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Un saint, un signe",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Georges",
+     "right": "le dragon"
+    },
+    {
+     "left": "Mina",
+     "right": "les deux chameaux"
+    },
+    {
+     "left": "Mercure",
+     "right": "les deux épées"
+    }
+   ],
+   "answer": "Georges = le dragon ; Mina = les deux chameaux ; Mercure = les deux épées",
+   "acceptedAnswers": [],
+   "explanation": "Georges perce un dragon, Mina est entre deux chameaux, Mercure tient deux épées."
+  },
+  {
+   "id": "eg.l103.e18",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.prince_des_martyrs"
+   ],
+   "type": "reorder",
+   "difficulty": 1,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : le titre de Georges.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Georges",
+    "est",
+    "martyrs",
+    "le",
+    "prince",
+    "des"
+   ],
+   "answer": "Georges est le prince des martyrs",
+   "acceptedAnswers": [
+    "Georges est le prince des martyrs"
+   ],
+   "explanation": "Georges est appelé le prince des martyrs par les Coptes.",
+   "tip": "Georges = prince.",
+   "extraExample": {
+    "text": "Georges est le prince des martyrs.",
+    "translation": "Beaucoup d'églises coptes portent son nom."
+   }
+  },
+  {
+   "id": "eg.l103.e19",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.abou_sefein",
+    "eg.v.philopatir_mercure"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel saint soldat est surnommé Abou Sefein ?",
+   "promptLanguage": "fr",
+   "answer": "Mercure",
+   "acceptedAnswers": [
+    "Mercure",
+    "Philopatir Mercure",
+    "saint Mercure",
+    "Mercurius"
+   ],
+   "explanation": "Mercure est Abou Sefein, le père des deux épées.",
+   "tip": "Abou Sefein = Mercure.",
+   "extraExample": {
+    "text": "L'église Abou Sefein porte le nom de Mercure.",
+    "translation": "Elle se trouve au Vieux-Caire."
+   }
+  },
+  {
+   "id": "eg.l103.e20",
+   "unitIds": [
+    "eg.g103.grands_martyrs_1",
+    "eg.v.saint_mina"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel saint soldat copte est représenté entre deux chameaux ?",
+   "promptLanguage": "fr",
+   "answer": "Mina",
+   "acceptedAnswers": [
+    "Mina",
+    "saint Mina",
+    "Mar Mina",
+    "Menas"
+   ],
+   "explanation": "Mina, soldat de Nikiou, est représenté entre deux chameaux, en souvenir du transport de son corps.",
+   "tip": "Mina = chameaux.",
+   "extraExample": {
+    "text": "Georges est le prince des martyrs.",
+    "translation": "Il est martyrisé vers 303 sous Dioclétien."
+   }
+  }
+ ]
+}

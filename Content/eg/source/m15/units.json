@@ -1,0 +1,90 @@
+[
+ {
+  "id": "eg.g111.langue_des_pharaons",
+  "rule": {
+   "summary": "Le copte est la dernière étape de la langue des anciens Égyptiens, écrite avec l'alphabet grec plus six ou sept lettres venues du démotique. Le dialecte de la liturgie est le bohaïrique.",
+   "explanation": "Les chrétiens d'Égypte ont écrit leur langue avec l'alphabet grec, qu'on connaissait à Alexandrie, et ont ajouté des lettres pour les sons qui n'existaient pas en grec. Ces lettres (ϣ ϥ ϧ ϩ ϫ ϭ, et ϯ qui note « ti ») signalent un mot d'origine égyptienne. Le sahidique (Sud) fut la langue écrite des premiers siècles ; le bohaïrique (Nord) est devenu celui de l'Église. Le copte a aussi absorbé beaucoup de mots grecs, surtout religieux, que le français a souvent gardés (ange, évangile, église).",
+   "pattern": "copte = égyptien + alphabet grec + ϣ ϥ ϧ ϩ ϫ ϭ (ϯ) ; liturgie = bohaïrique",
+   "examples": [
+    {
+     "text": "ⲛⲟⲩϯ, ⲣⲁⲛ, ⲓⲱⲧ, ϣⲏⲣⲓ",
+     "translation": "Dieu, nom, père, fils : des mots égyptiens très anciens."
+    },
+    {
+     "text": "ⲁⲅⲅⲉⲗⲟⲥ",
+     "translation": "Un mot grec : « messager », notre ange."
+    },
+    {
+     "text": "ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ",
+     "translation": "Un mot grec : « bonne nouvelle », l'évangile."
+    },
+    {
+     "text": "ϯⲉⲕⲕⲗⲏⲥⲓⲁ",
+     "translation": "Un mot grec : « l'assemblée », l'Église."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le copte est une langue venue de Grèce.",
+     "right": "Le copte est de l'égyptien ancien écrit avec des lettres grecques.",
+     "why": "L'alphabet est grec, mais la langue est celle des pharaons."
+    },
+    {
+     "wrong": "Le copte est de l'arabe ancien.",
+     "right": "Le copte est bien plus ancien que l'arabe en Égypte.",
+     "why": "L'arabe n'arrive qu'avec la conquête de 641 ; le copte descend de l'égyptien."
+    },
+    {
+     "wrong": "Tous les mots coptes sont égyptiens.",
+     "right": "Beaucoup de mots religieux sont grecs.",
+     "why": "Alexandrie était grecque et la Bible lue était la Septante."
+    }
+   ],
+   "tip": "Lettre spéciale (ϣ ϥ ϧ ϩ ϫ ϭ) = mot égyptien ; ange, évangile, église = mots grecs."
+  }
+ },
+ {
+  "id": "eg.g112.jinkim",
+  "rule": {
+   "summary": "La jinkim est le petit trait placé sur certaines lettres : sur une consonne, elle forme une syllabe à elle seule (on ajoute un « e » devant) ; sur une voyelle, elle se lit à part.",
+   "explanation": "La jinkim (ϫⲓⲛⲕⲓⲙ, « mouvement ») ne change pas le sens, elle guide la lecture. Sur une consonne comme ⲛ̀ ou ⲫ̀, il faut ajouter un petit « e » : ⲛ̀ⲧⲉ se lit « ente », Ⲫ̀ⲛⲟⲩϯ se lit « efnouti ». Sur une voyelle comme ⲉ̀ ou ⲁ̀, elle indique que la voyelle forme une nouvelle syllabe : ⲉ̀ⲃⲟⲗ se lit « evol ». Dans les mots grecs, elle apparaît souvent sur la première de deux consonnes de suite. Les livres l'écrivent plus ou moins : avec ou sans jinkim, c'est le même mot.",
+   "pattern": "consonne + jinkim = « e » + consonne ; voyelle + jinkim = voyelle lue à part",
+   "examples": [
+    {
+     "text": "ⲛ̀ⲧⲉ",
+     "translation": "« ente » : de."
+    },
+    {
+     "text": "Ⲫ̀ⲛⲟⲩϯ",
+     "translation": "« efnouti » : Dieu."
+    },
+    {
+     "text": "ⲉ̀ⲃⲟⲗ",
+     "translation": "« evol » : dehors."
+    },
+    {
+     "text": "ϯⲧ̀ⲣⲓⲁⲥ",
+     "translation": "La Trinité : le ⲧ̀ ajoute un petit « e » avant ⲣ."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La jinkim change le sens du mot.",
+     "right": "Elle ne change que la lecture.",
+     "why": "ⲛ̀ⲧⲉ et ⲛⲧⲉ sont le même mot."
+    },
+    {
+     "wrong": "La jinkim rend la lettre muette.",
+     "right": "Elle ajoute un petit « e » à une consonne, ou détache une voyelle.",
+     "why": "C'est un signe de lecture, pas de silence."
+    },
+    {
+     "wrong": "Si un livre n'a pas de jinkim, le mot est différent.",
+     "right": "C'est le même mot, écrit autrement.",
+     "why": "Selon les éditions, on la met plus ou moins."
+    }
+   ],
+   "tip": "Jinkim sur une consonne = petit « e » devant ; sur une voyelle = lue à part."
+  }
+ }
+]

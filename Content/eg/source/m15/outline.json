@@ -1,0 +1,140 @@
+{
+ "module": {
+  "id": 15,
+  "title": "La langue copte : règles et sens des mots",
+  "description": "Comprendre ce que tu lis et entends à l'église : l'origine du copte, la jinkim, les abréviations, les articles, les mots de tous les jours, les verbes et les mots de la prière, sans apprendre de textes par cœur."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g111.langue_des_pharaons",
+   "category": "knowledge",
+   "title": "Le copte, langue des pharaons écrite en lettres grecques",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g112.jinkim",
+   "category": "reading",
+   "title": "La jinkim, le trait de lecture",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g111.langue_des_pharaons"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l111",
+   "sequence": 111,
+   "title": "Le copte, dernière étape de la langue des pharaons",
+   "description": "D'où vient le copte, pourquoi il s'écrit avec des lettres grecques et égyptiennes, et pourquoi l'Église l'a gardé.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g111.langue_des_pharaons",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.copte",
+    "eg.v.saint_marc",
+    "eg.v.septante",
+    "eg.v.alexandrie"
+   ],
+   "vocabulary": [
+    {
+     "word": "ⲉⲕⲕⲗⲏⲥⲓⲁ",
+     "slug": "cop_ekklesia",
+     "translation": "église (du grec : assemblée)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲁⲅⲅⲉⲗⲟⲥ",
+     "slug": "cop_angelos",
+     "translation": "ange (du grec : messager)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲡⲁⲣⲑⲉⲛⲟⲥ",
+     "slug": "cop_parthenos",
+     "translation": "vierge (mot grec)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ",
+     "slug": "cop_euangelion",
+     "translation": "évangile, bonne nouvelle (mot grec)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲛⲟⲩϯ",
+     "slug": "cop_nouti",
+     "translation": "dieu (mot égyptien)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲣⲁⲛ",
+     "slug": "cop_ran",
+     "translation": "nom (mot égyptien)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲓⲱⲧ",
+     "slug": "cop_iot",
+     "translation": "père (mot égyptien)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ϣⲏⲣⲓ",
+     "slug": "cop_shiri",
+     "translation": "fils (mot égyptien)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l112",
+   "sequence": 112,
+   "title": "La jinkim : comment la lire",
+   "description": "À quoi sert le petit trait sur certaines lettres, et comment il change la lecture.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g112.jinkim",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g111.langue_des_pharaons",
+    "eg.v.cop_shiri",
+    "eg.v.cop_ran"
+   ],
+   "vocabulary": [
+    {
+     "word": "ϫⲓⲛⲕⲓⲙ",
+     "slug": "cop_jinkim",
+     "translation": "la jinkim : « mouvement », le trait sur la lettre",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲛ̀ⲧⲉ",
+     "slug": "cop_nte",
+     "translation": "de (appartenance)",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "ⲉ̀ⲃⲟⲗ",
+     "slug": "cop_evol",
+     "translation": "dehors, hors de",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "ⲁ̀ⲅⲁⲡⲏ",
+     "slug": "cop_agape",
+     "translation": "amour (mot grec : agapè)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ϣⲁ ⲉ̀ⲛⲉϩ",
+     "slug": "cop_sha_enah",
+     "translation": "pour toujours",
+     "partOfSpeech": "expression"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,619 @@
+{
+ "lessonId": "eg.l107",
+ "exercises": [
+  {
+   "id": "eg.l107.e01",
+   "unitIds": [
+    "eg.v.barsoum_le_nu"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Barsoum le Nu ne porte qu'une peau de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "bœuf",
+    "chèvre",
+    "lion",
+    "mouton"
+   ],
+   "answer": "chèvre",
+   "acceptedAnswers": [
+    "chèvre",
+    "chevre"
+   ],
+   "explanation": "Barsoum ne porte qu'une peau de chèvre autour de la taille : c'est pourquoi on l'appelle le Nu.",
+   "tip": "Barsoum = chèvre.",
+   "extraExample": {
+    "text": "Barsoum meurt en 1317.",
+    "translation": "Il est enterré à Shahran."
+   }
+  },
+  {
+   "id": "eg.l107.e02",
+   "unitIds": [
+    "eg.v.saint_synode"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que le Saint-Synode ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Livre des vies de saints",
+    "Liste des papes",
+    "Assemblée des évêques de l'Église",
+    "École de théologie"
+   ],
+   "answer": "Assemblée des évêques de l'Église",
+   "acceptedAnswers": [
+    "Assemblée des évêques de l'Église"
+   ],
+   "explanation": "Le Saint-Synode est l'assemblée des évêques de l'Église, présidée par le pape.",
+   "tip": "Synode = évêques ensemble.",
+   "extraExample": {
+    "text": "Le Saint-Synode canonise les saints.",
+    "translation": "Il décide aussi des affaires de l'Église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Livre des vies de saints",
+     "category": "word_confusion",
+     "feedback": "Un livre de vies de saints, c'est le Synaxaire."
+    }
+   ]
+  },
+  {
+   "id": "eg.l107.e03",
+   "unitIds": [
+    "eg.v.mariout"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape pose en 1959 la première pierre du monastère Saint-Mina au Maryût ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Chenouda III",
+    "Tawadros II",
+    "Cyrille IV",
+    "Cyrille VI"
+   ],
+   "answer": "Cyrille VI",
+   "acceptedAnswers": [
+    "Cyrille VI"
+   ],
+   "explanation": "Le pape Cyrille VI pose en 1959 la première pierre du monastère de Mina près d'Abou Mina.",
+   "tip": "Cyrille VI = monastère de Mina.",
+   "extraExample": {
+    "text": "Cyrille VI est enterré dans ce monastère.",
+    "translation": "Il y repose depuis 1971."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Cyrille IV",
+     "category": "word_confusion",
+     "feedback": "Cyrille IV est un pape du XIXe siècle (1854-1861)."
+    }
+   ]
+  },
+  {
+   "id": "eg.l107.e04",
+   "unitIds": [
+    "eg.v.anba"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Que veut dire le mot Anba (abba) ?",
+   "promptLanguage": "fr",
+   "answer": "Père",
+   "acceptedAnswers": [
+    "Père",
+    "un père"
+   ],
+   "explanation": "Anba, de abba, veut dire père : c'est le titre des moines et des évêques.",
+   "tip": "Anba = père.",
+   "extraExample": {
+    "text": "On dit Anba Bishoy et Anba Abraam.",
+    "translation": "Le titre est celui des évêques et des moines."
+   }
+  },
+  {
+   "id": "eg.l107.e05",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.cyrille_iv"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape du XIXe siècle est surnommé le père de la réforme ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Cyrille VI",
+    "Cyrille IV",
+    "Athanase",
+    "Dioscore"
+   ],
+   "answer": "Cyrille IV",
+   "acceptedAnswers": [
+    "Cyrille IV"
+   ],
+   "explanation": "Cyrille IV (1854-1861) est appelé le père de la réforme.",
+   "tip": "Cyrille IV = XIXe.",
+   "extraExample": {
+    "text": "Cyrille IV est le père de la réforme.",
+    "translation": "Il ouvre des écoles pour les garçons et les filles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Cyrille VI",
+     "category": "word_confusion",
+     "feedback": "Cyrille VI est un pape du XXe siècle (1959-1971)."
+    }
+   ]
+  },
+  {
+   "id": "eg.l107.e06",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.imprimerie"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'installe Cyrille IV pour diffuser les livres de l'Église ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La première imprimerie non gouvernementale",
+    "Une bibliothèque royale",
+    "Un séminaire de pêche",
+    "Une école de peinture"
+   ],
+   "answer": "La première imprimerie non gouvernementale",
+   "acceptedAnswers": [
+    "La première imprimerie non gouvernementale"
+   ],
+   "explanation": "Cyrille IV installe la première imprimerie non gouvernementale d'Égypte.",
+   "tip": "Cyrille IV = imprimerie.",
+   "extraExample": {
+    "text": "L'imprimerie de Cyrille IV produit des livres d'église.",
+    "translation": "Elle diffuse la foi par l'écrit."
+   }
+  },
+  {
+   "id": "eg.l107.e07",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.cyrille_iv"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'ouvre Cyrille IV, y compris pour les filles ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Des hôpitaux militaires",
+    "Des monastères",
+    "Des théâtres",
+    "Des écoles modernes"
+   ],
+   "answer": "Des écoles modernes",
+   "acceptedAnswers": [
+    "Des écoles modernes"
+   ],
+   "explanation": "Cyrille IV ouvre des écoles modernes, y compris pour les filles.",
+   "tip": "Cyrille IV = écoles.",
+   "extraExample": {
+    "text": "Cyrille IV est le père de la réforme.",
+    "translation": "Il ouvre des écoles pour les garçons et les filles."
+   }
+  },
+  {
+   "id": "eg.l107.e08",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.anba_abraam"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel évêque est appelé l'ami des pauvres ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Anba Samuel",
+    "Anba Abraam",
+    "Anba Bishoy",
+    "Cyrille IV"
+   ],
+   "answer": "Anba Abraam",
+   "acceptedAnswers": [
+    "Anba Abraam"
+   ],
+   "explanation": "Anba Abraam donne ses revenus aux pauvres : c'est l'ami des pauvres.",
+   "tip": "Abraam = pauvres.",
+   "extraExample": {
+    "text": "Anba Abraam est l'ami des pauvres.",
+    "translation": "Il est évêque du Fayoum."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Anba Bishoy",
+     "category": "word_confusion",
+     "feedback": "Bishoy est un moine de Scété, mort en 417."
+    }
+   ]
+  },
+  {
+   "id": "eg.l107.e09",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.anba_abraam"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "De quel diocèse Anba Abraam est-il évêque ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Du Fayoum et de Gizeh",
+    "De Haute-Égypte",
+    "D'Alexandrie",
+    "Du Caire seulement"
+   ],
+   "answer": "Du Fayoum et de Gizeh",
+   "acceptedAnswers": [
+    "Du Fayoum et de Gizeh"
+   ],
+   "explanation": "En 1881, Abraam est nommé évêque du Fayoum et de Gizeh.",
+   "tip": "Abraam = Fayoum.",
+   "extraExample": {
+    "text": "Anba Abraam est l'ami des pauvres.",
+    "translation": "Il est évêque du Fayoum."
+   }
+  },
+  {
+   "id": "eg.l107.e10",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.habib_guirguis"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel laïc rassemble des enfants le dimanche dès 1898 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Chénouté",
+    "Anba Abraam",
+    "Origène",
+    "Habib Guirguis"
+   ],
+   "answer": "Habib Guirguis",
+   "acceptedAnswers": [
+    "Habib Guirguis"
+   ],
+   "explanation": "Dès 1898, Habib Guirguis rassemble des enfants le dimanche : ce sont les écoles du dimanche.",
+   "tip": "Habib Guirguis = dimanche.",
+   "extraExample": {
+    "text": "Habib Guirguis rassemble des enfants dès 1898.",
+    "translation": "Il leur enseigne la foi."
+   }
+  },
+  {
+   "id": "eg.l107.e11",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.ecoles_du_dimanche"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape fut professeur d'école du dimanche avant de devenir pape ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Cyrille IV",
+    "Tawadros II",
+    "Chenouda III",
+    "Cyrille VI"
+   ],
+   "answer": "Chenouda III",
+   "acceptedAnswers": [
+    "Chenouda III"
+   ],
+   "explanation": "Chenouda III a enseigné dans les écoles du dimanche avant de devenir le 117e pape.",
+   "tip": "Les écoles du dimanche forment les futurs papes.",
+   "extraExample": {
+    "text": "Les écoles du dimanche enseignent le Credo.",
+    "translation": "Elles ont environ 650 branches en 1951."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Cyrille VI",
+     "category": "word_confusion",
+     "feedback": "Cyrille VI a surtout été moine de prière."
+    }
+   ]
+  },
+  {
+   "id": "eg.l107.e12",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.canonisation"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui décide la canonisation d'un saint dans l'Église copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le patriarche grec",
+    "Le gouvernement",
+    "Les fidèles par vote",
+    "Le Saint-Synode"
+   ],
+   "answer": "Le Saint-Synode",
+   "acceptedAnswers": [
+    "Le Saint-Synode"
+   ],
+   "explanation": "La canonisation est la proclamation officielle d'un saint par le Saint-Synode.",
+   "tip": "Canonisation = Saint-Synode.",
+   "extraExample": {
+    "text": "La canonisation est décidée par le Saint-Synode.",
+    "translation": "Elle inscrit le saint dans la liste de l'Église."
+   }
+  },
+  {
+   "id": "eg.l107.e13",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.cyrille_iv"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Cyrille IV est surnommé le père de la ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "liturgie",
+    "réforme",
+    "foi",
+    "prière"
+   ],
+   "answer": "réforme",
+   "acceptedAnswers": [
+    "réforme",
+    "reforme"
+   ],
+   "explanation": "Cyrille IV est le père de la réforme : imprimerie, écoles, biens de l'Église.",
+   "tip": "Cyrille IV = réforme.",
+   "extraExample": {
+    "text": "Cyrille IV est le père de la réforme.",
+    "translation": "Il ouvre des écoles pour les garçons et les filles."
+   }
+  },
+  {
+   "id": "eg.l107.e14",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.anba_abraam",
+    "eg.v.canonisation"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Anba Abraam est canonisé en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1964",
+    "1951",
+    "1914",
+    "2013"
+   ],
+   "answer": "1964",
+   "acceptedAnswers": [
+    "1964"
+   ],
+   "explanation": "Le Saint-Synode canonise Anba Abraam en 1964.",
+   "tip": "Abraam = 1964.",
+   "extraExample": {
+    "text": "Anba Abraam est l'ami des pauvres.",
+    "translation": "Il est évêque du Fayoum."
+   }
+  },
+  {
+   "id": "eg.l107.e15",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.seminaire_copte",
+    "eg.v.habib_guirguis"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Habib Guirguis est doyen du séminaire copte de 1918 à ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1898",
+    "1951",
+    "1964",
+    "2013"
+   ],
+   "answer": "1951",
+   "acceptedAnswers": [
+    "1951"
+   ],
+   "explanation": "Habib Guirguis est doyen de 1918 à 1951, année de sa mort.",
+   "tip": "Habib = 1918-1951.",
+   "extraExample": {
+    "text": "Habib Guirguis est le premier étudiant du séminaire copte.",
+    "translation": "Il en devient le doyen."
+   }
+  },
+  {
+   "id": "eg.l107.e16",
+   "unitIds": [
+    "eg.g107.reformateurs"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Trois réveilleurs, trois gestes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Cyrille IV",
+     "right": "imprimerie et écoles"
+    },
+    {
+     "left": "Anba Abraam",
+     "right": "l'ami des pauvres"
+    },
+    {
+     "left": "Habib Guirguis",
+     "right": "écoles du dimanche"
+    }
+   ],
+   "answer": "Cyrille IV = imprimerie et écoles ; Anba Abraam = l'ami des pauvres ; Habib Guirguis = écoles du dimanche",
+   "acceptedAnswers": [],
+   "explanation": "Cyrille IV (livres et écoles), Anba Abraam (charité), Habib Guirguis (enseignement)."
+  },
+  {
+   "id": "eg.l107.e17",
+   "unitIds": [
+    "eg.g107.reformateurs"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Des dates à retenir",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1881",
+     "right": "Abraam évêque du Fayoum"
+    },
+    {
+     "left": "1918",
+     "right": "l'Église adopte les écoles du dimanche"
+    },
+    {
+     "left": "1964",
+     "right": "Abraam canonisé"
+    },
+    {
+     "left": "2013",
+     "right": "Habib Guirguis canonisé"
+    }
+   ],
+   "answer": "1881 = Abraam évêque du Fayoum ; 1918 = l'Église adopte les écoles du dimanche ; 1964 = Abraam canonisé ; 2013 = Habib Guirguis canonisé",
+   "acceptedAnswers": [],
+   "explanation": "1881 (Abraam évêque), 1918 (écoles du dimanche), 1964 (Abraam saint), 2013 (Habib Guirguis saint)."
+  },
+  {
+   "id": "eg.l107.e18",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.habib_guirguis"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : l'archidiacre des enfants.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Guirguis",
+    "est",
+    "du",
+    "dimanche",
+    "l'archidiacre",
+    "Habib",
+    "écoles",
+    "des"
+   ],
+   "answer": "Habib Guirguis est l'archidiacre des écoles du dimanche",
+   "acceptedAnswers": [
+    "Habib Guirguis est l'archidiacre des écoles du dimanche"
+   ],
+   "explanation": "Habib Guirguis est le laïc qui organise les écoles du dimanche.",
+   "tip": "Habib = dimanche.",
+   "extraExample": {
+    "text": "Habib Guirguis rassemble des enfants dès 1898.",
+    "translation": "Il leur enseigne la foi."
+   }
+  },
+  {
+   "id": "eg.l107.e19",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.cyrille_iv"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel pape du XIXe siècle est le père de la réforme ?",
+   "promptLanguage": "fr",
+   "answer": "Cyrille IV",
+   "acceptedAnswers": [
+    "Cyrille IV",
+    "Cyrille 4",
+    "le pape Cyrille IV"
+   ],
+   "explanation": "Cyrille IV installe l'imprimerie et ouvre des écoles modernes.",
+   "tip": "Cyrille IV = réforme.",
+   "extraExample": {
+    "text": "Cyrille IV est le père de la réforme.",
+    "translation": "Il ouvre des écoles pour les garçons et les filles."
+   }
+  },
+  {
+   "id": "eg.l107.e20",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.habib_guirguis"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel archidiacre laïc fonde les écoles du dimanche ?",
+   "promptLanguage": "fr",
+   "answer": "Habib Guirguis",
+   "acceptedAnswers": [
+    "Habib Guirguis",
+    "Habib Girgis",
+    "l'archidiacre Habib Guirguis"
+   ],
+   "explanation": "Habib Guirguis rassemble les enfants et devient doyen du séminaire.",
+   "tip": "Habib = écoles du dimanche.",
+   "extraExample": {
+    "text": "Habib Guirguis rassemble des enfants dès 1898.",
+    "translation": "Il leur enseigne la foi."
+   }
+  },
+  {
+   "id": "eg.l107.e21",
+   "unitIds": [
+    "eg.g107.reformateurs",
+    "eg.v.anba_abraam"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel évêque du Fayoum est l'ami des pauvres ?",
+   "promptLanguage": "fr",
+   "answer": "Anba Abraam",
+   "acceptedAnswers": [
+    "Anba Abraam",
+    "Abraam",
+    "saint Abraam"
+   ],
+   "explanation": "Anba Abraam donne ses revenus aux pauvres ; il est canonisé en 1964.",
+   "tip": "Abraam = pauvres.",
+   "extraExample": {
+    "text": "Anba Abraam est l'ami des pauvres.",
+    "translation": "Il est évêque du Fayoum."
+   }
+  }
+ ]
+}

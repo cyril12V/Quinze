@@ -1,0 +1,604 @@
+{
+ "lessonId": "eg.l104",
+ "exercises": [
+  {
+   "id": "eg.l104.e01",
+   "unitIds": [
+    "eg.v.abou_mina"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle ville de pèlerinage est née sur la tombe de saint Mina ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Nikiou",
+    "Qalamoun",
+    "Abou Sefein",
+    "Abou Mina"
+   ],
+   "answer": "Abou Mina",
+   "acceptedAnswers": [
+    "Abou Mina"
+   ],
+   "explanation": "Abou Mina, près d'Alexandrie, est le grand centre de pèlerinage né autour de la tombe de Mina.",
+   "tip": "Abou Mina = tombe de Mina.",
+   "extraExample": {
+    "text": "Les pèlerins repartent avec des ampoules.",
+    "translation": "Elles portent l'image de Mina."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Nikiou",
+     "category": "word_confusion",
+     "feedback": "Nikiou est la ville natale de Mina, pas la ville de pèlerinage."
+    }
+   ]
+  },
+  {
+   "id": "eg.l104.e02",
+   "unitIds": [
+    "eg.v.synaxaire"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que le Synaxaire ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Recueil de canons",
+    "Livre de vies de saints",
+    "Livre de psaumes",
+    "Liste des papes"
+   ],
+   "answer": "Livre de vies de saints",
+   "acceptedAnswers": [
+    "Livre de vies de saints"
+   ],
+   "explanation": "Le Synaxaire est un livre de vies de saints, lu jour après jour.",
+   "tip": "Synaxaire = vies de saints.",
+   "extraExample": {
+    "text": "On y lit la vie du saint du jour.",
+    "translation": "Chaque jour a ses saints."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Liste des papes",
+     "category": "word_confusion",
+     "feedback": "La liste des papes numérote les successeurs de saint Marc, ce n'est pas le Synaxaire."
+    }
+   ]
+  },
+  {
+   "id": "eg.l104.e03",
+   "unitIds": [
+    "eg.v.martyr"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire le mot martyr, en grec ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Prophète",
+    "Témoin",
+    "Soldat",
+    "Ermite"
+   ],
+   "answer": "Témoin",
+   "acceptedAnswers": [
+    "Témoin"
+   ],
+   "explanation": "Martyr vient du grec « témoin » : le martyr témoigne de sa foi jusqu'à la mort.",
+   "tip": "Martyr = témoin.",
+   "extraExample": {
+    "text": "Le sang des martyrs est une semence de chrétiens.",
+    "translation": "Leur témoignage fait grandir l'Église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Soldat",
+     "category": "word_confusion",
+     "feedback": "Georges, Mina et Mercure sont des soldats, mais le mot martyr veut dire témoin."
+    }
+   ]
+  },
+  {
+   "id": "eg.l104.e04",
+   "unitIds": [
+    "eg.v.philopatir_mercure"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Philopatir Mercure est martyrisé sous l'empereur ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Néron",
+    "Constantin",
+    "Dioclétien",
+    "Dèce"
+   ],
+   "answer": "Dèce",
+   "acceptedAnswers": [
+    "Dèce",
+    "Dece"
+   ],
+   "explanation": "Mercure est martyr vers 250 sous Dèce, le premier persécuteur général.",
+   "tip": "Mercure = Dèce.",
+   "extraExample": {
+    "text": "Mercure est Abou Sefein.",
+    "translation": "Le père des deux épées."
+   }
+  },
+  {
+   "id": "eg.l104.e05",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.saint_abanoub"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel âge a Abanoub, selon la tradition, quand il refuse d'adorer les idoles ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Douze ans",
+    "Sept ans",
+    "Seize ans",
+    "Vingt ans"
+   ],
+   "answer": "Douze ans",
+   "acceptedAnswers": [
+    "Douze ans"
+   ],
+   "explanation": "Abanoub est un enfant de douze ans : c'est pourquoi on l'appelle l'enfant martyr.",
+   "tip": "Abanoub = douze ans.",
+   "extraExample": {
+    "text": "Abanoub est l'enfant martyr.",
+    "translation": "Beaucoup d'églises portent son nom."
+   }
+  },
+  {
+   "id": "eg.l104.e06",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.saint_abanoub"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quelle région d'Égypte Abanoub est-il né ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Delta",
+    "Le Sinaï",
+    "La Haute-Égypte",
+    "Le Fayoum"
+   ],
+   "answer": "Le Delta",
+   "acceptedAnswers": [
+    "Le Delta"
+   ],
+   "explanation": "Abanoub naît à Nehisa, dans le Delta.",
+   "tip": "Abanoub = Delta.",
+   "extraExample": {
+    "text": "Abanoub est l'enfant martyr.",
+    "translation": "Beaucoup d'églises portent son nom."
+   }
+  },
+  {
+   "id": "eg.l104.e07",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.sainte_demiana"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle jeune femme, fille d'un gouverneur, demande un palais pour y vivre en prière ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Démiana",
+    "Barbara",
+    "Catherine",
+    "Marina"
+   ],
+   "answer": "Démiana",
+   "acceptedAnswers": [
+    "Démiana"
+   ],
+   "explanation": "Démiana demande à son père Marc un palais pour y vivre en prière avec quarante jeunes filles.",
+   "tip": "Démiana = palais + quarante.",
+   "extraExample": {
+    "text": "Démiana demande un palais à son père.",
+    "translation": "Elle y vit avec quarante jeunes filles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Barbara",
+     "category": "word_confusion",
+     "feedback": "Barbara est enfermée dans une tour par son père."
+    }
+   ]
+  },
+  {
+   "id": "eg.l104.e08",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.quarante_vierges"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de jeunes filles vivent avec Démiana ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Cinquante",
+    "Soixante-dix",
+    "Douze",
+    "Quarante"
+   ],
+   "answer": "Quarante",
+   "acceptedAnswers": [
+    "Quarante"
+   ],
+   "explanation": "Les quarante vierges vivent avec Démiana et meurent martyres avec elle.",
+   "tip": "Quarante vierges.",
+   "extraExample": {
+    "text": "Les quarante vierges refusent d'adorer les idoles.",
+    "translation": "Elles suivent Démiana jusqu'au bout."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Cinquante",
+     "category": "word_confusion",
+     "feedback": "Cinquante est le nombre de philosophes qui affrontent Catherine."
+    }
+   ]
+  },
+  {
+   "id": "eg.l104.e09",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.sainte_catherine"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que se passe-t-il face aux cinquante philosophes que Catherine affronte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Elle s'enfuit",
+    "Elle perd le débat",
+    "Elle se tait",
+    "Elle gagne le débat"
+   ],
+   "answer": "Elle gagne le débat",
+   "acceptedAnswers": [
+    "Elle gagne le débat"
+   ],
+   "explanation": "Selon la tradition, Catherine gagne le débat par sa sagesse.",
+   "tip": "Catherine = sagesse.",
+   "extraExample": {
+    "text": "Catherine est la patronne des étudiants.",
+    "translation": "Son attribut est la roue."
+   }
+  },
+  {
+   "id": "eg.l104.e10",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.sainte_catherine"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel instrument de torture se brise au contact de Catherine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La croix",
+    "La chaîne",
+    "La roue",
+    "L'épée"
+   ],
+   "answer": "La roue",
+   "acceptedAnswers": [
+    "La roue"
+   ],
+   "explanation": "La roue prévue pour la torturer se brise, et Catherine est décapitée.",
+   "tip": "Catherine = roue.",
+   "extraExample": {
+    "text": "Catherine est la patronne des étudiants.",
+    "translation": "Son attribut est la roue."
+   }
+  },
+  {
+   "id": "eg.l104.e11",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.sainte_barbara"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Où Barbara est-elle enfermée par son père ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Dans une tour",
+    "Dans un monastère",
+    "Dans une grotte",
+    "Dans un palais"
+   ],
+   "answer": "Dans une tour",
+   "acceptedAnswers": [
+    "Dans une tour"
+   ],
+   "explanation": "Le père de Barbara l'enferme dans une tour pour la protéger du monde.",
+   "tip": "Barbara = tour.",
+   "extraExample": {
+    "text": "Barbara est enfermée dans une tour.",
+    "translation": "Elle devient chrétienne en secret."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dans un palais",
+     "category": "word_confusion",
+     "feedback": "Le palais est celui de Démiana."
+    }
+   ]
+  },
+  {
+   "id": "eg.l104.e12",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.sainte_demiana"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Démiana vit en prière dans un ___ avec quarante compagnes.",
+   "promptLanguage": "fr",
+   "options": [
+    "désert",
+    "bateau",
+    "palais",
+    "monastère"
+   ],
+   "answer": "palais",
+   "acceptedAnswers": [
+    "palais"
+   ],
+   "explanation": "Démiana demande à son père un palais pour y vivre avec ses quarante compagnes.",
+   "tip": "Palais de Démiana.",
+   "extraExample": {
+    "text": "Démiana demande un palais à son père.",
+    "translation": "Elle y vit avec quarante jeunes filles."
+   }
+  },
+  {
+   "id": "eg.l104.e13",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.sainte_catherine"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Catherine est la patronne des ___ et des philosophes.",
+   "promptLanguage": "fr",
+   "options": [
+    "soldats",
+    "enfants",
+    "pèlerins",
+    "étudiants"
+   ],
+   "answer": "étudiants",
+   "acceptedAnswers": [
+    "étudiants",
+    "etudiants"
+   ],
+   "explanation": "Catherine, savante, est invoquée comme patronne des étudiants et des philosophes.",
+   "tip": "Catherine = savantes.",
+   "extraExample": {
+    "text": "Catherine est la patronne des étudiants.",
+    "translation": "Son attribut est la roue."
+   }
+  },
+  {
+   "id": "eg.l104.e14",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.sainte_barbara"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Barbara est enfermée par son père dans une ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "tente",
+    "prison",
+    "tour",
+    "grotte"
+   ],
+   "answer": "tour",
+   "acceptedAnswers": [
+    "tour"
+   ],
+   "explanation": "La tour est le signe de Barbara sur ses icônes.",
+   "tip": "Barbara = tour.",
+   "extraExample": {
+    "text": "Barbara est enfermée dans une tour.",
+    "translation": "Elle devient chrétienne en secret."
+   }
+  },
+  {
+   "id": "eg.l104.e15",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Un martyr, un signe",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Abanoub",
+     "right": "l'enfant martyr"
+    },
+    {
+     "left": "Démiana",
+     "right": "les quarante vierges"
+    },
+    {
+     "left": "Catherine",
+     "right": "la roue"
+    },
+    {
+     "left": "Barbara",
+     "right": "la tour"
+    }
+   ],
+   "answer": "Abanoub = l'enfant martyr ; Démiana = les quarante vierges ; Catherine = la roue ; Barbara = la tour",
+   "acceptedAnswers": [],
+   "explanation": "Chaque martyr a son signe : l'enfant, les quarante compagnes, la roue brisée, la tour."
+  },
+  {
+   "id": "eg.l104.e16",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Un saint, un lieu",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Abanoub",
+     "right": "Nehisa"
+    },
+    {
+     "left": "Démiana",
+     "right": "Belqas"
+    },
+    {
+     "left": "Barbara",
+     "right": "Vieux-Caire"
+    },
+    {
+     "left": "Catherine",
+     "right": "Alexandrie"
+    }
+   ],
+   "answer": "Abanoub = Nehisa ; Démiana = Belqas ; Barbara = Vieux-Caire ; Catherine = Alexandrie",
+   "acceptedAnswers": [],
+   "explanation": "Nehisa (Abanoub), Belqas (le couvent de Démiana), le Vieux-Caire (l'église Sainte-Barbara) et Alexandrie (Catherine)."
+  },
+  {
+   "id": "eg.l104.e17",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.saint_abanoub"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : le plus jeune des martyrs.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "ans",
+    "de",
+    "douze",
+    "l'enfant",
+    "est",
+    "martyr",
+    "Abanoub"
+   ],
+   "answer": "Abanoub est l'enfant martyr de douze ans",
+   "acceptedAnswers": [
+    "Abanoub est l'enfant martyr de douze ans"
+   ],
+   "explanation": "Abanoub est un enfant de douze ans, martyr sous Dioclétien.",
+   "tip": "Abanoub = douze ans.",
+   "extraExample": {
+    "text": "Abanoub est l'enfant martyr.",
+    "translation": "Beaucoup d'églises portent son nom."
+   }
+  },
+  {
+   "id": "eg.l104.e18",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.hagiographie"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on le récit de la vie d'un saint ?",
+   "promptLanguage": "fr",
+   "answer": "L'hagiographie",
+   "acceptedAnswers": [
+    "L'hagiographie",
+    "hagiographie",
+    "une hagiographie"
+   ],
+   "explanation": "L'hagiographie raconte la vie d'un saint, avec ses détails parfois discutés.",
+   "tip": "Hagio = saint.",
+   "extraExample": {
+    "text": "La vie de Catherine est connue par l'hagiographie.",
+    "translation": "Elle a été écrite longtemps après."
+   }
+  },
+  {
+   "id": "eg.l104.e19",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.saint_abanoub"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel martyr de douze ans est appelé l'enfant martyr ?",
+   "promptLanguage": "fr",
+   "answer": "Abanoub",
+   "acceptedAnswers": [
+    "Abanoub",
+    "saint Abanoub",
+    "Apanoub"
+   ],
+   "explanation": "Abanoub est l'enfant martyr, né à Nehisa.",
+   "tip": "Abanoub = enfant.",
+   "extraExample": {
+    "text": "Abanoub est l'enfant martyr.",
+    "translation": "Beaucoup d'églises portent son nom."
+   }
+  },
+  {
+   "id": "eg.l104.e20",
+   "unitIds": [
+    "eg.g104.grands_martyrs_2",
+    "eg.v.sainte_demiana"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle sainte vit dans un palais avec quarante vierges ?",
+   "promptLanguage": "fr",
+   "answer": "Démiana",
+   "acceptedAnswers": [
+    "Démiana",
+    "Demiana",
+    "sainte Démiana"
+   ],
+   "explanation": "Démiana est la fille du gouverneur Marc ; elle meurt martyre avec ses quarante compagnes.",
+   "tip": "Démiana = quarante.",
+   "extraExample": {
+    "text": "Démiana demande un palais à son père.",
+    "translation": "Elle y vit avec quarante jeunes filles."
+   }
+  }
+ ]
+}

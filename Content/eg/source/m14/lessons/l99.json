@@ -1,0 +1,657 @@
+{
+ "lessonId": "eg.l99",
+ "exercises": [
+  {
+   "id": "eg.l99.e01",
+   "unitIds": [
+    "eg.v.heraclas"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape d'Alexandrie est le premier à porter le titre de « pape » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Héraclas",
+    "Denys",
+    "Démétrios",
+    "Athanase"
+   ],
+   "answer": "Héraclas",
+   "acceptedAnswers": [
+    "Héraclas"
+   ],
+   "explanation": "Le titre de pape, « père », est donné à l'évêque d'Alexandrie depuis Héraclas, treizième évêque.",
+   "tip": "Héraclas = 13e = premier pape.",
+   "extraExample": {
+    "text": "Denys est le 14e pape.",
+    "translation": "Il succède à Héraclas."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Démétrios",
+     "category": "word_confusion",
+     "feedback": "Démétrios est le 12e évêque, juste avant Héraclas."
+    }
+   ]
+  },
+  {
+   "id": "eg.l99.e02",
+   "unitIds": [
+    "eg.v.saint_marc"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui a fondé l'Église d'Alexandrie, et son école selon la tradition ?",
+   "promptLanguage": "fr",
+   "options": [
+    "saint Marc",
+    "saint Paul",
+    "saint Pierre",
+    "Anianus"
+   ],
+   "answer": "saint Marc",
+   "acceptedAnswers": [
+    "saint Marc"
+   ],
+   "explanation": "Saint Marc fonde l'Église d'Alexandrie, et la tradition lui attribue aussi l'origine de l'école catéchétique.",
+   "tip": "Marc = fondateur d'Alexandrie.",
+   "extraExample": {
+    "text": "Marc ordonne Anianus évêque.",
+    "translation": "Anianus est son premier successeur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Anianus",
+     "category": "word_confusion",
+     "feedback": "Anianus est le premier converti de Marc, ordonné évêque ensuite, pas le fondateur."
+    }
+   ]
+  },
+  {
+   "id": "eg.l99.e03",
+   "unitIds": [
+    "eg.v.saint_demetrios"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Démétrios, le XIIe pape d'Alexandrie, est surnommé le ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "forgeron",
+    "vigneron",
+    "berger",
+    "pêcheur"
+   ],
+   "answer": "vigneron",
+   "acceptedAnswers": [
+    "vigneron"
+   ],
+   "explanation": "Un ange avait annoncé qu'un homme viendrait avec une grappe de raisin hors saison : ce fut Démétrios.",
+   "tip": "Démétrios = le vigneron.",
+   "extraExample": {
+    "text": "Il règle les jeûnes et les fêtes.",
+    "translation": "Il fait briller l'École d'Alexandrie."
+   }
+  },
+  {
+   "id": "eg.l99.e04",
+   "unitIds": [
+    "eg.v.denys_d_alexandrie"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel pape, 14e d'Alexandrie et successeur d'Héraclas, a écrit une lettre contre Paul de Samosate ?",
+   "promptLanguage": "fr",
+   "answer": "Denys",
+   "acceptedAnswers": [
+    "Denys",
+    "Denys d'Alexandrie",
+    "le pape Denys"
+   ],
+   "explanation": "Le pape Denys, trop âgé pour aller à Antioche, écrit une lettre qui affirme que le Fils est consubstantiel au Père.",
+   "tip": "Denys = le 14e pape.",
+   "extraExample": {
+    "text": "Denys a dirigé l'École avant d'être pape.",
+    "translation": "L'École forme les chefs de l'Église."
+   }
+  },
+  {
+   "id": "eg.l99.e05",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.catechumene"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À qui l'École d'Alexandrie s'adresse-t-elle d'abord ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les moines du désert",
+    "Les catéchumènes",
+    "Les empereurs",
+    "Les évêques"
+   ],
+   "answer": "Les catéchumènes",
+   "acceptedAnswers": [
+    "Les catéchumènes"
+   ],
+   "explanation": "L'École naît pour instruire les catéchumènes, ceux qui se préparent au baptême.",
+   "tip": "École = catéchèse d'abord.",
+   "extraExample": {
+    "text": "Clément écrit le Pédagogue et les Stromates.",
+    "translation": "Il explique la foi à des lecteurs cultivés."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les évêques",
+     "category": "word_confusion",
+     "feedback": "Les évêques sont déjà formés. L'École s'ouvre d'abord à ceux qui vont recevoir le baptême."
+    }
+   ]
+  },
+  {
+   "id": "eg.l99.e06",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.ecole_d_alexandrie"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle école est considérée comme la première école de théologie chrétienne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'École de Nicée",
+    "L'École d'Antioche",
+    "L'École d'Alexandrie",
+    "L'École de Rome"
+   ],
+   "answer": "L'École d'Alexandrie",
+   "acceptedAnswers": [
+    "L'École d'Alexandrie"
+   ],
+   "explanation": "L'École d'Alexandrie, fondée selon la tradition par saint Marc, est la première école de théologie.",
+   "tip": "Alexandrie = première école de théologie.",
+   "extraExample": {
+    "text": "L'École d'Alexandrie forme des catéchumènes.",
+    "translation": "Elle prépare au baptême."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'École d'Antioche",
+     "category": "word_confusion",
+     "feedback": "L'École d'Antioche existe aussi (tu l'as vue avec Nestorius), mais l'École d'Alexandrie est la première."
+    }
+   ]
+  },
+  {
+   "id": "eg.l99.e07",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.pantene"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui est le philosophe stoïcien converti, maître de Clément ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Pantène",
+    "Didyme",
+    "Origène",
+    "Héraclas"
+   ],
+   "answer": "Pantène",
+   "acceptedAnswers": [
+    "Pantène"
+   ],
+   "explanation": "Pantène est un ancien philosophe stoïcien devenu chrétien, qui dirige l'École vers 180.",
+   "tip": "Pantène = le premier maître, avant Clément.",
+   "extraExample": {
+    "text": "Pantène était philosophe avant d'être chrétien.",
+    "translation": "Il relie raison et foi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Origène",
+     "category": "word_confusion",
+     "feedback": "Origène vient plus tard, après Clément."
+    }
+   ]
+  },
+  {
+   "id": "eg.l99.e08",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.hexaples"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle œuvre d'Origène présente la Bible en six colonnes ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Hexaples",
+    "Le Pédagogue",
+    "Sur l'incarnation du Verbe",
+    "Les Stromates"
+   ],
+   "answer": "Les Hexaples",
+   "acceptedAnswers": [
+    "Les Hexaples"
+   ],
+   "explanation": "Les Hexaples comparent en six colonnes le texte hébreu et plusieurs traductions grecques.",
+   "tip": "Hexa = six.",
+   "extraExample": {
+    "text": "Les Hexaples comparent six versions du texte.",
+    "translation": "C'est un outil de travail pour les savants."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les Stromates",
+     "category": "word_confusion",
+     "feedback": "Les Stromates sont de Clément."
+    },
+    {
+     "equals": "Sur l'incarnation du Verbe",
+     "category": "word_confusion",
+     "feedback": "Ce livre est d'Athanase."
+    }
+   ]
+  },
+  {
+   "id": "eg.l99.e09",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.clement_d_alexandrie"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que pense Clément de la philosophie grecque ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une religion rivale",
+    "Une inutilité",
+    "Une préparation à l'Évangile",
+    "Un danger à fuir"
+   ],
+   "answer": "Une préparation à l'Évangile",
+   "acceptedAnswers": [
+    "Une préparation à l'Évangile"
+   ],
+   "explanation": "Pour Clément, la philosophie grecque est une préparation à l'Évangile, comme la Loi pour les Juifs.",
+   "tip": "Clément : la raison prépare la foi.",
+   "extraExample": {
+    "text": "Clément écrit les Stromates.",
+    "translation": "C'est un recueil de réflexions sur la foi et la philosophie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un danger à fuir",
+     "category": "word_confusion",
+     "feedback": "C'est la position inverse. Clément y voit un chemin vers l'Évangile."
+    }
+   ]
+  },
+  {
+   "id": "eg.l99.e10",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.origene"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que dit-on d'Origène aujourd'hui dans l'Église ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Certaines de ses idées ont été rejetées",
+    "Il est condamné comme hérétique pour toute son œuvre",
+    "Il est le fondateur de l'École",
+    "Il n'a jamais enseigné à Alexandrie"
+   ],
+   "answer": "Certaines de ses idées ont été rejetées",
+   "acceptedAnswers": [
+    "Certaines de ses idées ont été rejetées"
+   ],
+   "explanation": "Origène est un grand savant, mais certaines de ses idées ont été rejetées par l'Église plus tard.",
+   "tip": "Admirer l'œuvre, nuancer les idées.",
+   "extraExample": {
+    "text": "Origène compose les Hexaples.",
+    "translation": "Il compare les textes de l'Ancien Testament."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il est le fondateur de l'École",
+     "category": "word_confusion",
+     "feedback": "Selon la tradition, c'est saint Marc qui fonde l'École."
+    }
+   ]
+  },
+  {
+   "id": "eg.l99.e11",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.origene"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Où Origène s'installe-t-il après son désaccord avec le pape Démétrios ?",
+   "promptLanguage": "fr",
+   "options": [
+    "À Césarée de Palestine",
+    "À Rome",
+    "À Carthage",
+    "À Antioche"
+   ],
+   "answer": "À Césarée de Palestine",
+   "acceptedAnswers": [
+    "À Césarée de Palestine"
+   ],
+   "explanation": "Vers 231, Origène s'installe à Césarée de Palestine, où il continue à enseigner.",
+   "tip": "Origène quitte Alexandrie pour Césarée.",
+   "extraExample": {
+    "text": "Origène compose les Hexaples.",
+    "translation": "Il compare les textes de l'Ancien Testament."
+   }
+  },
+  {
+   "id": "eg.l99.e12",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.didyme_l_aveugle"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel maître d'Alexandrie a perdu la vue à quatre ans ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Didyme l'Aveugle",
+    "Pantène",
+    "Origène",
+    "Clément"
+   ],
+   "answer": "Didyme l'Aveugle",
+   "acceptedAnswers": [
+    "Didyme l'Aveugle"
+   ],
+   "explanation": "Didyme perd la vue à quatre ans, avant de savoir lire, et devient pourtant un grand maître grâce à sa mémoire.",
+   "tip": "Aveugle = Didyme.",
+   "extraExample": {
+    "text": "Didyme est aveugle depuis l'enfance.",
+    "translation": "Il apprend grâce à sa mémoire."
+   }
+  },
+  {
+   "id": "eg.l99.e13",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.origene"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Origène est le fils du martyr ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Polycarpe",
+    "Ignace",
+    "Léonide",
+    "Pierre"
+   ],
+   "answer": "Léonide",
+   "acceptedAnswers": [
+    "Léonide",
+    "Leonide"
+   ],
+   "explanation": "Le père d'Origène, Léonide, meurt martyr, et Origène enseigne dès ses 18 ans.",
+   "tip": "Origène, fils de Léonide.",
+   "extraExample": {
+    "text": "Origène voulait mourir avec son père.",
+    "translation": "Sa mère l'en a empêché, dit la tradition."
+   }
+  },
+  {
+   "id": "eg.l99.e14",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.clement_d_alexandrie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Clément d'Alexandrie a écrit le ___, un livre sur la conduite chrétienne.",
+   "promptLanguage": "fr",
+   "options": [
+    "Credo",
+    "Tome",
+    "Synaxaire",
+    "Pédagogue"
+   ],
+   "answer": "Pédagogue",
+   "acceptedAnswers": [
+    "Pédagogue",
+    "Pedagogue"
+   ],
+   "explanation": "Le Pédagogue est une des œuvres de Clément, avec les Stromates.",
+   "tip": "Pédagogue = Clément.",
+   "extraExample": {
+    "text": "Clément écrit les Stromates.",
+    "translation": "C'est un recueil de réflexions sur la foi et la philosophie."
+   }
+  },
+  {
+   "id": "eg.l99.e15",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.pantene"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Selon l'historien Eusèbe, Pantène serait allé prêcher jusqu'en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Gaule",
+    "Inde",
+    "Rome",
+    "Carthage"
+   ],
+   "answer": "Inde",
+   "acceptedAnswers": [
+    "Inde"
+   ],
+   "explanation": "Eusèbe raconte que Pantène serait allé jusqu'en Inde : un détail transmis par la tradition.",
+   "tip": "Pantène et l'Inde.",
+   "extraExample": {
+    "text": "Pantène était philosophe avant d'être chrétien.",
+    "translation": "Il relie raison et foi."
+   }
+  },
+  {
+   "id": "eg.l99.e16",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.exegese"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment appelle-t-on l'explication du sens de la Bible, littéral et spirituel ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le canon",
+    "La Septante",
+    "La catéchèse",
+    "L'exégèse"
+   ],
+   "answer": "L'exégèse",
+   "acceptedAnswers": [
+    "L'exégèse"
+   ],
+   "explanation": "L'exégèse explique le texte de la Bible. Origène la pratique en cherchant aussi le sens spirituel.",
+   "tip": "Exégèse = expliquer le texte.",
+   "extraExample": {
+    "text": "Origène pratique l'exégèse spirituelle.",
+    "translation": "Il cherche le sens caché du texte."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La catéchèse",
+     "category": "word_confusion",
+     "feedback": "La catéchèse est l'enseignement donné aux catéchumènes ; l'exégèse explique le texte biblique."
+    }
+   ]
+  },
+  {
+   "id": "eg.l99.e17",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui est qui à l'École d'Alexandrie ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Pantène",
+     "right": "philosophe converti"
+    },
+    {
+     "left": "Clément",
+     "right": "le Pédagogue et les Stromates"
+    },
+    {
+     "left": "Origène",
+     "right": "les Hexaples"
+    },
+    {
+     "left": "Didyme",
+     "right": "aveugle dès quatre ans"
+    }
+   ],
+   "answer": "Pantène = philosophe converti ; Clément = le Pédagogue et les Stromates ; Origène = les Hexaples ; Didyme = aveugle dès quatre ans",
+   "acceptedAnswers": [],
+   "explanation": "Chaque maître a son trait distinctif : le philosophe converti, l'auteur du Pédagogue, le savant des Hexaples, l'aveugle."
+  },
+  {
+   "id": "eg.l99.e18",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.heraclas"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les chefs de l'École devenus papes",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Démétrios",
+     "right": "12e pape"
+    },
+    {
+     "left": "Héraclas",
+     "right": "13e pape"
+    },
+    {
+     "left": "Denys",
+     "right": "14e pape"
+    }
+   ],
+   "answer": "Démétrios = 12e pape ; Héraclas = 13e pape ; Denys = 14e pape",
+   "acceptedAnswers": [],
+   "explanation": "Démétrios relance l'École, puis Héraclas et Denys, qui la dirigent, deviennent papes à leur tour."
+  },
+  {
+   "id": "eg.l99.e19",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.ecole_d_alexandrie"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : l'École d'Alexandrie.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "la",
+    "école",
+    "est",
+    "L'École",
+    "première",
+    "d'Alexandrie",
+    "théologie",
+    "de"
+   ],
+   "answer": "L'École d'Alexandrie est la première école de théologie",
+   "acceptedAnswers": [
+    "L'École d'Alexandrie est la première école de théologie"
+   ],
+   "explanation": "Le repère à retenir : Alexandrie ouvre la première école de théologie chrétienne.",
+   "tip": "Alexandrie = première école de théologie.",
+   "extraExample": {
+    "text": "L'École d'Alexandrie forme des catéchumènes.",
+    "translation": "Elle prépare au baptême."
+   }
+  },
+  {
+   "id": "eg.l99.e20",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.hexaples"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la Bible en six colonnes composée par Origène ?",
+   "promptLanguage": "fr",
+   "answer": "Les Hexaples",
+   "acceptedAnswers": [
+    "Les Hexaples",
+    "Hexaples",
+    "Hexapla"
+   ],
+   "explanation": "Les Hexaples d'Origène comparent six versions du texte de l'Ancien Testament.",
+   "tip": "Hexa = six.",
+   "extraExample": {
+    "text": "Les Hexaples comparent six versions du texte.",
+    "translation": "C'est un outil de travail pour les savants."
+   }
+  },
+  {
+   "id": "eg.l99.e21",
+   "unitIds": [
+    "eg.g99.ecole_d_alexandrie",
+    "eg.v.clement_d_alexandrie"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel maître de l'École d'Alexandrie a écrit les Stromates ?",
+   "promptLanguage": "fr",
+   "answer": "Clément",
+   "acceptedAnswers": [
+    "Clément",
+    "Clément d'Alexandrie",
+    "Clement",
+    "Clement d'Alexandrie"
+   ],
+   "explanation": "Les Stromates sont une œuvre de Clément d'Alexandrie, comme le Pédagogue.",
+   "tip": "Clément = Pédagogue + Stromates.",
+   "extraExample": {
+    "text": "Clément écrit les Stromates.",
+    "translation": "C'est un recueil de réflexions sur la foi et la philosophie."
+   }
+  }
+ ]
+}

@@ -1,0 +1,782 @@
+{
+ "module": {
+  "id": 14,
+  "title": "Les saints : qui a fait quoi",
+  "description": "Les grands saints de l'Église copte, de l'École d'Alexandrie aux 21 martyrs de Libye : qui ils sont, ce qu'ils ont fait et pourquoi l'Église les aime."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g99.ecole_d_alexandrie",
+   "category": "knowledge",
+   "title": "L'École d'Alexandrie et ses grands maîtres",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g100.grands_papes",
+   "category": "knowledge",
+   "title": "Les grands papes d'Alexandrie",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g99.ecole_d_alexandrie"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g101.peres_du_desert_1",
+   "category": "knowledge",
+   "title": "Les Pères du désert (1) : Moïse, Jean, Arsène",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g100.grands_papes"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g102.peres_du_desert_2",
+   "category": "knowledge",
+   "title": "Les Pères du désert (2) : Bishoy, Maxime et Domèce, Samuel, Chénouté",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g101.peres_du_desert_1"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g103.grands_martyrs_1",
+   "category": "knowledge",
+   "title": "Les grands martyrs (1) : Georges, Mina, Philopatir Mercure",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g102.peres_du_desert_2"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g104.grands_martyrs_2",
+   "category": "knowledge",
+   "title": "Les grands martyrs (2) : Abanoub, Démiana, Catherine, Barbara",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g103.grands_martyrs_1"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g105.saintes_femmes",
+   "category": "knowledge",
+   "title": "Les saintes femmes : Marie l'Égyptienne, Marina, Verena, Anastasie",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g104.grands_martyrs_2"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g106.moyen_age",
+   "category": "knowledge",
+   "title": "Le Moyen Âge : Abraam ibn Zaraa, Simon le Tanneur, Barsoum le Nu",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g105.saintes_femmes"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g107.reformateurs",
+   "category": "knowledge",
+   "title": "XIXe-XXe siècles (1) : Cyrille IV, Anba Abraam, Habib Guirguis",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g106.moyen_age"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g108.deux_papes_du_xxe",
+   "category": "knowledge",
+   "title": "XXe siècle (2) : Cyrille VI et Chenouda III",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g107.reformateurs"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g109.martyrs_d_aujourd_hui",
+   "category": "knowledge",
+   "title": "Les 21 martyrs de Libye et les saints de toute l'Église",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g108.deux_papes_du_xxe"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g110.bilan_des_saints",
+   "category": "knowledge",
+   "title": "Bilan : les saints, qui a fait quoi",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g109.martyrs_d_aujourd_hui"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l99",
+   "sequence": 99,
+   "title": "L'École d'Alexandrie : la première école de théologie",
+   "description": "Pantène, Clément, Origène, Didyme : les maîtres qui ont appris à l'Église à lire la Bible et à répondre aux philosophes.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g99.ecole_d_alexandrie",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.heraclas",
+    "eg.v.saint_demetrios"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'École d'Alexandrie",
+     "slug": "ecole_d_alexandrie",
+     "translation": "la première école de théologie chrétienne",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Pantène",
+     "slug": "pantene",
+     "translation": "philosophe converti, maître de Clément",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Clément d'Alexandrie",
+     "slug": "clement_d_alexandrie",
+     "translation": "maître de l'École, auteur du Pédagogue",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Origène",
+     "slug": "origene",
+     "translation": "grand savant d'Alexandrie, auteur des Hexaples",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Didyme l'Aveugle",
+     "slug": "didyme_l_aveugle",
+     "translation": "savant aveugle dès quatre ans",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'exégèse",
+     "slug": "exegese",
+     "translation": "explication de la Bible",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les Hexaples",
+     "slug": "hexaples",
+     "translation": "la Bible d'Origène en six colonnes",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l100",
+   "sequence": 100,
+   "title": "Les papes d'Alexandrie : à chacun son combat",
+   "description": "Démétrios, Pierre, Alexandre, Athanase, Théophile, Cyrille, Dioscore : ce que chaque pape a fait, et le sens du titre de pape.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g100.grands_papes",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.saint_demetrios",
+    "eg.v.athanase",
+    "eg.v.dioscore"
+   ],
+   "vocabulary": [
+    {
+     "word": "le pape Théophile",
+     "slug": "theophile_d_alexandrie",
+     "translation": "23e pape, oncle et maître de Cyrille",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le Sérapéum",
+     "slug": "serapeum",
+     "translation": "grand temple païen d'Alexandrie, détruit en 391",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "la liste des papes",
+     "slug": "liste_des_papes",
+     "translation": "chaîne des papes depuis saint Marc",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le siège de saint Marc",
+     "slug": "siege_de_saint_marc",
+     "translation": "la charge du pape d'Alexandrie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Athanase l'Apostolique",
+     "slug": "athanase_l_apostolique",
+     "translation": "surnom d'Athanase chez les Coptes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un Père de l'Église",
+     "slug": "pere_de_l_eglise",
+     "translation": "grand docteur des premiers siècles",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l101",
+   "sequence": 101,
+   "title": "Du brigand au moine : les Pères du désert (1)",
+   "description": "Rappel d'Antoine, Paul, Pacôme et Macaire, puis trois moines du désert : Moïse le Noir, Jean le Petit et Arsène.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g101.peres_du_desert_1",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.saint_antoine",
+    "eg.v.saint_pacome",
+    "eg.v.scete"
+   ],
+   "vocabulary": [
+    {
+     "word": "Moïse le Noir",
+     "slug": "moise_le_noir",
+     "translation": "ancien chef de brigands devenu moine à Scété",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Jean le Petit",
+     "slug": "jean_le_petit",
+     "translation": "moine de Scété, l'arbre de l'obéissance",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Arsène le Grand",
+     "slug": "arsene_le_grand",
+     "translation": "précepteur des fils de l'empereur devenu moine",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les Apophtegmes des Pères",
+     "slug": "apophtegmes",
+     "translation": "recueil des paroles des Pères du désert",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Anba (abba)",
+     "slug": "anba",
+     "translation": "père : titre des moines et des évêques",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'obéissance",
+     "slug": "obeissance",
+     "translation": "écouter et faire sans discuter pour apprendre à aimer",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l102",
+   "sequence": 102,
+   "title": "Bishoy, les Romains et Samuel : les Pères du désert (2)",
+   "description": "Anba Bishoy, les saints Maxime et Domèce, Samuel le Confesseur et un rappel de Chénouté : qui a fait quoi au désert.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g102.peres_du_desert_2",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.wadi_natroun",
+    "eg.v.chenoute",
+    "eg.v.moise_le_noir"
+   ],
+   "vocabulary": [
+    {
+     "word": "Anba Bishoy",
+     "slug": "anba_bishoy",
+     "translation": "moine de Scété, ami du Christ et des pauvres",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Maxime et Domèce",
+     "slug": "maxime_et_domece",
+     "translation": "deux princes romains devenus moines",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Baramous, « des Romains »",
+     "slug": "baramous_des_romains",
+     "translation": "nom du monastère, du copte Pa-Romeos",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Samuel le Confesseur",
+     "slug": "samuel_le_confesseur",
+     "translation": "moine du VIIe siècle, battu pour avoir refusé Chalcédoine",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le monastère de Qalamoun",
+     "slug": "monastere_de_qalamoun",
+     "translation": "monastère fondé par Samuel en Moyenne-Égypte",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "le Monastère Blanc",
+     "slug": "monastere_blanc",
+     "translation": "monastère de Chénouté près de Sohag",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "l'hospitalité",
+     "slug": "hospitalite",
+     "translation": "accueillir l'étranger et le pauvre",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l103",
+   "sequence": 103,
+   "title": "Trois saints soldats : Georges, Mina, Mercure",
+   "description": "Georges, le prince des martyrs ; Mina, le soldat d'Abou Mina et de ses ampoules ; Philopatir Mercure, Abou Sefein.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g103.grands_martyrs_1",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.saint_georges",
+    "eg.v.saint_mina",
+    "eg.v.diocletien"
+   ],
+   "vocabulary": [
+    {
+     "word": "saint Philopatir Mercure",
+     "slug": "philopatir_mercure",
+     "translation": "soldat martyr du IIIe siècle, Abou Sefein",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Abou Sefein",
+     "slug": "abou_sefein",
+     "translation": "surnom de Mercure : le père des deux épées",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "Abou Mina",
+     "slug": "abou_mina",
+     "translation": "ville de pèlerinage fondée sur la tombe de saint Mina",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "les ampoules de saint Mina",
+     "slug": "ampoule_de_saint_mina",
+     "translation": "flacons d'argile des pèlerins d'Abou Mina",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le prince des martyrs",
+     "slug": "prince_des_martyrs",
+     "translation": "titre donné par les Coptes à saint Georges",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "le lac Maryût",
+     "slug": "mariout",
+     "translation": "lac près d'Alexandrie où repose saint Mina",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "un saint soldat",
+     "slug": "saint_soldat",
+     "translation": "militaire romain devenu martyr",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l104",
+   "sequence": 104,
+   "title": "Un enfant, des vierges, deux savantes : les martyrs (2)",
+   "description": "Abanoub l'enfant martyr, Démiana et ses quarante compagnes, Catherine d'Alexandrie et Barbara : qui sont-ils, et comment lire leur histoire.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g104.grands_martyrs_2",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.martyr",
+    "eg.v.synaxaire",
+    "eg.v.abou_mina"
+   ],
+   "vocabulary": [
+    {
+     "word": "saint Abanoub",
+     "slug": "saint_abanoub",
+     "translation": "l'enfant martyr de douze ans, de Nehisa",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "sainte Démiana",
+     "slug": "sainte_demiana",
+     "translation": "fille d'un gouverneur, martyre avec quarante vierges",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les quarante vierges",
+     "slug": "quarante_vierges",
+     "translation": "les compagnes de Démiana, martyrisées avec elle",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "sainte Catherine d'Alexandrie",
+     "slug": "sainte_catherine",
+     "translation": "jeune savante martyre vers 305, à la roue brisée",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "sainte Barbara",
+     "slug": "sainte_barbara",
+     "translation": "jeune martyre enfermée dans une tour par son père",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'hagiographie",
+     "slug": "hagiographie",
+     "translation": "récit de la vie d'un saint",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l105",
+   "sequence": 105,
+   "title": "Quatre saintes femmes : repentance, humilité, service",
+   "description": "Marie l'Égyptienne, Marina la moniale déguisée, Verena (l'Égyptienne de Suisse) et Anastasie la patricienne.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g105.saintes_femmes",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.repentance",
+    "eg.v.confesseur",
+    "eg.v.sainte_barbara"
+   ],
+   "vocabulary": [
+    {
+     "word": "Marie l'Égyptienne",
+     "slug": "marie_l_egyptienne",
+     "translation": "pécheresse d'Alexandrie devenue sainte du désert",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Zosime",
+     "slug": "zosime",
+     "translation": "moine qui rencontre Marie au désert",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Marina la moniale",
+     "slug": "marina_la_moniale",
+     "translation": "sainte déguisée en moine sous le nom de Marinos",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "une moniale déguisée en moine",
+     "slug": "moniale_deguisee",
+     "translation": "femme moine sous des habits d'homme",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Verena",
+     "slug": "verena",
+     "translation": "sainte égyptienne qui soigne les pauvres en Suisse",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la légion thébaine",
+     "slug": "legion_thebaine",
+     "translation": "légion de soldats chrétiens de Thébaïde, massacrée en Suisse",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Anastasie la patricienne",
+     "slug": "anastasie_la_patricienne",
+     "translation": "dame de la cour de Justinien devenue ermite",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l106",
+   "sequence": 106,
+   "title": "La montagne qui bouge : les saints du Moyen Âge",
+   "description": "La période arabe en bref, puis le miracle du Mokattam avec Abraam ibn Zaraa et Simon le Tanneur, et Barsoum le Nu.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g106.moyen_age",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.copte",
+    "eg.v.melkites",
+    "eg.v.abou_sefein"
+   ],
+   "vocabulary": [
+    {
+     "word": "la conquête arabe (vers 640)",
+     "slug": "conquete_arabe",
+     "translation": "arrivée des Arabes en Égypte, vers 640",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Benjamin Ier",
+     "slug": "benjamin_ier",
+     "translation": "pape caché pendant les persécutions, rappelé après 640",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les Fatimides",
+     "slug": "fatimides",
+     "translation": "dynastie de califes qui gouverne l'Égypte au Xe siècle",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Abraam ibn Zaraa",
+     "slug": "abraam_ibn_zaraa",
+     "translation": "62e pape, ancien marchand syrien, du miracle du Mokattam",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Simon le Tanneur",
+     "slug": "simon_le_tanneur",
+     "translation": "saint homme humble et borgne qui prie avec Abraam",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le Mokattam",
+     "slug": "mokattam",
+     "translation": "montagne du Caire, déplacée selon la tradition",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Barsoum le Nu",
+     "slug": "barsoum_le_nu",
+     "translation": "ermite vêtu d'une peau de chèvre, mort en 1317",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l107",
+   "sequence": 107,
+   "title": "Un pape, un évêque, un laïc : le réveil de l'Église",
+   "description": "Cyrille IV, père de la réforme ; Anba Abraam, l'ami des pauvres ; l'archidiacre Habib Guirguis et les écoles du dimanche.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g107.reformateurs",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.saint_synode",
+    "eg.v.anba",
+    "eg.v.barsoum_le_nu"
+   ],
+   "vocabulary": [
+    {
+     "word": "Cyrille IV",
+     "slug": "cyrille_iv",
+     "translation": "110e pape (1854-1861), père de la réforme",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'imprimerie de Cyrille IV",
+     "slug": "imprimerie",
+     "translation": "première imprimerie non gouvernementale d'Égypte",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Anba Abraam de Fayoum",
+     "slug": "anba_abraam",
+     "translation": "évêque du Fayoum, ami des pauvres (1829-1914)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Habib Guirguis",
+     "slug": "habib_guirguis",
+     "translation": "archidiacre, fondateur des écoles du dimanche (1876-1951)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les écoles du dimanche",
+     "slug": "ecoles_du_dimanche",
+     "translation": "catéchèse des enfants et des jeunes, le dimanche",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le séminaire copte",
+     "slug": "seminaire_copte",
+     "translation": "école de théologie du Caire, rouverte en 1893",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "la canonisation",
+     "slug": "canonisation",
+     "translation": "proclamation officielle d'un saint par le Saint-Synode",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l108",
+   "sequence": 108,
+   "title": "Le moine de prière et le maître des générations",
+   "description": "Le pape Cyrille VI (moulin à vent, reliques de Marc, saint en 2013) et le pape Chenouda III (enseignant, réunion du mercredi, exil de 1981).",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g108.deux_papes_du_xxe",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.reliques_de_saint_marc",
+    "eg.v.cathedrale_saint_marc",
+    "eg.v.habib_guirguis"
+   ],
+   "vocabulary": [
+    {
+     "word": "Cyrille VI",
+     "slug": "cyrille_vi",
+     "translation": "116e pape (1959-1971), moine de prière, saint en 2013",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le père Mina de Baramous",
+     "slug": "pere_mina_de_baramous",
+     "translation": "nom du futur Cyrille VI comme moine",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "le moulin à vent du Vieux-Caire",
+     "slug": "moulin_du_vieux_caire",
+     "translation": "ermitage de Cyrille VI avant son élection",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "1968 : le retour des reliques de Marc",
+     "slug": "retour_des_reliques_de_1968",
+     "translation": "reliques de saint Marc ramenées au Caire",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la réunion du mercredi",
+     "slug": "reunion_du_mercredi",
+     "translation": "conférence hebdomadaire du pape à la cathédrale",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'exil de 1981",
+     "slug": "exil_de_1981",
+     "translation": "exil de Chenouda III au monastère Anba Bishoy (1981-1985)",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le maître des générations",
+     "slug": "maitre_des_generations",
+     "translation": "surnom de Chenouda III",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "eg.l109",
+   "sequence": 109,
+   "title": "Les 21 martyrs de Libye et les saints de toute l'Église",
+   "description": "Les 21 martyrs de Libye (2015), le sens du martyre aujourd'hui, puis la Vierge Marie, Jean-Baptiste et les archanges Michel et Gabriel.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g109.martyrs_d_aujourd_hui",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.saint_jean_baptiste",
+    "eg.v.vierge_marie",
+    "eg.v.nuee_de_temoins"
+   ],
+   "vocabulary": [
+    {
+     "word": "les 21 martyrs de Libye",
+     "slug": "martyrs_de_libye",
+     "translation": "21 hommes tués à Syrte en 2015 pour leur foi",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Matthieu",
+     "slug": "matthieu_ayariga",
+     "translation": "le 21e martyr, un Ghanaïen",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le Martyrologe romain",
+     "slug": "martyrologe_romain",
+     "translation": "liste des saints de l'Église catholique",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les apparitions de Zeitoun",
+     "slug": "apparitions_de_zeitoun",
+     "translation": "apparitions de la Vierge au Caire dès 1968",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'archange Michel",
+     "slug": "archange_michel",
+     "translation": "chef des anges contre Satan, fêté le 12 de chaque mois copte",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'archange Gabriel",
+     "slug": "archange_gabriel",
+     "translation": "ange qui annonce la naissance de Jean-Baptiste et de Jésus",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le 12 du mois copte",
+     "slug": "douze_du_mois",
+     "translation": "jour de fête mensuel de l'archange Michel",
+     "partOfSpeech": "date"
+    }
+   ]
+  },
+  {
+   "id": "eg.l110",
+   "sequence": 110,
+   "title": "Bilan : relier chaque saint à ce qu'il a fait",
+   "description": "Qui suis-je ? Relier chaque saint à son geste, le situer par siècle, distinguer histoire et tradition, et comprendre reliques et communion des saints.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g110.bilan_des_saints",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.synaxaire",
+    "eg.v.nuee_de_temoins",
+    "eg.v.commemoraison_des_saints"
+   ],
+   "vocabulary": [
+    {
+     "word": "les reliques",
+     "slug": "reliques",
+     "translation": "restes d'un saint, vénérés par les fidèles",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un saint patron",
+     "slug": "saint_patron",
+     "translation": "saint dont une église ou une personne porte le nom",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la communion des saints",
+     "slug": "communion_des_saints",
+     "translation": "l'Église du ciel et de la terre unies dans la prière",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
+}

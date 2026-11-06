@@ -1,0 +1,654 @@
+{
+ "lessonId": "eg.l100",
+ "exercises": [
+  {
+   "id": "eg.l100.e01",
+   "unitIds": [
+    "eg.v.hexaples"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Origène a composé les ___, la Bible en six colonnes.",
+   "promptLanguage": "fr",
+   "options": [
+    "Tomes",
+    "Hexaples",
+    "Anathèmes",
+    "Stromates"
+   ],
+   "answer": "Hexaples",
+   "acceptedAnswers": [
+    "Hexaples"
+   ],
+   "explanation": "Les Hexaples d'Origène comparent six versions du texte de l'Ancien Testament.",
+   "tip": "Hexa = six.",
+   "extraExample": {
+    "text": "Origène enseigne à Alexandrie.",
+    "translation": "Le pape Démétrios s'oppose à lui."
+   }
+  },
+  {
+   "id": "eg.l100.e02",
+   "unitIds": [
+    "eg.v.pantene"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel philosophe converti dirige l'École d'Alexandrie vers 180 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Didyme",
+    "Origène",
+    "Pantène",
+    "Clément"
+   ],
+   "answer": "Pantène",
+   "acceptedAnswers": [
+    "Pantène"
+   ],
+   "explanation": "Pantène, ancien stoïcien, dirige l'École avant son élève Clément.",
+   "tip": "Pantène avant Clément.",
+   "extraExample": {
+    "text": "Clément est l'élève de Pantène.",
+    "translation": "Il lui succède à la tête de l'École."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Clément",
+     "category": "word_confusion",
+     "feedback": "Clément est l'élève de Pantène, il lui succède."
+    }
+   ]
+  },
+  {
+   "id": "eg.l100.e03",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.cyrille_d_alexandrie"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quelle ville se tient le concile présidé par Cyrille en 431 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Constantinople",
+    "Nicée",
+    "Chalcédoine",
+    "Éphèse"
+   ],
+   "answer": "Éphèse",
+   "acceptedAnswers": [
+    "Éphèse"
+   ],
+   "explanation": "Cyrille préside le concile d'Éphèse en 431, où Nestorius est condamné.",
+   "tip": "Cyrille = Éphèse 431.",
+   "extraExample": {
+    "text": "Dioscore refuse de signer à Chalcédoine.",
+    "translation": "Il est exilé à Gangra."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Nicée",
+     "category": "word_confusion",
+     "feedback": "Nicée (325) est le concile d'Athanase et d'Alexandre."
+    },
+    {
+     "equals": "Chalcédoine",
+     "category": "word_confusion",
+     "feedback": "Chalcédoine (451) est le concile que Dioscore refuse."
+    }
+   ]
+  },
+  {
+   "id": "eg.l100.e04",
+   "unitIds": [
+    "eg.v.dioscore"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "De quel pape Dioscore était-il l'archidiacre ?",
+   "promptLanguage": "fr",
+   "answer": "Cyrille",
+   "acceptedAnswers": [
+    "Cyrille",
+    "Cyrille d'Alexandrie",
+    "saint Cyrille"
+   ],
+   "explanation": "Dioscore, archidiacre de Cyrille, lui succède en 444 comme 25e pape.",
+   "tip": "Dioscore, élève de Cyrille.",
+   "extraExample": {
+    "text": "Dioscore accompagne Cyrille à Éphèse.",
+    "translation": "Il apprend de lui la fidélité."
+   }
+  },
+  {
+   "id": "eg.l100.e05",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.liste_des_papes",
+    "eg.v.saint_marc"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui est le 1er pape d'Alexandrie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "saint Marc",
+    "saint Athanase",
+    "saint Antoine",
+    "saint Pierre"
+   ],
+   "answer": "saint Marc",
+   "acceptedAnswers": [
+    "saint Marc"
+   ],
+   "explanation": "La liste des papes commence avec saint Marc, fondateur de l'Église d'Alexandrie.",
+   "tip": "Marc ouvre la liste.",
+   "extraExample": {
+    "text": "Marc est le 1er de la liste des papes.",
+    "translation": "Chaque pape a un numéro."
+   },
+   "errorPatterns": [
+    {
+     "equals": "saint Athanase",
+     "category": "word_confusion",
+     "feedback": "Athanase est le 20e pape, bien plus tard."
+    }
+   ]
+  },
+  {
+   "id": "eg.l100.e06",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.pape_d_alexandrie"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À partir de quand utilise-t-on le titre de patriarche pour le pape d'Alexandrie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "451",
+    "325",
+    "381",
+    "230"
+   ],
+   "answer": "451",
+   "acceptedAnswers": [
+    "451"
+   ],
+   "explanation": "Le titre de pape vient d'Héraclas vers 230 ; celui de patriarche n'est employé qu'à partir de 451.",
+   "tip": "Pape dès Héraclas, patriarche dès 451.",
+   "extraExample": {
+    "text": "Théophile élève son neveu Cyrille.",
+    "translation": "Cyrille lui succède en 412."
+   },
+   "errorPatterns": [
+    {
+     "equals": "230",
+     "category": "word_confusion",
+     "feedback": "Vers 230, c'est le titre de pape qui apparaît avec Héraclas."
+    }
+   ]
+  },
+  {
+   "id": "eg.l100.e07",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.saint_demetrios"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape règle les fêtes et les jeûnes de l'Église ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Théophile",
+    "Démétrios",
+    "Dioscore",
+    "Pierre"
+   ],
+   "answer": "Démétrios",
+   "acceptedAnswers": [
+    "Démétrios"
+   ],
+   "explanation": "Démétrios, le vigneron, règle les jeûnes et les fêtes et calcule la date de Pâques.",
+   "tip": "Démétrios = fêtes et Pâques.",
+   "extraExample": {
+    "text": "Dioscore refuse de signer à Chalcédoine.",
+    "translation": "Il est exilé à Gangra."
+   }
+  },
+  {
+   "id": "eg.l100.e08",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.pierre_sceau_des_martyrs"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape est appelé le sceau des martyrs ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Pierre",
+    "Cyrille",
+    "Alexandre",
+    "Athanase"
+   ],
+   "answer": "Pierre",
+   "acceptedAnswers": [
+    "Pierre"
+   ],
+   "explanation": "Pierre, martyr en 311, est le dernier martyr de la grande persécution : il la « scelle ».",
+   "tip": "Le sceau ferme la liste.",
+   "extraExample": {
+    "text": "Pierre meurt martyr en 311.",
+    "translation": "Il est le sceau des martyrs."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Alexandre",
+     "category": "word_confusion",
+     "feedback": "Alexandre est le pape qui condamne Arius, un peu plus tard."
+    }
+   ]
+  },
+  {
+   "id": "eg.l100.e09",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.athanase_l_apostolique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel surnom les Coptes donnent-ils à Athanase ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Confesseur",
+    "Le Pilier de la foi",
+    "Le Vigneron",
+    "L'Apostolique"
+   ],
+   "answer": "L'Apostolique",
+   "acceptedAnswers": [
+    "L'Apostolique"
+   ],
+   "explanation": "Les Coptes appellent Athanase l'Apostolique parce qu'il garde la foi reçue des apôtres.",
+   "tip": "Athanase = l'Apostolique ; Cyrille = Pilier de la foi.",
+   "extraExample": {
+    "text": "Athanase l'Apostolique défend la foi de Nicée.",
+    "translation": "Il est exilé plusieurs fois."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Pilier de la foi",
+     "category": "word_confusion",
+     "feedback": "Le Pilier de la foi, c'est Cyrille."
+    },
+    {
+     "equals": "Le Vigneron",
+     "category": "word_confusion",
+     "feedback": "Le vigneron, c'est Démétrios."
+    }
+   ]
+  },
+  {
+   "id": "eg.l100.e10",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.theophile_d_alexandrie"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape est l'oncle de Cyrille ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Athanase",
+    "Théophile",
+    "Dioscore",
+    "Pierre"
+   ],
+   "answer": "Théophile",
+   "acceptedAnswers": [
+    "Théophile"
+   ],
+   "explanation": "Théophile élève son neveu Cyrille, qui lui succède comme 24e pape.",
+   "tip": "Théophile (23e) puis Cyrille (24e).",
+   "extraExample": {
+    "text": "Théophile gouverne Alexandrie de 385 à 412.",
+    "translation": "C'est le pape qui précède Cyrille."
+   }
+  },
+  {
+   "id": "eg.l100.e11",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.serapeum"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel grand temple païen d'Alexandrie est détruit en 391 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Phare",
+    "Le Temple de Jérusalem",
+    "Le Panthéon",
+    "Le Sérapéum"
+   ],
+   "answer": "Le Sérapéum",
+   "acceptedAnswers": [
+    "Le Sérapéum"
+   ],
+   "explanation": "Le Sérapéum, temple de Sérapis, est détruit en 391 sous l'épiscopat de Théophile.",
+   "tip": "391 : fin du Sérapéum.",
+   "extraExample": {
+    "text": "Le Sérapéum est détruit en 391.",
+    "translation": "Le christianisme est déjà religion de l'État."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Temple de Jérusalem",
+     "category": "word_confusion",
+     "feedback": "Le Temple de Jérusalem a été détruit en 70, et ce n'est pas un temple païen."
+    }
+   ]
+  },
+  {
+   "id": "eg.l100.e12",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.formule_de_cyrille"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle formule résume la foi de Cyrille ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Deux natures en une personne",
+    "Une seule nature du Verbe incarné",
+    "Le Fils est créé",
+    "Marie est mère du Christ seulement"
+   ],
+   "answer": "Une seule nature du Verbe incarné",
+   "acceptedAnswers": [
+    "Une seule nature du Verbe incarné"
+   ],
+   "explanation": "La formule de Cyrille affirme l'unité du Christ : une seule nature du Verbe incarné.",
+   "tip": "Cyrille = une seule nature.",
+   "extraExample": {
+    "text": "Pierre meurt martyr en 311.",
+    "translation": "Il est le sceau des martyrs."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Deux natures en une personne",
+     "category": "word_confusion",
+     "feedback": "C'est la définition de Chalcédoine, que Dioscore refuse."
+    }
+   ]
+  },
+  {
+   "id": "eg.l100.e13",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.pierre_sceau_des_martyrs"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pierre est le ___ des martyrs.",
+   "promptLanguage": "fr",
+   "options": [
+    "père",
+    "vigneron",
+    "sceau",
+    "fils"
+   ],
+   "answer": "sceau",
+   "acceptedAnswers": [
+    "sceau"
+   ],
+   "explanation": "Pierre ferme la liste des martyrs de la grande persécution : il en est le sceau.",
+   "tip": "Pierre, sceau des martyrs.",
+   "extraExample": {
+    "text": "Athanase accompagne Alexandre à Nicée comme diacre.",
+    "translation": "Il lui succède comme 20e pape."
+   }
+  },
+  {
+   "id": "eg.l100.e14",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.dioscore"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Dioscore est exilé à ___, en Asie Mineure.",
+   "promptLanguage": "fr",
+   "options": [
+    "Éphèse",
+    "Nicée",
+    "Rome",
+    "Gangra"
+   ],
+   "answer": "Gangra",
+   "acceptedAnswers": [
+    "Gangra"
+   ],
+   "explanation": "Dioscore est exilé à Gangra par l'empereur Marcien et il y meurt en 454.",
+   "tip": "Gangra, lieu d'exil.",
+   "extraExample": {
+    "text": "Théophile élève son neveu Cyrille.",
+    "translation": "Cyrille lui succède en 412."
+   }
+  },
+  {
+   "id": "eg.l100.e15",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.pere_de_l_eglise"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Athanase et Cyrille sont de grands ___ de l'Église.",
+   "promptLanguage": "fr",
+   "options": [
+    "Pères",
+    "Patrons",
+    "Fils",
+    "Frères"
+   ],
+   "answer": "Pères",
+   "acceptedAnswers": [
+    "Pères",
+    "Peres"
+   ],
+   "explanation": "Un Père de l'Église est un maître des premiers siècles dont l'enseignement fait autorité.",
+   "tip": "Pères = maîtres de la foi.",
+   "extraExample": {
+    "text": "Athanase et Cyrille sont des Pères de l'Église.",
+    "translation": "Leur enseignement fait autorité."
+   }
+  },
+  {
+   "id": "eg.l100.e16",
+   "unitIds": [
+    "eg.g100.grands_papes"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Un numéro, un pape",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Pierre",
+     "right": "17e pape"
+    },
+    {
+     "left": "Athanase",
+     "right": "20e pape"
+    },
+    {
+     "left": "Théophile",
+     "right": "23e pape"
+    },
+    {
+     "left": "Cyrille",
+     "right": "24e pape"
+    },
+    {
+     "left": "Dioscore",
+     "right": "25e pape"
+    }
+   ],
+   "answer": "Pierre = 17e pape ; Athanase = 20e pape ; Théophile = 23e pape ; Cyrille = 24e pape ; Dioscore = 25e pape",
+   "acceptedAnswers": [],
+   "explanation": "Pierre (17e), Athanase (20e), Théophile (23e), Cyrille (24e) et Dioscore (25e) se suivent dans la liste des papes."
+  },
+  {
+   "id": "eg.l100.e17",
+   "unitIds": [
+    "eg.g100.grands_papes"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les papes d'Alexandrie : qui a fait quoi ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Démétrios",
+     "right": "règle les fêtes et les jeûnes"
+    },
+    {
+     "left": "Athanase",
+     "right": "défend Nicée"
+    },
+    {
+     "left": "Cyrille",
+     "right": "combat Nestorius à Éphèse"
+    },
+    {
+     "left": "Dioscore",
+     "right": "refuse Chalcédoine"
+    }
+   ],
+   "answer": "Démétrios = règle les fêtes et les jeûnes ; Athanase = défend Nicée ; Cyrille = combat Nestorius à Éphèse ; Dioscore = refuse Chalcédoine",
+   "acceptedAnswers": [],
+   "explanation": "Chaque pape est connu pour un combat : les fêtes, Nicée, Éphèse, Chalcédoine."
+  },
+  {
+   "id": "eg.l100.e18",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.pierre_sceau_des_martyrs"
+   ],
+   "type": "reorder",
+   "difficulty": 1,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : le dernier martyr de la grande persécution.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "est",
+    "sceau",
+    "le",
+    "des",
+    "martyrs",
+    "Pierre"
+   ],
+   "answer": "Pierre est le sceau des martyrs",
+   "acceptedAnswers": [
+    "Pierre est le sceau des martyrs"
+   ],
+   "explanation": "Pierre ferme la liste des martyrs de la grande persécution.",
+   "tip": "Pierre = sceau.",
+   "extraExample": {
+    "text": "Théophile élève son neveu Cyrille.",
+    "translation": "Cyrille lui succède en 412."
+   }
+  },
+  {
+   "id": "eg.l100.e19",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.cyrille_d_alexandrie"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel pape préside le concile d'Éphèse en 431 ?",
+   "promptLanguage": "fr",
+   "answer": "Cyrille",
+   "acceptedAnswers": [
+    "Cyrille",
+    "Cyrille d'Alexandrie",
+    "saint Cyrille"
+   ],
+   "explanation": "Cyrille préside le concile d'Éphèse et fait condamner Nestorius.",
+   "tip": "Cyrille = Éphèse.",
+   "extraExample": {
+    "text": "Dioscore refuse de signer à Chalcédoine.",
+    "translation": "Il est exilé à Gangra."
+   }
+  },
+  {
+   "id": "eg.l100.e20",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.siege_de_saint_marc"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Le pape copte occupe le siège de saint ___.",
+   "promptLanguage": "fr",
+   "answer": "Marc",
+   "acceptedAnswers": [
+    "Marc",
+    "saint Marc"
+   ],
+   "explanation": "Le pape d'Alexandrie est le successeur de saint Marc et occupe son siège.",
+   "tip": "Siège de saint Marc.",
+   "extraExample": {
+    "text": "Athanase occupe le siège de saint Marc pendant plus de quarante ans.",
+    "translation": "Il en est le 20e titulaire."
+   }
+  },
+  {
+   "id": "eg.l100.e21",
+   "unitIds": [
+    "eg.g100.grands_papes",
+    "eg.v.dioscore"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel pape est exilé à Gangra pour avoir refusé Chalcédoine ?",
+   "promptLanguage": "fr",
+   "answer": "Dioscore",
+   "acceptedAnswers": [
+    "Dioscore",
+    "saint Dioscore"
+   ],
+   "explanation": "Dioscore refuse de signer la définition de Chalcédoine et meurt en exil à Gangra en 454.",
+   "tip": "Dioscore = fidélité, exil.",
+   "extraExample": {
+    "text": "Athanase accompagne Alexandre à Nicée comme diacre.",
+    "translation": "Il lui succède comme 20e pape."
+   }
+  }
+ ]
+}

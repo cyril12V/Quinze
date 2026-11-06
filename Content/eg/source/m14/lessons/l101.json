@@ -1,0 +1,656 @@
+{
+ "lessonId": "eg.l101",
+ "exercises": [
+  {
+   "id": "eg.l101.e01",
+   "unitIds": [
+    "eg.v.saint_antoine"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel moine est appelé le père des moines ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Pacôme",
+    "Macaire",
+    "Antoine",
+    "Chénouté"
+   ],
+   "answer": "Antoine",
+   "acceptedAnswers": [
+    "Antoine"
+   ],
+   "explanation": "Antoine, Copte de Haute-Égypte, est le premier moine du monde : le père des moines.",
+   "tip": "Antoine = père des moines.",
+   "extraExample": {
+    "text": "Antoine vit de 251 à 356.",
+    "translation": "Plus d'un siècle de vie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Pacôme",
+     "category": "word_confusion",
+     "feedback": "Pacôme est le père de la vie en communauté."
+    }
+   ]
+  },
+  {
+   "id": "eg.l101.e02",
+   "unitIds": [
+    "eg.v.saint_pacome"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle forme de vie saint Pacôme invente-t-il ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La vie d'ermite",
+    "La vie de prédicateur",
+    "La vie de pèlerin",
+    "La vie en communauté"
+   ],
+   "answer": "La vie en communauté",
+   "acceptedAnswers": [
+    "La vie en communauté"
+   ],
+   "explanation": "Pacôme fonde en Haute-Égypte les premiers monastères où les moines vivent ensemble sous une règle.",
+   "tip": "Pacôme = communauté.",
+   "extraExample": {
+    "text": "La vie cénobitique est la vie en communauté.",
+    "translation": "Elle s'oppose à la vie d'ermite."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La vie d'ermite",
+     "category": "word_confusion",
+     "feedback": "La vie d'ermite, c'est celle de Paul et d'Antoine."
+    }
+   ]
+  },
+  {
+   "id": "eg.l101.e03",
+   "unitIds": [
+    "eg.v.scete"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Macaire le Grand vit dans le désert de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Scété",
+    "Gangra",
+    "Alexandrie",
+    "Thèbes"
+   ],
+   "answer": "Scété",
+   "acceptedAnswers": [
+    "Scété"
+   ],
+   "explanation": "Macaire s'installe à Scété, où des moines se rassemblent autour de lui.",
+   "tip": "Macaire = Scété.",
+   "extraExample": {
+    "text": "Scété est le Wadi Natrun.",
+    "translation": "On y visite encore plusieurs monastères."
+   }
+  },
+  {
+   "id": "eg.l101.e04",
+   "unitIds": [
+    "eg.v.paul_de_thebes"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel saint est considéré comme le premier des ermites ?",
+   "promptLanguage": "fr",
+   "answer": "Paul de Thèbes",
+   "acceptedAnswers": [
+    "Paul de Thèbes",
+    "Paul",
+    "saint Paul de Thèbes",
+    "Paul l'ermite"
+   ],
+   "explanation": "Vers 250, Paul de Thèbes fuit au désert : l'Église le tient pour le premier des ermites.",
+   "tip": "Paul = premier ermite.",
+   "extraExample": {
+    "text": "Un corbeau lui apportait du pain, dit la tradition.",
+    "translation": "Antoine l'enterre."
+   }
+  },
+  {
+   "id": "eg.l101.e05",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.anba"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire le mot abba (Anba en copte) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Roi",
+    "Frère",
+    "Père",
+    "Berger"
+   ],
+   "answer": "Père",
+   "acceptedAnswers": [
+    "Père"
+   ],
+   "explanation": "Abba veut dire père : on appelle ainsi les moines, guides spirituels.",
+   "tip": "Abba = père.",
+   "extraExample": {
+    "text": "On dit Anba Bishoy pour saint Bishoy.",
+    "translation": "Le titre veut dire père."
+   }
+  },
+  {
+   "id": "eg.l101.e06",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.apophtegmes"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment s'appelle le recueil des paroles des Pères du désert ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Hexaples",
+    "Les Apophtegmes des Pères",
+    "Les Stromates",
+    "La Didachè"
+   ],
+   "answer": "Les Apophtegmes des Pères",
+   "acceptedAnswers": [
+    "Les Apophtegmes des Pères"
+   ],
+   "explanation": "Les Apophtegmes des Pères recueillent les paroles et les petites histoires des moines.",
+   "tip": "Apophtegme = parole brève.",
+   "extraExample": {
+    "text": "Les Apophtegmes racontent l'histoire du sac de sable.",
+    "translation": "Ce sont de petites histoires."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Didachè",
+     "category": "word_confusion",
+     "feedback": "La Didachè est un texte très ancien sur la vie de l'Église, pas sur les moines."
+    }
+   ]
+  },
+  {
+   "id": "eg.l101.e07",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.moise_le_noir"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel moine du désert est un ancien chef de brigands ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Arsène",
+    "Moïse le Noir",
+    "Pacôme",
+    "Jean le Petit"
+   ],
+   "answer": "Moïse le Noir",
+   "acceptedAnswers": [
+    "Moïse le Noir"
+   ],
+   "explanation": "Moïse le Noir dirigeait une bande de voleurs avant de devenir moine à Scété.",
+   "tip": "Moïse = brigand converti.",
+   "extraExample": {
+    "text": "Moïse le Noir a dirigé une bande de voleurs.",
+    "translation": "Il devient moine à Scété."
+   }
+  },
+  {
+   "id": "eg.l101.e08",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.moise_le_noir"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que porte Moïse devant les frères pour leur apprendre à ne pas juger ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un sac de sable troué",
+    "Une croix de bois",
+    "Un bâton sec",
+    "Un panier de pain"
+   ],
+   "answer": "Un sac de sable troué",
+   "acceptedAnswers": [
+    "Un sac de sable troué"
+   ],
+   "explanation": "Le sable qui s'écoule derrière lui représente ses péchés : il ne peut pas juger ceux des autres.",
+   "tip": "Sable troué = péchés oubliés.",
+   "extraExample": {
+    "text": "Moïse le Noir a dirigé une bande de voleurs.",
+    "translation": "Il devient moine à Scété."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un bâton sec",
+     "category": "word_confusion",
+     "feedback": "Le bâton sec, c'est l'histoire de Jean le Petit."
+    }
+   ]
+  },
+  {
+   "id": "eg.l101.e09",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.moise_le_noir"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment Moïse le Noir meurt-il vers 405 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Exilé à Gangra",
+    "Tué par des Berbères",
+    "Mort de vieillesse",
+    "Brûlé par l'empereur"
+   ],
+   "answer": "Tué par des Berbères",
+   "acceptedAnswers": [
+    "Tué par des Berbères"
+   ],
+   "explanation": "Des Berbères attaquent Scété ; Moïse refuse de se battre et meurt avec sept frères.",
+   "tip": "Moïse refuse la violence jusqu'au bout.",
+   "extraExample": {
+    "text": "Moïse le Noir a dirigé une bande de voleurs.",
+    "translation": "Il devient moine à Scété."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Exilé à Gangra",
+     "category": "word_confusion",
+     "feedback": "Gangra est le lieu d'exil de Dioscore."
+    }
+   ]
+  },
+  {
+   "id": "eg.l101.e10",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.jean_le_petit"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel objet Jean le Petit arrose-t-il pendant trois ans ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un olivier",
+    "Un bâton sec",
+    "Un cierge",
+    "Un sac de sable"
+   ],
+   "answer": "Un bâton sec",
+   "acceptedAnswers": [
+    "Un bâton sec"
+   ],
+   "explanation": "Par obéissance, Jean arrose un bâton sec qui finit par donner des fruits.",
+   "tip": "Le bâton sec devient arbre.",
+   "extraExample": {
+    "text": "Jean le Petit arrose un bâton sec pendant trois ans.",
+    "translation": "Le bâton finit par porter des fruits."
+   }
+  },
+  {
+   "id": "eg.l101.e11",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.obeissance"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle vertu illustre l'arbre de Jean le Petit ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'obéissance",
+    "Le silence",
+    "La pauvreté",
+    "Le courage"
+   ],
+   "answer": "L'obéissance",
+   "acceptedAnswers": [
+    "L'obéissance"
+   ],
+   "explanation": "Le bâton sec qui donne des fruits montre la force de l'obéissance : « le fruit de l'obéissance ».",
+   "tip": "Arbre = obéissance.",
+   "extraExample": {
+    "text": "Jean le Petit obéit à son maître.",
+    "translation": "L'obéissance porte du fruit."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le silence",
+     "category": "word_confusion",
+     "feedback": "Le silence est la marque d'Arsène."
+    }
+   ]
+  },
+  {
+   "id": "eg.l101.e12",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.arsene_le_grand"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel moine était précepteur des fils de l'empereur avant de partir à Scété ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Antoine",
+    "Moïse",
+    "Arsène",
+    "Jean le Petit"
+   ],
+   "answer": "Arsène",
+   "acceptedAnswers": [
+    "Arsène"
+   ],
+   "explanation": "Arsène, Romain cultivé, éduquait les fils de l'empereur avant de choisir le désert.",
+   "tip": "Arsène = cour puis silence.",
+   "extraExample": {
+    "text": "Arsène était précepteur des fils de l'empereur.",
+    "translation": "Il a tout quitté pour le désert."
+   }
+  },
+  {
+   "id": "eg.l101.e13",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.arsene_le_grand"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "De quoi Arsène se repentait-il souvent ?",
+   "promptLanguage": "fr",
+   "options": [
+    "D'avoir parlé",
+    "D'avoir quitté Rome",
+    "D'avoir jeûné",
+    "D'avoir obéi"
+   ],
+   "answer": "D'avoir parlé",
+   "acceptedAnswers": [
+    "D'avoir parlé"
+   ],
+   "explanation": "Arsène disait se repentir d'avoir parlé, jamais d'être resté silencieux.",
+   "tip": "Arsène = le silence.",
+   "extraExample": {
+    "text": "Arsène était précepteur des fils de l'empereur.",
+    "translation": "Il a tout quitté pour le désert."
+   }
+  },
+  {
+   "id": "eg.l101.e14",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.moise_le_noir"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Avant d'être moine, Moïse le Noir était chef de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "brigands",
+    "soldats",
+    "marins",
+    "prêtres"
+   ],
+   "answer": "brigands",
+   "acceptedAnswers": [
+    "brigands"
+   ],
+   "explanation": "Moïse dirigeait une bande de voleurs dans la vallée du Nil.",
+   "tip": "Moïse = brigands.",
+   "extraExample": {
+    "text": "Moïse le Noir a dirigé une bande de voleurs.",
+    "translation": "Il devient moine à Scété."
+   }
+  },
+  {
+   "id": "eg.l101.e15",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.jean_le_petit"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Jean le Petit arrose un bâton ___ pendant trois ans.",
+   "promptLanguage": "fr",
+   "options": [
+    "vert",
+    "sec",
+    "lourd",
+    "doré"
+   ],
+   "answer": "sec",
+   "acceptedAnswers": [
+    "sec"
+   ],
+   "explanation": "Le bâton est sec : c'est ce qui rend l'obéissance de Jean si frappante.",
+   "tip": "Un bâton sec donne des fruits.",
+   "extraExample": {
+    "text": "Jean le Petit arrose un bâton sec pendant trois ans.",
+    "translation": "Le bâton finit par porter des fruits."
+   }
+  },
+  {
+   "id": "eg.l101.e16",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.arsene_le_grand"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Arsène quitte la cour pour vivre dans le ___ à Scété.",
+   "promptLanguage": "fr",
+   "options": [
+    "bruit",
+    "luxe",
+    "commerce",
+    "silence"
+   ],
+   "answer": "silence",
+   "acceptedAnswers": [
+    "silence"
+   ],
+   "explanation": "Arsène choisit le silence : il disait préférer se taire que parler.",
+   "tip": "Arsène = silence.",
+   "extraExample": {
+    "text": "Arsène était précepteur des fils de l'empereur.",
+    "translation": "Il a tout quitté pour le désert."
+   }
+  },
+  {
+   "id": "eg.l101.e17",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Moïse, Jean, Arsène : qui est qui au désert ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Moïse le Noir",
+     "right": "ancien chef de brigands"
+    },
+    {
+     "left": "Jean le Petit",
+     "right": "l'arbre de l'obéissance"
+    },
+    {
+     "left": "Arsène",
+     "right": "précepteur des fils de l'empereur"
+    }
+   ],
+   "answer": "Moïse le Noir = ancien chef de brigands ; Jean le Petit = l'arbre de l'obéissance ; Arsène = précepteur des fils de l'empereur",
+   "acceptedAnswers": [],
+   "explanation": "Chaque moine a son histoire : le brigand converti, le bâton sec, l'homme de cour devenu moine du silence."
+  },
+  {
+   "id": "eg.l101.e18",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.saint_antoine",
+    "eg.v.saint_pacome"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les quatre premiers grands du désert",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Antoine",
+     "right": "le père des moines"
+    },
+    {
+     "left": "Paul de Thèbes",
+     "right": "le premier ermite"
+    },
+    {
+     "left": "Pacôme",
+     "right": "la vie en communauté"
+    },
+    {
+     "left": "Macaire le Grand",
+     "right": "Scété"
+    }
+   ],
+   "answer": "Antoine = le père des moines ; Paul de Thèbes = le premier ermite ; Pacôme = la vie en communauté ; Macaire le Grand = Scété",
+   "acceptedAnswers": [],
+   "explanation": "Antoine, Paul, Pacôme et Macaire sont les piliers du monachisme égyptien."
+  },
+  {
+   "id": "eg.l101.e19",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.moise_le_noir"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : la conversion de Moïse.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "brigand",
+    "devenu",
+    "Noir",
+    "moine",
+    "un",
+    "était",
+    "Moïse",
+    "le"
+   ],
+   "answer": "Moïse le Noir était un brigand devenu moine",
+   "acceptedAnswers": [
+    "Moïse le Noir était un brigand devenu moine"
+   ],
+   "explanation": "Moïse a dirigé des brigands avant de choisir Scété et la vie de moine.",
+   "tip": "Moïse = brigand puis moine.",
+   "extraExample": {
+    "text": "Moïse le Noir a dirigé une bande de voleurs.",
+    "translation": "Il devient moine à Scété."
+   }
+  },
+  {
+   "id": "eg.l101.e20",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.arsene_le_grand"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel moine, ancien précepteur des fils de l'empereur, est célèbre pour son silence ?",
+   "promptLanguage": "fr",
+   "answer": "Arsène",
+   "acceptedAnswers": [
+    "Arsène",
+    "Arsène le Grand",
+    "Arsene",
+    "saint Arsène"
+   ],
+   "explanation": "Arsène quitte la cour pour Scété et y vit dans le silence.",
+   "tip": "Arsène = silence.",
+   "extraExample": {
+    "text": "Arsène était précepteur des fils de l'empereur.",
+    "translation": "Il a tout quitté pour le désert."
+   }
+  },
+  {
+   "id": "eg.l101.e21",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.moise_le_noir"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel moine du désert était chef de brigands ?",
+   "promptLanguage": "fr",
+   "answer": "Moïse le Noir",
+   "acceptedAnswers": [
+    "Moïse le Noir",
+    "Moïse",
+    "Moise le Noir",
+    "Moise"
+   ],
+   "explanation": "Moïse le Noir a dirigé une bande de voleurs avant de devenir moine.",
+   "tip": "Moïse = brigand converti.",
+   "extraExample": {
+    "text": "Moïse le Noir a dirigé une bande de voleurs.",
+    "translation": "Il devient moine à Scété."
+   }
+  },
+  {
+   "id": "eg.l101.e22",
+   "unitIds": [
+    "eg.g101.peres_du_desert_1",
+    "eg.v.obeissance"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "De quelle vertu l'arbre de Jean le Petit est-il le symbole ?",
+   "promptLanguage": "fr",
+   "answer": "L'obéissance",
+   "acceptedAnswers": [
+    "L'obéissance",
+    "obéissance",
+    "obeissance"
+   ],
+   "explanation": "L'arbre né d'un bâton sec montre la puissance de l'obéissance.",
+   "tip": "Arbre = obéissance.",
+   "extraExample": {
+    "text": "Jean le Petit obéit à son maître.",
+    "translation": "L'obéissance porte du fruit."
+   }
+  }
+ ]
+}

@@ -32,6 +32,96 @@
     "eg.g112.jinkim"
    ],
    "functionWords": []
+  },
+  {
+   "id": "eg.g114.articles",
+   "category": "grammar",
+   "title": "Les articles collés au nom",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g113.nomina_sacra"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g115.possessifs",
+   "category": "grammar",
+   "title": "Les possessifs ⲡⲁ-, ⲡⲉⲕ-, ⲡⲉϥ-, ⲡⲉⲛ-",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g114.articles"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g116.petits_mots",
+   "category": "vocabulary",
+   "title": "Les petits mots de la phrase",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g115.possessifs"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g117.verbes_passe_present",
+   "category": "verbs",
+   "title": "Les verbes : passé, présent, ordre",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g116.petits_mots"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g118.dieu_trinite",
+   "category": "vocabulary",
+   "title": "Les noms de Dieu et la formule de la Trinité",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g117.verbes_passe_present"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g119.vierge_saints",
+   "category": "vocabulary",
+   "title": "La Vierge, les saints et l'intercession",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g118.dieu_trinite"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g120.reponses_messe",
+   "category": "vocabulary",
+   "title": "Les réponses de la messe, mot à mot",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g119.vierge_saints"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g121.copte_dans_arabe",
+   "category": "knowledge",
+   "title": "Le copte caché dans l'arabe et dans les prénoms",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g120.reponses_messe"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g122.bilan_copte",
+   "category": "sentence_building",
+   "title": "Bilan : décortiquer une formule copte",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g121.copte_dans_arabe"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -150,7 +240,7 @@
    "id": "eg.l113",
    "sequence": 113,
    "title": "Les noms sacrés abrégés",
-   "description": "La barre au-dessus de plusieurs lettres : ⲓ̅ⲏ̅ⲥ̅, ⲭ̅ⲥ̅, ⲡ̅ϭ̅ⲥ̅, ⲫ̅ϯ̅, et pourquoi on les abrège.",
+   "description": "La barre au-dessus de plusieurs lettres : ⲓ̅ⲏ̅ⲥ̅, ⲭ̅ⲥ̅, ⲡ̅ⲟ̅ⲥ̅, ⲫ̅ϯ̅, et pourquoi on les abrège.",
    "difficulty": 2,
    "grammarUnitId": "eg.g113.nomina_sacra",
    "introducesGrammar": true,
@@ -172,7 +262,7 @@
      "partOfSpeech": "noun"
     },
     {
-     "word": "Ⲡϭⲟⲓⲥ (ⲡ̅ϭ̅ⲥ̅)",
+     "word": "Ⲡϭⲟⲓⲥ (ⲡ̅ⲟ̅ⲥ̅)",
      "slug": "cop_pchois",
      "translation": "le Seigneur (nom sacré)",
      "partOfSpeech": "noun"
@@ -184,6 +274,508 @@
      "partOfSpeech": "noun"
     }
    ]
+  },
+  {
+   "id": "eg.l114",
+   "sequence": 114,
+   "title": "Les articles : le, la, les, un, des",
+   "description": "Détacher l'article pour comprendre un mot : ⲡⲓ, ϯ, ⲛⲓ, ⲟⲩ, ϩⲁⲛ, et le piège de ⲫ̀.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g114.articles",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g113.nomina_sacra",
+    "eg.g112.jinkim",
+    "eg.g111.langue_des_pharaons"
+   ],
+   "vocabulary": [
+    {
+     "word": "ⲡⲓ",
+     "slug": "cop_pi",
+     "translation": "le (article masculin)",
+     "partOfSpeech": "article"
+    },
+    {
+     "word": "ϯ",
+     "slug": "cop_ti",
+     "translation": "la (article féminin)",
+     "partOfSpeech": "article"
+    },
+    {
+     "word": "ⲛⲓ",
+     "slug": "cop_ni",
+     "translation": "les (article pluriel)",
+     "partOfSpeech": "article"
+    },
+    {
+     "word": "ⲟⲩ",
+     "slug": "cop_ou",
+     "translation": "un, une (article indéfini)",
+     "partOfSpeech": "article"
+    },
+    {
+     "word": "ϩⲁⲛ",
+     "slug": "cop_han",
+     "translation": "des (article indéfini pluriel)",
+     "partOfSpeech": "article"
+    },
+    {
+     "word": "ⲫ̀",
+     "slug": "cop_ph",
+     "translation": "le (forme de l'article devant quelques mots)",
+     "partOfSpeech": "article"
+    },
+    {
+     "word": "ⲫ̀ⲣⲁⲛ",
+     "slug": "cop_phran",
+     "translation": "le nom",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l115",
+   "sequence": 115,
+   "title": "Mon, ton, notre : les possessifs",
+   "description": "Ⲡⲉⲛⲓⲱⲧ, ⲡⲁⲛⲟⲩϯ, ⲡⲉⲕⲣⲁⲛ : comment se construit « mon, ton, son, notre » et ce que le ⲡ, ⲧ, ⲛ du début indique.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g115.possessifs",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g114.articles",
+    "eg.g113.nomina_sacra",
+    "eg.g112.jinkim"
+   ],
+   "vocabulary": [
+    {
+     "word": "ⲡⲁ-",
+     "slug": "cop_pa",
+     "translation": "mon (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    },
+    {
+     "word": "ⲡⲉⲕ-",
+     "slug": "cop_pek",
+     "translation": "ton (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    },
+    {
+     "word": "ⲡⲉϥ-",
+     "slug": "cop_pef",
+     "translation": "son, à lui (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    },
+    {
+     "word": "ⲡⲉⲛ-",
+     "slug": "cop_pen",
+     "translation": "notre (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    },
+    {
+     "word": "ⲡⲉⲧⲉⲛ-",
+     "slug": "cop_peten",
+     "translation": "votre (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    },
+    {
+     "word": "ⲡⲟⲩ-",
+     "slug": "cop_pou",
+     "translation": "leur (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    },
+    {
+     "word": "ⲥⲱⲧⲏⲣ",
+     "slug": "cop_soter",
+     "translation": "sauveur (mot grec)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l116",
+   "sequence": 116,
+   "title": "Les petits mots : et, dans, de, par",
+   "description": "Huit petits mots (ⲛⲉⲙ, ϧⲉⲛ, ⲛ̀/ⲙ̀, ⲉⲑⲟⲩⲁⲃ, ⲁⲛ, ⲟⲩⲟϩ, ⲉⲑⲃⲉ, ϩⲓⲧⲉⲛ) qui structurent chaque phrase.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g116.petits_mots",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g115.possessifs",
+    "eg.g114.articles",
+    "eg.g112.jinkim"
+   ],
+   "vocabulary": [
+    {
+     "word": "ⲛⲉⲙ",
+     "slug": "cop_nem",
+     "translation": "et, avec",
+     "partOfSpeech": "conjunction"
+    },
+    {
+     "word": "ϧⲉⲛ",
+     "slug": "cop_hen",
+     "translation": "dans, en",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "ⲉⲑⲟⲩⲁⲃ",
+     "slug": "cop_ethouab",
+     "translation": "saint (placé après le nom)",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "ⲛ̀/ⲙ̀",
+     "slug": "cop_n_de",
+     "translation": "de",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "ⲁⲛ",
+     "slug": "cop_an",
+     "translation": "ne… pas",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "ⲟⲩⲟϩ",
+     "slug": "cop_ouoh",
+     "translation": "et (entre deux phrases)",
+     "partOfSpeech": "conjunction"
+    },
+    {
+     "word": "ⲉⲑⲃⲉ",
+     "slug": "cop_ethbe",
+     "translation": "à cause de, au sujet de",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "ϩⲓⲧⲉⲛ",
+     "slug": "cop_hiten",
+     "translation": "par, au moyen de",
+     "partOfSpeech": "preposition"
+    }
+   ]
+  },
+  {
+   "id": "eg.l117",
+   "sequence": 117,
+   "title": "Les verbes : il a, je crois, bénis !",
+   "description": "Le passé ⲁϥ-, ⲁⲥ-, ⲁⲩ-, le « je » ϯ-, l'ordre ⲥⲙⲟⲩ, et le sens mot à mot de ⲁϥⲧⲱⲛϥ.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g117.verbes_passe_present",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g116.petits_mots",
+    "eg.g115.possessifs",
+    "eg.g114.articles"
+   ],
+   "vocabulary": [
+    {
+     "word": "ⲁϥ-",
+     "slug": "cop_af",
+     "translation": "il a (marque du passé)",
+     "partOfSpeech": "particle"
+    },
+    {
+     "word": "ⲁⲥ-",
+     "slug": "cop_as",
+     "translation": "elle a (marque du passé)",
+     "partOfSpeech": "particle"
+    },
+    {
+     "word": "ⲁⲩ-",
+     "slug": "cop_au",
+     "translation": "ils ont (marque du passé)",
+     "partOfSpeech": "particle"
+    },
+    {
+     "word": "ϯ-",
+     "slug": "cop_ti_je",
+     "translation": "je (devant un verbe, au présent)",
+     "partOfSpeech": "pronoun"
+    },
+    {
+     "word": "ⲧⲱⲛ",
+     "slug": "cop_ton",
+     "translation": "se lever, ressusciter",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "ⲛⲁϩϯ",
+     "slug": "cop_nahti",
+     "translation": "croire",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "ⲥⲙⲟⲩ",
+     "slug": "cop_smou",
+     "translation": "bénis ! (impératif)",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "ⲁ̀ⲗⲏⲑⲱⲥ",
+     "slug": "cop_alithos",
+     "translation": "vraiment (mot grec)",
+     "partOfSpeech": "adverb"
+    }
+   ]
+  },
+  {
+   "id": "eg.l118",
+   "sequence": 118,
+   "title": "Dieu et la Trinité : la formule mot à mot",
+   "description": "Père, Fils, Esprit, Trinité, roi, Tout-Puissant : les noms de Dieu et la formule du signe de croix décortiquée.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g118.dieu_trinite",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g117.verbes_passe_present",
+    "eg.g116.petits_mots",
+    "eg.g113.nomina_sacra",
+    "eg.v.trinite"
+   ],
+   "vocabulary": [
+    {
+     "word": "Ⲫ̀ⲓⲱⲧ",
+     "slug": "cop_phiot",
+     "translation": "le Père",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲡ̀ϣⲏⲣⲓ",
+     "slug": "cop_pshiri",
+     "translation": "le Fils",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ",
+     "slug": "cop_pnevma",
+     "translation": "l'Esprit (mot grec : souffle)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ϯⲧ̀ⲣⲓⲁⲥ",
+     "slug": "cop_trias",
+     "translation": "la Trinité (mot grec : triade)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲟⲩⲣⲟ",
+     "slug": "cop_ouro",
+     "translation": "roi",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ",
+     "slug": "cop_pantokrator",
+     "translation": "le Tout-Puissant (mot grec)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l119",
+   "sequence": 119,
+   "title": "La Vierge et les saints : titres et intercessions",
+   "description": "ϯⲑⲉⲟⲧⲟⲕⲟⲥ, ⲭⲉⲣⲉ, ⲙⲁⲣⲧⲩⲣⲟⲥ, ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ, ⲁ̀ⲅⲓⲟⲥ : le sens des titres et la formule « par les intercessions » mot à mot.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g119.vierge_saints",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g118.dieu_trinite",
+    "eg.g117.verbes_passe_present",
+    "eg.v.theotokos",
+    "eg.v.intercession_des_saints"
+   ],
+   "vocabulary": [
+    {
+     "word": "Ⲙⲁⲣⲓⲁ",
+     "slug": "cop_maria",
+     "translation": "Marie",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ϯⲑⲉⲟⲧⲟⲕⲟⲥ",
+     "slug": "cop_theotokos",
+     "translation": "la mère de Dieu (mot grec : celle qui enfante Dieu)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲭⲉⲣⲉ",
+     "slug": "cop_khere",
+     "translation": "salut, réjouis-toi (mot grec)",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ",
+     "slug": "cop_apostolos",
+     "translation": "apôtre, « envoyé » (mot grec)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲙⲁⲣⲧⲩⲣⲟⲥ",
+     "slug": "cop_martyros",
+     "translation": "martyr, « témoin » (mot grec)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲁ̀ⲅⲓⲟⲥ",
+     "slug": "cop_agios",
+     "translation": "saint (mot grec)",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "ⲡ̀ⲣⲉⲥⲃⲓⲁ",
+     "slug": "cop_presbia",
+     "translation": "intercession (mot grec)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l120",
+   "sequence": 120,
+   "title": "Les réponses de la messe : grec, hébreu ou copte ?",
+   "description": "Amen, alléluia, Kyrie eleison, gloire à toi, la paix à tous : le sens mot à mot, et la langue de chaque réponse.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g120.reponses_messe",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g119.vierge_saints",
+    "eg.g118.dieu_trinite",
+    "eg.v.trisagion"
+   ],
+   "vocabulary": [
+    {
+     "word": "ⲁ̀ⲙⲏⲛ",
+     "slug": "cop_amin",
+     "translation": "amen : c'est vrai, ainsi soit-il (hébreu)",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "ⲁ̀ⲗⲗⲏⲗⲟⲩⲓⲁ",
+     "slug": "cop_alleluia",
+     "translation": "alléluia : louez Dieu (hébreu)",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ",
+     "slug": "cop_kyrie",
+     "translation": "Seigneur, aie pitié (grec)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ",
+     "slug": "cop_doxa",
+     "translation": "gloire à toi, Seigneur (grec)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "ⲡⲓⲱⲟⲩ",
+     "slug": "cop_iwou",
+     "translation": "la gloire (copte)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲓ̀ⲣⲏⲛⲏ",
+     "slug": "cop_irini",
+     "translation": "paix (mot grec)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲛⲁⲓ",
+     "slug": "cop_nai",
+     "translation": "pitié, miséricorde (copte)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l121",
+   "sequence": 121,
+   "title": "Le copte dans l'arabe d'Égypte et dans les noms",
+   "description": "Mots arabes venus du copte (طوب, واحة, تمساح, الفيوم) et sens des prénoms coptes (Shenouda, Bishoy, Tawadros, Anba).",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g121.copte_dans_arabe",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g120.reponses_messe",
+    "eg.g119.vierge_saints",
+    "eg.g114.articles",
+    "eg.v.tout"
+   ],
+   "vocabulary": [
+    {
+     "word": "طوب (ⲧⲱⲃⲉ)",
+     "slug": "cop_toub",
+     "translation": "brique : mot arabe venu du copte ⲧⲱⲃⲉ",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "واحة (ⲟⲩⲁϩⲉ)",
+     "slug": "cop_waha",
+     "translation": "oasis : mot arabe venu du copte ⲟⲩⲁϩⲉ",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "تمساح (ⲉⲙⲥⲁϩ)",
+     "slug": "cop_timsah",
+     "translation": "crocodile : mot arabe venu du copte ⲉⲙⲥⲁϩ",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الفيوم (ⲫⲓⲟⲙ)",
+     "slug": "cop_fayoum",
+     "translation": "le Fayoum, « le lac », du copte ⲫⲓⲟⲙ",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "أنبا (ⲁⲃⲁ)",
+     "slug": "cop_anba",
+     "translation": "Anba : titre « père », du copte ⲁⲃⲁ",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شنودة (Ϣⲉⲛⲟⲩϯ)",
+     "slug": "cop_shenouda",
+     "translation": "Shenouda : « enfant de Dieu », du copte Ϣⲉⲛⲟⲩϯ",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "بيشوي (Ⲡⲓϣⲱⲓ)",
+     "slug": "cop_bishoy",
+     "translation": "Bishoy : « le haut », du copte Ⲡⲓϣⲱⲓ",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "تاوضروس (ⲑⲉⲟⲇⲱⲣⲟⲥ)",
+     "slug": "cop_tawadros",
+     "translation": "Tawadros : « don de Dieu », du grec ⲑⲉⲟⲇⲱⲣⲟⲥ",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l122",
+   "sequence": 122,
+   "title": "Bilan : lire et comprendre une formule copte",
+   "description": "Révision de tout le module : découper, traduire, relier mot et sens et reconstituer des formules courtes.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g122.bilan_copte",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g121.copte_dans_arabe",
+    "eg.g120.reponses_messe",
+    "eg.g119.vierge_saints",
+    "eg.g118.dieu_trinite",
+    "eg.g117.verbes_passe_present",
+    "eg.g116.petits_mots",
+    "eg.g115.possessifs",
+    "eg.g114.articles",
+    "eg.g113.nomina_sacra",
+    "eg.g112.jinkim",
+    "eg.g111.langue_des_pharaons"
+   ],
+   "vocabulary": []
   }
  ]
 }

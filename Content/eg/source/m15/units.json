@@ -90,7 +90,7 @@
  {
   "id": "eg.g113.nomina_sacra",
   "rule": {
-   "summary": "Une barre au-dessus de plusieurs lettres (la surligne) indique un nom sacré abrégé : ⲓ̅ⲏ̅ⲥ̅ pour Jésus, ⲭ̅ⲥ̅ pour le Christ, ⲡ̅ϭ̅ⲥ̅ pour le Seigneur, ⲫ̅ϯ̅ pour Dieu.",
+   "summary": "Une barre au-dessus de plusieurs lettres (la surligne) indique un nom sacré abrégé : ⲓ̅ⲏ̅ⲥ̅ pour Jésus, ⲭ̅ⲥ̅ pour le Christ, ⲡ̅ⲟ̅ⲥ̅ pour le Seigneur, ⲫ̅ϯ̅ pour Dieu.",
    "explanation": "Ces abréviations, les nomina sacra, existent déjà dans les manuscrits grecs du IIe siècle. On garde la première et la dernière lettre du mot (parfois une du milieu) et on trace une barre dessus. Elles ne se lisent pas lettre par lettre : on lit le mot entier. Ne confonds pas la surligne, qui couvre plusieurs lettres et abrège un mot, avec la jinkim, petit trait sur une seule lettre qui guide la lecture.",
    "pattern": "barre sur plusieurs lettres = nom sacré abrégé, à lire en entier",
    "examples": [
@@ -103,7 +103,7 @@
      "translation": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ, le Christ."
     },
     {
-     "text": "ⲡ̅ϭ̅ⲥ̅",
+     "text": "ⲡ̅ⲟ̅ⲥ̅",
      "translation": "Ⲡϭⲟⲓⲥ, le Seigneur."
     },
     {
@@ -129,6 +129,402 @@
     }
    ],
    "tip": "Barre sur plusieurs lettres = mot sacré abrégé ; lis le mot entier."
+  }
+ },
+ {
+  "id": "eg.g114.articles",
+  "rule": {
+   "summary": "En copte, l'article est collé au nom : ⲡⲓ (le), ϯ (la), ⲛⲓ (les), ⲟⲩ (un, une), ϩⲁⲛ (des). Devant quelques mots courants il prend la forme ⲫ̀ (Ⲫ̀ⲛⲟⲩϯ, Ⲫ̀ⲓⲱⲧ, ⲫ̀ⲣⲁⲛ).",
+   "explanation": "Le premier réflexe pour comprendre un mot copte est de détacher l'article. Le défini a trois formes : ⲡⲓ (masculin), ϯ (féminin), ⲛⲓ (pluriel). L'indéfini est ⲟⲩ (un, une) et ϩⲁⲛ (des). L'article indique le genre : ϯⲡⲁⲣⲑⲉⲛⲟⲥ est féminin. Devant certains mots l'article est raccourci (Ⲡϭⲟⲓⲥ, Ⲡ̀ϣⲏⲣⲓ) ou devient ⲫ̀ (Ⲫ̀ⲛⲟⲩϯ, Ⲫ̀ⲓⲱⲧ, ⲫ̀ⲣⲁⲛ) : ce sont des mots très fréquents à apprendre tels quels.",
+   "pattern": "article + nom : ⲡⲓ / ϯ / ⲛⲓ (le, la, les) ; ⲟⲩ / ϩⲁⲛ (un, des) ; ⲫ̀ devant quelques mots",
+   "examples": [
+    {
+     "text": "ⲡⲓⲁⲅⲅⲉⲗⲟⲥ",
+     "translation": "L'ange."
+    },
+    {
+     "text": "ϯⲉⲕⲕⲗⲏⲥⲓⲁ",
+     "translation": "L'Église."
+    },
+    {
+     "text": "ⲛⲓⲁⲅⲅⲉⲗⲟⲥ",
+     "translation": "Les anges."
+    },
+    {
+     "text": "Ⲫ̀ⲛⲟⲩϯ",
+     "translation": "Dieu (ⲫ̀ + ⲛⲟⲩϯ)."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Ⲫ̀ⲛⲟⲩϯ est un seul mot qui n'a rien à voir avec ⲛⲟⲩϯ.",
+     "right": "Ⲫ̀ⲛⲟⲩϯ = ⲫ̀ (le) + ⲛⲟⲩϯ (dieu).",
+     "why": "Le ⲫ̀ est un article collé au nom."
+    },
+    {
+     "wrong": "ϯⲡⲁⲣⲑⲉⲛⲟⲥ est masculin parce que le mot finit comme ⲁⲅⲅⲉⲗⲟⲥ.",
+     "right": "Il est féminin : c'est ϯ qui le montre.",
+     "why": "Le genre se lit sur l'article, pas sur la terminaison."
+    },
+    {
+     "wrong": "ϩⲁⲛ veut dire « les ».",
+     "right": "ϩⲁⲛ veut dire « des » ; « les » se dit ⲛⲓ.",
+     "why": "Défini : ⲛⲓ ; indéfini : ϩⲁⲛ."
+    }
+   ],
+   "tip": "Détache l'article, puis cherche le nom."
+  }
+ },
+ {
+  "id": "eg.g115.possessifs",
+  "rule": {
+   "summary": "Le possessif se colle au nom et remplace l'article : ⲡⲁ- (mon), ⲡⲉⲕ- (ton), ⲡⲉϥ- (son), ⲡⲉⲛ- (notre), ⲡⲉⲧⲉⲛ- (votre), ⲡⲟⲩ- (leur), avec ⲡ- au masculin, ⲧ- au féminin et ⲛ- au pluriel.",
+   "explanation": "Le possessif est un préfixe qui prend la place de l'article : ⲡⲁⲛⲟⲩϯ (mon Dieu), pas ⲡⲁⲫ̀ⲛⲟⲩϯ. Il est formé du ⲡ de l'article suivi de la personne : ϥ (lui), ⲥ (elle), ⲕ (toi), ⲛ (nous), ⲧⲉⲛ (vous), ⲟⲩ (eux). Sa première lettre s'accorde avec ce qui est possédé : ⲡ- pour un nom masculin, ⲧ- pour un féminin, ⲛ- pour un pluriel. À l'église tu entends surtout Ⲡⲉⲛ- : Ⲡⲉⲛⲓⲱⲧ (notre Père), Ⲡⲉⲛϭⲟⲓⲥ (notre Seigneur).",
+   "pattern": "ⲡⲁ- / ⲡⲉⲕ- / ⲡⲉϥ- / ⲡⲉⲛ- / ⲡⲉⲧⲉⲛ- / ⲡⲟⲩ- + nom (ⲧ- féminin, ⲛ- pluriel)",
+   "examples": [
+    {
+     "text": "ⲡⲁⲛⲟⲩϯ",
+     "translation": "Mon Dieu."
+    },
+    {
+     "text": "ⲡⲉⲕⲣⲁⲛ",
+     "translation": "Ton nom."
+    },
+    {
+     "text": "Ⲡⲉⲛⲓⲱⲧ",
+     "translation": "Notre Père."
+    },
+    {
+     "text": "Ⲡⲉⲛϭⲟⲓⲥ",
+     "translation": "Notre Seigneur."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ⲡⲉⲛ- veut dire « votre ».",
+     "right": "ⲡⲉⲛ- veut dire « notre » ; « votre » se dit ⲡⲉⲧⲉⲛ-.",
+     "why": "ⲡⲉⲛ- garde le ⲛ de « nous »."
+    },
+    {
+     "wrong": "On dit ⲡⲁⲫ̀ⲛⲟⲩϯ pour « mon Dieu ».",
+     "right": "On dit ⲡⲁⲛⲟⲩϯ.",
+     "why": "Le possessif remplace l'article : plus de ⲫ̀."
+    },
+    {
+     "wrong": "ⲧⲁ- s'emploie quand le propriétaire est une femme.",
+     "right": "ⲧⲁ- s'emploie quand la chose possédée est féminine.",
+     "why": "Le possessif s'accorde avec le nom possédé."
+    }
+   ],
+   "tip": "Ⲡⲉⲛ- = notre ; le ⲡ/ⲧ/ⲛ du début donne le genre de la chose possédée."
+  }
+ },
+ {
+  "id": "eg.g116.petits_mots",
+  "rule": {
+   "summary": "Huit petits mots font la structure des phrases : ⲛⲉⲙ et ⲟⲩⲟϩ (et), ϧⲉⲛ (dans), ϩⲓⲧⲉⲛ (par), ⲛ̀/ⲙ̀ (de), ⲉⲑⲟⲩⲁⲃ (saint, après le nom), ⲁⲛ (ne… pas), ⲉⲑⲃⲉ (à cause de).",
+   "explanation": "Ces mots sont courts et fréquents : les reconnaître suffit pour comprendre une phrase comme ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ. ⲛⲉⲙ relie des noms, ⲟⲩⲟϩ des phrases. ϧⲉⲛ donne le lieu, ϩⲓⲧⲉⲛ le moyen. Le « de » s'écrit ⲛ̀ mais devient ⲙ̀ devant ⲡ, ⲫ, ⲃ, ⲙ. L'adjectif ⲉⲑⲟⲩⲁⲃ se place après le nom. La négation ⲁⲛ se place après le mot nié.",
+   "pattern": "nom + ⲛⲉⲙ + nom ; ϧⲉⲛ + lieu ; ⲛ̀/ⲙ̀ + nom ; nom + ⲉⲑⲟⲩⲁⲃ ; … ⲁⲛ",
+   "examples": [
+    {
+     "text": "Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ",
+     "translation": "Le Père et le Fils."
+    },
+    {
+     "text": "ϧⲉⲛ ϯⲉⲕⲕⲗⲏⲥⲓⲁ",
+     "translation": "Dans l'Église."
+    },
+    {
+     "text": "ϯⲉⲕⲕⲗⲏⲥⲓⲁ ⲉⲑⲟⲩⲁⲃ",
+     "translation": "L'Église sainte."
+    },
+    {
+     "text": "ⲉⲑⲃⲉ ⲡⲉⲕⲣⲁⲛ",
+     "translation": "À cause de ton nom."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ϧⲉⲛ veut dire « par ».",
+     "right": "ϧⲉⲛ veut dire « dans » ; « par » se dit ϩⲓⲧⲉⲛ.",
+     "why": "ϧⲉⲛ marque le lieu, ϩⲓⲧⲉⲛ le moyen."
+    },
+    {
+     "wrong": "ⲉⲑⲟⲩⲁⲃ se place avant le nom, comme en anglais.",
+     "right": "Il se place après le nom, comme en français.",
+     "why": "ϯⲉⲕⲕⲗⲏⲥⲓⲁ ⲉⲑⲟⲩⲁⲃ : l'Église sainte."
+    },
+    {
+     "wrong": "ⲙ̀ et ⲛ̀ sont deux mots différents.",
+     "right": "C'est le même mot « de », qui devient ⲙ̀ devant ⲡ, ⲫ, ⲃ, ⲙ.",
+     "why": "Comme « en » devient « em » devant p ou b."
+    }
+   ],
+   "tip": "ⲛⲉⲙ = et ; ϧⲉⲛ = dans ; ⲛ̀/ⲙ̀ = de ; ⲉⲑⲟⲩⲁⲃ = saint après le nom."
+  }
+ },
+ {
+  "id": "eg.g117.verbes_passe_present",
+  "rule": {
+   "summary": "Le passé se forme avec ⲁ + la personne (ⲁϥ- il a, ⲁⲥ- elle a, ⲁⲩ- ils ont) ; le présent avec ϯ- (je) ; l'impératif est le verbe seul (ⲥⲙⲟⲩ, bénis !).",
+   "explanation": "Le verbe copte ne change pas sa fin : on ajoute des petits morceaux devant. ⲁ marque le passé et se combine avec la personne : ⲁϥ (il), ⲁⲥ (elle), ⲁⲩ (ils). ϯ- est « je » au présent : ϯⲛⲁϩϯ, je crois. L'ordre se donne avec le verbe seul : ⲥⲙⲟⲩ. Ainsi ⲁϥⲧⲱⲛϥ se lit ⲁ + ϥ + ⲧⲱⲛ + ϥ : il s'est levé, il est ressuscité. Les marques ϥ, ⲥ, ⲟⲩ sont les mêmes que pour « son », « sa », « leur » dans les noms.",
+   "pattern": "ⲁ + personne + verbe (passé) ; ϯ + verbe (je) ; verbe seul (ordre)",
+   "examples": [
+    {
+     "text": "ⲁϥⲧⲱⲛϥ",
+     "translation": "Il est ressuscité."
+    },
+    {
+     "text": "ⲁ̀ⲗⲏⲑⲱⲥ ⲁϥⲧⲱⲛϥ",
+     "translation": "Vraiment, il est ressuscité."
+    },
+    {
+     "text": "ϯⲛⲁϩϯ",
+     "translation": "Je crois."
+    },
+    {
+     "text": "ⲥⲙⲟⲩ",
+     "translation": "Bénis !"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ⲁϥ- veut dire « il va » (futur).",
+     "right": "ⲁϥ- marque le passé : « il a ».",
+     "why": "Le ⲁ est la marque du passé."
+    },
+    {
+     "wrong": "ϯ- est toujours l'article « la ».",
+     "right": "Devant un verbe, ϯ- veut dire « je ».",
+     "why": "ϯⲛⲁϩϯ = je crois, alors que ϯⲉⲕⲕⲗⲏⲥⲓⲁ = l'Église."
+    },
+    {
+     "wrong": "Le second ϥ de ⲁϥⲧⲱⲛϥ est une faute de frappe.",
+     "right": "C'est le « se » : il s'est levé.",
+     "why": "Le premier ϥ est le sujet, le second ϥ revient sur lui."
+    }
+   ],
+   "tip": "ⲁ = passé ; ϥ = il ; ϯ devant un verbe = je."
+  }
+ },
+ {
+  "id": "eg.g118.dieu_trinite",
+  "rule": {
+   "summary": "Les noms de Dieu se décomposent : Ⲫ̀ⲓⲱⲧ (ⲫ̀ + père), Ⲡ̀ϣⲏⲣⲓ (ⲡ̀ + fils), Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ (ⲡⲓ + esprit + saint), ϯⲧ̀ⲣⲓⲁⲥ (ϯ + triade). La formule du signe de croix se lit mot à mot.",
+   "explanation": "Avec l'article, le possessif et les petits mots, tu peux lire la formule ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ ⲛⲉⲙ Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ : dans (ϧⲉⲛ) le nom (ⲫ̀ⲣⲁⲛ) du (ⲙ̀) Père (Ⲫ̀ⲓⲱⲧ) et (ⲛⲉⲙ) du Fils (Ⲡ̀ϣⲏⲣⲓ) et (ⲛⲉⲙ) de l'Esprit (Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ) saint (ⲉⲑⲟⲩⲁⲃ). Le mot « nom » est au singulier : un seul nom, trois personnes. Père, Fils sont égyptiens ; Esprit et Trinité sont grecs.",
+   "pattern": "ϧⲉⲛ + ⲫ̀ⲣⲁⲛ + ⲙ̀Ⲫ̀ⲓⲱⲧ + ⲛⲉⲙ + Ⲡ̀ϣⲏⲣⲓ + ⲛⲉⲙ + Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ + ⲉⲑⲟⲩⲁⲃ",
+   "examples": [
+    {
+     "text": "Ⲫ̀ⲓⲱⲧ",
+     "translation": "Le Père (ⲫ̀ + ⲓⲱⲧ)."
+    },
+    {
+     "text": "Ⲡ̀ϣⲏⲣⲓ",
+     "translation": "Le Fils (ⲡ̀ + ϣⲏⲣⲓ)."
+    },
+    {
+     "text": "Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ",
+     "translation": "Le Saint-Esprit."
+    },
+    {
+     "text": "ϯⲧ̀ⲣⲓⲁⲥ",
+     "translation": "La Trinité."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Dans la formule, ⲫ̀ⲣⲁⲛ est au pluriel : trois noms.",
+     "right": "ⲫ̀ⲣⲁⲛ est au singulier : un seul nom.",
+     "why": "Un seul nom pour trois personnes."
+    },
+    {
+     "wrong": "ⲉⲑⲟⲩⲁⲃ se rapporte au Fils seulement.",
+     "right": "ⲉⲑⲟⲩⲁⲃ (saint) qualifie l'Esprit, placé juste avant.",
+     "why": "L'adjectif suit son nom : Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ ⲉⲑⲟⲩⲁⲃ."
+    },
+    {
+     "wrong": "Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ est un mot égyptien.",
+     "right": "C'est un mot grec (pneuma).",
+     "why": "Les mots égyptiens ont souvent ϣ, ϧ, ϩ ; pneuma est un mot grec comme ange."
+    }
+   ],
+   "tip": "Un seul nom (ⲫ̀ⲣⲁⲛ), trois personnes : Père, Fils, Esprit."
+  }
+ },
+ {
+  "id": "eg.g119.vierge_saints",
+  "rule": {
+   "summary": "Les titres de la Vierge et des saints sont presque tous grecs (ϯⲑⲉⲟⲧⲟⲕⲟⲥ, ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ, ⲙⲁⲣⲧⲩⲣⲟⲥ, ⲁ̀ⲅⲓⲟⲥ, ⲡ̀ⲣⲉⲥⲃⲓⲁ) et se décomposent avec l'article et les petits mots déjà appris.",
+   "explanation": "ϯⲑⲉⲟⲧⲟⲕⲟⲥ se découpe en ϯ + ⲑⲉⲟⲥ (Dieu) + ⲧⲟⲕⲟⲥ (enfantement) : la mère de Dieu. ⲭⲉⲣⲉ est le salut grec « réjouis-toi ». ⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ veut dire « envoyé », ⲙⲁⲣⲧⲩⲣⲟⲥ « témoin », ⲁ̀ⲅⲓⲟⲥ « saint » (alors que ⲉⲑⲟⲩⲁⲃ est le « saint » copte). Avec ϩⲓⲧⲉⲛ (par), ⲛ̀ⲧⲉ (de) et ⲉⲑⲟⲩⲁⲃ, la formule ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ ⲛ̀ⲧⲉ ϯⲑⲉⲟⲧⲟⲕⲟⲥ ⲉⲑⲟⲩⲁⲃ Ⲙⲁⲣⲓⲁ se lit : par les intercessions de la sainte mère de Dieu, Marie.",
+   "pattern": "ϩⲓⲧⲉⲛ + ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ + ⲛ̀ⲧⲉ + ϯⲑⲉⲟⲧⲟⲕⲟⲥ + ⲉⲑⲟⲩⲁⲃ + Ⲙⲁⲣⲓⲁ",
+   "examples": [
+    {
+     "text": "ϯⲑⲉⲟⲧⲟⲕⲟⲥ",
+     "translation": "La mère de Dieu (ⲑⲉⲟⲥ + ⲧⲟⲕⲟⲥ)."
+    },
+    {
+     "text": "ⲭⲉⲣⲉ ⲛⲉ ⲱ̀ Ⲙⲁⲣⲓⲁ",
+     "translation": "Salut à toi, ô Marie."
+    },
+    {
+     "text": "ⲛⲓⲁ̀ⲡⲟⲥⲧⲟⲗⲟⲥ",
+     "translation": "Les apôtres, les envoyés."
+    },
+    {
+     "text": "ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ",
+     "translation": "Par les intercessions."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ⲁ̀ⲅⲓⲟⲥ et ⲉⲑⲟⲩⲁⲃ n'ont rien à voir.",
+     "right": "Les deux veulent dire « saint » : l'un est grec, l'autre copte.",
+     "why": "Le copte emprunte souvent un mot grec à côté de son mot égyptien."
+    },
+    {
+     "wrong": "ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ veut dire « les rois ».",
+     "right": "ⲛⲓⲙⲁⲣⲧⲩⲣⲟⲥ veut dire « les martyrs » (les témoins).",
+     "why": "ⲛⲓ est l'article « les » ; ⲙⲁⲣⲧⲩⲣⲟⲥ est « témoin »."
+    },
+    {
+     "wrong": "ϯⲑⲉⲟⲧⲟⲕⲟⲥ veut dire « la servante de Dieu ».",
+     "right": "ϯⲑⲉⲟⲧⲟⲕⲟⲥ veut dire « la mère de Dieu ».",
+     "why": "ⲧⲟⲕⲟⲥ est l'enfantement : celle qui enfante Dieu."
+    }
+   ],
+   "tip": "ϯⲑⲉⲟⲧⲟⲕⲟⲥ = ⲑⲉⲟⲥ (Dieu) + ⲧⲟⲕⲟⲥ (enfantement) ; ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ = par les intercessions."
+  }
+ },
+ {
+  "id": "eg.g120.reponses_messe",
+  "rule": {
+   "summary": "Les réponses de la messe sont dans trois langues : l'hébreu (ⲁ̀ⲙⲏⲛ, ⲁ̀ⲗⲗⲏⲗⲟⲩⲓⲁ), le grec (Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ, Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ, ⲓ̀ⲣⲏⲛⲏ) et le copte (ⲡⲓⲱⲟⲩ, ⲛⲁⲓ ⲛⲁⲛ).",
+   "explanation": "Plus besoin de tout traduire : chaque réponse se décompose en deux ou trois mots simples. Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ = Seigneur + aie pitié. Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ = gloire + à toi + Seigneur. Le copte dit la même chose avec ⲛⲁⲓ ⲛⲁⲛ (pitié à nous) et ⲡⲓⲱⲟⲩ (la gloire). ⲁ̀ⲙⲏⲛ (c'est vrai) et ⲁ̀ⲗⲗⲏⲗⲟⲩⲓⲁ (louez Dieu) viennent de l'hébreu.",
+   "pattern": "hébreu : ⲁ̀ⲙⲏⲛ, ⲁ̀ⲗⲗⲏⲗⲟⲩⲓⲁ ; grec : ⲕⲩⲣⲓⲉ, ⲇⲟⲝⲁ, ⲓ̀ⲣⲏⲛⲏ ; copte : ⲡⲓⲱⲟⲩ, ⲛⲁⲓ",
+   "examples": [
+    {
+     "text": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ",
+     "translation": "Seigneur, aie pitié (grec)."
+    },
+    {
+     "text": "ⲛⲁⲓ ⲛⲁⲛ",
+     "translation": "Aie pitié de nous (copte)."
+    },
+    {
+     "text": "Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ",
+     "translation": "Gloire à toi, Seigneur (grec)."
+    },
+    {
+     "text": "Ⲓ̀ⲣⲏⲛⲏ ⲡⲁⲥⲓ",
+     "translation": "La paix à tous (grec)."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ est du copte.",
+     "right": "C'est du grec, avec une version copte : ⲛⲁⲓ ⲛⲁⲛ.",
+     "why": "Le copte garde des mots grecs dans sa liturgie."
+    },
+    {
+     "wrong": "ⲁ̀ⲙⲏⲛ est un mot grec.",
+     "right": "ⲁ̀ⲙⲏⲛ est un mot hébreu, passé par le grec.",
+     "why": "Comme ⲁ̀ⲗⲗⲏⲗⲟⲩⲓⲁ, il vient de la Bible hébraïque."
+    },
+    {
+     "wrong": "ⲡⲓⲱⲟⲩ et ⲇⲟⲝⲁ sont deux mots différents.",
+     "right": "Ils veulent tous deux dire « gloire » : l'un est copte, l'autre grec.",
+     "why": "Le copte a souvent deux mots pour une même idée."
+    }
+   ],
+   "tip": "Décompose : Ⲕⲩⲣⲓⲉ + ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ = Seigneur + aie pitié."
+  }
+ },
+ {
+  "id": "eg.g121.copte_dans_arabe",
+  "rule": {
+   "summary": "L'arabe d'Égypte garde des mots coptes (طوب, واحة, تمساح, الفيوم), et beaucoup de prénoms coptes se décomposent avec les mots appris : ⲛⲟⲩϯ, ⲁⲃⲁ, ⲑⲉⲟ.",
+   "explanation": "Le copte n'a pas disparu : il a donné à l'arabe d'Égypte des mots de la vie quotidienne (la brique, l'oasis, le crocodile) et des noms de lieux (le Fayoum, « le lac »). Les mois portent leurs noms coptes. Les prénoms se lisent comme des mots : Shenouda contient ⲛⲟⲩϯ (dieu), Anba est ⲁⲃⲁ (père), Tawadros est ⲑⲉⲟ (Dieu) + ⲇⲱⲣⲟⲥ (don). Cela t'aide à reconnaître les mots coptes derrière les sons arabes.",
+   "pattern": "arabe d'Égypte ← copte ← égyptien ancien ; prénoms = mots coptes ou grecs",
+   "examples": [
+    {
+     "text": "طوب ← ⲧⲱⲃⲉ",
+     "translation": "La brique."
+    },
+    {
+     "text": "تمساح ← ⲉⲙⲥⲁϩ",
+     "translation": "Le crocodile."
+    },
+    {
+     "text": "الفيوم ← ⲫⲓⲟⲙ",
+     "translation": "Le lac (ⲫ = l'article)."
+    },
+    {
+     "text": "أنبا ← ⲁⲃⲁ",
+     "translation": "Père."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "طوب et طوبة sont le même mot.",
+     "right": "طوب (la brique) vient de ⲧⲱⲃⲉ ; طوبة (le mois) vient de ⲧⲱⲃⲓ.",
+     "why": "Même son, deux mots différents."
+    },
+    {
+     "wrong": "Le copte est mort sans laisser de trace.",
+     "right": "Il survit dans l'arabe d'Égypte et dans les noms.",
+     "why": "Mots du quotidien, noms de lieux, prénoms, mois."
+    },
+    {
+     "wrong": "Tous les prénoms coptes sont égyptiens.",
+     "right": "Beaucoup sont grecs (Tawadros, Boutros).",
+     "why": "Le grec était très présent dans l'Église d'Alexandrie."
+    }
+   ],
+   "tip": "Cherche le mot copte derrière le son arabe : ⲛⲟⲩϯ dans Shenouda, ⲁⲃⲁ dans Anba."
+  }
+ },
+ {
+  "id": "eg.g122.bilan_copte",
+  "rule": {
+   "summary": "Pour comprendre une formule copte, on la découpe : article ou possessif, nom (égyptien, grec ou hébreu), verbe avec sa marque, et petits mots (ϧⲉⲛ, ⲛⲉⲙ, ⲛ̀, ϩⲓⲧⲉⲛ).",
+   "explanation": "Les onze leçons précédentes donnent toutes les clés : la jinkim (lecture), la surligne (abréviation), les articles ⲡⲓ, ϯ, ⲛⲓ, ⲟⲩ, ϩⲁⲛ et ⲫ̀, les possessifs ⲡⲉⲛ-, ⲡⲁ-, ⲡⲉⲕ-, les petits mots, les marques du verbe ⲁϥ-, ⲁⲥ-, ⲁⲩ-, ϯ-. Avec elles, une formule se lit mot à mot et se traduit. Reconnaître l'origine d'un mot (égyptien, grec, hébreu) aide à en deviner le sens.",
+   "pattern": "article/possessif + nom ; ⲁ + personne + verbe ; petits mots entre les groupes",
+   "examples": [
+    {
+     "text": "ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ",
+     "translation": "Dans le nom du Père."
+    },
+    {
+     "text": "ⲁϥⲧⲱⲛϥ",
+     "translation": "Il est ressuscité."
+    },
+    {
+     "text": "ϩⲓⲧⲉⲛ ⲛⲓⲡ̀ⲣⲉⲥⲃⲓⲁ",
+     "translation": "Par les intercessions."
+    },
+    {
+     "text": "ⲛⲁⲓ ⲛⲁⲛ",
+     "translation": "Aie pitié de nous."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Pour comprendre une formule, il faut l'apprendre par cœur.",
+     "right": "Il suffit de la découper en articles, noms et petits mots.",
+     "why": "Le copte se lit par morceaux collés."
+    },
+    {
+     "wrong": "Tous les mots coptes viennent du grec.",
+     "right": "Il y a des mots égyptiens, grecs et hébreux.",
+     "why": "Les lettres ϣ ϩ ϧ ϫ ϭ trahissent un mot égyptien."
+    },
+    {
+     "wrong": "La barre sur ⲓ̅ⲏ̅ⲥ̅ se lit comme une jinkim.",
+     "right": "C'est une abréviation à lire en entier : Ⲓⲏⲥⲟⲩⲥ.",
+     "why": "La jinkim touche une lettre ; la surligne en couvre plusieurs."
+    }
+   ],
+   "tip": "Détache l'article, lis la jinkim, trouve le nom, lis les petits mots."
   }
  }
 ]

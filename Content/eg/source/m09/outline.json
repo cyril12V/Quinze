@@ -1,0 +1,541 @@
+{
+ "module": {
+  "id": 9,
+  "title": "Les sept sacrements",
+  "description": "Les sept sacrements (mystères) de l'Église copte : le baptême, la confirmation (saint myron), l'eucharistie, la confession, l'onction des malades, le mariage et le sacerdoce, avec leur signe, leur fondement biblique et leur sens."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g69.sacrement",
+   "category": "knowledge",
+   "title": "Qu'est-ce qu'un sacrement ?",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g58.protestants_sacrements_saints"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g70.bapteme",
+   "category": "knowledge",
+   "title": "Le baptême : naître d'eau et d'Esprit",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g69.sacrement"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g71.confirmation",
+   "category": "knowledge",
+   "title": "La confirmation : le saint myron",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g70.bapteme"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g72.eucharistie",
+   "category": "knowledge",
+   "title": "L'eucharistie : le Corps et le Sang du Christ",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g71.confirmation_myron"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g73.confession",
+   "category": "knowledge",
+   "title": "La confession : le pardon par le prêtre",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g72.eucharistie"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g74.onction_malades",
+   "category": "knowledge",
+   "title": "L'onction des malades : le qandil",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g73.confession"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g75.mariage_sacerdoce",
+   "category": "knowledge",
+   "title": "Le mariage et le sacerdoce : deux vocations",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g74.onction_malades"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g76.bilan_sacrements",
+   "category": "knowledge",
+   "title": "Les sept sacrements : le tableau d'ensemble",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g75.mariage_sacerdoce"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l69",
+   "sequence": 69,
+   "title": "Qu'est-ce qu'un sacrement ?",
+   "description": "Comprendre ce qu'est un sacrement (mystère) : un signe visible et une grâce invisible, institué par le Christ, célébré par un prêtre ; les sept, ceux qu'on reçoit une fois et ceux qui se répètent.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g69.sacrement",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "vocabulary": [
+    {
+     "word": "le sacrement (le mystère)",
+     "slug": "sacrement",
+     "translation": "signe visible par lequel Dieu donne une grâce invisible",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la grâce",
+     "slug": "grace",
+     "translation": "don gratuit de Dieu : son aide, son pardon, sa vie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le signe visible",
+     "slug": "signe_visible",
+     "translation": "la matière et le geste du sacrement : eau, huile, pain, mains",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'institution par le Christ",
+     "slug": "institution_par_le_christ",
+     "translation": "le Christ a lui-même donné le sacrement, ou les apôtres l'ont reçu de lui",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le ministre du sacrement",
+     "slug": "ministre_du_sacrement",
+     "translation": "celui qui le célèbre : le prêtre ou l'évêque",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les sacrements qui ne se répètent pas",
+     "slug": "sacrements_uniques",
+     "translation": "baptême, confirmation (saint myron), sacerdoce : reçus une seule fois",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les sacrements qui se répètent",
+     "slug": "sacrements_repetables",
+     "translation": "eucharistie, confession, onction des malades",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l70",
+   "sequence": 70,
+   "title": "Le baptême : naître de nouveau",
+   "description": "Le premier sacrement : la triple immersion, le renoncement à Satan (ouest) et la confession du Christ (est), le baptême des enfants, les 40 et 80 jours, le parrain, et le pourquoi de ces gestes.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g70.bapteme",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g69.sacrement"
+   ],
+   "vocabulary": [
+    {
+     "word": "le baptême",
+     "slug": "bapteme",
+     "translation": "premier sacrement : naître d'eau et d'Esprit par la triple immersion",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la triple immersion",
+     "slug": "triple_immersion",
+     "translation": "le baptisé est plongé trois fois dans l'eau, au nom de la Trinité",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le renoncement à Satan",
+     "slug": "renoncement_a_satan",
+     "translation": "promesse de rejeter Satan, faite tourné vers l'ouest",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la profession de foi",
+     "slug": "profession_de_foi",
+     "translation": "confession du Christ et du Credo, faite tourné vers l'est",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le parrain",
+     "slug": "parrain",
+     "translation": "celui qui répond pour l'enfant et s'engage à l'élever dans la foi",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le 40e et le 80e jour",
+     "slug": "quarante_quatre_vingts_jours",
+     "translation": "usage : le garçon est baptisé vers le 40e jour, la fille vers le 80e",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "la nouvelle naissance",
+     "slug": "nouvelle_naissance",
+     "translation": "naître d'eau et d'Esprit (Jn 3, 5), don du baptême",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le baptême des enfants",
+     "slug": "bapteme_des_enfants",
+     "translation": "l'Église baptise les bébés, avec la foi des parents et du parrain",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l71",
+   "sequence": 71,
+   "title": "La confirmation : le saint myron",
+   "description": "Le sacrement qui suit le baptême : le sceau du Saint-Esprit, les 36 onctions, la préparation du saint myron par le patriarche, l'habit blanc et le zounnar selon l'usage.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g71.confirmation",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g70.bapteme",
+    "eg.g69.sacrement"
+   ],
+   "vocabulary": [
+    {
+     "word": "la confirmation (la chrismation)",
+     "slug": "confirmation",
+     "translation": "sacrement du sceau du Saint-Esprit, donné par le saint myron après le baptême",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le saint myron",
+     "slug": "saint_myron",
+     "translation": "huile parfumée consacrée par le patriarche pour la confirmation",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les 36 onctions",
+     "slug": "trente_six_onctions",
+     "translation": "36 signes de croix de myron sur les sens et les articulations",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le sceau du Saint-Esprit",
+     "slug": "sceau_du_saint_esprit",
+     "translation": "marque spirituelle donnée par le myron : l'Esprit habite le baptisé",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la préparation du myron",
+     "slug": "preparation_du_myron",
+     "translation": "le patriarche et les évêques préparent et consacrent le saint myron",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'imposition des mains",
+     "slug": "imposition_des_mains",
+     "translation": "geste par lequel les apôtres donnaient l'Esprit, puis les évêques ordonnent",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'habit blanc",
+     "slug": "habit_blanc",
+     "translation": "vêtement blanc du nouveau baptisé : l'homme nouveau",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le zounnar",
+     "slug": "zounnar",
+     "translation": "ceinture ou ruban noué à la taille du nouveau baptisé, selon l'usage",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l72",
+   "sequence": 72,
+   "title": "L'eucharistie : le Corps et le Sang du Christ",
+   "description": "Le sacrement au centre de la vie de l'Église : sa fondation à la dernière Cène, la présence réelle, le qorban (pain levé), le jeûne eucharistique et pourquoi on se confesse avant de communier.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g72.eucharistie",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g71.confirmation_myron",
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'eucharistie",
+     "slug": "eucharistie",
+     "translation": "sacrement du Corps et du Sang du Christ ; mot grec pour « action de grâce »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la dernière Cène",
+     "slug": "derniere_cene",
+     "translation": "repas du Jeudi saint où Jésus institue l'eucharistie",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la présence réelle",
+     "slug": "presence_reelle",
+     "translation": "le pain et le vin deviennent vraiment le Corps et le Sang du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la communion",
+     "slug": "communion",
+     "translation": "le moment où le fidèle reçoit le Corps et le Sang du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le qorban",
+     "slug": "qorban",
+     "translation": "pain levé de la messe, marqué d'une croix ; veut dire « offrande »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le jeûne eucharistique",
+     "slug": "jeune_eucharistique",
+     "translation": "ni nourriture ni boisson avant la communion",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le pain de vie",
+     "slug": "pain_de_vie",
+     "translation": "titre que Jésus se donne en Jean 6 : il nourrit pour la vie éternelle",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l73",
+   "sequence": 73,
+   "title": "La confession : le pardon par le prêtre",
+   "description": "Le sacrement du pardon : Jn 20, 22-23, le père de confession, la repentance et l'absolution, et pourquoi on se confesse devant un prêtre.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g73.confession",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g72.eucharistie",
+    "eg.g71.confirmation_myron"
+   ],
+   "vocabulary": [
+    {
+     "word": "la confession (la pénitence)",
+     "slug": "confession",
+     "translation": "sacrement du pardon des péchés commis après le baptême",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le père de confession",
+     "slug": "pere_de_confession",
+     "translation": "prêtre qui reçoit nos confessions et nous guide dans la durée",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'absolution",
+     "slug": "absolution",
+     "translation": "prière par laquelle le prêtre, avec la croix sur la tête, donne le pardon de Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la repentance",
+     "slug": "repentance",
+     "translation": "changement du cœur : regret sincère et décision de changer",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "lier et délier",
+     "slug": "lier_et_delier",
+     "translation": "retenir ou remettre les péchés (Mt 18, 18 ; Jn 20, 23)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "le secret de la confession",
+     "slug": "secret_de_la_confession",
+     "translation": "le prêtre ne révèle jamais ce qu'il entend en confession",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la contrition",
+     "slug": "contrition",
+     "translation": "regret sincère de ses péchés, premier pas de la repentance",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l74",
+   "sequence": 74,
+   "title": "L'onction des malades : le qandil",
+   "description": "Le sacrement de la lampe : Jc 5, 14-15, l'huile et les sept mèches, la guérison de l'âme et du corps, le qandil général selon l'usage, et pourquoi ce n'est pas le sacrement des mourants.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g74.onction_malades",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g73.confession",
+    "eg.g72.eucharistie"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'onction des malades",
+     "slug": "onction_des_malades",
+     "translation": "sacrement de l'huile : prière pour la guérison de l'âme et du corps du malade",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le qandil",
+     "slug": "qandil",
+     "translation": "nom arabe de l'onction des malades : « la lampe »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les sept mèches",
+     "slug": "sept_meches",
+     "translation": "sept mèches de coton allumées l'une après l'autre pendant les sept prières",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'huile bénie",
+     "slug": "huile_benie",
+     "translation": "huile pure, de préférence d'olive, dont le prêtre oint le malade",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le qandil général",
+     "slug": "qandil_general",
+     "translation": "qandil célébré une fois par an pour tous les fidèles, avant la semaine de la Passion",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la guérison de l'âme et du corps",
+     "slug": "guerison_de_l_ame_et_du_corps",
+     "translation": "pardon des péchés et soulagement du malade, selon la volonté de Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les anciens de l'Église",
+     "slug": "anciens_de_l_eglise",
+     "translation": "en grec presbyteroi : les prêtres",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l75",
+   "sequence": 75,
+   "title": "Le mariage et le sacerdoce",
+   "description": "Deux sacrements de vocation : le mariage (le couronnement, les couronnes, l'indissolubilité) et le sacerdoce (l'imposition des mains, la succession apostolique, les trois degrés).",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g75.mariage_sacerdoce",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g74.onction_malades",
+    "eg.g73.confession"
+   ],
+   "vocabulary": [
+    {
+     "word": "le mariage (le couronnement)",
+     "slug": "mariage",
+     "translation": "sacrement où Dieu unit un homme et une femme, avec le rite des couronnes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le couronnement",
+     "slug": "couronnement",
+     "translation": "rite où le prêtre place des couronnes sur la tête des époux",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'indissolubilité",
+     "slug": "indissolubilite",
+     "translation": "le mariage ne se défait pas : Dieu a uni les époux",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les fiançailles",
+     "slug": "fiancailles",
+     "translation": "engagement qui précède le mariage, mais qui n'est pas un sacrement",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le grand mystère",
+     "slug": "grand_mystere",
+     "translation": "parole de saint Paul sur le mariage : « Ce mystère est grand » (Ép 5, 32)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les noces de Cana",
+     "slug": "noces_de_cana",
+     "translation": "mariage où Jésus change l'eau en vin (Jn 2)",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le sacerdoce (l'ordination)",
+     "slug": "sacerdoce",
+     "translation": "sacrement où l'évêque, par l'imposition des mains, ordonne diacres, prêtres et évêques",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'ordination",
+     "slug": "ordination",
+     "translation": "la célébration du sacerdoce : l'évêque impose les mains au candidat",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l76",
+   "sequence": 76,
+   "title": "Les sept sacrements : le tableau d'ensemble",
+   "description": "Bilan : relier chaque sacrement à son signe, à son fondement biblique et à ce qui nous distingue des catholiques et des protestants, avec trois groupes pour s'y retrouver.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g76.bilan_sacrements",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g75.mariage_sacerdoce",
+    "eg.g58.protestants_sacrements_saints",
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "vocabulary": [
+    {
+     "word": "les sacrements d'initiation",
+     "slug": "sacrements_d_initiation",
+     "translation": "baptême, confirmation et eucharistie : devenir et rester chrétien",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les sacrements de guérison",
+     "slug": "sacrements_de_guerison",
+     "translation": "confession et onction des malades : le pardon et le soulagement",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les sacrements de vocation",
+     "slug": "sacrements_de_vocation",
+     "translation": "mariage et sacerdoce : la grâce de servir dans un foyer ou dans l'Église",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
+}

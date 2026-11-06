@@ -218,5 +218,49 @@
       ],
       "tip": "Prêtre : marié avant. Évêque : moine. Pape : vote puis sort."
     }
+  },
+  {
+    "id": "eg.g82.monachisme_bilan",
+    "rule": {
+      "summary": "Le monachisme copte continue : moines, abbés et ermites vivent dans les grands monastères (Saint-Antoine, Saint-Paul, et les quatre de Wadi Natroun), et les évêques et le pape viennent des moines.",
+      "explanation": "Le moine prie, travaille et jeûne ; l'abbé dirige le monastère ; l'ermite vit seul au désert ; l'eskime est le grand habit des moines avancés. Saint-Antoine et Saint-Paul sont près de la mer Rouge. À Wadi Natroun, ancienne Scété, il reste quatre monastères : Saint-Macaire, Baramous, Anba Bishoy et celui des Syriens. Ces monastères fournissent les évêques et le pape.",
+      "pattern": "Moine → abbé (dirige) ; ermite (seul) ; eskime (habit). Saint-Antoine et Saint-Paul : mer Rouge. Wadi Natroun : quatre monastères.",
+      "examples": [
+        {
+          "text": "L'abbé dirige le monastère.",
+          "translation": "Il est le père des moines."
+        },
+        {
+          "text": "Le monastère Saint-Antoine est près de la mer Rouge.",
+          "translation": "On le dit le plus ancien monastère chrétien."
+        },
+        {
+          "text": "Wadi Natroun garde quatre monastères.",
+          "translation": "Saint-Macaire, Baramous, Anba Bishoy, les Syriens."
+        },
+        {
+          "text": "Les évêques sont choisis parmi les moines.",
+          "translation": "Le monastère nourrit la hiérarchie."
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Les monastères de Wadi Natroun sont près de la mer Rouge.",
+          "right": "Ils sont au nord-ouest du Caire ; Saint-Antoine et Saint-Paul sont près de la mer Rouge.",
+          "why": "Deux régions : le désert oriental et Wadi Natroun."
+        },
+        {
+          "wrong": "L'ermite et l'abbé, c'est la même chose.",
+          "right": "L'ermite vit seul ; l'abbé dirige un monastère.",
+          "why": "Deux vocations différentes."
+        },
+        {
+          "wrong": "Le monastère des Syriens a été fondé en Syrie.",
+          "right": "Il est à Wadi Natroun et doit son nom à des moines venus de Syrie.",
+          "why": "Il est égyptien."
+        }
+      ],
+      "tip": "Mer Rouge : Antoine et Paul. Wadi Natroun : quatre."
+    }
   }
 ]

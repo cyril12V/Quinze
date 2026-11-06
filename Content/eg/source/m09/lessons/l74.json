@@ -1,0 +1,684 @@
+{
+ "lessonId": "eg.l74",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.onction_des_malades"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel sacrement s'appelle aussi le qandil ?",
+   "promptLanguage": "fr",
+   "answer": "l'onction des malades",
+   "acceptedAnswers": [
+    "l'onction des malades"
+   ],
+   "explanation": "Qandil veut dire « lampe » : le sacrement des sept mèches.",
+   "tip": "Qandil = onction.",
+   "extraExample": {
+    "text": "Jc 5, 14-15.",
+    "translation": "Huile et sept mèches."
+   },
+   "options": [
+    "la confession",
+    "l'onction des malades",
+    "la confirmation",
+    "le mariage"
+   ],
+   "id": "eg.l74.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.onction_des_malades"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel passage fonde l'onction des malades ?",
+   "promptLanguage": "fr",
+   "answer": "Jacques 5, 14-15",
+   "acceptedAnswers": [
+    "Jacques 5, 14-15"
+   ],
+   "explanation": "Jacques demande d'appeler les anciens pour prier et oindre le malade.",
+   "tip": "Jc 5.",
+   "extraExample": {
+    "text": "Mc 6, 13 va dans le même sens.",
+    "translation": "Les disciples oignent."
+   },
+   "options": [
+    "Jean 20, 22-23",
+    "Matthieu 28, 19",
+    "Actes 8, 14-17",
+    "Jacques 5, 14-15"
+   ],
+   "id": "eg.l74.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.anciens_de_l_eglise"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui Jacques demande-t-il d'appeler auprès du malade ?",
+   "promptLanguage": "fr",
+   "answer": "les anciens de l'Église",
+   "acceptedAnswers": [
+    "les anciens de l'Église"
+   ],
+   "explanation": "Les « anciens » sont les prêtres.",
+   "tip": "Presbyteroi = prêtres.",
+   "extraExample": {
+    "text": "Le mot a donné « prêtre ».",
+    "translation": "Ils prient et oignent."
+   },
+   "options": [
+    "les diacres seulement",
+    "les parrains",
+    "les médecins",
+    "les anciens de l'Église"
+   ],
+   "id": "eg.l74.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.huile_benie"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Avec quoi le prêtre oint-il le malade ?",
+   "promptLanguage": "fr",
+   "answer": "de l'huile bénie",
+   "acceptedAnswers": [
+    "de l'huile bénie"
+   ],
+   "explanation": "L'huile du qandil est une huile pure, de préférence d'olive. Le saint myron est réservé à la confirmation.",
+   "tip": "Huile = qandil.",
+   "extraExample": {
+    "text": "Croix sur le front, la poitrine, les mains.",
+    "translation": "Signe visible."
+   },
+   "errorPatterns": [
+    {
+     "equals": "du saint myron",
+     "category": "word_confusion",
+     "feedback": "Le myron sert à la confirmation. Pour le qandil, on utilise de l'huile pure bénie."
+    }
+   ],
+   "options": [
+    "du vin de la messe",
+    "du saint myron",
+    "de l'eau du baptême",
+    "de l'huile bénie"
+   ],
+   "id": "eg.l74.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.huile_benie"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Où le prêtre trace-t-il la croix d'huile ?",
+   "promptLanguage": "fr",
+   "answer": "sur le front, la poitrine et les mains",
+   "acceptedAnswers": [
+    "sur le front, la poitrine et les mains"
+   ],
+   "explanation": "Trois endroits : front, poitrine, mains. Les 36 onctions sont celles du myron.",
+   "tip": "Trois croix d'huile.",
+   "extraExample": {
+    "text": "Le myron fait 36 onctions.",
+    "translation": "Le qandil trois."
+   },
+   "errorPatterns": [
+    {
+     "equals": "sur 36 endroits du corps",
+     "category": "word_confusion",
+     "feedback": "Les 36 onctions sont celles du saint myron à la confirmation."
+    }
+   ],
+   "options": [
+    "sur le front, la poitrine et les mains",
+    "sur le vêtement blanc",
+    "sur les pieds seulement",
+    "sur 36 endroits du corps"
+   ],
+   "id": "eg.l74.e05"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.guerison_de_l_ame_et_du_corps"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que vise le qandil ?",
+   "promptLanguage": "fr",
+   "answer": "la guérison de l'âme et du corps",
+   "acceptedAnswers": [
+    "la guérison de l'âme et du corps"
+   ],
+   "explanation": "Jacques parle de relever le malade et de lui pardonner ses péchés.",
+   "tip": "Âme + corps.",
+   "extraExample": {
+    "text": "Selon la volonté de Dieu.",
+    "translation": "Pas garanti."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la préparation à mourir",
+     "category": "word_confusion",
+     "feedback": "Ce n'est pas l'extrême-onction : le qandil sert à relever le malade."
+    }
+   ],
+   "options": [
+    "la préparation à mourir",
+    "la guérison de l'âme et du corps",
+    "la guérison du corps seulement",
+    "le pardon du péché originel"
+   ],
+   "id": "eg.l74.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.guerison_de_l_ame_et_du_corps"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que fait le malade avant le qandil, si possible ?",
+   "promptLanguage": "fr",
+   "answer": "il se confesse, et communie ensuite",
+   "acceptedAnswers": [
+    "il se confesse, et communie ensuite"
+   ],
+   "explanation": "L'âme est soignée avec le corps : la confession d'abord, la communion ensuite.",
+   "tip": "Confession puis communion.",
+   "extraExample": {
+    "text": "Pardon + relèvement.",
+    "translation": "Jc 5, 15."
+   },
+   "options": [
+    "il se confesse, et communie ensuite",
+    "il jeûne trois jours",
+    "il se fait baptiser",
+    "il reçoit le saint myron"
+   ],
+   "id": "eg.l74.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.onction_des_malades"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quand peut-on recevoir l'onction des malades ?",
+   "promptLanguage": "fr",
+   "answer": "à chaque maladie",
+   "acceptedAnswers": [
+    "à chaque maladie"
+   ],
+   "explanation": "C'est un sacrement qui se répète.",
+   "tip": "À chaque maladie.",
+   "extraExample": {
+    "text": "Chez soi, à l'hôpital, à l'église.",
+    "translation": "Pas seulement les mourants."
+   },
+   "options": [
+    "seulement à Pâques",
+    "une seule fois dans la vie",
+    "à chaque maladie",
+    "seulement à l'agonie"
+   ],
+   "id": "eg.l74.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.qandil_general"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quand a lieu le qandil général, selon l'usage ?",
+   "promptLanguage": "fr",
+   "answer": "le vendredi avant la semaine de la Passion",
+   "acceptedAnswers": [
+    "le vendredi avant la semaine de la Passion"
+   ],
+   "explanation": "Une fois par an, juste avant le dimanche des Rameaux.",
+   "tip": "Avant la semaine sainte.",
+   "extraExample": {
+    "text": "Même en bonne santé.",
+    "translation": "Pour l'âme et le corps."
+   },
+   "options": [
+    "le jour de la Pentecôte",
+    "à Noël",
+    "le vendredi avant la semaine de la Passion",
+    "chaque dimanche"
+   ],
+   "id": "eg.l74.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.sept_meches"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Sept ___ sont allumées l'une après l'autre pendant les prières.",
+   "promptLanguage": "fr",
+   "answer": "mèches",
+   "acceptedAnswers": [
+    "mèches"
+   ],
+   "explanation": "Avant chaque prière, on allume une mèche.",
+   "tip": "Sept mèches.",
+   "extraExample": {
+    "text": "D'où le nom de lampe.",
+    "translation": "Qandil."
+   },
+   "options": [
+    "bougies rouges",
+    "croix",
+    "mèches",
+    "encensoirs"
+   ],
+   "id": "eg.l74.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.anciens_de_l_eglise"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Jacques dit : « Qu'il appelle les ___ de l'Église. »",
+   "promptLanguage": "fr",
+   "answer": "anciens",
+   "acceptedAnswers": [
+    "anciens"
+   ],
+   "explanation": "Les anciens sont les prêtres.",
+   "tip": "Anciens = prêtres.",
+   "extraExample": {
+    "text": "Presbyteroi.",
+    "translation": "Prêtre."
+   },
+   "options": [
+    "anciens",
+    "diacres",
+    "jeunes",
+    "rois"
+   ],
+   "id": "eg.l74.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.guerison_de_l_ame_et_du_corps"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le qandil prie pour la guérison de l'âme et du ___.",
+   "promptLanguage": "fr",
+   "answer": "corps",
+   "acceptedAnswers": [
+    "corps"
+   ],
+   "explanation": "L'âme et le corps sont soignés ensemble.",
+   "tip": "Âme + corps.",
+   "extraExample": {
+    "text": "Jc 5, 15.",
+    "translation": "Selon la volonté de Dieu."
+   },
+   "options": [
+    "temple",
+    "cœur",
+    "pain",
+    "corps"
+   ],
+   "id": "eg.l74.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.qandil_general"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le qandil général a lieu une fois par ___.",
+   "promptLanguage": "fr",
+   "answer": "an",
+   "acceptedAnswers": [
+    "an"
+   ],
+   "explanation": "Une fois par an, selon l'usage, avant la semaine de la Passion.",
+   "tip": "Une fois par an.",
+   "extraExample": {
+    "text": "Même en bonne santé.",
+    "translation": "Avant les Rameaux."
+   },
+   "options": [
+    "an",
+    "mois",
+    "semaine",
+    "jour"
+   ],
+   "id": "eg.l74.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.onction_des_malades",
+    "eg.v.qandil",
+    "eg.v.sept_meches"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les repères du qandil",
+   "promptLanguage": "fr",
+   "explanation": "Chaque repère éclaire le sacrement : versets, nom et nombre.",
+   "tip": "Jacques, Marc, lampe, sept.",
+   "pairs": [
+    {
+     "left": "Jc 5, 14-15",
+     "right": "les anciens oignent le malade"
+    },
+    {
+     "left": "Mc 6, 13",
+     "right": "les disciples oignent d'huile des malades"
+    },
+    {
+     "left": "Qandil",
+     "right": "la lampe"
+    },
+    {
+     "left": "Sept mèches",
+     "right": "sept prières"
+    }
+   ],
+   "answer": "Jc 5, 14-15 = les anciens oignent le malade ; Mc 6, 13 = les disciples oignent d'huile des malades ; Qandil = la lampe ; Sept mèches = sept prières",
+   "acceptedAnswers": [],
+   "id": "eg.l74.e14"
+  },
+  {
+   "unitIds": [
+    "eg.v.bapteme",
+    "eg.v.saint_myron",
+    "eg.v.qorban",
+    "eg.v.absolution"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Un sacrement, son signe",
+   "promptLanguage": "fr",
+   "explanation": "Chaque sacrement a son signe visible : eau, myron, pain et vin, huile, mains.",
+   "tip": "Un sacrement, un signe.",
+   "pairs": [
+    {
+     "left": "Baptême",
+     "right": "eau et triple immersion"
+    },
+    {
+     "left": "Confirmation",
+     "right": "saint myron"
+    },
+    {
+     "left": "Eucharistie",
+     "right": "pain levé et vin"
+    },
+    {
+     "left": "Onction des malades",
+     "right": "huile et sept mèches"
+    },
+    {
+     "left": "Confession",
+     "right": "croix sur la tête, absolution"
+    }
+   ],
+   "answer": "Baptême = eau et triple immersion ; Confirmation = saint myron ; Eucharistie = pain levé et vin ; Onction des malades = huile et sept mèches ; Confession = croix sur la tête, absolution",
+   "acceptedAnswers": [],
+   "id": "eg.l74.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.huile_benie"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le geste du qandil.",
+   "promptLanguage": "fr",
+   "answer": "Le prêtre oint le malade avec de l'huile bénie",
+   "acceptedAnswers": [
+    "Le prêtre oint le malade avec de l'huile bénie"
+   ],
+   "explanation": "L'huile bénie est le signe visible du qandil.",
+   "tip": "Huile bénie.",
+   "extraExample": {
+    "text": "Croix sur le front.",
+    "translation": "Sur la poitrine et les mains."
+   },
+   "tokens": [
+    "avec",
+    "bénie",
+    "oint",
+    "Le",
+    "de",
+    "prêtre",
+    "le",
+    "l'huile",
+    "malade"
+   ],
+   "id": "eg.l74.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.qandil"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Que veut dire « qandil » ?",
+   "promptLanguage": "fr",
+   "answer": "la lampe",
+   "acceptedAnswers": [
+    "la lampe",
+    "lampe",
+    "une lampe",
+    "lampes"
+   ],
+   "explanation": "Le qandil est la lampe des sept mèches.",
+   "tip": "Qandil = lampe.",
+   "extraExample": {
+    "text": "Sept lumières.",
+    "translation": "Sept prières."
+   },
+   "id": "eg.l74.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.sept_meches"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Combien de mèches allume-t-on pour le qandil ?",
+   "promptLanguage": "fr",
+   "answer": "sept",
+   "acceptedAnswers": [
+    "sept",
+    "7",
+    "sept mèches",
+    "7 mèches"
+   ],
+   "explanation": "Une mèche avant chacune des sept prières.",
+   "tip": "Sept.",
+   "extraExample": {
+    "text": "Plénitude biblique.",
+    "translation": "Sept prières."
+   },
+   "id": "eg.l74.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g74.onction_malades",
+    "eg.v.onction_des_malades"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans quelle lettre du Nouveau Testament trouve-t-on le fondement de l'onction des malades ?",
+   "promptLanguage": "fr",
+   "answer": "Jacques",
+   "acceptedAnswers": [
+    "Jacques",
+    "la lettre de Jacques",
+    "l'épître de Jacques",
+    "épître de Jacques",
+    "lettre de Jacques",
+    "Jc 5",
+    "Jacques 5"
+   ],
+   "explanation": "Jc 5, 14-15 : les anciens prient et oignent le malade.",
+   "tip": "Jacques = onction.",
+   "extraExample": {
+    "text": "Mc 6, 13.",
+    "translation": "Les disciples oignent d'huile."
+   },
+   "id": "eg.l74.e19"
+  },
+  {
+   "unitIds": [
+    "eg.v.absolution"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel passage de Jean fonde la confession ?",
+   "promptLanguage": "fr",
+   "answer": "Jean 20, 22-23",
+   "acceptedAnswers": [
+    "Jean 20, 22-23"
+   ],
+   "explanation": "Rappel : Jn 20, 22-23, le pouvoir de remettre ou de retenir les péchés.",
+   "tip": "Jn 20, 23.",
+   "extraExample": {
+    "text": "Le soir de la Résurrection.",
+    "translation": "Lier et délier."
+   },
+   "options": [
+    "Jean 2, 1",
+    "Jean 6, 54",
+    "Jean 3, 5",
+    "Jean 20, 22-23"
+   ],
+   "id": "eg.l74.e20"
+  },
+  {
+   "unitIds": [
+    "eg.v.qorban"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le pain levé de la messe ?",
+   "promptLanguage": "fr",
+   "answer": "le qorban",
+   "acceptedAnswers": [
+    "le qorban",
+    "qorban",
+    "qurban",
+    "korban",
+    "le qurban",
+    "le korban"
+   ],
+   "explanation": "Rappel : le qorban est un pain levé marqué d'une croix.",
+   "tip": "Qorban = offrande.",
+   "extraExample": {
+    "text": "Levé.",
+    "translation": "Croix."
+   },
+   "id": "eg.l74.e21"
+  },
+  {
+   "unitIds": [
+    "eg.v.trente_six_onctions"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le saint myron est appliqué en ___ onctions.",
+   "promptLanguage": "fr",
+   "answer": "36",
+   "acceptedAnswers": [
+    "36"
+   ],
+   "explanation": "Rappel : 36 signes de croix juste après le baptême.",
+   "tip": "Trente-six.",
+   "extraExample": {
+    "text": "Sur les sens et les articulations.",
+    "translation": "Tout le corps."
+   },
+   "options": [
+    "12",
+    "40",
+    "36",
+    "7"
+   ],
+   "id": "eg.l74.e22"
+  },
+  {
+   "unitIds": [
+    "eg.v.triple_immersion"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que rappellent les trois immersions du baptême, en plus de la Trinité ?",
+   "promptLanguage": "fr",
+   "answer": "les trois jours du Christ au tombeau",
+   "acceptedAnswers": [
+    "les trois jours du Christ au tombeau"
+   ],
+   "explanation": "Rappel : on descend dans l'eau comme on est enseveli, on remonte comme le Christ ressuscité (Rm 6, 3-4).",
+   "tip": "Trois jours, trois immersions.",
+   "extraExample": {
+    "text": "L'eau est un tombeau.",
+    "translation": "Et un lieu de naissance."
+   },
+   "options": [
+    "les trois jeûnes de l'année",
+    "les trois jours du Christ au tombeau",
+    "les trois Rois mages",
+    "les trois premiers conciles"
+   ],
+   "id": "eg.l74.e23"
+  }
+ ]
+}

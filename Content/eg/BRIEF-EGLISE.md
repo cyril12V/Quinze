@@ -65,13 +65,17 @@ Ce qui est propre à l'Église :
 | m06 | 45–52 | Conciles et hérésies : la synthèse |
 | m07 | 53–60 | Orthodoxes, catholiques, protestants et groupes récents : ce qui nous sépare |
 
-Modules suivants prévus :
+Modules suivants :
 
-- le Credo ;
-- les 7 sacrements ;
-- l'église et le clergé ;
-- l'Agpeya (le sens des heures) ;
-- la tasbeha (psalis, théotokies, jours Adam et Watos) ;
-- les mois coptes ;
-- les saints (qui a fait quoi) ;
-- la langue copte (règles et vocabulaire).
+| Module | Leçons | Contenu |
+|---|---|---|
+| m08 | 61–68 | Le Credo, article par article : ce qu'on dit, pourquoi, contre quelle erreur |
+| m09 | 69–76 | Les 7 sacrements |
+| m10 | 77–82 | L'église (le bâtiment et ses symboles) et le clergé |
+| m11 | 83–88 | L'Agpeya et la prière : le sens des heures, les gestes, prier vers l'est |
+| m12 | 89–94 | La tasbeha : hoos, psalis, théotokies, jours Adam et Watos, le soir = le lendemain |
+| m13 | 95–98 | Les mois coptes et le calendrier (pas les fêtes) |
+| m14 | 99–110 | Les saints : qui a fait quoi |
+| m15 | 111– | La langue copte : règles et sens des mots (police copte à embarquer) |
+
+Pour m11 et m12, les faits vérifiés sont dans `Content/eg/NOTES-PRIERE.md`.

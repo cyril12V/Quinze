@@ -86,5 +86,49 @@
    ],
    "tip": "Jinkim sur une consonne = petit « e » devant ; sur une voyelle = lue à part."
   }
+ },
+ {
+  "id": "eg.g113.nomina_sacra",
+  "rule": {
+   "summary": "Une barre au-dessus de plusieurs lettres (la surligne) indique un nom sacré abrégé : ⲓ̅ⲏ̅ⲥ̅ pour Jésus, ⲭ̅ⲥ̅ pour le Christ, ⲡ̅ϭ̅ⲥ̅ pour le Seigneur, ⲫ̅ϯ̅ pour Dieu.",
+   "explanation": "Ces abréviations, les nomina sacra, existent déjà dans les manuscrits grecs du IIe siècle. On garde la première et la dernière lettre du mot (parfois une du milieu) et on trace une barre dessus. Elles ne se lisent pas lettre par lettre : on lit le mot entier. Ne confonds pas la surligne, qui couvre plusieurs lettres et abrège un mot, avec la jinkim, petit trait sur une seule lettre qui guide la lecture.",
+   "pattern": "barre sur plusieurs lettres = nom sacré abrégé, à lire en entier",
+   "examples": [
+    {
+     "text": "ⲓ̅ⲏ̅ⲥ̅",
+     "translation": "Ⲓⲏⲥⲟⲩⲥ, Jésus."
+    },
+    {
+     "text": "ⲭ̅ⲥ̅",
+     "translation": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ, le Christ."
+    },
+    {
+     "text": "ⲡ̅ϭ̅ⲥ̅",
+     "translation": "Ⲡϭⲟⲓⲥ, le Seigneur."
+    },
+    {
+     "text": "ⲫ̅ϯ̅",
+     "translation": "Ⲫ̀ⲛⲟⲩϯ, Dieu."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La barre sur ⲓ̅ⲏ̅ⲥ̅ est une jinkim.",
+     "right": "C'est une surligne : elle abrège le nom.",
+     "why": "La jinkim est sur une seule lettre ; la surligne couvre plusieurs lettres."
+    },
+    {
+     "wrong": "On lit ⲓ̅ⲏ̅ⲥ̅ lettre par lettre : i, è, s.",
+     "right": "On lit le mot complet : Ⲓⲏⲥⲟⲩⲥ.",
+     "why": "La barre dit qu'il manque des lettres."
+    },
+    {
+     "wrong": "On abrège tous les mots ainsi.",
+     "right": "On abrège surtout les noms sacrés.",
+     "why": "C'est une marque de respect pour Jésus, le Christ, le Seigneur et Dieu."
+    }
+   ],
+   "tip": "Barre sur plusieurs lettres = mot sacré abrégé ; lis le mot entier."
+  }
  }
 ]

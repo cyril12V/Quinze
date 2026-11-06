@@ -66,9 +66,9 @@ Les consignes de rédaction sont dans `Content/eg/BRIEF-EGLISE.md`, les notes v�
 | m10 | 77–82 | L'église et le clergé |
 | m11 | 83–88 | L'Agpeya et la prière (le sens des heures, prier vers l'est) |
 | m12 | 89–94 | La tasbeha (hoos, psalis, théotokies, Adam et Watos) |
-| m13 | 95–98 | Les mois coptes (prévu) |
-| m14 | 99–110 | Les saints : qui a fait quoi (prévu) |
-| m15 | 111– | La langue copte : règles et sens des mots (prévu) |
+| m13 | 95–98 | Les mois coptes : ordre, dates, origine des noms, saisons du Nil, proverbes, année copte |
+| m14 | 99–110 | Les saints : École d'Alexandrie, papes, Pères du désert, martyrs, saintes, Moyen Âge, réveil moderne, 21 martyrs de Libye |
+| m15 | 111–122 | La langue copte : jinkim, abréviations, articles, possessifs, verbes, sens des mots et formules qu'on entend à l'église |
 
 Pour construire le contenu :
 - vérifier un module : `python3 tools/build_content.py --lang eg --module m05` ;

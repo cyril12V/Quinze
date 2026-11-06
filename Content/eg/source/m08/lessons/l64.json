@@ -1,0 +1,604 @@
+{
+ "lessonId": "eg.l64",
+ "exercises": [
+  {
+   "id": "eg.l64.e01",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.pour_notre_salut"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi le Fils est-il descendu du ciel, selon le Credo ?",
+   "promptLanguage": "fr",
+   "options": [
+    "pour nous les hommes et pour notre salut",
+    "pour juger le monde",
+    "pour fonder un empire",
+    "pour punir les pécheurs"
+   ],
+   "answer": "pour nous les hommes et pour notre salut",
+   "acceptedAnswers": [
+    "pour nous les hommes et pour notre salut"
+   ],
+   "explanation": "Le Credo donne la raison : sauver l'homme.",
+   "tip": "Pour nous.",
+   "extraExample": {
+    "text": "Seul Dieu peut sauver.",
+    "translation": "Le Christ est Dieu et homme."
+   }
+  },
+  {
+   "id": "eg.l64.e02",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.descente_du_ciel"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire « il descendit du ciel » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le Fils prend notre condition sans cesser d'être Dieu",
+    "le Fils quitte la divinité",
+    "le Fils change de nature",
+    "le Fils devient un ange"
+   ],
+   "answer": "le Fils prend notre condition sans cesser d'être Dieu",
+   "acceptedAnswers": [
+    "le Fils prend notre condition sans cesser d'être Dieu"
+   ],
+   "explanation": "Il s'abaisse, mais il reste Dieu : il prend ce qu'il n'était pas, sans perdre ce qu'il était.",
+   "tip": "Descendre = s'abaisser.",
+   "extraExample": {
+    "text": "Philippiens 2, 7.",
+    "translation": "Il prend la condition de serviteur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le Fils quitte la divinité",
+     "category": "word_confusion",
+     "feedback": "Le Fils ne cesse jamais d'être Dieu : il prend l'humanité en plus."
+    }
+   ]
+  },
+  {
+   "id": "eg.l64.e03",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.vierge_marie"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "De qui le Fils s'incarne-t-il, selon le Credo ?",
+   "promptLanguage": "fr",
+   "options": [
+    "de l'Esprit Saint et de la Vierge Marie",
+    "du Père et de la Vierge Marie",
+    "de l'Esprit Saint et de Joseph",
+    "d'un ange et de Marie"
+   ],
+   "answer": "de l'Esprit Saint et de la Vierge Marie",
+   "acceptedAnswers": [
+    "de l'Esprit Saint et de la Vierge Marie"
+   ],
+   "explanation": "Le Fils s'incarne par l'Esprit Saint, de la Vierge Marie.",
+   "tip": "Esprit Saint + Vierge Marie.",
+   "extraExample": {
+    "text": "Luc 1, 35.",
+    "translation": "L'ange à Marie."
+   }
+  },
+  {
+   "id": "eg.l64.e04",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.conception_virginale"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment appelle-t-on la conception de Jésus sans père humain ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la conception virginale",
+    "la divinisation",
+    "la consubstantialité",
+    "la réception"
+   ],
+   "answer": "la conception virginale",
+   "acceptedAnswers": [
+    "la conception virginale"
+   ],
+   "explanation": "Jésus est conçu de l'Esprit Saint, sans père humain.",
+   "tip": "Virginale = sans père humain.",
+   "extraExample": {
+    "text": "Luc 1, 35.",
+    "translation": "Marie reste vierge."
+   }
+  },
+  {
+   "id": "eg.l64.e05",
+   "type": "mcq",
+   "unitIds": [
+    "eg.v.theotokos",
+    "eg.g64.incarnation_credo"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel titre de Marie découle de « s'incarna de la Vierge Marie » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Théotokos",
+    "Christotokos",
+    "Paraclet",
+    "Pantocrator"
+   ],
+   "answer": "Théotokos",
+   "acceptedAnswers": [
+    "Théotokos"
+   ],
+   "explanation": "Celui qu'elle enfante est Dieu le Verbe : elle est mère de Dieu.",
+   "tip": "Théotokos = enfante Dieu.",
+   "extraExample": {
+    "text": "Éphèse (431).",
+    "translation": "Nestorius refusait ce titre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Christotokos",
+     "category": "word_confusion",
+     "feedback": "C'est le titre préféré de Nestorius ; Éphèse l'écarte."
+    }
+   ]
+  },
+  {
+   "id": "eg.l64.e06",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.docetisme"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que dit « se fit homme » contre le docétisme ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le Christ a eu un vrai corps",
+    "Le Christ a eu seulement l'apparence d'un corps",
+    "Le Christ n'a pas eu d'âme",
+    "Le Christ est devenu un ange"
+   ],
+   "answer": "Le Christ a eu un vrai corps",
+   "acceptedAnswers": [
+    "Le Christ a eu un vrai corps"
+   ],
+   "explanation": "Pour les docètes, le corps était apparent. Le Credo affirme un vrai corps.",
+   "tip": "Se fit homme = vrai corps.",
+   "extraExample": {
+    "text": "Jean : le Verbe s'est fait chair.",
+    "translation": "Ignace d'Antioche."
+   }
+  },
+  {
+   "id": "eg.l64.e07",
+   "type": "mcq",
+   "unitIds": [
+    "eg.v.apollinarisme",
+    "eg.g64.incarnation_credo"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle erreur retire au Christ son âme humaine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "l'apollinarisme",
+    "le nestorianisme",
+    "le docétisme",
+    "le modalisme"
+   ],
+   "answer": "l'apollinarisme",
+   "acceptedAnswers": [
+    "l'apollinarisme"
+   ],
+   "explanation": "Apollinaire disait que la divinité du Verbe tenait lieu d'âme. Constantinople (381) le condamne.",
+   "tip": "Apollinaire = sans âme.",
+   "extraExample": {
+    "text": "Le Verbe prend l'homme entier.",
+    "translation": "Condamné en 381."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le docétisme",
+     "category": "word_confusion",
+     "feedback": "Le docétisme nie le corps réel ; Apollinaire nie l'âme humaine."
+    }
+   ]
+  },
+  {
+   "id": "eg.l64.e08",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.un_seul_sujet"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans le Credo, qui est le sujet de « descendit », « s'incarna » et « fut crucifié » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le Fils, unique sujet",
+    "deux personnes : le Verbe et Jésus",
+    "le Père",
+    "l'Esprit Saint"
+   ],
+   "answer": "le Fils, unique sujet",
+   "acceptedAnswers": [
+    "le Fils, unique sujet"
+   ],
+   "explanation": "C'est toujours le Fils : il n'y a pas deux personnes dans le Christ.",
+   "tip": "Un seul Il.",
+   "extraExample": {
+    "text": "Cyrille : le Verbe incarné.",
+    "translation": "Contre Nestorius."
+   },
+   "errorPatterns": [
+    {
+     "equals": "deux personnes : le Verbe et Jésus",
+     "category": "word_confusion",
+     "feedback": "C'est l'erreur de Nestorius : séparer deux sujets."
+    }
+   ]
+  },
+  {
+   "id": "eg.l64.e09",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.divinisation"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Selon Athanase, pourquoi Dieu s'est-il fait homme ?",
+   "promptLanguage": "fr",
+   "options": [
+    "pour que l'homme participe à la vie divine",
+    "pour devenir un roi terrestre",
+    "pour effacer l'Ancien Testament",
+    "pour changer la nature des anges"
+   ],
+   "answer": "pour que l'homme participe à la vie divine",
+   "acceptedAnswers": [
+    "pour que l'homme participe à la vie divine"
+   ],
+   "explanation": "La divinisation est un don de grâce : l'homme reçoit la vie de Dieu.",
+   "tip": "Dieu homme, homme participant.",
+   "extraExample": {
+    "text": "Fer et feu.",
+    "translation": "Le fer reste du fer."
+   }
+  },
+  {
+   "id": "eg.l64.e10",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.salut"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pour nous les hommes et pour notre ___, il descendit du ciel.",
+   "promptLanguage": "fr",
+   "options": [
+    "salut",
+    "gloire",
+    "pardon",
+    "règne"
+   ],
+   "answer": "salut",
+   "acceptedAnswers": [
+    "salut"
+   ],
+   "explanation": "Le salut est la raison de l'incarnation.",
+   "tip": "Pour notre salut.",
+   "extraExample": {
+    "text": "Seul Dieu sauve.",
+    "translation": "Le Christ est Sauveur."
+   }
+  },
+  {
+   "id": "eg.l64.e11",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.descente_du_ciel"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Il descendit du ___, s'incarna de l'Esprit Saint.",
+   "promptLanguage": "fr",
+   "options": [
+    "ciel",
+    "trône",
+    "Père",
+    "Temple"
+   ],
+   "answer": "ciel",
+   "acceptedAnswers": [
+    "ciel"
+   ],
+   "explanation": "Le Fils s'abaisse jusqu'à nous.",
+   "tip": "Descendre du ciel.",
+   "extraExample": {
+    "text": "Il s'abaisse.",
+    "translation": "Il reste Dieu."
+   }
+  },
+  {
+   "id": "eg.l64.e12",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.vierge_marie"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Il s'incarna de l'Esprit Saint et de la ___ Marie.",
+   "promptLanguage": "fr",
+   "options": [
+    "Vierge",
+    "Mère",
+    "Sainte",
+    "Reine"
+   ],
+   "answer": "Vierge",
+   "acceptedAnswers": [
+    "Vierge"
+   ],
+   "explanation": "Le Credo dit : la Vierge Marie.",
+   "tip": "Vierge Marie.",
+   "extraExample": {
+    "text": "Conception virginale.",
+    "translation": "Luc 1, 35."
+   }
+  },
+  {
+   "id": "eg.l64.e13",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.pleine_humanite"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Credo dit : et se fit ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "homme",
+    "ange",
+    "roi",
+    "prophète"
+   ],
+   "answer": "homme",
+   "acceptedAnswers": [
+    "homme"
+   ],
+   "explanation": "Le Verbe s'est fait homme, un homme entier.",
+   "tip": "Se fit homme.",
+   "extraExample": {
+    "text": "Jean 1, 14.",
+    "translation": "Le Verbe s'est fait chair."
+   }
+  },
+  {
+   "id": "eg.l64.e14",
+   "type": "match",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.vierge_marie"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Associe chaque expression du Credo à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "pour notre salut",
+     "right": "la raison de l'incarnation"
+    },
+    {
+     "left": "il descendit du ciel",
+     "right": "il s'abaisse en restant Dieu"
+    },
+    {
+     "left": "de la Vierge Marie",
+     "right": "Marie est mère de Dieu : Théotokos"
+    },
+    {
+     "left": "se fit homme",
+     "right": "un vrai corps et une âme humaine"
+    }
+   ],
+   "answer": "pour notre salut = la raison de l'incarnation ; il descendit du ciel = il s'abaisse en restant Dieu ; de la Vierge Marie = Marie est mère de Dieu : Théotokos ; se fit homme = un vrai corps et une âme humaine",
+   "acceptedAnswers": [],
+   "explanation": "Chaque expression de l'article dit quelque chose de l'incarnation.",
+   "tip": "Une expression, un sens."
+  },
+  {
+   "id": "eg.l64.e15",
+   "type": "match",
+   "unitIds": [
+    "eg.v.docetisme",
+    "eg.v.apollinarisme",
+    "eg.v.nestorianisme",
+    "eg.v.monophysisme"
+   ],
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Associe chaque erreur à ce qu'elle dit du Christ (révision).",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "docétisme",
+     "right": "un corps apparent"
+    },
+    {
+     "left": "apollinarisme",
+     "right": "pas d'âme humaine"
+    },
+    {
+     "left": "nestorianisme",
+     "right": "séparer le Verbe de l'homme Jésus"
+    },
+    {
+     "left": "monophysisme",
+     "right": "l'humanité absorbée"
+    }
+   ],
+   "answer": "docétisme = un corps apparent ; apollinarisme = pas d'âme humaine ; nestorianisme = séparer le Verbe de l'homme Jésus ; monophysisme = l'humanité absorbée",
+   "acceptedAnswers": [],
+   "explanation": "Quatre erreurs sur l'incarnation, quatre mots du Credo qui y répondent.",
+   "tip": "Corps, âme, séparation, absorption."
+  },
+  {
+   "id": "eg.l64.e16",
+   "type": "reorder",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.pour_notre_salut"
+   ],
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la raison de l'incarnation.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "les",
+    "nous",
+    "pour",
+    "salut",
+    "notre",
+    "pour",
+    "hommes",
+    "et"
+   ],
+   "answer": "pour nous les hommes et pour notre salut",
+   "acceptedAnswers": [
+    "pour nous les hommes et pour notre salut"
+   ],
+   "explanation": "Le Credo dit pourquoi le Fils s'incarne.",
+   "tip": "Pour nous, pour notre salut.",
+   "extraExample": {
+    "text": "Salut = être sauvé.",
+    "translation": "Seul Dieu sauve."
+   }
+  },
+  {
+   "id": "eg.l64.e17",
+   "type": "reorder",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.conception_virginale"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'incarnation.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "se",
+    "et",
+    "Vierge",
+    "Marie",
+    "homme",
+    "fit",
+    "de",
+    "l'Esprit",
+    "de",
+    "et",
+    "s'incarna",
+    "la",
+    "Saint"
+   ],
+   "answer": "s'incarna de l'Esprit Saint et de la Vierge Marie et se fit homme",
+   "acceptedAnswers": [
+    "s'incarna de l'Esprit Saint et de la Vierge Marie et se fit homme"
+   ],
+   "explanation": "La fin de l'article : conception virginale et vrai homme.",
+   "tip": "Esprit Saint, Vierge Marie, homme.",
+   "extraExample": {
+    "text": "Marie est Théotokos.",
+    "translation": "Il se fit homme."
+   }
+  },
+  {
+   "id": "eg.l64.e18",
+   "type": "free_answer",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.incarnation"
+   ],
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle le fait que le Verbe de Dieu se fait homme ?",
+   "promptLanguage": "fr",
+   "answer": "l'incarnation",
+   "acceptedAnswers": [
+    "l'incarnation",
+    "incarnation"
+   ],
+   "explanation": "Incarnation = prendre chair.",
+   "tip": "Incarnation.",
+   "extraExample": {
+    "text": "Le Verbe s'est fait chair.",
+    "translation": "Jean 1, 14."
+   }
+  },
+  {
+   "id": "eg.l64.e19",
+   "type": "free_answer",
+   "unitIds": [
+    "eg.v.formule_de_cyrille",
+    "eg.g64.incarnation_credo"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle est la formule de Cyrille sur le Christ ?",
+   "promptLanguage": "fr",
+   "answer": "une seule nature du Verbe incarné",
+   "acceptedAnswers": [
+    "une seule nature du Verbe incarné"
+   ],
+   "explanation": "Cyrille résume la foi : un seul sujet, le Verbe incarné.",
+   "tip": "Une seule nature du Verbe incarné.",
+   "extraExample": {
+    "text": "Miaphysisme.",
+    "translation": "Sans mélange ni division."
+   }
+  },
+  {
+   "id": "eg.l64.e20",
+   "type": "free_answer",
+   "unitIds": [
+    "eg.g64.incarnation_credo",
+    "eg.v.divinisation"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on le don par lequel l'homme participe à la vie divine, selon Athanase ?",
+   "promptLanguage": "fr",
+   "answer": "la divinisation",
+   "acceptedAnswers": [
+    "la divinisation",
+    "divinisation"
+   ],
+   "explanation": "Athanase : Dieu s'est fait homme pour que l'homme participe à la vie divine.",
+   "tip": "Divinisation.",
+   "extraExample": {
+    "text": "Un don de grâce.",
+    "translation": "Fer et feu."
+   }
+  }
+ ]
+}

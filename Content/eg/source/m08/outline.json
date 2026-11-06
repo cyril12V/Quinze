@@ -1,0 +1,538 @@
+{
+ "module": {
+  "id": 8,
+  "title": "Le Credo",
+  "description": "Le Credo de Nicée-Constantinople article par article : ce que dit chaque phrase, pourquoi elle est là, contre quelle erreur elle a été écrite."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g61.origine_du_credo",
+   "category": "knowledge",
+   "title": "Le Credo : d'où il vient",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g62.pere_createur",
+   "category": "knowledge",
+   "title": "Le Père, Pantocrator, créateur",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g61.origine_du_credo"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g63.fils_consubstantiel",
+   "category": "knowledge",
+   "title": "Le Fils, Lumière de Lumière",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g62.pere_createur"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g64.incarnation_credo",
+   "category": "knowledge",
+   "title": "Il s'incarna et se fit homme",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g63.fils_consubstantiel"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g65.passion_et_gloire",
+   "category": "knowledge",
+   "title": "Crucifié, ressuscité, il reviendra",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g64.incarnation_credo"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g66.saint_esprit",
+   "category": "knowledge",
+   "title": "Le Saint-Esprit, Seigneur et vivificateur",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g65.passion_et_gloire"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g67.eglise_resurrection",
+   "category": "knowledge",
+   "title": "L'Église, le baptême, la vie à venir",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g66.saint_esprit"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g68.bilan_du_credo",
+   "category": "knowledge",
+   "title": "Le Credo en entier : bilan",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g67.eglise_resurrection"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l61",
+   "sequence": 61,
+   "title": "Le Credo : d'où il vient",
+   "description": "Qu'est-ce qu'un credo ? Nicée (325), Constantinople (381), Éphèse (431) et l'ouverture copte.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g61.origine_du_credo",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g31.concile_de_constantinople",
+    "eg.g36.ephese_431"
+   ],
+   "vocabulary": [
+    {
+     "word": "le Credo",
+     "slug": "credo",
+     "translation": "« je crois » en latin : le résumé de la foi",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "« nous croyons »",
+     "slug": "nous_croyons",
+     "translation": "le pluriel du Credo : la foi de toute l'Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un article de foi",
+     "slug": "article_de_foi",
+     "translation": "une affirmation du Credo, une phrase de la foi",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le catéchumène",
+     "slug": "catechumene",
+     "translation": "celui qui apprend la foi avant d'être baptisé",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le symbole des apôtres",
+     "slug": "symbole_des_apotres",
+     "translation": "un credo court, bien connu en Occident",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "l'introduction du Credo",
+     "slug": "introduction_du_credo",
+     "translation": "« Nous t'exaltons, Mère de la vraie lumière »",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Mère de la vraie lumière",
+     "slug": "mere_de_la_vraie_lumiere",
+     "translation": "titre de Marie : elle a enfanté le Christ, Lumière du monde",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "« En vérité, nous croyons »",
+     "slug": "en_verite_nous_croyons",
+     "translation": "l'ouverture copte du Credo",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l62",
+   "sequence": 62,
+   "title": "Un seul Dieu, le Père, Pantocrator",
+   "description": "Le premier article du Credo : un seul Dieu, créateur de tout, visible et invisible.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g62.pere_createur",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g14.gnosticisme_docetisme",
+    "eg.g15.marcion_montan"
+   ],
+   "vocabulary": [
+    {
+     "word": "le monothéisme",
+     "slug": "monotheisme",
+     "translation": "la foi en un seul Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Dieu le Père",
+     "slug": "dieu_le_pere",
+     "translation": "la première personne de la Trinité, source du Fils et de l'Esprit",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Pantocrator",
+     "slug": "pantocrator",
+     "translation": "mot grec : Tout-Puissant, celui qui tient tout",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la création à partir de rien",
+     "slug": "creation_a_partir_de_rien",
+     "translation": "Dieu crée le monde sans matière préexistante",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les choses visibles et invisibles",
+     "slug": "choses_visibles_et_invisibles",
+     "translation": "tout ce que Dieu a créé : le monde matériel et le monde spirituel",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un ange",
+     "slug": "ange",
+     "translation": "créature spirituelle qui sert Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Père, source de la Trinité",
+     "slug": "source_de_la_trinite",
+     "translation": "le Père, d'où viennent le Fils (engendré) et l'Esprit (qui procède)",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l63",
+   "sequence": 63,
+   "title": "Le Fils : Lumière de Lumière",
+   "description": "Le deuxième article : le Fils est vrai Dieu, engendré non créé, consubstantiel au Père.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g63.fils_consubstantiel",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g27.arius",
+    "eg.g28.concile_de_nicee"
+   ],
+   "vocabulary": [
+    {
+     "word": "le Fils unique",
+     "slug": "fils_unique",
+     "translation": "le seul qui soit Fils par nature",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Seigneur (Kyrios)",
+     "slug": "kyrios",
+     "translation": "mot grec : Seigneur, nom que la Bible grecque donne à Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "avant tous les siècles",
+     "slug": "avant_tous_les_siecles",
+     "translation": "hors du temps, de toute éternité",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Lumière de Lumière",
+     "slug": "lumiere_de_lumiere",
+     "translation": "le Fils vient du Père comme une lumière d'une lumière, sans division",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "vrai Dieu de vrai Dieu",
+     "slug": "vrai_dieu_de_vrai_dieu",
+     "translation": "le Fils est Dieu au même titre que le Père",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "engendré, non créé",
+     "slug": "engendre_non_cree",
+     "translation": "le Fils est de la nature du Père ; il n'est pas une créature",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "par qui tout a été fait",
+     "slug": "par_qui_tout_a_ete_fait",
+     "translation": "le Fils est le Créateur avec le Père",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l64",
+   "sequence": 64,
+   "title": "Il s'incarna et se fit homme",
+   "description": "Le troisième article : le Fils descend, s'incarne de l'Esprit Saint et de la Vierge Marie, et se fait homme.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g64.incarnation_credo",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g34.nestorius",
+    "eg.g35.cyrille",
+    "eg.g42.miaphysisme"
+   ],
+   "vocabulary": [
+    {
+     "word": "pour notre salut",
+     "slug": "pour_notre_salut",
+     "translation": "la raison de l'incarnation : sauver l'homme",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "« il descendit du ciel »",
+     "slug": "descente_du_ciel",
+     "translation": "le Fils prend notre condition sans cesser d'être Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la Vierge Marie",
+     "slug": "vierge_marie",
+     "translation": "Marie, mère du Christ, Théotokos",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la conception virginale",
+     "slug": "conception_virginale",
+     "translation": "Jésus conçu par l'Esprit Saint, sans père humain",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un seul sujet",
+     "slug": "un_seul_sujet",
+     "translation": "le même « Il » : le Verbe descend, naît, souffre",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la divinisation",
+     "slug": "divinisation",
+     "translation": "l'homme participe à la vie divine par le Christ",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l65",
+   "sequence": 65,
+   "title": "Crucifié, ressuscité, il reviendra",
+   "description": "Le quatrième article : la croix, la résurrection, l'ascension, la droite du Père, la seconde venue et le règne sans fin.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g65.passion_et_gloire",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g02.pentecote_communaute",
+    "eg.g14.gnosticisme_docetisme"
+   ],
+   "vocabulary": [
+    {
+     "word": "crucifié pour nous",
+     "slug": "crucifie_pour_nous",
+     "translation": "le Christ meurt sur la croix pour nous sauver",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le troisième jour",
+     "slug": "troisieme_jour",
+     "translation": "le jour de la résurrection du Christ",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "selon les Écritures",
+     "slug": "selon_les_ecritures",
+     "translation": "la résurrection a été annoncée par les prophètes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la droite du Père",
+     "slug": "droite_du_pere",
+     "translation": "place d'honneur et de puissance du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la seconde venue",
+     "slug": "seconde_venue",
+     "translation": "le retour du Christ dans la gloire à la fin des temps",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "juger les vivants et les morts",
+     "slug": "jugement_des_vivants_et_des_morts",
+     "translation": "le Christ jugera tous les hommes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "son règne n'aura pas de fin",
+     "slug": "regne_sans_fin",
+     "translation": "le Christ est Roi pour toujours",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la résurrection du Christ",
+     "slug": "resurrection_du_christ",
+     "translation": "le Christ revient vivant de la mort, fondement de la foi",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l66",
+   "sequence": 66,
+   "title": "Le Saint-Esprit, Seigneur et vivificateur",
+   "description": "Le cinquième article : l'Esprit Saint est Dieu ; Macédonius ; et la question du Filioque expliquée simplement.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g66.saint_esprit",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g31.concile_de_constantinople",
+    "eg.g15.marcion_montan",
+    "eg.g55.papaute_filioque"
+   ],
+   "vocabulary": [
+    {
+     "word": "la divinité de l'Esprit Saint",
+     "slug": "divinite_de_l_esprit",
+     "translation": "l'Esprit Saint est Dieu, comme le Père et le Fils",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le vivificateur",
+     "slug": "vivificateur",
+     "translation": "celui qui donne la vie (l'Esprit Saint)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "qui procède du Père",
+     "slug": "procession_du_pere",
+     "translation": "l'Esprit vient éternellement du Père, seule source",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "adoré et glorifié avec le Père et le Fils",
+     "slug": "adore_avec_le_pere_et_le_fils",
+     "translation": "on adore l'Esprit comme les deux autres : il est Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "il a parlé par les prophètes",
+     "slug": "a_parle_par_les_prophetes",
+     "translation": "l'Esprit a inspiré les prophètes et l'Écriture",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'inspiration des Écritures",
+     "slug": "inspiration",
+     "translation": "l'Esprit Saint est l'auteur principal de la Bible",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l67",
+   "sequence": 67,
+   "title": "Une Église, un baptême, la vie à venir",
+   "description": "Le dernier article : l'Église une, sainte, catholique et apostolique, le baptême, la résurrection et le siècle à venir.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g67.eglise_resurrection",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g22.novatien_et_mani",
+    "eg.g11.peres_apostoliques",
+    "eg.g07.apotres_sieges"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'Église une",
+     "slug": "eglise_une",
+     "translation": "un seul Corps du Christ, une seule foi",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'Église sainte",
+     "slug": "eglise_sainte",
+     "translation": "sanctifiée par le Christ et l'Esprit, malgré ses membres pécheurs",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'apostolicité",
+     "slug": "apostolicite",
+     "translation": "l'Église est fondée sur les apôtres et garde leur enseignement",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un seul baptême",
+     "slug": "un_seul_bapteme",
+     "translation": "le baptême ne se répète pas",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la rémission des péchés",
+     "slug": "remission_des_peches",
+     "translation": "le pardon des péchés",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la résurrection des morts",
+     "slug": "resurrection_des_morts",
+     "translation": "à la fin, tous ressusciteront avec leur corps",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la vie du siècle à venir",
+     "slug": "siecle_a_venir",
+     "translation": "la vie éternelle dans le royaume de Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Amen",
+     "slug": "amen",
+     "translation": "mot hébreu : c'est vrai, ainsi soit-il",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l68",
+   "sequence": 68,
+   "title": "Le Credo en entier : bilan",
+   "description": "Remettre le Credo dans l'ordre, et relier chaque article à son concile et à l'erreur qu'il réfute.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g68.bilan_du_credo",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g62.pere_createur",
+    "eg.g63.fils_consubstantiel",
+    "eg.g64.incarnation_credo",
+    "eg.g66.saint_esprit"
+   ],
+   "vocabulary": [
+    {
+     "word": "confesser la foi",
+     "slug": "confesser",
+     "translation": "proclamer publiquement sa foi",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "une personne divine",
+     "slug": "personne_divine",
+     "translation": "le Père, le Fils ou l'Esprit Saint",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les trois blocs du Credo",
+     "slug": "trois_blocs_du_credo",
+     "translation": "le Père, le Fils, l'Esprit Saint (puis l'Église)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la chaîne des verbes",
+     "slug": "chaine_des_verbes",
+     "translation": "descendit, s'incarna, crucifié, ressuscita, monta, s'assit, reviendra",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,589 @@
+{
+ "lessonId": "eg.l67",
+ "exercises": [
+  {
+   "id": "eg.l67.e01",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.eglise_une"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi dit-on que l'Église est une ?",
+   "promptLanguage": "fr",
+   "options": [
+    "elle est le seul Corps du Christ",
+    "elle n'a jamais connu de division",
+    "elle a un seul pays",
+    "elle a une seule langue"
+   ],
+   "answer": "elle est le seul Corps du Christ",
+   "acceptedAnswers": [
+    "elle est le seul Corps du Christ"
+   ],
+   "explanation": "L'unité est celle du Corps du Christ et de la foi.",
+   "tip": "Un seul Corps.",
+   "extraExample": {
+    "text": "Éphésiens 4, 5.",
+    "translation": "Un seul Seigneur."
+   }
+  },
+  {
+   "id": "eg.l67.e02",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.eglise_sainte"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi l'Église est-elle sainte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "parce que le Christ et l'Esprit la sanctifient",
+    "parce que tous ses membres sont parfaits",
+    "parce qu'elle est ancienne",
+    "parce qu'elle a des martyrs"
+   ],
+   "answer": "parce que le Christ et l'Esprit la sanctifient",
+   "acceptedAnswers": [
+    "parce que le Christ et l'Esprit la sanctifient"
+   ],
+   "explanation": "Sa sainteté vient du Christ et de l'Esprit, non de la perfection de ses membres.",
+   "tip": "Sainte par grâce.",
+   "extraExample": {
+    "text": "Elle reçoit les pénitents.",
+    "translation": "Contre Novatien."
+   },
+   "errorPatterns": [
+    {
+     "equals": "parce que tous ses membres sont parfaits",
+     "category": "word_confusion",
+     "feedback": "Ses membres sont pécheurs ; c'est la grâce qui sanctifie."
+    }
+   ]
+  },
+  {
+   "id": "eg.l67.e03",
+   "type": "mcq",
+   "unitIds": [
+    "eg.v.novatien",
+    "eg.g67.eglise_resurrection"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui voulait une Église de purs, sans pardon pour les tombés ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Novatien",
+    "Arius",
+    "Montan",
+    "Marcion"
+   ],
+   "answer": "Novatien",
+   "acceptedAnswers": [
+    "Novatien"
+   ],
+   "explanation": "Novatien refuse de pardonner aux tombés ; l'Église le contredit en recevant les pénitents.",
+   "tip": "Novatien = purs.",
+   "extraExample": {
+    "text": "Excommunié en 251.",
+    "translation": "Combattu par Cyprien."
+   }
+  },
+  {
+   "id": "eg.l67.e04",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.catholique_sens"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire « catholique » dans le Credo ?",
+   "promptLanguage": "fr",
+   "options": [
+    "universelle",
+    "romaine",
+    "ancienne",
+    "nationale"
+   ],
+   "answer": "universelle",
+   "acceptedAnswers": [
+    "universelle"
+   ],
+   "explanation": "Katholikos : « selon le tout ». Le mot n'a rien à voir avec Rome.",
+   "tip": "Catholique = universelle.",
+   "extraExample": {
+    "text": "Ignace d'Antioche.",
+    "translation": "Vers 110."
+   },
+   "errorPatterns": [
+    {
+     "equals": "romaine",
+     "category": "word_confusion",
+     "feedback": "Le mot grec dit « selon le tout » : universelle, pas romaine."
+    }
+   ]
+  },
+  {
+   "id": "eg.l67.e05",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.apostolicite"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire « apostolique » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "fondée sur l'enseignement des apôtres",
+    "dirigée par un seul apôtre",
+    "née à Jérusalem seulement",
+    "réservée aux évêques"
+   ],
+   "answer": "fondée sur l'enseignement des apôtres",
+   "acceptedAnswers": [
+    "fondée sur l'enseignement des apôtres"
+   ],
+   "explanation": "L'Église repose sur les apôtres et garde leur enseignement.",
+   "tip": "Apôtres = fondement.",
+   "extraExample": {
+    "text": "Saint Marc a fondé Alexandrie.",
+    "translation": "Succession."
+   }
+  },
+  {
+   "id": "eg.l67.e06",
+   "type": "mcq",
+   "unitIds": [
+    "eg.v.succession_apostolique",
+    "eg.g67.eglise_resurrection"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce qui garde l'enseignement des apôtres dans l'Église ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la succession apostolique",
+    "le choix du peuple",
+    "l'autorité de l'empereur",
+    "l'âge de l'Église"
+   ],
+   "answer": "la succession apostolique",
+   "acceptedAnswers": [
+    "la succession apostolique"
+   ],
+   "explanation": "Une chaîne ininterrompue d'évêques remonte aux apôtres.",
+   "tip": "Chaîne d'évêques.",
+   "extraExample": {
+    "text": "Marc → papes d'Alexandrie.",
+    "translation": "Imposition des mains."
+   }
+  },
+  {
+   "id": "eg.l67.e07",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.remission_des_peches"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire « rémission des péchés » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le pardon des péchés",
+    "la punition des péchés",
+    "la confession des péchés",
+    "la mémoire des péchés"
+   ],
+   "answer": "le pardon des péchés",
+   "acceptedAnswers": [
+    "le pardon des péchés"
+   ],
+   "explanation": "Rémission = pardon.",
+   "tip": "Rémission = pardon.",
+   "extraExample": {
+    "text": "Le baptême pardonne.",
+    "translation": "Vie nouvelle."
+   }
+  },
+  {
+   "id": "eg.l67.e08",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.un_seul_bapteme"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que dit « un seul baptême » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le baptême ne se répète pas",
+    "le baptême est facultatif",
+    "le baptême remplace la foi",
+    "le baptême est réservé aux prêtres"
+   ],
+   "answer": "le baptême ne se répète pas",
+   "acceptedAnswers": [
+    "le baptême ne se répète pas"
+   ],
+   "explanation": "On naît une seule fois.",
+   "tip": "Un baptême, une naissance.",
+   "extraExample": {
+    "text": "Éphésiens 4, 5.",
+    "translation": "Une foi."
+   }
+  },
+  {
+   "id": "eg.l67.e09",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.resurrection_des_morts"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui ressuscitera à la fin des temps ?",
+   "promptLanguage": "fr",
+   "options": [
+    "l'homme tout entier, corps compris",
+    "seulement l'âme",
+    "seulement les saints",
+    "seulement les chrétiens"
+   ],
+   "answer": "l'homme tout entier, corps compris",
+   "acceptedAnswers": [
+    "l'homme tout entier, corps compris"
+   ],
+   "explanation": "Le corps ressuscite aussi, contre les gnostiques.",
+   "tip": "Corps compris.",
+   "extraExample": {
+    "text": "1 Corinthiens 15.",
+    "translation": "Le Christ le premier."
+   }
+  },
+  {
+   "id": "eg.l67.e10",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.amen"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire Amen ?",
+   "promptLanguage": "fr",
+   "options": [
+    "ainsi soit-il",
+    "gloire à Dieu",
+    "aie pitié",
+    "bénis-nous"
+   ],
+   "answer": "ainsi soit-il",
+   "acceptedAnswers": [
+    "ainsi soit-il"
+   ],
+   "explanation": "Amen : « c'est vrai », « ainsi soit-il ».",
+   "tip": "Amen = c'est vrai.",
+   "extraExample": {
+    "text": "Mot hébreu.",
+    "translation": "Tu signes le Credo."
+   }
+  },
+  {
+   "id": "eg.l67.e11",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.v.catholique_sens",
+    "eg.g67.eglise_resurrection"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Une seule Église, sainte, ___ et apostolique.",
+   "promptLanguage": "fr",
+   "options": [
+    "catholique",
+    "orthodoxe",
+    "copte",
+    "romaine"
+   ],
+   "answer": "catholique",
+   "acceptedAnswers": [
+    "catholique"
+   ],
+   "explanation": "Les quatre marques de l'Église.",
+   "tip": "Une, sainte, catholique, apostolique.",
+   "extraExample": {
+    "text": "Katholikos.",
+    "translation": "Universelle."
+   }
+  },
+  {
+   "id": "eg.l67.e12",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.un_seul_bapteme"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Nous confessons un seul ___ pour la rémission des péchés.",
+   "promptLanguage": "fr",
+   "options": [
+    "baptême",
+    "sacrement",
+    "Seigneur",
+    "pardon"
+   ],
+   "answer": "baptême",
+   "acceptedAnswers": [
+    "baptême"
+   ],
+   "explanation": "Le baptême est unique.",
+   "tip": "Un seul baptême.",
+   "extraExample": {
+    "text": "Il pardonne.",
+    "translation": "Il ne se répète pas."
+   }
+  },
+  {
+   "id": "eg.l67.e13",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.resurrection_des_morts"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Nous attendons la résurrection des ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "morts",
+    "anges",
+    "saints",
+    "justes"
+   ],
+   "answer": "morts",
+   "acceptedAnswers": [
+    "morts"
+   ],
+   "explanation": "Tous ressusciteront.",
+   "tip": "Résurrection des morts.",
+   "extraExample": {
+    "text": "Corps compris.",
+    "translation": "Fin des temps."
+   }
+  },
+  {
+   "id": "eg.l67.e14",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.siecle_a_venir"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Et la vie du ___ à venir.",
+   "promptLanguage": "fr",
+   "options": [
+    "siècle",
+    "royaume",
+    "monde",
+    "jour"
+   ],
+   "answer": "siècle",
+   "acceptedAnswers": [
+    "siècle"
+   ],
+   "explanation": "Le siècle à venir est la vie éternelle.",
+   "tip": "Vie du siècle à venir.",
+   "extraExample": {
+    "text": "Après le retour du Christ.",
+    "translation": "Vie éternelle."
+   }
+  },
+  {
+   "id": "eg.l67.e15",
+   "type": "match",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.eglise_une"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Associe chaque marque de l'Église à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "une",
+     "right": "le seul Corps du Christ"
+    },
+    {
+     "left": "sainte",
+     "right": "sanctifiée par le Christ et l'Esprit"
+    },
+    {
+     "left": "catholique",
+     "right": "universelle"
+    },
+    {
+     "left": "apostolique",
+     "right": "fondée sur les apôtres"
+    }
+   ],
+   "answer": "une = le seul Corps du Christ ; sainte = sanctifiée par le Christ et l'Esprit ; catholique = universelle ; apostolique = fondée sur les apôtres",
+   "acceptedAnswers": [],
+   "explanation": "Quatre marques, quatre sens.",
+   "tip": "Une, sainte, catholique, apostolique."
+  },
+  {
+   "id": "eg.l67.e16",
+   "type": "match",
+   "unitIds": [
+    "eg.v.novatien",
+    "eg.v.gnosticisme",
+    "eg.v.montanus",
+    "eg.g67.eglise_resurrection"
+   ],
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Associe chaque erreur à ce qu'elle contredit dans le dernier article (révision).",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Novatien",
+     "right": "une Église de purs, sans pardon"
+    },
+    {
+     "left": "gnosticisme",
+     "right": "méprise la résurrection de la chair"
+    },
+    {
+     "left": "Montanus",
+     "right": "une nouvelle prophétie au nom du Paraclet"
+    }
+   ],
+   "answer": "Novatien = une Église de purs, sans pardon ; gnosticisme = méprise la résurrection de la chair ; Montanus = une nouvelle prophétie au nom du Paraclet",
+   "acceptedAnswers": [],
+   "explanation": "Le dernier article répond à ces erreurs.",
+   "tip": "Pureté, chair, prophétie."
+  },
+  {
+   "id": "eg.l67.e17",
+   "type": "reorder",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.eglise_une"
+   ],
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : les quatre marques.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "une",
+    "et",
+    "catholique",
+    "apostolique",
+    "sainte",
+    "seule",
+    "Église"
+   ],
+   "answer": "une seule Église sainte catholique et apostolique",
+   "acceptedAnswers": [
+    "une seule Église sainte catholique et apostolique"
+   ],
+   "explanation": "Une, sainte, catholique et apostolique.",
+   "tip": "Quatre adjectifs.",
+   "extraExample": {
+    "text": "Nicée-Constantinople.",
+    "translation": "381."
+   }
+  },
+  {
+   "id": "eg.l67.e18",
+   "type": "reorder",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.siecle_a_venir"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la fin du Credo.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "du",
+    "vie",
+    "morts",
+    "siècle",
+    "venir",
+    "à",
+    "résurrection",
+    "la",
+    "des",
+    "et",
+    "la"
+   ],
+   "answer": "la résurrection des morts et la vie du siècle à venir",
+   "acceptedAnswers": [
+    "la résurrection des morts et la vie du siècle à venir"
+   ],
+   "explanation": "Le Credo se termine sur l'espérance.",
+   "tip": "Résurrection puis vie à venir.",
+   "extraExample": {
+    "text": "Amen.",
+    "translation": "Nous attendons."
+   }
+  },
+  {
+   "id": "eg.l67.e19",
+   "type": "free_answer",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.catholique_sens"
+   ],
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel mot grec veut dire « selon le tout », c'est-à-dire universel ?",
+   "promptLanguage": "fr",
+   "answer": "katholikos",
+   "acceptedAnswers": [
+    "katholikos",
+    "catholique"
+   ],
+   "explanation": "Katholikos : universelle.",
+   "tip": "Katholikos.",
+   "extraExample": {
+    "text": "Ignace d'Antioche.",
+    "translation": "Universel."
+   }
+  },
+  {
+   "id": "eg.l67.e20",
+   "type": "free_answer",
+   "unitIds": [
+    "eg.g67.eglise_resurrection",
+    "eg.v.un_seul_bapteme"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Que confessons-nous au sujet du baptême ?",
+   "promptLanguage": "fr",
+   "answer": "un seul baptême",
+   "acceptedAnswers": [
+    "un seul baptême",
+    "un seul baptême pour la rémission des péchés"
+   ],
+   "explanation": "Un seul baptême pour la rémission des péchés.",
+   "tip": "Un seul baptême.",
+   "extraExample": {
+    "text": "Il ne se répète pas.",
+    "translation": "Il pardonne."
+   }
+  }
+ ]
+}

@@ -1,0 +1,622 @@
+{
+ "lessonId": "eg.l61",
+ "exercises": [
+  {
+   "id": "eg.l61.e01",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.credo"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire le mot latin « credo » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "je crois",
+    "je prie",
+    "je confesse",
+    "j'espère"
+   ],
+   "answer": "je crois",
+   "acceptedAnswers": [
+    "je crois"
+   ],
+   "explanation": "Credo est la première personne du verbe croire en latin : « je crois ». D'où le nom du texte.",
+   "tip": "Credo = je crois.",
+   "extraExample": {
+    "text": "Credo in unum Deum.",
+    "translation": "Je crois en un seul Dieu."
+   },
+   "errorPatterns": [
+    {
+     "equals": "je prie",
+     "category": "word_confusion",
+     "feedback": "Le Credo n'est pas une demande : c'est une affirmation de foi."
+    },
+    {
+     "equals": "j'espère",
+     "category": "word_confusion",
+     "feedback": "On espère la vie du siècle à venir, mais credo veut dire « je crois »."
+    }
+   ]
+  },
+  {
+   "id": "eg.l61.e02",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.credo"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En grec, que désigne le mot symbole (symbolon) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "un signe de reconnaissance",
+    "une loi",
+    "une prière chantée",
+    "un nom de concile"
+   ],
+   "answer": "un signe de reconnaissance",
+   "acceptedAnswers": [
+    "un signe de reconnaissance"
+   ],
+   "explanation": "Les chrétiens se reconnaissaient en récitant le symbole de foi.",
+   "tip": "Symbole = signe de reconnaissance.",
+   "extraExample": {
+    "text": "Un symbole de foi est un résumé de la foi.",
+    "translation": "Il fonctionne comme une carte d'identité."
+   }
+  },
+  {
+   "id": "eg.l61.e03",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.catechumene"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment appelle-t-on celui qui apprend la foi avant d'être baptisé ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le catéchumène",
+    "le diacre",
+    "le confesseur",
+    "l'ermite"
+   ],
+   "answer": "le catéchumène",
+   "acceptedAnswers": [
+    "le catéchumène"
+   ],
+   "explanation": "Le catéchumène apprend la foi puis la confesse avant son baptême ; de ces confessions sont nés les credos.",
+   "tip": "Catéchumène = futur baptisé.",
+   "extraExample": {
+    "text": "Saint Cyrille de Jérusalem instruisait les catéchumènes.",
+    "translation": "Il est leur père."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le confesseur",
+     "category": "word_confusion",
+     "feedback": "Le confesseur est un chrétien qui a souffert pour sa foi sans mourir."
+    },
+    {
+     "equals": "le diacre",
+     "category": "word_confusion",
+     "feedback": "Le diacre est un ministre de l'Église, pas un futur baptisé."
+    }
+   ]
+  },
+  {
+   "id": "eg.l61.e04",
+   "type": "mcq",
+   "unitIds": [
+    "eg.v.concile_de_nicee",
+    "eg.g61.origine_du_credo"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel concile de 325 affirme surtout la divinité du Fils contre Arius ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Nicée",
+    "Constantinople",
+    "Éphèse",
+    "Chalcédoine"
+   ],
+   "answer": "Nicée",
+   "acceptedAnswers": [
+    "Nicée"
+   ],
+   "explanation": "À Nicée, les évêques affirment que le Fils est de même substance que le Père.",
+   "tip": "325 = Nicée = le Fils.",
+   "extraExample": {
+    "text": "Nicée a lieu en 325.",
+    "translation": "Il est convoqué par Constantin."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Constantinople",
+     "category": "word_confusion",
+     "feedback": "Constantinople (381) développe l'article sur l'Esprit Saint."
+    }
+   ]
+  },
+  {
+   "id": "eg.l61.e05",
+   "type": "mcq",
+   "unitIds": [
+    "eg.v.macedonius",
+    "eg.g61.origine_du_credo"
+   ],
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Selon Macédonius, que faut-il croire de l'Esprit Saint ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le Saint-Esprit a été créé",
+    "le Saint-Esprit est le Père",
+    "le Saint-Esprit n'existe pas",
+    "le Saint-Esprit est un ange du Christ"
+   ],
+   "answer": "le Saint-Esprit a été créé",
+   "acceptedAnswers": [
+    "le Saint-Esprit a été créé"
+   ],
+   "explanation": "Macédonius disait que l'Esprit Saint est une créature : Constantinople (381) lui répond dans le Credo.",
+   "tip": "Macédonius : l'Esprit créé.",
+   "extraExample": {
+    "text": "Constantinople excommunie Macédonius.",
+    "translation": "Il est aussi destitué."
+   },
+   "errorPatterns": [
+    {
+     "equals": "le Saint-Esprit est le Père",
+     "category": "word_confusion",
+     "feedback": "Confondre les personnes est l'erreur de Sabellius, pas celle de Macédonius."
+    }
+   ]
+  },
+  {
+   "id": "eg.l61.e06",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.concile_ephese_431"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que fait le concile d'Éphèse (431) à propos du credo ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il interdit d'en composer un autre",
+    "Il y ajoute l'article sur l'Esprit Saint",
+    "Il le supprime",
+    "Il le remplace par le symbole des apôtres"
+   ],
+   "answer": "Il interdit d'en composer un autre",
+   "acceptedAnswers": [
+    "Il interdit d'en composer un autre"
+   ],
+   "explanation": "Éphèse confirme le credo de Nicée et verrouille le texte.",
+   "tip": "Éphèse = verrou.",
+   "extraExample": {
+    "text": "Aucune Église ne peut ajouter une phrase.",
+    "translation": "Le texte vient d'un concile œcuménique."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il y ajoute l'article sur l'Esprit Saint",
+     "category": "word_confusion",
+     "feedback": "C'est Constantinople (381) qui développe l'article sur l'Esprit Saint."
+    }
+   ]
+  },
+  {
+   "id": "eg.l61.e07",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.en_verite_nous_croyons"
+   ],
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment s'ouvre le Credo dans la liturgie copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "En vérité, nous croyons",
+    "Je crois en un seul Dieu",
+    "Gloire au Père",
+    "Seigneur, aie pitié"
+   ],
+   "answer": "En vérité, nous croyons",
+   "acceptedAnswers": [
+    "En vérité, nous croyons"
+   ],
+   "explanation": "Le Credo copte commence par « En vérité, nous croyons » : on affirme que ces paroles sont vraies.",
+   "tip": "En vérité + nous.",
+   "extraExample": {
+    "text": "« En vérité, nous croyons en un seul Dieu. »",
+    "translation": "Début de la prière."
+   }
+  },
+  {
+   "id": "eg.l61.e08",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.nous_croyons"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi dit-on « nous croyons » plutôt que « je crois » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Parce que c'est la foi de toute l'Église",
+    "Parce que le texte est trop long pour un seul",
+    "Parce que les prêtres seuls croient",
+    "Parce que le latin l'impose"
+   ],
+   "answer": "Parce que c'est la foi de toute l'Église",
+   "acceptedAnswers": [
+    "Parce que c'est la foi de toute l'Église"
+   ],
+   "explanation": "La foi n'est pas une opinion personnelle : on la reçoit et on la confesse ensemble.",
+   "tip": "Nous = toute l'Église.",
+   "extraExample": {
+    "text": "Tu confesses avec les martyrs et les Pères.",
+    "translation": "Le « nous » les rassemble."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Parce que le latin l'impose",
+     "category": "word_confusion",
+     "feedback": "Au contraire : en latin on dit « je crois »."
+    }
+   ]
+  },
+  {
+   "id": "eg.l61.e09",
+   "type": "mcq",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.introduction_du_credo"
+   ],
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À quel concile la tradition rattache-t-elle l'introduction « Nous t'exaltons, Mère de la vraie lumière » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Éphèse (431)",
+    "Nicée (325)",
+    "Constantinople (381)",
+    "Chalcédoine (451)"
+   ],
+   "answer": "Éphèse (431)",
+   "acceptedAnswers": [
+    "Éphèse (431)"
+   ],
+   "explanation": "Éphèse proclame Marie Théotokos ; l'introduction du Credo célèbre cette Mère de la vraie lumière.",
+   "tip": "Marie + Éphèse.",
+   "extraExample": {
+    "text": "Marie est Mère de la vraie lumière.",
+    "translation": "Elle a enfanté la Lumière."
+   }
+  },
+  {
+   "id": "eg.l61.e10",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.concile_de_nicee"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Credo de ___-Constantinople est celui que tu récites à la messe.",
+   "promptLanguage": "fr",
+   "options": [
+    "Nicée",
+    "Éphèse",
+    "Antioche",
+    "Alexandrie"
+   ],
+   "answer": "Nicée",
+   "acceptedAnswers": [
+    "Nicée"
+   ],
+   "explanation": "Il s'appelle Credo de Nicée-Constantinople car il vient des deux conciles.",
+   "tip": "Nicée + Constantinople.",
+   "extraExample": {
+    "text": "Nicée : 325.",
+    "translation": "Constantinople : 381."
+   }
+  },
+  {
+   "id": "eg.l61.e11",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.mere_de_la_vraie_lumiere"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Nous t'exaltons, Mère de la vraie ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "lumière",
+    "grâce",
+    "sagesse",
+    "gloire"
+   ],
+   "answer": "lumière",
+   "acceptedAnswers": [
+    "lumière"
+   ],
+   "explanation": "Marie a enfanté le Christ, la Lumière venue du Père.",
+   "tip": "Mère de la lumière.",
+   "extraExample": {
+    "text": "Le Credo dit « Lumière de Lumière ».",
+    "translation": "Même thème."
+   }
+  },
+  {
+   "id": "eg.l61.e12",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.en_verite_nous_croyons"
+   ],
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Credo s'ouvre par « En ___, nous croyons ».",
+   "promptLanguage": "fr",
+   "options": [
+    "vérité",
+    "paix",
+    "amour",
+    "Dieu"
+   ],
+   "answer": "vérité",
+   "acceptedAnswers": [
+    "vérité"
+   ],
+   "explanation": "L'ouverture copte souligne que ce qu'on va dire est vrai.",
+   "tip": "En vérité.",
+   "extraExample": {
+    "text": "« En vérité, nous croyons ».",
+    "translation": "Début du Credo."
+   }
+  },
+  {
+   "id": "eg.l61.e13",
+   "type": "fill_blank",
+   "unitIds": [
+    "eg.v.theotokos",
+    "eg.g61.origine_du_credo"
+   ],
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Marie est proclamée ___, « celle qui enfante Dieu », au concile d'Éphèse.",
+   "promptLanguage": "fr",
+   "options": [
+    "Théotokos",
+    "Christotokos",
+    "Catéchumène",
+    "Anathème"
+   ],
+   "answer": "Théotokos",
+   "acceptedAnswers": [
+    "Théotokos"
+   ],
+   "explanation": "Théotokos est le titre défendu par Cyrille contre Nestorius, et rappelé dans l'introduction du Credo.",
+   "tip": "Théotokos = mère de Dieu.",
+   "extraExample": {
+    "text": "Nestorius préférait Christotokos.",
+    "translation": "Éphèse choisit Théotokos."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Christotokos",
+     "category": "word_confusion",
+     "feedback": "Christotokos est le titre préféré de Nestorius, que le concile n'a pas retenu."
+    }
+   ]
+  },
+  {
+   "id": "eg.l61.e14",
+   "type": "match",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.credo",
+    "eg.v.symbole_des_apotres"
+   ],
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Associe le mot à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "credo",
+     "right": "je crois"
+    },
+    {
+     "left": "symbolon",
+     "right": "signe de reconnaissance"
+    },
+    {
+     "left": "catéchumène",
+     "right": "futur baptisé"
+    },
+    {
+     "left": "symbole des apôtres",
+     "right": "credo court de l'Occident"
+    }
+   ],
+   "answer": "credo = je crois ; symbolon = signe de reconnaissance ; catéchumène = futur baptisé ; symbole des apôtres = credo court de l'Occident",
+   "acceptedAnswers": [],
+   "explanation": "Credo vient du latin, symbolon du grec ; le catéchumène confesse sa foi avant le baptême.",
+   "tip": "Credo = je crois."
+  },
+  {
+   "id": "eg.l61.e15",
+   "type": "match",
+   "unitIds": [
+    "eg.v.concile_de_nicee",
+    "eg.v.concile_de_constantinople",
+    "eg.v.concile_ephese_431"
+   ],
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Associe chaque concile à l'erreur qu'il condamne (révision).",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Nicée (325)",
+     "right": "Arius"
+    },
+    {
+     "left": "Constantinople (381)",
+     "right": "Macédonius"
+    },
+    {
+     "left": "Éphèse (431)",
+     "right": "Nestorius"
+    }
+   ],
+   "answer": "Nicée (325) = Arius ; Constantinople (381) = Macédonius ; Éphèse (431) = Nestorius",
+   "acceptedAnswers": [],
+   "explanation": "Chaque concile répond à une erreur : Arius à Nicée, Macédonius à Constantinople, Nestorius à Éphèse.",
+   "tip": "Un concile, une erreur."
+  },
+  {
+   "id": "eg.l61.e16",
+   "type": "reorder",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.article_de_foi"
+   ],
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : le Credo s'ouvre ainsi.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "croyons",
+    "en",
+    "Nous",
+    "seul",
+    "Dieu",
+    "un"
+   ],
+   "answer": "Nous croyons en un seul Dieu",
+   "acceptedAnswers": [
+    "Nous croyons en un seul Dieu"
+   ],
+   "explanation": "C'est le premier article du Credo, que tu verras dans la leçon suivante.",
+   "tip": "Nous + croyons + un seul Dieu.",
+   "extraExample": {
+    "text": "« Nous croyons en un seul Dieu »",
+    "translation": "Début de l'article sur le Père."
+   }
+  },
+  {
+   "id": "eg.l61.e17",
+   "type": "reorder",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.concile_de_constantinople"
+   ],
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : l'ordre des deux conciles.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "Constantinople",
+    "en",
+    "en",
+    "381",
+    "Nicée",
+    "puis",
+    "325"
+   ],
+   "answer": "Nicée en 325 puis Constantinople en 381",
+   "acceptedAnswers": [
+    "Nicée en 325 puis Constantinople en 381"
+   ],
+   "explanation": "Nicée (325) pose l'essentiel sur le Fils, Constantinople (381) achève le texte.",
+   "tip": "325 puis 381.",
+   "extraExample": {
+    "text": "Nicée précède Constantinople.",
+    "translation": "56 ans les séparent."
+   }
+  },
+  {
+   "id": "eg.l61.e18",
+   "type": "free_answer",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.credo"
+   ],
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Que veut dire « credo » ?",
+   "promptLanguage": "fr",
+   "answer": "je crois",
+   "acceptedAnswers": [
+    "je crois"
+   ],
+   "explanation": "Credo = je crois en latin.",
+   "tip": "Credo = je crois.",
+   "extraExample": {
+    "text": "Le Credo est la confession de foi.",
+    "translation": "Un résumé de la foi."
+   }
+  },
+  {
+   "id": "eg.l61.e19",
+   "type": "free_answer",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.concile_de_constantinople"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "En quelle année le concile de Constantinople achève-t-il le Credo ?",
+   "promptLanguage": "fr",
+   "answer": "381",
+   "acceptedAnswers": [
+    "381"
+   ],
+   "explanation": "Constantinople se tient en 381 sous Théodose Ier.",
+   "tip": "381 = Esprit Saint.",
+   "extraExample": {
+    "text": "Éphèse est en 431.",
+    "translation": "Nicée en 325."
+   }
+  },
+  {
+   "id": "eg.l61.e20",
+   "type": "free_answer",
+   "unitIds": [
+    "eg.g61.origine_du_credo",
+    "eg.v.mere_de_la_vraie_lumiere"
+   ],
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel titre de Marie ouvre l'introduction du Credo copte ?",
+   "promptLanguage": "fr",
+   "answer": "Mère de la vraie lumière",
+   "acceptedAnswers": [
+    "Mère de la vraie lumière",
+    "la Mère de la vraie lumière"
+   ],
+   "explanation": "« Nous t'exaltons, Mère de la vraie lumière » est le début de l'introduction.",
+   "tip": "Marie = Mère de la vraie lumière.",
+   "extraExample": {
+    "text": "Marie est aussi Théotokos.",
+    "translation": "Les deux titres vont ensemble."
+   }
+  }
+ ]
+}

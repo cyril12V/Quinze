@@ -95,9 +95,9 @@
    "instruction": "Choisis la bonne réponse.",
    "prompt": "Avec quoi le prêtre oint-il le malade ?",
    "promptLanguage": "fr",
-   "answer": "de l'huile bénie",
+   "answer": "l'huile bénie",
    "acceptedAnswers": [
-    "de l'huile bénie"
+    "l'huile bénie"
    ],
    "explanation": "L'huile du qandil est une huile pure, de préférence d'olive. Le saint myron est réservé à la confirmation.",
    "tip": "Huile = qandil.",
@@ -107,16 +107,16 @@
    },
    "errorPatterns": [
     {
-     "equals": "du saint myron",
+     "equals": "le saint myron",
      "category": "word_confusion",
      "feedback": "Le myron sert à la confirmation. Pour le qandil, on utilise de l'huile pure bénie."
     }
    ],
    "options": [
-    "du vin de la messe",
-    "du saint myron",
-    "de l'eau du baptême",
-    "de l'huile bénie"
+    "le vin de la messe",
+    "le saint myron",
+    "l'eau du baptême",
+    "l'huile bénie"
    ],
    "id": "eg.l74.e04"
   },
@@ -200,9 +200,9 @@
    "instruction": "Choisis la bonne réponse.",
    "prompt": "Que fait le malade avant le qandil, si possible ?",
    "promptLanguage": "fr",
-   "answer": "il se confesse, et communie ensuite",
+   "answer": "se confesse d'abord et communie ensuite",
    "acceptedAnswers": [
-    "il se confesse, et communie ensuite"
+    "se confesse d'abord et communie ensuite"
    ],
    "explanation": "L'âme est soignée avec le corps : la confession d'abord, la communion ensuite.",
    "tip": "Confession puis communion.",
@@ -211,10 +211,10 @@
     "translation": "Jc 5, 15."
    },
    "options": [
-    "il se confesse, et communie ensuite",
-    "il jeûne trois jours",
-    "il se fait baptiser",
-    "il reçoit le saint myron"
+    "se confesse d'abord et communie ensuite",
+    "jeûne trois jours entiers",
+    "se fait baptiser",
+    "reçoit le saint myron"
    ],
    "id": "eg.l74.e07"
   },
@@ -402,11 +402,11 @@
    "tip": "Jacques, Marc, lampe, sept.",
    "pairs": [
     {
-     "left": "Jc 5, 14-15",
+     "left": "Jacques 5, 14-15",
      "right": "les anciens oignent le malade"
     },
     {
-     "left": "Mc 6, 13",
+     "left": "Marc 6, 13",
      "right": "les disciples oignent d'huile des malades"
     },
     {
@@ -418,7 +418,7 @@
      "right": "sept prières"
     }
    ],
-   "answer": "Jc 5, 14-15 = les anciens oignent le malade ; Mc 6, 13 = les disciples oignent d'huile des malades ; Qandil = la lampe ; Sept mèches = sept prières",
+   "answer": "Jacques 5, 14-15 = les anciens oignent le malade ; Marc 6, 13 = les disciples oignent d'huile des malades ; Qandil = la lampe ; Sept mèches = sept prières",
    "acceptedAnswers": [],
    "id": "eg.l74.e14"
   },
@@ -432,7 +432,7 @@
    "type": "match",
    "difficulty": 3,
    "instruction": "Associe chaque élément de gauche à celui de droite.",
-   "prompt": "Un sacrement, son signe",
+   "prompt": "Les signes des sacrements déjà vus",
    "promptLanguage": "fr",
    "explanation": "Chaque sacrement a son signe visible : eau, myron, pain et vin, huile, mains.",
    "tip": "Un sacrement, un signe.",

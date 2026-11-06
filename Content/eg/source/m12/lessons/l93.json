@@ -1,0 +1,630 @@
+{
+ "lessonId": "eg.l93",
+ "exercises": [
+  {
+   "id": "eg.l93.e01",
+   "unitIds": [
+    "eg.g93.adam_watos",
+    "eg.v.jours_adam"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quels jours sont des jours Adam ?",
+   "promptLanguage": "fr",
+   "options": [
+    "lundi, mardi, mercredi",
+    "vendredi, samedi, dimanche",
+    "dimanche, lundi, mardi",
+    "mercredi, jeudi, vendredi"
+   ],
+   "answer": "dimanche, lundi, mardi",
+   "acceptedAnswers": [
+    "dimanche, lundi, mardi"
+   ],
+   "explanation": "Les jours Adam sont dimanche, lundi et mardi.",
+   "tip": "Adam = début de semaine.",
+   "extraExample": {
+    "text": "Trois jours.",
+    "translation": "Adam ouvre la semaine."
+   }
+  },
+  {
+   "id": "eg.l93.e02",
+   "unitIds": [
+    "eg.g93.adam_watos",
+    "eg.v.jours_watos"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quels jours sont des jours Watos ?",
+   "promptLanguage": "fr",
+   "options": [
+    "mercredi, jeudi, vendredi, samedi",
+    "jeudi, vendredi, samedi, dimanche",
+    "mardi, mercredi, jeudi",
+    "dimanche, lundi, mardi"
+   ],
+   "answer": "mercredi, jeudi, vendredi, samedi",
+   "acceptedAnswers": [
+    "mercredi, jeudi, vendredi, samedi"
+   ],
+   "explanation": "Les jours Watos sont mercredi, jeudi, vendredi et samedi.",
+   "tip": "Watos = fin de semaine.",
+   "extraExample": {
+    "text": "Quatre jours.",
+    "translation": "Watos clôt la semaine."
+   }
+  },
+  {
+   "id": "eg.l93.e03",
+   "unitIds": [
+    "eg.g93.adam_watos",
+    "eg.v.theotokie_du_lundi"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle théotokie commence par le mot « Adam » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la théotokie du lundi",
+    "la théotokie du samedi",
+    "la théotokie du jeudi",
+    "la théotokie du dimanche"
+   ],
+   "answer": "la théotokie du lundi",
+   "acceptedAnswers": [
+    "la théotokie du lundi"
+   ],
+   "explanation": "Son premier mot donne son nom à l'air Adam.",
+   "tip": "Lundi = Adam.",
+   "extraExample": {
+    "text": "Adam consolé par le Sauveur.",
+    "translation": "Né de la Vierge."
+   }
+  },
+  {
+   "id": "eg.l93.e04",
+   "unitIds": [
+    "eg.g93.adam_watos",
+    "eg.v.pibatos"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le premier mot de la théotokie du jeudi, qui a donné le nom Watos ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Théotokos",
+    "Ten thino",
+    "Pibatos",
+    "Adam"
+   ],
+   "answer": "Pibatos",
+   "acceptedAnswers": [
+    "Pibatos"
+   ],
+   "explanation": "Pibatos, « le buisson » : de là vient Watos.",
+   "tip": "Pibatos → Watos.",
+   "extraExample": {
+    "text": "Le buisson ardent.",
+    "translation": "Image de la Vierge."
+   }
+  },
+  {
+   "id": "eg.l93.e05",
+   "unitIds": [
+    "eg.g93.adam_watos",
+    "eg.v.jour_liturgique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quand commence le jour liturgique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "à midi",
+    "la veille au soir",
+    "à minuit",
+    "au lever du soleil"
+   ],
+   "answer": "la veille au soir",
+   "acceptedAnswers": [
+    "la veille au soir"
+   ],
+   "explanation": "Comme dans la Genèse : « il y eut un soir, il y eut un matin ».",
+   "tip": "Le jour commence le soir.",
+   "extraExample": {
+    "text": "Vers 18 h.",
+    "translation": "Samedi soir, c'est déjà dimanche."
+   }
+  },
+  {
+   "id": "eg.l93.e06",
+   "unitIds": [
+    "eg.g93.adam_watos",
+    "eg.v.regle_du_soir"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Nous sommes mardi à 20 h : quelle théotokie et quel air ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la théotokie du mercredi, sur l'air Watos",
+    "la théotokie du mardi, sur l'air Adam",
+    "la théotokie du mardi, sur l'air Watos",
+    "la théotokie du mercredi, sur l'air Adam"
+   ],
+   "answer": "la théotokie du mercredi, sur l'air Watos",
+   "acceptedAnswers": [
+    "la théotokie du mercredi, sur l'air Watos"
+   ],
+   "explanation": "Mardi soir, le mercredi a déjà commencé : mercredi est un jour Watos.",
+   "tip": "Mardi soir = mercredi.",
+   "extraExample": {
+    "text": "Le soir, on prie celle du lendemain.",
+    "translation": "L'air change ce soir-là."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la théotokie du mardi, sur l'air Adam",
+     "category": "word_confusion",
+     "feedback": "Mardi soir, le jour liturgique est déjà mercredi : on prie la théotokie du mercredi, sur l'air Watos."
+    }
+   ]
+  },
+  {
+   "id": "eg.l93.e07",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Nous sommes samedi à 20 h : quelle théotokie et quel air ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la théotokie du dimanche, sur l'air Adam",
+    "la théotokie du samedi, sur l'air Watos",
+    "la théotokie du lundi, sur l'air Adam",
+    "la théotokie du dimanche, sur l'air Watos"
+   ],
+   "answer": "la théotokie du dimanche, sur l'air Adam",
+   "acceptedAnswers": [
+    "la théotokie du dimanche, sur l'air Adam"
+   ],
+   "explanation": "Samedi soir, c'est déjà dimanche, jour Adam.",
+   "tip": "Samedi soir = dimanche.",
+   "extraExample": {
+    "text": "Samedi est un jour Watos, mais le soir il change.",
+    "translation": "Adam reprend."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la théotokie du samedi, sur l'air Watos",
+     "category": "word_confusion",
+     "feedback": "Samedi soir, le dimanche a déjà commencé : on prie la théotokie du dimanche, sur l'air Adam."
+    }
+   ]
+  },
+  {
+   "id": "eg.l93.e08",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Nous sommes dimanche à 20 h : quelle théotokie et quel air ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la théotokie du lundi, sur l'air Watos",
+    "la théotokie du dimanche, sur l'air Adam",
+    "la théotokie du lundi, sur l'air Adam",
+    "la théotokie du mardi, sur l'air Adam"
+   ],
+   "answer": "la théotokie du lundi, sur l'air Adam",
+   "acceptedAnswers": [
+    "la théotokie du lundi, sur l'air Adam"
+   ],
+   "explanation": "Dimanche soir, le lundi a commencé : lundi est un jour Adam.",
+   "tip": "Dimanche soir = lundi.",
+   "extraExample": {
+    "text": "L'air ne change pas ce soir-là.",
+    "translation": "Adam."
+   }
+  },
+  {
+   "id": "eg.l93.e09",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Nous sommes jeudi à 20 h : quelle théotokie et quel air ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la théotokie du vendredi, sur l'air Adam",
+    "la théotokie du samedi, sur l'air Watos",
+    "la théotokie du vendredi, sur l'air Watos",
+    "la théotokie du jeudi, sur l'air Watos"
+   ],
+   "answer": "la théotokie du vendredi, sur l'air Watos",
+   "acceptedAnswers": [
+    "la théotokie du vendredi, sur l'air Watos"
+   ],
+   "explanation": "Jeudi soir, le vendredi a commencé : vendredi est un jour Watos.",
+   "tip": "Jeudi soir = vendredi.",
+   "extraExample": {
+    "text": "L'air reste Watos.",
+    "translation": "Du mercredi au samedi."
+   }
+  },
+  {
+   "id": "eg.l93.e10",
+   "unitIds": [
+    "eg.g93.adam_watos",
+    "eg.v.jour_liturgique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le jour liturgique commence la veille au ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "lever",
+    "soir",
+    "matin",
+    "midi"
+   ],
+   "answer": "soir",
+   "acceptedAnswers": [
+    "soir"
+   ],
+   "explanation": "Il y eut un soir, il y eut un matin.",
+   "tip": "Le jour commence le soir.",
+   "extraExample": {
+    "text": "Vers 18 h.",
+    "translation": "Genèse."
+   }
+  },
+  {
+   "id": "eg.l93.e11",
+   "unitIds": [
+    "eg.g93.adam_watos",
+    "eg.v.pibatos"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pibatos veut dire « le ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "mont",
+    "désert",
+    "buisson",
+    "feu"
+   ],
+   "answer": "buisson",
+   "acceptedAnswers": [
+    "buisson"
+   ],
+   "explanation": "Le buisson que Moïse a vu brûler sans se consumer.",
+   "tip": "Pibatos = buisson.",
+   "extraExample": {
+    "text": "Image de la Vierge.",
+    "translation": "Ex 3."
+   }
+  },
+  {
+   "id": "eg.l93.e12",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Il y a trois jours Adam et ___ jours Watos.",
+   "promptLanguage": "fr",
+   "options": [
+    "deux",
+    "quatre",
+    "sept",
+    "cinq"
+   ],
+   "answer": "quatre",
+   "acceptedAnswers": [
+    "quatre"
+   ],
+   "explanation": "Trois jours Adam (dimanche à mardi) et quatre jours Watos (mercredi à samedi).",
+   "tip": "3 + 4 = 7.",
+   "extraExample": {
+    "text": "Toute la semaine.",
+    "translation": "Sept jours."
+   }
+  },
+  {
+   "id": "eg.l93.e13",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Samedi soir, on prie déjà la théotokie du ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "samedi",
+    "vendredi",
+    "dimanche",
+    "lundi"
+   ],
+   "answer": "dimanche",
+   "acceptedAnswers": [
+    "dimanche"
+   ],
+   "explanation": "Samedi soir, le dimanche a déjà commencé.",
+   "tip": "Samedi soir → dimanche.",
+   "extraExample": {
+    "text": "Sur l'air Adam.",
+    "translation": "Le jour commence le soir."
+   }
+  },
+  {
+   "id": "eg.l93.e14",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Associe chaque nom à son origine.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Adam",
+     "right": "théotokie du lundi"
+    },
+    {
+     "left": "Pibatos",
+     "right": "théotokie du jeudi"
+    },
+    {
+     "left": "l'air Adam",
+     "right": "dimanche, lundi, mardi"
+    },
+    {
+     "left": "l'air Watos",
+     "right": "mercredi, jeudi, vendredi, samedi"
+    }
+   ],
+   "answer": "Adam = théotokie du lundi ; Pibatos = théotokie du jeudi ; l'air Adam = dimanche, lundi, mardi ; l'air Watos = mercredi, jeudi, vendredi, samedi",
+   "acceptedAnswers": [],
+   "explanation": "D'où viennent les noms Adam et Watos.",
+   "tip": "Relis la carte correspondante.",
+   "extraExample": {
+    "text": "Adam",
+    "translation": "théotokie du lundi"
+   }
+  },
+  {
+   "id": "eg.l93.e15",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Associe chaque soir à la théotokie qu'on prie.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "dimanche soir",
+     "right": "théotokie du lundi"
+    },
+    {
+     "left": "mardi soir",
+     "right": "théotokie du mercredi"
+    },
+    {
+     "left": "jeudi soir",
+     "right": "théotokie du vendredi"
+    },
+    {
+     "left": "samedi soir",
+     "right": "théotokie du dimanche"
+    }
+   ],
+   "answer": "dimanche soir = théotokie du lundi ; mardi soir = théotokie du mercredi ; jeudi soir = théotokie du vendredi ; samedi soir = théotokie du dimanche",
+   "acceptedAnswers": [],
+   "explanation": "Le soir, on prie celle du lendemain.",
+   "tip": "Relis la carte correspondante.",
+   "extraExample": {
+    "text": "dimanche soir",
+    "translation": "théotokie du lundi"
+   }
+  },
+  {
+   "id": "eg.l93.e16",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la règle du soir.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "lendemain",
+    "soir",
+    "on",
+    "prie",
+    "du",
+    "la",
+    "Le",
+    "théotokie",
+    "déjà"
+   ],
+   "answer": "Le soir on prie déjà la théotokie du lendemain",
+   "acceptedAnswers": [
+    "Le soir on prie déjà la théotokie du lendemain"
+   ],
+   "explanation": "La règle à retenir.",
+   "tip": "Soir = lendemain.",
+   "extraExample": {
+    "text": "Samedi soir : dimanche.",
+    "translation": "Mardi soir : mercredi."
+   }
+  },
+  {
+   "id": "eg.l93.e17",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le premier mot de la théotokie du lundi ?",
+   "promptLanguage": "fr",
+   "answer": "Adam",
+   "acceptedAnswers": [
+    "Adam"
+   ],
+   "explanation": "La théotokie du lundi commence par Adam.",
+   "tip": "Lundi = Adam.",
+   "extraExample": {
+    "text": "Adam consolé.",
+    "translation": "Né de la Vierge."
+   }
+  },
+  {
+   "id": "eg.l93.e18",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le premier mot de la théotokie du jeudi ?",
+   "promptLanguage": "fr",
+   "answer": "Pibatos",
+   "acceptedAnswers": [
+    "Pibatos"
+   ],
+   "explanation": "Pibatos, « le buisson » : de là vient Watos.",
+   "tip": "Jeudi = Pibatos.",
+   "extraExample": {
+    "text": "Buisson ardent.",
+    "translation": "Ex 3."
+   }
+  },
+  {
+   "id": "eg.l93.e19",
+   "unitIds": [
+    "eg.g93.adam_watos"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Nous sommes mercredi à 20 h : sur quel air prie-t-on ?",
+   "promptLanguage": "fr",
+   "answer": "Watos",
+   "acceptedAnswers": [
+    "Watos",
+    "l'air Watos",
+    "air Watos"
+   ],
+   "explanation": "Mercredi soir, c'est déjà jeudi : un jour Watos.",
+   "tip": "Mercredi soir → Watos.",
+   "extraExample": {
+    "text": "Aucun changement d'air ce soir-là.",
+    "translation": "Le jeudi est Watos."
+   }
+  },
+  {
+   "id": "eg.l93.e20",
+   "unitIds": [
+    "eg.g92.psali_theotokie"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel symbole brûle sans se consumer ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la cruche d'or",
+    "le chandelier d'or",
+    "le buisson ardent",
+    "l'arche de l'alliance"
+   ],
+   "answer": "le buisson ardent",
+   "acceptedAnswers": [
+    "le buisson ardent"
+   ],
+   "explanation": "Le buisson ardent est l'image de Marie qui porte le feu de la divinité.",
+   "tip": "Buisson = feu.",
+   "extraExample": {
+    "text": "Ex 3.",
+    "translation": "Moïse."
+   }
+  },
+  {
+   "id": "eg.l93.e21",
+   "unitIds": [
+    "eg.g92.psali_theotokie"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de théotokies chante-t-on dans la semaine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "quatre",
+    "douze",
+    "trois",
+    "sept"
+   ],
+   "answer": "sept",
+   "acceptedAnswers": [
+    "sept"
+   ],
+   "explanation": "Sept théotokies, une par jour.",
+   "tip": "Sept jours.",
+   "extraExample": {
+    "text": "Différente chaque jour.",
+    "translation": "Un chant à la Vierge."
+   }
+  },
+  {
+   "id": "eg.l93.e22",
+   "unitIds": [
+    "eg.g89.tasbeha_plan"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quand prie-t-on surtout la tasbeha en paroisse ?",
+   "promptLanguage": "fr",
+   "options": [
+    "à midi",
+    "tous les matins",
+    "la veille d'une messe",
+    "à Pâques seulement"
+   ],
+   "answer": "la veille d'une messe",
+   "acceptedAnswers": [
+    "la veille d'une messe"
+   ],
+   "explanation": "En paroisse, on la prie la veille d'une messe.",
+   "tip": "Veille de messe.",
+   "extraExample": {
+    "text": "Samedi soir pour le dimanche.",
+    "translation": "On n'attend pas minuit."
+   }
+  }
+ ]
+}

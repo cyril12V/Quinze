@@ -72,11 +72,11 @@
    "type": "mcq",
    "difficulty": 2,
    "instruction": "Choisis la bonne réponse.",
-   "prompt": "Que croit l'Église copte à propos du pain et du vin consacrés ?",
+   "prompt": "Que deviennent le pain et le vin consacrés pour l'Église copte ?",
    "promptLanguage": "fr",
-   "answer": "ils deviennent vraiment le Corps et le Sang du Christ",
+   "answer": "vraiment le Corps et le Sang du Christ",
    "acceptedAnswers": [
-    "ils deviennent vraiment le Corps et le Sang du Christ"
+    "vraiment le Corps et le Sang du Christ"
    ],
    "explanation": "C'est la présence réelle : le Christ est vraiment là.",
    "tip": "Présence réelle.",
@@ -86,16 +86,16 @@
    },
    "errorPatterns": [
     {
-     "equals": "ils sont un simple souvenir",
+     "equals": "un simple souvenir de la dernière Cène",
      "category": "word_confusion",
      "feedback": "Un simple souvenir (mémorial) est la position de beaucoup de protestants, pas celle de l'Église copte."
     }
    ],
    "options": [
-    "ils restent du pain et du vin sans changement",
-    "ils sont un simple souvenir",
-    "ils représentent seulement l'Église",
-    "ils deviennent vraiment le Corps et le Sang du Christ"
+    "une image de l'Église",
+    "un simple souvenir de la dernière Cène",
+    "du pain béni sans changement",
+    "vraiment le Corps et le Sang du Christ"
    ],
    "id": "eg.l72.e03"
   },
@@ -135,7 +135,7 @@
    "type": "mcq",
    "difficulty": 1,
    "instruction": "Choisis la bonne réponse.",
-   "prompt": "Comment s'appelle le pain de la messe ?",
+   "prompt": "Parmi ces mots, lequel désigne le pain de la messe ?",
    "promptLanguage": "fr",
    "answer": "le qorban",
    "acceptedAnswers": [
@@ -150,8 +150,8 @@
    "options": [
     "le qandil",
     "le zounnar",
-    "le qorban",
-    "le myron"
+    "le myron",
+    "le qorban"
    ],
    "id": "eg.l72.e05"
   },
@@ -193,9 +193,9 @@
    "instruction": "Choisis la bonne réponse.",
    "prompt": "Que fait-on avant de communier ?",
    "promptLanguage": "fr",
-   "answer": "on se confesse et on se réconcilie",
+   "answer": "on s'examine, on se confesse, on se réconcilie",
    "acceptedAnswers": [
-    "on se confesse et on se réconcilie"
+    "on s'examine, on se confesse, on se réconcilie"
    ],
    "explanation": "Saint Paul demande que chacun s'examine soi-même (1 Co 11, 28).",
    "tip": "Examen, confession, réconciliation.",
@@ -205,7 +205,7 @@
    },
    "options": [
     "on se fait baptiser une seconde fois",
-    "on se confesse et on se réconcilie",
+    "on s'examine, on se confesse, on se réconcilie",
     "on récite le Credo une fois",
     "on reçoit le saint myron"
    ],
@@ -249,9 +249,9 @@
    "instruction": "Choisis la bonne réponse.",
    "prompt": "Qui peut communier dans l'Église copte ?",
    "promptLanguage": "fr",
-   "answer": "les orthodoxes baptisés et confirmés, préparés par la confession",
+   "answer": "orthodoxes baptisés et confirmés, préparés par la confession",
    "acceptedAnswers": [
-    "les orthodoxes baptisés et confirmés, préparés par la confession"
+    "orthodoxes baptisés et confirmés, préparés par la confession"
    ],
    "explanation": "La communion exprime l'unité de la foi : on s'y prépare.",
    "tip": "Baptisés, confirmés, confessés.",
@@ -261,7 +261,7 @@
    },
    "options": [
     "tous les visiteurs, sans condition",
-    "les orthodoxes baptisés et confirmés, préparés par la confession",
+    "orthodoxes baptisés et confirmés, préparés par la confession",
     "seulement les prêtres",
     "seulement les enfants"
    ],

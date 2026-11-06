@@ -1,0 +1,579 @@
+{
+  "lessonId": "eg.l20",
+  "exercises": [
+    {
+      "id": "eg.l20.e01",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.paul_de_thebes",
+        "eg.v.antoine"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Qui est qui ?",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Saint Paul de Thèbes",
+          "right": "le premier des ermites"
+        },
+        {
+          "left": "Saint Antoine",
+          "right": "le père des moines"
+        },
+        {
+          "left": "L'ermite",
+          "right": "celui qui vit seul au désert"
+        },
+        {
+          "left": "L'anachorète",
+          "right": "celui qui se retire du monde"
+        }
+      ],
+      "answer": "Saint Paul de Thèbes = le premier des ermites ; Saint Antoine = le père des moines ; L'ermite = celui qui vit seul au désert ; L'anachorète = celui qui se retire du monde",
+      "acceptedAnswers": [],
+      "explanation": "Paul ouvre la voie, Antoine l'élargit. Ermite et anachorète décrivent le genre de vie.",
+      "tip": "Paul = premier ; Antoine = père des moines."
+    },
+    {
+      "id": "eg.l20.e02",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.fuite_au_desert",
+        "eg.v.antoine",
+        "eg.v.paul_de_thebes"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Dates et événements",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "vers 250",
+          "right": "Paul fuit au désert"
+        },
+        {
+          "left": "vers 270",
+          "right": "Antoine part au désert"
+        },
+        {
+          "left": "284",
+          "right": "Dioclétien devient empereur"
+        },
+        {
+          "left": "303",
+          "right": "grande persécution"
+        }
+      ],
+      "answer": "vers 250 = Paul fuit au désert ; vers 270 = Antoine part au désert ; 284 = Dioclétien devient empereur ; 303 = grande persécution",
+      "acceptedAnswers": [],
+      "explanation": "Dans l'ordre : Paul (250), Antoine (270), puis l'accession de Dioclétien (284) et la grande persécution (303).",
+      "tip": "250, 270, 284, 303 : une suite de 20 à 30 ans."
+    },
+    {
+      "id": "eg.l20.e03",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.paul_de_thebes"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui est le premier des ermites au désert ?",
+      "promptLanguage": "fr",
+      "answer": "saint Paul de Thèbes",
+      "acceptedAnswers": [
+        "saint Paul de Thèbes"
+      ],
+      "explanation": "La tradition tient Paul de Thèbes pour le premier ermite, vers 250.",
+      "tip": "Paul = premier ermite.",
+      "extraExample": {
+        "text": "Antoine le rencontre plus tard.",
+        "translation": "Antoine est le père des moines."
+      },
+      "options": [
+        "saint Paul de Thèbes",
+        "saint Antoine",
+        "saint Marc",
+        "saint Cyprien"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "saint Antoine",
+          "category": "word_confusion",
+          "feedback": "Antoine est le père des moines, mais Paul l'a précédé au désert."
+        }
+      ]
+    },
+    {
+      "id": "eg.l20.e04",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.fuite_au_desert"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Pourquoi Paul quitte-t-il la ville vers 250 ? À cause de...",
+      "promptLanguage": "fr",
+      "answer": "la persécution de Dèce",
+      "acceptedAnswers": [
+        "la persécution de Dèce"
+      ],
+      "explanation": "Sous Dèce, qui oblige à sacrifier, Paul fuit au désert.",
+      "tip": "Fuite = persécution de Dèce.",
+      "extraExample": {
+        "text": "Dèce est le septième persécuteur.",
+        "translation": "Paul n'a pas voulu sacrifier."
+      },
+      "options": [
+        "un concile",
+        "une famine",
+        "un tremblement de terre",
+        "la persécution de Dèce"
+      ]
+    },
+    {
+      "id": "eg.l20.e05",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.antoine"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui est appelé le père des moines ?",
+      "promptLanguage": "fr",
+      "answer": "saint Antoine",
+      "acceptedAnswers": [
+        "saint Antoine"
+      ],
+      "explanation": "Antoine part au désert vers 270 et devient le maître de nombreux disciples.",
+      "tip": "Antoine = père des moines.",
+      "extraExample": {
+        "text": "Paul est le premier ermite.",
+        "translation": "Antoine est le plus célèbre."
+      },
+      "options": [
+        "Dioclétien",
+        "saint Marc",
+        "saint Antoine",
+        "saint Paul de Thèbes"
+      ]
+    },
+    {
+      "id": "eg.l20.e06",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.antoine"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Vers quelle année Antoine part-il au désert ?",
+      "promptLanguage": "fr",
+      "answer": "270",
+      "acceptedAnswers": [
+        "270"
+      ],
+      "explanation": "Antoine part au désert vers 270, après avoir entendu l'Évangile.",
+      "tip": "270 = Antoine.",
+      "extraExample": {
+        "text": "250 est l'année de Paul.",
+        "translation": "284 est Dioclétien."
+      },
+      "options": [
+        "303",
+        "270",
+        "250",
+        "284"
+      ]
+    },
+    {
+      "id": "eg.l20.e07",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.antoine"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quelle parole de l'Évangile touche Antoine ?",
+      "promptLanguage": "fr",
+      "answer": "« Va, vends ce que tu possèdes »",
+      "acceptedAnswers": [
+        "« Va, vends ce que tu possèdes »"
+      ],
+      "explanation": "Antoine l'entend à l'église (Mt 19, 21) et la prend comme un ordre adressé à lui.",
+      "tip": "Parole = va, vends.",
+      "extraExample": {
+        "text": "Il donne ses biens aux pauvres.",
+        "translation": "Puis il part au désert."
+      },
+      "options": [
+        "« Va, vends ce que tu possèdes »",
+        "« Rendez à César ce qui est à César »",
+        "« Tu es Pierre »",
+        "« Aimez-vous les uns les autres »"
+      ]
+    },
+    {
+      "id": "eg.l20.e08",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.ermite"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que signifie « ermite » ?",
+      "promptLanguage": "fr",
+      "answer": "celui qui vit seul au désert",
+      "acceptedAnswers": [
+        "celui qui vit seul au désert"
+      ],
+      "explanation": "Du grec « eremos », désert : l'ermite vit seul au désert.",
+      "tip": "Ermite = eremos = désert.",
+      "extraExample": {
+        "text": "Paul est ermite.",
+        "translation": "Il vit dans une grotte."
+      },
+      "options": [
+        "celui qui dirige une église",
+        "celui qui meurt martyr",
+        "celui qui traduit la Bible",
+        "celui qui vit seul au désert"
+      ]
+    },
+    {
+      "id": "eg.l20.e09",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.anachorete"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que veut dire « anachorète » ?",
+      "promptLanguage": "fr",
+      "answer": "celui qui se retire du monde",
+      "acceptedAnswers": [
+        "celui qui se retire du monde"
+      ],
+      "explanation": "Du grec « anachôrein », se retirer.",
+      "tip": "Anachorète = se retirer.",
+      "extraExample": {
+        "text": "Antoine est un anachorète.",
+        "translation": "Il quitte sa vie d'avant."
+      },
+      "options": [
+        "celui qui dirige le chant",
+        "celui qui porte la croix",
+        "celui qui se retire du monde",
+        "celui qui garde les livres saints"
+      ]
+    },
+    {
+      "id": "eg.l20.e10",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.desert_d_egypte"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Où vivent les premiers ermites ?",
+      "promptLanguage": "fr",
+      "answer": "Dans le désert d'Égypte",
+      "acceptedAnswers": [
+        "Dans le désert d'Égypte"
+      ],
+      "explanation": "Le désert d'Égypte, proche du Nil, accueille Paul et Antoine.",
+      "tip": "Premiers ermites = Égypte.",
+      "extraExample": {
+        "text": "L'Égypte est la patrie des moines.",
+        "translation": "Le désert est proche du Nil."
+      },
+      "options": [
+        "Dans les montagnes de Syrie",
+        "Dans le désert d'Égypte",
+        "Dans les catacombes de Rome",
+        "Sur les îles grecques"
+      ]
+    },
+    {
+      "id": "eg.l20.e11",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.diocletien"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Révision : en quelle année Dioclétien devient-il empereur ?",
+      "promptLanguage": "fr",
+      "answer": "284",
+      "acceptedAnswers": [
+        "284"
+      ],
+      "explanation": "Dioclétien devient empereur en 284, année qui ouvre le calendrier copte. (Leçon 19.)",
+      "tip": "284 = an 1 copte.",
+      "extraExample": {
+        "text": "Antoine part vers 270.",
+        "translation": "Cela se passe quatorze ans plus tôt."
+      },
+      "options": [
+        "284",
+        "250",
+        "270",
+        "303"
+      ]
+    },
+    {
+      "id": "eg.l20.e12",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.dece"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Révision : quel empereur persécute quand Paul fuit au désert ?",
+      "promptLanguage": "fr",
+      "answer": "Dèce",
+      "acceptedAnswers": [
+        "Dèce"
+      ],
+      "explanation": "Paul fuit vers 250, sous Dèce, auteur de l'édit de 250. (Leçon 18.)",
+      "tip": "Paul = Dèce.",
+      "extraExample": {
+        "text": "Dèce est le septième.",
+        "translation": "Son édit oblige à sacrifier."
+      },
+      "options": [
+        "Valérien",
+        "Maximin",
+        "Dioclétien",
+        "Dèce"
+      ]
+    },
+    {
+      "id": "eg.l20.e13",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.antoine"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète la phrase.",
+      "prompt": "Saint Antoine est appelé le père des ___.",
+      "promptLanguage": "fr",
+      "answer": "moines",
+      "acceptedAnswers": [
+        "moines"
+      ],
+      "explanation": "Antoine inspire la vie monastique.",
+      "tip": "Antoine = père des moines.",
+      "extraExample": {
+        "text": "Il part vers 270.",
+        "translation": "Il quitte tout pour Dieu."
+      },
+      "options": [
+        "apôtres",
+        "moines",
+        "martyrs",
+        "évêques"
+      ]
+    },
+    {
+      "id": "eg.l20.e14",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.ermite"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Un ermite est quelqu'un qui vit seul au ___.",
+      "promptLanguage": "fr",
+      "answer": "désert",
+      "acceptedAnswers": [
+        "désert"
+      ],
+      "explanation": "Eremos signifie désert en grec.",
+      "tip": "Ermite = désert.",
+      "extraExample": {
+        "text": "Paul vit dans une grotte.",
+        "translation": "Son compagnon est le silence."
+      },
+      "options": [
+        "désert",
+        "marché",
+        "palais",
+        "port"
+      ]
+    },
+    {
+      "id": "eg.l20.e15",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.paul_de_thebes"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "La tradition raconte qu'un ___ apportait du pain à Paul.",
+      "promptLanguage": "fr",
+      "answer": "corbeau",
+      "acceptedAnswers": [
+        "corbeau"
+      ],
+      "explanation": "Selon la tradition, un corbeau nourrissait Paul chaque jour.",
+      "tip": "Corbeau = pain de Paul.",
+      "extraExample": {
+        "text": "Le jour de la visite d'Antoine, le pain est double.",
+        "translation": "Ils partagent le repas."
+      },
+      "options": [
+        "ange",
+        "berger",
+        "moine",
+        "corbeau"
+      ]
+    },
+    {
+      "id": "eg.l20.e16",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.calendrier_copte"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Révision : le calendrier copte commence avec l'accession de ___.",
+      "promptLanguage": "fr",
+      "answer": "Dioclétien",
+      "acceptedAnswers": [
+        "Dioclétien"
+      ],
+      "explanation": "Le calendrier copte part de 284. (Leçon 19.)",
+      "tip": "Calendrier copte = Dioclétien.",
+      "extraExample": {
+        "text": "284 est l'an 1.",
+        "translation": "Il garde la mémoire des martyrs."
+      },
+      "options": [
+        "Dèce",
+        "Valérien",
+        "Dioclétien",
+        "Antoine"
+      ]
+    },
+    {
+      "id": "eg.l20.e17",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.paul_de_thebes"
+      ],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre.",
+      "prompt": "Reconstitue la phrase-repère sur le premier ermite.",
+      "promptLanguage": "fr",
+      "answer": "Saint Paul de Thèbes est le premier des ermites",
+      "acceptedAnswers": [
+        "Saint Paul de Thèbes est le premier des ermites"
+      ],
+      "explanation": "Paul de Thèbes est le premier ermite, vers 250.",
+      "tip": "Paul le premier.",
+      "extraExample": {
+        "text": "Antoine le suit vers 270.",
+        "translation": "Il devient le père des moines."
+      },
+      "tokens": [
+        "de",
+        "Thèbes",
+        "est",
+        "le",
+        "premier",
+        "des",
+        "ermites",
+        "Saint",
+        "Paul"
+      ]
+    },
+    {
+      "id": "eg.l20.e18",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.antoine"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Qui part au désert vers 270 et devient le père des moines ?",
+      "promptLanguage": "fr",
+      "answer": "Antoine",
+      "acceptedAnswers": [
+        "Antoine",
+        "saint Antoine"
+      ],
+      "explanation": "Antoine est le père des moines.",
+      "tip": "Antoine = 270.",
+      "extraExample": {
+        "text": "Il entend « va, vends ce que tu possèdes ».",
+        "translation": "Il donne ses biens."
+      }
+    },
+    {
+      "id": "eg.l20.e19",
+      "unitIds": [
+        "eg.g20.premiers_ermites",
+        "eg.v.anachorete"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la réponse.",
+      "prompt": "Quel mot signifie « celui qui se retire du monde » ? (un mot)",
+      "promptLanguage": "fr",
+      "answer": "anachorète",
+      "acceptedAnswers": [
+        "anachorète",
+        "l'anachorète",
+        "anachorete"
+      ],
+      "explanation": "Anachorète vient du grec anachôrein, se retirer.",
+      "tip": "Anachorète = se retirer.",
+      "extraExample": {
+        "text": "Antoine est un anachorète.",
+        "translation": "Il quitte sa vie d'avant."
+      }
+    },
+    {
+      "id": "eg.l20.e20",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.nayrouz"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Révision : comment s'appelle le jour de l'an copte ? (un mot)",
+      "promptLanguage": "fr",
+      "answer": "Nayrouz",
+      "acceptedAnswers": [
+        "Nayrouz",
+        "le Nayrouz",
+        "Nairouz"
+      ],
+      "explanation": "Le Nayrouz est le jour de l'an copte, en septembre. (Leçon 19.)",
+      "tip": "Nayrouz = jour de l'an.",
+      "extraExample": {
+        "text": "Il a lieu en septembre.",
+        "translation": "Il ouvre l'année copte."
+      }
+    }
+  ]
+}

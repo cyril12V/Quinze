@@ -1,0 +1,649 @@
+{
+  "lessonId": "eg.l30",
+  "exercises": [
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.saint_paul_l_ermite",
+        "eg.v.saint_antoine",
+        "eg.v.saint_pacome",
+        "eg.v.saint_macaire_le_grand"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Qui est qui au désert ?",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Saint Paul",
+          "right": "le premier ermite"
+        },
+        {
+          "left": "Saint Antoine",
+          "right": "le père des moines"
+        },
+        {
+          "left": "Saint Pacôme",
+          "right": "fondateur des premiers monastères cénobitiques"
+        },
+        {
+          "left": "Saint Macaire",
+          "right": "père de Scété"
+        }
+      ],
+      "answer": "Saint Paul = le premier ermite ; Saint Antoine = le père des moines ; Saint Pacôme = fondateur des premiers monastères cénobitiques ; Saint Macaire = père de Scété",
+      "acceptedAnswers": [],
+      "explanation": "Paul est le premier ermite, Antoine le père des moines, Pacôme fonde la vie en communauté, et Macaire est le père de Scété.",
+      "tip": "Paul, Antoine, Pacôme, Macaire.",
+      "extraExample": {
+        "text": "Aujourd'hui encore, des moines vivent dans le désert de Wadi Natroun, là où vécut saint Macaire.",
+        "translation": "La tradition n'a jamais été interrompue depuis le IVe siècle."
+      },
+      "id": "eg.l30.e01"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.monachisme"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Dans quel pays le mouvement monastique chrétien commence-t-il ?",
+      "promptLanguage": "fr",
+      "options": [
+        "En Égypte",
+        "En Grèce",
+        "À Rome",
+        "En Arménie"
+      ],
+      "answer": "En Égypte",
+      "acceptedAnswers": [
+        "En Égypte"
+      ],
+      "explanation": "Le monachisme naît en Égypte, d'où l'expression « l'Égypte, mère du monachisme ».",
+      "tip": "Moines = Égypte.",
+      "extraExample": {
+        "text": "Le monastère de saint Antoine, près de la mer Rouge, est l'un des plus anciens monastères du monde.",
+        "translation": "Il garde le souvenir du père des moines."
+      },
+      "errorPatterns": [
+        {
+          "equals": "À Rome",
+          "category": "word_confusion",
+          "feedback": "Le monachisme n'arrive à Rome que plus tard, grâce à La Vie d'Antoine."
+        }
+      ],
+      "id": "eg.l30.e02"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.monachisme"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quels sont les trois principes de la vie monastique ?",
+      "promptLanguage": "fr",
+      "options": [
+        "La pauvreté, l'obéissance et la chasteté",
+        "La richesse, la liberté et la gloire",
+        "Le travail, le sport et le repos",
+        "La prière, l'argent et le pouvoir"
+      ],
+      "answer": "La pauvreté, l'obéissance et la chasteté",
+      "acceptedAnswers": [
+        "La pauvreté, l'obéissance et la chasteté"
+      ],
+      "explanation": "Le moine renonce à posséder, à décider seul, et à fonder une famille, pour se donner entièrement à Dieu.",
+      "tip": "Pauvreté, obéissance, chasteté.",
+      "extraExample": {
+        "text": "Saint Benoît (VIe siècle) a rédigé sa règle de 73 chapitres pour le Mont-Cassin.",
+        "translation": "La vie communautaire d'Égypte a inspiré les moines d'Occident."
+      },
+      "id": "eg.l30.e03"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.monachisme"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "La vie monastique repose sur la pauvreté, l'___ et la chasteté.",
+      "promptLanguage": "fr",
+      "options": [
+        "obéissance",
+        "autorité",
+        "liberté",
+        "fortune"
+      ],
+      "answer": "obéissance",
+      "acceptedAnswers": [
+        "obéissance"
+      ],
+      "explanation": "Le moine apprend à obéir pour mourir à sa propre volonté. C'est le deuxième des trois principes.",
+      "tip": "Pauvreté, obéissance, chasteté.",
+      "extraExample": {
+        "text": "Aujourd'hui encore, des moines vivent dans le désert de Wadi Natroun, là où vécut saint Macaire.",
+        "translation": "La tradition n'a jamais été interrompue depuis le IVe siècle."
+      },
+      "id": "eg.l30.e04"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.saint_antoine"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "En quelle année naît saint Antoine ?",
+      "promptLanguage": "fr",
+      "options": [
+        "251",
+        "356",
+        "342",
+        "391"
+      ],
+      "answer": "251",
+      "acceptedAnswers": [
+        "251"
+      ],
+      "explanation": "Antoine est né en 251, en Haute-Égypte, et mort en 356. 342 est la mort de Paul, 391 celle de Macaire.",
+      "tip": "251-356.",
+      "extraExample": {
+        "text": "Le monastère de saint Antoine, près de la mer Rouge, est l'un des plus anciens monastères du monde.",
+        "translation": "Il garde le souvenir du père des moines."
+      },
+      "errorPatterns": [
+        {
+          "equals": "356",
+          "category": "word_confusion",
+          "feedback": "356 est l'année de sa mort."
+        },
+        {
+          "equals": "342",
+          "category": "word_confusion",
+          "feedback": "342 est la mort de saint Paul l'ermite."
+        },
+        {
+          "equals": "391",
+          "category": "word_confusion",
+          "feedback": "391 est la mort de saint Macaire."
+        }
+      ],
+      "id": "eg.l30.e05"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.saint_antoine"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète la phrase.",
+      "prompt": "Saint Antoine meurt en ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "356",
+        "251",
+        "342",
+        "391"
+      ],
+      "answer": "356",
+      "acceptedAnswers": [
+        "356"
+      ],
+      "explanation": "Antoine meurt en 356, plus de cent ans après sa naissance.",
+      "tip": "251 → 356.",
+      "extraExample": {
+        "text": "Saint Benoît (VIe siècle) a rédigé sa règle de 73 chapitres pour le Mont-Cassin.",
+        "translation": "La vie communautaire d'Égypte a inspiré les moines d'Occident."
+      },
+      "id": "eg.l30.e06"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.saint_antoine"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "D'où vient saint Antoine ?",
+      "promptLanguage": "fr",
+      "options": [
+        "De Haute-Égypte",
+        "De Rome",
+        "D'Arménie",
+        "De Grèce"
+      ],
+      "answer": "De Haute-Égypte",
+      "acceptedAnswers": [
+        "De Haute-Égypte"
+      ],
+      "explanation": "Antoine est un Copte de Haute-Égypte. Les premiers moines, tous ses disciples, sont donc aussi Égyptiens.",
+      "tip": "Antoine le Copte.",
+      "extraExample": {
+        "text": "Aujourd'hui encore, des moines vivent dans le désert de Wadi Natroun, là où vécut saint Macaire.",
+        "translation": "La tradition n'a jamais été interrompue depuis le IVe siècle."
+      },
+      "id": "eg.l30.e07"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.saint_antoine"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel titre porte saint Antoine ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Le père des moines",
+        "Le défenseur de la foi",
+        "Le sceau des martyrs",
+        "Le théologien"
+      ],
+      "answer": "Le père des moines",
+      "acceptedAnswers": [
+        "Le père des moines"
+      ],
+      "explanation": "Antoine est le premier moine du monde : on l'appelle le père des moines. Athanase est le défenseur de la foi et Pierre le sceau des martyrs.",
+      "tip": "Antoine = père des moines.",
+      "extraExample": {
+        "text": "Le monastère de saint Antoine, près de la mer Rouge, est l'un des plus anciens monastères du monde.",
+        "translation": "Il garde le souvenir du père des moines."
+      },
+      "errorPatterns": [
+        {
+          "equals": "Le défenseur de la foi",
+          "category": "word_confusion",
+          "feedback": "C'est le surnom d'Athanase."
+        },
+        {
+          "equals": "Le sceau des martyrs",
+          "category": "word_confusion",
+          "feedback": "C'est le pape Pierre."
+        }
+      ],
+      "id": "eg.l30.e08"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.saint_pacome"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui fonde les premiers monastères cénobitiques en Haute-Égypte ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Saint Pacôme",
+        "Saint Antoine",
+        "Saint Paul",
+        "Arius"
+      ],
+      "answer": "Saint Pacôme",
+      "acceptedAnswers": [
+        "Saint Pacôme"
+      ],
+      "explanation": "Antoine vit seul, mais Pacôme rassemble les moines dans des monastères et leur donne une règle.",
+      "tip": "Pacôme = règle et communauté.",
+      "extraExample": {
+        "text": "Saint Benoît (VIe siècle) a rédigé sa règle de 73 chapitres pour le Mont-Cassin.",
+        "translation": "La vie communautaire d'Égypte a inspiré les moines d'Occident."
+      },
+      "errorPatterns": [
+        {
+          "equals": "Saint Antoine",
+          "category": "word_confusion",
+          "feedback": "Antoine est le modèle de la vie solitaire."
+        }
+      ],
+      "id": "eg.l30.e09"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.vie_cenobitique"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que veut dire « cénobitique » ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Vie en communauté",
+        "Vie en solitude",
+        "Vie dans les villes",
+        "Vie de soldat"
+      ],
+      "answer": "Vie en communauté",
+      "acceptedAnswers": [
+        "Vie en communauté"
+      ],
+      "explanation": "Les moines cénobites vivent ensemble sous une règle, à la différence des ermites.",
+      "tip": "Cénobite = ensemble.",
+      "extraExample": {
+        "text": "Aujourd'hui encore, des moines vivent dans le désert de Wadi Natroun, là où vécut saint Macaire.",
+        "translation": "La tradition n'a jamais été interrompue depuis le IVe siècle."
+      },
+      "id": "eg.l30.e10"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.saint_macaire_le_grand",
+        "eg.v.scete"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Dans quel désert vit saint Macaire le Grand ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Scété",
+        "Le Sinaï",
+        "Nicée",
+        "La Libye"
+      ],
+      "answer": "Scété",
+      "acceptedAnswers": [
+        "Scété"
+      ],
+      "explanation": "Macaire rassemble des disciples à Scété. Son nom reste associé à ce désert.",
+      "tip": "Macaire = Scété.",
+      "extraExample": {
+        "text": "Le monastère de saint Antoine, près de la mer Rouge, est l'un des plus anciens monastères du monde.",
+        "translation": "Il garde le souvenir du père des moines."
+      },
+      "id": "eg.l30.e11"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.monachisme"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète la phrase.",
+      "prompt": "Vers la fin du IVe siècle, ___ moines vivent au désert.",
+      "promptLanguage": "fr",
+      "options": [
+        "plusieurs milliers de",
+        "quelques dizaines de",
+        "trois",
+        "un seul"
+      ],
+      "answer": "plusieurs milliers de",
+      "acceptedAnswers": [
+        "plusieurs milliers de"
+      ],
+      "explanation": "Le monachisme attire les foules : plusieurs milliers de moines vivent au désert, et on vient du monde entier.",
+      "tip": "Des milliers.",
+      "extraExample": {
+        "text": "Saint Benoît (VIe siècle) a rédigé sa règle de 73 chapitres pour le Mont-Cassin.",
+        "translation": "La vie communautaire d'Égypte a inspiré les moines d'Occident."
+      },
+      "id": "eg.l30.e12"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.saint_antoine",
+        "eg.v.saint_pacome",
+        "eg.v.chenoute"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Les trois systèmes monastiques.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Saint Antoine",
+          "right": "la vie solitaire"
+        },
+        {
+          "left": "Saint Pacôme",
+          "right": "la vie en communauté"
+        },
+        {
+          "left": "Saint Chénouté",
+          "right": "une discipline communautaire stricte, plus tard"
+        }
+      ],
+      "answer": "Saint Antoine = la vie solitaire ; Saint Pacôme = la vie en communauté ; Saint Chénouté = une discipline communautaire stricte, plus tard",
+      "acceptedAnswers": [],
+      "explanation": "Antoine (solitude), Pacôme (communauté) et Chénouté (discipline stricte, Ve siècle) sont les trois systèmes monastiques.",
+      "tip": "Solitude, communauté, discipline.",
+      "extraExample": {
+        "text": "Aujourd'hui encore, des moines vivent dans le désert de Wadi Natroun, là où vécut saint Macaire.",
+        "translation": "La tradition n'a jamais été interrompue depuis le IVe siècle."
+      },
+      "id": "eg.l30.e13"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.vie_cenobitique"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Comment appelle-t-on la vie des moines qui vivent ensemble en communauté ?",
+      "promptLanguage": "fr",
+      "answer": "La vie cénobitique",
+      "acceptedAnswers": [
+        "La vie cénobitique",
+        "cénobitique",
+        "vie cénobitique",
+        "cenobitique"
+      ],
+      "explanation": "La vie cénobitique est la vie en communauté. Elle a été organisée par saint Pacôme.",
+      "tip": "Cénobite = communauté.",
+      "extraExample": {
+        "text": "Le monastère de saint Antoine, près de la mer Rouge, est l'un des plus anciens monastères du monde.",
+        "translation": "Il garde le souvenir du père des moines."
+      },
+      "id": "eg.l30.e14"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.jean_cassien"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Quel moine fait connaître la littérature monastique égyptienne à l'Occident ?",
+      "promptLanguage": "fr",
+      "answer": "Jean Cassien",
+      "acceptedAnswers": [
+        "Jean Cassien",
+        "Cassien"
+      ],
+      "explanation": "Jean Cassien relaie en Occident la sagesse des Pères du désert, avant les traductions latines.",
+      "tip": "Cassien = pont vers l'Occident.",
+      "extraExample": {
+        "text": "Saint Benoît (VIe siècle) a rédigé sa règle de 73 chapitres pour le Mont-Cassin.",
+        "translation": "La vie communautaire d'Égypte a inspiré les moines d'Occident."
+      },
+      "id": "eg.l30.e15"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.saint_antoine"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Qui est considéré comme le premier moine du monde ?",
+      "promptLanguage": "fr",
+      "answer": "Saint Antoine",
+      "acceptedAnswers": [
+        "Saint Antoine",
+        "Antoine",
+        "saint Antoine le Grand",
+        "Antoine le Grand"
+      ],
+      "explanation": "Antoine, Copte de Haute-Égypte, est le premier moine du monde.",
+      "tip": "Antoine = premier moine.",
+      "extraExample": {
+        "text": "Aujourd'hui encore, des moines vivent dans le désert de Wadi Natroun, là où vécut saint Macaire.",
+        "translation": "La tradition n'a jamais été interrompue depuis le IVe siècle."
+      },
+      "id": "eg.l30.e16"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.monachisme"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+      "prompt": "Phrase-repère : le monachisme.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "est",
+        "monachisme",
+        "mère",
+        "L'Égypte",
+        "la",
+        "du"
+      ],
+      "answer": "L'Égypte est la mère du monachisme",
+      "acceptedAnswers": [
+        "L'Égypte est la mère du monachisme"
+      ],
+      "explanation": "Antoine, Pacôme et Macaire sont tous égyptiens.",
+      "tip": "Égypte = mère des moines.",
+      "extraExample": {
+        "text": "Le monastère de saint Antoine, près de la mer Rouge, est l'un des plus anciens monastères du monde.",
+        "translation": "Il garde le souvenir du père des moines."
+      },
+      "id": "eg.l30.e17"
+    },
+    {
+      "unitIds": [
+        "eg.g29.athanase",
+        "eg.v.vie_d_antoine",
+        "eg.v.vie_d_antoine"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui raconte la vie de saint Antoine dans un livre envoyé à Rome ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Athanase",
+        "Pacôme",
+        "Constantin",
+        "Jean Cassien"
+      ],
+      "answer": "Athanase",
+      "acceptedAnswers": [
+        "Athanase"
+      ],
+      "explanation": "Athanase écrit La Vie d'Antoine et l'envoie à Rome : le monachisme gagne l'Occident.",
+      "tip": "Athanase raconte Antoine.",
+      "extraExample": {
+        "text": "Saint Benoît (VIe siècle) a rédigé sa règle de 73 chapitres pour le Mont-Cassin.",
+        "translation": "La vie communautaire d'Égypte a inspiré les moines d'Occident."
+      },
+      "id": "eg.l30.e18"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.les_318_eveques",
+        "eg.v.les_318_eveques"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le concile de Nicée réunit, selon la tradition, ___ évêques.",
+      "promptLanguage": "fr",
+      "options": [
+        "318",
+        "150",
+        "200",
+        "12"
+      ],
+      "answer": "318",
+      "acceptedAnswers": [
+        "318"
+      ],
+      "explanation": "Le nombre traditionnel des évêques de Nicée est 318.",
+      "tip": "318 à Nicée.",
+      "extraExample": {
+        "text": "Aujourd'hui encore, des moines vivent dans le désert de Wadi Natroun, là où vécut saint Macaire.",
+        "translation": "La tradition n'a jamais été interrompue depuis le IVe siècle."
+      },
+      "id": "eg.l30.e19"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.constantin",
+        "eg.v.constantin"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel empereur fonde Constantinople en 330 ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Constantin",
+        "Théodose Ier",
+        "Licinius",
+        "Dioclétien"
+      ],
+      "answer": "Constantin",
+      "acceptedAnswers": [
+        "Constantin"
+      ],
+      "explanation": "Constantin fait de Byzance une ville chrétienne et lui donne son nom.",
+      "tip": "Constantin → Constantinople.",
+      "extraExample": {
+        "text": "Le monastère de saint Antoine, près de la mer Rouge, est l'un des plus anciens monastères du monde.",
+        "translation": "Il garde le souvenir du père des moines."
+      },
+      "id": "eg.l30.e20"
+    },
+    {
+      "unitIds": [
+        "eg.g29.athanase",
+        "eg.v.frumentius",
+        "eg.v.frumentius"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Dans quel pays Athanase envoie-t-il Frumentius comme premier évêque ?",
+      "promptLanguage": "fr",
+      "answer": "L'Éthiopie",
+      "acceptedAnswers": [
+        "L'Éthiopie",
+        "Éthiopie",
+        "ethiopie"
+      ],
+      "explanation": "Athanase ordonne Frumentius premier évêque d'Éthiopie vers 341.",
+      "tip": "Frumentius → Éthiopie.",
+      "extraExample": {
+        "text": "Saint Benoît (VIe siècle) a rédigé sa règle de 73 chapitres pour le Mont-Cassin.",
+        "translation": "La vie communautaire d'Égypte a inspiré les moines d'Occident."
+      },
+      "id": "eg.l30.e21"
+    }
+  ]
+}

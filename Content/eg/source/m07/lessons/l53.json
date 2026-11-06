@@ -1,0 +1,584 @@
+{
+ "lessonId": "eg.l53",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglises_orthodoxes_orientales",
+    "eg.v.eglise_orthodoxe_chalcedonienne"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Chaque famille et son exemple",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Églises orthodoxes orientales",
+     "right": "copte, syriaque, arménienne, éthiopienne"
+    },
+    {
+     "left": "Église orthodoxe chalcédonienne",
+     "right": "grecque, russe, serbe, roumaine"
+    },
+    {
+     "left": "Église catholique",
+     "right": "dirigée par le pape à Rome"
+    },
+    {
+     "left": "Protestantisme",
+     "right": "né de la Réforme au XVIe siècle"
+    }
+   ],
+   "answer": "Églises orthodoxes orientales = copte, syriaque, arménienne, éthiopienne ; Église orthodoxe chalcédonienne = grecque, russe, serbe, roumaine ; Église catholique = dirigée par le pape à Rome ; Protestantisme = né de la Réforme au XVIe siècle",
+   "acceptedAnswers": [],
+   "explanation": "Quatre familles : les orthodoxes orientales (dont la nôtre), les chalcédoniennes, les catholiques et les protestants.",
+   "tip": "Orientales = sans Chalcédoine ; chalcédoniennes = avec.",
+   "id": "eg.l53.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien y a-t-il de grandes familles de chrétiens ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Quatre",
+    "Deux",
+    "Six",
+    "Douze"
+   ],
+   "answer": "Quatre",
+   "acceptedAnswers": [
+    "Quatre"
+   ],
+   "explanation": "On distingue les Églises orthodoxes orientales, les orthodoxes chalcédoniens, les catholiques et les protestants.",
+   "tip": "Quatre familles, trois questions.",
+   "extraExample": {
+    "text": "Les Églises ont de nombreuses divisions.",
+    "translation": "Mais ces quatre familles servent de repères."
+   },
+   "id": "eg.l53.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglises_orthodoxes_orientales"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À quelle famille appartient l'Église copte orthodoxe ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les Églises orthodoxes orientales",
+    "L'Église orthodoxe chalcédonienne",
+    "Le protestantisme",
+    "L'Église catholique"
+   ],
+   "answer": "Les Églises orthodoxes orientales",
+   "acceptedAnswers": [
+    "Les Églises orthodoxes orientales"
+   ],
+   "explanation": "Comme les Églises arménienne, syriaque, éthiopienne et malankare, l'Église copte n'a pas reçu Chalcédoine.",
+   "tip": "Orientale ne veut pas dire grecque.",
+   "extraExample": {
+    "text": "Un orthodoxe grec n'est pas un orthodoxe oriental.",
+    "translation": "Les grecs reçoivent Chalcédoine."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Église orthodoxe chalcédonienne",
+     "category": "word_confusion",
+     "feedback": "Les orthodoxes grecs ou russes reçoivent Chalcédoine ; nous, non."
+    }
+   ],
+   "id": "eg.l53.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglises_orthodoxes_orientales"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel concile les Églises orthodoxes orientales n'ont-elles pas reçu ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Chalcédoine (451)",
+    "Nicée (325)",
+    "Constantinople (381)",
+    "Éphèse (431)"
+   ],
+   "answer": "Chalcédoine (451)",
+   "acceptedAnswers": [
+    "Chalcédoine (451)"
+   ],
+   "explanation": "Elles gardent les trois premiers conciles (Nicée, Constantinople, Éphèse) mais refusent Chalcédoine en 451.",
+   "tip": "Trois conciles reçus, Chalcédoine refusé.",
+   "extraExample": {
+    "text": "Nicée, Constantinople et Éphèse sont reçus par tous.",
+    "translation": "Seul Chalcédoine divise."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Éphèse (431)",
+     "category": "word_confusion",
+     "feedback": "Éphèse (431) est reçu par les orthodoxes orientaux, qui lui doivent le titre de Mère de Dieu."
+    }
+   ],
+   "id": "eg.l53.e04"
+  },
+  {
+   "unitIds": [
+    "eg.v.eglise_malankare",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle Église orthodoxe orientale rattache ses origines à l'apôtre Thomas ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Église malankare",
+    "L'Église arménienne",
+    "L'Église tewahedo",
+    "L'Église syriaque"
+   ],
+   "answer": "L'Église malankare",
+   "acceptedAnswers": [
+    "L'Église malankare"
+   ],
+   "explanation": "Les chrétiens du Kerala, en Inde, disent descendre de ceux que Thomas a évangélisés.",
+   "tip": "Thomas va en Inde, comme Marc va à Alexandrie.",
+   "extraExample": {
+    "text": "Thomas est l'apôtre de l'Inde.",
+    "translation": "Marc est l'apôtre de l'Égypte."
+   },
+   "id": "eg.l53.e05"
+  },
+  {
+   "unitIds": [
+    "eg.v.eglise_armenienne_apostolique",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel royaume est le premier à adopter le christianisme comme religion d'État vers 301 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Arménie",
+    "L'Éthiopie",
+    "L'Égypte",
+    "L'Empire romain"
+   ],
+   "answer": "L'Arménie",
+   "acceptedAnswers": [
+    "L'Arménie"
+   ],
+   "explanation": "Saint Grégoire l'Illuminateur convertit le roi d'Arménie vers 301, avant que Constantin ne protège les chrétiens.",
+   "tip": "Arménie : 301.",
+   "extraExample": {
+    "text": "Rome ne devient officiellement chrétienne qu'avec Théodose, en 380.",
+    "translation": "L'Arménie l'a précédée."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Empire romain",
+     "category": "word_confusion",
+     "feedback": "L'Arménie devance Rome : son roi se convertit vers 301."
+    }
+   ],
+   "id": "eg.l53.e06"
+  },
+  {
+   "unitIds": [
+    "eg.v.eglise_tewahedo",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Jusqu'en 1959, l'abouna d'Éthiopie était envoyé depuis ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Alexandrie",
+    "Rome",
+    "Antioche",
+    "Constantinople"
+   ],
+   "answer": "Alexandrie",
+   "acceptedAnswers": [
+    "Alexandrie"
+   ],
+   "explanation": "L'Église éthiopienne dépendait de l'Église copte : le premier évêque, Frumence, fut consacré par saint Athanase.",
+   "tip": "Éthiopie = fille d'Alexandrie.",
+   "extraExample": {
+    "text": "L'Église éthiopienne a eu son propre patriarche à partir de 1959.",
+    "translation": "Le pape copte a alors consacré le premier patriarche éthiopien."
+   },
+   "id": "eg.l53.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_catholique"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui est le chef de l'Église catholique ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le pape, évêque de Rome",
+    "Le patriarche de Constantinople",
+    "Le pape d'Alexandrie",
+    "Le roi d'Angleterre"
+   ],
+   "answer": "Le pape, évêque de Rome",
+   "acceptedAnswers": [
+    "Le pape, évêque de Rome"
+   ],
+   "explanation": "Les catholiques reconnaissent le pape comme chef. C'est le point central qui les distingue des orthodoxes.",
+   "tip": "Catholique = en communion avec le pape.",
+   "extraExample": {
+    "text": "Notre pape est évêque d'Alexandrie.",
+    "translation": "Le pape de Rome est celui des catholiques."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le pape d'Alexandrie",
+     "category": "word_confusion",
+     "feedback": "Le pape d'Alexandrie est le chef de l'Église copte orthodoxe."
+    }
+   ],
+   "id": "eg.l53.e08"
+  },
+  {
+   "unitIds": [
+    "eg.v.eglise_catholique",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que signifie « Église catholique copte » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Elle garde la liturgie copte mais reconnaît le pape",
+    "Une autre appellation de l'Église copte orthodoxe",
+    "Une Église protestante d'Égypte",
+    "L'Église des Coptes de Rome"
+   ],
+   "answer": "Elle garde la liturgie copte mais reconnaît le pape",
+   "acceptedAnswers": [
+    "Elle garde la liturgie copte mais reconnaît le pape"
+   ],
+   "explanation": "Elle garde la liturgie copte mais reconnaît le pape. Elle est distincte de l'Église copte orthodoxe.",
+   "tip": "Copte par le rite, catholique par la communion.",
+   "extraExample": {
+    "text": "L'Église catholique compte 23 Églises orientales.",
+    "translation": "La copte est l'une d'elles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Une autre appellation de l'Église copte orthodoxe",
+     "category": "word_confusion",
+     "feedback": "Non : ce sont deux Églises différentes, l'une reconnaît le pape, l'autre pas."
+    }
+   ],
+   "id": "eg.l53.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_orthodoxe_chalcedonienne"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les orthodoxes chalcédoniens reçoivent ___ conciles.",
+   "promptLanguage": "fr",
+   "options": [
+    "sept",
+    "trois",
+    "neuf",
+    "quinze"
+   ],
+   "answer": "sept",
+   "acceptedAnswers": [
+    "sept"
+   ],
+   "explanation": "Ils reçoivent sept conciles, dont Chalcédoine. Nous en gardons trois.",
+   "tip": "7 contre 3.",
+   "extraExample": {
+    "text": "Le septième concile est Nicée II.",
+    "translation": "Il porte sur les icônes."
+   },
+   "id": "eg.l53.e10"
+  },
+  {
+   "unitIds": [
+    "eg.v.protestantisme",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "De quel grand mouvement du XVIe siècle les protestants sont-ils nés ?",
+   "promptLanguage": "fr",
+   "hint": "Elle commence en 1517.",
+   "answer": "la Réforme",
+   "acceptedAnswers": [
+    "la Réforme",
+    "Réforme"
+   ],
+   "explanation": "La Réforme commence en 1517 avec Luther. Elle donne naissance aux Églises protestantes.",
+   "tip": "Protestant = fils de la Réforme.",
+   "extraExample": {
+    "text": "Luther affiche ses 95 thèses en 1517.",
+    "translation": "C'est la date de départ."
+   },
+   "id": "eg.l53.e11"
+  },
+  {
+   "unitIds": [
+    "eg.v.eglise_tewahedo",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel mot, qui veut dire « rendu un », désigne les Églises d'Éthiopie et d'Érythrée ?",
+   "promptLanguage": "fr",
+   "hint": "Pense à « rendu un ».",
+   "answer": "tewahedo",
+   "acceptedAnswers": [
+    "tewahedo",
+    "Église tewahedo"
+   ],
+   "explanation": "Tewahedo exprime l'union du divin et de l'humain en Christ, c'est-à-dire la foi miaphysite.",
+   "tip": "Tewahedo = rendu un.",
+   "extraExample": {
+    "text": "L'Église éthiopienne se dit « tewahedo ».",
+    "translation": "L'Église érythréenne aussi."
+   },
+   "id": "eg.l53.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : notre famille d'Églises.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "orthodoxes",
+    "reçu",
+    "Les",
+    "Chalcédoine",
+    "pas",
+    "Églises",
+    "n'ont",
+    "orientales"
+   ],
+   "answer": "Les Églises orthodoxes orientales n'ont pas reçu Chalcédoine",
+   "acceptedAnswers": [
+    "Les Églises orthodoxes orientales n'ont pas reçu Chalcédoine"
+   ],
+   "explanation": "Les Églises orthodoxes orientales n'ont pas reçu Chalcédoine, mais gardent Nicée, Constantinople et Éphèse.",
+   "tip": "Orientales = sans Chalcédoine.",
+   "extraExample": {
+    "text": "Les orthodoxes chalcédoniens reçoivent Chalcédoine.",
+    "translation": "La différence est dans le nom."
+   },
+   "id": "eg.l53.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle question sépare surtout les protestants de toutes les autres familles ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Bible seule suffit-elle ?",
+    "Reçoit-on Chalcédoine ?",
+    "Parle-t-on grec ?",
+    "Prie-t-on en copte ?"
+   ],
+   "answer": "La Bible seule suffit-elle ?",
+   "acceptedAnswers": [
+    "La Bible seule suffit-elle ?"
+   ],
+   "explanation": "Les protestants s'appuient sur la Bible seule ; les autres ajoutent la Tradition.",
+   "tip": "Bible seule = signature protestante.",
+   "extraExample": {
+    "text": "Les orthodoxes disent : Écriture et Tradition.",
+    "translation": "Les catholiques aussi."
+   },
+   "id": "eg.l53.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_syriaque_orthodoxe",
+    "eg.v.eglise_tewahedo",
+    "eg.v.eglise_malankare"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Chaque Église et son pays",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Église syriaque orthodoxe",
+     "right": "patriarcat d'Antioche"
+    },
+    {
+     "left": "Église arménienne apostolique",
+     "right": "Arménie"
+    },
+    {
+     "left": "Église tewahedo",
+     "right": "Éthiopie et Érythrée"
+    },
+    {
+     "left": "Église malankare",
+     "right": "Kerala, en Inde"
+    }
+   ],
+   "answer": "Église syriaque orthodoxe = patriarcat d'Antioche ; Église arménienne apostolique = Arménie ; Église tewahedo = Éthiopie et Érythrée ; Église malankare = Kerala, en Inde",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre Églises sont orthodoxes orientales, comme la nôtre.",
+   "tip": "Antioche, Arménie, Éthiopie, Kerala.",
+   "id": "eg.l53.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_catholique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la plus grande famille chrétienne ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Église catholique",
+    "Les orthodoxes orientaux",
+    "Les orthodoxes chalcédoniens",
+    "Les anglicans"
+   ],
+   "answer": "L'Église catholique",
+   "acceptedAnswers": [
+    "L'Église catholique"
+   ],
+   "explanation": "L'Église catholique compte environ 1,4 milliard de fidèles.",
+   "tip": "Un chrétien sur deux est catholique ou presque.",
+   "extraExample": {
+    "text": "Les orthodoxes chalcédoniens dépassent 200 millions.",
+    "translation": "Ils sont loin derrière."
+   },
+   "id": "eg.l53.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_armenienne_apostolique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'Église arménienne est dite « ___ » car elle remonte aux apôtres.",
+   "promptLanguage": "fr",
+   "options": [
+    "apostolique",
+    "évangélique",
+    "byzantine"
+   ],
+   "answer": "apostolique",
+   "acceptedAnswers": [
+    "apostolique"
+   ],
+   "explanation": "Elle fait remonter ses origines aux apôtres Thaddée et Barthélemy.",
+   "tip": "Apostolique = qui remonte aux apôtres.",
+   "extraExample": {
+    "text": "Notre Église aussi est apostolique.",
+    "translation": "Elle remonte à saint Marc."
+   },
+   "id": "eg.l53.e17"
+  },
+  {
+   "unitIds": [
+    "eg.v.eglise_malankare",
+    "eg.g53.familles_eglises"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans quel pays se trouve l'Église malankare ?",
+   "promptLanguage": "fr",
+   "hint": "Elle remonte à l'apôtre Thomas.",
+   "answer": "l'Inde",
+   "acceptedAnswers": [
+    "l'Inde",
+    "Inde",
+    "Inde (Kerala)",
+    "au Kerala",
+    "Kerala"
+   ],
+   "explanation": "L'Église malankare est celle du Kerala, dans le sud-ouest de l'Inde.",
+   "tip": "Malankare = Inde.",
+   "extraExample": {
+    "text": "Le Kerala est au sud-ouest de l'Inde.",
+    "translation": "Thomas y serait venu."
+   },
+   "id": "eg.l53.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Un orthodoxe grec est :",
+   "promptLanguage": "fr",
+   "options": [
+    "Un orthodoxe chalcédonien",
+    "Un orthodoxe oriental",
+    "Un protestant",
+    "Un catholique copte"
+   ],
+   "answer": "Un orthodoxe chalcédonien",
+   "acceptedAnswers": [
+    "Un orthodoxe chalcédonien"
+   ],
+   "explanation": "Les orthodoxes grecs, russes, serbes… reçoivent Chalcédoine : on les appelle chalcédoniens.",
+   "tip": "Grec, russe, serbe = chalcédoniens.",
+   "extraExample": {
+    "text": "Le patriarche de Constantinople est de cette famille.",
+    "translation": "Il reçoit sept conciles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un orthodoxe oriental",
+     "category": "word_confusion",
+     "feedback": "Nous sommes les orthodoxes orientaux ; les Grecs sont chalcédoniens."
+    }
+   ],
+   "id": "eg.l53.e19"
+  }
+ ]
+}

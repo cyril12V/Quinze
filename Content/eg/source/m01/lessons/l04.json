@@ -1,0 +1,594 @@
+{
+ "lessonId": "eg.l04",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g03.etienne_paul_missions",
+    "eg.v.saint_paul"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que devient Saul après sa rencontre avec le Christ ?",
+   "promptLanguage": "fr",
+   "answer": "l'apôtre des nations",
+   "acceptedAnswers": [
+    "l'apôtre des nations"
+   ],
+   "explanation": "Saul le persécuteur devient Paul, l'apôtre des nations : il annonce l'Évangile aux païens.",
+   "tip": "Persécuteur → apôtre.",
+   "extraExample": {
+    "text": "Il voyage avec Barnabé.",
+    "translation": "Il arrive à Rome vers 61."
+   },
+   "options": [
+    "un scribe du Temple",
+    "l'apôtre des nations",
+    "un évêque de Rome"
+   ],
+   "id": "eg.l04.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g03.etienne_paul_missions",
+    "eg.v.paiens"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui sont les païens ?",
+   "promptLanguage": "fr",
+   "answer": "les non-juifs",
+   "acceptedAnswers": [
+    "les non-juifs"
+   ],
+   "explanation": "Les païens sont les non-juifs. La question du concile : doivent-ils devenir juifs pour devenir chrétiens ?",
+   "tip": "Païens = non-juifs.",
+   "extraExample": {
+    "text": "Beaucoup de Grecs accueillent l'Évangile.",
+    "translation": "Ils ne sont pas circoncis."
+   },
+   "options": [
+    "les chrétiens de langue grecque",
+    "les prêtres du Temple",
+    "les non-juifs"
+   ],
+   "id": "eg.l04.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g01.pourquoi_histoire",
+    "eg.v.dogme"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Un dogme est une ___ de foi définie et enseignée par l'Église.",
+   "promptLanguage": "fr",
+   "answer": "vérité",
+   "acceptedAnswers": [
+    "vérité"
+   ],
+   "explanation": "Un dogme formule clairement une vérité essentielle de la foi. Il répond souvent à une erreur.",
+   "tip": "Dogme = vérité de foi.",
+   "extraExample": {
+    "text": "Le concile de Jérusalem pose déjà une question de foi.",
+    "translation": "Il décide d'une règle."
+   },
+   "options": [
+    "hérésie",
+    "fête",
+    "vérité"
+   ],
+   "id": "eg.l04.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g03.etienne_paul_missions",
+    "eg.v.saint_etienne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Vers quelle date Étienne est-il lapidé ?",
+   "promptLanguage": "fr",
+   "answer": "vers 35",
+   "acceptedAnswers": [
+    "vers 35"
+   ],
+   "explanation": "Étienne, premier martyr, est lapidé vers 35. Le concile de Jérusalem suit une quinzaine d'années plus tard.",
+   "tip": "35 Étienne, 49 concile, 67 Pierre et Paul.",
+   "extraExample": {
+    "text": "Paul se convertit à la même époque.",
+    "translation": "Vers 35."
+   },
+   "options": [
+    "vers 35",
+    "vers 49",
+    "vers 67"
+   ],
+   "id": "eg.l04.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.circoncision"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le sujet du conflit d'Antioche ?",
+   "promptLanguage": "fr",
+   "answer": "la circoncision",
+   "acceptedAnswers": [
+    "la circoncision"
+   ],
+   "explanation": "Des judéo-chrétiens exigent la circoncision pour les païens convertis, en vue du salut.",
+   "tip": "Antioche → circoncision.",
+   "extraExample": {
+    "text": "C'est le signe de l'alliance avec Abraham.",
+    "translation": "La Loi de Moïse l'exige."
+   },
+   "options": [
+    "le baptême",
+    "la circoncision",
+    "le calendrier"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "le baptême",
+     "category": "word_confusion",
+     "feedback": "Le baptême est accepté par tous ; ce qui divise est la circoncision."
+    }
+   ],
+   "id": "eg.l04.e05"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.judaisants"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment appelle-t-on les chrétiens d'origine juive ?",
+   "promptLanguage": "fr",
+   "answer": "judéo-chrétiens",
+   "acceptedAnswers": [
+    "judéo-chrétiens"
+   ],
+   "explanation": "Les judéo-chrétiens sont d'origine juive. Ceux qui veulent imposer la circoncision aux païens sont appelés judaïsants.",
+   "tip": "Judéo = juif d'origine.",
+   "extraExample": {
+    "text": "Les hellénistes parlent grec.",
+    "translation": "Ce n'est pas la même chose."
+   },
+   "options": [
+    "hellénistes",
+    "païens",
+    "judéo-chrétiens"
+   ],
+   "id": "eg.l04.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.loi_de_moise",
+    "eg.v.circoncision"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Si la circoncision devenait obligatoire, le christianisme resterait une branche du ___.",
+   "promptLanguage": "fr",
+   "answer": "judaïsme",
+   "acceptedAnswers": [
+    "judaïsme"
+   ],
+   "explanation": "Tout païen devrait d'abord devenir juif pour devenir chrétien : le christianisme resterait une branche du judaïsme.",
+   "tip": "Circoncision obligatoire = judaïsme.",
+   "extraExample": {
+    "text": "Le concile refuse cette solution.",
+    "translation": "Le christianisme devient une foi pour tous."
+   },
+   "options": [
+    "judaïsme",
+    "paganisme",
+    "gnosticisme"
+   ],
+   "id": "eg.l04.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.concile"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment appelle-t-on une assemblée de responsables de l'Église qui décident ensemble ?",
+   "promptLanguage": "fr",
+   "answer": "un concile",
+   "acceptedAnswers": [
+    "un concile"
+   ],
+   "explanation": "Un concile est une assemblée de responsables de l'Église, qui décident ensemble d'une question de foi ou de discipline.",
+   "tip": "Concile = assemblée.",
+   "extraExample": {
+    "text": "Nicée en 325.",
+    "translation": "Constantinople en 381."
+   },
+   "options": [
+    "un concile",
+    "un schisme",
+    "une synagogue"
+   ],
+   "id": "eg.l04.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.concile_de_jerusalem"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Vers quelle année se tient le concile de Jérusalem ? (réponds par un nombre)",
+   "promptLanguage": "fr",
+   "answer": "49",
+   "acceptedAnswers": [
+    "49",
+    "vers 49",
+    "l'an 49",
+    "en 49"
+   ],
+   "explanation": "Le concile de Jérusalem a lieu vers l'an 49, quinze ans environ après la conversion de Paul.",
+   "tip": "49 = 1er concile.",
+   "extraExample": {
+    "text": "Néron persécutera en 64.",
+    "translation": "Jérusalem tombera en 70."
+   },
+   "hint": "Entre 45 et 50.",
+   "id": "eg.l04.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.concile_de_jerusalem"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le premier concile de l'histoire chrétienne ?",
+   "promptLanguage": "fr",
+   "answer": "le concile de Jérusalem",
+   "acceptedAnswers": [
+    "le concile de Jérusalem"
+   ],
+   "explanation": "Le concile de Jérusalem, vers 49, est le premier concile : il précède Nicée de plus de deux siècles.",
+   "tip": "Premier = Jérusalem.",
+   "extraExample": {
+    "text": "Nicée vient en 325.",
+    "translation": "C'est le premier concile œcuménique."
+   },
+   "options": [
+    "le concile d'Antioche",
+    "le concile de Jérusalem",
+    "le concile de Nicée"
+   ],
+   "id": "eg.l04.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.jacques_de_jerusalem"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui conclut le débat au concile de Jérusalem ?",
+   "promptLanguage": "fr",
+   "answer": "Jacques",
+   "acceptedAnswers": [
+    "Jacques"
+   ],
+   "explanation": "Jacques, chef de l'Église de Jérusalem, conclut en s'appuyant sur les prophètes.",
+   "tip": "Le chef de l'Église locale conclut.",
+   "extraExample": {
+    "text": "Il sera martyrisé en 62.",
+    "translation": "Étienne est mort bien avant."
+   },
+   "options": [
+    "Étienne",
+    "Marc",
+    "Jacques"
+   ],
+   "id": "eg.l04.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.saint_pierre"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel apôtre rappelle au concile que Dieu a donné l'Esprit aux païens sans les circoncire ?",
+   "promptLanguage": "fr",
+   "answer": "Pierre",
+   "acceptedAnswers": [
+    "Pierre",
+    "saint Pierre"
+   ],
+   "explanation": "Pierre témoigne : Dieu a donné l'Esprit Saint aux païens. Son autorité pèse dans la décision.",
+   "tip": "Pierre témoigne, Jacques conclut.",
+   "extraExample": {
+    "text": "Pierre avait déjà baptisé un centurion.",
+    "translation": "Il connaît le cas des païens."
+   },
+   "hint": "Le chef des apôtres.",
+   "id": "eg.l04.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que décide le concile de Jérusalem pour les païens convertis ?",
+   "promptLanguage": "fr",
+   "answer": "la circoncision n'est plus obligatoire",
+   "acceptedAnswers": [
+    "la circoncision n'est plus obligatoire"
+   ],
+   "explanation": "Le concile décide que la circoncision n'est plus obligatoire pour les païens convertis : le salut vient du Christ.",
+   "tip": "Pas de circoncision obligatoire.",
+   "extraExample": {
+    "text": "Cela ouvre l'Église à toutes les nations.",
+    "translation": "C'est le sens de Mt 28, 19."
+   },
+   "options": [
+    "ils doivent d'abord devenir juifs",
+    "la circoncision n'est plus obligatoire",
+    "la circoncision devient obligatoire"
+   ],
+   "id": "eg.l04.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "On demande aux païens de s'abstenir du sang, des bêtes étouffées, de l'immoralité et de la viande offerte aux ___.",
+   "promptLanguage": "fr",
+   "answer": "idoles",
+   "acceptedAnswers": [
+    "idoles"
+   ],
+   "explanation": "Ces quatre règles permettent aux païens et aux judéo-chrétiens de vivre ensemble en paix.",
+   "tip": "Idoles : faux dieux.",
+   "extraExample": {
+    "text": "Le sang est sacré pour les Juifs.",
+    "translation": "Les chrétiens d'origine juive en sont choqués."
+   },
+   "options": [
+    "pharisiens",
+    "empereurs",
+    "idoles"
+   ],
+   "id": "eg.l04.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "« Il a paru bon à l'Esprit Saint et à ___ » (Ac 15, 28).",
+   "promptLanguage": "fr",
+   "answer": "nous",
+   "acceptedAnswers": [
+    "nous"
+   ],
+   "explanation": "La lettre du concile exprime la méthode : les responsables décident avec l'Esprit Saint.",
+   "tip": "Esprit Saint + nous.",
+   "extraExample": {
+    "text": "Tous les conciles reprendront cette idée.",
+    "translation": "La décision est collégiale."
+   },
+   "options": [
+    "César",
+    "nous",
+    "Moïse"
+   ],
+   "id": "eg.l04.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.salut"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les judaïsants affirment que la circoncision est nécessaire en vue du ___.",
+   "promptLanguage": "fr",
+   "answer": "salut",
+   "acceptedAnswers": [
+    "salut"
+   ],
+   "explanation": "Pour les judaïsants, il faut être circoncis pour être sauvé. Le concile répond que le salut vient du Christ.",
+   "tip": "Salut = libération par le Christ.",
+   "extraExample": {
+    "text": "Paul répond dans l'épître aux Galates.",
+    "translation": "Le salut est un don."
+   },
+   "options": [
+    "baptême",
+    "voyage",
+    "salut"
+   ],
+   "id": "eg.l04.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que représente la décision du concile pour le christianisme ?",
+   "promptLanguage": "fr",
+   "answer": "la première rupture avec la communauté juive",
+   "acceptedAnswers": [
+    "la première rupture avec la communauté juive"
+   ],
+   "explanation": "Le christianisme n'est plus une branche du judaïsme : c'est le premier signe d'indépendance de la religion qui naît.",
+   "tip": "Première rupture.",
+   "extraExample": {
+    "text": "La rupture sera longue à se réaliser.",
+    "translation": "Mais elle a commencé."
+   },
+   "options": [
+    "la première rupture avec la communauté juive",
+    "un retour au judaïsme",
+    "la fin des conciles"
+   ],
+   "id": "eg.l04.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.circoncision",
+    "eg.v.concile",
+    "eg.v.judaisants",
+    "eg.v.jacques_de_jerusalem"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les acteurs du concile",
+   "promptLanguage": "fr",
+   "answer": "La circoncision = le signe de l'alliance avec Abraham ; Un concile = une assemblée qui décide ensemble ; Les judaïsants = veulent imposer la Loi aux païens ; Jacques = le chef de l'Église de Jérusalem",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre éléments résument le concile : un signe, une assemblée, des partisans de la Loi, un chef qui conclut.",
+   "tip": "Un signe, une assemblée, un conflit, un chef.",
+   "pairs": [
+    {
+     "left": "La circoncision",
+     "right": "le signe de l'alliance avec Abraham"
+    },
+    {
+     "left": "Un concile",
+     "right": "une assemblée qui décide ensemble"
+    },
+    {
+     "left": "Les judaïsants",
+     "right": "veulent imposer la Loi aux païens"
+    },
+    {
+     "left": "Jacques",
+     "right": "le chef de l'Église de Jérusalem"
+    }
+   ],
+   "id": "eg.l04.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.salut",
+    "eg.v.loi_de_moise"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui dit quoi ?",
+   "promptLanguage": "fr",
+   "answer": "Pierre = rappelle que l'Esprit est donné aux païens ; Paul et Barnabé = racontent la conversion des païens ; Jacques = conclut en s'appuyant sur les prophètes ; Une lettre = part à Antioche",
+   "acceptedAnswers": [],
+   "explanation": "Le concile est un vrai dialogue : chacun apporte un témoignage, puis la décision est envoyée aux Églises.",
+   "tip": "Témoigner, conclure, écrire.",
+   "pairs": [
+    {
+     "left": "Pierre",
+     "right": "rappelle que l'Esprit est donné aux païens"
+    },
+    {
+     "left": "Paul et Barnabé",
+     "right": "racontent la conversion des païens"
+    },
+    {
+     "left": "Jacques",
+     "right": "conclut en s'appuyant sur les prophètes"
+    },
+    {
+     "left": "Une lettre",
+     "right": "part à Antioche"
+    }
+   ],
+   "id": "eg.l04.e19"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la décision du concile.",
+   "promptLanguage": "fr",
+   "answer": "Le concile de Jérusalem décide que la circoncision n'est plus obligatoire",
+   "acceptedAnswers": [
+    "Le concile de Jérusalem décide que la circoncision n'est plus obligatoire"
+   ],
+   "explanation": "Vers 49, le concile libère les païens convertis de la circoncision.",
+   "tip": "49 = pas de circoncision obligatoire.",
+   "extraExample": {
+    "text": "Le salut vient du Christ.",
+    "translation": "Pas de la Loi."
+   },
+   "tokens": [
+    "circoncision",
+    "n'est",
+    "plus",
+    "obligatoire",
+    "Le",
+    "concile",
+    "de",
+    "Jérusalem",
+    "décide",
+    "que",
+    "la"
+   ],
+   "id": "eg.l04.e20"
+  },
+  {
+   "unitIds": [
+    "eg.g04.concile_jerusalem",
+    "eg.v.circoncision"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Dans quelle ville de Syrie éclate le conflit sur la circoncision ?",
+   "promptLanguage": "fr",
+   "answer": "Antioche",
+   "acceptedAnswers": [
+    "Antioche",
+    "à Antioche"
+   ],
+   "explanation": "Le conflit éclate à Antioche, où de nombreux païens deviennent chrétiens. Il est porté à Jérusalem.",
+   "tip": "Antioche → Jérusalem.",
+   "extraExample": {
+    "text": "C'est là que naît le nom de chrétiens.",
+    "translation": "Paul y est basé."
+   },
+   "hint": "C'est la ville où l'on dit « chrétiens » pour la première fois.",
+   "id": "eg.l04.e21"
+  }
+ ]
+}

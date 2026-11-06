@@ -149,7 +149,7 @@ struct TrueFalseGameView: View {
     }
 
     private var connector: String {
-        setup.subject == .culture ? "c'est…" : "veut dire…"
+        setup.subject.isTaughtInFrench ? "c'est…" : "veut dire…"
     }
 
     private var cardFill: Color {
@@ -351,7 +351,7 @@ struct AssociationGameView: View {
 
     private var roundCaption: String {
         guard !rounds.isEmpty else { return "" }
-        let target: String = setup.subject == .culture ? "sa définition" : "son sens"
+        let target: String = setup.subject.isTaughtInFrench ? "sa définition" : "son sens"
         return "Manche \(roundIndex + 1)/\(rounds.count) · relie chaque mot à \(target)"
     }
 

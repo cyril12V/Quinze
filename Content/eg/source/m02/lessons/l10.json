@@ -1,0 +1,565 @@
+{
+  "lessonId": "eg.l10",
+  "exercises": [
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Chaque siège et son fondateur",
+      "promptLanguage": "fr",
+      "answer": "Rome = Pierre et Paul ; Alexandrie = saint Marc ; Antioche = Pierre ; Jérusalem = saint Jacques",
+      "acceptedAnswers": [],
+      "explanation": "Chaque siège apostolique remonte à un apôtre : c'est ce qui fait son autorité.",
+      "tip": "Un siège, un fondateur.",
+      "pairs": [
+        {
+          "left": "Rome",
+          "right": "Pierre et Paul"
+        },
+        {
+          "left": "Alexandrie",
+          "right": "saint Marc"
+        },
+        {
+          "left": "Antioche",
+          "right": "Pierre"
+        },
+        {
+          "left": "Jérusalem",
+          "right": "saint Jacques"
+        }
+      ],
+      "id": "eg.l10.e01"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.siege_apostolique"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qu'est-ce qu'un siège apostolique ?",
+      "promptLanguage": "fr",
+      "answer": "un siège dont le premier évêque est un apôtre",
+      "acceptedAnswers": [
+        "un siège dont le premier évêque est un apôtre"
+      ],
+      "explanation": "Le mot siège désigne la « chaise » de l'évêque dans sa ville. Apostolique signifie que la chaîne remonte à un apôtre.",
+      "tip": "Apostolique = qui remonte à un apôtre.",
+      "extraExample": {
+        "text": "Si ton évêque peut remonter la liste de ses prédécesseurs jusqu'à un apôtre, son siège est apostolique.",
+        "translation": "Seules quelques villes le peuvent."
+      },
+      "options": [
+        "un siège fondé par un empereur",
+        "un siège dont le premier évêque est un apôtre",
+        "une ville où les apôtres sont nés",
+        "un tribunal romain"
+      ],
+      "id": "eg.l10.e02"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Pourquoi l'autorité des Églises apostoliques est-elle plus grande en matière de foi ?",
+      "promptLanguage": "fr",
+      "answer": "la relève y a été assurée depuis la source",
+      "acceptedAnswers": [
+        "la relève y a été assurée depuis la source"
+      ],
+      "explanation": "Ces Églises ont reçu la foi directement d'un apôtre et l'ont transmise sans rupture : on est proche de la source.",
+      "tip": "Plus on est près de la source, plus l'eau est pure.",
+      "extraExample": {
+        "text": "Un ruisseau près de sa source est plus limpide qu'à l'embouchure.",
+        "translation": "Même idée pour la foi."
+      },
+      "options": [
+        "elles sont plus riches",
+        "elles sont plus grandes",
+        "la relève y a été assurée depuis la source",
+        "elles sont plus anciennes que les Évangiles"
+      ],
+      "id": "eg.l10.e03"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quels sont les quatre sièges apostoliques ?",
+      "promptLanguage": "fr",
+      "answer": "Rome, Alexandrie, Antioche et Jérusalem",
+      "acceptedAnswers": [
+        "Rome, Alexandrie, Antioche et Jérusalem"
+      ],
+      "explanation": "Chacune des quatre villes a été fondée par un ou plusieurs apôtres.",
+      "tip": "R-A-A-J.",
+      "extraExample": {
+        "text": "Constantinople n'existe pas encore comme grande Église au IIe siècle.",
+        "translation": "Elle sera fondée comme capitale au IVe siècle."
+      },
+      "options": [
+        "Rome, Alexandrie, Constantinople et Carthage",
+        "Rome, Athènes, Antioche et Éphèse",
+        "Alexandrie, Corinthe, Smyrne et Jérusalem",
+        "Rome, Alexandrie, Antioche et Jérusalem"
+      ],
+      "id": "eg.l10.e04"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.saint_marc"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui a fondé l'Église d'Alexandrie ?",
+      "promptLanguage": "fr",
+      "answer": "saint Marc",
+      "acceptedAnswers": [
+        "saint Marc"
+      ],
+      "explanation": "Marc l'évangéliste prêche en Égypte au Ier siècle et devient le premier évêque d'Alexandrie.",
+      "tip": "Marc = Alexandrie.",
+      "extraExample": {
+        "text": "L'Évangile selon saint Marc est lié à l'Église copte.",
+        "translation": "Marc l'a écrit avant de venir en Égypte."
+      },
+      "options": [
+        "saint Marc",
+        "saint Pierre",
+        "saint Paul",
+        "saint Jean"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "saint Pierre",
+          "category": "word_confusion",
+          "feedback": "Pierre est lié à Rome et à Antioche, pas à Alexandrie."
+        }
+      ],
+      "id": "eg.l10.e05"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.siege_d_antioche"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Où les disciples ont-ils été appelés « chrétiens » pour la première fois ?",
+      "promptLanguage": "fr",
+      "answer": "à Antioche",
+      "acceptedAnswers": [
+        "à Antioche"
+      ],
+      "explanation": "Le livre des Actes (11, 26) le raconte : à Antioche, les disciples sont appelés chrétiens.",
+      "tip": "Antioche = premiers « chrétiens ».",
+      "extraExample": {
+        "text": "Le mot « chrétien » vient de « Christ ».",
+        "translation": "Il est d'abord un surnom donné aux disciples de Jésus."
+      },
+      "options": [
+        "à Rome",
+        "à Antioche",
+        "à Alexandrie",
+        "à Jérusalem"
+      ],
+      "id": "eg.l10.e06"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.jacques_de_jerusalem",
+        "eg.v.siege_de_jerusalem"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui est le premier évêque de Jérusalem ?",
+      "promptLanguage": "fr",
+      "answer": "saint Jacques",
+      "acceptedAnswers": [
+        "saint Jacques"
+      ],
+      "explanation": "Jacques, le « frère du Seigneur », dirige la première Église et préside l'assemblée des Actes 15.",
+      "tip": "Jérusalem = Jacques.",
+      "extraExample": {
+        "text": "Jacques parle en dernier à l'assemblée des apôtres.",
+        "translation": "Sa parole tranche."
+      },
+      "options": [
+        "saint Marc",
+        "saint Polycarpe",
+        "saint Jacques",
+        "saint Ignace"
+      ],
+      "id": "eg.l10.e07"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.siege_de_rome"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui sont les fondateurs du siège de Rome ?",
+      "promptLanguage": "fr",
+      "answer": "Pierre et Paul",
+      "acceptedAnswers": [
+        "Pierre et Paul"
+      ],
+      "explanation": "Pierre et Paul sont tous deux morts martyrs à Rome au temps de Néron, d'où le rôle de ces deux apôtres pour cette Église.",
+      "tip": "Rome = les deux piliers.",
+      "extraExample": {
+        "text": "On fête Pierre et Paul ensemble.",
+        "translation": "Ils sont tenus pour les deux colonnes de l'Église romaine."
+      },
+      "options": [
+        "Marc et Jacques",
+        "Jean et André",
+        "Ignace et Clément",
+        "Pierre et Paul"
+      ],
+      "id": "eg.l10.e08"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.pape_d_alexandrie"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Comment appelle-t-on le chef de l'Église d'Alexandrie ?",
+      "promptLanguage": "fr",
+      "answer": "le pape d'Alexandrie",
+      "acceptedAnswers": [
+        "le pape d'Alexandrie"
+      ],
+      "explanation": "Chez les Coptes, l'évêque d'Alexandrie porte le titre de pape, successeur de saint Marc.",
+      "tip": "Pape = père.",
+      "extraExample": {
+        "text": "Saint Démétrios est le XIIe pape d'Alexandrie.",
+        "translation": "Il est élu en 189."
+      },
+      "options": [
+        "le pape d'Alexandrie",
+        "le patriarche de Constantinople",
+        "l'évêque de Rome",
+        "le grand prêtre"
+      ],
+      "id": "eg.l10.e09"
+    },
+    {
+      "unitIds": [
+        "eg.v.succession_apostolique"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Comment s'appelle une suite ininterrompue d'évêques depuis les apôtres ?",
+      "promptLanguage": "fr",
+      "answer": "la succession apostolique",
+      "acceptedAnswers": [
+        "la succession apostolique"
+      ],
+      "explanation": "C'est la chaîne qui garantit la continuité de la foi : on l'a vue dans la leçon précédente.",
+      "tip": "Succession = chaîne.",
+      "extraExample": {
+        "text": "Chaque siège apostolique a sa propre liste d'évêques.",
+        "translation": "Chacune remonte à un apôtre."
+      },
+      "options": [
+        "la tradition orale",
+        "la succession apostolique",
+        "le dépôt de la foi",
+        "le canon"
+      ],
+      "id": "eg.l10.e10"
+    },
+    {
+      "unitIds": [
+        "eg.v.depot_de_la_foi"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Parmi ces trois éléments, lequel est le trésor de la foi confié par les apôtres ?",
+      "promptLanguage": "fr",
+      "answer": "le dépôt de la foi",
+      "acceptedAnswers": [
+        "le dépôt de la foi"
+      ],
+      "explanation": "Les sièges apostoliques sont des gardiens de ce dépôt : ils doivent le transmettre sans l'altérer.",
+      "tip": "Dépôt = trésor à garder.",
+      "extraExample": {
+        "text": "Un évêque est gardien du dépôt de la foi.",
+        "translation": "Il ne le modifie pas."
+      },
+      "options": [
+        "le siège de Rome",
+        "le pape d'Alexandrie",
+        "le dépôt de la foi",
+        "la succession des empereurs"
+      ],
+      "id": "eg.l10.e11"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.siege_d_alexandrie"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le siège de saint Marc est le siège d'___.",
+      "promptLanguage": "fr",
+      "answer": "Alexandrie",
+      "acceptedAnswers": [
+        "Alexandrie"
+      ],
+      "explanation": "Notre Église copte est l'Église d'Alexandrie, fondée par saint Marc.",
+      "tip": "Marc = Alexandrie.",
+      "extraExample": {
+        "text": "Le pape d'Alexandrie est le successeur de saint Marc.",
+        "translation": "Il siège sur le trône de saint Marc."
+      },
+      "options": [
+        "Alexandrie",
+        "Antioche",
+        "Rome",
+        "Jérusalem"
+      ],
+      "id": "eg.l10.e12"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.jacques_de_jerusalem"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "À Jérusalem, le premier évêque est saint ___.",
+      "promptLanguage": "fr",
+      "answer": "Jacques",
+      "acceptedAnswers": [
+        "Jacques"
+      ],
+      "explanation": "Jacques, frère du Seigneur, dirige l'Église-mère.",
+      "tip": "Jérusalem = Jacques.",
+      "extraExample": {
+        "text": "Jacques écrit une lettre qui porte son nom.",
+        "translation": "Elle est dans le Nouveau Testament."
+      },
+      "options": [
+        "Pierre",
+        "Jacques",
+        "Marc",
+        "Paul"
+      ],
+      "id": "eg.l10.e13"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.siege_d_antioche"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le siège d'Antioche est rattaché à l'apôtre ___.",
+      "promptLanguage": "fr",
+      "answer": "Pierre",
+      "acceptedAnswers": [
+        "Pierre"
+      ],
+      "explanation": "Pierre est lié à Antioche et à Rome.",
+      "tip": "Antioche = Pierre.",
+      "extraExample": {
+        "text": "Pierre est aussi lié à Rome.",
+        "translation": "Il y meurt martyr."
+      },
+      "options": [
+        "Marc",
+        "Jacques",
+        "Pierre",
+        "André"
+      ],
+      "id": "eg.l10.e14"
+    },
+    {
+      "unitIds": [
+        "eg.v.heresie"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Un enseignement qui s'écarte de la foi des apôtres est une ___.",
+      "promptLanguage": "fr",
+      "answer": "hérésie",
+      "acceptedAnswers": [
+        "hérésie"
+      ],
+      "explanation": "Rappel de la leçon précédente : l'hérésie déforme la foi reçue des apôtres.",
+      "tip": "Hérésie = choix.",
+      "extraExample": {
+        "text": "Le gnosticisme, le docétisme, le marcionisme, le montanisme sont des hérésies.",
+        "translation": "Ce sont celles du IIe siècle."
+      },
+      "options": [
+        "tradition",
+        "liturgie",
+        "succession",
+        "hérésie"
+      ],
+      "id": "eg.l10.e15"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.saint_marc"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre.",
+      "prompt": "Reconstitue la phrase-repère (eg.l10).",
+      "promptLanguage": "fr",
+      "answer": "Saint Marc fonde l'Église d'Alexandrie",
+      "acceptedAnswers": [
+        "Saint Marc fonde l'Église d'Alexandrie"
+      ],
+      "explanation": "Notre Église remonte à saint Marc, qui l'a fondée au Ier siècle.",
+      "tip": "Marc, Alexandrie, Coptes.",
+      "extraExample": {
+        "text": "Marc est l'auteur du deuxième Évangile.",
+        "translation": "Il vient en Égypte prêcher l'Évangile."
+      },
+      "tokens": [
+        "Marc",
+        "d'Alexandrie",
+        "Saint",
+        "fonde",
+        "l'Église"
+      ],
+      "id": "eg.l10.e16"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Trois sièges et leurs particularités",
+      "promptLanguage": "fr",
+      "answer": "Antioche = là où les disciples sont appelés chrétiens ; Jérusalem = la première Église, avec saint Jacques ; Alexandrie = le siège de saint Marc, Église copte",
+      "acceptedAnswers": [],
+      "explanation": "Chaque siège a son trait distinctif.",
+      "tip": "Un siège, un souvenir.",
+      "pairs": [
+        {
+          "left": "Antioche",
+          "right": "là où les disciples sont appelés chrétiens"
+        },
+        {
+          "left": "Jérusalem",
+          "right": "la première Église, avec saint Jacques"
+        },
+        {
+          "left": "Alexandrie",
+          "right": "le siège de saint Marc, Église copte"
+        }
+      ],
+      "id": "eg.l10.e17"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques",
+        "eg.v.siege_d_alexandrie"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Quelle ville est le siège de saint Marc ?",
+      "promptLanguage": "fr",
+      "answer": "Alexandrie",
+      "acceptedAnswers": [
+        "Alexandrie",
+        "le siège d'Alexandrie"
+      ],
+      "explanation": "Saint Marc fonde l'Église d'Alexandrie.",
+      "tip": "Marc → Alexandrie.",
+      "extraExample": {
+        "text": "Alexandrie est en Égypte.",
+        "translation": "Elle est un grand centre intellectuel."
+      },
+      "id": "eg.l10.e18"
+    },
+    {
+      "unitIds": [
+        "eg.v.heresie"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Cite une des quatre hérésies du IIe siècle.",
+      "promptLanguage": "fr",
+      "answer": "le gnosticisme",
+      "acceptedAnswers": [
+        "le gnosticisme",
+        "gnosticisme",
+        "le docétisme",
+        "docétisme",
+        "docetisme",
+        "le marcionisme",
+        "marcionisme",
+        "le montanisme",
+        "montanisme"
+      ],
+      "explanation": "Rappel : gnosticisme, docétisme, marcionisme, montanisme.",
+      "tip": "G-D-Ma-Mo.",
+      "extraExample": {
+        "text": "Chaque hérésie sera expliquée en détail.",
+        "translation": "Tu les découvriras une à une."
+      },
+      "id": "eg.l10.e19"
+    },
+    {
+      "unitIds": [
+        "eg.g10.sieges_apostoliques"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Combien de sièges apostoliques le IIe siècle reconnaît-il ?",
+      "promptLanguage": "fr",
+      "answer": "quatre",
+      "acceptedAnswers": [
+        "quatre",
+        "4"
+      ],
+      "explanation": "Rome, Alexandrie, Antioche, Jérusalem.",
+      "tip": "Quatre sièges, quatre villes.",
+      "extraExample": {
+        "text": "La liste est stable.",
+        "translation": "On y ajoutera Constantinople plus tard, mais ce n'est pas un siège apostolique."
+      },
+      "id": "eg.l10.e20"
+    }
+  ]
+}

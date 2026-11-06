@@ -1,0 +1,475 @@
+{
+ "module": {
+  "id": 5,
+  "title": "Le cinquième siècle",
+  "description": "De Nestorius à Chalcédoine : les conciles d'Éphèse et de Chalcédoine, saint Cyrille et saint Dioscore, et pourquoi l'Église copte confesse « une seule nature du Verbe incarné »."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g33.cinq_sieges",
+   "category": "knowledge",
+   "title": "L'Église unie et ses cinq sièges",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g34.nestorius",
+   "category": "knowledge",
+   "title": "Nestorius et le nestorianisme",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g33.cinq_sieges"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g35.cyrille",
+   "category": "knowledge",
+   "title": "Saint Cyrille d'Alexandrie et sa formule",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g34.nestorius"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g36.ephese_431",
+   "category": "knowledge",
+   "title": "Le concile d'Éphèse (431)",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g35.cyrille"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g37.apres_ephese",
+   "category": "knowledge",
+   "title": "La paix fragile (431-446)",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g36.ephese_431"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g38.eutyches",
+   "category": "knowledge",
+   "title": "Eutychès et le monophysisme",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g37.apres_ephese"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g39.ephese_449",
+   "category": "knowledge",
+   "title": "Le deuxième concile d'Éphèse (449)",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g38.eutyches"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g40.chalcedoine",
+   "category": "knowledge",
+   "title": "Le concile de Chalcédoine (451)",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g39.ephese_449"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l33",
+   "sequence": 33,
+   "title": "Cinq sièges, une seule Église",
+   "description": "Au début du Ve siècle : les cinq sièges apostoliques, les trois premiers conciles et la jalousie qui couve autour d'Alexandrie.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g33.cinq_sieges",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le patriarche",
+     "slug": "patriarche",
+     "translation": "évêque d'un grand siège",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le canon",
+     "slug": "canon_ecclesiastique",
+     "translation": "règle d'organisation votée par un concile",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la nouvelle Rome",
+     "slug": "nouvelle_rome",
+     "translation": "nom donné à Constantinople, capitale de l'empereur",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "le canon 3 de 381",
+     "slug": "canon_3_de_381",
+     "translation": "règle donnant à Constantinople la deuxième place après Rome",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "les trois premiers conciles",
+     "slug": "trois_premiers_conciles",
+     "translation": "Nicée 325, Constantinople 381, Éphèse 431",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l34",
+   "sequence": 34,
+   "title": "Nestorius et le titre qui fâche",
+   "description": "Nestorius devient patriarche de Constantinople en 428, refuse le titre Théotokos et sépare le Verbe de l'homme Jésus.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g34.nestorius",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g33.cinq_sieges"
+   ],
+   "vocabulary": [
+    {
+     "word": "Nestorius",
+     "slug": "nestorius",
+     "translation": "patriarche de Constantinople (428-431), condamné à Éphèse",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le nestorianisme",
+     "slug": "nestorianisme",
+     "translation": "doctrine qui sépare le Verbe et l'homme Jésus",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Théotokos",
+     "slug": "theotokos",
+     "translation": "« celle qui enfante Dieu », mère de Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Christotokos",
+     "slug": "christotokos",
+     "translation": "« mère du Christ », titre préféré par Nestorius",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Verbe",
+     "slug": "le_verbe",
+     "translation": "le Fils de Dieu, avant son incarnation",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'incarnation",
+     "slug": "incarnation",
+     "translation": "moment où le Verbe de Dieu se fait homme",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'école d'Antioche",
+     "slug": "ecole_d_antioche",
+     "translation": "courant théologique qui distingue les natures du Christ",
+     "partOfSpeech": "organization"
+    }
+   ]
+  },
+  {
+   "id": "eg.l35",
+   "sequence": 35,
+   "title": "Saint Cyrille, le Pilier de la foi",
+   "description": "Le 24e pape d'Alexandrie défend le titre Théotokos et formule la foi en « une seule nature du Verbe incarné ».",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g35.cyrille",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g34.nestorius",
+    "eg.g33.cinq_sieges"
+   ],
+   "vocabulary": [
+    {
+     "word": "saint Cyrille d'Alexandrie",
+     "slug": "cyrille_d_alexandrie",
+     "translation": "24e pape d'Alexandrie (412-444), Pilier de la foi",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le Pilier de la foi",
+     "slug": "pilier_de_la_foi",
+     "translation": "surnom de saint Cyrille dans la tradition copte",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la formule de Cyrille",
+     "slug": "formule_de_cyrille",
+     "translation": "« une seule nature du Verbe incarné »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les douze anathèmes",
+     "slug": "douze_anathemes",
+     "translation": "douze condamnations jointes à la lettre de Cyrille à Nestorius",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Célestin Ier",
+     "slug": "celestin_ier",
+     "translation": "pape de Rome qui soutient Cyrille",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'unité du Christ",
+     "slug": "unite_du_christ",
+     "translation": "un seul Christ, Dieu et homme à la fois",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l36",
+   "sequence": 36,
+   "title": "Éphèse 431 : Nestorius condamné",
+   "description": "Le troisième concile œcuménique : qui l'a convoqué, qui l'a présidé et ce qu'il a décidé.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g36.ephese_431",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g35.cyrille",
+    "eg.g34.nestorius"
+   ],
+   "vocabulary": [
+    {
+     "word": "le concile d'Éphèse (431)",
+     "slug": "concile_ephese_431",
+     "translation": "troisième concile œcuménique, qui condamne Nestorius",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Théodose II",
+     "slug": "theodose_ii",
+     "translation": "empereur d'Orient (408-450), petit-fils de Théodose Ier",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Éphèse",
+     "slug": "ephese",
+     "translation": "grande ville d'Asie Mineure, lieu de deux conciles",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "le pélagianisme",
+     "slug": "pelagianisme",
+     "translation": "enseignement de Pélage : l'homme se sauve seul, sans la grâce",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Jean d'Antioche",
+     "slug": "jean_d_antioche",
+     "translation": "patriarche d'Antioche, arrivé en retard à Éphèse",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l37",
+   "sequence": 37,
+   "title": "Après Éphèse : la paix fragile",
+   "description": "La formule d'union de 433, l'Église de l'Orient, la mort de Cyrille en 444 et l'arrivée de Dioscore et de Flavien.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g37.apres_ephese",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g36.ephese_431",
+    "eg.g35.cyrille"
+   ],
+   "vocabulary": [
+    {
+     "word": "la formule d'union (433)",
+     "slug": "formule_d_union",
+     "translation": "compromis entre Cyrille et Jean d'Antioche",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'Église de l'Orient",
+     "slug": "eglise_de_l_orient",
+     "translation": "Église née en Perse chez les partisans de Nestorius",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "la Perse",
+     "slug": "perse",
+     "translation": "royaume voisin de l'Empire romain, à l'est",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Flavien",
+     "slug": "flavien",
+     "translation": "patriarche de Constantinople (446-449)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "saint Dioscore",
+     "slug": "dioscore",
+     "translation": "25e pape d'Alexandrie (444-454)",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l38",
+   "sequence": 38,
+   "title": "Eutychès : quand l'humanité disparaît",
+   "description": "Le moine Eutychès prétend que l'humanité du Christ est absorbée par sa divinité ; Flavien le condamne en 448.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g38.eutyches",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g37.apres_ephese",
+    "eg.g36.ephese_431"
+   ],
+   "vocabulary": [
+    {
+     "word": "Eutychès",
+     "slug": "eutyches",
+     "translation": "archimandrite de Constantinople, condamné en 448",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le monophysisme",
+     "slug": "monophysisme",
+     "translation": "doctrine d'Eutychès : une seule nature, la divine",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un archimandrite",
+     "slug": "archimandrite",
+     "translation": "chef d'un monastère",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le synode de Constantinople (448)",
+     "slug": "synode_de_constantinople_448",
+     "translation": "concile local qui condamne Eutychès",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'humanité absorbée",
+     "slug": "humanite_absorbee",
+     "translation": "l'humanité du Christ qui disparaît dans la divinité",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l39",
+   "sequence": 39,
+   "title": "Éphèse II (449) : le concile de la discorde",
+   "description": "Dioscore préside le second concile d'Éphèse : Eutychès est réhabilité, Flavien déposé et le Tome de Léon n'est pas lu.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g39.ephese_449",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g38.eutyches",
+    "eg.g37.apres_ephese"
+   ],
+   "vocabulary": [
+    {
+     "word": "le deuxième concile d'Éphèse (449)",
+     "slug": "concile_ephese_449",
+     "translation": "concile présidé par Dioscore qui réhabilite Eutychès",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Léon Ier",
+     "slug": "leon_ier",
+     "translation": "évêque de Rome (440-461)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le Tome de Léon",
+     "slug": "tome_de_leon",
+     "translation": "lettre dogmatique de Léon Ier sur les deux natures",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "le brigandage d'Éphèse",
+     "slug": "brigandage_d_ephese",
+     "translation": "nom donné par Léon à Éphèse II",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Marcien",
+     "slug": "marcien",
+     "translation": "empereur d'Orient (450-457), qui convoque Chalcédoine",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Pulchérie",
+     "slug": "pulcherie",
+     "translation": "impératrice, sœur de Théodose II",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l40",
+   "sequence": 40,
+   "title": "Chalcédoine 451 : le premier schisme",
+   "description": "Le concile de Chalcédoine : qui le convoque, ce qu'il décide, pourquoi l'Église copte le refuse et la rupture qui suit.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g40.chalcedoine",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g39.ephese_449",
+    "eg.g38.eutyches"
+   ],
+   "vocabulary": [
+    {
+     "word": "le concile de Chalcédoine (451)",
+     "slug": "concile_chalcedoine",
+     "translation": "quatrième concile pour les Églises chalcédoniennes, rejeté par l'Église copte",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Chalcédoine",
+     "slug": "chalcedoine",
+     "translation": "ville d'Asie Mineure, en face de Constantinople",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "la définition de Chalcédoine",
+     "slug": "definition_de_chalcedoine",
+     "translation": "formule : un seul Christ reconnu en deux natures",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les deux natures",
+     "slug": "deux_natures",
+     "translation": "langage de Chalcédoine : divine et humaine, distinguées après l'union",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le canon 28",
+     "slug": "canon_28",
+     "translation": "règle donnant à Constantinople la seconde place après Rome",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le premier schisme",
+     "slug": "premier_schisme",
+     "translation": "rupture de l'Église après Chalcédoine",
+     "partOfSpeech": "event"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,680 @@
+{
+ "lessonId": "eg.l57",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.sola_scriptura",
+    "eg.v.sola_fide",
+    "eg.v.sainte_tradition"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots-clés de la Réforme",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "sola scriptura",
+     "right": "l'Écriture seule"
+    },
+    {
+     "left": "sola fide",
+     "right": "le salut par la foi seule"
+    },
+    {
+     "left": "la Réforme",
+     "right": "mouvement né en 1517"
+    },
+    {
+     "left": "Sainte Tradition",
+     "right": "enseignement des apôtres transmis dans l'Église"
+    }
+   ],
+   "answer": "sola scriptura = l'Écriture seule ; sola fide = le salut par la foi seule ; la Réforme = mouvement né en 1517 ; Sainte Tradition = enseignement des apôtres transmis dans l'Église",
+   "acceptedAnswers": [],
+   "explanation": "Sola scriptura et sola fide sont les deux principes protestants ; la Sainte Tradition est ce que nous gardons en plus.",
+   "tip": "Latin : seule.",
+   "id": "eg.l57.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.martin_luther"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui est à l'origine de la Réforme ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Martin Luther",
+    "Jean Calvin",
+    "Henri VIII",
+    "Arius"
+   ],
+   "answer": "Martin Luther",
+   "acceptedAnswers": [
+    "Martin Luther"
+   ],
+   "explanation": "Luther, moine de Wittenberg, lance la Réforme en 1517.",
+   "tip": "Luther : 1517.",
+   "extraExample": {
+    "text": "Calvin arrive après, à Genève.",
+    "translation": "Henri VIII rompt avec Rome en 1534."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Jean Calvin",
+     "category": "word_confusion",
+     "feedback": "Calvin est un réformateur de la génération suivante, à Genève."
+    }
+   ],
+   "id": "eg.l57.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.theses_de_wittenberg"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Selon la tradition, Luther affiche ses 95 thèses en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1517",
+    "1054",
+    "1534",
+    "1870"
+   ],
+   "answer": "1517",
+   "acceptedAnswers": [
+    "1517"
+   ],
+   "explanation": "31 octobre 1517 : début symbolique de la Réforme.",
+   "tip": "1517 : Réforme.",
+   "extraExample": {
+    "text": "1534 : Henri VIII.",
+    "translation": "1536 : l'Institution de Calvin."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1534",
+     "category": "word_confusion",
+     "feedback": "1534 est la rupture d'Henri VIII avec Rome."
+    }
+   ],
+   "id": "eg.l57.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.theses_de_wittenberg"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Contre quelle pratique Luther proteste-t-il d'abord ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La vente des indulgences",
+    "Le baptême des enfants",
+    "La liturgie en latin",
+    "Le mariage des prêtres"
+   ],
+   "answer": "La vente des indulgences",
+   "acceptedAnswers": [
+    "La vente des indulgences"
+   ],
+   "explanation": "Luther s'indigne de la vente des indulgences pour racheter ses péchés.",
+   "tip": "Indulgences : l'étincelle.",
+   "extraExample": {
+    "text": "Les indulgences réduisent la peine du péché.",
+    "translation": "Elles sont liées au purgatoire."
+   },
+   "id": "eg.l57.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.jean_calvin"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans quelle ville Jean Calvin organise-t-il une Église réformée ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Genève",
+    "Wittenberg",
+    "Londres",
+    "Rome"
+   ],
+   "answer": "Genève",
+   "acceptedAnswers": [
+    "Genève"
+   ],
+   "explanation": "Calvin s'établit à Genève et publie en 1536 l'Institution de la religion chrétienne.",
+   "tip": "Calvin : Genève.",
+   "extraExample": {
+    "text": "Luther était à Wittenberg.",
+    "translation": "Henri VIII régnait à Londres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Wittenberg",
+     "category": "word_confusion",
+     "feedback": "Wittenberg est la ville de Luther."
+    }
+   ],
+   "id": "eg.l57.e05"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.reforme"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 1534, le roi ___ rompt avec Rome : c'est l'origine des anglicans.",
+   "promptLanguage": "fr",
+   "options": [
+    "Henri VIII",
+    "Louis XIV",
+    "Charles Quint",
+    "Constantin"
+   ],
+   "answer": "Henri VIII",
+   "acceptedAnswers": [
+    "Henri VIII"
+   ],
+   "explanation": "Henri VIII rompt avec Rome en 1534. L'Église d'Angleterre naît de là.",
+   "tip": "Henri VIII : 1534.",
+   "extraExample": {
+    "text": "Charles Quint était empereur à l'époque.",
+    "translation": "Il combat Luther."
+   },
+   "id": "eg.l57.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.sola_scriptura"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire sola scriptura ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Écriture seule",
+    "La foi seule",
+    "La grâce seule",
+    "La Tradition seule"
+   ],
+   "answer": "L'Écriture seule",
+   "acceptedAnswers": [
+    "L'Écriture seule"
+   ],
+   "explanation": "Sola scriptura, « l'Écriture seule » : la Bible est la seule autorité pour les protestants.",
+   "tip": "Scriptura : écriture.",
+   "extraExample": {
+    "text": "Sola fide veut dire « par la foi seule ».",
+    "translation": "Ce sont deux principes différents."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La foi seule",
+     "category": "word_confusion",
+     "feedback": "C'est sola fide."
+    }
+   ],
+   "id": "eg.l57.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.sainte_tradition"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Sur quoi l'Église copte s'appuie-t-elle ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Écriture et la Sainte Tradition",
+    "L'Écriture seule",
+    "La Tradition seule",
+    "Le pape de Rome"
+   ],
+   "answer": "L'Écriture et la Sainte Tradition",
+   "acceptedAnswers": [
+    "L'Écriture et la Sainte Tradition"
+   ],
+   "explanation": "La Bible est née dans l'Église, qui en a reconnu les livres. Écriture et Tradition viennent du même Esprit.",
+   "tip": "Copte : les deux.",
+   "extraExample": {
+    "text": "Paul parle de la parole et de la lettre.",
+    "translation": "2 Thessaloniciens 2, 15."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Écriture seule",
+     "category": "word_confusion",
+     "feedback": "C'est le principe protestant, pas le nôtre."
+    }
+   ],
+   "id": "eg.l57.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.sainte_tradition"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel passage de Paul demande de garder les traditions reçues ?",
+   "promptLanguage": "fr",
+   "options": [
+    "2 Thessaloniciens 2, 15",
+    "Romains 3, 28",
+    "Jacques 2, 24",
+    "Matthieu 16, 18"
+   ],
+   "answer": "2 Thessaloniciens 2, 15",
+   "acceptedAnswers": [
+    "2 Thessaloniciens 2, 15"
+   ],
+   "explanation": "Paul écrit : gardez les traditions que vous avez reçues, par la parole ou par une lettre.",
+   "tip": "2 Thessaloniciens 2, 15.",
+   "extraExample": {
+    "text": "Romains 3, 28 est le verset de Luther.",
+    "translation": "Jacques 2, 24 est celui qui unit foi et œuvres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Romains 3, 28",
+     "category": "word_confusion",
+     "feedback": "C'est le verset de Luther sur la foi."
+    }
+   ],
+   "id": "eg.l57.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.deuterocanoniques"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Combien de livres comporte l'Ancien Testament de la Bible protestante ?",
+   "promptLanguage": "fr",
+   "hint": "C'est un nombre entre 30 et 40.",
+   "answer": "39",
+   "acceptedAnswers": [
+    "39",
+    "trente-neuf",
+    "39 livres"
+   ],
+   "explanation": "Les protestants gardent les 39 livres de la Bible hébraïque ; les Coptes gardent aussi les deutérocanoniques.",
+   "tip": "39 livres.",
+   "extraExample": {
+    "text": "Le Nouveau Testament compte 27 livres pour tous les chrétiens.",
+    "translation": "Aucune Église ne le change."
+   },
+   "id": "eg.l57.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.deuterocanoniques"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quels livres l'Église copte garde-t-elle en plus des protestants ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tobie, Judith, la Sagesse",
+    "Le Cantique des cantiques",
+    "Les Psaumes",
+    "L'Apocalypse"
+   ],
+   "answer": "Tobie, Judith, la Sagesse",
+   "acceptedAnswers": [
+    "Tobie, Judith, la Sagesse"
+   ],
+   "explanation": "Les deutérocanoniques (Tobie, Judith, Sagesse, Siracide, Baruch, Maccabées) viennent de la Septante.",
+   "tip": "Deutéro : second.",
+   "extraExample": {
+    "text": "Le Cantique et les Psaumes sont dans toutes les Bibles.",
+    "translation": "L'Apocalypse aussi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les Psaumes",
+     "category": "word_confusion",
+     "feedback": "Les Psaumes sont dans toutes les Bibles chrétiennes."
+    }
+   ],
+   "id": "eg.l57.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.deuterocanoniques"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle Bible grecque, traduite à Alexandrie, contient ces livres ?",
+   "promptLanguage": "fr",
+   "options": [
+    "La Septante",
+    "La Vulgate",
+    "La Bible de Luther",
+    "La Peshitta"
+   ],
+   "answer": "La Septante",
+   "acceptedAnswers": [
+    "La Septante"
+   ],
+   "explanation": "La Septante, traduite à Alexandrie, contient les deutérocanoniques. Elle est la Bible des premiers chrétiens grecs.",
+   "tip": "Septante = Alexandrie.",
+   "extraExample": {
+    "text": "La Vulgate est la Bible latine de saint Jérôme.",
+    "translation": "La Peshitta est la Bible syriaque."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La Vulgate",
+     "category": "word_confusion",
+     "feedback": "La Vulgate est la traduction latine de saint Jérôme."
+    }
+   ],
+   "id": "eg.l57.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.sola_fide"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire sola fide ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le salut par la foi seule",
+    "L'Écriture seule",
+    "La Tradition seule",
+    "Les œuvres seules"
+   ],
+   "answer": "Le salut par la foi seule",
+   "acceptedAnswers": [
+    "Le salut par la foi seule"
+   ],
+   "explanation": "Sola fide, « par la foi seule » : c'est le cœur du protestantisme selon Luther (Romains 3, 28).",
+   "tip": "Fide : foi.",
+   "extraExample": {
+    "text": "Luther cite Romains 3, 28.",
+    "translation": "Il refuse qu'on achète le salut."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les œuvres seules",
+     "category": "word_confusion",
+     "feedback": "Personne ne soutient cela, ni nous ni les protestants."
+    }
+   ],
+   "id": "eg.l57.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.sola_fide"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel verset l'Église copte cite-t-elle pour unir foi et œuvres ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Jacques 2, 24",
+    "Romains 3, 28",
+    "Luc 1, 47",
+    "Jean 15, 26"
+   ],
+   "answer": "Jacques 2, 24",
+   "acceptedAnswers": [
+    "Jacques 2, 24"
+   ],
+   "explanation": "Jacques 2, 24 : l'homme est justifié par les œuvres et non par la foi seulement.",
+   "tip": "Jacques = œuvres.",
+   "extraExample": {
+    "text": "Jacques 2, 17 : la foi sans les œuvres est morte.",
+    "translation": "Les œuvres sont le fruit de la grâce."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Romains 3, 28",
+     "category": "word_confusion",
+     "feedback": "Romains 3, 28 est le verset de Luther."
+    }
+   ],
+   "id": "eg.l57.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.sola_fide"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pour les Coptes, la foi et les ___ vont ensemble.",
+   "promptLanguage": "fr",
+   "options": [
+    "œuvres",
+    "indulgences",
+    "thèses"
+   ],
+   "answer": "œuvres",
+   "acceptedAnswers": [
+    "œuvres",
+    "oeuvres",
+    "les œuvres"
+   ],
+   "explanation": "Les œuvres de charité sont le fruit de la grâce et de la foi.",
+   "tip": "Foi + œuvres.",
+   "extraExample": {
+    "text": "Le salut est un chemin.",
+    "translation": "La grâce vient d'abord."
+   },
+   "id": "eg.l57.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle Église protestante ne baptise que les adultes qui croient ?",
+   "promptLanguage": "fr",
+   "hint": "Son nom vient du baptême.",
+   "answer": "baptistes",
+   "acceptedAnswers": [
+    "baptistes",
+    "les baptistes",
+    "baptiste",
+    "l'Église baptiste"
+   ],
+   "explanation": "Les baptistes ne baptisent que les adultes qui croient, alors que les luthériens et les anglicans baptisent les enfants.",
+   "tip": "Baptiste : baptême des croyants.",
+   "extraExample": {
+    "text": "Les Coptes baptisent les enfants.",
+    "translation": "Souvent à 40 jours pour un garçon."
+   },
+   "id": "eg.l57.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : la foi copte.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "les",
+    "la",
+    "Pour",
+    "vont",
+    "Bible",
+    "Coptes",
+    "la",
+    "et",
+    "ensemble",
+    "Tradition"
+   ],
+   "answer": "Pour les Coptes la Bible et la Tradition vont ensemble",
+   "acceptedAnswers": [
+    "Pour les Coptes la Bible et la Tradition vont ensemble"
+   ],
+   "explanation": "Pour les Coptes, la Bible et la Tradition vont ensemble.",
+   "tip": "Bible + Tradition.",
+   "extraExample": {
+    "text": "Les protestants disent : la Bible seule.",
+    "translation": "Voilà la différence."
+   },
+   "id": "eg.l57.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Chaque personnage et sa ville ou son pays",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Luther",
+     "right": "Wittenberg"
+    },
+    {
+     "left": "Calvin",
+     "right": "Genève"
+    },
+    {
+     "left": "Henri VIII",
+     "right": "Angleterre"
+    },
+    {
+     "left": "la Septante",
+     "right": "Alexandrie"
+    }
+   ],
+   "answer": "Luther = Wittenberg ; Calvin = Genève ; Henri VIII = Angleterre ; la Septante = Alexandrie",
+   "acceptedAnswers": [],
+   "explanation": "Luther à Wittenberg, Calvin à Genève, Henri VIII en Angleterre, la Septante à Alexandrie.",
+   "tip": "Quatre lieux, quatre noms.",
+   "id": "eg.l57.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.immaculee_conception"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — En quelle année Pie IX définit-il l'Immaculée Conception ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1854",
+    "1870",
+    "1950",
+    "1274"
+   ],
+   "answer": "1854",
+   "acceptedAnswers": [
+    "1854"
+   ],
+   "explanation": "Pie IX proclame l'Immaculée Conception de Marie le 8 décembre 1854.",
+   "tip": "1854 : Marie.",
+   "extraExample": {
+    "text": "1950 est l'Assomption.",
+    "translation": "1870 est l'infaillibilité."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1870",
+     "category": "word_confusion",
+     "feedback": "1870 est l'infaillibilité du pape."
+    }
+   ],
+   "id": "eg.l57.e19"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.schisme_de_1054"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Les excommunications de 1054 opposent Rome et ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Constantinople",
+    "Alexandrie",
+    "Genève",
+    "Wittenberg"
+   ],
+   "answer": "Constantinople",
+   "acceptedAnswers": [
+    "Constantinople"
+   ],
+   "explanation": "En 1054, le légat du pape et le patriarche de Constantinople s'excommunient.",
+   "tip": "1054 : Rome et Constantinople.",
+   "extraExample": {
+    "text": "Elles sont levées en 1965.",
+    "translation": "Paul VI et Athénagoras."
+   },
+   "id": "eg.l57.e20"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.melkites"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Comment appelle-t-on, depuis 451, les chrétiens d'Égypte du parti de l'empereur ?",
+   "promptLanguage": "fr",
+   "hint": "Le mot veut dire « roi ».",
+   "answer": "melkites",
+   "acceptedAnswers": [
+    "melkites",
+    "les melkites",
+    "melkite"
+   ],
+   "explanation": "Melkite vient du mot « roi » : le parti de l'empereur, fidèle à Chalcédoine.",
+   "tip": "Melkite = royal.",
+   "extraExample": {
+    "text": "Le patriarche grec d'Alexandrie en descend.",
+    "translation": "Notre pape descend de Dioscore."
+   },
+   "id": "eg.l57.e21"
+  }
+ ]
+}

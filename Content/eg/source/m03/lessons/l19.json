@@ -1,0 +1,592 @@
+{
+  "lessonId": "eg.l19",
+  "exercises": [
+    {
+      "id": "eg.l19.e01",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.diocletien",
+        "eg.v.grande_persecution_303"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Les dates de Dioclétien",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "284",
+          "right": "accession de Dioclétien et an 1 du calendrier copte"
+        },
+        {
+          "left": "303",
+          "right": "grande persécution"
+        },
+        {
+          "left": "vers 274",
+          "right": "neuvième persécution"
+        },
+        {
+          "left": "250",
+          "right": "édit de Dèce"
+        }
+      ],
+      "answer": "284 = accession de Dioclétien et an 1 du calendrier copte ; 303 = grande persécution ; vers 274 = neuvième persécution ; 250 = édit de Dèce",
+      "acceptedAnswers": [],
+      "explanation": "284 : début du règne de Dioclétien ; 303 : sommet de la persécution ; les autres dates sont celles des vagues précédentes.",
+      "tip": "284 = début, 303 = sommet."
+    },
+    {
+      "id": "eg.l19.e02",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.ere_des_martyrs",
+        "eg.v.nayrouz",
+        "eg.v.dixieme_persecution"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Notions coptes liées à Dioclétien",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "L'ère des martyrs",
+          "right": "le calendrier copte"
+        },
+        {
+          "left": "Le Nayrouz",
+          "right": "le jour de l'an copte"
+        },
+        {
+          "left": "La dixième persécution",
+          "right": "celle de Dioclétien"
+        },
+        {
+          "left": "La grande persécution",
+          "right": "en 303"
+        }
+      ],
+      "answer": "L'ère des martyrs = le calendrier copte ; Le Nayrouz = le jour de l'an copte ; La dixième persécution = celle de Dioclétien ; La grande persécution = en 303",
+      "acceptedAnswers": [],
+      "explanation": "Le calendrier, la fête du nouvel an et la dixième persécution tournent tous autour de Dioclétien et des martyrs.",
+      "tip": "Calendrier + jour de l'an = mémoire des martyrs."
+    },
+    {
+      "id": "eg.l19.e03",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.diocletien"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "En quelle année Dioclétien devient-il empereur ?",
+      "promptLanguage": "fr",
+      "answer": "284",
+      "acceptedAnswers": [
+        "284"
+      ],
+      "explanation": "Dioclétien devient empereur en 284, année qui ouvre le calendrier copte.",
+      "tip": "284 = an 1 copte.",
+      "extraExample": {
+        "text": "303 est la date de la grande persécution.",
+        "translation": "284 est son accession."
+      },
+      "options": [
+        "284",
+        "235",
+        "249",
+        "303"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "303",
+          "category": "word_confusion",
+          "feedback": "303 est la grande persécution, pas l'accession."
+        }
+      ]
+    },
+    {
+      "id": "eg.l19.e04",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.calendrier_copte"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel événement marque le début du calendrier copte ?",
+      "promptLanguage": "fr",
+      "answer": "L'accession de Dioclétien",
+      "acceptedAnswers": [
+        "L'accession de Dioclétien"
+      ],
+      "explanation": "Les Coptes ont fait de l'année d'accession de Dioclétien (284) la première année de leur calendrier.",
+      "tip": "An 1 copte = 284.",
+      "extraExample": {
+        "text": "Le concile de Nicée a lieu en 325.",
+        "translation": "L'édit de Dèce date de 250."
+      },
+      "options": [
+        "La mort de saint Marc",
+        "L'édit de Dèce",
+        "Le concile de Nicée",
+        "L'accession de Dioclétien"
+      ]
+    },
+    {
+      "id": "eg.l19.e05",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.ere_des_martyrs"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Comment appelle-t-on aussi le calendrier copte ?",
+      "promptLanguage": "fr",
+      "answer": "L'ère des martyrs",
+      "acceptedAnswers": [
+        "L'ère des martyrs"
+      ],
+      "explanation": "Il garde la mémoire des martyrs de la persécution de Dioclétien.",
+      "tip": "Ère des martyrs = calendrier copte.",
+      "extraExample": {
+        "text": "On dit « l'an 1743 de l'ère des martyrs ».",
+        "translation": "Cela remplace « de notre ère »."
+      },
+      "options": [
+        "L'ère des conciles",
+        "L'ère de Constantin",
+        "L'ère des martyrs",
+        "L'ère de Marc"
+      ]
+    },
+    {
+      "id": "eg.l19.e06",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.calendrier_copte"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Pourquoi l'Église copte a-t-elle choisi 284 comme point de départ ?",
+      "promptLanguage": "fr",
+      "answer": "Pour garder la mémoire des martyrs",
+      "acceptedAnswers": [
+        "Pour garder la mémoire des martyrs"
+      ],
+      "explanation": "On ne célèbre pas le persécuteur mais ceux qui sont morts pour la foi.",
+      "tip": "Calendrier = mémoire, pas gloire.",
+      "extraExample": {
+        "text": "Le nom de l'empereur ne sert que de repère.",
+        "translation": "Le sens est celui du témoignage."
+      },
+      "options": [
+        "Pour commémorer le baptême de Jésus",
+        "Pour garder la mémoire des martyrs",
+        "Pour honorer Dioclétien",
+        "Pour fêter la fin de Rome"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "Pour honorer Dioclétien",
+          "category": "word_confusion",
+          "feedback": "Non : le calendrier honore les martyrs, pas leur persécuteur."
+        }
+      ]
+    },
+    {
+      "id": "eg.l19.e07",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.dixieme_persecution"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel numéro porte la persécution de Dioclétien ?",
+      "promptLanguage": "fr",
+      "answer": "La dixième",
+      "acceptedAnswers": [
+        "La dixième"
+      ],
+      "explanation": "Elle clôt la liste des dix persécutions comptées par la tradition.",
+      "tip": "Dioclétien = dixième.",
+      "extraExample": {
+        "text": "Dèce = septième.",
+        "translation": "Valérien = huitième."
+      },
+      "options": [
+        "La dixième",
+        "La septième",
+        "La huitième",
+        "La neuvième"
+      ]
+    },
+    {
+      "id": "eg.l19.e08",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.grande_persecution_303"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quand éclate la grande persécution de Dioclétien ?",
+      "promptLanguage": "fr",
+      "answer": "303",
+      "acceptedAnswers": [
+        "303"
+      ],
+      "explanation": "En 303, l'empereur publie les édits les plus durs : églises détruites, livres brûlés, clergé emprisonné.",
+      "tip": "303 = grande persécution.",
+      "extraExample": {
+        "text": "284 est l'accession.",
+        "translation": "250 est l'édit de Dèce."
+      },
+      "options": [
+        "250",
+        "274",
+        "284",
+        "303"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "284",
+          "category": "word_confusion",
+          "feedback": "284 est l'accession de Dioclétien ; la grande persécution éclate en 303."
+        }
+      ]
+    },
+    {
+      "id": "eg.l19.e09",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Où s'étend la persécution de Dioclétien ?",
+      "promptLanguage": "fr",
+      "answer": "Dans tout l'empire",
+      "acceptedAnswers": [
+        "Dans tout l'empire"
+      ],
+      "explanation": "C'est la première persécution généralisée : elle touche tout l'empire.",
+      "tip": "Généralisée = tout l'empire.",
+      "extraExample": {
+        "text": "Avant lui, elle dépendait des gouverneurs.",
+        "translation": "Avec lui, c'est une politique d'ensemble."
+      },
+      "options": [
+        "Seulement à Rome",
+        "Seulement en Syrie",
+        "Dans tout l'empire",
+        "Seulement en Égypte"
+      ]
+    },
+    {
+      "id": "eg.l19.e10",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.nayrouz"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que marque le Nayrouz ?",
+      "promptLanguage": "fr",
+      "answer": "Le jour de l'an copte",
+      "acceptedAnswers": [
+        "Le jour de l'an copte"
+      ],
+      "explanation": "Le Nayrouz ouvre l'année copte, en septembre.",
+      "tip": "Nayrouz = jour de l'an.",
+      "extraExample": {
+        "text": "Après le Nayrouz, l'année copte change.",
+        "translation": "Il rappelle l'ère des martyrs."
+      },
+      "options": [
+        "La mort de Dioclétien",
+        "Le jour de l'an copte",
+        "La fête de Pâques",
+        "Le début du Carême"
+      ]
+    },
+    {
+      "id": "eg.l19.e11",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.dece"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Révision : quel numéro porte la persécution de Dèce ?",
+      "promptLanguage": "fr",
+      "answer": "septième",
+      "acceptedAnswers": [
+        "septième"
+      ],
+      "explanation": "Dèce ordonne la septième persécution vers 249. (Leçon 18.)",
+      "tip": "Maximin 6, Dèce 7, Valérien 8.",
+      "extraExample": {
+        "text": "L'édit de 250 est célèbre.",
+        "translation": "Il rend le culte impérial obligatoire."
+      },
+      "options": [
+        "septième",
+        "sixième",
+        "huitième",
+        "dixième"
+      ]
+    },
+    {
+      "id": "eg.l19.e12",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.libellus"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Révision : de quel empereur le libellus est-il lié à l'époque ?",
+      "promptLanguage": "fr",
+      "answer": "Dèce",
+      "acceptedAnswers": [
+        "Dèce"
+      ],
+      "explanation": "Le libellus est le certificat de sacrifice délivré sous Dèce. (Leçon 18.)",
+      "tip": "Libellus = Dèce.",
+      "extraExample": {
+        "text": "Il prouve qu'on a sacrifié.",
+        "translation": "Certains en achètent de faux."
+      },
+      "options": [
+        "Valérien",
+        "Dioclétien",
+        "Maximin",
+        "Dèce"
+      ]
+    },
+    {
+      "id": "eg.l19.e13",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.diocletien"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète la phrase.",
+      "prompt": "Dioclétien devient empereur en ___.",
+      "promptLanguage": "fr",
+      "answer": "284",
+      "acceptedAnswers": [
+        "284"
+      ],
+      "explanation": "284 est l'année d'accession de Dioclétien et l'an 1 du calendrier copte.",
+      "tip": "284 = an 1.",
+      "extraExample": {
+        "text": "Le calendrier copte commence avec cette date.",
+        "translation": "C'est un repère à retenir."
+      },
+      "options": [
+        "303",
+        "284",
+        "249",
+        "257"
+      ]
+    },
+    {
+      "id": "eg.l19.e14",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.calendrier_copte"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le calendrier copte commence avec l'accession de ___.",
+      "promptLanguage": "fr",
+      "answer": "Dioclétien",
+      "acceptedAnswers": [
+        "Dioclétien"
+      ],
+      "explanation": "C'est l'empereur de la dixième persécution.",
+      "tip": "Calendrier copte = Dioclétien.",
+      "extraExample": {
+        "text": "Son accession date de 284.",
+        "translation": "L'an 1 copte."
+      },
+      "options": [
+        "Dioclétien",
+        "Dèce",
+        "Constantin",
+        "Valérien"
+      ]
+    },
+    {
+      "id": "eg.l19.e15",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.ere_des_martyrs"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Les Coptes appellent leur calendrier l'ère des ___.",
+      "promptLanguage": "fr",
+      "answer": "martyrs",
+      "acceptedAnswers": [
+        "martyrs"
+      ],
+      "explanation": "L'ère des martyrs garde la mémoire de ceux qui sont morts sous Dioclétien.",
+      "tip": "Ère des martyrs.",
+      "extraExample": {
+        "text": "Chaque année copte honore leur témoignage.",
+        "translation": "C'est un calendrier de fidélité."
+      },
+      "options": [
+        "empereurs",
+        "apôtres",
+        "conciles",
+        "martyrs"
+      ]
+    },
+    {
+      "id": "eg.l19.e16",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.valerien"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Révision : Valérien ordonne la ___ persécution.",
+      "promptLanguage": "fr",
+      "answer": "huitième",
+      "acceptedAnswers": [
+        "huitième"
+      ],
+      "explanation": "Valérien est le huitième, vers 257. (Leçon 18.)",
+      "tip": "Huit = Valérien.",
+      "extraExample": {
+        "text": "Dioclétien est le dixième.",
+        "translation": "Dèce est le septième."
+      },
+      "options": [
+        "neuvième",
+        "dixième",
+        "huitième",
+        "septième"
+      ]
+    },
+    {
+      "id": "eg.l19.e17",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.calendrier_copte"
+      ],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre.",
+      "prompt": "Reconstitue la phrase-repère sur le calendrier copte.",
+      "promptLanguage": "fr",
+      "answer": "Le calendrier copte commence avec l'accession de Dioclétien",
+      "acceptedAnswers": [
+        "Le calendrier copte commence avec l'accession de Dioclétien"
+      ],
+      "explanation": "Le calendrier copte part de 284.",
+      "tip": "Calendrier copte = an 1 en 284.",
+      "extraExample": {
+        "text": "Cette année est celle de l'accession de Dioclétien.",
+        "translation": "Elle garde la mémoire des martyrs."
+      },
+      "tokens": [
+        "copte",
+        "commence",
+        "avec",
+        "l'accession",
+        "de",
+        "Dioclétien",
+        "Le",
+        "calendrier"
+      ]
+    },
+    {
+      "id": "eg.l19.e18",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.diocletien"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Quel empereur donne son nom à la dixième persécution ?",
+      "promptLanguage": "fr",
+      "answer": "Dioclétien",
+      "acceptedAnswers": [
+        "Dioclétien",
+        "Diocletien",
+        "l'empereur Dioclétien"
+      ],
+      "explanation": "Dioclétien est l'empereur de la dixième persécution, la plus générale.",
+      "tip": "Dixième = Dioclétien.",
+      "extraExample": {
+        "text": "Il devient empereur en 284.",
+        "translation": "Le calendrier copte le rappelle."
+      }
+    },
+    {
+      "id": "eg.l19.e19",
+      "unitIds": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.v.nayrouz"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Comment s'appelle le jour de l'an copte ? (un mot)",
+      "promptLanguage": "fr",
+      "answer": "Nayrouz",
+      "acceptedAnswers": [
+        "Nayrouz",
+        "le Nayrouz",
+        "Nairouz"
+      ],
+      "explanation": "Le Nayrouz est le jour de l'an copte, en septembre.",
+      "tip": "Nayrouz = jour de l'an.",
+      "extraExample": {
+        "text": "Il ouvre l'année copte.",
+        "translation": "Il a lieu en septembre."
+      }
+    },
+    {
+      "id": "eg.l19.e20",
+      "unitIds": [
+        "eg.v.persecution_romaine"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la réponse.",
+      "prompt": "Révision : quel mot désigne les violences organisées contre les chrétiens à cause de leur foi ? (un mot)",
+      "promptLanguage": "fr",
+      "answer": "persécution",
+      "acceptedAnswers": [
+        "persécution",
+        "persécutions",
+        "la persécution",
+        "persecution"
+      ],
+      "explanation": "La persécution est la violence organisée contre les chrétiens. (Leçon 12.)",
+      "tip": "Persécution = violence organisée.",
+      "extraExample": {
+        "text": "Au IIIe siècle, il y en a dix en tout.",
+        "translation": "La dixième est celle de Dioclétien."
+      }
+    }
+  ]
+}

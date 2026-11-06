@@ -1,0 +1,703 @@
+{
+ "lessonId": "eg.l56",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Chaque notion et son sens",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "purgatoire",
+     "right": "purification après la mort"
+    },
+    {
+     "left": "Immaculée Conception",
+     "right": "Marie conçue sans péché originel"
+    },
+    {
+     "left": "azymes",
+     "right": "pain sans levain"
+    },
+    {
+     "left": "pain levé",
+     "right": "pain de l'offrande copte"
+    }
+   ],
+   "answer": "purgatoire = purification après la mort ; Immaculée Conception = Marie conçue sans péché originel ; azymes = pain sans levain ; pain levé = pain de l'offrande copte",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre notions sont au cœur du désaccord avec les catholiques.",
+   "tip": "Quatre mots : purgatoire, Immaculée Conception, azymes, pain levé.",
+   "id": "eg.l56.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.purgatoire"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que le purgatoire pour les catholiques ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une purification après la mort avant le ciel",
+    "Un enfer éternel",
+    "Un séjour sur la terre",
+    "Un sacrement"
+   ],
+   "answer": "Une purification après la mort avant le ciel",
+   "acceptedAnswers": [
+    "Une purification après la mort avant le ciel"
+   ],
+   "explanation": "Le purgatoire est un état de purification provisoire pour ceux qui meurent en grâce.",
+   "tip": "Purgatoire = purifier avant le ciel.",
+   "extraExample": {
+    "text": "Il est toujours un chemin vers le ciel.",
+    "translation": "Ce n'est pas un enfer."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un enfer éternel",
+     "category": "word_confusion",
+     "feedback": "Pour les catholiques, il n'est pas éternel : il conduit au ciel."
+    }
+   ],
+   "id": "eg.l56.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.prieres_pour_les_defunts"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que fait l'Église copte pour les défunts ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Elle prie pour les défunts",
+    "Elle les oublie",
+    "Elle enseigne un purgatoire",
+    "Elle ne parle pas de la mort"
+   ],
+   "answer": "Elle prie pour les défunts",
+   "acceptedAnswers": [
+    "Elle prie pour les défunts"
+   ],
+   "explanation": "L'Église copte prie pour les défunts aux 3e, 7e et 40e jours, sans enseigner le purgatoire.",
+   "tip": "Prier, oui ; purgatoire, non.",
+   "extraExample": {
+    "text": "Les messes pour les défunts sont courantes.",
+    "translation": "Elles montrent l'unité de l'Église."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Elle enseigne un purgatoire",
+     "category": "word_confusion",
+     "feedback": "L'Église copte n'enseigne pas le purgatoire catholique."
+    }
+   ],
+   "id": "eg.l56.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.purgatoire"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui juge les défunts selon l'Église copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Dieu seul juge",
+    "Le pape",
+    "L'évêque",
+    "La famille"
+   ],
+   "answer": "Dieu seul juge",
+   "acceptedAnswers": [
+    "Dieu seul juge"
+   ],
+   "explanation": "Nous prions pour les défunts et laissons le jugement à Dieu seul.",
+   "tip": "Dieu seul juge.",
+   "extraExample": {
+    "text": "Le jugement dernier aura lieu au retour du Christ.",
+    "translation": "Nous n'en décrivons pas le détail."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le pape",
+     "category": "word_confusion",
+     "feedback": "Même un pape ne juge pas les défunts."
+    }
+   ],
+   "id": "eg.l56.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.purgatoire"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le purgatoire est précisé au concile de ___ en 1274.",
+   "promptLanguage": "fr",
+   "options": [
+    "Lyon II",
+    "Nicée",
+    "Éphèse",
+    "Trente"
+   ],
+   "answer": "Lyon II",
+   "acceptedAnswers": [
+    "Lyon II",
+    "Lyon"
+   ],
+   "explanation": "Lyon II, en 1274, précise la doctrine du purgatoire.",
+   "tip": "1274 : Lyon II.",
+   "extraExample": {
+    "text": "Trente reprend l'enseignement au XVIe siècle.",
+    "translation": "Mais c'est Lyon II qui le précise."
+   },
+   "id": "eg.l56.e05"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.immaculee_conception"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En quelle année l'Immaculée Conception est-elle définie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1854",
+    "1870",
+    "1054",
+    "1950"
+   ],
+   "answer": "1854",
+   "acceptedAnswers": [
+    "1854"
+   ],
+   "explanation": "Le 8 décembre 1854, Pie IX proclame le dogme.",
+   "tip": "1854 : Marie.",
+   "extraExample": {
+    "text": "1870 : infaillibilité.",
+    "translation": "1950 : Assomption."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1870",
+     "category": "word_confusion",
+     "feedback": "1870 est la date de l'infaillibilité du pape."
+    },
+    {
+     "equals": "1950",
+     "category": "word_confusion",
+     "feedback": "1950 est l'Assomption de Marie."
+    }
+   ],
+   "id": "eg.l56.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.immaculee_conception"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'Immaculée Conception est définie par le pape ___ en 1854.",
+   "promptLanguage": "fr",
+   "options": [
+    "Pie IX",
+    "Léon",
+    "Jean-Paul II",
+    "Grégoire"
+   ],
+   "answer": "Pie IX",
+   "acceptedAnswers": [
+    "Pie IX"
+   ],
+   "explanation": "Pie IX proclame le dogme en 1854 ; le même pape convoque Vatican I.",
+   "tip": "Pie IX : 1854, puis 1870.",
+   "extraExample": {
+    "text": "Il convoque aussi Vatican I.",
+    "translation": "Deux dogmes sous un même pape."
+   },
+   "id": "eg.l56.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.immaculee_conception"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que signifie l'Immaculée Conception ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Marie a été conçue sans péché originel",
+    "Jésus est né d'une vierge",
+    "Marie est montée au ciel",
+    "Jésus n'a pas de père"
+   ],
+   "answer": "Marie a été conçue sans péché originel",
+   "acceptedAnswers": [
+    "Marie a été conçue sans péché originel"
+   ],
+   "explanation": "Elle concerne la conception de Marie. La naissance virginale concerne Jésus.",
+   "tip": "Immaculée = Marie.",
+   "extraExample": {
+    "text": "L'Assomption est un autre dogme.",
+    "translation": "Elle est définie en 1950."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Jésus est né d'une vierge",
+     "category": "word_confusion",
+     "feedback": "C'est la naissance virginale, différente de l'Immaculée Conception."
+    },
+    {
+     "equals": "Marie est montée au ciel",
+     "category": "word_confusion",
+     "feedback": "C'est l'Assomption, un autre dogme."
+    }
+   ],
+   "id": "eg.l56.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.peche_originel"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on la faute d'Adam transmise à tout homme, selon saint Augustin ?",
+   "promptLanguage": "fr",
+   "hint": "Deux mots, le deuxième commence par o.",
+   "answer": "péché originel",
+   "acceptedAnswers": [
+    "péché originel",
+    "le péché originel",
+    "peche originel"
+   ],
+   "explanation": "Pour Augustin, le péché originel se transmet à la naissance. Les orthodoxes y voient plutôt un héritage de mortalité.",
+   "tip": "Originel : dès l'origine.",
+   "extraExample": {
+    "text": "Le baptême en guérit les conséquences.",
+    "translation": "Il ne s'agit pas de culpabilité héritée pour les orthodoxes."
+   },
+   "id": "eg.l56.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel verset montre que Marie reconnaît avoir un Sauveur ?",
+   "promptLanguage": "fr",
+   "options": [
+    "« Mon esprit se réjouit en Dieu, mon Sauveur »",
+    "« Tu es Pierre »",
+    "« Que ta volonté soit faite »",
+    "« Au commencement était le Verbe »"
+   ],
+   "answer": "« Mon esprit se réjouit en Dieu, mon Sauveur »",
+   "acceptedAnswers": [
+    "« Mon esprit se réjouit en Dieu, mon Sauveur »"
+   ],
+   "explanation": "Luc 1, 47 : Marie loue Dieu comme son Sauveur. C'est pourquoi nous croyons que Marie a besoin d'un Sauveur, comme tous.",
+   "tip": "Marie a un Sauveur.",
+   "extraExample": {
+    "text": "Elle le dit dans le Magnificat.",
+    "translation": "Nous le chantons dans la liturgie."
+   },
+   "errorPatterns": [
+    {
+     "equals": "« Tu es Pierre »",
+     "category": "word_confusion",
+     "feedback": "C'est la parole de Jésus à Pierre (Matthieu 16, 18)."
+    }
+   ],
+   "id": "eg.l56.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.azymes"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pain les catholiques latins utilisent-ils pour l'Eucharistie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Du pain azyme, sans levain",
+    "Du pain levé",
+    "Du pain d'orge",
+    "Du pain de maïs"
+   ],
+   "answer": "Du pain azyme, sans levain",
+   "acceptedAnswers": [
+    "Du pain azyme, sans levain"
+   ],
+   "explanation": "L'hostie latine est un pain azyme : sans levain, mince et ronde.",
+   "tip": "Azyme = a-zymê : sans levain.",
+   "extraExample": {
+    "text": "Les Arméniens utilisent aussi des azymes.",
+    "translation": "Ils sont pourtant orthodoxes orientaux."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Du pain levé",
+     "category": "word_confusion",
+     "feedback": "Le pain levé est celui de l'Église copte."
+    }
+   ],
+   "id": "eg.l56.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.pain_leve"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'Église copte utilise un pain ___ pour l'Eucharistie.",
+   "promptLanguage": "fr",
+   "options": [
+    "levé",
+    "azyme",
+    "sec"
+   ],
+   "answer": "levé",
+   "acceptedAnswers": [
+    "levé",
+    "pain levé"
+   ],
+   "explanation": "Notre pain est levé, comme celui des orthodoxes grecs.",
+   "tip": "Pain levé = pain vivant.",
+   "extraExample": {
+    "text": "L'offrande est estampillée d'une croix.",
+    "translation": "On l'appelle qorban."
+   },
+   "id": "eg.l56.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.pain_leve"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que symbolise le pain levé pour l'Église copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il est vivant : il évoque la Résurrection",
+    "Il est pauvre",
+    "Il est réservé aux fêtes",
+    "Il vient d'Égypte ancienne"
+   ],
+   "answer": "Il est vivant : il évoque la Résurrection",
+   "acceptedAnswers": [
+    "Il est vivant : il évoque la Résurrection"
+   ],
+   "explanation": "Le pain levé est vivant. Il évoque la Résurrection. L'Église d'Orient l'utilise depuis les origines.",
+   "tip": "Levé : vivant.",
+   "extraExample": {
+    "text": "Le levain fait monter la pâte.",
+    "translation": "La Résurrection fait monter l'homme à la vie."
+   },
+   "id": "eg.l56.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.celibat_des_pretres"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Dans l'Église latine, les prêtres sont en général :",
+   "promptLanguage": "fr",
+   "options": [
+    "Célibataires",
+    "Mariés",
+    "Veufs",
+    "Moines"
+   ],
+   "answer": "Célibataires",
+   "acceptedAnswers": [
+    "Célibataires"
+   ],
+   "explanation": "La règle du célibat est affermie au XIIe siècle dans l'Église latine.",
+   "tip": "Latin : célibat.",
+   "extraExample": {
+    "text": "Certaines Églises catholiques orientales ordonnent des hommes mariés.",
+    "translation": "Le célibat n'est pas un dogme."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Mariés",
+     "category": "word_confusion",
+     "feedback": "C'est le cas chez les Coptes, pas la règle générale latine."
+    }
+   ],
+   "id": "eg.l56.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.celibat_des_pretres"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quand un homme marié peut-il devenir prêtre dans l'Église copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "S'il est marié avant l'ordination",
+    "Jamais",
+    "Seulement après avoir divorcé",
+    "Seulement s'il se marie après"
+   ],
+   "answer": "S'il est marié avant l'ordination",
+   "acceptedAnswers": [
+    "S'il est marié avant l'ordination"
+   ],
+   "explanation": "Un homme marié avant l'ordination peut devenir prêtre. Il ne se marie pas après.",
+   "tip": "Marié avant, jamais après.",
+   "extraExample": {
+    "text": "Saint Pierre était marié.",
+    "translation": "Sa belle-mère est guérie en Matthieu 8, 14."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Jamais",
+     "category": "word_confusion",
+     "feedback": "Chez les Coptes, la tradition ancienne autorise l'ordination d'hommes mariés."
+    }
+   ],
+   "id": "eg.l56.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.celibat_des_pretres"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Parmi qui les évêques coptes sont-ils choisis ?",
+   "promptLanguage": "fr",
+   "hint": "Ils vivent dans les monastères.",
+   "answer": "les moines",
+   "acceptedAnswers": [
+    "les moines",
+    "des moines",
+    "moines",
+    "parmi les moines"
+   ],
+   "explanation": "Les évêques sont choisis parmi les moines, donc célibataires.",
+   "tip": "Évêque = moine.",
+   "extraExample": {
+    "text": "Le pape est choisi parmi eux.",
+    "translation": "Le monastère forme les évêques."
+   },
+   "id": "eg.l56.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : les défunts.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "prie",
+    "défunts",
+    "les",
+    "L'Église",
+    "copte",
+    "pour"
+   ],
+   "answer": "L'Église copte prie pour les défunts",
+   "acceptedAnswers": [
+    "L'Église copte prie pour les défunts"
+   ],
+   "explanation": "L'Église copte prie pour les défunts et laisse le jugement à Dieu seul.",
+   "tip": "Prier, c'est aimer.",
+   "extraExample": {
+    "text": "Les prières ont lieu aux 3e, 7e et 40e jours.",
+    "translation": "La mémoire est annuelle."
+   },
+   "id": "eg.l56.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de sacrements les Coptes et les catholiques ont-ils en commun ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Sept",
+    "Deux",
+    "Trois",
+    "Douze"
+   ],
+   "answer": "Sept",
+   "acceptedAnswers": [
+    "Sept"
+   ],
+   "explanation": "Les Coptes et les catholiques ont les mêmes sept sacrements. Les protestants en gardent généralement deux.",
+   "tip": "Sept en commun.",
+   "extraExample": {
+    "text": "Les orthodoxes grecs en ont aussi sept.",
+    "translation": "Le nombre est le même."
+   },
+   "id": "eg.l56.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Révision — Les dates catholiques",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "1054",
+     "right": "schisme de Rome et Constantinople"
+    },
+    {
+     "left": "1274",
+     "right": "Lyon II précise le purgatoire"
+    },
+    {
+     "left": "1854",
+     "right": "Immaculée Conception"
+    },
+    {
+     "left": "1870",
+     "right": "infaillibilité du pape"
+    }
+   ],
+   "answer": "1054 = schisme de Rome et Constantinople ; 1274 = Lyon II précise le purgatoire ; 1854 = Immaculée Conception ; 1870 = infaillibilité du pape",
+   "acceptedAnswers": [],
+   "explanation": "Quatre dates jalonnent la divergence avec Rome.",
+   "tip": "1054, 1274, 1854, 1870.",
+   "id": "eg.l56.e19"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.filioque"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Comment s'appelle l'ajout latin « et du Fils » au Credo de 381 ?",
+   "promptLanguage": "fr",
+   "hint": "Il commence par F.",
+   "answer": "Filioque",
+   "acceptedAnswers": [
+    "Filioque",
+    "le Filioque"
+   ],
+   "explanation": "Filioque veut dire « et du Fils » en latin.",
+   "tip": "Filioque = et du Fils.",
+   "extraExample": {
+    "text": "Le Credo copte n'a pas cet ajout.",
+    "translation": "Il dit : l'Esprit procède du Père."
+   },
+   "id": "eg.l56.e20"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.infaillibilite_pontificale"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Vatican I a défini l'infaillibilité du pape en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1870",
+    "1854",
+    "1054",
+    "1965"
+   ],
+   "answer": "1870",
+   "acceptedAnswers": [
+    "1870"
+   ],
+   "explanation": "Vatican I, 1870 : infaillibilité du pape quand il enseigne ex cathedra.",
+   "tip": "1870 : infaillibilité.",
+   "extraExample": {
+    "text": "1854 est l'Immaculée Conception.",
+    "translation": "Deux dogmes, deux dates."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1854",
+     "category": "word_confusion",
+     "feedback": "1854 est l'Immaculée Conception."
+    }
+   ],
+   "id": "eg.l56.e21"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.deux_natures"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quelle formule est celle du concile de Chalcédoine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un seul Christ reconnu en deux natures",
+    "Une seule nature du Verbe incarné",
+    "Le Fils est créé",
+    "Le Christ n'a pas d'âme"
+   ],
+   "answer": "Un seul Christ reconnu en deux natures",
+   "acceptedAnswers": [
+    "Un seul Christ reconnu en deux natures"
+   ],
+   "explanation": "Chalcédoine dit : un seul Christ reconnu en deux natures.",
+   "tip": "Chalcédoine : deux.",
+   "extraExample": {
+    "text": "Cyrille dit : une seule nature du Verbe incarné.",
+    "translation": "Les deux veulent protéger la même foi."
+   },
+   "id": "eg.l56.e22"
+  }
+ ]
+}

@@ -1,0 +1,654 @@
+{
+ "lessonId": "eg.l55",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.primaute_du_pape",
+    "eg.v.infaillibilite_pontificale",
+    "eg.v.filioque"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots-clés de la papauté",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "primauté du pape",
+     "right": "autorité sur toute l'Église, selon les catholiques"
+    },
+    {
+     "left": "infaillibilité pontificale",
+     "right": "le pape ne se trompe pas quand il enseigne ex cathedra"
+    },
+    {
+     "left": "Filioque",
+     "right": "« et du Fils » ajouté au Credo"
+    },
+    {
+     "left": "schisme de 1054",
+     "right": "rupture entre Rome et Constantinople"
+    }
+   ],
+   "answer": "primauté du pape = autorité sur toute l'Église, selon les catholiques ; infaillibilité pontificale = le pape ne se trompe pas quand il enseigne ex cathedra ; Filioque = « et du Fils » ajouté au Credo ; schisme de 1054 = rupture entre Rome et Constantinople",
+   "acceptedAnswers": [],
+   "explanation": "Primauté, infaillibilité et Filioque sont les trois points catholiques ; 1054 est la rupture qui en résulte.",
+   "tip": "Primauté, infaillibilité, Filioque, 1054.",
+   "id": "eg.l55.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.pape"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pour les catholiques, qui est le pape ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le successeur de saint Pierre",
+    "Le successeur de saint Marc",
+    "Un évêque comme les autres",
+    "Le patriarche de Constantinople"
+   ],
+   "answer": "Le successeur de saint Pierre",
+   "acceptedAnswers": [
+    "Le successeur de saint Pierre"
+   ],
+   "explanation": "Les catholiques voient dans le pape le successeur de Pierre et le chef visible de l'Église.",
+   "tip": "Pierre → pape de Rome ; Marc → pape d'Alexandrie.",
+   "extraExample": {
+    "text": "Notre pape est successeur de saint Marc.",
+    "translation": "Le pape de Rome est celui de Pierre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le successeur de saint Marc",
+     "category": "word_confusion",
+     "feedback": "Saint Marc est le fondateur de l'Église d'Alexandrie : il est à l'origine de notre pape."
+    }
+   ],
+   "id": "eg.l55.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.vatican_i"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En quelle année Vatican I définit-il l'infaillibilité du pape ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1870",
+    "1054",
+    "1517",
+    "1965"
+   ],
+   "answer": "1870",
+   "acceptedAnswers": [
+    "1870"
+   ],
+   "explanation": "Le 18 juillet 1870, Vatican I définit la primauté et l'infaillibilité du pape.",
+   "tip": "1870 : infaillibilité.",
+   "extraExample": {
+    "text": "1054 : schisme. 1517 : Réforme. 1965 : levée des excommunications.",
+    "translation": "Quatre dates à ne pas confondre."
+   },
+   "errorPatterns": [
+    {
+     "equals": "1054",
+     "category": "word_confusion",
+     "feedback": "1054 est la date du schisme entre Rome et Constantinople."
+    },
+    {
+     "equals": "1965",
+     "category": "word_confusion",
+     "feedback": "1965 est la levée des excommunications de 1054."
+    }
+   ],
+   "id": "eg.l55.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.ex_cathedra"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quand le pape est-il infaillible selon les catholiques ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Quand il enseigne ex cathedra sur la foi et la morale",
+    "Dans toutes ses paroles",
+    "Quand il voyage",
+    "Quand il parle en public"
+   ],
+   "answer": "Quand il enseigne ex cathedra sur la foi et la morale",
+   "acceptedAnswers": [
+    "Quand il enseigne ex cathedra sur la foi et la morale"
+   ],
+   "explanation": "Seul l'enseignement solennel sur la foi et la morale est infaillible, ce qui est rare.",
+   "tip": "Ex cathedra = solennel.",
+   "extraExample": {
+    "text": "Un discours n'est pas ex cathedra.",
+    "translation": "Ni une interview."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Dans toutes ses paroles",
+     "category": "word_confusion",
+     "feedback": "Non : seulement dans l'enseignement solennel sur la foi et la morale."
+    }
+   ],
+   "id": "eg.l55.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pour l'Église copte, comment se règlent les grandes questions de foi ?",
+   "promptLanguage": "fr",
+   "options": [
+    "En concile",
+    "Par le pape seul",
+    "Par chaque fidèle",
+    "Par le patriarche de Constantinople"
+   ],
+   "answer": "En concile",
+   "acceptedAnswers": [
+    "En concile"
+   ],
+   "explanation": "Comme à Jérusalem (Actes 15), les évêques réunis en concile décident ensemble, guidés par l'Esprit Saint.",
+   "tip": "Concile = décision commune.",
+   "extraExample": {
+    "text": "Nicée a réuni plus de 300 évêques.",
+    "translation": "Ils ont fixé le Credo."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Par le pape seul",
+     "category": "word_confusion",
+     "feedback": "Même notre pape ne décide pas seul : il agit avec le Saint-Synode."
+    }
+   ],
+   "id": "eg.l55.e05"
+  },
+  {
+   "unitIds": [
+    "eg.v.pape",
+    "eg.g55.papaute_filioque"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le mot « pape » veut dire « ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "père",
+    "roi",
+    "juge",
+    "pasteur"
+   ],
+   "answer": "père",
+   "acceptedAnswers": [
+    "père"
+   ],
+   "explanation": "Pape vient de pappas, « père ». Alexandrie l'utilisait dès le IIIe siècle.",
+   "tip": "Pape = père.",
+   "extraExample": {
+    "text": "Abouna (notre père) a le même sens.",
+    "translation": "Le mot est le même en arabe."
+   },
+   "id": "eg.l55.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.filioque"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que dit le Credo de 381 de l'Esprit Saint ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'Esprit Saint procède du Père",
+    "L'Esprit Saint procède du Père et du Fils",
+    "L'Esprit Saint est créé par le Fils",
+    "L'Esprit Saint est une force"
+   ],
+   "answer": "L'Esprit Saint procède du Père",
+   "acceptedAnswers": [
+    "L'Esprit Saint procède du Père"
+   ],
+   "explanation": "Le Credo de Nicée-Constantinople dit que l'Esprit procède du Père, d'après Jean 15, 26.",
+   "tip": "Credo de 381 : du Père.",
+   "extraExample": {
+    "text": "Le Credo copte garde cette formule.",
+    "translation": "Rome a ajouté « et du Fils »."
+   },
+   "errorPatterns": [
+    {
+     "equals": "L'Esprit Saint procède du Père et du Fils",
+     "category": "word_confusion",
+     "feedback": "C'est la version avec le Filioque, ajoutée en Occident."
+    }
+   ],
+   "id": "eg.l55.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.filioque"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel mot latin désigne l'ajout « et du Fils » au Credo ?",
+   "promptLanguage": "fr",
+   "hint": "Il commence par F.",
+   "answer": "Filioque",
+   "acceptedAnswers": [
+    "Filioque",
+    "le Filioque"
+   ],
+   "explanation": "Filioque veut dire « et du Fils » en latin.",
+   "tip": "Filio-que : « et du Fils ».",
+   "extraExample": {
+    "text": "L'ajout est apparu en Espagne en 589.",
+    "translation": "Rome l'adopte en 1014."
+   },
+   "id": "eg.l55.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.filioque"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Filioque est d'abord apparu en ___ à Tolède en 589.",
+   "promptLanguage": "fr",
+   "options": [
+    "Espagne",
+    "Égypte",
+    "Grèce",
+    "Syrie"
+   ],
+   "answer": "Espagne",
+   "acceptedAnswers": [
+    "Espagne",
+    "l'Espagne"
+   ],
+   "explanation": "Tolède, en Espagne, adopte l'ajout en 589 ; Rome l'accepte en 1014.",
+   "tip": "Tolède = Espagne.",
+   "extraExample": {
+    "text": "Les Francs l'ont ensuite répandu.",
+    "translation": "Rome l'a accepté tard."
+   },
+   "id": "eg.l55.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.filioque"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le problème de méthode du Filioque ?",
+   "promptLanguage": "fr",
+   "options": [
+    "On ne modifie pas le Credo sans concile",
+    "Il manque dans la Bible",
+    "Il est écrit en latin",
+    "Il date de Nicée"
+   ],
+   "answer": "On ne modifie pas le Credo sans concile",
+   "acceptedAnswers": [
+    "On ne modifie pas le Credo sans concile"
+   ],
+   "explanation": "Le Credo de 381 a été fixé par un concile œcuménique. Ajouter un mot sans concile est jugé illégitime.",
+   "tip": "Un texte de concile ne se retouche pas seul.",
+   "extraExample": {
+    "text": "Le même principe vaut pour l'Écriture.",
+    "translation": "On n'ajoute rien."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il manque dans la Bible",
+     "category": "word_confusion",
+     "feedback": "Ce n'est pas la question de méthode : c'est l'ajout sans concile."
+    }
+   ],
+   "id": "eg.l55.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.filioque"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veulent exprimer les catholiques par le Filioque ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Que l'Esprit est aussi l'Esprit du Fils",
+    "Que le Fils est inférieur",
+    "Que l'Esprit est une force",
+    "Que le Père n'a pas de source"
+   ],
+   "answer": "Que l'Esprit est aussi l'Esprit du Fils",
+   "acceptedAnswers": [
+    "Que l'Esprit est aussi l'Esprit du Fils"
+   ],
+   "explanation": "Ils veulent dire que l'Esprit est aussi l'Esprit du Fils. On voit donc deux soucis légitimes.",
+   "tip": "Comprendre avant de juger.",
+   "extraExample": {
+    "text": "Jésus dit qu'il enverra l'Esprit.",
+    "translation": "C'est le point de départ du raisonnement latin."
+   },
+   "id": "eg.l55.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.schisme_de_1054"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Rome et Constantinople se séparent en ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "1054",
+    "451",
+    "1870",
+    "1517"
+   ],
+   "answer": "1054",
+   "acceptedAnswers": [
+    "1054"
+   ],
+   "explanation": "Le 16 juillet 1054 : excommunications croisées entre Rome et Constantinople.",
+   "tip": "1054 : orthodoxes et catholiques.",
+   "extraExample": {
+    "text": "451 : Chalcédoine.",
+    "translation": "1517 : la Réforme."
+   },
+   "id": "eg.l55.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.schisme_de_1054"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle grande ville est le siège du patriarche opposé au pape en 1054 ?",
+   "promptLanguage": "fr",
+   "hint": "Elle s'appelle aujourd'hui Istanbul.",
+   "answer": "Constantinople",
+   "acceptedAnswers": [
+    "Constantinople",
+    "Byzance"
+   ],
+   "explanation": "En 1054, le légat du pape excommunie le patriarche de Constantinople à Sainte-Sophie.",
+   "tip": "1054 : Rome contre Constantinople.",
+   "extraExample": {
+    "text": "Constantinople est aujourd'hui Istanbul.",
+    "translation": "Sainte-Sophie en était la grande église."
+   },
+   "id": "eg.l55.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.schisme_de_1054"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui lève les excommunications de 1054 en 1965 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Paul VI et Athénagoras",
+    "Pie IX et Photios",
+    "François et Tawadros II",
+    "Léon et Dioscore"
+   ],
+   "answer": "Paul VI et Athénagoras",
+   "acceptedAnswers": [
+    "Paul VI et Athénagoras"
+   ],
+   "explanation": "En 1965, Paul VI et Athénagoras lèvent les excommunications. La communion n'est pas rétablie pour autant.",
+   "tip": "1965 : levée, pas réunion.",
+   "extraExample": {
+    "text": "François et Tawadros II sont de 2017.",
+    "translation": "Ce sont d'autres rencontres."
+   },
+   "errorPatterns": [
+    {
+     "equals": "François et Tawadros II",
+     "category": "word_confusion",
+     "feedback": "Ils ont signé en 2017 la reconnaissance du baptême entre Coptes et catholiques."
+    }
+   ],
+   "id": "eg.l55.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : le Credo copte.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "procède",
+    "copte",
+    "Le",
+    "l'Esprit",
+    "que",
+    "dit",
+    "Père",
+    "du",
+    "Credo"
+   ],
+   "answer": "Le Credo copte dit que l'Esprit procède du Père",
+   "acceptedAnswers": [
+    "Le Credo copte dit que l'Esprit procède du Père"
+   ],
+   "explanation": "Le Credo copte garde le texte de 381 : l'Esprit procède du Père.",
+   "tip": "Texte de 381, sans ajout.",
+   "extraExample": {
+    "text": "Le Credo de 381 date du concile de Constantinople.",
+    "translation": "Il complète celui de Nicée."
+   },
+   "id": "eg.l55.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Quelle date pour quel événement ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "381",
+     "right": "Credo de Nicée-Constantinople"
+    },
+    {
+     "left": "1014",
+     "right": "Rome adopte le Filioque"
+    },
+    {
+     "left": "1054",
+     "right": "schisme de Rome et Constantinople"
+    },
+    {
+     "left": "1870",
+     "right": "Vatican I définit l'infaillibilité"
+    }
+   ],
+   "answer": "381 = Credo de Nicée-Constantinople ; 1014 = Rome adopte le Filioque ; 1054 = schisme de Rome et Constantinople ; 1870 = Vatican I définit l'infaillibilité",
+   "acceptedAnswers": [],
+   "explanation": "381, 1014, 1054 et 1870 sont les quatre repères de la lecture orthodoxe de l'histoire de Rome.",
+   "tip": "381 → 1014 → 1054 → 1870.",
+   "id": "eg.l55.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment confessent-ils le Christ, Chenouda III et Paul VI, en 1973 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Parfait Dieu et parfait homme",
+    "Le Filioque",
+    "L'infaillibilité du pape",
+    "Le purgatoire"
+   ],
+   "answer": "Parfait Dieu et parfait homme",
+   "acceptedAnswers": [
+    "Parfait Dieu et parfait homme"
+   ],
+   "explanation": "La déclaration commune de 1973 confesse un seul Christ, parfait Dieu et parfait homme, ce qui rapproche les deux Églises.",
+   "tip": "1973 : même Christ.",
+   "extraExample": {
+    "text": "Ils reconnaissent aussi l'erreur des anciennes querelles de mots.",
+    "translation": "Le dialogue vient de là."
+   },
+   "id": "eg.l55.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 2017, François et Tawadros II reconnaissent mutuellement le ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "baptême",
+    "mariage",
+    "sacerdoce",
+    "Credo"
+   ],
+   "answer": "baptême",
+   "acceptedAnswers": [
+    "baptême"
+   ],
+   "explanation": "Les deux Églises reconnaissent la validité du baptême de l'autre : un pas vers l'unité.",
+   "tip": "2017 : baptême.",
+   "extraExample": {
+    "text": "Avant cela, chaque Église examinait le baptême de l'autre.",
+    "translation": "L'accord simplifie la vie des couples mixtes."
+   },
+   "id": "eg.l55.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.deux_natures"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quelle formule de saint Cyrille garde l'Église copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une seule nature du Verbe incarné",
+    "Un seul Christ reconnu en deux natures",
+    "Le Fils est créé",
+    "Marie n'est pas Mère de Dieu"
+   ],
+   "answer": "Une seule nature du Verbe incarné",
+   "acceptedAnswers": [
+    "Une seule nature du Verbe incarné"
+   ],
+   "explanation": "La formule de saint Cyrille est « une seule nature du Verbe incarné ».",
+   "tip": "Cyrille : une seule nature.",
+   "extraExample": {
+    "text": "Chalcédoine dit « en deux natures ».",
+    "translation": "Les deux formules veulent confesser le même Christ."
+   },
+   "id": "eg.l55.e19"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.sept_conciles"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Combien de conciles les orthodoxes chalcédoniens reçoivent-ils ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Sept",
+    "Trois",
+    "Quatre",
+    "Douze"
+   ],
+   "answer": "Sept",
+   "acceptedAnswers": [
+    "Sept"
+   ],
+   "explanation": "Les chalcédoniens reçoivent sept conciles. Nous en gardons trois.",
+   "tip": "7 contre 3.",
+   "extraExample": {
+    "text": "Le septième est Nicée II, en 787.",
+    "translation": "Il défend les icônes."
+   },
+   "id": "eg.l55.e20"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_catholique"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Qu'est-ce que l'Église catholique copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Elle garde la liturgie copte mais reconnaît le pape",
+    "Elle est la même que l'Église copte orthodoxe",
+    "Elle est une Église protestante",
+    "Elle ne reconnaît pas le pape"
+   ],
+   "answer": "Elle garde la liturgie copte mais reconnaît le pape",
+   "acceptedAnswers": [
+    "Elle garde la liturgie copte mais reconnaît le pape"
+   ],
+   "explanation": "L'Église catholique copte est distincte de l'Église copte orthodoxe : même liturgie, mais communion avec le pape.",
+   "tip": "Copte de rite, catholique de communion.",
+   "extraExample": {
+    "text": "Il y a 23 Églises catholiques orientales.",
+    "translation": "La copte est l'une d'elles."
+   },
+   "id": "eg.l55.e21"
+  }
+ ]
+}

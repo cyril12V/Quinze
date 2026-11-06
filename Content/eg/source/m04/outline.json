@@ -1,0 +1,567 @@
+{
+  "module": {
+    "id": 4,
+    "title": "Le quatrième siècle",
+    "description": "De la dernière grande persécution à la paix de Constantin, d'Arius au concile de Nicée, de saint Athanase aux Pères du désert, jusqu'au concile de Constantinople."
+  },
+  "grammarUnits": [
+    {
+      "id": "eg.g25.grande_persecution",
+      "title": "La grande persécution (303-311)",
+      "difficulty": 2,
+      "prerequisites": [],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g26.constantin",
+      "title": "Constantin et l'édit de Milan (313)",
+      "difficulty": 2,
+      "prerequisites": [
+        "eg.g25.grande_persecution"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g27.arius",
+      "title": "Arius et l'arianisme",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g26.constantin"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g28.concile_de_nicee",
+      "title": "Le concile de Nicée (325)",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g27.arius"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g29.athanase",
+      "title": "Saint Athanase (vers 298-373)",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g28.concile_de_nicee"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g30.peres_du_desert",
+      "title": "Le monachisme égyptien",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g29.athanase"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g31.concile_de_constantinople",
+      "title": "Le concile de Constantinople (381)",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g28.concile_de_nicee"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g32.bilan_du_siecle",
+      "title": "Bilan du IVe siècle",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g31.concile_de_constantinople"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    }
+  ],
+  "lessons": [
+    {
+      "id": "eg.l25",
+      "sequence": 25,
+      "title": "Le feu avant la paix",
+      "description": "Dioclétien, Galère et la grande persécution de 303 à 311 : pourquoi l'Église copte compte ses années depuis les martyrs.",
+      "difficulty": 2,
+      "grammarUnitId": "eg.g25.grande_persecution",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.g19.diocletien_ere_des_martyrs"
+      ],
+      "vocabulary": [
+        {
+          "word": "Galère",
+          "slug": "galere",
+          "translation": "second de Dioclétien, empereur après lui (305)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "les quatre édits de 303",
+          "slug": "quatre_edits",
+          "translation": "décrets de Dioclétien pour éradiquer le christianisme",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'édit de tolérance (311)",
+          "slug": "edit_de_tolerance_311",
+          "translation": "édit de Galère qui autorise les chrétiens à exister et à prier",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "le pape Pierre, sceau des martyrs",
+          "slug": "pierre_sceau_des_martyrs",
+          "translation": "pape d'Alexandrie martyrisé en 311",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Georges",
+          "slug": "saint_georges",
+          "translation": "martyr de la grande persécution, vers 303",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Mina",
+          "slug": "saint_mina",
+          "translation": "martyr de la grande persécution, vers 309",
+          "partOfSpeech": "person"
+        }
+      ]
+    },
+    {
+      "id": "eg.l26",
+      "sequence": 26,
+      "title": "Constantin : la croix et la paix",
+      "description": "De la vision de 312 à l'édit de Milan, puis Constantinople : comment l'Église passe de la persécution à la faveur de l'empereur.",
+      "difficulty": 2,
+      "grammarUnitId": "eg.g26.constantin",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g25.grande_persecution"
+      ],
+      "vocabulary": [
+        {
+          "word": "Constantin",
+          "slug": "constantin",
+          "translation": "empereur romain (306-337), protecteur de l'Église",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Hélène",
+          "slug": "helene",
+          "translation": "mère de Constantin, qui retrouve la Sainte Croix",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Maxence",
+          "slug": "maxence",
+          "translation": "rival de Constantin, vaincu à Rome en 312",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "l'édit de Milan (313)",
+          "slug": "edit_de_milan",
+          "translation": "édit de tolérance signé par Constantin et Licinius",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "Licinius",
+          "slug": "licinius",
+          "translation": "empereur, co-signataire de l'édit de Milan",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Constantinople",
+          "slug": "constantinople",
+          "translation": "capitale de l'empire d'Orient, fondée en 330",
+          "partOfSpeech": "place"
+        },
+        {
+          "word": "l'évêque du dehors",
+          "slug": "eveque_du_dehors",
+          "translation": "titre que l'empereur se donne pour les affaires extérieures de l'Église",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'Arménie",
+          "slug": "armenie",
+          "translation": "premier pays chrétien, en 301",
+          "partOfSpeech": "place"
+        }
+      ]
+    },
+    {
+      "id": "eg.l27",
+      "sequence": 27,
+      "title": "Arius : le Fils est-il Dieu ?",
+      "description": "Qui est Arius, que dit-il du Christ, pourquoi l'Église ne peut pas l'accepter, et les trois positions du IVe siècle.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g27.arius",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g25.grande_persecution",
+        "eg.g26.constantin"
+      ],
+      "vocabulary": [
+        {
+          "word": "Arius",
+          "slug": "arius",
+          "translation": "prêtre d'Alexandrie, auteur de l'hérésie arienne",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "l'arianisme",
+          "slug": "arianisme",
+          "translation": "hérésie qui nie la divinité du Christ",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le pape Alexandre",
+          "slug": "alexandre_d_alexandrie",
+          "translation": "19e pape d'Alexandrie, adversaire d'Arius",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Eusèbe de Nicomédie",
+          "slug": "eusebe_de_nicomedie",
+          "translation": "évêque séduit par Arius",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le semi-arianisme",
+          "slug": "semi_arianisme",
+          "translation": "position intermédiaire : le Fils aurait une substance similaire",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "homoousios",
+          "slug": "homoousios",
+          "translation": "mot grec : de même substance que le Père",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la divinité du Christ",
+          "slug": "divinite_du_christ",
+          "translation": "vérité centrale : Jésus est Dieu",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l28",
+      "sequence": 28,
+      "title": "Nicée 325 : le premier concile",
+      "description": "Qui convoque, où, quand, contre qui, ce qui est décidé : le premier concile œcuménique et son credo.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g28.concile_de_nicee",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g25.grande_persecution",
+        "eg.g26.constantin",
+        "eg.g27.arius"
+      ],
+      "vocabulary": [
+        {
+          "word": "le concile de Nicée",
+          "slug": "concile_de_nicee",
+          "translation": "premier concile œcuménique (325), contre l'arianisme",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "le concile œcuménique",
+          "slug": "concile_oecumenique",
+          "translation": "assemblée d'évêques de toute l'Église",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "Nicée",
+          "slug": "nicee",
+          "translation": "ville de Turquie actuelle où s'est tenu le premier concile",
+          "partOfSpeech": "place"
+        },
+        {
+          "word": "le credo de Nicée",
+          "slug": "credo_de_nicee",
+          "translation": "texte de foi rédigé en 325, base du Credo",
+          "partOfSpeech": "work"
+        },
+        {
+          "word": "les anathèmes",
+          "slug": "anathemes",
+          "translation": "condamnations annexées au credo de Nicée",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "Eusèbe de Césarée",
+          "slug": "eusebe_de_cesaree",
+          "translation": "évêque historien, ami de Constantin",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "les 318 évêques",
+          "slug": "les_318_eveques",
+          "translation": "les évêques de Nicée, selon la tradition",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l29",
+      "sequence": 29,
+      "title": "Athanase : le défenseur de la foi",
+      "description": "De son livre de jeunesse à ses exils, de la Vie d'Antoine à la liste des 27 livres : le patriarche qui tient seul contre le monde.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g29.athanase",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g26.constantin",
+        "eg.g27.arius",
+        "eg.g28.concile_de_nicee"
+      ],
+      "vocabulary": [
+        {
+          "word": "saint Athanase",
+          "slug": "athanase",
+          "translation": "XXe pape d'Alexandrie (vers 328-373), défenseur de la foi",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le défenseur de la foi",
+          "slug": "defenseur_de_la_foi",
+          "translation": "surnom d'Athanase",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "« Sur l'incarnation du Verbe »",
+          "slug": "sur_l_incarnation_du_verbe",
+          "translation": "livre de jeunesse d'Athanase",
+          "partOfSpeech": "work"
+        },
+        {
+          "word": "La Vie d'Antoine",
+          "slug": "vie_d_antoine",
+          "translation": "livre d'Athanase sur saint Antoine",
+          "partOfSpeech": "work"
+        },
+        {
+          "word": "les exils d'Athanase",
+          "slug": "exils_d_athanase",
+          "translation": "expulsions répétées d'Athanase par les ariens",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "Frumentius",
+          "slug": "frumentius",
+          "translation": "premier évêque d'Éthiopie, ordonné par Athanase",
+          "partOfSpeech": "person"
+        }
+      ]
+    },
+    {
+      "id": "eg.l30",
+      "sequence": 30,
+      "title": "Les Pères du désert",
+      "description": "Antoine, Paul, Pacôme, Macaire : comment l'Égypte devient la mère du monachisme, de la solitude à la vie en communauté.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g30.peres_du_desert",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g26.constantin",
+        "eg.g28.concile_de_nicee",
+        "eg.g29.athanase"
+      ],
+      "vocabulary": [
+        {
+          "word": "le monachisme",
+          "slug": "monachisme",
+          "translation": "vie de solitude, de prière et d'ascèse, née en Égypte",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "saint Antoine le Grand",
+          "slug": "saint_antoine",
+          "translation": "père des moines (251-356)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Paul l'ermite",
+          "slug": "saint_paul_l_ermite",
+          "translation": "premier ermite, mort vers 342",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Pacôme",
+          "slug": "saint_pacome",
+          "translation": "fondateur des premiers monastères communautaires",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "la vie cénobitique",
+          "slug": "vie_cenobitique",
+          "translation": "vie des moines en communauté",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "saint Macaire le Grand",
+          "slug": "saint_macaire_le_grand",
+          "translation": "père de Scété (mort en 391)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Scété",
+          "slug": "scete",
+          "translation": "désert de saint Macaire",
+          "partOfSpeech": "place"
+        },
+        {
+          "word": "Jean Cassien",
+          "slug": "jean_cassien",
+          "translation": "moine qui fait connaître le monachisme égyptien à l'Occident",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Chénouté",
+          "slug": "chenoute",
+          "translation": "père du troisième système monastique",
+          "partOfSpeech": "person"
+        }
+      ]
+    },
+    {
+      "id": "eg.l31",
+      "sequence": 31,
+      "title": "Constantinople 381 : l'Esprit Saint",
+      "description": "Le deuxième concile : Théodose Ier, les 150 évêques, Apollinaire, Macédonius et le credo complété.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g31.concile_de_constantinople",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g27.arius",
+        "eg.g28.concile_de_nicee",
+        "eg.g29.athanase",
+        "eg.g30.peres_du_desert"
+      ],
+      "vocabulary": [
+        {
+          "word": "le concile de Constantinople",
+          "slug": "concile_de_constantinople",
+          "translation": "deuxième concile œcuménique (381), contre Apollinaire et Macédonius",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "Théodose Ier",
+          "slug": "theodose_ier",
+          "translation": "empereur (379-395) qui convoque le concile de 381",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Apollinaire de Laodicée",
+          "slug": "apollinaire",
+          "translation": "évêque qui nie l'âme humaine du Christ",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Macédonius",
+          "slug": "macedonius",
+          "translation": "évêque de Constantinople qui dit que l'Esprit Saint est créé",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le Credo de Nicée-Constantinople",
+          "slug": "credo_de_nicee_constantinople",
+          "translation": "credo complété en 381, récité à la messe",
+          "partOfSpeech": "work"
+        },
+        {
+          "word": "saint Grégoire le Théologien",
+          "slug": "saint_gregoire_le_theologien",
+          "translation": "évêque de Nazianze (mort en 390)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Cyrille de Jérusalem",
+          "slug": "saint_cyrille_de_jerusalem",
+          "translation": "père des catéchumènes (mort en 386)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le pape Timothée",
+          "slug": "pape_timothee",
+          "translation": "pape d'Alexandrie présent au concile de 381",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "380 : religion de l'État",
+          "slug": "religion_d_etat_380",
+          "translation": "année où le christianisme devient religion de l'État",
+          "partOfSpeech": "date"
+        }
+      ]
+    },
+    {
+      "id": "eg.l32",
+      "sequence": 32,
+      "title": "Le siècle en un tableau",
+      "description": "Les deux conciles côte à côte, les quatre erreurs, les grands saints et les trois liturgies : le bilan du IVe siècle.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g32.bilan_du_siecle",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g25.grande_persecution",
+        "eg.g26.constantin",
+        "eg.g27.arius",
+        "eg.g28.concile_de_nicee",
+        "eg.g29.athanase",
+        "eg.g30.peres_du_desert",
+        "eg.g31.concile_de_constantinople"
+      ],
+      "vocabulary": [
+        {
+          "word": "saint Basile le Grand",
+          "slug": "saint_basile_le_grand",
+          "translation": "évêque de Césarée de Cappadoce (mort en 379)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Éphrem le Syrien",
+          "slug": "saint_ephrem_le_syrien",
+          "translation": "diacre syrien et poète (mort en 373)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Ambroise de Milan",
+          "slug": "saint_ambroise_de_milan",
+          "translation": "évêque de Milan (mort en 397)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Jean Chrysostome",
+          "slug": "saint_jean_chrysostome",
+          "translation": "patriarche de Constantinople, « bouche d'or » (mort en 407)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Augustin d'Hippone",
+          "slug": "saint_augustin_d_hippone",
+          "translation": "évêque d'Hippone en Afrique du Nord (mort en 430)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Nicolas de Myre",
+          "slug": "saint_nicolas_de_myre",
+          "translation": "évêque de Myre (mort en 343)",
+          "partOfSpeech": "person"
+        }
+      ]
+    }
+  ]
+}

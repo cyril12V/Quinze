@@ -1,0 +1,697 @@
+{
+ "lessonId": "eg.l58",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.sept_sacrements",
+    "eg.v.deux_sacrements",
+    "eg.v.icone",
+    "eg.v.succession_apostolique"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les mots-clés de la leçon",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "sept sacrements",
+     "right": "baptême, chrismation, eucharistie, confession, onction, mariage, sacerdoce"
+    },
+    {
+     "left": "deux sacrements",
+     "right": "le baptême et la Cène"
+    },
+    {
+     "left": "vénérer",
+     "right": "honorer sans adorer"
+    },
+    {
+     "left": "succession apostolique",
+     "right": "ordinations en chaîne depuis les apôtres"
+    }
+   ],
+   "answer": "sept sacrements = baptême, chrismation, eucharistie, confession, onction, mariage, sacerdoce ; deux sacrements = le baptême et la Cène ; vénérer = honorer sans adorer ; succession apostolique = ordinations en chaîne depuis les apôtres",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre repères résument la leçon.",
+   "tip": "7 contre 2.",
+   "id": "eg.l58.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.sept_sacrements"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de sacrements compte l'Église copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Sept",
+    "Deux",
+    "Trois",
+    "Douze"
+   ],
+   "answer": "Sept",
+   "acceptedAnswers": [
+    "Sept"
+   ],
+   "explanation": "Baptême, chrismation, eucharistie, confession, onction des malades, mariage et sacerdoce.",
+   "tip": "Sept sacrements.",
+   "extraExample": {
+    "text": "Les catholiques et les orthodoxes grecs aussi.",
+    "translation": "Les protestants en gardent généralement deux."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Deux",
+     "category": "word_confusion",
+     "feedback": "Deux est le nombre retenu par la plupart des protestants."
+    }
+   ],
+   "id": "eg.l58.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.deux_sacrements"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quels sacrements retiennent la plupart des protestants ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Le baptême et la Cène",
+    "La confession et le mariage",
+    "Le sacerdoce et l'onction",
+    "La chrismation et l'eucharistie"
+   ],
+   "answer": "Le baptême et la Cène",
+   "acceptedAnswers": [
+    "Le baptême et la Cène"
+   ],
+   "explanation": "La plupart des protestants gardent le baptême et la Cène, les deux actes que Jésus a institués explicitement.",
+   "tip": "Baptême + Cène.",
+   "extraExample": {
+    "text": "La Cène est le mot protestant pour l'eucharistie.",
+    "translation": "Luther y voit une présence réelle."
+   },
+   "errorPatterns": [
+    {
+     "equals": "La confession et le mariage",
+     "category": "word_confusion",
+     "feedback": "Ces actes sont honorés par les protestants, mais ne sont pas des sacrements pour eux."
+    }
+   ],
+   "id": "eg.l58.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.sept_sacrements"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les sept sacrements sont : baptême, chrismation, eucharistie, confession, onction des malades, mariage et ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "sacerdoce",
+    "pèlerinage",
+    "jeûne",
+    "Cène"
+   ],
+   "answer": "sacerdoce",
+   "acceptedAnswers": [
+    "sacerdoce",
+    "le sacerdoce"
+   ],
+   "explanation": "Le sacerdoce (ordination) est le septième sacrement. Il donne à des hommes la charge de l'Église.",
+   "tip": "Sept : le dernier est le sacerdoce.",
+   "extraExample": {
+    "text": "Les évêques et les prêtres le reçoivent.",
+    "translation": "Les diacres aussi, à leur degré."
+   },
+   "id": "eg.l58.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.intercession_des_saints"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel verset protestant cite-t-on pour un seul médiateur ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1 Timothée 2, 5",
+    "Luc 20, 38",
+    "Jacques 2, 24",
+    "Exode 25, 18"
+   ],
+   "answer": "1 Timothée 2, 5",
+   "acceptedAnswers": [
+    "1 Timothée 2, 5"
+   ],
+   "explanation": "Les protestants citent 1 Timothée 2, 5. Nous le croyons aussi : le Christ est le seul médiateur, et les saints prient avec nous.",
+   "tip": "Un médiateur : Christ.",
+   "extraExample": {
+    "text": "Les saints prient comme des frères.",
+    "translation": "Ils ne remplacent pas le Christ."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Luc 20, 38",
+     "category": "word_confusion",
+     "feedback": "Luc 20, 38 est le verset sur les vivants, que nous citons pour les saints."
+    }
+   ],
+   "id": "eg.l58.e05"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.intercession_des_saints"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi les Coptes demandent-ils la prière des saints ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Les saints sont vivants en Christ",
+    "Les saints sont plus puissants que Dieu",
+    "Le Christ est absent",
+    "La Bible l'interdit"
+   ],
+   "answer": "Les saints sont vivants en Christ",
+   "acceptedAnswers": [
+    "Les saints sont vivants en Christ"
+   ],
+   "explanation": "Dieu est le Dieu des vivants : les saints, vivants en Christ, prient pour nous comme des frères.",
+   "tip": "Vivants en Christ.",
+   "extraExample": {
+    "text": "Nous prions les uns pour les autres sur la terre.",
+    "translation": "Au ciel, la prière continue."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Les saints sont plus puissants que Dieu",
+     "category": "word_confusion",
+     "feedback": "Aucun saint n'est plus puissant que Dieu : ils intercèdent."
+    }
+   ],
+   "id": "eg.l58.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.intercession_des_saints"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel verset de Jésus dit que Dieu est le Dieu des vivants ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Luc 20, 38",
+    "Luc 1, 48",
+    "Exode 20, 4",
+    "Romains 13, 7"
+   ],
+   "answer": "Luc 20, 38",
+   "acceptedAnswers": [
+    "Luc 20, 38"
+   ],
+   "explanation": "Luc 20, 38 : Dieu n'est pas le Dieu des morts, mais des vivants.",
+   "tip": "20, 38 : vivants.",
+   "extraExample": {
+    "text": "Luc 1, 48 est la bénédiction de Marie.",
+    "translation": "Elle précède de peu la naissance de Jésus."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Luc 1, 48",
+     "category": "word_confusion",
+     "feedback": "Luc 1, 48 est la bénédiction de Marie."
+    }
+   ],
+   "id": "eg.l58.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.veneration"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À qui l'adoration est-elle due ?",
+   "promptLanguage": "fr",
+   "options": [
+    "À Dieu seul",
+    "Aux saints",
+    "Aux icônes",
+    "Aux évêques"
+   ],
+   "answer": "À Dieu seul",
+   "acceptedAnswers": [
+    "À Dieu seul"
+   ],
+   "explanation": "Nous adorons Dieu seul. Nous vénérons les saints et les icônes.",
+   "tip": "Adorer : Dieu.",
+   "extraExample": {
+    "text": "La vénération est un honneur.",
+    "translation": "Elle n'est pas une adoration."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Aux saints",
+     "category": "word_confusion",
+     "feedback": "On honore les saints, mais on n'adore pas."
+    }
+   ],
+   "id": "eg.l58.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.veneration"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les Coptes ___ les saints mais n'adorent que Dieu.",
+   "promptLanguage": "fr",
+   "options": [
+    "vénèrent",
+    "adorent",
+    "ignorent"
+   ],
+   "answer": "vénèrent",
+   "acceptedAnswers": [
+    "vénèrent",
+    "vénérons",
+    "vénère"
+   ],
+   "explanation": "Nous vénérons les saints : nous les honorons, comme Paul le demande.",
+   "tip": "Vénérer ≠ adorer.",
+   "extraExample": {
+    "text": "Honneur à qui l'honneur (Romains 13, 7).",
+    "translation": "Cela concerne aussi les saints."
+   },
+   "id": "eg.l58.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.icone"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi l'Église copte a-t-elle des icônes ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Dieu s'est rendu visible en Jésus-Christ",
+    "La Bible l'ordonne partout",
+    "On adore les images",
+    "Rome l'impose"
+   ],
+   "answer": "Dieu s'est rendu visible en Jésus-Christ",
+   "acceptedAnswers": [
+    "Dieu s'est rendu visible en Jésus-Christ"
+   ],
+   "explanation": "Dieu s'est fait visible en Jésus-Christ. C'est le fondement des icônes.",
+   "tip": "Incarnation = icônes.",
+   "extraExample": {
+    "text": "Jean 1, 14 : le Verbe s'est fait chair.",
+    "translation": "Colossiens 1, 15 : il est l'image du Dieu invisible."
+   },
+   "errorPatterns": [
+    {
+     "equals": "On adore les images",
+     "category": "word_confusion",
+     "feedback": "Nous n'adorons pas les icônes : l'honneur passe à celui qu'elles représentent."
+    }
+   ],
+   "id": "eg.l58.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.icone"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel passage de la Bible les réformés citent-ils contre les images ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Exode 20, 4",
+    "Exode 25, 18",
+    "Jean 1, 14",
+    "Luc 1, 47"
+   ],
+   "answer": "Exode 20, 4",
+   "acceptedAnswers": [
+    "Exode 20, 4"
+   ],
+   "explanation": "Exode 20, 4 interdit de se faire des idoles. Nous répondons par Exode 25, 18 et par l'Incarnation.",
+   "tip": "20, 4 : interdit ; 25, 18 : chérubins.",
+   "extraExample": {
+    "text": "Dieu demande des chérubins sculptés pour l'arche.",
+    "translation": "Exode 25, 18."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Exode 25, 18",
+     "category": "word_confusion",
+     "feedback": "Exode 25, 18 est le texte que nous citons : Dieu demande des chérubins sculptés."
+    }
+   ],
+   "id": "eg.l58.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.icone"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel saint Père dit que l'honneur rendu à l'image passe au modèle ?",
+   "promptLanguage": "fr",
+   "hint": "Son nom commence par B.",
+   "answer": "Basile",
+   "acceptedAnswers": [
+    "Basile",
+    "saint Basile",
+    "Basile de Césarée"
+   ],
+   "explanation": "Saint Basile dit : l'honneur rendu à l'image passe au modèle. C'est le principe de la vénération des icônes.",
+   "tip": "Basile : image → modèle.",
+   "extraExample": {
+    "text": "Basile de Césarée est un Père du IVe siècle.",
+    "translation": "La liturgie copte porte aussi son nom."
+   },
+   "id": "eg.l58.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.succession_apostolique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Le pape Tawadros II est le successeur de saint Marc, numéro :",
+   "promptLanguage": "fr",
+   "options": [
+    "118",
+    "58",
+    "12",
+    "260"
+   ],
+   "answer": "118",
+   "acceptedAnswers": [
+    "118"
+   ],
+   "explanation": "Tawadros II est le 118e successeur de saint Marc.",
+   "tip": "118e successeur.",
+   "extraExample": {
+    "text": "La liste commence avec saint Marc, vers 60.",
+    "translation": "La chaîne n'est pas interrompue."
+   },
+   "errorPatterns": [
+    {
+     "equals": "58",
+     "category": "word_confusion",
+     "feedback": "Le numéro est 118."
+    }
+   ],
+   "id": "eg.l58.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.succession_apostolique"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les évêques coptes sont ordonnés par imposition des ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "mains",
+    "noms",
+    "pieds"
+   ],
+   "answer": "mains",
+   "acceptedAnswers": [
+    "mains",
+    "des mains"
+   ],
+   "explanation": "L'imposition des mains transmet la grâce du sacerdoce, comme Paul le rappelle à Timothée (2 Timothée 1, 6).",
+   "tip": "Mains = ordination.",
+   "extraExample": {
+    "text": "Paul rappelle à Timothée le don reçu par l'imposition des mains.",
+    "translation": "C'est un geste biblique."
+   },
+   "id": "eg.l58.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.pasteur"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment appelle-t-on le ministre d'une Église protestante ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un pasteur",
+    "Un évêque",
+    "Un abouna",
+    "Un diacre"
+   ],
+   "answer": "Un pasteur",
+   "acceptedAnswers": [
+    "Un pasteur"
+   ],
+   "explanation": "Le pasteur prêche et dirige le culte. Il est appelé par la communauté.",
+   "tip": "Pasteur = berger.",
+   "extraExample": {
+    "text": "Le pasteur peut être marié.",
+    "translation": "Le prêtre copte aussi, avant l'ordination."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Un abouna",
+     "category": "word_confusion",
+     "feedback": "Abouna est le nom du prêtre copte."
+    }
+   ],
+   "id": "eg.l58.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.v.eglise_evangelique_d_egypte"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "En quelle année la mission presbytérienne américaine s'installe-t-elle en Égypte ?",
+   "promptLanguage": "fr",
+   "hint": "C'est au XIXe siècle.",
+   "answer": "1854",
+   "acceptedAnswers": [
+    "1854",
+    "en 1854"
+   ],
+   "explanation": "La mission arrive en 1854 et ouvre des écoles et des hôpitaux. L'Église évangélique en est née.",
+   "tip": "1854 : mission presbytérienne.",
+   "extraExample": {
+    "text": "L'Église évangélique d'Égypte est presbytérienne.",
+    "translation": "Elle suit la tradition de Calvin."
+   },
+   "id": "eg.l58.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : sacrements, saints et icônes.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "pour",
+    "frères",
+    "nous",
+    "Les",
+    "des",
+    "prient",
+    "saints",
+    "comme"
+   ],
+   "answer": "Les saints prient pour nous comme des frères",
+   "acceptedAnswers": [
+    "Les saints prient pour nous comme des frères"
+   ],
+   "explanation": "Les saints prient pour nous comme des frères.",
+   "tip": "Intercéder : prier pour.",
+   "extraExample": {
+    "text": "Nous demandons aussi aux vivants de prier pour nous.",
+    "translation": "La prière est un lien."
+   },
+   "id": "eg.l58.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g58.protestants_sacrements_saints",
+    "eg.g57.reforme_protestante"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Coptes ou protestants ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Écriture seule",
+     "right": "principe protestant"
+    },
+    {
+     "left": "Écriture et Tradition",
+     "right": "principe copte"
+    },
+    {
+     "left": "Sept sacrements",
+     "right": "choix copte"
+    },
+    {
+     "left": "Deux sacrements",
+     "right": "choix protestant"
+    }
+   ],
+   "answer": "Écriture seule = principe protestant ; Écriture et Tradition = principe copte ; Sept sacrements = choix copte ; Deux sacrements = choix protestant",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre couples résument la différence.",
+   "tip": "Chaque camp, deux repères.",
+   "id": "eg.l58.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g57.reforme_protestante",
+    "eg.v.jean_calvin"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quel réformateur français a organisé l'Église de Genève ?",
+   "promptLanguage": "fr",
+   "hint": "Son prénom est Jean.",
+   "answer": "Calvin",
+   "acceptedAnswers": [
+    "Calvin",
+    "Jean Calvin"
+   ],
+   "explanation": "Jean Calvin s'établit à Genève et publie l'Institution de la religion chrétienne en 1536.",
+   "tip": "Calvin : Genève.",
+   "extraExample": {
+    "text": "Les presbytériens en descendent.",
+    "translation": "L'Église évangélique d'Égypte aussi."
+   },
+   "id": "eg.l58.e19"
+  },
+  {
+   "unitIds": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.v.azymes"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — L'hostie des catholiques latins est un pain ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "azyme",
+    "levé",
+    "d'orge"
+   ],
+   "answer": "azyme",
+   "acceptedAnswers": [
+    "azyme",
+    "azymes",
+    "sans levain"
+   ],
+   "explanation": "Les latins consacrent du pain azyme, sans levain.",
+   "tip": "Azyme : sans levain.",
+   "extraExample": {
+    "text": "L'Église copte utilise du pain levé.",
+    "translation": "Ce point a pesé en 1054."
+   },
+   "id": "eg.l58.e20"
+  },
+  {
+   "unitIds": [
+    "eg.g55.papaute_filioque",
+    "eg.v.ex_cathedra"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Révision — Pour les catholiques, le pape est infaillible quand il enseigne ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "ex cathedra",
+    "en privé",
+    "en voyage"
+   ],
+   "answer": "ex cathedra",
+   "acceptedAnswers": [
+    "ex cathedra"
+   ],
+   "explanation": "L'infaillibilité vaut seulement pour l'enseignement solennel, ex cathedra.",
+   "tip": "Ex cathedra : solennel.",
+   "extraExample": {
+    "text": "Ce dogme date de 1870.",
+    "translation": "Il concerne la foi et la morale."
+   },
+   "id": "eg.l58.e21"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_malankare"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quelle Église orthodoxe orientale de l'Inde rattache ses origines à l'apôtre Thomas ?",
+   "promptLanguage": "fr",
+   "hint": "Son nom commence par M.",
+   "answer": "malankare",
+   "acceptedAnswers": [
+    "malankare",
+    "Église malankare",
+    "l'Église malankare"
+   ],
+   "explanation": "L'Église malankare est celle du Kerala, en Inde.",
+   "tip": "Thomas, Inde, malankare.",
+   "extraExample": {
+    "text": "Elle est en communion avec le patriarcat d'Antioche.",
+    "translation": "Elle partage la même foi que la nôtre."
+   },
+   "id": "eg.l58.e22"
+  }
+ ]
+}

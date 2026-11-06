@@ -1,0 +1,702 @@
+{
+  "lessonId": "eg.l28",
+  "exercises": [
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee",
+        "eg.v.eusebe_de_cesaree"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Qui a fait quoi à Nicée ?",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Constantin",
+          "right": "convoque le concile"
+        },
+        {
+          "left": "Le pape Alexandre",
+          "right": "préside, selon la tradition copte"
+        },
+        {
+          "left": "Athanase",
+          "right": "expose les erreurs d'Arius"
+        },
+        {
+          "left": "Eusèbe de Césarée",
+          "right": "père de l'histoire ecclésiastique"
+        }
+      ],
+      "answer": "Constantin = convoque le concile ; Le pape Alexandre = préside, selon la tradition copte ; Athanase = expose les erreurs d'Arius ; Eusèbe de Césarée = père de l'histoire ecclésiastique",
+      "acceptedAnswers": [],
+      "explanation": "Constantin convoque, Alexandre préside, Athanase argumente et Eusèbe de Césarée écrit l'histoire.",
+      "tip": "Constantin convoque, Alexandre préside, Athanase défend.",
+      "extraExample": {
+        "text": "Nicée est aujourd'hui İznik, en Turquie.",
+        "translation": "La ville était alors tout près de la résidence impériale de Nicomédie."
+      },
+      "id": "eg.l28.e01"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui convoque le concile de Nicée ?",
+      "promptLanguage": "fr",
+      "options": [
+        "L'empereur Constantin",
+        "Le pape Alexandre",
+        "Arius",
+        "L'empereur Théodose Ier"
+      ],
+      "answer": "L'empereur Constantin",
+      "acceptedAnswers": [
+        "L'empereur Constantin"
+      ],
+      "explanation": "C'est Constantin, l'évêque du dehors, qui convoque Nicée pour rétablir l'unité de l'empire. Théodose Ier convoquera Constantinople, en 381.",
+      "tip": "Nicée = Constantin.",
+      "extraExample": {
+        "text": "Le credo de Nicée est la base du Credo que tu récites à la messe.",
+        "translation": "Le texte a été complété à Constantinople en 381, c'est la prochaine étape."
+      },
+      "errorPatterns": [
+        {
+          "equals": "L'empereur Théodose Ier",
+          "category": "word_confusion",
+          "feedback": "Théodose Ier convoque le concile de Constantinople, en 381."
+        }
+      ],
+      "id": "eg.l28.e02"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.nicee"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Dans quelle ville se tient le premier concile œcuménique ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Nicée",
+        "Constantinople",
+        "Éphèse",
+        "Alexandrie"
+      ],
+      "answer": "Nicée",
+      "acceptedAnswers": [
+        "Nicée"
+      ],
+      "explanation": "Le premier concile se tient à Nicée. Constantinople accueillera le deuxième, Éphèse le troisième.",
+      "tip": "Premier = Nicée.",
+      "extraExample": {
+        "text": "Athanase n'a pas encore 30 ans quand il suit Alexandre à Nicée.",
+        "translation": "Un jeune diacre devient la voix de la foi : c'est son premier grand rôle."
+      },
+      "errorPatterns": [
+        {
+          "equals": "Constantinople",
+          "category": "word_confusion",
+          "feedback": "C'est le deuxième concile (381)."
+        },
+        {
+          "equals": "Éphèse",
+          "category": "word_confusion",
+          "feedback": "C'est le troisième concile (431)."
+        }
+      ],
+      "id": "eg.l28.e03"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le concile de Nicée se tient en ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "325",
+        "313",
+        "381",
+        "431"
+      ],
+      "answer": "325",
+      "acceptedAnswers": [
+        "325"
+      ],
+      "explanation": "325 est l'année du premier concile œcuménique. 381 est celle du deuxième, 431 celle du troisième.",
+      "tip": "325, premier.",
+      "extraExample": {
+        "text": "Nicée est aujourd'hui İznik, en Turquie.",
+        "translation": "La ville était alors tout près de la résidence impériale de Nicomédie."
+      },
+      "errorPatterns": [
+        {
+          "equals": "381",
+          "category": "word_confusion",
+          "feedback": "381 est Constantinople."
+        },
+        {
+          "equals": "313",
+          "category": "word_confusion",
+          "feedback": "313 est l'édit de Milan."
+        }
+      ],
+      "id": "eg.l28.e04"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.les_318_eveques"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Combien d'évêques sont réunis à Nicée, selon la tradition ?",
+      "promptLanguage": "fr",
+      "options": [
+        "318",
+        "150",
+        "200",
+        "12"
+      ],
+      "answer": "318",
+      "acceptedAnswers": [
+        "318"
+      ],
+      "explanation": "La tradition retient 318 évêques à Nicée. 150 évêques se réuniront à Constantinople et 200 à Éphèse.",
+      "tip": "318 à Nicée.",
+      "extraExample": {
+        "text": "Le credo de Nicée est la base du Credo que tu récites à la messe.",
+        "translation": "Le texte a été complété à Constantinople en 381, c'est la prochaine étape."
+      },
+      "errorPatterns": [
+        {
+          "equals": "150",
+          "category": "word_confusion",
+          "feedback": "150 évêques sont à Constantinople, en 381."
+        },
+        {
+          "equals": "200",
+          "category": "word_confusion",
+          "feedback": "200 évêques sont à Éphèse, en 431."
+        }
+      ],
+      "id": "eg.l28.e05"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.les_318_eveques"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Par qui l'évêque de Rome est-il représenté à Nicée ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Par deux prêtres",
+        "Par un diacre",
+        "Par l'empereur",
+        "Il est présent en personne"
+      ],
+      "answer": "Par deux prêtres",
+      "acceptedAnswers": [
+        "Par deux prêtres"
+      ],
+      "explanation": "Sylvestre, évêque de Rome, est trop âgé : il envoie deux prêtres pour le représenter.",
+      "tip": "Rome envoie deux prêtres.",
+      "extraExample": {
+        "text": "Athanase n'a pas encore 30 ans quand il suit Alexandre à Nicée.",
+        "translation": "Un jeune diacre devient la voix de la foi : c'est son premier grand rôle."
+      },
+      "id": "eg.l28.e06"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee",
+        "eg.v.alexandre_d_alexandrie"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui préside le concile, selon la tradition copte ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Le pape Alexandre",
+        "Le pape Pierre",
+        "Eusèbe de Césarée",
+        "Constantin"
+      ],
+      "answer": "Le pape Alexandre",
+      "acceptedAnswers": [
+        "Le pape Alexandre"
+      ],
+      "explanation": "Selon ton cours, le pape copte Alexandre préside le concile : l'Église d'Alexandrie est en première ligne.",
+      "tip": "Alexandre préside.",
+      "extraExample": {
+        "text": "Nicée est aujourd'hui İznik, en Turquie.",
+        "translation": "La ville était alors tout près de la résidence impériale de Nicomédie."
+      },
+      "errorPatterns": [
+        {
+          "equals": "Constantin",
+          "category": "word_confusion",
+          "feedback": "Constantin convoque, mais il n'est pas évêque : il ne préside pas la doctrine."
+        }
+      ],
+      "id": "eg.l28.e07"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel est le rôle d'Athanase à Nicée ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Il expose les erreurs d'Arius",
+        "Il rédige les ordres de l'empereur",
+        "Il défend Arius",
+        "Il quitte le concile"
+      ],
+      "answer": "Il expose les erreurs d'Arius",
+      "acceptedAnswers": [
+        "Il expose les erreurs d'Arius"
+      ],
+      "explanation": "Le jeune diacre Athanase expose les erreurs d'Arius et convainc les évêques de l'excommunier.",
+      "tip": "Athanase = accusateur de l'erreur.",
+      "extraExample": {
+        "text": "Le credo de Nicée est la base du Credo que tu récites à la messe.",
+        "translation": "Le texte a été complété à Constantinople en 381, c'est la prochaine étape."
+      },
+      "id": "eg.l28.e08"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_oecumenique"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que veut dire « œcuménique » ?",
+      "promptLanguage": "fr",
+      "options": [
+        "De toute la terre habitée",
+        "Réservé aux évêques",
+        "Très ancien",
+        "Interdit au peuple"
+      ],
+      "answer": "De toute la terre habitée",
+      "acceptedAnswers": [
+        "De toute la terre habitée"
+      ],
+      "explanation": "Un concile œcuménique réunit les évêques de toute l'Église, pas d'un seul pays. Nicée est le premier.",
+      "tip": "Œcuménique = universel.",
+      "extraExample": {
+        "text": "Athanase n'a pas encore 30 ans quand il suit Alexandre à Nicée.",
+        "translation": "Un jeune diacre devient la voix de la foi : c'est son premier grand rôle."
+      },
+      "id": "eg.l28.e09"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le concile de Nicée ___ Arius.",
+      "promptLanguage": "fr",
+      "options": [
+        "excommunie",
+        "exile à Rome",
+        "nomme évêque",
+        "bénit"
+      ],
+      "answer": "excommunie",
+      "acceptedAnswers": [
+        "excommunie"
+      ],
+      "explanation": "Nicée condamne Arius et l'excommunie : il est exclu de l'Église tant qu'il ne renonce pas à ses erreurs.",
+      "tip": "Nicée = excommunication d'Arius.",
+      "extraExample": {
+        "text": "Nicée est aujourd'hui İznik, en Turquie.",
+        "translation": "La ville était alors tout près de la résidence impériale de Nicomédie."
+      },
+      "errorPatterns": [
+        {
+          "equals": "nomme évêque",
+          "category": "word_confusion",
+          "feedback": "Au contraire : Arius est condamné."
+        }
+      ],
+      "id": "eg.l28.e10"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.anathemes"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Avec le credo, les pères de Nicée rédigent des ___ qui condamnent l'enseignement d'Arius.",
+      "promptLanguage": "fr",
+      "options": [
+        "anathèmes",
+        "chansons",
+        "miracles",
+        "dogmes de paix"
+      ],
+      "answer": "anathèmes",
+      "acceptedAnswers": [
+        "anathèmes",
+        "anathemes"
+      ],
+      "explanation": "Les anathèmes sont les condamnations de l'arianisme annexées au credo.",
+      "tip": "Anathème = condamnation.",
+      "extraExample": {
+        "text": "Le credo de Nicée est la base du Credo que tu récites à la messe.",
+        "translation": "Le texte a été complété à Constantinople en 381, c'est la prochaine étape."
+      },
+      "id": "eg.l28.e11"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.credo_de_nicee"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Combien d'évêques sur 318 signent d'abord le credo et les anathèmes ?",
+      "promptLanguage": "fr",
+      "options": [
+        "315",
+        "300",
+        "150",
+        "318"
+      ],
+      "answer": "315",
+      "acceptedAnswers": [
+        "315"
+      ],
+      "explanation": "315 évêques signent. Trois résistent aux anathèmes puis cèdent sous la pression de Constantin.",
+      "tip": "315 + 3 = 318.",
+      "extraExample": {
+        "text": "Athanase n'a pas encore 30 ans quand il suit Alexandre à Nicée.",
+        "translation": "Un jeune diacre devient la voix de la foi : c'est son premier grand rôle."
+      },
+      "id": "eg.l28.e12"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.credo_de_nicee",
+        "eg.v.eusebe_de_nicomedie"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quels trois évêques refusent d'abord de signer les anathèmes ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Eusèbe de Nicomédie, Théognis de Nicée et Maris de Chalcédoine",
+        "Alexandre, Athanase et Léonce",
+        "Eustathe, Macaire et Sylvestre",
+        "Arius, Alexandre et Eusèbe de Césarée"
+      ],
+      "answer": "Eusèbe de Nicomédie, Théognis de Nicée et Maris de Chalcédoine",
+      "acceptedAnswers": [
+        "Eusèbe de Nicomédie, Théognis de Nicée et Maris de Chalcédoine"
+      ],
+      "explanation": "Ces trois évêques signent le credo mais pas les anathèmes. Ils propageront ensuite la doctrine arienne.",
+      "tip": "Un Eusèbe, un Théognis, un Maris.",
+      "extraExample": {
+        "text": "Nicée est aujourd'hui İznik, en Turquie.",
+        "translation": "La ville était alors tout près de la résidence impériale de Nicomédie."
+      },
+      "id": "eg.l28.e13"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee",
+        "eg.v.homoousios"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Nicée en bref.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Qui convoque ?",
+          "right": "Constantin"
+        },
+        {
+          "left": "Quand ?",
+          "right": "325"
+        },
+        {
+          "left": "Contre qui ?",
+          "right": "l'arianisme"
+        },
+        {
+          "left": "Quel mot-clé ?",
+          "right": "homoousios"
+        }
+      ],
+      "answer": "Qui convoque ? = Constantin ; Quand ? = 325 ; Contre qui ? = l'arianisme ; Quel mot-clé ? = homoousios",
+      "acceptedAnswers": [],
+      "explanation": "Constantin convoque en 325 contre l'arianisme, et le mot-clé est homoousios.",
+      "tip": "Constantin, 325, arianisme, homoousios.",
+      "extraExample": {
+        "text": "Le credo de Nicée est la base du Credo que tu récites à la messe.",
+        "translation": "Le texte a été complété à Constantinople en 381, c'est la prochaine étape."
+      },
+      "id": "eg.l28.e14"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Combien de canons Nicée établit-il ?",
+      "promptLanguage": "fr",
+      "answer": "20",
+      "acceptedAnswers": [
+        "20",
+        "vingt",
+        "20 canons",
+        "vingt canons"
+      ],
+      "explanation": "Nicée établit vingt canons : ce sont des règles pratiques pour la vie de l'Église, en plus du credo.",
+      "tip": "20 canons.",
+      "extraExample": {
+        "text": "Athanase n'a pas encore 30 ans quand il suit Alexandre à Nicée.",
+        "translation": "Un jeune diacre devient la voix de la foi : c'est son premier grand rôle."
+      },
+      "id": "eg.l28.e15"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.eusebe_de_cesaree"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Quel évêque, ami de Constantin, est appelé le père de l'histoire ecclésiastique ?",
+      "promptLanguage": "fr",
+      "answer": "Eusèbe de Césarée",
+      "acceptedAnswers": [
+        "Eusèbe de Césarée",
+        "Eusèbe"
+      ],
+      "explanation": "Eusèbe de Césarée a laissé une Histoire ecclésiastique, précieuse pour connaître les premiers siècles.",
+      "tip": "Eusèbe de Césarée = historien.",
+      "extraExample": {
+        "text": "Nicée est aujourd'hui İznik, en Turquie.",
+        "translation": "La ville était alors tout près de la résidence impériale de Nicomédie."
+      },
+      "id": "eg.l28.e16"
+    },
+    {
+      "unitIds": [
+        "eg.g27.arius",
+        "eg.v.arianisme",
+        "eg.v.concile_de_nicee",
+        "eg.v.arianisme"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Contre quelle hérésie le concile de Nicée est-il réuni ?",
+      "promptLanguage": "fr",
+      "answer": "L'arianisme",
+      "acceptedAnswers": [
+        "L'arianisme",
+        "arianisme",
+        "l'hérésie arienne"
+      ],
+      "explanation": "Nicée est réuni contre l'arianisme, qui nie la divinité du Christ.",
+      "tip": "Nicée = arianisme.",
+      "extraExample": {
+        "text": "Le credo de Nicée est la base du Credo que tu récites à la messe.",
+        "translation": "Le texte a été complété à Constantinople en 381, c'est la prochaine étape."
+      },
+      "id": "eg.l28.e17"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+      "prompt": "Phrase-repère : Nicée.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "Le",
+        "condamne",
+        "325",
+        "Nicée",
+        "Arius",
+        "concile",
+        "de",
+        "en"
+      ],
+      "answer": "Le concile de Nicée condamne Arius en 325",
+      "acceptedAnswers": [
+        "Le concile de Nicée condamne Arius en 325",
+        "En 325 le concile de Nicée condamne Arius"
+      ],
+      "explanation": "Nicée est la première décision de l'Église entière contre Arius.",
+      "tip": "Nicée 325 = Arius condamné.",
+      "extraExample": {
+        "text": "Athanase n'a pas encore 30 ans quand il suit Alexandre à Nicée.",
+        "translation": "Un jeune diacre devient la voix de la foi : c'est son premier grand rôle."
+      },
+      "id": "eg.l28.e18"
+    },
+    {
+      "unitIds": [
+        "eg.g27.arius",
+        "eg.v.semi_arianisme",
+        "eg.v.semi_arianisme"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quelle position pense que le Fils a une substance similaire à celle du Père ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Le semi-arianisme",
+        "L'arianisme",
+        "L'orthodoxie",
+        "L'apollinarisme"
+      ],
+      "answer": "Le semi-arianisme",
+      "acceptedAnswers": [
+        "Le semi-arianisme"
+      ],
+      "explanation": "Le semi-arianisme dit « substance similaire » (homoiousios). L'orthodoxie dit « même substance » (homoousios).",
+      "tip": "Similaire = semi-arien.",
+      "extraExample": {
+        "text": "Nicée est aujourd'hui İznik, en Turquie.",
+        "translation": "La ville était alors tout près de la résidence impériale de Nicomédie."
+      },
+      "id": "eg.l28.e19"
+    },
+    {
+      "unitIds": [
+        "eg.g27.arius",
+        "eg.v.arius",
+        "eg.v.arius"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Arius commence à enseigner vers ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "318",
+        "250",
+        "303",
+        "381"
+      ],
+      "answer": "318",
+      "acceptedAnswers": [
+        "318"
+      ],
+      "explanation": "Vers 318, Arius répand son enseignement à Alexandrie, sept ans avant Nicée.",
+      "tip": "318 puis 325.",
+      "extraExample": {
+        "text": "Le credo de Nicée est la base du Credo que tu récites à la messe.",
+        "translation": "Le texte a été complété à Constantinople en 381, c'est la prochaine étape."
+      },
+      "id": "eg.l28.e20"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.armenie",
+        "eg.v.armenie"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quelle nation précède l'Empire romain en devenant chrétienne dès 301 ?",
+      "promptLanguage": "fr",
+      "options": [
+        "L'Arménie",
+        "L'Égypte",
+        "La Perse",
+        "La Grèce"
+      ],
+      "answer": "L'Arménie",
+      "acceptedAnswers": [
+        "L'Arménie"
+      ],
+      "explanation": "L'Arménie devient chrétienne comme religion d'État en 301, avant même Constantin.",
+      "tip": "301 = Arménie.",
+      "extraExample": {
+        "text": "Athanase n'a pas encore 30 ans quand il suit Alexandre à Nicée.",
+        "translation": "Un jeune diacre devient la voix de la foi : c'est son premier grand rôle."
+      },
+      "id": "eg.l28.e21"
+    },
+    {
+      "unitIds": [
+        "eg.g25.grande_persecution",
+        "eg.v.pierre_sceau_des_martyrs",
+        "eg.v.pierre_sceau_des_martyrs"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel pape copte est le « sceau des martyrs » ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Pierre",
+        "Alexandre",
+        "Athanase",
+        "Marc"
+      ],
+      "answer": "Pierre",
+      "acceptedAnswers": [
+        "Pierre"
+      ],
+      "explanation": "Le pape Pierre meurt en 311. Alexandre, qui préside Nicée, vient après lui comme pape d'Alexandrie.",
+      "tip": "Pierre précède Alexandre.",
+      "extraExample": {
+        "text": "Nicée est aujourd'hui İznik, en Turquie.",
+        "translation": "La ville était alors tout près de la résidence impériale de Nicomédie."
+      },
+      "id": "eg.l28.e22"
+    }
+  ]
+}

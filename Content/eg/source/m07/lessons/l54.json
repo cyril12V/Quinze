@@ -1,0 +1,584 @@
+{
+ "lessonId": "eg.l54",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui a fait quoi à Chalcédoine ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Marcien",
+     "right": "l'empereur qui réunit le concile"
+    },
+    {
+     "left": "Léon",
+     "right": "évêque de Rome, auteur du Tome"
+    },
+    {
+     "left": "Dioscore",
+     "right": "patriarche d'Alexandrie déposé"
+    },
+    {
+     "left": "Eutychès",
+     "right": "condamné par le concile"
+    }
+   ],
+   "answer": "Marcien = l'empereur qui réunit le concile ; Léon = évêque de Rome, auteur du Tome ; Dioscore = patriarche d'Alexandrie déposé ; Eutychès = condamné par le concile",
+   "acceptedAnswers": [],
+   "explanation": "Marcien réunit le concile, qui reçoit la lettre de Léon, dépose Dioscore et condamne Eutychès.",
+   "tip": "Quatre noms de 451.",
+   "id": "eg.l54.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "En quelle année se tient le concile de Chalcédoine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "451",
+    "325",
+    "431",
+    "381"
+   ],
+   "answer": "451",
+   "acceptedAnswers": [
+    "451"
+   ],
+   "explanation": "Chalcédoine se tient en 451, vingt ans après Éphèse (431).",
+   "tip": "451 : Chalcédoine ; 431 : Éphèse.",
+   "extraExample": {
+    "text": "Nicée est en 325, Constantinople en 381.",
+    "translation": "Chalcédoine est le quatrième concile."
+   },
+   "errorPatterns": [
+    {
+     "equals": "431",
+     "category": "word_confusion",
+     "feedback": "431 est l'année d'Éphèse."
+    },
+    {
+     "equals": "325",
+     "category": "word_confusion",
+     "feedback": "325 est l'année de Nicée."
+    }
+   ],
+   "id": "eg.l54.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.deux_natures"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle formule est celle du concile de Chalcédoine ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Un seul Christ reconnu en deux natures",
+    "Une seule nature du Verbe incarné",
+    "Le Christ n'a qu'une apparence humaine",
+    "Le Christ est deux personnes"
+   ],
+   "answer": "Un seul Christ reconnu en deux natures",
+   "acceptedAnswers": [
+    "Un seul Christ reconnu en deux natures"
+   ],
+   "explanation": "La formule de Chalcédoine confesse un Christ reconnu en deux natures, divine et humaine, sans confusion ni séparation.",
+   "tip": "Chalcédoine : deux natures.",
+   "extraExample": {
+    "text": "Nestorius parlait de deux personnes.",
+    "translation": "Chalcédoine le rejette aussi."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Une seule nature du Verbe incarné",
+     "category": "word_confusion",
+     "feedback": "C'est la formule de saint Cyrille, que garde l'Église copte."
+    }
+   ],
+   "id": "eg.l54.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle formule de saint Cyrille garde l'Église copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une seule nature du Verbe incarné",
+    "Un seul Christ reconnu en deux natures",
+    "Le Fils est inférieur au Père",
+    "Deux Christs unis par amour"
+   ],
+   "answer": "Une seule nature du Verbe incarné",
+   "acceptedAnswers": [
+    "Une seule nature du Verbe incarné"
+   ],
+   "explanation": "Cyrille parle d'une seule nature du Verbe incarné : divinité et humanité unies sans mélange.",
+   "tip": "Cyrille : une seule nature.",
+   "extraExample": {
+    "text": "Cyrille est patriarche d'Alexandrie de 412 à 444.",
+    "translation": "Il combat Nestorius à Éphèse."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Le Fils est inférieur au Père",
+     "category": "word_confusion",
+     "feedback": "C'est la thèse d'Arius, condamnée à Nicée."
+    }
+   ],
+   "id": "eg.l54.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "L'Église copte est miaphysite : « mia » veut dire ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "une",
+    "deux",
+    "trois",
+    "nature"
+   ],
+   "answer": "une",
+   "acceptedAnswers": [
+    "une"
+   ],
+   "explanation": "Miaphysite vient du grec mia (une) et physis (nature).",
+   "tip": "Mia = une.",
+   "extraExample": {
+    "text": "Monophysite vient aussi de « une nature ».",
+    "translation": "Mais le sens d'Eutychès est condamné."
+   },
+   "id": "eg.l54.e05"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.deux_natures"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi l'Église d'Alexandrie a-t-elle refusé « en deux natures » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Elle craignait de diviser le Christ",
+    "Elle niait que le Christ soit homme",
+    "Elle refusait les icônes",
+    "Elle voulait un pape à Alexandrie"
+   ],
+   "answer": "Elle craignait de diviser le Christ",
+   "acceptedAnswers": [
+    "Elle craignait de diviser le Christ"
+   ],
+   "explanation": "Dire « en deux natures » après l'union semblait séparer Dieu et l'homme en deux personnes. Alexandrie préfère « de deux natures ».",
+   "tip": "Alexandrie veut défendre l'unité du Christ.",
+   "extraExample": {
+    "text": "L'Église copte confesse la pleine humanité du Christ.",
+    "translation": "Elle condamne Eutychès."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Elle niait que le Christ soit homme",
+     "category": "word_confusion",
+     "feedback": "Au contraire : l'Église copte confesse le Christ vrai homme et condamne Eutychès."
+    }
+   ],
+   "id": "eg.l54.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que reproche-t-on au monophysisme d'Eutychès ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Il absorbait l'humanité du Christ dans sa divinité",
+    "Il divisait le Christ en deux personnes",
+    "Il niait la Trinité",
+    "Il refusait l'Ancien Testament"
+   ],
+   "answer": "Il absorbait l'humanité du Christ dans sa divinité",
+   "acceptedAnswers": [
+    "Il absorbait l'humanité du Christ dans sa divinité"
+   ],
+   "explanation": "Eutychès disait que l'humanité disparaît dans la divinité. L'Église copte le condamne aussi : le Christ est vraiment homme.",
+   "tip": "Eutychès mélange ; Nestorius divise.",
+   "extraExample": {
+    "text": "Miaphysite n'est pas monophysite.",
+    "translation": "La différence est capitale."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Il divisait le Christ en deux personnes",
+     "category": "word_confusion",
+     "feedback": "C'est le reproche fait à Nestorius."
+    }
+   ],
+   "id": "eg.l54.e07"
+  },
+  {
+   "unitIds": [
+    "eg.v.tome_de_leon",
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qu'est-ce que le Tome de Léon ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Une lettre du pape de Rome",
+    "Un livre de saint Athanase",
+    "Une règle de saint Pacôme",
+    "Un canon de Nicée"
+   ],
+   "answer": "Une lettre du pape de Rome",
+   "acceptedAnswers": [
+    "Une lettre du pape de Rome"
+   ],
+   "explanation": "Léon, évêque de Rome, y expose deux natures dans le Christ. Chalcédoine la reçoit ; Alexandrie la refuse.",
+   "tip": "Tome de Léon = lettre de Rome.",
+   "extraExample": {
+    "text": "Le mot « tome » signifie ici un texte long.",
+    "translation": "C'est une lettre à Flavien."
+   },
+   "id": "eg.l54.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel patriarche d'Alexandrie a été déposé à Chalcédoine ?",
+   "promptLanguage": "fr",
+   "hint": "Il succède à Cyrille.",
+   "answer": "Dioscore",
+   "acceptedAnswers": [
+    "Dioscore",
+    "saint Dioscore",
+    "Dioscore d'Alexandrie",
+    "Dioscore Ier"
+   ],
+   "explanation": "Dioscore est déposé en 451, exilé à Gangra et meurt en 454. L'Église copte le vénère comme confesseur.",
+   "tip": "Dioscore = confesseur de la foi.",
+   "extraExample": {
+    "text": "Dioscore succède à saint Cyrille en 444.",
+    "translation": "Il fut patriarche dix ans."
+   },
+   "id": "eg.l54.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.melkites"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment les Égyptiens appellent-ils les chrétiens du parti de l'empereur, restés chalcédoniens ?",
+   "promptLanguage": "fr",
+   "hint": "Le mot veut dire « roi ».",
+   "answer": "melkites",
+   "acceptedAnswers": [
+    "melkites",
+    "les melkites",
+    "melkite"
+   ],
+   "explanation": "Melkite vient du mot « roi » : le patriarche de l'empereur.",
+   "tip": "Melkite = royal.",
+   "extraExample": {
+    "text": "Le patriarche grec d'Alexandrie descend des melkites.",
+    "translation": "Il n'est pas notre pape."
+   },
+   "id": "eg.l54.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.sept_conciles"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de conciles les orthodoxes chalcédoniens reçoivent-ils ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Sept",
+    "Trois",
+    "Quatre",
+    "Neuf"
+   ],
+   "answer": "Sept",
+   "acceptedAnswers": [
+    "Sept"
+   ],
+   "explanation": "Ils vont jusqu'à Nicée II, en 787. Nous en gardons trois.",
+   "tip": "7 contre 3.",
+   "extraExample": {
+    "text": "Nicée II traite des icônes.",
+    "translation": "Il est reçu par les chalcédoniens."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Trois",
+     "category": "word_confusion",
+     "feedback": "Trois est le nombre des conciles reçus par les orthodoxes orientaux."
+    }
+   ],
+   "id": "eg.l54.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.v.trois_conciles"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les orthodoxes orientaux reçoivent Nicée, Constantinople et ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Éphèse",
+    "Chalcédoine",
+    "Latran",
+    "Nicée II"
+   ],
+   "answer": "Éphèse",
+   "acceptedAnswers": [
+    "Éphèse"
+   ],
+   "explanation": "Éphèse (431) proclame Marie Mère de Dieu et condamne Nestorius.",
+   "tip": "Nicée, Constantinople, Éphèse.",
+   "extraExample": {
+    "text": "Éphèse précède Chalcédoine de vingt ans.",
+    "translation": "Il est reçu par tous les orthodoxes."
+   },
+   "id": "eg.l54.e12"
+  },
+  {
+   "unitIds": [
+    "eg.v.patriarcat_grec_d_alexandrie",
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Qui sont les deux patriarches d'Alexandrie depuis 451 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "L'un copte, l'autre grec",
+    "L'un copte, l'autre catholique",
+    "L'un grec, l'autre russe",
+    "L'un syriaque, l'autre arménien"
+   ],
+   "answer": "L'un copte, l'autre grec",
+   "acceptedAnswers": [
+    "L'un copte, l'autre grec"
+   ],
+   "explanation": "L'empereur a imposé un patriarche chalcédonien ; les Égyptiens ont gardé Dioscore. Les deux lignes existent encore.",
+   "tip": "Deux lignes, copte et grecque.",
+   "extraExample": {
+    "text": "Le patriarche grec est en communion avec Constantinople.",
+    "translation": "Notre pape est en communion avec les Églises orientales."
+   },
+   "id": "eg.l54.e13"
+  },
+  {
+   "unitIds": [
+    "eg.v.dialogue_chambesy",
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "fill_blank",
+   "difficulty": 3,
+   "instruction": "Complète la phrase.",
+   "prompt": "En 1989 puis 1990, des théologiens ont constaté à Wadi Natroun et à Chambésy que les deux familles ont la même ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "foi",
+    "liturgie",
+    "langue",
+    "date de Pâques"
+   ],
+   "answer": "foi",
+   "acceptedAnswers": [
+    "foi"
+   ],
+   "explanation": "Les commissions mixtes ont déclaré que les deux familles confessent la même foi dans le Christ.",
+   "tip": "Même foi, mots différents.",
+   "extraExample": {
+    "text": "Il reste à régler la réception des conciles.",
+    "translation": "Le chemin est encore long."
+   },
+   "id": "eg.l54.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase.",
+   "prompt": "Phrase-repère : la formule de saint Cyrille.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "nature",
+    "seule",
+    "incarné",
+    "du",
+    "Verbe",
+    "Une"
+   ],
+   "answer": "Une seule nature du Verbe incarné",
+   "acceptedAnswers": [
+    "Une seule nature du Verbe incarné"
+   ],
+   "explanation": "La formule de saint Cyrille est « une seule nature du Verbe incarné ».",
+   "tip": "Une seule nature, sans mélange.",
+   "extraExample": {
+    "text": "La formule se dit « miaphysite ».",
+    "translation": "Mia veut dire une."
+   },
+   "id": "eg.l54.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglises_orthodoxes_orientales"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Quel concile les Églises orthodoxes orientales n'ont-elles pas reçu ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Chalcédoine",
+    "Nicée",
+    "Constantinople",
+    "Éphèse"
+   ],
+   "answer": "Chalcédoine",
+   "acceptedAnswers": [
+    "Chalcédoine"
+   ],
+   "explanation": "Les Églises orthodoxes orientales gardent les trois premiers conciles et refusent Chalcédoine.",
+   "tip": "Orientales = sans Chalcédoine.",
+   "extraExample": {
+    "text": "Le refus date de 451.",
+    "translation": "Il dure depuis plus de 1500 ans."
+   },
+   "id": "eg.l54.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_orthodoxe_chalcedonienne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Révision — Un orthodoxe grec est :",
+   "promptLanguage": "fr",
+   "options": [
+    "Un orthodoxe chalcédonien",
+    "Un orthodoxe oriental",
+    "Un protestant",
+    "Un catholique"
+   ],
+   "answer": "Un orthodoxe chalcédonien",
+   "acceptedAnswers": [
+    "Un orthodoxe chalcédonien"
+   ],
+   "explanation": "Les orthodoxes grecs, russes ou serbes reçoivent Chalcédoine : ils sont chalcédoniens.",
+   "tip": "Grec, russe, serbe = chalcédoniens.",
+   "extraExample": {
+    "text": "Le patriarche de Constantinople en est le premier en honneur.",
+    "translation": "Il n'a pas le pouvoir d'un pape."
+   },
+   "id": "eg.l54.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_tewahedo",
+    "eg.v.eglise_malankare"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Révision — Les sœurs de l'Église copte",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Église syriaque orthodoxe",
+     "right": "Antioche"
+    },
+    {
+     "left": "Église arménienne apostolique",
+     "right": "Arménie"
+    },
+    {
+     "left": "Église tewahedo",
+     "right": "Éthiopie et Érythrée"
+    },
+    {
+     "left": "Église malankare",
+     "right": "Kerala, en Inde"
+    }
+   ],
+   "answer": "Église syriaque orthodoxe = Antioche ; Église arménienne apostolique = Arménie ; Église tewahedo = Éthiopie et Érythrée ; Église malankare = Kerala, en Inde",
+   "acceptedAnswers": [],
+   "explanation": "Ces quatre Églises sont orthodoxes orientales, comme l'Église copte.",
+   "tip": "Antioche, Arménie, Éthiopie, Kerala.",
+   "id": "eg.l54.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g53.familles_eglises",
+    "eg.v.eglise_catholique"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Révision — Quel est le chef de l'Église catholique ?",
+   "promptLanguage": "fr",
+   "hint": "Il est évêque de Rome.",
+   "answer": "le pape",
+   "acceptedAnswers": [
+    "le pape",
+    "pape",
+    "le pape de Rome"
+   ],
+   "explanation": "Les catholiques reconnaissent le pape, évêque de Rome, comme chef.",
+   "tip": "Catholique = en communion avec le pape.",
+   "extraExample": {
+    "text": "L'Église catholique copte reconnaît aussi le pape.",
+    "translation": "Elle garde la liturgie copte."
+   },
+   "id": "eg.l54.e19"
+  }
+ ]
+}

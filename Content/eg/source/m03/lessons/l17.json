@@ -1,0 +1,579 @@
+{
+  "lessonId": "eg.l17",
+  "exercises": [
+    {
+      "id": "eg.l17.e01",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.culte_de_l_empereur",
+        "eg.v.anthropophagie"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Accusations et notions du début du IIIe siècle",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Le culte impérial",
+          "right": "honneurs religieux rendus à l'empereur et aux dieux de l'Empire"
+        },
+        {
+          "left": "L'anthropophagie",
+          "right": "accusation de manger de la chair humaine"
+        },
+        {
+          "left": "L'accusation d'athéisme",
+          "right": "reproche des philosophes : les chrétiens n'adorent aucun des dieux de l'Empire"
+        },
+        {
+          "left": "Le sacrifice public",
+          "right": "offrande rituelle aux dieux, faite devant tous en signe de loyauté"
+        }
+      ],
+      "answer": "Le culte impérial = honneurs religieux rendus à l'empereur et aux dieux de l'Empire ; L'anthropophagie = accusation de manger de la chair humaine ; L'accusation d'athéisme = reproche des philosophes : les chrétiens n'adorent aucun des dieux de l'Empire ; Le sacrifice public = offrande rituelle aux dieux, faite devant tous en signe de loyauté",
+      "acceptedAnswers": [],
+      "explanation": "Ces quatre notions expliquent l'hostilité : on demande aux chrétiens des gestes qu'ils refusent, et on les accuse de choses fausses.",
+      "tip": "Le culte et le sacrifice = ce qu'on exige ; l'anthropophagie et l'athéisme = ce qu'on leur reproche."
+    },
+    {
+      "id": "eg.l17.e02",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Qui reproche ou fait quoi ?",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Les autorités locales",
+          "right": "doutent de la loyauté des chrétiens"
+        },
+        {
+          "left": "Les philosophes",
+          "right": "les jugent athées"
+        },
+        {
+          "left": "La foule",
+          "right": "les soupçonne d'anthropophagie"
+        },
+        {
+          "left": "Les édits",
+          "right": "appellent à sacrifier sous peine de poursuites"
+        }
+      ],
+      "answer": "Les autorités locales = doutent de la loyauté des chrétiens ; Les philosophes = les jugent athées ; La foule = les soupçonne d'anthropophagie ; Les édits = appellent à sacrifier sous peine de poursuites",
+      "acceptedAnswers": [],
+      "explanation": "Chaque groupe a sa raison : loyauté pour les autorités, croyance pour les philosophes, rumeurs pour la foule, ordre de sacrifier pour les édits.",
+      "tip": "Autorités = loyauté ; philosophes = athéisme ; foule = rumeurs."
+    },
+    {
+      "id": "eg.l17.e03",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Comment appelle-t-on le IIIe siècle dans l'histoire de l'Église ?",
+      "promptLanguage": "fr",
+      "answer": "Le temps des persécutions",
+      "acceptedAnswers": [
+        "Le temps des persécutions"
+      ],
+      "explanation": "Au IIIe siècle, les chrétiens rencontrent très vite l'hostilité des populations et de l'empereur : c'est le temps des persécutions.",
+      "tip": "Siècle 3 = persécutions.",
+      "extraExample": {
+        "text": "Les conciles viendront au IVe siècle, avec Nicée.",
+        "translation": "La paix arrivera avec Constantin."
+      },
+      "options": [
+        "Le temps des persécutions",
+        "Le temps des conciles",
+        "Le temps des schismes",
+        "Le temps de la paix"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "Le temps des conciles",
+          "category": "word_confusion",
+          "feedback": "Les grands conciles œcuméniques commencent à Nicée, au IVe siècle."
+        }
+      ]
+    },
+    {
+      "id": "eg.l17.e04",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.culte_de_l_empereur"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Pourquoi l'empereur voit-il les chrétiens comme une menace ?",
+      "promptLanguage": "fr",
+      "answer": "La remise en cause du culte impérial",
+      "acceptedAnswers": [
+        "La remise en cause du culte impérial"
+      ],
+      "explanation": "Les chrétiens n'adorent que Dieu : refuser le culte impérial, c'est mettre en cause l'autorité de l'empereur.",
+      "tip": "Culte impérial refusé = autorité contestée.",
+      "extraExample": {
+        "text": "Dans l'Empire, honorer l'empereur est un devoir civique.",
+        "translation": "Le refuser est vu comme un acte politique."
+      },
+      "options": [
+        "Parce qu'ils veulent prendre le trône",
+        "Parce qu'ils refusent de payer l'impôt",
+        "Parce qu'ils sont trop nombreux dans l'armée",
+        "La remise en cause du culte impérial"
+      ]
+    },
+    {
+      "id": "eg.l17.e05",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.sacrifice_public",
+        "eg.v.mauvais_citoyens"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Pourquoi les autorités locales doutent-elles de la loyauté des chrétiens ? Parce qu'ils...",
+      "promptLanguage": "fr",
+      "answer": "ne participent pas au culte civique ni aux sacrifices publics",
+      "acceptedAnswers": [
+        "ne participent pas au culte civique ni aux sacrifices publics"
+      ],
+      "explanation": "Participer aux sacrifices publics est le signe visible de la loyauté. Les chrétiens n'y vont pas, donc on les prend pour de mauvais citoyens.",
+      "tip": "Pas de sacrifice = pas de loyauté prouvée.",
+      "extraExample": {
+        "text": "Un citoyen qui s'absente toujours du culte civique se fait remarquer.",
+        "translation": "Le soupçon grandit."
+      },
+      "options": [
+        "parlent une autre langue",
+        "refusent de servir à la guerre",
+        "ne participent pas au culte civique ni aux sacrifices publics",
+        "quittent leur ville sans prévenir"
+      ]
+    },
+    {
+      "id": "eg.l17.e06",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel est l'effet du secret des chrétiens ?",
+      "promptLanguage": "fr",
+      "answer": "Il renforce la méfiance des Romains",
+      "acceptedAnswers": [
+        "Il renforce la méfiance des Romains"
+      ],
+      "explanation": "Le secret fait naître la curiosité et la peur. Plus les chrétiens se cachent, plus le mystère inquiète.",
+      "tip": "Le secret nourrit le soupçon.",
+      "extraExample": {
+        "text": "Une réunion secrète fait imaginer le pire.",
+        "translation": "C'est le cercle vicieux de la persécution."
+      },
+      "options": [
+        "Il fait cesser les édits",
+        "Il renforce la méfiance des Romains",
+        "Il protège totalement l'Église",
+        "Il convainc les philosophes"
+      ]
+    },
+    {
+      "id": "eg.l17.e07",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.anthropophagie",
+        "eg.v.meurtre_rituel"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "De quoi la foule soupçonne-t-elle les chrétiens ?",
+      "promptLanguage": "fr",
+      "answer": "Anthropophagie ou meurtre rituel",
+      "acceptedAnswers": [
+        "Anthropophagie ou meurtre rituel"
+      ],
+      "explanation": "Ces rumeurs étaient fausses. Elles venaient du secret et de paroles mal comprises sur le corps et le sang du Christ.",
+      "tip": "Anthropophagie = manger de la chair humaine (rumeur fausse).",
+      "extraExample": {
+        "text": "Des rumeurs fausses peuvent déclencher des violences.",
+        "translation": "C'est ce qui s'est passé."
+      },
+      "options": [
+        "Anthropophagie ou meurtre rituel",
+        "D'espionnage pour les Perses",
+        "D'incendies volontaires",
+        "De vol dans les temples"
+      ]
+    },
+    {
+      "id": "eg.l17.e08",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.accusation_atheisme"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Comment les philosophes considèrent-ils les chrétiens ?",
+      "promptLanguage": "fr",
+      "answer": "Athées",
+      "acceptedAnswers": [
+        "Athées"
+      ],
+      "explanation": "Sans statues ni temples païens, les chrétiens semblent sans dieu : les philosophes les disent athées.",
+      "tip": "Philosophes = « athées ».",
+      "extraExample": {
+        "text": "L'accusation est un paradoxe.",
+        "translation": "Ils adorent le seul vrai Dieu."
+      },
+      "options": [
+        "Comme des disciples de Platon",
+        "Comme des magiciens",
+        "Comme des soldats déguisés",
+        "Athées"
+      ]
+    },
+    {
+      "id": "eg.l17.e09",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.edit_imperial"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que demandent les édits impériaux à tout citoyen ?",
+      "promptLanguage": "fr",
+      "answer": "Participer au culte impérial et à sacrifier",
+      "acceptedAnswers": [
+        "Participer au culte impérial et à sacrifier"
+      ],
+      "explanation": "Les édits appellent tout citoyen à participer au culte impérial et à sacrifier, sous peine de poursuites.",
+      "tip": "Édit = ordre de sacrifier.",
+      "extraExample": {
+        "text": "Celui qui refuse risque des poursuites.",
+        "translation": "Les chrétiens sont donc visés de fait."
+      },
+      "options": [
+        "De quitter la ville",
+        "De payer un tribut aux évêques",
+        "Participer au culte impérial et à sacrifier",
+        "De se faire baptiser"
+      ]
+    },
+    {
+      "id": "eg.l17.e10",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.persecution_romaine"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Pourquoi les persécutions ne sont-elles pas partout aussi dures ?",
+      "promptLanguage": "fr",
+      "answer": "Les édits sont plus ou moins appliqués au niveau local",
+      "acceptedAnswers": [
+        "Les édits sont plus ou moins appliqués au niveau local"
+      ],
+      "explanation": "Selon la ville et le gouverneur, l'édit est appliqué avec plus ou moins de zèle.",
+      "tip": "Pouvoir local = application inégale.",
+      "extraExample": {
+        "text": "Une ville peut être calme et la voisine violente.",
+        "translation": "D'où les vagues de persécutions."
+      },
+      "options": [
+        "Les gouverneurs sont tous chrétiens",
+        "Les édits sont plus ou moins appliqués au niveau local",
+        "Les chrétiens se cachent toujours bien",
+        "Les empereurs oublient leurs édits"
+      ]
+    },
+    {
+      "id": "eg.l17.e11",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète la phrase.",
+      "prompt": "Les chrétiens ne participent pas au culte ___ ni aux sacrifices publics.",
+      "promptLanguage": "fr",
+      "answer": "civique",
+      "acceptedAnswers": [
+        "civique"
+      ],
+      "explanation": "Les chrétiens ne participent pas au culte civique, c'est-à-dire celui de la cité, ni aux sacrifices publics.",
+      "tip": "Civique = de la cité.",
+      "extraExample": {
+        "text": "Le culte civique réunit tous les habitants.",
+        "translation": "Y manquer se remarque."
+      },
+      "options": [
+        "militaire",
+        "familial",
+        "funéraire",
+        "civique"
+      ]
+    },
+    {
+      "id": "eg.l17.e12",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.accusation_atheisme"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Pour les philosophes, les chrétiens sont des ___.",
+      "promptLanguage": "fr",
+      "answer": "athées",
+      "acceptedAnswers": [
+        "athées"
+      ],
+      "explanation": "Les chrétiens rejettent les dieux de l'Empire : les philosophes les considèrent comme athées.",
+      "tip": "Athées = sans dieu aux yeux des païens.",
+      "extraExample": {
+        "text": "Le mot est un reproche.",
+        "translation": "Il est faux : ils adorent Dieu."
+      },
+      "options": [
+        "magiciens",
+        "stoïciens",
+        "athées",
+        "païens"
+      ]
+    },
+    {
+      "id": "eg.l17.e13",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.edit_imperial"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Les édits sont plus ou moins appliqués au niveau ___.",
+      "promptLanguage": "fr",
+      "answer": "local",
+      "acceptedAnswers": [
+        "local"
+      ],
+      "explanation": "L'application dépend des gouverneurs et des villes, donc du niveau local.",
+      "tip": "Édit national, application locale.",
+      "extraExample": {
+        "text": "Un gouverneur zélé persécute plus.",
+        "translation": "Un gouverneur tolérant, moins."
+      },
+      "options": [
+        "familial",
+        "local",
+        "religieux",
+        "militaire"
+      ]
+    },
+    {
+      "id": "eg.l17.e14",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le secret de la foi chrétienne renforce la ___ des Romains.",
+      "promptLanguage": "fr",
+      "answer": "méfiance",
+      "acceptedAnswers": [
+        "méfiance"
+      ],
+      "explanation": "Les Romains ne comprennent pas ce qui se passe en secret : la méfiance grandit.",
+      "tip": "Secret → méfiance.",
+      "extraExample": {
+        "text": "On craint ce qu'on ne voit pas.",
+        "translation": "Le mystère inquiète."
+      },
+      "options": [
+        "méfiance",
+        "confiance",
+        "joie",
+        "fierté"
+      ]
+    },
+    {
+      "id": "eg.l17.e15",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.culte_de_l_empereur"
+      ],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre.",
+      "prompt": "Reconstitue la phrase-repère sur le culte impérial.",
+      "promptLanguage": "fr",
+      "answer": "Les chrétiens refusent de participer au culte impérial",
+      "acceptedAnswers": [
+        "Les chrétiens refusent de participer au culte impérial"
+      ],
+      "explanation": "Le refus du culte impérial est la cause principale de l'hostilité.",
+      "tip": "Refus = hostilité.",
+      "extraExample": {
+        "text": "Ce refus passe pour de la déloyauté.",
+        "translation": "C'est le cœur du problème."
+      },
+      "tokens": [
+        "refusent",
+        "de",
+        "participer",
+        "au",
+        "culte",
+        "impérial",
+        "Les",
+        "chrétiens"
+      ]
+    },
+    {
+      "id": "eg.l17.e16",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.anthropophagie"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Quelle accusation fausse parle de manger de la chair humaine ? (un mot)",
+      "promptLanguage": "fr",
+      "answer": "anthropophagie",
+      "acceptedAnswers": [
+        "anthropophagie",
+        "l'anthropophagie",
+        "accusation d'anthropophagie"
+      ],
+      "explanation": "Les chrétiens étaient soupçonnés d'anthropophagie, rumeur née d'un malentendu sur le corps et le sang du Christ.",
+      "tip": "Anthropo = homme, phagie = manger.",
+      "extraExample": {
+        "text": "Le mot vient du grec.",
+        "translation": "Il décrit une rumeur, pas une réalité."
+      }
+    },
+    {
+      "id": "eg.l17.e17",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.culte_de_l_empereur"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la réponse.",
+      "prompt": "Comment s'appelle le culte rendu à l'empereur ? (deux mots)",
+      "promptLanguage": "fr",
+      "answer": "culte impérial",
+      "acceptedAnswers": [
+        "culte impérial",
+        "le culte impérial"
+      ],
+      "explanation": "Le culte impérial est l'ensemble des honneurs religieux rendus à l'empereur.",
+      "tip": "Impérial = de l'empereur.",
+      "extraExample": {
+        "text": "Il sert à unir les sujets.",
+        "translation": "Refuser, c'est contester l'empereur."
+      }
+    },
+    {
+      "id": "eg.l17.e18",
+      "unitIds": [
+        "eg.v.saint_marc"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Qui a fondé l'Église d'Alexandrie ? (rappel)",
+      "promptLanguage": "fr",
+      "answer": "saint Marc",
+      "acceptedAnswers": [
+        "saint Marc",
+        "Marc",
+        "saint Marc l'évangéliste",
+        "Marc l'évangéliste",
+        "st Marc"
+      ],
+      "explanation": "L'Église d'Alexandrie a été fondée par saint Marc, l'évangéliste.",
+      "tip": "Alexandrie = Marc.",
+      "extraExample": {
+        "text": "Il est le premier évêque d'Alexandrie.",
+        "translation": "Les papes coptes sont ses successeurs."
+      }
+    },
+    {
+      "id": "eg.l17.e19",
+      "unitIds": [
+        "eg.v.ignace_d_antioche"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Rappel : quel Père apostolique, évêque d'Antioche, meurt martyr à Rome ?",
+      "promptLanguage": "fr",
+      "answer": "saint Ignace",
+      "acceptedAnswers": [
+        "saint Ignace"
+      ],
+      "explanation": "Saint Ignace d'Antioche est un Père apostolique mort martyr à Rome.",
+      "tip": "Ignace = Antioche.",
+      "extraExample": {
+        "text": "Il a écrit des épîtres aux Églises.",
+        "translation": "Il est cité parmi les Pères apostoliques."
+      },
+      "options": [
+        "saint Ignace",
+        "saint Clément",
+        "saint Polycarpe",
+        "saint Barnabé"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "saint Clément",
+          "category": "word_confusion",
+          "feedback": "Clément est évêque de Rome, pas d'Antioche."
+        }
+      ]
+    },
+    {
+      "id": "eg.l17.e20",
+      "unitIds": [
+        "eg.v.martyr"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Rappel : quel mot désigne celui qui donne sa vie pour sa foi ?",
+      "promptLanguage": "fr",
+      "answer": "martyr",
+      "acceptedAnswers": [
+        "martyr"
+      ],
+      "explanation": "Un martyr est un témoin qui meurt pour sa foi. Le confesseur, lui, survit.",
+      "tip": "Martyr = témoin qui meurt.",
+      "extraExample": {
+        "text": "Saint Ignace est un martyr.",
+        "translation": "Les martyrs inspirent les conversions."
+      },
+      "options": [
+        "confesseur",
+        "ermite",
+        "apologiste",
+        "martyr"
+      ]
+    }
+  ]
+}

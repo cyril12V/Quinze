@@ -1,0 +1,541 @@
+{
+  "module": {
+    "id": 3,
+    "title": "Le troisième siècle",
+    "description": "Le siècle des persécutions : pourquoi les chrétiens sont persécutés, les empereurs, l'ère des martyrs, les premiers ermites, les erreurs sur la Trinité, la Tradition et l'organisation de l'Église."
+  },
+  "grammarUnits": [
+    {
+      "id": "eg.g17.chretiens_mal_vus",
+      "title": "Pourquoi persécute-t-on les chrétiens ?",
+      "difficulty": 1,
+      "prerequisites": [],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g18.edits_de_maximin_a_valerien",
+      "title": "Les persécutions de Maximin à Valérien",
+      "difficulty": 2,
+      "prerequisites": [
+        "eg.g17.chretiens_mal_vus"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g19.diocletien_ere_des_martyrs",
+      "title": "Dioclétien et l'ère des martyrs",
+      "difficulty": 2,
+      "prerequisites": [
+        "eg.g18.edits_de_maximin_a_valerien"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g20.premiers_ermites",
+      "title": "Les premiers ermites",
+      "difficulty": 2,
+      "prerequisites": [
+        "eg.g19.diocletien_ere_des_martyrs"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g21.erreurs_sur_la_trinite",
+      "title": "Les erreurs sur la Trinité : Paul de Samosate et Sabellius",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g20.premiers_ermites"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g22.novatien_et_mani",
+      "title": "Novatien et Mani",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g21.erreurs_sur_la_trinite"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g23.tradition_et_canon",
+      "title": "La Tradition et le canon",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g22.novatien_et_mani"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    },
+    {
+      "id": "eg.g24.structure_de_l_eglise",
+      "title": "La structure de l'Église",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g23.tradition_et_canon"
+      ],
+      "category": "knowledge",
+      "functionWords": []
+    }
+  ],
+  "lessons": [
+    {
+      "id": "eg.l17",
+      "sequence": 17,
+      "title": "Pourquoi persécute-t-on les chrétiens ?",
+      "description": "Comprendre les causes de l'hostilité : le culte impérial, le secret, les rumeurs et les accusations des philosophes.",
+      "difficulty": 1,
+      "grammarUnitId": "eg.g17.chretiens_mal_vus",
+      "introducesGrammar": true,
+      "reviews": [],
+      "vocabulary": [
+        {
+          "word": "l'édit impérial",
+          "slug": "edit_imperial",
+          "translation": "ordre officiel de l'empereur, ici d'honorer les dieux et de sacrifier",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'anthropophagie",
+          "slug": "anthropophagie",
+          "translation": "accusation de manger de la chair humaine",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'accusation d'athéisme",
+          "slug": "accusation_atheisme",
+          "translation": "reproche des philosophes : les chrétiens n'adorent aucun des dieux de l'Empire",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le meurtre rituel",
+          "slug": "meurtre_rituel",
+          "translation": "accusation de tuer en secret dans des cérémonies",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "les mauvais citoyens",
+          "slug": "mauvais_citoyens",
+          "translation": "aux yeux de Rome, ceux qui refusent le culte civique et les sacrifices publics",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le sacrifice public",
+          "slug": "sacrifice_public",
+          "translation": "offrande rituelle aux dieux, faite devant tous en signe de loyauté",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l18",
+      "sequence": 18,
+      "title": "Maximin, Dèce, Valérien : trois vagues",
+      "description": "Suivre les persécutions du IIIe siècle : qui, quand, avec quels édits, et pourquoi elles font grandir l'Église.",
+      "difficulty": 2,
+      "grammarUnitId": "eg.g18.edits_de_maximin_a_valerien",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g17.chretiens_mal_vus"
+      ],
+      "vocabulary": [
+        {
+          "word": "Maximin",
+          "slug": "maximin",
+          "translation": "empereur romain, vers 235 : sixième persécution",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Dèce",
+          "slug": "dece",
+          "translation": "empereur romain, vers 249 : septième persécution",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Valérien",
+          "slug": "valerien",
+          "translation": "empereur romain, vers 257 : huitième persécution",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "l'édit de 250",
+          "slug": "edit_de_dece",
+          "translation": "édit de Dèce qui rend le culte impérial obligatoire pour tous",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "le libellus",
+          "slug": "libellus",
+          "translation": "certificat prouvant qu'on a sacrifié aux dieux sous Dèce",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la semence de chrétiens",
+          "slug": "semence_de_chretiens",
+          "translation": "formule de Tertullien : le sang des martyrs fait naître de nouveaux chrétiens",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l19",
+      "sequence": 19,
+      "title": "Dioclétien et l'ère des martyrs",
+      "description": "Comprendre la dixième persécution, pourquoi l'année 284 est l'an 1 du calendrier copte et ce qu'est le Nayrouz.",
+      "difficulty": 2,
+      "grammarUnitId": "eg.g19.diocletien_ere_des_martyrs",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.g18.edits_de_maximin_a_valerien"
+      ],
+      "vocabulary": [
+        {
+          "word": "Dioclétien",
+          "slug": "diocletien",
+          "translation": "empereur romain dès 284 : dixième persécution, début de l'ère des martyrs",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "la grande persécution de 303",
+          "slug": "grande_persecution_303",
+          "translation": "édits de 303 : églises détruites, livres brûlés, clergé emprisonné",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "la dixième persécution",
+          "slug": "dixieme_persecution",
+          "translation": "dernière persécution de la liste traditionnelle, sous Dioclétien",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "le calendrier copte",
+          "slug": "calendrier_copte",
+          "translation": "calendrier dont l'an 1 correspond à l'année 284 de notre ère",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'ère des martyrs",
+          "slug": "ere_des_martyrs",
+          "translation": "autre nom du calendrier copte, compté depuis 284",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le Nayrouz",
+          "slug": "nayrouz",
+          "translation": "jour de l'an copte, en septembre",
+          "partOfSpeech": "event"
+        }
+      ]
+    },
+    {
+      "id": "eg.l20",
+      "sequence": 20,
+      "title": "Du martyre au désert : Paul et Antoine",
+      "description": "Découvrir les tout premiers ermites d'Égypte : Paul de Thèbes (vers 250) et Antoine (vers 270).",
+      "difficulty": 2,
+      "grammarUnitId": "eg.g20.premiers_ermites",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.g19.diocletien_ere_des_martyrs"
+      ],
+      "vocabulary": [
+        {
+          "word": "saint Paul de Thèbes",
+          "slug": "paul_de_thebes",
+          "translation": "le premier des ermites, au désert d'Égypte vers 250",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "saint Antoine",
+          "slug": "antoine",
+          "translation": "père des moines, parti au désert vers 270",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "l'ermite",
+          "slug": "ermite",
+          "translation": "celui qui vit seul au désert",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'anachorète",
+          "slug": "anachorete",
+          "translation": "celui qui se retire du monde pour prier",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le désert d'Égypte",
+          "slug": "desert_d_egypte",
+          "translation": "terre aride proche du Nil où les premiers ermites se retirent",
+          "partOfSpeech": "place"
+        },
+        {
+          "word": "la fuite au désert",
+          "slug": "fuite_au_desert",
+          "translation": "départ de chrétiens vers le désert pour échapper aux persécutions, vers 250",
+          "partOfSpeech": "event"
+        }
+      ]
+    },
+    {
+      "id": "eg.l21",
+      "sequence": 21,
+      "title": "Paul de Samosate et Sabellius : les deux pièges",
+      "description": "Comprendre deux erreurs du IIIe siècle sur la Trinité, qui les a combattues et comment l'Église a répondu.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g21.erreurs_sur_la_trinite",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.g20.premiers_ermites"
+      ],
+      "vocabulary": [
+        {
+          "word": "Paul de Samosate",
+          "slug": "paul_de_samosate",
+          "translation": "évêque d'Antioche, excommunié en 269 : pour lui le Christ est un homme ordinaire",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Zénobie",
+          "slug": "zenobie",
+          "translation": "reine de Palmyre qui soutient Paul de Samosate",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Denys d'Alexandrie",
+          "slug": "denys_d_alexandrie",
+          "translation": "14e patriarche d'Alexandrie, défenseur de la foi trinitaire",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le concile d'Antioche (269)",
+          "slug": "concile_d_antioche_269",
+          "translation": "réunion d'évêques qui condamne Paul de Samosate",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "Sabellius",
+          "slug": "sabellius",
+          "translation": "évêque de Ptolémaïs : Père, Fils et Esprit sont un seul Dieu sous trois formes",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le modalisme",
+          "slug": "modalisme",
+          "translation": "idée que Père, Fils et Esprit sont des « modes » successifs d'un seul Dieu",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la Sainte Trinité",
+          "slug": "trinite",
+          "translation": "un seul Dieu en trois personnes : le Père, le Fils et le Saint-Esprit",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'excommunication",
+          "slug": "excommunication",
+          "translation": "exclusion d'un baptisé de la communion de l'Église",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l22",
+      "sequence": 22,
+      "title": "Les tombés, Novatien et Mani",
+      "description": "Comprendre le débat sur le pardon après les persécutions (Novatien) et découvrir le manichéisme (Mani).",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g22.novatien_et_mani",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g19.diocletien_ere_des_martyrs",
+        "eg.g21.erreurs_sur_la_trinite"
+      ],
+      "vocabulary": [
+        {
+          "word": "Novatien",
+          "slug": "novatien",
+          "translation": "théologien romain, rival de l'évêque de Rome en 251, qui refuse de pardonner aux tombés",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Cyprien de Carthage",
+          "slug": "cyprien",
+          "translation": "évêque de Carthage, défenseur du pardon pour les vrais pénitents",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "les « tombés »",
+          "slug": "tombes",
+          "translation": "chrétiens qui ont renié la foi sous la persécution",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la pénitence",
+          "slug": "penitence",
+          "translation": "démarche sincère de repentir pour obtenir le pardon",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le novatianisme",
+          "slug": "novatianisme",
+          "translation": "hérésie de Novatien : l'Église doit rester pure, sans pardon pour les tombés",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "Mani",
+          "slug": "mani",
+          "translation": "Perse fondateur du manichéisme, au IIIe siècle",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le manichéisme",
+          "slug": "manicheisme",
+          "translation": "doctrine de Mani : un Dieu bon, un démiurge mauvais, toutes les religions valides",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "saint Augustin",
+          "slug": "augustin",
+          "translation": "grand Père latin, manichéen avant sa conversion",
+          "partOfSpeech": "person"
+        }
+      ]
+    },
+    {
+      "id": "eg.l23",
+      "sequence": 23,
+      "title": "La Sainte Tradition et le canon du Nouveau Testament",
+      "description": "Comprendre comment l'Église a transmis la foi par écrit et choisi les livres du Nouveau Testament selon quatre critères.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g23.tradition_et_canon",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g21.erreurs_sur_la_trinite",
+        "eg.g22.novatien_et_mani"
+      ],
+      "vocabulary": [
+        {
+          "word": "la Tradition écrite",
+          "slug": "tradition_ecrite",
+          "translation": "l'ensemble des écrits qui transmettent l'enseignement des apôtres, en plus de l'Écriture",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le canon du Nouveau Testament",
+          "slug": "canon_du_nouveau_testament",
+          "translation": "la liste des livres reconnus comme Écriture par l'Église",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'approbation apostolique",
+          "slug": "approbation_apostolique",
+          "translation": "principal test de canonicité : le livre vient des apôtres ou de leur contrôle",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "les apocryphes",
+          "slug": "apocryphes",
+          "translation": "écrits écartés du canon, faits de légendes éloignées de la foi apostolique",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la Didachè",
+          "slug": "didache",
+          "translation": "écrit très ancien, vers 100, sur la vie des communautés",
+          "partOfSpeech": "work"
+        },
+        {
+          "word": "la Tradition apostolique d'Hippolyte",
+          "slug": "tradition_apostolique_d_hippolyte",
+          "translation": "écrit de Rome, vers 215, sur l'organisation et la liturgie",
+          "partOfSpeech": "work"
+        },
+        {
+          "word": "la Didascalie syriaque",
+          "slug": "didascalie",
+          "translation": "« enseignement des douze apôtres », vers 250",
+          "partOfSpeech": "work"
+        },
+        {
+          "word": "le Pasteur d'Hermas",
+          "slug": "pasteur_d_hermas",
+          "translation": "écrit du IIe siècle fait de visions, jugé trop incontrôlable pour le canon",
+          "partOfSpeech": "work"
+        }
+      ]
+    },
+    {
+      "id": "eg.l24",
+      "sequence": 24,
+      "title": "Comment l'Église s'organise : évêques, prêtres, diacres",
+      "description": "Comprendre la naissance de la hiérarchie à trois degrés, le rôle des confesseurs et l'origine du titre de pape d'Alexandrie.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g24.structure_de_l_eglise",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g22.novatien_et_mani",
+        "eg.g23.tradition_et_canon"
+      ],
+      "vocabulary": [
+        {
+          "word": "le diacre",
+          "slug": "diacre",
+          "translation": "serviteur de l'Église, qui aide l'évêque et sert les pauvres",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le prêtre",
+          "slug": "pretre",
+          "translation": "ancien de la communauté qui enseigne et prie (presbytre)",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "les clercs et les laïcs",
+          "slug": "clerge",
+          "translation": "les clercs sont ordonnés ; les laïcs sont les autres fidèles",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la hiérarchie à trois degrés",
+          "slug": "hierarchie_a_trois_degres",
+          "translation": "évêque, prêtre, diacre : l'organisation de l'Église dès le IIIe siècle",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le confesseur",
+          "slug": "confesseur",
+          "translation": "chrétien qui a souffert pour sa foi sans mourir martyr",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "les prophètes des premiers temps",
+          "slug": "prophetes_des_premiers_temps",
+          "translation": "ministère des temps apostoliques, disparu avec la rédaction des évangiles",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "Héraclas",
+          "slug": "heraclas",
+          "translation": "13e évêque d'Alexandrie, le premier appelé pape",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le titre de patriarche",
+          "slug": "patriarche_a_partir_de_451",
+          "translation": "titre utilisé à partir de 451, après celui de pape",
+          "partOfSpeech": "concept"
+        }
+      ]
+    }
+  ]
+}

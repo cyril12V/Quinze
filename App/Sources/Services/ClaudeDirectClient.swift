@@ -400,7 +400,7 @@ struct ClaudePrompt: Sendable {
 
     func explainRule(content: ClaudeContent, detailed: Bool) -> String {
         var parts = header(content)
-        if subject == .culture {
+        if subject.isTaughtInFrench {
             parts.append("Tâche : raconte l'essentiel de ce sujet avec tes mots, comme une courte histoire, du plus simple au plus précis, en n'affirmant que ce qui figure dans le contenu validé. Termine par le repère à retenir.")
         } else {
             parts.append("Tâche : explique la règle de cette unité avec tes mots, du plus simple au plus précis, en n'affirmant que ce qui figure dans le contenu validé. Termine par un exemple.")
@@ -562,13 +562,13 @@ struct ClaudePrompt: Sendable {
     }
 
     private func unitLines(_ unit: LearningUnit) -> [String] {
-        let ruleLabel = subject == .culture ? "Fiche" : "Règle"
+        let ruleLabel = subject.isTaughtInFrench ? "Fiche" : "Règle"
         var out: [String?] = []
         out.append("[Unité \(unit.id) — \(unit.title) (\(unit.kind.rawValue))]")
         if let rule = unit.rule {
             out.append(Self.line("\(ruleLabel) (résumé)", rule.summary, limit: 500))
             out.append(Self.line("\(ruleLabel) (détail)", rule.explanation, limit: 1400))
-            out.append(Self.line(subject == .culture ? "Repère à retenir" : "Schéma", rule.pattern, limit: 300))
+            out.append(Self.line(subject.isTaughtInFrench ? "Repère à retenir" : "Schéma", rule.pattern, limit: 300))
             if !rule.examples.isEmpty {
                 let examples = rule.examples.prefix(5).map { ClaudeText.clip(Self.exampleText($0), 200) }
                 out.append("Exemples validés : " + examples.joined(separator: " ; "))
@@ -595,7 +595,7 @@ struct ClaudePrompt: Sendable {
         out.append(Self.line("Prononciation", item.ipa, limit: 80))
         out.append(Self.line("Translittération", item.transliteration, limit: 80))
         out.append(Self.line("Nature", item.partOfSpeech, limit: 60))
-        out.append(Self.line(subject == .culture ? "Définition" : "Traduction", item.translation, limit: 200))
+        out.append(Self.line(subject.isTaughtInFrench ? "Définition" : "Traduction", item.translation, limit: 200))
         out.append(Self.list("Autres traductions", item.otherTranslations, limit: 300))
         out.append(Self.line("Explication validée", item.explanation, limit: 600))
         if !item.examples.isEmpty {

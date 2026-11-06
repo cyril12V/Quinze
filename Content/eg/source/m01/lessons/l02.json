@@ -1,0 +1,646 @@
+{
+ "lessonId": "eg.l02",
+ "exercises": [
+  {
+   "unitIds": [
+    "eg.g01.pourquoi_histoire",
+    "eg.v.schisme"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle phrase décrit le mieux un schisme ?",
+   "promptLanguage": "fr",
+   "answer": "une rupture de communion",
+   "acceptedAnswers": [
+    "une rupture de communion"
+   ],
+   "explanation": "Un schisme est une rupture de communion entre des Églises. Un enseignement qui s'écarte de la foi est une hérésie.",
+   "tip": "Schisme = unité rompue.",
+   "extraExample": {
+    "text": "Rome et Constantinople se séparent en 1054.",
+    "translation": "C'est un schisme."
+   },
+   "options": [
+    "un enseignement qui s'écarte de la foi",
+    "une vérité de foi",
+    "une rupture de communion"
+   ],
+   "id": "eg.l02.e01"
+  },
+  {
+   "unitIds": [
+    "eg.g01.pourquoi_histoire",
+    "eg.v.heresie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Beaucoup de dogmes sont nés pour répondre à une ___.",
+   "promptLanguage": "fr",
+   "answer": "hérésie",
+   "acceptedAnswers": [
+    "hérésie"
+   ],
+   "explanation": "Une erreur de doctrine oblige l'Église à préciser clairement sa foi : c'est la source de beaucoup de dogmes.",
+   "tip": "Erreur → dogme.",
+   "extraExample": {
+    "text": "Nicée répond à Arius.",
+    "translation": "Le dogme explique la foi."
+   },
+   "options": [
+    "fête",
+    "hérésie",
+    "persécution"
+   ],
+   "id": "eg.l02.e02"
+  },
+  {
+   "unitIds": [
+    "eg.g01.pourquoi_histoire",
+    "eg.v.empire_romain",
+    "eg.v.ponce_pilate"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel empire domine la Judée, où Jésus est jugé par un gouverneur ?",
+   "promptLanguage": "fr",
+   "answer": "l'Empire romain",
+   "acceptedAnswers": [
+    "l'Empire romain"
+   ],
+   "explanation": "La Judée est occupée par les Romains. Ponce Pilate est leur gouverneur local.",
+   "tip": "Rome tient Jérusalem.",
+   "extraExample": {
+    "text": "Jésus est jugé par un gouverneur romain.",
+    "translation": "Il s'appelle Ponce Pilate."
+   },
+   "options": [
+    "l'Empire romain",
+    "l'Empire perse",
+    "l'empire d'Alexandre"
+   ],
+   "id": "eg.l02.e03"
+  },
+  {
+   "unitIds": [
+    "eg.g01.pourquoi_histoire",
+    "eg.v.ere_chretienne"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À partir de quel événement compte-t-on les années de l'ère chrétienne ?",
+   "promptLanguage": "fr",
+   "answer": "la naissance de Jésus-Christ",
+   "acceptedAnswers": [
+    "la naissance de Jésus-Christ"
+   ],
+   "explanation": "L'ère chrétienne compte depuis la naissance de Jésus-Christ, même si les calculs ont été faits plus tard.",
+   "tip": "Naissance, pas Pentecôte.",
+   "extraExample": {
+    "text": "On écrit « vers 30 après J.-C. » pour la Pentecôte.",
+    "translation": "Le repère reste la naissance du Christ."
+   },
+   "options": [
+    "la naissance de Jésus-Christ",
+    "la Pentecôte",
+    "la mort de Jésus"
+   ],
+   "id": "eg.l02.e04"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.ponce_pilate"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Sous quel gouverneur romain Jésus est-il crucifié ?",
+   "promptLanguage": "fr",
+   "answer": "Ponce Pilate",
+   "acceptedAnswers": [
+    "Ponce Pilate"
+   ],
+   "explanation": "Jésus est crucifié sous Ponce Pilate, gouverneur de Judée. Le Credo garde son nom pour dater l'événement.",
+   "tip": "Le Credo : « sous Ponce Pilate ».",
+   "extraExample": {
+    "text": "Néron ne règne que plus tard.",
+    "translation": "Hérode Agrippa agit vers 44."
+   },
+   "options": [
+    "Néron",
+    "Ponce Pilate",
+    "Hérode Agrippa"
+   ],
+   "errorPatterns": [
+    {
+     "equals": "Néron",
+     "category": "word_confusion",
+     "feedback": "Néron est empereur dans les années 50-60, bien après la crucifixion."
+    }
+   ],
+   "id": "eg.l02.e05"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.jesus_christ"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quand Jésus est-il crucifié ?",
+   "promptLanguage": "fr",
+   "answer": "au début des années 30",
+   "acceptedAnswers": [
+    "au début des années 30"
+   ],
+   "explanation": "Jésus naît vers l'an 4 avant J.-C. et il est crucifié au début des années 30 de notre ère, après environ trois ans de prédication.",
+   "tip": "Naissance vers -4, croix vers 30.",
+   "extraExample": {
+    "text": "En l'an 70, le Temple est détruit.",
+    "translation": "C'est une génération plus tard."
+   },
+   "options": [
+    "au début des années 30",
+    "vers l'an 4 avant J.-C.",
+    "vers l'an 70"
+   ],
+   "id": "eg.l02.e06"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que font les disciples juste après la mort de Jésus ?",
+   "promptLanguage": "fr",
+   "answer": "ils se cachent",
+   "acceptedAnswers": [
+    "ils se cachent"
+   ],
+   "explanation": "Les disciples ont peur d'être arrêtés par les Romains et leurs rêves s'écroulent. Ce n'est qu'après la Résurrection qu'ils retrouvent leur confiance.",
+   "tip": "La peur avant la Pentecôte.",
+   "extraExample": {
+    "text": "Pierre aura peur lui aussi, avant la Pentecôte.",
+    "translation": "Puis il prêchera devant la foule."
+   },
+   "options": [
+    "ils quittent la Judée",
+    "ils se cachent",
+    "ils prêchent au Temple"
+   ],
+   "id": "eg.l02.e07"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.chambre_haute"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Où se retrouvent les apôtres après l'Ascension ?",
+   "promptLanguage": "fr",
+   "answer": "dans la chambre haute",
+   "acceptedAnswers": [
+    "dans la chambre haute"
+   ],
+   "explanation": "Ils reviennent à Jérusalem et montent dans la chambre haute, où ils prient avec Marie et d'autres croyants.",
+   "tip": "Haute = à l'étage.",
+   "extraExample": {
+    "text": "Ils sont environ cent vingt.",
+    "translation": "Ils prient avant la Pentecôte."
+   },
+   "options": [
+    "dans la chambre haute",
+    "dans le Temple",
+    "à Antioche"
+   ],
+   "id": "eg.l02.e08"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.jesus_christ"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de personnes environ forment le petit groupe de la chambre haute ?",
+   "promptLanguage": "fr",
+   "answer": "cent vingt",
+   "acceptedAnswers": [
+    "cent vingt"
+   ],
+   "explanation": "Le groupe compte environ cent vingt personnes, dont les apôtres, des femmes, Marie et les frères de Jésus. Les trois mille viennent plus tard, à la Pentecôte.",
+   "tip": "120 avant, 3000 après.",
+   "extraExample": {
+    "text": "Le Christ avait choisi douze apôtres.",
+    "translation": "Mais le groupe est plus large."
+   },
+   "options": [
+    "trois mille",
+    "cent vingt",
+    "douze"
+   ],
+   "id": "eg.l02.e09"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.pentecote"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel jour la tradition place-t-elle les débuts de l'Église ?",
+   "promptLanguage": "fr",
+   "answer": "la Pentecôte",
+   "acceptedAnswers": [
+    "la Pentecôte"
+   ],
+   "explanation": "À la Pentecôte, l'Esprit Saint descend, Pierre prêche et la mission commence : la tradition y voit la naissance de l'Église.",
+   "tip": "Esprit reçu = Église lancée.",
+   "extraExample": {
+    "text": "La Pentecôte a lieu cinquante jours après Pâques.",
+    "translation": "Le mot veut dire « cinquantième »."
+   },
+   "options": [
+    "la Pentecôte",
+    "la Résurrection",
+    "l'Ascension"
+   ],
+   "id": "eg.l02.e10"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.saint_pierre"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien de personnes se convertissent le jour de la première prédication de Pierre ?",
+   "promptLanguage": "fr",
+   "answer": "trois mille",
+   "acceptedAnswers": [
+    "trois mille"
+   ],
+   "explanation": "Environ trois mille personnes se convertissent à Jérusalem le jour de la Pentecôte. Peu après, les croyants atteignent environ cinq mille.",
+   "tip": "3000 le premier jour.",
+   "extraExample": {
+    "text": "Le groupe initial comptait cent vingt.",
+    "translation": "L'Église est déjà une foule."
+   },
+   "options": [
+    "cinq cents",
+    "trois mille",
+    "cent vingt"
+   ],
+   "id": "eg.l02.e11"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pays africain est cité parmi les pèlerins présents à Jérusalem le jour de la Pentecôte ?",
+   "promptLanguage": "fr",
+   "answer": "l'Égypte",
+   "acceptedAnswers": [
+    "l'Égypte"
+   ],
+   "explanation": "Les Actes citent des gens de l'Égypte et de la région de Cyrène parmi les pèlerins. Pour un Copte, c'est un premier lien de l'Égypte avec l'Évangile.",
+   "tip": "Égypte présente dès la Pentecôte.",
+   "extraExample": {
+    "text": "Ac 2, 10 cite l'Égypte.",
+    "translation": "Marc l'évangélisera plus tard."
+   },
+   "options": [
+    "l'Inde",
+    "la Gaule",
+    "l'Égypte"
+   ],
+   "id": "eg.l02.e12"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.apotre"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le mot grec « apôtre » veut dire « ___ ».",
+   "promptLanguage": "fr",
+   "answer": "envoyé",
+   "acceptedAnswers": [
+    "envoyé"
+   ],
+   "explanation": "Les apôtres sont envoyés par Jésus pour annoncer l'Évangile à toutes les nations.",
+   "tip": "Apôtre = envoyé.",
+   "extraExample": {
+    "text": "Paul est lui aussi envoyé aux nations.",
+    "translation": "Il se dit apôtre."
+   },
+   "options": [
+    "prophète",
+    "envoyé",
+    "ancien"
+   ],
+   "id": "eg.l02.e13"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.fraction_du_pain"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les croyants sont assidus à l'enseignement des apôtres, à la communion fraternelle, à la fraction du pain et aux ___.",
+   "promptLanguage": "fr",
+   "answer": "prières",
+   "acceptedAnswers": [
+    "prières"
+   ],
+   "explanation": "Ces quatre piliers (Ac 2, 42) résument la vie de la première communauté de Jérusalem.",
+   "tip": "Quatre piliers.",
+   "extraExample": {
+    "text": "L'Église d'aujourd'hui vit encore ainsi.",
+    "translation": "Enseignement, partage, eucharistie, prière."
+   },
+   "options": [
+    "prières",
+    "fêtes",
+    "pèlerinages"
+   ],
+   "id": "eg.l02.e14"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.premiere_communaute"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Dans la première communauté, les croyants mettent leurs ___ en commun.",
+   "promptLanguage": "fr",
+   "answer": "biens",
+   "acceptedAnswers": [
+    "biens"
+   ],
+   "explanation": "La mise en commun des biens, matériels et spirituels, montre l'unité de la première communauté.",
+   "tip": "Tout est partagé.",
+   "extraExample": {
+    "text": "Personne ne manque de rien.",
+    "translation": "C'est un idéal pour l'Église."
+   },
+   "options": [
+    "calendriers",
+    "biens",
+    "dettes"
+   ],
+   "id": "eg.l02.e15"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.jerusalem"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Après l'Ascension, les apôtres regagnent ___.",
+   "promptLanguage": "fr",
+   "answer": "Jérusalem",
+   "acceptedAnswers": [
+    "Jérusalem"
+   ],
+   "explanation": "Jérusalem est le lieu de la Passion, de la Résurrection et de la Pentecôte : l'Église y naît.",
+   "tip": "Tout commence à Jérusalem.",
+   "extraExample": {
+    "text": "Elle tombera en 70.",
+    "translation": "Les chrétiens se disperseront."
+   },
+   "options": [
+    "Antioche",
+    "Alexandrie",
+    "Jérusalem"
+   ],
+   "id": "eg.l02.e16"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Christ ressuscite le ___ jour.",
+   "promptLanguage": "fr",
+   "answer": "troisième",
+   "acceptedAnswers": [
+    "troisième"
+   ],
+   "explanation": "Crucifié et enseveli, Jésus ressuscite le troisième jour, puis monte au ciel quarante jours plus tard.",
+   "tip": "Trois jours, puis quarante.",
+   "extraExample": {
+    "text": "Le troisième jour, c'est Pâques.",
+    "translation": "L'Ascension arrive bien après."
+   },
+   "options": [
+    "septième",
+    "quarantième",
+    "troisième"
+   ],
+   "id": "eg.l02.e17"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.ascension",
+    "eg.v.pentecote",
+    "eg.v.chambre_haute",
+    "eg.v.ponce_pilate"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les étapes et les lieux",
+   "promptLanguage": "fr",
+   "answer": "La Pentecôte = l'Esprit descend, l'Église naît ; L'Ascension = Jésus monte au ciel ; La chambre haute = le lieu de prière des apôtres ; Ponce Pilate = le gouverneur romain de Judée",
+   "acceptedAnswers": [],
+   "explanation": "Chaque mot correspond à une étape de la route : Ponce Pilate à la croix, l'Ascension après la Résurrection, la chambre haute où l'on prie, la Pentecôte où l'Église naît.",
+   "tip": "Croix, Ascension, chambre haute, Pentecôte.",
+   "pairs": [
+    {
+     "left": "La Pentecôte",
+     "right": "l'Esprit descend, l'Église naît"
+    },
+    {
+     "left": "L'Ascension",
+     "right": "Jésus monte au ciel"
+    },
+    {
+     "left": "La chambre haute",
+     "right": "le lieu de prière des apôtres"
+    },
+    {
+     "left": "Ponce Pilate",
+     "right": "le gouverneur romain de Judée"
+    }
+   ],
+   "id": "eg.l02.e18"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.premiere_communaute",
+    "eg.v.saint_pierre"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les chiffres de la première communauté",
+   "promptLanguage": "fr",
+   "answer": "Cent vingt = le groupe de la chambre haute ; Trois mille = convertis le jour de la Pentecôte ; Cinq mille = croyants peu après ; Quatre = piliers de la vie commune",
+   "acceptedAnswers": [],
+   "explanation": "Le groupe grandit très vite : cent vingt, puis trois mille à la Pentecôte, puis environ cinq mille. Quatre piliers le structurent.",
+   "tip": "120 → 3000 → 5000.",
+   "pairs": [
+    {
+     "left": "Cent vingt",
+     "right": "le groupe de la chambre haute"
+    },
+    {
+     "left": "Trois mille",
+     "right": "convertis le jour de la Pentecôte"
+    },
+    {
+     "left": "Cinq mille",
+     "right": "croyants peu après"
+    },
+    {
+     "left": "Quatre",
+     "right": "piliers de la vie commune"
+    }
+   ],
+   "id": "eg.l02.e19"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute"
+   ],
+   "type": "reorder",
+   "difficulty": 1,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la naissance de l'Église.",
+   "promptLanguage": "fr",
+   "answer": "La Pentecôte marque la naissance de l'Église",
+   "acceptedAnswers": [
+    "La Pentecôte marque la naissance de l'Église"
+   ],
+   "explanation": "La tradition chrétienne place à la Pentecôte les débuts de l'Église.",
+   "tip": "Pentecôte = naissance de l'Église.",
+   "extraExample": {
+    "text": "L'Esprit Saint descend sur les apôtres.",
+    "translation": "Pierre prêche à la foule."
+   },
+   "tokens": [
+    "naissance",
+    "de",
+    "l'Église",
+    "La",
+    "Pentecôte",
+    "marque",
+    "la"
+   ],
+   "id": "eg.l02.e20"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.pentecote"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment s'appelle la fête où l'Esprit Saint descend sur les apôtres, début de l'Église ?",
+   "promptLanguage": "fr",
+   "answer": "la Pentecôte",
+   "acceptedAnswers": [
+    "la Pentecôte",
+    "Pentecôte",
+    "pentecote"
+   ],
+   "explanation": "C'est la Pentecôte, cinquante jours après la Résurrection.",
+   "tip": "Cinquante jours après Pâques.",
+   "extraExample": {
+    "text": "Elle a lieu vers l'an 30.",
+    "translation": "Pierre y prêche."
+   },
+   "hint": "Son nom veut dire « cinquantième ».",
+   "id": "eg.l02.e21"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.fraction_du_pain"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Les premiers chrétiens célèbrent « la fraction du ___ ».",
+   "promptLanguage": "fr",
+   "answer": "pain",
+   "acceptedAnswers": [
+    "pain",
+    "la fraction du pain"
+   ],
+   "explanation": "La fraction du pain est le nom donné à l'eucharistie dans la première communauté.",
+   "tip": "Rompre le pain.",
+   "extraExample": {
+    "text": "Jésus rompt le pain à la dernière Cène.",
+    "translation": "Les disciples l'imitent."
+   },
+   "hint": "Un aliment de base.",
+   "id": "eg.l02.e22"
+  },
+  {
+   "unitIds": [
+    "eg.g02.pentecote_communaute",
+    "eg.v.saint_pierre",
+    "eg.v.pentecote"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel apôtre prêche en public le jour de la Pentecôte ?",
+   "promptLanguage": "fr",
+   "answer": "Pierre",
+   "acceptedAnswers": [
+    "Pierre",
+    "saint Pierre",
+    "St Pierre"
+   ],
+   "explanation": "Pierre, le chef des apôtres, prend la parole : trois mille personnes se convertissent.",
+   "tip": "Pierre porte la voix des Douze.",
+   "extraExample": {
+    "text": "Il sera martyrisé à Rome.",
+    "translation": "Vers l'an 67."
+   },
+   "hint": "Il a reçu ce nom de Jésus.",
+   "id": "eg.l02.e23"
+  }
+ ]
+}

@@ -1,0 +1,561 @@
+{
+ "lessonId": "eg.l35",
+ "exercises": [
+  {
+   "id": "eg.l35.e01",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.cyrille_d_alexandrie"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel numéro porte Cyrille dans la liste des papes d'Alexandrie ?",
+   "promptLanguage": "fr",
+   "options": [
+    "24e",
+    "25e",
+    "22e",
+    "27e"
+   ],
+   "answer": "24e",
+   "acceptedAnswers": [
+    "24e"
+   ],
+   "explanation": "Cyrille est le 24e pape d'Alexandrie, de 412 à 444. Le 25e sera Dioscore.",
+   "tip": "Cyrille 24, Dioscore 25.",
+   "extraExample": {
+    "text": "Il est pape pendant plus de 30 ans.",
+    "translation": "412-444."
+   },
+   "errorPatterns": [
+    {
+     "equals": "25e",
+     "category": "word_confusion",
+     "feedback": "Le 25e pape est Dioscore, le successeur de Cyrille."
+    }
+   ]
+  },
+  {
+   "id": "eg.l35.e02",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.pilier_de_la_foi"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel surnom l'Église copte donne-t-elle à Cyrille ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le Pilier de la foi",
+    "le Bouche d'or",
+    "le Grand",
+    "le Théologien"
+   ],
+   "answer": "le Pilier de la foi",
+   "acceptedAnswers": [
+    "le Pilier de la foi"
+   ],
+   "explanation": "Il a soutenu la foi en un seul Christ, comme un pilier soutient un édifice.",
+   "tip": "Pilier = soutien.",
+   "extraExample": {
+    "text": "Une de ses trois liturgies porte son nom.",
+    "translation": "Basile, Grégoire, Cyrille."
+   }
+  },
+  {
+   "id": "eg.l35.e03",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.theotokos"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Pourquoi Marie est-elle Théotokos, selon Cyrille ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Parce que celui qu'elle enfante est Dieu le Verbe fait chair",
+    "Parce qu'elle est plus ancienne que Dieu",
+    "Parce que l'empereur l'a décidé",
+    "Parce qu'elle est née sans péché"
+   ],
+   "answer": "Parce que celui qu'elle enfante est Dieu le Verbe fait chair",
+   "acceptedAnswers": [
+    "Parce que celui qu'elle enfante est Dieu le Verbe fait chair"
+   ],
+   "explanation": "Le titre dit qui est l'enfant, pas d'où vient Dieu.",
+   "tip": "Théotokos parle de Jésus avant de parler de Marie.",
+   "extraExample": {
+    "text": "Le titre protège l'identité de Jésus.",
+    "translation": "C'est un titre sur le Christ."
+   }
+  },
+  {
+   "id": "eg.l35.e04",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.formule_de_cyrille"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est la célèbre formule de Cyrille ?",
+   "promptLanguage": "fr",
+   "options": [
+    "une seule nature du Verbe incarné",
+    "deux natures en une personne",
+    "trois personnes, une essence",
+    "le Christ est seulement homme"
+   ],
+   "answer": "une seule nature du Verbe incarné",
+   "acceptedAnswers": [
+    "une seule nature du Verbe incarné"
+   ],
+   "explanation": "Le Verbe fait chair est l'unique sujet de toute l'action du Christ.",
+   "tip": "Un Verbe, un Christ.",
+   "extraExample": {
+    "text": "L'Église copte la confesse encore.",
+    "translation": "Elle la dit miaphysite."
+   },
+   "errorPatterns": [
+    {
+     "equals": "deux natures en une personne",
+     "category": "word_confusion",
+     "feedback": "C'est le langage de Chalcédoine (451), que l'Église copte ne reprend pas."
+    }
+   ]
+  },
+  {
+   "id": "eg.l35.e05",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.unite_du_christ"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle image Cyrille utilise-t-il pour expliquer l'union du Verbe et de la chair ?",
+   "promptLanguage": "fr",
+   "options": [
+    "l'âme et le corps",
+    "l'eau et le vin",
+    "le soleil et la lune",
+    "le père et le fils"
+   ],
+   "answer": "l'âme et le corps",
+   "acceptedAnswers": [
+    "l'âme et le corps"
+   ],
+   "explanation": "L'âme et le corps sont différents mais ne font qu'un seul homme.",
+   "tip": "Âme + corps = un homme. Verbe + chair = un Christ.",
+   "extraExample": {
+    "text": "L'unité n'efface pas la différence.",
+    "translation": "Elle la tient ensemble."
+   }
+  },
+  {
+   "id": "eg.l35.e06",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.douze_anathemes"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Combien d'anathèmes Cyrille joint-il à sa lettre à Nestorius ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Douze",
+    "Sept",
+    "Trois",
+    "Quarante"
+   ],
+   "answer": "Douze",
+   "acceptedAnswers": [
+    "Douze"
+   ],
+   "explanation": "Les douze anathèmes de 430 condamnent douze propositions nestoriennes.",
+   "tip": "12 anathèmes en 430.",
+   "extraExample": {
+    "text": "L'école d'Antioche les juge trop durs.",
+    "translation": "Les tensions montent."
+   }
+  },
+  {
+   "id": "eg.l35.e07",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.celestin_ier"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel pape de Rome soutient Cyrille contre Nestorius ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Célestin Ier",
+    "Léon Ier",
+    "Pierre",
+    "Jean"
+   ],
+   "answer": "Célestin Ier",
+   "acceptedAnswers": [
+    "Célestin Ier"
+   ],
+   "explanation": "Célestin Ier condamne Nestorius et charge Cyrille de faire appliquer sa décision.",
+   "tip": "Célestin avec Cyrille ; Léon viendra plus tard.",
+   "extraExample": {
+    "text": "Léon Ier écrira le Tome en 449.",
+    "translation": "Plus tard."
+   }
+  },
+  {
+   "id": "eg.l35.e08",
+   "unitIds": [
+    "eg.g34.nestorius",
+    "eg.v.theotokos"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel titre Cyrille défend-il, que Nestorius refuse ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Théotokos",
+    "Christotokos",
+    "Patriarche",
+    "Verbe"
+   ],
+   "answer": "Théotokos",
+   "acceptedAnswers": [
+    "Théotokos"
+   ],
+   "explanation": "Rappel : Nestorius préfère Christotokos.",
+   "tip": "Cyrille : Théotokos ; Nestorius : Christotokos.",
+   "extraExample": {
+    "text": "Le concile d'Éphèse tranchera.",
+    "translation": "431."
+   }
+  },
+  {
+   "id": "eg.l35.e09",
+   "unitIds": [
+    "eg.g34.nestorius",
+    "eg.v.ecole_d_antioche"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle école trouve les douze anathèmes trop durs ?",
+   "promptLanguage": "fr",
+   "options": [
+    "l'école d'Antioche",
+    "l'école d'Alexandrie",
+    "l'école de Rome",
+    "les moines d'Égypte"
+   ],
+   "answer": "l'école d'Antioche",
+   "acceptedAnswers": [
+    "l'école d'Antioche"
+   ],
+   "explanation": "Antioche distingue les natures et craint que Cyrille les mélange.",
+   "tip": "Antioche = distinction.",
+   "extraExample": {
+    "text": "Alexandrie = unité.",
+    "translation": "Deux sensibilités."
+   }
+  },
+  {
+   "id": "eg.l35.e10",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.cyrille_d_alexandrie"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Cyrille est le ___ pape d'Alexandrie.",
+   "promptLanguage": "fr",
+   "options": [
+    "24e",
+    "25e",
+    "23e"
+   ],
+   "answer": "24e",
+   "acceptedAnswers": [
+    "24e"
+   ],
+   "explanation": "24e pape, de 412 à 444.",
+   "tip": "Cyrille 24.",
+   "extraExample": {
+    "text": "Dioscore sera le 25e.",
+    "translation": "Son successeur."
+   },
+   "errorPatterns": [
+    {
+     "equals": "25e",
+     "category": "word_confusion",
+     "feedback": "Le 25e est Dioscore, son successeur."
+    }
+   ]
+  },
+  {
+   "id": "eg.l35.e11",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.unite_du_christ"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Cyrille compare l'union du Verbe et de la chair à celle de l'âme et du ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "corps",
+    "cœur",
+    "esprit"
+   ],
+   "answer": "corps",
+   "acceptedAnswers": [
+    "corps"
+   ],
+   "explanation": "L'âme et le corps font un seul homme sans cesser d'être âme et corps.",
+   "tip": "Âme et corps : une image de l'unité.",
+   "extraExample": {
+    "text": "Le Christ est un.",
+    "translation": "Dieu et homme."
+   }
+  },
+  {
+   "id": "eg.l35.e12",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.douze_anathemes"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "À sa troisième lettre, Cyrille joint douze ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "anathèmes",
+    "psaumes",
+    "canons"
+   ],
+   "answer": "anathèmes",
+   "acceptedAnswers": [
+    "anathèmes"
+   ],
+   "explanation": "Ce sont douze condamnations des idées nestoriennes.",
+   "tip": "12 anathèmes, 430.",
+   "extraExample": {
+    "text": "Antioche les trouve durs.",
+    "translation": "Ambiance tendue."
+   }
+  },
+  {
+   "id": "eg.l35.e13",
+   "unitIds": [
+    "eg.g34.nestorius",
+    "eg.v.incarnation"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le Verbe se fait homme : c'est l'___.",
+   "promptLanguage": "fr",
+   "options": [
+    "incarnation",
+    "ascension",
+    "résurrection"
+   ],
+   "answer": "incarnation",
+   "acceptedAnswers": [
+    "incarnation"
+   ],
+   "explanation": "Rappel : l'incarnation est le moment où le Verbe de Dieu se fait homme.",
+   "tip": "In-carnation : dans la chair.",
+   "extraExample": {
+    "text": "Cyrille parle du Verbe incarné.",
+    "translation": "Le Verbe fait chair."
+   }
+  },
+  {
+   "id": "eg.l35.e14",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.cyrille_d_alexandrie"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Qui est qui ?",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Cyrille",
+     "right": "24e pape d'Alexandrie"
+    },
+    {
+     "left": "Célestin Ier",
+     "right": "pape de Rome qui soutient Cyrille"
+    },
+    {
+     "left": "Nestorius",
+     "right": "patriarche de Constantinople en 428"
+    },
+    {
+     "left": "le Pilier de la foi",
+     "right": "surnom de Cyrille"
+    }
+   ],
+   "answer": "Cyrille = 24e pape d'Alexandrie ; Célestin Ier = pape de Rome qui soutient Cyrille ; Nestorius = patriarche de Constantinople en 428 ; le Pilier de la foi = surnom de Cyrille",
+   "acceptedAnswers": [],
+   "explanation": "Cyrille et Célestin vont ensemble contre Nestorius.",
+   "tip": "Pilier = Cyrille.",
+   "extraExample": {
+    "text": "Deux grands sièges sont d'accord.",
+    "translation": "Rome et Alexandrie."
+   }
+  },
+  {
+   "id": "eg.l35.e15",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.formule_de_cyrille"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Expressions clés",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "la formule de Cyrille",
+     "right": "une seule nature du Verbe incarné"
+    },
+    {
+     "left": "les douze anathèmes",
+     "right": "condamnent les idées nestoriennes"
+    },
+    {
+     "left": "l'âme et le corps",
+     "right": "image de l'unité du Christ"
+    }
+   ],
+   "answer": "la formule de Cyrille = une seule nature du Verbe incarné ; les douze anathèmes = condamnent les idées nestoriennes ; l'âme et le corps = image de l'unité du Christ",
+   "acceptedAnswers": [],
+   "explanation": "Chaque expression résume une partie du combat de Cyrille.",
+   "tip": "Formule, anathèmes, image.",
+   "extraExample": {
+    "text": "Cyrille a tout dit en peu de mots.",
+    "translation": "Un pilier."
+   }
+  },
+  {
+   "id": "eg.l35.e16",
+   "unitIds": [
+    "eg.g35.cyrille"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : la formule de Cyrille.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "une",
+    "incarné",
+    "Verbe",
+    "seule",
+    "Christ",
+    "nature",
+    "est",
+    "Le",
+    "du"
+   ],
+   "answer": "Le Christ est une seule nature du Verbe incarné",
+   "acceptedAnswers": [
+    "Le Christ est une seule nature du Verbe incarné"
+   ],
+   "explanation": "La formule de Cyrille, en une phrase.",
+   "tip": "Un seul Verbe incarné.",
+   "extraExample": {
+    "text": "Il est complètement Dieu et complètement homme.",
+    "translation": "Unité sans mélange."
+   }
+  },
+  {
+   "id": "eg.l35.e17",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.pilier_de_la_foi"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel surnom porte Cyrille dans l'Église copte ?",
+   "promptLanguage": "fr",
+   "answer": "le Pilier de la foi",
+   "acceptedAnswers": [
+    "le Pilier de la foi",
+    "Pilier de la foi"
+   ],
+   "explanation": "On l'appelle le Pilier de la foi.",
+   "tip": "Pilier = Cyrille.",
+   "extraExample": {
+    "text": "Il a soutenu la foi.",
+    "translation": "Contre Nestorius."
+   }
+  },
+  {
+   "id": "eg.l35.e18",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.celestin_ier"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel pape de Rome soutient Cyrille ?",
+   "promptLanguage": "fr",
+   "answer": "Célestin Ier",
+   "acceptedAnswers": [
+    "Célestin Ier",
+    "Célestin",
+    "Celestin"
+   ],
+   "explanation": "C'est Célestin Ier.",
+   "tip": "Célestin = soutien de Cyrille.",
+   "extraExample": {
+    "text": "Léon Ier viendra en 449.",
+    "translation": "Plus tard."
+   }
+  },
+  {
+   "id": "eg.l35.e19",
+   "unitIds": [
+    "eg.g35.cyrille",
+    "eg.v.formule_de_cyrille"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Complète la formule de Cyrille : « une seule nature du Verbe ... »",
+   "promptLanguage": "fr",
+   "answer": "incarné",
+   "acceptedAnswers": [
+    "incarné",
+    "Verbe incarné",
+    "Dieu le Verbe incarné"
+   ],
+   "explanation": "La formule de Cyrille est « une seule nature du Verbe incarné ».",
+   "tip": "Incarné = fait chair.",
+   "extraExample": {
+    "text": "Le Verbe devient chair.",
+    "translation": "Incarnation."
+   }
+  }
+ ]
+}

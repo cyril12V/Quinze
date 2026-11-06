@@ -24,7 +24,7 @@ enum WordGameKind: String, CaseIterable, Identifiable, Sendable {
     }
 
     func summary(for subject: Subject) -> String {
-        let meaning: String = subject == .culture ? "définition" : "traduction"
+        let meaning: String = subject.isTaughtInFrench ? "définition" : "traduction"
         switch self {
         case .association:
             return "Relie 5 mots à leur \(meaning). 3 manches de \(seconds) secondes."
@@ -213,7 +213,7 @@ enum GameQuestionFactory {
         for other in others {
             choices.append(GameChoice(id: other.id, text: label(other) ?? "", detail: nil))
         }
-        let instruction: String = subject == .culture ? "Quelle est la bonne définition ?" : "Que veut dire ce mot ?"
+        let instruction: String = subject.isTaughtInFrench ? "Quelle est la bonne définition ?" : "Que veut dire ce mot ?"
         return GameQuestion(id: UUID(), kind: .meaning, item: item, instruction: instruction, prompt: item.word,
                             caption: nil, choices: choices.shuffled())
     }

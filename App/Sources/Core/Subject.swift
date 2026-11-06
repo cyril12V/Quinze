@@ -55,6 +55,9 @@ enum Subject: String, CaseIterable, Codable, Sendable, Identifiable, Hashable {
     /// Text of the studied subject is written right to left.
     var isRightToLeft: Bool { self == .arabic }
 
+    /// Taught in French: a word's meaning is a definition, not a translation.
+    var isTaughtInFrench: Bool { self == .culture || self == .church }
+
     /// The subject owns an identifier of its content (unit, lesson, exercise, dictionary item).
     func owns(_ identifier: String) -> Bool { identifier.hasPrefix(rawValue + ".") }
 

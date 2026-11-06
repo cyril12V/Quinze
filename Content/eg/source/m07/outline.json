@@ -1,0 +1,401 @@
+{
+ "module": {
+  "id": 7,
+  "title": "Ce qui nous sépare : orthodoxes, catholiques, protestants et groupes récents",
+  "description": "Situer les autres Églises et les groupes récents, comprendre ce qu'ils croient et pourquoi leur foi diffère de la foi copte orthodoxe, avec respect et exactitude."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g53.familles_eglises",
+   "category": "knowledge",
+   "title": "Les familles d'Églises aujourd'hui",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g54.chalcedoine_orthodoxes",
+   "category": "knowledge",
+   "title": "Les orthodoxes chalcédoniens et la christologie",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g53.familles_eglises"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g55.papaute_filioque",
+   "category": "knowledge",
+   "title": "La papauté, le Filioque et le schisme de 1054",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g56.dogmes_usages_catholiques",
+   "category": "knowledge",
+   "title": "Purgatoire, Immaculée Conception, azymes et célibat",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g55.papaute_filioque"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g57.reforme_protestante",
+   "category": "knowledge",
+   "title": "La Réforme : l'Écriture seule et la foi seule",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g58.protestants_sacrements_saints",
+   "category": "knowledge",
+   "title": "Sacrements, saints, icônes et succession apostolique",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g57.reforme_protestante"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l53",
+   "sequence": 53,
+   "title": "Les quatre grandes familles de chrétiens",
+   "description": "Situer les Églises orthodoxes orientales, les orthodoxes chalcédoniens, les catholiques et les protestants, et savoir ce qui les distingue.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g53.familles_eglises",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Églises orthodoxes orientales",
+     "slug": "eglises_orthodoxes_orientales",
+     "translation": "famille d'Églises qui n'ont pas reçu Chalcédoine (copte, syriaque, arménienne, tewahedo, malankare)",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Église orthodoxe chalcédonienne",
+     "slug": "eglise_orthodoxe_chalcedonienne",
+     "translation": "orthodoxes de tradition byzantine (grecque, russe, serbe, roumaine…) qui reçoivent Chalcédoine",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Église catholique",
+     "slug": "eglise_catholique",
+     "translation": "la plus grande Église chrétienne, dirigée par le pape à Rome",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "protestantisme",
+     "slug": "protestantisme",
+     "translation": "ensemble d'Églises nées de la Réforme du XVIe siècle",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Église syriaque orthodoxe",
+     "slug": "eglise_syriaque_orthodoxe",
+     "translation": "Église orthodoxe orientale du patriarcat d'Antioche, qui prie en syriaque",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Église arménienne apostolique",
+     "slug": "eglise_armenienne_apostolique",
+     "translation": "Église orthodoxe orientale d'Arménie, premier royaume chrétien vers 301",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Église tewahedo",
+     "slug": "eglise_tewahedo",
+     "translation": "Églises orthodoxes d'Éthiopie et d'Érythrée (« rendu un »)",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Église malankare",
+     "slug": "eglise_malankare",
+     "translation": "Église orthodoxe orientale de l'Inde (Kerala), liée à l'apôtre Thomas",
+     "partOfSpeech": "organization"
+    }
+   ]
+  },
+  {
+   "id": "eg.l54",
+   "sequence": 54,
+   "title": "Les orthodoxes chalcédoniens : deux natures ou une ?",
+   "description": "Comprendre ce qui nous sépare des orthodoxes grecs, russes ou serbes : le concile de Chalcédoine, la formule de saint Cyrille et les rapprochements récents.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g54.chalcedoine_orthodoxes",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g53.familles_eglises"
+   ],
+   "vocabulary": [
+    {
+     "word": "melkites",
+     "slug": "melkites",
+     "translation": "chrétiens d'Égypte restés fidèles à l'empereur et à Chalcédoine",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "sept conciles",
+     "slug": "sept_conciles",
+     "translation": "les conciles œcuméniques reçus par les orthodoxes chalcédoniens (jusqu'à Nicée II, 787)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "trois conciles",
+     "slug": "trois_conciles",
+     "translation": "les conciles reçus par les orthodoxes orientaux : Nicée, Constantinople, Éphèse",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "patriarcat grec d'Alexandrie",
+     "slug": "patriarcat_grec_d_alexandrie",
+     "translation": "Église orthodoxe chalcédonienne d'Égypte et d'Afrique, distincte de l'Église copte",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "dialogue de Wadi Natroun et de Chambésy",
+     "slug": "dialogue_chambesy",
+     "translation": "commissions mixtes (1989-1990) entre orthodoxes orientaux et chalcédoniens",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l55",
+   "sequence": 55,
+   "title": "Avec les catholiques (1) : le pape, le Filioque et 1054",
+   "description": "Comprendre la primauté et l'infaillibilité du pape, l'ajout du Filioque au Credo et la rupture de 1054 entre Rome et Constantinople.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g55.papaute_filioque",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g54.chalcedoine_orthodoxes",
+    "eg.g53.familles_eglises"
+   ],
+   "vocabulary": [
+    {
+     "word": "pape",
+     "slug": "pape",
+     "translation": "évêque de Rome pour les catholiques ; évêque d'Alexandrie pour les Coptes",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "primauté du pape",
+     "slug": "primaute_du_pape",
+     "translation": "autorité que les catholiques reconnaissent au pape sur toute l'Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "infaillibilité pontificale",
+     "slug": "infaillibilite_pontificale",
+     "translation": "dogme de 1870 : le pape ne se trompe pas quand il enseigne ex cathedra sur la foi et la morale",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Vatican I",
+     "slug": "vatican_i",
+     "translation": "concile catholique de 1869-1870 qui définit l'infaillibilité pontificale",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Filioque",
+     "slug": "filioque",
+     "translation": "ajout latin « et du Fils » au Credo de Nicée-Constantinople",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "schisme de 1054",
+     "slug": "schisme_de_1054",
+     "translation": "rupture entre l'Église de Rome et celle de Constantinople",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "ex cathedra",
+     "slug": "ex_cathedra",
+     "translation": "expression latine : « depuis la chaire », quand le pape enseigne solennellement",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "eg.l56",
+   "sequence": 56,
+   "title": "Avec les catholiques (2) : purgatoire, Marie, pain et célibat",
+   "description": "Comprendre quatre différences avec l'Église catholique : le purgatoire, l'Immaculée Conception, le pain sans levain et le célibat des prêtres, et ce que croit l'Église copte.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g56.dogmes_usages_catholiques",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g55.papaute_filioque",
+    "eg.g54.chalcedoine_orthodoxes"
+   ],
+   "vocabulary": [
+    {
+     "word": "purgatoire",
+     "slug": "purgatoire",
+     "translation": "dans la foi catholique, purification après la mort avant d'entrer au ciel",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Immaculée Conception",
+     "slug": "immaculee_conception",
+     "translation": "dogme catholique de 1854 : Marie conçue sans péché originel",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "péché originel",
+     "slug": "peche_originel",
+     "translation": "faute d'Adam dont les catholiques disent qu'elle touche chaque homme dès sa conception",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "azymes",
+     "slug": "azymes",
+     "translation": "pain sans levain utilisé par l'Église latine pour l'Eucharistie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "pain levé",
+     "slug": "pain_leve",
+     "translation": "pain fait avec du levain, utilisé dans l'Église copte pour l'Eucharistie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "célibat des prêtres",
+     "slug": "celibat_des_pretres",
+     "translation": "règle de l'Église latine : les prêtres ne se marient pas",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "prières pour les défunts",
+     "slug": "prieres_pour_les_defunts",
+     "translation": "prières de l'Église pour ceux qui sont morts, aux 3e, 7e et 40e jours",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l57",
+   "sequence": 57,
+   "title": "Avec les protestants (1) : la Réforme, l'Écriture seule, la foi seule",
+   "description": "Comprendre la Réforme de 1517 et deux principes protestants, sola scriptura et sola fide, et ce que l'Église copte répond avec respect.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g57.reforme_protestante",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g56.dogmes_usages_catholiques",
+    "eg.g55.papaute_filioque"
+   ],
+   "vocabulary": [
+    {
+     "word": "Martin Luther",
+     "slug": "martin_luther",
+     "translation": "moine allemand à l'origine de la Réforme en 1517",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "95 thèses",
+     "slug": "theses_de_wittenberg",
+     "translation": "texte de Luther contre les indulgences, traditionnellement daté du 31 octobre 1517",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "la Réforme",
+     "slug": "reforme",
+     "translation": "mouvement religieux du XVIe siècle qui crée le protestantisme",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "sola scriptura",
+     "slug": "sola_scriptura",
+     "translation": "principe protestant : l'Écriture seule est l'autorité de la foi",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "sola fide",
+     "slug": "sola_fide",
+     "translation": "principe protestant : le salut vient par la foi seule",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Jean Calvin",
+     "slug": "jean_calvin",
+     "translation": "réformateur français établi à Genève, auteur de l'Institution de la religion chrétienne",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "livres deutérocanoniques",
+     "slug": "deuterocanoniques",
+     "translation": "livres de l'Ancien Testament gardés par les Coptes mais absents de la Bible protestante",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l58",
+   "sequence": 58,
+   "title": "Avec les protestants (2) : sacrements, saints, icônes, succession",
+   "description": "Comprendre pourquoi nous avons sept sacrements, honorons les saints et les icônes et gardons la succession apostolique, là où la plupart des protestants font autrement.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g58.protestants_sacrements_saints",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g57.reforme_protestante",
+    "eg.g56.dogmes_usages_catholiques"
+   ],
+   "vocabulary": [
+    {
+     "word": "sept sacrements",
+     "slug": "sept_sacrements",
+     "translation": "baptême, chrismation, eucharistie, confession, onction des malades, mariage, sacerdoce",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "deux sacrements",
+     "slug": "deux_sacrements",
+     "translation": "baptême et Cène : les seuls sacrements reconnus par la plupart des protestants",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "intercession des saints",
+     "slug": "intercession_des_saints",
+     "translation": "prière des saints pour nous, que l'on leur demande comme à des frères",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "vénération",
+     "slug": "veneration",
+     "translation": "honneur rendu aux saints et aux icônes, différent de l'adoration",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "icône",
+     "slug": "icone",
+     "translation": "image sacrée qui représente le Christ, Marie ou un saint",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "pasteur",
+     "slug": "pasteur",
+     "translation": "ministre d'une Église protestante, appelé par la communauté",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Église évangélique d'Égypte",
+     "slug": "eglise_evangelique_d_egypte",
+     "translation": "Église presbytérienne d'Égypte (Synode du Nil), née de la mission américaine de 1854",
+     "partOfSpeech": "organization"
+    }
+   ]
+  }
+ ]
+}

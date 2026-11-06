@@ -1,0 +1,689 @@
+{
+  "lessonId": "eg.l26",
+  "exercises": [
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.constantin",
+        "eg.v.helene",
+        "eg.v.licinius",
+        "eg.v.maxence"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Qui est qui à l'époque de Constantin ?",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Constantin",
+          "right": "l'empereur de la croix et de la paix"
+        },
+        {
+          "left": "Hélène",
+          "right": "sa mère, qui retrouve la Sainte Croix"
+        },
+        {
+          "left": "Licinius",
+          "right": "le collègue qui signe l'édit de Milan"
+        },
+        {
+          "left": "Maxence",
+          "right": "le rival vaincu à Rome en 312"
+        }
+      ],
+      "answer": "Constantin = l'empereur de la croix et de la paix ; Hélène = sa mère, qui retrouve la Sainte Croix ; Licinius = le collègue qui signe l'édit de Milan ; Maxence = le rival vaincu à Rome en 312",
+      "acceptedAnswers": [],
+      "explanation": "Constantin vainc Maxence en 312, signe la paix avec Licinius en 313, et sa mère Hélène bâtit des églises.",
+      "tip": "Quatre noms : Constantin, Hélène, Licinius, Maxence.",
+      "extraExample": {
+        "text": "Constantin meurt en 337, baptisé tard, peu avant sa mort.",
+        "translation": "Il protège l'Église, mais il reste un empereur avec ses calculs politiques."
+      },
+      "id": "eg.l26.e01"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.helene"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Comment s'appelle la mère de Constantin ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Hélène",
+        "Catherine",
+        "Barbara",
+        "Marie"
+      ],
+      "answer": "Hélène",
+      "acceptedAnswers": [
+        "Hélène"
+      ],
+      "explanation": "Constantin est le fils de Constance Ier Chlore et d'Hélène. Catherine et Barbara sont des martyres de la persécution précédente.",
+      "tip": "Hélène = mère, Sainte Croix.",
+      "extraExample": {
+        "text": "Constantinople est aujourd'hui Istanbul.",
+        "translation": "La ville porte la trace de Constantin depuis plus de seize siècles."
+      },
+      "errorPatterns": [
+        {
+          "equals": "Catherine",
+          "category": "word_confusion",
+          "feedback": "Catherine est une martyre de 305."
+        },
+        {
+          "equals": "Barbara",
+          "category": "word_confusion",
+          "feedback": "Barbara est une martyre de 306."
+        }
+      ],
+      "id": "eg.l26.e02"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.maxence",
+        "eg.v.constantin"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Contre qui Constantin marche-t-il sur Rome en 312 ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Maxence",
+        "Licinius",
+        "Dioclétien",
+        "Arius"
+      ],
+      "answer": "Maxence",
+      "acceptedAnswers": [
+        "Maxence"
+      ],
+      "explanation": "Maxence règne à Rome et Constantin veut s'en emparer. Licinius sera au contraire son allié à Milan.",
+      "tip": "312 : Constantin contre Maxence.",
+      "extraExample": {
+        "text": "L'Arménie adopte le christianisme comme religion d'État dès 301.",
+        "translation": "Elle le fait avant l'Empire romain lui-même."
+      },
+      "errorPatterns": [
+        {
+          "equals": "Licinius",
+          "category": "word_confusion",
+          "feedback": "Licinius signera la paix avec Constantin l'année suivante."
+        },
+        {
+          "equals": "Dioclétien",
+          "category": "word_confusion",
+          "feedback": "Dioclétien a abdiqué en 305."
+        }
+      ],
+      "id": "eg.l26.e03"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.constantin"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quels mots sont écrits autour de la croix lumineuse que voit Constantin ?",
+      "promptLanguage": "fr",
+      "options": [
+        "« Avec ceci tu vaincras »",
+        "« Tu es mon Fils bien-aimé »",
+        "« Je suis la voie »",
+        "« Aime ton prochain »"
+      ],
+      "answer": "« Avec ceci tu vaincras »",
+      "acceptedAnswers": [
+        "« Avec ceci tu vaincras »"
+      ],
+      "explanation": "Selon le récit, c'est le message écrit en grec dans le ciel. Constantin en fait le signe de son armée.",
+      "tip": "La croix, signe de la victoire.",
+      "extraExample": {
+        "text": "Constantin meurt en 337, baptisé tard, peu avant sa mort.",
+        "translation": "Il protège l'Église, mais il reste un empereur avec ses calculs politiques."
+      },
+      "id": "eg.l26.e04"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.constantin"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Après sa vision, Constantin fait dessiner une ___ sur son drapeau et sur les armes.",
+      "promptLanguage": "fr",
+      "options": [
+        "croix",
+        "aigle",
+        "colombe",
+        "étoile"
+      ],
+      "answer": "croix",
+      "acceptedAnswers": [
+        "croix",
+        "une croix",
+        "la croix"
+      ],
+      "explanation": "Constantin obéit à l'ange : il marque son drapeau et les armes d'une croix avant d'aller combattre Maxence.",
+      "tip": "La croix sur le drapeau.",
+      "extraExample": {
+        "text": "Constantinople est aujourd'hui Istanbul.",
+        "translation": "La ville porte la trace de Constantin depuis plus de seize siècles."
+      },
+      "id": "eg.l26.e05"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.maxence"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Comment meurt Maxence ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Le pont sur le Tibre s'écroule",
+        "Il est exécuté à Milan",
+        "Il meurt de maladie à Rome",
+        "Il est exilé à Constantinople"
+      ],
+      "answer": "Le pont sur le Tibre s'écroule",
+      "acceptedAnswers": [
+        "Le pont sur le Tibre s'écroule"
+      ],
+      "explanation": "En fuyant, Maxence passe un pont dressé sur le Tibre. Le pont s'écroule et il meurt avec beaucoup de ses soldats.",
+      "tip": "Tibre, pont, Maxence.",
+      "extraExample": {
+        "text": "L'Arménie adopte le christianisme comme religion d'État dès 301.",
+        "translation": "Elle le fait avant l'Empire romain lui-même."
+      },
+      "id": "eg.l26.e06"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.edit_de_milan"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel édit met fin aux persécutions romaines en 313 ?",
+      "promptLanguage": "fr",
+      "options": [
+        "L'édit de Milan",
+        "L'édit de Nicée",
+        "L'édit de Galère",
+        "L'édit de Rome"
+      ],
+      "answer": "L'édit de Milan",
+      "acceptedAnswers": [
+        "L'édit de Milan"
+      ],
+      "explanation": "Signé par Constantin et Licinius à Milan en 313, il met fin aux persécutions romaines. L'édit de Galère (311) n'était qu'une tolérance.",
+      "tip": "313 = Milan.",
+      "extraExample": {
+        "text": "Constantin meurt en 337, baptisé tard, peu avant sa mort.",
+        "translation": "Il protège l'Église, mais il reste un empereur avec ses calculs politiques."
+      },
+      "errorPatterns": [
+        {
+          "equals": "L'édit de Galère",
+          "category": "word_confusion",
+          "feedback": "L'édit de Galère date de 311 : c'est une tolérance, pas encore la liberté."
+        }
+      ],
+      "id": "eg.l26.e07"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.licinius"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui signe l'édit de Milan avec Constantin ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Licinius",
+        "Galère",
+        "Maxence",
+        "Dioclétien"
+      ],
+      "answer": "Licinius",
+      "acceptedAnswers": [
+        "Licinius"
+      ],
+      "explanation": "L'édit de Milan est la déclaration commune de Constantin et de Licinius. Galère est mort en 311, Maxence en 312.",
+      "tip": "Deux empereurs, une paix : Constantin et Licinius.",
+      "extraExample": {
+        "text": "Constantinople est aujourd'hui Istanbul.",
+        "translation": "La ville porte la trace de Constantin depuis plus de seize siècles."
+      },
+      "id": "eg.l26.e08"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.edit_de_milan"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Avec l'édit de Milan, les biens confisqués des chrétiens sont ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "restitués",
+        "brûlés",
+        "vendus",
+        "partagés"
+      ],
+      "answer": "restitués",
+      "acceptedAnswers": [
+        "restitués"
+      ],
+      "explanation": "La paix de Milan est concrète : on rend aux chrétiens ce qu'on leur avait pris.",
+      "tip": "Milan : on rend les biens.",
+      "extraExample": {
+        "text": "L'Arménie adopte le christianisme comme religion d'État dès 301.",
+        "translation": "Elle le fait avant l'Empire romain lui-même."
+      },
+      "id": "eg.l26.e09"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.armenie"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel est le premier pays du monde à adopter le christianisme comme religion d'État, en 301 ?",
+      "promptLanguage": "fr",
+      "options": [
+        "L'Arménie",
+        "L'Égypte",
+        "La Grèce",
+        "Rome"
+      ],
+      "answer": "L'Arménie",
+      "acceptedAnswers": [
+        "L'Arménie"
+      ],
+      "explanation": "L'Arménie devient chrétienne en 301, avant l'Empire romain lui-même.",
+      "tip": "301 = Arménie.",
+      "extraExample": {
+        "text": "Constantin meurt en 337, baptisé tard, peu avant sa mort.",
+        "translation": "Il protège l'Église, mais il reste un empereur avec ses calculs politiques."
+      },
+      "errorPatterns": [
+        {
+          "equals": "L'Égypte",
+          "category": "word_confusion",
+          "feedback": "L'Égypte est chrétienne depuis saint Marc, mais pas comme religion d'État en 301."
+        },
+        {
+          "equals": "Rome",
+          "category": "word_confusion",
+          "feedback": "Rome n'adopte le christianisme comme religion d'État qu'en 380."
+        }
+      ],
+      "id": "eg.l26.e10"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.constantin"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que décide Constantin en 321 ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Le dimanche, jour de repos hebdomadaire",
+        "Les églises deviennent gratuites",
+        "Les évêques deviennent sénateurs",
+        "Le baptême devient obligatoire"
+      ],
+      "answer": "Le dimanche, jour de repos hebdomadaire",
+      "acceptedAnswers": [
+        "Le dimanche, jour de repos hebdomadaire"
+      ],
+      "explanation": "En 321, Constantin décrète le dimanche comme jour de repos dans l'empire, ce qui aide les chrétiens à se réunir.",
+      "tip": "321 = dimanche.",
+      "extraExample": {
+        "text": "Constantinople est aujourd'hui Istanbul.",
+        "translation": "La ville porte la trace de Constantin depuis plus de seize siècles."
+      },
+      "id": "eg.l26.e11"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.helene"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que fait Hélène, mère de Constantin, à Jérusalem ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Elle retrouve la Sainte Croix et fait bâtir la basilique de la Résurrection",
+        "Elle fonde Constantinople",
+        "Elle signe l'édit de Milan",
+        "Elle préside le concile de Nicée"
+      ],
+      "answer": "Elle retrouve la Sainte Croix et fait bâtir la basilique de la Résurrection",
+      "acceptedAnswers": [
+        "Elle retrouve la Sainte Croix et fait bâtir la basilique de la Résurrection"
+      ],
+      "explanation": "Hélène est connue pour avoir retrouvé la Sainte Croix et bâti des églises, dont la basilique de la Résurrection.",
+      "tip": "Hélène = Croix + églises.",
+      "extraExample": {
+        "text": "L'Arménie adopte le christianisme comme religion d'État dès 301.",
+        "translation": "Elle le fait avant l'Empire romain lui-même."
+      },
+      "id": "eg.l26.e12"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.constantinople"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "En 330, Constantin fonde ___, « la ville de Constantin ».",
+      "promptLanguage": "fr",
+      "options": [
+        "Constantinople",
+        "Nicée",
+        "Milan",
+        "Alexandrie"
+      ],
+      "answer": "Constantinople",
+      "acceptedAnswers": [
+        "Constantinople"
+      ],
+      "explanation": "Constantinople remplace Byzance et devient la capitale de l'empire d'Orient.",
+      "tip": "Constantin + ville = Constantinople.",
+      "extraExample": {
+        "text": "Constantin meurt en 337, baptisé tard, peu avant sa mort.",
+        "translation": "Il protège l'Église, mais il reste un empereur avec ses calculs politiques."
+      },
+      "id": "eg.l26.e13"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.eveque_du_dehors"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Quel titre l'empereur se donne-t-il pour les affaires extérieures de l'Église ?",
+      "promptLanguage": "fr",
+      "answer": "L'évêque du dehors",
+      "acceptedAnswers": [
+        "L'évêque du dehors",
+        "évêque du dehors",
+        "eveque du dehors"
+      ],
+      "explanation": "Constantin se dit « évêque du dehors » : il s'occupe des affaires extérieures de l'Église, mais s'immisce aussi dans les débats de foi.",
+      "tip": "Évêque du dehors = l'empereur.",
+      "extraExample": {
+        "text": "Constantinople est aujourd'hui Istanbul.",
+        "translation": "La ville porte la trace de Constantin depuis plus de seize siècles."
+      },
+      "hint": "Il est dehors, pas dedans.",
+      "id": "eg.l26.e14"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.eveque_du_dehors"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel danger la proximité entre l'empereur et le clergé crée-t-elle ?",
+      "promptLanguage": "fr",
+      "options": [
+        "L'Église se mêle à la politique",
+        "L'Église devient pauvre",
+        "Les évêques n'ont plus le droit de prêcher",
+        "Les églises sont fermées"
+      ],
+      "answer": "L'Église se mêle à la politique",
+      "acceptedAnswers": [
+        "L'Église se mêle à la politique"
+      ],
+      "explanation": "Quand le travail calme et spirituel de l'Église se mélange au pouvoir temporel, l'empereur peut orienter les débats. On le verra dans la querelle d'Arius.",
+      "tip": "Le danger de la faveur : le pouvoir veut peser.",
+      "extraExample": {
+        "text": "L'Arménie adopte le christianisme comme religion d'État dès 301.",
+        "translation": "Elle le fait avant l'Empire romain lui-même."
+      },
+      "id": "eg.l26.e15"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.edit_de_milan"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+      "prompt": "Phrase-repère : la paix des chrétiens.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "L'édit",
+        "313",
+        "en",
+        "Milan",
+        "persécutions",
+        "fin",
+        "met",
+        "de",
+        "aux"
+      ],
+      "answer": "L'édit de Milan met fin aux persécutions en 313",
+      "acceptedAnswers": [
+        "L'édit de Milan met fin aux persécutions en 313",
+        "En 313 l'édit de Milan met fin aux persécutions"
+      ],
+      "explanation": "313 est la date de la paix.",
+      "tip": "313 : Milan, la paix.",
+      "extraExample": {
+        "text": "Constantin meurt en 337, baptisé tard, peu avant sa mort.",
+        "translation": "Il protège l'Église, mais il reste un empereur avec ses calculs politiques."
+      },
+      "id": "eg.l26.e16"
+    },
+    {
+      "unitIds": [
+        "eg.g25.grande_persecution",
+        "eg.v.diocletien",
+        "eg.v.diocletien"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel empereur publie les quatre édits de 303 ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Dioclétien",
+        "Constantin",
+        "Licinius",
+        "Galère"
+      ],
+      "answer": "Dioclétien",
+      "acceptedAnswers": [
+        "Dioclétien"
+      ],
+      "explanation": "Les quatre édits sont l'œuvre de Dioclétien. Galère lui succède en 305.",
+      "tip": "303 = Dioclétien.",
+      "extraExample": {
+        "text": "Constantinople est aujourd'hui Istanbul.",
+        "translation": "La ville porte la trace de Constantin depuis plus de seize siècles."
+      },
+      "id": "eg.l26.e17"
+    },
+    {
+      "unitIds": [
+        "eg.g25.grande_persecution",
+        "eg.v.edit_de_tolerance_311",
+        "eg.v.edit_de_tolerance_311"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Galère signe l'édit de tolérance en ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "311",
+        "303",
+        "313",
+        "325"
+      ],
+      "answer": "311",
+      "acceptedAnswers": [
+        "311"
+      ],
+      "explanation": "L'édit de 311 est une première tolérance. Il précède de deux ans l'édit de Milan.",
+      "tip": "311 puis 313.",
+      "extraExample": {
+        "text": "L'Arménie adopte le christianisme comme religion d'État dès 301.",
+        "translation": "Elle le fait avant l'Empire romain lui-même."
+      },
+      "id": "eg.l26.e18"
+    },
+    {
+      "unitIds": [
+        "eg.g25.grande_persecution",
+        "eg.v.diocletien",
+        "eg.v.diocletien"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Depuis quelle année le calendrier copte compte-t-il ses années ?",
+      "promptLanguage": "fr",
+      "answer": "284",
+      "acceptedAnswers": [
+        "284",
+        "en 284",
+        "l'an 284"
+      ],
+      "explanation": "Le calendrier copte commence en 284, avec l'avènement de Dioclétien : c'est l'ère des martyrs.",
+      "tip": "284, l'ère des martyrs.",
+      "extraExample": {
+        "text": "Constantin meurt en 337, baptisé tard, peu avant sa mort.",
+        "translation": "Il protège l'Église, mais il reste un empereur avec ses calculs politiques."
+      },
+      "id": "eg.l26.e19"
+    },
+    {
+      "unitIds": [
+        "eg.g25.grande_persecution",
+        "eg.v.pierre_sceau_des_martyrs",
+        "eg.v.pierre_sceau_des_martyrs"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel pape d'Alexandrie, martyr en 311, est le « sceau des martyrs » ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Pierre",
+        "Alexandre",
+        "Athanase",
+        "Cyrille"
+      ],
+      "answer": "Pierre",
+      "acceptedAnswers": [
+        "Pierre"
+      ],
+      "explanation": "Le pape Pierre ferme la liste des martyrs de la grande persécution, deux ans avant l'édit de Milan.",
+      "tip": "Pierre, sceau des martyrs.",
+      "extraExample": {
+        "text": "Constantinople est aujourd'hui Istanbul.",
+        "translation": "La ville porte la trace de Constantin depuis plus de seize siècles."
+      },
+      "id": "eg.l26.e20"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.constantinople"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Quel est le nom de la nouvelle capitale fondée par Constantin en 330 ?",
+      "promptLanguage": "fr",
+      "answer": "Constantinople",
+      "acceptedAnswers": [
+        "Constantinople"
+      ],
+      "explanation": "Constantinople, c'est « la ville de Constantin », capitale de l'empire d'Orient dès 330.",
+      "tip": "330 : Constantinople.",
+      "extraExample": {
+        "text": "L'Arménie adopte le christianisme comme religion d'État dès 301.",
+        "translation": "Elle le fait avant l'Empire romain lui-même."
+      },
+      "id": "eg.l26.e21"
+    },
+    {
+      "unitIds": [
+        "eg.g26.constantin",
+        "eg.v.armenie",
+        "eg.v.edit_de_milan",
+        "eg.v.constantinople"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Les dates du début du siècle.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "301",
+          "right": "l'Arménie devient chrétienne"
+        },
+        {
+          "left": "313",
+          "right": "l'édit de Milan"
+        },
+        {
+          "left": "321",
+          "right": "le dimanche, jour de repos"
+        },
+        {
+          "left": "330",
+          "right": "la fondation de Constantinople"
+        }
+      ],
+      "answer": "301 = l'Arménie devient chrétienne ; 313 = l'édit de Milan ; 321 = le dimanche, jour de repos ; 330 = la fondation de Constantinople",
+      "acceptedAnswers": [],
+      "explanation": "Quatre repères pour situer le règne de Constantin : 301 l'Arménie, 313 Milan, 321 le dimanche, 330 Constantinople.",
+      "tip": "301, 313, 321, 330.",
+      "extraExample": {
+        "text": "Constantin meurt en 337, baptisé tard, peu avant sa mort.",
+        "translation": "Il protège l'Église, mais il reste un empereur avec ses calculs politiques."
+      },
+      "id": "eg.l26.e22"
+    }
+  ]
+}

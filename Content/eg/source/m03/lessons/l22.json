@@ -1,0 +1,606 @@
+{
+  "lessonId": "eg.l22",
+  "exercises": [
+    {
+      "id": "eg.l22.e01",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.novatien",
+        "eg.v.cyprien",
+        "eg.v.mani",
+        "eg.v.augustin"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Quatre noms, quatre rôles",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Novatien",
+          "right": "théologien romain"
+        },
+        {
+          "left": "Cyprien",
+          "right": "évêque de Carthage"
+        },
+        {
+          "left": "Mani",
+          "right": "Perse, fondateur du manichéisme"
+        },
+        {
+          "left": "Augustin",
+          "right": "ancien manichéen devenu chrétien"
+        }
+      ],
+      "answer": "Novatien = théologien romain ; Cyprien = évêque de Carthage ; Mani = Perse, fondateur du manichéisme ; Augustin = ancien manichéen devenu chrétien",
+      "acceptedAnswers": [],
+      "explanation": "Novatien et Cyprien se répondent sur les tombés ; Mani et Augustin sont liés par le manichéisme.",
+      "tip": "Novatien/Cyprien : pardon. Mani/Augustin : manichéisme."
+    },
+    {
+      "id": "eg.l22.e02",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.penitence",
+        "eg.v.tombes",
+        "eg.v.manicheisme",
+        "eg.v.novatianisme"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Notions du débat sur les tombés",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Les tombés",
+          "right": "les chrétiens qui ont renié la foi"
+        },
+        {
+          "left": "La pénitence",
+          "right": "chemin de repentir pour revenir à l'Église"
+        },
+        {
+          "left": "Le novatianisme",
+          "right": "l'Église doit être préservée dans sa pureté"
+        },
+        {
+          "left": "Le manichéisme",
+          "right": "un Dieu bon et un démiurge mauvais"
+        }
+      ],
+      "answer": "Les tombés = les chrétiens qui ont renié la foi ; La pénitence = chemin de repentir pour revenir à l'Église ; Le novatianisme = l'Église doit être préservée dans sa pureté ; Le manichéisme = un Dieu bon et un démiurge mauvais",
+      "acceptedAnswers": [],
+      "explanation": "Quatre notions : le problème, la solution de l'Église, l'erreur de Novatien et celle de Mani.",
+      "tip": "Problème → pénitence → erreur de Novatien."
+    },
+    {
+      "id": "eg.l22.e03",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.novatien"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui est Novatien ?",
+      "promptLanguage": "fr",
+      "answer": "Un théologien romain",
+      "acceptedAnswers": [
+        "Un théologien romain"
+      ],
+      "explanation": "Novatien est un théologien romain, consacré évêque de Rome en 251.",
+      "tip": "Novatien = Rome.",
+      "extraExample": {
+        "text": "Il n'est pas un persécuteur.",
+        "translation": "Il est chrétien."
+      },
+      "options": [
+        "Un théologien romain",
+        "Un empereur persécuteur",
+        "Un évêque d'Alexandrie",
+        "Un moine du désert"
+      ]
+    },
+    {
+      "id": "eg.l22.e04",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.tombes"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui sont les « tombés » ?",
+      "promptLanguage": "fr",
+      "answer": "Les chrétiens qui ont renié la foi",
+      "acceptedAnswers": [
+        "Les chrétiens qui ont renié la foi"
+      ],
+      "explanation": "Les tombés ont cédé sous la persécution, par exemple en sacrifiant.",
+      "tip": "Tombé = a renié la foi.",
+      "extraExample": {
+        "text": "Certains avaient un faux libellus.",
+        "translation": "Ils veulent revenir."
+      },
+      "options": [
+        "Les martyrs morts",
+        "Les évêques exilés",
+        "Les ermites du désert",
+        "Les chrétiens qui ont renié la foi"
+      ]
+    },
+    {
+      "id": "eg.l22.e05",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.novatien"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "En quelle année Novatien est-il consacré évêque de Rome ?",
+      "promptLanguage": "fr",
+      "answer": "251",
+      "acceptedAnswers": [
+        "251"
+      ],
+      "explanation": "Novatien est consacré évêque de Rome en 251 et excommunié la même année.",
+      "tip": "251 = Novatien.",
+      "extraExample": {
+        "text": "Rappel : 269 est Paul de Samosate.",
+        "translation": "303 est la grande persécution."
+      },
+      "options": [
+        "269",
+        "303",
+        "251",
+        "235"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "269",
+          "category": "word_confusion",
+          "feedback": "269 est la condamnation de Paul de Samosate."
+        }
+      ]
+    },
+    {
+      "id": "eg.l22.e06",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.novatianisme"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que veut Novatien pour l'Église ?",
+      "promptLanguage": "fr",
+      "answer": "L'Église doit être préservée dans sa pureté",
+      "acceptedAnswers": [
+        "L'Église doit être préservée dans sa pureté"
+      ],
+      "explanation": "Il refuse le retour des tombés pour ne pas souiller l'Église.",
+      "tip": "Novatien = pureté sans pardon.",
+      "extraExample": {
+        "text": "Cela revient à fermer la porte.",
+        "translation": "L'Église ne le suit pas."
+      },
+      "options": [
+        "L'empereur doit gouverner l'Église",
+        "L'Église doit être préservée dans sa pureté",
+        "Tout le monde doit être pardonné",
+        "Les évêques doivent se marier"
+      ]
+    },
+    {
+      "id": "eg.l22.e07",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.penitence"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que répond l'Église aux tombés qui se repentent ?",
+      "promptLanguage": "fr",
+      "answer": "Recevoir les vrais pénitents",
+      "acceptedAnswers": [
+        "Recevoir les vrais pénitents"
+      ],
+      "explanation": "L'Église reçoit dans son giron ceux qui se repentent sincèrement.",
+      "tip": "Pénitence = chemin de retour.",
+      "extraExample": {
+        "text": "Le Christ cherche les pécheurs.",
+        "translation": "Le pardon est possible."
+      },
+      "options": [
+        "Recevoir les vrais pénitents",
+        "Les exiler pour toujours",
+        "Les remplacer par d'autres",
+        "Les déclarer martyrs"
+      ]
+    },
+    {
+      "id": "eg.l22.e08",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.cyprien"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui combat l'hérésie de Novatien ?",
+      "promptLanguage": "fr",
+      "answer": "Denys d'Alexandrie et Cyprien",
+      "acceptedAnswers": [
+        "Denys d'Alexandrie et Cyprien"
+      ],
+      "explanation": "Denys, patriarche d'Alexandrie, et Cyprien, évêque de Carthage.",
+      "tip": "Denys + Cyprien contre Novatien.",
+      "extraExample": {
+        "text": "Denys combat aussi Sabellius.",
+        "translation": "Cyprien est décapité en 258."
+      },
+      "options": [
+        "Dèce et Valérien",
+        "Paul et Antoine",
+        "Mani et Augustin",
+        "Denys d'Alexandrie et Cyprien"
+      ]
+    },
+    {
+      "id": "eg.l22.e09",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.mani"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "De quelle origine est Mani ?",
+      "promptLanguage": "fr",
+      "answer": "Perse",
+      "acceptedAnswers": [
+        "Perse"
+      ],
+      "explanation": "Mani est un Perse, fondateur du manichéisme.",
+      "tip": "Mani = Perse.",
+      "extraExample": {
+        "text": "Le manichéisme se veut une variante du mazdéisme.",
+        "translation": "C'est la religion des Perses."
+      },
+      "options": [
+        "Égyptienne",
+        "Grecque",
+        "Perse",
+        "Romaine"
+      ]
+    },
+    {
+      "id": "eg.l22.e10",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.manicheisme"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quels sont les deux principes du manichéisme ?",
+      "promptLanguage": "fr",
+      "answer": "Un Dieu bon et un démiurge mauvais",
+      "acceptedAnswers": [
+        "Un Dieu bon et un démiurge mauvais"
+      ],
+      "explanation": "Dieu bon : esprits. Démiurge mauvais : matière et corps.",
+      "tip": "Deux principes : bon et mauvais.",
+      "extraExample": {
+        "text": "Le corps est donc mauvais.",
+        "translation": "Cela contredit l'Incarnation."
+      },
+      "options": [
+        "Le ciel et la mer",
+        "Un Dieu bon et un démiurge mauvais",
+        "Le Père et le Fils",
+        "L'Ancien et le Nouveau Testament"
+      ]
+    },
+    {
+      "id": "eg.l22.e11",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.manicheisme"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que pense Mani des religions ?",
+      "promptLanguage": "fr",
+      "answer": "Toutes les religions sont valides",
+      "acceptedAnswers": [
+        "Toutes les religions sont valides"
+      ],
+      "explanation": "Il cite comme prophètes Adam, Noé, Abraham, Zoroastre, Bouddha, Jésus, Paul et Mani.",
+      "tip": "Mani = toutes valides.",
+      "extraExample": {
+        "text": "L'Église croit au Christ unique Sauveur.",
+        "translation": "La différence est nette."
+      },
+      "options": [
+        "Toutes les religions sont valides",
+        "Seul le christianisme est vrai",
+        "Seul le mazdéisme est vrai",
+        "Aucune n'est vraie"
+      ]
+    },
+    {
+      "id": "eg.l22.e12",
+      "unitIds": [
+        "eg.g21.erreurs_sur_la_trinite",
+        "eg.v.trinite"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Révision : combien de personnes y a-t-il dans la Sainte Trinité ?",
+      "promptLanguage": "fr",
+      "answer": "Trois personnes",
+      "acceptedAnswers": [
+        "Trois personnes"
+      ],
+      "explanation": "Le Père, le Fils et le Saint-Esprit : trois personnes et une seule divinité. (Leçon 21.)",
+      "tip": "Trinité = 3 personnes, 1 divinité.",
+      "extraExample": {
+        "text": "Paul de Samosate nie la Trinité.",
+        "translation": "Sabellius la confond."
+      },
+      "options": [
+        "Deux personnes",
+        "Une seule personne",
+        "Quatre personnes",
+        "Trois personnes"
+      ]
+    },
+    {
+      "id": "eg.l22.e13",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.libellus"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Révision : quel certificat prouvait un sacrifice sous Dèce ?",
+      "promptLanguage": "fr",
+      "answer": "Le libellus",
+      "acceptedAnswers": [
+        "Le libellus"
+      ],
+      "explanation": "Le libellus est un certificat de sacrifice. (Leçon 18.)",
+      "tip": "Libellus = preuve du sacrifice.",
+      "extraExample": {
+        "text": "Certains en achètent de faux.",
+        "translation": "Cela crée les tombés."
+      },
+      "options": [
+        "L'édit",
+        "Le synaxaire",
+        "Le libellus",
+        "Le canon"
+      ]
+    },
+    {
+      "id": "eg.l22.e14",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.novatien"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète la phrase.",
+      "prompt": "Novatien est consacré évêque de ___ en 251.",
+      "promptLanguage": "fr",
+      "answer": "Rome",
+      "acceptedAnswers": [
+        "Rome"
+      ],
+      "explanation": "Novatien est un théologien romain.",
+      "tip": "Novatien = Rome.",
+      "extraExample": {
+        "text": "Cyprien est évêque de Carthage.",
+        "translation": "Denys est à Alexandrie."
+      },
+      "options": [
+        "Rome",
+        "Alexandrie",
+        "Carthage",
+        "Antioche"
+      ]
+    },
+    {
+      "id": "eg.l22.e15",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.manicheisme"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le manichéisme oppose un Dieu bon à un ___ mauvais.",
+      "promptLanguage": "fr",
+      "answer": "démiurge",
+      "acceptedAnswers": [
+        "démiurge"
+      ],
+      "explanation": "Le démiurge a forgé les réalités matérielles, les corps.",
+      "tip": "Démiurge = créateur de la matière.",
+      "extraExample": {
+        "text": "Le Dieu bon crée les esprits.",
+        "translation": "Le démiurge forge les corps."
+      },
+      "options": [
+        "apôtre",
+        "prophète",
+        "empereur",
+        "démiurge"
+      ]
+    },
+    {
+      "id": "eg.l22.e16",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.augustin"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Saint Augustin a adhéré au ___ avant de se convertir.",
+      "promptLanguage": "fr",
+      "answer": "manichéisme",
+      "acceptedAnswers": [
+        "manichéisme"
+      ],
+      "explanation": "Il a suivi Mani avant sa conversion au christianisme.",
+      "tip": "Augustin = ancien manichéen.",
+      "extraExample": {
+        "text": "Mani est perse.",
+        "translation": "Augustin se convertit ensuite."
+      },
+      "options": [
+        "sabellianisme",
+        "paganisme",
+        "manichéisme",
+        "novatianisme"
+      ]
+    },
+    {
+      "id": "eg.l22.e17",
+      "unitIds": [
+        "eg.g21.erreurs_sur_la_trinite",
+        "eg.v.paul_de_samosate"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Révision : Paul de Samosate est évêque d'___.",
+      "promptLanguage": "fr",
+      "answer": "Antioche",
+      "acceptedAnswers": [
+        "Antioche"
+      ],
+      "explanation": "Paul de Samosate est évêque d'Antioche. (Leçon 21.)",
+      "tip": "Paul = Antioche.",
+      "extraExample": {
+        "text": "Sabellius : Ptolémaïs.",
+        "translation": "Novatien : Rome."
+      },
+      "options": [
+        "Carthage",
+        "Antioche",
+        "Alexandrie",
+        "Rome"
+      ]
+    },
+    {
+      "id": "eg.l22.e18",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.novatien"
+      ],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre.",
+      "prompt": "Reconstitue la phrase-repère sur Novatien.",
+      "promptLanguage": "fr",
+      "answer": "Novatien est un théologien romain",
+      "acceptedAnswers": [
+        "Novatien est un théologien romain"
+      ],
+      "explanation": "Novatien est consacré évêque de Rome en 251.",
+      "tip": "Novatien = Rome.",
+      "extraExample": {
+        "text": "Il veut une Église pure.",
+        "translation": "L'Église l'excommunie."
+      },
+      "tokens": [
+        "un",
+        "théologien",
+        "romain",
+        "Novatien",
+        "est"
+      ]
+    },
+    {
+      "id": "eg.l22.e19",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.mani"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Quel Perse fonde le manichéisme ?",
+      "promptLanguage": "fr",
+      "answer": "Mani",
+      "acceptedAnswers": [
+        "Mani",
+        "le Perse Mani"
+      ],
+      "explanation": "Mani est le fondateur du manichéisme.",
+      "tip": "Mani = manichéisme.",
+      "extraExample": {
+        "text": "Il se compte parmi les prophètes.",
+        "translation": "Augustin l'a suivi."
+      }
+    },
+    {
+      "id": "eg.l22.e20",
+      "unitIds": [
+        "eg.g22.novatien_et_mani",
+        "eg.v.tombes"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la réponse.",
+      "prompt": "Comment appelle-t-on les chrétiens qui ont renié la foi pendant la persécution ? (deux mots)",
+      "promptLanguage": "fr",
+      "answer": "les tombés",
+      "acceptedAnswers": [
+        "les tombés",
+        "tombés",
+        "tombes",
+        "les lapsi",
+        "lapsi"
+      ],
+      "explanation": "On les appelle les tombés.",
+      "tip": "Tombés = ont cédé.",
+      "extraExample": {
+        "text": "Leur retour fait débat.",
+        "translation": "L'Église les reçoit s'ils sont pénitents."
+      }
+    },
+    {
+      "id": "eg.l22.e21",
+      "unitIds": [
+        "eg.g21.erreurs_sur_la_trinite",
+        "eg.v.sabellius"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Révision : quel évêque de Ptolémaïs voit en Dieu un acteur à trois masques ?",
+      "promptLanguage": "fr",
+      "answer": "Sabellius",
+      "acceptedAnswers": [
+        "Sabellius"
+      ],
+      "explanation": "Sabellius est évêque de Ptolémaïs. (Leçon 21.)",
+      "tip": "Sabellius = Ptolémaïs.",
+      "extraExample": {
+        "text": "Il confond les personnes.",
+        "translation": "Denys le combat."
+      }
+    }
+  ]
+}

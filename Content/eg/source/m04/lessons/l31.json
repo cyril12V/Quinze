@@ -1,0 +1,717 @@
+{
+  "lessonId": "eg.l31",
+  "exercises": [
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.theodose_ier",
+        "eg.v.apollinaire",
+        "eg.v.macedonius",
+        "eg.v.pape_timothee"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Qui est qui au concile de 381 ?",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Théodose Ier",
+          "right": "convoque le concile"
+        },
+        {
+          "left": "Apollinaire",
+          "right": "nie l'âme humaine du Christ"
+        },
+        {
+          "left": "Macédonius",
+          "right": "dit que l'Esprit Saint est créé"
+        },
+        {
+          "left": "Le pape Timothée",
+          "right": "pape d'Alexandrie présent au concile"
+        }
+      ],
+      "answer": "Théodose Ier = convoque le concile ; Apollinaire = nie l'âme humaine du Christ ; Macédonius = dit que l'Esprit Saint est créé ; Le pape Timothée = pape d'Alexandrie présent au concile",
+      "acceptedAnswers": [],
+      "explanation": "Théodose convoque, Timothée défend la foi, et Apollinaire et Macédonius sont condamnés.",
+      "tip": "Théodose convoque, Timothée répond, deux hérétiques condamnés.",
+      "extraExample": {
+        "text": "Le Credo que tu récites à la messe est celui de Nicée complété à Constantinople.",
+        "translation": "Les 318 pères de Nicée et les 150 de Constantinople sont donc présents dans ta prière."
+      },
+      "id": "eg.l31.e01"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.theodose_ier"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui convoque le concile de Constantinople ?",
+      "promptLanguage": "fr",
+      "options": [
+        "L'empereur Théodose Ier",
+        "L'empereur Constantin",
+        "Le pape Alexandre",
+        "L'empereur Théodose II"
+      ],
+      "answer": "L'empereur Théodose Ier",
+      "acceptedAnswers": [
+        "L'empereur Théodose Ier"
+      ],
+      "explanation": "Théodose Ier convoque le deuxième concile en 381. Constantin avait convoqué Nicée en 325 ; Théodose II convoquera Éphèse en 431.",
+      "tip": "Théodose Ier = 381.",
+      "extraExample": {
+        "text": "Grégoire de Nazianze disait : ce que le Christ n'a pas pris, il ne l'a pas guéri.",
+        "translation": "Si le Christ n'avait pas d'âme humaine, notre âme ne serait pas sauvée."
+      },
+      "errorPatterns": [
+        {
+          "equals": "L'empereur Constantin",
+          "category": "word_confusion",
+          "feedback": "Constantin convoque le premier concile, Nicée."
+        },
+        {
+          "equals": "L'empereur Théodose II",
+          "category": "word_confusion",
+          "feedback": "Théodose II convoquera Éphèse, plus tard."
+        }
+      ],
+      "id": "eg.l31.e02"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.concile_de_constantinople"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Combien d'évêques se réunissent à Constantinople ?",
+      "promptLanguage": "fr",
+      "options": [
+        "150",
+        "318",
+        "200",
+        "12"
+      ],
+      "answer": "150",
+      "acceptedAnswers": [
+        "150"
+      ],
+      "explanation": "150 évêques à Constantinople, contre 318 à Nicée et 200 à Éphèse.",
+      "tip": "150 à Constantinople.",
+      "extraExample": {
+        "text": "En 381, Constantinople n'a que cinquante ans d'existence.",
+        "translation": "Une ville toute neuve accueille déjà un concile œcuménique."
+      },
+      "errorPatterns": [
+        {
+          "equals": "318",
+          "category": "word_confusion",
+          "feedback": "318, c'est Nicée."
+        },
+        {
+          "equals": "200",
+          "category": "word_confusion",
+          "feedback": "200, c'est Éphèse."
+        }
+      ],
+      "id": "eg.l31.e03"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.concile_de_constantinople"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le concile de Constantinople se tient en ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "381",
+        "325",
+        "431",
+        "313"
+      ],
+      "answer": "381",
+      "acceptedAnswers": [
+        "381"
+      ],
+      "explanation": "381 est l'année du deuxième concile œcuménique.",
+      "tip": "Nicée 325, Constantinople 381.",
+      "extraExample": {
+        "text": "Le Credo que tu récites à la messe est celui de Nicée complété à Constantinople.",
+        "translation": "Les 318 pères de Nicée et les 150 de Constantinople sont donc présents dans ta prière."
+      },
+      "errorPatterns": [
+        {
+          "equals": "325",
+          "category": "word_confusion",
+          "feedback": "325, c'est Nicée."
+        },
+        {
+          "equals": "431",
+          "category": "word_confusion",
+          "feedback": "431, c'est Éphèse."
+        }
+      ],
+      "id": "eg.l31.e04"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.concile_de_constantinople"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quelle ville s'ajoute aux quatre sièges principaux, à Constantinople ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Constantinople",
+        "Éphèse",
+        "Nicée",
+        "Carthage"
+      ],
+      "answer": "Constantinople",
+      "acceptedAnswers": [
+        "Constantinople"
+      ],
+      "explanation": "Les quatre sièges sont Alexandrie, Antioche, Rome et Jérusalem. Après sa fondation, Constantinople devient le cinquième.",
+      "tip": "4 sièges + Constantinople = 5.",
+      "extraExample": {
+        "text": "Grégoire de Nazianze disait : ce que le Christ n'a pas pris, il ne l'a pas guéri.",
+        "translation": "Si le Christ n'avait pas d'âme humaine, notre âme ne serait pas sauvée."
+      },
+      "id": "eg.l31.e05"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.religion_d_etat_380"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que se passe-t-il en 380 ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Le christianisme est proclamé religion de l'État",
+        "Le concile de Nicée",
+        "L'édit de Milan",
+        "La mort de Constantin"
+      ],
+      "answer": "Le christianisme est proclamé religion de l'État",
+      "acceptedAnswers": [
+        "Le christianisme est proclamé religion de l'État"
+      ],
+      "explanation": "En 380, sous Théodose Ier, le christianisme devient la religion de l'État. L'édit de Milan (313) avait seulement donné la liberté.",
+      "tip": "380 = religion de l'État.",
+      "extraExample": {
+        "text": "En 381, Constantinople n'a que cinquante ans d'existence.",
+        "translation": "Une ville toute neuve accueille déjà un concile œcuménique."
+      },
+      "errorPatterns": [
+        {
+          "equals": "L'édit de Milan",
+          "category": "word_confusion",
+          "feedback": "C'est 313, la liberté de culte."
+        }
+      ],
+      "id": "eg.l31.e06"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.apollinaire"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que soutient Apollinaire de Laodicée ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Un corps humain mais sans son âme",
+        "Une âme humaine mais sans corps",
+        "Deux personnes dans le Christ",
+        "Un Christ créé"
+      ],
+      "answer": "Un corps humain mais sans son âme",
+      "acceptedAnswers": [
+        "Un corps humain mais sans son âme"
+      ],
+      "explanation": "Pour Apollinaire, la divinité du Verbe tient lieu d'âme et d'esprit : le Christ n'aurait pas d'âme humaine.",
+      "tip": "Corps oui, âme non.",
+      "extraExample": {
+        "text": "Le Credo que tu récites à la messe est celui de Nicée complété à Constantinople.",
+        "translation": "Les 318 pères de Nicée et les 150 de Constantinople sont donc présents dans ta prière."
+      },
+      "errorPatterns": [
+        {
+          "equals": "Un Christ créé",
+          "category": "word_confusion",
+          "feedback": "C'est la position d'Arius."
+        }
+      ],
+      "id": "eg.l31.e07"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.apollinaire",
+        "eg.v.pape_timothee"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que répond le pape Timothée à Apollinaire ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Il n'a pas sauvé les hommes mais les animaux",
+        "Il a sauvé les anges",
+        "Il a seulement sauvé les chrétiens",
+        "Il n'a sauvé personne"
+      ],
+      "answer": "Il n'a pas sauvé les hommes mais les animaux",
+      "acceptedAnswers": [
+        "Il n'a pas sauvé les hommes mais les animaux"
+      ],
+      "explanation": "Si le Verbe n'avait pris qu'un corps animal, il aurait sauvé des animaux. Mais l'homme a une âme et une intelligence : le Verbe se fait homme tout entier.",
+      "tip": "Sans âme humaine, pas de salut humain.",
+      "extraExample": {
+        "text": "Grégoire de Nazianze disait : ce que le Christ n'a pas pris, il ne l'a pas guéri.",
+        "translation": "Si le Christ n'avait pas d'âme humaine, notre âme ne serait pas sauvée."
+      },
+      "id": "eg.l31.e08"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.macedonius"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que soutient Macédonius à propos du Saint-Esprit ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Le Saint-Esprit a été créé",
+        "Le Saint-Esprit est le Père",
+        "Le Saint-Esprit n'existe pas",
+        "Le Saint-Esprit est un ange"
+      ],
+      "answer": "Le Saint-Esprit a été créé",
+      "acceptedAnswers": [
+        "Le Saint-Esprit a été créé"
+      ],
+      "explanation": "Macédonius nie la divinité de l'Esprit Saint, comme Arius celle du Fils. Le concile affirme l'Esprit Seigneur et vivifiant.",
+      "tip": "Arius touche le Fils, Macédonius l'Esprit.",
+      "extraExample": {
+        "text": "En 381, Constantinople n'a que cinquante ans d'existence.",
+        "translation": "Une ville toute neuve accueille déjà un concile œcuménique."
+      },
+      "id": "eg.l31.e09"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.credo_de_nicee_constantinople"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Les pères complètent le credo à partir de « Je crois en l'___ ».",
+      "promptLanguage": "fr",
+      "options": [
+        "Esprit Saint",
+        "Église catholique",
+        "Fils unique",
+        "Père tout-puissant"
+      ],
+      "answer": "Esprit Saint",
+      "acceptedAnswers": [
+        "Esprit Saint"
+      ],
+      "explanation": "Nicée s'arrêtait à « son règne n'aura pas de fin ». Constantinople ajoute toute la suite sur l'Esprit Saint.",
+      "tip": "Constantinople complète sur l'Esprit.",
+      "extraExample": {
+        "text": "Le Credo que tu récites à la messe est celui de Nicée complété à Constantinople.",
+        "translation": "Les 318 pères de Nicée et les 150 de Constantinople sont donc présents dans ta prière."
+      },
+      "id": "eg.l31.e10"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.concile_de_constantinople"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Combien de canons le concile de Constantinople établit-il ?",
+      "promptLanguage": "fr",
+      "answer": "7",
+      "acceptedAnswers": [
+        "7",
+        "sept",
+        "7 canons",
+        "sept canons"
+      ],
+      "explanation": "Constantinople établit sept canons, dont celui sur le rang de Constantinople.",
+      "tip": "7 canons.",
+      "extraExample": {
+        "text": "Grégoire de Nazianze disait : ce que le Christ n'a pas pris, il ne l'a pas guéri.",
+        "translation": "Si le Christ n'avait pas d'âme humaine, notre âme ne serait pas sauvée."
+      },
+      "id": "eg.l31.e11"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.concile_de_constantinople"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel canon de Constantinople le siège d'Alexandrie n'a-t-il pas accepté ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Constantinople est le deuxième siège après celui de Rome",
+        "Les évêques doivent se marier",
+        "Le credo est supprimé",
+        "Alexandrie perd son pape"
+      ],
+      "answer": "Constantinople est le deuxième siège après celui de Rome",
+      "acceptedAnswers": [
+        "Constantinople est le deuxième siège après celui de Rome"
+      ],
+      "explanation": "Alexandrie ne reconnaît pas ce rang : elle occupait la deuxième place depuis Nicée, et ne veut pas qu'un siège gagne en rang parce que la ville est capitale.",
+      "tip": "Alexandrie refuse la « nouvelle Rome ».",
+      "extraExample": {
+        "text": "En 381, Constantinople n'a que cinquante ans d'existence.",
+        "translation": "Une ville toute neuve accueille déjà un concile œcuménique."
+      },
+      "id": "eg.l31.e12"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.saint_gregoire_le_theologien"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui est saint Grégoire le Théologien ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Évêque de Nazianze, ami de saint Basile",
+        "Pape d'Alexandrie",
+        "Empereur romain",
+        "Moine de Scété"
+      ],
+      "answer": "Évêque de Nazianze, ami de saint Basile",
+      "acceptedAnswers": [
+        "Évêque de Nazianze, ami de saint Basile"
+      ],
+      "explanation": "Grégoire de Nazianze est un grand défenseur de la foi de Nicée. Il compose aussi la liturgie grégorienne, que l'Église copte utilise.",
+      "tip": "Grégoire = Nazianze.",
+      "extraExample": {
+        "text": "Le Credo que tu récites à la messe est celui de Nicée complété à Constantinople.",
+        "translation": "Les 318 pères de Nicée et les 150 de Constantinople sont donc présents dans ta prière."
+      },
+      "id": "eg.l31.e13"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.saint_cyrille_de_jerusalem"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel titre porte saint Cyrille de Jérusalem ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Père des catéchumènes",
+        "Père des moines",
+        "Défenseur de la foi",
+        "Sceau des martyrs"
+      ],
+      "answer": "Père des catéchumènes",
+      "acceptedAnswers": [
+        "Père des catéchumènes"
+      ],
+      "explanation": "Cyrille de Jérusalem enseigne ceux qui se préparent au baptême, les catéchumènes. Il est exilé seize ans.",
+      "tip": "Cyrille = catéchumènes.",
+      "extraExample": {
+        "text": "Grégoire de Nazianze disait : ce que le Christ n'a pas pris, il ne l'a pas guéri.",
+        "translation": "Si le Christ n'avait pas d'âme humaine, notre âme ne serait pas sauvée."
+      },
+      "id": "eg.l31.e14"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.concile_de_nicee",
+        "eg.v.concile_de_constantinople"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Nicée contre Constantinople.",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Constantin",
+          "right": "Nicée, 325"
+        },
+        {
+          "left": "Théodose Ier",
+          "right": "Constantinople, 381"
+        },
+        {
+          "left": "318 évêques",
+          "right": "Nicée"
+        },
+        {
+          "left": "150 évêques",
+          "right": "Constantinople"
+        }
+      ],
+      "answer": "Constantin = Nicée, 325 ; Théodose Ier = Constantinople, 381 ; 318 évêques = Nicée ; 150 évêques = Constantinople",
+      "acceptedAnswers": [],
+      "explanation": "Chaque concile a son empereur et son nombre d'évêques : Nicée (Constantin, 318), Constantinople (Théodose Ier, 150).",
+      "tip": "Constantin 318, Théodose 150.",
+      "extraExample": {
+        "text": "En 381, Constantinople n'a que cinquante ans d'existence.",
+        "translation": "Une ville toute neuve accueille déjà un concile œcuménique."
+      },
+      "id": "eg.l31.e15"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.apollinaire"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Quel évêque de Laodicée nie l'âme humaine du Christ ?",
+      "promptLanguage": "fr",
+      "answer": "Apollinaire",
+      "acceptedAnswers": [
+        "Apollinaire",
+        "Apollinaire de Laodicée",
+        "Apollinaris"
+      ],
+      "explanation": "Apollinaire est évêque de Laodicée et fondateur de l'apollinarisme.",
+      "tip": "Apollinaire de Laodicée.",
+      "extraExample": {
+        "text": "Le Credo que tu récites à la messe est celui de Nicée complété à Constantinople.",
+        "translation": "Les 318 pères de Nicée et les 150 de Constantinople sont donc présents dans ta prière."
+      },
+      "id": "eg.l31.e16"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.macedonius"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Quel patriarche de Constantinople dit que le Saint-Esprit est créé ?",
+      "promptLanguage": "fr",
+      "answer": "Macédonius",
+      "acceptedAnswers": [
+        "Macédonius",
+        "macedonius"
+      ],
+      "explanation": "Macédonius nie la divinité du Saint-Esprit. Le concile de 381 le condamne.",
+      "tip": "Macédonius = Esprit créé.",
+      "extraExample": {
+        "text": "Grégoire de Nazianze disait : ce que le Christ n'a pas pris, il ne l'a pas guéri.",
+        "translation": "Si le Christ n'avait pas d'âme humaine, notre âme ne serait pas sauvée."
+      },
+      "id": "eg.l31.e17"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.apollinaire"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Apollinaire est évêque de ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "Laodicée",
+        "Nazianze",
+        "Jérusalem",
+        "Césarée"
+      ],
+      "answer": "Laodicée",
+      "acceptedAnswers": [
+        "Laodicée"
+      ],
+      "explanation": "Laodicée est la ville d'Apollinaire. Nazianze est celle de Grégoire.",
+      "tip": "Laodicée.",
+      "extraExample": {
+        "text": "En 381, Constantinople n'a que cinquante ans d'existence.",
+        "translation": "Une ville toute neuve accueille déjà un concile œcuménique."
+      },
+      "id": "eg.l31.e18"
+    },
+    {
+      "unitIds": [
+        "eg.g31.concile_de_constantinople",
+        "eg.v.concile_de_constantinople"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+      "prompt": "Phrase-repère : le deuxième concile.",
+      "promptLanguage": "fr",
+      "tokens": [
+        "de",
+        "tient",
+        "Constantinople",
+        "concile",
+        "Le",
+        "381",
+        "se",
+        "en"
+      ],
+      "answer": "Le concile de Constantinople se tient en 381",
+      "acceptedAnswers": [
+        "Le concile de Constantinople se tient en 381",
+        "En 381 le concile de Constantinople se tient"
+      ],
+      "explanation": "Théodose Ier, 150 évêques, contre Apollinaire et Macédonius.",
+      "tip": "Constantinople 381.",
+      "extraExample": {
+        "text": "Le Credo que tu récites à la messe est celui de Nicée complété à Constantinople.",
+        "translation": "Les 318 pères de Nicée et les 150 de Constantinople sont donc présents dans ta prière."
+      },
+      "id": "eg.l31.e19"
+    },
+    {
+      "unitIds": [
+        "eg.g28.concile_de_nicee",
+        "eg.v.concile_de_nicee",
+        "eg.v.concile_de_nicee"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le premier concile œcuménique se tient à ___.",
+      "promptLanguage": "fr",
+      "options": [
+        "Nicée",
+        "Constantinople",
+        "Éphèse",
+        "Antioche"
+      ],
+      "answer": "Nicée",
+      "acceptedAnswers": [
+        "Nicée"
+      ],
+      "explanation": "Nicée (325) précède Constantinople (381).",
+      "tip": "Nicée d'abord.",
+      "extraExample": {
+        "text": "Grégoire de Nazianze disait : ce que le Christ n'a pas pris, il ne l'a pas guéri.",
+        "translation": "Si le Christ n'avait pas d'âme humaine, notre âme ne serait pas sauvée."
+      },
+      "id": "eg.l31.e20"
+    },
+    {
+      "unitIds": [
+        "eg.g29.athanase",
+        "eg.v.defenseur_de_la_foi",
+        "eg.v.defenseur_de_la_foi"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui a répondu « et je suis contre le monde » ?",
+      "promptLanguage": "fr",
+      "options": [
+        "Athanase",
+        "Arius",
+        "Pacôme",
+        "Grégoire"
+      ],
+      "answer": "Athanase",
+      "acceptedAnswers": [
+        "Athanase"
+      ],
+      "explanation": "Athanase défend la foi de Nicée contre le monde entier : c'est le défenseur de la foi.",
+      "tip": "Athanase contre le monde.",
+      "extraExample": {
+        "text": "En 381, Constantinople n'a que cinquante ans d'existence.",
+        "translation": "Une ville toute neuve accueille déjà un concile œcuménique."
+      },
+      "id": "eg.l31.e21"
+    },
+    {
+      "unitIds": [
+        "eg.g27.arius",
+        "eg.v.arianisme",
+        "eg.v.arianisme"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quelle doctrine dit que le Fils est créé ?",
+      "promptLanguage": "fr",
+      "options": [
+        "L'arianisme",
+        "L'apollinarisme",
+        "Le semi-arianisme",
+        "L'orthodoxie"
+      ],
+      "answer": "L'arianisme",
+      "acceptedAnswers": [
+        "L'arianisme"
+      ],
+      "explanation": "Pour l'arianisme, le Fils est un être créé. Apollinaire concerne l'âme du Christ, Macédonius l'Esprit Saint.",
+      "tip": "Arius = Fils créé.",
+      "extraExample": {
+        "text": "Le Credo que tu récites à la messe est celui de Nicée complété à Constantinople.",
+        "translation": "Les 318 pères de Nicée et les 150 de Constantinople sont donc présents dans ta prière."
+      },
+      "id": "eg.l31.e22"
+    },
+    {
+      "unitIds": [
+        "eg.g30.peres_du_desert",
+        "eg.v.scete",
+        "eg.v.scete"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Dans quel désert saint Macaire le Grand rassemble-t-il ses disciples ?",
+      "promptLanguage": "fr",
+      "answer": "Scété",
+      "acceptedAnswers": [
+        "Scété",
+        "le désert de Scété",
+        "scete"
+      ],
+      "explanation": "Macaire vit à Scété, où des moines se rassemblent autour de lui.",
+      "tip": "Macaire = Scété.",
+      "extraExample": {
+        "text": "Grégoire de Nazianze disait : ce que le Christ n'a pas pris, il ne l'a pas guéri.",
+        "translation": "Si le Christ n'avait pas d'âme humaine, notre âme ne serait pas sauvée."
+      },
+      "id": "eg.l31.e23"
+    }
+  ]
+}

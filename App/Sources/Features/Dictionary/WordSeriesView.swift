@@ -529,7 +529,7 @@ struct WordFlashcard: View {
                 .foregroundStyle(Theme.ink)
                 .multilineTextAlignment(.center)
                 .fixedSize(horizontal: false, vertical: true)
-            if subject == .culture && !item.explanation.isEmpty {
+            if subject.isTaughtInFrench && !item.explanation.isEmpty {
                 Text(item.explanation)
                     .font(Theme.Font.callout)
                     .foregroundStyle(Theme.onPastelSecondary)

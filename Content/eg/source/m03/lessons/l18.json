@@ -1,0 +1,594 @@
+{
+  "lessonId": "eg.l18",
+  "exercises": [
+    {
+      "id": "eg.l18.e01",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.maximin",
+        "eg.v.dece",
+        "eg.v.valerien"
+      ],
+      "type": "match",
+      "difficulty": 1,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Empereur, date et numéro de la persécution",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "Maximin",
+          "right": "sixième persécution, vers 235"
+        },
+        {
+          "left": "Dèce",
+          "right": "septième persécution, vers 249"
+        },
+        {
+          "left": "Valérien",
+          "right": "huitième persécution, vers 257"
+        },
+        {
+          "left": "La neuvième persécution",
+          "right": "vers 274"
+        }
+      ],
+      "answer": "Maximin = sixième persécution, vers 235 ; Dèce = septième persécution, vers 249 ; Valérien = huitième persécution, vers 257 ; La neuvième persécution = vers 274",
+      "acceptedAnswers": [],
+      "explanation": "Les trois premiers noms se suivent : 235, 249, 257. La neuvième vient vers 274.",
+      "tip": "Dans l'ordre : Maximin, Dèce, Valérien."
+    },
+    {
+      "id": "eg.l18.e02",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.edit_de_dece",
+        "eg.v.libellus",
+        "eg.v.semence_de_chretiens"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Notions de la leçon",
+      "promptLanguage": "fr",
+      "pairs": [
+        {
+          "left": "L'édit de 250",
+          "right": "rend le culte impérial obligatoire"
+        },
+        {
+          "left": "Le libellus",
+          "right": "certificat de sacrifice"
+        },
+        {
+          "left": "La semence de chrétiens",
+          "right": "le sang des martyrs"
+        },
+        {
+          "left": "Valérien",
+          "right": "interdit les assemblées chrétiennes"
+        }
+      ],
+      "answer": "L'édit de 250 = rend le culte impérial obligatoire ; Le libellus = certificat de sacrifice ; La semence de chrétiens = le sang des martyrs ; Valérien = interdit les assemblées chrétiennes",
+      "acceptedAnswers": [],
+      "explanation": "L'édit oblige à sacrifier, le libellus le prouve, et le courage des martyrs fait naître de nouveaux chrétiens.",
+      "tip": "Édit → libellus : l'ordre et la preuve."
+    },
+    {
+      "id": "eg.l18.e03",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.maximin"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel empereur ordonne la sixième persécution, vers 235 ?",
+      "promptLanguage": "fr",
+      "answer": "Maximin",
+      "acceptedAnswers": [
+        "Maximin"
+      ],
+      "explanation": "Maximin prend le pouvoir en 235 et s'en prend d'abord aux chefs de l'Église.",
+      "tip": "Six = Maximin.",
+      "extraExample": {
+        "text": "Il vise les évêques et les prêtres.",
+        "translation": "Il veut décapiter la communauté."
+      },
+      "options": [
+        "Maximin",
+        "Dèce",
+        "Valérien",
+        "Dioclétien"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "Dèce",
+          "category": "word_confusion",
+          "feedback": "Dèce ordonne la septième, vers 249."
+        }
+      ]
+    },
+    {
+      "id": "eg.l18.e04",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.dece"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel empereur ordonne la septième persécution ?",
+      "promptLanguage": "fr",
+      "answer": "Dèce",
+      "acceptedAnswers": [
+        "Dèce"
+      ],
+      "explanation": "Dèce, empereur vers 249, ordonne la septième persécution.",
+      "tip": "Sept = Dèce.",
+      "extraExample": {
+        "text": "Son édit de 250 oblige tout le monde à sacrifier.",
+        "translation": "Il est célèbre pour cela."
+      },
+      "options": [
+        "Maximin",
+        "Valérien",
+        "Aurélien",
+        "Dèce"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "Valérien",
+          "category": "word_confusion",
+          "feedback": "Valérien ordonne la huitième, vers 257."
+        }
+      ]
+    },
+    {
+      "id": "eg.l18.e05",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.valerien"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel empereur ordonne la huitième persécution ?",
+      "promptLanguage": "fr",
+      "answer": "Valérien",
+      "acceptedAnswers": [
+        "Valérien"
+      ],
+      "explanation": "Valérien lance la huitième persécution vers 257.",
+      "tip": "Huit = Valérien.",
+      "extraExample": {
+        "text": "Il interdit les assemblées et frappe le clergé.",
+        "translation": "Il est capturé par les Perses en 260."
+      },
+      "options": [
+        "Dèce",
+        "Dioclétien",
+        "Valérien",
+        "Maximin"
+      ]
+    },
+    {
+      "id": "eg.l18.e06",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.dece"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Vers quelle année commence la persécution de Dèce ?",
+      "promptLanguage": "fr",
+      "answer": "249",
+      "acceptedAnswers": [
+        "249"
+      ],
+      "explanation": "La septième persécution, celle de Dèce, commence vers 249.",
+      "tip": "249 = Dèce.",
+      "extraExample": {
+        "text": "Maximin, vers 235.",
+        "translation": "Valérien, vers 257."
+      },
+      "options": [
+        "274",
+        "249",
+        "235",
+        "257"
+      ],
+      "errorPatterns": [
+        {
+          "equals": "257",
+          "category": "word_confusion",
+          "feedback": "257 est la date de Valérien, la huitième persécution."
+        }
+      ]
+    },
+    {
+      "id": "eg.l18.e07",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.edit_de_dece"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Pourquoi Dèce rend-il le culte impérial obligatoire en 250 ?",
+      "promptLanguage": "fr",
+      "answer": "Souder la population de l'empire contre les dangers extérieurs",
+      "acceptedAnswers": [
+        "Souder la population de l'empire contre les dangers extérieurs"
+      ],
+      "explanation": "L'Empire est menacé : en obligeant tout le monde à sacrifier, Dèce veut unir la population.",
+      "tip": "Obligation de sacrifier = union face aux dangers.",
+      "extraExample": {
+        "text": "Un peuple uni par un même culte est plus facile à rassembler.",
+        "translation": "C'est la logique de l'édit."
+      },
+      "options": [
+        "Souder la population de l'empire contre les dangers extérieurs",
+        "Punir les évêques d'Alexandrie",
+        "Remplacer les dieux romains",
+        "Lever un nouvel impôt"
+      ]
+    },
+    {
+      "id": "eg.l18.e08",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.libellus"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Comment s'appelle le certificat reçu après un sacrifice sous Dèce ?",
+      "promptLanguage": "fr",
+      "answer": "Le libellus",
+      "acceptedAnswers": [
+        "Le libellus"
+      ],
+      "explanation": "Le libellus est la preuve écrite qu'on a sacrifié.",
+      "tip": "Libellus = petit livret certificat.",
+      "extraExample": {
+        "text": "Certains en achètent de faux.",
+        "translation": "L'Église devra décider quoi faire des « tombés »."
+      },
+      "options": [
+        "Le synaxaire",
+        "Le canon",
+        "L'édit",
+        "Le libellus"
+      ]
+    },
+    {
+      "id": "eg.l18.e09",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.semence_de_chretiens"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quelle est la conséquence du courage des martyrs sur les spectateurs ?",
+      "promptLanguage": "fr",
+      "answer": "De nombreuses conversions",
+      "acceptedAnswers": [
+        "De nombreuses conversions"
+      ],
+      "explanation": "Le courage des martyrs impressionne les spectateurs et entraîne de nombreuses conversions.",
+      "tip": "Martyrs → conversions.",
+      "extraExample": {
+        "text": "Tertullien parle de semence de chrétiens.",
+        "translation": "La persécution fait grandir l'Église."
+      },
+      "options": [
+        "L'abandon de la foi",
+        "Des révoltes armées",
+        "De nombreuses conversions",
+        "Une haine accrue"
+      ]
+    },
+    {
+      "id": "eg.l18.e10",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Sous quel empereur peut-on parler de persécutions généralisées ?",
+      "promptLanguage": "fr",
+      "answer": "Dioclétien",
+      "acceptedAnswers": [
+        "Dioclétien"
+      ],
+      "explanation": "Avant Dioclétien, les édits sont plus ou moins appliqués au niveau local. Seul Dioclétien généralise la persécution.",
+      "tip": "Généralisée = Dioclétien.",
+      "extraExample": {
+        "text": "Dioclétien règne dès 284.",
+        "translation": "Nous y consacrons la prochaine leçon."
+      },
+      "options": [
+        "Valérien",
+        "Dioclétien",
+        "Maximin",
+        "Dèce"
+      ]
+    },
+    {
+      "id": "eg.l18.e11",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.anthropophagie"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Révision : qu'est-ce que l'anthropophagie, dont on accuse les chrétiens ?",
+      "promptLanguage": "fr",
+      "answer": "Manger de la chair humaine",
+      "acceptedAnswers": [
+        "Manger de la chair humaine"
+      ],
+      "explanation": "C'est une rumeur fausse contre les chrétiens, née d'un malentendu sur le corps et le sang du Christ. (Voir leçon 17.)",
+      "tip": "Anthropophagie = rumeur sur le corps et le sang.",
+      "extraExample": {
+        "text": "La foule la croit à cause du secret.",
+        "translation": "Elle est fausse."
+      },
+      "options": [
+        "Manger de la chair humaine",
+        "Refuser le service militaire",
+        "Adorer plusieurs dieux",
+        "Brûler des temples"
+      ]
+    },
+    {
+      "id": "eg.l18.e12",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.accusation_atheisme"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Révision : qui traite les chrétiens d'athées ?",
+      "promptLanguage": "fr",
+      "answer": "Les philosophes",
+      "acceptedAnswers": [
+        "Les philosophes"
+      ],
+      "explanation": "Les philosophes les jugent athées, car ils n'ont ni statues ni temples païens. (Leçon 17.)",
+      "tip": "Philosophes = athées.",
+      "extraExample": {
+        "text": "C'est un reproche paradoxal.",
+        "translation": "Les chrétiens adorent Dieu."
+      },
+      "options": [
+        "Les soldats",
+        "Les évêques",
+        "Les gouverneurs d'Égypte",
+        "Les philosophes"
+      ]
+    },
+    {
+      "id": "eg.l18.e13",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.dece"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète la phrase.",
+      "prompt": "Dèce ordonne la ___ persécution.",
+      "promptLanguage": "fr",
+      "answer": "septième",
+      "acceptedAnswers": [
+        "septième"
+      ],
+      "explanation": "Dèce lance la septième persécution, vers 249.",
+      "tip": "Sept = Dèce.",
+      "extraExample": {
+        "text": "Sixième : Maximin.",
+        "translation": "Huitième : Valérien."
+      },
+      "options": [
+        "neuvième",
+        "septième",
+        "sixième",
+        "huitième"
+      ]
+    },
+    {
+      "id": "eg.l18.e14",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.edit_de_dece"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "En 250, l'édit de Dèce rend le culte impérial ___.",
+      "promptLanguage": "fr",
+      "answer": "obligatoire",
+      "acceptedAnswers": [
+        "obligatoire"
+      ],
+      "explanation": "L'édit de Dèce oblige tout citoyen à sacrifier.",
+      "tip": "Édit de 250 = obligation.",
+      "extraExample": {
+        "text": "Tout le monde doit sacrifier.",
+        "translation": "Les chrétiens refusent."
+      },
+      "options": [
+        "obligatoire",
+        "facultatif",
+        "interdit",
+        "secret"
+      ]
+    },
+    {
+      "id": "eg.l18.e15",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.semence_de_chretiens"
+      ],
+      "type": "fill_blank",
+      "difficulty": 3,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le sang des martyrs est semence de ___.",
+      "promptLanguage": "fr",
+      "answer": "chrétiens",
+      "acceptedAnswers": [
+        "chrétiens"
+      ],
+      "explanation": "La formule de Tertullien dit que les martyrs font naître de nouveaux chrétiens.",
+      "tip": "Semence = graine.",
+      "extraExample": {
+        "text": "Une graine pousse.",
+        "translation": "Chaque martyr en fait naître d'autres."
+      },
+      "options": [
+        "rebelles",
+        "philosophes",
+        "empereurs",
+        "chrétiens"
+      ]
+    },
+    {
+      "id": "eg.l18.e16",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.culte_de_l_empereur"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète la phrase.",
+      "prompt": "Révision : les chrétiens refusent de participer au culte ___.",
+      "promptLanguage": "fr",
+      "answer": "impérial",
+      "acceptedAnswers": [
+        "impérial"
+      ],
+      "explanation": "Les chrétiens refusent le culte impérial, d'où l'hostilité des autorités. (Leçon 17.)",
+      "tip": "Culte de l'empereur = impérial.",
+      "extraExample": {
+        "text": "C'est la cause de la méfiance.",
+        "translation": "Ils n'adorent que Dieu."
+      },
+      "options": [
+        "familial",
+        "funéraire",
+        "impérial",
+        "monastique"
+      ]
+    },
+    {
+      "id": "eg.l18.e17",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.edit_de_dece"
+      ],
+      "type": "reorder",
+      "difficulty": 3,
+      "instruction": "Remets les mots dans l'ordre.",
+      "prompt": "Reconstitue la phrase-repère sur l'édit de 250.",
+      "promptLanguage": "fr",
+      "answer": "Dèce rend le culte impérial obligatoire en 250",
+      "acceptedAnswers": [
+        "Dèce rend le culte impérial obligatoire en 250"
+      ],
+      "explanation": "En 250, l'édit de Dèce oblige tous les citoyens à sacrifier.",
+      "tip": "250 = obligation de sacrifier.",
+      "extraExample": {
+        "text": "Le libellus prouve le sacrifice.",
+        "translation": "Il est délivré aux sacrifiants."
+      },
+      "tokens": [
+        "le",
+        "culte",
+        "impérial",
+        "obligatoire",
+        "en",
+        "250",
+        "Dèce",
+        "rend"
+      ]
+    },
+    {
+      "id": "eg.l18.e18",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.valerien"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Quel empereur ordonne la huitième persécution, vers 257 ?",
+      "promptLanguage": "fr",
+      "answer": "Valérien",
+      "acceptedAnswers": [
+        "Valérien",
+        "Valerien",
+        "l'empereur Valérien"
+      ],
+      "explanation": "Valérien interdit les assemblées et frappe le clergé vers 257.",
+      "tip": "Huit = Valérien.",
+      "extraExample": {
+        "text": "Il est capturé par les Perses.",
+        "translation": "Son fils Gallien arrête la persécution."
+      }
+    },
+    {
+      "id": "eg.l18.e19",
+      "unitIds": [
+        "eg.g18.edits_de_maximin_a_valerien",
+        "eg.v.libellus"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris la réponse.",
+      "prompt": "Quel est le nom du certificat prouvant qu'on a sacrifié sous Dèce ? (un mot)",
+      "promptLanguage": "fr",
+      "answer": "libellus",
+      "acceptedAnswers": [
+        "libellus",
+        "le libellus"
+      ],
+      "explanation": "Le libellus est un certificat de sacrifice.",
+      "tip": "Libellus = preuve.",
+      "extraExample": {
+        "text": "On peut en avoir un vrai ou un faux.",
+        "translation": "Il pose un problème à l'Église."
+      }
+    },
+    {
+      "id": "eg.l18.e20",
+      "unitIds": [
+        "eg.g17.chretiens_mal_vus",
+        "eg.v.edit_imperial"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "instruction": "Écris la réponse.",
+      "prompt": "Révision : comment appelle-t-on l'ordre de l'empereur qui appelle à sacrifier ? (un mot)",
+      "promptLanguage": "fr",
+      "answer": "édit",
+      "acceptedAnswers": [
+        "édit",
+        "édit impérial",
+        "l'édit",
+        "un édit",
+        "edit"
+      ],
+      "explanation": "Un édit impérial est une décision officielle de l'empereur. (Leçon 17.)",
+      "tip": "Édit = ordre officiel.",
+      "extraExample": {
+        "text": "Celui de Dèce date de 250.",
+        "translation": "Il est plus ou moins appliqué selon la ville."
+      }
+    }
+  ]
+}

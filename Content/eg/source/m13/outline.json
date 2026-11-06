@@ -1,0 +1,231 @@
+{
+ "module": {
+  "id": 13,
+  "title": "Les mois coptes",
+  "description": "Le calendrier copte, héritier de l'Égypte ancienne : les treize mois de Tout à Nasie, leurs noms, leur place dans l'année et dans les saisons du Nil, et comment lire une date copte."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g95.calendrier_solaire",
+   "category": "knowledge",
+   "title": "Le calendrier copte, héritier de l'Égypte ancienne",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g96.six_premiers_mois",
+   "category": "knowledge",
+   "title": "Les six premiers mois : de Tout à Amshir",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g95.calendrier_solaire"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g97.sept_derniers_mois",
+   "category": "knowledge",
+   "title": "Les sept derniers mois, Nasie et le Nil",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g96.six_premiers_mois"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g98.lire_une_date_copte",
+   "category": "knowledge",
+   "title": "Lire une date copte : jeux et bilan",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g97.sept_derniers_mois"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l95",
+   "sequence": 95,
+   "title": "Un calendrier venu de l'Égypte ancienne",
+   "description": "Un calendrier solaire de 12 mois de 30 jours plus un petit mois, le jour de l'an au 1er Tout, l'ère des martyrs (an 1 = 284) et le calcul de l'année copte.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g95.calendrier_solaire",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g19.diocletien_ere_des_martyrs"
+   ],
+   "vocabulary": [
+    {
+     "word": "le calendrier solaire",
+     "slug": "calendrier_solaire",
+     "translation": "calendrier réglé sur le soleil : 12 mois de 30 jours plus un petit mois",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le calendrier alexandrin",
+     "slug": "calendrier_alexandrin",
+     "translation": "calendrier d'Alexandrie qui ajoute un sixième jour tous les quatre ans",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les trois saisons",
+     "slug": "trois_saisons",
+     "translation": "la crue, la croissance, la moisson : trois saisons de quatre mois",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'année copte",
+     "slug": "annee_copte",
+     "translation": "année comptée depuis 284, qui commence le 1er Tout",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l96",
+   "sequence": 96,
+   "title": "De Tout à Amshir : les six premiers mois",
+   "description": "Tout, Baba, Hatour, Kiahk, Touba et Amshir : l'ordre, les dates approximatives, l'origine des noms et la saison de chaque mois.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g96.six_premiers_mois",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g95.calendrier_solaire"
+   ],
+   "vocabulary": [
+    {
+     "word": "Tout",
+     "slug": "tout",
+     "translation": "premier mois copte (توت), vers le 11 septembre",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Baba",
+     "slug": "baba",
+     "translation": "deuxième mois copte (بابه), vers le 11 octobre",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Hatour",
+     "slug": "hatour",
+     "translation": "troisième mois copte (هاتور), vers le 10 novembre",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Touba",
+     "slug": "touba",
+     "translation": "cinquième mois copte (طوبة), vers le 9 janvier",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Amshir",
+     "slug": "amshir",
+     "translation": "sixième mois copte (أمشير), vers le 8 février",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Thot",
+     "slug": "thot",
+     "translation": "dieu égyptien de la sagesse et de l'écriture, qui a donné son nom à Tout",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Hathor",
+     "slug": "hathor",
+     "translation": "déesse égyptienne de la joie et de l'amour, qui a donné son nom à Hatour",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l97",
+   "sequence": 97,
+   "title": "De Baramhat à Nasie : le reste de l'année",
+   "description": "Les sept derniers mois, le petit mois de cinq ou six jours, les saisons du Nil et les proverbes des paysans égyptiens.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g97.sept_derniers_mois",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g96.six_premiers_mois"
+   ],
+   "vocabulary": [
+    {
+     "word": "Baramhat",
+     "slug": "baramhat",
+     "translation": "septième mois copte (برمهات), vers le 10 mars",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Baramouda",
+     "slug": "baramouda",
+     "translation": "huitième mois copte (برمودة), vers le 9 avril",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Bashans",
+     "slug": "bashans",
+     "translation": "neuvième mois copte (بشنس), vers le 9 mai",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Baouna",
+     "slug": "baouna",
+     "translation": "dixième mois copte (بؤونة), vers le 8 juin",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Abib",
+     "slug": "abib",
+     "translation": "onzième mois copte (أبيب), vers le 8 juillet",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Misra",
+     "slug": "misra",
+     "translation": "douzième mois copte (مسرى), vers le 7 août",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "Nasie",
+     "slug": "nasie",
+     "translation": "treizième mois copte (النسيء), le petit mois de 5 ou 6 jours",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "la crue du Nil",
+     "slug": "crue_du_nil",
+     "translation": "montée annuelle des eaux du Nil, qui rythmait la vie des paysans",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'année bissextile copte",
+     "slug": "annee_bissextile_copte",
+     "translation": "année copte où Nasie compte six jours, tous les quatre ans",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l98",
+   "sequence": 98,
+   "title": "Jeux et bilan : lire une date copte",
+   "description": "Remettre les treize mois dans l'ordre, trouver le mois d'une date, relier mois copte et période grégorienne, calculer l'année copte.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g98.lire_une_date_copte",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g97.sept_derniers_mois"
+   ],
+   "vocabulary": [
+    {
+     "word": "Noël copte (29 Kiahk)",
+     "slug": "noel_copte",
+     "translation": "la Nativité, fêtée le 29 Kiahk, vers le 7 janvier",
+     "partOfSpeech": "date"
+    }
+   ]
+  }
+ ]
+}

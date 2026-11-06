@@ -1,0 +1,573 @@
+{
+ "lessonId": "eg.l96",
+ "exercises": [
+  {
+   "id": "eg.l96.e01",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.baba"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel mois copte suit Tout ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Hatour",
+    "Baba",
+    "Kiahk"
+   ],
+   "answer": "Baba",
+   "acceptedAnswers": [
+    "Baba"
+   ],
+   "explanation": "Tout est le premier mois, Baba le deuxième.",
+   "tip": "Tout, puis Baba.",
+   "extraExample": {
+    "text": "Baba commence vers le 11 octobre.",
+    "translation": "C'est le deuxième mois."
+   }
+  },
+  {
+   "id": "eg.l96.e02",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.thot",
+    "eg.v.tout"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "De quel dieu égyptien le mois de Tout porte-t-il le nom ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Thot",
+    "Rê",
+    "Osiris"
+   ],
+   "answer": "Thot",
+   "acceptedAnswers": [
+    "Thot"
+   ],
+   "explanation": "Tout vient de Thot, le dieu de la sagesse et de l'écriture.",
+   "tip": "Tout vient de Thot.",
+   "extraExample": {
+    "text": "Thot est le dieu de l'écriture.",
+    "translation": "Son nom a traversé les siècles."
+   },
+   "errorPatterns": [
+    {
+     "equals": "Osiris",
+     "category": "word_confusion",
+     "feedback": "Osiris est un autre dieu égyptien ; Tout vient de Thot."
+    }
+   ]
+  },
+  {
+   "id": "eg.l96.e03",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.hathor",
+    "eg.v.hatour"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle déesse égyptienne a donné son nom au mois de Hatour ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Isis",
+    "Hathor",
+    "Nout"
+   ],
+   "answer": "Hathor",
+   "acceptedAnswers": [
+    "Hathor"
+   ],
+   "explanation": "Hatour vient de Hathor, la déesse de la joie et de l'amour.",
+   "tip": "Hatour vient de Hathor.",
+   "extraExample": {
+    "text": "Hathor est la déesse de la joie.",
+    "translation": "Son nom s'est gardé dans le calendrier."
+   }
+  },
+  {
+   "id": "eg.l96.e04",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.kiahk",
+    "eg.v.mois_marial"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel mois copte est le mois marial ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Touba",
+    "Kiahk",
+    "Hatour"
+   ],
+   "answer": "Kiahk",
+   "acceptedAnswers": [
+    "Kiahk"
+   ],
+   "explanation": "Kiahk est le quatrième mois, consacré à la louange de la Vierge.",
+   "tip": "Kiahk = Marie.",
+   "extraExample": {
+    "text": "Kiahk est le mois de la Vierge.",
+    "translation": "On y loue Marie."
+   }
+  },
+  {
+   "id": "eg.l96.e05",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.touba"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel est le cinquième mois copte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Amshir",
+    "Touba",
+    "Baba"
+   ],
+   "answer": "Touba",
+   "acceptedAnswers": [
+    "Touba"
+   ],
+   "explanation": "L'ordre est Tout, Baba, Hatour, Kiahk, Touba, Amshir : Touba est le cinquième.",
+   "tip": "Kiahk 4, Touba 5.",
+   "extraExample": {
+    "text": "Touba commence vers le 9 janvier.",
+    "translation": "C'est plein hiver."
+   }
+  },
+  {
+   "id": "eg.l96.e06",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.hatour"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que sème-t-on en Hatour ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le coton",
+    "le blé",
+    "les oranges"
+   ],
+   "answer": "le blé",
+   "acceptedAnswers": [
+    "le blé"
+   ],
+   "explanation": "En Hatour, on sème le blé dans la terre que le Nil vient de quitter.",
+   "tip": "Hatour = semailles du blé.",
+   "extraExample": {
+    "text": "La terre est riche en limon.",
+    "translation": "Les semailles suivent la crue."
+   }
+  },
+  {
+   "id": "eg.l96.e07",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.amshir"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel mois est connu pour ses vents ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Amshir",
+    "Baba",
+    "Tout"
+   ],
+   "answer": "Amshir",
+   "acceptedAnswers": [
+    "Amshir"
+   ],
+   "explanation": "Amshir est le mois des vents, avec ses rafales et sa poussière.",
+   "tip": "Amshir = vents.",
+   "extraExample": {
+    "text": "Le temps change d'un jour à l'autre.",
+    "translation": "Il se termine vers le 9 mars."
+   }
+  },
+  {
+   "id": "eg.l96.e08",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.touba"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Vers quelle date commence Touba ?",
+   "promptLanguage": "fr",
+   "options": [
+    "9 décembre",
+    "9 janvier",
+    "9 février"
+   ],
+   "answer": "9 janvier",
+   "acceptedAnswers": [
+    "9 janvier"
+   ],
+   "explanation": "Touba commence vers le 9 janvier, en plein hiver.",
+   "tip": "Touba : 9 janvier.",
+   "extraExample": {
+    "text": "Les mois coptes commencent vers le 10.",
+    "translation": "Touba est un peu avant."
+   }
+  },
+  {
+   "id": "eg.l96.e09",
+   "unitIds": [
+    "eg.g95.calendrier_solaire",
+    "eg.v.nayrouz"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Vers quelle date grégorienne commence le mois de Tout ?",
+   "promptLanguage": "fr",
+   "options": [
+    "11 septembre",
+    "1er janvier",
+    "7 janvier"
+   ],
+   "answer": "11 septembre",
+   "acceptedAnswers": [
+    "11 septembre"
+   ],
+   "explanation": "Tout commence vers le 11 septembre : c'est le Nayrouz. Rappel de la leçon précédente.",
+   "tip": "Tout : 11 septembre.",
+   "extraExample": {
+    "text": "Le 1er Tout est le Nayrouz.",
+    "translation": "Il ouvre l'année copte."
+   }
+  },
+  {
+   "id": "eg.l96.e10",
+   "unitIds": [
+    "eg.g95.calendrier_solaire",
+    "eg.v.annee_copte"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle est l'année copte en décembre 2026 ?",
+   "promptLanguage": "fr",
+   "options": [
+    "1742",
+    "1743",
+    "1744"
+   ],
+   "answer": "1743",
+   "acceptedAnswers": [
+    "1743"
+   ],
+   "explanation": "Décembre est après le Nayrouz : 2026 − 283 = 1743. Rappel de la leçon précédente.",
+   "tip": "Fin d'année : − 283.",
+   "extraExample": {
+    "text": "2026 − 283 = 1743.",
+    "translation": "Même année qu'en novembre."
+   }
+  },
+  {
+   "id": "eg.l96.e11",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.tout"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le premier mois copte s'appelle ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Tout",
+    "Baba",
+    "Kiahk"
+   ],
+   "answer": "Tout",
+   "acceptedAnswers": [
+    "Tout"
+   ],
+   "explanation": "Le premier mois, Tout, ouvre l'année avec le Nayrouz.",
+   "tip": "Tout est le premier.",
+   "extraExample": {
+    "text": "Tout commence vers le 11 septembre.",
+    "translation": "C'est le mois de Thot."
+   }
+  },
+  {
+   "id": "eg.l96.e12",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.hathor",
+    "eg.v.hatour"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Hatour porte le nom de la déesse ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Hathor",
+    "Thot",
+    "Marie"
+   ],
+   "answer": "Hathor",
+   "acceptedAnswers": [
+    "Hathor"
+   ],
+   "explanation": "Hatour vient de Hathor, déesse de la joie et de l'amour.",
+   "tip": "Hatour = Hathor.",
+   "extraExample": {
+    "text": "Hathor est la déesse de la joie.",
+    "translation": "Le nom a survécu."
+   }
+  },
+  {
+   "id": "eg.l96.e13",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.kiahk",
+    "eg.v.touba"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Après Kiahk vient le mois de ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Baba",
+    "Touba",
+    "Amshir"
+   ],
+   "answer": "Touba",
+   "acceptedAnswers": [
+    "Touba"
+   ],
+   "explanation": "Après Kiahk, le quatrième mois, vient Touba, le cinquième.",
+   "tip": "Kiahk puis Touba.",
+   "extraExample": {
+    "text": "Touba est plein hiver.",
+    "translation": "Il commence vers le 9 janvier."
+   }
+  },
+  {
+   "id": "eg.l96.e14",
+   "unitIds": [
+    "eg.g95.calendrier_solaire",
+    "eg.v.annee_copte"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "De janvier à août, on retire ___ à l'année grégorienne.",
+   "promptLanguage": "fr",
+   "options": [
+    "283",
+    "284",
+    "285"
+   ],
+   "answer": "284",
+   "acceptedAnswers": [
+    "284"
+   ],
+   "explanation": "Avant le Nayrouz, l'année copte vaut l'année grégorienne moins 284. Rappel de la leçon précédente.",
+   "tip": "Début d'année : 284.",
+   "extraExample": {
+    "text": "2027 − 284 = 1743.",
+    "translation": "C'est mars 2027."
+   }
+  },
+  {
+   "id": "eg.l96.e15",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.tout",
+    "eg.v.baba",
+    "eg.v.hatour",
+    "eg.v.kiahk"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Les quatre premiers débuts de mois",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Tout",
+     "right": "11 septembre"
+    },
+    {
+     "left": "Baba",
+     "right": "11 octobre"
+    },
+    {
+     "left": "Hatour",
+     "right": "10 novembre"
+    },
+    {
+     "left": "Kiahk",
+     "right": "10 décembre"
+    }
+   ],
+   "answer": "Tout = 11 septembre ; Baba = 11 octobre ; Hatour = 10 novembre ; Kiahk = 10 décembre",
+   "acceptedAnswers": [],
+   "explanation": "Tout commence vers le 11 septembre, Baba le 11 octobre, Hatour le 10 novembre, Kiahk le 10 décembre."
+  },
+  {
+   "id": "eg.l96.e16",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.thot",
+    "eg.v.hathor",
+    "eg.v.touba",
+    "eg.v.amshir"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Chaque mois a son image",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Tout",
+     "right": "le dieu Thot"
+    },
+    {
+     "left": "Hatour",
+     "right": "la déesse Hathor"
+    },
+    {
+     "left": "Kiahk",
+     "right": "le mois marial"
+    },
+    {
+     "left": "Touba",
+     "right": "plein hiver"
+    },
+    {
+     "left": "Amshir",
+     "right": "le mois des vents"
+    }
+   ],
+   "answer": "Tout = le dieu Thot ; Hatour = la déesse Hathor ; Kiahk = le mois marial ; Touba = plein hiver ; Amshir = le mois des vents",
+   "acceptedAnswers": [],
+   "explanation": "Tout garde Thot, Hatour garde Hathor, Kiahk est marial, Touba est plein hiver, Amshir est le mois des vents."
+  },
+  {
+   "id": "eg.l96.e17",
+   "unitIds": [
+    "eg.g96.six_premiers_mois"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre.",
+   "prompt": "Remets les six premiers mois dans l'ordre.",
+   "promptLanguage": "fr",
+   "answer": "Tout Baba Hatour Kiahk Touba Amshir",
+   "acceptedAnswers": [
+    "Tout Baba Hatour Kiahk Touba Amshir"
+   ],
+   "tokens": [
+    "Tout",
+    "Hatour",
+    "Kiahk",
+    "Touba",
+    "Baba",
+    "Amshir"
+   ],
+   "explanation": "L'ordre des six premiers mois : Tout, Baba, Hatour, Kiahk, Touba, Amshir.",
+   "tip": "Tout, Baba, Hatour, Kiahk, Touba, Amshir.",
+   "extraExample": {
+    "text": "Kiahk est le quatrième.",
+    "translation": "Touba est le cinquième."
+   }
+  },
+  {
+   "id": "eg.l96.e18",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.amshir"
+   ],
+   "type": "free_answer",
+   "difficulty": 1,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel est le sixième mois copte ?",
+   "promptLanguage": "fr",
+   "answer": "Amshir",
+   "acceptedAnswers": [
+    "Amshir",
+    "le mois d'Amshir"
+   ],
+   "explanation": "Le sixième mois, Amshir, est le dernier avant Baramhat.",
+   "tip": "Amshir : le sixième.",
+   "extraExample": {
+    "text": "Amshir est le mois des vents.",
+    "translation": "Il commence vers le 8 février."
+   }
+  },
+  {
+   "id": "eg.l96.e19",
+   "unitIds": [
+    "eg.g96.six_premiers_mois",
+    "eg.v.hatour",
+    "eg.v.kiahk"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel mois suit Hatour ?",
+   "promptLanguage": "fr",
+   "answer": "Kiahk",
+   "acceptedAnswers": [
+    "Kiahk",
+    "le mois de Kiahk"
+   ],
+   "explanation": "Après Hatour, le troisième mois, vient Kiahk, le quatrième, le mois marial.",
+   "tip": "Hatour puis Kiahk.",
+   "extraExample": {
+    "text": "Kiahk est le mois de Marie.",
+    "translation": "Il commence vers le 10 décembre."
+   }
+  },
+  {
+   "id": "eg.l96.e20",
+   "unitIds": [
+    "eg.g19.diocletien_ere_des_martyrs",
+    "eg.v.ere_des_martyrs"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Comment appelle-t-on l'ère qui commence en 284 ?",
+   "promptLanguage": "fr",
+   "answer": "l'ère des martyrs",
+   "acceptedAnswers": [
+    "l'ère des martyrs",
+    "ère des martyrs",
+    "l'ere des martyrs",
+    "ere des martyrs",
+    "ère des martyrs (calendrier copte)"
+   ],
+   "explanation": "L'ère qui commence en 284 est l'ère des martyrs.",
+   "tip": "284 = ère des martyrs.",
+   "extraExample": {
+    "text": "L'ère des martyrs est le calendrier copte.",
+    "translation": "Elle compte depuis Dioclétien."
+   }
+  }
+ ]
+}

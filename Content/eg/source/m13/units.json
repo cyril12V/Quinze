@@ -1,0 +1,173 @@
+[
+ {
+  "id": "eg.g95.calendrier_solaire",
+  "rule": {
+   "summary": "Le calendrier copte est solaire : 12 mois de 30 jours plus un petit mois de 5 jours (6 tous les quatre ans). Il commence le 1er Tout, vers le 11 septembre, et compte les années depuis 284, l'ère des martyrs.",
+   "explanation": "Les anciens Égyptiens ont réglé leur année sur le soleil et sur la crue du Nil, avec trois saisons de quatre mois. Sous Auguste, Alexandrie y a ajouté un sixième jour tous les quatre ans : c'est le calendrier alexandrin, que les Coptes ont gardé. Ils ont changé le point de départ des années : 284, année de Dioclétien, pour garder la mémoire des martyrs. Pour passer de notre année à l'année copte, on retire 283 de septembre à décembre, 284 de janvier à août.",
+   "pattern": "12 × 30 jours + 5 jours ; année copte = année grégorienne − 283 (sept.-déc.) ou − 284 (janv.-août).",
+   "examples": [
+    {
+     "text": "Novembre 2026 : 2026 − 283 = 1743.",
+     "translation": "On est en l'an 1743 de l'ère des martyrs."
+    },
+    {
+     "text": "Mars 2027 : 2027 − 284 = 1743.",
+     "translation": "Toujours l'an 1743, car l'année copte change en septembre."
+    },
+    {
+     "text": "Le 1er Tout tombe le 11 septembre.",
+     "translation": "C'est le Nayrouz, le jour de l'an copte."
+    },
+    {
+     "text": "Tous les quatre ans, Nasie compte six jours.",
+     "translation": "Le Nayrouz tombe alors le 12 septembre."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "L'année copte commence le 1er janvier.",
+     "right": "Elle commence le 1er Tout, vers le 11 septembre.",
+     "why": "Le calendrier copte suit le rythme du Nil, pas celui de l'année civile européenne."
+    },
+    {
+     "wrong": "Le calendrier copte compte depuis la naissance du Christ.",
+     "right": "Il compte depuis 284, l'ère des martyrs.",
+     "why": "Ce choix honore les martyrs de Dioclétien."
+    },
+    {
+     "wrong": "Il suffit toujours de retirer 283.",
+     "right": "On retire 283 de septembre à décembre et 284 de janvier à août.",
+     "why": "L'année copte change en septembre, pas en janvier."
+    }
+   ],
+   "tip": "L'année copte change en septembre : 283 en fin d'année, 284 au début."
+  }
+ },
+ {
+  "id": "eg.g96.six_premiers_mois",
+  "rule": {
+   "summary": "Les six premiers mois, de septembre à début mars, sont Tout, Baba, Hatour, Kiahk, Touba et Amshir. Chacun compte 30 jours et commence vers le 10 d'un mois grégorien.",
+   "explanation": "Tout porte le nom du dieu Thot et ouvre l'année avec le Nayrouz. Baba vient d'une fête égyptienne, Opet. Hatour porte le nom de la déesse Hathor ; c'est le temps des semailles. Kiahk, quatrième mois, est le mois marial, celui de Noël. Touba est le cœur de l'hiver et Amshir le mois des vents. Les dates valent pour une année ordinaire ; dans une année sur quatre, ces six mois commencent un jour plus tard.",
+   "pattern": "Tout (11 sept.), Baba (11 oct.), Hatour (10 nov.), Kiahk (10 déc.), Touba (9 janv.), Amshir (8 févr.).",
+   "examples": [
+    {
+     "text": "Tout commence vers le 11 septembre.",
+     "translation": "C'est le premier mois et le mois de Thot."
+    },
+    {
+     "text": "Hatour est le troisième mois.",
+     "translation": "Il porte le nom de la déesse Hathor."
+    },
+    {
+     "text": "Kiahk est le quatrième mois.",
+     "translation": "C'est le mois marial."
+    },
+    {
+     "text": "Amshir est le sixième mois.",
+     "translation": "C'est le mois des vents."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Kiahk est le premier mois.",
+     "right": "Kiahk est le quatrième mois ; le premier est Tout.",
+     "why": "L'ordre est Tout, Baba, Hatour, Kiahk, Touba, Amshir."
+    },
+    {
+     "wrong": "Hatour porte le nom de Thot.",
+     "right": "Thot a donné Tout ; Hathor a donné Hatour.",
+     "why": "Les deux noms se ressemblent, pas les dieux."
+    },
+    {
+     "wrong": "Touba est un mois d'été.",
+     "right": "Touba commence vers le 9 janvier : c'est plein hiver.",
+     "why": "Les mois coptes sont décalés par rapport à ceux de notre calendrier."
+    }
+   ],
+   "tip": "Le début d'un mois copte tombe toujours vers le 10 d'un mois grégorien."
+  }
+ },
+ {
+  "id": "eg.g97.sept_derniers_mois",
+  "rule": {
+   "summary": "Les sept derniers mois sont Baramhat, Baramouda, Bashans, Baouna, Abib, Misra et Nasie. Nasie, le petit mois, compte 5 jours, 6 dans l'année bissextile copte, tous les quatre ans.",
+   "explanation": "Baramhat, Baramouda et Bashans sont les mois de la moisson. Baouna et Abib sont les mois de la chaleur, et le Nil commence à monter à la fin de Baouna. En Misra, la crue remplit les canaux. Nasie ferme l'année avec ses 5 jours, juste avant le Nayrouz. Les proverbes des paysans résument chaque mois : Touba rend la jeune fille toute recroquevillée de froid, Amshir apporte des rafales de vent.",
+   "pattern": "Baramhat (10 mars), Baramouda (9 avril), Bashans (9 mai), Baouna (8 juin), Abib (8 juillet), Misra (7 août), Nasie (6 septembre).",
+   "examples": [
+    {
+     "text": "Nasie est le petit mois.",
+     "translation": "Il compte 5 jours, ou 6 tous les quatre ans."
+    },
+    {
+     "text": "Bashans يكنس الغيط كنس.",
+     "translation": "Bashans balaie le champ : la moisson est finie."
+    },
+    {
+     "text": "Misra : la crue remplit les canaux.",
+     "translation": "Le fleuve revient irriguer les terres."
+    },
+    {
+     "text": "Abib commence vers le 8 juillet.",
+     "translation": "C'est le onzième mois, en pleine chaleur."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Nasie compte 30 jours comme les autres mois.",
+     "right": "Nasie compte 5 jours, ou 6 dans l'année bissextile copte.",
+     "why": "Il complète les 360 jours pour arriver à 365."
+    },
+    {
+     "wrong": "Misra est le dernier mois.",
+     "right": "Misra est le douzième ; le treizième est Nasie.",
+     "why": "Le petit mois vient après les douze grands."
+    },
+    {
+     "wrong": "Les proverbes des mois sont des règles de l'Église.",
+     "right": "Ce sont des dictons de paysans égyptiens.",
+     "why": "Ils viennent de la vie des champs, pas de la liturgie."
+    }
+   ],
+   "tip": "Douze grands mois de 30 jours, puis Nasie, le petit mois."
+  }
+ },
+ {
+  "id": "eg.g98.lire_une_date_copte",
+  "rule": {
+   "summary": "Pour lire une date copte, on retient l'ordre des treize mois, leur début approximatif (autour du 10 de chaque mois grégorien) et la règle de l'année : moins 283 de septembre à décembre, moins 284 de janvier à août.",
+   "explanation": "Pour trouver le mois copte d'une date grégorienne, on repère le début de mois juste avant elle. Par exemple, Baramhat commence vers le 10 mars : le 20 mars est dans Baramhat. Mieux vaut prendre des dates au milieu du mois : près d'un début de mois, un jour d'écart est possible. Noël copte tombe le 29 Kiahk, vers le 7 janvier.",
+   "pattern": "Mois copte = dernier début de mois avant la date ; année copte = année grégorienne − 283 ou − 284.",
+   "examples": [
+    {
+     "text": "Le 20 mars tombe dans Baramhat.",
+     "translation": "Baramhat commence vers le 10 mars."
+    },
+    {
+     "text": "Le 25 juillet tombe dans Abib.",
+     "translation": "Abib commence vers le 8 juillet."
+    },
+    {
+     "text": "Noël copte est le 29 Kiahk.",
+     "translation": "Cela tombe vers le 7 janvier."
+    },
+    {
+     "text": "Juillet 2030 : 2030 − 284 = 1746.",
+     "translation": "On est avant le Nayrouz, donc on retire 284."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le 20 mars est dans Amshir.",
+     "right": "Le 20 mars est dans Baramhat.",
+     "why": "Amshir se termine vers le 9 mars."
+    },
+    {
+     "wrong": "En janvier 2030, l'année copte est 2030 − 283.",
+     "right": "En janvier, on retire 284.",
+     "why": "Le Nayrouz n'est pas encore arrivé."
+    }
+   ],
+   "tip": "Prends le dernier début de mois avant ta date."
+  }
+ }
+]

@@ -1,0 +1,210 @@
+{
+  "module": {
+    "id": 6,
+    "title": "Conciles et hérésies : la synthèse",
+    "description": "Ranger, comparer et relier tous les conciles et toutes les hérésies : la logique des conciles, les erreurs sur Dieu et sur le Christ, les fiches de Nicée à Chalcédoine, la frise et les formules à retenir."
+  },
+  "grammarUnits": [
+    {
+      "id": "eg.g45.logique_des_conciles",
+      "category": "knowledge",
+      "title": "La logique des conciles",
+      "difficulty": 2,
+      "prerequisites": [
+        "eg.g33.cinq_sieges"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g46.heresies_dieu_trinite",
+      "category": "knowledge",
+      "title": "Les hérésies sur Dieu et la Trinité",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g45.logique_des_conciles"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g47.heresies_christ",
+      "category": "knowledge",
+      "title": "Les hérésies sur le Christ",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g46.heresies_dieu_trinite"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g48.fiche_nicee",
+      "category": "knowledge",
+      "title": "Nicée 325 en fiche",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g28.concile_de_nicee"
+      ],
+      "functionWords": []
+    }
+  ],
+  "lessons": [
+    {
+      "id": "eg.l45",
+      "sequence": 45,
+      "title": "La logique des conciles",
+      "description": "Pourquoi un concile, qui le convoque, ce qu'il produit, et pourquoi l'Église copte en reconnaît trois.",
+      "difficulty": 2,
+      "grammarUnitId": "eg.g45.logique_des_conciles",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g33.cinq_sieges",
+        "eg.v.concile_de_jerusalem",
+        "eg.v.concile_oecumenique",
+        "eg.v.canon_ecclesiastique",
+        "eg.v.anathemes"
+      ],
+      "vocabulary": [
+        {
+          "word": "le synode",
+          "slug": "synode",
+          "translation": "assemblée d'évêques d'une région, concile local",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'orthodoxie",
+          "slug": "orthodoxie",
+          "translation": "la foi droite, juste",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le symbole de foi",
+          "slug": "symbole_de_foi",
+          "translation": "le credo, formule solennelle de la foi",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la réception d'un concile",
+          "slug": "reception_d_un_concile",
+          "translation": "acceptation d'un concile par l'ensemble de l'Église",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l46",
+      "sequence": 46,
+      "title": "Les hérésies sur Dieu et la Trinité",
+      "description": "Gnosticisme, marcionisme, montanisme, modalisme, adoptianisme, arianisme, macédonianisme : qui, quand, quelle idée, quelle réponse.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g46.heresies_dieu_trinite",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g14.gnosticisme_docetisme",
+        "eg.g15.marcion_montan",
+        "eg.g21.erreurs_sur_la_trinite",
+        "eg.g27.arius",
+        "eg.v.macedonius",
+        "eg.v.homoousios"
+      ],
+      "vocabulary": [
+        {
+          "word": "le dualisme",
+          "slug": "dualisme",
+          "translation": "croyance en deux principes opposés, un bon et un mauvais",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'adoptianisme",
+          "slug": "adoptianisme",
+          "translation": "erreur : le Christ serait un homme « adopté » par Dieu",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "les pneumatomaques",
+          "slug": "pneumatomaques",
+          "translation": "ceux qui combattent l'Esprit, qui nient sa divinité",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "consubstantiel",
+          "slug": "consubstantiel",
+          "translation": "de même substance (essence) que le Père",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l47",
+      "sequence": 47,
+      "title": "Les hérésies sur le Christ",
+      "description": "Docétisme, apollinarisme, nestorianisme, monophysisme : comment on rabaisse, sépare ou mélange, et où se place saint Cyrille.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g47.heresies_christ",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g14.gnosticisme_docetisme",
+        "eg.g34.nestorius",
+        "eg.g38.eutyches",
+        "eg.g42.miaphysisme",
+        "eg.v.christotokos",
+        "eg.v.synode_de_constantinople_448",
+        "eg.v.physis"
+      ],
+      "vocabulary": [
+        {
+          "word": "l'apollinarisme",
+          "slug": "apollinarisme",
+          "translation": "erreur d'Apollinaire : le Christ aurait un corps humain sans âme humaine",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la pleine humanité",
+          "slug": "pleine_humanite",
+          "translation": "le fait que le Christ est vraiment homme, avec un corps et une âme",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'eutychianisme",
+          "slug": "eutychianisme",
+          "translation": "autre nom du monophysisme d'Eutychès",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l48",
+      "sequence": 48,
+      "title": "Nicée 325 en fiche",
+      "description": "La fiche complète du premier concile : qui, où, quand, contre qui, les décisions, les figures et la réception copte.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g48.fiche_nicee",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g28.concile_de_nicee",
+        "eg.g27.arius",
+        "eg.g29.athanase",
+        "eg.v.sur_l_incarnation_du_verbe",
+        "eg.v.credo_de_nicee"
+      ],
+      "vocabulary": [
+        {
+          "word": "la fiche d'un concile",
+          "slug": "fiche_de_concile",
+          "translation": "grille de questions pour retenir un concile",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la présidence du concile",
+          "slug": "presidence_du_concile",
+          "translation": "le fait de diriger les débats d'un concile",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le légat",
+          "slug": "legat",
+          "translation": "envoyé qui parle au nom d'un évêque absent",
+          "partOfSpeech": "person"
+        }
+      ]
+    }
+  ]
+}

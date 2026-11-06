@@ -1,11 +1,11 @@
 import XCTest
 @testable import LearningCore
 
-/// Checks every subject bundle shipped in the app (App/Resources/Content/en.json, ar.json, cg.json) against the engine:
+/// Checks every subject bundle shipped in the app (App/Resources/Content/en.json, ar.json, cg.json, eg.json) against the engine:
 /// references resolve, model answers are accepted, anticipated mistakes are not, and two weeks of
 /// three sessions a day run without getting stuck.
 final class SubjectBundlesTests: XCTestCase {
-    private static let subjects = ["en", "ar", "cg"]
+    private static let subjects = ["en", "ar", "cg", "eg"]
 
     private func bundles() throws -> [(String, ContentBundle)] {
         var out: [(String, ContentBundle)] = []

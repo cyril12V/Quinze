@@ -1,0 +1,615 @@
+{
+  "lessonId": "eg.l45",
+  "exercises": [
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles",
+        "eg.v.synode"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Comment appelle-t-on une assemblée d'évêques d'une seule région ?",
+      "options": [
+        "un synode",
+        "un concile œcuménique",
+        "un canon",
+        "un anathème"
+      ],
+      "answer": "un synode",
+      "acceptedAnswers": [
+        "un synode"
+      ],
+      "explanation": "Un synode est un concile local. Un concile œcuménique réunit les évêques de toute l'Église (carte 2).",
+      "tip": "Synode = local.",
+      "extraExample": {
+        "text": "Le synode d'Antioche (269).",
+        "translation": "Il juge Paul de Samosate."
+      },
+      "errorPatterns": [
+        {
+          "equals": "un concile œcuménique",
+          "category": "word_confusion",
+          "feedback": "Œcuménique veut dire « de toute la terre habitée » : ce n'est pas une assemblée d'une seule région."
+        }
+      ],
+      "id": "eg.l45.e01",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Depuis Constantin, qui convoque les grands conciles ?",
+      "options": [
+        "l'empereur",
+        "les moines du désert",
+        "un simple prêtre",
+        "le peuple"
+      ],
+      "answer": "l'empereur",
+      "acceptedAnswers": [
+        "l'empereur"
+      ],
+      "explanation": "Constantin, Théodose Ier, Théodose II, Marcien : à chaque fois, c'est l'empereur qui convoque (carte 3).",
+      "tip": "Convoquer = l'empereur ; définir la foi = les évêques.",
+      "extraExample": {
+        "text": "Constantin convoque Nicée.",
+        "translation": "En 325."
+      },
+      "id": "eg.l45.e02",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Dans un concile, qui définit la foi ?",
+      "options": [
+        "les évêques",
+        "l'empereur seul",
+        "les généraux",
+        "les juges de l'empire"
+      ],
+      "answer": "les évêques",
+      "acceptedAnswers": [
+        "les évêques"
+      ],
+      "explanation": "L'empereur convoque et veut la paix, mais ce sont les évêques qui définissent la foi (carte 3).",
+      "tip": "L'empereur convoque, les évêques décident.",
+      "extraExample": {
+        "text": "À Nicée, les évêques rédigent le credo.",
+        "translation": "Constantin les écoute."
+      },
+      "errorPatterns": [
+        {
+          "equals": "l'empereur seul",
+          "category": "word_confusion",
+          "feedback": "L'empereur convoque, mais il ne définit pas la foi : c'est le rôle des évêques."
+        }
+      ],
+      "id": "eg.l45.e03",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles",
+        "eg.v.anathemes"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qu'est-ce qu'un anathème ?",
+      "options": [
+        "une condamnation solennelle de l'erreur",
+        "une règle de discipline",
+        "une prière de la messe",
+        "le nom d'un concile"
+      ],
+      "answer": "une condamnation solennelle de l'erreur",
+      "acceptedAnswers": [
+        "une condamnation solennelle de l'erreur"
+      ],
+      "explanation": "L'anathème condamne solennellement l'erreur. Les règles de discipline, elles, s'appellent des canons (carte 4).",
+      "tip": "Anathème = condamnation ; canon = règle.",
+      "extraExample": {
+        "text": "Nicée joint des anathèmes à son credo.",
+        "translation": "Ils condamnent Arius."
+      },
+      "errorPatterns": [
+        {
+          "equals": "une règle de discipline",
+          "category": "word_confusion",
+          "feedback": "Une règle de discipline est un canon. L'anathème condamne une erreur."
+        }
+      ],
+      "id": "eg.l45.e04",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles",
+        "eg.v.canon_ecclesiastique"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que sont les canons votés par un concile ?",
+      "options": [
+        "des règles pour la vie de l'Église",
+        "le texte du credo",
+        "la liste des hérétiques",
+        "le calendrier des fêtes"
+      ],
+      "answer": "des règles pour la vie de l'Église",
+      "acceptedAnswers": [
+        "des règles pour la vie de l'Église"
+      ],
+      "explanation": "Les canons règlent la vie de l'Église (rangs, discipline) ; la foi, elle, est dite par la formule de foi (carte 4).",
+      "tip": "Canon = règle.",
+      "extraExample": {
+        "text": "Le canon 3 de 381 règle les rangs.",
+        "translation": "Il ne parle pas de la foi."
+      },
+      "id": "eg.l45.e05",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Combien de conciles œcuméniques l'Église copte reconnaît-elle ?",
+      "options": [
+        "trois",
+        "quatre",
+        "sept",
+        "douze"
+      ],
+      "answer": "trois",
+      "acceptedAnswers": [
+        "trois"
+      ],
+      "explanation": "Nicée, Constantinople et Éphèse : trois conciles (carte 6). Sept est le nombre des Églises chalcédoniennes.",
+      "tip": "Trois chez nous, sept chez les chalcédoniens.",
+      "extraExample": {
+        "text": "325, 381, 431.",
+        "translation": "Environ cinquante ans d'écart chaque fois."
+      },
+      "errorPatterns": [
+        {
+          "equals": "sept",
+          "category": "word_confusion",
+          "feedback": "Sept est le nombre de conciles reconnus par les Églises chalcédoniennes."
+        }
+      ],
+      "id": "eg.l45.e06",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Lequel de ces conciles l'Église copte ne reconnaît-elle pas ?",
+      "options": [
+        "Chalcédoine (451)",
+        "Nicée (325)",
+        "Constantinople (381)",
+        "Éphèse (431)"
+      ],
+      "answer": "Chalcédoine (451)",
+      "acceptedAnswers": [
+        "Chalcédoine (451)"
+      ],
+      "explanation": "Chalcédoine définit « deux natures » : l'Église copte ne le reçoit pas (carte 7).",
+      "tip": "Les trois reconnus s'arrêtent à 431.",
+      "extraExample": {
+        "text": "Les trois conciles copte : 325, 381, 431.",
+        "translation": "Rien après."
+      },
+      "id": "eg.l45.e07",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles",
+        "eg.v.reception_d_un_concile"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qu'appelle-t-on la « réception » d'un concile ?",
+      "options": [
+        "l'acceptation par l'ensemble de l'Église",
+        "la réunion des évêques dans la ville",
+        "le repas offert par l'empereur",
+        "la lecture du credo à la messe"
+      ],
+      "answer": "l'acceptation par l'ensemble de l'Église",
+      "acceptedAnswers": [
+        "l'acceptation par l'ensemble de l'Église"
+      ],
+      "explanation": "Un concile devient vraiment œcuménique quand toute l'Église l'accepte (carte 5).",
+      "tip": "Réception = acceptation.",
+      "extraExample": {
+        "text": "Nicée est reçu partout.",
+        "translation": "Chalcédoine ne l'est pas par Alexandrie."
+      },
+      "id": "eg.l45.e08",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles",
+        "eg.v.orthodoxie"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Que veut dire « orthodoxie » ?",
+      "options": [
+        "la foi droite",
+        "la foi nouvelle",
+        "la foi cachée",
+        "la foi des empereurs"
+      ],
+      "answer": "la foi droite",
+      "acceptedAnswers": [
+        "la foi droite"
+      ],
+      "explanation": "Orthodoxie vient du grec : « droite foi ». Les trois conciles fixent l'orthodoxie (carte 6).",
+      "tip": "Ortho = droit.",
+      "extraExample": {
+        "text": "L'hérésie s'écarte de la foi droite.",
+        "translation": "L'orthodoxie la garde."
+      },
+      "id": "eg.l45.e09",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.v.theodose_ii",
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Qui a convoqué le concile d'Éphèse de 431 ?",
+      "options": [
+        "Théodose II",
+        "Constantin",
+        "Théodose Ier",
+        "Marcien"
+      ],
+      "answer": "Théodose II",
+      "acceptedAnswers": [
+        "Théodose II"
+      ],
+      "explanation": "En 431, Théodose II, petit-fils de Théodose Ier, convoque Éphèse (carte 3).",
+      "tip": "Les deux Théodose : 381 puis 431.",
+      "extraExample": {
+        "text": "Théodose Ier convoque Constantinople.",
+        "translation": "En 381."
+      },
+      "id": "eg.l45.e10",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "instruction": "Choisis la bonne réponse.",
+      "prompt": "Quel est l'enchaînement habituel ?",
+      "options": [
+        "une erreur, un concile, une formule de foi",
+        "un concile, une erreur, un canon",
+        "une formule de foi, une erreur, un exil",
+        "un empereur, un exil, un concile"
+      ],
+      "answer": "une erreur, un concile, une formule de foi",
+      "acceptedAnswers": [
+        "une erreur, un concile, une formule de foi"
+      ],
+      "explanation": "Les conciles répondent à des erreurs par une formule de foi (carte 8).",
+      "tip": "Erreur, concile, formule.",
+      "extraExample": {
+        "text": "Arius, Nicée, homoousios.",
+        "translation": "Le schéma se répète."
+      },
+      "id": "eg.l45.e11",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.v.concile_de_jerusalem",
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le premier concile de l'histoire chrétienne a lieu à ___, vers l'an 49.",
+      "options": [
+        "Jérusalem",
+        "Nicée",
+        "Éphèse"
+      ],
+      "answer": "Jérusalem",
+      "acceptedAnswers": [
+        "Jérusalem"
+      ],
+      "explanation": "Le concile de Jérusalem, vers 49, sert de modèle à tous les autres (carte 1).",
+      "tip": "Le premier concile, c'est Jérusalem.",
+      "extraExample": {
+        "text": "Les apôtres et les anciens s'y réunissent.",
+        "translation": "Ils décident ensemble."
+      },
+      "id": "eg.l45.e12",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles",
+        "eg.v.concile_oecumenique"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "instruction": "Complète la phrase.",
+      "prompt": "Un concile est dit ___ quand il réunit les évêques de toute l'Église.",
+      "options": [
+        "œcuménique",
+        "local",
+        "secret"
+      ],
+      "answer": "œcuménique",
+      "acceptedAnswers": [
+        "œcuménique",
+        "oecuménique",
+        "oecumenique"
+      ],
+      "explanation": "Œcuménique : « de toute la terre habitée » (carte 2).",
+      "tip": "Œcuménique = universel.",
+      "extraExample": {
+        "text": "Nicée est œcuménique.",
+        "translation": "Antioche 269 ne l'est pas."
+      },
+      "id": "eg.l45.e13",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles",
+        "eg.v.synode"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Un synode est un concile ___.",
+      "options": [
+        "local",
+        "œcuménique",
+        "impérial"
+      ],
+      "answer": "local",
+      "acceptedAnswers": [
+        "local"
+      ],
+      "explanation": "Un synode réunit les évêques d'une région : c'est un concile local (carte 2).",
+      "tip": "Synode = local.",
+      "extraExample": {
+        "text": "Constantinople 448 est un synode.",
+        "translation": "Il condamne Eutychès."
+      },
+      "id": "eg.l45.e14",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles",
+        "eg.v.symbole_de_foi"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "instruction": "Complète la phrase.",
+      "prompt": "Le credo s'appelle aussi le ___ de foi.",
+      "options": [
+        "symbole",
+        "canon",
+        "synode"
+      ],
+      "answer": "symbole",
+      "acceptedAnswers": [
+        "symbole"
+      ],
+      "explanation": "Le credo est la formule de foi, appelée aussi symbole de foi (carte 4).",
+      "tip": "Symbole de foi = credo.",
+      "extraExample": {
+        "text": "Le symbole de foi résume la foi.",
+        "translation": "On le récite à la messe."
+      },
+      "id": "eg.l45.e15",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Qui convoque quel concile ?",
+      "pairs": [
+        {
+          "left": "Nicée (325)",
+          "right": "Constantin"
+        },
+        {
+          "left": "Constantinople (381)",
+          "right": "Théodose Ier"
+        },
+        {
+          "left": "Éphèse (431)",
+          "right": "Théodose II"
+        },
+        {
+          "left": "Chalcédoine (451)",
+          "right": "Marcien"
+        }
+      ],
+      "answer": "Nicée (325) = Constantin ; Constantinople (381) = Théodose Ier ; Éphèse (431) = Théodose II ; Chalcédoine (451) = Marcien",
+      "acceptedAnswers": [],
+      "explanation": "Chaque concile a son empereur (carte 3).",
+      "tip": "Constantin, deux Théodose, Marcien.",
+      "id": "eg.l45.e16",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "instruction": "Associe chaque élément de gauche à celui de droite.",
+      "prompt": "Ce que produit un concile",
+      "pairs": [
+        {
+          "left": "un anathème",
+          "right": "une condamnation solennelle de l'erreur"
+        },
+        {
+          "left": "un canon",
+          "right": "des règles pour la vie de l'Église"
+        },
+        {
+          "left": "un credo",
+          "right": "une formule de foi"
+        },
+        {
+          "left": "un synode",
+          "right": "un concile local"
+        }
+      ],
+      "answer": "un anathème = une condamnation solennelle de l'erreur ; un canon = des règles pour la vie de l'Église ; un credo = une formule de foi ; un synode = un concile local",
+      "acceptedAnswers": [],
+      "explanation": "Formule de foi, anathèmes, canons : trois produits différents (carte 4).",
+      "tip": "Foi, condamnation, règle.",
+      "id": "eg.l45.e17",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+      "prompt": "Phrase-repère : le concile œcuménique.",
+      "tokens": [
+        "l'Église",
+        "de",
+        "Un",
+        "toute",
+        "évêques",
+        "réunit",
+        "œcuménique",
+        "les",
+        "concile"
+      ],
+      "answer": "Un concile œcuménique réunit les évêques de toute l'Église",
+      "acceptedAnswers": [
+        "Un concile œcuménique réunit les évêques de toute l'Église"
+      ],
+      "explanation": "Œcuménique veut dire « de toute la terre habitée » (carte 2).",
+      "tip": "Œcuménique = toute l'Église.",
+      "extraExample": {
+        "text": "Un synode réunit les évêques d'une région.",
+        "translation": "C'est la différence."
+      },
+      "id": "eg.l45.e18",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.g45.logique_des_conciles",
+        "eg.v.reception_d_un_concile"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Comment appelle-t-on l'acceptation d'un concile par toute l'Église ?",
+      "answer": "la réception",
+      "acceptedAnswers": [
+        "la réception",
+        "réception",
+        "reception",
+        "la reception"
+      ],
+      "explanation": "C'est la réception : un concile n'est œcuménique que s'il est reçu par l'ensemble de l'Église (carte 5).",
+      "tip": "Réception = acceptation.",
+      "extraExample": {
+        "text": "Chalcédoine n'est pas reçu par les coptes.",
+        "translation": "Nicée l'est."
+      },
+      "id": "eg.l45.e19",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.v.concile_de_nicee",
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "free_answer",
+      "difficulty": 1,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Quel empereur a convoqué le concile de Nicée ?",
+      "answer": "Constantin",
+      "acceptedAnswers": [
+        "Constantin",
+        "l'empereur Constantin"
+      ],
+      "explanation": "Constantin convoque Nicée en 325, pour rétablir l'unité de l'empire (carte 3).",
+      "tip": "Nicée = Constantin.",
+      "extraExample": {
+        "text": "Il convoque Nicée en 325.",
+        "translation": "Il veut un empire uni."
+      },
+      "id": "eg.l45.e20",
+      "promptLanguage": "fr"
+    },
+    {
+      "unitIds": [
+        "eg.v.concile_d_antioche_269",
+        "eg.g45.logique_des_conciles"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "instruction": "Écris ta réponse.",
+      "prompt": "Dans quelle ville se tient le synode de 269 qui condamne Paul de Samosate ?",
+      "answer": "Antioche",
+      "acceptedAnswers": [
+        "Antioche",
+        "à Antioche"
+      ],
+      "explanation": "Le synode d'Antioche de 269 est un concile local (carte 2).",
+      "tip": "Antioche 269 = synode.",
+      "extraExample": {
+        "text": "Paul est évêque d'Antioche.",
+        "translation": "Il y est excommunié."
+      },
+      "id": "eg.l45.e21",
+      "promptLanguage": "fr"
+    }
+  ]
+}

@@ -1,0 +1,392 @@
+{
+ "module": {
+  "id": 11,
+  "title": "L'Agpeya et la prière",
+  "description": "Les sept heures de prière et leur sens, la structure d'une heure, les gestes, et pourquoi on prie tourné vers l'est."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g83.prier_aux_heures",
+   "category": "knowledge",
+   "title": "Prier aux heures : l'Agpeya",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g84.prime_tierce_sexte",
+   "category": "knowledge",
+   "title": "Prime, Tierce et Sexte",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g85.none_vepres_complies",
+   "category": "knowledge",
+   "title": "None, Vêpres et Complies",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g86.minuit_et_voile",
+   "category": "knowledge",
+   "title": "Minuit et la prière du voile",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g87.structure_et_gestes",
+   "category": "knowledge",
+   "title": "La structure d'une heure et les gestes",
+   "difficulty": 3,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g88.prier_vers_l_est",
+   "category": "knowledge",
+   "title": "Prier vers l'est",
+   "difficulty": 3,
+   "prerequisites": [],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l83",
+   "sequence": 83,
+   "title": "Sept fois par jour : pourquoi prier aux heures",
+   "description": "Le verset des sept heures, Daniel et les apôtres, et ce qu'est l'Agpeya.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g83.prier_aux_heures",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.v.pentecote",
+    "eg.v.saint_pierre",
+    "eg.v.evangile",
+    "eg.v.apotre"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'Agpeya",
+     "slug": "agpeya",
+     "translation": "le livre des heures copte",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les sept heures",
+     "slug": "sept_heures",
+     "translation": "les sept prières de la journée et de la nuit",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le psaume 119, 164",
+     "slug": "psaume_119_164",
+     "translation": "« Sept fois le jour je te loue »",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "le prophète Daniel",
+     "slug": "daniel_prophete",
+     "translation": "prophète qui prie trois fois par jour à Babylone",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "prier sans cesse",
+     "slug": "prier_sans_cesse",
+     "translation": "conseil de saint Paul (1 Th 5, 17)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la règle de prière",
+     "slug": "regle_de_priere",
+     "translation": "ensemble des heures que le fidèle s'engage à prier",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l84",
+   "sequence": 84,
+   "title": "Prime, Tierce, Sexte : le matin du Christ",
+   "description": "Les trois premières heures du jour : à quel moment, et quel moment de la vie du Christ chacune rappelle.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g84.prime_tierce_sexte",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g83.prier_aux_heures",
+    "eg.v.pentecote",
+    "eg.v.ponce_pilate"
+   ],
+   "vocabulary": [
+    {
+     "word": "Prime",
+     "slug": "prime_heure",
+     "translation": "prière de 6 h : l'incarnation et la Résurrection",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Tierce",
+     "slug": "tierce",
+     "translation": "prière de 9 h : le procès devant Pilate et la Pentecôte",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Sexte",
+     "slug": "sexte",
+     "translation": "prière de midi : la crucifixion",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'heure biblique",
+     "slug": "heure_biblique",
+     "translation": "manière de compter : le jour commence au lever du soleil, vers 6 h",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la Résurrection",
+     "slug": "resurrection_du_christ",
+     "translation": "le Christ sort vivant du tombeau le troisième jour",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la crucifixion",
+     "slug": "crucifixion_du_christ",
+     "translation": "le Christ est cloué sur la croix, au Golgotha",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l85",
+   "sequence": 85,
+   "title": "None, Vêpres, Complies : le soir du Christ",
+   "description": "L'après-midi et le soir : la mort, la descente de la croix et l'ensevelissement.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g85.none_vepres_complies",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.g83.prier_aux_heures"
+   ],
+   "vocabulary": [
+    {
+     "word": "la None",
+     "slug": "none_heure",
+     "translation": "prière de 15 h : la mort du Christ sur la croix",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Vêpres",
+     "slug": "vepres",
+     "translation": "prière du coucher du soleil : la descente de la croix",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Complies",
+     "slug": "complies",
+     "translation": "prière de 21 h : l'ensevelissement du Christ",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la descente de la croix",
+     "slug": "descente_de_la_croix",
+     "translation": "le corps du Christ est descendu de la croix au soir",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'ensevelissement du Christ",
+     "slug": "ensevelissement_du_christ",
+     "translation": "le corps du Christ est mis au tombeau",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le bon larron",
+     "slug": "bon_larron",
+     "translation": "malfaiteur crucifié avec Jésus, à qui il promet le paradis",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l86",
+   "sequence": 86,
+   "title": "Minuit et la prière du voile",
+   "description": "La veille de la nuit : trois veilles, les dix vierges, et la prière du voile.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g86.minuit_et_voile",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g85.none_vepres_complies",
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "vocabulary": [
+    {
+     "word": "Minuit",
+     "slug": "minuit_heure",
+     "translation": "prière de la nuit : la seconde venue du Christ",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "les dix vierges",
+     "slug": "dix_vierges",
+     "translation": "parabole de Mt 25, 1-13 sur l'attente de l'époux",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les trois veilles",
+     "slug": "trois_veilles",
+     "translation": "les trois parties de la prière de minuit",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Gethsémani",
+     "slug": "gethsemani",
+     "translation": "jardin où le Christ prie trois fois avant son arrestation",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "la prière du voile",
+     "slug": "priere_du_voile",
+     "translation": "prière à part, en fin d'Agpeya : examen de conscience",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'examen de conscience",
+     "slug": "examen_de_conscience",
+     "translation": "regarder sa journée devant Dieu pour demander pardon",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la seconde venue du Christ",
+     "slug": "seconde_venue_du_christ",
+     "translation": "retour du Christ à la fin des temps",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l87",
+   "sequence": 87,
+   "title": "Une heure de prière, étape par étape",
+   "description": "Le plan en neuf étapes, les 41 Kyrie, et les gestes : debout, métanies, mains lavées, chaussures, voile.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g87.structure_et_gestes",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g86.minuit_et_voile",
+    "eg.g85.none_vepres_complies",
+    "eg.g84.prime_tierce_sexte",
+    "eg.g83.prier_aux_heures"
+   ],
+   "vocabulary": [
+    {
+     "word": "Kyrie eleison",
+     "slug": "kyrie_eleison",
+     "translation": "« Seigneur, aie pitié » (grec)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "les 41 Kyrie",
+     "slug": "quarante_et_un_kyrie",
+     "translation": "39 coups de fouet, la couronne d'épines et la lance",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le psaume 50",
+     "slug": "psaume_50",
+     "translation": "prière de repentance de David (51 dans la Bible hébraïque)",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "la métanie",
+     "slug": "metanie",
+     "translation": "prosternation : on s'incline jusqu'à terre",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le signe de croix",
+     "slug": "signe_de_croix_priere",
+     "translation": "geste fait au nom du Père, du Fils et du Saint-Esprit",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Notre Père",
+     "slug": "notre_pere",
+     "translation": "prière que le Christ a enseignée à ses disciples (Mt 6, 9-13)",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les litanies de l'heure",
+     "slug": "litanies_de_l_heure",
+     "translation": "tropaires de supplication, dont un à la Vierge",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le voile des femmes",
+     "slug": "voile_pour_prier",
+     "translation": "les femmes se couvrent la tête pour prier (1 Co 11, 5-6)",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l88",
+   "sequence": 88,
+   "title": "Prier vers l'est : les six raisons, puis bilan du module",
+   "description": "Les six raisons de prier tourné vers l'est, et le bilan du module sur l'Agpeya.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g88.prier_vers_l_est",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g87.structure_et_gestes",
+    "eg.g86.minuit_et_voile",
+    "eg.g85.none_vepres_complies",
+    "eg.g84.prime_tierce_sexte",
+    "eg.g83.prier_aux_heures",
+    "eg.v.saint_basile_le_grand"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'est (l'orient)",
+     "slug": "est_direction_de_priere",
+     "translation": "direction de la prière : côté du paradis, de la lumière et du retour du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le paradis perdu",
+     "slug": "paradis_perdu",
+     "translation": "le jardin d'Éden, à l'orient, que l'homme a quitté par le péché",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le soleil de justice",
+     "slug": "soleil_de_justice",
+     "translation": "nom du Christ, lumière du salut, donné par le prophète Malachie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'étoile des mages",
+     "slug": "etoile_des_mages",
+     "translation": "étoile vue à l'orient qui conduit les mages au Christ (Mt 2, 2)",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'orientation des églises",
+     "slug": "orientation_des_eglises",
+     "translation": "les églises sont bâties tournées vers l'est",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le renoncement à Satan, vers l'ouest",
+     "slug": "renoncement_vers_l_ouest",
+     "translation": "au baptême, on renie Satan tourné vers l'ouest",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
+}

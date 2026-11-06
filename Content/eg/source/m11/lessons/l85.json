@@ -1,0 +1,602 @@
+{
+ "lessonId": "eg.l85",
+ "exercises": [
+  {
+   "id": "eg.l85.e01",
+   "unitIds": [
+    "eg.g85.none_vepres_complies",
+    "eg.v.none_heure"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À quelle heure prie-t-on la None ?",
+   "promptLanguage": "fr",
+   "options": [
+    "midi",
+    "15 h",
+    "21 h",
+    "9 h"
+   ],
+   "answer": "15 h",
+   "acceptedAnswers": [
+    "15 h"
+   ],
+   "explanation": "None est la neuvième heure : 6 + 9 = 15 h.",
+   "tip": "None = neuvième.",
+   "extraExample": {
+    "text": "Neuvième heure : 15 h.",
+    "translation": "Mt 27, 46-50."
+   }
+  },
+  {
+   "id": "eg.l85.e02",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que rappelle la None ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le procès devant Pilate",
+    "l'ensevelissement du Christ",
+    "la descente de la croix",
+    "la mort du Christ sur la croix"
+   ],
+   "answer": "la mort du Christ sur la croix",
+   "acceptedAnswers": [
+    "la mort du Christ sur la croix"
+   ],
+   "explanation": "À la neuvième heure, Jésus rend l'esprit.",
+   "tip": "None = mort.",
+   "extraExample": {
+    "text": "Mt 27, 46-50.",
+    "translation": "Il pousse un grand cri."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la descente de la croix",
+     "category": "word_confusion",
+     "feedback": "La descente de la croix, c'est le soir, avec les Vêpres."
+    }
+   ]
+  },
+  {
+   "id": "eg.l85.e03",
+   "unitIds": [
+    "eg.g85.none_vepres_complies",
+    "eg.v.vepres"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle heure se prie au coucher du soleil ?",
+   "promptLanguage": "fr",
+   "options": [
+    "None",
+    "Prime",
+    "Complies",
+    "Vêpres"
+   ],
+   "answer": "Vêpres",
+   "acceptedAnswers": [
+    "Vêpres"
+   ],
+   "explanation": "Vêpres, du latin vesper : le soir.",
+   "tip": "Vêpres = soir.",
+   "extraExample": {
+    "text": "Vers 17-18 h.",
+    "translation": "Avant la nuit."
+   }
+  },
+  {
+   "id": "eg.l85.e04",
+   "unitIds": [
+    "eg.g85.none_vepres_complies",
+    "eg.v.descente_de_la_croix"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que rappellent les Vêpres ?",
+   "promptLanguage": "fr",
+   "options": [
+    "l'ensevelissement du Christ",
+    "la descente de la croix",
+    "la seconde venue",
+    "la crucifixion"
+   ],
+   "answer": "la descente de la croix",
+   "acceptedAnswers": [
+    "la descente de la croix"
+   ],
+   "explanation": "Au soir, le corps du Christ est descendu de la croix.",
+   "tip": "Vêpres = descente.",
+   "extraExample": {
+    "text": "Joseph d'Arimathie.",
+    "translation": "Mc 15, 42-46."
+   }
+  },
+  {
+   "id": "eg.l85.e05",
+   "unitIds": [
+    "eg.g85.none_vepres_complies",
+    "eg.v.complies"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle heure se prie vers 21 h, avant de dormir ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Sexte",
+    "Complies",
+    "None",
+    "Vêpres"
+   ],
+   "answer": "Complies",
+   "acceptedAnswers": [
+    "Complies"
+   ],
+   "explanation": "Complies achèvent la journée.",
+   "tip": "Complies = fin du jour.",
+   "extraExample": {
+    "text": "Du latin completorium.",
+    "translation": "Ce qui achève."
+   }
+  },
+  {
+   "id": "eg.l85.e06",
+   "unitIds": [
+    "eg.g85.none_vepres_complies",
+    "eg.v.ensevelissement_du_christ"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que rappellent les Complies avec le Jugement dernier ?",
+   "promptLanguage": "fr",
+   "options": [
+    "l'ensevelissement du Christ",
+    "la descente de la croix",
+    "la Pentecôte",
+    "la mort sur la croix"
+   ],
+   "answer": "l'ensevelissement du Christ",
+   "acceptedAnswers": [
+    "l'ensevelissement du Christ"
+   ],
+   "explanation": "Complies rappellent la mise au tombeau.",
+   "tip": "Complies = tombeau.",
+   "extraExample": {
+    "text": "Avant de dormir, on pense à la mort.",
+    "translation": "On attend le retour du Christ."
+   }
+  },
+  {
+   "id": "eg.l85.e07",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que veut dire vesper, le mot latin à l'origine de Vêpres ?",
+   "promptLanguage": "fr",
+   "options": [
+    "matin",
+    "midi",
+    "nuit",
+    "soir"
+   ],
+   "answer": "soir",
+   "acceptedAnswers": [
+    "soir"
+   ],
+   "explanation": "Vêpres vient de vesper, « soir ».",
+   "tip": "Vesper = soir.",
+   "extraExample": {
+    "text": "Compline vient de completorium.",
+    "translation": "Ce qui achève."
+   }
+  },
+  {
+   "id": "eg.l85.e08",
+   "unitIds": [
+    "eg.g85.none_vepres_complies",
+    "eg.v.bon_larron"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À qui Jésus promet-il « Aujourd'hui tu seras avec moi dans le paradis » ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Pierre",
+    "Joseph d'Arimathie",
+    "le bon larron",
+    "Ponce Pilate"
+   ],
+   "answer": "le bon larron",
+   "acceptedAnswers": [
+    "le bon larron"
+   ],
+   "explanation": "Lc 23, 43 : il promet le paradis au malfaiteur crucifié à côté de lui.",
+   "tip": "Bon larron = paradis.",
+   "extraExample": {
+    "text": "Il a cru au dernier moment.",
+    "translation": "Le paradis est à l'est."
+   }
+  },
+  {
+   "id": "eg.l85.e09",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Les Vêpres se prient au coucher du ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Temple",
+    "soleil",
+    "chant",
+    "marché"
+   ],
+   "answer": "soleil",
+   "acceptedAnswers": [
+    "soleil"
+   ],
+   "explanation": "Vêpres : le soir, au coucher du soleil.",
+   "tip": "Soleil couchant.",
+   "extraExample": {
+    "text": "Vers 17-18 h.",
+    "translation": "Selon la saison."
+   }
+  },
+  {
+   "id": "eg.l85.e10",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "À la neuvième heure, Jésus rend l'___ (Mt 27).",
+   "promptLanguage": "fr",
+   "options": [
+    "esprit",
+    "âme",
+    "arme",
+    "ordre"
+   ],
+   "answer": "esprit",
+   "acceptedAnswers": [
+    "esprit"
+   ],
+   "explanation": "Il rend l'esprit : c'est la mort du Christ, rappelée par la None.",
+   "tip": "Rend l'esprit.",
+   "extraExample": {
+    "text": "Mt 27, 46-50.",
+    "translation": "Il crie d'une voix forte."
+   }
+  },
+  {
+   "id": "eg.l85.e11",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Pendant le Grand Carême, Vêpres et ___ se prient aussi à l'église.",
+   "promptLanguage": "fr",
+   "options": [
+    "Complies",
+    "Tierce",
+    "Prime",
+    "Sexte"
+   ],
+   "answer": "Complies",
+   "acceptedAnswers": [
+    "Complies"
+   ],
+   "explanation": "Le temps de pénitence ajoute des prières le soir.",
+   "tip": "Vêpres + Complies.",
+   "extraExample": {
+    "text": "Aussi pendant le jeûne de Ninive.",
+    "translation": "Deux jeûnes."
+   }
+  },
+  {
+   "id": "eg.l85.e12",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "None, Vêpres, Complies : associe chaque heure à son moment.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "la None",
+     "right": "15 h"
+    },
+    {
+     "left": "Vêpres",
+     "right": "coucher du soleil"
+    },
+    {
+     "left": "Complies",
+     "right": "21 h"
+    }
+   ],
+   "answer": "la None = 15 h ; Vêpres = coucher du soleil ; Complies = 21 h",
+   "acceptedAnswers": [],
+   "explanation": "None 15 h, Vêpres au coucher du soleil, Complies 21 h.",
+   "tip": "Relis la carte correspondante.",
+   "extraExample": {
+    "text": "la None",
+    "translation": "15 h"
+   }
+  },
+  {
+   "id": "eg.l85.e13",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Le soir : associe chaque heure à ce qu'elle rappelle.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "la None",
+     "right": "la mort du Christ"
+    },
+    {
+     "left": "Vêpres",
+     "right": "la descente de la croix"
+    },
+    {
+     "left": "Complies",
+     "right": "l'ensevelissement du Christ"
+    }
+   ],
+   "answer": "la None = la mort du Christ ; Vêpres = la descente de la croix ; Complies = l'ensevelissement du Christ",
+   "acceptedAnswers": [],
+   "explanation": "Mort, descente, tombeau.",
+   "tip": "Relis la carte correspondante.",
+   "extraExample": {
+    "text": "la None",
+    "translation": "la mort du Christ"
+   }
+  },
+  {
+   "id": "eg.l85.e14",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Révision : associe chaque heure à son moment.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Prime",
+     "right": "6 h"
+    },
+    {
+     "left": "Tierce",
+     "right": "9 h"
+    },
+    {
+     "left": "Sexte",
+     "right": "midi"
+    },
+    {
+     "left": "la None",
+     "right": "15 h"
+    }
+   ],
+   "answer": "Prime = 6 h ; Tierce = 9 h ; Sexte = midi ; la None = 15 h",
+   "acceptedAnswers": [],
+   "explanation": "Les quatre premières heures de la journée.",
+   "tip": "Relis la carte correspondante.",
+   "extraExample": {
+    "text": "Prime",
+    "translation": "6 h"
+   }
+  },
+  {
+   "id": "eg.l85.e15",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : les Vêpres.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "de",
+    "croix",
+    "la",
+    "rappellent",
+    "descente",
+    "Vêpres",
+    "la",
+    "Les"
+   ],
+   "answer": "Les Vêpres rappellent la descente de la croix",
+   "acceptedAnswers": [
+    "Les Vêpres rappellent la descente de la croix"
+   ],
+   "explanation": "Du soir à la descente de la croix.",
+   "tip": "Vêpres → descente.",
+   "extraExample": {
+    "text": "Joseph d'Arimathie.",
+    "translation": "Au coucher du soleil."
+   }
+  },
+  {
+   "id": "eg.l85.e16",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle heure de prière rappelle la mort du Christ sur la croix ?",
+   "promptLanguage": "fr",
+   "answer": "None",
+   "acceptedAnswers": [
+    "None",
+    "la None"
+   ],
+   "explanation": "La None, à 15 h.",
+   "tip": "None = mort.",
+   "extraExample": {
+    "text": "Neuvième heure.",
+    "translation": "15 h."
+   }
+  },
+  {
+   "id": "eg.l85.e17",
+   "unitIds": [
+    "eg.g85.none_vepres_complies"
+   ],
+   "type": "free_answer",
+   "difficulty": 3,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quel homme demande à Pilate le corps de Jésus ?",
+   "promptLanguage": "fr",
+   "answer": "Joseph d'Arimathie",
+   "acceptedAnswers": [
+    "Joseph d'Arimathie",
+    "Joseph",
+    "Joseph d'Arimathée"
+   ],
+   "explanation": "Mc 15, 42-46 : c'est lui qui obtient le corps de Jésus.",
+   "tip": "Joseph d'Arimathie.",
+   "extraExample": {
+    "text": "Il est membre du conseil.",
+    "translation": "Il donne son tombeau."
+   }
+  },
+  {
+   "id": "eg.l85.e18",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle heure rappelle la crucifixion, à midi ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tierce",
+    "Sexte",
+    "Complies",
+    "None"
+   ],
+   "answer": "Sexte",
+   "acceptedAnswers": [
+    "Sexte"
+   ],
+   "explanation": "Midi, la sixième heure : Sexte.",
+   "tip": "Sexte = croix.",
+   "extraExample": {
+    "text": "Sexte vient de sixième.",
+    "translation": "Les ténèbres couvrent la terre."
+   }
+  },
+  {
+   "id": "eg.l85.e19",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle heure se prie à 9 h, la troisième heure ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tierce",
+    "None",
+    "Sexte",
+    "Prime"
+   ],
+   "answer": "Tierce",
+   "acceptedAnswers": [
+    "Tierce"
+   ],
+   "explanation": "Tierce = troisième = 9 h.",
+   "tip": "Tierce = 3.",
+   "extraExample": {
+    "text": "Procès devant Pilate.",
+    "translation": "Et Pentecôte."
+   }
+  },
+  {
+   "id": "eg.l85.e20",
+   "unitIds": [
+    "eg.g83.prier_aux_heures"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le livre des heures s'appelle l'___.",
+   "promptLanguage": "fr",
+   "options": [
+    "Katameros",
+    "Psautier",
+    "Agpeya",
+    "Évangile"
+   ],
+   "answer": "Agpeya",
+   "acceptedAnswers": [
+    "Agpeya"
+   ],
+   "explanation": "L'Agpeya est le livre des heures.",
+   "tip": "Agpeya = heure.",
+   "extraExample": {
+    "text": "Du copte agp.",
+    "translation": "Livre de prière."
+   }
+  },
+  {
+   "id": "eg.l85.e21",
+   "unitIds": [
+    "eg.v.daniel_prophete"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Comment Daniel prie-t-il trois fois par jour ?",
+   "promptLanguage": "fr",
+   "options": [
+    "debout, tourné vers l'est",
+    "couché, tourné vers le ciel",
+    "à genoux, tourné vers Jérusalem",
+    "assis, tourné vers Babylone"
+   ],
+   "answer": "à genoux, tourné vers Jérusalem",
+   "acceptedAnswers": [
+    "à genoux, tourné vers Jérusalem"
+   ],
+   "explanation": "Daniel prie à genoux, tourné vers Jérusalem.",
+   "tip": "Daniel = genoux.",
+   "extraExample": {
+    "text": "Même sous la menace.",
+    "translation": "Dn 6."
+   }
+  }
+ ]
+}

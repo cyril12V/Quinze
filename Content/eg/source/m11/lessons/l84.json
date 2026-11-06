@@ -1,0 +1,600 @@
+{
+ "lessonId": "eg.l84",
+ "exercises": [
+  {
+   "id": "eg.l84.e01",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.v.prime_heure"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À quelle heure prie-t-on Prime ?",
+   "promptLanguage": "fr",
+   "options": [
+    "6 h",
+    "midi",
+    "9 h",
+    "15 h"
+   ],
+   "answer": "6 h",
+   "acceptedAnswers": [
+    "6 h"
+   ],
+   "explanation": "Prime se prie vers 6 h, au lever du jour.",
+   "tip": "Prime = première heure.",
+   "extraExample": {
+    "text": "Le soleil se lève vers 6 h.",
+    "translation": "C'est le début du jour biblique."
+   }
+  },
+  {
+   "id": "eg.l84.e02",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.v.tierce"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle heure se prie à 9 h ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tierce",
+    "Sexte",
+    "Complies",
+    "Prime"
+   ],
+   "answer": "Tierce",
+   "acceptedAnswers": [
+    "Tierce"
+   ],
+   "explanation": "Tierce est la troisième heure du jour, 9 h.",
+   "tip": "Tierce = troisième.",
+   "extraExample": {
+    "text": "Troisième heure : 6 + 3 = 9 h.",
+    "translation": "Même calcul pour Sexte."
+   }
+  },
+  {
+   "id": "eg.l84.e03",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.v.sexte"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle heure se prie à midi ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Prime",
+    "Tierce",
+    "Vêpres",
+    "Sexte"
+   ],
+   "answer": "Sexte",
+   "acceptedAnswers": [
+    "Sexte"
+   ],
+   "explanation": "Sexte est la sixième heure du jour, midi.",
+   "tip": "Sexte = sixième.",
+   "extraExample": {
+    "text": "Sixième heure : 6 + 6 = 12 h.",
+    "translation": "Midi."
+   }
+  },
+  {
+   "id": "eg.l84.e04",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.v.crucifixion_du_christ"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que rappelle Sexte ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la Pentecôte",
+    "la naissance du Christ",
+    "la crucifixion",
+    "le procès devant Pilate"
+   ],
+   "answer": "la crucifixion",
+   "acceptedAnswers": [
+    "la crucifixion"
+   ],
+   "explanation": "À midi, les ténèbres couvrent la terre : Sexte rappelle le Christ sur la croix.",
+   "tip": "Midi = la croix.",
+   "extraExample": {
+    "text": "Mt 27, 45.",
+    "translation": "Jusqu'à la neuvième heure."
+   },
+   "errorPatterns": [
+    {
+     "equals": "la Pentecôte",
+     "category": "word_confusion",
+     "feedback": "La Pentecôte est rappelée par Tierce, à 9 h."
+    }
+   ]
+  },
+  {
+   "id": "eg.l84.e05",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel procès rappelle Tierce ?",
+   "promptLanguage": "fr",
+   "options": [
+    "le concile de Jérusalem",
+    "le procès devant Hérode Agrippa",
+    "le procès devant Pilate",
+    "le jugement de Daniel"
+   ],
+   "answer": "le procès devant Pilate",
+   "acceptedAnswers": [
+    "le procès devant Pilate"
+   ],
+   "explanation": "Tierce rappelle le procès du Christ devant Pilate, et la Pentecôte.",
+   "tip": "Tierce = Pilate.",
+   "extraExample": {
+    "text": "Pilate est le gouverneur romain.",
+    "translation": "Il condamne Jésus."
+   }
+  },
+  {
+   "id": "eg.l84.e06",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.v.resurrection_du_christ"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Que rappelle Prime avec l'incarnation ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la crucifixion",
+    "la Résurrection",
+    "l'Ascension",
+    "la descente de la croix"
+   ],
+   "answer": "la Résurrection",
+   "acceptedAnswers": [
+    "la Résurrection"
+   ],
+   "explanation": "Prime, à l'aube, rappelle l'incarnation et la Résurrection.",
+   "tip": "Aube = Résurrection.",
+   "extraExample": {
+    "text": "Les femmes vont au tombeau à l'aube.",
+    "translation": "Mc 16, 2."
+   }
+  },
+  {
+   "id": "eg.l84.e07",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle image du Christ est liée à Prime ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la nuit qui tombe",
+    "le soleil qui se lève",
+    "l'étoile du soir",
+    "la lune pleine"
+   ],
+   "answer": "le soleil qui se lève",
+   "acceptedAnswers": [
+    "le soleil qui se lève"
+   ],
+   "explanation": "Le soleil qui se lève est l'image du Christ ressuscité, lumière du monde.",
+   "tip": "Aube = lumière.",
+   "extraExample": {
+    "text": "Le Christ est la lumière du monde.",
+    "translation": "Jn 8, 12."
+   }
+  },
+  {
+   "id": "eg.l84.e08",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelles heures sont priées avant chaque messe ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Tierce et Sexte",
+    "Prime et Sexte",
+    "Vêpres et Complies",
+    "Prime et None"
+   ],
+   "answer": "Tierce et Sexte",
+   "acceptedAnswers": [
+    "Tierce et Sexte"
+   ],
+   "explanation": "Tierce et Sexte préparent à la messe.",
+   "tip": "Tierce + Sexte = messe.",
+   "extraExample": {
+    "text": "On arrive déjà dans la prière.",
+    "translation": "Le cœur est prêt."
+   }
+  },
+  {
+   "id": "eg.l84.e09",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.v.heure_biblique"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quelle heure du jour correspond à la neuvième heure ?",
+   "promptLanguage": "fr",
+   "options": [
+    "18 h",
+    "12 h",
+    "15 h",
+    "9 h"
+   ],
+   "answer": "15 h",
+   "acceptedAnswers": [
+    "15 h"
+   ],
+   "explanation": "Heure biblique : 6 + 9 = 15 h.",
+   "tip": "Ajoute 6.",
+   "extraExample": {
+    "text": "La sixième heure : 12 h.",
+    "translation": "La troisième heure : 9 h."
+   }
+  },
+  {
+   "id": "eg.l84.e10",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Dans la Bible, le jour commence au lever du ___.",
+   "promptLanguage": "fr",
+   "options": [
+    "soleil",
+    "Temple",
+    "chant",
+    "marché"
+   ],
+   "answer": "soleil",
+   "acceptedAnswers": [
+    "soleil"
+   ],
+   "explanation": "Le jour biblique commence vers 6 h, au lever du soleil.",
+   "tip": "Lever du soleil = 6 h.",
+   "extraExample": {
+    "text": "Troisième heure : 9 h.",
+    "translation": "Le calcul part de 6 h."
+   }
+  },
+  {
+   "id": "eg.l84.e11",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.v.tierce"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le mot Tierce vient du latin pour « ___ ».",
+   "promptLanguage": "fr",
+   "options": [
+    "troisième",
+    "sixième",
+    "neuvième",
+    "première"
+   ],
+   "answer": "troisième",
+   "acceptedAnswers": [
+    "troisième"
+   ],
+   "explanation": "Tierce est la troisième heure du jour.",
+   "tip": "Tierce = trois.",
+   "extraExample": {
+    "text": "Sexte = sixième.",
+    "translation": "None = neuvième."
+   }
+  },
+  {
+   "id": "eg.l84.e12",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.v.sexte"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "instruction": "Complète la phrase.",
+   "prompt": "À la sixième heure, les ___ couvrent la terre (Mt 27, 45).",
+   "promptLanguage": "fr",
+   "options": [
+    "nuages",
+    "eaux",
+    "flammes",
+    "ténèbres"
+   ],
+   "answer": "ténèbres",
+   "acceptedAnswers": [
+    "ténèbres"
+   ],
+   "explanation": "Les ténèbres de la sixième heure annoncent la mort du Christ.",
+   "tip": "Midi = ténèbres.",
+   "extraExample": {
+    "text": "Mt 27, 45.",
+    "translation": "Elles durent trois heures."
+   }
+  },
+  {
+   "id": "eg.l84.e13",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "match",
+   "difficulty": 1,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Prime, Tierce, Sexte : associe chaque heure à son moment.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Prime",
+     "right": "6 h"
+    },
+    {
+     "left": "Tierce",
+     "right": "9 h"
+    },
+    {
+     "left": "Sexte",
+     "right": "midi"
+    }
+   ],
+   "answer": "Prime = 6 h ; Tierce = 9 h ; Sexte = midi",
+   "acceptedAnswers": [],
+   "explanation": "Prime 6 h, Tierce 9 h, Sexte midi.",
+   "tip": "Relis la carte correspondante.",
+   "extraExample": {
+    "text": "Prime",
+    "translation": "6 h"
+   }
+  },
+  {
+   "id": "eg.l84.e14",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Le matin : associe chaque heure à ce qu'elle rappelle.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Prime",
+     "right": "l'incarnation et la Résurrection"
+    },
+    {
+     "left": "Tierce",
+     "right": "le procès devant Pilate"
+    },
+    {
+     "left": "Sexte",
+     "right": "la crucifixion"
+    }
+   ],
+   "answer": "Prime = l'incarnation et la Résurrection ; Tierce = le procès devant Pilate ; Sexte = la crucifixion",
+   "acceptedAnswers": [],
+   "explanation": "Du matin à la croix : trois scènes pour trois heures.",
+   "tip": "Relis la carte correspondante.",
+   "extraExample": {
+    "text": "Prime",
+    "translation": "l'incarnation et la Résurrection"
+   }
+  },
+  {
+   "id": "eg.l84.e15",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "match",
+   "difficulty": 3,
+   "instruction": "Associe chaque élément de gauche à celui de droite.",
+   "prompt": "Associe chaque nom latin à son sens.",
+   "promptLanguage": "fr",
+   "pairs": [
+    {
+     "left": "Prime",
+     "right": "première"
+    },
+    {
+     "left": "Tierce",
+     "right": "troisième"
+    },
+    {
+     "left": "Sexte",
+     "right": "sixième"
+    }
+   ],
+   "answer": "Prime = première ; Tierce = troisième ; Sexte = sixième",
+   "acceptedAnswers": [],
+   "explanation": "Les noms des heures sont des nombres latins.",
+   "tip": "Relis la carte correspondante.",
+   "extraExample": {
+    "text": "Prime",
+    "translation": "première"
+   }
+  },
+  {
+   "id": "eg.l84.e16",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "reorder",
+   "difficulty": 3,
+   "instruction": "Remets les mots dans l'ordre pour former la phrase-repère.",
+   "prompt": "Phrase-repère : les heures de la messe.",
+   "promptLanguage": "fr",
+   "tokens": [
+    "messe",
+    "priées",
+    "Sexte",
+    "chaque",
+    "Tierce",
+    "avant",
+    "et",
+    "sont"
+   ],
+   "answer": "Tierce et Sexte sont priées avant chaque messe",
+   "acceptedAnswers": [
+    "Tierce et Sexte sont priées avant chaque messe"
+   ],
+   "explanation": "Les deux heures qui préparent à la messe.",
+   "tip": "Tierce, Sexte, messe.",
+   "extraExample": {
+    "text": "On arrive déjà en prière.",
+    "translation": "Le cœur est prêt."
+   }
+  },
+  {
+   "id": "eg.l84.e17",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle heure rappelle la crucifixion ?",
+   "promptLanguage": "fr",
+   "answer": "Sexte",
+   "acceptedAnswers": [
+    "Sexte",
+    "la Sexte"
+   ],
+   "explanation": "À midi, le Christ est sur la croix : c'est Sexte.",
+   "tip": "Sexte = croix.",
+   "extraExample": {
+    "text": "Sexte se prie à midi.",
+    "translation": "Sixième heure."
+   }
+  },
+  {
+   "id": "eg.l84.e18",
+   "unitIds": [
+    "eg.g84.prime_tierce_sexte",
+    "eg.v.prime_heure"
+   ],
+   "type": "free_answer",
+   "difficulty": 2,
+   "instruction": "Écris ta réponse.",
+   "prompt": "Quelle heure se prie au lever du jour, vers 6 h ?",
+   "promptLanguage": "fr",
+   "answer": "Prime",
+   "acceptedAnswers": [
+    "Prime",
+    "la Prime"
+   ],
+   "explanation": "Prime est la première heure, celle de l'aube.",
+   "tip": "Prime = première.",
+   "extraExample": {
+    "text": "Prime vient du latin.",
+    "translation": "Première."
+   }
+  },
+  {
+   "id": "eg.l84.e19",
+   "unitIds": [
+    "eg.g83.prier_aux_heures"
+   ],
+   "type": "fill_blank",
+   "difficulty": 1,
+   "instruction": "Complète la phrase.",
+   "prompt": "Le psaume 119, 164 dit : « ___ fois le jour je te loue ».",
+   "promptLanguage": "fr",
+   "options": [
+    "Cinq",
+    "Douze",
+    "Trois",
+    "Sept"
+   ],
+   "answer": "Sept",
+   "acceptedAnswers": [
+    "Sept"
+   ],
+   "explanation": "Sept fois le jour : le verset qui fonde les sept heures.",
+   "tip": "Sept heures.",
+   "extraExample": {
+    "text": "Il ouvre l'Agpeya.",
+    "translation": "Psaume 119."
+   }
+  },
+  {
+   "id": "eg.l84.e20",
+   "unitIds": [
+    "eg.g83.prier_aux_heures"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "À quelle heure Pierre et Jean montent-ils au Temple (Ac 3, 1) ?",
+   "promptLanguage": "fr",
+   "options": [
+    "la première heure",
+    "la neuvième heure",
+    "la troisième heure",
+    "la sixième heure"
+   ],
+   "answer": "la neuvième heure",
+   "acceptedAnswers": [
+    "la neuvième heure"
+   ],
+   "explanation": "Ac 3, 1 : la neuvième heure, c'est 15 h.",
+   "tip": "Neuvième = 15 h.",
+   "extraExample": {
+    "text": "Les apôtres gardent les heures de prière.",
+    "translation": "Trois heures clés."
+   }
+  },
+  {
+   "id": "eg.l84.e21",
+   "unitIds": [
+    "eg.v.ponce_pilate"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "instruction": "Choisis la bonne réponse.",
+   "prompt": "Quel gouverneur romain condamne Jésus ?",
+   "promptLanguage": "fr",
+   "options": [
+    "Néron",
+    "Ponce Pilate",
+    "Hérode Agrippa",
+    "Domitien"
+   ],
+   "answer": "Ponce Pilate",
+   "acceptedAnswers": [
+    "Ponce Pilate"
+   ],
+   "explanation": "Ponce Pilate représente l'empereur en Judée et livre Jésus à la crucifixion.",
+   "tip": "Pilate = Tierce.",
+   "extraExample": {
+    "text": "Il est nommé dans le Credo.",
+    "translation": "« Crucifié sous Ponce Pilate »."
+   }
+  }
+ ]
+}

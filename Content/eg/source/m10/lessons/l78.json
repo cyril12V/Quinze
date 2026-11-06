@@ -1,0 +1,632 @@
+{
+  "lessonId": "eg.l78",
+  "exercises": [
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.haikal"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Quel mot désigne le sanctuaire de l'église copte ?",
+      "options": [
+        "le haikal",
+        "le narthex",
+        "la nef",
+        "le parvis"
+      ],
+      "answer": "le haikal",
+      "acceptedAnswers": [
+        "le haikal"
+      ],
+      "explanation": "Le haikal est la partie la plus sainte, tout à l'est, derrière l'iconostase.",
+      "tip": "Haikal = sanctuaire.",
+      "extraExample": {
+        "text": "Le haikal correspond au saint des saints.",
+        "translation": "Il est derrière l'iconostase."
+      },
+      "errorPatterns": [
+        {
+          "equals": "le narthex",
+          "category": "word_confusion",
+          "feedback": "Le narthex est l'entrée, à l'ouest."
+        }
+      ],
+      "id": "eg.l78.e01",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.autel"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Quelle est la forme de l'autel copte ?",
+      "options": [
+        "un cube",
+        "une sphère",
+        "un triangle",
+        "un cylindre"
+      ],
+      "answer": "un cube",
+      "acceptedAnswers": [
+        "un cube"
+      ],
+      "explanation": "L'autel est un cube de pierre ou de bois, détaché du mur.",
+      "tip": "Cube = tombeau.",
+      "extraExample": {
+        "text": "On peut tourner autour de l'autel.",
+        "translation": "Il est au centre du haikal."
+      },
+      "id": "eg.l78.e02",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.autel"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Que représente l'autel ?",
+      "options": [
+        "le tombeau du Christ",
+        "le Sinaï",
+        "l'arche de Noé",
+        "le parvis"
+      ],
+      "answer": "le tombeau du Christ",
+      "acceptedAnswers": [
+        "le tombeau du Christ"
+      ],
+      "explanation": "L'autel rappelle le tombeau d'où vient la vie, et la table où le Christ se donne.",
+      "tip": "Autel = tombeau.",
+      "extraExample": {
+        "text": "Le Christ est ressuscité du tombeau.",
+        "translation": "L'autel porte la vie."
+      },
+      "errorPatterns": [
+        {
+          "equals": "l'arche de Noé",
+          "category": "word_confusion",
+          "feedback": "L'arche de Noé est la forme de l'église, pas de l'autel."
+        }
+      ],
+      "id": "eg.l78.e03",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.myron"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Avec quelle huile l'évêque consacre-t-il l'autel ?",
+      "options": [
+        "le myron",
+        "l'huile de la lampe",
+        "l'huile d'olive ordinaire",
+        "l'eau bénite"
+      ],
+      "answer": "le myron",
+      "acceptedAnswers": [
+        "le myron"
+      ],
+      "explanation": "L'évêque oint l'autel avec le myron, huile sainte que fait le pape d'Alexandrie.",
+      "tip": "Myron = huile sainte.",
+      "extraExample": {
+        "text": "Le myron sert aussi à d'autres sacrements.",
+        "translation": "Seul le pape le fait."
+      },
+      "errorPatterns": [
+        {
+          "equals": "l'eau bénite",
+          "category": "word_confusion",
+          "feedback": "L'eau bénite n'est pas du tout une huile."
+        }
+      ],
+      "id": "eg.l78.e04",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Combien de liturgies célèbre-t-on sur un même autel le même jour ?",
+      "options": [
+        "une seule liturgie",
+        "deux liturgies",
+        "trois liturgies",
+        "autant qu'on veut"
+      ],
+      "answer": "une seule liturgie",
+      "acceptedAnswers": [
+        "une seule liturgie"
+      ],
+      "explanation": "Un autel ne sert qu'à une liturgie par jour.",
+      "tip": "Un autel, une liturgie par jour.",
+      "extraExample": {
+        "text": "Trois autels, trois liturgies possibles.",
+        "translation": "Le dimanche, par exemple."
+      },
+      "id": "eg.l78.e05",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "Pourquoi certaines églises ont-elles trois autels ?",
+      "options": [
+        "pour célébrer plusieurs liturgies le même jour",
+        "pour séparer les hommes et les femmes",
+        "parce que chaque évangéliste en a un",
+        "pour garder trois reliques"
+      ],
+      "answer": "pour célébrer plusieurs liturgies le même jour",
+      "acceptedAnswers": [
+        "pour célébrer plusieurs liturgies le même jour"
+      ],
+      "explanation": "Chaque autel ne sert qu'une fois par jour : trois autels permettent plusieurs liturgies.",
+      "tip": "Plus d'autels, plus de liturgies.",
+      "extraExample": {
+        "text": "Les grandes églises en ont souvent plusieurs.",
+        "translation": "Les petites n'en ont qu'un."
+      },
+      "id": "eg.l78.e06",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.entrer_dechausse"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Pourquoi entre-t-on déchaussé dans le haikal ?",
+      "options": [
+        "une terre sainte",
+        "pour ne pas salir le sol",
+        "pour marcher sans bruit",
+        "par tradition égyptienne"
+      ],
+      "answer": "une terre sainte",
+      "acceptedAnswers": [
+        "une terre sainte"
+      ],
+      "explanation": "Dieu dit à Moïse d'ôter ses sandales, car le lieu est une terre sainte ; le haikal est un lieu semblable.",
+      "tip": "Terre sainte = pieds nus.",
+      "extraExample": {
+        "text": "Moïse devant le buisson ardent.",
+        "translation": "Humilité."
+      },
+      "errorPatterns": [
+        {
+          "equals": "pour ne pas salir le sol",
+          "category": "word_confusion",
+          "feedback": "La raison est religieuse, pas la propreté."
+        }
+      ],
+      "id": "eg.l78.e07",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.ciborium"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Comment s'appelle la coupole sur quatre piliers au-dessus de l'autel ?",
+      "options": [
+        "le ciborium",
+        "le baptistère",
+        "l'iconostase",
+        "le narthex"
+      ],
+      "answer": "le ciborium",
+      "acceptedAnswers": [
+        "le ciborium"
+      ],
+      "explanation": "Le ciborium couvre l'autel comme le ciel couvre la terre.",
+      "tip": "Ciborium = ciel sur l'autel.",
+      "extraExample": {
+        "text": "Les évangélistes sont peints sur les piliers.",
+        "translation": "La croix est au sommet."
+      },
+      "id": "eg.l78.e08",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.patene"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Quel objet est le petit plateau rond qui porte le pain ?",
+      "options": [
+        "la patène",
+        "le calice",
+        "la cuillère",
+        "l'astérisque"
+      ],
+      "answer": "la patène",
+      "acceptedAnswers": [
+        "la patène"
+      ],
+      "explanation": "La patène porte le pain devenu le corps du Christ.",
+      "tip": "Patène = pain ; calice = vin.",
+      "extraExample": {
+        "text": "Elle rappelle la crèche et le tombeau.",
+        "translation": "Elle est ronde."
+      },
+      "errorPatterns": [
+        {
+          "equals": "le calice",
+          "category": "word_confusion",
+          "feedback": "Le calice est la coupe qui contient le vin."
+        }
+      ],
+      "id": "eg.l78.e09",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.v.saint_des_saints"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "À quel espace du Tabernacle le sanctuaire correspond-il ?",
+      "options": [
+        "le saint des saints",
+        "le parvis",
+        "le lieu saint",
+        "la tente de Moïse"
+      ],
+      "answer": "le saint des saints",
+      "acceptedAnswers": [
+        "le saint des saints"
+      ],
+      "explanation": "Révision de la leçon 77 : le sanctuaire correspond au saint des saints, le plus proche de Dieu.",
+      "tip": "Sanctuaire = saint des saints.",
+      "extraExample": {
+        "text": "La nef correspond au lieu saint.",
+        "translation": "Le narthex correspond au parvis."
+      },
+      "id": "eg.l78.e10",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.v.diacre"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Quel degré du clergé est le « serviteur » qui aide l'évêque ?",
+      "options": [
+        "le diacre",
+        "le prêtre",
+        "l'évêque",
+        "le confesseur"
+      ],
+      "answer": "le diacre",
+      "acceptedAnswers": [
+        "le diacre"
+      ],
+      "explanation": "Révision du module 3 : le diacre est le serviteur ; il sert dans le haikal.",
+      "tip": "Diacre = serviteur.",
+      "extraExample": {
+        "text": "Le diacre sert les pauvres.",
+        "translation": "Il aide l'évêque."
+      },
+      "id": "eg.l78.e11",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.entrer_dechausse"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Dans le haikal, on entre ___.",
+      "options": [
+        "déchaussé",
+        "couvert",
+        "en silence"
+      ],
+      "answer": "déchaussé",
+      "acceptedAnswers": [
+        "déchaussé"
+      ],
+      "explanation": "On ôte ses chaussures, comme Moïse devant le buisson ardent.",
+      "tip": "Déchaussé = terre sainte.",
+      "extraExample": {
+        "text": "Moïse enlève ses sandales.",
+        "translation": "C'est l'ordre de Dieu."
+      },
+      "id": "eg.l78.e12",
+      "promptLanguage": "fr",
+      "instruction": "Complète la phrase."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.myron"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "prompt": "L'évêque consacre l'autel avec le ___.",
+      "options": [
+        "myron",
+        "vin",
+        "pain"
+      ],
+      "answer": "myron",
+      "acceptedAnswers": [
+        "myron"
+      ],
+      "explanation": "Le myron, huile sainte, consacre l'autel.",
+      "tip": "Myron = huile.",
+      "extraExample": {
+        "text": "Le pape fait le myron.",
+        "translation": "Une huile très précieuse."
+      },
+      "id": "eg.l78.e13",
+      "promptLanguage": "fr",
+      "instruction": "Complète la phrase."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.calice"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "prompt": "Le calice contient du vin mêlé d'___.",
+      "options": [
+        "eau",
+        "huile",
+        "encens"
+      ],
+      "answer": "eau",
+      "acceptedAnswers": [
+        "eau"
+      ],
+      "explanation": "Selon l'usage de l'Église, le vin est mêlé d'un peu d'eau.",
+      "tip": "Vin + eau.",
+      "extraExample": {
+        "text": "Le calice est une coupe.",
+        "translation": "Il est sur le coffret."
+      },
+      "id": "eg.l78.e14",
+      "promptLanguage": "fr",
+      "instruction": "Complète la phrase."
+    },
+    {
+      "unitIds": [
+        "eg.v.nef"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "La salle où se tiennent les fidèles s'appelle la ___.",
+      "options": [
+        "nef",
+        "patène",
+        "crypte"
+      ],
+      "answer": "nef",
+      "acceptedAnswers": [
+        "nef"
+      ],
+      "explanation": "Révision de la leçon 77 : la nef est la salle des fidèles ; le haikal est derrière l'iconostase.",
+      "tip": "Nef = navire.",
+      "extraExample": {
+        "text": "La nef correspond au lieu saint.",
+        "translation": "Elle est entre le narthex et le haikal."
+      },
+      "id": "eg.l78.e15",
+      "promptLanguage": "fr",
+      "instruction": "Complète la phrase."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.calice",
+        "eg.v.patene",
+        "eg.v.asterisque",
+        "eg.v.cuillere",
+        "eg.v.coffret_de_l_autel"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "prompt": "Les objets de l'autel et leur rôle",
+      "pairs": [
+        {
+          "left": "le calice",
+          "right": "contient le vin mêlé d'eau"
+        },
+        {
+          "left": "la patène",
+          "right": "porte le pain"
+        },
+        {
+          "left": "l'astérisque",
+          "right": "rappelle l'étoile des mages"
+        },
+        {
+          "left": "la cuillère",
+          "right": "donne la communion"
+        },
+        {
+          "left": "le coffret",
+          "right": "le support du calice"
+        }
+      ],
+      "answer": "le calice = contient le vin mêlé d'eau ; la patène = porte le pain ; l'astérisque = rappelle l'étoile des mages ; la cuillère = donne la communion ; le coffret = le support du calice",
+      "acceptedAnswers": [],
+      "explanation": "Chaque objet a son rôle dans la liturgie.",
+      "tip": "Calice et patène d'abord, puis l'étoile, la cuillère et le coffret.",
+      "id": "eg.l78.e16",
+      "promptLanguage": "fr",
+      "instruction": "Associe chaque élément de gauche à celui de droite."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.haikal",
+        "eg.v.ciborium",
+        "eg.v.myron"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "Mots du sanctuaire",
+      "pairs": [
+        {
+          "left": "le haikal",
+          "right": "le sanctuaire"
+        },
+        {
+          "left": "le myron",
+          "right": "l'huile sainte"
+        },
+        {
+          "left": "le ciborium",
+          "right": "la coupole sur quatre piliers"
+        },
+        {
+          "left": "l'autel",
+          "right": "un cube qui représente le tombeau"
+        }
+      ],
+      "answer": "le haikal = le sanctuaire ; le myron = l'huile sainte ; le ciborium = la coupole sur quatre piliers ; l'autel = un cube qui représente le tombeau",
+      "acceptedAnswers": [],
+      "explanation": "Quatre mots essentiels du sanctuaire.",
+      "tip": "Haikal, myron, ciborium, autel.",
+      "id": "eg.l78.e17",
+      "promptLanguage": "fr",
+      "instruction": "Associe chaque élément de gauche à celui de droite."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.myron"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "prompt": "Phrase-repère : la consécration de l'autel.",
+      "tokens": [
+        "myron",
+        "le",
+        "avec",
+        "l'autel",
+        "consacre",
+        "L'évêque"
+      ],
+      "answer": "L'évêque consacre l'autel avec le myron",
+      "acceptedAnswers": [
+        "L'évêque consacre l'autel avec le myron"
+      ],
+      "explanation": "Le repère à retenir : le myron consacre l'autel.",
+      "tip": "L'évêque, l'autel, le myron.",
+      "extraExample": {
+        "text": "L'autel est mis à part pour Dieu.",
+        "translation": "C'est la consécration."
+      },
+      "id": "eg.l78.e18",
+      "promptLanguage": "fr",
+      "instruction": "Remets les mots dans l'ordre pour former la phrase-repère."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.cuillere"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "prompt": "Quel objet sert à donner aux fidèles le sang du Christ à la communion ?",
+      "answer": "la cuillère",
+      "acceptedAnswers": [
+        "la cuillère",
+        "cuillère",
+        "cuiller",
+        "la cuiller"
+      ],
+      "explanation": "La cuillère de communion donne aux fidèles le sang du Christ.",
+      "tip": "Cuillère = communion.",
+      "extraExample": {
+        "text": "Le prêtre la tient.",
+        "translation": "Elle est petite."
+      },
+      "id": "eg.l78.e19",
+      "promptLanguage": "fr",
+      "instruction": "Écris ta réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.v.asterisque"
+      ],
+      "type": "free_answer",
+      "difficulty": 3,
+      "prompt": "Comment s'appelle l'objet formé de deux bandes croisées, posé sur la patène, qui rappelle l'étoile des mages ?",
+      "answer": "l'astérisque",
+      "acceptedAnswers": [
+        "l'astérisque",
+        "astérisque",
+        "asterisque",
+        "étoile",
+        "l'étoile"
+      ],
+      "explanation": "L'astérisque, ou étoile, soutient le voile au-dessus du pain.",
+      "tip": "Astérisque = étoile.",
+      "extraExample": {
+        "text": "Il est sur la patène.",
+        "translation": "Il soutient le voile."
+      },
+      "id": "eg.l78.e20",
+      "promptLanguage": "fr",
+      "instruction": "Écris ta réponse."
+    },
+    {
+      "unitIds": [
+        "eg.v.tabernacle_de_moise"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "prompt": "Qui a reçu de Dieu le modèle du Tabernacle, au Sinaï ?",
+      "answer": "Moïse",
+      "acceptedAnswers": [
+        "Moïse",
+        "Moise"
+      ],
+      "explanation": "Révision de la leçon 77 : Dieu montre à Moïse le modèle du Tabernacle ; Moïse est aussi celui qui se déchausse devant le buisson ardent.",
+      "tip": "Moïse, Tabernacle, sandales.",
+      "extraExample": {
+        "text": "Moïse ôte ses sandales.",
+        "translation": "Dieu lui parle."
+      },
+      "id": "eg.l78.e21",
+      "promptLanguage": "fr",
+      "instruction": "Écris ta réponse."
+    }
+  ]
+}

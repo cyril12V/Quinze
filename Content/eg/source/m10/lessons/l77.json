@@ -1,0 +1,581 @@
+{
+  "lessonId": "eg.l77",
+  "exercises": [
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.orientation_vers_l_est"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Vers quelle direction une église copte est-elle orientée ?",
+      "options": [
+        "l'ouest",
+        "l'est",
+        "le nord",
+        "le sud"
+      ],
+      "answer": "l'est",
+      "acceptedAnswers": [
+        "l'est"
+      ],
+      "explanation": "Le sanctuaire est à l'est, et on prie tourné vers lui (carte « Pourquoi l'église regarde l'est »).",
+      "tip": "Soleil levant, c'est l'est.",
+      "extraExample": {
+        "text": "On prie tourné vers l'est.",
+        "translation": "Vers le soleil levant."
+      },
+      "errorPatterns": [
+        {
+          "equals": "l'ouest",
+          "category": "word_confusion",
+          "feedback": "L'ouest est le côté de l'entrée, pas du sanctuaire."
+        }
+      ],
+      "id": "eg.l77.e01",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.orientation_vers_l_est"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Comment le prophète Malachie appelle-t-il le Christ, ce qui explique l'orientation vers l'est ?",
+      "options": [
+        "le soleil de justice",
+        "la lumière du Sinaï",
+        "l'étoile de Noé",
+        "le jardin d'Éden"
+      ],
+      "answer": "le soleil de justice",
+      "acceptedAnswers": [
+        "le soleil de justice"
+      ],
+      "explanation": "Le soleil se lève à l'est : l'église regarde vers le Christ, soleil de justice.",
+      "tip": "Soleil = est = Christ.",
+      "extraExample": {
+        "text": "Le Christ est la lumière du monde.",
+        "translation": "Il se lève à l'est."
+      },
+      "id": "eg.l77.e02",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.arche_de_noe"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Quelle est la forme la plus courante d'une église copte ?",
+      "options": [
+        "l'arche de Noé",
+        "le cercle",
+        "le triangle",
+        "la tente de Moïse"
+      ],
+      "answer": "l'arche de Noé",
+      "acceptedAnswers": [
+        "l'arche de Noé"
+      ],
+      "explanation": "Un bâtiment allongé comme un navire : ceux qui sont dedans sont sauvés comme Noé.",
+      "tip": "Église = navire.",
+      "extraExample": {
+        "text": "La nef est le pont du bateau.",
+        "translation": "L'arche sauve du déluge."
+      },
+      "errorPatterns": [
+        {
+          "equals": "le cercle",
+          "category": "word_confusion",
+          "feedback": "Le cercle existe, mais il est plus rare ; il parle de l'éternité."
+        }
+      ],
+      "id": "eg.l77.e03",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.nef"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "De quel mot latin vient « nef » ?",
+      "options": [
+        "navis, le navire",
+        "nefas, le malheur",
+        "nebula, le nuage",
+        "nova, la nouveauté"
+      ],
+      "answer": "navis, le navire",
+      "acceptedAnswers": [
+        "navis, le navire"
+      ],
+      "explanation": "La nef est la grande salle des fidèles, comme le pont d'un navire : l'église est une arche.",
+      "tip": "Nef = navire.",
+      "extraExample": {
+        "text": "Le mot « navigation » vient aussi de navis.",
+        "translation": "Même famille de mots."
+      },
+      "id": "eg.l77.e04",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Combien de parties compte une église copte, de l'entrée au sanctuaire ?",
+      "options": [
+        "deux",
+        "trois",
+        "quatre",
+        "sept"
+      ],
+      "answer": "trois",
+      "acceptedAnswers": [
+        "trois"
+      ],
+      "explanation": "Narthex, nef et sanctuaire : trois parties, comme les trois espaces du Tabernacle.",
+      "tip": "Trois parties, trois espaces.",
+      "extraExample": {
+        "text": "Parvis, lieu saint, saint des saints.",
+        "translation": "Même nombre."
+      },
+      "id": "eg.l77.e05",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.narthex"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Qui se tenait autrefois au narthex pendant la liturgie ?",
+      "options": [
+        "les catéchumènes",
+        "le grand prêtre",
+        "les évêques",
+        "les diacres"
+      ],
+      "answer": "les catéchumènes",
+      "acceptedAnswers": [
+        "les catéchumènes"
+      ],
+      "explanation": "Les catéchumènes se préparent au baptême ; ils n'entraient pas encore dans la nef.",
+      "tip": "Narthex = entrée = futurs baptisés.",
+      "extraExample": {
+        "text": "Un catéchumène apprend la foi avant son baptême.",
+        "translation": "Il est encore à l'entrée."
+      },
+      "id": "eg.l77.e06",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.tabernacle_de_moise",
+        "eg.v.lieu_saint"
+      ],
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "À quelle partie du Tabernacle correspond la nef ?",
+      "options": [
+        "le lieu saint",
+        "le parvis",
+        "le saint des saints",
+        "le mont Sinaï"
+      ],
+      "answer": "le lieu saint",
+      "acceptedAnswers": [
+        "le lieu saint"
+      ],
+      "explanation": "La nef est au milieu, comme le lieu saint entre le parvis et le saint des saints.",
+      "tip": "Milieu = milieu.",
+      "extraExample": {
+        "text": "Le narthex est au parvis.",
+        "translation": "Le sanctuaire est au saint des saints."
+      },
+      "errorPatterns": [
+        {
+          "equals": "le parvis",
+          "category": "word_confusion",
+          "feedback": "Le parvis correspond au narthex, l'entrée."
+        }
+      ],
+      "id": "eg.l77.e07",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.saint_des_saints"
+      ],
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "Qui pouvait entrer dans le saint des saints du Tabernacle, une fois par an ?",
+      "options": [
+        "le grand prêtre",
+        "tout le peuple",
+        "les catéchumènes",
+        "les lévites seulement"
+      ],
+      "answer": "le grand prêtre",
+      "acceptedAnswers": [
+        "le grand prêtre"
+      ],
+      "explanation": "Le lieu le plus sacré était réservé au grand prêtre, comme le sanctuaire l'est au clergé.",
+      "tip": "Un lieu, une personne, un jour.",
+      "extraExample": {
+        "text": "Le sanctuaire est réservé au clergé.",
+        "translation": "Les fidèles prient dans la nef."
+      },
+      "id": "eg.l77.e08",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.v.saint_marc"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Qui a fondé l'Église d'Alexandrie ?",
+      "options": [
+        "saint Marc",
+        "saint Pierre",
+        "saint Paul",
+        "saint Athanase"
+      ],
+      "answer": "saint Marc",
+      "acceptedAnswers": [
+        "saint Marc"
+      ],
+      "explanation": "Révision du module 1 : saint Marc, évangéliste, fonde l'Église d'Alexandrie.",
+      "tip": "Marc = Alexandrie.",
+      "extraExample": {
+        "text": "Marc est mort martyr vers 68.",
+        "translation": "Ses reliques sont au Caire."
+      },
+      "id": "eg.l77.e09",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.v.copte"
+      ],
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Que veut dire « copte » ?",
+      "options": [
+        "égyptien",
+        "orthodoxe",
+        "grec",
+        "ancien"
+      ],
+      "answer": "égyptien",
+      "acceptedAnswers": [
+        "égyptien"
+      ],
+      "explanation": "Révision du module 1 : « copte » est le nom de l'Église d'Égypte, du grec Aigyptios.",
+      "tip": "Copte = égyptien.",
+      "extraExample": {
+        "text": "La langue copte vient de l'égyptien ancien.",
+        "translation": "Le nom est le même."
+      },
+      "id": "eg.l77.e10",
+      "promptLanguage": "fr",
+      "instruction": "Choisis la bonne réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.orientation_vers_l_est"
+      ],
+      "type": "fill_blank",
+      "difficulty": 1,
+      "prompt": "Une église copte est tournée vers l'___.",
+      "options": [
+        "est",
+        "ouest",
+        "nord"
+      ],
+      "answer": "est",
+      "acceptedAnswers": [
+        "est"
+      ],
+      "explanation": "Le sanctuaire est à l'est, vers le soleil levant, symbole du Christ.",
+      "tip": "L'est, comme le soleil levant.",
+      "extraExample": {
+        "text": "Le sanctuaire est à l'est.",
+        "translation": "L'entrée est à l'ouest."
+      },
+      "errorPatterns": [
+        {
+          "equals": "ouest",
+          "category": "word_confusion",
+          "feedback": "L'entrée est à l'ouest ; le sanctuaire est du côté opposé, à l'est."
+        }
+      ],
+      "id": "eg.l77.e11",
+      "promptLanguage": "fr",
+      "instruction": "Complète la phrase."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.parvis"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "prompt": "Le narthex correspond au ___ du Tabernacle.",
+      "options": [
+        "parvis",
+        "lieu saint",
+        "saint des saints"
+      ],
+      "answer": "parvis",
+      "acceptedAnswers": [
+        "parvis"
+      ],
+      "explanation": "Le parvis est la cour d'entrée, comme le narthex.",
+      "tip": "Entrée = parvis.",
+      "extraExample": {
+        "text": "Le parvis est en plein air.",
+        "translation": "Le narthex est couvert."
+      },
+      "errorPatterns": [
+        {
+          "equals": "lieu saint",
+          "category": "word_confusion",
+          "feedback": "Le lieu saint correspond à la nef."
+        }
+      ],
+      "id": "eg.l77.e12",
+      "promptLanguage": "fr",
+      "instruction": "Complète la phrase."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "prompt": "Une coupole représente le Christ ; trois coupoles représentent la ___.",
+      "options": [
+        "Trinité",
+        "Pentecôte",
+        "Création"
+      ],
+      "answer": "Trinité",
+      "acceptedAnswers": [
+        "Trinité"
+      ],
+      "explanation": "Trois coupoles rappellent les trois personnes de la Trinité (selon l'usage de l'église).",
+      "tip": "Trois coupoles = Trinité.",
+      "extraExample": {
+        "text": "Cinq coupoles : le Christ et quatre évangélistes.",
+        "translation": "Autre nombre, autre symbole."
+      },
+      "id": "eg.l77.e13",
+      "promptLanguage": "fr",
+      "instruction": "Complète la phrase."
+    },
+    {
+      "unitIds": [
+        "eg.v.hierarchie_a_trois_degres"
+      ],
+      "type": "fill_blank",
+      "difficulty": 2,
+      "prompt": "Les trois degrés du clergé sont l'évêque, le prêtre et le ___.",
+      "options": [
+        "diacre",
+        "moine",
+        "confesseur"
+      ],
+      "answer": "diacre",
+      "acceptedAnswers": [
+        "diacre"
+      ],
+      "explanation": "Révision du module 3 : évêque, prêtre, diacre. Dans ce module, tu vas les retrouver autour de l'autel.",
+      "tip": "Trois degrés : évêque, prêtre, diacre.",
+      "extraExample": {
+        "text": "Le diacre est le serviteur.",
+        "translation": "Il aide l'évêque."
+      },
+      "id": "eg.l77.e14",
+      "promptLanguage": "fr",
+      "instruction": "Complète la phrase."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.tabernacle_de_moise"
+      ],
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "Les trois parties de l'église et le Tabernacle",
+      "pairs": [
+        {
+          "left": "le narthex",
+          "right": "le parvis"
+        },
+        {
+          "left": "la nef",
+          "right": "le lieu saint"
+        },
+        {
+          "left": "le sanctuaire",
+          "right": "le saint des saints"
+        }
+      ],
+      "answer": "le narthex = le parvis ; la nef = le lieu saint ; le sanctuaire = le saint des saints",
+      "acceptedAnswers": [],
+      "explanation": "Chaque partie de l'église a son modèle dans le Tabernacle.",
+      "tip": "De l'entrée au fond : parvis, lieu saint, saint des saints.",
+      "id": "eg.l77.e15",
+      "promptLanguage": "fr",
+      "instruction": "Associe chaque élément de gauche à celui de droite."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise"
+      ],
+      "type": "match",
+      "difficulty": 3,
+      "prompt": "Les coupoles et leur sens",
+      "pairs": [
+        {
+          "left": "une coupole",
+          "right": "le Christ"
+        },
+        {
+          "left": "trois coupoles",
+          "right": "la Trinité"
+        },
+        {
+          "left": "cinq coupoles",
+          "right": "le Christ et les quatre évangélistes"
+        }
+      ],
+      "answer": "une coupole = le Christ ; trois coupoles = la Trinité ; cinq coupoles = le Christ et les quatre évangélistes",
+      "acceptedAnswers": [],
+      "explanation": "Le nombre de coupoles porte un sens.",
+      "tip": "1 = Christ ; 3 = Trinité ; 5 = Christ et quatre évangélistes.",
+      "id": "eg.l77.e16",
+      "promptLanguage": "fr",
+      "instruction": "Associe chaque élément de gauche à celui de droite."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.orientation_vers_l_est"
+      ],
+      "type": "reorder",
+      "difficulty": 2,
+      "prompt": "Phrase-repère : l'orientation de l'église.",
+      "tokens": [
+        "est",
+        "vers",
+        "L'église",
+        "tournée",
+        "l'est"
+      ],
+      "answer": "L'église est tournée vers l'est",
+      "acceptedAnswers": [
+        "L'église est tournée vers l'est"
+      ],
+      "explanation": "Le repère à retenir : on prie vers l'est.",
+      "tip": "L'église regarde l'est.",
+      "extraExample": {
+        "text": "On prie vers l'est.",
+        "translation": "Comme le soleil levant."
+      },
+      "id": "eg.l77.e17",
+      "promptLanguage": "fr",
+      "instruction": "Remets les mots dans l'ordre pour former la phrase-repère."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.arche_de_noe"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "prompt": "Quel personnage de l'Ancien Testament a construit l'arche dont l'église rappelle la forme ?",
+      "answer": "Noé",
+      "acceptedAnswers": [
+        "Noé",
+        "Noe"
+      ],
+      "explanation": "C'est Noé : l'église est une arche qui sauve.",
+      "tip": "Noé, l'arche.",
+      "extraExample": {
+        "text": "L'arche a sauvé Noé et sa famille.",
+        "translation": "L'église sauve ceux qui y entrent."
+      },
+      "id": "eg.l77.e18",
+      "promptLanguage": "fr",
+      "instruction": "Écris ta réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.narthex"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "prompt": "Comment s'appelle l'entrée de l'église, où se tenaient autrefois les catéchumènes ?",
+      "answer": "le narthex",
+      "acceptedAnswers": [
+        "le narthex",
+        "narthex"
+      ],
+      "explanation": "Le narthex est la première partie de l'église.",
+      "tip": "Narthex = entrée.",
+      "extraExample": {
+        "text": "Le narthex correspond au parvis.",
+        "translation": "C'est la partie à l'ouest."
+      },
+      "id": "eg.l77.e19",
+      "promptLanguage": "fr",
+      "instruction": "Écris ta réponse."
+    },
+    {
+      "unitIds": [
+        "eg.g77.batiment_eglise",
+        "eg.v.nef"
+      ],
+      "type": "free_answer",
+      "difficulty": 2,
+      "prompt": "Comment s'appelle la grande salle de l'église où se tiennent les fidèles ?",
+      "answer": "la nef",
+      "acceptedAnswers": [
+        "la nef",
+        "nef"
+      ],
+      "explanation": "La nef est la partie centrale, entre le narthex et le sanctuaire.",
+      "tip": "Nef = navire.",
+      "extraExample": {
+        "text": "La nef correspond au lieu saint.",
+        "translation": "Elle est au milieu."
+      },
+      "id": "eg.l77.e20",
+      "promptLanguage": "fr",
+      "instruction": "Écris ta réponse."
+    }
+  ]
+}

@@ -44,6 +44,46 @@
         "eg.g28.concile_de_nicee"
       ],
       "functionWords": []
+    },
+    {
+      "id": "eg.g49.fiches_381_431",
+      "category": "knowledge",
+      "title": "Constantinople 381 et Éphèse 431 en fiches",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g48.fiche_nicee"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g50.fiches_449_451",
+      "category": "knowledge",
+      "title": "Éphèse II (449) et Chalcédoine (451) en fiches",
+      "difficulty": 4,
+      "prerequisites": [
+        "eg.g49.fiches_381_431"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g51.frise_et_liens",
+      "category": "knowledge",
+      "title": "Frise et liens : tout remettre en ordre",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g50.fiches_449_451"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g52.bilan_formules_dates",
+      "category": "knowledge",
+      "title": "Bilan : formules, dates et pièges",
+      "difficulty": 4,
+      "prerequisites": [
+        "eg.g51.frise_et_liens"
+      ],
+      "functionWords": []
     }
   ],
   "lessons": [
@@ -203,6 +243,157 @@
           "slug": "legat",
           "translation": "envoyé qui parle au nom d'un évêque absent",
           "partOfSpeech": "person"
+        }
+      ]
+    },
+    {
+      "id": "eg.l49",
+      "sequence": 49,
+      "title": "Constantinople 381 et Éphèse 431 en fiches",
+      "description": "Les fiches du deuxième et du troisième concile : l'Esprit Saint et le credo complété, puis Nestorius condamné et Marie Théotokos.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g49.fiches_381_431",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g31.concile_de_constantinople",
+        "eg.g36.ephese_431",
+        "eg.g35.cyrille",
+        "eg.v.pelagianisme",
+        "eg.v.canon_3_de_381",
+        "eg.v.macedonius"
+      ],
+      "vocabulary": [
+        {
+          "word": "la déposition",
+          "slug": "deposition",
+          "translation": "fait de retirer son siège à un évêque",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le concile rival",
+          "slug": "concile_rival",
+          "translation": "assemblée tenue contre le concile officiel",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "l'interdiction de changer le credo",
+          "slug": "interdit_de_changer_le_credo",
+          "translation": "décision d'Éphèse : ne pas composer d'autre credo",
+          "partOfSpeech": "event"
+        }
+      ]
+    },
+    {
+      "id": "eg.l50",
+      "sequence": 50,
+      "title": "Éphèse II (449) et Chalcédoine (451) en fiches",
+      "description": "Les fiches des deux conciles qui divisent : Dioscore à Éphèse II, puis la définition des deux natures, la déposition de Dioscore et le point de vue copte.",
+      "difficulty": 4,
+      "grammarUnitId": "eg.g50.fiches_449_451",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g39.ephese_449",
+        "eg.g40.chalcedoine",
+        "eg.g41.dioscore",
+        "eg.g42.miaphysisme",
+        "eg.v.tome_de_leon",
+        "eg.v.marcien"
+      ],
+      "vocabulary": [
+        {
+          "word": "Éphèse I et Éphèse II",
+          "slug": "ephese_i_et_ii",
+          "translation": "les deux conciles d'Éphèse : 431 et 449",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "les actes du concile",
+          "slug": "actes_du_concile",
+          "translation": "le compte rendu écrit des séances d'un concile",
+          "partOfSpeech": "work"
+        },
+        {
+          "word": "l'annulation d'Éphèse II",
+          "slug": "annulation_d_un_concile",
+          "translation": "décision de Chalcédoine : Éphèse II est cassé",
+          "partOfSpeech": "event"
+        }
+      ]
+    },
+    {
+      "id": "eg.l51",
+      "sequence": 51,
+      "title": "Frise et liens : tout remettre en ordre",
+      "description": "La frise des Ier au Ve siècles, le lien hérésie – concile – défenseur, les erreurs opposées et les autres crises (Novatien, Pâques, Hénotikon).",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g51.frise_et_liens",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g21.erreurs_sur_la_trinite",
+        "eg.g22.novatien_et_mani",
+        "eg.g27.arius",
+        "eg.g43.schisme_et_suites",
+        "eg.v.henotikon",
+        "eg.v.tombes",
+        "eg.v.macedonius"
+      ],
+      "vocabulary": [
+        {
+          "word": "la frise chronologique",
+          "slug": "frise_chronologique",
+          "translation": "ligne du temps qui range les événements dans l'ordre",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le cycle hérésie – concile",
+          "slug": "cycle_heresie_concile",
+          "translation": "enchaînement : erreur, concile, formule, erreur inverse",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la crise de discipline",
+          "slug": "crise_de_discipline",
+          "translation": "désaccord sur la règle de vie de l'Église, non sur la foi",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l52",
+      "sequence": 52,
+      "title": "Bilan : formules, dates et pièges",
+      "description": "Les formules de foi à retenir, les cinq dates à ne jamais oublier et les confusions fréquentes entre conciles et hérésies.",
+      "difficulty": 4,
+      "grammarUnitId": "eg.g52.bilan_formules_dates",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g28.concile_de_nicee",
+        "eg.g31.concile_de_constantinople",
+        "eg.g36.ephese_431",
+        "eg.g42.miaphysisme",
+        "eg.v.formule_de_cyrille",
+        "eg.v.theotokos",
+        "eg.v.homoousios",
+        "eg.v.dioscore"
+      ],
+      "vocabulary": [
+        {
+          "word": "la formule de foi",
+          "slug": "formule_de_foi",
+          "translation": "phrase courte qui fixe la foi face à une erreur",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "les cinq dates",
+          "slug": "les_cinq_dates",
+          "translation": "325, 381, 431, 449, 451",
+          "partOfSpeech": "date"
+        },
+        {
+          "word": "le piège de confusion",
+          "slug": "piege_de_confusion",
+          "translation": "deux noms ou deux dates qu'on mélange facilement",
+          "partOfSpeech": "concept"
         }
       ]
     }

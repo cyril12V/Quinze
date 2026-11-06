@@ -1,0 +1,222 @@
+[
+  {
+    "id": "eg.g77.batiment_eglise",
+    "rule": {
+      "summary": "Une église copte est tournée vers l'est, souvent en forme d'arche de Noé, et se divise en trois parties (narthex, nef, sanctuaire) qui rappellent les trois espaces du Tabernacle de Moïse.",
+      "explanation": "L'église est orientée vers l'est parce que le Christ est le soleil de justice, que l'Éden est à l'orient et que le Christ reviendra de l'orient. Sa forme la plus courante est l'arche de Noé ; d'autres églises ont un plan en croix ou en cercle. On y avance de l'ouest vers l'est en traversant trois espaces, comme le parvis, le lieu saint et le saint des saints du Tabernacle.",
+      "pattern": "Narthex = parvis ; nef = lieu saint ; sanctuaire = saint des saints.",
+      "examples": [
+        {
+          "text": "Le sanctuaire est tout à l'est.",
+          "translation": "On prie tourné vers le Christ, soleil de justice."
+        },
+        {
+          "text": "L'église a la forme d'une arche.",
+          "translation": "Ceux qui sont dedans sont sauvés comme Noé."
+        },
+        {
+          "text": "Le narthex est l'entrée.",
+          "translation": "Il correspond au parvis du Tabernacle."
+        },
+        {
+          "text": "Le sanctuaire est réservé au clergé.",
+          "translation": "Comme le saint des saints l'était au grand prêtre."
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "L'église est tournée vers Jérusalem.",
+          "right": "Elle est tournée vers l'est.",
+          "why": "L'est, c'est la direction du soleil levant, symbole du Christ."
+        },
+        {
+          "wrong": "Toutes les églises ont exactement le même plan.",
+          "right": "Le plan général est le même, mais les détails varient.",
+          "why": "Nombre de coupoles, forme et place du baptistère changent selon les églises."
+        },
+        {
+          "wrong": "La nef correspond au saint des saints.",
+          "right": "La nef correspond au lieu saint.",
+          "why": "Le saint des saints correspond au sanctuaire."
+        }
+      ],
+      "tip": "Trois espaces, trois correspondances : parvis, lieu saint, saint des saints."
+    }
+  },
+  {
+    "id": "eg.g78.sanctuaire_haikal",
+    "rule": {
+      "summary": "Le haikal est le sanctuaire de l'église : on y entre déchaussé, il contient un autel consacré au myron, souvent sous un ciborium, avec les objets de la liturgie : calice, patène, astérisque, cuillère, coffret.",
+      "explanation": "Le haikal est l'équivalent du saint des saints. L'autel, cube qui représente le tombeau du Christ, est consacré par l'évêque avec le myron. Une église a parfois trois autels, car chaque autel ne sert qu'à une liturgie par jour. On entre déchaussé comme Moïse sur une terre sainte. Au-dessus de l'autel, le ciborium rappelle le ciel. Les objets de l'autel portent chacun un sens.",
+      "pattern": "Haikal = sanctuaire ; autel consacré au myron ; une liturgie par jour et par autel ; on entre déchaussé.",
+      "examples": [
+        {
+          "text": "L'évêque consacre l'autel avec le myron.",
+          "translation": "L'autel est alors mis à part pour Dieu."
+        },
+        {
+          "text": "Trois autels permettent trois liturgies le même jour.",
+          "translation": "Un autel ne sert qu'une fois par jour."
+        },
+        {
+          "text": "On entre déchaussé dans le haikal.",
+          "translation": "Comme Moïse, devant une terre sainte."
+        },
+        {
+          "text": "Le calice contient le vin mêlé d'eau.",
+          "translation": "La patène porte le pain."
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Toutes les églises coptes ont trois autels.",
+          "right": "Beaucoup n'en ont qu'un seul.",
+          "why": "Le nombre d'autels dépend du nombre de liturgies à célébrer."
+        },
+        {
+          "wrong": "L'autel est consacré avec de l'eau bénite.",
+          "right": "Il est consacré avec le myron.",
+          "why": "Le myron est l'huile sainte faite par le pape."
+        },
+        {
+          "wrong": "Tout le monde peut entrer dans le haikal.",
+          "right": "Il est réservé au clergé et aux diacres qui servent.",
+          "why": "C'est le saint des saints de l'église."
+        }
+      ],
+      "tip": "Haikal : on se déchausse, on consacre, on célèbre."
+    }
+  },
+  {
+    "id": "eg.g79.iconostase_icones",
+    "rule": {
+      "summary": "L'iconostase (higab) sépare la nef et le haikal ; elle porte les icônes du Christ, de la Vierge, de Jean-Baptiste, la Cène au-dessus de la porte royale, et des objets symboliques : œuf d'autruche, lampes, encens.",
+      "explanation": "L'iconostase est le mur d'icônes entre la nef et le haikal, ouvert par la porte royale. On y voit le Christ, la Vierge, Jean-Baptiste, des saints, les apôtres, la Cène et, en haut, la croix. L'œuf d'autruche, la lampe à huile et l'encens portent chacun un sens : la vigilance de Dieu et la résurrection, la lumière du Christ, les prières qui montent. Aux icônes, on rend la vénération ; l'adoration est due à Dieu seul.",
+      "pattern": "Christ à droite, Marie à gauche, Cène au-dessus de la porte, apôtres de chaque côté, croix en haut.",
+      "examples": [
+        {
+          "text": "La Cène est au-dessus de la porte royale.",
+          "translation": "Elle domine le lieu où l'eucharistie est célébrée."
+        },
+        {
+          "text": "L'œuf d'autruche est suspendu devant l'iconostase.",
+          "translation": "Il rappelle la vigilance de Dieu et la résurrection."
+        },
+        {
+          "text": "La fumée de l'encens monte.",
+          "translation": "Elle représente les prières des fidèles."
+        },
+        {
+          "text": "On vénère l'icône, on adore Dieu seul.",
+          "translation": "La vénération n'est pas l'adoration."
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "On adore les icônes.",
+          "right": "On les vénère ; on adore Dieu seul.",
+          "why": "L'honneur rendu à l'image passe à celui qu'elle représente."
+        },
+        {
+          "wrong": "L'iconostase coupe les fidèles de Dieu.",
+          "right": "Elle sépare la nef et le haikal sans les couper : les rideaux s'ouvrent pendant la liturgie.",
+          "why": "Elle évoque le voile du Temple, ouvert sur le ciel."
+        },
+        {
+          "wrong": "L'œuf d'autruche est un simple décor.",
+          "right": "Il a un sens : Dieu veille sans cesse et la résurrection.",
+          "why": "Dans l'église, presque tout est symbole."
+        }
+      ],
+      "tip": "Christ à droite, Marie à gauche, Cène au centre."
+    }
+  },
+  {
+    "id": "eg.g80.diaconat",
+    "rule": {
+      "summary": "Le diaconat copte compte cinq rangs : psalte, lecteur, sous-diacre, diacre et archidiacre. Ce sont des serviteurs de la liturgie, en tunique blanche, non des prêtres.",
+      "explanation": "Le diaconat est une échelle de services. Le psalte (épsaltos) chante, le lecteur (anagnostès) lit la Bible, le sous-diacre (hypodiacre) garde les portes, le diacre prépare et sert la liturgie, l'archidiacre dirige tous les diacres. Ils servent en tunique blanche, souvent avec une étole. Le diaconat est un ministère de service : le diacre aide le prêtre mais ne consacre pas.",
+      "pattern": "Psalte (chante) → lecteur (lit) → sous-diacre (garde) → diacre (sert) → archidiacre (dirige).",
+      "examples": [
+        {
+          "text": "Le psalte chante les psaumes.",
+          "translation": "C'est le premier rang."
+        },
+        {
+          "text": "Le lecteur lit la Bible.",
+          "translation": "Anagnostès, en grec."
+        },
+        {
+          "text": "Le diacre prépare les vases et le pain.",
+          "translation": "Il tient le calice pendant la liturgie."
+        },
+        {
+          "text": "Dioscore est l'archidiacre de Cyrille.",
+          "translation": "Le chef des diacres auprès de l'évêque."
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Le diacre peut célébrer l'eucharistie.",
+          "right": "Il aide le prêtre mais ne consacre pas.",
+          "why": "Son ministère est le service, pas le sacerdoce."
+        },
+        {
+          "wrong": "Le diaconat n'a qu'un seul rang.",
+          "right": "Il en compte cinq.",
+          "why": "Du psalte à l'archidiacre."
+        },
+        {
+          "wrong": "L'archidiacre est le premier des prêtres.",
+          "right": "Il est le chef des diacres.",
+          "why": "Il est dans le diaconat, pas dans le sacerdoce."
+        }
+      ],
+      "tip": "Chante, lit, garde, sert, dirige."
+    }
+  },
+  {
+    "id": "eg.g81.pretres_eveques_pape",
+    "rule": {
+      "summary": "Le prêtre célèbre les sacrements (marié avant l'ordination ou moine), l'évêque ordonne et est choisi parmi les moines, et le pape d'Alexandrie, patriarche, préside le saint-synode et est désigné par vote puis tirage au sort sur l'autel.",
+      "explanation": "Le prêtre est le deuxième degré ; le qommos est un prêtre promu archiprêtre. L'évêque, toujours moine chez les coptes, dirige un diocèse et ordonne ; le métropolite est promu à la tête d'un grand diocèse. Le patriarche, pape d'Alexandrie, préside le saint-synode. Pour choisir un pape, les électeurs retiennent trois noms, puis un enfant aux yeux bandés en tire un sur l'autel : Dieu choisit. Tawadros II, tiré en 2012, est le 118e pape.",
+      "pattern": "Prêtre (marié avant l'ordination) → évêque (moine) → métropolite → pape-patriarche. Le pape : vote (3 noms) puis tirage au sort sur l'autel.",
+      "examples": [
+        {
+          "text": "Le prêtre se marie avant son ordination.",
+          "translation": "Un prêtre veuf ne se remarie pas."
+        },
+        {
+          "text": "Les évêques sont choisis parmi les moines.",
+          "translation": "Ils sont célibataires."
+        },
+        {
+          "text": "Un enfant tire un nom sur l'autel.",
+          "translation": "C'est la qor'a haykaleya : Dieu choisit."
+        },
+        {
+          "text": "Tawadros II est le 118e pape.",
+          "translation": "Il a été tiré au sort en 2012."
+        }
+      ],
+      "commonErrors": [
+        {
+          "wrong": "Un prêtre copte peut se marier après son ordination.",
+          "right": "Il doit se marier avant.",
+          "why": "Après l'ordination, il ne peut plus se marier."
+        },
+        {
+          "wrong": "Le pape est élu uniquement par vote.",
+          "right": "Le vote retient trois noms, puis le sort désigne le pape.",
+          "why": "Pour laisser Dieu choisir."
+        },
+        {
+          "wrong": "Tous les évêques sont mariés.",
+          "right": "Ils sont choisis parmi les moines.",
+          "why": "Un évêque copte est célibataire."
+        }
+      ],
+      "tip": "Prêtre : marié avant. Évêque : moine. Pape : vote puis sort."
+    }
+  }
+]

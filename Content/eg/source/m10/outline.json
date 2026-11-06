@@ -1,0 +1,382 @@
+{
+  "module": {
+    "id": 10,
+    "title": "L'église et le clergé",
+    "description": "Le bâtiment de l'église copte et ses symboles (sanctuaire, iconostase, icônes), puis le clergé : diacres, prêtres, évêques, pape et moines."
+  },
+  "grammarUnits": [
+    {
+      "id": "eg.g77.batiment_eglise",
+      "category": "knowledge",
+      "title": "Le bâtiment : orienté vers l'est, en trois parties",
+      "difficulty": 1,
+      "prerequisites": [],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g78.sanctuaire_haikal",
+      "category": "knowledge",
+      "title": "Le sanctuaire (haikal) et l'autel",
+      "difficulty": 2,
+      "prerequisites": [
+        "eg.g77.batiment_eglise"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g79.iconostase_icones",
+      "category": "knowledge",
+      "title": "L'iconostase (higab), les icônes et les symboles",
+      "difficulty": 2,
+      "prerequisites": [
+        "eg.g78.sanctuaire_haikal"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g80.diaconat",
+      "category": "knowledge",
+      "title": "Le diaconat : les cinq rangs",
+      "difficulty": 2,
+      "prerequisites": [
+        "eg.g24.structure_de_l_eglise"
+      ],
+      "functionWords": []
+    },
+    {
+      "id": "eg.g81.pretres_eveques_pape",
+      "category": "knowledge",
+      "title": "Le sacerdoce, l'épiscopat et le choix du pape",
+      "difficulty": 3,
+      "prerequisites": [
+        "eg.g80.diaconat"
+      ],
+      "functionWords": []
+    }
+  ],
+  "lessons": [
+    {
+      "id": "eg.l77",
+      "sequence": 77,
+      "title": "L'église, un bâtiment qui raconte",
+      "description": "Pourquoi l'église regarde l'est, pourquoi elle a la forme d'une arche, et comment ses trois parties rappellent le Tabernacle de Moïse.",
+      "difficulty": 1,
+      "grammarUnitId": "eg.g77.batiment_eglise",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g08.marc_alexandrie",
+        "eg.g24.structure_de_l_eglise"
+      ],
+      "vocabulary": [
+        {
+          "word": "l'orientation vers l'est",
+          "slug": "orientation_vers_l_est",
+          "translation": "l'église est tournée vers l'est, vers le Christ, soleil de justice",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'arche de Noé",
+          "slug": "arche_de_noe",
+          "translation": "forme la plus courante d'une église : un navire qui sauve",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le narthex",
+          "slug": "narthex",
+          "translation": "l'entrée de l'église, à l'ouest, autrefois pour les catéchumènes",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la nef",
+          "slug": "nef",
+          "translation": "la grande salle où se tiennent les fidèles",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le Tabernacle de Moïse",
+          "slug": "tabernacle_de_moise",
+          "translation": "la tente de Dieu bâtie au Sinaï sur un modèle montré à Moïse",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le parvis",
+          "slug": "parvis",
+          "translation": "la cour en plein air du Tabernacle ; il correspond au narthex",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le lieu saint",
+          "slug": "lieu_saint",
+          "translation": "le deuxième espace du Tabernacle ; il correspond à la nef",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le saint des saints",
+          "slug": "saint_des_saints",
+          "translation": "le dernier espace du Tabernacle ; il correspond au sanctuaire",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l78",
+      "sequence": 78,
+      "title": "Le sanctuaire : le cœur de l'église",
+      "description": "L'autel, pourquoi parfois trois autels, la consécration au myron, l'entrée déchaussée, le ciborium et les objets de l'autel.",
+      "difficulty": 2,
+      "grammarUnitId": "eg.g78.sanctuaire_haikal",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g77.batiment_eglise",
+        "eg.g24.structure_de_l_eglise"
+      ],
+      "vocabulary": [
+        {
+          "word": "le haikal",
+          "slug": "haikal",
+          "translation": "le sanctuaire, partie la plus sainte de l'église, à l'est",
+          "partOfSpeech": "place"
+        },
+        {
+          "word": "l'autel",
+          "slug": "autel",
+          "translation": "cube de pierre ou de bois, qui représente le tombeau du Christ",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le myron",
+          "slug": "myron",
+          "translation": "huile sainte faite par le pape, qui sert à consacrer l'autel",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le ciborium",
+          "slug": "ciborium",
+          "translation": "coupole sur quatre piliers au-dessus de l'autel",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le calice",
+          "slug": "calice",
+          "translation": "la coupe qui contient le vin mêlé d'eau, sang du Christ",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la patène",
+          "slug": "patene",
+          "translation": "petit plateau rond qui porte le pain devenu le corps du Christ",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'astérisque",
+          "slug": "asterisque",
+          "translation": "l'étoile : deux bandes croisées posées sur la patène, en souvenir de l'étoile des mages",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la cuillère",
+          "slug": "cuillere",
+          "translation": "petite cuillère qui sert à donner le sang du Christ aux fidèles",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le coffret de l'autel",
+          "slug": "coffret_de_l_autel",
+          "translation": "boîte de bois qui sert de support au calice, appelée aussi le trône",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "entrer déchaussé",
+          "slug": "entrer_dechausse",
+          "translation": "ôter ses chaussures pour entrer dans le haikal, comme Moïse",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l79",
+      "sequence": 79,
+      "title": "L'iconostase et les icônes",
+      "description": "Le mur d'icônes qui sépare la nef et le haikal, ses icônes habituelles, l'œuf d'autruche, les lampes, l'encens, et la différence entre vénérer et adorer.",
+      "difficulty": 2,
+      "grammarUnitId": "eg.g79.iconostase_icones",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g78.sanctuaire_haikal",
+        "eg.g58.protestants_sacrements_saints"
+      ],
+      "vocabulary": [
+        {
+          "word": "l'iconostase (higab)",
+          "slug": "iconostase",
+          "translation": "cloison couverte d'icônes qui sépare la nef et le haikal",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la porte royale",
+          "slug": "porte_royale",
+          "translation": "la grande porte centrale de l'iconostase, qui mène à l'autel",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'œuf d'autruche",
+          "slug": "oeuf_d_autruche",
+          "translation": "œuf suspendu devant l'iconostase : Dieu veille sans cesse, et la résurrection",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la lampe à huile",
+          "slug": "lampe_a_huile",
+          "translation": "lampe allumée devant les icônes : la lumière du Christ",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'encens",
+          "slug": "encens",
+          "translation": "résine parfumée dont la fumée représente les prières qui montent",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'encensoir",
+          "slug": "encensoir",
+          "translation": "récipient suspendu à des chaînes, où l'on brûle l'encens sur du charbon",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "la Cène",
+          "slug": "cene",
+          "translation": "le dernier repas du Christ avec ses disciples, quand il institue l'eucharistie",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "saint Jean-Baptiste",
+          "slug": "saint_jean_baptiste",
+          "translation": "le Précurseur, qui a préparé la venue du Christ",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "l'adoration",
+          "slug": "adoration",
+          "translation": "honneur suprême, dû à Dieu seul",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l80",
+      "sequence": 80,
+      "title": "Le diaconat : cinq rangs de serviteurs",
+      "description": "Les cinq rangs du diaconat copte (psalte, lecteur, sous-diacre, diacre, archidiacre), ce que fait chacun, et la tenue de service.",
+      "difficulty": 2,
+      "grammarUnitId": "eg.g80.diaconat",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g41.dioscore",
+        "eg.g24.structure_de_l_eglise",
+        "eg.g79.iconostase_icones"
+      ],
+      "vocabulary": [
+        {
+          "word": "le diaconat",
+          "slug": "diaconat",
+          "translation": "le ministère des diacres, en cinq rangs",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le psalte (épsaltos)",
+          "slug": "psalte",
+          "translation": "le chantre, premier rang du diaconat, qui chante les hymnes",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le lecteur (anagnostès)",
+          "slug": "lecteur",
+          "translation": "deuxième rang du diaconat : il lit les lectures de la Bible",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le sous-diacre (hypodiacre)",
+          "slug": "sous_diacre",
+          "translation": "troisième rang du diaconat : il aide les diacres et garde les portes",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "la tunique blanche",
+          "slug": "tunique_blanche",
+          "translation": "vêtement blanc du diacre en service, symbole de pureté",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "l'étole",
+          "slug": "etole",
+          "translation": "bande de tissu portée sur l'épaule par les diacres ordonnés",
+          "partOfSpeech": "concept"
+        }
+      ]
+    },
+    {
+      "id": "eg.l81",
+      "sequence": 81,
+      "title": "Prêtres, évêques et pape",
+      "description": "Le prêtre (marié avant l'ordination), le qommos, l'évêque pris parmi les moines, le métropolite, le patriarche, le saint-synode et le choix du pape par vote puis tirage au sort sur l'autel.",
+      "difficulty": 3,
+      "grammarUnitId": "eg.g81.pretres_eveques_pape",
+      "introducesGrammar": true,
+      "reviews": [
+        "eg.g24.structure_de_l_eglise",
+        "eg.g78.sanctuaire_haikal",
+        "eg.g56.dogmes_usages_catholiques"
+      ],
+      "vocabulary": [
+        {
+          "word": "abouna",
+          "slug": "abouna",
+          "translation": "« notre père » : nom donné au prêtre en arabe",
+          "partOfSpeech": "expression"
+        },
+        {
+          "word": "le prêtre marié",
+          "slug": "pretre_marie",
+          "translation": "prêtre marié avant son ordination",
+          "partOfSpeech": "concept"
+        },
+        {
+          "word": "le qommos (hégoumène)",
+          "slug": "qommos",
+          "translation": "archiprêtre : prêtre promu à la tête des prêtres d'une église",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le métropolite",
+          "slug": "metropolite",
+          "translation": "évêque d'un grand diocèse, promu au-dessus des autres évêques",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "le saint-synode",
+          "slug": "saint_synode",
+          "translation": "assemblée des évêques de l'Église, présidée par le pape",
+          "partOfSpeech": "organization"
+        },
+        {
+          "word": "la qor'a haykaleya",
+          "slug": "qora_haykaleya",
+          "translation": "tirage au sort sur l'autel, par un enfant, pour désigner le pape",
+          "partOfSpeech": "event"
+        },
+        {
+          "word": "Chenouda III",
+          "slug": "chenouda_iii",
+          "translation": "117e pape d'Alexandrie, mort en 2012",
+          "partOfSpeech": "person"
+        },
+        {
+          "word": "Tawadros II",
+          "slug": "tawadros_ii",
+          "translation": "118e pape d'Alexandrie, choisi par tirage au sort en 2012",
+          "partOfSpeech": "person"
+        }
+      ]
+    }
+  ]
+}

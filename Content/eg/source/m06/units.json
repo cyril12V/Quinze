@@ -1,0 +1,106 @@
+[
+ {
+  "id": "eg.g601.logique_concile",
+  "rule": {
+   "summary": "Une erreur menace la foi, des évêques se réunissent en concile, fixent une formule, et parfois leur réponse provoque l'erreur inverse.",
+   "explanation": "Un concile répond toujours à une erreur. Il produit une formule de foi, des anathèmes et des canons. Un synode est local ; un concile œcuménique réunit toute l'Église. Pour les coptes, trois conciles sont reçus : Nicée, Constantinople, Éphèse.",
+   "pattern": "erreur → concile → formule de foi → réception (et parfois erreur inverse)",
+   "examples": [
+    {
+     "text": "Arius dit que le Fils est créé ; Nicée répond homoousios.",
+     "translation": "Une erreur, un concile, une formule."
+    },
+    {
+     "text": "Nestorius sépare, Eutychès mélange.",
+     "translation": "La réponse trop forte tombe dans l'erreur inverse."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Les canons disent qui est le Christ.",
+     "right": "Les canons règlent la vie de l'Église.",
+     "why": "C'est la formule de foi qui dit qui est Dieu et le Christ."
+    }
+   ],
+   "tip": "Erreur, concile, formule, réception : le refrain des six chapitres."
+  }
+ },
+ {
+  "id": "eg.g602.erreurs_avant_nicee",
+  "rule": {
+   "summary": "Avant Nicée, quatre erreurs : la gnose, Marcion, Mani et Montan. Les trois premières font du monde l'œuvre d'un autre dieu ; la quatrième ajoute une nouvelle prophétie.",
+   "explanation": "Gnose : un savoir secret sauve. Marcion : deux dieux, un seul Testament. Mani : un Dieu bon pour l'esprit, un démiurge mauvais pour la matière. Montan : une nouvelle prophétie. L'Église répond : un seul Dieu bon, la foi publique des apôtres, la Révélation complète.",
+   "pattern": "gnose = savoir secret · Marcion = deux dieux · Mani = esprit bon, matière mauvaise · Montan = nouvelle prophétie",
+   "examples": [
+    {
+     "text": "Le démiurge a fait le monde, disent les gnostiques.",
+     "translation": "Un dieu inférieur : voilà l'erreur."
+    },
+    {
+     "text": "Marcion garde Luc et dix lettres de Paul.",
+     "translation": "Il coupe la Bible."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Marcion croit en trois dieux.",
+     "right": "Marcion croit en deux dieux.",
+     "why": "Un Dieu de justice et un Dieu d'amour."
+    }
+   ],
+   "tip": "Gnose, Marcion, Mani : un second dieu. Montan : une prophétie en plus."
+  }
+ },
+ {
+  "id": "eg.g603.erreurs_trinite",
+  "rule": {
+   "summary": "Quatre erreurs cassent l'équilibre de la Trinité : Paul de Samosate réduit le Christ à un homme, Sabellius mélange les trois, Arius crée le Fils, Macédonius crée l'Esprit.",
+   "explanation": "L'Église confesse trois personnes et une seule divinité. Paul de Samosate (condamné en 269) fait du Christ un homme ordinaire. Sabellius fait des trois des masques. Arius (Nicée 325) fait du Fils une créature. Macédonius (Constantinople 381) fait de l'Esprit une créature.",
+   "pattern": "Paul = simple homme · Sabellius = trois masques · Arius = Fils créé · Macédonius = Esprit créé",
+   "examples": [
+    {
+     "text": "Il fut un temps où le Fils n'était pas.",
+     "translation": "La phrase d'Arius."
+    },
+    {
+     "text": "Le Saint-Esprit est créé.",
+     "translation": "La phrase de Macédonius."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Sabellius sépare les trois personnes.",
+     "right": "Sabellius les mélange.",
+     "why": "Un seul Dieu à trois masques."
+    }
+   ],
+   "tip": "Paul : homme. Sabellius : masques. Arius : Fils créé. Macédonius : Esprit créé."
+  }
+ },
+ {
+  "id": "eg.g604.erreurs_christ",
+  "rule": {
+   "summary": "Quatre erreurs sur le Christ oublient chacune une pièce du puzzle : le corps (docétisme), l'âme (Apollinaire), l'unité (Nestorius), l'humanité (Eutychès). Cyrille tient le milieu.",
+   "explanation": "Le docétisme nie le vrai corps. Apollinaire nie l'âme humaine. Nestorius, selon ses adversaires, sépare en deux personnes. Eutychès fait absorber l'humanité. Cyrille confesse un seul Christ, vraiment Dieu et vraiment homme, sans mélange ni division, comme le fer rougi au feu.",
+   "pattern": "vrai corps · âme humaine · une personne · humanité gardée",
+   "examples": [
+    {
+     "text": "Le fer rougi reste du fer.",
+     "translation": "L'humanité du Christ n'est pas absorbée."
+    },
+    {
+     "text": "Un seul « je ».",
+     "translation": "Contre Nestorius."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Les coptes sont monophysites.",
+     "right": "Les coptes sont miaphysites.",
+     "why": "Ils condamnent Eutychès."
+    }
+   ],
+   "tip": "Corps, âme, une personne, humanité gardée : les quatre garde-fous."
+  }
+ }
+]

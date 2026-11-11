@@ -1,0 +1,116 @@
+{
+ "module": {
+  "id": 6,
+  "format": 3,
+  "title": "Conciles et hérésies : la synthèse",
+  "description": "Ranger, comparer, relier : la logique des conciles, les erreurs sur Dieu et sur le Christ, une fiche par concile, la frise, les paires à ne pas confondre et les trois formules à savoir dire."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g601.logique_concile",
+   "category": "knowledge",
+   "title": "La logique d'un concile",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g517.bilan"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g602.erreurs_avant_nicee",
+   "category": "knowledge",
+   "title": "Avant Nicée : quatre erreurs",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g601.logique_concile"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g603.erreurs_trinite",
+   "category": "knowledge",
+   "title": "Père, Fils, Esprit : quatre erreurs",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g602.erreurs_avant_nicee"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g604.erreurs_christ",
+   "category": "knowledge",
+   "title": "Qui est le Christ ? Quatre erreurs et une voie",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g603.erreurs_trinite"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l601",
+   "sequence": 601,
+   "title": "La logique d'un concile",
+   "description": "Une erreur, un concile, une formule : le schéma qui explique tous les conciles.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g601.logique_concile",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la réception d'un concile",
+     "slug": "c06_reception_d_un_concile",
+     "translation": "l'acceptation d'un concile par l'ensemble de l'Église",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l602",
+   "sequence": 602,
+   "title": "Avant Nicée : quatre erreurs",
+   "description": "Gnose, Marcion, Mani, Montan : chaque erreur en une phrase, et la réponse de l'Église.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g602.erreurs_avant_nicee",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
+  },
+  {
+   "id": "eg.l603",
+   "sequence": 603,
+   "title": "Père, Fils, Esprit : quatre erreurs",
+   "description": "Paul de Samosate, Sabellius, Arius, Macédonius : trois personnes, une divinité, et ce qui casse l'équilibre.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g603.erreurs_trinite",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'adoptianisme",
+     "slug": "c06_adoptianisme",
+     "translation": "le Christ serait un homme « adopté » par Dieu, pas le Fils éternel",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le modalisme",
+     "slug": "c06_modalisme",
+     "translation": "un seul Dieu à trois masques : Père, Fils, Esprit ne seraient que des rôles",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l604",
+   "sequence": 604,
+   "title": "Qui est le Christ ? Quatre erreurs et une voie",
+   "description": "Docétisme, Apollinaire, Nestorius, Eutychès : chaque erreur oublie une pièce, et Cyrille tient le milieu.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g604.erreurs_christ",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
+  }
+ ]
+}

@@ -53,6 +53,46 @@
     "eg.g1504.nomina_sacra"
    ],
    "functionWords": []
+  },
+  {
+   "id": "eg.g1506.possessifs",
+   "category": "grammar",
+   "title": "Les possessifs ⲡⲁ-, ⲡⲉⲕ-, ⲡⲉϥ-, ⲡⲉⲛ-",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1505.articles"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1507.petits_mots",
+   "category": "vocabulary",
+   "title": "Les petits mots de la phrase",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1506.possessifs"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1508.passe_paques",
+   "category": "verbs",
+   "title": "Le passé des verbes : ⲁϥ-, ⲁⲥ-, ⲁⲩ-",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1507.petits_mots"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1509.je_crois_benis",
+   "category": "verbs",
+   "title": "Les verbes : je, et l'ordre",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1508.passe_paques"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -233,6 +273,138 @@
      "slug": "cop_ou",
      "translation": "un, une (article indéfini)",
      "partOfSpeech": "article"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1506",
+   "sequence": 1506,
+   "title": "Mon, ton, notre : les possessifs",
+   "description": "Ⲡⲉⲛⲓⲱⲧ, ⲡⲁⲛⲟⲩϯ, ⲡⲉⲕⲣⲁⲛ : comment se construit « mon, ton, son, notre ».",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1506.possessifs",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ⲡⲁ-",
+     "slug": "cop_pa",
+     "translation": "mon (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    },
+    {
+     "word": "ⲡⲉⲕ-",
+     "slug": "cop_pek",
+     "translation": "ton (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    },
+    {
+     "word": "ⲡⲉϥ-",
+     "slug": "cop_pef",
+     "translation": "son, à lui (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    },
+    {
+     "word": "ⲡⲉⲛ-",
+     "slug": "cop_pen",
+     "translation": "notre (devant un nom masculin)",
+     "partOfSpeech": "determiner"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1507",
+   "sequence": 1507,
+   "title": "Les petits mots : et, dans, de, saint",
+   "description": "Quatre petits mots (ⲛⲉⲙ, ϧⲉⲛ, ⲛ̀/ⲙ̀, ⲉⲑⲟⲩⲁⲃ) qui structurent presque chaque phrase.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1507.petits_mots",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ⲛⲉⲙ",
+     "slug": "cop_nem",
+     "translation": "et, avec",
+     "partOfSpeech": "conjunction"
+    },
+    {
+     "word": "ϧⲉⲛ",
+     "slug": "cop_hen",
+     "translation": "dans, en",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "ⲛ̀/ⲙ̀",
+     "slug": "cop_n_de",
+     "translation": "de",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "ⲉⲑⲟⲩⲁⲃ",
+     "slug": "cop_ethouab",
+     "translation": "saint (placé après le nom)",
+     "partOfSpeech": "adjective"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1508",
+   "sequence": 1508,
+   "title": "Il est ressuscité : le passé",
+   "description": "Le passé ⲁϥ-, ⲁⲥ-, ⲁⲩ-, et le sens mot à mot de ⲁϥⲧⲱⲛϥ, le cri de Pâques.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1508.passe_paques",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ⲁϥ-",
+     "slug": "cop_af",
+     "translation": "il a (marque du passé)",
+     "partOfSpeech": "particle"
+    },
+    {
+     "word": "ⲧⲱⲛ",
+     "slug": "cop_ton",
+     "translation": "se lever, ressusciter",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "ⲁ̀ⲗⲏⲑⲱⲥ",
+     "slug": "cop_alithos",
+     "translation": "vraiment (mot grec)",
+     "partOfSpeech": "adverb"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1509",
+   "sequence": 1509,
+   "title": "Je crois, bénis : le présent et l'ordre",
+   "description": "ϯ- qui veut dire « je », le verbe nu qui donne l'ordre, et les premiers mots du Credo.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1509.je_crois_benis",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ϯ-",
+     "slug": "cop_ti_je",
+     "translation": "je (devant un verbe, au présent)",
+     "partOfSpeech": "pronoun"
+    },
+    {
+     "word": "ⲛⲁϩϯ",
+     "slug": "cop_nahti",
+     "translation": "croire",
+     "partOfSpeech": "verb"
+    },
+    {
+     "word": "ⲥⲙⲟⲩ",
+     "slug": "cop_smou",
+     "translation": "bénis ! (impératif)",
+     "partOfSpeech": "verb"
     }
    ]
   }

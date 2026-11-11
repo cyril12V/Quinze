@@ -192,5 +192,149 @@
    ],
    "tip": "Détache l'article, puis cherche le nom."
   }
+ },
+ {
+  "id": "eg.g1506.possessifs",
+  "rule": {
+   "summary": "Le possessif se colle au nom et remplace l'article : ⲡⲁ- (mon), ⲡⲉⲕ- (ton), ⲡⲉϥ- (son), ⲡⲉⲛ- (notre), ⲡⲉⲧⲉⲛ- (votre), ⲡⲟⲩ- (leur), avec ⲡ- au masculin, ⲧ- au féminin et ⲛ- au pluriel.",
+   "explanation": "Le possessif est un préfixe qui prend la place de l'article : ⲡⲁⲛⲟⲩϯ (mon Dieu), pas ⲡⲁⲫ̀ⲛⲟⲩϯ. Il est formé du ⲡ de l'article suivi de la personne : ϥ (lui), ⲥ (elle), ⲕ (toi), ⲛ (nous), ⲧⲉⲛ (vous), ⲟⲩ (eux). Sa première lettre s'accorde avec ce qui est possédé : ⲡ- pour un nom masculin, ⲧ- pour un féminin, ⲛ- pour un pluriel. À l'église tu entends surtout Ⲡⲉⲛ- : Ⲡⲉⲛⲓⲱⲧ (notre Père), Ⲡⲉⲛϭⲟⲓⲥ (notre Seigneur).",
+   "pattern": "ⲡⲁ- / ⲡⲉⲕ- / ⲡⲉϥ- / ⲡⲉⲛ- / ⲡⲉⲧⲉⲛ- / ⲡⲟⲩ- + nom (ⲧ- féminin, ⲛ- pluriel)",
+   "examples": [
+    {
+     "text": "ⲡⲁⲛⲟⲩϯ",
+     "translation": "Mon Dieu."
+    },
+    {
+     "text": "ⲡⲉⲕⲣⲁⲛ",
+     "translation": "Ton nom."
+    },
+    {
+     "text": "Ⲡⲉⲛⲓⲱⲧ",
+     "translation": "Notre Père."
+    },
+    {
+     "text": "Ⲡⲉⲛϭⲟⲓⲥ",
+     "translation": "Notre Seigneur."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ⲡⲉⲛ- veut dire « votre ».",
+     "right": "ⲡⲉⲛ- veut dire « notre » ; « votre » se dit ⲡⲉⲧⲉⲛ-.",
+     "why": "ⲡⲉⲛ- garde le ⲛ de « nous »."
+    },
+    {
+     "wrong": "On dit ⲡⲁⲫ̀ⲛⲟⲩϯ pour « mon Dieu ».",
+     "right": "On dit ⲡⲁⲛⲟⲩϯ.",
+     "why": "Le possessif remplace l'article : plus de ⲫ̀."
+    },
+    {
+     "wrong": "ⲧⲁ- s'emploie quand le propriétaire est une femme.",
+     "right": "ⲧⲁ- s'emploie quand la chose possédée est féminine.",
+     "why": "Le possessif s'accorde avec le nom possédé."
+    }
+   ],
+   "tip": "Ⲡⲉⲛ- = notre ; le ⲡ/ⲧ/ⲛ du début donne le genre de la chose possédée."
+  }
+ },
+ {
+  "id": "eg.g1507.petits_mots",
+  "rule": {
+   "summary": "Quatre petits mots font la structure des phrases : ⲛⲉⲙ (et), ϧⲉⲛ (dans), ⲛ̀/ⲙ̀ (de) et ⲉⲑⲟⲩⲁⲃ (saint, après le nom).",
+   "explanation": "Ces mots sont courts et fréquents : les reconnaître suffit pour comprendre une phrase comme ϧⲉⲛ ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ. ⲛⲉⲙ relie des noms. ϧⲉⲛ donne le lieu. Le « de » s'écrit ⲛ̀ mais devient ⲙ̀ devant ⲡ, ⲫ, ⲃ, ⲙ. L'adjectif ⲉⲑⲟⲩⲁⲃ se place après le nom.",
+   "pattern": "nom + ⲛⲉⲙ + nom ; ϧⲉⲛ + lieu ; ⲛ̀/ⲙ̀ + nom ; nom + ⲉⲑⲟⲩⲁⲃ",
+   "examples": [
+    {
+     "text": "Ⲫ̀ⲓⲱⲧ ⲛⲉⲙ Ⲡ̀ϣⲏⲣⲓ",
+     "translation": "Le Père et le Fils."
+    },
+    {
+     "text": "ϧⲉⲛ ϯⲉⲕⲕⲗⲏⲥⲓⲁ",
+     "translation": "Dans l'Église."
+    },
+    {
+     "text": "ⲫ̀ⲣⲁⲛ ⲙ̀Ⲫ̀ⲓⲱⲧ",
+     "translation": "Le nom du Père."
+    },
+    {
+     "text": "ϯⲉⲕⲕⲗⲏⲥⲓⲁ ⲉⲑⲟⲩⲁⲃ",
+     "translation": "L'Église sainte."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ⲉⲑⲟⲩⲁⲃ se place avant le nom, comme en anglais.",
+     "right": "Il se place après le nom, comme en français.",
+     "why": "ϯⲉⲕⲕⲗⲏⲥⲓⲁ ⲉⲑⲟⲩⲁⲃ : l'Église sainte."
+    },
+    {
+     "wrong": "ⲙ̀ et ⲛ̀ sont deux mots différents.",
+     "right": "C'est le même mot « de », qui devient ⲙ̀ devant ⲡ, ⲫ, ⲃ, ⲙ.",
+     "why": "Comme « en » devient « em » devant p ou b."
+    }
+   ],
+   "tip": "ⲛⲉⲙ = et ; ϧⲉⲛ = dans ; ⲛ̀/ⲙ̀ = de ; ⲉⲑⲟⲩⲁⲃ = saint après le nom."
+  }
+ },
+ {
+  "id": "eg.g1508.passe_paques",
+  "rule": {
+   "summary": "Le passé se forme avec ⲁ + la personne : ⲁϥ- (il a), ⲁⲥ- (elle a), ⲁⲩ- (ils ont). Ainsi ⲁϥⲧⲱⲛϥ se lit ⲁ + ϥ + ⲧⲱⲛ + ϥ : il s'est levé, il est ressuscité.",
+   "explanation": "Le verbe copte ne change pas sa fin : on ajoute des petits morceaux devant. ⲁ marque le passé et se combine avec la personne : ⲁϥ (il), ⲁⲥ (elle), ⲁⲩ (ils). Ainsi ⲁϥⲧⲱⲛϥ se lit ⲁ + ϥ + ⲧⲱⲛ + ϥ : il s'est levé, il est ressuscité. Les marques ϥ, ⲥ, ⲟⲩ sont les mêmes que pour « son », « sa », « leur » dans les noms.",
+   "pattern": "ⲁ + personne + verbe (passé)",
+   "examples": [
+    {
+     "text": "ⲁϥⲧⲱⲛϥ",
+     "translation": "Il est ressuscité."
+    },
+    {
+     "text": "ⲁ̀ⲗⲏⲑⲱⲥ ⲁϥⲧⲱⲛϥ",
+     "translation": "Vraiment, il est ressuscité."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ⲁϥ- veut dire « il va » (futur).",
+     "right": "ⲁϥ- marque le passé : « il a ».",
+     "why": "Le ⲁ est la marque du passé."
+    },
+    {
+     "wrong": "Le second ϥ de ⲁϥⲧⲱⲛϥ est une faute de frappe.",
+     "right": "C'est le « se » : il s'est levé.",
+     "why": "Le premier ϥ est le sujet, le second ϥ revient sur lui."
+    }
+   ],
+   "tip": "ⲁ = passé ; ϥ = il."
+  }
+ },
+ {
+  "id": "eg.g1509.je_crois_benis",
+  "rule": {
+   "summary": "Devant un verbe, ϯ- veut dire « je » ; l'ordre se donne avec le verbe seul (ⲥⲙⲟⲩ, bénis !).",
+   "explanation": "ϯ- est « je » au présent : ϯⲛⲁϩϯ, je crois. Les premiers mots du Credo copte sont Ϯⲛⲁϩϯ ϧⲉⲛ ⲟⲩⲛⲟⲩϯ : « je crois en un Dieu ». L'ordre se donne avec le verbe seul : ⲥⲙⲟⲩ. Devant un nom, ϯ est l'article « la » ; devant un verbe, c'est « je ».",
+   "pattern": "ϯ + verbe (je) ; verbe seul (ordre)",
+   "examples": [
+    {
+     "text": "ϯⲛⲁϩϯ",
+     "translation": "Je crois."
+    },
+    {
+     "text": "Ϯⲛⲁϩϯ ϧⲉⲛ ⲟⲩⲛⲟⲩϯ",
+     "translation": "Je crois en un Dieu."
+    },
+    {
+     "text": "ⲥⲙⲟⲩ",
+     "translation": "Bénis !"
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "ϯ- est toujours l'article « la ».",
+     "right": "Devant un verbe, ϯ- veut dire « je ».",
+     "why": "ϯⲛⲁϩϯ = je crois, alors que ϯⲉⲕⲕⲗⲏⲥⲓⲁ = l'Église."
+    }
+   ],
+   "tip": "ϯ devant un verbe = je ; verbe seul = ordre."
+  }
  }
 ]

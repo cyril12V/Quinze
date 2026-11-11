@@ -1,0 +1,594 @@
+{
+ "module": {
+  "id": 9,
+  "format": 3,
+  "title": "Les sept sacrements",
+  "description": "Pourquoi l'eau, l'huile, le pain, les mains et les couronnes ? Les sept sacrements de l'Église copte, geste par geste : leur sens, leur fondement biblique, leur grâce."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g901.signe_et_grace",
+   "category": "knowledge",
+   "title": "Un sacrement : un signe visible, une grâce invisible",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g902.bapteme_naissance",
+   "category": "knowledge",
+   "title": "Le baptême : naître d'eau et d'Esprit",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g901.signe_et_grace"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g903.ouest_est",
+   "category": "knowledge",
+   "title": "Renoncer à l'ouest, confesser à l'est",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g902.bapteme_naissance"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g904.bebes_parrain",
+   "category": "knowledge",
+   "title": "Le baptême des enfants et le parrain",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g903.ouest_est"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g905.myron",
+   "category": "knowledge",
+   "title": "La confirmation : le saint myron",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g904.bebes_parrain"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g906.trente_six_onctions",
+   "category": "knowledge",
+   "title": "Les 36 onctions, l'habit blanc, le zounnar",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g905.myron"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g907.derniere_cene",
+   "category": "knowledge",
+   "title": "L'eucharistie : la dernière Cène",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g906.trente_six_onctions"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g908.qorban_jeune",
+   "category": "knowledge",
+   "title": "Le qorban, le jeûne et la communion",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g907.derniere_cene"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g909.confession",
+   "category": "knowledge",
+   "title": "La confession : lier et délier",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g908.qorban_jeune"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g910.repentance_pere",
+   "category": "knowledge",
+   "title": "La repentance et le père de confession",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g909.confession"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g911.qandil",
+   "category": "knowledge",
+   "title": "L'onction des malades : le qandil",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g910.repentance_pere"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g912.mariage",
+   "category": "knowledge",
+   "title": "Le mariage : le couronnement",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g911.qandil"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g913.sacerdoce",
+   "category": "knowledge",
+   "title": "Le sacerdoce : l'imposition des mains",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g912.mariage"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g914.bilan_sacrements",
+   "category": "knowledge",
+   "title": "Les sept sacrements d'un coup d'œil",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g913.sacerdoce"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l901",
+   "sequence": 901,
+   "title": "Dieu agit par ce qu'on touche",
+   "description": "Pourquoi l'eau, l'huile et le pain ? Le secret des sept sacrements tient en deux mots : visible et invisible.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g901.signe_et_grace",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le sacrement (le mystère)",
+     "slug": "c09_sacrement",
+     "translation": "signe visible par lequel Dieu donne une grâce invisible",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la grâce",
+     "slug": "c09_grace",
+     "translation": "don gratuit de Dieu : son aide, son pardon, sa vie en nous",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le signe visible",
+     "slug": "c09_signe_visible",
+     "translation": "la matière et le geste du sacrement : eau, huile, pain, mains",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l902",
+   "sequence": 902,
+   "title": "Le baptême : mourir pour naître",
+   "description": "Un enfant regarde son petit frère dans l'eau. Pourquoi plonge-t-on, et pourquoi trois fois ?",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g902.bapteme_naissance",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le baptême",
+     "slug": "c09_bapteme",
+     "translation": "premier sacrement : naître d'eau et d'Esprit par la triple immersion",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la triple immersion",
+     "slug": "c09_triple_immersion",
+     "translation": "le baptisé est plongé trois fois dans l'eau, au nom de la Trinité",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la nouvelle naissance",
+     "slug": "c09_nouvelle_naissance",
+     "translation": "naître d'eau et d'Esprit (Jn 3, 5), don du baptême",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l903",
+   "sequence": 903,
+   "title": "Dos à l'ouest, face à l'est",
+   "description": "Avant de plonger, le baptisé fait deux demi-tours. Pourquoi d'abord vers le soleil couchant, puis vers le soleil levant ?",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g903.ouest_est",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le renoncement à Satan",
+     "slug": "c09_renoncement_a_satan",
+     "translation": "promesse de rejeter Satan, faite tourné vers l'ouest",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la profession de foi",
+     "slug": "c09_profession_de_foi",
+     "translation": "confession du Christ et du Credo, faite tourné vers l'est",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l904",
+   "sequence": 904,
+   "title": "Pourquoi baptiser un bébé ?",
+   "description": "Il ne parle pas, il ne marche pas : pourquoi l'Église le baptise-t-elle quand même ? Et pourquoi 40 jours, ou 80 ?",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g904.bebes_parrain",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le baptême des enfants",
+     "slug": "c09_bapteme_des_enfants",
+     "translation": "l'Église baptise les bébés, avec la foi des parents et du parrain",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le parrain",
+     "slug": "c09_parrain",
+     "translation": "celui qui répond pour l'enfant et s'engage à l'élever dans la foi",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le 40e et le 80e jour",
+     "slug": "c09_quarante_quatre_vingts_jours",
+     "translation": "usage : le garçon est baptisé vers le 40e jour, la fille vers le 80e",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l905",
+   "sequence": 905,
+   "title": "Le saint myron : une huile pas comme les autres",
+   "description": "Un sceau parfumé, préparé par le pape lui-même. D'où vient cette huile et pourquoi remplace-t-elle les mains des apôtres ?",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g905.myron",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la confirmation (la chrismation)",
+     "slug": "c09_confirmation",
+     "translation": "sacrement du sceau du Saint-Esprit, donné par le saint myron après le baptême",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le saint myron",
+     "slug": "c09_saint_myron",
+     "translation": "huile parfumée consacrée par le pape pour la confirmation",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la préparation du myron",
+     "slug": "c09_preparation_du_myron",
+     "translation": "le pape et les évêques préparent et consacrent le saint myron",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'imposition des mains",
+     "slug": "c09_imposition_des_mains",
+     "translation": "geste par lequel les apôtres donnaient l'Esprit, puis les évêques ordonnent",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l906",
+   "sequence": 906,
+   "title": "Trente-six croix sur un nouveau-né",
+   "description": "L'enfant sort de l'eau. Le prêtre trace 36 croix, l'habille de blanc, noue un ruban. Que veut dire chaque geste ?",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g906.trente_six_onctions",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les 36 onctions",
+     "slug": "c09_trente_six_onctions",
+     "translation": "36 signes de croix de myron sur les sens et les articulations",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le sceau du Saint-Esprit",
+     "slug": "c09_sceau_du_saint_esprit",
+     "translation": "marque spirituelle donnée par le myron : l'Esprit habite le baptisé",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'habit blanc",
+     "slug": "c09_habit_blanc",
+     "translation": "vêtement blanc du nouveau baptisé : l'homme nouveau",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le zounnar",
+     "slug": "c09_zounnar",
+     "translation": "ceinture ou ruban noué à la taille du nouveau baptisé, selon l'usage",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l907",
+   "sequence": 907,
+   "title": "Le soir du Jeudi saint",
+   "description": "Un dernier repas à Jérusalem, quelques mots sur du pain : « Ceci est mon corps ». Toute l'eucharistie est là.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g907.derniere_cene",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'eucharistie",
+     "slug": "c09_eucharistie",
+     "translation": "sacrement du Corps et du Sang du Christ ; mot grec pour « action de grâce »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la dernière Cène",
+     "slug": "c09_derniere_cene",
+     "translation": "repas du Jeudi saint où Jésus institue l'eucharistie",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la présence réelle",
+     "slug": "c09_presence_reelle",
+     "translation": "le pain et le vin deviennent vraiment le Corps et le Sang du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le pain de vie",
+     "slug": "c09_pain_de_vie",
+     "translation": "titre que Jésus se donne en Jean 6 : il nourrit pour la vie éternelle",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l908",
+   "sequence": 908,
+   "title": "Un pain qui a levé",
+   "description": "Pourquoi du pain levé, pourquoi à jeun, pourquoi se confesser avant ? La communion se prépare.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g908.qorban_jeune",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le qorban",
+     "slug": "c09_qorban",
+     "translation": "pain levé de la messe, marqué d'une croix ; veut dire « offrande »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le jeûne eucharistique",
+     "slug": "c09_jeune_eucharistique",
+     "translation": "ni nourriture ni boisson avant la communion",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la communion",
+     "slug": "c09_communion",
+     "translation": "le moment où le fidèle reçoit le Corps et le Sang du Christ",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l909",
+   "sequence": 909,
+   "title": "Pourquoi dire ses péchés à un prêtre ?",
+   "description": "« Dieu seul pardonne » : c'est vrai. Alors pourquoi la confession ? La réponse commence le soir de Pâques.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g909.confession",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la confession (la pénitence)",
+     "slug": "c09_confession",
+     "translation": "sacrement du pardon des péchés commis après le baptême",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "lier et délier",
+     "slug": "c09_lier_et_delier",
+     "translation": "retenir ou remettre les péchés (Mt 18, 18 ; Jn 20, 23)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "l'absolution",
+     "slug": "c09_absolution",
+     "translation": "prière où le prêtre, la croix sur la tête, donne le pardon de Dieu",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l910",
+   "sequence": 910,
+   "title": "Un père de confession, un secret absolu",
+   "description": "Se confier à quelqu'un qui te connaît. Pourquoi le prêtre se tait toujours, et ce que veut dire « se repentir ».",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g910.repentance_pere",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le père de confession",
+     "slug": "c09_pere_de_confession",
+     "translation": "prêtre qui reçoit nos confessions et nous guide dans la durée",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la repentance",
+     "slug": "c09_repentance",
+     "translation": "changement du cœur : regret sincère et décision de changer",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le secret de la confession",
+     "slug": "c09_secret_de_la_confession",
+     "translation": "le prêtre ne révèle jamais ce qu'il entend en confession",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la contrition",
+     "slug": "c09_contrition",
+     "translation": "regret sincère de ses péchés, premier pas de la repentance",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l911",
+   "sequence": 911,
+   "title": "Le qandil : sept mèches pour un malade",
+   "description": "Une lampe à sept mèches, de l'huile, un prêtre au chevet d'un malade. Ce que dit Jacques et ce que fait l'Église.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g911.qandil",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'onction des malades",
+     "slug": "c09_onction_des_malades",
+     "translation": "sacrement de l'huile : prière pour la guérison de l'âme et du corps du malade",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le qandil",
+     "slug": "c09_qandil",
+     "translation": "nom arabe de l'onction des malades : « la lampe »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les sept mèches",
+     "slug": "c09_sept_meches",
+     "translation": "sept mèches de coton allumées l'une après l'autre pendant les sept prières",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le qandil général",
+     "slug": "c09_qandil_general",
+     "translation": "qandil annuel pour tous les fidèles, avant la semaine de la Passion",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l912",
+   "sequence": 912,
+   "title": "Les couronnes du mariage",
+   "description": "Pourquoi coiffe-t-on les mariés de couronnes ? Parce que Dieu fait d'eux un petit royaume, et d'une maison une petite église.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g912.mariage",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le mariage (le couronnement)",
+     "slug": "c09_mariage",
+     "translation": "sacrement où Dieu unit un homme et une femme, avec le rite des couronnes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le couronnement",
+     "slug": "c09_couronnement",
+     "translation": "rite où le prêtre place des couronnes sur la tête des époux",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'indissolubilité",
+     "slug": "c09_indissolubilite",
+     "translation": "le mariage ne se défait pas : Dieu a uni les époux",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les noces de Cana",
+     "slug": "c09_noces_de_cana",
+     "translation": "mariage où Jésus change l'eau en vin (Jn 2)",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l913",
+   "sequence": 913,
+   "title": "Les mains qui se transmettent",
+   "description": "Douze hommes choisis sur une montagne, une chaîne de mains qui traverse vingt siècles : voici le septième sacrement.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g913.sacerdoce",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le sacerdoce (l'ordination)",
+     "slug": "c09_sacerdoce",
+     "translation": "sacrement où l'évêque ordonne par l'imposition des mains",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'ordination",
+     "slug": "c09_ordination",
+     "translation": "la célébration du sacerdoce : l'évêque impose les mains au candidat",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l914",
+   "sequence": 914,
+   "title": "Bilan : sept sacrements, cinq signes",
+   "description": "Eau, huile, pain, mains, couronnes : tu peux maintenant raconter chacun des sept sacrements et dire pourquoi on fait ces gestes.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g914.bilan_sacrements",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les sacrements d'initiation",
+     "slug": "c09_sacrements_d_initiation",
+     "translation": "baptême, confirmation et eucharistie : devenir et rester chrétien",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les sacrements de guérison",
+     "slug": "c09_sacrements_de_guerison",
+     "translation": "confession et onction des malades : le pardon et le soulagement",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les sacrements de vocation",
+     "slug": "c09_sacrements_de_vocation",
+     "translation": "mariage et sacerdoce : la grâce de servir dans un foyer ou dans l'Église",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
+}

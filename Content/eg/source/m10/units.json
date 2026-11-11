@@ -1,0 +1,248 @@
+[
+ {
+  "id": "eg.g1001.orientation_est",
+  "rule": {
+   "summary": "Une église copte est tournée vers l'est, souvent en forme d'arche de Noé, avec des coupoles qui portent un sens.",
+   "explanation": "L'est est le côté du soleil levant, image du Christ soleil de justice. L'Éden est à l'orient, et le Christ reviendra comme l'éclair qui part de l'orient. La forme la plus courante est l'arche de Noé ; d'autres églises ont un plan en croix ou en cercle. Une coupole représente le Christ, trois la Trinité, cinq le Christ et les quatre évangélistes.",
+   "pattern": "Est = soleil de justice + Éden + retour du Christ. Arche de Noé = navire qui sauve.",
+   "examples": [
+    {
+     "text": "Le sanctuaire est à l'est.",
+     "translation": "On prie tourné vers lui."
+    },
+    {
+     "text": "La nef vient du latin navis.",
+     "translation": "Le navire : l'église est une arche."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "L'église regarde l'ouest.",
+     "right": "L'église regarde l'est.",
+     "why": "Le soleil se lève à l'est : c'est la lumière du Christ."
+    }
+   ],
+   "tip": "Est = lumière. Arche = navire. Trois coupoles = Trinité."
+  }
+ },
+ {
+  "id": "eg.g1002.trois_parties",
+  "rule": {
+   "summary": "L'église a trois parties, narthex, nef et sanctuaire, qui rappellent le parvis, le lieu saint et le saint des saints du Tabernacle.",
+   "explanation": "On entre par l'ouest et on avance vers l'est. Le narthex est l'entrée, où se tenaient les catéchumènes ; la nef accueille les fidèles ; le sanctuaire est réservé au clergé et aux diacres. Le plan vient du Tabernacle que Dieu montre à Moïse au Sinaï.",
+   "pattern": "Narthex = parvis ; nef = lieu saint ; sanctuaire = saint des saints.",
+   "examples": [
+    {
+     "text": "Le narthex correspond au parvis.",
+     "translation": "Les deux sont la première étape."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le sanctuaire est à l'entrée.",
+     "right": "Le sanctuaire est tout à l'est.",
+     "why": "On avance vers l'est, vers Dieu."
+    }
+   ],
+   "tip": "Trois espaces, trois correspondances : parvis, lieu saint, saint des saints."
+  }
+ },
+ {
+  "id": "eg.g1003.iconostase",
+  "rule": {
+   "summary": "L'iconostase (higab) est le mur d'icônes entre la nef et le sanctuaire : porte royale au centre, Christ à droite, Marie à gauche, Cène au-dessus, apôtres et croix en haut.",
+   "explanation": "L'iconostase sépare la nef et le sanctuaire sans les couper : ses rideaux s'ouvrent pendant la liturgie. On y voit le Christ, la Vierge, Jean-Baptiste, le saint de l'église, saint Marc et l'archange Michel, puis la Cène au-dessus de la porte royale, les douze apôtres et la croix.",
+   "pattern": "Christ à droite, Marie à gauche, Cène au centre, apôtres de chaque côté, croix en haut.",
+   "examples": [
+    {
+     "text": "La Cène est au-dessus de la porte royale.",
+     "translation": "Juste au-dessus du sanctuaire."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le higab est un rideau sans icônes.",
+     "right": "Le higab est un mur couvert d'icônes.",
+     "why": "Le voile s'ouvre pendant la liturgie."
+    }
+   ],
+   "tip": "Christ à droite, Marie à gauche, Cène au centre."
+  }
+ },
+ {
+  "id": "eg.g1004.symboles",
+  "rule": {
+   "summary": "L'œuf d'autruche, les lampes et l'encens portent chacun un sens ; à l'icône on rend la vénération, l'adoration est pour Dieu seul.",
+   "explanation": "L'œuf d'autruche dit que Dieu veille sans cesse et annonce la résurrection. La lampe représente la lumière du Christ. La fumée de l'encens représente les prières qui montent. L'icône est une fenêtre vers celui qu'elle représente : on la vénère, on ne l'adore pas.",
+   "pattern": "Œuf = veille + résurrection. Lampe = lumière du Christ. Encens = prières. Icône = vénération.",
+   "examples": [
+    {
+     "text": "On vénère l'icône.",
+     "translation": "On s'incline et on embrasse, sans adorer."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "On adore les icônes.",
+     "right": "On vénère les icônes, on adore Dieu seul.",
+     "why": "L'adoration est due à Dieu seul."
+    }
+   ],
+   "tip": "Œuf, lampe, encens : veille, lumière, prière."
+  }
+ },
+ {
+  "id": "eg.g1005.haikal",
+  "rule": {
+   "summary": "Le haikal est le sanctuaire : on y entre déchaussé, l'autel est consacré au myron, et une seule liturgie est célébrée par jour sur un autel.",
+   "explanation": "Le haikal est l'équivalent du saint des saints. L'autel, cube qui représente le tombeau du Christ, est consacré par l'évêque avec le myron fait par le pape. Chaque autel ne sert qu'à une liturgie par jour : d'où parfois trois autels. On entre déchaussé comme Moïse sur une terre sainte.",
+   "pattern": "Haikal = sanctuaire ; autel consacré au myron ; une liturgie par jour et par autel ; on entre déchaussé.",
+   "examples": [
+    {
+     "text": "L'évêque oint l'autel avec le myron.",
+     "translation": "C'est ce qui le met à part pour Dieu."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le pape consacre chaque autel.",
+     "right": "L'évêque consacre l'autel avec le myron que le pape a fait.",
+     "why": "Le pape prépare le myron, l'évêque l'applique."
+    }
+   ],
+   "tip": "Haikal : on se déchausse, on consacre, on célèbre."
+  }
+ },
+ {
+  "id": "eg.g1006.objets_autel",
+  "rule": {
+   "summary": "Sur l'autel : le ciborium (le ciel), le calice (le vin mêlé d'eau), la patène (le pain), l'astérisque (l'étoile des mages), la cuillère et le coffret.",
+   "explanation": "Au-dessus de l'autel, le ciborium rappelle le ciel. Le calice contient le vin mêlé d'eau et repose sur le coffret ; la patène porte le pain ; l'astérisque soutient le voile au-dessus du pain et rappelle l'étoile des mages ; la cuillère donne aux fidèles le sang du Christ. Les détails varient un peu d'une église à l'autre.",
+   "pattern": "Ciborium = ciel ; calice = vin ; patène = pain ; astérisque = étoile.",
+   "examples": [
+    {
+     "text": "L'astérisque est posé sur la patène.",
+     "translation": "Il tient le voile au-dessus du pain."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La patène contient le vin.",
+     "right": "La patène porte le pain ; le calice contient le vin.",
+     "why": "Calice = vin, patène = pain."
+    }
+   ],
+   "tip": "Calice = vin. Patène = pain. Astérisque = étoile."
+  }
+ },
+ {
+  "id": "eg.g1007.diaconat",
+  "rule": {
+   "summary": "Le diaconat copte compte cinq rangs : psalte, lecteur, sous-diacre, diacre et archidiacre. Ce sont des serviteurs, pas des prêtres.",
+   "explanation": "Le psalte chante, le lecteur lit la Bible, le sous-diacre garde les portes, le diacre prépare et sert la liturgie, l'archidiacre dirige tous les diacres. Ils servent en tunique blanche, souvent avec une étole. Le diacre aide le prêtre mais ne consacre pas.",
+   "pattern": "Psalte (chante) → lecteur (lit) → sous-diacre (garde) → diacre (sert) → archidiacre (dirige).",
+   "examples": [
+    {
+     "text": "Dioscore a été archidiacre de Cyrille.",
+     "translation": "Un archidiacre peut devenir pape."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le diacre consacre l'eucharistie.",
+     "right": "Le diacre sert, le prêtre consacre.",
+     "why": "Diakonos veut dire serviteur."
+    }
+   ],
+   "tip": "Chante, lit, garde, sert, dirige."
+  }
+ },
+ {
+  "id": "eg.g1008.pretres_eveques",
+  "rule": {
+   "summary": "Le prêtre célèbre les sacrements (marié avant l'ordination, ou moine), l'évêque ordonne et vient des moines, le pape d'Alexandrie est patriarche et préside le saint-synode.",
+   "explanation": "Le prêtre est le deuxième degré ; le qommos est un prêtre promu archiprêtre. L'évêque, toujours moine chez les coptes, dirige un diocèse et ordonne ; le métropolite est promu à la tête d'un grand diocèse. Le patriarche, pape d'Alexandrie, préside le saint-synode, ordonne les évêques et prépare le myron. Le titre de pape vient d'Héraclas, celui de patriarche de 451.",
+   "pattern": "Prêtre (marié avant l'ordination) → évêque (moine) → métropolite → pape-patriarche.",
+   "examples": [
+    {
+     "text": "Un prêtre veuf ne se remarie pas.",
+     "translation": "Le mariage vient toujours avant l'ordination."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le prêtre peut ordonner.",
+     "right": "Seul l'évêque ordonne.",
+     "why": "L'imposition des mains est réservée à l'évêque."
+    }
+   ],
+   "tip": "Prêtre : marié avant. Évêque : moine. Pape : patriarche."
+  }
+ },
+ {
+  "id": "eg.g1009.choisir_pape",
+  "rule": {
+   "summary": "Un pape se choisit en deux temps : un vote retient trois moines, puis un enfant aux yeux bandés tire un nom sur l'autel pour que Dieu choisisse.",
+   "explanation": "À la mort d'un pape, un évêque assure l'intérim. On établit une liste de candidats, tous moines. Une assemblée d'électeurs retient les trois qui ont le plus de voix. Les trois noms sont placés sur l'autel pendant la liturgie et un enfant aux yeux bandés en tire un : c'est la qor'a haykaleya. Tawadros II, tiré le 4 novembre 2012, est le 118e pape.",
+   "pattern": "Intérim → liste de moines → vote (3 noms) → tirage au sort sur l'autel → intronisation.",
+   "examples": [
+    {
+     "text": "Un enfant tire le nom du pape sur l'autel.",
+     "translation": "Dieu choisit, comme pour Matthias."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le vote désigne le pape.",
+     "right": "Le vote retient trois noms ; le sort désigne le pape.",
+     "why": "Le vote prépare, le sort décide."
+    }
+   ],
+   "tip": "Vote pour trois noms, sort pour un seul."
+  }
+ },
+ {
+  "id": "eg.g1010.moines",
+  "rule": {
+   "summary": "Les moines coptes vivent toujours dans des monastères d'Égypte, près de la mer Rouge et à Wadi Natroun ; abbés et ermites prolongent l'élan d'Antoine.",
+   "explanation": "Le moine prie, travaille et jeûne ; l'abbé dirige le monastère ; l'ermite vit seul au désert ; l'eskime est le grand habit des moines avancés. Saint-Antoine et Saint-Paul sont près de la mer Rouge. À Wadi Natroun, l'ancienne Scété, il reste quatre monastères : Saint-Macaire, Baramous, Anba Bishoy et celui des Syriens.",
+   "pattern": "Moine → abbé (dirige) ; ermite (seul) ; eskime (habit). Mer Rouge : Antoine et Paul. Wadi Natroun : quatre.",
+   "examples": [
+    {
+     "text": "Baramous veut dire « des Romains ».",
+     "translation": "Une tradition parle de deux princes romains devenus moines."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Wadi Natroun est près de la mer Rouge.",
+     "right": "Wadi Natroun est près du Caire ; la mer Rouge, c'est Antoine et Paul.",
+     "why": "Mer Rouge : Antoine et Paul. Wadi Natroun : quatre."
+    }
+   ],
+   "tip": "Mer Rouge : Antoine et Paul. Wadi Natroun : quatre."
+  }
+ },
+ {
+  "id": "eg.g1011.bilan",
+  "rule": {
+   "summary": "Bilan : le chemin vers l'est, les objets qui parlent, le haikal, l'échelle du clergé et le choix du pape.",
+   "explanation": "L'église est un chemin du narthex au sanctuaire, comme le Tabernacle. L'iconostase, l'œuf d'autruche, la lampe et l'encens portent chacun un sens. L'autel est le tombeau du Christ, consacré au myron. Le clergé monte du psalte au pape ; le pape est désigné par un vote puis un tirage au sort sur l'autel ; évêques et pape viennent des moines.",
+   "pattern": "Narthex → nef → iconostase → haikal → autel. Psalte → … → pape.",
+   "examples": [
+    {
+     "text": "Du psalte au pape.",
+     "translation": "Cinq rangs de diacres, puis prêtre, évêque, patriarche."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "On adore les icônes.",
+     "right": "On vénère les icônes, on adore Dieu seul.",
+     "why": "Adoration ≠ vénération."
+    }
+   ],
+   "tip": "Porte, mur d'icônes, autel : tout se tient."
+  }
+ }
+]

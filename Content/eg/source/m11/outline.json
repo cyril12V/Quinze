@@ -1,0 +1,391 @@
+{
+ "module": {
+  "id": 11,
+  "format": 3,
+  "title": "L'Agpeya et la prière",
+  "description": "Une journée de prière, du lever à minuit : les sept heures et le moment de la vie du Christ que chacune rappelle, le plan d'une heure, les gestes, et pourquoi on prie tourné vers l'est."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g1101.sept_fois",
+   "category": "knowledge",
+   "title": "Prier sans cesse : les sept heures",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1102.prime_aube",
+   "category": "knowledge",
+   "title": "Heures bibliques et Prime",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1101.sept_fois"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1103.tierce",
+   "category": "knowledge",
+   "title": "Tierce : Pilate et la Pentecôte",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1102.prime_aube"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1104.sexte_none",
+   "category": "knowledge",
+   "title": "Sexte et None : la croix",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1103.tierce"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1105.vepres_complies",
+   "category": "knowledge",
+   "title": "Vêpres et Complies",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1104.sexte_none"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1106.minuit",
+   "category": "knowledge",
+   "title": "Minuit et la prière du voile",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1105.vepres_complies"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1107.plan_heure",
+   "category": "knowledge",
+   "title": "Les neuf étapes d'une heure",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1106.minuit"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1108.gestes",
+   "category": "knowledge",
+   "title": "Les gestes de la prière",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1107.plan_heure"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1109.vers_l_est",
+   "category": "knowledge",
+   "title": "Les six raisons de prier vers l'est",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1108.gestes"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1110.bilan_agpeya",
+   "category": "knowledge",
+   "title": "Bilan : l'Agpeya de A à Z",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1109.vers_l_est"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l1101",
+   "sequence": 1101,
+   "title": "Sept fois par jour",
+   "description": "Pourquoi l'Église donne des rendez-vous de prière dans la journée, et le livre qui les rassemble : l'Agpeya.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1101.sept_fois",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'Agpeya",
+     "slug": "c11_agpeya",
+     "translation": "le livre des heures : les sept heures de prière de l'Église copte",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les sept heures",
+     "slug": "c11_sept_heures",
+     "translation": "Prime, Tierce, Sexte, None, Vêpres, Complies et Minuit",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "prier sans cesse",
+     "slug": "c11_prier_sans_cesse",
+     "translation": "l'appel de saint Paul (1 Th 5, 17) : garder Dieu présent toute la journée",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1102",
+   "sequence": 1102,
+   "title": "6 h : Prime, l'aube",
+   "description": "Le jour biblique commence au lever du soleil. Les noms Prime, Tierce, Sexte et None, et la première heure : Prime.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1102.prime_aube",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Prime",
+     "slug": "c11_prime",
+     "translation": "la première heure (6 h) : l'incarnation et la Résurrection",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'heure biblique",
+     "slug": "c11_heure_biblique",
+     "translation": "le jour compté depuis le lever du soleil : la 3e heure = 9 h",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1103",
+   "sequence": 1103,
+   "title": "9 h : Tierce, un tribunal puis une flamme",
+   "description": "Tierce rappelle deux scènes à la même heure : le procès devant Pilate et la descente de l'Esprit à la Pentecôte.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1103.tierce",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Tierce",
+     "slug": "c11_tierce",
+     "translation": "la 3e heure (9 h) : le procès devant Pilate et la Pentecôte",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Ponce Pilate",
+     "slug": "c11_pilate",
+     "translation": "le gouverneur romain qui juge le Christ à Jérusalem",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1104",
+   "sequence": 1104,
+   "title": "Midi et 15 h : la croix",
+   "description": "Sexte à midi rappelle la crucifixion, la None à 15 h la mort du Christ, avec le bon larron.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1104.sexte_none",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Sexte",
+     "slug": "c11_sexte",
+     "translation": "la 6e heure (midi) : la crucifixion",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la None",
+     "slug": "c11_none_heure",
+     "translation": "la 9e heure (15 h) : la mort du Christ sur la croix",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le bon larron",
+     "slug": "c11_bon_larron",
+     "translation": "le condamné crucifié près de Jésus, à qui il promet le paradis",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1105",
+   "sequence": 1105,
+   "title": "Le soir : Vêpres et Complies",
+   "description": "Du coucher du soleil à la nuit : la descente de la croix, l'ensevelissement, et les prières ajoutées pendant le Carême.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1105.vepres_complies",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Vêpres",
+     "slug": "c11_vepres",
+     "translation": "l'heure du coucher du soleil : la descente de la croix",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Complies",
+     "slug": "c11_complies",
+     "translation": "la prière de 21 h, avant de dormir : l'ensevelissement et le Jugement dernier",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la descente de la croix",
+     "slug": "c11_descente_de_la_croix",
+     "translation": "Joseph d'Arimathie demande le corps de Jésus à Pilate et le descend de la croix",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1106",
+   "sequence": 1106,
+   "title": "Minuit : veiller",
+   "description": "La dernière heure de la journée de prière : on se lève la nuit, comme les dix vierges, et on attend le retour du Christ.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1106.minuit",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Minuit",
+     "slug": "c11_minuit_heure",
+     "translation": "l'heure de la veille : on se lève la nuit et on attend le retour du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les dix vierges",
+     "slug": "c11_dix_vierges",
+     "translation": "la parabole (Mt 25, 1-13) de cinq vierges sages et cinq folles qui attendent l'époux",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "les trois veilles",
+     "slug": "c11_trois_veilles",
+     "translation": "les trois parties de la prière de Minuit, comme les trois prières à Gethsémani",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la prière du voile",
+     "slug": "c11_priere_du_voile",
+     "translation": "l'examen de conscience qui suit les sept heures, surtout pour évêques, prêtres et moines",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1107",
+   "sequence": 1107,
+   "title": "Le plan d'une heure",
+   "description": "Chaque heure de l'Agpeya suit le même plan en neuf étapes : on s'y repère vite, où qu'on soit dans le livre.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1107.plan_heure",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le psaume 50",
+     "slug": "c11_psaume_50",
+     "translation": "la prière de repentance du roi David : « Aie pitié de moi, ô Dieu »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Notre Père",
+     "slug": "c11_notre_pere",
+     "translation": "la prière que le Christ a lui-même enseignée (Mt 6, 9-13)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'absolution",
+     "slug": "c11_absolution",
+     "translation": "la prière qui demande à Dieu de pardonner les péchés",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1108",
+   "sequence": 1108,
+   "title": "Debout, métanies, 41 Kyrie : à quoi servent les gestes",
+   "description": "Le corps prie avec l'âme : se tenir debout, la métanie, le signe de croix, les 41 Kyrie et la façon de se préparer.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1108.gestes",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la métanie",
+     "slug": "c11_metanie",
+     "translation": "la prosternation : on s'incline profondément pour adorer",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les 41 Kyrie",
+     "slug": "c11_quarante_et_un_kyrie",
+     "translation": "Kyrie eleison, « Seigneur, aie pitié », dit 41 fois dans chaque heure",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "le signe de croix",
+     "slug": "c11_signe_de_croix",
+     "translation": "le geste fait au nom de la Trinité : Père, Fils et Saint-Esprit",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1109",
+   "sequence": 1109,
+   "title": "Pourquoi on prie vers l'est",
+   "description": "Tu connais déjà une raison : le paradis est à l'est. Voici les cinq autres, qui font six en tout.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1109.vers_l_est",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'est (l'orient)",
+     "slug": "c11_est_orient",
+     "translation": "le côté du soleil levant : la direction de la prière",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le soleil de justice",
+     "slug": "c11_soleil_de_justice",
+     "translation": "le nom que Malachie donne au Christ, lumière du salut",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'étoile des mages",
+     "slug": "c11_etoile_des_mages",
+     "translation": "l'étoile vue à l'orient par les mages, qui les conduit au Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'orientation des églises",
+     "slug": "c11_orientation_des_eglises",
+     "translation": "les églises sont bâties tournées vers l'est, comme la prière",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1110",
+   "sequence": 1110,
+   "title": "Bilan : ta journée de prière",
+   "description": "Les sept heures, le plan d'une heure, les gestes et les six raisons de prier vers l'est : tout le chapitre en un seul parcours.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1110.bilan_agpeya",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
+  }
+ ]
+}

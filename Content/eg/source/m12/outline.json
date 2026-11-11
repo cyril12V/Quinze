@@ -1,0 +1,130 @@
+{
+ "module": {
+  "id": 12,
+  "format": 3,
+  "title": "La tasbeha",
+  "description": "Une nuit de louange, du réveil « Levez-vous, fils de la lumière » aux quatre hoos, aux doxologies, au psali et à la théotokie du jour : le principe, les jours Adam et Watos, et la règle du soir."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g1201.reveil",
+   "category": "knowledge",
+   "title": "La tasbeha et Ten thino",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1202.nuit_louange",
+   "category": "knowledge",
+   "title": "Les six étapes de la tasbeha",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1201.reveil"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1203.hoos_lobsh",
+   "category": "knowledge",
+   "title": "Hoos et lobsh : les deux premiers",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1202.nuit_louange"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l1201",
+   "sequence": 1201,
+   "title": "Levez-vous, fils de la lumière",
+   "description": "La tasbeha, la louange de minuit : ce que le mot veut dire, quand on la prie, et le chant qui réveille l'assemblée.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1201.reveil",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la tasbeha",
+     "slug": "c12_tasbeha",
+     "translation": "la louange de minuit : une nuit de cantiques et de psalmodie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Ten thino",
+     "slug": "c12_ten_thino",
+     "translation": "« Levez-vous, fils de la lumière » : le chant qui réveille l'assemblée",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "les fils de la lumière",
+     "slug": "c12_fils_de_la_lumiere",
+     "translation": "les chrétiens, qui veillent au lieu de dormir (1 Th 5, 5)",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1202",
+   "sequence": 1202,
+   "title": "Une nuit de louange, de A à Z",
+   "description": "Le plan de la tasbeha en six étapes, comme une nuit qui se déroule : prier, se lever, louer, chanter, écouter, conclure.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1202.nuit_louange",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le difnar",
+     "slug": "c12_difnar",
+     "translation": "la lecture du jour qui rappelle le saint du jour",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Trisagion",
+     "slug": "c12_trisagion",
+     "translation": "« trois fois saint » : prière de la conclusion de la tasbeha",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "le synaxaire",
+     "slug": "c12_synaxaire",
+     "translation": "le livre des vies de saints, lu jour après jour",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1203",
+   "sequence": 1203,
+   "title": "Les hoos : chanter la Bible",
+   "description": "Ce qu'est un hoos, ce que fait le lobsh, et les deux premiers cantiques : la mer Rouge et le psaume 135.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1203.hoos_lobsh",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le hoos",
+     "slug": "c12_hoos",
+     "translation": "un cantique tiré de la Bible, chanté dans la tasbeha",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le lobsh",
+     "slug": "c12_lobsh",
+     "translation": "« explication » : la pièce qui commente le hoos qu'on vient de chanter",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le cantique de Moïse",
+     "slug": "c12_cantique_de_moise",
+     "translation": "le chant d'Ex 15 après la traversée de la mer Rouge : le 1er hoos",
+     "partOfSpeech": "work"
+    }
+   ]
+  }
+ ]
+}

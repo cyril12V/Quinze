@@ -1,0 +1,281 @@
+{
+ "lessonId": "eg.l1107",
+ "exercises": [
+  {
+   "id": "eg.l1107.e01",
+   "unitIds": [
+    "eg.g1107.plan_heure"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "prompt": "Combien d'étapes compte le plan d'une heure ?",
+   "promptLanguage": "fr",
+   "answer": "neuf",
+   "acceptedAnswers": [
+    "neuf"
+   ],
+   "explanation": "Neuf étapes, toujours les mêmes.",
+   "instruction": "Choisis la bonne réponse.",
+   "options": [
+    "trois",
+    "neuf",
+    "sept"
+   ],
+   "step": 1
+  },
+  {
+   "id": "eg.l1107.e02",
+   "unitIds": [
+    "eg.g1107.plan_heure",
+    "eg.v.c11_psaume_50"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "prompt": "Quel psaume est la prière de repentance de David ?",
+   "promptLanguage": "fr",
+   "answer": "le psaume 50",
+   "acceptedAnswers": [
+    "le psaume 50"
+   ],
+   "explanation": "Le psaume 50 : « Aie pitié de moi, ô Dieu ».",
+   "instruction": "Choisis la bonne réponse.",
+   "options": [
+    "le psaume 150",
+    "le psaume 23",
+    "le psaume 50"
+   ],
+   "step": 2
+  },
+  {
+   "id": "eg.l1107.e03",
+   "unitIds": [
+    "eg.g1107.plan_heure",
+    "eg.v.c11_notre_pere"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "prompt": "Par quelle prière une heure commence-t-elle ?",
+   "promptLanguage": "fr",
+   "answer": "le Notre Père",
+   "acceptedAnswers": [
+    "le Notre Père"
+   ],
+   "explanation": "La prière que le Christ a lui-même enseignée.",
+   "instruction": "Choisis la bonne réponse.",
+   "options": [
+    "le Notre Père",
+    "le Credo",
+    "le Trisagion"
+   ],
+   "step": 2
+  },
+  {
+   "id": "eg.l1107.e04",
+   "unitIds": [
+    "eg.g1107.plan_heure"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "prompt": "Que lit-on après les psaumes de l'heure ?",
+   "promptLanguage": "fr",
+   "answer": "un passage de l'Évangile",
+   "acceptedAnswers": [
+    "un passage de l'Évangile"
+   ],
+   "explanation": "On parle à Dieu, puis on l'écoute.",
+   "instruction": "Choisis la bonne réponse.",
+   "options": [
+    "la vie d'un saint",
+    "un passage de l'Évangile",
+    "le Credo en entier"
+   ],
+   "step": 3
+  },
+  {
+   "id": "eg.l1107.e05",
+   "unitIds": [
+    "eg.g1107.plan_heure"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "prompt": "Combien de fois dit-on Kyrie eleison ?",
+   "promptLanguage": "fr",
+   "answer": "41",
+   "acceptedAnswers": [
+    "41"
+   ],
+   "explanation": "41 fois : la leçon suivante dit pourquoi.",
+   "instruction": "Choisis la bonne réponse.",
+   "options": [
+    "7",
+    "50",
+    "41"
+   ],
+   "step": 4
+  },
+  {
+   "id": "eg.l1107.e06",
+   "unitIds": [
+    "eg.g1107.plan_heure",
+    "eg.v.c11_psaume_50"
+   ],
+   "type": "mcq",
+   "difficulty": 1,
+   "prompt": "Dans quel bloc se trouve le psaume 50 ?",
+   "promptLanguage": "fr",
+   "answer": "ouvrir",
+   "acceptedAnswers": [
+    "ouvrir"
+   ],
+   "explanation": "Notre Père, action de grâce, psaume 50 : le bloc qui ouvre.",
+   "instruction": "Choisis la bonne réponse.",
+   "options": [
+    "ouvrir",
+    "conclure",
+    "louer et écouter"
+   ],
+   "step": 5
+  },
+  {
+   "id": "eg.l1107.e07",
+   "unitIds": [
+    "eg.g1107.plan_heure"
+   ],
+   "type": "reorder",
+   "difficulty": 2,
+   "prompt": "Remets ces étapes d'une heure dans l'ordre.",
+   "promptLanguage": "fr",
+   "answer": "Notre-Père psaume-50 Évangile Kyrie",
+   "acceptedAnswers": [
+    "Notre-Père psaume-50 Évangile Kyrie"
+   ],
+   "explanation": "On ouvre, on demande pardon, on écoute l'Évangile, puis on supplie.",
+   "instruction": "Remets dans l'ordre.",
+   "tokens": [
+    "Kyrie",
+    "psaume-50",
+    "Notre-Père",
+    "Évangile"
+   ]
+  },
+  {
+   "id": "eg.l1107.e08",
+   "unitIds": [
+    "eg.g1107.plan_heure",
+    "eg.v.c11_notre_pere",
+    "eg.v.c11_psaume_50",
+    "eg.v.c11_absolution"
+   ],
+   "type": "match",
+   "difficulty": 2,
+   "prompt": "Relie chaque pièce de l'heure à son rôle.",
+   "promptLanguage": "fr",
+   "acceptedAnswers": [],
+   "explanation": "Quatre pièces, quatre rôles.",
+   "instruction": "Associe.",
+   "pairs": [
+    {
+     "left": "Notre Père",
+     "right": "la prière que le Christ a enseignée"
+    },
+    {
+     "left": "psaume 50",
+     "right": "la repentance de David"
+    },
+    {
+     "left": "Kyrie eleison",
+     "right": "Seigneur, aie pitié"
+    },
+    {
+     "left": "absolution",
+     "right": "le pardon demandé à Dieu"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1107.e09",
+   "unitIds": [
+    "eg.g1107.plan_heure",
+    "eg.v.c11_notre_pere"
+   ],
+   "type": "fill_blank",
+   "difficulty": 2,
+   "prompt": "On commence chaque heure par le ___ Père.",
+   "promptLanguage": "fr",
+   "answer": "Notre",
+   "acceptedAnswers": [
+    "Notre"
+   ],
+   "explanation": "Notre Père, la prière du Christ.",
+   "instruction": "Complète la phrase."
+  },
+  {
+   "id": "eg.l1107.e10",
+   "unitIds": [
+    "eg.g1102.prime_aube",
+    "eg.v.c11_prime",
+    "eg.g1107.plan_heure"
+   ],
+   "type": "mcq",
+   "difficulty": 2,
+   "prompt": "Tu pries Prime à 6 h, puis Tierce à 9 h. Combien d'étapes compte chacune ?",
+   "promptLanguage": "fr",
+   "answer": "neuf",
+   "acceptedAnswers": [
+    "neuf"
+   ],
+   "explanation": "Toutes les heures ont le même plan.",
+   "instruction": "Choisis la bonne réponse.",
+   "options": [
+    "sept",
+    "neuf",
+    "quarante et une"
+   ]
+  },
+  {
+   "id": "eg.l1107.e11",
+   "unitIds": [
+    "eg.g1103.tierce",
+    "eg.v.c11_tierce",
+    "eg.g1107.plan_heure"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "prompt": "Tierce et Sexte ont-elles des plans différents ?",
+   "promptLanguage": "fr",
+   "answer": "Non : seuls les psaumes et l'Évangile changent",
+   "acceptedAnswers": [
+    "Non : seuls les psaumes et l'Évangile changent"
+   ],
+   "explanation": "Le squelette est le même pour toutes les heures.",
+   "instruction": "Choisis la bonne réponse.",
+   "options": [
+    "Oui : chaque heure a son propre plan",
+    "Oui : Sexte n'a pas de psaumes",
+    "Non : seuls les psaumes et l'Évangile changent"
+   ]
+  },
+  {
+   "id": "eg.l1107.e12",
+   "unitIds": [
+    "eg.g1107.plan_heure",
+    "eg.v.c11_psaume_50"
+   ],
+   "type": "mcq",
+   "difficulty": 3,
+   "prompt": "Pourquoi le psaume 50 vient-il avant les psaumes de louange ?",
+   "promptLanguage": "fr",
+   "answer": "Avant de louer, on reconnaît qu'on est pécheur",
+   "acceptedAnswers": [
+    "Avant de louer, on reconnaît qu'on est pécheur"
+   ],
+   "explanation": "On se présente à Dieu avec humilité, puis on loue.",
+   "instruction": "Choisis la bonne réponse.",
+   "options": [
+    "Avant de louer, on reconnaît qu'on est pécheur",
+    "Il est le plus court des psaumes",
+    "Il annonce la fin de l'heure"
+   ]
+  }
+ ]
+}

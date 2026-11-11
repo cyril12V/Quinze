@@ -1,0 +1,515 @@
+{
+ "module": {
+  "id": 10,
+  "format": 3,
+  "title": "L'église et le clergé",
+  "description": "Une visite guidée : on entre par la porte, on avance jusqu'à l'autel et on découvre pourquoi chaque chose est là. Puis le clergé, du psalte au pape, et les moines qui le nourrissent."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g1001.orientation_est",
+   "category": "knowledge",
+   "title": "L'orientation de l'église : vers l'est",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1002.trois_parties",
+   "category": "knowledge",
+   "title": "Trois parties, comme le Tabernacle",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1001.orientation_est"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1003.iconostase",
+   "category": "knowledge",
+   "title": "L'iconostase (higab) et ses icônes",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1002.trois_parties"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1004.symboles",
+   "category": "knowledge",
+   "title": "L'œuf, les lampes, l'encens et les icônes",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1003.iconostase"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1005.haikal",
+   "category": "knowledge",
+   "title": "Le sanctuaire (haikal) et l'autel",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1004.symboles"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1006.objets_autel",
+   "category": "knowledge",
+   "title": "Les objets de l'autel",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1005.haikal"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1007.diaconat",
+   "category": "knowledge",
+   "title": "Le diaconat : cinq rangs",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1006.objets_autel"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1008.pretres_eveques",
+   "category": "knowledge",
+   "title": "Prêtres, évêques et patriarche",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1007.diaconat"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1009.choisir_pape",
+   "category": "knowledge",
+   "title": "Choisir un pape : le vote puis le sort",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1008.pretres_eveques"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1010.moines",
+   "category": "knowledge",
+   "title": "Les moines et les monastères",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1009.choisir_pape"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1011.bilan",
+   "category": "knowledge",
+   "title": "Bilan : l'église et le clergé",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1010.moines"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l1001",
+   "sequence": 1001,
+   "title": "Pourquoi l'église regarde l'est",
+   "description": "Tu entres par la porte et tu te demandes pourquoi tout le monde regarde dans la même direction : l'est. Trois raisons, et une arche.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1001.orientation_est",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'orientation vers l'est",
+     "slug": "c10_orientation_est",
+     "translation": "l'église est tournée vers l'est, vers le Christ, soleil de justice",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'arche de Noé",
+     "slug": "c10_arche_de_noe",
+     "translation": "forme la plus courante d'une église : un navire qui sauve",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la nef",
+     "slug": "c10_nef",
+     "translation": "la grande salle où se tiennent les fidèles",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1002",
+   "sequence": 1002,
+   "title": "Trois parties, un chemin",
+   "description": "Narthex, nef, sanctuaire : en avançant, tu refais le chemin d'Israël dans la tente de Moïse.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1002.trois_parties",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g1001.orientation_est"
+   ],
+   "vocabulary": [
+    {
+     "word": "le narthex",
+     "slug": "c10_narthex",
+     "translation": "l'entrée de l'église, à l'ouest, autrefois pour les catéchumènes",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Tabernacle de Moïse",
+     "slug": "c10_tabernacle_de_moise",
+     "translation": "la tente de Dieu bâtie au Sinaï sur un modèle montré à Moïse",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le lieu saint",
+     "slug": "c10_lieu_saint",
+     "translation": "le deuxième espace du Tabernacle ; il correspond à la nef",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "le saint des saints",
+     "slug": "c10_saint_des_saints",
+     "translation": "le dernier espace du Tabernacle ; il correspond au sanctuaire",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1003",
+   "sequence": 1003,
+   "title": "Le mur d'icônes",
+   "description": "Devant toi se dresse un mur couvert de visages : l'iconostase. Qui est où, et pourquoi la Cène juste au-dessus de la porte ?",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1003.iconostase",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g1002.trois_parties"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'iconostase (higab)",
+     "slug": "c10_iconostase",
+     "translation": "cloison couverte d'icônes qui sépare la nef et le sanctuaire",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la porte royale",
+     "slug": "c10_porte_royale",
+     "translation": "la grande porte centrale de l'iconostase, qui mène à l'autel",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "saint Jean-Baptiste",
+     "slug": "c10_saint_jean_baptiste",
+     "translation": "le Précurseur, qui a préparé la venue du Christ",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1004",
+   "sequence": 1004,
+   "title": "Un œuf, une flamme, un nuage",
+   "description": "Un œuf d'autruche, des lampes, de l'encens : trois signes que tu vois tous les dimanches, et ce qu'ils racontent.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1004.symboles",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g1001.orientation_est",
+    "eg.g1003.iconostase"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'œuf d'autruche",
+     "slug": "c10_oeuf_d_autruche",
+     "translation": "œuf suspendu devant l'iconostase : Dieu veille sans cesse, et la résurrection",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la lampe à huile",
+     "slug": "c10_lampe_a_huile",
+     "translation": "lampe allumée devant les icônes : la lumière du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'encens",
+     "slug": "c10_encens",
+     "translation": "résine parfumée dont la fumée représente les prières qui montent",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'adoration",
+     "slug": "c10_adoration",
+     "translation": "honneur suprême, dû à Dieu seul",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1005",
+   "sequence": 1005,
+   "title": "Le sanctuaire : terre sainte",
+   "description": "Tu te déchausses, tu passes la porte royale : voici le haikal, l'autel qui est à la fois tombeau et table, et l'huile sainte qui le consacre.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1005.haikal",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g1002.trois_parties",
+    "eg.g1003.iconostase"
+   ],
+   "vocabulary": [
+    {
+     "word": "le haikal",
+     "slug": "c10_haikal",
+     "translation": "le sanctuaire, partie la plus sainte de l'église, à l'est",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "l'autel",
+     "slug": "c10_autel",
+     "translation": "cube de pierre ou de bois, qui représente le tombeau du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "entrer déchaussé",
+     "slug": "c10_entrer_dechausse",
+     "translation": "ôter ses chaussures pour entrer dans le haikal, comme Moïse",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1006",
+   "sequence": 1006,
+   "title": "Sur l'autel",
+   "description": "Un ciel peint au-dessus, une coupe, un plateau, une étoile : les objets de l'autel et ce qu'ils rappellent.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1006.objets_autel",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g1005.haikal"
+   ],
+   "vocabulary": [
+    {
+     "word": "le ciborium",
+     "slug": "c10_ciborium",
+     "translation": "coupole sur quatre piliers au-dessus de l'autel",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le calice",
+     "slug": "c10_calice",
+     "translation": "la coupe qui contient le vin mêlé d'eau, sang du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la patène",
+     "slug": "c10_patene",
+     "translation": "petit plateau rond qui porte le pain devenu le corps du Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'astérisque",
+     "slug": "c10_asterisque",
+     "translation": "l'étoile : deux bandes croisées posées sur la patène, en souvenir de l'étoile des mages",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1007",
+   "sequence": 1007,
+   "title": "Du psalte à l'archidiacre",
+   "description": "Cinq marches pour servir à l'autel : celui qui chante, celui qui lit, celui qui garde, celui qui sert, celui qui dirige.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1007.diaconat",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g1005.haikal",
+    "eg.g311.heraclas_hierarchie"
+   ],
+   "vocabulary": [
+    {
+     "word": "le diaconat",
+     "slug": "c10_diaconat",
+     "translation": "le ministère des diacres, en cinq rangs",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le psalte (épsaltos)",
+     "slug": "c10_psalte",
+     "translation": "le chantre, premier rang du diaconat, qui chante les hymnes",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le lecteur (anagnostès)",
+     "slug": "c10_lecteur",
+     "translation": "deuxième rang du diaconat : il lit les lectures de la Bible",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le sous-diacre (hypodiacre)",
+     "slug": "c10_sous_diacre",
+     "translation": "troisième rang du diaconat : il aide les diacres et garde les portes",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1008",
+   "sequence": 1008,
+   "title": "Prêtres, évêques, patriarche",
+   "description": "Qui célèbre, qui ordonne, qui préside : le prêtre qu'on appelle abouna, l'évêque venu du monastère et le pape d'Alexandrie.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1008.pretres_eveques",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g1007.diaconat",
+    "eg.g311.heraclas_hierarchie"
+   ],
+   "vocabulary": [
+    {
+     "word": "abouna",
+     "slug": "c10_abouna",
+     "translation": "« notre père » : nom donné au prêtre en arabe",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "le qommos (hégoumène)",
+     "slug": "c10_qommos",
+     "translation": "archiprêtre : prêtre promu à la tête des prêtres d'une église",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le métropolite",
+     "slug": "c10_metropolite",
+     "translation": "évêque d'un grand diocèse, promu au-dessus des autres évêques",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le saint-synode",
+     "slug": "c10_saint_synode",
+     "translation": "assemblée des évêques de l'Église, présidée par le pape",
+     "partOfSpeech": "organization"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1009",
+   "sequence": 1009,
+   "title": "Choisir un pape",
+   "description": "Le trône est vide. Un vote retient trois noms, puis un enfant aux yeux bandés en tire un sur l'autel : l'élection la plus surprenante de l'Église.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1009.choisir_pape",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g1005.haikal",
+    "eg.g1008.pretres_eveques"
+   ],
+   "vocabulary": [
+    {
+     "word": "la qor'a haykaleya",
+     "slug": "c10_qora_haykaleya",
+     "translation": "tirage au sort sur l'autel, par un enfant, pour désigner le pape",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Chenouda III",
+     "slug": "c10_chenouda_iii",
+     "translation": "117e pape d'Alexandrie, mort en 2012",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Tawadros II",
+     "slug": "c10_tawadros_ii",
+     "translation": "118e pape d'Alexandrie, choisi par tirage au sort en 2012",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1010",
+   "sequence": 1010,
+   "title": "Les moines, du désert à aujourd'hui",
+   "description": "Antoine et Paul ont lancé un élan qui n'a jamais cessé : des moines vivent encore près de la mer Rouge et à Wadi Natroun.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1010.moines",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g410.monachisme_antoine",
+    "eg.g411.communautes"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'abbé",
+     "slug": "c10_abbe",
+     "translation": "le père et le chef d'un monastère, aussi appelé higoumène",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'eskime (schème)",
+     "slug": "c10_eskime",
+     "translation": "cordon de cuir orné de croix : l'habit des moines les plus avancés",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le monastère Saint-Antoine",
+     "slug": "c10_monastere_saint_antoine",
+     "translation": "monastère près de la mer Rouge, autour des lieux de saint Antoine",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Wadi Natroun",
+     "slug": "c10_wadi_natroun",
+     "translation": "vallée au nord-ouest du Caire, ancienne Scété, qui garde quatre monastères",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1011",
+   "sequence": 1011,
+   "title": "Bilan : l'église et le clergé",
+   "description": "De la porte à l'autel, du psalte au pape : le chapitre en un coup d'œil, et trois confusions à ne jamais faire.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1011.bilan",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g1007.diaconat",
+    "eg.g1008.pretres_eveques",
+    "eg.g1009.choisir_pape",
+    "eg.g1010.moines"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'icône",
+     "slug": "c10_icone",
+     "translation": "image sacrée qu'on vénère : une fenêtre vers celui qu'elle représente",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le moine",
+     "slug": "c10_moine",
+     "translation": "celui qui quitte le monde pour prier, travailler et jeûner",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le clergé",
+     "slug": "c10_clerge",
+     "translation": "les ministres ordonnés, du diacre au pape, qui servent l'Église",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
+}

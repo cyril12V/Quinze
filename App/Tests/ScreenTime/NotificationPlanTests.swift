@@ -38,7 +38,7 @@ final class NotificationPlanTests: XCTestCase {
         let items = plan()
         let morning = items.first { $0.kind == .lesson && $0.slot == .morning && $0.day == today }
         XCTAssertEqual(morning?.fireDate, date(today, 9))
-        XCTAssertEqual(morning?.body, "Ta leçon d'anglais est prête. Cinq minutes pour progresser.")
+        XCTAssertEqual(morning?.body, "Ta leçon est prête. Cinq minutes pour progresser.")
         XCTAssertEqual(morning?.identifier, "quinze.n.lesson.2026-10-14.morning")
     }
 
@@ -78,7 +78,7 @@ final class NotificationPlanTests: XCTestCase {
         XCTAssertEqual(tomorrow?.body.contains("révisions"), true)
         // Other slots keep the standard text.
         let morning = items.first { $0.kind == .lesson && $0.slot == .morning }
-        XCTAssertEqual(morning?.body, "Ta leçon d'anglais est prête. Cinq minutes pour progresser.")
+        XCTAssertEqual(morning?.body, "Ta leçon est prête. Cinq minutes pour progresser.")
     }
 
     func testSingularReviewAndOptOut() {
@@ -88,7 +88,7 @@ final class NotificationPlanTests: XCTestCase {
         var preferences = NotificationPreferences.default
         preferences.reviewAvailable = false
         let off = plan(preferences: preferences, dueReviewCount: 5).first { $0.kind == .lesson && $0.slot == .evening }
-        XCTAssertEqual(off?.body, "Ta leçon d'anglais est prête. Cinq minutes pour progresser.")
+        XCTAssertEqual(off?.body, "Ta leçon est prête. Cinq minutes pour progresser.")
     }
 
     func testPreferencesSwitchesAreRespected() {

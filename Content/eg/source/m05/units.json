@@ -208,5 +208,75 @@
    ],
    "tip": "Éphèse 431 = Théodose II convoque, Cyrille préside, Jean est en retard, deux conciles."
   }
+ },
+ {
+  "id": "eg.g507.decisions_ephese",
+  "rule": {
+   "summary": "Éphèse (431) dépose et anathématise Nestorius, proclame Marie Théotokos, confirme le credo de Nicée en interdisant d'en composer un autre, et condamne aussi Pélage. Nestorius est exilé en Haute-Égypte.",
+   "explanation": "Ces décisions sont celles que l'Église copte reconnaît pleinement : Éphèse est son troisième concile. Plus tard, les coptes reprocheront à Chalcédoine d'ajouter une nouvelle définition à un credo qu'Éphèse avait interdit de changer. Selon la tradition copte, Nestorius finit ses jours à Akhmim.",
+   "pattern": "Éphèse : Nestorius déposé + Théotokos + credo intouchable + Pélage condamné.",
+   "examples": [
+    {
+     "text": "Éphèse proclame Marie Théotokos.",
+     "translation": "Celle qui enfante Dieu."
+    },
+    {
+     "text": "Il est interdit de composer un autre credo.",
+     "translation": "Le credo de Nicée suffit."
+    },
+    {
+     "text": "Pélage nie la nécessité de la grâce.",
+     "translation": "Le concile le condamne."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Éphèse condamne Eutychès.",
+     "right": "Éphèse condamne Nestorius (et Pélage).",
+     "why": "Eutychès n'apparaît qu'en 448."
+    },
+    {
+     "wrong": "Éphèse écrit un nouveau credo.",
+     "right": "Éphèse confirme celui de Nicée et interdit d'en composer un autre.",
+     "why": "C'est pourquoi les coptes jugent Chalcédoine problématique."
+    }
+   ],
+   "tip": "Éphèse : déposer Nestorius, honorer Marie, garder le credo, rappeler la grâce."
+  }
+ },
+ {
+  "id": "eg.g508.formule_union",
+  "rule": {
+   "summary": "En 433, Cyrille et Jean d'Antioche signent la formule d'union : Jean accepte la déposition de Nestorius et Théotokos, Cyrille un vocabulaire plus nuancé. La question du nombre de natures reste ouverte. Cyrille meurt en 444 ; Dioscore lui succède, Flavien devient patriarche de Constantinople en 446.",
+   "explanation": "Après Éphèse, les Orientaux restent fâchés contre les anathèmes de Cyrille. L'empereur veut la paix. Le compromis de 433 apaise les esprits mais ne tranche pas : une ou deux natures ? Des partisans de Nestorius gagnent la Perse, où naît l'Église de l'Orient. En 444, Dioscore succède à Cyrille.",
+   "pattern": "431 Éphèse → 433 formule d'union → 444 mort de Cyrille, Dioscore 25e pape → 446 Flavien.",
+   "examples": [
+    {
+     "text": "En 433, Cyrille et Jean d'Antioche signent un compromis.",
+     "translation": "La formule d'union."
+    },
+    {
+     "text": "Des partisans de Nestorius partent en Perse.",
+     "translation": "Naissance de l'Église de l'Orient."
+    },
+    {
+     "text": "En 444, Dioscore succède à Cyrille.",
+     "translation": "Il est le 25e pape."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "L'Église de l'Orient est l'Église copte.",
+     "right": "C'est une Église née en Perse chez des partisans de Nestorius.",
+     "why": "Rien à voir avec l'Église copte."
+    },
+    {
+     "wrong": "Après 433, tout est réglé.",
+     "right": "La question « une ou deux natures ? » reste ouverte.",
+     "why": "La paix est fragile."
+    }
+   ],
+   "tip": "431 le choc, 433 la paix, 444 le départ de Cyrille."
+  }
  }
 ]

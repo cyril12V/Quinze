@@ -8,7 +8,7 @@ import LearningPrimitives
 // Notifications are a reminder only: restrictions never depend on them (§16.3).
 
 struct NotificationPreferences: Codable, Equatable, Sendable {
-    /// "Ta leçon d'anglais est prête. Cinq minutes pour progresser." at each slot time.
+    /// "Ta leçon est prête. Cinq minutes pour progresser." at each slot time.
     var lessonReminders: Bool = true
     /// Reminder if the slot's lesson is still not done after `unfinishedReminderDelayMinutes`.
     var unfinishedReminder: Bool = true
@@ -187,7 +187,7 @@ final class NotificationScheduler {
                         items.append(PlannedNotification(
                             identifier: identifier(.unfinished, day: day, slot: slot), kind: .unfinished, slot: slot, day: day,
                             fireDate: late, title: "Ta leçon t'attend",
-                            body: "Il reste une leçon d'anglais à faire. Cinq minutes suffisent."))
+                            body: "Il reste une leçon à faire. Cinq minutes suffisent."))
                     }
                 }
             }
@@ -207,7 +207,7 @@ final class NotificationScheduler {
     nonisolated private static func lessonBody(slot: SessionSlot, isToday: Bool,
                                                preferences: NotificationPreferences, dueReviewCount: Int) -> String {
         guard slot == .evening, preferences.reviewAvailable, dueReviewCount > 0 else {
-            return "Ta leçon d'anglais est prête. Cinq minutes pour progresser."
+            return "Ta leçon est prête. Cinq minutes pour progresser."
         }
         if isToday {
             let reviews = dueReviewCount == 1 ? "1 révision t'attend" : "\(dueReviewCount) révisions t'attendent"

@@ -1,0 +1,513 @@
+{
+ "module": {
+  "id": 2,
+  "format": 3,
+  "title": "Le deuxième siècle",
+  "description": "Les apôtres sont morts : qui garde la foi ? Martyrs, apologistes, hérésies et choix des livres saints, jusqu'à Démétrios d'Alexandrie."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g201.releve",
+   "category": "knowledge",
+   "title": "Les apôtres sont morts : qui garde la foi ?",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g202.sieges",
+   "category": "knowledge",
+   "title": "Quatre Églises, quatre fondateurs",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g201.releve"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g203.ignace",
+   "category": "knowledge",
+   "title": "Ignace en route vers les lions",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g202.sieges"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g204.polycarpe",
+   "category": "knowledge",
+   "title": "Polycarpe sur le bûcher",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g203.ignace"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g205.ichthys",
+   "category": "knowledge",
+   "title": "Le poisson dans le sable",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g204.polycarpe"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g206.justin",
+   "category": "knowledge",
+   "title": "Justin le philosophe",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g205.ichthys"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g207.gnose",
+   "category": "knowledge",
+   "title": "Le savoir secret des gnostiques",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g206.justin"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g208.marcion",
+   "category": "knowledge",
+   "title": "Marcion déchire la Bible",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g207.gnose"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g209.montan",
+   "category": "knowledge",
+   "title": "Montan et la nouvelle prophétie",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g208.marcion"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g210.canon",
+   "category": "knowledge",
+   "title": "Quels livres garder ?",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g209.montan"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g211.demetrios",
+   "category": "knowledge",
+   "title": "Démétrios, le vigneron devenu pape",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g210.canon"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g212.bilan",
+   "category": "knowledge",
+   "title": "Bilan du IIe siècle",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g211.demetrios"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l201",
+   "sequence": 201,
+   "title": "Les apôtres sont morts : qui garde la foi ?",
+   "description": "Plus aucun témoin du Christ n'est en vie : comment l'Église garde-t-elle la foi intacte ?",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g201.releve",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "une hérésie",
+     "slug": "c02_heresie",
+     "translation": "enseignement qui s'écarte de la foi reçue des apôtres",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la succession apostolique",
+     "slug": "c02_succession",
+     "translation": "chaîne d'évêques qui remonte jusqu'aux apôtres",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la sainte tradition",
+     "slug": "c02_tradition",
+     "translation": "ce que les apôtres ont transmis de vive voix et par la vie de l'Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un évêque",
+     "slug": "c02_eveque",
+     "translation": "responsable d'une Église locale, successeur des apôtres",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l202",
+   "sequence": 202,
+   "title": "Quatre Églises, quatre fondateurs",
+   "description": "Rome, Alexandrie, Antioche, Jérusalem : les quatre sièges apostoliques, dont celui de saint Marc, notre Église.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g202.sieges",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le siège d'Alexandrie",
+     "slug": "c02_siege_alexandrie",
+     "translation": "Église fondée par saint Marc : c'est l'Église copte",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "le siège de Rome",
+     "slug": "c02_siege_rome",
+     "translation": "Église fondée par les apôtres Pierre et Paul",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "le siège d'Antioche",
+     "slug": "c02_siege_antioche",
+     "translation": "Église de Syrie rattachée à l'apôtre Pierre",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "le siège de Jérusalem",
+     "slug": "c02_siege_jerusalem",
+     "translation": "la première Église, née autour des apôtres, avec saint Jacques",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l203",
+   "sequence": 203,
+   "title": "Ignace en route vers les lions",
+   "description": "Clément écrit à Corinthe, Ignace est enchaîné vers Rome, Pline interroge l'empereur : les premiers Pères après les apôtres.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g203.ignace",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les Pères apostoliques",
+     "slug": "c02_peres_apostoliques",
+     "translation": "premiers Pères de l'Église, proches des apôtres",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Clément de Rome",
+     "slug": "c02_clement",
+     "translation": "évêque de Rome, auteur d'une lettre aux Corinthiens vers 96",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Ignace d'Antioche",
+     "slug": "c02_ignace",
+     "translation": "évêque d'Antioche, martyr à Rome vers 110",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "« catholique » au sens premier",
+     "slug": "c02_catholique",
+     "translation": "du grec katholikos : « selon le tout », universel",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l204",
+   "sequence": 204,
+   "title": "Polycarpe sur le bûcher",
+   "description": "Un vieil évêque, disciple de l'apôtre Jean, refuse de renier son Roi.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g204.polycarpe",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Polycarpe de Smyrne",
+     "slug": "c02_polycarpe",
+     "translation": "évêque de Smyrne, disciple de l'apôtre Jean, martyr",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Smyrne",
+     "slug": "c02_smyrne",
+     "translation": "ville d'Asie Mineure (Izmir) dont Polycarpe est l'évêque",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "un martyr",
+     "slug": "c02_martyr",
+     "translation": "« témoin » : chrétien qui préfère mourir plutôt que de renier le Christ",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l205",
+   "sequence": 205,
+   "title": "Le poisson dans le sable",
+   "description": "Pourquoi Rome persécute les chrétiens, et comment ils se reconnaissent sans se trahir : le signe ICHTHYS.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g205.ichthys",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ICHTHYS (le poisson)",
+     "slug": "c02_ichthys",
+     "translation": "« poisson » en grec : Jésus Christ, Fils de Dieu, Sauveur",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le culte de l'empereur",
+     "slug": "c02_culte_empereur",
+     "translation": "rite public où l'on offre de l'encens à l'empereur",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "une persécution",
+     "slug": "c02_persecution",
+     "translation": "période où l'Empire punit les chrétiens qui refusent le culte",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Blandine",
+     "slug": "c02_blandine",
+     "translation": "jeune esclave, martyre de Lyon en 177",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l206",
+   "sequence": 206,
+   "title": "Justin le philosophe",
+   "description": "Un philosophe devient chrétien et défend la foi devant l'empereur ; Tertullien, l'avocat de Carthage, prend la suite.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g206.justin",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Justin Martyr",
+     "slug": "c02_justin",
+     "translation": "philosophe converti, apologiste, martyr à Rome vers 165",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "un apologiste",
+     "slug": "c02_apologiste",
+     "translation": "écrivain chrétien qui défend la foi devant le monde païen",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Tertullien",
+     "slug": "c02_tertullien",
+     "translation": "juriste de Carthage, auteur de l'Apologétique en 197",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les semences du Verbe",
+     "slug": "c02_semences",
+     "translation": "parts de vérité que Justin voit chez les philosophes",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l207",
+   "sequence": 207,
+   "title": "Le savoir secret des gnostiques",
+   "description": "Des maîtres promettent une connaissance réservée à quelques-uns, et un Christ qui n'aurait eu qu'un corps de fantôme.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g207.gnose",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la gnose",
+     "slug": "c02_gnose",
+     "translation": "du grec gnosis : « connaissance » secrète réservée aux initiés",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le docétisme",
+     "slug": "c02_docetisme",
+     "translation": "du grec dokein : le Christ n'aurait eu qu'un corps apparent",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Irénée de Lyon",
+     "slug": "c02_irenee",
+     "translation": "évêque de Lyon, disciple de Polycarpe, auteur de Contre les hérésies",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Nag Hammadi",
+     "slug": "c02_nag_hammadi",
+     "translation": "lieu d'Égypte où l'on a retrouvé des textes gnostiques en copte",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l208",
+   "sequence": 208,
+   "title": "Marcion déchire la Bible",
+   "description": "Un armateur de Sinope croit à deux dieux et ne garde que Luc et dix lettres de Paul.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g208.marcion",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Marcion",
+     "slug": "c02_marcion",
+     "translation": "armateur de Sinope, exclu de l'Église de Rome vers 144",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Contre Marcion",
+     "slug": "c02_contre_marcion",
+     "translation": "livre de Tertullien qui réfute Marcion",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "l'Ancien Testament",
+     "slug": "c02_ancien_testament",
+     "translation": "les livres saints d'avant la venue du Christ",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l209",
+   "sequence": 209,
+   "title": "Montan et la nouvelle prophétie",
+   "description": "Un prophète en transe annonce la fin du monde : pourquoi l'Église dit non au zèle sans mesure.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g209.montan",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Montanus",
+     "slug": "c02_montanus",
+     "translation": "prophète de Phrygie qui annonce un nouvel âge de l'Esprit vers 170",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le Paraclet",
+     "slug": "c02_paraclet",
+     "translation": "titre de l'Esprit Saint promis par Jésus (Jean 14, 26)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Priscilla et Maximilla",
+     "slug": "c02_priscilla",
+     "translation": "les deux prophétesses qui suivent Montanus",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l210",
+   "sequence": 210,
+   "title": "Quels livres garder ?",
+   "description": "Marcion a taillé sa Bible : comment l'Église décide-t-elle de la liste des livres saints ?",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g210.canon",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le canon des Écritures",
+     "slug": "c02_canon",
+     "translation": "du grec kanôn, « règle » : la liste des livres reconnus par l'Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la règle de foi",
+     "slug": "c02_regle_foi",
+     "translation": "résumé de la foi du baptême, racine du Credo",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Fragment de Muratori",
+     "slug": "c02_muratori",
+     "translation": "ancienne liste romaine de livres du Nouveau Testament",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l211",
+   "sequence": 211,
+   "title": "Démétrios, le vigneron devenu pape",
+   "description": "Un paysan illettré devient pape d'Alexandrie, règle la date de Pâques et fait briller l'école.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g211.demetrios",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "saint Démétrios",
+     "slug": "c02_demetrios",
+     "translation": "XIIe pape d'Alexandrie, élu en 189, surnommé le vigneron",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le pape d'Alexandrie",
+     "slug": "c02_pape_alexandrie",
+     "translation": "titre de l'évêque d'Alexandrie, chef de l'Église copte",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la date de Pâques",
+     "slug": "c02_date_paques",
+     "translation": "débat du IIe siècle : le 14 Nisan ou le dimanche suivant",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'épacte",
+     "slug": "c02_epacte",
+     "translation": "calcul lunaire d'Alexandrie pour dater Pâques",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l212",
+   "sequence": 212,
+   "title": "Bilan du IIe siècle",
+   "description": "La frise, les trois remparts, les quatre erreurs et les liens avec Alexandrie : tout le chapitre en un coup d'œil.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g212.bilan",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
+  }
+ ]
+}

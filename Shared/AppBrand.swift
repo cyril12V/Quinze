@@ -5,4 +5,13 @@ enum AppBrand {
     static var name: String {
         (Bundle.main.object(forInfoDictionaryKey: "AppBrandName") as? String).flatMap { $0.isEmpty ? nil : $0 } ?? "Quinze"
     }
+
+    /// Nofri calls its modules « chapitres ».
+    static var moduleWord: String {
+        #if NOFRI
+        return "Chapitre"
+        #else
+        return "Module"
+        #endif
+    }
 }

@@ -195,14 +195,22 @@ final class LessonController: Identifiable {
         guard let item = currentItem else { return nil }
         if case .courseCard = item.kind { return "Cours" }
         switch item.role {
-        case .assessment: return plan.examModule != nil ? "Contrôle du module" : "Test"
+        case .assessment: return plan.examModule != nil ? "Contrôle du \(AppBrand.moduleWord.lowercased())" : "Test"
         case .recentReview: return plan.type == .learning ? "Rappel" : "Bilan du jour"
         case .oldReview: return "Révision"
         case .activeRecall: return "De mémoire"
         case .remediation: return "On réessaie"
         case .newMaterial, .practice:
             switch plan.type {
-            case .learning: return plan.lessonId == nil ? "Révision ciblée" : "Nouvelle leçon"
+            case .learning:
+                if plan.lessonId == nil { return "Révision ciblée" }
+                // Guided lessons: the easy question right after a card, then the training.
+                if currentExercise?.step != nil { return "À toi" }
+                #if NOFRI
+                return item.role == .practice ? "Entraînement" : "Nouvelle leçon"
+                #else
+                return "Nouvelle leçon"
+                #endif
             case .consolidation: return "Bilan du jour"
             default: return "Entraînement"
             }

@@ -70,7 +70,7 @@ struct PathModuleSummary: Identifiable, Sendable {
 
     /// Sentence read by VoiceOver for the whole card.
     var spokenSummary: String {
-        "Module \(id), \(info.title). \(countText). \(status.label)."
+        "\(AppBrand.moduleWord) \(id), \(info.title). \(countText). \(status.label)."
     }
 }
 
@@ -234,7 +234,7 @@ struct PathModuleCard: View {
         PastelCard(module.pastel) {
             VStack(alignment: .leading, spacing: Theme.Spacing.m) {
                 QFlowLayout() {
-                    QPill(text: "Module \(module.id)")
+                    QPill(text: "\(AppBrand.moduleWord) \(module.id)")
                     QPill(text: module.status.label, icon: module.status.icon)
                 }
                 HStack(alignment: .top, spacing: 12) {
@@ -311,7 +311,7 @@ struct ModuleDetailView: View {
                 .qAppear(module.lessons.count + 1)
             }
         }
-        .navigationTitle("Module \(module.id)")
+        .navigationTitle("\(AppBrand.moduleWord) \(module.id)")
         .navigationBarTitleDisplayMode(.inline)
     }
 
@@ -319,7 +319,7 @@ struct ModuleDetailView: View {
         PastelCard(module.pastel) {
             VStack(alignment: .leading, spacing: Theme.Spacing.m) {
                 QFlowLayout() {
-                    QPill(text: "Module \(module.id)")
+                    QPill(text: "\(AppBrand.moduleWord) \(module.id)")
                     QPill(text: module.status.label, icon: module.status.icon)
                 }
                 Text(module.countText)

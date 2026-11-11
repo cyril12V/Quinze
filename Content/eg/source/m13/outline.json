@@ -1,0 +1,284 @@
+{
+ "module": {
+  "id": 13,
+  "format": 3,
+  "title": "Les mois coptes",
+  "description": "Les treize mois du calendrier copte, de Tout à Nasie : leur ordre, leur saison du Nil, un proverbe de paysan et le moment de l'année où chacun tombe."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g1301.treize_mois",
+   "category": "knowledge",
+   "title": "Le calendrier copte : treize mois",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1302.hatour_kiahk_touba",
+   "category": "knowledge",
+   "title": "Hatour, Kiahk, Touba",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1301.treize_mois"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1303.vents_et_moisson",
+   "category": "knowledge",
+   "title": "Amshir, Baramhat, Baramouda",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1302.hatour_kiahk_touba"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1304.chaleur_et_nil",
+   "category": "knowledge",
+   "title": "Bashans, Baouna, Abib",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1303.vents_et_moisson"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1305.misra_nasie",
+   "category": "knowledge",
+   "title": "Misra et Nasie",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1304.chaleur_et_nil"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1306.saisons_et_dates",
+   "category": "knowledge",
+   "title": "Les saisons et les dates",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1305.misra_nasie"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1307.bilan_mois",
+   "category": "knowledge",
+   "title": "Bilan : les treize mois",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1306.saisons_et_dates"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l1301",
+   "sequence": 1301,
+   "title": "Treize mois, un seul fleuve",
+   "description": "Un calendrier né du Nil, l'astuce du 10, et tes deux premiers mois : Tout et Baba.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1301.treize_mois",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le calendrier solaire",
+     "slug": "c13_calendrier_solaire",
+     "translation": "12 mois de 30 jours plus un petit mois de 5 jours",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'astuce du 10",
+     "slug": "c13_regle_du_dix",
+     "translation": "un mois copte commence vers le 10 d'un mois de notre calendrier",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Tout",
+     "slug": "c13_tout",
+     "translation": "premier mois copte (توت), vers le 11 septembre",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Baba",
+     "slug": "c13_baba",
+     "translation": "deuxième mois copte (بابه), vers le 11 octobre",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1302",
+   "sequence": 1302,
+   "title": "Hatour, Kiahk et Touba",
+   "description": "L'or du blé, le mois de Marie et le grand froid : trois mois, trois images.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1302.hatour_kiahk_touba",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Hatour",
+     "slug": "c13_hatour",
+     "translation": "troisième mois copte (هاتور), vers le 10 novembre",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Kiahk",
+     "slug": "c13_kiahk",
+     "translation": "quatrième mois copte (كيهك), vers le 10 décembre : le mois marial",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Touba",
+     "slug": "c13_touba",
+     "translation": "cinquième mois copte (طوبة), vers le 9 janvier : le plus froid",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1303",
+   "sequence": 1303,
+   "title": "Amshir, Baramhat et Baramouda",
+   "description": "Le vent, puis la récolte, puis le battage du blé : la fin de l'hiver et le printemps.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1303.vents_et_moisson",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Amshir",
+     "slug": "c13_amshir",
+     "translation": "sixième mois copte (أمشير), vers le 8 février : le mois des vents",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Baramhat",
+     "slug": "c13_baramhat",
+     "translation": "septième mois copte (برمهات), vers le 10 mars",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Baramouda",
+     "slug": "c13_baramouda",
+     "translation": "huitième mois copte (برمودة), vers le 9 avril",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1304",
+   "sequence": 1304,
+   "title": "Bashans, Baouna et Abib",
+   "description": "Le champ balayé, le Nil qui repart et le plein été.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1304.chaleur_et_nil",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Bashans",
+     "slug": "c13_bashans",
+     "translation": "neuvième mois copte (بشنس), vers le 9 mai",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Baouna",
+     "slug": "c13_baouna",
+     "translation": "dixième mois copte (بؤونة), vers le 8 juin",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Abib",
+     "slug": "c13_abib",
+     "translation": "onzième mois copte (أبيب), vers le 8 juillet",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1305",
+   "sequence": 1305,
+   "title": "Misra et Nasie : la boucle",
+   "description": "La crue, le petit mois de 5 jours, et la boucle de l'année.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1305.misra_nasie",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Misra",
+     "slug": "c13_misra",
+     "translation": "douzième mois copte (مسرى), vers le 7 août",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Nasie",
+     "slug": "c13_nasie",
+     "translation": "treizième mois copte (النسيء), le petit mois de 5 jours",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "l'année bissextile copte",
+     "slug": "c13_annee_bissextile_copte",
+     "translation": "année où Nasie compte 6 jours, tous les quatre ans",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1306",
+   "sequence": 1306,
+   "title": "Quel mois, quelle saison ?",
+   "description": "Les trois saisons du Nil, et comment trouver le mois copte d'une date.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1306.saisons_et_dates",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les trois saisons",
+     "slug": "c13_trois_saisons",
+     "translation": "la crue, la croissance, la moisson : quatre mois chacune",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la crue du Nil",
+     "slug": "c13_crue_du_nil",
+     "translation": "montée annuelle des eaux du Nil, qui rythme l'année",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1307",
+   "sequence": 1307,
+   "title": "Bilan : les treize mois",
+   "description": "Les treize dans l'ordre, les repères, les dates : tout le chapitre en un coup d'œil.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1307.bilan_mois",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les treize mois",
+     "slug": "c13_treize_mois",
+     "translation": "de Tout à Nasie : douze mois de 30 jours et un petit mois",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les proverbes des mois",
+     "slug": "c13_proverbes_paysans",
+     "translation": "dictons de paysans égyptiens, un par mois ou presque",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
+}

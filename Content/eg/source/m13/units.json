@@ -1,0 +1,226 @@
+[
+ {
+  "id": "eg.g1301.treize_mois",
+  "rule": {
+   "summary": "Le calendrier copte a treize mois : douze de 30 jours et un petit mois de 5 jours. Chaque mois commence vers le 10 d'un mois de notre calendrier. Les deux premiers sont Tout et Baba.",
+   "explanation": "Les Égyptiens ont réglé leur année sur le soleil et sur le Nil. Douze mois de 30 jours font 360 jours, et un petit mois de 5 jours complète l'année à 365. Chaque mois commence vers le 10 du nôtre, à un jour près (dans une année sur quatre, un jour plus tard). Tout ouvre l'année avec le Nayrouz, Baba vient ensuite.",
+   "pattern": "12 × 30 jours + 5 jours ; chaque mois commence vers le 10 ; 1 Tout (11 sept.), 2 Baba (11 oct.).",
+   "examples": [
+    {
+     "text": "Tout commence vers le 11 septembre.",
+     "translation": "C'est le Nayrouz, le jour de l'an copte."
+    },
+    {
+     "text": "Baba commence vers le 11 octobre.",
+     "translation": "Un mois après Tout."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Un mois copte commence le 1er du mois.",
+     "right": "Il commence vers le 10.",
+     "why": "Le calendrier copte est décalé par rapport au nôtre."
+    },
+    {
+     "wrong": "L'année copte a 12 mois.",
+     "right": "Elle en a 13.",
+     "why": "Le petit mois Nasie vient après les douze grands."
+    }
+   ],
+   "tip": "Un mois copte démarre vers le 10 du nôtre."
+  }
+ },
+ {
+  "id": "eg.g1302.hatour_kiahk_touba",
+  "rule": {
+   "summary": "Hatour est le troisième mois (semailles), Kiahk le quatrième (le mois marial) et Touba le cinquième (le plus froid).",
+   "explanation": "Hatour, vers le 10 novembre, porte le nom de la déesse Hathor : on sème le blé. Kiahk, vers le 10 décembre, est le mois de la Vierge Marie, et ses jours sont très courts. Touba, vers le 9 janvier, est le cœur de l'hiver. Les proverbes de paysans résument chaque mois.",
+   "pattern": "3 Hatour (10 nov.), 4 Kiahk (10 déc.), 5 Touba (9 janv.).",
+   "examples": [
+    {
+     "text": "Hatour est le troisième mois.",
+     "translation": "On y sème le blé."
+    },
+    {
+     "text": "Kiahk est le quatrième mois.",
+     "translation": "C'est le mois marial."
+    },
+    {
+     "text": "Touba est le cinquième mois.",
+     "translation": "C'est le plus froid."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Touba est un mois d'été.",
+     "right": "Touba est un mois d'hiver, vers le 9 janvier.",
+     "why": "Les mois coptes sont décalés par rapport aux nôtres."
+    },
+    {
+     "wrong": "Kiahk est le premier mois.",
+     "right": "Kiahk est le quatrième.",
+     "why": "Le premier est Tout."
+    }
+   ],
+   "tip": "Kiahk, le 4e, c'est Marie ; Touba, le 5e, c'est le froid."
+  }
+ },
+ {
+  "id": "eg.g1303.vents_et_moisson",
+  "rule": {
+   "summary": "Amshir est le sixième mois (les vents), Baramhat le septième (la récolte commence) et Baramouda le huitième (on bat le grain).",
+   "explanation": "Amshir, vers le 8 février, est le mois des vents. Baramhat, vers le 10 mars, ouvre la récolte : « va au champ et rapporte ». Baramouda, vers le 9 avril, est celui où l'on bat le grain. Baramhat et Baramouda se ressemblent : d'abord on va au champ, ensuite on bat le blé.",
+   "pattern": "6 Amshir (8 févr.), 7 Baramhat (10 mars), 8 Baramouda (9 avril).",
+   "examples": [
+    {
+     "text": "Amshir est le mois des vents.",
+     "translation": "Rafales et poussière."
+    },
+    {
+     "text": "Baramhat vient avant Baramouda.",
+     "translation": "On va au champ, puis on bat le grain."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Baramouda vient avant Baramhat.",
+     "right": "Baramhat (7e) vient avant Baramouda (8e).",
+     "why": "D'abord le champ, ensuite le battage."
+    },
+    {
+     "wrong": "Le 20 mars est dans Amshir.",
+     "right": "Le 20 mars est dans Baramhat.",
+     "why": "Amshir finit vers le 9 mars."
+    }
+   ],
+   "tip": "Baramhat = on va au champ ; Baramouda = on bat le grain."
+  }
+ },
+ {
+  "id": "eg.g1304.chaleur_et_nil",
+  "rule": {
+   "summary": "Bashans est le neuvième mois (le champ balayé), Baouna le dixième (le Nil repart) et Abib le onzième (le plein été).",
+   "explanation": "Bashans, vers le 9 mai, voit la moisson finie : il balaie le champ. Baouna, vers le 8 juin, est très chaud, mais le Nil recommence à monter à sa fin. Abib, vers le 8 juillet, est au cœur de l'été ; son nom est d'origine inconnue.",
+   "pattern": "9 Bashans (9 mai), 10 Baouna (8 juin), 11 Abib (8 juillet).",
+   "examples": [
+    {
+     "text": "Bashans balaie le champ.",
+     "translation": "La moisson est finie."
+    },
+    {
+     "text": "Abib tombe en plein été.",
+     "translation": "Le onzième mois, vers le 8 juillet."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Abib vient avant Baouna.",
+     "right": "Baouna (10e) vient avant Abib (11e).",
+     "why": "On avance de juin à juillet."
+    },
+    {
+     "wrong": "Les proverbes des mois sont des règles de l'Église.",
+     "right": "Ce sont des dictons de paysans.",
+     "why": "Ils viennent de la vie des champs."
+    }
+   ],
+   "tip": "Bashans balaie, Baouna voit le Nil repartir, Abib est en plein été."
+  }
+ },
+ {
+  "id": "eg.g1305.misra_nasie",
+  "rule": {
+   "summary": "Misra est le douzième mois (la crue) et Nasie le treizième : le petit mois, de 5 jours, ou 6 tous les quatre ans.",
+   "explanation": "Misra, vers le 7 août, voit la crue remplir les canaux. Nasie, le petit mois, compte 5 jours juste avant le Nayrouz. Tous les quatre ans, il en compte 6, et le Nayrouz suivant tombe le 12 septembre. Après Nasie, l'année recommence avec Tout.",
+   "pattern": "12 Misra (7 août), 13 Nasie (6 sept., 5 ou 6 jours), puis Tout.",
+   "examples": [
+    {
+     "text": "Nasie est le petit mois.",
+     "translation": "Il compte 5 jours, ou 6 tous les quatre ans."
+    },
+    {
+     "text": "Après Nasie vient Tout.",
+     "translation": "L'année recommence."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Nasie compte 30 jours.",
+     "right": "Nasie compte 5 jours, ou 6.",
+     "why": "Il complète les 360 jours pour arriver à 365."
+    },
+    {
+     "wrong": "Misra est le dernier mois.",
+     "right": "Misra est le douzième ; le treizième est Nasie.",
+     "why": "Le petit mois vient après les douze grands."
+    }
+   ],
+   "tip": "Misra, Nasie, Tout : et la boucle recommence."
+  }
+ },
+ {
+  "id": "eg.g1306.saisons_et_dates",
+  "rule": {
+   "summary": "L'année a trois saisons de quatre mois : la crue (Tout à Kiahk), la croissance (Touba à Baramouda), la moisson (Bashans à Misra). Pour trouver le mois d'une date, on prend le dernier début de mois avant elle.",
+   "explanation": "C'est l'ancien découpage de l'année égyptienne, et Nasie ferme la boucle. Pour trouver le mois copte d'une date, repère le début de mois juste avant : Baramhat commence vers le 10 mars, donc le 20 mars est dans Baramhat. Choisis des dates au milieu du mois, car près d'un début, un jour d'écart est possible.",
+   "pattern": "Crue : Tout-Kiahk. Croissance : Touba-Baramouda. Moisson : Bashans-Misra. Mois = dernier début avant la date.",
+   "examples": [
+    {
+     "text": "Le 20 mars tombe dans Baramhat.",
+     "translation": "Baramhat commence vers le 10 mars."
+    },
+    {
+     "text": "Le 25 juillet tombe dans Abib.",
+     "translation": "Abib commence vers le 8 juillet."
+    },
+    {
+     "text": "Le 25 décembre tombe dans Kiahk.",
+     "translation": "Kiahk commence vers le 10 décembre."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le 20 mars est dans Amshir.",
+     "right": "Le 20 mars est dans Baramhat.",
+     "why": "Amshir se termine vers le 9 mars."
+    }
+   ],
+   "tip": "Prends le dernier début de mois avant ta date."
+  }
+ },
+ {
+  "id": "eg.g1307.bilan_mois",
+  "rule": {
+   "summary": "Les treize mois dans l'ordre : Tout, Baba, Hatour, Kiahk, Touba, Amshir, Baramhat, Baramouda, Bashans, Baouna, Abib, Misra, Nasie. Chacun commence vers le 10 d'un mois de notre calendrier.",
+   "explanation": "Douze mois de 30 jours, puis Nasie, le petit mois de 5 jours. Les repères : Tout et le Nayrouz, Kiahk et Marie, Touba et le froid, Misra et la crue. Les proverbes sont des dictons de paysans, qui varient selon les villages.",
+   "pattern": "Tout, Baba, Hatour, Kiahk, Touba, Amshir, Baramhat, Baramouda, Bashans, Baouna, Abib, Misra, Nasie.",
+   "examples": [
+    {
+     "text": "Kiahk est le quatrième mois.",
+     "translation": "Le mois marial."
+    },
+    {
+     "text": "Misra est le douzième mois.",
+     "translation": "Nasie est le treizième."
+    },
+    {
+     "text": "Le 20 mars est dans Baramhat.",
+     "translation": "Baramhat commence vers le 10 mars."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Misra est le dernier mois.",
+     "right": "Nasie est le treizième.",
+     "why": "Le petit mois ferme l'année."
+    },
+    {
+     "wrong": "Baramouda vient avant Baramhat.",
+     "right": "Baramhat vient avant Baramouda.",
+     "why": "D'abord le champ, puis le battage."
+    }
+   ],
+   "tip": "Six, puis sept : Tout…Amshir, Baramhat…Nasie."
+  }
+ }
+]

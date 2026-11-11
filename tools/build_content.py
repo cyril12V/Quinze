@@ -66,6 +66,14 @@ PROFILES = {
                      "match": (2, 5), "free_answer": (1, 4)}},
 }
 LESSON_SIZE = (18, 24)
+# Format 3 (« leçon guidée ») : une petite carte, puis tout de suite une ou deux questions faciles sur cette
+# carte (champ "step" = numéro de la carte), puis un entraînement qui mélange la leçon et des rappels.
+GUIDED_SIZE = (10, 16)
+GUIDED_CARDS = (3, 6)
+GUIDED_CARD_TEXT = 320
+GUIDED_KEYFACT = 130
+COLLECTIONS = {"saint", "pere", "pape", "concile", "heresie", "lieu", "notion", "priere", "objet", "copte",
+               "date", "livre", "eglise"}
 
 # Cours (cartes « à apprendre » montrées avant les questions) : obligatoires pour l'arabe et la culture G.
 COURSE_REQUIRED = {"ar", "cg", "eg"}
@@ -171,7 +179,7 @@ def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], mod
     for f in ("instruction", "prompt", "explanation"):
         if not nonempty(ex.get(f)):
             rep.err(where, f"'{f}' required")
-    if t != "match" and not nonempty(ex.get("tip")):
+    if t != "match" and fmt != 3 and not nonempty(ex.get("tip")):
         rep.err(where, "'tip' required")
     langs = PROFILES[lang]["promptLanguages"]
     if ex.get("promptLanguage") not in langs:
@@ -188,7 +196,8 @@ def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], mod
                 rep.err(where, f"unknown unit {u!r}")
     if t != "match":
         if ex.get("extraExample") is None:
-            rep.err(where, "'extraExample' required")
+            if fmt != 3:
+                rep.err(where, "'extraExample' required")
         else:
             check_example(ex["extraExample"], where, rep, "extraExample")
     answer = ex.get("answer")
@@ -205,8 +214,8 @@ def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], mod
         rep.warn(where, "duplicate acceptedAnswers")
     opts = ex.get("options")
     if t == "mcq":
-        if not (isinstance(opts, list) and 3 <= len(opts) <= 4):
-            rep.err(where, "mcq needs 3-4 options")
+        if not (isinstance(opts, list) and (2 if fmt == 3 else 3) <= len(opts) <= 4):
+            rep.err(where, "mcq needs 3-4 options (2-4 in format 3: Vrai / Faux allowed)")
         elif answer not in opts:
             rep.err(where, "mcq answer must be one of the options")
         elif len(set(o.lower() for o in opts)) != len(opts):
@@ -215,7 +224,7 @@ def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], mod
         if ex.get("prompt", "").count("___") != 1:
             rep.err(where, "fill_blank prompt must contain exactly one '___'")
         if opts is not None:
-            if not (isinstance(opts, list) and 3 <= len(opts) <= 4 and answer in opts):
+            if not (isinstance(opts, list) and (2 if fmt == 3 else 3) <= len(opts) <= 4 and answer in opts):
                 rep.err(where, "fill_blank options must be 3-4 and include the answer")
     if t == "reorder":
         tokens = ex.get("tokens")
@@ -270,6 +279,10 @@ def check_exercise(ex: dict, where: str, rep: Report, known_units: set[str], mod
             rep.err(where, "diagnostic fill_blank needs options")
 
 
+def exp_is_vocab(exp) -> bool:
+    return bool(exp and exp.get("id"))
+
+
 def finalize_exercise(ex: dict, pool: str, lesson_id: str | None) -> dict:
     out = dict(ex)
     out["pool"] = pool
@@ -317,12 +330,12 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
                 if not nonempty(r.get(f)):
                     rep.err(w, f"rule.{f} required")
             ex = r.get("examples") or []
-            if not 3 <= len(ex) <= 4:
-                rep.err(w, "rule.examples: 3-4 expected")
+            if not (1 if fmt == 3 else 3) <= len(ex) <= 4:
+                rep.err(w, "rule.examples: 3-4 expected (1-4 in format 3)")
             for e in ex:
                 check_example(e, w, rep)
             ce = r.get("commonErrors") or []
-            if not 2 <= len(ce) <= 3:
+            if not (0 if fmt == 3 else 2) <= len(ce) <= 3:
                 rep.err(w, "rule.commonErrors: 2-3 expected")
             for c in ce:
                 if not all(nonempty(c.get(k)) for k in ("wrong", "right", "why")):
@@ -356,8 +369,12 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
             if item.get("partOfSpeech") not in POS:
                 rep.err(w, f"invalid partOfSpeech {item.get('partOfSpeech')!r}")
             exs = item.get("examples") or []
-            if len(exs) < 2:
-                rep.err(w, "2 examples expected")
+            if len(exs) < (1 if fmt == 3 else 2):
+                rep.err(w, "2 examples expected (1 in format 3)")
+            if item.get("collection") is not None and item["collection"] not in COLLECTIONS:
+                rep.err(w, f"collection must be one of {sorted(COLLECTIONS)}")
+            if fmt == 3 and exp_is_vocab(expected.get(iid)) and item.get("collection") is None:
+                rep.err(w, "collection required (the fiche goes to the learner's collection)")
             for e in exs:
                 check_example(e, w, rep)
             ipa = item.get("ipa")
@@ -399,7 +416,19 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
             rep.err(w0, f"lessonId must be {les['id']}")
         exs = data.get("exercises") or []
         dist = collections.Counter(e.get("type") for e in exs)
-        if fmt == 1:
+        if fmt == 3:
+            lo, hi = GUIDED_SIZE
+            if not lo <= len(exs) <= hi:
+                rep.err(w0, f"{lo}-{hi} exercises expected, found {len(exs)}")
+            if dist.get("free_answer", 0) > 1:
+                rep.err(w0, "at most 1 free_answer in a guided lesson")
+            typed = sum(1 for e in exs if e.get("type") == "translation"
+                        or (e.get("type") == "fill_blank" and not e.get("options")))
+            if typed > 2:
+                rep.err(w0, "at most 2 typed answers (translation, fill_blank without options) in a guided lesson")
+            if len(set(dist)) < 3:
+                rep.err(w0, "use at least 3 different exercise types")
+        elif fmt == 1:
             if len(exs) != 10:
                 rep.err(w0, f"exactly 10 exercises expected, found {len(exs)}")
             if dict(dist) != LESSON_DISTRIBUTION:
@@ -443,7 +472,9 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
             if course.get("lessonId") != les["id"]:
                 rep.err(cw, f"lessonId must be {les['id']}")
             cards = course.get("cards") or []
-            lo, hi = COURSE_CARDS
+            lo, hi = GUIDED_CARDS if fmt == 3 else COURSE_CARDS
+            max_text = GUIDED_CARD_TEXT if fmt == 3 else 480
+            max_fact = GUIDED_KEYFACT if fmt == 3 else 180
             if not lo <= len(cards) <= hi:
                 rep.err(cw, f"{lo}-{hi} cards expected, found {len(cards)}")
             for i, c in enumerate(cards):
@@ -451,24 +482,56 @@ def validate_module(lang: str, cur: dict, mnum: int, rep: Report, known_units: s
                     rep.err(f"{cw} card {i + 1}", "title and text required")
                 if len(c.get("title", "")) > 70:
                     rep.err(f"{cw} card {i + 1}", "title longer than 70 characters")
-                if len(c.get("text", "")) > 480:
-                    rep.err(f"{cw} card {i + 1}", "text longer than 480 characters (split the card)")
-                if c.get("keyFact") is not None and (not nonempty(c["keyFact"]) or len(c["keyFact"]) > 180):
-                    rep.err(f"{cw} card {i + 1}", "keyFact must be a short sentence (<= 180 characters)")
+                if len(c.get("text", "")) > max_text:
+                    rep.err(f"{cw} card {i + 1}", f"text longer than {max_text} characters (split the card)")
+                if c.get("keyFact") is not None and (not nonempty(c["keyFact"]) or len(c["keyFact"]) > max_fact):
+                    rep.err(f"{cw} card {i + 1}", f"keyFact must be a short sentence (<= {max_fact} characters)")
+                if c.get("kind") is not None and c["kind"] not in ("story", "idea"):
+                    rep.err(f"{cw} card {i + 1}", "kind must be 'story' or 'idea'")
                 if c.get("example") is not None:
                     check_example(c["example"], f"{cw} card {i + 1}", rep)
-                extra = set(c) - {"title", "text", "keyFact", "emoji", "example", "arabic"}
+                extra = set(c) - {"title", "text", "keyFact", "emoji", "example", "arabic", "kind"}
                 if extra:
                     rep.err(f"{cw} card {i + 1}", f"unknown fields {sorted(extra)}")
             result["courses"][les["id"]] = cards
+            if fmt == 3:
+                # Each card is followed at once by 1-2 easy questions whose answer is on that very card.
+                by_step = collections.defaultdict(list)
+                for e in exs:
+                    st = e.get("step")
+                    if st is None:
+                        continue
+                    if not (isinstance(st, int) and 1 <= st <= len(cards)):
+                        rep.err(f"{w0} {e.get('id')}", f"step must be a card number 1..{len(cards)}")
+                        continue
+                    by_step[st].append(e)
+                for i, c in enumerate(cards, 1):
+                    group = by_step.get(i, [])
+                    if not 1 <= len(group) <= 2:
+                        rep.err(f"{cw} card {i}", f"needs 1-2 questions with step={i} right after it, found {len(group)}")
+                    card_text = norm_taught(" ".join([c.get("title", ""), c.get("text", ""), c.get("keyFact", "")]))
+                    for e in group:
+                        ew = f"{w0} {e.get('id')}"
+                        if not (e.get("type") == "mcq" or (e.get("type") == "fill_blank" and e.get("options"))):
+                            rep.err(ew, "a step question is a mcq or a fill_blank with options (tap, no typing)")
+                        if e.get("difficulty") not in (1, 2):
+                            rep.err(ew, "a step question is easy: difficulty 1 or 2")
+                        if nonempty(e.get("answer")) and norm_taught(e["answer"]) not in card_text \
+                                and e["answer"].strip().lower() not in ("vrai", "faux"):
+                            rep.err(ew, f"answer {e['answer']!r} must be written on card {i} (the learner just read it)")
+                free = [e for e in exs if e.get("step") is None]
+                if len(free) < 4:
+                    rep.err(w0, f"needs >= 4 training questions without step after the cards, found {len(free)}")
         # Only ask what was taught (courses and vocabulary of this lesson and the previous ones).
         known = (taught or {}).get(les["id"])
         if lang in TAUGHT_CHECK and known is not None:
             for e in exs:
                 t = e.get("type")
                 ew = f"{w0} {e.get('id')}"
+                if fmt == 3 and t == "mcq" and e.get("step") is None and (e.get("difficulty") or 1) >= 3:
+                    continue  # comprehension question: the answer is a reasoning, not a quoted fact
                 if t in ("mcq", "fill_blank") and nonempty(e.get("answer")):
-                    if norm_taught(e["answer"]) not in known:
+                    if norm_taught(e["answer"]) not in known and e["answer"].strip().lower() not in ("vrai", "faux"):
                         rep.err(ew, f"answer {e['answer']!r} is not taught in the course or vocabulary so far")
                 elif t == "free_answer" and e.get("acceptedAnswers") and not e.get("requirements"):
                     if not any(norm_taught(a) in known for a in e["acceptedAnswers"]):
@@ -541,7 +604,7 @@ def merge_outlines(lang: str, cur: dict, rep: Report) -> None:
         if mid in known_modules:
             continue
         cur["modules"].append({"id": mid, "title": mod.get("title", ""), "description": mod.get("description", ""),
-                               "format": 2})
+                               "format": mod.get("format", 2)})
         for g in o.get("grammarUnits") or []:
             gid = g.get("id", "")
             if not re.match(rf"^{lang}\.g\d{{2,4}}\.[a-z0-9_]+$", gid):

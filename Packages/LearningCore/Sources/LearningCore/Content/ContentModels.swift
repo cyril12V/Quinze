@@ -128,9 +128,12 @@ public struct CourseCard: Codable, Hashable, Sendable {
     public let example: Example?
     /// Arabic letter or word shown big on the card.
     public let arabic: String?
+    /// "story" (a scene of a narrative) or "idea" (one notion); nil for the older courses.
+    public let kind: String?
 
     public init(title: String, text: String, keyFact: String? = nil, emoji: String? = nil, example: Example? = nil,
-                arabic: String? = nil) {
+                arabic: String? = nil, kind: String? = nil) {
+        self.kind = kind
         self.title = title
         self.text = text
         self.keyFact = keyFact
@@ -272,6 +275,9 @@ public struct Exercise: Codable, Hashable, Sendable, Identifiable {
     public let level: Int?
     public let topic: String?
     public let deprecated: Bool?
+    /// Guided lessons: number (from 1) of the course card this easy question follows at once; nil for the
+    /// training questions asked after the cards.
+    public let step: Int?
 
     public var primaryUnitId: String { unitIds.first ?? "" }
 
@@ -309,6 +315,8 @@ public struct DictionaryItem: Codable, Hashable, Sendable, Identifiable {
     public let forms: [String: String]?
     /// Vocabulary unit (en.v.…), nil for function words.
     public let unitId: String?
+    /// Church course: family of the fiche in the learner's collection (saint, concile, heresie…).
+    public let collection: String?
 }
 
 /// The whole content of one language, as produced by tools/build_content.py.

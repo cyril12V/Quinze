@@ -201,6 +201,10 @@ struct SessionPlanner {
         return best?.0
     }
 
+    /// Arabic and Coptic are never typed, and the Church course is answered by tapping: a gap with options
+    /// always shows its options.
+    private var tapOnly: Bool { ["ar", "eg"].contains(index.bundle.language.code) }
+
     private mutating func makeItem(_ ex: Exercise, role: ItemRole, noHint: Bool) -> SessionItem {
         used.insert(ex.id)
         primaryUse[ex.primaryUnitId, default: 0] += 1
@@ -212,7 +216,7 @@ struct SessionPlanner {
         case .reorder: presentation = .tokens
         case .fillBlank:
             // The learner never types Arabic: Arabic gaps are always answered by choosing.
-            let choose = ex.options != nil && (index.bundle.language.code == "ar" || (!noHint && m < 0.3))
+            let choose = ex.options != nil && (tapOnly || (!noHint && m < 0.3))
             presentation = choose ? .choices : .typed
         case .translation, .freeAnswer: presentation = .typed
         }
@@ -311,7 +315,40 @@ struct SessionPlanner {
 
     // MARK: Learning session (new lesson)
 
+    /// Guided lesson (exercises carry a `step`): two warm-up recalls, then each card followed at once by its
+    /// easy questions, then the training questions of the lesson, from the most guided to the most demanding.
+    private mutating func planGuided(lesson: Lesson, slot: SessionSlot?) -> SessionPlan {
+        let lessons = doneLessonIds.union([lesson.id])
+        let newUnits = lesson.introduces
+        let lessonUnitSet = Set(newUnits)
+        let todayBefore = unitsToday.filter { !lessonUnitSet.contains($0) }
+        let justBefore = todayBefore.isEmpty ? previousDayUnits(excluding: lessonUnitSet) : todayBefore
+        var warm = fillGroup(units: Array(justBefore.prefix(4)), count: 2, role: .recentReview, mode: .practice,
+                             lessons: doneLessonIds, noHint: true)
+        if warm.count < 2 {
+            let due = pool([.old, .recent], dueOnly: true, excluding: lessonUnitSet.union(justBefore))
+            warm += fillGroup(units: Array(due.prefix(4)), count: 2 - warm.count, role: .oldReview, mode: .byMastery,
+                              lessons: doneLessonIds)
+        }
+        let all = (index.tables.exercisesByLesson[lesson.id] ?? []).filter { $0.deprecated != true && !used.contains($0.id) }
+        var items = warm
+        let course = lesson.course ?? []
+        for i in course.indices {
+            items.append(card(.courseCard(lessonId: lesson.id, index: i), role: .newMaterial))
+            for ex in all.filter({ $0.step == i + 1 }).sorted(by: { $0.id < $1.id }) {
+                items.append(makeItem(ex, role: .newMaterial, noHint: false))
+            }
+        }
+        let training = all.filter { $0.step == nil || !course.indices.contains(($0.step ?? 0) - 1) }
+            .sorted { (Self.guidance($0.type), $0.difficulty, $0.id) < (Self.guidance($1.type), $1.difficulty, $1.id) }
+        for ex in training { items.append(makeItem(ex, role: .practice, noHint: false)) }
+        return makePlan(type: .learning, slot: slot, lessonId: lesson.id, newUnitIds: newUnits, items: items)
+    }
+
     mutating func planLearning(lesson: Lesson, slot: SessionSlot?) -> SessionPlan {
+        if (index.tables.exercisesByLesson[lesson.id] ?? []).contains(where: { $0.step != nil }) {
+            return planGuided(lesson: lesson, slot: slot)
+        }
         let lessons = doneLessonIds.union([lesson.id])
         let newUnits = lesson.introduces
         var cards: [SessionItem] = []
@@ -515,8 +552,11 @@ struct SessionPlanner {
     /// Questions on the lessons of `module`: one exercise per unit first, demanding presentations, no hints.
     mutating func planModuleExam(module: Int, slot: SessionSlot?) -> SessionPlan {
         let lessonIds = Set(index.lessonsInOrder.filter { $0.module == module }.map { $0.id })
-        let candidates = lessonIds.sorted().flatMap { index.tables.exercisesByLesson[$0] ?? [] }
+        var candidates = lessonIds.sorted().flatMap { index.tables.exercisesByLesson[$0] ?? [] }
             .filter { $0.deprecated != true }
+        // Guided lessons: the exam asks the training questions, not the easy ones that follow each card.
+        let training = candidates.filter { $0.step == nil }
+        if training.count >= config.examQuestionCount { candidates = training }
         let seenRecently = exercisesRecent
         var pool = candidates
         if pool.count > 1 { for i in stride(from: pool.count - 1, to: 0, by: -1) { pool.swapAt(i, rng.nextInt(i + 1)) } }
@@ -531,7 +571,7 @@ struct SessionPlanner {
             }
         }
         chosen.sort { (Self.guidance($0.type), $0.difficulty) < (Self.guidance($1.type), $1.difficulty) }
-        let arabic = index.bundle.language.code == "ar"
+        let arabic = tapOnly
         var items: [SessionItem] = []
         for ex in chosen {
             let presentation: PresentationMode

@@ -1,0 +1,608 @@
+{
+ "module": {
+  "id": 8,
+  "format": 3,
+  "title": "Le Credo",
+  "description": "Le Credo de Nicée-Constantinople, phrase par phrase : tu l'apprends par cœur, dans l'ordre, et tu comprends chaque mot, avec l'erreur qu'il a été écrit pour écarter."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g801.origine_du_credo",
+   "category": "knowledge",
+   "title": "Le Credo : d'où il vient",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g802.un_seul_dieu_pere",
+   "category": "knowledge",
+   "title": "Un seul Dieu, le Père, Pantocrator",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g801.origine_du_credo"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g803.createur_ciel_terre",
+   "category": "knowledge",
+   "title": "Créateur du ciel et de la terre, des choses visibles et invisibles",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g802.un_seul_dieu_pere"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g804.seigneur_fils_unique",
+   "category": "knowledge",
+   "title": "Un seul Seigneur, le Fils unique, engendré avant tous les siècles",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g803.createur_ciel_terre"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g805.lumiere_de_lumiere",
+   "category": "knowledge",
+   "title": "Lumière de Lumière, vrai Dieu de vrai Dieu, engendré non créé",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g804.seigneur_fils_unique"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g806.consubstantiel",
+   "category": "knowledge",
+   "title": "Consubstantiel au Père, par qui tout a été fait",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g805.lumiere_de_lumiere"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g807.pour_notre_salut",
+   "category": "knowledge",
+   "title": "Pour nous les hommes et pour notre salut, il descendit du ciel",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g806.consubstantiel"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g808.incarna_vierge_marie",
+   "category": "knowledge",
+   "title": "S'incarna de l'Esprit Saint et de la Vierge Marie, et se fit homme",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g807.pour_notre_salut"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g809.crucifie_ressuscite",
+   "category": "knowledge",
+   "title": "Crucifié sous Ponce Pilate, enseveli, ressuscité le troisième jour",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g808.incarna_vierge_marie"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g810.gloire_et_regne",
+   "category": "knowledge",
+   "title": "Il monta aux cieux, il reviendra, son règne n'aura pas de fin",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g809.crucifie_ressuscite"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g811.saint_esprit",
+   "category": "knowledge",
+   "title": "Nous croyons au Saint-Esprit, Seigneur qui donne la vie",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g810.gloire_et_regne"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g812.quatre_marques",
+   "category": "knowledge",
+   "title": "Nous croyons en une seule Église, sainte, catholique et apostolique",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g811.saint_esprit"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g813.bapteme_resurrection_amen",
+   "category": "knowledge",
+   "title": "Un seul baptême, la résurrection des morts, la vie du siècle à venir. Amen",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g812.quatre_marques"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g814.bilan_du_credo",
+   "category": "knowledge",
+   "title": "Le Credo en entier : bilan",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g813.bapteme_resurrection_amen"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l801",
+   "sequence": 801,
+   "title": "Le Credo, ta carte d'identité",
+   "description": "Un catéchumène répond « je crois » au bord de l'eau : c'est de là que naissent les credos, jusqu'à Nicée, Constantinople et Éphèse.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g801.origine_du_credo",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le Credo",
+     "slug": "c08_credo",
+     "translation": "« je crois » : le texte court qui résume la foi de l'Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "« nous croyons »",
+     "slug": "c08_nous_croyons",
+     "translation": "le pluriel du Credo : la foi de toute l'Église",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "le catéchumène",
+     "slug": "c08_catechumene",
+     "translation": "celui qui apprend la foi avant d'être baptisé",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Mère de la vraie lumière",
+     "slug": "c08_mere_de_la_vraie_lumiere",
+     "translation": "titre de Marie dans l'introduction copte du Credo",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "eg.l802",
+   "sequence": 802,
+   "title": "Un seul Dieu, le Père, Pantocrator",
+   "description": "Les premiers mots du Credo : un seul Dieu, un Père qui a un Fils de toute éternité, et le Tout-Puissant qui tient tout.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g802.un_seul_dieu_pere",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g801.origine_du_credo"
+   ],
+   "vocabulary": [
+    {
+     "word": "le monothéisme",
+     "slug": "c08_monotheisme",
+     "translation": "la foi en un seul Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Dieu le Père",
+     "slug": "c08_dieu_le_pere",
+     "translation": "la source de la Trinité : le Fils naît de lui, l'Esprit procède de lui",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Pantocrator",
+     "slug": "c08_pantocrator",
+     "translation": "mot grec : Tout-Puissant, celui qui tient tout",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l803",
+   "sequence": 803,
+   "title": "Créateur du ciel et de la terre",
+   "description": "Tout vient de Dieu, à partir de rien, et tout est bon. Les choses visibles, les choses invisibles, et les anges.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g803.createur_ciel_terre",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g802.un_seul_dieu_pere"
+   ],
+   "vocabulary": [
+    {
+     "word": "la création à partir de rien",
+     "slug": "c08_creation_a_partir_de_rien",
+     "translation": "Dieu crée le monde par sa parole, sans matière d'avant",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les choses visibles et invisibles",
+     "slug": "c08_visibles_et_invisibles",
+     "translation": "le monde matériel et le monde spirituel, créés par Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un ange",
+     "slug": "c08_ange",
+     "translation": "créature spirituelle qui sert Dieu et les hommes",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l804",
+   "sequence": 804,
+   "title": "Un seul Seigneur, le Fils unique",
+   "description": "Arius dit que le Fils a un commencement. Le Credo répond : Seigneur, Fils unique, engendré du Père avant tous les siècles.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g804.seigneur_fils_unique",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g803.createur_ciel_terre"
+   ],
+   "vocabulary": [
+    {
+     "word": "Seigneur (Kyrios)",
+     "slug": "c08_kyrios",
+     "translation": "mot grec : Seigneur, nom que la Bible grecque donne à Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le Fils unique",
+     "slug": "c08_fils_unique",
+     "translation": "le seul qui soit Fils de Dieu par nature",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "avant tous les siècles",
+     "slug": "c08_avant_tous_les_siecles",
+     "translation": "hors du temps, de toute éternité",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "eg.l805",
+   "sequence": 805,
+   "title": "Lumière de Lumière",
+   "description": "Une flamme allumée à une autre flamme : trois expressions du Credo ferment chacune une porte à Arius.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g805.lumiere_de_lumiere",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g804.seigneur_fils_unique"
+   ],
+   "vocabulary": [
+    {
+     "word": "Lumière de Lumière",
+     "slug": "c08_lumiere_de_lumiere",
+     "translation": "le Fils vient du Père comme une flamme allumée à une autre flamme",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "vrai Dieu de vrai Dieu",
+     "slug": "c08_vrai_dieu_de_vrai_dieu",
+     "translation": "le Fils est Dieu en vérité, comme le Père",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "engendré, non créé",
+     "slug": "c08_engendre_non_cree",
+     "translation": "le Fils a la nature du Père : il est Dieu, pas une œuvre",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "eg.l806",
+   "sequence": 806,
+   "title": "Consubstantiel au Père",
+   "description": "À Nicée, il fallait un mot qu'on ne puisse pas tordre : homoousios. Un iota de différence, et le salut en jeu.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g806.consubstantiel",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g805.lumiere_de_lumiere"
+   ],
+   "vocabulary": [
+    {
+     "word": "par qui tout a été fait",
+     "slug": "c08_par_qui_tout_a_ete_fait",
+     "translation": "le Fils est Créateur avec le Père, non créature",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "seul Dieu peut sauver",
+     "slug": "c08_seul_dieu_sauve",
+     "translation": "si le Fils n'était pas Dieu, il ne pourrait pas nous sauver",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l807",
+   "sequence": 807,
+   "title": "Pour nous et pour notre salut",
+   "description": "Pourquoi le Fils éternel descend-il ? Pour nous, pour notre salut, et pour que l'homme partage la vie de Dieu.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g807.pour_notre_salut",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g806.consubstantiel"
+   ],
+   "vocabulary": [
+    {
+     "word": "pour notre salut",
+     "slug": "c08_pour_notre_salut",
+     "translation": "la raison de l'incarnation : Dieu vient nous sauver",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "« il descendit du ciel »",
+     "slug": "c08_descente_du_ciel",
+     "translation": "le Fils s'abaisse jusqu'à nous sans cesser d'être Dieu",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "la divinisation",
+     "slug": "c08_divinisation",
+     "translation": "Dieu se fait homme pour que l'homme partage sa vie, par grâce",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l808",
+   "sequence": 808,
+   "title": "De la Vierge Marie, et se fit homme",
+   "description": "Le Fils prend chair de l'Esprit Saint et de la Vierge Marie. Un vrai corps, une âme humaine, et un seul « Il » dans tout le Credo.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g808.incarna_vierge_marie",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g807.pour_notre_salut"
+   ],
+   "vocabulary": [
+    {
+     "word": "la conception virginale",
+     "slug": "c08_conception_virginale",
+     "translation": "Jésus est conçu de l'Esprit Saint, sans père humain, par la Vierge Marie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la Vierge Marie",
+     "slug": "c08_vierge_marie",
+     "translation": "la mère du Fils : le Credo la nomme pour dire que l'incarnation est réelle",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "un seul sujet",
+     "slug": "c08_un_seul_sujet",
+     "translation": "dans le Credo, c'est toujours le Fils qui agit : un seul « Il »",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l809",
+   "sequence": 809,
+   "title": "Crucifié, enseveli, ressuscité",
+   "description": "Un nom de Romain dans le Credo, une vraie mort, un tombeau vide le troisième jour, et des prophètes qui l'avaient annoncé.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g809.crucifie_ressuscite",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g808.incarna_vierge_marie"
+   ],
+   "vocabulary": [
+    {
+     "word": "Ponce Pilate",
+     "slug": "c08_ponce_pilate",
+     "translation": "gouverneur romain de Judée, sous qui Jésus est crucifié",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le troisième jour",
+     "slug": "c08_troisieme_jour",
+     "translation": "le jour de la résurrection du Christ : Pâques",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "selon les Écritures",
+     "slug": "c08_selon_les_ecritures",
+     "translation": "la mort et la résurrection du Messie avaient été annoncées par les prophètes",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "eg.l810",
+   "sequence": 810,
+   "title": "Monté aux cieux, il reviendra",
+   "description": "Quarante jours, une place d'honneur, un retour dans la gloire, et une dernière phrase ajoutée en 381 : « Son règne n'aura pas de fin ».",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g810.gloire_et_regne",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g809.crucifie_ressuscite"
+   ],
+   "vocabulary": [
+    {
+     "word": "la droite du Père",
+     "slug": "c08_droite_du_pere",
+     "translation": "la place d'honneur : l'honneur et la puissance, pas un endroit",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "la seconde venue",
+     "slug": "c08_seconde_venue",
+     "translation": "le retour du Christ dans la gloire pour juger les vivants et les morts",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "son règne n'aura pas de fin",
+     "slug": "c08_regne_sans_fin",
+     "translation": "dernière phrase sur le Fils, ajoutée en 381 : le Christ est Roi pour toujours",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "la chaîne des verbes",
+     "slug": "c08_chaine_des_verbes",
+     "translation": "dix verbes du Credo qui racontent toute l'histoire du Fils",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l811",
+   "sequence": 811,
+   "title": "Le Saint-Esprit, Seigneur et vivificateur",
+   "description": "À Nicée, l'Esprit n'était que nommé. Après Macédonius, Constantinople dit en quatre « qui » qui il est.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g811.saint_esprit",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g810.gloire_et_regne"
+   ],
+   "vocabulary": [
+    {
+     "word": "le vivificateur",
+     "slug": "c08_vivificateur",
+     "translation": "« qui donne la vie » : titre de l'Esprit Saint, seul Dieu donne la vie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "« qui procède du Père »",
+     "slug": "c08_procession",
+     "translation": "procéder est le mot propre à l'Esprit, comme engendrer pour le Fils",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "« il a parlé par les prophètes »",
+     "slug": "c08_a_parle_par_les_prophetes",
+     "translation": "le même Esprit a inspiré l'Ancien et le Nouveau Testament",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "le Filioque",
+     "slug": "c08_filioque",
+     "translation": "« et du Fils » : ajout latin au Credo, que l'Église copte n'a pas repris",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l812",
+   "sequence": 812,
+   "title": "Une Église, sainte, catholique, apostolique",
+   "description": "Quatre mots pour l'Église : une pour l'unité, sainte pour la source, catholique pour l'étendue, apostolique pour l'origine.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g812.quatre_marques",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g811.saint_esprit"
+   ],
+   "vocabulary": [
+    {
+     "word": "l'Église une",
+     "slug": "c08_eglise_une",
+     "translation": "l'Église est le seul Corps du Christ : un Seigneur, une foi, un baptême",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'Église sainte",
+     "slug": "c08_eglise_sainte",
+     "translation": "sainte parce que le Christ et l'Esprit la sanctifient, non ses membres",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'apostolicité",
+     "slug": "c08_apostolicite",
+     "translation": "l'Église est fondée sur l'enseignement des apôtres, gardé par les évêques",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l813",
+   "sequence": 813,
+   "title": "Un baptême, la résurrection, Amen",
+   "description": "La fin du Credo : un seul baptême qui pardonne, la résurrection du corps, la vie du siècle à venir, et le mot par lequel tu signes.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g813.bapteme_resurrection_amen",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g812.quatre_marques"
+   ],
+   "vocabulary": [
+    {
+     "word": "un seul baptême",
+     "slug": "c08_un_seul_bapteme",
+     "translation": "le baptême ne se répète pas : il pardonne les péchés et donne une vie nouvelle",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la résurrection des morts",
+     "slug": "c08_resurrection_des_morts",
+     "translation": "à la fin, les morts ressusciteront, corps compris",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la vie du siècle à venir",
+     "slug": "c08_siecle_a_venir",
+     "translation": "le monde nouveau après le retour du Christ : la vie éternelle avec Dieu",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "Amen",
+     "slug": "c08_amen",
+     "translation": "mot hébreu : « c'est vrai », « ainsi soit-il »",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "eg.l814",
+   "sequence": 814,
+   "title": "Bilan : le Credo en entier",
+   "description": "Les trois blocs plus l'Église, une erreur par article, trois conciles, et tout le Credo dans l'ordre.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g814.bilan_du_credo",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g813.bapteme_resurrection_amen"
+   ],
+   "vocabulary": [
+    {
+     "word": "les trois blocs du Credo",
+     "slug": "c08_trois_blocs",
+     "translation": "un bloc pour le Père, un pour le Fils, un pour l'Esprit, puis l'Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "confesser la foi",
+     "slug": "c08_confesser",
+     "translation": "proclamer ouvertement sa foi, avec toute l'Église",
+     "partOfSpeech": "expression"
+    }
+   ]
+  }
+ ]
+}

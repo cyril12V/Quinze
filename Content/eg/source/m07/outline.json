@@ -1,0 +1,612 @@
+{
+ "module": {
+  "id": 7,
+  "format": 3,
+  "title": "Ce qui nous sépare : orthodoxes, catholiques, protestants et groupes récents",
+  "description": "Expliquer calmement à un ami catholique, orthodoxe grec, protestant ou membre d'un groupe récent ce qui nous unit et ce qui nous sépare, avec respect et exactitude."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g701.quatre_familles",
+   "category": "knowledge",
+   "title": "Les quatre grandes familles de chrétiens",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g702.chalcedoine_deux_formules",
+   "category": "knowledge",
+   "title": "Chalcédoine : un même Christ, deux formules",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g701.quatre_familles"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g703.pape_primaute",
+   "category": "knowledge",
+   "title": "Le pape : primauté et infaillibilité",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g702.chalcedoine_deux_formules"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g704.filioque_1054",
+   "category": "knowledge",
+   "title": "Le Filioque et le schisme de 1054",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g703.pape_primaute"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g705.marie_purgatoire",
+   "category": "knowledge",
+   "title": "Marie, le purgatoire et la prière pour les défunts",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g704.filioque_1054"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g706.pain_celibat",
+   "category": "knowledge",
+   "title": "Le pain de la messe et les prêtres mariés",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g705.marie_purgatoire"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g707.reforme_ecriture",
+   "category": "knowledge",
+   "title": "La Réforme et l'Écriture seule",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g706.pain_celibat"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g708.foi_oeuvres",
+   "category": "knowledge",
+   "title": "La foi seule ou la foi et les œuvres",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g707.reforme_ecriture"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g709.sacrements_saints_icones",
+   "category": "knowledge",
+   "title": "Sacrements, saints, icônes et succession apostolique",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g708.foi_oeuvres"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g710.mormons",
+   "category": "knowledge",
+   "title": "Joseph Smith et les mormons",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g709.sacrements_saints_icones"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g711.adventistes",
+   "category": "knowledge",
+   "title": "Les adventistes : Miller, Ellen White et le samedi",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g710.mormons"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g712.temoins",
+   "category": "knowledge",
+   "title": "Les témoins de Jéhovah : ce qu'ils croient, ce que nous répondons",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g711.adventistes"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g713.science_chretienne",
+   "category": "knowledge",
+   "title": "La Science chrétienne et ce que les groupes récents ont en commun",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g712.temoins"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g714.bilan",
+   "category": "knowledge",
+   "title": "Bilan : expliquer calmement à un ami",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g713.science_chretienne"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l701",
+   "sequence": 701,
+   "title": "Marc te demande : « Tu es catholique ? »",
+   "description": "Quatre familles de chrétiens, trois questions pour les distinguer, et ta place parmi elles.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g701.quatre_familles",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les orthodoxes byzantins",
+     "slug": "c07_orthodoxes_byzantins",
+     "translation": "Églises grecque, russe, serbe, roumaine… qui reçoivent Chalcédoine",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "l'Église catholique",
+     "slug": "c07_eglise_catholique",
+     "translation": "la plus grande Église chrétienne, dirigée par le pape à Rome",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le protestantisme",
+     "slug": "c07_protestantisme",
+     "translation": "ensemble d'Églises nées de la Réforme du XVIe siècle",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le patriarcat grec d'Alexandrie",
+     "slug": "c07_patriarcat_grec",
+     "translation": "Église orthodoxe byzantine d'Égypte, distincte de l'Église copte",
+     "partOfSpeech": "organization"
+    }
+   ]
+  },
+  {
+   "id": "eg.l702",
+   "sequence": 702,
+   "title": "Eleni et les deux formules",
+   "description": "Avec une orthodoxe grecque, vous confessez le même Christ : seules les formules changent.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g702.chalcedoine_deux_formules",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "« de deux natures »",
+     "slug": "c07_de_deux_natures",
+     "translation": "formule d'Alexandrie : le Christ vient de deux natures, unies en une",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les sept conciles",
+     "slug": "c07_sept_conciles",
+     "translation": "les conciles reçus par les orthodoxes byzantins, jusqu'à Nicée II (787)",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l703",
+   "sequence": 703,
+   "title": "« Pourquoi vous n'avez pas le même pape ? »",
+   "description": "La question de Marc, et une réponse calme sur la primauté du pape et le rôle des évêques en concile.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g703.pape_primaute",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le pape de Rome",
+     "slug": "c07_pape_de_rome",
+     "translation": "pour les catholiques, évêque de Rome et successeur de saint Pierre",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la primauté du pape",
+     "slug": "c07_primaute",
+     "translation": "autorité que les catholiques reconnaissent au pape sur toute l'Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'infaillibilité pontificale",
+     "slug": "c07_infaillibilite",
+     "translation": "dogme de 1870 : le pape ne se trompe pas quand il enseigne ex cathedra",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Vatican I",
+     "slug": "c07_vatican_i",
+     "translation": "concile catholique de 1869-1870 qui définit l'infaillibilité du pape",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l704",
+   "sequence": 704,
+   "title": "Un mot de plus dans le Credo",
+   "description": "Le Filioque, le schisme de 1054 qui ne nous concerne pas directement, et le dialogue d'aujourd'hui.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g704.filioque_1054",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Filioque",
+     "slug": "c07_filioque",
+     "translation": "ajout latin « et du Fils » au Credo de Nicée-Constantinople",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le schisme de 1054",
+     "slug": "c07_schisme_1054",
+     "translation": "rupture entre l'Église de Rome et celle de Constantinople",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "la déclaration de 1973",
+     "slug": "c07_declaration_1973",
+     "translation": "texte signé par Chenouda III et Paul VI sur la foi dans le Christ",
+     "partOfSpeech": "date"
+    }
+   ]
+  },
+  {
+   "id": "eg.l705",
+   "sequence": 705,
+   "title": "Marie, le purgatoire et nos défunts",
+   "description": "Avec Marc, vous aimez la même Vierge Marie ; deux doctrines catholiques, l'Immaculée Conception et le purgatoire, ne sont pas les nôtres.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g705.marie_purgatoire",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'Immaculée Conception",
+     "slug": "c07_immaculee_conception",
+     "translation": "dogme catholique de 1854 : Marie conçue sans péché originel",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le péché originel",
+     "slug": "c07_peche_originel",
+     "translation": "faute d'Adam dont les catholiques disent qu'elle touche chacun dès sa conception",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le purgatoire",
+     "slug": "c07_purgatoire",
+     "translation": "dans la foi catholique, purification après la mort avant d'entrer au ciel",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les prières pour les défunts",
+     "slug": "c07_prieres_defunts",
+     "translation": "prières de l'Église pour les morts, aux 3e, 7e et 40e jours",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l706",
+   "sequence": 706,
+   "title": "Le pain levé et les prêtres mariés",
+   "description": "Deux détails qui frappent à la messe de Marc : le pain et l'absence d'épouse du prêtre. Des différences de discipline, pas de foi.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g706.pain_celibat",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les azymes",
+     "slug": "c07_azymes",
+     "translation": "pain sans levain utilisé par l'Église latine pour l'eucharistie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le pain levé",
+     "slug": "c07_pain_leve",
+     "translation": "pain fait avec du levain, utilisé dans l'Église copte pour l'eucharistie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le célibat des prêtres",
+     "slug": "c07_celibat",
+     "translation": "règle de l'Église latine : les prêtres ne se marient pas",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'Église catholique copte",
+     "slug": "c07_catholique_copte",
+     "translation": "Église copte en communion avec le pape de Rome, distincte de la nôtre",
+     "partOfSpeech": "organization"
+    }
+   ]
+  },
+  {
+   "id": "eg.l707",
+   "sequence": 707,
+   "title": "Luther, 1517 : la Bible seule ?",
+   "description": "Comment est né le protestantisme, ce qu'il défend, et pourquoi l'Église copte garde l'Écriture et la Tradition.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g707.reforme_ecriture",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les 95 thèses (1517)",
+     "slug": "c07_95_theses",
+     "translation": "texte de Luther contre les indulgences, traditionnellement affiché le 31 octobre 1517",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "la Réforme",
+     "slug": "c07_reforme",
+     "translation": "mouvement religieux du XVIe siècle qui crée le protestantisme",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "sola scriptura",
+     "slug": "c07_sola_scriptura",
+     "translation": "principe protestant : l'Écriture seule est l'autorité de la foi",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les livres deutérocanoniques",
+     "slug": "c07_deuterocanoniques",
+     "translation": "livres de l'Ancien Testament gardés par les Coptes, absents de la Bible protestante",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l708",
+   "sequence": 708,
+   "title": "La foi seule ou la foi et les œuvres ?",
+   "description": "Sola fide, Jacques 2, 24, et le monde protestant : des Églises sans pape, parfois très différentes entre elles.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g708.foi_oeuvres",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "sola fide",
+     "slug": "c07_sola_fide",
+     "translation": "principe protestant : le salut vient par la foi seule",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les anglicans",
+     "slug": "c07_anglicans",
+     "translation": "protestants d'Angleterre, nés de la rupture d'Henri VIII avec Rome (1534)",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "les baptistes",
+     "slug": "c07_baptistes",
+     "translation": "protestants qui ne baptisent que les adultes qui croient",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "l'Église évangélique d'Égypte",
+     "slug": "c07_eglise_evangelique",
+     "translation": "Église presbytérienne d'Égypte, née de la mission américaine de 1854",
+     "partOfSpeech": "organization"
+    }
+   ]
+  },
+  {
+   "id": "eg.l709",
+   "sequence": 709,
+   "title": "Sept sacrements, des saints et des icônes",
+   "description": "Avec Sarah : combien de sacrements, pourquoi demander la prière des saints, pourquoi des icônes, et comment on devient évêque.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g709.sacrements_saints_icones",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les sept sacrements",
+     "slug": "c07_sept_sacrements",
+     "translation": "baptême, chrismation, eucharistie, confession, onction des malades, mariage, sacerdoce",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'intercession des saints",
+     "slug": "c07_intercession",
+     "translation": "prière des saints pour nous, qu'on leur demande comme à des frères",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la vénération",
+     "slug": "c07_veneration",
+     "translation": "honneur rendu aux saints et aux icônes, différent de l'adoration",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'icône",
+     "slug": "c07_icone",
+     "translation": "image sacrée qui représente le Christ, Marie ou un saint",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l710",
+   "sequence": 710,
+   "title": "Lucas, le voisin mormon",
+   "description": "Qui sont les mormons, ce que dit leur livre, et pourquoi l'Église copte garde une Bible complète et la Trinité.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g710.mormons",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les mormons",
+     "slug": "c07_mormons",
+     "translation": "membres de l'Église de Jésus-Christ des saints des derniers jours, fondée en 1830",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "le Livre de Mormon",
+     "slug": "c07_livre_de_mormon",
+     "translation": "livre sacré mormon, présenté comme traduit de plaques d'or",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les plaques d'or",
+     "slug": "c07_plaques_d_or",
+     "translation": "objet que l'ange Moroni aurait indiqué à Joseph Smith",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l711",
+   "sequence": 711,
+   "title": "Anna, l'amie adventiste",
+   "description": "Une date annoncée, une déception, un mouvement qui croit à la Trinité : ce qui nous rapproche et ce qui diffère.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g711.adventistes",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les adventistes",
+     "slug": "c07_adventistes",
+     "translation": "chrétiens qui attendent le retour (l'avènement) du Christ et observent le samedi",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "la Grande Déception",
+     "slug": "c07_grande_deception",
+     "translation": "échec de la prédiction du retour du Christ le 22 octobre 1844",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "le sabbat du samedi",
+     "slug": "c07_sabbat_samedi",
+     "translation": "jour de repos observé par les adventistes du septième jour",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l712",
+   "sequence": 712,
+   "title": "Daniel, témoin de Jéhovah",
+   "description": "Qui sont les témoins de Jéhovah, ce qu'ils croient de Jésus et de l'Esprit, et pourquoi le refus de transfusion ne veut pas dire refus de soins.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g712.temoins",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les témoins de Jéhovah",
+     "slug": "c07_temoins_de_jehovah",
+     "translation": "mouvement né dans les années 1870 autour de Charles Taze Russell",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "la Traduction du monde nouveau",
+     "slug": "c07_traduction_monde_nouveau",
+     "translation": "Bible des témoins de Jéhovah",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les 144 000",
+     "slug": "c07_144000",
+     "translation": "nombre de ceux qui, selon les témoins de Jéhovah, vivent au ciel avec le Christ",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le refus de la transfusion",
+     "slug": "c07_refus_transfusion",
+     "translation": "pratique des témoins de Jéhovah fondée sur Actes 15, 20",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l713",
+   "sequence": 713,
+   "title": "Claire, la Science chrétienne, et ce que tout cela a en commun",
+   "description": "Un dernier mouvement du XIXe siècle, les traits communs des groupes récents, et la manière de répondre : avec douceur et respect.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g713.science_chretienne",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la Science chrétienne",
+     "slug": "c07_science_chretienne",
+     "translation": "mouvement fondé par Mary Baker Eddy en 1879 à Boston",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "Science et Santé",
+     "slug": "c07_science_et_sante",
+     "translation": "livre de Mary Baker Eddy publié en 1875, lu à côté de la Bible",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "la grande apostasie",
+     "slug": "c07_grande_apostasie",
+     "translation": "idée de plusieurs groupes : l'Église des apôtres aurait disparu, il faudrait la restaurer",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la douceur et le respect",
+     "slug": "c07_douceur_respect",
+     "translation": "la manière de répondre demandée par saint Pierre (1 Pierre 3, 15)",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l714",
+   "sequence": 714,
+   "title": "Bilan : ce qui nous unit et ce qui nous sépare",
+   "description": "Le test des trois questions, les dates à retenir, un mot-clé par famille, et la manière de répondre à Marc, Eleni, Sarah ou Daniel.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g714.bilan",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le test des trois questions",
+     "slug": "c07_trois_questions",
+     "translation": "Chalcédoine ? pape ? Bible seule ? pour situer une Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "ce qui nous unit",
+     "slug": "c07_ce_qui_nous_unit",
+     "translation": "la Trinité et le Christ, vrai Dieu et vrai homme",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
+}

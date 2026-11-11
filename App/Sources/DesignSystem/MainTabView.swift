@@ -112,8 +112,13 @@ struct QBottomNav: View {
 enum QAppearance {
     @MainActor
     static func configure() {
+        #if NOFRI
+        let background = UIColor { $0.userInterfaceStyle == .dark ? UIColor(hex: 0x17120E) : UIColor(hex: 0xF6EFE2) }
+        let ink = UIColor { $0.userInterfaceStyle == .dark ? UIColor(hex: 0xF3ECDD) : UIColor(hex: 0x2B1A14) }
+        #else
         let background = UIColor { $0.userInterfaceStyle == .dark ? UIColor(hex: 0x111214) : UIColor(hex: 0xF6F7FA) }
         let ink = UIColor { $0.userInterfaceStyle == .dark ? UIColor(hex: 0xF3F2F0) : UIColor(hex: 0x171717) }
+        #endif
         let appearance = UINavigationBarAppearance()
         appearance.configureWithTransparentBackground()
         appearance.backgroundColor = background

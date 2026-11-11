@@ -9,39 +9,127 @@ enum Theme {
     // MARK: Neutrals
 
     /// Page background (`--bg-main`), never pure white.
+    #if NOFRI
+    static let background = Color.dynamic(light: 0xF6EFE2, dark: 0x17120E)
+    #else
     static let background = Color.dynamic(light: 0xF6F7FA, dark: 0x111214)
+    #endif
     /// Cards, inputs, round buttons (`--surface`).
+    #if NOFRI
+    static let surface = Color.dynamic(light: 0xFFFBF3, dark: 0x241C16)
+    #else
     static let surface = Color.dynamic(light: 0xFFFFFF, dark: 0x1C1D20)
+    #endif
     /// Near-black ink (`--black`): titles, primary buttons, active icons. Inverted in dark mode.
+    #if NOFRI
+    static let ink = Color.dynamic(light: 0x6E1B27, dark: 0xE9BE5A)
+    #else
     static let ink = Color.dynamic(light: 0x181818, dark: 0xF3F2F0)
+    #endif
     /// Text and icons drawn on `ink`.
+    #if NOFRI
+    static let onInk = Color.dynamic(light: 0xFBF3E4, dark: 0x2B1A14)
+    #else
     static let onInk = Color.dynamic(light: 0xFFFFFF, dark: 0x181818)
+    #endif
     /// Big titles.
+    #if NOFRI
+    static let primaryText = Color.dynamic(light: 0x2B1A14, dark: 0xF3ECDD)
+    #else
     static let primaryText = Color.dynamic(light: 0x171717, dark: 0xF3F2F0)
+    #endif
     /// Subtitles (15 pt).
+    #if NOFRI
+    static let secondaryText = Color.dynamic(light: 0x6B5A4C, dark: 0xB5A796)
+    #else
     static let secondaryText = Color.dynamic(light: 0x66635F, dark: 0xA9A5A0)
+    #endif
     /// Small text (12 pt) — slightly darker than the brief's #7D7974 to reach a 4.5:1 contrast.
+    #if NOFRI
+    static let tertiaryText = Color.dynamic(light: 0x75644F, dark: 0xA39584)
+    #else
     static let tertiaryText = Color.dynamic(light: 0x6E6A65, dark: 0x9A9691)
+    #endif
     /// Secondary text drawn on a pastel card (grey would fall under 4.5:1 there).
+    #if NOFRI
+    static let onPastelSecondary = Color.dynamic(light: 0x4F3F33, dark: 0xDDD2C2)
+    #else
     static let onPastelSecondary = Color.dynamic(light: 0x4A4547, dark: 0xD9D5D0)
+    #endif
     /// Inactive navigation items (brief #AAA6A2 darkened to stay readable).
+    #if NOFRI
+    static let inactive = Color.dynamic(light: 0x9A8875, dark: 0x7C6F60)
+    #else
     static let inactive = Color.dynamic(light: 0x8C8883, dark: 0x77736E)
+    #endif
+    #if NOFRI
+    static let separator = Color.dynamic(light: 0xE8DCC4, dark: 0x3A2E24)
+    #else
     static let separator = Color.dynamic(light: 0xECEDEF, dark: 0x2A2B2E)
+    #endif
     /// Skeleton blocks.
+    #if NOFRI
+    static let skeleton = Color.dynamic(light: 0xEADFCB, dark: 0x2E251D)
+    #else
     static let skeleton = Color.dynamic(light: 0xECEDEF, dark: 0x26272A)
+    #endif
+    #if NOFRI
+    static let sheetHandle = Color.dynamic(light: 0xD9CBB2, dark: 0x4F4336)
+    #else
     static let sheetHandle = Color.dynamic(light: 0xD7D4D1, dark: 0x4A4845)
+    #endif
 
     // MARK: Pastels (cards, stats, tags, accents — never the page background)
 
+    #if NOFRI
+    static let pink = Color.dynamic(light: 0xEBCFC6, dark: 0x5C3A33)
+    #else
     static let pink = Color.dynamic(light: 0xE8B5EF, dark: 0x5B3D60)
+    #endif
+    #if NOFRI
+    static let pinkSoft = Color.dynamic(light: 0xF5E4DE, dark: 0x3E2925)
+    #else
     static let pinkSoft = Color.dynamic(light: 0xF3D8F5, dark: 0x3E2C41)
+    #endif
+    #if NOFRI
+    static let blue = Color.dynamic(light: 0xD9E2E4, dark: 0x2F4044)
+    #else
     static let blue = Color.dynamic(light: 0xC7DDF6, dark: 0x2E4258)
+    #endif
+    #if NOFRI
+    static let yellow = Color.dynamic(light: 0xF0DDB0, dark: 0x5A4A22)
+    #else
     static let yellow = Color.dynamic(light: 0xF6DEA0, dark: 0x5A4A22)
+    #endif
     /// Darker yellow for chart bars on a yellow card.
+    #if NOFRI
+    static let yellowStrong = Color.dynamic(light: 0xD9A93F, dark: 0xC9A34A)
+    #else
     static let yellowStrong = Color.dynamic(light: 0xE5BE5A, dark: 0xC9A34A)
+    #endif
+    #if NOFRI
+    static let green = Color.dynamic(light: 0x9BBF7A, dark: 0x5E7A45)
+    #else
     static let green = Color.dynamic(light: 0x93D76E, dark: 0x4E7A38)
+    #endif
+    #if NOFRI
+    static let greenSoft = Color.dynamic(light: 0xE6EDD8, dark: 0x2F3A22)
+    #else
     static let greenSoft = Color.dynamic(light: 0xDDF1CF, dark: 0x2C4322)
+    #endif
+    #if NOFRI
+    static let peach = Color.dynamic(light: 0xF0CDB0, dark: 0x6A4636)
+    #else
     static let peach = Color.dynamic(light: 0xF6C6A8, dark: 0x6A4636)
+    #endif
+
+    #if NOFRI
+    /// Nofri: the burgundy of the main card and the gold of its button (same as the app icon).
+    static let burgundy = Color.dynamic(light: 0x6E1B27, dark: 0x5A1620)
+    static let onBurgundy = Color.dynamic(light: 0xFBF3E4, dark: 0xFBF3E4)
+    static let gold = Color.dynamic(light: 0xE9BE5A, dark: 0xE9BE5A)
+    static let onGold = Color.dynamic(light: 0x3A1A08, dark: 0x3A1A08)
+    #endif
 
     // MARK: Legacy names, remapped to the new palette
 
@@ -49,13 +137,29 @@ enum Theme {
     static let accent = ink
     static let accentSoft = pinkSoft
     /// Correct answer: green card, ink text, dark green icon.
+    #if NOFRI
+    static let success = Color.dynamic(light: 0x4A6B1F, dark: 0xB5D48A)
+    #else
     static let success = Color.dynamic(light: 0x2F7A1C, dark: 0x93D76E)
+    #endif
     static let successSoft = greenSoft
     /// « À revoir »: pink family, never an alarm red.
+    #if NOFRI
+    static let error = Color.dynamic(light: 0x9A4A2A, dark: 0xF0C0A8)
+    #else
     static let error = Color.dynamic(light: 0x9C3A86, dark: 0xF0B6F3)
+    #endif
     static let errorSoft = pinkSoft
+    #if NOFRI
+    static let warning = Color.dynamic(light: 0x7D5A00, dark: 0xF0DDB0)
+    #else
     static let warning = Color.dynamic(light: 0x7D5A00, dark: 0xF6DEA0)
+    #endif
+    #if NOFRI
+    static let warningSoft = Color.dynamic(light: 0xF7EBCB, dark: 0x3F3418)
+    #else
     static let warningSoft = Color.dynamic(light: 0xFBEFD0, dark: 0x3F3418)
+    #endif
     static let secondaryBackground = background
     static let groupedBackground = background
     static let card = surface

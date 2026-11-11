@@ -15,7 +15,12 @@ enum Pastel: Int, CaseIterable, Sendable {
         case .pink: return Theme.pink
         case .blue: return Theme.blue
         case .yellow: return Theme.yellow
-        case .green: return Color.dynamic(light: 0xC4E8AC, dark: 0x3D5F2C)
+        case .green:
+            #if NOFRI
+            return Color.dynamic(light: 0xD9E3C4, dark: 0x3F4B2E)
+            #else
+            return Color.dynamic(light: 0xC4E8AC, dark: 0x3D5F2C)
+            #endif
         }
     }
 
@@ -23,7 +28,12 @@ enum Pastel: Int, CaseIterable, Sendable {
     var soft: Color {
         switch self {
         case .pink: return Theme.pinkSoft
-        case .blue: return Color.dynamic(light: 0xE3EEFB, dark: 0x243444)
+        case .blue:
+            #if NOFRI
+            return Color.dynamic(light: 0xECF1F2, dark: 0x263338)
+            #else
+            return Color.dynamic(light: 0xE3EEFB, dark: 0x243444)
+            #endif
         case .yellow: return Theme.warningSoft
         case .green: return Theme.greenSoft
         }

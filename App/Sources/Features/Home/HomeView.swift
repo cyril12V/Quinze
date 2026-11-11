@@ -22,6 +22,7 @@ struct HomeView: View {
     @State private var showLadder = false
     /// The run in progress is the daily challenge (it is marked done when it is finished).
     @State private var challengeRunning = false
+    @State private var collectionCount: (unlocked: Int, total: Int) = (0, 0)
     #endif
 
     init() {}
@@ -90,16 +91,23 @@ struct HomeView: View {
             }
 
             #if NOFRI
-            NofriGameStrip(points: env.nofriPoints, streakDays: env.study.today.streakDays) { showLadder = true }
+            nofriHero
                 .qAppear(0)
             TodayInChurchCard(date: .now)
                 .qAppear(1)
-            #endif
-
+            NofriGameStrip(points: env.nofriPoints, streakDays: env.study.today.streakDays) { showLadder = true }
+                .qAppear(2)
+            NofriShortcuts(challengeDone: env.challengeDoneToday,
+                           hasLearned: !env.churchStore.learner.completedLessonIds.isEmpty,
+                           unlocked: collectionCount.unlocked, total: collectionCount.total,
+                           isBusy: isStarting, onChallenge: { startNofri(challenge: true) })
+                .qAppear(3)
+            #else
             VStack(alignment: .leading, spacing: Theme.Spacing.titleToContent) {
                 titleBlock
                 lessonsBlock
             }
+            #endif
 
             if let resumable {
                 HomeResumeCard(sessionName: "\(resumable.controller.subject.displayName) · \(resumable.controller.type.displayName)",
@@ -109,8 +117,10 @@ struct HomeView: View {
                 .qAppear(3)
             }
 
+            #if !NOFRI
             statsBlock
                 .qAppear(4)
+            #endif
 
             if env.study.today.assessmentDue {
                 HomeAssessmentCard(isStarting: isStarting) { start(.assessment) }
@@ -236,18 +246,43 @@ struct HomeView: View {
     }
 
     #if NOFRI
-    /// Outside the blocked slots: the next lesson of the path, and the daily challenge.
-    private var freePractice: some View {
-        let progress = env.churchStore.progress
-        return NofriActionsBlock(nextLessonTitle: env.churchStore.upNextTitle,
-                                 lessonsDone: progress?.lessonsCompleted ?? 0,
-                                 lessonsTotal: progress?.lessonsTotal ?? 0,
-                                 challengeDone: env.challengeDoneToday,
-                                 hasLearned: !env.churchStore.learner.completedLessonIds.isEmpty,
-                                 isStarting: isStarting,
-                                 onContinue: { startNofri(challenge: false) },
-                                 onChallenge: { startNofri(challenge: true) })
+    /// The one thing to do now: the lesson of the current slot, else the next lesson of the path.
+    @ViewBuilder private var nofriHero: some View {
+        let next = env.churchStore.engine?.nextLesson(for: env.churchStore.learner, now: .now)
+        let title = next?.title ?? "Révisions du jour"
+        let detail = nofriLessonDetail(next)
+        switch featuredState {
+        case .loading:
+            SkeletonCard(height: 210)
+        case .resume(let slot):
+            NofriHeroCard(kicker: "Ta leçon \(FrenchLabels.slotPhrase(slot.slot)) · en cours", title: title, detail: detail,
+                          buttonTitle: "Reprendre", isBusy: isStarting) { start(.subject(.church, slot.slot)) }
+        case .start(let slot):
+            NofriHeroCard(kicker: "Ta leçon \(FrenchLabels.slotPhrase(slot.slot)) · \(env.settings.study.minutes(for: .church)) min",
+                          title: title, detail: detail, buttonTitle: "Commencer", isBusy: isStarting) { start(.subject(.church, slot.slot)) }
+        case .catchUp(let slot):
+            NofriHeroCard(kicker: "Leçon \(FrenchLabels.slotPhrase(slot.slot)) à rattraper", title: title, detail: detail,
+                          buttonTitle: "Rattraper", isBusy: isStarting) { start(.subject(.church, slot.slot)) }
+        case .waiting(let slot):
+            NofriHeroCard(kicker: "Prochain blocage à \(slot.scheduledTime) · prends de l'avance", title: title, detail: detail,
+                          buttonTitle: "Continuer le chemin", isBusy: isStarting) { startNofri(challenge: false) }
+        case .extra(let allDone):
+            NofriHeroCard(kicker: allDone ? "Leçons du jour faites · continue si tu veux" : "Le chemin", title: title, detail: detail,
+                          buttonTitle: "Continuer le chemin", isBusy: isStarting) { startNofri(challenge: false) }
+        }
     }
+
+    /// « Chapitre 4 · Le quatrième siècle · leçon 4 sur 15 »
+    private func nofriLessonDetail(_ lesson: Lesson?) -> String? {
+        guard let lesson, let engine = env.churchStore.engine else { return nil }
+        let siblings = engine.index.lessonsInOrder.filter { $0.module == lesson.module }
+        let rank = (siblings.firstIndex { $0.id == lesson.id } ?? 0) + 1
+        let chapter = engine.index.bundle.modules.first { $0.id == lesson.module }?.title ?? ""
+        return "Chapitre \(lesson.module) · \(chapter) · leçon \(rank) sur \(siblings.count)"
+    }
+
+    /// Not shown in Nofri (the main card and the shortcuts replace it).
+    private var freePractice: some View { EmptyView() }
 
     private func startNofri(challenge: Bool) {
         guard !isStarting else { return }
@@ -379,6 +414,8 @@ struct HomeView: View {
         await env.study.refresh()
         #if NOFRI
         env.publishWidgetData()
+        let fiches = env.collectionFiches()
+        collectionCount = (fiches.filter(\.unlocked).count, fiches.count)
         #endif
         guard activeRun == nil else { return }
         let candidate: StudyRun? = env.study.resumableRun()

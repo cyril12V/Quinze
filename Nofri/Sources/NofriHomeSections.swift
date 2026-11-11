@@ -1,7 +1,51 @@
 import SwiftUI
 import LearningCore
 
-/// Top of the home: title, points towards the next title, streak.
+/// The main card of the home: the one thing to do now. Burgundy, with a gold button.
+struct NofriHeroCard: View {
+    let kicker: String
+    let title: String
+    let detail: String?
+    let buttonTitle: String
+    let isBusy: Bool
+    let action: () -> Void
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: Theme.Spacing.s) {
+            Text(kicker.uppercased())
+                .font(Theme.Font.caption(.bold))
+                .tracking(0.8)
+                .foregroundStyle(Theme.onBurgundy.opacity(0.8))
+            Text(title)
+                .font(Theme.Font.jakarta(24, .bold, relativeTo: .title2))
+                .foregroundStyle(Theme.onBurgundy)
+                .fixedSize(horizontal: false, vertical: true)
+                .accessibilityAddTraits(.isHeader)
+            if let detail {
+                Text(detail)
+                    .font(Theme.Font.callout)
+                    .foregroundStyle(Theme.onBurgundy.opacity(0.85))
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            Button(action: action) {
+                Text(buttonTitle)
+                    .font(Theme.Font.jakarta(16, .bold, relativeTo: .headline))
+                    .foregroundStyle(Theme.onGold)
+                    .frame(maxWidth: .infinity, minHeight: 54)
+                    .background(RoundedRectangle(cornerRadius: 16, style: .continuous).fill(Theme.gold))
+                    .opacity(isBusy ? 0.6 : 1)
+            }
+            .buttonStyle(.press)
+            .disabled(isBusy)
+            .padding(.top, Theme.Spacing.s)
+        }
+        .padding(20)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(RoundedRectangle(cornerRadius: Theme.Radius.large, style: .continuous).fill(Theme.burgundy))
+    }
+}
+
+/// Title, points towards the next title, streak.
 struct NofriGameStrip: View {
     let points: Int
     let streakDays: Int
@@ -11,40 +55,74 @@ struct NofriGameStrip: View {
         let rank = NofriGame.rank(points: points)
         let next = NofriGame.nextRank(points: points)
         Button(action: onOpenLadder) {
-            PastelCard(.yellow, padding: 18) {
-                VStack(alignment: .leading, spacing: Theme.Spacing.s) {
-                    HStack(alignment: .center, spacing: Theme.Spacing.m) {
-                        Text(rank.emoji)
-                            .font(.system(size: 38))
-                            .accessibilityHidden(true)
-                        VStack(alignment: .leading, spacing: 2) {
-                            Text("Ton titre")
-                                .font(Theme.Font.caption(.semibold))
-                                .foregroundStyle(Theme.onPastelSecondary)
-                            CardTitle(rank.title)
-                        }
-                        Spacer(minLength: 0)
-                        VStack(alignment: .trailing, spacing: 2) {
-                            Text("🔥 \(streakDays)")
-                                .font(Theme.Font.headline(.bold))
-                                .foregroundStyle(Theme.ink)
-                            Text(streakDays > 1 ? "jours d'affilée" : "jour d'affilée")
-                                .font(Theme.Font.caption(.medium))
-                                .foregroundStyle(Theme.onPastelSecondary)
-                        }
-                    }
-                    QProgressBar(value: NofriGame.progress(points: points), height: 8)
-                    Text(next.map { "\(points) points · encore \($0.minPoints - points) pour devenir \($0.title)" }
-                         ?? "\(points) points · tu as atteint le dernier titre")
-                        .font(Theme.Font.caption(.medium))
-                        .foregroundStyle(Theme.onPastelSecondary)
-                        .fixedSize(horizontal: false, vertical: true)
+            VStack(alignment: .leading, spacing: Theme.Spacing.s) {
+                HStack(alignment: .firstTextBaseline, spacing: Theme.Spacing.s) {
+                    Text("\(rank.emoji) \(rank.title)")
+                        .font(Theme.Font.jakarta(20, .bold, relativeTo: .title3))
+                        .foregroundStyle(Theme.primaryText)
+                    Spacer(minLength: 0)
+                    Text("\(points) points")
+                        .font(Theme.Font.caption(.semibold))
+                        .foregroundStyle(Theme.secondaryText)
                 }
+                QProgressBar(value: NofriGame.progress(points: points), height: 8, fill: Theme.yellowStrong)
+                Text(next.map { "Encore \($0.minPoints - points) points pour devenir \($0.title)" }
+                     ?? "Tu as atteint le dernier titre")
+                    .font(Theme.Font.caption(.medium))
+                    .foregroundStyle(Theme.secondaryText)
+                    .fixedSize(horizontal: false, vertical: true)
             }
+            .card()
         }
         .buttonStyle(.press)
         .accessibilityElement(children: .combine)
         .accessibilityHint("Affiche tous les titres")
+    }
+}
+
+/// Two small cards side by side: the daily challenge and the collection.
+struct NofriShortcuts: View {
+    let challengeDone: Bool
+    let hasLearned: Bool
+    let unlocked: Int
+    let total: Int
+    let isBusy: Bool
+    let onChallenge: () -> Void
+
+    var body: some View {
+        HStack(alignment: .top, spacing: Theme.Spacing.s) {
+            Button(action: onChallenge) {
+                tile(label: "Défi du jour",
+                     value: challengeDone ? "Relevé ✓" : "10 questions",
+                     detail: hasLearned ? (challengeDone ? "Tu peux rejouer" : "+\(NofriGame.challengeBonus) points") : "Après ta 1re leçon")
+            }
+            .buttonStyle(.press)
+            .disabled(isBusy || !hasLearned)
+            .accessibilityHint("Lance un mélange de tout ce que tu as appris")
+            tile(label: "Collection", value: "\(unlocked) / \(total)", detail: "fiches débloquées")
+        }
+    }
+
+    private func tile(label: String, value: String, detail: String) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            Text(label.uppercased())
+                .font(Theme.Font.caption(.bold))
+                .tracking(0.6)
+                .foregroundStyle(Theme.secondaryText)
+            Text(value)
+                .font(Theme.Font.jakarta(20, .bold, relativeTo: .title3))
+                .foregroundStyle(Theme.primaryText)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
+            Text(detail)
+                .font(Theme.Font.caption(.medium))
+                .foregroundStyle(Theme.secondaryText)
+                .lineLimit(1)
+                .minimumScaleFactor(0.8)
+        }
+        .frame(maxWidth: .infinity, minHeight: 78, alignment: .topLeading)
+        .card()
+        .accessibilityElement(children: .combine)
     }
 }
 
@@ -61,16 +139,19 @@ struct TodayInChurchCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: Theme.Spacing.s) {
-            QSectionTitle("Aujourd'hui dans l'Église")
             HStack(alignment: .firstTextBaseline, spacing: Theme.Spacing.s) {
-                Text(coptic.formatted)
-                    .font(Theme.Font.headline)
-                    .foregroundStyle(Theme.primaryText)
-                Text(coptic.monthNameArabic)
-                    .font(.system(.callout))
+                Text("AUJOURD'HUI DANS L'ÉGLISE")
+                    .font(Theme.Font.caption(.bold))
+                    .tracking(0.6)
                     .foregroundStyle(Theme.secondaryText)
                 Spacer(minLength: 0)
+                Text(coptic.monthNameArabic)
+                    .font(.system(.footnote))
+                    .foregroundStyle(Theme.secondaryText)
             }
+            Text(coptic.formatted)
+                .font(Theme.Font.jakarta(20, .bold, relativeTo: .title3))
+                .foregroundStyle(Theme.primaryText)
             line(icon: "music.note",
                  text: "Jour \(CopticCalendar.tune(for: date, calendar: calendar).rawValue) (\(CopticCalendar.weekdayName(for: date, calendar: calendar)))")
             if isEvening {
@@ -79,8 +160,6 @@ struct TodayInChurchCard: View {
             }
             line(icon: "leaf", text: CopticCalendar.fast(on: date, calendar: calendar) ?? "Pas de jeûne aujourd'hui")
         }
-        .padding(Theme.Spacing.m)
-        .frame(maxWidth: .infinity, alignment: .leading)
         .card()
         .accessibilityElement(children: .combine)
     }
@@ -94,63 +173,6 @@ struct TodayInChurchCard: View {
         } icon: {
             Image(systemName: icon)
                 .foregroundStyle(Theme.ink)
-        }
-    }
-}
-
-/// « Continuer le chemin » and « Défi du jour » : what the learner can do outside the blocked slots.
-struct NofriActionsBlock: View {
-    let nextLessonTitle: String?
-    let lessonsDone: Int
-    let lessonsTotal: Int
-    let challengeDone: Bool
-    let hasLearned: Bool
-    let isStarting: Bool
-    let onContinue: () -> Void
-    let onChallenge: () -> Void
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: Theme.Spacing.card) {
-            PastelCard(.blue, padding: 20) {
-                VStack(alignment: .leading, spacing: Theme.Spacing.m) {
-                    HStack(spacing: Theme.Spacing.s) {
-                        QPill(text: "Le chemin", icon: .path)
-                        Spacer(minLength: 0)
-                        Text("\(lessonsDone)/\(lessonsTotal)")
-                            .font(Theme.Font.caption(.semibold))
-                            .foregroundStyle(Theme.onPastelSecondary)
-                    }
-                    CardTitle(nextLessonTitle.map { "Prochaine leçon : \($0)" } ?? "Tu as fini le chemin. Entretiens ta mémoire.")
-                    Text("Une carte, une question, et on avance. Il faut 90 % pour valider : une erreur revient jusqu'à ce que ce soit acquis.")
-                        .font(Theme.Font.callout)
-                        .foregroundStyle(Theme.onPastelSecondary)
-                        .fixedSize(horizontal: false, vertical: true)
-                    Button("Continuer le chemin", action: onContinue)
-                        .buttonStyle(.primary)
-                        .disabled(isStarting)
-                }
-            }
-            PastelCard(challengeDone ? .green : .pink, padding: 20) {
-                VStack(alignment: .leading, spacing: Theme.Spacing.m) {
-                    HStack(spacing: Theme.Spacing.s) {
-                        QPill(text: "Défi du jour", icon: .target)
-                        Spacer(minLength: 0)
-                        Text("+\(NofriGame.challengeBonus) points")
-                            .font(Theme.Font.caption(.semibold))
-                            .foregroundStyle(Theme.onPastelSecondary)
-                    }
-                    CardTitle(challengeDone ? "Défi relevé aujourd'hui" : "Tout ce que tu sais, en quelques questions")
-                    Text(hasLearned
-                         ? "Un mélange de tout ce que tu as appris, sans aide. C'est lui qui fait rester les choses."
-                         : "Fais d'abord ta première leçon : le défi mélange ce que tu as déjà appris.")
-                        .font(Theme.Font.callout)
-                        .foregroundStyle(Theme.onPastelSecondary)
-                        .fixedSize(horizontal: false, vertical: true)
-                    Button(challengeDone ? "Rejouer" : "Relever le défi", action: onChallenge)
-                        .buttonStyle(.secondary)
-                        .disabled(isStarting || !hasLearned)
-                }
-            }
         }
     }
 }

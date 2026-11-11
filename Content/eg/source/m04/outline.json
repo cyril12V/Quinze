@@ -1,0 +1,699 @@
+{
+ "module": {
+  "id": 4,
+  "format": 3,
+  "title": "Le quatrième siècle",
+  "description": "De la fin de la grande persécution à la paix de Constantin, d'Arius au concile de Nicée, d'Athanase aux Pères du désert, jusqu'au concile de Constantinople et au Credo que tu récites à la messe."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g401.grande_persecution",
+   "category": "knowledge",
+   "title": "La grande persécution (303-311)",
+   "difficulty": 2,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g402.constantin",
+   "category": "knowledge",
+   "title": "Constantin et l'édit de Milan (313)",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g401.grande_persecution"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g403.empereur_et_eglise",
+   "category": "knowledge",
+   "title": "L'empereur et l'Église (330)",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g402.constantin"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g404.arius",
+   "category": "knowledge",
+   "title": "Arius et sa phrase (vers 318)",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g403.empereur_et_eglise"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g405.divinite",
+   "category": "knowledge",
+   "title": "Pourquoi l'arianisme est grave",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g404.arius"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g406.nicee_convocation",
+   "category": "knowledge",
+   "title": "Nicée 325 : qui, où, quand",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g405.divinite"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g407.nicee_decisions",
+   "category": "knowledge",
+   "title": "Le credo de Nicée (325)",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g406.nicee_convocation"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g408.athanase_jeune",
+   "category": "knowledge",
+   "title": "Athanase : de jeune génie à pape",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g407.nicee_decisions"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g409.athanase_exils",
+   "category": "knowledge",
+   "title": "Les exils d'Athanase",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g408.athanase_jeune"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g410.monachisme_antoine",
+   "category": "knowledge",
+   "title": "Le monachisme : Antoine et Paul",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g409.athanase_exils"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g411.communautes",
+   "category": "knowledge",
+   "title": "Pacôme, Macaire et les trois modèles",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g410.monachisme_antoine"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g412.ethiopie",
+   "category": "knowledge",
+   "title": "Frumentius et l'Éthiopie",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g411.communautes"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g413.apollinaire_macedonius",
+   "category": "knowledge",
+   "title": "Apollinaire, Macédonius et 380",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g412.ethiopie"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g414.constantinople",
+   "category": "knowledge",
+   "title": "Le concile de Constantinople (381)",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g413.apollinaire_macedonius"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g415.bilan",
+   "category": "knowledge",
+   "title": "Bilan du IVe siècle",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g414.constantinople"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l401",
+   "sequence": 401,
+   "title": "Le feu avant la paix",
+   "description": "Quatre édits, un empereur plus cruel encore, le dernier grand martyr d'Alexandrie, puis un édit qui arrête tout.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g401.grande_persecution",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Galère",
+     "slug": "c04_galere",
+     "translation": "empereur après Dioclétien (305), plus cruel encore",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'édit de tolérance (311)",
+     "slug": "c04_edit_311",
+     "translation": "édit de Galère : les chrétiens peuvent exister et prier",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le pape Pierre, sceau des martyrs",
+     "slug": "c04_pierre_sceau",
+     "translation": "pape d'Alexandrie martyrisé en 311",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "saint Georges",
+     "slug": "c04_saint_georges",
+     "translation": "soldat et martyr de la grande persécution, vers 303",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l402",
+   "sequence": 402,
+   "title": "Le signe dans le ciel",
+   "description": "Constantin marche sur Rome, voit une croix dans le ciel, et un an plus tard l'édit de Milan donne la liberté.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g402.constantin",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g401.grande_persecution"
+   ],
+   "vocabulary": [
+    {
+     "word": "Constantin",
+     "slug": "c04_constantin",
+     "translation": "empereur romain (306-337), protecteur de l'Église",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Maxence",
+     "slug": "c04_maxence",
+     "translation": "rival de Constantin, vaincu à Rome en 312",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'édit de Milan (313)",
+     "slug": "c04_edit_milan",
+     "translation": "édit de liberté signé par Constantin et Licinius",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Licinius",
+     "slug": "c04_licinius",
+     "translation": "empereur, co-signataire de l'édit de Milan",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l403",
+   "sequence": 403,
+   "title": "La ville de Constantin",
+   "description": "Hélène et la Sainte Croix, la fondation de Constantinople, et le titre étonnant que se donne l'empereur.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g403.empereur_et_eglise",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g401.grande_persecution",
+    "eg.g402.constantin"
+   ],
+   "vocabulary": [
+    {
+     "word": "Hélène",
+     "slug": "c04_helene",
+     "translation": "mère de Constantin, qui retrouve la Sainte Croix",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Constantinople",
+     "slug": "c04_constantinople",
+     "translation": "capitale de l'empire d'Orient, fondée en 330",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "l'évêque du dehors",
+     "slug": "c04_eveque_du_dehors",
+     "translation": "titre que Constantin se donne pour les affaires extérieures de l'Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'Arménie",
+     "slug": "c04_armenie",
+     "translation": "premier pays chrétien, en 301",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l404",
+   "sequence": 404,
+   "title": "Arius, le prêtre qu'on aime",
+   "description": "Un prêtre d'Alexandrie dit une phrase qui met le feu à l'Empire. Qui est Arius, et comment sa doctrine se répand.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g404.arius",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g401.grande_persecution",
+    "eg.g402.constantin",
+    "eg.g403.empereur_et_eglise"
+   ],
+   "vocabulary": [
+    {
+     "word": "Arius",
+     "slug": "c04_arius",
+     "translation": "prêtre d'Alexandrie, auteur de l'hérésie arienne",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'arianisme",
+     "slug": "c04_arianisme",
+     "translation": "hérésie : le Fils aurait été créé",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le pape Alexandre",
+     "slug": "c04_alexandre",
+     "translation": "19e pape d'Alexandrie, adversaire d'Arius",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Eusèbe de Nicomédie",
+     "slug": "c04_eusebe_nicomedie",
+     "translation": "évêque puissant, grand protecteur d'Arius",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l405",
+   "sequence": 405,
+   "title": "Si le Fils est une créature",
+   "description": "Pourquoi l'arianisme est si grave : seul Dieu peut sauver. Les trois camps, et l'iota qui change tout.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g405.divinite",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g402.constantin",
+    "eg.g403.empereur_et_eglise",
+    "eg.g404.arius"
+   ],
+   "vocabulary": [
+    {
+     "word": "la divinité du Christ",
+     "slug": "c04_divinite_du_christ",
+     "translation": "vérité centrale : Jésus est Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "homoousios",
+     "slug": "c04_homoousios",
+     "translation": "mot grec : de même substance que le Père",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le semi-arianisme",
+     "slug": "c04_semi_arianisme",
+     "translation": "position du milieu : le Fils aurait une substance semblable",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l406",
+   "sequence": 406,
+   "title": "Nicée : les évêques arrivent",
+   "description": "Constantin convoque tous les évêques. Qui vient, d'où, avec quelles cicatrices, et qui est face à qui.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g406.nicee_convocation",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g403.empereur_et_eglise",
+    "eg.g404.arius",
+    "eg.g405.divinite"
+   ],
+   "vocabulary": [
+    {
+     "word": "le concile de Nicée",
+     "slug": "c04_concile_de_nicee",
+     "translation": "premier concile œcuménique (325), contre l'arianisme",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le concile œcuménique",
+     "slug": "c04_concile_oecumenique",
+     "translation": "assemblée d'évêques de toute l'Église",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Nicée",
+     "slug": "c04_nicee",
+     "translation": "ville de l'actuelle Turquie, où s'est tenu le premier concile",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Eusèbe de Césarée",
+     "slug": "c04_eusebe_cesaree",
+     "translation": "évêque historien, ami de Constantin",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l407",
+   "sequence": 407,
+   "title": "Nicée : ce qu'on décide",
+   "description": "Le mot homoousios, le credo, les signatures et les trois évêques qui hésitent, vingt canons, et Arius excommunié.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g407.nicee_decisions",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g404.arius",
+    "eg.g405.divinite",
+    "eg.g406.nicee_convocation"
+   ],
+   "vocabulary": [
+    {
+     "word": "le credo de Nicée",
+     "slug": "c04_credo_de_nicee",
+     "translation": "texte de foi de 325 : le Fils est de même substance que le Père",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "les anathèmes",
+     "slug": "c04_anathemes",
+     "translation": "condamnations jointes au credo de Nicée",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les 318 évêques",
+     "slug": "c04_les_318",
+     "translation": "les évêques de Nicée, selon la tradition",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l408",
+   "sequence": 408,
+   "title": "Athanase, le diacre de 27 ans",
+   "description": "Un jeune génie d'Alexandrie, élève des moines, qui devient le héros de Nicée puis pape.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g408.athanase_jeune",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g405.divinite",
+    "eg.g406.nicee_convocation",
+    "eg.g407.nicee_decisions"
+   ],
+   "vocabulary": [
+    {
+     "word": "saint Athanase",
+     "slug": "c04_athanase",
+     "translation": "XXe pape d'Alexandrie (vers 298-373), défenseur de la foi",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "« Sur l'incarnation du Verbe »",
+     "slug": "c04_sur_incarnation",
+     "translation": "livre de jeunesse d'Athanase",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l409",
+   "sequence": 409,
+   "title": "Athanase contre le monde",
+   "description": "Des empereurs soutiennent les ariens : Athanase est chassé, caché, rappelé. Il fixe aussi la liste des 27 livres du Nouveau Testament.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g409.athanase_exils",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g406.nicee_convocation",
+    "eg.g407.nicee_decisions",
+    "eg.g408.athanase_jeune"
+   ],
+   "vocabulary": [
+    {
+     "word": "le défenseur de la foi",
+     "slug": "c04_defenseur_de_la_foi",
+     "translation": "surnom d'Athanase",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les exils d'Athanase",
+     "slug": "c04_exils_athanase",
+     "translation": "expulsions répétées d'Athanase par les ariens",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "les 27 livres du Nouveau Testament",
+     "slug": "c04_livres_27",
+     "translation": "liste donnée par Athanase en 367",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "La Vie d'Antoine",
+     "slug": "c04_vie_antoine",
+     "translation": "livre d'Athanase sur saint Antoine",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l410",
+   "sequence": 410,
+   "title": "Antoine et Paul : le désert appelle",
+   "description": "Pourquoi des chrétiens partent au désert, et comment l'Égypte donne au monde ses premiers moines.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g410.monachisme_antoine",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g407.nicee_decisions",
+    "eg.g408.athanase_jeune",
+    "eg.g409.athanase_exils"
+   ],
+   "vocabulary": [
+    {
+     "word": "le monachisme",
+     "slug": "c04_monachisme",
+     "translation": "vie de solitude, de prière et de jeûne, née en Égypte",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "saint Antoine le Grand",
+     "slug": "c04_saint_antoine",
+     "translation": "père des moines (251-356)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "saint Paul l'ermite",
+     "slug": "c04_saint_paul_ermite",
+     "translation": "premier ermite, mort vers 342",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l411",
+   "sequence": 411,
+   "title": "Pacôme et Macaire : le désert devient une ville",
+   "description": "Des ermites aux monastères : la vie en communauté, la règle, Scété, et pourquoi l'Égypte est la mère du monachisme.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g411.communautes",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g408.athanase_jeune",
+    "eg.g409.athanase_exils",
+    "eg.g410.monachisme_antoine"
+   ],
+   "vocabulary": [
+    {
+     "word": "saint Pacôme",
+     "slug": "c04_saint_pacome",
+     "translation": "fondateur des premiers monastères communautaires",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la vie cénobitique",
+     "slug": "c04_vie_cenobitique",
+     "translation": "vie des moines en communauté",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "saint Macaire le Grand",
+     "slug": "c04_saint_macaire",
+     "translation": "père de Scété (mort en 391)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Scété",
+     "slug": "c04_scete",
+     "translation": "désert de saint Macaire",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l412",
+   "sequence": 412,
+   "title": "Frumentius : l'Évangile vers le sud",
+   "description": "Un naufrage, une cour royale, un voyage à Alexandrie : comment l'Éthiopie reçoit son premier évêque des mains d'Athanase.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g412.ethiopie",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g409.athanase_exils",
+    "eg.g410.monachisme_antoine",
+    "eg.g411.communautes"
+   ],
+   "vocabulary": [
+    {
+     "word": "Frumentius",
+     "slug": "c04_frumentius",
+     "translation": "premier évêque d'Éthiopie, ordonné par Athanase",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "l'Éthiopie",
+     "slug": "c04_ethiopie",
+     "translation": "pays d'Afrique dont l'Église est fille d'Alexandrie",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l413",
+   "sequence": 413,
+   "title": "Deux nouvelles erreurs",
+   "description": "Apollinaire retire son âme humaine au Christ, Macédonius fait de l'Esprit une créature. En 380, l'Empire devient chrétien.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g413.apollinaire_macedonius",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g410.monachisme_antoine",
+    "eg.g411.communautes",
+    "eg.g412.ethiopie"
+   ],
+   "vocabulary": [
+    {
+     "word": "Apollinaire de Laodicée",
+     "slug": "c04_apollinaire",
+     "translation": "évêque qui retire au Christ son âme humaine",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Macédonius",
+     "slug": "c04_macedonius",
+     "translation": "évêque de Constantinople : l'Esprit Saint serait créé",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Théodose Ier",
+     "slug": "c04_theodose",
+     "translation": "empereur (379-395), qui convoque le concile de 381",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "380 : religion de l'État",
+     "slug": "c04_religion_etat_380",
+     "translation": "année où le christianisme devient religion de l'État",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l414",
+   "sequence": 414,
+   "title": "Constantinople 381 : l'Esprit Saint",
+   "description": "Le deuxième concile : Théodose, 150 évêques, deux erreurs condamnées, et le Credo que tu récites à la messe.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g414.constantinople",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g411.communautes",
+    "eg.g412.ethiopie",
+    "eg.g413.apollinaire_macedonius"
+   ],
+   "vocabulary": [
+    {
+     "word": "le concile de Constantinople",
+     "slug": "c04_concile_de_constantinople",
+     "translation": "deuxième concile œcuménique (381), contre Apollinaire et Macédonius",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le Credo de Nicée-Constantinople",
+     "slug": "c04_credo_nicee_constantinople",
+     "translation": "credo complété en 381, récité à la messe",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "le pape Timothée",
+     "slug": "c04_pape_timothee",
+     "translation": "pape d'Alexandrie présent au concile de 381",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "saint Grégoire le Théologien",
+     "slug": "c04_gregoire_theologien",
+     "translation": "évêque de Nazianze (mort en 390)",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l415",
+   "sequence": 415,
+   "title": "Le siècle en un coup d'œil",
+   "description": "La frise, les deux conciles, les quatre erreurs, les héros et les trois liturgies : le bilan du IVe siècle.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g415.bilan",
+   "introducesGrammar": true,
+   "reviews": [
+    "eg.g412.ethiopie",
+    "eg.g413.apollinaire_macedonius",
+    "eg.g414.constantinople"
+   ],
+   "vocabulary": [
+    {
+     "word": "saint Basile le Grand",
+     "slug": "c04_saint_basile",
+     "translation": "évêque de Césarée de Cappadoce (mort en 379)",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "les trois liturgies",
+     "slug": "c04_trois_liturgies",
+     "translation": "liturgies de saint Basile, de saint Grégoire et de saint Cyrille",
+     "partOfSpeech": "concept"
+    }
+   ]
+  }
+ ]
+}

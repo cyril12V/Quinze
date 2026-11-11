@@ -33,6 +33,36 @@
     "eg.g1202.nuit_louange"
    ],
    "functionWords": []
+  },
+  {
+   "id": "eg.g1204.hoos_doxologies",
+   "category": "knowledge",
+   "title": "Hoos 3 et 4, doxologies",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1203.hoos_lobsh"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1205.psali_theotokie",
+   "category": "knowledge",
+   "title": "Psali et théotokie",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1204.hoos_doxologies"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1206.adam_watos",
+   "category": "knowledge",
+   "title": "Jours Adam et jours Watos",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1205.psali_theotokie"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -123,6 +153,96 @@
      "slug": "c12_cantique_de_moise",
      "translation": "le chant d'Ex 15 après la traversée de la mer Rouge : le 1er hoos",
      "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1204",
+   "sequence": 1204,
+   "title": "Fournaise, victoire et doxologies",
+   "description": "Les deux derniers hoos, l'histoire qu'ils racontent ensemble, et les chants de gloire pour la Vierge et les saints.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1204.hoos_doxologies",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la doxologie",
+     "slug": "c12_doxologie",
+     "translation": "un chant de gloire à la Vierge ou à un saint, entre le 3e et le 4e hoos",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la commémoraison des saints",
+     "slug": "c12_commemoraison_des_saints",
+     "translation": "on rappelle les noms des saints, entre le 3e et le 4e hoos",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le cantique des trois jeunes gens",
+     "slug": "c12_cantique_des_trois_jeunes",
+     "translation": "le chant de la fournaise de Babylone (Dn 3) : le 3e hoos",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1205",
+   "sequence": 1205,
+   "title": "Le psali et la théotokie : le Fils et sa Mère",
+   "description": "Deux chants du jour : l'un loue le Christ, l'autre la Vierge Marie, avec des images de l'Ancien Testament pour dire l'incarnation.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1205.psali_theotokie",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le psali",
+     "slug": "c12_psali",
+     "translation": "un chant de louange au Christ : un par jour, deux le dimanche",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la théotokie",
+     "slug": "c12_theotokie",
+     "translation": "un chant à la Vierge Marie : sept théotokies, une pour chaque jour",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le buisson ardent",
+     "slug": "c12_buisson_ardent",
+     "translation": "le buisson qui brûle sans se consumer (Ex 3) : image de la Vierge",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1206",
+   "sequence": 1206,
+   "title": "Adam et Watos : deux airs, sept jours",
+   "description": "Quels jours sont Adam, quels jours sont Watos, et pourquoi ces deux noms : une leçon pas à pas.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1206.adam_watos",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les jours Adam",
+     "slug": "c12_jours_adam",
+     "translation": "dimanche, lundi et mardi : les jours de l'air Adam",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "les jours Watos",
+     "slug": "c12_jours_watos",
+     "translation": "mercredi, jeudi, vendredi et samedi : les jours de l'air Watos",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Pibatos",
+     "slug": "c12_pibatos",
+     "translation": "« le buisson » : premier mot de la théotokie du jeudi, d'où vient le nom Watos",
+     "partOfSpeech": "expression"
     }
    ]
   }

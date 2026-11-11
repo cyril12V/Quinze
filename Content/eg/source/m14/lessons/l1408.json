@@ -18,8 +18,8 @@
    ],
    "options": [
     "liturgie",
-    "synaxaire",
-    "hagiographie"
+    "hagiographie",
+    "synaxaire"
    ],
    "explanation": "Du grec « hagios », saint.",
    "step": 1
@@ -40,9 +40,9 @@
     "la foi du saint"
    ],
    "options": [
-    "la foi du saint",
     "la date exacte",
-    "le prix de la tour"
+    "le prix de la tour",
+    "la foi du saint"
    ],
    "explanation": "On y lit d'abord un témoignage de foi.",
    "step": 1
@@ -63,8 +63,8 @@
     "cinquante"
    ],
    "options": [
-    "douze",
     "cinquante",
+    "douze",
     "quarante"
    ],
    "explanation": "Cinquante, et elle gagne.",
@@ -87,8 +87,8 @@
    ],
    "options": [
     "Rome",
-    "Jérusalem",
-    "Alexandrie"
+    "Alexandrie",
+    "Jérusalem"
    ],
    "explanation": "Elle est une jeune Alexandrine.",
    "step": 2
@@ -104,14 +104,14 @@
    "instruction": "Choisis la bonne réponse.",
    "prompt": "Que devient la roue prévue pour la torturer ?",
    "promptLanguage": "fr",
-   "answer": "elle se brise",
+   "answer": "se brise",
    "acceptedAnswers": [
-    "elle se brise"
+    "se brise"
    ],
    "options": [
-    "elle se brise",
-    "elle est brûlée",
-    "elle tourne"
+    "est brûlée",
+    "tourne plus vite",
+    "se brise"
    ],
    "explanation": "D'où l'image de la roue brisée.",
    "step": 3
@@ -132,8 +132,8 @@
     "des étudiants"
    ],
    "options": [
-    "des soldats",
     "des étudiants",
+    "des soldats",
     "des marins"
    ],
    "explanation": "Et des philosophes.",
@@ -156,8 +156,8 @@
    ],
    "options": [
     "dans un puits",
-    "dans un couvent",
-    "dans une tour"
+    "dans une tour",
+    "dans un couvent"
    ],
    "explanation": "La tour de Barbara.",
    "step": 4
@@ -178,9 +178,9 @@
     "le mariage"
    ],
    "options": [
-    "le mariage",
     "le baptême",
-    "la prière"
+    "la prière",
+    "le mariage"
    ],
    "explanation": "Elle est devenue chrétienne en secret.",
    "step": 4
@@ -201,8 +201,8 @@
     "Vieux-Caire"
    ],
    "options": [
-    "Alexandrie",
     "Vieux-Caire",
+    "Alexandrie",
     "Belqas"
    ],
    "explanation": "Elle garde ses reliques.",
@@ -225,8 +225,8 @@
    ],
    "options": [
     "Catherine",
-    "Démiana",
-    "Barbara"
+    "Barbara",
+    "Démiana"
    ],
    "explanation": "Catherine, c'est la roue brisée.",
    "step": 5
@@ -247,9 +247,9 @@
     "Catherine"
    ],
    "options": [
-    "Catherine",
     "Barbara",
-    "Démiana"
+    "Démiana",
+    "Catherine"
    ],
    "explanation": "Catherine d'Alexandrie, la savante."
   },
@@ -304,8 +304,8 @@
     "Ces détails viennent de récits anciens que les historiens discutent"
    ],
    "options": [
-    "Les saints n'ont jamais existé",
     "Ces détails viennent de récits anciens que les historiens discutent",
+    "Les saints n'ont jamais existé",
     "Ces récits sont tous inventés"
    ],
    "explanation": "On retient le sens du récit, pas chaque détail."
@@ -316,19 +316,14 @@
     "eg.g1408.catherine_barbara",
     "eg.v.c14_hagiographie"
    ],
-   "type": "mcq",
+   "type": "fill_blank",
    "difficulty": 2,
-   "instruction": "Choisis la bonne réponse.",
-   "prompt": "Comment s'appelle le genre qui raconte la vie d'un saint ?",
+   "instruction": "Complète la phrase.",
+   "prompt": "Le récit de la vie d'un saint s'appelle l'___.",
    "promptLanguage": "fr",
-   "answer": "l'hagiographie",
+   "answer": "hagiographie",
    "acceptedAnswers": [
-    "l'hagiographie"
-   ],
-   "options": [
-    "l'exégèse",
-    "la liturgie",
-    "l'hagiographie"
+    "hagiographie"
    ],
    "explanation": "Hagios veut dire « saint »."
   },
@@ -348,8 +343,8 @@
     "Barbara"
    ],
    "options": [
-    "Barbara",
     "Catherine",
+    "Barbara",
     "Marina"
    ],
    "explanation": "Le père de Barbara l'enferme dans une tour ; le père de Démiana est un gouverneur chrétien."

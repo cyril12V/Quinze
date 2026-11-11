@@ -81,5 +81,88 @@
    ],
    "tip": "Hoos = on chante. Lobsh = on comprend."
   }
+ },
+ {
+  "id": "eg.g1204.hoos_doxologies",
+  "rule": {
+   "summary": "Le 3e hoos est le cantique des trois jeunes gens dans la fournaise (Dn 3), le 4e réunit les psaumes 148 à 150. Entre les deux, on commémore les saints et on chante les doxologies, d'abord à la Vierge.",
+   "explanation": "Les quatre hoos racontent une histoire : sortie de l'esclavage, action de grâce, louange de toute la création, joie et victoire. Doxa veut dire « gloire » en grec. La lettre aux Hébreux parle d'une nuée de témoins : l'Église chante avec ses saints.",
+   "pattern": "Mer Rouge → psaume 135 → fournaise → (saints et doxologies) → psaumes 148-150.",
+   "examples": [
+    {
+     "text": "3e hoos : Dn 3, la fournaise.",
+     "translation": "Toute la création est appelée à louer Dieu."
+    },
+    {
+     "text": "4e hoos : psaumes 148, 149, 150.",
+     "translation": "Joie et victoire."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Les doxologies viennent après le 4e hoos.",
+     "right": "Les doxologies viennent entre le 3e et le 4e hoos.",
+     "why": "Le 4e hoos, les psaumes 148 à 150, clôt la série."
+    }
+   ],
+   "tip": "Doxa = gloire. Les doxologies, entre le 3e et le 4e hoos."
+  }
+ },
+ {
+  "id": "eg.g1205.psali_theotokie",
+  "rule": {
+   "summary": "Le psali est un chant au Christ (un par jour, deux le dimanche). La théotokie est une louange de la Vierge Marie, différente chaque jour : sept en tout. Elle explique l'incarnation par des images : buisson ardent, arche, cruche d'or, chandelier.",
+   "explanation": "Théotokie vient de Théotokos, « mère de Dieu », titre confirmé à Éphèse en 431. Louer Marie, c'est confesser l'incarnation, à l'inverse de Nestorius. Les symboles disent que Marie porte Dieu sans être détruite, et qu'elle nous donne le Christ : feu, Verbe, pain et lumière.",
+   "pattern": "Psali = chant au Christ ; théotokie = chant à la Vierge ; tous deux sur l'air du jour.",
+   "examples": [
+    {
+     "text": "Le psali loue le Christ.",
+     "translation": "Un par jour, deux le dimanche."
+    },
+    {
+     "text": "La théotokie loue la Vierge.",
+     "translation": "Sept théotokies pour sept jours."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La théotokie est un chant au Christ.",
+     "right": "La théotokie loue la Vierge Marie.",
+     "why": "C'est le psali qui s'adresse au Christ."
+    }
+   ],
+   "tip": "Psali = Fils. Théotokie = Mère."
+  }
+ },
+ {
+  "id": "eg.g1206.adam_watos",
+  "rule": {
+   "summary": "La psalmodie a deux airs : Adam (dimanche, lundi, mardi) et Watos (mercredi, jeudi, vendredi, samedi). Adam est le premier mot de la théotokie du lundi ; Watos vient de Pibatos, premier mot de celle du jeudi.",
+   "explanation": "Trois jours Adam, quatre jours Watos : Adam ouvre la semaine, Watos la termine. Le psali et la théotokie du jour se chantent sur l'air du jour. Les noms viennent du premier mot de deux théotokies : « Adam » le lundi, « Pibatos » (le buisson) le jeudi.",
+   "pattern": "Adam : dim., lun., mar. (3 jours). Watos : mer., jeu., ven., sam. (4 jours).",
+   "examples": [
+    {
+     "text": "Le lundi est un jour Adam.",
+     "translation": "La théotokie du lundi commence par « Adam »."
+    },
+    {
+     "text": "Le jeudi est un jour Watos.",
+     "translation": "La théotokie du jeudi commence par « Pibatos »."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le mercredi est un jour Adam.",
+     "right": "Le mercredi est un jour Watos.",
+     "why": "Adam s'arrête au mardi."
+    },
+    {
+     "wrong": "Watos vient du nom d'un saint.",
+     "right": "Watos vient de Pibatos, le buisson.",
+     "why": "C'est le premier mot de la théotokie du jeudi."
+    }
+   ],
+   "tip": "Adam : les 3 premiers jours. Watos : les 4 derniers."
+  }
  }
 ]

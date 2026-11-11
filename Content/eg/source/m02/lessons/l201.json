@@ -65,7 +65,7 @@
    "promptLanguage": "fr",
    "unitIds": [
     "eg.g201.releve",
-    "eg.v.c02_heresie"
+    "eg.v.c01_heresie"
    ],
    "step": 2
   },
@@ -101,8 +101,8 @@
    ],
    "explanation": "Deux personnes peuvent citer le même verset et en tirer des idées contraires. Il faut un juge vivant.",
    "options": [
-    "elles sont trop courtes",
-    "personne ne sait les lire",
+    "elles sont écrites dans une langue oubliée",
+    "personne ne sait encore les lire",
     "chacun peut citer un verset à sa façon"
    ],
    "id": "eg.l201.e05",
@@ -146,14 +146,14 @@
    "explanation": "Apôtres, puis évêques, puis évêques : chaque maillon tient le précédent.",
    "options": [
     "la succession apostolique",
-    "la persécution",
-    "la Pentecôte"
+    "la persécution de l'Empire",
+    "la fête de la Pentecôte"
    ],
    "id": "eg.l201.e07",
    "promptLanguage": "fr",
    "unitIds": [
     "eg.g201.releve",
-    "eg.v.c02_succession"
+    "eg.v.c01_succession_apostolique"
    ],
    "step": 4
   },
@@ -295,7 +295,7 @@
    "promptLanguage": "fr",
    "unitIds": [
     "eg.g201.releve",
-    "eg.v.c02_succession"
+    "eg.v.c01_succession_apostolique"
    ]
   },
   {
@@ -303,15 +303,15 @@
    "difficulty": 3,
    "instruction": "Choisis la bonne réponse.",
    "prompt": "Un maître dit : « C'est écrit dans la Bible ! » Pourquoi cela ne prouve-t-il pas qu'il a raison ?",
-   "answer": "Un autre maître peut citer le même verset pour dire le contraire",
+   "answer": "Un autre maître cite le même verset pour dire le contraire",
    "acceptedAnswers": [
-    "Un autre maître peut citer le même verset pour dire le contraire"
+    "Un autre maître cite le même verset pour dire le contraire"
    ],
    "explanation": "Citer ne suffit pas : il faut aussi savoir comment lire, et cela s'apprend des gardiens de la foi.",
    "options": [
-    "Parce que la Bible n'existe pas encore",
-    "Un autre maître peut citer le même verset pour dire le contraire",
-    "Parce que les hérétiques ne savent pas lire"
+    "Parce que la Bible n'existe pas encore à cette époque",
+    "Un autre maître cite le même verset pour dire le contraire",
+    "Parce que les hérétiques ne savent pas lire les Écritures"
    ],
    "id": "eg.l201.e14",
    "promptLanguage": "fr",
@@ -338,7 +338,8 @@
    "promptLanguage": "fr",
    "unitIds": [
     "eg.g201.releve",
-    "eg.v.c02_heresie"
+    "eg.v.c01_heresie",
+    "eg.v.c02_depot"
    ]
   }
  ]

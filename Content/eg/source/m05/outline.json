@@ -83,6 +83,56 @@
     "eg.g507.decisions_ephese"
    ],
    "functionWords": []
+  },
+  {
+   "id": "eg.g509.eutyches",
+   "category": "knowledge",
+   "title": "Eutychès et le monophysisme",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g508.formule_union"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g510.fer_feu",
+   "category": "knowledge",
+   "title": "Une union sans mélange ni division",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g509.eutyches"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g511.mono_dyo_mia",
+   "category": "knowledge",
+   "title": "Monophysisme, dyophysisme, miaphysisme",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g510.fer_feu"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g512.ephese_449",
+   "category": "knowledge",
+   "title": "Le deuxième concile d'Éphèse (449)",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g511.mono_dyo_mia"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g513.chalcedoine",
+   "category": "knowledge",
+   "title": "Le concile de Chalcédoine (451)",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g512.ephese_449"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -335,6 +385,162 @@
      "slug": "c05_flavien",
      "translation": "patriarche de Constantinople (446-449)",
      "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l509",
+   "sequence": 509,
+   "title": "Eutychès, le vieux moine qui va trop loin",
+   "description": "Nestorius séparait. Eutychès, lui, mélange : l'humanité du Christ serait absorbée, comme une goutte de miel dans la mer.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g509.eutyches",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Eutychès",
+     "slug": "c05_eutyches",
+     "translation": "moine de Constantinople, condamné en 448 pour monophysisme",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le monophysisme",
+     "slug": "c05_monophysisme",
+     "translation": "doctrine d'Eutychès : une seule nature, la divine, qui absorbe l'humanité",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "un archimandrite",
+     "slug": "c05_archimandrite",
+     "translation": "chef d'un grand monastère",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l510",
+   "sequence": 510,
+   "title": "L'image du fer et du feu",
+   "description": "Une barre de fer chauffée au rouge : pour comprendre l'union du divin et de l'humain, sans mélange et sans division.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g510.fer_feu",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'image du fer et du feu",
+     "slug": "c05_fer_et_feu",
+     "translation": "le fer chauffé au rouge : l'union réelle du divin et de l'humain",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "sans mélange ni division",
+     "slug": "c05_sans_melange_ni_division",
+     "translation": "l'union réelle : l'humanité ne disparaît pas, le Christ n'est pas coupé en deux",
+     "partOfSpeech": "expression"
+    }
+   ]
+  },
+  {
+   "id": "eg.l511",
+   "sequence": 511,
+   "title": "Mono, dyo, mia : trois petits mots",
+   "description": "Une seule nature, deux natures, une nature unie : pour pouvoir l'expliquer sans te tromper.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g511.mono_dyo_mia",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le miaphysisme",
+     "slug": "c05_miaphysisme",
+     "translation": "foi en une seule nature unie du Verbe incarné, sans mélange ni division",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le dyophysisme",
+     "slug": "c05_dyophysisme",
+     "translation": "foi en deux natures du Christ, chacune gardant son caractère",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "physis",
+     "slug": "c05_physis",
+     "translation": "mot grec pour « nature » : mono-physisme, dyo-physisme, mia-physisme",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l512",
+   "sequence": 512,
+   "title": "Éphèse II (449) : le concile de la discorde",
+   "description": "Dioscore préside, Eutychès est réhabilité, Flavien déposé, et le Tome de Léon n'est pas lu.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g512.ephese_449",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le deuxième concile d'Éphèse (449)",
+     "slug": "c05_concile_ephese_449",
+     "translation": "concile présidé par Dioscore, qui réhabilite Eutychès et dépose Flavien",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le Tome de Léon",
+     "slug": "c05_tome_de_leon",
+     "translation": "lettre dogmatique de Léon Ier sur les deux natures du Christ",
+     "partOfSpeech": "work"
+    },
+    {
+     "word": "Léon Ier",
+     "slug": "c05_leon_ier",
+     "translation": "évêque de Rome (440-461), auteur du Tome de Léon",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "le brigandage d'Éphèse",
+     "slug": "c05_brigandage_d_ephese",
+     "translation": "nom donné par Léon à Éphèse II (latrocinium)",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l513",
+   "sequence": 513,
+   "title": "Chalcédoine 451 : le premier schisme",
+   "description": "Un nouvel empereur, un concile en face de Constantinople, « deux natures » et la rupture.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g513.chalcedoine",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le concile de Chalcédoine (451)",
+     "slug": "c05_concile_chalcedoine",
+     "translation": "concile qui définit « deux natures », rejeté par l'Église copte",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la définition de Chalcédoine",
+     "slug": "c05_definition_de_chalcedoine",
+     "translation": "un seul Christ reconnu en deux natures, sans confusion ni séparation",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le canon 28",
+     "slug": "c05_canon_28",
+     "translation": "règle donnant à Constantinople la seconde place après Rome",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le premier schisme",
+     "slug": "c05_premier_schisme",
+     "translation": "la rupture de l'Église après Chalcédoine (451)",
+     "partOfSpeech": "event"
     }
    ]
   }

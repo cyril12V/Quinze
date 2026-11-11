@@ -177,7 +177,7 @@ final class LearningStore {
 
     /// The placement test only exists for English.
     private var snapshotProfile: UserProfileRecord {
-        guard subject != .english else { return settings.profile }
+        guard subject != .primary else { return settings.profile }
         var p = settings.profile
         p.placement = nil
         p.estimatedLevel = nil

@@ -17,12 +17,18 @@ xcodebuild build-for-testing -project Quinze.xcodeproj -scheme Quinze -configura
   -destination 'generic/platform=iOS Simulator' -derivedDataPath build/DerivedData \
   CODE_SIGNING_ALLOWED=NO 2>&1 | tee build/compile.log
 status=${PIPESTATUS[0]}
+# Nofri (app Église copte) : même code, condition NOFRI, ses extensions et son widget.
+xcodebuild build -project Quinze.xcodeproj -scheme Nofri -configuration Debug \
+  -destination 'generic/platform=iOS Simulator' -derivedDataPath build/DerivedData \
+  CODE_SIGNING_ALLOWED=NO 2>&1 | tee -a build/compile.log
+nofri=${PIPESTATUS[0]}
+[ "$status" -ne 0 ] || status=$nofri
 
 errors=$(grep -E "^/.*: error: " build/compile.log | sed 's#^.*/Quinze/Quinze/##; s#^/Users/runner/work/[^/]*/[^/]*/##' | sort -u)
 count=$(printf '%s' "$errors" | grep -c . || true)
 {
   if [ "$status" -eq 0 ]; then
-    echo "### Compilation réussie (app, 3 extensions et tests)"
+    echo "### Compilation réussie (Quinze et Nofri : apps, extensions, widget et tests)"
   else
     echo "### Compilation en échec : $count erreur(s)"
     echo '```'

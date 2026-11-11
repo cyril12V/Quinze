@@ -1,9 +1,9 @@
 import Foundation
 import LearningCore
 
-/// The things Quinze teaches. Each subject has its own content bundle (`Content/<code>.json`), its own engine and
-/// its own learner state; every identifier of its content starts with `<code>.`. The first three are studied in
-/// the daily slots; `.church` lives in the separate « Église » space, outside the slots and the blocking.
+/// The things the apps teach. Each subject has its own content bundle (`Content/<code>.json`), its own engine and
+/// its own learner state; every identifier of its content starts with `<code>.`. Quinze studies the first three
+/// in its daily slots; `.church` is the single subject of the separate Nofri app (built with the NOFRI condition).
 enum Subject: String, CaseIterable, Codable, Sendable, Identifiable, Hashable {
     case english = "en"
     case arabic = "ar"
@@ -63,9 +63,17 @@ enum Subject: String, CaseIterable, Codable, Sendable, Identifiable, Hashable {
 
     /// Subject of a content identifier ("ar.l03.e05" → .arabic). Unprefixed ids are English (v1 data).
     static func of(_ identifier: String) -> Subject {
-        allCases.first { $0.owns(identifier) } ?? .english
+        allCases.first { $0.owns(identifier) } ?? .primary
     }
 
+    #if NOFRI
+    /// Nofri teaches one thing: the Church.
+    static let studyOrder: [Subject] = [.church]
+    static let primary: Subject = .church
+    #else
     /// Order in which a slot session goes through the subjects.
     static let studyOrder: [Subject] = [.english, .arabic, .culture]
+    /// The subject every install has (fallback of the per-subject lookups).
+    static let primary: Subject = .english
+    #endif
 }

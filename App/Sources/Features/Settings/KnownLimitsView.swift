@@ -17,7 +17,7 @@ struct KnownLimitsView: View {
 
     private static let limits: [Limit] = [
         Limit(id: 0, title: "Temps d'écran peut être retiré",
-              detail: "iOS permet à toute personne de retirer l'autorisation dans Réglages > Temps d'écran. Quinze le détecte et te prévient, mais ne peut pas l'empêcher."),
+              detail: "iOS permet à toute personne de retirer l'autorisation dans Réglages > Temps d'écran. \(AppBrand.name) le détecte et te prévient, mais ne peut pas l'empêcher."),
         Limit(id: 1, title: "Les restrictions finissent toujours",
               detail: "Les apps sont débloquées à la fin de l'échéance de sécurité, même si la leçon n'est pas faite. Le déblocage d'urgence reste disponible à tout moment dans les réglages."),
         Limit(id: 2, title: "Certaines choses ne se bloquent pas",
@@ -52,7 +52,7 @@ struct KnownLimitsView: View {
         QScreen {
             VStack(alignment: .leading, spacing: Theme.Spacing.section) {
                 VStack(alignment: .leading, spacing: Theme.Spacing.m) {
-                    ScreenTitle("Ce que Quinze ne peut pas garantir")
+                    ScreenTitle("Ce que \(AppBrand.name) ne peut pas garantir")
                     ScreenSubtitle("Nous préférons te le dire clairement plutôt que de promettre l'impossible.")
                 }
                 ForEach(Self.groups) { group in

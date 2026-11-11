@@ -135,7 +135,7 @@ struct VoiceSettingsSection: View {
 
     var body: some View {
         SettingsSection("Voix",
-                        footer: "Pour une voix bien plus naturelle, télécharge une voix « Premium » ou « Améliorée » dans Réglages > Accessibilité > Contenu énoncé > Voix (anglais, arabe, français), puis choisis-la ici. Sans choix, Quinze prend la meilleure voix installée.") {
+                        footer: "Pour une voix bien plus naturelle, télécharge une voix « Premium » ou « Améliorée » dans Réglages > Accessibilité > Contenu énoncé > Voix (anglais, arabe, français), puis choisis-la ici. Sans choix, \(AppBrand.name) prend la meilleure voix installée.") {
             ForEach(Array(languages.enumerated()), id: \.element.id) { offset, language in
                 if offset > 0 { Rectangle().fill(Theme.separator).frame(height: 1) }
                 voiceRow(language)

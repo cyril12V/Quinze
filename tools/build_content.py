@@ -837,7 +837,8 @@ def main():
     build_dir = ROOT / "Content" / "build"
     build_dir.mkdir(parents=True, exist_ok=True)
     (build_dir / f"{lang}.json").write_bytes(raw)
-    app_dir = ROOT / "App" / "Resources" / "Content"
+    # The Church course ships in its own app (Nofri), not in Quinze.
+    app_dir = ROOT / ("Nofri" if lang == "eg" else "App") / "Resources" / "Content"
     app_dir.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(build_dir / f"{lang}.json", app_dir / f"{lang}.json")
     seed_dir = ROOT / "supabase" / "seed"

@@ -189,7 +189,7 @@ struct SettingsView: View {
 
     private var notificationsDeniedNotice: some View {
         VStack(alignment: .leading, spacing: Theme.Spacing.xs) {
-            Text("Les notifications sont désactivées pour Quinze dans les Réglages de l'iPhone.")
+            Text("Les notifications sont désactivées pour \(AppBrand.name) dans les Réglages de l'iPhone.")
                 .font(Theme.Font.callout)
                 .foregroundStyle(Theme.secondaryText)
                 .fixedSize(horizontal: false, vertical: true)

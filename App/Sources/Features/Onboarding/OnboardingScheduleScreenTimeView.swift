@@ -37,7 +37,7 @@ struct ScheduleStepView: View {
             FlowMessage(text: "Nous te rappellerons chaque leçon par une notification. Tu peux aussi faire une leçon jusqu'à \(draft.earlyStartMinutes) minutes avant l'heure prévue.",
                         kind: .info)
             if notificationsDenied {
-                FlowMessage(text: "Les notifications sont désactivées. Tu pourras les activer plus tard dans les Réglages de l'iPhone : elles ne sont pas nécessaires pour utiliser Quinze.",
+                FlowMessage(text: "Les notifications sont désactivées. Tu pourras les activer plus tard dans les Réglages de l'iPhone : elles ne sont pas nécessaires pour utiliser \(AppBrand.name).",
                             kind: .info)
             }
         } footer: {
@@ -87,7 +87,7 @@ struct ScreenTimeStepView: View {
             FlowHero(imageName: "onboarding-focus", pastel: .green, accent: .yellow,
                      maxDiameter: 170, reservedHeight: 340)
             FlowHeader(title: "Reste concentré",
-                       subtitle: "Quinze peut bloquer certaines apps à l'heure de tes leçons, pour t'aider à t'y mettre.")
+                       subtitle: "\(AppBrand.name) peut bloquer certaines apps à l'heure de tes leçons, pour t'aider à t'y mettre.")
             VStack(alignment: .leading, spacing: Theme.Spacing.m) {
                 point(.unlock, "Les apps se débloquent dès que ta leçon est terminée.")
                 point(.clock, "Dans tous les cas, elles se débloquent \(env.settings.schedule.safetyWindowMinutes) minutes après l'heure de la leçon, même si tu ne l'as pas faite.")

@@ -68,7 +68,7 @@ struct StudyPreferences: Codable, Equatable, Sendable {
     /// Subjects of a session, in study order (English is always kept as a fallback).
     var enabledSubjects: [Subject] {
         let list = subjects.filter(\.enabled).map(\.subject)
-        return list.isEmpty ? [.english] : list
+        return list.isEmpty ? [.primary] : list
     }
 
     func minutes(for subject: Subject) -> Int {

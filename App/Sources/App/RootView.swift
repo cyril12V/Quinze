@@ -35,7 +35,7 @@ struct RootView: View {
             }
             Button("Plus tard", role: .cancel) {}
         } message: {
-            Text("L'autorisation Temps d'écran a été retirée : Quinze ne peut plus bloquer tes apps. Tu peux la réactiver dans les Réglages de l'iPhone.")
+            Text("L'autorisation Temps d'écran a été retirée : \(AppBrand.name) ne peut plus bloquer tes apps. Tu peux la réactiver dans les Réglages de l'iPhone.")
         }
     }
 }
@@ -55,7 +55,7 @@ private struct LoadingView: View {
         .frame(maxHeight: .infinity, alignment: .top)
         .background(Theme.background.ignoresSafeArea())
         .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Chargement de Quinze")
+        .accessibilityLabel("Chargement de \(AppBrand.name)")
     }
 }
 

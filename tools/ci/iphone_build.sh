@@ -65,6 +65,12 @@ if [ "${1:-}" = "--check" ]; then
 fi
 [ -z "$missing" ] || { trap - ERR; fail "il manque :$missing (secret GitHub, ou ligne dans Config/perso.env)"; }
 
+# Quelle app : Quinze (par défaut) ou Nofri (variable APP).
+APP="${APP:-Quinze}"
+case "$APP" in Quinze|Nofri) ;; *) trap - ERR; fail "APP doit valoir Quinze ou Nofri" ;; esac
+export APP
+echo "App compilée : $APP"
+
 # 2. Xcode 26 (le plus récent du runner) et XcodeGen.
 XCODE=$(ls -d /Applications/Xcode_26*.app 2>/dev/null | sort -V | tail -1 || true)
 [ -n "$XCODE" ] || XCODE=$(ls -d /Applications/Xcode_*.app | sort -V | tail -1)
@@ -112,8 +118,8 @@ bundle exec fastlane prepare_ids 2>&1 | tee build/prepare.log
 # 6. Projet, archive, export « développement ».
 xcodegen generate
 AUTH=(-allowProvisioningUpdates -authenticationKeyPath "$ASC_KEY_PATH" -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID")
-xcodebuild archive -project Quinze.xcodeproj -scheme Quinze -configuration Release \
-  -destination 'generic/platform=iOS' -archivePath build/Quinze.xcarchive -derivedDataPath build/DerivedData \
+xcodebuild archive -project Quinze.xcodeproj -scheme "$APP" -configuration Release \
+  -destination 'generic/platform=iOS' -archivePath "build/$APP.xcarchive" -derivedDataPath build/DerivedData \
   "${AUTH[@]}" 2>&1 | tee build/archive.log
 cat > build/ExportOptions.plist <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
@@ -127,7 +133,7 @@ cat > build/ExportOptions.plist <<EOF
 </dict>
 </plist>
 EOF
-xcodebuild -exportArchive -archivePath build/Quinze.xcarchive -exportPath build/export \
+xcodebuild -exportArchive -archivePath "build/$APP.xcarchive" -exportPath build/export \
   -exportOptionsPlist build/ExportOptions.plist "${AUTH[@]}" 2>&1 | tee build/export.log
 IPA=$(ls build/export/*.ipa | head -1)
 

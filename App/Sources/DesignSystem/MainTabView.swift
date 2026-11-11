@@ -26,11 +26,11 @@ struct MainTabView: View {
     @State private var tab: MainTab = .home
 
     var body: some View {
-        if env.settings.study.space == .church {
-            ChurchSpaceView()
-        } else {
-            quinze
-        }
+        #if NOFRI
+        NofriTabView()
+        #else
+        quinze
+        #endif
     }
 
     private var quinze: some View {

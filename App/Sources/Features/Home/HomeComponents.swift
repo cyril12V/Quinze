@@ -579,38 +579,3 @@ struct HomeInfoBanner: View {
         .card()
     }
 }
-
-// MARK: - Entry to the « Église » space
-
-/// « ⛪ Église copte · 27 Baba 1743 · jour Watos » : opens the separate Église space.
-struct HomeChurchEntryCard: View {
-    let onOpen: () -> Void
-
-    var body: some View {
-        let now = Date.now
-        let coptic = CopticCalendar.copticDate(for: now)
-        Button(action: onOpen) {
-            HStack(spacing: Theme.Spacing.m) {
-                Text("⛪")
-                    .font(.system(size: 30))
-                    .accessibilityHidden(true)
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Espace Église")
-                        .font(Theme.Font.headline)
-                        .foregroundStyle(Theme.primaryText)
-                    Text("\(coptic.formatted) · jour \(CopticCalendar.tune(for: now).rawValue)")
-                        .font(Theme.Font.callout)
-                        .foregroundStyle(Theme.secondaryText)
-                }
-                Spacer(minLength: 0)
-                QIconView(icon: .chevronRight, size: 16)
-                    .foregroundStyle(Theme.secondaryText)
-            }
-            .padding(Theme.Spacing.m)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .card()
-        }
-        .buttonStyle(.press)
-        .accessibilityLabel("Ouvrir l'espace Église, \(coptic.formatted)")
-    }
-}

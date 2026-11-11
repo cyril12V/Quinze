@@ -101,7 +101,7 @@ struct ClaudeDirectClient: Sendable {
         _ = try await send(body)
     }
 
-    static let wordUnknownMessage = "Ce mot ne fait pas (encore) partie du dictionnaire validé de Quinze : je préfère ne pas inventer d'explication. Regarde les leçons où il apparaît, ou demande-moi un autre mot."
+    static let wordUnknownMessage = "Ce mot ne fait pas (encore) partie du dictionnaire validé de \(AppBrand.name) : je préfère ne pas inventer d'explication. Regarde les leçons où il apparaît, ou demande-moi un autre mot."
 
     private static func nonEmpty(_ value: String?) -> String? {
         guard let value, !value.isEmpty else { return nil }
@@ -255,7 +255,7 @@ struct ClaudePrompt: Sendable {
 
     init(engine: LearningEngine, level: Int) {
         studiedCode = engine.language.code
-        subject = Subject(rawValue: engine.language.code) ?? .english
+        subject = Subject(rawValue: engine.language.code) ?? .primary
         self.level = level
     }
 

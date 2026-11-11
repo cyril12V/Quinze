@@ -1,0 +1,262 @@
+{
+ "module": {
+  "id": 5,
+  "format": 3,
+  "title": "Le cinquième siècle",
+  "description": "De Nestorius à Chalcédoine : le mot Théotokos, saint Cyrille, les deux conciles d'Éphèse, saint Dioscore, et pourquoi l'Église copte confesse « une seule nature du Verbe incarné »."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g501.cinq_sieges",
+   "category": "knowledge",
+   "title": "L'Église unie et ses cinq sièges",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g502.nestorius_chaire",
+   "category": "knowledge",
+   "title": "Nestorius et le mot Théotokos",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g501.cinq_sieges"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g503.protege_christ",
+   "category": "knowledge",
+   "title": "Pourquoi Théotokos protège le Christ",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g502.nestorius_chaire"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g504.nature_personne",
+   "category": "knowledge",
+   "title": "Nature et personne",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g503.protege_christ"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g505.cyrille",
+   "category": "knowledge",
+   "title": "Saint Cyrille d'Alexandrie et sa formule",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g504.nature_personne"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g506.ephese_431",
+   "category": "knowledge",
+   "title": "Le concile d'Éphèse (431)",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g505.cyrille"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l501",
+   "sequence": 501,
+   "title": "Cinq sièges, une seule Église",
+   "description": "Vers l'an 400, l'Église est une. Mais la jalousie entre les grandes villes couve déjà.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g501.cinq_sieges",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le patriarche",
+     "slug": "c05_patriarche",
+     "translation": "évêque d'un grand siège, appelé pape à Rome et à Alexandrie",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la nouvelle Rome",
+     "slug": "c05_nouvelle_rome",
+     "translation": "surnom de Constantinople, la capitale de l'empereur",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "les trois premiers conciles",
+     "slug": "c05_trois_premiers_conciles",
+     "translation": "Nicée (325), Constantinople (381), Éphèse (431)",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le canon 3 de 381",
+     "slug": "c05_canon_3_de_381",
+     "translation": "règle qui place Constantinople juste après Rome",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l502",
+   "sequence": 502,
+   "title": "Nestorius monte en chaire",
+   "description": "Constantinople, 428 : le nouveau patriarche refuse le titre « mère de Dieu » et la ville s'enflamme.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g502.nestorius_chaire",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Nestorius",
+     "slug": "c05_nestorius",
+     "translation": "patriarche de Constantinople (428-431), condamné à Éphèse",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Théotokos",
+     "slug": "c05_theotokos",
+     "translation": "« celle qui enfante Dieu » : titre de la Vierge Marie, mère de Dieu",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "Christotokos",
+     "slug": "c05_christotokos",
+     "translation": "« mère du Christ » : titre préféré par Nestorius",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l503",
+   "sequence": 503,
+   "title": "Pourquoi ce mot protège le Christ",
+   "description": "Qui est dans la crèche ? Théotokos n'est pas qu'un compliment pour Marie : il garde l'unité de Jésus.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g503.protege_christ",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le Verbe",
+     "slug": "c05_le_verbe",
+     "translation": "le Fils de Dieu, éternel avec le Père",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'incarnation",
+     "slug": "c05_incarnation",
+     "translation": "le moment où le Verbe de Dieu se fait homme en Marie",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "le nestorianisme",
+     "slug": "c05_nestorianisme",
+     "translation": "enseignement qui sépare le Verbe et l'homme Jésus",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'école d'Antioche",
+     "slug": "c05_ecole_d_antioche",
+     "translation": "courant théologique qui distingue soigneusement divin et humain",
+     "partOfSpeech": "organization"
+    }
+   ]
+  },
+  {
+   "id": "eg.l504",
+   "sequence": 504,
+   "title": "Nature et personne : deux mots à ne pas confondre",
+   "description": "Ce qu'on est, et qui on est. Sans ces deux mots, tout le reste du chapitre est incompréhensible.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g504.nature_personne",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la nature",
+     "slug": "c05_nature",
+     "translation": "ce qu'on est (par exemple : humain)",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la personne",
+     "slug": "c05_personne",
+     "translation": "qui on est : quelqu'un qui dit « je »",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "l'unité du Christ",
+     "slug": "c05_unite_du_christ",
+     "translation": "un seul Christ, une seule personne, Dieu et homme",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l505",
+   "sequence": 505,
+   "title": "Cyrille écrit",
+   "description": "Le pape d'Alexandrie prend la plume : sa formule, l'image de l'âme et du corps, les douze anathèmes.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g505.cyrille",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "saint Cyrille d'Alexandrie",
+     "slug": "c05_cyrille",
+     "translation": "24e pape d'Alexandrie (412-444), le Pilier de la foi",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "la formule de Cyrille",
+     "slug": "c05_formule_de_cyrille",
+     "translation": "« une seule nature du Verbe incarné »",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "les douze anathèmes",
+     "slug": "c05_douze_anathemes",
+     "translation": "douze condamnations jointes à la lettre de Cyrille à Nestorius",
+     "partOfSpeech": "work"
+    }
+   ]
+  },
+  {
+   "id": "eg.l506",
+   "sequence": 506,
+   "title": "Éphèse 431 : deux conciles dans la même ville",
+   "description": "Cyrille ouvre le concile sans attendre Jean d'Antioche. À son arrivée, un second concile se réunit.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g506.ephese_431",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le concile d'Éphèse (431)",
+     "slug": "c05_concile_ephese_431",
+     "translation": "troisième concile œcuménique, qui condamne Nestorius",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "Éphèse",
+     "slug": "c05_ephese",
+     "translation": "grande ville d'Asie Mineure, lieu de deux conciles (431 et 449)",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "Jean d'Antioche",
+     "slug": "c05_jean_d_antioche",
+     "translation": "patriarche d'Antioche, arrivé en retard à Éphèse en 431",
+     "partOfSpeech": "person"
+    }
+   ]
+  }
+ ]
+}

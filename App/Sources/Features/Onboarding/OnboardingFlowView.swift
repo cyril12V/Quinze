@@ -74,10 +74,21 @@ struct OnboardingFlowView: View {
         // Past the diagnostic without a saved placement: redo it.
         if profile.startedAt == nil, resume > Step.diagnostic.rawValue { resume = Step.level.rawValue }
         step = Step(rawValue: resume) ?? .language
+        #if NOFRI
+        if [.language, .level, .diagnostic].contains(step) { go(.schedule) }
+        #endif
         if let raw = profile.selfAssessedLevel, let level = SelfAssessedLevel(rawValue: raw) { selfAssessed = level }
     }
 
-    private func go(_ next: Step) {
+    private func go(_ requested: Step) {
+        var next = requested
+        #if NOFRI
+        // Nofri has one course and no placement test: straight from the welcome to the schedule.
+        if [.language, .level, .diagnostic].contains(next) {
+            next = .schedule
+            if env.settings.profile.startedAt == nil { env.settings.updateProfile { $0.startedAt = .now } }
+        }
+        #endif
         let change = { step = next }
         if reduceMotion { change() } else { withAnimation(.easeInOut(duration: 0.25), change) }
         if env.auth.state == .signedIn, next.rawValue >= Step.language.rawValue {
@@ -96,9 +107,14 @@ struct WelcomeStepView: View {
         FlowScreen {
             FlowHero(imageName: "onboarding-welcome", pastel: .pink, accent: .yellow, reservedHeight: 345)
             VStack(alignment: .leading, spacing: Theme.Spacing.m) {
-                QPill(text: "Quinze")
+                QPill(text: "\(AppBrand.name)")
+                #if NOFRI
+                ScreenTitle("Deviens solide dans ton Église.", display: true)
+                ScreenSubtitle("Une petite carte, une question, et on avance. Histoire, conciles, Credo, sacrements, prière, saints, copte : quelques minutes par jour, et tout reste.")
+                #else
                 ScreenTitle("Apprends quelques minutes chaque jour.", display: true)
                 ScreenSubtitle("Révise intelligemment, progresse durablement. Trois leçons de cinq minutes par jour, pour apprendre l'anglais à ton rythme.")
+                #endif
             }
         } footer: {
             Button("Commencer", action: onStart)
@@ -117,7 +133,7 @@ struct LanguageStepView: View {
     var body: some View {
         FlowScreen {
             FlowHeader(title: "Quelle langue veux-tu apprendre ?",
-                       subtitle: "Pour l'instant, Quinze t'apprend l'anglais.")
+                       subtitle: "Pour l'instant, \(AppBrand.name) t'apprend l'anglais.")
             VStack(spacing: Theme.Spacing.card) {
                 FlowChoiceRow(title: env.store.languageName, detail: "Pour francophones", isSelected: true)
                 FlowChoiceRow(title: "Arabe", badge: "Bientôt")

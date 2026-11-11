@@ -18,6 +18,11 @@ struct HomeView: View {
     @State private var showSettings = false
     @State private var selectedSlot: SessionSlot? = nil
     @State private var infoMessage: String? = nil
+    #if NOFRI
+    @State private var showLadder = false
+    /// The run in progress is the daily challenge (it is marked done when it is finished).
+    @State private var challengeRunning = false
+    #endif
 
     init() {}
 
@@ -58,6 +63,9 @@ struct HomeView: View {
         } message: {
             Text("Tes apps seront accessibles tout de suite. Ta leçon reste disponible quand tu voudras la faire.")
         }
+        #if NOFRI
+        .sheet(isPresented: $showLadder) { NofriLadderSheet(points: env.nofriPoints) }
+        #endif
         .task { await reload() }
         .onChange(of: scenePhase) { _, newPhase in
             if newPhase == .active {
@@ -81,6 +89,13 @@ struct HomeView: View {
                     .qAppear(0)
             }
 
+            #if NOFRI
+            NofriGameStrip(points: env.nofriPoints, streakDays: env.study.today.streakDays) { showLadder = true }
+                .qAppear(0)
+            TodayInChurchCard(date: .now)
+                .qAppear(1)
+            #endif
+
             VStack(alignment: .leading, spacing: Theme.Spacing.titleToContent) {
                 titleBlock
                 lessonsBlock
@@ -95,9 +110,6 @@ struct HomeView: View {
             }
 
             statsBlock
-                .qAppear(4)
-
-            HomeChurchEntryCard { env.openSpace(.church) }
                 .qAppear(4)
 
             if env.study.today.assessmentDue {
@@ -223,6 +235,38 @@ struct HomeView: View {
         .accessibilityHint("Affiche les matières de cette leçon")
     }
 
+    #if NOFRI
+    /// Outside the blocked slots: the next lesson of the path, and the daily challenge.
+    private var freePractice: some View {
+        let progress = env.churchStore.progress
+        return NofriActionsBlock(nextLessonTitle: env.churchStore.upNextTitle,
+                                 lessonsDone: progress?.lessonsCompleted ?? 0,
+                                 lessonsTotal: progress?.lessonsTotal ?? 0,
+                                 challengeDone: env.challengeDoneToday,
+                                 hasLearned: !env.churchStore.learner.completedLessonIds.isEmpty,
+                                 isStarting: isStarting,
+                                 onContinue: { startNofri(challenge: false) },
+                                 onChallenge: { startNofri(challenge: true) })
+    }
+
+    private func startNofri(challenge: Bool) {
+        guard !isStarting else { return }
+        isStarting = true
+        env.study.errorMessage = nil
+        infoMessage = nil
+        Task { @MainActor in
+            defer { isStarting = false }
+            do {
+                let controller = challenge ? try await env.churchStore.startExtraSession()
+                                           : try await env.churchStore.startDailySession()
+                challengeRunning = challenge
+                activeRun = env.study.single(controller)
+            } catch {
+                env.study.errorMessage = "Impossible de lancer la séance pour le moment. Réessaie dans un instant."
+            }
+        }
+    }
+    #else
     /// « Entraînement libre » : one more session in the subject of your choice, whenever you want.
     private var freePractice: some View {
         VStack(alignment: .leading, spacing: Theme.Spacing.s) {
@@ -245,6 +289,8 @@ struct HomeView: View {
             }
         }
     }
+
+    #endif
 
     // MARK: Stats
 
@@ -316,6 +362,10 @@ struct HomeView: View {
     }
 
     private func closeLesson() {
+        #if NOFRI
+        if challengeRunning, activeRun?.controller.isFinished == true { env.markChallengeDone() }
+        challengeRunning = false
+        #endif
         activeRun = nil
         Task { @MainActor in await reload() }
     }
@@ -327,6 +377,9 @@ struct HomeView: View {
 
     private func reload() async {
         await env.study.refresh()
+        #if NOFRI
+        env.publishWidgetData()
+        #endif
         guard activeRun == nil else { return }
         let candidate: StudyRun? = env.study.resumableRun()
         if let candidate, candidate.controller.slot == nil, !candidate.controller.isFinished {

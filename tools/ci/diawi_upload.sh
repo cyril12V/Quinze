@@ -37,7 +37,7 @@ for _ in $(seq 1 60); do
       LINK=$(printf '%s' "$STATUS" | json_field link)
       echo "LINK=$LINK"
       {
-        echo "### Quinze est prêt pour ton iPhone"
+        echo "### ${APP:-Quinze} est prêt pour ton iPhone"
         echo ""
         echo "**Ouvre ce lien dans Safari sur ton iPhone, puis touche Installer :** $LINK"
         echo ""

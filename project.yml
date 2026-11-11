@@ -49,6 +49,19 @@ schemes:
     archive:
       config: Release
 
+  Nofri:
+    build:
+      targets:
+        Nofri: all
+    run:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+
 targets:
   # ---------------------------------------------------------------- Application
   Quinze:
@@ -233,6 +246,240 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).quinze.shieldaction
         GENERATE_INFOPLIST_FILE: NO
         SKIP_INSTALL: YES
+        LD_RUNPATH_SEARCHPATHS: $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
+
+  # ---------------------------------------------------------------- Nofri (Église copte) : app séparée
+  # Même code que Quinze (moteur, séances, blocage), compilé avec la condition NOFRI : une seule matière
+  # (l'Église), son propre accueil, ses points, sa collection, son widget, ses identifiants et son App Group.
+  Nofri:
+    type: application
+    platform: iOS
+    sources:
+      - path: App/Sources
+      - path: Shared
+      - path: Nofri/Sources
+      - path: App/Resources
+        excludes:
+          - Content
+          - Content/**
+      - path: Nofri/Resources
+        excludes:
+          - Content
+          - Content/**
+      - path: Nofri/Resources/Content
+        type: folder
+    dependencies:
+      - target: NofriMonitor
+      - target: NofriShieldConfiguration
+      - target: NofriShieldAction
+      - target: NofriWidget
+      - package: LearningCore
+        product: LearningCore
+      - package: LearningCore
+        product: LearningPrimitives
+      - package: Supabase
+        product: Supabase
+      - sdk: FamilyControls.framework
+      - sdk: ManagedSettings.framework
+      - sdk: DeviceActivity.framework
+      - sdk: WidgetKit.framework
+    info:
+      path: Config/Generated/Nofri-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleLocalizations: [fr, en]
+        CFBundleDisplayName: Nofri
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSRequiresIPhoneOS: true
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UIAppFonts:
+          - PlusJakartaSans-Regular.ttf
+          - PlusJakartaSans-Medium.ttf
+          - PlusJakartaSans-SemiBold.ttf
+          - PlusJakartaSans-Bold.ttf
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        ITSAppUsesNonExemptEncryption: false
+        SUPABASE_URL: ""
+        SUPABASE_ANON_KEY: ""
+        AppGroupIdentifier: group.$(BUNDLE_ID_PREFIX).nofri
+        AppBrandName: Nofri
+        CFBundleURLTypes:
+          - CFBundleURLName: $(PRODUCT_BUNDLE_IDENTIFIER)
+            CFBundleURLSchemes:
+              - nofri
+    entitlements:
+      path: Config/Generated/Nofri.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.$(BUNDLE_ID_PREFIX).nofri
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).nofri
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: NofriIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: $(inherited) NOFRI
+        ENABLE_PREVIEWS: YES
+
+  NofriMonitor:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Extensions/DeviceActivityMonitor
+      - path: Shared
+    dependencies:
+      - package: LearningCore
+        product: LearningPrimitives
+      - sdk: FamilyControls.framework
+      - sdk: ManagedSettings.framework
+      - sdk: DeviceActivity.framework
+    info:
+      path: Config/Generated/NofriMonitor-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleDisplayName: Nofri Monitor
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        AppGroupIdentifier: group.$(BUNDLE_ID_PREFIX).nofri
+        AppBrandName: Nofri
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.deviceactivity.monitor-extension
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).QuinzeMonitor
+    entitlements:
+      path: Config/Generated/NofriMonitor.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.$(BUNDLE_ID_PREFIX).nofri
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).nofri.monitor
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: $(inherited) NOFRI
+        LD_RUNPATH_SEARCHPATHS: $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
+
+  NofriShieldConfiguration:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Extensions/ShieldConfiguration
+      - path: Shared
+    dependencies:
+      - package: LearningCore
+        product: LearningPrimitives
+      - sdk: FamilyControls.framework
+      - sdk: ManagedSettings.framework
+      - sdk: ManagedSettingsUI.framework
+    info:
+      path: Config/Generated/NofriShieldConfiguration-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleDisplayName: Nofri Écran de restriction
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        AppGroupIdentifier: group.$(BUNDLE_ID_PREFIX).nofri
+        AppBrandName: Nofri
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.ManagedSettingsUI.shield-configuration-service
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShieldConfigurationExtension
+    entitlements:
+      path: Config/Generated/NofriShieldConfiguration.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.$(BUNDLE_ID_PREFIX).nofri
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).nofri.shieldconfig
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: $(inherited) NOFRI
+        LD_RUNPATH_SEARCHPATHS: $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
+
+  NofriShieldAction:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Extensions/ShieldAction
+      - path: Shared
+    dependencies:
+      - package: LearningCore
+        product: LearningPrimitives
+      - sdk: FamilyControls.framework
+      - sdk: ManagedSettings.framework
+      - sdk: UserNotifications.framework
+    info:
+      path: Config/Generated/NofriShieldAction-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleDisplayName: Nofri Action de restriction
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        AppGroupIdentifier: group.$(BUNDLE_ID_PREFIX).nofri
+        AppBrandName: Nofri
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.ManagedSettings.shield-action-service
+          NSExtensionPrincipalClass: $(PRODUCT_MODULE_NAME).ShieldActionExtension
+    entitlements:
+      path: Config/Generated/NofriShieldAction.entitlements
+      properties:
+        com.apple.developer.family-controls: true
+        com.apple.security.application-groups:
+          - group.$(BUNDLE_ID_PREFIX).nofri
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).nofri.shieldaction
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: $(inherited) NOFRI
+        LD_RUNPATH_SEARCHPATHS: $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
+
+  # Widget de l'écran verrouillé : date copte, jour Adam ou Watos, jeûne, « à retenir », série.
+  NofriWidget:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: Nofri/Widget
+      - path: Shared/AppGroup.swift
+      - path: Nofri/Sources/Shared
+    dependencies:
+      - package: LearningCore
+        product: LearningCore
+      - sdk: WidgetKit.framework
+      - sdk: SwiftUI.framework
+    info:
+      path: Config/Generated/NofriWidget-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleDisplayName: Nofri
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        AppGroupIdentifier: group.$(BUNDLE_ID_PREFIX).nofri
+        NSExtension:
+          NSExtensionPointIdentifier: com.apple.widgetkit-extension
+    entitlements:
+      path: Config/Generated/NofriWidget.entitlements
+      properties:
+        com.apple.security.application-groups:
+          - group.$(BUNDLE_ID_PREFIX).nofri
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).nofri.widget
+        GENERATE_INFOPLIST_FILE: NO
+        SKIP_INSTALL: YES
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: $(inherited) NOFRI
         LD_RUNPATH_SEARCHPATHS: $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
 
   # ---------------------------------------------------------------- Tests

@@ -75,7 +75,7 @@ final class StudyCoordinator {
     private(set) var isLoading = false
     var errorMessage: String?
     /// Subject shown by the screens that show one subject at a time (dictionary, progress, path, tutor).
-    var focusSubject: Subject = .english
+    var focusSubject: Subject = .primary
     var focusStore: LearningStore { store(focusSubject) }
 
     @ObservationIgnored private let settings: SettingsStore
@@ -94,13 +94,13 @@ final class StudyCoordinator {
     }
 
     func store(_ subject: Subject) -> LearningStore {
-        stores[subject] ?? stores[.english]!
+        stores[subject] ?? stores[.primary]!
     }
 
     /// Enabled subjects whose content is available, in study order.
     var enabledSubjects: [Subject] {
         let list = settings.study.enabledSubjects.filter { stores[$0]?.engine != nil }
-        return list.isEmpty ? [.english] : list
+        return list.isEmpty ? [.primary] : list
     }
 
     // MARK: Today
@@ -131,7 +131,7 @@ final class StudyCoordinator {
         let completedDays = SlotLogic.completedDays(sessions: sessions)
         let streak = LearningEngine.streak(completedDays: completedDays, today: day)
         let due = subjects.reduce(0) { $0 + (stores[$1]?.today.dueReviewCount ?? 0) }
-        let assessmentDue = stores[.english]?.today.assessmentDue ?? false
+        let assessmentDue = stores[.primary]?.today.assessmentDue ?? false
         today = TodayState(day: day, slots: slots, streakDays: streak, dueReviewCount: due, assessmentDue: assessmentDue)
     }
 
@@ -241,7 +241,7 @@ final class StudyCoordinator {
     }
 
     func startAssessment() async throws -> StudyRun {
-        let controller = try await store(.english).startAssessment()
+        let controller = try await store(.primary).startAssessment()
         return StudyRun(kind: .single, controller: controller, coordinator: self)
     }
 

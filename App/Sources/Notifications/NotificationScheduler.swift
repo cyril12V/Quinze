@@ -149,7 +149,7 @@ final class NotificationScheduler {
         await postImmediately(
             identifier: Self.authorizationProblemID,
             title: "Restrictions désactivées",
-            body: "Les restrictions ne fonctionnent plus : autorisation Temps d'écran retirée. Ouvre Quinze pour la rétablir.")
+            body: "Les restrictions ne fonctionnent plus : autorisation Temps d'écran retirée. Ouvre \(AppBrand.name) pour la rétablir.")
     }
 
     // MARK: Plan (pure)

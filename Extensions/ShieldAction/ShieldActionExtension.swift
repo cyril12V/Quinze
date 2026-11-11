@@ -47,8 +47,8 @@ final class ShieldActionExtension: ShieldActionDelegate {
 
     private static func openQuinzeRequest() -> UNNotificationRequest {
         let content = UNMutableNotificationContent()
-        content.title = "Quinze"
-        content.body = "Ouvre Quinze pour faire ta leçon"
+        content.title = "\(AppBrand.name)"
+        content.body = "Ouvre \(AppBrand.name) pour faire ta leçon"
         content.sound = .default
         content.interruptionLevel = .active
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 1, repeats: false)

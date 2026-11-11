@@ -113,7 +113,7 @@ final class ContentService {
     /// One engine per subject whose bundle could be loaded.
     private(set) var engines: [Subject: LearningEngine] = [:]
     /// English engine (the subject every user has).
-    var engine: LearningEngine? { engines[.english] }
+    var engine: LearningEngine? { engines[.primary] }
     private(set) var activeVersion: String?
     private(set) var loadFailed = false
     /// Version downloaded and waiting for the next launch.
@@ -142,11 +142,11 @@ final class ContentService {
                 continue
             }
             loadedEngines[subject] = LearningEngine(index: loaded.engine.index, configuration: configuration(subject))
-            if subject == .english { activeVersion = loaded.version }
+            if subject == .primary { activeVersion = loaded.version }
             Log.content.info("content \(code, privacy: .public) \(loaded.version, privacy: .public) loaded")
         }
         engines = loadedEngines
-        loadFailed = loadedEngines[.english] == nil
+        loadFailed = loadedEngines[.primary] == nil
     }
 
     /// Applies new engine settings (session length changed in the settings) without reloading the content.

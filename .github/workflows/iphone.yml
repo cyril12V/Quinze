@@ -1,11 +1,17 @@
 name: Installer sur mon iPhone
 on:
   workflow_dispatch:
+    inputs:
+      app:
+        description: "App à installer"
+        type: choice
+        options: [Quinze, Nofri]
+        default: Quinze
   push:
     paths: ["*.zip", ".github/workflows/iphone.yml"]
 permissions:
   contents: write
-concurrency: quinze
+concurrency: quinze-${{ inputs.app || 'Quinze' }}
 jobs:
   prepare:
     runs-on: ubuntu-latest
@@ -39,6 +45,7 @@ jobs:
     runs-on: macos-15
     timeout-minutes: 90
     env:
+      APP: ${{ inputs.app || 'Quinze' }}
       ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
       ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
       ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}

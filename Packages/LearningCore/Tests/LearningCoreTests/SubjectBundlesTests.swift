@@ -10,7 +10,8 @@ final class SubjectBundlesTests: XCTestCase {
     private func bundles() throws -> [(String, ContentBundle)] {
         var out: [(String, ContentBundle)] = []
         for code in Self.subjects {
-            let url = TestSupport.repoRoot.appendingPathComponent("App/Resources/Content/\(code).json")
+            let folder = code == "eg" ? "Nofri" : "App"
+            let url = TestSupport.repoRoot.appendingPathComponent("\(folder)/Resources/Content/\(code).json")
             guard FileManager.default.fileExists(atPath: url.path) else { continue }
             out.append((code, try ContentBundle.decode(from: Data(contentsOf: url))))
         }

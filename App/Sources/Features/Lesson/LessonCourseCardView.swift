@@ -10,6 +10,15 @@ struct LessonCourseCard: View {
     let onContinue: () -> Void
 
     private var isLast: Bool { step.index + 1 >= step.total }
+    /// Guided lessons (cards with a kind): a question on this very card comes right after it.
+    private var isGuided: Bool { step.card.kind != nil }
+    private var pillText: String {
+        switch step.card.kind {
+        case "story": return "Récit · \(step.index + 1)/\(step.total)"
+        case "idea": return "À comprendre · \(step.index + 1)/\(step.total)"
+        default: return "Cours · \(step.index + 1)/\(step.total)"
+        }
+    }
     private var pastel: Pastel { Pastel.allCases[(step.index + 1) % Pastel.allCases.count] }
 
     var body: some View {
@@ -17,7 +26,7 @@ struct LessonCourseCard: View {
             VStack(alignment: .leading, spacing: Theme.Spacing.card) {
                 card
                     .qAppear(0)
-                if isLast {
+                if isLast && !isGuided {
                     Text("Maintenant, les questions : tout ce qui est demandé est dans ce cours.")
                         .font(Theme.Font.callout)
                         .foregroundStyle(Theme.secondaryText)
@@ -26,7 +35,7 @@ struct LessonCourseCard: View {
                 }
             }
         } footer: {
-            Button(isLast ? "C'est parti !" : "Continuer", action: onContinue)
+            Button(isGuided ? "J'ai lu, à moi !" : (isLast ? "C'est parti !" : "Continuer"), action: onContinue)
                 .buttonStyle(.primary)
                 .disabled(isBusy)
         }
@@ -36,7 +45,7 @@ struct LessonCourseCard: View {
         PastelCard(pastel, padding: 22) {
             VStack(alignment: .leading, spacing: Theme.Spacing.l) {
                 HStack(spacing: Theme.Spacing.s) {
-                    QPill(text: "Cours · \(step.index + 1)/\(step.total)", icon: .book)
+                    QPill(text: pillText, icon: .book)
                     if let lessonTitle, step.index == 0 {
                         Text(lessonTitle)
                             .font(Theme.Font.caption(.semibold))

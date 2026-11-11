@@ -75,7 +75,7 @@ struct AppSelectionView: View {
 
     private var header: some View {
         FlowHeader(title: "Apps à mettre en pause",
-                   subtitle: "À l'heure de chaque leçon, Quinze peut mettre en pause les apps qui te distraient, le temps de ta leçon (anglais, arabe, culture G).",
+                   subtitle: "À l'heure de chaque leçon, \(AppBrand.name) peut mettre en pause les apps qui te distraient, le temps de ta leçon.",
                    display: false)
     }
 
@@ -84,7 +84,7 @@ struct AppSelectionView: View {
             infoRow(.lock,
                     "Les apps choisies sont restreintes jusqu'à ce que tu aies terminé la leçon du moment.")
             infoRow(.shield,
-                    "Le téléphone, les appels d'urgence et les Réglages restent toujours disponibles, ainsi que Quinze.")
+                    "Le téléphone, les appels d'urgence et les Réglages restent toujours disponibles, ainsi que \(AppBrand.name).")
             infoRow(.unlock,
                     "Tu gardes la main : tu peux retirer l'autorisation à tout moment dans Réglages > Temps d'écran, et un déblocage d'urgence reste possible depuis l'écran de restriction.")
             infoRow(.eyeSlash,
@@ -175,7 +175,7 @@ struct AppSelectionView: View {
         case .selectedApps:
             return "Seules les apps, catégories et sites que tu choisis sont restreints. Le reste du téléphone reste libre."
         case .allExceptAllowed:
-            return "Tout est restreint sauf les apps que tu autorises. Quinze doit en faire partie, sinon tu ne pourrais pas faire ta leçon. Apple ne permet pas d'autoriser une catégorie entière : choisis des apps."
+            return "Tout est restreint sauf les apps que tu autorises. \(AppBrand.name) doit en faire partie, sinon tu ne pourrais pas faire ta leçon. Apple ne permet pas d'autoriser une catégorie entière : choisis des apps."
         }
     }
 
@@ -204,7 +204,7 @@ struct AppSelectionView: View {
 
             if draftMode == .allExceptAllowed {
                 QCallout(systemImage: "exclamationmark.circle", tint: Theme.ink, fill: Pastel.yellow.soft) {
-                    Text("N'oublie pas d'autoriser Quinze dans la liste.")
+                    Text("N'oublie pas d'autoriser \(AppBrand.name) dans la liste.")
                         .font(Theme.Font.callout(.semibold))
                         .foregroundStyle(Theme.primaryText)
                         .fixedSize(horizontal: false, vertical: true)

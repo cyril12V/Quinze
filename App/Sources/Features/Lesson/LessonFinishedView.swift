@@ -29,6 +29,12 @@ struct LessonFinishedView: View {
                 header
                     .qAppear(0)
                 verdict
+                #if NOFRI
+                NofriRewardCard(points: NofriGame.points(correct: summary.correctCount, total: summary.attemptCount,
+                                                         lessonPassed: controller.outcome?.lessonPassed,
+                                                         examPassed: controller.outcome?.examPassed),
+                                fiches: unlockedFiches)
+                #endif
                 statsGrid
                     .qAppear(1)
                 workedUnits
@@ -99,6 +105,17 @@ struct LessonFinishedView: View {
         return parts.joined(separator: " · ")
     }
 
+    #if NOFRI
+    /// Fiches of the collection unlocked by this lesson (only when it is validated).
+    private var unlockedFiches: [String] {
+        guard controller.outcome?.lessonPassed == true else { return [] }
+        return summary.newUnitIds.compactMap { controller.unit($0) }.filter { $0.kind == .vocabulary }.map(\.title)
+    }
+    #endif
+
+    private var lessonNeed: String { FrenchLabels.percent(env.engineConfiguration(for: controller.subject).lessonPassRate) }
+    private var examNeed: String { FrenchLabels.percent(env.engineConfiguration(for: controller.subject).examPassRate) }
+
     // MARK: Verdict (lesson validated, exam passed)
 
     @ViewBuilder private var verdict: some View {
@@ -108,13 +125,13 @@ struct LessonFinishedView: View {
                             title: passed ? "Leçon validée" : "Leçon à revoir",
                             text: passed
                                 ? "\(FrenchLabels.percent(score)) de bonnes réponses du premier coup. La suite est ouverte."
-                                : "\(FrenchLabels.percent(score)) du premier coup, il en faut 80 %. On reprend cette leçon à la prochaine séance, avec le cours : rien n'est perdu.")
+                                : "\(FrenchLabels.percent(score)) du premier coup, il en faut \(lessonNeed). On reprend cette leçon à la prochaine séance, avec le cours : rien n'est perdu.")
             } else if let passed = outcome.examPassed, let score = outcome.examScore {
                 verdictCard(ok: passed,
                             title: passed ? "Contrôle réussi" : "Contrôle pas encore réussi",
                             text: passed
                                 ? "\(FrenchLabels.percent(score)) : le module est consolidé, le suivant est ouvert."
-                                : "\(FrenchLabels.percent(score)), il faut 80 %. Prochaine séance : révision ciblée de ce module, puis tu repasses le contrôle.")
+                                : "\(FrenchLabels.percent(score)), il faut \(examNeed). Prochaine séance : révision ciblée de ce module, puis tu repasses le contrôle.")
             }
         }
     }

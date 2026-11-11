@@ -40,6 +40,15 @@ platform :ios do
       "#{prefix}.quinze.shieldconfig" => ["Quinze Shield Configuration", [cap::APP_GROUPS]],
       "#{prefix}.quinze.shieldaction" => ["Quinze Shield Action", [cap::APP_GROUPS]]
     }
+    if ENV["APP"].to_s == "Nofri"
+      targets = {
+        "#{prefix}.nofri" => ["Nofri", [cap::APP_GROUPS]],
+        "#{prefix}.nofri.monitor" => ["Nofri Monitor", [cap::APP_GROUPS]],
+        "#{prefix}.nofri.shieldconfig" => ["Nofri Shield Configuration", [cap::APP_GROUPS]],
+        "#{prefix}.nofri.shieldaction" => ["Nofri Shield Action", [cap::APP_GROUPS]],
+        "#{prefix}.nofri.widget" => ["Nofri Widget", [cap::APP_GROUPS]]
+      }
+    end
     Spaceship::ConnectAPI.token = Spaceship::ConnectAPI::Token.from(hash: asc_api_key)
 
     begin

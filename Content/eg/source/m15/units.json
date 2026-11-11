@@ -1,0 +1,196 @@
+[
+ {
+  "id": "eg.g1501.langue_des_pharaons",
+  "rule": {
+   "summary": "Le copte est la dernière étape de la langue des anciens Égyptiens, écrite avec l'alphabet grec plus six ou sept lettres venues du démotique. Le dialecte de la liturgie est le bohaïrique.",
+   "explanation": "Les chrétiens d'Égypte ont écrit leur langue avec l'alphabet grec, qu'on connaissait à Alexandrie, et ont ajouté des lettres pour les sons qui n'existaient pas en grec. Ces lettres (ϣ ϥ ϧ ϩ ϫ ϭ, et ϯ qui note « ti ») signalent un mot d'origine égyptienne. Le sahidique (Sud) fut la langue écrite des premiers siècles ; le bohaïrique (Nord) est devenu celui de l'Église.",
+   "pattern": "copte = égyptien + alphabet grec + ϣ ϥ ϧ ϩ ϫ ϭ (ϯ) ; liturgie = bohaïrique",
+   "examples": [
+    {
+     "text": "ⲛⲟⲩϯ, ⲣⲁⲛ, ⲓⲱⲧ, ϣⲏⲣⲓ",
+     "translation": "Dieu, nom, père, fils : des mots égyptiens très anciens."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le copte est une langue venue de Grèce.",
+     "right": "Le copte est de l'égyptien ancien écrit avec des lettres grecques.",
+     "why": "L'alphabet est grec, mais la langue est celle des pharaons."
+    },
+    {
+     "wrong": "Le copte est de l'arabe ancien.",
+     "right": "Le copte est bien plus ancien que l'arabe en Égypte.",
+     "why": "L'arabe n'arrive qu'avec la conquête de 641 ; le copte descend de l'égyptien."
+    }
+   ],
+   "tip": "Lettre spéciale (ϣ ϥ ϧ ϩ ϫ ϭ) = mot égyptien."
+  }
+ },
+ {
+  "id": "eg.g1502.mots_grecs",
+  "rule": {
+   "summary": "Le copte a pris beaucoup de mots grecs, surtout religieux, que le français a souvent gardés : ange, évangile, église.",
+   "explanation": "Alexandrie était une ville grecque et la Bible qu'on y lisait était la Septante. Les mots de la foi sont donc arrivés en grec dans le copte : ⲁⲅⲅⲉⲗⲟⲥ (messager), ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ (bonne nouvelle), ⲉⲕⲕⲗⲏⲥⲓⲁ (assemblée), ⲡⲁⲣⲑⲉⲛⲟⲥ (vierge). Un mot sans lettre spéciale peut être grec, mais pas toujours : ⲓⲱⲧ est égyptien.",
+   "pattern": "mot religieux sans lettre spéciale → souvent grec ; lettre spéciale → égyptien",
+   "examples": [
+    {
+     "text": "ⲁⲅⲅⲉⲗⲟⲥ",
+     "translation": "Un mot grec : « messager », notre ange."
+    },
+    {
+     "text": "ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ",
+     "translation": "Un mot grec : « bonne nouvelle », l'évangile."
+    },
+    {
+     "text": "ⲉⲕⲕⲗⲏⲥⲓⲁ",
+     "translation": "Un mot grec : « l'assemblée », l'Église."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Tous les mots coptes sont égyptiens.",
+     "right": "Beaucoup de mots religieux sont grecs.",
+     "why": "Alexandrie était grecque et la Bible lue était la Septante."
+    },
+    {
+     "wrong": "Un mot sans lettre spéciale est forcément grec.",
+     "right": "Il peut aussi être égyptien, comme ⲓⲱⲧ.",
+     "why": "L'indice des lettres spéciales marche dans un seul sens."
+    }
+   ],
+   "tip": "Ange, évangile, église sont des mots grecs."
+  }
+ },
+ {
+  "id": "eg.g1503.jinkim",
+  "rule": {
+   "summary": "La jinkim est le petit trait placé sur certaines lettres : sur une consonne, elle forme une syllabe à elle seule (on ajoute un « e » devant) ; sur une voyelle, elle se lit à part.",
+   "explanation": "La jinkim (ϫⲓⲛⲕⲓⲙ, « mouvement ») ne change pas le sens, elle guide la lecture. Sur une consonne comme ⲛ̀ ou ⲫ̀, il faut ajouter un petit « e » : ⲛ̀ⲧⲉ se lit « ente », Ⲫ̀ⲛⲟⲩϯ se lit « efnouti ». Sur une voyelle comme ⲉ̀ ou ⲁ̀, elle indique que la voyelle forme une nouvelle syllabe : ⲉ̀ⲃⲟⲗ se lit « evol ». Dans les mots grecs, elle apparaît souvent sur la première de deux consonnes de suite. Les livres l'écrivent plus ou moins : avec ou sans jinkim, c'est le même mot.",
+   "pattern": "consonne + jinkim = « e » + consonne ; voyelle + jinkim = voyelle lue à part",
+   "examples": [
+    {
+     "text": "ⲛ̀ⲧⲉ",
+     "translation": "« ente » : de."
+    },
+    {
+     "text": "Ⲫ̀ⲛⲟⲩϯ",
+     "translation": "« efnouti » : Dieu."
+    },
+    {
+     "text": "ⲉ̀ⲃⲟⲗ",
+     "translation": "« evol » : dehors."
+    },
+    {
+     "text": "ϯⲧ̀ⲣⲓⲁⲥ",
+     "translation": "La Trinité : le ⲧ̀ ajoute un petit « e » avant ⲣ."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La jinkim change le sens du mot.",
+     "right": "Elle ne change que la lecture.",
+     "why": "ⲛ̀ⲧⲉ et ⲛⲧⲉ sont le même mot."
+    },
+    {
+     "wrong": "La jinkim rend la lettre muette.",
+     "right": "Elle ajoute un petit « e » à une consonne, ou détache une voyelle.",
+     "why": "C'est un signe de lecture, pas de silence."
+    },
+    {
+     "wrong": "Si un livre n'a pas de jinkim, le mot est différent.",
+     "right": "C'est le même mot, écrit autrement.",
+     "why": "Selon les éditions, on la met plus ou moins."
+    }
+   ],
+   "tip": "Jinkim sur une consonne = petit « e » devant ; sur une voyelle = lue à part."
+  }
+ },
+ {
+  "id": "eg.g1504.nomina_sacra",
+  "rule": {
+   "summary": "Une barre au-dessus de plusieurs lettres (la surligne) indique un nom sacré abrégé : ⲓ̅ⲏ̅ⲥ̅ pour Jésus, ⲭ̅ⲥ̅ pour le Christ, ⲡ̅ⲟ̅ⲥ̅ pour le Seigneur, ⲫ̅ϯ̅ pour Dieu.",
+   "explanation": "Ces abréviations, les nomina sacra, existent déjà dans les manuscrits grecs du IIe siècle. On garde la première et la dernière lettre du mot (parfois une du milieu) et on trace une barre dessus. Elles ne se lisent pas lettre par lettre : on lit le mot entier. Ne confonds pas la surligne, qui couvre plusieurs lettres et abrège un mot, avec la jinkim, petit trait sur une seule lettre qui guide la lecture.",
+   "pattern": "barre sur plusieurs lettres = nom sacré abrégé, à lire en entier",
+   "examples": [
+    {
+     "text": "ⲓ̅ⲏ̅ⲥ̅",
+     "translation": "Ⲓⲏⲥⲟⲩⲥ, Jésus."
+    },
+    {
+     "text": "ⲭ̅ⲥ̅",
+     "translation": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ, le Christ."
+    },
+    {
+     "text": "ⲡ̅ⲟ̅ⲥ̅",
+     "translation": "Ⲡϭⲟⲓⲥ, le Seigneur."
+    },
+    {
+     "text": "ⲫ̅ϯ̅",
+     "translation": "Ⲫ̀ⲛⲟⲩϯ, Dieu."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "La barre sur ⲓ̅ⲏ̅ⲥ̅ est une jinkim.",
+     "right": "C'est une surligne : elle abrège le nom.",
+     "why": "La jinkim est sur une seule lettre ; la surligne couvre plusieurs lettres."
+    },
+    {
+     "wrong": "On lit ⲓ̅ⲏ̅ⲥ̅ lettre par lettre : i, è, s.",
+     "right": "On lit le mot complet : Ⲓⲏⲥⲟⲩⲥ.",
+     "why": "La barre dit qu'il manque des lettres."
+    },
+    {
+     "wrong": "On abrège tous les mots ainsi.",
+     "right": "On abrège surtout les noms sacrés.",
+     "why": "C'est une marque de respect pour Jésus, le Christ, le Seigneur et Dieu."
+    }
+   ],
+   "tip": "Barre sur plusieurs lettres = mot sacré abrégé ; lis le mot entier."
+  }
+ },
+ {
+  "id": "eg.g1505.articles",
+  "rule": {
+   "summary": "En copte, l'article est collé au nom : ⲡⲓ (le), ϯ (la), ⲛⲓ (les), ⲟⲩ (un, une), ϩⲁⲛ (des). Devant quelques mots courants il prend la forme ⲫ̀ (Ⲫ̀ⲛⲟⲩϯ, Ⲫ̀ⲓⲱⲧ, ⲫ̀ⲣⲁⲛ).",
+   "explanation": "Le premier réflexe pour comprendre un mot copte est de détacher l'article. Le défini a trois formes : ⲡⲓ (masculin), ϯ (féminin), ⲛⲓ (pluriel). L'indéfini est ⲟⲩ (un, une) et ϩⲁⲛ (des). L'article indique le genre : ϯⲡⲁⲣⲑⲉⲛⲟⲥ est féminin. Devant certains mots l'article est raccourci ou devient ⲫ̀ (Ⲫ̀ⲛⲟⲩϯ, Ⲫ̀ⲓⲱⲧ, ⲫ̀ⲣⲁⲛ) : ce sont des mots très fréquents à apprendre tels quels.",
+   "pattern": "article + nom : ⲡⲓ / ϯ / ⲛⲓ (le, la, les) ; ⲟⲩ / ϩⲁⲛ (un, des) ; ⲫ̀ devant quelques mots",
+   "examples": [
+    {
+     "text": "ⲡⲓⲁⲅⲅⲉⲗⲟⲥ",
+     "translation": "L'ange."
+    },
+    {
+     "text": "ϯⲉⲕⲕⲗⲏⲥⲓⲁ",
+     "translation": "L'Église."
+    },
+    {
+     "text": "ⲛⲓⲁⲅⲅⲉⲗⲟⲥ",
+     "translation": "Les anges."
+    },
+    {
+     "text": "Ⲫ̀ⲛⲟⲩϯ",
+     "translation": "Dieu (ⲫ̀ + ⲛⲟⲩϯ)."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Ⲫ̀ⲛⲟⲩϯ est un seul mot qui n'a rien à voir avec ⲛⲟⲩϯ.",
+     "right": "Ⲫ̀ⲛⲟⲩϯ = ⲫ̀ (le) + ⲛⲟⲩϯ (dieu).",
+     "why": "Le ⲫ̀ est un article collé au nom."
+    },
+    {
+     "wrong": "ϯⲡⲁⲣⲑⲉⲛⲟⲥ est masculin parce que le mot finit comme ⲁⲅⲅⲉⲗⲟⲥ.",
+     "right": "Il est féminin : c'est ϯ qui le montre.",
+     "why": "Le genre se lit sur l'article, pas sur la terminaison."
+    },
+    {
+     "wrong": "ϩⲁⲛ veut dire « les ».",
+     "right": "ϩⲁⲛ veut dire « des » ; « les » se dit ⲛⲓ.",
+     "why": "Défini : ⲛⲓ ; indéfini : ϩⲁⲛ."
+    }
+   ],
+   "tip": "Détache l'article, puis cherche le nom."
+  }
+ }
+]

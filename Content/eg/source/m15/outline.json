@@ -1,0 +1,240 @@
+{
+ "module": {
+  "id": 15,
+  "format": 3,
+  "title": "La langue copte : règles et sens des mots",
+  "description": "Comprendre ce que tu lis et entends à l'église : les lettres et les signes, les petits mots, les verbes, puis le sens mot à mot des formules de la Trinité, de la Vierge, des saints et de la messe, sans rien apprendre par cœur."
+ },
+ "grammarUnits": [
+  {
+   "id": "eg.g1501.langue_des_pharaons",
+   "category": "knowledge",
+   "title": "Le copte, langue des pharaons écrite en lettres grecques",
+   "difficulty": 1,
+   "prerequisites": [],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1502.mots_grecs",
+   "category": "knowledge",
+   "title": "Les mots grecs du copte",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1501.langue_des_pharaons"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1503.jinkim",
+   "category": "reading",
+   "title": "La jinkim, le trait de lecture",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1502.mots_grecs"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1504.nomina_sacra",
+   "category": "reading",
+   "title": "Les abréviations surlignées (nomina sacra)",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1503.jinkim"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1505.articles",
+   "category": "grammar",
+   "title": "Les articles collés au nom",
+   "difficulty": 2,
+   "prerequisites": [
+    "eg.g1504.nomina_sacra"
+   ],
+   "functionWords": []
+  }
+ ],
+ "lessons": [
+  {
+   "id": "eg.l1501",
+   "sequence": 1501,
+   "title": "Le copte, langue des pharaons",
+   "description": "Le copte est de l'égyptien écrit avec des lettres grecques : d'où il vient, comment le reconnaître, pourquoi l'Église l'a gardé.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1501.langue_des_pharaons",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ⲛⲟⲩϯ",
+     "slug": "cop_nouti",
+     "translation": "dieu (mot égyptien)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲣⲁⲛ",
+     "slug": "cop_ran",
+     "translation": "nom (mot égyptien)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲓⲱⲧ",
+     "slug": "cop_iot",
+     "translation": "père (mot égyptien)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ϣⲏⲣⲓ",
+     "slug": "cop_shiri",
+     "translation": "fils (mot égyptien)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1502",
+   "sequence": 1502,
+   "title": "Les mots grecs que tu connais",
+   "description": "Ange, évangile, église, vierge : ces mots du copte sont grecs, et le français les a gardés.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1502.mots_grecs",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ⲁⲅⲅⲉⲗⲟⲥ",
+     "slug": "cop_angelos",
+     "translation": "ange (du grec : messager)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲉⲩⲁⲅⲅⲉⲗⲓⲟⲛ",
+     "slug": "cop_euangelion",
+     "translation": "évangile, bonne nouvelle (mot grec)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲉⲕⲕⲗⲏⲥⲓⲁ",
+     "slug": "cop_ekklesia",
+     "translation": "église (du grec : assemblée)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲡⲁⲣⲑⲉⲛⲟⲥ",
+     "slug": "cop_parthenos",
+     "translation": "vierge (mot grec)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1503",
+   "sequence": 1503,
+   "title": "La jinkim : le petit trait qui se lit",
+   "description": "Le petit trait sur certaines lettres ne change pas le sens : il te dit comment lire.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1503.jinkim",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ϫⲓⲛⲕⲓⲙ",
+     "slug": "cop_jinkim",
+     "translation": "la jinkim : « mouvement », le trait sur la lettre",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲛ̀ⲧⲉ",
+     "slug": "cop_nte",
+     "translation": "de (appartenance)",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "ⲉ̀ⲃⲟⲗ",
+     "slug": "cop_evol",
+     "translation": "dehors, hors de",
+     "partOfSpeech": "adverb"
+    },
+    {
+     "word": "ⲁ̀ⲅⲁⲡⲏ",
+     "slug": "cop_agape",
+     "translation": "amour (mot grec : agapè)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1504",
+   "sequence": 1504,
+   "title": "Les noms sacrés abrégés",
+   "description": "La barre au-dessus de plusieurs lettres : ⲓ̅ⲏ̅ⲥ̅, ⲭ̅ⲥ̅, ⲡ̅ⲟ̅ⲥ̅, ⲫ̅ϯ̅, et pourquoi on les abrège.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1504.nomina_sacra",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Ⲓⲏⲥⲟⲩⲥ (ⲓ̅ⲏ̅ⲥ̅)",
+     "slug": "cop_iesous",
+     "translation": "Jésus (nom sacré)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲡⲓⲭ̀ⲣⲓⲥⲧⲟⲥ (ⲭ̅ⲥ̅)",
+     "slug": "cop_khristos",
+     "translation": "le Christ, « l'oint » (nom sacré)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲡϭⲟⲓⲥ (ⲡ̅ⲟ̅ⲥ̅)",
+     "slug": "cop_pchois",
+     "translation": "le Seigneur (nom sacré)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲫ̀ⲛⲟⲩϯ (ⲫ̅ϯ̅)",
+     "slug": "cop_phnouti",
+     "translation": "Dieu (nom sacré)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1505",
+   "sequence": 1505,
+   "title": "Les articles : le, la, les, un",
+   "description": "Détacher l'article pour comprendre un mot : ⲡⲓ, ϯ, ⲛⲓ, ⲟⲩ, ϩⲁⲛ, et le piège de ⲫ̀.",
+   "difficulty": 2,
+   "grammarUnitId": "eg.g1505.articles",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ⲡⲓ",
+     "slug": "cop_pi",
+     "translation": "le (article masculin)",
+     "partOfSpeech": "article"
+    },
+    {
+     "word": "ϯ",
+     "slug": "cop_ti",
+     "translation": "la (article féminin)",
+     "partOfSpeech": "article"
+    },
+    {
+     "word": "ⲛⲓ",
+     "slug": "cop_ni",
+     "translation": "les (article pluriel)",
+     "partOfSpeech": "article"
+    },
+    {
+     "word": "ⲟⲩ",
+     "slug": "cop_ou",
+     "translation": "un, une (article indéfini)",
+     "partOfSpeech": "article"
+    }
+   ]
+  }
+ ]
+}

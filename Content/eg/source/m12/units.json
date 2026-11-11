@@ -164,5 +164,83 @@
    ],
    "tip": "Adam : les 3 premiers jours. Watos : les 4 derniers."
   }
+ },
+ {
+  "id": "eg.g1207.regle_du_soir",
+  "rule": {
+   "summary": "Le jour liturgique commence la veille au soir. Règle du soir : le soir, on prie la théotokie du lendemain, sur l'air du lendemain. L'air change seulement deux soirs par semaine : samedi soir (Adam) et mardi soir (Watos).",
+   "explanation": "La Genèse dit : « il y eut un soir, il y eut un matin ». Le soir, l'Église est donc déjà dans le jour suivant. Samedi à 20 h : théotokie du dimanche, air Adam. Mardi à 20 h : théotokie du mercredi, air Watos. Le matin, à 10 h, on prie celle du jour.",
+   "pattern": "Soir (20 h) : théotokie et air du lendemain. Matin (10 h) : théotokie et air du jour.",
+   "examples": [
+    {
+     "text": "Samedi, 20 h : théotokie du dimanche, air Adam.",
+     "translation": "Le dimanche est un jour Adam."
+    },
+    {
+     "text": "Mardi, 20 h : théotokie du mercredi, air Watos.",
+     "translation": "Le mercredi est un jour Watos."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le mardi soir, on chante encore sur l'air Adam.",
+     "right": "Le mardi soir, on passe à l'air Watos.",
+     "why": "Le soir, on est déjà mercredi."
+    }
+   ],
+   "tip": "Le soir, regarde le jour d'après : sa théotokie, son air."
+  }
+ },
+ {
+  "id": "eg.g1208.kiahk",
+  "rule": {
+   "summary": "Kiahk, quatrième mois copte (vers décembre), est le mois marial, pendant le jeûne de la Nativité. On y prie la grande tasbeha « sept et quatre » : les 7 théotokies et les 4 hoos.",
+   "explanation": "Autrefois la tasbeha de Kiahk durait toute la nuit du samedi au dimanche ; aujourd'hui on la prie souvent chaque soir du mois, avec la théotokie du jour. Louer Marie avant la Nativité prépare la venue du Christ : c'est par elle que le Verbe se fait homme.",
+   "pattern": "Kiahk = mois marial = jeûne de la Nativité = tasbeha « sept et quatre » (7 théotokies + 4 hoos).",
+   "examples": [
+    {
+     "text": "Kiahk est le mois marial.",
+     "translation": "On y loue Marie par ses théotokies."
+    },
+    {
+     "text": "« Sept et quatre » : 7 théotokies et 4 hoos.",
+     "translation": "La grande tasbeha de Kiahk."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Kiahk est le mois du Carême.",
+     "right": "Kiahk tombe pendant le jeûne de la Nativité.",
+     "why": "Il prépare Noël, pas Pâques."
+    }
+   ],
+   "tip": "Kiahk = Marie avant Noël."
+  }
+ },
+ {
+  "id": "eg.g1209.bilan_tasbeha",
+  "rule": {
+   "summary": "La tasbeha suit six étapes : Agpeya de minuit, Ten thino, quatre hoos, psali et théotokie, difnar, conclusion. Adam : dimanche à mardi. Watos : mercredi à samedi. Le soir, on prie la théotokie et l'air du lendemain.",
+   "explanation": "Les hoos sont la mer Rouge, le psaume 135, la fournaise et les psaumes 148 à 150, avec les doxologies entre le 3e et le 4e. Le psali loue le Christ, la théotokie sa Mère. Adam vient du premier mot de la théotokie du lundi, Watos de Pibatos, celle du jeudi.",
+   "pattern": "Prier, se lever, louer, chanter, écouter, conclure. Soir = lendemain.",
+   "examples": [
+    {
+     "text": "Samedi à 20 h : théotokie du dimanche, air Adam.",
+     "translation": "La règle du soir."
+    },
+    {
+     "text": "Watos vient de Pibatos, le buisson.",
+     "translation": "Premier mot de la théotokie du jeudi."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Le psali loue la Vierge.",
+     "right": "Le psali loue le Christ ; la théotokie loue la Vierge.",
+     "why": "Psali = Fils, théotokie = Mère."
+    }
+   ],
+   "tip": "Une nuit : prier, se lever, louer, chanter, écouter, conclure."
+  }
  }
 ]

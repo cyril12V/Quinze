@@ -85,6 +85,56 @@
     "eg.g607.fiche_ephese"
    ],
    "functionWords": []
+  },
+  {
+   "id": "eg.g609.frise",
+   "category": "knowledge",
+   "title": "La grande frise",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g608.fiches_ephese2_chalcedoine"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g610.homonymes",
+   "category": "knowledge",
+   "title": "Les paires à ne jamais confondre",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g609.frise"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g611.mots_jumeaux",
+   "category": "knowledge",
+   "title": "Les mots jumeaux",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g610.homonymes"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g612.trois_formules",
+   "category": "knowledge",
+   "title": "Les trois formules à savoir dire",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g611.mots_jumeaux"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g613.bilan",
+   "category": "knowledge",
+   "title": "Bilan : conciles et hérésies",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g612.trois_formules"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -192,6 +242,68 @@
    "description": "Deux conciles que l'Église copte ne compte pas, et pourquoi : la grille, puis la voix de Dioscore.",
    "difficulty": 4,
    "grammarUnitId": "eg.g608.fiches_ephese2_chalcedoine",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
+  },
+  {
+   "id": "eg.l609",
+   "sequence": 609,
+   "title": "La grande frise",
+   "description": "Des conciles de 49 à Chalcédoine, puis la suite : tout remettre dans l'ordre, date après date.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g609.frise",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
+  },
+  {
+   "id": "eg.l610",
+   "sequence": 610,
+   "title": "Deux Éphèse, deux Paul, deux Eusèbe",
+   "description": "Les paires de noms qui se ressemblent : qui est qui, quel concile est lequel.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g610.homonymes",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
+  },
+  {
+   "id": "eg.l611",
+   "sequence": 611,
+   "title": "Les mots jumeaux",
+   "description": "Homoousios et homoiousios, Théotokos et Christotokos, mia et mono : un petit mot change tout.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g611.mots_jumeaux",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
+  },
+  {
+   "id": "eg.l612",
+   "sequence": 612,
+   "title": "Les trois formules à savoir dire",
+   "description": "Homoousios, Théotokos, « une seule nature du Verbe incarné » : qui, quand, contre qui, et comment elles s'emboîtent.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g612.trois_formules",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les trois formules",
+     "slug": "c06_les_trois_formules",
+     "translation": "homoousios, Théotokos, « une seule nature du Verbe incarné »",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l613",
+   "sequence": 613,
+   "title": "Bilan : conciles et hérésies",
+   "description": "La frise, les erreurs en une ligne, qui convoque, qui préside, et les pièges à éviter.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g613.bilan",
    "introducesGrammar": true,
    "reviews": [],
    "vocabulary": []

@@ -206,5 +206,135 @@
    ],
    "tip": "449 : Dioscore préside. 451 : Marcien convoque. Les coptes : trois conciles."
   }
+ },
+ {
+  "id": "eg.g609.frise",
+  "rule": {
+   "summary": "La frise des conciles : 49 Jérusalem, 325 Nicée, 381 Constantinople, 431 Éphèse, 449 Éphèse II, 451 Chalcédoine ; puis 482, 538, 1054, 1989.",
+   "explanation": "Les dates se retiennent par paquets : 49-269 (les premiers synodes), 313-325 (la paix puis Nicée), 380-381 (Théodose), 428-433 (Nestorius et Éphèse), 444-451 (Dioscore, Éphèse II, Chalcédoine), puis la suite du schisme.",
+   "pattern": "49 · 269 · 313 · 325 · 381 · 431 · 433 · 449 · 451 · 482 · 538 · 1054 · 1989",
+   "examples": [
+    {
+     "text": "325, 381, 431 : les trois conciles des coptes.",
+     "translation": "Une suite d'environ cinquante ans, puis cinquante ans."
+    },
+    {
+     "text": "449 puis 451 : Éphèse II puis Chalcédoine.",
+     "translation": "Deux ans de différence."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Chalcédoine est avant Éphèse II.",
+     "right": "Éphèse II (449) précède Chalcédoine (451).",
+     "why": "Chalcédoine veut annuler Éphèse II."
+    }
+   ],
+   "tip": "Nicée, puis cinquante-six ans, Constantinople ; puis cinquante, Éphèse ; puis vingt, Chalcédoine."
+  }
+ },
+ {
+  "id": "eg.g610.homonymes",
+  "rule": {
+   "summary": "Plusieurs noms se ressemblent et piègent : Éphèse 431 et 449, trois Paul, deux Eusèbe, deux Cyrille et Cyprien, deux Théodose, deux Clément et deux Macaire.",
+   "explanation": "Pour ne pas se tromper, on rattache chaque nom à une marque : un lieu, un concile, un geste. Paul de Thèbes : le corbeau. Paul de Samosate : Antioche 269. Eusèbe de Nicomédie : ami d'Arius. Eusèbe de Césarée : l'historien. Cyrille d'Alexandrie : Éphèse 431.",
+   "pattern": "nom + marque : un lieu, un concile, un geste",
+   "examples": [
+    {
+     "text": "Cyprien est évêque de Carthage.",
+     "translation": "Pas Cyrille."
+    },
+    {
+     "text": "Théodose II convoque les deux Éphèse.",
+     "translation": "Théodose Ier, lui, convoque Constantinople."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Paul de Samosate est l'ermite au corbeau.",
+     "right": "Le corbeau nourrit Paul de Thèbes.",
+     "why": "Samosate est l'évêque condamné en 269."
+    }
+   ],
+   "tip": "Un nom, une marque : le corbeau, l'historien, le Pilier, le brigandage."
+  }
+ },
+ {
+  "id": "eg.g611.mots_jumeaux",
+  "rule": {
+   "summary": "Des mots presque identiques disent des choses opposées : homoousios/homoiousios, Théotokos/Christotokos, mia/mono/dyo, nature/personne, deux credos, deux schismes.",
+   "explanation": "Un iota sépare Nicée des semi-ariens. Théotokos honore Marie et protège le Christ, Christotokos laisse un doute. Mia unit sans absorber ; mono absorbe ; dyo distingue. Nature dit ce qu'on est, personne dit qui on est. Le schisme de 451 n'est pas celui de 1054.",
+   "pattern": "iota · Théotokos / Christotokos · mia / mono / dyo · nature / personne · 451 / 1054",
+   "examples": [
+    {
+     "text": "Les coptes sont miaphysites, pas monophysites.",
+     "translation": "Une lettre qui change tout."
+    },
+    {
+     "text": "Le Christ est une personne et deux réalités, divine et humaine.",
+     "translation": "Nature : ce qu'il est. Personne : qui il est."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Les coptes sont monophysites.",
+     "right": "Les coptes sont miaphysites.",
+     "why": "Ils condamnent Eutychès."
+    }
+   ],
+   "tip": "Mia unit, mono absorbe, dyo distingue."
+  }
+ },
+ {
+  "id": "eg.g612.trois_formules",
+  "rule": {
+   "summary": "Trois formules résument la foi : homoousios (Nicée, contre Arius), Théotokos (Éphèse, contre Nestorius), « une seule nature du Verbe incarné » (Cyrille, sans mélange ni division).",
+   "explanation": "Le Fils est Dieu comme le Père (homoousios). Celui qui naît de Marie est ce Fils : Marie est Théotokos. Il est un seul Christ, Dieu et homme, sans mélange ni division : une seule nature du Verbe incarné. Chaque formule protège la précédente.",
+   "pattern": "Fils Dieu (homoousios) → Marie mère de Dieu (Théotokos) → un seul Christ (une nature unie)",
+   "examples": [
+    {
+     "text": "Le Credo dit : de même substance que le Père.",
+     "translation": "C'est homoousios."
+    },
+    {
+     "text": "La tasbeha chante Marie Théotokos.",
+     "translation": "C'est la foi d'Éphèse."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Théotokos veut dire mère du Christ.",
+     "right": "Théotokos veut dire mère de Dieu.",
+     "why": "Christotokos est le mot de Nestorius."
+    }
+   ],
+   "tip": "Fils Dieu, Marie mère de Dieu, un seul Christ."
+  }
+ },
+ {
+  "id": "eg.g613.bilan",
+  "rule": {
+   "summary": "Tout se range : cinq conciles, huit erreurs, trois formules, trois pièges.",
+   "explanation": "Nicée (Arius), Constantinople (Apollinaire, Macédonius), Éphèse (Nestorius), Éphèse II, Chalcédoine. Les coptes reconnaissent les trois premiers. Chaque erreur oublie une pièce, chaque formule la protège.",
+   "pattern": "erreur → concile → formule → réception",
+   "examples": [
+    {
+     "text": "Arius : Nicée : homoousios.",
+     "translation": "Une erreur, un concile, une formule."
+    },
+    {
+     "text": "Nestorius : Éphèse : Théotokos.",
+     "translation": "Idem au Ve siècle."
+    }
+   ],
+   "commonErrors": [
+    {
+     "wrong": "Éphèse II fait partie des trois conciles.",
+     "right": "Seuls Nicée, Constantinople, Éphèse comptent.",
+     "why": "449 est le « brigandage »."
+    }
+   ],
+   "tip": "Frise, erreurs, formules, pièges."
+  }
  }
 ]

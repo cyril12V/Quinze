@@ -63,6 +63,36 @@
     "eg.g1205.psali_theotokie"
    ],
    "functionWords": []
+  },
+  {
+   "id": "eg.g1207.regle_du_soir",
+   "category": "knowledge",
+   "title": "La règle du soir",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1206.adam_watos"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1208.kiahk",
+   "category": "knowledge",
+   "title": "Kiahk et la tasbeha « sept et quatre »",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1207.regle_du_soir"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1209.bilan_tasbeha",
+   "category": "knowledge",
+   "title": "Bilan : la tasbeha de A à Z",
+   "difficulty": 1,
+   "prerequisites": [
+    "eg.g1208.kiahk"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -245,6 +275,71 @@
      "partOfSpeech": "expression"
     }
    ]
+  },
+  {
+   "id": "eg.l1207",
+   "sequence": 1207,
+   "title": "Le soir, on prie déjà le lendemain",
+   "description": "Pourquoi, le samedi à 20 h, on est déjà dimanche : la règle du soir, avec beaucoup de petits cas pour s'entraîner.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1207.regle_du_soir",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "le jour liturgique",
+     "slug": "c12_jour_liturgique",
+     "translation": "le jour de l'Église, qui commence la veille au soir",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "la règle du soir",
+     "slug": "c12_regle_du_soir",
+     "translation": "le soir, on prie la théotokie et l'air du lendemain",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1208",
+   "sequence": 1208,
+   "title": "Kiahk, le mois de Marie",
+   "description": "Le mois où l'on loue la Vierge toute la nuit, et la grande tasbeha « sept et quatre ».",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1208.kiahk",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Kiahk",
+     "slug": "c12_kiahk",
+     "translation": "le 4e mois copte (vers décembre) : le mois marial",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "la tasbeha « sept et quatre »",
+     "slug": "c12_tasbeha_sept_et_quatre",
+     "translation": "la grande tasbeha de Kiahk : les 7 théotokies et les 4 hoos",
+     "partOfSpeech": "concept"
+    },
+    {
+     "word": "le jeûne de la Nativité",
+     "slug": "c12_jeune_de_la_nativite",
+     "translation": "le temps de jeûne qui précède Noël, pendant lequel tombe Kiahk",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1209",
+   "sequence": 1209,
+   "title": "Bilan : ta nuit de louange",
+   "description": "La nuit de louange en entier : les étapes, les hoos, les chants du jour, les jours Adam et Watos, et la règle du soir.",
+   "difficulty": 1,
+   "grammarUnitId": "eg.g1209.bilan_tasbeha",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
   }
  ]
 }

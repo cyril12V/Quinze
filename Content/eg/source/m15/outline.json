@@ -93,6 +93,96 @@
     "eg.g1508.passe_paques"
    ],
    "functionWords": []
+  },
+  {
+   "id": "eg.g1510.formule_trinite",
+   "category": "vocabulary",
+   "title": "Les noms de Dieu et la formule de la Trinité",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1509.je_crois_benis"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1511.titres_de_dieu",
+   "category": "vocabulary",
+   "title": "Les titres de Dieu",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1510.formule_trinite"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1512.vierge_marie",
+   "category": "vocabulary",
+   "title": "La Vierge Marie et la Théotokos",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1511.titres_de_dieu"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1513.saints_intercession",
+   "category": "vocabulary",
+   "title": "Les saints et l'intercession",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1512.vierge_marie"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1514.amen_paix",
+   "category": "vocabulary",
+   "title": "Les réponses de la messe : amen, alléluia, paix",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1513.saints_intercession"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1515.pitie_gloire",
+   "category": "vocabulary",
+   "title": "Pitié et gloire en grec et en copte",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1514.amen_paix"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1516.copte_dans_arabe",
+   "category": "knowledge",
+   "title": "Le copte caché dans l'arabe d'Égypte",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1515.pitie_gloire"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1517.prenoms_coptes",
+   "category": "knowledge",
+   "title": "Les prénoms coptes",
+   "difficulty": 3,
+   "prerequisites": [
+    "eg.g1516.copte_dans_arabe"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g1518.bilan_copte",
+   "category": "sentence_building",
+   "title": "Bilan : décortiquer une formule copte",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g1517.prenoms_coptes"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -407,6 +497,299 @@
      "partOfSpeech": "verb"
     }
    ]
+  },
+  {
+   "id": "eg.l1510",
+   "sequence": 1510,
+   "title": "Père, Fils, Esprit : la formule du signe de croix",
+   "description": "Les trois noms divins décortiqués, puis la formule « au nom du Père, du Fils et du Saint-Esprit » lue mot à mot.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1510.formule_trinite",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Ⲫ̀ⲓⲱⲧ",
+     "slug": "cop_phiot",
+     "translation": "le Père",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲡ̀ϣⲏⲣⲓ",
+     "slug": "cop_pshiri",
+     "translation": "le Fils",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲡⲓⲡ̀ⲛⲉⲩⲙⲁ",
+     "slug": "cop_pnevma",
+     "translation": "l'Esprit (mot grec : souffle)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲫ̀ⲣⲁⲛ",
+     "slug": "cop_phran",
+     "translation": "le nom",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1511",
+   "sequence": 1511,
+   "title": "Trinité, roi, Tout-Puissant, Sauveur",
+   "description": "Quatre titres de Dieu que tu entends dans les hymnes, décomposés mot à mot.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1511.titres_de_dieu",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ϯⲧ̀ⲣⲓⲁⲥ",
+     "slug": "cop_trias",
+     "translation": "la Trinité (mot grec : triade)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲟⲩⲣⲟ",
+     "slug": "cop_ouro",
+     "translation": "roi",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲡⲓⲡⲁⲛⲧⲟⲕⲣⲁⲧⲱⲣ",
+     "slug": "cop_pantokrator",
+     "translation": "le Tout-Puissant (mot grec)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲥⲱⲧⲏⲣ",
+     "slug": "cop_soter",
+     "translation": "sauveur (mot grec)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1512",
+   "sequence": 1512,
+   "title": "La Vierge Marie : titres et salut",
+   "description": "ϯⲡⲁⲣⲑⲉⲛⲟⲥ, ϯⲑⲉⲟⲧⲟⲕⲟⲥ, ⲭⲉⲣⲉ : le sens des mots que tu chantes à la Vierge.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1512.vierge_marie",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Ⲙⲁⲣⲓⲁ",
+     "slug": "cop_maria",
+     "translation": "Marie",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ϯⲑⲉⲟⲧⲟⲕⲟⲥ",
+     "slug": "cop_theotokos",
+     "translation": "la mère de Dieu (mot grec : celle qui enfante Dieu)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲭⲉⲣⲉ",
+     "slug": "cop_khere",
+     "translation": "salut, réjouis-toi (mot grec)",
+     "partOfSpeech": "interjection"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1513",
+   "sequence": 1513,
+   "title": "Les saints et leurs intercessions",
+   "description": "Apôtres, martyrs, saints, intercessions : le sens des mots et la formule « par les intercessions de… » mot à mot.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1513.saints_intercession",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ϩⲓⲧⲉⲛ",
+     "slug": "cop_hiten",
+     "translation": "par, au moyen de",
+     "partOfSpeech": "preposition"
+    },
+    {
+     "word": "ⲙⲁⲣⲧⲩⲣⲟⲥ",
+     "slug": "cop_martyros",
+     "translation": "martyr, « témoin » (mot grec)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "ⲁ̀ⲅⲓⲟⲥ",
+     "slug": "cop_agios",
+     "translation": "saint (mot grec)",
+     "partOfSpeech": "adjective"
+    },
+    {
+     "word": "ⲡ̀ⲣⲉⲥⲃⲓⲁ",
+     "slug": "cop_presbia",
+     "translation": "intercession (mot grec)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1514",
+   "sequence": 1514,
+   "title": "Amen, alléluia, la paix à tous",
+   "description": "Quatre réponses de la messe : leur sens, leur langue (hébreu, grec ou copte).",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1514.amen_paix",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "ⲁ̀ⲙⲏⲛ",
+     "slug": "cop_amin",
+     "translation": "amen : c'est vrai, ainsi soit-il (hébreu)",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "ⲁ̀ⲗⲗⲏⲗⲟⲩⲓⲁ",
+     "slug": "cop_alleluia",
+     "translation": "alléluia : louez Dieu (hébreu)",
+     "partOfSpeech": "interjection"
+    },
+    {
+     "word": "ϣⲁ ⲉ̀ⲛⲉϩ",
+     "slug": "cop_sha_enah",
+     "translation": "pour toujours",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "ⲓ̀ⲣⲏⲛⲏ",
+     "slug": "cop_irini",
+     "translation": "paix (mot grec)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1515",
+   "sequence": 1515,
+   "title": "Aie pitié, gloire à toi : grec ou copte",
+   "description": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ et ⲛⲁⲓ ⲛⲁⲛ, Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ et ⲡⲓⲱⲟⲩ : la même prière dite en deux langues.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1515.pitie_gloire",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "Ⲕⲩⲣⲓⲉ ⲉ̀ⲗⲉⲏ̀ⲥⲟⲛ",
+     "slug": "cop_kyrie",
+     "translation": "Seigneur, aie pitié (grec)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "ⲛⲁⲓ",
+     "slug": "cop_nai",
+     "translation": "pitié, miséricorde (copte)",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "Ⲇⲟⲝⲁ ⲥⲓ Ⲕⲩⲣⲓⲉ",
+     "slug": "cop_doxa",
+     "translation": "gloire à toi, Seigneur (grec)",
+     "partOfSpeech": "expression"
+    },
+    {
+     "word": "ⲡⲓⲱⲟⲩ",
+     "slug": "cop_iwou",
+     "translation": "la gloire (copte)",
+     "partOfSpeech": "noun"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1516",
+   "sequence": 1516,
+   "title": "Le copte caché dans l'arabe d'Égypte",
+   "description": "Brique, oasis, crocodile, Fayoum : des mots arabes que l'Égypte tient du copte.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1516.copte_dans_arabe",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "طوب (ⲧⲱⲃⲉ)",
+     "slug": "cop_toub",
+     "translation": "brique : mot arabe venu du copte ⲧⲱⲃⲉ",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "واحة (ⲟⲩⲁϩⲉ)",
+     "slug": "cop_waha",
+     "translation": "oasis : mot arabe venu du copte ⲟⲩⲁϩⲉ",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "تمساح (ⲉⲙⲥⲁϩ)",
+     "slug": "cop_timsah",
+     "translation": "crocodile : mot arabe venu du copte ⲉⲙⲥⲁϩ",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "الفيوم (ⲫⲓⲟⲙ)",
+     "slug": "cop_fayoum",
+     "translation": "le Fayoum, « le lac », du copte ⲫⲓⲟⲙ",
+     "partOfSpeech": "place"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1517",
+   "sequence": 1517,
+   "title": "Shenouda, Bishoy, Tawadros : des prénoms à lire",
+   "description": "Anba, Shenouda, Bishoy, Tawadros : le sens des prénoms coptes, lus mot à mot.",
+   "difficulty": 3,
+   "grammarUnitId": "eg.g1517.prenoms_coptes",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "أنبا (ⲁⲃⲁ)",
+     "slug": "cop_anba",
+     "translation": "Anba : titre « père », du copte ⲁⲃⲁ",
+     "partOfSpeech": "noun"
+    },
+    {
+     "word": "شنودة (Ϣⲉⲛⲟⲩϯ)",
+     "slug": "cop_shenouda",
+     "translation": "Shenouda : « enfant de Dieu », du copte Ϣⲉⲛⲟⲩϯ",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "بيشوي (Ⲡⲓϣⲱⲓ)",
+     "slug": "cop_bishoy",
+     "translation": "Bishoy : « le haut », du copte Ⲡⲓϣⲱⲓ",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "تاوضروس (ⲑⲉⲟⲇⲱⲣⲟⲥ)",
+     "slug": "cop_tawadros",
+     "translation": "Tawadros : « don de Dieu », du grec ⲑⲉⲟⲇⲱⲣⲟⲥ",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l1518",
+   "sequence": 1518,
+   "title": "Bilan : lire et comprendre une formule copte",
+   "description": "Révision de tout le chapitre : découper, traduire, relier mot et sens, reconstituer des formules.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g1518.bilan_copte",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": []
   }
  ]
 }

@@ -133,6 +133,46 @@
     "eg.g512.ephese_449"
    ],
    "functionWords": []
+  },
+  {
+   "id": "eg.g514.dioscore",
+   "category": "knowledge",
+   "title": "Saint Dioscore, confesseur de la foi",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g513.chalcedoine"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g515.deux_patriarches",
+   "category": "knowledge",
+   "title": "Après 451 : l'Hénotikon et les deux patriarches",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g514.dioscore"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g516.aujourd_hui",
+   "category": "knowledge",
+   "title": "Trois conciles, six Églises sœurs, l'accord de 1989",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g515.deux_patriarches"
+   ],
+   "functionWords": []
+  },
+  {
+   "id": "eg.g517.bilan",
+   "category": "knowledge",
+   "title": "Bilan du cinquième siècle",
+   "difficulty": 4,
+   "prerequisites": [
+    "eg.g516.aujourd_hui"
+   ],
+   "functionWords": []
   }
  ],
  "lessons": [
@@ -541,6 +581,120 @@
      "slug": "c05_premier_schisme",
      "translation": "la rupture de l'Église après Chalcédoine (451)",
      "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l514",
+   "sequence": 514,
+   "title": "Dioscore, seul face au concile",
+   "description": "Le disciple de Cyrille, jugé à Chalcédoine, déposé pour sa conduite et non pour hérésie, exilé à Gangra.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g514.dioscore",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "saint Dioscore",
+     "slug": "c05_dioscore",
+     "translation": "25e pape d'Alexandrie (444-454), confesseur de la foi",
+     "partOfSpeech": "person"
+    },
+    {
+     "word": "Gangra",
+     "slug": "c05_gangra",
+     "translation": "ville d'Asie Mineure où Dioscore est exilé",
+     "partOfSpeech": "place"
+    },
+    {
+     "word": "un confesseur de la foi",
+     "slug": "c05_confesseur_de_la_foi",
+     "translation": "celui qui souffre pour sa foi sans mourir martyr",
+     "partOfSpeech": "concept"
+    }
+   ]
+  },
+  {
+   "id": "eg.l515",
+   "sequence": 515,
+   "title": "Deux patriarches à Alexandrie",
+   "description": "L'Hénotikon qui ne satisfait personne, les persécutions, et deux patriarches : le melkite et le copte.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g515.deux_patriarches",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "l'Hénotikon (482)",
+     "slug": "c05_henotikon",
+     "translation": "édit d'union de l'empereur Zénon, silencieux sur le nombre de natures",
+     "partOfSpeech": "event"
+    },
+    {
+     "word": "les melkites",
+     "slug": "c05_melkites",
+     "translation": "« gens du roi » : chrétiens qui acceptent Chalcédoine et suivent l'empereur",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "saint Macaire d'Edkou",
+     "slug": "c05_macaire_d_edkou",
+     "translation": "évêque d'Edkou, martyr des persécutions contre les non-chalcédoniens",
+     "partOfSpeech": "person"
+    }
+   ]
+  },
+  {
+   "id": "eg.l516",
+   "sequence": 516,
+   "title": "Où en est-on aujourd'hui ?",
+   "description": "Trois conciles ou sept, six Églises sœurs, l'accord de 1989 : comment l'expliquer à un ami.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g516.aujourd_hui",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "les Églises sœurs",
+     "slug": "c05_eglises_soeurs",
+     "translation": "les six Églises orthodoxes orientales en intercommunion",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "les Églises chalcédoniennes",
+     "slug": "c05_chalcedoniens",
+     "translation": "Églises qui acceptent Chalcédoine et reconnaissent sept conciles",
+     "partOfSpeech": "organization"
+    },
+    {
+     "word": "l'accord de 1989 à Amba Bichoï",
+     "slug": "c05_accord_de_1989",
+     "translation": "accord de foi entre orthodoxes orientaux et byzantins",
+     "partOfSpeech": "event"
+    }
+   ]
+  },
+  {
+   "id": "eg.l517",
+   "sequence": 517,
+   "title": "Bilan : le cinquième siècle",
+   "description": "La frise, les trois erreurs à ne jamais confondre, nature et personne, et comment l'expliquer à un ami.",
+   "difficulty": 4,
+   "grammarUnitId": "eg.g517.bilan",
+   "introducesGrammar": true,
+   "reviews": [],
+   "vocabulary": [
+    {
+     "word": "la frise du Ve siècle",
+     "slug": "c05_frise",
+     "translation": "428 Nestorius, 431 Éphèse, 449 Éphèse II, 451 Chalcédoine",
+     "partOfSpeech": "date"
+    },
+    {
+     "word": "la christologie",
+     "slug": "c05_christologie",
+     "translation": "la partie de la foi qui dit qui est le Christ",
+     "partOfSpeech": "concept"
     }
    ]
   }

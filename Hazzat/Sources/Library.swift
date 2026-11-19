@@ -6,17 +6,66 @@ import UIKit
 struct Song: Identifiable, Codable, Hashable, Sendable {
     var id = UUID()
     var title: String
-    /// A cantique written in franco (shown in the « Franco » section of its period).
-    var isFranco = false
+    /// Part of the period it belongs to (« Messe », « Tasbeha semaine », « Franco »…); empty for none.
+    var section = ""
+    /// The ✅ of the learner's list.
+    var done = false
+    /// Words, for a cantique written in franco.
     var text = ""
     /// File names of the sheets, in reading order (stored in Documents/images).
     var images: [String] = []
+
+    init(title: String, section: String = "") {
+        self.title = title
+        self.section = section
+    }
+
+    // Every field is optional when reading, so that a later version of the app never loses saved data.
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        id = try c.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
+        title = try c.decodeIfPresent(String.self, forKey: .title) ?? "Sans nom"
+        section = try c.decodeIfPresent(String.self, forKey: .section) ?? ""
+        done = try c.decodeIfPresent(Bool.self, forKey: .done) ?? false
+        text = try c.decodeIfPresent(String.self, forKey: .text) ?? ""
+        images = try c.decodeIfPresent([String].self, forKey: .images) ?? []
+    }
 }
 
 struct Period: Identifiable, Codable, Hashable, Sendable {
     var id = UUID()
     var name: String
     var songs: [Song] = []
+
+    init(name: String) { self.name = name }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        id = try c.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
+        name = try c.decodeIfPresent(String.self, forKey: .name) ?? "Sans nom"
+        songs = try c.decodeIfPresent([Song].self, forKey: .songs) ?? []
+    }
+
+    var doneCount: Int { songs.filter(\.done).count }
+
+    /// The chants cut into consecutive parts of the same section, in the order of the list.
+    var parts: [(section: String, songs: [Song])] {
+        var out: [(section: String, songs: [Song])] = []
+        for song in songs {
+            if let last = out.last, last.section == song.section {
+                out[out.count - 1].songs.append(song)
+            } else {
+                out.append((section: song.section, songs: [song]))
+            }
+        }
+        return out
+    }
+
+    var sectionNames: [String] {
+        var seen: [String] = []
+        for song in songs where !song.section.isEmpty && !seen.contains(song.section) { seen.append(song.section) }
+        return seen
+    }
 }
 
 /// Everything the app knows, saved as one JSON file on the phone. No network, ever.
@@ -35,18 +84,22 @@ final class Library {
 
     init() {
         try? FileManager.default.createDirectory(at: Self.imagesFolder, withIntermediateDirectories: true)
-        if let data = try? Data(contentsOf: Self.dataURL),
-           let saved = try? JSONDecoder().decode([Period].self, from: data) {
-            periods = saved
-        } else {
-            periods = [Period(name: "Kiahk", songs: [
-                Song(title: "Efrahi ya Mariam", isFranco: true),
-                Song(title: "Al sugud yalik", isFranco: true),
-                Song(title: "Al 3oleka", isFranco: true),
-                Song(title: "Marahmak", isFranco: true)
-            ])]
-            save()
+        if let data = try? Data(contentsOf: Self.dataURL) {
+            if let saved = try? JSONDecoder().decode([Period].self, from: data) {
+                periods = saved
+                return
+            }
+            // Never overwrite a file we cannot read: keep it aside.
+            let backup = Self.folder.appendingPathComponent("hazzat-illisible-\(Int(Date().timeIntervalSince1970)).json")
+            try? FileManager.default.moveItem(at: Self.dataURL, to: backup)
         }
+        // First launch: the list of chants, by period, with no sheet yet.
+        if let url = Bundle.main.url(forResource: "seed", withExtension: "json"),
+           let data = try? Data(contentsOf: url),
+           let seed = try? JSONDecoder().decode([Period].self, from: data) {
+            periods = seed
+        }
+        save()
     }
 
     private func save() {
@@ -83,13 +136,23 @@ final class Library {
 
     func period(_ id: UUID) -> Period? { periods.first { $0.id == id } }
 
+    func toggleDone(_ songID: UUID) {
+        for i in periods.indices {
+            if let j = periods[i].songs.firstIndex(where: { $0.id == songID }) {
+                periods[i].songs[j].done.toggle()
+                save()
+                return
+            }
+        }
+    }
+
     // MARK: Songs
 
     @discardableResult
     func addSong(titled title: String, to periodID: UUID) -> UUID? {
         let clean = title.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !clean.isEmpty, let i = periods.firstIndex(where: { $0.id == periodID }) else { return nil }
-        let song = Song(title: clean)
+        let song = Song(title: clean, section: periods[i].songs.last?.section ?? "")
         periods[i].songs.append(song)
         save()
         return song.id

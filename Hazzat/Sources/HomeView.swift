@@ -12,7 +12,7 @@ struct HomeView: View {
         return library.periods.flatMap { period in
             period.songs
                 .filter { $0.title.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: nil).contains(needle) }
-                .map { (song: $0, period: period.name) }
+                .map { (song: $0, period: $0.section.isEmpty ? period.name : "\(period.name) · \($0.section)") }
         }
     }
 
@@ -53,7 +53,8 @@ struct HomeView: View {
                                 Text(period.name)
                                     .font(.system(size: 28, weight: .bold))
                                     .multilineTextAlignment(.leading)
-                                Text(period.songs.count == 1 ? "1 chant" : "\(period.songs.count) chants")
+                                Text((period.songs.count == 1 ? "1 chant" : "\(period.songs.count) chants")
+                                     + (period.doneCount > 0 ? " · \(period.doneCount) ✅" : ""))
                                     .font(.subheadline.weight(.medium))
                                     .opacity(0.85)
                             }

@@ -7,21 +7,21 @@ struct PeriodView: View {
 
     var body: some View {
         let period = library.period(periodID)
-        let hazzat = period?.songs.filter { !$0.isFranco } ?? []
-        let franco = period?.songs.filter(\.isFranco) ?? []
         List {
-            if hazzat.isEmpty && franco.isEmpty {
+            if period?.songs.isEmpty ?? true {
                 ContentUnavailableView("Aucun chant", systemImage: "music.note",
                                        description: Text("Ajoute des chants depuis « Gérer », sur l'accueil."))
             }
-            if !hazzat.isEmpty {
-                Section(franco.isEmpty ? "" : "Hazzat") {
-                    ForEach(hazzat) { SongDisclosure(song: $0, subtitle: nil) }
-                }
-            }
-            if !franco.isEmpty {
-                Section("Franco") {
-                    ForEach(franco) { SongDisclosure(song: $0, subtitle: nil) }
+            ForEach(Array((period?.parts ?? []).enumerated()), id: \.offset) { _, part in
+                Section {
+                    ForEach(part.songs) { SongDisclosure(song: $0, subtitle: nil) }
+                } header: {
+                    if !part.section.isEmpty {
+                        Text(part.section)
+                            .font(.headline)
+                            .foregroundStyle(Palette.burgundy)
+                            .textCase(nil)
+                    }
                 }
             }
         }
@@ -72,9 +72,20 @@ struct SongDisclosure: View {
             .listRowInsets(EdgeInsets(top: 4, leading: 12, bottom: 8, trailing: 12))
         } label: {
             VStack(alignment: .leading, spacing: 2) {
-                Text(song.title)
-                    .font(.system(size: 19, weight: .semibold))
-                    .foregroundStyle(Palette.ink)
+                HStack(alignment: .firstTextBaseline, spacing: 6) {
+                    Text(song.title)
+                        .font(.system(size: 19, weight: .semibold))
+                        .foregroundStyle(Palette.ink)
+                    if song.done {
+                        Text("✅").font(.footnote).accessibilityLabel("coché")
+                    }
+                    if !song.images.isEmpty {
+                        Image(systemName: "photo")
+                            .font(.footnote)
+                            .foregroundStyle(.secondary)
+                            .accessibilityLabel("feuille")
+                    }
+                }
                 if let subtitle {
                     Text(subtitle)
                         .font(.caption)

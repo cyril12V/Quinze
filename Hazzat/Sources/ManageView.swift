@@ -109,10 +109,12 @@ struct ManagePeriodView: View {
     }
 
     private func summary(_ song: Song) -> String {
-        var parts: [String] = [song.isFranco ? "Franco" : "Hazzat"]
+        var parts: [String] = []
+        if song.done { parts.append("✅") }
+        if !song.section.isEmpty { parts.append(song.section) }
         if !song.images.isEmpty { parts.append(song.images.count == 1 ? "1 feuille" : "\(song.images.count) feuilles") }
         if !song.text.isEmpty { parts.append("texte") }
-        return parts.joined(separator: " · ")
+        return parts.isEmpty ? "Pas encore de feuille" : parts.joined(separator: " · ")
     }
 }
 
@@ -137,11 +139,28 @@ struct SongEditor: View {
                 Section("Nom") {
                     TextField("Nom du chant", text: $draft.title)
                 }
-                Section("Rangement") {
+                Section {
                     Picker("Période", selection: $periodID) {
                         ForEach(library.periods) { Text($0.name).tag($0.id) }
                     }
-                    Toggle("Cantique en franco", isOn: $draft.isFranco)
+                    HStack {
+                        TextField("Partie (ex. Messe, Franco)", text: $draft.section)
+                        let names = library.period(periodID)?.sectionNames ?? []
+                        if !names.isEmpty {
+                            Menu {
+                                Button("Aucune") { draft.section = "" }
+                                ForEach(names, id: \.self) { name in Button(name) { draft.section = name } }
+                            } label: {
+                                Image(systemName: "list.bullet")
+                            }
+                            .accessibilityLabel("Choisir une partie existante")
+                        }
+                    }
+                    Toggle("✅ Coché", isOn: $draft.done)
+                } header: {
+                    Text("Rangement")
+                } footer: {
+                    Text("La partie regroupe les chants dans la période (Messe, Tasbeha, Franco…). L'ordre se change dans la liste de la période.")
                 }
                 Section {
                     ForEach(draft.images, id: \.self) { name in
@@ -167,7 +186,7 @@ struct SongEditor: View {
                 } footer: {
                     Text("Les photos sont copiées dans l'app : elles restent même sans internet. Glisse vers la gauche pour en retirer une.")
                 }
-                Section("Texte (franco)") {
+                Section("Paroles (franco)") {
                     TextEditor(text: $draft.text)
                         .frame(minHeight: 220)
                         .autocorrectionDisabled()

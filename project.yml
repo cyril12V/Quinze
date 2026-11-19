@@ -503,11 +503,20 @@ targets:
     sources:
       - path: Hazzat/Sources
       - path: Hazzat/Resources
+      # Le calendrier copte (date copte, Adam/Watos, Pâques) est le même que dans Quinze : fichier partagé.
+      - path: Packages/LearningCore/Sources/LearningCore/Calendar/CopticCalendar.swift
     info:
       path: Config/Generated/Hazzat-Info.plist
       properties:
         CFBundleDevelopmentRegion: fr
         CFBundleDisplayName: Hazzat
+        UIAppFonts:
+          - CormorantGaramond-600.ttf
+          - CormorantGaramond-700.ttf
+          - Manrope-400.ttf
+          - Manrope-500.ttf
+          - Manrope-600.ttf
+          - Manrope-700.ttf
         CFBundleName: $(PRODUCT_NAME)
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)

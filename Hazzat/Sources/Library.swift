@@ -8,7 +8,7 @@ struct Song: Identifiable, Codable, Hashable, Sendable {
     var title: String
     /// Part of the period it belongs to (« Messe », « Tasbeha semaine », « Franco »…); empty for none.
     var section = ""
-    /// The ✅ of the learner's list.
+    /// Kept only so that older saved files still read; no longer shown.
     var done = false
     /// Words, for a cantique written in franco.
     var text = ""
@@ -46,8 +46,6 @@ struct Period: Identifiable, Codable, Hashable, Sendable {
         songs = try c.decodeIfPresent([Song].self, forKey: .songs) ?? []
     }
 
-    var doneCount: Int { songs.filter(\.done).count }
-
     /// The chants cut into consecutive parts of the same section, in the order of the list.
     var parts: [(section: String, songs: [Song])] {
         var out: [(section: String, songs: [Song])] = []
@@ -82,11 +80,24 @@ final class Library {
 
     static func imageURL(_ name: String) -> URL { imagesFolder.appendingPathComponent(name) }
 
+    /// Version of the bundled list (seed.json). 2 = chants in the order of the services.
+    static let seedVersion = 2
+    private static let seedVersionKey = "seedVersion"
+
     init() {
         try? FileManager.default.createDirectory(at: Self.imagesFolder, withIntermediateDirectories: true)
+        let seed = Self.loadSeed()
         if let data = try? Data(contentsOf: Self.dataURL) {
             if let saved = try? JSONDecoder().decode([Period].self, from: data) {
                 periods = saved
+                if UserDefaults.standard.integer(forKey: Self.seedVersionKey) < Self.seedVersion {
+                    // Keep a copy of the library as it was, then put the chants in their new order.
+                    let backup = Self.folder.appendingPathComponent("hazzat-avant-v\(Self.seedVersion).json")
+                    if !FileManager.default.fileExists(atPath: backup.path) { try? data.write(to: backup, options: .atomic) }
+                    periods = Self.reordered(saved, by: seed)
+                    UserDefaults.standard.set(Self.seedVersion, forKey: Self.seedVersionKey)
+                    save()
+                }
                 return
             }
             // Never overwrite a file we cannot read: keep it aside.
@@ -94,12 +105,93 @@ final class Library {
             try? FileManager.default.moveItem(at: Self.dataURL, to: backup)
         }
         // First launch: the list of chants, by period, with no sheet yet.
-        if let url = Bundle.main.url(forResource: "seed", withExtension: "json"),
-           let data = try? Data(contentsOf: url),
-           let seed = try? JSONDecoder().decode([Period].self, from: data) {
-            periods = seed
+        periods = seed.map { seedPeriod in
+            var period = Period(name: seedPeriod.name)
+            period.songs = seedPeriod.songs.map { Song(title: $0.title, section: $0.section ?? "") }
+            return period
         }
+        UserDefaults.standard.set(Self.seedVersion, forKey: Self.seedVersionKey)
         save()
+    }
+
+    // MARK: Bundled list
+
+    /// Where a chant of the bundled list was in the previous list: its part, its name, and which one it was
+    /// among chants of the same part and name.
+    struct SeedOrigin: Decodable, Hashable {
+        var section: String
+        var title: String
+        var n: Int
+    }
+
+    struct SeedSong: Decodable {
+        var title: String
+        var section: String?
+        var from: SeedOrigin?
+    }
+
+    struct SeedPeriod: Decodable {
+        var name: String
+        var songs: [SeedSong]
+    }
+
+    private static func loadSeed() -> [SeedPeriod] {
+        guard let url = Bundle.main.url(forResource: "seed", withExtension: "json"),
+              let data = try? Data(contentsOf: url),
+              let seed = try? JSONDecoder().decode([SeedPeriod].self, from: data) else { return [] }
+        return seed
+    }
+
+    /// Puts the chants of a saved library in the order of the bundled list, without losing anything: sheets,
+    /// words and ids stay with their chant. A chant the user added or renamed is not in the list; it stays
+    /// right after the chant it followed. A period the user renamed is left as it is.
+    static func reordered(_ saved: [Period], by seed: [SeedPeriod]) -> [Period] {
+        saved.map { period in
+            guard let seedPeriod = seed.first(where: { $0.name == period.name }) else { return period }
+            let songs = period.songs
+            var indexByOrigin: [SeedOrigin: Int] = [:]
+            var seen: [String: Int] = [:]
+            for (i, song) in songs.enumerated() {
+                let pair = song.section + "\u{1F}" + song.title
+                let n = seen[pair, default: 0]
+                seen[pair] = n + 1
+                indexByOrigin[SeedOrigin(section: song.section, title: song.title, n: n)] = i
+            }
+            // Chants found in the list, in the new order, with their new name and part.
+            var placed: [Int] = []
+            var renamed: [Int: (title: String, section: String)] = [:]
+            for seedSong in seedPeriod.songs {
+                guard let origin = seedSong.from, let i = indexByOrigin[origin], renamed[i] == nil else { continue }
+                placed.append(i)
+                renamed[i] = (seedSong.title, seedSong.section ?? "")
+            }
+            guard !placed.isEmpty else { return period }
+            // Every other chant follows the last found chant that came before it.
+            var following: [Int: [Int]] = [:]
+            var head: [Int] = []
+            var anchor: Int?
+            for i in songs.indices {
+                if renamed[i] != nil { anchor = i; continue }
+                if let anchor { following[anchor, default: []].append(i) } else { head.append(i) }
+            }
+            var result: [Song] = []
+            func appendOwn(_ i: Int, after anchorIndex: Int?) {
+                var song = songs[i]
+                // A chant added inside a part moves with it into the part's new name.
+                if let a = anchorIndex, song.section == songs[a].section, let new = renamed[a] { song.section = new.section }
+                result.append(song)
+            }
+            for i in head { appendOwn(i, after: nil) }
+            for i in placed {
+                var song = songs[i]
+                if let new = renamed[i] { song.title = new.title; song.section = new.section }
+                result.append(song)
+                for j in following[i] ?? [] { appendOwn(j, after: i) }
+            }
+            var out = period
+            out.songs = result
+            return out
+        }
     }
 
     private func save() {
@@ -135,16 +227,6 @@ final class Library {
     }
 
     func period(_ id: UUID) -> Period? { periods.first { $0.id == id } }
-
-    func toggleDone(_ songID: UUID) {
-        for i in periods.indices {
-            if let j = periods[i].songs.firstIndex(where: { $0.id == songID }) {
-                periods[i].songs[j].done.toggle()
-                save()
-                return
-            }
-        }
-    }
 
     // MARK: Songs
 

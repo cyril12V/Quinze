@@ -15,7 +15,7 @@ struct ManageView: View {
                     ForEach(library.periods) { period in
                         NavigationLink(value: period.id) {
                             HStack {
-                                Text(period.name).font(.headline)
+                                Text(period.name).font(Typo.titleSemi(21)).foregroundStyle(Palette.ink)
                                 Spacer()
                                 Text("\(period.songs.count)").foregroundStyle(.secondary)
                             }
@@ -35,6 +35,8 @@ struct ManageView: View {
                     Label("Nouvelle période", systemImage: "plus.circle.fill")
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Palette.background.ignoresSafeArea())
             .navigationTitle("Gérer")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
@@ -72,8 +74,8 @@ struct ManagePeriodView: View {
                     Button { edited = SongRef(id: song.id) } label: {
                         HStack {
                             VStack(alignment: .leading, spacing: 2) {
-                                Text(song.title).foregroundStyle(Palette.ink)
-                                Text(summary(song)).font(.caption).foregroundStyle(.secondary)
+                                Text(song.title).font(Typo.body(16, .medium)).foregroundStyle(Palette.ink)
+                                Text(summary(song)).font(Typo.body(12)).foregroundStyle(Palette.muted)
                             }
                             Spacer()
                             Image(systemName: "pencil").foregroundStyle(.secondary)
@@ -94,6 +96,8 @@ struct ManagePeriodView: View {
                 Label("Nouveau chant", systemImage: "plus.circle.fill")
             }
         }
+        .scrollContentBackground(.hidden)
+        .background(Palette.background.ignoresSafeArea())
         .navigationTitle(library.period(periodID)?.name ?? "")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar { EditButton() }
@@ -110,7 +114,6 @@ struct ManagePeriodView: View {
 
     private func summary(_ song: Song) -> String {
         var parts: [String] = []
-        if song.done { parts.append("✅") }
         if !song.section.isEmpty { parts.append(song.section) }
         if !song.images.isEmpty { parts.append(song.images.count == 1 ? "1 feuille" : "\(song.images.count) feuilles") }
         if !song.text.isEmpty { parts.append("texte") }
@@ -156,7 +159,6 @@ struct SongEditor: View {
                             .accessibilityLabel("Choisir une partie existante")
                         }
                     }
-                    Toggle("✅ Coché", isOn: $draft.done)
                 } header: {
                     Text("Rangement")
                 } footer: {
@@ -193,6 +195,8 @@ struct SongEditor: View {
                         .textInputAutocapitalization(.never)
                 }
             }
+            .scrollContentBackground(.hidden)
+            .background(Palette.background.ignoresSafeArea())
             .navigationTitle("Modifier le chant")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {

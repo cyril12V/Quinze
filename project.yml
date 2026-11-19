@@ -49,6 +49,19 @@ schemes:
     archive:
       config: Release
 
+  Hazzat:
+    build:
+      targets:
+        Hazzat: all
+    run:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release
+
   Nofri:
     build:
       targets:
@@ -481,6 +494,37 @@ targets:
         SKIP_INSTALL: YES
         SWIFT_ACTIVE_COMPILATION_CONDITIONS: $(inherited) NOFRI
         LD_RUNPATH_SEARCHPATHS: $(inherited) @executable_path/Frameworks @executable_path/../../Frameworks
+
+  # ---------------------------------------------------------------- Hazzat : feuilles de hazzat et cantiques, hors ligne
+  # App indépendante : aucun paquet, aucune extension, aucun réseau. Tout est enregistré sur l'iPhone.
+  Hazzat:
+    type: application
+    platform: iOS
+    sources:
+      - path: Hazzat/Sources
+      - path: Hazzat/Resources
+    info:
+      path: Config/Generated/Hazzat-Info.plist
+      properties:
+        CFBundleDevelopmentRegion: fr
+        CFBundleDisplayName: Hazzat
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        LSRequiresIPhoneOS: true
+        UILaunchScreen: {}
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        ITSAppUsesNonExemptEncryption: false
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(BUNDLE_ID_PREFIX).hazzat
+        GENERATE_INFOPLIST_FILE: NO
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
 
   # ---------------------------------------------------------------- Tests
   QuinzeTests:

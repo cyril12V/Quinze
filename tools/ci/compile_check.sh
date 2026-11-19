@@ -23,6 +23,12 @@ xcodebuild build -project Quinze.xcodeproj -scheme Nofri -configuration Debug \
   CODE_SIGNING_ALLOWED=NO 2>&1 | tee -a build/compile.log
 nofri=${PIPESTATUS[0]}
 [ "$status" -ne 0 ] || status=$nofri
+# Hazzat (feuilles de hazzat, hors ligne) : app indépendante.
+xcodebuild build -project Quinze.xcodeproj -scheme Hazzat -configuration Debug \
+  -destination 'generic/platform=iOS Simulator' -derivedDataPath build/DerivedData \
+  CODE_SIGNING_ALLOWED=NO 2>&1 | tee -a build/compile.log
+hazzat=${PIPESTATUS[0]}
+[ "$status" -ne 0 ] || status=$hazzat
 
 errors=$(grep -E "^/.*: error: " build/compile.log | sed 's#^.*/Quinze/Quinze/##; s#^/Users/runner/work/[^/]*/[^/]*/##' | sort -u)
 count=$(printf '%s' "$errors" | grep -c . || true)

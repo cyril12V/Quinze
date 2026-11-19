@@ -49,6 +49,7 @@ platform :ios do
         "#{prefix}.nofri.widget" => ["Nofri Widget", [cap::APP_GROUPS]]
       }
     end
+    targets = { "#{prefix}.hazzat" => ["Hazzat", []] } if ENV["APP"].to_s == "Hazzat"
     Spaceship::ConnectAPI.token = Spaceship::ConnectAPI::Token.from(hash: asc_api_key)
 
     begin

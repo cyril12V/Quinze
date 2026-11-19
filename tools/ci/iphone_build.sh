@@ -67,7 +67,7 @@ fi
 
 # Quelle app : Quinze (par défaut) ou Nofri (variable APP).
 APP="${APP:-Quinze}"
-case "$APP" in Quinze|Nofri) ;; *) trap - ERR; fail "APP doit valoir Quinze ou Nofri" ;; esac
+case "$APP" in Quinze|Nofri|Hazzat) ;; *) trap - ERR; fail "APP doit valoir Quinze, Nofri ou Hazzat" ;; esac
 export APP
 echo "App compilée : $APP"
 

@@ -287,6 +287,7 @@ struct ProfileView: View {
     @State private var day = LiturgicalDay()
     @State private var photo: PhotosPickerItem?
     @State private var confirmClear = false
+    @State private var showCredits = false
 
     private var sheetsCount: Int {
         library.periods.reduce(0) { total, period in total + period.songs.reduce(0) { $0 + $1.images.count } }
@@ -363,6 +364,14 @@ struct ProfileView: View {
                 .disabled(library.recentIDs.isEmpty)
                 .opacity(library.recentIDs.isEmpty ? 0.4 : 1)
                 .padding(.top, 36)
+
+                Button { showCredits = true } label: {
+                    Text("Crédits des images")
+                        .font(.system(size: 14, weight: .semibold))
+                        .foregroundStyle(Palette.ink)
+                }
+                .plainButton()
+                .padding(.top, 18)
             }
             .padding(.horizontal, 24)
             .padding(.bottom, 30)
@@ -381,6 +390,7 @@ struct ProfileView: View {
         .onChange(of: scenePhase) { _, phase in
             if phase == .active { day = LiturgicalDay() }
         }
+        .sheet(isPresented: $showCredits) { CreditsView() }
         .confirmationDialog("Effacer le dernier chant ouvert ?", isPresented: $confirmClear, titleVisibility: .visible) {
             Button("Effacer", role: .destructive) { library.clearRecents() }
             Button("Annuler", role: .cancel) {}
@@ -486,5 +496,73 @@ struct SearchView: View {
         .background(Palette.background)
         .toolbar(.hidden, for: .navigationBar)
         .onAppear { focused = true }
+    }
+}
+
+// MARK: - Crédits
+
+/// Where each cover icon comes from (Wikimedia Commons), its author and its licence.
+struct CreditsView: View {
+    @Environment(\.dismiss) private var dismiss
+
+    struct Credit: Decodable, Identifiable {
+        let category: String
+        let title: String
+        let author: String
+        let license: String
+        let url: String
+        var id: String { category }
+    }
+
+    private let credits: [Credit] = {
+        guard let url = Bundle.main.url(forResource: "credits", withExtension: "json"),
+              let data = try? Data(contentsOf: url) else { return [] }
+        return (try? JSONDecoder().decode([Credit].self, from: data)) ?? []
+    }()
+
+    var body: some View {
+        NavigationStack {
+            List(credits) { credit in
+                HStack(alignment: .top, spacing: 14) {
+                    if let art = Palette.art(for: credit.category) {
+                        Image(uiImage: art)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 52, height: 52)
+                            .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                    }
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text(credit.category).font(.system(size: 15, weight: .semibold)).foregroundStyle(Palette.ink)
+                        Text(credit.title).font(Typo.caption).foregroundStyle(Palette.muted).lineLimit(2)
+                        Text("\(credit.author) · \(credit.license)").font(Typo.caption).foregroundStyle(Palette.muted)
+                        if let link = URL(string: credit.url) {
+                            Link("Voir sur Wikimedia Commons", destination: link)
+                                .font(.system(size: 12, weight: .semibold))
+                                .foregroundStyle(Palette.accent)
+                        }
+                    }
+                }
+                .listRowSeparator(.hidden)
+            }
+            .listStyle(.plain)
+            .navigationTitle("Crédits des images")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("OK") { dismiss() }
+                        .font(.system(size: 16, weight: .bold))
+                        .foregroundStyle(Palette.accent)
+                }
+            }
+            .safeAreaInset(edge: .top) {
+                Text("Icônes anciennes et photos d'icônes coptes, libres de droits ou sous licence libre (Wikimedia Commons).")
+                    .font(Typo.caption)
+                    .foregroundStyle(Palette.muted)
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 8)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .background(Color.white)
+            }
+        }
     }
 }

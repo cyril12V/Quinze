@@ -68,9 +68,9 @@ struct SongEditor: View {
                         for i in offsets { library.removeImageFile(draft.images[i]) }
                         draft.images.remove(atOffsets: offsets)
                     }
+                    let addTitle = importing ? "Ajout en cours…" : "Ajouter des photos (plusieurs d'un coup)"
                     PhotosPicker(selection: $picked, maxSelectionCount: 30, selectionBehavior: .ordered, matching: .images) {
-                        Label(importing ? "Ajout en cours…" : "Ajouter des photos (plusieurs d'un coup)",
-                              systemImage: "photo.on.rectangle")
+                        Label(addTitle, systemImage: "photo.on.rectangle")
                             .foregroundStyle(Palette.ink)
                     }
                     .disabled(importing)

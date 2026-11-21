@@ -96,6 +96,24 @@ platform :ios do
     end
   end
 
+
+  # Chaque build sur un Mac de GitHub crée un certificat « Apple Development » neuf (sa clé privée disparaît
+  # avec le Mac). Quand Apple refuse d'en créer un de plus, cette lane révoque le plus ancien des certificats
+  # créés par les builds (« Created via API »), jamais un certificat fait à la main sur un Mac.
+  # Accord de l'utilisateur donné le 22 novembre 2026 : « Oui, à chaque build ».
+  desc "Révoque le plus ancien certificat de développement créé par les builds"
+  lane :free_certificate do
+    Spaceship::ConnectAPI.token = Spaceship::ConnectAPI::Token.from(hash: asc_api_key)
+    certs = Spaceship::ConnectAPI::Certificate.all(filter: { certificateType: "DEVELOPMENT,IOS_DEVELOPMENT" })
+    UI.message("Certificats de développement : #{certs.count}")
+    certs.each { |c| UI.message("  #{c.display_name} | #{c.name} | expire le #{c.expiration_date}") }
+    made_by_builds = certs.select { |c| "#{c.name} #{c.display_name}".include?("Created via API") }
+    UI.user_error!("Aucun certificat créé par les builds à révoquer : supprime-en un toi-même sur developer.apple.com > Certificates.") if made_by_builds.empty?
+    oldest = made_by_builds.min_by { |c| c.expiration_date.to_s }
+    UI.important("Révocation du plus ancien : #{oldest.display_name} (expire le #{oldest.expiration_date})")
+    oldest.delete!
+  end
+
   desc "Envoie l'IPA exporté (build/export/Quinze.ipa) sur TestFlight"
   lane :beta do |options|
     ipa = options[:ipa] || File.expand_path("../build/export/Quinze.ipa", __dir__)

@@ -118,9 +118,25 @@ bundle exec fastlane prepare_ids 2>&1 | tee build/prepare.log
 # 6. Projet, archive, export « développement ».
 xcodegen generate
 AUTH=(-allowProvisioningUpdates -authenticationKeyPath "$ASC_KEY_PATH" -authenticationKeyID "$ASC_KEY_ID" -authenticationKeyIssuerID "$ASC_ISSUER_ID")
-xcodebuild archive -project Quinze.xcodeproj -scheme "$APP" -configuration Release \
-  -destination 'generic/platform=iOS' -archivePath "build/$APP.xcarchive" -derivedDataPath build/DerivedData \
-  "${AUTH[@]}" 2>&1 | tee build/archive.log
+archive() {
+  xcodebuild archive -project Quinze.xcodeproj -scheme "$APP" -configuration Release \
+    -destination 'generic/platform=iOS' -archivePath "build/$APP.xcarchive" -derivedDataPath build/DerivedData \
+    "${AUTH[@]}" 2>&1 | tee build/archive.log
+}
+# Chaque Mac de GitHub crée un certificat neuf. Si Apple refuse (limite atteinte), on révoque le plus ancien
+# certificat créé par les builds, puis on recommence une fois (accord de l'utilisateur, voir la lane).
+trap - ERR
+if ! archive; then
+  if grep -q "maximum number of certificates" build/archive.log; then
+    echo "Limite de certificats atteinte : révocation du plus ancien, puis nouvel essai." | tee -a "$SUMMARY"
+    bundle exec fastlane free_certificate 2>&1 | tee build/certificate.log || fail "impossible de libérer un certificat"
+    rm -rf "build/$APP.xcarchive"
+    archive || fail "archive"
+  else
+    fail "archive"
+  fi
+fi
+trap 'fail "étape interrompue (voir le journal ci-dessus)"' ERR
 cat > build/ExportOptions.plist <<EOF
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">

@@ -301,6 +301,9 @@ struct ModuleDetailView: View {
                     summaryCard
                         .qAppear(0)
                 }
+                #if NOFRI
+                courseCard
+                #endif
                 lessonsList
                 QCallout(systemImage: "lightbulb", tint: Theme.ink, fill: Pastel.yellow.soft) {
                     Text("Pas besoin de choisir : à chaque créneau, on te propose automatiquement la leçon qu'il te faut.")
@@ -314,6 +317,38 @@ struct ModuleDetailView: View {
         .navigationTitle("\(AppBrand.moduleWord) \(module.id)")
         .navigationBarTitleDisplayMode(.inline)
     }
+
+    #if NOFRI
+    /// The whole chapter written as a course, to read like a book.
+    @ViewBuilder private var courseCard: some View {
+        if let chapter = CourseChapter.all.first(where: { $0.number == module.id }) {
+            NavigationLink {
+                CourseReader(chapter: chapter)
+            } label: {
+                HStack(spacing: 14) {
+                    Image(systemName: "book.pages.fill")
+                        .font(.system(size: 22))
+                        .foregroundStyle(Theme.onInk)
+                        .frame(width: 48, height: 48)
+                        .background(Theme.burgundy, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text("Lire le cours complet")
+                            .font(Theme.Font.headline)
+                            .foregroundStyle(Theme.primaryText)
+                        Text("\(chapter.sections.count) parties · \(chapter.minutes) min de lecture")
+                            .font(Theme.Font.caption)
+                            .foregroundStyle(Theme.secondaryText)
+                    }
+                    Spacer(minLength: 0)
+                    QIconView(icon: .chevronRight, size: 16)
+                        .foregroundStyle(Theme.tertiaryText)
+                }
+                .card()
+            }
+            .buttonStyle(.press)
+        }
+    }
+    #endif
 
     private var summaryCard: some View {
         PastelCard(module.pastel) {

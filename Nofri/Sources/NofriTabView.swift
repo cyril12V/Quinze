@@ -1,19 +1,20 @@
 import SwiftUI
 import LearningCore
 
-/// Root of Nofri once signed in: Accueil, Parcours, Collection, Progrès.
+/// Root of Nofri once signed in: Accueil, Parcours, Cours, Collection, Progrès.
 struct NofriTabView: View {
     @Environment(AppEnvironment.self) private var env
     @State private var tab: Tab = .home
 
     enum Tab: String, CaseIterable, Identifiable {
-        case home, path, collection, progress
+        case home, path, course, collection, progress
         var id: String { rawValue }
 
         var title: String {
             switch self {
             case .home: return "Accueil"
             case .path: return "Parcours"
+            case .course: return "Cours"
             case .collection: return "Collection"
             case .progress: return "Progrès"
             }
@@ -23,6 +24,7 @@ struct NofriTabView: View {
             switch self {
             case .home: return .home
             case .path: return .path
+            case .course: return .book
             case .collection: return .star
             case .progress: return .chart
             }
@@ -34,6 +36,7 @@ struct NofriTabView: View {
             switch tab {
             case .home: NavigationStack { HomeView() }
             case .path: NavigationStack { PathView() }.id(Tab.path)
+            case .course: NavigationStack { NofriCourseList() }.id(Tab.course)
             case .collection: NavigationStack { NofriCollectionView() }.id(Tab.collection)
             case .progress: NavigationStack { ProgressDashboardView() }.id(Tab.progress)
             }

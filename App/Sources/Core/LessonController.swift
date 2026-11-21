@@ -187,6 +187,9 @@ final class LessonController: Identifiable {
     /// Title of the lesson taught by this session, if any.
     var lessonTitle: String? { plan.lessonId.flatMap { engine.lesson($0)?.title } }
 
+    /// Id of the lesson taught by this session, if any.
+    var lessonId: String? { plan.lessonId }
+
     /// A unit of this session's subject (titles on the finish screen).
     func unit(_ id: String) -> LearningUnit? { engine.unit(id) }
 

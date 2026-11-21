@@ -121,7 +121,8 @@ struct LessonFlowView: View {
 
     @ViewBuilder private var cardContent: some View {
         if let step = controller.currentCourseCard {
-            LessonCourseCard(step: step, lessonTitle: controller.lessonTitle, isBusy: isBusy, onContinue: advance)
+            LessonCourseCard(step: step, lessonTitle: controller.lessonTitle, lessonId: controller.lessonId,
+                             isBusy: isBusy, onContinue: advance)
         } else if let unit = controller.currentUnit {
             if isRuleCard(for: unit) {
                 LessonRuleCard(

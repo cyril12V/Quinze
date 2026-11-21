@@ -6,6 +6,7 @@ import LearningCore
 struct LessonCourseCard: View {
     let step: CourseCardStep
     let lessonTitle: String?
+    var lessonId: String? = nil
     let isBusy: Bool
     let onContinue: () -> Void
 
@@ -20,6 +21,13 @@ struct LessonCourseCard: View {
         }
     }
     private var pastel: Pastel { Pastel.allCases[(step.index + 1) % Pastel.allCases.count] }
+    #if NOFRI
+    /// Same text size as the course reader (A− / A+ there).
+    @AppStorage("nofri.course.textSize") private var textSize: Double = 19
+    private var textFont: Font { Theme.Font.jakarta(textSize, .medium, relativeTo: .body) }
+    #else
+    private var textFont: Font { Theme.Font.headline }
+    #endif
 
     var body: some View {
         LessonScaffold {
@@ -33,6 +41,12 @@ struct LessonCourseCard: View {
                         .fixedSize(horizontal: false, vertical: true)
                         .qAppear(1)
                 }
+                #if NOFRI
+                if let lessonId {
+                    CourseLinkButton(id: lessonId)
+                        .qAppear(1)
+                }
+                #endif
             }
         } footer: {
             Button(isGuided ? "J'ai lu, à moi !" : (isLast ? "C'est parti !" : "Continuer"), action: onContinue)
@@ -73,7 +87,7 @@ struct LessonCourseCard: View {
                 CardTitle(step.card.title)
                     .accessibilityAddTraits(.isHeader)
                 Text(step.card.text).arabicAware(step.card.text, .title3)
-                    .font(Theme.Font.headline)
+                    .font(textFont)
                     .foregroundStyle(Theme.ink)
                     .lineSpacing(4)
                     .fixedSize(horizontal: false, vertical: true)

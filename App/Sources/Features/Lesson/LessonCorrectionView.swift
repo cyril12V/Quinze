@@ -341,6 +341,10 @@ struct LessonCorrectionView: View {
                         .font(Theme.Font.body)
                         .foregroundStyle(Theme.primaryText)
                         .fixedSize(horizontal: false, vertical: true)
+                    #if NOFRI
+                    CourseLinkButton(id: exercise.id, title: "Revoir dans le cours")
+                        .padding(.top, 4)
+                    #endif
                 }
             }
             if let summary = ruleSummary(for: exercise) {

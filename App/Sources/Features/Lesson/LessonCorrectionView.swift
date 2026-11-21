@@ -341,12 +341,20 @@ struct LessonCorrectionView: View {
                         .font(Theme.Font.body)
                         .foregroundStyle(Theme.primaryText)
                         .fixedSize(horizontal: false, vertical: true)
-                    #if NOFRI
-                    CourseLinkButton(id: exercise.id, title: "Revoir dans le cours")
-                        .padding(.top, 4)
-                    #endif
                 }
             }
+            #if NOFRI
+            if let fact = keyFact(for: exercise), !exercise.explanation.contains(fact) {
+                VStack(alignment: .leading, spacing: Theme.Spacing.s) {
+                    sectionLabel("À retenir")
+                    Text(fact)
+                        .font(Theme.Font.body(.semibold))
+                        .foregroundStyle(Theme.primaryText)
+                        .fixedSize(horizontal: false, vertical: true)
+                }
+            }
+            CourseLinkButton(id: exercise.id, title: "Revoir dans le cours")
+            #endif
             if let summary = ruleSummary(for: exercise) {
                 VStack(alignment: .leading, spacing: Theme.Spacing.s) {
                     sectionLabel("La règle")
@@ -386,6 +394,16 @@ struct LessonCorrectionView: View {
             .accessibilityLabel("Astuce : \(tip)")
         }
     }
+
+    #if NOFRI
+    /// « À retenir » of the lesson card this question comes from (guided lessons: `step` = card number).
+    private func keyFact(for exercise: Exercise) -> String? {
+        guard let lessonId = exercise.lessonId, let step = exercise.step,
+              let cards = env.store.engine?.lesson(lessonId)?.course, step >= 1, step <= cards.count,
+              let fact = cards[step - 1].keyFact, !fact.isEmpty else { return nil }
+        return fact
+    }
+    #endif
 
     private func ruleSummary(for exercise: Exercise) -> String? {
         guard let unit = env.store.unit(exercise.primaryUnitId), unit.kind == .grammar,

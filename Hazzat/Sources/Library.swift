@@ -256,6 +256,11 @@ final class Library {
         return result
     }
 
+    private func save() {
+        guard let data = try? JSONEncoder().encode(periods) else { return }
+        try? data.write(to: Self.dataURL, options: .atomic)
+    }
+
     // MARK: Periods
 
     func addPeriod(named name: String) {

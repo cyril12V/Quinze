@@ -510,13 +510,8 @@ targets:
       properties:
         CFBundleDevelopmentRegion: fr
         CFBundleDisplayName: Hazzat
-        UIAppFonts:
-          - CormorantGaramond-600.ttf
-          - CormorantGaramond-700.ttf
-          - Manrope-400.ttf
-          - Manrope-500.ttf
-          - Manrope-600.ttf
-          - Manrope-700.ttf
+        UIUserInterfaceStyle: Light
+        NSCameraUsageDescription: Pour scanner tes feuilles de hazzat et les ranger dans un chant.
         CFBundleName: $(PRODUCT_NAME)
         CFBundleShortVersionString: $(MARKETING_VERSION)
         CFBundleVersion: $(CURRENT_PROJECT_VERSION)

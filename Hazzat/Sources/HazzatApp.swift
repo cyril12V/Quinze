@@ -5,102 +5,158 @@ import UIKit
 struct HazzatApp: App {
     @State private var library = Library()
 
-    init() {
-        Theme.styleNavigationBars()
-    }
-
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            RootView()
                 .environment(library)
-                .tint(Palette.accent)
-                .font(Typo.body(16))
+                .tint(Palette.ink)
+                .preferredColorScheme(.light)
         }
     }
 }
 
-/// Colours that follow the phone's light or dark mode, so text is always readable.
-enum Palette {
-    static let background = dynamic(light: 0xF7F3EC, dark: 0x121010)
-    static let card = dynamic(light: 0xFFFFFF, dark: 0x1D1918)
-    static let cardPressed = dynamic(light: 0xF2ECE3, dark: 0x262120)
-    static let ink = dynamic(light: 0x231A16, dark: 0xF3EDE6)
-    static let muted = dynamic(light: 0x736660, dark: 0xA69A91)
-    static let line = dynamic(light: 0xECE5DB, dark: 0x2C2624)
-    static let accent = dynamic(light: 0x7A1F2B, dark: 0xE38D98)
-    static let accentSoft = dynamic(light: 0xF5E9E7, dark: 0x351C20)
-    static let hero = dynamic(light: 0x6F1C27, dark: 0x3E1219)
-    static let heroDeep = dynamic(light: 0x4E111A, dark: 0x2A0B10)
-    static let gold = Color(hex: 0xD8B15E)
-
-    private static func dynamic(light: UInt32, dark: UInt32) -> Color {
-        Color(uiColor: dynamicUIColor(light: light, dark: dark))
-    }
-
-    static func dynamicUIColor(light: UInt32, dark: UInt32) -> UIColor {
-        UIColor { $0.userInterfaceStyle == .dark ? UIColor(hex: dark) : UIColor(hex: light) }
-    }
+/// Where a tap leads.
+enum Route: Hashable {
+    case period(UUID)
+    case song(UUID)
+    case search
+    case recents
 }
 
-/// Cormorant Garamond for titles, Manrope for everything else. Both follow the text size of the phone.
-enum Typo {
-    static func title(_ size: CGFloat, relativeTo style: Font.TextStyle = .title) -> Font {
-        .custom("CormorantGaramond-Bold", size: size, relativeTo: style)
+/// The four tabs and the screens opened in each one.
+@MainActor
+@Observable
+final class Router {
+    enum Tab: Hashable { case home, library, favorites, profile }
+
+    var tab: Tab = .home
+    var home: [Route] = []
+    var library: [Route] = []
+    var favorites: [Route] = []
+    var profile: [Route] = []
+
+    /// The bottom bar shows only on the first screen of a tab.
+    var atRoot: Bool {
+        switch tab {
+        case .home: home.isEmpty
+        case .library: library.isEmpty
+        case .favorites: favorites.isEmpty
+        case .profile: profile.isEmpty
+        }
     }
 
-    static func titleSemi(_ size: CGFloat, relativeTo style: Font.TextStyle = .title2) -> Font {
-        .custom("CormorantGaramond-SemiBold", size: size, relativeTo: style)
+    func open(_ route: Route) {
+        switch tab {
+        case .home: home.append(route)
+        case .library: library.append(route)
+        case .favorites: favorites.append(route)
+        case .profile: profile.append(route)
+        }
     }
 
-    static func body(_ size: CGFloat, _ weight: Weight = .regular, relativeTo style: Font.TextStyle = .body) -> Font {
-        .custom(weight.fontName, size: size, relativeTo: style)
-    }
-
-    enum Weight {
-        case regular, medium, semibold, bold
-
-        var fontName: String {
-            switch self {
-            case .regular: "Manrope-Regular"
-            case .medium: "Manrope-Medium"
-            case .semibold: "Manrope-SemiBold"
-            case .bold: "Manrope-Bold"
-            }
+    func popToRoot(_ tab: Tab) {
+        switch tab {
+        case .home: home = []
+        case .library: library = []
+        case .favorites: favorites = []
+        case .profile: profile = []
         }
     }
 }
 
-enum Theme {
-    @MainActor
-    static func styleNavigationBars() {
-        let ink = Palette.dynamicUIColor(light: 0x231A16, dark: 0xF3EDE6)
-        let standard = UINavigationBarAppearance()
-        standard.configureWithDefaultBackground()
-        let edge = UINavigationBarAppearance()
-        edge.configureWithTransparentBackground()
-        for appearance in [standard, edge] {
-            if let font = UIFont(name: "Manrope-SemiBold", size: 17) {
-                appearance.titleTextAttributes = [.font: font, .foregroundColor: ink]
+struct RootView: View {
+    @State private var router = Router()
+
+    var body: some View {
+        @Bindable var router = router
+        ZStack(alignment: .bottom) {
+            TabView(selection: $router.tab) {
+                NavigationStack(path: $router.home) { HomeView().routes() }
+                    .toolbar(.hidden, for: .tabBar)
+                    .tag(Router.Tab.home)
+                NavigationStack(path: $router.library) { LibraryView().routes() }
+                    .toolbar(.hidden, for: .tabBar)
+                    .tag(Router.Tab.library)
+                NavigationStack(path: $router.favorites) { FavoritesView().routes() }
+                    .toolbar(.hidden, for: .tabBar)
+                    .tag(Router.Tab.favorites)
+                NavigationStack(path: $router.profile) { ProfileView().routes() }
+                    .toolbar(.hidden, for: .tabBar)
+                    .tag(Router.Tab.profile)
             }
-            if let font = UIFont(name: "CormorantGaramond-Bold", size: 36) {
-                appearance.largeTitleTextAttributes = [.font: font, .foregroundColor: ink]
+            if router.atRoot {
+                TabBar(selection: $router.tab) { router.popToRoot($0) }
+                    .transition(.move(edge: .bottom).combined(with: .opacity))
             }
         }
-        UINavigationBar.appearance().standardAppearance = standard
-        UINavigationBar.appearance().compactAppearance = standard
-        UINavigationBar.appearance().scrollEdgeAppearance = edge
+        .animation(.easeOut(duration: 0.2), value: router.atRoot)
+        .ignoresSafeArea(.keyboard)
+        .environment(router)
     }
 }
 
-extension UIColor {
-    convenience init(hex: UInt32) {
-        self.init(red: CGFloat((hex >> 16) & 0xFF) / 255,
-                  green: CGFloat((hex >> 8) & 0xFF) / 255,
-                  blue: CGFloat(hex & 0xFF) / 255,
-                  alpha: 1)
+extension View {
+    /// The screens every tab can open.
+    func routes() -> some View {
+        navigationDestination(for: Route.self) { route in
+            switch route {
+            case .period(let id): PeriodView(periodID: id)
+            case .song(let id): SongView(songID: id)
+            case .search: SearchView()
+            case .recents: RecentsView()
+            }
+        }
+    }
+
+    /// Leaves room for the bottom bar on the first screen of a tab.
+    func tabBarRoom() -> some View {
+        safeAreaInset(edge: .bottom, spacing: 0) { Color.clear.frame(height: TabBar.height) }
     }
 }
 
-extension Color {
-    init(hex: UInt32) { self.init(uiColor: UIColor(hex: hex)) }
+/// White bar, four black icons, no labels.
+struct TabBar: View {
+    static let height: CGFloat = 66
+    @Binding var selection: Router.Tab
+    let reselect: (Router.Tab) -> Void
+
+    var body: some View {
+        HStack(spacing: 0) {
+            item(.home, "house.fill", "Accueil")
+            item(.library, "square.stack.fill", "Bibliothèque")
+            item(.favorites, "bookmark.fill", "Favoris")
+            item(.profile, "person.fill", "Profil")
+        }
+        .padding(.horizontal, 18)
+        .frame(height: Self.height)
+        .frame(maxWidth: .infinity)
+        .background(Color.white.shadow(.drop(color: .black.opacity(0.06), radius: 14, x: 0, y: -2)))
+    }
+
+    private func item(_ tab: Router.Tab, _ icon: String, _ label: String) -> some View {
+        Button {
+            if selection == tab { reselect(tab) } else { selection = tab }
+        } label: {
+            Image(systemName: icon)
+                .font(.system(size: 22, weight: .bold))
+                .foregroundStyle(selection == tab ? Palette.iconOn : Palette.iconOff)
+                .frame(maxWidth: .infinity, minHeight: Self.height)
+                .contentShape(Rectangle())
+        }
+        .buttonStyle(.plain)
+        .accessibilityLabel(label)
+        .accessibilityAddTraits(selection == tab ? .isSelected : [])
+    }
+}
+
+/// Our screens draw their own top bar; this keeps the swipe from the left edge to go back.
+extension UINavigationController: @retroactive UIGestureRecognizerDelegate {
+    override open func viewDidLoad() {
+        super.viewDidLoad()
+        interactivePopGestureRecognizer?.delegate = self
+    }
+
+    public func gestureRecognizerShouldBegin(_ gestureRecognizer: UIGestureRecognizer) -> Bool {
+        viewControllers.count > 1
+    }
 }

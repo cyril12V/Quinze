@@ -1,131 +1,12 @@
 import SwiftUI
 import PhotosUI
 
-/// « Gérer » : the same list, but everything can be renamed, moved, added or removed.
-struct ManageView: View {
-    @Environment(Library.self) private var library
-    @Environment(\.dismiss) private var dismiss
-    @State private var newName = ""
-    @State private var askName = false
-
-    var body: some View {
-        NavigationStack {
-            List {
-                Section {
-                    ForEach(library.periods) { period in
-                        NavigationLink(value: period.id) {
-                            HStack {
-                                Text(period.name).font(Typo.titleSemi(21)).foregroundStyle(Palette.ink)
-                                Spacer()
-                                Text("\(period.songs.count)").foregroundStyle(.secondary)
-                            }
-                        }
-                    }
-                    .onMove { library.movePeriods(from: $0, to: $1) }
-                    .onDelete { library.deletePeriods(at: $0) }
-                } header: {
-                    Text("Périodes")
-                } footer: {
-                    Text("Appui long puis glisse pour changer l'ordre. Glisse vers la gauche pour supprimer.")
-                }
-                Button {
-                    newName = ""
-                    askName = true
-                } label: {
-                    Label("Nouvelle période", systemImage: "plus.circle.fill")
-                }
-            }
-            .scrollContentBackground(.hidden)
-            .background(Palette.background.ignoresSafeArea())
-            .navigationTitle("Gérer")
-            .navigationBarTitleDisplayMode(.inline)
-            .toolbar {
-                ToolbarItem(placement: .topBarLeading) { EditButton() }
-                ToolbarItem(placement: .topBarTrailing) { Button("OK") { dismiss() }.bold() }
-            }
-            .navigationDestination(for: UUID.self) { ManagePeriodView(periodID: $0) }
-            .alert("Nouvelle période", isPresented: $askName) {
-                TextField("Nom (ex. Kiahk)", text: $newName)
-                Button("Ajouter") { library.addPeriod(named: newName) }
-                Button("Annuler", role: .cancel) {}
-            }
-        }
-    }
-}
-
-struct ManagePeriodView: View {
-    @Environment(Library.self) private var library
-    let periodID: UUID
-    @State private var name = ""
-    @State private var newTitle = ""
-    @State private var askTitle = false
-    @State private var edited: SongRef?
-
-    var body: some View {
-        let songs = library.period(periodID)?.songs ?? []
-        List {
-            Section("Nom de la période") {
-                TextField("Nom", text: $name)
-                    .onSubmit { library.renamePeriod(periodID, to: name) }
-                    .onChange(of: name) { _, value in library.renamePeriod(periodID, to: value) }
-            }
-            Section {
-                ForEach(songs) { song in
-                    Button { edited = SongRef(id: song.id) } label: {
-                        HStack {
-                            VStack(alignment: .leading, spacing: 2) {
-                                Text(song.title).font(Typo.body(16, .medium)).foregroundStyle(Palette.ink)
-                                Text(summary(song)).font(Typo.body(12)).foregroundStyle(Palette.muted)
-                            }
-                            Spacer()
-                            Image(systemName: "pencil").foregroundStyle(.secondary)
-                        }
-                    }
-                }
-                .onMove { library.moveSongs(from: $0, to: $1, in: periodID) }
-                .onDelete { library.deleteSongs(at: $0, in: periodID) }
-            } header: {
-                Text("Chants")
-            } footer: {
-                Text("Touche un chant pour changer son nom, sa feuille ou sa période.")
-            }
-            Button {
-                newTitle = ""
-                askTitle = true
-            } label: {
-                Label("Nouveau chant", systemImage: "plus.circle.fill")
-            }
-        }
-        .scrollContentBackground(.hidden)
-        .background(Palette.background.ignoresSafeArea())
-        .navigationTitle(library.period(periodID)?.name ?? "")
-        .navigationBarTitleDisplayMode(.inline)
-        .toolbar { EditButton() }
-        .onAppear { name = library.period(periodID)?.name ?? "" }
-        .alert("Nouveau chant", isPresented: $askTitle) {
-            TextField("Nom du chant", text: $newTitle)
-            Button("Ajouter") {
-                if let id = library.addSong(titled: newTitle, to: periodID) { edited = SongRef(id: id) }
-            }
-            Button("Annuler", role: .cancel) {}
-        }
-        .sheet(item: $edited) { SongEditor(songID: $0.id) }
-    }
-
-    private func summary(_ song: Song) -> String {
-        var parts: [String] = []
-        if !song.section.isEmpty { parts.append(song.section) }
-        if !song.images.isEmpty { parts.append(song.images.count == 1 ? "1 feuille" : "\(song.images.count) feuilles") }
-        if !song.text.isEmpty { parts.append("texte") }
-        return parts.isEmpty ? "Pas encore de feuille" : parts.joined(separator: " · ")
-    }
-}
-
 struct SongRef: Identifiable {
     let id: UUID
 }
 
-/// Editing one chant: name, period, kind, sheets, words. Every change is saved at once.
+/// Everything about one chant: name, period and part, the sheets (add many, reorder, remove), the words.
+/// Every change is saved at once.
 struct SongEditor: View {
     @Environment(Library.self) private var library
     @Environment(\.dismiss) private var dismiss
@@ -135,6 +16,7 @@ struct SongEditor: View {
     @State private var loaded = false
     @State private var picked: [PhotosPickerItem] = []
     @State private var importing = false
+    @State private var scanning = false
 
     var body: some View {
         NavigationStack {
@@ -155,6 +37,8 @@ struct SongEditor: View {
                                 ForEach(names, id: \.self) { name in Button(name) { draft.section = name } }
                             } label: {
                                 Image(systemName: "list.bullet")
+                                    .font(.system(size: 16, weight: .bold))
+                                    .foregroundStyle(Palette.iconOn)
                             }
                             .accessibilityLabel("Choisir une partie existante")
                         }
@@ -162,16 +46,21 @@ struct SongEditor: View {
                 } header: {
                     Text("Rangement")
                 } footer: {
-                    Text("La partie regroupe les chants dans la période (Messe, Tasbeha, Franco…). L'ordre se change dans la liste de la période.")
+                    Text("Un chant changé de période va à la fin de cette période.")
                 }
                 Section {
-                    ForEach(draft.images, id: \.self) { name in
-                        if let image = UIImage(contentsOfFile: Library.imageURL(name).path) {
-                            Image(uiImage: image)
-                                .resizable()
-                                .scaledToFit()
-                                .frame(maxHeight: 180)
-                                .frame(maxWidth: .infinity)
+                    ForEach(Array(draft.images.enumerated()), id: \.element) { index, name in
+                        HStack(spacing: 14) {
+                            if let image = Images.image(name, maxPixel: 240) {
+                                Image(uiImage: image)
+                                    .resizable()
+                                    .scaledToFill()
+                                    .frame(width: 56, height: 72, alignment: .top)
+                                    .clipShape(RoundedRectangle(cornerRadius: 8, style: .continuous))
+                            }
+                            Text("Feuille \(index + 1)")
+                                .font(.system(size: 15, weight: .semibold))
+                                .foregroundStyle(Palette.ink)
                         }
                     }
                     .onMove { draft.images.move(fromOffsets: $0, toOffset: $1) }
@@ -179,14 +68,22 @@ struct SongEditor: View {
                         for i in offsets { library.removeImageFile(draft.images[i]) }
                         draft.images.remove(atOffsets: offsets)
                     }
-                    PhotosPicker(selection: $picked, matching: .images) {
-                        Label(importing ? "Ajout en cours…" : "Ajouter des feuilles (photos)", systemImage: "photo.badge.plus")
+                    PhotosPicker(selection: $picked, maxSelectionCount: 30, selectionBehavior: .ordered, matching: .images) {
+                        Label(importing ? "Ajout en cours…" : "Ajouter des photos (plusieurs d'un coup)",
+                              systemImage: "photo.on.rectangle")
+                            .foregroundStyle(Palette.ink)
                     }
                     .disabled(importing)
+                    if DocumentScanner.isAvailable {
+                        Button { scanning = true } label: {
+                            Label("Scanner des feuilles", systemImage: "doc.viewfinder")
+                                .foregroundStyle(Palette.ink)
+                        }
+                    }
                 } header: {
                     Text("Feuilles de hazzat")
                 } footer: {
-                    Text("Les photos sont copiées dans l'app : elles restent même sans internet. Glisse vers la gauche pour en retirer une.")
+                    Text("Elles s'affichent dans cet ordre et défilent de gauche à droite. « Modifier » en haut pour changer l'ordre ; glisse vers la gauche pour en retirer une.")
                 }
                 Section("Paroles (franco)") {
                     TextEditor(text: $draft.text)
@@ -194,14 +91,24 @@ struct SongEditor: View {
                         .autocorrectionDisabled()
                         .textInputAutocapitalization(.never)
                 }
+                Section {
+                    Toggle("Dans mes favoris", isOn: $draft.favorite)
+                        .tint(Palette.accent)
+                }
             }
             .scrollContentBackground(.hidden)
-            .background(Palette.background.ignoresSafeArea())
+            .background(Palette.background)
             .navigationTitle("Modifier le chant")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) { EditButton() }
-                ToolbarItem(placement: .topBarTrailing) { Button("OK") { dismiss() }.bold() }
+                ToolbarItem(placement: .topBarLeading) {
+                    EditButton().foregroundStyle(Palette.ink)
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("OK") { dismiss() }
+                        .font(.system(size: 16, weight: .bold))
+                        .foregroundStyle(Palette.accent)
+                }
             }
             .onAppear {
                 guard !loaded, let song = library.song(songID), let pid = library.periodID(ofSong: songID) else { return }
@@ -224,6 +131,13 @@ struct SongEditor: View {
                     picked = []
                     importing = false
                 }
+            }
+            .fullScreenCover(isPresented: $scanning) {
+                DocumentScanner { images in
+                    scanning = false
+                    draft.images += images.compactMap { library.storeImage($0) }
+                }
+                .ignoresSafeArea()
             }
         }
     }

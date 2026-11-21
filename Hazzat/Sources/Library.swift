@@ -39,6 +39,8 @@ struct Period: Identifiable, Codable, Hashable, Sendable {
     var id = UUID()
     var name: String
     var songs: [Song] = []
+    /// Periods with the same group are shown together under one card (« Messe »); empty for none.
+    var group = ""
 
     init(name: String) { self.name = name }
 
@@ -47,6 +49,7 @@ struct Period: Identifiable, Codable, Hashable, Sendable {
         id = try c.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
         name = try c.decodeIfPresent(String.self, forKey: .name) ?? "Sans nom"
         songs = try c.decodeIfPresent([Song].self, forKey: .songs) ?? []
+        group = try c.decodeIfPresent(String.self, forKey: .group) ?? ""
     }
 
     /// The chants cut into consecutive parts of the same section, in the order of the list.
@@ -100,8 +103,9 @@ final class Library {
 
     static func imageURL(_ name: String) -> URL { imagesFolder.appendingPathComponent(name) }
 
-    /// Version of the bundled list (seed.json). 2 = chants in the order of the services.
-    static let seedVersion = 2
+    /// Version of the bundled list (seed.json). 2 = chants in the order of the services;
+    /// 3 = precise parts, Messe and Franco categories, periods in the order of the Coptic year.
+    static let seedVersion = 3
     private static let seedVersionKey = "seedVersion"
 
     init() {
@@ -115,7 +119,7 @@ final class Library {
                     // Keep a copy of the library as it was, then put the chants in their new order.
                     let backup = Self.folder.appendingPathComponent("hazzat-avant-v\(Self.seedVersion).json")
                     if !FileManager.default.fileExists(atPath: backup.path) { try? data.write(to: backup, options: .atomic) }
-                    periods = Self.reordered(saved, by: seed)
+                    periods = Self.migrated(saved, by: seed)
                     UserDefaults.standard.set(Self.seedVersion, forKey: Self.seedVersionKey)
                     save()
                 }
@@ -128,6 +132,7 @@ final class Library {
         // First launch: the list of chants, by period, with no sheet yet.
         periods = seed.map { seedPeriod in
             var period = Period(name: seedPeriod.name)
+            period.group = seedPeriod.group ?? ""
             period.songs = seedPeriod.songs.map { Song(title: $0.title, section: $0.section ?? "") }
             return period
         }
@@ -137,9 +142,10 @@ final class Library {
 
     // MARK: Bundled list
 
-    /// Where a chant of the bundled list was in the previous list: its part, its name, and which one it was
-    /// among chants of the same part and name.
+    /// Where a chant of the bundled list was in the previous list: its period, its part, its name, and which
+    /// one it was among chants of the same part and name.
     struct SeedOrigin: Decodable, Hashable {
+        var period: String?
         var section: String
         var title: String
         var n: Int
@@ -153,6 +159,9 @@ final class Library {
 
     struct SeedPeriod: Decodable {
         var name: String
+        var group: String?
+        /// Former names of this period (« Messe » became « Messe de saint Basile »).
+        var was: [String]?
         var songs: [SeedSong]
     }
 
@@ -163,61 +172,88 @@ final class Library {
         return seed
     }
 
-    /// Puts the chants of a saved library in the order of the bundled list, without losing anything: sheets,
-    /// words and ids stay with their chant. A chant the user added or renamed is not in the list; it stays
-    /// right after the chant it followed. A period the user renamed is left as it is.
-    static func reordered(_ saved: [Period], by seed: [SeedPeriod]) -> [Period] {
-        saved.map { period in
-            guard let seedPeriod = seed.first(where: { $0.name == period.name }) else { return period }
-            let songs = period.songs
-            var indexByOrigin: [SeedOrigin: Int] = [:]
+    /// Puts a saved library in the shape of the bundled list without losing anything. Each chant keeps its
+    /// id, sheets, words and favourite, and goes to its new period, part and place. A chant the user deleted
+    /// stays deleted. A chant the user added or renamed is not in the list: it stays right after the chant it
+    /// followed. A period the user created or renamed is kept, after the others.
+    static func migrated(_ saved: [Period], by seed: [SeedPeriod]) -> [Period] {
+        guard !seed.isEmpty else { return saved }
+        struct Place { let period: Int; let song: Int }
+        var index: [SeedOrigin: Place] = [:]
+        for (p, period) in saved.enumerated() {
             var seen: [String: Int] = [:]
-            for (i, song) in songs.enumerated() {
+            for (i, song) in period.songs.enumerated() {
                 let pair = song.section + "\u{1F}" + song.title
                 let n = seen[pair, default: 0]
                 seen[pair] = n + 1
-                indexByOrigin[SeedOrigin(section: song.section, title: song.title, n: n)] = i
+                index[SeedOrigin(period: period.name, section: song.section, title: song.title, n: n)] = Place(period: p, song: i)
             }
-            // Chants found in the list, in the new order, with their new name and part.
-            var placed: [Int] = []
-            var renamed: [Int: (title: String, section: String)] = [:]
-            for seedSong in seedPeriod.songs {
-                guard let origin = seedSong.from, let i = indexByOrigin[origin], renamed[i] == nil else { continue }
-                placed.append(i)
-                renamed[i] = (seedSong.title, seedSong.section ?? "")
-            }
-            guard !placed.isEmpty else { return period }
-            // Every other chant follows the last found chant that came before it.
-            var following: [Int: [Int]] = [:]
-            var head: [Int] = []
-            var anchor: Int?
-            for i in songs.indices {
-                if renamed[i] != nil { anchor = i; continue }
-                if let anchor { following[anchor, default: []].append(i) } else { head.append(i) }
-            }
-            var result: [Song] = []
-            func appendOwn(_ i: Int, after anchorIndex: Int?) {
-                var song = songs[i]
-                // A chant added inside a part moves with it into the part's new name.
-                if let a = anchorIndex, song.section == songs[a].section, let new = renamed[a] { song.section = new.section }
-                result.append(song)
-            }
-            for i in head { appendOwn(i, after: nil) }
-            for i in placed {
-                var song = songs[i]
-                if let new = renamed[i] { song.title = new.title; song.section = new.section }
-                result.append(song)
-                for j in following[i] ?? [] { appendOwn(j, after: i) }
-            }
-            var out = period
-            out.songs = result
-            return out
         }
-    }
 
-    private func save() {
-        guard let data = try? JSONEncoder().encode(periods) else { return }
-        try? data.write(to: Self.dataURL, options: .atomic)
+        var claimed: [UUID: String] = [:]          // id of a placed chant → its new part
+        var usedPeriods = Set<UUID>()
+        var result: [Period] = []
+        for seedPeriod in seed {
+            let names = [seedPeriod.name] + (seedPeriod.was ?? [])
+            let base = names.lazy.compactMap { name in saved.first { $0.name == name && !usedPeriods.contains($0.id) } }.first
+            var period = base ?? Period(name: seedPeriod.name)
+            period.name = seedPeriod.name
+            period.group = seedPeriod.group ?? ""
+            var songs: [Song] = []
+            var claimedHere = 0
+            for seedSong in seedPeriod.songs {
+                if let origin = seedSong.from {
+                    guard let place = index[origin] else { continue }
+                    var song = saved[place.period].songs[place.song]
+                    guard claimed[song.id] == nil else { continue }
+                    song.title = seedSong.title
+                    song.section = seedSong.section ?? ""
+                    claimed[song.id] = song.section
+                    songs.append(song)
+                    claimedHere += 1
+                } else {
+                    songs.append(Song(title: seedSong.title, section: seedSong.section ?? ""))
+                }
+            }
+            let allNew = seedPeriod.songs.allSatisfy { $0.from == nil }
+            guard base != nil || claimedHere > 0 || allNew else { continue }
+            if let base { usedPeriods.insert(base.id) }
+            period.songs = songs
+            result.append(period)
+        }
+
+        // Chants the list does not know follow the chant they came after (or open their period).
+        var following: [UUID: [Song]] = [:]
+        var heads: [UUID: [Song]] = [:]
+        for period in saved {
+            var anchor: Song?
+            for song in period.songs {
+                if claimed[song.id] != nil { anchor = song; continue }
+                var moved = song
+                if let anchor {
+                    if moved.section == anchor.section, let section = claimed[anchor.id] { moved.section = section }
+                    following[anchor.id, default: []].append(moved)
+                } else {
+                    heads[period.id, default: []].append(moved)
+                }
+            }
+        }
+        for p in result.indices {
+            var songs = heads.removeValue(forKey: result[p].id) ?? []
+            for song in result[p].songs {
+                songs.append(song)
+                songs += following.removeValue(forKey: song.id) ?? []
+            }
+            result[p].songs = songs
+        }
+        // Periods the list does not know (created or renamed by the user), with what is left in them.
+        for period in saved where !usedPeriods.contains(period.id) {
+            var kept = period
+            kept.songs = heads.removeValue(forKey: period.id) ?? []
+            if !period.songs.contains(where: { claimed[$0.id] != nil }) { kept.songs = period.songs }
+            result.append(kept)
+        }
+        return result
     }
 
     // MARK: Periods
@@ -246,6 +282,103 @@ final class Library {
 
     func movePeriods(from source: IndexSet, to destination: Int) {
         periods.move(fromOffsets: source, toOffset: destination)
+        save()
+    }
+
+    // MARK: Shelf (periods and groups, as shown in the library)
+
+    /// A period on its own, or a group of periods shown under one card (« Messe »).
+    enum Shelf: Identifiable {
+        case period(Period)
+        case group(String, [Period])
+
+        var id: String {
+            switch self {
+            case .period(let period): period.id.uuidString
+            case .group(let name, _): "group-" + name
+            }
+        }
+
+        var name: String {
+            switch self {
+            case .period(let period): period.name
+            case .group(let name, _): name
+            }
+        }
+
+        var periods: [Period] {
+            switch self {
+            case .period(let period): [period]
+            case .group(_, let members): members
+            }
+        }
+    }
+
+    /// The library as shown: each group at the place of its first period.
+    var shelf: [Shelf] {
+        var seen = Set<String>()
+        var out: [Shelf] = []
+        for period in periods {
+            if period.group.isEmpty {
+                out.append(.period(period))
+            } else if !seen.contains(period.group) {
+                seen.insert(period.group)
+                out.append(.group(period.group, periods.filter { $0.group == period.group }))
+            }
+        }
+        return out
+    }
+
+    var groupNames: [String] {
+        var seen: [String] = []
+        for period in periods where !period.group.isEmpty && !seen.contains(period.group) { seen.append(period.group) }
+        return seen
+    }
+
+    func members(of group: String) -> [Period] { periods.filter { $0.group == group } }
+
+    /// Reorders the cards of the library; a group moves with all its periods.
+    func moveShelf(from source: IndexSet, to destination: Int) {
+        var items = shelf
+        items.move(fromOffsets: source, toOffset: destination)
+        periods = items.flatMap(\.periods)
+        save()
+    }
+
+    /// Reorders the periods inside a group.
+    func moveInGroup(_ group: String, from source: IndexSet, to destination: Int) {
+        let slots = periods.indices.filter { periods[$0].group == group }
+        var members = slots.map { periods[$0] }
+        members.move(fromOffsets: source, toOffset: destination)
+        for (slot, period) in zip(slots, members) { periods[slot] = period }
+        save()
+    }
+
+    /// Puts a period in a group (next to the other periods of that group), or takes it out ("").
+    func setGroup(of periodID: UUID, to group: String) {
+        let clean = group.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard let i = periods.firstIndex(where: { $0.id == periodID }) else { return }
+        var period = periods.remove(at: i)
+        period.group = clean
+        if !clean.isEmpty, let last = periods.lastIndex(where: { $0.group == clean }) {
+            periods.insert(period, at: last + 1)
+        } else {
+            periods.insert(period, at: min(i, periods.count))
+        }
+        save()
+    }
+
+    /// A new period inside a group, after its other periods.
+    func addPeriod(named name: String, inGroup group: String) {
+        let clean = name.trimmingCharacters(in: .whitespacesAndNewlines)
+        guard !clean.isEmpty else { return }
+        var period = Period(name: clean)
+        period.group = group
+        if let last = periods.lastIndex(where: { $0.group == group }) {
+            periods.insert(period, at: last + 1)
+        } else {
+            periods.append(period)
+        }
         save()
     }
 

@@ -84,8 +84,8 @@ struct SongView: View {
     private func content(_ entry: Library.Entry) -> some View {
         let song = entry.song
         let mode = choice ?? (song.images.isEmpty && !song.text.isEmpty ? .lyrics : .sheets)
-        let previous = library.neighbor(of: song.id, step: -1)
-        let next = library.neighbor(of: song.id, step: 1)
+        let previous = library.neighbor(of: song.id, step: -1).flatMap { library.song($0) }
+        let next = library.neighbor(of: song.id, step: 1).flatMap { library.song($0) }
         return VStack(spacing: 0) {
             TopBar(caption: entry.place)
             ScrollView {
@@ -97,14 +97,12 @@ struct SongView: View {
                     }
                     if mode == .sheets {
                         if song.images.isEmpty {
-                            emptySheets(entry)
+                            addTile
                         } else {
                             SheetCarousel(images: song.images, page: $page) { viewer = ViewerStart(page: page) }
+                            PageDots(page: page, count: song.images.count)
                         }
-                        titleRow(entry).padding(.top, 20)
-                        if !song.images.isEmpty {
-                            PageBar(page: page, count: song.images.count).padding(.top, 18)
-                        }
+                        titleRow(entry).padding(.top, 16)
                     } else {
                         titleRow(entry).padding(.top, 8)
                         Text(song.text)
@@ -116,15 +114,12 @@ struct SongView: View {
                             .padding(.horizontal, 24)
                             .padding(.top, 22)
                     }
-                    controls(previous: previous, next: next, song: song, mode: mode)
-                        .padding(.top, 16)
+                    NeighborBar(previous: previous, next: next) { go(to: $0) }
+                        .padding(.top, 26)
                 }
                 .padding(.bottom, 28)
             }
             .scrollIndicators(.hidden)
-            NextStrip(entry: entry, next: next.flatMap { library.song($0) }) {
-                if let next { go(to: next) }
-            }
         }
         .overlay(alignment: .bottom) {
             if importing {
@@ -136,42 +131,34 @@ struct SongView: View {
                 .padding(.vertical, 10)
                 .background(Color.white, in: Capsule())
                 .softShadow()
-                .padding(.bottom, 70)
+                .padding(.bottom, 30)
             }
         }
     }
 
-    private func emptySheets(_ entry: Library.Entry) -> some View {
-        VStack(spacing: 16) {
+    /// No sheet yet: a big « + » where the sheet will be.
+    private var addTile: some View {
+        Menu {
+            Button { picking = true } label: { Label("Choisir des photos", systemImage: "photo.on.rectangle") }
+            if DocumentScanner.isAvailable {
+                Button { scanning = true } label: { Label("Scanner des feuilles", systemImage: "doc.viewfinder") }
+            }
+        } label: {
             ZStack {
-                Palette.cover(for: entry.period.name)
-                VStack(spacing: 10) {
-                    Text(entry.song.title.uppercased())
-                        .font(.system(size: 22, weight: .semibold))
-                        .tracking(4)
-                        .multilineTextAlignment(.center)
-                        .lineLimit(4)
-                        .minimumScaleFactor(0.6)
-                    Text(entry.period.name.uppercased())
-                        .font(.system(size: 12, weight: .bold))
-                        .tracking(3)
-                        .opacity(0.7)
-                }
-                .foregroundStyle(.white)
-                .padding(30)
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .fill(Color.white)
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .strokeBorder(Palette.iconOff.opacity(0.7), style: StrokeStyle(lineWidth: 1.5, dash: [7, 6]))
+                Image(systemName: "plus")
+                    .font(.system(size: 56, weight: .bold))
+                    .foregroundStyle(Palette.iconOn)
             }
-            .aspectRatio(1, contentMode: .fit)
-            .clipShape(RoundedRectangle(cornerRadius: 16, style: .continuous))
-            .softShadow()
-            .padding(.horizontal, 24)
-            .padding(.top, 8)
-            HStack(spacing: 10) {
-                SmallButton("Ajouter des photos") { picking = true }
-                if DocumentScanner.isAvailable {
-                    SmallButton("Scanner") { scanning = true }
-                }
-            }
+            .aspectRatio(0.8, contentMode: .fit)
         }
+        .padding(.horizontal, 24)
+        .padding(.top, 6)
+        .padding(.bottom, 10)
+        .accessibilityLabel("Ajouter la feuille")
     }
 
     private func titleRow(_ entry: Library.Entry) -> some View {
@@ -212,42 +199,6 @@ struct SongView: View {
         }
         .padding(.leading, 24)
         .padding(.trailing, 12)
-    }
-
-    private func controls(previous: UUID?, next: UUID?, song: Song, mode: Mode) -> some View {
-        HStack {
-            Button { if let previous { go(to: previous) } } label: {
-                Image(systemName: "backward.end.fill")
-                    .font(.system(size: 26, weight: .bold))
-                    .foregroundStyle(previous == nil ? Palette.track : Color(hex: 0x8A8A8A))
-                    .frame(width: 56, height: 56)
-            }
-            .plainButton()
-            .disabled(previous == nil)
-            .accessibilityLabel("Chant précédent")
-            Spacer()
-            Button {
-                if song.images.isEmpty { picking = true } else { viewer = ViewerStart(page: mode == .sheets ? page : 0) }
-            } label: {
-                Image(systemName: song.images.isEmpty ? "plus" : "arrow.up.left.and.arrow.down.right")
-                    .font(.system(size: 32, weight: .heavy))
-                    .foregroundStyle(Palette.iconOn)
-                    .frame(width: 70, height: 70)
-            }
-            .plainButton()
-            .accessibilityLabel(song.images.isEmpty ? "Ajouter des feuilles" : "Lire en plein écran")
-            Spacer()
-            Button { if let next { go(to: next) } } label: {
-                Image(systemName: "forward.end.fill")
-                    .font(.system(size: 26, weight: .bold))
-                    .foregroundStyle(next == nil ? Palette.track : Color(hex: 0x8A8A8A))
-                    .frame(width: 56, height: 56)
-            }
-            .plainButton()
-            .disabled(next == nil)
-            .accessibilityLabel("Chant suivant")
-        }
-        .padding(.horizontal, 44)
     }
 
     // MARK: Actions
@@ -370,88 +321,80 @@ struct SheetCard: View {
     }
 }
 
-/// Orange progress across the sheets, like the time bar of the reference.
-struct PageBar: View {
+/// Small marks under the sheets: which one is shown.
+struct PageDots: View {
     let page: Int
     let count: Int
 
     var body: some View {
-        VStack(spacing: 6) {
-            GeometryReader { geo in
-                let fraction = count <= 1 ? 1 : CGFloat(page) / CGFloat(count - 1)
-                let width = geo.size.width
-                ZStack(alignment: .leading) {
-                    Capsule().fill(Palette.track).frame(height: 3)
-                    Capsule().fill(Palette.accent).frame(width: max(3, width * fraction), height: 3)
-                    Circle()
-                        .fill(Palette.accent)
-                        .frame(width: 12, height: 12)
-                        .offset(x: min(max(0, width * fraction - 6), width - 12))
+        Group {
+            if count > 12 {
+                Text("\(page + 1) / \(count)")
+                    .font(.system(size: 12, weight: .semibold))
+                    .foregroundStyle(Palette.muted)
+            } else if count > 1 {
+                HStack(spacing: 6) {
+                    ForEach(0..<count, id: \.self) { index in
+                        Capsule()
+                            .fill(index == page ? Palette.accent : Palette.track)
+                            .frame(width: index == page ? 18 : 6, height: 6)
+                    }
                 }
-                .frame(height: 12)
             }
-            .frame(height: 12)
-            HStack {
-                Text("Feuille \(page + 1)")
-                Spacer()
-                Text("\(count)")
-            }
-            .font(.system(size: 10.5))
-            .foregroundStyle(Palette.muted)
         }
-        .padding(.horizontal, 24)
         .animation(.easeOut(duration: 0.2), value: page)
         .accessibilityElement(children: .ignore)
         .accessibilityLabel("Feuille \(page + 1) sur \(count)")
     }
 }
 
-/// The thin bar at the very bottom: the next chant, and where this one is in the period.
-struct NextStrip: View {
-    let entry: Library.Entry
+/// The chant before and the chant after, in the order of the period.
+struct NeighborBar: View {
+    let previous: Song?
     let next: Song?
-    let action: () -> Void
-
-    private var position: String {
-        let index = (entry.period.songs.firstIndex { $0.id == entry.song.id } ?? 0) + 1
-        return "\(index)/\(entry.period.songs.count)"
-    }
+    let go: (UUID) -> Void
 
     var body: some View {
-        Button(action: action) {
-            HStack(spacing: 10) {
-                Image(systemName: "chevron.up")
-                    .font(.system(size: 12, weight: .bold))
-                    .foregroundStyle(Palette.iconOn)
-                if let next {
-                    Text("Suivant · \(next.title)")
-                        .foregroundStyle(Palette.ink)
-                        .lineLimit(1)
-                } else {
-                    Text("Dernier chant de \(entry.period.name)")
-                        .foregroundStyle(Palette.muted)
-                        .lineLimit(1)
-                }
-                Spacer(minLength: 8)
-                Text(entry.period.name + ".")
-                    .foregroundStyle(Palette.muted)
-                    .lineLimit(1)
-                Text(position)
-                    .font(.system(size: 10, weight: .bold))
-                    .foregroundStyle(.white)
-                    .padding(.horizontal, 6)
-                    .padding(.vertical, 3)
-                    .background(Palette.accent, in: RoundedRectangle(cornerRadius: 3, style: .continuous))
+        VStack(spacing: 0) {
+            Rectangle().fill(Palette.line).frame(height: 1)
+            HStack(alignment: .top, spacing: 12) {
+                side(previous, label: "Précédent", leading: true)
+                side(next, label: "Suivant", leading: false)
             }
-            .font(.system(size: 12))
-            .padding(.horizontal, 24)
-            .frame(height: 50)
-            .frame(maxWidth: .infinity)
-            .background(Color.white.shadow(.drop(color: .black.opacity(0.06), radius: 12, x: 0, y: -2)))
+            .padding(.top, 14)
+        }
+        .padding(.horizontal, 24)
+    }
+
+    @ViewBuilder
+    private func side(_ song: Song?, label: String, leading: Bool) -> some View {
+        Button { if let song { go(song.id) } } label: {
+            HStack(spacing: 8) {
+                if leading { chevron("chevron.left", on: song != nil) }
+                VStack(alignment: leading ? .leading : .trailing, spacing: 2) {
+                    Text(label)
+                        .font(.system(size: 11))
+                        .foregroundStyle(Palette.muted)
+                    Text(song?.title ?? "—")
+                        .font(.system(size: 13.5, weight: .semibold))
+                        .foregroundStyle(song == nil ? Palette.iconOff : Palette.ink)
+                        .lineLimit(2)
+                        .multilineTextAlignment(leading ? .leading : .trailing)
+                }
+                if !leading { chevron("chevron.right", on: song != nil) }
+            }
+            .frame(maxWidth: .infinity, alignment: leading ? .leading : .trailing)
+            .contentShape(Rectangle())
         }
         .plainButton()
-        .disabled(next == nil)
-        .accessibilityLabel(next.map { "Chant suivant : \($0.title)" } ?? "Dernier chant de la période")
+        .disabled(song == nil)
+        .accessibilityLabel(song.map { "\(label) : \($0.title)" } ?? "Pas de chant \(label.lowercased())")
+    }
+
+    private func chevron(_ name: String, on: Bool) -> some View {
+        Image(systemName: name)
+            .font(.system(size: 15, weight: .bold))
+            .foregroundStyle(on ? Palette.iconOn : Palette.iconOff)
     }
 }
 

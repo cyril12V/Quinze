@@ -23,6 +23,19 @@ enum Palette {
     ]
     private static let spare: [UInt32] = [0x1F3A5F, 0x2F5D50, 0x7A5A2C, 0x4B4277, 0xB4533C, 0x2C5F7C, 0x6B2232, 0x3F5A3A]
 
+    /// Name of a category made simple: « Fête de la croix » → « fete-de-la-croix ».
+    static func key(_ name: String) -> String {
+        name.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: nil)
+            .trimmingCharacters(in: .whitespaces)
+            .map { $0.isLetter || $0.isNumber ? String($0) : "-" }
+            .joined()
+    }
+
+    /// The drawn cover of a category (Nahda: the Virgin, Rameaux: palms…), if there is one.
+    static func art(for name: String) -> UIImage? {
+        UIImage(named: "cover-" + key(name))
+    }
+
     static func cover(for name: String) -> Color {
         let key = name.folding(options: [.diacriticInsensitive, .caseInsensitive], locale: nil)
             .trimmingCharacters(in: .whitespaces)
@@ -91,6 +104,7 @@ struct Cover: View {
     enum Content {
         case song(Song, period: String)
         case period(Period)
+        case group(String)
     }
 
     let content: Content
@@ -108,18 +122,31 @@ struct Cover: View {
                         .scaledToFill()
                         .frame(width: size, height: size, alignment: .top)
                         .clipped()
+                } else if let art = Palette.art(for: period) {
+                    Image(uiImage: art).resizable().scaledToFill()
                 } else {
                     Palette.cover(for: period)
                     label(song.title, under: period)
                 }
             case .period(let period):
-                Palette.cover(for: period.name)
-                label(period.name, under: nil)
+                named(period.name)
+            case .group(let name):
+                named(name)
             }
         }
         .frame(width: size, height: size)
         .clipShape(RoundedRectangle(cornerRadius: radius, style: .continuous))
         .accessibilityHidden(true)
+    }
+
+    @ViewBuilder
+    private func named(_ name: String) -> some View {
+        if let art = Palette.art(for: name) {
+            Image(uiImage: art).resizable().scaledToFill()
+        } else {
+            Palette.cover(for: name)
+            label(name, under: nil)
+        }
     }
 
     @ViewBuilder

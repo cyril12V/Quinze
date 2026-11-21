@@ -1,51 +1,93 @@
-# Mirror of Library.reordered, run on the v1 seed (+ a chant the user added) to check the result.
-import json, sys
-v1 = json.load(open(sys.argv[1])); v2 = json.load(open(sys.argv[2]))
-def reordered(saved, seed):
-    out = []
+"""Mirror of Library.migrated: runs the v3 list on a v2 library (plus user changes) to check the result.
+usage: python3 -I sim_migration.py <seed v2 json> <seed v3 json>"""
+import json, sys, uuid, copy
+
+def as_library(seed):
+    return [{"id": str(uuid.uuid4()), "name": p["name"], "group": p.get("group", ""),
+             "songs": [{"id": str(uuid.uuid4()), "title": s["title"], "section": s.get("section", ""), "images": []}
+                       for s in p["songs"]]} for p in seed]
+
+def migrated(saved, seed):
+    index = {}
+    for pi, period in enumerate(saved):
+        seen = {}
+        for si, song in enumerate(period["songs"]):
+            pair = (song["section"], song["title"]); n = seen.get(pair, 0); seen[pair] = n + 1
+            index[(period["name"], song["section"], song["title"], n)] = (pi, si)
+    claimed, used, result = {}, set(), []
+    for sp in seed:
+        names = [sp["name"]] + sp.get("was", [])
+        base = next((p for nm in names for p in saved if p["name"] == nm and p["id"] not in used), None)
+        period = copy.deepcopy(base) if base else {"id": str(uuid.uuid4()), "name": sp["name"], "songs": []}
+        period["name"] = sp["name"]; period["group"] = sp.get("group", "")
+        songs, here = [], 0
+        for ss in sp["songs"]:
+            f = ss.get("from")
+            if f:
+                place = index.get((f["period"], f["section"], f["title"], f["n"]))
+                if place is None: continue
+                song = dict(saved[place[0]]["songs"][place[1]])
+                if song["id"] in claimed: continue
+                song["title"] = ss["title"]; song["section"] = ss.get("section", "")
+                claimed[song["id"]] = song["section"]; songs.append(song); here += 1
+            else:
+                songs.append({"id": str(uuid.uuid4()), "title": ss["title"], "section": ss.get("section", ""), "images": []})
+        all_new = all("from" not in s for s in sp["songs"])
+        if not (base or here or all_new): continue
+        if base: used.add(base["id"])
+        period["songs"] = songs; result.append(period)
+    following, heads = {}, {}
     for period in saved:
-        sp = next((p for p in seed if p['name'] == period['name']), None)
-        if sp is None: out.append(period); continue
-        songs = period['songs']; idx = {}; seen = {}
-        for i, s in enumerate(songs):
-            pair = (s.get('section',''), s['title']); n = seen.get(pair, 0); seen[pair] = n + 1
-            idx[(pair[0], pair[1], n)] = i
-        placed, renamed = [], {}
-        for ss in sp['songs']:
-            f = ss.get('from'); 
-            if not f: continue
-            i = idx.get((f['section'], f['title'], f['n']))
-            if i is None or i in renamed: continue
-            placed.append(i); renamed[i] = (ss['title'], ss.get('section',''))
-        if not placed: out.append(period); continue
-        following, head, anchor = {}, [], None
-        for i in range(len(songs)):
-            if i in renamed: anchor = i; continue
-            (following.setdefault(anchor, []) if anchor is not None else head).append(i)
-        res = []
-        def own(i, a):
-            s = dict(songs[i])
-            if a is not None and s.get('section','') == songs[a].get('section','') and a in renamed: s['section'] = renamed[a][1]
-            res.append(s)
-        for i in head: own(i, None)
-        for i in placed:
-            s = dict(songs[i]); s['title'], s['section'] = renamed[i]; res.append(s)
-            for j in following.get(i, []): own(j, i)
-        out.append({**period, 'songs': res})
-    return out
-# 1) plain v1 → must equal v2 exactly
-r = reordered(v1, v2)
-for a, b in zip(r, v2):
-    assert [(s['title'], s['section']) for s in a['songs']] == [(s['title'], s['section']) for s in b['songs']], a['name']
-print("v1 → v2 : identique à la nouvelle liste ✓")
-# 2) user added a chant after « Doxologie 6 » (Messe part) and attached a photo to Hiten
-k = next(p for p in v1 if p['name'] == 'Kiahk')
-i = next(i for i, s in enumerate(k['songs']) if s['title'] == 'Doxologie 6')
-k['songs'].insert(i + 1, {'title': 'Doxologie de Mar Girgis', 'section': 'Messe', 'id': 'NEW'})
-next(s for s in k['songs'] if s['title'] == 'Hiten ✅' or s['title'] == 'Hiten')['images'] = ['abc.jpg']
-r = reordered(v1, v2)
-kk = next(p for p in r if p['name'] == 'Kiahk')['songs']
-j = next(i for i, s in enumerate(kk) if s.get('id') == 'NEW')
-print("ajouté :", kk[j-1]['title'], '→', kk[j]['title'], '| partie :', kk[j]['section'])
-print("photo gardée :", [s['title'] for s in kk if s.get('images')])
-print("total chants :", sum(len(p['songs']) for p in r), "(attendu 424)")
+        anchor = None
+        for song in period["songs"]:
+            if song["id"] in claimed: anchor = song; continue
+            moved = dict(song)
+            if anchor:
+                if moved["section"] == anchor["section"]: moved["section"] = claimed[anchor["id"]]
+                following.setdefault(anchor["id"], []).append(moved)
+            else:
+                heads.setdefault(period["id"], []).append(moved)
+    for p in result:
+        songs = heads.pop(p["id"], [])
+        for s in p["songs"]:
+            songs.append(s); songs += following.pop(s["id"], [])
+        p["songs"] = songs
+    for period in saved:
+        if period["id"] in used: continue
+        kept = dict(period); kept["songs"] = heads.pop(period["id"], [])
+        if not any(s["id"] in claimed for s in period["songs"]): kept["songs"] = period["songs"]
+        result.append(kept)
+    return result
+
+v2 = json.load(open(sys.argv[1])); v3 = json.load(open(sys.argv[2]))
+
+# 1) untouched v2 library → exactly the v3 list
+r = migrated(as_library(v2), v3)
+assert [p["name"] for p in r] == [p["name"] for p in v3], [p["name"] for p in r]
+for a, b in zip(r, v3):
+    assert [(s["title"], s["section"]) for s in a["songs"]] == [(s["title"], s.get("section", "")) for s in b["songs"]], a["name"]
+print("bibliothèque v2 intacte → identique à la liste v3 ✓")
+
+# 2) user changes: photo on Marahmak, a chant added after Marahmak, a chant deleted, a period created,
+#    a chant added at the top of Messe
+lib = as_library(v2)
+kiahk = next(p for p in lib if p["name"] == "Kiahk")
+mar = next(s for s in kiahk["songs"] if s["title"] == "Marahmak"); mar["images"] = ["a.jpg", "b.jpg"]
+i = kiahk["songs"].index(mar)
+kiahk["songs"].insert(i + 1, {"id": "ADDED", "title": "Ya Mariam (franco)", "section": "Franco", "images": ["c.jpg"]})
+kiahk["songs"] = [s for s in kiahk["songs"] if s["title"] != "Doxologie 6"]
+lib.append({"id": "MINE", "name": "Mes cantiques", "songs": [{"id": "M1", "title": "Cantique perso", "section": "", "images": []}]})
+messe = next(p for p in lib if p["name"] == "Messe")
+messe["songs"].insert(0, {"id": "TOP", "title": "Mon chant d'entrée", "section": "", "images": []})
+before = sum(len(p["songs"]) for p in lib)
+r = migrated(lib, v3)
+franco = next(p for p in r if p["name"] == "Franco")
+print("Franco :", [(s["title"], s["section"], len(s["images"])) for s in franco["songs"]])
+k = next(p for p in r if p["name"] == "Kiahk")
+print("Doxologie 6 supprimée reste supprimée :", not any(s["title"] == "Doxologie 6" for s in k["songs"]))
+basile = next(p for p in r if p["name"] == "Messe de saint Basile")
+print("Messe de saint Basile commence par :", [s["title"] for s in basile["songs"][:3]], "| même id que Messe :", basile["id"] == messe["id"])
+print("Période perso gardée :", [p["name"] for p in r][-1], [s["title"] for s in r[-1]["songs"]])
+after = sum(len(p["songs"]) for p in r)
+new = sum(1 for p in v3 for s in p["songs"] if "from" not in s)
+print(f"chants avant {before}, après {after} (= avant + {new} nouveaux) :", after == before + new)

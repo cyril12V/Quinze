@@ -22,6 +22,7 @@ struct PeriodView: View {
         case newPart
         case renamePart(Int)
         case renameSong(UUID)
+        case newGroup
 
         var id: String {
             switch self {
@@ -30,6 +31,7 @@ struct PeriodView: View {
             case .newPart: "part"
             case .renamePart(let i): "rename-part-\(i)"
             case .renameSong(let id): "rename-\(id)"
+            case .newGroup: "group"
             }
         }
 
@@ -40,6 +42,7 @@ struct PeriodView: View {
             case .newPart: "Nouvelle partie"
             case .renamePart: "Renommer la partie"
             case .renameSong: "Renommer le chant"
+            case .newGroup: "Nouveau groupe"
             }
         }
     }
@@ -108,6 +111,8 @@ struct PeriodView: View {
                 TextField("Premier chant", text: $field2)
             case .newSong:
                 TextField("Nom du chant", text: $field1)
+            case .newGroup:
+                TextField("Nom du groupe (ex. Messe)", text: $field1)
             default:
                 TextField("Nom", text: $field1)
             }
@@ -183,34 +188,24 @@ struct PeriodView: View {
 
             ForEach(Array(ranges.enumerated()), id: \.offset) { index, part in
                 Section {
-                    ForEach(period.songs[part.range]) { song in
-                        NavigationLink(value: Route.song(song.id)) {
-                            SongRow(song: song, period: period.name)
+                    if editing {
+                        ForEach(period.songs[part.range]) { song in
+                            songRow(song, period: period)
                         }
-                        .tag(song.id)
-                        .listRowSeparator(.hidden)
-                        .listRowInsets(EdgeInsets(top: 7, leading: 24, bottom: 7, trailing: 18))
-                        .swipeActions(edge: .trailing, allowsFullSwipe: false) {
-                            Button(role: .destructive) {
-                                danger = .songs([song.id], "« \(song.title) »")
-                            } label: {
-                                Label("Supprimer", systemImage: "trash")
+                        .onMove { library.moveSongs(inPart: index, of: periodID, from: $0, to: $1) }
+                    } else {
+                        ForEach(RowItem.items(period.songs[part.range])) { item in
+                            switch item {
+                            case .single(let song):
+                                songRow(song, period: period)
+                            case .series(let base, let songs):
+                                SeriesRow(base: base, songs: songs, period: period.name) { router.open(.song($0)) }
+                                    .listRowSeparator(.hidden)
+                                    .listRowInsets(EdgeInsets(top: 7, leading: 24, bottom: 7, trailing: 18))
+                                    .selectionDisabled()
                             }
-                            Button { start(.renameSong(song.id), text: song.title) } label: {
-                                Label("Renommer", systemImage: "pencil")
-                            }
-                            .tint(Color(hex: 0x8E8E93))
                         }
-                        .swipeActions(edge: .leading) {
-                            Button { library.toggleFavorite(song.id) } label: {
-                                Label(song.favorite ? "Retirer" : "Favori",
-                                      systemImage: song.favorite ? "bookmark.slash.fill" : "bookmark.fill")
-                            }
-                            .tint(Palette.accent)
-                        }
-                        .contextMenu { songMenu(song) }
                     }
-                    .onMove { library.moveSongs(inPart: index, of: periodID, from: $0, to: $1) }
                 } header: {
                     partHeader(index: index, section: part.section, count: part.range.count, parts: ranges.count)
                 }
@@ -219,6 +214,34 @@ struct PeriodView: View {
         .listStyle(.plain)
         .scrollContentBackground(.hidden)
         .environment(\.editMode, .constant(editing ? .active : .inactive))
+    }
+
+    private func songRow(_ song: Song, period: Period) -> some View {
+        NavigationLink(value: Route.song(song.id)) {
+            SongRow(song: song, period: period.name)
+        }
+        .tag(song.id)
+        .listRowSeparator(.hidden)
+        .listRowInsets(EdgeInsets(top: 7, leading: 24, bottom: 7, trailing: 18))
+        .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+            Button(role: .destructive) {
+                danger = .songs([song.id], "« \(song.title) »")
+            } label: {
+                Label("Supprimer", systemImage: "trash")
+            }
+            Button { start(.renameSong(song.id), text: song.title) } label: {
+                Label("Renommer", systemImage: "pencil")
+            }
+            .tint(Color(hex: 0x8E8E93))
+        }
+        .swipeActions(edge: .leading) {
+            Button { library.toggleFavorite(song.id) } label: {
+                Label(song.favorite ? "Retirer" : "Favori",
+                      systemImage: song.favorite ? "bookmark.slash.fill" : "bookmark.fill")
+            }
+            .tint(Palette.accent)
+        }
+        .contextMenu { songMenu(song) }
     }
 
     @ViewBuilder
@@ -290,6 +313,20 @@ struct PeriodView: View {
         }
         Button { start(.renamePeriod, text: library.period(periodID)?.name ?? "") } label: {
             Label("Renommer la période", systemImage: "pencil")
+        }
+        Menu {
+            let current = library.period(periodID)?.group ?? ""
+            Button { library.setGroup(of: periodID, to: "") } label: {
+                if current.isEmpty { Label("Aucun groupe", systemImage: "checkmark") } else { Text("Aucun groupe") }
+            }
+            ForEach(library.groupNames, id: \.self) { group in
+                Button { library.setGroup(of: periodID, to: group) } label: {
+                    if current == group { Label(group, systemImage: "checkmark") } else { Text(group) }
+                }
+            }
+            Button { start(.newGroup) } label: { Label("Nouveau groupe…", systemImage: "plus") }
+        } label: {
+            Label("Ranger dans un groupe", systemImage: "square.stack")
         }
         Divider()
         Button(role: .destructive) {
@@ -373,6 +410,8 @@ struct PeriodView: View {
             library.renamePart(of: periodID, at: index, to: field1)
         case .renameSong(let id):
             library.renameSong(id, to: field1)
+        case .newGroup:
+            library.setGroup(of: periodID, to: field1)
         }
     }
 
@@ -386,5 +425,90 @@ struct PeriodView: View {
         let chants = count == 1 ? "1 chant" : "\(count) chants"
         let named = period.partRanges.filter { !$0.section.isEmpty }.count
         return named > 0 ? "\(chants) · \(parts) parties" : chants
+    }
+}
+
+/// In a part, chants numbered one after the other (« Doxologie 1, 2, 3… ») are shown as one row.
+enum RowItem: Identifiable {
+    case single(Song)
+    case series(String, [Song])
+
+    var id: UUID {
+        switch self {
+        case .single(let song): song.id
+        case .series(_, let songs): songs[0].id
+        }
+    }
+
+    /// « Doxologie 4 » → (« Doxologie », 4)
+    static func numbered(_ title: String) -> (base: String, number: Int)? {
+        let trimmed = title.trimmingCharacters(in: .whitespaces)
+        let digits = String(trimmed.reversed().prefix { $0.isASCII && $0.isNumber }.reversed())
+        guard !digits.isEmpty, digits.count < trimmed.count, let number = Int(digits) else { return nil }
+        let base = String(trimmed.dropLast(digits.count)).trimmingCharacters(in: .whitespaces)
+        return base.isEmpty ? nil : (base, number)
+    }
+
+    static func items(_ songs: ArraySlice<Song>) -> [RowItem] {
+        var out: [RowItem] = []
+        var run: [Song] = []
+        var runBase = ""
+        func flush() {
+            if run.count >= 3 {
+                out.append(.series(runBase, run))
+            } else {
+                out += run.map { .single($0) }
+            }
+            run = []
+        }
+        for song in songs {
+            if let hit = numbered(song.title) {
+                if !run.isEmpty && hit.base.lowercased() != runBase.lowercased() { flush() }
+                if run.isEmpty { runBase = hit.base }
+                run.append(song)
+            } else {
+                flush()
+                out.append(.single(song))
+            }
+        }
+        flush()
+        return out
+    }
+}
+
+/// « Doxologie » with its numbers side by side: touch a number to open that one.
+struct SeriesRow: View {
+    let base: String
+    let songs: [Song]
+    let period: String
+    let open: (UUID) -> Void
+
+    var body: some View {
+        HStack(alignment: .center, spacing: 14) {
+            Cover(content: .song(songs.first(where: { !$0.images.isEmpty }) ?? songs[0], period: period), size: 48, radius: 10)
+            VStack(alignment: .leading, spacing: 8) {
+                Text(base)
+                    .font(Typo.name)
+                    .foregroundStyle(Palette.ink)
+                ScrollView(.horizontal) {
+                    HStack(spacing: 8) {
+                        ForEach(songs) { song in
+                            Button { open(song.id) } label: {
+                                Text(RowItem.numbered(song.title).map { "\($0.number)" } ?? song.title)
+                                    .font(.system(size: 13, weight: .bold))
+                                    .foregroundStyle(song.images.isEmpty ? Palette.ink : .white)
+                                    .frame(minWidth: 34, minHeight: 30)
+                                    .padding(.horizontal, 4)
+                                    .background(song.images.isEmpty ? Palette.line : Palette.ink,
+                                                in: RoundedRectangle(cornerRadius: 8, style: .continuous))
+                            }
+                            .buttonStyle(.borderless)
+                            .accessibilityLabel(song.title)
+                        }
+                    }
+                }
+                .scrollIndicators(.hidden)
+            }
+        }
     }
 }

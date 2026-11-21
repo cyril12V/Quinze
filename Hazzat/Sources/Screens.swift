@@ -3,7 +3,8 @@ import PhotosUI
 
 // MARK: - Bibliothèque
 
-/// Every period, in order. « Modifier » to reorder or delete; « + » to add one.
+/// Every period, in the order of the Coptic year (Nayrouz first); the masses under one « Messe » card.
+/// « Modifier » to reorder or delete; « + » to add a period.
 struct LibraryView: View {
     @Environment(Library.self) private var library
     @State private var editing = false
@@ -38,42 +39,38 @@ struct LibraryView: View {
                 .padding(.top, 2)
                 .padding(.bottom, 10)
             List {
-                ForEach(library.periods) { period in
-                    NavigationLink(value: Route.period(period.id)) {
-                        HStack(spacing: 14) {
-                            Cover(content: .period(period), size: 56, radius: 12)
-                            VStack(alignment: .leading, spacing: 3) {
-                                Text(period.name)
-                                    .font(.system(size: 15, weight: .semibold))
-                                    .foregroundStyle(Palette.ink)
-                                Text(detail(period))
-                                    .font(Typo.caption)
-                                    .foregroundStyle(Palette.muted)
+                ForEach(library.shelf) { item in
+                    switch item {
+                    case .period(let period):
+                        PeriodListRow(period: period)
+                            .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+                                Button(role: .destructive) { deleting = period } label: { Label("Supprimer", systemImage: "trash") }
+                                Button {
+                                    name = period.name
+                                    renaming = period
+                                } label: { Label("Renommer", systemImage: "pencil") }
+                                .tint(Color(hex: 0x8E8E93))
+                            }
+                    case .group(let group, let members):
+                        NavigationLink(value: Route.group(group)) {
+                            HStack(spacing: 14) {
+                                Cover(content: .group(group), size: 56, radius: 12)
+                                VStack(alignment: .leading, spacing: 3) {
+                                    Text(group)
+                                        .font(.system(size: 15, weight: .semibold))
+                                        .foregroundStyle(Palette.ink)
+                                    Text(members.map(\.name).joined(separator: " · "))
+                                        .font(Typo.caption)
+                                        .foregroundStyle(Palette.muted)
+                                        .lineLimit(2)
+                                }
                             }
                         }
-                    }
-                    .listRowSeparator(.hidden)
-                    .listRowInsets(EdgeInsets(top: 7, leading: 24, bottom: 7, trailing: 18))
-                    .swipeActions(edge: .trailing, allowsFullSwipe: false) {
-                        Button(role: .destructive) { deleting = period } label: { Label("Supprimer", systemImage: "trash") }
-                        Button {
-                            name = period.name
-                            renaming = period
-                        } label: { Label("Renommer", systemImage: "pencil") }
-                        .tint(Color(hex: 0x8E8E93))
-                    }
-                    .contextMenu {
-                        Button {
-                            name = period.name
-                            renaming = period
-                        } label: { Label("Renommer", systemImage: "pencil") }
-                        Button(role: .destructive) { deleting = period } label: { Label("Supprimer", systemImage: "trash") }
+                        .listRowSeparator(.hidden)
+                        .listRowInsets(EdgeInsets(top: 7, leading: 24, bottom: 7, trailing: 18))
                     }
                 }
-                .onMove { library.movePeriods(from: $0, to: $1) }
-                .onDelete { offsets in
-                    if let i = offsets.first { deleting = library.periods[i] }
-                }
+                .onMove { library.moveShelf(from: $0, to: $1) }
             }
             .listStyle(.plain)
             .scrollContentBackground(.hidden)
@@ -87,34 +84,142 @@ struct LibraryView: View {
             Button("Ajouter") { library.addPeriod(named: name) }
             Button("Annuler", role: .cancel) {}
         }
-        .alert("Renommer la période",
-               isPresented: Binding(get: { renaming != nil }, set: { if !$0 { renaming = nil } }),
-               presenting: renaming) { period in
-            TextField("Nom", text: $name)
-            Button("OK") { library.renamePeriod(period.id, to: name) }
-            Button("Annuler", role: .cancel) {}
-        }
-        .confirmationDialog(deleting.map { "Supprimer « \($0.name) » ?" } ?? "",
-                            isPresented: Binding(get: { deleting != nil }, set: { if !$0 { deleting = nil } }),
-                            titleVisibility: .visible,
-                            presenting: deleting) { period in
-            Button("Supprimer la période", role: .destructive) { library.deletePeriod(period.id) }
-            Button("Annuler", role: .cancel) {}
-        } message: { period in
-            Text("Ses \(period.songs.count) chants et toutes leurs feuilles seront effacés du téléphone.")
-        }
+        .periodDialogs(renaming: $renaming, deleting: $deleting, name: $name)
     }
 
     private var summary: String {
         let songs = library.periods.reduce(0) { $0 + $1.songs.count }
-        return "\(library.periods.count) périodes · \(songs) chants"
+        return "\(library.periods.count) périodes · \(songs) chants · dans l'ordre de l'année copte"
     }
+}
 
-    private func detail(_ period: Period) -> String {
+/// The periods of a group (the masses: saint Basile, saint Grégoire, saint Cyrille…).
+struct GroupView: View {
+    @Environment(Library.self) private var library
+    let name: String
+    @State private var editing = false
+    @State private var askNew = false
+    @State private var renaming: Period?
+    @State private var deleting: Period?
+    @State private var newName = ""
+
+    var body: some View {
+        let members = library.members(of: name)
+        VStack(alignment: .leading, spacing: 0) {
+            TopBar {
+                HStack(spacing: 2) {
+                    Button(editing ? "OK" : "Modifier") { withAnimation { editing.toggle() } }
+                        .font(.system(size: 15, weight: editing ? .bold : .semibold))
+                        .foregroundStyle(editing ? Palette.accent : Palette.ink)
+                    IconButton(systemName: "plus", label: "Ajouter dans \(name)", size: 20) {
+                        newName = ""
+                        askNew = true
+                    }
+                }
+            }
+            HStack(spacing: 16) {
+                Cover(content: .group(name), size: 72, radius: 14)
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(name)
+                        .font(.system(size: 28, weight: .bold))
+                        .foregroundStyle(Palette.ink)
+                    Text(members.count == 1 ? "1 période" : "\(members.count) périodes")
+                        .font(Typo.caption)
+                        .foregroundStyle(Palette.muted)
+                }
+            }
+            .padding(.horizontal, 24)
+            .padding(.bottom, 12)
+            List {
+                ForEach(members) { period in
+                    PeriodListRow(period: period)
+                        .swipeActions(edge: .trailing, allowsFullSwipe: false) {
+                            Button(role: .destructive) { deleting = period } label: { Label("Supprimer", systemImage: "trash") }
+                            Button {
+                                newName = period.name
+                                renaming = period
+                            } label: { Label("Renommer", systemImage: "pencil") }
+                            .tint(Color(hex: 0x8E8E93))
+                        }
+                }
+                .onMove { library.moveInGroup(name, from: $0, to: $1) }
+            }
+            .listStyle(.plain)
+            .scrollContentBackground(.hidden)
+            .environment(\.editMode, .constant(editing ? .active : .inactive))
+        }
+        .background(Palette.background)
+        .toolbar(.hidden, for: .navigationBar)
+        .alert("Nouvelle période dans « \(name) »", isPresented: $askNew) {
+            TextField("Nom", text: $newName)
+            Button("Ajouter") { library.addPeriod(named: newName, inGroup: name) }
+            Button("Annuler", role: .cancel) {}
+        }
+        .periodDialogs(renaming: $renaming, deleting: $deleting, name: $newName)
+    }
+}
+
+/// A period in a list: its cover, its name, how many chants and parts.
+struct PeriodListRow: View {
+    let period: Period
+
+    private var detail: String {
         let count = period.songs.count
         let chants = count == 0 ? "Aucun chant" : (count == 1 ? "1 chant" : "\(count) chants")
         let parts = period.partRanges.filter { !$0.section.isEmpty }.count
         return parts > 0 ? "\(chants) · \(parts) partie\(parts > 1 ? "s" : "")" : chants
+    }
+
+    var body: some View {
+        NavigationLink(value: Route.period(period.id)) {
+            HStack(spacing: 14) {
+                Cover(content: .period(period), size: 56, radius: 12)
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(period.name)
+                        .font(.system(size: 15, weight: .semibold))
+                        .foregroundStyle(Palette.ink)
+                    Text(detail)
+                        .font(Typo.caption)
+                        .foregroundStyle(Palette.muted)
+                }
+            }
+        }
+        .listRowSeparator(.hidden)
+        .listRowInsets(EdgeInsets(top: 7, leading: 24, bottom: 7, trailing: 18))
+    }
+}
+
+extension View {
+    /// Rename and delete a period, with a confirmation before deleting.
+    func periodDialogs(renaming: Binding<Period?>, deleting: Binding<Period?>, name: Binding<String>) -> some View {
+        modifier(PeriodDialogs(renaming: renaming, deleting: deleting, name: name))
+    }
+}
+
+struct PeriodDialogs: ViewModifier {
+    @Environment(Library.self) private var library
+    @Binding var renaming: Period?
+    @Binding var deleting: Period?
+    @Binding var name: String
+
+    func body(content: Content) -> some View {
+        content
+            .alert("Renommer la période",
+                   isPresented: Binding(get: { renaming != nil }, set: { if !$0 { renaming = nil } }),
+                   presenting: renaming) { period in
+                TextField("Nom", text: $name)
+                Button("OK") { library.renamePeriod(period.id, to: name) }
+                Button("Annuler", role: .cancel) {}
+            }
+            .confirmationDialog(deleting.map { "Supprimer « \($0.name) » ?" } ?? "",
+                                isPresented: Binding(get: { deleting != nil }, set: { if !$0 { deleting = nil } }),
+                                titleVisibility: .visible,
+                                presenting: deleting) { period in
+                Button("Supprimer la période", role: .destructive) { library.deletePeriod(period.id) }
+                Button("Annuler", role: .cancel) {}
+            } message: { period in
+                Text("Ses \(period.songs.count) chants et toutes leurs feuilles seront effacés du téléphone.")
+            }
     }
 }
 
@@ -250,7 +355,7 @@ struct ProfileView: View {
                 .padding(.top, 14)
 
                 Button { confirmClear = true } label: {
-                    Text("Effacer l'historique des chants consultés")
+                    Text("Effacer le dernier chant ouvert")
                         .font(.system(size: 14, weight: .semibold))
                         .foregroundStyle(Palette.ink)
                 }
@@ -276,11 +381,11 @@ struct ProfileView: View {
         .onChange(of: scenePhase) { _, phase in
             if phase == .active { day = LiturgicalDay() }
         }
-        .confirmationDialog("Effacer l'historique ?", isPresented: $confirmClear, titleVisibility: .visible) {
+        .confirmationDialog("Effacer le dernier chant ouvert ?", isPresented: $confirmClear, titleVisibility: .visible) {
             Button("Effacer", role: .destructive) { library.clearRecents() }
             Button("Annuler", role: .cancel) {}
         } message: {
-            Text("Seule la liste « Récemment consultés » est vidée. Tes chants et tes feuilles restent.")
+            Text("Seule la carte du dernier chant ouvert disparaît de l'accueil. Tes chants et tes feuilles restent.")
         }
     }
 
@@ -381,40 +486,5 @@ struct SearchView: View {
         .background(Palette.background)
         .toolbar(.hidden, for: .navigationBar)
         .onAppear { focused = true }
-    }
-}
-
-// MARK: - Récemment consultés
-
-struct RecentsView: View {
-    @Environment(Library.self) private var library
-
-    var body: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            TopBar()
-            Text("Récemment consultés")
-                .font(Typo.screenTitle)
-                .foregroundStyle(Palette.ink)
-                .padding(.horizontal, 24)
-            Text("Du plus récent au plus ancien")
-                .font(Typo.caption)
-                .foregroundStyle(Palette.muted)
-                .padding(.horizontal, 24)
-                .padding(.top, 2)
-                .padding(.bottom, 10)
-            List {
-                ForEach(library.recents) { entry in
-                    NavigationLink(value: Route.song(entry.song.id)) {
-                        SongRow(song: entry.song, period: entry.period.name, place: entry.place)
-                    }
-                    .listRowSeparator(.hidden)
-                    .listRowInsets(EdgeInsets(top: 7, leading: 24, bottom: 7, trailing: 18))
-                }
-            }
-            .listStyle(.plain)
-            .scrollContentBackground(.hidden)
-        }
-        .background(Palette.background)
-        .toolbar(.hidden, for: .navigationBar)
     }
 }

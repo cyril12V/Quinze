@@ -18,9 +18,9 @@ struct HazzatApp: App {
 /// Where a tap leads.
 enum Route: Hashable {
     case period(UUID)
+    case group(String)
     case song(UUID)
     case search
-    case recents
 }
 
 /// The four tabs and the screens opened in each one.
@@ -101,9 +101,9 @@ extension View {
         navigationDestination(for: Route.self) { route in
             switch route {
             case .period(let id): PeriodView(periodID: id)
+            case .group(let name): GroupView(name: name)
             case .song(let id): SongView(songID: id)
             case .search: SearchView()
-            case .recents: RecentsView()
             }
         }
     }

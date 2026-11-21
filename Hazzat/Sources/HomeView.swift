@@ -35,14 +35,10 @@ struct HomeView: View {
         ScrollView {
             VStack(alignment: .leading, spacing: 0) {
                 header
-                today.padding(.top, 20)
-                recents.padding(.top, 34)
-                Rectangle()
-                    .fill(Palette.line)
-                    .frame(height: 1)
+                today
                     .padding(.horizontal, 24)
-                    .padding(.top, 30)
-                categories.padding(.top, 28)
+                    .padding(.top, 22)
+                categories.padding(.top, 34)
             }
             .padding(.top, 10)
             .padding(.bottom, 24)
@@ -82,73 +78,79 @@ struct HomeView: View {
         .padding(.trailing, 18)
     }
 
+    /// The day, in a frame, centred: Adam or Watos, the Coptic date, the period.
     private var today: some View {
-        HStack(alignment: .center, spacing: 12) {
-            VStack(alignment: .leading, spacing: 3) {
-                Text("Jour \(day.tune.rawValue) · \(day.coptic.formatted)")
-                    .font(Typo.smallTitle)
-                    .foregroundStyle(Palette.ink)
-                Text(todayLine)
-                    .font(Typo.caption)
-                    .foregroundStyle(Palette.muted)
-                    .fixedSize(horizontal: false, vertical: true)
-            }
-            Spacer(minLength: 8)
+        VStack(spacing: 6) {
+            Text("JOUR")
+                .font(.system(size: 10, weight: .bold))
+                .tracking(2)
+                .foregroundStyle(Palette.muted)
+            Text(day.tune.rawValue)
+                .font(.system(size: 30, weight: .bold))
+                .foregroundStyle(Palette.ink)
+            Text(day.coptic.formatted)
+                .font(Typo.smallTitle)
+                .foregroundStyle(Palette.ink)
+            Text(todayLine)
+                .font(Typo.caption)
+                .foregroundStyle(Palette.muted)
+                .multilineTextAlignment(.center)
+                .fixedSize(horizontal: false, vertical: true)
             if let target = todayTarget {
                 SmallButton(target.name) { router.open(.period(target.id)) }
+                    .padding(.top, 8)
             }
         }
-        .padding(.horizontal, 24)
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 22)
+        .padding(.horizontal, 18)
+        .background(Color.white, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Palette.line, lineWidth: 1))
+        .shadow(color: .black.opacity(0.05), radius: 14, x: 0, y: 6)
         .accessibilityElement(children: .combine)
     }
 
-    private var recents: some View {
-        VStack(alignment: .leading, spacing: 18) {
-            SectionHead(title: "Récemment consultés",
-                        subtitle: "Tes derniers chants ouverts",
-                        button: library.recents.isEmpty ? nil : "Voir tout") { router.open(.recents) }
-            if library.recents.isEmpty {
-                Text("Ouvre un chant : il apparaîtra ici.")
-                    .font(Typo.caption)
-                    .foregroundStyle(Palette.muted)
-                    .padding(.horizontal, 24)
-            } else {
-                ScrollView(.horizontal) {
-                    LazyHStack(alignment: .top, spacing: 12) {
-                        ForEach(library.recents.prefix(15)) { entry in
-                            Button { router.open(.song(entry.song.id)) } label: {
-                                CoverCard(cover: .song(entry.song, period: entry.period.name),
-                                          title: entry.song.title,
-                                          subtitle: entry.place)
-                            }
-                            .plainButton()
-                        }
-                    }
-                    .padding(.horizontal, 24)
-                }
-                .scrollIndicators(.hidden)
+    /// Messe and Franco first, then the year from Nayrouz.
+    private var shelf: [Library.Shelf] {
+        let all = library.shelf
+        func first(_ item: Library.Shelf) -> Int {
+            switch Self.fold(item.name) {
+            case "messe": 0
+            case "franco": 1
+            default: 2
             }
         }
+        return all.enumerated().sorted { (first($0.element), $0.offset) < (first($1.element), $1.offset) }.map(\.element)
     }
 
     private var categories: some View {
         VStack(alignment: .leading, spacing: 18) {
             SectionHead(title: "Mes catégories",
-                        subtitle: "\(library.periods.count) périodes",
+                        subtitle: "De Nayrouz à la Nahda, la messe et le franco",
                         button: "Voir tout") { router.tab = .library }
             ScrollView(.horizontal) {
                 LazyHGrid(rows: [GridItem(.fixed(CoverCard.height), spacing: 18),
                                  GridItem(.fixed(CoverCard.height))],
                           alignment: .top, spacing: 12) {
-                    ForEach(library.periods) { period in
-                        let current = Self.fold(period.name) == Self.fold(day.season)
-                        Button { router.open(.period(period.id)) } label: {
-                            CoverCard(cover: .period(period),
-                                      title: period.name,
-                                      subtitle: current ? "En cours" : countLabel(period),
-                                      highlight: current)
+                    ForEach(shelf) { item in
+                        switch item {
+                        case .period(let period):
+                            let current = Self.fold(period.name) == Self.fold(day.season)
+                            Button { router.open(.period(period.id)) } label: {
+                                CoverCard(cover: .period(period),
+                                          title: period.name,
+                                          subtitle: current ? "En cours" : countLabel(period.songs.count),
+                                          highlight: current)
+                            }
+                            .plainButton()
+                        case .group(let name, let members):
+                            Button { router.open(.group(name)) } label: {
+                                CoverCard(cover: .group(name),
+                                          title: name,
+                                          subtitle: members.count == 1 ? "1 période" : "\(members.count) \(Self.fold(name) == "messe" ? "messes" : "périodes")")
+                            }
+                            .plainButton()
                         }
-                        .plainButton()
                     }
                 }
                 .padding(.horizontal, 24)
@@ -157,11 +159,11 @@ struct HomeView: View {
         }
     }
 
-    private func countLabel(_ period: Period) -> String {
-        switch period.songs.count {
+    private func countLabel(_ count: Int) -> String {
+        switch count {
         case 0: "Aucun chant"
         case 1: "1 chant"
-        default: "\(period.songs.count) chants"
+        default: "\(count) chants"
         }
     }
 }
@@ -216,8 +218,8 @@ struct LastSongCard: View {
                         .lineLimit(1)
                 }
                 Spacer(minLength: 8)
-                Image(systemName: "music.note.list")
-                    .font(.system(size: 20, weight: .bold))
+                Image(systemName: "chevron.right")
+                    .font(.system(size: 16, weight: .bold))
                     .foregroundStyle(Palette.iconOn)
                     .padding(.trailing, 4)
             }

@@ -553,6 +553,22 @@ final class Library {
         save()
     }
 
+    /// Puts the chants of a period in a new order, each in the given part. Only known chants are kept in
+    /// the order given; any chant not listed stays at the end (nothing is ever lost).
+    func reorder(_ periodID: UUID, to order: [(id: UUID, section: String)]) {
+        guard let p = periods.firstIndex(where: { $0.id == periodID }) else { return }
+        var byID = Dictionary(uniqueKeysWithValues: periods[p].songs.map { ($0.id, $0) })
+        var songs: [Song] = []
+        for item in order {
+            guard var song = byID.removeValue(forKey: item.id) else { continue }
+            song.section = item.section
+            songs.append(song)
+        }
+        songs += periods[p].songs.filter { byID[$0.id] != nil }
+        periods[p].songs = songs
+        save()
+    }
+
     /// Reorders chants inside one part (indexes counted in that part).
     func moveSongs(inPart index: Int, of periodID: UUID, from source: IndexSet, to destination: Int) {
         guard let p = periods.firstIndex(where: { $0.id == periodID }) else { return }

@@ -90,7 +90,13 @@ struct PeriodView: View {
                     .foregroundStyle(Palette.accent)
                     .padding(.trailing, 6)
                 } else {
-                    MoreMenu { periodMenu }
+                    HStack(spacing: 0) {
+                        Button("Modifier") { withAnimation { editing = true } }
+                            .font(.system(size: 15, weight: .semibold))
+                            .foregroundStyle(Palette.ink)
+                            .padding(.trailing, 2)
+                        MoreMenu { periodMenu }
+                    }
                 }
             }
             if let period = library.period(periodID) {
@@ -162,7 +168,7 @@ struct PeriodView: View {
                     .font(Typo.caption)
                     .foregroundStyle(Palette.muted)
                 if editing {
-                    Text("Coche des chants pour les déplacer ou les supprimer. Glisse ≡ pour changer l'ordre.")
+                    Text("Maintiens ≡ et glisse un chant où tu veux, même dans une autre partie. Coche des chants pour les déplacer vers une autre période ou les supprimer.")
                         .font(Typo.caption)
                         .foregroundStyle(Palette.accent)
                         .padding(.top, 6)
@@ -186,14 +192,34 @@ struct PeriodView: View {
                 .selectionDisabled()
             }
 
+            if editing {
+                // One list for the whole period: a chant can be dragged anywhere, even into another part
+                // (it takes the part it lands in). Part titles stay in place.
+                let rows = EditRow.rows(period)
+                ForEach(rows) { row in
+                    switch row {
+                    case .header(_, let section):
+                        Text(section.isEmpty ? "Sans partie" : section)
+                            .font(Typo.sectionTitle)
+                            .foregroundStyle(section.isEmpty ? Palette.muted : Palette.ink)
+                            .padding(.top, 14)
+                            .listRowSeparator(.hidden)
+                            .listRowInsets(EdgeInsets(top: 4, leading: 24, bottom: 2, trailing: 18))
+                            .moveDisabled(true)
+                            .selectionDisabled()
+                    case .song(let song):
+                        songRow(song, period: period)
+                    }
+                }
+                .onMove { source, destination in
+                    var moved = rows
+                    moved.move(fromOffsets: source, toOffset: destination)
+                    library.reorder(periodID, to: EditRow.order(moved))
+                }
+            } else {
             ForEach(Array(ranges.enumerated()), id: \.offset) { index, part in
                 Section {
-                    if editing {
-                        ForEach(period.songs[part.range]) { song in
-                            songRow(song, period: period)
-                        }
-                        .onMove { library.moveSongs(inPart: index, of: periodID, from: $0, to: $1) }
-                    } else {
+                    Group {
                         ForEach(RowItem.items(period.songs[part.range])) { item in
                             switch item {
                             case .single(let song):
@@ -209,6 +235,7 @@ struct PeriodView: View {
                 } header: {
                     partHeader(index: index, section: part.section, count: part.range.count, parts: ranges.count)
                 }
+            }
             }
         }
         .listStyle(.plain)
@@ -510,5 +537,43 @@ struct SeriesRow: View {
                 .scrollIndicators(.hidden)
             }
         }
+    }
+}
+
+/// The period while editing: part titles and chants in one list, so that a chant can go anywhere.
+enum EditRow: Identifiable {
+    case header(Int, String)
+    case song(Song)
+
+    var id: String {
+        switch self {
+        case .header(let index, _): "part-\(index)"
+        case .song(let song): song.id.uuidString
+        }
+    }
+
+    static func rows(_ period: Period) -> [EditRow] {
+        var rows: [EditRow] = []
+        for (index, part) in period.partRanges.enumerated() {
+            rows.append(.header(index, part.section))
+            rows += period.songs[part.range].map { EditRow.song($0) }
+        }
+        return rows
+    }
+
+    /// Each chant with the part of the title above it.
+    static func order(_ rows: [EditRow]) -> [(id: UUID, section: String)] {
+        var section: String = {
+            for row in rows { if case .header(_, let name) = row { return name } }
+            return ""
+        }()
+        var out: [(id: UUID, section: String)] = []
+        for row in rows {
+            switch row {
+            case .header(_, let name): section = name
+            case .song(let song): out.append((song.id, section))
+            }
+        }
+        return out
     }
 }

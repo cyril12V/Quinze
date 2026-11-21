@@ -2,7 +2,43 @@ import Foundation
 import Observation
 import UIKit
 
-/// One chant: its hazzat sheets (images kept on the phone) and, for a cantique, its words written in franco.
+/// Language of a text: Coptic, franco (Coptic or Arabic written with French letters), Arabic, French.
+enum TextLanguage: String, Codable, CaseIterable, Hashable, Sendable {
+    case copte, franco, arabe, francais
+
+    var label: String {
+        switch self {
+        case .copte: "Copte"
+        case .franco: "Franco"
+        case .arabe: "Arabe"
+        case .francais: "Français"
+        }
+    }
+
+    /// Arabic is written from right to left.
+    var rightToLeft: Bool { self == .arabe }
+}
+
+/// One text of a chant, in one language.
+struct SongText: Identifiable, Codable, Hashable, Sendable {
+    var id = UUID()
+    var language: TextLanguage
+    var body: String
+
+    init(language: TextLanguage, body: String = "") {
+        self.language = language
+        self.body = body
+    }
+
+    init(from decoder: Decoder) throws {
+        let c = try decoder.container(keyedBy: CodingKeys.self)
+        id = try c.decodeIfPresent(UUID.self, forKey: .id) ?? UUID()
+        language = (try? c.decodeIfPresent(TextLanguage.self, forKey: .language)) ?? .franco
+        body = try c.decodeIfPresent(String.self, forKey: .body) ?? ""
+    }
+}
+
+/// One chant: its hazzat sheets (images kept on the phone) and its texts (copte, franco, arabe, français).
 struct Song: Identifiable, Codable, Hashable, Sendable {
     var id = UUID()
     var title: String
@@ -10,8 +46,10 @@ struct Song: Identifiable, Codable, Hashable, Sendable {
     var section = ""
     /// Kept only so that older saved files still read; no longer shown.
     var done = false
-    /// Words, for a cantique written in franco.
+    /// Former single text (franco); moved into `texts` when read. Kept so that nothing is ever lost.
     var text = ""
+    /// The texts of the chant, in the order they were added.
+    var texts: [SongText] = []
     /// File names of the sheets, in reading order (stored in Documents/images).
     var images: [String] = []
     /// In « Favoris ».
@@ -32,7 +70,20 @@ struct Song: Identifiable, Codable, Hashable, Sendable {
         text = try c.decodeIfPresent(String.self, forKey: .text) ?? ""
         images = try c.decodeIfPresent([String].self, forKey: .images) ?? []
         favorite = try c.decodeIfPresent(Bool.self, forKey: .favorite) ?? false
+        texts = try c.decodeIfPresent([SongText].self, forKey: .texts) ?? []
+        if texts.isEmpty && !text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+            texts = [SongText(language: .franco, body: text)]
+            text = ""
+        }
     }
+
+    /// Texts that have something written in them.
+    var writtenTexts: [SongText] {
+        texts.filter { !$0.body.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty }
+    }
+
+    /// Everything written in the chant, for the search.
+    var allText: String { texts.map(\.body).joined(separator: "\n") }
 }
 
 struct Period: Identifiable, Codable, Hashable, Sendable {
@@ -524,6 +575,22 @@ final class Library {
     }
 
     func toggleFavorite(_ id: UUID) { change(id) { $0.favorite.toggle() } }
+
+    /// Adds or replaces a text of a chant. An empty text is removed.
+    func saveText(_ text: SongText, in songID: UUID) {
+        change(songID) { song in
+            let empty = text.body.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
+            if let i = song.texts.firstIndex(where: { $0.id == text.id }) {
+                if empty { song.texts.remove(at: i) } else { song.texts[i] = text }
+            } else if !empty {
+                song.texts.append(text)
+            }
+        }
+    }
+
+    func removeText(_ textID: UUID, from songID: UUID) {
+        change(songID) { $0.texts.removeAll { $0.id == textID } }
+    }
 
     /// Removes chants (anywhere) with their sheets.
     func deleteSongs(_ ids: Set<UUID>) {

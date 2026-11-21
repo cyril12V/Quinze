@@ -18,8 +18,13 @@ struct SongView: View {
     @State private var scanning = false
     @State private var confirmDelete = false
     @State private var confirmRemovePage = false
+    @State private var writing: TextDraft?
 
-    enum Mode: Hashable { case sheets, lyrics }
+    /// What the page shows: the hazzat sheets, or one of the texts.
+    enum Mode: Hashable {
+        case sheets
+        case text(UUID)
+    }
 
     init(songID: UUID) {
         _currentID = State(initialValue: songID)
@@ -63,6 +68,12 @@ struct SongView: View {
             }
         }
         .sheet(item: $edited) { SongEditor(songID: $0.id).environment(library) }
+        .sheet(item: $writing) { draft in
+            TextEditorSheet(songID: draft.songID, text: draft.text, isNew: draft.isNew) { saved in
+                choice = saved.map { Mode.text($0) }
+            }
+            .environment(library)
+        }
         .confirmationDialog("Supprimer ce chant ?", isPresented: $confirmDelete, titleVisibility: .visible) {
             Button("Supprimer le chant", role: .destructive) {
                 let id = currentID
@@ -71,7 +82,7 @@ struct SongView: View {
             }
             Button("Annuler", role: .cancel) {}
         } message: {
-            Text("Ses feuilles et ses paroles seront effacées du téléphone.")
+            Text("Ses feuilles et ses textes seront effacés du téléphone.")
         }
         .confirmationDialog("Retirer cette feuille ?", isPresented: $confirmRemovePage, titleVisibility: .visible) {
             Button("Retirer la feuille \(page + 1)", role: .destructive) { removeCurrentPage() }
@@ -81,38 +92,61 @@ struct SongView: View {
 
     // MARK: Layout
 
+    private func isFranco(_ entry: Library.Entry) -> Bool {
+        HomeView.fold(entry.period.name) == "franco"
+    }
+
     private func content(_ entry: Library.Entry) -> some View {
         let song = entry.song
-        let mode = choice ?? (song.images.isEmpty && !song.text.isEmpty ? .lyrics : .sheets)
+        let texts = song.writtenTexts
+        let textFirst = isFranco(entry) || song.images.isEmpty
+        let fallback: Mode = textFirst && !texts.isEmpty ? .text(texts[0].id) : .sheets
+        var mode = choice ?? fallback
+        if case .text(let id) = mode, !texts.contains(where: { $0.id == id }) { mode = fallback }
+        let shown = texts.first { if case .text(let id) = mode { return $0.id == id } else { return false } }
         let previous = library.neighbor(of: song.id, step: -1).flatMap { library.song($0) }
         let next = library.neighbor(of: song.id, step: 1).flatMap { library.song($0) }
         return VStack(spacing: 0) {
             TopBar(caption: entry.place)
             ScrollView {
                 VStack(spacing: 0) {
-                    if !song.text.isEmpty {
-                        ModePicker(mode: Binding(get: { mode }, set: { choice = $0 }))
-                            .padding(.top, 2)
-                            .padding(.bottom, 10)
+                    ModePicker(tabs: tabs(texts, textsFirst: isFranco(entry)),
+                               mode: Binding(get: { mode }, set: { choice = $0 })) { language in
+                        writing = TextDraft(songID: song.id, text: SongText(language: language), isNew: true)
                     }
-                    if mode == .sheets {
+                    .padding(.top, 2)
+                    .padding(.bottom, 10)
+                    if let shown {
+                        titleRow(entry).padding(.top, 8)
+                        TextReader(text: shown)
+                            .padding(.horizontal, 24)
+                            .padding(.top, 22)
+                        Button {
+                            writing = TextDraft(songID: song.id, text: shown, isNew: false)
+                        } label: {
+                            Label("Modifier le texte", systemImage: "pencil")
+                                .font(.system(size: 14, weight: .semibold))
+                                .foregroundStyle(Palette.ink)
+                                .padding(.horizontal, 14)
+                                .padding(.vertical, 9)
+                                .overlay(RoundedRectangle(cornerRadius: 8, style: .continuous).stroke(Palette.line, lineWidth: 1.5))
+                        }
+                        .plainButton()
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.horizontal, 24)
+                        .padding(.top, 20)
+                    } else {
                         if song.images.isEmpty {
-                            addTile
+                            if isFranco(entry) && texts.isEmpty {
+                                writeTile(song.id)
+                            } else {
+                                addTile(song.id)
+                            }
                         } else {
                             SheetCarousel(images: song.images, page: $page) { viewer = ViewerStart(page: page) }
                             PageDots(page: page, count: song.images.count)
                         }
                         titleRow(entry).padding(.top, 16)
-                    } else {
-                        titleRow(entry).padding(.top, 8)
-                        Text(song.text)
-                            .font(Typo.lyrics)
-                            .lineSpacing(9)
-                            .foregroundStyle(Palette.ink)
-                            .textSelection(.enabled)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(.horizontal, 24)
-                            .padding(.top, 22)
                     }
                     NeighborBar(previous: previous, next: next) { go(to: $0) }
                         .padding(.top, 26)
@@ -136,29 +170,72 @@ struct SongView: View {
         }
     }
 
-    /// No sheet yet: a big « + » where the sheet will be.
-    private var addTile: some View {
+    /// « Hazzat », then one tab per text (« Franco », « Arabe »…); in Franco the texts come first.
+    private func tabs(_ texts: [SongText], textsFirst: Bool) -> [(title: String, mode: Mode)] {
+        var counts: [TextLanguage: Int] = [:]
+        let textTabs: [(title: String, mode: Mode)] = texts.map { text in
+            counts[text.language, default: 0] += 1
+            let n = counts[text.language] ?? 1
+            let total = texts.filter { $0.language == text.language }.count
+            return (total > 1 ? "\(text.language.label) \(n)" : text.language.label, Mode.text(text.id))
+        }
+        let sheets: [(title: String, mode: Mode)] = [("Hazzat", .sheets)]
+        return textsFirst ? textTabs + sheets : sheets + textTabs
+    }
+
+    /// The big dashed tile with a « + », where a sheet or a text will be.
+    private func dashedTile(icon: String, caption: String) -> some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .fill(Color.white)
+            RoundedRectangle(cornerRadius: 16, style: .continuous)
+                .strokeBorder(Palette.iconOff.opacity(0.7), style: StrokeStyle(lineWidth: 1.5, dash: [7, 6]))
+            VStack(spacing: 12) {
+                Image(systemName: icon)
+                    .font(.system(size: 56, weight: .bold))
+                    .foregroundStyle(Palette.iconOn)
+                Text(caption)
+                    .font(Typo.caption)
+                    .foregroundStyle(Palette.muted)
+            }
+        }
+        .aspectRatio(0.8, contentMode: .fit)
+        .padding(.horizontal, 24)
+        .padding(.top, 6)
+        .padding(.bottom, 10)
+    }
+
+    /// No sheet yet: a big « + » where the sheet will be (photos, scan or a text).
+    private func addTile(_ songID: UUID) -> some View {
         Menu {
             Button { picking = true } label: { Label("Choisir des photos", systemImage: "photo.on.rectangle") }
             if DocumentScanner.isAvailable {
                 Button { scanning = true } label: { Label("Scanner des feuilles", systemImage: "doc.viewfinder") }
             }
-        } label: {
-            ZStack {
-                RoundedRectangle(cornerRadius: 16, style: .continuous)
-                    .fill(Color.white)
-                RoundedRectangle(cornerRadius: 16, style: .continuous)
-                    .strokeBorder(Palette.iconOff.opacity(0.7), style: StrokeStyle(lineWidth: 1.5, dash: [7, 6]))
-                Image(systemName: "plus")
-                    .font(.system(size: 56, weight: .bold))
-                    .foregroundStyle(Palette.iconOn)
+            Menu {
+                ForEach(TextLanguage.allCases, id: \.self) { language in
+                    Button(language.label) {
+                        writing = TextDraft(songID: songID, text: SongText(language: language), isNew: true)
+                    }
+                }
+            } label: {
+                Label("Écrire un texte", systemImage: "text.alignleft")
             }
-            .aspectRatio(0.8, contentMode: .fit)
+        } label: {
+            dashedTile(icon: "plus", caption: "Feuille ou texte")
         }
-        .padding(.horizontal, 24)
-        .padding(.top, 6)
-        .padding(.bottom, 10)
-        .accessibilityLabel("Ajouter la feuille")
+        .accessibilityLabel("Ajouter une feuille ou un texte")
+    }
+
+    /// Franco is only text: the « + » opens the writing at once.
+    private func writeTile(_ songID: UUID) -> some View {
+        Button {
+            writing = TextDraft(songID: songID, text: SongText(language: .franco), isNew: true)
+        } label: {
+            dashedTile(icon: "plus", caption: "Écrire le texte en franco")
+        }
+        .plainButton()
+        .accessibilityLabel("Écrire le texte en franco")
     }
 
     private func titleRow(_ entry: Library.Entry) -> some View {
@@ -179,6 +256,15 @@ struct SongView: View {
                 library.toggleFavorite(song.id)
             }
             MoreMenu {
+                Menu {
+                    ForEach(TextLanguage.allCases, id: \.self) { language in
+                        Button(language.label) {
+                            writing = TextDraft(songID: song.id, text: SongText(language: language), isNew: true)
+                        }
+                    }
+                } label: {
+                    Label("Ajouter un texte", systemImage: "text.alignleft")
+                }
                 Button { picking = true } label: { Label("Ajouter des photos", systemImage: "photo.on.rectangle") }
                 if DocumentScanner.isAvailable {
                     Button { scanning = true } label: { Label("Scanner des feuilles", systemImage: "doc.viewfinder") }
@@ -245,18 +331,41 @@ struct ViewerStart: Identifiable {
     var id: Int { page }
 }
 
-/// « Hazzat · Paroles », black when chosen with a small orange bar.
+/// « Hazzat · Franco · Arabe… + », black when chosen with a small orange bar; « + » adds a text.
 struct ModePicker: View {
+    let tabs: [(title: String, mode: SongView.Mode)]
     @Binding var mode: SongView.Mode
+    let add: (TextLanguage) -> Void
 
     var body: some View {
-        HStack(spacing: 26) {
-            tab("Hazzat", .sheets)
-            tab("Paroles", .lyrics)
+        ScrollView(.horizontal) {
+            HStack(spacing: 22) {
+                ForEach(Array(tabs.enumerated()), id: \.offset) { _, tab in
+                    item(tab.title, tab.mode)
+                }
+                Menu {
+                    ForEach(TextLanguage.allCases, id: \.self) { language in
+                        Button(language.label) { add(language) }
+                    }
+                } label: {
+                    VStack(spacing: 5) {
+                        HStack(spacing: 3) {
+                            Image(systemName: "plus").font(.system(size: 11, weight: .bold))
+                            Text("Texte").font(.system(size: 13, weight: .medium))
+                        }
+                        .foregroundStyle(Palette.iconOff)
+                        Capsule().fill(.clear).frame(width: 16, height: 3)
+                    }
+                    .padding(.vertical, 4)
+                }
+                .accessibilityLabel("Ajouter un texte")
+            }
+            .padding(.horizontal, 24)
         }
+        .scrollIndicators(.hidden)
     }
 
-    private func tab(_ title: String, _ value: SongView.Mode) -> some View {
+    private func item(_ title: String, _ value: SongView.Mode) -> some View {
         Button { withAnimation(.easeOut(duration: 0.15)) { mode = value } } label: {
             VStack(spacing: 5) {
                 Text(title)
@@ -271,6 +380,124 @@ struct ModePicker: View {
         }
         .plainButton()
         .accessibilityAddTraits(mode == value ? .isSelected : [])
+    }
+}
+
+/// A text to read: big letters, comfortable lines; Arabic from right to left, Coptic with a Coptic font.
+struct TextReader: View {
+    let text: SongText
+
+    var body: some View {
+        Text(text.body)
+            .font(Typo.text(text.language))
+            .lineSpacing(9)
+            .foregroundStyle(Palette.ink)
+            .multilineTextAlignment(text.language.rightToLeft ? .trailing : .leading)
+            .textSelection(.enabled)
+            .frame(maxWidth: .infinity, alignment: text.language.rightToLeft ? .trailing : .leading)
+            .environment(\.layoutDirection, text.language.rightToLeft ? .rightToLeft : .leftToRight)
+    }
+}
+
+struct TextDraft: Identifiable {
+    let id = UUID()
+    let songID: UUID
+    let text: SongText
+    let isNew: Bool
+}
+
+/// Writing or changing one text of a chant, in copte, franco, arabe or français.
+struct TextEditorSheet: View {
+    @Environment(Library.self) private var library
+    @Environment(\.dismiss) private var dismiss
+    let songID: UUID
+    @State private var text: SongText
+    let isNew: Bool
+    /// Called after saving with the id of the text (nil when it was removed).
+    let done: (UUID?) -> Void
+    @State private var confirmDelete = false
+    @FocusState private var focused: Bool
+
+    init(songID: UUID, text: SongText, isNew: Bool, done: @escaping (UUID?) -> Void = { _ in }) {
+        self.songID = songID
+        _text = State(initialValue: text)
+        self.isNew = isNew
+        self.done = done
+    }
+
+    private var placeholder: String {
+        switch text.language {
+        case .copte: "Colle ou écris le texte copte…"
+        case .franco: "Écris le texte en franco (ex. Efrahi ya Mariam…)"
+        case .arabe: "اكتب النص بالعربية…"
+        case .francais: "Écris le texte en français…"
+        }
+    }
+
+    var body: some View {
+        NavigationStack {
+            VStack(spacing: 0) {
+                Picker("Langue", selection: $text.language) {
+                    ForEach(TextLanguage.allCases, id: \.self) { Text($0.label).tag($0) }
+                }
+                .pickerStyle(.segmented)
+                .padding(.horizontal, 20)
+                .padding(.vertical, 10)
+                ZStack(alignment: text.language.rightToLeft ? .topTrailing : .topLeading) {
+                    TextEditor(text: $text.body)
+                        .font(Typo.text(text.language))
+                        .lineSpacing(6)
+                        .multilineTextAlignment(text.language.rightToLeft ? .trailing : .leading)
+                        .environment(\.layoutDirection, text.language.rightToLeft ? .rightToLeft : .leftToRight)
+                        .autocorrectionDisabled(text.language != .francais)
+                        .textInputAutocapitalization(text.language == .francais ? .sentences : .never)
+                        .scrollContentBackground(.hidden)
+                        .focused($focused)
+                    if text.body.isEmpty {
+                        Text(placeholder)
+                            .font(Typo.text(text.language))
+                            .foregroundStyle(Palette.iconOff)
+                            .padding(.top, 8)
+                            .padding(.horizontal, 5)
+                            .allowsHitTesting(false)
+                    }
+                }
+                .padding(.horizontal, 16)
+                if !isNew {
+                    Button(role: .destructive) { confirmDelete = true } label: {
+                        Text("Supprimer ce texte").font(.system(size: 14, weight: .semibold))
+                    }
+                    .padding(.vertical, 12)
+                }
+            }
+            .background(Color.white)
+            .navigationTitle(isNew ? "Nouveau texte" : "Texte \(text.language.label.lowercased())")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .topBarLeading) {
+                    Button("Annuler") { dismiss() }.foregroundStyle(Palette.ink)
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("OK") {
+                        library.saveText(text, in: songID)
+                        let kept = library.song(songID)?.texts.contains { $0.id == text.id } ?? false
+                        done(kept ? text.id : nil)
+                        dismiss()
+                    }
+                    .font(.system(size: 16, weight: .bold))
+                    .foregroundStyle(Palette.accent)
+                }
+            }
+            .onAppear { focused = isNew }
+            .confirmationDialog("Supprimer ce texte ?", isPresented: $confirmDelete, titleVisibility: .visible) {
+                Button("Supprimer", role: .destructive) {
+                    library.removeText(text.id, from: songID)
+                    done(nil)
+                    dismiss()
+                }
+                Button("Annuler", role: .cancel) {}
+            }
+        }
     }
 }
 

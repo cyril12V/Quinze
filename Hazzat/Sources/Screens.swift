@@ -438,7 +438,7 @@ struct SearchView: View {
         return library.periods.flatMap { period in
             period.songs
                 .filter {
-                    HomeView.fold($0.title).contains(needle) || HomeView.fold($0.text).contains(needle)
+                    HomeView.fold($0.title).contains(needle) || HomeView.fold($0.allText).contains(needle)
                         || HomeView.fold($0.section).contains(needle) || HomeView.fold(period.name).contains(needle)
                 }
                 .map { Library.Entry(song: $0, period: period) }

@@ -54,6 +54,11 @@ enum Typo {
     static let name = Font.system(size: 14, weight: .semibold)
     static let caption = Font.system(size: 12.5)
     static let lyrics = Font.system(size: 18)
+
+    /// Font for a text: Coptic letters need a font that has them (Noto Sans Coptic).
+    static func text(_ language: TextLanguage, size: CGFloat = 19) -> Font {
+        language == .copte ? .custom("NotoSansCoptic-Regular", size: size + 1) : .system(size: size)
+    }
 }
 
 extension Color {
@@ -359,8 +364,9 @@ struct SongRow: View {
         case 1: parts.append("1 feuille")
         default: parts.append("\(song.images.count) feuilles")
         }
-        if !song.text.isEmpty { parts.append("Paroles") }
-        if song.images.isEmpty && song.text.isEmpty { parts.append("Pas de feuille") }
+        let languages = song.writtenTexts.map(\.language.label)
+        if !languages.isEmpty { parts.append(languages.joined(separator: ", ")) }
+        if song.images.isEmpty && languages.isEmpty { parts.append("Vide") }
         return parts.joined(separator: " · ")
     }
 

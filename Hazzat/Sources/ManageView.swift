@@ -17,6 +17,7 @@ struct SongEditor: View {
     @State private var picked: [PhotosPickerItem] = []
     @State private var importing = false
     @State private var scanning = false
+    @State private var writing: TextDraft?
 
     var body: some View {
         NavigationStack {
@@ -85,11 +86,36 @@ struct SongEditor: View {
                 } footer: {
                     Text("Elles s'affichent dans cet ordre et défilent de gauche à droite. « Modifier » en haut pour changer l'ordre ; glisse vers la gauche pour en retirer une.")
                 }
-                Section("Paroles (franco)") {
-                    TextEditor(text: $draft.text)
-                        .frame(minHeight: 220)
-                        .autocorrectionDisabled()
-                        .textInputAutocapitalization(.never)
+                Section {
+                    ForEach(draft.texts) { text in
+                        Button { writing = TextDraft(songID: songID, text: text, isNew: false) } label: {
+                            VStack(alignment: .leading, spacing: 3) {
+                                Text(text.language.label)
+                                    .font(.system(size: 15, weight: .semibold))
+                                    .foregroundStyle(Palette.ink)
+                                Text(text.body)
+                                    .font(Typo.text(text.language, size: 13))
+                                    .foregroundStyle(Palette.muted)
+                                    .lineLimit(2)
+                            }
+                        }
+                    }
+                    .onMove { draft.texts.move(fromOffsets: $0, toOffset: $1) }
+                    .onDelete { draft.texts.remove(atOffsets: $0) }
+                    Menu {
+                        ForEach(TextLanguage.allCases, id: \.self) { language in
+                            Button(language.label) {
+                                writing = TextDraft(songID: songID, text: SongText(language: language), isNew: true)
+                            }
+                        }
+                    } label: {
+                        Label("Ajouter un texte (copte, franco, arabe, français)", systemImage: "text.alignleft")
+                            .foregroundStyle(Palette.ink)
+                    }
+                } header: {
+                    Text("Textes")
+                } footer: {
+                    Text("Autant de textes que tu veux. Ils s'affichent en onglets sur la page du chant.")
                 }
                 Section {
                     Toggle("Dans mes favoris", isOn: $draft.favorite)
@@ -131,6 +157,12 @@ struct SongEditor: View {
                     picked = []
                     importing = false
                 }
+            }
+            .sheet(item: $writing, onDismiss: {
+                // The text was saved in the library: take it back so that this screen does not overwrite it.
+                if let saved = library.song(songID) { draft.texts = saved.texts }
+            }) { draft in
+                TextEditorSheet(songID: draft.songID, text: draft.text, isNew: draft.isNew).environment(library)
             }
             .fullScreenCover(isPresented: $scanning) {
                 DocumentScanner { images in
